@@ -164,3 +164,24 @@ Rules for using it honestly:
   a listed age.
 - Ask the broker to apply the alternative ordinary consumer deletion if it declines
   the protected basis, so a rejection doesn't waste the request.
+
+## Email has two distinct roles — don't conflate them
+
+Opt-out forms use email for two different purposes, and treating them as one thing
+loses either coverage or automation:
+
+1. **Identity data** — the addresses whose records the broker should find and purge.
+   Assert *every* address the person uses (`all_emails`). Missing one leaves those
+   records in place.
+2. **Confirmation / contact field** — merely where the verification link is sent.
+   Point this at a mailbox the agent can actually read (`confirmation_email`), so
+   verification can be completed unattended.
+
+Record-matching does not depend on the confirmation address, so these can differ
+freely. Setting `confirmation_email` to a readable mailbox converts the single most
+common blocker — "click the link in your email" — from a manual step into an
+automated one, without weakening the request at all.
+
+Keep the sending account and `confirmation_email` the same where possible; a letter
+that arrives from one address and asks for replies at another invites a
+verification query.
