@@ -1,0 +1,19 @@
+{
+  "first_name": "",
+  "last_name": "",
+  "middle_name": "",
+  "email": "",
+  "phone_number": "",
+  "address": "",
+  "city": "",
+  "state": "",
+  "zip_code": "",
+  "country_code": "",
+  "unsubscribe_all": true,
+  "variants": {
+    "name_forms": [],
+    "phone_forms": [],
+    "address_forms": []
+  },
+  "_comment": "Copy to profile.json and fill in. profile.json is gitignored."
+}

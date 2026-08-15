@@ -1,0 +1,13 @@
+# --- PERSONAL DATA - never commit ---
+data/profile.json
+data/removal_status.json
+docs/REMOVAL_REPORT.md
+data/optery_sitemap.xml
+*.local.json
+.claude/settings.local.json
+screenshots/
+__pycache__/
+*.pyc
+outbox/
+data/url_health.json
+docs/MANUAL_CHECKLIST.md
