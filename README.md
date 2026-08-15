@@ -108,3 +108,17 @@ is worth more than the registry entry on its own.
 ## License
 
 MIT
+
+## Data sources for finding more brokers
+
+Four US states require data brokers to register and publish contact details. These
+are authoritative — far better than guessing `privacy@<domain>`:
+
+| State | Registry | Automation notes |
+|---|---|---|
+| California | <https://oag.ca.gov/data-brokers> | Hard-blocks automated access (Akamai). Individual registrations readable at `/data-broker/registration/<id>`. |
+| Vermont | <https://bizfilings.vermont.gov/online/DatabrokerInquire/> | JS single-page app; needs a real browser. |
+| Oregon | <https://justice.oregon.gov/consumer/DataBroker/> | Returns 401 to plain requests. |
+| Texas | <https://www.sos.state.tx.us/> | Registry moved; path needs rediscovery. |
+
+Ingesting these is open work — see CONTRIBUTING.md.

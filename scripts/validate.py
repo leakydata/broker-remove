@@ -1,0 +1,105 @@
+#!/usr/bin/env python3
+"""Validate data/curated_brokers.json before a commit or pull request.
+
+Catches the mistakes that are expensive precisely because they fail quietly:
+a duplicate id silently overwrites another broker, and a guessed contact address
+produces a bounce that is indistinguishable from a pending request.
+"""
+
+import json
+import re
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+CURATED = ROOT / "data" / "curated_brokers.json"
+PLAYBOOKS = ROOT / "brokers"
+
+METHODS = {"web_form", "web_form_captcha", "email", "account_required",
+           "postal", "phone", "unknown"}
+REQUIRED = ["id", "name", "domain", "priority", "method", "optout_url"]
+ID_RE = re.compile(r"^[a-z0-9_]+$")
+EMAIL_RE = re.compile(r"^[^@\s]+@[^@\s]+\.[^@\s]+$")
+
+# Addresses shaped like a guess. Not wrong by definition, but worth a look --
+# these are exactly the ones that bounce.
+GUESSY_LOCAL = {"privacy", "support", "info", "contact", "legal", "admin"}
+
+errors, warnings = [], []
+
+
+def main():
+    data = json.loads(CURATED.read_text())
+    brokers = data["brokers"]
+
+    seen_ids, seen_domains = {}, {}
+    for i, b in enumerate(brokers):
+        where = f"[{i}] {b.get('id', '<no id>')}"
+
+        for f in REQUIRED:
+            if not b.get(f) and b.get(f) != 0:
+                errors.append(f"{where}: missing required field '{f}'")
+
+        bid = b.get("id", "")
+        if bid and not ID_RE.match(bid):
+            errors.append(f"{where}: id must be lowercase letters/digits/underscores")
+        if bid in seen_ids:
+            errors.append(f"{where}: duplicate id, collides with entry [{seen_ids[bid]}]")
+        seen_ids[bid] = i
+
+        dom = b.get("domain", "")
+        if dom:
+            if dom.startswith(("http://", "https://")) or "/" in dom:
+                errors.append(f"{where}: domain should be a bare hostname, got '{dom}'")
+            if dom in seen_domains:
+                warnings.append(
+                    f"{where}: domain '{dom}' already used by [{seen_domains[dom]}] "
+                    f"- intentional only if they're genuinely separate properties")
+            seen_domains[dom] = i
+
+        pr = b.get("priority")
+        if not isinstance(pr, int) or not 1 <= pr <= 5:
+            errors.append(f"{where}: priority must be an int 1-5, got {pr!r}")
+
+        m = b.get("method")
+        if m not in METHODS:
+            errors.append(f"{where}: method {m!r} not one of {sorted(METHODS)}")
+
+        url = b.get("optout_url", "")
+        if url and not url.startswith("https://"):
+            warnings.append(f"{where}: optout_url is not https - '{url}'")
+
+        to = b.get("email_to")
+        if to:
+            if not EMAIL_RE.match(to):
+                errors.append(f"{where}: email_to '{to}' is not a valid address")
+            elif to.split("@")[0].lower() in GUESSY_LOCAL and not b.get("email_verified"):
+                warnings.append(
+                    f"{where}: email_to '{to}' looks guessed. Verify it against the "
+                    f"privacy policy or a state registry, then set "
+                    f"\"email_verified\": true. A bounce is invisible in the tracker.")
+
+        if b.get("method") == "email" and not to:
+            errors.append(f"{where}: method is 'email' but no email_to given")
+
+        if b.get("needs_email_confirm") is None and b.get("method") != "unknown":
+            warnings.append(f"{where}: needs_email_confirm unset - "
+                            f"unclear whether the request is void until confirmed")
+
+    # A high-priority broker with no playbook is the biggest documentation gap.
+    for b in brokers:
+        if b.get("priority", 0) >= 4 and not (PLAYBOOKS / f"{b['id']}.md").exists():
+            warnings.append(f"{b['id']}: priority {b['priority']} but no "
+                            f"brokers/{b['id']}.md playbook")
+
+    for w in warnings:
+        print(f"  warn: {w}")
+    for e in errors:
+        print(f"  ERROR: {e}", file=sys.stderr)
+
+    print(f"\n{len(brokers)} curated brokers | {len(errors)} errors | {len(warnings)} warnings")
+    return 1 if errors else 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
