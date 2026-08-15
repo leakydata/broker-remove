@@ -247,3 +247,26 @@ Rules that follow:
   `submitted`.** No email means no request. Use `email_pending` at most.
 - On multi-step wizards, screenshot after each step rather than chaining clicks.
 - Never mark `submitted` on the strength of "the page changed".
+
+## Playbooks are the deliverable — don't skip them on email batches
+
+The per-broker `brokers/<id>.md` files are worth more than any single submission.
+A submission helps one person once; a playbook helps everyone who tries that
+broker afterwards, and it is what makes a reply interpretable weeks later.
+
+The failure mode to guard against: playbooks get written diligently while working
+browser forms (where something is learned each step) and skipped during email
+batches (where it feels like nothing was learned). That is backwards — the email
+brokers are the ones whose replies arrive later needing context.
+
+Every broker moved to an acted-on status gets a playbook **in the same pass**:
+
+```
+python3 scripts/scaffold_playbook.py --missing   # fills registry/status facts
+```
+
+then write the part that was actually learned. `scripts/validate.py` **errors** if
+an acted-on broker has no playbook, so this cannot drift silently.
+
+When a reply arrives, update the broker's playbook, not just the tracker note.
+The tracker records *what happened*; the playbook records *what to do next time*.

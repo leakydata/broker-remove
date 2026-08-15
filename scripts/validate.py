@@ -89,6 +89,28 @@ def main():
             warnings.append(f"{where}: needs_email_confirm unset - "
                             f"unclear whether the request is void until confirmed")
 
+    # Any broker we have ACTED on must have a playbook. This is the gap that
+    # opens silently: playbooks get written while working browser forms, then
+    # skipped during email batches -- which is exactly when the knowledge is
+    # freshest and a reply is about to need interpreting.
+    state_path = ROOT / "data" / "removal_status.json"
+    if state_path.exists():
+        state = json.loads(state_path.read_text())
+        acted = {"submitted", "email_pending", "captcha_blocked",
+                 "manual_required", "failed"}
+        family = {"intelius", "truthfinder", "instantcheckmate", "ussearch",
+                  "zabasearch", "addresses_com"}
+        for bid, rec in state.items():
+            if rec.get("status") not in acted:
+                continue
+            if (PLAYBOOKS / f"{bid}.md").exists():
+                continue
+            if bid in family and (PLAYBOOKS / "peopleconnect.md").exists():
+                continue
+            errors.append(
+                f"{bid}: status '{rec.get('status')}' but no brokers/{bid}.md - "
+                f"run scripts/scaffold_playbook.py --missing")
+
     # A high-priority broker with no playbook is the biggest documentation gap.
     for b in brokers:
         if (b.get("priority", 0) >= 4 and b.get("source") != "optery_scrape"
