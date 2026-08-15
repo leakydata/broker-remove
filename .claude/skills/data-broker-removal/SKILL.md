@@ -36,6 +36,37 @@ skipped.
    ```
 5. **Report** with `python3 scripts/tracker.py report`.
 
+## Two operating modes
+
+Pick one at the start of a session and say which you're using.
+
+### Assisted mode (default when the user is at the keyboard)
+
+The user stays in the loop only for the seconds a CAPTCHA takes. Everything else
+runs unattended.
+
+1. Work the queue normally: search, identify the record, fill every field.
+2. When you hit a CAPTCHA, **stop and hand off immediately** — do not batch it.
+   State the tab and what to click, in one short line: "Spokeo tab — tick the
+   reCAPTCHA and I'll submit."
+3. **Wait for the user to say it's done, then submit within the same minute.**
+4. Confirm the result, record status, move to the next broker without being asked.
+
+The just-in-time handoff is not a stylistic choice. A reCAPTCHA token expires
+roughly two minutes after it's solved, so a solved checkbox sitting in a queued
+tab goes stale and the user has to redo it. Solve-then-submit must be adjacent.
+
+Keep exactly one CAPTCHA pending at a time. While waiting, it's fine to stage the
+*next* broker's form in another tab — just don't ask for a second solve until the
+first is submitted.
+
+### Batch mode (user is away)
+
+Stage as much as possible, mark blockers `captcha_blocked`, and keep going. At the
+end run `generate_checklist.py` so every human step sits in one document. Warn the
+user that pre-filled forms may need re-filling if a session has expired by the time
+they get to them.
+
 ## Status vocabulary
 
 `pending` `not_found` `submitted` `email_pending` `captcha_blocked`
