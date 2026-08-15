@@ -18,5 +18,7 @@
   "_comment": "Copy to profile.json and fill in. profile.json is gitignored.",
   "confirmation_email": "",
   "all_emails": [],
-  "_email_note": "Brokers index records by email. Submit ALL of all_emails on any form that accepts multiple, so records tied to the secondary addresses are purged too. Use confirmation_email for verification links."
+  "_email_note": "Brokers index records by email. Submit ALL of all_emails on any form that accepts multiple, so records tied to the secondary addresses are purged too. Use confirmation_email for verification links.",
+  "date_of_birth": "",
+  "dob_display": ""
 }
