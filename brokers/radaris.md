@@ -17,6 +17,31 @@
 5. Verification link + confirmation code arrive by email. Use a mailbox you can
    actually read; the email doubles as the status-tracking reference.
 
+## STATUS: the web removal flow does not complete
+
+**Confirmed over two full attempts with the CAPTCHA solved by a human.** The
+`/control-privacy` wizard identifies the record correctly, accepts an email at the
+"Begin verification" step — which explicitly promises *"We will send you a link and
+confirmation code"* — and then sends nothing. No verification email, no code, on
+either attempt.
+
+What arrives instead is an email from **OneRep** asking the user to confirm an
+account they did not knowingly create.
+
+So the observable behaviour is: a consumer follows Radaris's own published removal
+instructions and ends up enrolled with a third-party commercial service, with no
+removal request on file. Whether that is a broken send or a deliberate funnel is
+not something to assert from outside — but the outcome is the same either way, and
+it is why this broker is marked `failed` rather than `submitted`.
+
+**Do not confirm the OneRep email.** Confirming activates an account against the
+requester's address at a company they never chose.
+
+**Escalation:** reply on the `customer-service@radaris.com` thread asking them to
+process the removal directly from the email, and to state in writing (a) that the
+record is removed, (b) whether any data was transmitted to OneRep, and (c) that no
+monitoring subscription was created.
+
 ## The OneRep trap — how to tell a real submission from a fake one
 
 After the final SUBMIT you may land on a page reading *"Remove info from 230+

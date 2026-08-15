@@ -45,3 +45,21 @@ Also check whether **request type changes the outcome**. On both sites,
 form and submits. A broker can be simultaneously refusing deletion and accepting
 disclosure requests — and a Right to Know still compels disclosure, creates a
 dated record, and unlocks their appeal process.
+
+## When every route fails, say so in writing
+
+Two brokers now have no working self-service path at all:
+
+- **PeopleFinders** — opt-out bot-gated, rights form returns a server error, email refused
+- **Radaris** — wizard completes but never sends the promised verification email,
+  terminating on a third-party upsell instead
+
+The useful move is not to keep retrying. It is to **document the failure precisely
+in a written request** — which page, which step, what the error said, how many
+attempts — and ask them to process directly or name a route that works. That
+converts a dead end into a dated record of the company failing to provide a
+mechanism, which is worth having if the matter ever goes further.
+
+Keep the tone measured and avoid asserting intent. "Your form returns this error
+on two attempts, please process from this ticket" is harder to dismiss than an
+accusation, and it gives them an easy way to fix it.

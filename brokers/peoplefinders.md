@@ -7,6 +7,26 @@
 - **Affiliate:** PeoplefindersDaaS (separate CA registration 191581)
 - **Priority: 5.**
 
+## STATUS: no working self-service route
+
+As of the last attempt, **every route fails**:
+
+| Route | Result |
+|---|---|
+| `/opt-out` | Cloudflare challenge on page load — never reaches the form |
+| `/request-my-info` | Loads, but submitting returns *"An unexpected error occurred"* — twice, with CAPTCHA solved. Server-side fault |
+| Email | Explicitly refused: *"We do not accept privacy requests received via email"* |
+| `/dashboard/account/delete` | Account holders only — doesn't reach a public listing |
+
+The combination — a bot-gated opt-out, a broken rights form, and a refusal to take
+email — leaves a consumer with no functioning way to exercise their rights. Worth
+stating plainly in the ticket, since it is unlikely to be intentional and is the
+kind of thing that gets fixed once someone internally notices.
+
+**Escalation:** reply on ticket **2585053** documenting both failures and asking
+them to process from the ticket, or to confirm the telephone route
+**(800) 718-8997** as the working path.
+
 ## Three routes, only some usable
 
 | Right | URL | Gated? |
