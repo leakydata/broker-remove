@@ -1,0 +1,4567 @@
+{
+  "</loc>": {},
+  "1called-com": {},
+  "1who-net": {},
+  "33across": {
+    "optout_url": "https://udp.33across.com/udp_opt_out",
+    "email": "privacy@33across.com",
+    "country": "United States"
+  },
+  "33-mile-radius": {
+    "email": "privacy@33mileradius.com",
+    "country": "United States"
+  },
+  "360-media-direct": {
+    "email": "privacy@360mediadirect.com",
+    "country": "United States"
+  },
+  "411-com": {
+    "site_url": "https://www.411.com/",
+    "optout_url": "https://www.whitepages.com/suppression-requests",
+    "email": "support@whitepages.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "411reverselookup-ca": {},
+  "6sense-insights-inc": {
+    "optout_url": "https://6sense.com/privacy-policy/",
+    "email": "privacy@6sense.com"
+  },
+  "ace-agents": {
+    "optout_url": "https://www.aceagents.ai/privacy",
+    "email": "admin@aceagents.ai",
+    "country": "United States"
+  },
+  "ach-address-clearing-house": {
+    "optout_url": "https://www.achcoop.com/do-not-sell-my-personal-info",
+    "email": "privacy@achcoop.com",
+    "country": "United States"
+  },
+  "acxiom": {
+    "optout_url": "https://isapps.acxiom.com/optout/optout.aspx",
+    "email": "consumeradvo@acxiom.com",
+    "country": "ALL"
+  },
+  "adapt-io": {
+    "optout_url": "https://www.adapt.io/check-my-email",
+    "email": "support@adapt.io",
+    "country": "ALL"
+  },
+  "ad-direct": {
+    "email": "customerservice@addirectinc.com",
+    "country": "United States"
+  },
+  "addresses-com": {
+    "site_url": "https://www.addresses.com/",
+    "optout_url": "https://www.intelius.com/privacy-center",
+    "email": "priorityoptout@intelius.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "address-scoop": {
+    "site_url": "https://www.addressscoop.com/",
+    "email": "support@addressscoop.com",
+    "type": "People Search"
+  },
+  "addresssearch-com": {
+    "site_url": "https://www.addresssearch.com/",
+    "optout_url": "https://www.addresssearch.com/remove-info.php",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "addrhistory": {
+    "site_url": "https://addrhistory.com/",
+    "type": "People Search"
+  },
+  "adstra-american-list-counsel": {
+    "site_url": "https://adstradata.com/",
+    "optout_url": "https://privacyportal.onetrust.com/webform/3d2d5e0c-bd98-46b8-906c-ede68a6f6a80/f54a1b10-bb5d-4c99-9521-3e08dc527583",
+    "email": "privacy.officer@adstradata.com",
+    "country": "ALL",
+    "type": "People Search"
+  },
+  "adttribution": {
+    "optout_url": "https://www.adttribution.com/opt-out.html",
+    "email": "info@adttribution.com",
+    "country": "United States"
+  },
+  "advancedbackgroundchecks": {
+    "site_url": "https://www.advancedbackgroundchecks.com/",
+    "optout_url": "https://www.advancedbackgroundchecks.com/removal",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "aeroleads": {
+    "optout_url": "https://aeroleads.com/contact",
+    "email": "hello@aeroleads.com",
+    "country": "ALL"
+  },
+  "affinity-answers": {
+    "optout_url": "https://www.affinityanswers.com/your-privacy-choices/",
+    "email": "dataprivacy@affinityanswers.com",
+    "country": "Belgium, Bulgaria, Croatia, Cyprus, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Malta, Netherlands, Iceland, Austria, Czech Republic, Greece, Lithuania, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, United Kingdom, Liechtenstein, Norway, United States"
+  },
+  "affinity-solutions": {
+    "optout_url": "https://affinitysolutions-privacy.my.onetrust.com/webform/a564cfa1-53bf-4c10-bf95-cd907432d7e8/7e4e6bf3-6562-454e-8c73-6a7bd1f4b336",
+    "email": "privacy@affinitysolutions.com",
+    "country": "United States"
+  },
+  "affluense-ai": {
+    "optout_url": "https://www.affluense.ai/privacy-policy",
+    "email": "rishi@saleasy.io"
+  },
+  "affordable-background-checks": {
+    "site_url": "http://affordablebackgroundchecks.com",
+    "optout_url": "https://infotracer.com/optout/",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "aged-lead-store": {
+    "email": "optout@nextwavemarketingstrategies.com",
+    "country": "United States"
+  },
+  "aged-solar-leads-llc": {
+    "optout_url": "https://agedsolarleads.com/privacy-policy/",
+    "email": "info@agedsolarleads.com"
+  },
+  "agr-marketing-solutions": {
+    "email": "info@agrmarketingsolutions.com",
+    "country": "United States"
+  },
+  "aidentified": {
+    "optout_url": "https://www.aidentified.com/do-not-sell-my-data/",
+    "email": "privacy@aidentified.com",
+    "country": "United States"
+  },
+  "alabama-arrests": {
+    "site_url": "https://www.alabamaarrests.org/",
+    "optout_url": "https://infotracer.com/optout/",
+    "email": "privacy@infotracer.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "alabamacourtrecords-us": {
+    "site_url": "https://alabamacourtrecords.us/",
+    "optout_url": "https://alabamacourtrecords.us/optout/",
+    "email": "privacy@courtrecords.us",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "alarmscalifornia": {
+    "site_url": "http://www.alarmscalifornia.org/",
+    "optout_url": "http://www.alarmscalifornia.org/about",
+    "email": "contact@licensedata.org",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "alaska-arrests": {
+    "site_url": "https://www.alaskaarrests.org/",
+    "optout_url": "https://infotracer.com/optout/",
+    "email": "privacy@infotracer.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "alaskacourtrecords-us": {
+    "site_url": "https://alaskacourtrecords.us/",
+    "optout_url": "https://alaskacourtrecords.us/optout/",
+    "email": "privacy@courtrecords.us",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "alesco-data": {
+    "email": "info@alescodata.com",
+    "country": "Canada, United States"
+  },
+  "alignable-inc": {},
+  "allant-group-llc": {
+    "email": "privacy@allantgroup.com"
+  },
+  "all-biz": {
+    "optout_url": "https://www.allbiz.com/removal",
+    "email": "webmaster@allbiz.com",
+    "country": "United States"
+  },
+  "allhighschools-com": {
+    "site_url": "https://allhighschools.com",
+    "email": "press@allhighschools.com",
+    "type": "People Search"
+  },
+  "alliant": {
+    "optout_url": "https://privacyportal-cdn.onetrust.com/dsarwebform/591ac1c1-3a1e-496f-9e43-ff4afb5fef85/2b52262e-8ada-4725-b86e-e4b960336f96.html",
+    "email": "compliance@alliantdata.com",
+    "country": "United States"
+  },
+  "allpeople": {
+    "optout_url": "https://allpeople.com/removal",
+    "email": "webmaster@allpeople.com",
+    "country": "United States"
+  },
+  "allpeople-biz": {},
+  "alphonso": {
+    "optout_url": "https://choice.alphonso.tv/donotsell",
+    "email": "compliance@lgads.tv",
+    "country": "United States"
+  },
+  "altrata-inc": {
+    "email": "piprivacy@altrada.com",
+    "country": "ALL"
+  },
+  "alumni-us-2": {
+    "site_url": "https://alumnius.net/",
+    "type": "People Search"
+  },
+  "amedisys-inc": {
+    "optout_url": "https://cdn.amedisys.com/userfiles/CCPA%20Request%20Form.pdf",
+    "email": "privacy@amedisys.com"
+  },
+  "american-city-business-journals": {
+    "email": "PrivacyPolicyCoordinator@bizjournals.com",
+    "country": "United States"
+  },
+  "americaphonebook": {
+    "site_url": "http://www.americaphonebook.com/",
+    "optout_url": "http://www.americaphonebook.com/contact.php",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "amfibi": {},
+  "amf-internet-services-limited": {
+    "optout_url": "https://anymailfinder.com/legal/gdpr",
+    "email": "legal@anymailfinder.com"
+  },
+  "amone": {
+    "optout_url": "https://apply.amone.com/privacy.asp",
+    "email": "trustpilot@amone.com"
+  },
+  "amplemarket": {
+    "email": "privacy@amplemarket.com",
+    "country": "United States"
+  },
+  "analyticsiq": {
+    "optout_url": "https://privacyportal.onetrust.com/webform/f6a59500-f900-4652-b030-0cd51afe15a5/87ca07e4-e06c-4ad8-9aa6-ccbbaa8750c1",
+    "email": "privacy@analyticsiq.com",
+    "country": "ALL"
+  },
+  "ancestry-com-uk-limited": {
+    "email": "support@ancestry.co.uk"
+  },
+  "anchor": {
+    "optout_url": "https://ecom2.anchorcomputer.com/ccpa",
+    "email": "privacyteam@anchorcomputer.com",
+    "country": "United States"
+  },
+  "andrews-wharton": {
+    "optout_url": "https://www.andrewswharton.com/your-privacy-choices",
+    "email": "privacy@andrewswharton.com",
+    "country": "United States"
+  },
+  "answerlady": {
+    "site_url": "https://answerlady.com/",
+    "email": "customercare@peoplefinders.com",
+    "type": "People Search"
+  },
+  "anteriad": {
+    "optout_url": "https://info.anteriad.com/marketing-data-unsubscribe-page",
+    "email": "privacy@anteriad.com",
+    "country": "Belgium, Bulgaria, Croatia, Cyprus, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Luxembourg, Malta, Netherlands, Canada, Austria, Czech Republic, Greece, Lithuania, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, United Kingdom, United States"
+  },
+  "anywho": {
+    "site_url": "https://www.anywho.com/",
+    "optout_url": "https://www.intelius.com/suppression-center/",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "apartments-com": {
+    "optout_url": "https://www.apartments.com/grow/about/do-not-sell-my-personal-information-california-residents",
+    "email": "support@apartments.com"
+  },
+  "apollo": {
+    "optout_url": "https://www.apollo.io/privacy-policy/remove",
+    "email": "privacy@apollo.io",
+    "country": "ALL"
+  },
+  "appily": {
+    "email": "privacy@eab.com",
+    "country": "United States"
+  },
+  "areacode-lookup": {
+    "optout_url": "https://www.areacode-lookup.com/optout",
+    "country": "United States"
+  },
+  "arity": {
+    "email": "privacy@arity.com",
+    "country": "United States"
+  },
+  "arizona-arrests": {
+    "site_url": "https://www.arizonaarrests.org/",
+    "optout_url": "https://infotracer.com/optout/",
+    "email": "privacy@infotracer.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "arizona-corporation-commission": {},
+  "arizonacourtrecords-us": {
+    "site_url": "https://arizonacourtrecords.us/",
+    "optout_url": "https://arizonacourtrecords.us/optout/",
+    "email": "privacy@courtrecords.us",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "arkansas-arrests": {
+    "site_url": "https://www.arkansasarrests.org/",
+    "optout_url": "https://infotracer.com/optout/",
+    "email": "privacy@infotracer.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "arkansascourtrecords-us": {
+    "site_url": "https://arkansascourtrecords.us/",
+    "optout_url": "https://arkansascourtrecords.us/optout/",
+    "email": "privacy@courtrecords.us",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "arounddeal": {
+    "optout_url": "https://www.arounddeal.com/remove-profile",
+    "email": "support@arounddeal.com",
+    "country": "ALL"
+  },
+  "arrests-org": {
+    "site_url": "https://arrests.org/",
+    "email": "info@arrests.org",
+    "type": "People Search"
+  },
+  "arrestwarrant-org": {
+    "site_url": "https://arrestwarrant.org/",
+    "optout_url": "https://ms.arrestwarrant.org/InfoPayOpt-OutNew.pdf",
+    "email": "support@verifyrecords.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "aspire-north": {
+    "email": "privacy@aspire-north.com",
+    "country": "United States"
+  },
+  "atdata": {
+    "site_url": "https://www.atdata.com/",
+    "optout_url": "https://instantdata.atdata.com/optout",
+    "email": "privacy@atdata.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "attribits": {
+    "optout_url": "https://www.attribits.com/do-not-sell",
+    "email": "compliance@allgoodmediagroup.com",
+    "country": "United States"
+  },
+  "audience-acuity": {
+    "optout_url": "https://audienceacuity.com/opt-out-of-database/",
+    "email": "privacy@audienceacuity.com",
+    "country": "United States"
+  },
+  "audiencerate": {
+    "optout_url": "https://www.audiencerate.com/optout",
+    "email": "privacy@audiencerate.com",
+    "country": "United States"
+  },
+  "ausibiz-2": {},
+  "awl": {
+    "optout_url": "https://dnc.allwebleads.com/Unsubscribe",
+    "email": "onlineops@awl.com",
+    "country": "United States"
+  },
+  "b2bhint": {
+    "email": "hello@b2bhint.com"
+  },
+  "background-alert-inc": {
+    "site_url": "https://backgroundalert.com",
+    "email": "info@BackgroundAlert.com",
+    "type": "People Search"
+  },
+  "backgroundcheckers": {
+    "site_url": "https://www.backgroundcheckers.net/",
+    "optout_url": "https://www.backgroundcheckers.net/api/helper/optOutLight/search",
+    "email": "support@backgroundcheckers.net",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "backgroundcheckme-org": {
+    "site_url": "https://www.backgroundcheckme.org/",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "backgroundchecks-me": {
+    "site_url": "https://backgroundchecks.me/",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "background-checks-org": {
+    "site_url": "https://backgroundchecks.org/",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "background-hawk": {
+    "site_url": "https://backgroundhawk.com/",
+    "optout_url": "https://www.truthfinder.com/opt-out/v2/submit/",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "bay-collective-ip-llc": {
+    "site_url": "https://bayparcels.com/",
+    "email": "info@baycollective.com",
+    "type": "People Search"
+  },
+  "bdo": {
+    "optout_url": "https://www.bdo.com/consumer-request-form",
+    "email": "privacy@bdo.com",
+    "country": "United States"
+  },
+  "beenverified": {
+    "site_url": "https://www.beenverified.com",
+    "optout_url": "https://www.beenverified.com/svc/optout/search/comprehensive_optouts",
+    "email": "privacy@beenverified.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "belardi-wong": {
+    "optout_url": "https://privacyportal.onetrust.com/webform/3d2d5e0c-bd98-46b8-906c-ede68a6f6a80/400f54ed-fcbb-4749-ab5b-32f491c72390",
+    "email": "privacy.officer@belardiwong.com",
+    "country": "United States"
+  },
+  "besthistorysites-net": {
+    "site_url": "https://besthistorysites.net",
+    "email": "support@besthistorysites.net",
+    "type": "People Search"
+  },
+  "big-bend-transit-inc": {
+    "email": "info@bigbendtransit.org"
+  },
+  "big-village": {
+    "optout_url": "https://big-village.com/do-not-sell-or-share-my-personal-information/",
+    "email": "dpo_US@big-village.com",
+    "country": "United States"
+  },
+  "billtrust": {
+    "email": "privacy@billtrust.com",
+    "country": "United States"
+  },
+  "birdeye": {
+    "optout_url": "https://birdeye.com/ccpa/",
+    "email": "privacy@birdeye.com",
+    "country": "Belgium, Bulgaria, Croatia, Cyprus, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Luxembourg, Malta, Netherlands, Austria, Czech Republic, Greece, Lithuania, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, United Kingdom, United States"
+  },
+  "bizarchive": {
+    "email": "webmaster@bizarchive.com",
+    "country": "United States"
+  },
+  "bizireland": {},
+  "bluaziende": {
+    "email": "info@bluaziende.com"
+  },
+  "blue-action": {
+    "optout_url": "https://request.blueaction.io/",
+    "email": "privacy@blueaction.io",
+    "country": "United States"
+  },
+  "brady-list": {},
+  "brandwatch": {
+    "email": "privacy@brandwatch.com",
+    "country": "United States"
+  },
+  "brightswipe": {
+    "email": "support@brightswipe.com",
+    "country": "United States"
+  },
+  "brooksim": {
+    "optout_url": "https://www.brooksim.com/privacy-form",
+    "email": "privacy@brooksim.com",
+    "country": "United States"
+  },
+  "buildertrend": {
+    "optout_url": "https://buildertrend.com/privacy-policy/",
+    "email": "privacy@buildertrend.com",
+    "country": "Canada, United Kingdom, United States, Australia, New Zealand"
+  },
+  "bumper": {
+    "site_url": "https://www.bumper.com",
+    "optout_url": "https://www.bumper.com/svc/optout/search/comprehensive_optouts",
+    "email": "privacy@bumper.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "business-cheshire": {
+    "email": "hello@businesscheshire.co.uk"
+  },
+  "business-watch-network": {
+    "email": "support@bizwatchnetwork.com",
+    "country": "United States"
+  },
+  "buyersroad-inc": {
+    "email": "privacy@experience.com"
+  },
+  "buzzfile-media-llc": {
+    "optout_url": "https://www.buzzfile.com/Company/Remove",
+    "email": "sales@buzzfile.com"
+  },
+  "cadent": {
+    "email": "privacy@cadent.tv",
+    "country": "United States"
+  },
+  "california-arrests": {
+    "site_url": "https://www.californiaarrests.org/",
+    "optout_url": "https://www.californiaarrests.org/ccpaOptOut/",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "californiabrokers-org": {
+    "site_url": "http://www.californiabrokers.org/",
+    "optout_url": "http://www.californiabrokers.org/about#contact",
+    "email": "contact@licensedata.org",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "california-business-database": {},
+  "californiacourtrecords-us": {
+    "site_url": "https://californiacourtrecords.us/",
+    "optout_url": "https://californiacourtrecords.us/optout/",
+    "email": "privacy@courtrecords.us",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "california-criminal-records-search": {
+    "site_url": "https://www.californiacriminalrecords.org/",
+    "optout_url": "https://californiacriminalrecords.org/contact",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "californiaengineering-org": {
+    "site_url": "http://californiaengineering.org/",
+    "optout_url": "http://www.californiaengineering.org/about#contact",
+    "email": "contact@licensedata.org",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "californialicensing-org": {
+    "site_url": "http://californialicensing.org/",
+    "optout_url": "http://www.californialicensing.org/about#contact",
+    "email": "contact@licensedata.org",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "californianursing-org": {
+    "site_url": "http://www.californianursing.org/",
+    "optout_url": "http://www.californianursing.org/about#contact",
+    "email": "contact@licensedata.org",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "californiapharmacists-org": {
+    "site_url": "http://www.californiapharmacists.org/",
+    "optout_url": "http://www.californiapharmacists.org/about#contact",
+    "email": "contact@licensedata.org",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "callapp-software-ltd": {
+    "optout_url": "https://callapp.com/support/can-i-wipe-my-information-from-callapp-2",
+    "email": "support@callapp.com"
+  },
+  "callercenter-com-2": {
+    "optout_url": "https://www.callercenter.com/remove_name.htm"
+  },
+  "calleridtest": {},
+  "caller-name": {
+    "email": "callername@rumex.bh"
+  },
+  "callersmart": {
+    "optout_url": "https://www.callersmart.com/data",
+    "email": "feedback@callersmart.com",
+    "country": "United States"
+  },
+  "canada-company-registry": {},
+  "careerbuilder": {
+    "optout_url": "https://edge.careerbuilder.com/optout",
+    "email": "riskandcompliance@careerbuilder.com",
+    "country": "United States"
+  },
+  "catalyze-ai": {
+    "email": "privacy@catalyzeai.com",
+    "country": "United States"
+  },
+  "cause-iq": {
+    "optout_url": "https://www.causeiq.com/privacy_policy/ccpa/",
+    "email": "help@causeiq.com"
+  },
+  "cb-insights-inc": {
+    "email": "info@cbinsights.com"
+  },
+  "censia": {
+    "optout_url": "https://docs.google.com/forms/d/1VhF33VAQG4AmUqBWf7e3m8fw17h9ek64EtQXnuuBQcA/viewform",
+    "email": "support@censia.com",
+    "country": "Belgium, Bulgaria, Croatia, Cyprus, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Luxembourg, Malta, Netherlands, Austria, Czech Republic, Greece, Lithuania, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, United Kingdom, United States"
+  },
+  "census-info-us": {
+    "site_url": "https://census-info.us",
+    "type": "People Search"
+  },
+  "chamberofcommerce-com": {
+    "email": "info@chamberofcommerce.com"
+  },
+  "checkpeople": {
+    "site_url": "http://checkpeople.com/",
+    "optout_url": "https://checkpeople.com/opt-out",
+    "email": "support@checkpeople.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "checksecrets": {
+    "site_url": "https://www.checksecrets.com/",
+    "optout_url": "https://www.checksecrets.com/api/helper/optOutLight/search",
+    "email": "support@checksecrets.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "choreograph": {
+    "optout_url": "https://amer-cpp.choreograph.com/manage-your-data/do-not-sell",
+    "email": "privacy@choreograph.com",
+    "country": "United States"
+  },
+  "cience-technologies-inc": {
+    "email": "privacy@cience.com"
+  },
+  "cint": {
+    "email": "privacy@Cint.com",
+    "country": "United States"
+  },
+  "cision": {
+    "email": "privacy@cision.com",
+    "country": "United States"
+  },
+  "citydata": {
+    "optout_url": "https://citydata.ai/privacy/do_not_sell_personal_information/",
+    "email": "privacy@citydata.ai",
+    "country": "United States"
+  },
+  "city-data-com": {
+    "site_url": "https://www.city-data.com/",
+    "optout_url": "https://www.city-data.com/delrequest/form.php",
+    "email": "others@city-data.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "cityzor-2": {
+    "site_url": "https://cityzor.com",
+    "type": "People Search"
+  },
+  "civis": {
+    "optout_url": "https://docs.google.com/forms/d/e/1FAIpQLSfvUYww9wEK9Y4F6VY3nQtm0bBS8QTdcDthet6WAKDYqnnwHA/viewform",
+    "email": "dataprotection@civisanalytics.com",
+    "country": "United States"
+  },
+  "claritas": {
+    "optout_url": "https://privacyportal.onetrust.com/webform/68582716-6ce4-4f6e-bf08-78371b5f3292/6c7dc52d-0e2b-481f-9256-0755179e3783.html",
+    "email": "privacyinfo@claritas.com",
+    "country": "United States"
+  },
+  "classmates-com": {
+    "site_url": "https://www.classmates.com/",
+    "optout_url": "https://www.classmates.com/about/privacy#p-8",
+    "email": "privacy@classmates.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "clay": {
+    "email": "support@clay.com"
+  },
+  "clearbit": {
+    "optout_url": "https://preferences.clearbit.com/privacy",
+    "email": "privacy@clearbit.com",
+    "country": "ALL"
+  },
+  "clearout-io": {
+    "email": "us@clearout.io",
+    "country": "ALL"
+  },
+  "click-search-llc": {
+    "site_url": "https://clicksearch.us/",
+    "email": "info@clicksearchsolutions.com",
+    "type": "People Search"
+  },
+  "client-command": {
+    "email": "privacy@ClientCommand.com",
+    "country": "United States"
+  },
+  "clodura-ai": {
+    "optout_url": "https://www.clodura.ai/privacy-policy/",
+    "email": "info@clodura.ai"
+  },
+  "closely-2": {
+    "email": "support@closelyhq.com"
+  },
+  "cml-medical": {
+    "optout_url": "https://www.completemedicallists.com/ccpa.php",
+    "email": "info@completemedicallists.com",
+    "country": "United States"
+  },
+  "coalition-greenwich": {
+    "email": "privacy1@crisil.com",
+    "country": "United States"
+  },
+  "cocofinder": {
+    "site_url": "https://cocofinder.com/",
+    "optout_url": "https://cocofinder.com/remove-my-info",
+    "email": "support@cocofinder.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "cognism": {
+    "optout_url": "https://www.cognism.com/data-opt-out",
+    "email": "privacy@cognism.com",
+    "country": "United States"
+  },
+  "colorado-arrests": {
+    "site_url": "https://www.coloradoarrests.org/",
+    "optout_url": "https://infotracer.com/optout/",
+    "email": "privacy@infotracer.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "coloradocourtrecords-us": {
+    "site_url": "https://coloradocourtrecords.us/",
+    "optout_url": "https://coloradocourtrecords.us/optout/",
+    "email": "privacy@courtrecords.us",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "coloradoresidentdirectory": {
+    "site_url": "https://www.coloradoresidentdirectory.com/",
+    "optout_url": "https://www.coloradoresidentdirectory.com/opt-out",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "commercial-list": {
+    "email": "enquiries@commerciallist.co.uk"
+  },
+  "commercial-real-estate-exchange-inc": {
+    "email": "privacy@crexi.com"
+  },
+  "company-check-ltd": {
+    "email": "contactus@companycheck.co.uk"
+  },
+  "compile": {
+    "optout_url": "https://www.compile.com/hcp-opt-out/",
+    "email": "privacy@compile.com",
+    "country": "United States"
+  },
+  "complementics": {
+    "email": "Privacy@complementics.com",
+    "country": "United States"
+  },
+  "completed-com": {
+    "optout_url": "https://completed.com/ccpa"
+  },
+  "comscore": {
+    "optout_url": "https://www.comscore.com/About/Privacy/Data-Subject-Rights",
+    "email": "dsr@comscore.com",
+    "country": "ALL"
+  },
+  "confidentialphonelookup": {
+    "optout_url": "https://www.confidentialphonelookup.com/removals/",
+    "email": "confidentialphonelookup@gmail.com",
+    "country": "United States"
+  },
+  "connected-investors": {
+    "optout_url": "https://firstam.service-now.com/x_farf2_dp_request_fa_connected_investor.do?sysparm_id=6d6e7e8edb3e3158665f182813961985",
+    "email": "dataprivacy@connectedinvestors.com",
+    "country": "United States"
+  },
+  "connecticut-arrests": {
+    "site_url": "https://www.ctarrests.org/",
+    "optout_url": "https://infotracer.com/optout/",
+    "email": "privacy@infotracer.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "connecticutcourtrecords-us": {
+    "site_url": "https://connecticutcourtrecords.us/",
+    "optout_url": "https://connecticutcourtrecords.us/optout/",
+    "email": "privacy@courtrecords.us",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "connecticut-resident-directory": {
+    "site_url": "https://www.connecticutresidentdirectory.com/",
+    "optout_url": "https://www.connecticutresidentdirectory.com/opt-out",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "connext-digital": {
+    "email": "privacy@connextdigital.com",
+    "country": "United States"
+  },
+  "consider": {
+    "email": "support@consider.com",
+    "country": "United States"
+  },
+  "contactout": {
+    "optout_url": "https://contactout.com/optout",
+    "email": "support@contactout.com",
+    "country": "ALL"
+  },
+  "contractorscalifornia-org": {
+    "site_url": "http://contractorscalifornia.org/",
+    "optout_url": "http://www.contractorscalifornia.org/about#contact",
+    "email": "contact@licensedata.org",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "converge": {
+    "email": "info@convergemarketing.com",
+    "country": "United States"
+  },
+  "convex": {
+    "email": "support@convexlabs.io",
+    "country": "United States"
+  },
+  "corporationwiki": {
+    "site_url": "https://www.corporationwiki.com/",
+    "optout_url": "https://www.corporationwiki.com/profiles/public",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "cortera-inc": {
+    "email": "privacy@cortera.com"
+  },
+  "courtcasefinder": {
+    "site_url": "https://courtcasefinder.com/",
+    "optout_url": "https://courtcasefinder.com/optout",
+    "email": "privacy@courtcasefinder.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "courtrec-com": {
+    "site_url": "https://www.courtrec.com/",
+    "optout_url": "https://dashboard.courtrec.com/opt-out",
+    "email": "support@courtrec.com",
+    "type": "People Search"
+  },
+  "courtrecordfinder-com": {
+    "site_url": "https://courtrecordfinder.com/",
+    "email": "privacy@cisnationwide.com",
+    "type": "People Search"
+  },
+  "courtrecords-us": {
+    "site_url": "https://courtrecords.us/",
+    "optout_url": "https://courtrecords.us/optout/",
+    "email": "privacy@courtrecords.us",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "cpadirectory-com-inc": {
+    "optout_url": "https://cpadirectory.com/opt-out/"
+  },
+  "crime-informer": {
+    "site_url": "https://crimeinformer.com/",
+    "email": "support@crimeinformer.com",
+    "type": "People Search"
+  },
+  "criminal-com": {
+    "site_url": "https://criminal.com/",
+    "optout_url": "https://www.truthfinder.com/opt-out/v2/submit/",
+    "email": "feedback@criminal.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "criminaldatacheck": {
+    "site_url": "http://criminaldatacheck.com",
+    "optout_url": "https://www.intelius.com/privacy-center",
+    "email": "support@criminaldatacheck.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "criminalpages-com": {
+    "site_url": "http://new-members.criminalpages.com/customer/login?path=%2Fcustomer",
+    "type": "People Search"
+  },
+  "criminalrecords-com": {
+    "site_url": "https://www.criminalrecords.com/",
+    "optout_url": "https://www.intelius.com/privacy-center",
+    "email": "support@mailer.intelius.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "criminalregistry-org": {
+    "site_url": "https://criminalregistry.org/",
+    "optout_url": "https://criminalregistry.org/remove.php?fn=&ln=",
+    "type": "People Search"
+  },
+  "crosswalk-technologies": {
+    "email": "privacy@crosswalknyc.com",
+    "country": "Brazil, Belgium, Bulgaria, Croatia, Cyprus, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Luxembourg, Malta, Netherlands, Canada, Austria, Czech Republic, Greece, Lithuania, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, United Kingdom, United States"
+  },
+  "ct-company-directory": {
+    "email": "info@ctcompanydir.com"
+  },
+  "cuit-online": {
+    "site_url": "https://www.cuitonline.com/",
+    "type": "People Search"
+  },
+  "cybba": {
+    "email": "dsr@cybba.com",
+    "country": "ALL"
+  },
+  "cyberbackgroundchecks": {
+    "site_url": "http://cyberbackgroundchecks.com/",
+    "optout_url": "https://www.cyberbackgroundchecks.com/removal",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "cyndx": {
+    "email": "privacy@cyndx.com",
+    "country": "United States"
+  },
+  "dark-reading": {
+    "email": "editors@darkreading.com"
+  },
+  "data-delivers": {
+    "optout_url": "https://datadelivers.com/do-not-sell-or-share-personal-information",
+    "email": "privacy@datadelivers.com",
+    "country": "United States"
+  },
+  "data-direct-marketing": {
+    "email": "info@datadirectmarketing.com",
+    "country": "United States"
+  },
+  "datagma": {
+    "optout_url": "https://form.typeform.com/to/MCuF90xu?typeform-source=datagma.com",
+    "email": "gdpr@datagma.com",
+    "country": "ALL"
+  },
+  "datalead": {
+    "optout_url": "https://data-lead.com/support/removal_request",
+    "email": "support@data-lead.com",
+    "country": "ALL"
+  },
+  "dataline": {
+    "email": "privacy.officer@datalinedata.com",
+    "country": "United States"
+  },
+  "datamasters": {
+    "email": "sales@datamasters.org",
+    "country": "United States"
+  },
+  "datanyze": {
+    "optout_url": "https://www.datanyze.com/privacy-center/request-removal",
+    "email": "privacy@datanyze.com",
+    "country": "ALL"
+  },
+  "datasys": {
+    "email": "support@datasys.com",
+    "country": "United States"
+  },
+  "data-trust": {
+    "site_url": "https://thedatatrust.com/",
+    "optout_url": "https://thedatatrust.com/your-privacy-choices/",
+    "email": "info@thedatatrust.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "dateas": {
+    "site_url": "https://www.dateas.com/es",
+    "email": "consultas.es@dateas.com",
+    "type": "People Search"
+  },
+  "dato-capital": {
+    "email": "info@datocapital.com"
+  },
+  "dato-capital-ltd": {
+    "email": "info@datocapital.com"
+  },
+  "d-dots": {
+    "email": "support@ddotslab.com",
+    "country": "United States"
+  },
+  "dealersocket": {
+    "optout_url": "https://globaldsar.solera.com/webform/20bbc57b-6134-4535-8062-a1745b771851/1eafe8e0-f69b-4d39-af7c-6dbf764046fa",
+    "email": "privacy@solera.com",
+    "country": "ALL"
+  },
+  "dealerx": {
+    "email": "privacy@dealerx.com",
+    "country": "United States"
+  },
+  "decide": {
+    "email": "privacy@decide.co",
+    "country": "United States"
+  },
+  "decisionlinks": {
+    "optout_url": "https://www.decisionlinks.com/legal-pages/your-privacy-choices",
+    "email": "support@decisionlinks.com",
+    "country": "United States"
+  },
+  "deepdy-ltd": {
+    "email": "unknownadmin@unknownphone.com"
+  },
+  "deep-root": {
+    "optout_url": "https://privacy.deeprootanalytics.com/",
+    "email": "notice@tunnldata.com",
+    "country": "United States"
+  },
+  "deep-sync": {
+    "optout_url": "https://privacy.deepsync.com/",
+    "email": "privacy.compliance@deepsync.com",
+    "country": "United States"
+  },
+  "delaware-arrests": {
+    "site_url": "https://www.dewarrants.org/",
+    "optout_url": "https://infotracer.com/optout/",
+    "email": "privacy@infotracer.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "delawarecourtrecords-us": {
+    "site_url": "https://delawarecourtrecords.us/",
+    "optout_url": "https://delawarecourtrecords.us/optout/",
+    "email": "privacy@courtrecords.us",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "deluxe": {
+    "email": "privacy@deluxe.com",
+    "country": "United States"
+  },
+  "dentistscalifornia-org": {
+    "site_url": "http://www.dentistscalifornia.org/",
+    "optout_url": "http://www.dentistscalifornia.org/about#contact",
+    "email": "contact@licensedata.org",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "dexknows-com": {
+    "site_url": "https://www.dexknows.com/",
+    "optout_url": "https://privacyportal-cdn.onetrust.com/dsarwebform/dd6500c7-03cb-45b0-8bed-97ece55a892d/cfcefb69-41db-4aee-bd00-c702df72ee0f.html",
+    "email": "clientcareemail@thryv.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "diablomedia": {
+    "optout_url": "https://diablomedia.com/privacy-request/",
+    "email": "privacy@diablomedia.com",
+    "country": "United States"
+  },
+  "digdev": {
+    "email": "info@Digdev.com",
+    "country": "United States"
+  },
+  "digital-media-solutions": {
+    "optout_url": "https://dms-privacy.my.onetrust.com/webform/506f8b15-11ff-4f18-95fa-48ff903e623f/4268d0f0-bd98-4afb-b33a-a7a922ae182a",
+    "email": "autodelete@dmsgroup.com",
+    "country": "United States"
+  },
+  "disco-network": {
+    "email": "support@disconetwork.com",
+    "country": "United States"
+  },
+  "distribution-processing-center": {
+    "email": "customerservice@distpc.com",
+    "country": "United States"
+  },
+  "dmdatabases-com": {
+    "email": "optout@dmdatabases.com",
+    "country": "United States"
+  },
+  "dobsearch-com": {
+    "site_url": "https://www.dobsearch.com/",
+    "optout_url": "https://www.dobsearch.com/people-finder/block-record-request.php",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "docplayer-inc": {},
+  "doctorsatlas": {
+    "email": "info@doctorsatlas.com"
+  },
+  "domaintools-llc": {
+    "optout_url": "https://www.domaintools.com/company/california-privacy-notice/do-not-sell/",
+    "email": "privacy@domaintools.com"
+  },
+  "downing-lahey-mortuaries-crematory": {
+    "site_url": "https://downingandlahey.com/",
+    "type": "People Search"
+  },
+  "driveniq": {
+    "email": "support@drivenIQ.com",
+    "country": "United States"
+  },
+  "drunk-drivers": {
+    "site_url": "https://drunkdrivers.org/",
+    "optout_url": "https://drunkdrivers.org/remove-my-info/",
+    "email": "drunkdrivers.org@aol.com",
+    "type": "People Search"
+  },
+  "dtm-deutsche-tele-medien-gmbh": {
+    "email": "info@dtme.de"
+  },
+  "dtn": {
+    "email": "privacy@dtn.com",
+    "country": "United States"
+  },
+  "dun-bradstreet": {
+    "optout_url": "https://submit-irm.trustarc.eu/services/validation/ba81b98f-997d-4216-b4cc-d64cf261b082",
+    "email": "custservprivacy@dnb.com",
+    "country": "ALL"
+  },
+  "dynata": {
+    "email": "privacy@dynata.com",
+    "country": "United States"
+  },
+  "eab": {
+    "email": "privacy@eab.com",
+    "country": "United States"
+  },
+  "easybackgroundchecks": {
+    "site_url": "https://easybackgroundchecks.com/",
+    "optout_url": "https://www.intelius.com/suppression-center/",
+    "email": "priorityoptout@intelius.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "edgein": {
+    "email": "ashley@edgein.io"
+  },
+  "elocal-usa-llc": {
+    "email": "privacy@elocal.com"
+  },
+  "email-industries": {
+    "email": "privacy@emailindustries.com",
+    "country": "United States"
+  },
+  "emailmovers": {
+    "email": "compliance@emailmovers.com",
+    "country": "United States"
+  },
+  "enigma": {
+    "email": "privacy@enigma.com",
+    "country": "United States"
+  },
+  "eniro-ab": {
+    "site_url": "https://www.eniro.se/",
+    "email": "info@eniro.com",
+    "type": "People Search"
+  },
+  "enp-network": {},
+  "epieos": {
+    "email": "contact@epieos.com"
+  },
+  "epsilon": {
+    "optout_url": "https://legal.epsilon.com/dsr/",
+    "email": "privacy@epsilon.com",
+    "country": "United States"
+  },
+  "equilar-inc": {
+    "optout_url": "https://www.equilar.com/ccpa",
+    "email": "dataprotectionofficer@equilar.com"
+  },
+  "e-republic": {
+    "optout_url": "https://erepublic.my.salesforce-sites.com/PrivacyRequest/",
+    "email": "privacy@erepublic.com",
+    "country": "Canada, United States"
+  },
+  "everyday-health-inc": {
+    "email": "Privacy@everydayhealth.com"
+  },
+  "evorra": {
+    "optout_url": "https://evorra.com/opt-out/",
+    "email": "privacy@evorra.com",
+    "country": "Belgium, Bulgaria, Croatia, Cyprus, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Luxembourg, Malta, Netherlands, Iceland, Austria, Czech Republic, Greece, Lithuania, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, United Kingdom, Liechtenstein, Norway, United States"
+  },
+  "exact-customer": {
+    "email": "privacy@exactcustomer.com",
+    "country": "United States"
+  },
+  "exact-data": {
+    "email": "privacyteam@data-axle.com",
+    "country": "United States"
+  },
+  "exlservice-com": {
+    "email": "Privacy@exlservice.com",
+    "country": "ALL"
+  },
+  "experience": {
+    "optout_url": "https://app.sixfifty.com/request-easy/6385-4387/questions/5303735",
+    "email": "privacy@experience.com",
+    "country": "United States"
+  },
+  "explorium-inc": {
+    "optout_url": "https://www.explorium.ai/platform-privacy-policy/",
+    "email": "privacy@explorium.ai"
+  },
+  "ezlocal-com-inc": {
+    "optout_url": "https://contact.ezlocal.com/form/remove-listing/",
+    "email": "privacy@ezlocal.com"
+  },
+  "facecheck-id": {
+    "site_url": "https://facecheck.id/",
+    "type": "People Search"
+  },
+  "factori": {
+    "email": "privacy@factori.ai",
+    "country": "United States"
+  },
+  "familysearch": {
+    "site_url": "https://www.familysearch.org/en/united-states/",
+    "optout_url": "https://www.familysearch.org/en/help/helpcenter/article/how-do-i-remove-vitals-information-in-family-tree",
+    "email": "nasupport@familysearch.org",
+    "type": "People Search"
+  },
+  "familytreenow": {
+    "site_url": "https://www.familytreenow.com/",
+    "optout_url": "https://www.familytreenow.com/optout",
+    "email": "support@familytreenow.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "fandom-inc": {
+    "optout_url": "https://itlaw.fandom.com/wiki/Opt-out",
+    "email": "support@fandom.com"
+  },
+  "fastbackgroundcheck": {
+    "site_url": "http://fastbackgroundcheck.com/",
+    "optout_url": "https://www.fastbackgroundcheck.com/optout",
+    "email": "support@fastbackgroundcheck.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "fastbase-inc": {
+    "optout_url": "https://www.fastbase.com/privacy-policy",
+    "email": "compliance@fastbase.com"
+  },
+  "fastpeoplesearch": {
+    "site_url": "https://www.fastpeoplesearch.com/",
+    "optout_url": "https://www.fastpeoplesearch.com/optout",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "fastpeoplesearch-io": {
+    "site_url": "https://fastpeoplesearch.io/",
+    "optout_url": "https://fastpeoplesearch.io/remove-my-info",
+    "email": "support@fastpeoplesearch.io",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "fetcher": {
+    "email": "support@fetcher.ai",
+    "country": "ALL"
+  },
+  "fha-mortgage-finder": {
+    "email": "unusubscribcfmf@seememail.net",
+    "country": "United States"
+  },
+  "fifty": {
+    "optout_url": "https://fifty.io/opt-out",
+    "email": "privacy@fifty.io",
+    "country": "ALL"
+  },
+  "finalscout": {
+    "optout_url": "https://finalscout.com/privacy",
+    "email": "privacy@finalscout.com"
+  },
+  "finalscout-2": {
+    "optout_url": "https://finalscout.com/page-removal",
+    "email": "support@finalscout.com",
+    "country": "ALL"
+  },
+  "finalsite": {
+    "optout_url": "https://resources.finalsite.net/images/v1738605245/tulsaschoolsorg/ogtqr7pziykpx1n4bjqm/FAFSA-Opt-out.pdf",
+    "email": "enrollmentsupport@finalsite.com"
+  },
+  "findem": {
+    "email": "privacy@findem.ai",
+    "country": "United States"
+  },
+  "findglocal-limited": {
+    "email": "info@findglocal.com"
+  },
+  "findlaw": {
+    "email": "privacy@internetbrands.com"
+  },
+  "findpeoplefast-net": {
+    "site_url": "https://findpeoplefast.net/",
+    "optout_url": "https://findpeoplefast.net/company/remove-my-info",
+    "email": "support@findpeoplefast.net",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "find-us-local": {
+    "email": "info@finduslocally.com"
+  },
+  "findwhocallsyou": {
+    "email": "findwhocallsyou@gmail.com"
+  },
+  "finfind-ltd-t-a-pomanda": {
+    "optout_url": "https://pomanda.com/help/privacy-data-and-gdpr/i-want-pomanda-to-remove-my-personal-data"
+  },
+  "firearmscalifornia-org": {
+    "site_url": "http://www.firearmscalifornia.org/",
+    "optout_url": "http://www.firearmscalifornia.org/about#contact",
+    "email": "contact@licensedata.org",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "firmfuel": {
+    "email": "privacy@benefitsbunny.com",
+    "country": "United States"
+  },
+  "first-advantage-corporation": {
+    "optout_url": "https://fadv.com/privacy-center/non-us-residents/your-rights/",
+    "email": "privacy@fadv.com"
+  },
+  "first-beat-media": {
+    "optout_url": "https://www.phonelookup.com/opt"
+  },
+  "five-by-five": {
+    "optout_url": "https://5x5coop.com/do-not-sell-my-info/",
+    "email": "privacy@5x5coop.com",
+    "country": "United States"
+  },
+  "flashintel": {
+    "email": "privacy@myflashcloud.com",
+    "country": "United States"
+  },
+  "flexera": {
+    "email": "support@flexera.com"
+  },
+  "florida-arrests": {
+    "site_url": "https://www.flarrests.org/",
+    "optout_url": "https://infotracer.com/optout/",
+    "email": "privacy@infotracer.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "floridacourtrecords-us": {
+    "site_url": "https://floridacourtrecords.us/",
+    "optout_url": "https://floridacourtrecords.us/optout/",
+    "email": "privacy@courtrecords.us",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "floridaparcels-com": {
+    "site_url": "https://floridaparcels.com/",
+    "optout_url": "https://floridaparcels.com/redaction/",
+    "email": "info@areaplot.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "florida-residents": {
+    "site_url": "http://floridaresidentsdirectory.com/",
+    "optout_url": "https://www.floridaresidentsdirectory.com/opt-out",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "florida-voter-directory": {
+    "site_url": "https://www.floridavoterdirectory.com/",
+    "optout_url": "https://www.floridavoterdirectory.com/opt-out",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "fmadata": {
+    "optout_url": "https://www.fmadata.com/opt-out-requests/new",
+    "email": "privacy@fmadata.com",
+    "country": "United States"
+  },
+  "focus-usa": {
+    "optout_url": "https://www.focus-usa.com/optout-form/",
+    "email": "privacy@focus-usa.com",
+    "country": "United States"
+  },
+  "foller-me": {
+    "optout_url": "https://www.foller.me/do-not-sell",
+    "email": "support@foller.me"
+  },
+  "forddirect-2": {
+    "email": "dprivacy@forddirect.com",
+    "country": "United States"
+  },
+  "fourleaf": {
+    "email": "privacy@fourleafdata.com",
+    "country": "United States"
+  },
+  "foursquare": {
+    "email": "privacy@foursquare.com",
+    "country": "United States"
+  },
+  "fourthwall": {
+    "email": "privacypolicy@fourthwall.tv",
+    "country": "United States"
+  },
+  "fraiser": {
+    "optout_url": "https://www.fraiser.org/data-request-form",
+    "email": "privacy@fraiser.org",
+    "country": "United States"
+  },
+  "freebackgroundcheck-org": {
+    "site_url": "https://freebackgroundcheck.org/",
+    "optout_url": "https://new-members.freebackgroundcheck.org/removeMyData/",
+    "email": "support@freebackgroundcheck.org",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "freebackgroundchecks-com": {
+    "site_url": "https://freebackgroundchecks.com/",
+    "optout_url": "https://freebackgroundchecks.com/optout/",
+    "email": "privacy@freebackgroundchecks.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "free-people-directory": {
+    "site_url": "http://freepeopledirectory.com",
+    "optout_url": "https://www.freepeopledirectory.com/optout",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "freepeoplesearch": {
+    "site_url": "https://freepeoplesearch.com/",
+    "optout_url": "https://freepeoplesearch.com/opt-out",
+    "email": "support@freepeoplesearch.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "freepeoplesearch-com": {
+    "site_url": "https://www.freepeople-search.com/",
+    "type": "People Search"
+  },
+  "freepeoplesearch-io-2": {
+    "site_url": "https://freepeoplesearch.io",
+    "email": "contact@freepeoplesearch.com",
+    "type": "People Search"
+  },
+  "freephonetracer": {
+    "site_url": "https://www.freephonetracer.com/",
+    "optout_url": "https://www.beenverified.com/app/optout/search",
+    "email": "privacy@beenverified.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "freewheel": {
+    "email": "FW_California_Consumers_CCPA_Data_Requests@freewheel.com",
+    "country": "United States"
+  },
+  "fullcontact": {
+    "optout_url": "https://platform.fullcontact.com/your-privacy-choices",
+    "email": "privacy@fullcontact.com",
+    "country": "ALL"
+  },
+  "fullenrich": {
+    "optout_url": "https://help.fullenrich.com/en/articles/9974292-opt-out-of-fullenrich",
+    "email": "support@fullenrich.com"
+  },
+  "furyforums-com": {
+    "site_url": "https://www.furyforums.com/",
+    "email": "privacy@verticalscope.com",
+    "type": "People Search"
+  },
+  "fushia-media": {
+    "email": "Support@fushiamedia.com",
+    "country": "United States"
+  },
+  "gale": {
+    "email": "privacy@cengage.com",
+    "country": "United States"
+  },
+  "geekadelphia": {
+    "email": "geekadelphia@gmail.com"
+  },
+  "genealogic-review": {
+    "site_url": "https://genealogic.review/",
+    "type": "People Search"
+  },
+  "genius-media-group-inc": {
+    "email": "gdpr@genius.com"
+  },
+  "georgia-arrests": {
+    "site_url": "https://www.georgiaarrests.org/",
+    "optout_url": "https://infotracer.com/optout/",
+    "email": "privacy@infotracer.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "georgia-company-registry": {},
+  "georgiacourtrecords-us": {
+    "site_url": "https://georgiacourtrecords.us/",
+    "optout_url": "https://georgiacourtrecords.us/optout/",
+    "email": "privacy@courtrecords.us",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "getemail-io-2": {
+    "optout_url": "https://getemail.io/privacy_policy/",
+    "email": "getemailsales@dnb.com"
+  },
+  "getprospect-llc": {
+    "email": "support@getprospect.com"
+  },
+  "giant-partners": {
+    "optout_url": "https://giantpartners.com/do-not-sell-my-personal-info-all-other-states/",
+    "email": "compliance@giantpartners.com",
+    "country": "United States"
+  },
+  "github-inc": {
+    "email": "privacy@github.com"
+  },
+  "glad-i-know": {
+    "site_url": "https://gladiknow.com/",
+    "optout_url": "https://gladiknow.com/opt-out",
+    "email": "privacy@gladiknow.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "golden-recursion-inc": {
+    "email": "hello@golden-support.com"
+  },
+  "governmentregistry-org": {
+    "site_url": "https://www.governmentregistry.org/",
+    "optout_url": "https://www.governmentregistry.org/opt-out",
+    "email": "privacy@governmentregistry.org",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "govqa": {
+    "email": "dpo@granicus.com"
+  },
+  "govtribe-inc": {
+    "email": "success@govtribe.com"
+  },
+  "govwarrantsearch-org": {
+    "site_url": "https://www.govwarrantsearch.org/",
+    "optout_url": "https://infotracer.com/optout/",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "granicus-llc": {
+    "optout_url": "https://content.govdelivery.com/attachments/VAEDUFCPS/2022/10/22/file_attachments/2306515/final_strategic_plan_survey_opt-out_form-english.pdf",
+    "email": "dpo@granicus.com"
+  },
+  "grassroots-analytics": {
+    "optout_url": "https://www.grassrootsanalytics.com/california-consumer-privacy-act-ccpa",
+    "email": "compliance@grassrootsanalytics.com",
+    "country": "United States"
+  },
+  "grayhair": {
+    "email": "privacy@grayhairsoftware.com",
+    "country": "United States"
+  },
+  "groundtruth": {
+    "email": "requests@groundtruth.com",
+    "country": "United States"
+  },
+  "growbots": {
+    "email": "privacy@growbots.com",
+    "country": "United States"
+  },
+  "growjo": {
+    "optout_url": "https://growjo.com/do_not",
+    "email": "tom@growjo.com",
+    "country": "ALL"
+  },
+  "h1": {
+    "email": "inquiries@h1insights.com",
+    "country": "United States"
+  },
+  "h1bdata-info": {
+    "site_url": "https://h1bdata.info/",
+    "type": "People Search"
+  },
+  "hawaii-arrests": {
+    "site_url": "https://www.hawaiiarrests.org/",
+    "optout_url": "https://infotracer.com/optout/",
+    "email": "privacy@infotracer.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "hawaiicourtrecords-us": {
+    "site_url": "https://hawaiicourtrecords.us/",
+    "optout_url": "https://hawaiicourtrecords.us/optout/",
+    "email": "privacy@courtrecords.us",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "healthline-media": {
+    "optout_url": "https://www.healthline.com/rights-request",
+    "email": "Inquiries@Healthline.com"
+  },
+  "hearst-communications-inc": {
+    "optout_url": "https://www.hearst.com/-/us-magazines-privacy-notice",
+    "email": "magsdatarequests@hearst.com"
+  },
+  "heartbeat-ai": {
+    "optout_url": "https://heartbeat.ai/optout",
+    "email": "contact@heartbeat.ai",
+    "country": "United States"
+  },
+  "hireez": {
+    "email": "privacy@hireez.com",
+    "country": "United States"
+  },
+  "hiremyfriend-io": {},
+  "hireright-llc": {
+    "optout_url": "https://www.hireright.com/legal/united-states-opt-out-rights-outside-of-california",
+    "email": "HireRightPrivacy@hireright.com"
+  },
+  "hitta-se": {
+    "site_url": "https://www.hitta.se/",
+    "email": "kundservice@hitta.se",
+    "type": "People Search"
+  },
+  "home-media-llc": {
+    "optout_url": "https://assets.neighborhoodalerts.com/public/policies/privacy-policy.pdf",
+    "email": "Privacy@HomeSolutions.com"
+  },
+  "homeowner-marketing-services": {
+    "email": "dnm@homeownersmarketingservices.com",
+    "country": "United States"
+  },
+  "homes-com": {},
+  "homeyou-inc": {
+    "optout_url": "https://www.homeyou.com/opt-out",
+    "email": "corp@homeyou.com"
+  },
+  "houston-association-of-realtors": {
+    "site_url": "https://www.har.com/",
+    "optout_url": "https://www.har.com/question/27460_how-can-i-opt-out-of-the-zillow-listing",
+    "email": "privacy@har.com",
+    "type": "People Search"
+  },
+  "hunter-2": {
+    "email": "privacy@hunter.io"
+  },
+  "hunter-web-services-inc": {
+    "optout_url": "https://help.hunter.io/en/articles/2020343-remove-your-data-from-hunter",
+    "email": "contact@hunter.io"
+  },
+  "huntmails": {
+    "email": "contact@hunter.io"
+  },
+  "i360": {
+    "email": "privacy@i-360.com",
+    "country": "United States"
+  },
+  "ibegin": {
+    "email": "support@iBeginMarketing.com"
+  },
+  "id5": {
+    "email": "privacy@id5.io",
+    "country": "United States"
+  },
+  "idaho-arrests": {
+    "site_url": "https://www.idahoarrests.org/",
+    "optout_url": "https://infotracer.com/optout/",
+    "email": "privacy@infotracer.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "idahocourtrecords-us": {
+    "site_url": "https://idahocourtrecords.us/",
+    "optout_url": "https://idahocourtrecords.us/optout/",
+    "email": "privacy@courtrecords.us",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "idcrawl": {
+    "site_url": "https://www.idcrawl.com/",
+    "optout_url": "https://www.idcrawl.com/remove-my-information",
+    "email": "support@idcrawl.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "identiq": {},
+  "idm": {
+    "optout_url": "https://idm.us.com/do-not-sell-my-personal-information/",
+    "email": "privacy@idm.us.com",
+    "country": "United States"
+  },
+  "idnotify": {
+    "optout_url": "https://portal.idnotify.com/privacy-policy",
+    "email": "memberservices@idnotify.com"
+  },
+  "idstrong": {
+    "site_url": "https://www.idstrong.com/",
+    "optout_url": "https://www.idstrong.com/optout/",
+    "email": "privacy@idstrong.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "iheartmedia-inc": {
+    "email": "privacy@iheartmedia.com"
+  },
+  "illinois-arrests": {
+    "site_url": "https://www.illinoisarrests.org/",
+    "optout_url": "https://infotracer.com/optout/",
+    "email": "privacy@infotracer.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "illinoiscourtrecords-us": {
+    "site_url": "https://illinoiscourtrecords.us/",
+    "optout_url": "https://illinoiscourtrecords.us/optout/",
+    "email": "privacy@courtrecords.us",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "illinois-prison-talk": {
+    "site_url": "https://illinoisprisontalk.org/",
+    "optout_url": "https://illinoisprisontalk.org/remove-my-info.php",
+    "type": "People Search"
+  },
+  "illumin": {
+    "email": "privacy@illumin.com",
+    "country": "Belgium, Bulgaria, Croatia, Cyprus, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Malta, Netherlands, Iceland, Austria, Czech Republic, Greece, Lithuania, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, United Kingdom, Liechtenstein, Norway, United States"
+  },
+  "image-maps-com": {
+    "site_url": "https://image-maps.com",
+    "type": "People Search"
+  },
+  "indiana-arrests": {
+    "site_url": "https://www.indianaarrests.org/",
+    "optout_url": "https://infotracer.com/optout/",
+    "email": "privacy@infotracer.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "indianacourtrecords-us": {
+    "site_url": "https://indianacourtrecords.us/",
+    "optout_url": "https://indianacourtrecords.us/optout/",
+    "email": "privacy@courtrecords.us",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "infobel-s-a": {
+    "site_url": "https://www.infobel.com/fr/world",
+    "optout_url": "https://dpo.infobel.com/",
+    "type": "People Search"
+  },
+  "infofree": {
+    "optout_url": "https://privacycompliance.biz/other-infofree/",
+    "email": "privacy@infofree.com",
+    "country": "United States"
+  },
+  "infopay": {
+    "optout_url": "https://www.infopay.com/contact",
+    "email": "privacy@infopay.com",
+    "country": "United States"
+  },
+  "information-com": {
+    "site_url": "https://information.com/",
+    "optout_url": "https://information.com/opt-out",
+    "email": "contact@information.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "infotracer": {
+    "site_url": "http://infotracer.com/",
+    "optout_url": "https://infotracer.com/optout/",
+    "email": "privacy@infotracer.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "inmatessearcher": {
+    "site_url": "https://www.inmatessearcher.com/",
+    "optout_url": "https://www.inmatessearcher.com/api/helper/optOutLight/search",
+    "email": "support@inmatessearcher.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "inmobi": {
+    "email": "privacy@inmobi.com",
+    "country": "United States"
+  },
+  "instantcheckmate": {
+    "site_url": "https://www.instantcheckmate.com/",
+    "optout_url": "https://www.instantcheckmate.com/privacy-center",
+    "email": "privacy@InstantCheckmate.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "instantcheckspy": {
+    "site_url": "http://instantcheckspy.com",
+    "optout_url": "https://www.truthfinder.com/privacy-center",
+    "email": "privacy@truthfinder.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "intelius": {
+    "site_url": "https://www.intelius.com/",
+    "optout_url": "https://www.intelius.com/privacy-center",
+    "email": "privacy@intelius.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "intentgine": {
+    "optout_url": "https://intentgine.com/ccpa-privacy/",
+    "email": "privacy@intentgine.com",
+    "country": "Belgium, Bulgaria, Croatia, Cyprus, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Malta, Netherlands, Iceland, Austria, Czech Republic, Greece, Lithuania, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, United Kingdom, Liechtenstein, Norway, United States"
+  },
+  "intentmacro": {
+    "optout_url": "https://intentmacro.com/ccpa-privacy/",
+    "email": "privacy@intentmacro.com",
+    "country": "ALL"
+  },
+  "intranet-quorum": {
+    "email": "privacy@leidos.com",
+    "country": "United States"
+  },
+  "iowa-arrests": {
+    "site_url": "https://www.iowaarrests.org/",
+    "optout_url": "https://infotracer.com/optout/",
+    "email": "privacy@infotracer.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "iowacourtrecords-us": {
+    "site_url": "https://iowacourtrecords.us/",
+    "optout_url": "https://iowacourtrecords.us/optout/",
+    "email": "privacy@courtrecords.us",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "ipqualityscore-llc": {
+    "optout_url": "https://www.ipqualityscore.com/domain-reputation/optout.networkadvertising.org",
+    "email": "Support@IPQualityScore.com"
+  },
+  "ispot-tv": {
+    "email": "privacy@ispot.tv",
+    "country": "United States"
+  },
+  "iwave": {
+    "email": "privacy@iwave.com",
+    "country": "United States"
+  },
+  "jailbase": {
+    "site_url": "https://jailbase.com",
+    "type": "People Search"
+  },
+  "j-d-power": {
+    "optout_url": "https://privacyportal.onetrust.com/webform/5e27ce89-3714-4976-8df7-1d1560e32aa1/d6419967-880f-480f-9935-960045988858",
+    "email": "jdpowerprivacy@jdpa.com",
+    "country": "United States"
+  },
+  "jhonata-menezes-dos-santos-desenvolvimento": {
+    "email": "jhonatamenezes@jmsdev.com.br"
+  },
+  "joblookup-ltd": {},
+  "kansas-arrests": {
+    "site_url": "https://www.kansasarrests.org/",
+    "optout_url": "https://infotracer.com/optout/",
+    "email": "privacy@infotracer.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "kansascourtrecords-us": {
+    "site_url": "https://kansascourtrecords.us/",
+    "optout_url": "https://kansascourtrecords.us/optout/",
+    "email": "privacy@courtrecords.us",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "kaspr-io": {
+    "optout_url": "https://kaspr.privacy.saymine.io/kaspr",
+    "email": "privacy@kaspr.io",
+    "country": "Belgium, Bulgaria, Croatia, Cyprus, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Luxembourg, Malta, Netherlands, Austria, Czech Republic, Greece, Lithuania, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, United Kingdom, United States"
+  },
+  "kb-synergy": {
+    "email": "Compliance@KBSynergy.com",
+    "country": "United States"
+  },
+  "kendo": {
+    "email": "alex@kendoemailapp.com"
+  },
+  "kentucky-arrests": {
+    "site_url": "https://www.kentuckyarrests.org/",
+    "optout_url": "https://infotracer.com/optout/",
+    "email": "privacy@infotracer.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "kentuckycourtrecords-us": {
+    "site_url": "https://kentuckycourtrecords.us/",
+    "optout_url": "https://kentuckycourtrecords.us/optout/",
+    "email": "privacy@courtrecords.us",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "key-marketing-advantage": {
+    "email": "privacy@keymarketingadvantage.com",
+    "country": "United States"
+  },
+  "keyopinionleaders": {
+    "email": "privacy@keyopinionleaders.com",
+    "country": "United States"
+  },
+  "keyword-connects": {
+    "email": "privacy@keywordconnects.com",
+    "country": "United States"
+  },
+  "kids-live-safe": {
+    "site_url": "https://www.kidslivesafe.com/",
+    "optout_url": "https://www.kidslivesafe.com/help-center/privacy-requests",
+    "email": "support@kidslivesafe.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "knsee-com": {
+    "site_url": "https://knsee.com",
+    "type": "People Search"
+  },
+  "komodo-health": {
+    "optout_url": "https://komodohealth-privacy.my.onetrust.com/webform/5c3cf8b1-3cf1-422d-84d5-618844b7316f/267fe393-726e-4ba9-87ad-c470e0e554ae",
+    "email": "trust-and-safety@komodohealth.com",
+    "country": "United States"
+  },
+  "kona-equity": {},
+  "kyc-data": {
+    "email": "consumers@kycdata.com",
+    "country": "United States"
+  },
+  "la-county-arrest-records": {
+    "site_url": "https://www.lacountyarrestrecords.org/",
+    "type": "People Search"
+  },
+  "ladders-inc": {
+    "email": "support@theladders.com"
+  },
+  "lawlink": {
+    "email": "webmaster@lawlink.com"
+  },
+  "lawyers-com": {
+    "email": "privacy@internetbrands.com"
+  },
+  "lead411": {
+    "email": "lead411_privacy@l4mail.com",
+    "country": "United States"
+  },
+  "leadar-2": {
+    "email": "info@myleadar.com"
+  },
+  "leadership-connect": {
+    "email": "privacy@leadershipconnect.io",
+    "country": "United States"
+  },
+  "leadiq": {
+    "optout_url": "https://leadiq.com/request-removal",
+    "email": "privacy@leadiq.com",
+    "country": "Belgium, Bulgaria, Croatia, Cyprus, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Luxembourg, Malta, Netherlands, Austria, Czech Republic, Greece, Lithuania, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, United Kingdom, United States"
+  },
+  "lead-me-media": {
+    "email": "CCPA@LeadMeMedia.com",
+    "country": "United States"
+  },
+  "leadpost": {
+    "optout_url": "https://client.leadpost.com/PrivacyRequest",
+    "email": "delete_mydata@LeadPost.com",
+    "country": "United States"
+  },
+  "leadsive": {
+    "optout_url": "https://leadsive.com/privacy_policy.php"
+  },
+  "leadsmarket-com": {
+    "email": "support@leadsmarket.com",
+    "country": "United States"
+  },
+  "leadspace": {
+    "email": "compliance_privacy@leadspace.com",
+    "country": "United States"
+  },
+  "leadzod": {
+    "email": "Privacy@leadzod.com",
+    "country": "United States"
+  },
+  "lenso-ai-spolka-akcyjna": {
+    "site_url": "https://lenso.ai/en",
+    "optout_url": "https://lenso.ai/en/opt-out",
+    "email": "contact@lenso.ai",
+    "type": "People Search"
+  },
+  "licensefiles": {
+    "optout_url": "https://licensefiles.com/pg/contact",
+    "email": "support@licensefiles.com",
+    "country": "United States"
+  },
+  "lighthouse-list": {
+    "email": "privacy@lighthouselist.com",
+    "country": "United States"
+  },
+  "limeleads": {
+    "email": "privacy@limeleads.com",
+    "country": "United States"
+  },
+  "lionshare": {
+    "email": "webmaster@lionsharemarketing.com",
+    "country": "United States"
+  },
+  "lis-cross-national-data-center-in-luxembourg": {
+    "email": "admin@lisdatacenter.org"
+  },
+  "listmatch": {
+    "country": "United States"
+  },
+  "lists-direct-mail-solutions": {
+    "email": "info@lists-inc.com",
+    "country": "United States"
+  },
+  "list-service-direct": {
+    "email": "dataremoval@listservicedirect.com",
+    "country": "United States"
+  },
+  "listsonline": {
+    "email": "privacyofficer@listsonline.com",
+    "country": "United States"
+  },
+  "live-data-technologies": {
+    "email": "remove@livedatatechnologies.com",
+    "country": "United States"
+  },
+  "liveintent": {
+    "email": "privacy@liveintent.com",
+    "country": "Belgium, Bulgaria, Croatia, Cyprus, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Luxembourg, Malta, Netherlands, Canada, Austria, Czech Republic, Greece, Lithuania, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, United States"
+  },
+  "liveramp": {
+    "optout_url": "https://submit-irm.trustarc.com/services/validation/697ea013-8e66-44aa-94c5-fa9d38dd439c",
+    "email": "consumercare@liveramp.com",
+    "country": "ALL"
+  },
+  "lizdev": {
+    "email": "liz@lizdev.com",
+    "country": "United States"
+  },
+  "localchiros-com": {},
+  "local-crime-news": {
+    "site_url": "https://www.localcrimenews.com/",
+    "optout_url": "https://dataconnect.force.com/contactremoval/s/contactsupport",
+    "email": "removalrequests@unitedreporting.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "local-pages": {
+    "email": "contact@localpages.com"
+  },
+  "locatefamily-com": {
+    "site_url": "https://locatefamily.com/",
+    "type": "People Search"
+  },
+  "locate-friend": {
+    "site_url": "https://locate-friend.com/",
+    "optout_url": "https://locate-friend.com/optout",
+    "email": "support@locate-friend.com",
+    "country": "ALL",
+    "type": "People Search"
+  },
+  "locatepeople-org": {
+    "site_url": "https://locatepeople.org",
+    "email": "privacy@locatepeople.org",
+    "type": "People Search"
+  },
+  "locatesmarter": {
+    "email": "privacy@locatesmarter.com",
+    "country": "United States"
+  },
+  "lookify": {
+    "email": "privacy@lookify.io"
+  },
+  "lookups-io": {
+    "site_url": "https://lookups.io/",
+    "optout_url": "https://lookups.io/data-claim",
+    "email": "support@lookups.io",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "louisiana-arrests": {
+    "site_url": "https://www.louisianaarrests.org/",
+    "optout_url": "https://infotracer.com/optout/",
+    "email": "privacy@infotracer.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "louisianacourtrecords-us": {
+    "site_url": "https://louisianacourtrecords.us/",
+    "optout_url": "https://louisianacourtrecords.us/optout/",
+    "email": "privacy@courtrecords.us",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "m1-data": {
+    "email": "service@m1-data.com",
+    "country": "United States"
+  },
+  "magnite": {
+    "email": "dpo@magnite.com",
+    "country": "United States"
+  },
+  "maine-arrests": {
+    "site_url": "https://www.mainearrests.org/",
+    "optout_url": "https://infotracer.com/optout/",
+    "email": "privacy@infotracer.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "mainecourtrecords-us": {
+    "site_url": "https://mainecourtrecords.us/",
+    "optout_url": "https://mainecourtrecords.us/optout/",
+    "email": "privacy@courtrecords.us",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "mansionquest-com": {
+    "site_url": "https://mansionquest.com/",
+    "email": "contact@mansionquest.com",
+    "type": "People Search"
+  },
+  "mapquest-inc": {
+    "email": "legal@system1group.com"
+  },
+  "marinus-analytics": {
+    "email": "privacy@marinusanalytics.com",
+    "country": "United States"
+  },
+  "marketforce": {
+    "email": "privacy@marketforcecorp.com",
+    "country": "United States"
+  },
+  "marketops": {
+    "email": "privacy@marketops.com",
+    "country": "United States"
+  },
+  "marrieddivorce": {
+    "email": "info@marrieddivorce.com"
+  },
+  "maryland-arrests": {
+    "site_url": "https://www.marylandarrests.org/",
+    "optout_url": "https://infotracer.com/optout/",
+    "email": "privacy@infotracer.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "marylandcourtrecords-us": {
+    "site_url": "https://marylandcourtrecords.us/",
+    "optout_url": "https://marylandcourtrecords.us/optout/",
+    "email": "privacy@courtrecords.us",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "massachusetsscourtrecords-us": {
+    "site_url": "https://massachusettscourtrecords.us/",
+    "optout_url": "https://courtrecords.us/optout/",
+    "email": "privacy@courtrecords.us",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "massachusetts-arrests": {
+    "site_url": "https://www.maarrests.org/",
+    "optout_url": "https://infotracer.com/optout/",
+    "email": "privacy@infotracer.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "massachusetts-people-records": {
+    "site_url": "https://massachusettspeoplerecords.org/",
+    "type": "People Search"
+  },
+  "match-and-append": {
+    "email": "privacy@matchandappend.com",
+    "country": "United States"
+  },
+  "matchbook": {
+    "email": "privacy@matchbookdata.com",
+    "country": "United States"
+  },
+  "mch": {
+    "email": "privacy@mchdata.com",
+    "country": "United States"
+  },
+  "mediamath": {
+    "email": "privacy@mediamath.com",
+    "country": "Belgium, Bulgaria, Croatia, Cyprus, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Malta, Netherlands, Iceland, Austria, Czech Republic, Greece, Lithuania, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, United Kingdom, Liechtenstein, Norway, United States"
+  },
+  "mediasoft": {
+    "email": "info@mediasoftstudio.com",
+    "country": "United States"
+  },
+  "media-source-solutions": {
+    "email": "privacy@mediasourcesolutions.com",
+    "country": "United States"
+  },
+  "mediawallah": {
+    "email": "privacy@mediawallah.com",
+    "country": "United States"
+  },
+  "medifind": {
+    "email": "privacy@medifind.com"
+  },
+  "melissa": {
+    "optout_url": "https://apps.melissa.com/user/consumerprivacy.aspx?_ga=2.240392267.973149.1717423421-1564266701.1717423421",
+    "email": "consumerrequest@melissa.com",
+    "country": "United States"
+  },
+  "men-stopping-violence": {
+    "site_url": "https://www.menstoppingviolence.org/",
+    "optout_url": "https://www.menstoppingviolence.org/privacy/",
+    "type": "People Search"
+  },
+  "men-stopping-violence-2": {
+    "site_url": "https://www.menstoppingviolence.org/",
+    "optout_url": "https://www.menstoppingviolence.org/opt-out/",
+    "email": "info@menstoppingviolence.org",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "merchantcircle": {},
+  "merkle": {
+    "optout_url": "https://www.merkle.com/en/privacy-policy/data-product-privacy-notice/control-your-personal-information.html",
+    "email": "americas.dpo@dentsu.com",
+    "country": "United States"
+  },
+  "michigan-arrests": {
+    "site_url": "https://www.michiganarrests.org/",
+    "optout_url": "https://infotracer.com/optout/",
+    "email": "privacy@infotracer.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "michigancourtrecords-us": {
+    "site_url": "https://michigancourtrecords.us/",
+    "optout_url": "https://michigancourtrecords.us/optout/",
+    "email": "privacy@courtrecords.us",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "michigan-residents": {
+    "site_url": "https://www.michiganresidentdatabase.com/",
+    "optout_url": "https://www.michiganresidentdatabase.com/opt-out",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "mightyrep": {
+    "email": "privacy@MightyRep.com",
+    "country": "Belgium, Bulgaria, Croatia, Cyprus, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Malta, Netherlands, Iceland, Canada, Austria, Czech Republic, Greece, Lithuania, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, United Kingdom, Liechtenstein, Norway, United States"
+  },
+  "milestone-marketing-solutions": {
+    "email": "privacy@milestonemarketingsolutions.com",
+    "country": "United States"
+  },
+  "mineralholders": {
+    "site_url": "https://www.mineralholders.com/",
+    "optout_url": "https://www.mineralholders.com/opt-out",
+    "email": "support@mineralholders.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "minerva": {
+    "email": "privacy@minervadata.xyz",
+    "country": "United States"
+  },
+  "minnesota-arrests": {
+    "site_url": "https://www.minnesotaarrests.org/",
+    "optout_url": "https://infotracer.com/optout/",
+    "email": "privacy@infotracer.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "minnesotacourtrecords-us": {
+    "site_url": "https://minnesotacourtrecords.us/",
+    "optout_url": "https://minnesotacourtrecords.us/optout/",
+    "email": "privacy@courtrecords.us",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "mississippi-arrests": {
+    "site_url": "https://www.msarrests.org/",
+    "optout_url": "https://infotracer.com/optout/",
+    "email": "privacy@infotracer.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "mississippicourtrecords-us": {
+    "site_url": "https://mississippicourtrecords.us/",
+    "optout_url": "https://mississippicourtrecords.us/optout/",
+    "email": "privacy@courtrecords.us",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "mississippi-people-records": {
+    "site_url": "https://mississippipeoplerecords.org/",
+    "optout_url": "https://mississippipeoplerecords.org/privacy-policy",
+    "email": "privacy@mississippi.org",
+    "type": "People Search"
+  },
+  "missouri-arrests": {
+    "site_url": "https://www.missouriarrests.org/",
+    "optout_url": "https://infotracer.com/optout/",
+    "email": "privacy@infotracer.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "missouricourtrecords-us": {
+    "site_url": "https://missouricourtrecords.us/",
+    "optout_url": "https://missouricourtrecords.us/optout/",
+    "email": "privacy@courtrecords.us",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "misterwhat": {},
+  "modern-hire": {
+    "email": "support@modernhire.com"
+  },
+  "modigie": {
+    "email": "privacy@modigie.com",
+    "country": "United States"
+  },
+  "mogean": {
+    "email": "info@mogean.com",
+    "country": "United States"
+  },
+  "moneybot5000": {
+    "site_url": "https://www.moneybot5000.com/",
+    "optout_url": "https://www.moneybot5000.com/svc/optout/search/optouts",
+    "email": "support@moneybot5000.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "montana-arrests": {
+    "site_url": "https://www.montanaarrests.org/",
+    "optout_url": "https://infotracer.com/optout/",
+    "email": "privacy@infotracer.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "montanacourtrecords-us": {
+    "site_url": "https://montanacourtrecords.us/",
+    "optout_url": "https://montanacourtrecords.us/optout/",
+    "email": "privacy@courtrecords.us",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "morningstar-2": {
+    "country": "United States"
+  },
+  "movoto-inc": {
+    "optout_url": "https://www.movoto.com/about/ca_privacy/",
+    "email": "privacy@ojolabs.com"
+  },
+  "mr": {
+    "email": "privacy@mrss.com",
+    "country": "United States"
+  },
+  "muck-rack-2": {
+    "email": "hello@muckrack.com"
+  },
+  "mugshotlook": {
+    "site_url": "https://www.mugshotlook.com/",
+    "optout_url": "https://www.mugshotlook.com/api/helper/optOutLight/search",
+    "email": "support@mugshotlook.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "muraena": {
+    "email": "support@muraena.ai"
+  },
+  "mycentraljersey-com": {
+    "email": "jmartino@gannettnj.com"
+  },
+  "my-funny-profile": {
+    "site_url": "https://myfunnyprofile.com",
+    "type": "People Search"
+  },
+  "mylife": {
+    "site_url": "https://www.mylife.com/",
+    "optout_url": "https://www.mylife.com/privacyrequest",
+    "email": "membersupport@mylife.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "my-renter-checker": {
+    "email": "MYRENTERCHECKER@GMAIL.COM",
+    "country": "United States"
+  },
+  "names-and-facts": {
+    "site_url": "https://namesandfacts.com/",
+    "email": "support@namesandfacts.com",
+    "type": "People Search"
+  },
+  "national-public-data": {
+    "site_url": "https://nationalpublicdata.com/",
+    "optout_url": "https://nationalpublicdata.com/optout.html",
+    "email": "support@nationalpublicdata.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "native-american-netroots-2": {
+    "site_url": "https://nativeamericannetroots.net",
+    "optout_url": "https://nativeamericannetroots.net/diary/51",
+    "email": "support@nativeamericannetroots.net",
+    "type": "People Search"
+  },
+  "ncprofiles-com": {
+    "site_url": "https://ncprofiles.com",
+    "email": "info@ncprofiles.com",
+    "type": "People Search"
+  },
+  "nc-solutions": {
+    "email": "ncs.privacy@ncsolutions.com",
+    "country": "United States"
+  },
+  "nebraska-arrests": {
+    "site_url": "https://www.nebraskaarrests.org/",
+    "optout_url": "https://infotracer.com/optout/",
+    "email": "privacy@infotracer.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "nebraskacourtrecords-us": {
+    "site_url": "https://nebraskacourtrecords.us/",
+    "optout_url": "https://nebraskacourtrecords.us/optout/",
+    "email": "privacy@courtrecords.us",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "neighborwho": {
+    "site_url": "https://www.neighborwho.com/",
+    "optout_url": "https://www.beenverified.com/app/optout/search",
+    "email": "support@neighborwho.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "nestfully-llc": {
+    "optout_url": "https://www.nestfully.com/pages/privacy-policy",
+    "email": "info@nestfully.com"
+  },
+  "netwise": {
+    "email": "privacy@netwisedata.com",
+    "country": "United States"
+  },
+  "nevada-arrests": {
+    "site_url": "https://www.nevadaarrests.org/",
+    "optout_url": "https://www.nevadaarrests.org/contact-form",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "nevadacourtrecords-us": {
+    "site_url": "https://nevadacourtrecords.us/",
+    "optout_url": "https://nevadacourtrecords.us/optout/",
+    "email": "privacy@courtrecords.us",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "newcon": {},
+  "new-hampshire-arrests": {
+    "site_url": "https://www.nharrests.org/",
+    "optout_url": "https://infotracer.com/optout/",
+    "email": "privacy@infotracer.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "newhampshirecourtrecords-us": {
+    "site_url": "https://newhampshirecourtrecords.us/",
+    "optout_url": "https://newhampshirecourtrecords.us/optout/",
+    "email": "privacy@courtrecords.us",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "new-jersey-arrests": {
+    "site_url": "https://www.njarrests.org/",
+    "optout_url": "https://infotracer.com/optout/",
+    "email": "privacy@infotracer.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "newjerseycourtrecords-us": {
+    "site_url": "https://newjerseycourtrecords.us/",
+    "optout_url": "https://newjerseycourtrecords.us/optout/",
+    "email": "privacy@courtrecords.us",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "new-mexico-arrests": {
+    "site_url": "https://www.nmarrests.org/",
+    "optout_url": "https://infotracer.com/optout/",
+    "email": "privacy@infotracer.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "newmexicocourtrecords-us": {
+    "site_url": "https://newmexicocourtrecords.us/",
+    "optout_url": "https://newmexicocourtrecords.us/optout/",
+    "email": "privacy@courtrecords.us",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "new-work-se": {
+    "optout_url": "https://privacy.xing.com/en/privacy-policy/what-rights-can-you-assert/right-of-access",
+    "email": "info@xing.com"
+  },
+  "new-york-arrests": {
+    "site_url": "https://www.nyarrests.org/",
+    "optout_url": "https://infotracer.com/optout/",
+    "email": "privacy@infotracer.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "newyorkcourtrecords-us": {
+    "site_url": "https://newyorkcourtrecords.us/",
+    "optout_url": "https://newyorkcourtrecords.us/optout/",
+    "email": "privacy@courtrecords.us",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "newyorkpublicrecords-org": {
+    "site_url": "https://newyorkpublicrecords.org/",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "nexsales": {
+    "email": "info@rightleads.io",
+    "country": "United States"
+  },
+  "nextroll": {
+    "optout_url": "https://app.adroll.com/optout",
+    "email": "dpo@nextroll.com",
+    "country": "Brazil, Belgium, Bulgaria, Croatia, Cyprus, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Malta, Netherlands, Iceland, Switzerland, Austria, Czech Republic, Greece, Lithuania, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, United Kingdom, Liechtenstein, Norway, United States"
+  },
+  "nexxa": {
+    "email": "Consumerchoice@nexxagroup.com",
+    "country": "United States"
+  },
+  "nfocus": {
+    "email": "consumer@n-focus.com",
+    "country": "United States"
+  },
+  "nielsen": {
+    "optout_url": "https://sites.nielsen.com/legal/privacy-statement/exelate-privacy-policy/opt-in-opt-out/",
+    "email": "privacy.department@nielsen.com",
+    "country": "Belgium, Bulgaria, Croatia, Cyprus, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Malta, Netherlands, Iceland, Austria, Czech Republic, Greece, Lithuania, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, United Kingdom, Liechtenstein, Norway, United States"
+  },
+  "njpropertyrecords": {
+    "site_url": "https://njpropertyrecords.com/",
+    "optout_url": "https://njpropertyrecords.com/redaction",
+    "email": "Support@NJPropertyRecords.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "nocallername": {
+    "email": "support@nocallername.com"
+  },
+  "noon-ai": {
+    "email": "team@noon.ai"
+  },
+  "north-carolina-arrests": {
+    "site_url": "https://www.ncarrests.org/",
+    "optout_url": "https://infotracer.com/optout/",
+    "email": "privacy@infotracer.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "northcarolinacourtrecords-us": {
+    "site_url": "https://northcarolinacourtrecords.us/",
+    "optout_url": "https://northcarolinacourtrecords.us/optout/",
+    "email": "privacy@courtrecords.us",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "northcarolinapublicrecords-org": {
+    "site_url": "http://northcarolinapublicrecords.org",
+    "optout_url": "https://www.truthfinder.com/opt-out/v2/submit/",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "north-carolina-residents": {
+    "site_url": "http://northcarolinaresidentdatabase.com/",
+    "optout_url": "https://northcarolinaresidentdatabase.com/opt-out",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "north-dakota-arrests": {
+    "site_url": "https://www.ndarrests.org/",
+    "optout_url": "https://infotracer.com/optout/",
+    "email": "privacy@infotracer.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "northdakotacourtrecords-us": {
+    "site_url": "https://northdakotacourtrecords.us/",
+    "optout_url": "https://northdakotacourtrecords.us/optout/",
+    "email": "privacy@courtrecords.us",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "north-dakota-people-records": {
+    "site_url": "https://northdakotapeoplerecords.org/",
+    "type": "People Search"
+  },
+  "north-data-gmbh": {
+    "email": "info@northdata.com"
+  },
+  "notariescalifornia-com": {
+    "site_url": "http://notariescalifornia.com/",
+    "optout_url": "http://www.notariescalifornia.com/about",
+    "email": "contact@licensedata.org",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "npi-profile": {
+    "site_url": "https://npiprofile.com/",
+    "optout_url": "https://npiprofile.com/opt-out",
+    "email": "contact@nprofile.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "npir-org": {
+    "optout_url": "https://npir.org/privacy"
+  },
+  "numbercom": {
+    "email": "privacy@TheNumber.com"
+  },
+  "numberguru": {
+    "site_url": "https://www.numberguru.com/",
+    "optout_url": "https://www.numberguru.com/svc/optout/search/optouts/search_person_result",
+    "email": "support@numberguru.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "numlooker": {
+    "optout_url": "https://numlooker.com/remove-my-info",
+    "email": "service@numlooker.com"
+  },
+  "numlookup": {
+    "site_url": "https://www.numlookup.com/",
+    "optout_url": "https://www.numlookup.com/opt_out",
+    "email": "hello@numlookup.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "nuwber": {
+    "site_url": "https://nuwber.com/",
+    "optout_url": "https://nuwber.com/removal/link",
+    "email": "support@nuwber.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "oan": {
+    "email": "privacy@oan.pl",
+    "country": "ALL"
+  },
+  "ohio-arrests": {
+    "site_url": "https://www.ohioarrests.org/",
+    "optout_url": "https://infotracer.com/optout/",
+    "email": "privacy@infotracer.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "ohiocourtrecords-us": {
+    "site_url": "https://ohiocourtrecords.us/",
+    "optout_url": "https://ohiocourtrecords.us/optout/",
+    "email": "privacy@courtrecords.us",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "ohio-resident-directory": {
+    "site_url": "https://www.ohioresidentdirectory.com/",
+    "type": "People Search"
+  },
+  "ohio-residents": {
+    "site_url": "https://www.ohioresidentdatabase.com/",
+    "optout_url": "https://www.ohioresidentdatabase.com/opt-out",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "oklahoma-arrests": {
+    "site_url": "https://www.oklahomaarrests.org/",
+    "optout_url": "https://infotracer.com/optout/",
+    "email": "privacy@infotracer.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "oklahomacourtrecords-us": {
+    "site_url": "https://oklahomacourtrecords.us/",
+    "optout_url": "https://oklahomacourtrecords.us/optout/",
+    "email": "privacy@courtrecords.us",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "old-friends-co": {
+    "site_url": "https://old-friends.co/",
+    "type": "People Search"
+  },
+  "oldphonebook-com": {
+    "site_url": "https://oldphonebook.com",
+    "type": "People Search"
+  },
+  "oms-small-medium-businesses-directory": {
+    "email": "info@softsysinfo.com"
+  },
+  "oncore-leads": {
+    "optout_url": "https://oncoreleads.com/do_not_sell/",
+    "email": "leads@oncoreleads.com",
+    "country": "United States"
+  },
+  "onemata": {
+    "email": "privacy@onemata.com",
+    "country": "United States"
+  },
+  "onemodel": {
+    "email": "privacy@onemodel.co",
+    "country": "Belgium, Bulgaria, Croatia, Cyprus, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Luxembourg, Malta, Netherlands, Austria, Czech Republic, Greece, Lithuania, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, United Kingdom, United States, Australia"
+  },
+  "onetrust-llc": {
+    "email": "privacy@onetrust.com"
+  },
+  "onlinesearches-com": {
+    "site_url": "https://onlinesearches.com",
+    "email": "privacy@peopleconnect.us",
+    "type": "People Search"
+  },
+  "opencallerlistings-com": {},
+  "opencorpdata": {},
+  "opencorporates-ltd": {
+    "email": "data.protection@opencorporates.com"
+  },
+  "opendatausa-2": {
+    "site_url": "https://opendatausa.com/",
+    "type": "People Search"
+  },
+  "opengov": {
+    "email": "reporting@opengov.com"
+  },
+  "openpeoplesearch": {
+    "site_url": "https://openpeoplesearch.com/",
+    "optout_url": "https://openpeoplesearch.com/Consumer",
+    "email": "info@openpeoplesearch.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "openpublicrecords": {
+    "site_url": "https://www.open-public-records.com/",
+    "optout_url": "https://www.open-public-records.com/records_removal.htm",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "optimal-fusion": {
+    "optout_url": "https://optimalfusion.com/do-not-sell-my-personal-information/",
+    "email": "dataprotectionofficer@optimalfusion.com",
+    "country": "ALL"
+  },
+  "orbitly": {
+    "optout_url": "https://optout.orbitly.io/ccpa-request-to-opt-out",
+    "email": "CCPARequest@orbitly.io"
+  },
+  "oregon-arrests": {
+    "site_url": "https://www.oregonarrest.org/",
+    "optout_url": "https://infotracer.com/optout/",
+    "email": "privacy@infotracer.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "oregoncourtrecords-us": {
+    "site_url": "https://oregoncourtrecords.us/",
+    "optout_url": "https://oregoncourtrecords.us/optout/",
+    "email": "privacy@courtrecords.us",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "oregonpublicrecords-org": {
+    "site_url": "https://oregonpublicrecords.org/",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "orgio-inc": {
+    "optout_url": "https://theorg.com/opt-out",
+    "email": "privacy@theorg.com"
+  },
+  "outbrain": {
+    "email": "privacy@outbrain.com",
+    "country": "Belgium, Bulgaria, Croatia, Cyprus, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Malta, Netherlands, Iceland, Austria, Czech Republic, Greece, Lithuania, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, United Kingdom, Liechtenstein, Norway, United States"
+  },
+  "outreach-io": {
+    "optout_url": "https://preferences.outreach.io/form/opt_out?locationCode=US",
+    "email": "security@outreach.io",
+    "country": "United States"
+  },
+  "outward-media": {
+    "email": "privacy@outwardmedia.com",
+    "country": "United States"
+  },
+  "owler-inc": {
+    "email": "support@owler.com"
+  },
+  "ownerly": {
+    "site_url": "https://www.ownerly.com/",
+    "optout_url": "https://www.beenverified.com/svc/optout/search/comprehensive_optouts",
+    "email": "privacy@ownerly.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "oxford-university-press": {
+    "email": "privacy@oup.com"
+  },
+  "pacificeast": {
+    "optout_url": "https://www.pacificeast.com/contact-us-privacy/",
+    "email": "privacy@pacificeast.com",
+    "country": "United States"
+  },
+  "pages-jaunes-solutions-numeriques-et-medias-limitee": {
+    "email": "privacy@yp.ca"
+  },
+  "panjiva-inc": {},
+  "parade-pet": {
+    "email": "hello@goodboystudios.com",
+    "country": "United States"
+  },
+  "paramount-direct-marketing": {
+    "email": "ccpa@paramountdirectmarketing.com",
+    "country": "United States"
+  },
+  "parcellookup-com": {
+    "site_url": "https://parcellookup.com/",
+    "type": "People Search"
+  },
+  "path2response": {
+    "email": "agents@path2response.com",
+    "country": "United States"
+  },
+  "pbi-research": {
+    "email": "CCPARequests@pbinfo.com",
+    "country": "United States"
+  },
+  "peeplookup-2": {
+    "site_url": "https://peeplookup.com",
+    "type": "People Search"
+  },
+  "peepslocator": {
+    "site_url": "https://peepslocator.com/",
+    "email": "support@peepslocator.com",
+    "type": "People Search"
+  },
+  "pennsylvania-arrests": {
+    "site_url": "https://www.pennsylvaniaarrests.org/",
+    "optout_url": "https://infotracer.com/optout/",
+    "email": "privacy@infotracer.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "pennsylvaniacourtrecords-us": {
+    "site_url": "https://pennsylvaniacourtrecords.us/",
+    "optout_url": "https://pennsylvaniacourtrecords.us/optout/",
+    "email": "privacy@courtrecords.us",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "people-ai-inc": {
+    "email": "media@people.ai"
+  },
+  "peoplebyname": {
+    "site_url": "http://www.peoplebyname.com/",
+    "optout_url": "http://www.peoplebyname.com/remove.php",
+    "email": "support@peoplebyname.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "peopleconnect-inc": {
+    "site_url": "https://peopleconnect.us/",
+    "optout_url": "https://peopleconnect.us/california-privacy-rights-disclosure",
+    "email": "privacy@peopleconnect.us",
+    "type": "People Search"
+  },
+  "peopledatalabs": {
+    "optout_url": "https://www.peopledatalabs.com/do-not-sell-or-share",
+    "email": "optout-request-optery@privacy-auto.pdlnotices.com",
+    "country": "ALL"
+  },
+  "peoplefastfind": {
+    "site_url": "https://peoplefastfind.com/",
+    "type": "People Search"
+  },
+  "peoplefind-com": {
+    "site_url": "https://www.peoplefind.com/",
+    "optout_url": "https://www.intelius.com/privacy-center",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "peoplefinder": {
+    "site_url": "https://www.peoplefinder.com/",
+    "optout_url": "https://suppression.peopleconnect.us/login",
+    "email": "support@mailer.intelius.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "peoplefinder-info": {},
+  "peoplefinders": {
+    "site_url": "https://www.peoplefinders.com/",
+    "optout_url": "https://www.peoplefinders.com/opt-out",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "peoplefindersdaas": {
+    "email": "privacy@peoplefindersdaas.com",
+    "country": "United States"
+  },
+  "peoplelooker": {
+    "site_url": "https://www.peoplelooker.com/",
+    "optout_url": "https://www.peoplelooker.com/app/optout/form",
+    "email": "support@peoplelooker.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "peoplesearch": {
+    "site_url": "https://peoplesearch.com/",
+    "optout_url": "https://www.whitepages.com/privacy/ccpa",
+    "email": "support@whitepages.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "peoplesearch123": {
+    "site_url": "https://www.peoplesearch123.com/",
+    "optout_url": "https://www.peoplesearch123.com/api/helper/optOutLight/search",
+    "email": "support@peoplesearch123.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "peoplesearcher": {
+    "site_url": "https://www.peoplesearcher.com/",
+    "optout_url": "https://www.peoplesearcher.com/api/helper/optOutLight/search",
+    "email": "support@peoplesearcher.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "people-search-expert": {
+    "site_url": "https://www.peoplesearchexpert.com/",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "peoplesearchnow": {
+    "site_url": "https://www.peoplesearchnow.com/",
+    "optout_url": "https://www.peoplesearchnow.com/opt-out",
+    "email": "support@peoplesearchnow.zendesk.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "people-search-org": {
+    "site_url": "https://www.people-search.org/",
+    "email": "support@peoplesearch.org",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "peoplesearchusa": {
+    "site_url": "https://www.peoplesearchusa.org/",
+    "optout_url": "https://www.peoplesearchusa.org/api/helper/optOutLight/search",
+    "email": "support@peoplesearchUSA.org",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "peoplesmart": {
+    "site_url": "https://www.peoplesmart.com/",
+    "optout_url": "https://www.peoplesmart.com/app/optout/search",
+    "email": "privacy@peoplesmart.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "peoplewhiz-com": {
+    "site_url": "https://www.peoplewhiz.com/",
+    "optout_url": "https://www.peoplewhiz.com/optout",
+    "email": "support@peoplewhiz.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "peoplewhizr-com": {
+    "site_url": "https://www.peoplewhizr.com/",
+    "optout_url": "https://www.peoplewhizr.com/remove-my-info",
+    "email": "support@peoplewhizr.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "peoplewin": {
+    "site_url": "https://peoplewin.com/",
+    "optout_url": "https://peoplewin.com/privacy/control",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "persistent-id": {
+    "email": "info@Persistent.id",
+    "country": "United States"
+  },
+  "personsearchers": {
+    "site_url": "https://www.personsearchers.com/",
+    "optout_url": "https://www.personsearchers.com/api/helper/optOutLight/search",
+    "email": "support@personsearchers.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "persopo-com": {
+    "site_url": "http://persopo.com",
+    "optout_url": "http://info.persopo.com/opt-out.html",
+    "email": "privacy@persopo.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "pharosiq": {
+    "email": "privacy@pharosIQ.com",
+    "country": "United States"
+  },
+  "phonebooks-com": {
+    "site_url": "https://www.phonebooks.com/",
+    "optout_url": "https://www.phonebooks.com/opt-out",
+    "email": "support@phonebooks.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "phonecheck-pro": {},
+  "phonehistory-com": {},
+  "phonenumberinfo-us": {
+    "site_url": "https://phonenumberinfo.us/",
+    "optout_url": "https://phonenumberinfo.us/contact.php",
+    "email": "info@phonenumberinfo.us",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "phonenumbers-org": {
+    "optout_url": "https://phonenumbers.org/optout/",
+    "email": "privacy@privacy.phonenumbers.org",
+    "country": "United States"
+  },
+  "phoneowner-inc": {
+    "email": "privacy@phoneowner.com"
+  },
+  "pininthemap-com": {
+    "site_url": "https://pininthemap.com/",
+    "type": "People Search"
+  },
+  "pipl": {
+    "optout_url": "https://pipl.com/personal-information-removal-request",
+    "email": "privacy@pipl.com",
+    "country": "ALL"
+  },
+  "pitchbook-2": {
+    "email": "donotsell@pitchbook.com",
+    "country": "United States"
+  },
+  "plcom-net-2": {
+    "site_url": "https://plcom.net/",
+    "email": "csr@plcom.net",
+    "type": "People Search"
+  },
+  "plexuss": {
+    "email": "compliance@plexuss.com",
+    "country": "United States"
+  },
+  "point-digital-finance-inc": {
+    "email": "policies@point.com"
+  },
+  "pole-to-pole-b-v": {
+    "email": "info@poletopole.nl"
+  },
+  "pop-acta": {
+    "email": "contact@popacta.com",
+    "country": "United States"
+  },
+  "poshmark-inc": {
+    "email": "support@poshmark.com"
+  },
+  "possiblenow": {
+    "email": "privacy@possiblenow.com",
+    "country": "United States"
+  },
+  "postie": {
+    "optout_url": "https://optout.postie.com/",
+    "email": "info@postie.com",
+    "country": "United States"
+  },
+  "postpilot": {
+    "email": "privacy@postpilot.com",
+    "country": "United States"
+  },
+  "pplchecker": {
+    "site_url": "https://pplchecker.com/",
+    "type": "People Search"
+  },
+  "ppl-data-com": {
+    "email": "privacy@peopledatalabs.com"
+  },
+  "ppp-loan-info": {},
+  "precisely": {
+    "optout_url": "https://privacyportal-eu.onetrust.com/webform/d88b298e-1f7e-420f-949c-fedc475c1e77/afa5d3a0-dd94-44d6-9176-3d2000f91b6a",
+    "email": "privacy@precisely.com",
+    "country": "Brazil, China, South Korea, Belgium, Bulgaria, Croatia, Cyprus, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Luxembourg, Malta, Netherlands, Iceland, Canada, Austria, Czech Republic, Greece, Lithuania, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, United Kingdom, Liechtenstein, Norway, United States"
+  },
+  "prehired": {},
+  "prezi-inc": {
+    "optout_url": "https://support.prezi.com/hc/en-us/articles/360050359274-Prezi-and-the-CCPA",
+    "email": "privacy@prezi.com"
+  },
+  "privateeye": {
+    "site_url": "https://www.privateeye.com/",
+    "optout_url": "https://www.privateeye.com/removal",
+    "email": "support@privateeye.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "privatenumberchecker-com": {
+    "site_url": "https://www.privatenumberchecker.com/",
+    "optout_url": "https://www.privatenumberchecker.com/removal-request/",
+    "email": "support@privatenumberchecker.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "privaterecords": {
+    "site_url": "http://privaterecords.net",
+    "optout_url": "https://www.privaterecords.net/api/helper/optOutLight/search",
+    "email": "support@privaterecords.net",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "privatereports": {
+    "site_url": "https://www.privatereports.com/",
+    "optout_url": "https://www.privatereports.com/api/helper/optOutLight/search",
+    "email": "support@privatereports.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "privco": {
+    "email": "privacy@privco.com",
+    "country": "United States"
+  },
+  "processingbordeaux": {},
+  "profile-systems": {
+    "site_url": "https://profile.systems/",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "propertychecker": {
+    "site_url": "https://propertychecker.com/",
+    "optout_url": "https://propertychecker.com/optout",
+    "email": "privacy@propertychecker.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "propertychecker-com": {
+    "site_url": "https://propertychecker.com/",
+    "optout_url": "https://propertychecker.com/optout",
+    "email": "privacy@propertychecker.com",
+    "type": "People Search"
+  },
+  "propertyiq": {
+    "optout_url": "https://www.propertyiq.com/opt-out/address-search",
+    "email": "support@propertyiq.com",
+    "country": "United States"
+  },
+  "propertyradar": {
+    "email": "privacy@propertyradar.com",
+    "country": "United States"
+  },
+  "propertyreach": {
+    "site_url": "https://www.propertyreach.com",
+    "optout_url": "https://www.propertyreach.com/privacy-rights",
+    "email": "compliance@propertyreach.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "propertyrecord-com": {
+    "site_url": "https://www.propertyrecord.com/",
+    "optout_url": "https://dashboard.propertyrecord.com/opt-out",
+    "email": "andy@Propertyrecord.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "propertyrecs": {
+    "optout_url": "https://dashboard.propertyrecs.com/opt-out",
+    "email": "privacy@propertyrecs.com",
+    "country": "United States"
+  },
+  "propertyshark": {
+    "email": "support@propertyshark.com"
+  },
+  "public-data-check": {
+    "site_url": "https://www.publicdatacheck.com/",
+    "optout_url": "https://www.publicdatacheck.com/help-center/privacy-requests",
+    "email": "support@publicdatacheck.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "public-information-services": {
+    "site_url": "https://www.publicinfoservices.com/",
+    "optout_url": "https://www.publicinfoservices.com/help-center/privacy-requests",
+    "email": "support@publicinfoservices.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "public-libraries": {
+    "site_url": "https://publiclibraries.com/",
+    "optout_url": "https://www.truthfinder.com/opt-out/v2/submit/",
+    "email": "netadmin@publiclibraries.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "publicrecordcenter-com": {
+    "site_url": "https://www.publicrecordcenter.com/",
+    "optout_url": "https://www.publicrecordcenter.com/remove.html",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "public-record-reports": {
+    "site_url": "https://www.publicrecordreports.com/",
+    "optout_url": "https://www.publicrecordreports.com/help-center/privacy-requests",
+    "email": "support@publicrecordreports.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "publicrecordscenter": {
+    "site_url": "http://publicrecordscenter.org/",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "publicrecords-com": {
+    "site_url": "https://publicrecords.com/",
+    "optout_url": "https://suppression.peopleconnect.us/login",
+    "email": "support@mailer.intelius.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "publicrecords-info": {
+    "site_url": "https://www.publicrecords.info/",
+    "email": "support@publicrecords.info",
+    "type": "People Search"
+  },
+  "publicrecordsnow": {
+    "site_url": "https://www.publicrecordsnow.com/",
+    "optout_url": "https://www.publicrecordsnow.com/static/view/optout/",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "publicrecordsreviews": {
+    "site_url": "https://www.publicrecordsreviews.com/",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "publicrecordssearcher-com": {
+    "site_url": "https://publicrecordssearcher.com",
+    "email": "support@searchpublicrecords.com",
+    "type": "People Search"
+  },
+  "publicrecords-us": {
+    "site_url": "https://www.publicrecords.us/",
+    "optout_url": "https://dashboard.publicrecords.us/opt-out",
+    "email": "support@publicrecords.us",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "publicsearcher": {
+    "site_url": "https://www.publicsearcher.com/",
+    "optout_url": "https://www.publicsearcher.com/api/helper/optOutLight/search",
+    "email": "support@publicsearcher.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "publicsrecords": {
+    "site_url": "http://publicsrecords.com/",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "pulsepoint": {
+    "optout_url": "https://mynt-test-privacy.my.onetrust.com/webform/ebe19500-bc8d-487f-9d89-98fde8b270e2/bac5d2a2-fd3e-4830-99b6-bd2a69fec1c9",
+    "email": "privacy@pulsepoint.com",
+    "country": "ALL"
+  },
+  "pwc": {
+    "email": "US_Privacy_Office@pwc.com",
+    "country": "United States"
+  },
+  "quad": {
+    "email": "Compliancedept@quad.com",
+    "country": "United States"
+  },
+  "qualcomm": {
+    "email": "privacy@qualcomm.com",
+    "country": "United States"
+  },
+  "qualfon": {
+    "optout_url": "https://ccpa.qualfon.com/deletionrequest",
+    "email": "consumerprivacy@qualfon.com",
+    "country": "United States"
+  },
+  "quick-people-trace": {
+    "site_url": "https://www.quickpeopletrace.com/",
+    "email": "clients@quickpeopletrace.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "quick-public-records": {
+    "site_url": "https://www.quickpublicrecords.com/",
+    "optout_url": "https://www.quickpublicrecords.com/help-center/privacy-requests",
+    "email": "support@quickpublicrecords.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "quientelefono": {
+    "site_url": "https://quientelefono.com/",
+    "email": "abusecommentphone@protonmail.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "radaris": {
+    "site_url": "https://radaris.com/",
+    "optout_url": "https://radaris.com/control-privacy",
+    "email": "customer-service@radaris.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "radaris-germany-2": {
+    "site_url": "https://radaris.de/",
+    "email": "customer-service@radaris.com",
+    "type": "People Search"
+  },
+  "reach-marketing": {
+    "email": "info@reachmarketing.com",
+    "country": "United States"
+  },
+  "reallygreatrate": {
+    "optout_url": "https://privacyportal-eu-cdn.onetrust.com/dsarwebform/942fbf02-bbfe-4a5d-808d-080b06c5651c/3fdf8f1d-7ab3-4a99-bb4e-24965500290d.html",
+    "email": "ccpa@rgrmarketing.com",
+    "country": "United States"
+  },
+  "realpeoplesearch": {
+    "site_url": "https://realpeoplesearch.com/",
+    "optout_url": "https://realpeoplesearch.com/about/remove-my-info",
+    "email": "support@realpeoplesearch.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "real-performance-marketing": {
+    "email": "ConsumerInquiries@RPMleader.com",
+    "country": "United States"
+  },
+  "realsatisfied": {
+    "optout_url": "https://www.realsatisfied.com/privacy",
+    "email": "support@realsatisfied.com"
+  },
+  "realsource-data": {
+    "optout_url": "https://www.realsourcedata.com/do-not-sell-my-personal-information",
+    "email": "privacy@realsourcedata.com",
+    "country": "United States"
+  },
+  "realtyhop-com": {
+    "site_url": "https://www.realtyhop.com/",
+    "optout_url": "https://www.realtyhop.com/resources/realtyhop-redaction-request-system/",
+    "email": "privacy-realtyhop@renthop.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "realtyverify": {
+    "site_url": "https://realtyverify.com/",
+    "type": "People Search"
+  },
+  "recordsfinder": {
+    "site_url": "http://recordsfinder.com/",
+    "optout_url": "https://recordsfinder.com/optout/",
+    "email": "privacy@recordsfinder.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "recordspage": {
+    "site_url": "https://recordspage.org/",
+    "optout_url": "https://www.truthfinder.com/opt-out/v2/submit/",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "recordsquarry": {
+    "site_url": "https://recordsquarry.com/public-records/",
+    "optout_url": "https://www.truthfinder.com/opt-out/v2/submit/",
+    "email": "help@truthfinder.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "recruitbot": {
+    "email": "privacy@recruitbot.com",
+    "country": "United States"
+  },
+  "redbird-direct": {
+    "email": "privacy@redbirddirect.com",
+    "country": "United States"
+  },
+  "redfin-corporation": {
+    "optout_url": "https://support.redfin.com/hc/en-us/articles/38493151019419-How-do-I-remove-my-home-from-Redfin",
+    "email": "privacy@redfin.com"
+  },
+  "redi-data": {
+    "email": "privacy@redidata.com",
+    "country": "United States"
+  },
+  "rehold": {
+    "site_url": "https://rehold.com/",
+    "optout_url": "https://rehold.com/control/privacy",
+    "email": "support@rehold.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "remodeling-com": {
+    "email": "privacy@remodeling.com",
+    "country": "United States"
+  },
+  "reonomy": {
+    "email": "support@reonomy.com",
+    "country": "United States"
+  },
+  "resonate": {
+    "email": "privacy@resonate.com",
+    "country": "United States"
+  },
+  "retention-com": {
+    "optout_url": "https://app.retention.com/optout/",
+    "email": "support@retention.com",
+    "country": "United States"
+  },
+  "reunion-com": {
+    "site_url": "https://reunion.com",
+    "type": "People Search"
+  },
+  "rev": {
+    "email": "privacy@getrev.ai",
+    "country": "United States"
+  },
+  "reveal-phone-owner": {
+    "optout_url": "https://www.revealphoneowner.com/data-removal/",
+    "email": "support@revealphoneowner.com",
+    "country": "Canada, United States"
+  },
+  "revelio-labs": {
+    "email": "info@reveliolabs.com",
+    "country": "Belgium, Bulgaria, Croatia, Cyprus, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Malta, Netherlands, Iceland, Austria, Czech Republic, Greece, Lithuania, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, United Kingdom, Liechtenstein, Norway, United States"
+  },
+  "reverseaustralia-2": {
+    "optout_url": "https://www.reverseaustralia.com/privacy.php",
+    "email": "residential@reverseaustralia.com"
+  },
+  "reverse-caller-lookup": {
+    "email": "support@reversecallerlookup.com"
+  },
+  "reverse-contact-visum-sas": {
+    "optout_url": "https://help.reversecontact.com/en/articles/10269483-is-reverse-contact-gdpr-ccpa-compliant",
+    "email": "dpo@reversecontact.com"
+  },
+  "reverselookups-org": {},
+  "reversephone": {
+    "site_url": "https://www.reversephone.com/",
+    "optout_url": "https://www.reversephone.com/svc/optout/search/optouts",
+    "email": "privacy@reversephone.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "reversephonelookup": {
+    "optout_url": "https://www.intelius.com/privacy-center",
+    "email": "support@mailer.intelius.com",
+    "country": "United States"
+  },
+  "revonect": {
+    "email": "support@revonect.com",
+    "country": "ALL"
+  },
+  "rhetorik": {
+    "email": "privacy@rhetorik.com",
+    "country": "Belgium, Bulgaria, Croatia, Cyprus, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Malta, Netherlands, Iceland, Canada, Austria, Czech Republic, Greece, Lithuania, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, United Kingdom, Liechtenstein, Norway, United States"
+  },
+  "rhode-island-arrests": {
+    "site_url": "https://www.riarrests.org/",
+    "optout_url": "https://infotracer.com/optout/",
+    "email": "privacy@infotracer.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "rhodeislandcourtrecord-us": {
+    "site_url": "https://rhodeislandcourtrecords.us/",
+    "optout_url": "https://rhodeislandcourtrecords.us/optout/",
+    "email": "privacy@courtrecords.us",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "rhodeislandpeoplerecords-org": {},
+  "robokiller": {
+    "email": "support@robokiller.com"
+  },
+  "roc-advertising": {
+    "email": "dataprivacy_rocadvertising@simpleoptoutcompliance.com",
+    "country": "United States"
+  },
+  "rocketreach": {
+    "optout_url": "https://rocketreach.co/claim-profile/",
+    "email": "privacy@rocketreach.co",
+    "country": "ALL"
+  },
+  "round-sky": {
+    "optout_url": "https://www.roundsky.com/supplemental-privacy-notice/contact.php",
+    "email": "legal@roundsky.com",
+    "country": "United States"
+  },
+  "saavn-media-limited": {
+    "email": "legal@jiosaavn.com"
+  },
+  "safeopt": {},
+  "sagestream-llc": {
+    "optout_url": "https://www.sagestreamllc.com/opt-out-opt-in/index.html"
+  },
+  "salary-com-llc": {
+    "optout_url": "https://www.salary.com/legal/privacy-controls/",
+    "email": "privacy@salary.com"
+  },
+  "salesblink": {
+    "email": "help@salesblink.io"
+  },
+  "salesforce": {
+    "optout_url": "https://www.salesforce.com/company/legal/privacy/data-subject-request/",
+    "email": "privacy@salesforce.com",
+    "country": "ALL"
+  },
+  "salesgear": {
+    "email": "support@salesgear.io",
+    "country": "ALL"
+  },
+  "salesgear-io": {
+    "optout_url": "https://support.salesgear.io/en/articles/5646120-how-do-you-opt-out-a-contact",
+    "email": "support@salesgear.io"
+  },
+  "saleshandy-ikigai-infotech-llp": {
+    "email": "privacy@saleshandy.com"
+  },
+  "salesintel": {
+    "optout_url": "https://salesintel.io/data-gathering-privacy/",
+    "email": "data@salesIntel.io",
+    "country": "ALL"
+  },
+  "scanbuy": {
+    "email": "privacy@scanbuy.com",
+    "country": "Mexico, Canada, United States"
+  },
+  "scraping-robot": {
+    "email": "support@scrapingrobot.com",
+    "country": "United States"
+  },
+  "scribd-inc": {
+    "optout_url": "https://www.scribd.com/document/253240908/Opt-Out-Form",
+    "email": "privacy@scribd.com"
+  },
+  "sealedrecords": {
+    "site_url": "https://www.sealedrecords.net/",
+    "optout_url": "https://www.sealedrecords.net/api/helper/optOutLight/search",
+    "email": "support@sealedrecords.net",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "seamless-ai": {
+    "optout_url": "https://login.seamless.ai/personalDataRequest",
+    "email": "privacy@seamlessleads.com",
+    "country": "United States"
+  },
+  "searchbug-inc": {
+    "site_url": "https://www.searchbug.com/",
+    "optout_url": "https://www.searchbug.com/ccpa.aspx",
+    "email": "support@searchbug.zohodesk.com",
+    "type": "People Search"
+  },
+  "searchmobilenumber-com": {
+    "optout_url": "https://searchmobilenumber.com/privacy-policy",
+    "email": "ilaunchweb@gmail.com"
+  },
+  "searchpeoplefree": {
+    "site_url": "https://www.searchpeoplefree.com",
+    "optout_url": "https://www.searchpeoplefree.com/opt-out",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "searchpeoplefree-net": {
+    "site_url": "https://searchpeoplefree.net/",
+    "optout_url": "https://searchpeoplefree.net/resource/remove-my-info",
+    "email": "support@searchpeoplefree.net",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "searchpublicrecords-com": {
+    "site_url": "https://www.searchpublicrecords.com/",
+    "optout_url": "https://www.searchpublicrecords.com/help-center/privacy-requests",
+    "email": "support@searchpublicrecords.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "search-quarry": {
+    "site_url": "https://www.searchquarry.com/",
+    "optout_url": "https://members.searchquarry.com/terms?tab=optout",
+    "email": "privacy@searchquarry.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "searchsystems-public-records": {
+    "site_url": "http://publicrecords.searchsystems.net/",
+    "optout_url": "https://publicrecords.searchsystems.net/opt-out.php",
+    "email": "webmaster@searchsystems.net",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "searchusapeople": {
+    "site_url": "http://searchusapeople.com",
+    "optout_url": "https://www.searchusapeople.com/data-removal-request/",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "searqle": {
+    "site_url": "https://searqle.com",
+    "optout_url": "https://searqle.com/opt-out-information/",
+    "email": "support@searqle.com",
+    "type": "People Search"
+  },
+  "secretinfo": {
+    "site_url": "https://www.secretinfo.org/",
+    "optout_url": "https://www.secretinfo.org/api/helper/optOutLight/search",
+    "email": "support@secretinfo.org",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "seedtable": {
+    "email": "hello@seedtable.com",
+    "country": "United States"
+  },
+  "seekhd": {
+    "site_url": "https://www.seekhd.com/",
+    "optout_url": "https://www.seekhd.com/optout",
+    "email": "contact@seekhd.com",
+    "type": "People Search"
+  },
+  "seekout": {
+    "optout_url": "https://www.seekout.com/privacy/choices",
+    "email": "privacy@seekout.com",
+    "country": "Belgium, Bulgaria, Croatia, Cyprus, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Malta, Netherlands, Iceland, Austria, Czech Republic, Greece, Lithuania, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, Liechtenstein, Norway, United States"
+  },
+  "seethroughny": {
+    "site_url": "https://opengovny.com/",
+    "email": "info@empirecenter.org",
+    "type": "People Search"
+  },
+  "semcasting": {
+    "email": "privacychoice@semcasting.com",
+    "country": "United States"
+  },
+  "sentilink": {
+    "email": "privacy@sentilink.com",
+    "country": "United States"
+  },
+  "sg360": {
+    "email": "dataprivacy@sg360.com",
+    "country": "United States"
+  },
+  "shadow-inc-2": {
+    "email": "hello@shadowinc.io"
+  },
+  "share-local-media": {
+    "optout_url": "https://privacy.sharelocalmedia.com/",
+    "email": "privacy@sharelocalmedia.com",
+    "country": "United States"
+  },
+  "sharethis": {
+    "optout_url": "https://sharethis.com/do-not-sell-my-data-page/",
+    "email": "privacy@sharethis.com",
+    "country": "Brazil, Belgium, Bulgaria, Croatia, Cyprus, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Malta, Netherlands, Iceland, Austria, Czech Republic, Greece, Lithuania, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, United Kingdom, Liechtenstein, Norway, United States"
+  },
+  "sheriffsdepartment-net": {
+    "site_url": "http://sheriffsdepartment.net",
+    "optout_url": "https://www.truthfinder.com/opt-out/v2/submit/",
+    "email": "rivacy@truthfinder.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "shopify": {
+    "optout_url": "https://privacy.shopify.com/en/dsr_submission/subject_types?selected=erasure",
+    "email": "support@shopify.com",
+    "country": "United States"
+  },
+  "shortlyst": {
+    "optout_url": "https://www.shortlyst.ai/opt-out/",
+    "email": "support@shortlyst.ai"
+  },
+  "signalhire-2": {
+    "optout_url": "https://www.signalhire.com/do-not-sell/",
+    "email": "support@signalhire.com"
+  },
+  "simiocloud": {
+    "email": "Privacy@simiocloud.com",
+    "country": "United States"
+  },
+  "simplecontacts-2": {
+    "site_url": "https://www.simplecontacts.com/",
+    "optout_url": "https://www.simplecontacts.com/opt-out",
+    "email": "support@simplecontacts.com",
+    "type": "People Search"
+  },
+  "simunix-ltd": {
+    "site_url": "https://www.ukphonebook.com/",
+    "email": "info@simunix.com",
+    "type": "People Search"
+  },
+  "slideplayer": {},
+  "smartbackgroundchecks": {
+    "site_url": "http://smartbackgroundchecks.com/",
+    "optout_url": "https://www.smartbackgroundchecks.com/optout",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "smartmove": {
+    "email": "info@ctam.com",
+    "country": "United States"
+  },
+  "snoopstation": {
+    "site_url": "https://snoopstation.com/",
+    "optout_url": "https://www.intelius.com/privacy-center",
+    "email": "support@mailer.intelius.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "snov-io": {
+    "optout_url": "https://snov.io/do-not-sell-my-personal-information",
+    "email": "help@snov.io",
+    "country": "ALL"
+  },
+  "socialcatfish": {
+    "site_url": "https://socialcatfish.com/",
+    "optout_url": "https://socialcatfish.com/opt-out/",
+    "email": "privacyrequests@socialcatfish.com",
+    "country": "ALL",
+    "type": "People Search"
+  },
+  "solar-investments-inc": {
+    "optout_url": "https://www.solarreviews.com/privacy-policy",
+    "email": "privacyofficer@solarreviews.com"
+  },
+  "soundcloud-global-limited-co-kg": {
+    "email": "dataprotection@soundcloud.com"
+  },
+  "sourceit": {
+    "email": "dataprivacy@sourceitmarketing.com",
+    "country": "United States"
+  },
+  "south-carolina-arrests": {
+    "site_url": "https://www.scarrests.org/",
+    "optout_url": "https://infotracer.com/optout/",
+    "email": "privacy@infotracer.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "southcarolinacourtrecords-us": {
+    "site_url": "https://southcarolinacourtrecords.us/",
+    "optout_url": "https://southcarolinacourtrecords.us/optout/",
+    "email": "privacy@courtrecords.us",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "southcarolinapublicrecords-com": {
+    "site_url": "http://southcarolinapublicrecords.com",
+    "optout_url": "https://www.truthfinder.com/opt-out/v2/submit/",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "south-dakota-arrests": {
+    "site_url": "https://www.sdarrests.org/",
+    "optout_url": "https://infotracer.com/optout/",
+    "email": "privacy@infotracer.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "southdakotacourtrecords-us": {
+    "site_url": "https://southdakotacourtrecords.us/",
+    "optout_url": "https://southdakotacourtrecords.us/optout/",
+    "email": "privacy@courtrecords.us",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "spectrum-mailing-lists": {
+    "email": "privacy@spectrumlists.com",
+    "country": "United States"
+  },
+  "speedeon-data": {
+    "optout_url": "https://optout.speedeondata.com/",
+    "email": "privacy@speedeondata.com",
+    "country": "United States"
+  },
+  "spokeo": {
+    "site_url": "https://www.spokeo.com/",
+    "optout_url": "https://www.spokeo.com/optout",
+    "email": "privacy@spokeo.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "sprouts-ai": {
+    "optout_url": "https://sprouts.ai/privacy-policy",
+    "email": "privacy@sprouts.ai"
+  },
+  "spycloud": {
+    "email": "legal@spycloud.com",
+    "country": "United States"
+  },
+  "spydialer": {
+    "site_url": "https://spydialer.com/",
+    "optout_url": "https://spydialer.com/Consumers/",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "spyfly": {
+    "site_url": "https://www.spyfly.com/",
+    "optout_url": "https://www.spyfly.com/help-center/privacy-requests",
+    "email": "deletemyinfo@spyfly.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "stageresearch": {
+    "site_url": "https://stage-research.net/",
+    "type": "People Search"
+  },
+  "staircase": {
+    "email": "optout@staircase.co",
+    "country": "United States"
+  },
+  "stanatwork": {
+    "site_url": "https://www.stanatwork.com/",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "statara": {
+    "email": "privacy@statara.com",
+    "country": "United States"
+  },
+  "statecourts": {
+    "site_url": "https://statecourts.org/",
+    "email": "privacy@statecourts.org",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "state-information-services": {},
+  "staterecords-org": {
+    "site_url": "http://staterecords.org/",
+    "optout_url": "https://staterecords.org/optout",
+    "email": "privacy@staterecords.org",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "step2success-marketing": {
+    "email": "mary@step2successmarketing.com",
+    "country": "United States"
+  },
+  "steppingblocks": {
+    "email": "privacy@steppingblocks.com",
+    "country": "United States"
+  },
+  "sterling": {
+    "email": "privacy@sterling.ai",
+    "country": "United States"
+  },
+  "stirista": {
+    "optout_url": "https://unsubscribe.stirista.com/",
+    "email": "privacy@stirista.com",
+    "country": "Belgium, Bulgaria, Croatia, Cyprus, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Luxembourg, Malta, Netherlands, Switzerland, Austria, Czech Republic, Greece, Lithuania, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, United Kingdom, United States"
+  },
+  "strata": {
+    "email": "operations@gostrata.com",
+    "country": "United States"
+  },
+  "strategic-data-intelligence": {
+    "email": "Info@SDIntelligence.com",
+    "country": "United States"
+  },
+  "streetdirectory-pte-ltd": {
+    "email": "privacy@streetdirectory.com"
+  },
+  "structure": {
+    "optout_url": "https://www.structure.ac/opt_outs/new",
+    "email": "support@structure.ac",
+    "country": "United States"
+  },
+  "subsplash": {
+    "optout_url": "https://www.subsplash.com/legal/privacy",
+    "email": "support@subsplash.com"
+  },
+  "success-ai": {
+    "optout_url": "https://www.success.ai/privacy",
+    "email": "support@success.ai"
+  },
+  "suggestadoctor-com": {
+    "email": "kathy@hystersisters.com"
+  },
+  "swordfish-ai": {
+    "optout_url": "https://swordfish.ai/Optout",
+    "email": "contact@swordfish.ai",
+    "country": "ALL"
+  },
+  "sync-me": {
+    "site_url": "https://sync.me/",
+    "optout_url": "https://sync.me/unsubscribe/",
+    "email": "privacy@sync.me",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "sysoon": {
+    "site_url": "https://www.sysoon.com/",
+    "email": "info@sysoon.com",
+    "type": "People Search"
+  },
+  "tagmydeals": {
+    "email": "intelligence@exilegroup.com"
+  },
+  "tapad": {
+    "email": "privacy@tapad.com",
+    "country": "United States"
+  },
+  "tcc-information-private-limited": {
+    "email": "support@thecompanycheck.com"
+  },
+  "td-cowen": {
+    "email": "privacy@cowen.com",
+    "country": "United States"
+  },
+  "teamunify-llc": {
+    "optout_url": "https://www.teamunify.com/team/mdest/page/safe-sport/photo-opt-out",
+    "email": "privacy@nbcuni.com"
+  },
+  "telefi": {
+    "email": "ccpa@telefi.app",
+    "country": "United States"
+  },
+  "telephone-directories": {
+    "site_url": "https://www.telephonedirectories.us/",
+    "optout_url": "https://www.telephonedirectories.us/Edit_Records",
+    "email": "support@telephonedirectories.us",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "telguarder-as": {
+    "email": "support@telguarder.com"
+  },
+  "tennessee-arrests": {
+    "site_url": "https://www.tennesseearrests.org/",
+    "optout_url": "https://infotracer.com/optout/",
+    "email": "privacy@infotracer.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "tennesseecourtrecords-us": {
+    "site_url": "https://tennesseecourtrecords.us/",
+    "optout_url": "https://tennesseecourtrecords.us/optout/",
+    "email": "privacy@courtrecords.us",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "terminus": {
+    "optout_url": "https://home.terminusplatform.com/data-deletion-request",
+    "email": "privacy@terminus.com",
+    "country": "Belgium, Bulgaria, Croatia, Cyprus, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Luxembourg, Malta, Netherlands, Austria, Czech Republic, Greece, Lithuania, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, United Kingdom, United States"
+  },
+  "texas-arrests": {
+    "site_url": "https://www.texasarrests.org/",
+    "optout_url": "https://infotracer.com/optout",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "texas-arrest-warrants-search": {
+    "site_url": "https://texasarrestwarrants.org/",
+    "optout_url": "https://texasarrestwarrants.org/contact",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "texascourtrecords-us": {
+    "site_url": "https://texascourtrecords.us/",
+    "optout_url": "https://texascourtrecords.us/optout/",
+    "email": "privacy@courtrecords.us",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "texaswarrantroundup-org": {
+    "site_url": "https://texaswarrantroundup.org/",
+    "optout_url": "https://texaswarrantroundup.org/InfoPayOpt-OutNew.pdf",
+    "email": "support@VerifyRecords.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "thatsthem": {
+    "site_url": "https://thatsthem.com/",
+    "optout_url": "https://thatsthem.com/optout",
+    "email": "optout@thatsthem.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "the-blue-book-building-and-construction-network": {
+    "email": "info@thebluebook.com"
+  },
+  "the-bridge-corp": {
+    "email": "privacy@thebridgecorp.com",
+    "country": "United States"
+  },
+  "the-bump": {
+    "optout_url": "https://support.thebump.com/hc/en-us/articles/34980593049748-How-Can-I-Remove-My-Registry-From-The-Bump",
+    "email": "support@thebump.com"
+  },
+  "the-dots-global-limited": {
+    "optout_url": "https://the-dots.com/users/sophia-woodleigh-200258",
+    "email": "help@the-dots.com"
+  },
+  "the-feed-foundation": {
+    "email": "support@feedfoundation.org"
+  },
+  "the-georgia-gazette-llc": {
+    "site_url": "https://thegeorgiagazette.com/",
+    "email": "Support@TheGeorgiaGazette.com",
+    "type": "People Search"
+  },
+  "the-knot-worldwide-inc": {
+    "email": "help@theknot.com"
+  },
+  "the-national-directory-of-registered-tax-return-preparers-professionals-ltd": {
+    "optout_url": "https://www.ptindirectory.com/ccpa.cfm"
+  },
+  "thepublicindex": {
+    "site_url": "https://thepublicindex.org/",
+    "optout_url": "https://thepublicindex.org/optout",
+    "email": "support@thepublicindex.org",
+    "type": "People Search"
+  },
+  "therapist-com-llc": {
+    "optout_url": "https://therapist.com/privacy-notice/",
+    "email": "info@therapist.com"
+  },
+  "the-real-yellow-pages": {},
+  "the-verge": {
+    "email": "contact@support.shop.theverge.com"
+  },
+  "thisnumber-com": {
+    "email": "thisnumber.com@gmail.com"
+  },
+  "thomson-reuters": {
+    "email": "privacy.issues@thomsonreuters.com",
+    "country": "ALL"
+  },
+  "thryv-holdings-inc": {
+    "optout_url": "https://www.superpages.com/ccpa",
+    "email": "support@thryv.com"
+  },
+  "tinuiti": {
+    "email": "privacy@tinuiti.com",
+    "country": "ALL"
+  },
+  "tl1": {
+    "email": "data@tl1mkt.com",
+    "country": "United States"
+  },
+  "tomba": {
+    "email": "support@tomba.io"
+  },
+  "top4backgroundchecks": {
+    "site_url": "https://www.top4backgroundchecks.com/",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "topline-holdings-inc": {
+    "optout_url": "https://topline.com/opt-out",
+    "email": "help@topline.com"
+  },
+  "torre-labs-inc": {
+    "optout_url": "https://torre.ai/en/terms",
+    "email": "legal@torre.ai"
+  },
+  "touchsuite": {
+    "email": "info@touchsuite.com"
+  },
+  "traded-media-llc": {
+    "email": "hello@traded.co"
+  },
+  "transcend-inc": {
+    "email": "privacy@transcend.io"
+  },
+  "transparent-nevada": {
+    "site_url": "https://transparentnevada.com/",
+    "email": "office@npri.org",
+    "type": "People Search"
+  },
+  "trestle": {
+    "email": "data@trestleiq.com",
+    "country": "United States"
+  },
+  "true-blue-analytics": {
+    "email": "privacy@trueblueanalytics.org",
+    "country": "United States"
+  },
+  "truepeoplesearch": {
+    "site_url": "http://truepeoplesearch.com/",
+    "optout_url": "https://www.truepeoplesearch.com/removal",
+    "email": "support@truepeoplesearch.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "truepeoplesearch-net": {
+    "site_url": "https://truepeoplesearch.net/",
+    "optout_url": "https://truepeoplesearch.net/remove-my-info",
+    "email": "support@truepeoplesearch.net",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "trulia-llc": {
+    "optout_url": "https://support.trulia.com/hc/en-us/articles/221366928-How-do-I-remove-my-agent-s-listing-of-my-home",
+    "email": "customerservice@trulia.com"
+  },
+  "trustoria": {
+    "optout_url": "https://trustoria.com/control/privacy",
+    "email": "removals@trustoria.com",
+    "country": "United States"
+  },
+  "truthfinder": {
+    "site_url": "https://www.truthfinder.com/",
+    "optout_url": "https://www.truthfinder.com/privacy-center",
+    "email": "privacy@truthfinder.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "truthrecord": {
+    "site_url": "https://www.truthrecord.org/",
+    "optout_url": "https://www.truthrecord.org/api/helper/optOutLight/search",
+    "email": "support@truthrecord.org",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "truthviewer": {
+    "site_url": "https://www.truthviewer.com/",
+    "optout_url": "https://www.truthviewer.com/api/helper/optOutLight/search",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "tunnl": {
+    "optout_url": "https://privacy.tunnldata.com/",
+    "email": "notice@tunnldata.com",
+    "country": "United States"
+  },
+  "tymax-media": {
+    "email": "privacyofficer@datacomplianceportal.com",
+    "country": "United States"
+  },
+  "ufind-name": {
+    "site_url": "https://ufind.name/",
+    "optout_url": "https://ufind.name/opt-out",
+    "email": "support@ufind.name",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "unearth-campaigns": {
+    "email": "Privacy@UnearthCampaigns.com",
+    "country": "United States"
+  },
+  "unitedstatesphonebook-com": {
+    "site_url": "http://www.unitedstatesphonebook.com/",
+    "optout_url": "http://www.unitedstatesphonebook.com/contact.php",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "unity": {
+    "email": "dpo@unity3d.com",
+    "country": "ALL"
+  },
+  "unmask": {
+    "site_url": "https://unmask.com/",
+    "optout_url": "https://unmask.com/opt-out/",
+    "email": "contact@unmask.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "usadata": {
+    "email": "privacy@usadata.com",
+    "country": "United States"
+  },
+  "usa-people-search": {
+    "site_url": "http://usa-people-search.com",
+    "optout_url": "https://www.usa-people-search.com/removal",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "usaphonesbook": {
+    "site_url": "https://www.usaphonesbook.com/",
+    "type": "People Search"
+  },
+  "usatrace": {
+    "site_url": "https://usatrace.com/",
+    "optout_url": "https://www.usatrace.com/contact-us/",
+    "email": "research@usatrace.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "usawhitepages": {
+    "site_url": "https://usawhitepages.com/",
+    "type": "People Search"
+  },
+  "us-business-directory": {
+    "optout_url": "https://us-business.info/faq/link_removal/"
+  },
+  "usdatacorporation": {
+    "optout_url": "https://www.usdatacorporation.com/opt-out",
+    "email": "privacy@usdatacorporation.com",
+    "country": "United States"
+  },
+  "user-searcher": {
+    "site_url": "https://www.user-searcher.com/",
+    "optout_url": "https://blog.user-searcher.com/policy",
+    "email": "admin@user-searcher.com",
+    "type": "People Search"
+  },
+  "us-marketing-group": {
+    "optout_url": "https://usmarketinggrp.com/privacy-policy/",
+    "email": "PRIVACY@usmarketinggrp.com",
+    "country": "United States"
+  },
+  "us-people-search": {
+    "site_url": "https://uspeoplesearch.com/",
+    "email": "contact@uspeoplesearch.net",
+    "type": "People Search"
+  },
+  "usphonebook": {
+    "site_url": "http://usphonebook.com",
+    "optout_url": "https://www.usphonebook.com/removal",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "usphonelookup": {
+    "email": "support@usphonelookup.com",
+    "country": "United States"
+  },
+  "usphonelookup-2": {},
+  "us-phone-pro": {},
+  "usrecords": {
+    "site_url": "https://www.usrecords.net/",
+    "optout_url": "https://infotracer.com/optout",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "us-search": {
+    "site_url": "https://www.ussearch.com/",
+    "optout_url": "https://www.ussearch.com/privacy-center",
+    "email": "support@ussearch.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "u-s-visa-information-service": {},
+  "uswarrants": {
+    "site_url": "https://www.uswarrants.org/",
+    "optout_url": "https://infotracer.com/optout",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "utah-arrests": {
+    "site_url": "https://www.utaharrests.org/",
+    "optout_url": "https://infotracer.com/optout/",
+    "email": "privacy@infotracer.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "utahcourtrecords-us": {
+    "site_url": "https://utahcourtrecords.us/",
+    "optout_url": "https://utahcourtrecords.us/optout/",
+    "email": "privacy@courtrecords.us",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "valassis-rrd": {
+    "optout_url": "https://privacyportal.onetrust.com/webform/45e4be25-919b-483f-9f95-12809576a2b3/6e633594-9a81-48bb-97ab-6fb29bf46019",
+    "email": "DataPrivacy@rrd.com",
+    "country": "ALL"
+  },
+  "valid-number": {},
+  "vdx-tv": {
+    "email": "privacy@vdx.tv",
+    "country": "United States"
+  },
+  "veeva": {
+    "optout_url": "https://privacyportal.onetrust.com/webform/3d676ed2-16b1-4c48-97f8-a911923a3adf/a0df0a98-d990-40ff-9bdb-35b5f9e06620",
+    "email": "privacy@veeva.com",
+    "country": "ALL"
+  },
+  "venntel": {
+    "email": "privacy@venntel.com",
+    "country": "United States"
+  },
+  "venpath": {
+    "optout_url": "https://www.venpath.net/legal/opt-out",
+    "email": "privacy@venpath.net",
+    "country": "Belgium, Bulgaria, Croatia, Cyprus, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Luxembourg, Malta, Netherlands, Austria, Czech Republic, Greece, Lithuania, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, United Kingdom, United States"
+  },
+  "veraset": {
+    "email": "privacy@veraset.com",
+    "country": "United States"
+  },
+  "verif-com": {
+    "email": "contact@manageo.fr"
+  },
+  "verifypublicrecords-com": {
+    "site_url": "https://verifypublicrecords.com/",
+    "email": "support@verifyrecords.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "verifyrecords": {
+    "site_url": "https://verifyrecords.com/",
+    "optout_url": "https://members.verifyrecords.com/customer/opt-out",
+    "email": "support@verifyrecords.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "verinext": {
+    "email": "dpo@verinext.com",
+    "country": "United States"
+  },
+  "veripages": {
+    "site_url": "http://veripages.com/",
+    "optout_url": "https://veripages.com/inner/control-privacy",
+    "email": "support@veripages.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "vermont-arrests": {
+    "site_url": "https://www.vtarrests.org/",
+    "optout_url": "https://members.infotracer.com/removeMyData",
+    "email": "support@infotracer.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "vermontcourtrecords-us": {
+    "site_url": "https://vermontcourtrecords.us/",
+    "optout_url": "https://vermontcourtrecords.us/optout/",
+    "email": "privacy@courtrecords.us",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "versium": {
+    "optout_url": "https://versium.com/ccpa-opt-out",
+    "email": "optout@versium.com",
+    "country": "United States"
+  },
+  "viant": {
+    "email": "privacy@viantinc.com",
+    "country": "United States"
+  },
+  "virginia-arrests": {
+    "site_url": "https://www.virginiaarrests.org/",
+    "optout_url": "https://infotracer.com/optout/",
+    "email": "privacy@infotracer.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "virginiacourtrecords-us": {
+    "site_url": "https://virginiacourtrecords.us/",
+    "optout_url": "https://virginiacourtrecords.us/optout/",
+    "email": "privacy@courtrecords.us",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "visual-listing-systems-inc": {
+    "email": "support@vlshomes.com"
+  },
+  "visual-visitor": {
+    "optout_url": "https://www.visualvisitor.com/opt-out/",
+    "email": "support@visualvisitor.com"
+  },
+  "voilanorbert": {
+    "email": "support@voilanorbert.com",
+    "country": "United States"
+  },
+  "voterrecords-com": {
+    "site_url": "https://voterrecords.com/",
+    "optout_url": "https://voterrecords.com/faq",
+    "email": "admin@voterrecords.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "warmly": {
+    "email": "privacy@warmly.ai",
+    "country": "United States"
+  },
+  "washington-arrests": {
+    "site_url": "https://www.washingtonarrests.org/",
+    "optout_url": "https://infotracer.com/optout/",
+    "email": "privacy@infotracer.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "washington-company-search": {},
+  "washingtoncourtrecords-us": {
+    "site_url": "https://washingtoncourtrecords.us/",
+    "optout_url": "https://washingtoncourtrecords.us/optout/",
+    "email": "privacy@courtrecords.us",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "washington-dc-arrests": {
+    "site_url": "https://www.dcarrests.org/",
+    "optout_url": "https://infotracer.com/optout/",
+    "email": "privacy@infotracer.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "wealthminder": {
+    "defunct": true
+  },
+  "webbula": {
+    "optout_url": "https://webbula.com/opt-out-request-d/#OptOut",
+    "email": "privacy@webbula.com",
+    "country": "United States"
+  },
+  "webmd": {},
+  "webmd-health-corp": {
+    "optout_url": "https://www.webmd.com/about-webmd-policies/about-ccpa-do-not-sell",
+    "email": "privacy@webmd.com"
+  },
+  "websiteoutlook": {},
+  "weinform": {
+    "site_url": "https://www.weinform.org/",
+    "optout_url": "https://www.weinform.org/api/helper/optOutLight/search",
+    "email": "support@weinform.org",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "wellborn-cabinet-inc": {
+    "optout_url": "https://www.wellborn.com/privacy-policy/",
+    "email": "webcm@wellborn.com"
+  },
+  "wellness-com-inc": {
+    "email": "legal@wellness.com"
+  },
+  "west-virginia-arrests": {
+    "site_url": "https://www.wvarrests.org/",
+    "optout_url": "https://infotracer.com/optout/",
+    "email": "privacy@infotracer.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "westvirginiacourtrecords-us": {
+    "site_url": "https://westvirginiacourtrecords.us/",
+    "optout_url": "https://westvirginiacourtrecords.us/optout/",
+    "email": "privacy@courtrecords.us",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "whitepages": {
+    "site_url": "https://www.whitepages.com/",
+    "optout_url": "https://support.whitepages.com/hc/en-us/requests/new",
+    "email": "privacyrequest@whitepages.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "whoseno": {},
+  "windfall": {
+    "optout_url": "https://www.windfall.com/do-not-sell-my-info",
+    "email": "privacy@windfall.com",
+    "country": "United States"
+  },
+  "wisconsin-arrests": {
+    "site_url": "https://www.wisconsinarrests.org/",
+    "optout_url": "https://infotracer.com/optout/",
+    "email": "privacy@infotracer.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "wisconsincourtrecords-us": {
+    "site_url": "https://wisconsincourtrecords.us/",
+    "optout_url": "https://wisconsincourtrecords.us/optout/",
+    "email": "privacy@courtrecords.us",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "wisdom-media-group": {
+    "email": "contact@wisdommediagroupllc.com",
+    "country": "United States"
+  },
+  "wiza": {
+    "optout_url": "https://wiza.co/optout-directory",
+    "email": "hello@wiza.co",
+    "country": "ALL"
+  },
+  "wodwo": {
+    "email": "privacyofficer@wodwo.co",
+    "country": "United States"
+  },
+  "wunderkind": {
+    "email": "privacyrequests@wunderkind.co",
+    "country": "United States"
+  },
+  "wyoming-arrests": {
+    "site_url": "https://www.wyomingarrests.org/",
+    "optout_url": "https://infotracer.com/optout/",
+    "email": "privacy@infotracer.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "wyomingcourtrecords-us": {
+    "site_url": "https://wyomingcourtrecords.us/",
+    "email": "privacy@courtrecords.us",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "wyty": {
+    "site_url": "https://www.wyty.com/",
+    "optout_url": "https://www.wyty.com/remove/",
+    "email": "support@wyty.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "x-mode-social": {
+    "email": "privacy@xmodesocial.com",
+    "country": "United States"
+  },
+  "xome": {
+    "email": "privacy@xome.com",
+    "country": "United States"
+  },
+  "x-ray-contact": {
+    "site_url": "https://x-ray.contact/",
+    "optout_url": "https://x-ray.contact/blog/x-ray-contact-privacy-policy-update-account-deletion/",
+    "email": "support@x-ray.contact",
+    "type": "People Search"
+  },
+  "yellowbook-2": {
+    "site_url": "https://yellowbook.com",
+    "email": "privacy.officerUS@hibu.com",
+    "type": "People Search"
+  },
+  "yellow-pages-directory-inc": {
+    "site_url": "https://www.yellowpagesdirectory.com/",
+    "optout_url": "https://www.yellowpagesdirectory.com/support.php",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "youmail-inc": {
+    "email": "support@youmail.com"
+  },
+  "zabasearch": {
+    "site_url": "https://www.zabasearch.com/",
+    "optout_url": "https://suppression.peopleconnect.us/",
+    "email": "priorityoptout@intelius.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "zaubee": {},
+  "zeta-global": {
+    "email": "privacy@zetaglobal.com",
+    "country": "ALL"
+  },
+  "ziprecruiter-inc": {
+    "optout_url": "https://www.ziprecruiter.com/ccpa-opt-out",
+    "email": "dsars@ziprecruiter.com"
+  },
+  "zlookup": {
+    "site_url": "https://www.zlookup.com/",
+    "optout_url": "https://www.zlookup.com/opt_out",
+    "email": "hello@ZLOOKUP.com",
+    "country": "United States",
+    "type": "People Search"
+  },
+  "zoominfo": {
+    "optout_url": "https://privacyrequest.zoominfo.com/remove/verify",
+    "email": "privacy@zoominfo.com",
+    "country": "ALL"
+  },
+  "zosearch-2": {
+    "site_url": "https://zosearch.com",
+    "email": "support@zosearch.com",
+    "type": "People Search"
+  },
+  "zumper-inc": {
+    "email": "press@zumper.com"
+  }
+}
