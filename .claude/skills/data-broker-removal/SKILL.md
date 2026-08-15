@@ -107,3 +107,20 @@ Append to `data/curated_brokers.json`, then run `python3 scripts/build_registry.
 Required fields: `id`, `name`, `domain`, `priority` (1–5), `method`, `optout_url`.
 Find the opt-out URL via the site's privacy policy, `/optout`, `/opt-out`,
 `/removal`, or the CCPA / "Do Not Sell My Personal Information" link in the footer.
+
+## Filling forms reliably
+
+`form_input` sets a DOM value directly. On React/Vue-controlled inputs — common on
+modern opt-out pages — that reports success and then re-renders back to empty. Click
+the field and use `type` instead, so real key events fire.
+
+**Always screenshot to verify fields hold their values before handing off for a
+CAPTCHA.** A false success wastes the one thing you're asking the user to do, and
+CAPTCHA tokens expire in about two minutes, so there is no second try for free.
+
+Forms inside cross-origin iframes (Acxiom) return nothing from `read_page` /
+`form_input` at all — drive those by coordinates.
+
+Watch for **commit-then-continue** patterns: LexisNexis ("Add Person"/"Add Address")
+and Acxiom (blue "+" per field group) both discard typed values that were never
+committed to a list, and only complain at final submit.

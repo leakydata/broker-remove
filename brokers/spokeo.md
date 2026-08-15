@@ -12,6 +12,11 @@
 4. Confirmation email arrives — the link must be clicked or the request is void.
 
 ## Gotchas
+- **`form_input` silently fails here.** The inputs are React-controlled: setting
+  `.value` directly reports success and then re-renders back to empty. Click the
+  field and *type* so real key events fire. Always screenshot to verify a field
+  actually holds its value before handing off for a CAPTCHA — a stale "success"
+  from form_input will otherwise waste the user's solve.
 - **One listing per request.** Multiple listings per person are common; each needs its own submission.
 - reCAPTCHA is on the submit step and cannot be automated. Pre-fill the form and hand off.
 - Spokeo states data may reappear as new public records are ingested — re-check quarterly.
