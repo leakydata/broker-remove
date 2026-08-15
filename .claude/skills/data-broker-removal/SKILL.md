@@ -139,3 +139,28 @@ only for the verification field.
 When a form accepts exactly one, prefer the address most likely to be *in the
 broker's record* — usually the oldest or most public one — rather than the one
 that's most convenient to check.
+
+## Protected-person removals
+
+Judges, law enforcement officers, and public officials — **including retired and
+former** — get a separate, broader removal track at several brokers
+(`scripts/make_protected_person_request.py`). It is usually offered as company
+policy rather than compelled by statute.
+
+Rules for using it honestly:
+
+- **Never file a present-tense status claim for a role that has ended.** State the
+  role, the jurisdiction, and the year service ended. Most programs explicitly
+  cover retired personnel, so accuracy costs nothing and overstating gets the
+  request declined outright — leaving the record in place.
+- **Never cite a statute as compelling removal when it does not.** Many states
+  (Pennsylvania among them) protect officer home addresses in their public-records
+  law while having no data-broker removal statute at all. Those exemptions bind
+  government agencies, not private brokers. Offer them as *supporting evidence*
+  for a policy-based request and say so plainly.
+- New Jersey's Daniel's Law is the main statute that genuinely compels broker
+  removal, and it applies to NJ-covered persons — do not invoke it for other states.
+- These requests typically require a **date of birth**. Ask; do not infer one from
+  a listed age.
+- Ask the broker to apply the alternative ordinary consumer deletion if it declines
+  the protected basis, so a rejection doesn't waste the request.
