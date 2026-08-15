@@ -38,6 +38,9 @@ def main():
 
         for f in REQUIRED:
             if not b.get(f) and b.get(f) != 0:
+                # An email-only broker legitimately has no web opt-out page.
+                if f == "optout_url" and b.get("method") == "email" and b.get("email_to"):
+                    continue
                 errors.append(f"{where}: missing required field '{f}'")
 
         bid = b.get("id", "")
@@ -88,7 +91,8 @@ def main():
 
     # A high-priority broker with no playbook is the biggest documentation gap.
     for b in brokers:
-        if b.get("priority", 0) >= 4 and not (PLAYBOOKS / f"{b['id']}.md").exists():
+        if (b.get("priority", 0) >= 4 and b.get("source") != "optery_scrape"
+                and not (PLAYBOOKS / f"{b['id']}.md").exists()):
             warnings.append(f"{b['id']}: priority {b['priority']} but no "
                             f"brokers/{b['id']}.md playbook")
 
