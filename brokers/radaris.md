@@ -17,6 +17,20 @@
 5. Verification link + confirmation code arrive by email. Use a mailbox you can
    actually read; the email doubles as the status-tracking reference.
 
+## The OneRep trap — how to tell a real submission from a fake one
+
+After the final SUBMIT you may land on a page reading *"Remove info from 230+
+sites… PROTECT YOURSELF NOW! POWERED BY ONEREP"*. **That is a sales page, not a
+confirmation.** Reaching it means the removal did **not** register.
+
+Worse, it opens a new tab at `onerep.com/promo?fullName=…&city=…&state=…` with the
+details you just typed — Radaris passes your query to a third-party commercial
+service from inside its own privacy flow. Close that tab; don't fill it in.
+
+**The only reliable success signal is the verification email** with a link and
+confirmation code. If no email arrives within a few minutes, the request did not
+go through — start over from `/control-privacy`.
+
 ## Gotchas
 - **The email route is a dead end.** Support replies with a canned link to
   `/control-privacy` and ignores the substance — a protected-person request with
@@ -29,6 +43,10 @@
   positioning statement, not a limit on what you can ask for. The removal works.
 - reCAPTCHA sits at the final submit, so everything up to it can be automated and
   handed off as a single click.
+- **The wizard silently resets to step 1** if a click lands slightly off, and stale
+  element refs from a previous step still resolve — so a batch of clicks can appear
+  to succeed while going nowhere. Screenshot after each step rather than chaining
+  blind clicks.
 
 ## Verification
 Re-run the search URL above after ~7 days; the profile should no longer resolve.

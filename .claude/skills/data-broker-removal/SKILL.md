@@ -226,3 +226,24 @@ wait for the user between steps — queue anything blocked and keep moving.
 
 Stop the loop when: the daily cap is reached *and* there are no unanswered replies
 *and* no unblocked forms remain.
+
+## Verify submissions actually landed
+
+A page that appears after clicking submit is not proof of success. Two failure
+modes seen in practice:
+
+- **Upsell-as-confirmation.** Radaris routes a failed submission to a page selling
+  a third-party removal service (OneRep), and passes the details just typed into
+  that service's URL. It looks like an end state; nothing was submitted.
+- **Silent wizard reset.** Multi-step forms can drop back to step 1 when a click
+  lands slightly off, while stale element refs still resolve — so a chained batch
+  of clicks reports success at every step and accomplishes nothing.
+
+Rules that follow:
+
+- Prefer a **positive, broker-issued artifact** as proof: a confirmation email, a
+  ticket number, or a success URL. Record it with `--ref`.
+- When a flow promises a verification email, **check the inbox before marking
+  `submitted`.** No email means no request. Use `email_pending` at most.
+- On multi-step wizards, screenshot after each step rather than chaining clicks.
+- Never mark `submitted` on the strength of "the page changed".
