@@ -27,3 +27,21 @@ inaccessible, so I am submitting in writing.*
 Note that PeopleFinders' own policy says opt-outs are not accepted by email while
 simultaneously gating the form behind a challenge that blocks legitimate users.
 Documenting that contradiction is more useful than trying to route around it.
+
+## Pattern: check for a second, ungated privacy route
+
+Before writing a broker off as unreachable, look for a *different* privacy page.
+TruePeopleSearch and FamilyTreeNow both gate `/removal` and `/optout` behind
+Cloudflare while leaving `/privacy-rights` open — the Turnstile widget there
+auto-passes. Same site, same company, one door locked and one open.
+
+Worth trying on any gated broker:
+
+    /privacy-rights   /do-not-sell   /privacy-request   /ccpa
+    /notice-at-collection   footer "Do Not Sell or Share My Personal Information"
+
+Also check whether **request type changes the outcome**. On both sites,
+"Right to Delete" renders no form at all, while "Right to Know" reveals the full
+form and submits. A broker can be simultaneously refusing deletion and accepting
+disclosure requests — and a Right to Know still compels disclosure, creates a
+dated record, and unlocks their appeal process.
