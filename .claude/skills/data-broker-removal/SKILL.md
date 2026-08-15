@@ -124,3 +124,18 @@ Forms inside cross-origin iframes (Acxiom) return nothing from `read_page` /
 Watch for **commit-then-continue** patterns: LexisNexis ("Add Person"/"Add Address")
 and Acxiom (blue "+" per field group) both discard typed values that were never
 committed to a list, and only complain at final submit.
+
+## Multiple email addresses
+
+Brokers index records by email, so each address a person uses is a separate
+searchable identity. A removal keyed on one address routinely leaves records tied
+to the others in place.
+
+`profile.json` carries `all_emails` (every address the person uses) alongside
+`confirmation_email` (where verification links should go). On any form or letter
+that accepts more than one address, submit all of them. Use `confirmation_email`
+only for the verification field.
+
+When a form accepts exactly one, prefer the address most likely to be *in the
+broker's record* — usually the oldest or most public one — rather than the one
+that's most convenient to check.

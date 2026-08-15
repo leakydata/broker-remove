@@ -36,10 +36,13 @@ I request that you:
 To help you locate my records, my identifying details are:
 
   Name:            {name}
-  Email:           {email}
   Phone:           {phone}
   Mailing address: {street}
                    {city}, {state} {zipc}
+  Email addresses: {emails}
+
+This request covers records associated with ANY of the email addresses listed
+above, not only the first. Please search each one.
 
 I am exercising rights available to me under applicable state consumer privacy
 law, including the California Consumer Privacy Act as amended by the CPRA
@@ -71,9 +74,12 @@ CONTACT_NOTE = ("\nThat address is a contact address for this request; the "
 
 def load_profile():
     p = json.loads((ROOT / "data" / "profile.json").read_text())
+    emails = [e.lower() for e in p.get("all_emails") or [p["email"]]]
+    indent = "\n" + " " * 19
     return {
         "name": f"{p['first_name'].title()} {p['last_name'].title()}",
-        "email": p["email"].lower(),
+        "email": (p.get("confirmation_email") or p["email"]).lower(),
+        "emails": indent.join(emails),
         "phone": p["phone_number"],
         "street": p["address"],
         "city": p["city"].title(),
