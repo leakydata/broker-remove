@@ -185,3 +185,44 @@ automated one, without weakening the request at all.
 Keep the sending account and `confirmation_email` the same where possible; a letter
 that arrives from one address and asks for replies at another invites a
 verification query.
+
+## Unattended loop mode
+
+Each iteration, work in this order and stop when the useful work runs out. Do not
+wait for the user between steps — queue anything blocked and keep moving.
+
+**1. Handle the inbox first.** New replies are worth more than new sends.
+   - Check for bounces (`from:mailer-daemon OR from:postmaster`). A bounce means
+     the contact is wrong: find the real address, fix `curated_brokers.json`, resend,
+     and set `email_verified`. A bounced request looks identical to a pending one,
+     so this is the highest-value check in the loop.
+   - Check for broker replies. Record ticket numbers via `tracker.py --ref`.
+   - **Answer deflections rather than accepting them.** The recurring ones:
+     - *"Your state has no privacy law."* Check whether the same message states a
+       company policy to remove on request — invoke that instead. Also check
+       whether their own form's state dropdown includes your state; it often does.
+     - *"We don't process privacy requests by email."* Look for a second, ungated
+       privacy route (`/privacy-rights`, `/do-not-sell`, `/ccpa`).
+     - *"We don't store data, we fetch it from third parties."* The listing still
+       displays; ask for suppression of the display.
+     - *"Publicly available data is exempt."* Ask them to honor it as policy, and
+       to confirm in writing which basis they applied.
+
+**2. Send the next email batch.** `queue_batch.py --size 10 --summary`, then send
+   with the mail tool and record each with `tracker.py set <id> submitted --ref`.
+   The script enforces a daily cap; when it reports the cap reached, stop sending
+   for the day rather than raising the cap.
+
+**3. Work browser forms** for brokers where email is refused or a form is required.
+   Write `brokers/<id>.md` for anything new. If a page is bot-gated on load, try a
+   second privacy route before marking it blocked.
+
+**4. Record, validate, commit.** `validate.py`, then `generate_checklist.py`, then
+   commit and push. Never commit `data/profile.json`, `removal_status.json`, or
+   `outbox/`.
+
+**5. Report briefly.** What was filed, what came back, what needs the user. Keep
+   the standing list of user-blocked items short and specific.
+
+Stop the loop when: the daily cap is reached *and* there are no unanswered replies
+*and* no unblocked forms remain.
