@@ -1,60 +1,516 @@
 {
   "_comment": "Hand-verified opt-out endpoints. priority 5 = highest impact (widely scraped or feeds other brokers). method: web_form | email | web_form_captcha | account_required | postal | phone. Merged with the Optery list by scripts/build_registry.py",
   "brokers": [
-    {"id": "spokeo", "name": "Spokeo", "domain": "spokeo.com", "priority": 5, "method": "web_form", "optout_url": "https://www.spokeo.com/optout", "needs_email_confirm": true, "notes": "Search for your profile first, paste profile URL + email."},
-    {"id": "whitepages", "name": "Whitepages", "domain": "whitepages.com", "priority": 5, "method": "web_form", "optout_url": "https://www.whitepages.com/suppression-requests", "needs_email_confirm": false, "notes": "Requires phone call verification with an automated code at the end."},
-    {"id": "beenverified", "name": "BeenVerified", "domain": "beenverified.com", "priority": 5, "method": "web_form", "optout_url": "https://www.beenverified.com/app/optout/search", "needs_email_confirm": true},
-    {"id": "truepeoplesearch", "name": "TruePeopleSearch", "domain": "truepeoplesearch.com", "priority": 5, "method": "web_form_captcha", "optout_url": "https://www.truepeoplesearch.com/removal", "needs_email_confirm": true},
-    {"id": "fastpeoplesearch", "name": "FastPeopleSearch", "domain": "fastpeoplesearch.com", "priority": 5, "method": "web_form_captcha", "optout_url": "https://www.fastpeoplesearch.com/removal", "needs_email_confirm": true},
-    {"id": "radaris", "name": "Radaris", "domain": "radaris.com", "priority": 5, "method": "account_required", "optout_url": "https://radaris.com/control/privacy", "needs_email_confirm": true, "notes": "Requires claiming the profile; often needs phone verification."},
-    {"id": "mylife", "name": "MyLife", "domain": "mylife.com", "priority": 5, "method": "email", "optout_url": "https://www.mylife.com/ccpa/index.pubview", "email_to": "privacy@mylife.com", "needs_email_confirm": false},
-    {"id": "peoplefinders", "name": "PeopleFinders", "domain": "peoplefinders.com", "priority": 5, "method": "web_form", "optout_url": "https://www.peoplefinders.com/opt-out", "needs_email_confirm": true},
-    {"id": "intelius", "name": "Intelius (PeopleConnect)", "domain": "intelius.com", "priority": 5, "method": "web_form", "optout_url": "https://www.intelius.com/opt-out/", "needs_email_confirm": true, "notes": "PeopleConnect family: covers Intelius, US Search, ZabaSearch, Classmates."},
-    {"id": "truthfinder", "name": "TruthFinder", "domain": "truthfinder.com", "priority": 5, "method": "web_form", "optout_url": "https://www.truthfinder.com/opt-out/", "needs_email_confirm": true},
-    {"id": "instantcheckmate", "name": "Instant Checkmate", "domain": "instantcheckmate.com", "priority": 5, "method": "web_form", "optout_url": "https://www.instantcheckmate.com/opt-out/", "needs_email_confirm": true},
-    {"id": "thatsthem", "name": "ThatsThem", "domain": "thatsthem.com", "priority": 4, "method": "web_form", "optout_url": "https://thatsthem.com/optout", "needs_email_confirm": true},
-    {"id": "nuwber", "name": "Nuwber", "domain": "nuwber.com", "priority": 4, "method": "web_form", "optout_url": "https://nuwber.com/removal/link", "needs_email_confirm": true},
-    {"id": "usphonebook", "name": "USPhoneBook", "domain": "usphonebook.com", "priority": 4, "method": "web_form_captcha", "optout_url": "https://www.usphonebook.com/opt-out", "needs_email_confirm": true},
-    {"id": "searchpeoplefree", "name": "SearchPeopleFree", "domain": "searchpeoplefree.com", "priority": 4, "method": "web_form", "optout_url": "https://www.searchpeoplefree.com/opt-out", "needs_email_confirm": true},
-    {"id": "clustrmaps", "name": "ClustrMaps", "domain": "clustrmaps.com", "priority": 4, "method": "web_form", "optout_url": "https://clustrmaps.com/bl/opt-out", "needs_email_confirm": true},
-    {"id": "familytreenow", "name": "FamilyTreeNow", "domain": "familytreenow.com", "priority": 4, "method": "web_form", "optout_url": "https://www.familytreenow.com/optout", "needs_email_confirm": false},
-    {"id": "advancedbackgroundchecks", "name": "Advanced Background Checks", "domain": "advancedbackgroundchecks.com", "priority": 4, "method": "web_form", "optout_url": "https://www.advancedbackgroundchecks.com/removal", "needs_email_confirm": true},
-    {"id": "smartbackgroundchecks", "name": "SmartBackgroundChecks", "domain": "smartbackgroundchecks.com", "priority": 4, "method": "web_form", "optout_url": "https://www.smartbackgroundchecks.com/optoutcheck", "needs_email_confirm": true},
-    {"id": "cyberbackgroundchecks", "name": "CyberBackgroundChecks", "domain": "cyberbackgroundchecks.com", "priority": 4, "method": "web_form", "optout_url": "https://www.cyberbackgroundchecks.com/removal", "needs_email_confirm": true},
-    {"id": "peekyou", "name": "PeekYou", "domain": "peekyou.com", "priority": 4, "method": "web_form", "optout_url": "https://www.peekyou.com/about/contact/optout/", "needs_email_confirm": false},
-    {"id": "spydialer", "name": "SpyDialer", "domain": "spydialer.com", "priority": 3, "method": "web_form", "optout_url": "https://www.spydialer.com/optout.aspx", "needs_email_confirm": true},
-    {"id": "cocofinder", "name": "CocoFinder", "domain": "cocofinder.com", "priority": 3, "method": "web_form", "optout_url": "https://cocofinder.com/optout", "needs_email_confirm": true},
-    {"id": "ownerly", "name": "Ownerly", "domain": "ownerly.com", "priority": 3, "method": "web_form", "optout_url": "https://www.ownerly.com/optout", "needs_email_confirm": true},
-    {"id": "neighborwho", "name": "NeighborWho", "domain": "neighborwho.com", "priority": 3, "method": "web_form", "optout_url": "https://www.neighborwho.com/optout", "needs_email_confirm": true},
-    {"id": "publicrecordsnow", "name": "PublicRecordsNow", "domain": "publicrecordsnow.com", "priority": 3, "method": "web_form", "optout_url": "https://www.publicrecordsnow.com/optout/", "needs_email_confirm": false},
-    {"id": "checkpeople", "name": "CheckPeople", "domain": "checkpeople.com", "priority": 3, "method": "web_form", "optout_url": "https://checkpeople.com/opt-out", "needs_email_confirm": true},
-    {"id": "infotracer", "name": "InfoTracer", "domain": "infotracer.com", "priority": 3, "method": "web_form", "optout_url": "https://infotracer.com/optout/", "needs_email_confirm": true},
-    {"id": "idtrue", "name": "IDTrue", "domain": "idtrue.com", "priority": 3, "method": "web_form", "optout_url": "https://www.idtrue.com/optout", "needs_email_confirm": true},
-    {"id": "rehold", "name": "ReHold", "domain": "rehold.com", "priority": 3, "method": "web_form", "optout_url": "https://rehold.com/optout", "needs_email_confirm": false},
-    {"id": "homemetry", "name": "Homemetry", "domain": "homemetry.com", "priority": 3, "method": "web_form", "optout_url": "https://homemetry.com/optout", "needs_email_confirm": false},
-    {"id": "veripages", "name": "Veripages", "domain": "veripages.com", "priority": 3, "method": "web_form", "optout_url": "https://veripages.com/optout", "needs_email_confirm": true},
-    {"id": "locatefamily", "name": "LocateFamily", "domain": "locatefamily.com", "priority": 3, "method": "email", "optout_url": "https://locatefamily.com/remove.html", "email_to": "support@locatefamily.com", "needs_email_confirm": false},
-    {"id": "golookup", "name": "GoLookUp", "domain": "golookup.com", "priority": 3, "method": "web_form", "optout_url": "https://golookup.com/optout", "needs_email_confirm": true},
-    {"id": "officialusa", "name": "OfficialUSA", "domain": "officialusa.com", "priority": 3, "method": "email", "optout_url": "https://www.officialusa.com/", "email_to": "info@officialusa.com", "needs_email_confirm": false},
-    {"id": "zoominfo", "name": "ZoomInfo", "domain": "zoominfo.com", "priority": 4, "method": "web_form", "optout_url": "https://www.zoominfo.com/about/privacy-center/opt-out", "needs_email_confirm": true, "notes": "B2B data; requires email verification of the address on file."},
-    {"id": "pipl", "name": "Pipl", "domain": "pipl.com", "priority": 4, "method": "web_form", "optout_url": "https://pipl.com/personal-information-removal-request", "needs_email_confirm": false},
-    {"id": "acxiom", "name": "Acxiom", "domain": "acxiom.com", "priority": 5, "method": "web_form", "optout_url": "https://isapps.acxiom.com/optout/optout.aspx", "needs_email_confirm": true, "notes": "Major aggregator - feeds many downstream brokers."},
-    {"id": "lexisnexis", "name": "LexisNexis", "domain": "lexisnexis.com", "priority": 5, "method": "web_form", "optout_url": "https://optout.lexisnexis.com/", "needs_email_confirm": false, "notes": "May require proof of identity. Also file a separate security freeze."},
-    {"id": "epsilon", "name": "Epsilon", "domain": "epsilon.com", "priority": 5, "method": "email", "optout_url": "https://www.epsilon.com/us/privacy-policy", "email_to": "privacy@epsilon.com", "needs_email_confirm": false, "notes": "Major marketing aggregator."},
-    {"id": "dataaxle", "name": "Data Axle (infoUSA)", "domain": "data-axle.com", "priority": 5, "method": "web_form", "optout_url": "https://www.data-axle.com/privacy-policy/", "needs_email_confirm": false},
-    {"id": "corelogic", "name": "CoreLogic", "domain": "corelogic.com", "priority": 4, "method": "web_form", "optout_url": "https://www.corelogic.com/privacy/", "needs_email_confirm": false},
-    {"id": "melissa", "name": "Melissa Data", "domain": "melissa.com", "priority": 4, "method": "web_form", "optout_url": "https://www.melissa.com/company/data-privacy", "needs_email_confirm": false},
-    {"id": "experian_marketing", "name": "Experian Marketing", "domain": "experian.com", "priority": 4, "method": "web_form", "optout_url": "https://www.experian.com/privacy/opting_out", "needs_email_confirm": false},
-    {"id": "oracle_datacloud", "name": "Oracle Data Cloud", "domain": "oracle.com", "priority": 3, "method": "web_form", "optout_url": "https://www.oracle.com/legal/privacy/marketing-cloud-data-cloud-privacy-policy.html", "needs_email_confirm": false},
-    {"id": "dmachoice", "name": "DMAchoice (direct mail)", "domain": "dmachoice.thedma.org", "priority": 4, "method": "account_required", "optout_url": "https://dmachoice.thedma.org/", "needs_email_confirm": true, "notes": "$6 fee, covers direct-mail marketing broadly."},
-    {"id": "optoutprescreen", "name": "OptOutPrescreen (credit offers)", "domain": "optoutprescreen.com", "priority": 4, "method": "web_form", "optout_url": "https://www.optoutprescreen.com/", "needs_email_confirm": false, "notes": "Joint Equifax/Experian/TransUnion/Innovis prescreen opt-out. Requires SSN for permanent opt-out - use the 5-year electronic option instead."},
-    {"id": "peoplesearchnow", "name": "PeopleSearchNow", "domain": "peoplesearchnow.com", "priority": 3, "method": "web_form", "optout_url": "https://www.peoplesearchnow.com/opt-out", "needs_email_confirm": false},
-    {"id": "usatrace", "name": "USATrace", "domain": "usatrace.com", "priority": 2, "method": "web_form", "optout_url": "https://www.usatrace.com/optout/", "needs_email_confirm": false},
-    {"id": "backgroundcheck_run", "name": "BackgroundCheck.run", "domain": "backgroundcheck.run", "priority": 3, "method": "web_form", "optout_url": "https://backgroundcheck.run/optout", "needs_email_confirm": true},
-    {"id": "personsearchers", "name": "PersonSearchers", "domain": "personsearchers.com", "priority": 2, "method": "web_form", "optout_url": "https://personsearchers.com/optout", "needs_email_confirm": false},
-    {"id": "addresses_com", "name": "Addresses.com", "domain": "addresses.com", "priority": 3, "method": "web_form", "optout_url": "https://www.addresses.com/optout.php", "needs_email_confirm": true},
-    {"id": "anywho", "name": "AnyWho", "domain": "anywho.com", "priority": 3, "method": "web_form", "optout_url": "https://www.anywho.com/optout", "needs_email_confirm": true},
-    {"id": "zabasearch", "name": "ZabaSearch", "domain": "zabasearch.com", "priority": 3, "method": "web_form", "optout_url": "https://www.zabasearch.com/block_records/", "needs_email_confirm": true},
-    {"id": "ussearch", "name": "US Search", "domain": "ussearch.com", "priority": 3, "method": "web_form", "optout_url": "https://www.ussearch.com/opt-out/", "needs_email_confirm": true}
+    {
+      "id": "spokeo",
+      "name": "Spokeo",
+      "domain": "spokeo.com",
+      "priority": 5,
+      "method": "web_form",
+      "optout_url": "https://www.spokeo.com/optout",
+      "needs_email_confirm": true,
+      "notes": "Search for your profile first, paste profile URL + email."
+    },
+    {
+      "id": "whitepages",
+      "name": "Whitepages",
+      "domain": "whitepages.com",
+      "priority": 5,
+      "method": "web_form",
+      "optout_url": "https://www.whitepages.com/suppression-requests",
+      "needs_email_confirm": false,
+      "notes": "Requires phone call verification with an automated code at the end."
+    },
+    {
+      "id": "beenverified",
+      "name": "BeenVerified",
+      "domain": "beenverified.com",
+      "priority": 5,
+      "method": "web_form",
+      "optout_url": "https://www.beenverified.com/app/optout/search",
+      "needs_email_confirm": true
+    },
+    {
+      "id": "truepeoplesearch",
+      "name": "TruePeopleSearch",
+      "domain": "truepeoplesearch.com",
+      "priority": 5,
+      "method": "web_form_captcha",
+      "optout_url": "https://www.truepeoplesearch.com/removal",
+      "needs_email_confirm": true
+    },
+    {
+      "id": "fastpeoplesearch",
+      "name": "FastPeopleSearch",
+      "domain": "fastpeoplesearch.com",
+      "priority": 5,
+      "method": "web_form_captcha",
+      "optout_url": "https://www.fastpeoplesearch.com/removal",
+      "needs_email_confirm": true
+    },
+    {
+      "id": "radaris",
+      "name": "Radaris",
+      "domain": "radaris.com",
+      "priority": 5,
+      "method": "account_required",
+      "optout_url": "https://radaris.com/control/privacy",
+      "needs_email_confirm": true,
+      "notes": "Requires claiming the profile; often needs phone verification."
+    },
+    {
+      "id": "mylife",
+      "name": "MyLife",
+      "domain": "mylife.com",
+      "priority": 5,
+      "method": "email",
+      "optout_url": "https://www.mylife.com/ccpa/index.pubview",
+      "email_to": "privacy@mylife.com",
+      "needs_email_confirm": false
+    },
+    {
+      "id": "peoplefinders",
+      "name": "PeopleFinders",
+      "domain": "peoplefinders.com",
+      "priority": 5,
+      "method": "web_form",
+      "optout_url": "https://www.peoplefinders.com/opt-out",
+      "needs_email_confirm": true,
+      "email_to": "customercare@peoplefinders.com",
+      "notes": "Web opt-out is behind a Cloudflare challenge. Policy states opt-outs are NOT accepted by email/mail - the form is the sanctioned route, but email is accepted to document that the form failed. privacy@peoplefinders.com BOUNCES (550). Correct public contact per CA data broker registration is customercare@peoplefinders.com; affiliate is privacy@peoplefindersdaas.com. Phone (800) 718-8997."
+    },
+    {
+      "id": "intelius",
+      "name": "Intelius (PeopleConnect)",
+      "domain": "intelius.com",
+      "priority": 5,
+      "method": "web_form",
+      "optout_url": "https://www.intelius.com/opt-out/",
+      "needs_email_confirm": true,
+      "notes": "PeopleConnect family: covers Intelius, US Search, ZabaSearch, Classmates."
+    },
+    {
+      "id": "truthfinder",
+      "name": "TruthFinder",
+      "domain": "truthfinder.com",
+      "priority": 5,
+      "method": "web_form",
+      "optout_url": "https://www.truthfinder.com/opt-out/",
+      "needs_email_confirm": true
+    },
+    {
+      "id": "instantcheckmate",
+      "name": "Instant Checkmate",
+      "domain": "instantcheckmate.com",
+      "priority": 5,
+      "method": "web_form",
+      "optout_url": "https://www.instantcheckmate.com/opt-out/",
+      "needs_email_confirm": true
+    },
+    {
+      "id": "thatsthem",
+      "name": "ThatsThem",
+      "domain": "thatsthem.com",
+      "priority": 4,
+      "method": "web_form",
+      "optout_url": "https://thatsthem.com/optout",
+      "needs_email_confirm": true
+    },
+    {
+      "id": "nuwber",
+      "name": "Nuwber",
+      "domain": "nuwber.com",
+      "priority": 4,
+      "method": "web_form",
+      "optout_url": "https://nuwber.com/removal/link",
+      "needs_email_confirm": true
+    },
+    {
+      "id": "usphonebook",
+      "name": "USPhoneBook",
+      "domain": "usphonebook.com",
+      "priority": 4,
+      "method": "web_form_captcha",
+      "optout_url": "https://www.usphonebook.com/opt-out",
+      "needs_email_confirm": true
+    },
+    {
+      "id": "searchpeoplefree",
+      "name": "SearchPeopleFree",
+      "domain": "searchpeoplefree.com",
+      "priority": 4,
+      "method": "web_form",
+      "optout_url": "https://www.searchpeoplefree.com/opt-out",
+      "needs_email_confirm": true
+    },
+    {
+      "id": "clustrmaps",
+      "name": "ClustrMaps",
+      "domain": "clustrmaps.com",
+      "priority": 4,
+      "method": "web_form",
+      "optout_url": "https://clustrmaps.com/bl/opt-out",
+      "needs_email_confirm": true
+    },
+    {
+      "id": "familytreenow",
+      "name": "FamilyTreeNow",
+      "domain": "familytreenow.com",
+      "priority": 4,
+      "method": "web_form",
+      "optout_url": "https://www.familytreenow.com/optout",
+      "needs_email_confirm": false
+    },
+    {
+      "id": "advancedbackgroundchecks",
+      "name": "Advanced Background Checks",
+      "domain": "advancedbackgroundchecks.com",
+      "priority": 4,
+      "method": "web_form",
+      "optout_url": "https://www.advancedbackgroundchecks.com/removal",
+      "needs_email_confirm": true
+    },
+    {
+      "id": "smartbackgroundchecks",
+      "name": "SmartBackgroundChecks",
+      "domain": "smartbackgroundchecks.com",
+      "priority": 4,
+      "method": "web_form",
+      "optout_url": "https://www.smartbackgroundchecks.com/optoutcheck",
+      "needs_email_confirm": true
+    },
+    {
+      "id": "cyberbackgroundchecks",
+      "name": "CyberBackgroundChecks",
+      "domain": "cyberbackgroundchecks.com",
+      "priority": 4,
+      "method": "web_form",
+      "optout_url": "https://www.cyberbackgroundchecks.com/removal",
+      "needs_email_confirm": true
+    },
+    {
+      "id": "peekyou",
+      "name": "PeekYou",
+      "domain": "peekyou.com",
+      "priority": 4,
+      "method": "web_form",
+      "optout_url": "https://www.peekyou.com/about/contact/optout/",
+      "needs_email_confirm": false
+    },
+    {
+      "id": "spydialer",
+      "name": "SpyDialer",
+      "domain": "spydialer.com",
+      "priority": 3,
+      "method": "web_form",
+      "optout_url": "https://www.spydialer.com/optout.aspx",
+      "needs_email_confirm": true
+    },
+    {
+      "id": "cocofinder",
+      "name": "CocoFinder",
+      "domain": "cocofinder.com",
+      "priority": 3,
+      "method": "web_form",
+      "optout_url": "https://cocofinder.com/optout",
+      "needs_email_confirm": true
+    },
+    {
+      "id": "ownerly",
+      "name": "Ownerly",
+      "domain": "ownerly.com",
+      "priority": 3,
+      "method": "web_form",
+      "optout_url": "https://www.ownerly.com/optout",
+      "needs_email_confirm": true
+    },
+    {
+      "id": "neighborwho",
+      "name": "NeighborWho",
+      "domain": "neighborwho.com",
+      "priority": 3,
+      "method": "web_form",
+      "optout_url": "https://www.neighborwho.com/optout",
+      "needs_email_confirm": true
+    },
+    {
+      "id": "publicrecordsnow",
+      "name": "PublicRecordsNow",
+      "domain": "publicrecordsnow.com",
+      "priority": 3,
+      "method": "web_form",
+      "optout_url": "https://www.publicrecordsnow.com/optout/",
+      "needs_email_confirm": false
+    },
+    {
+      "id": "checkpeople",
+      "name": "CheckPeople",
+      "domain": "checkpeople.com",
+      "priority": 3,
+      "method": "web_form",
+      "optout_url": "https://checkpeople.com/opt-out",
+      "needs_email_confirm": true
+    },
+    {
+      "id": "infotracer",
+      "name": "InfoTracer",
+      "domain": "infotracer.com",
+      "priority": 3,
+      "method": "web_form",
+      "optout_url": "https://infotracer.com/optout/",
+      "needs_email_confirm": true
+    },
+    {
+      "id": "idtrue",
+      "name": "IDTrue",
+      "domain": "idtrue.com",
+      "priority": 3,
+      "method": "web_form",
+      "optout_url": "https://www.idtrue.com/optout",
+      "needs_email_confirm": true
+    },
+    {
+      "id": "rehold",
+      "name": "ReHold",
+      "domain": "rehold.com",
+      "priority": 3,
+      "method": "web_form",
+      "optout_url": "https://rehold.com/optout",
+      "needs_email_confirm": false
+    },
+    {
+      "id": "homemetry",
+      "name": "Homemetry",
+      "domain": "homemetry.com",
+      "priority": 3,
+      "method": "web_form",
+      "optout_url": "https://homemetry.com/optout",
+      "needs_email_confirm": false
+    },
+    {
+      "id": "veripages",
+      "name": "Veripages",
+      "domain": "veripages.com",
+      "priority": 3,
+      "method": "web_form",
+      "optout_url": "https://veripages.com/optout",
+      "needs_email_confirm": true
+    },
+    {
+      "id": "locatefamily",
+      "name": "LocateFamily",
+      "domain": "locatefamily.com",
+      "priority": 3,
+      "method": "email",
+      "optout_url": "https://locatefamily.com/remove.html",
+      "email_to": "support@locatefamily.com",
+      "needs_email_confirm": false
+    },
+    {
+      "id": "golookup",
+      "name": "GoLookUp",
+      "domain": "golookup.com",
+      "priority": 3,
+      "method": "web_form",
+      "optout_url": "https://golookup.com/optout",
+      "needs_email_confirm": true
+    },
+    {
+      "id": "officialusa",
+      "name": "OfficialUSA",
+      "domain": "officialusa.com",
+      "priority": 3,
+      "method": "email",
+      "optout_url": "https://www.officialusa.com/",
+      "email_to": "info@officialusa.com",
+      "needs_email_confirm": false
+    },
+    {
+      "id": "zoominfo",
+      "name": "ZoomInfo",
+      "domain": "zoominfo.com",
+      "priority": 4,
+      "method": "web_form",
+      "optout_url": "https://www.zoominfo.com/about/privacy-center/opt-out",
+      "needs_email_confirm": true,
+      "notes": "B2B data; requires email verification of the address on file."
+    },
+    {
+      "id": "pipl",
+      "name": "Pipl",
+      "domain": "pipl.com",
+      "priority": 4,
+      "method": "web_form",
+      "optout_url": "https://pipl.com/personal-information-removal-request",
+      "needs_email_confirm": false
+    },
+    {
+      "id": "acxiom",
+      "name": "Acxiom",
+      "domain": "acxiom.com",
+      "priority": 5,
+      "method": "web_form",
+      "optout_url": "https://isapps.acxiom.com/optout/optout.aspx",
+      "needs_email_confirm": true,
+      "notes": "Major aggregator - feeds many downstream brokers."
+    },
+    {
+      "id": "lexisnexis",
+      "name": "LexisNexis",
+      "domain": "lexisnexis.com",
+      "priority": 5,
+      "method": "web_form",
+      "optout_url": "https://optout.lexisnexis.com/",
+      "needs_email_confirm": false,
+      "notes": "May require proof of identity. Also file a separate security freeze."
+    },
+    {
+      "id": "epsilon",
+      "name": "Epsilon",
+      "domain": "epsilon.com",
+      "priority": 5,
+      "method": "email",
+      "optout_url": "https://www.epsilon.com/us/privacy-policy",
+      "email_to": "privacy@epsilon.com",
+      "needs_email_confirm": false,
+      "notes": "Major marketing aggregator."
+    },
+    {
+      "id": "dataaxle",
+      "name": "Data Axle (infoUSA)",
+      "domain": "data-axle.com",
+      "priority": 5,
+      "method": "web_form",
+      "optout_url": "https://www.data-axle.com/privacy-policy/",
+      "needs_email_confirm": false
+    },
+    {
+      "id": "corelogic",
+      "name": "CoreLogic",
+      "domain": "corelogic.com",
+      "priority": 4,
+      "method": "web_form",
+      "optout_url": "https://www.corelogic.com/privacy/",
+      "needs_email_confirm": false
+    },
+    {
+      "id": "melissa",
+      "name": "Melissa Data",
+      "domain": "melissa.com",
+      "priority": 4,
+      "method": "web_form",
+      "optout_url": "https://www.melissa.com/company/data-privacy",
+      "needs_email_confirm": false
+    },
+    {
+      "id": "experian_marketing",
+      "name": "Experian Marketing",
+      "domain": "experian.com",
+      "priority": 4,
+      "method": "web_form",
+      "optout_url": "https://www.experian.com/privacy/opting_out",
+      "needs_email_confirm": false
+    },
+    {
+      "id": "oracle_datacloud",
+      "name": "Oracle Data Cloud",
+      "domain": "oracle.com",
+      "priority": 3,
+      "method": "web_form",
+      "optout_url": "https://www.oracle.com/legal/privacy/marketing-cloud-data-cloud-privacy-policy.html",
+      "needs_email_confirm": false
+    },
+    {
+      "id": "dmachoice",
+      "name": "DMAchoice (direct mail)",
+      "domain": "dmachoice.thedma.org",
+      "priority": 4,
+      "method": "account_required",
+      "optout_url": "https://dmachoice.thedma.org/",
+      "needs_email_confirm": true,
+      "notes": "$6 fee, covers direct-mail marketing broadly."
+    },
+    {
+      "id": "optoutprescreen",
+      "name": "OptOutPrescreen (credit offers)",
+      "domain": "optoutprescreen.com",
+      "priority": 4,
+      "method": "web_form",
+      "optout_url": "https://www.optoutprescreen.com/",
+      "needs_email_confirm": false,
+      "notes": "Joint Equifax/Experian/TransUnion/Innovis prescreen opt-out. Requires SSN for permanent opt-out - use the 5-year electronic option instead."
+    },
+    {
+      "id": "peoplesearchnow",
+      "name": "PeopleSearchNow",
+      "domain": "peoplesearchnow.com",
+      "priority": 3,
+      "method": "web_form",
+      "optout_url": "https://www.peoplesearchnow.com/opt-out",
+      "needs_email_confirm": false
+    },
+    {
+      "id": "usatrace",
+      "name": "USATrace",
+      "domain": "usatrace.com",
+      "priority": 2,
+      "method": "web_form",
+      "optout_url": "https://www.usatrace.com/optout/",
+      "needs_email_confirm": false
+    },
+    {
+      "id": "backgroundcheck_run",
+      "name": "BackgroundCheck.run",
+      "domain": "backgroundcheck.run",
+      "priority": 3,
+      "method": "web_form",
+      "optout_url": "https://backgroundcheck.run/optout",
+      "needs_email_confirm": true
+    },
+    {
+      "id": "personsearchers",
+      "name": "PersonSearchers",
+      "domain": "personsearchers.com",
+      "priority": 2,
+      "method": "web_form",
+      "optout_url": "https://personsearchers.com/optout",
+      "needs_email_confirm": false
+    },
+    {
+      "id": "addresses_com",
+      "name": "Addresses.com",
+      "domain": "addresses.com",
+      "priority": 3,
+      "method": "web_form",
+      "optout_url": "https://www.addresses.com/optout.php",
+      "needs_email_confirm": true
+    },
+    {
+      "id": "anywho",
+      "name": "AnyWho",
+      "domain": "anywho.com",
+      "priority": 3,
+      "method": "web_form",
+      "optout_url": "https://www.anywho.com/optout",
+      "needs_email_confirm": true
+    },
+    {
+      "id": "zabasearch",
+      "name": "ZabaSearch",
+      "domain": "zabasearch.com",
+      "priority": 3,
+      "method": "web_form",
+      "optout_url": "https://www.zabasearch.com/block_records/",
+      "needs_email_confirm": true
+    },
+    {
+      "id": "ussearch",
+      "name": "US Search",
+      "domain": "ussearch.com",
+      "priority": 3,
+      "method": "web_form",
+      "optout_url": "https://www.ussearch.com/opt-out/",
+      "needs_email_confirm": true
+    }
   ]
 }

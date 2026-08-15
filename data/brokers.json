@@ -113,6 +113,8 @@
       "method": "web_form",
       "optout_url": "https://www.peoplefinders.com/opt-out",
       "needs_email_confirm": true,
+      "email_to": "customercare@peoplefinders.com",
+      "notes": "Web opt-out is behind a Cloudflare challenge. Policy states opt-outs are NOT accepted by email/mail - the form is the sanctioned route, but email is accepted to document that the form failed. privacy@peoplefinders.com BOUNCES (550). Correct public contact per CA data broker registration is customercare@peoplefinders.com; affiliate is privacy@peoplefindersdaas.com. Phone (800) 718-8997.",
       "source": "curated",
       "optery_slug": "peoplefinders"
     },
