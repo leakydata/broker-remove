@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+# /// script
+# requires-python = ">=3.9"
+# dependencies = []
+# ///
 """Generate a protected-person removal request for current or former law
 enforcement officers, judges, and public officials.
 

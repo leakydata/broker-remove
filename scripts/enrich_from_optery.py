@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+# /// script
+# requires-python = ">=3.9"
+# dependencies = []
+# ///
 """Harvest structured broker facts from Optery's public data-broker directory.
 
 Each directory page exposes a labelled table — opt-out URL, privacy contact

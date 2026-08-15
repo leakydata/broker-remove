@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+# /// script
+# requires-python = ">=3.9"
+# dependencies = []
+# ///
 """Validate data/curated_brokers.json before a commit or pull request.
 
 Catches the mistakes that are expensive precisely because they fail quietly:

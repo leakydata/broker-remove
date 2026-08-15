@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+# /// script
+# requires-python = ">=3.9"
+# dependencies = []
+# ///
 """Generate statutory opt-out / deletion request emails.
 
 Why this exists: most brokers put their CAPTCHA on the web form, but state privacy

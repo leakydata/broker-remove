@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+# /// script
+# requires-python = ">=3.9"
+# dependencies = []
+# ///
 """Generate a human do-it-yourself checklist for every broker that automation
 cannot finish: CAPTCHA gates, account signups, ID uploads, phone/postal-only flows.
 

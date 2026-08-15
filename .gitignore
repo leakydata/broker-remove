@@ -11,3 +11,5 @@ __pycache__/
 outbox/
 data/url_health.json
 docs/MANUAL_CHECKLIST.md
+.venv/
+uv.lock

@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+# /// script
+# requires-python = ">=3.9"
+# dependencies = []
+# ///
 """Produce the next batch of statutory removal emails to send.
 
 Sending is deliberately paced. A personal mailbox tops out around 500 recipients

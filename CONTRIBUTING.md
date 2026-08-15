@@ -26,7 +26,7 @@ manually and took notes, that's a contribution.
    }
    ```
 
-2. Run `python3 scripts/build_registry.py` then `python3 scripts/validate.py`.
+2. Run `uv run scripts/build_registry.py` then `uv run scripts/validate.py`.
 3. Write `brokers/<id>.md` using `brokers/_TEMPLATE.md`.
 4. Open a pull request.
 
@@ -88,12 +88,31 @@ The template has the structure. What makes one genuinely useful:
 - **Scraping brokers for personal data.** This project removes data; it does not
   collect it.
 
+## Running anything in this repo
+
+All scripts run through [uv](https://docs.astral.sh/uv/) — no virtualenv, no
+`pip install`, no Python setup:
+
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh    # macOS/Linux, one time
+uv run scripts/validate.py                          # then just run things
+```
+
+Windows: `powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"`
+
+Each script carries inline PEP 723 metadata declaring its Python requirement, so
+uv fetches an interpreter automatically. Dependencies are deliberately empty —
+everything is standard library, so this keeps working without a lockfile going
+stale.
+
 ## Testing
 
 ```bash
-python3 scripts/validate.py          # schema + duplicate + sanity checks
-python3 scripts/build_registry.py    # regenerate data/brokers.json
+uv run scripts/validate.py          # schema, duplicates, missing playbooks
+uv run scripts/build_registry.py    # regenerate data/brokers.json
 ```
+
+`validate.py` exits non-zero on errors, so it works as a pre-commit check.
 
 Never commit `data/profile.json`, `data/removal_status.json`, or `outbox/` —
 they hold personal data and are gitignored. Check with `git status` before pushing.

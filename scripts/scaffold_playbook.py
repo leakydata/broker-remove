@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+# /// script
+# requires-python = ">=3.9"
+# dependencies = []
+# ///
 """Scaffold brokers/<id>.md from what the registry and status log already know.
 
 Writing playbooks by hand is the step that gets skipped when a batch of requests

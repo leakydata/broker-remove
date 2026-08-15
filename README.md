@@ -28,13 +28,62 @@ headless scraper — see [Design notes](#design-notes).
 | `scripts/` | CLI tooling (below). |
 | `.claude/skills/data-broker-removal/` | Agent skill driving the workflow. |
 
+## Install
+
+This project uses [**uv**](https://docs.astral.sh/uv/) to run its scripts. uv
+handles Python for you — you do **not** need to install Python, create a
+virtualenv, or `pip install` anything.
+
+**macOS / Linux:**
+
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
+**Windows (PowerShell):**
+
+```powershell
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+```
+
+**Or via a package manager** if you prefer:
+
+```bash
+brew install uv          # macOS (Homebrew)
+pipx install uv          # any platform, if you already have pipx
+winget install astral-sh.uv   # Windows
+```
+
+Then restart your terminal and check it worked:
+
+```bash
+uv --version
+```
+
 ## Quick start
 
 ```bash
-cp data/profile.example.json data/profile.json   # then fill it in
-python3 scripts/build_registry.py                # generate data/brokers.json
-python3 scripts/tracker.py next 10               # what to work on
+git clone https://github.com/leakydata/broker-remove.git
+cd broker-remove
+
+cp data/profile.example.json data/profile.json   # then fill in your details
+uv run scripts/build_registry.py                 # generate data/brokers.json
+uv run scripts/tracker.py next 10                # what to work on
 ```
+
+Every script runs the same way — `uv run scripts/<name>.py`. The first run may
+take a few seconds while uv fetches a Python interpreter; after that it is
+instant. There is no install step and no dependencies to manage: the scripts use
+only the Python standard library, and each one declares the Python version it
+needs inline (PEP 723), so uv sorts the rest out.
+
+<details>
+<summary>Prefer not to use uv?</summary>
+
+Every script is plain stdlib Python, so `python3 scripts/tracker.py stats` works
+identically provided you have Python 3.9 or newer. uv is recommended because it
+removes the "which Python / which venv" problem entirely.
+</details>
 
 ## Scripts
 
@@ -44,12 +93,16 @@ python3 scripts/tracker.py next 10               # what to work on
 | `tracker.py` | `list` / `show` / `set` / `next` / `stats` / `report`. |
 | `generate_checklist.py` | Emits `docs/MANUAL_CHECKLIST.md` — everything needing a human. |
 | `make_optout_email.py` | Renders statutory deletion-request emails per broker. |
+| `make_protected_person_request.py` | Removal request for current/former law enforcement, judges, public officials. |
+| `queue_batch.py` | Next batch of emails to send, respecting a daily cap. |
+| `scaffold_playbook.py` | Creates `brokers/<id>.md` from registry + status data. |
+| `validate.py` | Schema, duplicate, and missing-playbook checks. |
 
 Record every attempt as you go:
 
 ```bash
-python3 scripts/tracker.py set spokeo submitted --note "confirmation #12345"
-python3 scripts/tracker.py report
+uv run scripts/tracker.py set spokeo submitted --note "confirmation #12345"
+uv run scripts/tracker.py report
 ```
 
 ### Status vocabulary
@@ -91,7 +144,8 @@ need a recurring sweep rather than a one-time request.
 
 ## Contributing a broker
 
-Append to `data/curated_brokers.json` and re-run `build_registry.py`. Required:
+Append to `data/curated_brokers.json`, then run `uv run scripts/build_registry.py`
+and `uv run scripts/validate.py`. Required:
 `id`, `name`, `domain`, `priority` (1–5), `method`, `optout_url`. Find the opt-out
 URL via the site's privacy policy, `/optout`, `/removal`, or the "Do Not Sell My
 Personal Information" link in the footer. A `brokers/<id>.md` playbook alongside it

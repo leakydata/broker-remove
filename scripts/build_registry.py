@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+# /// script
+# requires-python = ">=3.9"
+# dependencies = []
+# ///
 """Merge the hand-curated broker definitions with the scraped Optery directory
 into a single data/brokers.json registry.
 

@@ -22,9 +22,16 @@ skipped.
 | `scripts/build_registry.py` | Regenerates `brokers.json`. |
 | `docs/REMOVAL_REPORT.md` | Generated progress report. |
 
+## Running the scripts
+
+Use `uv run scripts/<name>.py` — never bare `python3`. uv resolves the interpreter
+from each script's inline PEP 723 metadata, so it works on a machine with no
+Python set up. Keep every command in reports and docs in that form so a user can
+copy it verbatim.
+
 ## Workflow
 
-1. **Pick work.** `python3 scripts/tracker.py next 10` lists the highest-priority
+1. **Pick work.** `uv run scripts/tracker.py next 10` lists the highest-priority
    brokers not yet in a terminal state.
 2. **Read the playbook** at `brokers/<id>.md` if one exists. If not, write one as
    you go — that file is the durable output, more valuable than the single submission.
@@ -32,9 +39,9 @@ skipped.
    record → select the matching profile → enter email → confirm.
 4. **Record immediately**, before moving on:
    ```
-   python3 scripts/tracker.py set <id> <status> --note "what happened" --ref "<confirmation id>"
+   uv run scripts/tracker.py set <id> <status> --note "what happened" --ref "<confirmation id>"
    ```
-5. **Report** with `python3 scripts/tracker.py report`.
+5. **Report** with `uv run scripts/tracker.py report`.
 
 ## Two operating modes
 
@@ -103,7 +110,7 @@ since it tells you which brokers need a recurring sweep.
 
 ## Adding a broker
 
-Append to `data/curated_brokers.json`, then run `python3 scripts/build_registry.py`.
+Append to `data/curated_brokers.json`, then run `uv run scripts/build_registry.py`.
 Required fields: `id`, `name`, `domain`, `priority` (1–5), `method`, `optout_url`.
 Find the opt-out URL via the site's privacy policy, `/optout`, `/opt-out`,
 `/removal`, or the CCPA / "Do Not Sell My Personal Information" link in the footer.
@@ -262,7 +269,7 @@ brokers are the ones whose replies arrive later needing context.
 Every broker moved to an acted-on status gets a playbook **in the same pass**:
 
 ```
-python3 scripts/scaffold_playbook.py --missing   # fills registry/status facts
+uv run scripts/scaffold_playbook.py --missing   # fills registry/status facts
 ```
 
 then write the part that was actually learned. `scripts/validate.py` **errors** if

@@ -1,0 +1,15 @@
+[project]
+name = "broker-remove"
+version = "0.1.0"
+description = "Submit and track data-removal requests across data broker and people-search sites"
+readme = "README.md"
+requires-python = ">=3.9"
+# Deliberately zero dependencies: the scripts use only the standard library so
+# they keep working years from now without a lockfile bitrotting underneath them.
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/leakydata/broker-remove"
+
+[tool.uv]
+package = false
