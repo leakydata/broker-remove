@@ -1,31 +1,36 @@
 # CheckPeople
 
-- **Opt-out:** https://checkpeople.com/opt-out
-- **Email:** support@checkpeople.com (verified)
-- **Method:** web_form — Web form.
-- **Domain:** checkpeople.com
+- **Email:** support@checkpeople.com  (verified — they reply and act)
+- **Phone:** 1-800-267-2122
+- **Method:** email, with a follow-up information request
 - **Priority: 3.**
 
-## Status
+## They will ask for a profile link
 
-- Current: `submitted` (updated 2026-08-15)
-- Reference: `gmail:1a0064af3f7008b6`
-- Note: Statutory deletion + opt-out emailed from leakydata@gmail.com. All 4 email identities + DOB asserted. Includes explicit fallback: if broker claims no covering statute or non-covered state, honor as company policy and state which basis was applied. Refused paid-subscription gating.
+The first reply is a templated request for:
 
-## Steps
+    First and Last Name / City and State / Street Address / Link to the profile
 
-<!-- Replace once the route is confirmed. What actually worked, in order. -->
+**One profile per email** — they explicitly refuse combined requests. Find the
+profile URL by searching:
+
+    https://checkpeople.com/name/<first>-<last>/in-<ST>/<city>
+
+then take the `VIEW DETAILS` href, which carries a UUID:
+`checkpeople.com/name/First-Last/in-ST/City/<uuid>`
 
 ## Gotchas
-
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+- **Check their stated birth year.** Theirs was off by a year for this record
+  (1978 vs an actual 1979). Flag the discrepancy proactively in your reply — left
+  unmentioned, an inaccurate field is an easy reason to say the record could not
+  be matched.
+- The listing is broad: multiple phone numbers, prior addresses in other states,
+  named relatives, linked social profiles, an **income estimate** and a
+  **relationship-status inference**. Say the request covers the entire record, or
+  they may remove only the name and address.
+- Ask them to search all your email addresses and report any additional profiles,
+  since their one-per-email rule means you need to know how many exist.
 
 ## Verification
-
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+Re-run the city search URL above after ~7 days and confirm the UUID no longer
+resolves.
