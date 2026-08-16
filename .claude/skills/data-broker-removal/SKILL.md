@@ -301,3 +301,26 @@ alias can be the only thing linking two records.
 
 When a broker's own listing reveals a prior address or old number you did not know
 about, add it to the profile — the listing is telling you how you are indexed.
+
+## Broker listings tell you what identifiers you are missing
+
+Work this loop in both directions. When a broker's listing shows a prior address,
+an old phone number, or an alias the profile does not have, **that is the broker
+telling you how it indexes you** — add it and every subsequent request gets
+stronger.
+
+Observed in practice:
+
+- Radaris displayed a masked `(814) 769-****`. The full number turned out to be a
+  real prior number, and its area code matched a region already in the profile.
+- Radaris listed Philipsburg, Bellefonte, State College and Blue Ridge Summit
+  before any of those addresses were known. The listing was describing address
+  history the profile lacked.
+- Spokeo and Radaris both carried the alias "Nathan Elijah Jones" while the
+  current record read "Nathan Jones" — a middle name can be the only link between
+  two records that otherwise look like different people.
+
+Old and defunct identifiers are the most valuable, not the least. A dead
+`@webtv.net` address or a disconnected landline is exactly what an aging record is
+keyed on, and nobody else will think to supply it. Ask for university addresses,
+old ISP or webmail accounts, PO boxes, and numbers from previous decades.
