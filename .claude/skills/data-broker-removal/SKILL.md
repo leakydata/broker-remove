@@ -352,3 +352,33 @@ Two rules that keep the folder honest:
 If a reply teaches something that generalizes past one broker — a gating pattern, a
 deflection script, a family sharing one contact — it belongs in a `_TOPIC.md` file
 as well, so it is findable by someone who never visits that broker's page.
+
+## Verification is the step that makes any of this true
+
+`uv run scripts/verify_removals.py` builds the worklist: which removals are due
+for re-checking (default 7 days after submission) and the search URL to run.
+
+Three outcomes, recorded with `--mark <id> gone|still_listed|not_found`:
+
+- **`gone`** → status becomes `confirmed`. This is the only status that means the
+  data is actually down.
+- **`still_listed`** → they have not processed it, or the request did not match a
+  record. If a *previous* check said `gone`, the tool flags **REAPPEARED** and
+  resets the broker to `pending` — the suppression did not hold, which is
+  escalation-worthy and means this broker needs a recurring sweep rather than a
+  one-time request.
+- **`not_found`** → no record. A real, useful result.
+
+Two things the tool encodes that are easy to get wrong:
+
+**Some brokers cannot be verified by search at all.** Aggregators like Acxiom,
+Epsilon, LexisNexis, LiveRamp and the adtech firms publish no consumer-facing
+listing. There is nothing to look up, so their *written confirmation is the only
+evidence available* — which makes chasing a non-reply materially more important
+for them than for a people-search site you can simply re-check. The tool lists
+these separately rather than sending you hunting for a page that does not exist.
+
+**Clear the browser cache before re-checking.** Several brokers (PeopleFinders,
+SearchPeopleFREE, Radaris) warn that a cached page will show a stale listing.
+Re-checking through a saved link is how you get a false negative — or worse, a
+false positive that makes you re-file a removal that already worked.
