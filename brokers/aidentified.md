@@ -1,31 +1,43 @@
 # Aidentified
 
-- **Opt-out:** https://www.aidentified.com/do-not-sell-my-data/
-- **Email:** privacy@aidentified.com (verified)
-- **Method:** web_form — Web form.
-- **Domain:** aidentified.com
-- **Priority: 2.**
+- **Email:** privacy@aidentified.com  (verified — acknowledges and processes)
+- **Forms:** `/do-not-sell-my-data/` and `/see-my-data/`
+- **Method:** email accepted; forms optional
+- **Priority: 2.** Identity and wealth graphs sold to financial services.
 
-## Status
+## An emailed request stands — you do not need to redo it
 
-- Current: `submitted` (updated 2026-08-16)
-- Reference: `gmail:1a00c68ed41ea3d5`
-- Note: Statutory deletion + opt-out emailed from [EMAIL]. All 4 email identities + DOB asserted; asks them to search hashed forms too. Includes fallback: if no covering statute or non-covered state, honor as company policy and state which basis in writing. WEALTH-GRAPH variant: covers net-worth/income estimates, professional history, INFERRED relationships and propensity scores. Argues inferred data is itself personal information about the subject.
+Their acknowledgement includes a line worth knowing before you waste effort:
 
-## Steps
+> "If you opt to not re-submit your request via the links above, your request will
+> still be reviewed and responded to from the privacy mailbox within the
+> appropriate timeframe."
 
-<!-- Replace once the route is confirmed. What actually worked, in order. -->
+Many brokers point at a form and mean *instead*. Aidentified points at a form and
+means *optionally*. Don't re-file.
 
-## Gotchas
+Two other facts from the same reply:
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+- They collect **US data only**.
+- **"See My Data" (access) is limited** to residents of states with privacy laws.
+  Deletion and do-not-sell are **not** so limited — so a resident of a
+  non-covered state should ask for deletion, not access, and should not accept a
+  refusal that conflates the two.
+
+## What to ask for
+
+The identifying record is the small part. The product is *derived*:
+
+- net-worth / income / investable-asset estimates
+- professional and education history
+- **inferred relationships** between you and other people
+- propensity scores and model outputs
+
+State that an estimate or a modelled connection their system generated about you
+**is personal information about you**, and that deleting source fields while
+retaining the inference is not compliance. Otherwise expect the inference to
+survive.
 
 ## Verification
-
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+No public listing. Ask for the categories held at deletion and the categories of
+client the data was licensed to — that disclosure is the only visibility available.

@@ -1,31 +1,32 @@
 # InfoTracer
 
+- **Email:** privacy@infotracer.com  (verified — Zendesk, issues ticket numbers)
 - **Opt-out:** https://infotracer.com/optout/
-- **Email:** privacy@infotracer.com (verified)
-- **Method:** web_form — Web form.
-- **Domain:** infotracer.com
-- **Priority: 3.**
+- **Priority: 3.** People search + **48 state arrest-record properties**.
 
-## Status
+## This is a family, not a site
 
-- Current: `submitted` (updated 2026-08-15)
-- Reference: `InfoTracer request 537420`
-- Note: Zendesk ticket 537420 opened, under review.
+`privacy@infotracer.com` is the contact for InfoTracer **and ~47 state
+arrest-record sites** (`alabamaarrests`, `alaskaarrests`, … one per state). See
+`_BROKER_FAMILIES.md`.
 
-## Steps
+**Send one letter naming the properties explicitly** rather than 48 separate
+emails to the same team. Ask which of them held a record — the answer maps the
+family and can surface properties the registry missed.
 
-<!-- Replace once the route is confirmed. What actually worked, in order. -->
+## Ask for disclosure, not only removal
+
+Arrest and criminal-record compilations carry a real risk of **misattribution**
+where a name is common. Ask them to tell you **what entry is attributed to you and
+what source it came from**, whether or not they remove it.
+
+The reason is practical: you cannot correct a record you have never seen. A
+suppression hides an inaccurate entry from search while leaving the underlying
+error intact at the source, where it can resurface or be sold onward. For criminal
+and court data specifically, disclosure is worth as much as deletion.
 
 ## Gotchas
-
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
-
-## Verification
-
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+- Their request covers "criminal/court/arrest report compilations" only if you say
+  so — a generic people-search letter may be read as covering the directory
+  listing alone.
+- Zendesk auto-acknowledges with a ticket number; keep it for follow-ups.

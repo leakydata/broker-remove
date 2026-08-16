@@ -323,3 +323,32 @@ Old and defunct identifiers are the most valuable, not the least. A dead
 `@webtv.net` address or a disconnected landline is exactly what an aging record is
 keyed on, and nobody else will think to supply it. Ask for university addresses,
 old ISP or webmail accounts, PO boxes, and numbers from previous decades.
+
+## Every reply is documentation — mine it before you file it
+
+A broker's reply is the only place their real process is described. Reading it,
+acting on it, and letting it evaporate wastes the most valuable output of the whole
+exercise. **Before replying, write what it taught you into `brokers/<id>.md`.**
+
+Classify the reply, then extract accordingly:
+
+| Reply type | What to capture in the playbook |
+|---|---|
+| **Accepted / confirmed** | Exact wording, stated timeframe, ticket ref. Whether it needed anything beyond the letter — that tells the next person this one is easy. |
+| **"We don't accept email"** | The route they name instead, verbatim URL. Whether that route is gated. This is how three brokers here got unblocked. |
+| **Wants more information** | Precisely which fields, and any constraint ("one profile per email"). How to construct the identifier they want (search URL → record UUID). |
+| **Deflection** | The exact claim, and the counter that answers it. Their own message often contains the counter — a company-policy sentence, or a form that contradicts the claim. |
+| **Bounce** | The dead address, where the real one came from, and whether it is the address published in public directories. That last part matters: others are hitting the same wall. |
+| **Partial / conditional** | What is *excluded*. "Name search only", "public-facing products only", FCRA carve-outs. Overstating what a removal achieved is worse than not doing it. |
+
+Two rules that keep the folder honest:
+
+- **Quote the broker.** Their sentence is evidence; a paraphrase is your opinion.
+  A quoted company-policy line is what you invoke when they later deny it.
+- **Write the pattern, not the person.** "A broker asked for a profile UUID" is as
+  useful as naming the subject, and the repository is public. `validate.py` will
+  reject the alternative anyway.
+
+If a reply teaches something that generalizes past one broker — a gating pattern, a
+deflection script, a family sharing one contact — it belongs in a `_TOPIC.md` file
+as well, so it is findable by someone who never visits that broker's page.

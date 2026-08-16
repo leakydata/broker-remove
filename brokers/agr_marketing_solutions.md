@@ -1,30 +1,29 @@
-# Agr Marketing Solutions
+# AGR Marketing Solutions, LLC
 
-- **Email:** info@agrmarketingsolutions.com (verified)
-- **Method:** email — Statutory request by email. No web form needed.
-- **Domain:** agrmarketingsolutions.com
-- **Priority: 2.**
+- **Email:** info@agrmarketingsolutions.com  (verified — accepts and acts)
+- **Method:** email. No form, no account, no verification hoop.
+- **Postal:** 130 E Marion Ave #510968, Punta Gorda, FL 33951
+- **Priority: 2.** Marketing data / lead services.
 
-## Status
+## One of the easy ones
 
-- Current: `submitted` (updated 2026-08-16)
-- Reference: `gmail:1a00c69dd1aef8e0`
-- Note: Statutory deletion + opt-out emailed from [EMAIL]. All 4 email identities + DOB asserted; asks them to search hashed forms too. Includes fallback: if no covering statute or non-covered state, honor as company policy and state which basis in writing. LEAD-GEN variant: buyer identification + acquisition source requested.
+A plain emailed request was accepted outright. Their auto-reply:
 
-## Steps
+> "Your request for removal from our data files has been received. We will carry
+> out this request in the next few days."
 
-<!-- Replace once the route is confirmed. What actually worked, in order. -->
+No profile URL, no CAPTCHA, no identity document, no re-submission through a
+portal. If every broker behaved this way the project would be an afternoon's work.
 
-## Gotchas
+Worth recording precisely because it sets the baseline: when a broker demands a
+photo ID, an account, or a notarised affidavit, that is a **choice**, not a
+technical necessity.
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+## What to ask for
+Standard lead-gen framing (see `_CATEGORY_VARIANTS.md`): deletion, opt-out,
+identification of any client the data was sold to, the acquisition source, and
+permanent suppression.
 
 ## Verification
-
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+No public listing to re-check. Their written confirmation is the artifact; they
+state "next few days", so chase after ~2 weeks if nothing further arrives.

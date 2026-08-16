@@ -1,30 +1,27 @@
 # MyLife
 
+- **Email:** privacy@mylife.com  (verified — replies via `support@mylifecs.atlassian.net`)
 - **Opt-out:** https://www.mylife.com/ccpa/index.pubview
-- **Email:** privacy@mylife.com  (works — ticket auto-created)
-- **Method:** email accepted; ticket system is Atlassian/Jira, not Zendesk
 - **Priority: 5.**
-
-## Status
-Deletion + opt-out request emailed. Ticket **MCC-3027423** acknowledged.
 
 ## What makes MyLife different
 
-MyLife builds a **"Reputation Score"** profile — a scored, editorialised page about
-you, not just a directory listing. Ask for the *profile page removed in full*, not
-merely hidden from search; a delisted page that still resolves by URL is not a
-removal.
+MyLife publishes a **"Reputation Score"** — a scored, editorialised profile page,
+not a plain directory listing. Ask for the **page removed in full**, not merely
+delisted from search: a page that no longer appears in results but still resolves
+at its URL has not been removed.
 
 ## Gotchas
 - **Watch for paid-subscription gating.** MyLife has a long history of steering
   people toward a paid account to "manage" their profile. The statutory request
-  costs nothing — state up front that you will not create an account or pay, as
-  the request letter here does.
-- Their reply routes through `support@mylifecs.atlassian.net`, which looks
-  unrelated to MyLife at a glance. Don't mistake it for spam.
-- They handle requests "in the order received" with no stated SLA — expect to
-  follow up.
+  costs nothing. State up front that you will not create an account and will not
+  pay — the letter template does this.
+- Their reply arrives from **`support@mylifecs.atlassian.net`**, which looks
+  unrelated to MyLife at a glance and is easy to mistake for spam. Ticket refs
+  look like `MCC-3027423`.
+- They handle requests "in the order received" with **no stated SLA**, so expect
+  to follow up rather than assume silence means progress.
 
 ## Verification
-Search mylife.com for the name + city after ~14 days; check the profile URL
-directly, not just search results.
+Search mylife.com for name + city after ~14 days, and check the profile URL
+directly — not just search results.

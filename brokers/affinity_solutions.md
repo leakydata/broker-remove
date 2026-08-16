@@ -1,31 +1,36 @@
 # Affinity Solutions
 
-- **Opt-out:** https://affinitysolutions-privacy.my.onetrust.com/webform/a564cfa1-53bf-4c10-bf95-cd907432d7e8/7e4e6bf3-6562-454e-8c73-6a7bd1f4b336
-- **Email:** privacy@affinitysolutions.com (verified)
-- **Method:** web_form — Web form.
-- **Domain:** affinitysolutions.com
-- **Priority: 2.**
+- **Email: refused.** *"For privacy and security reasons, Affinity Solutions does
+  not accept privacy requests via email."*
+- **Working route:** OneTrust web form, linked from
+  <https://www.affinity.solutions/data-privacy-notice/>
+- **Method:** web form + **text CAPTCHA** at submit, then email verification
+- **Priority: 2.** Consumer purchase / card transaction data via bank partners.
 
-## Status
+## Route
+1. Their auto-reply supplies a OneTrust webform URL. It is **not** gated on load.
+2. Choose: *on behalf of* → **Myself**; then the right you want.
+   **Only ONE right is selectable per submission** — pick Delete, and state in
+   Request Details that it also constitutes Do Not Sell, or file twice.
+3. Fields: address, city, country, state, zip, first/last, email, phone, **DOB**,
+   Request Details (5000 chars), acknowledgement, **text CAPTCHA**, submit.
+4. An email verification link follows. **The request is not processed until it is
+   clicked** — point the email at a mailbox you can actually read.
+5. Success page: `/trust-center-portal/#/verify/success`. Keep the **Request ID**.
 
-- Current: `submitted` (updated 2026-08-16)
-- Reference: `gmail:1a00c68c91e815bd`
-- Note: Statutory deletion + opt-out emailed from [EMAIL]. All 4 email identities + DOB asserted; asks them to search hashed forms too. Includes fallback: if no covering statute or non-covered state, honor as company policy and state which basis in writing. TRANSACTION-DATA variant: covers card/purchase records, merchant-level histories, spend categories and derived segments; asks which financial institutions supplied the data.
+## What to ask for
+Bank-sourced transaction data. Use Request Details to widen scope beyond the
+name-and-address record:
 
-## Steps
-
-<!-- Replace once the route is confirmed. What actually worked, in order. -->
+- transaction records, merchant-level purchase history, spend categories
+- segments, scores and inferences derived from them
+- **ask them to search hashed forms** of your email — identifier matching here is
+  routinely done on hashed email, so a plaintext-only search can return nothing
+  while they hold plenty
+- ask **which financial institution or data partner supplied** your information;
+  that names an upstream relationship you probably don't know exists
 
 ## Gotchas
-
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
-
-## Verification
-
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+- Request Details says "please refrain from entering any personal information" —
+  odd on a privacy form. Use it for scope and instructions, not identifiers.
+- Two valid domains for their mail: `affinitysolutions.com` and `affinity.solutions`.
