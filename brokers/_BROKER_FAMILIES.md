@@ -35,3 +35,33 @@ than one broker attached is a family. Worth re-running as the registry grows.
   attracts misattribution, and you cannot correct a record you have never seen.
 - Send **one** letter per family. Fifty separate emails to one privacy team reads
   as a mail flood and gets triaged accordingly.
+
+## Remaining families (as of the latest sweep)
+
+| Contact | Sites | Notes |
+|---|---|---|
+| `support@mailer.intelius.com` | 5 | criminalrecords.com, publicrecords.com, reversephonelookup, snoopstation, peoplefinder — PeopleConnect properties **not** covered by the main suppression portal |
+| `privacy@eab.com` | 2 | EAB, Appily (education/student data) |
+| `notice@tunnldata.com` | 2 | Tunnl, Deep Root (political audience data) |
+
+**The long tail is genuinely long: 374 brokers now have a unique contact each.**
+Family consolidation was worth roughly 120 brokers for 7 letters; beyond that,
+there is no shortcut and it becomes a paced sending exercise.
+
+## Hosted rights portals — a different shape of contact
+
+A growing number of larger firms use a third-party privacy platform rather than
+their own form:
+
+- **OneTrust** — `<company>-privacy.my.onetrust.com/webform/<uuid>/<uuid>`
+  (Affinity Solutions). Usually one right selectable per submission; email
+  verification follows.
+- **TrustArc** — `submit-irm.trustarc.eu/services/validation/<uuid>`
+  (Dun & Bradstreet). **The bare host returns 400** — the full validation path
+  with the company's UUID is required.
+- **Transcend / Ketch / Osano** appear similarly.
+
+These UUIDs are not discoverable by guessing. Find them in the company's **privacy
+policy**, not on its homepage or in its support replies — the same lesson as
+`_DEFLECTIONS.md` §7: the policy page is written for regulators and carries the
+real route.

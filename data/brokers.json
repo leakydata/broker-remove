@@ -356,10 +356,11 @@
       "domain": "submit-irm.trustarc.eu",
       "priority": 4,
       "method": "web_form",
-      "optout_url": "https://submit-irm.trustarc.eu",
+      "optout_url": "https://submit-irm.trustarc.eu/services/validation/ba81b98f-997d-4216-b4cc-d64cf261b082",
       "needs_email_confirm": null,
       "category": "b2b",
       "source": "privacyinsightsolutions",
+      "notes": "TrustArc-hosted rights portal. The bare submit-irm.trustarc.eu host returns 400 - the full validation path with D&B's UUID is required. Found via their privacy policy, not their homepage.",
       "optery_slug": "dun-bradstreet"
     },
     {
