@@ -38,3 +38,35 @@ Expect a hard carve-out for FCRA-regulated products; that part genuinely is
 exempt. Aim at the public-facing product, and file a separate security freeze
 where offered. Don't claim a statute reaches the FCRA side — it invites a blanket
 refusal of the whole request.
+
+## Transaction / purchase data  (e.g. Affinity Solutions)
+Sourced from financial institution partners. Ask for transaction records,
+merchant-level purchase history, spend categories, **and derived segments**. Also
+ask **which financial institutions supplied the data** — that names the upstream
+relationship you may not know exists.
+
+## Identity / wealth graphs  (e.g. Aidentified)
+Sold to financial services. The valuable-to-them, invasive-to-you part is all
+derived: net-worth and income estimates, professional history, and **inferred
+relationships between you and other people**. State plainly that an estimate or a
+modelled connection their system generated *about you* is personal information
+about you, and that deleting the source fields while keeping the inference is not
+compliance.
+
+## Aged lead resale  (e.g. Aged Lead Store)
+The whole business is reselling old leads, so internal suppression is nearly
+worthless on its own. Demand: identification of **every buyer**, downstream
+deletion, **and the original acquisition source**. Without the source, the same
+record gets re-acquired next quarter.
+
+## Data co-operatives  (e.g. Address Clearing House)
+Members both contribute and receive records, so a deletion without suppression is
+undone the next time a member contributes. Lead with suppression, and concede
+they may retain minimal data to honor it — that removes their only real objection.
+
+## Attribution / measurement  (e.g. Adttribution)
+Data is held against pseudonymous identifiers, not names, so "we hold no record
+under that name" is a true statement that misses everything. Say so explicitly:
+where an identifier is linkable to you it is personal information about you.
+Name device graph entries, IP-derived identifiers, and ad exposure / click /
+conversion events.
