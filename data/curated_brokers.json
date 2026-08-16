@@ -7548,6 +7548,16 @@
       "email_verified": true,
       "needs_email_confirm": false,
       "notes": "Confirmed a removal without a direct request from us - reached them via downstream propagation from a lead-network request. Education lead generation."
+    },
+    {
+      "id": "enformion",
+      "name": "Enformion",
+      "domain": "enformion.com",
+      "priority": 5,
+      "method": "web_form",
+      "optout_url": "https://enformion.com/contact-us/",
+      "needs_email_confirm": null,
+      "notes": "UPSTREAM SOURCE. Discovered via SearchPeopleFREE, which advertises EnformionGO as the partner API behind its data. Removing from downstream sites does not touch Enformion, so records re-populate. High priority as an upstream aggregator."
     }
   ]
 }
