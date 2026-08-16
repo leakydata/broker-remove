@@ -38,6 +38,28 @@ them to process from the ticket, or to confirm the telephone route
 **Use `/request-my-info`.** Same asymmetry as TruePeopleSearch: the opt-out door is
 bot-gated while a different privacy door is open.
 
+## The opt-out is a FOUR-stage flow
+
+1. `/opt-out` → **Next** → name + email + authorization checkbox + reCAPTCHA →
+   **Send Request**
+2. A link arrives by email: `/opt-out/removal-identification/<uuid>/<email>`.
+   **It expires in 24 hours** — after that you start over.
+3. That link opens the **Record Suppression Form**: first/middle/last, email,
+   phone, full DOB, street, city, state, certification checkbox, reCAPTCHA.
+4. Submit → confirmation page + confirmation email. Removal within 3 days.
+
+**Trap: the link URL pre-fills the name fields** via `?fn=…&ln=…`. Typing into
+them *appends*, producing "NathanNathan" / "JonesJones". Clear each field before
+typing, and screenshot to verify — their own page warns that inaccurate
+information hinders the match, so this silently costs you the removal.
+
+Fill the **middle name and full date of birth** here even though they are optional.
+The page states plainly that incomplete information means they may not locate all
+records, and that unmatched records can reappear later from new data.
+
+Their flow also spawns a **BrandYourself** referral tab mid-process — an upsell,
+same pattern as Radaris→OneRep. Close it.
+
 ## Opt-out flow (per their Customer Care)
 `/opt-out` → enter name + email → submit → **click the link emailed to you** →
 read instructions and fill the form → submit → confirmation email.
