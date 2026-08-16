@@ -794,8 +794,9 @@
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "aged-lead-store",
-      "email_to": "optout@nextwavemarketingstrategies.com",
-      "email_verified": true
+      "email_to": "privacy_requests@nextwavemarketingstrategies.com",
+      "email_verified": true,
+      "notes": "Aged Lead Store = Next Wave Marketing Strategies Inc, 15527 Jasmine Place, Tustin CA 92782, 888-238-9283. optout@nextwavemarketingstrategies.com HARD BOUNCES (550) despite being the address published in broker directories - use privacy_requests@ or customercare@ from their own privacy policy. California-based, so CCPA applies directly."
     },
     {
       "id": "agr_marketing_solutions",

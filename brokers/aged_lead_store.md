@@ -1,30 +1,33 @@
-# Aged Lead Store
+# Aged Lead Store (Next Wave Marketing Strategies, Inc.)
 
-- **Email:** optout@nextwavemarketingstrategies.com (verified)
-- **Method:** email — Statutory request by email. No web form needed.
-- **Domain:** nextwavemarketingstrategies.com
+- **Email:** privacy_requests@nextwavemarketingstrategies.com
+  (also customercare@nextwavemarketingstrategies.com)
+- **`optout@nextwavemarketingstrategies.com` HARD BOUNCES (550)** — despite being
+  the address published in public broker directories. Anyone using the directory
+  address believes their opt-out was delivered when it was not.
+- **Postal:** 15527 Jasmine Place, Tustin, CA 92782 · **Phone:** 888-238-9283
 - **Priority: 2.**
 
-## Status
+## Why the standard letter is not enough here
 
-- Current: `submitted` (updated 2026-08-16)
-- Reference: `gmail:1a00c690f06e3821`
-- Note: Statutory deletion + opt-out emailed from leakydata@gmail.com. All 4 email identities + DOB asserted; asks them to search hashed forms too. Includes fallback: if no covering statute or non-covered state, honor as company policy and state which basis in writing. AGED-LEAD-RESALE variant: business model is reselling old leads, so demands buyer identification + downstream deletion + acquisition source, not just internal suppression.
+The business is **reselling aged leads**. Deleting their copy accomplishes very
+little, because copies already sold keep circulating and generating contact. The
+request must ask for:
 
-## Steps
+1. Identification of **every buyer** a lead about you was sold to
+2. Downstream deletion directed at those buyers
+3. The **original acquisition source** — without it, the same record is
+   re-acquired on the next list purchase
+4. Permanent internal suppression
 
-<!-- Replace once the route is confirmed. What actually worked, in order. -->
+Internal suppression alone stops only their own future contact. It leaves both the
+sold copies and the acquisition path intact.
 
-## Gotchas
-
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+## Leverage
+They are based in **Tustin, California**, so the CCPA applies to them directly
+rather than as a courtesy. Worth saying so — it removes the "we're not covered"
+escape route before they reach for it.
 
 ## Verification
-
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+No public listing to re-check. The written confirmation, buyer list and source
+disclosure are the deliverables — chase them if they don't arrive.
