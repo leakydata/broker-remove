@@ -2,7 +2,10 @@
 
 - **Removal:** https://radaris.com/control-privacy   (note: `control-privacy`,
   hyphenated — not `control/privacy`)
-- **Email:** support@radaris.com → replies from customer-service@radaris.com
+- **Data Privacy Center:** https://radaris.com/data_privacy_center  ← start here
+- **Email:** removals@radaris.com (covered persons / former law enforcement),
+  customer-service@radaris.com (multiple records, general),
+  support@radaris.com (replies come from customer-service@)
 - **Priority: 5.**
 
 ## Route (no account needed, despite what the search UI implies)
@@ -16,6 +19,30 @@
 4. **START REMOVING** → enter email → **reCAPTCHA** → SUBMIT
 5. Verification link + confirmation code arrive by email. Use a mailbox you can
    actually read; the email doubles as the status-tracking reference.
+
+## USE `/data_privacy_center`, NOT `/control-privacy`
+
+`https://radaris.com/data_privacy_center` is a different page from the broken
+removal wizard, and it documents routes the wizard never mentions:
+
+- **`removals@radaris.com`** — for Covered Persons who *"do not want to use the
+  automated opt-out"*. Their definition: *"former, active or retired, state or
+  federal, judges, prosecutors, and members of law enforcement and their immediate
+  family members residing in the same household."* Note **former** is explicit.
+- **`customer-service@radaris.com`** — for **multiple records**. Their FAQ admits
+  the online process removes only ONE record, and that mismatched new records
+  create *separate* profiles. Anyone with address history across several towns
+  likely has more than one record and must email for the rest.
+- **Phone: (855) 723-2747**
+- **Appeal rights** for residents of CO, CT, DE, IA, MT, NE, NH, NJ, OR, TX, TN, VA
+  (PA is not among them).
+
+**A caution on Daniel's Law.** It is a **New Jersey** statute. Radaris offers the
+covered-persons route under that heading, so a non-NJ resident should *not* assert
+Covered Person status — say what your role actually was, note their definition
+includes former officers, and ask whether the process extends to you. Overclaiming
+here is exactly what gets a request rejected, and it damages the route for people
+who genuinely qualify.
 
 ## STATUS: the web removal flow does not complete
 

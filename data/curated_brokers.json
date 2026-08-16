@@ -33,11 +33,12 @@
       "domain": "beenverified.com",
       "priority": 5,
       "method": "web_form",
-      "optout_url": "https://www.beenverified.com/app/optout/search",
+      "optout_url": "https://www.beenverified.com/svc/optout/search/optouts",
       "needs_email_confirm": true,
       "email_to": "privacy@beenverified.com",
       "email_verified": true,
-      "optery_slug": "beenverified"
+      "optery_slug": "beenverified",
+      "notes": "Deeper opt-out endpoint than /app/optout/search."
     },
     {
       "id": "truepeoplesearch",
@@ -67,10 +68,10 @@
       "domain": "radaris.com",
       "priority": 5,
       "method": "account_required",
-      "optout_url": "https://radaris.com/control/privacy",
+      "optout_url": "https://radaris.com/data_privacy_center",
       "needs_email_confirm": true,
-      "notes": "Requires claiming the profile; often needs phone verification.",
-      "email_to": "customer-service@radaris.com",
+      "notes": "ALTERNATE ROUTE - /data_privacy_center differs from /control-privacy, which funnels to a OneRep upsell without ever sending the promised verification email. Try this one first. Requires claiming the profile; often needs phone verification.",
+      "email_to": "removals@radaris.com",
       "email_verified": true,
       "optery_slug": "radaris"
     },
@@ -103,9 +104,9 @@
       "domain": "intelius.com",
       "priority": 5,
       "method": "web_form",
-      "optout_url": "https://www.intelius.com/opt-out/",
+      "optout_url": "https://suppression.peopleconnect.us",
       "needs_email_confirm": true,
-      "notes": "PeopleConnect family: covers Intelius, US Search, ZabaSearch, Classmates.",
+      "notes": "Direct suppression portal for the whole PeopleConnect family. PeopleConnect family: covers Intelius, US Search, ZabaSearch, Classmates.",
       "email_to": "privacy@intelius.com",
       "email_verified": true,
       "optery_slug": "intelius"
@@ -116,7 +117,7 @@
       "domain": "truthfinder.com",
       "priority": 5,
       "method": "web_form",
-      "optout_url": "https://www.truthfinder.com/opt-out/",
+      "optout_url": "https://suppression.peopleconnect.us",
       "needs_email_confirm": true,
       "email_to": "privacy@truthfinder.com",
       "email_verified": true,
@@ -128,7 +129,7 @@
       "domain": "instantcheckmate.com",
       "priority": 5,
       "method": "web_form",
-      "optout_url": "https://www.instantcheckmate.com/opt-out/",
+      "optout_url": "https://suppression.peopleconnect.us",
       "needs_email_confirm": true,
       "email_to": "privacy@InstantCheckmate.com",
       "email_verified": true,
@@ -164,9 +165,10 @@
       "domain": "usphonebook.com",
       "priority": 4,
       "method": "web_form_captcha",
-      "optout_url": "https://www.usphonebook.com/opt-out",
+      "optout_url": "https://www.usphonebook.com/removal",
       "needs_email_confirm": true,
-      "optery_slug": "usphonebook"
+      "optery_slug": "usphonebook",
+      "notes": "/removal, not /opt-out."
     },
     {
       "id": "searchpeoplefree",
@@ -395,9 +397,9 @@
       "domain": "zoominfo.com",
       "priority": 4,
       "method": "web_form",
-      "optout_url": "https://www.zoominfo.com/about/privacy-center/opt-out",
+      "optout_url": "https://privacyrequest.zoominfo.com/remove/verify",
       "needs_email_confirm": true,
-      "notes": "B2B data; requires email verification of the address on file."
+      "notes": "Dedicated removal+verify endpoint. B2B data; requires email verification of the address on file."
     },
     {
       "id": "pipl",
@@ -434,10 +436,10 @@
       "domain": "epsilon.com",
       "priority": 5,
       "method": "email",
-      "optout_url": "https://www.epsilon.com/us/privacy-policy",
+      "optout_url": "https://legal.epsilon.com/dsr",
       "email_to": "privacy@epsilon.com",
       "needs_email_confirm": false,
-      "notes": "Major marketing aggregator.",
+      "notes": "Dedicated DSR portal - better than emailing privacy@. Major marketing aggregator.",
       "optery_slug": "epsilon"
     },
     {
@@ -446,8 +448,9 @@
       "domain": "data-axle.com",
       "priority": 5,
       "method": "web_form",
-      "optout_url": "https://www.data-axle.com/privacy-policy/",
-      "needs_email_confirm": false
+      "optout_url": "https://www.data-axle.com/privacy-rights-request/",
+      "needs_email_confirm": false,
+      "notes": "Dedicated privacy-rights request form."
     },
     {
       "id": "corelogic",
@@ -455,8 +458,9 @@
       "domain": "corelogic.com",
       "priority": 4,
       "method": "web_form",
-      "optout_url": "https://www.corelogic.com/privacy/",
-      "needs_email_confirm": false
+      "optout_url": "https://www.cotality.com/legal/privacy-policy",
+      "needs_email_confirm": false,
+      "notes": "CoreLogic now trades as Cotality - privacy policy moved domains."
     },
     {
       "id": "melissa",
@@ -464,7 +468,7 @@
       "domain": "melissa.com",
       "priority": 4,
       "method": "web_form",
-      "optout_url": "https://www.melissa.com/company/data-privacy",
+      "optout_url": "https://www.melissa.com/privacy",
       "needs_email_confirm": false,
       "email_to": "consumerrequest@melissa.com",
       "email_verified": true,
@@ -476,7 +480,7 @@
       "domain": "experian.com",
       "priority": 4,
       "method": "web_form",
-      "optout_url": "https://www.experian.com/privacy/opting_out",
+      "optout_url": "https://www.experian.com/privacy/",
       "needs_email_confirm": false
     },
     {
@@ -784,12 +788,13 @@
       "domain": "aidentified.com",
       "priority": 2,
       "method": "web_form",
-      "optout_url": "https://www.aidentified.com/do-not-sell-my-data/",
+      "optout_url": "https://www.aidentified.com/delete-my-data",
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "aidentified",
       "email_to": "privacy@aidentified.com",
-      "email_verified": true
+      "email_verified": true,
+      "notes": "Direct delete-my-data form; note their email route also works without re-filing."
     },
     {
       "id": "alabama_arrests",
@@ -7555,9 +7560,473 @@
       "domain": "enformion.com",
       "priority": 5,
       "method": "web_form",
-      "optout_url": "https://enformion.com/contact-us/",
+      "optout_url": "https://www.enformion.com/privacy-policy/",
       "needs_email_confirm": null,
-      "notes": "UPSTREAM SOURCE. Discovered via SearchPeopleFREE, which advertises EnformionGO as the partner API behind its data. Removing from downstream sites does not touch Enformion, so records re-populate. High priority as an upstream aggregator."
+      "notes": "UPSTREAM SOURCE behind SearchPeopleFREE (EnformionGO API). UPSTREAM SOURCE. Discovered via SearchPeopleFREE, which advertises EnformionGO as the partner API behind its data. Removing from downstream sites does not touch Enformion, so records re-populate. High priority as an upstream aggregator."
+    },
+    {
+      "id": "corelogic_cotality",
+      "name": "CoreLogic (Cotality)",
+      "domain": "cotality.com",
+      "priority": 4,
+      "method": "web_form",
+      "optout_url": "https://www.cotality.com/legal/privacy-policy",
+      "needs_email_confirm": null,
+      "category": "aggregator",
+      "source": "privacyinsightsolutions"
+    },
+    {
+      "id": "equifax",
+      "name": "Equifax",
+      "domain": "myprivacy.equifax.com",
+      "priority": 5,
+      "method": "web_form",
+      "optout_url": "https://myprivacy.equifax.com/opt-in-opt-out/personal-info",
+      "needs_email_confirm": null,
+      "category": "credit",
+      "source": "privacyinsightsolutions"
+    },
+    {
+      "id": "california_birth_index",
+      "name": "California Birth Index",
+      "domain": "californiabirthindex.org",
+      "priority": 2,
+      "method": "web_form",
+      "optout_url": "https://californiabirthindex.org",
+      "needs_email_confirm": null,
+      "category": "public_records",
+      "source": "privacyinsightsolutions"
+    },
+    {
+      "id": "familyrelatives",
+      "name": "FamilyRelatives",
+      "domain": "familyrelatives.com",
+      "priority": 2,
+      "method": "web_form",
+      "optout_url": "https://familyrelatives.com",
+      "needs_email_confirm": null,
+      "category": "people",
+      "source": "privacyinsightsolutions"
+    },
+    {
+      "id": "idcaller",
+      "name": "IDCaller",
+      "domain": "idcaller.com",
+      "priority": 2,
+      "method": "web_form",
+      "optout_url": "https://idcaller.com",
+      "needs_email_confirm": null,
+      "category": "phone",
+      "source": "privacyinsightsolutions"
+    },
+    {
+      "id": "6sense",
+      "name": "6sense",
+      "domain": "6sense.com",
+      "priority": 3,
+      "method": "web_form",
+      "optout_url": "https://6sense.com/privacy",
+      "needs_email_confirm": null,
+      "category": "b2b",
+      "source": "privacyinsightsolutions"
+    },
+    {
+      "id": "apollo_io",
+      "name": "Apollo.io",
+      "domain": "apollo.io",
+      "priority": 4,
+      "method": "web_form",
+      "optout_url": "https://www.apollo.io/privacy-policy/remove",
+      "needs_email_confirm": null,
+      "category": "b2b",
+      "source": "privacyinsightsolutions"
+    },
+    {
+      "id": "arounddeal",
+      "name": "AroundDeal",
+      "domain": "arounddeal.com",
+      "priority": 3,
+      "method": "web_form",
+      "optout_url": "https://www.arounddeal.com/remove-profile",
+      "needs_email_confirm": null,
+      "category": "b2b",
+      "source": "privacyinsightsolutions"
+    },
+    {
+      "id": "bright_data",
+      "name": "Bright Data",
+      "domain": "brightdata.com",
+      "priority": 4,
+      "method": "web_form",
+      "optout_url": "https://brightdata.com/privacy",
+      "needs_email_confirm": null,
+      "category": "scraping",
+      "source": "privacyinsightsolutions"
+    },
+    {
+      "id": "builtwith",
+      "name": "BuiltWith",
+      "domain": "builtwith.com",
+      "priority": 2,
+      "method": "web_form",
+      "optout_url": "https://builtwith.com/privacy",
+      "needs_email_confirm": null,
+      "category": "b2b",
+      "source": "privacyinsightsolutions"
+    },
+    {
+      "id": "clearbit",
+      "name": "Clearbit",
+      "domain": "preferences.clearbit.com",
+      "priority": 4,
+      "method": "web_form",
+      "optout_url": "https://preferences.clearbit.com/",
+      "needs_email_confirm": null,
+      "category": "b2b",
+      "source": "privacyinsightsolutions"
+    },
+    {
+      "id": "crunchbase",
+      "name": "Crunchbase",
+      "domain": "preferences.crunchbase.com",
+      "priority": 3,
+      "method": "web_form",
+      "optout_url": "https://preferences.crunchbase.com/form/opt_out",
+      "needs_email_confirm": null,
+      "category": "b2b",
+      "source": "privacyinsightsolutions"
+    },
+    {
+      "id": "dealfront",
+      "name": "Dealfront",
+      "domain": "privacycockpit.leadfeeder.com",
+      "priority": 3,
+      "method": "web_form",
+      "optout_url": "https://privacycockpit.leadfeeder.com/",
+      "needs_email_confirm": null,
+      "category": "b2b",
+      "source": "privacyinsightsolutions"
+    },
+    {
+      "id": "lusha",
+      "name": "Lusha",
+      "domain": "lusha.com",
+      "priority": 4,
+      "method": "web_form",
+      "optout_url": "https://lusha.com/privacy",
+      "needs_email_confirm": null,
+      "category": "b2b",
+      "source": "privacyinsightsolutions"
+    },
+    {
+      "id": "prospeo",
+      "name": "Prospeo",
+      "domain": "prospeo.io",
+      "priority": 2,
+      "method": "web_form",
+      "optout_url": "https://prospeo.io/privacy",
+      "needs_email_confirm": null,
+      "category": "b2b",
+      "source": "privacyinsightsolutions"
+    },
+    {
+      "id": "rocketreach",
+      "name": "RocketReach",
+      "domain": "rocketreach.co",
+      "priority": 4,
+      "method": "web_form",
+      "optout_url": "https://rocketreach.co/privacy",
+      "needs_email_confirm": null,
+      "category": "b2b",
+      "source": "privacyinsightsolutions"
+    },
+    {
+      "id": "snov_io",
+      "name": "Snov.io",
+      "domain": "snov.io",
+      "priority": 3,
+      "method": "web_form",
+      "optout_url": "https://snov.io/do-not-sell-my-personal-information",
+      "needs_email_confirm": null,
+      "category": "b2b",
+      "source": "privacyinsightsolutions"
+    },
+    {
+      "id": "uplead",
+      "name": "UpLead",
+      "domain": "uplead.com",
+      "priority": 3,
+      "method": "web_form",
+      "optout_url": "https://www.uplead.com/privacy/",
+      "needs_email_confirm": null,
+      "category": "b2b",
+      "source": "privacyinsightsolutions"
+    },
+    {
+      "id": "adform",
+      "name": "Adform",
+      "domain": "site.adform.com",
+      "priority": 3,
+      "method": "web_form",
+      "optout_url": "https://site.adform.com/privacy-center/website-privacy/opt-out/",
+      "needs_email_confirm": null,
+      "category": "adtech",
+      "source": "privacyinsightsolutions"
+    },
+    {
+      "id": "analyticsiq",
+      "name": "AnalyticsIQ",
+      "domain": "analytics-iq.com",
+      "priority": 3,
+      "method": "web_form",
+      "optout_url": "https://analytics-iq.com/opt-out-statistics/",
+      "needs_email_confirm": null,
+      "category": "adtech",
+      "source": "privacyinsightsolutions"
+    },
+    {
+      "id": "criteo",
+      "name": "Criteo",
+      "domain": "criteo.com",
+      "priority": 4,
+      "method": "web_form",
+      "optout_url": "https://www.criteo.com/privacy/",
+      "needs_email_confirm": null,
+      "category": "adtech",
+      "source": "privacyinsightsolutions"
+    },
+    {
+      "id": "eyeota",
+      "name": "Eyeota",
+      "domain": "eyeota.com",
+      "priority": 3,
+      "method": "web_form",
+      "optout_url": "https://www.eyeota.com/how-to-opt-out",
+      "needs_email_confirm": null,
+      "category": "adtech",
+      "source": "privacyinsightsolutions"
+    },
+    {
+      "id": "lotame",
+      "name": "Lotame",
+      "domain": "lotame.com",
+      "priority": 4,
+      "method": "web_form",
+      "optout_url": "https://www.lotame.com/privacy/",
+      "needs_email_confirm": null,
+      "category": "adtech",
+      "source": "privacyinsightsolutions"
+    },
+    {
+      "id": "quantcast",
+      "name": "Quantcast",
+      "domain": "quantcast.com",
+      "priority": 3,
+      "method": "web_form",
+      "optout_url": "https://www.quantcast.com/privacy-choices/",
+      "needs_email_confirm": null,
+      "category": "adtech",
+      "source": "privacyinsightsolutions"
+    },
+    {
+      "id": "teads",
+      "name": "Teads",
+      "domain": "privacy-policy.teads.com",
+      "priority": 3,
+      "method": "web_form",
+      "optout_url": "https://privacy-policy.teads.com",
+      "needs_email_confirm": null,
+      "category": "adtech",
+      "source": "privacyinsightsolutions"
+    },
+    {
+      "id": "aberdeen",
+      "name": "Aberdeen",
+      "domain": "aberdeen.com",
+      "priority": 2,
+      "method": "web_form",
+      "optout_url": "https://www.aberdeen.com/do-not-sell-my-personal-information/",
+      "needs_email_confirm": null,
+      "category": "b2b",
+      "source": "privacyinsightsolutions"
+    },
+    {
+      "id": "ampliz",
+      "name": "Ampliz",
+      "domain": "ampliz.com",
+      "priority": 2,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "category": "b2b",
+      "source": "privacyinsightsolutions",
+      "email_to": "info@ampliz.com",
+      "email_verified": true
+    },
+    {
+      "id": "bombora",
+      "name": "Bombora",
+      "domain": "bombora.com",
+      "priority": 3,
+      "method": "web_form",
+      "optout_url": "https://bombora.com/privacy-philosophy/",
+      "needs_email_confirm": null,
+      "category": "b2b",
+      "source": "privacyinsightsolutions"
+    },
+    {
+      "id": "g2_stack",
+      "name": "G2 Stack",
+      "domain": "legal.g2.com",
+      "priority": 2,
+      "method": "web_form",
+      "optout_url": "https://legal.g2.com/privacy-request",
+      "needs_email_confirm": null,
+      "category": "b2b",
+      "source": "privacyinsightsolutions"
+    },
+    {
+      "id": "plaid",
+      "name": "Plaid",
+      "domain": "my.plaid.com",
+      "priority": 4,
+      "method": "web_form",
+      "optout_url": "https://my.plaid.com/data-subject-request-form",
+      "needs_email_confirm": null,
+      "category": "financial",
+      "source": "privacyinsightsolutions"
+    },
+    {
+      "id": "allareacodes",
+      "name": "AllAreaCodes",
+      "domain": "allareacodes.com",
+      "priority": 3,
+      "method": "web_form",
+      "optout_url": "https://www.allareacodes.com/remove_name.htm",
+      "needs_email_confirm": null,
+      "category": "phone",
+      "source": "privacyinsightsolutions"
+    },
+    {
+      "id": "crustdata",
+      "name": "Crustdata",
+      "domain": "crustdata.com",
+      "priority": 2,
+      "method": "web_form",
+      "optout_url": "https://crustdata.com/privacy",
+      "needs_email_confirm": null,
+      "category": "b2b",
+      "source": "privacyinsightsolutions"
+    },
+    {
+      "id": "datarade",
+      "name": "Datarade",
+      "domain": "datarade.ai",
+      "priority": 2,
+      "method": "web_form",
+      "optout_url": "https://datarade.ai/company/privacy-policy",
+      "needs_email_confirm": null,
+      "category": "marketplace",
+      "source": "privacyinsightsolutions"
+    },
+    {
+      "id": "eprodirect",
+      "name": "EproDirect",
+      "domain": "eprodirect.com",
+      "priority": 2,
+      "method": "web_form",
+      "optout_url": "https://www.eprodirect.com/privacy-policy/",
+      "needs_email_confirm": null,
+      "category": "directmail",
+      "source": "privacyinsightsolutions"
+    },
+    {
+      "id": "equimine_propstream",
+      "name": "Equimine (PropStream)",
+      "domain": "propstream.com",
+      "priority": 3,
+      "method": "web_form",
+      "optout_url": "https://www.propstream.com/your-privacy-choices",
+      "needs_email_confirm": null,
+      "category": "property",
+      "source": "privacyinsightsolutions"
+    },
+    {
+      "id": "esite_analytics",
+      "name": "eSite Analytics",
+      "domain": "esiteanalytics.com",
+      "priority": 2,
+      "method": "web_form",
+      "optout_url": "https://www.esiteanalytics.com/privacy-policy/",
+      "needs_email_confirm": null,
+      "category": "adtech",
+      "source": "privacyinsightsolutions"
+    },
+    {
+      "id": "mixrank",
+      "name": "MixRank",
+      "domain": "mixrank.com",
+      "priority": 2,
+      "method": "web_form",
+      "optout_url": "https://www.mixrank.com/privacy-policy",
+      "needs_email_confirm": null,
+      "category": "b2b",
+      "source": "privacyinsightsolutions"
+    },
+    {
+      "id": "ourstates",
+      "name": "OurStates",
+      "domain": "ourstates.org",
+      "priority": 2,
+      "method": "web_form",
+      "optout_url": "https://ourstates.org",
+      "needs_email_confirm": null,
+      "category": "public_records",
+      "source": "privacyinsightsolutions"
+    },
+    {
+      "id": "tagx",
+      "name": "TAGX",
+      "domain": "tagxdata.com",
+      "priority": 2,
+      "method": "web_form",
+      "optout_url": "https://tagxdata.com/contact",
+      "needs_email_confirm": null,
+      "category": "data",
+      "source": "privacyinsightsolutions"
+    },
+    {
+      "id": "transunion",
+      "name": "TransUnion",
+      "domain": "transunion.com",
+      "priority": 5,
+      "method": "web_form",
+      "optout_url": "https://www.transunion.com/consumer-privacy",
+      "needs_email_confirm": null,
+      "category": "credit",
+      "source": "privacyinsightsolutions"
+    },
+    {
+      "id": "dun_bradstreet",
+      "name": "Dun & Bradstreet",
+      "domain": "submit-irm.trustarc.eu",
+      "priority": 4,
+      "method": "web_form",
+      "optout_url": "https://submit-irm.trustarc.eu",
+      "needs_email_confirm": null,
+      "category": "b2b",
+      "source": "privacyinsightsolutions"
+    },
+    {
+      "id": "liveramp",
+      "name": "LiveRamp",
+      "domain": "liveramp.com",
+      "priority": 5,
+      "method": "web_form",
+      "optout_url": "https://liveramp.com/privacy/my-privacy-choices",
+      "needs_email_confirm": null,
+      "category": "identity_graph",
+      "source": "privacyinsightsolutions"
     }
   ]
 }

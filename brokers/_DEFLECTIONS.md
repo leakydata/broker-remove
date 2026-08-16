@@ -99,3 +99,27 @@ No reply is the most common response of all. Statutory clocks (45 days under CCP
 extendable) run from the request date, so keep the timestamp and the ticket
 reference. A follow-up on an existing thread is more effective than a fresh
 request, which starts at the back of the queue.
+
+---
+
+## 7. The broken flow that isn't advertised as broken
+
+Radaris illustrates a pattern worth naming: **the documented route and the working
+route are different pages.**
+
+`/control-privacy` is the removal wizard linked from their support replies. It does
+not complete — it never sends the verification email it promises, and terminates on
+a third-party upsell.
+
+`/data_privacy_center` is a separate page that documents email routes the wizard
+never mentions: a covered-persons address for former law enforcement, a
+customer-service address for the multiple-record case, a phone line, and appeal
+rights by state.
+
+**Before accepting that a broker's opt-out is broken, look for their privacy
+*policy* page rather than their opt-out *tool*.** The policy page is written for
+regulators and lists obligations; the tool is written for deflection. They often
+disagree, and the policy page usually wins.
+
+Terms worth trying: `/data_privacy_center`, `/privacy-rights`, `/privacy-center`,
+`/your-privacy-choices`, `/dsr`, `/legal/privacy`.
