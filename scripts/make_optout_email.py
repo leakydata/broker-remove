@@ -40,13 +40,20 @@ I request that you:
 To help you locate my records, my identifying details are:
 
   Name:            {name}
+  Also known as:   {aliases}
+  Date of birth:   {dob}
   Phone:           {phone}
   Mailing address: {street}
                    {city}, {state} {zipc}
   Email addresses: {emails}
+{prior_block}
+This request covers records associated with ANY of the identifiers listed above —
+every email address, every prior address, and every prior telephone number, not
+only the current ones. Please search each of them.
 
-This request covers records associated with ANY of the email addresses listed
-above, not only the first. Please search each one.
+I have listed prior addresses and old telephone numbers deliberately. Records are
+frequently indexed against a former address or a disconnected number rather than
+a current one, and a search limited to my present details will miss them.
 
 I am exercising rights available to me under applicable state consumer privacy
 law, including the California Consumer Privacy Act as amended by the CPRA
@@ -80,8 +87,29 @@ def load_profile():
     p = json.loads((ROOT / "data" / "profile.json").read_text())
     emails = [e.lower() for e in p.get("all_emails") or [p["email"]]]
     indent = "\n" + " " * 19
+
+    # Prior addresses and old numbers are how brokers index records. Omitting
+    # them lets a broker search only current details and truthfully report a
+    # partial result.
+    prior = []
+    if p.get("prior_addresses"):
+        prior.append("  Prior addresses:")
+        prior += [" " * 19 + a for a in p["prior_addresses"]]
+    if p.get("prior_phones"):
+        prior.append("  Prior phone numbers:")
+        prior += [" " * 19 + n for n in p["prior_phones"]]
+    prior_block = ("\n" + "\n".join(prior) + "\n") if prior else "\n"
+
+    mid = (p.get("middle_name") or "").title()
+    full = " ".join(x for x in [p["first_name"].title(), mid, p["last_name"].title()] if x)
+    aliases = p.get("variants", {}).get("name_forms") or [full]
+
     return {
         "name": f"{p['first_name'].title()} {p['last_name'].title()}",
+        "full_name": full,
+        "aliases": ", ".join(aliases),
+        "dob": p.get("dob_display") or p.get("date_of_birth") or "(not provided)",
+        "prior_block": prior_block,
         "email": (p.get("confirmation_email") or p["email"]).lower(),
         "emails": indent.join(emails),
         "phone": p["phone_number"],

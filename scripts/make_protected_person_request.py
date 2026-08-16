@@ -73,6 +73,7 @@ IDENTIFYING INFORMATION
   Home address:    {street}
                    {city}, {state} {zipc}
   Email addresses: {emails}
+{prior_block}
 
 REQUESTED ACTION
   1. Remove or suppress my home address, phone number, and associated records
@@ -92,6 +93,20 @@ Regards,
 {name}
 {contact}
 """
+
+
+def _prior_block(p):
+    """Prior addresses and old numbers are how brokers index records; a search
+    limited to current details returns a partial result the broker can honestly
+    call complete."""
+    out = []
+    if p.get("prior_addresses"):
+        out.append("  Prior addresses:")
+        out += [" " * 19 + a for a in p["prior_addresses"]]
+    if p.get("prior_phones"):
+        out.append("  Prior phone numbers:")
+        out += [" " * 19 + n for n in p["prior_phones"]]
+    return ("\n" + "\n".join(out) + "\n") if out else "\n"
 
 
 def main():
@@ -125,6 +140,7 @@ def main():
         street=p["address"],
         zipc=p["zip_code"],
         emails=("\n" + " " * 19).join(emails),
+        prior_block=_prior_block(p),
         contact=(p.get("confirmation_email") or p["email"]).lower(),
     )
 

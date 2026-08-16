@@ -20,5 +20,8 @@
   "all_emails": [],
   "_email_note": "Brokers index records by email. Submit ALL of all_emails on any form that accepts multiple, so records tied to the secondary addresses are purged too. Use confirmation_email for verification links.",
   "date_of_birth": "",
-  "dob_display": ""
+  "dob_display": "",
+  "prior_addresses": [],
+  "prior_phones": [],
+  "_matching_note": "Prior addresses and old phone numbers are how brokers INDEX records. Including them raises match rates sharply and is not extra exposure - the broker already holds them; you are helping them find what they have. Aliases matter too: 'Nathan Elijah Jones' appears on Spokeo and Radaris."
 }

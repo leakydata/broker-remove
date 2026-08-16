@@ -277,3 +277,27 @@ an acted-on broker has no playbook, so this cannot drift silently.
 
 When a reply arrives, update the broker's playbook, not just the tracker note.
 The tracker records *what happened*; the playbook records *what to do next time*.
+
+## Include prior addresses, old phone numbers, and name variants
+
+Brokers **index records against former addresses and disconnected phone numbers**,
+not just current ones. A request listing only present details lets a broker search,
+find one record, remove it, and truthfully report the request complete while other
+entries remain under an address from ten years ago.
+
+`profile.json` carries `prior_addresses`, `prior_phones`, `middle_name` and
+`variants.name_forms`. Every generated letter includes them, with a sentence saying
+why — so the broker understands it is a deliberate widening of the search rather
+than noise.
+
+This does **not** conflict with data minimization. You are not disclosing anything
+new: the broker already holds these details, which is the entire problem. You are
+helping them locate what they have. Minimization applies to *optional form fields*
+that give a broker data it lacks — a different situation entirely.
+
+Name variants matter for the same reason. "Nathan Elijah Jones" appears on Spokeo
+and Radaris while the current record reads "Nathan Jones"; a middle name or an
+alias can be the only thing linking two records.
+
+When a broker's own listing reveals a prior address or old number you did not know
+about, add it to the profile — the listing is telling you how you are indexed.
