@@ -21,7 +21,7 @@ then take the `VIEW DETAILS` href, which carries a UUID:
 
 ## Gotchas
 - **Check their stated birth year.** Theirs was off by a year for this record
-  (1978 vs an actual 1979). Flag the discrepancy proactively in your reply — left
+  (1978 vs an actual [YEAR]). Flag the discrepancy proactively in your reply — left
   unmentioned, an inaccurate field is an easy reason to say the record could not
   be matched.
 - The listing is broad: multiple phone numbers, prior addresses in other states,

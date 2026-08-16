@@ -10,7 +10,7 @@
 
 - Current: `submitted` (updated 2026-08-16)
 - Reference: `gmail:1a00c69c6aa01661`
-- Note: Statutory deletion + opt-out emailed from leakydata@gmail.com. All 4 email identities + DOB asserted; asks them to search hashed forms too. Includes fallback: if no covering statute or non-covered state, honor as company policy and state which basis in writing. ATTRIBUTION variant: device graph, IP-derived IDs, ad exposure/click/conversion events. Pre-empts 'no record under that name' by noting data is held against pseudonymous identifiers.
+- Note: Statutory deletion + opt-out emailed from [EMAIL]. All 4 email identities + DOB asserted; asks them to search hashed forms too. Includes fallback: if no covering statute or non-covered state, honor as company policy and state which basis in writing. ATTRIBUTION variant: device graph, IP-derived IDs, ad exposure/click/conversion events. Pre-empts 'no record under that name' by noting data is held against pseudonymous identifiers.
 
 ## Steps
 

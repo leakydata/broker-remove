@@ -15,6 +15,9 @@ import re
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from redact import scan_tracked  # noqa: E402
+
 ROOT = Path(__file__).resolve().parent.parent
 CURATED = ROOT / "data" / "curated_brokers.json"
 PLAYBOOKS = ROOT / "brokers"
@@ -121,6 +124,12 @@ def main():
                 and not (PLAYBOOKS / f"{b['id']}.md").exists()):
             warnings.append(f"{b['id']}: priority {b['priority']} but no "
                             f"brokers/{b['id']}.md playbook")
+
+    # The repository is public. A tracked file containing personal data is a
+    # permanent, indexable leak - treat it as a hard failure, never a warning.
+    for f, ln, term in scan_tracked():
+        errors.append(f"PRIVACY LEAK {f}:{ln} contains a profile value "
+                      f"({term[:20]!r}) - this repo is public. Redact it.")
 
     for w in warnings:
         print(f"  warn: {w}")

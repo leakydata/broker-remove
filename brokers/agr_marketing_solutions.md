@@ -9,7 +9,7 @@
 
 - Current: `submitted` (updated 2026-08-16)
 - Reference: `gmail:1a00c69dd1aef8e0`
-- Note: Statutory deletion + opt-out emailed from leakydata@gmail.com. All 4 email identities + DOB asserted; asks them to search hashed forms too. Includes fallback: if no covering statute or non-covered state, honor as company policy and state which basis in writing. LEAD-GEN variant: buyer identification + acquisition source requested.
+- Note: Statutory deletion + opt-out emailed from [EMAIL]. All 4 email identities + DOB asserted; asks them to search hashed forms too. Includes fallback: if no covering statute or non-covered state, honor as company policy and state which basis in writing. LEAD-GEN variant: buyer identification + acquisition source requested.
 
 ## Steps
 

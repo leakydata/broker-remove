@@ -10,7 +10,7 @@
 
 - Current: `submitted` (updated 2026-08-16)
 - Reference: `gmail:1a00c694fb057918`
-- Note: Statutory deletion + opt-out emailed from leakydata@gmail.com. All 4 email identities + DOB asserted; asks them to search hashed forms too. Includes fallback: if no covering statute or non-covered state, honor as company policy and state which basis in writing. ADTECH variant: cookie/MAID/hashed-email identifiers and inferred brand-affinity segments.
+- Note: Statutory deletion + opt-out emailed from [EMAIL]. All 4 email identities + DOB asserted; asks them to search hashed forms too. Includes fallback: if no covering statute or non-covered state, honor as company policy and state which basis in writing. ADTECH variant: cookie/MAID/hashed-email identifiers and inferred brand-affinity segments.
 
 ## Steps
 

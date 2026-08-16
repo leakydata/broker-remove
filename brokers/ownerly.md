@@ -10,7 +10,7 @@
 
 - Current: `submitted` (updated 2026-08-15)
 - Reference: `gmail:1a0064bacdeb8691`
-- Note: Statutory deletion + opt-out emailed from leakydata@gmail.com. All 4 email identities + DOB asserted. Includes explicit fallback: if broker claims no covering statute or non-covered state, honor as company policy and state which basis was applied. Covers property ownership and home value records.
+- Note: Statutory deletion + opt-out emailed from [EMAIL]. All 4 email identities + DOB asserted. Includes explicit fallback: if broker claims no covering statute or non-covered state, honor as company policy and state which basis was applied. Covers property ownership and home value records.
 
 ## Steps
 

@@ -116,3 +116,33 @@ uv run scripts/build_registry.py    # regenerate data/brokers.json
 
 Never commit `data/profile.json`, `data/removal_status.json`, or `outbox/` —
 they hold personal data and are gitignored. Check with `git status` before pushing.
+
+## This repository is public — never commit personal data
+
+The registry and playbooks are meant to be shared. The *person* using them is not.
+
+`data/profile.json`, `data/removal_status.json` and `outbox/` are gitignored, but
+gitignoring the source is not sufficient on its own. The failure mode that actually
+bites is **tooling that copies text from a protected file into a tracked one** —
+a status note containing an email address, scaffolded into `brokers/<id>.md`, is
+laundered straight into public git history. That happened in this repo and is why
+`scripts/redact.py` exists.
+
+Two guards, both automatic:
+
+- `scaffold_playbook.py` redacts profile values as it writes, replacing them with
+  `[EMAIL]`, `[PHONE]`, `[PERSONAL]`, `[YEAR]`.
+- `validate.py` **fails with an error** if any tracked file contains a value drawn
+  from `profile.json`. Run it before every push:
+
+  ```bash
+  uv run scripts/validate.py     # exits non-zero on a leak
+  uv run scripts/redact.py       # lists leaks on their own
+  ```
+
+When writing a playbook by hand, describe the *pattern*, never the person. "A
+broker displayed a masked phone number the profile did not have" teaches the same
+lesson as naming the number, and costs the author nothing.
+
+Note that git history is permanent: a leak that is committed and later deleted is
+still in the history and still public. Catch it before the commit.

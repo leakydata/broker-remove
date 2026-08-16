@@ -10,7 +10,7 @@
 
 - Current: `submitted` (updated 2026-08-15)
 - Reference: `gmail:1a006814404c044f`
-- Note: Statutory deletion + opt-out emailed from leakydata@gmail.com. All 4 email identities + DOB asserted. Pre-empts the residency deflection: if no covering statute, honor as company policy and state which basis in writing. Covers address history / resident listing / property records.
+- Note: Statutory deletion + opt-out emailed from [EMAIL]. All 4 email identities + DOB asserted. Pre-empts the residency deflection: if no covering statute, honor as company policy and state which basis in writing. Covers address history / resident listing / property records.
 
 ## Steps
 

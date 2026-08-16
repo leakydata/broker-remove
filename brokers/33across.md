@@ -10,7 +10,7 @@
 
 - Current: `submitted` (updated 2026-08-15)
 - Reference: `gmail:1a00681a9d0ec120`
-- Note: Statutory deletion + opt-out emailed from leakydata@gmail.com. All 4 email identities + DOB asserted. Pre-empts the residency deflection: if no covering statute, honor as company policy and state which basis in writing. ADTECH variant: also demands deletion of cookie IDs, MAIDs, hashed-email identifiers and inferred audience segments; asks them to search hashed forms of each address and to propagate to DSP/SSP partners.
+- Note: Statutory deletion + opt-out emailed from [EMAIL]. All 4 email identities + DOB asserted. Pre-empts the residency deflection: if no covering statute, honor as company policy and state which basis in writing. ADTECH variant: also demands deletion of cookie IDs, MAIDs, hashed-email identifiers and inferred audience segments; asks them to search hashed forms of each address and to propagate to DSP/SSP partners.
 
 ## Steps
 

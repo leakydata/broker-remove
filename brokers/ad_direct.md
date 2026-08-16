@@ -9,7 +9,7 @@
 
 - Current: `submitted` (updated 2026-08-16)
 - Reference: `gmail:1a00c69818dde021`
-- Note: Statutory deletion + opt-out emailed from leakydata@gmail.com. All 4 email identities + DOB asserted; asks them to search hashed forms too. Includes fallback: if no covering statute or non-covered state, honor as company policy and state which basis in writing. DIRECT-MAIL variant: deletion + permanent suppression, list partners/brokers/clients covered.
+- Note: Statutory deletion + opt-out emailed from [EMAIL]. All 4 email identities + DOB asserted; asks them to search hashed forms too. Includes fallback: if no covering statute or non-covered state, honor as company policy and state which basis in writing. DIRECT-MAIL variant: deletion + permanent suppression, list partners/brokers/clients covered.
 
 ## Steps
 

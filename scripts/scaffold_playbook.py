@@ -21,6 +21,9 @@ import json
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from redact import redact  # noqa: E402
+
 ROOT = Path(__file__).resolve().parent.parent
 REGISTRY = ROOT / "data" / "brokers.json"
 STATE = ROOT / "data" / "removal_status.json"
@@ -67,9 +70,11 @@ def scaffold(bid, reg, st):
     lines.append(f"- Current: `{rec.get('status', 'pending')}`"
                  + (f" (updated {rec.get('updated','')[:10]})" if rec.get("updated") else ""))
     if rec.get("confirmation_ref"):
-        lines.append(f"- Reference: `{rec['confirmation_ref']}`")
+        lines.append(f"- Reference: `{redact(rec['confirmation_ref'])}`")
     if rec.get("note"):
-        lines.append(f"- Note: {rec['note']}")
+        # Tracker notes are gitignored and may contain personal data; this file
+        # is tracked and public. Redact on the way across that boundary.
+        lines.append(f"- Note: {redact(rec['note'])}")
     lines.append("")
 
     lines += [

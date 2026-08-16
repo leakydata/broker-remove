@@ -49,7 +49,7 @@ bot-gated while a different privacy door is open.
 4. Submit → confirmation page + confirmation email. Removal within 3 days.
 
 **Trap: the link URL pre-fills the name fields** via `?fn=…&ln=…`. Typing into
-them *appends*, producing "NathanNathan" / "JonesJones". Clear each field before
+them *appends*, producing "[PERSONAL][PERSONAL]" / "[PERSONAL][PERSONAL]". Clear each field before
 typing, and screenshot to verify — their own page warns that inaccurate
 information hinders the match, so this silently costs you the removal.
 

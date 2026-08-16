@@ -295,8 +295,8 @@ new: the broker already holds these details, which is the entire problem. You ar
 helping them locate what they have. Minimization applies to *optional form fields*
 that give a broker data it lacks — a different situation entirely.
 
-Name variants matter for the same reason. "Nathan Elijah Jones" appears on Spokeo
-and Radaris while the current record reads "Nathan Jones"; a middle name or an
+Name variants matter for the same reason. "[PERSONAL]" appears on Spokeo
+and Radaris while the current record reads "[PERSONAL]"; a middle name or an
 alias can be the only thing linking two records.
 
 When a broker's own listing reveals a prior address or old number you did not know
@@ -311,14 +311,13 @@ stronger.
 
 Observed in practice:
 
-- Radaris displayed a masked `(814) 769-****`. The full number turned out to be a
-  real prior number, and its area code matched a region already in the profile.
-- Radaris listed Philipsburg, Bellefonte, State College and Blue Ridge Summit
-  before any of those addresses were known. The listing was describing address
-  history the profile lacked.
-- Spokeo and Radaris both carried the alias "Nathan Elijah Jones" while the
-  current record read "Nathan Jones" — a middle name can be the only link between
-  two records that otherwise look like different people.
+- A broker displayed a masked phone number, e.g. `(555) 123-****`. The full number
+  turned out to be a real prior number the profile did not have.
+- A broker listed four cities as address history before any of those addresses
+  were in the profile. The listing was describing history the profile lacked.
+- Two brokers carried a middle-name alias while the current record showed only
+  first and last. A middle name can be the only link between two records that
+  otherwise look like different people.
 
 Old and defunct identifiers are the most valuable, not the least. A dead
 `@webtv.net` address or a disconnected landline is exactly what an aging record is
