@@ -347,3 +347,41 @@ working channel.
 **Do not** treat a broken form as a reason to give up on the broker. The failure is
 evidence, and evidence is leverage.
 
+---
+
+## 14. The form that excludes your state
+
+A request form gated on residency, listing only the states with comprehensive
+consumer privacy statutes. One example restricts to sixteen: California, Colorado,
+Connecticut, Delaware, Indiana, Iowa, Kentucky, Maryland, Montana, New Hampshire,
+New Jersey, Oregon, Rhode Island, Tennessee, Utah, Virginia — plus "non-U.S.
+resident" and "None of the above". **Choosing "None of the above" does not advance
+past page one.** Combined with *"We cannot process your request until we have
+received the completed form"*, a resident of any other state has no route at all.
+
+Distinguish this from §6 (a required dropdown that simply omits your state, which
+is usually carelessness). This version is **legally coherent**: those states grant
+the right, others do not. That makes it harder to argue and changes the approach.
+
+**Do not misstate your residency to get past the gate.** It is a false statement
+on a request, it is often certified, and it hands the broker a clean reason to
+void the request later — after you have stopped watching.
+
+**What actually works instead:**
+
+1. **Ask them to honor it as a matter of published policy.** Most privacy policies
+   describe practices company-wide rather than per-state. A request framed as
+   "your policy says you do X; I am asking you to do X" does not depend on a
+   statute at all. Build this into the standard letter so it is already on record
+   before the form turns you away.
+2. **Check for a state data-broker registration.** Texas, California, Vermont and
+   Oregon require brokers to register, and those regimes carry their own
+   obligations regardless of where the consumer lives. If the company's own policy
+   says *"The entity maintaining this website is a data broker under Texas law"*,
+   cite it.
+3. **Use the phone route if one exists.** Phone lines are frequently offered "for
+   California consumers" but answered by a human who processes what they are given.
+4. **Keep the paper trail.** A form that structurally excludes you, plus a refusal
+   to accept email, is exactly the evidence a regulator complaint needs — and it is
+   worth saying so, politely, in the request itself.
+

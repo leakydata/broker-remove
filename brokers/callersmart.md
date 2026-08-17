@@ -100,3 +100,30 @@ so a helper can queue the next number while the confirmations land.
 The number is reformatted to `(XXX) XXX-XXXX` on entry, which is a useful signal
 that the field actually received the digits.
 
+## Outcome: complete removal, confirmed number by number
+
+All nine telephone numbers were individually confirmed, each by its own email
+naming the number:
+
+> *"The phone book listing on (XXX) XXX-XXXX has been automatically removed from
+> our website. No personally identifying information will display with this phone
+> number in our phone book."*
+
+This is one of the cleanest outcomes in the project, and worth noting why: the
+broker indexes on a **single, enumerable identifier**. There is no ambiguity about
+whether the right record was found, no "we could not locate you", and no need to
+re-verify by searching — the confirmation names exactly what was removed.
+
+**Budget nine CAPTCHAs for nine numbers.** There is no bulk route. Repeated
+submissions from one IP also escalate the challenge: after several in a row the
+plain "I'm not a robot" checkbox is replaced by an image-selection challenge and
+a Cloudflare interstitial appears. Spacing the submissions out avoids that.
+
+## Verifying afterwards
+
+Listings are searchable by phone number at the site's own search box, so a spot
+check is easy and cheap — unlike the many brokers with nothing to search. Worth
+re-checking a couple of numbers after a few weeks, since nothing here was
+described as suppression against future re-ingestion, only removal of the current
+listing.
+
