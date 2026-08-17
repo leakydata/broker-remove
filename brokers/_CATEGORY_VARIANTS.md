@@ -154,3 +154,51 @@ Also ask for your phone and email to be added to any platform-level
 do-not-contact list, so client campaigns running through the platform stop
 re-soliciting you even where a record legitimately remains.
 
+## Vehicle history / ownership lookup  (e.g. Bumper)
+
+Keyed to a **VIN or plate**, not to a person, so a name-and-address search can
+return nothing while records that resolve to you remain.
+
+Ask for: ownership and title history, registration and lien records, VIN-linked
+records, sales and listing history, and any report naming you or linked to your
+address. The thing to name explicitly is the **name-to-vehicle linkage** — ask for
+the linkage deleted, not merely your name detached from a record that still
+describes the vehicle. Registrations are indexed against the address held at the
+time, so prior addresses matter more here than usual.
+
+## Reverse phone lookup / caller ID  (e.g. CallerSmart)
+
+Keyed to **phone numbers**. Lead with the numbers, not the name, and include
+disconnected ones — those are the most likely to still be indexed and the least
+likely to be found by a name search.
+
+The extra ask: **user-submitted comments, reports and ratings** attached to a
+number are personal information about whoever holds it. A number stripped of your
+name but still carrying commentary about you is not a completed removal.
+
+## Recruitment / résumé databases  (e.g. CareerBuilder)
+
+Two failure modes worth naming in the letter:
+
+- **Closing the account leaves the résumé.** Deactivating a profile frequently
+  leaves the searchable résumé record live and visible to employer subscribers —
+  which is the part that matters. Ask for the database entry, not the account.
+- **The record may not be yours to remember.** Résumés get re-uploaded by staffing
+  agencies and sourced from partner sites, so a profile can exist under a former
+  email address years after you last used the service. Historic identifiers do the
+  work here.
+
+## Talent intelligence / candidate scoring  (e.g. Censia)
+
+Assembles candidate profiles from public and licensed sources *without the
+subject's knowledge*, then scores them for employers. Nobody involved has an
+account to close.
+
+Ask for the profile **and the generated attributes**: skills and seniority
+inferences, compensation estimates, predicted job-change or "likelihood to move"
+scores, ranking and match scores. These are personal information the company
+created about you, and they survive deletion of the source record if you don't
+name them. Pair the deletion request with an explicit **objection to profiling and
+automated decision-making**, and ask whether any has been applied — this is one of
+the few categories where that right straightforwardly bites.
+
