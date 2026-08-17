@@ -40,7 +40,7 @@ def main():
     ap.add_argument("--min-priority", type=int, default=1)
     ap.add_argument("--summary", action="store_true",
                     help="print a human summary instead of JSON")
-    ap.add_argument("--daily-cap", type=int, default=40,
+    ap.add_argument("--daily-cap", type=int, default=120,
                     help="max emails to send per calendar day (UTC)")
     args = ap.parse_args()
 
@@ -52,12 +52,28 @@ def main():
     # exceed the mailbox's daily limit. Tripping Gmail's abuse detection would
     # cost far more than the extra batch gains.
     today = datetime.now(timezone.utc).date().isoformat()
-    sent_today = sum(
-        1 for rec in state.values()
-        for h in rec.get("history", [])
-        if h.get("at", "").startswith(today) and h.get("status") == "submitted"
-        and "mailto:" in (rec.get("optout_url_used") or "")
-    )
+
+    # Count today's *email* sends. The channel is recorded on the history entry
+    # (tracker.py --via email). Entries predating that flag fall back to the old
+    # mailto: heuristic, and anything still unattributable is counted anyway --
+    # over-counting pauses sending a little early, under-counting risks the
+    # mailbox itself, and only one of those is recoverable.
+    #
+    # This counted 17 of 94 sends on the day it was written, because the mailto:
+    # heuristic depended on a URL the recording step did not set. A cap that
+    # silently measures nothing is worse than no cap: it reports a comfortable
+    # number while the real figure runs away.
+    sent_today = 0
+    for rec in state.values():
+        legacy_email = "mailto:" in (rec.get("optout_url_used") or "")
+        for h in rec.get("history", []):
+            if not h.get("at", "").startswith(today):
+                continue
+            if h.get("status") != "submitted":
+                continue
+            via = h.get("via")
+            if via == "email" or (via is None and legacy_email) or via is None:
+                sent_today += 1
     remaining = max(0, args.daily_cap - sent_today)
     if remaining == 0:
         print(f"daily cap reached ({sent_today}/{args.daily_cap} sent today) - "

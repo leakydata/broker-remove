@@ -95,6 +95,8 @@ def cmd_set(args):
     if args.ref:
         rec["confirmation_ref"] = args.ref
     entry = {"at": now(), "status": args.status}
+    if args.via:
+        entry["via"] = args.via
     if args.note:
         entry["note"] = args.note
         rec["note"] = args.note
@@ -178,6 +180,8 @@ def main():
     stp = sub.add_parser("set")
     stp.add_argument("broker_id"); stp.add_argument("status")
     stp.add_argument("--note"); stp.add_argument("--url"); stp.add_argument("--ref")
+    stp.add_argument("--via", choices=["email", "web", "phone", "postal"],
+                     help="channel used, so the daily send cap can count accurately")
     stp.set_defaults(func=cmd_set)
 
     np = sub.add_parser("next"); np.add_argument("count", nargs="?", type=int, default=10)
