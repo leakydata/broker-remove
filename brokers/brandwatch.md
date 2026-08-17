@@ -86,3 +86,21 @@ processing of personal information about an identifiable person. Framing it that
 way — agreeing about the posts, distinguishing the derived record — keeps the
 exchange cooperative, which matters with a team that is clearly willing to engage.
 
+## Every inbound message gets the same auto-reply
+
+Both `privacy@brandwatch.com` and the `PrivacyAutoreplyBW@` address it replies
+from return the identical canned message — including a reply that is itself the
+confirmation their auto-reply asked for.
+
+**This does not prove nobody read it.** The auto-responder almost certainly fires
+on every inbound message regardless of what a human does behind it. But it does
+mean **you cannot tell from the mailbox whether the gate was satisfied**, which is
+the practically important part: there is no artifact distinguishing "confirmed and
+queued" from "sitting unread".
+
+What to do: send the confirmation to the **monitored** address (`privacy@`) rather
+than the auto-reply address, say plainly that you are re-sending because the first
+attempt was auto-answered, and then wait for a human reply rather than treating any
+auto-reply as progress. Record the request as submitted-pending-human-response, and
+chase it if nothing personal arrives within the statutory window.
+

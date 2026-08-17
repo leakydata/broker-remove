@@ -202,3 +202,58 @@ name them. Pair the deletion request with an explicit **objection to profiling a
 automated decision-making**, and ask whether any has been applied — this is one of
 the few categories where that right straightforwardly bites.
 
+## Geodemographic segmentation  (e.g. Claritas)
+
+Assigns **households** to lifestyle, income and life-stage clusters. The cluster
+assignment is the product being licensed — not the name-and-address row.
+
+Ask for the segment or cluster assignment explicitly, and ask whether it attaches
+to the **address** rather than the name. If it does, deleting a name-keyed record
+while leaving the address classified leaves the substance of the profile intact.
+Prior addresses matter more than usual: the assignment is keyed to the address held
+at the time.
+
+## Predictive scoring / modelled audiences  (e.g. Civis Analytics)
+
+Generates individual-level **scores** — propensity, likely views, turnout,
+receptiveness — often from public records such as voter files.
+
+Ask for the scores themselves to be deleted, not merely detached from your name,
+and ask which categories of score were held. Where the source is a public record,
+say plainly that you are asking them to delete their copy and the derived scoring,
+not to alter the source — that removes the easiest deflection ("we can't change
+public records") before it is offered. Pair with an objection to profiling and
+automated decision-making.
+
+## Media contact / PR databases  (e.g. Cision)
+
+Journalist and influencer profiles assembled from bylines, public profiles and
+social accounts. **There is no account to close** — the subject was never involved.
+
+Ask for the contact record *and* the derived attributes: beat and topic
+classifications, outlet affiliations, influence or reach scores. Add a request for
+platform-level do-not-contact suppression, so subscriber outreach campaigns stop
+even if some record legitimately remains.
+
+## Research panels / survey exchanges  (e.g. Cint)
+
+Panel **profiling answers** are the sensitive part: these questionnaires routinely
+cover health, income, politics, religion and household composition — categories
+treated as sensitive anywhere else. Ask whether profiling responses are retained
+after a panellist record is closed.
+
+Panel membership frequently sits with a partner rather than the exchange. Ask them
+to forward the request and **name** the panel, rather than accepting a redirect you
+cannot act on.
+
+## Community sites with forums  (e.g. City-Data)
+
+Two distinct record types in one place: directory-style entries tying a name to an
+address or phone, and **forum accounts with post history**, usually registered
+years ago under an email no longer in use.
+
+List every historic email address. Ask for the underlying record removed rather
+than the page de-indexed. Where material about you was posted by another user, ask
+what exists and under what username rather than accepting a flat refusal — knowing
+what is there is a prerequisite to doing anything about it.
+

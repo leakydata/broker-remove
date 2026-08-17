@@ -188,3 +188,24 @@ They also assert a scope limit:
 here may be discretionary rather than statutory, which is another reason to
 re-verify rather than assume.
 
+## customercare@ is an autoresponder
+
+A detailed message documenting each broken route, quoting their own instructions
+and asking them to process directly or escalate, received the **identical canned
+reply** within minutes:
+
+> *"This email address is dedicated to customer service inquiries and is not
+> intended for privacy-related requests. We do not accept privacy requests
+> submitted via email."*
+
+So the address that their own privacy instructions point you to for "contact us by
+email" does not reach a person. That closes the last written channel.
+
+**The telephone is the only route that works end to end.** Use **(877) 551-9688**
+(the opt-out line from the Notice of Right to Opt-Out), not the customer-care
+number.
+
+Send the written request anyway — not because it will be read, but because a
+timestamped record that every published route failed is what you would need if
+this ever went to a state Attorney General or a data-broker registry complaint.
+
