@@ -309,3 +309,41 @@ is actually you (DOB, prior cities, old phone numbers) before asking for removal
 Submitting a stranger's profile is a real risk with a common name, and it wastes
 the one identifier the broker will act on.
 
+---
+
+## 13. Every route blocked — email refused, form broken, link expired
+
+Occasionally a broker leaves no working path at all. Not by design, usually — just
+neglect, each channel failing for a different reason:
+
+- email refused as a matter of policy;
+- the opt-out page behind a bot gate, with an emailed link that expires in 24
+  hours;
+- the alternative form accepting input and then failing server-side;
+- the "delete" link deleting an *account* rather than the public record.
+
+Each failure is individually plausible. Together they mean a statutory right has no
+working channel.
+
+**What to do.**
+
+1. **Stop after two attempts at a failing form.** Every retry burns a solved
+   CAPTCHA and tells you nothing new. Two failures establishes the endpoint is
+   broken.
+2. **Find the phone number in the legal notice, not the support email.** Opt-out
+   telephone numbers are often published only in the body of a "Notice of Right to
+   Opt-Out" and differ from the customer-service number. A call bypasses bot gates,
+   broken forms and expiring links in one step. It is the most reliable route in
+   this situation and the most overlooked.
+3. **Write to the refused email address anyway, and document the failures.** Quote
+   their own instruction, list each route with what it did, and ask them to process
+   directly, escalate to whoever maintains the form, or name a working alternative.
+   Offering three outs makes the easy one attractive. A refusal to accept email
+   cannot reasonably stand when the prescribed alternative is broken — and the
+   message is also your evidence that you tried, which matters if this ever
+   escalates to a regulator.
+4. **Record it as blocked, not submitted.** Nothing was filed.
+
+**Do not** treat a broken form as a reason to give up on the broker. The failure is
+evidence, and evidence is leverage.
+

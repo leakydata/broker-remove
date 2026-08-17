@@ -128,3 +128,63 @@ Cloudflare-gated page and a fresh CAPTCHA. The plain-text copy of that email als
 arrives with the trailing `ticketid` parameter mangled, so copy the link from the
 HTML version. See `_SILENT_FAILURES.md` §2.
 
+## The Right to Know form fails server-side
+
+Two separate attempts, both correctly completed (own-information selected,
+reCAPTCHA solved by a human, Continue pressed), both returned:
+
+> *"Error submitting URL — Your request could not be submitted at this time,
+> please try again later or contact us by email or phone."*
+
+with a second banner reading *"An unexpected error occurred when attempting to
+process your request. Please try again."*
+
+This is **their** failure, not an input problem, and it is expensive: every attempt
+costs a solved CAPTCHA. Do not keep retrying. Two attempts is enough to establish
+the endpoint is broken; after that, switch routes and put the failure in writing.
+
+## Every documented route is blocked
+
+| Route | Outcome |
+|---|---|
+| Email | Refused: *"We do not accept privacy requests submitted via email."* |
+| `/opt-out` | Cloudflare page-load gate; emailed link expires in **24h** |
+| `/request-my-info` | Loads, but **submission fails server-side** |
+| `/dashboard/account/delete` | Deletes an **account**, not the public record |
+
+That leaves the telephone as the only route that works end to end.
+
+## Two different phone numbers
+
+- **(877) 551-9688** — given in the *Notice of Right to Opt-Out* as the phone route
+  for opting out of sale/sharing. **This is the one to use for a removal.**
+- **(800) 718-8997** — customer care, Mon–Fri 07:00–18:00 PST, Sat–Sun
+  08:00–15:30 PST. Given in their email signature and in the accessibility
+  paragraph of the same notice.
+
+The opt-out number appears only in the body of the Notice, not in the email
+customer care sends, so it is easy to miss. A phone call bypasses both the
+Cloudflare gate and the broken form.
+
+## They state on the record that opt-outs do not hold
+
+From the *Notice of Right to Opt-Out of Sale and Sharing of Personal Information*:
+
+> *"we regularly receive new public records so even if you opt out, your publicly
+> available information may appear in our data products again in the future. We
+> recommend you periodically refresh your opt-out request"*
+
+Worth quoting back when asking for **suppression** rather than deletion, and worth
+remembering generally: this is a broker saying plainly that removal is temporary
+by design. It is the clearest justification in this whole project for re-checking
+rather than trusting a confirmation.
+
+They also assert a scope limit:
+
+> *"our products and services use publicly available information, which is not
+> covered by State Privacy Laws"*
+
+— and say they will apply an opt-out to it *"as a courtesy"*. So a confirmation
+here may be discretionary rather than statutory, which is another reason to
+re-verify rather than assume.
+
