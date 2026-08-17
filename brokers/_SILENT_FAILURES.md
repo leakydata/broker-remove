@@ -96,6 +96,17 @@ easy to miss. A bounced request and a pending request look identical in a tracke
   out either — check the domain (below), because some of these never arrive.
 - **DNS failure ("domain couldn't be found")** — the company is gone. Mark
   `unreachable`; there is nothing to chase.
+- **`550 5.7.133 SenderNotAuthenticatedForGroup`** — the published address is a
+  Microsoft 365 **distribution group configured to accept internal senders only**.
+  It is not dead; it is structurally unable to receive mail from the public:
+
+  > *"The group privacy only accepts messages from people in its organization or
+  > on its allowed senders list, and your email address isn't on the list."*
+
+  A company can publish `privacy@` as its privacy contact and have it silently
+  reject every consumer who writes to it. The real address is usually in the
+  privacy policy — in one case `privacyrequests@` at the same domain. Worth telling
+  them about the misconfiguration when you resend; they generally do not know.
 
 **The soft bounce that is really a dead domain.** A broker whose DNS returns
 SERVFAIL produces a *soft* bounce, not a hard one: the mail provider cannot tell

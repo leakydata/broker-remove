@@ -1255,8 +1255,9 @@
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "billtrust",
-      "email_to": "privacy@billtrust.com",
-      "email_verified": true
+      "email_to": "privacyrequests@billtrust.com",
+      "email_verified": true,
+      "notes": "Published privacy@ address is an internal-only Microsoft 365 distribution group and rejects all external mail with 550 5.7.133. The working address, given in their privacy policy, is privacyrequests@billtrust.com."
     },
     {
       "id": "birdeye",

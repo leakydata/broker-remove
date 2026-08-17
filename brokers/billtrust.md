@@ -27,3 +27,30 @@
 ## Verification
 
 <!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+
+## The published privacy address cannot receive external mail
+
+`privacy@billtrust.com` rejects everything from outside the company:
+
+> *"The group privacy only accepts messages from people in its organization or on
+> its allowed senders list, and your email address isn't on the list."*
+> `550 5.7.133 RESOLVER.RST.SenderNotAuthenticatedForGroup`
+
+It is a Microsoft 365 distribution group set to authenticated senders only. Not a
+dead address — a live one that structurally cannot be reached by a consumer, which
+is worse, because it looks entirely normal until you try.
+
+**Use `privacyrequests@billtrust.com`**, given in their privacy policy.
+
+Worth flagging the misconfiguration when you write; a company publishing a privacy
+contact that bounces every consumer almost certainly does not intend to.
+
+## Other contacts in the policy
+
+- **UK/EEA representative:** VeraSafe, contactable instead of or in addition to
+  the address above, by web form or on +44 (20) 4532 2003.
+- **DPO (Belgium):** a named individual at Billtrust Belgium BV, Ghent.
+
+Not relevant to a US consumer request, but useful if a US route stalls — an EU
+representative is obliged to engage and is usually more responsive.
+
