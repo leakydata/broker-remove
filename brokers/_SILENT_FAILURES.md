@@ -82,9 +82,28 @@ easy to miss. A bounced request and a pending request look identical in a tracke
   `privacy@<domain>` published in a directory bounced while the working address
   was an ordinary support mailbox.
 - **Soft bounce ("delivery incomplete", retrying)** — not yet a failure; the
-  provider retries for ~48h. Wait before re-sending, then check again.
+  provider retries for ~48h. Don't re-send immediately, but don't just wait it
+  out either — check the domain (below), because some of these never arrive.
 - **DNS failure ("domain couldn't be found")** — the company is gone. Mark
   `unreachable`; there is nothing to chase.
+
+**The soft bounce that is really a dead domain.** A broker whose DNS returns
+SERVFAIL produces a *soft* bounce, not a hard one: the mail provider cannot tell
+a broken nameserver from a temporarily unreachable one, so it reports "Delivery
+incomplete... will retry for 47 more hours" and keeps trying. For two days the
+request sits in the tracker looking pending, and only then fails — if you are
+still watching by that point.
+
+Check any soft bounce that survives its first day:
+
+```bash
+host <domain>            # SERVFAIL or NXDOMAIN means it will never arrive
+host -t MX <domain>      # no MX means no mail route even if the domain resolves
+```
+
+Two brokers in this project turned out to be dead this way. One announced itself
+immediately with "the domain couldn't be found"; the other spent 24 hours looking
+like an ordinary slow delivery. Same outcome, very different visibility.
 
 **Check:** search for delivery-status mail *first* in every pass, before replies.
 
