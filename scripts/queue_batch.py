@@ -80,6 +80,10 @@ def main():
             if h.get("status") != "submitted":
                 continue
             via = h.get("via")
+            # Only fresh outbound letters count. A 'reply' is a message into a
+            # thread that already exists, so it costs the recipient nothing new
+            # and must not consume the budget for contacting brokers who have
+            # never been written to.
             if via == "email" or (via is None and legacy_email) or via is None:
                 sent_today += 1
     remaining = max(0, args.daily_cap - sent_today)

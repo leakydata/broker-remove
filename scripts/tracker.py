@@ -180,7 +180,11 @@ def main():
     stp = sub.add_parser("set")
     stp.add_argument("broker_id"); stp.add_argument("status")
     stp.add_argument("--note"); stp.add_argument("--url"); stp.add_argument("--ref")
-    stp.add_argument("--via", choices=["email", "web", "phone", "postal"],
+    # 'email' is a fresh outbound letter and counts against the daily send cap.
+    # 'reply' is a message into an existing thread -- answering a deflection,
+    # recording a ticket acknowledgement -- and does not. Conflating them lets a
+    # busy inbox day exhaust a cap that no new broker ever benefited from.
+    stp.add_argument("--via", choices=["email", "reply", "web", "phone", "postal"],
                      help="channel used, so the daily send cap can count accurately")
     stp.set_defaults(func=cmd_set)
 
