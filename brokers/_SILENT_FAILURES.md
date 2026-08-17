@@ -74,6 +74,13 @@ page still congratulated you. Two ways this goes wrong:
   verification link fails with a signature or token error on first use, suspect
   the copy before you suspect the request.
 
+  Across five verification mails from one sender, three were intact and two were
+  corrupted, so it is not a property of the sender — it is per-message, and the
+  corruption always ate the `=` plus the first character or two after it
+  (`&signature=fFoY...` arriving as `&signature<garbage>oY...`). A truncated
+  signature produces a confident-looking rejection, not an obvious parse error,
+  which is what makes it worth knowing.
+
 **Check:** if a broker mentions verification at all, the request is not filed
 until you have seen a page that says something like *"Your request is confirmed!"*
 Treat submission and verification as **one** step. Search the mailbox for pending
