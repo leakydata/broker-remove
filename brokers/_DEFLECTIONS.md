@@ -148,3 +148,36 @@ retain opt-outs to suppress future collection.
 options exclude you is a wall, not a nuisance — and it is invisible until you try to
 submit. Worth recording in the playbook so the next person does not discover it the
 hard way.
+
+---
+
+## 9. "Deleted" without saying how much, or for how long
+
+A confirmation of deletion is not the same as an answer to *what* was deleted or
+*whether it stays deleted*. Nuwber confirmed removal promptly and did not address
+either follow-up:
+
+- **How many records matched?** Someone with address history across several towns
+  frequently has multiple records. Brokers create separate profiles when new source
+  data cannot be matched to an existing one — Radaris says so explicitly in its FAQ.
+  A single deletion may cover one of four.
+- **Is it suppressed against future ingest, or merely deleted from the index?**
+  This is the difference between settled and temporarily quiet. Deletion without
+  suppression means the record returns with the next data feed.
+
+**Ask both, every time.** They cost one sentence each and determine whether a
+broker needs a recurring sweep. Expect the second to go unanswered more often than
+not — which is itself informative, and a reason to re-verify rather than trust.
+
+## Search-engine caches are not a failed removal
+
+Several brokers warn that a delisted profile stays visible in Google or Bing for
+days to **8 weeks**. Nuwber puts it plainly: *"we have no control or influence over
+this process."*
+
+So when verifying, **check the broker's own site, not a search engine**. A cached
+result weeks later proves nothing. To clear it faster, use the search engines' own
+removal tools rather than re-filing with the broker:
+
+- Google: <https://support.google.com/websearch/answer/6349986>
+- Bing: <https://www.bing.com/webmasters/tools/contentremoval>
