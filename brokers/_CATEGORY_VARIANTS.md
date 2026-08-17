@@ -70,3 +70,26 @@ under that name" is a true statement that misses everything. Say so explicitly:
 where an identifier is linkable to you it is personal information about you.
 Name device graph entries, IP-derived identifiers, and ad exposure / click /
 conversion events.
+
+## Connected TV / automatic content recognition  (e.g. Alphonso / LG Ads)
+The category most people don't know exists about them. Smart TVs run **automatic
+content recognition** on what's displayed and sell the resulting viewing data.
+Name it explicitly: viewing history, channel and programme tuning data, ACR data,
+household device graphs (often IP-derived), and ad exposure/attribution events.
+
+Also ask **which television manufacturer, platform or partner supplied the data** —
+that identifies the collection at source, which is where it can actually be turned
+off, rather than only the copy this broker holds.
+
+## Publishers with subscriber data  (e.g. American City Business Journals)
+Scope the request explicitly to **subscriber, marketing, event and commercial
+contact data, and NOT editorial content**. A publisher handed an unscoped deletion
+demand can reject the whole thing on press-freedom grounds, and would be right to.
+Conceding the point you were never asking for costs nothing and removes their
+strongest objection.
+
+## Business directories  (e.g. All Biz, AllPeople)
+Expect "that's a business listing, not personal data." Pre-empt it: a business
+record that discloses a **personal name, home address or personal telephone
+number** is personal information about that individual regardless of how the
+listing is labelled. Say so in the original request rather than arguing later.
