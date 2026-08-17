@@ -27,3 +27,66 @@
 ## Verification
 
 <!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+
+## Same auto-reply gate as Brandwatch — and the same trap
+
+Cision owns Brandwatch, and both use an identical auto-responder template. It
+opens *"We confirm receipt of your message"* and then, further down:
+
+> *"If you believe we have collected data on you as a Journalist or Influencer,
+> please reply to this email indicating your desire for us to proceed with your
+> request."*
+
+**Nothing is processed until you send that reply.** See `_SILENT_FAILURES.md` §5.
+Send the confirmation to `privacy@cision.com`, not to the `PrivacyAutoreply`
+address it arrives from — replying to the auto-responder just triggers it again.
+
+## Crucial difference from Brandwatch: they index on name and email
+
+This is the sentence that matters, and it is the opposite of its sister company's:
+
+> *"We index your information by your name, email address, and social handle."*
+
+Brandwatch indexes **social handles only** and says so explicitly, which makes a
+standard opt-out letter unanswerable there. Cision indexes **name and email as
+well**, so the ordinary request — name, addresses, every email address — is
+directly actionable. No handles required.
+
+Do not assume sister companies share a data model. The two auto-replies are
+word-for-word identical in structure and differ on exactly the point that decides
+whether your letter can be answered.
+
+## The two categories
+
+**Users (customers/prospects)** — *"we only process and index upon business email
+addresses. If your email address is a personal email address, we can confirm that
+we would not have collected any data related to you."* Genuinely empty for a
+private individual; accept it.
+
+**Journalists and Influencers** — the category that applies to anyone whose byline,
+public profile or published content has been scraped. *"The Cision product collects
+only publicly available contact details and articles and content you have
+published."*
+
+Answer both explicitly, or a truthful "no records" may address only the category
+you did not mean.
+
+## What to ask for
+
+Beyond the contact record: **beat and topic classifications, outlet affiliations,
+and influence/reach/engagement scores.** These are Cision's own inferences, they
+are what subscribers pay for, and they outlive a deleted contact row.
+
+Also ask for platform-level **do-not-contact suppression** — subscribers run
+outreach campaigns through the platform, so suppression stops the email even where
+a record legitimately remains.
+
+## On "it was already public"
+
+> *"The data that we collect is available publicly for anyone to find via any
+> search engine."*
+
+True of the source articles, irrelevant to the request. Concede the point about
+the originals — they are not Cision's to remove — and distinguish the compiled
+profile, the contact details as held, and the derived scores, which are.
+

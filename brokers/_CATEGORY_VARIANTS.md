@@ -296,3 +296,46 @@ clients"), which is unactionable because you cannot know which client uploaded y
   uploaded documents**, not just the contact card. Those identify where you live
   and outlast the job by years.
 
+## Yearbook / reunion sites  (e.g. Classmates)
+
+Publishes **scanned yearbooks** alongside member profiles. Two things make this
+category distinctive:
+
+- The images are usually **photographs of minors**, digitised and published
+  decades later without the subject's involvement or knowledge.
+- Sites frequently hold **unclaimed "placeholder" profiles** generated from
+  yearbook data for people who never registered.
+
+So do not limit the request to registered-member data. Ask explicitly for the
+scanned pages containing your name or photograph, for your name to be removed from
+any index that makes them findable, and for any profile created about you that you
+did not create. Any account will be very old, under an email and address long
+abandoned — historic identifiers do all the work here.
+
+## Healthcare list rental  (e.g. Complete Medical Lists)
+
+List brokerage in the health sector. The question worth asking outright: **does any
+record about me carry a health-related attribute** — condition, treatment,
+medication, diagnosis category or "ailment selector"?
+
+Consumers are routinely unaware their rental record carries one, and several state
+statutes treat health-adjacent attributes as sensitive personal information. Asking
+the question directly forces a specific answer instead of a generic confirmation,
+and a "yes" changes the legal footing considerably.
+
+List files refresh from external sources continuously, so ask for a standing
+**suppression file** entry and make them say which they did.
+
+## Automotive in-market intelligence  (e.g. Client Command)
+
+Identifies consumers who look ready to buy a vehicle and sells that to dealerships.
+
+Ask for the **in-market/propensity signal itself**, plus vehicle ownership and
+service records, and any identity-graph or hashed identifier used to match you
+across devices. As with all inference products, the score outlives the contact row
+unless you name it.
+
+The decisive ask: **which dealerships already received your details, and direct
+them to delete.** A lead sitting in a dealer's CRM keeps generating calls and mail
+indefinitely; deleting at source does nothing about it.
+
