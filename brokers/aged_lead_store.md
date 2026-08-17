@@ -50,3 +50,29 @@ record is simply re-acquired on the next list purchase.
 ## Leverage
 Based in **Tustin, California**, so CCPA applies to them directly rather than as a
 courtesy.
+
+## Outcome: confirmed, by email, after an emailed refusal
+
+Resolved better than a deletion would have. The broker wrote:
+
+> *"Your info was not in our database. We added you to suppression file so your
+> info will Not be able to enter our db in future either"*
+
+**Suppression beats deletion here.** This is a lead reseller — its inventory
+turns over constantly as it buys new lists. Deleting a record it does not yet hold
+would achieve nothing; a suppression entry blocks the record on arrival. When
+dealing with any broker whose business is *acquiring* data rather than holding it,
+ask for suppression explicitly.
+
+## Route notes
+
+- `optout@` (the address published in a public data-broker directory) **hard-bounces**.
+  Do not use it. A named individual at the company answers a general business
+  address and processes requests personally, usually same-day.
+- The published position is *"we don't accept deletion or opt-out requests sent to
+  us by email"*, pointing at six online forms. That refusal was answerable — see
+  `_DEFLECTIONS.md` §10.
+- **The forms exclude most of the country.** The required State dropdown lists
+  about twenty states. If yours is missing, the prescribed route cannot be
+  completed at all, and saying so plainly is what got the request actioned.
+

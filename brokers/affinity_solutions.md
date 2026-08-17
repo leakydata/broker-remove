@@ -34,3 +34,25 @@ name-and-address record:
 - Request Details says "please refrain from entering any personal information" —
   odd on a privacy form. Use it for scope and instructions, not identifiers.
 - Two valid domains for their mail: `affinitysolutions.com` and `affinity.solutions`.
+
+## Email is refused; the web form is the only route
+
+Auto-reply, verbatim:
+
+> *"Please note that for privacy and security reasons, Affinity Solutions does not
+> accept privacy requests via email. You can submit a privacy request via our
+> interactive web form."*
+
+No human appears to read the mailbox, so unlike some refusals this one is not
+worth arguing — go to the form.
+
+## The request is not filed until you click the emailed link
+
+The form is OneTrust-hosted. On submission it issues a Request ID by email and
+then requires a second step: an emailed **"Confirm email"** button. Only after
+clicking does the portal say *"Your request is confirmed!"*
+
+A request submitted here sat unverified for roughly a day and was indistinguishable
+from a completed one. Do not close the loop until you have seen the confirmation
+page. See `_SILENT_FAILURES.md` §2.
+

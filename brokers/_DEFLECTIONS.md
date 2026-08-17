@@ -181,3 +181,45 @@ removal tools rather than re-filing with the broker:
 
 - Google: <https://support.google.com/websearch/answer/6349986>
 - Bing: <https://www.bing.com/webmasters/tools/contentremoval>
+
+---
+
+## 10. "We don't accept requests by email" — sometimes answerable by email anyway
+
+The most common refusal in this project, and it is worth one polite push rather
+than immediate surrender. It is a *policy*, not a capability: the mailbox works,
+a human is reading it, and the statutory duty attaches to the request, not to the
+channel it arrived on.
+
+A worked example. A lead broker replied:
+
+> *"We don't accept deletion or opt-out requests sent to us by email. Please use
+> one of the following methods..."*
+
+listing six online forms. The forms had a required State dropdown that **did not
+include the requester's state** — the prescribed route was structurally impossible
+for them. The reply back said exactly that: the forms were attempted, here is the
+field that excludes me, and the request stands. The next message was:
+
+> *"Your info was not in our database. We added you to suppression file so your
+> info will Not be able to enter our db in future either"*
+
+Processed by email, by the same person who had said email was not accepted — and
+the outcome was better than a deletion, because forward suppression stops the
+record ever arriving.
+
+**How to push back, in one short reply:**
+
+1. Confirm you tried their route, and name the specific thing that blocked you.
+   Vague complaints get form letters; a named broken field gets a human.
+2. Note that the obligation follows the request, not the channel.
+3. Restate the request compactly so it can be actioned without re-reading the
+   thread.
+4. Ask for **suppression**, not just deletion.
+
+**When to stop pushing:** if their route genuinely works and merely inconveniences
+you, use it. This is for routes that are broken, exclude you, or demand more
+personal data than the request requires. Some brokers really do route email to an
+unmonitored mailbox and mean it — a second refusal with no human on the other end
+is your answer.
+
