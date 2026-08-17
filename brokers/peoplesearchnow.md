@@ -21,6 +21,17 @@ Known family members so far: **TruePeopleSearch, FamilyTreeNow, PeopleSearchNow*
 When a refusal email matches one you have seen before, try the sibling's route
 straight away rather than re-deriving it.
 
+## Form-filling notes
+
+The form **collapses back to its initial state** if the top-level category dropdown
+loses its value — which hides every field below it and looks like a total reset.
+The lower dropdowns usually retain their values in the DOM even when hidden, so
+re-selecting only the top dropdown restores the rest rather than requiring a full
+refill. Check before retyping everything.
+
+Fill in stages with a screenshot after each, rather than chaining a long batch: a
+chained sequence reported success on every step here while the form silently reset.
+
 ## Gotchas
 - **A Google vignette ad overlay can hijack the page mid-fill and reset every
   field.** It appeared here after the form was fully populated and wiped it. Fill
