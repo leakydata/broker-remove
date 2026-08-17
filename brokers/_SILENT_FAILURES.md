@@ -135,7 +135,36 @@ forms, click *one* field by coordinate, confirm the caret is in it, then **Tab**
 between the rest — tab order is immune to the page moving. Verify dropdowns
 individually; they often accept programmatic input when text boxes don't.
 
-## 5. The request was filed against the wrong identity
+## 5. The auto-reply was a gate, not a receipt
+
+**Seen on:** Brandwatch
+
+An automated acknowledgement that reads like confirmation, and is actually a
+conditional. Buried below the reassuring opening:
+
+> *"If you believe we have collected data on you as a Content Author, please reply
+> to this email indicating your desire for us to proceed with your request."*
+
+Nothing happens until you reply. The message opens with *"We confirm receipt of
+your message"*, which is exactly the artifact you were told to wait for, so it is
+easy to file as done and move on. The request then sits unprocessed forever, with
+a receipt in the mailbox proving it was received.
+
+The tell is a conditional in the auto-reply: *if you believe... please reply*, *if
+this applies to you, complete...*, *should you wish to proceed, confirm...* Any
+sentence putting the next move back on you means the request is parked.
+
+**Check:** read auto-replies to the end rather than filing them on the strength of
+the first line. If the body asks for anything at all — a confirmation, a category
+choice, a form — the request is not filed until you supply it.
+
+**Related trap: the category fork.** The same reply split requests into "Users"
+(indexed on business email) and "Content Authors" (indexed on social handle), with
+different scopes and different answers. Picking the wrong one, or not picking, gets
+a truthful "we hold no data about you" that only answers the category you did not
+mean. Answer both explicitly.
+
+## 6. The request was filed against the wrong identity
 
 Brokers index on prior addresses and disconnected phone numbers as much as current
 ones. A request naming only your current details can be honestly processed and
