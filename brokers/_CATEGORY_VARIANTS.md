@@ -370,3 +370,55 @@ Worth stating plainly why this matters: a movement history reveals home,
 workplace, place of worship and medical visits without any of them being labelled.
 Treat every prior address as a candidate home-location match.
 
+## Court / criminal record republishers  (e.g. CourtCaseFinder)
+
+Distinct from ordinary people-search, and the framing matters because the obvious
+deflection — *"these are public records, we cannot alter them"* — is true and
+irrelevant.
+
+Concede it up front: **you are not asking them to change a court record.** You are
+asking them to delete *their republished copy*, their index entry, and whatever
+makes it findable by name. Say so explicitly and the deflection has nowhere to go.
+
+The argument worth making: **aggregation is the harm.** A docket entry in a county
+system is practically obscure; the same entry indexed by name and surfaced by a
+search engine is not. That transformation is the product.
+
+One more ask, specific to this category and worth making even if you expect
+nothing: **if a record is indexed under your name but concerns someone else**, that
+is a more serious problem than a privacy request. With a common name it is a real
+possibility. Ask what they hold and on what basis they associated it with you —
+a misattributed criminal record is worth finding out about.
+
+Records refresh from bulk public-record feeds, so suppression matters more here
+than almost anywhere: a one-time removal reappears at the next import.
+
+## Real-estate investor lead platforms  (e.g. Connected Investors)
+
+Identify property owners and sell owner contact details and "motivated seller"
+leads to investors. Three things to name:
+
+- **The classification is the personal information.** Labels like distressed,
+  pre-foreclosure, probate, vacancy, high-equity or "motivated" are inferences
+  about an identifiable person, and they are what is being sold. Ask which
+  categories were applied to you.
+- **Skip-traced contact details are not public record.** Where a phone number or
+  email has been appended to a property record by a vendor, ask for the appended
+  data and the linkage deleted — and **which vendor supplied it**, which gives you
+  the next broker to write to.
+- **Leads already distributed keep working.** Ask which subscribers received a
+  lead and that they be directed to delete. The copy in an investor's list is what
+  generates the calls and texts.
+
+## Acquired research businesses  (e.g. Coalition Greenwich / CRISIL)
+
+Where a research or data business has been acquired, records commonly survive
+under the **predecessor's** data model rather than the acquirer's. Address the
+letter to whichever entity holds the data and ask explicitly that records held
+under any predecessor or affiliated name be searched — otherwise a truthful search
+of current systems misses them entirely.
+
+For panel and interview businesses, ask for the **responses**, not just the contact
+record, and for a research-recruitment suppression entry so you are not
+re-approached for future studies.
+
