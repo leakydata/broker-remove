@@ -81,8 +81,20 @@ page still congratulated you. Two ways this goes wrong:
   signature produces a confident-looking rejection, not an obvious parse error,
   which is what makes it worth knowing.
 
+**A variant that is easy to miss: the step is a *reply*, not a click.** One
+broker's flow ends:
+
+> *"An acknowledgement email will be sent to you immediately. **Respond to the
+> acknowledgement email to authorize removal of your listing. If you do not
+> respond to the email, your listing will NOT be removed.**"*
+
+There is no link. An acknowledgement that reads like a receipt is the thing you
+must answer, and treating it as confirmation leaves the listing live while your
+mailbox appears to say otherwise.
+
 **Check:** if a broker mentions verification at all, the request is not filed
 until you have seen a page that says something like *"Your request is confirmed!"*
+— or, in this variant, until you have **sent a reply**.
 Treat submission and verification as **one** step. Search the mailbox for pending
 "confirm your email" mail before every session — an unclicked link is a request
 you have already paid for and not collected.
