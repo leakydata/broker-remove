@@ -290,3 +290,41 @@ reasons to keep them out deliberately:
 During an inbox pass, skip their mail the same way you skip newsletters. If a
 removal service needs attention, it is a separate task with a separate goal.
 
+---
+
+## The "verified" flag that verified nothing
+
+Worth recording because it happened here, in this project's own data, and it is
+the same shape as everything else in this file.
+
+The registry has an `email_verified` field, and `validate.py` warns when a
+guessable address (`privacy@`, `support@`, `info@`) is used **without** it. Sound
+design. But the bulk import set `email_verified: true` on every scraped entry —
+**504 of 536 addresses claimed a verification nobody had performed.** The check
+keyed off the flag, so it passed on all of them and reported zero warnings.
+
+The cost showed up in a single afternoon: **four of thirteen** such addresses
+hard-bounced with 550, and in three of those cases the site published no
+alternative address at all. Each bounce is a request that never existed while
+looking, in the tracker, exactly like one awaiting a reply.
+
+**The general rule: a boolean that defaults to the reassuring value is worse than
+no boolean.** It converts "unknown" into "fine" everywhere at once, and it does so
+silently, which is precisely when nobody looks again.
+
+**The fix, and what makes it stick:**
+
+- `email_verified` now means *there is positive evidence this address accepts
+  mail* — a reply, an acknowledgement, a ticket reference — derived from the
+  tracker rather than asserted at import.
+- A companion field, `email_verified_by`, records *how*: `delivery_evidence`,
+  `privacy_policy`, `state_registry`, `broker_reply`, or `bounced`. `validate.py`
+  now warns when `email_verified` is true with no `email_verified_by`, so the flag
+  cannot be set again without saying on what basis.
+- Rerunning that gave 166 verified on evidence and 368 honestly unverified, and
+  turned 0 warnings into 281.
+
+**When you inherit a dataset, check what its confidence fields were populated
+from before trusting them.** A field named `verified` invites you to skip exactly
+the check it was meant to prompt.
+

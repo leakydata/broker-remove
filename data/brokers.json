@@ -26,6 +26,7 @@
       "email_verified": true,
       "optery_slug": "beenverified",
       "notes": "Deeper opt-out endpoint than /app/optout/search.",
+      "email_verified_by": "delivery_evidence",
       "source": "curated"
     },
     {
@@ -61,6 +62,8 @@
       "needs_email_confirm": false,
       "notes": "Dedicated DSR portal - better than emailing privacy@. Major marketing aggregator.",
       "optery_slug": "epsilon",
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence",
       "source": "curated"
     },
     {
@@ -145,6 +148,8 @@
       "email_to": "privacy@mylife.com",
       "needs_email_confirm": false,
       "optery_slug": "mylife",
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence",
       "source": "curated"
     },
     {
@@ -172,6 +177,7 @@
       "email_to": "removals@radaris.com",
       "email_verified": true,
       "optery_slug": "radaris",
+      "email_verified_by": "delivery_evidence",
       "source": "curated"
     },
     {
@@ -186,6 +192,7 @@
       "email_to": "privacy@spokeo.com",
       "email_verified": true,
       "optery_slug": "spokeo",
+      "email_verified_by": "delivery_evidence",
       "source": "curated"
     },
     {
@@ -210,6 +217,7 @@
       "email_to": "support@truepeoplesearch.com",
       "email_verified": true,
       "optery_slug": "truepeoplesearch",
+      "email_verified_by": "delivery_evidence",
       "source": "curated"
     },
     {
@@ -237,6 +245,7 @@
       "email_to": "privacyrequest@whitepages.com",
       "email_verified": true,
       "optery_slug": "whitepages",
+      "email_verified_by": "delivery_evidence",
       "source": "curated"
     },
     {
@@ -384,6 +393,7 @@
       "email_to": "support@familytreenow.com",
       "email_verified": true,
       "optery_slug": "familytreenow",
+      "email_verified_by": "delivery_evidence",
       "source": "curated"
     },
     {
@@ -419,6 +429,7 @@
       "email_to": "consumerrequest@melissa.com",
       "email_verified": true,
       "optery_slug": "melissa",
+      "email_verified_by": "delivery_evidence",
       "source": "curated"
     },
     {
@@ -432,6 +443,7 @@
       "email_to": "support@nuwber.com",
       "email_verified": true,
       "optery_slug": "nuwber",
+      "email_verified_by": "delivery_evidence",
       "source": "curated"
     },
     {
@@ -522,6 +534,7 @@
       "email_to": "optout@thatsthem.com",
       "email_verified": true,
       "optery_slug": "thatsthem",
+      "email_verified_by": "delivery_evidence",
       "source": "curated"
     },
     {
@@ -570,6 +583,7 @@
       "email_to": "priorityoptout@intelius.com",
       "email_verified": true,
       "optery_slug": "addresses-com",
+      "email_verified_by": "delivery_evidence",
       "source": "curated"
     },
     {
@@ -661,6 +675,7 @@
       "email_to": "support@checkpeople.com",
       "email_verified": true,
       "optery_slug": "checkpeople",
+      "email_verified_by": "delivery_evidence",
       "source": "curated"
     },
     {
@@ -761,6 +776,7 @@
       "email_to": "privacy@infotracer.com",
       "email_verified": true,
       "optery_slug": "infotracer",
+      "email_verified_by": "delivery_evidence",
       "source": "curated"
     },
     {
@@ -785,6 +801,7 @@
       "email_to": "support@neighborwho.com",
       "email_verified": true,
       "optery_slug": "neighborwho",
+      "email_verified_by": "delivery_evidence",
       "source": "curated"
     },
     {
@@ -796,6 +813,8 @@
       "optout_url": "https://www.officialusa.com/",
       "email_to": "info@officialusa.com",
       "needs_email_confirm": false,
+      "email_verified": false,
+      "email_verified_by": "bounced",
       "source": "curated"
     },
     {
@@ -819,6 +838,7 @@
       "email_to": "privacy@ownerly.com",
       "email_verified": true,
       "optery_slug": "ownerly",
+      "email_verified_by": "delivery_evidence",
       "source": "curated"
     },
     {
@@ -832,6 +852,7 @@
       "email_to": "support@peoplesearchnow.zendesk.com",
       "email_verified": true,
       "optery_slug": "peoplesearchnow",
+      "email_verified_by": "delivery_evidence",
       "source": "curated"
     },
     {
@@ -865,8 +886,9 @@
       "optout_url": "https://rehold.com/optout",
       "needs_email_confirm": false,
       "email_to": "support@rehold.com",
-      "email_verified": true,
+      "email_verified": false,
       "optery_slug": "rehold",
+      "email_verified_by": "bounced",
       "source": "curated"
     },
     {
@@ -938,6 +960,7 @@
       "email_to": "support@veripages.com",
       "email_verified": true,
       "optery_slug": "veripages",
+      "email_verified_by": "delivery_evidence",
       "source": "curated"
     },
     {
@@ -964,7 +987,8 @@
       "source": "optery_scrape",
       "optery_slug": "33-mile-radius",
       "email_to": "privacy@33mileradius.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "33across",
@@ -977,7 +1001,8 @@
       "source": "optery_scrape",
       "optery_slug": "33across",
       "email_to": "privacy@33across.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "360_media_direct",
@@ -990,7 +1015,8 @@
       "source": "optery_scrape",
       "optery_slug": "360-media-direct",
       "email_to": "privacy@360mediadirect.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "411_com",
@@ -1003,7 +1029,8 @@
       "source": "optery_scrape",
       "optery_slug": "411-com",
       "email_to": "support@whitepages.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "aberdeen",
@@ -1027,6 +1054,7 @@
       "email_verified": true,
       "needs_email_confirm": false,
       "notes": "Confirmed a removal without a direct request from us - reached them via downstream propagation from a lead-network request. Education lead generation.",
+      "email_verified_by": "delivery_evidence",
       "source": "curated"
     },
     {
@@ -1040,7 +1068,8 @@
       "source": "optery_scrape",
       "optery_slug": "ace-agents",
       "email_to": "admin@aceagents.ai",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "ach_address_clearing_house",
@@ -1053,7 +1082,8 @@
       "source": "optery_scrape",
       "optery_slug": "ach-address-clearing-house",
       "email_to": "privacy@achcoop.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "ad_direct",
@@ -1066,7 +1096,8 @@
       "source": "optery_scrape",
       "optery_slug": "ad-direct",
       "email_to": "customerservice@addirectinc.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "addresssearch_com",
@@ -1090,7 +1121,8 @@
       "source": "optery_scrape",
       "optery_slug": "adttribution",
       "email_to": "info@adttribution.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "affinity_answers",
@@ -1103,7 +1135,8 @@
       "source": "optery_scrape",
       "optery_slug": "affinity-answers",
       "email_to": "dataprivacy@affinityanswers.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "affinity_solutions",
@@ -1116,7 +1149,8 @@
       "source": "optery_scrape",
       "optery_slug": "affinity-solutions",
       "email_to": "privacy@affinitysolutions.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "affordable_background_checks",
@@ -1141,7 +1175,8 @@
       "optery_slug": "aged-lead-store",
       "email_to": "privacy_requests@nextwavemarketingstrategies.com",
       "email_verified": true,
-      "notes": "Aged Lead Store = Next Wave Marketing Strategies Inc, 15527 Jasmine Place, Tustin CA 92782, 888-238-9283. optout@nextwavemarketingstrategies.com HARD BOUNCES (550) despite being the address published in broker directories - use privacy_requests@ or customercare@ from their own privacy policy. California-based, so CCPA applies directly."
+      "notes": "Aged Lead Store = Next Wave Marketing Strategies Inc, 15527 Jasmine Place, Tustin CA 92782, 888-238-9283. optout@nextwavemarketingstrategies.com HARD BOUNCES (550) despite being the address published in broker directories - use privacy_requests@ or customercare@ from their own privacy policy. California-based, so CCPA applies directly.",
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "agr_marketing_solutions",
@@ -1154,7 +1189,8 @@
       "source": "optery_scrape",
       "optery_slug": "agr-marketing-solutions",
       "email_to": "info@agrmarketingsolutions.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "aidentified",
@@ -1168,7 +1204,8 @@
       "optery_slug": "aidentified",
       "email_to": "privacy@aidentified.com",
       "email_verified": true,
-      "notes": "Direct delete-my-data form; note their email route also works without re-filing."
+      "notes": "Direct delete-my-data form; note their email route also works without re-filing.",
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "alabama_arrests",
@@ -1181,7 +1218,8 @@
       "source": "optery_scrape",
       "optery_slug": "alabama-arrests",
       "email_to": "privacy@infotracer.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "alabamacourtrecords_us",
@@ -1194,7 +1232,8 @@
       "source": "optery_scrape",
       "optery_slug": "alabamacourtrecords-us",
       "email_to": "privacy@courtrecords.us",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "alarmscalifornia",
@@ -1207,7 +1246,8 @@
       "source": "optery_scrape",
       "optery_slug": "alarmscalifornia",
       "email_to": "contact@licensedata.org",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "alaska_arrests",
@@ -1220,7 +1260,8 @@
       "source": "optery_scrape",
       "optery_slug": "alaska-arrests",
       "email_to": "privacy@infotracer.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "alaskacourtrecords_us",
@@ -1233,7 +1274,8 @@
       "source": "optery_scrape",
       "optery_slug": "alaskacourtrecords-us",
       "email_to": "privacy@courtrecords.us",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "alesco_data",
@@ -1246,7 +1288,8 @@
       "source": "optery_scrape",
       "optery_slug": "alesco-data",
       "email_to": "info@alescodata.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "all_biz",
@@ -1259,7 +1302,8 @@
       "source": "optery_scrape",
       "optery_slug": "all-biz",
       "email_to": "webmaster@allbiz.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "alliant",
@@ -1272,7 +1316,8 @@
       "source": "optery_scrape",
       "optery_slug": "alliant",
       "email_to": "compliance@alliantdata.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "allpeople",
@@ -1285,7 +1330,8 @@
       "source": "optery_scrape",
       "optery_slug": "allpeople",
       "email_to": "webmaster@allpeople.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "alphonso",
@@ -1298,7 +1344,8 @@
       "source": "optery_scrape",
       "optery_slug": "alphonso",
       "email_to": "compliance@lgads.tv",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "american_city_business_journals",
@@ -1311,7 +1358,8 @@
       "source": "optery_scrape",
       "optery_slug": "american-city-business-journals",
       "email_to": "PrivacyPolicyCoordinator@bizjournals.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "americaphonebook",
@@ -1335,7 +1383,8 @@
       "source": "optery_scrape",
       "optery_slug": "amplemarket",
       "email_to": "privacy@amplemarket.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "ampliz",
@@ -1348,7 +1397,8 @@
       "category": "b2b",
       "source": "privacyinsightsolutions",
       "email_to": "info@ampliz.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "anchor",
@@ -1361,7 +1411,8 @@
       "source": "optery_scrape",
       "optery_slug": "anchor",
       "email_to": "privacyteam@anchorcomputer.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "andrews_wharton",
@@ -1374,7 +1425,8 @@
       "source": "optery_scrape",
       "optery_slug": "andrews-wharton",
       "email_to": "privacy@andrewswharton.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "anteriad",
@@ -1387,7 +1439,8 @@
       "source": "optery_scrape",
       "optery_slug": "anteriad",
       "email_to": "privacy@anteriad.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "appily",
@@ -1400,7 +1453,8 @@
       "source": "optery_scrape",
       "optery_slug": "appily",
       "email_to": "privacy@eab.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "areacode_lookup",
@@ -1424,7 +1478,8 @@
       "source": "optery_scrape",
       "optery_slug": "arity",
       "email_to": "privacy@arity.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "arizona_arrests",
@@ -1437,7 +1492,8 @@
       "source": "optery_scrape",
       "optery_slug": "arizona-arrests",
       "email_to": "privacy@infotracer.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "arizonacourtrecords_us",
@@ -1450,7 +1506,8 @@
       "source": "optery_scrape",
       "optery_slug": "arizonacourtrecords-us",
       "email_to": "privacy@courtrecords.us",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "arkansas_arrests",
@@ -1463,7 +1520,8 @@
       "source": "optery_scrape",
       "optery_slug": "arkansas-arrests",
       "email_to": "privacy@infotracer.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "arkansascourtrecords_us",
@@ -1476,7 +1534,8 @@
       "source": "optery_scrape",
       "optery_slug": "arkansascourtrecords-us",
       "email_to": "privacy@courtrecords.us",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "arrestwarrant_org",
@@ -1489,7 +1548,8 @@
       "source": "optery_scrape",
       "optery_slug": "arrestwarrant-org",
       "email_to": "support@verifyrecords.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "aspire_north",
@@ -1502,7 +1562,8 @@
       "source": "optery_scrape",
       "optery_slug": "aspire-north",
       "email_to": "privacy@aspire-north.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "atdata",
@@ -1515,7 +1576,8 @@
       "source": "optery_scrape",
       "optery_slug": "atdata",
       "email_to": "privacy@atdata.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "attribits",
@@ -1528,7 +1590,8 @@
       "source": "optery_scrape",
       "optery_slug": "attribits",
       "email_to": "compliance@allgoodmediagroup.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "audience_acuity",
@@ -1541,7 +1604,8 @@
       "source": "optery_scrape",
       "optery_slug": "audience-acuity",
       "email_to": "privacy@audienceacuity.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "audiencerate",
@@ -1554,7 +1618,8 @@
       "source": "optery_scrape",
       "optery_slug": "audiencerate",
       "email_to": "privacy@audiencerate.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "awl",
@@ -1567,7 +1632,8 @@
       "source": "optery_scrape",
       "optery_slug": "awl",
       "email_to": "onlineops@awl.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "background_hawk",
@@ -1591,7 +1657,8 @@
       "source": "optery_scrape",
       "optery_slug": "backgroundcheckers",
       "email_to": "support@backgroundcheckers.net",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "bdo",
@@ -1604,7 +1671,8 @@
       "source": "optery_scrape",
       "optery_slug": "bdo",
       "email_to": "privacy@bdo.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "belardi_wong",
@@ -1617,7 +1685,8 @@
       "source": "optery_scrape",
       "optery_slug": "belardi-wong",
       "email_to": "privacy.officer@belardiwong.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "big_village",
@@ -1630,7 +1699,8 @@
       "source": "optery_scrape",
       "optery_slug": "big-village",
       "email_to": "dpo_US@big-village.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "billtrust",
@@ -1643,8 +1713,9 @@
       "source": "optery_scrape",
       "optery_slug": "billtrust",
       "email_to": "privacyrequests@billtrust.com",
-      "email_verified": true,
-      "notes": "Published privacy@ address is an internal-only Microsoft 365 distribution group and rejects all external mail with 550 5.7.133. The working address, given in their privacy policy, is privacyrequests@billtrust.com."
+      "email_verified": false,
+      "notes": "Published privacy@ address is an internal-only Microsoft 365 distribution group and rejects all external mail with 550 5.7.133. The working address, given in their privacy policy, is privacyrequests@billtrust.com.",
+      "email_verified_by": "bounced"
     },
     {
       "id": "birdeye",
@@ -1657,7 +1728,8 @@
       "source": "optery_scrape",
       "optery_slug": "birdeye",
       "email_to": "privacy@birdeye.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "bizarchive",
@@ -1670,7 +1742,8 @@
       "source": "optery_scrape",
       "optery_slug": "bizarchive",
       "email_to": "webmaster@bizarchive.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "blue_action",
@@ -1683,7 +1756,8 @@
       "source": "optery_scrape",
       "optery_slug": "blue-action",
       "email_to": "privacy@blueaction.io",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "brandwatch",
@@ -1696,7 +1770,8 @@
       "source": "optery_scrape",
       "optery_slug": "brandwatch",
       "email_to": "privacy@brandwatch.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "brightswipe",
@@ -1709,7 +1784,8 @@
       "source": "optery_scrape",
       "optery_slug": "brightswipe",
       "email_to": "support@brightswipe.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "brooksim",
@@ -1722,7 +1798,8 @@
       "source": "optery_scrape",
       "optery_slug": "brooksim",
       "email_to": "privacy@brooksim.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "buildertrend",
@@ -1735,7 +1812,8 @@
       "source": "optery_scrape",
       "optery_slug": "buildertrend",
       "email_to": "privacy@buildertrend.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "builtwith",
@@ -1759,7 +1837,8 @@
       "source": "optery_scrape",
       "optery_slug": "bumper",
       "email_to": "privacy@bumper.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "business_watch_network",
@@ -1772,7 +1851,8 @@
       "source": "optery_scrape",
       "optery_slug": "business-watch-network",
       "email_to": "support@bizwatchnetwork.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "cadent",
@@ -1785,7 +1865,8 @@
       "source": "optery_scrape",
       "optery_slug": "cadent",
       "email_to": "privacy@cadent.tv",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "california_arrests",
@@ -1831,7 +1912,8 @@
       "source": "optery_scrape",
       "optery_slug": "californiabrokers-org",
       "email_to": "contact@licensedata.org",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "californiacourtrecords_us",
@@ -1844,7 +1926,8 @@
       "source": "optery_scrape",
       "optery_slug": "californiacourtrecords-us",
       "email_to": "privacy@courtrecords.us",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "californiaengineering_org",
@@ -1857,7 +1940,8 @@
       "source": "optery_scrape",
       "optery_slug": "californiaengineering-org",
       "email_to": "contact@licensedata.org",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "californialicensing_org",
@@ -1870,7 +1954,8 @@
       "source": "optery_scrape",
       "optery_slug": "californialicensing-org",
       "email_to": "contact@licensedata.org",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "californianursing_org",
@@ -1883,7 +1968,8 @@
       "source": "optery_scrape",
       "optery_slug": "californianursing-org",
       "email_to": "contact@licensedata.org",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "californiapharmacists_org",
@@ -1896,7 +1982,8 @@
       "source": "optery_scrape",
       "optery_slug": "californiapharmacists-org",
       "email_to": "contact@licensedata.org",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "callersmart",
@@ -1909,7 +1996,8 @@
       "source": "optery_scrape",
       "optery_slug": "callersmart",
       "email_to": "feedback@callersmart.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "careerbuilder",
@@ -1922,7 +2010,8 @@
       "source": "optery_scrape",
       "optery_slug": "careerbuilder",
       "email_to": "riskandcompliance@careerbuilder.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "catalyze_ai",
@@ -1935,7 +2024,8 @@
       "source": "optery_scrape",
       "optery_slug": "catalyze-ai",
       "email_to": "privacy@catalyzeai.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "censia",
@@ -1948,7 +2038,8 @@
       "source": "optery_scrape",
       "optery_slug": "censia",
       "email_to": "support@censia.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "checksecrets",
@@ -1961,7 +2052,8 @@
       "source": "optery_scrape",
       "optery_slug": "checksecrets",
       "email_to": "support@checksecrets.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "choreograph",
@@ -1974,7 +2066,8 @@
       "source": "optery_scrape",
       "optery_slug": "choreograph",
       "email_to": "privacy@choreograph.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "cint",
@@ -1987,7 +2080,8 @@
       "source": "optery_scrape",
       "optery_slug": "cint",
       "email_to": "privacy@Cint.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "cision",
@@ -2000,7 +2094,8 @@
       "source": "optery_scrape",
       "optery_slug": "cision",
       "email_to": "privacy@cision.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "city_data_com",
@@ -2013,7 +2108,8 @@
       "source": "optery_scrape",
       "optery_slug": "city-data-com",
       "email_to": "others@city-data.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "citydata",
@@ -2026,8 +2122,9 @@
       "source": "optery_scrape",
       "optery_slug": "citydata",
       "email_to": "dpo@citydata.ai",
-      "email_verified": true,
-      "notes": "Published privacy@citydata.ai is a Google Workspace group closed to external posting and bounces ('the group you tried to contact (privacy) may not exist, or you may not have permission to post'). Use dpo@citydata.ai from their privacy page instead."
+      "email_verified": false,
+      "notes": "Published privacy@citydata.ai is a Google Workspace group closed to external posting and bounces ('the group you tried to contact (privacy) may not exist, or you may not have permission to post'). Use dpo@citydata.ai from their privacy page instead.",
+      "email_verified_by": "bounced"
     },
     {
       "id": "civis",
@@ -2040,7 +2137,8 @@
       "source": "optery_scrape",
       "optery_slug": "civis",
       "email_to": "dataprotection@civisanalytics.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "claritas",
@@ -2053,7 +2151,8 @@
       "source": "optery_scrape",
       "optery_slug": "claritas",
       "email_to": "privacyinfo@claritas.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "classmates_com",
@@ -2066,7 +2165,8 @@
       "source": "optery_scrape",
       "optery_slug": "classmates-com",
       "email_to": "privacy@classmates.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "client_command",
@@ -2079,7 +2179,8 @@
       "source": "optery_scrape",
       "optery_slug": "client-command",
       "email_to": "privacy@ClientCommand.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "cml_medical",
@@ -2092,7 +2193,8 @@
       "source": "optery_scrape",
       "optery_slug": "cml-medical",
       "email_to": "info@completemedicallists.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "coalition_greenwich",
@@ -2105,7 +2207,8 @@
       "source": "optery_scrape",
       "optery_slug": "coalition-greenwich",
       "email_to": "privacy1@crisil.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "cognism",
@@ -2118,7 +2221,8 @@
       "source": "optery_scrape",
       "optery_slug": "cognism",
       "email_to": "privacy@cognism.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "colorado_arrests",
@@ -2131,7 +2235,8 @@
       "source": "optery_scrape",
       "optery_slug": "colorado-arrests",
       "email_to": "privacy@infotracer.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "coloradocourtrecords_us",
@@ -2144,7 +2249,8 @@
       "source": "optery_scrape",
       "optery_slug": "coloradocourtrecords-us",
       "email_to": "privacy@courtrecords.us",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "coloradoresidentdirectory",
@@ -2168,7 +2274,8 @@
       "source": "optery_scrape",
       "optery_slug": "compile",
       "email_to": "privacy@compile.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "complementics",
@@ -2181,7 +2288,8 @@
       "source": "optery_scrape",
       "optery_slug": "complementics",
       "email_to": "Privacy@complementics.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "confidentialphonelookup",
@@ -2194,7 +2302,8 @@
       "source": "optery_scrape",
       "optery_slug": "confidentialphonelookup",
       "email_to": "confidentialphonelookup@gmail.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "connected_investors",
@@ -2207,7 +2316,8 @@
       "source": "optery_scrape",
       "optery_slug": "connected-investors",
       "email_to": "dataprivacy@connectedinvestors.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "connecticut_arrests",
@@ -2220,7 +2330,8 @@
       "source": "optery_scrape",
       "optery_slug": "connecticut-arrests",
       "email_to": "privacy@infotracer.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "connecticut_resident_directory",
@@ -2244,7 +2355,8 @@
       "source": "optery_scrape",
       "optery_slug": "connecticutcourtrecords-us",
       "email_to": "privacy@courtrecords.us",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "connext_digital",
@@ -2257,7 +2369,9 @@
       "source": "optery_scrape",
       "optery_slug": "connext-digital",
       "email_to": "privacy@connextdigital.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": "bounced",
+      "notes": "Published address hard-bounces (550); no alternative published."
     },
     {
       "id": "consider",
@@ -2270,7 +2384,8 @@
       "source": "optery_scrape",
       "optery_slug": "consider",
       "email_to": "support@consider.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "contractorscalifornia_org",
@@ -2283,7 +2398,8 @@
       "source": "optery_scrape",
       "optery_slug": "contractorscalifornia-org",
       "email_to": "contact@licensedata.org",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "converge",
@@ -2296,7 +2412,8 @@
       "source": "optery_scrape",
       "optery_slug": "converge",
       "email_to": "info@convergemarketing.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "convex",
@@ -2309,7 +2426,8 @@
       "source": "optery_scrape",
       "optery_slug": "convex",
       "email_to": "support@convexlabs.io",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "corporationwiki",
@@ -2333,7 +2451,8 @@
       "source": "optery_scrape",
       "optery_slug": "courtcasefinder",
       "email_to": "privacy@courtcasefinder.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "courtrecords_us",
@@ -2346,7 +2465,8 @@
       "source": "optery_scrape",
       "optery_slug": "courtrecords-us",
       "email_to": "privacy@courtrecords.us",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "criminal_com",
@@ -2359,7 +2479,8 @@
       "source": "optery_scrape",
       "optery_slug": "criminal-com",
       "email_to": "feedback@criminal.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "criminaldatacheck",
@@ -2372,7 +2493,9 @@
       "source": "optery_scrape",
       "optery_slug": "criminaldatacheck",
       "email_to": "support@criminaldatacheck.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": "bounced",
+      "notes": "Published address hard-bounces (550); no alternative published."
     },
     {
       "id": "criminalrecords_com",
@@ -2385,7 +2508,8 @@
       "source": "optery_scrape",
       "optery_slug": "criminalrecords-com",
       "email_to": "support@mailer.intelius.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "crosswalk_technologies",
@@ -2398,7 +2522,8 @@
       "source": "optery_scrape",
       "optery_slug": "crosswalk-technologies",
       "email_to": "privacy@crosswalknyc.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "crustdata",
@@ -2422,7 +2547,8 @@
       "source": "optery_scrape",
       "optery_slug": "cyndx",
       "email_to": "privacy@cyndx.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "d_dots",
@@ -2435,7 +2561,9 @@
       "source": "optery_scrape",
       "optery_slug": "d-dots",
       "email_to": "support@ddotslab.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": "bounced",
+      "notes": "Published address hard-bounces (550); no alternative published."
     },
     {
       "id": "data_delivers",
@@ -2448,7 +2576,8 @@
       "source": "optery_scrape",
       "optery_slug": "data-delivers",
       "email_to": "privacy@datadelivers.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "data_direct_marketing",
@@ -2461,7 +2590,9 @@
       "source": "optery_scrape",
       "optery_slug": "data-direct-marketing",
       "email_to": "info@datadirectmarketing.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": "bounced",
+      "notes": "Published address hard-bounces (550); no alternative published."
     },
     {
       "id": "data_trust",
@@ -2474,7 +2605,8 @@
       "source": "optery_scrape",
       "optery_slug": "data-trust",
       "email_to": "info@thedatatrust.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "dataline",
@@ -2487,7 +2619,8 @@
       "source": "optery_scrape",
       "optery_slug": "dataline",
       "email_to": "privacy.officer@datalinedata.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "datamasters",
@@ -2500,7 +2633,8 @@
       "source": "optery_scrape",
       "optery_slug": "datamasters",
       "email_to": "sales@datamasters.org",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "datarade",
@@ -2524,7 +2658,8 @@
       "source": "optery_scrape",
       "optery_slug": "datasys",
       "email_to": "support@datasys.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "dealerx",
@@ -2537,7 +2672,8 @@
       "source": "optery_scrape",
       "optery_slug": "dealerx",
       "email_to": "privacy@dealerx.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "decide",
@@ -2550,7 +2686,8 @@
       "source": "optery_scrape",
       "optery_slug": "decide",
       "email_to": "privacy@decide.co",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "decisionlinks",
@@ -2563,7 +2700,8 @@
       "source": "optery_scrape",
       "optery_slug": "decisionlinks",
       "email_to": "support@decisionlinks.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "deep_root",
@@ -2576,7 +2714,8 @@
       "source": "optery_scrape",
       "optery_slug": "deep-root",
       "email_to": "notice@tunnldata.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "deep_sync",
@@ -2589,7 +2728,8 @@
       "source": "optery_scrape",
       "optery_slug": "deep-sync",
       "email_to": "privacy.compliance@deepsync.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "delaware_arrests",
@@ -2602,7 +2742,8 @@
       "source": "optery_scrape",
       "optery_slug": "delaware-arrests",
       "email_to": "privacy@infotracer.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "delawarecourtrecords_us",
@@ -2615,7 +2756,8 @@
       "source": "optery_scrape",
       "optery_slug": "delawarecourtrecords-us",
       "email_to": "privacy@courtrecords.us",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "deluxe",
@@ -2628,7 +2770,8 @@
       "source": "optery_scrape",
       "optery_slug": "deluxe",
       "email_to": "privacy@deluxe.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "dentistscalifornia_org",
@@ -2641,7 +2784,8 @@
       "source": "optery_scrape",
       "optery_slug": "dentistscalifornia-org",
       "email_to": "contact@licensedata.org",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "dexknows_com",
@@ -2654,7 +2798,8 @@
       "source": "optery_scrape",
       "optery_slug": "dexknows-com",
       "email_to": "clientcareemail@thryv.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "diablomedia",
@@ -2667,7 +2812,8 @@
       "source": "optery_scrape",
       "optery_slug": "diablomedia",
       "email_to": "privacy@diablomedia.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "digdev",
@@ -2680,7 +2826,8 @@
       "source": "optery_scrape",
       "optery_slug": "digdev",
       "email_to": "info@Digdev.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "digital_media_solutions",
@@ -2693,7 +2840,8 @@
       "source": "optery_scrape",
       "optery_slug": "digital-media-solutions",
       "email_to": "autodelete@dmsgroup.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "disco_network",
@@ -2706,7 +2854,8 @@
       "source": "optery_scrape",
       "optery_slug": "disco-network",
       "email_to": "support@disconetwork.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "distribution_processing_center",
@@ -2719,7 +2868,8 @@
       "source": "optery_scrape",
       "optery_slug": "distribution-processing-center",
       "email_to": "customerservice@distpc.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "dmdatabases_com",
@@ -2732,7 +2882,8 @@
       "source": "optery_scrape",
       "optery_slug": "dmdatabases-com",
       "email_to": "optout@dmdatabases.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "dobsearch_com",
@@ -2756,7 +2907,8 @@
       "source": "optery_scrape",
       "optery_slug": "driveniq",
       "email_to": "support@drivenIQ.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "dtn",
@@ -2769,7 +2921,8 @@
       "source": "optery_scrape",
       "optery_slug": "dtn",
       "email_to": "privacy@dtn.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "dynata",
@@ -2782,7 +2935,8 @@
       "source": "optery_scrape",
       "optery_slug": "dynata",
       "email_to": "privacy@dynata.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "e_republic",
@@ -2795,7 +2949,8 @@
       "source": "optery_scrape",
       "optery_slug": "e-republic",
       "email_to": "privacy@erepublic.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "eab",
@@ -2808,7 +2963,8 @@
       "source": "optery_scrape",
       "optery_slug": "eab",
       "email_to": "privacy@eab.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "easybackgroundchecks",
@@ -2821,7 +2977,8 @@
       "source": "optery_scrape",
       "optery_slug": "easybackgroundchecks",
       "email_to": "priorityoptout@intelius.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "email_industries",
@@ -2834,7 +2991,8 @@
       "source": "optery_scrape",
       "optery_slug": "email-industries",
       "email_to": "privacy@emailindustries.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "emailmovers",
@@ -2847,7 +3005,8 @@
       "source": "optery_scrape",
       "optery_slug": "emailmovers",
       "email_to": "compliance@emailmovers.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "enigma",
@@ -2860,7 +3019,8 @@
       "source": "optery_scrape",
       "optery_slug": "enigma",
       "email_to": "privacy@enigma.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "eprodirect",
@@ -2895,7 +3055,8 @@
       "source": "optery_scrape",
       "optery_slug": "evorra",
       "email_to": "privacy@evorra.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "exact_customer",
@@ -2908,7 +3069,8 @@
       "source": "optery_scrape",
       "optery_slug": "exact-customer",
       "email_to": "privacy@exactcustomer.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "exact_data",
@@ -2921,7 +3083,8 @@
       "source": "optery_scrape",
       "optery_slug": "exact-data",
       "email_to": "privacyteam@data-axle.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "experience",
@@ -2934,7 +3097,8 @@
       "source": "optery_scrape",
       "optery_slug": "experience",
       "email_to": "privacy@experience.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "factori",
@@ -2947,7 +3111,8 @@
       "source": "optery_scrape",
       "optery_slug": "factori",
       "email_to": "privacy@factori.ai",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "familyrelatives",
@@ -2971,7 +3136,8 @@
       "source": "optery_scrape",
       "optery_slug": "fastbackgroundcheck",
       "email_to": "support@fastbackgroundcheck.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "fastpeoplesearch_io",
@@ -2984,7 +3150,8 @@
       "source": "optery_scrape",
       "optery_slug": "fastpeoplesearch-io",
       "email_to": "support@fastpeoplesearch.io",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "fha_mortgage_finder",
@@ -2997,7 +3164,8 @@
       "source": "optery_scrape",
       "optery_slug": "fha-mortgage-finder",
       "email_to": "unusubscribcfmf@seememail.net",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "findem",
@@ -3010,7 +3178,8 @@
       "source": "optery_scrape",
       "optery_slug": "findem",
       "email_to": "privacy@findem.ai",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "findpeoplefast_net",
@@ -3023,7 +3192,8 @@
       "source": "optery_scrape",
       "optery_slug": "findpeoplefast-net",
       "email_to": "support@findpeoplefast.net",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "firearmscalifornia_org",
@@ -3036,7 +3206,8 @@
       "source": "optery_scrape",
       "optery_slug": "firearmscalifornia-org",
       "email_to": "contact@licensedata.org",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "firmfuel",
@@ -3049,7 +3220,8 @@
       "source": "optery_scrape",
       "optery_slug": "firmfuel",
       "email_to": "privacy@benefitsbunny.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "five_by_five",
@@ -3062,7 +3234,8 @@
       "source": "optery_scrape",
       "optery_slug": "five-by-five",
       "email_to": "privacy@5x5coop.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "flashintel",
@@ -3075,7 +3248,8 @@
       "source": "optery_scrape",
       "optery_slug": "flashintel",
       "email_to": "privacy@myflashcloud.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "florida_arrests",
@@ -3088,7 +3262,8 @@
       "source": "optery_scrape",
       "optery_slug": "florida-arrests",
       "email_to": "privacy@infotracer.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "florida_residents",
@@ -3123,7 +3298,8 @@
       "source": "optery_scrape",
       "optery_slug": "floridacourtrecords-us",
       "email_to": "privacy@courtrecords.us",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "floridaparcels_com",
@@ -3136,7 +3312,8 @@
       "source": "optery_scrape",
       "optery_slug": "floridaparcels-com",
       "email_to": "info@areaplot.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "fmadata",
@@ -3149,7 +3326,8 @@
       "source": "optery_scrape",
       "optery_slug": "fmadata",
       "email_to": "privacy@fmadata.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "focus_usa",
@@ -3162,7 +3340,8 @@
       "source": "optery_scrape",
       "optery_slug": "focus-usa",
       "email_to": "privacy@focus-usa.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "forddirect",
@@ -3175,7 +3354,8 @@
       "source": "optery_scrape",
       "optery_slug": "forddirect-2",
       "email_to": "dprivacy@forddirect.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "fourleaf",
@@ -3188,7 +3368,8 @@
       "source": "optery_scrape",
       "optery_slug": "fourleaf",
       "email_to": "privacy@fourleafdata.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "foursquare",
@@ -3201,7 +3382,8 @@
       "source": "optery_scrape",
       "optery_slug": "foursquare",
       "email_to": "privacy@foursquare.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "fourthwall",
@@ -3214,7 +3396,8 @@
       "source": "optery_scrape",
       "optery_slug": "fourthwall",
       "email_to": "privacypolicy@fourthwall.tv",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "fraiser",
@@ -3227,7 +3410,8 @@
       "source": "optery_scrape",
       "optery_slug": "fraiser",
       "email_to": "privacy@fraiser.org",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "free_people_directory",
@@ -3251,7 +3435,8 @@
       "source": "optery_scrape",
       "optery_slug": "freebackgroundcheck-org",
       "email_to": "support@freebackgroundcheck.org",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "freebackgroundchecks_com",
@@ -3264,7 +3449,8 @@
       "source": "optery_scrape",
       "optery_slug": "freebackgroundchecks-com",
       "email_to": "privacy@freebackgroundchecks.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "freepeoplesearch",
@@ -3277,7 +3463,8 @@
       "source": "optery_scrape",
       "optery_slug": "freepeoplesearch",
       "email_to": "support@freepeoplesearch.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "freephonetracer",
@@ -3290,7 +3477,8 @@
       "source": "optery_scrape",
       "optery_slug": "freephonetracer",
       "email_to": "privacy@beenverified.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "freewheel",
@@ -3303,7 +3491,8 @@
       "source": "optery_scrape",
       "optery_slug": "freewheel",
       "email_to": "FW_California_Consumers_CCPA_Data_Requests@freewheel.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "fushia_media",
@@ -3316,7 +3505,8 @@
       "source": "optery_scrape",
       "optery_slug": "fushia-media",
       "email_to": "Support@fushiamedia.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "g2_stack",
@@ -3340,7 +3530,8 @@
       "source": "optery_scrape",
       "optery_slug": "gale",
       "email_to": "privacy@cengage.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "georgia_arrests",
@@ -3353,7 +3544,8 @@
       "source": "optery_scrape",
       "optery_slug": "georgia-arrests",
       "email_to": "privacy@infotracer.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "georgiacourtrecords_us",
@@ -3366,7 +3558,8 @@
       "source": "optery_scrape",
       "optery_slug": "georgiacourtrecords-us",
       "email_to": "privacy@courtrecords.us",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "giant_partners",
@@ -3379,7 +3572,8 @@
       "source": "optery_scrape",
       "optery_slug": "giant-partners",
       "email_to": "compliance@giantpartners.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "glad_i_know",
@@ -3392,7 +3586,8 @@
       "source": "optery_scrape",
       "optery_slug": "glad-i-know",
       "email_to": "privacy@gladiknow.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "governmentregistry_org",
@@ -3405,7 +3600,8 @@
       "source": "optery_scrape",
       "optery_slug": "governmentregistry-org",
       "email_to": "privacy@governmentregistry.org",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "govwarrantsearch_org",
@@ -3429,7 +3625,8 @@
       "source": "optery_scrape",
       "optery_slug": "grassroots-analytics",
       "email_to": "compliance@grassrootsanalytics.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "grayhair",
@@ -3442,7 +3639,8 @@
       "source": "optery_scrape",
       "optery_slug": "grayhair",
       "email_to": "privacy@grayhairsoftware.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "groundtruth",
@@ -3455,7 +3653,8 @@
       "source": "optery_scrape",
       "optery_slug": "groundtruth",
       "email_to": "requests@groundtruth.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "growbots",
@@ -3468,7 +3667,8 @@
       "source": "optery_scrape",
       "optery_slug": "growbots",
       "email_to": "privacy@growbots.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "h1",
@@ -3481,7 +3681,8 @@
       "source": "optery_scrape",
       "optery_slug": "h1",
       "email_to": "inquiries@h1insights.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "hawaii_arrests",
@@ -3494,7 +3695,8 @@
       "source": "optery_scrape",
       "optery_slug": "hawaii-arrests",
       "email_to": "privacy@infotracer.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "hawaiicourtrecords_us",
@@ -3507,7 +3709,8 @@
       "source": "optery_scrape",
       "optery_slug": "hawaiicourtrecords-us",
       "email_to": "privacy@courtrecords.us",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "heartbeat_ai",
@@ -3520,7 +3723,8 @@
       "source": "optery_scrape",
       "optery_slug": "heartbeat-ai",
       "email_to": "contact@heartbeat.ai",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "hireez",
@@ -3533,7 +3737,8 @@
       "source": "optery_scrape",
       "optery_slug": "hireez",
       "email_to": "privacy@hireez.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "homeowner_marketing_services",
@@ -3546,7 +3751,8 @@
       "source": "optery_scrape",
       "optery_slug": "homeowner-marketing-services",
       "email_to": "dnm@homeownersmarketingservices.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "i360",
@@ -3559,7 +3765,8 @@
       "source": "optery_scrape",
       "optery_slug": "i360",
       "email_to": "privacy@i-360.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "id5",
@@ -3572,7 +3779,8 @@
       "source": "optery_scrape",
       "optery_slug": "id5",
       "email_to": "privacy@id5.io",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "idaho_arrests",
@@ -3585,7 +3793,8 @@
       "source": "optery_scrape",
       "optery_slug": "idaho-arrests",
       "email_to": "privacy@infotracer.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "idahocourtrecords_us",
@@ -3598,7 +3807,8 @@
       "source": "optery_scrape",
       "optery_slug": "idahocourtrecords-us",
       "email_to": "privacy@courtrecords.us",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "idcaller",
@@ -3622,7 +3832,8 @@
       "source": "optery_scrape",
       "optery_slug": "idcrawl",
       "email_to": "support@idcrawl.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "idm",
@@ -3635,7 +3846,8 @@
       "source": "optery_scrape",
       "optery_slug": "idm",
       "email_to": "privacy@idm.us.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "idstrong",
@@ -3648,7 +3860,8 @@
       "source": "optery_scrape",
       "optery_slug": "idstrong",
       "email_to": "privacy@idstrong.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "illinois_arrests",
@@ -3661,7 +3874,8 @@
       "source": "optery_scrape",
       "optery_slug": "illinois-arrests",
       "email_to": "privacy@infotracer.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "illinoiscourtrecords_us",
@@ -3674,7 +3888,8 @@
       "source": "optery_scrape",
       "optery_slug": "illinoiscourtrecords-us",
       "email_to": "privacy@courtrecords.us",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "illumin",
@@ -3687,7 +3902,8 @@
       "source": "optery_scrape",
       "optery_slug": "illumin",
       "email_to": "privacy@illumin.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "indiana_arrests",
@@ -3700,7 +3916,8 @@
       "source": "optery_scrape",
       "optery_slug": "indiana-arrests",
       "email_to": "privacy@infotracer.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "indianacourtrecords_us",
@@ -3713,7 +3930,8 @@
       "source": "optery_scrape",
       "optery_slug": "indianacourtrecords-us",
       "email_to": "privacy@courtrecords.us",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "infofree",
@@ -3726,7 +3944,8 @@
       "source": "optery_scrape",
       "optery_slug": "infofree",
       "email_to": "privacy@infofree.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "infopay",
@@ -3739,7 +3958,8 @@
       "source": "optery_scrape",
       "optery_slug": "infopay",
       "email_to": "privacy@infopay.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "information_com",
@@ -3752,7 +3972,8 @@
       "source": "optery_scrape",
       "optery_slug": "information-com",
       "email_to": "contact@information.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "inmatessearcher",
@@ -3765,7 +3986,8 @@
       "source": "optery_scrape",
       "optery_slug": "inmatessearcher",
       "email_to": "support@inmatessearcher.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "inmobi",
@@ -3778,7 +4000,8 @@
       "source": "optery_scrape",
       "optery_slug": "inmobi",
       "email_to": "privacy@inmobi.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "instantcheckspy",
@@ -3791,7 +4014,8 @@
       "source": "optery_scrape",
       "optery_slug": "instantcheckspy",
       "email_to": "privacy@truthfinder.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "intentgine",
@@ -3804,7 +4028,8 @@
       "source": "optery_scrape",
       "optery_slug": "intentgine",
       "email_to": "privacy@intentgine.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "intranet_quorum",
@@ -3817,7 +4042,8 @@
       "source": "optery_scrape",
       "optery_slug": "intranet-quorum",
       "email_to": "privacy@leidos.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "iowa_arrests",
@@ -3830,7 +4056,8 @@
       "source": "optery_scrape",
       "optery_slug": "iowa-arrests",
       "email_to": "privacy@infotracer.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "iowacourtrecords_us",
@@ -3843,7 +4070,8 @@
       "source": "optery_scrape",
       "optery_slug": "iowacourtrecords-us",
       "email_to": "privacy@courtrecords.us",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "ispot_tv",
@@ -3856,7 +4084,8 @@
       "source": "optery_scrape",
       "optery_slug": "ispot-tv",
       "email_to": "privacy@ispot.tv",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "iwave",
@@ -3869,7 +4098,8 @@
       "source": "optery_scrape",
       "optery_slug": "iwave",
       "email_to": "privacy@iwave.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "j_d_power",
@@ -3882,7 +4112,8 @@
       "source": "optery_scrape",
       "optery_slug": "j-d-power",
       "email_to": "jdpowerprivacy@jdpa.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "kansas_arrests",
@@ -3895,7 +4126,8 @@
       "source": "optery_scrape",
       "optery_slug": "kansas-arrests",
       "email_to": "privacy@infotracer.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "kansascourtrecords_us",
@@ -3908,7 +4140,8 @@
       "source": "optery_scrape",
       "optery_slug": "kansascourtrecords-us",
       "email_to": "privacy@courtrecords.us",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "kaspr_io",
@@ -3921,7 +4154,8 @@
       "source": "optery_scrape",
       "optery_slug": "kaspr-io",
       "email_to": "privacy@kaspr.io",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "kb_synergy",
@@ -3934,7 +4168,8 @@
       "source": "optery_scrape",
       "optery_slug": "kb-synergy",
       "email_to": "Compliance@KBSynergy.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "kentucky_arrests",
@@ -3947,7 +4182,8 @@
       "source": "optery_scrape",
       "optery_slug": "kentucky-arrests",
       "email_to": "privacy@infotracer.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "kentuckycourtrecords_us",
@@ -3960,7 +4196,8 @@
       "source": "optery_scrape",
       "optery_slug": "kentuckycourtrecords-us",
       "email_to": "privacy@courtrecords.us",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "key_marketing_advantage",
@@ -3973,7 +4210,8 @@
       "source": "optery_scrape",
       "optery_slug": "key-marketing-advantage",
       "email_to": "privacy@keymarketingadvantage.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "keyopinionleaders",
@@ -3986,7 +4224,8 @@
       "source": "optery_scrape",
       "optery_slug": "keyopinionleaders",
       "email_to": "privacy@keyopinionleaders.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "keyword_connects",
@@ -3999,7 +4238,8 @@
       "source": "optery_scrape",
       "optery_slug": "keyword-connects",
       "email_to": "privacy@keywordconnects.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "kids_live_safe",
@@ -4012,7 +4252,8 @@
       "source": "optery_scrape",
       "optery_slug": "kids-live-safe",
       "email_to": "support@kidslivesafe.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "komodo_health",
@@ -4025,7 +4266,8 @@
       "source": "optery_scrape",
       "optery_slug": "komodo-health",
       "email_to": "trust-and-safety@komodohealth.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "kyc_data",
@@ -4038,7 +4280,8 @@
       "source": "optery_scrape",
       "optery_slug": "kyc-data",
       "email_to": "consumers@kycdata.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "lead411",
@@ -4051,7 +4294,8 @@
       "source": "optery_scrape",
       "optery_slug": "lead411",
       "email_to": "lead411_privacy@l4mail.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "lead_me_media",
@@ -4064,7 +4308,8 @@
       "source": "optery_scrape",
       "optery_slug": "lead-me-media",
       "email_to": "CCPA@LeadMeMedia.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "leadership_connect",
@@ -4077,7 +4322,8 @@
       "source": "optery_scrape",
       "optery_slug": "leadership-connect",
       "email_to": "privacy@leadershipconnect.io",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "leadiq",
@@ -4090,7 +4336,8 @@
       "source": "optery_scrape",
       "optery_slug": "leadiq",
       "email_to": "privacy@leadiq.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "leadpost",
@@ -4103,7 +4350,8 @@
       "source": "optery_scrape",
       "optery_slug": "leadpost",
       "email_to": "delete_mydata@LeadPost.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "leadsmarket_com",
@@ -4116,7 +4364,8 @@
       "source": "optery_scrape",
       "optery_slug": "leadsmarket-com",
       "email_to": "support@leadsmarket.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "leadspace",
@@ -4129,7 +4378,8 @@
       "source": "optery_scrape",
       "optery_slug": "leadspace",
       "email_to": "compliance_privacy@leadspace.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "leadzod",
@@ -4142,7 +4392,8 @@
       "source": "optery_scrape",
       "optery_slug": "leadzod",
       "email_to": "Privacy@leadzod.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "licensefiles",
@@ -4155,7 +4406,8 @@
       "source": "optery_scrape",
       "optery_slug": "licensefiles",
       "email_to": "support@licensefiles.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "lighthouse_list",
@@ -4168,7 +4420,8 @@
       "source": "optery_scrape",
       "optery_slug": "lighthouse-list",
       "email_to": "privacy@lighthouselist.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "limeleads",
@@ -4181,7 +4434,8 @@
       "source": "optery_scrape",
       "optery_slug": "limeleads",
       "email_to": "privacy@limeleads.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "lionshare",
@@ -4194,7 +4448,8 @@
       "source": "optery_scrape",
       "optery_slug": "lionshare",
       "email_to": "webmaster@lionsharemarketing.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "list_service_direct",
@@ -4207,7 +4462,8 @@
       "source": "optery_scrape",
       "optery_slug": "list-service-direct",
       "email_to": "dataremoval@listservicedirect.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "lists_direct_mail_solutions",
@@ -4220,7 +4476,8 @@
       "source": "optery_scrape",
       "optery_slug": "lists-direct-mail-solutions",
       "email_to": "info@lists-inc.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "listsonline",
@@ -4233,7 +4490,8 @@
       "source": "optery_scrape",
       "optery_slug": "listsonline",
       "email_to": "privacyofficer@listsonline.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "live_data_technologies",
@@ -4246,7 +4504,8 @@
       "source": "optery_scrape",
       "optery_slug": "live-data-technologies",
       "email_to": "remove@livedatatechnologies.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "liveintent",
@@ -4259,7 +4518,8 @@
       "source": "optery_scrape",
       "optery_slug": "liveintent",
       "email_to": "privacy@liveintent.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "lizdev",
@@ -4272,7 +4532,8 @@
       "source": "optery_scrape",
       "optery_slug": "lizdev",
       "email_to": "liz@lizdev.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "local_crime_news",
@@ -4285,7 +4546,8 @@
       "source": "optery_scrape",
       "optery_slug": "local-crime-news",
       "email_to": "removalrequests@unitedreporting.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "locatesmarter",
@@ -4298,7 +4560,8 @@
       "source": "optery_scrape",
       "optery_slug": "locatesmarter",
       "email_to": "privacy@locatesmarter.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "lookups_io",
@@ -4311,7 +4574,8 @@
       "source": "optery_scrape",
       "optery_slug": "lookups-io",
       "email_to": "support@lookups.io",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "louisiana_arrests",
@@ -4324,7 +4588,8 @@
       "source": "optery_scrape",
       "optery_slug": "louisiana-arrests",
       "email_to": "privacy@infotracer.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "louisianacourtrecords_us",
@@ -4337,7 +4602,8 @@
       "source": "optery_scrape",
       "optery_slug": "louisianacourtrecords-us",
       "email_to": "privacy@courtrecords.us",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "m1_data",
@@ -4350,7 +4616,8 @@
       "source": "optery_scrape",
       "optery_slug": "m1-data",
       "email_to": "service@m1-data.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "magnite",
@@ -4363,7 +4630,8 @@
       "source": "optery_scrape",
       "optery_slug": "magnite",
       "email_to": "dpo@magnite.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "maine_arrests",
@@ -4376,7 +4644,8 @@
       "source": "optery_scrape",
       "optery_slug": "maine-arrests",
       "email_to": "privacy@infotracer.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "mainecourtrecords_us",
@@ -4389,7 +4658,8 @@
       "source": "optery_scrape",
       "optery_slug": "mainecourtrecords-us",
       "email_to": "privacy@courtrecords.us",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "marinus_analytics",
@@ -4402,7 +4672,8 @@
       "source": "optery_scrape",
       "optery_slug": "marinus-analytics",
       "email_to": "privacy@marinusanalytics.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "marketforce",
@@ -4415,7 +4686,8 @@
       "source": "optery_scrape",
       "optery_slug": "marketforce",
       "email_to": "privacy@marketforcecorp.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "marketops",
@@ -4428,7 +4700,8 @@
       "source": "optery_scrape",
       "optery_slug": "marketops",
       "email_to": "privacy@marketops.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "maryland_arrests",
@@ -4441,7 +4714,8 @@
       "source": "optery_scrape",
       "optery_slug": "maryland-arrests",
       "email_to": "privacy@infotracer.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "marylandcourtrecords_us",
@@ -4454,7 +4728,8 @@
       "source": "optery_scrape",
       "optery_slug": "marylandcourtrecords-us",
       "email_to": "privacy@courtrecords.us",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "massachusetsscourtrecords_us",
@@ -4467,7 +4742,8 @@
       "source": "optery_scrape",
       "optery_slug": "massachusetsscourtrecords-us",
       "email_to": "privacy@courtrecords.us",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "massachusetts_arrests",
@@ -4480,7 +4756,8 @@
       "source": "optery_scrape",
       "optery_slug": "massachusetts-arrests",
       "email_to": "privacy@infotracer.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "match_and_append",
@@ -4493,7 +4770,8 @@
       "source": "optery_scrape",
       "optery_slug": "match-and-append",
       "email_to": "privacy@matchandappend.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "matchbook",
@@ -4506,7 +4784,8 @@
       "source": "optery_scrape",
       "optery_slug": "matchbook",
       "email_to": "privacy@matchbookdata.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "mch",
@@ -4519,7 +4798,8 @@
       "source": "optery_scrape",
       "optery_slug": "mch",
       "email_to": "privacy@mchdata.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "media_source_solutions",
@@ -4532,7 +4812,8 @@
       "source": "optery_scrape",
       "optery_slug": "media-source-solutions",
       "email_to": "privacy@mediasourcesolutions.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "mediamath",
@@ -4545,7 +4826,8 @@
       "source": "optery_scrape",
       "optery_slug": "mediamath",
       "email_to": "privacy@mediamath.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "mediasoft",
@@ -4558,7 +4840,8 @@
       "source": "optery_scrape",
       "optery_slug": "mediasoft",
       "email_to": "info@mediasoftstudio.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "mediawallah",
@@ -4571,7 +4854,8 @@
       "source": "optery_scrape",
       "optery_slug": "mediawallah",
       "email_to": "privacy@mediawallah.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "men_stopping_violence",
@@ -4584,7 +4868,8 @@
       "source": "optery_scrape",
       "optery_slug": "men-stopping-violence-2",
       "email_to": "info@menstoppingviolence.org",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "merkle",
@@ -4597,7 +4882,8 @@
       "source": "optery_scrape",
       "optery_slug": "merkle",
       "email_to": "americas.dpo@dentsu.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "michigan_arrests",
@@ -4610,7 +4896,8 @@
       "source": "optery_scrape",
       "optery_slug": "michigan-arrests",
       "email_to": "privacy@infotracer.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "michigan_residents",
@@ -4634,7 +4921,8 @@
       "source": "optery_scrape",
       "optery_slug": "michigancourtrecords-us",
       "email_to": "privacy@courtrecords.us",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "mightyrep",
@@ -4647,7 +4935,8 @@
       "source": "optery_scrape",
       "optery_slug": "mightyrep",
       "email_to": "privacy@MightyRep.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "milestone_marketing_solutions",
@@ -4660,7 +4949,8 @@
       "source": "optery_scrape",
       "optery_slug": "milestone-marketing-solutions",
       "email_to": "privacy@milestonemarketingsolutions.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "mineralholders",
@@ -4673,7 +4963,8 @@
       "source": "optery_scrape",
       "optery_slug": "mineralholders",
       "email_to": "support@mineralholders.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "minerva",
@@ -4686,7 +4977,8 @@
       "source": "optery_scrape",
       "optery_slug": "minerva",
       "email_to": "privacy@minervadata.xyz",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "minnesota_arrests",
@@ -4699,7 +4991,8 @@
       "source": "optery_scrape",
       "optery_slug": "minnesota-arrests",
       "email_to": "privacy@infotracer.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "minnesotacourtrecords_us",
@@ -4712,7 +5005,8 @@
       "source": "optery_scrape",
       "optery_slug": "minnesotacourtrecords-us",
       "email_to": "privacy@courtrecords.us",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "mississippi_arrests",
@@ -4725,7 +5019,8 @@
       "source": "optery_scrape",
       "optery_slug": "mississippi-arrests",
       "email_to": "privacy@infotracer.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "mississippicourtrecords_us",
@@ -4738,7 +5033,8 @@
       "source": "optery_scrape",
       "optery_slug": "mississippicourtrecords-us",
       "email_to": "privacy@courtrecords.us",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "missouri_arrests",
@@ -4751,7 +5047,8 @@
       "source": "optery_scrape",
       "optery_slug": "missouri-arrests",
       "email_to": "privacy@infotracer.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "missouricourtrecords_us",
@@ -4764,7 +5061,8 @@
       "source": "optery_scrape",
       "optery_slug": "missouricourtrecords-us",
       "email_to": "privacy@courtrecords.us",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "mixrank",
@@ -4788,7 +5086,8 @@
       "source": "optery_scrape",
       "optery_slug": "modigie",
       "email_to": "privacy@modigie.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "mogean",
@@ -4801,7 +5100,8 @@
       "source": "optery_scrape",
       "optery_slug": "mogean",
       "email_to": "info@mogean.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "moneybot5000",
@@ -4814,7 +5114,8 @@
       "source": "optery_scrape",
       "optery_slug": "moneybot5000",
       "email_to": "support@moneybot5000.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "montana_arrests",
@@ -4827,7 +5128,8 @@
       "source": "optery_scrape",
       "optery_slug": "montana-arrests",
       "email_to": "privacy@infotracer.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "montanacourtrecords_us",
@@ -4840,7 +5142,8 @@
       "source": "optery_scrape",
       "optery_slug": "montanacourtrecords-us",
       "email_to": "privacy@courtrecords.us",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "mr",
@@ -4853,7 +5156,8 @@
       "source": "optery_scrape",
       "optery_slug": "mr",
       "email_to": "privacy@mrss.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "mugshotlook",
@@ -4866,7 +5170,8 @@
       "source": "optery_scrape",
       "optery_slug": "mugshotlook",
       "email_to": "support@mugshotlook.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "my_renter_checker",
@@ -4879,7 +5184,8 @@
       "source": "optery_scrape",
       "optery_slug": "my-renter-checker",
       "email_to": "MYRENTERCHECKER@GMAIL.COM",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "national_public_data",
@@ -4892,7 +5198,8 @@
       "source": "optery_scrape",
       "optery_slug": "national-public-data",
       "email_to": "support@nationalpublicdata.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "nc_solutions",
@@ -4905,7 +5212,8 @@
       "source": "optery_scrape",
       "optery_slug": "nc-solutions",
       "email_to": "ncs.privacy@ncsolutions.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "nebraska_arrests",
@@ -4918,7 +5226,8 @@
       "source": "optery_scrape",
       "optery_slug": "nebraska-arrests",
       "email_to": "privacy@infotracer.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "nebraskacourtrecords_us",
@@ -4931,7 +5240,8 @@
       "source": "optery_scrape",
       "optery_slug": "nebraskacourtrecords-us",
       "email_to": "privacy@courtrecords.us",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "netwise",
@@ -4944,7 +5254,8 @@
       "source": "optery_scrape",
       "optery_slug": "netwise",
       "email_to": "privacy@netwisedata.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "nevada_arrests",
@@ -4968,7 +5279,8 @@
       "source": "optery_scrape",
       "optery_slug": "nevadacourtrecords-us",
       "email_to": "privacy@courtrecords.us",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "new_hampshire_arrests",
@@ -4981,7 +5293,8 @@
       "source": "optery_scrape",
       "optery_slug": "new-hampshire-arrests",
       "email_to": "privacy@infotracer.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "new_jersey_arrests",
@@ -4994,7 +5307,8 @@
       "source": "optery_scrape",
       "optery_slug": "new-jersey-arrests",
       "email_to": "privacy@infotracer.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "new_mexico_arrests",
@@ -5007,7 +5321,8 @@
       "source": "optery_scrape",
       "optery_slug": "new-mexico-arrests",
       "email_to": "privacy@infotracer.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "new_york_arrests",
@@ -5020,7 +5335,8 @@
       "source": "optery_scrape",
       "optery_slug": "new-york-arrests",
       "email_to": "privacy@infotracer.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "newhampshirecourtrecords_us",
@@ -5033,7 +5349,8 @@
       "source": "optery_scrape",
       "optery_slug": "newhampshirecourtrecords-us",
       "email_to": "privacy@courtrecords.us",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "newjerseycourtrecords_us",
@@ -5046,7 +5363,8 @@
       "source": "optery_scrape",
       "optery_slug": "newjerseycourtrecords-us",
       "email_to": "privacy@courtrecords.us",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "newmexicocourtrecords_us",
@@ -5059,7 +5377,8 @@
       "source": "optery_scrape",
       "optery_slug": "newmexicocourtrecords-us",
       "email_to": "privacy@courtrecords.us",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "newyorkcourtrecords_us",
@@ -5072,7 +5391,8 @@
       "source": "optery_scrape",
       "optery_slug": "newyorkcourtrecords-us",
       "email_to": "privacy@courtrecords.us",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "nexsales",
@@ -5085,7 +5405,8 @@
       "source": "optery_scrape",
       "optery_slug": "nexsales",
       "email_to": "info@rightleads.io",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "nextroll",
@@ -5098,7 +5419,8 @@
       "source": "optery_scrape",
       "optery_slug": "nextroll",
       "email_to": "dpo@nextroll.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "nexxa",
@@ -5111,7 +5433,8 @@
       "source": "optery_scrape",
       "optery_slug": "nexxa",
       "email_to": "Consumerchoice@nexxagroup.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "nfocus",
@@ -5124,7 +5447,8 @@
       "source": "optery_scrape",
       "optery_slug": "nfocus",
       "email_to": "consumer@n-focus.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "nielsen",
@@ -5137,7 +5461,8 @@
       "source": "optery_scrape",
       "optery_slug": "nielsen",
       "email_to": "privacy.department@nielsen.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "njpropertyrecords",
@@ -5150,7 +5475,8 @@
       "source": "optery_scrape",
       "optery_slug": "njpropertyrecords",
       "email_to": "Support@NJPropertyRecords.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "north_carolina_arrests",
@@ -5163,7 +5489,8 @@
       "source": "optery_scrape",
       "optery_slug": "north-carolina-arrests",
       "email_to": "privacy@infotracer.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "north_carolina_residents",
@@ -5187,7 +5514,8 @@
       "source": "optery_scrape",
       "optery_slug": "north-dakota-arrests",
       "email_to": "privacy@infotracer.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "northcarolinacourtrecords_us",
@@ -5200,7 +5528,8 @@
       "source": "optery_scrape",
       "optery_slug": "northcarolinacourtrecords-us",
       "email_to": "privacy@courtrecords.us",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "northcarolinapublicrecords_org",
@@ -5224,7 +5553,8 @@
       "source": "optery_scrape",
       "optery_slug": "northdakotacourtrecords-us",
       "email_to": "privacy@courtrecords.us",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "notariescalifornia_com",
@@ -5237,7 +5567,8 @@
       "source": "optery_scrape",
       "optery_slug": "notariescalifornia-com",
       "email_to": "contact@licensedata.org",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "npi_profile",
@@ -5250,7 +5581,8 @@
       "source": "optery_scrape",
       "optery_slug": "npi-profile",
       "email_to": "contact@nprofile.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "numberguru",
@@ -5263,7 +5595,8 @@
       "source": "optery_scrape",
       "optery_slug": "numberguru",
       "email_to": "support@numberguru.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "numlookup",
@@ -5276,7 +5609,8 @@
       "source": "optery_scrape",
       "optery_slug": "numlookup",
       "email_to": "hello@numlookup.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "ohio_arrests",
@@ -5289,7 +5623,8 @@
       "source": "optery_scrape",
       "optery_slug": "ohio-arrests",
       "email_to": "privacy@infotracer.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "ohio_residents",
@@ -5313,7 +5648,8 @@
       "source": "optery_scrape",
       "optery_slug": "ohiocourtrecords-us",
       "email_to": "privacy@courtrecords.us",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "oklahoma_arrests",
@@ -5326,7 +5662,8 @@
       "source": "optery_scrape",
       "optery_slug": "oklahoma-arrests",
       "email_to": "privacy@infotracer.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "oklahomacourtrecords_us",
@@ -5339,7 +5676,8 @@
       "source": "optery_scrape",
       "optery_slug": "oklahomacourtrecords-us",
       "email_to": "privacy@courtrecords.us",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "oncore_leads",
@@ -5352,7 +5690,8 @@
       "source": "optery_scrape",
       "optery_slug": "oncore-leads",
       "email_to": "leads@oncoreleads.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "onemata",
@@ -5365,7 +5704,8 @@
       "source": "optery_scrape",
       "optery_slug": "onemata",
       "email_to": "privacy@onemata.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "onemodel",
@@ -5378,7 +5718,8 @@
       "source": "optery_scrape",
       "optery_slug": "onemodel",
       "email_to": "privacy@onemodel.co",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "openpeoplesearch",
@@ -5391,7 +5732,8 @@
       "source": "optery_scrape",
       "optery_slug": "openpeoplesearch",
       "email_to": "info@openpeoplesearch.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "openpublicrecords",
@@ -5415,7 +5757,8 @@
       "source": "optery_scrape",
       "optery_slug": "oregon-arrests",
       "email_to": "privacy@infotracer.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "oregoncourtrecords_us",
@@ -5428,7 +5771,8 @@
       "source": "optery_scrape",
       "optery_slug": "oregoncourtrecords-us",
       "email_to": "privacy@courtrecords.us",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "ourstates",
@@ -5452,7 +5796,8 @@
       "source": "optery_scrape",
       "optery_slug": "outbrain",
       "email_to": "privacy@outbrain.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "outreach_io",
@@ -5465,7 +5810,8 @@
       "source": "optery_scrape",
       "optery_slug": "outreach-io",
       "email_to": "security@outreach.io",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "outward_media",
@@ -5478,7 +5824,8 @@
       "source": "optery_scrape",
       "optery_slug": "outward-media",
       "email_to": "privacy@outwardmedia.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "pacificeast",
@@ -5491,7 +5838,8 @@
       "source": "optery_scrape",
       "optery_slug": "pacificeast",
       "email_to": "privacy@pacificeast.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "parade_pet",
@@ -5504,7 +5852,8 @@
       "source": "optery_scrape",
       "optery_slug": "parade-pet",
       "email_to": "hello@goodboystudios.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "paramount_direct_marketing",
@@ -5517,7 +5866,8 @@
       "source": "optery_scrape",
       "optery_slug": "paramount-direct-marketing",
       "email_to": "ccpa@paramountdirectmarketing.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "path2response",
@@ -5530,7 +5880,8 @@
       "source": "optery_scrape",
       "optery_slug": "path2response",
       "email_to": "agents@path2response.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "pbi_research",
@@ -5543,7 +5894,8 @@
       "source": "optery_scrape",
       "optery_slug": "pbi-research",
       "email_to": "CCPARequests@pbinfo.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "pennsylvania_arrests",
@@ -5556,7 +5908,8 @@
       "source": "optery_scrape",
       "optery_slug": "pennsylvania-arrests",
       "email_to": "privacy@infotracer.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "pennsylvaniacourtrecords_us",
@@ -5569,7 +5922,8 @@
       "source": "optery_scrape",
       "optery_slug": "pennsylvaniacourtrecords-us",
       "email_to": "privacy@courtrecords.us",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "people_search_org",
@@ -5582,7 +5936,8 @@
       "source": "optery_scrape",
       "optery_slug": "people-search-org",
       "email_to": "support@peoplesearch.org",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "peoplebyname",
@@ -5595,7 +5950,8 @@
       "source": "optery_scrape",
       "optery_slug": "peoplebyname",
       "email_to": "support@peoplebyname.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "peoplefind_com",
@@ -5619,7 +5975,8 @@
       "source": "optery_scrape",
       "optery_slug": "peoplefinder",
       "email_to": "support@mailer.intelius.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "peoplefindersdaas",
@@ -5632,7 +5989,8 @@
       "source": "optery_scrape",
       "optery_slug": "peoplefindersdaas",
       "email_to": "privacy@peoplefindersdaas.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "peoplelooker",
@@ -5645,7 +6003,8 @@
       "source": "optery_scrape",
       "optery_slug": "peoplelooker",
       "email_to": "support@peoplelooker.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "peoplesearch",
@@ -5658,7 +6017,8 @@
       "source": "optery_scrape",
       "optery_slug": "peoplesearch",
       "email_to": "support@whitepages.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "peoplesearch123",
@@ -5671,7 +6031,8 @@
       "source": "optery_scrape",
       "optery_slug": "peoplesearch123",
       "email_to": "support@peoplesearch123.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "peoplesearcher",
@@ -5684,7 +6045,8 @@
       "source": "optery_scrape",
       "optery_slug": "peoplesearcher",
       "email_to": "support@peoplesearcher.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "peoplesearchusa",
@@ -5697,7 +6059,8 @@
       "source": "optery_scrape",
       "optery_slug": "peoplesearchusa",
       "email_to": "support@peoplesearchUSA.org",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "peoplesmart",
@@ -5710,7 +6073,8 @@
       "source": "optery_scrape",
       "optery_slug": "peoplesmart",
       "email_to": "privacy@peoplesmart.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "peoplewhiz_com",
@@ -5723,7 +6087,8 @@
       "source": "optery_scrape",
       "optery_slug": "peoplewhiz-com",
       "email_to": "support@peoplewhiz.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "peoplewhizr_com",
@@ -5736,7 +6101,8 @@
       "source": "optery_scrape",
       "optery_slug": "peoplewhizr-com",
       "email_to": "support@peoplewhizr.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "peoplewin",
@@ -5760,7 +6126,8 @@
       "source": "optery_scrape",
       "optery_slug": "persistent-id",
       "email_to": "info@Persistent.id",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "personsearchers",
@@ -5786,7 +6153,8 @@
       "source": "optery_scrape",
       "optery_slug": "persopo-com",
       "email_to": "privacy@persopo.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "pharosiq",
@@ -5799,7 +6167,8 @@
       "source": "optery_scrape",
       "optery_slug": "pharosiq",
       "email_to": "privacy@pharosIQ.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "phonebooks_com",
@@ -5812,7 +6181,8 @@
       "source": "optery_scrape",
       "optery_slug": "phonebooks-com",
       "email_to": "support@phonebooks.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "phonenumberinfo_us",
@@ -5825,7 +6195,8 @@
       "source": "optery_scrape",
       "optery_slug": "phonenumberinfo-us",
       "email_to": "info@phonenumberinfo.us",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "phonenumbers_org",
@@ -5838,7 +6209,8 @@
       "source": "optery_scrape",
       "optery_slug": "phonenumbers-org",
       "email_to": "privacy@privacy.phonenumbers.org",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "pitchbook",
@@ -5851,7 +6223,8 @@
       "source": "optery_scrape",
       "optery_slug": "pitchbook-2",
       "email_to": "donotsell@pitchbook.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "plexuss",
@@ -5864,7 +6237,8 @@
       "source": "optery_scrape",
       "optery_slug": "plexuss",
       "email_to": "compliance@plexuss.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "pop_acta",
@@ -5877,7 +6251,8 @@
       "source": "optery_scrape",
       "optery_slug": "pop-acta",
       "email_to": "contact@popacta.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "possiblenow",
@@ -5890,7 +6265,8 @@
       "source": "optery_scrape",
       "optery_slug": "possiblenow",
       "email_to": "privacy@possiblenow.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "postie",
@@ -5903,7 +6279,8 @@
       "source": "optery_scrape",
       "optery_slug": "postie",
       "email_to": "info@postie.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "postpilot",
@@ -5916,7 +6293,8 @@
       "source": "optery_scrape",
       "optery_slug": "postpilot",
       "email_to": "privacy@postpilot.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "precisely",
@@ -5929,7 +6307,8 @@
       "source": "optery_scrape",
       "optery_slug": "precisely",
       "email_to": "privacy@precisely.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "privateeye",
@@ -5942,7 +6321,8 @@
       "source": "optery_scrape",
       "optery_slug": "privateeye",
       "email_to": "support@privateeye.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "privatenumberchecker_com",
@@ -5955,7 +6335,8 @@
       "source": "optery_scrape",
       "optery_slug": "privatenumberchecker-com",
       "email_to": "support@privatenumberchecker.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "privaterecords",
@@ -5968,7 +6349,8 @@
       "source": "optery_scrape",
       "optery_slug": "privaterecords",
       "email_to": "support@privaterecords.net",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "privatereports",
@@ -5981,7 +6363,8 @@
       "source": "optery_scrape",
       "optery_slug": "privatereports",
       "email_to": "support@privatereports.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "privco",
@@ -5994,7 +6377,8 @@
       "source": "optery_scrape",
       "optery_slug": "privco",
       "email_to": "privacy@privco.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "propertychecker",
@@ -6007,7 +6391,8 @@
       "source": "optery_scrape",
       "optery_slug": "propertychecker",
       "email_to": "privacy@propertychecker.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "propertyiq",
@@ -6020,7 +6405,8 @@
       "source": "optery_scrape",
       "optery_slug": "propertyiq",
       "email_to": "support@propertyiq.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "propertyradar",
@@ -6033,7 +6419,8 @@
       "source": "optery_scrape",
       "optery_slug": "propertyradar",
       "email_to": "privacy@propertyradar.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "propertyreach",
@@ -6046,7 +6433,8 @@
       "source": "optery_scrape",
       "optery_slug": "propertyreach",
       "email_to": "compliance@propertyreach.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "propertyrecord_com",
@@ -6059,7 +6447,8 @@
       "source": "optery_scrape",
       "optery_slug": "propertyrecord-com",
       "email_to": "andy@Propertyrecord.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "propertyrecs",
@@ -6072,7 +6461,8 @@
       "source": "optery_scrape",
       "optery_slug": "propertyrecs",
       "email_to": "privacy@propertyrecs.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "prospeo",
@@ -6096,7 +6486,8 @@
       "source": "optery_scrape",
       "optery_slug": "public-data-check",
       "email_to": "support@publicdatacheck.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "public_information_services",
@@ -6109,7 +6500,8 @@
       "source": "optery_scrape",
       "optery_slug": "public-information-services",
       "email_to": "support@publicinfoservices.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "public_libraries",
@@ -6122,7 +6514,8 @@
       "source": "optery_scrape",
       "optery_slug": "public-libraries",
       "email_to": "netadmin@publiclibraries.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "public_record_reports",
@@ -6135,7 +6528,8 @@
       "source": "optery_scrape",
       "optery_slug": "public-record-reports",
       "email_to": "support@publicrecordreports.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "publicrecordcenter_com",
@@ -6159,7 +6553,8 @@
       "source": "optery_scrape",
       "optery_slug": "publicrecords-com",
       "email_to": "support@mailer.intelius.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "publicrecords_us",
@@ -6172,7 +6567,8 @@
       "source": "optery_scrape",
       "optery_slug": "publicrecords-us",
       "email_to": "support@publicrecords.us",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "publicsearcher",
@@ -6185,7 +6581,8 @@
       "source": "optery_scrape",
       "optery_slug": "publicsearcher",
       "email_to": "support@publicsearcher.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "pwc",
@@ -6198,7 +6595,8 @@
       "source": "optery_scrape",
       "optery_slug": "pwc",
       "email_to": "US_Privacy_Office@pwc.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "quad",
@@ -6211,7 +6609,8 @@
       "source": "optery_scrape",
       "optery_slug": "quad",
       "email_to": "Compliancedept@quad.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "qualcomm",
@@ -6224,7 +6623,8 @@
       "source": "optery_scrape",
       "optery_slug": "qualcomm",
       "email_to": "privacy@qualcomm.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "qualfon",
@@ -6237,7 +6637,8 @@
       "source": "optery_scrape",
       "optery_slug": "qualfon",
       "email_to": "consumerprivacy@qualfon.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "quick_people_trace",
@@ -6250,7 +6651,8 @@
       "source": "optery_scrape",
       "optery_slug": "quick-people-trace",
       "email_to": "clients@quickpeopletrace.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "quick_public_records",
@@ -6263,7 +6665,8 @@
       "source": "optery_scrape",
       "optery_slug": "quick-public-records",
       "email_to": "support@quickpublicrecords.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "quientelefono",
@@ -6276,7 +6679,8 @@
       "source": "optery_scrape",
       "optery_slug": "quientelefono",
       "email_to": "abusecommentphone@protonmail.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "reach_marketing",
@@ -6289,7 +6693,8 @@
       "source": "optery_scrape",
       "optery_slug": "reach-marketing",
       "email_to": "info@reachmarketing.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "real_performance_marketing",
@@ -6302,7 +6707,8 @@
       "source": "optery_scrape",
       "optery_slug": "real-performance-marketing",
       "email_to": "ConsumerInquiries@RPMleader.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "reallygreatrate",
@@ -6315,7 +6721,8 @@
       "source": "optery_scrape",
       "optery_slug": "reallygreatrate",
       "email_to": "ccpa@rgrmarketing.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "realpeoplesearch",
@@ -6328,7 +6735,8 @@
       "source": "optery_scrape",
       "optery_slug": "realpeoplesearch",
       "email_to": "support@realpeoplesearch.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "realsource_data",
@@ -6341,7 +6749,8 @@
       "source": "optery_scrape",
       "optery_slug": "realsource-data",
       "email_to": "privacy@realsourcedata.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "realtyhop_com",
@@ -6354,7 +6763,8 @@
       "source": "optery_scrape",
       "optery_slug": "realtyhop-com",
       "email_to": "privacy-realtyhop@renthop.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "recordsfinder",
@@ -6367,7 +6777,8 @@
       "source": "optery_scrape",
       "optery_slug": "recordsfinder",
       "email_to": "privacy@recordsfinder.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "recordspage",
@@ -6391,7 +6802,8 @@
       "source": "optery_scrape",
       "optery_slug": "recordsquarry",
       "email_to": "help@truthfinder.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "recruitbot",
@@ -6404,7 +6816,8 @@
       "source": "optery_scrape",
       "optery_slug": "recruitbot",
       "email_to": "privacy@recruitbot.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "redbird_direct",
@@ -6417,7 +6830,8 @@
       "source": "optery_scrape",
       "optery_slug": "redbird-direct",
       "email_to": "privacy@redbirddirect.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "redi_data",
@@ -6430,7 +6844,8 @@
       "source": "optery_scrape",
       "optery_slug": "redi-data",
       "email_to": "privacy@redidata.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "remodeling_com",
@@ -6443,7 +6858,8 @@
       "source": "optery_scrape",
       "optery_slug": "remodeling-com",
       "email_to": "privacy@remodeling.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "reonomy",
@@ -6456,7 +6872,8 @@
       "source": "optery_scrape",
       "optery_slug": "reonomy",
       "email_to": "support@reonomy.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "resonate",
@@ -6469,7 +6886,8 @@
       "source": "optery_scrape",
       "optery_slug": "resonate",
       "email_to": "privacy@resonate.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "retention_com",
@@ -6482,7 +6900,8 @@
       "source": "optery_scrape",
       "optery_slug": "retention-com",
       "email_to": "support@retention.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "rev",
@@ -6495,7 +6914,8 @@
       "source": "optery_scrape",
       "optery_slug": "rev",
       "email_to": "privacy@getrev.ai",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "reveal_phone_owner",
@@ -6508,7 +6928,8 @@
       "source": "optery_scrape",
       "optery_slug": "reveal-phone-owner",
       "email_to": "support@revealphoneowner.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "revelio_labs",
@@ -6521,7 +6942,8 @@
       "source": "optery_scrape",
       "optery_slug": "revelio-labs",
       "email_to": "info@reveliolabs.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "reversephone",
@@ -6534,7 +6956,8 @@
       "source": "optery_scrape",
       "optery_slug": "reversephone",
       "email_to": "privacy@reversephone.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "reversephonelookup",
@@ -6547,7 +6970,8 @@
       "source": "optery_scrape",
       "optery_slug": "reversephonelookup",
       "email_to": "support@mailer.intelius.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "rhetorik",
@@ -6560,7 +6984,8 @@
       "source": "optery_scrape",
       "optery_slug": "rhetorik",
       "email_to": "privacy@rhetorik.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "rhode_island_arrests",
@@ -6573,7 +6998,8 @@
       "source": "optery_scrape",
       "optery_slug": "rhode-island-arrests",
       "email_to": "privacy@infotracer.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "rhodeislandcourtrecord_us",
@@ -6586,7 +7012,8 @@
       "source": "optery_scrape",
       "optery_slug": "rhodeislandcourtrecord-us",
       "email_to": "privacy@courtrecords.us",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "roc_advertising",
@@ -6599,7 +7026,8 @@
       "source": "optery_scrape",
       "optery_slug": "roc-advertising",
       "email_to": "dataprivacy_rocadvertising@simpleoptoutcompliance.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "round_sky",
@@ -6612,7 +7040,8 @@
       "source": "optery_scrape",
       "optery_slug": "round-sky",
       "email_to": "legal@roundsky.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "scanbuy",
@@ -6625,7 +7054,8 @@
       "source": "optery_scrape",
       "optery_slug": "scanbuy",
       "email_to": "privacy@scanbuy.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "scraping_robot",
@@ -6638,7 +7068,8 @@
       "source": "optery_scrape",
       "optery_slug": "scraping-robot",
       "email_to": "support@scrapingrobot.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "sealedrecords",
@@ -6651,7 +7082,8 @@
       "source": "optery_scrape",
       "optery_slug": "sealedrecords",
       "email_to": "support@sealedrecords.net",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "seamless_ai",
@@ -6664,7 +7096,8 @@
       "source": "optery_scrape",
       "optery_slug": "seamless-ai",
       "email_to": "privacy@seamlessleads.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "search_quarry",
@@ -6677,7 +7110,8 @@
       "source": "optery_scrape",
       "optery_slug": "search-quarry",
       "email_to": "privacy@searchquarry.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "searchpeoplefree_net",
@@ -6690,7 +7124,8 @@
       "source": "optery_scrape",
       "optery_slug": "searchpeoplefree-net",
       "email_to": "support@searchpeoplefree.net",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "searchpublicrecords_com",
@@ -6703,7 +7138,8 @@
       "source": "optery_scrape",
       "optery_slug": "searchpublicrecords-com",
       "email_to": "support@searchpublicrecords.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "searchsystems_public_records",
@@ -6716,7 +7152,8 @@
       "source": "optery_scrape",
       "optery_slug": "searchsystems-public-records",
       "email_to": "webmaster@searchsystems.net",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "searchusapeople",
@@ -6740,7 +7177,8 @@
       "source": "optery_scrape",
       "optery_slug": "secretinfo",
       "email_to": "support@secretinfo.org",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "seedtable",
@@ -6753,7 +7191,8 @@
       "source": "optery_scrape",
       "optery_slug": "seedtable",
       "email_to": "hello@seedtable.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "seekout",
@@ -6766,7 +7205,8 @@
       "source": "optery_scrape",
       "optery_slug": "seekout",
       "email_to": "privacy@seekout.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "semcasting",
@@ -6779,7 +7219,8 @@
       "source": "optery_scrape",
       "optery_slug": "semcasting",
       "email_to": "privacychoice@semcasting.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "sentilink",
@@ -6792,7 +7233,8 @@
       "source": "optery_scrape",
       "optery_slug": "sentilink",
       "email_to": "privacy@sentilink.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "sg360",
@@ -6805,7 +7247,8 @@
       "source": "optery_scrape",
       "optery_slug": "sg360",
       "email_to": "dataprivacy@sg360.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "share_local_media",
@@ -6818,7 +7261,8 @@
       "source": "optery_scrape",
       "optery_slug": "share-local-media",
       "email_to": "privacy@sharelocalmedia.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "sharethis",
@@ -6831,7 +7275,8 @@
       "source": "optery_scrape",
       "optery_slug": "sharethis",
       "email_to": "privacy@sharethis.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "sheriffsdepartment_net",
@@ -6844,7 +7289,8 @@
       "source": "optery_scrape",
       "optery_slug": "sheriffsdepartment-net",
       "email_to": "rivacy@truthfinder.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "shopify",
@@ -6857,7 +7303,8 @@
       "source": "optery_scrape",
       "optery_slug": "shopify",
       "email_to": "support@shopify.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "simiocloud",
@@ -6870,7 +7317,8 @@
       "source": "optery_scrape",
       "optery_slug": "simiocloud",
       "email_to": "Privacy@simiocloud.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "smartmove",
@@ -6883,7 +7331,8 @@
       "source": "optery_scrape",
       "optery_slug": "smartmove",
       "email_to": "info@ctam.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "snoopstation",
@@ -6896,7 +7345,8 @@
       "source": "optery_scrape",
       "optery_slug": "snoopstation",
       "email_to": "support@mailer.intelius.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "sourceit",
@@ -6909,7 +7359,8 @@
       "source": "optery_scrape",
       "optery_slug": "sourceit",
       "email_to": "dataprivacy@sourceitmarketing.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "south_carolina_arrests",
@@ -6922,7 +7373,8 @@
       "source": "optery_scrape",
       "optery_slug": "south-carolina-arrests",
       "email_to": "privacy@infotracer.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "south_dakota_arrests",
@@ -6935,7 +7387,8 @@
       "source": "optery_scrape",
       "optery_slug": "south-dakota-arrests",
       "email_to": "privacy@infotracer.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "southcarolinacourtrecords_us",
@@ -6948,7 +7401,8 @@
       "source": "optery_scrape",
       "optery_slug": "southcarolinacourtrecords-us",
       "email_to": "privacy@courtrecords.us",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "southcarolinapublicrecords_com",
@@ -6972,7 +7426,8 @@
       "source": "optery_scrape",
       "optery_slug": "southdakotacourtrecords-us",
       "email_to": "privacy@courtrecords.us",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "spectrum_mailing_lists",
@@ -6985,7 +7440,8 @@
       "source": "optery_scrape",
       "optery_slug": "spectrum-mailing-lists",
       "email_to": "privacy@spectrumlists.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "speedeon_data",
@@ -6998,7 +7454,8 @@
       "source": "optery_scrape",
       "optery_slug": "speedeon-data",
       "email_to": "privacy@speedeondata.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "spycloud",
@@ -7011,7 +7468,8 @@
       "source": "optery_scrape",
       "optery_slug": "spycloud",
       "email_to": "legal@spycloud.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "spyfly",
@@ -7024,7 +7482,8 @@
       "source": "optery_scrape",
       "optery_slug": "spyfly",
       "email_to": "deletemyinfo@spyfly.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "staircase",
@@ -7037,7 +7496,8 @@
       "source": "optery_scrape",
       "optery_slug": "staircase",
       "email_to": "optout@staircase.co",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "statara",
@@ -7050,7 +7510,8 @@
       "source": "optery_scrape",
       "optery_slug": "statara",
       "email_to": "privacy@statara.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "statecourts",
@@ -7063,7 +7524,8 @@
       "source": "optery_scrape",
       "optery_slug": "statecourts",
       "email_to": "privacy@statecourts.org",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "staterecords_org",
@@ -7076,7 +7538,8 @@
       "source": "optery_scrape",
       "optery_slug": "staterecords-org",
       "email_to": "privacy@staterecords.org",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "step2success_marketing",
@@ -7089,7 +7552,8 @@
       "source": "optery_scrape",
       "optery_slug": "step2success-marketing",
       "email_to": "mary@step2successmarketing.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "steppingblocks",
@@ -7102,7 +7566,8 @@
       "source": "optery_scrape",
       "optery_slug": "steppingblocks",
       "email_to": "privacy@steppingblocks.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "sterling",
@@ -7115,7 +7580,8 @@
       "source": "optery_scrape",
       "optery_slug": "sterling",
       "email_to": "privacy@sterling.ai",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "stirista",
@@ -7128,7 +7594,8 @@
       "source": "optery_scrape",
       "optery_slug": "stirista",
       "email_to": "privacy@stirista.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "strata",
@@ -7141,7 +7608,8 @@
       "source": "optery_scrape",
       "optery_slug": "strata",
       "email_to": "operations@gostrata.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "strategic_data_intelligence",
@@ -7154,7 +7622,8 @@
       "source": "optery_scrape",
       "optery_slug": "strategic-data-intelligence",
       "email_to": "Info@SDIntelligence.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "structure",
@@ -7167,7 +7636,8 @@
       "source": "optery_scrape",
       "optery_slug": "structure",
       "email_to": "support@structure.ac",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "sync_me",
@@ -7180,7 +7650,8 @@
       "source": "optery_scrape",
       "optery_slug": "sync-me",
       "email_to": "privacy@sync.me",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "tagx",
@@ -7204,7 +7675,8 @@
       "source": "optery_scrape",
       "optery_slug": "tapad",
       "email_to": "privacy@tapad.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "td_cowen",
@@ -7217,7 +7689,8 @@
       "source": "optery_scrape",
       "optery_slug": "td-cowen",
       "email_to": "privacy@cowen.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "telefi",
@@ -7230,7 +7703,8 @@
       "source": "optery_scrape",
       "optery_slug": "telefi",
       "email_to": "ccpa@telefi.app",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "telephone_directories",
@@ -7243,7 +7717,8 @@
       "source": "optery_scrape",
       "optery_slug": "telephone-directories",
       "email_to": "support@telephonedirectories.us",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "tennessee_arrests",
@@ -7256,7 +7731,8 @@
       "source": "optery_scrape",
       "optery_slug": "tennessee-arrests",
       "email_to": "privacy@infotracer.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "tennesseecourtrecords_us",
@@ -7269,7 +7745,8 @@
       "source": "optery_scrape",
       "optery_slug": "tennesseecourtrecords-us",
       "email_to": "privacy@courtrecords.us",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "terminus",
@@ -7282,7 +7759,8 @@
       "source": "optery_scrape",
       "optery_slug": "terminus",
       "email_to": "privacy@terminus.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "texas_arrest_warrants_search",
@@ -7317,7 +7795,8 @@
       "source": "optery_scrape",
       "optery_slug": "texascourtrecords-us",
       "email_to": "privacy@courtrecords.us",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "texaswarrantroundup_org",
@@ -7330,7 +7809,8 @@
       "source": "optery_scrape",
       "optery_slug": "texaswarrantroundup-org",
       "email_to": "support@VerifyRecords.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "the_bridge",
@@ -7343,7 +7823,8 @@
       "source": "optery_scrape",
       "optery_slug": "the-bridge-corp",
       "email_to": "privacy@thebridgecorp.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "tl1",
@@ -7356,7 +7837,8 @@
       "source": "optery_scrape",
       "optery_slug": "tl1",
       "email_to": "data@tl1mkt.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "trestle",
@@ -7369,7 +7851,8 @@
       "source": "optery_scrape",
       "optery_slug": "trestle",
       "email_to": "data@trestleiq.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "true_blue_analytics",
@@ -7382,7 +7865,8 @@
       "source": "optery_scrape",
       "optery_slug": "true-blue-analytics",
       "email_to": "privacy@trueblueanalytics.org",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "truepeoplesearch_net",
@@ -7395,7 +7879,8 @@
       "source": "optery_scrape",
       "optery_slug": "truepeoplesearch-net",
       "email_to": "support@truepeoplesearch.net",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "trustoria",
@@ -7408,7 +7893,8 @@
       "source": "optery_scrape",
       "optery_slug": "trustoria",
       "email_to": "removals@trustoria.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "truthrecord",
@@ -7421,7 +7907,8 @@
       "source": "optery_scrape",
       "optery_slug": "truthrecord",
       "email_to": "support@truthrecord.org",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "truthviewer",
@@ -7445,7 +7932,8 @@
       "source": "optery_scrape",
       "optery_slug": "tunnl",
       "email_to": "notice@tunnldata.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "tymax_media",
@@ -7458,7 +7946,8 @@
       "source": "optery_scrape",
       "optery_slug": "tymax-media",
       "email_to": "privacyofficer@datacomplianceportal.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "ufind_name",
@@ -7471,7 +7960,8 @@
       "source": "optery_scrape",
       "optery_slug": "ufind-name",
       "email_to": "support@ufind.name",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "unearth_campaigns",
@@ -7484,7 +7974,8 @@
       "source": "optery_scrape",
       "optery_slug": "unearth-campaigns",
       "email_to": "Privacy@UnearthCampaigns.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "unitedstatesphonebook_com",
@@ -7508,7 +7999,8 @@
       "source": "optery_scrape",
       "optery_slug": "unmask",
       "email_to": "contact@unmask.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "us_marketing_group",
@@ -7521,7 +8013,8 @@
       "source": "optery_scrape",
       "optery_slug": "us-marketing-group",
       "email_to": "PRIVACY@usmarketinggrp.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "usa_people_search",
@@ -7545,7 +8038,8 @@
       "source": "optery_scrape",
       "optery_slug": "usadata",
       "email_to": "privacy@usadata.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "usatrace",
@@ -7571,7 +8065,8 @@
       "source": "optery_scrape",
       "optery_slug": "usdatacorporation",
       "email_to": "privacy@usdatacorporation.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "usphonelookup",
@@ -7584,7 +8079,8 @@
       "source": "optery_scrape",
       "optery_slug": "usphonelookup",
       "email_to": "support@usphonelookup.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "usrecords",
@@ -7619,7 +8115,8 @@
       "source": "optery_scrape",
       "optery_slug": "utah-arrests",
       "email_to": "privacy@infotracer.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "utahcourtrecords_us",
@@ -7632,7 +8129,8 @@
       "source": "optery_scrape",
       "optery_slug": "utahcourtrecords-us",
       "email_to": "privacy@courtrecords.us",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "vdx_tv",
@@ -7645,7 +8143,8 @@
       "source": "optery_scrape",
       "optery_slug": "vdx-tv",
       "email_to": "privacy@vdx.tv",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "venntel",
@@ -7658,7 +8157,8 @@
       "source": "optery_scrape",
       "optery_slug": "venntel",
       "email_to": "privacy@venntel.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "venpath",
@@ -7671,7 +8171,8 @@
       "source": "optery_scrape",
       "optery_slug": "venpath",
       "email_to": "privacy@venpath.net",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "veraset",
@@ -7684,7 +8185,8 @@
       "source": "optery_scrape",
       "optery_slug": "veraset",
       "email_to": "privacy@veraset.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "verifypublicrecords_com",
@@ -7697,7 +8199,8 @@
       "source": "optery_scrape",
       "optery_slug": "verifypublicrecords-com",
       "email_to": "support@verifyrecords.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "verifyrecords",
@@ -7710,7 +8213,8 @@
       "source": "optery_scrape",
       "optery_slug": "verifyrecords",
       "email_to": "support@verifyrecords.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "verinext",
@@ -7723,7 +8227,8 @@
       "source": "optery_scrape",
       "optery_slug": "verinext",
       "email_to": "dpo@verinext.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "vermont_arrests",
@@ -7736,7 +8241,8 @@
       "source": "optery_scrape",
       "optery_slug": "vermont-arrests",
       "email_to": "support@infotracer.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "vermontcourtrecords_us",
@@ -7749,7 +8255,8 @@
       "source": "optery_scrape",
       "optery_slug": "vermontcourtrecords-us",
       "email_to": "privacy@courtrecords.us",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "versium",
@@ -7762,7 +8269,8 @@
       "source": "optery_scrape",
       "optery_slug": "versium",
       "email_to": "optout@versium.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "viant",
@@ -7775,7 +8283,8 @@
       "source": "optery_scrape",
       "optery_slug": "viant",
       "email_to": "privacy@viantinc.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "virginia_arrests",
@@ -7788,7 +8297,8 @@
       "source": "optery_scrape",
       "optery_slug": "virginia-arrests",
       "email_to": "privacy@infotracer.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "virginiacourtrecords_us",
@@ -7801,7 +8311,8 @@
       "source": "optery_scrape",
       "optery_slug": "virginiacourtrecords-us",
       "email_to": "privacy@courtrecords.us",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "voilanorbert",
@@ -7814,7 +8325,8 @@
       "source": "optery_scrape",
       "optery_slug": "voilanorbert",
       "email_to": "support@voilanorbert.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "voterrecords_com",
@@ -7827,7 +8339,8 @@
       "source": "optery_scrape",
       "optery_slug": "voterrecords-com",
       "email_to": "admin@voterrecords.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "warmly",
@@ -7840,7 +8353,8 @@
       "source": "optery_scrape",
       "optery_slug": "warmly",
       "email_to": "privacy@warmly.ai",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "washington_arrests",
@@ -7853,7 +8367,8 @@
       "source": "optery_scrape",
       "optery_slug": "washington-arrests",
       "email_to": "privacy@infotracer.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "washington_dc_arrests",
@@ -7866,7 +8381,8 @@
       "source": "optery_scrape",
       "optery_slug": "washington-dc-arrests",
       "email_to": "privacy@infotracer.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "washingtoncourtrecords_us",
@@ -7879,7 +8395,8 @@
       "source": "optery_scrape",
       "optery_slug": "washingtoncourtrecords-us",
       "email_to": "privacy@courtrecords.us",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "webbula",
@@ -7892,7 +8409,8 @@
       "source": "optery_scrape",
       "optery_slug": "webbula",
       "email_to": "privacy@webbula.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "weinform",
@@ -7905,7 +8423,8 @@
       "source": "optery_scrape",
       "optery_slug": "weinform",
       "email_to": "support@weinform.org",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "west_virginia_arrests",
@@ -7918,7 +8437,8 @@
       "source": "optery_scrape",
       "optery_slug": "west-virginia-arrests",
       "email_to": "privacy@infotracer.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "westvirginiacourtrecords_us",
@@ -7931,7 +8451,8 @@
       "source": "optery_scrape",
       "optery_slug": "westvirginiacourtrecords-us",
       "email_to": "privacy@courtrecords.us",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "windfall",
@@ -7944,7 +8465,8 @@
       "source": "optery_scrape",
       "optery_slug": "windfall",
       "email_to": "privacy@windfall.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "wisconsin_arrests",
@@ -7957,7 +8479,8 @@
       "source": "optery_scrape",
       "optery_slug": "wisconsin-arrests",
       "email_to": "privacy@infotracer.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "wisconsincourtrecords_us",
@@ -7970,7 +8493,8 @@
       "source": "optery_scrape",
       "optery_slug": "wisconsincourtrecords-us",
       "email_to": "privacy@courtrecords.us",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "wisdom_media_group",
@@ -7983,7 +8507,8 @@
       "source": "optery_scrape",
       "optery_slug": "wisdom-media-group",
       "email_to": "contact@wisdommediagroupllc.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "wodwo",
@@ -7996,7 +8521,8 @@
       "source": "optery_scrape",
       "optery_slug": "wodwo",
       "email_to": "privacyofficer@wodwo.co",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "wunderkind",
@@ -8009,7 +8535,8 @@
       "source": "optery_scrape",
       "optery_slug": "wunderkind",
       "email_to": "privacyrequests@wunderkind.co",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "wyoming_arrests",
@@ -8022,7 +8549,8 @@
       "source": "optery_scrape",
       "optery_slug": "wyoming-arrests",
       "email_to": "privacy@infotracer.com",
-      "email_verified": true
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "wyomingcourtrecords_us",
@@ -8035,7 +8563,8 @@
       "source": "optery_scrape",
       "optery_slug": "wyomingcourtrecords-us",
       "email_to": "privacy@courtrecords.us",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "wyty",
@@ -8048,7 +8577,8 @@
       "source": "optery_scrape",
       "optery_slug": "wyty",
       "email_to": "support@wyty.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "x_mode_social",
@@ -8061,7 +8591,8 @@
       "source": "optery_scrape",
       "optery_slug": "x-mode-social",
       "email_to": "privacy@xmodesocial.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "xome",
@@ -8074,7 +8605,8 @@
       "source": "optery_scrape",
       "optery_slug": "xome",
       "email_to": "privacy@xome.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "yellow_pages_directory",
@@ -8098,7 +8630,8 @@
       "source": "optery_scrape",
       "optery_slug": "zlookup",
       "email_to": "hello@ZLOOKUP.com",
-      "email_verified": true
+      "email_verified": false,
+      "email_verified_by": null
     },
     {
       "id": "1called_com",

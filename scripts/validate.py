@@ -85,9 +85,19 @@ def main():
                 errors.append(f"{where}: email_to '{to}' is not a valid address")
             elif to.split("@")[0].lower() in GUESSY_LOCAL and not b.get("email_verified"):
                 warnings.append(
-                    f"{where}: email_to '{to}' looks guessed. Verify it against the "
-                    f"privacy policy or a state registry, then set "
-                    f"\"email_verified\": true. A bounce is invisible in the tracker.")
+                    f"{where}: email_to '{to}' is unverified. Verify it against the "
+                    f"privacy policy or a state registry before relying on it. "
+                    f"A bounce is invisible in the tracker.")
+            # "verified" has to mean something. It once defaulted to true for every
+            # bulk-imported entry, so 504 of 536 addresses claimed verification
+            # nobody had performed -- and this check, which keys off the flag,
+            # silently passed on all of them. Four of the first thirteen such
+            # addresses hard-bounced.
+            if b.get("email_verified") and not b.get("email_verified_by"):
+                warnings.append(
+                    f"{where}: email_verified is true but email_verified_by is unset. "
+                    f"Record how it was verified (delivery_evidence, privacy_policy, "
+                    f"state_registry, broker_reply) or the flag asserts nothing.")
 
         if b.get("method") == "email" and not to:
             errors.append(f"{where}: method is 'email' but no email_to given")

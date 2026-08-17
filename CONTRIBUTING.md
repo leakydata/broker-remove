@@ -53,6 +53,28 @@ Find the real address in the broker's privacy policy, or in a state data broker
 registry — California, Vermont, Oregon and Texas all require registration and
 publish contact details. If you send one, check for a bounce and record the result.
 
+`email_verified` means **there is positive evidence the address accepts mail** —
+a reply, an acknowledgement, a ticket reference — not that it looks plausible.
+Set `email_verified_by` alongside it (`delivery_evidence`, `privacy_policy`,
+`state_registry`, `broker_reply`, `bounced`) so the claim says on what basis.
+
+This matters more than it sounds. The field once defaulted to `true` for every
+bulk-imported entry, so 504 of 536 addresses asserted a verification nobody had
+done, and the validator check that keys off it passed silently on all of them.
+Four of the first thirteen such addresses hard-bounced. Three of those brokers
+published no alternative address anywhere on their site.
+
+Two bounce classes are worth knowing because neither means the address is wrong:
+
+- `550 5.7.133 SenderNotAuthenticatedForGroup` (Microsoft 365) and *"the group you
+  tried to contact may not exist, or you may not have permission to post"*
+  (Google Workspace) both mean the published address is an **internal-only
+  distribution group**. It exists; it simply rejects the public. Look for a second
+  address in the privacy policy — `dpo@`, `privacyrequests@`, `legal@`.
+- A **persistent soft bounce** ("delivery incomplete, will retry") can be a dead
+  domain: a DNS SERVFAIL looks temporary to the sending server, so it retries for
+  48h before failing. Run `host <domain>` on any soft bounce that survives a day.
+
 ## Writing a good playbook
 
 The template has the structure. What makes one genuinely useful:
