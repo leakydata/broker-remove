@@ -25,9 +25,16 @@ Four things get flagged, in descending severity:
                 they were not looking for
     THIN        acted on, has a reply or an outcome, and under N useful lines
 
-A small gap is not staleness. Writing the playbook and then recording the send
-is the normal order of a single pass, and flagging it buries the real findings
-in noise -- so anything inside --min-gap-hours is left alone.
+Two kinds of gap are not staleness, and flagging them buries the real findings:
+
+  - Writing the playbook and then recording the send is the normal order of a
+    single pass, so anything inside --min-gap-hours is left alone.
+  - A tracker entry that only appends a note, leaving the status where it was,
+    does not date the playbook. What dates a playbook is a **status change** it
+    predates -- a request that has since bounced, been confirmed, or been
+    refused. So the comparison is against the last time the status actually
+    moved, and a file whose own header already agrees with the current status is
+    not reported at all.
 
 "Last changed" is the git commit date when the file is tracked, falling back to
 filesystem mtime. Do not use mtime alone: a checkout or a bulk reformat touches
@@ -71,6 +78,33 @@ def git_mtime(path):
 
 def last_changed(path):
     return git_mtime(path) or datetime.fromtimestamp(path.stat().st_mtime, timezone.utc)
+
+
+def parse(s):
+    try:
+        d = datetime.fromisoformat(s.replace("Z", "+00:00"))
+        return d if d.tzinfo else d.replace(tzinfo=timezone.utc)
+    except Exception:
+        return None
+
+
+def last_status_change(rec):
+    """When the status last actually moved, ignoring note-only updates.
+
+    Appending a note to an unchanged status is bookkeeping, not news. Treating it
+    as news marks a correct playbook stale every time the tracker is touched."""
+    prev, when = None, None
+    for h in rec.get("history", []):
+        s = h.get("status")
+        if s and s != prev:
+            when, prev = parse(h.get("at", "")) or when, s
+    return when
+
+
+def header_status(text):
+    """The status the playbook's own generated header claims, if it has one."""
+    m = re.search(r"^- Current: `([a-z_]+)`", text, re.M)
+    return m.group(1) if m else None
 
 
 def last_event(rec):
@@ -133,15 +167,20 @@ def main():
             path = BOOKS / f"{covered}.md"
 
         text = path.read_text()
-        changed, event = last_changed(path), last_event(rec)
+        changed = last_changed(path)
+        # A header that already names the current status is not stale, however
+        # long ago it was written.
+        claimed = header_status(text)
+        event = None if claimed == rec.get("status") else last_status_change(rec)
 
         if event and changed:
             gap = (event - changed).total_seconds() / 3600
             if gap > a.min_gap_hours:
                 where = f" (covered by {path.stem}.md)" if path.stem != bid else ""
+                was = f" (header says `{claimed}`)" if claimed else ""
                 findings.append(("STALE", bid,
-                                 f"tracker moved {int(gap)}h after the playbook last "
-                                 f"changed{where} - now `{rec.get('status')}`"))
+                                 f"status changed {int(gap)}h after the playbook last "
+                                 f"changed{where}{was} - now `{rec.get('status')}`"))
                 continue
         if a.stale_only:
             continue
