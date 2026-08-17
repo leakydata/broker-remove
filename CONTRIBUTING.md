@@ -110,6 +110,30 @@ The template has the structure. What makes one genuinely useful:
 - **Scraping brokers for personal data.** This project removes data; it does not
   collect it.
 
+## Verify addresses in bulk
+
+`scripts/verify_emails.py` fetches each broker's privacy and contact pages,
+extracts the addresses they publish, and compares them with the registry:
+
+```bash
+uv run scripts/verify_emails.py --unverified --limit 40           # propose
+uv run scripts/verify_emails.py --unverified --limit 40 --apply   # write
+uv run scripts/verify_emails.py --ids spokeo,radaris --apply
+```
+
+Verdicts are deliberately five-way, because collapsing them is how a working
+address gets marked dead:
+
+| Verdict | Meaning |
+|---|---|
+| `CONFIRMED` | the registry address appears on the broker's own site |
+| `REPLACE` | the site publishes a better, more privacy-specific address |
+| `NO_EMAIL` | site is up, publishes no address (a form or phone may still exist) |
+| `BLOCKED` | site is up but refuses automated requests — says nothing about the address, so the flag is left untouched |
+| `UNREACHABLE` | domain does not resolve, or nothing answers |
+
+Nothing is written without `--apply`. Run `build_registry.py` afterwards.
+
 ## Running anything in this repo
 
 All scripts run through [uv](https://docs.astral.sh/uv/) — no virtualenv, no
