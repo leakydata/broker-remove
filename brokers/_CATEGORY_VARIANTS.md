@@ -445,3 +445,35 @@ A "we hold nothing about you" in writing is a real outcome for a broker with no
 public listing to re-check, and it is the most likely result here. Record it as
 `not_found` on their confirmation, not on your assumption.
 
+## Affiliate / lead-generation front sites  (e.g. Criminal.com, CriminalDataCheck)
+
+A large share of "brokers" on public lists hold **no data at all**. They are
+search-styled landing pages that funnel a query to a real background-check
+provider and take a referral fee. One replied plainly:
+
+> *"does not own, store, or publish any personal records, background reports, or
+> criminal-history information. We are an informational website and keep no
+> database of individuals, so there is nothing on our end to remove or delete.
+> Searches started from our site are carried out by a third-party
+> background-check provider..."*
+
+**Do not skip them, and do not assume the claim is a brush-off.** It is usually
+true, and the reply is valuable for two reasons:
+
+1. **A written "we hold nothing" is a real outcome** for a broker with no public
+   listing you could otherwise check. Record it as `not_found` on their
+   confirmation — not on your assumption.
+2. **They name the actual data holder.** That is the broker worth writing to, and
+   it may not have been on your list. Follow the referral.
+
+Tells that you are looking at a front rather than a holder: a contact page that is
+mostly a search box; no privacy contact other than a generic `support@`; content
+that reads as SEO copy about records in general rather than a searchable index.
+
+**When the published address bounces there may be no route at all.** One of these
+published exactly one address, it hard-bounced, and the site offered no
+alternative. The domain and its MX resolve, so the domain is live and the mailbox
+simply is not. Record `failed` with the reason rather than leaving it looking
+pending — and note that if the front holds nothing, the request that matters is
+the one to the provider behind it, which you can send regardless.
+

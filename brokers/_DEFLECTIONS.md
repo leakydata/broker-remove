@@ -435,3 +435,42 @@ preference.
 **Always ask whether the applied opt-out is a suppression**, not a one-time
 removal. "We have opted-out these pieces of information" does not say which.
 
+---
+
+## 16. "Provide a signed authorization proving you may act on the consumer's behalf"
+
+A first-party request answered as though it came from an **authorized agent**:
+
+> *"With regard to your Right-to-Know request, we have not received sufficient
+> written information to verify that you are duly authorized to act on the
+> consumer's behalf. To proceed, please provide a viewable copy (e.g. PDF) of the
+> consumer's signed authorization... A valid power of attorney may be submitted in
+> lieu of a signed authorization."*
+
+The demand is impossible to satisfy, because the document does not exist: you
+cannot authorize yourself to act on your own behalf, and there is no principal for
+a power of attorney to name. Left unanswered, the ticket closes for
+non-compliance and the request quietly dies.
+
+**Likely cause, worth heading off.** A letter that lists several email addresses
+and then asks for correspondence at one of them can read like a third party
+writing about somebody else — especially to an agent reading quickly. Anything
+that separates "the person writing" from "the person the records concern"
+invites this misreading.
+
+**How to answer:** briefly and without irritation.
+
+- State plainly: *I am not an authorized agent; I am the consumer.* Name yourself,
+  and say the request concerns you.
+- Explain the multiple addresses: **they are all mine**, listed so each can be
+  searched, because records are often held against an address no longer in use.
+- Ask them to **reclassify the ticket** as a consumer request submitted directly
+  by the consumer, rather than simply resubmitting.
+- Offer proportionate verification — confirming details they already hold, or
+  replying from any listed address — while declining a government ID, which
+  discloses more than the request itself warrants.
+
+**Prevention:** say "I am the consumer, writing about my own personal information"
+in the opening line of the original letter, and label the address list explicitly
+as *my* addresses. One clause removes the ambiguity.
+
