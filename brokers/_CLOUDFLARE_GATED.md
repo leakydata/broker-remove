@@ -51,8 +51,8 @@ dated record, and unlocks their appeal process.
 Two brokers now have no working self-service path at all:
 
 - **PeopleFinders** — opt-out bot-gated, rights form returns a server error, email refused
-- **Radaris** — wizard completes but never sends the promised verification email,
-  terminating on a third-party upsell instead
+- **Radaris** — *(corrected)* the wizard **does** work; the verification email
+  arrives a few minutes after the upsell page appears. See `radaris.md`.
 
 The useful move is not to keep retrying. It is to **document the failure precisely
 in a written request** — which page, which step, what the error said, how many
@@ -63,3 +63,22 @@ mechanism, which is worth having if the matter ever goes further.
 Keep the tone measured and avoid asserting intent. "Your form returns this error
 on two attempts, please process from this ticket" is harder to dismiss than an
 accusation, and it gives them an easy way to fix it.
+
+## Ad overlays are a distinct failure mode from bot gates
+
+Heavy third-party advertising on broker sites breaks form-filling in two ways that
+have nothing to do with bot detection:
+
+- **Layout shift.** Ads loading after the page invalidate element references, so a
+  chained sequence of clicks lands on the wrong fields. Seen on SearchPeopleFREE,
+  where a fully-located form moved before typing began.
+- **Interstitial takeover.** A Google vignette overlay appeared on PeopleSearchNow
+  *after* the form was completely filled, covered the page, and **reset every
+  field** when dismissed.
+
+Neither produces an error message. The form simply appears blank again, which is
+easy to mistake for "the site rejected it".
+
+**Mitigation:** locate fields immediately before typing rather than in advance,
+screenshot after filling to confirm values landed, and treat an unexpectedly empty
+form as an ad artifact rather than a submission failure.

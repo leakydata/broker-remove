@@ -382,3 +382,22 @@ these separately rather than sending you hunting for a page that does not exist.
 SearchPeopleFREE, Radaris) warn that a cached page will show a stale listing.
 Re-checking through a saved link is how you get a false negative — or worse, a
 false positive that makes you re-file a removal that already worked.
+
+## Wait before declaring a flow broken
+
+A verification email can take several minutes. Checking the inbox immediately after
+submitting, finding nothing, and concluding the broker never sent one is a mistake
+this project has already made and published.
+
+The Radaris case: the wizard ends on a third-party upsell page, which looks like a
+dead end, and the real verification email arrives a few minutes later. It was
+recorded as "never sends the email" on the strength of one immediate check. The
+removal in fact went through and was later verified by search.
+
+**Before recording a flow as broken:** wait at least 10–15 minutes, re-check, and
+say in the note how long you waited. "No email after 15 minutes" is a finding;
+"no email" checked within a minute is an artifact of impatience.
+
+This cuts the other way too, and both errors are costly: never mark something
+`submitted` on the strength of a page changing, and never mark it `failed` on the
+strength of an inbox that has not had time to receive anything.

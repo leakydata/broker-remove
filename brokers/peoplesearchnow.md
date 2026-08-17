@@ -1,31 +1,27 @@
 # PeopleSearchNow
 
-- **Opt-out:** https://www.peoplesearchnow.com/opt-out
-- **Email:** support@peoplesearchnow.zendesk.com (verified)
-- **Method:** web_form — Web form.
-- **Domain:** peoplesearchnow.com
+- **Working route:** https://www.peoplesearchnow.com/privacy-rights
+- **Also:** `/opt-out`, `/do-not-sell`
+- **Email: REFUSED.** *"This email address is dedicated to customer service
+  inquiries... We do not process privacy requests received via email."*
 - **Priority: 3.**
 
-## Status
+## Third member of the TruePeopleSearch platform family
 
-- Current: `submitted` (updated 2026-08-15)
-- Reference: `gmail:1a006812f0d2aae9`
-- Note: Statutory deletion + opt-out emailed from [EMAIL]. All 4 email identities + DOB asserted. Pre-empts the residency deflection: if no covering statute, honor as company policy and state which basis in writing.
+The refusal email is **word-for-word identical** to TruePeopleSearch's and
+FamilyTreeNow's, and `/privacy-rights` presents the same form. Everything in
+`brokers/truepeoplesearch.md` applies:
 
-## Steps
+- Select **"Right to Know"**, not "Right to Delete" — Delete renders no form.
+- Context: *"I have no direct relationship with the company"*.
+- The state dropdown lists **all 50 states including Pennsylvania**, despite the
+  preamble implying only "covered" states qualify.
 
-<!-- Replace once the route is confirmed. What actually worked, in order. -->
+Known family members so far: **TruePeopleSearch, FamilyTreeNow, PeopleSearchNow**.
+When a refusal email matches one you have seen before, try the sibling's route
+straight away rather than re-deriving it.
 
 ## Gotchas
-
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
-
-## Verification
-
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+- **A Google vignette ad overlay can hijack the page mid-fill and reset every
+  field.** It appeared here after the form was fully populated and wiped it. Fill
+  quickly, screenshot to verify, and expect to redo it.

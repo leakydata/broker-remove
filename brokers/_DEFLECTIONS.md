@@ -107,9 +107,11 @@ request, which starts at the back of the queue.
 Radaris illustrates a pattern worth naming: **the documented route and the working
 route are different pages.**
 
-`/control-privacy` is the removal wizard linked from their support replies. It does
-not complete — it never sends the verification email it promises, and terminates on
-a third-party upsell.
+`/control-privacy` is the removal wizard linked from their support replies. It
+*does* complete, but it terminates on a third-party upsell page while the
+verification email is still in flight — which reads as failure if you check the
+inbox immediately. (An earlier version of these notes recorded it as broken. It
+was not; the check was simply too early.)
 
 `/data_privacy_center` is a separate page that documents email routes the wizard
 never mentions: a covered-persons address for former law enforcement, a
