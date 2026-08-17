@@ -1,31 +1,45 @@
 # Epsilon
 
-- **Privacy policy:** https://www.epsilon.com/us/privacy-policy
-- **Email:** privacy@epsilon.com
-- **Method:** email
-- **Priority: 5.** One of the largest US marketing data aggregators.
+- **Working route:** https://legal.epsilon.com/dsr  ← the only route they accept
+- **Phone (US):** +1-866-267-3861
+- **Email: REFUSED**, and emphatically: *"We do not accept privacy requests
+  received via email... responses to this message will not be answered."*
+  Replies come from `privacy_EPS@publicisresources.com` (Publicis Groupe).
+- **Priority: 5.** One of the largest US marketing data aggregators — upstream, so
+  a removal here reduces re-population downstream.
 
-## Why this one matters more than a people-search site
+## The portal takes ONE request type per submission
 
-Epsilon is **upstream**. It supplies consumer data to a large number of downstream
-marketers and platforms, so a deletion here reduces re-population elsewhere — the
-opposite of a people-search site, where removal is cosmetic and the source keeps
-feeding it.
+> *"Only one request per submission. Multiple submissions are accepted."*
 
-That makes point 3 of the standard letter the important one: ask them to **direct
-downstream recipients to delete** as well, and to tell you **which categories of
-recipient** received your data. The disclosure is useful on its own — it tells you
-which brokers to chase next.
+Eight types are offered, and they are **not** interchangeable:
+
+1. Do not sell my Personal Information
+2. Do not share / Opt-out of Cross-Context Behavioral or Targeted Advertising
+3. Access my Personal Information & 3rd Party Disclosures
+4. Correct my Personal Information
+5. **Delete my Personal Information**
+6. Opt-out of Profiling / Automated Decision-Making
+7. Opt-out / Revoke Consent for Sensitive Personal Information
+8. Appeal a prior request
+
+**Submitting only "Delete" leaves the opt-outs unexercised.** Budget for several
+passes: Delete first, then Do Not Sell, Do Not Share, Profiling, and Sensitive PI.
+
+## Route
+`/dsr` → Country: **United States** → pick one request type → I am a: **Consumer**
+→ Email / First / Last / Street / City / State / ZIP → **Submit request**.
+Success: *"Request Received Successfully."* An invisible reCAPTCHA runs; no click.
 
 ## Gotchas
-- Being a marketing aggregator rather than a public-records site, they may argue
-  a different basis applies. The letter's fallback clause covers this: honor it as
-  company policy and say in writing which basis was applied.
-- Expect a slow, formal response — this is a large enterprise privacy function,
-  not a support queue.
-- See `_CATEGORY_VARIANTS.md` → *Direct mail / list rental* for the wording that
-  fits this class of company.
-
-## Verification
-No public listing to re-check. The meaningful signal is their written confirmation
-and the categories disclosure — chase it if it doesn't arrive.
+- **The cookie banner offers a real "Decline"** — take it. Note their own text:
+  *"Submitting your request below will attempt to access your device to read your
+  cookie ID... cookie IDs are unique per browser so you will need to repeat this
+  process on each browser/device you use."* That is a genuine limitation: a
+  submission from one browser does not cover your other devices.
+- **Dismissing the cookie banner shifts the page**, which silently moved every
+  value down one field in testing — name into Last Name, address into City, and
+  the typed city landed in the State dropdown, changing it to **California**. That
+  would have misstated residency on a legal request. Screenshot and verify every
+  field before submitting.
+- Employees/applicants use a different address: privacyofficer@publicisgroupe.com.
