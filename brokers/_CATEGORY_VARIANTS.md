@@ -257,3 +257,42 @@ than the page de-indexed. Where material about you was posted by another user, a
 what exists and under what username rather than accepting a flat refusal — knowing
 what is there is a prerequisite to doing anything about it.
 
+## Predictive seller / life-event leads  (e.g. Catalyze AI)
+
+Predicts which households are likely to sell property and sells the resulting
+leads to agents. The signals underneath are often **probate, bereavement, divorce,
+job change, or financial distress** — which makes this one of the more intrusive
+categories in the whole registry.
+
+Three asks the generic letter misses:
+
+- **The inference is the personal information.** A likelihood-to-sell rating is
+  something they generated about you and it is the product. Ask for the score
+  deleted, not just the contact row.
+- **Name the life-event signals.** Ask which categories were used and that they not
+  be re-derived. If a prediction about you was built from a death in the family,
+  that is worth knowing and worth objecting to specifically.
+- **Leads already distributed keep working.** Ask which agents or brokerages
+  received a lead and that they be directed to delete it. Deletion at source does
+  nothing about copies sitting in agents' CRMs — and those are what generate the
+  phone calls.
+
+Pair with an explicit objection to profiling and automated decision-making.
+
+## B2B SaaS holding your data via a business you dealt with  (e.g. Billtrust, Buildertrend)
+
+Invoicing, payments, project management, CRM. You never signed up; a company you
+dealt with entered your details. Expect the **processor deflection** ("contact our
+clients"), which is unactionable because you cannot know which client uploaded you.
+
+- Ask them to forward the request **and name the client(s)**, or confirm it was
+  actioned across those instances.
+- **Concede the retention point before they raise it.** Financial and tax records
+  often carry a genuine legal retention obligation. Saying so — and asking which
+  categories, on what basis, for how long, with everything outside that scope
+  deleted and the remainder restricted to that purpose alone — converts a
+  conversation-ending "we must keep records" into a narrow, answerable question.
+- For property or project software, ask for **job-site addresses, photographs and
+  uploaded documents**, not just the contact card. Those identify where you live
+  and outlast the job by years.
+
