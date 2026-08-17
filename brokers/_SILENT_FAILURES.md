@@ -301,6 +301,34 @@ per address is exactly the expensive path the gating is designed to create. Put
 the whole list of localities in one email to the operator instead and ask for
 suppression at the record level. One message covers what eight searches would.
 
+## 9. The validation error that does not say anything
+
+A privacy-request form rejected a telephone number formatted with dashes. What
+happened on submit: the field acquired a **red outline**. No message, no text
+under the field, no scroll to the error, no change to the button. The page simply
+did not advance.
+
+The field was optional. So the shape of the failure was: an optional field,
+filled in helpfully, silently blocked a request that would have gone through if
+it had been left empty.
+
+Two things follow.
+
+**For a person:** a form that does not advance and does not say why reads as
+broken, and the reasonable response is to give up and assume the company's site
+is at fault. The removal does not happen. Nobody records a failure, because from
+the outside nothing failed.
+
+**For automation:** this is why a submit must be followed by a screenshot and an
+inspection, never by an assumption. A click that returns success at the tool
+level tells you the click landed, not that the form accepted it. Look for the
+confirmation you expected — and if you do not see it, look for what turned red.
+
+**Check:** after any submit, confirm the page actually changed. If it did not,
+re-read the form fields before re-reading your input. Try the most
+machine-friendly format for anything with a format (`+1XXXXXXXXXX` for phone,
+ISO dates), and when a field is optional and awkward, leave it out.
+
 ## The pass that catches these
 
 1. **Bounces before anything else.** A bounce invalidates a request you have

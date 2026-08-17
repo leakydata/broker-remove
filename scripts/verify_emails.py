@@ -93,6 +93,29 @@ PREFERENCE = [
 ]
 
 
+def is_role_address(addr):
+    """Is this a role mailbox rather than a named individual's?
+
+    Scraping a contact page turns up whatever is on it, which includes people.
+    An unrelated third party's personal address must never be recorded as a
+    broker contact: it is wrong as a route, and this registry is public, so
+    writing down a named individual's work address publishes it further. One
+    sweep proposed `angela@silverstonefacilitycare.com` -- a person, at a company
+    with no relationship to the broker -- as a fallback contact.
+
+    Role accounts are the only safe thing to keep."""
+    local = addr.split("@")[0].lower()
+    flat = local.replace("-", "").replace("_", "").replace(".", "")
+    if any(p.replace("-", "").replace("_", "").replace(".", "") in flat
+           for p in PREFERENCE):
+        return True
+    return flat in {
+        "enquiries", "enquiry", "inquiries", "inquiry", "team", "office",
+        "mail", "email", "general", "noreply", "no-reply", "abuse", "postmaster",
+        "unsubscribe", "optin", "care", "service", "services", "helpdesk",
+    }
+
+
 def rank(addr):
     """Lower is better. Substring match, so `americas.dpo` and `privacyanddata
     compliancereview` both score as the privacy contacts they plainly are."""
@@ -196,7 +219,11 @@ def check(b):
         out["proposed"] = best
     elif current and rank(best) > rank(current):
         out["verdict"] = "KEEP_BETTER"
-        out["proposed"] = best        # recorded as a fallback, not a swap
+        # Only worth recording as a fallback if it is a role mailbox on the
+        # broker's own domain. A person's address scraped off a contact page is
+        # not a privacy route, and this registry is public.
+        if is_role_address(best) and best.endswith("@" + domain):
+            out["proposed"] = best
     return out
 
 
@@ -276,6 +303,8 @@ def main():
             b["email_verified"] = False
             b["email_verified_by"] = "site_unreachable"
         elif r["verdict"] == "KEEP_BETTER":
+            if not r["proposed"]:
+                continue          # nothing worth recording; leave the record alone
             b["email_alt"] = r["proposed"]
             b["email_verified"] = False
             b["email_verified_by"] = None

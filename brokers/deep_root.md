@@ -13,18 +13,22 @@
 
 ## Steps
 
-<!-- Replace once the route is confirmed. What actually worked, in order. -->
+Deep Root and Tunnl share `tunnldata.com`, the same `notice@` autoresponder and
+the same Ethyca Privacy Center. Use the route in `tunnl.md` — one submission at
+`https://privacy.tunnldata.com/` is the whole flow, and it needs no human step.
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+The two are tracked separately because they are separately listed and separately
+known, but they resolve to one operator and one queue. Do not file twice and do
+not treat a confirmation from one as unrelated to the other; do ask, on the
+ticket, which brands the erasure covers — a shared privacy portal is evidence of
+a shared operator, not proof of a shared database.
+
+Shared privacy infrastructure across apparently distinct brands is one of the
+more reliable family signals available from outside. See `_BROKER_FAMILIES.md`.
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+As `tunnl.md`. Ask explicitly whether the deletion covers records held under the
+Deep Root name as well.
