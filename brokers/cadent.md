@@ -27,3 +27,51 @@
 ## Verification
 
 <!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+
+## Email is refused, politely, with a working route
+
+`privacy@cadent.tv` is answered from `privacy@cadent.com`:
+
+> *"We have received your email. To submit a data rights request, please complete
+> the form which can be found here: https://privacy.cadent.tv/privacy/#/verify-email"*
+
+## Delete is gated behind a device ID; opt-out is not
+
+The most useful sentence on the form, and the reason to read it before choosing:
+
+> *"For **access and deletion** requests, you must provide both your household
+> address **and one or more device IDs** that belong to you... For **opt-out
+> requests**, you need only to provide your household address, after which we will
+> opt-out that household accordingly."*
+
+Almost nobody can produce the advertising or device identifier for their own TV or
+phone. So the deletion route is effectively closed to an ordinary consumer, while
+the **opt-out of sale/share (including targeted advertising and sensitive PI) is
+available on address alone** and covers the whole household.
+
+Someone who picks "Delete", hits the device-ID field, and gives up has walked past
+the one request they could actually complete. Pick the opt-out; note in your
+tracker that deletion remains unexercised and why.
+
+## Route
+
+1. `/privacy/#/verify-email` → "Are you a US based user?" → **Yes**
+2. Enter email → **Send Email Verification Link**
+3. Click the link in the mail from `support@cadent.app` (**valid 24 hours**) —
+   this opens the actual request form, pre-filled with the verified address
+4. Household address, city, state, ZIP
+5. Tick **Opt-Out of "Sale"/"Share" of Personal Information**
+6. Tick both certifications — they are "under penalty of perjury" and assert only
+   that the details are your own, truthful and accurate, and that the request is
+   not fraudulent. Read them; they are reasonable, but they are sworn statements.
+7. **reCAPTCHA + Submit** — a human is needed for this step only.
+
+Stated turnaround: *"we aim to resolve your request within forty-five (45) days."*
+
+## Notes
+
+- The verification step is genuinely automatable: the link arrives by email and
+  opens the form. Only the final CAPTCHA needs a person.
+- The form does not scroll conventionally — it renders inside a container. Address
+  fields by element reference rather than trying to scroll to them.
+

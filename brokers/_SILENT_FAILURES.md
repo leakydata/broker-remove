@@ -158,6 +158,13 @@ sentence putting the next move back on you means the request is parked.
 the first line. If the body asks for anything at all — a confirmation, a category
 choice, a form — the request is not filed until you supply it.
 
+**Then check that your confirmation reached a person.** Replying to the address
+the auto-reply came *from* can simply trigger it again: a confirmation sent to
+`PrivacyAutoreplyBW@` returned the identical canned message, leaving no way to
+tell whether anyone saw it. Send confirmations to the **monitored** address you
+originally wrote to, not to the auto-responder, and say you are re-sending and
+why. Two identical auto-replies in a thread is the tell.
+
 **Related trap: the category fork.** The same reply split requests into "Users"
 (indexed on business email) and "Content Authors" (indexed on social handle), with
 different scopes and different answers. Picking the wrong one, or not picking, gets
@@ -172,6 +179,21 @@ still leave several records untouched — the broker will tell you they found
 nothing, and be telling the truth.
 
 **Check:** list every email, prior address, and old phone number on every request.
+
+**The sharper version: some brokers index on *nothing* you sent.** Several
+categories are searchable only by a key the standard letter never contains —
+social handles, phone numbers, VIN or plate, device or advertising IDs. There the
+letter is not merely incomplete, it is unanswerable, and a truthful "no records
+found" is the expected reply. Read what the broker says it indexes on, and send
+that. See `_CATEGORY_VARIANTS.md`.
+
+**The mirror failure: the identifier you cannot produce.** Some forms require a
+key the consumer does not have — a device ID for a TV-advertising deletion, a
+profile URL that the public search never exposes. Check whether a *different*
+request type on the same form has a lower bar: one broker gated Access and Delete
+behind a device ID while offering a full household opt-out on address alone.
+Picking the achievable request beats abandoning the form, as long as you record
+which right remains unexercised and why.
 
 ---
 
