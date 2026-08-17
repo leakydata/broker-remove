@@ -122,3 +122,35 @@ Ask explicitly whether they hold hashed forms of each address, state that hashed
 identifiers are in scope, and require that the **linkage** be deleted — not just
 the plaintext row. Give every address you have ever used; each is a separate key.
 
+## Social listening / consumer intelligence  (e.g. Brandwatch)
+
+Archives publicly posted social content and builds author profiles, sentiment and
+demographic inferences from it. The data is keyed to **social handles**, so a
+search on name and email can return nothing while a large archive exists.
+
+Ask for: archived posts, comments and profile information attributed to your
+accounts; any handle-to-person linkage or identity resolution; and any sentiment,
+interest, influence or demographic attribute inferred from that content.
+
+Head off the standard objection directly: *that a post was publicly visible when
+collected does not exempt the resulting archive, profile, or inference* — it is
+still personal information about an identifiable person. Offer to supply the
+relevant account handles if they say they need them to search; that removes the
+"we couldn't locate you" exit without volunteering handles they may not hold.
+
+## Client-uploaded SaaS platforms  (e.g. Birdeye)
+
+Reputation, review-solicitation, messaging and CRM platforms hold your details
+because *a business you dealt with uploaded them* — you have no relationship with
+the platform and usually cannot name which client is responsible.
+
+Expect the **processor deflection**: "we act only on behalf of our clients; please
+contact them." Don't accept it flatly, because you cannot act on it — you don't
+know who uploaded you and they do. Ask them to either forward the request to the
+client(s) whose records contain your details **and tell you who they are**, or
+confirm the request was actioned across those instances.
+
+Also ask for your phone and email to be added to any platform-level
+do-not-contact list, so client campaigns running through the platform stop
+re-soliciting you even where a record legitimately remains.
+
