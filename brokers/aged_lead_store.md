@@ -1,33 +1,52 @@
 # Aged Lead Store (Next Wave Marketing Strategies, Inc.)
 
-- **Email:** privacy_requests@nextwavemarketingstrategies.com
-  (also customercare@nextwavemarketingstrategies.com)
-- **`optout@nextwavemarketingstrategies.com` HARD BOUNCES (550)** — despite being
-  the address published in public broker directories. Anyone using the directory
-  address believes their opt-out was delivered when it was not.
+- **Email: REFUSED.** *"We don't accept deletion or opt-out requests sent to us by email."*
+- **Forms:** https://store.agedleadstore.com/optout_request/forms — **six** of them
 - **Postal:** 15527 Jasmine Place, Tustin, CA 92782 · **Phone:** 888-238-9283
+- **`optout@nextwavemarketingstrategies.com` HARD BOUNCES (550)** despite being the
+  address published in public broker directories.
 - **Priority: 2.**
 
-## Why the standard letter is not enough here
+## The forms exclude most of the country
 
-The business is **reselling aged leads**. Deleting their copy accomplishes very
-little, because copies already sold keep circulating and generating contact. The
-request must ask for:
+Their **Data Deletion Request Form** has a **required** State field driven by a
+fixed dropdown of **20 states**: CA, CO, CT, DE, IN, IA, KY, MD, MN, MT, NE, NV,
+NH, NJ, OR, RI, TN, TX, UT, VA.
 
-1. Identification of **every buyer** a lead about you was sold to
-2. Downstream deletion directed at those buyers
-3. The **original acquisition source** — without it, the same record is
-   re-acquired on the next list purchase
-4. Permanent internal suppression
+**If your state is not in that list, the form cannot be submitted.** Combined with
+their refusal of email, a resident of ~30 states has no working self-service route.
 
-Internal suppression alone stops only their own future contact. It leaves both the
-sold copies and the acquisition path intact.
+The page is also internally inconsistent: the introductory text lists **24** states
+— including Alabama, Florida, Louisiana, Oklahoma and Vermont, none of which are in
+the dropdown — while the dropdown includes Nevada, which is not in the text. Looks
+like a list updated in one place and not the other.
+
+**What to do:** use the postal or telephone route they also publish, and say
+plainly in writing that the form excludes your state. Their own reply commits to
+compliance *"within twenty-four (24) hours of receipt"* and to keeping opt-outs on
+file even where no current record exists — quote both back.
+
+## Six separate forms
+
+Deletion is only one of them. The full set:
+
+1. Opt-Out from Sale and/or Sharing of Personal Information
+2. Opt-Out from Use and/or Sharing of **Sensitive** Personal Information
+3. Opt-Out from **Profiling**
+4. Opt-Out from **Targeted Advertising**
+5. Consumer Privacy Rights Request
+6. **Data Deletion Request**
+
+Splitting one request into six submissions is friction. If you are blocked from the
+forms anyway, cover all six subjects in a single written request and say so.
+
+## Why the downstream ask matters here
+
+The business is reselling **aged** leads. Deleting their copy does nothing about
+copies already sold, which keep circulating. Always ask for: every buyer a lead
+about you went to, and the **original acquisition source** — without the latter the
+record is simply re-acquired on the next list purchase.
 
 ## Leverage
-They are based in **Tustin, California**, so the CCPA applies to them directly
-rather than as a courtesy. Worth saying so — it removes the "we're not covered"
-escape route before they reach for it.
-
-## Verification
-No public listing to re-check. The written confirmation, buyer list and source
-disclosure are the deliverables — chase them if they don't arrive.
+Based in **Tustin, California**, so CCPA applies to them directly rather than as a
+courtesy.

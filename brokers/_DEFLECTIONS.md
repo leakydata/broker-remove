@@ -123,3 +123,26 @@ disagree, and the policy page usually wins.
 
 Terms worth trying: `/data_privacy_center`, `/privacy-rights`, `/privacy-center`,
 `/your-privacy-choices`, `/dsr`, `/legal/privacy`.
+
+---
+
+## 8. The form that structurally excludes you
+
+Aged Lead Store refuses email and directs consumers to six web forms. Their Data
+Deletion form has a **required** State field with a fixed 20-state dropdown.
+Pennsylvania is absent — so a PA resident **cannot submit it at all**.
+
+Combined with the email refusal, a resident of roughly thirty states has no working
+self-service route. Their own page also contradicts itself: the prose lists 24
+states, the dropdown offers 20, and the two sets do not match.
+
+**Answer:** check whether the broker publishes *any* other channel — postal and
+telephone are common, and both were offered here. Then put the exclusion in writing
+and ask them to process by the available route. Quote any commitment in their own
+reply: this one promised compliance *"within twenty-four (24) hours"* and said they
+retain opt-outs to suppress future collection.
+
+**Check the dropdown before assuming a form is usable.** A required field whose
+options exclude you is a wall, not a nuisance — and it is invisible until you try to
+submit. Worth recording in the playbook so the next person does not discover it the
+hard way.
