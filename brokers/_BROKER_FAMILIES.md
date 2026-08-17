@@ -65,3 +65,36 @@ These UUIDs are not discoverable by guessing. Find them in the company's **priva
 policy**, not on its homepage or in its support replies — the same lesson as
 `_DEFLECTIONS.md` §7: the policy page is written for regulators and carries the
 real route.
+
+## Spotting a family from the ticket number
+
+Brands that look independent often share one privacy queue, and the **support
+ticket reference is the tell**. Three brands in this registry — a background-check
+site, a court-records aggregator, and a court-case search site — all issued
+Zendesk references in the same numeric range on the same day:
+
+| Brand | Reference |
+|---|---|
+| court-records aggregator | 5381**35** |
+| background-check site | 5381**36** |
+| court-case search | 5386**31** |
+
+Consecutive and near-consecutive numbers from one Zendesk instance. A fourth,
+unrelated site issued `127xxx` — a different instance, therefore a different
+operator.
+
+That single observation collapses **52 separate registry entries** into one
+contact, because the family includes a `<state>courtrecords.us` domain for nearly
+every US state. One letter naming all of them, sent to the shared queue, does the
+work of fifty.
+
+**How to use this:**
+
+- Record the reference number for every ticket, not just the fact that one was
+  issued. It is free, and it is what makes the pattern visible later.
+- When two brands return references in the same range, write one letter that
+  **names every domain in the family explicitly**, so there is no ambiguity about
+  scope and no chance of a partial removal being reported as complete.
+- Sequential numbers also tell you roughly how much volume the queue handles,
+  which is a decent proxy for whether a slow reply means backlog or neglect.
+

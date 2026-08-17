@@ -422,3 +422,26 @@ For panel and interview businesses, ask for the **responses**, not just the cont
 record, and for a research-recruitment suppression entry so you are not
 re-approached for future studies.
 
+## Professional-services firms on broker lists  (e.g. BDO)
+
+Some entries on public broker lists are accountancy, consulting or audit firms
+rather than data brokers in any ordinary sense. They almost certainly hold nothing
+about a random consumer.
+
+Do not skip them — but write a **shorter, different letter**:
+
+- Say plainly why you are writing (they appear on a published list) and that **a
+  confirmation of "no records" is a complete answer**. This is courteous, it is
+  true, and it makes the cheap reply the likely one.
+- **Concede retention before they raise it.** Professional-services firms carry
+  real regulatory retention duties. Asking which categories, on what basis, for
+  how long — with everything outside deleted and the remainder restricted to that
+  purpose — turns "we must keep records" from a conversation-ender into a narrow
+  question.
+- Ask for removal from **marketing, newsletter, publication and event lists**,
+  which is the one thing such a firm plausibly does hold.
+
+A "we hold nothing about you" in writing is a real outcome for a broker with no
+public listing to re-check, and it is the most likely result here. Record it as
+`not_found` on their confirmation, not on your assumption.
+
