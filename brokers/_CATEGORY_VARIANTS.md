@@ -93,3 +93,32 @@ Expect "that's a business listing, not personal data." Pre-empt it: a business
 record that discloses a **personal name, home address or personal telephone
 number** is personal information about that individual regardless of how the
 listing is labelled. Say so in the original request rather than arguing later.
+
+## Telematics / driving & mobility data  (e.g. Arity)
+
+Collected through mobile apps and connected vehicles, so the record is keyed to a
+**device or vehicle**, not to a name. A name-and-address search may honestly
+return nothing while a substantial trip history remains.
+
+Ask for: driving, telematics, trip, location and mobility records tied to you or
+to any device or vehicle of yours; plus any **risk score** derived from them —
+these feed insurance pricing, so the derived score matters as much as the raw
+data. Ask them to search on mobile advertising identifiers, hashed emails and
+device identifiers linked to your details, **and to say which identifier types
+they matched on**. That last part converts "no records found" from a dead end
+into a usable answer.
+
+## Email-keyed identity resolution  (e.g. AtData)
+
+The email address *is* the product: validation, activity scoring, and linking an
+address to a postal address, phone and demographic profile.
+
+The trap is **hashing**. These businesses routinely hold MD5 / SHA-1 / SHA-256
+digests of addresses rather than the plaintext, and a request that only names
+plaintext addresses can be answered truthfully and narrowly. A hash still resolves
+to you and still joins records together.
+
+Ask explicitly whether they hold hashed forms of each address, state that hashed
+identifiers are in scope, and require that the **linkage** be deleted — not just
+the plaintext row. Give every address you have ever used; each is a separate key.
+
