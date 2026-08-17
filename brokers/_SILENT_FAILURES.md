@@ -251,3 +251,27 @@ which right remains unexercised and why.
    you, read it rather than assuming.
 4. **Re-check listings after the stated window.** See `verify_removals.py`. A
    submission is not a removal, and records reappear.
+
+---
+
+## Not every privacy email is a broker reply
+
+Removal **services** — the paid subscriptions that offer to opt you out of
+hundreds of sites — send mail that looks superficially like broker
+correspondence: "N data broker sites expose your information right now",
+scan results, progress reports.
+
+They are not data brokers and do not belong in the registry or the tracker. Two
+reasons to keep them out deliberately:
+
+- **They inflate the numbers.** A scan result claiming a hundred exposures is
+  marketing, not evidence, and mixing it into a tracker built on broker-issued
+  artifacts corrupts the one thing that tracker is for.
+- **An account may exist as a side effect.** Some broker opt-out flows funnel
+  through a removal service and create an account in your name along the way. That
+  account is worth dealing with — but as an account to close, not a broker to file
+  against.
+
+During an inbox pass, skip their mail the same way you skip newsletters. If a
+removal service needs attention, it is a separate task with a separate goal.
+
