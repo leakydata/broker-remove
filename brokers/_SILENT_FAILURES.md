@@ -63,6 +63,16 @@ page still congratulated you. Two ways this goes wrong:
 - **The link expires first.** PeopleFinders gives **24 hours**, states so plainly,
   and on expiry says: *"This link has already been used or has expired. Please
   restart the process."* Restarting there means solving a CAPTCHA again.
+- **The link is corrupted in the plain-text part of the email.** Multi-part mail
+  carries an HTML body and a plain-text fallback, and the fallback is where
+  verification links get mangled. Two observed in this project: one lost the `=`
+  and the first two characters of its signature, producing *"Security error,
+  signature doesn't match"*; another lost the `=` from a `ticketid` parameter.
+  Both look like a rejected or expired request rather than a truncated URL.
+
+  **Always take the href from the HTML part**, not the text you can read. If a
+  verification link fails with a signature or token error on first use, suspect
+  the copy before you suspect the request.
 
 **Check:** if a broker mentions verification at all, the request is not filed
 until you have seen a page that says something like *"Your request is confirmed!"*
@@ -171,7 +181,23 @@ different scopes and different answers. Picking the wrong one, or not picking, g
 a truthful "we hold no data about you" that only answers the category you did not
 mean. Answer both explicitly.
 
-## 6. The request was filed against the wrong identity
+## 6. The submission failed on their end
+
+Not every failure is subtle. A correctly completed form can return a plain
+server-side error:
+
+> *"Error submitting URL — Your request could not be submitted at this time,
+> please try again later or contact us by email or phone."*
+
+Worth stating because the instinct is to assume you did something wrong and go
+looking for the mistake. Nothing was wrong with the request. The fix is to
+re-stage and submit again, and — if it fails twice — use the phone or postal route
+rather than continuing to feed a broken endpoint.
+
+**Record it as unfinished, not submitted.** A form that errored is exactly as
+unfiled as one never started, and the CAPTCHA you just solved is spent.
+
+## 7. The request was filed against the wrong identity
 
 Brokers index on prior addresses and disconnected phone numbers as much as current
 ones. A request naming only your current details can be honestly processed and
