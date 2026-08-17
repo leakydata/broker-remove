@@ -13,3 +13,4 @@ data/url_health.json
 docs/MANUAL_CHECKLIST.md
 .venv/
 uv.lock
+data/handoff_queue.json

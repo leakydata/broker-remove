@@ -192,3 +192,26 @@ lesson as naming the number, and costs the author nothing.
 
 Note that git history is permanent: a leak that is committed and later deleted is
 still in the history and still public. Catch it before the commit.
+
+## Working with a human in the loop
+
+`scripts/handoff.py` queues the steps that need a person — CAPTCHAs, confirm
+clicks, phone calls — so they can be cleared in one sitting instead of
+interrupting someone once per broker.
+
+```bash
+uv run scripts/handoff.py list      # what's waiting, and roughly how long
+uv run scripts/handoff.py done <broker>
+```
+
+The queue is gitignored: entries can contain single-use verification URLs.
+
+Two rules make it work:
+
+- **Every entry stands alone.** Broker, URL, exact steps. An entry that depends
+  on a browser tab still being open is worthless an hour later, and that is
+  usually how long it waits.
+- **Notify per batch, not per item**, and lead with the cost — "4 CAPTCHAs, ~5
+  min" tells someone whether to do it now. Anything that expires (24-hour
+  confirmation links) goes first and gets said out loud.
+

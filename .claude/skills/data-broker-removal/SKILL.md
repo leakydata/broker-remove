@@ -84,6 +84,54 @@ real, useful result, not a failure. Use `submitted` only when the site actually
 acknowledged the request. Never mark `confirmed` on the strength of a form
 submission alone; that status means the broker affirmatively confirmed removal.
 
+## Handoff mode — batch the human steps
+
+Some routes need exactly one human action: a CAPTCHA, a confirm click, a phone
+call. Everything either side of it automates cleanly — finding the route, filling
+the form, clicking the emailed verification link, reading the reply, recording
+the result.
+
+**Do not stop and ask each time.** One interruption per CAPTCHA is the most
+expensive possible way to spend the only genuinely scarce resource in this work,
+and it makes long unattended runs pointless. Queue them and clear a batch.
+
+```bash
+uv run scripts/handoff.py add <broker> --action captcha --minutes 1 \
+    --url "https://..." --steps "Solve the CAPTCHA, then press Submit"
+uv run scripts/handoff.py list           # what's waiting, with time estimate
+uv run scripts/handoff.py list --brief   # one line, for a notification
+uv run scripts/handoff.py done <broker>
+uv run scripts/handoff.py done <broker> --failed "form errored again"
+```
+
+Actions: `captcha`, `click`, `phone`, `postal`, `id`, `decision`.
+
+**How to run a pass in this mode:**
+
+1. Work everything that does not need a person. Where a route needs one action,
+   stage the form as far as it will go, then queue the item and move on to the
+   next broker.
+2. **Write each entry so it stands alone.** Broker, URL, and the exact steps.
+   Never rely on a browser tab still being open — tabs do not survive the wait,
+   and an entry that says "the tab I left open" is worthless an hour later.
+3. Give a realistic `--minutes`. Knowing the queue is six minutes rather than an
+   hour is what decides whether someone clears it now or never.
+4. **Notify once per batch, not once per item**, and only when a batch is worth
+   coming back for — three or four items, or one that is time-critical (an
+   expiring link). Lead with the count and the cost: *"4 CAPTCHAs waiting, ~5
+   min"* beats *"need your help"*.
+5. When the batch is cleared, do the follow-through: click the verification
+   links, read the confirmations, record the outcomes.
+
+**Time-critical items go first in the queue and are called out in the
+notification.** Some confirmation links expire in 24 hours; a CAPTCHA solved
+after that is wasted.
+
+**If an item fails twice, stop queueing it.** Close it with `--failed`, record
+the reason in the playbook, and switch to another channel. Repeatedly asking
+someone to re-solve a CAPTCHA for a form that is broken server-side spends their
+attention on nothing.
+
 ## Hard rules
 
 These exist because getting them wrong causes real harm to the user:
