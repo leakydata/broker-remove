@@ -339,3 +339,34 @@ The decisive ask: **which dealerships already received your details, and direct
 them to delete.** A lead sitting in a dealer's CRM keeps generating calls and mail
 indefinitely; deleting at source does nothing about it.
 
+## Mobile location / mobility data  (e.g. Complementics, CityData.ai)
+
+The most invasive category in the registry, and the one where a standard letter
+achieves least. Data is keyed to **mobile advertising identifiers** (IDFA,
+GAID/AAID) and device IDs; a name-and-address search returns nothing while a
+detailed movement history remains.
+
+Ask for, by name:
+
+- the advertising and device identifiers themselves;
+- **location and movement history** — visit and dwell records, place-visit
+  history — not merely the advertising segments derived from them;
+- **inferred home and work location**, which is the join between an anonymous
+  device and a named person. If they hold an inferred home matching one of your
+  addresses, that inference *is* a record about you;
+- the identity-graph linkage joining device to name or household.
+
+Two things to say explicitly:
+
+- **Require them to name the identifier types they matched on.** Otherwise "no
+  records found" is uninterpretable — it may only mean they searched a name field
+  that was never populated.
+- **Pre-empt the "it's aggregated" answer.** If the product is derived from
+  individual device traces, those traces are personal information about
+  identifiable people even where the published output is aggregate. Ask about the
+  underlying records, not the aggregates.
+
+Worth stating plainly why this matters: a movement history reveals home,
+workplace, place of worship and medical visits without any of them being labelled.
+Treat every prior address as a candidate home-location match.
+
