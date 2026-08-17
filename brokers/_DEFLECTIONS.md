@@ -223,3 +223,35 @@ personal data than the request requires. Some brokers really do route email to a
 unmonitored mailbox and mean it — a second refusal with no human on the other end
 is your answer.
 
+---
+
+## 11. "We were acquired — file with the new owner" (and the cut-off date trap)
+
+An auto-reply that redirects you to a parent or acquirer. Verbatim example:
+
+> *"Andrews Wharton, Inc. is now a Stirista company. As such, privacy preferences
+> and Data Subject Access Requests are now to be completed through stirista.com.
+> Stirista holds the privacy preferences of our consumers in the highest regard
+> and will honor any requests received by Andrews Wharton, Inc. prior to
+> January 1, 2025"*
+
+Read the last clause carefully. They undertake to honor requests received by the
+old entity **before a cut-off date** — which means a request sent after it is
+being declined, politely, in the same breath as the redirect. Treat the reply as a
+**refusal plus a forwarding address**, not as a hand-off that has been actioned.
+
+**What to do:**
+
+1. **Re-file with the acquirer** — the original request is not carried over.
+2. **Name both entities explicitly** and ask them to search records acquired from
+   or previously operated by the old company. Merged data often keeps different
+   record keys, so a search of the acquirer's own database may genuinely miss it.
+3. **Quote the redirect back to them.** It is their own statement of
+   responsibility and forecloses a second hand-off.
+4. Mark the old entry as failed-with-a-successor rather than done, and add the
+   successor to your list if it isn't there. One acquisition can silently strand a
+   request that looks filed.
+
+This is worth checking for proactively across any list built from public
+registries: broker lists date quickly, and acquisitions are frequent.
+

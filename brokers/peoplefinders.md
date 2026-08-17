@@ -77,3 +77,54 @@ Requests may take up to 45 days; repeatable every 6 months.
 - They state deletion applies to *account* information; public-record listings are
   handled through opt-out instead. Pushing only the Right to Delete link will miss
   the listing entirely.
+
+## The route map, from their own customer-care reply
+
+`customercare@peoplefinders.com` does **not** accept privacy requests — but it
+auto-replies with the correct routes, which makes it useful anyway:
+
+> *"This email address is dedicated to customer service inquiries and is not
+> intended for privacy-related requests. We do not accept privacy requests
+> submitted via email."*
+
+| Right | URL | Notes |
+|---|---|---|
+| Opt-out | `/opt-out` | **Cloudflare page-load gate** — automation cannot reach it |
+| Delete | `/dashboard/account/delete` | Only covers a PeopleFinders **account**, not the public record |
+| Right to Know | `/request-my-info` | **Loads normally — no page-load gate** |
+
+Phone: **(800) 718-8997**, Mon–Fri 7:00–18:00 PST, Sat–Sun 8:00–15:30 PST. A
+phone route bypasses the CAPTCHA entirely and is the realistic option for anyone
+who cannot complete the web flow.
+
+**The Delete link is a trap.** It deletes the account you created, not the
+profile assembled about you. Someone who has never registered has nothing there
+to delete, and clicking it feels like progress while changing nothing.
+
+### `/request-my-info` is the automatable route — up to the last click
+
+Unlike `/opt-out`, this page loads without a Cloudflare challenge. The flow is
+`Request My Info > Verify Identity > Confirmation`, and it opens with:
+
+> *"There's no need to create an account in order to request your personal
+> information."*
+
+Worth quoting, because account creation is exactly what the Delete route implies.
+
+Everything up to the CAPTCHA can be staged: choose **"I am requesting my own
+information"**, which leaves only a reCAPTCHA checkbox and **Continue** for a
+human. That is a genuine one-click hand-off rather than an abandoned flow.
+
+## The opt-out email link expires in 24 hours
+
+The `/opt-out` flow emails a completion link and states:
+
+> *"If you waited longer than 24 hours to click the link below, you will need to
+> start over and generate another link."*
+
+Miss it and you get **"Opt-out Voucher Expired"** — *"This link has already been
+used or has expired. Please restart the process."* Restarting means the
+Cloudflare-gated page and a fresh CAPTCHA. The plain-text copy of that email also
+arrives with the trailing `ticketid` parameter mangled, so copy the link from the
+HTML version. See `_SILENT_FAILURES.md` §2.
+
