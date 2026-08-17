@@ -13,11 +13,34 @@
 
 ## Steps
 
-<!-- Replace once the route is confirmed. What actually worked, in order. -->
+1. Email `support@backgroundcheckers.net`. They answer, and answer usefully.
+2. They will point you at the self-service search below. Run it for your current
+   city — the first search of a session carries no CAPTCHA.
+3. From the second search onward you need a person to read a distorted-text
+   CAPTCHA. **Do not spend one per former address.** Go back to the email thread
+   and ask for suppression at the record level, listing every locality at once.
+4. If a listing is found: submit an email address to prove ownership, then
+   **reply to the acknowledgement email**. Without that reply nothing is removed.
+5. Ask for the outcome in writing. An empty search you ran yourself is not the
+   same artifact as "we hold no record" from the operator.
+
+Phone fallback: **(833) 714-0641**, 8am–11pm EST.
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
+The CAPTCHA is positioned to make address history expensive: city and state are
+both **required** fields, so an index that is address-keyed can only be searched
+one locality at a time, and every locality after the first costs a human.
+Somebody with eight former addresses pays eight times. The way out is not to
+automate around the CAPTCHA — it is to stop using the search and put the list of
+localities in an email, where one message covers all of them.
+
+Their "no results" wording is name-shaped — *"unable to find any search results
+for <name>"* — but the query was city-scoped. Do not read it as an index-wide
+answer. See `_SILENT_FAILURES.md` on results whose phrasing is broader than the
+query that produced them.
+
+<!-- Further notes from their reply. Recurring things worth capturing:
      - Do they refuse email and point at a form? Which form?
      - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
      - Does the form silently drop values not committed with an Add/+ button?

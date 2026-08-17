@@ -1,0 +1,23 @@
+{
+  "_comment": [
+    "Brokers whose playbook lives under another id, because one document covers",
+    "them all. Used by validate.py (does an acted-on broker have a playbook?)",
+    "and playbook_audit.py (is that playbook still current?).",
+    "",
+    "One source of truth on purpose: the two checks disagreed while each kept a",
+    "private copy of this list, and the audit reported six missing playbooks that",
+    "were in fact written -- under the family name.",
+    "",
+    "Only add an entry when the shared document genuinely covers the broker's",
+    "route. Brands that merely share an owner but have separate opt-out flows",
+    "each need their own file."
+  ],
+  "aliases": {
+    "intelius": "peopleconnect",
+    "truthfinder": "peopleconnect",
+    "instantcheckmate": "peopleconnect",
+    "ussearch": "peopleconnect",
+    "zabasearch": "peopleconnect",
+    "addresses_com": "peopleconnect"
+  }
+}

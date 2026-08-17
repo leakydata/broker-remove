@@ -268,6 +268,39 @@ which right remains unexercised and why.
 
 ---
 
+## 8. The answer was phrased more broadly than the question
+
+A people-search site with an address-keyed index required city **and** state to
+run a removal search. The search for one former city came back:
+
+> *"We were unable to find any search results for &lt;name&gt;."*
+
+That sentence names a person and nothing else. The query named a person **and a
+city**, and the answer is only true of that city. Read at face value it says the
+index holds nothing about you; what it actually says is that the index holds
+nothing about you *there*.
+
+This is worth its own entry because it does not feel like a failure mode. There
+is no error, no bounce, no unanswered mail — just a clean negative result that
+invites a conclusion one size too large. Somebody with eight former addresses who
+searches one of them and stops has recorded `not_found` against seven addresses
+they never checked.
+
+The same shape turns up in confirmation emails: *"your information has been
+removed"* when what was removed was one profile among several, and *"we do not
+sell your personal information"* answering a request that also asked for
+deletion.
+
+**Check:** write down the query, not just the answer. If the answer is not
+scoped as narrowly as the question was, it has been generalised for you — and
+generalising back down is your job, not theirs.
+
+**The fix is usually not more searching.** Where a search is gated per query — a
+CAPTCHA from the second search onward is a common arrangement — running it once
+per address is exactly the expensive path the gating is designed to create. Put
+the whole list of localities in one email to the operator instead and ask for
+suppression at the record level. One message covers what eight searches would.
+
 ## The pass that catches these
 
 1. **Bounces before anything else.** A bounce invalidates a request you have

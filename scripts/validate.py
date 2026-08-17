@@ -113,16 +113,20 @@ def main():
     state_path = ROOT / "data" / "removal_status.json"
     if state_path.exists():
         state = json.loads(state_path.read_text())
-        acted = {"submitted", "email_pending", "captcha_blocked",
-                 "manual_required", "failed"}
-        family = {"intelius", "truthfinder", "instantcheckmate", "ussearch",
-                  "zabasearch", "addresses_com"}
+        # Every status except 'pending' means something happened worth writing
+        # down. An earlier version listed only the in-flight ones, so a broker
+        # that reached 'confirmed', 'not_found' or 'unreachable' -- the outcomes
+        # a reader most wants explained -- could lose its playbook silently.
+        alias_path = ROOT / "data" / "playbook_aliases.json"
+        aliases = (json.loads(alias_path.read_text()).get("aliases", {})
+                   if alias_path.exists() else {})
         for bid, rec in state.items():
-            if rec.get("status") not in acted:
+            if rec.get("status") in (None, "pending"):
                 continue
             if (PLAYBOOKS / f"{bid}.md").exists():
                 continue
-            if bid in family and (PLAYBOOKS / "peopleconnect.md").exists():
+            covered_by = aliases.get(bid)
+            if covered_by and (PLAYBOOKS / f"{covered_by}.md").exists():
                 continue
             errors.append(
                 f"{bid}: status '{rec.get('status')}' but no brokers/{bid}.md - "
