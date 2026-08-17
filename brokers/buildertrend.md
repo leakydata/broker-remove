@@ -9,7 +9,8 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-17)
-- Note: Statutory delete/opt-out request emailed, tailored to the broker's data category; awaiting reply.
+- Reference: `form entry ID on file`
+- Note: Web form completed and submitted end to end with no human step; confirmation page returned an entry ID. Their emailed redirect said to use 'the form linked in Section X of our Privacy Notice' — Section X is real (Roman numeral ten, 'Contact Us'), and the form is embedded on that page. Cloudflare Turnstile self-cleared without interaction.
 
 ## Steps
 

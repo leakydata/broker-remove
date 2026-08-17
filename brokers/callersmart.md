@@ -8,26 +8,40 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-17)
-- Note: Statutory delete/opt-out request emailed, tailored to the broker's data category; awaiting reply.
+- Current: `confirmed` (updated 2026-08-17)
+- Note: COMPLETE: all nine telephone numbers individually confirmed opted out by written email, each naming the number: 'The phone book listing has been automatically removed from our website. No personally identifying information will display with this phone number in our phone book.' Nine separate submissions, each with its own reCAPTCHA and verification click.
 
 ## Steps
 
-<!-- Replace once the route is confirmed. What actually worked, in order. -->
+1. Do not email — the inbox is unmonitored. Its auto-reply is still worth
+   triggering once, because it names the route.
+2. Use the opt-out form, and use it **once per phone number**. Listings here are
+   keyed to phone numbers, not to a person.
+3. Solve the CAPTCHA per submission, or batch them; each number is a separate
+   submission with its own CAPTCHA.
+4. Avoid the "self-opt-out" route entirely — see below.
+5. Collect the per-number confirmations. They arrive individually.
+
+Detail for each of these is in the sections below; this is the order, not the
+whole story.
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+Three things, each expanded further down:
+
+- **The published inbox is unmonitored**, but its auto-reply is not useless — it
+  is where the real route is documented (*Unmonitored inbox, but the auto-reply is
+  useful*).
+- **Listings are keyed to phone numbers only**, so a name-based request matches
+  nothing and one submission clears one number (*Listings are keyed to phone
+  numbers only*, *The cost: one submission per number*).
+- **The "self-opt-out" route is the wrong one** and should not be used (*Do not
+  use the "self-opt-out" route*).
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+See *Verifying afterwards* below — the outcome here was confirmed number by
+number, and that is the granularity the check has to work at too.
 
 ## Unmonitored inbox, but the auto-reply is useful
 

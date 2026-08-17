@@ -5,11 +5,9 @@
 - **Priority: 4.**
 
 ## Status
-**Blocked on tooling, not on the broker.** The Claude in Chrome extension has no
-site permission for `clustrmaps.com`, so the page cannot be read or acted on:
-*"Permission denied for reading page content on this domain."*
 
-Fix: grant the domain in the extension, or complete this one by hand.
+- Current: `manual_required` (updated 2026-08-17)
+- Note: Extension permission denied for clustrmaps.com even with 'allow on all sites' enabled - verified twice, including in a fresh tab, while truepeoplesearch.com worked in the same session. Domain-specific block, not a global setting problem. Route to email or complete by hand.
 
 ## What it exposes
 ClustrMaps is **address-centric** — it publishes who lives (or lived) at a given

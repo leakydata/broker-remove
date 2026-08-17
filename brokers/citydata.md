@@ -9,7 +9,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-17)
-- Note: Statutory delete/opt-out request emailed, tailored to the broker's data category; awaiting reply.
+- Note: Published privacy@citydata.ai is a Google Workspace group closed to external posting and bounced. Resent to dpo@citydata.ai from the same privacy page, quoting the bounce so they can fix it. Registry corrected, email_verified set.
 
 ## Steps
 

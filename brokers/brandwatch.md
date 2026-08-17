@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-17)
-- Note: Statutory delete/opt-out request emailed, tailored to the broker's data category; awaiting reply.
+- Note: Autoreply is a gate, not a receipt: it acknowledges the message but says nothing proceeds unless you reply confirming. Replied to proceed. They index Content Authors on social handles only (not name/email/phone), and Users on business email addresses only, so personal addresses yield nothing in the User category. Asked which platforms they hold author content from before supplying handles.
 
 ## Steps
 

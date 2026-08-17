@@ -8,9 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-15)
+- Current: `submitted` (updated 2026-08-17)
 - Reference: `gmail:1a0064b93acf05ab`
-- Note: Statutory deletion + opt-out emailed from [EMAIL]. All 4 email identities + DOB asserted. Includes explicit fallback: if broker claims no covering statute or non-covered state, honor as company policy and state which basis was applied. Covers property/ownership/neighbour reports tied to the address.
+- Note: Same PeopleConnect-style 'unable to locate a full record' reply as BeenVerified, same afternoon. Replied with age, cities/states, full address history and all identifiers, emphasising that this site indexes by property/address so prior addresses matter most.
 
 ## Steps
 

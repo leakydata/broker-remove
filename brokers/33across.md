@@ -8,24 +8,51 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-15)
-- Reference: `gmail:1a00681a9d0ec120`
-- Note: Statutory deletion + opt-out emailed from [EMAIL]. All 4 email identities + DOB asserted. Pre-empts the residency deflection: if no covering statute, honor as company policy and state which basis in writing. ADTECH variant: also demands deletion of cookie IDs, MAIDs, hashed-email identifiers and inferred audience segments; asks them to search hashed forms of each address and to propagate to DSP/SSP partners.
+- Current: `submitted` (updated 2026-08-17)
+- Reference: `auto-reply 2026-08-15`
+- Note: Auto-acknowledged. Adtech opt-out framing - they emphasise interest-based advertising choice rather than deletion; may need follow-up to distinguish opt-out-of-targeting from deletion of identifiers.
 
 ## Steps
 
-<!-- Replace once the route is confirmed. What actually worked, in order. -->
+1. Email `privacy@33across.com` with the **adtech variant** of the letter, not the
+   people-search one. The difference matters — see below.
+2. Demand deletion of the identifier types they actually hold: cookie IDs, mobile
+   advertising IDs, hashed email identifiers, and inferred audience segments.
+3. Ask them to search **hashed forms** of each address. An adtech platform that
+   "has no record of your email" may hold its MD5 and SHA-256 digests, which is
+   the same record by another name.
+4. Ask them to propagate the deletion to DSP and SSP partners the identifiers were
+   syndicated to, and to say which.
+5. Their opt-out page at `https://udp.33across.com/udp_opt_out` is a separate,
+   weaker action — take it as well, but do not let it stand in for the request.
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+They auto-acknowledged, and the acknowledgement framed the request as **interest-
+based advertising choice**. That framing is the thing to push back on.
+
+An adtech opt-out and a deletion request are different in a way that is easy to
+lose: opting out of targeting stops them *acting* on the profile while leaving the
+profile intact, and it is usually implemented as a cookie — which dies with the
+cookie jar, the browser or the device. Deletion removes the record. A reply that
+says "you have been opted out" has answered a question you did not ask.
+
+**Identity-keyed, not name-keyed.** This is the category distinction that governs
+everything here (`_CATEGORY_VARIANTS.md`): a people-search site indexes a person
+by name and address, and an adtech platform indexes a device or a hashed email.
+Sending the people-search letter gets a truthful "we hold no record under that
+name" that is completely uninformative.
+
+Follow-up needed: press them to state, in writing, whether identifiers were
+deleted or merely suppressed from targeting, and whether the deletion reached
+downstream partners. An opt-out that only binds 33Across leaves copies wherever
+the segments were sold.
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+There is nothing to search — you cannot look yourself up in an adtech platform,
+which is exactly why the written answer carries the whole weight here.
+
+Ask for confirmation naming the identifier types deleted, and the downstream
+partners notified. Re-check the opt-out cookie after any browser or device change;
+if the opt-out was cookie-based, that change silently undid it.

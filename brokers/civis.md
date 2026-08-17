@@ -8,26 +8,38 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-17)
-- Note: Statutory delete/opt-out request emailed, tailored to the broker's data category; awaiting reply.
+- Current: `failed` (updated 2026-08-17)
+- Note: Their Data Subject Request form (a Google Form) is restricted to 16 states and PENNSYLVANIA IS NOT AMONG THEM; selecting 'None of the above' does not advance past page one. Structural exclusion, not a bug — PA has no comprehensive consumer privacy statute. Original email request stands and already asks them to honor it as a matter of published policy. Awaiting reply.
 
 ## Steps
 
-<!-- Replace once the route is confirmed. What actually worked, in order. -->
+1. Email the published privacy address. Expect the request-form redirect.
+2. Read the form's eligibility gate before filling it in — it is restricted by
+   state of residence, and that restriction excludes a great deal of the country
+   (*The request form excludes most of the country*).
+3. Where the form refuses you, fall back to email and ask them to honour the
+   request **as company policy**, stating in writing which basis they applied.
+4. See *Other routes* below for what is left when both fail.
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+Civis is a **self-declared data broker** with unusually broad collection, and its
+own request form is the obstacle: it gates on state of residence, so a resident of
+a state with no comprehensive privacy law cannot use it at all. The detail is in
+*The request form excludes most of the country* below.
+
+That gate is the general problem this project keeps running into, in its clearest
+form. Where a broker's only self-service route checks residency, the absence of a
+state statute is not merely "no legal leverage" — it is **no route at all**, even
+for a request the broker would otherwise have honoured. Always ask for the request
+to be honoured as company policy, and ask them to state which basis they used.
+A written "we declined because you live in X" is worth having; silence is not.
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+See *Other routes* below. There is no public index to search here — Civis sells to
+organisations rather than publishing profiles — so verification is entirely a
+matter of what they will put in writing.
 
 ## Self-declared data broker, unusually broad collection
 

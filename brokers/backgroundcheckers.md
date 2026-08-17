@@ -9,7 +9,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-17)
-- Note: Statutory delete/opt-out request emailed, tailored to the broker's data category; awaiting reply.
+- Note: Three localities now searched via their self-service tool (current city, one former borough, one former college town): all three returned no results. Their form requires city+state so each answer is locality-scoped. Awaiting written record-level answer to the emailed request covering all eight.
 
 ## Steps
 
@@ -25,6 +25,11 @@
    same artifact as "we hold no record" from the operator.
 
 Phone fallback: **(833) 714-0641**, 8am–11pm EST.
+
+**Result so far:** three localities searched — the current city, a former
+borough, and a former college town, chosen to span the address history rather
+than cluster in one county. All three returned nothing. That is good evidence and
+still not an index-wide answer; the written reply is what closes it.
 
 ## Gotchas
 

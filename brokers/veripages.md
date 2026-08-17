@@ -8,9 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-15)
+- Current: `submitted` (updated 2026-08-17)
 - Reference: `gmail:1a006815a9f66229`
-- Note: Statutory deletion + opt-out emailed from [EMAIL]. All 4 email identities + DOB asserted. Pre-empts the residency deflection: if no covering statute, honor as company policy and state which basis in writing.
+- Note: Broker directs to /inner/control-privacy but requires a /profile/<Name>/<ID> URL. That format is not exposed in their public search (only /name/First/Last/, which their own email calls wrong), and the full-profile route raises a paid-trial modal. Searched current city and two prior cities: no matching profile identifiable among 214 same-name PA records. Replied asking them to process by identifiers, supply the URLs, or confirm no records.
 
 ## Steps
 

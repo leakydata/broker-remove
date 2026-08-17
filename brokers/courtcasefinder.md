@@ -9,7 +9,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-17)
-- Note: Statutory delete/opt-out request emailed, tailored to the broker's data category; awaiting reply.
+- Note: Zendesk ticket 5386xx issued. Ticket numbering places it on the SAME Zendesk instance as InfoTracer and CourtRecords.us (5381xx, same range, same day), so these brands share one privacy queue covering ~52 domains including every state <state>courtrecords.us site.
 
 ## Steps
 

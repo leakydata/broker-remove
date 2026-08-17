@@ -8,7 +8,8 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-17)
-- Note: Statutory delete/opt-out request emailed, tailored to the broker's data category; awaiting reply.
+- Reference: `tracking code on file`
+- Note: Household opt-out of sale/share (incl. targeted advertising and sensitive PI) submitted and acknowledged by email with a tracking code. Access and Delete remain unexercised because both require a device ID the consumer cannot produce. Stated turnaround 45 days.
 
 ## Steps
 

@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-17)
-- Note: Statutory delete/opt-out request emailed, tailored to the broker's data category; awaiting reply.
+- Note: Auto-reply gate (same template as sister company Brandwatch): nothing proceeds without an explicit confirmation reply. Sent to the monitored privacy@ address. KEY DIFFERENCE from Brandwatch: Cision indexes journalist/influencer records by NAME, EMAIL and social handle, not handles alone, so the standard letter is directly actionable here.
 
 ## Steps
 

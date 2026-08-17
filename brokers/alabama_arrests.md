@@ -9,8 +9,8 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-16)
-- Reference: `covered by InfoTracer 537420`
-- Note: Shares privacy@infotracer.com with InfoTracer (ticket 537420), whose request explicitly covered criminal/court/arrest report compilations. No separate email - avoids duplicate contact to one team.
+- Reference: `gmail:1a00c880b84103f0`
+- Note: Scope clarification on ticket 537420: request covers ALL InfoTracer properties including the 46 state arrest-record sites, plus the expanded identifier set. Asked for disclosure of any entry attributed to the subject and its source, given misattribution risk on a common name.
 
 ## Steps
 

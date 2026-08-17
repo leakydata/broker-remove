@@ -9,7 +9,7 @@
 
 - Current: `submitted` (updated 2026-08-17)
 - Reference: `gmail:1a0104338b32c189`
-- Note: Statutory deletion + opt-out emailed from [EMAIL]. Full identifier set: 8 emails, 10 prior addresses, 9 phones, DOB, aliases. Asks them to search hashed email forms and prior identifiers, and pre-empts the residency deflection. Marketing database compiler: deletion + permanent suppression + source disclosure.
+- Note: Acknowledged by legal@ (the working contact; the published info@ address routes there). Says it will process under CCPA where applicable.
 
 ## Steps
 

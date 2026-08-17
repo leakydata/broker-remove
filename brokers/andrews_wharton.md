@@ -8,23 +8,41 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-17)
-- Note: Statutory delete/opt-out request emailed, tailored to the broker's data category; awaiting reply.
+- Current: `failed` (updated 2026-08-17)
+- Note: Acquired by Stirista; their auto-reply redirects all DSARs to stirista.com and says it will honor only Andrews Wharton requests received before January 1, 2025. Re-filed at Stirista.
 
 ## Steps
 
-<!-- Replace once the route is confirmed. What actually worked, in order. -->
+1. Email `privacy@andrewswharton.com`. An auto-reply answers immediately.
+2. Read it for the redirect: all data-subject requests now go to Stirista, which
+   acquired them.
+3. **Re-file at Stirista.** The request does not carry over; see below.
+4. Mark this record `failed` — not because the company ignored it, but because
+   this route no longer reaches anyone — and track the outcome under `stirista`.
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+Acquired by **Stirista**. Their auto-reply redirects every DSAR to stirista.com,
+and adds a condition worth reading twice: they will honour Andrews Wharton
+requests only if received **before January 1, 2025**.
+
+That cut-off is the interesting part. A request sent to the acquired brand after
+that date is not queued, not forwarded and not refused — it is simply outside
+what the auto-reply says it will act on, while still producing a friendly
+acknowledgement. Everything about the exchange looks like a filed request.
+
+**The general rule:** an acquisition does not merge the two companies' privacy
+queues, and the acquirer's obligations under an acquired brand are whatever the
+acquirer decides to publish. Treat a redirect as an instruction to start over at
+the new name, and never let the redirect email itself stand in as the receipt.
+The data survived the acquisition; the request did not.
+
+Related patterns in `_BROKER_FAMILIES.md` — cross-domain privacy addresses are
+the usual way a rebrand or acquisition gives itself away before anyone announces
+it.
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+Verify at **Stirista**, not here. This domain has no queue of its own left to
+check, and a confirmation from Andrews Wharton — if one ever arrives — would be
+about a request the acquirer has already said it will not action.

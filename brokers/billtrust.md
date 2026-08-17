@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-17)
-- Note: Statutory delete/opt-out request emailed, tailored to the broker's data category; awaiting reply.
+- Note: Published privacy@ address is an internal-only Microsoft 365 distribution group; rejected with 550 5.7.133 SenderNotAuthenticatedForGroup. Resent to privacyrequests@billtrust.com from their privacy policy, quoting the rejection so they can fix the published address.
 
 ## Steps
 
