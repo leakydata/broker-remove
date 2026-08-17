@@ -114,6 +114,21 @@ easy to miss. A bounced request and a pending request look identical in a tracke
   reject every consumer who writes to it. The real address is usually in the
   privacy policy — in one case `privacyrequests@` at the same domain. Worth telling
   them about the misconfiguration when you resend; they generally do not know.
+- **Google Workspace equivalent** — same failure, different wording:
+
+  > *"the group you tried to contact (privacy) may not exist, or you may not have
+  > permission to post messages to the group"*
+
+  A Google Group that is not open to external posting. Note the phrasing invites
+  you to conclude the address is wrong ("may not exist"); it exists, it just will
+  not accept you. Two of the brokers in this project published such an address —
+  one on Microsoft 365, one on Google Workspace — so check the privacy page for a
+  second address (`dpo@`, `privacyrequests@`, `legal@`) before assuming the company
+  is unreachable.
+
+**Both variants are worth reporting back to the broker when you resend.** A
+published privacy contact that rejects every consumer is almost never deliberate,
+and a company that fixes it stops turning away everyone else's requests too.
 
 **The soft bounce that is really a dead domain.** A broker whose DNS returns
 SERVFAIL produces a *soft* bounce, not a hard one: the mail provider cannot tell

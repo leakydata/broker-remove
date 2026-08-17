@@ -2025,8 +2025,9 @@
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "citydata",
-      "email_to": "privacy@citydata.ai",
-      "email_verified": true
+      "email_to": "dpo@citydata.ai",
+      "email_verified": true,
+      "notes": "Published privacy@citydata.ai is a Google Workspace group closed to external posting and bounces ('the group you tried to contact (privacy) may not exist, or you may not have permission to post'). Use dpo@citydata.ai from their privacy page instead."
     },
     {
       "id": "civis",
