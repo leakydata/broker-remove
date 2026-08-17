@@ -29,6 +29,11 @@ To the Privacy Officer at {broker},
 
 I am submitting a consumer request regarding my personal information.
 
+I am the consumer, writing about my own data. I am not an authorized agent acting
+for anyone else, and every email address, address and telephone number listed
+below is mine. I list them all so that each can be searched, because records are
+frequently held against details a person no longer uses.
+
 I request that you:
   1. DELETE all personal information you hold about me;
   2. OPT ME OUT of any sale or sharing of my personal information;
