@@ -26,6 +26,13 @@ Eight types are offered, and they are **not** interchangeable:
 **Submitting only "Delete" leaves the opt-outs unexercised.** Budget for several
 passes: Delete first, then Do Not Sell, Do Not Share, Profiling, and Sensitive PI.
 
+## Progress
+- [x] Delete my Personal Information — *Request Received Successfully*
+- [x] Do not sell my Personal Information — *Request Received Successfully*
+- [ ] Do not share / Opt-out of Cross-Context Behavioral or Targeted Advertising
+- [ ] Opt-out of Profiling / Automated Decision-Making
+- [ ] Opt-out / Revoke Consent for Sensitive Personal Information
+
 ## Route
 `/dsr` → Country: **United States** → pick one request type → I am a: **Consumer**
 → Email / First / Last / Street / City / State / ZIP → **Submit request**.
@@ -43,3 +50,6 @@ Success: *"Request Received Successfully."* An invisible reCAPTCHA runs; no clic
   would have misstated residency on a legal request. Screenshot and verify every
   field before submitting.
 - Employees/applicants use a different address: privacyofficer@publicisgroupe.com.
+- **`form_input` by element ref does not populate the text fields** on this form —
+  it reports success and leaves them empty, while the State dropdown accepts it
+  fine. Click by coordinate and type instead, then screenshot to confirm.
