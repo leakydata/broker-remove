@@ -71,3 +71,32 @@ call. Creating an account with a data broker to leave it means handing over more
 data and a durable identifier. Use the `/data` form instead — it needs no account
 and the auto-reply itself presents it as the primary route.
 
+## Working the list efficiently
+
+Confirmed working, repeatedly. The rhythm per number:
+
+1. `/data` → email + one 10-digit number → **reCAPTCHA** (needs a person) → SEND
+2. Verification mail arrives in under a minute; open the link → *"Verification
+   Completed! Thank you for verifying! Requested number was opted out."*
+3. A separate confirmation mail follows, naming the number:
+   > *"The phone book listing on (XXX) XXX-XXXX has been automatically removed
+   > from our website. No personally identifying information will display with
+   > this phone number in our phone book."*
+
+Only step 1 needs a human. Steps 2 and 3 are doable by anyone with mailbox access,
+so a helper can queue the next number while the confirmations land.
+
+**Two practical gotchas:**
+
+- **The page finishes rendering late.** Clicking a field immediately after
+  navigation lands before the form is interactive and the keystrokes go nowhere —
+  or worse, both values land in whichever box has focus. Wait, click, then verify
+  the caret before typing. Once focused, **Tab** from email to phone is reliable.
+- **The plain-text copy of the verification mail is inconsistently corrupted.** One
+  message dropped the `=` and the first two characters of the signature, producing
+  *"Security error, signature doesn't match"*; the next two were intact. Take the
+  href from the HTML part every time rather than guessing which kind you got.
+
+The number is reformatted to `(XXX) XXX-XXXX` on entry, which is a useful signal
+that the field actually received the digits.
+
