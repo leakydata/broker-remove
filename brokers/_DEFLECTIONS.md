@@ -385,3 +385,53 @@ void the request later — after you have stopped watching.
    to accept email, is exactly the evidence a regulator complaint needs — and it is
    worth saying so, politely, in the request itself.
 
+---
+
+## 15. "We cannot locate a record matching what you provided"
+
+The most common substantive reply from people-search sites, and the one most
+likely to be mistaken for a clean "you are not listed". Verbatim, from two brands
+in the same group on the same afternoon:
+
+> *"We are unable to locate a full record that directly corresponds with the
+> combination of the first name, last name, age, and/or address information you
+> provided. If you have seen your name and information on [site], please provide a
+> link to the page where you see your name and information, or provide the full
+> name, age, cities and states under which your information is listed."*
+
+**Read the rest of the message before concluding anything.** The same reply
+continued:
+
+> *"In the meantime, we have opted-out the other individual pieces of information
+> that you provided to us: Email: ... Phone Number: ..."*
+
+So the email addresses and the phone number **were** suppressed. The failure was
+only on matching the *person* record. A reply like this is a partial success, not
+a refusal, and the tracker entry should say which parts were actioned.
+
+**Why the match fails.** These sites key person records on
+`name + age + city/state`. A standard opt-out letter supplies name, current
+address and email — which is not what the index is built on. Nothing is wrong with
+the request; it simply does not contain the join key.
+
+**What to send back:**
+
+1. **Age, stated as a number.** Not just a date of birth — their operators search
+   an age field. Do the arithmetic for them.
+2. **A bare list of cities and states**, separate from the full postal addresses.
+   That is the shape their search takes. Give both, formatted separately.
+3. **Every prior address.** With a long address history, the record is very likely
+   attached to a former one — the single likeliest reason the match failed.
+4. **Every alias form of the name**, including middle name and initial.
+5. **Ask how many records matched**, so a partial removal cannot pass as complete.
+
+**On the profile-URL request:** you can decline without being obstructive. Say you
+have not located the listing yourself and would rather not purchase a report to
+exercise a privacy right, then point at the identifier combination that
+distinguishes you — date of birth plus an unusual address in the history does most
+of the work. See §12 for when the URL demand is a genuine wall rather than a
+preference.
+
+**Always ask whether the applied opt-out is a suppression**, not a one-time
+removal. "We have opted-out these pieces of information" does not say which.
+
