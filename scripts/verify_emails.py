@@ -227,9 +227,22 @@ def main():
             b["email_verified"] = True
             b["email_verified_by"] = "privacy_policy"
         elif r["verdict"] == "REPLACE":
+            # Prefer the address the broker actually publishes: it certainly
+            # exists, and an unpublished privacy@ guess may simply bounce.
+            # But a privacy request sent to info@ is likelier to be ignored than
+            # one sent to privacy@, so never silently discard the displaced
+            # address -- keep it as a documented fallback to try if this route
+            # goes unanswered.
+            displaced = b.get("email_to")
             b["email_to"] = r["proposed"]
             b["email_verified"] = True
             b["email_verified_by"] = "privacy_policy"
+            if displaced and rank(displaced) < rank(r["proposed"]):
+                b["email_alt"] = displaced
+                note = (f"Site publishes {r['proposed']}; {displaced} is more "
+                        f"privacy-specific but appears nowhere on the site. "
+                        f"Try the alternate if this goes unanswered.")
+                b["notes"] = ((b.get("notes") or "") + " " + note).strip()
         elif r["verdict"] == "UNREACHABLE":
             b["email_verified"] = False
             b["email_verified_by"] = "site_unreachable"

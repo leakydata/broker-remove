@@ -98,3 +98,27 @@ work of fifty.
 - Sequential numbers also tell you roughly how much volume the queue handles,
   which is a decent proxy for whether a slow reply means backlog or neglect.
 
+## Rebrands surface as an address on a different domain
+
+A bulk check of published privacy contacts turned up two entries whose site
+publishes a privacy address on a **completely different domain**:
+
+| Registry says | Site publishes | What it means |
+|---|---|---|
+| `privacy@intentgine.com` | `privacy@pharosiq.com` | Intentgine now operates as PharosIQ |
+| `privacy@iwave.com` | `privacy@kindsight.io` | iWave now operates as Kindsight (`iwave.com` redirects to `kindsight.io/iwave/`) |
+
+Neither is an address correction — both are **companies that changed name**, which
+is the same class as the acquisition redirect in `_DEFLECTIONS.md` §11 but found
+without needing the broker to tell you.
+
+This is worth doing deliberately, because the failure is silent in both
+directions: writing to the old domain may bounce, or may reach an abandoned
+mailbox that no longer has anyone behind it. A cross-domain privacy address on a
+broker's own site is the cheapest rebrand detector available — no research
+required, it falls out of the verification sweep for free.
+
+**Check the redirect too.** `iwave.com` resolving to `kindsight.io/iwave/`
+confirms the relationship rather than leaving it as an inference from a shared
+contact address.
+
