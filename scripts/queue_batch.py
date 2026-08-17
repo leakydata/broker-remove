@@ -31,7 +31,15 @@ REGISTRY = ROOT / "data" / "brokers.json"
 STATE = ROOT / "data" / "removal_status.json"
 
 # Statuses meaning "already handled -- don't re-contact".
-DONE = {"submitted", "confirmed", "not_found", "unreachable", "email_pending"}
+# Statuses that mean "do not put this in an email batch". Two groups:
+#   - already handled: a request is in flight or the outcome is known;
+#   - already ruled out by email: the address bounced, or the only route left is
+#     a phone call, a form, or a person.
+# The second group was missing, so brokers whose email route had already been
+# proved dead kept surfacing at the top of the queue -- and a batch that re-sends
+# to a known-bad address spends the daily cap on guaranteed bounces.
+DONE = {"submitted", "confirmed", "not_found", "unreachable", "email_pending",
+        "failed", "manual_required", "captcha_blocked"}
 
 
 def main():

@@ -78,3 +78,40 @@ Part of a group operating several people-search brands. Ask for the request to b
 applied across all group properties — one ticket can cover several sites, and the
 same reply template appeared from two of their brands on the same afternoon.
 
+## Two searches, everything they asked for, still "unable to locate"
+
+They asked for full name, age, and the cities and states the information is
+listed under. All of it was supplied — plus name variants, date of birth, ten
+addresses spanning about twenty-five years, twelve phone numbers and eight email
+addresses. The second reply was the same as the first:
+
+> *"It seems that we are still unable to locate a full record that directly
+> corresponds with the combination..."*
+
+At that point the exchange has to be forced to a conclusion, because an
+unfulfilled request and an empty database are indistinguishable from outside.
+There are only two honest positions and both are acceptable:
+
+1. **They hold nothing** — then ask for that in those words, and record
+   `not_found`. A written "we hold no record corresponding to this person" is a
+   real artifact and is worth as much as a deletion.
+2. **A record exists that these identifiers do not reach** — then ask which
+   identifier would reach it.
+
+## The profile-URL catch-22
+
+Their fallback is to ask for *"a link to the page where you see your name"*.
+
+Name the difficulty rather than complying: they are asking the consumer to find,
+on their site, the listing they have just said they cannot find in their own
+database. If it is there, the operator is better placed to locate it; if it is
+not, the first answer applies. The same catch-22 turns up at Veripages — see
+`veripages.md`.
+
+**The partial success is real, though.** They opted out the individual email
+addresses and the telephone number while failing the person match, which is more
+than most do. Two follow-ups worth making every time this happens:
+
+- Is the opt-out a **suppression against future re-listing** or a one-time
+  removal? Only the first survives an upstream refresh.
+- Does it cover **all** the addresses supplied, or only those echoed back?

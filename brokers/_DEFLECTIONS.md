@@ -474,3 +474,63 @@ invites this misreading.
 in the opening line of the original letter, and label the address list explicitly
 as *my* addresses. One clause removes the ambiguity.
 
+## 17. "Prove you are authorized to act on the consumer's behalf"
+
+The request is first-party. The reply demands a signed authorization or a power
+of attorney proving you may act for the consumer — that is, proving you are
+yourself.
+
+> *"we have not received sufficient written information to verify that you are
+> duly authorized to act on the consumer's behalf... A valid power of attorney
+> may be submitted in lieu of a signed authorization."*
+
+**Do not comply.** The document being requested cannot exist: there is no
+principal, so there is nobody to sign it. Supplying a notarised anything to prove
+your own identity concedes the misclassification and adds a legal document to a
+data broker's file — which is the opposite of the object of the exercise.
+
+**It folds when answered.** At one broker the demand was withdrawn the same day
+after a single reply, the ticket reclassified, and the request processed, with no
+document supplied. Treat it as a triage default rather than a position: some
+proportion of inbound privacy mail genuinely is from agents, and a template fires.
+
+The reply that works has three parts:
+
+1. State it plainly — *"I am not an authorized agent. I am the consumer."* Say it
+   in the first line, not the fourth paragraph.
+2. Explain the likely trigger. Listing several email addresses and nominating one
+   for correspondence reads, to a clerk working from a template, like an agent
+   writing for a client. Say why they are all listed: records are frequently held
+   against details a person no longer uses, and having several email accounts is
+   not agency.
+3. Ask for a specific action — *"please reclassify the ticket as a consumer
+   request submitted directly by the consumer"* — rather than arguing in general.
+
+**Better still, pre-empt it.** Opening every letter with a first-party
+declaration costs three lines and appears to prevent the misclassification
+outright; it is now the first paragraph of the template in
+`scripts/make_optout_email.py`.
+
+## 18. The FCRA exemption, and the disclaimer that forecloses it
+
+*We are a consumer reporting agency, this data is regulated under the FCRA, and
+state deletion rights do not reach it.*
+
+Before arguing the law, **read their own boilerplate.** Public-records and
+background-check sites very often disclaim consumer-reporting-agency status in
+their footers and terms, because that disclaimer serves a different commercial
+purpose — it is how they avoid FCRA compliance obligations while selling
+background information. One arrest-records operator volunteers it unprompted in
+the signature block of every support email:
+
+> *"[Company] and it's subsidiaries are not a consumer reporting agency as based
+> on the Fair Credit Reporting Act..."*
+
+A company cannot disclaim the status in order to escape the obligations and then
+claim the status in order to escape a deletion request. Nobody inside the company
+reconciles the two documents, so quote them back.
+
+**Keep the artifact.** Boilerplate changes quietly, and a screenshot or raw
+message dated before the refusal is worth considerably more than a link to a page
+that has since been edited.
+

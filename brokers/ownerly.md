@@ -54,3 +54,45 @@ is a property-keyed index: clearing the current address proves the least.
 
 Ask them to confirm the reclassification explicitly. A silent reclassification and
 a silently dropped ticket look identical from outside.
+
+## The authorization demand folded when it was answered
+
+Worth recording as an outcome, not just as an obstacle. The demand for a signed
+authorization or power of attorney was **withdrawn the same day**, after one
+reply explaining that this is a first-party request and that every listed address
+belongs to the consumer. No document was supplied. The ticket was reclassified
+and processed.
+
+So the deflection is not a wall, it is a triage default — and it costs one email
+to clear. Do not supply a power of attorney to prove you are yourself; explain,
+and ask for reclassification. See `_DEFLECTIONS.md`.
+
+## The opt-out list matched the last message, not the ticket
+
+They then confirmed opting out four email addresses and eight phone numbers. The
+four are exactly the four that were **new** in the second message; the four from
+the original request do not appear.
+
+That may mean the originals were handled earlier and simply not re-listed. It may
+also mean the reply was generated against the most recent message rather than
+against the ticket as a whole. **From outside, those two look identical**, which
+is the whole problem — and it is a pattern to watch for wherever a request is
+amended mid-thread:
+
+> A partial confirmation that happens to match your most recent message is not
+> evidence that the earlier identifiers were processed.
+
+Ask for the full list back, explicitly. A confirmation you cannot check is not
+much better than none.
+
+## A property service that reported only on emails and phones
+
+Their search matched on "first name, last name, age, and/or address" and returned
+nothing — but the reply reports on email addresses and telephone numbers only.
+Ownerly's product is property and home-value data, which is keyed to an address.
+Ten addresses were supplied and none is mentioned.
+
+Ask for each address to be searched **as an address**, including any record that
+does not carry the subject's name at all but which the site would surface to
+somebody searching that address. That association is the thing worth deleting
+here, and a name-keyed search will never find it.

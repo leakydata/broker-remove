@@ -80,3 +80,26 @@ Part of a group operating several people-search brands. Ask for the request to b
 applied across all group properties — one ticket can cover several sites, and the
 same reply template appeared from two of their brands on the same afternoon.
 
+## Same template, same impasse, one brand-specific difference
+
+Two searches, both "unable to locate a full record", after being given name,
+variants, date of birth, age, eight cities, ten addresses, twelve phone numbers
+and eight email addresses. The wording is word-for-word what BeenVerified sent on
+the same afternoon, from the same Zendesk instance — see `beenverified.md` for
+the two-outcome reply that applies here too.
+
+The difference worth acting on is what NeighborWho actually indexes.
+
+**It is address-centric.** The product publishes who lives, or has lived, at a
+given address, together with neighbours and prior residents. A name-keyed search
+can therefore return nothing while an address page still names the subject as a
+current or former resident — and that page is what a stranger typing an address
+into the site would see.
+
+So the request has to be phrased twice: delete any name-keyed profile, **and**
+delete the association between the subject and each address. Ask them to search
+all ten addresses *as addresses*. A reply that only reports on emails and phones
+has not answered the question that matters at this brand.
+
+This is the general shape of the category (`_CATEGORY_VARIANTS.md`): where the
+index key is not a person, a person-shaped request misses.

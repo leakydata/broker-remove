@@ -51,3 +51,32 @@ of dozens of sites, with no list, is not a verifiable answer.
 Re-run the public search on the individual state properties, not just the parent
 domain. A family index can be cleared centrally and still serve a cached profile
 on one sub-site.
+
+## They disclaim FCRA status in their own signature block
+
+The reply forwarding the request to their privacy team carries this footer:
+
+> *"VerifyRecords LLC and it's subsidiaries are not a consumer reporting agency
+> as based on the Fair Credit Reporting Act ("FCRA"), and the information should
+> not be used in whole or in part for the purpose of furnishing consumer
+> reports."*
+
+Keep this. It is boilerplate written to limit their liability, and it happens to
+foreclose the most common refusal in this category **before it is raised**.
+
+The FCRA-exemption deflection runs: *we are a consumer reporting agency, the data
+is regulated under FCRA, state deletion rights do not reach it.* A company that
+disclaims consumer-reporting-agency status in writing cannot then claim the
+exemption that status confers. They have already told you which side of the line
+they are on.
+
+**Screenshot the footer, or keep the raw message.** Boilerplate changes quietly,
+and this one is more useful in six months than it is today. Where a broker sends
+you an FCRA-exemption refusal, check their own site and correspondence for a
+disclaimer of exactly this kind first — it is common, because the disclaimer
+serves a different commercial purpose and nobody reconciles the two.
+
+Status: request forwarded to the privacy team by support. The
+disclosure-and-source question — what entry is attributed to the subject, and
+where it came from — is still unanswered, and is the one worth chasing on the
+ticket.
