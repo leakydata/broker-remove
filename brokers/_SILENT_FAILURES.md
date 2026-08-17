@@ -328,3 +328,47 @@ silently, which is precisely when nobody looks again.
 from before trusting them.** A field named `verified` invites you to skip exactly
 the check it was meant to prompt.
 
+---
+
+## Ranking that inverted its own purpose
+
+The address-verification sweep proposed replacing these:
+
+| Held | Proposed |
+|---|---|
+| `dataremoval@` | `info@` |
+| `removalrequests@` | `info@` |
+| `consumerchoice@` | `info@` |
+| `americas.dpo@` (a Data Protection Officer) | `hello.marketing@` |
+
+Every one is backwards. The last would have sent a deletion request to a
+marketing team.
+
+The cause was a one-line assumption. Local-parts were ranked by matching against
+a preference list **anchored to the start of the string**, and the list contained
+none of the purpose-built removal terms. So `dataremoval`, `removalrequests`,
+`consumerchoice`, `delete_mydata` and `americas.dpo` all fell through to
+"unrecognised" — which scored *worse* than a bare `info@` that did match. The
+tool then confidently recommended the downgrade.
+
+**What makes this the same failure as the rest of this file:** the output looked
+authoritative. A verdict called `REPLACE`, with an arrow and a plausible address,
+reads as a considered judgement rather than a fallthrough. Nothing said "I did not
+recognise this."
+
+**Three fixes, all worth copying:**
+
+1. **Rank by intent, matched anywhere in the string.** `americas.dpo` is plainly a
+   DPO address; `privacyanddatacompliancereview` is plainly a privacy one.
+   Prefix-anchored matching cannot see either.
+2. **Put purpose-built removal addresses at the top.** A broker publishing
+   `dataremoval@` or `consumerchoice@` has built a channel for exactly this
+   request. That beats a general mailbox even though both certainly exist.
+3. **Never trade down.** A swap is only an improvement if the new address ranks at
+   least as well. Where the published address is *worse* than the one held, keep
+   the good one and record the published one as `email_alt` — a fallback, not a
+   replacement. A deletion request to `sales@` is worse than one to an unpublished
+   `privacy@` that might bounce, because **a bounce at least tells you it failed.**
+
+Fifteen records now carry a fallback address instead of having lost one.
+

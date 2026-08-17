@@ -69,19 +69,40 @@ NOISE = re.compile(
     r"(sentry|wixpress|\.png|\.jpg|\.gif|\.webp|example\.|domain\.com|"
     r"yourdomain|sentry\.io|@2x|u003e|schema\.org)", re.I)
 
-# Ranked: the earlier the local-part, the better a privacy contact it is.
-PREFERENCE = ["privacy", "privacyrequests", "privacy.officer", "dataprotection",
-              "dpo", "datarequests", "privacyinfo", "compliance", "legal",
-              "optout", "opt-out", "support", "customercare", "customerservice",
-              "info", "contact", "hello", "help"]
+# Ranked by how well the local-part signals a route for THIS kind of request.
+# Purpose-built removal addresses come first: a broker that publishes
+# `dataremoval@` or `consumerchoice@` has built a channel for exactly this, and
+# it will be handled faster and more reliably than a general mailbox.
+#
+# Matching is by substring, not prefix. An earlier version anchored to the start
+# of the local-part, so `dataremoval@`, `removalrequests@`, `consumerchoice@`,
+# `delete_mydata@` and `americas.dpo@` all scored WORSE than a bare `info@` --
+# and the tool duly proposed replacing a Data Protection Officer's address with
+# a marketing one. Rank the intent, wherever it appears in the string.
+PREFERENCE = [
+    # purpose-built for deletion / opt-out
+    "dataremoval", "removalrequest", "deletemydata", "delete_mydata", "optout",
+    "opt-out", "opt_out", "donotsell", "do-not-sell", "consumerchoice", "ccpa",
+    "gdpr", "dsar", "datarequest", "privacyrequest",
+    # privacy and data-protection functions
+    "privacy", "dataprotection", "dpo", "datacompliance", "compliance",
+    "privacyofficer", "legal", "security",
+    # general mailboxes, in descending usefulness
+    "customercare", "customerservice", "support", "help", "webmaster",
+    "contact", "info", "hello", "sales", "admin",
+]
 
 
 def rank(addr):
-    local = addr.split("@")[0].lower()
+    """Lower is better. Substring match, so `americas.dpo` and `privacyanddata
+    compliancereview` both score as the privacy contacts they plainly are."""
+    local = addr.split("@")[0].lower().replace("-", "").replace("_", "").replace(".", "")
+    best = len(PREFERENCE)
     for i, p in enumerate(PREFERENCE):
-        if local == p or local.startswith(p):
-            return i
-    return len(PREFERENCE)
+        token = p.replace("-", "").replace("_", "").replace(".", "")
+        if token in local:
+            best = min(best, i)
+    return best
 
 
 def fetch(url, timeout=12):
@@ -165,9 +186,17 @@ def check(b):
     pool = same or list(found)
     pool.sort(key=rank)
     best = pool[0]
-    if rank(best) < len(PREFERENCE):
+    # Never trade down. A published-but-generic mailbox is not an improvement on
+    # a purpose-built removal address, even though the published one certainly
+    # exists -- a deletion request sent to sales@ or hello.marketing@ is worse
+    # than one sent to an unpublished privacy@ that might bounce, because a
+    # bounce at least tells you it failed.
+    if rank(best) < len(PREFERENCE) and (not current or rank(best) <= rank(current)):
         out["verdict"] = "REPLACE"
         out["proposed"] = best
+    elif current and rank(best) > rank(current):
+        out["verdict"] = "KEEP_BETTER"
+        out["proposed"] = best        # recorded as a fallback, not a swap
     return out
 
 
@@ -246,6 +275,10 @@ def main():
         elif r["verdict"] == "UNREACHABLE":
             b["email_verified"] = False
             b["email_verified_by"] = "site_unreachable"
+        elif r["verdict"] == "KEEP_BETTER":
+            b["email_alt"] = r["proposed"]
+            b["email_verified"] = False
+            b["email_verified_by"] = None
         elif r["verdict"] == "BLOCKED":
             # The site is alive and simply refuses us. That says nothing about
             # whether the address works, so leave the existing flag untouched.
