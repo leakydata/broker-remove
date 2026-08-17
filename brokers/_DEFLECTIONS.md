@@ -255,3 +255,57 @@ being declined, politely, in the same breath as the redirect. Treat the reply as
 This is worth checking for proactively across any list built from public
 registries: broker lists date quickly, and acquisitions are frequent.
 
+---
+
+## 12. "Send us the profile URL" — when the URL is unobtainable
+
+A people-search site answers your request by asking you to identify the profile
+yourself, in a strict format. Veripages, verbatim:
+
+> *"NOTE: Please make sure that the URL you are copying and pasting into the form
+> has the unique ending."*
+>
+> *CORRECT FORMAT: `https://veripages.com/profile/Tom-Lee/HTHQAoBB`*
+> *wrong format: `https://veripages.com/name/Tom/Lee/`*
+> *wrong format: `https://veripages.com/inner/profile/search?fname=Tom&lname=Lee`*
+
+Reasonable-sounding, and often it is — a URL disambiguates you from everyone else
+with your name. Three things can make it a wall:
+
+1. **The required format is not exposed anywhere public.** On the site above, the
+   search results contain only `/name/First/Last/` links — the format the email
+   calls wrong. The "view all details" control does not resolve to a
+   `/profile/<Name>/<ID>` address at all.
+2. **Reaching the full profile raises a paywall.** A *"$1 – 7 day trial access"*
+   modal appears before any detail is shown. The removal then depends on buying a
+   subscription to the service you are trying to leave.
+3. **A common name makes the search itself impractical.** One search for an
+   ordinary first-and-last-name combination returned **214 individuals in a single
+   state**, across 20 pages of results, with no age or date of birth on the cards
+   to tell them apart.
+
+Together these invert the burden: the broker holds the record and the index, and
+asks the person with neither to perform the lookup.
+
+**How to answer.** Don't refuse the format — show you tried, then hand the lookup
+back with the reason it failed:
+
+- State which cities/filters you searched and that no matching profile was found.
+- Say plainly that the required URL format does not appear in their public search
+  results, naming the format that *is* present.
+- Note that the full-profile route raises a payment prompt, and that a statutory
+  right should not be conditioned on a purchase. Keep this factual, not accusatory
+  — it is usually an unconsidered side effect of the paywall, not a deliberate
+  barrier.
+- Offer three ways out, so the easiest one is still a win: process against the
+  identifiers supplied; **send you** the profile URLs so you can submit them as
+  asked; or confirm in writing that no matching records exist.
+
+That third option matters — "we hold nothing about you" in writing is a complete
+answer for a broker with no public listing to re-check.
+
+**Verify before you submit a URL.** If you do find a candidate profile, confirm it
+is actually you (DOB, prior cities, old phone numbers) before asking for removal.
+Submitting a stranger's profile is a real risk with a common name, and it wastes
+the one identifier the broker will act on.
+
