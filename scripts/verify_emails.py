@@ -18,7 +18,8 @@ addresses they publish, and compares them with what the registry holds:
     NO_EMAIL    the site is up but publishes no address (a form or phone may exist)
     BLOCKED     the domain resolves but we cannot read it -- a 403, or a CDN
                 refusing the connection outright. Says nothing about the address.
-    UNREACHABLE the domain does not resolve. This is the only verdict that means
+    UNREACHABLE neither a web address nor a mail exchanger. The only verdict
+                that means
                 there is nobody there.
 
 NO_EMAIL, BLOCKED and UNREACHABLE are three different things and must not be
@@ -43,6 +44,7 @@ import argparse
 import json
 import re
 import socket
+import subprocess
 import sys
 import urllib.error
 import urllib.request
@@ -169,6 +171,7 @@ def emails_on_site(domain):
 
 
 def resolves(domain):
+    """Does the domain have a web address we could connect to?"""
     for d in (domain, "www." + domain):
         try:
             socket.getaddrinfo(d, None)
@@ -176,6 +179,39 @@ def resolves(domain):
         except socket.gaierror:
             continue
     return False
+
+
+def has_mx(domain):
+    """Does the domain publish a mail exchanger?
+
+    This exists because `resolves()` asks the wrong question for this script.
+    It looks for an A record, and a domain can have no A record at all while its
+    mail works perfectly -- an apex with MX but no web host, a www CNAME pointing
+    at a CDN distribution that has since been disabled, or a company that simply
+    does not run a website on the domain it receives mail on.
+
+    That is not hypothetical. `minervadata.xyz` returned gaierror for both the
+    apex and www, which the old code reported as UNREACHABLE -- while publishing
+    a Microsoft 365 MX record and a registration running to 2027. A live company
+    with working mail was one `--apply` away from being written off.
+
+    The script verifies EMAIL addresses. For that purpose an MX record is the
+    relevant signal and an A record is a proxy at best."""
+    try:
+        out = subprocess.run(["dig", "+short", "MX", domain],
+                             capture_output=True, text=True, timeout=10).stdout
+        return any(ln.strip() for ln in out.splitlines())
+    except Exception:
+        # No dig, or it failed. Fall back to the conventional mail hostnames
+        # rather than assuming the worst -- guessing "no mail" is the expensive
+        # direction of this error.
+        for h in ("mail." + domain, "smtp." + domain, domain):
+            try:
+                socket.getaddrinfo(h, 25)
+                return True
+            except (socket.gaierror, OSError):
+                continue
+        return None          # genuinely unknown, not "no"
 
 
 def check(b):
@@ -187,7 +223,19 @@ def check(b):
         out["verdict"] = "NO_DOMAIN"
         return out
     if not resolves(domain):
-        out["verdict"] = "UNREACHABLE"
+        # No web address -- but check the mail before condemning it. A domain
+        # with a working MX and no A record is a live correspondent with no
+        # website, which is a different thing entirely from a dead company.
+        mx = has_mx(domain)
+        if mx is False:
+            out["verdict"] = "UNREACHABLE"
+        else:
+            out["verdict"] = "BLOCKED"
+            out["why"] = ("no web address, but the domain publishes a mail "
+                          "exchanger" if mx else
+                          "no web address, and the mail record could not be "
+                          "checked -- treated as live, since guessing dead is "
+                          "the expensive error")
         return out
 
     found, answered, served = emails_on_site(domain)

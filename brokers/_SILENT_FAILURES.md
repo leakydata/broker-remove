@@ -1056,3 +1056,35 @@ portal, rendered the broker's branding, and then displayed an **empty red error 
 with no text**: enough to prove the endpoint is live and the parameter is the only
 thing missing, which is what makes the report specific rather than "your link does not
 work".
+
+## 30. Our own checker asked the wrong question, again
+
+`verify_emails.py` decided whether a broker was reachable by looking for an **A
+record** on the apex or `www`. It found none for one domain and reported
+**UNREACHABLE** -- the verdict that writes a broker off.
+
+The domain published a **Microsoft 365 MX record** and was registered until 2027. Its
+mail worked. What had actually happened was that the `www` CNAME pointed at a CDN
+distribution that no longer resolved, and the apex had never carried a web host at
+all.
+
+**The script verifies email addresses. For that purpose an MX record is the relevant
+signal and an A record is a proxy at best.** Asking "does it have a website?" to
+decide "can I email them?" conflates two things that come apart routinely: a company
+with no website on the domain it receives mail on is ordinary, not suspicious.
+
+This is the **second** time this check has been wrong in the same direction. The first
+was CDN-fronted hosts refusing the connection, fixed by separating BLOCKED from
+UNREACHABLE. That fix covered *"the host did not answer"* and left uncovered *"there
+is no host to answer"* -- a narrower repair than it looked.
+
+The check now consults MX before condemning anything, and when the mail record cannot
+be determined it returns **unknown rather than no**, resolving to BLOCKED. That
+asymmetry is deliberate: a broker wrongly marked reachable costs one bounced email,
+which is visible and recoverable. A broker wrongly marked unreachable is never
+contacted again, and nothing ever surfaces the mistake.
+
+**Generalising: when a tool of ours condemns a broker, verify the condemnation by
+hand before acting on it.** Every verdict that closes off future work deserves the
+scepticism we apply to a broker's own negatives -- ours are not better evidence
+merely because we wrote them.

@@ -515,9 +515,9 @@
     "via": "email"
   },
   "criminaldatacheck": {
-    "status": "failed",
-    "changed": "2026-08-17",
-    "via": "email"
+    "status": "submitted",
+    "changed": "2026-08-18",
+    "via": "reply"
   },
   "criminalrecords_com": {
     "status": "submitted",
