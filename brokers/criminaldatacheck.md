@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `failed` (updated 2026-08-17)
-- Note: Published contact address support@ hard-bounced ('address couldn't be found'), and it is the ONLY address on their site — contact page offers just a search form and that address. Domain and MX resolve, so the domain is live and the mailbox is not. Appears to be the same affiliate/lead-gen pattern as Criminal.com: funnels searches to a background-check provider rather than holding records. No usable route.
+- Current: `submitted` (updated 2026-08-18)
+- Note: FAMILY CONSOLIDATION, no cap spend. CriminalDataCheck.com publishes priorityoptout@intelius.com - the PeopleConnect family mailbox already serving Intelius, ZabaSearch, EasyBackgroundChecks and Addresses.com. Named it on the open PeopleConnect thread rather than sending a fresh letter, and used it as a concrete test of their unverifiable scope claim ('sites within our corporate family that we control'): CriminalDataCheck was found by following a published contact back to them, not by being named. Also re-raised the three still-unanswered points - name the sites, the name-search-only limitation, and deletion versus suppression.
 
 ## Steps
 
