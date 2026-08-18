@@ -7326,9 +7326,10 @@
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "sheriffsdepartment-net",
-      "email_to": "rivacy@truthfinder.com",
+      "email_to": "privacy@truthfinder.com",
       "email_verified": false,
-      "email_verified_by": null
+      "email_verified_by": null,
+      "notes": "Registry held 'rivacy@truthfinder.com' - a typo, missing the leading p, which would have bounced silently at a domain that does exist. Corrected to privacy@truthfinder.com."
     },
     {
       "id": "shopify",

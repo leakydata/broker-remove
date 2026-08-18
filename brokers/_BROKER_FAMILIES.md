@@ -122,3 +122,65 @@ required, it falls out of the verification sweep for free.
 confirms the relationship rather than leaving it as an inference from a shared
 contact address.
 
+## Detecting a family from the privacy address alone
+
+The cheapest signal in this whole project: **a broker whose published privacy
+contact lives on another broker's domain**. No WHOIS, no corporate filings, no
+reading of terms — the site has told you, in its own privacy policy, which desk
+handles it.
+
+`scripts/family_scan.py` groups the registry by contact address and marks each
+member's status. Across 1,002 tracked brokers it found **115 whose privacy
+address belongs to a different broker in the registry**, in these shapes:
+
+| Shape | Example | What it means |
+|---|---|---|
+| One mailbox, dozens of state-named sites | 51 `*courtrecords.us` sites → `privacy@courtrecords.us` | A network, not fifty-one companies |
+| A brand's address on unrelated-looking sites | `sheriffsdepartment.net`, `recordsquarry.com`, `instantcheckspy.com` → `truthfinder.com` | Affiliate fronts, or quietly-owned brands |
+| A shared support mailbox on a mailer subdomain | five sites → `support@mailer.intelius.com` | One operator behind several products |
+| A rebrand giving itself away | `intentgine` → `privacy@pharosiq.com` | The new name, before anyone announced it |
+
+### The half that saves work
+
+One letter naming every sibling is **one ticket** with an unambiguous scope,
+instead of one ticket per brand — each re-verifying identity, each restarting a
+clock, each an opportunity to be refused. With a daily send cap that is the
+difference between a week and an afternoon. Fifty-one court-record sites went out
+as a single message.
+
+### The half that creates silent gaps
+
+**A sibling your letter did not name is a sibling nobody removed** — and in the
+tracker it is indistinguishable from one that was, because the request did go to
+the right address. Sharing a contact is evidence of a shared **desk**; it is not
+proof of a shared **database**, and no broker will volunteer that your request
+was narrower than you assumed.
+
+So `family_scan.py --actionable` reports the case that matters: a group where
+some members have been written to and others are still pending. That is a prompt
+to reply on the existing ticket naming the rest, not to open a new one.
+
+### Ask the question that has no bad answer
+
+Where a site merely *publishes* another company's address, it may be a front
+rather than a subsidiary. So ask both halves at once:
+
+> *"Please confirm whether these sites are handled by you. If they are, extend my
+> request to cover them explicitly. If they are not, please tell me who does
+> operate them."*
+
+Confirmation extends the request. Denial names the real operator. Both outcomes
+are progress; only silence is not.
+
+### A caution from the same scan
+
+A near-miss check for addresses one character away from a common role name turned
+up `dprivacy@forddirect.com` — which looks exactly like a typo for `privacy@` and
+is the **genuine published address**, confirmed against their own site. It also
+turned up `optout@` on four sites, flagged only because `opt-out@` exists too.
+
+Never auto-correct an address that looks wrong. Flag it, then verify it against
+what the broker publishes. The one address in that batch that really was a typo —
+`rivacy@truthfinder.com`, missing its leading `p` — would have bounced silently at
+a domain that does exist, which is the worst kind of wrong address to hold.
+

@@ -1,24 +1,24 @@
-# Criminalrecords Com
+# Peoplesearch
 
-- **Opt-out:** https://www.intelius.com/privacy-center
-- **Email:** support@mailer.intelius.com (verified)
+- **Opt-out:** https://www.whitepages.com/privacy/ccpa
+- **Email:** support@whitepages.com — **unverified, may bounce**
 - **Method:** web_form — Web form.
-- **Domain:** criminalrecords.com
+- **Domain:** peoplesearch.com
 - **Priority: 2.**
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-17)
-- Note: Statutory delete/opt-out request emailed, tailored to the broker's data category; awaiting reply.
+- Current: `submitted` (updated 2026-08-18)
+- Note: Covered by a letter to support@whitepages.com, which peoplesearch.com publishes as its privacy contact, asking Whitepages to extend the existing request to it explicitly or to say who operates it.
 
 ## Steps
 
-Do not write to this site directly. It publishes **`support@mailer.intelius.com`** as its privacy
+Do not write to this site directly. It publishes **`support@whitepages.com`** as its privacy
 contact — an address on another broker's domain — so a letter addressed to this
 brand alone lands on somebody else's desk with no indication of what it covers.
 
-1. Write **once**, to `support@mailer.intelius.com`, naming every site that shares it:
-   criminalrecords.com, peoplefinder.com, publicrecords.com, reversephonelookup.com and snoopstation.com.
+1. Write **once**, to `support@whitepages.com`, naming every site that shares it:
+   peoplesearch.com.
 2. Ask which of the named properties actually held a record. A completion
    covering all of them with no detail does not say how many were searched.
 3. Ask whether they operate the site at all. If they do not — if it merely
