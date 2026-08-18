@@ -1,0 +1,46 @@
+# Infofree
+
+- **Opt-out:** https://privacycompliance.biz/other-infofree/
+- **Email:** privacy@infofree.com — **unverified, may bounce**
+- **Method:** web_form — Web form.
+- **Domain:** infofree.com
+- **Priority: 2.**
+
+## Status
+
+- Current: `submitted` (updated 2026-08-18)
+- Note: Subscription database of consumer/business records. Lead ask is the export problem: subscribers search and download, so any exported copy is beyond their deletion and is the copy that calls - asked which subscribers received the record. Plus permanent suppression, do-not-call entries held independently of the record, and deletion (not contact-suppression) of any sensitive or modelled attributes.
+
+## Steps
+
+1. Email `privacy@infofree.com`.
+2. Lead with the **export problem** — which subscribers already downloaded the
+   record.
+3. Ask for permanent suppression, and for do-not-call entries held independently.
+4. Ask about sensitive and modelled attributes by name.
+
+## Gotchas
+
+**A subscription search product is an export product.** Customers pay to search and
+download; that is the whole service. So by the time a deletion request arrives, the
+record may exist in dozens of subscribers' own systems, and those copies are
+entirely beyond the reach of a deletion at source. They are also the copies that
+produce the call or the mailing.
+
+Ask which subscribers received the record. It is the only route to the rest, only
+they have the list, and a company that will not delete downstream should at least
+name who holds it.
+
+The rest is the compiled-file shape: permanent suppression rather than deletion
+because these files rebuild on a cycle (`dmdatabases_com.md`), do-not-call entries
+held independently of the record so that deletion does not remove the protection
+(`_SILENT_FAILURES.md` §16), and sensitive or modelled attributes named explicitly
+and asked for as **deletions** rather than contact-suppressions
+(`_CATEGORY_VARIANTS.md`).
+
+## Verification
+
+No public listing. Ask the confirmation to state separately: the record deleted,
+the suppression entry added, the telephone numbers suppressed as standalone
+entries, and the subscribers notified. One sentence covering "your request has been
+completed" answers none of those individually.

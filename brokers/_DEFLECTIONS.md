@@ -746,3 +746,34 @@ Two things that follow:
   those separately.** Nothing about them is public, and they are the part least
   likely to be covered by a request the broker reads as being about public records.
 
+## 25. The removal that requires you to become a customer
+
+Some people-search sites route removals through a flow that requires an account, a
+purchase, or a subscription — so exercising a deletion right means first entering
+into a relationship with the company you are asking to forget you.
+
+Sometimes this is deliberate. More often it is the site having only one identity
+system, and removal being bolted onto it. Either way the effect is the same: a
+proportion of people give up, and the ones who do not have handed over a payment
+method and a verified account to a data broker in exchange for being deleted from
+it.
+
+**Refuse it in the first letter, before it is asked for.** One sentence:
+
+> *"Please do not ask me to create an account, and please do not require a purchase
+> or subscription in order to exercise a deletion right — I am asking you to stop
+> holding my information, not to enter into a relationship with you."*
+
+It costs nothing, it is usually unnecessary because most desks will simply process
+the request, and where it *is* necessary the refusal is worth having in writing. A
+company that will only delete your data if you buy something has said something
+useful about itself, and it is the kind of statement a regulator complaint is built
+on.
+
+**The same applies to identity documents**, with an extra edge where the broker's
+business is compiling exposed personal data: sending a passport or driving licence
+to such a company is a poor trade, and saying so plainly makes the refusal a
+position rather than an obstruction. Offer a proportionate alternative — replying
+from a listed address, or confirming details they already hold — so the refusal
+cannot be read as an unwillingness to verify at all.
+
