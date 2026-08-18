@@ -449,3 +449,30 @@ say in the note how long you waited. "No email after 15 minutes" is a finding;
 This cuts the other way too, and both errors are costly: never mark something
 `submitted` on the strength of a page changing, and never mark it `failed` on the
 strength of an inbox that has not had time to receive anything.
+
+## Two agents are working this project — read the ledger first
+
+A scheduled cloud session runs the same task as any local session, and they
+cannot see each other's `data/removal_status.json`, which is gitignored because
+its notes quote broker replies and carry personal identifiers.
+
+So the shared state is **`data/removal_ledger.json`**, which is committed. It
+holds broker id, status, date of last status change, and channel — and nothing
+else. No notes, no quotes, no identifiers.
+
+**At the start of every pass:**
+
+    git pull --no-rebase origin main
+    uv run scripts/sync_status.py --merge     # adopt what the other agent did
+
+**At the end of every pass, before committing:**
+
+    uv run scripts/sync_status.py             # publish what you did
+
+Without this, both agents work from private copies of reality: a broker showing
+`pending` may have been written to an hour ago, the daily send cap is counted
+twice, and the same company receives two letters. That has already happened once.
+
+A merge never downgrades a status. An outcome you obtained from a broker's own
+reply outranks another agent's report that a letter went out, and the adopted
+entry says plainly that no detail came with it.
