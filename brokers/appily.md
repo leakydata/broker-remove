@@ -7,23 +7,37 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-18)
-- Note: Named explicitly in the EAB letter, which shares privacy@eab.com. No separate request needed.
+- Current: `manual_required` (updated 2026-08-18)
+- Note: Same OneTrust form as EAB and the same Pennsylvania exclusion. The privacy policy linked from the Appily form is hosted at cappex.com, so Appily/Cappex/EAB share a lineage - asked them to say which systems held a record.
 
 ## Steps
 
-<!-- Replace once the route is confirmed. What actually worked, in order. -->
+Covered by the EAB request — same privacy contact, same OneTrust forms. See
+**`eab.md`**, which carries the whole story.
+
+The short version: **the form cannot be completed from Pennsylvania.** Its State of
+Residence dropdown lists only states with comprehensive privacy statutes, and the
+type-ahead silently substitutes a different state rather than refusing. Do not
+submit it. Use the email thread and ask them to honour the request as company
+policy.
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+**The privacy policy linked from the Appily form is hosted at `cappex.com`.** That
+is a third brand in the chain — EAB → Appily → Cappex — and it turned up not from a
+shared privacy address or a ticket number but from a **link target inside a form**.
+
+Worth adding to the detection list in `_BROKER_FAMILIES.md`: where a form's own
+"our Privacy Policy can be found here" points at a different domain, that domain is
+part of the same operation. It is the same class of evidence as a cross-domain
+privacy address, and just as unintentional.
+
+Asked them to say which of the three systems held a record, since a request
+processed against one brand's database is not self-evidently processed against the
+others.
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+As `eab.md`. Ask which of EAB, Appily and Cappex held a record, and which
+institutions received the data — student-search records are distributed to
+colleges, and those copies outlive any deletion at the source.

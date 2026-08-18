@@ -231,3 +231,32 @@ Compare the strength of the signals available from outside:
 | Ticket numbers in one sequence | **Moderate** | One vendor tenant; may be an agency |
 | Similar domain name | Weak | Proves nothing; cheap to ask about |
 
+## A form's own policy link can name a third brand
+
+Found while working an education-data company's privacy form: the line *"Our
+Privacy Policy can be found here"* pointed at a **different domain** from either
+the company that sent the link or the brand on the form's letterhead.
+
+    EAB  →  sends a form branded  Appily  →  whose policy is hosted at  cappex.com
+
+Three names, one operation, and the evidence was a link target nobody thought
+about. It is the same class of signal as a cross-domain privacy address — an
+internal reality showing through a surface that was never curated for consistency —
+and it costs nothing to check.
+
+**Where to look, in rough order of how often it pays:**
+
+| Place | What to check |
+|---|---|
+| Privacy contact address | Does the domain match the brand? |
+| The form's "Privacy Policy" link | Same |
+| The form's own URL or vendor tenant ID | Two brands sharing one OneTrust tenant UUID are one customer |
+| Ticket numbers | Nearby numbers mean one helpdesk tenant |
+| Reply-to and bounce paths | A DSN naming a different mailbox reveals the alias behind the published address |
+
+The OneTrust tenant ID is worth singling out. A OneTrust form URL has the shape
+`/webform/<tenant>/<form>` — **the first UUID identifies the customer**. Two brands
+whose forms share that first UUID are the same OneTrust customer, whatever names
+appear on the pages. That is close to conclusive, and it is sitting in the address
+bar.
+

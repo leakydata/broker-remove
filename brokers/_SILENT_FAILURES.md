@@ -679,6 +679,42 @@ personal, and the tell is exactness rather than tone.
 messages is good evidence that a company's stated privacy channel does not
 function, which is precisely what a regulator complaint needs.
 
+## 20. The state dropdown that omits your state — and picks another one for you
+
+An education-data company's privacy request form has a required **State of
+Residence** dropdown. Its options are only the states with comprehensive consumer
+privacy statutes: the list runs Oregon straight to Rhode Island. A Pennsylvania
+resident has nothing to select, so the form cannot be submitted at all.
+
+That much is the residency gate in its most concrete form — not a policy argued in
+a reply, but a control that will not accept you (`_DEFLECTIONS.md` §3, §23).
+
+**The second half is worse.** The field is a type-ahead. Typing "Pennsylvania" did
+not reject the entry and did not say the state was unavailable. It silently
+resolved to **"Colorado"** and left that sitting in the box.
+
+Follow what that does to somebody filling the form at normal speed: they type their
+state, the box accepts *something*, they move on, they submit. The form now records
+a Pennsylvania resident as a Colorado resident — on a privacy request, under a
+notice saying the information is used to verify identity, where state of residence
+decides which statute is applied. Nobody intended it and nobody would notice.
+
+**Check, on any form with a state or country selector:**
+
+- **Read the option list before typing.** If your state is missing, that *is* the
+  answer, and no amount of filling in the rest will change it.
+- **Re-read the field after typing.** A type-ahead that substitutes rather than
+  refuses is not rare, and the substitution looks exactly like a successful entry.
+- **Never submit a state you do not live in**, even where the form leaves you no
+  other option. These forms frequently carry a certification, and a false statement
+  of residence turns a lawful request into a defective one — and hands the company
+  a reason to void it later.
+
+**What to do instead:** report both faults in writing, and ask them to process the
+request as a matter of company policy while stating the basis they applied. A
+non-discrimination notice on the same form is worth quoting back: declining a
+deletion request solely because of where somebody lives sits oddly beside it.
+
 ## The pass that catches these
 
 1. **Bounces before anything else.** A bounce invalidates a request you have

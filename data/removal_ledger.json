@@ -160,9 +160,9 @@
     "via": null
   },
   "appily": {
-    "status": "submitted",
-    "changed": "2026-08-17",
-    "via": "email"
+    "status": "manual_required",
+    "changed": "2026-08-18",
+    "via": "reply"
   },
   "arity": {
     "status": "submitted",
@@ -680,9 +680,9 @@
     "via": "email"
   },
   "eab": {
-    "status": "submitted",
+    "status": "manual_required",
     "changed": "2026-08-18",
-    "via": "email"
+    "via": "reply"
   },
   "easybackgroundchecks": {
     "status": "submitted",
