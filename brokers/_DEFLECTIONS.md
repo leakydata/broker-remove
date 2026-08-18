@@ -570,3 +570,57 @@ processed your request" answers none of them:
   record on a website and not selling it are different actions, and only the
   first is "suppression".
 
+## 20. The jurisdictional reply that answers a question you did not ask
+
+A UK or EU company holding US consumer data replies that you are not a UK or EU
+data subject, so the GDPR does not apply to you.
+
+That may well be correct. It is also **not an answer**. "You do not have the right
+you did not claim" says nothing about whether your data still exists, and a thread
+that ends there ends with the data intact and the request looking answered.
+
+**Concede the point you were never making, then restate the real one.** In the
+original letter, before they raise it:
+
+> *"I am not claiming to be a UK or EU data subject, and I am not asserting rights
+> under the UK GDPR on the basis of residence. However, if you process the personal
+> data of US individuals — as any holder of the addresses above necessarily does —
+> then the question is simply whether you will action a deletion request from the
+> person concerned. I am asking you to do so, whether as a matter of law or of
+> company policy, and to tell me in writing which basis you applied."*
+
+One paragraph, and it removes the easiest exit. It also makes a refusal legible: a
+company that declines *after* that framing has declined to delete, which is a
+materially different thing to hold in writing than a disagreement about
+jurisdiction — and a much better piece of evidence if it ever goes to a regulator.
+
+The same shape works for the domestic version — *"your state has no comprehensive
+privacy law"* — which is true of Pennsylvania and equally beside the point. Ask
+them to honour it as company policy and to state which basis they applied. See §3.
+
+## 21. "We only process this on behalf of our clients"
+
+The processor-not-controller reply: we hold your data for our customers, so please
+take it up with them.
+
+Often technically true, and practically a dead end — **you do not know who the
+customers are**, which is precisely why the exit works. This is standard at
+visitor-identification, identity-resolution and data-enrichment businesses, where
+the whole product is operated for somebody else's account.
+
+**Ask for the client list in the same breath as the deletion**, so the answer is
+useful whichever way it goes:
+
+> *"If you hold this data on behalf of clients rather than for your own account,
+> please tell me which clients, so that I can make the same request of them
+> directly."*
+
+A company that will not delete should at minimum name who can. Refusing both — we
+cannot delete it and we will not say who holds it — is a much weaker position for
+them to be in, and it is worth making them occupy it explicitly rather than
+letting the first half stand alone.
+
+Note also that a processor is generally obliged to **pass the request on** to the
+controller. Asking them to do that, and to confirm they have, is a reasonable
+request that costs them very little to grant.
+
