@@ -9,22 +9,62 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-18)
-- Note: Statutory delete + opt-out + suppression letter sent to the published contact, covering every prior address, prior telephone number and alternate email address rather than only the current ones.
+- Note: Deflection: 'Please send us a link where your information appears.' That puts the search on the party with no access to the database. Pushed back: a consumer cannot enumerate what a data company holds, and a no-result from me is not a no-record from them - the record may be unindexed, filed under a former address, or in a licensed product with no public page. Re-sent every identifier, asked specifically about professional/occupational licence records keyed to a licence number, issuing authority or business address, and offered to work with a URL if their tool genuinely requires one as input.
 
 ## Steps
 
-<!-- Replace once the route is confirmed. What actually worked, in order. -->
+1. Email `support@licensefiles.com`. They reply quickly, via HubSpot.
+2. Expect "send us a link where your information appears". Do not go looking.
+3. Reply explaining why the search is theirs to run, resend every identifier, and
+   ask specifically about licence-keyed records.
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+They ask the consumer to find the record first. Why that is the wrong way round,
+and how to answer it without a fight, is below.
 
 ## Verification
 
 <!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+
+## "Send us a link where your information appears"
+
+This is a deflection worth recognising because it sounds cooperative. It is not a
+refusal, it does not cite a statute, and it reads like someone trying to help.
+
+**The problem is that it reverses who can see what.** A consumer cannot enumerate
+what a data company holds about them; the company can. That asymmetry is the reason
+a right to delete exists as a right rather than a request. Asking the consumer to
+locate the record first makes the outcome depend on how good they are at finding
+themselves, rather than on what the company holds.
+
+It also produces a worthless negative. If the consumer searches and finds nothing,
+that establishes nothing: the records may not be publicly indexed at all, they may
+be filed under a former address or a disconnected number, or they may sit inside a
+licensed data product with no public page to link to. **A "no result" from the
+consumer is not a "no record" from the company**, and neither side should treat it
+as one.
+
+## How to answer it without a fight
+
+Three moves, and the third matters most:
+
+1. Say plainly that the search is theirs to run, and why -- the asymmetry, not an
+   accusation.
+2. Resend **every** identifier, including prior addresses and disconnected numbers,
+   so the request cannot be characterised as too vague to action.
+3. **Offer the benign reading.** If their removal tool genuinely takes a listing URL
+   as its input, that is a real constraint and worth knowing; ask them to say so and
+   point you at the tool.
+
+That third move costs one sentence and converts a stand-off into a question. It also
+protects against the case where the request is reasonable and only the wording was
+clumsy.
+
+## Ask about licence-keyed records specifically
+
+The whole product here is professional and occupational licence data. A record may
+be tied to a **licence number, an issuing authority, or a business address** rather
+than to a home address -- which is exactly the kind of record a name-and-address
+search misses, and exactly what a consumer asked to "send a link" would never find.
+

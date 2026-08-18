@@ -165,7 +165,7 @@
     "via": "reply"
   },
   "arity": {
-    "status": "captcha_blocked",
+    "status": "submitted",
     "changed": "2026-08-18",
     "via": "web"
   },
@@ -1135,7 +1135,7 @@
     "via": null
   },
   "kids_live_safe": {
-    "status": "submitted",
+    "status": "confirmed",
     "changed": "2026-08-18",
     "via": "email"
   },
@@ -1197,7 +1197,7 @@
   "licensefiles": {
     "status": "submitted",
     "changed": "2026-08-18",
-    "via": "email"
+    "via": "reply"
   },
   "lighthouse_list": {
     "status": "submitted",

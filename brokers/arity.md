@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `captcha_blocked` (updated 2026-08-18)
-- Note: Routed to their OneTrust intake form. Staged: Pennsylvania (selected from the list, not typed), Delete Data, delete declaration Yes, For Myself, [PERSONAL] / [PERSONAL] / [EMAIL] x2, phone. Mobile Ad ID left DELIBERATELY BLANK - it is optional and supplying it would create the link we are trying to break. Two things left for the user: the 'Is the number provided a mobile number?' Yes/No, which is their fact to assert, and the reCAPTCHA.
+- Current: `submitted` (updated 2026-08-18)
+- Note: User submitted the OneTrust intake form; Request ID KP96PDJR5Q. OneTrust then emailed a mandatory verification step - 'One more step is required before we can process your request. Please confirm your email by clicking on the button below.' Clicked; the portal returned 'Your request is confirmed! Thank you for confirming your email address. There may be additional verification steps to complete before we can begin processing your request.' Note the OneTrust tenant is branded 'Allstate Enterprise' in the email template - Arity is an Allstate company, which is a family signal worth carrying.
 
 ## Steps
 
