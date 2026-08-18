@@ -940,3 +940,46 @@ a form would omit it. It was not that. Typing a single "P" showed Pennsylvania
 present alongside Mississippi and New Hampshire. **A tool failure had been about to
 be recorded as a fact about the world.**
 
+## 25. The route they name has nothing on it
+
+A broker refuses email and names a URL instead. The URL loads, looks official, and
+carries a heading like "Data Rights and Privacy" -- and contains no form, no request
+types and no submit control. In one case the footer link literally labelled
+**"Opt-Out Form"** pointed at that same empty page.
+
+This is the most complete dead end in the collection, because both halves look like
+progress. The refusal is polite and specific. The page exists and is on-topic. Only
+by reading the page for **interactive elements** rather than for text does it become
+clear there is nothing to do there.
+
+**Check what a page can do, not what it says.** An accessibility-tree read that
+returns only an Exit button and an outbound marketing link is the finding.
+
+**The usual cause is jurisdiction configuration, not breakage.** Consent-platform
+privacy centres commonly render rights options only for visitors whose state matches
+a configured regulation and fall back to informational prose otherwise. So the page
+works perfectly when the company tests it, and shows nothing to a consumer in a
+state with no comprehensive statute -- while the refusal email sends everyone there
+regardless.
+
+That distinction changes how to report it. "Your form is broken" gets answered with
+a screenshot proving it is not. "Your page renders no form for a visitor outside a
+covered jurisdiction, and your email directs those visitors there anyway" cannot be.
+
+## 26. The confirmation that is a reply, not a click
+
+Nearly every broker confirms an opt-out by **clicking a link**. At least one requires
+you to **reply** to the acknowledgement email instead, and says so plainly:
+
+> *"Respond to the acknowledgement email to authorize removal of your listing. If
+> you do not respond to the email, your listing will NOT be removed."*
+
+A reply is much easier to leave undone than a click. A link is one action in the
+mailbox you are already looking at; a reply means composing a message. Worse,
+anyone habituated to the click pattern will open the acknowledgement, scan for a
+link, find none, and close it -- having done the exact thing that leaves the request
+void.
+
+**Read the acknowledgement for the verb.** "Click", "confirm", "respond" and "reply"
+are not interchangeable, and the one broker in twenty who wants a reply will not
+send a link for you to find.

@@ -667,7 +667,7 @@
   "driveniq": {
     "status": "submitted",
     "changed": "2026-08-18",
-    "via": "email"
+    "via": "reply"
   },
   "dtn": {
     "status": "manual_required",
@@ -1030,9 +1030,9 @@
     "via": null
   },
   "inmatessearcher": {
-    "status": "submitted",
+    "status": "captcha_blocked",
     "changed": "2026-08-18",
-    "via": null
+    "via": "web"
   },
   "inmobi": {
     "status": "submitted",
