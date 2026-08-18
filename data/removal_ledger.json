@@ -639,6 +639,11 @@
     "changed": "2026-08-17",
     "via": "email"
   },
+  "digdev": {
+    "status": "submitted",
+    "changed": "2026-08-18",
+    "via": null
+  },
   "digital_media_solutions": {
     "status": "submitted",
     "changed": "2026-08-17",
@@ -764,6 +769,11 @@
     "changed": "2026-08-16",
     "via": null
   },
+  "firmfuel": {
+    "status": "submitted",
+    "changed": "2026-08-18",
+    "via": null
+  },
   "five_by_five": {
     "status": "submitted",
     "changed": "2026-08-18",
@@ -849,6 +859,11 @@
     "changed": "2026-08-18",
     "via": "email"
   },
+  "fushia_media": {
+    "status": "submitted",
+    "changed": "2026-08-18",
+    "via": null
+  },
   "gale": {
     "status": "submitted",
     "changed": "2026-08-18",
@@ -923,6 +938,11 @@
     "status": "submitted",
     "changed": "2026-08-18",
     "via": "email"
+  },
+  "homeowner_marketing_services": {
+    "status": "submitted",
+    "changed": "2026-08-18",
+    "via": null
   },
   "i360": {
     "status": "submitted",
@@ -1004,6 +1024,16 @@
     "changed": "2026-08-15",
     "via": null
   },
+  "inmatessearcher": {
+    "status": "submitted",
+    "changed": "2026-08-18",
+    "via": null
+  },
+  "inmobi": {
+    "status": "submitted",
+    "changed": "2026-08-18",
+    "via": null
+  },
   "instantcheckmate": {
     "status": "submitted",
     "changed": "2026-08-15",
@@ -1018,6 +1048,16 @@
     "status": "submitted",
     "changed": "2026-08-15",
     "via": "reply"
+  },
+  "intentgine": {
+    "status": "submitted",
+    "changed": "2026-08-18",
+    "via": null
+  },
+  "intranet_quorum": {
+    "status": "submitted",
+    "changed": "2026-08-18",
+    "via": null
   },
   "iowa_arrests": {
     "status": "submitted",
@@ -1038,6 +1078,11 @@
     "status": "submitted",
     "changed": "2026-08-18",
     "via": "email"
+  },
+  "j_d_power": {
+    "status": "submitted",
+    "changed": "2026-08-18",
+    "via": null
   },
   "kansas_arrests": {
     "status": "submitted",
@@ -1067,6 +1112,21 @@
   "kentuckycourtrecords_us": {
     "status": "submitted",
     "changed": "2026-08-16",
+    "via": null
+  },
+  "key_marketing_advantage": {
+    "status": "submitted",
+    "changed": "2026-08-18",
+    "via": null
+  },
+  "keyopinionleaders": {
+    "status": "submitted",
+    "changed": "2026-08-18",
+    "via": null
+  },
+  "keyword_connects": {
+    "status": "submitted",
+    "changed": "2026-08-18",
     "via": null
   },
   "kids_live_safe": {
