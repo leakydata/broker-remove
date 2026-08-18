@@ -47,3 +47,27 @@ into a relationship.
 Re-run the public search on the name and on each former address. Ask the
 confirmation to state which system was searched — a reply about the monitoring
 service has not answered anything about the public index.
+
+## Their ticket number gave away a family
+
+Request `538837`. That number matters more than the request it identifies:
+
+    537420   InfoTracer      (and its 46 state arrest-record sites)
+    538631   CourtCaseFinder
+    538837   IDStrong
+
+Three brands, one helpdesk sequence. The numbers are assigned by the vendor rather
+than chosen by the company, so a shared sequence normally means a shared tenant —
+see `_BROKER_FAMILIES.md`, which now carries the detection and its limits.
+
+**Asked rather than assumed.** A shared Zendesk instance is not a shared database:
+two firms can use one vendor, or an agency can run several clients' desks. So the
+follow-up puts three possible answers to them and says each is useful — same
+operation (then one request covers all, and name the properties), same vendor only
+(then pursue separately, nothing lost), or some other relationship (then name the
+entity that actually holds the records).
+
+That framing matters. A question invites an answer; an accusation invites a denial,
+and a denial to an assertion you cannot prove leaves you worse off than before you
+asked.
+

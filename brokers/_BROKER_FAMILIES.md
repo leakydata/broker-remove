@@ -184,3 +184,50 @@ what the broker publishes. The one address in that batch that really was a typo 
 `rivacy@truthfinder.com`, missing its leading `p` — would have bounced silently at
 a domain that does exist, which is the worst kind of wrong address to hold.
 
+## Ticket numbers give away a shared helpdesk
+
+A helpdesk hands out ticket references from one sequence per tenant. So two brands
+that look unrelated — different names, different domains, different reply addresses
+— will issue numbers a few hundred apart if one company is behind both, and a few
+million apart if not.
+
+Three brands in this project number from a single sequence:
+
+    537420   InfoTracer          (and its 46 state arrest-record sites)
+    538631   CourtCaseFinder
+    538837   IDStrong
+
+**Why this is better evidence than it looks.** The number is assigned by the vendor
+rather than chosen by the broker, and nobody involved thinks of it as identifying —
+there is no incentive to obscure it and no reason to notice it leaks. It is the
+kind of signal that survives precisely because it is beneath attention.
+
+**Why it is still only a question.** A shared Zendesk instance is not a shared
+database. Two companies can use one support vendor, or one agency can run the desks
+of several clients. So the finding is a *question to put to the operator*, never a
+fact to record — and the question is worth putting because every answer helps:
+
+- *Same operation?* → one request covers all of them; name the properties.
+- *Same vendor only?* → pursue them independently, nothing lost.
+- *Some other relationship?* → they name the entity that actually holds the
+  records.
+
+`scripts/family_scan.py --tickets` clusters recorded ticket references and reports
+where more than one brand shares a window. It is deliberately conservative:
+
+- **Six digits minimum.** An earlier version matched five-digit numbers and
+  cheerfully grouped two unrelated brokers because one note mentioned a **ZIP
+  code**. Five-digit "references" are postcodes far more often than tickets.
+- **The window is adjustable** (`--window`, default 5000). Wide enough to catch a
+  busy desk's numbering over days; narrow enough that unrelated instances do not
+  collide.
+
+Compare the strength of the signals available from outside:
+
+| Signal | Strength | Why |
+|---|---|---|
+| Shared privacy address on another broker's domain | Strong | The broker published it themselves |
+| Word-for-word identical support template, same day | Strong | One desk, one macro |
+| Ticket numbers in one sequence | **Moderate** | One vendor tenant; may be an agency |
+| Similar domain name | Weak | Proves nothing; cheap to ask about |
+

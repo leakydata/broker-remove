@@ -33,10 +33,12 @@ naming the sibling, rather than opening a new one.
     ./family_scan.py                 # every shared-contact group
     ./family_scan.py --actionable    # only groups with an uncovered sibling
     ./family_scan.py --min-size 3
+    ./family_scan.py --tickets       # brands sharing a ticket-number sequence
 """
 
 import argparse
 import json
+import re
 import sys
 from collections import defaultdict
 from pathlib import Path
@@ -53,16 +55,70 @@ def norm(d):
     return (d or "").strip().lower().removeprefix("www.")
 
 
+# Six digits minimum, deliberately. Five-digit numbers are ZIP codes far more
+# often than ticket references, and an early version happily grouped two
+# unrelated brokers because one note mentioned a postcode.
+TICKET = re.compile(r"\b(\d{6,8})\b")
+
+
+def ticket_scan(state, window):
+    """Group brokers whose issued ticket numbers fall close together.
+
+    A shared helpdesk hands out ticket numbers from one sequence. So two brands
+    that look unrelated, answering from different addresses, will issue numbers a
+    few hundred apart if they are the same tenant -- and a few million apart if
+    they are not.
+
+    This is weaker evidence than a shared privacy address and considerably
+    stronger than a hunch: the numbers are assigned by the vendor, not chosen by
+    the broker, and nobody thinks of them as identifying. Treat a hit as a
+    question to ask the operator, not as a fact to record."""
+    seen = []
+    for bid, rec in state.items():
+        blob = " ".join([(rec.get("note") or "")]
+                        + [(h.get("note") or "") for h in rec.get("history", [])])
+        for m in TICKET.finditer(blob):
+            seen.append((int(m.group(1)), bid))
+    seen = sorted(set(seen))
+
+    groups, current = [], []
+    for num, bid in seen:
+        if current and num - current[-1][0] > window:
+            groups.append(current)
+            current = []
+        current.append((num, bid))
+    if current:
+        groups.append(current)
+    return [g for g in groups if len({b for _, b in g}) > 1]
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--actionable", action="store_true",
                     help="only groups where some member is still pending")
     ap.add_argument("--min-size", type=int, default=2)
+    ap.add_argument("--tickets", action="store_true",
+                    help="group brands by nearby ticket numbers instead")
+    ap.add_argument("--window", type=int, default=5000,
+                    help="how close two ticket numbers must be to group them")
     a = ap.parse_args()
 
     brokers = json.loads(REGISTRY.read_text())["brokers"]
     state = json.loads(STATE.read_text()) if STATE.exists() else {}
+
+    if a.tickets:
+        groups = ticket_scan(state, a.window)
+        for g in groups:
+            names = sorted({b for _, b in g})
+            print(f"\ntickets {g[0][0]}-{g[-1][0]}  ({len(names)} brand(s))")
+            for num, bid in g:
+                print(f"   {num}  {bid}")
+            print("  -> ask each operator to confirm the relationship and extend "
+                  "scope; a shared sequence is a question, not a finding.")
+        print(f"\n{len(groups)} ticket cluster(s) spanning more than one brand")
+        return 0
+
     owner_of = {}
     for b in brokers:
         d = norm(b.get("domain"))
