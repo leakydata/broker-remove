@@ -45,3 +45,33 @@ trusting "delete all personal information" to cover it:
 No public listing. Ask which suppression list the entry was added to and whether
 it is checked at every build, and ask separately for confirmation that any
 sensitive-category attributes were deleted rather than suppressed.
+
+## "If present" is not an answer
+
+They replied within a day:
+
+> *"Your optout request has been processed and if present you will be removed from
+> our database within 24 hours."*
+
+Fast, and worth noting for that. But read the conditional. **"If present"** leaves
+it unknown whether they held a record and removed it, or held nothing and there was
+nothing to remove — and those are different outcomes that a tracker has to record
+differently.
+
+This is a milder cousin of `_SILENT_FAILURES.md` §17: not a negative scoped to the
+wrong noun, but a statement carefully constructed to assert nothing about whether a
+record existed. It is probably not evasion — more likely the reply was sent before
+the search ran — which is exactly why asking costs nothing.
+
+**Also note the noun they chose.** The letter asked for deletion, permanent
+suppression, disclosure of sensitive attributes, the acquisition source and the
+list of renters. The reply calls it an **"optout request"**. Whatever was actually
+done, the frame is narrower than the ask, and the ask most likely to fall outside
+an opt-out is the sensitive-attribute one — a do-not-mail flag stops the mailings
+while leaving the attribute on a record that stays licensable, and it is the
+attribute rather than the mailing that gets sold.
+
+Pressed on three points: was a record present, is this a permanent suppression
+entry checked at every build or a removed row that returns at the next one, and do
+any sensitive or modelled attributes exist and have they been deleted.
+

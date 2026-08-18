@@ -514,3 +514,39 @@ person's profile characteristically leaves the edge intact on the other's — st
 naming you, still searchable, and never mentioned in a confirmation about "your
 profile".
 
+## Do not hand over a device identifier to establish that one is not held
+
+A location broker's opt-out page needs your Apple IDFA or Android advertising ID.
+The instinct is to fetch it and paste it in — it is the key, after all, and the
+company says plainly it is used to locate the request rather than to verify you.
+
+**Ask first whether they hold a record at all.**
+
+If they do not, supplying an advertising identifier gives the company a fresh
+identifier for you *in order to ask them to delete something that may not exist*.
+The request creates the link it was meant to break, and the company now has a
+device ID and an email address that arrived together — which is precisely the join
+these businesses pay for.
+
+If they do hold one, supply it immediately: they already have it, and nothing is
+given away.
+
+**One round trip settles it.** Ask what identifiers they hold you under, and
+whether any key other than the advertising ID would locate or re-link a record
+after that ID is deleted — a hashed email, an IP-derived household, a location
+centroid, a persistent internal ID that survives an advertising-ID reset.
+
+### Two follow-ups that decide whether the opt-out is worth anything
+
+An advertising identifier is **user-resettable**, and on iOS it is zeroed when app
+tracking is declined. So an opt-out bound to that one string may be undone by an
+action the operating system actively encourages:
+
+  a. **Does the opt-out survive a reset?** Or does a new identifier arrive with no
+     suppression attached?
+  b. **What about a device whose IDFA is all zeros?** If a record exists for such a
+     device, it is not keyed to the advertising ID — so what is it keyed to?
+
+Neither question fits in a form field. Ask them on the email thread, and treat the
+portal as capturing only what its fields happen to ask.
+

@@ -797,7 +797,7 @@
   "focus_usa": {
     "status": "submitted",
     "changed": "2026-08-18",
-    "via": "email"
+    "via": "reply"
   },
   "forddirect": {
     "status": "submitted",
@@ -812,7 +812,7 @@
   "foursquare": {
     "status": "submitted",
     "changed": "2026-08-18",
-    "via": "email"
+    "via": "reply"
   },
   "fourthwall": {
     "status": "failed",

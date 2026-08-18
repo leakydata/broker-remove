@@ -50,3 +50,59 @@ Nothing public to search. Ask the confirmation to name the identifier types
 deleted, say whether observations or only mappings were removed, list the
 downstream partners notified, and state whether the suppression persists across
 ingests from partner SDKs.
+
+## They confirmed the key is a device identifier — which is why not to send one yet
+
+Their reply splits the two rights across two channels and is unusually clear about
+the mechanics:
+
+> *"To opt out of the sale or sharing of your personal data, please submit your
+> request through our Opt-Out Page. You will need to enter your **Apple IDFA or
+> Android Advertising ID** and select your opt-out preferences. **This identifier is
+> used only to locate and process your request — not to verify your identity.**"*
+
+Deletion goes through a separate Privacy Portal, which "may request additional
+information to verify your identity".
+
+**So the answer to "what can you search on" is: a mobile advertising ID.** That
+confirms the shape but leaves the decision open, because the letter asked a second
+question they did not answer: *do you hold any **other** key?*
+
+That matters more than it sounds:
+
+- **If they hold no record keyed to your device**, supplying an advertising ID
+  hands Foursquare a new identifier for you in order to ask them to delete
+  something that may not exist. The request creates the link it was meant to break.
+- **If they do**, supply it immediately — there is no downside, since they already
+  have it.
+
+One round trip settles which. Ask before fetching the identifier, not after.
+
+## Two questions that decide whether the opt-out is durable
+
+An advertising identifier is **user-resettable**, and on iOS it is zeroed entirely
+when app tracking is declined. So an opt-out bound to that string is a weaker thing
+than it appears:
+
+  a. **If the identifier is reset, does the opt-out follow?** Or does the reset
+     produce a fresh identifier with no suppression attached — leaving the person
+     opted in again through an action Apple and Google actively encourage?
+  b. **If a device's IDFA is all zeros**, is there a record at all, and under what
+     key? It cannot be that one.
+
+Both are asked on the thread. Neither can be answered by a form field, which is the
+general lesson: **the portal captures what its fields ask; the substance goes in
+the email.**
+
+## What the opt-out page cannot cover
+
+Three asks from the original letter reach neither channel, and were re-put on the
+thread:
+
+- whether deletion removes the **location observations** or only the mapping to an
+  identifier — a sequence of overnight dwell points identifies a dwelling with no
+  name involved at any stage;
+- which clients and platforms **received** the data, since an opt-out binding only
+  Foursquare leaves live copies wherever an audience was activated;
+- whether the suppression **persists across ingests** from partner SDKs.
+
