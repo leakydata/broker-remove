@@ -385,9 +385,9 @@
     "via": null
   },
   "citydata": {
-    "status": "submitted",
-    "changed": "2026-08-17",
-    "via": "reply"
+    "status": "manual_required",
+    "changed": "2026-08-18",
+    "via": "web"
   },
   "civis": {
     "status": "failed",
@@ -900,7 +900,7 @@
     "via": "web"
   },
   "h1": {
-    "status": "submitted",
+    "status": "not_found",
     "changed": "2026-08-18",
     "via": "email"
   },

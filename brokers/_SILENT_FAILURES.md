@@ -643,6 +643,42 @@ an alias forwarding into a customer-support queue — so privacy requests land i
 the same tray as billing questions, which is worth knowing even after the mailbox
 empties.
 
+## 19. The same reply, twice — you are talking to a template
+
+A site's support desk answered a detailed request with a canned message. The reply
+was answered point by point: it had asked for a page URL, so the follow-up
+explained that the URL patterns 404, supplied eleven addresses to search instead,
+and pointed out that their own form's title showed they had searched by *name*
+while the pages are keyed to an *address*.
+
+The response was the **same message again**. Word for word. Same greeting, same
+request for a URL, same closing.
+
+**Two identical replies mean nobody read either one.** Not indifference —
+mechanism. Somewhere between the mailbox and the person there is a template that
+fires on inbound, and the thread will produce that template indefinitely. A third
+message will get a fourth copy.
+
+**Check:** before writing a considered reply, compare it with the last one you
+received. If they are byte-identical, the channel is a loop and the effort is
+wasted. Diff them; do not skim them — canned replies are designed to read as
+personal, and the tell is exactness rather than tone.
+
+**What to do instead:**
+
+1. **Switch channel.** A form, a phone number, a postal address, a regulator
+   complaint — anything that is not the mailbox that is looping.
+2. **Use whatever the template gave you.** The canned reply is usually not
+   worthless: this one contained a working self-service form URL that the first
+   message would never have produced.
+3. **Record it as `manual_required`, not `submitted`.** A request sitting in a
+   template loop has not been received by anyone, and filing it as in-flight means
+   it is never revisited.
+
+**And keep both copies.** Two identical replies to substantively different
+messages is good evidence that a company's stated privacy channel does not
+function, which is precisely what a regulator complaint needs.
+
 ## The pass that catches these
 
 1. **Bounces before anything else.** A bounce invalidates a request you have

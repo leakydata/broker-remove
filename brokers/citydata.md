@@ -8,26 +8,42 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-18)
-- Note: Replied 'unable to locate your name on our website' and demanded a page URL, but ALSO supplied a self-service form: city-data.com/delrequest/form.php, headed 'Request to disassociate name from street-level assessment address'. Their own form title is the answer to their own search: they searched by NAME while the pages are keyed to an ADDRESS. Replied with all eleven addresses and asked them to look those up, pointed out the URL catch-22 (tried the obvious street-page patterns, all 404), and separately asked about forum accounts under old email addresses and whether the form suppresses or only hides.
+- Current: `manual_required` (updated 2026-08-18)
+- Note: Sent the SAME canned reply twice, word for word, ignoring a detailed message that answered its own question - so the email desk is a template loop, not a channel. Their form at /delrequest/form.php is the only real route; staged it with the address in the reason box, URL field left blank, text-image CAPTCHA remaining. Operator is Advameg, Inc.
 
 ## Steps
 
-<!-- Replace once the route is confirmed. What actually worked, in order. -->
+**Do not use email.** Their desk sent the identical canned reply twice, ignoring a
+message that answered its own question — a template loop, not a channel
+(`_SILENT_FAILURES.md` §19).
+
+1. Go to `https://www.city-data.com/delrequest/form.php` — *Request to
+   disassociate name from street-level assessment address*.
+2. Fill name, email, state, county, city and the reason box. Put the **address**
+   in the reason box, since the form has no address field.
+3. The Address (URL) field wants a link to the specific page. If you cannot find
+   one, leave it blank and see whether it submits — that settles whether the route
+   is usable at all.
+4. A text-image CAPTCHA sits on "Next step", so this is a hand-off.
+
+Operator: **Advameg, Inc.**
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+See the sections below: their reply searched by name while the pages are keyed to
+address, the form needs a URL that is not discoverable from outside, and the email
+desk repeats itself verbatim.
+
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+Re-check the assessment page for the address, not a name search — and note their
+own warning that search-engine caches update independently and slowly, which is
+true and not something they control.
+
+If the form is submitted successfully, ask on the confirmation whether it is a
+permanent suppression or a one-time removal: county assessment data is re-ingested
+on a cycle, and the form only promises the name "will be automatically erased".
 
 ## Their own form title answers their own search
 
