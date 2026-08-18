@@ -2568,7 +2568,8 @@
       "optery_slug": "emailmovers",
       "email_to": "compliance@emailmovers.com",
       "email_verified": false,
-      "email_verified_by": "no_address_published"
+      "email_verified_by": null,
+      "email_alt": "enquiries@emailmovers.com"
     },
     {
       "id": "enigma",
@@ -3370,9 +3371,9 @@
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "idm",
-      "email_to": "privacy@idm.us.com",
-      "email_verified": false,
-      "email_verified_by": "no_address_published"
+      "email_to": "ccpa@idm.us.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
     },
     {
       "id": "idstrong",

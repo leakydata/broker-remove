@@ -45,9 +45,9 @@ broker — see `_BROKER_FAMILIES.md`.
 
 ## Gotchas
 
-**The phone field rejects dashes, silently.** Enter `814-441-3265` and the field
-turns red on submit with no message, no scroll-to-error and no explanation; the
-form simply does not advance. `+18144413265` is accepted. The field is optional,
+**The phone field rejects dashes, silently.** Enter a number in `NNN-NNN-NNNN`
+form and the field turns red on submit with no message, no scroll-to-error and no
+explanation; the form simply does not advance. `+1NNNNNNNNNN` is accepted. The field is optional,
 so the fastest fix is to leave it blank — but a person who does not notice the
 red outline will conclude the form is broken and give up, which is the practical
 effect of a validation error that does not say anything.

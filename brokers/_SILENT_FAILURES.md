@@ -329,6 +329,32 @@ re-read the form fields before re-reading your input. Try the most
 machine-friendly format for anything with a format (`+1XXXXXXXXXX` for phone,
 ISO dates), and when a field is optional and awkward, leave it out.
 
+## 10. The guard that could not see the file it was guarding
+
+Not a broker's failure — ours, and worth recording because the shape recurs.
+
+This repository is public, so a scanner checks every file for values from the
+profile before anything is committed. It ran. It reported **zero**. In the same
+commit, a real telephone number went public inside a new playbook.
+
+The scanner listed files with `git ls-files`, which lists *tracked* files. A
+brand-new file is not tracked until the commit that adds it. So the check was
+structurally blind to exactly one category of file: **the ones being published
+for the first time** — which is where new prose lives, and where personal data is
+most likely to have been typed in by hand.
+
+The fix is one flag: also list `git ls-files -o --exclude-standard`, which is
+untracked-but-not-ignored, i.e. precisely "what would be published if you
+committed everything". Gitignored paths stay out of scope; those are where
+personal data is supposed to live.
+
+**The general lesson is about how a guard reports success.** A check that says
+"0 problems" when it examined nothing is worse than no check, because it
+manufactures the confidence that stops you looking. When writing one, ask what it
+does when the input set is empty — and prove it can fail by feeding it something
+that should trip it. A guard you have never seen go red is a guard you have not
+tested.
+
 ## The pass that catches these
 
 1. **Bounces before anything else.** A bounce invalidates a request you have

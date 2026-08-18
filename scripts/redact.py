@@ -89,13 +89,30 @@ def redact(text: str) -> str:
 
 
 def scan_tracked():
-    """Return [(path, lineno, term)] for personal data in git-tracked files."""
+    """Return [(path, lineno, term)] for personal data in files git will publish.
+
+    That means tracked files AND untracked files git is not ignoring -- a
+    distinction that cost us a real leak. `git ls-files` alone lists only what is
+    already tracked, so a brand-new playbook is invisible to this scan right up
+    until the commit that publishes it. The check ran, reported zero, and the
+    file went public in the same breath: the one moment a new file most needs
+    scanning is the one moment ls-files cannot see it.
+
+    Gitignored paths stay out of scope. They are where personal data is supposed
+    to live."""
     terms = _terms()
     if not terms:
         return []
     try:
-        files = subprocess.run(["git", "ls-files"], cwd=ROOT, capture_output=True,
-                               text=True, check=True).stdout.split()
+        tracked = subprocess.run(["git", "ls-files"], cwd=ROOT,
+                                 capture_output=True, text=True,
+                                 check=True).stdout.split()
+        # -o lists untracked, --exclude-standard respects .gitignore, so this is
+        # exactly "files that would be published if you committed everything".
+        untracked = subprocess.run(
+            ["git", "ls-files", "-o", "--exclude-standard"], cwd=ROOT,
+            capture_output=True, text=True, check=True).stdout.split()
+        files = tracked + untracked
     except Exception:
         return []
     # The profile template and this scanner legitimately mention field names.
@@ -125,5 +142,5 @@ if __name__ == "__main__":
     hits = scan_tracked()
     for f, i, t in hits:
         print(f"  {f}:{i}  contains profile value: {t[:28]!r}")
-    print(f"\n{len(hits)} personal-data occurrence(s) in tracked files")
+    print(f"\n{len(hits)} personal-data occurrence(s) in files git would publish")
     sys.exit(1 if hits else 0)
