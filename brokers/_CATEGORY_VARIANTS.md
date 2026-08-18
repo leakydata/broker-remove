@@ -477,3 +477,40 @@ simply is not. Record `failed` with the reason rather than leaving it looking
 pending — and note that if the front holds nothing, the request that matters is
 the one to the provider behind it, which you can send regardless.
 
+## Sensitive attributes need naming, because the general phrase does not reach them
+
+A recurring failure across several categories, and it is nobody's bad faith: *"all
+personal information you hold about me"* does not bring a modelled attribute to
+mind, for the requester or the responder.
+
+The pattern is always the same. The attribute was **assigned rather than
+collected** — the person never gave it, has no idea it exists, and would not think
+to ask for it. The responder searches the identity tables, finds and deletes the
+record, and answers accurately. The segment tables are never opened.
+
+Name the category. It costs a paragraph and it tells the responder which system to
+look in.
+
+| Category | Attributes worth naming |
+|---|---|
+| Consumer lists | health or medical interest, financial distress, ethnicity, religion, political affiliation |
+| Location / visitation | segments derived from visits to medical facilities, places of worship, legal or financial offices, shelters, treatment centres, political events |
+| Political / donor | partisanship, ideology, issue interests, giving capacity, wealth estimate, propensity to give |
+| Healthcare professional | prescribing and referral inferences, trial involvement, influence and reach scores |
+| Identity resolution | income and vehicle estimates, life-event predictions, propensity scores |
+
+Two things to ask for in every case:
+
+1. **Deletion, not suppression.** A do-not-contact flag stops the calls and leaves
+   the attribute on a record that is still licensable. The attribute is the
+   product; the contact was only ever the delivery mechanism.
+2. **A written answer even when the answer is none.** If they hold nothing of the
+   kind, saying so is easy for them and worth having from you. It is also the only
+   way the question gets a durable answer rather than a silence.
+
+**And ask about relationship edges where the product has them.** A network record
+joining two named people is personal information about *both*, and deleting one
+person's profile characteristically leaves the edge intact on the other's — still
+naming you, still searchable, and never mentioned in a confirmation about "your
+profile".
+
