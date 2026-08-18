@@ -34,10 +34,11 @@
       "name": "Data Axle (infoUSA)",
       "domain": "data-axle.com",
       "priority": 5,
-      "method": "web_form",
+      "method": "web_form_captcha",
       "optout_url": "https://www.data-axle.com/privacy-rights-request/",
       "needs_email_confirm": false,
       "notes": "Dedicated privacy-rights request form.",
+      "email_to": "privacyteam@data-axle.com",
       "source": "curated"
     },
     {

@@ -391,6 +391,38 @@ that opened a real ticket for the parent brand and raise the sibling *there* —
 an existing ticket already carries the identity verification, and a reply to it
 cannot be silently dropped in the way a fresh message to a dead mailbox can.
 
+## 12. The form made you choose which right to exercise
+
+A large compiler's privacy form has one dropdown labelled **Privacy Choice**, and
+its options are not categories of data but *rights*:
+
+    Request to opt out of sale/sharing
+    Request to correct inaccuracies
+    Request to delete
+    Request to access
+    Request to limit use/disclosure of sensitive personal information
+
+It is a single-select. So one submission exercises **one right**, and nothing on
+the page says that the others were not requested.
+
+A consumer who wants their record deleted *and* wants it to stop being sold picks
+"delete", submits, and receives an accurate confirmation that their request has
+been processed. It has been. The sale continues.
+
+This is a variant of the wrong-request-type trap (§1), but it is worse in one
+respect: there is no misclick to notice afterwards. The form did exactly what was
+asked. The gap is between what the consumer wanted and what the interface let them
+say in one pass, and no artifact anywhere records the difference.
+
+**Check:** wherever a form asks you to *choose* a right, assume every other right
+was declined by omission. Submit once per right you actually want, and keep the
+confirmations separately — two receipts reading "your request has been processed"
+are not interchangeable, and only the pair shows both were asked for.
+
+The same shape appears as separate form URLs rather than a dropdown: one broker's
+autoresponder supplies three distinct OneTrust links for opt-out, deletion and
+access, and "the privacy form" is whichever one you happened to open.
+
 ## The pass that catches these
 
 1. **Bounces before anything else.** A bounce invalidates a request you have
