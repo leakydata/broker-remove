@@ -1,19 +1,19 @@
 # Infofree
 
 - **Opt-out:** https://privacycompliance.biz/other-infofree/
-- **Email:** privacy@infofree.com — **unverified, may bounce**
+- **Email:** info@infofree.com — **verified (privacy_policy)**. `privacy@infofree.com` hard-bounces.
 - **Method:** web_form — Web form.
 - **Domain:** infofree.com
 - **Priority: 2.**
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-18)
+- Current: `submitted` (resent 2026-08-18 to the corrected address)
 - Note: Subscription database of consumer/business records. Lead ask is the export problem: subscribers search and download, so any exported copy is beyond their deletion and is the copy that calls - asked which subscribers received the record. Plus permanent suppression, do-not-call entries held independently of the record, and deletion (not contact-suppression) of any sensitive or modelled attributes.
 
 ## Steps
 
-1. Email `privacy@infofree.com`.
+1. Email `info@infofree.com` (**not** `privacy@infofree.com` — that address hard-bounces with a 550, address not found; `info@` is the only address the site's own privacy policy publishes).
 2. Lead with the **export problem** — which subscribers already downloaded the
    record.
 3. Ask for permanent suppression, and for do-not-call entries held independently.

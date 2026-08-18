@@ -2516,10 +2516,11 @@
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "criminaldatacheck",
-      "email_to": "support@criminaldatacheck.com",
+      "email_to": "priorityoptout@intelius.com",
       "email_verified": true,
-      "email_verified_by": "privacy_policy",
-      "notes": "Published address hard-bounces (550); no alternative published."
+      "email_verified_by": "broker_reply",
+      "notes": "support@criminaldatacheck.com hard-bounces (550) and is the only address the site itself publishes. This is an Intelius/PeopleConnect affiliate front (optout_url already pointed at intelius.com/privacy-center) \u2014 file against priorityoptout@intelius.com naming CriminalDataCheck.com specifically, same pattern as addresses_com and zabasearch.",
+      "email_alt": "support@criminaldatacheck.com"
     },
     {
       "id": "criminalrecords_com",
@@ -3978,11 +3979,11 @@
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "infofree",
-      "email_to": "privacy@infofree.com",
-      "email_verified": false,
-      "email_verified_by": null,
-      "email_alt": "info@infofree.com",
-      "notes": "Site publishes info@infofree.com; privacy@infofree.com is more privacy-specific but appears nowhere on the site. Try the alternate if this goes unanswered. Registry keeps privacy@infofree.com (purpose-built for this request type); the site publishes info@infofree.com, retained as a fallback."
+      "email_to": "info@infofree.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy",
+      "email_alt": "privacy@infofree.com",
+      "notes": "privacy@infofree.com hard-bounces (550, address not found); the site's own privacy policy publishes only info@infofree.com. Registry corrected 2026-08-18 to use the working address as primary. Infofree's privacy link also points at a shared privacycompliance.biz/DatabaseUSA portal \u2014 see brokers/infofree.md."
     },
     {
       "id": "infopay",

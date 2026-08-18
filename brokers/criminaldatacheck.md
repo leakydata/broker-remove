@@ -1,26 +1,29 @@
 # Criminaldatacheck
 
 - **Opt-out:** https://www.intelius.com/privacy-center
-- **Email:** support@criminaldatacheck.com (verified)
+- **Email:** priorityoptout@intelius.com, naming CriminalDataCheck.com specifically (verified — broker_reply, same shared address used successfully for addresses_com and zabasearch)
 - **Method:** web_form — Web form.
 - **Domain:** criminaldatacheck.com
 - **Priority: 2.**
 
 ## Status
 
-- Current: `failed` (updated 2026-08-17)
-- Note: Published contact address support@ hard-bounced ('address couldn't be found'), and it is the ONLY address on their site — contact page offers just a search form and that address. Domain and MX resolve, so the domain is live and the mailbox is not. Appears to be the same affiliate/lead-gen pattern as Criminal.com: funnels searches to a background-check provider rather than holding records. No usable route.
+- Current: `submitted` (2026-08-18, filed against priorityoptout@intelius.com)
+- Note: Published contact address support@ hard-bounced ('address couldn't be found'), and it is the ONLY address on their site — contact page offers just a search form and that address. Domain and MX resolve, so the domain is live and the mailbox is not. This is the same affiliate/lead-gen pattern as Criminal.com: funnels searches to Intelius/PeopleConnect rather than holding its own records. Acted on by filing directly against the actual data holder.
 
 ## Steps
 
-1. Email `support@criminaldatacheck.com` — the only address the site publishes.
-   It hard-bounces: "address couldn't be found".
-2. Check the contact page for anything else. It offers a search form and that
-   address, and nothing more.
-3. `dig` the domain: MX and A both answer. Live domain, dead mailbox.
-4. Read what the site actually does before assuming it holds records — see below.
-5. Mark `failed`, set `email_verified=false`, and file the request against the
-   provider the searches actually reach.
+1. Do **not** email `support@criminaldatacheck.com` — it hard-bounces ("address
+   couldn't be found") and is the only address the site itself publishes.
+2. This site's own `optout_url` already names `intelius.com/privacy-center` —
+   that is the tell that it is an Intelius/PeopleConnect affiliate front rather
+   than an independent data holder.
+3. File instead against `priorityoptout@intelius.com`, naming
+   "CriminalDataCheck.com" explicitly in the subject and body, the same
+   pattern used for `addresses_com` and `zabasearch` (both share this
+   recipient and are separate PeopleConnect-family properties).
+4. `dig` the domain if you want to confirm: MX and A both answer. Live domain,
+   dead mailbox — the front is up, the funnel is just server-side.
 
 ## Gotchas
 
