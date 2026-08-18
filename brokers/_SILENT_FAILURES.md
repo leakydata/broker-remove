@@ -515,6 +515,35 @@ above is about not treating a refusal as an absence; this is the same error
 inverted — treating infrastructure as evidence of a mailbox. Neither DNS nor MX
 tells you an address works. **Only a delivered message does.**
 
+## 16. Deleting the record can un-suppress the phone number
+
+A perverse case, and one that produces the exact opposite of what was asked for.
+
+If a telephone number sits on a marketing company's internal do-not-call or
+do-not-text list, that entry is frequently **a property of the consumer record**
+rather than a standalone row. Delete the record and the suppression goes with it.
+The number becomes eligible for calling again — *because* the consumer asked for
+their data to be deleted.
+
+Nothing in the confirmation reveals this. The deletion was performed exactly as
+requested, the reply is accurate, and the first sign anything is wrong is a call
+some weeks later.
+
+**Ask for both, as separate operations:** delete the record, **and** add the
+telephone numbers to the do-not-call and do-not-text suppression lists as
+standalone entries that survive the deletion. Then ask the confirmation to state
+both separately — one sentence covering "your request has been completed" is not
+enough, because these are different operations on different tables and only one of
+them is the one you would notice missing.
+
+The same shape applies to email addresses and unsubscribe lists, where the
+consequences are milder but identical in kind: an unsubscribe flag attached to a
+deleted record is a deleted unsubscribe flag.
+
+**The general form:** where a suppression is stored *as an attribute of* the thing
+being deleted, deletion destroys the protection. Any time you ask for both
+deletion and suppression, ask which table each lives in.
+
 ## The pass that catches these
 
 1. **Bounces before anything else.** A bounce invalidates a request you have
