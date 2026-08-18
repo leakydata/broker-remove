@@ -42,7 +42,7 @@
   "ad_direct": {
     "status": "submitted",
     "changed": "2026-08-16",
-    "via": null
+    "via": "reply"
   },
   "addresses_com": {
     "status": "submitted",
@@ -165,9 +165,9 @@
     "via": "reply"
   },
   "arity": {
-    "status": "submitted",
-    "changed": "2026-08-17",
-    "via": null
+    "status": "captcha_blocked",
+    "changed": "2026-08-18",
+    "via": "web"
   },
   "arizona_arrests": {
     "status": "submitted",
@@ -495,8 +495,8 @@
     "via": null
   },
   "convex": {
-    "status": "submitted",
-    "changed": "2026-08-17",
+    "status": "not_found",
+    "changed": "2026-08-18",
     "via": "reply"
   },
   "courtcasefinder": {
@@ -1492,7 +1492,7 @@
   "peoplefinders": {
     "status": "manual_required",
     "changed": "2026-08-17",
-    "via": null
+    "via": "reply"
   },
   "peoplesearch": {
     "status": "submitted",

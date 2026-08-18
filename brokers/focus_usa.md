@@ -9,7 +9,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-18)
-- Note: List-compilation/rental. Permanent suppression rather than deletion, list renters who received the data, acquisition source. Added a SENSITIVE-CATEGORY ask: whether they hold or model health interest, financial distress, ethnicity, religion or political affiliation selects, and asked for those to be deleted rather than merely suppressed from mailing. Invited a written negative as an acceptable close.
+- Note: STRONG ARTIFACT. They confirmed 'a record was present on the database' - the conditional 'if present' resolved. And they committed in writing: 'Your full mailing addresses, email addresses and name(s) will be added to the delete/opt-out process and added to our permanent suppression list and suppressed in rebuilds, so if you choose not to continue with verification, those requests will be unaffected.' So deletion/opt-out/suppression are NOT gated on ID; only the access answers are. User uploaded a utility bill to their Dropbox file-request link. Asked them to delete the document and state retention, and pressed the three unblocked questions.
 
 ## Steps
 

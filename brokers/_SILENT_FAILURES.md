@@ -910,3 +910,33 @@ a work address and an employer. A negative is only as strong as the identifier i
 was run against, so ask what this particular broker would file you under before
 believing it.
 
+## 24. Setting a type-ahead's value is not choosing from it
+
+OneTrust privacy forms render the state field as a **type-ahead combobox**, not a
+`<select>`. Writing a value into it programmatically -- the thing that works
+perfectly on every ordinary text input -- puts the right text on screen and leaves
+the widget's internal selection unset.
+
+The failure is not a blank field, which would be caught. On submit the widget
+**resolves to a different entry entirely**. Typing "Pennsylvania" into Arity's form
+this way produced **"Arkansas"** after submission. An earlier form produced
+"Colorado" from the same input. The substituted value is not adjacent
+alphabetically, not a prefix match, and not predictable -- it is whatever the
+component falls back to.
+
+Read that again, because the consequence is worse than a failed submission: it
+files a **false residency claim**, on a form whose whole purpose is to establish
+which state's privacy law applies, under a declaration you are signing. And the
+screenshot taken a moment earlier shows the correct state, so it looks verified.
+
+**The rule: for a type-ahead, click the option out of the dropdown.** Type one or
+two characters to filter, screenshot, click the row, then screenshot again and read
+the field. Never `form_input` it, and never trust the value you see before submit.
+
+Note the diagnosis matters as much as the fix. The first time this happened it
+looked like "Pennsylvania is not in their list", which would have been a finding
+about the broker -- PA has no comprehensive privacy law, so it is entirely plausible
+a form would omit it. It was not that. Typing a single "P" showed Pennsylvania
+present alongside Mississippi and New Hampshire. **A tool failure had been about to
+be recorded as a fact about the world.**
+

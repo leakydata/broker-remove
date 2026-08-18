@@ -7,22 +7,23 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-17)
-- Note: Support ticket 487019 acknowledged; one business day stated for review.
+- Current: `not_found` (updated 2026-08-18)
+- Note: Push-back worked. First reply was scoped to 'an account or other business relationship'. After being asked to search the product database rather than the CRM, they returned an UNQUALIFIED negative: 'we confirm that Convex has checked the system does not hold any information about you in our database.' No noun narrowing it. That is a complete answer and closes the matter.
 
 ## Steps
 
-<!-- Replace once the route is confirmed. What actually worked, in order. -->
+1. Email `support@convexlabs.io`. It opens a Zendesk ticket and they reply within
+   a day.
+2. Expect the first answer to be scoped to "an account or other business
+   relationship". Do not accept it -- see below.
+3. Reply asking them to search the product database rather than the CRM, and give
+   them a short numbered list they can answer yes or no to.
+4. The second answer was unqualified and closed the matter.
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+The first reply answers a narrower question than the one asked, and the retention
+sentence is legitimate. Both below.
 
 ## Verification
 
