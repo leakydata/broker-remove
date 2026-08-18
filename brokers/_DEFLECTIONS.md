@@ -777,3 +777,45 @@ position rather than an obstruction. Offer a proportionate alternative — reply
 from a listed address, or confirming details they already hold — so the refusal
 cannot be read as an unwillingness to verify at all.
 
+## 26. The document demand that guards only the deletion
+
+An automotive marketing company processed an **opt-out** straight from an email,
+with no verification of any kind. The **deletion** was routed to a webform whose
+*"Provide a copy of your utility bill"* field is **required** — the form cannot be
+submitted without it.
+
+**The asymmetry is the argument.** Both requests concern the same person and the
+same records. If identity is established well enough to stop the company selling
+your data, it is hard to say it is not established well enough to delete it. The
+gap only makes sense if the document requirement is doing something other than
+verification.
+
+Three points to put back, in this order:
+
+1. **It discloses more than the request removes.** A utility bill carries a full
+   name, home address, account number, billing history and supplier. Asking a
+   company to hold *less* of your information, by uploading a document containing
+   *more* of it into a ticketing system, is a poor trade — and if that upload is
+   ever breached, the harm exceeds anything the original record could cause.
+2. **Their own handling proves it unnecessary.** Name the thing they already did
+   without it.
+3. **It is weak verification anyway.** A utility bill is not issued as an identity
+   credential, is trivially forged, and proves an *address* rather than a *person*.
+   Anyone able to obtain someone's post can produce one.
+
+**Then offer better verification rather than refusing outright**, so the refusal
+cannot be read as unwillingness to be identified:
+
+> *"I am happy to verify by any proportionate means: reply from or receive a code
+> at any of the addresses I listed; confirm details you already hold — the
+> addresses, telephone numbers or dates on whatever record you have; answer
+> specific questions about that record."*
+
+Each of those verifies you against **their** data rather than against a document,
+which is the stronger test — a forged bill beats a document check, and nothing
+forged beats being asked what is already in the file.
+
+**Close by naming the three acceptable outcomes**: process it from the thread, name
+an alternative step, or state in writing that no deletion happens without the
+document. The third is a usable answer; an unresolved request is not.
+

@@ -106,3 +106,39 @@ thread:
   Foursquare leaves live copies wherever an audience was activated;
 - whether the suppression **persists across ingests** from partner SDKs.
 
+## They closed the ticket without answering
+
+Fourteen minutes after the follow-up:
+
+> *"We've reviewed your case and can confirm that all available steps and guidance
+> were provided based on the information at hand. At this time, there are no
+> additional actions we can take on our end."*
+
+Read what that actually says. It is about **steps** — routes for the consumer to
+use — and on that narrow point it is true: they did supply the opt-out page and the
+Privacy Portal.
+
+But the outstanding items were never requests for steps. They were **questions of
+fact about Foursquare's own systems**, which only Foursquare can answer:
+
+- Is there any key other than a mobile advertising identifier?
+- Does deletion remove the location observations or only the mapping?
+- Does an opt-out survive an advertising-ID reset?
+- Which partners received the data?
+
+**This is a soft close, and it is worth recognising as a category.** Nothing was
+refused, so there is nothing to appeal; the ticket simply reports completion
+against a definition of the request that nobody agreed to. It is more comfortable
+for everyone than a refusal and leaves the requester with less.
+
+**The reply that fits:** separate the two explicitly — *these are not steps, they
+are questions about your data model* — and then ask for the refusal instead:
+
+> *"If the answer is that Foursquare will not say, I would rather have that in
+> writing than have the ticket closed as resolved. A refusal I can read is useful
+> to me; a closure that describes unanswered questions as 'guidance provided' is
+> not."*
+
+That converts a soft close into either an answer or a documented refusal, and both
+are better than a resolved ticket with four open questions inside it.
+
