@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-18)
-- Note: Arrest/booking publisher. Deliberately conceded the point that is not winnable - not asking them to alter the public record at source - and split the ask in two: delete the record, or if refused, DE-INDEX so a name search does not return it. Those are different questions and de-indexing is often granted where deletion is not. Also invited them to state a First Amendment / public-record refusal plainly rather than leaving it to be inferred.
+- Current: `not_found` (updated 2026-08-18)
+- Note: SECOND search on the fuller identifier set also negative: 'After another search I still find no information in our system that matches any of the versions provided.' AND they answered the standing-suppression question with unusual candour: 'An opt out is not a standing suppression, it is a removal of current information that matches criteria. Should information be received in the future you will have to request for an additional opt out in the future.' Their mechanism: 'Our opt out process is the same as our unpublish process... removing the web page and replacing it with a 404 page... This will also request that search engines update their information when they recrawl our pages. We can not confirm when that will be as we do not own or control 3rd party sites or search engines.' NOT CLOSED - this broker needs periodic re-checking, because a future booking feed publishes normally.
 
 ## Steps
 
@@ -63,3 +63,40 @@ So ask explicitly whether the opt-out is a **standing suppression** applied to f
 booking data, or merely the act of having searched. Only the first is worth anything,
 and the distinction is invisible in a reply that says both things in one sentence.
 
+## They answered the prospective question, and the answer is no
+
+Asked directly whether the opt-out was a standing suppression, they said so plainly:
+
+> *"An opt out is not a standing suppression, it is a removal of current information
+> that matches criteria. Should information be received in the future you will have to
+> request for an additional opt out in the future."*
+
+Unusual candour, and it is the answer that matters most here. A publication fed
+continuously from booking feeds can re-publish at any time, nothing will notify the
+subject, and the confirmation already held will remain accurate and useless.
+
+**So this entry is `not_found`, not closed.** It needs re-checking on a cycle. See
+`_CATEGORY_VARIANTS.md` for why the whole continuously-fed category works this way.
+
+## What the removal actually does
+
+> *"Our opt out process is the same as our unpublish process. This will include us
+> removing the web page and replacing it with a 404 page... This will also request
+> that search engines update their information when they recrawl our pages. We can not
+> confirm when that will be as we do not own or control 3rd party sites or search
+> engines and can not force them to remove."*
+
+The page becomes a genuine **404** rather than being merely de-listed. The **recrawl
+is requested, not performed** — so a search-engine result outlives the page by an
+interval nobody controls, which is exactly why a search hit is not evidence a removal
+failed.
+
+## The second search was negative too
+
+> *"After another search I still find no information in our system that matches any of
+> the versions provided."*
+
+That is on the fuller identifier set — every name variant, the age as well as the date
+of birth, prior cities and prior telephone numbers — supplied after they volunteered
+that a mistyped date or a recorded age could hide a record from their own search. Two
+negatives, the second on deliberately broadened criteria.

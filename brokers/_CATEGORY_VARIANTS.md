@@ -645,3 +645,48 @@ Ask directly which parts they hold in which capacity, so requests can be directe
 the right party rather than assumed. Pair it with the other question that bounds any
 answer they give: **which identifier types did you match on?** A deletion is only as
 broad as the key it was run against, and that is invisible from outside.
+
+## On a continuously-fed publisher, an opt-out is a point in time, not a state
+
+The most useful sentence any broker has volunteered in this project came from an
+arrest-record publisher, answering directly when asked whether their opt-out was
+prospective:
+
+> *"An opt out is not a standing suppression, it is a removal of current information
+> that matches criteria. Should information be received in the future you will have to
+> request for an additional opt out in the future."*
+
+**That is a different kind of answer from a refusal, and it changes what "done"
+means.** Most brokers leave this ambiguous, and the ambiguity always resolves in their
+favour: a confirmation saying "your information has been removed" is true on the day
+it is sent and says nothing about the next data load.
+
+For a publisher fed continuously from an external source — arrest and booking feeds,
+court dockets, licence registries, property transfers — the practical consequence is
+that a removal is **not** terminal:
+
+- the record can return without anyone doing anything wrong;
+- nothing will notify you when it does;
+- the confirmation you hold remains accurate and useless.
+
+**So this category cannot be marked closed.** It has to be **re-checked on a cycle**,
+and the tracker note should say why, so that a future reader does not see a
+`not_found` and assume the matter is settled.
+
+**Ask the question explicitly, in these words**, because the honest answer and the
+evasive one look identical otherwise: *is the opt-out a standing suppression applied
+to future data, or a removal of what matches today?*
+
+## Their removal mechanism is worth knowing too
+
+> *"Our opt out process is the same as our unpublish process. This will include us
+> removing the web page and replacing it with a 404 page... This will also request
+> that search engines update their information when they recrawl our pages. We can not
+> confirm when that will be as we do not own or control 3rd party sites or search
+> engines and can not force them to remove."*
+
+Three things follow. The page becomes a **404**, which is a real removal rather than a
+de-listing. The **recrawl is requested, not performed** — so the search-engine result
+outlives the page, by an interval nobody controls. And they say plainly that they
+cannot compel third parties, which is both true and the reason a search-engine hit is
+never evidence that a removal failed.
