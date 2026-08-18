@@ -534,3 +534,39 @@ reconciles the two documents, so quote them back.
 message dated before the refusal is worth considerably more than a link to a page
 that has since been edited.
 
+## 19. "Suppressed" is not "deleted" — and the difference has a clock on it
+
+A large people-search operator answered a deletion request like this:
+
+> *"This suppression request prevents those records from being displayed as
+> required by applicable law on those sites, but does not delete or alter the
+> underlying public record from its original source."*
+
+This is not a deflection in the usual sense — it is candid, and more informative
+than most replies. Treat it as a **partial success that needs one more question**,
+not as a refusal and not as a completion.
+
+The mechanism is straightforward once stated. The broker holds a copy of a public
+record. Suppression hides their copy. The source is untouched, and the source will
+be ingested again. So the only thing that determines whether this result is
+permanent is whether the suppression **persists across refresh cycles** — whether
+they keep a do-not-display list that is checked at every ingest, or whether they
+simply removed a row that will come back.
+
+**Ask, in these terms:** *does the suppression survive the next refresh of the
+source data, or will the record re-display when that source is next ingested?*
+
+A broker that keeps a persistent suppression list will say so, because it is a
+better answer for them. A broker that cannot say so has told you to diarise a
+re-check.
+
+Two adjacent questions worth asking in the same message, because a "we have
+processed your request" answers none of them:
+
+- **Which policy basis was applied?** Where a request was submitted under a
+  special policy (protected persons, minors) with an ordinary consumer request in
+  the alternative, the two may differ in scope and durability.
+- **Was an opt-out of sale or sharing applied separately?** Not displaying a
+  record on a website and not selling it are different actions, and only the
+  first is "suppression".
+

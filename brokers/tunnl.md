@@ -71,8 +71,24 @@ has no field for it.
 ## Verification
 
 Their success page says only *"A member of our team will review and be in contact
-with you shortly"* — a receipt for a submission, not a completion. Wait for the
-follow-up and keep it.
+with you shortly"* — a receipt for a submission, not a completion.
+
+**The completion arrived about one minute later**, by email:
+
+> Subject: *"Your data has been deleted"*
+> *"Your deletion request has been completed."*
+
+So the whole cycle — form, one-time code, submission, completion — took under two
+minutes, with no human step anywhere in it. That is the fastest confirmed removal
+in this project by a wide margin, and it is worth understanding why: the request
+never touched a person. Where a broker has wired its privacy portal directly to
+its deletion pipeline, the removal is as cheap for them as it is for you, and
+they have no incentive to make it hard.
+
+Three emails arrive in sequence and only the third is the artifact: the one-time
+code, then *"Your privacy request has been received"*, then *"Your data has been
+deleted"*. Do not record the second as a confirmation — it is a receipt, and the
+distinction is the whole subject of `_SILENT_FAILURES.md`.
 
 Nothing public to search here; Tunnl sells audience data rather than publishing
 profiles, so the written confirmation is the only artifact. Chase on the thread

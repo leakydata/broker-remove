@@ -20,3 +20,53 @@
   calling this one "done".
 - The tool is discretionary — PeopleConnect reserves the right to withdraw it.
 - Free. If any flow asks for payment, it's the wrong flow.
+
+## They processed it, and were honest about what "it" is
+
+The reply is worth reading closely, because it is more candid than most:
+
+> *"Your address(es), email(s), and phone number(s) listed in your request, along
+> with any related background report(s) we could identify will no longer be
+> displayed or made available on our websites."*
+
+> *"This suppression request prevents those records from being displayed as
+> required by applicable law on those sites, but does not delete or alter the
+> underlying public record from its original source."*
+
+**Suppression, not deletion** — stated plainly rather than buried. Take the
+honesty at face value and then follow where it leads: if the underlying record is
+untouched and the source will be ingested again, the question that matters is
+whether the suppression *persists across refreshes* or is a one-time hide. Their
+reply does not say, and the difference is between a permanent result and one that
+expires quietly. Ask.
+
+Two more things their wording does not settle, both worth asking about:
+
+- **Which basis was applied.** A request submitted under a protected-person
+  policy, with an ordinary consumer deletion request in the alternative, can be
+  processed either way. Those may differ in scope and in durability, and a reply
+  that says "we have processed your request" says nothing about which.
+- **Whether an opt-out of sale was applied at all.** Not displaying a record on a
+  website and not selling it are different actions. A display suppression answers
+  only the first.
+
+## The sentence to act on
+
+> *"If there is other identifying information you would like removed that you did
+> not identify, please respond and identify that information."*
+
+**That is an open door, and it should be walked through immediately.** A
+people-search index is keyed on former addresses and disconnected numbers as much
+as current ones — those are exactly what such a record is built from — so a
+suppression covering only what the first letter happened to list leaves most of
+the record intact.
+
+The original request here listed four email addresses and one address. The reply
+was answered with the full set: eight emails, eleven addresses spanning about
+twenty-five years, nine telephone numbers and five name variants. That expansion
+costs one email and is worth more than the original request was.
+
+**Generalise it:** whenever a broker invites you to identify more, they are
+telling you their match is identifier-scoped rather than person-scoped. Send
+everything.
+
