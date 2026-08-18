@@ -43,3 +43,34 @@ an answer about one.
 Re-search the public directory by name and by each phone number, and then search
 for the same listing text on other directory sites — that is where the syndicated
 copies surface, and they are the part a source-side removal will not touch.
+
+## Why "send us the URL" fails worse here than elsewhere
+
+Thryv answered a deletion request with *"please provide the URL of the listing you
+would like to delete"*. The general answer to that is `_DEFLECTIONS.md` §28, but two
+things make it a particularly poor ask for this company.
+
+**DexKnows is a business directory.** Listings are keyed to a **telephone number**
+and filed under a **business or trading name**, not under the individual behind it.
+So a person searching diligently under their own name would miss precisely the
+listing most likely to exist. The request to self-serve is aimed at the one search
+that cannot succeed.
+
+**Thryv syndicates listing data onward.** A copy already supplied to a partner
+directory or search platform is not recalled by deleting the DexKnows page. So the
+URL, even if found, is the wrong unit of work -- it identifies one rendering of a
+record, not the record.
+
+## What to ask for instead
+
+  - a search on **every prior telephone number**, not the current one -- a
+    disconnected number outlives the listing it belonged to and is the strongest key
+    available;
+  - any listing filed under a **business or trading name** as well as a personal one;
+  - **which partners the listing was syndicated to**, so the same request can be made
+    of them;
+  - **suppression as well as deletion**, so a partner feed does not re-create it.
+
+Offer the benign reading too: if their tooling genuinely takes a URL as its input,
+ask them to say so and point at the tool. That costs one sentence and converts a
+stand-off into a question.

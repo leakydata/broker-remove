@@ -878,3 +878,46 @@ you to win an argument.
 **Keep the refusal, though.** It is a written admission that they hold data about a
 named individual and have chosen not to act on a rights request -- useful context if
 the state law changes, and useful evidence that the request was made and dated.
+
+## 28. "Send us the URL" — and what happens when you refuse politely
+
+Two companies on the same day answered a deletion request with a request of their
+own: *"Please send us a link where your information appears."*
+
+It reads as cooperative rather than obstructive, which is what makes it effective.
+But it reverses who can see what, and the reply that works says so without accusing
+anyone:
+
+  1. **Name the asymmetry.** A consumer cannot enumerate what a company holds; the
+     company can. That is why deletion is a right rather than a request.
+  2. **Explain why the negative would be worthless.** If the consumer searches and
+     finds nothing, that settles neither question -- the record may be unindexed,
+     filed under a former address or disconnected number, or inside a licensed or
+     syndicated product with no page of its own.
+  3. **Resend every identifier**, so the request cannot be recharacterised as too
+     vague to action.
+  4. **Offer the benign reading.** If their removal tool genuinely takes a URL as
+     input, that is a real constraint -- ask them to say so and point at the tool.
+
+**It works.** One of the two came back having actually run the search, with
+screenshots of the result and a written negative naming all four name variants. The
+company went from asking the consumer to do the work to doing it themselves, in one
+exchange, with no escalation and no legal threat.
+
+**Tailor point 2 to the business.** The generic version is fine; the specific version
+is much stronger:
+
+  - *occupational licence data* -- records are keyed to a **licence number, issuing
+    board or business address**, not to a person, so a name search misses them;
+  - *business directories* -- listings are keyed to a **telephone number** and filed
+    under a **trading name**, so the listing most likely to exist is precisely the one
+    a self-search under a personal name cannot find;
+  - *identity-resolution platforms* -- the record is a hashed email or device
+    identifier and has no public page at all.
+
+**And read the negative for its scope when it arrives.** "The search on our website
+by your name and state does not reflect any records" is a real answer, but it is
+bounded three ways -- their website, that name, that state. Record it with the
+scope attached rather than as a blanket "no record", and ask the two follow-up
+questions that close the gap: is the website the whole of what you hold, and is
+anything indexed by something other than a name.

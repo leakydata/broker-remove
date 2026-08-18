@@ -632,7 +632,7 @@
   "dexknows_com": {
     "status": "submitted",
     "changed": "2026-08-17",
-    "via": "email"
+    "via": "reply"
   },
   "diablomedia": {
     "status": "submitted",
@@ -1195,7 +1195,7 @@
     "via": null
   },
   "licensefiles": {
-    "status": "submitted",
+    "status": "not_found",
     "changed": "2026-08-18",
     "via": "reply"
   },
