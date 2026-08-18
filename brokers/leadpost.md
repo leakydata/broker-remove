@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-18)
-- Note: Website-visitor identification. Central ask: any record connecting the subject by cookie, device, IP or hashed email to a VISIT on a client's site is personal data and must go with the contact record. Plus the client list (the exported copy is what actually mails you), permanent suppression against re-enrichment, and do-not-contact entries held independently of the record.
+- Current: `manual_required` (updated 2026-08-18)
+- Note: delete_mydata@ is an autoresponder that redirects to https://leadpost.com/PrivacyRequest - signed 'Eric'. So the dedicated deletion address is a pointer, not a process. Form route needed.
 
 ## Steps
 

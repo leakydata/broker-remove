@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `manual_required` (updated 2026-08-18)
-- Note: Sent the SAME canned reply twice, word for word, ignoring a detailed message that answered its own question - so the email desk is a template loop, not a channel. Their form at /delrequest/form.php is the only real route; staged it with the address in the reason box, URL field left blank, text-image CAPTCHA remaining. Operator is Advameg, Inc.
+- Current: `submitted` (updated 2026-08-18)
+- Note: SUBSTANTIVE ANSWER on the key question: 'we cannot look up an individual based on your name, email address, physical address, or phone number. If we have any data about you, it would only be a hashed (or anonymized) identifier in our cloud based on the Mobile Advertising ID.' And an offer worth having: 'If you send the mobile phone's MAID, we will hash it, check it against our database of hashed IDs, and let you know if there is a match.' That is check-then-tell rather than blind ingest - better than Foursquare's. Still unanswered: observations vs mapping, third-party sharing, and the residency basis.
 
 ## Steps
 
@@ -97,4 +97,43 @@ cheap to grant.
 - **Suppression versus hiding.** Assessment data is re-ingested from county
   sources. The form says the name "will be automatically erased", which does not
   say whether it stays erased through the next refresh. Ask.
+
+## They answered the question that matters, and made a fair offer
+
+Note: this is **CityData.AI**, the location-data company — distinct from
+City-Data.com, the community-forums site covered in `citydata.md`'s other sections.
+Two unrelated businesses with near-identical names, which is itself worth flagging
+when working a registry.
+
+Their reply is one of the more useful in this project:
+
+> *"CityData.AI does not collect personal data attributes like names, phone
+> numbers, addresses, email contact information, or dates of birth. In other words,
+> we cannot look up an individual based on your name, email address, physical
+> address, or phone number. If we have any data about you, it would only be a hashed
+> (or anonymized) identifier in our cloud based on the Mobile Advertising ID."*
+
+That answers the question the letter actually asked — *is there any other key?* —
+and the answer is no. It is worth much more than a deletion confirmation would have
+been, because it tells you what a deletion could even mean here.
+
+**And the offer is better than the industry norm:**
+
+> *"If you send the mobile phone's MAID, we will hash it, check it against our
+> database of hashed IDs, and let you know if there is a match."*
+
+**Check-then-tell, not blind ingest.** Compare `foursquare.md`, where the
+advertising ID goes into an opt-out form and nothing comes back. Here the
+identifier is used to answer a question and the answer is returned to you.
+
+That does not make it free — sending a MAID still discloses a MAID, and their
+stated process is unverifiable from outside. But it converts the decision from
+"hand over an identifier and hope" into "hand over an identifier to get an answer",
+which is a materially better trade and worth putting to the person whose device it
+is.
+
+**Still unanswered**, and worth chasing: whether deletion removes the underlying
+location observations or only the mapping; whether device data has been sold or
+licensed onward; and which basis they applied to a resident of a state with no
+comprehensive privacy statute.
 

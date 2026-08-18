@@ -803,6 +803,22 @@ Three points to put back, in this order:
    credential, is trivially forged, and proves an *address* rather than a *person*.
    Anyone able to obtain someone's post can produce one.
 
+### Postscript: the document was not required after all
+
+The company that produced this section sent an **email verification link** an hour
+after the objection was sent — *"By clicking the link below you confirm the
+verification of your identity"* — and the request was accepted with no document at
+all.
+
+So the required upload gated the **form** path only. The email path had its own,
+weaker-on-paper and stronger-in-practice check: clicking a link proves control of
+the mailbox, where a utility bill proves possession of a piece of paper.
+
+**Two lessons.** A required field is the end of *that* route, not of every route —
+look for the path you are already on. And stating the objection cost one message
+and the document was never sent, which is a better outcome than either complying or
+giving up.
+
 **Then offer better verification rather than refusing outright**, so the refusal
 cannot be read as unwillingness to be identified:
 

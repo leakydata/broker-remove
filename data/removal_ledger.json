@@ -385,9 +385,9 @@
     "via": null
   },
   "citydata": {
-    "status": "manual_required",
+    "status": "submitted",
     "changed": "2026-08-18",
-    "via": "web"
+    "via": "email"
   },
   "civis": {
     "status": "failed",
@@ -812,7 +812,7 @@
   "forddirect": {
     "status": "submitted",
     "changed": "2026-08-18",
-    "via": "reply"
+    "via": "web"
   },
   "fourleaf": {
     "status": "confirmed",
@@ -1150,7 +1150,7 @@
     "via": "email"
   },
   "leadpost": {
-    "status": "submitted",
+    "status": "manual_required",
     "changed": "2026-08-18",
     "via": "email"
   },

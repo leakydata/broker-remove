@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-18)
-- Note: Automotive. Named the three systems separately - FordDirect's own, records held on behalf of a dealer, and data shared with or from the OEM - since a deletion scoped to one while the others keep a copy is the default outcome unless the request names them. Also asked about VIN/plate/service-history keyed records, connected-vehicle telematics and whether any of it went to an insurer, and lead/enquiry history from third-party providers.
+- Note: VERIFIED BY EMAIL LINK - no utility bill. After the push-back, Mine sent 'Please verify your identity... By clicking on the link below you confirm the verification of your identity and FordDirect will start processing your request.' Clicked it: 'Success! Your privacy request has been submitted.' So the mandatory utility-bill upload gates the FORM path only; the email path creates a request and verifies it by clicking a link sent to the address. Link expires in 7 days.
 
 ## Steps
 
@@ -101,4 +101,33 @@ letter named three estates — FordDirect, records held on behalf of a **dealer*
 and data shared with or received from **Ford Motor Company** — and asked which held
 a record. Re-put on the thread, along with the connected-vehicle question: whether
 any telematics or driving data was shared with an insurer or analytics partner.
+
+## The utility bill was never necessary
+
+An hour after the push-back, Mine sent a verification email:
+
+> *"By clicking on the link below you confirm the verification of your identity and
+> FordDirect will start processing your request."*
+
+Clicking it returned **"Success! Your privacy request has been submitted."** No
+document, no upload, no further questions. The link expires in seven days.
+
+**So the mandatory utility-bill field gates the *form* path only.** The email path
+creates a request and verifies it by a link sent to the address in question —
+which is both a weaker check than a document in theory and a considerably stronger
+one in practice, since it proves control of the mailbox rather than possession of
+a piece of paper.
+
+Two things worth taking from this:
+
+**Do not treat a required field as the end of the route.** The form said the upload
+was required, and it was — *for the form*. The company had another path all along,
+and it was the one the request had already been sent down.
+
+**Push back before complying.** The reply that produced this laid out why the
+document was disproportionate, why their own handling showed it unnecessary, and
+what proportionate alternatives were available (`_DEFLECTIONS.md` §26). Whether it
+caused the email verification or merely coincided with it, the sequence is the
+useful record: **a stated objection cost one message and the document was never
+sent.**
 
