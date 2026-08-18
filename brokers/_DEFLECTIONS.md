@@ -670,3 +670,39 @@ This makes the cheapest possible reply the one you actually want. Without it,
 silence becomes the path of least resistance — which is indistinguishable from
 being ignored. With it, a two-line email closes the broker as `not_found`.
 
+## 23. The mailbox name that does the deflecting for them
+
+Not a reply at all — a deterrent placed before the request is ever sent.
+
+One large advertising company's **only** published privacy contact is:
+
+    FW_California_Consumers_CCPA_Data_Requests@...
+
+A consumer in Pennsylvania reading that address has been told, without anyone
+having to say it or defend it, that this channel is not for them. Most will not
+write. No refusal was issued, no position was taken, and nothing exists to
+complain about — which makes it more effective than an actual refusal and
+completely invisible in any tally of requests received.
+
+The same trick appears as a form that asks for your state before it will proceed,
+a policy section headed "California residents", and a privacy page that describes
+rights only under one statute.
+
+**Write anyway, and address it in the first paragraph:**
+
+> *"I am writing to this address because it is the channel you have provided, and
+> I would ask you not to treat the name of the mailbox as the scope of your
+> obligations or of your policy. If your position is that you will only action
+> requests from residents of particular states, I ask you to tell me that in
+> writing, and to state which basis you applied. I would also ask you to honour
+> this request as a matter of company policy in any event."*
+
+One paragraph, and it converts a silent deterrent into one of two useful things:
+an actioned request, or a documented refusal that fixes their position and is
+worth having.
+
+**The principle, which recurs:** never let a scope *claim* do the work of a scope
+*decision*. A mailbox name, a form's state dropdown and a policy heading are all
+claims about who may ask. None of them is a decision about your particular
+request, and only a decision can be appealed, quoted or complained about.
+
