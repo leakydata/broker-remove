@@ -13,18 +13,53 @@
 
 ## Steps
 
-<!-- Replace once the route is confirmed. What actually worked, in order. -->
+1. Email `removalrequests@unitedreporting.com`.
+2. Concede the unwinnable point explicitly and split the ask — see
+   `_CATEGORY_VARIANTS.md`. They engage with the substance if you do.
+3. Supply age as well as date of birth, prior cities and prior numbers.
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+They answer cooperatively if the framing avoids a rights fight, and they volunteer a
+false-negative mechanism most companies would not mention. Below.
 
 ## Verification
 
 <!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+
+## The split ask worked, with no rights argument at all
+
+The letter conceded up front that the public record at source was not theirs to alter
+and that accuracy was not in dispute, then separated two things: hosting a page, and
+making it findable by name. See `_CATEGORY_VARIANTS.md`.
+
+The reply engaged with the substance and never reached for the First Amendment:
+
+> *"We are happy to process and opt out for the removal of your data. After a quick
+> search we do not show anyone one with similar names in our system that also match
+> the cities provided or the date of birth provided."*
+
+Scoped to name, cities and date of birth — recorded with that scope attached.
+
+## They name their own false-negative mechanism
+
+> *"It is possible that information was entered incorrectly or that an age instead of
+> a date of birth was used so it may not show up in our system."*
+
+Rare and genuinely useful. A booking record is transcribed by hand from a police
+feed, so the date of birth in it may be wrong or may be an **age** rather than a date
+— which means their search can miss a record that is really there, and neither party
+would know.
+
+**So supply the age as well as the date of birth**, and supply prior cities rather
+than only the current one, since an arrest record is keyed to where it happened.
+
+## The question that actually matters here
+
+A publication of this kind is **fed continuously**. An opt-out that consists of "we
+looked today and found nothing" has no effect on tomorrow's feed.
+
+So ask explicitly whether the opt-out is a **standing suppression** applied to future
+booking data, or merely the act of having searched. Only the first is worth anything,
+and the distinction is invisible in a reply that says both things in one sentence.
+

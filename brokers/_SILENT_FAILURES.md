@@ -1028,3 +1028,31 @@ broker's own support email had already offered one: *"If you are unable to remov
 your listing from [the opt-out URL] please call us... and we will be happy to assist
 you in locating and removing your listing."* The fallback was in hand before the
 loop started.
+
+## 29. The dead link that is dead in every copy of the message
+
+A broker's reply carried two links to its rights portal. Both were unusable: the
+`?sysparm_id=` separator had been replaced by a stray character and at least one
+further character eaten with it, leaving a 30-character identifier where the platform
+uses 32.
+
+The important detail is that the corruption was present in **both the plain-text and
+the HTML parts** of the message. That rules out the usual explanation -- see §27,
+where taking the link from the HTML part fixed it -- and points upstream, to the
+sender's own template or mail pipeline.
+
+**Which makes it a fault worth reporting rather than a puzzle worth solving.** If the
+corruption is in their outbound mail, every consumer who receives that reply gets a
+dead link, and not one of them will be able to explain why. They will click, get
+nothing, and give up. From the company's side that looks like a queue of people who
+did not follow through, which is exactly the wrong lesson.
+
+**Do not try to reconstruct the identifier.** Guessing a 32-character sys_id from a
+30-character fragment is not going to work, and a wrong guess either 404s or -- worse
+-- lands on somebody else's request.
+
+**Do load the bare form URL**, because what it does is diagnostic. Here it reached the
+portal, rendered the broker's branding, and then displayed an **empty red error banner
+with no text**: enough to prove the endpoint is live and the parameter is the only
+thing missing, which is what makes the report specific rather than "your link does not
+work".

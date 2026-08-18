@@ -460,9 +460,9 @@
     "via": null
   },
   "connected_investors": {
-    "status": "submitted",
-    "changed": "2026-08-17",
-    "via": null
+    "status": "manual_required",
+    "changed": "2026-08-18",
+    "via": "reply"
   },
   "connecticut_arrests": {
     "status": "submitted",
@@ -1245,9 +1245,9 @@
     "via": "email"
   },
   "local_crime_news": {
-    "status": "submitted",
+    "status": "not_found",
     "changed": "2026-08-18",
-    "via": "email"
+    "via": "reply"
   },
   "locatefamily": {
     "status": "submitted",
@@ -1260,9 +1260,9 @@
     "via": "email"
   },
   "lookups_io": {
-    "status": "submitted",
+    "status": "manual_required",
     "changed": "2026-08-18",
-    "via": "email"
+    "via": "web"
   },
   "louisiana_arrests": {
     "status": "submitted",

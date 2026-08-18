@@ -260,3 +260,27 @@ whose forms share that first UUID are the same OneTrust customer, whatever names
 appear on the pages. That is close to conclusive, and it is sitting in the address
 bar.
 
+## The rights portal's hostname names the parent
+
+A broker whose privacy request routes to a portal on **someone else's corporate
+domain** has told you who owns it.
+
+Connected Investors answers privacy mail by directing consumers to
+`firstam.service-now.com` — a **First American** ServiceNow tenant, carrying Connected
+Investors branding inside it. The brand on the page is the subsidiary; the hostname is
+the parent.
+
+This is the same detection as a privacy address on another broker's domain, and it is
+often easier to spot, because a ServiceNow / OneTrust / Ethyca tenant hostname is
+rarely white-labelled all the way down. Related tells worth checking on the same page:
+
+  - the **email template's branding** — Arity's OneTrust mail is headed "Allstate
+    Enterprise", and Arity is an Allstate company;
+  - the **tenant UUID** in a OneTrust webform path, which is shared across every brand
+    belonging to that customer;
+  - the **support desk** — DrivenIQ and VisitIQ answer from one queue.
+
+**What to do with it.** Ask the parent to apply the request across the group, and name
+the siblings you know about. A tenant serving one brand today serves the others
+tomorrow, and a request scoped to the subsidiary leaves the rest untouched while the
+confirmation reads as complete.
