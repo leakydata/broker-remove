@@ -831,3 +831,26 @@ recognise this."
 
 Fifteen records now carry a fallback address instead of having lost one.
 
+## 21. The only contact is an unsubscribe alias
+
+A broker with no privacy page and no opt-out URL sometimes carries exactly one
+published address, and it is an **unsubscribe** alias -- often on a mail-sending
+domain that is not theirs, with a per-brand tag in the local part.
+
+Three failures hide in that one address, and they look identical from outside:
+
+- The alias may not exist. `unusubscribcfmf@seememail.net` -- note the misspelling
+  -- is either the broker's own typo, faithfully copied, or a transcription error
+  introduced upstream. One of those bounces and one does not.
+- It probably reaches a **service provider**, not the company holding the record,
+  so even a delivered message may never meet anyone who can delete anything.
+- Unsubscribing and deleting are **different systems**. An unsubscribe suppresses
+  mailings, frequently by *keeping* your address on a suppression list. A cheerful
+  "you have been unsubscribed" therefore reads as success while the record stands.
+
+**The fix is one paragraph in the letter**, naming the ambiguity and refusing the
+narrow reading: say that if this is an unsubscribe alias rather than a privacy
+mailbox, it should be forwarded or redirected, and that it is not to be treated as
+a mailing preference. Silence afterwards still means nothing -- but a reply now has
+to pick one of the three, and every one of those is a usable answer.
+

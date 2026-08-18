@@ -754,6 +754,11 @@
     "changed": "2026-08-18",
     "via": "email"
   },
+  "fha_mortgage_finder": {
+    "status": "submitted",
+    "changed": "2026-08-18",
+    "via": "email"
+  },
   "findem": {
     "status": "submitted",
     "changed": "2026-08-18",
@@ -1144,6 +1149,21 @@
     "changed": "2026-08-18",
     "via": "email"
   },
+  "lead411": {
+    "status": "submitted",
+    "changed": "2026-08-18",
+    "via": "email"
+  },
+  "lead_me_media": {
+    "status": "submitted",
+    "changed": "2026-08-18",
+    "via": "email"
+  },
+  "leadership_connect": {
+    "status": "submitted",
+    "changed": "2026-08-18",
+    "via": "email"
+  },
   "leadiq": {
     "status": "submitted",
     "changed": "2026-08-18",
@@ -1154,10 +1174,65 @@
     "changed": "2026-08-18",
     "via": "email"
   },
+  "leadsmarket_com": {
+    "status": "submitted",
+    "changed": "2026-08-18",
+    "via": "email"
+  },
+  "leadspace": {
+    "status": "submitted",
+    "changed": "2026-08-18",
+    "via": "email"
+  },
+  "leadzod": {
+    "status": "submitted",
+    "changed": "2026-08-18",
+    "via": "email"
+  },
   "lexisnexis": {
     "status": "submitted",
     "changed": "2026-08-15",
     "via": null
+  },
+  "licensefiles": {
+    "status": "submitted",
+    "changed": "2026-08-18",
+    "via": "email"
+  },
+  "lighthouse_list": {
+    "status": "submitted",
+    "changed": "2026-08-18",
+    "via": "email"
+  },
+  "limeleads": {
+    "status": "submitted",
+    "changed": "2026-08-18",
+    "via": "email"
+  },
+  "lionshare": {
+    "status": "submitted",
+    "changed": "2026-08-18",
+    "via": "email"
+  },
+  "list_service_direct": {
+    "status": "submitted",
+    "changed": "2026-08-18",
+    "via": "email"
+  },
+  "lists_direct_mail_solutions": {
+    "status": "submitted",
+    "changed": "2026-08-18",
+    "via": "email"
+  },
+  "listsonline": {
+    "status": "submitted",
+    "changed": "2026-08-18",
+    "via": "email"
+  },
+  "live_data_technologies": {
+    "status": "submitted",
+    "changed": "2026-08-18",
+    "via": "email"
   },
   "locatefamily": {
     "status": "submitted",
