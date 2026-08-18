@@ -10,10 +10,9 @@
 
 ## Status
 
-- Current: `captcha_blocked` (updated 2026-08-18)
-- Note: statutory route refused on jurisdiction; the self-service opt-out is
-  staged and needs a captcha. See below.
-
+- Current: `submitted` (updated 2026-08-18)
+- Reference: `TPS Right to Know ticket`
+- Note: STAGE TWO CONFIRMED on-screen: 'The following information was submitted to our system successfully. We will locate and remove your record based on the information you provided. Expect your information to be fully removed in 3 days or less.' It names the record back - 'Submitted: [name] - [PERSONAL], PA [PERSONAL] | [email]' - which is the artifact. Note this is the SELF-SERVICE opt-out succeeding after the statutory Right to Know was refused on jurisdiction; two different doors, per _DEFLECTIONS.md 27.
 
 ## The circular trap — and the way out
 
@@ -93,3 +92,42 @@ Opt-out" flow.
 identical in a single screenshot.** When a page appears empty behind a bot check,
 wait and look again before recording it as gated -- the cost is a few seconds, and
 the cost of the error is writing off a working route for three days.
+
+## The self-service door worked where the statutory one was refused
+
+The Right to Know submission was refused on jurisdiction -- Pennsylvania has no
+comprehensive consumer privacy law (see `_DEFLECTIONS.md` §27). The self-service
+opt-out, which never asks what state you live in, went through the same afternoon.
+
+The confirmation page is a real artifact rather than a pleasantry, because it **names
+the record back**:
+
+> *"The following information was submitted to our system successfully. We will locate
+> and remove your record based on the information you provided. Expect your
+> information to be fully removed in 3 days or less."*
+
+followed by the submitted name, city, ZIP and email. That distinguishes a completed
+submission from a form that merely accepted a POST.
+
+**Three stages, and only the last one counts.** Name and email plus a captcha; then an
+emailed link that expires in 24 hours; then the fuller form carrying date of birth,
+telephone, address, city, state and ZIP. Stopping after stage one looks like progress
+and achieves nothing.
+
+Their own warning explains why completeness matters here: *"If we receive new data
+connected to a record that we were unable to identify based on your original request,
+information you submit here may appear on our site in the future."* Partial
+identifiers buy a removal that does not stick.
+
+## How to verify, and how not to
+
+The confirmation page carries an unusually candid instruction about checking the work:
+
+> *"Please make sure you clear your browser cache before attempting to confirm
+> removal, or your device may pull up an old, stored version of our website. Also make
+> sure you initiate a new search. Please do not attempt to verify removal by clicking
+> on a saved link."*
+
+Fresh search, clean session, live site. See `_SILENT_FAILURES.md` §31 -- a cached page
+can report the removal failed when it succeeded, and a stale search-engine result can
+report the opposite.

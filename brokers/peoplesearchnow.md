@@ -9,9 +9,8 @@
 ## Status
 
 - Current: `captcha_blocked` (updated 2026-08-18)
-- Note: statutory route refused on jurisdiction; the self-service opt-out is
-  staged and needs a captcha. See below.
-
+- Reference: `PSN Right to Know ticket`
+- Note: NOT confirmed. The tab is back at /opt-out/validate-record-info with no key, which is what you would see either after a successful submit-and-reload OR after an error - genuinely ambiguous. peoplesearchnow.com refuses both page-text reads and screenshots to the automation, so there is no artifact to check, and no confirmation email has arrived. Deliberately NOT marked submitted: a broker-issued artifact is required, and 'the tab looks plausible' is not one.
 
 ## Third member of the TruePeopleSearch platform family
 
@@ -56,3 +55,27 @@ Their self-service opt-out is a **separate mechanism** that never asks what stat
 you live in. It is an email-link flow: name and email plus a captcha, then a link
 that **expires in 24 hours**, then a fuller form where the record details actually
 go. Submitting only the first step achieves nothing while looking like progress.
+
+## The one in the family that cannot be verified from here
+
+Same three-stage self-service opt-out as its siblings, and the same jurisdictional
+refusal on the statutory route. The difference is that **peoplesearchnow.com refuses
+the automation both page-text reads and screenshots**, so the outcome cannot be read
+off the screen.
+
+After the final submit the tab sat on `/opt-out/validate-record-info` with no key --
+which is what you would see after a successful submit-and-reload, and equally what you
+would see after an error. No confirmation email arrived either, although the flow says
+one will.
+
+**Recorded as not-yet-confirmed rather than submitted.** The standing rule is that a
+broker-issued artifact is required, and "the tab looks plausible" is not one. Its two
+siblings both produced an explicit confirmation naming the record back, which is
+exactly the artifact missing here -- and the contrast is the reason to be suspicious
+rather than to generalise from them.
+
+**A note on stage-two links.** The emailed link carries a base64 `key` **and** a
+separate `ticketid`. Losing the second produces *"Opt-Out Request Expired - The data in
+the request seems to have some errors"* on a link minutes old. See
+`_SILENT_FAILURES.md` §27: take the URL from the HTML part of the message, not the
+plaintext part.

@@ -740,7 +740,7 @@
     "via": "email"
   },
   "familytreenow": {
-    "status": "captcha_blocked",
+    "status": "submitted",
     "changed": "2026-08-18",
     "via": "web"
   },
@@ -1650,7 +1650,7 @@
     "via": null
   },
   "truepeoplesearch": {
-    "status": "captcha_blocked",
+    "status": "submitted",
     "changed": "2026-08-18",
     "via": "web"
   },

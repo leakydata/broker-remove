@@ -1088,3 +1088,37 @@ contacted again, and nothing ever surfaces the mistake.
 hand before acting on it.** Every verdict that closes off future work deserves the
 scepticism we apply to a broker's own negatives -- ours are not better evidence
 merely because we wrote them.
+
+## 31. Verifying a removal against your own browser cache
+
+Two brokers volunteered the same warning on their confirmation page, and it is the
+clearest statement anyone has given of how a removal check goes wrong:
+
+> *"Please make sure you clear your browser cache before attempting to confirm
+> removal, or your device may pull up an old, stored version of our website. Also
+> make sure you initiate a new search. Please do not attempt to verify removal by
+> clicking on a saved link."*
+
+Three distinct traps in one paragraph:
+
+- **A cached page** shows the listing after it is gone. Read as "the removal failed",
+  or worse, as a REAPPEARED, which is the finding we treat as escalation-worthy.
+- **A saved link** returns the old record URL directly, bypassing the search index
+  that was actually updated.
+- **A repeated search** may be served from the site's own result cache rather than
+  re-run.
+
+**So a verification is only worth something if it is a fresh search, from a clean
+session, on the live site.** Anything else can report either direction wrongly.
+
+**And the inverse trap is worse**, because nobody warns about it: a cached *empty*
+result, or a search-engine result that has not yet re-crawled, reads as a successful
+removal when the record is still there. Kids Live Safe flagged the search-engine lag
+explicitly -- *"several days to several weeks"* -- which is why the rule is to verify
+against the broker's own site and never against a search engine.
+
+**Practical consequence for `verify_removals.py`:** the re-check interval exists to
+let the removal happen, but it must also outlast the caches. Three days is what these
+brokers quote for the removal itself; the seven-day re-check is the right order of
+magnitude, and a listing still present at seven days is meaningful in a way that one
+present at one day is not.
