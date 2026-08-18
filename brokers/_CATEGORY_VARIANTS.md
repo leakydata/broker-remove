@@ -550,3 +550,51 @@ action the operating system actively encourages:
 Neither question fits in a form field. Ask them on the email thread, and treat the
 portal as capturing only what its fields happen to ask.
 
+## Where deletion is the wrong ask
+
+Deletion is the default request, and at most brokers it is the right one. Three
+categories where it is not, and asking for it first costs you something:
+
+### 1. Identity-verification data — ask for disclosure, then correction
+
+At a marketing broker the record is a nuisance. At an identity-verification
+company it can decide whether somebody opens an account, passes a check, or is
+believed about who they are.
+
+So invert the order: **ask what exists before asking for it to go.** And where a
+record is *wrong*, prefer correction — an inaccurate identity record deleted from
+one file persists at whoever supplied it and returns at the next ingest, while a
+corrected one is fixed at source. Deleting a wrong record also destroys the
+evidence that it was wrong, which matters if it has already caused a decision.
+
+**On legal-retention claims, split the two things.** These businesses often must
+retain verification records. That is a reason to keep something; it is not a reason
+to keep *selling* it. Ask them to confirm anything retained under an obligation is
+used only to meet it — not for sale, sharing, marketing or model training.
+
+### 2. Brokers that maintain a persistent suppression list
+
+Where a company keeps your identifier specifically so it can go on ignoring you,
+deletion removes the protection. One publishes this outright: *"if you would like
+to request deleting all information... we may not be able to keep a record of your
+opt-out preference and add information to the database again."* See
+`_SILENT_FAILURES.md` §16 and §26.
+
+### 3. De-identified health data — ask about the token, not the record
+
+A health-data company will answer a deletion request by saying the data is
+de-identified and therefore not personal information. Arguing that produces a
+policy exchange and no facts.
+
+Ask instead whether a **token or persistent identifier corresponding to you**
+exists, what it is derived from, and whether they can locate it from your
+identifiers. A token that links claims across providers and over time is
+functionally an identifier for one person — that linkage is what makes a
+longitudinal dataset longitudinal. And say explicitly that *"we cannot locate a
+token from these identifiers"* is an acceptable answer: it tells you the linkage
+runs one way, which is the thing you wanted to know, and it is far easier to
+answer honestly than an accusation.
+
+**The pattern across all three:** ask the question whose answer changes what you do
+next, rather than the request that sounds strongest.
+

@@ -1134,6 +1134,26 @@
     "changed": "2026-08-18",
     "via": "email"
   },
+  "komodo_health": {
+    "status": "submitted",
+    "changed": "2026-08-18",
+    "via": "email"
+  },
+  "kyc_data": {
+    "status": "submitted",
+    "changed": "2026-08-18",
+    "via": "email"
+  },
+  "leadiq": {
+    "status": "submitted",
+    "changed": "2026-08-18",
+    "via": "email"
+  },
+  "leadpost": {
+    "status": "submitted",
+    "changed": "2026-08-18",
+    "via": "email"
+  },
   "lexisnexis": {
     "status": "submitted",
     "changed": "2026-08-15",
