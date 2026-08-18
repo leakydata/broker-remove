@@ -544,6 +544,47 @@ deleted record is a deleted unsubscribe flag.
 being deleted, deletion destroys the protection. Any time you ask for both
 deletion and suppression, ask which table each lives in.
 
+## 17. The negative that answers a narrower question than you asked
+
+A market-research company replied within half an hour:
+
+> *"upon checking no records or data found connected to this account."*
+
+A written negative, promptly given, and it looks like a clean close. Read the last
+two words again.
+
+**"This account"** is not what was asked. The letter did not ask whether the
+subject had an account — at a panel business you would expect not — and an account
+lookup returning nothing is entirely consistent with data existing. Panel and
+survey records are commonly held against a **panellist ID** with identifying
+details in a separate table, and firms of this kind also hold third-party-acquired
+data about people who never registered for anything.
+
+So the reply may be completely true and completely uninformative. Nobody is being
+evasive; somebody typed a name into the system they administer and reported what it
+said.
+
+**Check the noun.** A negative is only as broad as the thing it was searched
+against, and the reply usually names it: *this account*, *our customer database*,
+*your profile*, *the name and email provided*. Each of those is narrower than "any
+record about this person", and the gap is where the record sits.
+
+**How to press without being unreasonable.** Ask the narrower question back, and
+offer a form of words that would close it:
+
+> *"If the answer is still none, please say so in those terms — 'we hold no record
+> corresponding to this person, under any identifier' — and I will treat the matter
+> as closed and not write again."*
+
+That is easy to grant if true, and it converts an account lookup into a real
+answer. It also makes the second request obviously reasonable rather than
+persistent for its own sake.
+
+**Do not record `not_found` on a scoped negative.** `not_found` should mean the
+operator says they hold nothing; a reply that says they found nothing *in one
+place* is a partial answer, and filing it as an outcome retires a broker that was
+never actually searched.
+
 ## The pass that catches these
 
 1. **Bounces before anything else.** A bounce invalidates a request you have
