@@ -3451,9 +3451,11 @@
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "freebackgroundcheck-org",
-      "email_to": "support@freebackgroundcheck.org",
+      "email_to": "privacy@freebackgroundcheck.org",
       "email_verified": true,
-      "email_verified_by": "privacy_policy"
+      "email_verified_by": "privacy_policy",
+      "email_alt": "support@freebackgroundcheck.org",
+      "notes": "support@ hard-bounces (550). privacy@ is published in the policy and the domain has live Google MX. Every link in that policy points at web.archive.org snapshots, so no clickable route works."
     },
     {
       "id": "freebackgroundchecks_com",

@@ -46,3 +46,48 @@ removal leaves residue, and no confirmation will mention it.
 
 Where a criminal or court entry was disclosed, keep the disclosure: it is the
 evidence for a correction at source, which outlasts any removal here.
+
+## The privacy policy links its own opt-out to the Internet Archive
+
+`support@freebackgroundcheck.org`, the address on their home page, hard-bounces
+with a 550. So the policy is the next place to look — and it is where this gets
+strange.
+
+Their Privacy Policy, dated **effective March 1, 2025**, has essentially every
+actionable link rewritten to point at **web.archive.org snapshots taken in October
+2024**:
+
+| Link | Times |
+|---|---|
+| `members.freebackgroundcheck.org/optout` | 2 |
+| the help page | 3 |
+| terms, privacy | 2 |
+| **`mailto:privacy@freebackgroundcheck.org`** | 2 |
+
+A consumer clicking "opt out" in the privacy policy is sent to the Archive's
+photograph of a form from last October, which cannot submit anything. Clicking the
+privacy contact opens the Archive rather than a mail client. And the live opt-out
+URL now **redirects back to the privacy policy**, so arriving from anywhere else
+is a loop.
+
+The net effect: **the site publishes no working removal route at all.** The
+address on the home page bounces, and every route the policy offers is an archived
+copy of itself.
+
+It does not look deliberate. The likeliest explanation is that the policy page was
+rebuilt from an archived version of their own site and the Archive's link
+rewriting was left in — a lazy restore rather than a designed obstacle. But intent
+does not change the outcome: anybody who has tried to opt out since March has
+failed, and almost none of them will know it.
+
+**What works:** the domain has live Google MX, so mail to
+`privacy@freebackgroundcheck.org` is delivered even though the link to it is not.
+Write there directly, and say what is broken — a fault this visible is worth
+reporting, and it is also exactly the kind of thing a regulator complaint is built
+on.
+
+**The general lesson.** A published route can fail in a way that leaves the page
+looking maintained: dated this year, professionally worded, comprehensive. Check
+that the links *go somewhere live* before recording a route as available, and
+treat an archive.org URL in a privacy policy as a dead route rather than a quirk.
+

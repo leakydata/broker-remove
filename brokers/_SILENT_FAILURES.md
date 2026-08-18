@@ -475,6 +475,39 @@ that word closed the question. A checker that cannot distinguish *absence* from
 *being refused* should report uncertainty, not absence. Where it cannot, the
 verdict it emits must be the one that costs least when wrong.
 
+## 15. The route is a photograph of a route
+
+A background-check site's privacy policy, dated **effective March 1, 2025**, has
+essentially every actionable link rewritten to point at **web.archive.org
+snapshots from October 2024** — the opt-out page, the help page, terms, and the
+`mailto:` for its own privacy address.
+
+Click "opt out" and you land on the Internet Archive's photograph of a form. It
+renders. It has fields. It cannot submit anything. Click the privacy contact and
+the Archive opens instead of a mail client. Meanwhile the live opt-out URL
+redirects back to the privacy policy, so arriving from any other direction is a
+loop. The address on the home page hard-bounces.
+
+The site therefore publishes **no working removal route at all**, while presenting
+a policy that is current-dated, professionally worded and comprehensive.
+
+The likeliest cause is a lazy restore — the page rebuilt from an archived copy of
+their own site with the Archive's link rewriting left in — not a designed
+obstacle. **The cause does not matter to the outcome.** Anybody who has tried to
+opt out since March has failed, and almost none of them will know: the form looked
+right, it accepted their typing, and nothing said otherwise.
+
+**Check:** before recording a route as available, confirm the links go somewhere
+**live**. An `archive.org` URL inside a privacy policy is a dead route, not a
+quirk. And a page that looks maintained — recent date, careful prose — is evidence
+about the writing, not about the plumbing.
+
+**When you find one, write anyway.** Mail to the domain was being delivered
+perfectly well; only the link to it was broken. Find the address by reading the
+policy's text rather than following its links, and say what is broken in the
+letter — a fault this visible is worth reporting, and it is the kind of thing a
+regulator complaint is built on.
+
 ## The pass that catches these
 
 1. **Bounces before anything else.** A bounce invalidates a request you have
