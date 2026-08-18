@@ -624,3 +624,49 @@ Note also that a processor is generally obliged to **pass the request on** to th
 controller. Asking them to do that, and to confirm they have, is a reasonable
 request that costs them very little to grant.
 
+## 22. "That is business data, not consumer data"
+
+Offered by small-business data providers, B2B compilers and firmographic services.
+It is half an answer, and the half it omits is the one that matters.
+
+For a **sole proprietorship, a single-member LLC or a home-based business**, the
+business record *is* a personal record. The contact name is a person's name, the
+business address is a home address, the business telephone is a personal mobile.
+And the modelled attributes hung off it — estimated revenue, transaction volume,
+card activity, creditworthiness, stability and risk scores — are inferences about
+one identifiable individual, whatever the schema calls the table.
+
+**Do not argue the general point.** Ask the specific questions it implies, which
+are answerable and awkward to dodge:
+
+- *Do any of my personal identifiers appear in your business records as contact,
+  owner, officer or principal details?*
+- *Do you hold a record associating my name with a business? What does it
+  contain?*
+- *What modelled or estimated attributes are attached to that record?*
+
+Then, if they still decline, **ask for the refusal in writing**. A dated "we
+consider this business data and will not action your request" is worth having: it
+is evidence, it fixes their position, and it is the thing a regulator complaint is
+built from. An unanswered request is worth nothing, and from outside the two look
+identical.
+
+## A note on inviting the negative
+
+Not a deflection, but it belongs beside them, because it converts the most common
+non-outcome into a real one.
+
+For any broker who may genuinely hold nothing — a diversified company, a B2B
+service, a front site — say explicitly in the letter that a written negative is
+welcome:
+
+> *"If you hold nothing about me, I would welcome that in writing. A statement
+> that no record exists is a real and useful answer and I will treat it as closing
+> the matter. What I cannot use is silence, since an unanswered request and an
+> empty database look identical from outside."*
+
+This makes the cheapest possible reply the one you actually want. Without it,
+"we have nothing" feels to the recipient like a non-answer not worth sending, and
+silence becomes the path of least resistance — which is indistinguishable from
+being ignored. With it, a two-line email closes the broker as `not_found`.
+
