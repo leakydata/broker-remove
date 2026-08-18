@@ -598,3 +598,50 @@ answer honestly than an accusation.
 **The pattern across all three:** ask the question whose answer changes what you do
 next, rather than the request that sounds strongest.
 
+## Arrest and booking publishers: split the ask in two
+
+A site that republishes arrest and booking records is not a data broker in the usual
+sense, and the usual letter goes badly there. Deletion runs straight into a
+First Amendment and public-record argument that is, on the merits, often a strong
+one -- and once that argument is joined the whole request is lost with it.
+
+**Concede the unwinnable point first, explicitly.** Say that you are not asking them
+to alter the public record at its source, and that you are not disputing accuracy.
+That removes the reflex and costs nothing, because it was never available anyway.
+
+**Then split the request.** A publication of this kind does two separable things:
+
+  1. it **hosts a page**; and
+  2. it makes that page **findable by name**.
+
+The second is what does the lasting damage. A name search returning a booking record
+indefinitely, regardless of outcome, attaches a permanent consequence to something
+that may never have produced a charge. **De-indexing is a different question from
+deletion, and it is frequently granted where deletion is refused** -- it does not
+require the publisher to concede anything about their right to publish.
+
+**Invite the refusal to be stated.** "If you decline on First Amendment or
+public-record grounds, please say so plainly" gets you a recordable answer instead of
+silence, and it makes the separate de-indexing question harder to leave unanswered.
+
+## Lookup-by-identifier products: name the reverse lookups
+
+Where the product is a lookup keyed to a phone number, address or email, ask for the
+suppression to cover **reverse lookups** explicitly, not only search by name.
+
+This is the PeopleConnect failure mode written in advance: a suppression that is
+keyed to the name query leaves the record reachable by every other path, and the
+confirmation will say the removal is complete because, on the query they blocked, it
+is. Naming the reverse lookups in the original letter makes a name-only answer
+visibly a partial one.
+
+## Sell-side and identity platforms: ask which hat they are wearing
+
+Ad-tech intermediaries typically hold some data as a **controller** and some as a
+**processor** on behalf of publishers or buyers. A deletion request answered from
+the processor side is answered honestly and achieves nothing.
+
+Ask directly which parts they hold in which capacity, so requests can be directed at
+the right party rather than assumed. Pair it with the other question that bounds any
+answer they give: **which identifier types did you match on?** A deletion is only as
+broad as the key it was run against, and that is invisible from outside.
