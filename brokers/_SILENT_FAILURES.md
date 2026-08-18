@@ -854,3 +854,31 @@ mailbox, it should be forwarded or redirected, and that it is not to be treated 
 a mailing preference. Silence afterwards still means nothing -- but a reply now has
 to pick one of the three, and every one of those is a usable answer.
 
+## 22. The click that lands somewhere else
+
+Filling a form by clicking a coordinate and typing assumes the page is still where
+the screenshot said it was. On several privacy forms it is not: focusing a field
+scrolls it into view, a sticky header collapses, a cookie banner appears and
+reflows the body. Every one of those moves the *next* field by tens of pixels
+between the screenshot and the click.
+
+The failure is silent in the worst way, because the typing still succeeds -- into
+whatever is now under the cursor. One staged form ended up with the first name in
+the **email** field and five other fields empty. Had it been submitted, it would
+have been a well-formed request for a person who does not exist, and the response
+would have been a truthful "no records found".
+
+Three habits that fix it:
+
+- **Prefer `form_input` with an element reference over click-then-type.** It
+  addresses the field by identity rather than by position, so scrolling cannot
+  misdirect it. It is also immune to the cookie banner that appears mid-batch.
+- **Never batch more than one click-and-type on a page that scrolls on focus.**
+  Coordinates inside a batch all refer to the screenshot taken *before* the batch.
+  The first action can invalidate every coordinate after it.
+- **Screenshot before submitting, and read the values, not the layout.** A form
+  that looks filled is not the same as a form that is filled correctly.
+
+The same reasoning applies to checkboxes. Three request-type boxes reported
+"clicked" and were still unchecked, because the page had shifted under each one.
+

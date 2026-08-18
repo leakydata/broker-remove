@@ -78,3 +78,45 @@ form was built for, so the structural ask has to be pressed on the email thread
 regardless of which links they send. See `five_by_five.md` for the same shape at
 another co-operative.
 
+## The challenge questions do not exist
+
+Alliant's reply routes each right to its own OneTrust form and says of three of
+them:
+
+> *"You may also utilize the following links in order to exercise your other
+> rights. They will take you to verify your identity using 'challenge questions'
+> which should be known by you."*
+
+The deletion form has **no challenge questions**. It asks for first name, last
+name, email, phone, country, state, address, city and zip, and then submits. That
+is the same information as the opt-out form plus a phone number and a country.
+
+This matters because the sentence is a deterrent. A challenge-question gate sounds
+like knowledge-based authentication -- previous addresses, loan amounts, the kind
+of quiz that is both intrusive and easy to fail on your own data. Someone reading
+that line may reasonably skip the deletion link and take only the opt-out, which
+is the one right Alliant volunteered without a warning attached.
+
+**Open the form before believing the description of the form.** The cost of
+checking is one page load.
+
+## Deletion here requires retention, and that is the right outcome
+
+The deletion form says so directly:
+
+> *"our deletion process requires us to retain certain identifying information
+> that allows us to ensure your information is not inadvertently added back into
+> our database in the future. Such residual information will not be used for any
+> purpose other than to ensure the continued fulfillment of your request."*
+
+Ordinarily that sentence deserves suspicion -- see `_DEFLECTIONS.md` on suppression
+being recorded as an attribute of a record that was never deleted. Here it is
+exactly what to ask for. Alliant is a **co-operative**: members contribute data and
+receive modelled audiences back. A record deleted cleanly, with nothing left to
+match against, is a record a member re-contributes next cycle, and the deletion
+silently undoes itself.
+
+So both forms are worth submitting, and the order does not matter much, but the
+**opt-out is the load-bearing one**. It is the one Alliant describes as suppression
+from future sales or sharing.
+
