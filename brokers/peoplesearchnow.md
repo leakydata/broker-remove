@@ -6,6 +6,13 @@
   inquiries... We do not process privacy requests received via email."*
 - **Priority: 3.**
 
+## Status
+
+- Current: `captcha_blocked` (updated 2026-08-18)
+- Note: statutory route refused on jurisdiction; the self-service opt-out is
+  staged and needs a captcha. See below.
+
+
 ## Third member of the TruePeopleSearch platform family
 
 The refusal email is **word-for-word identical** to TruePeopleSearch's and
@@ -36,3 +43,16 @@ chained sequence reported success on every step here while the form silently res
 - **A Google vignette ad overlay can hijack the page mid-fill and reset every
   field.** It appeared here after the form was fully populated and wiped it. Fill
   quickly, screenshot to verify, and expect to redo it.
+
+## Refused on jurisdiction; the opt-out route is a different door
+
+The statutory "Right to Know" was refused because Pennsylvania has no comprehensive
+consumer privacy law -- see `_DEFLECTIONS.md` §27 for the wording and for why
+appealing that is a bad trade. The refusal arrived in the same minute, in the same
+words, from TruePeopleSearch, FamilyTreeNow and PeopleSearchNow, which is the family
+confirmation by itself.
+
+Their self-service opt-out is a **separate mechanism** that never asks what state
+you live in. It is an email-link flow: name and email plus a captcha, then a link
+that **expires in 24 hours**, then a fuller form where the record details actually
+go. Submitting only the first step achieves nothing while looking like progress.

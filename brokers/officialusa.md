@@ -8,9 +8,9 @@
 
 ## Status
 
-- Current: `unreachable` (updated 2026-08-17)
+- Current: `unreachable` (updated 2026-08-18)
 - Reference: `gmail:1a0064bc0464c58e`
-- Note: Domain does not resolve (DNS SERVFAIL on both A and MX); site unreachable over HTTPS. Gmail classified this as a temporary 'Delivery incomplete' and retried for 48h rather than hard-bouncing, so the request looked pending for over a day. Nothing to chase.
+- Note: HARD BOUNCE after 47h of retries: 'DNS Error: DNS type mx lookup of officialusa.com responded with code NXDOMAIN'. Verified independently: no MX, no A record, no HTTPS response. The domain is still REGISTERED (registrar Internet Invest / Imena.UA, clientTransferProhibited) but has no DNS records at all - the site is dark. This is the one bounce class that genuinely means nobody is there; a CDN refusing us or a full mailbox does not.
 
 ## Steps
 
@@ -55,3 +55,28 @@ Re-resolve the domain before spending any further effort:
 If it ever answers again, the site is back and the request needs re-sending from
 scratch — a mail that never reached a nameserver reached nobody, so there is no
 partial delivery to build on.
+
+## Dark domain: the one bounce that really means unreachable
+
+Mail to `info@officialusa.com` was retried by Gmail for 47 hours and then failed
+permanently:
+
+> *"DNS Error: DNS type 'mx' lookup of officialusa.com responded with code NXDOMAIN"*
+
+Checked independently rather than taken on trust: no MX record, no A record, no
+HTTPS response. The domain is still **registered** -- there is a registrar of record
+and a `clientTransferProhibited` status -- but it publishes no DNS at all. The site
+is dark.
+
+**This is the only bounce class that genuinely means nobody is there.** Compare:
+
+- a **CDN or WAF refusing the connection** means a live company behind a shield;
+- a **full mailbox** means a real address nobody is emptying;
+- a **550 unknown user** means the domain is alive and that one address is not.
+
+Only NXDOMAIN says the name itself resolves to nothing. Recorded `unreachable`
+rather than `failed`, and no further route is worth hunting: a registered domain
+with no DNS has no web form, no privacy page and no second address to try.
+
+Worth re-checking rather than closing forever, though. A registered domain can come
+back, and if it does the data probably comes back with it.

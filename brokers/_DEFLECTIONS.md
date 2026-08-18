@@ -835,3 +835,46 @@ forged beats being asked what is already in the file.
 an alternative step, or state in writing that no deletion happens without the
 document. The third is a usable answer; an unresolved request is not.
 
+## 27. "Your state has no privacy law" — take the other door
+
+Three sibling brands refused the same statutory request within the same minute, in
+near-identical words:
+
+> *"it appears that the person identified in your request lives in a state that does
+> not have a comprehensive consumer privacy law that applies to our data. Because of
+> this, we are not able to process the request at this time."*
+
+They offer an appeal, and then close it off again:
+
+> *"Please note that replying directly to this email will not start an appeal and
+> may not receive a response."*
+
+**This is the hardest deflection in the project to argue with, because it is very
+probably correct.** Pennsylvania has no comprehensive consumer privacy statute. An
+appeal asking you to *"identify the specific law you believe applies"* is an
+invitation to lose on the merits, and losing formally is worse than not filing --
+it converts an open question into a documented refusal.
+
+**So do not argue about jurisdiction. Go round it.**
+
+Every one of these people-search sites runs a **self-service opt-out** that is
+entirely separate from the statutory rights process, and that never asks what state
+you live in:
+
+  - a "Do Not Sell / Right to Opt-out" page,
+  - or a "Privacy Request" / "Opt-Out Form" page,
+
+reached from the site footer rather than from the privacy notice. Submit name and
+email, click a link that arrives by email, complete a fuller form, and the record
+comes off the site. No statute is cited anywhere in that flow, because it is offered
+as a matter of policy rather than compliance.
+
+**The general principle: a statutory refusal is a refusal of a statutory route, not
+of the outcome.** When a company tells you the law does not reach them, stop asking
+whether the law reaches them and start asking what they offer voluntarily. Those two
+questions have different answers surprisingly often, and only one of them requires
+you to win an argument.
+
+**Keep the refusal, though.** It is a written admission that they hold data about a
+named individual and have chosen not to act on a rights request -- useful context if
+the state law changes, and useful evidence that the request was made and dated.
