@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-18)
-- Note: Agriculture/energy/weather analytics. Asked which system held a record (subscriber, marketing, event, third-party compiled) and raised the property-linked angle: a record keyed to a farm, meter, tank, delivery point or parcel at one of the subject's addresses is personal data if reasonably linkable. Explicitly invited a written 'we hold nothing' as an acceptable close.
+- Current: `manual_required` (updated 2026-08-18)
+- Note: privacy@dtn.com auto-replied that consumer privacy requests sent there 'will not be processed and will be deleted' - the published privacy address explicitly destroys them. Real route is the Data Rights Exercise Request form at /do-not-sell-my-information-form/, which uses CHECKBOXES so one submission covers all six rights. Staged with all six ticked; only the arithmetic anti-bot dropdown and Submit remain. Phone alternative 1-800-485-4000, ask for the Legal Team of the DPO.
 
 ## Steps
 

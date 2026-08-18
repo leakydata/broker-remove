@@ -9,7 +9,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-18)
-- Note: Audience-platform variant. Stated plainly that the plaintext identifiers are probably not the key: asked for hashed email digests, cookie/MAID/CTV identifiers, IP-derived household associations and the identity-graph linkages joining them. Asked whether deletion removes the underlying observations or only the mapping, and which DSPs/SSPs the segments were activated to.
+- Note: Auto-acknowledged; a team member will reply.
 
 ## Steps
 

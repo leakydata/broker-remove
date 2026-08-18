@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-18)
-- Note: Background/public-record. Disclosure and source of any criminal or court entry rather than removal alone; FCRA exemption pre-empted by asking which products they claim it for and to reconcile it with any consumer-reporting-agency disclaimer in their own terms; relatives-and-associates listings; and asked whether the site shares an index with any sibling property so one letter can cover them.
+- Current: `failed` (updated 2026-08-18)
+- Note: BOTH published addresses hard-bounce with 550: support@ (home page) and privacy@ (privacy policy). Combined with a policy whose every actionable link points at web.archive.org snapshots and a live optout URL that redirects to the policy, the site has NO working removal route of any kind. Domain has Google MX, which routes mail but does not mean any mailbox exists - the MX lookup was not evidence and should not have been treated as any. No usable channel; keep as regulator-complaint evidence.
 
 ## Steps
 

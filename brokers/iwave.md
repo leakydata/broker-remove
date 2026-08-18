@@ -7,7 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (sent 2026-08-18)
+- Current: `submitted` (updated 2026-08-18)
+- Note: Auto-acknowledged by privacy+noreply@kindsight.io - confirming the iWave/Kindsight rebrand from the reply address itself.
 
 ## Steps
 

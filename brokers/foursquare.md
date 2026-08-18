@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-18)
-- Note: Location/audience data. Framed as covering BOTH sides: any app/account data, and separately the location data held about people who never used a Foursquare app - collected via partner SDKs and acquired from third parties, which is the part a consumer has no way of knowing about. Asked for observations not just mappings, and declined to volunteer a MAID until they say whether any non-device key could re-link a record.
+- Note: Zendesk request 332742 opened.
 
 ## Steps
 

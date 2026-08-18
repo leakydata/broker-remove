@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-18)
-- Note: Adtech. Asked for hashed identifier forms, the identity-graph linkages rather than just the name, segments and inferred attributes, and downstream DSP/SSP distribution. Made the opt-out-vs-deletion distinction explicit since an IBA opt-out leaves the profile intact and is often just a cookie. Sent to a support address; asked them to forward and name their privacy contact.
+- Note: Ticket opened via discotechnology.zendesk.com - so disconetwork.com is operated under the Disco Technology name. Worth watching for other brands on the same Zendesk instance.
 
 ## Steps
 

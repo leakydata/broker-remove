@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-17)
-- Note: Statutory delete/opt-out request emailed, tailored to the broker's data category; awaiting reply.
+- Current: `submitted` (updated 2026-08-18)
+- Note: Covered by ONE consolidated letter to support@mailer.intelius.com, which all five sites publish as their privacy contact. Letter names all five explicitly and asks which of them held a record, whether the action is suppression or one-time removal, and whether an opt-out of sale was applied separately from removal from display.
 
 ## Steps
 

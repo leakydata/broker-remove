@@ -7,7 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (sent 2026-08-18)
+- Current: `submitted` (updated 2026-08-18)
+- Note: Acknowledged receipt of the DSR; response promised within the statutory timeframe.
 
 ## Steps
 

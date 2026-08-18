@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-17)
-- Note: Statutory delete/opt-out request emailed, tailored to the broker's data category; opens with a first-party declaration. Awaiting reply.
+- Current: `confirmed` (updated 2026-08-18)
+- Note: Covered by the Tunnl submission at the shared Ethyca Privacy Center; completion email received. Confirm on the ticket that the deletion covers records held under the Deep Root name.
 
 ## Steps
 

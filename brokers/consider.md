@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-17)
-- Note: Statutory delete/opt-out request emailed, tailored to the broker's data category; awaiting reply.
+- Note: Zendesk request 25728 acknowledged.
 
 ## Steps
 

@@ -8,7 +8,8 @@
 
 ## Status
 
-- Current: `submitted` (sent 2026-08-18)
+- Current: `submitted` (updated 2026-08-18)
+- Note: Asked for name/city/street/profile-link, word-for-word identical to FreePeopleSearch's template on the same day - same support desk. Supplied the full identifier set and pushed back on two things: the profile-link demand (they are better placed to search their own index) and the 'only one profile per email request' rule, which converts one request into an indefinite series where each message can only name a profile the consumer could not find. Also asked directly whether they and freepeoplesearch.com share an operator or index.
 
 ## Steps
 

@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-18)
-- Note: Market-research/panel variant: asked for deletion of panel membership and survey response data searched by panellist ID as well as by name, of inferred demographic and attitudinal profiles, disclosure of which clients received the data, and the recruitment source. Also asked them to search hashed identifier forms.
+- Note: Ticket 7565455: replied 'upon checking no records or data found connected to this account'. NOT recorded as not_found - the wording is account-scoped, and at a panel business that is the wrong key: panel records are held against a panellist ID with identifying details in a separate table, and they also hold third-party-acquired data about people who never registered. Pressed for a search on each identifier in its own right, plus panellist/respondent records, hashed email forms, and third-party-acquired profile data. Offered to close it on a plain 'no record under any identifier'.
 
 ## Steps
 

@@ -8,7 +8,8 @@
 
 ## Status
 
-- Current: `submitted` (sent 2026-08-18)
+- Current: `submitted` (updated 2026-08-18)
+- Note: Zendesk acknowledgement; under review by support.
 
 ## Steps
 

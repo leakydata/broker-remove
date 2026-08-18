@@ -608,6 +608,41 @@ operator says they hold nothing; a reply that says they found nothing *in one
 place* is a partial answer, and filing it as an outcome retires a broker that was
 never actually searched.
 
+## 18. The mailbox was full
+
+A third bounce class, and the only one that is **temporary**:
+
+> *"Delivery has failed to these recipients or groups: css-support@... The
+> recipient's mailbox is full and can't accept messages now. Please try resending
+> your message later."*
+
+Not a dead address and not a dead domain. The mailbox exists, the domain is
+healthy, the company is trading — the message was refused for want of space.
+
+Three bounce classes now, and they call for three different actions:
+
+| What the DSN says | What it means | What to do |
+|---|---|---|
+| `550 address not found` | Domain lives, mailbox does not | Find another address |
+| `domain couldn't be found` | No DNS at all | Record `unreachable`, stop |
+| **`mailbox is full`** | **Address is real, temporarily refusing** | **Retry later — do not re-route** |
+
+**Why it deserves naming.** The instinct on any bounce is to go looking for a
+different address, and here that is the wrong move: the published address is
+correct and will start working again. Re-routing to some other mailbox found on
+the site sends the request somewhere worse.
+
+**And it is the easiest of the three to lose.** A full mailbox is a transient
+state, so the retry has to be *diarised* — nothing will remind you, and a request
+recorded as `failed` and never revisited is indistinguishable from one that was
+refused. Record it as failed with the reason, and set a date.
+
+One more thing this DSN gave away: the address written to was `privacypolicy@`,
+and the bounce came back naming `css-support@`. The published privacy address is
+an alias forwarding into a customer-support queue — so privacy requests land in
+the same tray as billing questions, which is worth knowing even after the mailbox
+empties.
+
 ## The pass that catches these
 
 1. **Bounces before anything else.** A bounce invalidates a request you have

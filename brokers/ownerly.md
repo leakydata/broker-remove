@@ -10,7 +10,7 @@
 
 - Current: `submitted` (updated 2026-08-17)
 - Reference: `gmail:1a0064bacdeb8691`
-- Note: Replied to an agent-authorization demand: they asked for a signed authorization or power of attorney proving I may act 'on the consumer's behalf', but this is a first-party request. Explained I am the consumer, that all listed email addresses are mine, and asked them to reclassify the ticket. Supplied full address history since Ownerly is property-keyed.
+- Note: Agent-authorization demand WITHDRAWN after a first-party reply - they reclassified and processed the same day, without any document being supplied. They then opted out 4 emails and 8 phone numbers, but the four opted out are exactly the four that were NEW in the second message; the original four are unlisted. Asked them to confirm all eight. Also pressed the point that no ADDRESS was searched, which for a property service is the index that matters, and asked for a plain written 'we hold no record' if that is the position.
 
 ## Steps
 

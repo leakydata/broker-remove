@@ -814,6 +814,16 @@
     "changed": "2026-08-18",
     "via": "email"
   },
+  "fourthwall": {
+    "status": "failed",
+    "changed": "2026-08-18",
+    "via": "email"
+  },
+  "fraiser": {
+    "status": "submitted",
+    "changed": "2026-08-18",
+    "via": "email"
+  },
   "freebackgroundcheck_org": {
     "status": "failed",
     "changed": "2026-08-18",
@@ -984,6 +994,11 @@
     "changed": "2026-08-18",
     "via": "email"
   },
+  "information_com": {
+    "status": "submitted",
+    "changed": "2026-08-18",
+    "via": "reply"
+  },
   "infotracer": {
     "status": "submitted",
     "changed": "2026-08-15",
@@ -1014,6 +1029,16 @@
     "changed": "2026-08-16",
     "via": null
   },
+  "ispot_tv": {
+    "status": "submitted",
+    "changed": "2026-08-18",
+    "via": "email"
+  },
+  "iwave": {
+    "status": "submitted",
+    "changed": "2026-08-18",
+    "via": "email"
+  },
   "kansas_arrests": {
     "status": "submitted",
     "changed": "2026-08-16",
@@ -1024,6 +1049,16 @@
     "changed": "2026-08-16",
     "via": null
   },
+  "kaspr_io": {
+    "status": "submitted",
+    "changed": "2026-08-18",
+    "via": "email"
+  },
+  "kb_synergy": {
+    "status": "submitted",
+    "changed": "2026-08-18",
+    "via": "email"
+  },
   "kentucky_arrests": {
     "status": "submitted",
     "changed": "2026-08-16",
@@ -1033,6 +1068,11 @@
     "status": "submitted",
     "changed": "2026-08-16",
     "via": null
+  },
+  "kids_live_safe": {
+    "status": "submitted",
+    "changed": "2026-08-18",
+    "via": "email"
   },
   "lexisnexis": {
     "status": "submitted",

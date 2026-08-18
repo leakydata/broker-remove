@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-18)
-- Note: Data provider. Hashed identifier forms, permanent suppression rather than deletion, derived/inferred attributes as distinct from source fields, onward recipients, acquisition source. Invited a written negative as an acceptable close.
+- Current: `confirmed` (updated 2026-08-18)
+- Note: CONFIRMED, BOTH RIGHTS, within one minute of sending. Two separate broker-issued emails from noreply@trustsuperset.com: 'your right to erasure request has been completed' and 'your right to opt-out of data sales request has been completed'. No verification hoop, no residency question, and they parsed the emailed letter into TWO request types unprompted - the opposite of a single-select form. Platform is Superset (trustsuperset.com).
 
 ## Steps
 

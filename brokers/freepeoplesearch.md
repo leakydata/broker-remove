@@ -9,7 +9,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-18)
-- Note: People-search. Every former address and disconnected number; relatives-and-associates listings; suppression vs one-time; upstream sources. Pre-empted the profile-URL, account and ID demands.
+- Note: Auto-reply citing increased request volume; no ticket reference issued.
 
 ## Steps
 

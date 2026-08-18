@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-18)
-- Note: Outbound-prospecting platform. Beyond the contact record, asked for CAMPAIGN AND ENGAGEMENT HISTORY - messages sent, opens, clicks, replies, bounce status - which is personal data about the recipient and is routinely missed by a deletion framed as being about a 'contact'. Plus copies in customer sequences, and a global suppression entry held independently so deletion does not make the address mailable again.
+- Current: `manual_required` (updated 2026-08-18)
+- Note: Opt-out form submitted for [EMAIL]. THEIR FORM STATES THE TRAP OUTRIGHT: 'if you would like to request deleting all information we may have connected to your email, we may not be able to keep a record of your opt-out preference and add information to the database again.' So at Growbots deletion is the WORSE outcome - the opt-out keeps the address purely as a suppression key, which is the correct design. They also refuse gmail/yahoo and require a professional address. Confirmation link goes to the psu.edu mailbox, which I cannot read - handed off.
 
 ## Steps
 

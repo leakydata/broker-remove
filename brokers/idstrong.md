@@ -9,7 +9,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-18)
-- Note: Runs both an identity-monitoring service and a public people-search index; asked them to be precise about which system they searched. Distinctive ask: they compile BREACHED datasets to power alerts, so asked for that compiled copy to be deleted too - the protective intent does not change that it is a commercial copy of breached personal data held by a company the subject has no relationship with. Refused in advance to sign up for a monitoring product or send ID documents to a firm whose business is compiling exposed data.
+- Note: Asked on ticket 538837 whether they share an operator, helpdesk or index with InfoTracer (537420) and CourtCaseFinder (538631), offering the three possible answers and noting that any of them is useful. Framed as a question, not an assertion - a shared helpdesk vendor is not a shared database.
 
 ## Steps
 

@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-18)
-- Note: Identity-resolution variant. Central ask: delete the identifier GRAPH - device IDs, MAIDs, cookie IDs, IP-derived household associations, hashed emails, and the linkage records joining them to name and address. The graph edge is the product, so deleting the name while keeping the edge preserves the record. Also asked for inferred attributes and downstream propagation.
+- Note: Acknowledged: VisitIQ Case #01055286. support@driveniq.com routes into VisitIQ's support desk (visitiq.io), which is DrivenIQ's product - so the two names share a queue.
 
 ## Steps
 

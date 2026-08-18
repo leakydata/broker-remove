@@ -9,7 +9,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-17)
-- Note: Published privacy@citydata.ai is a Google Workspace group closed to external posting and bounced. Resent to dpo@citydata.ai from the same privacy page, quoting the bounce so they can fix it. Registry corrected, email_verified set.
+- Note: Resent to dpo@ after privacy@citydata.ai rejected delivery: Google Workspace group closed to external senders, though the privacy policy links it twice as a mailto. Device-keyed broker (IDFA/ADID); they state they hold no names, emails or phone numbers. Asked them to confirm in writing whether any non-device key could re-link a record, whether deletion removes the observations or only the mapping, and to honour the request despite the California-resident scoping.
 
 ## Steps
 

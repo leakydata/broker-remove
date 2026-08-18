@@ -9,7 +9,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-18)
-- Note: Supplies personal mobile numbers and private email addresses for individuals, notably in healthcare - so the personal contact details ARE the product and the request is aimed squarely at them, including hashed forms. Asked for per-contact-point sourcing (the part not discoverable any other way), the customer list, permanent suppression, and do-not-contact entries held independently of the record so deletion does not remove the protection.
+- Note: Replied three times with an IDENTICAL confirmation covering only the OPT-OUT: 'your request to opt out of the sale or sharing of your personal information has been received and successfully processed.' Silent on deletion, which was the first half of the request. Pressed for deletion specifically, plus which identifiers they hold (including hashed), per-contact-point sourcing, the customer list, and a do-not-contact entry held independently of the record. Also flagged their autoresponder firing per inbound rather than per ticket.
 
 ## Steps
 

@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-18)
-- Note: Their ONLY published privacy contact is FW_California_Consumers_CCPA_Data_Requests@ - a mailbox named for one state. Opened by asking them not to treat the name of the mailbox as the scope of their obligations or their policy, and to put any residency-based refusal in writing. CTV variant: platform device IDs, IP-derived HOUSEHOLD associations (television targeting is address-adjacent by design), ad-exposure records, and whether deletion removes the exposure records or only the mapping.
+- Note: Zendesk request #306876 opened via ccpa-consumer@freewheel.zendesk.com - so the California-named mailbox DID accept a request from a non-California resident. The scope claim in the mailbox name was not a scope decision.
 
 ## Steps
 

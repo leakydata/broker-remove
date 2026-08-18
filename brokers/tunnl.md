@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-17)
-- Note: Ethyca Privacy Center erasure request submitted END TO END with no CAPTCHA and no human step: form -> emailed one-time code -> 'Request submitted'. Phone field silently rejects dashes (turns red, no message); +1XXXXXXXXXX is accepted. Form takes ONE address only, so address history is not covered by a single submission.
+- Current: `confirmed` (updated 2026-08-18)
+- Note: CONFIRMED REMOVED. Broker-issued email 'Your data has been deleted' / 'Your deletion request has been completed', arriving about one minute after the Ethyca portal submission. Full cycle - form, one-time code, submission, completion - took under two minutes with no human step and no CAPTCHA.
 
 ## Steps
 

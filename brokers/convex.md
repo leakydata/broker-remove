@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-17)
-- Note: Statutory delete/opt-out request emailed, tailored to the broker's data category; opens with a first-party declaration. Awaiting reply.
+- Note: Support ticket 487019 acknowledged; one business day stated for review.
 
 ## Steps
 

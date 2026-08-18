@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `submitted` (resent 2026-08-18 to the corrected address)
-- Note: Subscription database of consumer/business records. Lead ask is the export problem: subscribers search and download, so any exported copy is beyond their deletion and is the copy that calls - asked which subscribers received the record. Plus permanent suppression, do-not-call entries held independently of the record, and deletion (not contact-suppression) of any sensitive or modelled attributes.
+- Current: `submitted` (updated 2026-08-18)
+- Note: privacy@infofree.com hard-bounced (550). Their site links its privacy route to privacycompliance.biz/other-dbusa/ - a DatabaseUSA portal - so Infofree and DatabaseUSA share an opt-out mechanism. Completed that portal end to end: email+name+state, emailed verification link, then a full form with SEPARATE TOGGLES for opt-out of sale, delete, and disclosure of categories. All three enabled. Stated timelines: opt-out 15 days, deletion 45 days.
 
 ## Steps
 

@@ -7,7 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (sent 2026-08-18)
+- Current: `submitted` (updated 2026-08-18)
+- Note: Auto-reply states they do no business outside the USA and asks US consumers to follow their process; request stands.
 
 ## Steps
 

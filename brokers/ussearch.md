@@ -8,7 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (sent 2026-08-18)
+- Current: `submitted` (updated 2026-08-18)
+- Reference: `gmail:1a00618203742083`
+- Note: PeopleConnect processed the request: addresses, emails, phones and identifiable background reports suppressed from display across their sites. They are explicit that this is SUPPRESSION, not deletion - 'does not delete or alter the underlying public record from its original source'. They invited additional identifiers, so replied with the full set (8 emails, 11 addresses, 9 phones, name variants) and asked which properties are covered, which policy basis was applied, whether the suppression survives a source refresh, and whether an opt-out of sale was applied separately from display suppression.
 
 ## Steps
 

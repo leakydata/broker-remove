@@ -10,7 +10,7 @@
 
 - Current: `submitted` (updated 2026-08-17)
 - Reference: `gmail:1a00c87e171c486d`
-- Note: Zendesk ticket opened; reference issued and a named agent replied.
+- Note: Ticket 127490: support forwarded the request to their privacy team. Their signature block volunteers that VerifyRecords LLC and subsidiaries are NOT a consumer reporting agency under FCRA - which forecloses the FCRA-exemption deflection before it is raised. Disclosure-and-source question still unanswered.
 
 ## Steps
 

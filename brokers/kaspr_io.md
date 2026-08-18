@@ -8,7 +8,8 @@
 
 ## Status
 
-- Current: `submitted` (sent 2026-08-18)
+- Current: `submitted` (updated 2026-08-18)
+- Note: Auto-acknowledged with a pointer to their DSR process under GDPR/CCPA.
 
 ## Steps
 

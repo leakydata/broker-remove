@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `submitted` (2026-08-18, filed against priorityoptout@intelius.com)
-- Note: Published contact address support@ hard-bounced ('address couldn't be found'), and it is the ONLY address on their site — contact page offers just a search form and that address. Domain and MX resolve, so the domain is live and the mailbox is not. This is the same affiliate/lead-gen pattern as Criminal.com: funnels searches to Intelius/PeopleConnect rather than holding its own records. Acted on by filing directly against the actual data holder.
+- Current: `failed` (updated 2026-08-17)
+- Note: Published contact address support@ hard-bounced ('address couldn't be found'), and it is the ONLY address on their site — contact page offers just a search form and that address. Domain and MX resolve, so the domain is live and the mailbox is not. Appears to be the same affiliate/lead-gen pattern as Criminal.com: funnels searches to a background-check provider rather than holding records. No usable route.
 
 ## Steps
 

@@ -10,7 +10,7 @@
 
 - Current: `submitted` (updated 2026-08-17)
 - Reference: `gmail:1a0064b93acf05ab`
-- Note: Same PeopleConnect-style 'unable to locate a full record' reply as BeenVerified, same afternoon. Replied with age, cities/states, full address history and all identifiers, emphasising that this site indexes by property/address so prior addresses matter most.
+- Note: Second 'unable to locate a full record' despite having every identifier they asked for. Replied pressing for a plain written negative or the identifier that would work, and raised the point specific to this brand: NeighborWho is address-centric, so a name-keyed search can return nothing while an address page still lists the subject as a current or former resident. Asked them to search all ten addresses AS addresses.
 
 ## Steps
 

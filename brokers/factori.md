@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-18)
-- Note: Mobile location/device data. Asked for MAIDs, device IDs and hashed emails; for the location OBSERVATIONS themselves (lat/long, dwell points, visits, derived home/work) rather than just the mapping; and for derived segments. Declined to volunteer a device identifier until they answer whether any non-device key could re-link a record - would rather not hand a new identifier to a company that may not hold one.
+- Note: Auto-acknowledged; they state a deletion request has been noted.
 
 ## Steps
 

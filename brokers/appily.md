@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-17)
-- Note: Statutory delete/opt-out request emailed, tailored to the broker's data category; awaiting reply.
+- Current: `submitted` (updated 2026-08-18)
+- Note: Named explicitly in the EAB letter, which shares privacy@eab.com. No separate request needed.
 
 ## Steps
 

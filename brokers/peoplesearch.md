@@ -9,7 +9,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-18)
-- Note: Covered by a letter to support@whitepages.com, which peoplesearch.com publishes as its privacy contact, asking Whitepages to extend the existing request to it explicitly or to say who operates it.
+- Note: Corrected route. support@whitepages.com, which peoplesearch.com publishes as its privacy contact, is an unmonitored autoresponder that redirects to a Zendesk form - so a consumer following peoplesearch.com's own privacy policy files nothing and gets a reply that reads like an acknowledgement. Re-raised on the existing Whitepages ticket #5402176 instead, asking them to extend it to peoplesearch.com or name the operator, and pointing out the broken published channel.
 
 ## Steps
 
