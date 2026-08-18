@@ -2603,8 +2603,8 @@
       "optery_slug": "data-direct-marketing",
       "email_to": "info@datadirectmarketing.com",
       "email_verified": false,
-      "email_verified_by": "site_unreachable",
-      "notes": "Published address hard-bounces (550); no alternative published."
+      "email_verified_by": null,
+      "notes": "Published address hard-bounces (550); no alternative published. Previously flagged site_unreachable, but DNS resolves - the site refuses automated requests rather than being gone. The address is simply unverified, not dead."
     },
     {
       "id": "data_trust",
@@ -3265,7 +3265,8 @@
       "optery_slug": "flashintel",
       "email_to": "privacy@myflashcloud.com",
       "email_verified": false,
-      "email_verified_by": "site_unreachable"
+      "email_verified_by": null,
+      "notes": "Previously flagged site_unreachable, but DNS resolves - the site refuses automated requests rather than being gone. The address is simply unverified, not dead."
     },
     {
       "id": "florida_arrests",
@@ -4317,7 +4318,8 @@
       "optery_slug": "lead411",
       "email_to": "lead411_privacy@l4mail.com",
       "email_verified": false,
-      "email_verified_by": "site_unreachable"
+      "email_verified_by": null,
+      "notes": "Previously flagged site_unreachable, but DNS resolves - the site refuses automated requests rather than being gone. The address is simply unverified, not dead."
     },
     {
       "id": "lead_me_media",
@@ -4521,7 +4523,8 @@
       "optery_slug": "listsonline",
       "email_to": "privacyofficer@listsonline.com",
       "email_verified": false,
-      "email_verified_by": "site_unreachable"
+      "email_verified_by": null,
+      "notes": "Previously flagged site_unreachable, but DNS resolves - the site refuses automated requests rather than being gone. The address is simply unverified, not dead."
     },
     {
       "id": "live_data_technologies",
@@ -4803,7 +4806,8 @@
       "optery_slug": "match-and-append",
       "email_to": "privacy@matchandappend.com",
       "email_verified": false,
-      "email_verified_by": "site_unreachable"
+      "email_verified_by": null,
+      "notes": "Previously flagged site_unreachable, but DNS resolves - the site refuses automated requests rather than being gone. The address is simply unverified, not dead."
     },
     {
       "id": "matchbook",
@@ -4875,7 +4879,8 @@
       "optery_slug": "mediasoft",
       "email_to": "info@mediasoftstudio.com",
       "email_verified": false,
-      "email_verified_by": "site_unreachable"
+      "email_verified_by": null,
+      "notes": "Previously flagged site_unreachable, but DNS resolves - the site refuses automated requests rather than being gone. The address is simply unverified, not dead."
     },
     {
       "id": "mediawallah",
@@ -5251,7 +5256,8 @@
       "optery_slug": "nc-solutions",
       "email_to": "ncs.privacy@ncsolutions.com",
       "email_verified": false,
-      "email_verified_by": "site_unreachable"
+      "email_verified_by": null,
+      "notes": "Previously flagged site_unreachable, but DNS resolves - the site refuses automated requests rather than being gone. The address is simply unverified, not dead."
     },
     {
       "id": "nebraska_arrests",

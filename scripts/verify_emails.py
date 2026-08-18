@@ -16,8 +16,10 @@ addresses they publish, and compares them with what the registry holds:
     CONFIRMED   the registry address appears on the broker's own site
     REPLACE     the site publishes a different, more privacy-specific address
     NO_EMAIL    the site is up but publishes no address (a form or phone may exist)
-    BLOCKED     the site is up but refuses automated requests (403 etc.)
-    UNREACHABLE the domain does not resolve, or nothing answers at all
+    BLOCKED     the domain resolves but we cannot read it -- a 403, or a CDN
+                refusing the connection outright. Says nothing about the address.
+    UNREACHABLE the domain does not resolve. This is the only verdict that means
+                there is nobody there.
 
 NO_EMAIL, BLOCKED and UNREACHABLE are three different things and must not be
 collapsed. An early version of this script reported UNREACHABLE whenever the
@@ -191,7 +193,15 @@ def check(b):
     found, answered, served = emails_on_site(domain)
     out["found"] = sorted(found)[:8]
     if not answered:
-        out["verdict"] = "UNREACHABLE"
+        # DNS resolved, so the domain exists and somebody registered it -- but
+        # nothing accepted a connection. That is a CDN or WAF refusing us, not a
+        # dead company. An earlier version called this UNREACHABLE and marked the
+        # address unverified on that basis; several Cloudflare-fronted brokers
+        # with working MX records were written off that way.
+        #
+        # The only thing that means "there is nobody here" is DNS failing, which
+        # is checked above.
+        out["verdict"] = "BLOCKED"
         return out
     if not served:
         # DNS resolves and the host answers, but every page was refused.

@@ -446,6 +446,35 @@ below the fold, and "withdrawal of consent previously provided" in particular is
 worth ticking even where you gave none, since some brokers assert consent through
 the privacy policy itself.
 
+## 14. Our own checker called a live company dead
+
+The address-verification sweep fetches each broker's privacy and contact pages. If
+nothing answered, it recorded **UNREACHABLE** and marked the address unverified —
+which reads, to anyone using the registry later, as "this company is gone, stop."
+
+Seven brokers were written off that way and were not gone. Their sites sit behind
+a CDN that refuses scripted requests: the connection is reset before any HTTP
+status exists, which looks identical to nothing being there. DNS resolved. MX
+records resolved. Mail would have been delivered.
+
+The distinction the check was missing is small and decisive:
+
+| Observation | Meaning |
+|---|---|
+| DNS does not resolve | Nobody is there. This is the only case that means "stop". |
+| DNS resolves, connection refused | A CDN is refusing **us**. Says nothing about the address. |
+| Connection accepted, 403 | The server is refusing us politely. Same conclusion. |
+
+Now only a DNS failure yields UNREACHABLE; a resolving domain that will not talk
+to us is BLOCKED, and BLOCKED deliberately leaves the existing verification flag
+alone, because being unable to read a website is not evidence about a mailbox.
+
+**The general lesson is about which way a check fails.** This one failed toward a
+confident negative — it did not say "I could not tell", it said "unreachable", and
+that word closed the question. A checker that cannot distinguish *absence* from
+*being refused* should report uncertainty, not absence. Where it cannot, the
+verdict it emits must be the one that costs least when wrong.
+
 ## The pass that catches these
 
 1. **Bounces before anything else.** A bounce invalidates a request you have
