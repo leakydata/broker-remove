@@ -1030,7 +1030,7 @@
     "via": null
   },
   "inmatessearcher": {
-    "status": "captcha_blocked",
+    "status": "manual_required",
     "changed": "2026-08-18",
     "via": "web"
   },

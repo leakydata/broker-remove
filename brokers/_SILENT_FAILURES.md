@@ -983,3 +983,48 @@ void.
 **Read the acknowledgement for the verb.** "Click", "confirm", "respond" and "reply"
 are not interchangeable, and the one broker in twenty who wants a reply will not
 send a link for you to find.
+
+## 27. The error message that blames the wrong thing
+
+A stage-two opt-out link, opened nine minutes after it was issued, returned:
+
+> *"Opt-Out Request Expired — The data in the request seems to have some errors,
+> visit the Opt Out Form to start the process again."*
+
+It had not expired. The link carries two query parameters -- a base64 `key` and a
+separate `ticketid` -- and only the `key` had been used. Adding the `ticketid` back
+loaded the form immediately.
+
+**Two ways this wastes a request.** The message names the wrong cause, so the
+obvious response is to go back to step one and burn another round trip. And it says
+"expired", which is plausible on a flow that genuinely does expire in 24 hours --
+the true explanation is available and wrong.
+
+**The cause was upstream, in the email.** The plaintext rendering of the message had
+mangled the separator: `&amp;ticketid` with the `=` replaced by a replacement
+character. Anyone reading the plaintext part, or any tool extracting the URL from
+it, silently loses the second parameter.
+
+**Take the link from the HTML part, not the plaintext part.** And when a
+freshly-issued link claims to be expired, check the URL against the one in the email
+character by character before accepting the diagnosis -- the site is guessing at why
+its own validation failed, and it guessed the most reassuring reason.
+
+## 28. Automation attachment can make a bot check unpassable
+
+One broker's opt-out page entered an endless loop -- Cloudflare challenge, page,
+challenge, page -- that only occurred while a browser-automation tool was attached
+to the tab. The challenge cannot be satisfied because the thing being detected is
+the debugger connection, not the visitor.
+
+This is worth separating from the ordinary bot gate. A normal challenge is a
+hand-off: stage the form, a person clears it, work continues. This one **cannot be
+handed off in the same tab**, because the loop resumes the moment the page reloads
+under automation. Detaching -- closing the tab entirely -- is what stops it.
+
+**When a challenge loops rather than blocks, suspect the tool before the site.**
+Then look for the route that does not involve the browser at all. In this case the
+broker's own support email had already offered one: *"If you are unable to remove
+your listing from [the opt-out URL] please call us... and we will be happy to assist
+you in locating and removing your listing."* The fallback was in hand before the
+loop started.
