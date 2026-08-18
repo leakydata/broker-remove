@@ -44,3 +44,31 @@ No public listing. Ask the confirmation to state separately: the record deleted,
 the suppression entry added, the telephone numbers suppressed as standalone
 entries, and the subscribers notified. One sentence covering "your request has been
 completed" answers none of those individually.
+
+## The bounce found a broker that was not on any list
+
+`privacy@infofree.com` hard-bounced with a 550. `info@infofree.com` is what the
+site actually publishes.
+
+But the more useful thing was on the page. Infofree's privacy link points at
+**`privacycompliance.biz/other-dbusa/`** — a **DatabaseUSA** portal. So the two
+share an opt-out mechanism, and DatabaseUSA was not in any of the source lists
+this project started from.
+
+**That is the pattern worth taking away.** A bounce forces you to read the site
+properly instead of trusting the registry, and reading the site turns up routes
+and relationships a scraped list never had. The failure was productive: it cost
+one wasted send and produced a new broker, a working portal, and a documented
+family link.
+
+The portal was completed end to end — see `databaseusa.md` for the flow and for
+their unusually candid disclosure of what they collect. All three rights were
+enabled in one submission: opt-out of sale (15 days), deletion (45 days), and
+disclosure of categories.
+
+**Whether that covers Infofree's own file is not established.** A shared portal is
+evidence of a shared operator, not proof of a shared database, and nobody will
+volunteer that a submission was narrower than you assumed. Worth asking
+`info@infofree.com` directly whether the DatabaseUSA submission reaches Infofree's
+records, or whether a separate request is needed.
+
