@@ -80,11 +80,24 @@ rewriting was left in — a lazy restore rather than a designed obstacle. But in
 does not change the outcome: anybody who has tried to opt out since March has
 failed, and almost none of them will know it.
 
-**What works:** the domain has live Google MX, so mail to
-`privacy@freebackgroundcheck.org` is delivered even though the link to it is not.
-Write there directly, and say what is broken — a fault this visible is worth
-reporting, and it is also exactly the kind of thing a regulator complaint is built
-on.
+**Nothing works.** `privacy@freebackgroundcheck.org` — the address in the policy
+text, reached by reading rather than clicking — hard-bounces with the same 550 as
+`support@`. Both published addresses are dead, every link is an archive snapshot,
+and the live opt-out URL loops back to the policy. There is no route in or out.
+
+I got this wrong for about half an hour and the mistake is worth recording,
+because it is the same error in the opposite direction to `_SILENT_FAILURES.md`
+§14. The domain has live Google MX records, and I read that as "mail is being
+delivered". **An MX record says the domain accepts mail routing. It says nothing
+about whether any particular mailbox exists.** A 550 comes from the receiving
+server *after* MX has done its job — that is precisely what distinguishes it from
+a DNS failure. Having written that distinction down, I then used MX resolution as
+evidence for a mailbox. Do not.
+
+The right conclusion: `failed`, with the whole thing kept as evidence. A
+background-check site with no working removal route, whose privacy policy routes
+consumers to photographs of its own pages, is the sort of thing a regulator
+complaint is built on.
 
 **The general lesson.** A published route can fail in a way that leaves the page
 looking maintained: dated this year, professionally worded, comprehensive. Check

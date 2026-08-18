@@ -2975,10 +2975,10 @@
       "source": "optery_scrape",
       "optery_slug": "freebackgroundcheck-org",
       "email_to": "privacy@freebackgroundcheck.org",
-      "email_verified": true,
-      "email_verified_by": "privacy_policy",
+      "email_verified": false,
+      "email_verified_by": "bounced",
       "email_alt": "support@freebackgroundcheck.org",
-      "notes": "support@ hard-bounces (550). privacy@ is published in the policy and the domain has live Google MX. Every link in that policy points at web.archive.org snapshots, so no clickable route works."
+      "notes": "Both published addresses hard-bounce (550): support@ from the home page and privacy@ from the privacy policy. Every actionable link in that policy points at web.archive.org snapshots, and the live optout URL redirects back to the policy. No working removal route exists. Google MX resolves, which routes mail but says nothing about whether a mailbox exists."
     },
     {
       "id": "freebackgroundchecks_com",

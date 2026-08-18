@@ -502,11 +502,18 @@ right, it accepted their typing, and nothing said otherwise.
 quirk. And a page that looks maintained — recent date, careful prose — is evidence
 about the writing, not about the plumbing.
 
-**When you find one, write anyway.** Mail to the domain was being delivered
-perfectly well; only the link to it was broken. Find the address by reading the
-policy's text rather than following its links, and say what is broken in the
-letter — a fault this visible is worth reporting, and it is the kind of thing a
-regulator complaint is built on.
+**Read the policy's text for an address rather than following its links** — that
+much is right, and it is how the second address was found here. In this case it
+bounced too, with the same 550: both published addresses are dead and the site has
+no route in of any kind.
+
+**A postscript on how I got that wrong.** Seeing live Google MX records for the
+domain, I concluded mail was being delivered and wrote that down. It was not. An
+MX record means the domain accepts mail *routing*; whether a given mailbox exists
+is decided by the receiving server afterwards, which is exactly what a 550 is. §14
+above is about not treating a refusal as an absence; this is the same error
+inverted — treating infrastructure as evidence of a mailbox. Neither DNS nor MX
+tells you an address works. **Only a delivered message does.**
 
 ## The pass that catches these
 
