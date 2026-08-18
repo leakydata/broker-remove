@@ -882,3 +882,31 @@ Three habits that fix it:
 The same reasoning applies to checkboxes. Three request-type boxes reported
 "clicked" and were still unchecked, because the page had shifted under each one.
 
+## 23. The form collects eight identifiers and the answer names one
+
+A removal form asks for name, email, phone, address line 1, address line 2, city,
+state and zip. It then answers:
+
+> *"We have no record of <email address> in our service."*
+
+Six of the eight fields do not appear in the answer. Two readings, and no way to
+distinguish them from outside:
+
+- the lookup really is keyed on email alone, and everything else was collected for
+  a purpose other than the search; or
+- the lookup used everything, and only the *message* is narrow.
+
+Either way the negative covers less than it looks like it covers, and the more
+identifiers a form collects, the more confident its negative sounds.
+
+**The tell is arithmetic**: count the fields the form asked for, then count the ones
+the answer mentions. When those numbers differ, the answer is scoped to the smaller
+set until somebody says otherwise.
+
+**It gets worse when the identifier is a poor key for that broker.** A directory of
+government and corporate leadership, searched by a personal webmail address,
+returns no match almost by construction -- the record, if it exists, is filed under
+a work address and an employer. A negative is only as strong as the identifier it
+was run against, so ask what this particular broker would file you under before
+believing it.
+
