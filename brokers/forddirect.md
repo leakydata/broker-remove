@@ -131,3 +131,33 @@ caused the email verification or merely coincided with it, the sequence is the
 useful record: **a stated objection cost one message and the document was never
 sent.**
 
+## Two routes, run in parallel, and the cost of that
+
+The email path and the form path were worked at the same time by two different
+people, and both completed. That is worth recording, because the outcome is a
+small object lesson rather than a mistake.
+
+The email path finished first and finished clean: Mine sent a verification link,
+clicking it returned *"Success! Your privacy request has been submitted."* and no
+document was ever requested. The form path finished a few minutes later, and it
+could only be finished by uploading a utility bill, because that field is mandatory
+with no alternative offered.
+
+So a sensitive document went to a broker's privacy vendor to satisfy a requirement
+that had already been satisfied a better way.
+
+**Two consequences to chase, and both were.** First, ask for the document back --
+not rhetorically, but specifically: deleted from the ticket, from the vendor's
+backing store, and confirmed in writing not to be retained in backups or audit logs
+beyond a stated legal basis. A document you did not need to send is still a
+document they now hold. Second, ask them to **merge rather than dedupe**: two
+tickets for one person invite one being closed as a duplicate of the other, and the
+survivor may be the narrower one. Ask explicitly which survives and confirm its
+scope covers every prior identifier.
+
+**The general rule.** When two routes to the same broker are open, finish one
+before starting the other. The routes are not equivalent -- they demand different
+things and they verify to different standards -- and the cheaper route finishing
+first does not retroactively stop the more expensive one from collecting what it
+asked for.
+
