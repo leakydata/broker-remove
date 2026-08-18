@@ -355,6 +355,42 @@ does when the input set is empty — and prove it can fail by feeding it somethi
 that should trip it. A guard you have never seen go red is a guard you have not
 tested.
 
+## 11. The published privacy address belongs to a mailbox nobody reads
+
+One people-search site publishes another company's support address as its privacy
+contact. Write there and you get:
+
+> *"This is an automated message from Whitepages support. If you are trying to
+> contact us, please submit a ticket using this form..."*
+
+Follow the chain: a consumer reads the site's own privacy policy, sends a deletion
+request to the address it names, and receives a prompt, polite, branded reply. It
+is not an acknowledgement — it is a redirect — but it arrives within seconds and
+looks like the system working. Nothing is filed. Nobody is told.
+
+This is worse than a bounce in every respect. A bounce is loud, immediate and
+unambiguous; this is quiet, plausible and reassuring.
+
+**Two checks follow.**
+
+First: **an auto-reply is not a receipt.** Read what it actually says before
+recording anything as submitted (see §5). "We have received your message" and
+"please use this form instead" are different sentences with very different
+consequences, and both arrive in the same second.
+
+Second — and this is the one that scales — **consolidating onto a shared contact
+multiplies the failure.** `scripts/family_scan.py` groups brokers by contact
+address precisely to send one letter instead of a dozen. If that address is a
+dead channel, one bad contact silently voids a dozen requests, every one of which
+reads as `submitted`. The scan now flags any group whose shared address nothing
+has confirmed, because the leverage that makes consolidation worth doing is
+exactly what makes an unverified shared address dangerous.
+
+**The right move when you find one:** do not keep writing to it. Find the route
+that opened a real ticket for the parent brand and raise the sibling *there* —
+an existing ticket already carries the identity verification, and a reply to it
+cannot be silently dropped in the way a fresh message to a dead mailbox can.
+
 ## The pass that catches these
 
 1. **Bounces before anything else.** A bounce invalidates a request you have

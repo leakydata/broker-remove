@@ -70,11 +70,16 @@ def main():
             owner_of.setdefault(d, b["id"])
 
     groups = defaultdict(list)
+    verified = {}
     for b in brokers:
         email = (b.get("email_to") or "").strip().lower()
         if "@" not in email:
             continue
         groups[email].append(b["id"])
+        # Any member's verification evidence describes the shared address.
+        if b.get("email_verified"):
+            verified[email] = True
+        verified.setdefault(email, False)
 
     rows = []
     for email, members in groups.items():
@@ -86,13 +91,22 @@ def main():
         if a.actionable and not (pending and reached):
             continue
         rows.append((email, owner_of.get(email.split("@")[1]), members,
-                     statuses, pending, reached))
+                     statuses, pending, reached, verified.get(email, False)))
 
     rows.sort(key=lambda r: (-len(r[4]), -len(r[2])))
-    for email, owner, members, statuses, pending, reached in rows:
+    for email, owner, members, statuses, pending, reached, ok in rows:
         head = f"{email}  ({len(members)} broker(s)"
         head += f", contact domain owned by '{owner}'" if owner else ""
         print(f"\n{head})")
+        if not ok and len(members) > 1:
+            # Consolidating is a force multiplier in both directions. An address
+            # nobody has confirmed, shared by a dozen brokers, turns one bad
+            # contact into a dozen requests that were never received -- and every
+            # one of them looks submitted.
+            print(f"  UNVERIFIED CONTACT: {len(members)} broker(s) route here and "
+                  f"nothing confirms this address works.")
+            print("  Verify it before consolidating: scripts/verify_emails.py --ids "
+                  + ",".join(sorted(members)[:3]) + " ...")
         if pending and reached:
             print(f"  ACTIONABLE: {len(reached)} already written to, "
                   f"{len(pending)} not covered unless your letter named them.")
@@ -102,8 +116,10 @@ def main():
             print(f"   {mark} {m:34} {statuses[m]}")
 
     total_pending = sum(len(r[4]) for r in rows)
+    unverified = sum(len(r[2]) for r in rows if not r[6])
     print(f"\n{len(rows)} shared-contact group(s) | "
-          f"{total_pending} member(s) still pending")
+          f"{total_pending} member(s) still pending | "
+          f"{unverified} member(s) behind an unverified contact")
     print("* = pending. A sibling your letter did not name is a sibling nobody removed.")
     return 0
 

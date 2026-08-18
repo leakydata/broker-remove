@@ -682,9 +682,11 @@
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "411-com",
-      "email_to": "support@whitepages.com",
+      "email_to": "privacyrequest@whitepages.com",
       "email_verified": true,
-      "email_verified_by": "privacy_policy"
+      "email_verified_by": "delivery_evidence",
+      "email_alt": "support@whitepages.com",
+      "notes": "support@whitepages.com is an unmonitored autoresponder that redirects to a Zendesk form, despite being the address peoplesearch.com publishes as its privacy contact. privacyrequest@whitepages.com opens a real ticket."
     },
     {
       "id": "ace_agents",
@@ -5530,9 +5532,11 @@
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "peoplesearch",
-      "email_to": "support@whitepages.com",
-      "email_verified": false,
-      "email_verified_by": null
+      "email_to": "privacyrequest@whitepages.com",
+      "email_verified": true,
+      "email_verified_by": "delivery_evidence",
+      "email_alt": "support@whitepages.com",
+      "notes": "support@whitepages.com is an unmonitored autoresponder that redirects to a Zendesk form, despite being the address peoplesearch.com publishes as its privacy contact. privacyrequest@whitepages.com opens a real ticket."
     },
     {
       "id": "peoplesearch123",
