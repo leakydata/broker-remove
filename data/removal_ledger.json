@@ -115,9 +115,9 @@
     "via": null
   },
   "alliant": {
-    "status": "submitted",
-    "changed": "2026-08-17",
-    "via": null
+    "status": "manual_required",
+    "changed": "2026-08-18",
+    "via": "web"
   },
   "allpeople": {
     "status": "submitted",
@@ -387,7 +387,7 @@
   "citydata": {
     "status": "submitted",
     "changed": "2026-08-17",
-    "via": "email"
+    "via": "reply"
   },
   "civis": {
     "status": "failed",
