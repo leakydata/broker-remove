@@ -8,9 +8,9 @@
 
 ## Status
 
-- Current: `manual_required` (updated 2026-08-18)
+- Current: `submitted` (updated 2026-08-18)
 - Reference: `gmail:1a01042e8332c7f7`
-- Note: Replied with FOUR separate OneTrust form links - opt-out of sale, deletion, records, correction - so each right is its own submission (the Belardi Wong/Data Axle pattern again). Deletion, records and correction are gated behind knowledge-based 'challenge questions'; only the opt-out is not. Opt-out form staged with a visible reCAPTCHA remaining; deletion needs the user for the challenge questions. Note their reply never addressed the co-operative suppression ask, which is the one that matters here since members re-contribute.
+- Note: BOTH OneTrust forms submitted. Opt-out (suppression from future sales/sharing) and deletion, each its own form and its own submission. Both returned 'Thank you for submitting your request. A company representative will review your request and reach out to you at the submitted email address.'
 
 ## Steps
 

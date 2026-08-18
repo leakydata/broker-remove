@@ -109,3 +109,32 @@ That converts a likely non-response into a recordable `not_found`.
 
 Nothing public to search. A written "we hold no record" closes this as
 `not_found`; silence does not, and the two must not be recorded the same way.
+
+## The Submit button is hidden until the arithmetic question is answered
+
+The form appears to have no way to submit it. Fill in every field, tick every
+right, watch the Cloudflare widget go green, scroll to the bottom -- and below the
+widget there is nothing but the footer.
+
+The button is not missing. It is in the page's markup as a normal
+`<button type="submit">`, but it is not rendered, and it stays that way until the
+anti-bot dropdown labelled **"What is 40+55?"** has an answer selected. That
+dropdown sits in the top block of the form, beside the Zip Code field, well above
+the rights checkboxes and about a screen and a half above where the button will
+eventually appear. Nothing on the page connects the two.
+
+**Why this is worth writing down.** The obvious reading of "there is no Submit
+button" is that the form is broken, and the obvious response is to give up and use
+email -- which for DTN is a dead end, because `privacy@dtn.com` discards consumer
+requests unread. So a hidden button on the only working route reads as no route at
+all.
+
+The tell is that the field is optional-looking: it has no red asterisk, unlike
+First Name, Email, Zip Code and Request Details. An unmarked field that gates
+submission is the inverse of the usual pattern, where the asterisks tell you what
+is required.
+
+**Check the markup before concluding a form is broken.** A `<button>` that exists
+but does not render is a different problem from a `<button>` that was never there,
+and only the first one has a fix you can reach.
+

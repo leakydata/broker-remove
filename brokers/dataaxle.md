@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `manual_required` (updated 2026-08-18)
-- Note: Form staged at data-axle.com/privacy-rights-request/, reCAPTCHA on submit. Privacy Choice is a single-select so deletion and opt-out of sale need TWO separate submissions. Their privacy policy also claims deemed consent: by agreeing to the policy you consent to commercial use of your data 'now, and at all times in the future, regardless of when or how Data Axle acquired' it, unless you opt out.
+- Current: `submitted` (updated 2026-08-18)
+- Note: TWO submissions, because Privacy Choice is single-select and one submission buys one right: 'Request to delete' and 'Request to opt out of sale/sharing'. Both returned 'Thank you. Your privacy request has been received.' Same form covers exactdata.com.
 
 ## Steps
 

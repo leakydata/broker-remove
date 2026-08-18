@@ -115,7 +115,7 @@
     "via": null
   },
   "alliant": {
-    "status": "manual_required",
+    "status": "submitted",
     "changed": "2026-08-18",
     "via": "web"
   },
@@ -560,7 +560,7 @@
     "via": "email"
   },
   "dataaxle": {
-    "status": "manual_required",
+    "status": "submitted",
     "changed": "2026-08-18",
     "via": "web"
   },
