@@ -706,3 +706,43 @@ worth having.
 claims about who may ask. None of them is a decision about your particular
 request, and only a decision can be appealed, quoted or complained about.
 
+## 24. "That information is already public"
+
+Offered by people-search sites, public-records aggregators, voter-file companies
+and profile aggregators — the largest single category in this project.
+
+It is usually **true**, and answering it as though it were false loses the
+argument. Court filings, voter registrations, parcel records and social media
+profiles are public. A private company cannot be asked to alter a county
+assessor's database, and a request that appears to ask for that invites a refusal
+which sounds entirely reasonable and then colours the rest of the reply.
+
+**Concede the source; contest the compilation.** The reply that works:
+
+> *"I am not asking you to alter a public record, which you could not do. I am
+> asking you to delete **your** compiled record, your derived scores, and your
+> association of that public data with the rest of my identifying information —
+> which is within your control."*
+
+The distinction is not rhetorical. A public filing and a commercial compilation are
+different objects:
+
+| The public source | What the broker made |
+|---|---|
+| A filing in a government database | A record joined to eight email addresses, twelve phone numbers, a date of birth and twenty-five years of address history |
+| A voter registration | The same, plus modelled partisanship, turnout propensity and purchasing behaviour |
+| Several public social profiles | One page keyed to a legal name, joining accounts, usernames, photographs, employer and location |
+| A parcel record | A name-searchable page asserting who lives there |
+
+In every row the second column is theirs, was created by them, and is the only
+thing that was ever in question. **The harm is rarely that a record exists; it is
+that typing a name into a search box returns it, joined to everything else.**
+
+Two things that follow:
+
+- **Ask for the association to be deleted**, in those words. It is grantable, and
+  a broker who agrees has given you the thing that mattered.
+- **Where the compilation includes derived data — scores, models, segments — name
+  those separately.** Nothing about them is public, and they are the part least
+  likely to be covered by a request the broker reads as being about public records.
+
