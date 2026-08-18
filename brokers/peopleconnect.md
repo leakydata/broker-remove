@@ -70,3 +70,50 @@ costs one email and is worth more than the original request was.
 telling you their match is identifier-scoped rather than person-scoped. Send
 everything.
 
+## The suppression is real, and it is keyed to name search only
+
+Five brands -- US Search, TruthFinder, Instant Checkmate, Intelius and
+PeopleConnect -- replied within twelve minutes of each other in word-for-word
+identical terms. That timing and that wording are the family confirmation; nothing
+else was needed.
+
+The reply is unusually candid, which makes it unusually useful:
+
+> *"We've completed the suppression of your publicly available information from
+> appearing in background reports on the people search sites within our corporate
+> family that we control when a user searches by your name."*
+
+> *"this suppression does not delete or alter the underlying public record from its
+> original source, and certain information may continue to appear in other types of
+> reports on our sites if someone searches you with other criteria."*
+
+Read the qualifiers rather than the verb. There are four, and each one is a place a
+record survives.
+
+**"when a user searches by your name."** The original letter asked, in terms, that
+suppression apply to phone, address and email lookups and not only name search. The
+answer confirms name search and says nothing about the rest -- the request narrowed
+inside the answer rather than refused in it, which is harder to notice and has the
+same effect. Somebody running a reverse-phone or reverse-address lookup reaches the
+same underlying record; the suppression is simply not on the path they took.
+
+**"other types of reports ... other criteria."** Stated outright in their own second
+paragraph, and it is the same point from the other direction: the block is on a
+query shape, not on the record.
+
+**"within our corporate family that we control."** Two hedges in one phrase. Ask
+them to *name* the sites. Brands they do not control, running on their data, are
+exactly the ones nobody would think to write to separately.
+
+**"suppression ... does not delete."** The public record at source is genuinely not
+theirs to alter, and that part is fair. Their own copy is a different matter: a
+suppressed record is still held, still updatable, and one configuration change from
+display. Worth asking which categories were deleted as opposed to hidden, and
+whether the record remains available through licensing, an API or a bulk feed --
+none of which is a "background report".
+
+**They also hand the verification back to you**: *"please identify the additional
+information and where it appears so that we can further assist you."* Reasonable on
+its face, but it puts the checking on the party with the least access. You can only
+see what a search returns; they can see the record.
+

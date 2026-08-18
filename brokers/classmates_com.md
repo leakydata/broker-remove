@@ -28,3 +28,19 @@
 ## Verification
 
 <!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+
+## Receipt confirmed, substance pending
+
+Zendesk acknowledged the request:
+
+> *"Thank you for your privacy request. This message serves as confirmation of
+> receipt. Our team is..."*
+
+A receipt is an artifact and worth recording -- it proves the letter arrived and
+was logged, which is more than silence -- but it is not an outcome. Nothing about
+what they hold, what will be removed, or when.
+
+Classmates publishes scanned yearbooks, which makes the eventual answer worth
+reading carefully: a removal that covers a directory profile while leaving the
+scanned page indexed is a partial removal that will read as a complete one.
+

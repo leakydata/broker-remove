@@ -3817,7 +3817,7 @@
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "lead-me-media",
-      "email_to": "ccpa@leadmemedia.com",
+      "email_to": "info@leadmemedia.com",
       "email_verified": false,
       "email_verified_by": null,
       "email_alt": "info@leadmemedia.com",
@@ -3828,14 +3828,14 @@
       "name": "Leadership Connect",
       "domain": "leadershipconnect.io",
       "priority": 2,
-      "method": "email",
-      "optout_url": "",
-      "needs_email_confirm": null,
+      "method": "web_form",
+      "optout_url": "https://leadershipconnect.io/opt-out/",
+      "needs_email_confirm": true,
       "source": "optery_scrape",
       "optery_slug": "leadership-connect",
-      "email_to": "privacy@leadershipconnect.io",
+      "email_to": null,
       "email_verified": false,
-      "email_verified_by": "no_address_published"
+      "email_verified_by": "hard_bounce"
     },
     {
       "id": "leadiq",
