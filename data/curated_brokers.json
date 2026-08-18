@@ -2494,14 +2494,15 @@
       "name": "Dtn",
       "domain": "dtn.com",
       "priority": 2,
-      "method": "email",
-      "optout_url": "",
+      "method": "web_form_captcha",
+      "optout_url": "https://www.dtn.com/do-not-sell-my-information-form/",
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "dtn",
       "email_to": "privacy@dtn.com",
       "email_verified": false,
-      "email_verified_by": "no_address_published"
+      "email_verified_by": "no_address_published",
+      "notes": "privacy@dtn.com is NOT a consumer route: its autoresponder states that privacy requests sent there 'will not be processed and will be deleted'. Use the Data Rights Exercise Request form, or call 1-800-485-4000."
     },
     {
       "id": "dynata",

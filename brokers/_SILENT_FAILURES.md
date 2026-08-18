@@ -423,6 +423,29 @@ The same shape appears as separate form URLs rather than a dropdown: one broker'
 autoresponder supplies three distinct OneTrust links for opt-out, deletion and
 access, and "the privacy form" is whichever one you happened to open.
 
+## 13. Checkbox or dropdown: the same rights, one interface choice apart
+
+Two brokers, the same five or six statutory rights, and a difference that decides
+whether a consumer gets what they asked for.
+
+One presents them as a **single-select dropdown**. Pick "Request to delete",
+submit, receive an accurate confirmation. The opt-out was never requested, and
+nothing anywhere records that.
+
+The other presents them as **checkboxes**. Tick all of them, submit once, done.
+
+Neither interface is described anywhere as a policy choice. Neither company is
+doing anything a regulator would obviously object to. But one of them turns a
+complete request into a partial one by default, silently, at zero cost to itself,
+and the other does not.
+
+**Check, on any rights form:** count the request types, and count how many you can
+select. If it is one, submit once per right and keep the confirmations separately.
+If it is a checkbox list, read to the bottom of it — the useful ones are often
+below the fold, and "withdrawal of consent previously provided" in particular is
+worth ticking even where you gave none, since some brokers assert consent through
+the privacy policy itself.
+
 ## The pass that catches these
 
 1. **Bounces before anything else.** A bounce invalidates a request you have
