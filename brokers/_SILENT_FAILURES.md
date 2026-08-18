@@ -544,6 +544,29 @@ deleted record is a deleted unsubscribe flag.
 being deleted, deletion destroys the protection. Any time you ask for both
 deletion and suppression, ask which table each lives in.
 
+### One broker publishes this in its own opt-out form
+
+Not an inference — a B2B prospecting company states it on the form itself:
+
+> *"Please note that if you would like to request deleting all information we may
+> have connected to your email, we may not be able to keep a record of your opt-out
+> preference and **add information to the database again**."*
+
+And describes the alternative correctly:
+
+> *"we will remove the profile and business information linked to this email from
+> our database, **keeping the email address for purposes of respecting your
+> opt-out preference in the future**"*
+
+So there, **asking for deletion makes you re-addable and opting out does not.**
+The usual advice inverts, and it is only safe to invert because they said so.
+
+**Do not generalise it.** At a broker with no persistent suppression list, deletion
+remains the stronger request; the point is that the right choice depends on how
+suppression is stored, which is invisible from outside unless the broker says.
+So: **read what the route tells you before choosing which right to exercise.** The
+information is occasionally right there, and where it is, it changes the answer.
+
 ## 17. The negative that answers a narrower question than you asked
 
 A market-research company replied within half an hour:

@@ -48,3 +48,57 @@ minimum say who can. See `_DEFLECTIONS.md` §21.
 Nothing public to search. The practical check is negative and slow: if mail keeps
 arriving from their customers, the exported copies were never addressed. Ask for
 the customer list so that becomes actionable rather than merely annoying.
+
+## They publish the deletion trap themselves
+
+`privacy@growbots.com` auto-replies with a Google Form. The form's preamble
+contains the clearest statement of `_SILENT_FAILURES.md` §16 anyone has put in
+writing:
+
+> *"Please note that if you would like to request deleting all information we may
+> have connected to your email, we may not be able to keep a record of your opt-out
+> preference and **add information to the database again**."*
+
+Read that plainly: **asking for deletion here makes you re-addable.** The opt-out
+keeps your address purely as a suppression key —
+
+> *"we will remove the profile and business information linked to this email from
+> our database, keeping the email address for purposes of respecting your opt-out
+> preference in the future"*
+
+— which is the correct design, and is exactly what §16 says to ask for. Growbots
+have simply built it that way and said so.
+
+**So at this broker, opt-out is the better outcome and deletion is the worse one.**
+That inverts the usual advice, and it is only safe to invert because they told you.
+Do not generalise it: at a broker that does *not* maintain a persistent suppression
+list, deletion is still the stronger request. The lesson is to **read what the
+route says before choosing which right to exercise**, not that opt-out is
+preferable in general.
+
+Worth keeping as the clean counter-example to `dataaxle.md`, where the interface
+makes you pick a right and says nothing about the consequences of the choice.
+
+## They refuse public-domain addresses
+
+> *"Since our product is strictly business-oriented we do not process, in general,
+> public domain email addresses such as '@gmail.com' or '@yahoo.com'. For this
+> reason please use your professional email here."*
+
+A B2B database, so a consumer address is not a usable key. Submit the work or
+university address; here that meant the `.edu` one. If you have no professional
+address at all, that is itself worth writing to `privacy@growbots.com` about,
+because it means their self-service route cannot serve you.
+
+## The confirmation goes to the address you typed
+
+Submitting the form produces:
+
+> *"We've sent an email to your address. Please open your inbox and click the
+> confirmation link in our message to continue with your request."*
+
+**The link goes to the professional address, not to your usual mailbox.** For
+anyone running this at arm's length — an assistant with access to one inbox — that
+is a hand-off, and an unavoidable one. Without the click nothing happens, and
+nothing will say so. See `_SILENT_FAILURES.md` §2.
+
