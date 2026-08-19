@@ -1505,3 +1505,34 @@ broker can be alive on any subset of them.
 And when two sources disagree about whether something is reachable, **assume both
 are honest and look for the asymmetry** — vantage point, host, protocol, or
 timing — before deciding which one was wrong. Here neither was.
+
+## 43. 5.7.1 is not 5.1.1, and the difference decides what to try next
+
+Three addresses at one broker, all published on its own privacy policy, all
+bounced:
+
+    550 5.7.1 <info@rpmleader.com>: Recipient address rejected:
+    User email address is marked as invalid.
+
+Gmail's wrapper says "Address not found", which reads exactly like a missing
+mailbox. It is not.
+
+| Code | Means | What to do |
+|---|---|---|
+| `5.1.1` | **User unknown** — no such mailbox | Try another local part; `privacy@`, `legal@`, `dpo@` may exist |
+| `5.7.1` | **Policy rejection** — the system knows the address and refuses it | Stop guessing local parts; the failure is not about which mailbox exists |
+| `5.7.1` from a filtering gateway (Proofpoint, Mimecast, Barracuda) | Recipient not on the allowed-recipient list | The domain accepts mail only for addresses on a list the published ones are not on |
+
+The practical difference is what you do next. On `5.1.1` it is worth trying two
+or three other local parts. On `5.7.1` **every** address at that domain will fail
+the same way, and probing is wasted effort — as it was here, where three
+different published addresses produced three identical policy rejections.
+
+> **Read the enhanced status code, not the mail client's summary.** "Address not
+> found" is Gmail's paraphrase of at least two different failures that call for
+> opposite responses.
+
+The same message also carries the `Remote-MTA` line, which names the receiving
+gateway — useful on its own (see §40 on reading the postmaster domain). Here it
+was `mx1-us1.ppe-hosted.com`, i.e. Proofpoint Essentials, whose default posture
+is exactly this: reject anything not on the customer's recipient list.

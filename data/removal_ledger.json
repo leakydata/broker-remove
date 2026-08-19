@@ -1485,9 +1485,9 @@
     "via": "reply"
   },
   "national_public_data": {
-    "status": "submitted",
+    "status": "manual_required",
     "changed": "2026-08-19",
-    "via": "email"
+    "via": "reply"
   },
   "nc_solutions": {
     "status": "submitted",
@@ -2025,9 +2025,9 @@
     "via": "email"
   },
   "real_performance_marketing": {
-    "status": "submitted",
+    "status": "unreachable",
     "changed": "2026-08-19",
-    "via": "email"
+    "via": "web"
   },
   "reallygreatrate": {
     "status": "submitted",

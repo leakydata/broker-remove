@@ -4810,7 +4810,8 @@
       "optery_slug": "national-public-data",
       "email_to": "support@nationalpublicdata.com",
       "email_verified": false,
-      "email_verified_by": null
+      "email_verified_by": null,
+      "notes": "URL-KEYED opt-out: find your profile, copy its /people/s/... URL, paste at /optout.html, then confirm by email. Their FAQ states the current site has 'no affiliation with the data breach that occurred in 2024 involving the FORMER OWNER' - so the brand changed hands, which is a different event from the database changing hands. Do not treat the two as the same."
     },
     {
       "id": "nc_solutions",
@@ -6493,14 +6494,15 @@
       "name": "Real Performance Marketing",
       "domain": "rpmleader.com",
       "priority": 2,
-      "method": "email",
+      "method": "unknown",
       "optout_url": "",
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "real-performance-marketing",
-      "email_to": "ConsumerInquiries@RPMleader.com",
+      "email_to": null,
       "email_verified": false,
-      "email_verified_by": null
+      "email_verified_by": "delivery_evidence",
+      "notes": "ALL THREE addresses published on their own privacy policy are rejected by their own Proofpoint MX with 550 5.7.1 'Recipient address rejected: User email address is marked as invalid' - ConsumerInquiries@, connect@ and info@. The only web form is a SALES enquiry form whose required 'I am' dropdown offers Agency / Affiliate / Affiliate Network / Brand Platform and no consumer option, so it cannot be completed truthfully. Their privacy policy states plainly: 'Company acts as a data broker, as that term is defined in California Civil Code section 1798.99.80 et seq.' - so the CA data-broker registry is the remaining lever. Trading name on their own header: Best Case Leads."
     },
     {
       "id": "reallygreatrate",
