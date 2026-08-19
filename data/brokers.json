@@ -6510,9 +6510,10 @@
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "propertyreach",
-      "email_to": "compliance@propertyreach.com",
+      "email_to": null,
       "email_verified": false,
-      "email_verified_by": null
+      "email_verified_by": "broker_reply",
+      "notes": "compliance@propertyreach.com replies 'We do not accept privacy requests via email' and points at /privacy-rights. That form is a cascade of custom dropdown widgets: Select Right (Do Not Sell / Right to Delete / Right to Know / Right to Correct - SINGLE-SELECT, so delete and opt-out need two runs), then 'Exercise my rights as a' (PropertyReach Customer / MEMBER OF THE PUBLIC). Cloudflare gates the page for ~10s. The widgets do not drive reliably under automation - clicking the option label navigated away to a marketing page."
     },
     {
       "id": "propertyrecord_com",

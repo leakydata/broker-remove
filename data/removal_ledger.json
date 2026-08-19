@@ -1930,9 +1930,9 @@
     "via": "email"
   },
   "propertyreach": {
-    "status": "submitted",
+    "status": "manual_required",
     "changed": "2026-08-19",
-    "via": "email"
+    "via": "web"
   },
   "propertyrecord_com": {
     "status": "submitted",
@@ -1954,9 +1954,39 @@
     "changed": "2026-08-19",
     "via": "email"
   },
+  "public_libraries": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
+  "public_record_reports": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
   "publicrecords_com": {
     "status": "submitted",
     "changed": "2026-08-18",
+    "via": "email"
+  },
+  "publicrecords_us": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
+  "publicsearcher": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
+  "pwc": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
+  "quad": {
+    "status": "submitted",
+    "changed": "2026-08-19",
     "via": "email"
   },
   "radaris": {
