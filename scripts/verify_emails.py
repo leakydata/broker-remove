@@ -181,6 +181,29 @@ def resolves(domain):
     return False
 
 
+def has_ns(domain):
+    """Does the domain have a delegation at all?
+
+    Checked BEFORE mx, because it is the stronger negative and it catches a case
+    mx cannot. A domain whose registration has lapsed has no NS records, no SOA,
+    no A and no MX -- there is no zone to ask. Sending MTAs cannot distinguish
+    that from "the far end is briefly down", so a lapsed domain is reported as a
+    *temporary* delivery delay and retried for 48 hours. For two days the tracker
+    shows `submitted` while the letter has nowhere to go.
+
+    One broker here sat in exactly that state: a reassuring "Gmail will retry for
+    45 more hours" notice over a domain with no nameservers at all. Returns None
+    on lookup failure, so an unrelated resolver problem is never reported as a
+    dead domain.
+    """
+    try:
+        out = subprocess.run(["dig", "+short", "NS", domain],
+                             capture_output=True, text=True, timeout=10).stdout
+        return any(ln.strip() for ln in out.splitlines())
+    except Exception:
+        return None
+
+
 def has_mx(domain):
     """Does the domain publish a mail exchanger?
 
@@ -234,6 +257,17 @@ def check(b):
         out["verdict"] = "NO_DOMAIN"
         return out
     if not resolves(domain):
+        # Delegation first: no NS means no zone, which outranks every other
+        # negative here -- a domain without nameservers cannot have an MX, a
+        # null MX, a mailbox or an autoresponder.
+        if has_ns(domain) is False:
+            out["verdict"] = "NO_DOMAIN"
+            out["why"] = ("no NS records -- the domain has no delegation at all, so the "
+                          "registration has lapsed or was withdrawn. Nothing can be "
+                          "delivered and no web route can exist. Note a send will "
+                          "produce a *temporary* delay notice and 48h of retries "
+                          "before it finally hard-bounces.")
+            return out
         # No web address -- but check the mail before condemning it. A domain
         # with a working MX and no A record is a live correspondent with no
         # website, which is a different thing entirely from a dead company.

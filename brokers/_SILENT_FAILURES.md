@@ -1536,3 +1536,51 @@ The same message also carries the `Remote-MTA` line, which names the receiving
 gateway — useful on its own (see §40 on reading the postmaster domain). Here it
 was `mx1-us1.ppe-hosted.com`, i.e. Proofpoint Essentials, whose default posture
 is exactly this: reject anything not on the customer's recipient list.
+
+## 44. The "temporary" delay that is permanent
+
+Gmail sent this about a letter to a broker:
+
+> *"Delivery incomplete. There was a temporary problem delivering your message to
+> privacy@example.com. Gmail will retry for 45 more hours."*
+
+Everything about that is reassuring. It says *temporary*, it says *retry*, and it
+implies the problem is at the far end and will pass. The tracker, meanwhile,
+still says `submitted`.
+
+One `dig` said otherwise:
+
+    $ dig +short NS  keyopinionleaders.com     (nothing)
+    $ dig +short SOA keyopinionleaders.com     (nothing)
+    $ dig +short A   keyopinionleaders.com     (nothing)
+    $ dig +short MX  keyopinionleaders.com     (nothing)
+
+No nameservers, no SOA, no address, no mail exchanger — on the apex and on `www`
+alike (§42). **The domain does not resolve at all.** The registration has lapsed
+or been withdrawn, the retries cannot succeed, and the message will hard-bounce
+in two days.
+
+> **A soft bounce can mask a permanently dead domain.** Sending MTAs cannot
+> distinguish "the far end is briefly down" from "there is no far end", so both
+> produce a delay notice and a 48-hour retry window. For those two days a request
+> that has nowhere to go looks exactly like one in flight.
+
+### What to do
+
+**Treat every delay notice as a prompt to check DNS, not as news that can wait.**
+The check is one command and it is decisive:
+
+    dig +short NS example.com
+
+**No NS is the strongest possible negative.** It outranks everything in the
+taxonomy at §39, because a domain without nameservers cannot have an MX, a null
+MX, a mailbox, or an autoresponder — there is no zone at all. Compare:
+
+| Symptom | Verdict |
+|---|---|
+| Delay notice, NS present, MX present | Genuinely transient — wait |
+| Delay notice, **no NS / no SOA** | Domain gone. Downgrade now, do not wait |
+
+**Downgrade the status immediately rather than waiting for the bounce.** Waiting
+buys nothing: the outcome is already determined, and two days of a false
+`submitted` is two days in which the entry looks handled and nobody re-checks it.

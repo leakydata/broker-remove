@@ -3734,7 +3734,8 @@
       "optery_slug": "keyopinionleaders",
       "email_to": "privacy@keyopinionleaders.com",
       "email_verified": false,
-      "email_verified_by": "site_unreachable"
+      "email_verified_by": "delivery_evidence",
+      "notes": "Domain has NO NS, NO SOA, NO A and NO MX - it does not resolve at all, on the apex or on www. The registration has lapsed or been withdrawn. Gmail reports this as a DELIVERY DELAY and retries for 48 hours, so it looks transient for two days before hard-bouncing."
     },
     {
       "id": "keyword_connects",

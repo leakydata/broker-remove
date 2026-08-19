@@ -1125,9 +1125,9 @@
     "via": null
   },
   "keyopinionleaders": {
-    "status": "submitted",
-    "changed": "2026-08-18",
-    "via": null
+    "status": "unreachable",
+    "changed": "2026-08-19",
+    "via": "email"
   },
   "keyword_connects": {
     "status": "submitted",
@@ -2080,6 +2080,21 @@
     "via": null
   },
   "remodeling_com": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
+  "resonate": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
+  "retention_com": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
+  "reveal_phone_owner": {
     "status": "submitted",
     "changed": "2026-08-19",
     "via": "email"

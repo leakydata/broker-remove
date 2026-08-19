@@ -7,7 +7,7 @@
 
 ## Status
 
-- Current: `submitted` (sent 2026-08-18)
+- Current: `unreachable` (updated 2026-08-19)
 
 ## Steps
 
@@ -21,3 +21,23 @@
 ## Verification
 
 No public listing to check. Awaiting reply as of 2026-08-18.
+
+
+## Outcome: the domain is gone, and the bounce said "temporary"
+
+Gmail reported a **delivery delay**, not a failure:
+
+> *"Delivery incomplete. There was a temporary problem delivering your message to
+> privacy@keyopinionleaders.com. Gmail will retry for 45 more hours."*
+
+The domain has **no NS records, no SOA, no A and no MX** — on the apex and on
+`www` alike. There is no zone at all. The registration has lapsed or been
+withdrawn, the retries cannot succeed, and the message hard-bounces in two days.
+
+Downgraded to `unreachable` immediately rather than waiting for the bounce.
+Waiting buys nothing: the outcome is already determined, and two days of a false
+`submitted` is two days in which the entry looks handled and nobody re-checks it.
+
+See `_SILENT_FAILURES.md` §44. `scripts/verify_emails.py` now checks NS before MX
+and reports this state as **`NO_DOMAIN`**, so the next lapsed registration is
+caught before a send rather than after one.
