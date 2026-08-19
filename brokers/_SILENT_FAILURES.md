@@ -2102,3 +2102,63 @@ that same URL unchanged, is being rejected rather than answered.
 > **Never record `not_found` off a search whose submit you did not see complete.**
 > The evidence for a negative is a results page that says so, not the absence of a
 > results page.
+
+---
+
+## §60 Do not accuse a broker of a fault in your own pipeline
+
+Twice in one day I told a company something was wrong on their side, and twice it
+was wrong on mine.
+
+**Case one.** A broker's satisfaction survey arrived with no resolution message. I
+had just documented that exact pattern as a silent close, matched on it, downgraded
+a settled `not_found`, and emailed asking them to redo work. They had answered
+fully the previous day; the survey was an ordinary auto-close *after* a resolution.
+I had matched the pattern without reading the thread.
+
+**Case two.** A broker's rights-portal links arrived with the query parameter
+destroyed. I told them the links were "corrupted in transit" and offered proof: the
+damage appears in **both** the plain-text and HTML parts, so it could not be my
+client reading the wrong half. They replied: *"Both links are working links."*
+
+They were right. Both MIME parts come through the same retrieval path, so a fault
+in that path corrupts both identically.
+
+> **"It's broken in both parts" cannot distinguish the sender's outbound mail from
+> your inbound processing.** That is precisely the question at issue — and I
+> offered it as the answer to it.
+
+The disconfirming evidence was already in this file. Unrelated messages arrive with
+boilerplate `<meta content="width=device-width">` reduced to `width` + `<?>` +
+`vice-width`. Same signature, in text no broker wrote (§48).
+
+### The rule
+
+> **Before telling a broker their system is broken, ask what your own tooling would
+> look like if it were the thing at fault — and check whether you can tell the
+> difference.** If the evidence is identical under both hypotheses, you do not have
+> evidence. You have a hypothesis you like.
+
+**Cheap discriminators, all of which were available and unused:**
+
+- **A control string.** Find something in the same message that the sender did not
+  author — a boilerplate meta tag, a standard footer, a vendor's tracking
+  parameter. If *that* is damaged too, the fault is downstream of the sender.
+- **A second retrieval path.** Open the message in a normal client. One look
+  settles it.
+- **Read the thread before matching a pattern.** A survey with a resolution behind
+  it and one without look identical; only the history distinguishes them.
+
+### Why it matters more than being embarrassing
+
+These exchanges depend on goodwill. A support desk that gets a confident, detailed,
+wrong accusation learns that this correspondent is unreliable — and the next
+message, the one that is right, gets read accordingly. Both companies here were
+patient; one took the trouble to correct me in four words rather than ignoring it.
+
+> **When you are wrong, withdraw the claim explicitly, name the reasoning error,
+> and do it before asking for anything else.** "My argument was worthless and here
+> is why" costs one paragraph and buys back the credibility the next request needs.
+
+And record it in the file. A playbook that only contains the times the technique
+worked is a playbook that will produce the same false positive again.

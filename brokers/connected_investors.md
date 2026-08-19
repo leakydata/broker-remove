@@ -68,3 +68,66 @@ that matter, and that a standard form will not cover:
 
 Property records are keyed to the address, so every prior address must be searched.
 
+
+## I accused them of a fault that was mine (updated 2026-08-19)
+
+Their reply routes consumers to a First American **ServiceNow** portal:
+
+    firstam.service-now.com/x_farf2_dp_request_ci_opt_out.do?sysparm_id=<32 hex>
+
+Read through the mail API, that `sysparm_id` arrives destroyed — the `=` and the
+two bytes after it are gone, leaving 30 characters where a ServiceNow sys_id needs
+32. The URL is unusable.
+
+I told them the links were **"corrupted in transit"** and offered what I thought
+was clinching evidence: the damage appears in *both* the plain-text and the HTML
+parts, so it could not be my client reading the wrong half.
+
+They replied, in full: **"Both links are working links."**
+
+They were right, and my argument was worthless.
+
+> **Both MIME parts arrive through the same retrieval path. A fault in that path
+> corrupts both identically — so "it's broken in both parts" cannot distinguish
+> the sender's outbound mail from my inbound processing.** It is exactly the
+> question at issue, and I offered it as the answer.
+
+The confirming evidence was available and I had already recorded it elsewhere:
+unrelated messages arrive with boilerplate `<meta>` tags reduced from
+`content="width=device-width"` to `content="width` + `<?>` + `vice-width"`. Same
+signature — `=` plus two bytes — in text nobody at any broker wrote. See
+[[_SILENT_FAILURES]] §48.
+
+Withdrawn and apologised for.
+
+### What actually unblocks it
+
+The corruption happens before the URL reaches me, so no amount of care on their end
+helps *me* directly. Two routes, both asked for:
+
+1. **Process from the email thread.** They already hold every identifier a verified
+   request needs — it was in the original message. A ticket containing the
+   identifying detail does not obviously need a second submission through a form
+   that collects the same detail.
+2. **Send the `sysparm_id` as plain, unlinked text**, broken into groups so nothing
+   auto-links it. The URL can then be assembled by hand.
+
+Otherwise it is a human click on the original mail in a normal client — queued as
+such. Telephone fallback **1-800-350-1502**, though a call leaves no written record
+of what was asked or answered.
+
+### The substance, still unanswered
+
+Two rounds in, nothing has addressed the actual request. Worth restating each time,
+because these are the parts a generic opt-out form does not reach:
+
+- **The classification *is* the personal information.** A "motivated seller",
+  distressed, pre-foreclosure, probate, vacancy or equity-based label is an
+  inference generated about an identifiable person. It is the thing being sold, and
+  it survives the deletion of a bare contact record.
+- **Skip-traced contact details are not public record** — delete the appended
+  number or address *and the linkage*, and name the vendor that supplied it.
+- **Leads already distributed keep working.** A record in an investor's list
+  generates calls and mail long after the platform's copy is gone.
+
+Property records are keyed to the address, so every prior address must be searched.
