@@ -1016,3 +1016,63 @@ route in writing and make it do the work the form cannot:
 The general rule: **when a self-service route announces a limit, the limit is the
 route's answer to volume, not to abuse.** Read the FAQ before using the form; the
 form will not tell you what it does not do.
+
+## 31. The exception route that is the same queue
+
+A reverse-lookup site's FAQ caps its online opt-out at one record and then names
+the way around it:
+
+> *"If you find more than one record about you in our People Search Results and
+> would like to remove them all, please contact us at privacy@[broker].com and we
+> will be happy to help you."*
+
+That is a clear, published exception, and it was taken exactly as written: a
+letter to the privacy address, quoting the FAQ, explaining that sixteen addresses
+and five spellings of a name produce precisely the multiple records the FAQ had
+just described.
+
+**The reply came back from `support@`, under a new ticket number, byte-identical
+to the general template — directing me to the one-record online process the FAQ
+had told me to bypass.**
+
+So the loop closes on itself: the automated route says *contact us for more*, and
+contacting them says *use the automated route.* Anyone with more than one record
+on the site is inside that loop, and nothing about it looks like a refusal. No one
+has said no. The request simply never reaches anyone who can act on it.
+
+### How to tell it is happening
+
+- **The reply arrives from a different address than the one you wrote to.** That
+  is the tell. If `privacy@` answers from `support@`, they are one queue with two
+  labels, and the queue is answering on keyword rather than on content.
+- **The template does not engage with any specific thing you said** — not the
+  quoted FAQ, not the named exception, not the question that only a person can
+  answer.
+- **A new ticket number is issued** rather than the existing one continuing.
+
+### What to do
+
+Reply once, short, and make three moves:
+
+1. **Name the loop and quote both halves** — their FAQ sending you to the address,
+   and their reply sending you back. Written out plainly, it is obviously a
+   defect, and it is the kind of defect a human reviewer will recognise.
+2. **Point out the address mismatch** and ask directly whether the two are the
+   same desk. If they are, say that the published exception does not exist in
+   practice; if they are not, ask for the message to be passed to the other one.
+3. **Ask one question the template cannot answer** — ideally a yes/no a system
+   cannot fake, such as *can you place my identifiers on a do-not-add list so a
+   matching record is never published?* Offer to accept "no" as a final answer.
+   A template has no way to produce either answer, so a reply that engages at all
+   proves a person is now reading.
+
+Keep it short. The first letter was long and thorough and got a template; length
+was not the problem, and repeating it will not help.
+
+### A related own-goal worth avoiding
+
+**Do not cc a support alias on a privacy letter.** It reliably opens a *second*
+ticket, and the second ticket is the one that answers with a template — twice in
+one night, at two unrelated companies. One letter to Outreach produced tickets
+#657692 and #657693. Write to the privacy address alone, and follow up separately
+if it goes quiet.

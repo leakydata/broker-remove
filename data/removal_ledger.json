@@ -1622,7 +1622,7 @@
   "numberguru": {
     "status": "submitted",
     "changed": "2026-08-19",
-    "via": "email"
+    "via": "reply"
   },
   "numlookup": {
     "status": "submitted",
@@ -1699,10 +1699,40 @@
     "changed": "2026-08-19",
     "via": "email"
   },
+  "outward_media": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
   "ownerly": {
     "status": "submitted",
     "changed": "2026-08-15",
     "via": "reply"
+  },
+  "pacificeast": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
+  "parade_pet": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
+  "paramount_direct_marketing": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
+  "path2response": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
+  "pbi_research": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
   },
   "pennsylvania_arrests": {
     "status": "submitted",
@@ -1713,6 +1743,16 @@
     "status": "submitted",
     "changed": "2026-08-16",
     "via": null
+  },
+  "people_search_org": {
+    "status": "manual_required",
+    "changed": "2026-08-19",
+    "via": "web"
+  },
+  "peoplebyname": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
   },
   "peopleconnect": {
     "status": "submitted",
@@ -1728,6 +1768,16 @@
     "status": "manual_required",
     "changed": "2026-08-17",
     "via": "reply"
+  },
+  "peoplefindersdaas": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
+  "peoplelooker": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
   },
   "peoplesearch": {
     "status": "submitted",

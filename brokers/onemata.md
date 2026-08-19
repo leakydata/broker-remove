@@ -57,14 +57,27 @@ The obvious conclusion is that the company folded. The DNS says otherwise:
   and Google** to send on the domain's behalf, plus several static IP ranges
 - a Brevo verification token and two Google site-verification tokens
 
-That is not the residue of a wound-up business. That is four email service
-providers wired up and a marketing stack in current use.
+That reads like a business still running. **It is not, and the correction
+matters more than the original observation.**
 
-> **A dead website is not evidence that a data broker has stopped holding data.**
-> The site is the only part of the operation a consumer can see, and it is the
-> cheapest part to switch off. Check MX and SPF before concluding anything: a
-> domain that still routes mail through Microsoft and sends through four ESPs is
-> being operated by somebody.
+`info@` and `legal@` were both tried after `privacy@`. All three hard-bounced
+with "address not found". So the Microsoft 365 MX resolves, and nothing exists
+behind it — no mailbox at any of the three addresses a company would normally
+keep. The elaborate SPF record authorising four ESPs is **stale configuration,
+not evidence of use**: SPF says who *would be permitted* to send, and nobody ever
+removes it when they stop.
+
+> **DNS is a record of intent, and it long outlives the thing it described.**
+> An MX record proves someone once arranged for mail to be delivered. An SPF
+> record proves someone once integrated a marketing stack. Neither proves a
+> mailbox exists today. Three hard bounces outrank all of it — this is §30 and
+> §35 again: only a delivered message proves an address works.
+
+The honest reading of Onemata is therefore narrower than "dead storefront, live
+machinery": there is **no reachable route of any kind**. Whether the company
+still holds data is genuinely unknown, and unknowable from outside — which is its
+own finding, and the reason `unreachable` exists as a status separate from
+`failed`.
 
 This shape deserves its own status. `unreachable` records that the published
 route is genuinely gone, without implying the company is — and without implying

@@ -5996,14 +5996,15 @@
       "name": "People Search Org",
       "domain": "people-search.org",
       "priority": 2,
-      "method": "email",
-      "optout_url": "",
+      "method": "web_form",
+      "optout_url": "https://www.people-search.org/privacy-policy",
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "people-search-org",
-      "email_to": "support@peoplesearch.org",
+      "email_to": null,
       "email_verified": false,
-      "email_verified_by": "no_address_published"
+      "email_verified_by": "no_address_published",
+      "notes": "No email anywhere: neither people-search.org nor peoplesearch.org publishes an MX record, and the registry's support@peoplesearch.org was on a domain that is not even theirs. Removal is per-record: their privacy policy says to 'press the removal request removal button on the record widget', so you must first find your own record page. URL-keyed - do not guess."
     },
     {
       "id": "peoplebyname",
