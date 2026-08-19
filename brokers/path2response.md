@@ -107,3 +107,33 @@ the real message. Harmless, but a useful reminder that the branding layer of the
 portals is edited by hand and can be wrong without anything failing.
 
 See [[_SILENT_FAILURES]].
+
+## The portal comment you cannot read without solving a CAPTCHA (updated 2026-08-19)
+
+An hour after the request was verified, OneTrust sent:
+
+> "A comment has been added to your request (Request ID: FYFSSK3KGS). Please click
+> the button below to access your request in the privacy portal."
+
+The button leads not to the comment but to **"Request an access code"** — an email
+box plus *"Retype the characters from the picture"*, a BotDetect image CAPTCHA.
+Passing it mails an access code, which then unlocks the portal.
+
+> **A comment on a portal request is a message the broker chose not to put in the
+> email.** It is usually a question that blocks the request — a clarification, a
+> scope query, a verification step — so the thread stops until someone reads it,
+> and nothing in the notification says what it is.
+
+That makes this a poor place for a bot gate. The notification is push, the reply
+path is not, and a consumer who cannot pass the image test has a request sitting
+open with a question they will never see.
+
+Staged to the CAPTCHA with the email pre-filled and handed off. Note the
+accessibility fallback for whoever clears it: the page offers a **"Speak the
+CAPTCHA code"** audio link alongside the image.
+
+> **Do not discard the access-code flow as broken just because it is gated.** The
+> code is emailed and then reusable for the session — one human interaction opens
+> the whole request history, including any comment added later.
+
+See [[_SILENT_FAILURES]] on routes that stall without signalling.
