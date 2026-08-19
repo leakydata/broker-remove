@@ -690,3 +690,59 @@ de-listing. The **recrawl is requested, not performed** — so the search-engine
 outlives the page, by an interval nobody controls. And they say plainly that they
 cannot compel third parties, which is both true and the reason a search-engine hit is
 never evidence that a removal failed.
+
+## MAID-only brokers: decide once, and reset afterwards
+
+Three companies have now answered the same way: they cannot look a person up by name,
+email, address or telephone number, because the only identifier they hold is a
+**mobile advertising ID**.
+
+> *"Matchbook Data and its products only work with advertising identifiers for mobile
+> devices and not with personal identifiers such as names, email addresses, telephone
+> numbers, etc. Therefore, in order to fulfill your request, you must submit the mobile
+> advertising identifiers of your device(s) to us."*
+
+**The offers differ, and the difference is the whole decision:**
+
+  - **Check-then-tell** — supply the MAID, they hash it, check it, and *tell you
+    whether there was a match*. You learn something either way.
+  - **Blind ingest** — supply the MAID and they act, but you never learn whether they
+    held anything. *"Without the advertising identifiers, we will not be able to process
+    your request to determine if we hold any relevant data."*
+
+The second is a worse trade on its face: you hand over a live identifier to a company
+that may not have had it, and get nothing back that you did not already know.
+
+**But the MAID is resettable, and that changes everything.** On both major mobile
+platforms the advertising identifier can be reset or deleted outright, which mints a
+new one and orphans the old. So the sequence is:
+
+  1. supply the current MAID to **all** such brokers at once;
+  2. let them delete or suppress against it;
+  3. **reset the advertising ID on the device.**
+
+What each of them retains is then a dead identifier that matches nothing. The
+disclosure is real but time-boxed, and it buys deletion across every broker in the
+category for one exposure rather than one per company.
+
+**Two practical notes.** If tracking is already disabled, the iOS identifier is all
+zeros — there is nothing to disclose and nothing to gain, so check before deciding.
+And decide **once for the whole category**: handling these one at a time multiplies
+the disclosure without multiplying the benefit, since they are all asking for the same
+value.
+
+## When a privacy alias is a distribution list
+
+A bounce worth recognising: a request to `privacy@` returns **four separate
+non-delivery reports**, each naming a different individual employee, each saying the
+mailbox is full.
+
+That reveals the alias is not a queue or a ticketing address but a **forwarding list of
+named people**. Which means there is no privacy *process* — only individuals — and when
+those individuals leave, the address keeps accepting mail while delivering to nobody.
+
+**Read it as a signal about the company, not just a delivery failure.** Four
+simultaneously over-quota mailboxes is what a privacy function looks like after the
+staff have gone, and it is a strong hint that the entity is defunct, insolvent or
+absorbed. Check the corporate status before spending more effort on the address, and
+look for the acquirer instead.

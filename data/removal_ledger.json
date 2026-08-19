@@ -1330,14 +1330,14 @@
     "via": null
   },
   "match_and_append": {
-    "status": "submitted",
+    "status": "failed",
     "changed": "2026-08-19",
     "via": "email"
   },
   "matchbook": {
-    "status": "submitted",
+    "status": "manual_required",
     "changed": "2026-08-19",
-    "via": "email"
+    "via": "reply"
   },
   "mch": {
     "status": "manual_required",
@@ -1350,7 +1350,7 @@
     "via": "email"
   },
   "mediamath": {
-    "status": "submitted",
+    "status": "failed",
     "changed": "2026-08-19",
     "via": "email"
   },
@@ -1370,7 +1370,7 @@
     "via": null
   },
   "men_stopping_violence": {
-    "status": "submitted",
+    "status": "confirmed",
     "changed": "2026-08-19",
     "via": "web"
   },
