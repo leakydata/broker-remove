@@ -8,7 +8,7 @@
 
 ## Status
 
-- Current: `captcha_blocked` (updated 2026-08-19) — search form staged; an invisible CAPTCHA silently swallows the submit, and a reply-to-acknowledge step follows
+- Current: `confirmed` (updated 2026-08-19) — removed from their database, actioned from the email thread without the form
 - Note: People search. Consolidated ask covering privaterecords.net AND privatereports.com: the two share nameservers (Namecheap's registrar-servers.com) and sit on adjacent IPs at the same cloud provider, with closely similar branding. Stated the inference and its evidence and invited correction rather than asserting it. Wrote to both sites so either can answer for both. Standard five people-search asks including the criminal/court-entry disclosure, since 'private records' branding usually implies court data.
 
 ## Steps
@@ -136,3 +136,50 @@ text with no links.
 
 > **When a broker ignores one question but answers the rest carefully, check how
 > that question arrived before assuming it was dodged.**
+
+## Confirmed — and they did it from the email, not the form (updated 2026-08-19)
+
+> "From the information you provided, we have removed your information from our
+> database at privaterecords [dot] net"
+
+Recorded `confirmed`. What makes this worth reading twice is *how* it happened.
+
+Their documented self-service route is a search form that is bot-gated and refuses
+silently — a hidden empty `captchaId`, no error, no results (see the section above
+and [[_SILENT_FAILURES]] §59). That route was impassable. So the request went
+nowhere near it: a human read the identifiers in the letter and did the work.
+
+> **When a self-service form is broken, say so plainly and leave the request
+> standing.** Do not treat the form as the request. A support desk that has your
+> identifiers in writing can act on them directly, and several will — the form is
+> their preferred intake, not a precondition.
+
+The bug report was sent explicitly *not* as a demand: *"I am not asking you to do
+anything about my request as a result of this."* Two rounds later the removal was
+done anyway. Reporting the fault and pressing the request are separable, and
+keeping them separate is what makes the fault report land as help rather than as
+leverage.
+
+### The caveat they volunteered, and why to keep it
+
+> "If your name still appears in our listings, it is possible we were unable to
+> distinguish your listing across multiple similar listings, based on the
+> information provided."
+
+That is the common-name hedge, stated honestly rather than buried. It means the
+confirmation is scoped to whichever listing they matched — so **re-verify**, and
+use the phone line (staffed 8am–11pm EST) if a listing survives, because a human
+can disambiguate where a form cannot.
+
+### Still unanswered after two rounds
+
+Suppression versus one-time removal; whether multiple matching records were handled
+or only one; whether removal reaches the subject's name on **other people's**
+listings as a related person; whether any criminal or court entry is attributed;
+FCRA scoping; and the sibling-site question.
+
+The sibling question has now failed to arrive twice — once as mangled redirect
+links, once as bare domain names that the mail client linkified and wrapped anyway.
+See the correction appended to [[_SILENT_FAILURES]] §51: write it as
+`privatereports [dot] com` or describe it in words, because a bare hostname is not
+safe either.

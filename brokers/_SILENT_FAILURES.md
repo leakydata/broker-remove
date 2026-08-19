@@ -1805,9 +1805,8 @@ reasonably concludes there is nothing there.
 
 **What to do.**
 
-- **Do not put a bare URL in an outbound letter when the plain domain name will
-  do.** "usatrace.com and quickpeopletrace.com" is unambiguous, unwrappable, and
-  needs no click.
+- **~~Do not put a bare URL in an outbound letter when the plain domain name will
+  do.~~ THIS MITIGATION DOES NOT WORK — see the correction below.**
 - **Where a real link is unavoidable** — a profile URL the broker asked for —
   say in the same sentence what it points at, so a mangled wrapper is still
   actionable: *"the results page for <name> in <city>, at <domain>/…"*.
@@ -1819,6 +1818,40 @@ effort on links that were never going to work. A short "that was my mail client,
 not you, and here is what I actually meant" costs nothing, closes a false trail,
 and is the difference between a cooperative correspondent and one who has quietly
 written you off as a time-waster.
+
+### Correction (2026-08-19): a bare domain name gets rewritten too
+
+The advice above was tested and it failed. A later letter deliberately avoided
+URLs and wrote the two sites as **plain domain names in running prose** —
+`privaterecords.net` and `privatereports.com`, no scheme, no path, no anchor.
+
+The broker's quoted copy of that letter shows both rewritten into
+`google.com/url?q=…&source=gmail&ust=…` redirects anyway.
+
+> **The client linkifies anything that *looks* like a hostname, then wraps the
+> link it just created.** Removing the scheme does not help, because the
+> linkifier is matching on the dotted label, not on `https://`.
+
+So the same message that apologised for mangled links contained freshly mangled
+links, in the sentence doing the apologising.
+
+**Mitigations that actually survive**, in rough order of preference:
+
+- **Break the dot.** `privaterecords [dot] net` is not a hostname to a linkifier
+  and is unambiguous to a human. Ugly, and worth it.
+- **Insert a zero-width or ordinary space** before the TLD — but check the sent
+  copy, because some clients strip it and re-linkify.
+- **Describe rather than name.** "the sibling site whose name is yours with
+  *reports* in place of *records*" carries the question with no hostname at all.
+- **For opaque tokens** — a request ID, a ServiceNow `sysparm_id`, an
+  order number — there is no dot, so plain text is genuinely safe. Ask the broker
+  to send those *unlinked*, and send yours the same way.
+
+**And the general rule this belongs to:**
+
+> **Verify a workaround against the sent copy before recommending it.** The draft
+> is not the artifact. This entry confidently prescribed a fix for four days
+> before anyone checked whether it worked, and it did not.
 
 ---
 

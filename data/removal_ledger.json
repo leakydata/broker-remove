@@ -1900,7 +1900,7 @@
     "via": "web"
   },
   "privaterecords": {
-    "status": "captcha_blocked",
+    "status": "confirmed",
     "changed": "2026-08-19",
     "via": "email"
   },

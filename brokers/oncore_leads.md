@@ -41,3 +41,57 @@ latter.
 ## Verification
 
 <!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+
+## The negative wrapped in a jurisdictional hedge (updated 2026-08-19)
+
+A co-founder replied personally — worth noting, because it means the answer was
+considered rather than templated. The operative sentences:
+
+> "Please note that **only California consumers are entitled to rights under the
+> CCPA**.
+>
+> Please allow this correspondence to confirm that Oncore does not have any
+> personal information regarding you **that could be subject to the deletion
+> requirements of the CCPA**."
+
+Read those together and the trailing clause carries two opposite meanings:
+
+**(A)** We searched and hold no personal information about you at all.
+**(B)** We may hold information about you, but none of it is in CCPA scope —
+because you are not a California consumer.
+
+> **A negative qualified by a statute is not the same as a negative.** "We hold
+> nothing subject to X" is true whenever X does not apply, entirely regardless of
+> what is held. The preceding jurisdiction sentence is what turns an apparent
+> answer into a possible non-answer.
+
+This is not necessarily evasion — (B) is a lawful position, and plenty of firms
+state it clumsily while meaning (A). But the two are opposite facts about the
+world and only one closes the matter.
+
+### How to ask without accusing
+
+Put both readings to them in their own words, say which one closes it, and concede
+the other in advance:
+
+> If (A), an unqualified *"we hold no record of you"* is a complete answer and I
+> will not write again. If (B), that is a lawful position — please honour the
+> request as a matter of your published policy and tell me which basis you applied.
+
+Offering (B) as acceptable is what makes (A) cheap to give. A demand that they
+concede jurisdiction gets a lawyer's answer; an offer to accept either gets a
+factual one.
+
+### The three questions that do not depend on jurisdiction
+
+Worth re-asking every time in a lead business, because the record that matters is
+rarely in the live database:
+
+- **Provenance** — which publisher, form or supplier, and when. A claimed consent
+  nobody can produce is not a consent.
+- **Recipients** — a lead sold onward means every buyer holds a copy, and deleting
+  the seller's copy touches none of them.
+- **Do-not-resell suppression** — without it the same lead is re-acquired from the
+  same upstream source next month and sold again as new.
+
+See [[_DEFLECTIONS]] and [[_CATEGORY_VARIANTS]] on lead-generation businesses.
