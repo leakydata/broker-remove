@@ -1084,6 +1084,17 @@ asymmetry is deliberate: a broker wrongly marked reachable costs one bounced ema
 which is visible and recoverable. A broker wrongly marked unreachable is never
 contacted again, and nothing ever surfaces the mistake.
 
+**A correction to this entry, made ninety minutes after writing it.** The fix above
+consults MX before condemning a domain, and that is right — but MX is **necessary, not
+sufficient**. `matchandappend.com` publishes a healthy Zoho MX and rejects both
+`privacy@` and `info@` with a hard 550: the exchanger answers and refuses every
+recipient, because the records are configured and no mailboxes are provisioned.
+
+So the corrected rule is the one this project already learned once, from a different
+direction: **neither DNS nor MX tells you an address works. Only a delivered message
+does, and only a bounce naming the address tells you one does not.** MX is a reason not
+to condemn a domain prematurely; it is not evidence anybody is there.
+
 **Generalising: when a tool of ours condemns a broker, verify the condemnation by
 hand before acting on it.** Every verdict that closes off future work deserves the
 scepticism we apply to a broker's own negatives -- ours are not better evidence

@@ -196,7 +196,18 @@ def has_mx(domain):
     with working mail was one `--apply` away from being written off.
 
     The script verifies EMAIL addresses. For that purpose an MX record is the
-    relevant signal and an A record is a proxy at best."""
+    relevant signal and an A record is a proxy at best.
+
+    But do not over-read this fix. An MX record proves a domain has *somewhere*
+    to deliver mail; it does not prove any mailbox exists behind it.
+    `matchandappend.com` publishes a healthy Zoho MX and rejects both `privacy@`
+    and `info@` with a hard 550 - the exchanger answers and refuses every
+    recipient, because the MX is configured and no mailboxes are provisioned.
+
+    So MX is NECESSARY, not sufficient. The only thing that proves an address
+    works is a delivered message, and the only thing that proves one does not is
+    a bounce naming it. This function exists to stop us condemning domains too
+    early, not to license the opposite mistake."""
     try:
         out = subprocess.run(["dig", "+short", "MX", domain],
                              capture_output=True, text=True, timeout=10).stdout
