@@ -877,3 +877,67 @@ deleted. Refuse, and say why.
 
 Related: "Where deletion is the wrong ask", above — identity-verification data and
 persistent suppression lists are the other two members of that family.
+
+## Contact centres and BPOs: three artefacts nobody asks for
+
+An outsourced contact-centre operator holds almost everything about the public on
+behalf of clients, so the first ask is **name the client**, not *delete it* — a
+truthful "we are only a service provider" is unactionable when the consumer
+cannot know whose contact-centre work touched them.
+
+But there are three artefacts that a general deletion request never reaches, and
+they are the real reason to write to this category at all.
+
+**Recordings and transcripts are two different things.** A transcript is usually
+generated into a separate system for quality scoring or analytics, and is
+frequently retained *longer* than the audio it came from. "Delete my call
+recording" leaves the transcript sitting in the analytics platform. Name both.
+
+**Voiceprints are biometric data, and nobody is told they exist.** Speaker
+identification and voice authentication create a template from a caller's voice.
+The person it was taken from is not informed, it is not visible in any account
+page, and it is essentially never covered by a request phrased as "delete my
+data" or "close my account". Ask for it by name — voiceprint, speaker-ID
+template, voice-authentication enrolment — and cite the applicable state
+biometric statute, because that is the framework under which it is most clearly
+actionable.
+
+**Quality, training and model-evaluation sets.** Recordings and transcripts feed
+agent scoring and, increasingly, speech and language model development. Ask
+whether any material involving the subject has been used that way, and ask for an
+honest description of the limits rather than a promise. A model already trained
+is a different problem from a row in a table; saying so invites a truthful answer
+instead of a reassuring one.
+
+**Search every prior telephone number.** A contact-centre record is keyed to the
+number that was dialled or that called in — for any older engagement, a number
+the person has long since given up.
+
+## Reverse-lookup sites with user comments
+
+A comment board bolted onto a directory needs **three separate asks**, and the
+second is usually the one that matters:
+
+1. **The directory entry**, in both directions.
+2. **The user comments.** Any post naming the person or their number. These sit
+   in a different table from the directory data, they are separately indexed, and
+   they are frequently the part that actually surfaces someone by name. A removal
+   scoped to the listing leaves every comment in place.
+3. **Suppression against re-creation.** On a user-generated site a number can be
+   given a brand-new page the day after the old one is deleted. Ask that the
+   numbers cannot be re-added or re-commented — otherwise the removal has a
+   shelf life of one visitor.
+
+Ask for a `noindex` directive as well as content removal: comment pages accumulate
+search authority, and a removed page that stays indexed keeps the person findable
+for months.
+
+**Watch what address they publish.** One of these sites lists a **ProtonMail
+address** as its privacy contact. That is worth recording rather than merely
+noting: it says there is no company mail domain behind the site and that whoever
+runs it prefers not to be identifiable. Expect no ticket number, no letterhead
+and no escalation path — and set expectations accordingly rather than reading
+silence as refusal.
+
+**If the site is not in English, write in both languages.** It costs one extra
+paragraph and materially raises the chance that whoever reads it acts.

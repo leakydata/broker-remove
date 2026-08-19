@@ -1989,10 +1989,40 @@
     "changed": "2026-08-19",
     "via": "email"
   },
+  "qualcomm": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
+  "qualfon": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
+  "quick_people_trace": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
+  "quick_public_records": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
+  "quientelefono": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
   "radaris": {
     "status": "confirmed",
     "changed": "2026-08-17",
     "via": null
+  },
+  "reach_marketing": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
   },
   "recordsquarry": {
     "status": "submitted",
