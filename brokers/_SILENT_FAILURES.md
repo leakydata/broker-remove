@@ -2057,3 +2057,48 @@ reflects it back. Encoded `@` (`%40`), spaces (`%20` or `+`) in a street address
 and apostrophes (`%27`) in a surname are the common ones. A surname arriving as
 `O%27Brien` fails to match a record filed under `O'Brien`, and the removal then
 returns "no record found" for a reason that has nothing to do with the data.
+
+---
+
+## §59 The invisible CAPTCHA that fails by doing nothing
+
+An opt-out search form took a name, a city and a state, accepted them, and on
+submit did **nothing**. No results. No error. No validation warning. The page sat
+exactly as it was.
+
+The form posted to its own URL and carried one hidden field:
+
+    <input type="hidden" name="captchaId" value="">
+
+Empty. The submission was being rejected for want of a token that was never issued
+— and the rejection was silent.
+
+> **A visible CAPTCHA announces itself and can be handed to a human. An invisible
+> one has no challenge to see and no error to read, so its failure is
+> indistinguishable from a form that is simply broken.**
+
+What makes this worse than an ordinary dead form is what the silence *means* on a
+people-search site. That operator's own reply had said:
+
+> "If you are unable to locate your listing then it means your information was
+> never collected, or has already been removed."
+
+So an empty result is a **meaningful negative** — and a silently-rejected search
+produces exactly the same screen. A requester following the instructions in good
+faith would record a clean bill of health that was never issued.
+
+**The check, before concluding a search found nothing:**
+
+    Array.from(document.querySelectorAll('input[type=hidden]'))
+         .map(i => ({n: i.name, v: i.value}))
+
+A hidden field named `captcha*`, `token`, `nonce`, `csrf` or similar sitting
+**empty** where a value belongs means the page on screen is not an answer.
+
+**And check the form's own target while you are there** — `form.action` and
+`form.method`. A form that posts to the URL it is already displaying, and returns
+that same URL unchanged, is being rejected rather than answered.
+
+> **Never record `not_found` off a search whose submit you did not see complete.**
+> The evidence for a negative is a results page that says so, not the absence of a
+> results page.
