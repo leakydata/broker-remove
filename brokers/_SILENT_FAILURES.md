@@ -1461,3 +1461,47 @@ Cloudflare's email obfuscation is a hex string XORed with its own first byte:
 Here it only confirmed a dead end, but scraping a page for `@` will never find an
 address hidden this way — and on a site that *does* have working mail, this is the
 difference between a contact and a `NO_EMAIL` verdict.
+
+## 42. The apex and the www host are different records
+
+Two agents checked the same broker minutes apart and reported different things.
+One said the privacy page returned **503**; the other said the domain **failed to
+resolve entirely**. Both were right.
+
+    $ dig +short A matchandappend.com
+    (nothing)
+
+    $ dig +short A www.matchandappend.com
+    34.106.169.43
+
+The apex has no address record at all. The `www` host does. So a check against
+`https://matchandappend.com/` gets a resolution failure, and a check against
+`https://www.matchandappend.com/` reaches a server — which may then error, or
+serve a page, or time out.
+
+> **`example.com` and `www.example.com` are two independent DNS records.** Either
+> can exist without the other. Checking one and reporting on "the domain" is a
+> category error, and it produces exactly the disagreement above: two truthful
+> observations that cannot both be about the same thing.
+
+### Why this matters more than it sounds
+
+The conclusion at stake was **"this broker has no website at all"** — which is
+the kind of finding that ends an investigation. Recorded from an apex-only check,
+it would have been wrong in a way nobody would revisit, because a documented dead
+end does not get re-checked.
+
+It is also the mirror of §35 and §30: a domain's DNS is not one fact. `A` on the
+apex, `A` on `www`, `MX`, and the MX *value* are four separate questions, and a
+broker can be alive on any subset of them.
+
+### The check to run
+
+    for h in example.com www.example.com; do
+      echo "$h A: $(dig +short A $h | tr '\n' ' ')"
+    done
+    dig +short MX example.com
+
+And when two sources disagree about whether something is reachable, **assume both
+are honest and look for the asymmetry** — vantage point, host, protocol, or
+timing — before deciding which one was wrong. Here neither was.

@@ -8,7 +8,7 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-19)
+- Current: `not_found` (updated 2026-08-19)
 - Note: Front end for PeopleFinders - the search form says 'Powered by PeopleFinders' and their privacy page states plainly 'USA Trace is not a data broker - we do not store any information, nor do we have access to the information contained in the public record profiles'. Sibling of quickpeopletrace.com; one letter covers both. Their /your-privacy/ page is the most candid writing any broker has produced in this project, and it is worth reading rather than skimming: it explains what data brokers are, concedes it cannot remove anything at source, and offers only to block the preview. Two things asked back that only they can answer: their page says partners are contractually barred from sharing 'social security numbers, ethnicity information, and sexual orientation (among others)' - so what IS in the 'among others'? And do they forward block requests upstream to PeopleFinders, since a block request is a signal that a named person wants suppression even if they cannot act on it themselves. The block tool itself is per-profile and capped at ONE name/profile combination, which is _DEFLECTIONS 30 again, and it must not be used on a profile that has not been positively verified as the subject's.
 
 ## Steps
@@ -52,3 +52,38 @@ record; do not guess from a list.
 ## Verification
 
 <!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+
+
+## Outcome: nothing to block
+
+Their preview index was searched twice. Neither search returned the subject.
+
+- **Name + city + state:** the only entry for that city is a person of the same
+  first and last name, a **different middle initial, and 33 years older**, whose
+  other locations are three states the subject has never lived in.
+- **Name + state, no city:** returns **nobody in that state at all**. The closest
+  result by age has an address history entirely in two other states.
+
+So `not_found` on the evidence, and the handoff item was cleared rather than left
+open: there is no profile for a human to verify, and verification was the entire
+purpose of handing it over. **The risk this flow carries — clicking *Block
+Profile* on a stranger's listing — is the only thing that was ever at stake.**
+
+> A search that returns nothing is a result worth recording. It converts
+> "pending, someone should look" into "checked, nothing there", and it removes an
+> item from the human queue rather than adding one.
+
+## Two defects found while searching
+
+**The state filter is not applied.** A search filtered to one state returns
+results in three others. The filter is decorative; the result set is effectively
+a national list. Anyone using this tool to find "their" profile is choosing from
+a nationwide roster of people who share a name — which makes the
+one-profile-per-person cap considerably worse than it first appears, and makes a
+wrong click more likely, not less.
+
+**The operating entity appears only in the footer.** `QuickLocate LLC`,
+Mechanicsville VA, with a telephone number — a real corporate identity for the
+USATrace / QuickPeopleTrace family that the privacy page itself never names.
+Worth harvesting: a footer address is often the only place a shell-branded site
+admits who runs it.

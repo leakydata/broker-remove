@@ -1332,7 +1332,7 @@
   "match_and_append": {
     "status": "unreachable",
     "changed": "2026-08-19",
-    "via": "email"
+    "via": "web"
   },
   "matchbook": {
     "status": "manual_required",
@@ -2160,9 +2160,9 @@
     "via": "web"
   },
   "usatrace": {
-    "status": "submitted",
+    "status": "not_found",
     "changed": "2026-08-19",
-    "via": "email"
+    "via": "web"
   },
   "ussearch": {
     "status": "submitted",
