@@ -595,8 +595,8 @@
     "via": "email"
   },
   "decisionlinks": {
-    "status": "submitted",
-    "changed": "2026-08-17",
+    "status": "not_found",
+    "changed": "2026-08-19",
     "via": "email"
   },
   "deep_root": {
@@ -760,8 +760,8 @@
     "via": "email"
   },
   "findem": {
-    "status": "submitted",
-    "changed": "2026-08-18",
+    "status": "confirmed",
+    "changed": "2026-08-19",
     "via": "email"
   },
   "findpeoplefast_net": {
@@ -1375,7 +1375,7 @@
     "via": "web"
   },
   "merkle": {
-    "status": "captcha_blocked",
+    "status": "submitted",
     "changed": "2026-08-19",
     "via": "email"
   },
@@ -2045,7 +2045,7 @@
     "via": "email"
   },
   "realtyhop_com": {
-    "status": "submitted",
+    "status": "not_found",
     "changed": "2026-08-19",
     "via": "email"
   },

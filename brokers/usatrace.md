@@ -87,3 +87,80 @@ Mechanicsville VA, with a telephone number — a real corporate identity for the
 USATrace / QuickPeopleTrace family that the privacy page itself never names.
 Worth harvesting: a footer address is often the only place a shell-branded site
 admits who runs it.
+
+## The operator who changed the page (updated 2026-08-19)
+
+The fullest reply in this project, from a named person, answering every question
+asked rather than the easy subset. Worth reading closely because almost nothing in
+it is boilerplate.
+
+### The part that matters beyond one request
+
+The letter had asked them to state the per-request block limit plainly — *"or tell
+me plainly that you will not, so I know where I stand"* — because their page said
+they accommodate *"one name/profile combination per person"*.
+
+> "There is no limitation on blocks and **I have taken the opportunity to update
+> the information on the page to reflect that multiple profiles may be blocked.**"
+
+> **Asking a company to state a limit sometimes removes the limit.** A published
+> restriction is often not a policy at all — it is stale wording nobody has
+> revisited. Naming it as ambiguous gives them a cheap way to fix it, and the fix
+> lands for everyone who reads that page afterwards, not just for you.
+
+This is the only instance so far where raising a documentation problem produced a
+documentation change. It cost one paragraph.
+
+### Three plain answers, including two "no"s
+
+- **Enquiry logs:** *"No, we do not."* — they retain no record that a given name
+  was searched.
+- **Upstream forwarding:** *"No, we do not forward the signal."* A block here tells
+  them a named person wants suppression, and that signal stops at their door.
+- **"Among others":** the excluded categories are not a secret list — it means
+  anything outside the PeopleFinders report scope, bounded by not misleading buyers
+  about FCRA-permissible purposes.
+
+> **A plainly-stated "no" is more useful than a hedged "yes".** Two of the three
+> answers above are refusals, and all three are now facts that can be relied on and
+> quoted. Ask questions whose "no" you would still want in writing.
+
+### Why the identifiers cannot drive the block
+
+This is the structural finding, and it changes how the entry should be worked:
+
+> "The blocking tool (both what we use manually and the consumer facing tool) uses
+> **a specific identifying number generated in the profile** (i.e. from
+> PeopleFinders.com) ... we would require either a screenshot, a direct link to the
+> results page on USATrace.com, or the PeopleFinders link(s)."
+
+They hold no underlying data — *"we can only use this information to make our best
+guess(es) by trying to match it with the preview results"* — so a list of addresses
+and phone numbers has nothing on their side to match against. The block is a
+pointer to somebody else's record.
+
+> **Where a site displays a partner's results, the suppression is keyed to the
+> partner's record ID, not to you.** Sending identifiers is the right move at a
+> broker that stores data and the wrong move here. This one needs a results-page
+> URL or nothing.
+
+**The open question that follows from it** — put to them and still unanswered: if
+the upstream profile ID is regenerated, or two records are merged, does an existing
+block silently stop matching and the listing reappear under a new ID? If so, a
+block here needs periodic re-checking rather than being permanent.
+
+### Declining the "best guess"
+
+They offered to attempt a match from the identifiers. That offer was declined, and
+the reasoning is the general rule:
+
+> **Never let a broker guess which record is yours on a common name.** A guessed
+> block removes an uninvolved stranger's listing and leaves yours in place. It does
+> real harm to someone who never asked for anything, while giving the requester a
+> false belief that they are covered — and neither of them ever finds out.
+
+A search of their index returned no positively identifiable result; the closest
+same-name match is a different person born decades apart. Recorded `not_found`
+with nothing blocked, which is the honest state.
+
+See [[quickpeopletrace]] — same operator, and the sibling that named this one.

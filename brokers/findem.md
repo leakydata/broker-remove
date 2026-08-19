@@ -7,7 +7,7 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-18)
+- Current: `confirmed` (updated 2026-08-19) — public data permanently erased and details added to their blocklist
 - Note: Recruiting-profile builder. Asked them to search professional identifiers (the .edu address, public profile URLs, employment history) since a talent profile is not keyed to a home address; to delete the ENRICHED profile - skills, seniority, tenure, predicted openness to a move - not just raw fields; to name the sources; and to say which customers the profile was shown to. Pre-empted the processor deflection by asking for the client list in the same breath.
 
 ## Steps
@@ -44,3 +44,44 @@ outlives your deletion.
 Nothing public to search. Ask which identifiers they held you under, what the
 sources were, and which customers saw the profile — that last list is the next set
 of requests to file.
+
+## Confirmed: deleted and blocklisted (updated 2026-08-19)
+
+> "As requested, we have deleted all your public data in our database by
+> permanently erasing it.
+>
+> Also, your details have been added to our **blocklist** which will ensure you
+> will not be contacted in the future using our platform.
+>
+> Please note that we are required to retain a record of your request for at least
+> 24 months."
+
+Recorded `confirmed`. Three things in that make it a better confirmation than most.
+
+**It says "permanently erasing", not "removed".** Erasure and de-listing are
+different operations and most confirmations choose the vaguer word.
+
+**It pairs deletion with a standing blocklist entry.** Deletion alone is a
+point-in-time act at a company whose product is continuously sourced from public
+profiles; the blocklist is what stops the next sourcing run rebuilding the record.
+Both halves, volunteered.
+
+**It discloses the retention it cannot avoid.** The request record itself is kept
+for 24 months — which is a legal obligation, not a loophole.
+
+> **A confirmation that names its own residual retention is more trustworthy than
+> one that claims everything is gone.** Something always survives a deletion
+> request: the record of the request. An operator that says so unprompted is
+> describing their actual process rather than reciting a reassurance.
+
+### Two operational details
+
+**They matched across more than one supplied address.** The reply was addressed to
+two of the email addresses in the letter, not just the correspondence one — good
+evidence the search actually ran over the full identifier list rather than the
+From: header.
+
+**Reply to the Cc, not the From.** It arrives from `no-reply-privacy@findem.ai`
+with `privacy@findem.ai` copied in, and the body names the latter as the contact.
+See [[_SILENT_FAILURES]] §46 — a `no-reply` From: on privacy mail is a one-way
+valve, and here the working address is sitting right there on the Cc line.

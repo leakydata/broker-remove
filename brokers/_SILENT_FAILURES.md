@@ -1774,3 +1774,82 @@ The general shape, worth checking for whenever a route is queued for a human:
 > **Ask what the human action *produces*, not just what it costs.** A CAPTCHA that
 > unlocks a page is one action. A CAPTCHA that mints a fifteen-minute token is two,
 > and the second one has a clock on it.
+
+---
+
+## §51 Your mail client rewrites the URLs in your own letters
+
+A broker's reply contained a line that looked like ordinary friction:
+
+> "I was unsuccessful in accessing the information from these links."
+
+The links in question were two bare site names typed into the letter. What arrived
+at the far end was neither:
+
+    https://www.google.com/url?q=http://usatrace.com&source=gmail&ust=<mangled>&sa=E
+
+The webmail client had silently rewritten every plain URL in the outgoing message
+into its own click-tracking redirect, and a parameter in the wrapper did not
+survive the round trip — so the recipient got an address that neither resolved nor
+obviously corresponded to the site being discussed.
+
+> **The letter you compose is not the letter that arrives.** Bare URLs are
+> linkified and wrapped on send. The recipient sees the wrapper, not what you
+> typed, and a broken wrapper reads as a malformed or evasive request rather than
+> as a client-side artifact.
+
+This matters more than it sounds, because URLs in these letters are load-bearing:
+profile links a broker asks for, sibling-site names in a family request, a
+registry entry cited as evidence. A support agent who cannot open the link
+reasonably concludes there is nothing there.
+
+**What to do.**
+
+- **Do not put a bare URL in an outbound letter when the plain domain name will
+  do.** "usatrace.com and quickpeopletrace.com" is unambiguous, unwrappable, and
+  needs no click.
+- **Where a real link is unavoidable** — a profile URL the broker asked for —
+  say in the same sentence what it points at, so a mangled wrapper is still
+  actionable: *"the results page for <name> in <city>, at <domain>/…"*.
+- **Read your own sent copy**, not your draft, when a reply says a link failed.
+  The evidence is in the sent message, and it will not match what you wrote.
+
+**And when it has already happened, say so.** The broker above had spent real
+effort on links that were never going to work. A short "that was my mail client,
+not you, and here is what I actually meant" costs nothing, closes a false trail,
+and is the difference between a cooperative correspondent and one who has quietly
+written you off as a time-waster.
+
+---
+
+## §52 "We have no record of you" from a business you were never a customer of
+
+A property marketplace answered a deletion request:
+
+> "We attempted to process your Request to Delete. However, we do not have a record
+> of you in our system. **If you previously interacted with us using a different
+> email address**, please [tell us]."
+
+That closing clause is the whole thing. It reveals what was searched: **interactions
+keyed on email address**. A customer-account lookup.
+
+For a people-search site, "do you have a record of me" and "have I interacted with
+you" are the same question, so the answer is complete. For a marketplace,
+aggregator, or any business that compiles data about non-customers, they are
+different questions — and the compiled data is precisely the part a consumer
+request is about.
+
+> **Read a null result for the key it was searched on.** "No record of you" scoped
+> to customer interactions says nothing about listing data, agent records,
+> address-keyed records, or anything acquired from a third party about someone who
+> never visited the site.
+
+**The follow-up that resolves it** accepts the negative for what it covers and asks
+the narrower question rather than re-asserting the original one:
+
+> *Did you search only customer interactions, or also any listing, agent, or
+> address-keyed records you hold about people who are not customers?*
+
+That is answerable in one line, it does not accuse anyone of anything, and it
+distinguishes a genuine `not_found` from a search that never looked in the right
+place. Until it is answered, the negative is real but partial.
