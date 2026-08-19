@@ -89,3 +89,13 @@ and to whom, and carrying the full MAID-only framing (see
 `_CATEGORY_VARIANTS.md`): no advertising identifier supplied, a request for a
 plain no-match answer, and the question of whether deletion reaches derived
 location, visit and dwell records or only the identifier row.
+
+## Unverified last-resort channel from the state registry
+
+Onemata's CA data broker registration (oag.ca.gov/data-broker/registration/546702)
+lists a phone line, (833) 663-6282, and a "do not sell my personal info" form at
+`onemata.com/do-not-sell-my-personal-info`, in addition to the dead `privacy@`
+address. Neither is verified working — the live site would not load at all when
+checked (bare domain 404s, www returns the Wix error page above) — so treat the
+phone number as the only channel worth a human trying next, not a confirmed
+route.

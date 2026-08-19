@@ -54,3 +54,19 @@ any household or persistent key, and any derived attribute.
 Deleting an appended value while leaving the match key intact means the same append
 happens again at the next run.
 
+## Update: the domain does have a site again (2026-08-19, later same day)
+
+A fresh check found the domain now resolving with a live web server: fetching
+`matchandappend.com/privacy-policy` returned an HTTP 503 (service unavailable),
+not a DNS failure, and the CA data broker registry
+(oag.ca.gov/data-broker/registration/546620) publishes two web routes beyond the
+dead `privacy@`/`info@` mailboxes:
+
+- `https://www.matchandappend.com/do-not-sell-my-data/`
+- `https://www.matchandappend.com/unsubscribe/`
+
+Neither was reachable at check time (503), so this may be an intermittent outage
+rather than the "no website at all" state found earlier the same day. Worth a
+human retrying the two URLs above before falling back to the `info@` fault report
+described above.
+

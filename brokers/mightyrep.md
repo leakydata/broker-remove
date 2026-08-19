@@ -27,3 +27,12 @@
 ## Verification
 
 <!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+
+## The bounced address is the state-registered one
+
+MightyRep's CA data broker registration (oag.ca.gov/data-broker/registration/564387,
+approved 2023-03-16) lists `privacy@mightyrep.com` as the contact - the exact
+address that hard-bounces "address not found". So the earlier note about writing
+to a named individual in the footer was working around a genuinely dead official
+channel, not a wrong guess. Fallback web route: `https://www.mightyrep.com/contact`
+(untested; needs a human, no CAPTCHA info known).

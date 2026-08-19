@@ -4340,15 +4340,15 @@
       "name": "Match And Append",
       "domain": "matchandappend.com",
       "priority": 2,
-      "method": "email",
-      "optout_url": "",
+      "method": "web_form",
+      "optout_url": "https://www.matchandappend.com/do-not-sell-my-data/",
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "match-and-append",
-      "email_to": "privacy@matchandappend.com",
+      "email_to": null,
       "email_verified": false,
-      "email_verified_by": null,
-      "notes": "Previously flagged site_unreachable, but DNS resolves - the site refuses automated requests rather than being gone. The address is simply unverified, not dead."
+      "email_verified_by": "bounced",
+      "notes": "Both privacy@matchandappend.com and info@matchandappend.com hard-bounce (550); the CA data broker registry (oag.ca.gov/data-broker/registration/546620) lists the same dead privacy@ address plus info@. The privacy-policy page itself returned 503 on the day this was checked, so the site may be intermittently down rather than gone. Fallback web routes published in the registry: https://www.matchandappend.com/do-not-sell-my-data/ and https://www.matchandappend.com/unsubscribe/ - needs a human, no CAPTCHA info available."
     },
     {
       "id": "matchbook",
@@ -4524,14 +4524,15 @@
       "name": "Mightyrep",
       "domain": "mightyrep.com",
       "priority": 2,
-      "method": "email",
-      "optout_url": "",
+      "method": "web_form",
+      "optout_url": "https://www.mightyrep.com/contact",
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "mightyrep",
-      "email_to": "privacy@MightyRep.com",
+      "email_to": null,
       "email_verified": false,
-      "email_verified_by": "no_address_published"
+      "email_verified_by": "bounced",
+      "notes": "privacy@mightyrep.com hard-bounces (address not found) despite being the exact address on file in MightyRep's own CA data broker registration (oag.ca.gov/data-broker/registration/564387, approved 2023-03-16) - the state registry does not guarantee deliverability. No alternate address published. Fallback is the contact form at /contact (needs a human; no CAPTCHA info available)."
     },
     {
       "id": "milestone_marketing_solutions",
@@ -5350,14 +5351,15 @@
       "name": "Onemata",
       "domain": "onemata.com",
       "priority": 2,
-      "method": "email",
-      "optout_url": "",
+      "method": "phone",
+      "optout_url": "https://www.onemata.com/do-not-sell-my-personal-info",
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "onemata",
-      "email_to": "privacy@onemata.com",
+      "email_to": null,
       "email_verified": false,
-      "email_verified_by": "delivery_evidence"
+      "email_verified_by": "bounced",
+      "notes": "privacy@, info@ and legal@onemata.com all hard-bounce; the bare domain (onemata.com, no www) 404s. The CA data broker registry (oag.ca.gov/data-broker/registration/546702) lists privacy@onemata.com as the contact and a do-not-sell-my-personal-info form plus a phone line, (833) 663-6282, as alternate CCPA channels - both unverified since the site itself would not load when checked. Needs a human to try the phone line or re-check the site; email is a dead end for now."
     },
     {
       "id": "onemodel",
