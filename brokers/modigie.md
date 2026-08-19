@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-19)
-- Note: Mobile/direct-dial enrichment. Targeted the append AND the linkage, plus something most letters miss: any VERIFICATION or CONFIDENCE SIGNAL about whether a number is current or belongs to me is itself information about me. Led with suppression because deleting an appended number without one means it is re-appended the next time a client uploads a record naming the subject. Flagged that a disconnected number is exactly what an enrichment file retains, since knowing a number is stale is as commercially useful as knowing it is current.
+- Note: privacy@modigie.com is a GOOGLE GROUP CLOSED TO EXTERNAL POSTING. Bounce came from their own domain admins: 'the group you tried to contact (privacy) may not exist, or you may not have permission to post messages to the group... This group may not be open to posting.' Distinct from a 550 unknown user - the address exists, is published for consumers, and silently refuses exactly the people it is published for, with a bounce that reads like the sender's own mistake. Resent to support@ with the misconfiguration reported.
 
 ## Steps
 

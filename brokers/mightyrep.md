@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-19)
-- Note: Standard statutory letter plus the business-vs-consumer-data pre-empt: if they treat it as professional contact data, say so and name the basis rather than declining silently, and apply the request to everything outside that scope.
+- Note: privacy@mightyrep.com hard-bounced 'address not found'. Only contact published anywhere on their site is a NAMED INDIVIDUAL at their own domain, in the site footer beside the privacy policy - which is different from the stranger's-personal-address case verify_emails guards against, because this is the company's own published contact. Wrote to it, apologised for using a named address, and asked him to pass it on and to get the privacy mailbox fixed.
 
 ## Steps
 

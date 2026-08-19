@@ -1166,3 +1166,51 @@ companies is itself a disclosure. The justification is that these are identifier
 industry demonstrably already holds — they were read off a broker's own page — so
 naming them buys a wider search without revealing anything the recipient could not
 already buy.
+
+## 33. The privacy address that is a closed mailing list
+
+A request to a published `privacy@` address bounced with this, from the broker's own
+domain administrators:
+
+> *"the group you tried to contact (privacy) may not exist, or you may not have
+> permission to post messages to the group... This group may not be open to posting."*
+
+The address is not dead. It is a **Google Group configured to accept mail only from
+inside the organisation** — published for consumers, and refusing the only people it
+exists to serve.
+
+**This is worse than a 550 in two ways.** The bounce is ambiguous by design: it offers
+four possible causes, three of which blame the sender ("you might have spelled the group
+name incorrectly", "you may need to join the group"). Someone acting in good faith reads
+that as their own error and retypes it. And because the failure is a *permission* rather
+than a *missing recipient*, it will not appear on any list of dead addresses — the group
+resolves perfectly well.
+
+**Report it explicitly, because the company almost certainly does not know.** A closed
+group is a default, not a decision: somebody created an internal alias and never
+switched on external posting. Saying so in one paragraph is more likely to fix it than
+any amount of escalation.
+
+## 34. The carve-out that hides inside an offer
+
+A broker replied with two working opt-out routes and one refusal:
+
+> *"At this time, we are unable to remove data from the unclaimed money feature."*
+
+Followed by detailed, genuinely helpful instructions for removing from Property Search
+and from the resident search.
+
+**The shape is the risk.** Two thirds of the reply is cooperative, specific and
+actionable, and the refusal is a single clause near the top. Work through the two flows,
+receive two confirmations, and the natural conclusion is that the removal is done — while
+the product that was refused carries on unchanged.
+
+**So separate the offer from the scope every time.** Count the surfaces the company has,
+count the ones the reply covers, and name the difference back to them.
+
+And ask **which kind of "unable"** it is. "We cannot" spans a technical limitation — a
+live external lookup with nowhere to store a suppression — and a policy position that
+the data is public record. Those need different follow-ups: the first invites asking for
+**display-level suppression** even where the source cannot change; the second is a
+position to record and stop pressing. A single word covers both, and only the company
+knows which it meant.

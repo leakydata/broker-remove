@@ -315,3 +315,38 @@ about the *entity*. One page load settled it.
 **A registry entry that looks absurd is worth thirty seconds of checking before it is
 dismissed.** An expired-domain repurposing is invisible from the name alone, and the
 whole point of the pattern is that the name still reads as trustworthy.
+
+## A shared internal URL path beats a shared privacy address
+
+MugshotLook and InmatesSearcher replied to the same letter in **word-for-word identical
+terms** — the greeting *"It's my pleasure to help you out today"*, the
+reply-to-confirm instruction with NOT capitalised, the browser-cache advice, and the
+closing line that *"all information contained in our database is public information"*.
+Only the signature name, the street address and the telephone number differ.
+
+An identical support template is good evidence. But the decisive tell is elsewhere:
+both sites run their opt-out at
+
+    /api/helper/optOutLight/search
+
+**Nobody white-labels an internal API helper route.** A privacy address can be shared by
+an outsourced desk; a support template can be bought or copied; a WHOIS record can be
+proxied. A path like `optOutLight` is an implementation detail of one codebase, chosen
+by one developer, and its presence on two brands means the two brands *are* one system.
+
+**What to look for**, in rough order of strength:
+
+  1. an identical **non-obvious URL path** — API routes, query-parameter names, the
+     spelling of a token like `idv-form` or `optOutLight`;
+  2. a **privacy address on another brand's domain**;
+  3. a **rights portal hosted on a parent's tenant** (`firstam.service-now.com`);
+  4. **ticket numbers from one sequence** issued by nominally separate brands;
+  5. an **identical support template**, especially with an identical typo;
+  6. replies arriving **within the same minute** from several brands.
+
+The first three are close to conclusive. The last three are strong corroboration and
+weak alone — a template can be a shared vendor rather than a shared owner.
+
+**Use it the same way regardless:** name the siblings in one letter, ask the operator to
+confirm the relationship and extend scope, and treat a confirmation that covers only the
+brand you wrote to as a partial answer.

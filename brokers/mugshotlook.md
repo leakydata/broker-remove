@@ -13,18 +13,57 @@
 
 ## Steps
 
-<!-- Replace once the route is confirmed. What actually worked, in order. -->
+1. Email `support@mugshotlook.com`. You get a template reply within minutes — the
+   SAME template InmatesSearcher sends. It will not answer your questions.
+2. Opt-out is at `/api/helper/optOutLight/search` — first name, last name, city
+   (required) and state. A text-image CAPTCHA blocks the SEARCH itself.
+3. Submit an email address against the listing, then **REPLY** to the
+   acknowledgement email. Clicking is not enough and there is nothing to click.
+4. Fallback if the web route fails: they offer a phone line, 8am–11pm EST.
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+Same operator as InmatesSearcher, same flow, same reply-not-click confirmation — and
+the template answers none of the questions actually asked. Below.
 
 ## Verification
 
 <!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+
+## Same operator as InmatesSearcher
+
+The reply is **word for word** the one InmatesSearcher sends: *"It's my pleasure to help
+you out today"*, the reply-to-confirm instruction with **NOT** capitalised, the
+browser-cache advice, and the closing line that *"all information contained in our
+database is public information, so you may need to perform a similar action with other
+non-affiliated data providers also"*. Only the signature name, the street address
+(Woodland Hills rather than Glendale) and the telephone number differ.
+
+The decisive tell is not the template but the URL: both brands run their opt-out at
+`/api/helper/optOutLight/search`. Nobody white-labels an internal API helper route. See
+`_BROKER_FAMILIES.md`.
+
+## The template does not answer the letter
+
+The request asked two specific things — is the opt-out a **standing suppression** applied
+to future booking feeds, and is **de-indexing** available if deletion is refused. The
+reply addresses neither. It is dispatched on receipt, not written in response.
+
+**Read that as a property of the desk, not a refusal.** There is no point re-arguing the
+same points into the same template; the useful moves are the self-service flow, and the
+telephone line they volunteer for when it fails.
+
+## The flow's own hazards, inherited from the sibling
+
+  - the **CAPTCHA is on the search**, so you cannot even learn whether a listing exists
+    without a human clearing it;
+  - **city is required** despite the instructions implying name and state suffice;
+  - the confirmation is a **REPLY**, not a click — *"If you do not respond to the email,
+    your listing will NOT be removed"*;
+  - their cache advice is real: verify with a fresh search in a clean session, never a
+    saved link. See `_SILENT_FAILURES.md` §31.
+
+Their stated definition of a negative is also worth keeping: *"If you are unable to
+locate your listing then it means your information was never collected, or has already
+been removed."*
+
