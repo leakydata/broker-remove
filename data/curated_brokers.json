@@ -7854,7 +7854,10 @@
       "optout_url": "https://www.truthviewer.com/api/helper/optOutLight/search",
       "needs_email_confirm": null,
       "source": "optery_scrape",
-      "optery_slug": "truthviewer"
+      "optery_slug": "truthviewer",
+      "email_to": "support@truthviewer.com",
+      "email_verified": false,
+      "email_verified_by": "INFERRED from the platform pattern -- all twelve sibling sites on the same /api/helper/optOutLight/search platform use support@<domain>, and truthviewer.com publishes its own MX (mail.truthviewer.com). No address is published on their contact, privacy or about pages. Expect a possible bounce; a bounce is itself informative."
     },
     {
       "id": "tunnl",

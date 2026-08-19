@@ -2144,6 +2144,11 @@
     "changed": "2026-08-16",
     "via": null
   },
+  "secretinfo": {
+    "status": "email_pending",
+    "changed": "2026-08-19",
+    "via": null
+  },
   "sheriffsdepartment_net": {
     "status": "submitted",
     "changed": "2026-08-18",
@@ -2219,6 +2224,11 @@
     "changed": "2026-08-15",
     "via": "reply"
   },
+  "truthrecord": {
+    "status": "email_pending",
+    "changed": "2026-08-19",
+    "via": null
+  },
   "tunnl": {
     "status": "confirmed",
     "changed": "2026-08-18",
@@ -2287,6 +2297,11 @@
   "washingtoncourtrecords_us": {
     "status": "submitted",
     "changed": "2026-08-16",
+    "via": null
+  },
+  "weinform": {
+    "status": "email_pending",
+    "changed": "2026-08-19",
     "via": null
   },
   "west_virginia_arrests": {
