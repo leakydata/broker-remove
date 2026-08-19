@@ -1122,3 +1122,36 @@ let the removal happen, but it must also outlast the caches. Three days is what 
 brokers quote for the removal itself; the seven-day re-check is the right order of
 magnitude, and a listing still present at seven days is meaningful in a way that one
 present at one day is not.
+
+## 32. Your own identifier list is the thing most likely to be incomplete
+
+Every letter in this project asserts a set of identifiers, and every negative it
+receives is bounded by that set. A broker that searches diligently on what it was
+given, and finds nothing, produces a `not_found` that is only as wide as the list.
+
+**The list was materially short.** A single broker profile the subject happened to
+find carried **six addresses, three telephone numbers and four email addresses** that
+were not in it — including a street address last reported in 1999, an out-of-state
+address, and three email addresses on providers that no longer exist as consumer
+services. Nobody had withheld them; they had simply been forgotten, which is the
+ordinary case. Broker files reach further back than personal recall does, and that is
+precisely what they are for.
+
+**So a broker's own listing is a SOURCE, not only a target.** The profile tells you
+what *other* brokers will have keyed you under — and those are the keys most likely to
+survive a removal, because they are the ones nobody thinks to name.
+
+Two consequences worth acting on:
+
+- **Every negative already received is provisional.** It was answered against the
+  short list. That does not make it wrong, but it means "no record found" should be
+  re-tested against the enlarged set rather than treated as closed.
+- **Feed found profiles back into the identifier set before the next batch.** The cost
+  is a few minutes; the benefit applies to every letter sent afterwards, and it
+  compounds — each new profile can surface identifiers that unlock the next.
+
+There is a real tension here, and it should be named: sending more identifiers to more
+companies is itself a disclosure. The justification is that these are identifiers the
+industry demonstrably already holds — they were read off a broker's own page — so
+naming them buys a wider search without revealing anything the recipient could not
+already buy.
