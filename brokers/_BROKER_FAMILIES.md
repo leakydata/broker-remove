@@ -284,3 +284,34 @@ rarely white-labelled all the way down. Related tells worth checking on the same
 the siblings you know about. A tenant serving one brand today serves the others
 tomorrow, and a request scoped to the subsidiary leaves the rest untouched while the
 confirmation reads as complete.
+
+## A dead charity's domain, wearing its old name
+
+`menstoppingviolence.org` was **Men Stopping Violence**, a real organisation working
+to end male violence against women for over four decades. The site says so itself:
+
+> *"Dear visitor! We regret to inform you that the Men Stopping Violence (MSV)
+> initiative has closed mid-2024 after over four decades of work to end male violence
+> against women and girls."*
+
+Immediately below that notice sits a people-search product:
+
+> *"301 Million People / 140 Million Criminal Record / 340 Million Phone Numbers /
+> 305 Million Email Addresses / 442 Million Social Profiles"*
+
+The charity's name, its `.org`, and its domestic-violence statistics are retained as
+the surrounding content -- a background-check funnel wrapped in the credibility of the
+organisation that used to live there.
+
+**As a detection pattern**, look for: a `.org` whose front page carries a "we have
+closed" notice *and* a person-search box; mission-flavoured statistics used as SEO
+padding around a records product; and a `/people/<name>/<hash>/` URL scheme.
+
+**As a caution about our own judgement**, this entry was nearly dropped from a send
+batch as an obvious false positive -- "we are not writing a data-broker deletion demand
+to a domestic-violence charity". That reasoning was sound about the *name* and wrong
+about the *entity*. One page load settled it.
+
+**A registry entry that looks absurd is worth thirty seconds of checking before it is
+dismissed.** An expired-domain repurposing is invisible from the name alone, and the
+whole point of the pattern is that the name still reads as trustworthy.

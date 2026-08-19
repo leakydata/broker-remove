@@ -1294,6 +1294,21 @@
     "changed": "2026-08-16",
     "via": null
   },
+  "marinus_analytics": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
+  "marketforce": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
+  "marketops": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
   "maryland_arrests": {
     "status": "submitted",
     "changed": "2026-08-16",
@@ -1314,10 +1329,55 @@
     "changed": "2026-08-16",
     "via": null
   },
+  "match_and_append": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
+  "matchbook": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
+  "mch": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
+  "media_source_solutions": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
+  "mediamath": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
+  "mediasoft": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
+  "mediawallah": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
   "melissa": {
     "status": "submitted",
     "changed": "2026-08-15",
     "via": null
+  },
+  "men_stopping_violence": {
+    "status": "manual_required",
+    "changed": "2026-08-19",
+    "via": "web"
+  },
+  "merkle": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
   },
   "michigan_arrests": {
     "status": "submitted",
