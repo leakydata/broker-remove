@@ -36,3 +36,16 @@ the not-a-CRA disclaimer.
 ## Verification
 
 <!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+
+
+## Outcome: template, from an autoresponder
+
+The scope question — which entity operates the site, which sibling brands share
+its index — was answered with a template pointing at their own online opt-out.
+Two tickets were created seconds apart, one acknowledging receipt and one
+"replying", which is the fingerprint of an autoresponder rather than a person.
+
+Same shape as NumberGuru (see `_DEFLECTIONS.md` §31), and the same response is
+right: run the self-service opt-out, and do not spend a second letter arguing
+with a queue that answers on keyword. Escalate only if the self-service route
+turns out to be capped or scoped to one brand.

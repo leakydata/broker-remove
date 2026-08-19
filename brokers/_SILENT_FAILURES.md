@@ -1359,3 +1359,56 @@ multi-row form without reading back the rows.**
 
 The general shape, which is §22 and §23 again in a new costume: *a tool reporting
 that it clicked something is not evidence that the something happened.*
+
+## 39. The address named for the thing it refuses
+
+Two in one night, at unrelated companies:
+
+- `ccpa@paramountdirectmarketing.com` — published for CCPA requests — bounced
+  **Recipient Unknown**. It does not exist.
+- `CCPARequests@pbinfo.com` — published for CCPA requests — auto-replies:
+  *"Please note that this email address cannot accept consumer privacy rights
+  requests."*
+
+Both addresses are named after the exact function they cannot perform. Neither
+failure is visible from the published page, and one of them is not visible from
+the *bounce* either: an autoresponder returns a 250, so delivery succeeded, the
+tracker records a sent letter, and the request is nonetheless nowhere.
+
+> **An address's local part is a claim about what it does, not evidence.** The
+> only proof is a substantive reply. `privacy@`, `ccpa@`, `dpo@` and
+> `CCPARequests@` are the addresses most likely to be published without being
+> wired to anything, precisely because they exist to be published.
+
+This is the third distinct way a contact can be dead while looking healthy,
+after §35 (null MX) and §30 (no MX at all). The taxonomy so far:
+
+| Symptom | Detectable by | Verdict |
+|---|---|---|
+| No MX record | `dig MX` | Undeliverable |
+| Null MX (`0 .`) | reading the MX *value* | Refused by policy |
+| MX healthy, mailbox absent | hard bounce only | Recipient unknown |
+| Delivers, autoresponder refuses | reading the auto-reply | **Accepted and discarded** |
+| Delivers, template loop | reading the reply's *From* | Never reaches a human (§31) |
+
+Only the last two look like success in a tracker.
+
+## 40. Read the postmaster domain on every bounce
+
+The Paramount bounce was more useful than the letter would have been. The
+non-delivery report came from **`postmaster@paramountlists.com`** — a domain that
+appears nowhere on `paramountdirectmarketing.com`, and which is the Office 365
+tenant hosting their mail.
+
+> **A non-delivery report names the sending infrastructure, and infrastructure is
+> owned.** The tenant is on the envelope even when the website says nothing about
+> who owns the brand.
+
+This belongs in `_BROKER_FAMILIES.md`'s ranked signal list, roughly alongside "a
+privacy address on another brand's domain" — it is the same evidence arriving
+from the opposite direction, and it costs nothing because the bounce is already
+in the inbox.
+
+The habit to build: **when a letter bounces, read the whole report, not just the
+status code.** The error tells you the request failed. The `From` and any
+`Reporting-MTA` header tell you who they are.

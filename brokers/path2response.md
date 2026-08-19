@@ -7,7 +7,7 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-19)
+- Current: `captcha_blocked` (updated 2026-08-19)
 - Note: Data co-operative. The letter is ordered around the one fact that makes a co-op different: the data did not originate with them and deleting their copy does not stop it arriving again. Asked first WHICH MEMBERS contributed records and when, then whether deletion stops future contributions or only removes today's copy, then recipients - with permanent do-not-add suppression at ingest as the actual ask. Also asked for transaction/response HISTORY and derived scores, not just name-and-address rows: in response data the behavioural history is the product and it survives a contact-record deletion. Sensitive inferences named individually rather than covered by a general phrase.
 
 ## Steps
@@ -47,3 +47,36 @@ they live in a different table from the contact record.
 ## Verification
 
 <!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+
+
+## Outcome: the published address is for agents only
+
+`agents@path2response.com` auto-replies with authorized-agent instructions
+**regardless of what the message says**. The letter opened by stating plainly
+"I am the consumer, writing about my own data. I am not an authorized agent" —
+and the reply demanded the consumer's signed permission form.
+
+The address answered the wrong question, correctly, because it only knows one.
+That is a distinct failure from a template that ignores content: this mailbox is
+scoped to a role the sender explicitly disclaimed, and there is no consumer
+address published beside it.
+
+**Consumers should use the OneTrust portal** the auto-reply links to. It serves
+consumers perfectly well; nothing on the way in says so.
+
+## Gotchas
+
+**Their production portal URL contains `/draft/`.** The link handed out by their
+own autoresponder points at a draft-state OneTrust form. It works today. But a
+draft can be republished at a different URL without notice, and anyone who
+bookmarked it — or any playbook that recorded it — would find a dead link with no
+announcement. Re-derive the URL from the autoresponder rather than trusting a
+stored copy.
+
+**Request type is single-select.** *Do Not Sell / Opt-Out*, *Delete My Data* and
+*Access My Data* are mutually exclusive, so **deletion and opt-out need two
+separate submissions**. Same trap as Data Axle: one run looks complete and asks
+for half of what was intended.
+
+**reCAPTCHA on submit**, plus a Yes/No affirmation that the submitter is the
+consumer.

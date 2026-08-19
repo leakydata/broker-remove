@@ -825,3 +825,55 @@ record's own identifier — an NPI, a licence number, a filing ID — so acting 
 near-match does not merely fail; **it removes a stranger's record.** Middle name,
 date of birth and exact address are what separate two people. Absent those, do
 nothing.
+
+## Benefit-location services: the opt-out that can cost the subject money
+
+Most brokers lose nothing worth having when a record is removed. A small category
+is different, and it needs flagging rather than processing.
+
+Firms that locate individuals **on behalf of pension plans, insurers and benefit
+administrators** exist because people move and lose touch with money they are
+owed — an old employer's defined-benefit pension, a lapsed 401(k), an unclaimed
+life-insurance payout, a union benefit. Their consumer request forms say so
+plainly:
+
+> *"If [we are] trying to reach you for one of these purposes, by submitting this
+> form, you may make it more difficult for your former employers, pensions, and
+> unions, to locate your contact information and communicate with you regarding
+> your benefits."*
+
+Read that as **true rather than as a dark pattern**. It is the same sentence a
+retention team would write, but here the underlying claim holds up: removing
+yourself from a locate database can sever the only route by which money reaches
+you.
+
+### What to do
+
+**Do not submit these on someone's behalf.** Surface the trade-off and let the
+subject decide. The relevant question is simply whether they have any old
+employer pension, 401(k), union benefit or lapsed policy that has not been
+consolidated — and most people do not know, which is itself an argument for
+caution.
+
+**Ask for disclosure and correction instead**, which carries none of the same
+cost and is often the more valuable answer:
+
+- Am I recorded in any **deceased or death-match file** — including a partial,
+  probabilistic, or later-resolved match? False Death Master File matches suspend
+  benefits and freeze accounts, usually with no notice and no visible cause. A
+  deletion would remove the evidence while leaving the flag propagating through
+  every client already holding it.
+- **Which clients received my record**, and will you direct them to correct it?
+- What are the **sources**?
+
+**Expect a processor defence, and expect it to be right.** These firms usually
+hold the data for client organisations, so even a granted request reaches only
+what they hold in their own right. The plan or insurer is the controller.
+
+**Expect an SSN demand.** The Social Security number is the matching key for
+death-audit work, so their forms ask for at least the last four digits, plus full
+date of birth. Sending it hands over a more sensitive identifier than any being
+deleted. Refuse, and say why.
+
+Related: "Where deletion is the wrong ask", above — identity-verification data and
+persistent suppression lists are the other two members of that family.
