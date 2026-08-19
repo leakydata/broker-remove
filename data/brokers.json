@@ -6248,14 +6248,15 @@
       "name": "Phonebooks Com",
       "domain": "phonebooks.com",
       "priority": 2,
-      "method": "web_form",
+      "method": "web_form_captcha",
       "optout_url": "https://www.phonebooks.com/opt-out",
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "phonebooks-com",
-      "email_to": "support@phonebooks.com",
+      "email_to": null,
       "email_verified": false,
-      "email_verified_by": null
+      "email_verified_by": "broker_reply",
+      "notes": "support@ replies that they DO NOT process privacy requests by email. Three web routes: /opt-out (the only one that does anything), /do-not-sell, and /privacy-rights - which is a funnel with no submit button that ends in an essay explaining why they will not delete. Opt-out is CAPTCHA-gated then email-verified, link expires in 24h, 3 days to take effect. They claim results are retrieved live from third-party providers rather than stored."
     },
     {
       "id": "phonenumberinfo_us",

@@ -1076,3 +1076,54 @@ ticket, and the second ticket is the one that answers with a template — twice 
 one night, at two unrelated companies. One letter to Outreach produced tickets
 #657692 and #657693. Write to the privacy address alone, and follow up separately
 if it goes quiet.
+
+## 32. The form that cannot be submitted
+
+A people-search site's support desk refuses privacy requests by email — *"We do
+not process privacy requests received via email"* — and points at a **Privacy
+Rights Form**. The form is three cascading dropdowns:
+
+1. *I want to access, delete, or correct my personal information.*
+2. Request type: *Right to Know / **Right to Delete** / Right to Correct*
+3. My interactions with the company: *I have no direct relationship with the
+   company / As a job applicant or employee / As a vendor...*
+
+Answer all three and nothing appears. **No name field, no email field, no submit
+button.** What appears instead is prose:
+
+> *"Please note that state privacy laws... do not apply to all types of
+> information. For instance, publicly available data is not included... Regarding
+> your deletion request, while we cannot delete data held by third parties, you do
+> have the option to prevent your information from appearing on our website."*
+
+The funnel exists to deliver a refusal, dressed as a request process. Every
+element of it — the title, the request-type selector, the careful relationship
+taxonomy — implies that a request is being composed. None of it is.
+
+### Why this is worth naming separately
+
+It is not a refusal, and it will not be recorded as one. No ticket is opened, no
+reference number is issued, nothing enters any queue. A person who works through
+it has been *answered* without ever having *asked*, and there is nothing to
+follow up, escalate, or point to later. Compare §31, the template loop: there at
+least a ticket exists.
+
+It also defeats the usual test for whether a route is real. The page loads, the
+controls work, the selections register, the content is responsive to what you
+chose. Everything behaves correctly. The only thing missing is the button, and a
+missing button looks like a page that has not finished rendering.
+
+### What to do
+
+- **Take the answer as the substantive position and reply to it**, in writing, by
+  whatever channel does exist. It is a stated refusal even if nothing recorded it
+  as one — quote it back.
+- **Use the route that does work**, however narrow. Here the opt-out achieves
+  display suppression, which is less than deletion but is not nothing.
+- **Press the claim the refusal rests on.** This one rests on
+  *"retrieved from third-party data providers at the time you perform the
+  search"* — so ask **who the providers are**. If the answer is real, the request
+  belongs with them; if it is not, it contradicts their own opt-out page, which
+  promises to *"remove all your information from our site"*.
+- **Record it as a route that does not exist**, not as a request awaiting reply.
+  Otherwise it sits in a tracker looking pending forever.
