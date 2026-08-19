@@ -55,3 +55,24 @@ as a removal.
 
 No public listing. Chase the DPO on the emailed request; the portal and the
 self-service forms produce no artifact beyond an on-page confirmation.
+
+
+## The phone field: area code in the dropdown, last seven digits in the box
+
+Reported by the subject after the first staging attempt was filled wrongly, and
+worth recording because the failure is silent until submission.
+
+`/optout/email` presents what looks like one telephone field. It is two:
+
+- a **"Code ..." combobox** to its left, which must have the **three-digit area
+  code selected from its list** — click it, type the digits into its search box,
+  then click the matching row (it shows as `(814) - Pennsylvania`);
+- a **text field** which takes the **last seven digits only**.
+
+Typing all ten digits into the text box leaves the code unset and the number
+invalid. Correctly filled, the control reads `Code: (814)` and `4413265`.
+
+> **A split phone control looks like one field and validates as two.** The
+> giveaway is a narrow unlabelled button sitting flush against the left edge of
+> the input. Check whether it holds a value before assuming the number is
+> complete — nothing on the page says the field is incomplete until submit.

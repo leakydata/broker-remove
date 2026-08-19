@@ -8,23 +8,68 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-19)
+- Current: `confirmed` (updated 2026-08-19)
 - Note: FOURTH member of the Cloudflare-nameserver family: quickpublicrecords.com answers on the same chloe.ns/ed.ns pair as publicrecordreports.com, publicdatacheck.com and publicinfoservices.com. Letter names all four with the evidence stated and invites correction. Four brands from one Cloudflare account, all found with dig rather than by reading a single page - the technique has now paid for itself four times in two passes.
 
 ## Steps
 
-<!-- Replace once the route is confirmed. What actually worked, in order. -->
+1. Write to `support@quickpublicrecords.com` — Zendesk,
+   answers within hours, and a human replies.
+2. Ask the four-site scope question up front (below), and the suppression
+   question explicitly. Both got useful answers here.
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+**Ask the suppression question in a form that invites a caveat.** This operator
+gave the best answer in the project — a standing suppression with its limits
+stated — and that shape is what a truthful answer looks like. See the outcome
+section below.
+
+**They confirm across aliases without being asked twice**, which is unusual and
+worth noting when comparing operators.
+
+**They do not volunteer the sibling relationship.** The confirmation names one
+domain. Four share a Cloudflare nameserver pair (see `_BROKER_FAMILIES.md`), and
+the scope question went unanswered on the first pass — so ask it again, framed so
+that a denial is as useful as a confirmation.
 
 ## Verification
 
 <!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+
+
+## Outcome: confirmed — and the model answer on suppression
+
+Their confirmation gets right the two things most confirmations leave ambiguous.
+
+**Scope across aliases, stated:**
+
+> *"the public data provided in your request has been removed from
+> www.QuickPublicRecords.com **under all your aliases**."*
+
+**And suppression, answered honestly with its limits:**
+
+> *"We will also use commercially reasonable efforts to ensure that your
+> information will not be made available in the future... **however we cannot
+> guarantee** that these efforts will 100% guarantee that we can block your
+> future Public Records from appearing on our site."*
+
+That is a **qualified standing suppression** — and it is a better answer than a
+clean unqualified "removed" would have been, because it tells the subject what to
+expect and when to re-check. Hold it up as the model reply to the
+suppression-versus-one-time question: the honest answer to that question has a
+caveat in it, and a reply without one is more likely to be avoiding the question
+than answering it.
+
+## Still open: which sites?
+
+The confirmation names **only** `www.QuickPublicRecords.com`. The request set out
+the evidence that four domains share one Cloudflare nameserver pair and asked
+them to confirm or deny the relationship. Neither happened.
+
+Followed up asking for one sentence either way — *these are ours too*, or *those
+are unrelated companies* — since **both answers are useful** and only silence is
+not. Also asked for `noindex` confirmation and for the relatives-and-associates
+listings on other people's pages.
+
+Support line, from the confirmation: 1-833-202-2626, Pacific hours.

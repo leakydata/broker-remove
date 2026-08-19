@@ -292,7 +292,7 @@
   "bumper": {
     "status": "submitted",
     "changed": "2026-08-17",
-    "via": null
+    "via": "reply"
   },
   "business_watch_network": {
     "status": "submitted",
@@ -2005,9 +2005,9 @@
     "via": "reply"
   },
   "quick_public_records": {
-    "status": "submitted",
+    "status": "confirmed",
     "changed": "2026-08-19",
-    "via": "email"
+    "via": "reply"
   },
   "quientelefono": {
     "status": "submitted",
@@ -2084,12 +2084,22 @@
     "changed": "2026-08-19",
     "via": "email"
   },
-  "resonate": {
+  "reonomy": {
     "status": "submitted",
     "changed": "2026-08-19",
     "via": "email"
   },
+  "resonate": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "reply"
+  },
   "retention_com": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
+  "rev": {
     "status": "submitted",
     "changed": "2026-08-19",
     "via": "email"
@@ -2099,9 +2109,24 @@
     "changed": "2026-08-19",
     "via": "email"
   },
+  "revelio_labs": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
+  "reversephone": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
   "reversephonelookup": {
     "status": "submitted",
     "changed": "2026-08-18",
+    "via": "email"
+  },
+  "rhetorik": {
+    "status": "submitted",
+    "changed": "2026-08-19",
     "via": "email"
   },
   "rhode_island_arrests": {
