@@ -395,8 +395,8 @@
     "via": null
   },
   "claritas": {
-    "status": "submitted",
-    "changed": "2026-08-17",
+    "status": "manual_required",
+    "changed": "2026-08-19",
     "via": null
   },
   "classmates_com": {
@@ -2095,7 +2095,7 @@
     "via": "reply"
   },
   "retention_com": {
-    "status": "submitted",
+    "status": "confirmed",
     "changed": "2026-08-19",
     "via": "email"
   },

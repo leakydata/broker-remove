@@ -8,7 +8,7 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-19)
+- Current: `confirmed` (updated 2026-08-19) — one address marked for removal in their vendor database; scope follow-up open
 - Note: Visitor-identification: their product resolves an anonymous website visitor to an email address so a customer can email someone who never gave them one. The letter names that precisely, because 'delete my account' or 'unsubscribe' does not touch it. Core ask is delete the RESOLUTION not the row - the cookie/device/IP/hashed-email to identity mapping, the pixel match, and the graph edges underneath - plus a permanent DO-NOT-RESOLVE suppression, with a direct yes-or-no requested on whether their system supports one. Retaining the ability to re-resolve from the next page load is not a deletion, it is a pause. Also asked which customers the record sits under, where the underlying identity graph comes from (if licensed, that party holds the record and a suppression here would not reach it), and for a direction to any merchant already given the address.
 
 ## Steps
@@ -73,3 +73,36 @@ asked for deletion, opt-out *and* suppression, so the confirmation — when it c
 has quietly narrowed to the opt-out alone.
 
 See [[_DEFLECTIONS]].
+
+## Processed — and read the scope of the sentence (updated 2026-08-19)
+
+> "We have processed your Opt-Out removal request. `<one email address>` has been
+> marked for removal in our vendor database."
+
+Recorded `confirmed`, because it names a completed action. But three details in one
+short sentence narrow it considerably, and all three are worth chasing.
+
+**It names one address.** The request listed twelve. A confirmation that echoes
+back a single identifier has confirmed that identifier — see [[checkpeople]] for
+the same shape. For this company the gap matters more than usual, because the
+product resolves identity across addresses: the eleven not named are exactly the
+ones a match would have found.
+
+**"Marked for removal" is not "deleted".** It describes a flag set, with the
+deletion implied and unstated. That may be an accurate description of a queue, or
+it may be the whole of what happens.
+
+**"Vendor database" is a scope, not a synonym for "our systems".** An identity
+company holds hashed email, cookie and device identifiers, and the graph edges
+between them. Nothing in that sentence reaches any of it.
+
+> **A confirmation is a sentence about a specific store. Read which store it
+> names.** "Marked for removal in our vendor database" and "deleted from our
+> systems" are different claims, and the first is fully compatible with the record
+> surviving everywhere that matters.
+
+**Follow-up worth sending:** all twelve addresses confirmed, hashed forms included;
+deletion versus suppression; and whether the identity graph edges go with it.
+
+Note the reply arrives from `support@` with `optouts@retention.com` on **Cc** —
+the latter is the better address for the follow-up.
