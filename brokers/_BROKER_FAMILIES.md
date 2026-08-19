@@ -541,3 +541,78 @@ not. These are two different operators.
 > `.com`.** Treat them as separate entries, write to both, and do not let a removal
 > confirmed by one be recorded against the other. The name is the one piece of
 > evidence that costs nothing to copy.
+
+---
+
+## Sweeping by URL path and by IP, when nameservers fail (added 2026-08-19)
+
+The nameserver-pair sweep is the cheapest family finder, and it has a blind spot
+big enough to hide a thirteen-brand network in.
+
+A group of people-search sites replied within three minutes of each other with a
+byte-identical support template. Running the usual DNS test on them returned:
+
+    dns1.registrar-servers.com  +  dns2.registrar-servers.com   ... for all of them
+
+That is Namecheap's shared default. It is not evidence of anything — every
+Namecheap customer resolves that way — so on the rank-2 signal alone these
+thirteen brands look unrelated, and would have been worked as thirteen separate
+entries.
+
+> **A whole class of operators is invisible to the nameserver test**, namely
+> everyone who never moved off their registrar's default DNS. That is a large,
+> unglamorous majority.
+
+### Two sweeps that cover the gap
+
+**By URL path — rank 1, and conclusive on its own.** These sites all serve:
+
+    /api/helper/optOutLight/search
+
+One request per domain settles it:
+
+    while IFS='|' read -r id dom _; do
+      code=$(curl -s -o /dev/null -w '%{http_code}' -m 8 \
+             "https://www.$dom/api/helper/optOutLight/search")
+      [ "$code" != "404" ] && echo "$id $dom $code"
+    done < doms.txt
+
+**Read 429 as a hit, not a miss.** Rate limiting means the route exists and the
+host is defending it; only 404 is a negative. Probing a dozen sibling domains in
+quick succession will trip that — which is itself a small confirmation that one
+system is watching all of them.
+
+**By A record — corroboration, not proof.** Resolve every domain and group by
+address:
+
+    cat doms.txt | xargs -P 40 -n 2 sh -c \
+      'echo "$0|$1|$(dig +short +time=3 +tries=1 A "$1" | grep -E "^[0-9]" | sort | tr "\n" " ")"'
+
+Twelve of the thirteen clustered on three **adjacent** addresses —
+`146.235.220.52`, `146.235.225.48`, `146.235.230.19`. Adjacency inside one small
+range is worth more than a single shared IP, which on shared hosting can mean
+nothing at all.
+
+**And note the one that did not cluster.** The thirteenth resolves elsewhere
+entirely, yet serves the same path and the same template.
+
+> **Co-location supports a family; it does not define one.** Infrastructure moves,
+> brands get migrated, and one straggler on a different host is normal. Never let a
+> non-matching IP remove a brand that the path test already caught.
+
+### Ranking, revised
+
+The order that actually worked across both sweeps this week:
+
+1. **Identical non-obvious URL path** — decisive alone, cheap, and immune to the
+   registrar-default problem.
+2. **Identical vanity nameserver pair** (Cloudflare-style) — decisive when
+   present, but silent for registrar-default users.
+3. **Adjacent IPs in one small range** — strong corroboration.
+4. **Byte-identical support template**, especially with same-minute timing.
+5. Everything previously listed.
+
+**A caution that applies to all of them.** These thirteen present *different*
+signer names, telephone numbers and postal addresses — Orlando FL on one, Woodland
+Hills CA on another. Contact details are the layer most deliberately varied, so
+their disagreement is not counter-evidence to anything.
