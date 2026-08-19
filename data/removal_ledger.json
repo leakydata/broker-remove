@@ -1765,8 +1765,8 @@
     "via": "email"
   },
   "peoplefinders": {
-    "status": "manual_required",
-    "changed": "2026-08-17",
+    "status": "captcha_blocked",
+    "changed": "2026-08-19",
     "via": "reply"
   },
   "peoplefindersdaas": {

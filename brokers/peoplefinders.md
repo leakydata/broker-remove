@@ -6,10 +6,24 @@
   (`privacy@peoplefinders.com` **hard-bounces with 550** — do not use)
 - **Affiliate:** PeoplefindersDaaS (separate CA registration 191581)
 - **Priority: 5.**
+- Current: `captcha_blocked` (updated 2026-08-19) — `/opt-out` stage 1 staged; reCAPTCHA handed off, then a 24-hour emailed link to stage 2
 
-## STATUS: no working self-service route
+## STATUS: `/opt-out` is working again as of 2026-08-19
 
-As of the last attempt, **every route fails**:
+**This supersedes the "every route fails" finding below.** On 2026-08-19 the
+`/opt-out` page loaded with no Cloudflare interstitial at all, rendered the
+stage-1 form, and accepted input. The route is live.
+
+> **Re-test a bot-gated route before trusting a previous failure.** Cloudflare
+> posture is configured, not permanent — a challenge that blocked every attempt one
+> week is simply absent the next. A route recorded as dead is a snapshot, not a
+> property of the site.
+
+The table below is retained as history, because the failures were real when
+observed and the `/request-my-info` asymmetry may still be the better door if
+`/opt-out` re-gates.
+
+### History — as of the earlier attempt, every route failed:
 
 | Route | Result |
 |---|---|
@@ -209,3 +223,90 @@ Send the written request anyway — not because it will be read, but because a
 timestamped record that every published route failed is what you would need if
 this ever went to a state Attorney General or a data-broker registry complaint.
 
+
+## The broker that tells you the opt-out will not hold (updated 2026-08-19)
+
+This is the upstream source behind several display-only front ends, so it is the
+entry that actually matters — and it is unusually candid about its own limits. The
+notice above the form reads:
+
+> "Peoplefinders uses publicly available information, **which is not covered by
+> U.S. state privacy laws**. This includes data from public records. If you request
+> to opt out of the sale of your personal information, we will try to apply your
+> request to the publicly available information we collect, **as a courtesy**.
+> However, this will not remove the data from its original source. ... Also, we
+> regularly receive new public records, so even if you opt out, your publicly
+> available information may appear in our products again in the future. **We
+> recommend you periodically refresh your opt-out request** using the below
+> process."
+
+Read that carefully rather than skimming past it, because it is doing three
+distinct things.
+
+**It denies the legal basis.** "Not covered by U.S. state privacy laws" is a
+contestable claim — public-records provenance does not automatically remove data
+from CCPA scope once it has been compiled and sold — but arguing it here gains
+nothing, because they process the request anyway.
+
+**It reclassifies the right as a favour.** "As a courtesy" means the opt-out is
+offered at their discretion, not owed. That matters if it is ever withdrawn.
+
+**And then it says the quiet part out loud.** Most brokers leave "is this a
+standing suppression or a point-in-time removal?" unanswered and let you assume the
+better one. This one volunteers the worse answer: new public records arrive
+continuously, your record can come back, **refresh the opt-out periodically**.
+
+> **An opt-out that its own operator tells you to repeat is not a suppression — it
+> is a deletion with a shelf life.** Take them at their word and schedule the
+> re-check. It is more honest than the confirmations that imply permanence and
+> quietly deliver the same thing.
+
+Set the verification interval on this entry short, and expect to run the whole
+flow again rather than treating a confirmation as final.
+
+## The route: two steps, a 24-hour link, and a CAPTCHA on each end
+
+    /opt-out  →  "Next"  →  name + email + CAPTCHA  →  emailed link (24h)
+              →  the real removal form  →  confirmation page + email  →  ~3 days
+
+**Stage 1** takes first / middle / last / email, an "I am: the subject of the
+request" dropdown, an authorization checkbox and a reCAPTCHA. Nothing identifying
+beyond the name is required yet.
+
+**Stage 2** is the form behind the emailed link, and it is where the real detail
+goes — phone, date of birth as three separate month/day/year controls, street
+address, city, state. Note that its fields are present in the DOM on the first page
+already, empty, which makes a naive "read all inputs" check look like the form was
+filled twice.
+
+Their own instructions:
+
+> "Click the link sent to your email. It may take some time to arrive. **If you
+> wait more than 24 hours to click this link you will need to request a new one.**"
+
+> **Two CAPTCHAs and a 24-hour token make this a single-sitting job.** Same shape
+> as the phonebooks flow, and the same trap as [[_SILENT_FAILURES]] §50 — a human
+> step that mints a short-lived secret cannot be split across an automation
+> boundary.
+
+## Gotchas
+
+- **Decline the "Free Identity Monitoring" alternative** offered beside the
+  opt-out. It is presented as an equivalent second option; it is an account signup
+  that collects more data than the opt-out does.
+- The cookie banner offers only "Accept". Nothing requires clicking it to use the
+  form.
+- *"Omitting information or providing inaccurate information on the opt-out form
+  will only hinder the opt-out process"* — this is a broker that matches on the
+  fields given, so a partial stage-2 form gets a partial removal.
+- They state the data is used only to process the request: *"We will not sell or
+  use the information or use it for any other purpose."* Worth keeping.
+
+## Why this one is the priority
+
+Two display-only sites in this project name PeopleFinders as their source, and one
+of them confirmed in writing that **block requests are not forwarded upstream**.
+So suppressing the front ends does nothing here, and clearing this record is the
+only action that reaches the data itself.
+
+See [[usatrace]] and [[quickpeopletrace]] for the downstream pair.

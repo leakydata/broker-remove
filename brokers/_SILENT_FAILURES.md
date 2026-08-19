@@ -1853,3 +1853,38 @@ the narrower question rather than re-asserting the original one:
 That is answerable in one line, it does not accuse anyone of anything, and it
 distinguishes a genuine `not_found` from a search that never looked in the right
 place. Until it is answered, the negative is real but partial.
+
+---
+
+## §53 A bot-gated route is a snapshot, not a property
+
+An entry here carried a flat verdict: *"no working self-service route — every route
+fails"*, with `/opt-out` recorded as **"Cloudflare challenge on page load — never
+reaches the form"**. That was accurate when written, and it had been true across
+repeated attempts.
+
+Re-tested six weeks later, the same URL loaded with no interstitial at all,
+rendered the form, and accepted input.
+
+> **Cloudflare posture is configuration, not architecture.** Bot-fight mode,
+> challenge thresholds and path rules get turned up during an attack and quietly
+> turned down afterwards. A route that blocked every attempt one month can be wide
+> open the next, and nothing announces the change.
+
+The failure mode this creates is a slow one: a `failed` or `manual_required` entry
+looks settled, so nobody re-tries it, so it stays settled. The record outlives the
+condition that produced it.
+
+**What to do.**
+
+- **Re-test bot-gated routes on a schedule**, not only when something prompts you.
+  They are the cheapest re-checks available — one page load answers it.
+- **Keep the old finding as history rather than deleting it.** The failures were
+  real, and if the route re-gates you want the previously-discovered alternative
+  door (here, a rights form on a different path that was never gated) still written
+  down.
+- **Date the verdict in the file.** "Every route fails" with no date reads as a
+  permanent property. "Every route failed as of <date>" reads as what it is.
+
+The same caution applies in reverse: a route that works today can gate tomorrow, so
+a staged form left half-finished may not be resumable at the same URL.
