@@ -774,3 +774,54 @@ simultaneously over-quota mailboxes is what a privacy function looks like after 
 staff have gone, and it is a strong hint that the entity is defunct, insolvent or
 absorbed. Check the corporate status before spending more effort on the address, and
 look for the acquirer instead.
+
+## Single-dataset republishers: check the source, not the broker
+
+Some sites republish exactly one public dataset and nothing else, and say so:
+
+> *"The provider information displayed on this site comes entirely from the
+> official NPPES public data release published by the Centers for Medicare &
+> Medicaid Services (CMS) under the Freedom of Information Act."*
+
+That sentence is a gift, because it makes the question **checkable without them**.
+If the upstream dataset holds no record matching the subject, the republisher
+cannot hold one either — and many of these datasets are public with a free API:
+
+- **NPPES / NPI registry** — `npiregistry.cms.hhs.gov/api/?version=2.1&...`
+- **FEC individual contributions**, **SEC EDGAR**, state professional licensing
+  registers, **FAA airmen**, and most county assessor systems all have equivalent
+  direct-lookup routes.
+
+Querying the source first is better than writing to the broker, and not only
+because it is faster:
+
+- **It produces a stronger negative.** "The authoritative source contains no
+  matching record" beats "a broker searched and says they found nothing", which
+  depends entirely on how they searched and which fields they used.
+- **It costs the subject nothing.** No identifiers are handed to anyone, no
+  ticket is opened, no mailbox learns that this person is looking.
+- **It settles the sibling question too**, because every other republisher of the
+  same dataset is answered by the same query.
+
+### How to run it
+
+Search **every state the subject has lived in**, not just the current one, and use
+a wildcard on the given name (`Rob*` catches both `Rob` and `Robert`) so that a
+formal name is not missed behind the one somebody actually goes by.
+
+### Where it stops
+
+Two limits, both worth writing into the record rather than glossing:
+
+**The claim is theirs.** "We republish only X" is an assertion. Record the
+`not_found` as conditional on it, so that if the site is later seen carrying data
+that is not in X, the conclusion reopens rather than standing as settled fact.
+
+**A near-match is not a match, and this is where the temptation bites.** These
+searches routinely surface someone with the same first and last name in a city
+the subject has genuinely lived in. That is a coincidence, and coincidences are
+common with common names. The opt-out tools for this category are keyed to the
+record's own identifier — an NPI, a licence number, a filing ID — so acting on a
+near-match does not merely fail; **it removes a stranger's record.** Middle name,
+date of birth and exact address are what separate two people. Absent those, do
+nothing.

@@ -1,30 +1,57 @@
-# Nextroll
+# NextRoll (AdRoll, RollWorks)
 
-- **Opt-out:** https://app.adroll.com/optout
-- **Email:** dpo@nextroll.com (verified)
-- **Method:** web_form — Web form.
+- **Email:** dpo@nextroll.com — delivers; auto-reply does **not** foreclose it
+- **Method:** email, plus two self-service routes on `app.adroll.com`
 - **Domain:** nextroll.com
-- **Priority: 2.**
+- **Priority: 3.**
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-19)
-- Note: Operates AdRoll and RollWorks, so the letter asks it be treated as covering EVERY brand NextRoll operates and that they name which were searched. Full identity-graph ask plus a specific pre-empt: if the answer is an opt-out COOKIE or a browser preference signal, say so - that is different from deleting a record, it dies when the browser is cleared or another device is used, and the request is for the record not the flag.
+- Current: `captcha_blocked` (updated 2026-08-19)
+- The Contact Discovery opt-out form is filled and staged; a reCAPTCHA is all that
+  remains. The letter to the DPO stands alongside it.
 
 ## Steps
 
-<!-- Replace once the route is confirmed. What actually worked, in order. -->
+1. Write to `dpo@nextroll.com`. The auto-reply points at
+   `nextroll-privacy.relyance.ai` **but ends** *"Otherwise, we will get back to
+   you as soon as we can!"* — so the email is still live. Do not treat the portal
+   as a redirect that closes the letter.
+2. The Relyance portal's front page carries a note that reads like a blocker and
+   is not one: *"An Advertiser Identifier is required for customer requests."*
+   The instructions underneath make clear it means **AdRoll advertisers** — log
+   in, take the last 22 digits of your dashboard URL. A consumer is not a
+   customer in that sense and needs no such identifier.
+3. The two consumer routes are on `app.adroll.com`:
+   - `/optout` — cookie-based ad opt-out
+   - `/optout/email` — **the one that matters** (below)
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+**`/optout/email` is not an ad opt-out, despite living among them.** It covers
+**Contact Discovery**, RollWorks' B2B product, described on the page as allowing
+*"our customers to purchase business email addresses and/or business phone numbers
+in order to contact businesses."* That is list resale for cold outreach, sitting
+inside an adtech company's privacy page, reachable only by scrolling past the
+cookie opt-out. It is a materially different product from retargeting and it has
+its own separate opt-out, which is easy to miss precisely because of where it is.
+
+**It takes one identifier per run.** One email address and one phone number per
+submission, each behind its own reCAPTCHA. A person with several old addresses —
+which is exactly who a B2B contact database holds — needs a separate pass for
+each. Prioritise institutional and employer-issued addresses; those are what this
+product traffics in.
+
+**No visible Submit until the CAPTCHA is answered.** Same shape as the DTN form:
+the control is absent rather than disabled, so the page looks like it has no way
+to submit at all. Do not report it broken.
+
+**The cookie opt-out under "Targeted Advertising" is one click and nearly
+worthless on its own** — it is a browser-local preference, lost on clearing
+cookies or changing device. Worth taking while you are there; not worth recording
+as a removal.
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+No public listing. Chase the DPO on the emailed request; the portal and the
+self-service forms produce no artifact beyond an on-page confirmation.

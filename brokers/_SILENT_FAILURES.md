@@ -1214,3 +1214,102 @@ the data is public record. Those need different follow-ups: the first invites as
 **display-level suppression** even where the source cannot change; the second is a
 position to record and stop pressing. A single word covers both, and only the company
 knows which it meant.
+
+## 35. A null MX is a refusal, and a resolving domain hides it
+
+`verify_emails.py` was taught in §30 to consult MX records, because a domain with
+no A record can still publish a perfectly healthy mail exchanger. Today the same
+check ran into the opposite shape and would have missed it.
+
+The registry carried `contact@nprofile.com` for a broker whose site is
+`npiprofile.com`. Two separate problems, one address:
+
+**The domain was wrong by one character.** `nprofile` is `npiprofile` minus the
+`i`. It is not a typo anybody notices in a list of six hundred contacts, and it
+does not look like a guess — it looks like a real address at a plausible domain.
+The right domain, `npiprofile.com`, publishes healthy Google MX records; the wrong
+one resolves too. Nothing about either fact distinguishes them.
+
+**The wrong domain publishes a null MX.** `dig +short MX nprofile.com` returns:
+
+    0 .
+
+A single dot as the exchange is RFC 7505: *this domain accepts no mail.* It is
+not a misconfiguration and not an outage. It is an explicit, deliberate
+declaration, and it is the strongest negative available short of a bounce — far
+stronger than "no MX at all", which is merely an absence.
+
+The trap is that every cheap check passes. The domain resolves. It has an MX
+record — one row, returned by `dig`, non-empty. A checker that asks *"are there
+any MX records?"* and treats a non-empty answer as healthy will call this address
+fine, because the code is asking whether the list is empty rather than what is in
+it.
+
+> **A null MX is a positive statement of refusal that a truthiness test reads as
+> a positive statement of health.** Check for the value `.`, not for a non-empty
+> list.
+
+And the third-order lesson, which is the one that keeps recurring: §30 concluded
+that MX is necessary but not sufficient. This is the other half — MX can also be
+*present and yet a refusal*. Neither DNS nor MX tells you an address works. Only
+a delivered message does.
+
+## 36. Two unrelated vendors froze identically, so it was neither of them
+
+A OneTrust webform stopped responding to every read the moment a key was pressed.
+Screenshots timed out, the accessibility tree never settled, `document_idle` never
+arrived. The obvious reading was a heavy tenant running a long-poll or a
+never-settling script, and the write-up was half-drafted: *the form is
+unverifiable under automation, hand it off.*
+
+Then the same thing happened, in the same tab, on a completely different vendor's
+portal — a different company, a different framework, a different domain. A third
+navigation to an ordinary page could not screenshot either. At that point the
+common factor was not the sites.
+
+**The tab was wedged.** Closing it and opening a fresh one fixed everything
+immediately: the same OneTrust form filled, read back, and verified without a
+single timeout.
+
+Two things worth keeping:
+
+- **When two unrelated vendors fail in exactly the same way, stop diagnosing the
+  vendors.** Identical symptoms across independent systems are evidence about the
+  thing they share, which is the harness. The instinct to explain each site's
+  behaviour is what wastes the time.
+- **The cost of being wrong here is asymmetric and quiet.** The half-written
+  conclusion would have entered the playbook as a fact about the broker — *"their
+  form cannot be automated"* — and would have sent every future pass straight to a
+  human handoff for a form that works fine. Same shape as the TruePeopleSearch
+  `/removal` error that cost three days: a transient local failure recorded as a
+  permanent property of somebody else's site.
+
+Closing the tab costs one call. Try it before writing anything down.
+
+## 37. The portal that offers fewer rights than the letter asked for
+
+A broker's auto-reply pointed at a OneTrust webform. The form worked, was
+straightforward, and asked for a sensible amount of information. Under *"Select
+the Rights You Want to Exercise"* it offered exactly one option:
+
+> *Opt-Out: Do Not Sell/ Share Request*
+
+There was no deletion option anywhere on it.
+
+The letter had asked for deletion, opt-out, downstream direction and suppression.
+The portal accepts one of those four. A requester who does the sensible thing —
+follows the auto-reply, uses the official route, abandons the email thread as
+superseded — has **downgraded their own request from *delete* to *do not sell*,
+and has not been told that is what happened.** The confirmation they get back will
+be perfectly genuine.
+
+This is not the same as a broker refusing deletion. Nobody refused anything. The
+request simply cannot be made through the channel they direct you to, and the
+channel does not say so.
+
+> **Read the rights menu before treating a portal as the better route.** A form
+> is not a superset of a letter. Where it offers less, send both and say in the
+> letter that the form is a supplement, not a replacement.
+
+Related: §34, the carve-out that hides inside an offer. Same mechanism — the
+narrowing is in the shape of what is offered rather than in anything anyone says.

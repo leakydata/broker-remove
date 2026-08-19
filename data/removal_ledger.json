@@ -725,8 +725,8 @@
     "via": "email"
   },
   "exact_data": {
-    "status": "manual_required",
-    "changed": "2026-08-18",
+    "status": "submitted",
+    "changed": "2026-08-19",
     "via": "web"
   },
   "experience": {
@@ -845,8 +845,8 @@
     "via": "email"
   },
   "freebackgroundchecks_com": {
-    "status": "submitted",
-    "changed": "2026-08-18",
+    "status": "confirmed",
+    "changed": "2026-08-19",
     "via": "email"
   },
   "freepeoplesearch": {
@@ -1565,14 +1565,14 @@
     "via": "email"
   },
   "nextroll": {
-    "status": "submitted",
+    "status": "captcha_blocked",
     "changed": "2026-08-19",
-    "via": "email"
+    "via": "web"
   },
   "nexxa": {
-    "status": "submitted",
+    "status": "captcha_blocked",
     "changed": "2026-08-19",
-    "via": "email"
+    "via": "web"
   },
   "nfocus": {
     "status": "submitted",
@@ -1580,6 +1580,11 @@
     "via": "email"
   },
   "nielsen": {
+    "status": "captcha_blocked",
+    "changed": "2026-08-19",
+    "via": "web"
+  },
+  "njpropertyrecords": {
     "status": "submitted",
     "changed": "2026-08-19",
     "via": "email"
@@ -1608,6 +1613,21 @@
     "status": "submitted",
     "changed": "2026-08-16",
     "via": null
+  },
+  "npi_profile": {
+    "status": "not_found",
+    "changed": "2026-08-19",
+    "via": "web"
+  },
+  "numberguru": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
+  "numlookup": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
   },
   "nuwber": {
     "status": "confirmed",
@@ -1639,6 +1659,26 @@
     "changed": "2026-08-16",
     "via": null
   },
+  "oncore_leads": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
+  "onemata": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
+  "onemodel": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
+  "openpeoplesearch": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
   "oregon_arrests": {
     "status": "submitted",
     "changed": "2026-08-16",
@@ -1648,6 +1688,16 @@
     "status": "submitted",
     "changed": "2026-08-16",
     "via": null
+  },
+  "outbrain": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
+  "outreach_io": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
   },
   "ownerly": {
     "status": "submitted",

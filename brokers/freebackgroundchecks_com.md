@@ -8,7 +8,7 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-18)
+- Current: `confirmed` (updated 2026-08-19)
 - Note: People-search/background. Standard asks plus an explicit question about any relationship to the similarly-named freebackgroundcheck.org, which has two hard-bouncing addresses and a privacy policy linking entirely to archive.org snapshots - if the two are related, this request should cover both.
 
 ## Steps
@@ -46,3 +46,40 @@ relative's listing for the subject's name in the related-persons block. If they
 confirm a relationship to the `.org` site, verify there too — a shared index means
 a removal at one should be visible at the other, and if it is not, the removal was
 narrower than claimed.
+
+## Outcome — confirmed, and what the confirmation does not say
+
+A named agent replied within a day, unprompted and unqualified:
+
+> *"Thank you for your request to remove your information. We can confirm that
+> FreeBackgroundChecks has processed and completed the removal of your data from
+> our services."*
+
+That is about as clean as a removal confirmation gets. It is also worth reading
+for what it leaves out, because the omissions are the same ones every time:
+
+- **It does not say whether this was a one-time removal or a standing
+  suppression.** These sites rebuild from upstream feeds. A deletion from the
+  current index and a do-not-add entry produce *exactly this sentence*, and only
+  one of them survives the next refresh. Re-verify on schedule; do not treat a
+  confirmation as an end state.
+- **It does not address relatives and associates.** A profile-scoped deletion can
+  leave the same name listed as a "related person" on other people's profiles,
+  still indexed and still searchable. This is frequently how someone is found.
+- **It answers none of the disclosure questions** — sources, recipients, the FCRA
+  position, any court or arrest entry attributed to the subject.
+
+**The closing redirect is the part worth naming as a pattern:**
+
+> *"If you continue to see your information online, please review the specific
+> URLs of the profiles in question and contact those sites directly about their
+> privacy policies and compliance."*
+
+Read literally this is sound advice about genuinely unrelated sites. But it
+arrives in answer to a question about *their* removal, and it cannot distinguish
+an unrelated third party from a property the same operator runs, licenses the
+index to, or supplies. From outside, those look identical — which is why the
+sibling question has to be asked directly and by name, and why a non-answer to it
+should be followed up rather than let go.
+
+Pushed back on all three points on the same thread.

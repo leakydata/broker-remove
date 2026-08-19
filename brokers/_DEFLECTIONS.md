@@ -921,3 +921,48 @@ bounded three ways -- their website, that name, that state. Record it with the
 scope attached rather than as a blanket "no record", and ask the two follow-up
 questions that close the gap: is the website the whole of what you hold, and is
 anything indexed by something other than a name.
+
+## 29. "Contact those sites directly" — the redirect that relocates the problem
+
+Attached to an otherwise clean removal confirmation:
+
+> *"If you continue to see your information online, please review the specific
+> URLs of the profiles in question and contact those sites directly about their
+> privacy policies and compliance."*
+
+Nothing about this is dishonest, and for a genuinely unrelated site it is exactly
+the right advice. It is worth noticing anyway, for two reasons.
+
+**It answers a question nobody asked.** The request was about *their* index. The
+reply is about everyone else's. That substitution is easy to miss because the
+sentence is helpful in tone and arrives after a real confirmation — the reader is
+already satisfied by the time they get to it.
+
+**It cannot distinguish a stranger from a sibling.** "Those sites" covers three
+very different things:
+
+- a genuinely unrelated competitor — where the advice is correct;
+- another property the same operator runs under a different name;
+- a site that licenses or is supplied by the very index just cleaned.
+
+From outside, all three look identical: a page with the same details on it. And
+the removal just confirmed does not necessarily touch the second or third.
+
+### What to do with it
+
+Do not argue with the sentence — it is not wrong. Instead **ask the sibling
+question directly and by name**, and treat silence on it as an open item rather
+than a settled one:
+
+> *"I asked whether [named site] is related to your operation, and the reply does
+> not address it. I am not assuming a connection — a plain 'no relationship' is a
+> complete answer and I will take it at face value."*
+
+Naming a specific site matters. A general question about "any related properties"
+invites a general answer. A specific one either gets a specific denial worth
+recording, or gets no answer at all — and a conspicuous non-answer to a named
+question is itself informative in a way that silence on a vague one is not.
+
+The general principle, which recurs: **a confirmation that arrives bundled with
+advice about somebody else has quietly changed the subject.** Take the
+confirmation. Then put the subject back.

@@ -77,3 +77,17 @@ actioned, and keep both confirmations separately — one per submission. Two
 confirmations that both say "your request has been processed" are not
 interchangeable, and only the pair together shows deletion and opt-out were both
 requested.
+
+## Scope: Exact Data is covered here
+
+Data Axle's privacy-rights form names `exactdata.com` within its own scope, so
+the two submissions made through it (deletion and opt-out of sale, which are
+single-select and therefore need one run each) cover Exact Data as well.
+
+`exact_data` is recorded as submitted and aliased to this playbook rather than
+left pending, because a sibling that is genuinely covered looks identical in a
+tracker to one nobody named — and the family scan flagged the pair every pass
+until it was resolved one way or the other.
+
+If a reply comes back scoped to one brand only, this reverts and Exact Data needs
+its own request.
