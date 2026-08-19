@@ -1584,3 +1584,124 @@ MX, a mailbox, or an autoresponder — there is no zone at all. Compare:
 **Downgrade the status immediately rather than waiting for the bounce.** Waiting
 buys nothing: the outcome is already determined, and two days of a false
 `submitted` is two days in which the entry looks handled and nobody re-checks it.
+
+---
+
+## §45 The registered contact the registrant has quietly retired
+
+State data-broker registries exist so that a consumer can find a company they
+have never heard of and write to it. The address in the entry is therefore the
+only route that is both discoverable and authoritative.
+
+A registered broker answered a letter to its registered address like this:
+
+> "BDO has previously registered as a data broker under certain state laws using
+> the email address privacy@bdo.com. **Please note that this email address is no
+> longer used for that purpose.**"
+
+The mailbox is not dead. It resolves, it accepts mail, a human reads it. Nothing
+bounces. The route failed anyway — it just failed politely, and only for the
+people who did not get forwarded.
+
+> **A stale registered contact is invisible in a way a dead one is not.** A bounce
+> is a signal you can act on. A courteous internal forward is a signal only if
+> somebody chooses to send it, and you have no way of knowing whether they did.
+
+**What to do.** Take the working address they gave you, use it, and *tell them the
+registry entry is wrong* — separately from your request and without making it a
+condition of anything. You are in a position to see the failure; the next consumer
+using the same registry entry is not.
+
+**What this means for the tracker.** A `submitted` against a registered address is
+weaker evidence than it looks. It proves the letter was accepted, not that it
+reached the function. Where a reply names a different address, record *both*, and
+treat the new one as authoritative for follow-ups.
+
+---
+
+## §46 The reply that arrives from an address which cannot receive a reply
+
+A broker answered a privacy request from `no-reply@<their domain>`. Replying
+produced a hard "Address not found". No `Reply-To:` header, and no line in the
+body saying where to write instead.
+
+> **A `no-reply` From: on privacy correspondence is a one-way valve.** The
+> consumer does the obvious thing — hits reply — and gets a bounce. From their
+> side that is indistinguishable from a company that has refused to continue, and
+> a fair number will stop there.
+
+**The fix is free, and it is the habit that matters more than the instance.**
+
+> **Reply to the address you wrote to, not to the `From:` of the answer.** The
+> outbound template is broken; the inbound route you already proved is not.
+
+More generally: when a broker answers from a *different* address than the one you
+used, treat the new address as **additional**, never as a replacement. Two
+candidate routes beat one, and the one with a delivery receipt behind it is the
+one to fall back to when the new one fails.
+
+This is the mirror image of §39 (the address named for the thing it refuses) and
+§40 (read the postmaster domain on every bounce): in all three, the address a
+message *appears* to come from is not the address that works.
+
+---
+
+## §47 Grey is not evidence — `.value` versus `.placeholder` is
+
+The standard trap is a field that renders grey text and is actually empty, because
+grey means placeholder. So the standard reflex is: grey → empty → retype it.
+
+One opt-out form inverts the convention. The fields pre-filled from a verified
+emailed link render **grey**; everything typed afterwards renders **black**. The
+colour marks *provenance*, not emptiness. Every grey field held a real value and
+an **empty** `placeholder`.
+
+Checking costs one line, and it settles the question outright:
+
+    Array.from(document.querySelectorAll('form input'))
+         .map(i => ({n: i.name, v: i.value, ph: i.placeholder}))
+
+> **Do not infer field state from colour.** Retyping a field that was already
+> correct is harmless. Concluding "this form lost my data", abandoning a
+> single-use link with a 24-hour expiry, and starting the whole route again is
+> not.
+
+The general rule this belongs to: **the rendered page and the DOM are two
+different sources, and where they disagree the DOM is the one that gets
+submitted.** The same principle recovers addresses split across `mailto:` tags,
+reversed in CSS, or emitted from a `data-cfemail` attribute (§41).
+
+### A related defect in the same form
+
+Its inputs collide on `name`: three separate boxes were `name="firstName"` (first,
+middle *and* last) and two were `name="address"` (street *and* date of birth). The
+site's own submission works, presumably reading nodes positionally — but the form
+cannot be reconstructed from its field names, and anything that serialises by name
+loses data with no error.
+
+---
+
+## §48 A machine-read email can corrupt the link it is carrying
+
+A broker mailed a single-use, personalised, 24-hour opt-out URL. Retrieved through
+an API, the ticket parameter came back as `ticketid` + U+FFFD + a partial number.
+
+It was not the sender's fault. The same corruption appears in the message's own
+`<head>`: `content="width<?>vice-width"` for `width=device-width`, and
+`content="IE<?>ge"` for `IE=edge`. The transport was eating `=` plus the two bytes
+after it, everywhere in the message.
+
+> **Calibrate against a string you can predict before trusting one you cannot.** A
+> boilerplate meta tag is a free test: if `width=device-width` is mangled, every
+> other `=` in that message is suspect — including the one carrying your ticket,
+> your token, or your request ID.
+
+**Practical recovery, in order:** try the URL with the damaged parameter dropped
+(it worked here — the form loaded and accepted input); if that fails, open the
+message in a normal client; if that fails, ask for a fresh link and start the
+clock again.
+
+And note the second, unrelated defect in the same URL: `mn=undefined` — not empty,
+the literal seven-character string, leaked out of the site's own JavaScript into
+the query string and pre-filled into the Middle Name box, where it would have been
+submitted as a middle name if nobody looked.

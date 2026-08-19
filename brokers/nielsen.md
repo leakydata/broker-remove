@@ -7,7 +7,7 @@
 
 ## Status
 
-- Current: `captcha_blocked` (updated 2026-08-19)
+- Current: `submitted` (updated 2026-08-19) — email verification link clicked; OneTrust returned a confirmation page
 - Form filled and verified with the full request in the free-text field. A
   distorted-text CAPTCHA is all that remains.
 
@@ -66,3 +66,34 @@ team."* So the letter is not foreclosed by using the portal, and both can run.
 Nothing publicly searchable. Evidence is limited to their written answer, so the
 two questions worth insisting on are which identifier types they matched on, and
 which parts they hold as processor rather than controller.
+
+## Verified: request RZ3AZVMFVW (updated 2026-08-19)
+
+The OneTrust flow completed its email-confirmation step. The link returned:
+
+> "Your request is confirmed! We will review your request and contact you
+> shortly."
+
+Request ID **RZ3AZVMFVW**, type *Delete my personal information*, submitted
+2026-08-19 13:23 UTC, footer attributing it to **The Nielsen Company (US) LLC**.
+
+Two details worth carrying forward.
+
+**The tenant is the European one.** The confirmation link resolves on
+`privacyportal-de.onetrust.com`, not the `.com` US tenant that most US brands use.
+That is not a mistake to correct — it is simply where Nielsen's instance lives —
+but it matters when matching a confirmation email to the request that produced it,
+because the two tenants issue independent request IDs and a request lodged on one
+is invisible on the other.
+
+> **The OneTrust tenant is part of the request's identity.** "Request ID
+> RZ3AZVMFVW" is only unique within its tenant. Record the hostname alongside the
+> ID or a later follow-up has nowhere to go.
+
+**The confirmation echoes the submission back, masked.** The mail reprints every
+field as `XXXhan`, `XXnes`, `XX013` — first and last letters visible, middle
+replaced. That is enough to verify the right record was created without exposing
+the values, and it is a decent pattern. It also means the confirmation email is
+safe to quote in a public write-up in a way the original submission is not.
+
+See [[_SILENT_FAILURES]] and [[_BROKER_FAMILIES]].

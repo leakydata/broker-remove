@@ -1570,7 +1570,7 @@
     "via": "web"
   },
   "nexxa": {
-    "status": "captcha_blocked",
+    "status": "submitted",
     "changed": "2026-08-19",
     "via": "web"
   },
@@ -1580,7 +1580,7 @@
     "via": "email"
   },
   "nielsen": {
-    "status": "captcha_blocked",
+    "status": "submitted",
     "changed": "2026-08-19",
     "via": "web"
   },
@@ -1725,7 +1725,7 @@
     "via": "web"
   },
   "path2response": {
-    "status": "captcha_blocked",
+    "status": "submitted",
     "changed": "2026-08-19",
     "via": "web"
   },

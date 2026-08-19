@@ -7,7 +7,7 @@
 
 ## Status
 
-- Current: `captcha_blocked` (updated 2026-08-19)
+- Current: `submitted` (updated 2026-08-19) — email verification link clicked; OneTrust returned a confirmation page
 - Letter delivered and acknowledged. Form filled and verified; a distorted-text
   CAPTCHA is the only thing left, staged for one human click.
 
@@ -64,3 +64,44 @@ you have not seen before; read the appearance of dependent fields instead.
 No search page to re-check — this is a list/data business, not a people-search
 site, so the only evidence available is what they say. Chase the ticket if no
 substantive reply follows the automatic one.
+
+## The verification click, and two different phone numbers (updated 2026-08-19)
+
+The OneTrust request lodged earlier reached the email-confirmation stage. Clicking
+**Confirm email** returned, under Nexxa branding:
+
+> "Your request is confirmed! We will review your request and contact you shortly."
+
+Request ID **FKB6FMP7GL**, request type *Opt-Out: Do Not Sell/Share Request*,
+submitted on the `privacyportal.onetrust.com` (US) tenant.
+
+> **A OneTrust request is not lodged until the confirmation link is clicked.**
+> Until then the tenant holds it unverified and the clock does not start. The
+> confirmation mail is the artifact worth keeping — it carries the request ID,
+> and it is the only place the ID appears.
+
+### The contact address hidden in the footer
+
+The confirmation email's footer prints what looks like ordinary text but is
+actually a mail address split across two `mailto:` anchors with a bare word
+between them, so that a naive scrape reads "Consumer", "Choice", "@",
+"nexxagroup.com" as four separate tokens. Reassembled it is:
+
+    ConsumerChoice@nexxagroup.com
+
+Worth having independently of the portal, because a portal request that stalls has
+no reply-to.
+
+> **Read broker footers as markup, not as text.** Addresses in this industry are
+> routinely split across tags, reversed in CSS, or emitted from a `data-cfemail`
+> attribute specifically so that the rendered page and the source disagree.
+
+### And a discrepancy worth noting
+
+The email footer gives **(800) 566-1217**. The confirmation *page* gives
+**Consumer Choice +1-800-566-1895**. Two different numbers for the same function,
+published by the same vendor on the same day. Neither has been called; the
+mismatch is recorded because a consumer picking one at random has a coin-flip
+chance of reaching a line nobody is watching.
+
+See [[_SILENT_FAILURES]] on contacts that exist but do not work.

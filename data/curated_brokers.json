@@ -816,9 +816,9 @@
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "bdo",
-      "email_to": "privacy@bdo.com",
+      "email_to": "privacy@bdo-gci.com",
       "email_verified": true,
-      "email_verified_by": "delivery_evidence"
+      "email_verified_by": "named by BDO in reply as the address that replaces the retired registry contact privacy@bdo.com, 2026-08-19"
     },
     {
       "id": "beenverified",
@@ -6694,8 +6694,8 @@
       "source": "optery_scrape",
       "optery_slug": "resonate",
       "email_to": "privacy@resonate.com",
-      "email_verified": false,
-      "email_verified_by": null
+      "email_verified": true,
+      "email_verified_by": "privacy@resonate.com accepted mail and produced a substantive reply; their no-reply@ From: address bounces, 2026-08-19"
     },
     {
       "id": "retention_com",
@@ -6764,8 +6764,8 @@
       "source": "optery_scrape",
       "optery_slug": "reversephone",
       "email_to": "privacy@reversephone.com",
-      "email_verified": false,
-      "email_verified_by": null
+      "email_verified": true,
+      "email_verified_by": "published twice on their own opt-out page footer, 2026-08-19"
     },
     {
       "id": "reversephonelookup",

@@ -77,3 +77,89 @@ answer, and it is worth confirming it holds.
 ## Verification
 
 <!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+
+## The 24-hour single-use link, and grey text that is not a placeholder (updated 2026-08-19)
+
+Support refuses privacy mail outright — "This email address is dedicated to
+customer service inquiries and is not intended for privacy-related requests. We
+do not process privacy requests received via email" — but it does something more
+useful than most refusals: it *generates a link* and mails it to you.
+
+> "Here are the final steps for completing your privacy request on phonebooks. If
+> you waited longer than 24 hours to click the link below, you will need to start
+> over and generate another link."
+
+So the route is two-step and time-boxed: write to support, get a personalised
+form URL, fill it within 24 hours. That is a good route — but see the mangling
+note below, because the link can arrive damaged.
+
+### The link carries a ticket id, and an email client can eat it
+
+The emailed URL is of the form:
+
+    /opt-out-removal?fn=<first>&mn=<middle>&ln=<last>&email=<addr>&ticketid=<id>
+
+Two things went wrong with it.
+
+**First, `mn=undefined`.** Not "empty" — the literal seven-character string
+`undefined`, leaked from the site's own JavaScript into the query string and then
+pre-filled into the Middle Name box. Left alone it would have been submitted as a
+middle name.
+
+**Second, the ticket id did not survive.** The mail retrieved through an API came
+back with `ticketid` followed by a Unicode replacement character and then a
+partial number. The same corruption appears in the message's own `<head>` —
+`content="width<?>vice-width"` for `width=device-width`, `content="IE<?>ge"` for
+`IE=edge` — so it is the transport eating `=` plus the next two bytes, not the
+sender's fault.
+
+> **When a link arrives through a machine reader, check it against a known-good
+> string in the same message before trusting it.** A meta tag you can predict
+> (`width=device-width`) is a free calibration test: if *that* is mangled, every
+> other `=` in the message is suspect, including the one carrying your ticket.
+
+The form loaded and accepted input with the ticket omitted entirely, so it is
+worth trying the truncated URL before asking for a fresh link.
+
+### Grey text here means "we filled this", not "this is a placeholder"
+
+The four fields that came from the query string — first, middle, last, email —
+render in grey (`#92959a`). Everything typed afterwards renders black. The
+obvious reading is the usual trap: grey text is placeholder text, the field is
+actually empty, and it will submit blank.
+
+That reading is wrong here, and checking cost one line:
+
+    Array.from(document.querySelectorAll('form input'))
+         .map(i => ({n: i.name, v: i.value, ph: i.placeholder}))
+
+Every grey field had a real `.value` and an **empty** `.placeholder`. The site is
+using colour to mark *provenance* — these came from your verified link, those you
+typed — which is the inverse of the convention.
+
+> **Grey is not evidence. `.value` versus `.placeholder` is.** Check before
+> retyping: re-entering a field that was already correct is harmless, but
+> concluding "the form lost my name" and abandoning a 24-hour link is not.
+
+### A real defect worth knowing about
+
+The inputs collide on `name`. Three of them are `name="firstName"` (first, middle
+*and* last), and two are `name="address"` (street *and* date of birth). Anything
+serialising this form by field name rather than by DOM order loses data silently.
+It does not appear to break the site's own submission, which presumably reads the
+nodes positionally — but it means the form cannot be safely reconstructed from
+its names alone.
+
+### Where it stops
+
+A reCAPTCHA sits between the last field and **Submit**. Everything above it can be
+staged; the last click cannot. Fill it all, tick the certification box, and hand
+off one action.
+
+Fields: first, middle, last, email, phone, street address, date of birth, city,
+state, zip, plus a certification checkbox. The page asks for **no punctuation** —
+"for the name James Brown, Jr. please put 'Brown Jr'" — and the phone box
+reformats a bare ten-digit string into `(555) 123-4567` form by itself.
+
+See [[_SILENT_FAILURES]] for the wider family of fields that look filled and are
+not, and for published routes that fail without a signal.

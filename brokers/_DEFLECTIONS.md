@@ -1221,3 +1221,103 @@ except "remove this one page" is dropped without anyone saying no.
 - **Say thank you when the second reply is good.** This one named the predecessor
   company unprompted. Operators who engage are worth engaging with; the tone of
   the follow-up is part of why the third reply arrives at all.
+
+---
+
+## §35 "We are a B2B tool, so this is not personal information"
+
+From a lead-generation vendor, in a personal reply from the founder:
+
+> "We don't aggregate any data, buy lists, and are not a data broker. This is a
+> B2B tool to capture businesses publicly available information and is not allowed
+> to capture private information on consumers."
+
+Nothing there is implausible, and arguing about the label "data broker" is a waste
+of everyone's afternoon. The move to answer is the quiet slide in the middle:
+**"business information" is treated as equivalent to "not personal
+information."** They are different categories.
+
+> **A B2B contact record is nearly always a named human being** — a person's name,
+> work email, direct line, title, employer. Each is personal information *about
+> that person*. "It is business data" describes the context of collection, not the
+> legal category.
+
+And the fact most of the industry has not absorbed: **California's
+business-to-business carve-out sunset on 1 January 2023 and was not renewed.**
+Since then a work address in a prospecting database sits in the same category as a
+home address in a people-search database.
+
+### How to reply so that you get a search instead of an argument
+
+Do not contest the label. Collapse the whole thing to one question a lookup can
+settle:
+
+> Do you hold a record — in the product, in a CRM, in an enrichment cache, or in a
+> suppression list — keyed to my name, to any of these email addresses, or to any
+> of these telephone numbers?
+
+Then hand them the cheap exit explicitly: *an unqualified "we searched those
+identifiers and hold nothing" is a complete answer and closes this.*
+
+> **Offer the null result as a win.** A company that genuinely holds nothing will
+> put it in writing gladly, because writing it ends the correspondence. A company
+> that will not put it in writing has told you something without meaning to.
+
+Pair this with the standing ask: if the answer is yes, delete *and suppress*,
+regardless of whether the source was public or the record commercial. A
+professional record is still a record about a person.
+
+---
+
+## §36 The self-service tool that searches a different index than the product
+
+Customer care answers a detailed privacy letter with a link and a friendly
+instruction to search for yourself and click **Proceed to Opt Out**. The tool
+works. You search. It says **"no exact match"**. Case closed?
+
+Not necessarily — and this is subtler than the usual form deflection, because
+nobody is being evasive.
+
+> **Check what the opt-out tool searches against what the product sells.** One
+> reverse-*phone* service offers an opt-out that searches by **first and last
+> name**. Those are not the same index. A number-keyed record — including
+> disconnected and reassigned numbers, which may sit attached to a stale name
+> string, a carrier record, or no name at all — is simply not reachable from a
+> name box.
+
+So a person searches, reads "no exact match", concludes they are absent, and stays
+in the phone index under a number they gave up twenty years ago.
+
+**Record the negative, but do not record it as absence.** Keep the entry at
+`submitted` with the clean search noted, not `not_found`. The negative is real and
+worth having; it just answers a narrower question than the one asked.
+
+**What to put back to them:**
+
+1. Does a name opt-out clear the number-keyed records, or only the profile?
+2. Search the identifiers the form cannot take — supply them in the reply and ask
+   for a **count** of matches. Zero, stated unqualified, closes it.
+3. Remove the association in **both directions**; clearing one leaves the fact
+   retrievable from the other side, and no confirmation says which was done.
+4. Remove the **enrichment** too, and any appearance as a "related person" on
+   somebody else's page — a relative-graph entry is a record about you living on a
+   page that is not yours, and searching your own name will never surface it.
+
+### Two things to do before replying at all
+
+**Read the opt-out page's own footer.** It published `privacy@<domain>` twice, on
+the very page support sent as the answer. That is a different queue from the one
+that wrote to you.
+
+**Do not click the button next to a stranger.** The results page offered ~100
+same-name records, each with a live one-click opt-out beside somebody's date of
+birth, relatives and address history, and asked for no proof of identity at all.
+Suppressing a record you have not positively identified is acting on a third
+party's data without their knowledge.
+
+### And check whether you are being answered twice by one company
+
+Two brands sent the *identical* support template on the same day — same greeting,
+same "If you are having trouble with the online process" paragraph. That is
+[[_BROKER_FAMILIES]] signal 7. Put the questions to the family once rather than
+per brand, and ask them to confirm the scope covers every property they operate.
