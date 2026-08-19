@@ -5830,7 +5830,8 @@
       "optery_slug": "peoplewhizr-com",
       "email_to": "support@peoplewhizr.com",
       "email_verified": false,
-      "email_verified_by": null
+      "email_verified_by": null,
+      "notes": "No MX record of its own; sibling peoplewhiz.com carries the mail. Covered by the letter to support@peoplewhiz.com, which names both brands and asks them to confirm the relationship."
     },
     {
       "id": "peoplewin",
@@ -5853,9 +5854,9 @@
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "persistent-id",
-      "email_to": "info@Persistent.id",
-      "email_verified": false,
-      "email_verified_by": null
+      "email_to": "privacy@persistent.id",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
     },
     {
       "id": "personsearchers",
@@ -5923,7 +5924,8 @@
       "optery_slug": "phonenumberinfo-us",
       "email_to": "info@phonenumberinfo.us",
       "email_verified": false,
-      "email_verified_by": null
+      "email_verified_by": "no_address_published",
+      "notes": "Only address published anywhere is info@phonenumberinfo.us, hidden behind Cloudflare email obfuscation on /privacy.php and /contact.php - and the domain publishes NO MX RECORD, so it cannot receive mail at all. Their privacy policy promises 'a quick and easy process to allow individuals to remove their information' and then the instruction sentence ends without a link. All URL paths return the homepage (catch-all 200), so there is no opt-out page to find. No route of any kind exists."
     },
     {
       "id": "phonenumbers_org",

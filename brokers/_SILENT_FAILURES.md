@@ -1412,3 +1412,52 @@ in the inbox.
 The habit to build: **when a letter bounces, read the whole report, not just the
 status code.** The error tells you the request failed. The `From` and any
 `Reporting-MTA` header tell you who they are.
+
+## 41. The catch-all 200, and the opt-out sentence that stops
+
+Probing a site for a removal page produced nine hits in a row:
+
+    200  /optout.php        200  /opt-out.php      200  /optout
+    200  /opt-out           200  /remove.php       200  /removal.php
+    200  /do-not-sell.php   200  /contact.php      200  /ccpa.php
+
+Every one of them was the homepage. The site serves a **catch-all 200** — any
+path renders the index page rather than a 404. A probe loop that keys on status
+code reports nine opt-out routes where there are none, and each one looks like a
+find.
+
+> **Compare titles or content, never status codes, when probing for a page you
+> have not seen.** One extra field in the loop — `grep -oiE '<title>[^<]*'` —
+> turns nine false positives into an obvious pattern.
+
+### And the thing the probe was looking for does not exist either
+
+The same site's privacy policy says, in full:
+
+> *"phonenumberinfo.us also provides a quick and easy process to allow
+> individuals to remove their information from our People Search results, whether
+> or not they are a user of the Site. If you would like to opt out of our People
+> Search results."*
+
+The sentence ends there. No link, no address, no next step — the paragraph whose
+entire job is to carry the removal route is a dangling conditional, the residue
+of a template copied without the link pasted in.
+
+Meanwhile the domain publishes **no MX record**, so the one address it does
+publish — obfuscated behind Cloudflare's `data-cfemail` on two pages — cannot
+receive mail either.
+
+> **A promised process is not a process.** Directories of brokers routinely
+> record "has an opt-out" from exactly this kind of sentence. The claim and the
+> mechanism are separate things and only one of them can be tested. Test it.
+
+### Decoding `data-cfemail` while you are there
+
+Cloudflare's email obfuscation is a hex string XORed with its own first byte:
+
+    b = bytes.fromhex(cfemail); key = b[0]
+    addr = ''.join(chr(c ^ key) for c in b[1:])
+
+Here it only confirmed a dead end, but scraping a page for `@` will never find an
+address hidden this way — and on a site that *does* have working mail, this is the
+difference between a contact and a `NO_EMAIL` verdict.
