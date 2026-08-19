@@ -616,3 +616,62 @@ The order that actually worked across both sweeps this week:
 signer names, telephone numbers and postal addresses — Orlando FL on one, Woodland
 Hills CA on another. Contact details are the layer most deliberately varied, so
 their disagreement is not counter-evidence to anything.
+
+## Mining an IP sweep without fooling yourself (added 2026-08-19)
+
+Grouping all 639 tracked domains by first A record produced clusters of 23, 17, 16,
+9 and 8 brands. Almost all of it was noise.
+
+    141.193.213.10   23 brands   \
+    198.202.211.1    17 brands    |  shared web hosts, PaaS
+    141.193.213.20   16 brands    |  and CDN front ends
+    15.197.225.128    9 brands    |
+    18.165.25.x       3 each     /   (CloudFront)
+    76.76.21.21       4 brands       (Vercel)
+    151.101.194.159   3 brands       (Fastly)
+    162.159.134.42    4 brands       (Cloudflare)
+
+> **A big IP cluster is usually a hosting provider, and the bigger it is the more
+> likely that is.** Twenty-three unrelated data brokers on one address means they
+> all bought the same website builder. Treat cluster *size* as evidence **against**
+> a family, not for it.
+
+### The clusters worth testing are small and thematically coherent
+
+Two stood out — not because of size, but because each contained a brand already
+proven to be in a family:
+
+    167.234.220.189   checksecrets · inmatessearcher · peoplesearchusa · sealedrecords
+    50.87.253.236     arrestwarrant · texaswarrantroundup · verifypublicrecords · verifyrecords
+
+`peoplesearchusa` was already a confirmed member of the thirteen-brand
+`optOutLight` platform. The second group looked equally plausible: four
+warrant-and-records sites on one address, obviously thematically related.
+
+**Then the path test decided both, in opposite directions:**
+
+    checksecrets.com          200      arrestwarrant.org          404
+    inmatessearcher.com       200      texaswarrantroundup.org    404
+    sealedrecords.net         429      verifypublicrecords.com    404
+                                       verifyrecords.com          404
+
+The first three joined the family, taking it from thirteen brands to **sixteen**.
+The second four were rejected outright, despite sharing an IP *and* a theme.
+
+> **Use a known member as the seed, then confirm with rank 1.** An IP cluster
+> containing a confirmed family member is a lead worth one HTTP request per domain.
+> An IP cluster containing four thematically similar sites is a coincidence until
+> the path test says otherwise — and here it said otherwise.
+
+That is the whole method in one line: **IP proposes, path disposes.**
+
+### And a note on what the new members sell
+
+The three additions run **inmate-search, sealed-records and mugshot** branded
+fronts alongside the people-search ones. Same platform, same opt-out route,
+materially more sensitive content. Where a family spans categories like this, the
+criminal-record question in the standard letter stops being boilerplate:
+
+> If any criminal, court, arrest or mugshot entry is attributed to me, tell me what
+> it is and its source, whether or not you remove it — an entry hidden rather than
+> corrected returns when the source is next ingested.

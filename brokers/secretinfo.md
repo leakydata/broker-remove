@@ -13,10 +13,10 @@
 
 ## Steps
 
-1. **Do not write to this site alone.** It is one of thirteen brands on a single
+1. **Do not write to this site alone.** It is one of sixteen brands on a single
    platform — see Gotchas — so a letter scoped to one domain buys a removal scoped
    to one domain.
-2. Email `support@secretinfo.org` with the full identifier list, naming all thirteen sites
+2. Email `support@secretinfo.org` with the full identifier list, naming all sixteen sites
    and asking which were actioned.
 3. **Cite the precedent.** [[privaterecords]], on the same platform, granted this
    same request for this same person on 2026-08-19 and did it *from the email
@@ -28,7 +28,7 @@
 
 ## Gotchas
 
-- **Thirteen brands, one platform.** Every one serves the same non-obvious route,
+- **Sixteen brands, one platform.** Every one serves the same non-obvious route,
   `/api/helper/optOutLight/search`. DNS is no help: they all sit on Namecheap's
   shared registrar-default nameservers, which is not a family signal at all.
 - **The reply-to-acknowledge trap.** The platform's own wording: *"Respond to the
@@ -56,3 +56,10 @@ identical to a genuine negative.
 
 See [[privaterecords]] for the fully worked example and [[_BROKER_FAMILIES]] for
 the sweep that found this site.
+
+> **Update 2026-08-19: the family is SIXTEEN, not thirteen.** Mining the A-record
+> sweep found `checksecrets.com`, `inmatessearcher.com` and `sealedrecords.net`
+> sharing an address with an already-confirmed member, and the path test then held
+> for all three. Note that these three are branded around **inmate searches, sealed
+> records and mugshots** — so the criminal-record question in the standard letter
+> stops being boilerplate for this family. See [[_BROKER_FAMILIES]].

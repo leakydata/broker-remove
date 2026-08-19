@@ -181,3 +181,10 @@ provided, we have removed your information from our database."*
 The flow, the caveats and the reply-to-acknowledge trap are identical across all
 thirteen — see [[privaterecords]] for the worked example, including the silently
 refusing search form ([[_SILENT_FAILURES]] §59).
+
+> **Update 2026-08-19: the family is SIXTEEN, not thirteen.** Mining the A-record
+> sweep found `checksecrets.com`, `inmatessearcher.com` and `sealedrecords.net`
+> sharing an address with an already-confirmed member, and the path test then held
+> for all three. Note that these three are branded around **inmate searches, sealed
+> records and mugshots** — so the criminal-record question in the standard letter
+> stops being boilerplate for this family. See [[_BROKER_FAMILIES]].

@@ -183,3 +183,10 @@ links, once as bare domain names that the mail client linkified and wrapped anyw
 See the correction appended to [[_SILENT_FAILURES]] §51: write it as
 `privatereports [dot] com` or describe it in words, because a bare hostname is not
 safe either.
+
+> **Update 2026-08-19: the family is SIXTEEN, not thirteen.** Mining the A-record
+> sweep found `checksecrets.com`, `inmatessearcher.com` and `sealedrecords.net`
+> sharing an address with an already-confirmed member, and the path test then held
+> for all three. Note that these three are branded around **inmate searches, sealed
+> records and mugshots** — so the criminal-record question in the standard letter
+> stops being boilerplate for this family. See [[_BROKER_FAMILIES]].
