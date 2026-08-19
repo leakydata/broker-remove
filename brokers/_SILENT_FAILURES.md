@@ -1705,3 +1705,72 @@ And note the second, unrelated defect in the same URL: `mn=undefined` — not em
 the literal seven-character string, leaked out of the site's own JavaScript into
 the query string and pre-filled into the Middle Name box, where it would have been
 submitted as a middle name if nobody looked.
+
+---
+
+## §49 The option grid that looks multi-select and behaves single-select
+
+A rights portal presented seven request types as a grid of rounded buttons:
+Access, Delete, Do Not Share or Sell, Correct, Limit Use of Sensitive Information,
+Opt-Out of Targeted Advertising, Opt-Out of Profiling.
+
+Buttons, not checkboxes and not radio pips. So the natural move — pick Delete, then
+add the opt-outs to be thorough — reads as accumulating selections.
+
+It is a radio group. Each click **replaced** the last. Four clicks later the form
+was set to the narrowest right on the grid, and nothing on screen said so: the
+previously-chosen button simply stopped being highlighted, which looks identical to
+never having chosen it.
+
+> **Buttons that look like checkboxes and act like radios are common in these
+> portals, and the interface will not correct the belief that you selected
+> everything you wanted.**
+
+The DOM is unambiguous where the styling is not:
+
+    Array.from(document.querySelectorAll('[role="option"]'))
+         .map(b => ({t: b.textContent.trim(), sel: b.getAttribute('aria-selected')}))
+
+Exactly one `true` in a group means radio. Check it **before** submitting, because
+after submission the only artifact is a request ID, and the request ID does not say
+which right it carries.
+
+This is the same family as §47 (grey is not evidence): in both, the rendered page
+and the submitted state are different sources, and only one of them is real.
+
+**A note on why it matters more here than it looks.** These grids sit on deletion
+forms. The failure is not cosmetic — it is the difference between a deletion and a
+do-not-sell, and the confirmation email will cheerfully confirm whichever one
+actually went.
+
+---
+
+## §50 The one-time code that expires faster than the handoff
+
+A portal comment could only be read by signing in. Signing in required passing an
+image CAPTCHA, which mails a one-time access code. Fine — stage the CAPTCHA, hand
+off one human action.
+
+Except the code said:
+
+> "For security purposes, this code will expire in **15 minutes**."
+
+The human cleared the CAPTCHA. The code arrived. By the time anything looked at the
+mailbox again the code was thirty minutes dead, and the portal was no closer to
+being open than before.
+
+> **A handoff can only carry a step that is atomic.** If the human action produces
+> a short-lived secret that a *second* step must consume, the two are one action,
+> and splitting them across an automation boundary guarantees the timer wins.
+
+**What to do instead.** Write the queue entry as a single sitting with the sequence
+spelled out and the expiry stated in the first line — enter email, solve CAPTCHA,
+Send, go to inbox, click "Already have an access code?", paste. And say plainly
+that the gap cannot be bridged, because a browser tab does not survive between
+passes and a fresh code will be needed otherwise.
+
+The general shape, worth checking for whenever a route is queued for a human:
+
+> **Ask what the human action *produces*, not just what it costs.** A CAPTCHA that
+> unlocks a page is one action. A CAPTCHA that mints a fifteen-minute token is two,
+> and the second one has a clock on it.

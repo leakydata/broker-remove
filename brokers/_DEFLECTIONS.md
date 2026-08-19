@@ -1321,3 +1321,48 @@ Two brands sent the *identical* support template on the same day — same greeti
 same "If you are having trouble with the online process" paragraph. That is
 [[_BROKER_FAMILIES]] signal 7. Put the questions to the family once rather than
 per brand, and ask them to confirm the scope covers every property they operate.
+
+---
+
+## §37 Replacing the argument with a query
+
+Not a deflection so much as the technique that dissolves a whole class of them —
+the category refusals in §35, "we are not a data broker", "we are not a CRA", "that
+is business data", "we are a processor not a controller".
+
+Every one of those invites a legal argument. The argument is winnable and it is
+almost always the wrong move: you are asking a person to concede a position their
+company has taken publicly, in writing, to a stranger. Even when they privately
+agree, saying so costs them something. So they restate the position, and the thread
+dies at exchange two.
+
+> **Give them a question a database can answer instead of a position to defend.**
+> "Are you a data broker?" is a claim about identity. "Does a row exist keyed to
+> any of these identifiers, in the product, a CRM, an enrichment cache or a
+> suppression list?" is a lookup. The second costs one query and concedes nothing.
+
+Then make saying no cheap, explicitly:
+
+> *If the answer is no, say so plainly and we are done. An unqualified "we searched
+> those identifiers and hold nothing" is a complete answer, I will record it as
+> such, and I will not write to you again.*
+
+That sentence is doing the real work. It converts the reply from a commitment into
+an exit. A company that holds nothing will take an exit gladly; a company that will
+not put "no" in writing has told you something it did not mean to.
+
+**Then keep the promise.** Close out with a short thank-you and stop. It costs
+nothing, and it is the only reason the next person who writes to that company gets a
+straight answer rather than a form letter.
+
+Worked verbatim this week on a lead-generation vendor whose first reply was the full
+category refusal. The second reply, same day, was three words: *"Simple Answer: No."*
+
+**Two things to keep in mind.**
+
+- **Ask about every store, not just the product.** "In the product, in a CRM, in an
+  enrichment cache, or in a suppression list" is deliberate — the first "no" people
+  give is usually about the customer-facing product only.
+- **A null result is a result.** Record it as `not_found`, not as an unanswered
+  request, and keep the thread: if the name surfaces there later, that one line is
+  what a follow-up cites.

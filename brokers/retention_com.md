@@ -52,3 +52,24 @@ the plaintext address alone can come back clean and be perfectly truthful.
 ## Verification
 
 <!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+
+## Acknowledged, with a stated clock (updated 2026-08-19)
+
+> "We have received your Opt-Out removal request. We will process your request
+> within 7 business days.
+> -The Retention.com Privacy Team"
+
+Short, unambiguous, and it names a deadline — which makes it more useful than the
+usual "we have received your message". Re-check on or after **2026-08-28**.
+
+> **An acknowledgement that states a number is worth recording as a date, not as a
+> status.** "Within 7 business days" is a commitment you can hold them to; "we
+> appreciate your patience" is not. The difference decides whether a follow-up has
+> anything to cite.
+
+Note the wording: they call it an **Opt-Out removal request**. The original letter
+asked for deletion, opt-out *and* suppression, so the confirmation — when it comes
+— needs reading for which of the three it actually covers, and following up if it
+has quietly narrowed to the opt-out alone.
+
+See [[_DEFLECTIONS]].
