@@ -8,7 +8,7 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-18)
+- Current: `manual_required` (updated 2026-08-19) — Google Form is live but requires a profile URL the site’s own search will not produce
 - Note: People-search. Every former address and disconnected number; relatives-and-associates listings; suppression vs one-time; upstream sources. Pre-empted the profile-URL demand and the account/ID demands.
 
 ## Steps
@@ -92,3 +92,48 @@ than letting it emerge later.
 
 Still open across all four: standing suppression versus point-in-time deletion, and
 whether they store the data or display an upstream partner's results.
+
+## The form that requires an artifact the site will not issue (updated 2026-08-19)
+
+Better placed than its sibling — the Google Form behind `/company/remove-my-info`
+is **live** (CocoFinder's was taken down by Google for a Terms of Service
+violation). But it is unusable for a different reason.
+
+The form's fields:
+
+    First Name *          Last Name *          Your Email *
+    URL (Please paste the URL you request to remove) *
+    Leave a message
+    Removal Confirmation *  "I acknowledge that my information will be removed
+                             within two business days."
+
+**The URL is required.** And the site will not produce one:
+
+- the on-site people search accepts a name and then **does not navigate** on
+  submit — the page simply stays where it is;
+- guessed profile paths in the obvious shape (`/name/<first>-<last>/<state>/<city>`)
+  return a 404, and the 404 page is monetised with competitor advertising.
+
+> **A removal route that requires a profile URL is only as good as the site's own
+> search.** When the search does not work, the requirement is not a verification
+> step — it is a precondition the requester has no way to satisfy, and the broker
+> never has to refuse anything.
+
+That is worth distinguishing from the ordinary "send us the profile link"
+deflection, which is at least satisfiable with effort. Here the door is locked and
+the key is not issued.
+
+**Two further notes on the form itself:**
+
+- It is a Google Form that captures the **submitter's signed-in Google account
+  address** alongside the answers. Check which account the browser is signed into
+  before submitting, and treat that address as disclosed.
+- The confirmation checkbox commits *them* to two business days, which is a
+  useful thing to have agreed in writing — if the submission ever goes through.
+
+`support@findpeoplefast.net` is the same autoresponder loop as the rest of the
+family: it re-sent its "we need a Profile Page URL" template in reply to a message
+that already contained every field it asked for. See [[cocofinder]].
+
+Family: Cloudflare pair `coleman` + `paloma`, seven brands. See
+[[_BROKER_FAMILIES]].

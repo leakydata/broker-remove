@@ -425,8 +425,8 @@
     "via": null
   },
   "cocofinder": {
-    "status": "submitted",
-    "changed": "2026-08-15",
+    "status": "failed",
+    "changed": "2026-08-19",
     "via": null
   },
   "cognism": {
@@ -496,7 +496,7 @@
   },
   "convex": {
     "status": "not_found",
-    "changed": "2026-08-18",
+    "changed": "2026-08-19",
     "via": "reply"
   },
   "courtcasefinder": {
@@ -765,8 +765,8 @@
     "via": "email"
   },
   "findpeoplefast_net": {
-    "status": "submitted",
-    "changed": "2026-08-18",
+    "status": "manual_required",
+    "changed": "2026-08-19",
     "via": "email"
   },
   "firearmscalifornia_org": {

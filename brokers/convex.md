@@ -71,3 +71,33 @@ makes a suppression durable. The thing to ask for is only that it stay a log: th
 it be limited to what the obligation requires and not become an active record in
 any product.
 
+
+## The satisfaction survey that was NOT a silent close (updated 2026-08-19)
+
+Ticket **#487019** produced a CSAT survey today with no accompanying resolution
+message — the same surface pattern as several other Zendesk-hosted brokers on the
+same day, where the survey was the *only* notice a ticket had closed.
+
+**Here it was not that, and the difference matters.**
+
+Convex had already resolved this the previous day. The first reply was a scoped
+negative — *"unable to locate any record of an account or other business
+relationship with you"* — and after being asked to search the product database
+rather than the CRM, they returned an **unqualified** negative. The ticket then
+auto-closed and the survey fired, which is exactly what a correctly-working queue
+does.
+
+This entry was briefly and wrongly downgraded from `not_found` to `submitted` on
+the strength of the survey alone, and a follow-up was sent asking for an outcome
+that had already been given.
+
+> **A satisfaction survey after a resolution is ordinary. It only signals a silent
+> close when no resolution was ever sent.** Read the thread history before treating
+> one as evidence of anything — the survey looks identical in both cases, and the
+> distinction lives entirely in whether an earlier message answered the question.
+
+The general rule still holds where it applies (see [[classmates_com]]): a survey
+arriving with nothing before it is a prompt to ask for the outcome, not an outcome.
+But it is a test to run against the thread, not a pattern to match on the survey.
+
+See [[_SILENT_FAILURES]].

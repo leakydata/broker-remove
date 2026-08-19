@@ -8,27 +8,50 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-15)
+- Current: `failed` (updated 2026-08-19) — no working removal route: opt-out URL 404s, the Google Form was removed by Google for a ToS violation, and support@ is an autoresponder loop
 - Reference: `gmail:1a0064b2dcdd7578`
 - Note: Statutory deletion + opt-out emailed from [EMAIL]. All 4 email identities + DOB asserted. Includes explicit fallback: if broker claims no covering statute or non-covered state, honor as company policy and state which basis was applied.
 
 ## Steps
 
-<!-- Replace once the route is confirmed. What actually worked, in order. -->
+**There is currently no working route.** All three published paths fail — see
+below. What was tried, in order:
+
+1. `cocofinder.com/optout` (the URL carried in broker directories) — **404**.
+2. `cocofinder.com/remove-my-info` — page loads, links to a Google Form.
+3. The Google Form — **removed by Google for a Terms of Service violation**.
+4. `support@cocofinder.com` — autoresponder loop; re-sends the same
+   "send us a Profile Page URL" template on every inbound message.
+
+If retrying later, check the Google Form destination first: it is the only step
+that can silently come back to life, and the page linking to it will look identical
+either way.
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+- **The 404 page is monetised.** Following the stale opt-out URL lands on affiliate
+  advertising for three competing background-check services, not on an error the
+  site treats as a fault.
+- **The `/remove-my-info` page still promises a working process** — including an
+  FAQ stating removals take "between 24 to 48 hours" — while linking to a form that
+  no longer exists. Nothing on the page signals the breakage.
+- **Two identical autoresponder replies in one thread is the stop signal.** A third
+  reply only re-triggers it.
+- The form was a Google Form, so it also captured the submitter's signed-in Google
+  account address. Worth knowing if it returns.
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+Nothing has been submitted, so there is nothing to verify yet — the entry is
+`failed` on route availability, not on a refusal.
+
+Re-check by testing the Google Form link on `/remove-my-info` directly. If it
+loads, the route is back; if it still returns the Terms of Service message, the
+route is still dead regardless of what the page says.
+
+The site's own FAQ describes the intended check: *"go back to CocoFinder's homepage
+and search for your profile ... clear your cache and re-check after 48 hours."*
+That remains the right verification once a submission is actually possible.
 
 ## One Cloudflare account, seven front ends (updated 2026-08-19)
 
@@ -87,3 +110,63 @@ than letting it emerge later.
 
 Still open across all four: standing suppression versus point-in-time deletion, and
 whether they store the data or display an upstream partner's results.
+
+## Every route is dead, and none of them says so (updated 2026-08-19)
+
+Three published routes. All three fail, and not one of them fails visibly.
+
+**1. The recorded opt-out URL 404s.** `/optout` returns a 404 page — which is
+itself monetised, carrying affiliate placements for three competing background-check
+services. A consumer who followed a link from a broker directory lands on
+advertising.
+
+**2. The real page's form has been removed by Google.** `/remove-my-info` is live,
+well-written, and says:
+
+> "To remove your info, please submit your request by filling out this form."
+
+The link goes to a Google Form. The Google Form returns:
+
+> "We're sorry. **You can't access this item because it is in violation of our
+> Terms of Service.**"
+
+Read that carefully: this is not a broken link or an expired document. Google
+assessed the form and took it down. And the page linking to it is unchanged —
+still confident, still instructing people to use it, still carrying an FAQ
+promising *"the average time of completing the request is between 24 to 48 hours."*
+
+**3. `support@` is an autoresponder loop.** See below.
+
+> **A removal route hosted on someone else's platform can be revoked without the
+> broker noticing or caring.** The page keeps its instructions, the link keeps its
+> shape, and the failure is two clicks away where nobody looks. Check the
+> destination, not the page that points at it.
+
+Recorded `failed`. There is currently no way for a consumer to exercise a removal
+right here at all — which is worth stating plainly, because a broker with an
+advertised process and no working route is materially different from one that
+refuses.
+
+## The autoresponder that answers its own answer
+
+`support@cocofinder.com` replies to every inbound message with the same text:
+
+> "To ensure we accurately locate your specific record and avoid inadvertently
+> removing another individual's information, we need a few more details ...
+> Profile Page URL(s) ... Full Name ... Associated Address ... Associated Phone
+> Number ... Associated Email Address"
+
+A detailed reply containing **every one of those fields** — name, aliases, date of
+birth, current and prior addresses, current and prior phone numbers, twelve email
+addresses — produced the identical message again, quoting the reply it was
+answering.
+
+> **A support address that re-sends the same template in response to a message
+> containing everything it asked for is not a queue with a backlog. It is an
+> autoresponder, and replying again only re-triggers it.** Two identical replies in
+> one thread is the test; stop after the second and change channel.
+
+Three of the four sites in this family did exactly that within an hour.
+
+See [[_SILENT_FAILURES]] and [[findpeoplefast_net]] for the sibling whose form is
+live but unusable.

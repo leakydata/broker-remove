@@ -1888,3 +1888,104 @@ condition that produced it.
 
 The same caution applies in reverse: a route that works today can gate tomorrow, so
 a staged form left half-finished may not be resumable at the same URL.
+
+---
+
+## §54 The removal form hosted on a platform that revoked it
+
+A broker's removal page is well written. It explains the process, carries an FAQ
+promising completion *"between 24 to 48 hours"*, and says:
+
+> "To remove your info, please submit your request by filling out this form."
+
+The form is a **Google Form**. Following it returns:
+
+> "We're sorry. You can't access this item because it is in violation of our Terms
+> of Service."
+
+Not a broken link. Not an expired document. Google assessed the form and took it
+down — and the broker's page is unchanged, still instructing people to use it.
+
+> **A rights route hosted on someone else's platform can be revoked without the
+> broker noticing or caring.** The page keeps its confident wording, the link keeps
+> its shape, and the failure lives one click away where the operator never looks
+> and the consumer assumes they did something wrong.
+
+**Check the destination, not the page that points at it.** This is the same lesson
+as a published-but-dead mailbox (§39), one layer out: the difference is that a
+third party can break this one unilaterally.
+
+Two things follow.
+
+**Test the outbound link as a separate step.** A playbook entry recording "removal
+form at `/remove-my-info`" is recording the page, not the route. Record the
+destination and re-test *that*.
+
+**And it is the one failure that can silently repair itself.** A 404 stays a 404
+until someone fixes it; a platform suspension can be lifted, or the broker can
+create a new form and update the link. So this class of `failed` deserves a
+shorter re-check interval than most — it costs one page load.
+
+---
+
+## §55 The required field the site will not issue
+
+A sibling of the above has a form that genuinely works. It is unusable anyway,
+because one required field cannot be filled:
+
+    URL (Please paste the URL you request to remove) *
+
+The site's own people search accepts a name and then **does not navigate** on
+submit. Guessed profile paths in the obvious shape return a 404 — into a page
+monetised with competitor advertising.
+
+So the only removal route demands an artifact the site itself refuses to produce.
+
+> **Distinguish this from the ordinary "send us the profile link" deflection.**
+> That one is satisfiable with effort: search, find, copy. This one is a locked
+> door with no key issued — and the broker never has to refuse anything, because
+> the request simply never arrives.
+
+It is worth recording as `manual_required` rather than `failed`, because the
+blocker is specific and might be cleared by a human who can work the search UI
+interactively, or by finding the profile through an external search engine rather
+than the site's own box.
+
+**And say so in writing to the operator.** A support desk being told "your form
+requires a URL and your search does not return one" is being handed a fault report
+they can act on. It is also the sentence that makes a later escalation coherent:
+the route was not refused, it was impossible.
+
+---
+
+## §56 Two identical replies in one thread means you are talking to a machine
+
+A support address answered a consumer request with a template asking for five
+specific fields. The reply supplied **every one of them** — name, aliases, date of
+birth, current and prior addresses, current and prior phone numbers, a dozen email
+addresses.
+
+The same template came back, quoting the reply it was answering.
+
+> **A support address that re-sends the same text in response to a message
+> containing everything it asked for is not a queue with a backlog — it is an
+> autoresponder.** Replying again only re-triggers it, and the thread can run
+> forever without a human ever reading it.
+
+**The test is cheap: two byte-identical messages in one thread.** One is a template
+sent by a person who has not read closely. Two is a machine. Three of four sites in
+one family did it within the hour.
+
+**What to do at the second one:**
+
+- **Stop replying.** Every further message is free ticket volume for them and
+  nothing for you.
+- **Change channel.** Web opt-out form, a privacy address published elsewhere on
+  the site, a registry contact, a postal address.
+- **Record it as the finding it is.** "support@ is an autoresponder loop" is a fact
+  about the route, and it belongs in the file next to the address so nobody spends
+  another hour on it.
+
+A useful corollary: because the loop fires on *every* inbound message, an
+autoresponder tells you nothing about whether the original request was received or
+read. Do not treat it as an acknowledgement.
