@@ -725,6 +725,34 @@ What each of them retains is then a dead identifier that matches nothing. The
 disclosure is real but time-boxed, and it buys deletion across every broker in the
 category for one exposure rather than one per company.
 
+**A fourth company has now said the same thing, and it produced the most useful side
+effect of the pattern.** Mogean answered:
+
+> *"Mogean does not have any of the information that you provided. We deal exclusively
+> in mobile advertising identifiers, so if you reply back with your valid advertising
+> identifier GUID we will check our systems."*
+
+The first sentence is an **unqualified negative for every identifier supplied** — name,
+addresses, telephone numbers, email addresses. That is worth recording on its own: a
+MAID-only broker cannot match you by name, so asking it to try produces the cleanest
+`not_found` available anywhere, for everything except the identifier space it actually
+uses. **Send the letter even when you expect the MAID gate**, because the refusal comes
+with a negative attached.
+
+Watch for the closing move, too: *"we are unable to process your request and are
+considering this request closed."* A closed ticket means a later reply starts from the
+top. Ask them to hold it open — it costs a sentence.
+
+**Two questions worth asking regardless of what you decide**, because neither depends on
+supplying anything:
+
+  - **If I supply an identifier and you find no match, will you tell me?** A confirmed
+    no-match is a real result.
+  - **Does deletion cover the derived records** — location, visit and dwell histories,
+    audience segments, inferred attributes keyed to that identifier — **or only the
+    identifier row?** Deleting the key while keeping the history keyed to it is not a
+    deletion in any useful sense.
+
 **Two practical notes.** If tracking is already disabled, the iOS identifier is all
 zeros — there is nothing to disclose and nothing to gain, so check before deciding.
 And decide **once for the whole category**: handling these one at a time multiplies

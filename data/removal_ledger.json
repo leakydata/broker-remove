@@ -1445,9 +1445,9 @@
     "via": "email"
   },
   "mogean": {
-    "status": "submitted",
+    "status": "not_found",
     "changed": "2026-08-19",
-    "via": "email"
+    "via": "reply"
   },
   "moneybot5000": {
     "status": "manual_required",
@@ -1484,6 +1484,16 @@
     "changed": "2026-08-18",
     "via": "reply"
   },
+  "national_public_data": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
+  "nc_solutions": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
   "nebraska_arrests": {
     "status": "submitted",
     "changed": "2026-08-16",
@@ -1498,6 +1508,11 @@
     "status": "submitted",
     "changed": "2026-08-15",
     "via": "reply"
+  },
+  "netwise": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
   },
   "nevadacourtrecords_us": {
     "status": "submitted",
@@ -1543,6 +1558,31 @@
     "status": "submitted",
     "changed": "2026-08-16",
     "via": null
+  },
+  "nexsales": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
+  "nextroll": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
+  "nexxa": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
+  "nfocus": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
+  "nielsen": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
   },
   "north_carolina_arrests": {
     "status": "submitted",
