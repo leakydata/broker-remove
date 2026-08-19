@@ -6010,13 +6010,14 @@
       "domain": "possiblenow.com",
       "priority": 2,
       "method": "email",
-      "optout_url": "",
+      "optout_url": "https://www.possiblenow.com/do-not-sell-my-personal-information",
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "possiblenow",
       "email_to": "privacy@possiblenow.com",
       "email_verified": false,
-      "email_verified_by": null
+      "email_verified_by": null,
+      "notes": "Consent and preference management - a blanket deletion request is the WRONG instrument here; ask them to KEEP suppression records and delete everything else. Their autoresponder links to site.possiblenow.com/do-not-sell-... which 404s onto a knowledge-base host; the working URL is on www. The form is gated by a CAPTCHA before the fields are even shown, and they ask for a SEPARATE submission per address and per email address."
     },
     {
       "id": "postie",
@@ -6065,14 +6066,15 @@
       "name": "Privateeye",
       "domain": "privateeye.com",
       "priority": 2,
-      "method": "web_form",
-      "optout_url": "https://www.privateeye.com/removal",
+      "method": "unknown",
+      "optout_url": "",
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "privateeye",
-      "email_to": "support@privateeye.com",
+      "email_to": null,
       "email_verified": false,
-      "email_verified_by": null
+      "email_verified_by": "no_address_published",
+      "notes": "NO ROUTE OF ANY KIND. privateeye.com publishes no MX record, so no address at it can receive mail. Every URL path returns the homepage (catch-all 200). And all three footer legal links - Privacy Policy, Terms, Disclaimers - are href='#' placeholders that go nowhere. A people-search site running with no privacy policy, no terms, no opt-out and no contact."
     },
     {
       "id": "privatenumberchecker_com",

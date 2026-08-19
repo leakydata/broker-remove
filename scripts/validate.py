@@ -43,14 +43,26 @@ def main():
     for i, b in enumerate(brokers):
         where = f"[{i}] {b.get('id', '<no id>')}"
 
+        bid = b.get("id", "")
         for f in REQUIRED:
             if not b.get(f) and b.get(f) != 0:
                 # An email-only broker legitimately has no web opt-out page.
                 if f == "optout_url" and b.get("method") == "email" and b.get("email_to"):
                     continue
+                # And a broker with NO ROUTE AT ALL has no opt-out page either.
+                # This is a real state, not a gap in the data: a site with no MX
+                # record, no published address and placeholder legal links cannot
+                # be written to or submitted to by anyone. Forcing a URL into the
+                # field to satisfy the schema would record a route that does not
+                # exist -- the one thing this file must never do. Allowed only
+                # when the dead end is documented in a playbook, so the claim is
+                # always accompanied by the evidence for it.
+                if (f == "optout_url" and b.get("method") == "unknown"
+                        and not b.get("email_to")
+                        and (PLAYBOOKS / f"{bid}.md").exists()):
+                    continue
                 errors.append(f"{where}: missing required field '{f}'")
 
-        bid = b.get("id", "")
         if bid and not ID_RE.match(bid):
             errors.append(f"{where}: id must be lowercase letters/digits/underscores")
         if bid in seen_ids:

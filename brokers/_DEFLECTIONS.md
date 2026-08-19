@@ -1127,3 +1127,50 @@ missing button looks like a page that has not finished rendering.
   promises to *"remove all your information from our site"*.
 - **Record it as a route that does not exist**, not as a request awaiting reply.
   Otherwise it sits in a tracker looking pending forever.
+
+## 33. "Submit a separate request for each" — the arithmetic deflection
+
+A consent-and-preference-management company's autoresponder, otherwise polite and
+helpful:
+
+> *"If you have multiple addresses or email addresses, please submit a separate
+> request for each."*
+
+Read on its own it sounds like ordinary hygiene — one identifier, one clean
+record. Multiply it out and it is a wall.
+
+A person with sixteen addresses and twelve email addresses is being asked for
+**twenty-eight submissions**. And on this site a CAPTCHA gates the form *before
+the fields are displayed* — the button reads "Verify & Continue to Form" — so it
+is twenty-eight CAPTCHAs as well.
+
+Nobody has refused anything. There is no exemption claimed, no jurisdiction
+argument, no carve-out. The request is simply priced out of reach, and priced in
+the one currency a data subject cannot delegate or automate: their own attention,
+one CAPTCHA at a time. **And the cost scales with exposure** — the person with the
+longest address history, who most needs the removal, pays the most to get it.
+
+This is the same shape as §30 (the one-record cap), arriving from the other
+direction. There the form did less than you needed; here it does exactly what you
+need, N times.
+
+### What to do
+
+- **Keep the emailed request as the request of record.** A letter naming all
+  twenty-eight identifiers at once is one request; it has already been received;
+  and an autoresponder saying "we will respond in a timely manner" is not a
+  refusal to handle it. Do not let the form's existence retire the letter.
+- **Say the arithmetic out loud in the reply.** Twenty-eight submissions is a
+  fact about their process, and stating it plainly — without complaint — is
+  usually the first time anyone has.
+- **Ask whether the form can accept multiple identifiers**, or whether a single
+  written request can be processed as one. Both are cheap for them to say yes to.
+- **If you use the form anyway, triage.** Current address plus the two or three
+  live email addresses covers most real exposure. Do not grind through the
+  historical list at one CAPTCHA each; the marginal value drops fast and the
+  letter already carries them all.
+- **Watch for a broken link in the same message.** This one's autoresponder
+  pointed at a `site.` subdomain that 404'd onto a hosted knowledge base; the
+  working page was the same path on `www`. An automated reply is written once and
+  then sent for years, so it is exactly where a stale URL survives longest —
+  **always load the link before following its instructions.**

@@ -1884,6 +1884,46 @@
     "changed": "2026-08-19",
     "via": "email"
   },
+  "precisely": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
+  "privateeye": {
+    "status": "unreachable",
+    "changed": "2026-08-19",
+    "via": "web"
+  },
+  "privatenumberchecker_com": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
+  "privaterecords": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
+  "privatereports": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
+  "privco": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
+  "propertychecker": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
+  "propertyiq": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
   "publicrecords_com": {
     "status": "submitted",
     "changed": "2026-08-18",
