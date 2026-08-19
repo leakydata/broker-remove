@@ -410,3 +410,134 @@ so before a letter went out.
 8. same-minute replies
 9. shared mail vendor / shared DNS vendor — weak on its own; only worth citing
    alongside near-identical branding in the same niche
+
+---
+
+## Scanning the whole list for nameserver pairs (added 2026-08-19)
+
+The Cloudflare-nameserver-pair signal (rank 2) was written up as something to check
+when two brokers already look related. It is much more useful run the other way —
+as a **sweep over every domain in the tracker**, looking for pairs that repeat.
+
+It costs one DNS query per domain and finds families nobody suspected:
+
+    # dump id + domain, then resolve NS for all of them in parallel
+    cat doms.txt | xargs -P 40 -n 2 sh -c \
+      'echo "$0|$1|$(dig +short +time=3 +tries=1 NS "$1" | sort | tr "\n" " ")"' \
+      > ns_all.txt
+
+    # then group by the pair
+    sort -t'|' -k3 ns_all.txt | awk -F'|' '{print $3}' | uniq -c | sort -rn
+
+639 domains resolved in a few seconds. One pair — `coleman` + `paloma` — turned out
+to cover **seven** people-search brands, four of which had answered with a
+byte-identical support template within twenty-five minutes, and three of which had
+never been contacted at all.
+
+> **Run the sweep before the letters, not after.** A family found in advance is one
+> letter naming seven brands. A family found afterwards is seven threads, seven
+> ticket numbers, and seven chances for a partial removal that each site considers
+> complete.
+
+### The false positive that matters: a shared *nameserver* is not a shared *pair*
+
+The same sweep returned two other domains carrying `coleman.ns.cloudflare.com`:
+
+    mainearrests.org    alina.ns.cloudflare.com  + coleman.ns.cloudflare.com
+    nextroll.com        coleman.ns.cloudflare.com + rosalyn.ns.cloudflare.com
+
+Neither is related to the seven, and neither is related to the other.
+
+> **Cloudflare reuses individual nameserver hostnames across many accounts; it is
+> the specific *pair* that is assigned per account.** Matching on one nameserver
+> produces confident-looking nonsense — an ad-tech company and a county arrest-
+> records site "related" to a people-search network they have nothing to do with.
+
+So the grouping key must be the **sorted pair**, never a substring match on one
+hostname. The `sort | tr` in the command above is doing real work: it normalises
+the ordering so that `A B` and `B A` group together, and keeps both halves.
+
+**And the negative still does not disprove anything.** Two brands under one owner
+can sit on different Cloudflare accounts, or on different DNS providers entirely,
+particularly after an acquisition. A matching pair is strong evidence of a family;
+a non-matching pair is no evidence of anything.
+
+## What the sweep actually found (2026-08-19)
+
+Six Cloudflare nameserver pairs each covering multiple brokers in the tracker —
+**48 domains across six accounts.** Every group is internally coherent, and several
+retro-explain observations that had been recorded separately as coincidences.
+
+    josh + sima  (11)   advancedbackgroundchecks · cyberbackgroundchecks
+                        fastbackgroundcheck · fastpeoplesearch · peoplesearchnow
+                        phonebooks · propertyreach · searchpeoplefree
+                        smartbackgroundchecks · usa-people-search · usphonebook
+
+    hans + ines  (10)   alarmscalifornia · californiabrokers · californianursing
+                        californiaengineering · californiapharmacists
+                        californialicensing · contractorscalifornia
+                        dentistscalifornia · firearmscalifornia · notariescalifornia
+
+    eva + igor    (8)   beenverified · bumper · freephonetracer · neighborwho
+                        numberguru · ownerly · peoplelooker · peoplesmart
+
+    coleman + paloma (7) cocofinder · fastpeoplesearch.io · findpeoplefast.net
+                        realpeoplesearch · searchpeoplefree.net
+                        truepeoplesearch.net · usphonelookup
+
+    chloe + ed    (7)   kidslivesafe · publicdatacheck · publicrecordreports
+                        publicinfoservices · quickpublicrecords
+                        searchpublicrecords · spyfly
+
+    amy + jeff    (5)   criminalrecords · peoplefinder · peoplefind
+                        reversephonelookup · ussearch
+
+Three of these explain earlier findings that had been noted without a cause:
+
+- **chloe+ed** is why four brands returned identical Zendesk acknowledgements
+  within minutes of each other, and it answers the open "how many sites does this
+  cover?" question put to one of them — the answer is seven, not four.
+- **eva+igor** is the BeenVerified group, and it is why two of its brands sent the
+  same customer-care template on the same day.
+- **hans+ines** is a set of California licence-lookup sites that were being worked
+  as ten unrelated entries.
+
+> **The sweep is worth running once at the start of a project and again whenever
+> the broker list grows.** Every group above turns N letters into one, and surfaces
+> siblings that were never on the list to be contacted.
+
+### Two cautions the same data demonstrates
+
+**Registrar default nameservers are not a family signal.** The largest group in the
+sweep was 25 domains on `dns1/dns2.registrar-servers.com` — that is Namecheap's
+shared default, and the equivalent traps are `domaincontrol.com` (GoDaddy),
+`googledomains.com`, `dnsmadeeasy.com` and `constellix.com`. These are shared by
+every customer of that provider.
+
+> **Only *vanity-assigned* pairs carry the signal.** Cloudflare's `<name>.ns.
+> cloudflare.com` pairs are allocated per account, so a shared pair means a shared
+> account. A shared *registrar default* means only that two companies use the same
+> registrar, which is no evidence at all.
+
+**A non-matching pair disproves nothing, and here is the proof.** `reversephone.com`
+sits on `braelyn + justin` — a different account from the eva+igor group — yet it
+sent a *byte-identical* customer-care template to `peoplelooker.com` on the same
+day. DNS said unrelated; the template said related; the template was right. Brands
+acquired at different times commonly keep their own DNS accounts.
+
+> **Use DNS to find families you did not suspect. Use behaviour to confirm the ones
+> you did.** Neither signal subsumes the other.
+
+### And a trap in the opposite direction: the same name is not the same company
+
+    truepeoplesearch.com   david.ns.cloudflare.com  + kami.ns.cloudflare.com
+    truepeoplesearch.net   coleman.ns.cloudflare.com + paloma.ns.cloudflare.com
+
+Same brand string, different TLD, **different Cloudflare accounts** — and the `.net`
+sits squarely inside the coleman+paloma people-search network while the `.com` does
+not. These are two different operators.
+
+> **Never assume a `.net`, `.org` or `.io` variant is the same company as the
+> `.com`.** Treat them as separate entries, write to both, and do not let a removal
+> confirmed by one be recorded against the other. The name is the one piece of
+> evidence that costs nothing to copy.
