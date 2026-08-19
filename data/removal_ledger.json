@@ -1897,7 +1897,7 @@
   "privatenumberchecker_com": {
     "status": "submitted",
     "changed": "2026-08-19",
-    "via": "email"
+    "via": "web"
   },
   "privaterecords": {
     "status": "submitted",
@@ -1917,9 +1917,39 @@
   "propertychecker": {
     "status": "submitted",
     "changed": "2026-08-19",
-    "via": "email"
+    "via": "web"
   },
   "propertyiq": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
+  "propertyradar": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
+  "propertyreach": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
+  "propertyrecord_com": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
+  "propertyrecs": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
+  "public_data_check": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
+  "public_information_services": {
     "status": "submitted",
     "changed": "2026-08-19",
     "via": "email"

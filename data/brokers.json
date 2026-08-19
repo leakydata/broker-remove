@@ -6407,13 +6407,14 @@
       "domain": "privatenumberchecker.com",
       "priority": 2,
       "method": "web_form",
-      "optout_url": "https://www.privatenumberchecker.com/removal-request/",
+      "optout_url": "https://www.privatenumberchecker.com/removalrequest/",
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "privatenumberchecker-com",
-      "email_to": "support@privatenumberchecker.com",
+      "email_to": null,
       "email_verified": false,
-      "email_verified_by": null
+      "email_verified_by": "delivery_evidence",
+      "notes": "support@privatenumberchecker.com hard-bounces 'address not found' despite the domain publishing MX. Use /removalrequest/ - a short form, NO CAPTCHA, with a free-text 'Removal reason' box that accepts a full multi-identifier request. Phone field rejects hyphens ('must be numeric') and the failed validation leaves the submit button DISABLED, so the correction cannot be sent without reloading. Cloudflare challenges the page but clears in ~10s."
     },
     {
       "id": "privaterecords",

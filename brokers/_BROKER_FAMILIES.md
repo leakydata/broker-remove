@@ -350,3 +350,63 @@ weak alone — a template can be a shared vendor rather than a shared owner.
 **Use it the same way regardless:** name the siblings in one letter, ask the operator to
 confirm the relationship and extend scope, and treat a confirmation that covers only the
 brand you wrote to as a partial answer.
+
+## A shared Cloudflare nameserver pair means a shared Cloudflare account
+
+Cheap, decisive, and it belongs high in the ranked list — just below a shared
+non-obvious URL path.
+
+When a domain is put behind Cloudflare, Cloudflare assigns it a **pair of
+nameservers drawn from a large pool** and, crucially, **assigns the same pair to
+every domain in that account**. So two apparently unrelated brands answering on
+the same pair are, in the ordinary case, two domains managed from one Cloudflare
+login.
+
+    $ dig +short NS publicdatacheck.com
+    chloe.ns.cloudflare.com.
+    ed.ns.cloudflare.com.
+
+    $ dig +short NS publicinfoservices.com
+    chloe.ns.cloudflare.com.
+    ed.ns.cloudflare.com.
+
+Two `dig` calls, no page loads, nothing to scrape.
+
+**Why it outranks shared mail hosting.** `mx1.emailsrvr.com` (Rackspace),
+`aspmx.l.google.com` and `*.mail.protection.outlook.com` are shared by millions
+of unrelated businesses — finding two brokers on Google Workspace tells you
+nothing. A Cloudflare nameserver pair is not a vendor, it is *an account within
+the vendor*, which is a much smaller set.
+
+**It also produces useful negatives.** In the same sweep, `privateeye.com`
+answered on `alex.ns`/`ulla.ns` and `privatenumberchecker.com` on
+`noel.ns`/`ada.ns`. Similar names, same category, **different accounts** — so a
+family assumption based on branding alone would have been wrong, and the DNS said
+so before a letter went out.
+
+### Limits, and how to use it
+
+- **Not proof.** A web agency or hosting reseller may hold many unrelated clients
+  in one account. Treat a match as a strong question, not a finding.
+- **Only applies behind Cloudflare.** Domains on Route 53, registrar DNS or their
+  own nameservers need a different signal — for those, look at whether the mail
+  provider *and* the DNS provider *and* the branding all coincide, which is
+  weaker and should be phrased more tentatively.
+- **State the inference and its evidence, and invite correction.** "These two
+  share a Cloudflare nameserver pair, which normally means one account — if that
+  is wrong, say so and I will write to them separately." That costs nothing if
+  wrong, saves an exchange if right, and avoids an argument about the
+  relationship instead of an answer about the data.
+
+### Where this fits in the ranked signal list
+
+1. identical non-obvious URL path (`/api/helper/optOutLight/search`)
+2. **identical Cloudflare nameserver pair**
+3. privacy address on another brand's domain
+4. rights portal on a parent's tenant (`firstam.service-now.com`)
+5. postmaster domain on a bounce naming a different company
+6. shared ticket-number sequences
+7. identical support templates
+8. same-minute replies
+9. shared mail vendor / shared DNS vendor — weak on its own; only worth citing
+   alongside near-identical branding in the same niche
