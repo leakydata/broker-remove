@@ -6422,14 +6422,15 @@
       "name": "Quick People Trace",
       "domain": "quickpeopletrace.com",
       "priority": 2,
-      "method": "email",
-      "optout_url": "",
+      "method": "web_form",
+      "optout_url": "https://www.usatrace.com/your-privacy/",
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "quick-people-trace",
-      "email_to": "clients@quickpeopletrace.com",
-      "email_verified": false,
-      "email_verified_by": null
+      "email_to": "research@usatrace.com",
+      "email_verified": true,
+      "email_verified_by": "broker_reply",
+      "notes": "Holds NO data of its own - by its own account it only displays search results from PeopleFinders.com. Sibling site is usatrace.com, same operator: both on SiteGround nameservers and the same mailspamprotection MX. A block on USATrace propagates to QuickPeopleTrace within 48h. Real contact is research@usatrace.com. Block is per-profile, capped at one, and suppresses the PREVIEW only - the source record stays at PeopleFinders."
     },
     {
       "id": "quick_public_records",
@@ -7989,11 +7990,13 @@
       "domain": "usatrace.com",
       "priority": 2,
       "method": "web_form",
-      "optout_url": "https://www.usatrace.com/optout/",
+      "optout_url": "https://www.usatrace.com/your-privacy/",
       "needs_email_confirm": false,
       "email_to": "research@usatrace.com",
       "email_verified": true,
-      "optery_slug": "usatrace"
+      "optery_slug": "usatrace",
+      "email_verified_by": "broker_reply",
+      "notes": "Front end for PeopleFinders - 'Powered by PeopleFinders' on the search form, and their privacy page states 'USA Trace is not a data broker - we do not store any information'. Sibling of quickpeopletrace.com. Profile-block tool on /your-privacy/ blocks the preview only, one profile per person."
     },
     {
       "id": "usdatacorporation",

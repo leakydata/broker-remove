@@ -2000,9 +2000,9 @@
     "via": "email"
   },
   "quick_people_trace": {
-    "status": "submitted",
+    "status": "not_found",
     "changed": "2026-08-19",
-    "via": "email"
+    "via": "reply"
   },
   "quick_public_records": {
     "status": "submitted",
@@ -2020,6 +2020,31 @@
     "via": null
   },
   "reach_marketing": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
+  "real_performance_marketing": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
+  "reallygreatrate": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
+  "realpeoplesearch": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
+  "realsource_data": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
+  "realtyhop_com": {
     "status": "submitted",
     "changed": "2026-08-19",
     "via": "email"
@@ -2133,6 +2158,11 @@
     "status": "confirmed",
     "changed": "2026-08-18",
     "via": "web"
+  },
+  "usatrace": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
   },
   "ussearch": {
     "status": "submitted",
