@@ -310,3 +310,58 @@ So suppressing the front ends does nothing here, and clearing this record is the
 only action that reaches the data itself.
 
 See [[usatrace]] and [[quickpeopletrace]] for the downstream pair.
+
+## Stage 2: the Record Suppression Form (updated 2026-08-19)
+
+The emailed link lands on a page titled **Record Suppression Form** — a better name
+than most, and it matches what the site says it does:
+
+> "Based on the information you enter, we will locate your record and remove it
+> from our system within 3 days."
+
+Fields, in order: first / middle / last, email, phone, date of birth as **three
+separate controls** (a month dropdown, a `DD` box and a `YYYY` box), street address,
+city, a state dropdown, a certification checkbox, and then a **second reCAPTCHA**
+above Submit.
+
+So the flow gates twice: once to get the link, once to use it. Both need a human.
+
+### The pre-filled email is percent-encoded and stays that way
+
+The emailed URL puts the address in the **path**, encoded:
+
+    /opt-out/removal-identification/<uuid>/jane%40example.com?fn=…&mn=…&ln=…
+
+The form reads it back and drops it into the Email box **without decoding it**, so
+the field arrives containing the literal string `jane%40example.com`.
+
+> **A `%40` in an email field is a valid-looking value that is not an email
+> address.** It will pass a cursory glance, and it may pass the form's own
+> validation, but the request is then filed against an address that does not exist
+> — so the confirmation email goes nowhere and the requester never learns the
+> difference.
+
+Correct it by hand before submitting. This is the same class as §47 (grey is not
+evidence): a field that *looks* populated correctly and is not.
+
+### And the `ticketid` mangling repeats
+
+As with the other site running this identical vendor flow, the emailed link's
+`ticketid` parameter did not survive retrieval through a mail API — the same `=`
+plus two bytes eaten. The path UUID is the real token, and dropping the damaged
+query parameter entirely worked: the form loaded and accepted input. See §48.
+
+### Note the vendor, not just the brand
+
+The stage-1 email is word-for-word the template another people-search site sends —
+*"Here are the final steps for completing your privacy request on X. If you waited
+longer than 24 hours to click the link below, you will need to start over"* — yet
+the two sit on **different Cloudflare accounts**.
+
+> **A shared removal-flow vendor is not a shared owner.** Identical two-step flows,
+> identical emails and identical 24-hour expiries indicate a common compliance
+> vendor, which is a weaker signal than a shared nameserver pair. Useful for
+> predicting how a flow behaves; not evidence of a family.
+
+See [[_BROKER_FAMILIES]] on ranking signals, and [[phonebooks_com]] for the same
+flow at another brand.

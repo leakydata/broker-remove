@@ -137,3 +137,36 @@ that already contained every field it asked for. See [[cocofinder]].
 
 Family: Cloudflare pair `coleman` + `paloma`, seven brands. See
 [[_BROKER_FAMILIES]].
+
+## The search box is an affiliate funnel, not a search (updated 2026-08-19)
+
+The removal form requires a profile URL. The obvious way to get one is the site's
+own people search. Submitting it does not return results — it **opens third-party
+brokers in new tabs**, with the query embedded in the URL:
+
+    truthfinder.com/search/?…utm_campaign=findpeoplefast…firstName=…&lastName=…
+    intelius.com/phone/search/?…utm_campaign=findpeoplefast…phone=…
+
+Both carry `utm_campaign=findpeoplefast` and an affiliate sub-ID. The name went to
+one; the **telephone number** went to the other.
+
+> **A consumer trying to find their own profile URL — in order to satisfy this
+> site's own removal form — instead hands their name and phone number to two
+> further data brokers as affiliate traffic.**
+
+That reframes the entry. It is not simply that the removal route is broken; the
+only route the site offers for satisfying its required field routes the requester's
+identifiers *outward*. Whether or not that is deliberate, it is the effect.
+
+**Practical consequences:**
+
+- **Do not use a people-search site's own search box to locate your profile for an
+  opt-out.** Use an external search engine with a `site:` restriction instead, so
+  the query never reaches the broker or its partners.
+- **Watch for new tabs opening on a search submit.** A search that navigates away
+  from the domain is an affiliate handoff, not a query — and the "no results"
+  appearance is just the original page sitting unchanged behind them.
+- If a phone number appears in an outbound affiliate URL, treat it as disclosed to
+  that partner and add the partner to the removal list if it is not already there.
+
+See [[_SILENT_FAILURES]] §55 for the required-field blocker this compounds.

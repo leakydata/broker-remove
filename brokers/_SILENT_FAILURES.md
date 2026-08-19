@@ -1989,3 +1989,71 @@ one family did it within the hour.
 A useful corollary: because the loop fires on *every* inbound message, an
 autoresponder tells you nothing about whether the original request was received or
 read. Do not treat it as an acknowledgement.
+
+---
+
+## §57 The search box that is an affiliate funnel
+
+A removal form required a profile URL. The obvious way to obtain one is the site's
+own people-search box. Submitting it appeared to do nothing — the page stayed
+where it was, no results, no navigation.
+
+It had not done nothing. It had opened **two third-party brokers in background
+tabs**, each carrying the query in the URL:
+
+    truthfinder.com/search/?…utm_campaign=<this site>…firstName=…&lastName=…
+    intelius.com/phone/search/?…utm_campaign=<this site>…phone=…
+
+The name went to one, the **telephone number** to the other, both tagged with the
+referring site's affiliate campaign and sub-ID.
+
+> **A consumer searching for their own profile — in order to satisfy the same
+> site's removal form — instead hands their identifiers to two further brokers as
+> paid traffic.** The removal route and the leak are the same click.
+
+**What this changes about how to work these entries:**
+
+- **Never use a people-search site's own search box to locate your profile for an
+  opt-out.** Use an external search engine with a `site:` restriction; the query
+  then never reaches the broker or its partners.
+- **"The search did nothing" is a conclusion to distrust.** Check the tab list, not
+  the page. A search that navigates *away from the domain* is an affiliate handoff,
+  and the original page sitting unchanged behind the new tabs is exactly what a
+  broken form would also look like.
+- **Treat anything that appears in an outbound affiliate URL as disclosed** to that
+  partner, and add the partner to the removal list if it is not there already.
+- Close those tabs rather than interacting with them. Continuing the flow on the
+  partner site is a second disclosure, and the partner has no idea the visit
+  originated in a privacy request.
+
+A darker reading is available and is not necessary: whether or not the funnel is
+deliberate, the effect on the requester is identical, and that is what the file
+should record.
+
+---
+
+## §58 The percent-encoded value that a form reads back verbatim
+
+A two-step opt-out mailed a personalised link with the requester's address encoded
+into the **path**:
+
+    /opt-out/removal-identification/<uuid>/jane%40example.com?fn=…&mn=…&ln=…
+
+The form parsed the path and pre-filled its Email box — **without decoding**. The
+field arrived containing the literal string `jane%40example.com`.
+
+> **A `%40` in an email field is a valid-looking value that is not an email
+> address.** It survives a glance. It may survive the form's own validation, since
+> `%` and `40` are legal characters in a local part. And the request is then filed
+> against an address nobody owns — so the confirmation goes nowhere, and the
+> requester's evidence that they ever filed is a page they saw once.
+
+Same family as §47 (grey is not evidence) and §38 (the field that looks committed
+and is not): **a pre-filled field is a claim, not a fact.** Read the value, do not
+read the fact that the box is non-empty.
+
+**Where to look for this generally:** any flow that puts user data in a URL and
+reflects it back. Encoded `@` (`%40`), spaces (`%20` or `+`) in a street address,
+and apostrophes (`%27`) in a surname are the common ones. A surname arriving as
+`O%27Brien` fails to match a record filed under `O'Brien`, and the removal then
+returns "no record found" for a reason that has nothing to do with the data.
