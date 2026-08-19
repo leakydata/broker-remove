@@ -2195,3 +2195,58 @@ patient; one took the trouble to correct me in four words rather than ignoring i
 
 And record it in the file. A playbook that only contains the times the technique
 worked is a playbook that will produce the same false positive again.
+
+---
+
+## §61 The link whose text and target disagree
+
+A broker's site displays a contact address in its announcement bar. Rendered, it
+reads correctly. The markup behind it does not:
+
+    <a href="mailto:info@attritbits.com">
+      <em>info@attribits.com</em>
+    </a>
+
+The **displayed text** is the real address, on a domain with working Google MX.
+The **`mailto:` target** transposes two letters, and that domain has **no NS and no
+MX at all** — it does not exist.
+
+So the failure mode splits by how a person uses the page:
+
+- **Read the address and type it** → the mail arrives.
+- **Click the address** → the mail client composes to a domain with no zone, and
+  the message hard-bounces.
+
+> **A published contact can be simultaneously correct and broken.** Every automated
+> scraper, every "copy the link address", and every ordinary click takes the
+> `href`. Only a human reading with their eyes takes the text — and they are the
+> minority.
+
+This is the inverse of §41 (an address obfuscated in `data-cfemail` where the
+*source* is right and the rendering is missing). Here the rendering is right and
+the source is wrong, which is worse, because nothing looks amiss at any point.
+
+**How to catch it.** Never harvest a contact address by reading the rendered page.
+Pull the `href` and compare:
+
+    Array.from(document.querySelectorAll('a[href^="mailto:"]'))
+         .map(a => ({shown: a.textContent.trim(),
+                     target: a.href.replace(/^mailto:/, '')}))
+         .filter(x => x.shown !== x.target)
+
+Any row that survives that filter is a bug — usually harmless (a display name), and
+occasionally this.
+
+**Then check both domains resolve**, because the disagreement alone does not tell
+you which side is wrong. Here a `dig NS` on each settled it in one command: one had
+nameservers and mail, the other had nothing.
+
+**And report it.** A neighbouring field in the same CMS record held the *correct*
+mailto URL, so this is a data-entry slip rather than anything deliberate. The
+company almost certainly does not know that every consumer who clicks their privacy
+contact is bouncing — and unlike most findings in this file, it costs them one
+character to fix.
+
+> **When a contact route is broken by a typo rather than by policy, say so
+> plainly and separately from the request.** It is the one kind of fault report
+> that is unambiguously good news for the recipient.
