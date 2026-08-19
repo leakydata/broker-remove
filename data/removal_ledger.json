@@ -1485,7 +1485,7 @@
     "via": "reply"
   },
   "national_public_data": {
-    "status": "manual_required",
+    "status": "confirmed",
     "changed": "2026-08-19",
     "via": "reply"
   },
@@ -2049,15 +2049,40 @@
     "changed": "2026-08-19",
     "via": "email"
   },
+  "recordsfinder": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
   "recordsquarry": {
     "status": "submitted",
     "changed": "2026-08-18",
+    "via": "email"
+  },
+  "recruitbot": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
+  "redbird_direct": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
+  },
+  "redi_data": {
+    "status": "submitted",
+    "changed": "2026-08-19",
     "via": "email"
   },
   "rehold": {
     "status": "unreachable",
     "changed": "2026-08-17",
     "via": null
+  },
+  "remodeling_com": {
+    "status": "submitted",
+    "changed": "2026-08-19",
+    "via": "email"
   },
   "reversephonelookup": {
     "status": "submitted",

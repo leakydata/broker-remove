@@ -8,7 +8,7 @@
 
 ## Status
 
-- Current: `manual_required` (updated 2026-08-19)
+- Current: `confirmed` (updated 2026-08-19)
 - Note: Three questions specific to their circumstances, asked as facts not rhetoric: (1) was the subject's data within the 2024 security incident, and if so which categories - that is NOT answered by deleting anything now, since the exposure already happened and knowing the categories is what lets you judge what else to protect; (2) if the business, assets or database have been transferred, sold or assigned - including through insolvency - name the entity now holding it, because a copy with a successor, trustee or receiver is in scope; (3) which sources supplied the data. Deliberately supplied NO Social Security number and asked them not to request one: emailing an SSN to have data deleted creates exactly the risk being reduced.
 
 ## Steps
@@ -91,3 +91,59 @@ status, social media profiles, driving licences; arrest records, convictions,
 warrants, court judgments, sex-offender status; property ownership and assessed
 values, **eviction information**; relatives, associates and neighbours; cell and
 landline numbers with phone-number history; and full address history.
+
+
+## Outcome: removed — and pushing back is what did it
+
+Two replies, and the difference between them is the lesson.
+
+**First reply:** step-by-step instructions for the URL-keyed self-service form.
+Helpful in tone, and it answered none of the three questions asked.
+
+**Second reply, after being pressed:**
+
+> *"Based on the information you provided, we located matching records and have
+> removed them."*
+
+No profile URL, no account, no identity document — they searched the identifiers
+from the letter and acted. **The self-service form was never necessary.** The
+handoff item was cleared rather than completed.
+
+> Where a broker offers a self-service form *and* answers email, the email route
+> can be strictly better: it searches every identifier at once, where the form
+> removes one profile per submitted link and requires the subject to pick their
+> own record out of a list of strangers sharing their name. Ask for the email
+> route explicitly before working the form.
+
+## They named the predecessor
+
+The question worth asking here was never "did you breach my data" — it was **what
+happened to the company that did**. The answer:
+
+> *"The domain was previously owned and operated by **Jerico Pictures, Inc.**
+> That company appears to have collected and stored sensitive personal data,
+> including SSNs. Following a security incident that resulted in the exposure of
+> SSNs, Jerico Pictures, Inc. shut down its website and **abandoned the
+> domain**."*
+
+**Abandoned, not sold.** That single word answers the question a change-of-owner
+disclaimer normally leaves open (see the section above): the current operator
+acquired a lapsed domain name, not a database. They add that they have never
+*"collected, stored, or had access to SSNs"*, and characterise what they held
+about this subject as *"solely publicly available information, such as name and
+address"*.
+
+Recorded as their account, given in writing. It is checkable against the public
+record of the 2024 incident, and it is far more than most operators volunteer.
+
+**`Jerico Pictures, Inc.` is a distinct entity and is not in this registry.**
+Worth noting for anyone tracing where the breached database went: it is not
+reachable through this domain, and the current operator disclaims any connection
+to it.
+
+## Still open
+
+Three things, being followed up: whether the removal is a **standing suppression**
+or a one-time deletion; whether the search covered **every** identifier supplied
+or only the current name and city; and **which sources** feed the current site,
+since naming the upstream holder is what stops the record returning.

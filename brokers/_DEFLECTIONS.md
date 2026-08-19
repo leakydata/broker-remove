@@ -1174,3 +1174,50 @@ need, N times.
   working page was the same path on `www`. An automated reply is written once and
   then sent for years, so it is exactly where a stale URL survives longest —
   **always load the link before following its instructions.**
+
+## 34. "Here are the steps to use our form" — when email would have done it
+
+A large people-search operator answered a detailed request with polite,
+step-by-step instructions for its self-service opt-out: find your profile, copy
+the URL, paste it here, confirm by email. Nothing about it was obstructive. It
+also answered none of the questions asked.
+
+Pressed once — the same questions restated, plus one drawn from the operator's
+own FAQ — the second reply said:
+
+> *"Based on the information you provided, we located matching records and have
+> removed them."*
+
+**The form was never necessary.** They could search the identifiers in the letter
+all along, and doing so was strictly better than the route they had recommended:
+
+| Self-service form | Email with identifiers |
+|---|---|
+| One profile per submitted URL | All matching records in one pass |
+| Subject must identify their own record among strangers sharing the name | Broker matches on identifiers they hold |
+| Wrong URL removes someone else's listing | No such risk |
+| No opportunity to ask anything | Questions can travel with the request |
+
+### Why this is a deflection and not merely unhelpful
+
+It moves the work — and the *risk* — from the party with the data to the party
+without it. The broker knows which records match; the consumer is guessing from a
+list. And it silently narrows the request: a form that takes one URL cannot carry
+a suppression request, a sources question, or a scope question, so everything
+except "remove this one page" is dropped without anyone saying no.
+
+### What to do
+
+- **Ask explicitly whether they can action the request from the identifiers
+  supplied**, rather than assuming the recommended route is the only one. The
+  phrasing that worked: *"please treat this email as a request covering all of
+  them, and use the identifiers in my previous message rather than making me
+  submit a link for each."*
+- **Restate the unanswered questions rather than dropping them.** A first reply
+  that ignores every question is not a refusal; it is frequently a support agent
+  sending the standard article. The second pass often reaches someone who reads.
+- **Do work the form as well if it is cheap** — but do not let its existence
+  retire the letter, and never guess at a profile URL.
+- **Say thank you when the second reply is good.** This one named the predecessor
+  company unprompted. Operators who engage are worth engaging with; the tone of
+  the follow-up is part of why the third reply arrives at all.
