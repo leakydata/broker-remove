@@ -5654,13 +5654,13 @@
       "domain": "numberguru.com",
       "priority": 2,
       "method": "web_form",
-      "optout_url": "https://www.numberguru.com/svc/optout/search/optouts/search_person_result",
+      "optout_url": "https://www.numberguru.com/svc/optout/search/optouts",
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "numberguru",
-      "email_to": "support@numberguru.com",
-      "email_verified": false,
-      "email_verified_by": "no_address_published"
+      "email_to": "privacy@numberguru.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
     },
     {
       "id": "numlookup",
@@ -5769,7 +5769,7 @@
       "optery_slug": "onemata",
       "email_to": "privacy@onemata.com",
       "email_verified": false,
-      "email_verified_by": null
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "onemodel",
@@ -5791,13 +5791,13 @@
       "domain": "openpeoplesearch.com",
       "priority": 2,
       "method": "web_form",
-      "optout_url": "https://openpeoplesearch.com/Consumer",
+      "optout_url": "https://www.openpeoplesearch.com/Consumer",
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "openpeoplesearch",
-      "email_to": "info@openpeoplesearch.com",
-      "email_verified": true,
-      "email_verified_by": "privacy_policy"
+      "email_to": null,
+      "email_verified": false,
+      "email_verified_by": "delivery_evidence"
     },
     {
       "id": "openpublicrecords",

@@ -40,3 +40,39 @@ address the subject has lived at is a probe against that inference.
 ## Verification
 
 <!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+
+
+## Outcome: the storefront is gone, the machinery is running
+
+`privacy@onemata.com` hard-bounced with "address not found", and there is no
+website on which to find an alternative. `onemata.com` and `www.onemata.com`
+return a Wix **"ConnectYourDomain Error"** page for every path tried, including
+`/privacy` and `/privacy-policy`. So: no privacy policy to read, no opt-out form,
+no contact page, and the one published address dead.
+
+The obvious conclusion is that the company folded. The DNS says otherwise:
+
+- MX pointing at Microsoft 365
+- an SPF record authorising **Outlook, SendGrid, HubSpot, Oracle Email Delivery
+  and Google** to send on the domain's behalf, plus several static IP ranges
+- a Brevo verification token and two Google site-verification tokens
+
+That is not the residue of a wound-up business. That is four email service
+providers wired up and a marketing stack in current use.
+
+> **A dead website is not evidence that a data broker has stopped holding data.**
+> The site is the only part of the operation a consumer can see, and it is the
+> cheapest part to switch off. Check MX and SPF before concluding anything: a
+> domain that still routes mail through Microsoft and sends through four ESPs is
+> being operated by somebody.
+
+This shape deserves its own status. `unreachable` records that the published
+route is genuinely gone, without implying the company is — and without implying
+the data is.
+
+Wrote to `info@` with `legal@` copied, framing the outage as a fault report,
+asking whether the business or its datasets have been sold, transferred or merged
+and to whom, and carrying the full MAID-only framing (see
+`_CATEGORY_VARIANTS.md`): no advertising identifier supplied, a request for a
+plain no-match answer, and the question of whether deletion reaches derived
+location, visit and dwell records or only the identifier row.

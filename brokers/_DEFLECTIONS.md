@@ -966,3 +966,53 @@ question is itself informative in a way that silence on a vague one is not.
 The general principle, which recurs: **a confirmation that arrives bundled with
 advice about somebody else has quietly changed the subject.** Take the
 confirmation. Then put the subject back.
+
+## 30. "You may remove one record" — the cap that bites hardest on the exposed
+
+From a reverse-lookup site's opt-out FAQ:
+
+> *"Currently, in order to prevent fraud and protect the integrity of our Do Not
+> Sell My Info/Opt-Out process, we only permit you to remove one record from our
+> People Search Results through our online Do Not Sell My Info/Opt-Out process."*
+
+Taken alone this reads as a reasonable anti-abuse measure. It is placed several
+screens below the opt-out itself, and the opt-out never mentions it.
+
+What makes it a deflection rather than a limit is the paragraph immediately
+above, in which the same FAQ explains how multiple records come to exist:
+
+> *"there may be times when we receive a new record about you that is different
+> enough from your existing record — for example, containing different spellings,
+> initials, combinations of information, and/or addresses — that we cannot match
+> this new record to your existing record. In these instances, a separate record
+> may be created in our database."*
+
+Put the two together and the cap is inverted from what it appears to be. The
+people who generate several unmatched records are the people with long address
+histories, several spellings of a name, initials on some records and a full
+middle name on others — which is to say **the people with the most exposure and
+the least ability to see it.** A person with one address and one spelling is
+fully served by the online flow. A person with sixteen addresses removes one
+record out of several and is told, accurately, that it succeeded.
+
+### What to do
+
+The FAQ that discloses the cap almost always names the way around it, because it
+has to — here, *"please contact us and we will be happy to help you."* Take that
+route in writing and make it do the work the form cannot:
+
+- **Ask for every record matching any identifier**, and list them all. Do not ask
+  them to "check for other records"; give them the list to match against.
+- **Quote their own explanation of why several records exist.** It is the whole
+  argument, and it is theirs.
+- **Ask which services were searched**, by name. A cap on records often sits
+  beside a scope limited to one product — see the sibling admission that a name
+  "might appear in search results for the other search services... even after you
+  opt-out of People Search."
+- **Ask for suppression separately.** A site that invites you to contact them
+  again each time a new record appears has told you there is no do-not-add list.
+  Ask for one anyway, and record the answer either way.
+
+The general rule: **when a self-service route announces a limit, the limit is the
+route's answer to volume, not to abuse.** Read the FAQ before using the form; the
+form will not tell you what it does not do.

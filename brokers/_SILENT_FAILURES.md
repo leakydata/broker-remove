@@ -1313,3 +1313,49 @@ channel does not say so.
 
 Related: §34, the carve-out that hides inside an offer. Same mechanism — the
 narrowing is in the shape of what is offered rather than in anything anyone says.
+
+## 38. The add-a-row modal, and how to know a row actually landed
+
+A self-service opt-out took names, addresses, phone numbers and email addresses
+as repeatable rows: click **+ ADD**, fill a small modal, click **Add**, and the
+value appears in a table. Forty items went in this way. Several did not.
+
+Nothing announced the failures. The click tool reported success on every Add. The
+modal simply stayed open, and the next **+ ADD** click — landing on a modal that
+was already open — did nothing, so the next value was typed *over* the one that
+had not yet committed. Two items were lost this way before the pattern was
+visible, and one more later.
+
+**Two distinct causes, both silent:**
+
+**A required field lost its default.** The Address modal's State selector was
+pre-filled on first use and **blank on every subsequent use**. A blank required
+field made Add do nothing at all — no error text, no red outline, no shake, no
+console message. The modal just sat there looking ready. Set every required
+field explicitly on every iteration; never rely on a default you saw once.
+
+**Speed.** Batched click-fill-Add sequences with no pauses failed almost every
+time. The modal needs a beat to close and to reopen. Roughly two seconds after
+opening and three after Add made it reliable.
+
+### The commit detector
+
+This is the part worth carrying to every other add-a-row form:
+
+> After clicking Add, re-open the modal and write the next value. If the tool
+> reports the field's **previous content as empty**, the modal was freshly
+> opened — which means the last Add committed. If it reports the **previous
+> item's text**, the modal never closed: the last Add failed silently, and you
+> are in the act of overwriting the lost value.
+
+`form_input` returns `(previous: "...")` on every call, and that string is a free,
+per-item receipt. It caught `225 Buckhout St` going missing in a batch of five
+that otherwise looked perfect, and it distinguished the two names that committed
+from the two that did not in an earlier batch of four.
+
+Belt and braces: extract the page text every few rows and read the committed
+table. It costs one call and it is the only ground truth. **Never submit a
+multi-row form without reading back the rows.**
+
+The general shape, which is §22 and §23 again in a new costume: *a tool reporting
+that it clicked something is not evidence that the something happened.*

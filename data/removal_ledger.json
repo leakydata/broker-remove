@@ -1447,7 +1447,7 @@
   "mogean": {
     "status": "not_found",
     "changed": "2026-08-19",
-    "via": "reply"
+    "via": "email"
   },
   "moneybot5000": {
     "status": "manual_required",
@@ -1627,7 +1627,7 @@
   "numlookup": {
     "status": "submitted",
     "changed": "2026-08-19",
-    "via": "email"
+    "via": "reply"
   },
   "nuwber": {
     "status": "confirmed",
@@ -1665,7 +1665,7 @@
     "via": "email"
   },
   "onemata": {
-    "status": "submitted",
+    "status": "unreachable",
     "changed": "2026-08-19",
     "via": "email"
   },
@@ -1677,7 +1677,7 @@
   "openpeoplesearch": {
     "status": "submitted",
     "changed": "2026-08-19",
-    "via": "email"
+    "via": "web"
   },
   "oregon_arrests": {
     "status": "submitted",
