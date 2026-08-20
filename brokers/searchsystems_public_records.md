@@ -30,23 +30,33 @@ decorative markup of §62.
 
 ## Gotchas
 
+- **The contact form is decorative — it submits nothing.** Verified in the page,
+  not inferred: `document.forms.length === 0`, no `<form>` element anywhere,
+  the SEND MESSAGE control is `<button type="button">` with `onclick` null and
+  no ancestor form, no hidden inputs, and the three inline scripts contain no
+  `addEventListener`, `fetch`, `XMLHttpRequest`, or any reference to the button
+  or to the field ids. This is `_SILENT_FAILURES.md` §62 — it works for nobody,
+  so do not hand it off to a human either.
+- **Check that before typing anything into it.** Fields that accept input and a
+  button that highlights on hover are not evidence a request will be sent. One
+  `javascript_tool` call settles it.
+- **The reason dropdown has no privacy option.** Broken link, add a database,
+  search help, Premium Search account, data correction, media, other. "Other"
+  would be the only honest selection even if the form worked — do not pick
+  "data correction" to make a request fit a menu.
 - **The advertised opt-out URL is a redirect.** `publicrecords.searchsystems.net/opt-out.php`
-  returns 200 but lands on `https://www.searchsystems.net/privacy` — there is no
-  opt-out page behind it. A 200 is not evidence a route exists; check the
-  effective URL, not the status code.
-- **The subdomain is the apex.** `publicrecords.searchsystems.net` redirects to
-  `www.searchsystems.net`. Probe the apex.
-- **Read what they actually are before writing.** Their privacy policy claims
-  "we do not sell or share personal information", and the site is a directory of
-  links to government record sources rather than a name-keyed index of people.
-  If that holds, the honest ask is narrow: server logs and any contact-form
-  submissions, plus confirmation that no person-level index exists. Asking a
-  link directory to delete a people profile it does not hold invites a truthful
-  "we have no record of you" that costs a send and proves nothing (§52).
+  returns 200 but lands on `/privacy`. Check the effective URL, not the status.
+- **Read what they actually are before writing.** Their policy claims they do
+  not sell or share personal information, and the site is a directory of links
+  to government sources rather than a name-keyed index of people. If that holds,
+  the honest ask is narrow — server logs, contact-form submissions, and written
+  confirmation that no person-level index exists. Asking a link directory to
+  delete a profile it does not hold invites a truthful "we have no record of
+  you" that costs a send and proves nothing (§52).
 
 ## Verification
 
-Nothing name-keyed to re-check if the link-directory characterisation is
-correct. The verification that matters is the negative one: confirm in writing
-that they operate no person-level index, which converts this from an open
-request into a closed `not_found`.
+Nothing name-keyed to re-check. The verification that matters is the negative
+one: a written or spoken confirmation that no person-level index exists, which
+converts this from `unreachable` to `not_found`. Telephone is the only channel
+left — Search Systems SR LLC, 1-888-717-3223 or (805) 574-9367.

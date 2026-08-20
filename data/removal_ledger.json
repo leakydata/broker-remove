@@ -1032,7 +1032,7 @@
   "inmatessearcher": {
     "status": "submitted",
     "changed": "2026-08-20",
-    "via": "web"
+    "via": "email"
   },
   "inmobi": {
     "status": "submitted",
@@ -2162,7 +2162,7 @@
   "sealedrecords": {
     "status": "submitted",
     "changed": "2026-08-20",
-    "via": null
+    "via": "email"
   },
   "seamless_ai": {
     "status": "submitted",
@@ -2197,7 +2197,7 @@
   "secretinfo": {
     "status": "submitted",
     "changed": "2026-08-20",
-    "via": null
+    "via": "email"
   },
   "seedtable": {
     "status": "submitted",
@@ -2404,10 +2404,20 @@
     "changed": "2026-08-20",
     "via": "email"
   },
+  "true_blue_analytics": {
+    "status": "submitted",
+    "changed": "2026-08-20",
+    "via": "email"
+  },
   "truepeoplesearch": {
     "status": "submitted",
     "changed": "2026-08-18",
     "via": "web"
+  },
+  "truepeoplesearch_net": {
+    "status": "submitted",
+    "changed": "2026-08-20",
+    "via": "email"
   },
   "truthfinder": {
     "status": "submitted",
@@ -2417,7 +2427,12 @@
   "truthrecord": {
     "status": "submitted",
     "changed": "2026-08-20",
-    "via": null
+    "via": "email"
+  },
+  "truthviewer": {
+    "status": "submitted",
+    "changed": "2026-08-20",
+    "via": "email"
   },
   "tunnl": {
     "status": "confirmed",

@@ -7951,8 +7951,8 @@
       "source": "optery_scrape",
       "optery_slug": "true-blue-analytics",
       "email_to": "privacy@trueblueanalytics.org",
-      "email_verified": false,
-      "email_verified_by": null
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
     },
     {
       "id": "truepeoplesearch_net",
@@ -7965,8 +7965,8 @@
       "source": "optery_scrape",
       "optery_slug": "truepeoplesearch-net",
       "email_to": "support@truepeoplesearch.net",
-      "email_verified": false,
-      "email_verified_by": null
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
     },
     {
       "id": "trustoria",
