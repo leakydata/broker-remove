@@ -941,3 +941,28 @@ silence as refusal.
 
 **If the site is not in English, write in both languages.** It costs one extra
 paragraph and materially raises the chance that whoever reads it acts.
+
+## Historical WHOIS / domain intelligence  (e.g. ViewDNS, DomainTools, Whoxy)
+
+Holds **who you were when you registered a domain**, which is often an address
+and a telephone number that appear in no other dataset — so these records
+survive every removal keyed to your current details and are invisible to any
+verification that searches them.
+
+Lead with the fact that you cannot enumerate what they hold: WHOIS history is
+not searchable by person without a paid account, so **"tell me what you hold, in
+categories" is a substantive ask here**, not a formality. It is the only way the
+subject learns which registrations and which old contact details are in
+circulation.
+
+Ask for suppression explicitly. These indexes are rebuilt in bulk from archived
+snapshots, so deleting a row from the live index without a suppression entry is
+undone the next time an older snapshot is re-imported.
+
+Expect "it was lawfully public at the time" and answer it twice: the publication
+was a condition of registering a domain rather than a choice about publicity,
+and the industry itself reversed the practice — registrars now redact by
+default. Then move to the stronger ground: **the republication and commercial
+supply today is a separate act**, done by them, now.
+
+See `_SILENT_FAILURES.md` §67.

@@ -2506,3 +2506,63 @@ covers both: **a link is two independent claims, and a page can be right about
 one and wrong about the other.**
 
 **Related:** §45, §61, §64, §65.
+
+## §67 The source that is not a data broker, and that no name search will lead you to
+
+A people-search page turned out to carry, alongside the usual addresses and
+relatives, a block headed "websites and domain names" — thirty domains with the
+registrant's name, contact postal address and telephone number, drawn from
+**historical WHOIS registration records**.
+
+That data has a specific and unusual history. For roughly two decades, the price
+of registering a domain was publishing your name, postal address, telephone
+number and email in a public directory. Redaction is now the registrar default,
+so a WHOIS query today returns a privacy service — but **the archives outlived
+the practice**. Snapshots taken while the records were open are held and resold
+by domain-intelligence firms, and resurface inside people-search profiles years
+later.
+
+**Why this is a silent failure rather than just another broker.** A removal
+project can be complete across a thousand people-search sites and this data will
+still be standing, for three compounding reasons:
+
+1. **It is keyed to whoever you were at registration time.** The address on a
+   registration made fifteen years ago is an address that may appear in no other
+   dataset you are working through — so it survives every removal keyed to your
+   current details, and it is invisible to any verification that searches your
+   current details.
+2. **You cannot enumerate it.** WHOIS history is not searchable by person
+   without a paid account at one of the intelligence firms. You cannot audit
+   what exists about you; you can only ask them, which is why "tell me what you
+   hold, in categories" matters more here than in an ordinary deletion letter.
+3. **It is downstream-only where you find it.** Removing it from the
+   people-search site that surfaced it does nothing to the archive it was
+   licensed from. This is the one case in this project where the *discovery* and
+   the *fix* are reliably at different companies.
+
+**Where to write.** DomainTools was already tracked; ViewDNS, WhoisXML API,
+SecurityTrails, Whoxy, DomainIQ and DomainBigData were not, and are now. Only
+ViewDNS publishes a contact address in page text — three of the others return
+403 or a Cloudflare 530 to scripted fetches, and two serve privacy and contact
+pages with no address on them at all.
+
+**The defence to expect, and the answer.** "That data was lawfully public when
+it was published." Two responses, and the second is the stronger:
+
+- The publication was **a condition of registering a domain**, not a decision
+  about publicity. And the industry itself concluded the practice was wrong —
+  which is why redaction is the default now. Pointing at their own sector's
+  reversal is more persuasive than pointing at a statute.
+- Whatever the position on the original publication, **the republication and
+  commercial supply of it today is a separate act, done by them, now.** Being
+  lawfully published in 2006 is not a licence to sell it in 2026. Keep the
+  argument on the present act; it is the one they control and the one a statute
+  actually reaches.
+
+**Worth checking on yourself.** Search a people-search aggregate page for
+"registered by", "Registrar:", or a registrar name (GoDaddy, Tucows, eNom,
+Network Solutions). If a domain you registered appears with an old address next
+to it, this category applies to you.
+
+**Related:** §52 (no record of you from a business you were never a customer of),
+and `_CATEGORY_VARIANTS.md` on identity graphs.
