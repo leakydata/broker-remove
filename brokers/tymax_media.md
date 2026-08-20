@@ -12,22 +12,35 @@
 
 ## Steps
 
-1. Email `privacyofficer@datacomplianceportal.com`.
-2. If it bounces, `datacomplianceportal.com` returning a 522 is a live signal
-   worth checking again before assuming it's dead — a 522 means Cloudflare
-   cannot reach the origin server, not that the domain doesn't exist. Retry
-   the fetch on the next pass before concluding anything.
-3. Use the "Direct mail / list rental" or "Ad tech / audience data" letter
-   from `brokers/_CATEGORY_VARIANTS.md` depending on what a reply reveals
-   about the business model.
+**No route exists.** Recorded `unreachable`, not `pending`, so a later pass does
+not spend three sends rediscovering it.
+
+| check | result |
+|---|---|
+| `privacyofficer@datacomplianceportal.com` | bounce |
+| `https://datacomplianceportal.com/` | Cloudflare **522**, origin down (browser and curl) |
+| `dig A tymaxmedia.com` | resolves |
+| `dig MX tymaxmedia.com` | live Outlook MX |
+| `https://tymaxmedia.com/` | TLS certificate does not match the hostname |
+| `http://tymaxmedia.com/` | 200 — 62 bytes, "This website is for lease." |
+| `dig SOA tymaxmedia.com` | serial dated 2017 |
 
 ## Gotchas
 
-The compliance-portal address is a third-party domain, not `tymaxmedia.com`
-itself — worth naming in the letter (as sent) so a human reading it
-understands why the domain looks unfamiliar.
+- **The first three checks all say "healthy".** A resolving domain with live MX
+  is a company that has stopped existing without telling its DNS. Do not stop at
+  the registry-health checks.
+- **The dead hop is somebody else's domain.** Their privacy contact lived at a
+  third-party compliance vendor, so every check against `tymaxmedia.com` passes
+  while the request goes nowhere. See `_SILENT_FAILURES.md` §68.
+- **Try plain HTTP when HTTPS fails on certificate mismatch.** The parking page
+  — the thing that actually tells you the company is gone — is only served over
+  `http://`.
+- **Do not hunt for another local part at the vendor.** When a compliance-vendor
+  address bounces, go back to the broker's own domain and start again.
 
 ## Verification
 
-No public profile. Written answer only; re-check the portal's availability
-before re-sending if this one bounces or times out.
+Nothing to verify. Reopen only if the business resurfaces under a new domain —
+the phone number on the parking page is the only remaining thread, and it is a
+domain-sales line, not the company.

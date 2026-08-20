@@ -8771,9 +8771,10 @@
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "x-mode-social",
-      "email_to": "privacy@xmodesocial.com",
-      "email_verified": false,
-      "email_verified_by": null
+      "email_to": "privacy@outlogic.io",
+      "email_verified": true,
+      "email_verified_by": "X-Mode Social now trades as Outlogic; privacy@outlogic.io is published on outlogic.io/privacy. The old privacy@xmodesocial.com hard-bounces 550 5.2.1 even though xmodesocial.com still has Google MX.",
+      "note": "Renamed entity. They also publish appeals@outlogic.io for appeals, eurep@ and ukrep@ for EU/UK representatives, and Hello@Outlogic.io as general contact."
     },
     {
       "id": "xome",

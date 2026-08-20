@@ -2619,3 +2619,54 @@ entries record this. Verify each one's actual product line before writing to it.
 
 **Related:** §60 — do not accuse a broker of a fault in your own pipeline. This
 is its sibling: do not accuse a broker of a business you inferred.
+
+## §68 The outsourced compliance route that outlived its vendor
+
+Twice in one day, on unrelated brokers:
+
+| broker | published privacy contact | result |
+|---|---|---|
+| ROC Advertising | `dataprivacy_rocadvertising@` **simpleoptoutcompliance.com** | `550 5.1.1` |
+| Tymax Media | `privacyofficer@` **datacomplianceportal.com** | bounce; site returns Cloudflare **522**, origin down |
+
+Both are third-party "compliance portal" vendors, hired to be the address a
+consumer writes to. Both are gone. Neither broker updated the listing.
+
+**Why this fails silently and specifically.** A vanity compliance domain is
+built to look like an endpoint that will outlast staff turnover — which is
+exactly what makes its failure invisible. The broker's *own* domain still
+resolves, still has MX, still passes every registry health check you would
+think to run, because the dead thing is somebody else's domain. Check the
+broker's domain and you learn nothing about whether the request arrives.
+
+**The tell in the address itself.** `dataprivacy_<brandname>@<vendor>.com` and
+`privacyofficer@<vendor>.com` are both shaped like a shared mailbox partitioned
+by client. When you see a privacy contact on a domain that is neither the
+broker's nor a household-name platform (OneTrust, DataGrail, Ketch, Transcend),
+treat it as **unverified until it delivers**, whatever the aggregator listing
+says.
+
+**Tymax is the fuller version of the failure** and worth reading as a diagnostic
+sequence, because the first three checks all say "healthy":
+
+```
+dig A tymaxmedia.com      -> resolves
+dig MX tymaxmedia.com     -> live Outlook MX
+registry entry            -> looks complete
+https://tymaxmedia.com/   -> TLS cert does not match the hostname
+http://tymaxmedia.com/    -> 200, 62 bytes: "This website is for lease."
+dig SOA                   -> serial 2017…
+```
+
+A resolving domain with live MX and a for-lease parking page is a company that
+has stopped existing without telling its DNS. **A privacy contact is only as
+alive as the least-alive hop in the chain**, and the chain here is broker →
+vendor → mailbox, with the registry only ever showing you the first link.
+
+**What to do.** When a compliance-vendor address bounces, do not go looking for
+another local part at the vendor — go to the broker's own domain and start
+again. If the broker's own site is a parking page too, record `unreachable`
+with the evidence rather than leaving it `pending`, because a pending entry
+invites a future pass to spend the same three sends rediscovering this.
+
+**Related:** §45, §64, §65 (the four bounce cases), §67.

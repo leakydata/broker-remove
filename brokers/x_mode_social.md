@@ -12,24 +12,41 @@
 
 ## Steps
 
-1. Email `privacy@xmodesocial.com`.
-2. Use the "Mobile location / mobility data" letter — same asks as
-   `venntel.md`: identifiers, movement history, inferred home/work,
-   identity-graph linkage, and which identifier types they matched on.
-3. Given the reporting history on this company, the downstream-recipient ask
-   (which contractors received data derived from me) is the one worth
-   pressing hardest if they reply substantively.
+**The company now trades as Outlogic.** Write to `privacy@outlogic.io`, which is
+published on `outlogic.io/privacy`. The old `privacy@xmodesocial.com`
+hard-bounces `550 5.2.1` — while `xmodesocial.com` still has live Google MX, so
+the registry entry looks perfectly healthy and the bounce is mailbox-level.
+
+They also publish `appeals@outlogic.io`, plus `eurep@` and `ukrep@` for the
+EU/UK representatives.
 
 ## Gotchas
 
-- Same MAID caution as `venntel.md` — do not volunteer a device identifier
-  to help them search.
-- X-Mode/Outlogic has previously been reported selling location data on to
-  defense and intelligence contractors under a different brand name; treat
-  a "we don't sell to government" answer as worth a specific follow-up
-  question (which buyers, by name) rather than accepting it at face value.
+- **Their own privacy page has a broken link label.** The anchor's `href` is
+  `appeals@outlogic.io` while the visible text reads `ppeals@outlogic.io` — the
+  leading letter is outside the anchor. This is `_SILENT_FAILURES.md` §66 with
+  the third polarity: the target is correct and the *text* is wrong, so a human
+  who retypes what they see gets an invalid address while a click works. Copy
+  the href, not the label.
+- **You cannot supply the identifier they key on.** This is a MAID business.
+  A consumer cannot look up their advertising IDs historically, and a reset
+  mints a new one without retiring the old, so most people have had several and
+  have a record of none. Say so plainly rather than pretending otherwise.
+- **The argument that replaces it:** ask them to treat a device-to-home-address
+  inference as identifying. Dwell pattern at a residential address is how a
+  location dataset resolves to a person, which is the direct answer to "we hold
+  no names".
+- **Name the sensitive-location categories explicitly** — worship, medical and
+  reproductive health, addiction and mental-health treatment, domestic-violence
+  shelters, correctional facilities, union halls, military installations,
+  political gatherings — and ask for a specific answer on them. A general "your
+  data has been deleted" does not say whether that category was covered.
+- **Ask for supply partners and downstream buyers.** Location data sold once
+  persists in the buyer's systems, and an individual has no route to those
+  buyers except through the seller.
 
 ## Verification
 
-No public profile. Written answer only, and the identifier-type / downstream-buyer
-questions matter more here than at an ordinary ad-tech firm.
+No public profile. The observables are whether they answer the sensitive-location
+question specifically and whether they name supply partners — a reply that
+addresses neither has not really answered.
