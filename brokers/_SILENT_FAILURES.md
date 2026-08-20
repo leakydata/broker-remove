@@ -2250,3 +2250,62 @@ character to fix.
 > **When a contact route is broken by a typo rather than by policy, say so
 > plainly and separately from the request.** It is the one kind of fault report
 > that is unambiguously good news for the recipient.
+
+---
+
+## §62 The contact form that is pure markup
+
+A site's only surviving contact route was its Contact page form: a reason
+dropdown, name, email, message, and a **Send Message** button. It accepted input
+normally. Clicking Send did nothing — no navigation, no spinner, no success
+banner, no validation error. The page simply sat there with the fields still
+populated.
+
+Three checks settled what was happening, and the third is conclusive:
+
+    document.querySelector('form')            // → null
+    button.outerHTML                          // → <button type="button">Send Message</button>
+    String(button.onclick)                    // → "null"
+
+**There is no form element on the page.** The button is not a submit button, and
+nothing is bound to its click. No script on the page even references the field
+ids. The whole thing is styled markup.
+
+> **This is not a form that failed. It is a form that never existed.** A person
+> fills it in, clicks Send, sees the page unchanged, and concludes either that it
+> worked quietly or that they did something wrong. Nobody at the company ever
+> learns they have a contact page that cannot be contacted.
+
+### How it differs from the invisible-CAPTCHA case (§59)
+
+Both look identical on screen — fill, click, nothing happens. But there a real
+request was made and **rejected**; here **no request is made at all**. The
+distinction matters because it changes what to try next: a CAPTCHA-gated form may
+work for a human, so it is worth handing off. A form with no handler will not work
+for anyone, so handing it off wastes someone's time.
+
+**Tell them apart before queueing anything for a human:**
+
+| check | gated form | decorative form |
+|---|---|---|
+| `document.querySelector('form')` | an element | `null` |
+| button `type` | `submit` | `button` |
+| `onclick` / listeners | present | `null`, none |
+| network tab on click | a request appears | nothing |
+| hidden `captcha*` field | present, empty | absent |
+
+### What it means for the record
+
+This site's other two published routes — both email addresses, one printed on the
+Contact page itself — hard-bounced with 550. So every published route failed, and
+the entry is `unreachable` rather than `failed`: there is nothing left to retry
+except a telephone number.
+
+> **Record "unreachable" only after checking whether each route is broken or
+> merely gated.** The status is a claim about the company, and it should not rest
+> on a form you did not inspect.
+
+One mitigating note worth keeping alongside it: this particular operator's own
+homepage states plainly that it is a directory of links to government sources and
+holds nothing about individuals. So the likely exposure is nil — what is
+unreachable is the ability to have that confirmed for a specific person.

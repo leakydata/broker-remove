@@ -395,8 +395,8 @@
     "via": null
   },
   "claritas": {
-    "status": "manual_required",
-    "changed": "2026-08-19",
+    "status": "submitted",
+    "changed": "2026-08-20",
     "via": null
   },
   "classmates_com": {
@@ -2180,7 +2180,7 @@
     "via": null
   },
   "searchsystems_public_records": {
-    "status": "submitted",
+    "status": "unreachable",
     "changed": "2026-08-20",
     "via": null
   },
