@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `manual_required` (updated 2026-08-20)
-- Note: form staged in full; reCAPTCHA checkbox + Submit left for a human.
+- Current: `submitted` (updated 2026-08-20)
+- Submitted and email-verified 2026-08-20. Awaiting substantive response.
 
 ## Steps
 
@@ -78,3 +78,43 @@ verification." Expect a confirm link after submission.
 Watch for the PrivacyEngine validation email, click through it, then watch for a
 response naming which brands the request covered. If the reply is scoped to
 Demand Science only, write back asking specifically about Terminus.
+
+## Outcome: submitted, verified, and an unprompted answer to the hardest question
+
+The staged form was submitted by a human (reCAPTCHA + Submit), and the emailed
+verification link was clicked the same hour. The portal confirms:
+
+> "We have received your 'Right to Erasure (Right to be Forgotten)' Request, and
+> will be in touch shortly."
+
+**The verification email is the interesting part.** Before verification, before
+any search, their autoresponder volunteers this:
+
+> "In the event that an individual has made an Opt-Out or deletion request, we
+> retain an email address and phone number (if one is in our database) in a
+> secure suppression file, which ensures that the data is not sold or processed
+> for marketing, or other purposes in the future. This is processed under the
+> legal basis of Legal Obligation."
+
+That is the answer to the question this project asks nearly every broker and
+almost never gets: **is this a suppression that survives the next ingest, or a
+one-time removal?** They say suppression, name the retained fields (email and
+phone), explain the mechanism (not sold or processed in future), and give the
+legal basis — unprompted, in a template, to someone who had not yet asked.
+
+Worth holding onto for two reasons. First, it means no follow-up is needed here.
+Second, it is the shape to quote at brokers who treat the question as unanswerable
+or as an accusation: a suppression file that retains the minimum identifiers
+needed to stay suppressed is the *correct* answer, it is easy to state, and one
+data vendor states it in an autoresponder.
+
+**Note the tension it also concedes**, and do not pretend otherwise: a deletion
+request results in their retaining an email address and a phone number
+indefinitely. That is legitimate and necessary — a suppression list that forgets
+you cannot suppress you — but it means "deleted" and "no longer held" are not the
+same state, and their wording is honest about which one applies.
+
+**Still unanswered:** whether this covers Terminus records specifically. The
+portal is branded "Demand Science US, LLC", the question was put in the Request
+Details free text, and the response so far is a generic acknowledgement. That is
+the thing to watch for in the substantive reply.

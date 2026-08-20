@@ -1465,8 +1465,8 @@
     "via": null
   },
   "mr": {
-    "status": "submitted",
-    "changed": "2026-08-19",
+    "status": "not_found",
+    "changed": "2026-08-20",
     "via": "reply"
   },
   "mugshotlook": {
@@ -2240,7 +2240,7 @@
     "via": "email"
   },
   "shopify": {
-    "status": "manual_required",
+    "status": "submitted",
     "changed": "2026-08-20",
     "via": "web"
   },
@@ -2400,7 +2400,7 @@
     "via": null
   },
   "terminus": {
-    "status": "manual_required",
+    "status": "submitted",
     "changed": "2026-08-20",
     "via": "web"
   },

@@ -8,7 +8,7 @@
 
 ## Status
 
-- Current: `manual_required` (updated 2026-08-20)
+- Current: `submitted` (updated 2026-08-20)
 
 ## Gotchas
 
@@ -115,3 +115,22 @@ has one field. The question worth asking — *which merchant stores hold records
 matching these identifiers* — has no field to put it in, and "contact the
 merchants" is not actionable advice when the merchants are unknown. That ask
 belongs in correspondence if a channel ever opens.
+
+## Submitted 2026-08-20
+
+CAPTCHA solved and submitted by a human, verification link clicked the same hour.
+Portal confirms:
+
+> "Your erasure request has been received. Your data will be erased within 30
+> days."
+>
+> Reference ID: `f7e04aba-0821-41d6-aaa4-4b5decb44754`
+
+**The verification link expires in 30 minutes**, and that is short enough to
+matter. A staged form submitted at the end of a work session, with the link
+clicked "later", will simply have to be redone — CAPTCHA and all. Check the inbox
+within the half hour or do not submit yet.
+
+Covers `leakydata@gmail.com` only. One email address per submission, so the
+remaining addresses are separate runs, each with its own CAPTCHA and its own
+30-minute link.

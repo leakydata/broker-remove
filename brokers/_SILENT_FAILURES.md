@@ -1928,6 +1928,44 @@ mislabel is harmless while the answer is "we hold nothing" and stops being
 harmless the moment a recheck finds something, because it determines which
 process gets run. Note it, do not lead with it.
 
+#### Correction: the wording was boilerplate, and the search was already broad
+
+The agency answered the follow-up in six minutes, from a named analyst:
+
+> "the response is a standard email reply, so I can understand the confusion. To
+> clarify, we did check our records **and** client records we hold for all of
+> those email addresses and phone numbers, and did not find any matches on any of
+> those data points. We also treat all request as deletion requests, so if we had
+> found any of your data, it would be deleted."
+
+Every inference drawn above about *what they searched* was wrong. They had
+searched their own records and client records, across every email address and
+phone number, before the first reply went out. The "name and/or address" phrasing
+was a template. So was "access request" — they treat every request as a deletion
+request regardless of what the template calls it.
+
+**Keep the follow-up. Drop the conclusion.** The asking was right and cost six
+minutes to resolve. What was wrong was treating the wording as evidence about the
+search rather than as evidence about the *template*. Those are different claims,
+and only the second one is supported by a boilerplate reply:
+
+> A canned negative under-describes the search that was run. It tells you what
+> the template says, not what the analyst did. Ask which — do not record "they
+> searched only X" as a finding.
+
+This matters because the register of the ask changes with it. "Did you also
+search email and phone?" is a fair question to a template. "You only searched
+name and address" is an accusation, and it would have been false here.
+
+The mirror-image risk is real too, and §11 covers it: a broad-sounding reply is
+equally weak evidence that a broad search happened. **In both directions, the
+wording of a canned reply is evidence about the canned reply.** The only thing
+that resolves it is a person answering a specific question, which is exactly what
+happened here — and what makes the one-line, everything-is-an-acceptable-answer
+follow-up worth sending every time.
+
+Recorded as a genuine `not_found`.
+
 ---
 
 ## §53 A bot-gated route is a snapshot, not a property

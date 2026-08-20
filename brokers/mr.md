@@ -1,59 +1,70 @@
 # M+R (mrss.com)
 
-- **Email:** privacy@mrss.com — live; replies come from a named individual at the firm
+- **Email:** privacy@mrss.com — live; forwards to a named analyst, not a ticket queue
 - **Method:** email — statutory request by email. No web form.
 - **Domain:** mrss.com
 - **Priority: 2.**
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-20)
-- A negative was received, but a narrow one. Not `not_found` yet.
+- Current: `not_found` (updated 2026-08-20)
+- Closed on a complete, specific negative. No further action.
 
-## Steps
+## Outcome
 
-1. Email `privacy@mrss.com`. No form, no account, no ID document.
-2. A reply arrived about a day later, sent from a person's own address with
-   `privacy@mrss.com` copied — so the alias forwards to a human rather than
-   feeding a ticketing system.
-
-## Gotchas
-
-**The negative is narrow on two independent axes.** Their reply:
+The first reply looked narrow:
 
 > "We have received and processed your access request. After searching our
 > records, we did not identify any information in our databases associated with
 > your name and/or address."
 
-| clause | what it leaves out |
-|---|---|
-| "your name and/or address" | the twelve email addresses and twelve phone numbers the request listed. In a fundraising or marketing file the email is usually the key the record sits under, and the postal address is often absent or stale. |
-| "our records ... our databases" | anything held **for a client**. M+R is an agency. Its own controller records can be genuinely empty while a nonprofit client's supporter file, sitting in M+R's systems, contains the subject. |
+Three things in that sentence invite suspicion. It says *access* request when the
+request was deletion and opt-out. It names only *name and/or address* as search
+keys, when the letter listed twelve email addresses and twelve phone numbers —
+and in a fundraising file the email is usually the key the record sits under. And
+it says *our records*, which for an agency can be entirely true while a client's
+supporter file sitting in their systems contains the subject.
 
-The second is the one that matters here, and the original letter had specifically
-asked for the processor-versus-controller split. The reply does not address it.
-See `_SILENT_FAILURES.md` §52, "The second axis: whose records were searched".
+A short follow-up asked about all three. The answer came back in six minutes,
+from a named Senior Data Analyst:
 
-**It also mislabels the request** as an *access* request; it was deletion and
-opt-out. Harmless while the answer is "nothing found" — it decides which process
-runs the moment a recheck turns something up. Worth flagging, not worth leading
-with.
+> "the response is a standard email reply, so I can understand the confusion. To
+> clarify, we did check our records **and** client records we hold for all of
+> those email addresses and phone numbers, and did not find any matches on any of
+> those data points. We also treat all request as deletion requests, so if we had
+> found any of your data, it would be deleted."
 
-**The follow-up sent**, deliberately short and unformatted because it is going to
-a named person rather than a compliance desk (`_DEFLECTIONS.md` §42):
+That closes every open point at once: own records **and** client-held records,
+every email and phone, and the "access request" label is template wording rather
+than a different process.
 
-- re-run the search against the emails and phones, which were supplied again
-- does the answer cover data held for clients as well as data held in their own
-  right? — with **"those are the client's records, go to them"** explicitly
-  offered as a complete and acceptable answer
+## Gotchas
 
-That exit is the point. It costs them nothing to take, it avoids an argument
-about who controls what, and a named client is a better outcome than a win: it
-converts one narrow negative into a new, correctly addressed request.
+**The suspicion was reasonable and the conclusion was wrong.** The narrow wording
+was boilerplate. The search behind it had already been broad. Nothing about the
+first reply distinguished a canned description of a thorough search from an
+accurate description of a shallow one — which is the actual lesson, and it cuts
+against over-reading a template:
+
+> A canned negative under-describes the search that was run. It is evidence about
+> the template, not about what the analyst did.
+
+**Send the follow-up anyway.** It cost six minutes and converted an ambiguous
+negative into a closeable one. What matters is the register: ask *which* was
+searched, do not assert that only part of it was. "Did you also search email and
+phone?" is a fair question to put to a template. "You only searched name and
+address" would have been an accusation, and false.
+
+**Offering the exit worked, and was not needed.** The follow-up offered "those
+are your clients' records, go to them" as a complete and acceptable answer. They
+did not need it — but making the cheap answer available is what makes a busy
+analyst reply in six minutes rather than escalate or ignore.
+
+**Keep it short and unformatted here.** The privacy alias forwards to a person
+who replies from their own address with a real signature. `_DEFLECTIONS.md` §42
+applies: no headings, no bold, no lettered ask-lists.
 
 ## Verification
 
-No public search page. Verification is entirely the written answer. Flip to
-`not_found` only if the recheck against email and phone comes back empty *and*
-they confirm the answer covers client-held data — or name the client, in which
-case open a new entry for that client and close this one.
+No public search page, and none needed. The negative is specific about keys and
+about role, which is the strongest form a negative takes. Closed.
