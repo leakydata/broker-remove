@@ -1366,3 +1366,77 @@ category refusal. The second reply, same day, was three words: *"Simple Answer: 
 - **A null result is a result.** Record it as `not_found`, not as an unanswered
   request, and keep the thread: if the name surfaces there later, that one line is
   what a follow-up cites.
+
+---
+
+## §38 "We require your LinkedIn URL"
+
+Two workforce/talent-intelligence datasets asked for exactly this, a day apart, in
+almost identical words:
+
+> "To ensure we identify the correct record in our database, we require your
+> LinkedIn URL."
+
+Once is a request. Twice, from two unrelated companies in the same category, is a
+**category pattern** — and worth having a settled answer to.
+
+### The need is real; the token is wrong
+
+Do not treat it as a stalling tactic. A common surname against an
+employment-keyed dataset genuinely is ambiguous, and the CPRA does contemplate
+requesting further information where identity is in doubt. Conceding that up front
+is what makes the rest of the reply land.
+
+But refuse the specific artifact, for three reasons worth stating:
+
+> **1. A LinkedIn URL is an enrichment key, not a verification token.** It is
+> live, third-party and continuously updated. Handing it to a talent-intelligence
+> company *in order to have data deleted* supplies exactly the linkage being
+> objected to — and unlike a verification factor, it stays useful to them after
+> the request closes. A verification factor should prove who you are and then be
+> discarded; this one improves the record.
+
+**2. The statute is qualified.** Additional information may be requested where
+*necessary* to verify, and a business should not collect more personal information
+than that purpose requires, preferring a less intrusive route where one exists.
+
+**3. They already hold a better identifier.** For a workforce dataset the join key
+is email — and specifically an old one:
+
+> **A `.edu` address in an institutional format is the strongest disambiguator you
+> already own.** It ties one person to one institution, it is what an
+> academic or early-career profile was sourced against, and unlike a name it does
+> not collide.
+
+### The reply that keeps it moving
+
+Ask them to run the email addresses first. Then offer a fallback that achieves the
+same disambiguation without a live identifier — **the names of the last three
+employers** — conditional on three written terms:
+
+  a. used **solely** to locate and delete, never to enrich, including if nothing is
+     found;
+  b. **deleted** if the search finds nothing — not retained as a suppression key or
+     a "requested but not found" log row; and
+  c. the request still processed as a **deletion and opt-out**, not silently
+     converted into an access-only request by the verification step.
+
+> **(b) is the one that matters. The standard failure mode is that a company
+> holding no record about a person ends up holding one *because they asked for
+> identification* — the request itself becomes the data.**
+
+### And keep the jurisdiction-independent questions alive
+
+Verification detours quietly reset a thread: the substantive questions stop being
+answered while everyone argues about identity. None of these depend on it, so
+re-ask them in the same message:
+
+- **Inferred demographics** — gender, ethnicity, veteran or disability status.
+  Diversity filtering is a *marketed feature* of this category, which makes this a
+  concrete question rather than a hypothetical, and an inferred protected
+  characteristic attached to a name is sensitive data generated without the
+  subject's knowledge.
+- **Sources** of the underlying records.
+- Whether **customers who already exported a profile** must delete it.
+- Whether a **standing do-not-source entry** is possible — sourcing here is
+  continuous, so without one a deletion is a pause.

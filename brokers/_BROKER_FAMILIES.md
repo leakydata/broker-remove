@@ -675,3 +675,56 @@ criminal-record question in the standard letter stops being boilerplate:
 > If any criminal, court, arrest or mugshot entry is attributed to me, tell me what
 > it is and its source, whether or not you remove it — an entry hidden rather than
 > corrected returns when the source is next ingested.
+
+---
+
+## Citing one sibling's granted request to the rest (added 2026-08-20)
+
+The sixteen-brand `optOutLight` family had produced exactly one confirmed removal —
+from `privaterecords`, which actioned it **from the email thread** without any form
+being completed.
+
+The consolidated letter to the other members led with that, in their own words:
+
+> "There is already a precedent within your own platform. On 19 August,
+> privaterecords wrote to me: *'From the information you provided, we have removed
+> your information from our database.'* … So the request below is one you have
+> already granted once, for the same person, on the same platform."
+
+**Four confirmations came back within 28 to 36 minutes**, all quoting the same
+sentence back.
+
+> **A confirmed removal at one sibling is the strongest thing you can put in a
+> letter to the others.** It is not an accusation, it concedes nothing, it costs
+> them nothing to match — and it makes refusal conspicuous, because the same
+> operator on the same platform has already done it once for the same person.
+
+### Why it works better than the legal argument
+
+The statutory framing invites a jurisdictional reply ("only California
+consumers…"). The precedent framing does not: there is nothing to argue about, and
+the cheapest response available to the recipient is to do the same thing their
+colleague did.
+
+**Three conditions make it usable:**
+
+1. **Quote the sibling verbatim**, so it reads as a fact rather than a
+   characterisation.
+2. **Say plainly that you are not asking anyone to confirm corporate structure** —
+   only which sites they actioned. That removes the one thing they might feel
+   obliged to resist.
+3. **Do not use it as leverage.** The letter separated the fault report about the
+   broken search form from the request itself, and said so. A precedent offered as
+   help lands differently from one offered as pressure.
+
+### Sequence the family, do not blanket it
+
+This is the practical consequence for how to work a family at all:
+
+> **Get one member to confirm first, then write to the rest citing it.** A
+> simultaneous blanket letter to sixteen brands has no precedent to lean on; a
+> staggered one converts the first success into an argument for every subsequent
+> request.
+
+Five of sixteen are now confirmed. The remaining eleven get the same letter with
+five precedents in it instead of one.

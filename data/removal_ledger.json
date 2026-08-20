@@ -225,8 +225,8 @@
     "via": null
   },
   "backgroundcheckers": {
-    "status": "submitted",
-    "changed": "2026-08-17",
+    "status": "confirmed",
+    "changed": "2026-08-20",
     "via": "reply"
   },
   "bdo": {
@@ -360,7 +360,7 @@
     "via": null
   },
   "checksecrets": {
-    "status": "submitted",
+    "status": "confirmed",
     "changed": "2026-08-20",
     "via": null
   },
@@ -1470,7 +1470,7 @@
     "via": "email"
   },
   "mugshotlook": {
-    "status": "submitted",
+    "status": "confirmed",
     "changed": "2026-08-20",
     "via": "reply"
   },
@@ -2355,7 +2355,7 @@
     "via": null
   },
   "weinform": {
-    "status": "submitted",
+    "status": "confirmed",
     "changed": "2026-08-20",
     "via": null
   },

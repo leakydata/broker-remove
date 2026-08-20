@@ -6833,9 +6833,9 @@
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "roc-advertising",
-      "email_to": "dataprivacy_rocadvertising@simpleoptoutcompliance.com",
+      "email_to": "privacy@rocadvertising.com",
       "email_verified": false,
-      "email_verified_by": null
+      "email_verified_by": "INFERRED; their published compliance-service address dataprivacy_rocadvertising@simpleoptoutcompliance.com hard-bounces 550. rocadvertising.com has MX (ppe-hosted.com)"
     },
     {
       "id": "rocketreach",
@@ -6980,9 +6980,9 @@
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "searchsystems-public-records",
-      "email_to": "webmaster@searchsystems.net",
+      "email_to": "info@searchsystems.net",
       "email_verified": false,
-      "email_verified_by": null
+      "email_verified_by": "published on their /contact page; webmaster@searchsystems.net hard-bounces 550"
     },
     {
       "id": "searchusapeople",
