@@ -132,6 +132,48 @@ def rank(addr):
     return best
 
 
+# The last local-part that still signals a rights channel. Anything ranking
+# worse than this is a general mailbox: usable as a route of last resort, but
+# not something to record as a verified privacy contact.
+GOOD_ENOUGH = PREFERENCE.index("security")
+
+# General mailboxes that are actively wrong for a deletion request, as opposed
+# to merely unspecific. `support@` reaches someone whose job is to answer; a
+# sales queue is not that, and `admin@` is usually nobody.
+WEAK = {"sales", "admin", "hello"}
+
+# Country and region qualifiers that turn a privacy mailbox into somebody
+# else's privacy mailbox. LiveRamp publishes thirteen addresses -- privacy.ar,
+# privacy.be, privacy.br, privacy.de, privacy.es, privacy.it, privacy.nl,
+# privacy.no, privacy.pl, privacy.ro, privacy.se, ukprivacy, cil (the French
+# CNIL contact) -- and not one unqualified `privacy@`. Every one of them is a
+# real, monitored privacy address, and every one belongs to a jurisdiction this
+# requester does not live in. A CCPA request sent to privacy.ro@ is not refused,
+# it is simply the wrong desk, which reads identically to silence.
+REGION = {
+    "ar", "at", "au", "be", "br", "ca", "ch", "cl", "cn", "co", "cz", "de",
+    "dk", "es", "fi", "fr", "gr", "hk", "hu", "ie", "il", "it", "jp", "kr",
+    "mx", "my", "nl", "no", "nz", "pe", "ph", "pl", "pt", "ro", "ru", "se",
+    "sg", "th", "tr", "tw", "uk", "gb", "za", "eu", "emea", "apac", "latam",
+    "anz", "americas", "uae", "intl", "international",
+}
+
+
+def region_of(addr):
+    """The region an address is scoped to, or None if it is the general one.
+
+    Works by removing the intent tokens and seeing what is left: `ukprivacy`
+    minus `privacy` is `uk`; `americas.dpo` minus `dpo` is `americas`; plain
+    `privacy` leaves nothing. Subtracting rather than pattern-matching avoids
+    the obvious trap -- `privacyadmin` ends in `in` without being the Indian
+    privacy desk."""
+    residue = addr.split("@")[0].lower().replace("-", "").replace("_", "").replace(".", "")
+    for token in sorted(PREFERENCE, key=len, reverse=True):
+        residue = residue.replace(
+            token.replace("-", "").replace("_", "").replace(".", ""), "")
+    return residue if residue in REGION else None
+
+
 def fetch(url, timeout=12):
     """Return (body_or_None, server_responded). A 404 or 403 still means the
     server is alive -- only a connection failure means it is not."""
@@ -163,7 +205,15 @@ def emails_on_site(domain):
             for m in EMAIL_RE.findall(html):
                 if not NOISE.search(m) and len(m) < 80:
                     found.add(m.lower().rstrip("."))
-            if found:
+            # Stop early only once something in the privacy/legal tier turns up.
+            # The old rule was "stop at the first page with any address", which
+            # is fine when checking an address someone already chose and wrong
+            # when discovering one: Bright Data's first readable page yields
+            # `sales@brightdata.com`, and returning there means never reaching
+            # the privacy contact further in. A sales mailbox is not a rights
+            # channel, and a deletion request sent to one is quietly discarded
+            # rather than bounced.
+            if found and min(rank(e) for e in found) <= GOOD_ENOUGH:
                 return found, answered, served
         if served:
             break
@@ -310,7 +360,13 @@ def check(b):
     # Prefer an address on the broker's own domain, best privacy local-part first.
     same = [e for e in found if e.endswith("@" + domain) or domain in e.split("@")[1]]
     pool = same or list(found)
-    pool.sort(key=rank)
+    # Rank first, then prefer the shortest local-part at the same rank. Large
+    # brokers publish a whole family of regional privacy addresses --
+    # `privacy.de@`, `privacy.ar@`, `privacy.apac@` -- which all rank
+    # identically to the plain `privacy@` beside them, so without a tiebreak the
+    # choice fell to set iteration order and LiveRamp's US-facing request would
+    # have gone to Germany. The unqualified address is the general one.
+    pool.sort(key=lambda e: (rank(e), len(e.split("@")[0]), e))
     best = pool[0]
     # Never trade down. A published-but-generic mailbox is not an improvement on
     # a purpose-built removal address, even though the published one certainly
@@ -318,7 +374,33 @@ def check(b):
     # than one sent to an unpublished privacy@ that might bounce, because a
     # bounce at least tells you it failed.
     if rank(best) < len(PREFERENCE) and (not current or rank(best) <= rank(current)):
-        out["verdict"] = "REPLACE"
+        # DISCOVERED and REPLACE are not the same finding, and collapsing them
+        # would hide the more consequential one. REPLACE displaces an address
+        # somebody already chose, and carries the duty above not to trade down.
+        # DISCOVERED fills a hole: the broker had no route at all, so any role
+        # mailbox on its own domain is a strict improvement on nowhere to write.
+        #
+        # This mattered more than it sounds. 304 brokers sat `pending` with a
+        # live domain and no address -- Equifax, Experian, TransUnion, LiveRamp,
+        # CoreLogic among them. They were not unreachable and they were not
+        # refusing; nobody had looked up where to send the letter. The email
+        # queue reported "0 brokers still to contact", which was true of the
+        # queue and false of the world.
+        if current:
+            out["verdict"] = "REPLACE"
+        elif region_of(best) and all(region_of(e) for e in pool if rank(e) <= GOOD_ENOUGH):
+            # Every rights-shaped address on the site is scoped to a region, and
+            # none of them to this requester's. Recorded so the letter can name
+            # the problem rather than pretend the desk is the right one.
+            out["verdict"] = "DISCOVERED_REGIONAL"
+            out["region"] = region_of(best)
+        elif best.split("@")[0].lower().replace("-", "").replace(".", "") in WEAK:
+            # Still worth recording -- the goal is a route, and no route is
+            # worse than a poor one -- but not worth calling verified. Flagged
+            # so the letter can be addressed accordingly and re-checked later.
+            out["verdict"] = "DISCOVERED_WEAK"
+        else:
+            out["verdict"] = "DISCOVERED"
         out["proposed"] = best
     elif current and rank(best) > rank(current):
         out["verdict"] = "KEEP_BETTER"
@@ -335,6 +417,8 @@ def main():
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--unverified", action="store_true",
                     help="only brokers whose email_verified is not true")
+    ap.add_argument("--no-email", action="store_true",
+                    help="only brokers that have a domain but no email_to at all")
     ap.add_argument("--ids", help="comma-separated broker ids")
     ap.add_argument("--limit", type=int, default=40)
     ap.add_argument("--min-priority", type=int, default=1)
@@ -346,6 +430,15 @@ def main():
     if args.ids:
         want = {i.strip() for i in args.ids.split(",")}
         pool = [b for b in brokers if b["id"] in want]
+    elif args.no_email:
+        # The brokers with nowhere to write to. They are not unreachable, they
+        # are undiscovered -- a different problem with a different fix. A domain
+        # is required: without one there is no site to read an address off, and
+        # that is the job of resolve_optery_domains.py, not this script.
+        pool = [b for b in brokers
+                if not b.get("email_to") and b.get("domain")
+                and b.get("priority", 0) >= args.min_priority]
+        pool.sort(key=lambda b: (-b.get("priority", 0), b["id"]))
     else:
         pool = [b for b in brokers
                 if b.get("email_to") and b.get("priority", 0) >= args.min_priority
@@ -377,12 +470,62 @@ def main():
 
     d = json.loads(CURATED.read_text())
     by_id = {b["id"]: b for b in d["brokers"]}
+    reg_by_id = {b["id"]: b for b in brokers}
     written = 0
     for r in results:
         b = by_id.get(r["id"])
         if not b:
-            continue
-        if r["verdict"] == "CONFIRMED":
+            # Most of the registry is generated from the Optery scrape and only
+            # gains a curated row once something has been learned about it that
+            # a regenerated scrape would otherwise throw away. A discovered
+            # address is exactly that; every other verdict here has nothing
+            # worth preserving, so it stays out of the curated file.
+            if not r["verdict"].startswith("DISCOVERED"):
+                continue
+            src = reg_by_id.get(r["id"], {})
+            b = {
+                "id": r["id"],
+                "name": src.get("name") or r["id"].replace("_", " ").title(),
+                "domain": r["domain"],
+                "priority": src.get("priority", 2),
+                "method": src.get("method") or "email",
+                "optout_url": src.get("optout_url") or "",
+                "needs_email_confirm": None,
+                "source": src.get("source") or "optery_scrape",
+                "optery_slug": src.get("optery_slug"),
+            }
+            d["brokers"].append(b)
+            by_id[r["id"]] = b
+        if r["verdict"].startswith("DISCOVERED"):
+            weak = r["verdict"] != "DISCOVERED"
+            b["email_to"] = r["proposed"]
+            b["email_verified"] = not weak
+            b["email_verified_by"] = {
+                "DISCOVERED": "privacy_policy",
+                "DISCOVERED_WEAK": "published_general_mailbox",
+                "DISCOVERED_REGIONAL": "privacy_policy_regional",
+            }[r["verdict"]]
+            if r["verdict"] == "DISCOVERED_REGIONAL":
+                b["email_alt"] = ", ".join(
+                    e for e in r["found"] if e != r["proposed"])[:200] or None
+                b["notes"] = ((b.get("notes") or "") + " " + (
+                    f"Publishes only region-scoped privacy addresses; "
+                    f"{r['proposed']} is the {r.get('region')} desk. There is no "
+                    f"unqualified privacy@ on the site. Say so in the letter and "
+                    f"ask to be routed to the US/global contact."
+                )).strip()
+            elif weak:
+                b["notes"] = ((b.get("notes") or "") + " " + (
+                    f"{r['proposed']} is the only address published on the site "
+                    f"and is a general mailbox, not a rights channel. Re-check "
+                    f"for a privacy contact before treating silence as refusal."
+                )).strip()
+            # `unknown` here means the scrape never established a route, not
+            # that a route was investigated and found not to be email. Now that
+            # there is a published address, email is the route.
+            if (b.get("method") or "unknown") == "unknown":
+                b["method"] = "email"
+        elif r["verdict"] == "CONFIRMED":
             b["email_verified"] = True
             b["email_verified_by"] = "privacy_policy"
         elif r["verdict"] == "REPLACE":

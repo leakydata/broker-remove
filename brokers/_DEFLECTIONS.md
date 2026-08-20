@@ -1800,3 +1800,91 @@ Do not argue with it. Complete it, disclaim what is inaccurate, and put the
 structural problem in writing where a human will read it.
 
 **Related:** §17, §24, §41, and §71 in `_SILENT_FAILURES.md`.
+
+---
+
+## §44 "Can you verify if it would be under a different email address or format?"
+
+LeadIQ, a B2B prospecting database, searched the eight personal email addresses
+in the request and came back with:
+
+> "We're unable to locate any data connected to this email/s. Can you verify if
+> it would be under a different email address or format? We can also search
+> under your LinkedIn profile URL."
+
+Both halves of that sentence look cooperative. Both are unanswerable, and for
+different reasons.
+
+**Part one: they are asking you to guess an identifier their system generated.**
+
+A prospecting database's index key is a *work* email address, and a large share
+of those are not addresses the person ever chose. They are constructed from a
+pattern — `first.last@`, `flast@`, `f.last@` — inferred from other employees at
+the same domain, or captured from a signature block by a customer's browser
+extension. So "which format is it under" is asking the consumer to reproduce an
+identifier the broker manufactured. There is no way to know whether they hold
+`first.last@`, `flast@`, `f.last@`, or nothing.
+
+This is the same structural shape as the MAID problem (see the identity-graph
+notes): the requester cannot look up an identifier that was never disclosed to
+them. It is not evasion — the agent asking is being genuinely helpful within a
+workflow that assumes you know your own record — but it converts an obligation
+into a puzzle only the broker has the pieces to.
+
+**Do not guess formats.** Listing plausible permutations invites a search on
+addresses that may belong to a different person entirely with the same name, and
+a hit on one of those is worse than a miss.
+
+**Part two: do not hand a prospecting database your LinkedIn URL.** §38 covers
+this as a verification demand. Here it is offered as a *search convenience*,
+which is softer and more dangerous, because there is no adversarial framing to
+put you on guard.
+
+A profile URL is a stable, globally unique, employer-linked key. Supplying one to
+a contact database supplies an identifier it may not currently hold, together
+with a link between it and every email address, phone number and postal address
+in the request. If there is genuinely no record, that search does not test for a
+match — it assembles one. The enrichment risk is not hypothetical: the join is
+the product.
+
+Under the CPRA, information used to verify or locate a record must be necessary
+and proportionate to the request. A profile URL is not the least intrusive way to
+find a contact record; it is the most productive way to build one.
+
+**What to offer instead.** Redirect to keys that are already in their possession
+or already in your letter, and that are keyed to the person rather than the
+employer:
+
+- **Telephone numbers first.** For a B2B contact database this is the highest-
+  value field and the most person-shaped one. A direct dial or personal mobile
+  follows someone between jobs, and it is the field that actually produces the
+  calls. Ask them to search the numbers specifically.
+- **Name variants**, which are what their matching engine uses anyway.
+- The `.edu` or other institutional address, if you have one — see §38, where
+  handing over a *better* identifier than the one demanded is what dislodged the
+  request.
+
+**The ask that survives a null result.** This is the part worth keeping whatever
+the search returns:
+
+> If you hold nothing today, please still add my name, telephone numbers and
+> email addresses to a permanent do-not-add suppression entry, so a future ingest
+> from an upstream supplier cannot create a record I would have to find all over
+> again.
+
+A prospecting database is continuously rebuilt from suppliers. "No record today"
+has a short shelf life; a suppression entry does not. Cite a broker that already
+does this — SourceIT holds SHA-1/SHA-256 hashes of addresses purely to prevent
+re-adding, holding suppression while holding no record. Naming another company's
+practice moves the conversation from "will you do me a favour" to "this is
+normal", which is the most reliable lever in this whole file.
+
+**And ask who supplies them.** If the record is going to arrive eventually, the
+supplier is the better target. See the SourceIT exchange in §74 of
+`_SILENT_FAILURES.md` — asking a reseller to name its sources surfaced a
+250-million-record broker that appeared in no list.
+
+**Status handling.** Not `not_found`. The search was real but was run on the
+wrong keys, and the suppression ask is outstanding. Leave it `submitted`.
+
+**Related:** §38, §41, §43; `_SILENT_FAILURES.md` §52, §73.

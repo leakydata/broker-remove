@@ -2903,6 +2903,37 @@ queue means one bulk close (see §40 and the family-detection notes). It also
 means the three follow-ups below are read by the same person, so send one
 question, not three arguments.
 
+**Update: a fourth survey arrived, and the counter turned into the answer.**
+The next day quickpublicrecords closed its ticket the same way — #3421287, from
+a fourth Zendesk subdomain. Four numbers, 3421272 / 3421273 / 3421281 / 3421287,
+issued out of one sequence across four brands.
+
+This is worth separating from the closure problem it arrived attached to,
+because it is a *discovery* technique and it works on any Zendesk-hosted family.
+Zendesk numbers tickets per account, not per brand or per help-centre subdomain.
+So if two nominally unrelated companies hand you IDs a few apart on the same
+day, they are one account. The evidence is unusually strong: not a shared host,
+not a shared registrar, not a template — a shared monotonic counter, which
+nothing but a common instance produces.
+
+The useful part is that **the broker generates this evidence itself, in the
+course of refusing to answer the question it settles.** I had asked all four
+whether they shared an operator. None answered. All four then proved it by
+sending automated mail. The nameserver evidence I opened with was suggestive;
+this is close to conclusive.
+
+**How to use it.** Put the four numbers in the reply, say plainly what they
+imply, and then — this is the part that keeps it usable — ask only for the thing
+that still isn't known. The operator question is settled; what remains is
+whether one removal covered one index or four. Offering "they are four separate
+indexes and you need four removals" as an equally acceptable answer keeps it a
+question rather than an accusation. See the §52 correction for why that register
+matters.
+
+**Collect ticket IDs even when nothing is wrong.** They are cheap to record and
+they cross-reference later. A number on its own means nothing; the fourth one is
+what turned three into a sequence.
+
 **Do not rate the survey.** Clicking a rating resolves the CSAT and gives the
 desk a metric without giving you an answer. Rate nothing.
 
@@ -3132,3 +3163,148 @@ letter. A second message is not an amendment to the first — operationally it i
 a lower-priority note attached to a ticket that has already been framed.
 
 **Related:** §11, §40, §69, §70.
+
+---
+
+## §74 The privacy mailbox that the removal industry killed
+
+SourceIT's privacy policy named `dataprivacy2026@` in its text and linked
+`dataprivacy@` underneath it — §66, and the year-stamp turned out to be a
+botched WordPress edit rather than the annual rotation I had inferred. But the
+operator volunteered *why* the old address existed to be linked at all, and it
+reframes a whole category of dead privacy mailboxes:
+
+> "Hard part I built the portal for self service, probably was one of the
+> earliest ones following CA CCPA, but some privacy removal sites would send
+> tens of thousands of emails (sometimes with pdfs) to delist which would
+> overload mail server, so retired the old email address which was originally
+> just for CA Coppa."
+
+Read that again from the consumer's side. A small broker set up a CCPA mailbox
+early — earlier than it had to. Paid removal services then pointed automated
+senders at it, tens of thousands of messages, some with PDF attachments, until
+the mail server fell over. The broker retired the address and moved everything
+to a self-service portal.
+
+**So the dead mailbox was not neglect and not evasion. It was load-shedding.**
+
+**Why this matters for diagnosis.** A hard bounce on a published privacy address
+looks the same whoever caused it. Up to this point I had been reading dead
+privacy mailboxes as one of three things: abandonment, a company that no longer
+exists, or deliberate obstruction — a channel published for the look of it and
+quietly unplugged. There is a fourth cause, and it is the opposite of the third:
+*a channel that worked, was used at industrial volume by intermediaries acting
+for consumers, and was closed under the weight of that*.
+
+I cannot tell these apart from outside, and neither can anyone else. That is the
+silent failure. But it changes what to do about it:
+
+- **Do not open with an accusation about the dead address.** "Your published
+  privacy contact bounces, which I assume is deliberate" is a bad opening and
+  may well be false. Report it as a fault — see §66 — and let the reason come
+  back on its own. It did here, unprompted, along with a same-morning fix.
+- **Prefer the portal when one exists**, even though a portal is more work than
+  an email. The operator's own reason for preferring it is legitimate: a form is
+  authenticated-ish, structured, and rate-limitable, and it does not collapse
+  under a vendor's send queue. A portal is not automatically a dark pattern.
+- **Treat a "retired" address differently from an abandoned one.** If the policy
+  text and the link disagree, one of them is usually the survivor of exactly
+  this kind of migration. Try the one in the visible text, not the one in the
+  href.
+
+**The uncomfortable second-order point.** The bulk removal services doing this
+are acting on behalf of consumers, and one of them may well be acting for the
+person reading this. Their volume closed a working channel for everyone who
+would rather write one careful letter. This is not an argument against those
+services — most people have no other realistic route — but it is a reason for
+individual requesters to behave unlike them: one message, addressed, specific,
+no attachments, no retries on a timer. The channel you are using stays open
+partly because few people use it the way a vendor would.
+
+**What the operator actually wants.** Also unprompted:
+
+> "I understand the burden for a user and would prefer a single site to
+> unsubscribe from all."
+
+Which is California's DELETE Act (SB 362) and its DROP platform — one consumer
+submission, brokers registered in California pull the list on a cycle, and the
+suppression is standing rather than point-in-time. Telling a cooperative broker
+this is worth doing: it is the thing that ends the volume problem for them and
+the letter-writing problem for everyone else, and a broker who does not know it
+exists cannot opt into it early. Give something back to the ones who answer
+properly. It costs a paragraph.
+
+**Related:** §64, §65, §66, §68, §72.
+
+---
+
+## §75 Thirteen privacy addresses, none of them yours
+
+LiveRamp's privacy pages publish, between them:
+
+`privacy.ar@`, `privacy.be@`, `privacy.br@`, `privacy.de@`, `privacy.es@`,
+`privacy.it@`, `privacy.nl@`, `privacy.no@`, `privacy.pl@`, `privacy.ro@`,
+`privacy.se@`, `ukprivacy@`, and `cil@` (the French CNIL contact).
+
+Thirteen addresses. Every one of them is a real, monitored privacy mailbox
+staffed by people whose job is to answer exactly this kind of letter. Not one of
+them is unqualified, and not one of them is the United States.
+
+**Why this is a silent failure rather than an inconvenience.** A letter to
+`privacy.ro@` is not bounced and is not refused. It arrives at a desk with no
+authority over the requester's records, which forwards it, or closes it, or
+answers about the wrong legal regime — and every one of those outcomes reads,
+from the requester's inbox, as the same thing: nothing came back. The address
+was published, the mail was delivered, the tracker says `submitted`. The failure
+is invisible at both ends.
+
+It also inverts the usual worry. The normal fear about a scraped address is that
+it is stale or fake. Here every candidate is live and correct; the defect is
+*jurisdictional scope*, which no reachability check can see. `dig`, an SMTP
+probe and a delivery receipt all pass.
+
+**How the tooling gets this wrong.** `verify_emails.py` ranks addresses by what
+the local-part signals — `privacy` outranks `support` outranks `info`. Every one
+of those thirteen contains `privacy` and ranks identically, so the pick fell to
+set iteration order, and the first run proposed the Argentinian desk, the second
+the German one, the third the UK one, on identical input. A ranking with a tie
+it cannot break is a random choice wearing a justification.
+
+**The fix, in two parts.**
+
+1. *Break the tie toward the general address.* At equal rank, prefer the shorter
+   local-part: `privacy@` beats `privacy.de@` beats `emea.privacy.dpo@`. The
+   unqualified form is the general one almost by construction.
+2. *Detect the case where there is no general address at all,* and say so rather
+   than silently picking a country. Implemented as `region_of()`, which
+   subtracts the intent tokens and asks whether what remains is a region:
+   `ukprivacy` − `privacy` = `uk`; `americas.dpo` − `dpo` = `americas`; plain
+   `privacy` leaves nothing. Subtracting beats pattern-matching here — a regex
+   for a trailing country code reads `privacyadmin` as the Indian privacy desk.
+
+When every rights-shaped address on a site carries a region and none matches the
+requester's, the verdict is `DISCOVERED_REGIONAL`: the address is still recorded,
+because a wrong desk beats no desk, but it is flagged rather than called
+verified.
+
+**What to do in the letter.** Name the problem in the first paragraph instead of
+hoping. Being explicit converts a misroute into a routing request, which is
+something a regional desk can actually action:
+
+> I am writing to your [region] privacy contact because it is the only privacy
+> address published on your site. I am a United States resident and my request
+> is made under US state law, so I expect this is the wrong desk. If there is a
+> US or global privacy contact, please forward this and tell me where it went —
+> or reply with the address and I will write there directly.
+
+**Do not read the absence as evasion.** A company with thirteen European privacy
+contacts and no American one is far more likely to have built its privacy
+function around GDPR, where naming a per-country contact is ordinary practice,
+than to be hiding from CCPA. The correct inference is about org structure, not
+motive. Ask for the routing.
+
+**Status handling.** `submitted`, with the region recorded in the note. If the
+regional desk forwards it, the reply comes from the right one and the note
+becomes the audit trail for how it got there.
+
+**Related:** §64, §65, §68, §72, §74.

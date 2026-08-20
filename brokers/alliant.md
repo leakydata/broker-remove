@@ -8,7 +8,7 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-18)
+- Current: `confirmed` (updated 2026-08-20)
 - Reference: `gmail:1a01042e8332c7f7`
 - Note: OneTrust logged BOTH requests with reference IDs and emailed them: 'Your marketing data opt out and/or marketing data deletion request has been successfully submitted. Your Request ID is 3GBWVNXAA5' and a second, A6PP4DHC2W. Two IDs for two forms, which is the artifact that proves the deletion and the opt-out were recorded separately rather than deduplicated.
 
@@ -120,3 +120,34 @@ So both forms are worth submitting, and the order does not matter much, but the
 **opt-out is the load-bearing one**. It is the one Alliant describes as suppression
 from future sales or sharing.
 
+
+## Confirmed (2026-08-20)
+
+OneTrust closed request `A6PP4DHC2W` two days after submission:
+
+> *"Your privacy-related request (Request ID: A6PP4DHC2W) has been completed."*
+
+Sent from `noreply@m.onetrust.com` under the **Alliant Cooperative Data
+Solutions** brand rather than "Alliant" — worth noting, because the registry
+entry, the website and the confirmation all use different forms of the name and a
+later search for the artifact will fail on the wrong one.
+
+**What this confirmation is and is not.** It is a portal state transition, issued
+by the vendor rather than the broker, and it names no record and no scope. That
+is weaker than SourceIT naming the address it removed, and it is the same class
+of artifact as the CSAT problem in `_SILENT_FAILURES.md` §70 — proof that
+something closed, not proof of what was done.
+
+It is recorded as `confirmed` anyway, because unlike a satisfaction survey a
+OneTrust completion is the vendor's own record of the request being *fulfilled*,
+carries a durable reference, and is retrievable from the portal later. The
+reference ID is the thing worth keeping: it is what makes a re-check in six
+months a question about a specific request rather than a fresh start.
+
+**Re-check applies with more force here than usual.** Alliant is a co-operative
+— members contribute data and receive modelled audiences back — so the failure
+mode is not a broker restoring a record but a *member re-contributing* one. That
+is why the deletion form's retention-for-suppression language is the right
+outcome rather than a red flag, and why the opt-out is the load-bearing
+submission of the two. Verify against a member cycle, not against a database
+refresh.
