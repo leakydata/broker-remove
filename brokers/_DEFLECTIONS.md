@@ -1489,3 +1489,55 @@ routes, and stated what each one does.
 > declines.** An autoresponder written to deflect still has to explain where to go,
 > and that explanation is frequently the clearest account of the company's data
 > practices you will get.
+
+## §40 The confirmation scoped to one hostname when you asked about sixteen
+
+Four sites on the `optOutLight` platform answered a single letter — one letter,
+addressed to nine mailboxes, arguing that they are one operator and asking to be
+treated as covering all sixteen — within eight minutes of each other. Each reply
+was byte-identical to the others apart from two substitutions:
+
+> "From the information you provided, we have removed your information from our
+> database at https://www.**\<this brand\>**"
+
+Read that carefully, because it is a good outcome and an incomplete one at the
+same time. It **is** a removal, and it is unqualified, and it needed no form and
+no account. It is also **scoped, silently, back down to one hostname** — the
+request to treat the letter as covering all sixteen went unacknowledged, not
+refused. The reply does not say "we only handle this brand." It says nothing.
+
+The template's second half is the part to notice:
+
+> "If your name still appears in our listings, it is possible we were unable to
+> distinguish your listing across multiple similar listings... or your browser
+> cache contains stale data... you may clear your cache, or try your search in a
+> few days when your cache has recycled stale data."
+
+Both explanations put the residual listing on your side of the line — an
+ambiguity you failed to resolve for them, or your own browser lying to you. Both
+are sometimes true. Neither is checkable by the person receiving the email, and
+between them they pre-absorb every complaint you could make about an incomplete
+removal.
+
+**How to answer.** Not by arguing about scope, which invites a "we are separate
+companies" answer nobody can disprove. Do two things instead:
+
+1. **Verify from outside the browser they blamed.** Re-run the search with a
+   cold fetch, not a reload — no cookies, no cache — so that the cache
+   explanation is off the table before you write again. If it is gone, the
+   removal was real and you owe them nothing further.
+2. **Convert the unanswered scope question into a per-brand fact.** Do not ask
+   "are you the same company?" Ask, of each brand that has not replied: *"Was
+   this site actioned by the removal you confirmed on \<brand that did reply\>,
+   yes or no?"* A database can answer that. Corporate structure cannot be
+   answered by a support agent, and asking for it gives them a reason to escalate
+   to somebody who will say less.
+
+**And keep the confirmations.** Each one is a precedent to quote at the next
+sibling — the single most effective lever found so far. A sibling's granted
+request is not an argument they can rebut; it is something their own colleague
+already did, for the same person, on the same platform.
+
+**Related:** §36 (the self-service tool that searches a different index),
+§37 (replacing the argument with a query), and `_BROKER_FAMILIES.md` on citing
+one sibling's granted request to the rest.

@@ -2369,3 +2369,84 @@ The diagnostic order is cheap: count inputs on the page and in any frame, look f
 a `<form>` element, check the submit control's `type` and handlers, then look for
 an empty hidden token field. Four checks, and they separate "try again as a human"
 from "stop and write to them instead".
+
+## §64 The working address is the one your scraper cannot see
+
+ROC Advertising's registry entry pointed at a compliance-service mailbox on a
+third party's domain. It hard-bounced:
+
+> `550 5.1.1 ... the address couldn't be found, or is unable to receive mail`
+
+Their own privacy policy does publish a working address. But it is not in the
+page text. It is written as HTML character entities:
+
+```
+&#112;&#x72;&#x69;&#118;&#x61;&#x63;y&#x40;&#x72;o&#99;&#x61;d&#118;&#x65;r&#116;&#x69;s&#105;&#x6e;g&#46;&#x63;&#x6f;&#109;
+```
+
+That is an ordinary anti-harvesting trick, and it works — it defeated it on the
+first two passes of my own tooling, which greps the fetched HTML for something
+shaped like an address. The browser renders it perfectly; the regex sees a wall
+of `&#x` and moves on. The same page encodes the address a second time with a
+*different* mix of decimal and hex escapes for the same characters, so even a
+naive "unescape the one pattern I saw" fix would have missed the second one.
+
+**The general shape.** A machine-readable address and a working address are
+different properties, and they are anticorrelated in exactly the place it hurts:
+a company that cares enough about harvesting to obfuscate its real contact often
+leaves a plain-text address on some directory listing, and that plain-text one is
+the stale one. So the address your pipeline finds most easily is disproportionately
+likely to be the dead one.
+
+**The fix is one line.** Unescape entities before extracting:
+
+```
+sed 's/<[^>]*>/ /g' page.html \
+  | python3 -c "import sys,html; print(html.unescape(sys.stdin.read()))" \
+  | grep -oiE '[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}'
+```
+
+Do this on **every** privacy-page fetch, not only when the plain scrape comes
+back empty — because the failure mode that costs you is not "no address found",
+which is visible, it is "found a different, dead address", which is not.
+
+**Two adjacent variants to check while you are there.** Addresses split across
+elements (`privacy` `<span>@</span>` `example.com`) survive tag-stripping only
+because the strip inserts a space — so also match `name ?@ ?domain`. And
+addresses written `name [at] domain [dot] com`, which no email regex will ever
+catch; grep for `\[at\]` and `\(at\)` separately.
+
+**Related:** §45 (the registered contact quietly retired), §55 (the required
+field the site will not issue), §61 (the link whose text and target disagree).
+
+## §65 Both published addresses are dead and the domain is fine
+
+Search Systems publishes `info@` on its own `/contact` page. It hard-bounces
+550 5.1.1. So does `webmaster@`, the address listed for them elsewhere. The
+domain itself is healthy — it has live Zoho MX records and answers on 443.
+
+This is worth separating from §45 because the diagnosis is different. In §45 a
+human told me the mailbox had been retired. Here nothing tells you: a live MX
+with no live mailboxes behind it produces a bounce that looks exactly like a
+typo on your side, and the natural next move — guess another local part — is
+the wrong one. Two 5.1.1 rejections from a domain that is otherwise healthy is
+not bad luck about local parts; it means **nobody is reading mail at that domain
+at all**, and the published address is decoration left over from an earlier
+staffing arrangement.
+
+Stop guessing after the second bounce. The signal to distinguish:
+
+| observation | reading |
+|---|---|
+| `5.1.1` on one guessed local part | try the published one |
+| `5.1.1` on the **published** local part | the page is stale — look for a form |
+| `5.1.1` on two or more, incl. published | the domain accepts no mail; email is not a route |
+| `5.7.1` on any | policy rejection — stop immediately, they see you |
+| no MX / null MX | the domain never accepted mail; do not try |
+
+When you land in row three, the remaining route is whatever is not email: a
+contact form, a rights portal, or a postal address. Record the domain as
+email-dead in the registry with the evidence, so a later pass does not spend the
+same three sends rediscovering it.
+
+**Related:** §45, §46, §64.

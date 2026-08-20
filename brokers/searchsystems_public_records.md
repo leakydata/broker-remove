@@ -13,51 +13,40 @@
 
 ## Steps
 
-**There is no working route.** All three published ones fail — see Gotchas. What
-was tried, in order:
+**Email is not a route here.** Both published addresses are dead:
 
-1. `webmaster@searchsystems.net` (the address carried in broker lists) → **550**.
-2. `info@searchsystems.net`, printed on their own Contact page → **550 5.1.1**.
-3. The Contact page form → **decorative**; clicking Send makes no request at all.
+| address | source | result |
+|---|---|---|
+| `webmaster@searchsystems.net` | aggregator listing | `550 5.1.1` |
+| `info@searchsystems.net` | **their own /contact page** | `550 5.1.1` |
 
-Two telephone numbers remain and have not been tried: **(805) 574-9367** and
-**1-888-717-3223**.
+The domain is healthy — live Zoho MX, site answers on 443. Two 5.1.1 rejections
+including the one they publish themselves means the domain accepts no mail at
+all; do not spend a third send guessing local parts (`_SILENT_FAILURES.md` §65).
 
-Before spending anything further on this entry, read the Verification section: the
-site's own FAQ may already be the answer.
+The remaining route is the **contact form** at `/contact` (fields `cf-name`,
+`cf-email`), which is a plain form with real named inputs rather than the
+decorative markup of §62.
 
 ## Gotchas
 
-- **Both published addresses hard-bounce**, and the domain has live Zoho MX — so
-  mail is accepted for the domain and refused at the mailbox. `5.1.1` is
-  user-unknown rather than a policy rejection, which is why a second local part was
-  worth trying; it failed too.
-- **The Contact form is pure markup.** There is no `<form>` element on the page,
-  the Send control is `<button type="button">` with `onclick` null, and no script
-  references the field ids. It accepts input and then does nothing, with no error.
-  See [[_SILENT_FAILURES]] §62.
-- Do **not** queue that form for a human. A gated form may work for a person; a
-  form with no handler will not work for anyone.
-- The site links out to a separate background-check property. That is a different
-  operator and needs its own entry — do not let this one's null result cover it.
+- **The advertised opt-out URL is a redirect.** `publicrecords.searchsystems.net/opt-out.php`
+  returns 200 but lands on `https://www.searchsystems.net/privacy` — there is no
+  opt-out page behind it. A 200 is not evidence a route exists; check the
+  effective URL, not the status code.
+- **The subdomain is the apex.** `publicrecords.searchsystems.net` redirects to
+  `www.searchsystems.net`. Probe the apex.
+- **Read what they actually are before writing.** Their privacy policy claims
+  "we do not sell or share personal information", and the site is a directory of
+  links to government record sources rather than a name-keyed index of people.
+  If that holds, the honest ask is narrow: server logs and any contact-form
+  submissions, plus confirmation that no person-level index exists. Asking a
+  link directory to delete a people profile it does not hold invites a truthful
+  "we have no record of you" that costs a send and proves nothing (§52).
 
 ## Verification
 
-Nothing was submitted, so there is nothing to verify. The entry is `unreachable` on
-route availability, not on a refusal.
-
-**The mitigating fact worth recording alongside it** is that their own homepage
-answers the substantive question unprompted, and more clearly than most operators
-manage when asked directly:
-
-> "SearchSystems.net is a **directory** — it links you directly to the official
-> government source where records are maintained. **We do not aggregate, scrape, or
-> resell personal information.** People-search sites compile data from many sources
-> into profiles and charge you to view them. We point you to the primary source."
-
-If that is accurate, the exposure here is nil and the only thing genuinely lost is
-the ability to have it confirmed for a specific person.
-
-**Re-check by testing the two email addresses again**, and by re-inspecting the
-Contact page for a real `<form>` element. Both are one command each, and the form
-is the kind of fault that gets fixed silently in a redesign.
+Nothing name-keyed to re-check if the link-directory characterisation is
+correct. The verification that matters is the negative one: confirm in writing
+that they operate no person-level index, which converts this from an open
+request into a closed `not_found`.

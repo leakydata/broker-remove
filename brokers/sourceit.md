@@ -1,16 +1,14 @@
-# Staterecords Org
+# Sourceit
 
-- **Opt-out:** https://staterecords.org/optout
-- **Email:** privacy@staterecords.org — **unverified, may bounce**
-- **Method:** web_form — Web form.
-- **Domain:** staterecords.org
+- **Email:** dataprivacy@sourceitmarketing.com — verified against their own published page
+- **Method:** email — Statutory request by email. No web form needed.
+- **Domain:** sourceitmarketing.com
 - **Priority: 2.**
 
 ## Status
 
 - Current: `submitted` (updated 2026-08-20)
-- Reference: `540287`
-- Note: Zendesk receipt 540287 issued 2026-08-20 04:44 UTC via the same 'Privacy' Zendesk instance as statecourts.org (540288, 29 seconds later). Sequential ticket numbers on one queue; see statecourts note. Site returns 308 on every path probed, which makes the URL-path family test useless here - the ticket sequence is the substitute signal.
+- Note: Sent 2026-08-20 05:36 UTC to dataprivacy@sourceitmarketing.com (confirmed on their own site). List/marketing data. Standard row-vs-person framing plus the source question, and deliberately offered them an exit on it: if naming the source is something they will not do, say so explicitly - a clear refusal is a useful answer and I will not press further. That construction has worked before (MightyRep); an unanswered question invites silence, a question with a stated acceptable refusal invites an answer.
 
 ## Steps
 

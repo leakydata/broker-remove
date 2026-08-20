@@ -1,15 +1,14 @@
-# Statecourts
+# Sterling
 
-- **Email:** privacy@statecourts.org — **unverified, may bounce**
+- **Email:** privacy@sterling.ai — verified against their own published page
 - **Method:** email — Statutory request by email. No web form needed.
-- **Domain:** statecourts.org
+- **Domain:** sterling.ai
 - **Priority: 2.**
 
 ## Status
 
 - Current: `submitted` (updated 2026-08-20)
-- Reference: `540288`
-- Note: Zendesk receipt 540288 issued 2026-08-20 04:44 UTC. Same Zendesk instance branded 'Privacy' that issues staterecords.org's tickets - 540287 vs 540288, one minute and one integer apart on the same queue. That adjacency is the strongest family evidence I have between the two, and it is worth more than the surface-name similarity, which I had already tested and rejected (different NS, different A record, no shared URL path). Sequential ticket IDs on a shared queue mean one support desk, whatever the corporate structure.
+- Note: Sent 2026-08-20 05:36 UTC to privacy@sterling.ai (confirmed on site; the site itself is Cloudflare-blocked to scripted fetches, on WP Engine). Background screening. The letter is built entirely around forcing a single choice: are you a consumer reporting agency or not? If yes, FCRA file disclosure and dispute rights; if no, the FCRA carve-out from state deletion rights does not apply and the deletion stands in full. Named the combination I will not accept - a not-a-CRA disclaimer in the terms plus an FCRA exemption invoked against a deletion request. This is the _DEFLECTIONS.md pattern of replacing an argument with a question that has only two answers, both of which help.
 
 ## Steps
 

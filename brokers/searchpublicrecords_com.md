@@ -10,7 +10,7 @@
 
 - Current: `submitted` (updated 2026-08-20)
 - Reference: `202MEG-KZVV4`
-- Note: Zendesk acknowledgement, ref 202MEG-KZVV4. Same Zendesk tenant pattern as the rest of the chloe+ed family. Awaiting a substantive reply to the letter that cited QuickPublicRecords' confirmed removal as precedent.
+- Note: Zendesk receipt 2026-08-20 02:52 UTC from support@searchpublicrecords.zendesk.com: 'Your email has been received and is being reviewed by Search Public Records support staff.' Own Zendesk subdomain, not the shared 'Privacy' instance.
 
 ## Steps
 

@@ -1612,9 +1612,9 @@
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "attribits",
-      "email_to": "compliance@allgoodmediagroup.com",
+      "email_to": "info@attribits.com",
       "email_verified": true,
-      "email_verified_by": "delivery_evidence"
+      "email_verified_by": "displayed text of the contact link on their own site; domain has Google MX. NOTE their mailto: href points at attritbits.com (transposed letters) which has no NS and no MX -- type the address, do not click it. Prior contact compliance@allgoodmediagroup.com retained as a second route."
     },
     {
       "id": "audience_acuity",
@@ -1693,9 +1693,9 @@
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "bdo",
-      "email_to": "privacy@bdo.com",
+      "email_to": "privacy@bdo-gci.com",
       "email_verified": true,
-      "email_verified_by": "delivery_evidence"
+      "email_verified_by": "named by BDO in reply as the address that replaces the retired registry contact privacy@bdo.com, 2026-08-19"
     },
     {
       "id": "belardi_wong",
@@ -4993,9 +4993,9 @@
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "mightyrep",
-      "email_to": null,
-      "email_verified": false,
-      "email_verified_by": "bounced",
+      "email_to": "privacy@mightyrep.com",
+      "email_verified": true,
+      "email_verified_by": "was hard-bouncing; repaired by the founder on 2026-08-19 after being reported",
       "notes": "privacy@mightyrep.com hard-bounces (address not found) despite being the exact address on file in MightyRep's own CA data broker registration (oag.ca.gov/data-broker/registration/564387, approved 2023-03-16) - the state registry does not guarantee deliverability. No alternate address published. Fallback is the contact form at /contact (needs a human; no CAPTCHA info available)."
     },
     {
@@ -6971,8 +6971,8 @@
       "source": "optery_scrape",
       "optery_slug": "resonate",
       "email_to": "privacy@resonate.com",
-      "email_verified": false,
-      "email_verified_by": null
+      "email_verified": true,
+      "email_verified_by": "privacy@resonate.com accepted mail and produced a substantive reply; their no-reply@ From: address bounces, 2026-08-19"
     },
     {
       "id": "retention_com",
@@ -7041,8 +7041,8 @@
       "source": "optery_scrape",
       "optery_slug": "reversephone",
       "email_to": "privacy@reversephone.com",
-      "email_verified": false,
-      "email_verified_by": null
+      "email_verified": true,
+      "email_verified_by": "published twice on their own opt-out page footer, 2026-08-19"
     },
     {
       "id": "reversephonelookup",
@@ -7110,9 +7110,9 @@
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "roc-advertising",
-      "email_to": "dataprivacy_rocadvertising@simpleoptoutcompliance.com",
-      "email_verified": false,
-      "email_verified_by": null
+      "email_to": "privacy@rocadvertising.com",
+      "email_verified": true,
+      "email_verified_by": "published in rocadvertising.com/privacy-policy/ as HTML character entities (scraper-resistant); requires subject line \"Data Removal Request\". Old address dataprivacy_rocadvertising@simpleoptoutcompliance.com hard-bounces 550 5.1.1."
     },
     {
       "id": "round_sky",
@@ -7236,9 +7236,9 @@
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "searchsystems-public-records",
-      "email_to": "webmaster@searchsystems.net",
+      "email_to": "info@searchsystems.net",
       "email_verified": false,
-      "email_verified_by": null
+      "email_verified_by": "DEAD: both published addresses hard-bounce 550 5.1.1 (webmaster@ and info@, the latter printed on their own /contact page). Domain has Zoho MX but neither mailbox exists. Only live route is the /contact form."
     },
     {
       "id": "searchusapeople",
@@ -7417,8 +7417,8 @@
       "source": "optery_scrape",
       "optery_slug": "smartmove",
       "email_to": "info@ctam.com",
-      "email_verified": false,
-      "email_verified_by": null
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
     },
     {
       "id": "snoopstation",
@@ -7445,8 +7445,8 @@
       "source": "optery_scrape",
       "optery_slug": "sourceit",
       "email_to": "dataprivacy@sourceitmarketing.com",
-      "email_verified": false,
-      "email_verified_by": null
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
     },
     {
       "id": "south_carolina_arrests",
@@ -7583,7 +7583,7 @@
       "optery_slug": "staircase",
       "email_to": "optout@staircase.co",
       "email_verified": false,
-      "email_verified_by": null
+      "email_verified_by": "no_address_published"
     },
     {
       "id": "statara",
@@ -7637,9 +7637,9 @@
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "step2success-marketing",
-      "email_to": "mary@step2successmarketing.com",
-      "email_verified": false,
-      "email_verified_by": null
+      "email_to": "info@step2successmarketing.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
     },
     {
       "id": "steppingblocks",
@@ -7652,8 +7652,8 @@
       "source": "optery_scrape",
       "optery_slug": "steppingblocks",
       "email_to": "privacy@steppingblocks.com",
-      "email_verified": false,
-      "email_verified_by": null
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
     },
     {
       "id": "sterling",
@@ -7666,8 +7666,8 @@
       "source": "optery_scrape",
       "optery_slug": "sterling",
       "email_to": "privacy@sterling.ai",
-      "email_verified": false,
-      "email_verified_by": null
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
     },
     {
       "id": "stirista",
@@ -7693,9 +7693,9 @@
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "strata",
-      "email_to": "operations@gostrata.com",
-      "email_verified": false,
-      "email_verified_by": null
+      "email_to": "info@gostrata.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
     },
     {
       "id": "strategic_data_intelligence",
@@ -7708,8 +7708,8 @@
       "source": "optery_scrape",
       "optery_slug": "strategic-data-intelligence",
       "email_to": "Info@SDIntelligence.com",
-      "email_verified": false,
-      "email_verified_by": null
+      "email_verified": true,
+      "email_verified_by": "published on strategicdataintelligence.com/contact-us/ - the sibling domain. sdintelligence.com itself publishes no address and links out to the longer domain, so a scraper pointed only at the registry domain finds nothing."
     },
     {
       "id": "structure",
@@ -7736,8 +7736,8 @@
       "source": "optery_scrape",
       "optery_slug": "sync-me",
       "email_to": "privacy@sync.me",
-      "email_verified": false,
-      "email_verified_by": null
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
     },
     {
       "id": "tagx",
@@ -7761,8 +7761,8 @@
       "source": "optery_scrape",
       "optery_slug": "tapad",
       "email_to": "privacy@tapad.com",
-      "email_verified": false,
-      "email_verified_by": null
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
     },
     {
       "id": "td_cowen",
@@ -8005,7 +8005,10 @@
       "optout_url": "https://www.truthviewer.com/api/helper/optOutLight/search",
       "needs_email_confirm": null,
       "source": "optery_scrape",
-      "optery_slug": "truthviewer"
+      "optery_slug": "truthviewer",
+      "email_to": "support@truthviewer.com",
+      "email_verified": false,
+      "email_verified_by": "INFERRED from the platform pattern -- all twelve sibling sites on the same /api/helper/optOutLight/search platform use support@<domain>, and truthviewer.com publishes its own MX (mail.truthviewer.com). No address is published on their contact, privacy or about pages. Expect a possible bounce; a bounce is itself informative."
     },
     {
       "id": "tunnl",

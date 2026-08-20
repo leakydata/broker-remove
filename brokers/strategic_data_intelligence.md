@@ -1,16 +1,14 @@
-# Staterecords Org
+# Strategic Data Intelligence
 
-- **Opt-out:** https://staterecords.org/optout
-- **Email:** privacy@staterecords.org — **unverified, may bounce**
-- **Method:** web_form — Web form.
-- **Domain:** staterecords.org
+- **Email:** Info@SDIntelligence.com — verified against their own published page
+- **Method:** email — Statutory request by email. No web form needed.
+- **Domain:** sdintelligence.com
 - **Priority: 2.**
 
 ## Status
 
 - Current: `submitted` (updated 2026-08-20)
-- Reference: `540287`
-- Note: Zendesk receipt 540287 issued 2026-08-20 04:44 UTC via the same 'Privacy' Zendesk instance as statecourts.org (540288, 29 seconds later). Sequential ticket numbers on one queue; see statecourts note. Site returns 308 on every path probed, which makes the URL-path family test useless here - the ticket sequence is the substitute signal.
+- Note: Sent 2026-08-20 05:36 UTC to Info@SDIntelligence.com. Address found only on strategicdataintelligence.com/contact-us/ - the sibling domain; sdintelligence.com, the domain they actually trade under, publishes no contact address at all and merely links out. Opened with that as a fault report: anyone exercising a privacy right against the operating domain has nothing to write to. Standard delete/suppress/name-the-source triad, with the unqualified-negative exit offered.
 
 ## Steps
 

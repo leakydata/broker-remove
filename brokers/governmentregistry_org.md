@@ -9,42 +9,41 @@
 ## Status
 
 - Current: `confirmed` (updated 2026-08-20)
-- Note: CONFIRMED: 'Thank you for your request to remove your information. We can confirm that GovernmentRegistry has processed and completed the removal of your data from our services. If you continue to [see it...]' -- two days from letter to completion, by email, with no form, no account and no ID document required.
+- Note: CONFIRMED 2026-08-20 03:27 UTC. Reply from privacy@governmentregistry.org, signed by a named agent: 'We can confirm that GovernmentRegistry has processed and completed the removal of your data from our services.' Unqualified completion, no verification step, no ID demanded, ~2 day turnaround. They answered none of the four scoped questions I asked (source of any criminal entry, suppression-vs-one-time, relatives/associates cross-listing, shared index with sibling properties) and deflected onward sightings with 'contact those sites directly about their privacy policies' - the standard aggregator answer, which tells me nothing about whether the removal was point-in-time or standing.
 
 ## Steps
 
-1. Email `privacy@governmentregistry.org`.
-2. Frame the request as stopping **republication of the association**, not
-   altering a government record.
-3. Ask for disclosure and source of any criminal or court entry.
-4. Ask suppression versus one-time, given the re-ingest cycle.
-5. Ask them to name any sibling site sharing the index.
+Email alone, to `privacy@governmentregistry.org`. **No form, no account, no
+verification step, no identity document.** Confirmed in about two days.
+
+The reply was unqualified:
+
+> "We can confirm that GovernmentRegistry has processed and completed the
+> removal of your data from our services."
 
 ## Gotchas
 
-**Do not ask a public-records aggregator to delete a public record.** They cannot,
-they know they cannot, and the request invites a refusal that sounds entirely
-reasonable and then colours everything else in the reply.
-
-What they *can* do — and what actually matters — is stop republishing **your
-association with those records in a form that is searchable by name**. Say that is
-what you are asking for. It is both more likely to be granted and more useful when
-it is, because the harm is not that a court file exists; it is that typing a name
-into a search box returns it.
-
-Everything else is the public-records shape covered in `fastbackgroundcheck.md`
-and `courtrecords_us.md`: disclosure and source before deletion on anything
-criminal or court-derived, suppression rather than one-time removal because source
-data is re-ingested on a cycle, and relatives-and-associates listings, which a
-profile-scoped deletion leaves untouched.
-
-Ask them to name sibling properties. A `.org` records site is often one skin over
-an index shared with several others, and `family_scan.py` finds those only when
-they are already in the registry — asking the operator finds the ones that are
-not.
+- **It confirms and explains nothing.** The letter asked four scoped questions —
+  the source of any criminal or court entry attributed to me, whether removal was
+  suppression or point-in-time, whether it reaches my name where it appears on
+  *other people's* listings as a related person, and whether the site shares an
+  index with sibling properties. None was answered.
+- **The onward-sighting brush-off is standard.** "If you continue to see your
+  information online... contact those sites directly about their privacy policies
+  and compliance." That is the aggregator's universal answer and it is not
+  informative: it is equally consistent with a standing suppression and with a
+  single row deleted from an index that re-ingests from government sources on a
+  cycle. Since the confirmation reads identically either way, treat the
+  suppression question as still open regardless of how clean the confirmation
+  looks.
+- **Not a family member of the sites it resembles.** Route 53 nameservers,
+  independent A records, no shared URL path with `staterecords.org` or
+  `statecourts.org`. Registrar/DNS-provider defaults are not family signals.
 
 ## Verification
 
-Re-run the public search on the name and on **each** former address. Then check a
-relative's listing for the subject's name in the related-persons block. Re-check
-after a source refresh if the reply confirmed deletion but not suppression.
+Re-check in seven days, and again after a plausible ingest cycle — the failure
+mode for a public-records aggregator is not a removal that never happened, it is
+one that silently reverses at the next ingest. A REAPPEARED result here is
+escalation-worthy: it converts the unanswered suppression question into a
+demonstrated fact.

@@ -9,7 +9,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-20)
-- Note: FAMILY LETTER citing two confirmed siblings. spyfly.com resolves to the chloe+ed Cloudflare pair -- the same account as quickpublicrecords, searchpublicrecords, publicdatacheck, publicrecordreports, publicinfoservices and kidslivesafe. QuickPublicRecords CONFIRMED removal 'under all your aliases' on 2026-08-19 with the honest commercially-reasonable-efforts caveat, and KidsLiveSafe confirmed on 2026-08-18. Letter quotes QPR verbatim, notes KidsLiveSafe too, asks whether this site was actioned alongside them, and explicitly does NOT ask them to confirm corporate structure. Also presses the criminal-entry SOURCE question and noindex.
+- Note: 2026-08-20 04:43 UTC: auto-reply from deletemyinfo@spyfly.zendesk.com - 'This is an automated communication and unsolicited messages to this address are not monitored. Please visit our website for additional assistance.' A Zendesk address that declares itself unmonitored is a null route dressed as an intake: it accepts mail, issues a receipt, and commits to nothing. Note it did NOT issue a ticket number, unlike the sibling brands on this platform, so there is no artifact to chase. The letter cited both confirmed siblings (QuickPublicRecords and KidsLiveSafe) and asked only whether this site was actioned alongside them; if that goes unanswered the next move is the sibling desks rather than this address.
 
 ## Steps
 

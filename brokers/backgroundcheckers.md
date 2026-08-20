@@ -9,182 +9,44 @@
 ## Status
 
 - Current: `confirmed` (updated 2026-08-20)
-- Note: CONFIRMED, 28-36 minutes after the consolidated 16-brand family letter went out: 'From the information you provided, we have removed your information from our database at <this site>.' Identical template to the privaterecords confirmation of 2026-08-19, which the letter had cited as precedent -- so citing a sibling's granted request appears to have worked. Same volunteered common-name hedge: 'it is possible we were unable to distinguish your listing across multiple similar listings, based on the information provided' -- so re-verify rather than closing. Phone support 8am-11pm EST if a listing survives. STILL UNANSWERED by every member: suppression vs one-time, multiple records, related-person entries, criminal/inmate/sealed-record/mugshot entries and their sources, FCRA scoping, and which of the sixteen sites were actioned.
+- Note: CONFIRMED 2026-08-20 (UTC 00:38-00:46). Reply to the single sixteen-site family letter, from support@backgroundcheckers.net: 'From the information you provided, we have removed your information from our database at https://www.backgroundcheckers.net'. Four siblings answered inside eight minutes of each other with a byte-identical template differing only in the brand name and the URL - which is itself further evidence of one operator behind the optOutLight platform. Note what the template does NOT do: it scopes the confirmation to its own hostname, ignores the request to treat the letter as covering all sixteen, and answers none of questions a-e (suppression vs one-time, one-record-per-request, relatives/associates cross-listing, criminal/inmate/mugshot entry sources, FCRA scoping). It also pre-explains any residual listing as either an unresolved duplicate or the reader's browser cache - a framing that converts an incomplete removal into the consumer's problem. Verification due; verify against the live site, not the cache.
 
 ## Steps
 
-1. Email `support@backgroundcheckers.net`. They answer, and answer usefully.
-2. They will point you at the self-service search below. Run it for your current
-   city — the first search of a session carries no CAPTCHA.
-3. From the second search onward you need a person to read a distorted-text
-   CAPTCHA. **Do not spend one per former address.** Go back to the email thread
-   and ask for suppression at the record level, listing every locality at once.
-4. If a listing is found: submit an email address to prove ownership, then
-   **reply to the acknowledgement email**. Without that reply nothing is removed.
-5. Ask for the outcome in writing. An empty search you ran yourself is not the
-   same artifact as "we hold no record" from the operator.
+Email alone was sufficient — **no form, no account, no CAPTCHA, no ID**.
 
-Phone fallback: **(833) 714-0641**, 8am–11pm EST.
-
-**Result so far:** three localities searched — the current city, a former
-borough, and a former college town, chosen to span the address history rather
-than cluster in one county. All three returned nothing. That is good evidence and
-still not an index-wide answer; the written reply is what closes it.
+1. Write to `support@backgroundcheckers.net`.
+2. Do not send sixteen separate letters. Send **one** letter to the whole
+   platform's support mailboxes at once, and say in the first paragraph that it
+   is one request to one operator rather than sixteen coincidentally similar
+   ones. See `_BROKER_FAMILIES.md` for the sixteen brands and the
+   `/api/helper/optOutLight/search` path that identifies them.
+3. **Lead with a sibling's granted request.** Quoting `privaterecords.net`'s
+   verbatim confirmation — a removal already granted, to the same person, on the
+   same platform — is what moved this. It is not an argument they can rebut.
+4. Expect replies within roughly half an hour, in a batch.
 
 ## Gotchas
 
-The CAPTCHA is positioned to make address history expensive: city and state are
-both **required** fields, so an index that is address-keyed can only be searched
-one locality at a time, and every locality after the first costs a human.
-Somebody with eight former addresses pays eight times. The way out is not to
-automate around the CAPTCHA — it is to stop using the search and put the list of
-localities in an email, where one message covers all of them.
-
-Their "no results" wording is name-shaped — *"unable to find any search results
-for <name>"* — but the query was city-scoped. Do not read it as an index-wide
-answer. See `_SILENT_FAILURES.md` on results whose phrasing is broader than the
-query that produced them.
-
-<!-- Further notes from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+- **The reply is a template scoped to one hostname.** It confirms removal "from
+  our database at https://www.backgroundcheckers.net" and silently ignores a request framed as
+  covering the whole platform — it does not refuse it, it does not mention it.
+  Four brands answered inside eight minutes with byte-identical text differing
+  only in brand and URL. See `_DEFLECTIONS.md` §40.
+- **It answers none of the scoped questions.** Suppression vs one-time removal,
+  one-record-per-request limits, relatives-and-associates cross-listings,
+  the source of any criminal/inmate/mugshot entry, and FCRA scoping all went
+  unanswered across several exchanges.
+- **It pre-blames your browser.** The template explains any residual listing as
+  either an unresolved duplicate or your own stale cache. Verify with a cold
+  fetch so that explanation is closed off before replying.
+- **Replies come from a named human** ("Irene F.") with a US postal address and
+  a phone number, and invite a phone call to locate a stubborn listing. That is
+  a genuine escalation route if a listing survives.
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
-
-## A self-service route, and a second step that is automatable
-
-Support answers email helpfully and points at a removal tool:
-
-> *"If you are unable to remove your listing from
-> https://www.backgroundcheckers.net/api/helper/optOutLight/search please call us
-> between 8am and 11pm EST"*
-
-The flow they describe is worth quoting in full, because the second step is the
-one that gets missed:
-
-> *"When you locate your listing, submit your email address to validate your
-> ownership of the information. An acknowledgement email will be sent to you
-> immediately. **Respond to the acknowledgement email to authorize removal of your
-> listing. If you do not respond to the email, your listing will NOT be
-> removed.**"*
-
-Not a link to click — a **reply to send**. Anyone treating the acknowledgement as
-a receipt has an unremoved listing and a mailbox that says otherwise. See
-`_SILENT_FAILURES.md` §2; this is that trap in an unusual form.
-
-Good news for automation: replying to an email is something a helper with mailbox
-access can do unattended. Only the search itself needs a person.
-
-## The CAPTCHA arrives on the second search
-
-The **first** search runs clean. A text-image CAPTCHA — *"Please enter the
-characters exactly as shown above"* — appears from the **second** onward. That
-matters when you have address history: one city is free, the rest are gated.
-
-Search by `first / last / city / state`, with optional ZIP, phone and email. No
-account needed — they say so explicitly:
-
-> *"You do not need to have an account with us to remove your listing."*
-
-## Reading an empty result
-
-> *"If you are unable to locate your listing then it means your information was
-> never collected, or has already been removed."*
-
-Useful, and unusually honest. But treat it per-city: a search of the current city
-returning nothing says nothing about a former one, and this is a broker whose
-index is address-keyed. Work the prior-address list before recording `not_found`.
-
-They also warn that a stale result can be a cache:
-
-> *"you may need to clear your browser cache or try your search a few days later"*
-
-## Same operator as CheckSecrets
-
-CheckSecrets replied to a separate request with a **word-for-word identical**
-template on the same afternoon — same opening line, same paragraphs, same closing.
-Two brands, one support desk. Expect the same tooling and the same two-step
-acknowledgement flow, and treat a lesson learned on one as applying to both.
-
-Phone: **(833) 714-0641**, 8am–11pm EST. Postal address published in Orlando, FL.
-
-
-## One platform, thirteen brands (updated 2026-08-19)
-
-Five of these sites replied within **three minutes of each other** with a
-byte-identical template:
-
-> "Thank you for taking the time to contact us at `<brand>`. It's my pleasure to
-> help you out today. ... You do not need to have an account with us to remove your
-> listing. If you are unable to locate your listing then it means your information
-> was never collected, or has already been removed. ... **Respond to the
-> acknowledgement email to authorize removal of your listing. If you do not respond
-> to the email, your listing will NOT be removed.**"
-
-### The evidence, and why the usual test was no help
-
-**DNS gave nothing.** All thirteen sit on `dns1`/`dns2.registrar-servers.com` —
-Namecheap's shared default, used by every Namecheap customer on earth. Per
-[[_BROKER_FAMILIES]], a shared *registrar default* is not a signal at all, and
-treating it as one would have produced a confident false positive.
-
-**The URL path settled it.** Every brand serves the same non-obvious route:
-
-    /api/helper/optOutLight/search
-
-Probed across all thirteen: HTTP 200, or 429 under rate limiting — never 404. A
-hand-rolled path like `optOutLight` under `/api/helper/` is not a coincidence
-between unrelated companies. That is the rank-1 signal, and it carries the case
-alone.
-
-**Co-location corroborates.** Twelve cluster on three adjacent addresses —
-`146.235.220.52`, `146.235.225.48`, `146.235.230.19`. One sits elsewhere and still
-serves the same path and template, which is the useful reminder: shared hosting
-supports the finding but is not required by it.
-
-> **When rank 2 is unavailable, rank 1 still decides.** A shared nameserver pair is
-> the easiest family signal to collect, but registrar defaults make it useless for
-> a whole class of operators. An unusual URL path costs one HEAD request per domain
-> and cannot be explained away.
-
-### The thirteen
-
-    backgroundcheckers.net   mugshotlook.com      peoplesearch123.com
-    peoplesearcher.com       peoplesearchusa.org  personsearchers.com
-    privaterecords.net       privatereports.com   publicsearcher.com
-    secretinfo.org           truthrecord.org      truthviewer.com
-    weinform.org
-
-**The fronts are separately presented.** Different signer names, different phone
-numbers, and genuinely different postal addresses per brand — one in Orlando FL,
-another in Woodland Hills CA. Asked directly whether they operate a named sibling,
-neither of the two that were asked said yes, or said no. The question was simply
-not addressed.
-
-### What to do with that
-
-**Cite the precedent.** `privaterecords.net` **confirmed a removal** on 2026-08-19,
-and did it from the email thread without the form — *"From the information you
-provided, we have removed your information from our database."*
-
-> **A confirmed removal at one brand is the most useful thing you can put in a
-> letter to its siblings.** It is not an accusation, it costs them nothing to
-> match, and it makes refusal conspicuous: the same operator, the same platform,
-> the same request, already actioned once.
-
-The flow, the caveats and the reply-to-acknowledge trap are identical across all
-thirteen — see [[privaterecords]] for the worked example, including the silently
-refusing search form ([[_SILENT_FAILURES]] §59).
-
-> **Update 2026-08-19: the family is SIXTEEN, not thirteen.** Mining the A-record
-> sweep found `checksecrets.com`, `inmatessearcher.com` and `sealedrecords.net`
-> sharing an address with an already-confirmed member, and the path test then held
-> for all three. Note that these three are branded around **inmate searches, sealed
-> records and mugshots** — so the criminal-record question in the standard letter
-> stops being boilerplate for this family. See [[_BROKER_FAMILIES]].
+Re-run the site's own search for the name with a **cold fetch — no cookies, no
+cache** — so the template's cache explanation does not apply. Then check the
+siblings that did *not* reply, since the confirmation was scoped to this
+hostname only.

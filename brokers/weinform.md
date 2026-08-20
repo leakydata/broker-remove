@@ -9,57 +9,44 @@
 ## Status
 
 - Current: `confirmed` (updated 2026-08-20)
-- Note: CONFIRMED, 28-36 minutes after the consolidated 16-brand family letter went out: 'From the information you provided, we have removed your information from our database at <this site>.' Identical template to the privaterecords confirmation of 2026-08-19, which the letter had cited as precedent -- so citing a sibling's granted request appears to have worked. Same volunteered common-name hedge: 'it is possible we were unable to distinguish your listing across multiple similar listings, based on the information provided' -- so re-verify rather than closing. Phone support 8am-11pm EST if a listing survives. STILL UNANSWERED by every member: suppression vs one-time, multiple records, related-person entries, criminal/inmate/sealed-record/mugshot entries and their sources, FCRA scoping, and which of the sixteen sites were actioned.
+- Note: CONFIRMED 2026-08-20 (UTC 00:38-00:46). Reply to the single sixteen-site family letter, from support@weinform.org: 'From the information you provided, we have removed your information from our database at https://www.weinform.org'. Four siblings answered inside eight minutes of each other with a byte-identical template differing only in the brand name and the URL - which is itself further evidence of one operator behind the optOutLight platform. Note what the template does NOT do: it scopes the confirmation to its own hostname, ignores the request to treat the letter as covering all sixteen, and answers none of questions a-e (suppression vs one-time, one-record-per-request, relatives/associates cross-listing, criminal/inmate/mugshot entry sources, FCRA scoping). It also pre-explains any residual listing as either an unresolved duplicate or the reader's browser cache - a framing that converts an incomplete removal into the consumer's problem. Verification due; verify against the live site, not the cache.
 
 ## Steps
 
-1. **Do not write to this site alone.** It is one of sixteen brands on a single
-   platform — see Gotchas — so a letter scoped to one domain buys a removal scoped
-   to one domain.
-2. Email `support@weinform.org` with the full identifier list, naming all sixteen sites
-   and asking which were actioned.
-3. **Cite the precedent.** [[privaterecords]], on the same platform, granted this
-   same request for this same person on 2026-08-19 and did it *from the email
-   thread* without any form being completed.
-4. Expect the platform's standard reply: no account needed, a search URL, and a
-   two-step confirmation whose second step is easy to miss.
-5. If pushed to the form, note that it is bot-gated and can refuse silently — see
-   [[_SILENT_FAILURES]] §59.
+Email alone was sufficient — **no form, no account, no CAPTCHA, no ID**.
+
+1. Write to `support@weinform.org`.
+2. Do not send sixteen separate letters. Send **one** letter to the whole
+   platform's support mailboxes at once, and say in the first paragraph that it
+   is one request to one operator rather than sixteen coincidentally similar
+   ones. See `_BROKER_FAMILIES.md` for the sixteen brands and the
+   `/api/helper/optOutLight/search` path that identifies them.
+3. **Lead with a sibling's granted request.** Quoting `privaterecords.net`'s
+   verbatim confirmation — a removal already granted, to the same person, on the
+   same platform — is what moved this. It is not an argument they can rebut.
+4. Expect replies within roughly half an hour, in a batch.
 
 ## Gotchas
 
-- **Sixteen brands, one platform.** Every one serves the same non-obvious route,
-  `/api/helper/optOutLight/search`. DNS is no help: they all sit on Namecheap's
-  shared registrar-default nameservers, which is not a family signal at all.
-- **The reply-to-acknowledge trap.** The platform's own wording: *"Respond to the
-  acknowledgement email to authorize removal of your listing. If you do not respond
-  to the email, your listing will NOT be removed."* Check spam and trash.
-- **Fronts are deliberately differentiated** — different signer names, phone
-  numbers and postal addresses per brand. Disagreeing contact details are not
-  counter-evidence to the family.
-- Two sibling sites were each asked directly whether they operate a named sibling.
-  Neither said yes and neither said no; the question was simply not addressed.
+- **The reply is a template scoped to one hostname.** It confirms removal "from
+  our database at https://www.weinform.org" and silently ignores a request framed as
+  covering the whole platform — it does not refuse it, it does not mention it.
+  Four brands answered inside eight minutes with byte-identical text differing
+  only in brand and URL. See `_DEFLECTIONS.md` §40.
+- **It answers none of the scoped questions.** Suppression vs one-time removal,
+  one-record-per-request limits, relatives-and-associates cross-listings,
+  the source of any criminal/inmate/mugshot entry, and FCRA scoping all went
+  unanswered across several exchanges.
+- **It pre-blames your browser.** The template explains any residual listing as
+  either an unresolved duplicate or your own stale cache. Verify with a cold
+  fetch so that explanation is closed off before replying.
+- **Replies come from a named human** ("Irene F.") with a US postal address and
+  a phone number, and invite a phone call to locate a stubborn listing. That is
+  a genuine escalation route if a listing survives.
 
 ## Verification
 
-Re-run the site's own search after a few days with cache cleared — the platform
-pre-empts the cache trap in its own replies.
-
-Their stated meaning for an empty result is worth quoting back if needed:
-
-> "If you are unable to locate your listing then it means your information was
-> never collected, or has already been removed."
-
-**But only trust an empty result you watched load.** The search form carries a
-hidden `captchaId` and can reject a submission silently, rendering a page
-identical to a genuine negative.
-
-See [[privaterecords]] for the fully worked example and [[_BROKER_FAMILIES]] for
-the sweep that found this site.
-
-> **Update 2026-08-19: the family is SIXTEEN, not thirteen.** Mining the A-record
-> sweep found `checksecrets.com`, `inmatessearcher.com` and `sealedrecords.net`
-> sharing an address with an already-confirmed member, and the path test then held
-> for all three. Note that these three are branded around **inmate searches, sealed
-> records and mugshots** — so the criminal-record question in the standard letter
-> stops being boilerplate for this family. See [[_BROKER_FAMILIES]].
+Re-run the site's own search for the name with a **cold fetch — no cookies, no
+cache** — so the template's cache explanation does not apply. Then check the
+siblings that did *not* reply, since the confirmation was scoped to this
+hostname only.

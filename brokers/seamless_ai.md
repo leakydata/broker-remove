@@ -9,7 +9,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-20)
-- Note: LODGED AND ACKNOWLEDGED. After the hCaptcha and email verification, DataGrail sent: 'We have received your Deletion request. If you did not submit this request, please notify us immediately. Otherwise, no action is necessary. You will receive another email once your [request is processed].' So the full chain completed: form -> hCaptcha -> verify link -> Identity Verified -> receipt. Still no numeric request ID exposed; the saidsar.com verification token (d=...) is the only handle. Their stated clock is 45 days CCPA / 30 days GDPR. Watch for the completion email and check it against the three questions in the comments box -- provenance, recipients, and whether a mobile or direct-dial number is held -- since a generic completion notice will address none of them.
+- Note: Stage complete 2026-08-20. DataGrail flow finished end to end: email-verification link at 02:37 UTC, then a broker-issued confirmation at 02:50 UTC from noreply@saidsar.com - 'We have received your Deletion request... You will receive another email once your request has been completed.' Two separate senders are involved and they mean different things: privacy@seamlessleads.com sends a human deflection pointing at the Privacy Request Center, while noreply@saidsar.com is the DataGrail transactional address that issues the actual request artifacts. Only the second constitutes evidence a request exists. Awaiting the completion email.
 
 ## Steps
 
