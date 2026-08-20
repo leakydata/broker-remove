@@ -131,6 +131,6 @@ matter. A staged form submitted at the end of a work session, with the link
 clicked "later", will simply have to be redone — CAPTCHA and all. Check the inbox
 within the half hour or do not submit yet.
 
-Covers `leakydata@gmail.com` only. One email address per submission, so the
+Covers the primary contact address only. One email address per submission, so the
 remaining addresses are separate runs, each with its own CAPTCHA and its own
 30-minute link.

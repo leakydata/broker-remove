@@ -1,37 +1,26 @@
 # Revelio Labs
 
-- **Email:** info@reveliolabs.com — **unverified, may bounce**
-- **Method:** email — Statutory request by email. No web form needed.
+- **Email:** info@reveliolabs.com — live, answered by a human, replies within a day
+- **Method:** email — statutory request by email. No form, no account, no ID document.
 - **Domain:** reveliolabs.com
 - **Priority: 2.**
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-19)
-- Note: Identity-verification deflection: 'Our records include many individuals with the same name... Please provide this person's LinkedIn URL. If this individual does not have the LinkedIn URL, please provide the names of this individuals' last 3 employers.' Reasonable in kind for a workforce dataset, but asks for NEW personal data. Replied: (a) search the 12 emails first, [EMAIL] is the natural join key and less intrusive per CPRA's necessity qualifier; (b) refused the LinkedIn URL as a live enrichable identifier rather than a verification token; (c) offered employer names conditional on written confirmation they are used only to locate-and-delete, deleted if no match, and not logged as a suppression key. Employer history is NOT in profile.json -- queued as a user decision.
+- Current: `submitted` (updated 2026-08-20)
+- Disclosure received. **Deletion not yet confirmed.**
 
-## Steps
+## What happened
 
-<!-- Replace once the route is confirmed. What actually worked, in order. -->
+Three exchanges over two days.
 
-## Gotchas
+**1. The request.** Workforce-intelligence framing: no relationship exists, so any
+record they hold was compiled. Asked for disclosure *before* deletion, on the
+ground that an inaccurate employment or compensation record circulating to
+investors and employers does real harm and deleting it unseen removes the only
+chance to correct it.
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
-
-## Verification
-
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
-
-## The verification request that asks for the thing you are trying to remove (updated 2026-08-19)
-
-Revelio answered a workforce-data deletion request by declining to act until the
-individual is disambiguated:
+**2. The verification demand.**
 
 > "Our records include many individuals with the same name as the person
 > referenced in your request. Under the CPRA, if there are reasonable doubts about
@@ -41,58 +30,63 @@ individual is disambiguated:
 > Please provide this person's LinkedIn URL. If this individual does not have the
 > LinkedIn URL, please provide the names of this individuals' last 3 employers."
 
-**This one deserves credit before it deserves pushback.** It is reasonable in
-kind. Common surname, employment-keyed dataset, and the CPRA genuinely does
-contemplate requesting further information where identity is in doubt. Treating
-it as a stalling tactic would be wrong.
+Reasonable in kind — the name is common and the dataset is keyed to employment —
+and it asks for personal information the company does not yet have.
 
-But it asks for **new personal data from someone who has not yet been told the
-company holds anything about them**, and that is the shape to be careful with.
+**3. They dropped it and sent the data.**
 
-### Three moves, in order
+> "Please find the raw data we hold attached."
 
-**1. Push the less intrusive route first — the statute is on your side.** The
-CPRA's verification provision is qualified: the extra information must be
-*necessary*, and a business should not collect more personal information than the
-purpose requires. Where a cheaper identifier would do, it should be tried first.
+Four CSV files. No LinkedIn URL and no employment history were supplied.
 
-Here it exists and had already been supplied: twelve email addresses. For a
-workforce dataset the join key is almost never the current webmail —
+## Gotchas
 
-> **A `.edu` address in an institutional format is the strongest disambiguator you
-> already own.** It is tied to one person at one institution, it is the address a
-> workforce dataset is most likely to have sourced, and unlike a name it does not
-> collide.
+**What made them drop it** is set out in `_DEFLECTIONS.md` §38. In short: concede
+that the demand is reasonable in kind, then make the narrow statutory point —
+CPRA verification information must be *necessary*, and the business should not
+collect more personal information than the purpose requires — and, critically,
+**hand over a better identifier than the one being demanded.** Here that was the
+twelve email addresses already supplied, with a specific argument for the `.edu`
+one: a university address in a standard institutional format is both a likelier
+join key for a workforce dataset and far less likely to collide with a different
+person of the same name than current webmail.
 
-**2. Decline the LinkedIn URL specifically, even if you concede the employers.**
+A proportionality objection with nothing behind it is just a refusal to verify.
+One that supplies a sharper identifier leaves nothing to argue about.
 
-> **A LinkedIn URL is not a verification token — it is a live, third-party,
-> continuously-updated identifier.** Supplying it to a workforce-intelligence
-> company lets them join the request to a public profile and enrich from it, which
-> is adjacent to what the product does. The employer-name route achieves the same
-> disambiguation without handing over a linkage you are asking them to delete.
+**Refuse the LinkedIn URL separately from the employer question.** They are not
+the same ask. A profile URL is a live, third-party, continuously-updated
+identifier that would let a workforce-data company join the request to a public
+profile and enrich from it — which is adjacent to the product itself. Say that;
+it is a specific objection, not a general reluctance.
 
-**3. Concede the employers only against three written conditions.** The failure
-mode is specific and worth naming to them:
+**Offer the fallback genuinely.** The reply agreed to provide employer names if
+the email search came back empty, conditional on written confirmation that they
+would be used solely to locate and delete, deleted if no match was found rather
+than kept as a "requested but not found" log row, and that the request would stay
+a deletion rather than being converted to access-only. Offering it is what made
+the refusal credible. It never had to be honoured.
 
-> **A company that holds no record about you can end up holding one *because you
-> identified yourself*.** The request becomes the data.
+**Ask for the schema in the same breath as the data.** The export arrived as
+`data_1.csv` through `data_4.csv` with no column dictionary. For a workforce
+record the whole question is which fields are *sourced* and which are *modelled* —
+estimated compensation, inferred seniority, inferred gender or ethnicity,
+departure-likelihood scores — and a raw table does not distinguish them. Requested
+after the fact; should have been requested up front.
 
-So before sending: (a) the names are used solely to locate and delete, never to
-enrich; (b) if the search finds nothing the names are **deleted**, not retained as
-a suppression key or a "requested but not found" log row; and (c) the request is
-still processed as a deletion and opt-out, not silently converted into an
-access-only request by the verification detour.
+**Disclosure is not deletion.** They answered the first half of "disclose then
+delete". Replied asking them to proceed with deletion, opt-out, and a standing
+do-not-source entry, and re-asking the four questions that never depended on
+identification: inferred attributes, sources, downstream licensee retention, and
+whether individual-level records persist where only aggregates are sold.
 
-### What not to let the detour bury
+**The do-not-source entry is the one that decides whether any of it lasts.**
+Sourcing here is continuous. If the name reappears on a professional network next
+month and a new record is built, today's deletion was a pause.
 
-Identity verification tends to reset a thread — the substantive questions from the
-original letter quietly stop being answered. None of these depend on the
-identification, so keep re-asking them: inferred attributes (estimated
-compensation, inferred seniority, inferred gender or ethnicity,
-likelihood-of-departure scores) and whether they are deleted rather than merely
-detached from the name; the sources; whether existing licensees must delete
-downstream; and whether a **standing do-not-source entry** is possible, since
-continuous sourcing makes a one-time deletion a pause rather than a removal.
+## Verification
 
-See [[_DEFLECTIONS]] and [[_CATEGORY_VARIANTS]].
+The CSVs need a human to read them — check whether the employment history is
+accurate, and whether modelled fields are present. That is queued as a handoff.
+Deletion is unconfirmed until they say so in writing; watch for whether the reply
+addresses the do-not-source entry or goes quiet on it.

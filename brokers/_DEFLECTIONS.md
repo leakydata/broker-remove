@@ -1441,6 +1441,71 @@ re-ask them in the same message:
 - Whether a **standing do-not-source entry** is possible — sourcing here is
   continuous, so without one a deletion is a pause.
 
+### Outcome: it worked, and it worked without surrendering anything
+
+A day later Revelio Labs replied:
+
+> "Please find the raw data we hold attached."
+
+Four CSV files. **No LinkedIn URL was supplied. No employment history was
+supplied.** They ran the twelve email addresses, found the record, and sent it.
+
+The whole of the argument was two moves, and it is worth being precise about
+which did the work:
+
+1. **The statutory point, stated narrowly.** The CPRA does let a business request
+   additional information where identity is genuinely in doubt — the demand was
+   not unreasonable, and the reply said so out loud. But the provision is
+   qualified: the information must be *necessary* to verify, and the business is
+   meant not to collect more personal information than the purpose requires.
+   Where a less intrusive route would identify the record, that is the route the
+   statute prefers.
+2. **Supplying the less intrusive route, concretely.** Not "you should try
+   harder" but *here is the join key*: twelve addresses already in their
+   possession, with a specific argument for one of them — a `.edu` address in a
+   university's standard format. For a workforce dataset built partly from
+   academic and early-career profiles, that address is both far more likely to be
+   the key and far less likely to collide with a different person of the same
+   name than current webmail is.
+
+The second move is the one that mattered. A proportionality objection with
+nothing behind it is just a refusal to verify, and a company is right to hold
+firm against it. A proportionality objection **that hands over a better
+identifier than the one being demanded** leaves nothing to argue about — it is
+cheaper for them to run the search than to reply.
+
+**Concede the reasonable part first, and mean it.** The reply opened by saying
+the demand was reasonable in kind and would not be treated as a stalling tactic.
+That is not politeness for its own sake; it is what makes the narrow objection
+land as a narrow objection rather than as the usual noise.
+
+**Say why the LinkedIn URL specifically is different**, and separate it from the
+employer question rather than refusing both as one:
+
+> A LinkedIn profile URL is not a verification token. It is a live, third-party,
+> continuously-updated identifier that would let you join my request to a public
+> profile and enrich from it — which is, with respect, adjacent to what your
+> product does. Handing it over in order to have data deleted risks supplying
+> exactly the linkage I am asking you to remove.
+
+**Offer the fallback genuinely, with conditions.** The reply agreed to supply
+employer names if the email search came back empty, subject to (a), (b) and (c)
+above. Offering it made the refusal credible — this was not someone looking for a
+reason not to verify — and in the event it never had to be honoured.
+
+**One thing to do differently.** Ask for the schema with the data. The export
+arrived as `data_1.csv` through `data_4.csv` with no column dictionary. For a
+workforce record the entire question is which fields are *sourced* and which are
+*modelled* — estimated compensation, inferred seniority, inferred demographics —
+and a raw table does not distinguish them. Request the description of what each
+column represents in the same message that requests the disclosure.
+
+**And disclosure is not deletion.** The original letter asked for disclosure
+*then* deletion; a company that sends the data has answered the first half. Reply
+promptly asking them to proceed with the deletion, the opt-out, and the standing
+do-not-source entry, and re-ask the questions above — they are still unanswered,
+and the export does not answer them.
+
 ---
 
 ## §39 The voluntary opt-out that beats the statutory one
