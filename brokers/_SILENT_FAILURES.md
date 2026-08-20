@@ -2566,3 +2566,56 @@ to it, this category applies to you.
 
 **Related:** §52 (no record of you from a business you were never a customer of),
 and `_CATEGORY_VARIANTS.md` on identity graphs.
+
+### §67 — correction, and the mistake worth keeping
+
+Within thirty minutes of the first letter, a named person at ViewDNS replied:
+
+> "I'd be interested to know where you saw historical WHOIS data on our site? We
+> currently don't offer such a tool. Given this, I would also be interested to
+> know where suggested we do?"
+
+He was right. **ViewDNS does not offer a historical-WHOIS tool, and the section
+above should not have implied that any specific firm on that list does.** The
+list was assembled by reasoning from a category — "who sells this kind of data?"
+— and then written to as though it were a finding about each company. I had
+evidence that the *data* exists and is republished; I had no evidence about
+*their* product line, and I did not check it before writing.
+
+Note carefully what the error was, because it is subtler than a false accusation
+and easier to repeat. The letter never claimed to have found the data on their
+site; it said, accurately, that it was found on a third-party people-search
+aggregate. The fault was **tone and aim, not a false statement**: a letter built
+on a category inference was written in the register of a letter built on
+evidence. The recipient cannot tell those apart from the outside, and is
+entitled to read the more accusatory one.
+
+**The rule.** A category letter must announce itself as one. "I found this data
+republished elsewhere and I am writing to firms that may hold the underlying
+records — do you?" costs one sentence, is completely honest, invites the same
+answer, and cannot blow up in your face. Reserve the confident register for the
+company you actually have evidence about.
+
+**And the correction is where the request got better.** ViewDNS does run a
+**Reverse Whois Lookup**, which their own page describes as: "Simply enter the
+email address or name of the person or company to find other domains registered
+using those same details." That is person-keyed by construction — a human's name
+or email in, facts about that human out — which implies an index mapping
+registrant identities to domains, and *that* is what the letter should have been
+about from the start. The question that replaced the original four asks is one
+their database can answer: does that index retain registrant details from
+records now redacted at the registrar, or only reflect currently-published
+WHOIS? An "only current" answer closes the matter.
+
+**One asymmetry worth recording.** Their reverse lookup requires an account. So
+the subject of a reverse-whois result is the one party who cannot see it without
+registering, while anyone else can. That pattern — *the data subject is the only
+person who has to identify themselves to learn what is published about them* —
+is worth naming wherever it appears.
+
+**Standing correction to the list above:** the six firms named are targets in a
+category *hypothesis*, not confirmed historical-WHOIS providers. Their registry
+entries record this. Verify each one's actual product line before writing to it.
+
+**Related:** §60 — do not accuse a broker of a fault in your own pipeline. This
+is its sibling: do not accuse a broker of a business you inferred.

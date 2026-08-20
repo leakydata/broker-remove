@@ -942,7 +942,7 @@ silence as refusal.
 **If the site is not in English, write in both languages.** It costs one extra
 paragraph and materially raises the chance that whoever reads it acts.
 
-## Historical WHOIS / domain intelligence  (e.g. ViewDNS, DomainTools, Whoxy)
+## Domain intelligence / registrant lookup  (e.g. DomainTools, ViewDNS, Whoxy)
 
 Holds **who you were when you registered a domain**, which is often an address
 and a telephone number that appear in no other dataset — so these records
@@ -966,3 +966,24 @@ default. Then move to the stronger ground: **the republication and commercial
 supply today is a separate act**, done by them, now.
 
 See `_SILENT_FAILURES.md` §67.
+
+**Check the product line before you write.** "Firms that plausibly hold
+pre-redaction WHOIS" is a hypothesis, not a finding, and a letter written from
+it must say so — one sentence, "I found this republished elsewhere and I am
+writing to firms that may hold the underlying records; do you?" ViewDNS replied
+within half an hour to say they offer no historical-WHOIS tool at all, and they
+were right. See the §67 correction in `_SILENT_FAILURES.md`.
+
+**The surface that is usually there even when historical WHOIS is not** is a
+**reverse WHOIS lookup**: name or email in, domains out. It is person-keyed by
+construction, so it implies an index of registrant identities, and it is the
+better thing to ask about. The narrow question — *does that index retain
+registrant details from records now redacted at the registrar, or only reflect
+currently-published WHOIS?* — is answerable from a database and closes the
+matter either way.
+
+**Watch for the login wall.** Where the reverse lookup requires an account, the
+data subject is the only party who must identify themselves to learn what is
+published about them. Worth naming to them as feedback; it is not a violation,
+but it is an asymmetry most companies have not thought about.
+

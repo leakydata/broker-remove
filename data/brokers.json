@@ -2931,11 +2931,12 @@
       "method": "web_form",
       "optout_url": "https://domainbigdata.com/",
       "needs_email_confirm": null,
-      "category": "whois_history",
+      "category": "domain_intelligence_UNCONFIRMED",
       "source": "whois_source_discovery",
       "email_to": "",
       "email_verified": false,
-      "email_verified_by": "origin returns Cloudflare 530 to scripted fetches"
+      "email_verified_by": "origin returns Cloudflare 530 to scripted fetches",
+      "note": "Added on a category hypothesis (firms that may hold pre-redaction WHOIS records), NOT on evidence about this company. Verify the actual product line before writing - ViewDNS was on this list and does not offer historical WHOIS. See _SILENT_FAILURES.md 67 correction."
     },
     {
       "id": "domainiq",
@@ -2945,11 +2946,12 @@
       "method": "web_form",
       "optout_url": "https://domainiq.com/contact",
       "needs_email_confirm": null,
-      "category": "whois_history",
+      "category": "domain_intelligence_UNCONFIRMED",
       "source": "whois_source_discovery",
       "email_to": "",
       "email_verified": false,
-      "email_verified_by": "/privacy and /contact publish no address in page text"
+      "email_verified_by": "/privacy and /contact publish no address in page text",
+      "note": "Added on a category hypothesis (firms that may hold pre-redaction WHOIS records), NOT on evidence about this company. Verify the actual product line before writing - ViewDNS was on this list and does not offer historical WHOIS. See _SILENT_FAILURES.md 67 correction."
     },
     {
       "id": "driveniq",
@@ -7301,11 +7303,12 @@
       "method": "web_form",
       "optout_url": "https://securitytrails.com/corp/privacy",
       "needs_email_confirm": null,
-      "category": "whois_history",
+      "category": "domain_intelligence_UNCONFIRMED",
       "source": "whois_source_discovery",
       "email_to": "",
       "email_verified": false,
-      "email_verified_by": "site returns 403 to scripted fetches; no address recovered yet"
+      "email_verified_by": "site returns 403 to scripted fetches; no address recovered yet",
+      "note": "Added on a category hypothesis (firms that may hold pre-redaction WHOIS records), NOT on evidence about this company. Verify the actual product line before writing - ViewDNS was on this list and does not offer historical WHOIS. See _SILENT_FAILURES.md 67 correction."
     },
     {
       "id": "seedtable",
@@ -7888,7 +7891,7 @@
       "optery_slug": "terminus",
       "email_to": "privacy@terminus.com",
       "email_verified": false,
-      "email_verified_by": null
+      "email_verified_by": "terminus.com now redirects its privacy policy to demandscience.com/privacy-policy/ - Terminus appears to be part of DemandScience. No address in page text on either. /privacy-rights/ 404s. Needs a browser pass."
     },
     {
       "id": "texas_arrest_warrants_search",
@@ -7974,13 +7977,13 @@
       "domain": "trestleiq.com",
       "priority": 2,
       "method": "email",
-      "optout_url": "",
+      "optout_url": "https://portal.trestleiq.com/do-not-sell",
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "trestle",
-      "email_to": "data@trestleiq.com",
-      "email_verified": false,
-      "email_verified_by": null
+      "email_to": "privacy@trestleiq.com",
+      "email_verified": true,
+      "email_verified_by": "published on trestleiq.com/privacy-policy/; registry previously held data@trestleiq.com which is not on the page"
     },
     {
       "id": "true_blue_analytics",
@@ -8144,8 +8147,8 @@
       "source": "optery_scrape",
       "optery_slug": "us-marketing-group",
       "email_to": "PRIVACY@usmarketinggrp.com",
-      "email_verified": false,
-      "email_verified_by": null
+      "email_verified": true,
+      "email_verified_by": "published on usmarketinggrp.com/privacy-policy/ and /privacy"
     },
     {
       "id": "usa_people_search",
@@ -8169,8 +8172,8 @@
       "source": "optery_scrape",
       "optery_slug": "usadata",
       "email_to": "privacy@usadata.com",
-      "email_verified": false,
-      "email_verified_by": null
+      "email_verified": true,
+      "email_verified_by": "published on usadata.com/ccpa (hello@ also appears; user@domain.com on those pages is a JS validation placeholder, not a contact)"
     },
     {
       "id": "usatrace",
@@ -8427,11 +8430,12 @@
       "method": "email",
       "optout_url": "",
       "needs_email_confirm": null,
-      "category": "whois_history",
+      "category": "domain_intelligence",
       "source": "whois_source_discovery",
       "email_to": "admin@viewdns.info",
       "email_verified": true,
-      "email_verified_by": "published on viewdns.info/privacy-policy"
+      "email_verified_by": "published on viewdns.info/privacy-policy",
+      "note": "Confirmed by the company: does NOT offer historical WHOIS. Does offer a Reverse Whois Lookup keyed on a person name or email address, which is the relevant surface."
     },
     {
       "id": "virginia_arrests",
@@ -8609,11 +8613,12 @@
       "method": "web_form",
       "optout_url": "https://www.whoisxmlapi.com/privacy-policy.php",
       "needs_email_confirm": null,
-      "category": "whois_history",
+      "category": "domain_intelligence_UNCONFIRMED",
       "source": "whois_source_discovery",
       "email_to": "",
       "email_verified": false,
-      "email_verified_by": "site returns 403 to scripted fetches; no address recovered yet"
+      "email_verified_by": "site returns 403 to scripted fetches; no address recovered yet",
+      "note": "Added on a category hypothesis (firms that may hold pre-redaction WHOIS records), NOT on evidence about this company. Verify the actual product line before writing - ViewDNS was on this list and does not offer historical WHOIS. See _SILENT_FAILURES.md 67 correction."
     },
     {
       "id": "whoxy",
@@ -8623,11 +8628,12 @@
       "method": "web_form",
       "optout_url": "https://www.whoxy.com/contact.php",
       "needs_email_confirm": null,
-      "category": "whois_history",
+      "category": "domain_intelligence_UNCONFIRMED",
       "source": "whois_source_discovery",
       "email_to": "",
       "email_verified": false,
-      "email_verified_by": "privacy.php and contact.php publish no address in page text"
+      "email_verified_by": "privacy.php and contact.php publish no address in page text",
+      "note": "Added on a category hypothesis (firms that may hold pre-redaction WHOIS records), NOT on evidence about this company. Verify the actual product line before writing - ViewDNS was on this list and does not offer historical WHOIS. See _SILENT_FAILURES.md 67 correction."
     },
     {
       "id": "windfall",
