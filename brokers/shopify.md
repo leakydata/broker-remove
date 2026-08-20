@@ -1,15 +1,14 @@
 # Shopify
 
-- **Opt-out:** —
-- **Email:** support@shopify.com (KEEP_BETTER — no dedicated privacy address
-  found; the general support address is the published route)
-- **Method:** email
+- **Opt-out:** https://privacy.shopify.com/en/erasure_requests/shopify_buyer/new
+- **Email:** support@shopify.com — **unmonitored, creates no ticket.** Use the portal.
+- **Method:** web_form (self-service privacy portal; CAPTCHA + email verification)
 - **Domain:** shopify.com
 - **Priority: 2.**
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-20)
+- Current: `manual_required` (updated 2026-08-20)
 
 ## Gotchas
 
@@ -56,3 +55,63 @@ likely to answer a question whose safe answer is available.
 No public search page. Verification is the written answer. The useful outcome is
 either a cross-merchant deletion confirmation or a merchant list; a reply that
 only says "contact the merchants" should be pushed once on the enumeration point.
+
+## Outcome: the email route is a dead end, and the portal is better anyway
+
+`support@shopify.com` auto-replies:
+
+> "Quick heads-up: this email address isn't monitored and a support ticket
+> hasn't been created."
+
+An honest dead end — it says so plainly rather than swallowing the message —
+but a dead end. Do not re-send.
+
+**The real route: `privacy.shopify.com`.** A self-service portal, no account, no
+ID document. Path: *Erase my data* → subject type → email address.
+
+Five subject types are offered, and picking correctly is the whole game:
+
+| type | what it reaches |
+|---|---|
+| Shopify merchant or partner | merchant account holders |
+| **User of Shopify Services (incl. Shop / Shop Pay)** | data Shopify collected **directly** |
+| **Merchant customer** | data **merchants shared with Shopify** for Shopify's own use |
+| Making a request on behalf of someone else | authorized agents |
+| Shopify Employee or Candidate | staff and applicants |
+
+**"Merchant customer" is the one that reaches the cross-merchant layer**, and the
+portal says so in terms that match the argument the letter made:
+
+> "we will erase personal data associated with this email address that is shared
+> by merchants with Shopify for Shopify's use as a data controller or business,
+> such as for buyer recommendations or ads"
+
+That is Shopify acting as controller rather than processor — the layer that no
+merchant-by-merchant campaign can ever reach, because it exists precisely in the
+gaps between merchants. It is the part worth having.
+
+The page also states the processor boundary up front, which is worth quoting
+back at anyone who claims a platform can wave through merchant data:
+
+> "To erase personal data from a merchant's store, contact them directly."
+
+**Two paths, not one.** "Merchant customer" covers data merchants shared *with*
+Shopify. Data Shopify collected *directly* via Shop and Shop Pay is a separate
+subject type and a separate submission. If both apply, both are needed.
+
+## Gotchas
+
+**One email address per submission**, and both reCAPTCHA and hCaptcha are loaded
+on the page. Full coverage of a twelve-address identity set is twelve runs, each
+with a CAPTCHA and an emailed verification link. In practice do the two or three
+addresses most likely to have been used at checkout and treat the rest as
+optional — the cost is entirely in human clicks, not in the request.
+
+**Verification is by email link**, so each submission can only use an address
+whose inbox is reachable.
+
+**Keep the merchant-enumeration ask for the letter, not the portal.** The portal
+has one field. The question worth asking — *which merchant stores hold records
+matching these identifiers* — has no field to put it in, and "contact the
+merchants" is not actionable advice when the merchants are unknown. That ask
+belongs in correspondence if a channel ever opens.

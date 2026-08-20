@@ -2893,3 +2893,57 @@ the HTML tells you which consent tools the site loads, not which vendor handles
 rights — resolve that from the link the rights text actually points at.
 
 **Related:** §59, §62, §63, §68.
+
+---
+
+## §72 The privacy address that is a mailing list you are not a member of
+
+`privacy@venpath.net` did not bounce 5.1.1. It bounced like this:
+
+> "We're writing to let you know that the group you tried to contact (privacy)
+> may not exist, or you may not have permission to post messages to the group."
+>
+> — signed `venpath.net admins`
+
+That is Google Workspace rejecting a post to a **Group**, not a mail server
+rejecting an unknown mailbox. The distinction matters because the two failures
+have opposite meanings and identical consequences if you misread them:
+
+| bounce | what it means | what to do |
+|---|---|---|
+| `550 5.1.1` unknown user | there is no such mailbox | find another address |
+| Groups "may not exist, or you may not have permission to post" | there may well be a mailbox — but it is a distribution list closed to external senders | there is no address to find; the route is closed by policy |
+
+The second one is a **configuration**, not an absence. Somebody set up a
+`privacy` group, pointed the privacy policy at it, and left it restricted to
+members of the domain. Every consumer who follows the published instructions is
+rejected by design, and the rejection text blames the sender ("you might have
+spelled the group name incorrectly").
+
+Do not go hunting for `privacy1@`, `dataprivacy@` or `legal@` after this bounce.
+Guessing local parts is the right move after a 5.1.1 on a *guessed* address
+(§65, row one). It is the wrong move here, because the failure is not about
+which name you used.
+
+**The DNS makes the picture worse, and is worth checking every time:**
+
+```
+dig +short A  venpath.net   →  (nothing)
+dig +short MX venpath.net   →  aspmx.l.google.com. and friends — live
+```
+
+**No website. Live mail.** The company's site is gone and its Workspace tenant
+is still being paid for. This is the exact inverse of the Tymax case in §68,
+where live MX sat in front of a "this website is for lease" parking page. Both
+are the same underlying fact wearing different clothes: **infrastructure
+outlives the business, and DNS keeps answering long after anyone is listening.**
+A registry entry that records only "has a privacy address" cannot distinguish
+either case from a healthy company.
+
+**Recording it.** `unreachable`, with the bounce text and the DNS in the note.
+Not `failed` — nothing was refused. Not `pending` — there is nothing left to
+try. The evidence is what stops a later pass spending three sends rediscovering
+a closed mailing list at a company with no website.
+
+**Related:** §45, §65, §68, and `_DEFLECTIONS.md` §29 (when a privacy alias is a
+distribution list — the same structure, seen from the inside).

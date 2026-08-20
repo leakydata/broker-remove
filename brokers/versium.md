@@ -8,7 +8,7 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-20)
+- Current: `confirmed` (updated 2026-08-20)
 
 ## Steps
 
@@ -42,3 +42,27 @@ copies in a customer's CRM is a deletion in name only.
 
 Watch for a reply. If it confirms deletion without addressing the edges, push
 once on that specific point — it is the difference between removal and a pause.
+
+## Outcome
+
+Confirmed **three seconds** after the request, from `optout+noreply@versium.com`:
+
+> "Thank you for contacting Versium Analytics. We have processed your request to
+> optout/delete your record from Versium data. Please consider this response
+> your confirmation."
+
+**Read the timestamp before reading the words.** A three-second turnaround is an
+autoresponder; nobody searched a database in that interval. The message is a real,
+quotable, unconditional written confirmation — it says "processed", past tense,
+and explicitly offers itself as the confirmation — and it is simultaneously
+zero evidence that a lookup happened.
+
+Both things are true and neither cancels the other. Record it as confirmed,
+because that is what they put in writing and it is the artifact a complaint would
+rest on. But treat it as the weakest class of confirmation and re-verify on the
+normal cadence rather than trusting it. A confirmation whose latency is shorter
+than a database query is a **policy statement about what they do**, not a report
+about what they did.
+
+None of the edge questions was answered, which is consistent with an automated
+reply and not worth pursuing as a refusal.

@@ -1,15 +1,15 @@
 # VenPath
 
 - **Opt-out:** —
-- **Email:** privacy@venpath.net (BLOCKED at verification — page would not load
-  for a scripted check; address unconfirmed rather than wrong)
+- **Email:** privacy@venpath.net — **a Google Group closed to external posting.**
+  Not a mailbox.
 - **Method:** email
 - **Domain:** venpath.net
 - **Priority: 2.**
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-20)
+- Current: `unreachable` (updated 2026-08-20)
 
 ## Gotchas
 
@@ -54,3 +54,41 @@ likely to be in a historical file.
 
 Depends entirely on the written answer. A reply that repeats the MAID
 requirement without addressing the dwell-pattern search has not answered it.
+
+## Outcome: no route
+
+The letter did not bounce as an unknown user. It bounced as a rejected mailing
+list post:
+
+> "We're writing to let you know that the group you tried to contact (privacy)
+> may not exist, or you may not have permission to post messages to the group."
+>
+> — signed `venpath.net admins`
+
+That is Google Workspace rejecting a post to a **Group**, which is a different
+finding from "no such mailbox" and calls for a different response. There is
+probably a `privacy` group; it is restricted to domain members. Every consumer
+following the published privacy policy is rejected by configuration, and the
+bounce text blames the sender for possibly misspelling the group name.
+
+**Do not guess further local parts after this bounce.** Guessing is right after a
+5.1.1 on a guessed address; it is pointless here, because the failure is not
+about which name was used.
+
+**The DNS finishes the story:**
+
+```
+dig +short A  venpath.net   →  (nothing)
+dig +short MX venpath.net   →  aspmx.l.google.com. — live
+```
+
+No website, live mail. The site is gone and the Workspace tenant is still being
+paid for — the exact inverse of Tymax in `_SILENT_FAILURES.md` §68, where live MX
+fronted a for-lease parking page. Written up as §72.
+
+Recorded `unreachable` rather than `failed` (nothing was refused) or `pending`
+(nothing is left to try).
+
+**The letter itself is still worth keeping** — the MAID pre-emption and the
+geographic-query substitute below apply to every mobile-location broker, and this
+one simply has nobody left to read it.

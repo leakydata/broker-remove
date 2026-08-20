@@ -8,7 +8,7 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-20)
+- Current: `confirmed` (updated 2026-08-20)
 
 ## Gotchas
 
@@ -45,3 +45,28 @@ least interesting record and misses the rest.
 
 Search the site directly against the current address and the two longest-held
 prior localities.
+
+## Outcome
+
+Two messages. An autoresponder on arrival promising a reply "within 1 - 4"
+days, then 45 minutes later:
+
+> "Hi, Your information has been opted out as requested."
+
+**Note the verb.** The request asked for deletion *and* opt-out; the answer says
+opted out. That may be exact language or may be loose, and the difference matters
+— an opt-out is a flag on a record that still exists, a deletion is not. Recorded
+as confirmed because it is an unambiguous written statement of action taken, with
+the scope caveat noted here.
+
+None of the four asks was addressed: no word on `noindex`, on associate entries
+appearing on other people's profiles, on whether this is suppression or a
+one-time removal, or on sibling-site coverage. That is the norm rather than a
+snub (`_DEFLECTIONS.md` §40) — brokers answer the question with a safe answer and
+skip the rest.
+
+Beating a 1-4 day SLA by three days is worth noticing for a different reason: it
+suggests the opt-out is a self-service database operation rather than a queue a
+person works. Sites that behave this way tend to honour the request quickly and
+re-acquire the record just as quickly, which is why the suppression question was
+asked and why re-verification matters more here than the confirmation does.

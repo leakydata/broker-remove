@@ -2240,9 +2240,9 @@
     "via": "email"
   },
   "shopify": {
-    "status": "submitted",
+    "status": "manual_required",
     "changed": "2026-08-20",
-    "via": "email"
+    "via": "web"
   },
   "simiocloud": {
     "status": "captcha_blocked",
@@ -2545,7 +2545,7 @@
     "via": null
   },
   "venpath": {
-    "status": "submitted",
+    "status": "unreachable",
     "changed": "2026-08-20",
     "via": "email"
   },
@@ -2585,7 +2585,7 @@
     "via": null
   },
   "versium": {
-    "status": "submitted",
+    "status": "confirmed",
     "changed": "2026-08-20",
     "via": "email"
   },
@@ -2705,7 +2705,7 @@
     "via": null
   },
   "wyty": {
-    "status": "submitted",
+    "status": "confirmed",
     "changed": "2026-08-20",
     "via": "email"
   },
