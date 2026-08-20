@@ -9,7 +9,8 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-20)
-- Note: Multi-vertical public-records lookup (court, criminal, arrest, driving, vehicle, people, phone). Tailored letter leading with: if any criminal/court/arrest entry is attributed to me, tell me what it is AND ITS SOURCE whether or not you remove it -- a common name is easily mismatched and an entry hidden rather than corrected returns at the next ingest. Also DPPA scoping for driving/vehicle records, the FCRA-vs-not-a-CRA contradiction, suppression-vs-one-time, related-person entries on other people's listings, and noindex.
+- Reference: `540175`
+- Note: Zendesk acknowledgement, ticket 540175. Awaiting substantive reply to the tailored public-records letter (criminal-entry sources, DPPA scoping for driving/vehicle records, FCRA-vs-not-a-CRA contradiction, suppression, related-person entries, noindex).
 
 ## Steps
 

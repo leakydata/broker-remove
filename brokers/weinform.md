@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-20)
-- Note: SENT 2026-08-20 00:10 UTC as part of ONE consolidated letter to nine addresses covering all sixteen brands on the /api/helper/optOutLight/search platform. The letter names every site, gives the shared URL path as the reason for treating them as one operator, explicitly does NOT ask anyone to confirm corporate structure (only which sites they actioned), and leads with the precedent that privaterecords granted this identical request for this identical person from an email thread on 2026-08-19 without any form. Also carries the five questions none of the family has answered across three exchanges, with the criminal/inmate/sealed-record/mugshot question expanded because three members are branded specifically around that content.
+- Current: `confirmed` (updated 2026-08-20)
+- Note: CONFIRMED, 28-36 minutes after the consolidated 16-brand family letter went out: 'From the information you provided, we have removed your information from our database at <this site>.' Identical template to the privaterecords confirmation of 2026-08-19, which the letter had cited as precedent -- so citing a sibling's granted request appears to have worked. Same volunteered common-name hedge: 'it is possible we were unable to distinguish your listing across multiple similar listings, based on the information provided' -- so re-verify rather than closing. Phone support 8am-11pm EST if a listing survives. STILL UNANSWERED by every member: suppression vs one-time, multiple records, related-person entries, criminal/inmate/sealed-record/mugshot entries and their sources, FCRA scoping, and which of the sixteen sites were actioned.
 
 ## Steps
 

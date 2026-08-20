@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `manual_required` (updated 2026-08-19)
-- Note: Email redirects to a OneTrust webform. All text fields staged. BLOCKER: the request-type control is an Angular CDK listbox of role=option DIVs whose aria-selected stays 'false' no matter what -- synthetic clicks via ref and via coordinates both fail to register, and no selected class appears. A hover tooltip also overlays the middle button and intercepts clicks. Handed off for a real click. Useful scoping from their own page: 'If you wish Claritas to limit the use of your sensitive personal information, please select request to be deleted', and 'Claritas will treat correction requests as a request to delete' -- so Delete is the superset.
+- Current: `submitted` (updated 2026-08-20)
+- Note: EVIDENCE OF SUBMISSION: the browser tab that held the staged Claritas OneTrust form was later found on privacyportal.onetrust.com/trust-center-portal/#/verify/success?verificationId=9c1cb809-68fd-4289-a989-bcda9d7166d6 -- a OneTrust verification-success page. So the form was submitted and the email verification link clicked. NO REQUEST ID CAPTURED and no confirmation email seen in the inbox yet; watch for one and record the ID. Downgraded from manual_required to submitted on that basis, but treat as provisional until a broker-issued artifact with an ID arrives.
 
 ## Steps
 

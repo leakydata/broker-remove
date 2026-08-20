@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-20)
-- Note: Talent-intelligence / recruiting-search dataset. Tailored letter: disclosure-before-deletion (an inaccurate profile circulating to recruiters does real harm and deletion unseen removes the chance to correct it); INFERRED DEMOGRAPHICS pressed explicitly since diversity filtering is a marketed feature of this category -- inferred gender, ethnicity, veteran or disability status attached to a name is sensitive data generated without knowledge; sources named; 'it is public' pre-empted (the compilation is the processing); downstream customer exports; standing do-not-source entry.
+- Current: `manual_required` (updated 2026-08-20)
+- Note: Autoresponder now loops: a third identical 'Automatic reply' arrived in response to my reply, so privacy@seekout.com is answering every inbound message with the same template rather than reading the thread (same pattern as _SILENT_FAILURES §56). Stop replying there. Both routes remain closed -- the portal renders no form, and the email route is refused without a LinkedIn URL. Next move is a re-test of the portal rather than another letter.
 
 ## Steps
 

@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-20)
-- Note: Adtech. Contact is a third-party compliance service (simpleoptoutcompliance.com), so the letter asks which entity is the controller. Standard asks plus the identity-graph paragraph: hashed email in three algorithms, MAID/cookie/IP-household, segments, and the links between identifiers.
+- Note: BOUNCE: their published privacy contact dataprivacy_rocadvertising@simpleoptoutcompliance.com returned 550 address not found. That is a THIRD-PARTY COMPLIANCE SERVICE, so the failure may be at the vendor's end, but the effect is that every consumer request to their designated privacy address is refused and no sender can tell them why. Resent to privacy@rocadvertising.com (unverified; the domain has MX via ppe-hosted.com) with the bounce reported as a fault. Their privacy policy carries a /privacy-policy/#donotsell anchor as a further route if email fails.
 
 ## Steps
 

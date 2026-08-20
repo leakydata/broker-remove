@@ -9,7 +9,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-20)
-- Note: B2B contact-search engine. Tailored letter: provenance with the date/form/wording of any claimed consent (a consent nobody can produce is not a consent); recipients with a COUNT if not nameable, because every subscriber export is a live downstream copy; do-not-re-acquire suppression (a deletion without it is a pause, since the record is simply re-found next month); mobile/direct-dial numbers are not public record -- delete the number AND the linkage and name the vendor; CA B2B carve-out sunset 2023-01-01 pre-empted.
+- Note: FULLY SUBMITTED AND VERIFIED. The hCaptcha was cleared and the DataGrail form submitted; a verification mail arrived from noreply@saidsar.com ('Confirm your email within 5 days to get started'), and clicking through returned: 'Identity Verified -- Your deletion request will now be processed.' Request type Deletion, relationship Other, Pennsylvania accepted. The comments box carried suppression, all twelve emails plus hashed forms, ten prior phones, all prior addresses, and the provenance/recipients/direct-dial questions. NO REQUEST ID was displayed on the verification page -- watch for one in a follow-up email. Their stated clock: 'generally 45 days under the California Consumer Privacy Act or 30 days under the GDPR'. GOTCHA worth keeping: the Verify Email button did not respond to a click by element reference; a click by screen coordinate worked immediately.
 
 ## Steps
 

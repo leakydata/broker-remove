@@ -2165,7 +2165,7 @@
     "via": null
   },
   "seamless_ai": {
-    "status": "captcha_blocked",
+    "status": "submitted",
     "changed": "2026-08-20",
     "via": null
   },
@@ -2177,6 +2177,16 @@
   "searchpeoplefree": {
     "status": "manual_required",
     "changed": "2026-08-16",
+    "via": null
+  },
+  "searchpeoplefree_net": {
+    "status": "submitted",
+    "changed": "2026-08-20",
+    "via": null
+  },
+  "searchpublicrecords_com": {
+    "status": "submitted",
+    "changed": "2026-08-20",
     "via": null
   },
   "searchsystems_public_records": {
@@ -2200,6 +2210,21 @@
     "via": null
   },
   "semcasting": {
+    "status": "submitted",
+    "changed": "2026-08-20",
+    "via": null
+  },
+  "sentilink": {
+    "status": "submitted",
+    "changed": "2026-08-20",
+    "via": null
+  },
+  "share_local_media": {
+    "status": "submitted",
+    "changed": "2026-08-20",
+    "via": null
+  },
+  "sharethis": {
     "status": "submitted",
     "changed": "2026-08-20",
     "via": null

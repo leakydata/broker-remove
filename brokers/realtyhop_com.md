@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `not_found` (updated 2026-08-19)
-- Note: 'We attempted to process your Request to Delete. However, we do not have a record of you in our system. If you previously interacted with us using a different email address, please...' Answered by a named person at realtyhop.com with privacy-realtyhop@renthop.com on Cc, so RealtyHop and RentHop share a privacy desk -- the letter was addressed to cover both. NOTE: this is a not-found scoped to prior INTERACTION (a customer-record search), not necessarily to a compiled listing; the invitation to name other addresses suggests they searched by email only. Worth one follow-up naming the remaining addresses.
+- Current: `not_found` (updated 2026-08-20)
+- Note: UPGRADED from provisional to firm. My follow-up asked the narrow question -- did you search only customer interactions, or also listing/agent/address-keyed records about non-customers? They answered it directly rather than repeating the first answer: 'Neither RealtyHop nor RentHop collects personal/private information that is not connected to an email address. RealtyHop displays information from public government records.' So person-level records are account-keyed only (none for me), and the property content is DISPLAYED from an official source rather than compiled into profiles. Sent a short close with one final narrow question: does any RealtyHop page currently DISPLAY my name, since government property records carry owner names and a page can display a name without the site having collected anything -- supplied the fourteen addresses to check, and asked for noindex if so.
 
 ## Steps
 

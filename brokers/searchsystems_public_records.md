@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-20)
-- Note: Believed to be a DIRECTORY of public-record sources rather than an aggregator. Letter says so openly and offers a short exchange: if they merely link to courts and agencies, an unqualified statement to that effect closes it. Asks three things -- do they hold any record in their own systems (cache, compiled profile, paid lookup); do they retain search/enquiry logs and for how long; and if any part surfaces a partner's records, name the partner.
+- Current: `unreachable` (updated 2026-08-20)
+- Note: ALL THREE PUBLISHED ROUTES ARE DEAD. (1) webmaster@searchsystems.net -> 550 address not found. (2) info@searchsystems.net, printed on their own Contact page -> 550 5.1.1 address not found. Domain has live Zoho MX, so mail is accepted for the domain and refused at the mailbox. (3) The Contact page form is DECORATIVE: there is no <form> element on the page at all, the Send Message control is <button type='button'> with onclick null, and no script references the field ids. Filling it and clicking Send makes no request of any kind and produces no error -- the page simply sits. Only remaining routes are two telephone numbers, (805) 574-9367 and 1-888-717-3223. MITIGATING: their own homepage FAQ states unprompted that they hold nothing -- 'SearchSystems.net is a directory - it links you directly to the official government source where records are maintained. We do not aggregate, scrape, or resell personal information.' So the practical exposure is likely nil; what is unreachable is the ability to have that confirmed.
 
 ## Steps
 
