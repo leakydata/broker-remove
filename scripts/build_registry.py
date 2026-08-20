@@ -52,7 +52,14 @@ def main():
     if SLUGS.exists():
         for line in SLUGS.read_text().splitlines():
             slug = line.strip().strip("/")
+            # The slug file is scraped from a sitemap, so stray markup can survive
+            # the extraction. "</loc>" reached the registry as a broker named
+            # "</loc>" with no domain and no route -- a permanently pending row
+            # that no pass could ever action. Reject anything that is not a
+            # plausible slug rather than only the two known-bad values.
             if not slug or slug == "data-brokers":
+                continue
+            if not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", slug):
                 continue
             cid = canonical_id(slug)
             if cid in aliases or cid in by_id:
