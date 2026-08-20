@@ -1,16 +1,14 @@
-# Searchpublicrecords Com
+# Simiocloud
 
-- **Opt-out:** https://www.searchpublicrecords.com/help-center/privacy-requests
-- **Email:** support@searchpublicrecords.com — **unverified, may bounce**
-- **Method:** web_form — Web form.
-- **Domain:** searchpublicrecords.com
+- **Email:** Privacy@simiocloud.com — **unverified, may bounce**
+- **Method:** email — Statutory request by email. No web form needed.
+- **Domain:** simiocloud.com
 - **Priority: 2.**
 
 ## Status
 
 - Current: `submitted` (updated 2026-08-20)
-- Reference: `202MEG-KZVV4`
-- Note: Zendesk acknowledgement, ref 202MEG-KZVV4. Same Zendesk tenant pattern as the rest of the chloe+ed family. Awaiting a substantive reply to the letter that cited QuickPublicRecords' confirmed removal as precedent.
+- Note: Listed as a consumer-data/identity-resolution entity but the business is not clearly documented, so the letter opens by saying so and offers an easy exit: an unqualified statement that they hold no consumer records and do not sell or share is a complete answer that closes it. If the classification is right, the standard identity-graph asks follow -- hashed email in three algorithms, MAID/cookie/CTV/IP-household, segments and scores, and explicitly THE EDGES between identifiers. Asked which identifier types they matched on and which parts are processor vs controller.
 
 ## Steps
 

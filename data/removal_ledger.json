@@ -2234,6 +2234,11 @@
     "changed": "2026-08-18",
     "via": "email"
   },
+  "simiocloud": {
+    "status": "submitted",
+    "changed": "2026-08-20",
+    "via": null
+  },
   "snoopstation": {
     "status": "submitted",
     "changed": "2026-08-18",
@@ -2259,9 +2264,24 @@
     "changed": "2026-08-16",
     "via": null
   },
+  "spectrum_mailing_lists": {
+    "status": "submitted",
+    "changed": "2026-08-20",
+    "via": null
+  },
+  "speedeon_data": {
+    "status": "submitted",
+    "changed": "2026-08-20",
+    "via": null
+  },
   "spokeo": {
     "status": "submitted",
     "changed": "2026-08-15",
+    "via": null
+  },
+  "spycloud": {
+    "status": "submitted",
+    "changed": "2026-08-20",
     "via": null
   },
   "stirista": {

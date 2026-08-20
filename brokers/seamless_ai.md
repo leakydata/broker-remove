@@ -9,7 +9,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-20)
-- Note: FULLY SUBMITTED AND VERIFIED. The hCaptcha was cleared and the DataGrail form submitted; a verification mail arrived from noreply@saidsar.com ('Confirm your email within 5 days to get started'), and clicking through returned: 'Identity Verified -- Your deletion request will now be processed.' Request type Deletion, relationship Other, Pennsylvania accepted. The comments box carried suppression, all twelve emails plus hashed forms, ten prior phones, all prior addresses, and the provenance/recipients/direct-dial questions. NO REQUEST ID was displayed on the verification page -- watch for one in a follow-up email. Their stated clock: 'generally 45 days under the California Consumer Privacy Act or 30 days under the GDPR'. GOTCHA worth keeping: the Verify Email button did not respond to a click by element reference; a click by screen coordinate worked immediately.
+- Note: LODGED AND ACKNOWLEDGED. After the hCaptcha and email verification, DataGrail sent: 'We have received your Deletion request. If you did not submit this request, please notify us immediately. Otherwise, no action is necessary. You will receive another email once your [request is processed].' So the full chain completed: form -> hCaptcha -> verify link -> Identity Verified -> receipt. Still no numeric request ID exposed; the saidsar.com verification token (d=...) is the only handle. Their stated clock is 45 days CCPA / 30 days GDPR. Watch for the completion email and check it against the three questions in the comments box -- provenance, recipients, and whether a mobile or direct-dial number is held -- since a generic completion notice will address none of them.
 
 ## Steps
 
