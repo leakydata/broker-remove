@@ -68,7 +68,9 @@
       "optout_url": "https://6sense.com/privacy",
       "needs_email_confirm": null,
       "category": "b2b",
-      "source": "privacyinsightsolutions"
+      "source": "privacyinsightsolutions",
+      "email_verified": false,
+      "email_verified_by": "no_address_published"
     },
     {
       "id": "aberdeen",
@@ -79,7 +81,11 @@
       "optout_url": "https://www.aberdeen.com/do-not-sell-my-personal-information/",
       "needs_email_confirm": null,
       "category": "b2b",
-      "source": "privacyinsightsolutions"
+      "source": "privacyinsightsolutions",
+      "email_to": "privacy@spiceworks.com",
+      "email_verified": false,
+      "email_verified_by": "offdomain_needs_confirmation",
+      "notes": "privacy@spiceworks.com is not on aberdeen.com -- the site publishes no address on the broker's own domain. Either an acquisition (route is correct) or a wrong domain in the registry (route is a stranger). Confirm the corporate relationship before sending: the letter carries a full identifier set."
     },
     {
       "id": "academixdirect",
@@ -130,7 +136,9 @@
       "method": "web_form",
       "optout_url": "https://isapps.acxiom.com/optout/optout.aspx",
       "needs_email_confirm": true,
-      "notes": "Major aggregator - feeds many downstream brokers."
+      "notes": "Major aggregator - feeds many downstream brokers.",
+      "email_verified": false,
+      "email_verified_by": "no_address_published"
     },
     {
       "id": "ad_direct",
@@ -168,7 +176,9 @@
       "optout_url": "https://www.addresssearch.com/remove-info.php",
       "needs_email_confirm": null,
       "source": "optery_scrape",
-      "optery_slug": "addresssearch-com"
+      "optery_slug": "addresssearch-com",
+      "email_verified": false,
+      "email_verified_by": "no_address_published"
     },
     {
       "id": "adform",
@@ -179,7 +189,9 @@
       "optout_url": "https://site.adform.com/privacy-center/website-privacy/opt-out/",
       "needs_email_confirm": null,
       "category": "adtech",
-      "source": "privacyinsightsolutions"
+      "source": "privacyinsightsolutions",
+      "email_verified": false,
+      "email_verified_by": "no_address_published"
     },
     {
       "id": "adttribution",
@@ -205,7 +217,10 @@
       "method": "web_form",
       "optout_url": "https://www.advancedbackgroundchecks.com/removal",
       "needs_email_confirm": true,
-      "optery_slug": "advancedbackgroundchecks"
+      "optery_slug": "advancedbackgroundchecks",
+      "email_to": "support@advancedbackgroundchecks.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
     },
     {
       "id": "affinity_answers",
@@ -244,7 +259,9 @@
       "optout_url": "https://infotracer.com/optout/",
       "needs_email_confirm": null,
       "source": "optery_scrape",
-      "optery_slug": "affordable-background-checks"
+      "optery_slug": "affordable-background-checks",
+      "email_verified": false,
+      "email_verified_by": "no_address_published"
     },
     {
       "id": "aged_lead_store",
@@ -464,7 +481,9 @@
       "optout_url": "http://www.americaphonebook.com/contact.php",
       "needs_email_confirm": null,
       "source": "optery_scrape",
-      "optery_slug": "americaphonebook"
+      "optery_slug": "americaphonebook",
+      "email_verified": false,
+      "email_verified_by": "no_address_published"
     },
     {
       "id": "amplemarket",
@@ -503,7 +522,11 @@
       "optout_url": "https://analytics-iq.com/opt-out-statistics/",
       "needs_email_confirm": null,
       "category": "adtech",
-      "source": "privacyinsightsolutions"
+      "source": "privacyinsightsolutions",
+      "email_to": "compliance@alliantdata.com",
+      "email_verified": false,
+      "email_verified_by": "offdomain_needs_confirmation",
+      "notes": "compliance@alliantdata.com is not on analytics-iq.com -- the site publishes no address on the broker's own domain. Either an acquisition (route is correct) or a wrong domain in the registry (route is a stranger). Confirm the corporate relationship before sending: the letter carries a full identifier set."
     },
     {
       "id": "anchor",
@@ -555,7 +578,9 @@
       "method": "web_form",
       "optout_url": "https://www.anywho.com/optout",
       "needs_email_confirm": true,
-      "optery_slug": "anywho"
+      "optery_slug": "anywho",
+      "email_verified": false,
+      "email_verified_by": "no_address_published"
     },
     {
       "id": "apollo_io",
@@ -566,7 +591,10 @@
       "optout_url": "https://www.apollo.io/privacy-policy/remove",
       "needs_email_confirm": null,
       "category": "b2b",
-      "source": "privacyinsightsolutions"
+      "source": "privacyinsightsolutions",
+      "email_to": "privacy@apollo.io",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
     },
     {
       "id": "appily",
@@ -672,7 +700,9 @@
       "optout_url": "https://www.arounddeal.com/remove-profile",
       "needs_email_confirm": null,
       "category": "b2b",
-      "source": "privacyinsightsolutions"
+      "source": "privacyinsightsolutions",
+      "email_verified": false,
+      "email_verified_by": "no_address_published"
     },
     {
       "id": "arrestwarrant_org",
@@ -781,7 +811,9 @@
       "optout_url": "https://www.truthfinder.com/opt-out/v2/submit/",
       "needs_email_confirm": null,
       "source": "optery_scrape",
-      "optery_slug": "background-hawk"
+      "optery_slug": "background-hawk",
+      "email_verified": false,
+      "email_verified_by": "no_address_published"
     },
     {
       "id": "backgroundcheck_run",
@@ -790,7 +822,9 @@
       "priority": 3,
       "method": "web_form",
       "optout_url": "https://backgroundcheck.run/optout",
-      "needs_email_confirm": true
+      "needs_email_confirm": true,
+      "email_verified": false,
+      "email_verified_by": "no_address_published"
     },
     {
       "id": "backgroundcheckers",
@@ -928,7 +962,10 @@
       "optout_url": "https://bombora.com/privacy-philosophy/",
       "needs_email_confirm": null,
       "category": "b2b",
-      "source": "privacyinsightsolutions"
+      "source": "privacyinsightsolutions",
+      "email_to": "dsars@bombora.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
     },
     {
       "id": "brandwatch",
@@ -953,7 +990,11 @@
       "optout_url": "https://brightdata.com/privacy",
       "needs_email_confirm": null,
       "category": "scraping",
-      "source": "privacyinsightsolutions"
+      "source": "privacyinsightsolutions",
+      "email_to": "sales@brightdata.com",
+      "email_verified": false,
+      "email_verified_by": "published_general_mailbox",
+      "notes": "sales@brightdata.com is the only address published on the site and is a general mailbox, not a rights channel. Re-check for a privacy contact before treating silence as refusal."
     },
     {
       "id": "brightswipe",
@@ -1006,7 +1047,10 @@
       "optout_url": "https://builtwith.com/privacy",
       "needs_email_confirm": null,
       "category": "b2b",
-      "source": "privacyinsightsolutions"
+      "source": "privacyinsightsolutions",
+      "email_to": "support@builtwith.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
     },
     {
       "id": "bumper",
@@ -1059,7 +1103,9 @@
       "optout_url": "https://www.californiaarrests.org/ccpaOptOut/",
       "needs_email_confirm": null,
       "source": "optery_scrape",
-      "optery_slug": "california-arrests"
+      "optery_slug": "california-arrests",
+      "email_verified": false,
+      "email_verified_by": "no_address_published"
     },
     {
       "id": "california_birth_index",
@@ -1081,7 +1127,9 @@
       "optout_url": "https://californiacriminalrecords.org/contact",
       "needs_email_confirm": null,
       "source": "optery_scrape",
-      "optery_slug": "california-criminal-records-search"
+      "optery_slug": "california-criminal-records-search",
+      "email_verified": false,
+      "email_verified_by": "no_address_published"
     },
     {
       "id": "californiabrokers_org",
@@ -1373,7 +1421,9 @@
       "optout_url": "https://preferences.clearbit.com/",
       "needs_email_confirm": null,
       "category": "b2b",
-      "source": "privacyinsightsolutions"
+      "source": "privacyinsightsolutions",
+      "email_verified": false,
+      "email_verified_by": "no_address_published"
     },
     {
       "id": "client_command",
@@ -1489,7 +1539,9 @@
       "optout_url": "https://www.coloradoresidentdirectory.com/opt-out",
       "needs_email_confirm": null,
       "source": "optery_scrape",
-      "optery_slug": "coloradoresidentdirectory"
+      "optery_slug": "coloradoresidentdirectory",
+      "email_verified": false,
+      "email_verified_by": "no_address_published"
     },
     {
       "id": "compile",
@@ -1570,7 +1622,9 @@
       "optout_url": "https://www.connecticutresidentdirectory.com/opt-out",
       "needs_email_confirm": null,
       "source": "optery_scrape",
-      "optery_slug": "connecticut-resident-directory"
+      "optery_slug": "connecticut-resident-directory",
+      "email_verified": false,
+      "email_verified_by": "no_address_published"
     },
     {
       "id": "connecticutcourtrecords_us",
@@ -1665,7 +1719,10 @@
       "method": "web_form",
       "optout_url": "https://www.cotality.com/legal/privacy-policy",
       "needs_email_confirm": false,
-      "notes": "CoreLogic now trades as Cotality - privacy policy moved domains."
+      "notes": "CoreLogic now trades as Cotality - privacy policy moved domains. privacy@cotality.com is not on corelogic.com -- the site publishes no address on the broker's own domain. Either an acquisition (route is correct) or a wrong domain in the registry (route is a stranger). Confirm the corporate relationship before sending: the letter carries a full identifier set.",
+      "email_to": "privacy@cotality.com",
+      "email_verified": false,
+      "email_verified_by": "offdomain_needs_confirmation"
     },
     {
       "id": "corelogic_cotality",
@@ -1676,7 +1733,10 @@
       "optout_url": "https://www.cotality.com/legal/privacy-policy",
       "needs_email_confirm": null,
       "category": "aggregator",
-      "source": "privacyinsightsolutions"
+      "source": "privacyinsightsolutions",
+      "email_to": "privacy@cotality.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
     },
     {
       "id": "corporationwiki",
@@ -1687,7 +1747,9 @@
       "optout_url": "https://www.corporationwiki.com/profiles/public",
       "needs_email_confirm": null,
       "source": "optery_scrape",
-      "optery_slug": "corporationwiki"
+      "optery_slug": "corporationwiki",
+      "email_verified": false,
+      "email_verified_by": "no_address_published"
     },
     {
       "id": "courtcasefinder",
@@ -1770,7 +1832,10 @@
       "optout_url": "https://www.criteo.com/privacy/",
       "needs_email_confirm": null,
       "category": "adtech",
-      "source": "privacyinsightsolutions"
+      "source": "privacyinsightsolutions",
+      "email_to": "dpo@criteo.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
     },
     {
       "id": "crosswalk_technologies",
@@ -1795,7 +1860,9 @@
       "optout_url": "https://preferences.crunchbase.com/form/opt_out",
       "needs_email_confirm": null,
       "category": "b2b",
-      "source": "privacyinsightsolutions"
+      "source": "privacyinsightsolutions",
+      "email_verified": false,
+      "email_verified_by": "no_address_published"
     },
     {
       "id": "crustdata",
@@ -1806,7 +1873,10 @@
       "optout_url": "https://crustdata.com/privacy",
       "needs_email_confirm": null,
       "category": "b2b",
-      "source": "privacyinsightsolutions"
+      "source": "privacyinsightsolutions",
+      "email_to": "info@crustdata.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
     },
     {
       "id": "cyberbackgroundchecks",
@@ -1910,9 +1980,9 @@
       "priority": 4,
       "method": "web_form",
       "optout_url": "https://privacycompliance.biz/other-dbusa/",
-      "email_to": null,
-      "email_verified": false,
-      "email_verified_by": "no_address_published",
+      "email_to": "info@databaseusa.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy",
       "needs_email_confirm": true,
       "source": "discovered_via_infofree",
       "notes": "Found because infofree.com links its privacy route here. Runs a self-service portal at privacycompliance.biz with separate toggles for opt-out of sale, deletion and category disclosure, and an emailed verification link. Their disclosure page lists ethnicity, religion and political party among the categories collected, and 'Resale to Data Brokers' among the purposes."
@@ -1993,7 +2063,9 @@
       "optout_url": "https://privacycockpit.leadfeeder.com/",
       "needs_email_confirm": null,
       "category": "b2b",
-      "source": "privacyinsightsolutions"
+      "source": "privacyinsightsolutions",
+      "email_verified": false,
+      "email_verified_by": "no_address_published"
     },
     {
       "id": "decide",
@@ -2224,7 +2296,9 @@
       "optout_url": "https://www.dobsearch.com/people-finder/block-record-request.php",
       "needs_email_confirm": null,
       "source": "optery_scrape",
-      "optery_slug": "dobsearch-com"
+      "optery_slug": "dobsearch-com",
+      "email_verified": false,
+      "email_verified_by": "no_address_published"
     },
     {
       "id": "driveniq",
@@ -2360,7 +2434,9 @@
       "method": "web_form",
       "optout_url": "https://www.enformion.com/privacy-policy/",
       "needs_email_confirm": null,
-      "notes": "UPSTREAM SOURCE behind SearchPeopleFREE (EnformionGO API). UPSTREAM SOURCE. Discovered via SearchPeopleFREE, which advertises EnformionGO as the partner API behind its data. Removing from downstream sites does not touch Enformion, so records re-populate. High priority as an upstream aggregator."
+      "notes": "UPSTREAM SOURCE behind SearchPeopleFREE (EnformionGO API). UPSTREAM SOURCE. Discovered via SearchPeopleFREE, which advertises EnformionGO as the partner API behind its data. Removing from downstream sites does not touch Enformion, so records re-populate. High priority as an upstream aggregator.",
+      "email_verified": false,
+      "email_verified_by": "no_address_published"
     },
     {
       "id": "enigma",
@@ -2385,7 +2461,9 @@
       "optout_url": "https://www.eprodirect.com/privacy-policy/",
       "needs_email_confirm": null,
       "category": "directmail",
-      "source": "privacyinsightsolutions"
+      "source": "privacyinsightsolutions",
+      "email_verified": false,
+      "email_verified_by": "no_address_published"
     },
     {
       "id": "epsilon",
@@ -2410,7 +2488,9 @@
       "optout_url": "https://myprivacy.equifax.com/opt-in-opt-out/personal-info",
       "needs_email_confirm": null,
       "category": "credit",
-      "source": "privacyinsightsolutions"
+      "source": "privacyinsightsolutions",
+      "email_verified": false,
+      "email_verified_by": "no_address_published"
     },
     {
       "id": "equimine_propstream",
@@ -2421,7 +2501,10 @@
       "optout_url": "https://www.propstream.com/your-privacy-choices",
       "needs_email_confirm": null,
       "category": "property",
-      "source": "privacyinsightsolutions"
+      "source": "privacyinsightsolutions",
+      "email_to": "privacyinquiry@propstream.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
     },
     {
       "id": "esite_analytics",
@@ -2432,7 +2515,11 @@
       "optout_url": "https://www.esiteanalytics.com/privacy-policy/",
       "needs_email_confirm": null,
       "category": "adtech",
-      "source": "privacyinsightsolutions"
+      "source": "privacyinsightsolutions",
+      "email_to": "datarequest@datarep.com",
+      "email_verified": false,
+      "email_verified_by": "offdomain_needs_confirmation",
+      "notes": "datarequest@datarep.com is not on esiteanalytics.com -- the site publishes no address on the broker's own domain. Either an acquisition (route is correct) or a wrong domain in the registry (route is a stranger). Confirm the corporate relationship before sending: the letter carries a full identifier set."
     },
     {
       "id": "evorra",
@@ -2486,7 +2573,10 @@
       "priority": 4,
       "method": "web_form",
       "optout_url": "https://www.experian.com/privacy/",
-      "needs_email_confirm": false
+      "needs_email_confirm": false,
+      "email_to": "optout@experian.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
     },
     {
       "id": "experience",
@@ -2511,7 +2601,9 @@
       "optout_url": "https://www.eyeota.com/how-to-opt-out",
       "needs_email_confirm": null,
       "category": "adtech",
-      "source": "privacyinsightsolutions"
+      "source": "privacyinsightsolutions",
+      "email_verified": false,
+      "email_verified_by": "no_address_published"
     },
     {
       "id": "factori",
@@ -2536,7 +2628,9 @@
       "optout_url": "https://familyrelatives.com",
       "needs_email_confirm": null,
       "category": "people",
-      "source": "privacyinsightsolutions"
+      "source": "privacyinsightsolutions",
+      "email_verified": false,
+      "email_verified_by": "no_address_published"
     },
     {
       "id": "familytreenow",
@@ -2573,7 +2667,10 @@
       "method": "web_form_captcha",
       "optout_url": "https://www.fastpeoplesearch.com/removal",
       "needs_email_confirm": true,
-      "optery_slug": "fastpeoplesearch"
+      "optery_slug": "fastpeoplesearch",
+      "email_to": "support@fastpeoplesearch.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
     },
     {
       "id": "fastpeoplesearch_io",
@@ -2722,7 +2819,9 @@
       "optout_url": "https://www.floridavoterdirectory.com/opt-out",
       "needs_email_confirm": null,
       "source": "optery_scrape",
-      "optery_slug": "florida-voter-directory"
+      "optery_slug": "florida-voter-directory",
+      "email_verified": false,
+      "email_verified_by": "no_address_published"
     },
     {
       "id": "floridacourtrecords_us",
@@ -2859,7 +2958,9 @@
       "optout_url": "https://www.freepeopledirectory.com/optout",
       "needs_email_confirm": null,
       "source": "optery_scrape",
-      "optery_slug": "free-people-directory"
+      "optery_slug": "free-people-directory",
+      "email_verified": false,
+      "email_verified_by": "no_address_published"
     },
     {
       "id": "freebackgroundcheck_org",
@@ -2956,7 +3057,10 @@
       "optout_url": "https://legal.g2.com/privacy-request",
       "needs_email_confirm": null,
       "category": "b2b",
-      "source": "privacyinsightsolutions"
+      "source": "privacyinsightsolutions",
+      "email_to": "privacy@g2.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
     },
     {
       "id": "gale",
@@ -3060,7 +3164,9 @@
       "optout_url": "https://infotracer.com/optout/",
       "needs_email_confirm": null,
       "source": "optery_scrape",
-      "optery_slug": "govwarrantsearch-org"
+      "optery_slug": "govwarrantsearch-org",
+      "email_verified": false,
+      "email_verified_by": "no_address_published"
     },
     {
       "id": "grassroots_analytics",
@@ -3195,7 +3301,9 @@
       "priority": 3,
       "method": "web_form",
       "optout_url": "https://homemetry.com/optout",
-      "needs_email_confirm": false
+      "needs_email_confirm": false,
+      "email_verified": false,
+      "email_verified_by": "site_unreachable"
     },
     {
       "id": "homeowner_marketing_services",
@@ -3278,7 +3386,9 @@
       "optout_url": "https://idcaller.com",
       "needs_email_confirm": null,
       "category": "phone",
-      "source": "privacyinsightsolutions"
+      "source": "privacyinsightsolutions",
+      "email_verified": false,
+      "email_verified_by": "no_address_published"
     },
     {
       "id": "idcrawl",
@@ -3837,7 +3947,7 @@
       "optery_slug": "leadership-connect",
       "email_to": null,
       "email_verified": false,
-      "email_verified_by": "hard_bounce"
+      "email_verified_by": "no_address_published"
     },
     {
       "id": "leadiq",
@@ -3919,7 +4029,9 @@
       "method": "web_form",
       "optout_url": "https://optout.lexisnexis.com/",
       "needs_email_confirm": false,
-      "notes": "May require proof of identity. Also file a separate security freeze."
+      "notes": "May require proof of identity. Also file a separate security freeze.",
+      "email_verified": false,
+      "email_verified_by": "no_address_published"
     },
     {
       "id": "licensefiles",
@@ -4061,7 +4173,12 @@
       "optout_url": "https://liveramp.com/privacy/my-privacy-choices",
       "needs_email_confirm": null,
       "category": "identity_graph",
-      "source": "privacyinsightsolutions"
+      "source": "privacyinsightsolutions",
+      "email_to": "ukprivacy@liveramp.com",
+      "email_verified": false,
+      "email_verified_by": "privacy_policy_regional",
+      "email_alt": "cil@liveramp.com, privacy.ar@liveramp.com, privacy.be@liveramp.com, privacy.br@liveramp.com, privacy.de@liveramp.com, privacy.es@liveramp.com, privacy.it@liveramp.com, privacy.nl@liveramp.com",
+      "notes": "Publishes only region-scoped privacy addresses; ukprivacy@liveramp.com is the uk desk. There is no unqualified privacy@ on the site. Say so in the letter and ask to be routed to the US/global contact."
     },
     {
       "id": "lizdev",
@@ -4142,7 +4259,10 @@
       "optout_url": "https://www.lotame.com/privacy/",
       "needs_email_confirm": null,
       "category": "adtech",
-      "source": "privacyinsightsolutions"
+      "source": "privacyinsightsolutions",
+      "email_to": "info@lotame.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
     },
     {
       "id": "louisiana_arrests",
@@ -4181,7 +4301,9 @@
       "optout_url": "https://lusha.com/privacy",
       "needs_email_confirm": null,
       "category": "b2b",
-      "source": "privacyinsightsolutions"
+      "source": "privacyinsightsolutions",
+      "email_verified": false,
+      "email_verified_by": "no_address_published"
     },
     {
       "id": "m1_data",
@@ -4671,7 +4793,9 @@
       "optout_url": "https://www.mixrank.com/privacy-policy",
       "needs_email_confirm": null,
       "category": "b2b",
-      "source": "privacyinsightsolutions"
+      "source": "privacyinsightsolutions",
+      "email_verified": false,
+      "email_verified_by": "no_address_published"
     },
     {
       "id": "modigie",
@@ -4894,7 +5018,9 @@
       "optout_url": "https://www.nevadaarrests.org/contact-form",
       "needs_email_confirm": null,
       "source": "optery_scrape",
-      "optery_slug": "nevada-arrests"
+      "optery_slug": "nevada-arrests",
+      "email_verified": false,
+      "email_verified_by": "no_address_published"
     },
     {
       "id": "nevadacourtrecords_us",
@@ -5388,9 +5514,9 @@
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "openpeoplesearch",
-      "email_to": null,
-      "email_verified": false,
-      "email_verified_by": "delivery_evidence"
+      "email_to": "info@openpeoplesearch.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
     },
     {
       "id": "openpublicrecords",
@@ -5401,7 +5527,9 @@
       "optout_url": "https://www.open-public-records.com/records_removal.htm",
       "needs_email_confirm": null,
       "source": "optery_scrape",
-      "optery_slug": "openpublicrecords"
+      "optery_slug": "openpublicrecords",
+      "email_verified": false,
+      "email_verified_by": "no_address_published"
     },
     {
       "id": "optoutprescreen",
@@ -5420,7 +5548,9 @@
       "priority": 3,
       "method": "web_form",
       "optout_url": "https://www.oracle.com/legal/privacy/marketing-cloud-data-cloud-privacy-policy.html",
-      "needs_email_confirm": false
+      "needs_email_confirm": false,
+      "email_verified": false,
+      "email_verified_by": "no_address_published"
     },
     {
       "id": "oregon_arrests",
@@ -5459,7 +5589,10 @@
       "optout_url": "https://ourstates.org",
       "needs_email_confirm": null,
       "category": "public_records",
-      "source": "privacyinsightsolutions"
+      "source": "privacyinsightsolutions",
+      "email_to": "privacy@ourstates.org",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
     },
     {
       "id": "outbrain",
@@ -5558,7 +5691,7 @@
       "optery_slug": "paramount-direct-marketing",
       "email_to": null,
       "email_verified": false,
-      "email_verified_by": "delivery_evidence",
+      "email_verified_by": "no_address_published",
       "notes": "ccpa@paramountdirectmarketing.com does not exist - bounced 'Recipient Unknown' from postmaster@PARAMOUNTLISTS.COM, which names their Office 365 tenant and therefore their sibling brand. Use the web form: separate /do-not-sell-ca and /do-not-sell-non-ca routes, the non-CA one offering BOTH opt-out and delete as multi-select checkboxes. reCAPTCHA on submit. They compare the state you select against the geolocation of your connection, so it must be submitted from the state you claim."
     },
     {
@@ -5588,7 +5721,7 @@
       "optery_slug": "pbi-research",
       "email_to": null,
       "email_verified": false,
-      "email_verified_by": "broker_reply",
+      "email_verified_by": "no_address_published",
       "notes": "Pension Benefit Information, LLC, Minneapolis. CCPARequests@pbinfo.com is auto-reply only and states it CANNOT accept privacy requests. Web form at /crf/ or phone 1-800-327-2720. The form requires LAST 4 OF SSN and full date of birth, and requires certifying California residency. It also carries a genuine warning that opting out may stop former employers and pension plans locating you about benefits you are owed - that is a real trade-off, not a dark pattern. Subject decision required."
     },
     {
@@ -5666,7 +5799,9 @@
       "optout_url": "https://www.intelius.com/privacy-center",
       "needs_email_confirm": null,
       "source": "optery_scrape",
-      "optery_slug": "peoplefind-com"
+      "optery_slug": "peoplefind-com",
+      "email_verified": false,
+      "email_verified_by": "no_address_published"
     },
     {
       "id": "peoplefinder",
@@ -5847,7 +5982,9 @@
       "optout_url": "https://peoplewin.com/privacy/control",
       "needs_email_confirm": null,
       "source": "optery_scrape",
-      "optery_slug": "peoplewin"
+      "optery_slug": "peoplewin",
+      "email_verified": false,
+      "email_verified_by": "no_address_published"
     },
     {
       "id": "persistent_id",
@@ -5915,7 +6052,7 @@
       "optery_slug": "phonebooks-com",
       "email_to": null,
       "email_verified": false,
-      "email_verified_by": "broker_reply",
+      "email_verified_by": "no_address_published",
       "notes": "support@ replies that they DO NOT process privacy requests by email. Three web routes: /opt-out (the only one that does anything), /do-not-sell, and /privacy-rights - which is a funnel with no submit button that ends in an essay explaining why they will not delete. Opt-out is CAPTCHA-gated then email-verified, link expires in 24h, 3 days to take effect. They claim results are retrieved live from third-party providers rather than stored."
     },
     {
@@ -5954,7 +6091,10 @@
       "priority": 4,
       "method": "web_form",
       "optout_url": "https://pipl.com/personal-information-removal-request",
-      "needs_email_confirm": false
+      "needs_email_confirm": false,
+      "email_to": "privacy@pipl.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
     },
     {
       "id": "pitchbook",
@@ -5979,7 +6119,9 @@
       "optout_url": "https://my.plaid.com/data-subject-request-form",
       "needs_email_confirm": null,
       "category": "financial",
-      "source": "privacyinsightsolutions"
+      "source": "privacyinsightsolutions",
+      "email_verified": false,
+      "email_verified_by": "no_address_published"
     },
     {
       "id": "plexuss",
@@ -6093,7 +6235,7 @@
       "optery_slug": "privatenumberchecker-com",
       "email_to": null,
       "email_verified": false,
-      "email_verified_by": "delivery_evidence",
+      "email_verified_by": "no_address_published",
       "notes": "support@privatenumberchecker.com hard-bounces 'address not found' despite the domain publishing MX. Use /removalrequest/ - a short form, NO CAPTCHA, with a free-text 'Removal reason' box that accepts a full multi-identifier request. Phone field rejects hyphens ('must be numeric') and the failed validation leaves the submit button DISABLED, so the correction cannot be sent without reloading. Cloudflare challenges the page but clears in ~10s."
     },
     {
@@ -6192,7 +6334,7 @@
       "optery_slug": "propertyreach",
       "email_to": null,
       "email_verified": false,
-      "email_verified_by": "broker_reply",
+      "email_verified_by": "no_address_published",
       "notes": "compliance@propertyreach.com replies 'We do not accept privacy requests via email' and points at /privacy-rights. That form is a cascade of custom dropdown widgets: Select Right (Do Not Sell / Right to Delete / Right to Know / Right to Correct - SINGLE-SELECT, so delete and opt-out need two runs), then 'Exercise my rights as a' (PropertyReach Customer / MEMBER OF THE PUBLIC). Cloudflare gates the page for ~10s. The widgets do not drive reliably under automation - clicking the option label navigated away to a marketing page."
     },
     {
@@ -6232,7 +6374,10 @@
       "optout_url": "https://prospeo.io/privacy",
       "needs_email_confirm": null,
       "category": "b2b",
-      "source": "privacyinsightsolutions"
+      "source": "privacyinsightsolutions",
+      "email_to": "gdpr-rep@prospeo.io",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
     },
     {
       "id": "public_data_check",
@@ -6299,7 +6444,9 @@
       "optout_url": "https://www.publicrecordcenter.com/remove.html",
       "needs_email_confirm": null,
       "source": "optery_scrape",
-      "optery_slug": "publicrecordcenter-com"
+      "optery_slug": "publicrecordcenter-com",
+      "email_verified": false,
+      "email_verified_by": "no_address_published"
     },
     {
       "id": "publicrecords_com",
@@ -6337,7 +6484,9 @@
       "method": "web_form",
       "optout_url": "https://www.publicrecordsnow.com/optout/",
       "needs_email_confirm": false,
-      "optery_slug": "publicrecordsnow"
+      "optery_slug": "publicrecordsnow",
+      "email_verified": false,
+      "email_verified_by": "no_address_published"
     },
     {
       "id": "publicsearcher",
@@ -6418,7 +6567,9 @@
       "optout_url": "https://www.quantcast.com/privacy-choices/",
       "needs_email_confirm": null,
       "category": "adtech",
-      "source": "privacyinsightsolutions"
+      "source": "privacyinsightsolutions",
+      "email_verified": false,
+      "email_verified_by": "no_address_published"
     },
     {
       "id": "quick_people_trace",
@@ -6585,7 +6736,9 @@
       "optout_url": "https://www.truthfinder.com/opt-out/v2/submit/",
       "needs_email_confirm": null,
       "source": "optery_scrape",
-      "optery_slug": "recordspage"
+      "optery_slug": "recordspage",
+      "email_verified": false,
+      "email_verified_by": "no_address_published"
     },
     {
       "id": "recordsquarry",
@@ -6848,7 +7001,10 @@
       "optout_url": "https://rocketreach.co/privacy",
       "needs_email_confirm": null,
       "category": "b2b",
-      "source": "privacyinsightsolutions"
+      "source": "privacyinsightsolutions",
+      "email_to": "privacy@rocketreach.co",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
     },
     {
       "id": "round_sky",
@@ -6942,7 +7098,10 @@
       "method": "web_form",
       "optout_url": "https://www.searchpeoplefree.com/opt-out",
       "needs_email_confirm": true,
-      "optery_slug": "searchpeoplefree"
+      "optery_slug": "searchpeoplefree",
+      "email_to": "support@searchpeoplefree.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
     },
     {
       "id": "searchpeoplefree_net",
@@ -7160,7 +7319,9 @@
       "method": "web_form",
       "optout_url": "https://www.smartbackgroundchecks.com/optoutcheck",
       "needs_email_confirm": true,
-      "optery_slug": "smartbackgroundchecks"
+      "optery_slug": "smartbackgroundchecks",
+      "email_verified": false,
+      "email_verified_by": "no_address_published"
     },
     {
       "id": "smartmove",
@@ -7199,7 +7360,10 @@
       "optout_url": "https://snov.io/do-not-sell-my-personal-information",
       "needs_email_confirm": null,
       "category": "b2b",
-      "source": "privacyinsightsolutions"
+      "source": "privacyinsightsolutions",
+      "email_to": "snovio_dpo@snov.io",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
     },
     {
       "id": "sourceit",
@@ -7346,7 +7510,10 @@
       "method": "web_form",
       "optout_url": "https://www.spydialer.com/optout.aspx",
       "needs_email_confirm": true,
-      "optery_slug": "spydialer"
+      "optery_slug": "spydialer",
+      "email_to": "support@spydialer.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
     },
     {
       "id": "spyfly",
@@ -7539,7 +7706,9 @@
       "optout_url": "https://tagxdata.com/contact",
       "needs_email_confirm": null,
       "category": "data",
-      "source": "privacyinsightsolutions"
+      "source": "privacyinsightsolutions",
+      "email_verified": false,
+      "email_verified_by": "no_address_published"
     },
     {
       "id": "tapad",
@@ -7578,7 +7747,10 @@
       "optout_url": "https://privacy-policy.teads.com",
       "needs_email_confirm": null,
       "category": "adtech",
-      "source": "privacyinsightsolutions"
+      "source": "privacyinsightsolutions",
+      "email_to": "privacy@teads.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
     },
     {
       "id": "telefi",
@@ -7659,7 +7831,9 @@
       "optout_url": "https://texasarrestwarrants.org/contact",
       "needs_email_confirm": null,
       "source": "optery_scrape",
-      "optery_slug": "texas-arrest-warrants-search"
+      "optery_slug": "texas-arrest-warrants-search",
+      "email_verified": false,
+      "email_verified_by": "no_address_published"
     },
     {
       "id": "texas_arrests",
@@ -7670,7 +7844,9 @@
       "optout_url": "https://infotracer.com/optout",
       "needs_email_confirm": null,
       "source": "optery_scrape",
-      "optery_slug": "texas-arrests"
+      "optery_slug": "texas-arrests",
+      "email_verified": false,
+      "email_verified_by": "no_address_published"
     },
     {
       "id": "texascourtrecords_us",
@@ -7926,7 +8102,9 @@
       "optout_url": "http://www.unitedstatesphonebook.com/contact.php",
       "needs_email_confirm": null,
       "source": "optery_scrape",
-      "optery_slug": "unitedstatesphonebook-com"
+      "optery_slug": "unitedstatesphonebook-com",
+      "email_verified": false,
+      "email_verified_by": "no_address_published"
     },
     {
       "id": "unmask",
@@ -7951,7 +8129,9 @@
       "optout_url": "https://www.uplead.com/privacy/",
       "needs_email_confirm": null,
       "category": "b2b",
-      "source": "privacyinsightsolutions"
+      "source": "privacyinsightsolutions",
+      "email_verified": false,
+      "email_verified_by": "no_address_published"
     },
     {
       "id": "us_marketing_group",
@@ -7976,7 +8156,9 @@
       "optout_url": "https://www.usa-people-search.com/removal",
       "needs_email_confirm": null,
       "source": "optery_scrape",
-      "optery_slug": "usa-people-search"
+      "optery_slug": "usa-people-search",
+      "email_verified": false,
+      "email_verified_by": "no_address_published"
     },
     {
       "id": "usadata",
@@ -8030,7 +8212,10 @@
       "optout_url": "https://www.usphonebook.com/removal",
       "needs_email_confirm": true,
       "optery_slug": "usphonebook",
-      "notes": "/removal, not /opt-out."
+      "notes": "/removal, not /opt-out.",
+      "email_to": "customercare@usphonebook.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
     },
     {
       "id": "usphonelookup",
@@ -8055,7 +8240,9 @@
       "optout_url": "https://infotracer.com/optout",
       "needs_email_confirm": null,
       "source": "optery_scrape",
-      "optery_slug": "usrecords"
+      "optery_slug": "usrecords",
+      "email_verified": false,
+      "email_verified_by": "no_address_published"
     },
     {
       "id": "ussearch",
@@ -8078,7 +8265,9 @@
       "optout_url": "https://infotracer.com/optout",
       "needs_email_confirm": null,
       "source": "optery_scrape",
-      "optery_slug": "uswarrants"
+      "optery_slug": "uswarrants",
+      "email_verified": false,
+      "email_verified_by": "no_address_published"
     },
     {
       "id": "utah_arrests",
@@ -8621,7 +8810,9 @@
       "optout_url": "https://www.yellowpagesdirectory.com/support.php",
       "needs_email_confirm": null,
       "source": "optery_scrape",
-      "optery_slug": "yellow-pages-directory-inc"
+      "optery_slug": "yellow-pages-directory-inc",
+      "email_verified": false,
+      "email_verified_by": "no_address_published"
     },
     {
       "id": "zabasearch",
@@ -8657,7 +8848,10 @@
       "method": "web_form",
       "optout_url": "https://privacyrequest.zoominfo.com/remove/verify",
       "needs_email_confirm": true,
-      "notes": "Dedicated removal+verify endpoint. B2B data; requires email verification of the address on file."
+      "notes": "Dedicated removal+verify endpoint. B2B data; requires email verification of the address on file.",
+      "email_to": "privacy@zoominfo.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
     },
     {
       "id": "viewdns",
@@ -8684,10 +8878,11 @@
       "needs_email_confirm": null,
       "category": "domain_intelligence_UNCONFIRMED",
       "source": "whois_source_discovery",
-      "email_to": "",
+      "email_to": "sales@whoisxmlapi.com",
       "email_verified": false,
-      "email_verified_by": "site returns 403 to scripted fetches; no address recovered yet",
-      "note": "Added on a category hypothesis (firms that may hold pre-redaction WHOIS records), NOT on evidence about this company. Verify the actual product line before writing - ViewDNS was on this list and does not offer historical WHOIS. See _SILENT_FAILURES.md 67 correction."
+      "email_verified_by": "published_general_mailbox",
+      "note": "Added on a category hypothesis (firms that may hold pre-redaction WHOIS records), NOT on evidence about this company. Verify the actual product line before writing - ViewDNS was on this list and does not offer historical WHOIS. See _SILENT_FAILURES.md 67 correction.",
+      "notes": "sales@whoisxmlapi.com is the only address published on the site and is a general mailbox, not a rights channel. Re-check for a privacy contact before treating silence as refusal."
     },
     {
       "id": "securitytrails",
@@ -8716,7 +8911,7 @@
       "source": "whois_source_discovery",
       "email_to": "",
       "email_verified": false,
-      "email_verified_by": "privacy.php and contact.php publish no address in page text",
+      "email_verified_by": "no_address_published",
       "note": "Added on a category hypothesis (firms that may hold pre-redaction WHOIS records), NOT on evidence about this company. Verify the actual product line before writing - ViewDNS was on this list and does not offer historical WHOIS. See _SILENT_FAILURES.md 67 correction."
     },
     {
@@ -8731,7 +8926,7 @@
       "source": "whois_source_discovery",
       "email_to": "",
       "email_verified": false,
-      "email_verified_by": "/privacy and /contact publish no address in page text",
+      "email_verified_by": "no_address_published",
       "note": "Added on a category hypothesis (firms that may hold pre-redaction WHOIS records), NOT on evidence about this company. Verify the actual product line before writing - ViewDNS was on this list and does not offer historical WHOIS. See _SILENT_FAILURES.md 67 correction."
     },
     {
@@ -8761,6 +8956,1127 @@
       "email_to": "privacyrequests@l2political.com",
       "email_verified": true,
       "email_verified_by": "published on the opt-out page at l2-data.com/optout1-667457/. Discovered because Sourceit Marketing named L2 Data as one of its email-list suppliers (2026-08-20). Note the opt-out page lives at a non-guessable path and is NOT at /opt-out/, /privacy/ or /privacy-policy/, all of which 404."
+    },
+    {
+      "id": "address_scoop",
+      "name": "Address Scoop",
+      "domain": "addressscoop.com",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "address-scoop",
+      "email_to": "support@addressscoop.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "aeroleads",
+      "name": "Aeroleads",
+      "domain": "aeroleads.com",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "aeroleads",
+      "email_to": "support@aeroleads.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "affluense_ai",
+      "name": "Affluense Ai",
+      "domain": "affluense.ai",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "affluense-ai",
+      "email_to": "privacy@affluense.ai",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "aged_solar_leads",
+      "name": "Aged Solar Leads Llc",
+      "domain": "agedsolarleads.com",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "aged-solar-leads-llc",
+      "email_to": "info@agedsolarleads.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "allant_group",
+      "name": "Allant Group Llc",
+      "domain": "allantgroup.com",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "allant-group-llc",
+      "email_to": "privacy@allantgroup.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "amedisys",
+      "name": "Amedisys Inc",
+      "domain": "amedisys.com",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "amedisys-inc",
+      "email_to": "privacy@amedisys.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "b2bhint",
+      "name": "B2bhint",
+      "domain": "b2bhint.com",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "b2bhint",
+      "email_to": "hello@b2bhint.com",
+      "email_verified": false,
+      "email_verified_by": "published_general_mailbox",
+      "notes": "hello@b2bhint.com is the only address published on the site and is a general mailbox, not a rights channel. Re-check for a privacy contact before treating silence as refusal."
+    },
+    {
+      "id": "besthistorysites_net",
+      "name": "Besthistorysites Net",
+      "domain": "besthistorysites.net",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "besthistorysites-net",
+      "email_to": "support@besthistorysites.net",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "buyersroad",
+      "name": "Buyersroad Inc",
+      "domain": "buyersroad.co",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "buyersroad-inc",
+      "email_to": "support@experience.com",
+      "email_verified": false,
+      "email_verified_by": "offdomain_needs_confirmation",
+      "notes": "support@experience.com is not on buyersroad.co -- the site publishes no address on the broker's own domain. Either an acquisition (route is correct) or a wrong domain in the registry (route is a stranger). Confirm the corporate relationship before sending: the letter carries a full identifier set."
+    },
+    {
+      "id": "cb_insights",
+      "name": "Cb Insights Inc",
+      "domain": "cbinsights.com",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "cb-insights-inc",
+      "email_to": "privacy@cbinsights.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "clay",
+      "name": "Clay",
+      "domain": "clay.com",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "clay",
+      "email_to": "privacy@clay.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "clodura_ai",
+      "name": "Clodura Ai",
+      "domain": "clodura.ai",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "clodura-ai",
+      "email_to": "support@clodura.ai",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "comscore",
+      "name": "Comscore",
+      "domain": "comscore.com",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "comscore",
+      "email_to": "privacy@comscore.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "contactout",
+      "name": "Contactout",
+      "domain": "contactout.com",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "contactout",
+      "email_to": "support@contactout.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "courtrec_com",
+      "name": "Courtrec Com",
+      "domain": "courtrec.com",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "courtrec-com",
+      "email_to": "support@courtrec.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "cybba",
+      "name": "Cybba",
+      "domain": "cybba.com",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "cybba",
+      "email_to": "info@cybba.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "datagma",
+      "name": "Datagma",
+      "domain": "datagma.com",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "datagma",
+      "email_to": "gdpr@datagma.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "datalead",
+      "name": "Datalead",
+      "domain": "datalead.io",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "datalead",
+      "email_to": "hello@fruits.co",
+      "email_verified": false,
+      "email_verified_by": "offdomain_needs_confirmation",
+      "notes": "hello@fruits.co is the only address published on the site and is a general mailbox, not a rights channel. Re-check for a privacy contact before treating silence as refusal. hello@fruits.co is not on datalead.io -- the site publishes no address on the broker's own domain. Either an acquisition (route is correct) or a wrong domain in the registry (route is a stranger). Confirm the corporate relationship before sending: the letter carries a full identifier set."
+    },
+    {
+      "id": "dato_capital",
+      "name": "Dato Capital",
+      "domain": "datocapital.com",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "dato-capital",
+      "email_to": "privacy@netamo.com",
+      "email_verified": false,
+      "email_verified_by": "offdomain_needs_confirmation",
+      "notes": "privacy@netamo.com is not on datocapital.com -- the site publishes no address on the broker's own domain. Either an acquisition (route is correct) or a wrong domain in the registry (route is a stranger). Confirm the corporate relationship before sending: the letter carries a full identifier set."
+    },
+    {
+      "id": "domaintools",
+      "name": "Domaintools Llc",
+      "domain": "domaintools.com",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "domaintools-llc",
+      "email_to": "enterprisesupport@domaintools.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "edgein",
+      "name": "Edgein",
+      "domain": "edgein.io",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "edgein",
+      "email_to": "privacy@mentibus.com",
+      "email_verified": false,
+      "email_verified_by": "offdomain_needs_confirmation",
+      "notes": "privacy@mentibus.com is not on edgein.io -- the site publishes no address on the broker's own domain. Either an acquisition (route is correct) or a wrong domain in the registry (route is a stranger). Confirm the corporate relationship before sending: the letter carries a full identifier set."
+    },
+    {
+      "id": "equilar",
+      "name": "Equilar Inc",
+      "domain": "equilar.com",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "equilar-inc",
+      "email_to": "dataprotectionofficer@equilar.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "everyday_health",
+      "name": "Everyday Health Inc",
+      "domain": "everydayhealthinc.com",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "everyday-health-inc",
+      "email_to": "info@everydayhealthgroup.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "exlservice_com",
+      "name": "Exlservice Com",
+      "domain": "exlservice.com",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "exlservice-com",
+      "email_to": "privacy@exlservice.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "fetcher",
+      "name": "Fetcher",
+      "domain": "fetcher.ai",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "fetcher",
+      "email_to": "privacy@fetcher.ai",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "finalscout",
+      "name": "Finalscout",
+      "domain": "finalscout.com",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "finalscout",
+      "email_to": "privacy@finalscout.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "finalsite",
+      "name": "Finalsite",
+      "domain": "finalsite.com",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "finalsite",
+      "email_to": "privacy@finalsite.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "findlaw",
+      "name": "Findlaw",
+      "domain": "findlaw.com",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "findlaw",
+      "email_to": "privacy@internetbrands.com",
+      "email_verified": false,
+      "email_verified_by": "offdomain_needs_confirmation",
+      "notes": "privacy@internetbrands.com is not on findlaw.com -- the site publishes no address on the broker's own domain. Either an acquisition (route is correct) or a wrong domain in the registry (route is a stranger). Confirm the corporate relationship before sending: the letter carries a full identifier set."
+    },
+    {
+      "id": "findwhocallsyou",
+      "name": "Findwhocallsyou",
+      "domain": "findwhocallsyou.com",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "findwhocallsyou",
+      "email_to": "contact@findwhocallsyou.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "first_advantage",
+      "name": "First Advantage Corporation",
+      "domain": "fadv.com",
+      "priority": 1,
+      "method": "web_form",
+      "optout_url": "https://fadv.com/privacy-policy/",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "first-advantage-corporation",
+      "email_verified": false,
+      "email_verified_by": "no_address_published",
+      "notes": "support@moxiworks.com is not on firstadvantage.com -- the site publishes no address on the broker's own domain. Either an acquisition (route is correct) or a wrong domain in the registry (route is a stranger). Confirm the corporate relationship before sending: the letter carries a full identifier set. Registry domain was firstadvantage.com, which redirects to erafirst.com -- ERA First Advantage Realty, a real-estate brokerage with no connection to First Advantage Corporation. That is how support@moxiworks.com (real-estate software) was scraped as the privacy contact. First Advantage Corporation operates on fadv.com."
+    },
+    {
+      "id": "flexera",
+      "name": "Flexera",
+      "domain": "flexera.com",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "flexera",
+      "email_to": "dataprotectionteam@flexera.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "fullcontact",
+      "name": "Fullcontact",
+      "domain": "fullcontact.com",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "fullcontact",
+      "email_to": "privacy@fullcontact.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "fullenrich",
+      "name": "Fullenrich",
+      "domain": "fullenrich.com",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "fullenrich",
+      "email_to": "support@fullenrich.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "getemail_io",
+      "name": "Getemail Io",
+      "domain": "getemail.io",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "getemail-io-2",
+      "email_to": "getemailsales@dnb.com",
+      "email_verified": false,
+      "email_verified_by": "offdomain_needs_confirmation",
+      "notes": "getemailsales@dnb.com is not on getemail.io -- the site publishes no address on the broker's own domain. Either an acquisition (route is correct) or a wrong domain in the registry (route is a stranger). Confirm the corporate relationship before sending: the letter carries a full identifier set."
+    },
+    {
+      "id": "getprospect",
+      "name": "Getprospect Llc",
+      "domain": "getprospect.com",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "getprospect-llc",
+      "email_to": "support@getprospect.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "h1bdata_info",
+      "name": "H1bdata Info",
+      "domain": "h1bdata.info",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "h1bdata-info",
+      "email_to": "admin@h1bdata.info",
+      "email_verified": false,
+      "email_verified_by": "published_general_mailbox",
+      "notes": "admin@h1bdata.info is the only address published on the site and is a general mailbox, not a rights channel. Re-check for a privacy contact before treating silence as refusal."
+    },
+    {
+      "id": "hireright",
+      "name": "Hireright Llc",
+      "domain": "hireright.com",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "hireright-llc",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy",
+      "notes": "Registry domain was hireright.io, which is a live but unrelated site; HireRight LLC is hireright.com. The wrong domain produced a scraped support@hireright.io that would have sent a full identifier set to a stranger.",
+      "email_to": "hirerightprivacy@hireright.com"
+    },
+    {
+      "id": "hunter",
+      "name": "Hunter",
+      "domain": "hunter.io",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "hunter-2",
+      "email_to": "privacy@hunter.io",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "intentmacro",
+      "name": "Intentmacro",
+      "domain": "intentmacro.com",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "intentmacro",
+      "email_to": "privacy@pharosiq.com",
+      "email_verified": false,
+      "email_verified_by": "offdomain_needs_confirmation",
+      "notes": "privacy@pharosiq.com is not on intentmacro.com -- the site publishes no address on the broker's own domain. Either an acquisition (route is correct) or a wrong domain in the registry (route is a stranger). Confirm the corporate relationship before sending: the letter carries a full identifier set."
+    },
+    {
+      "id": "lawlink",
+      "name": "Lawlink",
+      "domain": "lawlink.com",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "lawlink",
+      "email_to": "info@lawlink.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "local_pages",
+      "name": "Local Pages",
+      "domain": "localpages.com",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "local-pages",
+      "email_to": "contact@localpages.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "mansionquest_com",
+      "name": "Mansionquest Com",
+      "domain": "mansionquest.com",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "mansionquest-com",
+      "email_to": "contact@mansionquest.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "mapquest",
+      "name": "Mapquest Inc",
+      "domain": "mapquest.com",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "mapquest-inc",
+      "email_to": "help@mapquest.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "merchantcircle",
+      "name": "Merchantcircle",
+      "domain": "merchantcircle.com",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "merchantcircle",
+      "email_to": "support@merchantcircle.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "muraena",
+      "name": "Muraena",
+      "domain": "muraena.ai",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "muraena",
+      "email_to": "support@muraena.ai",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "names_and_facts",
+      "name": "Names And Facts",
+      "domain": "namesandfacts.com",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "names-and-facts",
+      "email_to": "info@namesandfacts.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "nocallername",
+      "name": "Nocallername",
+      "domain": "nocallername.com",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "nocallername",
+      "email_to": "support@nocallername.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "onetrust",
+      "name": "Onetrust Llc",
+      "domain": "onetrust.com",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "onetrust-llc",
+      "email_to": "dpo@onetrust.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "opendatausa",
+      "name": "Opendatausa",
+      "domain": "opendatausa.com",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "opendatausa-2",
+      "email_to": "contact_us@certlaw.com",
+      "email_verified": false,
+      "email_verified_by": "offdomain_needs_confirmation",
+      "notes": "contact_us@certlaw.com is not on opendatausa.com -- the site publishes no address on the broker's own domain. Either an acquisition (route is correct) or a wrong domain in the registry (route is a stranger). Confirm the corporate relationship before sending: the letter carries a full identifier set."
+    },
+    {
+      "id": "optimal_fusion",
+      "name": "Optimal Fusion",
+      "domain": "optimalfusion.com",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "optimal-fusion",
+      "email_to": "dataprotectionofficer@optimalfusion.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "peeplookup",
+      "name": "Peeplookup",
+      "domain": "peeplookup.net",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "peeplookup-2",
+      "email_to": "info@virtivox.com",
+      "email_verified": false,
+      "email_verified_by": "offdomain_needs_confirmation",
+      "notes": "info@virtivox.com is not on peeplookup.net -- the site publishes no address on the broker's own domain. Either an acquisition (route is correct) or a wrong domain in the registry (route is a stranger). Confirm the corporate relationship before sending: the letter carries a full identifier set."
+    },
+    {
+      "id": "phoneowner",
+      "name": "Phoneowner Inc",
+      "domain": "phoneowner.com",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "phoneowner-inc",
+      "email_to": "contact@phoneowner.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "prezi",
+      "name": "Prezi Inc",
+      "domain": "prezi.com",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "prezi-inc",
+      "email_to": "privacy@prezi.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "propertychecker_com",
+      "name": "Propertychecker Com",
+      "domain": "propertychecker.com",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "propertychecker-com",
+      "email_to": "support@propertychecker.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "publicrecords_info",
+      "name": "Publicrecords Info",
+      "domain": "publicrecords.info",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "publicrecords-info",
+      "email_to": "support@publicrecords.info",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "realsatisfied",
+      "name": "Realsatisfied",
+      "domain": "realsatisfied.com",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "realsatisfied",
+      "email_to": "support@realsatisfied.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "rhodeislandpeoplerecords_org",
+      "name": "Rhodeislandpeoplerecords Org",
+      "domain": "rhodeislandpeoplerecords.org",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "rhodeislandpeoplerecords-org",
+      "email_to": "privacy@peoplerecords.org",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "salesforce",
+      "name": "Salesforce",
+      "domain": "salesforce.com",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "salesforce",
+      "email_to": "privacy@salesforce.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "salesgear",
+      "name": "Salesgear",
+      "domain": "salesgear.io",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "salesgear",
+      "email_to": "support@salesgear.io",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "salesgear_io",
+      "name": "Salesgear Io",
+      "domain": "salesgear.io",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "salesgear-io",
+      "email_to": "support@salesgear.io",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "salesintel",
+      "name": "Salesintel",
+      "domain": "salesintel.com",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "salesintel",
+      "email_to": "support@salesintel.io",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "scribd",
+      "name": "Scribd Inc",
+      "domain": "scribdinc.com",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "scribd-inc",
+      "email_to": "privacy@scribd.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "signalhire",
+      "name": "Signalhire",
+      "domain": "signalhire.com",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "signalhire-2",
+      "email_to": "support@signalhire.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "simunix",
+      "name": "Simunix Ltd",
+      "domain": "simunix.com",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "simunix-ltd",
+      "email_to": "dpo@simunix.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "sprouts_ai",
+      "name": "Sprouts Ai",
+      "domain": "sprouts.ai",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "sprouts-ai",
+      "email_to": "privacy@sprouts.ai",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "subsplash",
+      "name": "Subsplash",
+      "domain": "subsplash.com",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "subsplash",
+      "email_to": "hello@subsplash.com",
+      "email_verified": false,
+      "email_verified_by": "published_general_mailbox",
+      "notes": "hello@subsplash.com is the only address published on the site and is a general mailbox, not a rights channel. Re-check for a privacy contact before treating silence as refusal."
+    },
+    {
+      "id": "sysoon",
+      "name": "Sysoon",
+      "domain": "sysoon.net",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "sysoon",
+      "email_to": "info@sysoon.net",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "the_georgia_gazette",
+      "name": "The Georgia Gazette Llc",
+      "domain": "thegeorgiagazette.com",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "the-georgia-gazette-llc",
+      "email_to": "support@thegeorgiagazette.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "thisnumber_com",
+      "name": "Thisnumber Com",
+      "domain": "thisnumber.com",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "thisnumber-com",
+      "email_to": "hello@thisnumber.com",
+      "email_verified": false,
+      "email_verified_by": "published_general_mailbox",
+      "notes": "hello@thisnumber.com is the only address published on the site and is a general mailbox, not a rights channel. Re-check for a privacy contact before treating silence as refusal."
+    },
+    {
+      "id": "thomson_reuters",
+      "name": "Thomson Reuters",
+      "domain": "thomsonreuters.com",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "thomson-reuters",
+      "email_to": "privacy.enquiries@thomsonreuters.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "thryv_holdings",
+      "name": "Thryv Holdings Inc",
+      "domain": "thryv.com",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "thryv-holdings-inc",
+      "email_to": "support@thryv.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "tomba",
+      "name": "Tomba",
+      "domain": "tomba.io",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "tomba",
+      "email_to": "privacy@tomba.io",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "topline_holdings",
+      "name": "Topline Holdings Inc",
+      "domain": "topline.com",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "topline-holdings-inc",
+      "email_to": "help@topline.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "traded_media",
+      "name": "Traded Media Llc",
+      "domain": "traded-media.com",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "traded-media-llc",
+      "email_to": "hello@traded.co",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy",
+      "notes": "hello@traded.co is the only address published on the site and is a general mailbox, not a rights channel. Re-check for a privacy contact before treating silence as refusal."
+    },
+    {
+      "id": "transcend",
+      "name": "Transcend Inc",
+      "domain": "transcend.io",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "transcend-inc",
+      "email_to": "support@transcend.io",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "transparent_nevada",
+      "name": "Transparent Nevada",
+      "domain": "transparentnevada.com",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "transparent-nevada",
+      "email_to": "info@nevadapolicy.org",
+      "email_verified": false,
+      "email_verified_by": "offdomain_needs_confirmation",
+      "notes": "info@nevadapolicy.org is not on transparentnevada.com -- the site publishes no address on the broker's own domain. Either an acquisition (route is correct) or a wrong domain in the registry (route is a stranger). Confirm the corporate relationship before sending: the letter carries a full identifier set."
+    },
+    {
+      "id": "wealthminder",
+      "name": "Wealthminder",
+      "domain": "wealthminder.co",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "wealthminder",
+      "email_to": "sales@wealthminder.com",
+      "email_verified": false,
+      "email_verified_by": "published_general_mailbox",
+      "notes": "sales@wealthminder.com is the only address published on the site and is a general mailbox, not a rights channel. Re-check for a privacy contact before treating silence as refusal."
+    },
+    {
+      "id": "wiza",
+      "name": "Wiza",
+      "domain": "wiza.com",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "wiza",
+      "email_to": "optout@wiza.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "demandscience",
+      "name": "DemandScience",
+      "domain": "demandscience.com",
+      "priority": 3,
+      "method": "web_form",
+      "optout_url": "https://demandscience.com/privacy-policy/",
+      "needs_email_confirm": true,
+      "source": "supplier_disclosure",
+      "optery_slug": null,
+      "notes": "B2B intent and contact data (formerly PureB2B / Leadiro). Named by Terminus as a supplier; absent from every broker list. Rights route is a PrivacyEngine form reached by one anchor in the privacy policy prose -- the three forms on the page are two site searches and a newsletter (_SILENT_FAILURES.md 71). Form demands a business email and an employer, with no data-subject category for a member of the public (_DEFLECTIONS.md 43). Verification link must be clicked or the request is void."
     }
   ]
 }

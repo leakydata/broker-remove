@@ -94,12 +94,31 @@ def main():
             json.dump([], sys.stdout)
         return 0
 
+    # An address whose corporate relationship to the broker is unconfirmed must
+    # never be auto-sent. These letters carry a full identifier set -- every
+    # prior address, every prior phone number, a date of birth -- so a wrong
+    # route is not a wasted send, it is a disclosure to an unrelated company
+    # caused by the removal effort itself. firstadvantage.com redirects to a
+    # real-estate brokerage, and the scrape duly proposed a real-estate software
+    # vendor's support desk as First Advantage Corporation's privacy contact.
+    # See verify_emails.py DISCOVERED_OFFDOMAIN.
+    HOLD = {"offdomain_needs_confirmation", "domain_corrected_needs_rediscovery"}
+    held = [b["id"] for b in brokers
+            if b.get("email_to") and b.get("email_verified_by") in HOLD
+            and state.get(b["id"], {}).get("status", "pending") not in DONE]
     pool = [
         b for b in brokers
         if b.get("email_to")
+        and b.get("email_verified_by") not in HOLD
         and b.get("priority", 0) >= args.min_priority
         and state.get(b["id"], {}).get("status", "pending") not in DONE
     ]
+    if held:
+        # Never drop a bounded set silently: a queue that quietly excludes work
+        # reads as "nothing left to do".
+        print(f"holding {len(held)} broker(s) whose address is on another "
+              f"company's domain and unconfirmed: {', '.join(sorted(held)[:8])}"
+              + (" ..." if len(held) > 8 else ""), file=sys.stderr)
     # Highest leverage first: aggregators before niche sites.
     pool.sort(key=lambda b: (-b.get("priority", 0), b["id"]))
     batch = pool[: min(args.size, remaining)]

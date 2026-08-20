@@ -3308,3 +3308,81 @@ regional desk forwards it, the reply comes from the right one and the note
 becomes the audit trail for how it got there.
 
 **Related:** §64, §65, §68, §72, §74.
+
+---
+
+## §76 A guessed domain, then an address scraped off it: two derivations, one confident wrong answer
+
+`resolve_optery_domains.py` turns a broker slug into a domain by deriving
+candidates and requiring each to resolve and to serve a page mentioning the
+slug's distinctive words. `verify_emails.py` then reads an address off whatever
+that domain serves. Each step is checked. Neither step can check the other, and
+the second one launders the first one's mistake into something that looks
+verified.
+
+Two cases, both major background-screening companies:
+
+**First Advantage.** Registry domain `firstadvantage.com`. It resolves, serves a
+page, and passes every check — because it redirects to `erafirst.com`, **ERA
+First Advantage Realty**, a real-estate brokerage with no connection to First
+Advantage Corporation. The address sweep read that site and proposed
+`support@moxiworks.com` — MoxiWorks, a real-estate software vendor — as First
+Advantage's privacy contact. Two independent derivations, both internally valid,
+producing a confident route to a company three steps removed from the target.
+First Advantage Corporation is at `fadv.com`, which publishes nothing at all.
+
+**HireRight.** Registry domain `hireright.io`. Live site, resolves, serves
+pages, publishes `support@hireright.io`. The real HireRight LLC is
+`hireright.com`, and it publishes eight addresses including
+`hirerightprivacy@` and `dpo@`. The `.io` was never theirs.
+
+**Why this is worse than a wasted send.** These letters carry a complete
+identifier set: every prior address, every prior telephone number, a date of
+birth, a dozen email addresses. Mailing that to a company that is not the broker
+is a disclosure of personal data *caused by the removal effort*. It is the only
+failure mode in this file that leaves the requester worse off than having done
+nothing, and it arrives wearing an `email_verified: true` flag.
+
+**The structural point.** A derived value used as the input to another
+derivation needs a check that does not come from the same chain. Both scripts
+verify their own step honestly; neither is positioned to notice that the thing
+it was handed is wrong. Confidence multiplied along a chain does not survive the
+first bad link, but the *appearance* of confidence does.
+
+**The signal that catches most of it.** If a site publishes **no address on the
+broker's own domain**, something is going on, and it is one of two things:
+
+- an acquisition or rebrand, where the parent's privacy desk is the correct and
+  frequently better route — CoreLogic → Cotality, Aberdeen → Spiceworks,
+  FindLaw → Internet Brands, Intentgine → PharosIQ;
+- a wrong domain, where the address belongs to a stranger — `datalead.io`
+  serving `hello@fruits.co`, `firstadvantage.com` serving MoxiWorks.
+
+These are indistinguishable from outside, so the verdict `DISCOVERED_OFFDOMAIN`
+records the address (the acquisition case is common and the lead is worth
+keeping) but never marks it verified, and `queue_batch.py` holds it out of the
+send queue until a human confirms the corporate relationship. Nineteen addresses
+from one sweep landed in that state.
+
+**What must not be done here is quietly drop them.** A queue that silently
+excludes work reads as "nothing left to do" — the same illusion that hid 304
+routable brokers behind "0 brokers still to contact by email". The hold prints
+the count and the ids every time it runs.
+
+**A narrow exception, and only a narrow one.** Some off-domain addresses are
+plainly the same company under a different legal or TLD form: `scribdinc.com`
+publishing `privacy@scribd.com`, `salesintel.com` publishing
+`support@salesintel.io`. `same_entity()` clears those by stripping corporate
+noise words (`inc`, `group`, `holdings`, `media`) and comparing what is left.
+It is deliberately unable to detect acquisitions — inferring a corporate
+relationship from a name is exactly the kind of plausible reasoning §66 was
+written about. A shared stem is evidence. A shared industry is not.
+
+**Prevention.** Where a slug-derived domain and a curated domain disagree, the
+curated one wins — that rule already exists. What was missing is the case where
+there is no curated value at all and the derived one is simply wrong. The tell
+is cheap to check by hand and expensive to miss: **follow the redirect and read
+the company name.** `firstadvantage.com` announces itself as a realty firm in
+the first line of its own homepage.
+
+**Related:** §64, §65, §66, §75.

@@ -159,6 +159,44 @@ REGION = {
 }
 
 
+# Corporate-form and descriptor words that appear in one of a company's domains
+# and not the other. `scribdinc.com` and `scribd.com` are the same company;
+# `datalead.io` and `fruits.co` are not, and no amount of suffix-stripping will
+# make them look related. Stripping these before comparing is what separates the
+# two cases.
+ENTITY_NOISE = ("inc", "llc", "ltd", "corp", "corporation", "group", "holdings",
+                "company", "co", "media", "labs", "global", "usa", "online",
+                "the", "get", "my", "official")
+
+
+def entity_stem(label):
+    """The distinctive part of a domain label, with corporate noise removed."""
+    stem = label.split(".")[0].replace("-", "").replace("_", "").lower()
+    changed = True
+    while changed and len(stem) > 4:
+        changed = False
+        for w in ENTITY_NOISE:
+            if len(stem) - len(w) >= 4 and (stem.startswith(w) or stem.endswith(w)):
+                stem = stem[len(w):] if stem.startswith(w) else stem[: -len(w)]
+                changed = True
+    return stem
+
+
+def same_entity(domain, host):
+    """Is an address on `host` plainly the same company as `domain`?
+
+    Deliberately narrow. It exists to stop a rebrand or a legal-entity domain
+    being reported as somebody else's inbox -- scribdinc.com publishing
+    privacy@scribd.com, salesintel.com publishing support@salesintel.io -- and
+    nothing more. A shared stem is evidence of one company; an acquisition is
+    not detectable this way and must not be guessed at."""
+    a, b = entity_stem(domain), entity_stem(host)
+    if not a or not b:
+        return False
+    short, long = (a, b) if len(a) <= len(b) else (b, a)
+    return len(short) >= 4 and short in long
+
+
 def region_of(addr):
     """The region an address is scoped to, or None if it is the general one.
 
@@ -358,7 +396,9 @@ def check(b):
         return out
 
     # Prefer an address on the broker's own domain, best privacy local-part first.
-    same = [e for e in found if e.endswith("@" + domain) or domain in e.split("@")[1]]
+    same = [e for e in found
+            if e.endswith("@" + domain) or domain in e.split("@")[1]
+            or same_entity(domain, e.split("@")[1])]
     pool = same or list(found)
     # Rank first, then prefer the shortest local-part at the same rank. Large
     # brokers publish a whole family of regional privacy addresses --
@@ -388,6 +428,32 @@ def check(b):
         # queue and false of the world.
         if current:
             out["verdict"] = "REPLACE"
+        elif not same:
+            # Nothing on the broker's own domain -- the only addresses published
+            # belong to some other company. That is TWO different situations the
+            # tool cannot tell apart, and one of them is harmful:
+            #
+            #   * the broker was acquired or rebranded, and the parent's privacy
+            #     desk is the correct and better route (CoreLogic -> Cotality,
+            #     Aberdeen -> Spiceworks, FindLaw -> Internet Brands);
+            #   * the domain in the registry is simply wrong -- a slug-derived
+            #     guess that happened to resolve at somebody else's site -- and
+            #     the address belongs to a company with no connection to this
+            #     request at all (datalead.io served fruits.co; hireright.io is
+            #     not HireRight LLC's hireright.com).
+            #
+            # The second case matters more than a wasted send. These letters
+            # carry a full identifier set -- every prior address, every prior
+            # phone number, a date of birth -- and posting that to an unrelated
+            # company is a disclosure caused by the removal effort itself. It is
+            # the one failure mode here that leaves the requester worse off than
+            # doing nothing.
+            #
+            # So: record the address, because the acquisition case is common and
+            # the lead is worth keeping, but never mark it verified and never let
+            # it into a send queue on the strength of a scrape alone. One line of
+            # human confirmation converts it; nothing else should.
+            out["verdict"] = "DISCOVERED_OFFDOMAIN"
         elif region_of(best) and all(region_of(e) for e in pool if rank(e) <= GOOD_ENOUGH):
             # Every rights-shaped address on the site is scoped to a region, and
             # none of them to this requester's. Recorded so the letter can name
@@ -504,8 +570,18 @@ def main():
                 "DISCOVERED": "privacy_policy",
                 "DISCOVERED_WEAK": "published_general_mailbox",
                 "DISCOVERED_REGIONAL": "privacy_policy_regional",
+                "DISCOVERED_OFFDOMAIN": "offdomain_needs_confirmation",
             }[r["verdict"]]
-            if r["verdict"] == "DISCOVERED_REGIONAL":
+            if r["verdict"] == "DISCOVERED_OFFDOMAIN":
+                b["notes"] = ((b.get("notes") or "") + " " + (
+                    f"{r['proposed']} is not on {r['domain']} -- the site "
+                    f"publishes no address on the broker's own domain. Either "
+                    f"an acquisition (route is correct) or a wrong domain in the "
+                    f"registry (route is a stranger). Confirm the corporate "
+                    f"relationship before sending: the letter carries a full "
+                    f"identifier set."
+                )).strip()
+            elif r["verdict"] == "DISCOVERED_REGIONAL":
                 b["email_alt"] = ", ".join(
                     e for e in r["found"] if e != r["proposed"])[:200] or None
                 b["notes"] = ((b.get("notes") or "") + " " + (

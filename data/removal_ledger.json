@@ -115,8 +115,8 @@
     "via": null
   },
   "alliant": {
-    "status": "submitted",
-    "changed": "2026-08-18",
+    "status": "confirmed",
+    "changed": "2026-08-20",
     "via": "web"
   },
   "allpeople": {
@@ -623,6 +623,11 @@
     "status": "submitted",
     "changed": "2026-08-17",
     "via": "email"
+  },
+  "demandscience": {
+    "status": "submitted",
+    "changed": "2026-08-20",
+    "via": null
   },
   "dentistscalifornia_org": {
     "status": "submitted",
@@ -1699,6 +1704,11 @@
     "changed": "2026-08-19",
     "via": "email"
   },
+  "outlogic": {
+    "status": "submitted",
+    "changed": "2026-08-20",
+    "via": null
+  },
   "outreach_io": {
     "status": "submitted",
     "changed": "2026-08-19",
@@ -1969,6 +1979,11 @@
     "changed": "2026-08-19",
     "via": "email"
   },
+  "publicinfoservices_family": {
+    "status": "submitted",
+    "changed": "2026-08-20",
+    "via": null
+  },
   "publicrecords_com": {
     "status": "submitted",
     "changed": "2026-08-18",
@@ -2010,8 +2025,8 @@
     "via": "reply"
   },
   "quick_public_records": {
-    "status": "confirmed",
-    "changed": "2026-08-19",
+    "status": "submitted",
+    "changed": "2026-08-20",
     "via": "reply"
   },
   "quientelefono": {
