@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-19)
-- Note: Compiles contact data on people in institutional settings (education, healthcare). Two tailored points: a record may be filed under a former EMPLOYER or INSTITUTION and keyed to a work address, job title or institutional email rather than home details - the psu.edu address in the list is exactly that kind of key; and if they treat an institutional record as business rather than consumer data they should say so explicitly rather than declining silently.
+- Current: `manual_required` (updated 2026-08-19)
+- Note: Auto-reply refuses email: 'requests for removal from our database are not processed through this email address. To submit a removal request, kindly complete the form available...' Needs the web form; queued.
 
 ## Steps
 

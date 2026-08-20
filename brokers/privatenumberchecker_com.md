@@ -9,7 +9,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-19)
-- Note: Reverse phone lookup. Standard number-keyed asks: every prior number, both directions, carrier/line-type/portability/location enrichment, related-person appearances on other numbers' pages, suppression-vs-one-time, and stored-index-vs-live-pass-through. Also asked which sibling properties share the index, given three other 'private*' people-search brands surfaced in the same batch.
+- Note: SUBMITTED AND CONFIRMED on-page: 'Removal request success! Thank you! Your removal request has been sent!' The emailed route was dead - support@privatenumberchecker.com hard-bounces 'address not found' even though the domain publishes its own MX - but /removalrequest/ is a real form with NO CAPTCHA and, importantly, a free-text 'Removal reason' box that took the entire request: all 12 phone numbers, five name variants, the current address, and the asks for both-directions removal, carrier/line-type/location enrichment, related-person appearances on other numbers' pages, and standing suppression rather than one-time deletion. Two faults reported to them in that box. First the dead support address. Second: the phone field rejects hyphens with 'Phone Number must be numeric', and THE FAILED VALIDATION LEAVES THE SUBMIT BUTTON DISABLED - so correcting the field and pressing submit does nothing, and the only way through is to reload and start over. Anyone who types a phone number the normal way hits that and may well conclude the site is broken.
 
 ## Steps
 

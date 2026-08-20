@@ -9,7 +9,8 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-19)
-- Note: Sibling of publicdatacheck.com by shared Cloudflare nameserver pair - see that entry for the reasoning. Both written to with the same consolidated scope question so either desk can answer for both.
+- Reference: `ZEYRV1-4731N`
+- Note: Zendesk ticket ZEYRV1-4731N issued. See publicdatacheck for the corroboration: identical acknowledgement wording and replies 27 seconds apart, on top of the shared Cloudflare nameserver pair.
 
 ## Steps
 

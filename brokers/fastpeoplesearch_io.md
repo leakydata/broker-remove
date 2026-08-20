@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-18)
-- Note: People-search. Foregrounded the two asks that usually go missing: search every FORMER address and disconnected number, not just current ones; and confirm whether relatives/associates listings are removed too, since a profile can be deleted while the subject's name persists as a 'related person' on someone else's. Pre-empted the profile-URL demand.
+- Current: `submitted` (updated 2026-08-19)
+- Note: FAMILY CONFIRMED (Cloudflare NS pair coleman+paloma): cocofinder.com, fastpeoplesearch.io, findpeoplefast.net, realpeoplesearch.com, searchpeoplefree.net, truepeoplesearch.net, usphonelookup.com -- seven brokers, one Cloudflare account. All four that have replied sent a BYTE-IDENTICAL template within 25 minutes: 'To ensure we accurately locate your specific record and avoid inadvertently removing another individual's information, we need a few more details to cross-reference our database' followed by the same five bullets (Profile Page URL(s) / Full Name / Associated Address / Associated Phone Number / Associated Email Address). Replied to all four with the full identifier set, declining to make a profile-URL hunt the precondition, and asking them to name the shared operator and treat the request as covering all seven.
 
 ## Steps
 

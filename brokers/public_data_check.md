@@ -9,7 +9,8 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-19)
-- Note: Consolidated with publicinfoservices.com on a DNS signal worth adding to the family toolkit: BOTH DOMAINS ARE SERVED BY THE SAME CLOUDFLARE NAMESERVER PAIR. Cloudflare assigns a specific pair per account, so two domains sharing one normally sit in the same account, under one operator. That is stronger than shared mail hosting (which is just a big shared vendor) and cheaper than anything else - two dig calls. Stated the inference and its basis in the letter and invited correction rather than asserting it. Standard people-search asks including criminal/court-entry disclosure.
+- Reference: `202JDV-Y1PKN`
+- Note: Zendesk ticket 202JDV-Y1PKN issued. Corroborating evidence for the shared-operator inference with publicinfoservices.com: both replied within 27 seconds of each other with WORD-FOR-WORD identical acknowledgements differing only in the brand name - 'Your email has been received and is being reviewed by X support staff'. Same template plus same-minute replies are ranks 7 and 8 in the family signal list, and they corroborate the rank-2 signal that prompted the consolidation (shared Cloudflare nameserver pair). One honest counter-note: they run SEPARATE Zendesk subdomains with unrelated ticket sequences, which is normal for one company running two brands but is not itself evidence of shared ownership.
 
 ## Steps
 

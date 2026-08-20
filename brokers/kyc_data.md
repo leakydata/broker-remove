@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-18)
-- Note: Identity-verification data. Framed differently from a marketing broker: asked FIRST for a statement of what they hold, because an identity record can affect whether the subject can open an account or be believed about who they are. Raised ACCURACY over deletion - an inaccurate identity record deleted from their file persists upstream and returns, whereas a corrected one is fixed at source. Also asked whether anything is retained under a legal obligation, and if so for confirmation it is not also sold, shared or used for model training - retention for a legal duty is a reason to keep something, not a reason to keep selling it.
+- Note: Auto-reply: 'KYC Data is a compiler of public records' - a self-declaration worth keeping, since a compiler of public records cannot later argue the compilation is not theirs to delete (_DEFLECTIONS.md 24).
 
 ## Steps
 

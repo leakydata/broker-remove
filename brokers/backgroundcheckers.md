@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-17)
-- Note: Three localities now searched via their self-service tool (current city, one former borough, one former college town): all three returned no results. Their form requires city+state so each answer is locality-scoped. Awaiting written record-level answer to the emailed request covering all eight.
+- Current: `submitted` (updated 2026-08-20)
+- Note: SENT 2026-08-20 00:10 UTC as part of ONE consolidated letter to nine addresses covering all sixteen brands on the /api/helper/optOutLight/search platform. The letter names every site, gives the shared URL path as the reason for treating them as one operator, explicitly does NOT ask anyone to confirm corporate structure (only which sites they actioned), and leads with the precedent that privaterecords granted this identical request for this identical person from an email thread on 2026-08-19 without any form. Also carries the five questions none of the family has answered across three exchanges, with the criminal/inmate/sealed-record/mugshot question expanded because three members are branded specifically around that content.
 
 ## Steps
 

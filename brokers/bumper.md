@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-17)
-- Note: Statutory delete/opt-out request emailed, tailored to the broker's data category; awaiting reply.
+- Current: `submitted` (updated 2026-08-19)
+- Note: Answered with a DPPA framing: 'we do not provide or display any personal information about vehicle owners... Because our reports do not contain any personal information, there is nothing for us to delete or remove.' Accepted the law without argument and pressed the one gap it leaves, which is the DISPLAY-VERSUS-HOLDING conflation: their sentences are consistent with either holding no owner linkage at all, or holding one internally and suppressing it from display to comply. Only the first means there is nothing to delete - the DPPA governs DISCLOSURE rather than retention, so a retained name-to-VIN association would still be personal information they hold. Asked which of the two it is, offering to close the matter with thanks if it is the first. Also noted that a search on name and address is the search most likely to come back empty regardless, since vehicle records are keyed to VIN or plate, and asked separately whether they hold anything about the subject as a SITE VISITOR - searches run, account, advertising identifiers - which the DPPA answer would not cover at all.
 
 ## Steps
 

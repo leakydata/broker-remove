@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `not_found` (updated 2026-08-19) — no data held, plus a standing suppression-list entry
-- Note: Statutory delete/opt-out request emailed, tailored to the broker's data category; opens with a first-party declaration. Awaiting reply.
+- Current: `not_found` (updated 2026-08-19)
+- Note: 'We have no data on this individual and we have added them to our suppression list.' Two sentences, no account, no form, no ID -- and the second sentence is the prospective half that makes a null result durable. Same shape as the Stirista group's answer.
 
 ## Steps
 

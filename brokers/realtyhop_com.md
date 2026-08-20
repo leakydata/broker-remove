@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `not_found` (updated 2026-08-19) — no record found, but scoped to customer interactions; follow-up open
-- Note: Privacy address is published on ANOTHER brand's domain - privacy-realtyhop@renthop.com - which is the rank-3 family signal, so the letter covers RealtyHop and RentHop together. Property-and-rental platform, so four asks a generic letter would miss: owner/resident/prior-resident data attached to listings, with the concede-then-split framing on public records; de-indexing with an explicit noindex directive; RENTAL APPLICATION AND SCREENING data, flagged as unusually consequential because tenant screening follows a person between applications and can decide whether they are offered housing at all; and any EVICTION OR TENANCY record, where a wrong-person match on a common name does lasting harm in housing and where correction at source matters more than deletion. Also asked whether any part is a consumer report or tenant screening under FCRA, since that framework carries its own access and dispute rights worth exercising separately.
+- Current: `not_found` (updated 2026-08-19)
+- Note: 'We attempted to process your Request to Delete. However, we do not have a record of you in our system. If you previously interacted with us using a different email address, please...' Answered by a named person at realtyhop.com with privacy-realtyhop@renthop.com on Cc, so RealtyHop and RentHop share a privacy desk -- the letter was addressed to cover both. NOTE: this is a not-found scoped to prior INTERACTION (a customer-record search), not necessarily to a compiled listing; the invitation to name other addresses suggests they searched by email only. Worth one follow-up naming the remaining addresses.
 
 ## Steps
 

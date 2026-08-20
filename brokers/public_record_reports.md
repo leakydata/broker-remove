@@ -9,7 +9,8 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-19)
-- Note: THIRD member of the Cloudflare-nameserver family, found in the very next batch after the technique was written up: publicrecordreports.com answers on the same chloe.ns/ed.ns pair as publicdatacheck.com and publicinfoservices.com. Letter names all three and asks them to confirm or deny the relationship, with the evidence stated. Standard people-search asks plus criminal/court-entry disclosure. Worth noting the technique paid for itself immediately - two dig calls turned a routine batch entry into a consolidated three-site request.
+- Reference: `ZEYRZX-WNM5M`
+- Note: Zendesk ticket ZEYRZX-WNM5M issued. A small extra corroboration for the shared-operator inference, offered cautiously: publicinfoservices.com's ticket was ZEYRV1-4731N. Both references begin ZEYR - four matching leading characters in a Zendesk reference space. That is suggestive of one Zendesk estate rather than coincidence, but it is weak on its own and publicdatacheck's reference (202JDV-Y1PKN) shares no prefix at all, so the evidence is mixed. The rank-2 signal - all three domains on the same Cloudflare nameserver pair - remains the load-bearing one.
 
 ## Steps
 

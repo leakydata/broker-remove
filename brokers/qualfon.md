@@ -9,7 +9,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-19)
-- Note: Outsourced contact-centre and BPO provider, so almost everything they hold about the public is client data - acknowledged up front, with the ask reordered accordingly: name the client first, delete second. The valuable part is three category-specific asks a general deletion letter never reaches. CALL RECORDINGS AND TRANSCRIPTS as separate artefacts (a transcript usually lives in a different system and is retained longer than the audio). VOICE BIOMETRICS - any voiceprint, speaker-identification template or voice-authentication enrolment, which is biometric data, is not obvious to the person it was taken from, and is rarely covered by a request phrased as 'delete my account'. And QA/TRAINING/AI DATASETS - whether any recording or transcript has been used to train or evaluate a speech or language model, asking for an honest description of the limits rather than a promise they cannot keep. Flagged state biometric statutes.
+- Note: Auto-reply carrying an unusual carve-out worth noting: it distinguishes 'a state privacy right request other than a request by a NEVADA RESIDENT to opt out of the sale of their information' from everything else. Nevada's opt-out sits in a separate statute from the CCPA-style rights and is handled by a different route at some processors - so a letter that only cites CCPA can be filed under the wrong process. Worth watching for in replies from BPOs and processors generally.
 
 ## Steps
 

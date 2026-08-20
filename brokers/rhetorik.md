@@ -7,7 +7,8 @@
 
 ## Status
 
-- Current: `pending`
+- Current: `submitted` (updated 2026-08-19)
+- Note: B2B technology contact data, UK-operated - so the letter runs the GDPR argument alongside the US one and explains why: UK/EU GDPR attach to WHERE THE PROCESSING HAPPENS and to the establishment doing it, not only to the data subject's residence, so a US resident's data processed in the UK is covered. Asked for Article 15 access with sources and recipients, Article 17 erasure, Article 21 objection to direct marketing (unconditional), and Article 14 confirmation - since they did not obtain the data from the subject they were REQUIRED to notify him, so asked whether that notice was ever given. Plus the lawful basis with the legitimate-interests balancing assessment or the consent record. Offered them the clean exit of saying no processing touches the UK or EEA. Also noted that the business-contact carve-out they may reach for under US law has no equivalent under GDPR, where a work email identifying a natural person is personal data without qualification.
 
 ## Steps
 

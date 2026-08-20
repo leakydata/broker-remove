@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-18)
-- Note: Statutory delete + opt-out + suppression letter sent to the published contact, covering every prior address, prior telephone number and alternate email address rather than only the current ones.
+- Current: `failed` (updated 2026-08-18)
+- Note: dataremoval@listservicedirect.com bounced: 'The recipient's mailbox is full and can't accept messages now.' That is a soft bounce, not a dead address - the mailbox exists and someone stopped reading it. Worth one retry in a later pass before looking for another route.
 
 ## Steps
 

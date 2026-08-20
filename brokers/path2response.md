@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-19) — email verification link clicked; OneTrust returned a confirmation page
-- Note: Data co-operative. The letter is ordered around the one fact that makes a co-op different: the data did not originate with them and deleting their copy does not stop it arriving again. Asked first WHICH MEMBERS contributed records and when, then whether deletion stops future contributions or only removes today's copy, then recipients - with permanent do-not-add suppression at ingest as the actual ask. Also asked for transaction/response HISTORY and derived scores, not just name-and-address rows: in response data the behavioural history is the product and it survives a contact-record deletion. Sensitive inferences named individually rather than covered by a general phrase.
+- Current: `submitted` (updated 2026-08-19)
+- Reference: `FYFSSK3KGS`
+- Note: Email verification link clicked 2026-08-19; OneTrust returned verifySuccess. Request type: Delete My Data. Attested 'Yes' to being the consumer.
 
 ## Steps
 

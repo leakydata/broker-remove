@@ -9,7 +9,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-18)
-- Note: Healthcare claims/'healthcare map'. Pre-empted the de-identification deflection with a narrower question rather than a general argument: is there a TOKEN or persistent identifier corresponding to the subject, what is it derived from, and can they locate it from the identifiers supplied - since a token that reliably links claims across providers and over time is functionally an identifier for one person, which is what makes a longitudinal map longitudinal. Said plainly that 'we cannot locate a token from these identifiers' is an acceptable answer and itself informative. Also asked for professional-side records and for the source categories (clearinghouse, pharmacy, lab, provider, payer).
+- Note: Auto-reply asks for the individual's state of residence before responding - the residency gate again, this time as a precondition to any answer.
 
 ## Steps
 

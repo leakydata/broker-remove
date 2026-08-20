@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-19)
-- Note: Exact Data operates on data-axle.com and publishes privacyteam@data-axle.com. Covered by the Data Axle Consumer Privacy Rights Request form rather than a separate letter.
+- Note: Covered by the Data Axle submissions, not by a separate letter. Data Axle's own privacy-rights form names exactdata.com within its scope, and both required submissions were made there (deletion and opt-out of sale are single-select on that form, so each right needs its own run). Recording it as submitted rather than leaving it pending, because a sibling that is genuinely covered looks identical in the tracker to one nobody named - and the family scan was flagging this pair every pass. Playbook lives under dataaxle via the alias file. If Data Axle answers scoped to one brand only, this reverts to pending.
 
 ## Steps
 

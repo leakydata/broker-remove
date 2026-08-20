@@ -10,7 +10,7 @@
 
 - Current: `submitted` (updated 2026-08-18)
 - Reference: `gmail:1a00618203742083`
-- Note: PeopleConnect processed the request: addresses, emails, phones and identifiable background reports suppressed from display across their sites. They are explicit that this is SUPPRESSION, not deletion - 'does not delete or alter the underlying public record from its original source'. They invited additional identifiers, so replied with the full set (8 emails, 11 addresses, 9 phones, name variants) and asked which properties are covered, which policy basis was applied, whether the suppression survives a source refresh, and whether an opt-out of sale was applied separately from display suppression.
+- Note: Family-wide suppression confirmed in five identical replies within twelve minutes: 'We have completed the suppression of your publicly available information from appearing in background reports on the people search sites within our corporate family that we control when a user searches by your name.' Three scoped limits pushed back on: keyed to NAME SEARCH only (I had asked for phone/address/email lookups too), scope stated as 'sites we control' without naming them, and suppression expressly not deletion.
 
 ## Steps
 

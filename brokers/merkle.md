@@ -8,8 +8,9 @@
 
 ## Status
 
-- Current: `captcha_blocked` (updated 2026-08-19) — DSR webform fully staged; BotDetect CAPTCHA + Submit handed off, then a 3-day email confirmation
-- Note: Sent to americas.dpo@dentsu.com, the contact Merkle publishes - so the letter asks them to treat it as covering Merkle AND any other Dentsu entity the mailbox serves, and to name the entities if they are separate controllers. Identity-resolution framing: hashed email in three algorithms, MAID/cookie/CTV, IP-derived household, derived segments, and the LINKS between identifiers. Two bounding questions: which identifier types did you match on, and which parts do you hold as processor rather than controller.
+- Current: `submitted` (updated 2026-08-19)
+- Reference: `8N6KVXVA3C`
+- Note: Email confirmation clicked; OneTrust returned 'Your email has been confirmed! Your request has been received and will be reviewed by our Privacy Team.' Reference 8N6KVXVA3C on the privacyportal-de (EU) tenant, acknowledged from assessments@dentsu.com. Confirmation page exposes a further direct contact: dpous@merkleinc.com. Dentsu's footer lists the brands this desk covers: iProspect, Carat, dentsu x, dentsu Creative, tag and Merkle.
 
 ## Steps
 

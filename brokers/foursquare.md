@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-18)
-- Note: Zendesk request 332742 opened.
+- Note: Pressing on the closed ticket opened a NEW one (332826) rather than reopening 332742 - so a soft close is not merely unhelpful, it costs the thread's context and starts the clock again. Worth expecting whenever replying to a closed Zendesk ticket.
 
 ## Steps
 

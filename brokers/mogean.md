@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-19)
-- Note: Location/mobility data. Asked for MAID, cookie and device identifiers, location/visit/trip/dwell records derived from them, IP-derived household associations and the LINKS between identifiers. Deliberately supplied no advertising ID and said why, noting the decision is being made once across the whole category rather than piecemeal. Only published contact is info@, so asked them to forward internally.
+- Current: `not_found` (updated 2026-08-19)
+- Note: Replied a SECOND time with a byte-identical canned message, in answer to a follow-up that asked two questions carefully framed to need no advertising identifier: will they report a no-match, and does deletion reach derived location/visit/dwell/segment records or only the identifier row. Neither was answered; the template simply repeated. Treat this as a template loop rather than a refusal - there is no evidence a human read either message. The first sentence still stands as the cleanest negative available anywhere for the non-MAID identifier space, and it is worth restating why: a MAID-only broker CANNOT match on name, address, phone or email, so asking one to try yields an unqualified 'we do not have any of the information that you provided' that a name-keyed broker would never give. Do not spend more letters here; it goes into the MAID decision with the other three.
 
 ## Steps
 

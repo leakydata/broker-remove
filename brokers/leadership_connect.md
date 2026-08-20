@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-18)
-- Note: Statutory delete + opt-out + suppression letter sent to the published contact, covering every prior address, prior telephone number and alternate email address rather than only the current ones.
+- Current: `not_found` (updated 2026-08-18)
+- Note: Two-stage opt-out completed. Stage two returned: 'We have no record of [EMAIL] in our service.' NOT a clean not_found for the person - the negative names ONE EMAIL ADDRESS, although the form collected name, phone, street address, city, state and zip. For a government/corporate leadership directory a record would be keyed to a work address, not a personal gmail. Needs re-running per email address; each run e-mails its confirmation to the address entered, so the others cannot be tested from this mailbox.
 
 ## Steps
 

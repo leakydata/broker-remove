@@ -9,7 +9,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-19)
-- Note: Enterprise data-quality and enrichment group assembled from several acquired businesses (the former Pitney Bowes Software and Trillium lines among them). The letter's core ask is scope across acquisitions, with the reason stated: a search of the current platform can come back clean while an acquired company's store, still on its old schema, holds the record - and nothing in the confirmation distinguishes the two. Also directed the search at the REFERENCE-DATA side rather than a CRM: address verification and standardisation files, geocoding and parcel data, householding and identity-resolution links, and demographic/lifestyle enrichment. Those are the products; a deletion scoped to a marketing list leaves all of it. Plus the three standing questions - which identifiers matched, processor vs controller, and whether customers who already licensed the data must delete it.
+- Note: Auto-acknowledged, and the acknowledgement is itself a finding: the reply to privacy@precisely.com came from Privacy@SYNCSORT.COM. Precisely was formed from Syncsort and Pitney Bowes Software, and the privacy desk still answers on the acquired company's domain - which is the _BROKER_FAMILIES signal about rights-contact hostnames naming the parent, here running backwards to name a predecessor. It also corroborates the scope concern the letter was built around: if the privacy function still lives on a legacy domain, the data stores probably do too, and a search of the current platform could come back clean and truthful while an acquired system holds the record.
 
 ## Steps
 

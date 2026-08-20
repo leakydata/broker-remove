@@ -8,8 +8,7 @@
 ## Status
 
 - Current: `captcha_blocked` (updated 2026-08-19)
-- The Contact Discovery opt-out form is filled and staged; a reCAPTCHA is all that
-  remains. The letter to the DPO stands alongside it.
+- Note: Auto-reply routes to a Relyance portal (nextroll-privacy.relyance.ai) but does NOT foreclose the email: 'Otherwise, we will get back to you as soon as we can!' So the letter stands. The portal's own note - 'An Advertiser Identifier is required for customer requests' - is aimed at AdRoll advertisers, not consumers; consumers are pushed to two app.adroll.com routes instead. The valuable one is /optout/email, which is not an ad-cookie opt-out at all: it covers Contact Discovery, their B2B product that sells business email addresses and phone numbers to buyers for cold outreach. Filled with the .edu address and current mobile; reCAPTCHA gates submission, staged for one human click. The form takes ONE identifier per run, so each address needs its own pass.
 
 ## Steps
 

@@ -9,7 +9,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-19)
-- Note: People search that appears to sit in a shared-index family. Led with the scope question rather than the deletion, and said why it is unanswerable from outside: where several brands query one index, a removal applied to one brand and a confirmation scoped to that brand are indistinguishable from a complete removal until someone finds the subject on a sibling. They can see the shared infrastructure; the consumer cannot. Asked them to name the operating entity and every sibling brand and to say which ones they searched.
+- Note: Closed with a customer-satisfaction survey, exactly as NumberGuru did - 'How would you rate our customer service?' - without answering the shared-index scope question. Second instance of the same ending, so it is a pattern rather than a coincidence: the template queue does not refuse, it processes, and processing terminates in a CSAT request. Recorded, not escalated.
 
 ## Steps
 

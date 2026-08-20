@@ -7,7 +7,8 @@
 
 ## Status
 
-- Current: `pending`
+- Current: `submitted` (updated 2026-08-19)
+- Note: Identity-verification deflection: 'Our records include many individuals with the same name... Please provide this person's LinkedIn URL. If this individual does not have the LinkedIn URL, please provide the names of this individuals' last 3 employers.' Reasonable in kind for a workforce dataset, but asks for NEW personal data. Replied: (a) search the 12 emails first, [EMAIL] is the natural join key and less intrusive per CPRA's necessity qualifier; (b) refused the LinkedIn URL as a live enrichable identifier rather than a verification token; (c) offered employer names conditional on written confirmation they are used only to locate-and-delete, deleted if no match, and not logged as a suppression key. Employer history is NOT in profile.json -- queued as a user decision.
 
 ## Steps
 

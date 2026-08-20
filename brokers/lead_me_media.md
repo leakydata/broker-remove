@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-18)
-- Note: Statutory delete + opt-out + suppression letter sent to the published contact, covering every prior address, prior telephone number and alternate email address rather than only the current ones.
+- Note: ccpa@leadmemedia.com HARD BOUNCED ('Address not found') - the address their own privacy policy designates for consumer rights requests does not exist. Resent to info@leadmemedia.com, the only working address published, and reported the dead mailbox to them as a fault.
 
 ## Steps
 

@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-18)
-- Note: VERIFIED BY EMAIL LINK - no utility bill. After the push-back, Mine sent 'Please verify your identity... By clicking on the link below you confirm the verification of your identity and FordDirect will start processing your request.' Clicked it: 'Success! Your privacy request has been submitted.' So the mandatory utility-bill upload gates the FORM path only; the email path creates a request and verifies it by clicking a link sent to the address. Link expires in 7 days.
+- Note: User completed the deletion webform and uploaded a utility bill, independently and after the email path had already succeeded. Asked FordDirect to delete the uploaded document (identity was verified by emailed link, so the bill served no purpose), to merge or consolidate the duplicate ticket rather than silently close one, and to confirm scope covers all prior identifiers.
 
 ## Steps
 

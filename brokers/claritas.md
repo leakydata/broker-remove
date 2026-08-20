@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `manual_required` (updated 2026-08-19) — OneTrust form staged; its request-type listbox is inert to synthetic clicks, handed off for one real click
-- Note: Statutory delete/opt-out request emailed, tailored to the broker's data category; awaiting reply.
+- Current: `manual_required` (updated 2026-08-19)
+- Note: Email redirects to a OneTrust webform. All text fields staged. BLOCKER: the request-type control is an Angular CDK listbox of role=option DIVs whose aria-selected stays 'false' no matter what -- synthetic clicks via ref and via coordinates both fail to register, and no selected class appears. A hover tooltip also overlays the middle button and intercepts clicks. Handed off for a real click. Useful scoping from their own page: 'If you wish Claritas to limit the use of your sensitive personal information, please select request to be deleted', and 'Claritas will treat correction requests as a request to delete' -- so Delete is the superset.
 
 ## Steps
 

@@ -8,8 +8,7 @@
 ## Status
 
 - Current: `not_found` (updated 2026-08-19)
-- Settled at the source rather than with the broker. No matching record exists in
-  the dataset they republish, so there is nothing here to remove.
+- Note: Settled at the SOURCE rather than with the broker, because this site republishes exactly one dataset and nothing else: 'The provider information displayed on this site comes entirely from the official NPPES public data release published by CMS under the Freedom of Information Act.' NPPES is the federal NPI registry and it has a free public API, so the question of whether they hold anything is answerable without writing to them at all. Queried it across PA, MD and AL for the subject's name: five people, none of them him - different middle names, different cities, no address overlap. No NPPES record means no NPI Profile record. Recorded not_found on that basis, with the caveat that it holds only as long as their claim to republish nothing else is true. Two things NOT done, deliberately: their opt-out is keyed to a 10-digit NPI number, and there is a similarly-named provider in Mobile AL, a city the subject has a prior address in - guessing that number would have removed a stranger's listing to no benefit.
 
 ## Steps
 

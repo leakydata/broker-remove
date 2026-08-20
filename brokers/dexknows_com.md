@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-17)
-- Note: Directory variant, sent to Thryv client care. Asked them to treat it as covering every directory property Thryv operates and to name the syndication feeds the listing was supplied to, since directory data is republished downstream and removal at source does not reach copies.
+- Current: `submitted` (updated 2026-08-18)
+- Note: Thryv (DexKnows' operator) asked for the listing URL - the same deflection LicenseFiles used. Pushed back with the asymmetry point plus one specific to their products: DexKnows is a BUSINESS directory and Thryv syndicates listings onward, so a record may be filed under a business or trading name and a diligent self-search under a personal name would miss exactly the listing most likely to exist. Asked them to search every prior TELEPHONE NUMBER in particular, since a directory listing is keyed to a phone rather than a person. Also asked which partners the listing was syndicated to, and for suppression as well as deletion. Offered the benign reading if their tool genuinely requires a URL.
 
 ## Steps
 

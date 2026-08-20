@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-19)
-- Note: NOT a public-records website - a property-and-owner platform sold to investors and marketers, with skip-tracing and list-building. The letter turns on one sentence: PROPERTY RECORDS DO NOT CONTAIN TELEPHONE NUMBERS OR EMAIL ADDRESSES. So the contact layer is not public-record data and the public-record exemption does not reach it, which closes the usual escape route before they take it. Asked for do-not-append and do-not-market suppression rather than deletion alone, for the name of the skip-trace provider that supplies the contact data (that party holds the record), and for whether customers who already exported the details must delete them. Also asked about EVENT MONITORING: an alert on a transfer, lien or foreclosure is a fresh disclosure each time it fires, and deleting a record while leaving the trigger in place does not stop it.
+- Note: Auto-acknowledged twice by privacy@propertyradar.com - once as an 'Automatic reply' and once as a threaded 'Re:', both the same text, which is a mail-rule artifact rather than two readers. Under review by their privacy team; no deflection and no form redirect, so the emailed request stands as filed with the skip-trace and event-alert asks intact.
 
 ## Steps
 

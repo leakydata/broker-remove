@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-19)
-- Note: Performance marketing and lead generation. Same provenance-first structure as reallygreatrate - exact form URL and consent wording, recipients with a direction to delete, do-not-resell suppression, internal DNC list as a separate ask, and aged/recycled inventory held apart from the live database. Opened by asking them to enumerate every brand and domain they operate, since the parent name shares nothing with the consumer-facing sites in this sector and only they can list them.
+- Current: `unreachable` (updated 2026-08-19)
+- Note: COMPLETE DEAD END, and an unusually well-documented one. All THREE addresses their own privacy policy publishes are rejected by their own Proofpoint mail server with the same code: 550 5.7.1 'Recipient address rejected: User email address is marked as invalid' - ConsumerInquiries@, connect@ and info@rpmleader.com. Note the code. That is 5.7.1, a POLICY rejection, not 5.1.1 user-unknown: the mail server has these addresses on file and is configured to refuse them. Then the web route: the only form on the site is a SALES enquiry form, and its required 'I am' dropdown offers Agency, Affiliate, Affiliate Network and Brand Platform - THERE IS NO CONSUMER OPTION. Filled the form with the full request in its free-text box and submitted; it errored on the missing required dropdowns. I will not select 'Agency' or 'Affiliate' to get past it, because that is a false statement about who is asking and it would taint the request. So: no working address, and no form a member of the public can honestly complete. The remaining lever is their own admission - 'Company acts as a data broker, as that term is defined in California Civil Code section 1798.99.80 et seq.' - which puts them on the California data-broker register with its own statutory contact obligations. Also captured: their header links to an Inc. profile for BEST CASE LEADS, a trading name the privacy policy never mentions.
 
 ## Steps
 

@@ -10,9 +10,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-19)
-- Opt-out completed with an on-page artifact: **"OPT-OUT SUCCESS! Your data has
-  been blocked from future sharing!"** Submitted 5 name variants, 15 Pennsylvania
-  addresses, 12 telephone numbers and 12 email addresses.
+- Note: SELF-SERVICE OPT-OUT COMPLETED, with an on-page artifact: 'OPT-OUT SUCCESS! Your data has been blocked from future sharing!' Note the wording - BLOCKED FROM FUTURE SHARING is suppression language, not one-time deletion, which is the stronger of the two and the one these sites usually avoid promising. Submitted 5 name variants, 15 PA addresses, 12 phone numbers and 12 email addresses, each one verified as committed before submitting. The emailed route is dead: info@openpeoplesearch.com is the ONLY address they publish and it hard-bounces 'address not found', on a domain with healthy Google MX. Corporate identity in the legal-notices clause: The Open Data People, Inc., PO Box 890370, Temecula CA - worth checking against other brands. INCOMPLETE: the address modal's state selector is locked to the state chosen at step one, so the Hagerstown MD and Mobile AL addresses could not be entered on this run, and re-entering the flow for MD would not advance past state selection afterwards. Those two need a separate run from a clean session.
 
 ## Steps
 

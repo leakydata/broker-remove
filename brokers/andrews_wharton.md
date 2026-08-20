@@ -8,8 +8,9 @@
 
 ## Status
 
-- Current: `not_found` (updated 2026-08-19) — upgraded from `failed`; the acquirer searched and suppressed prospectively (Stirista ticket #139443)
-- Note: Acquired by Stirista; their auto-reply redirects all DSARs to stirista.com and says it will honor only Andrews Wharton requests received before January 1, 2025. Re-filed at Stirista.
+- Current: `not_found` (updated 2026-08-19)
+- Reference: `139443`
+- Note: UPGRADED from failed. The earlier failure was Stirista's cutoff deflection -- as acquirer they said they would honor only Andrews Wharton requests received before 1 Jan 2025. The re-filed Stirista letter was addressed explicitly to cover both brands, and ticket #139443 came back 'Your information was not found in our system, and it has been added to our CCPA Opt-outs to keep your information out of our system in the future.' The acquirer searched and suppressed prospectively, so the cutoff never had to be argued.
 
 ## Steps
 

@@ -9,7 +9,7 @@
 ## Status
 
 - Current: `confirmed` (updated 2026-08-19)
-- Note: People-search/background. Standard asks plus an explicit question about any relationship to the similarly-named freebackgroundcheck.org, which has two hard-bouncing addresses and a privacy policy linking entirely to archive.org snapshots - if the two are related, this request should cover both.
+- Note: CONFIRMED by reply from a named agent at privacy@: 'We can confirm that FreeBackgroundChecks has processed and completed the removal of your data from our services.' Unqualified, and it names the company rather than hedging. But it answers NONE of the four questions asked - no source disclosure for any court/arrest entry, no FCRA position, no relatives-and-associates scope, and no answer on suppression vs one-time removal, which is the one that decides whether this holds. It also ignores the question about the similarly-named freebackgroundcheck.org entirely. And it closes with a redirect: if information is still visible, take the URLs to those OTHER sites - which answers a question nobody asked and quietly relocates the problem. Recorded confirmed because the removal claim is theirs and unambiguous; re-verify in 7 days, because a one-time removal and a suppression produce exactly this same sentence.
 
 ## Steps
 

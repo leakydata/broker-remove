@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `not_found` (updated 2026-08-18)
-- Note: Push-back worked. First reply was scoped to 'an account or other business relationship'. After being asked to search the product database rather than the CRM, they returned an UNQUALIFIED negative: 'we confirm that Convex has checked the system does not hold any information about you in our database.' No noun narrowing it. That is a complete answer and closes the matter.
+- Current: `not_found` (updated 2026-08-19)
+- Reference: `487019`
+- Note: CORRECTION of an entry made minutes earlier. Convex had ALREADY resolved this on 2026-08-18 with an unqualified negative after push-back. Today's CSAT survey on ticket #487019 is simply the ticket auto-closing AFTER that resolution, which is normal and correct behaviour. I mistakenly read it as the Classmates/Zendesk 'closed with no resolution' pattern and briefly downgraded the status; restored to not_found. LESSON: a satisfaction survey following a resolution is ordinary; the pattern only matters when NO resolution was ever sent. Check the thread history before treating a survey as a silent close.
 
 ## Steps
 

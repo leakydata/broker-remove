@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `confirmed` (updated 2026-08-19) — one address marked for removal in their vendor database; scope follow-up open
-- Note: Visitor-identification: their product resolves an anonymous website visitor to an email address so a customer can email someone who never gave them one. The letter names that precisely, because 'delete my account' or 'unsubscribe' does not touch it. Core ask is delete the RESOLUTION not the row - the cookie/device/IP/hashed-email to identity mapping, the pixel match, and the graph edges underneath - plus a permanent DO-NOT-RESOLVE suppression, with a direct yes-or-no requested on whether their system supports one. Retaining the ability to re-resolve from the next page load is not a deletion, it is a pause. Also asked which customers the record sits under, where the underlying identity graph comes from (if licensed, that party holds the record and a suppression here would not reach it), and for a direction to any merchant already given the address.
+- Current: `confirmed` (updated 2026-08-19)
+- Note: PROCESSED: 'We have processed your Opt-Out removal request. [EMAIL] has been marked for removal in our vendor database.' Cc'd optouts@retention.com. SCOPE IS NARROW AND WORTH NOTING: the confirmation names ONE email address, and says 'marked for removal' in a 'vendor database' rather than deleted. Retention.com's product is identity resolution on hashed email, so the other eleven addresses in the request -- and any hashed forms -- are not covered by that sentence. Follow up to confirm all addresses and whether this is deletion or suppression.
 
 ## Steps
 

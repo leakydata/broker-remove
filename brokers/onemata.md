@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-19)
-- Note: Mobile/location data broker - handled under the MAID-only pattern. Explicitly declined to supply an advertising identifier and said why: if they hold one linked to the subject they can find it from the other identifiers, and if they do not, supplying one would create the very association being asked about, trading a new identifier for the deletion of nothing. Asked the two identifier-independent questions that work regardless: will they report a no-match plainly, and does deletion cover the DERIVED records (visit, dwell, home-and-work inference, movement history, segments) or only the identifier row. Deleting the key while keeping the history keyed to it is not a deletion.
+- Current: `unreachable` (updated 2026-08-19)
+- Note: CORRECTION to the earlier note. info@ and legal@ were tried after privacy@; all three hard-bounced 'address not found'. So the earlier reading - dead storefront, live machinery, inferred from Microsoft 365 MX and an SPF record authorising four ESPs - was wrong in its conclusion. SPF records say who WOULD be permitted to send and nobody removes them when they stop; MX proves delivery was once arranged, not that a mailbox exists. Three hard bounces outrank all of it. There is no reachable route of any kind: no website, no privacy policy, no form, no working mailbox. Whether they still hold data is unknowable from outside, which is precisely what unreachable should mean.
 
 ## Steps
 

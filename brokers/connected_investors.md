@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `manual_required` (updated 2026-08-18)
-- Note: Routes to a ServiceNow portal at firstam.service-now.com - FIRST AMERICAN. Connected Investors is a First American company; that tenant domain is the family signal. BOTH links in their email are corrupted: the sysparm_id separator is mangled and a character eaten, leaving 30-char ids where a ServiceNow sys_id is 32 - in the plaintext AND html parts, so not a client artefact. Loading the form bare reaches the portal, shows Connected Investors branding, then an EMPTY red error banner with no form and no explanation. Asked them to resend as plain text or process from the ticket, and to check whether the corruption is in their outbound template - if so every recipient gets a dead link and none can say why. Phone route 1-800-350-1502 exists but leaves no written record.
+- Current: `manual_required` (updated 2026-08-19)
+- Note: CORRECTION SENT. I had told them their links were 'corrupted in transit' and cited as proof that the damage appeared in both the plain-text and HTML parts. That argument is worthless: both parts reach me through the same retrieval path, so a fault there corrupts both identically and cannot distinguish their outbound mail from my inbound processing. They replied 'Both links are working links' and they are almost certainly right -- the same '=' plus two bytes corruption shows up in unrelated messages' boilerplate meta tags. Apologised and withdrew the claim. Their route is a First American ServiceNow portal (firstam.service-now.com/x_farf2_dp_request_ci_opt_out.do) keyed by a 32-char sysparm_id I cannot read. Asked them to either process from the thread (they hold every identifier already) or send the sys_id as plain unlinked text. Queued as a human click. Substantive asks re-stated: the motivated-seller/distressed CLASSIFICATION as the personal information, skip-traced appended contact data plus the vendor name, and which subscribers already received a lead.
 
 ## Steps
 

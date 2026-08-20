@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `not_found` (updated 2026-08-19) — answered by Stirista's privacy desk; not found + added to their CCPA opt-out list prospectively
-- Note: List compilation/rental. Led with permanent suppression over deletion because these files rebuild on a cycle. Also asked for source and date of acquisition, and for sensitive/modelled attributes to be DELETED rather than suppressed from mailing.
+- Current: `not_found` (updated 2026-08-19)
+- Reference: `954737`
+- Note: Ticket #954737. Answered by privacyinfo@stirista.com with privacy@mediasourcesolutions.com on Cc. Identical wording to the Stirista and Lighthouse List replies: not found, plus added to the CCPA opt-out list prospectively.
 
 ## Steps
 

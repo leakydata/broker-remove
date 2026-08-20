@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-19)
-- Note: Directory and reverse-lookup site. Keyed to numbers AND addresses, so the letter asks for removal in four directions rather than two: number-to-name, name-to-number, address-to-resident and resident-to-address. Also asked for household-member, relative, associate and PREVIOUS RESIDENT listings on other records, which is the directory-specific version of the relatives problem. Two questions: stored index or live pass-through from a supplier (if pass-through, an opt-out here buys nothing), and whether sibling sites share the index.
+- Current: `captcha_blocked` (updated 2026-08-19)
+- Note: Two-step: support@ refuses privacy requests by email and issues a 24-hour single-use link to the opt-out form. Form fully staged; reCAPTCHA + Submit left for the human.
 
 ## Steps
 

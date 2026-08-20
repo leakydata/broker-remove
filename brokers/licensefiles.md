@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-18)
-- Note: Deflection: 'Please send us a link where your information appears.' That puts the search on the party with no access to the database. Pushed back: a consumer cannot enumerate what a data company holds, and a no-result from me is not a no-record from them - the record may be unindexed, filed under a former address, or in a licensed product with no public page. Re-sent every identifier, asked specifically about professional/occupational licence records keyed to a licence number, issuing authority or business address, and offered to work with a URL if their tool genuinely requires one as input.
+- Current: `not_found` (updated 2026-08-18)
+- Note: Push-back worked: they went from 'send us a link' to actually running the search and attaching screenshots. 'The search on our website by your name and state (PA) does not reflect any records for [four name variants], [PERSONAL], PA.' SCOPED negative - their website, name+state only. Recorded as not_found WITH the scope attached, not as a blanket negative. Asked two narrow follow-ups: whether the website is the whole of what they hold or there is a licensed/bulk copy, and whether anything is keyed to a licence number, issuing board or business address rather than a name.
 
 ## Steps
 

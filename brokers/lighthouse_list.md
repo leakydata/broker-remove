@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `not_found` (updated 2026-08-19) — answered by Stirista's privacy desk; not found + added to their CCPA opt-out list prospectively
-- Note: Statutory delete + opt-out + suppression letter sent to the published contact, covering every prior address, prior telephone number and alternate email address rather than only the current ones.
+- Current: `not_found` (updated 2026-08-19)
+- Reference: `983674`
+- Note: Ticket #983674. Answered by privacyinfo@stirista.com with privacy@lighthouselist.com on Cc -- Stirista's privacy staff handle Lighthouse List's consumer requests. Identical wording to the Stirista and Media Source Solutions replies: 'Your information was not found in our system, and it has been added to our CCPA Opt-outs to keep your information out of our system in the future.'
 
 ## Steps
 

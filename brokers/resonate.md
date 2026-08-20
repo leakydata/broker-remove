@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-19)
-- Note: Consumer-intelligence and psychographic modelling - so the INFERENCES are the product, not the contact record, and the letter is aimed there. Named the sensitive inferred attributes individually: political affiliation and issue positions, voting likelihood, religiosity, ethnicity, sexual orientation, health conditions and treatment propensities, disability, pregnancy and children's ages, income and financial distress, firearms, gambling, charitable giving, and psychographic value scores. Stated the three reasons a general request misses them - held as scores and segment memberships rather than fields, INFERRED rather than collected so nobody thinks of them as their data, and the ones that do lasting harm when wrong. Asked for a standing DO-NOT-MODEL entry rather than deletion alone, since leaving the inputs available simply regenerates the same inferences at the next refresh. Plus sources, controller-vs-processor, and whether clients who already licensed segments retain them.
+- Note: Their reply came FROM no-reply@resonate.com which hard-bounces on reply. Resent the challenge to privacy@resonate.com (the original, working address) and flagged the unroutable From: as a defect. Pressing: hashed-email is a stable pseudonymous identifier not encryption; inference layer vs identifier row; 12 addresses processed?; sources; downstream licensees; standing do-not-model.
 
 ## Steps
 

@@ -10,6 +10,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-19)
+- Note: Closed the ticket with a customer-satisfaction survey - 'How would you rate our customer service?' - rather than answering any of it. The suppression question, the multiple-records question and the Property Search scope question all went unanswered, and the ticket is now shut. Worth recording as an artifact of the template loop in _DEFLECTIONS 31: the queue does not refuse, it processes, and processing ends in a CSAT request. Not worth another letter.
 
 ## Steps
 

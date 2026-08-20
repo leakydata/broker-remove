@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-19)
-- Note: Identity matching. Match keys, household keys, hashed email in three algorithms, device/cookie/CTV identifiers, appended attributes, and the links between them. Asked which identifier types they matched on and where the record was sourced.
+- Current: `manual_required` (updated 2026-08-19)
+- Note: THIRD instance of the MAID-gate. 'Matchbook Data and its products only work with advertising identifiers for mobile devices and not with personal identifiers such as names, email addresses, telephone numbers, etc. Therefore, in order to fulfill your request, you must submit the mobile advertising identifiers of your device(s) to us. Without the advertising identifiers, we will not be able to process your request to determine if we hold any relevant data.' Ticket #187177. Weaker offer than CityData.AI - no check-then-tell, the MAID is required even to learn whether anything is held. They also publish an opt-out form at /opt-out-form/.
 
 ## Steps
 

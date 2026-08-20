@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `not_found` (updated 2026-08-19) — unqualified "Simple Answer: No." across every identifier; closed with thanks
-- Note: privacy@mightyrep.com hard-bounced 'address not found'. Only contact published anywhere on their site is a NAMED INDIVIDUAL at their own domain, in the site footer beside the privacy policy - which is different from the stranger's-personal-address case verify_emails guards against, because this is the company's own published contact. Wrote to it, apologised for using a named address, and asked him to pass it on and to get the privacy mailbox fixed.
+- Current: `not_found` (updated 2026-08-19)
+- Note: UNQUALIFIED NULL RESULT. Asked the narrow searchable question -- does any record exist keyed to the name, the 12 emails or the 11 phone numbers, in the product, a CRM, an enrichment cache or a suppression list -- and the founder answered 'Simple Answer: No.' Also fixed the hard-bouncing privacy@mightyrep.com: 'Found the issue with the mailbox, should be corrected.' Two exchanges, under 24 hours, no account, no ID, no form. Closed with thanks per the promise made when offering the null result as a complete answer.
 
 ## Steps
 

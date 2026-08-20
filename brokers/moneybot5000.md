@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-19)
-- Note: Finance-adjacent lead product. Two conditional asks: any inference about financial circumstances - income band, creditworthiness, debt, distress, likelihood to respond to a financial offer - is itself personal information and is what actually gets sold, so delete the attribute and name the categories; and if some products are FCRA consumer reports, apply the request to everything outside that scope and say which parts are exempt.
+- Current: `manual_required` (updated 2026-08-19)
+- Note: PRODUCT-BY-PRODUCT CARVE-OUT. 'At this time, we are unable to remove data from the unclaimed money feature.' They then offer TWO working opt-out routes - Property Search and possible-resident - so the refusal covers one surface while the offer covers two, which is very easy to read as 'the removal'. Asked which kind of 'unable' it is: a technical limitation with no place to store a suppression, or a policy position on public record - and whether display-level suppression exists even if the upstream lookup cannot change. Their scope wording is honest and worth keeping: 'Information about the property may still be available, but details about your identity and any association to the property will be removed' - the linkage is the right unit. Two opt-out flows still to run.
 
 ## Steps
 

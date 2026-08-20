@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `captcha_blocked` (updated 2026-08-18)
-- Note: Self-service search-then-remove. Search staged ([PERSONAL] / [PERSONAL] / [PERSONAL] / Pennsylvania); a text-image CAPTCHA blocks the SEARCH itself, before any result is seen. Their email spells out a double confirm: 'Respond to the acknowledgement email to authorize removal of your listing. If you do not respond to the email, your listing will NOT be removed.' Note that is a REPLY-to-confirm, not a click-to-confirm. They also state: 'If you are unable to locate your listing then it means your information was never collected, or has already been removed.'
+- Current: `submitted` (updated 2026-08-20)
+- Note: SENT 2026-08-20 00:10 UTC as part of ONE consolidated letter to nine addresses covering all sixteen brands on the /api/helper/optOutLight/search platform. The letter names every site, gives the shared URL path as the reason for treating them as one operator, explicitly does NOT ask anyone to confirm corporate structure (only which sites they actioned), and leads with the precedent that privaterecords granted this identical request for this identical person from an email thread on 2026-08-19 without any form. Also carries the five questions none of the family has answered across three exchanges, with the criminal/inmate/sealed-record/mugshot question expanded because three members are branded specifically around that content.
 
 ## Steps
 

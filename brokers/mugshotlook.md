@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-19)
-- Note: Arrest/mugshot publisher. Used the split ask from _CATEGORY_VARIANTS: conceded the public record at source is not theirs to alter, then separated hosting a page from making it findable by name, and asked for de-indexing as a distinct fallback if deletion is refused. Also asked the Local Crime News question explicitly - is the opt-out a STANDING suppression applied to future feeds, or a removal of what matches today - and supplied the age as well as the DOB, since booking records are hand-transcribed.
+- Current: `submitted` (updated 2026-08-20)
+- Note: SENT 2026-08-20 00:10 UTC as part of ONE consolidated letter to nine addresses covering all sixteen brands on the /api/helper/optOutLight/search platform. The letter names every site, gives the shared URL path as the reason for treating them as one operator, explicitly does NOT ask anyone to confirm corporate structure (only which sites they actioned), and leads with the precedent that privaterecords granted this identical request for this identical person from an email thread on 2026-08-19 without any form. Also carries the five questions none of the family has answered across three exchanges, with the criminal/inmate/sealed-record/mugshot question expanded because three members are branded specifically around that content.
 
 ## Steps
 

@@ -7,9 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-19) — email verification link clicked; OneTrust returned a confirmation page
-- Letter delivered and acknowledged. Form filled and verified; a distorted-text
-  CAPTCHA is the only thing left, staged for one human click.
+- Current: `submitted` (updated 2026-08-19)
+- Reference: `FKB6FMP7GL`
+- Note: Email verification link clicked 2026-08-19; OneTrust confirmation page rendered under NEXXA branding: 'Your request is confirmed!'. Request type: Opt-Out: Do Not Sell/Share. Footer of the OneTrust mail exposes a real consumer contact obfuscated across two mailto tags: ConsumerChoice@nexxagroup.com, plus Consumer Choice +1-800-566-1895 on the confirmation page (the email footer prints 800-566-1217 -- two different numbers).
 
 ## Steps
 

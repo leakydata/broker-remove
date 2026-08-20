@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-19)
-- Note: Same category and same central argument as propertyradar: the contact and skip-trace layer is not public-record data, so the public-record exemption does not reach it. Do-not-append suppression, the supplier's name, downstream deletion by customers who exported, and the event-alert question.
+- Current: `manual_required` (updated 2026-08-19)
+- Note: Email refused: 'In order to process your privacy request, please fill out the appropriate form at the link below. We do not accept privacy requests via email.' The form is a cascade of custom dropdowns and it is better designed than most: the rights list is explicit (Do Not Sell/Opt-out, Delete, Know/Access, Correct) and the capacity list includes MEMBER OF THE PUBLIC alongside PropertyReach Customer - the option Nielsen's form lacked entirely. Two structural notes: the rights selector is SINGLE-SELECT so deletion and opt-out need separate runs, and Cloudflare gates the page for about ten seconds before it paints. Could not drive it to completion under automation - the widgets are not real selects, and clicking an option's text label navigated to their Property API marketing page rather than choosing the option. Mapped the full path and handed off. Company is Property Reach, LP, 1915 21st St, Sacramento CA.
 
 ## Steps
 

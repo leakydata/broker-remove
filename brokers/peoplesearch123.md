@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-19)
-- Note: People search. Standard four asks plus the five this category never volunteers: suppression vs one-time removal, EVERY matching record rather than one (16 addresses across three states under five name spellings routinely produce records a matching engine cannot reconcile), relatives-and-associates scope, the FCRA position reconciled against their own not-a-CRA disclaimer, and sources/recipients. Also asked whether the site shares an index with any sibling property.
+- Current: `submitted` (updated 2026-08-20)
+- Note: SENT 2026-08-20 00:10 UTC as part of ONE consolidated letter to nine addresses covering all sixteen brands on the /api/helper/optOutLight/search platform. The letter names every site, gives the shared URL path as the reason for treating them as one operator, explicitly does NOT ask anyone to confirm corporate structure (only which sites they actioned), and leads with the precedent that privaterecords granted this identical request for this identical person from an email thread on 2026-08-19 without any form. Also carries the five questions none of the family has answered across three exchanges, with the criminal/inmate/sealed-record/mugshot question expanded because three members are branded specifically around that content.
 
 ## Steps
 

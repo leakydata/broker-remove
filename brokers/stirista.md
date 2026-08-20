@@ -8,8 +8,9 @@
 
 ## Status
 
-- Current: `not_found` (updated 2026-08-19) — not found + added to their CCPA opt-out list prospectively, across four brands
-- Note: Emailed privacy@stirista.com covering both Stirista's own databases and consumer records acquired from Andrews Wharton, quoting their auto-reply's redirect.
+- Current: `not_found` (updated 2026-08-19)
+- Reference: `139443`
+- Note: Ticket #139443. 'Your information was not found in our system, and it has been added to our CCPA Opt-outs to keep your information out of our system in the future.' This is the best form of a null result: not_found PLUS a standing prospective suppression, volunteered without being asked twice. Letter had been addressed to cover Stirista and Andrews Wharton together.
 
 ## Steps
 

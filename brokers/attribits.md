@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-17)
-- Note: Statutory delete/opt-out request emailed, tailored to the broker's data category; awaiting reply.
+- Current: `submitted` (updated 2026-08-19)
+- Note: PUBLISHED CONTACT IS BROKEN IN A NEW WAY. Their site's announcement bar renders as: <a href="mailto:info@attritbits.com"><em>info@attribits.com</em></a>. The DISPLAYED TEXT is correct (info@attribits.com, whose domain has Google MX and works). The mailto: HREF is a typo -- attritbits.com, transposed letters -- and that domain has NO NS and NO MX, so it does not exist. Anyone who READS the address and types it gets through; anyone who CLICKS it gets a hard bounce. Their own clickthroughUrl field alongside it is correct, so this is a data-entry error in their CMS, not a deliberate obfuscation. Worth reporting to them as a fault alongside the request. Note the existing tracker contact is compliance@allgoodmediagroup.com (a parent or agency), so info@attribits.com is a second route worth trying.
 
 ## Steps
 

@@ -9,7 +9,8 @@
 ## Status
 
 - Current: `confirmed` (updated 2026-08-19)
-- Note: FOURTH member of the Cloudflare-nameserver family: quickpublicrecords.com answers on the same chloe.ns/ed.ns pair as publicrecordreports.com, publicdatacheck.com and publicinfoservices.com. Letter names all four with the evidence stated and invites correction. Four brands from one Cloudflare account, all found with dig rather than by reading a single page - the technique has now paid for itself four times in two passes.
+- Reference: `04YVZX-6DK0Z`
+- Note: CONFIRMED earlier: 'the public data provided in your request has been removed from www.QuickPublicRecords.com under all your aliases', with qualified prospective suppression ('commercially reasonable efforts... cannot guarantee 100%'). FAMILY NOW RESOLVED BY DNS: the open question I put to them -- how many sites does this cover -- is answered by the Cloudflare pair chloe+ed, which covers SEVEN brands: kidslivesafe, publicdatacheck, publicrecordreports, publicinfoservices, quickpublicrecords, searchpublicrecords, spyfly. That explains the identical Zendesk acknowledgements received from several of them within minutes. searchpublicrecords.com and spyfly.com have never been contacted -- add them to the next batch and cite the family.
 
 ## Steps
 

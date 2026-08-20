@@ -9,7 +9,8 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-19)
-- Note: Property-records publisher. Conceded the public-record point first, then split hosting from findability: the county hosts the deed; indexing it against a name, joining it to phones, emails, relatives and prior addresses, and ranking it into search results is the product they built. Asked for de-indexing with a noindex directive as a SEPARATE item from deletion. Three property-specific asks: coverage of OWNERSHIP HISTORY entries and not just current ownership; removal from neighbours/residents/related-persons panels on other properties' pages; and estimated values, mortgage and lien data, which become financial inferences about a person once joined to a name. Their MX is aironmail.gsc.hostedserver.net - the same 'aironmail' platform family as privacy.phonenumbers.org's aironmail.webair.com, which is worth watching but is shared hosting rather than shared ownership.
+- Reference: `539317`
+- Note: Zendesk ticket 539317 issued - a real artifact rather than an autoresponder. Request received and under review.
 
 ## Steps
 

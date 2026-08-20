@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-18)
-- Note: Lookup-by-identifier product, so asked specifically that suppression cover REVERSE lookups - phone, address, email - not only name search. A block covering the name query while the record stays reachable by phone or address is not a removal.
+- Current: `manual_required` (updated 2026-08-18)
+- Note: Email refused, routed to a self-service portal: 'Data removal requests for Lookups.io are now handled through our self-service data claim portal.' That portal takes a PROFILE URL as its input - the genuine version of the benign reading offered to LicenseFiles and Thryv, so searching for it here is right rather than a capitulation. Searched their site: no exact match. Two [PERSONAL] PA [PERSONAL] candidates carrying ages 43 and 42 (subject is 47; brokers routinely carry wrong ages), one showing a masked +1 (717) number which matches the area of four prior numbers. Also several clear non-matches - a [PERSONAL] aged 80 in [PERSONAL], a Jack [PERSONAL] aged 80, and Bradford ME entries. NOT submitting: an incorrect profile removal would suppress a stranger's record. Queued as a judgement call.
 
 ## Steps
 

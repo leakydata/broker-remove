@@ -360,8 +360,8 @@
     "via": null
   },
   "checksecrets": {
-    "status": "manual_required",
-    "changed": "2026-08-17",
+    "status": "submitted",
+    "changed": "2026-08-20",
     "via": null
   },
   "choreograph": {
@@ -1030,8 +1030,8 @@
     "via": null
   },
   "inmatessearcher": {
-    "status": "manual_required",
-    "changed": "2026-08-18",
+    "status": "submitted",
+    "changed": "2026-08-20",
     "via": "web"
   },
   "inmobi": {
@@ -1470,8 +1470,8 @@
     "via": "email"
   },
   "mugshotlook": {
-    "status": "captcha_blocked",
-    "changed": "2026-08-19",
+    "status": "submitted",
+    "changed": "2026-08-20",
     "via": "reply"
   },
   "my_renter_checker": {
@@ -2139,14 +2139,69 @@
     "changed": "2026-08-16",
     "via": null
   },
+  "roc_advertising": {
+    "status": "submitted",
+    "changed": "2026-08-20",
+    "via": null
+  },
+  "round_sky": {
+    "status": "submitted",
+    "changed": "2026-08-20",
+    "via": null
+  },
+  "scanbuy": {
+    "status": "submitted",
+    "changed": "2026-08-20",
+    "via": null
+  },
+  "scraping_robot": {
+    "status": "submitted",
+    "changed": "2026-08-20",
+    "via": null
+  },
+  "sealedrecords": {
+    "status": "submitted",
+    "changed": "2026-08-20",
+    "via": null
+  },
+  "seamless_ai": {
+    "status": "submitted",
+    "changed": "2026-08-20",
+    "via": null
+  },
+  "search_quarry": {
+    "status": "submitted",
+    "changed": "2026-08-20",
+    "via": null
+  },
   "searchpeoplefree": {
     "status": "manual_required",
     "changed": "2026-08-16",
     "via": null
   },
+  "searchsystems_public_records": {
+    "status": "submitted",
+    "changed": "2026-08-20",
+    "via": null
+  },
   "secretinfo": {
-    "status": "email_pending",
-    "changed": "2026-08-19",
+    "status": "submitted",
+    "changed": "2026-08-20",
+    "via": null
+  },
+  "seedtable": {
+    "status": "submitted",
+    "changed": "2026-08-20",
+    "via": null
+  },
+  "seekout": {
+    "status": "submitted",
+    "changed": "2026-08-20",
+    "via": null
+  },
+  "semcasting": {
+    "status": "submitted",
+    "changed": "2026-08-20",
     "via": null
   },
   "sheriffsdepartment_net": {
@@ -2225,8 +2280,8 @@
     "via": "reply"
   },
   "truthrecord": {
-    "status": "email_pending",
-    "changed": "2026-08-19",
+    "status": "submitted",
+    "changed": "2026-08-20",
     "via": null
   },
   "tunnl": {
@@ -2300,8 +2355,8 @@
     "via": null
   },
   "weinform": {
-    "status": "email_pending",
-    "changed": "2026-08-19",
+    "status": "submitted",
+    "changed": "2026-08-20",
     "via": null
   },
   "west_virginia_arrests": {

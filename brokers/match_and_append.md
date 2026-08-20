@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-19)
-- Note: Match-and-append business, so the letter targets the LINKAGE rather than the row: appended phone/address/demographic values AND the linkage itself, hashed email as match key, household/persistent keys, derived attributes. Asked which source supplied the record and which clients received an appended output - an append already delivered is not recalled by deleting their copy.
+- Current: `unreachable` (updated 2026-08-19)
+- Note: REFINED, and it explains why two agents saw two different things minutes apart. The cloud agent reported the privacy page now returns 503 rather than failing DNS; from here the apex fails to resolve entirely. Both observations are correct: matchandappend.com HAS NO A RECORD AT ALL, while www.matchandappend.com resolves to 34.106.169.43. Whoever hits the apex gets a resolution failure; whoever hits the www host reaches a server that is erroring. So the earlier 'no website' finding was right about the apex and wrong as a description of the domain. Neither host served a page to this session. Mail remains Zoho MX with both privacy@ and info@ hard-bouncing 550, so the email route is still dead regardless. Keeping unreachable. LESSON: check the apex AND the www host before declaring a site gone - they are separate records and either can exist without the other.
 
 ## Steps
 

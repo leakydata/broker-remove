@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-19)
-- Note: Demand-side platform. Identity-graph framing plus a point specific to their situation: the business has changed hands, so the letter asks that if a successor, acquirer or affiliate now holds the data they name the entity and where to direct the request - a transfer of ownership does not extinguish a request, it only changes who answers it.
+- Current: `failed` (updated 2026-08-19)
+- Note: STRIKING BOUNCE. privacy@mediamath.com is a DISTRIBUTION LIST that fans out to four named individuals - and every one of their mailboxes is over quota: 'The recipient's mailbox is full and can't accept messages now' x4, for four different named employees. The exchanger accepts the message and then fails delivery to all members, so from the sender's side it looks like partial success. MediaMath's business has been through insolvency and a change of hands; this is what a privacy alias looks like after the people behind it have gone.
 
 ## Steps
 

@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `manual_required` (updated 2026-08-19)
-- Note: NOT a false positive - checked rather than assumed, and the assumption would have been wrong. Men Stopping Violence was a real anti-violence nonprofit for four decades; the site now says 'the Men Stopping Violence (MSV) initiative has closed mid-2024' and the SAME DOMAIN is now a people-search product: '301 Million People / 140 Million Criminal Record / 340 Million Phone Numbers / 305 Million Email Addresses / 442 Million Social Profiles'. It keeps the .org, the charity's name and its domestic-violence statistics as content marketing around a background-check funnel. Opt-out at /opt-out/ is URL-KEYED: 'Go to your profile page and copy its link', example /people/<name>/<hash>/. The on-site name search does not navigate, so the profile URL could not be obtained; queued.
+- Current: `confirmed` (updated 2026-08-19)
+- Note: CONFIRMED: 'Your Removal Request is Confirmed. Men Stopping Violence is now working to remove all records for [name]. We will completely wipe the entry below and any other personal details from our systems in the next 24 hours.' The confirmation names the record back - name, age, city - and repeats the profile link, so it is unambiguous which record was actioned. Note the scope wording is unusually wide: 'the entry below AND ANY OTHER PERSONAL DETAILS from our systems', not merely the one profile page.
 
 ## Steps
 

@@ -9,7 +9,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-18)
-- Note: TWO submissions, because Privacy Choice is single-select and one submission buys one right: 'Request to delete' and 'Request to opt out of sale/sharing'. Both returned 'Thank you. Your privacy request has been received.' Same form covers exactdata.com.
+- Note: Both submissions acknowledged by email: 'This communication serves as confirmation that we have received your consumer privacy rights request. We will process your request promptly in...' Two separate confirmations, matching the two submissions (delete, then opt out of sale/sharing).
 
 ## Steps
 

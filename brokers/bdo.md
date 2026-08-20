@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-17)
-- Note: Statutory delete/opt-out request emailed, tailored to the broker's data category; awaiting reply.
+- Current: `submitted` (updated 2026-08-19)
+- Note: Routed to BDO GCI, LLC with a 45-day clock and a working forward address privacy@bdo-gci.com. KEY FINDING: they state the address on their data-broker REGISTRATION (privacy@bdo.com) 'is no longer used for that purpose' -- a registered broker whose registered contact is retired but still published. Replied asking them to correct the registry entry, asking whether GCI scope covers BDO USA P.C. too, and pressing for categories/sources/recipients/suppression-vs-deletion.
 
 ## Steps
 

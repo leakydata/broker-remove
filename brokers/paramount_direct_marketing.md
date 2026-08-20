@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `captcha_blocked` (updated 2026-08-19)
-- Note: Direct-mail list compilation and brokerage; same suppression-first shape as outward_media with the sensitive-select list named individually and the delete-not-flag distinction spelled out. Brokerage adds one wrinkle worth keeping: their copy is one of many and usually not the one that reaches the subject, so recipients-and-direct-them matters more here than the deletion itself. Asked which brands the ccpa@ mailbox covers.
+- Note: The emailed letter bounced: ccpa@paramountdirectmarketing.com is Recipient Unknown - an address published for CCPA requests that does not exist. The bounce itself was the useful part: it came from postmaster@PARAMOUNTLISTS.COM, naming the Office 365 tenant behind the domain and therefore a sibling brand nobody advertised. A non-delivery report is a family-detection signal in its own right; the sending tenant is on the envelope even when the website says nothing. Their web form is better than most in two ways: separate CA and NON-CA routes, so the jurisdiction question never arises, and the request types are MULTI-SELECT checkboxes - Right to Opt Out and Right to Delete can both be asked for in one submission rather than needing two runs. Both ticked, form filled and verified; reCAPTCHA gates submission. Also note they geolocate: 'the state you select is compared against the general location of your connection', so this cannot be submitted on someone's behalf from elsewhere.
 
 ## Steps
 

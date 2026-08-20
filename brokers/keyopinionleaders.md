@@ -8,6 +8,7 @@
 ## Status
 
 - Current: `unreachable` (updated 2026-08-19)
+- Note: Downgraded from submitted on DNS evidence, ahead of the bounce. Gmail reported a 'Delivery incomplete... temporary problem... will retry for 45 more hours' notice, which reads as transient. It is not: keyopinionleaders.com has NO NS RECORDS, NO SOA, NO A AND NO MX, on the apex and on www alike. The domain does not resolve at all - the registration has lapsed or been withdrawn - so the retries cannot succeed and the message will hard-bounce in two days. Worth recording as its own failure mode: a SOFT bounce can mask a permanently dead domain, and for 48 hours the tracker will happily show 'submitted' while the letter has nowhere to go. One dig settles it in a second.
 
 ## Steps
 

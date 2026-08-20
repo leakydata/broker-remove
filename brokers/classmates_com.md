@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-17)
-- Note: Statutory delete/opt-out request emailed, tailored to the broker's data category; awaiting reply.
+- Current: `submitted` (updated 2026-08-18)
+- Note: Receipt confirmed by Zendesk: 'Thank you for your privacy request. This message serves as confirmation of receipt.' Awaiting substantive response.
 
 ## Steps
 

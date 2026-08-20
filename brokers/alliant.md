@@ -10,7 +10,7 @@
 
 - Current: `submitted` (updated 2026-08-18)
 - Reference: `gmail:1a01042e8332c7f7`
-- Note: BOTH OneTrust forms submitted. Opt-out (suppression from future sales/sharing) and deletion, each its own form and its own submission. Both returned 'Thank you for submitting your request. A company representative will review your request and reach out to you at the submitted email address.'
+- Note: OneTrust logged BOTH requests with reference IDs and emailed them: 'Your marketing data opt out and/or marketing data deletion request has been successfully submitted. Your Request ID is 3GBWVNXAA5' and a second, A6PP4DHC2W. Two IDs for two forms, which is the artifact that proves the deletion and the opt-out were recorded separately rather than deduplicated.
 
 ## Steps
 

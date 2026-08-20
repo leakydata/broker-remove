@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `confirmed` (updated 2026-08-19) — public data permanently erased and details added to their blocklist
-- Note: Recruiting-profile builder. Asked them to search professional identifiers (the .edu address, public profile URLs, employment history) since a talent profile is not keyed to a home address; to delete the ENRICHED profile - skills, seniority, tenure, predicted openness to a move - not just raw fields; to name the sources; and to say which customers the profile was shown to. Pre-empted the processor deflection by asking for the client list in the same breath.
+- Current: `confirmed` (updated 2026-08-19)
+- Note: CONFIRMED DELETION + BLOCKLIST: 'As requested, we have deleted all your public data in our database by permanently erasing it. Also, your details have been added to our blocklist which will ensure you will not be contacted in the future using our platform.' Notes the statutory retention of the request record itself: 'we are required to retain a record of your request for at least 24 months.' Sent to both [PERSONAL]@ and [PERSONAL]@ -- they matched across two of the supplied addresses. Reply-to is no-reply-privacy@findem.ai with privacy@findem.ai on Cc, so answer the Cc not the From.
 
 ## Steps
 

@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `confirmed` (updated 2026-08-19) — entry removed after a three-stage queue
-- Note: Auto-reply citing increased request volume; no ticket reference issued.
+- Current: `confirmed` (updated 2026-08-19)
+- Note: CONFIRMED: 'We've received your request to remove your record. We're glad to confirm that the entry for <name> has been successfully removed.' Same two-step pattern as checkpeople -- an initial 'increased volume of requests' holding reply, then a demand for extra locating details, then the confirmation. Sister-site behaviour to checkpeople; worth a family check.
 
 ## Steps
 

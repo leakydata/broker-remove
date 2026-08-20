@@ -8,9 +8,9 @@
 
 ## Status
 
-- Current: `failed` (updated 2026-08-19) — no working removal route: opt-out URL 404s, the Google Form was removed by Google for a ToS violation, and support@ is an autoresponder loop
+- Current: `failed` (updated 2026-08-19)
 - Reference: `gmail:1a0064b2dcdd7578`
-- Note: Statutory deletion + opt-out emailed from [EMAIL]. All 4 email identities + DOB asserted. Includes explicit fallback: if broker claims no covering statute or non-covered state, honor as company policy and state which basis was applied.
+- Note: NO WORKING REMOVAL ROUTE. Three routes, all dead: (1) the recorded optout URL cocofinder.com/optout returns 404, and the 404 page is monetised with affiliate ads for competing background-check services; (2) the real page /remove-my-info says 'please submit your request by filling out this form' and links to a Google Form which Google has TAKEN DOWN -- 'We're sorry. You can't access this item because it is in violation of our Terms of Service'; (3) support@cocofinder.com is an autoresponder that re-sends the same 'send us a Profile Page URL' template on every inbound message, including one that already contained every field it asked for. Nothing on any page signals the form is gone. Family: Cloudflare pair coleman+paloma.
 
 ## Steps
 

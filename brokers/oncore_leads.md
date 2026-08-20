@@ -9,7 +9,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-19)
-- Note: Lead generation and resale. Ordered the asks by what actually matters in a resale business: PROVENANCE first (which publisher, form or supplier, on what date - and if consent is claimed, the date, the form and the wording shown), then RECIPIENTS (name them or give categories and a count, and direct each to delete), then deletion, then suppression on a do-not-resell basis. Deleting one copy in a business built on selling copies leaves every downstream copy live. Also asked specifically about AGED or RECYCLED lead inventory, which is usually held apart from the live database and missed by a deletion scoped to it. Only published address is leads@, so asked them to forward and name the privacy mailbox.
+- Note: Co-founder replied personally with a negative that is wrapped in a jurisdictional hedge: 'Please note that only California consumers are entitled to rights under the CCPA' followed by 'Oncore does not have any personal information regarding you THAT COULD BE SUBJECT TO THE DELETION REQUIREMENTS OF THE CCPA.' That trailing clause carries two opposite meanings -- (A) we hold nothing at all, or (B) we may hold something but you are not Californian so nothing is in scope. Asked which, offering to close on an unqualified (A) and to accept (B) as a lawful position provided they say which basis they applied. Also re-asked provenance, recipients, and do-not-resell suppression, none of which depend on jurisdiction.
 
 ## Steps
 

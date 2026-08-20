@@ -7,9 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-19) — email verification link clicked; OneTrust returned a confirmation page
-- Form filled and verified with the full request in the free-text field. A
-  distorted-text CAPTCHA is all that remains.
+- Current: `submitted` (updated 2026-08-19)
+- Reference: `RZ3AZVMFVW`
+- Note: Email verification link clicked 2026-08-19 09:5x EDT; OneTrust returned 'Your request is confirmed! We will review your request and contact you shortly.' Request type: Delete my personal information. Tenant: privacyportal-de.onetrust.com (EU instance) under The Nielsen Company (US) LLC.
 
 ## Steps
 

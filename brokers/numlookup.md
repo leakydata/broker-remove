@@ -8,8 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-19)
-- They committed to redacting within 5 days and asked the requester to verify
-  afterwards.
+- Note: Best-behaved reply in the project so far: they echoed back the exact query they will act on, which is what makes an audit possible at all. Auditing it found a real defect. They split the identifiers into two blocks - 'State: PA' carrying ONE phone number, and 'State: MD' carrying the other eleven - which is a parsing artifact, not anything the letter said. Nearly all twelve numbers are 814 and 717, both Pennsylvania area codes; only one is a Maryland number. If redaction is applied per block, eleven numbers would go unremoved from any PA-associated record. Replied asking them to drop the state qualifier and act on the numbers themselves, and noting that no address or email from the letter appears in their summary at all. Also queried 'redacted from our website', which is display-layer language - deleted from the index, or hidden from the page while still held and still supplied. They ask the consumer to verify after 5 days.
 
 ## Steps
 

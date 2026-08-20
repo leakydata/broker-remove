@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `manual_required` (updated 2026-08-19) — Google Form is live but requires a profile URL the site’s own search will not produce
-- Note: People-search. Every former address and disconnected number; relatives-and-associates listings; suppression vs one-time; upstream sources. Pre-empted the profile-URL demand and the account/ID demands.
+- Current: `manual_required` (updated 2026-08-19)
+- Note: ADDITIONAL FINDING: their on-site people search is not a search of their own index at all -- submitting it opens AFFILIATE REDIRECTS to third-party brokers, carrying the query in the URL. Observed: truthfinder.com/search/?...utm_campaign=findpeoplefast...firstName=[PERSONAL]&lastName=[PERSONAL] and intelius.com/phone/search/?...utm_campaign=findpeoplefast...phone=<number>. So a consumer trying to find their own profile URL in order to satisfy the removal form's required URL field instead hands their name and phone number to two further brokers as affiliate traffic. The removal route is not merely broken, it is a funnel.
 
 ## Steps
 
