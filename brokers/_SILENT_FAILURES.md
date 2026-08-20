@@ -1887,6 +1887,47 @@ That is answerable in one line, it does not accuse anyone of anything, and it
 distinguishes a genuine `not_found` from a search that never looked in the right
 place. Until it is answered, the negative is real but partial.
 
+### The second axis: whose records were searched
+
+The key is one way a negative can be narrow. **Role** is the other, and it shows
+up wherever the recipient is an agency, a bureau, or any firm that handles data
+on behalf of clients.
+
+A fundraising and marketing agency answered:
+
+> "After searching our records, we did not identify any information in our
+> databases associated with your name and/or address."
+
+Both halves are narrow, and independently so:
+
+| clause | what it silently excludes |
+|---|---|
+| "your name and/or address" | records keyed to email or phone — usually *the* key in a fundraising or marketing file, where the postal address is often absent or stale |
+| "our records ... our databases" | client lists the agency **processes** rather than owns |
+
+The second is the harder one, because the sentence can be completely true and
+still leave the subject's data sitting in the agency's systems under a client's
+name. An agency's own controller records are frequently empty; its clients' donor
+and supporter files are the reason it was on a broker list in the first place.
+
+**Ask it as a fork with an acceptable exit**, so the answer costs nothing:
+
+> Does your answer cover data held for clients as well as data you hold in your
+> own right? If those are your clients' records rather than yours, just say so
+> and tell me it's their request to action — I'll take that as the answer and go
+> to them instead.
+
+Offering "it's the client's, go to them" as a complete answer is what makes it
+answerable. It is also genuinely useful: a named client is a new, correctly
+addressed request, which is a better outcome than an argument about who
+controls what.
+
+**Also worth flagging without making it the argument:** this reply described the
+request as an *access* request when it was a deletion and opt-out request. That
+mislabel is harmless while the answer is "we hold nothing" and stops being
+harmless the moment a recheck finds something, because it determines which
+process gets run. Note it, do not lead with it.
+
 ---
 
 ## §53 A bot-gated route is a snapshot, not a property
