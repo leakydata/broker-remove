@@ -2947,3 +2947,84 @@ a closed mailing list at a company with no website.
 
 **Related:** §45, §65, §68, and `_DEFLECTIONS.md` §29 (when a privacy alias is a
 distribution list — the same structure, seen from the inside).
+
+---
+
+## §73 The answer to the letter you superseded
+
+Two messages went to the same mailbox, eleven hours apart, in one thread:
+
+1. **18 Aug, 10:15** — the request. Four email addresses, name, DOB, current
+   address, phone.
+2. **18 Aug, 21:33** — a follow-up that widened it: cover both brands served by
+   this mailbox, and search for records keyed to something *other* than a name —
+   hashed email, mobile advertising identifier, cookie or CTV identifier,
+   IP-derived household association — and delete the **edges**, not only the row
+   carrying the name.
+
+**Two days later the reply came back quoting message one.** Verbatim, in full,
+with message two nowhere in it:
+
+> "We have reviewed our systems, and the information you provided is not
+> present. No further action is required at this time."
+
+"The information you provided" is doing quiet, enormous work in that sentence.
+It is true. It refers to four plaintext email addresses. It says nothing
+whatsoever about hashed keys, device identifiers, or the sibling brand — because
+the message that raised those was never the one being answered.
+
+**Why this is a silent failure and not a brush-off.** Nobody ignored anything.
+A support desk opens a ticket from the message that created it, works the fields
+in that message, and replies. A follow-up arriving into the same thread lands as
+a comment on an open ticket, and comments on open tickets are read far less
+reliably than the ticket body — especially where the reply is composed in Outlook
+from the original rather than from the thread tail. The requester sees a complete
+answer in a thread containing both messages, and has no way to tell which one was
+worked.
+
+**The tell is in the quoted text.** Whatever a reply quotes underneath it is the
+message that was actually answered. Check it every time. It costs a glance and it
+is the only reliable signal available:
+
+| what the reply quotes | what you learned |
+|---|---|
+| your most recent message | the full scope was in front of them |
+| an earlier message in the thread | **the reply is scoped to that message only** |
+| nothing | unknown — ask which identifiers were searched |
+
+**Do not treat this as a refusal, and do not re-argue the finding.** The negative
+they gave is honest for what they searched. If the original letter promised —
+as it should have — that an unqualified "we hold nothing" would be accepted as a
+complete answer, **honour that promise.** The technique of pre-accepting the
+unflattering answer only works because it is kept; a project that pockets the
+cheap answer and then argues anyway poisons the well for the next person.
+
+**What to do instead: use the door they open.** Replies of this kind very often
+end with an invitation, and this one did:
+
+> "If you believe your data may exist under a different email address/company or
+> spelling variation, please feel free to share it, and we will be happy to
+> recheck."
+
+Accepting an explicit invitation is not re-litigating a finding. Send the
+identifiers the first letter omitted, and re-ask the scope questions **as
+questions about how the check was run, not about whether it was right**:
+
+> Does "not present in our systems" cover identifier-keyed records as well as
+> contact records, or was the check a lookup on the addresses I gave? Either
+> answer is fine and I will record it as given. I ask because the two produce the
+> same sentence and mean different things.
+
+That framing is the load-bearing part. It concedes the result, isolates the
+mechanism, and offers both answers as acceptable — so answering costs the desk
+nothing and refusing would be conspicuous.
+
+**Status handling.** Not `not_found` yet. The negative is real but partial, and a
+recheck is outstanding. Leave it `submitted`, record what the reply did and did
+not cover, and flip when the recheck comes back.
+
+**Prevention.** Do not send scope in a follow-up if it can go in the first
+letter. A second message is not an amendment to the first — operationally it is
+a lower-priority note attached to a ticket that has already been framed.
+
+**Related:** §11, §40, §69, §70.
