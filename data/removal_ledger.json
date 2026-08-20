@@ -1149,6 +1149,11 @@
     "changed": "2026-08-18",
     "via": "email"
   },
+  "l2_data": {
+    "status": "submitted",
+    "changed": "2026-08-20",
+    "via": "email"
+  },
   "lead411": {
     "status": "submitted",
     "changed": "2026-08-18",
@@ -2260,7 +2265,7 @@
     "via": "email"
   },
   "sourceit": {
-    "status": "submitted",
+    "status": "confirmed",
     "changed": "2026-08-20",
     "via": "email"
   },

@@ -2561,18 +2561,43 @@ actually mail when you click is dead — rejected by their own Office 365 tenant
 > dataprivacy wasn't found at sourceitmarketing.com... Recipient Unknown"
 
 So the page works for anyone who retypes the visible address by hand, and fails
-for anyone who does what the page invites them to do. The three plain-text
-occurrences elsewhere in the same policy all carry the year stamp, which tells
-you what happened: the mailbox was rotated, the prose was updated, and the href
-was missed.
+for anyone who does what the page invites them to do.
 
-**Two things make this worse than an ordinary stale contact.**
+**What actually caused it — the company told me.** Having reported the broken
+link in the letter, the operator replied the same morning:
 
-*The year stamp is a rotation signal.* `dataprivacy2026@` implies a
-`dataprivacy2025@` that is now gone and a `dataprivacy2027@` that does not exist
-yet. Every address you cache from a site like this has an expiry date, and every
-aggregator listing of it is guaranteed to go wrong on a schedule. When you see a
-year in a privacy mailbox, record *when* you verified it, not just that you did.
+> "Thanks for letting us know. We corrected the page, it was failed change in
+> wordpress."
+
+A botched WordPress edit. The visible text was updated and the link target was
+not, which is the ordinary failure mode of editing a hyperlink's label without
+editing its href.
+
+### Correction: the year stamp was not a rotation signal
+
+The original version of this section reasoned from the year in
+`dataprivacy2026@` to a *policy* of annual rotation — a `dataprivacy2025@` now
+retired, a `dataprivacy2027@` not yet created, and therefore an expiry date on
+every address cached from a site like this. That was inference dressed as a
+finding, and it was wrong. There is one mailbox, someone typed a year into it,
+and a later edit broke the link around it.
+
+The mechanism I invented was more interesting than the truth, which is exactly
+why it should have been flagged as a guess. **A pattern that explains the
+evidence is not thereby the cause of it.** The same visible symptom — href and
+text disagreeing — is produced by a rotation, a botched edit, a stale cache, or
+a copy-paste error, and nothing in the page distinguishes them. Reporting the
+fault gets you the answer; theorising about it gets you a plausible story.
+
+The practical advice survives the correction, for a duller reason: **record when
+you verified an address, not just that you did**, because addresses go stale for
+many reasons and none of them announce themselves.
+
+**And report the fault in the letter.** This one was fixed within hours because
+the request opened by describing the broken link plainly and without accusation.
+That costs two sentences, it is useful to a small operator who cannot see their
+own bounce log, and it visibly buys goodwill — the same reply answered every
+substantive question asked.
 
 *It defeats naive verification twice over.* My checker extracts addresses from
 the fetched HTML and confirms the registry entry if it appears. Both addresses

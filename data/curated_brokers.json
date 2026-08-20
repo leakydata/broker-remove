@@ -2468,7 +2468,7 @@
       "id": "exact_data",
       "name": "Exact Data",
       "domain": "data-axle.com",
-      "priority": 2,
+      "priority": 3,
       "method": "email",
       "optout_url": "",
       "needs_email_confirm": null,
@@ -2476,7 +2476,8 @@
       "optery_slug": "exact-data",
       "email_to": "privacyteam@data-axle.com",
       "email_verified": false,
-      "email_verified_by": "no_address_published"
+      "email_verified_by": "no_address_published",
+      "notes": "Named by Sourceit Marketing 2026-08-20 as an upstream email-list supplier that fed a record about this subject."
     },
     {
       "id": "experian_marketing",
@@ -8747,6 +8748,19 @@
       "email_verified": false,
       "email_verified_by": "origin returns Cloudflare 530 to scripted fetches",
       "note": "Added on a category hypothesis (firms that may hold pre-redaction WHOIS records), NOT on evidence about this company. Verify the actual product line before writing - ViewDNS was on this list and does not offer historical WHOIS. See _SILENT_FAILURES.md 67 correction."
+    },
+    {
+      "id": "l2_data",
+      "name": "L2 Data",
+      "domain": "l2-data.com",
+      "priority": 3,
+      "method": "email",
+      "optout_url": "https://www.l2-data.com/optout1-667457/",
+      "needs_email_confirm": null,
+      "source": "supplier_disclosure",
+      "email_to": "privacyrequests@l2political.com",
+      "email_verified": true,
+      "email_verified_by": "published on the opt-out page at l2-data.com/optout1-667457/. Discovered because Sourceit Marketing named L2 Data as one of its email-list suppliers (2026-08-20). Note the opt-out page lives at a non-guessable path and is NOT at /opt-out/, /privacy/ or /privacy-policy/, all of which 404."
     }
   ]
 }
