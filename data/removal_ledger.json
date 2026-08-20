@@ -2165,7 +2165,7 @@
     "via": null
   },
   "seamless_ai": {
-    "status": "submitted",
+    "status": "captcha_blocked",
     "changed": "2026-08-20",
     "via": null
   },
@@ -2195,7 +2195,7 @@
     "via": null
   },
   "seekout": {
-    "status": "submitted",
+    "status": "manual_required",
     "changed": "2026-08-20",
     "via": null
   },

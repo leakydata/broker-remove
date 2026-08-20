@@ -2309,3 +2309,63 @@ One mitigating note worth keeping alongside it: this particular operator's own
 homepage states plainly that it is a directory of links to government sources and
 holds nothing about individuals. So the likely exposure is nil — what is
 unreachable is the ability to have that confirmed for a specific person.
+
+---
+
+## §63 The rights portal that renders no form
+
+A company's autoresponder named its Privacy Choices Portal as *"the most efficient
+way for you to submit your verified request"*, and refused the email route without
+an extra identifier.
+
+The portal loads. It shows a heading, and two lines of explanatory text — *"You can
+use this form to submit a request regarding your personal information"* and
+*"Please note that all requests for deletion are permanent."*
+
+Then nothing. Below the text sits an embedded HubSpot frame, **680 × 1310 pixels,
+with an entirely empty document body**: no fields, no labels, no submit control.
+The host page has no input elements of its own either.
+
+    document.querySelectorAll('input,select,textarea').length   // → 0
+    iframe.contentDocument.body.innerHTML.length                // → 0
+
+Reloaded, waited, re-checked. The frame stays empty.
+
+> **The layout reserves 1310 pixels for a form that never arrives, so the page does
+> not look broken — it looks like a form that has not scrolled into view yet.** A
+> person who lands here scrolls, finds nothing, and is far more likely to conclude
+> they are doing it wrong than that the company's rights portal is dead.
+
+### Why this one is worse than a dead link
+
+A 404 is honest. This page is confident, well-designed, and describes a form that
+is not there — and it is the route the company's own autoresponder pushes you
+toward, *while simultaneously refusing the alternative route* unless you hand over
+an additional identifier.
+
+> **When one route is broken and the other is conditional, check whether the
+> condition is the only thing standing between the consumer and their right.** Here
+> it was: the portal presented no form, and email was refused without an identifier
+> the request did not require. Neither fact alone is remarkable; together they
+> close the door.
+
+**Say that plainly, and separate it from the argument.** The fault report lands
+better when it is explicitly not leverage — *"I would have reported it regardless,
+and I would rather it were fixed for everyone who reaches it than get an exception
+for myself."* Then offer more than one way out, so fixing the embed is not the only
+path to closing the request.
+
+### Three form-failure modes, all identical on screen
+
+This is the third distinct one in a single day, and they need different responses:
+
+| mode | what happens | what to do |
+|---|---|---|
+| **gated** (§59) | request made, silently **rejected** — hidden empty `captcha*` | hand off to a human; it may work for them |
+| **decorative** (§62) | **no request at all** — no `<form>`, button has no handler | do not hand off; it works for nobody |
+| **absent** (§63) | form **never renders** — empty embed frame | report as a fault; ask for a second route |
+
+The diagnostic order is cheap: count inputs on the page and in any frame, look for
+a `<form>` element, check the submit control's `type` and handlers, then look for
+an empty hidden token field. Four checks, and they separate "try again as a human"
+from "stop and write to them instead".
