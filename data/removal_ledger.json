@@ -2305,7 +2305,7 @@
     "via": "email"
   },
   "staircase": {
-    "status": "submitted",
+    "status": "unreachable",
     "changed": "2026-08-20",
     "via": "email"
   },
@@ -2455,9 +2455,9 @@
     "via": "web"
   },
   "unearth_campaigns": {
-    "status": "submitted",
+    "status": "manual_required",
     "changed": "2026-08-20",
-    "via": "email"
+    "via": "web"
   },
   "us_marketing_group": {
     "status": "submitted",
