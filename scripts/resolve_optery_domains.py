@@ -77,12 +77,28 @@ def candidates(slug: str) -> list[str]:
     return list(dict.fromkeys(out))
 
 
+def is_valid_domain(domain: str) -> bool:
+    """DNS labels max out at 63 bytes; joining a long legal entity name blows it.
+
+    "adstra-american-list-counsel" style slugs concatenate into labels over the
+    limit, and socket.getaddrinfo raises UnicodeEncodeError from the idna codec
+    rather than returning a lookup failure. That is not a DNS answer, it is a
+    malformed question -- so reject it before asking.
+    """
+    if not domain or len(domain) > 253:
+        return False
+    labels = domain.split(".")
+    return len(labels) >= 2 and all(0 < len(l) <= 63 for l in labels)
+
+
 def resolves(domain: str) -> str | None:
     """Return 'A' or 'MX' if the domain exists at all, else None."""
+    if not is_valid_domain(domain):
+        return None
     try:
         socket.getaddrinfo(domain, None)
         return "A"
-    except OSError:
+    except (OSError, UnicodeError):
         pass
     # No A record is not the same as no domain -- a mail-only domain still exists.
     try:
@@ -187,8 +203,16 @@ async def main() -> int:
     sem = asyncio.Semaphore(12)
     async with httpx.AsyncClient() as client:
         async def one(b):
+            # A single malformed slug must not abort 363 lookups. The first full
+            # run died on an idna error two thirds of the way through and lost
+            # every result, because gather() propagates the first exception.
             async with sem:
-                return await check(client, b["optery_slug"])
+                try:
+                    return await check(client, b["optery_slug"])
+                except Exception as e:
+                    return {"slug": b["optery_slug"], "domain": None,
+                            "verdict": "ERROR",
+                            "detail": f"{type(e).__name__}: {e}"[:200]}
         results = await asyncio.gather(*(one(b) for b in todo))
 
     prev = json.loads(OUT.read_text()) if OUT.exists() else {}

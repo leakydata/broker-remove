@@ -1,0 +1,2174 @@
+{
+  "1called-com": {
+    "detail": "A record exists; fetch failed (ReadTimeout); slug names this domain explicitly",
+    "domain": "1called.com",
+    "slug": "1called-com",
+    "verdict": "CONFIRMED_BY_SLUG"
+  },
+  "1who-net": {
+    "detail": "none of ['1who.net'] resolve",
+    "domain": null,
+    "slug": "1who-net",
+    "verdict": "NO_DOMAIN"
+  },
+  "411reverselookup-ca": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "411reverselookup.ca",
+    "slug": "411reverselookup-ca",
+    "verdict": "CONFIRMED"
+  },
+  "6sense-insights-inc": {
+    "detail": "A record exists; fetch failed (ConnectError); unverified",
+    "domain": "6senseinsights.com",
+    "slug": "6sense-insights-inc",
+    "verdict": "RESOLVES_NO_FETCH"
+  },
+  "adapt-io": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "adapt.io",
+    "slug": "adapt-io",
+    "verdict": "CONFIRMED"
+  },
+  "address-scoop": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "addressscoop.com",
+    "slug": "address-scoop",
+    "verdict": "CONFIRMED"
+  },
+  "addrhistory": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "addrhistory.com",
+    "slug": "addrhistory",
+    "verdict": "CONFIRMED"
+  },
+  "adstra-american-list-counsel": {
+    "detail": "none of ['adstraamericanlistcounsel.com', 'adstra-american-list-counsel.com'] resolve",
+    "domain": null,
+    "slug": "adstra-american-list-counsel",
+    "verdict": "NO_DOMAIN"
+  },
+  "aeroleads": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "aeroleads.com",
+    "slug": "aeroleads",
+    "verdict": "CONFIRMED"
+  },
+  "affluense-ai": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "affluense.ai",
+    "slug": "affluense-ai",
+    "verdict": "CONFIRMED"
+  },
+  "aged-solar-leads-llc": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "agedsolarleads.com",
+    "slug": "aged-solar-leads-llc",
+    "verdict": "CONFIRMED"
+  },
+  "alignable-inc": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "alignable.com",
+    "slug": "alignable-inc",
+    "verdict": "CONFIRMED"
+  },
+  "allant-group-llc": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "allantgroup.com",
+    "slug": "allant-group-llc",
+    "verdict": "CONFIRMED"
+  },
+  "allhighschools-com": {
+    "detail": "HTTP 403 (often a bot block); slug names this domain explicitly",
+    "domain": "allhighschools.com",
+    "slug": "allhighschools-com",
+    "verdict": "CONFIRMED_BY_SLUG"
+  },
+  "allpeople-biz": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "allpeople.biz",
+    "slug": "allpeople-biz",
+    "verdict": "CONFIRMED"
+  },
+  "altrata-inc": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "altrata.com",
+    "slug": "altrata-inc",
+    "verdict": "CONFIRMED"
+  },
+  "alumni-us-2": {
+    "detail": "page does not mention the slug's words - parked, squatted, or a different business",
+    "domain": "alumni.us",
+    "slug": "alumni-us-2",
+    "verdict": "RESOLVES_WRONG_SITE"
+  },
+  "amedisys-inc": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "amedisys.com",
+    "slug": "amedisys-inc",
+    "verdict": "CONFIRMED"
+  },
+  "amf-internet-services-limited": {
+    "detail": "none of ['amfinternetserviceslimited.com', 'amf-internet-services-limited.com', 'amfinternetservices.com', 'amf-internet-services.com'] resolve",
+    "domain": null,
+    "slug": "amf-internet-services-limited",
+    "verdict": "NO_DOMAIN"
+  },
+  "amfibi": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "amfibi.com",
+    "slug": "amfibi",
+    "verdict": "CONFIRMED"
+  },
+  "amone": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "amone.com",
+    "slug": "amone",
+    "verdict": "CONFIRMED"
+  },
+  "ancestry-com-uk-limited": {
+    "detail": "none of ['ancestrycomuklimited.com', 'ancestry-com-uk-limited.com', 'ancestrycomuk.com', 'ancestry-com-uk.com'] resolve",
+    "domain": null,
+    "slug": "ancestry-com-uk-limited",
+    "verdict": "NO_DOMAIN"
+  },
+  "answerlady": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "answerlady.com",
+    "slug": "answerlady",
+    "verdict": "CONFIRMED"
+  },
+  "apartments-com": {
+    "detail": "HTTP 403 (often a bot block); slug names this domain explicitly",
+    "domain": "apartments.com",
+    "slug": "apartments-com",
+    "verdict": "CONFIRMED_BY_SLUG"
+  },
+  "arizona-corporation-commission": {
+    "detail": "A record exists; fetch failed (ConnectError); unverified",
+    "domain": "arizonacorporationcommission.com",
+    "slug": "arizona-corporation-commission",
+    "verdict": "RESOLVES_NO_FETCH"
+  },
+  "arrests-org": {
+    "detail": "HTTP 403 (often a bot block); slug names this domain explicitly",
+    "domain": "arrests.org",
+    "slug": "arrests-org",
+    "verdict": "CONFIRMED_BY_SLUG"
+  },
+  "ausibiz-2": {
+    "detail": "HTTP 403 (often a bot block); unverified",
+    "domain": "ausibiz.com",
+    "slug": "ausibiz-2",
+    "verdict": "RESOLVES_HTTP_ERROR"
+  },
+  "b2bhint": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "b2bhint.com",
+    "slug": "b2bhint",
+    "verdict": "CONFIRMED"
+  },
+  "background-alert-inc": {
+    "detail": "MX record exists; fetch failed (ConnectError); unverified",
+    "domain": "backgroundalert.com",
+    "slug": "background-alert-inc",
+    "verdict": "RESOLVES_NO_FETCH"
+  },
+  "background-checks-org": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "backgroundchecks.org",
+    "slug": "background-checks-org",
+    "verdict": "CONFIRMED"
+  },
+  "backgroundcheckme-org": {
+    "detail": "HTTP 403 (often a bot block); slug names this domain explicitly",
+    "domain": "backgroundcheckme.org",
+    "slug": "backgroundcheckme-org",
+    "verdict": "CONFIRMED_BY_SLUG"
+  },
+  "backgroundchecks-me": {
+    "detail": "page does not mention the slug's words - parked, squatted, or a different business",
+    "domain": "backgroundchecks.me",
+    "slug": "backgroundchecks-me",
+    "verdict": "RESOLVES_WRONG_SITE"
+  },
+  "bay-collective-ip-llc": {
+    "detail": "none of ['baycollectiveipllc.com', 'bay-collective-ip-llc.com', 'baycollectiveip.com', 'bay-collective-ip.com'] resolve",
+    "domain": null,
+    "slug": "bay-collective-ip-llc",
+    "verdict": "NO_DOMAIN"
+  },
+  "besthistorysites-net": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "besthistorysites.net",
+    "slug": "besthistorysites-net",
+    "verdict": "CONFIRMED"
+  },
+  "big-bend-transit-inc": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "bigbendtransit.com",
+    "slug": "big-bend-transit-inc",
+    "verdict": "CONFIRMED"
+  },
+  "bizireland": {
+    "detail": "HTTP 403 (often a bot block); unverified",
+    "domain": "bizireland.com",
+    "slug": "bizireland",
+    "verdict": "RESOLVES_HTTP_ERROR"
+  },
+  "bluaziende": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "bluaziende.com",
+    "slug": "bluaziende",
+    "verdict": "CONFIRMED"
+  },
+  "brady-list": {
+    "detail": "page does not mention the slug's words - parked, squatted, or a different business",
+    "domain": "bradylist.com",
+    "slug": "brady-list",
+    "verdict": "RESOLVES_WRONG_SITE"
+  },
+  "business-cheshire": {
+    "detail": "page does not mention the slug's words - parked, squatted, or a different business",
+    "domain": "businesscheshire.com",
+    "slug": "business-cheshire",
+    "verdict": "RESOLVES_WRONG_SITE"
+  },
+  "buyersroad-inc": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "buyersroad.co",
+    "slug": "buyersroad-inc",
+    "verdict": "CONFIRMED"
+  },
+  "buzzfile-media-llc": {
+    "detail": "none of ['buzzfilemediallc.com', 'buzzfile-media-llc.com', 'buzzfilemedia.com', 'buzzfile-media.com'] resolve",
+    "domain": null,
+    "slug": "buzzfile-media-llc",
+    "verdict": "NO_DOMAIN"
+  },
+  "california-business-database": {
+    "detail": "none of ['californiabusinessdatabase.com', 'california-business-database.com'] resolve",
+    "domain": null,
+    "slug": "california-business-database",
+    "verdict": "NO_DOMAIN"
+  },
+  "callapp-software-ltd": {
+    "detail": "none of ['callappsoftwareltd.com', 'callapp-software-ltd.com', 'callappsoftware.com', 'callapp-software.com'] resolve",
+    "domain": null,
+    "slug": "callapp-software-ltd",
+    "verdict": "NO_DOMAIN"
+  },
+  "caller-name": {
+    "detail": "none of ['caller.name'] resolve",
+    "domain": null,
+    "slug": "caller-name",
+    "verdict": "NO_DOMAIN"
+  },
+  "callercenter-com-2": {
+    "detail": "HTTP 403 (often a bot block); unverified",
+    "domain": "callercenter.com",
+    "slug": "callercenter-com-2",
+    "verdict": "RESOLVES_HTTP_ERROR"
+  },
+  "calleridtest": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "calleridtest.com",
+    "slug": "calleridtest",
+    "verdict": "CONFIRMED"
+  },
+  "canada-company-registry": {
+    "detail": "HTTP 403 (often a bot block); unverified",
+    "domain": "canadacompanyregistry.com",
+    "slug": "canada-company-registry",
+    "verdict": "RESOLVES_HTTP_ERROR"
+  },
+  "cause-iq": {
+    "detail": "HTTP 403 (often a bot block); unverified",
+    "domain": "causeiq.com",
+    "slug": "cause-iq",
+    "verdict": "RESOLVES_HTTP_ERROR"
+  },
+  "cb-insights-inc": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "cbinsights.com",
+    "slug": "cb-insights-inc",
+    "verdict": "CONFIRMED"
+  },
+  "census-info-us": {
+    "detail": "A record exists; fetch failed (ConnectError); unverified",
+    "domain": "census-info.us",
+    "slug": "census-info-us",
+    "verdict": "RESOLVES_NO_FETCH"
+  },
+  "chamberofcommerce-com": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "chamberofcommerce.com",
+    "slug": "chamberofcommerce-com",
+    "verdict": "CONFIRMED"
+  },
+  "cience-technologies-inc": {
+    "detail": "none of ['ciencetechnologiesinc.com', 'cience-technologies-inc.com', 'ciencetechnologies.com', 'cience-technologies.com'] resolve",
+    "domain": null,
+    "slug": "cience-technologies-inc",
+    "verdict": "NO_DOMAIN"
+  },
+  "cityzor-2": {
+    "detail": "page does not mention the slug's words - parked, squatted, or a different business",
+    "domain": "cityzor.com",
+    "slug": "cityzor-2",
+    "verdict": "RESOLVES_WRONG_SITE"
+  },
+  "clay": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "clay.com",
+    "slug": "clay",
+    "verdict": "CONFIRMED"
+  },
+  "clearout-io": {
+    "detail": "page does not mention the slug's words - parked, squatted, or a different business",
+    "domain": "clearout.io",
+    "slug": "clearout-io",
+    "verdict": "RESOLVES_WRONG_SITE"
+  },
+  "click-search-llc": {
+    "detail": "none of ['clicksearchllc.com', 'click-search-llc.com', 'clicksearch.com', 'click-search.com'] resolve",
+    "domain": null,
+    "slug": "click-search-llc",
+    "verdict": "NO_DOMAIN"
+  },
+  "clodura-ai": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "clodura.ai",
+    "slug": "clodura-ai",
+    "verdict": "CONFIRMED"
+  },
+  "closely-2": {
+    "detail": "A record exists; fetch failed (ConnectError); unverified",
+    "domain": "closely.io",
+    "slug": "closely-2",
+    "verdict": "RESOLVES_NO_FETCH"
+  },
+  "commercial-list": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "commerciallist.com",
+    "slug": "commercial-list",
+    "verdict": "CONFIRMED"
+  },
+  "commercial-real-estate-exchange-inc": {
+    "detail": "page does not mention the slug's words - parked, squatted, or a different business",
+    "domain": "commercialrealestateexchange.com",
+    "slug": "commercial-real-estate-exchange-inc",
+    "verdict": "RESOLVES_WRONG_SITE"
+  },
+  "company-check-ltd": {
+    "detail": "A record exists; fetch failed (ConnectError); unverified",
+    "domain": "companycheck.com",
+    "slug": "company-check-ltd",
+    "verdict": "RESOLVES_NO_FETCH"
+  },
+  "completed-com": {
+    "detail": "page does not mention the slug's words - parked, squatted, or a different business",
+    "domain": "completed.com",
+    "slug": "completed-com",
+    "verdict": "RESOLVES_WRONG_SITE"
+  },
+  "comscore": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "comscore.com",
+    "slug": "comscore",
+    "verdict": "CONFIRMED"
+  },
+  "contactout": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "contactout.com",
+    "slug": "contactout",
+    "verdict": "CONFIRMED"
+  },
+  "cortera-inc": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "cortera.io",
+    "slug": "cortera-inc",
+    "verdict": "CONFIRMED"
+  },
+  "courtrec-com": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "courtrec.com",
+    "slug": "courtrec-com",
+    "verdict": "CONFIRMED"
+  },
+  "courtrecordfinder-com": {
+    "detail": "page does not mention the slug's words - parked, squatted, or a different business",
+    "domain": "courtrecordfinder.com",
+    "slug": "courtrecordfinder-com",
+    "verdict": "RESOLVES_WRONG_SITE"
+  },
+  "cpadirectory-com-inc": {
+    "detail": "none of ['cpadirectorycominc.com', 'cpadirectory-com-inc.com', 'cpadirectorycom.com', 'cpadirectory-com.com'] resolve",
+    "domain": null,
+    "slug": "cpadirectory-com-inc",
+    "verdict": "NO_DOMAIN"
+  },
+  "crime-informer": {
+    "detail": "HTTP 404 (often a bot block); unverified",
+    "domain": "crimeinformer.com",
+    "slug": "crime-informer",
+    "verdict": "RESOLVES_HTTP_ERROR"
+  },
+  "criminalpages-com": {
+    "detail": "A record exists; fetch failed (ConnectError); slug names this domain explicitly",
+    "domain": "criminalpages.com",
+    "slug": "criminalpages-com",
+    "verdict": "CONFIRMED_BY_SLUG"
+  },
+  "criminalregistry-org": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "criminalregistry.org",
+    "slug": "criminalregistry-org",
+    "verdict": "CONFIRMED"
+  },
+  "ct-company-directory": {
+    "detail": "none of ['ctcompanydirectory.com', 'ct-company-directory.com'] resolve",
+    "domain": null,
+    "slug": "ct-company-directory",
+    "verdict": "NO_DOMAIN"
+  },
+  "cuit-online": {
+    "detail": "none of ['cuit.online'] resolve",
+    "domain": null,
+    "slug": "cuit-online",
+    "verdict": "NO_DOMAIN"
+  },
+  "cybba": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "cybba.com",
+    "slug": "cybba",
+    "verdict": "CONFIRMED"
+  },
+  "dark-reading": {
+    "detail": "HTTP 403 (often a bot block); unverified",
+    "domain": "darkreading.com",
+    "slug": "dark-reading",
+    "verdict": "RESOLVES_HTTP_ERROR"
+  },
+  "datagma": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "datagma.com",
+    "slug": "datagma",
+    "verdict": "CONFIRMED"
+  },
+  "datalead": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "datalead.io",
+    "slug": "datalead",
+    "verdict": "CONFIRMED"
+  },
+  "datanyze": {
+    "detail": "HTTP 403 (often a bot block); unverified",
+    "domain": "datanyze.com",
+    "slug": "datanyze",
+    "verdict": "RESOLVES_HTTP_ERROR"
+  },
+  "dateas": {
+    "detail": "HTTP 403 (often a bot block); unverified",
+    "domain": "dateas.com",
+    "slug": "dateas",
+    "verdict": "RESOLVES_HTTP_ERROR"
+  },
+  "dato-capital": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "datocapital.com",
+    "slug": "dato-capital",
+    "verdict": "CONFIRMED"
+  },
+  "dealersocket": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "dealersocket.com",
+    "slug": "dealersocket",
+    "verdict": "CONFIRMED"
+  },
+  "deepdy-ltd": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "deepdy.com",
+    "slug": "deepdy-ltd",
+    "verdict": "CONFIRMED"
+  },
+  "docplayer-inc": {
+    "detail": "MX record exists; fetch failed (ConnectError); unverified",
+    "domain": "docplayer.com",
+    "slug": "docplayer-inc",
+    "verdict": "RESOLVES_NO_FETCH"
+  },
+  "doctorsatlas": {
+    "detail": "page does not mention the slug's words - parked, squatted, or a different business",
+    "domain": "doctorsatlas.com",
+    "slug": "doctorsatlas",
+    "verdict": "RESOLVES_WRONG_SITE"
+  },
+  "domaintools-llc": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "domaintools.com",
+    "slug": "domaintools-llc",
+    "verdict": "CONFIRMED"
+  },
+  "downing-lahey-mortuaries-crematory": {
+    "detail": "none of ['downinglaheymortuariescrematory.com', 'downing-lahey-mortuaries-crematory.com'] resolve",
+    "domain": null,
+    "slug": "downing-lahey-mortuaries-crematory",
+    "verdict": "NO_DOMAIN"
+  },
+  "drunk-drivers": {
+    "detail": "A record exists; fetch failed (ConnectError); unverified",
+    "domain": "drunkdrivers.com",
+    "slug": "drunk-drivers",
+    "verdict": "RESOLVES_NO_FETCH"
+  },
+  "dtm-deutsche-tele-medien-gmbh": {
+    "detail": "none of ['dtmdeutschetelemediengmbh.com', 'dtm-deutsche-tele-medien-gmbh.com', 'dtmdeutschetelemedien.com', 'dtm-deutsche-tele-medien.com'] resolve",
+    "domain": null,
+    "slug": "dtm-deutsche-tele-medien-gmbh",
+    "verdict": "NO_DOMAIN"
+  },
+  "edgein": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "edgein.io",
+    "slug": "edgein",
+    "verdict": "CONFIRMED"
+  },
+  "elocal-usa-llc": {
+    "detail": "page does not mention the slug's words - parked, squatted, or a different business",
+    "domain": "elocalusa.com",
+    "slug": "elocal-usa-llc",
+    "verdict": "RESOLVES_WRONG_SITE"
+  },
+  "eniro-ab": {
+    "detail": "none of ['eniroab.com', 'eniro-ab.com'] resolve",
+    "domain": null,
+    "slug": "eniro-ab",
+    "verdict": "NO_DOMAIN"
+  },
+  "enp-network": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "enpnetwork.com",
+    "slug": "enp-network",
+    "verdict": "CONFIRMED"
+  },
+  "epieos": {
+    "detail": "HTTP 403 (often a bot block); unverified",
+    "domain": "epieos.com",
+    "slug": "epieos",
+    "verdict": "RESOLVES_HTTP_ERROR"
+  },
+  "equilar-inc": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "equilar.com",
+    "slug": "equilar-inc",
+    "verdict": "CONFIRMED"
+  },
+  "everyday-health-inc": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "everydayhealthinc.com",
+    "slug": "everyday-health-inc",
+    "verdict": "CONFIRMED"
+  },
+  "exlservice-com": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "exlservice.com",
+    "slug": "exlservice-com",
+    "verdict": "CONFIRMED"
+  },
+  "explorium-inc": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "explorium.io",
+    "slug": "explorium-inc",
+    "verdict": "CONFIRMED"
+  },
+  "ezlocal-com-inc": {
+    "detail": "none of ['ezlocalcominc.com', 'ezlocal-com-inc.com', 'ezlocalcom.com', 'ezlocal-com.com'] resolve",
+    "domain": null,
+    "slug": "ezlocal-com-inc",
+    "verdict": "NO_DOMAIN"
+  },
+  "facecheck-id": {
+    "detail": "A record exists; fetch failed (ConnectError); unverified",
+    "domain": "facecheckid.com",
+    "slug": "facecheck-id",
+    "verdict": "RESOLVES_NO_FETCH"
+  },
+  "familysearch": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "familysearch.co",
+    "slug": "familysearch",
+    "verdict": "CONFIRMED"
+  },
+  "fandom-inc": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "fandominc.com",
+    "slug": "fandom-inc",
+    "verdict": "CONFIRMED"
+  },
+  "fastbase-inc": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "fastbase.com",
+    "slug": "fastbase-inc",
+    "verdict": "CONFIRMED"
+  },
+  "fetcher": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "fetcher.ai",
+    "slug": "fetcher",
+    "verdict": "CONFIRMED"
+  },
+  "fifty": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "fifty.io",
+    "slug": "fifty",
+    "verdict": "CONFIRMED"
+  },
+  "finalscout": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "finalscout.com",
+    "slug": "finalscout",
+    "verdict": "CONFIRMED"
+  },
+  "finalsite": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "finalsite.com",
+    "slug": "finalsite",
+    "verdict": "CONFIRMED"
+  },
+  "find-us-local": {
+    "detail": "A record exists; fetch failed (ConnectTimeout); unverified",
+    "domain": "finduslocal.com",
+    "slug": "find-us-local",
+    "verdict": "RESOLVES_NO_FETCH"
+  },
+  "findglocal-limited": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "findglocal.com",
+    "slug": "findglocal-limited",
+    "verdict": "CONFIRMED"
+  },
+  "findlaw": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "findlaw.com",
+    "slug": "findlaw",
+    "verdict": "CONFIRMED"
+  },
+  "findwhocallsyou": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "findwhocallsyou.com",
+    "slug": "findwhocallsyou",
+    "verdict": "CONFIRMED"
+  },
+  "finfind-ltd-t-a-pomanda": {
+    "detail": "none of ['finfindltdtapomanda.com', 'finfind-ltd-t-a-pomanda.com'] resolve",
+    "domain": null,
+    "slug": "finfind-ltd-t-a-pomanda",
+    "verdict": "NO_DOMAIN"
+  },
+  "first-advantage-corporation": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "firstadvantage.com",
+    "slug": "first-advantage-corporation",
+    "verdict": "CONFIRMED"
+  },
+  "first-beat-media": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "firstbeatmedia.com",
+    "slug": "first-beat-media",
+    "verdict": "CONFIRMED"
+  },
+  "flexera": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "flexera.com",
+    "slug": "flexera",
+    "verdict": "CONFIRMED"
+  },
+  "foller-me": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "foller.me",
+    "slug": "foller-me",
+    "verdict": "CONFIRMED"
+  },
+  "freepeoplesearch-com": {
+    "detail": "HTTP 403 (often a bot block); slug names this domain explicitly",
+    "domain": "freepeoplesearch.com",
+    "slug": "freepeoplesearch-com",
+    "verdict": "CONFIRMED_BY_SLUG"
+  },
+  "freepeoplesearch-io-2": {
+    "detail": "HTTP 403 (often a bot block); unverified",
+    "domain": "freepeoplesearch.io",
+    "slug": "freepeoplesearch-io-2",
+    "verdict": "RESOLVES_HTTP_ERROR"
+  },
+  "fullcontact": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "fullcontact.com",
+    "slug": "fullcontact",
+    "verdict": "CONFIRMED"
+  },
+  "fullenrich": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "fullenrich.com",
+    "slug": "fullenrich",
+    "verdict": "CONFIRMED"
+  },
+  "furyforums-com": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "furyforums.com",
+    "slug": "furyforums-com",
+    "verdict": "CONFIRMED"
+  },
+  "geekadelphia": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "geekadelphia.com",
+    "slug": "geekadelphia",
+    "verdict": "CONFIRMED"
+  },
+  "genealogic-review": {
+    "detail": "none of ['genealogicreview.com', 'genealogic-review.com'] resolve",
+    "domain": null,
+    "slug": "genealogic-review",
+    "verdict": "NO_DOMAIN"
+  },
+  "genius-media-group-inc": {
+    "detail": "A record exists; fetch failed (ConnectTimeout); unverified",
+    "domain": "genius-media.com",
+    "slug": "genius-media-group-inc",
+    "verdict": "RESOLVES_NO_FETCH"
+  },
+  "georgia-company-registry": {
+    "detail": "HTTP 403 (often a bot block); unverified",
+    "domain": "georgiacompanyregistry.com",
+    "slug": "georgia-company-registry",
+    "verdict": "RESOLVES_HTTP_ERROR"
+  },
+  "getemail-io-2": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "getemail.io",
+    "slug": "getemail-io-2",
+    "verdict": "CONFIRMED"
+  },
+  "getprospect-llc": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "getprospect.com",
+    "slug": "getprospect-llc",
+    "verdict": "CONFIRMED"
+  },
+  "github-inc": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "github.com",
+    "slug": "github-inc",
+    "verdict": "CONFIRMED"
+  },
+  "golden-recursion-inc": {
+    "detail": "none of ['goldenrecursioninc.com', 'golden-recursion-inc.com', 'goldenrecursion.com', 'golden-recursion.com'] resolve",
+    "domain": null,
+    "slug": "golden-recursion-inc",
+    "verdict": "NO_DOMAIN"
+  },
+  "govqa": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "govqa.com",
+    "slug": "govqa",
+    "verdict": "CONFIRMED"
+  },
+  "govtribe-inc": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "govtribe.com",
+    "slug": "govtribe-inc",
+    "verdict": "CONFIRMED"
+  },
+  "granicus-llc": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "granicus.co",
+    "slug": "granicus-llc",
+    "verdict": "CONFIRMED"
+  },
+  "growjo": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "growjo.com",
+    "slug": "growjo",
+    "verdict": "CONFIRMED"
+  },
+  "h1bdata-info": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "h1bdata.info",
+    "slug": "h1bdata-info",
+    "verdict": "CONFIRMED"
+  },
+  "healthline-media": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "healthlinemedia.com",
+    "slug": "healthline-media",
+    "verdict": "CONFIRMED"
+  },
+  "hearst-communications-inc": {
+    "detail": "none of ['hearstcommunicationsinc.com', 'hearst-communications-inc.com', 'hearstcommunications.com', 'hearst-communications.com'] resolve",
+    "domain": null,
+    "slug": "hearst-communications-inc",
+    "verdict": "NO_DOMAIN"
+  },
+  "hiremyfriend-io": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "hiremyfriend.io",
+    "slug": "hiremyfriend-io",
+    "verdict": "CONFIRMED"
+  },
+  "hireright-llc": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "hireright.io",
+    "slug": "hireright-llc",
+    "verdict": "CONFIRMED"
+  },
+  "hitta-se": {
+    "detail": "none of ['hittase.com', 'hitta-se.com'] resolve",
+    "domain": null,
+    "slug": "hitta-se",
+    "verdict": "NO_DOMAIN"
+  },
+  "home-media-llc": {
+    "detail": "A record exists; fetch failed (ConnectTimeout); unverified",
+    "domain": "homemedia.com",
+    "slug": "home-media-llc",
+    "verdict": "RESOLVES_NO_FETCH"
+  },
+  "homes-com": {
+    "detail": "A record exists; fetch failed (ConnectTimeout); slug names this domain explicitly",
+    "domain": "homes.com",
+    "slug": "homes-com",
+    "verdict": "CONFIRMED_BY_SLUG"
+  },
+  "homeyou-inc": {
+    "detail": "A record exists; fetch failed (ConnectTimeout); unverified",
+    "domain": "homeyou.com",
+    "slug": "homeyou-inc",
+    "verdict": "RESOLVES_NO_FETCH"
+  },
+  "houston-association-of-realtors": {
+    "detail": "none of ['houstonassociationofrealtors.com', 'houston-association-of-realtors.com'] resolve",
+    "domain": null,
+    "slug": "houston-association-of-realtors",
+    "verdict": "NO_DOMAIN"
+  },
+  "hunter-2": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "hunter.io",
+    "slug": "hunter-2",
+    "verdict": "CONFIRMED"
+  },
+  "hunter-web-services-inc": {
+    "detail": "none of ['hunterwebservicesinc.com', 'hunter-web-services-inc.com', 'hunterwebservices.com', 'hunter-web-services.com'] resolve",
+    "domain": null,
+    "slug": "hunter-web-services-inc",
+    "verdict": "NO_DOMAIN"
+  },
+  "huntmails": {
+    "detail": "A record exists; fetch failed (ConnectError); unverified",
+    "domain": "huntmails.com",
+    "slug": "huntmails",
+    "verdict": "RESOLVES_NO_FETCH"
+  },
+  "ibegin": {
+    "detail": "A record exists; fetch failed (ConnectTimeout); unverified",
+    "domain": "ibegin.com",
+    "slug": "ibegin",
+    "verdict": "RESOLVES_NO_FETCH"
+  },
+  "identiq": {
+    "detail": "A record exists; fetch failed (ConnectTimeout); unverified",
+    "domain": "identiq.com",
+    "slug": "identiq",
+    "verdict": "RESOLVES_NO_FETCH"
+  },
+  "idnotify": {
+    "detail": "A record exists; fetch failed (ConnectTimeout); unverified",
+    "domain": "idnotify.com",
+    "slug": "idnotify",
+    "verdict": "RESOLVES_NO_FETCH"
+  },
+  "iheartmedia-inc": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "iheartmedia.com",
+    "slug": "iheartmedia-inc",
+    "verdict": "CONFIRMED"
+  },
+  "illinois-prison-talk": {
+    "detail": "HTTP 403 (often a bot block); unverified",
+    "domain": "illinoisprisontalk.com",
+    "slug": "illinois-prison-talk",
+    "verdict": "RESOLVES_HTTP_ERROR"
+  },
+  "image-maps-com": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "image-maps.com",
+    "slug": "image-maps-com",
+    "verdict": "CONFIRMED"
+  },
+  "infobel-s-a": {
+    "detail": "none of ['infobelsa.com', 'infobel-s-a.com'] resolve",
+    "domain": null,
+    "slug": "infobel-s-a",
+    "verdict": "NO_DOMAIN"
+  },
+  "intentmacro": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "intentmacro.com",
+    "slug": "intentmacro",
+    "verdict": "CONFIRMED"
+  },
+  "ipqualityscore-llc": {
+    "detail": "A record exists; fetch failed (ConnectTimeout); unverified",
+    "domain": "ipqualityscore.io",
+    "slug": "ipqualityscore-llc",
+    "verdict": "RESOLVES_NO_FETCH"
+  },
+  "jailbase": {
+    "detail": "HTTP 404 (often a bot block); unverified",
+    "domain": "jailbase.com",
+    "slug": "jailbase",
+    "verdict": "RESOLVES_HTTP_ERROR"
+  },
+  "jhonata-menezes-dos-santos-desenvolvimento": {
+    "detail": "none of ['jhonatamenezesdossantosdesenvolvimento.com', 'jhonata-menezes-dos-santos-desenvolvimento.com'] resolve",
+    "domain": null,
+    "slug": "jhonata-menezes-dos-santos-desenvolvimento",
+    "verdict": "NO_DOMAIN"
+  },
+  "joblookup-ltd": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "joblookup.com",
+    "slug": "joblookup-ltd",
+    "verdict": "CONFIRMED"
+  },
+  "kendo": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "kendo.com",
+    "slug": "kendo",
+    "verdict": "CONFIRMED"
+  },
+  "knsee-com": {
+    "detail": "A record exists; fetch failed (ReadTimeout); slug names this domain explicitly",
+    "domain": "knsee.com",
+    "slug": "knsee-com",
+    "verdict": "CONFIRMED_BY_SLUG"
+  },
+  "kona-equity": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "konaequity.com",
+    "slug": "kona-equity",
+    "verdict": "CONFIRMED"
+  },
+  "la-county-arrest-records": {
+    "detail": "none of ['lacountyarrestrecords.com', 'la-county-arrest-records.com'] resolve",
+    "domain": null,
+    "slug": "la-county-arrest-records",
+    "verdict": "NO_DOMAIN"
+  },
+  "ladders-inc": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "laddersinc.com",
+    "slug": "ladders-inc",
+    "verdict": "CONFIRMED"
+  },
+  "lawlink": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "lawlink.com",
+    "slug": "lawlink",
+    "verdict": "CONFIRMED"
+  },
+  "lawyers-com": {
+    "detail": "HTTP 403 (often a bot block); slug names this domain explicitly",
+    "domain": "lawyers.com",
+    "slug": "lawyers-com",
+    "verdict": "CONFIRMED_BY_SLUG"
+  },
+  "leadar-2": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "leadar.io",
+    "slug": "leadar-2",
+    "verdict": "CONFIRMED"
+  },
+  "leadsive": {
+    "detail": "A record exists; fetch failed (ConnectError); unverified",
+    "domain": "leadsive.com",
+    "slug": "leadsive",
+    "verdict": "RESOLVES_NO_FETCH"
+  },
+  "lenso-ai-spolka-akcyjna": {
+    "detail": "none of ['lensoaispolkaakcyjna.com', 'lenso-ai-spolka-akcyjna.com'] resolve",
+    "domain": null,
+    "slug": "lenso-ai-spolka-akcyjna",
+    "verdict": "NO_DOMAIN"
+  },
+  "lis-cross-national-data-center-in-luxembourg": {
+    "detail": "none of ['liscrossnationaldatacenterinluxembourg.com', 'lis-cross-national-data-center-in-luxembourg.com'] resolve",
+    "domain": null,
+    "slug": "lis-cross-national-data-center-in-luxembourg",
+    "verdict": "NO_DOMAIN"
+  },
+  "listmatch": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "listmatch.com",
+    "slug": "listmatch",
+    "verdict": "CONFIRMED"
+  },
+  "local-pages": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "localpages.com",
+    "slug": "local-pages",
+    "verdict": "CONFIRMED"
+  },
+  "localchiros-com": {
+    "detail": "page does not mention the slug's words - parked, squatted, or a different business",
+    "domain": "localchiros.com",
+    "slug": "localchiros-com",
+    "verdict": "RESOLVES_WRONG_SITE"
+  },
+  "locate-friend": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "locate-friend.com",
+    "slug": "locate-friend",
+    "verdict": "CONFIRMED"
+  },
+  "locatefamily-com": {
+    "detail": "page does not mention the slug's words - parked, squatted, or a different business",
+    "domain": "locatefamily.com",
+    "slug": "locatefamily-com",
+    "verdict": "RESOLVES_WRONG_SITE"
+  },
+  "locatepeople-org": {
+    "detail": "MX record exists; fetch failed (ConnectError); slug names this domain explicitly",
+    "domain": "locatepeople.org",
+    "slug": "locatepeople-org",
+    "verdict": "CONFIRMED_BY_SLUG"
+  },
+  "lookify": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "lookify.com",
+    "slug": "lookify",
+    "verdict": "CONFIRMED"
+  },
+  "mansionquest-com": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "mansionquest.com",
+    "slug": "mansionquest-com",
+    "verdict": "CONFIRMED"
+  },
+  "mapquest-inc": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "mapquest.com",
+    "slug": "mapquest-inc",
+    "verdict": "CONFIRMED"
+  },
+  "marrieddivorce": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "marrieddivorce.com",
+    "slug": "marrieddivorce",
+    "verdict": "CONFIRMED"
+  },
+  "massachusetts-people-records": {
+    "detail": "none of ['massachusettspeoplerecords.com', 'massachusetts-people-records.com'] resolve",
+    "domain": null,
+    "slug": "massachusetts-people-records",
+    "verdict": "NO_DOMAIN"
+  },
+  "medifind": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "medifind.com",
+    "slug": "medifind",
+    "verdict": "CONFIRMED"
+  },
+  "merchantcircle": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "merchantcircle.com",
+    "slug": "merchantcircle",
+    "verdict": "CONFIRMED"
+  },
+  "mississippi-people-records": {
+    "detail": "none of ['mississippipeoplerecords.com', 'mississippi-people-records.com'] resolve",
+    "domain": null,
+    "slug": "mississippi-people-records",
+    "verdict": "NO_DOMAIN"
+  },
+  "misterwhat": {
+    "detail": "A record exists; fetch failed (ConnectTimeout); unverified",
+    "domain": "misterwhat.net",
+    "slug": "misterwhat",
+    "verdict": "RESOLVES_NO_FETCH"
+  },
+  "modern-hire": {
+    "detail": "HTTP 404 (often a bot block); unverified",
+    "domain": "modern-hire.com",
+    "slug": "modern-hire",
+    "verdict": "RESOLVES_HTTP_ERROR"
+  },
+  "morningstar-2": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "morningstar.com",
+    "slug": "morningstar-2",
+    "verdict": "CONFIRMED"
+  },
+  "movoto-inc": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "movoto.com",
+    "slug": "movoto-inc",
+    "verdict": "CONFIRMED"
+  },
+  "muck-rack-2": {
+    "detail": "HTTP 403 (often a bot block); unverified",
+    "domain": "muckrack.com",
+    "slug": "muck-rack-2",
+    "verdict": "RESOLVES_HTTP_ERROR"
+  },
+  "muraena": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "muraena.ai",
+    "slug": "muraena",
+    "verdict": "CONFIRMED"
+  },
+  "my-funny-profile": {
+    "detail": "HTTP 521 (often a bot block); unverified",
+    "domain": "myfunnyprofile.com",
+    "slug": "my-funny-profile",
+    "verdict": "RESOLVES_HTTP_ERROR"
+  },
+  "mycentraljersey-com": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "mycentraljersey.com",
+    "slug": "mycentraljersey-com",
+    "verdict": "CONFIRMED"
+  },
+  "names-and-facts": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "namesandfacts.com",
+    "slug": "names-and-facts",
+    "verdict": "CONFIRMED"
+  },
+  "native-american-netroots-2": {
+    "detail": "none of ['nativeamericannetroots.com', 'native-american-netroots.com'] resolve",
+    "domain": null,
+    "slug": "native-american-netroots-2",
+    "verdict": "NO_DOMAIN"
+  },
+  "ncprofiles-com": {
+    "detail": "none of ['ncprofiles.com'] resolve",
+    "domain": null,
+    "slug": "ncprofiles-com",
+    "verdict": "NO_DOMAIN"
+  },
+  "nestfully-llc": {
+    "detail": "HTTP 403 (often a bot block); unverified",
+    "domain": "nestfully.com",
+    "slug": "nestfully-llc",
+    "verdict": "RESOLVES_HTTP_ERROR"
+  },
+  "new-work-se": {
+    "detail": "A record exists; fetch failed (ConnectTimeout); unverified",
+    "domain": "newworkse.com",
+    "slug": "new-work-se",
+    "verdict": "RESOLVES_NO_FETCH"
+  },
+  "newcon": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "newcon.com",
+    "slug": "newcon",
+    "verdict": "CONFIRMED"
+  },
+  "newyorkpublicrecords-org": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "newyorkpublicrecords.org",
+    "slug": "newyorkpublicrecords-org",
+    "verdict": "CONFIRMED"
+  },
+  "nocallername": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "nocallername.com",
+    "slug": "nocallername",
+    "verdict": "CONFIRMED"
+  },
+  "noon-ai": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "noon.ai",
+    "slug": "noon-ai",
+    "verdict": "CONFIRMED"
+  },
+  "north-dakota-people-records": {
+    "detail": "none of ['northdakotapeoplerecords.com', 'north-dakota-people-records.com'] resolve",
+    "domain": null,
+    "slug": "north-dakota-people-records",
+    "verdict": "NO_DOMAIN"
+  },
+  "north-data-gmbh": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "northdata.com",
+    "slug": "north-data-gmbh",
+    "verdict": "CONFIRMED"
+  },
+  "npir-org": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "npir.org",
+    "slug": "npir-org",
+    "verdict": "CONFIRMED"
+  },
+  "numbercom": {
+    "detail": "A record exists; fetch failed (ConnectError); unverified",
+    "domain": "numbercom.com",
+    "slug": "numbercom",
+    "verdict": "RESOLVES_NO_FETCH"
+  },
+  "numlooker": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "numlooker.com",
+    "slug": "numlooker",
+    "verdict": "CONFIRMED"
+  },
+  "oan": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "oan.ai",
+    "slug": "oan",
+    "verdict": "CONFIRMED"
+  },
+  "ohio-resident-directory": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "ohioresidentdirectory.com",
+    "slug": "ohio-resident-directory",
+    "verdict": "CONFIRMED"
+  },
+  "old-friends-co": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "old-friends.co",
+    "slug": "old-friends-co",
+    "verdict": "CONFIRMED"
+  },
+  "oldphonebook-com": {
+    "detail": "page does not mention the slug's words - parked, squatted, or a different business",
+    "domain": "oldphonebook.com",
+    "slug": "oldphonebook-com",
+    "verdict": "RESOLVES_WRONG_SITE"
+  },
+  "oms-small-medium-businesses-directory": {
+    "detail": "none of ['omssmallmediumbusinessesdirectory.com', 'oms-small-medium-businesses-directory.com'] resolve",
+    "domain": null,
+    "slug": "oms-small-medium-businesses-directory",
+    "verdict": "NO_DOMAIN"
+  },
+  "onetrust-llc": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "onetrust.com",
+    "slug": "onetrust-llc",
+    "verdict": "CONFIRMED"
+  },
+  "onlinesearches-com": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "onlinesearches.com",
+    "slug": "onlinesearches-com",
+    "verdict": "CONFIRMED"
+  },
+  "opencallerlistings-com": {
+    "detail": "HTTP 404 (often a bot block); slug names this domain explicitly",
+    "domain": "opencallerlistings.com",
+    "slug": "opencallerlistings-com",
+    "verdict": "CONFIRMED_BY_SLUG"
+  },
+  "opencorpdata": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "opencorpdata.com",
+    "slug": "opencorpdata",
+    "verdict": "CONFIRMED"
+  },
+  "opencorporates-ltd": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "opencorporates.com",
+    "slug": "opencorporates-ltd",
+    "verdict": "CONFIRMED"
+  },
+  "opendatausa-2": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "opendatausa.com",
+    "slug": "opendatausa-2",
+    "verdict": "CONFIRMED"
+  },
+  "opengov": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "opengov.com",
+    "slug": "opengov",
+    "verdict": "CONFIRMED"
+  },
+  "optimal-fusion": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "optimalfusion.com",
+    "slug": "optimal-fusion",
+    "verdict": "CONFIRMED"
+  },
+  "orbitly": {
+    "detail": "A record exists; fetch failed (ConnectTimeout); unverified",
+    "domain": "orbitly.com",
+    "slug": "orbitly",
+    "verdict": "RESOLVES_NO_FETCH"
+  },
+  "oregonpublicrecords-org": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "oregonpublicrecords.org",
+    "slug": "oregonpublicrecords-org",
+    "verdict": "CONFIRMED"
+  },
+  "orgio-inc": {
+    "detail": "HTTP 404 (often a bot block); unverified",
+    "domain": "orgio.com",
+    "slug": "orgio-inc",
+    "verdict": "RESOLVES_HTTP_ERROR"
+  },
+  "owler-inc": {
+    "detail": "A record exists; fetch failed (ConnectTimeout); unverified",
+    "domain": "owlerinc.com",
+    "slug": "owler-inc",
+    "verdict": "RESOLVES_NO_FETCH"
+  },
+  "oxford-university-press": {
+    "detail": "A record exists; fetch failed (ConnectTimeout); unverified",
+    "domain": "oxforduniversitypress.com",
+    "slug": "oxford-university-press",
+    "verdict": "RESOLVES_NO_FETCH"
+  },
+  "pages-jaunes-solutions-numeriques-et-medias-limitee": {
+    "detail": "none of ['pagesjaunessolutionsnumeriquesetmediaslimitee.com', 'pages-jaunes-solutions-numeriques-et-medias-limitee.com'] resolve",
+    "domain": null,
+    "slug": "pages-jaunes-solutions-numeriques-et-medias-limitee",
+    "verdict": "NO_DOMAIN"
+  },
+  "panjiva-inc": {
+    "detail": "A record exists; fetch failed (ConnectTimeout); unverified",
+    "domain": "panjiva.com",
+    "slug": "panjiva-inc",
+    "verdict": "RESOLVES_NO_FETCH"
+  },
+  "parcellookup-com": {
+    "detail": "none of ['parcellookup.com'] resolve",
+    "domain": null,
+    "slug": "parcellookup-com",
+    "verdict": "NO_DOMAIN"
+  },
+  "peeplookup-2": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "peeplookup.net",
+    "slug": "peeplookup-2",
+    "verdict": "CONFIRMED"
+  },
+  "peepslocator": {
+    "detail": "A record exists; fetch failed (ConnectError); unverified",
+    "domain": "peepslocator.com",
+    "slug": "peepslocator",
+    "verdict": "RESOLVES_NO_FETCH"
+  },
+  "people-ai-inc": {
+    "detail": "HTTP 500 (often a bot block); unverified",
+    "domain": "peopleai.com",
+    "slug": "people-ai-inc",
+    "verdict": "RESOLVES_HTTP_ERROR"
+  },
+  "people-search-expert": {
+    "detail": "HTTP 403 (often a bot block); unverified",
+    "domain": "peoplesearchexpert.com",
+    "slug": "people-search-expert",
+    "verdict": "RESOLVES_HTTP_ERROR"
+  },
+  "peopledatalabs": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "peopledatalabs.com",
+    "slug": "peopledatalabs",
+    "verdict": "CONFIRMED"
+  },
+  "peoplefastfind": {
+    "detail": "HTTP 403 (often a bot block); unverified",
+    "domain": "peoplefastfind.com",
+    "slug": "peoplefastfind",
+    "verdict": "RESOLVES_HTTP_ERROR"
+  },
+  "peoplefinder-info": {
+    "detail": "HTTP 403 (often a bot block); slug names this domain explicitly",
+    "domain": "peoplefinder.info",
+    "slug": "peoplefinder-info",
+    "verdict": "CONFIRMED_BY_SLUG"
+  },
+  "phonecheck-pro": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "phonecheck.pro",
+    "slug": "phonecheck-pro",
+    "verdict": "CONFIRMED"
+  },
+  "phonehistory-com": {
+    "detail": "HTTP 403 (often a bot block); slug names this domain explicitly",
+    "domain": "phonehistory.com",
+    "slug": "phonehistory-com",
+    "verdict": "CONFIRMED_BY_SLUG"
+  },
+  "phoneowner-inc": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "phoneowner.com",
+    "slug": "phoneowner-inc",
+    "verdict": "CONFIRMED"
+  },
+  "pininthemap-com": {
+    "detail": "page does not mention the slug's words - parked, squatted, or a different business",
+    "domain": "pininthemap.com",
+    "slug": "pininthemap-com",
+    "verdict": "RESOLVES_WRONG_SITE"
+  },
+  "plcom-net-2": {
+    "detail": "page does not mention the slug's words - parked, squatted, or a different business",
+    "domain": "plcom.net",
+    "slug": "plcom-net-2",
+    "verdict": "RESOLVES_WRONG_SITE"
+  },
+  "point-digital-finance-inc": {
+    "detail": "none of ['pointdigitalfinanceinc.com', 'point-digital-finance-inc.com', 'pointdigitalfinance.com', 'point-digital-finance.com'] resolve",
+    "domain": null,
+    "slug": "point-digital-finance-inc",
+    "verdict": "NO_DOMAIN"
+  },
+  "pole-to-pole-b-v": {
+    "detail": "none of ['poletopolebv.com', 'pole-to-pole-b-v.com'] resolve",
+    "domain": null,
+    "slug": "pole-to-pole-b-v",
+    "verdict": "NO_DOMAIN"
+  },
+  "poshmark-inc": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "poshmark.com",
+    "slug": "poshmark-inc",
+    "verdict": "CONFIRMED"
+  },
+  "ppl-data-com": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "ppl-data.com",
+    "slug": "ppl-data-com",
+    "verdict": "CONFIRMED"
+  },
+  "pplchecker": {
+    "detail": "A record exists; fetch failed (ConnectError); unverified",
+    "domain": "pplchecker.com",
+    "slug": "pplchecker",
+    "verdict": "RESOLVES_NO_FETCH"
+  },
+  "ppp-loan-info": {
+    "detail": "page does not mention the slug's words - parked, squatted, or a different business",
+    "domain": "ppp-loan.info",
+    "slug": "ppp-loan-info",
+    "verdict": "RESOLVES_WRONG_SITE"
+  },
+  "prehired": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "prehired.com",
+    "slug": "prehired",
+    "verdict": "CONFIRMED"
+  },
+  "prezi-inc": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "prezi.com",
+    "slug": "prezi-inc",
+    "verdict": "CONFIRMED"
+  },
+  "processingbordeaux": {
+    "detail": "none of ['processingbordeaux.com', 'processingbordeaux.io', 'processingbordeaux.ai', 'processingbordeaux.co', 'processingbordeaux.net'] resolve",
+    "domain": null,
+    "slug": "processingbordeaux",
+    "verdict": "NO_DOMAIN"
+  },
+  "profile-systems": {
+    "detail": "A record exists; fetch failed (ConnectError); unverified",
+    "domain": "profile-systems.com",
+    "slug": "profile-systems",
+    "verdict": "RESOLVES_NO_FETCH"
+  },
+  "propertychecker-com": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "propertychecker.com",
+    "slug": "propertychecker-com",
+    "verdict": "CONFIRMED"
+  },
+  "propertyshark": {
+    "detail": "HTTP 403 (often a bot block); unverified",
+    "domain": "propertyshark.com",
+    "slug": "propertyshark",
+    "verdict": "RESOLVES_HTTP_ERROR"
+  },
+  "publicrecords-info": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "publicrecords.info",
+    "slug": "publicrecords-info",
+    "verdict": "CONFIRMED"
+  },
+  "publicrecordscenter": {
+    "detail": "A record exists; fetch failed (ConnectTimeout); unverified",
+    "domain": "publicrecordscenter.com",
+    "slug": "publicrecordscenter",
+    "verdict": "RESOLVES_NO_FETCH"
+  },
+  "publicrecordsreviews": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "publicrecordsreviews.com",
+    "slug": "publicrecordsreviews",
+    "verdict": "CONFIRMED"
+  },
+  "publicrecordssearcher-com": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "publicrecordssearcher.com",
+    "slug": "publicrecordssearcher-com",
+    "verdict": "CONFIRMED"
+  },
+  "publicsrecords": {
+    "detail": "A record exists; fetch failed (ConnectTimeout); unverified",
+    "domain": "publicsrecords.com",
+    "slug": "publicsrecords",
+    "verdict": "RESOLVES_NO_FETCH"
+  },
+  "pulsepoint": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "pulsepoint.com",
+    "slug": "pulsepoint",
+    "verdict": "CONFIRMED"
+  },
+  "radaris-germany-2": {
+    "detail": "none of ['radarisgermany.com', 'radaris-germany.com'] resolve",
+    "domain": null,
+    "slug": "radaris-germany-2",
+    "verdict": "NO_DOMAIN"
+  },
+  "realsatisfied": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "realsatisfied.com",
+    "slug": "realsatisfied",
+    "verdict": "CONFIRMED"
+  },
+  "realtyverify": {
+    "detail": "page does not mention the slug's words - parked, squatted, or a different business",
+    "domain": "realtyverify.com",
+    "slug": "realtyverify",
+    "verdict": "RESOLVES_WRONG_SITE"
+  },
+  "redfin-corporation": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "redfin.com",
+    "slug": "redfin-corporation",
+    "verdict": "CONFIRMED"
+  },
+  "reunion-com": {
+    "detail": "HTTP 403 (often a bot block); slug names this domain explicitly",
+    "domain": "reunion.com",
+    "slug": "reunion-com",
+    "verdict": "CONFIRMED_BY_SLUG"
+  },
+  "reverse-caller-lookup": {
+    "detail": "A record exists; fetch failed (ReadTimeout); unverified",
+    "domain": "reversecallerlookup.com",
+    "slug": "reverse-caller-lookup",
+    "verdict": "RESOLVES_NO_FETCH"
+  },
+  "reverse-contact-visum-sas": {
+    "detail": "none of ['reversecontactvisumsas.com', 'reverse-contact-visum-sas.com'] resolve",
+    "domain": null,
+    "slug": "reverse-contact-visum-sas",
+    "verdict": "NO_DOMAIN"
+  },
+  "reverseaustralia-2": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "reverseaustralia.com",
+    "slug": "reverseaustralia-2",
+    "verdict": "CONFIRMED"
+  },
+  "reverselookups-org": {
+    "detail": "A record exists; fetch failed (ConnectError); slug names this domain explicitly",
+    "domain": "reverselookups.org",
+    "slug": "reverselookups-org",
+    "verdict": "CONFIRMED_BY_SLUG"
+  },
+  "revonect": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "revonect.com",
+    "slug": "revonect",
+    "verdict": "CONFIRMED"
+  },
+  "rhodeislandpeoplerecords-org": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "rhodeislandpeoplerecords.org",
+    "slug": "rhodeislandpeoplerecords-org",
+    "verdict": "CONFIRMED"
+  },
+  "robokiller": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "robokiller.com",
+    "slug": "robokiller",
+    "verdict": "CONFIRMED"
+  },
+  "saavn-media-limited": {
+    "detail": "A record exists; fetch failed (ConnectTimeout); unverified",
+    "domain": "saavnmedia.com",
+    "slug": "saavn-media-limited",
+    "verdict": "RESOLVES_NO_FETCH"
+  },
+  "safeopt": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "safeopt.com",
+    "slug": "safeopt",
+    "verdict": "CONFIRMED"
+  },
+  "sagestream-llc": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "sagestreamllc.com",
+    "slug": "sagestream-llc",
+    "verdict": "CONFIRMED"
+  },
+  "salary-com-llc": {
+    "detail": "none of ['salarycomllc.com', 'salary-com-llc.com', 'salarycom.com', 'salary-com.com'] resolve",
+    "domain": null,
+    "slug": "salary-com-llc",
+    "verdict": "NO_DOMAIN"
+  },
+  "salesblink": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "salesblink.io",
+    "slug": "salesblink",
+    "verdict": "CONFIRMED"
+  },
+  "salesforce": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "salesforce.com",
+    "slug": "salesforce",
+    "verdict": "CONFIRMED"
+  },
+  "salesgear": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "salesgear.io",
+    "slug": "salesgear",
+    "verdict": "CONFIRMED"
+  },
+  "salesgear-io": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "salesgear.io",
+    "slug": "salesgear-io",
+    "verdict": "CONFIRMED"
+  },
+  "saleshandy-ikigai-infotech-llp": {
+    "detail": "none of ['saleshandyikigaiinfotechllp.com', 'saleshandy-ikigai-infotech-llp.com', 'saleshandyikigaiinfotech.com', 'saleshandy-ikigai-infotech.com'] resolve",
+    "domain": null,
+    "slug": "saleshandy-ikigai-infotech-llp",
+    "verdict": "NO_DOMAIN"
+  },
+  "salesintel": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "salesintel.com",
+    "slug": "salesintel",
+    "verdict": "CONFIRMED"
+  },
+  "scribd-inc": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "scribdinc.com",
+    "slug": "scribd-inc",
+    "verdict": "CONFIRMED"
+  },
+  "searchbug-inc": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "searchbug.com",
+    "slug": "searchbug-inc",
+    "verdict": "CONFIRMED"
+  },
+  "searchmobilenumber-com": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "searchmobilenumber.com",
+    "slug": "searchmobilenumber-com",
+    "verdict": "CONFIRMED"
+  },
+  "searqle": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "searqle.io",
+    "slug": "searqle",
+    "verdict": "CONFIRMED"
+  },
+  "seekhd": {
+    "detail": "A record exists; fetch failed (ConnectTimeout); unverified",
+    "domain": "seekhd.com",
+    "slug": "seekhd",
+    "verdict": "RESOLVES_NO_FETCH"
+  },
+  "seethroughny": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "seethroughny.net",
+    "slug": "seethroughny",
+    "verdict": "CONFIRMED"
+  },
+  "shadow-inc-2": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "shadowinc.com",
+    "slug": "shadow-inc-2",
+    "verdict": "CONFIRMED"
+  },
+  "shortlyst": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "shortlyst.io",
+    "slug": "shortlyst",
+    "verdict": "CONFIRMED"
+  },
+  "signalhire-2": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "signalhire.com",
+    "slug": "signalhire-2",
+    "verdict": "CONFIRMED"
+  },
+  "simplecontacts-2": {
+    "detail": "none of ['simplecontacts.com', 'simplecontacts.io', 'simplecontacts.ai', 'simplecontacts.co', 'simplecontacts.net'] resolve",
+    "domain": null,
+    "slug": "simplecontacts-2",
+    "verdict": "NO_DOMAIN"
+  },
+  "simunix-ltd": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "simunix.com",
+    "slug": "simunix-ltd",
+    "verdict": "CONFIRMED"
+  },
+  "slideplayer": {
+    "detail": "MX record exists; fetch failed (ConnectError); unverified",
+    "domain": "slideplayer.com",
+    "slug": "slideplayer",
+    "verdict": "RESOLVES_NO_FETCH"
+  },
+  "socialcatfish": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "socialcatfish.com",
+    "slug": "socialcatfish",
+    "verdict": "CONFIRMED"
+  },
+  "solar-investments-inc": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "solarinvestments.com",
+    "slug": "solar-investments-inc",
+    "verdict": "CONFIRMED"
+  },
+  "soundcloud-global-limited-co-kg": {
+    "detail": "none of ['soundcloudgloballimitedcokg.com', 'soundcloud-global-limited-co-kg.com'] resolve",
+    "domain": null,
+    "slug": "soundcloud-global-limited-co-kg",
+    "verdict": "NO_DOMAIN"
+  },
+  "sprouts-ai": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "sprouts.ai",
+    "slug": "sprouts-ai",
+    "verdict": "CONFIRMED"
+  },
+  "stageresearch": {
+    "detail": "A record exists; fetch failed (ConnectError); unverified",
+    "domain": "stageresearch.com",
+    "slug": "stageresearch",
+    "verdict": "RESOLVES_NO_FETCH"
+  },
+  "stanatwork": {
+    "detail": "A record exists; fetch failed (ConnectError); unverified",
+    "domain": "stanatwork.com",
+    "slug": "stanatwork",
+    "verdict": "RESOLVES_NO_FETCH"
+  },
+  "state-information-services": {
+    "detail": "none of ['stateinformationservices.com', 'state-information-services.com'] resolve",
+    "domain": null,
+    "slug": "state-information-services",
+    "verdict": "NO_DOMAIN"
+  },
+  "streetdirectory-pte-ltd": {
+    "detail": "none of ['streetdirectorypteltd.com', 'streetdirectory-pte-ltd.com', 'streetdirectorypte.com', 'streetdirectory-pte.com'] resolve",
+    "domain": null,
+    "slug": "streetdirectory-pte-ltd",
+    "verdict": "NO_DOMAIN"
+  },
+  "subsplash": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "subsplash.com",
+    "slug": "subsplash",
+    "verdict": "CONFIRMED"
+  },
+  "success-ai": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "success.ai",
+    "slug": "success-ai",
+    "verdict": "CONFIRMED"
+  },
+  "suggestadoctor-com": {
+    "detail": "A record exists; fetch failed (ReadTimeout); slug names this domain explicitly",
+    "domain": "suggestadoctor.com",
+    "slug": "suggestadoctor-com",
+    "verdict": "CONFIRMED_BY_SLUG"
+  },
+  "swordfish-ai": {
+    "detail": "page does not mention the slug's words - parked, squatted, or a different business",
+    "domain": "swordfish.ai",
+    "slug": "swordfish-ai",
+    "verdict": "RESOLVES_WRONG_SITE"
+  },
+  "sysoon": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "sysoon.net",
+    "slug": "sysoon",
+    "verdict": "CONFIRMED"
+  },
+  "tagmydeals": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "tagmydeals.com",
+    "slug": "tagmydeals",
+    "verdict": "CONFIRMED"
+  },
+  "tcc-information-private-limited": {
+    "detail": "none of ['tccinformationprivatelimited.com', 'tcc-information-private-limited.com', 'tccinformationprivate.com', 'tcc-information-private.com'] resolve",
+    "domain": null,
+    "slug": "tcc-information-private-limited",
+    "verdict": "NO_DOMAIN"
+  },
+  "teamunify-llc": {
+    "detail": "A record exists; fetch failed (ConnectTimeout); unverified",
+    "domain": "teamunify.net",
+    "slug": "teamunify-llc",
+    "verdict": "RESOLVES_NO_FETCH"
+  },
+  "telguarder-as": {
+    "detail": "none of ['telguarderas.com', 'telguarder-as.com'] resolve",
+    "domain": null,
+    "slug": "telguarder-as",
+    "verdict": "NO_DOMAIN"
+  },
+  "the-blue-book-building-and-construction-network": {
+    "detail": "none of ['thebluebookbuildingandconstructionnetwork.com', 'the-blue-book-building-and-construction-network.com'] resolve",
+    "domain": null,
+    "slug": "the-blue-book-building-and-construction-network",
+    "verdict": "NO_DOMAIN"
+  },
+  "the-bump": {
+    "detail": "HTTP 403 (often a bot block); unverified",
+    "domain": "thebump.com",
+    "slug": "the-bump",
+    "verdict": "RESOLVES_HTTP_ERROR"
+  },
+  "the-dots-global-limited": {
+    "detail": "none of ['thedotsgloballimited.com', 'the-dots-global-limited.com', 'thedotsglobal.com', 'the-dots-global.com'] resolve",
+    "domain": null,
+    "slug": "the-dots-global-limited",
+    "verdict": "NO_DOMAIN"
+  },
+  "the-feed-foundation": {
+    "detail": "none of ['thefeedfoundation.com', 'the-feed-foundation.com'] resolve",
+    "domain": null,
+    "slug": "the-feed-foundation",
+    "verdict": "NO_DOMAIN"
+  },
+  "the-georgia-gazette-llc": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "thegeorgiagazette.com",
+    "slug": "the-georgia-gazette-llc",
+    "verdict": "CONFIRMED"
+  },
+  "the-knot-worldwide-inc": {
+    "detail": "A record exists; fetch failed (ConnectError); unverified",
+    "domain": "theknotworldwide.com",
+    "slug": "the-knot-worldwide-inc",
+    "verdict": "RESOLVES_NO_FETCH"
+  },
+  "the-national-directory-of-registered-tax-return-preparers-professionals-ltd": {
+    "detail": "none of ['thenationaldirectoryofregisteredtaxreturnpreparersprofessionalsltd.com', 'the-national-directory-of-registered-tax-return-preparers-professionals-ltd.com', 'thenationaldirectoryofregisteredtaxreturnpreparersprofessionals.com', 'the-national-directory-of-registered-tax-return-preparers-professionals.com'] resolve",
+    "domain": null,
+    "slug": "the-national-directory-of-registered-tax-return-preparers-professionals-ltd",
+    "verdict": "NO_DOMAIN"
+  },
+  "the-real-yellow-pages": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "therealyellowpages.com",
+    "slug": "the-real-yellow-pages",
+    "verdict": "CONFIRMED"
+  },
+  "the-verge": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "theverge.com",
+    "slug": "the-verge",
+    "verdict": "CONFIRMED"
+  },
+  "thepublicindex": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "thepublicindex.com",
+    "slug": "thepublicindex",
+    "verdict": "CONFIRMED"
+  },
+  "therapist-com-llc": {
+    "detail": "none of ['therapistcomllc.com', 'therapist-com-llc.com', 'therapistcom.com', 'therapist-com.com'] resolve",
+    "domain": null,
+    "slug": "therapist-com-llc",
+    "verdict": "NO_DOMAIN"
+  },
+  "thisnumber-com": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "thisnumber.com",
+    "slug": "thisnumber-com",
+    "verdict": "CONFIRMED"
+  },
+  "thomson-reuters": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "thomsonreuters.com",
+    "slug": "thomson-reuters",
+    "verdict": "CONFIRMED"
+  },
+  "thryv-holdings-inc": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "thryv.com",
+    "slug": "thryv-holdings-inc",
+    "verdict": "CONFIRMED"
+  },
+  "tinuiti": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "tinuiti.com",
+    "slug": "tinuiti",
+    "verdict": "CONFIRMED"
+  },
+  "tomba": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "tomba.io",
+    "slug": "tomba",
+    "verdict": "CONFIRMED"
+  },
+  "top4backgroundchecks": {
+    "detail": "page does not mention the slug's words - parked, squatted, or a different business",
+    "domain": "top4backgroundchecks.com",
+    "slug": "top4backgroundchecks",
+    "verdict": "RESOLVES_WRONG_SITE"
+  },
+  "topline-holdings-inc": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "topline.com",
+    "slug": "topline-holdings-inc",
+    "verdict": "CONFIRMED"
+  },
+  "torre-labs-inc": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "torrelabs.com",
+    "slug": "torre-labs-inc",
+    "verdict": "CONFIRMED"
+  },
+  "touchsuite": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "touchsuite.com",
+    "slug": "touchsuite",
+    "verdict": "CONFIRMED"
+  },
+  "traded-media-llc": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "traded-media.com",
+    "slug": "traded-media-llc",
+    "verdict": "CONFIRMED"
+  },
+  "transcend-inc": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "transcend.io",
+    "slug": "transcend-inc",
+    "verdict": "CONFIRMED"
+  },
+  "transparent-nevada": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "transparentnevada.com",
+    "slug": "transparent-nevada",
+    "verdict": "CONFIRMED"
+  },
+  "trulia-llc": {
+    "detail": "HTTP 403 (often a bot block); unverified",
+    "domain": "trulia.com",
+    "slug": "trulia-llc",
+    "verdict": "RESOLVES_HTTP_ERROR"
+  },
+  "u-s-visa-information-service": {
+    "detail": "none of ['usvisainformationservice.com', 'u-s-visa-information-service.com'] resolve",
+    "domain": null,
+    "slug": "u-s-visa-information-service",
+    "verdict": "NO_DOMAIN"
+  },
+  "unity": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "unity.com",
+    "slug": "unity",
+    "verdict": "CONFIRMED"
+  },
+  "us-business-directory": {
+    "detail": "HTTP 403 (often a bot block); unverified",
+    "domain": "usbusinessdirectory.com",
+    "slug": "us-business-directory",
+    "verdict": "RESOLVES_HTTP_ERROR"
+  },
+  "us-people-search": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "us-people-search.com",
+    "slug": "us-people-search",
+    "verdict": "CONFIRMED"
+  },
+  "us-phone-pro": {
+    "detail": "none of ['usphone.pro', 'us-phone.pro'] resolve",
+    "domain": null,
+    "slug": "us-phone-pro",
+    "verdict": "NO_DOMAIN"
+  },
+  "us-search": {
+    "detail": "HTTP 403 (often a bot block); unverified",
+    "domain": "ussearch.com",
+    "slug": "us-search",
+    "verdict": "RESOLVES_HTTP_ERROR"
+  },
+  "usaphonesbook": {
+    "detail": "A record exists; fetch failed (ConnectTimeout); unverified",
+    "domain": "usaphonesbook.com",
+    "slug": "usaphonesbook",
+    "verdict": "RESOLVES_NO_FETCH"
+  },
+  "usawhitepages": {
+    "detail": "page does not mention the slug's words - parked, squatted, or a different business",
+    "domain": "usawhitepages.com",
+    "slug": "usawhitepages",
+    "verdict": "RESOLVES_WRONG_SITE"
+  },
+  "user-searcher": {
+    "detail": "A record exists; fetch failed (ConnectTimeout); unverified",
+    "domain": "user-searcher.com",
+    "slug": "user-searcher",
+    "verdict": "RESOLVES_NO_FETCH"
+  },
+  "valassis-rrd": {
+    "detail": "none of ['valassisrrd.com', 'valassis-rrd.com'] resolve",
+    "domain": null,
+    "slug": "valassis-rrd",
+    "verdict": "NO_DOMAIN"
+  },
+  "valid-number": {
+    "detail": "A record exists; fetch failed (RemoteProtocolError); unverified",
+    "domain": "validnumber.com",
+    "slug": "valid-number",
+    "verdict": "RESOLVES_NO_FETCH"
+  },
+  "veeva": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "veeva.io",
+    "slug": "veeva",
+    "verdict": "CONFIRMED"
+  },
+  "verif-com": {
+    "detail": "A record exists; fetch failed (ConnectTimeout); slug names this domain explicitly",
+    "domain": "verif.com",
+    "slug": "verif-com",
+    "verdict": "CONFIRMED_BY_SLUG"
+  },
+  "visual-listing-systems-inc": {
+    "detail": "A record exists; fetch failed (ConnectTimeout); unverified",
+    "domain": "visuallistingsystems.com",
+    "slug": "visual-listing-systems-inc",
+    "verdict": "RESOLVES_NO_FETCH"
+  },
+  "visual-visitor": {
+    "detail": "A record exists; fetch failed (ConnectTimeout); unverified",
+    "domain": "visualvisitor.com",
+    "slug": "visual-visitor",
+    "verdict": "RESOLVES_NO_FETCH"
+  },
+  "washington-company-search": {
+    "detail": "A record exists; fetch failed (ConnectTimeout); unverified",
+    "domain": "washingtoncompanysearch.com",
+    "slug": "washington-company-search",
+    "verdict": "RESOLVES_NO_FETCH"
+  },
+  "wealthminder": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "wealthminder.co",
+    "slug": "wealthminder",
+    "verdict": "CONFIRMED"
+  },
+  "webmd": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "webmd.com",
+    "slug": "webmd",
+    "verdict": "CONFIRMED"
+  },
+  "webmd-health-corp": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "webmdhealth.com",
+    "slug": "webmd-health-corp",
+    "verdict": "CONFIRMED"
+  },
+  "websiteoutlook": {
+    "detail": "none of ['websiteoutlook.com', 'websiteoutlook.io', 'websiteoutlook.ai', 'websiteoutlook.co', 'websiteoutlook.net'] resolve",
+    "domain": null,
+    "slug": "websiteoutlook",
+    "verdict": "NO_DOMAIN"
+  },
+  "wellborn-cabinet-inc": {
+    "detail": "A record exists; fetch failed (ConnectError); unverified",
+    "domain": "wellborncabinet.com",
+    "slug": "wellborn-cabinet-inc",
+    "verdict": "RESOLVES_NO_FETCH"
+  },
+  "wellness-com-inc": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "wellnesscom.com",
+    "slug": "wellness-com-inc",
+    "verdict": "CONFIRMED"
+  },
+  "whoseno": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "whoseno.com",
+    "slug": "whoseno",
+    "verdict": "CONFIRMED"
+  },
+  "wiza": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "wiza.com",
+    "slug": "wiza",
+    "verdict": "CONFIRMED"
+  },
+  "x-ray-contact": {
+    "detail": "none of ['xraycontact.com', 'x-ray-contact.com'] resolve",
+    "domain": null,
+    "slug": "x-ray-contact",
+    "verdict": "NO_DOMAIN"
+  },
+  "yellowbook-2": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "yellowbook.com",
+    "slug": "yellowbook-2",
+    "verdict": "CONFIRMED"
+  },
+  "youmail-inc": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "youmail.com",
+    "slug": "youmail-inc",
+    "verdict": "CONFIRMED"
+  },
+  "zaubee": {
+    "detail": "page does not mention the slug's words - parked, squatted, or a different business",
+    "domain": "zaubee.com",
+    "slug": "zaubee",
+    "verdict": "RESOLVES_WRONG_SITE"
+  },
+  "zeta-global": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "zetaglobal.com",
+    "slug": "zeta-global",
+    "verdict": "CONFIRMED"
+  },
+  "ziprecruiter-inc": {
+    "detail": "resolved via A; slug words present in page",
+    "domain": "ziprecruiter.com",
+    "slug": "ziprecruiter-inc",
+    "verdict": "CONFIRMED"
+  },
+  "zosearch-2": {
+    "detail": "A record exists; fetch failed (ConnectTimeout); unverified",
+    "domain": "zosearch.com",
+    "slug": "zosearch-2",
+    "verdict": "RESOLVES_NO_FETCH"
+  },
+  "zumper-inc": {
+    "detail": "MX record exists; fetch failed (ConnectError); unverified",
+    "domain": "zumper.io",
+    "slug": "zumper-inc",
+    "verdict": "RESOLVES_NO_FETCH"
+  }
+}

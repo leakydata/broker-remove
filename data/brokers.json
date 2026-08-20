@@ -8820,7 +8820,8 @@
     {
       "id": "1called_com",
       "name": "1called Com",
-      "domain": "",
+      "domain": "1called.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -8844,7 +8845,8 @@
     {
       "id": "411reverselookup_ca",
       "name": "411reverselookup Ca",
-      "domain": "",
+      "domain": "411reverselookup.ca",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -8868,7 +8870,8 @@
     {
       "id": "adapt_io",
       "name": "Adapt Io",
-      "domain": "",
+      "domain": "adapt.io",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -8880,7 +8883,8 @@
     {
       "id": "address_scoop",
       "name": "Address Scoop",
-      "domain": "",
+      "domain": "addressscoop.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -8892,7 +8896,8 @@
     {
       "id": "addrhistory",
       "name": "Addrhistory",
-      "domain": "",
+      "domain": "addrhistory.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -8916,7 +8921,8 @@
     {
       "id": "aeroleads",
       "name": "Aeroleads",
-      "domain": "",
+      "domain": "aeroleads.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -8928,7 +8934,8 @@
     {
       "id": "affluense_ai",
       "name": "Affluense Ai",
-      "domain": "",
+      "domain": "affluense.ai",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -8940,7 +8947,8 @@
     {
       "id": "aged_solar_leads",
       "name": "Aged Solar Leads Llc",
-      "domain": "",
+      "domain": "agedsolarleads.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -8952,7 +8960,8 @@
     {
       "id": "alignable",
       "name": "Alignable Inc",
-      "domain": "",
+      "domain": "alignable.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -8964,7 +8973,8 @@
     {
       "id": "allant_group",
       "name": "Allant Group Llc",
-      "domain": "",
+      "domain": "allantgroup.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -8976,7 +8986,8 @@
     {
       "id": "allhighschools_com",
       "name": "Allhighschools Com",
-      "domain": "",
+      "domain": "allhighschools.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -8988,7 +8999,8 @@
     {
       "id": "allpeople_biz",
       "name": "Allpeople Biz",
-      "domain": "",
+      "domain": "allpeople.biz",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -9000,7 +9012,8 @@
     {
       "id": "altrata",
       "name": "Altrata Inc",
-      "domain": "",
+      "domain": "altrata.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -9024,7 +9037,8 @@
     {
       "id": "amedisys",
       "name": "Amedisys Inc",
-      "domain": "",
+      "domain": "amedisys.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -9048,7 +9062,8 @@
     {
       "id": "amfibi",
       "name": "Amfibi",
-      "domain": "",
+      "domain": "amfibi.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -9060,7 +9075,8 @@
     {
       "id": "amone",
       "name": "Amone",
-      "domain": "",
+      "domain": "amone.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -9084,7 +9100,8 @@
     {
       "id": "answerlady",
       "name": "Answerlady",
-      "domain": "",
+      "domain": "answerlady.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -9096,7 +9113,8 @@
     {
       "id": "apartments_com",
       "name": "Apartments Com",
-      "domain": "",
+      "domain": "apartments.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -9120,7 +9138,8 @@
     {
       "id": "arrests_org",
       "name": "Arrests Org",
-      "domain": "",
+      "domain": "arrests.org",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -9144,7 +9163,8 @@
     {
       "id": "b2bhint",
       "name": "B2bhint",
-      "domain": "",
+      "domain": "b2bhint.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -9168,7 +9188,8 @@
     {
       "id": "background_checks_org",
       "name": "Background Checks Org",
-      "domain": "",
+      "domain": "backgroundchecks.org",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -9180,7 +9201,8 @@
     {
       "id": "backgroundcheckme_org",
       "name": "Backgroundcheckme Org",
-      "domain": "",
+      "domain": "backgroundcheckme.org",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -9216,7 +9238,8 @@
     {
       "id": "besthistorysites_net",
       "name": "Besthistorysites Net",
-      "domain": "",
+      "domain": "besthistorysites.net",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -9228,7 +9251,8 @@
     {
       "id": "big_bend_transit",
       "name": "Big Bend Transit Inc",
-      "domain": "",
+      "domain": "bigbendtransit.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -9252,7 +9276,8 @@
     {
       "id": "bluaziende",
       "name": "Bluaziende",
-      "domain": "",
+      "domain": "bluaziende.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -9288,7 +9313,8 @@
     {
       "id": "buyersroad",
       "name": "Buyersroad Inc",
-      "domain": "",
+      "domain": "buyersroad.co",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -9360,7 +9386,8 @@
     {
       "id": "calleridtest",
       "name": "Calleridtest",
-      "domain": "",
+      "domain": "calleridtest.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -9396,7 +9423,8 @@
     {
       "id": "cb_insights",
       "name": "Cb Insights Inc",
-      "domain": "",
+      "domain": "cbinsights.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -9420,7 +9448,8 @@
     {
       "id": "chamberofcommerce_com",
       "name": "Chamberofcommerce Com",
-      "domain": "",
+      "domain": "chamberofcommerce.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -9456,7 +9485,8 @@
     {
       "id": "clay",
       "name": "Clay",
-      "domain": "",
+      "domain": "clay.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -9492,7 +9522,8 @@
     {
       "id": "clodura_ai",
       "name": "Clodura Ai",
-      "domain": "",
+      "domain": "clodura.ai",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -9516,7 +9547,8 @@
     {
       "id": "commercial_list",
       "name": "Commercial List",
-      "domain": "",
+      "domain": "commerciallist.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -9564,7 +9596,8 @@
     {
       "id": "comscore",
       "name": "Comscore",
-      "domain": "",
+      "domain": "comscore.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -9576,7 +9609,8 @@
     {
       "id": "contactout",
       "name": "Contactout",
-      "domain": "",
+      "domain": "contactout.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -9588,7 +9622,8 @@
     {
       "id": "cortera",
       "name": "Cortera Inc",
-      "domain": "",
+      "domain": "cortera.io",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -9600,7 +9635,8 @@
     {
       "id": "courtrec_com",
       "name": "Courtrec Com",
-      "domain": "",
+      "domain": "courtrec.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -9648,7 +9684,8 @@
     {
       "id": "criminalpages_com",
       "name": "Criminalpages Com",
-      "domain": "",
+      "domain": "criminalpages.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -9660,7 +9697,8 @@
     {
       "id": "criminalregistry_org",
       "name": "Criminalregistry Org",
-      "domain": "",
+      "domain": "criminalregistry.org",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -9696,7 +9734,8 @@
     {
       "id": "cybba",
       "name": "Cybba",
-      "domain": "",
+      "domain": "cybba.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -9720,7 +9759,8 @@
     {
       "id": "datagma",
       "name": "Datagma",
-      "domain": "",
+      "domain": "datagma.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -9732,7 +9772,8 @@
     {
       "id": "datalead",
       "name": "Datalead",
-      "domain": "",
+      "domain": "datalead.io",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -9768,7 +9809,8 @@
     {
       "id": "dato_capital",
       "name": "Dato Capital",
-      "domain": "",
+      "domain": "datocapital.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -9780,7 +9822,8 @@
     {
       "id": "dealersocket",
       "name": "Dealersocket",
-      "domain": "",
+      "domain": "dealersocket.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -9792,7 +9835,8 @@
     {
       "id": "deepdy",
       "name": "Deepdy Ltd",
-      "domain": "",
+      "domain": "deepdy.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -9828,7 +9872,8 @@
     {
       "id": "domaintools",
       "name": "Domaintools Llc",
-      "domain": "",
+      "domain": "domaintools.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -9876,7 +9921,8 @@
     {
       "id": "edgein",
       "name": "Edgein",
-      "domain": "",
+      "domain": "edgein.io",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -9912,7 +9958,8 @@
     {
       "id": "enp_network",
       "name": "Enp Network",
-      "domain": "",
+      "domain": "enpnetwork.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -9936,7 +9983,8 @@
     {
       "id": "equilar",
       "name": "Equilar Inc",
-      "domain": "",
+      "domain": "equilar.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -9948,7 +9996,8 @@
     {
       "id": "everyday_health",
       "name": "Everyday Health Inc",
-      "domain": "",
+      "domain": "everydayhealthinc.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -9960,7 +10009,8 @@
     {
       "id": "exlservice_com",
       "name": "Exlservice Com",
-      "domain": "",
+      "domain": "exlservice.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -9972,7 +10022,8 @@
     {
       "id": "explorium",
       "name": "Explorium Inc",
-      "domain": "",
+      "domain": "explorium.io",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -10008,7 +10059,8 @@
     {
       "id": "familysearch",
       "name": "Familysearch",
-      "domain": "",
+      "domain": "familysearch.co",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -10020,7 +10072,8 @@
     {
       "id": "fandom",
       "name": "Fandom Inc",
-      "domain": "",
+      "domain": "fandominc.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -10032,7 +10085,8 @@
     {
       "id": "fastbase",
       "name": "Fastbase Inc",
-      "domain": "",
+      "domain": "fastbase.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -10044,7 +10098,8 @@
     {
       "id": "fetcher",
       "name": "Fetcher",
-      "domain": "",
+      "domain": "fetcher.ai",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -10056,7 +10111,8 @@
     {
       "id": "fifty",
       "name": "Fifty",
-      "domain": "",
+      "domain": "fifty.io",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -10068,7 +10124,8 @@
     {
       "id": "finalscout",
       "name": "Finalscout",
-      "domain": "",
+      "domain": "finalscout.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -10080,7 +10137,8 @@
     {
       "id": "finalsite",
       "name": "Finalsite",
-      "domain": "",
+      "domain": "finalsite.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -10104,7 +10162,8 @@
     {
       "id": "findglocal",
       "name": "Findglocal Limited",
-      "domain": "",
+      "domain": "findglocal.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -10116,7 +10175,8 @@
     {
       "id": "findlaw",
       "name": "Findlaw",
-      "domain": "",
+      "domain": "findlaw.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -10128,7 +10188,8 @@
     {
       "id": "findwhocallsyou",
       "name": "Findwhocallsyou",
-      "domain": "",
+      "domain": "findwhocallsyou.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -10152,7 +10213,8 @@
     {
       "id": "first_advantage",
       "name": "First Advantage Corporation",
-      "domain": "",
+      "domain": "firstadvantage.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -10164,7 +10226,8 @@
     {
       "id": "first_beat_media",
       "name": "First Beat Media",
-      "domain": "",
+      "domain": "firstbeatmedia.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -10176,7 +10239,8 @@
     {
       "id": "flexera",
       "name": "Flexera",
-      "domain": "",
+      "domain": "flexera.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -10188,7 +10252,8 @@
     {
       "id": "foller_me",
       "name": "Foller Me",
-      "domain": "",
+      "domain": "foller.me",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -10200,7 +10265,8 @@
     {
       "id": "freepeoplesearch_com",
       "name": "Freepeoplesearch Com",
-      "domain": "",
+      "domain": "freepeoplesearch.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -10224,7 +10290,8 @@
     {
       "id": "fullcontact",
       "name": "Fullcontact",
-      "domain": "",
+      "domain": "fullcontact.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -10236,7 +10303,8 @@
     {
       "id": "fullenrich",
       "name": "Fullenrich",
-      "domain": "",
+      "domain": "fullenrich.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -10248,7 +10316,8 @@
     {
       "id": "furyforums_com",
       "name": "Furyforums Com",
-      "domain": "",
+      "domain": "furyforums.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -10260,7 +10329,8 @@
     {
       "id": "geekadelphia",
       "name": "Geekadelphia",
-      "domain": "",
+      "domain": "geekadelphia.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -10308,7 +10378,8 @@
     {
       "id": "getemail_io",
       "name": "Getemail Io",
-      "domain": "",
+      "domain": "getemail.io",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -10320,7 +10391,8 @@
     {
       "id": "getprospect",
       "name": "Getprospect Llc",
-      "domain": "",
+      "domain": "getprospect.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -10332,7 +10404,8 @@
     {
       "id": "github",
       "name": "Github Inc",
-      "domain": "",
+      "domain": "github.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -10356,7 +10429,8 @@
     {
       "id": "govqa",
       "name": "Govqa",
-      "domain": "",
+      "domain": "govqa.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -10368,7 +10442,8 @@
     {
       "id": "govtribe",
       "name": "Govtribe Inc",
-      "domain": "",
+      "domain": "govtribe.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -10380,7 +10455,8 @@
     {
       "id": "granicus",
       "name": "Granicus Llc",
-      "domain": "",
+      "domain": "granicus.co",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -10392,7 +10468,8 @@
     {
       "id": "growjo",
       "name": "Growjo",
-      "domain": "",
+      "domain": "growjo.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -10404,7 +10481,8 @@
     {
       "id": "h1bdata_info",
       "name": "H1bdata Info",
-      "domain": "",
+      "domain": "h1bdata.info",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -10416,7 +10494,8 @@
     {
       "id": "healthline_media",
       "name": "Healthline Media",
-      "domain": "",
+      "domain": "healthlinemedia.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -10440,7 +10519,8 @@
     {
       "id": "hiremyfriend_io",
       "name": "Hiremyfriend Io",
-      "domain": "",
+      "domain": "hiremyfriend.io",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -10452,7 +10532,8 @@
     {
       "id": "hireright",
       "name": "Hireright Llc",
-      "domain": "",
+      "domain": "hireright.io",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -10488,7 +10569,8 @@
     {
       "id": "homes_com",
       "name": "Homes Com",
-      "domain": "",
+      "domain": "homes.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -10524,7 +10606,8 @@
     {
       "id": "hunter",
       "name": "Hunter",
-      "domain": "",
+      "domain": "hunter.io",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -10596,7 +10679,8 @@
     {
       "id": "iheartmedia",
       "name": "Iheartmedia Inc",
-      "domain": "",
+      "domain": "iheartmedia.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -10620,7 +10704,8 @@
     {
       "id": "image_maps_com",
       "name": "Image Maps Com",
-      "domain": "",
+      "domain": "image-maps.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -10644,7 +10729,8 @@
     {
       "id": "intentmacro",
       "name": "Intentmacro",
-      "domain": "",
+      "domain": "intentmacro.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -10692,7 +10778,8 @@
     {
       "id": "joblookup",
       "name": "Joblookup Ltd",
-      "domain": "",
+      "domain": "joblookup.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -10704,7 +10791,8 @@
     {
       "id": "kendo",
       "name": "Kendo",
-      "domain": "",
+      "domain": "kendo.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -10716,7 +10804,8 @@
     {
       "id": "knsee_com",
       "name": "Knsee Com",
-      "domain": "",
+      "domain": "knsee.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -10728,7 +10817,8 @@
     {
       "id": "kona_equity",
       "name": "Kona Equity",
-      "domain": "",
+      "domain": "konaequity.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -10752,7 +10842,8 @@
     {
       "id": "ladders",
       "name": "Ladders Inc",
-      "domain": "",
+      "domain": "laddersinc.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -10764,7 +10855,8 @@
     {
       "id": "lawlink",
       "name": "Lawlink",
-      "domain": "",
+      "domain": "lawlink.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -10776,7 +10868,8 @@
     {
       "id": "lawyers_com",
       "name": "Lawyers Com",
-      "domain": "",
+      "domain": "lawyers.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -10788,7 +10881,8 @@
     {
       "id": "leadar",
       "name": "Leadar",
-      "domain": "",
+      "domain": "leadar.io",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -10836,7 +10930,8 @@
     {
       "id": "listmatch",
       "name": "Listmatch",
-      "domain": "",
+      "domain": "listmatch.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -10848,7 +10943,8 @@
     {
       "id": "local_pages",
       "name": "Local Pages",
-      "domain": "",
+      "domain": "localpages.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -10872,7 +10968,8 @@
     {
       "id": "locate_friend",
       "name": "Locate Friend",
-      "domain": "",
+      "domain": "locate-friend.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -10896,7 +10993,8 @@
     {
       "id": "locatepeople_org",
       "name": "Locatepeople Org",
-      "domain": "",
+      "domain": "locatepeople.org",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -10908,7 +11006,8 @@
     {
       "id": "lookify",
       "name": "Lookify",
-      "domain": "",
+      "domain": "lookify.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -10920,7 +11019,8 @@
     {
       "id": "mansionquest_com",
       "name": "Mansionquest Com",
-      "domain": "",
+      "domain": "mansionquest.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -10932,7 +11032,8 @@
     {
       "id": "mapquest",
       "name": "Mapquest Inc",
-      "domain": "",
+      "domain": "mapquest.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -10944,7 +11045,8 @@
     {
       "id": "marrieddivorce",
       "name": "Marrieddivorce",
-      "domain": "",
+      "domain": "marrieddivorce.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -10968,7 +11070,8 @@
     {
       "id": "medifind",
       "name": "Medifind",
-      "domain": "",
+      "domain": "medifind.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -10980,7 +11083,8 @@
     {
       "id": "merchantcircle",
       "name": "Merchantcircle",
-      "domain": "",
+      "domain": "merchantcircle.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -11028,7 +11132,8 @@
     {
       "id": "morningstar",
       "name": "Morningstar",
-      "domain": "",
+      "domain": "morningstar.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -11040,7 +11145,8 @@
     {
       "id": "movoto",
       "name": "Movoto Inc",
-      "domain": "",
+      "domain": "movoto.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -11064,7 +11170,8 @@
     {
       "id": "muraena",
       "name": "Muraena",
-      "domain": "",
+      "domain": "muraena.ai",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -11088,7 +11195,8 @@
     {
       "id": "mycentraljersey_com",
       "name": "Mycentraljersey Com",
-      "domain": "",
+      "domain": "mycentraljersey.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -11100,7 +11208,8 @@
     {
       "id": "names_and_facts",
       "name": "Names And Facts",
-      "domain": "",
+      "domain": "namesandfacts.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -11160,7 +11269,8 @@
     {
       "id": "newcon",
       "name": "Newcon",
-      "domain": "",
+      "domain": "newcon.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -11172,7 +11282,8 @@
     {
       "id": "newyorkpublicrecords_org",
       "name": "Newyorkpublicrecords Org",
-      "domain": "",
+      "domain": "newyorkpublicrecords.org",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -11184,7 +11295,8 @@
     {
       "id": "nocallername",
       "name": "Nocallername",
-      "domain": "",
+      "domain": "nocallername.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -11196,7 +11308,8 @@
     {
       "id": "noon_ai",
       "name": "Noon Ai",
-      "domain": "",
+      "domain": "noon.ai",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -11220,7 +11333,8 @@
     {
       "id": "north_data",
       "name": "North Data Gmbh",
-      "domain": "",
+      "domain": "northdata.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -11232,7 +11346,8 @@
     {
       "id": "npir_org",
       "name": "Npir Org",
-      "domain": "",
+      "domain": "npir.org",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -11256,7 +11371,8 @@
     {
       "id": "numlooker",
       "name": "Numlooker",
-      "domain": "",
+      "domain": "numlooker.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -11268,7 +11384,8 @@
     {
       "id": "oan",
       "name": "Oan",
-      "domain": "",
+      "domain": "oan.ai",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -11280,7 +11397,8 @@
     {
       "id": "ohio_resident_directory",
       "name": "Ohio Resident Directory",
-      "domain": "",
+      "domain": "ohioresidentdirectory.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -11292,7 +11410,8 @@
     {
       "id": "old_friends",
       "name": "Old Friends Co",
-      "domain": "",
+      "domain": "old-friends.co",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -11328,7 +11447,8 @@
     {
       "id": "onetrust",
       "name": "Onetrust Llc",
-      "domain": "",
+      "domain": "onetrust.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -11340,7 +11460,8 @@
     {
       "id": "onlinesearches_com",
       "name": "Onlinesearches Com",
-      "domain": "",
+      "domain": "onlinesearches.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -11352,7 +11473,8 @@
     {
       "id": "opencallerlistings_com",
       "name": "Opencallerlistings Com",
-      "domain": "",
+      "domain": "opencallerlistings.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -11364,7 +11486,8 @@
     {
       "id": "opencorpdata",
       "name": "Opencorpdata",
-      "domain": "",
+      "domain": "opencorpdata.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -11376,7 +11499,8 @@
     {
       "id": "opencorporates",
       "name": "Opencorporates Ltd",
-      "domain": "",
+      "domain": "opencorporates.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -11388,7 +11512,8 @@
     {
       "id": "opendatausa",
       "name": "Opendatausa",
-      "domain": "",
+      "domain": "opendatausa.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -11400,7 +11525,8 @@
     {
       "id": "opengov",
       "name": "Opengov",
-      "domain": "",
+      "domain": "opengov.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -11412,7 +11538,8 @@
     {
       "id": "optimal_fusion",
       "name": "Optimal Fusion",
-      "domain": "",
+      "domain": "optimalfusion.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -11436,7 +11563,8 @@
     {
       "id": "oregonpublicrecords_org",
       "name": "Oregonpublicrecords Org",
-      "domain": "",
+      "domain": "oregonpublicrecords.org",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -11520,7 +11648,8 @@
     {
       "id": "peeplookup",
       "name": "Peeplookup",
-      "domain": "",
+      "domain": "peeplookup.net",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -11580,7 +11709,8 @@
     {
       "id": "peopledatalabs",
       "name": "Peopledatalabs",
-      "domain": "",
+      "domain": "peopledatalabs.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -11604,7 +11734,8 @@
     {
       "id": "peoplefinder_info",
       "name": "Peoplefinder Info",
-      "domain": "",
+      "domain": "peoplefinder.info",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -11616,7 +11747,8 @@
     {
       "id": "phonecheck_pro",
       "name": "Phonecheck Pro",
-      "domain": "",
+      "domain": "phonecheck.pro",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -11628,7 +11760,8 @@
     {
       "id": "phonehistory_com",
       "name": "Phonehistory Com",
-      "domain": "",
+      "domain": "phonehistory.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -11640,7 +11773,8 @@
     {
       "id": "phoneowner",
       "name": "Phoneowner Inc",
-      "domain": "",
+      "domain": "phoneowner.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -11700,7 +11834,8 @@
     {
       "id": "poshmark",
       "name": "Poshmark Inc",
-      "domain": "",
+      "domain": "poshmark.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -11712,7 +11847,8 @@
     {
       "id": "ppl_data_com",
       "name": "Ppl Data Com",
-      "domain": "",
+      "domain": "ppl-data.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -11748,7 +11884,8 @@
     {
       "id": "prehired",
       "name": "Prehired",
-      "domain": "",
+      "domain": "prehired.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -11760,7 +11897,8 @@
     {
       "id": "prezi",
       "name": "Prezi Inc",
-      "domain": "",
+      "domain": "prezi.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -11796,7 +11934,8 @@
     {
       "id": "propertychecker_com",
       "name": "Propertychecker Com",
-      "domain": "",
+      "domain": "propertychecker.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -11820,7 +11959,8 @@
     {
       "id": "publicrecords_info",
       "name": "Publicrecords Info",
-      "domain": "",
+      "domain": "publicrecords.info",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -11844,7 +11984,8 @@
     {
       "id": "publicrecordsreviews",
       "name": "Publicrecordsreviews",
-      "domain": "",
+      "domain": "publicrecordsreviews.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -11856,7 +11997,8 @@
     {
       "id": "publicrecordssearcher_com",
       "name": "Publicrecordssearcher Com",
-      "domain": "",
+      "domain": "publicrecordssearcher.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -11880,7 +12022,8 @@
     {
       "id": "pulsepoint",
       "name": "Pulsepoint",
-      "domain": "",
+      "domain": "pulsepoint.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -11904,7 +12047,8 @@
     {
       "id": "realsatisfied",
       "name": "Realsatisfied",
-      "domain": "",
+      "domain": "realsatisfied.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -11928,7 +12072,8 @@
     {
       "id": "redfin",
       "name": "Redfin Corporation",
-      "domain": "",
+      "domain": "redfin.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -11940,7 +12085,8 @@
     {
       "id": "reunion_com",
       "name": "Reunion Com",
-      "domain": "",
+      "domain": "reunion.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -11976,7 +12122,8 @@
     {
       "id": "reverseaustralia",
       "name": "Reverseaustralia",
-      "domain": "",
+      "domain": "reverseaustralia.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -11988,7 +12135,8 @@
     {
       "id": "reverselookups_org",
       "name": "Reverselookups Org",
-      "domain": "",
+      "domain": "reverselookups.org",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -12000,7 +12148,8 @@
     {
       "id": "revonect",
       "name": "Revonect",
-      "domain": "",
+      "domain": "revonect.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -12012,7 +12161,8 @@
     {
       "id": "rhodeislandpeoplerecords_org",
       "name": "Rhodeislandpeoplerecords Org",
-      "domain": "",
+      "domain": "rhodeislandpeoplerecords.org",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -12024,7 +12174,8 @@
     {
       "id": "robokiller",
       "name": "Robokiller",
-      "domain": "",
+      "domain": "robokiller.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -12048,7 +12199,8 @@
     {
       "id": "safeopt",
       "name": "Safeopt",
-      "domain": "",
+      "domain": "safeopt.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -12060,7 +12212,8 @@
     {
       "id": "sagestream",
       "name": "Sagestream Llc",
-      "domain": "",
+      "domain": "sagestreamllc.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -12084,7 +12237,8 @@
     {
       "id": "salesblink",
       "name": "Salesblink",
-      "domain": "",
+      "domain": "salesblink.io",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -12096,7 +12250,8 @@
     {
       "id": "salesforce",
       "name": "Salesforce",
-      "domain": "",
+      "domain": "salesforce.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -12108,7 +12263,8 @@
     {
       "id": "salesgear",
       "name": "Salesgear",
-      "domain": "",
+      "domain": "salesgear.io",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -12120,7 +12276,8 @@
     {
       "id": "salesgear_io",
       "name": "Salesgear Io",
-      "domain": "",
+      "domain": "salesgear.io",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -12144,7 +12301,8 @@
     {
       "id": "salesintel",
       "name": "Salesintel",
-      "domain": "",
+      "domain": "salesintel.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -12156,7 +12314,8 @@
     {
       "id": "scribd",
       "name": "Scribd Inc",
-      "domain": "",
+      "domain": "scribdinc.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -12168,7 +12327,8 @@
     {
       "id": "searchbug",
       "name": "Searchbug Inc",
-      "domain": "",
+      "domain": "searchbug.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -12180,7 +12340,8 @@
     {
       "id": "searchmobilenumber_com",
       "name": "Searchmobilenumber Com",
-      "domain": "",
+      "domain": "searchmobilenumber.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -12192,7 +12353,8 @@
     {
       "id": "searqle",
       "name": "Searqle",
-      "domain": "",
+      "domain": "searqle.io",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -12216,7 +12378,8 @@
     {
       "id": "seethroughny",
       "name": "Seethroughny",
-      "domain": "",
+      "domain": "seethroughny.net",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -12228,7 +12391,8 @@
     {
       "id": "shadow",
       "name": "Shadow Inc",
-      "domain": "",
+      "domain": "shadowinc.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -12240,7 +12404,8 @@
     {
       "id": "shortlyst",
       "name": "Shortlyst",
-      "domain": "",
+      "domain": "shortlyst.io",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -12252,7 +12417,8 @@
     {
       "id": "signalhire",
       "name": "Signalhire",
-      "domain": "",
+      "domain": "signalhire.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -12276,7 +12442,8 @@
     {
       "id": "simunix",
       "name": "Simunix Ltd",
-      "domain": "",
+      "domain": "simunix.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -12300,7 +12467,8 @@
     {
       "id": "socialcatfish",
       "name": "Socialcatfish",
-      "domain": "",
+      "domain": "socialcatfish.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -12312,7 +12480,8 @@
     {
       "id": "solar_investments",
       "name": "Solar Investments Inc",
-      "domain": "",
+      "domain": "solarinvestments.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -12336,7 +12505,8 @@
     {
       "id": "sprouts_ai",
       "name": "Sprouts Ai",
-      "domain": "",
+      "domain": "sprouts.ai",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -12396,7 +12566,8 @@
     {
       "id": "subsplash",
       "name": "Subsplash",
-      "domain": "",
+      "domain": "subsplash.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -12408,7 +12579,8 @@
     {
       "id": "success_ai",
       "name": "Success Ai",
-      "domain": "",
+      "domain": "success.ai",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -12420,7 +12592,8 @@
     {
       "id": "suggestadoctor_com",
       "name": "Suggestadoctor Com",
-      "domain": "",
+      "domain": "suggestadoctor.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -12444,7 +12617,8 @@
     {
       "id": "sysoon",
       "name": "Sysoon",
-      "domain": "",
+      "domain": "sysoon.net",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -12456,7 +12630,8 @@
     {
       "id": "tagmydeals",
       "name": "Tagmydeals",
-      "domain": "",
+      "domain": "tagmydeals.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -12552,7 +12727,8 @@
     {
       "id": "the_georgia_gazette",
       "name": "The Georgia Gazette Llc",
-      "domain": "",
+      "domain": "thegeorgiagazette.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -12588,7 +12764,8 @@
     {
       "id": "the_real_yellow_pages",
       "name": "The Real Yellow Pages",
-      "domain": "",
+      "domain": "therealyellowpages.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -12600,7 +12777,8 @@
     {
       "id": "the_verge",
       "name": "The Verge",
-      "domain": "",
+      "domain": "theverge.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -12612,7 +12790,8 @@
     {
       "id": "thepublicindex",
       "name": "Thepublicindex",
-      "domain": "",
+      "domain": "thepublicindex.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -12636,7 +12815,8 @@
     {
       "id": "thisnumber_com",
       "name": "Thisnumber Com",
-      "domain": "",
+      "domain": "thisnumber.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -12648,7 +12828,8 @@
     {
       "id": "thomson_reuters",
       "name": "Thomson Reuters",
-      "domain": "",
+      "domain": "thomsonreuters.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -12660,7 +12841,8 @@
     {
       "id": "thryv_holdings",
       "name": "Thryv Holdings Inc",
-      "domain": "",
+      "domain": "thryv.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -12672,7 +12854,8 @@
     {
       "id": "tinuiti",
       "name": "Tinuiti",
-      "domain": "",
+      "domain": "tinuiti.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -12684,7 +12867,8 @@
     {
       "id": "tomba",
       "name": "Tomba",
-      "domain": "",
+      "domain": "tomba.io",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -12708,7 +12892,8 @@
     {
       "id": "topline_holdings",
       "name": "Topline Holdings Inc",
-      "domain": "",
+      "domain": "topline.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -12720,7 +12905,8 @@
     {
       "id": "torre_labs",
       "name": "Torre Labs Inc",
-      "domain": "",
+      "domain": "torrelabs.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -12732,7 +12918,8 @@
     {
       "id": "touchsuite",
       "name": "Touchsuite",
-      "domain": "",
+      "domain": "touchsuite.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -12744,7 +12931,8 @@
     {
       "id": "traded_media",
       "name": "Traded Media Llc",
-      "domain": "",
+      "domain": "traded-media.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -12756,7 +12944,8 @@
     {
       "id": "transcend",
       "name": "Transcend Inc",
-      "domain": "",
+      "domain": "transcend.io",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -12768,7 +12957,8 @@
     {
       "id": "transparent_nevada",
       "name": "Transparent Nevada",
-      "domain": "",
+      "domain": "transparentnevada.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -12804,7 +12994,8 @@
     {
       "id": "unity",
       "name": "Unity",
-      "domain": "",
+      "domain": "unity.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -12828,7 +13019,8 @@
     {
       "id": "us_people_search",
       "name": "Us People Search",
-      "domain": "",
+      "domain": "us-people-search.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -12924,7 +13116,8 @@
     {
       "id": "veeva",
       "name": "Veeva",
-      "domain": "",
+      "domain": "veeva.io",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -12936,7 +13129,8 @@
     {
       "id": "verif_com",
       "name": "Verif Com",
-      "domain": "",
+      "domain": "verif.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -12984,7 +13178,8 @@
     {
       "id": "wealthminder",
       "name": "Wealthminder",
-      "domain": "",
+      "domain": "wealthminder.co",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -12996,7 +13191,8 @@
     {
       "id": "webmd",
       "name": "Webmd",
-      "domain": "",
+      "domain": "webmd.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -13008,7 +13204,8 @@
     {
       "id": "webmd_health",
       "name": "Webmd Health Corp",
-      "domain": "",
+      "domain": "webmdhealth.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -13044,7 +13241,8 @@
     {
       "id": "wellness_com",
       "name": "Wellness Com Inc",
-      "domain": "",
+      "domain": "wellnesscom.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -13056,7 +13254,8 @@
     {
       "id": "whoseno",
       "name": "Whoseno",
-      "domain": "",
+      "domain": "whoseno.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -13068,7 +13267,8 @@
     {
       "id": "wiza",
       "name": "Wiza",
-      "domain": "",
+      "domain": "wiza.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -13092,7 +13292,8 @@
     {
       "id": "yellowbook",
       "name": "Yellowbook",
-      "domain": "",
+      "domain": "yellowbook.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -13104,7 +13305,8 @@
     {
       "id": "youmail",
       "name": "Youmail Inc",
-      "domain": "",
+      "domain": "youmail.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -13128,7 +13330,8 @@
     {
       "id": "zeta_global",
       "name": "Zeta Global",
-      "domain": "",
+      "domain": "zetaglobal.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -13140,7 +13343,8 @@
     {
       "id": "ziprecruiter",
       "name": "Ziprecruiter Inc",
-      "domain": "",
+      "domain": "ziprecruiter.com",
+      "domain_source": "derived_from_optery_slug",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",

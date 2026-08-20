@@ -17,6 +17,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 CURATED = ROOT / "data" / "curated_brokers.json"
 SLUGS = ROOT / "data" / "optery_slugs.txt"
+DOMAINS = ROOT / "data" / "optery_domain_candidates.json"
 OUT = ROOT / "data" / "brokers.json"
 
 # Optery slugs carry trailing disambiguators like "-2" and corporate suffixes.
@@ -48,6 +49,16 @@ def main():
         stem = b["domain"].split(".")[0].replace("-", "_")
         aliases[stem] = b["id"]
 
+    # Optery rows arrive as a slug and nothing else. scripts/resolve_optery_domains.py
+    # derives a domain and verifies it (resolves + the site names the business);
+    # only its confirmed verdicts are trusted here. Without this every Optery row
+    # is permanently unroutable -- see that script's docstring.
+    derived: dict[str, str] = {}
+    if DOMAINS.exists():
+        for slug, rec in json.loads(DOMAINS.read_text()).items():
+            if rec.get("verdict") in ("CONFIRMED", "CONFIRMED_BY_SLUG") and rec.get("domain"):
+                derived[slug] = rec["domain"]
+
     added = 0
     if SLUGS.exists():
         for line in SLUGS.read_text().splitlines():
@@ -64,12 +75,20 @@ def main():
             cid = canonical_id(slug)
             if cid in aliases or cid in by_id:
                 # Already covered by a curated entry; just record the Optery slug.
-                by_id[aliases.get(cid, cid)].setdefault("optery_slug", slug)
+                existing = by_id[aliases.get(cid, cid)]
+                existing.setdefault("optery_slug", slug)
+                # A curated row with no domain still benefits from a derived one,
+                # but never overwrite a curated value with a guess.
+                if not existing.get("domain") and slug in derived:
+                    existing["domain"] = derived[slug]
+                    existing["domain_source"] = "derived_from_optery_slug"
                 continue
             by_id[cid] = {
                 "id": cid,
                 "name": slug_to_name(slug),
-                "domain": "",
+                "domain": derived.get(slug, ""),
+                **({"domain_source": "derived_from_optery_slug"}
+                   if slug in derived else {}),
                 "priority": 1,
                 "method": "unknown",
                 "optout_url": "",
