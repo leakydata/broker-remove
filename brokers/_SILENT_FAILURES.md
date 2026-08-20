@@ -2450,3 +2450,59 @@ email-dead in the registry with the evidence, so a later pass does not spend the
 same three sends rediscovering it.
 
 **Related:** §45, §46, §64.
+
+## §66 The mailto: href and the link text are different mailboxes
+
+SourceIT's privacy policy presents its contact address as an ordinary hyperlink.
+Here is the whole anchor:
+
+```html
+<a href="mailto:dataprivacy@sourceitmarketing.com">dataprivacy2026@sourceitmarketing.com</a>
+```
+
+Those are two different mailboxes. The one you *see* is live. The one you
+actually mail when you click is dead — rejected by their own Office 365 tenant:
+
+> "Your message to dataprivacy@sourceitmarketing.com couldn't be delivered.
+> dataprivacy wasn't found at sourceitmarketing.com... Recipient Unknown"
+
+So the page works for anyone who retypes the visible address by hand, and fails
+for anyone who does what the page invites them to do. The three plain-text
+occurrences elsewhere in the same policy all carry the year stamp, which tells
+you what happened: the mailbox was rotated, the prose was updated, and the href
+was missed.
+
+**Two things make this worse than an ordinary stale contact.**
+
+*The year stamp is a rotation signal.* `dataprivacy2026@` implies a
+`dataprivacy2025@` that is now gone and a `dataprivacy2027@` that does not exist
+yet. Every address you cache from a site like this has an expiry date, and every
+aggregator listing of it is guaranteed to go wrong on a schedule. When you see a
+year in a privacy mailbox, record *when* you verified it, not just that you did.
+
+*It defeats naive verification twice over.* My checker extracts addresses from
+the fetched HTML and confirms the registry entry if it appears. Both addresses
+appear — one in the href, one in the text — so the dead one verified as
+`CONFIRMED` and stopped me looking. **A false CONFIRMED is worse than a
+NO_EMAIL**, because NO_EMAIL sends you to look and CONFIRMED tells you to stop.
+
+**Diagnosis.** Compare href against text explicitly; do not extract from the raw
+HTML and treat the union as one pool:
+
+```
+grep -oiE '<a[^>]*mailto:[^"]*"[^>]*>[^<]*</a>' page.html
+```
+
+If they disagree, **both are candidates and neither is authoritative.** The
+tie-break is the surrounding prose: whichever address the policy also states in
+running text, unlinked, is the one a human wrote on purpose. Failing that, mail
+the visible one — a person maintaining a page looks at what renders.
+
+**This is §61 with the polarity reversed.** There (attribits) the displayed text
+was correct and the href carried a typo'd domain that had no NS or MX at all,
+which is easy to spot. Here the href is a perfectly well-formed address on a
+live domain with live MX — it just has nobody behind it. The general rule that
+covers both: **a link is two independent claims, and a page can be right about
+one and wrong about the other.**
+
+**Related:** §45, §61, §64, §65.

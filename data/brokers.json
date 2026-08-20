@@ -7440,13 +7440,13 @@
       "domain": "sourceitmarketing.com",
       "priority": 2,
       "method": "email",
-      "optout_url": "",
+      "optout_url": "https://www.sourceitmarketing.com/privacy",
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "sourceit",
-      "email_to": "dataprivacy@sourceitmarketing.com",
+      "email_to": "dataprivacy2026@sourceitmarketing.com",
       "email_verified": true,
-      "email_verified_by": "privacy_policy"
+      "email_verified_by": "the address in their privacy policy PROSE (three occurrences). The mailto: href on the same page points at dataprivacy@ without the year stamp, which hard-bounces 550 Recipient Unknown on their Office 365 tenant - so clicking their own link fails and retyping the visible text works. They also require the subject line \"CCPA Opt-out\" for opt-out requests and run a self-service portal at /privacy."
     },
     {
       "id": "south_carolina_arrests",
@@ -7789,8 +7789,8 @@
       "source": "optery_scrape",
       "optery_slug": "telefi",
       "email_to": "ccpa@telefi.app",
-      "email_verified": false,
-      "email_verified_by": null
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
     },
     {
       "id": "telephone_directories",
@@ -7803,8 +7803,8 @@
       "source": "optery_scrape",
       "optery_slug": "telephone-directories",
       "email_to": "support@telephonedirectories.us",
-      "email_verified": false,
-      "email_verified_by": null
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
     },
     {
       "id": "tennessee_arrests",
@@ -7909,8 +7909,8 @@
       "source": "optery_scrape",
       "optery_slug": "the-bridge-corp",
       "email_to": "privacy@thebridgecorp.com",
-      "email_verified": false,
-      "email_verified_by": null
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
     },
     {
       "id": "tl1",
@@ -7922,9 +7922,9 @@
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "tl1",
-      "email_to": "data@tl1mkt.com",
-      "email_verified": false,
-      "email_verified_by": null
+      "email_to": "privacy@tl1mkt.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
     },
     {
       "id": "trestle",

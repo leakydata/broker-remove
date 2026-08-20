@@ -1541,3 +1541,63 @@ already did, for the same person, on the same platform.
 **Related:** §36 (the self-service tool that searches a different index),
 §37 (replacing the argument with a query), and `_BROKER_FAMILIES.md` on citing
 one sibling's granted request to the rest.
+
+## §41 "We do not hold clear text email" — said by a portal whose lookup key is your email
+
+Tapad's autoresponse states plainly:
+
+> "we do not collect or hold any of the following information: name, clear text
+> email, phone number, address, any government-issued number or ID, or precise
+> location information."
+
+Read alone, that sounds like "we have nothing of yours." Then their own request
+portal asks for an email address as the lookup key, and explains why that is
+consistent:
+
+> "we only collect encrypted emails and do not retain any emails in clear text
+> form. The email address you provide will only be used for the purpose of
+> processing your request"
+
+Both statements are true. Together they *concede the point*, and the useful move
+is to say so rather than to accuse anyone of contradicting themselves.
+
+**The argument, in one sentence.** If a clear-text address typed into a box
+deterministically finds your record, the stored hash is functioning as a stable
+identifier for you — hashing changes the storage format, not what the key
+resolves to, because the input space of email addresses is small, known and
+enumerable. A company that builds its own rights portal on "type your address
+and we will find you" has already assumed this; you are only asking them to
+apply the same assumption to the definition of personal information.
+
+Say it *with* them, not at them. "I am not treating that as a contradiction — I
+think it is an accurate description of a hashed-email keyspace, and I am glad it
+is stated plainly. But it settles the point my letter was making." A concession
+offered generously is much harder to walk back than one extracted.
+
+**The second half is where the real answer lives.** The same portal disclosed
+something the autoresponse did not:
+
+> "whenever an ID... is opted out it will be opted out in perpetuity and we will
+> automatically remove any other IDs that Tapad determines to be associated or
+> related to that ID for sixty (60) days. If those related IDs have not been
+> opted out during the sixty (60) day period, those IDs will follow our standard
+> data ingress rules."
+
+The node is permanent; **the cluster is temporary**. In an identity business the
+cluster is the product, so a removal with a sixty-day cascade window deletes one
+node from a graph that reassembles around it. Turn that into the §37 shape — a
+question a database can answer, with a stated exit:
+
+> "After day sixty, does the linkage between the remaining members of that
+> cluster still exist — yes or no? If yes, tell me which request type dissolves
+> it. If no, I will record this as complete and not write again."
+
+**The general lesson.** Read the *portal*, not only the autoresponse. The
+autoresponse is written by the privacy team to close a ticket; the portal is
+written by the engineers to describe what the system does, and it routinely
+discloses the limitation the autoresponse omits. The material for the strongest
+follow-up is usually sitting on the page they just directed you to.
+
+**Related:** §35 (B2B tool, so not personal information), §37 (replacing the
+argument with a query), and `_SILENT_FAILURES.md` on point-in-time vs standing
+suppression.

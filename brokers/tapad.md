@@ -12,18 +12,51 @@
 
 ## Steps
 
-<!-- Replace once the route is confirmed. What actually worked, in order. -->
+Email gets you a ticket; it does not get you a removal. `privacy@tapad.com`
+raises a Jira issue on an **Experian Marketing Services** Atlassian instance
+(`PRIV-` prefix) and returns an autoresponse redirecting all Access and Deletion
+requests to the portal at `crportal.tapad.com`.
+
+1. Open `https://crportal.tapad.com/#/` and scroll to the bottom — the three
+   entry buttons (**EMAIL**, **COOKIE or MOBILE ADVERTISING ID**, **IP Address**)
+   are below several screens of instructions.
+2. Choose **EMAIL**. It is the only path that needs nothing from the device.
+3. Set Request Type. Choosing **Deletion** or **Data Access** makes a
+   **Signature** canvas appear that was not there a moment before; **Opt Out**
+   does not — their page says opt-out requests do not require a Certification
+   Form.
+4. Set Country, then the email address.
+5. Remaining: draw a signature with the mouse, tick the reCAPTCHA, Submit.
+
+The signature certifies **under penalty of law** that you own the address. Stage
+it and hand off — that attestation belongs to the person, not to the tooling.
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+- **One identifier per submission.** Twelve addresses means twelve runs, each
+  with its own signature and CAPTCHA.
+- **The certification text changes with the path.** On the Cookie/MAID path you
+  certify ownership of the *devices*; on the Email path, ownership of the
+  *email*. Read which one you are signing.
+- **They say they hold no name.** "Tapad does not know your name or known
+  identity details, we rely on device identifiers." So do not lead with a name —
+  it is not a key here, and a name-shaped request invites a true "no record".
+- **"No clear text email" is not "no email".** The portal states they hold
+  encrypted emails and use the address you type to find them. That concedes the
+  hashed-email point rather than refuting it — see `_DEFLECTIONS.md` §41.
+- **The sixty-day cascade is the real limit, and only the portal discloses it.**
+  An opted-out ID is out "in perpetuity", but related IDs are removed for
+  **sixty days only**, after which they "follow our standard data ingress
+  rules". The node is permanent; the cluster is not. In a cross-device graph
+  that is the difference between a deletion and a pause.
+- **IP-address opt-outs expire at twelve months** and public IPv4 addresses
+  rotate between households, so that path is worth little.
+- **UK/EEA is out of scope entirely** — they state they ceased UK/EEA data use
+  on 1 August 2021 and deleted what they held.
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+No public profile to search. The observable is their written answer to the
+sixty-day question: after day sixty, does the linkage between the remaining
+members of the cluster still exist? A yes converts this from a completed request
+into an open one, and tells you which request type to file instead.
