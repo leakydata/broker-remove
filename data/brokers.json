@@ -7133,7 +7133,7 @@
     {
       "id": "roc_advertising",
       "name": "Roc Advertising",
-      "domain": "simpleoptoutcompliance.com",
+      "domain": "rocadvertising.com",
       "priority": 2,
       "method": "email",
       "optout_url": "",
@@ -7141,8 +7141,9 @@
       "source": "optery_scrape",
       "optery_slug": "roc-advertising",
       "email_to": "privacy@rocadvertising.com",
-      "email_verified": true,
-      "email_verified_by": "published in rocadvertising.com/privacy-policy/ as HTML character entities (scraper-resistant); requires subject line \"Data Removal Request\". Old address dataprivacy_rocadvertising@simpleoptoutcompliance.com hard-bounces 550 5.1.1."
+      "email_verified": false,
+      "email_verified_by": "published in rocadvertising.com/privacy-policy/ as HTML character entities (scraper-resistant); requires subject line \"Data Removal Request\". Old address dataprivacy_rocadvertising@simpleoptoutcompliance.com hard-bounces 550 5.1.1.",
+      "email": null
     },
     {
       "id": "round_sky",
@@ -8202,7 +8203,8 @@
       "optery_slug": "usdatacorporation",
       "email_to": "privacy@usdatacorporation.com",
       "email_verified": false,
-      "email_verified_by": null
+      "email_verified_by": null,
+      "email_alt": "info@usdatacorporation.com"
     },
     {
       "id": "usphonelookup",
@@ -8376,9 +8378,9 @@
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "vermont-arrests",
-      "email_to": "support@infotracer.com",
-      "email_verified": false,
-      "email_verified_by": null
+      "email_to": "privacy@infotracer.com",
+      "email_verified": true,
+      "email_verified_by": "privacy@infotracer.com is published on infotracer.com/optout/ and is the address used by all 48 sibling arrest sites; support@ was a stale registry value."
     },
     {
       "id": "vermontcourtrecords_us",
@@ -8405,8 +8407,8 @@
       "source": "optery_scrape",
       "optery_slug": "versium",
       "email_to": "optout@versium.com",
-      "email_verified": false,
-      "email_verified_by": null
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
     },
     {
       "id": "viant",
@@ -8560,8 +8562,8 @@
       "source": "optery_scrape",
       "optery_slug": "webbula",
       "email_to": "privacy@webbula.com",
-      "email_verified": false,
-      "email_verified_by": null
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
     },
     {
       "id": "weinform",
@@ -8758,8 +8760,8 @@
       "source": "optery_scrape",
       "optery_slug": "wyty",
       "email_to": "support@wyty.com",
-      "email_verified": false,
-      "email_verified_by": null
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
     },
     {
       "id": "x_mode_social",
@@ -8812,8 +8814,8 @@
       "source": "optery_scrape",
       "optery_slug": "zlookup",
       "email_to": "hello@ZLOOKUP.com",
-      "email_verified": false,
-      "email_verified_by": null
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
     },
     {
       "id": "1called_com",

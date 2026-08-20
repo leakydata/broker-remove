@@ -1,15 +1,15 @@
 # Inmatessearcher
 
 - **Opt-out:** https://www.inmatessearcher.com/api/helper/optOutLight/search
-- **Email:** support@inmatessearcher.com — **unverified, may bounce**
+- **Email:** support@inmatessearcher.com (verified — replies from a named agent)
 - **Method:** web_form — Web form.
 - **Domain:** inmatessearcher.com
 - **Priority: 2.**
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-20)
-- Note: SENT 2026-08-20 00:10 UTC as part of ONE consolidated letter to nine addresses covering all sixteen brands on the /api/helper/optOutLight/search platform. The letter names every site, gives the shared URL path as the reason for treating them as one operator, explicitly does NOT ask anyone to confirm corporate structure (only which sites they actioned), and leads with the precedent that privaterecords granted this identical request for this identical person from an email thread on 2026-08-19 without any form. Also carries the five questions none of the family has answered across three exchanges, with the criminal/inmate/sealed-record/mugshot question expanded because three members are branded specifically around that content.
+- Current: `confirmed` (updated 2026-08-20)
+- Sixth site on the optOutLight platform to confirm removal in writing.
 
 ## Steps
 
@@ -63,3 +63,39 @@ That converts an empty search from an inference into their own stated position, 
 it can be recorded as `not_found` on their authority -- with the caveat that it is
 scoped to the name, city and state searched, so a listing filed under a former city
 would not appear.
+
+## Outcome
+
+Confirmed 2026-08-20 13:04 UTC, signed by a named support agent:
+
+> "From the information you provided, we have removed your information from our
+> database at https://www.inmatessearcher.com"
+
+Same template, down to the punctuation, as privaterecords, backgroundcheckers,
+mugshotlook, weinform and checksecrets — differing only in brand name and URL.
+Six confirmations, one wording, which is the strongest evidence yet that the
+sixteen brands run one removal process behind one queue.
+
+**What they did not answer**, and this is the pattern rather than an oversight
+(`_DEFLECTIONS.md` §40):
+
+- the yes/no on whether the removal covered the other ten sites on the platform
+- whether it is a suppression that survives the next ingest, or a one-time removal
+- whether it reaches entries where the subject appears on *another* person's
+  profile as a relative or associate
+- which source any criminal, inmate or sealed-record entry came from
+
+The reply also pre-blames the requester's browser cache:
+
+> "If your name still appears in our listings, it is possible we were unable to
+> distinguish your listing across multiple similar listings ... or your browser
+> cache contains stale data."
+
+That sentence does real work for them — it converts a failed removal into a
+user-side problem in advance. Verify with a **cold fetch** rather than a browser
+session, so the cache explanation cannot apply.
+
+**Citing siblings remains the single most effective technique here.** The letter
+that produced this quoted five prior confirmations verbatim with dates, asked one
+yes/no question a database can answer, and explicitly declined to ask anyone to
+confirm corporate structure. Keep all three of those properties when reusing it.

@@ -1030,7 +1030,7 @@
     "via": null
   },
   "inmatessearcher": {
-    "status": "submitted",
+    "status": "confirmed",
     "changed": "2026-08-20",
     "via": "email"
   },
@@ -2239,6 +2239,11 @@
     "changed": "2026-08-18",
     "via": "email"
   },
+  "shopify": {
+    "status": "submitted",
+    "changed": "2026-08-20",
+    "via": "email"
+  },
   "simiocloud": {
     "status": "captcha_blocked",
     "changed": "2026-08-20",
@@ -2354,6 +2359,11 @@
     "changed": "2026-08-20",
     "via": "email"
   },
+  "structure": {
+    "status": "submitted",
+    "changed": "2026-08-20",
+    "via": "email"
+  },
   "sync_me": {
     "status": "submitted",
     "changed": "2026-08-20",
@@ -2389,6 +2399,11 @@
     "changed": "2026-08-16",
     "via": null
   },
+  "terminus": {
+    "status": "manual_required",
+    "changed": "2026-08-20",
+    "via": "web"
+  },
   "texascourtrecords_us": {
     "status": "submitted",
     "changed": "2026-08-16",
@@ -2415,7 +2430,7 @@
     "via": "email"
   },
   "trestle": {
-    "status": "submitted",
+    "status": "confirmed",
     "changed": "2026-08-20",
     "via": "email"
   },
@@ -2433,6 +2448,11 @@
     "status": "submitted",
     "changed": "2026-08-20",
     "via": "email"
+  },
+  "trustoria": {
+    "status": "unreachable",
+    "changed": "2026-08-20",
+    "via": null
   },
   "truthfinder": {
     "status": "submitted",
@@ -2469,6 +2489,11 @@
     "changed": "2026-08-20",
     "via": "web"
   },
+  "unmask": {
+    "status": "submitted",
+    "changed": "2026-08-20",
+    "via": "email"
+  },
   "us_marketing_group": {
     "status": "submitted",
     "changed": "2026-08-20",
@@ -2483,6 +2508,11 @@
     "status": "not_found",
     "changed": "2026-08-19",
     "via": "web"
+  },
+  "usdatacorporation": {
+    "status": "submitted",
+    "changed": "2026-08-20",
+    "via": "email"
   },
   "usphonelookup": {
     "status": "submitted",
@@ -2514,6 +2544,11 @@
     "changed": "2026-08-20",
     "via": null
   },
+  "venpath": {
+    "status": "submitted",
+    "changed": "2026-08-20",
+    "via": "email"
+  },
   "veraset": {
     "status": "submitted",
     "changed": "2026-08-20",
@@ -2539,10 +2574,20 @@
     "changed": "2026-08-17",
     "via": null
   },
+  "vermont_arrests": {
+    "status": "submitted",
+    "changed": "2026-08-20",
+    "via": "email"
+  },
   "vermontcourtrecords_us": {
     "status": "submitted",
     "changed": "2026-08-16",
     "via": null
+  },
+  "versium": {
+    "status": "submitted",
+    "changed": "2026-08-20",
+    "via": "email"
   },
   "viant": {
     "status": "submitted",
@@ -2569,6 +2614,11 @@
     "changed": "2026-08-20",
     "via": null
   },
+  "voterrecords_com": {
+    "status": "submitted",
+    "changed": "2026-08-20",
+    "via": "email"
+  },
   "warmly": {
     "status": "submitted",
     "changed": "2026-08-20",
@@ -2589,6 +2639,11 @@
     "changed": "2026-08-16",
     "via": null
   },
+  "webbula": {
+    "status": "submitted",
+    "changed": "2026-08-20",
+    "via": "email"
+  },
   "weinform": {
     "status": "confirmed",
     "changed": "2026-08-20",
@@ -2608,6 +2663,11 @@
     "status": "submitted",
     "changed": "2026-08-15",
     "via": "reply"
+  },
+  "windfall": {
+    "status": "submitted",
+    "changed": "2026-08-20",
+    "via": "email"
   },
   "wisconsin_arrests": {
     "status": "submitted",
@@ -2644,6 +2704,11 @@
     "changed": "2026-08-16",
     "via": null
   },
+  "wyty": {
+    "status": "submitted",
+    "changed": "2026-08-20",
+    "via": "email"
+  },
   "x_mode_social": {
     "status": "submitted",
     "changed": "2026-08-20",
@@ -2658,5 +2723,10 @@
     "status": "submitted",
     "changed": "2026-08-15",
     "via": "reply"
+  },
+  "zlookup": {
+    "status": "submitted",
+    "changed": "2026-08-20",
+    "via": "email"
   }
 }

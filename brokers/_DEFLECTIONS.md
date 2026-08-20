@@ -1652,3 +1652,86 @@ the behaviour he was objecting to.
 
 **Related:** §37 (replacing the argument with a query — still right, but the
 query has to arrive in a form a human will read), §40.
+
+---
+
+## §43 The rights form only an employee of some company can complete
+
+DemandScience's rights portal is a real form, hosted by PrivacyEngine, reachable,
+functional, and it submits. It asks a consumer exercising a consumer right for:
+
+- **Business Email Address** (required)
+- **What is the name of the company you work for?** (required)
+- **Requester Business Phone** (required)
+- **Data Subject Business Phone** (required)
+- **Category of Data Subject** (required), whose complete option list is:
+  Current Employees · Former Employees · Job Candidates · Shift Workers ·
+  Customers · Suppliers · Students · USA
+
+Read that last list again. It enumerates every category of person a company has a
+*relationship* with. The one category it omits is the one that describes almost
+everyone a data broker holds records about: **a member of the public, whose
+information was compiled without any relationship existing at all.** ("USA" is
+not a category of data subject; it is a stray row someone left in the config.)
+
+**This is not a refusal, and it is important not to treat it as one.** Nobody
+decided to exclude consumers. The form is a generic GDPR data-subject-request
+template, built for an organisation fielding requests from its own staff,
+applicants and customers, deployed unchanged at a company whose entire product is
+records about strangers. The mismatch is structural, not hostile — and it is
+worse than hostile, because there is no one to argue with.
+
+**What it does to the requester.** Every mandatory field is answerable only by
+someone acting in a corporate capacity. A private individual has no business
+email in this context, no employer relevant to the request, and no honest choice
+in the dropdown. The form will not submit until they misrepresent themselves.
+That is a rights mechanism that works for everyone except the people the statute
+was written for.
+
+**How to fill it without lying.** Complete it, and put the disclaimer *inside the
+submission* so the record carries it:
+
+- Business email → the personal address. It is the address they must reply to.
+- Employer → `Not applicable - I am a consumer, not a business contact`
+- Category → pick the least-wrong option, then say so explicitly in the free text:
+
+> This field is mandatory and its only options are Current Employees, Former
+> Employees, Job Candidates, Shift Workers, Customers, Suppliers, Students, and
+> "USA". None of those describes me. I have never been an employee, candidate,
+> customer, supplier or student of yours. I am a member of the public whose
+> personal information was compiled without any relationship between us, which is
+> the ordinary situation for a data broker's records and is not offered as a
+> choice. I have selected "Customers" only because the form will not submit
+> without a selection, and I am stating here explicitly that it is not accurate so
+> that it is not later read as an admission of a commercial relationship.
+
+The last clause is the one that matters. A dropdown selection is an assertion,
+and it persists in their ticketing system long after the free text is skimmed.
+Disclaim it in the same submission or it stands unopposed.
+
+**On the business-email demand specifically**, one sentence is enough and it is
+worth including because it is both true and load-bearing:
+
+> California's business-to-business carve-out sunset on 1 January 2023, so a
+> business contact record is personal information on the same footing as a
+> consumer one, and a rights form that can only be completed by someone with a
+> corporate email excludes exactly the people the statute covers.
+
+**The related, milder version: no route at all.** Windfall's privacy policy
+publishes no privacy contact address and offers, as its only opt-out mechanism,
+links to the DAA, NAI and Google Analytics industry tools. Those govern
+advertising cookies in a browser. They do not touch a compiled consumer record,
+and they are not a mechanism for deletion, access, or opt-out of sale. Pointing
+at them is not a rights route; it is a rights-shaped object in the place where
+the route should be. Say that plainly, write to a guessed `privacy@` anyway, and
+note the absence — a bounce and a silence are different findings, and both are
+worth recording.
+
+**The general shape.** Both cases are the same failure wearing different clothes:
+**a compliance artifact built for a population that does not include you.** The
+portal, the dropdown, the industry opt-out link — each is genuine, each was
+adopted in good faith, and each answers a question nobody in your position asked.
+Do not argue with it. Complete it, disclaim what is inaccurate, and put the
+structural problem in writing where a human will read it.
+
+**Related:** §17, §24, §41, and §71 in `_SILENT_FAILURES.md`.

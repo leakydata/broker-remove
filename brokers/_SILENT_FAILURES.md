@@ -2443,13 +2443,28 @@ Stop guessing after the second bounce. The signal to distinguish:
 | `5.1.1` on two or more, incl. published | the domain accepts no mail; email is not a route |
 | `5.7.1` on any | policy rejection — stop immediately, they see you |
 | no MX / null MX | the domain never accepted mail; do not try |
+| NS delegated, but no A **and** no MX | the domain is a shell; there is no site and no mailbox |
 
 When you land in row three, the remaining route is whatever is not email: a
 contact form, a rights portal, or a postal address. Record the domain as
 email-dead in the registry with the evidence, so a later pass does not spend the
 same three sends rediscovering it.
 
-**Related:** §45, §46, §64.
+**A note on row six, added after Trustoria.** `trustoria.com` returns four
+`nsone.net` nameservers and nothing else — no A record, no MX. `curl` reports
+exit code 0 bytes, which is the same thing it reports for a timeout, a TLS
+failure and an aggressive bot block. Those four states look identical from the
+fetch layer and only one of them means "give up", so **resolve before you
+conclude**. A domain with NS and no A is registered and delegated but not
+serving: somebody is still paying for the name and nothing is behind it. That is
+`unreachable`, and unlike a bot block it will not come back with a better User-Agent.
+
+The general rule: a failed fetch is a question, not an answer. `dig A`, `dig MX`
+and `dig NS` cost nothing and turn four indistinguishable failures into four
+distinguishable ones. §68's Tymax diagnosis needed the same three commands to
+find a parking page behind live Outlook MX.
+
+**Related:** §45, §46, §64, §68.
 
 ## §66 The mailto: href and the link text are different mailboxes
 
@@ -2670,3 +2685,211 @@ with the evidence rather than leaving it `pending`, because a pending entry
 invites a future pass to spend the same three sends rediscovering this.
 
 **Related:** §45, §64, §65 (the four bounce cases), §67.
+
+---
+
+## §69 The confirmation that names a record you do not recognise
+
+Search Public Records answered a removal request with a clean, unambiguous
+confirmation:
+
+> "This email is to confirm that we have removed the public record information
+> for [FIRST LAST] of [TOWN], ME, age [NN] from the search results of
+> SearchPublicRecords.com."
+
+(Name, town and age masked here; the repo is public. The shape is what matters:
+they named a *specific* record, with a locality and an age.)
+
+That is a broker-issued artifact. It names a person, a place, an age and a
+site. By every rule in this repo it is the thing you have been asking brokers
+for: not "we received your request", not "we are reviewing", but a past-tense
+statement that a specific record is gone. It is the strongest class of evidence
+a people-search site produces, and the temptation is to mark it `confirmed` and
+move on.
+
+**The age matched. The location did not.** The subject is 47. No address in the
+request — sixteen of them, across three states and twenty-five years — is in
+Maine, and the subject has never lived there.
+
+So one of two things is true, and they have opposite consequences:
+
+| | What happened | Consequence |
+|---|---|---|
+| **A** | They matched on name + age and hit a *different* person of the same name and age | A stranger's listing was suppressed. The subject's records are untouched and still live. |
+| **B** | The record genuinely is the subject's, and their source data has the locality wrong | The removal worked, but the upstream source is feeding a wrong-locality record that will return on the next ingest. |
+
+Under **A**, the confirmation is worse than no reply, because it closes the
+ticket, closes the loop, and closes the file. The next verification sweep looks
+for the subject's name on the site, and if the site's search is flaky or the
+cache is warm it reads as removed. Under **B**, the removal is real but the
+useful information is the source name, which the confirmation does not give.
+
+Both readings share one instruction: **do not mark it confirmed.**
+
+**The general rule.** A confirmation is evidence about the broker's *action*,
+not about *whose record it acted on*. Those come apart whenever the subject has
+a common name, and they come apart silently, because nothing in the workflow
+compares the identifying details in the confirmation against the ones in the
+request. Most confirmations do not name a record at all — "we have removed your
+information from our database" identifies nobody — so the failure is invisible
+by default. This one was catchable only because the broker was unusually
+specific.
+
+**Check to add.** When a confirmation names *any* identifying detail — a city,
+an age, a middle initial, a former address, a relative — diff it against the
+request. Treat a mismatch on locality as disqualifying and a match on age alone
+as meaningless: age is a one-in-eighty coincidence, and for a common name in a
+national database there are many people who match on name and age together.
+
+**What to write back.** Ask for three things, and ask for the third one plainly
+even though it works against the immediate goal:
+
+1. Re-run the removal against the *addresses* supplied, not against a name-and-age
+   match, and say how many records matched.
+2. If the named record is not the subject's, **restore it.** Nobody asked for a
+   stranger's listing to be taken down, and a privacy project that quietly
+   accepts collateral suppression of third parties has stopped being a privacy
+   project. This is the ask that costs nothing and is worth making every time.
+3. If the record genuinely is the subject's with a wrong locality, name the
+   source, so the error can be corrected upstream rather than hidden here.
+
+**Why this is worth its own section.** Every other pattern in this file is a
+broker doing less than it claimed. This is a broker doing *exactly* what it
+claimed, competently and promptly, to the wrong person — and reporting success
+to both of you. The tell is not in the language of the confirmation. It is in a
+field the confirmation happened to include.
+
+**Related:** §11, §40, §65, §70.
+
+---
+
+## §70 The ticket that closed without a reply, and the survey that proves it
+
+Three sibling sites — publicinfoservices, publicdatacheck, publicrecordreports —
+each acknowledged a request within minutes:
+
+> "Your email has been received and is being reviewed by ... support staff."
+
+Then, thirty hours later, from all three at once:
+
+> "We'd love to hear what you think of our customer service. Please take a
+> moment to answer one simple question ... How would you rate the support you
+> received?"
+
+Nothing in between. No outcome, no refusal, no request for more information.
+The ticket went from Open to Solved and out the other side, and the only
+evidence that anyone touched it is a satisfaction survey asking how the support
+went.
+
+**The survey is a real artifact, and it is the wrong one.** Zendesk fires CSAT
+on transition to Solved, so its arrival is proof that a human (or a macro)
+moved the ticket to Solved. It is proof of *closure*. It is not proof of
+*removal*, and it does not distinguish between "we removed the records",
+"we found nothing", and "we bulk-closed a queue". Those three outcomes produce
+byte-identical mail to the requester.
+
+This is the mirror image of §69. There, an artifact named a record and told you
+something false. Here, an artifact confirms activity and tells you nothing at
+all — while looking, in a status column, exactly like progress.
+
+**The family tell, again.** The three ticket numbers were 3421272, 3421273 and
+3421281, issued across three different Zendesk subdomains. Sequential IDs on
+what are nominally three unrelated companies mean one shared queue, and one
+queue means one bulk close (see §40 and the family-detection notes). It also
+means the three follow-ups below are read by the same person, so send one
+question, not three arguments.
+
+**Do not rate the survey.** Clicking a rating resolves the CSAT and gives the
+desk a metric without giving you an answer. Rate nothing.
+
+**What to do instead: reply into the ticket thread, not the survey.** Replying
+to a Solved Zendesk ticket reopens it, which is the point. Reply to the
+*acknowledgement* email — that is the ticket thread; the survey is a separate
+notification and its reply path goes to a rating endpoint.
+
+**What to say.** Make it cheaper to answer than to ignore, and make every
+possible answer acceptable:
+
+> I have just received a "how would you rate the support you received" survey
+> for request #NNNN, which I take to mean the ticket has been closed. I never
+> received a reply telling me what was done, so I have nothing to rate and
+> nothing to record.
+>
+> I am not complaining about the closure. I would just like one line, and any of
+> these is a complete answer as far as I am concerned:
+> "Removed" / "We hold no record matching what you sent" / "We need something
+> more from you".
+
+Offering "we hold nothing" as a *complete and accepted* answer matters. A desk
+that bulk-closes tickets does so because answering feels like work with a
+downside; removing the downside is what makes the one-line reply happen.
+
+**Status handling.** A CSAT survey does not move a broker to `confirmed`. It
+does not move it to `failed` either — the ticket was worked, we simply do not
+know how. Leave it `submitted`, record the survey and the ticket number in the
+note, and let the reply or the next verification sweep decide.
+
+**Related:** §11, §40, §69.
+
+---
+
+## §71 The rights page with no rights form on it
+
+Terminus's privacy links redirect to demandscience.com, and
+`terminus.com/privacy-rights/` returns 404. So the live route is
+`demandscience.com/privacy-rights/`, a page whose `<title>` is
+"California Consumer Privacy Act (CCPA)".
+
+A scripted check of that page finds **three `<form>` elements**. By §62's test —
+does a form exist and does it have handlers — the page passes. It is not
+decorative, it is not an empty embed, the forms are real and they submit.
+
+They are two copies of the site-search box and a newsletter signup.
+
+```
+form 0  .kb-search-form      action=demandscience.com/       [ s ]
+form 1  .kb-search-form      action=demandscience.com/       [ s ]
+form 2  #newsletter-subscribe action=b2bleadgen.demandscience.com/l/811663/...
+```
+
+**The rights mechanism is not a form on the page. It is one anchor:**
+
+> Click here to submit a Data Subject Rights Request
+
+pointing at a `portal.privacyengine.io` URL. One link, in body text, on a page
+otherwise occupied by product marketing — the extracted page text runs through
+"Ionic", "Labs", "VID", "Content-IQ", "AI Visibility Studio" twice before
+reaching anything about privacy.
+
+**Why this defeats the existing tests.** §62 asks whether a form exists. §63
+asks whether a portal renders. Both are *presence* checks, and both are
+satisfied here by forms that have nothing to do with rights. Counting forms is
+not the same as finding the one that matters, and a page can be simultaneously
+form-rich and rights-empty.
+
+**The check to add.** After counting forms, classify them. A rights form has
+some subset of: a request-type selector, a state-of-residence field, an
+identity field beyond email, an attestation. A form whose only control is named
+`s`, or whose action points at a marketing-automation host
+(`b2bleadgen.`, `pardot`, `hs-sites`, `list-manage`), is not it. If no form
+classifies, **then** sweep anchors and buttons for rights-shaped link text
+before concluding anything:
+
+```
+[...document.querySelectorAll('a,button')]
+  .filter(e => /click here|submit|request|exercise|rights|do not sell/i.test(e.innerText||''))
+  .map(e => ({txt: e.innerText, href: e.getAttribute('href'), onclick: e.getAttribute('onclick')}))
+```
+
+Note this is the same sweep §62's companion test uses for the Ketch modal case,
+run for the opposite reason. There the link had `href="javascript:void(0)"` and
+opened a modal in place; here it is an ordinary `href` to a third-party host.
+**Two failure modes, one probe** — which is the argument for running the anchor
+sweep unconditionally rather than only after the form check fails.
+
+**Also: an initial scrape for `trustarc` on this page hits.** It is the cookie
+banner. The rights vendor is PrivacyEngine. Matching a vendor name anywhere in
+the HTML tells you which consent tools the site loads, not which vendor handles
+rights — resolve that from the link the rights text actually points at.
+
+**Related:** §59, §62, §63, §68.

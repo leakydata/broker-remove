@@ -1744,7 +1744,7 @@
       "email_to": "priorityoptout@intelius.com",
       "email_verified": true,
       "email_verified_by": "broker_reply",
-      "notes": "support@criminaldatacheck.com hard-bounces (550) and is the only address the site itself publishes. This is an Intelius/PeopleConnect affiliate front (optout_url already pointed at intelius.com/privacy-center) \u2014 file against priorityoptout@intelius.com naming CriminalDataCheck.com specifically, same pattern as addresses_com and zabasearch.",
+      "notes": "support@criminaldatacheck.com hard-bounces (550) and is the only address the site itself publishes. This is an Intelius/PeopleConnect affiliate front (optout_url already pointed at intelius.com/privacy-center) — file against priorityoptout@intelius.com naming CriminalDataCheck.com specifically, same pattern as addresses_com and zabasearch.",
       "email_alt": "support@criminaldatacheck.com"
     },
     {
@@ -3414,7 +3414,7 @@
       "email_verified": true,
       "email_verified_by": "privacy_policy",
       "email_alt": "privacy@infofree.com",
-      "notes": "privacy@infofree.com hard-bounces (550, address not found); the site's own privacy policy publishes only info@infofree.com. Registry corrected 2026-08-18 to use the working address as primary. Infofree's privacy link also points at a shared privacycompliance.biz/DatabaseUSA portal \u2014 see brokers/infofree.md."
+      "notes": "privacy@infofree.com hard-bounces (550, address not found); the site's own privacy policy publishes only info@infofree.com. Registry corrected 2026-08-18 to use the working address as primary. Infofree's privacy link also points at a shared privacycompliance.biz/DatabaseUSA portal — see brokers/infofree.md."
     },
     {
       "id": "infopay",
@@ -6826,7 +6826,7 @@
     {
       "id": "roc_advertising",
       "name": "Roc Advertising",
-      "domain": "simpleoptoutcompliance.com",
+      "domain": "rocadvertising.com",
       "priority": 2,
       "method": "email",
       "optout_url": "",
@@ -6834,8 +6834,9 @@
       "source": "optery_scrape",
       "optery_slug": "roc-advertising",
       "email_to": "privacy@rocadvertising.com",
-      "email_verified": true,
-      "email_verified_by": "published in rocadvertising.com/privacy-policy/ as HTML character entities (scraper-resistant); requires subject line \"Data Removal Request\". Old address dataprivacy_rocadvertising@simpleoptoutcompliance.com hard-bounces 550 5.1.1."
+      "email_verified": false,
+      "email_verified_by": "published in rocadvertising.com/privacy-policy/ as HTML character entities (scraper-resistant); requires subject line \"Data Removal Request\". Old address dataprivacy_rocadvertising@simpleoptoutcompliance.com hard-bounces 550 5.1.1.",
+      "email": null
     },
     {
       "id": "rocketreach",
@@ -8016,7 +8017,8 @@
       "optery_slug": "usdatacorporation",
       "email_to": "privacy@usdatacorporation.com",
       "email_verified": false,
-      "email_verified_by": null
+      "email_verified_by": null,
+      "email_alt": "info@usdatacorporation.com"
     },
     {
       "id": "usphonebook",
@@ -8226,9 +8228,9 @@
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "vermont-arrests",
-      "email_to": "support@infotracer.com",
-      "email_verified": false,
-      "email_verified_by": null
+      "email_to": "privacy@infotracer.com",
+      "email_verified": true,
+      "email_verified_by": "privacy@infotracer.com is published on infotracer.com/optout/ and is the address used by all 48 sibling arrest sites; support@ was a stale registry value."
     },
     {
       "id": "vermontcourtrecords_us",
@@ -8255,8 +8257,8 @@
       "source": "optery_scrape",
       "optery_slug": "versium",
       "email_to": "optout@versium.com",
-      "email_verified": false,
-      "email_verified_by": null
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
     },
     {
       "id": "viant",
@@ -8395,8 +8397,8 @@
       "source": "optery_scrape",
       "optery_slug": "webbula",
       "email_to": "privacy@webbula.com",
-      "email_verified": false,
-      "email_verified_by": null
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
     },
     {
       "id": "weinform",
@@ -8577,8 +8579,8 @@
       "source": "optery_scrape",
       "optery_slug": "wyty",
       "email_to": "support@wyty.com",
-      "email_verified": false,
-      "email_verified_by": null
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
     },
     {
       "id": "x_mode_social",
@@ -8643,8 +8645,8 @@
       "source": "optery_scrape",
       "optery_slug": "zlookup",
       "email_to": "hello@ZLOOKUP.com",
-      "email_verified": false,
-      "email_verified_by": null
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
     },
     {
       "id": "zoominfo",
