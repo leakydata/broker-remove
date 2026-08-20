@@ -30,20 +30,26 @@ the matter.
 
 ## Gotchas
 
-- **They do NOT offer historical WHOIS.** I asserted they did, on a category
-  inference rather than evidence, and was corrected within the hour. Do not
-  repeat it. See the §67 correction in `_SILENT_FAILURES.md`.
-- **They read their mail and they push back.** That is a reason to be more
-  careful here, not less — an accurate letter gets a real answer, and a sloppy
-  one gets caught immediately.
+- **They do NOT offer historical WHOIS.** I asserted they did on a category
+  inference rather than evidence, and was corrected within the hour. See the
+  §67 correction in `_SILENT_FAILURES.md`.
+- **The exchange ended because of how the letter was written, not what it
+  said.** My follow-up — accurate, and conceding the first error — was answered
+  with "Thanks for the AI response. Binned. Have a nice day." Roughly 700 words,
+  bolded headers, a quoted block, a numbered structure. To a named individual
+  answering their own mail at a small technical site, that reads as bulk. See
+  `_DEFLECTIONS.md` §42.
+- **This is a person, not a desk.** Replies came from a named human address
+  within thirty minutes, twice. Write three sentences, not three pages.
 - **The reverse lookup needs an account**, so the subject cannot check what it
   returns about them without registering. Worth raising as feedback; do not
   create an account to find out.
-- **Their tool inventory is long and mostly infrastructure** — DNS propagation,
+- **Their tool inventory is mostly infrastructure** — DNS propagation,
   traceroute, port scanner, firewall tests. Only the reverse-whois surface is
   person-keyed. Do not treat the rest as broker product.
 
 ## Verification
 
-Not verifiable from outside: the reverse lookup is behind a login. The
-observable is their written answer to the retention question.
+Closed. No evidence they hold pre-redaction registrant data, and the only
+person-keyed surface is behind a login. Do not reopen without new evidence —
+and if you do, write it short.

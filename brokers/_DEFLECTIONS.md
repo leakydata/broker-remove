@@ -1601,3 +1601,54 @@ follow-up is usually sitting on the page they just directed you to.
 **Related:** §35 (B2B tool, so not personal information), §37 (replacing the
 argument with a query), and `_SILENT_FAILURES.md` on point-in-time vs standing
 suppression.
+
+## §42 "Thanks for the AI response. Binned."
+
+The most efficient rejection received so far, and it had nothing to do with the
+law, the scope, or the facts. ViewDNS answered a carefully-argued follow-up with
+one line:
+
+> "Thanks for the AI response. Binned. Have a nice day."
+
+He was not wrong. The letter was ~700 words, opened with a bolded section
+header, ran a quoted block, a numbered structure and a blockquoted question, and
+closed with a bolded "one observation, offered as feedback rather than an
+accusation." Every one of those choices was deliberate and each is defensible on
+its own. Together they produce a document that looks like a template, and a
+template is what a mass mailing looks like.
+
+**This is a distinct failure mode and it deserves its own section**, because
+nothing in the *content* was wrong. The first reply from the same person had
+been substantive and correct. What ended the exchange was the register.
+
+**Match the letter to the reader.** This is the actual lesson, and it cuts
+against a habit that has otherwise worked well:
+
+| reader | what works |
+|---|---|
+| a compliance desk at a large firm | structure helps — numbered asks, headers, statutory citations. It gets routed, logged and answered by process. Length is not a cost. |
+| a one-person operation reading their own mail | structure is the cost. Bold text, headers and numbered asks read as bulk. One question in plain sentences gets an answer; a well-organised page gets binned. |
+
+Before writing, ask which one you are writing to. A `privacy@` address behind a
+ticketing system is the first. A named individual replying personally within
+half an hour from a small technical site is emphatically the second, and the
+second letter should have been three sentences.
+
+**Concrete markers to strip when writing to a person rather than a desk:**
+bold; section headings; blockquotes; numbered or lettered ask-lists; the
+"I would like each confirmed separately" construction; em dashes; any sentence
+that announces what the next paragraph will do. Keep: what you want, why you are
+asking them specifically, and an explicit way to end the exchange.
+
+**How to answer the accusation itself.** Do not argue about whether it was
+machine-written. Concede the criticism, say plainly what you are doing and why
+the tone came out that way, compress the request to one line, and offer to
+accept silence as an answer. Then keep that promise. The reply that follows this
+section did that in about 130 words with no formatting at all.
+
+**And do not send a second one.** "Binned" is a termination. One short,
+plain-language note that owns the criticism is defensible; a third message is
+the behaviour he was objecting to.
+
+**Related:** §37 (replacing the argument with a query — still right, but the
+query has to arrive in a form a human will read), §40.
