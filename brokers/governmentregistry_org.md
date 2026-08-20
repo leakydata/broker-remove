@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-18)
-- Note: Public-records aggregator. Framed the ask as stopping REPUBLICATION of the name-to-record association rather than altering a government record - the latter invites a reasonable refusal, the former is within their control and is the substance. Plus disclosure and source of any criminal/court entry, suppression vs one-time given the re-ingest cycle, relatives-and-associates listings, and a request to name any sibling site sharing the index.
+- Current: `confirmed` (updated 2026-08-20)
+- Note: CONFIRMED: 'Thank you for your request to remove your information. We can confirm that GovernmentRegistry has processed and completed the removal of your data from our services. If you continue to [see it...]' -- two days from letter to completion, by email, with no form, no account and no ID document required.
 
 ## Steps
 

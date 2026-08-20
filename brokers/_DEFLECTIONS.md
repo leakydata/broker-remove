@@ -1440,3 +1440,52 @@ re-ask them in the same message:
 - Whether **customers who already exported a profile** must delete it.
 - Whether a **standing do-not-source entry** is possible — sourcing here is
   continuous, so without one a deletion is a pause.
+
+---
+
+## §39 The voluntary opt-out that beats the statutory one
+
+A broker's autoreply refused an emailed request — *"your request was not submitted
+in the manner required by our Product & Services Privacy Policy"* — and then
+offered **two** routes:
+
+> "Consumers, **regardless of their state of residence**, may opt-out of our
+> database at any time and at no cost via our website… Exercising this opt-out
+> right will prevent [us] from selling your personal information, processing your
+> personal information for targeted advertising or profiling, and will result in
+> the **removal of your personal information from [our] database**."
+
+> "Residents of **certain other states** may also submit deletion/correction
+> requests via our website at /deletion-form and a right to know/access request at
+> /access-form."
+
+The instinct is to reach for the second one: it says *deletion*, it cites statutory
+rights, it looks like the real thing. For a resident of a state without a
+comprehensive privacy law, that instinct is exactly wrong.
+
+> **A statutory form is gated on residency and scoped to the statute. A voluntary
+> company-wide opt-out can be broader, and is often open to people the statute does
+> not cover.** Read the voluntary route before assuming it is the weaker one.
+
+Here the voluntary route delivers sale, targeted advertising, profiling *and*
+database removal, to anyone. The statutory route delivers deletion to residents of
+covered states — which, for Pennsylvania, is nobody.
+
+**Two practical consequences:**
+
+- **When both exist, use the voluntary one first**, then file the statutory one as
+  well if you qualify. They are not alternatives.
+- **Keep the autoreply.** The commitment lives in that message, not on the form.
+  "Regardless of their state of residence… removal of your personal information
+  from our database" is a quotable promise, and the form itself says none of it.
+
+**And the wider lesson about routing refusals.** This one was technically a
+rejection — the request was refused for arriving in the wrong channel. But it was
+the most useful rejection of the day, because it described the business ("data-
+driven marketing… existing and prospective donors and customers"), named three
+routes, and stated what each one does.
+
+> **Read a "wrong channel" refusal for what it discloses, not just for what it
+> declines.** An autoresponder written to deflect still has to explain where to go,
+> and that explanation is frequently the clearest account of the company's data
+> practices you will get.
