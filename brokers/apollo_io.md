@@ -8,8 +8,16 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-21)
-- Note: 2026-08-20: first contact, sent to the address discovered by the verify_emails sweep. Tailored per _CATEGORY_VARIANTS.md.
+- Current: `confirmed` (updated 2026-08-21)
+- Note: privacy@apollo.io replied within minutes: "we have successfully actioned
+  the deletion request you submitted. We have also added the individual to our
+  suppression files to ensure that they are not re-added to the Apollo database
+  in the future." Unusually fast and a genuine confirmation, not an auto-ack —
+  and it names suppression specifically, not just deletion. No mention of the
+  LinkedIn/work-email pushback documented below, so this may have matched on the
+  phone number or name variant alone. Worth a re-check at the 7-14 day mark
+  given how little friction this one had compared to the deflection this
+  category usually produces.
 
 ## Steps
 

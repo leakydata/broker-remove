@@ -9,7 +9,14 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-20)
+- Current: `submitted` (updated 2026-08-21)
+- Note: 2026-08-21: support@unmask.com asked for name, city/state, street address
+  and a profile link, one profile per request. Replied with the identity fields
+  (already in the original letter) and explained no profile link is available —
+  this project has no browser, only email. Asked them to search directly by
+  name + address + DOB instead. Their "one profile per email" line is worth
+  watching: if the account has more than one listing, this may need a second
+  round once the first is resolved.
 
 ## Gotchas
 

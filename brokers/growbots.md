@@ -140,3 +140,14 @@ change with the mailbox.
 
 Removed from the human queue. No click can rescue it, so leaving it there would
 have been a permanent no-op sitting in a list of things a person is asked to do.
+
+## 2026-08-21: routed through their own "other privacy rights" channel
+
+privacy@growbots.com auto-replied again pointing at the Google Form for opt-out,
+but also named a second route for anything else: `customers@growbots.com`, with
+name, jurisdiction and request in the body. Used that instead of the form (which
+this project cannot complete without a browser) to ask them to either honor the
+already-submitted opt-out without the dead-mailbox confirmation, or re-issue the
+confirmation to a reachable address. Framed it as opt-out/suppression, not
+deletion — consistent with the earlier finding that deletion is the worse
+outcome here.

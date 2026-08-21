@@ -89,3 +89,26 @@ for a match, it assembles one.
 
 **Status stays `submitted`, not `not_found`.** The search was real, it was run on
 the wrong keys, and the suppression request is unanswered.
+
+## Closed by them (2026-08-20)
+
+Kelly followed up, confirming the phone numbers were searched too — the request
+that actually mattered here — and got the same negative: *"we have also searched
+the phone numbers you provided and have not located a matching record."* She also
+clarified LeadIQ **does not hold personal email, DOB, or home address at all** —
+not a search-scope limit, a categorical one: *"we do not maintain personal email
+addresses from domains such as Gmail, Hotmail... nor do we maintain dates of
+birth, home addresses, or other consumer information."*
+
+She then declared the search complete unless a work email, professional phone,
+or LinkedIn URL is supplied, and said the ticket would be closed without one.
+**Declined the LinkedIn ask again, for the same proportionality reason as
+before**, and let the ticket close rather than supply an identifier the database
+doesn't currently hold just to manufacture a link.
+
+**Recorded as `not_found`, with the qualifier attached — same shape as
+`leadership_connect.md`.** The negative is now genuinely broader (name, phone
+numbers, and a category statement that consumer identifiers aren't held at all),
+but it is still not a search against a work email or LinkedIn profile, which is
+the key this database actually uses. Someone who later has a professional
+identifier tied to this person should re-open rather than trust this as final.

@@ -7,8 +7,15 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-20)
-- Note: Emailed privacy@xmodesocial.com. X-Mode (rebranded Outlogic) is a mobile-location broker with a public history of onward sale to government contractors — the highest-sensitivity entry in this batch. Full mobility-category letter sent.
+- Current: `submitted` (updated 2026-08-21)
+- Note: `privacy@xmodesocial.com` still hard-bounces (550 5.2.1) as of 2026-08-20/21.
+  **Do not resend here.** The real request already ran to completion under the
+  `outlogic.md` entry (same company, ticket #187713) — a full mobility-category
+  letter, a back-and-forth on the MAID-only search constraint, and a final
+  deflection ("we do not collect personal addresses... need a valid MAID").
+  Resending under this id would duplicate that ticket rather than add coverage.
+  Treat `x_mode_social` and `outlogic` as one company for status purposes; see
+  `outlogic.md` for the actual exchange.
 
 ## Steps
 

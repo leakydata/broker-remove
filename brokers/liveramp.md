@@ -1,7 +1,9 @@
 # LiveRamp
 
 - **Opt-out:** https://liveramp.com/privacy/my-privacy-choices
-- **Email:** ukprivacy@liveramp.com — **unverified, may bounce**
+- **Email:** consumercare@liveramp.com — verified (published on their own
+  my-privacy-choices page). `ukprivacy@liveramp.com` auto-replies that it is
+  scoped to GDPR/services requests only — wrong desk for a US consumer request.
 - **Method:** web_form — Web form.
 - **Domain:** liveramp.com
 - **Priority: 5.**
@@ -9,7 +11,13 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-21)
-- Note: 2026-08-20: first contact, sent to the address discovered by the verify_emails sweep. Tailored per _CATEGORY_VARIANTS.md.
+- Note: 2026-08-20: first contact to ukprivacy@liveramp.com, tailored per
+  _CATEGORY_VARIANTS.md. 2026-08-21: ukprivacy auto-replied confirming it only
+  covers GDPR services requests, not this. Fetched liveramp.com/privacy/my-
+  privacy-choices directly and found `consumercare@liveramp.com` published as
+  the US contact, plus a toll-free line (844) 678-0045 and per-request-type
+  TrustArc web forms (opt-out, access, correction, deletion — all browser/
+  CAPTCHA gated). Re-sent the full request to consumercare@liveramp.com.
 
 ## Steps
 

@@ -2,6 +2,20 @@
   "_comment": "Hand-verified opt-out endpoints. priority 5 = highest impact (widely scraped or feeds other brokers). method: web_form | email | web_form_captcha | account_required | postal | phone. Merged with the Optery list by scripts/build_registry.py",
   "brokers": [
     {
+      "id": "mrss",
+      "name": "M+R Strategic Services",
+      "domain": "mrss.com",
+      "priority": 2,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "reply_discovered",
+      "email_to": "privacy@mrss.com",
+      "email_verified": true,
+      "email_verified_by": "broker_reply",
+      "notes": "Nonprofit fundraising/digital agency. A staff member confirmed by email they searched both their own records and client records held on behalf of nonprofit clients against all emails and phones supplied, found no match, and treat every request as a deletion request."
+    },
+    {
       "id": "33_mile_radius",
       "name": "33 Mile Radius",
       "domain": "33mileradius.com",
@@ -1806,7 +1820,7 @@
       "email_to": "priorityoptout@intelius.com",
       "email_verified": true,
       "email_verified_by": "broker_reply",
-      "notes": "support@criminaldatacheck.com hard-bounces (550) and is the only address the site itself publishes. This is an Intelius/PeopleConnect affiliate front (optout_url already pointed at intelius.com/privacy-center) — file against priorityoptout@intelius.com naming CriminalDataCheck.com specifically, same pattern as addresses_com and zabasearch.",
+      "notes": "support@criminaldatacheck.com hard-bounces (550) and is the only address the site itself publishes. This is an Intelius/PeopleConnect affiliate front (optout_url already pointed at intelius.com/privacy-center) \u2014 file against priorityoptout@intelius.com naming CriminalDataCheck.com specifically, same pattern as addresses_com and zabasearch.",
       "email_alt": "support@criminaldatacheck.com"
     },
     {
@@ -3525,7 +3539,7 @@
       "email_verified": true,
       "email_verified_by": "privacy_policy",
       "email_alt": "privacy@infofree.com",
-      "notes": "privacy@infofree.com hard-bounces (550, address not found); the site's own privacy policy publishes only info@infofree.com. Registry corrected 2026-08-18 to use the working address as primary. Infofree's privacy link also points at a shared privacycompliance.biz/DatabaseUSA portal — see brokers/infofree.md."
+      "notes": "privacy@infofree.com hard-bounces (550, address not found); the site's own privacy policy publishes only info@infofree.com. Registry corrected 2026-08-18 to use the working address as primary. Infofree's privacy link also points at a shared privacycompliance.biz/DatabaseUSA portal \u2014 see brokers/infofree.md."
     },
     {
       "id": "infopay",
@@ -4174,11 +4188,11 @@
       "needs_email_confirm": null,
       "category": "identity_graph",
       "source": "privacyinsightsolutions",
-      "email_to": "ukprivacy@liveramp.com",
-      "email_verified": false,
-      "email_verified_by": "privacy_policy_regional",
+      "email_to": "consumercare@liveramp.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy",
       "email_alt": "cil@liveramp.com, privacy.ar@liveramp.com, privacy.be@liveramp.com, privacy.br@liveramp.com, privacy.de@liveramp.com, privacy.es@liveramp.com, privacy.it@liveramp.com, privacy.nl@liveramp.com",
-      "notes": "Publishes only region-scoped privacy addresses; ukprivacy@liveramp.com is the uk desk. There is no unqualified privacy@ on the site. Say so in the letter and ask to be routed to the US/global contact."
+      "notes": "Publishes only region-scoped privacy addresses; ukprivacy@liveramp.com is the uk desk. There is no unqualified privacy@ on the site. Say so in the letter and ask to be routed to the US/global contact. ukprivacy@ auto-replied confirming it's the wrong desk for a US request (GDPR-services-only). consumercare@liveramp.com is published on liveramp.com/privacy/my-privacy-choices as the US contact; also TrustArc web forms per request type and a toll-free line (844) 678-0045."
     },
     {
       "id": "lizdev",
