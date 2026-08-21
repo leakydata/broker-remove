@@ -987,3 +987,80 @@ data subject is the only party who must identify themselves to learn what is
 published about them. Worth naming to them as feedback; it is not a violation,
 but it is an asymmetry most companies have not thought about.
 
+
+## B2B contact & sales prospecting databases  (e.g. Apollo, ZoomInfo, RocketReach, Hunter, ContactOut, SignalHire, Wiza, Snov, Prospeo, LeadIQ)
+
+The largest single category by count, and the one where the standard consumer
+letter fails most quietly. These products sell a work email address and a
+telephone number for a named person at a named company, usually to someone who
+will then cold-contact them.
+
+**Why a consumer-shaped request returns a true nothing.** The index key is a
+*work* address, and a large share of those were never chosen by the person they
+belong to — they are generated from name-and-domain patterns observed at other
+employees, or captured from a signature block by a customer's browser extension.
+So a search over personal webmail addresses is a real search on keys the index
+does not use. The negative is honest and means almost nothing.
+
+Say so in the letter, without accusing anyone of dodging:
+
+> A search over the personal email addresses above will very likely return
+> nothing even if you hold a record, because those are not the keys a B2B contact
+> database is built on. Please search the **telephone numbers** and the **name
+> variants** instead. For your product the phone number is the most person-shaped
+> field you hold: a direct dial or personal mobile follows someone between jobs,
+> and it is the element that actually produces the calls.
+
+**Do not answer "which email format is it under."** That asks you to reproduce an
+identifier the broker manufactured. Listing plausible permutations invites a hit
+on a different person with the same name, which is worse than a miss. Instead ask
+them to state whether their records are keyed to observed addresses or to
+pattern-generated ones — the answer tells you whether a null result on your real
+addresses could ever have been informative. See `_DEFLECTIONS.md` §44.
+
+**Never supply a LinkedIn or other profile URL to one of these.** Offered as
+verification (`_DEFLECTIONS.md` §38) or as a search convenience (§44), the effect
+is the same: a stable, unique, employer-linked key handed to a database whose
+business is joining keys. If no record exists, that search does not test for a
+match, it assembles one. The single exception is a broker that has already
+demonstrated it holds the profile — one that has sent you the scraped record. It
+cannot re-learn what it has already shown you.
+
+**Four asks specific to this category:**
+
+1. **Exported copies.** The platform exists so customers can push contacts into a
+   CRM or a sequencer. Every export is a copy the broker's deletion cannot reach,
+   and it is the copy that generates the calls and the emails. Ask which
+   customers received the record and ask them to be directed to delete it.
+   Without that list there is no route to the copies at all.
+
+2. **Capture-by-extension.** Many of these products acquire records when a
+   customer's browser extension is pointed at a page. That means the record may
+   originate from a *customer* rather than a supplier, and it can be recreated by
+   any customer repeating the action. Ask which mechanism produced yours, because
+   supplier suppression does not stop the other one.
+
+3. **Re-verification.** Records are periodically re-checked and re-enriched
+   against upstream sources. A deletion with no persistent suppression entry is
+   rebuilt at the next cycle, having been deleted exactly as asked. Ask which was
+   applied — deletion, or deletion plus standing suppression.
+
+4. **The ask that survives a null result.** This is the one to keep whatever the
+   search returns:
+
+   > If you hold nothing today, please still add my name, telephone numbers and
+   > email addresses to a permanent do-not-add suppression entry, so a future
+   > ingest from a supplier cannot create a record I would have to find all over
+   > again.
+
+   Cite a company that already does it. SourceIT retains SHA-1/SHA-256 hashes of
+   addresses purely to prevent re-adding — holding the suppression while holding
+   no record. Naming another firm's practice moves the request from "will you do
+   me a favour" to "this is normal", which is the most reliable lever available.
+
+**Ask who supplies them.** A reseller knows its upstream and no public list does.
+This is how L2 Data — 250 million consumer records — entered the registry at all.
+See `_SILENT_FAILURES.md` §74.
+
+**Status handling.** A null result here is not `not_found`. It is a search run on
+the wrong keys with the suppression request outstanding. Leave it `submitted`.

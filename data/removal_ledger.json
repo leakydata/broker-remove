@@ -159,6 +159,11 @@
     "changed": "2026-08-17",
     "via": null
   },
+  "apollo_io": {
+    "status": "submitted",
+    "changed": "2026-08-21",
+    "via": "email"
+  },
   "appily": {
     "status": "manual_required",
     "changed": "2026-08-18",
@@ -268,6 +273,11 @@
     "status": "submitted",
     "changed": "2026-08-17",
     "via": null
+  },
+  "bombora": {
+    "status": "submitted",
+    "changed": "2026-08-21",
+    "via": "email"
   },
   "brandwatch": {
     "status": "submitted",
@@ -524,6 +534,11 @@
     "changed": "2026-08-17",
     "via": "email"
   },
+  "criteo": {
+    "status": "submitted",
+    "changed": "2026-08-21",
+    "via": "email"
+  },
   "crosswalk_technologies": {
     "status": "submitted",
     "changed": "2026-08-17",
@@ -752,6 +767,11 @@
   "fastbackgroundcheck": {
     "status": "submitted",
     "changed": "2026-08-18",
+    "via": "email"
+  },
+  "fastpeoplesearch": {
+    "status": "submitted",
+    "changed": "2026-08-21",
     "via": "email"
   },
   "fastpeoplesearch_io": {
@@ -1249,6 +1269,11 @@
     "changed": "2026-08-18",
     "via": "email"
   },
+  "liveramp": {
+    "status": "submitted",
+    "changed": "2026-08-21",
+    "via": "email"
+  },
   "lizdev": {
     "status": "submitted",
     "changed": "2026-08-18",
@@ -1273,6 +1298,11 @@
     "status": "manual_required",
     "changed": "2026-08-18",
     "via": "web"
+  },
+  "lotame": {
+    "status": "submitted",
+    "changed": "2026-08-21",
+    "via": "email"
   },
   "louisiana_arrests": {
     "status": "submitted",
@@ -1869,6 +1899,11 @@
     "changed": "2026-08-19",
     "via": "email"
   },
+  "pipl": {
+    "status": "submitted",
+    "changed": "2026-08-21",
+    "via": "email"
+  },
   "pitchbook": {
     "status": "submitted",
     "changed": "2026-08-19",
@@ -2162,6 +2197,11 @@
   "roc_advertising": {
     "status": "submitted",
     "changed": "2026-08-20",
+    "via": "email"
+  },
+  "rocketreach": {
+    "status": "submitted",
+    "changed": "2026-08-21",
     "via": "email"
   },
   "round_sky": {
@@ -2534,6 +2574,11 @@
     "changed": "2026-08-20",
     "via": "email"
   },
+  "usphonebook": {
+    "status": "submitted",
+    "changed": "2026-08-21",
+    "via": "email"
+  },
   "usphonelookup": {
     "status": "submitted",
     "changed": "2026-08-20",
@@ -2747,6 +2792,11 @@
   "zlookup": {
     "status": "submitted",
     "changed": "2026-08-20",
+    "via": "email"
+  },
+  "zoominfo": {
+    "status": "submitted",
+    "changed": "2026-08-21",
     "via": "email"
   }
 }
