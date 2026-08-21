@@ -920,8 +920,8 @@
     "via": "email"
   },
   "growbots": {
-    "status": "manual_required",
-    "changed": "2026-08-18",
+    "status": "submitted",
+    "changed": "2026-08-21",
     "via": "web"
   },
   "h1": {
@@ -1170,8 +1170,8 @@
     "via": "email"
   },
   "leadership_connect": {
-    "status": "not_found",
-    "changed": "2026-08-18",
+    "status": "submitted",
+    "changed": "2026-08-21",
     "via": "web"
   },
   "leadiq": {

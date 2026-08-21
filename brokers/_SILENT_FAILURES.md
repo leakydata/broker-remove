@@ -3386,3 +3386,72 @@ the company name.** `firstadvantage.com` announces itself as a realty firm in
 the first line of its own homepage.
 
 **Related:** §64, §65, §66, §75.
+
+---
+
+## §77 The identifier and the mailbox are the same field, so the record outlives the access to it
+
+Growbots' opt-out form refuses public-domain addresses:
+
+> *"we are not able to identify a person by public domain email addresses such as
+> '@gmail.com' or '@yahoo.com'. For this reason please use your professional
+> email here."*
+
+Reasonable: a personal webmail address does not identify anyone in a B2B contact
+database. Then, having been given the professional address, the form emails the
+confirmation link **to that same address**. Also reasonable, taken alone.
+
+Together they can only be satisfied by someone who still controls the mailbox
+their record was built around. An institutional address that has since been
+closed is simultaneously the only key that can find the record and the only
+channel that can confirm the request. The opt-out submits, says something
+reassuring, and is permanently unverifiable.
+
+**The population this excludes is the population that most needs the form.** A
+stale B2B record is stale *because* the role ended. The people with the strongest
+reason to opt out — left the employer, left the university, changed careers — are
+precisely the ones who can no longer receive mail at the address the broker
+indexed them under. The form serves current employees, who are the least likely
+to be looking for it.
+
+Leadership Connect fails the same way from the other direction. Their opt-out
+returned a negative scoped to a single personal address; the obvious next step
+was to re-run it with the institutional one, since a leadership directory keys to
+work identity. But their confirmation link also goes to whatever address is
+typed, so a second address is only testable by someone who can read its mail.
+The right key is unusable for the same reason it is the right key.
+
+**The general shape.** Wherever a broker uses one field as *both* the record key
+*and* the proof of reachability, everyone whose relationship to that identifier
+has ended is locked out — and locked out silently, because the form's success
+message is issued at submission, before the link is sent.
+
+**Ask for them to be separated.** They do not have to be the same string, and
+saying so is a one-line fix a support desk can act on:
+
+> Key the suppression to the professional address, and send the confirmation to a
+> separate contact address I nominate. The identifier and the proof of
+> reachability do not have to be the same field.
+
+**What to do meanwhile.** Take it to email and ask for manual completion. State
+that the mailbox is closed and why, and ask them either to honour the submitted
+request without the round trip or to re-issue the confirmation elsewhere. This is
+one of the few situations where a support desk can straightforwardly help and has
+no reason not to — nothing about it is adversarial, and the requester is not
+asking for an exception to a rule, only for two rules to stop colliding.
+
+**Operational rule that came out of this.** Before staging any form, establish
+**where its confirmation goes**, not merely which address it searches. A dead
+mailbox in the identifier list is harmless and useful — it is still a correct
+identity assertion and the best join key for workforce and B2B datasets. A dead
+mailbox in the *confirmation* field voids the request while every status
+indicator on both sides reads `submitted`. Recorded in the profile notes so a
+later pass cannot make the same substitution.
+
+**Status handling.** Not `submitted`. The request does not exist until confirmed,
+which is §1 of this file. Where a human could rescue it, it belongs in the
+handoff queue; where no click can rescue it, take it off that queue entirely
+rather than leaving a permanent no-op in a list of things a person is asked to
+do.
+
+**Related:** §1, §64, §75.

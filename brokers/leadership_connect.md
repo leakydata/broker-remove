@@ -101,3 +101,40 @@ whatever address was entered at stage one, so checking a work or university
 address requires access to that mailbox. That is a judgement call rather than a task, and it is
 queued as one.
 
+
+## 2026-08-20: the negative was scoped to one address, and the plan to test a second one died
+
+The opt-out returned:
+
+> *"We have no record of [EMAIL] in our service."*
+
+The plan was to re-run the form with the institutional address, since a
+government-and-corporate leadership directory keys records to a **work**
+identity — an employer address, a title, an organisation — not to personal
+webmail. A lookup on a gmail address is a real search on a key the index does
+not use, and returns a true nothing whatever they hold.
+
+**That plan is dead.** The confirmation link goes to whichever address is typed
+into the form, so a second address can only be tested by someone who can read
+its mail. The institutional mailbox is closed.
+
+Same shape as `growbots.md`: the confirmation channel and the search key are the
+same field, so an address you cannot read is an address you cannot use — even
+though it is the only one likely to match.
+
+**Taken back to email, with a caveat.** There is no email route: the published
+`privacy@leadershipconnect.io` hard-bounces, and a fresh sweep of both
+`leadershipconnect.io` and `leadershipconnect.com` found **no published address
+of any kind** — not a privacy contact, not a support address, nothing. So the
+follow-up went to the `noreply@` address that sent the negative, on the reasoning
+that a bounce is itself a finding and the send costs nothing.
+
+**What it asks:** search the name, date of birth, current and prior addresses and
+the eight telephone numbers, rather than the email address. And it offers three
+acceptable answers, including the one that is bad for me — *"our index is keyed
+to work identity and we cannot search those fields"* — because that answer tells
+me the negative I already hold means less than it appears to, and converts the
+ask into a suppression request instead.
+
+**Handoff item cleared.** It asked the user to decide whether a psu.edu round
+trip was worth it. It isn't available, so the decision no longer exists.

@@ -102,3 +102,41 @@ anyone running this at arm's length — an assistant with access to one inbox �
 is a hand-off, and an unavoidable one. Without the click nothing happens, and
 nothing will say so. See `_SILENT_FAILURES.md` §2.
 
+
+## 2026-08-20: the confirmation address died with the affiliation
+
+The opt-out submitted on the institutional address can never be confirmed — that
+mailbox is closed; the requester has left the institution. The request is
+submitted, permanently unverifiable, and from Growbots' side indistinguishable
+from an abandoned one.
+
+**This is a design fault, not bad luck, and it is worth stating in the letter.**
+Two individually sensible rules combine into a dead end:
+
+1. *Refuse public-domain addresses,* because a gmail address does not identify a
+   person in a B2B contact database. Reasonable.
+2. *Send the confirmation link to the address entered.* Also reasonable.
+
+Together they can only be satisfied by someone who still controls the
+professional mailbox the record was built around — which excludes exactly the
+people most likely to want out. A stale B2B record is stale *because* the role
+ended. The population the form cannot serve is the population it most needs to.
+
+The fix costs a field: key the suppression to the professional address, send the
+confirmation to a separate contact address the requester nominates. The
+identifier and the proof-of-reachability do not have to be the same string.
+
+**Reopened by email to `privacy@growbots.com`**, asking them to honour the
+submitted opt-out without the confirmation, or re-issue it to a readable
+address, and to suppress the personal address, name and telephone number as
+well so a supplier ingest under different details is also caught.
+
+**Still asking for opt-out and not deletion**, deliberately, for the reason
+their own form gives — deletion would destroy the record of the opt-out
+preference and permit re-adding. That remains the right call and it did not
+change with the mailbox.
+
+## Handoff item closed
+
+Removed from the human queue. No click can rescue it, so leaving it there would
+have been a permanent no-op sitting in a list of things a person is asked to do.
