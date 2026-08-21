@@ -14,3 +14,9 @@ docs/MANUAL_CHECKLIST.md
 .venv/
 uv.lock
 data/handoff_queue.json
+
+# Raw state-registry CSVs: public government records, but bulk files of named
+# individuals' work addresses. The importer refetches them with --fetch, so the
+# derived rows and the script are enough for reproducibility without this repo
+# republishing the bulk file.
+data/registries/*.csv

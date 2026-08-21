@@ -3455,3 +3455,96 @@ rather than leaving a permanent no-op in a list of things a person is asked to
 do.
 
 **Related:** §1, §64, §75.
+
+---
+
+## §78 The corporate family is a sworn filing, and nobody reads it that way
+
+Everything else in this project is inferred. Optery's list is a competitor's
+research. Domains are derived from slugs. Contact addresses are scraped off
+privacy pages. Sibling relationships are argued from shared nameservers and, in
+§70, from a shared Zendesk counter.
+
+California requires data brokers to register annually and to publish a primary
+contact email address. That is not an inference — it is a legal filing with a
+statutory contact, and it had never been imported here. Four files
+(2020–2023 under the DOJ, then 2024, 2025 and 2026 under the CPPA) hold **942
+distinct registrants**, of which **517 were entirely absent** from a registry
+built from every other source combined. Every one of the new ones arrived with a
+contact address already attached.
+
+The provenance ranking that follows from this:
+
+    ca_data_broker_registry  >  privacy_policy  >  derived_from_optery_slug
+
+A scraped address is one somebody left on a page. A registry address is the one
+the company nominated to receive exactly this kind of letter.
+
+**But the list is the smaller half of what the registry is for.**
+
+### Registrants grouped by contact address are corporate families
+
+The sibling problem is hard from outside because nothing on four sites says they
+share an index. Inside a filing, the family declares itself: the entities file
+under **one contact address**.
+
+> **BeenVerified, Inc.** registered with `privacy@moneybot5000.com`.
+
+Nothing on either site connects them. I had been corresponding with MoneyBot5000
+as an unrelated broker for days. The filing says otherwise, in a document signed
+under penalty of perjury.
+
+Grouping the 942 registrants by the domain of their contact address yields **99
+families covering 226 filings**. Some are unsurprising once seen and impossible
+to guess beforehand:
+
+| Contact domain | Filings | What it turns out to be |
+|---|---|---|
+| `equifax.com` | 7 | Equifax, The Work Number, PayNet, Ansonia Credit Data, Austin Consolidated Holdings |
+| `altrata.com` | 6 | Altrata, WealthEngine, Wealth-X, RelSci, BoardEx |
+| `ignitevisibility.com` | 5 | EverConnect trading as 33 Mile Radius, Best Pick Reports, Keyword Connects, Remodeling.com, Five Star Rated |
+| `alescodata.com` | 3 | Alesco Data, Response Solutions, Statlistics |
+
+It also confirms, from the state's own records, the optOutLight family this
+project worked out the hard way: `peoplesearcher.com`, `checksecrets.com`,
+`weinform.org` and `privatereports.com` each file for several brands at once.
+
+**This evidence is stronger than anything in §40 or §70.** A shared nameserver is
+suggestive. A shared ticket counter is close to conclusive. A shared statutory
+contact address in a sworn annual filing is the company saying so.
+
+### The name field is a brand list
+
+Registrants routinely put their whole portfolio in the name cell:
+
+> *"Private Reports, Mugshot Look, Public Searcher"*
+> *"Checksecrets, PeopleSearchUSA, inmate searcher, Sealed Records"*
+> *"Alesco Data LLC; Response Solutions LLC; Statlistics"*
+
+The website cell does it too — `weinform.org--www.truthrecord.org` is two sites
+in one field. Splitting both surfaced **443 brand names that appear in no broker
+list**.
+
+**Those are leads, not brokers, and the distinction is load-bearing.** They are
+written to `data/broker_leads.json` and go no further until each has a domain and
+a contact address. Importing a name with no route would recreate exactly the
+condition that left 304 registry entries unroutable while the queue reported
+nothing left to do — see §76.
+
+### Deregistration is a signal, not a deletion
+
+A company that filed in 2024 and not in 2026 has been acquired, wound up, or
+simply not filed — and the third case is the interesting one, because the
+obligation did not lapse with the paperwork. So every year a registrant appears
+in is recorded on the row, and nobody is dropped for being absent from the newest
+file. A stale contact address is worth trying; an unexamined absence is worth
+noticing.
+
+### What is still unmined
+
+California is the largest but not the only registry. **Vermont, Texas and Oregon**
+also require registration and publish their lists, and the overlap is partial —
+a broker with no California nexus can appear in Vermont and nowhere else. Same
+importer, different column names.
+
+**Related:** §40, §67, §70, §74, §76.
