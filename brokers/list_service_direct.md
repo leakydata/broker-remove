@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `failed` (updated 2026-08-18)
-- Note: dataremoval@listservicedirect.com bounced: 'The recipient's mailbox is full and can't accept messages now.' That is a soft bounce, not a dead address - the mailbox exists and someone stopped reading it. Worth one retry in a later pass before looking for another route.
+- Current: `submitted` (updated 2026-08-22)
+- Note: dataremoval@listservicedirect.com bounced: 'The recipient's mailbox is full and can't accept messages now.' That is a soft bounce, not a dead address - the mailbox exists and someone stopped reading it. Rather than waiting for it to drain, resent 2026-08-22 to micah@listservicedirect.com (a named contact, not the generic removal box) with a list-rental-category letter (downstream purchaser deletion, permanent suppression). Delivered without bouncing.
 
 ## Steps
 

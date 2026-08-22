@@ -7,7 +7,7 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-21)
+- Current: `submitted` (updated 2026-08-22)
 - Note: `privacy@xmodesocial.com` still hard-bounces (550 5.2.1) as of 2026-08-20/21.
   **Do not resend here.** The real request already ran to completion under the
   `outlogic.md` entry (same company, ticket #187713) — a full mobility-category
@@ -16,6 +16,11 @@
   Resending under this id would duplicate that ticket rather than add coverage.
   Treat `x_mode_social` and `outlogic` as one company for status purposes; see
   `outlogic.md` for the actual exchange.
+  **2026-08-22: this warning was not read before a follow-up run sent a fresh
+  letter to privacy@outlogic.io anyway.** It landed in the same already-closed
+  ticket #187713 and added no new information. No harm beyond noise on a closed
+  ticket, but a reminder that the note above needs to be checked, not just
+  written. **Read the whole playbook, not just the Steps section, before acting.**
 
 ## Steps
 

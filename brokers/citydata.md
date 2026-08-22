@@ -8,8 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-18)
+- Current: `submitted` (updated 2026-08-22)
 - Note: SUBSTANTIVE ANSWER on the key question: 'we cannot look up an individual based on your name, email address, physical address, or phone number. If we have any data about you, it would only be a hashed (or anonymized) identifier in our cloud based on the Mobile Advertising ID.' And an offer worth having: 'If you send the mobile phone's MAID, we will hash it, check it against our database of hashed IDs, and let you know if there is a match.' That is check-then-tell rather than blind ingest - better than Foursquare's. Still unanswered: observations vs mapping, third-party sharing, and the residency basis.
+- **2026-08-22 — this entry conflates two different companies, sort it out before acting again:** the SUBSTANTIVE ANSWER above and the opt-out URL (`citydata.ai/privacy/do_not_sell_personal_information/`) describe **CityData.ai**, a mobile-location data broker. The Steps section below (`city-data.com/delrequest/form.php`, operator Advameg) describes **City-Data.com**, an unrelated city-information/forum website. This run's bounce-fix pass hit privacy@citydata.ai (restricted Google Group, rejects outside mail) and resent to business@citydata.ai without noticing the mismatch — that resend delivered fine, but it duplicates ground CityData.ai's email desk had already covered per the note above. **Before the next pass:** split this into two registry entries/playbooks, one per company, so future work doesn't cross-contaminate the two exchanges.
 
 ## Steps
 

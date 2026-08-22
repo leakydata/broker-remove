@@ -1018,10 +1018,10 @@
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "billtrust",
-      "email_to": "privacy@billtrust.com",
-      "email_verified": true,
-      "notes": "Published privacy@ address is an internal-only Microsoft 365 distribution group and rejects all external mail with 550 5.7.133. The working address, given in their privacy policy, is privacyrequests@billtrust.com.",
-      "email_verified_by": "ca_data_broker_registry",
+      "email_to": "privacyrequests@billtrust.com",
+      "email_verified": false,
+      "notes": "privacy@billtrust.com rejects outside senders (restricted internal group, \"not on allowed senders list\"). Resent 2026-08-22 to privacyrequests@billtrust.com, the alt address.",
+      "email_verified_by": "delivery_evidence",
       "email_alt": "privacyrequests@billtrust.com",
       "registry_years": [
         "2020-2023",
@@ -1535,9 +1535,9 @@
       "source": "optery_scrape",
       "optery_slug": "citydata",
       "email_to": "business@citydata.ai",
-      "email_verified": true,
-      "notes": "Published privacy@citydata.ai is a Google Workspace group closed to external posting and bounces ('the group you tried to contact (privacy) may not exist, or you may not have permission to post'). Use dpo@citydata.ai from their privacy page instead. privacy@citydata.ai is published in the policy but is a Google Workspace group closed to external senders - it rejects consumer mail. Use dpo@.",
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified": false,
+      "notes": "privacy@citydata.ai is a restricted Google Group that rejects outside senders. Resent 2026-08-22 to business@citydata.ai, the alt address.",
+      "email_verified_by": "delivery_evidence",
       "email_alt": "privacy@citydata.ai",
       "registry_years": [
         "2020-2023",
@@ -1871,9 +1871,9 @@
       "source": "optery_scrape",
       "optery_slug": "connext-digital",
       "email_to": "info@connextdigital.com",
-      "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
-      "notes": "Published address hard-bounces (550); no alternative published.",
+      "email_verified": false,
+      "email_verified_by": "bounced",
+      "notes": "Both info@connextdigital.com (2026-08-17) and privacy@connextdigital.com (2026-08-22) hard-bounce 550 5.1.1. No alternative address published anywhere on the site. Domain/MX resolve \u2014 live domain, no working mailbox. No usable email route; do not resend to either address.",
       "email_alt": "privacy@connextdigital.com",
       "registry_years": [
         "2020-2023",
@@ -2038,7 +2038,7 @@
       "email_to": "priorityoptout@intelius.com",
       "email_verified": true,
       "email_verified_by": "broker_reply",
-      "notes": "support@criminaldatacheck.com hard-bounces (550) and is the only address the site itself publishes. This is an Intelius/PeopleConnect affiliate front (optout_url already pointed at intelius.com/privacy-center) — file against priorityoptout@intelius.com naming CriminalDataCheck.com specifically, same pattern as addresses_com and zabasearch.",
+      "notes": "support@criminaldatacheck.com hard-bounces (550) and is the only address the site itself publishes. This is an Intelius/PeopleConnect affiliate front (optout_url already pointed at intelius.com/privacy-center) \u2014 file against priorityoptout@intelius.com naming CriminalDataCheck.com specifically, same pattern as addresses_com and zabasearch.",
       "email_alt": "support@criminaldatacheck.com"
     },
     {
@@ -2183,11 +2183,11 @@
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "data-direct-marketing",
-      "email_to": "datanalytics@teamdms.com",
-      "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
-      "notes": "Published address hard-bounces (550); no alternative published. Previously flagged site_unreachable, but DNS resolves - the site refuses automated requests rather than being gone. The address is simply unverified, not dead.",
-      "email_alt": "info@datadirectmarketing.com",
+      "email_to": "info@datadirectmarketing.com",
+      "email_verified": false,
+      "email_verified_by": "bounced",
+      "notes": "Both info@datadirectmarketing.com (2026-08-17) and datanalytics@teamdms.com (2026-08-22) hard-bounce 'address not found'. No alternative address published anywhere on the site. Domain/MX resolve \u2014 live domain, no working mailbox. No usable email route; do not resend to either address.",
+      "email_alt": "datanalytics@teamdms.com",
       "registry_years": [
         "2020-2023",
         "2024"
@@ -3323,15 +3323,16 @@
       "source": "optery_scrape",
       "optery_slug": "fourthwall",
       "email_to": "californiadrop@fourthwall.tv",
-      "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified": false,
+      "email_verified_by": "delivery_evidence",
       "email_alt": "privacypolicy@fourthwall.tv",
       "registry_years": [
         "2020-2023",
         "2024",
         "2025",
         "2026"
-      ]
+      ],
+      "notes": "privacypolicy@fourthwall.tv (redirects to css-support@fourthwall.tv) bounced with \"mailbox full\". Resent 2026-08-22 to californiadrop@fourthwall.tv, the alt address."
     },
     {
       "id": "fraiser",
@@ -3967,11 +3968,11 @@
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "infofree",
-      "email_to": "privacy@infofree.com",
-      "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_to": "info@infofree.com",
+      "email_verified": false,
+      "email_verified_by": "delivery_evidence",
       "email_alt": "privacy@infofree.com",
-      "notes": "privacy@infofree.com hard-bounces (550, address not found); the site's own privacy policy publishes only info@infofree.com. Registry corrected 2026-08-18 to use the working address as primary. Infofree's privacy link also points at a shared privacycompliance.biz/DatabaseUSA portal — see brokers/infofree.md.",
+      "notes": "privacy@infofree.com hard-bounces (550, address not found); the site's own privacy policy publishes only info@infofree.com. Registry corrected 2026-08-22 to use the working address as primary (email_to field was stale despite the note already saying this).",
       "registry_years": [
         "2020-2023",
         "2024"
@@ -4446,10 +4447,10 @@
       "source": "optery_scrape",
       "optery_slug": "lead-me-media",
       "email_to": "californiaregistry@leadmemedia.com",
-      "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified": false,
+      "email_verified_by": "delivery_evidence",
       "email_alt": "info@leadmemedia.com",
-      "notes": "Registry keeps ccpa@leadmemedia.com (purpose-built for this request type); the site publishes info@leadmemedia.com, retained as a fallback.",
+      "notes": "ccpa@leadmemedia.com hard-bounces 550 address-not-found. Resent 2026-08-22 to californiaregistry@leadmemedia.com, the alt address.",
       "registry_years": [
         "2020-2023",
         "2024",
@@ -4658,10 +4659,10 @@
       "source": "optery_scrape",
       "optery_slug": "list-service-direct",
       "email_to": "micah@listservicedirect.com",
-      "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified": false,
+      "email_verified_by": "delivery_evidence",
       "email_alt": "info@listservicedirect.com",
-      "notes": "Registry keeps dataremoval@listservicedirect.com (purpose-built for this request type); the site publishes info@listservicedirect.com, retained as a fallback.",
+      "notes": "dataremoval@listservicedirect.com bounced with \"mailbox full\". Resent 2026-08-22 to micah@listservicedirect.com, the alt address.",
       "registry_years": [
         "2020-2023",
         "2024"
@@ -5442,10 +5443,10 @@
       "source": "optery_scrape",
       "optery_slug": "modigie",
       "email_to": "dpauli@modigie.com",
-      "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified": false,
+      "email_verified_by": "delivery_evidence",
       "email_alt": "support@modigie.com",
-      "notes": "Site publishes support@modigie.com; privacy@modigie.com is more privacy-specific but appears nowhere on the site. Try the alternate if this goes unanswered. Registry keeps privacy@modigie.com (purpose-built for this request type); the site publishes support@modigie.com, retained as a fallback.",
+      "notes": "privacy@modigie.com is a restricted Google Group that rejects outside senders (bounces \"group may not exist / no permission to post\"). Resent 2026-08-22 to dpauli@modigie.com, the alt address.",
       "registry_years": [
         "2020-2023",
         "2024",
@@ -9826,15 +9827,16 @@
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "x-mode-social",
-      "email_to": "privacy@xmodesocial.com",
-      "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_to": "privacy@outlogic.io",
+      "email_verified": false,
+      "email_verified_by": "delivery_evidence",
       "note": "Renamed entity. They also publish appeals@outlogic.io for appeals, eurep@ and ukrep@ for EU/UK representatives, and Hello@Outlogic.io as general contact.",
       "email_alt": "privacy@outlogic.io",
       "registry_years": [
         "2020-2023",
         "2024"
-      ]
+      ],
+      "notes": "privacy@xmodesocial.com hard-bounces 550 address-not-found; X-Mode Social rebranded as Outlogic. Resent 2026-08-22 to privacy@outlogic.io."
     },
     {
       "id": "xome",

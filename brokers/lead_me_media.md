@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-18)
-- Note: ccpa@leadmemedia.com HARD BOUNCED ('Address not found') - the address their own privacy policy designates for consumer rights requests does not exist. Resent to info@leadmemedia.com, the only working address published, and reported the dead mailbox to them as a fault.
+- Current: `submitted` (updated 2026-08-22)
+- Note: ccpa@leadmemedia.com HARD BOUNCED ('Address not found') - the address their own privacy policy designates for consumer rights requests does not exist. Resent to info@leadmemedia.com (2026-08-18), the only working address published, and reported the dead mailbox to them as a fault — delivered fine. A follow-up run (2026-08-22) resent again to californiaregistry@leadmemedia.com per a stale curated_brokers.json field, without checking Sent history first; also delivered without bouncing, but was a redundant duplicate. **info@leadmemedia.com is the address to use — check Sent history before resending.**
 
 ## Steps
 

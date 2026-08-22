@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `failed` (updated 2026-08-17)
-- Note: Published contact address hard-bounced (550, address not found). No alternative address published on the site — privacy and contact pages carry no email, or carry only the bounced address. Domain and MX resolve, so the domain is live and the mailbox is not. No usable email route; registry marked email_verified=false.
+- Current: `failed` (updated 2026-08-22)
+- Note: Published contact address hard-bounced (550, address not found). No alternative address published on the site — privacy and contact pages carry no email, or carry only the bounced address. Domain and MX resolve, so the domain is live and the mailbox is not. No usable email route; registry marked email_verified=false. **Confirmed again 2026-08-22**: a curated_brokers.json 'email_alt' field claimed privacy@connextdigital.com as a working alternative — it was an unverified guess, not confirmed data, and it hard-bounced identically to info@. Both addresses on this domain are dead. Cleared the bad guessed address from the registry rather than leaving it to mislead the next pass.
 
 ## Steps
 

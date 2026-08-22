@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-19)
-- Note: Their reply came FROM no-reply@resonate.com which hard-bounces on reply. Resent the challenge to privacy@resonate.com (the original, working address) and flagged the unroutable From: as a defect. Pressing: hashed-email is a stable pseudonymous identifier not encryption; inference layer vs identifier row; 12 addresses processed?; sources; downstream licensees; standing do-not-model.
+- Current: `submitted` (updated 2026-08-22)
+- Note: Their reply came FROM no-reply@resonate.com which hard-bounces on reply. Resent the challenge to privacy@resonate.com (the original, working address) and flagged the unroutable From: as a defect (2026-08-19). A follow-up run (2026-08-22) sent essentially the same follow-up content to privacy@resonate.com again, not realizing the 2026-08-19 resend had already gone through cleanly — redundant, but harmless, and no reply had arrived yet either time to answer the open questions (inference-layer deletion, sources, downstream licensees, standing do-not-model). Still awaiting a substantive reply as of 2026-08-22.
 
 ## Steps
 

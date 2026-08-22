@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-17)
-- Note: Published privacy@ address is an internal-only Microsoft 365 distribution group; rejected with 550 5.7.133 SenderNotAuthenticatedForGroup. Resent to privacyrequests@billtrust.com from their privacy policy, quoting the rejection so they can fix the published address.
+- Current: `submitted` (updated 2026-08-22)
+- Note: Published privacy@ address is an internal-only Microsoft 365 distribution group; rejected with 550 5.7.133 SenderNotAuthenticatedForGroup. Resent to privacyrequests@billtrust.com from their privacy policy (2026-08-17), quoting the rejection so they can fix the published address — delivered without bouncing. A follow-up run (2026-08-22) resent again to the same address without checking Sent history first; also delivered fine, but was a redundant duplicate. **privacyrequests@billtrust.com is the working address — check Sent history before resending.**
 
 ## Steps
 

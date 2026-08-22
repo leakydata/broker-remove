@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-19)
-- Note: privacy@modigie.com is a GOOGLE GROUP CLOSED TO EXTERNAL POSTING. Bounce came from their own domain admins: 'the group you tried to contact (privacy) may not exist, or you may not have permission to post messages to the group... This group may not be open to posting.' Distinct from a 550 unknown user - the address exists, is published for consumers, and silently refuses exactly the people it is published for, with a bounce that reads like the sender's own mistake. Resent to support@ with the misconfiguration reported.
+- Current: `submitted` (updated 2026-08-22)
+- Note: privacy@modigie.com is a GOOGLE GROUP CLOSED TO EXTERNAL POSTING. Bounce came from their own domain admins: 'the group you tried to contact (privacy) may not exist, or you may not have permission to post messages to the group... This group may not be open to posting.' Distinct from a 550 unknown user - the address exists, is published for consumers, and silently refuses exactly the people it is published for, with a bounce that reads like the sender's own mistake. Resent to support@ with the misconfiguration reported (2026-08-19) — that send did not bounce. A follow-up run (2026-08-22) independently resent to dpauli@modigie.com without checking Sent history first; also delivered without a bounce, but was a redundant duplicate. **Use support@modigie.com or dpauli@modigie.com going forward — check Sent history before resending, this broker has now had two working sends.**
 
 ## Steps
 
