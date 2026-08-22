@@ -1884,7 +1884,48 @@ supplier is the better target. See the SourceIT exchange in §74 of
 `_SILENT_FAILURES.md` — asking a reseller to name its sources surfaced a
 250-million-record broker that appeared in no list.
 
-**Status handling.** Not `not_found`. The search was real but was run on the
-wrong keys, and the suppression ask is outstanding. Leave it `submitted`.
+#### Correction (2026-08-22): part one of this was my misreading
 
-**Related:** §38, §41, §43; `_SILENT_FAILURES.md` §52, §73.
+LeadIQ replied to the argument above and pushed back, and they were right:
+
+> *"To clarify our previous request, we are not asking you to guess the specific
+> email format that may exist in our database. We are asking whether you have any
+> other professional/work email addresses associated with you that we can use to
+> conduct an additional search."*
+
+That is a reasonable question, not a puzzle with no answer. I read "a different
+email address **or format**" as the format half and built the section on it. The
+address half was the actual ask.
+
+**The structural point survives; the accusation does not.** It remains true that a
+consumer cannot enumerate pattern-constructed work addresses, and that a null
+result on personal webmail is uninformative in a B2B index. It is *not* true that
+this broker was asking me to guess one. Those are different claims and only the
+first is supported.
+
+This is the same error as `_SILENT_FAILURES.md` §66 and the §52 correction: a
+mechanism that would explain the evidence is not thereby the cause of it. The
+tell, again, is that the invented version was more interesting than the plain
+one. Register matters — "which of my addresses did you search?" is fair;
+"you are asking me to guess" was an accusation, and it was wrong.
+
+LeadIQ also confirmed they searched the telephone numbers and hold no dates of
+birth, home addresses or consumer webmail at all — so the whole consumer-shaped
+identifier block was genuinely unusable to them, exactly as the section says.
+
+**What to do instead.** Ask the narrow, checkable question. Their negative swept
+`nej105@psu.edu` in with the Gmail addresses under "personal email addresses from
+domains such as Gmail, Hotmail, or similar consumer providers" — but a `.edu`
+address is institutional, is precisely what a B2B index keys on, and may simply
+not have been searched. One identifier, one question, and a commitment to accept
+the answer if it comes back empty.
+
+**On reversing yourself under pressure.** Having argued in writing that a profile
+URL is disproportionate, handing it over the moment the search returned nothing
+would mean the argument was never sincere — and these letters only work because
+the reasoning in them is meant. The position to take is conditional: if a
+candidate record turns up that genuinely needs disambiguating, that is a
+different situation and worth reconsidering on its own terms. Say so explicitly
+rather than just holding the line.
+
+**Related:** §38, §41, §43; `_SILENT_FAILURES.md` §52, §66, §73.

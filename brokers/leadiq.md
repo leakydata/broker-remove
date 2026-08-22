@@ -8,7 +8,7 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-18)
+- Current: `not_found` (updated 2026-08-22) — with two asks still open, see below
 - Note: B2B sales prospecting. Professional identifiers and hashed forms; direct-dial and personal mobile numbers called out as the part with the most immediate effect; which customers captured the record into a CRM or sequencer, since that copy is beyond their deletion and is what produces the calls; re-verification cycle vs persistent suppression; do-not-contact entries outliving the record.
 
 ## Steps
@@ -112,3 +112,57 @@ numbers, and a category statement that consumer identifiers aren't held at all),
 but it is still not a search against a work email or LinkedIn profile, which is
 the key this database actually uses. Someone who later has a professional
 identifier tied to this person should re-open rather than trust this as final.
+
+
+## 2026-08-22: they pushed back, and the pushback was correct
+
+LeadIQ answered the follow-up within the hour and corrected my reading of their
+first message:
+
+> *"To clarify our previous request, we are not asking you to guess the specific
+> email format that may exist in our database. We are asking whether you have any
+> other professional/work email addresses associated with you."*
+
+I had built a whole argument on the format half of "a different email address or
+format". The address half was the real question. Corrected in
+`_DEFLECTIONS.md` §44 rather than quietly edited, because the invented mechanism
+was more interesting than the plain one — the §66 failure mode exactly.
+
+What they did confirm, and it is useful:
+
+> *"We do not maintain personal email addresses from domains such as Gmail,
+> Hotmail, or similar consumer providers, nor do we maintain dates of birth, home
+> addresses, or other consumer information."*
+
+> *"We have also searched the phone numbers you provided and have not located a
+> matching record."*
+
+So the phone-first redirect was tried and came back empty, and the consumer
+identifier block was genuinely unusable to them. That is a real search, honestly
+reported, and the negative is credible.
+
+**The one gap left is `.edu`.** Their sentence sweeps `nej105@psu.edu` in with the
+Gmail addresses under "consumer providers", which it plainly is not — a
+university address is institutional and is exactly what a B2B index keys on.
+Asked them to search that one specifically, with a commitment to accept an empty
+result without further argument.
+
+**On the LinkedIn URL, they made the honest case:**
+
+> *"This is why we requested your LinkedIn profile—not to create or supplement a
+> record, but to conclusively determine whether an existing record belongs to
+> you."*
+
+Still declined, and the reason recorded here matters for reuse: having argued in
+writing that a profile URL is disproportionate, producing it the moment the
+search came back empty would mean the argument was never sincere. The position
+taken was conditional — if a candidate record surfaces that needs
+disambiguating, that is a different situation. Say that explicitly rather than
+simply refusing again.
+
+**Two asks remain unanswered and neither depends on finding a record:** the
+do-not-add suppression entry, and the list of upstream suppliers. Both were
+restated with an offer to let them close the ticket at the same time.
+
+**Status left at `not_found`** — the search was real and thorough. It flips only
+if the `.edu` lookup returns something.

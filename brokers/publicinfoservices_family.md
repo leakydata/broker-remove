@@ -8,7 +8,7 @@
 
 ## Status
 
-- All three: `submitted` (updated 2026-08-20)
+- All **four**: `submitted` (updated 2026-08-22)
 - References: `#3421273` (Public Information Services), `#3421272` (Public Data
   Check), `#3421281` (Public Record Reports)
 
@@ -67,3 +67,44 @@ A CSAT survey is not a confirmation. Leave all three `submitted`, record the
 ticket numbers, and let either the reply or the next verification sweep decide.
 Re-run a name search on each of the three sites directly rather than trusting a
 search-engine result.
+
+
+## 2026-08-22: it is four sites, not three, and their own ticket numbers prove it
+
+Quick Public Records belongs to this family. The evidence is the ticket numbers,
+issued across four different Zendesk subdomains inside thirty-six hours:
+
+| Ticket | Subdomain |
+|---|---|
+| 3421272 | `publicdatacheck` |
+| 3421273 | `publicinfoservices` |
+| 3421281 | `publicrecordreports` |
+| 3421287 | `quickpublicrecords` |
+
+**Zendesk numbers tickets per account, not per brand or help-centre subdomain.**
+Four nominally unrelated companies do not draw from one sequence by coincidence.
+Combined with the shared Cloudflare nameserver pair that opened the original
+letters, the operator question is settled.
+
+The neat part is that all four *generated this evidence while declining to answer
+the question it settles*. Four automated closure emails proved what four support
+agents would not say. See `_SILENT_FAILURES.md` §70.
+
+**Quick Public Records was downgraded from `confirmed` back to `submitted`** on
+that basis: its 19 August message confirmed removal from one hostname, and a
+confirmation scoped to a quarter of the estate is not a confirmation. See
+`quick_public_records.md`.
+
+**All four closed their tickets via CSAT survey without answering.** Do not rate
+the survey — clicking a rating resolves the CSAT and hands the desk a metric
+instead of producing an answer. Reply into the acknowledgement thread, which
+reopens the ticket; the survey's reply path goes to a rating endpoint.
+
+## Cross-reference
+
+This family was worked out from infrastructure and ticket counters. The state
+registration filings do the same job *before* you write — see `_FAMILIES.md`.
+The optOutLight siblings (`peoplesearcher.com`, `checksecrets.com`,
+`weinform.org`, `privatereports.com`) each register several brands under one
+statutory contact address, which is the same finding arrived at from a document
+rather than an inference.

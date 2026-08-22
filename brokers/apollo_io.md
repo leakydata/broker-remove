@@ -8,7 +8,7 @@
 
 ## Status
 
-- Current: `confirmed` (updated 2026-08-21)
+- Current: `confirmed` (updated 2026-08-22)
 - Note: privacy@apollo.io replied within minutes: "we have successfully actioned
   the deletion request you submitted. We have also added the individual to our
   suppression files to ensure that they are not re-added to the Apollo database
@@ -21,11 +21,21 @@
 
 ## Steps
 
-<!-- Replace once the route is confirmed. What actually worked, in order. -->
+1. Email `privacy@apollo.io`. That is the whole route — no form, no account, no
+   verification round trip.
+2. Tailor per the "B2B contact & sales prospecting" section of
+   `_CATEGORY_VARIANTS.md`: redirect the search to telephone numbers and name
+   variants, decline the profile URL, ask for suppression regardless of result.
+3. Wait. The reply came in **four minutes**.
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
+**There are almost none, and that is the finding.** Apollo is the best-behaved
+broker in this project so far. Recorded here as a benchmark to hold others to,
+because "nobody does that" is the standard deflection and Apollo is the
+counter-example.
+
+<!-- Original scaffold prompts, kept for reference:
      - Do they refuse email and point at a form? Which form?
      - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
      - Does the form silently drop values not committed with an Add/+ button?
@@ -35,7 +45,57 @@
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+No public profile page to re-check. The confirmation is the artifact, and it is
+unusually specific — it states the suppression, the downstream notice, and the
+categories held. Re-verify by watching for renewed cold contact on the
+`.edu`-era identifiers rather than by searching a site.
+
+## The reply, quoted, because it is the standard to hold others to
+
+Four minutes after the letter, from `privacy@apollo.io`:
+
+> *"We are writing to inform you that we have successfully actioned the deletion
+> request you submitted. We have also added the individual to our suppression
+> files to ensure that they are not inadvertently added back to our database in
+> the future."*
+
+**That is deletion plus standing suppression, volunteered.** Most brokers have to
+be asked twice and then answer ambiguously; the distinction between a one-time
+removal and a suppression entry is the single most common silent failure in this
+whole project, and Apollo closed it in one sentence without being pressed.
+
+Then the part almost nobody does:
+
+> *"When we remove the individual's data as per the request, we automatically
+> provide notice to our customers that the individual opted out of Apollo's
+> database, and they should delete the contact unless they have a separate legal
+> basis for processing."*
+
+**Downstream propagation, automatic and by default.** The exported copy sitting
+in a customer's CRM is the copy that actually produces the calls, and it is
+beyond the broker's own deletion — this is the ask that gets refused, deflected
+or ignored everywhere else. Apollo does it as a matter of course. Quote this at
+any prospecting database that says customer copies are out of its hands: it is
+not a technical impossibility, it is a choice, and a competitor has made the
+other one.
+
+And unprompted, the categories held:
+
+> *"Name; contact information such as business email address or phone number;
+> information about the individual's role with the business (including the name
+> of the business, title, professional responsibilities and functions, office
+> location, and education); professional social media profile information; job
+> history and title(s)."*
+
+> *"We may also make inferences about these business contacts, such as their
+> likelihood to be interested in a B2B product or service offered by one of our
+> customers."*
+
+**Note the last line.** An intent inference is not a fact anyone supplied — it is
+generated, it is personal information under the same statutes as the contact
+fields, and disclosing it without being asked is rare. Compare the scope question
+put to Revelio Labs, where the delivered "raw data" was scraped profile text and
+the derived layer had to be asked for separately.
 
 ## Category: B2B contact & sales prospecting
 
