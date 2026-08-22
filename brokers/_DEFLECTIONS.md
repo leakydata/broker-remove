@@ -1914,7 +1914,7 @@ birth, home addresses or consumer webmail at all — so the whole consumer-shape
 identifier block was genuinely unusable to them, exactly as the section says.
 
 **What to do instead.** Ask the narrow, checkable question. Their negative swept
-`nej105@psu.edu` in with the Gmail addresses under "personal email addresses from
+a `.edu` address of mine in with the Gmail addresses under "personal email addresses from
 domains such as Gmail, Hotmail, or similar consumer providers" — but a `.edu`
 address is institutional, is precisely what a B2B index keys on, and may simply
 not have been searched. One identifier, one question, and a commitment to accept

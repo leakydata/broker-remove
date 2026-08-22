@@ -141,7 +141,7 @@ So the phone-first redirect was tried and came back empty, and the consumer
 identifier block was genuinely unusable to them. That is a real search, honestly
 reported, and the negative is credible.
 
-**The one gap left is `.edu`.** Their sentence sweeps `nej105@psu.edu` in with the
+**The one gap left is `.edu`.** Their sentence sweeps a `.edu` address of mine in with the
 Gmail addresses under "consumer providers", which it plainly is not — a
 university address is institutional and is exactly what a B2B index keys on.
 Asked them to search that one specifically, with a commitment to accept an empty
