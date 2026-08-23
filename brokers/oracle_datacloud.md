@@ -1,14 +1,15 @@
-# Nfocus
+# Oracle Data Cloud
 
-- **Email:** consumer@n-focus.com (verified)
-- **Method:** email — Statutory request by email. No web form needed.
-- **Domain:** n-focus.com
-- **Priority: 2.**
+- **Opt-out:** https://www.oracle.com/legal/privacy/marketing-cloud-data-cloud-privacy-policy.html
+- **Email:** oracle-datacloud-privacy_us@oracle.com (verified)
+- **Method:** web_form — Web form.
+- **Domain:** oracle.com
+- **Priority: 3.**
 
 ## Status
 
-- Current: `not_found` (updated 2026-08-23)
-- Note: mailing@n-focus.com replied 2026-08-21: no matching record for the address provided; added name/address to suppression list; request completed and closed. (Also deflected with PA-no-privacy-law language, but closed favorably regardless.)
+- Current: `submitted` (updated 2026-08-23)
+- Note: Statutory opt-out/deletion email sent 2026-08-23, category-tailored.
 
 ## Steps
 

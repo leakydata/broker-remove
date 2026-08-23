@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-21)
-- Note: 2026-08-20: first contact, sent to the address discovered by the verify_emails sweep. Tailored per _CATEGORY_VARIANTS.md.
+- Current: `not_found` (updated 2026-08-23)
+- Note: privacy@pipl.com replied 2026-08-21: 'We did not find any profiles in our system that match the data points provided.'
 
 ## Steps
 

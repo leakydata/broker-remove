@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-18)
-- Note: User submitted the OneTrust intake form; Request ID KP96PDJR5Q. OneTrust then emailed a mandatory verification step - 'One more step is required before we can process your request. Please confirm your email by clicking on the button below.' Clicked; the portal returned 'Your request is confirmed! Thank you for confirming your email address. There may be additional verification steps to complete before we can begin processing your request.' Note the OneTrust tenant is branded 'Allstate Enterprise' in the email template - Arity is an Allstate company, which is a family signal worth carrying.
+- Current: `submitted` (updated 2026-08-23)
+- Reference: `KP96PDJR5Q`
+- Note: 2026-08-21: OneTrust replied 'Request cannot be completed (KP96PDJR5Q) — unable to verify your identity,' pointing to an appeals web form (arity-appeals.consumerprivacyinfo.com). 2026-08-23: emailed privacy@arity.com directly (not the appeals form) declining to submit a government ID, asking what specifically failed verification and whether a lighter check (phone/ZIP on file) would work. Awaiting reply.
 
 ## Steps
 
@@ -71,4 +72,29 @@ and read alone it means less than it appears to.
 See `_SILENT_FAILURES.md` §24. Pennsylvania **is** in their list. Setting the field
 programmatically produced "Arkansas" on submit. Click the option out of the
 dropdown and re-read the field before submitting.
+
+## After confirmation, a second gate: "unable to verify your identity"
+
+Confirming the email did not end the process. Two days later OneTrust sent a
+second message on the same request ID:
+
+> *"Unfortunately, we are unable to verify your identity at this time. We can
+> only honor requests if we are able to verify the identity of the individual
+> making the request... If you would like to submit an appeal, please visit our
+> Appeals webpage and include the Request ID."*
+
+The appeals route is another web form (`arity-appeals.consumerprivacyinfo.com`),
+gated behind whatever verification failed the first time — not obviously more
+forgiving than the intake form.
+
+**Do not send a government ID to clear this.** Per the project's hard rules,
+that is off the table regardless of what the form asks for. Instead, wrote
+directly to `privacy@arity.com` (bypassing the appeals form) asking what
+specifically failed to match, and offering a lighter verification (phone or
+ZIP on file) instead of a document. Awaiting reply as of 2026-08-23.
+
+**This is worth tracking as its own failure mode**: a request can clear email
+verification and still be refused at an identity-match gate with no visibility
+into what mismatched. If the next reply also demands a document, record
+`manual_required` and stop — that is the hard line, not a negotiating position.
 

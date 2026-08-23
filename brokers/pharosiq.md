@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-18)
-- Note: FAMILY CONSOLIDATION, no new letter and no cap spend. PharosIQ publishes privacy@pharosiq.com as its own privacy contact, and the Intentgine letter had already been sent to that same address. Replied on the existing thread asking them to treat the request as covering PharosIQ as well as Intentgine and any other entity served by the mailbox, and to say which entities it covers if they are separate controllers. Named the silent failure explicitly: a request naming one brand gets actioned against that brand, the reply confirms completion, and the sibling's record survives - indistinguishable from a complete removal.
+- Current: `not_found` (updated 2026-08-23)
+- Note: privacy@pharosiq.com replied 2026-08-20: 'We have reviewed our systems, and the information you provided is not present. No further action is required.'
 
 ## Steps
 

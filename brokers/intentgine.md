@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-18)
-- Note: Scope extended on the existing thread to cover PharosIQ, which shares this mailbox. Also repeated the identity-graph ask: delete the LINKS between hashed email, device/MAID, cookie/CTV identifiers and IP-derived household associations and the person, not just the named row - in an intent business the edges are the product.
+- Current: `not_found` (updated 2026-08-23)
+- Note: Same reply thread as pharosiq (shared mailbox privacy@pharosiq.com): reviewed and not present.
 
 ## Steps
 

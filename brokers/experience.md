@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-18)
-- Note: Review/feedback platform. Asked for survey responses and reviews attributed to the subject including those published under initials or anonymously but joinable back to them; any professional profile page; and contact records uploaded by business customers so a feedback request could be sent. Pre-empted the processor deflection by asking them to name the client who supplied the record.
+- Current: `confirmed` (updated 2026-08-23)
+- Note: Broker reply 2026-08-21: 'We have completed the deletion of your personal information, including any published profile, from our website and backend databases as you requested.'
 
 ## Steps
 

@@ -1,14 +1,15 @@
-# Nfocus
+# ROR Partners
 
-- **Email:** consumer@n-focus.com (verified)
+- **Email:** privacy@rorpartners.com (verified)
 - **Method:** email — Statutory request by email. No web form needed.
-- **Domain:** n-focus.com
+- **Domain:** rorpartners.com
 - **Priority: 2.**
 
 ## Status
 
-- Current: `not_found` (updated 2026-08-23)
-- Note: mailing@n-focus.com replied 2026-08-21: no matching record for the address provided; added name/address to suppression list; request completed and closed. (Also deflected with PA-no-privacy-law language, but closed favorably regardless.)
+- Current: `email_pending` (updated 2026-08-23)
+- Reference: `L7JE3RVPKK`
+- Note: OneTrust intake exists (Request ID L7JE3RVPKK, origin unknown — no corresponding sent letter found in Gmail Sent), requiring an email-confirmation click before processing starts. WebFetch on the confirmation link returns only a bare JS shell ('Trust Center Portal') — the confirm action needs a real browser (JS/POST), which this agent does not have. Needs a human to open the email and click Confirm; link may expire.
 
 ## Steps
 
