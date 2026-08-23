@@ -20,7 +20,8 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-OUTDIR = ROOT / "outbox"
+from paths import state, outbox  # noqa: E402
+OUTDIR = outbox()
 
 TEMPLATE = """To: {to}
 Subject: Consumer Request to Delete and Opt Out of Sale of Personal Information — {name}
@@ -89,7 +90,7 @@ CONTACT_NOTE = ("\nThat address is a contact address for this request; the "
 
 
 def load_profile():
-    p = json.loads((ROOT / "data" / "profile.json").read_text())
+    p = json.loads((state("profile.json")).read_text())
     emails = [e.lower() for e in p.get("all_emails") or [p["email"]]]
     indent = "\n" + " " * 19
 
@@ -160,7 +161,7 @@ def main():
     OUTDIR.mkdir(exist_ok=True)
 
     if args.all_blocked:
-        sp = ROOT / "data" / "removal_status.json"
+        sp = state("removal_status.json")
         state = json.loads(sp.read_text()) if sp.exists() else {}
         targets = [bid for bid, r in state.items()
                    if r.get("status") in {"captcha_blocked", "manual_required"}]

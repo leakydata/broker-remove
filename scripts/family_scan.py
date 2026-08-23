@@ -44,8 +44,9 @@ from collections import defaultdict
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+from paths import state, outbox  # noqa: E402
 REGISTRY = ROOT / "data" / "brokers.json"
-STATE = ROOT / "data" / "removal_status.json"
+STATE = state("removal_status.json")
 
 # Statuses meaning a request has reached the desk that handles this contact.
 REACHED = {"submitted", "confirmed", "not_found", "email_pending"}

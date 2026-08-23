@@ -19,6 +19,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from redact import scan_tracked  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
+from paths import state as state_file, outbox  # noqa: E402
 CURATED = ROOT / "data" / "curated_brokers.json"
 PLAYBOOKS = ROOT / "brokers"
 
@@ -122,7 +123,7 @@ def main():
     # opens silently: playbooks get written while working browser forms, then
     # skipped during email batches -- which is exactly when the knowledge is
     # freshest and a reply is about to need interpreting.
-    state_path = ROOT / "data" / "removal_status.json"
+    state_path = state_file("removal_status.json")
     if state_path.exists():
         state = json.loads(state_path.read_text())
         # Every status except 'pending' means something happened worth writing

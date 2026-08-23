@@ -54,7 +54,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-STATE = ROOT / "data" / "removal_status.json"
+from paths import state, outbox  # noqa: E402
+STATE = state("removal_status.json")
 ALIASES = ROOT / "data" / "playbook_aliases.json"
 BOOKS = ROOT / "brokers"
 

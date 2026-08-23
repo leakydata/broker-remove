@@ -21,8 +21,9 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+from paths import state, outbox  # noqa: E402
 REGISTRY = ROOT / "data" / "brokers.json"
-STATE = ROOT / "data" / "removal_status.json"
+STATE = state("removal_status.json")
 
 STATUSES = [
     "pending",           # not started

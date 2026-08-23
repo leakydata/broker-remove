@@ -25,7 +25,8 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-OUTDIR = ROOT / "outbox"
+from paths import state, outbox  # noqa: E402
+OUTDIR = outbox()
 
 # Per-state supporting authority. These establish that the state treats the
 # officer's home address as protected. They bind government agencies, not
@@ -119,7 +120,7 @@ def main():
     ap.add_argument("--dob", default="<REQUIRED — fill in before sending>")
     args = ap.parse_args()
 
-    p = json.loads((ROOT / "data" / "profile.json").read_text())
+    p = json.loads((state("profile.json")).read_text())
     state = p["state"].upper()
     emails = [e.lower() for e in p.get("all_emails") or [p["email"]]]
     authority = STATE_AUTHORITY.get(

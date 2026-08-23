@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "broker-remove",
+  "description": "Submit and track data deletion / opt-out requests across 1,500+ data brokers and people-search sites. Ships a registry with verified contact routes, 600+ per-broker playbooks, a corporate-family map built from state registration filings, and a catalogue of the ways removal requests silently fail.",
+  "version": "1.0.0",
+  "author": {
+    "name": "leakydata",
+    "url": "https://github.com/leakydata"
+  },
+  "homepage": "https://github.com/leakydata/broker-remove",
+  "repository": "https://github.com/leakydata/broker-remove",
+  "license": "MIT",
+  "keywords": ["privacy", "data-broker", "ccpa", "cpra", "gdpr", "opt-out", "deletion", "people-search", "doxxing", "osint-defense"]
+}

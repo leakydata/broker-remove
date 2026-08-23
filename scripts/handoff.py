@@ -32,7 +32,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-QUEUE = ROOT / "data" / "handoff_queue.json"
+from paths import state, outbox  # noqa: E402
+QUEUE = state("handoff_queue.json")
 
 ACTIONS = {
     "captcha":  "solve a CAPTCHA, then submit",

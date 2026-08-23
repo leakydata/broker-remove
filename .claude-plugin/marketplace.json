@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace-manifest.json",
+  "name": "broker-remove",
+  "owner": {
+    "name": "leakydata",
+    "url": "https://github.com/leakydata"
+  },
+  "description": "Get yourself out of the data broker industry. A registry of 1,500+ brokers with working contact routes, per-broker playbooks, and the accumulated knowledge of what brokers actually do when you ask them to delete you.",
+  "plugins": [
+    {
+      "name": "broker-remove",
+      "source": "./",
+      "description": "Submit and track data deletion / opt-out requests across 1,500+ data brokers and people-search sites. Ships a registry with verified contact routes, 600+ per-broker playbooks, a corporate-family map built from state registration filings, and a catalogue of the ways removal requests silently fail.",
+      "license": "MIT",
+      "keywords": ["privacy", "data-broker", "ccpa", "cpra", "gdpr", "opt-out", "deletion", "people-search", "doxxing", "osint-defense"]
+    }
+  ]
+}

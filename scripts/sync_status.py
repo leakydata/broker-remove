@@ -58,8 +58,9 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-PRIVATE = ROOT / "data" / "removal_status.json"
-LEDGER = ROOT / "data" / "removal_ledger.json"
+from paths import state, outbox  # noqa: E402
+PRIVATE = state("removal_status.json")
+LEDGER = state("removal_ledger.json")
 PLAYBOOKS = ROOT / "brokers"
 ALIASES = ROOT / "data" / "playbook_aliases.json"
 

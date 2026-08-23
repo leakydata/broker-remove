@@ -27,9 +27,10 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+from paths import state, outbox  # noqa: E402
 REGISTRY = ROOT / "data" / "brokers.json"
-STATE = ROOT / "data" / "removal_status.json"
-PROFILE = ROOT / "data" / "profile.json"
+STATE = state("removal_status.json")
+PROFILE = state("profile.json")
 
 # How long to wait before re-checking, by what the broker told us.
 # Most state 3 days; the 45-day statutory window is the outer bound.

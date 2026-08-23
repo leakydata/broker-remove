@@ -25,10 +25,11 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+from paths import state, outbox  # noqa: E402
 FAM = ROOT / "data" / "broker_families.json"
 REG = ROOT / "data" / "brokers.json"
 OUT = ROOT / "brokers" / "_FAMILIES.md"
-STATUS = ROOT / "data" / "removal_status.json"
+STATUS = state("removal_status.json")
 
 
 def norm(s):

@@ -15,6 +15,7 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+from paths import state, outbox  # noqa: E402
 BLOCKED = {"captcha_blocked", "manual_required", "email_pending", "failed"}
 
 REASON = {
@@ -28,7 +29,7 @@ REASON = {
 def main():
     reg = {b["id"]: b for b in
            json.loads((ROOT / "data" / "brokers.json").read_text())["brokers"]}
-    state_path = ROOT / "data" / "removal_status.json"
+    state_path = state("removal_status.json")
     state = json.loads(state_path.read_text()) if state_path.exists() else {}
 
     items = [(bid, rec, reg.get(bid, {})) for bid, rec in state.items()

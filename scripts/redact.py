@@ -25,7 +25,8 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-PROFILE = ROOT / "data" / "profile.json"
+from paths import state, outbox  # noqa: E402
+PROFILE = state("profile.json")
 
 
 def _terms():
@@ -88,6 +89,30 @@ def redact(text: str) -> str:
     return text
 
 
+def _allowlist():
+    """{term: {paths}} -- values that are permitted in named files only.
+
+    This exists for exactly one situation: a value that is already public by the
+    owner's own choice and that a file cannot do its job without. Publishing the
+    project as a plugin means the marketplace manifest has to name the owner, and
+    the owner's GitHub handle is the local-part of their email, so the scanner
+    flags a string that is already the repository's own URL.
+
+    Deliberately per-file and per-value, with no wildcard. A blanket exemption
+    would silently cover every future file, which is how an allowlist stops being
+    a decision and becomes a hole. Blocking the full email address is unaffected:
+    only the exact literal listed is exempted, and only where it is listed."""
+    f = ROOT / "data" / "redaction_allowlist.json"
+    if not f.exists():
+        return {}
+    try:
+        d = json.loads(f.read_text())
+    except Exception:
+        return {}
+    return {e["value"].lower(): set(e.get("files", []))
+            for e in d.get("allow", []) if e.get("value")}
+
+
 def scan_tracked():
     """Return [(path, lineno, term)] for personal data in files git will publish.
 
@@ -116,7 +141,9 @@ def scan_tracked():
     except Exception:
         return []
     # The profile template and this scanner legitimately mention field names.
-    skip = {"data/profile.example.json", "scripts/redact.py"}
+    skip = {"data/profile.example.json", "scripts/redact.py",
+            "data/redaction_allowlist.json"}
+    allowed = _allowlist()
     hits = []
     for f in files:
         if f in skip:
@@ -133,6 +160,8 @@ def scan_tracked():
                 continue
             for t in terms:
                 if len(t) > 4 and re.search(re.escape(t), line, re.I):
+                    if f in allowed.get(t.lower(), ()):
+                        continue
                     hits.append((f, i, t))
                     break
     return hits

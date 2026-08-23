@@ -28,8 +28,9 @@ from pathlib import Path
 import httpx
 
 ROOT = Path(__file__).resolve().parent.parent
+from paths import state, outbox  # noqa: E402
 REGISTRY = ROOT / "data" / "brokers.json"
-LEDGER = ROOT / "data" / "removal_ledger.json"
+LEDGER = state("removal_ledger.json")
 OUT = ROOT / "data" / "optery_domain_candidates.json"
 
 TLDS = ("com", "net", "org", "io", "co", "ca", "us", "info", "biz", "ai", "app",

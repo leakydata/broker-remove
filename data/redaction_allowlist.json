@@ -1,0 +1,15 @@
+{
+  "_comment": "Narrow exemptions for the privacy scanner. Each entry names ONE literal and the EXACT files it may appear in. There is deliberately no wildcard: an allowlist that can be applied loosely stops being a decision and becomes a hole. Add an entry only when the value is already public by the owner's own choice AND the file cannot do its job without it.",
+  "allow": [
+    {
+      "value": "leakydata",
+      "reason": "The repository owner's GitHub handle. It is already public as the repository path itself, and a plugin marketplace manifest cannot omit the owner. This exempts the handle only; the full email address it is a local-part of remains blocked everywhere, including in these same files.",
+      "files": [
+        "README.md",
+        "LICENSE",
+        ".claude-plugin/marketplace.json",
+        ".claude-plugin/plugin.json"
+      ]
+    }
+  ]
+}

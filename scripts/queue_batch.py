@@ -27,8 +27,9 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from make_optout_email import TEMPLATE, CONTACT_NOTE, load_profile  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
+from paths import state, outbox  # noqa: E402
 REGISTRY = ROOT / "data" / "brokers.json"
-STATE = ROOT / "data" / "removal_status.json"
+STATE = state("removal_status.json")
 
 # Statuses meaning "already handled -- don't re-contact".
 # Statuses that mean "do not put this in an email batch". Two groups:

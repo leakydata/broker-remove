@@ -26,8 +26,9 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from redact import redact  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
+from paths import state, outbox  # noqa: E402
 REGISTRY = ROOT / "data" / "brokers.json"
-STATE = ROOT / "data" / "removal_status.json"
+STATE = state("removal_status.json")
 ALIASES = ROOT / "data" / "playbook_aliases.json"
 OUT = ROOT / "brokers"
 
