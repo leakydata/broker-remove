@@ -3757,3 +3757,66 @@ contact from a state registration filing. `unreachable` is only for a domain wit
 nowhere to deliver at all.
 
 **Related:** §64, §65, §74.
+
+
+---
+
+## §83 The registered contact that is not a privacy contact
+
+Altair Data Resources declined a request sent to the address **named in their own
+California data broker registration**:
+
+> *"This email address is intended solely for direct business communications and
+> is not monitored for opt-out or privacy-related requests. As such, we are
+> unable to process your submission because it was not submitted through one of
+> our authorized request channels."*
+
+They cited CCPA Regulations §999.312(e)(2) and directed the request to a Jira
+Service Management portal, which turned out to be a proper one with separate
+forms for individuals, authorised agents, corrections and access.
+
+**The regulation citation is roughly fair.** That provision lets a business
+either treat an off-channel request as validly submitted *or* direct the
+requester to the correct method — it does not permit simply refusing. They took
+the second option, which is what the rule contemplates. Do not argue this point;
+it is a losing argument and it spends credibility.
+
+**But the underlying fact is worth recording**, because it undermines an
+assumption running through `_FAMILIES.md` and the whole registry import: **the
+statutory contact address is not necessarily a privacy contact.**
+
+The state registration exists so consumers can find where to send exactly this
+kind of request. A registrant naming a business-development or sales mailbox —
+one it will later say is "not monitored for privacy-related requests" — has
+satisfied the form while defeating its purpose. Every consumer who does the
+correct thing, looks up the registration, and writes to the address in it, gets
+turned away.
+
+### What this changes operationally
+
+- **A registry-sourced address is a strong lead, not a guaranteed route.** It
+  still outranks a scraped address, because a company nominated it under a legal
+  obligation. But `email_verified_by: ca_data_broker_registry` should not be read
+  as "this address accepts privacy mail".
+- **Expect the redirect and do not treat it as a refusal.** Status is
+  `manual_required` or `submitted` depending on what the redirect leads to —
+  never `failed`. Altair's portal is better than their email would have been.
+- **Say in the letter that you used the registered contact**, as these letters
+  already do: *"I am writing to the contact nominated in your California data
+  broker registration; if privacy requests are handled by someone else, I would
+  be grateful if you would forward this rather than return it."* It costs a
+  sentence, it makes the redirect polite rather than adversarial, and where a
+  company *does* forward internally it saves a full round trip. Altair's reply
+  came from a different person than the one addressed, so an internal forward did
+  happen even though the outcome was a redirect.
+
+### The related trap: pick the right form
+
+Altair's portal offers five forms, and the second one in the list is
+**Authorized Agent**. That is not the consumer's form. Submitting on your own
+behalf through an agent form is a false statement about the capacity in which
+you are acting, and the individual form contains an explicit affirmation that you
+are *not* acting as an agent. Read the list before clicking; the ordering is not
+a guide.
+
+**Related:** §71, §78; `_DEFLECTIONS.md` §45, §46.
