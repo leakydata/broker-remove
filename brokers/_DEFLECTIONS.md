@@ -2302,3 +2302,60 @@ letting an ID demand quietly close the whole request is how a verification step
 becomes a refusal without anyone having to write one.
 
 **Related:** §43, §45, §46, §47, §48.
+
+
+## §50 "We are a processor — ask your employer" applied to an FCRA access right
+
+Equifax, asked for a Work Number Employment Data Report and a freeze:
+
+> *"Equifax Workforce Solutions (The Work Number provider) serves as a processor
+> for Businesses who utilize our service. As such, any request (depending on your
+> State of Residence) for access, correction, or deletion of this data, must be
+> made to your Employer(s) to process the request."*
+
+**Half right, and the wrong half is the half that matters.**
+
+The processor framing works for *deletion*: employment and income data reported
+by an employer is not something the consumer can order destroyed, and pointing at
+the employer for a correction is reasonable — the employer is the furnisher and
+owns the underlying facts.
+
+**It does not work for access.** The Work Number assembles employment and income
+information on consumers and furnishes it to third parties for employment, credit
+and benefit decisions. That is what a consumer reporting agency *is* under the
+FCRA — which is precisely why Work Number data is FCRA-regulated, a point worth
+conceding early since it is also the reason deletion is off the table.
+
+And under the FCRA, **file disclosure comes from the CRA, not the furnisher**. An
+employer holds its own payroll records; it does not hold and cannot produce a
+Work Number file. So the referral sends the consumer to a party that structurally
+cannot help.
+
+**The closing move is not the statute, it is the company's own product.** Equifax
+Workforce Solutions already operates a consumer-facing route for obtaining an
+Employment Data Report and placing a freeze. Asking to be pointed at a service
+they already run is far harder to refuse than asking them to do something new:
+
+> I am not asking you to build anything or make an exception — I am asking to be
+> pointed at a service Equifax already runs, rather than to my employer.
+
+### Why this is worth pushing on rather than filing
+
+Employment and income history is among the most consequential records anyone
+holds about a person: it is queried for jobs, loans, apartments and benefits, and
+the consumer never sees it. A referral that reads as helpful and lands nowhere is
+the most expensive kind of dead end, because it looks like an answer.
+
+### The general shape
+
+**"We are a processor, go to the controller" is often true and is sometimes a
+category error.** Test it: *can the party you are being sent to actually produce
+the thing you asked for?* Where the referral target is a furnisher and the ask is
+file disclosure, the answer is no, and the referral is wrong regardless of how
+the relationship is characterised elsewhere.
+
+Related but distinct from §48, where the same company's identifiers were good
+enough to delete on but not to describe. Both are asymmetries between what a
+company will *do* to a record and what it will *say* about one.
+
+**Related:** §47, §48, §49.
