@@ -136,6 +136,7 @@ def main():
     pool = [
         b for b in brokers
         if b.get("email_to")
+        and not b.get("duplicate_of")
         and b["id"] not in dup_ids
         and b.get("email_verified_by") not in HOLD
         and b.get("priority", 0) >= args.min_priority
