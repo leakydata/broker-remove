@@ -3588,3 +3588,57 @@ or the body is a bare product name. Any OneTrust, Ketch, DataGrail or similar
 `my.<vendor>.com` portal path is a candidate.
 
 **Related:** §1, §64.
+
+---
+
+## §80 One mailbox, several rows, and a second letter that undoes the first
+
+Importing the state registrations added 517 brokers, and some of them are the
+same company twice. "Alliant" and "Alliant Cooperative Data Solutions LLC" are
+one business on one mailbox — `compliance@alliantdata.com` — which had **already
+confirmed** a deletion under reference A6PP4DHC2W. The queue was about to write
+to it again as a fresh first contact.
+
+A sweep for rows sharing a contact address found **37 brokers queued behind an
+address that already has an open thread**. Among them: `ansonia_credit_data` and
+`austin_consolidated`, both behind `usprivacy@equifax.com`, which the Equifax
+letter had *explicitly asked to treat as covering those entities*. Writing again
+would have contradicted the letter already sent.
+
+**Why a duplicate letter is worse than a wasted one.** It is not a free retry:
+
+- To the desk it reads as either not having read their reply, or as pressure. The
+  technique in `_DEFLECTIONS.md` — pre-accept the unflattering answer, make the
+  honest one-line reply cheap — depends entirely on the sender appearing to read
+  what comes back. A second identical request is the clearest possible signal
+  that nobody did.
+- It spends a slot from the daily cap on a broker already handled.
+- Where the first thread produced a confirmation, the second reopens a settled
+  matter and invites it to be re-decided.
+
+**Fix.** `queue_batch.py` now skips any broker whose contact address already
+belongs to a broker in a non-pending state, and prints what it held and why. The
+earlier thread is the live one; a sibling discovered later should be raised
+*inside* it — "your registration also lists X, does this cover them?" — rather
+than opened as a new request.
+
+### Two classes, and only one is a duplicate
+
+The same sweep produced 77 name-stem matches, and most were not duplicates at
+all:
+
+| Pattern | Example | Treatment |
+|---|---|---|
+| One company, two rows | `alliant` / `alliant_cooperative_data_solutions` | **Duplicate.** One thread. |
+| One operator, genuinely separate sites | 50+ `*courtrecords.us` state sites behind one contact | **Not duplicates.** Separate rows are correct; one letter, scoped to all. |
+| Brand-list registration vs a tracked brand | `stirista` / the Stirista row naming 13 brands | **Not a duplicate.** The brand-list row is the *family* record — see `mississippi_tornado_alley.md`. |
+
+**And a bug worth recording, because it is the kind that looks like a result.**
+The stem matcher used raw substring containment, which made `kansas` a match for
+`arkansas` and `virginia` a match for `westvirginia` — different states,
+different sites, reported as the same company. A matcher whose false positives
+are *plausible* is more dangerous than one that misses, because the output reads
+as a finding. Compare §76: two honest derivations producing a confident wrong
+answer.
+
+**Related:** §40, §76, §78.

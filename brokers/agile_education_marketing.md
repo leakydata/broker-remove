@@ -54,3 +54,40 @@ Five asks specific to this category:
 `personal_data_opt_out@` mailbox rather than a general one. A broker that builds a
 dedicated channel for this is signalling the request is expected, and those tend
 to be answered.
+
+
+## 2026-08-24: their autoreply scoped the file, and that is probably the answer
+
+Sent under the subject "Automatic reply", but it is a substantive determination
+with a deadline attached — easy to skim past as an out-of-office. Flagged that to
+them as a courtesy.
+
+The disclosure is the useful part:
+
+> *"Our records include only information about people who are currently employed
+> in an educational institution and are compiled from publicly available
+> information; we do not use date of birth to identify individuals in our
+> systems."*
+
+**On their own description the subject is out of scope**, having left the
+institution. So the reply asks them to confirm that as the close — "no record,
+out of scope" — rather than the "unverifiable" closure their message threatens
+after 10 days. Those record different reasons, and only one of them is true.
+
+**Declined to submit more identifiers.** They point at a separate form
+(`personalinforequest.agile-ed.com`) asking for more. Supplying additional
+personal data to a company that has just said it probably holds none is the wrong
+direction of travel: it hands them data they did not have in order to prove they
+do not have data. CPRA verification must be necessary and proportionate, and
+where the broker's own scoping statement resolves the question, more identifiers
+are not necessary. Said so with the reason attached.
+
+**The ask that survives regardless:** a do-not-add suppression entry. This file
+tracks *current* institutional employment, so it is refreshed as people join and
+leave — meaning someone out of scope today is added automatically if they take an
+institutional role later, without ever being asked. That is the whole argument
+for suppression at this broker and it does not depend on a record existing.
+
+Also asked them to confirm the `.edu` address was searched specifically, since
+their reply lumps it in with consumer webmail and it is the one identifier their
+index is shaped for.

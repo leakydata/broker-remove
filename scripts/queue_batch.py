@@ -107,9 +107,36 @@ def main():
     held = [b["id"] for b in brokers
             if b.get("email_to") and b.get("email_verified_by") in HOLD
             and state.get(b["id"], {}).get("status", "pending") not in DONE]
+    # One address, one letter. The state filings frequently register a corporate
+    # family under a single contact -- "Alliant" and "Alliant Cooperative Data
+    # Solutions LLC" are one company on one mailbox, and Stirista's registration
+    # names thirteen brands behind one address. Left alone, the queue writes to
+    # that mailbox once per row.
+    #
+    # A second letter to a desk that has already answered is not a free retry. It
+    # reads as either not having read the reply or as pressure, it spends a slot
+    # from the daily cap, and it costs the credibility the next letter depends on.
+    # So an address already spoken for by a broker in a non-pending state is
+    # skipped -- the earlier thread is the live one, and any sibling should be
+    # raised inside it rather than opened as a new request.
+    spoken_for = {}
+    for b in brokers:
+        e = (b.get("email_to") or "").lower()
+        if e and state.get(b["id"], {}).get("status", "pending") != "pending":
+            spoken_for.setdefault(e, b["id"])
+    dup = [(b["id"], spoken_for[(b.get("email_to") or "").lower()]) for b in brokers
+           if (b.get("email_to") or "").lower() in spoken_for
+           and state.get(b["id"], {}).get("status", "pending") == "pending"]
+    if dup:
+        print(f"holding {len(dup)} broker(s) whose contact address already has an "
+              f"open thread: " + ", ".join(f"{a}->{c}" for a, c in sorted(dup)[:6])
+              + (" ..." if len(dup) > 6 else ""), file=sys.stderr)
+    dup_ids = {a for a, _ in dup}
+
     pool = [
         b for b in brokers
         if b.get("email_to")
+        and b["id"] not in dup_ids
         and b.get("email_verified_by") not in HOLD
         and b.get("priority", 0) >= args.min_priority
         and state.get(b["id"], {}).get("status", "pending") not in DONE
