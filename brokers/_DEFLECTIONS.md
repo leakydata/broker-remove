@@ -2359,3 +2359,64 @@ enough to delete on but not to describe. Both are asymmetries between what a
 company will *do* to a record and what it will *say* about one.
 
 **Related:** §47, §48, §49.
+
+
+## §51 Grading a confirmation: what a good one actually contains
+
+Two completions arrived within a minute of each other and the contrast is the
+most useful teaching example in this file.
+
+**Altair (excellent), quoted in full because each clause does work:**
+
+> *"any personal data found relating to this consumer's name and mailing address
+> has been removed... the data may exist on offline backups for up to 45 days...
+> unless you instruct us otherwise, we will retain this request and use it to
+> filter out and eliminate personal data if it is received by us from a data
+> supplier in the future... we cannot remove the personal data from files on our
+> suppliers' computer systems."*
+
+**Giant Partners (typical):**
+
+> *"Any required actions related to the consumer's personal information,
+> including deletion, have been completed."*
+
+Both say the request is done. Only one tells you what was done.
+
+### The four things a confirmation should answer
+
+1. **Deletion or suppression?** The single most important distinction and the one
+   most often left ambiguous. A deletion is undone by the next supplier file; a
+   suppression entry persists and filters future ingests. Altair applied
+   suppression *by default* and said so. From Giant Partners' wording it is
+   impossible to tell which happened — and the two produce identical text.
+2. **Which identifiers were covered?** "Your information" is unfalsifiable.
+   Compare IDM, which itemised eight email addresses and eleven postal addresses
+   so the requester could check coverage against what they sent.
+3. **What is the retention tail?** Altair names 45 days of offline backups.
+   Silence here does not mean zero; it means unstated.
+4. **What is out of reach?** Altair says plainly they cannot touch suppliers'
+   systems and that the consumer must go upstream. That is not an evasion — it is
+   the map for the next request.
+
+### What to do with a vague one
+
+Do not treat it as a refusal, and do not re-argue the whole request. Ask the two
+or three questions that convert it into a gradeable answer, and **pre-accept the
+unflattering option** so the reply is cheap:
+
+> If it is deletion only, that is a real answer and I will record it as given — it
+> simply means the removal has a shelf life and I should re-check rather than
+> assume.
+
+Offer the one-line format explicitly: *"all identifiers supplied"*, or *"current
+name and address only"*, or whichever is accurate. A desk that would not write
+three paragraphs will often write four words.
+
+### Status handling
+
+A vague confirmation is still `confirmed` — the broker affirmatively said the
+data is gone, and disbelieving that without evidence is not honest record-keeping.
+Record the vagueness in the note instead, so the next verification sweep knows the
+claim was never specific enough to check.
+
+**Related:** §48, §50; `_SILENT_FAILURES.md` §40, §84.

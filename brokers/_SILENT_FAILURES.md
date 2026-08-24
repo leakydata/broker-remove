@@ -3871,4 +3871,28 @@ address and the subject has many: per-number opt-outs at caller-ID and
 reverse-lookup sites, per-address forms at property data brokers, per-email forms
 at list businesses.
 
-**Related:** §1, §77; `_DEFLECTIONS.md` §45.
+### The same shape at a postal broker, and it is worse there
+
+Altair's removal form has **one address field**. Their completion notice then
+says, accurately:
+
+> *"Data removed is specific to the name and mailing address provided... An
+> additional request must be submitted if the name and/or address changes."*
+
+So a form submission covers **one address out of sixteen** — and the fifteen
+omitted are the ones that matter most. A consumer marketing file is built largely
+from addresses a person no longer lives at, and a change-of-address append is
+precisely the mechanism by which an old record follows someone to a new house.
+
+This is more dangerous than the Sync.me case because **the confirmation is
+correct**. Nothing in it is misleading; the scope limitation is stated outright.
+A requester who skims it reads "Completed" and stops, having cleared a sixteenth
+of the surface. §40's scoped-confirmation problem, arriving through a form field
+rather than a hostname.
+
+**Ask once in the ticket rather than submitting fifteen more forms.** Jira
+Service Management tickets accept email replies, so the prior addresses can go
+back on the same thread — one request instead of sixteen, and it avoids the
+rate-based bot problem above entirely.
+
+**Related:** §1, §40, §77; `_DEFLECTIONS.md` §45.
