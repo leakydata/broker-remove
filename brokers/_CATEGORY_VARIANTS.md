@@ -1167,3 +1167,71 @@ records continuously, so a one-time deletion is refilled at the next ingest and
 the confirmation reads identically either way. Ask them to confirm the
 suppression survives the next county refresh, and that it is held independently
 of the record so deleting one does not remove the other.
+
+
+## MAID-only brokers: the geographic query is the way past the impasse
+
+Five companies in this registry have now said, in substance, *"we can only find
+you by mobile advertising ID; send us one."* Foursquare, CityData.AI, Matchbook
+Data, Mogean and Outlogic (formerly X-Mode Social).
+
+**The demand is structurally unanswerable, and worth saying so plainly.** A MAID
+was generated about a person rather than by them, was never disclosed to them, is
+resettable, and there is no lookup by which anyone can discover which values were
+associated with their devices historically. So "submit such identifiers" asks the
+consumer to produce something the industry created and never showed them.
+
+And the disclosure runs the wrong way. If the broker holds nothing, sending a
+live identifier **creates** a record rather than removing one. Since neither side
+knows which case applies before the search, it is a one-way bet against the
+requester.
+
+### The substitute: ask them to search where the device sleeps
+
+Location data has a natural key that is not an advertising ID. **Where a device
+spends the night, repeatedly, over months** identifies a household member about
+as reliably as a name field — and it is a query these systems exist to perform.
+
+> Please identify any device showing a **persistent overnight dwell pattern** at
+> [current address], and at [each prior address] for the period of residence, and
+> delete the records for any such device together with any inferred home
+> location, work location, visit history and identity-graph linkage attached to
+> it.
+
+This asks the same question in the only vocabulary the dataset speaks, and it
+requires nothing from the requester that they do not already put in every letter.
+
+**Pair it with confirm-before-delete.** The query may return devices belonging to
+other people in the household, and deleting a family member's record on someone
+else's say-so is the same harm as removing a stranger's listing. Offer it
+explicitly:
+
+> Because that query may return devices belonging to others in the household,
+> tell me what you find and let me confirm before anything is deleted.
+
+Offering this makes the request *easier* to grant, not harder — it removes the
+broker's best reason to refuse.
+
+### Three asks that do not depend on finding a record
+
+1. **Does the opt-out form itself require a MAID?** Several of these brokers point
+   at an opt-out page that has the identical problem. Ask before spending time on
+   it.
+2. **Can suppression be keyed to anything other than a MAID?** If not, say so
+   plainly — it means **no consumer can hold a durable suppression with that
+   company**, since the key resets. That is a significant admission and worth
+   having in writing.
+3. **Which SDK partners and app publishers feed the dataset?** That is the
+   collection point the person never knowingly agreed to and cannot discover
+   alone. Naming it is the only route to the source rather than the destination.
+
+### Close the loop honestly
+
+Say that a null result from the geographic query will be accepted:
+
+> If the geographic search returns nothing, I will accept that as a complete
+> answer and say so. I would simply rather have a real negative from a query that
+> could have found me than a null result from one that never could.
+
+That sentence is the whole argument in miniature, and it is what distinguishes
+this from refusing to cooperate.
