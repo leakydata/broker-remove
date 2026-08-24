@@ -3526,7 +3526,7 @@
       "source": "optery_scrape",
       "optery_slug": "billtrust",
       "email_to": "privacyrequests@billtrust.com",
-      "email_verified": false,
+      "email_verified": true,
       "notes": "privacy@billtrust.com rejects outside senders (restricted internal group, \"not on allowed senders list\"). Resent 2026-08-22 to privacyrequests@billtrust.com, the alt address.",
       "email_verified_by": "delivery_evidence",
       "email_alt": "privacyrequests@billtrust.com",
@@ -7896,7 +7896,7 @@
       "source": "optery_scrape",
       "optery_slug": "fourthwall",
       "email_to": "californiadrop@fourthwall.tv",
-      "email_verified": false,
+      "email_verified": true,
       "email_verified_by": "delivery_evidence",
       "email_alt": "privacypolicy@fourthwall.tv",
       "registry_years": [
@@ -9349,7 +9349,7 @@
       "source": "optery_scrape",
       "optery_slug": "infofree",
       "email_to": "info@infofree.com",
-      "email_verified": false,
+      "email_verified": true,
       "email_verified_by": "delivery_evidence",
       "email_alt": "privacy@infofree.com",
       "notes": "privacy@infofree.com hard-bounces (550, address not found); the site's own privacy policy publishes only info@infofree.com. Registry corrected 2026-08-22 to use the working address as primary (email_to field was stale despite the note already saying this).",
@@ -10526,7 +10526,7 @@
       "source": "optery_scrape",
       "optery_slug": "lead-me-media",
       "email_to": "californiaregistry@leadmemedia.com",
-      "email_verified": false,
+      "email_verified": true,
       "email_verified_by": "delivery_evidence",
       "email_alt": "info@leadmemedia.com",
       "notes": "ccpa@leadmemedia.com hard-bounces 550 address-not-found. Resent 2026-08-22 to californiaregistry@leadmemedia.com, the alt address.",
@@ -10952,7 +10952,7 @@
       "source": "optery_scrape",
       "optery_slug": "list-service-direct",
       "email_to": "micah@listservicedirect.com",
-      "email_verified": false,
+      "email_verified": true,
       "email_verified_by": "delivery_evidence",
       "email_alt": "info@listservicedirect.com",
       "notes": "dataremoval@listservicedirect.com bounced with \"mailbox full\". Resent 2026-08-22 to micah@listservicedirect.com, the alt address.",
@@ -15367,10 +15367,10 @@
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "real-performance-marketing",
-      "email_to": "data@rpmleader.com",
-      "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
-      "notes": "ALL THREE addresses published on their own privacy policy are rejected by their own Proofpoint MX with 550 5.7.1 'Recipient address rejected: User email address is marked as invalid' - ConsumerInquiries@, connect@ and info@. The only web form is a SALES enquiry form whose required 'I am' dropdown offers Agency / Affiliate / Affiliate Network / Brand Platform and no consumer option, so it cannot be completed truthfully. Their privacy policy states plainly: 'Company acts as a data broker, as that term is defined in California Civil Code section 1798.99.80 et seq.' - so the CA data-broker registry is the remaining lever. Trading name on their own header: Best Case Leads.",
+      "email_to": "compliance@rpmleader.com",
+      "email_verified": false,
+      "email_verified_by": "privacy_policy",
+      "notes": "ALL of ConsumerInquiries@, connect@ and info@rpmleader.com are rejected by their own Proofpoint MX with 550 5.7.1 policy rejection. 'data@rpmleader.com' (a prior registry guess) appears nowhere on their site and was never actually sent to - cleared. compliance@rpmleader.com IS genuinely published, on their Do Not Call Policy page, and is untried. The only web form is a sales-enquiry form with no consumer option. Trading name: Best Case Leads. They admit CA data-broker status in their own privacy policy.",
       "email_alt": null,
       "registry_years": [
         "2024"
@@ -16095,14 +16095,15 @@
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "roc-advertising",
-      "email_to": "dataprivacy_rocadvertising@simpleoptoutcompliance.com",
+      "email_to": "privacy@rocadvertising.com",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "delivery_evidence",
       "email": null,
-      "email_alt": "privacy@rocadvertising.com",
+      "email_alt": "dataprivacy_rocadvertising@simpleoptoutcompliance.com",
       "registry_years": [
         "2020-2023"
-      ]
+      ],
+      "notes": "dataprivacy_rocadvertising@simpleoptoutcompliance.com (a third-party compliance-vendor mailbox) hard-bounces 550. privacy@rocadvertising.com is published on their own site (rocadvertising.com/privacy-policy/) and was used successfully 2026-08-20 with subject 'Data Removal Request'. See brokers/roc_advertising.md."
     },
     {
       "id": "rooftop_digital",
@@ -17115,13 +17116,14 @@
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "sourceit",
-      "email_to": "dataprivacy@sourceitmarketing.com",
+      "email_to": "dataprivacy2026@sourceitmarketing.com",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
-      "email_alt": "dataprivacy2026@sourceitmarketing.com",
+      "email_verified_by": "broker_reply",
+      "email_alt": "dataprivacy@sourceitmarketing.com",
       "registry_years": [
         "2020-2023"
-      ]
+      ],
+      "notes": "2026-08-24: swapped primary/alt - dataprivacy@ (the year-less address) hard-bounces; dataprivacy2026@sourceitmarketing.com is the real, year-stamped mailbox and a full request was completed there (operator replied personally, confirmed one record removed, named suppliers)."
     },
     {
       "id": "sourceit_technologies",
@@ -19962,8 +19964,8 @@
       "source": "optery_scrape",
       "optery_slug": "x-mode-social",
       "email_to": "privacy@outlogic.io",
-      "email_verified": false,
-      "email_verified_by": "delivery_evidence",
+      "email_verified": true,
+      "email_verified_by": "broker_reply",
       "note": "Renamed entity. They also publish appeals@outlogic.io for appeals, eurep@ and ukrep@ for EU/UK representatives, and Hello@Outlogic.io as general contact.",
       "email_alt": "privacy@outlogic.io",
       "registry_years": [
