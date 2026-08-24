@@ -1873,7 +1873,7 @@
       "email_to": "info@connextdigital.com",
       "email_verified": false,
       "email_verified_by": "bounced",
-      "notes": "Both info@connextdigital.com (2026-08-17) and privacy@connextdigital.com (2026-08-22) hard-bounce 550 5.1.1. No alternative address published anywhere on the site. Domain/MX resolve \u2014 live domain, no working mailbox. No usable email route; do not resend to either address.",
+      "notes": "Both info@connextdigital.com (2026-08-17) and privacy@connextdigital.com (2026-08-22) hard-bounce 550 5.1.1. No alternative address published anywhere on the site. Domain/MX resolve — live domain, no working mailbox. No usable email route; do not resend to either address.",
       "email_alt": "privacy@connextdigital.com",
       "registry_years": [
         "2020-2023",
@@ -1951,10 +1951,11 @@
       "method": "web_form",
       "optout_url": "https://www.cotality.com/legal/privacy-policy",
       "needs_email_confirm": false,
-      "notes": "CoreLogic now trades as Cotality - privacy policy moved domains. privacy@cotality.com is not on corelogic.com -- the site publishes no address on the broker's own domain. Either an acquisition (route is correct) or a wrong domain in the registry (route is a stranger). Confirm the corporate relationship before sending: the letter carries a full identifier set.",
+      "notes": "CoreLogic now trades as Cotality - privacy policy moved domains. privacy@cotality.com is not on corelogic.com -- the site publishes no address on the broker's own domain. Either an acquisition (route is correct) or a wrong domain in the registry (route is a stranger). Confirm the corporate relationship before sending: the letter carries a full identifier set. Resolves to cotality.com, the same site as corelogic_cotality. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the corelogic_cotality thread rather than opening a second request.",
       "email_to": "privacy@cotality.com",
       "email_verified": false,
-      "email_verified_by": "offdomain_needs_confirmation"
+      "email_verified_by": "offdomain_needs_confirmation",
+      "duplicate_of": "corelogic_cotality"
     },
     {
       "id": "corelogic_cotality",
@@ -2038,7 +2039,7 @@
       "email_to": "priorityoptout@intelius.com",
       "email_verified": true,
       "email_verified_by": "broker_reply",
-      "notes": "support@criminaldatacheck.com hard-bounces (550) and is the only address the site itself publishes. This is an Intelius/PeopleConnect affiliate front (optout_url already pointed at intelius.com/privacy-center) \u2014 file against priorityoptout@intelius.com naming CriminalDataCheck.com specifically, same pattern as addresses_com and zabasearch.",
+      "notes": "support@criminaldatacheck.com hard-bounces (550) and is the only address the site itself publishes. This is an Intelius/PeopleConnect affiliate front (optout_url already pointed at intelius.com/privacy-center) — file against priorityoptout@intelius.com naming CriminalDataCheck.com specifically, same pattern as addresses_com and zabasearch.",
       "email_alt": "support@criminaldatacheck.com"
     },
     {
@@ -2186,7 +2187,7 @@
       "email_to": "info@datadirectmarketing.com",
       "email_verified": false,
       "email_verified_by": "bounced",
-      "notes": "Both info@datadirectmarketing.com (2026-08-17) and datanalytics@teamdms.com (2026-08-22) hard-bounce 'address not found'. No alternative address published anywhere on the site. Domain/MX resolve \u2014 live domain, no working mailbox. No usable email route; do not resend to either address.",
+      "notes": "Both info@datadirectmarketing.com (2026-08-17) and datanalytics@teamdms.com (2026-08-22) hard-bounce 'address not found'. No alternative address published anywhere on the site. Domain/MX resolve — live domain, no working mailbox. No usable email route; do not resend to either address.",
       "email_alt": "datanalytics@teamdms.com",
       "registry_years": [
         "2020-2023",
@@ -2683,7 +2684,9 @@
         "2024",
         "2025",
         "2026"
-      ]
+      ],
+      "duplicate_of": "appily",
+      "notes": "Resolves to eab.com, the same site as appily. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the appily thread rather than opening a second request."
     },
     {
       "id": "easybackgroundchecks",
@@ -2901,14 +2904,15 @@
       "email_to": "privacy@exactdata.com",
       "email_verified": true,
       "email_verified_by": "ca_data_broker_registry",
-      "notes": "Named by Sourceit Marketing 2026-08-20 as an upstream email-list supplier that fed a record about this subject.",
+      "notes": "Named by Sourceit Marketing 2026-08-20 as an upstream email-list supplier that fed a record about this subject. Resolves to data-axle.com, the same site as dataaxle. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the dataaxle thread rather than opening a second request.",
       "email_alt": "privacyteam@data-axle.com",
       "registry_years": [
         "2020-2023",
         "2024",
         "2025",
         "2026"
-      ]
+      ],
+      "duplicate_of": "dataaxle"
     },
     {
       "id": "experian_marketing",
@@ -8780,7 +8784,9 @@
       "optery_slug": "terminus",
       "email_to": "privacy@terminus.com",
       "email_verified": false,
-      "email_verified_by": "terminus.com now redirects its privacy policy to demandscience.com/privacy-policy/ - Terminus appears to be part of DemandScience. No address in page text on either. /privacy-rights/ 404s. Needs a browser pass."
+      "email_verified_by": "terminus.com now redirects its privacy policy to demandscience.com/privacy-policy/ - Terminus appears to be part of DemandScience. No address in page text on either. /privacy-rights/ 404s. Needs a browser pass.",
+      "duplicate_of": "demandscience",
+      "notes": "Resolves to demandscience.com, the same site as demandscience. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the demandscience thread rather than opening a second request."
     },
     {
       "id": "texas_arrest_warrants_search",
@@ -9036,7 +9042,9 @@
       "optery_slug": "tunnl",
       "email_to": "notice@tunnldata.com",
       "email_verified": false,
-      "email_verified_by": null
+      "email_verified_by": null,
+      "duplicate_of": "deep_root",
+      "notes": "Resolves to tunnldata.com, the same site as deep_root. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the deep_root thread rather than opening a second request."
     },
     {
       "id": "tymax_media",
@@ -10144,7 +10152,8 @@
       "email_to": "support@experience.com",
       "email_verified": false,
       "email_verified_by": "offdomain_needs_confirmation",
-      "notes": "support@experience.com is not on buyersroad.co -- the site publishes no address on the broker's own domain. Either an acquisition (route is correct) or a wrong domain in the registry (route is a stranger). Confirm the corporate relationship before sending: the letter carries a full identifier set."
+      "notes": "support@experience.com is not on buyersroad.co -- the site publishes no address on the broker's own domain. Either an acquisition (route is correct) or a wrong domain in the registry (route is a stranger). Confirm the corporate relationship before sending: the letter carries a full identifier set. Resolves to experience.com, the same site as experience. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the experience thread rather than opening a second request.",
+      "duplicate_of": "experience"
     },
     {
       "id": "cb_insights",
@@ -10813,7 +10822,9 @@
       "optery_slug": "propertychecker-com",
       "email_to": "support@propertychecker.com",
       "email_verified": true,
-      "email_verified_by": "privacy_policy"
+      "email_verified_by": "privacy_policy",
+      "duplicate_of": "propertychecker",
+      "notes": "Resolves to propertychecker.com, the same site as propertychecker. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the propertychecker thread rather than opening a second request."
     },
     {
       "id": "publicrecords_info",
@@ -10897,7 +10908,9 @@
       "optery_slug": "salesgear-io",
       "email_to": "support@salesgear.io",
       "email_verified": true,
-      "email_verified_by": "privacy_policy"
+      "email_verified_by": "privacy_policy",
+      "duplicate_of": "salesgear",
+      "notes": "Resolves to salesgear.io, the same site as salesgear. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the salesgear thread rather than opening a second request."
     },
     {
       "id": "salesintel",
@@ -11237,7 +11250,9 @@
       "registry_years": [
         "2026"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "duplicate_of": "five_by_five",
+      "notes": "Resolves to 5x5data.com, the same site as five_by_five. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the five_by_five thread rather than opening a second request."
     },
     {
       "id": "above_data",
@@ -11311,7 +11326,9 @@
         "2020-2023",
         "2024"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "duplicate_of": "deep_sync",
+      "notes": "Resolves to deepsync.com, the same site as deep_sync. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the deep_sync thread rather than opening a second request."
     },
     {
       "id": "accurate_append",
@@ -11669,7 +11686,9 @@
         "2025",
         "2026"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "duplicate_of": "alliant",
+      "notes": "Resolves to alliantinsight.com, the same site as alliant. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the alliant thread rather than opening a second request."
     },
     {
       "id": "all_web_leads",
@@ -11687,7 +11706,9 @@
       "registry_years": [
         "2020-2023"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "duplicate_of": "awl",
+      "notes": "Resolves to awl.com, the same site as awl. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the awl thread rather than opening a second request."
     },
     {
       "id": "lg_ads_solutions",
@@ -11745,7 +11766,9 @@
       "registry_years": [
         "2020-2023"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "duplicate_of": "verinext",
+      "notes": "Resolves to verinext.com, the same site as verinext. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the verinext thread rather than opening a second request."
     },
     {
       "id": "ansonia_credit_data",
@@ -11855,7 +11878,9 @@
       "registry_years": [
         "2020-2023"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "duplicate_of": "app_science",
+      "notes": "Resolves to appscience.ai, the same site as app_science. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the app_science thread rather than opening a second request."
     },
     {
       "id": "app_science",
@@ -11950,7 +11975,9 @@
       "registry_years": [
         "2020-2023"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "duplicate_of": "deep_sync",
+      "notes": "Resolves to deepsync.com, the same site as deep_sync. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the deep_sync thread rather than opening a second request."
     },
     {
       "id": "astoria",
@@ -12007,7 +12034,9 @@
         "2026"
       ],
       "legal_name": "Unearth Campaigns LLC",
-      "domain_source": "ca_registry_contact_email"
+      "domain_source": "ca_registry_contact_email",
+      "duplicate_of": "unearth_campaigns",
+      "notes": "Resolves to unearthcampaigns.com, the same site as unearth_campaigns. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the unearth_campaigns thread rather than opening a second request."
     },
     {
       "id": "attom_data_solutions",
@@ -12314,7 +12343,9 @@
         "2025"
       ],
       "legal_name": null,
-      "domain_source": "ca_registry_contact_email"
+      "domain_source": "ca_registry_contact_email",
+      "duplicate_of": "moneybot5000",
+      "notes": "Resolves to moneybot5000.com, the same site as moneybot5000. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the moneybot5000 thread rather than opening a second request."
     },
     {
       "id": "beenverified_llc_and_its_subsidiaries_and_affiliates",
@@ -12546,7 +12577,9 @@
       "registry_years": [
         "2020-2023"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "duplicate_of": "tinuiti",
+      "notes": "Resolves to tinuiti.com, the same site as tinuiti. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the tinuiti thread rather than opening a second request."
     },
     {
       "id": "blue_fire_leads_home_upgrade_professionals_home_upgrade_pros",
@@ -12639,7 +12672,9 @@
         "2020-2023",
         "2024"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "duplicate_of": "altrata",
+      "notes": "Resolves to altrata.com, the same site as altrata. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the altrata thread rather than opening a second request."
     },
     {
       "id": "bookyourdata",
@@ -12719,7 +12754,9 @@
         "2026"
       ],
       "legal_name": null,
-      "domain_source": "ca_registry_contact_email"
+      "domain_source": "ca_registry_contact_email",
+      "duplicate_of": "buildertrend",
+      "notes": "Resolves to buildertrend.com, the same site as buildertrend. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the buildertrend thread rather than opening a second request."
     },
     {
       "id": "data_marketing_solutions",
@@ -13044,7 +13081,9 @@
         "2025"
       ],
       "legal_name": "Truth Now LLC",
-      "domain_source": "ca_registry_contact_email"
+      "domain_source": "ca_registry_contact_email",
+      "duplicate_of": "checksecrets",
+      "notes": "Resolves to checksecrets.com, the same site as checksecrets. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the checksecrets thread rather than opening a second request."
     },
     {
       "id": "cinqdi",
@@ -13233,7 +13272,9 @@
       "registry_years": [
         "2020-2023"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "duplicate_of": "deep_sync",
+      "notes": "Resolves to deepsync.com, the same site as deep_sync. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the deep_sync thread rather than opening a second request."
     },
     {
       "id": "complete_mailing_lists",
@@ -13859,7 +13900,9 @@
       "registry_years": [
         "2025"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "duplicate_of": "4eyes_ai_4_eyes_ai",
+      "notes": "Resolves to delivr.ai, the same site as 4eyes_ai_4_eyes_ai. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the 4eyes_ai_4_eyes_ai thread rather than opening a second request."
     },
     {
       "id": "deloitte_financial_advisory_services",
@@ -13880,7 +13923,9 @@
         "2025",
         "2026"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "duplicate_of": "deloitte_consulting",
+      "notes": "Resolves to deloitte.com, the same site as deloitte_consulting. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the deloitte_consulting thread rather than opening a second request."
     },
     {
       "id": "deloitte_consulting",
@@ -14078,7 +14123,9 @@
         "2025",
         "2026"
       ],
-      "legal_name": "Dun and Bradstreet Inc."
+      "legal_name": "Dun and Bradstreet Inc.",
+      "duplicate_of": "netwise",
+      "notes": "Resolves to dnb.com, the same site as netwise. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the netwise thread rather than opening a second request."
     },
     {
       "id": "wholesale_mail",
@@ -14386,7 +14433,9 @@
       "registry_years": [
         "2026"
       ],
-      "legal_name": "ListsOnline.com, Inc."
+      "legal_name": "ListsOnline.com, Inc.",
+      "duplicate_of": "listsonline",
+      "notes": "Resolves to everleads.com, the same site as listsonline. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the listsonline thread rather than opening a second request."
     },
     {
       "id": "evertrue_donorsearch",
@@ -14593,7 +14642,9 @@
         "2026"
       ],
       "legal_name": "Peoplefinders, LLC",
-      "domain_source": "ca_registry_contact_email"
+      "domain_source": "ca_registry_contact_email",
+      "duplicate_of": "peoplefinders",
+      "notes": "Resolves to peoplefinders.com, the same site as peoplefinders. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the peoplefinders thread rather than opening a second request."
     },
     {
       "id": "saha_ventures",
@@ -14690,7 +14741,9 @@
         "2026"
       ],
       "legal_name": "First Direct, Inc.",
-      "domain_source": "ca_registry_contact_email"
+      "domain_source": "ca_registry_contact_email",
+      "duplicate_of": "first_direct_national_list_services",
+      "notes": "Resolves to firstdirectmarketing.com, the same site as first_direct_national_list_services. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the first_direct_national_list_services thread rather than opening a second request."
     },
     {
       "id": "first_orion",
@@ -15238,7 +15291,9 @@
         "2026"
       ],
       "legal_name": "Healthcare Inc",
-      "domain_source": "ca_registry_contact_email"
+      "domain_source": "ca_registry_contact_email",
+      "duplicate_of": "healthcare",
+      "notes": "Resolves to healthcare.com, the same site as healthcare. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the healthcare thread rather than opening a second request."
     },
     {
       "id": "healthcare",
@@ -15450,7 +15505,9 @@
       "registry_years": [
         "2020-2023"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "duplicate_of": "deep_sync",
+      "notes": "Resolves to deepsync.com, the same site as deep_sync. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the deep_sync thread rather than opening a second request."
     },
     {
       "id": "hubspot",
@@ -15487,7 +15544,9 @@
       "registry_years": [
         "2024"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "duplicate_of": "atlas",
+      "notes": "Resolves to huntclub.com, the same site as atlas. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the atlas thread rather than opening a second request."
     },
     {
       "id": "hybrid_theory",
@@ -15733,7 +15792,9 @@
         "2025",
         "2026"
       ],
-      "legal_name": "PaeDae, Inc."
+      "legal_name": "PaeDae, Inc.",
+      "duplicate_of": "mediamath",
+      "notes": "Resolves to infillion.com, the same site as mediamath. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the mediamath thread rather than opening a second request."
     },
     {
       "id": "infocore",
@@ -15770,7 +15831,9 @@
         "2026"
       ],
       "legal_name": null,
-      "domain_source": "ca_registry_contact_email"
+      "domain_source": "ca_registry_contact_email",
+      "duplicate_of": "privatereports",
+      "notes": "Resolves to privatereports.com, the same site as privatereports. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the privatereports thread rather than opening a second request."
     },
     {
       "id": "informa",
@@ -15846,7 +15909,9 @@
         "2026"
       ],
       "legal_name": "InfoPay, Inc",
-      "domain_source": "ca_registry_contact_email"
+      "domain_source": "ca_registry_contact_email",
+      "duplicate_of": "infopay",
+      "notes": "Resolves to infopay.com, the same site as infopay. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the infopay thread rather than opening a second request."
     },
     {
       "id": "infutordata",
@@ -15983,7 +16048,9 @@
         "2026"
       ],
       "legal_name": "Intelius, LLC",
-      "domain_source": "ca_registry_contact_email"
+      "domain_source": "ca_registry_contact_email",
+      "duplicate_of": "intelius",
+      "notes": "Resolves to intelius.com, the same site as intelius. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the intelius thread rather than opening a second request."
     },
     {
       "id": "intent_iq",
@@ -16195,7 +16262,9 @@
         "2026"
       ],
       "legal_name": null,
-      "domain_source": "ca_registry_contact_email"
+      "domain_source": "ca_registry_contact_email",
+      "duplicate_of": "iqvia",
+      "notes": "Resolves to iqvia.com, the same site as iqvia. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the iqvia thread rather than opening a second request."
     },
     {
       "id": "irys",
@@ -16298,7 +16367,9 @@
         "2025",
         "2026"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "duplicate_of": "j_d_power",
+      "notes": "Resolves to jdpower.com, the same site as j_d_power. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the j_d_power thread rather than opening a second request."
     },
     {
       "id": "jigyasa_analytics",
@@ -16452,7 +16523,9 @@
         "2026"
       ],
       "legal_name": "Scalable Commerce LLC",
-      "domain_source": "ca_registry_contact_email"
+      "domain_source": "ca_registry_contact_email",
+      "duplicate_of": "kids_live_safe",
+      "notes": "Resolves to kidslivesafe.com, the same site as kids_live_safe. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the kids_live_safe thread rather than opening a second request."
     },
     {
       "id": "kindsight",
@@ -16471,7 +16544,9 @@
         "2025",
         "2026"
       ],
-      "legal_name": "iWave Information Systems"
+      "legal_name": "iWave Information Systems",
+      "duplicate_of": "iwave",
+      "notes": "Resolves to kindsight.io, the same site as iwave. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the iwave thread rather than opening a second request."
     },
     {
       "id": "kind_skiptracing",
@@ -16584,7 +16659,9 @@
       "registry_years": [
         "2020-2023"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "duplicate_of": "l2_data",
+      "notes": "Resolves to l2-data.com, the same site as l2_data. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the l2_data thread rather than opening a second request."
     },
     {
       "id": "lead_enhance",
@@ -16657,7 +16734,9 @@
         "2026"
       ],
       "legal_name": "Property Reach, L.P.",
-      "domain_source": "ca_registry_contact_email"
+      "domain_source": "ca_registry_contact_email",
+      "duplicate_of": "propertyreach",
+      "notes": "Resolves to propertyreach.com, the same site as propertyreach. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the propertyreach thread rather than opening a second request."
     },
     {
       "id": "learnmore",
@@ -16751,7 +16830,9 @@
         "2024",
         "2025"
       ],
-      "legal_name": "Economic Modeling, LLC"
+      "legal_name": "Economic Modeling, LLC",
+      "duplicate_of": "economic_modeling_rhetorik",
+      "notes": "Resolves to lightcast.io, the same site as economic_modeling_rhetorik. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the economic_modeling_rhetorik thread rather than opening a second request."
     },
     {
       "id": "listkit",
@@ -16902,7 +16983,9 @@
       "registry_years": [
         "2020-2023"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "duplicate_of": "cint",
+      "notes": "Resolves to cint.com, the same site as cint. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the cint thread rather than opening a second request."
     },
     {
       "id": "lusha_systems",
@@ -16920,7 +17003,9 @@
       "registry_years": [
         "2020-2023"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "duplicate_of": "lusha",
+      "notes": "Resolves to lusha.com, the same site as lusha. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the lusha thread rather than opening a second request."
     },
     {
       "id": "machintel",
@@ -16998,7 +17083,9 @@
         "2025",
         "2026"
       ],
-      "legal_name": "Infinite Media Concepts, Inc."
+      "legal_name": "Infinite Media Concepts, Inc.",
+      "duplicate_of": "infinite_media_concepts",
+      "notes": "Resolves to mailinglists.com, the same site as infinite_media_concepts. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the infinite_media_concepts thread rather than opening a second request."
     },
     {
       "id": "malvern_media",
@@ -17190,7 +17277,9 @@
       "registry_years": [
         "2026"
       ],
-      "legal_name": "Revenue Roll Inc."
+      "legal_name": "Revenue Roll Inc.",
+      "duplicate_of": "revenue_roll",
+      "notes": "Resolves to meettie.com, the same site as revenue_roll. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the revenue_roll thread rather than opening a second request."
     },
     {
       "id": "meltwater_news",
@@ -17285,7 +17374,9 @@
         "2025"
       ],
       "legal_name": null,
-      "domain_source": "ca_registry_contact_email"
+      "domain_source": "ca_registry_contact_email",
+      "duplicate_of": "cyberbackgroundchecks_com_advancedbackgroundchecks_com_fastb",
+      "notes": "Resolves to mtalley.zendesk.com, the same site as cyberbackgroundchecks_com_advancedbackgroundchecks_com_fastb. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the cyberbackgroundchecks_com_advancedbackgroundchecks_com_fastb thread rather than opening a second request."
     },
     {
       "id": "infinite_media_concepts",
@@ -17421,7 +17512,9 @@
         "2025",
         "2026"
       ],
-      "legal_name": "Ownco, LLC"
+      "legal_name": "Ownco, LLC",
+      "duplicate_of": "lender_feed_lc",
+      "notes": "Resolves to monitorbase.com, the same site as lender_feed_lc. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the lender_feed_lc thread rather than opening a second request."
     },
     {
       "id": "monocl",
@@ -17458,7 +17551,9 @@
         "2025",
         "2026"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "duplicate_of": "bureau_van_dijk_electronic_publishing",
+      "notes": "Resolves to moodys.com, the same site as bureau_van_dijk_electronic_publishing. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the bureau_van_dijk_electronic_publishing thread rather than opening a second request."
     },
     {
       "id": "moody_s_analytics",
@@ -17476,7 +17571,9 @@
       "registry_years": [
         "2024"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "duplicate_of": "bureau_van_dijk_electronic_publishing",
+      "notes": "Resolves to moodys.com, the same site as bureau_van_dijk_electronic_publishing. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the bureau_van_dijk_electronic_publishing thread rather than opening a second request."
     },
     {
       "id": "mortgage_rates_pro_online_mortgage_loans_best_auto_insurance",
@@ -17495,7 +17592,9 @@
         "2026"
       ],
       "legal_name": "Apollo Interactive, LLC",
-      "domain_source": "ca_registry_contact_email"
+      "domain_source": "ca_registry_contact_email",
+      "duplicate_of": "apollo_interactive",
+      "notes": "Resolves to apollointeractive.com, the same site as apollo_interactive. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the apollo_interactive thread rather than opening a second request."
     },
     {
       "id": "media_resource",
@@ -17815,7 +17914,9 @@
         "2024",
         "2025"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "duplicate_of": "oan_online_advertising_network",
+      "notes": "Resolves to oan.pl, the same site as oan_online_advertising_network. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the oan_online_advertising_network thread rather than opening a second request."
     },
     {
       "id": "oan_online_advertising_network",
@@ -17927,7 +18028,9 @@
       "registry_years": [
         "2025"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "duplicate_of": "nova_list",
+      "notes": "Resolves to onpointdatastrategy.com, the same site as nova_list. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the nova_list thread rather than opening a second request."
     },
     {
       "id": "onspot_data",
@@ -18065,7 +18168,9 @@
         "2020-2023",
         "2025"
       ],
-      "legal_name": "Knowledge Works, Inc."
+      "legal_name": "Knowledge Works, Inc.",
+      "duplicate_of": "austin_consolidated",
+      "notes": "Resolves to equifax.com, the same site as austin_consolidated. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the austin_consolidated thread rather than opening a second request."
     },
     {
       "id": "penlink",
@@ -18101,7 +18206,9 @@
       "registry_years": [
         "2026"
       ],
-      "legal_name": "Hivestack Technologies Inc."
+      "legal_name": "Hivestack Technologies Inc.",
+      "duplicate_of": "hivestack",
+      "notes": "Resolves to perion.com, the same site as hivestack. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the hivestack thread rather than opening a second request."
     },
     {
       "id": "permutive",
@@ -18176,7 +18283,9 @@
       "registry_years": [
         "2020-2023"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "duplicate_of": "precisely",
+      "notes": "Resolves to precisely.com, the same site as precisely. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the precisely thread rather than opening a second request."
     },
     {
       "id": "plug_industries",
@@ -18348,7 +18457,9 @@
         "2025"
       ],
       "legal_name": "Infomatics LLC",
-      "domain_source": "ca_registry_contact_email"
+      "domain_source": "ca_registry_contact_email",
+      "duplicate_of": "privatereports",
+      "notes": "Resolves to privatereports.com, the same site as privatereports. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the privatereports thread rather than opening a second request."
     },
     {
       "id": "prodpro",
@@ -18459,7 +18570,9 @@
         "2026"
       ],
       "legal_name": "BIGDBM",
-      "domain_source": "ca_registry_contact_email"
+      "domain_source": "ca_registry_contact_email",
+      "duplicate_of": "bigdbm",
+      "notes": "Resolves to bigdbm.com, the same site as bigdbm. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the bigdbm thread rather than opening a second request."
     },
     {
       "id": "publicrecordcom",
@@ -18856,7 +18969,9 @@
         "2026"
       ],
       "legal_name": "GETEMAILS LLC",
-      "domain_source": "ca_registry_contact_email"
+      "domain_source": "ca_registry_contact_email",
+      "duplicate_of": "retention_com",
+      "notes": "Resolves to retention.com, the same site as retention_com. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the retention_com thread rather than opening a second request."
     },
     {
       "id": "revcontent",
@@ -19014,7 +19129,9 @@
         "2025",
         "2026"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "duplicate_of": "id_analytics",
+      "notes": "Resolves to risk.lexisnexis.com, the same site as id_analytics. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the id_analytics thread rather than opening a second request."
     },
     {
       "id": "rooftop_digital",
@@ -19072,7 +19189,9 @@
         "2025",
         "2026"
       ],
-      "legal_name": "Valassis Communications, Inc."
+      "legal_name": "Valassis Communications, Inc.",
+      "duplicate_of": "valassis_communications",
+      "notes": "Resolves to rrd.com, the same site as valassis_communications. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the valassis_communications thread rather than opening a second request."
     },
     {
       "id": "sabio",
@@ -19149,7 +19268,9 @@
         "2024",
         "2026"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "duplicate_of": "salesintel",
+      "notes": "Resolves to salesintel.io, the same site as salesintel. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the salesintel thread rather than opening a second request."
     },
     {
       "id": "salutary_data",
@@ -19271,7 +19392,9 @@
         "2025",
         "2026"
       ],
-      "legal_name": "Seamless Contacts, Inc."
+      "legal_name": "Seamless Contacts, Inc.",
+      "duplicate_of": "seamless_ai",
+      "notes": "Resolves to seamless.ai, the same site as seamless_ai. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the seamless_ai thread rather than opening a second request."
     },
     {
       "id": "zipstorm",
@@ -19486,7 +19609,9 @@
         "2026"
       ],
       "legal_name": "Slashdot Media, LLC",
-      "domain_source": "ca_registry_contact_email"
+      "domain_source": "ca_registry_contact_email",
+      "duplicate_of": "slashdot_media",
+      "notes": "Resolves to slashdotmedia.com, the same site as slashdot_media. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the slashdot_media thread rather than opening a second request."
     },
     {
       "id": "sma_communications",
@@ -19562,7 +19687,9 @@
       "registry_years": [
         "2026"
       ],
-      "legal_name": "Effyis, Inc."
+      "legal_name": "Effyis, Inc.",
+      "duplicate_of": "socialgist",
+      "notes": "Resolves to socialgist.ai, the same site as socialgist. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the socialgist thread rather than opening a second request."
     },
     {
       "id": "socialgist",
@@ -19618,7 +19745,9 @@
       "registry_years": [
         "2024"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "duplicate_of": "sourceit",
+      "notes": "Resolves to sourceit.co, the same site as sourceit. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the sourceit thread rather than opening a second request."
     },
     {
       "id": "source_path_digital",
@@ -19677,7 +19806,9 @@
       "registry_years": [
         "2024"
       ],
-      "legal_name": "SPECTRUM MAILING LISTS"
+      "legal_name": "SPECTRUM MAILING LISTS",
+      "duplicate_of": "spectrum_mailing_lists",
+      "notes": "Resolves to spectrummailinglists.com, the same site as spectrum_mailing_lists. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the spectrum_mailing_lists thread rather than opening a second request."
     },
     {
       "id": "s_p_global",
@@ -19698,7 +19829,9 @@
         "2025",
         "2026"
       ],
-      "legal_name": "S&P Global Inc"
+      "legal_name": "S&P Global Inc",
+      "duplicate_of": "ipreo",
+      "notes": "Resolves to spglobal.com, the same site as ipreo. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the ipreo thread rather than opening a second request."
     },
     {
       "id": "spokeo_com_freepeopledirectory_com_thatsthem_com_peoplewin_c",
@@ -19717,7 +19850,9 @@
         "2026"
       ],
       "legal_name": "Spokeo, Inc.",
-      "domain_source": "ca_registry_contact_email"
+      "domain_source": "ca_registry_contact_email",
+      "duplicate_of": "spokeo",
+      "notes": "Resolves to spokeo.com, the same site as spokeo. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the spokeo thread rather than opening a second request."
     },
     {
       "id": "sports_innovation_lab",
@@ -19772,7 +19907,9 @@
         "2026"
       ],
       "legal_name": "Digital Safety Products, LLC",
-      "domain_source": "ca_registry_contact_email"
+      "domain_source": "ca_registry_contact_email",
+      "duplicate_of": "spyfly",
+      "notes": "Resolves to spyfly.com, the same site as spyfly. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the spyfly thread rather than opening a second request."
     },
     {
       "id": "stackadapt",
@@ -19905,7 +20042,9 @@
         "2026"
       ],
       "legal_name": "Stirista, LLC",
-      "domain_source": "ca_registry_contact_email"
+      "domain_source": "ca_registry_contact_email",
+      "duplicate_of": "stirista",
+      "notes": "Resolves to stirista.com, the same site as stirista. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the stirista thread rather than opening a second request."
     },
     {
       "id": "subgraph",
@@ -20138,7 +20277,9 @@
         "2026"
       ],
       "legal_name": null,
-      "domain_source": "ca_registry_contact_email"
+      "domain_source": "ca_registry_contact_email",
+      "duplicate_of": "peoplesearcher",
+      "notes": "Resolves to peoplesearcher.com, the same site as peoplesearcher. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the peoplesearcher thread rather than opening a second request."
     },
     {
       "id": "the_swarm",
@@ -20254,7 +20395,9 @@
       "registry_years": [
         "2020-2023"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "duplicate_of": "atdata",
+      "notes": "Resolves to atdata.com, the same site as atdata. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the atdata thread rather than opening a second request."
     },
     {
       "id": "traackr",
@@ -20294,7 +20437,9 @@
         "2026"
       ],
       "legal_name": "Enformion, LLC",
-      "domain_source": "ca_registry_contact_email"
+      "domain_source": "ca_registry_contact_email",
+      "duplicate_of": "enformion",
+      "notes": "Resolves to enformion.com, the same site as enformion. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the enformion thread rather than opening a second request."
     },
     {
       "id": "triplelift",
@@ -20408,7 +20553,9 @@
         "2026"
       ],
       "legal_name": null,
-      "domain_source": "ca_registry_contact_email"
+      "domain_source": "ca_registry_contact_email",
+      "duplicate_of": "checksecrets",
+      "notes": "Resolves to checksecrets.com, the same site as checksecrets. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the checksecrets thread rather than opening a second request."
     },
     {
       "id": "ubermedia",
@@ -20446,7 +20593,9 @@
         "2025",
         "2026"
       ],
-      "legal_name": "Unacast, Inc."
+      "legal_name": "Unacast, Inc.",
+      "duplicate_of": "gravy_analytics",
+      "notes": "Resolves to unacast.com, the same site as gravy_analytics. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the gravy_analytics thread rather than opening a second request."
     },
     {
       "id": "upcell",
@@ -20538,7 +20687,9 @@
       "registry_years": [
         "2020-2023"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "duplicate_of": "pgm_solutions_porch_group_media",
+      "notes": "Resolves to porchgroupmedia.com, the same site as pgm_solutions_porch_group_media. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the pgm_solutions_porch_group_media thread rather than opening a second request."
     },
     {
       "id": "valassis_communications",
@@ -20673,7 +20824,9 @@
         "2026"
       ],
       "legal_name": "Versar Data Solutions Inc",
-      "domain_source": "ca_registry_contact_email"
+      "domain_source": "ca_registry_contact_email",
+      "duplicate_of": "versium",
+      "notes": "Resolves to versium.com, the same site as versium. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the versium thread rather than opening a second request."
     },
     {
       "id": "vi_technologies",
@@ -20731,7 +20884,9 @@
         "2025",
         "2026"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "duplicate_of": "driveniq",
+      "notes": "Resolves to visitiq.io, the same site as driveniq. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the driveniq thread rather than opening a second request."
     },
     {
       "id": "vistar_media",
@@ -20887,7 +21042,9 @@
       "registry_years": [
         "2020-2023"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "duplicate_of": "windfall",
+      "notes": "Resolves to windfall.com, the same site as windfall. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the windfall thread rather than opening a second request."
     },
     {
       "id": "winr_data",
@@ -21035,7 +21192,9 @@
       "registry_years": [
         "2020-2023"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "duplicate_of": "yobi_ai",
+      "notes": "Resolves to yobi.ai, the same site as yobi_ai. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the yobi_ai thread rather than opening a second request."
     },
     {
       "id": "zeotap",
@@ -21090,7 +21249,9 @@
         "2025",
         "2026"
       ],
-      "legal_name": "Ziff Davis LLC"
+      "legal_name": "Ziff Davis LLC",
+      "duplicate_of": "campaigner_smtp",
+      "notes": "Resolves to ziffdavis.com, the same site as campaigner_smtp. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the campaigner_smtp thread rather than opening a second request."
     },
     {
       "id": "zs_associates",
@@ -21125,7 +21286,8 @@
       "email_to": "privacy@mrss.com",
       "email_verified": true,
       "email_verified_by": "broker_reply",
-      "notes": "Nonprofit fundraising/digital agency. A staff member confirmed by email they searched both their own records and client records held on behalf of nonprofit clients against all emails and phones supplied, found no match, and treat every request as a deletion request."
+      "notes": "Nonprofit fundraising/digital agency. A staff member confirmed by email they searched both their own records and client records held on behalf of nonprofit clients against all emails and phones supplied, found no match, and treat every request as a deletion request. Resolves to mrss.com, the same site as mr. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the mr thread rather than opening a second request.",
+      "duplicate_of": "mr"
     }
   ]
 }

@@ -3642,3 +3642,63 @@ as a finding. Compare §76: two honest derivations producing a confident wrong
 answer.
 
 **Related:** §40, §76, §78.
+
+
+---
+
+## §81 Six unrelated brokers, one redirect service, and a check that would have hidden them
+
+§80 stopped the queue writing twice to one contact address. It did not stop the
+other shape: **one company registered twice, under two domains and two contacts.**
+`app_science` (appscience.inc, `privacy@appscience.inc`) and `appscience`
+(appsci.io, `privacy@appsci.io`) share nothing matchable — and both redirect to
+`www.appscience.ai`. A letter had already gone to the first when the second came
+up in the queue.
+
+So `find_duplicate_domains.py` resolves every registry domain and groups rows by
+the host they actually land on after redirects. Across 1,369 domains it grouped
+**96 rows**, and most were right: `alliant_cooperative_data_solutions` behind
+`alliant`, `iqvia_digital` behind `iqvia`, four Deep Sync acquisitions behind
+`deep_sync`, `terminus` behind `demandscience`.
+
+**And it was wrong about ten of them, in the direction that costs the most.**
+
+| Landing host | Rows grouped | What it actually was |
+|---|---|---|
+| `safebrowse.io` | 6 | A redirect service none of them owns |
+| `accounts.google.com` | 2 | A sign-in wall |
+| `audiense.com` | 2 | Unrelated landing |
+| `gbg.com`, `kalibrate.com` | 2 | Parent-company sites |
+
+Six unrelated brokers — forager.ai, malvern media, pickmedicare, reachdata,
+ventiveiq and one more — were grouped because all six resolve to `safebrowse.io`.
+Marked as duplicates, every one of them would have been **silently withheld from
+the send queue**. That is the asymmetry to design around: **a duplicate letter is
+embarrassing and visible; a suppressed one is invisible and permanent.** Nothing
+in the tracker would ever have shown those six as skipped.
+
+**The fix is a rule, not a blocklist.** Enumerating parking services and sign-in
+walls only covers the ones already encountered. Instead the landing host must be
+**claimed**: at least one member's own registry domain must be the host exactly,
+or share its second-level label. `deepsync.com` groups four rows and is claimed
+by `deep_sync`; `mtalley.zendesk.com` groups two and is one member's literal
+domain; `safebrowse.io` is claimed by nobody, so the group is reported and
+skipped rather than acted on.
+
+**The rule deliberately errs toward sending.** It also rejected `gbg.com`
+(GBG plc really did acquire both Acuant and IDology) and `kalibrate.com`. Those
+are genuine relationships the guard now misses, and the consequence is at worst
+two letters to one corporate group — which the recipient can say so about. That
+trade is the right way round and was chosen deliberately, not conceded.
+
+**83 rows now carry `duplicate_of`** and are held out of the queue, which fell
+from 520 to 470. Nothing is deleted: a second registration is a real filing and
+its contact may be the better route, so the row stays and points at the live
+thread.
+
+**General lesson.** A deduplication check is a suppression mechanism wearing a
+tidiness costume. Before adding one, ask what happens when it fires wrongly — and
+if the answer is "work silently disappears", it needs a positive test for
+inclusion rather than a negative list of exclusions.
+
+**Related:** §76, §78, §80.

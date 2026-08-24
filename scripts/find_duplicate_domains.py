@@ -115,15 +115,55 @@ def main():
                 0 if b.get("source") != "ca_data_broker_registry" else 1,
                 b["id"])
 
-    dupes = []
+    def host_belongs(host, members):
+        """Does the landing host actually belong to one of these companies?
+
+        This is the guard that matters, and a blocklist of parking services is
+        not sufficient for it. The first full sweep grouped six unrelated brokers
+        -- forager.ai, malvern media, pickmedicare, reachdata, ventiveiq and one
+        more -- because all six resolved to `safebrowse.io`, some interception or
+        redirect service none of them owns. Two more were grouped because both
+        landed on `accounts.google.com`. Marking those as duplicates would have
+        silently withheld letters from eight real brokers, which is the expensive
+        direction of this error: a duplicate letter is embarrassing, a suppressed
+        one is invisible.
+
+        So instead of enumerating hosts to distrust, require the host to be
+        *claimed*: at least one member's own registry domain must either be the
+        host exactly, or share the host's second-level label. deepsync.com groups
+        four rows and is claimed by deep_sync; mtalley.zendesk.com groups two and
+        is one member's literal domain; safebrowse.io is claimed by nobody."""
+        h = host.removeprefix("www.")
+        label = h.split(".")[-2] if h.count(".") >= 1 else h
+        for b in members:
+            d = (b.get("domain") or "").lower().removeprefix("www.")
+            if not d:
+                continue
+            if d == h or d.endswith("." + h) or h.endswith("." + d):
+                return True
+            if label and label in d.split(".")[0]:
+                return True
+        return False
+
+    dupes, unclaimed = [], []
     for host, members in sorted(groups.items()):
         if len(members) < 2:
+            continue
+        if not host_belongs(host, members):
+            unclaimed.append((host, [b["id"] for b in members]))
             continue
         members.sort(key=rank)
         keep = members[0]
         for other in members[1:]:
             dupes.append((other["id"], keep["id"], host))
 
+    if unclaimed:
+        print(f"skipped {len(unclaimed)} group(s) landing on a host none of them "
+              f"owns (redirect service, parking page or sign-in wall):")
+        for h, ids in unclaimed:
+            print(f"  {h:32} {len(ids)} row(s): {', '.join(ids[:5])}"
+                  + (" ..." if len(ids) > 5 else ""))
+        print()
     print(f"{len(dupes)} row(s) resolve to a domain another row already covers:")
     for a, keep, host in dupes:
         print(f"  {a:38} -> {keep:28} (both land on {host})")
