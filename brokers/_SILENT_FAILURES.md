@@ -3702,3 +3702,58 @@ if the answer is "work silently disappears", it needs a positive test for
 inclusion rather than a negative list of exclusions.
 
 **Related:** §76, §78, §80.
+
+
+---
+
+## §82 The sample addresses on a marketing page
+
+Scraping a broker's site for a contact address turns up whatever is on it, and on
+a B2B vendor's site a lot of what is on it **is not a real address at all**.
+
+Cloudlead's pages yielded five:
+
+| Address | What it is |
+|---|---|
+| `support@cloudlead.co` | Published support address — **dead**, 550 5.1.1 |
+| `support@cloudlead.io` | Published support address — **dead**, domain has no MX |
+| `hello@cloudlead.co` | The only live candidate |
+| `john@company.com` | A **placeholder** in a product screenshot |
+| `r.richards@meridianops.com` | A **sample record** in a demo of their data |
+
+The last two are the interesting ones. A company that sells contact data
+demonstrates the product by showing contact data, so its marketing pages are
+full of realistic-looking addresses at realistic-looking companies that belong
+to nobody — or worse, to somebody uninvolved.
+
+`verify_emails.py` already refuses to record a named individual's address as a
+broker contact (`is_role_address`), and that rule caught both here: `john@` and
+`r.richards@` are person-shaped, not role-shaped, so neither was ever proposed.
+The rule was written to stop publishing a real person's work address in a public
+registry. It turns out to catch demo data for the same reason — **both are cases
+where the local-part is a human name rather than a function**, and neither is a
+route to the company.
+
+**Do not relax that rule to fill a gap.** When a broker publishes no role
+address, the temptation is to take the person-shaped one that is there. That is
+exactly when it is most likely to be a placeholder.
+
+### The bounce is the more useful finding
+
+`support@cloudlead.co` returned `550 5.1.1` in seconds, while the domain
+publishes healthy Google MX records. Per §65 that pair means: **the domain is
+fine, the mailbox is not there.** Not a dead company, not a policy rejection —
+an address published on their own website that was never provisioned or has been
+removed.
+
+That is worth reporting to them as a fault, because unlike the requester they can
+fix it, and every person who reads their site and writes to the address on it is
+currently reaching nobody and never learning that.
+
+**Operationally:** on a hard 5.1.1, do not mark the broker `unreachable`. Check
+whether the *domain* has MX. If it does, there is a live mail system and the job
+is to find the mailbox that exists — `hello@`, `info@`, `privacy@`, or a named
+contact from a state registration filing. `unreachable` is only for a domain with
+nowhere to deliver at all.
+
+**Related:** §64, §65, §74.

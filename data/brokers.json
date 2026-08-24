@@ -4839,10 +4839,11 @@
       "needs_email_confirm": null,
       "source": "supplier_disclosure",
       "optery_slug": null,
-      "email_to": "support@cloudlead.co",
-      "email_verified": true,
-      "email_verified_by": "privacy_policy",
-      "notes": "Named by Kaspr as a supplier. Their published opt-out route is a 2020 BLOG POST about cold-email opt-outs, not a rights page - treat as weak and ask for the real channel."
+      "email_to": "hello@cloudlead.co",
+      "email_verified": false,
+      "email_verified_by": "published_but_bounced",
+      "notes": "Named by Kaspr as a supplier; in no broker list. BOTH support addresses published on their own site are dead: support@cloudlead.co returns 550 5.1.1 though the domain has live Google MX, and cloudlead.io has no MX and serves no site. Their published opt-out is a 2020 blog post about cold-email practice, not a mechanism. Writing to hello@cloudlead.co instead.",
+      "email_alt": "support@cloudlead.co (DEAD - 550 5.1.1), support@cloudlead.io (DEAD - no MX)"
     },
     {
       "id": "cml_medical",
