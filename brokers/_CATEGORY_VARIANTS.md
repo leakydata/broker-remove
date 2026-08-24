@@ -1064,3 +1064,64 @@ See `_SILENT_FAILURES.md` §74.
 
 **Status handling.** A null result here is not `not_found`. It is a search run on
 the wrong keys with the suppression request outstanding. Leave it `submitted`.
+
+## When you cannot tell what kind of broker it is
+
+Most of the registry now comes from state registration filings, and **a
+registration entry does not describe a business.** It gives a legal name, a
+domain and a contact address. For a large share of the remaining queue there is
+no way to tell from the outside whether the company holds contact records, an
+identity graph, location traces, modelled scores, or transaction data.
+
+The temptation is to guess and send the letter for the category the name
+suggests. Resist it. A letter aimed at the wrong kind of company is worse than a
+generic one: it advertises that the sender does not know who they are writing to,
+and it invites a reply correcting the premise instead of answering the request.
+
+**Ask, and make the answer do work.** Put the question early, framed as saving
+them effort rather than as ignorance:
+
+> I know you are a registered data broker in California, and I know essentially
+> nothing else about what you hold, because a registration entry does not
+> describe a business. Rather than guess and send you a letter aimed at the wrong
+> kind of company, I would rather ask — and the answer also tells me what to ask
+> for.
+>
+> **Which of these describes what you hold about people?** More than one may
+> apply, and a one-line answer is enough:
+>
+> 1. Contact records — names, addresses, phone numbers, email addresses.
+> 2. Identifier or identity-graph data — hashed emails, device or advertising
+>    identifiers, cookie IDs, and the links between them.
+> 3. Location or movement data.
+> 4. Modelled or inferred attributes — scores, segments, propensities, estimated
+>    income, life stage.
+> 5. Transaction, purchase or financial records.
+> 6. Public-record data — court, property, voter, licensing.
+> 7. Something else, in which case please say what.
+
+Then the asks that hold **whatever the answer is**:
+
+- **Search every identifier, current and prior.** And: *"if your index is keyed
+  to something I have not supplied and cannot supply, please tell me what it is
+  keyed to."* That single sentence is the most valuable line in the letter — it
+  converts a dead-end null result into a description of the index, which is what
+  a follow-up needs. It is also how the MAID-only brokers were identified.
+- **The links, not only the rows.**
+- **Inferences as well as facts**, since anything modelled is personal
+  information under the same statutes and is the part a person cannot discover
+  any other way.
+- **Standing suppression, and a do-not-add entry even on a null result.**
+- **Sources and recipients.**
+- **The processor escape hatch**, offered as acceptable: if you act only for
+  clients, say so, name them, pass it on.
+
+**Why this works better than a guess.** Every branch of the answer is useful.
+"We only hold X" scopes the follow-up. "We hold nothing" closes it. "We are a
+processor" redirects it. And a company that answers the categorisation question
+has already engaged with the substance — which is most of the difficulty.
+
+**Do not use this variant when the category is genuinely knowable.** A
+people-search site, a credit bureau or a prospecting database should get the
+specific letter, because specificity is what makes those land. This is for the
+long tail where the honest position is that you do not know.
