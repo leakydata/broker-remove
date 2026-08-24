@@ -818,6 +818,36 @@ filing and not present in any broker list used here.
 
 ---
 
+## Appendix: the acquirer's mailbox, one channel per acquired brand
+
+A parent that has bought several data companies may run **one privacy function
+with a dedicated address per brand**. Experian does:
+
+| Registrant (legal name) | Trading as | Registered contact |
+|---|---|---|
+| Experian Information Solutions, Inc. | Experian Marketing | `ca_drop_fsd@experian.com` |
+| **Predictive Pop, Inc.** | **Audigent** | `ca_drop_audigent@experian.com` |
+
+Nothing on audigent.com announces the relationship, and "Predictive Pop, Inc."
+appears nowhere on the site — the same shape as Mississippi Tornado Alley above.
+The `ca_drop_` prefix marks these as DELETE Act channels.
+
+**This is good practice on the broker's part and a trap for the tooling.** Good,
+because a per-brand mailbox means a request lands with the team that holds the
+data rather than in a general queue. A trap, because the duplicate-address guard
+in `queue_batch.py` keys on the **full address**, not the domain — so these two
+correctly stay separate and both get letters, which is right. Had the parent used
+one shared address for both brands, the guard would have held the second back and
+the sibling would have needed raising inside the first thread instead.
+
+**What to do:** name the relationship in the letter rather than pretending not to
+notice it, write to each brand's channel separately, and ask the one question
+that matters — *does a suppression recorded here cover the sibling, or are these
+genuinely separate datasets?* Both answers are useful; only the assumption is
+dangerous.
+
+---
+
 ## Appendix: a family tell the filings miss — one DSAR tenant, two brands
 
 The registration filings recover families that share a *contact address*. They
