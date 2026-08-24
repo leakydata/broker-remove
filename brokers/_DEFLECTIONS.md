@@ -2014,3 +2014,79 @@ route is closed to this requester, so nobody retries the form later.
 
 **Related:** §43 (a form only an employee can complete), §71 in
 `_SILENT_FAILURES.md` (a rights page with no rights form on it).
+
+---
+
+## §46 The instruction that points at a page which excludes you
+
+Distinct from §45, and worth separating because the fix is different.
+
+§45 is a **machine** gate: an Osano form geolocates the browser and renders no
+fields at all. Nothing decided it and nobody at the company knows it happened.
+
+This one is a **wording** gate, and it is self-contradictory. Aristotle
+International's autoreply says:
+
+> *"If you are a US resident writing about your rights under California Consumer
+> Protection Act (CCPA) **or other state privacy laws**, you must make your
+> request using the links on our website at
+> …/privacy/addendum-for-california-residents/"*
+
+Every mechanism on that page is scoped to one state — *"California residents may
+exercise their California privacy rights by submitting deletion request"*,
+*"California residents may opt out of the 'sale' of their personal
+information"*, and the same for access, correction and sensitive-information
+limits.
+
+So the autoreply routes residents of *other* states to a page that offers rights
+to Californians only. Both statements cannot be true, and between them there is
+no route.
+
+**The likely cause is mundane and worth saying out loud in the reply:** an
+addendum written for one statute, later pressed into service as the general
+privacy channel, with the autoreply updated and the page not. Naming the probable
+cause rather than the probable motive is what keeps the exchange answerable.
+
+### Why this one is more tractable than §45
+
+A geo-gate has nobody behind it. A wording gate is a sentence somebody wrote, so
+there is a person who can say "use the forms anyway" — and that is usually the
+true position, because the narrow wording reflects the statute the page was
+drafted for rather than the company's actual practice.
+
+So **ask the cheapest possible question first**:
+
+> Tell me which route a non-California US resident should use. If the answer is
+> the same forms and the wording is simply narrower than your practice, say so
+> and I will use them today. One sentence resolves it.
+
+Then the published-policy fallback, then a request that they fix whichever of the
+two is wrong — framed as something only they can see, since every non-California
+requester hits the identical wall and most will conclude there is no route and
+stop.
+
+### Do not solve it by misdescribing your state
+
+The forms are open; nothing stops a Pennsylvania resident typing a California
+address. Do not. It is a false statement made while asserting a legal right, and
+it makes the resulting deletion worthless — see §45.
+
+**But note the narrower move that is legitimate:** submitting a form whose stated
+audience is narrower than you, *while stating your actual state truthfully*, is
+not a misrepresentation. It uses a channel and lets the company decide
+eligibility. That is materially different from selecting "California" in a
+residency field. Where a form has a free-text state field and no attestation,
+that route is available; where it requires attesting to California residency, it
+is not.
+
+### Keep the phone number, do not lead with it
+
+Aristotle publishes 888-217-9600. A voice call leaves no record either side, so
+it is a fallback rather than an opening — queued as a handoff with a one-week
+trigger, and with the instruction not to state a California address.
+
+**Status handling.** `submitted`, not `failed`. The email channel is live, a
+reply is outstanding, and the deflection is a routing problem rather than a
+refusal.
+
+**Related:** §43, §45; `_SILENT_FAILURES.md` §71.
