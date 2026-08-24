@@ -818,6 +818,37 @@ filing and not present in any broker list used here.
 
 ---
 
+## Appendix: the refusal autoreply that lists the family
+
+AutoWeb's privacy address refuses email — *"Email is not a designated method for
+submitting a California privacy rights request"* — and then, helpfully, lists
+where to go instead:
+
+> **Buyerlink** · form at `buyerlink.co/do-not-sell-or-share-my-personal-information` · 1-888-821-1041
+> **AutoWeb** · OneTrust webform · (800) 267-2015
+
+**Two brands, one privacy desk, disclosed in a bounce.** Nothing on either site
+announces the relationship; the autoreply does, because a shared desk naturally
+answers for everything it covers.
+
+**This is a discovery mechanism, not just an inconvenience.** A refusal that
+routes you onward has to name the destinations — and a company with siblings will
+name all of them, because the autoresponder does not know which brand you wrote
+about. So:
+
+- **Read every "use our form instead" reply for the list**, not just for the one
+  link you need. The extra entries are free family intelligence.
+- **The reply also gives you each brand's own channel**, which is more than the
+  registry provides. Here it produced two forms and two toll-free numbers that no
+  filing carried.
+
+Weaker evidence than a shared statutory contact — a holding company might route
+several genuinely separate businesses through one desk — so ask rather than
+assert. But the routing itself is a fact you can act on immediately: submit to
+both, and ask whether one suppression covers the other.
+
+---
+
 ## Appendix: the acquirer's mailbox, one channel per acquired brand
 
 A parent that has bought several data companies may run **one privacy function
