@@ -3820,3 +3820,55 @@ are *not* acting as an agent. Read the list before clicking; the ordering is not
 a guide.
 
 **Related:** §71, §78; `_DEFLECTIONS.md` §45, §46.
+
+
+---
+
+## §84 The per-record form that trips its own bot protection
+
+Sync.me's removal form takes **one telephone number at a time**. This requester
+has twelve, so a complete removal means twelve submissions of the same name and
+email with a different number in one field.
+
+Three went through. On the fourth, Cloudflare escalated from a passive check to
+an interactive *"Verify you are human"* challenge.
+
+**Nothing malfunctioned.** Three near-identical submissions in a few minutes look
+automated to a bot detector — because structurally they *are* the same request
+repeated, which is exactly what the form's design requires. The honest way to use
+it is the thing that trips it.
+
+**The people this excludes are the people who need it most.** A caller-ID
+directory's stale entries cluster on numbers someone stopped using years ago. So
+the requester with the most entries to remove is the one with the most numbers,
+and therefore the one most likely to be stopped partway through and left with a
+partial removal they cannot see the shape of.
+
+### What to do
+
+1. **Stop at the challenge.** Do not solve it — hard rule — and do not slow down
+   and retry to sneak under the threshold. That is working around an anti-bot
+   control, which is the same act however gently it is done.
+2. **Count what landed.** Three submitted, nine not. A partial removal recorded
+   as complete is worse than no removal, because it stops anyone looking again.
+3. **Send the remainder by email, and say why.** The bounce back to email is not
+   a failure — it reaches a human who can process all nine at once, and it
+   carries the questions no per-number form can express.
+4. **Report the design honestly, as a user rather than a complainant.** A single
+   multi-number field, or an "add another number" control, fixes it completely
+   and *reduces* their abuse-detection load. That framing gets read; an
+   accusation does not.
+
+### The general pattern
+
+**A form scoped to one identifier plus rate-based bot protection equals a cap on
+how much of yourself you can remove.** Neither component is objectionable alone.
+The interaction is, and nobody designed it — which is why it is worth telling
+them rather than routing around it.
+
+Watch for this wherever a removal form takes a single email, phone number or
+address and the subject has many: per-number opt-outs at caller-ID and
+reverse-lookup sites, per-address forms at property data brokers, per-email forms
+at list businesses.
+
+**Related:** §1, §77; `_DEFLECTIONS.md` §45.
