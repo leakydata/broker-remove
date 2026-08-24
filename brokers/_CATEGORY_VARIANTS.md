@@ -1125,3 +1125,45 @@ has already engaged with the substance — which is most of the difficulty.
 people-search site, a credit bureau or a prospecting database should get the
 specific letter, because specificity is what makes those land. This is for the
 long tail where the honest position is that you do not know.
+
+## Property and real-estate data  (e.g. ATTOM, PropStream, CoreLogic/Cotality, PropertyReach)
+
+The public-record core is real: deeds, assessments, mortgages and liens are
+county records, the broker aggregates them, and no consumer can claw that back.
+A letter that ignores this invites a one-line reply — *"this is public record"* —
+which is true and answers nothing.
+
+**So concede it in the first paragraph**, and say the exemption is acceptable
+where it genuinely applies. Then ask for the layer built on top, which is the
+actual product and is not a public record:
+
+- **Automated valuation and equity estimates.** An AVM figure, an estimated
+  equity position or remaining mortgage balance is a model output no county
+  recorded. It is a financial inference about a named person and their home.
+- **Propensity and life-event scores** — likelihood to sell, to refinance, to
+  move; distress or default indicators; "life event" flags. These are
+  predictions about what someone is about to do with their home, sold to people
+  who want to contact them about it. They are why the mail arrives.
+- **The person-to-property linkage, and the append.** A deed names an owner; the
+  product resolves that into a contact record with telephone numbers and email
+  addresses appended from elsewhere. **The append is not a public record and
+  neither is the linkage graph.** This is the single most important ask in the
+  category and it is the one most easily lost inside a public-record answer.
+- **Occupancy and household inference** — owner-occupied versus absentee, length
+  of residence, household composition, inferred demographics.
+
+**Two things specific to address history.** Ask **how many records matched**: a
+person with a long address history routinely appears as several unreconciled
+records in a property database, and a removal applied to one is not a removal.
+And list every prior property, in every county — see §47, where a prior
+out-of-state address was what got a request honoured at all.
+
+**Licensees are the operative copies.** Property data is licensed in bulk to
+lenders, insurers, investors, marketers and other data companies. Ask who
+received it and ask them to be directed to delete.
+
+**Insist on the refresh question.** These databases are rebuilt from county
+records continuously, so a one-time deletion is refilled at the next ingest and
+the confirmation reads identically either way. Ask them to confirm the
+suppression survives the next county refresh, and that it is held independently
+of the record so deleting one does not remove the other.
