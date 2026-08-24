@@ -2244,3 +2244,61 @@ say you are not asking them to revisit it. The remaining dispute is narrower tha
 the reply makes it look.
 
 **Related:** §43, §45, §46, §47.
+
+
+---
+
+## §49 Verification that IS the record key, versus verification that is a new disclosure
+
+Two ID demands arrived on the same day and they are not the same thing. The
+distinction decides whether to refuse or to hand the decision to the requester.
+
+**US Marketing Group** (marketing lists) asked for a driver's licence, passport,
+or two utility bills or bank statements. **Refuse.** None of those is in their
+record. Producing one hands a marketing data company a sensitive document it did
+not previously hold, in order to learn what it holds — and if the answer is
+"nothing", the disclosure is pure loss. See §48.
+
+**Airlines Reporting Corporation** (airline ticket settlement) asked for full
+name, address, and:
+
+> *"the last four digits of any and all credit card number(s) that you used to
+> purchase air travel."*
+
+That is materially different, and it is worth being honest about why rather than
+reflexively treating every ID demand as obstruction:
+
+- **It is not a new document.** Form of payment is already a field in a ticket
+  settlement record. They are asking the requester to match against data they
+  already hold, which is the textbook shape of proportionate verification.
+- **It is the actual record key.** ARC's records are transactions, not people.
+  A name alone cannot identify a ticket; the card that bought it can.
+- **Last four digits alone cannot transact.**
+
+**But it is still card data, and this project does not handle card numbers.** So
+the correct move is neither to refuse on the requester's behalf nor to supply it:
+**queue it as a decision, with the reasoning attached**, so the person can weigh
+a genuinely defensible request themselves. Recording it as "another obstructive
+ID demand" would be inaccurate and would teach the wrong lesson to anyone reusing
+this file.
+
+### The test
+
+Ask: **is the requested field already in the record being asked about?**
+
+| Requested | In the record? | Verdict |
+|---|---|---|
+| Driver's licence, at a list broker | No | Refuse |
+| Bank statement, anywhere | No | Refuse |
+| Card last-4, at a ticket settlement company | **Yes** | User's call |
+| Prior addresses, anywhere | Usually | Supply — already in every letter |
+| Account number for a service you used | Yes | User's call |
+
+**And whatever the answer, ask for the parts that need no verification at all.**
+ARC's reply ignored the substantive questions entirely — which agencies received
+data, whether they act as processor for the carriers, and the government-
+disclosure questions. None of those depends on verifying a specific record, and
+letting an ID demand quietly close the whole request is how a verification step
+becomes a refusal without anyone having to write one.
+
+**Related:** §43, §45, §46, §47, §48.
