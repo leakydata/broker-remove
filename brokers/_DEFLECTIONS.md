@@ -2090,3 +2090,72 @@ reply is outstanding, and the deflection is a routing problem rather than a
 refusal.
 
 **Related:** §43, §45; `_SILENT_FAILURES.md` §71.
+
+---
+
+## §47 "Your state has no privacy law" — and what to do when it is true
+
+Pennsylvania has no comprehensive consumer privacy statute. So this refusal is
+not a dodge, and treating it as one is both wrong and counterproductive:
+
+> *"At this time, while many states do have consumer privacy laws, the state of
+> Pennsylvania does not yet have consumer privacy legislation in place... We
+> invite you to reach back out to us once the legislation has been officially
+> enacted."*
+> — N-Focus, The Data Agency
+
+Roughly half the US population lives in a state with no such law. For those
+requesters this is the single most common substantive refusal there is, and the
+answer to it is not an argument about the statute.
+
+### Three things that work, in order
+
+**1. The published-policy fallback, which every letter should already carry.**
+
+> If you believe you are not subject to these statutes, or that I do not reside
+> in a covered state, I ask that you honour this request as a matter of your
+> published privacy policy, and tell me in writing which basis you applied.
+
+This costs nothing and converts a legal question into a policy one, where the
+company has discretion and often exercises it. Many brokers run one suppression
+list rather than fifty, because maintaining per-state carve-outs is more work
+than honouring everyone.
+
+**2. List every prior address, including out-of-state ones.** N-Focus refused
+the Pennsylvania request and, in the next paragraph, honoured it as a Maryland
+one — because a former Maryland address in the identifier list gave them a state
+they recognised, and they suppressed on that basis.
+
+**Do not assert this as an entitlement.** Coverage turns on residency, not
+address history, and "I have rights in Maryland because I used to live there"
+would be an overreach that collapses the moment anyone pushes. The reusable
+lesson is narrower and purely practical: **never trim the address list for
+brevity.** A broker looking for a basis to act may find one in it. Most will
+not. This one did.
+
+**3. Ask for suppression rather than deletion.** A deletion right is what the
+statute confers; a suppression entry is something a company can simply choose to
+add, and refusing it looks worse than granting it. N-Focus found no record and
+added a suppression entry anyway, unprompted. That is quotable at any broker
+claiming suppression is impossible absent a record.
+
+### What not to do
+
+- **Do not claim to live somewhere you do not.** Covered at length in §45 and
+  §46. It is a false statement made while asserting a legal right, and it makes
+  anything obtained worthless.
+- **Do not argue that the CCPA applies to a non-Californian.** It does not, and
+  saying so costs the credibility the rest of the letter needs.
+- **Do not treat the refusal as bad faith.** N-Focus's reply was courteous, gave
+  a reference number, invited a return once the law changes, disclosed its
+  processor limits, and granted more than it had to. A combative follow-up to
+  that is how a cooperative desk stops being cooperative.
+
+### Status handling
+
+Depends on what the second paragraph says, not the first. Where the refusal is
+total, `manual_required` with a note to revisit if the state legislates. Where —
+as here — something was granted on another basis, record that outcome:
+`not_found` plus a suppression entry is a real result.
+
+**Related:** §45, §46; `_SILENT_FAILURES.md` §64.

@@ -7,22 +7,26 @@
 
 ## Status
 
-- Current: `not_found` (updated 2026-08-23)
+- Current: `not_found` (updated 2026-08-24)
 - Note: privacy@pharosiq.com replied 2026-08-20: 'We have reviewed our systems, and the information you provided is not present. No further action is required.'
 
 ## Steps
 
-<!-- Replace once the route is confirmed. What actually worked, in order. -->
+1. Email `privacy@pharosiq.com`. Answered within ~29 hours by the
+   "PharosIQ Data Team".
+2. **Put the full scope in the first letter** — see the gotcha below.
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+**They answered the first letter, not the follow-up.** The reply was
+an unqualified negative — *"We have reviewed our systems, and the information you
+provided is not present"* — but it quotes the original message, which listed four
+email addresses, rather than the follow-up that extended scope to the wider
+identifier set and to the Intentgine brand.
+
+Whatever a reply quotes underneath it is the message that was answered. See
+`_SILENT_FAILURES.md` §73. A second message is not an amendment to the first:
+operationally it is a lower-priority note attached to a ticket already framed.
 
 ## Verification
 

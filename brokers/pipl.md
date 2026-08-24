@@ -8,23 +8,35 @@
 
 ## Status
 
-- Current: `not_found` (updated 2026-08-23)
+- Current: `not_found` (updated 2026-08-24)
 - Note: privacy@pipl.com replied 2026-08-21: 'We did not find any profiles in our system that match the data points provided.'
 
 ## Steps
 
-<!-- Replace once the route is confirmed. What actually worked, in order. -->
+1. Email `privacy@pipl.com`. Answered in about 18 hours.
+2. Supply every identifier — Pipl is an identifier-to-identity lookup, so the
+   email addresses and phone numbers *are* the record keys, not search hints.
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+The reply is short and unqualified:
+
+> *"We did not find any profiles in our system that match the data points
+> provided."*
+
+**Note what it says and what it does not.** "Data points provided" is correctly
+scoped and honestly stated — but it does not address the reverse-lookup question
+the letter asked, namely whether each address and number still *resolves* to the
+subject in either direction. Nor does it address suppression: a null result today
+says nothing about the next index refresh, and Pipl rebuilds from upstream
+sources.
+
+Recorded `not_found` because the negative is real and there is no basis to
+dispute it. But it is a **point-in-time negative from a continuously rebuilt
+index**, which is the weakest kind, and a recheck is worth more here than at a
+broker that confirmed a deletion.
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+Re-send the same identifiers in six months. There is no public
+profile page, so the only signal is whether the answer changes.
