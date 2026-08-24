@@ -3896,3 +3896,73 @@ back on the same thread — one request instead of sixteen, and it avoids the
 rate-based bot problem above entirely.
 
 **Related:** §1, §40, §77; `_DEFLECTIONS.md` §45.
+
+
+---
+
+## §85 The registered contact that answers "this inbox is not monitored"
+
+§83 covered a company declining a request sent to its own registered contact and
+**directing the requester elsewhere**. This is the version with no elsewhere.
+
+Experian's California data broker registrations nominate `ca_drop_fsd@` for
+Experian Information Solutions and `ca_drop_audigent@` for Predictive Pop
+(Audigent). A request to the second auto-replied:
+
+> *"This inbox is not monitored and cannot process or respond to requests.
+> Messages sent to this inbox will not be reviewed or fulfilled."*
+
+No alternative address. No portal. Nothing.
+
+The first had received a full request three days earlier and produced no reply of
+any kind — almost certainly the same condition, silently.
+
+### The likely innocent explanation, which should be stated first
+
+The `ca_drop_` prefix suggests these mailboxes exist to receive **batch deletion
+lists from California's DROP platform** under the DELETE Act, not individual
+consumer mail. If so they are working exactly as designed for their actual
+purpose, and nobody did anything wrong in operating them that way.
+
+**Say that in the letter.** It is probably true, it costs nothing, and a fault
+report that begins by conceding the benign reading is far likelier to be acted on
+than one that begins by alleging obstruction.
+
+### Why it is still a real failure
+
+The registration field is the **published consumer contact**. A person who does
+the diligent thing — looks the company up in the state's own registry rather than
+guessing — is routed to an address that announces it will not act, and is given
+nowhere else to go. The more correctly the consumer behaves, the worse the
+outcome.
+
+And the silent variant is worse than the auto-replying one. `ca_drop_audigent@`
+at least *told* me. `ca_drop_fsd@` simply consumed a complete request and said
+nothing, and the tracker read `submitted` for three days.
+
+### What to do
+
+1. **Find a live address on the company's own site** and resend there. Experian
+   publishes `optout@experian.com`; that is where both requests went.
+2. **Write one letter covering both entities**, quoting the auto-reply verbatim
+   and asking for three things: route the stalled request, give the correct
+   channel, and consider whether the registration or the auto-reply should be
+   changed. The third is the one only they can do — *"a single added sentence,
+   'for individual consumer requests please use X', would resolve it entirely."*
+3. **Restate the substance briefly** so nothing is lost in the routing. A
+   forwarded complaint about a mailbox is easy to close; a forwarded complaint
+   that still contains the actual request is not.
+4. **Do not mark the broker `unreachable`.** The company is plainly reachable —
+   one specific mailbox is not a channel. Status stays `submitted` against the
+   new address.
+
+### The registry consequence
+
+`email_verified_by: ca_data_broker_registry` has been the strongest provenance in
+this project, on the reasoning that a company nominated the address under a legal
+obligation. Between this and §83, that needs qualifying: **a registered contact is
+a legally nominated address, not a demonstrated working consumer channel.** Both
+affected rows now carry `registry_verified_unmonitored` and point at the live
+address instead.
+
+**Related:** §64, §65, §78, §83.
