@@ -2420,3 +2420,65 @@ Record the vagueness in the note instead, so the next verification sweep knows t
 claim was never specific enough to check.
 
 **Related:** §48, §50; `_SILENT_FAILURES.md` §40, §84.
+
+
+## §52 The ticket solved before you could act, and the link that isn't there
+
+automotiveMastermind opened ticket 325845 and marked it **solved three minutes
+later**, with this instruction:
+
+> *"please complete the form on our California Do Not Share My Personal
+> Information page... If you would like to make a request regarding your personal
+> information not related to the CCPA, please complete the form found on our
+> Privacy Request Page."*
+
+**Neither URL is in the message.** Both are plain text with nothing behind them —
+link text that lost its hyperlink somewhere between the template and the outbound
+mail. So the requester is told to go somewhere and not told where, and the ticket
+is already closed.
+
+This is §66 (the mailto whose href and text disagree) in a new shape, and the
+same rule applies: **report it as a fault rather than treating it as evasion.** It
+is almost certainly a broken template, it affects everyone who receives that
+reply, and only the company can see it. Ask for the two URLs and say you will use
+them.
+
+**The close-before-action pattern is separate and worth noting.** A ticket solved
+in three minutes has not been worked; it has been routed. Do not rate the CSAT
+survey that follows, and reply into the ticket thread to reopen it — see
+`_SILENT_FAILURES.md` §70.
+
+### The service-provider assertion in the same message
+
+> *"automotiveMastermind is compliant with the CCPA provisions for a service
+> provider... aM does not publish or otherwise disseminate this information to
+> the general public."*
+
+Both true, and neither ends the matter. Two responses that work:
+
+**"Not published publicly" answers a question nobody asked.** Nobody fears that a
+dealer-intelligence platform posts data on a website. The concern is that records
+are supplied to dealerships and acted on there — calls, mail, offers. That is
+dissemination to the parties who actually make contact, and it is entirely
+consistent with never being public.
+
+**A service provider is required to assist, so the answer is "route it", not
+"no".** Under the CCPA a service provider must cooperate with the business in
+responding to consumer requests and must delete on instruction. So convert the
+deflection into a routing request:
+
+> Please tell me which dealerships or clients hold data about me, so I can direct
+> requests to them as controllers. If naming them individually is commercially
+> impossible, the categories, or the count, would each be genuinely useful.
+
+**And separate out what is unambiguously theirs.** Whatever the processor
+analysis says about client-sourced records, **an inference the company generated
+is its own processing** — a likelihood-to-buy or equity-position score is not
+data a dealer supplied. Asking about the scores specifically sidesteps the entire
+controller/processor argument, because there is no third party to point at.
+
+Same move for suppression: *does your suppression survive a client uploading its
+own customer file?* That is about their systems, not the client's data.
+
+**Related:** §50 (processor referral to a party that cannot help), §51;
+`_SILENT_FAILURES.md` §66, §70.
