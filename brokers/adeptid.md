@@ -48,3 +48,33 @@ person can least easily discover while employers act on them.
 an employer or staffing customer supplied the record, deleting AdeptID's copy
 does not reach theirs. Asked them to name the customer or confirm they directed
 deletion.
+
+
+## 2026-08-24: the form will not open for a Pennsylvania resident
+
+The email was received and routed to an Osano form (`my.datasubject.com`) with
+*"you must fill out the following form"*. The form detects the jurisdiction and
+renders **nothing** — no fields, no submit control:
+
+> *"We have detected that you are attempting to submit a request from a
+> jurisdiction that does not currently support privacy rights."*
+
+Full write-up in `_DEFLECTIONS.md` §45. Three things to carry forward:
+
+- **The gate is Osano's, not AdeptID's.** Any broker whose rights link lands on
+  `my.datasubject.com` will do this to a requester in a state without a
+  comprehensive privacy law. Check for it before spending time on the form.
+- **The jurisdiction is a dropdown and it must not be changed.** Setting it to
+  California would open the form and would be a false statement of residency made
+  while asserting a legal right. Declined, and said so in the reply — naming it is
+  what makes it fixable.
+- **The email channel works.** Replied there asking them to treat the original
+  message as the request, honour it under their published privacy policy, and
+  raise the vendor gate with Osano.
+
+**Status stays `submitted`**, not `failed` — a reply is outstanding on a live
+channel. Recorded that the web route is closed to this requester so nobody
+retries the form.
+
+The substance of the request is unchanged and never depended on the form: the
+derived layer, not the contact fields.

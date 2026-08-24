@@ -1929,3 +1929,88 @@ different situation and worth reconsidering on its own terms. Say so explicitly
 rather than just holding the line.
 
 **Related:** §38, §41, §43; `_SILENT_FAILURES.md` §52, §66, §73.
+
+---
+
+## §45 The rights form that refuses to render because of where you live
+
+AdeptID answered an emailed request by routing it to a form:
+
+> *"In order to help you with your data rights request with AdeptID, you must fill
+> out the following form."*
+
+Opening the prefilled link produced a page that detected the requester's
+jurisdiction as "Pennsylvania, US" and then displayed one sentence and nothing
+else:
+
+> *"We have detected that you are attempting to submit a request from a
+> jurisdiction that does not currently support privacy rights."*
+
+**No fields. No submit control. No route onward.** The form does not decline the
+request on the merits; it declines to exist.
+
+This is not the broker's doing. The form is **Osano** (`my.datasubject.com`), so
+this is vendor-default behaviour and every Osano customer will do the same thing
+to a requester in any state without a comprehensive privacy law. Expect it
+wherever a rights link lands on that host — and by extension, check for the same
+pattern on other platform vendors.
+
+### Why it is worse than a refusal
+
+A refusal is an answer. This is a working request being redirected into a channel
+that cannot accept it, from a channel that already worked — the email arrived,
+was read, and was routed. From the requester's side the result is
+indistinguishable from a refusal nobody actually made, and there is nothing to
+appeal because nothing was decided.
+
+### The dropdown is the trap
+
+The detected jurisdiction is a **selector**. Setting it to California would
+presumably open the form.
+
+**Do not.** It is a false statement of residency, it would be made in the course
+of asserting a legal right, and a deletion obtained that way is worth nothing —
+it is voidable the moment anyone looks, and it hands the broker a reason to
+distrust every other identifier in the letter. It also poisons the technique for
+the next person.
+
+Say so in the reply rather than silently declining, because naming it is what
+turns a design flaw into something the company can fix:
+
+> The detected jurisdiction is a dropdown. I could set it to California and the
+> form would presumably open. I am not doing that — I am a Pennsylvania resident,
+> saying otherwise would be a lie, and a request obtained that way would be
+> worthless to both of us.
+
+### What to actually do
+
+1. **Go back to the email thread.** It works; the form does not. Ask them to
+   treat the original message as the request.
+2. **Invoke the published-policy fallback**, which should already be in every
+   letter: *honour this as a matter of your published privacy policy, and tell me
+   in writing which basis you applied.* Offer "we extend rights only to residents
+   of states that mandate them" as a complete and acceptable answer — it is a
+   legitimate position, and pre-accepting it is what makes a plain answer cheap
+   to give.
+3. **Tell them it is the vendor's gate**, not theirs. They are far better placed
+   to raise it with Osano than a consumer is, and it costs them nothing.
+4. **Restate the substance**, briefly. The form was never load-bearing; the
+   request does not depend on it.
+
+### Two points of accuracy worth getting right
+
+- **Geolocation is not residency.** The gate keys off where the browser connects
+  from. Someone travelling, on a VPN, or on mobile carrier routing can be
+  misplaced entirely — including *into* a rights state, which is the same error
+  in the opposite direction.
+- **Residency is not the whole test.** What binds a company is also what its own
+  privacy policy promises. Plenty extend rights to all US residents and then
+  deploy a vendor gate that contradicts the promise. Ask what the policy says
+  rather than conceding the point.
+
+**Status handling.** Not `failed` and not `manual_required` — the email channel is
+live and a reply is outstanding. Leave it `submitted` and record that the web
+route is closed to this requester, so nobody retries the form later.
+
+**Related:** §43 (a form only an employee can complete), §71 in
+`_SILENT_FAILURES.md` (a rights page with no rights form on it).
