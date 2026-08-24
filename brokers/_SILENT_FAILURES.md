@@ -3548,3 +3548,43 @@ a broker with no California nexus can appear in Vermont and nowhere else. Same
 importer, different column names.
 
 **Related:** §40, §67, §70, §74, §76.
+
+---
+
+## §79 A verification link that works and tells you nothing
+
+ROR Partners' OneTrust request needed an emailed confirmation click. Fetching the
+link with a plain HTTP fetch returned a page whose entire readable content was
+the words "Trust Center Portal" — no confirmation text, no error, no reference
+number. Nothing to record and no way to tell whether the request had been
+verified or not.
+
+Opening the same link in a real browser showed a green tick and:
+
+> *"Your request is confirmed! We will review your request and contact you
+> shortly."*
+
+**The portal is a JavaScript application.** The fetch retrieved the shell before
+the app rendered anything into it. The verification very likely *did* fire on
+that first fetch — the browser landed on `.../verify/verifySuccess/...` — but
+that is an inference, and from the fetch result alone the two possibilities
+(verified silently, or not verified at all) are indistinguishable.
+
+**Why this is a silent failure and not merely an inconvenience.** §1 of this file
+is that an unconfirmed request does not exist. The whole point of clicking the
+link is to move a request from "does not exist" to "exists", and this is a class
+of link where the tool used to click it **cannot report which state resulted**. A
+pass that fetched the URL, saw no error, and marked the broker `submitted` would
+be recording an outcome it never observed.
+
+**Rule.** A verification link whose fetch returns no confirmation text is
+**unverified**, not verified. Re-open it in a real browser and read the page
+before recording anything. The cost is one browser tab; the cost of the
+alternative is a request that silently never existed, discovered months later
+when the listing is still there.
+
+**Tell for this shape:** the fetched page has a title but effectively no body,
+or the body is a bare product name. Any OneTrust, Ketch, DataGrail or similar
+`my.<vendor>.com` portal path is a candidate.
+
+**Related:** §1, §64.

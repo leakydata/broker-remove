@@ -9,7 +9,7 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-20)
+- Current: `unreachable` (updated 2026-08-23)
 
 ## Gotchas
 
@@ -57,3 +57,19 @@ request back.
 
 Written answer only. If they deny being an enrichment business, take the
 correction, record it, and reclassify — do not argue.
+
+
+## Dead: hard bounce after three days of retries
+
+`support@structure.ac` bounced on 2026-08-23:
+
+> *"The recipient server did not accept our requests to connect."*
+
+Three days of Gmail retries preceded it, each producing a *delay* notice rather
+than a failure. That is the pattern from `_SILENT_FAILURES.md` §65 — a connection
+that is refused rather than a recipient that is rejected produces a temporary
+delay, so the tracker reads `submitted` for 48 hours while the letter has
+nowhere to go. **A delay notice is not delivery.**
+
+Marked `unreachable`, which is the only status meaning nobody is there. No
+alternative route found on the domain.

@@ -8,7 +8,7 @@
 
 ## Status
 
-- Current: `captcha_blocked` (updated 2026-08-18)
+- Current: `submitted` (updated 2026-08-23)
 - Reference: `PSN Right to Know ticket`
 - Note: NOT confirmed. The tab is back at /opt-out/validate-record-info with no key, which is what you would see either after a successful submit-and-reload OR after an error - genuinely ambiguous. peoplesearchnow.com refuses both page-text reads and screenshots to the automation, so there is no artifact to check, and no confirmation email has arrived. Deliberately NOT marked submitted: a broker-issued artifact is required, and 'the tab looks plausible' is not one.
 
@@ -79,3 +79,22 @@ separate `ticketid`. Losing the second produces *"Opt-Out Request Expired - The 
 the request seems to have some errors"* on a link minutes old. See
 `_SILENT_FAILURES.md` §27: take the URL from the HTML part of the message, not the
 plaintext part.
+
+
+## Part of the Mississippi Tornado Alley family
+
+This site is one of **ten** named in a single 2026 California data broker
+registration by **Mississippi Tornado Alley, LLC**, alongside
+CyberBackgroundChecks, AdvancedBackgroundChecks, FastBackgroundCheck,
+PeopleSearchNow, Phonebooks, SearchPeopleFree, SmartBackgroundChecks,
+USA-People-Search, USPhoneBook and FastPeopleSearch.
+
+Nothing on any of the sites connects them, and the legal entity's name appears on
+none of them. See `mississippi_tornado_alley.md` for the consolidated letter sent
+to `privacy@mtalley.zendesk.com` on 2026-08-23, and `_FAMILIES.md` for the
+method.
+
+**Read any confirmation from this site for scope.** One naming only this hostname
+leaves nine siblings unaddressed, and that is indistinguishable from a complete
+removal from the outside. The individual thread stays open until the family
+answers for the estate.

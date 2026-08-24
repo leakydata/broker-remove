@@ -7,7 +7,7 @@
 
 ## Status
 
-- Current: `email_pending` (updated 2026-08-23)
+- Current: `submitted` (updated 2026-08-23)
 - Reference: `L7JE3RVPKK`
 - Note: OneTrust intake exists (Request ID L7JE3RVPKK, origin unknown — no corresponding sent letter found in Gmail Sent), requiring an email-confirmation click before processing starts. WebFetch on the confirmation link returns only a bare JS shell ('Trust Center Portal') — the confirm action needs a real browser (JS/POST), which this agent does not have. Needs a human to open the email and click Confirm; link may expire.
 
@@ -28,3 +28,18 @@
 ## Verification
 
 <!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+
+
+## Verified 2026-08-23 — and the fetch could not tell me so
+
+OneTrust request `L7JE3RVPKK`. The emailed confirmation link, fetched over plain
+HTTP, returned a page whose entire readable content was the words "Trust Center
+Portal": no confirmation, no error, nothing to record.
+
+Opened in a real browser it showed a green tick and *"Your request is confirmed!
+We will review your request and contact you shortly."*
+
+The portal is a JavaScript app and the fetch got the shell. **A verification link
+whose fetch returns no confirmation text is unverified, not verified** — the two
+outcomes are indistinguishable from the fetch alone, and an unconfirmed request
+does not exist. See `_SILENT_FAILURES.md` §79.
