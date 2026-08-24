@@ -2412,6 +2412,29 @@ Offer the one-line format explicitly: *"all identifiers supplied"*, or *"current
 name and address only"*, or whichever is accurate. A desk that would not write
 three paragraphs will often write four words.
 
+### The suppression-on-null-result ask is winning
+
+Worth recording that this is no longer a long shot. In a single day, **three
+separate registered brokers** found no record and added a permanent suppression
+entry anyway, unprompted or on one line of asking:
+
+| Broker | What they did |
+|---|---|
+| **IDM** | Itemised 8 email addresses and 11 postal addresses, then added all 9 phone numbers on request |
+| **Prospeo** | Suppressed the phone number and every email supplied; named exactly what they had searched |
+| **01Advertising** | *"Even though we found no records, we still exercise your right to opt out... by including you in our suppression list"* — plus a reference code and an appeal address, neither asked for |
+
+So the ask has moved from favour to norm, and **naming the precedent is what
+moves it**. The sentence that does the work:
+
+> Another registered broker replied to me this week having found no record at all
+> and added a permanent suppression entry regardless, itemising every identifier —
+> so I know it is something a company in this business can do.
+
+That converts "will you do something unusual for me" into "will you do what your
+peers do", which is a much easier yes. Use the most recent and most comparable
+example, not the most impressive one.
+
 ### Status handling
 
 A vague confirmation is still `confirmed` — the broker affirmatively said the
