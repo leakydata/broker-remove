@@ -1116,6 +1116,17 @@ Then the asks that hold **whatever the answer is**:
 - **The processor escape hatch**, offered as acceptable: if you act only for
   clients, say so, name them, pass it on.
 
+**Cite a precedent for the suppression ask.** The do-not-add-on-null-result
+request is the one most often refused on the reasoning that there is nothing to
+suppress. Naming a company that did it anyway converts the ask from a favour into
+a norm:
+
+> another registered broker replied to me this week having found no record, and
+> added a permanent suppression entry itemising every address and email anyway.
+
+That is IDM (`_DEFLECTIONS.md` and `idm.md`), and it is the strongest single
+lever in this whole file — see the SourceIT hash precedent for the same move.
+
 **Why this works better than a guess.** Every branch of the answer is useful.
 "We only hold X" scopes the follow-up. "We hold nothing" closes it. "We are a
 processor" redirects it. And a company that answers the categorisation question
