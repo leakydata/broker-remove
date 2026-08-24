@@ -2183,3 +2183,64 @@ as here — something was granted on another basis, record that outcome:
 `not_found` plus a suppression entry is a real result.
 
 **Related:** §45, §46; `_SILENT_FAILURES.md` §64.
+
+
+---
+
+## §48 The ID demand that arrives *after* the deletion was already done
+
+US Marketing Group processed a deletion and an opt-out automatically, with no
+identity document, on the strength of the identifiers in the letter. Then, for
+the **access** half of the same request, they asked for:
+
+> *"a copy of a valid driver's license or other government-issued photo
+> identification... Alternatively, a recent copy of 2 utility bills or bank
+> statements reflecting both your name and your current address."*
+
+**Never send any of these.** A government ID, and equally a bank statement, hands
+a marketing data company a sensitive document it did not previously hold, in
+order to discover what it holds about you. If the answer is "nothing", the
+disclosure is pure loss. This is a hard rule in this project and it does not bend
+because the broker is otherwise cooperative.
+
+### The argument that actually lands
+
+Not the statute — the **asymmetry inside their own reply**:
+
+> The deletion and opt-out were processed without any identity document at all.
+> You accepted my identifiers as sufficient to act on my behalf — to change your
+> records — but not sufficient to tell me what those records contain. If the
+> identifiers are good enough to delete on, I would ask you to consider whether
+> they are good enough to describe.
+
+That is hard to answer, and it is their own conduct rather than an outside
+demand. Pair it with the CPRA point that verification must be *necessary and
+proportionate*, and that the regulations direct businesses away from collecting
+new categories of sensitive information where a less intrusive route exists.
+
+### Offer three ways out, all acceptable
+
+1. **A category-level answer** — "postal record with appended demographic
+   attributes", not the values. Discloses nothing to a third party even if the
+   identifiers were wrong, and usually answers the real question.
+2. **The questions that need no verification at all**, because they are about
+   practices rather than one record: which supplier provided it, whether it was
+   rented onward and whether those clients were directed to delete, and whether
+   deletion covers appended and modelled attributes or only the name row.
+3. **A clean refusal** — "the access request cannot proceed without
+   documentation" — recorded as given and not argued with.
+
+Offering the third is what stops the request sitting open forever against a
+condition that will never be met. Say so explicitly: *"what I would like to avoid
+is the request sitting open indefinitely against a condition I have told you I
+will not meet."*
+
+### Do not lose the win in the argument
+
+Their opt-out was **standing and survived a null result** — recorded against
+identifiers they may not even hold, so a future acquisition cannot rebuild the
+record. That is the thing most brokers refuse. Acknowledge it first, plainly, and
+say you are not asking them to revisit it. The remaining dispute is narrower than
+the reply makes it look.
+
+**Related:** §43, §45, §46, §47.

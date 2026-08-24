@@ -1225,6 +1225,38 @@ broker's best reason to refuse.
    collection point the person never knowingly agreed to and cannot discover
    alone. Naming it is the only route to the source rather than the destination.
 
+### When it fails: Outlogic refused, and refused clearly
+
+The geographic query is worth asking, not guaranteed to work. Outlogic answered
+in eleven minutes:
+
+> *"We only collect MAIDS. We need a valid device ID to look up and provide the
+> data we have, or to delete any data we may hold. Without that device ID, we
+> can't search our systems."*
+
+**Take that at face value and stop.** Two clear refusals is the limit — a third
+attempt is not persistence, it is not listening, and it costs the goodwill that
+makes the next exchange possible. Record `manual_required` and move the decision
+to the human.
+
+**Credit what deserves crediting.** The same message said:
+
+> *"Please do not provide any personal data to us other than the MAID that we
+> collect."*
+
+That is a data broker actively refusing personal information it does not need,
+having just been sent twelve email addresses, sixteen postal addresses and eleven
+telephone numbers. Most companies in this file would have searched and kept all
+of it. Saying so in the reply is not flattery — it is the difference between a
+correspondent and a form letter, and it is what makes a later request land.
+
+**Leave the structural observation on the record, and say no reply is needed.**
+The combined effect of "we hold only MAIDs" and "we accept only a MAID" is that
+consumer access is impossible in principle, not in practice: the only acceptable
+key is one the industry issues, never discloses, and rotates. Someone whose 2023
+movements are held cannot ask about them in 2026 even doing everything right.
+Say it once, without demanding an answer, and stop.
+
 ### Close the loop honestly
 
 Say that a null result from the geographic query will be accepted:
