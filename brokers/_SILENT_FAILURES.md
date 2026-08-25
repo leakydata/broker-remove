@@ -4887,3 +4887,81 @@ Those are gaps in scope. A flat "we do not have your information on file" has no
 gap to point at — it answers exactly the question that was asked. **Press on
 scope, never on sincerity.**
 
+## §100 — The pass-through broker, and why writing to it is still worth doing
+
+Blueprint Audiences is a **registered California data broker** that appears to
+hold, about any given person, one thing: a pseudonymous identifier it did not
+create, plus the audience segments that identifier belongs to.
+
+Their Privacy Lead explained it plainly, and the explanation is worth quoting
+because it resolves something this project kept running into:
+
+> *"We don't hold email addresses in any form, hashed or otherwise. We never
+> receive them... No email field, no phone field, no hashing function on our side.
+> So there's no table to run your twelve addresses against.*
+>
+> *We are a registered data broker in the state of California because the law
+> considers pseudonymous identifiers as personal data, and we hold pseudonymous
+> identifiers. However, that is the only identifier we hold, and it is not created
+> by us, but rather received from our partner.*
+>
+> *Hash to cookie to device to CTV to household is our identity partner's job, not
+> ours. We don't build those mappings or receive them. No edges here to delete."*
+
+### Why this matters beyond one company
+
+A registry entry proves an obligation, **not a holding**. Some registered brokers
+are genuinely the wrong target: the graph that resolves *you* to a pseudonymous ID
+lives one step upstream, with an identity or onboarding partner who may not be
+registered anywhere, or may be registered under a name that gives no hint of the
+relationship.
+
+So the letter can be perfectly aimed at a real registered broker and still be
+aimed at the wrong company. That is not the broker being evasive. It is the
+supply chain being longer than the registry.
+
+### The useful output is a name, not a deletion
+
+This is the key practical point. When a broker turns out to be a pass-through,
+**what you want from them is the name of their upstream partner** — and they are
+the only party who can give it to you.
+
+A consumer can enumerate registered brokers from a state registry. A consumer
+**cannot** discover which of them holds the mapping that resolves their own
+identifiers. The broker can answer that in one line.
+
+So the supplier question — already the highest-yield question in this project —
+becomes the *entire* point of the correspondence once a pass-through is
+identified. Ask it explicitly, ask it as a favour rather than a demand, and make
+clear the request is closed either way so that answering costs them nothing.
+
+### How to tell a pass-through from a qualified null
+
+They look identical for one round. The difference shows on the follow-up:
+
+| | qualified null (§58) | pass-through |
+|---|---|---|
+| answers "do you hold a hash of these?" | avoids it, or re-states architecture | **answers it directly** |
+| explains *why* there is nothing | no | **yes — no field, no function, no table** |
+| says where the data does live | no | **yes, names the layer** |
+| survives a precise follow-up | no | **yes** |
+
+Blueprint's *first* reply was a qualified null and is recorded as one. Its
+**second** reply was a pass-through explanation. The same company produced both,
+which is the useful lesson: **a qualified null is often a template, and a precise
+follow-up is what gets you past it to whoever actually knows.**
+
+### And the thing worth copying
+
+Asked which list a retained suppression hash sits on — the question a dozen
+companies have now been asked — the answer was:
+
+> *"It can't work as a match key because there's nothing here to match it
+> against."*
+
+Not a denial. A demonstration that the question dissolves under their
+architecture. **That is what a good answer looks like: it makes itself checkable
+rather than asking to be believed.**
+
+**Related:** §91, §96, §99; `_DEFLECTIONS.md` §54, §58.
+
