@@ -4653,3 +4653,64 @@ we currently hold.
 
 **Related:** §78 (state filings as a family map), §83, §88.
 
+## §96 — The enumerated confirmation caught the omission
+
+§91 argued that an enumerated denial beats a bare one, because a bare "no records
+found" is unfalsifiable. Sync.ME just demonstrated the same thing for a
+**confirmation**, and it paid off immediately.
+
+Their reply did not say "your data has been removed." It **listed every identifier
+they had acted on** — eleven email addresses and eleven telephone numbers, pasted
+out in full.
+
+So the list could be checked against the one that was sent. **Two identifiers were
+missing:**
+
+- **one of the twelve email addresses** — twelve were supplied; eleven came back.
+- **the current telephone number** — all eleven *disconnected* numbers were
+  removed, and the one number actually in use was not.
+
+Almost certainly an ordinary transcription slip while copying a long list. The
+point is not that they erred. **The point is that it was detectable at all.** A
+"your data has been removed" of the usual kind is compatible with any subset of
+the work having been done, including this one, and the recipient has no way to
+tell.
+
+### The inversion is worth noting on its own
+
+§87 recorded that the identifiers which match are frequently the stale ones —
+BDEX found four matches and every one was a mailbox dead for years. Here the
+opposite happened: every dead number was removed and **the live one was missed**.
+
+For a caller-ID directory that is the worst single number to miss. It is the one
+most likely to be live in the index, most likely to sit in other people's
+uploaded contact books, and the only one where a wrong name or a spam label
+affects a call the person actually receives.
+
+**So check both ends of the list.** Stale identifiers are where matches hide;
+current identifiers are where omissions hide. Neither habit substitutes for the
+other.
+
+### What made this reply good, and worth asking for by name
+
+Sync.ME answered all three category-specific questions **separately** rather than
+covering them with one word:
+
+1. **Contact-book uploads** — the hardest question you can ask a crowdsourced
+   directory, because entries contributed by other people's phones are filed
+   under *those users'* accounts. Their answer: the block applies *"including if a
+   user later uploads a contact book containing them."*
+2. **Spam reports and labels** — *"these are removed along with everything
+   else."* A number stripped of a name but still carrying commentary about its
+   holder is not a completed removal.
+3. **Suppression, not one-time deletion** — the opt-out list blocks future
+   collection and display. In a directory that rebuilds from every new upload,
+   that is the difference between a removal and a pause.
+
+They also acknowledged the form defect (`_DEFLECTIONS.md` — one number at a time,
+so the honest use of it trips the bot protection) rather than defending it.
+
+**Ask for the three separately, in the first letter, and say why.** This reply is
+the evidence that it works: a company given three distinct questions answered
+three distinct questions.
+
