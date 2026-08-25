@@ -3008,5 +3008,37 @@ nobody designed it to frustrate anyone — but it converts an answerable questio
 into an errand, and it does so most severely for the people with the most
 identifiers, who are the people most likely to have records worth deleting.
 
+### It was not eight. It was twenty-seven.
+
+I recorded this as eight parallel requests. That was wrong — I read one page of
+search results and did not paginate. The true figure is **at least twenty-seven**,
+still arriving, one notification roughly every three and a half minutes, each with
+a different request ID.
+
+The count was available and I did not ask for it. Worth recording because the
+handoff I wrote on the strength of it told the reader to work through eight
+portals when there were twenty-seven — **a handoff that understates the work
+threefold is worse than one that admits it does not know the size**, because the
+reader budgets for it and stops when the number they were given runs out.
+
+The correction also changes the advice. At eight portals, opening them one by one
+is tedious but reasonable. At twenty-seven it is the wrong first move entirely, so
+the rewritten handoff leads with *do not start by opening twenty-seven portals* and
+sends the reader to the consolidation email thread first.
+
+**And it sharpens the underlying point.** One notification per request is a
+reasonable design when a person has one request. The number of requests here is
+not a choice anyone made — it is the one-value-per-field intake form multiplied by
+someone with a long identifier history. **The notification volume is the intake
+design, compounding.** Whoever set the per-request email rule never saw a case
+like this, and would probably not defend it if shown one.
+
+### If the comments turn out to be identical
+
+Check two or three before answering any. If a queue of requests from one person
+received the same templated comment, it can be answered **once by email citing
+every request ID**, rather than typed into twenty-seven separate reply boxes. Ask
+for that explicitly rather than assuming it is allowed.
+
 **Related:** §57; `_SILENT_FAILURES.md` §101.
 
