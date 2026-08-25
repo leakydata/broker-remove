@@ -4402,3 +4402,119 @@ the gap precisely is what distinguishes a useful follow-up from an argumentative
 one** — and a company that answered this well the first time will usually answer a
 precise second question too.
 
+## §92 — A null MX is an MX record that means the opposite
+
+`privacy@crawlbee.com` bounced. The domain looked healthy — it served an A record
+and a website — and our own checker had passed it as deliverable. The MX lookup
+explained it:
+
+```
+crawlbee.com   MX -> 0 .
+```
+
+That is a **null MX** (RFC 7505): a single record, priority 0, pointing at the
+root. It is the domain owner stating explicitly, in DNS, **"this domain accepts no
+mail."**
+
+`check_email_domains.py` returned `True` for it, because the logic was *"is there
+an MX record? then mail can be delivered."* For every domain but this one that is
+right. Here it is exactly backwards — the presence of the record is the refusal.
+
+### Why this bug mattered more than a wasted send
+
+A wasted letter is cheap. The real cost is that the broker gets marked
+**`submitted`**, and a `submitted` row is a claim that a request is in flight.
+Nobody ever learns the letter did not leave. That is the same class of harm as
+§85 and §88: **a record that looks like progress and is not.** The tooling was
+manufacturing exactly the failure this repository exists to document.
+
+### The sweep
+
+Fixed, then run across all 960 contact domains. **Two** null-MX domains:
+
+| domain | broker | how found |
+|---|---|---|
+| `crawlbee.com` | crawlbee | bounced — the letter was already wasted |
+| `idengine.com` | idengine | the sweep — no letter sent |
+
+Two is a small number, and that is worth saying plainly rather than dressing the
+finding up. The fix is still right: the failure is silent, so its rate is not what
+determines whether it is worth catching.
+
+### A correction to earlier work
+
+`idengine.com` was one of the five "repairable typos" I fixed in the earlier
+domain sweep, changing `idengine.ai` to `idengine.com` because the `.ai` domain
+did not resolve. The correction looked obviously right — and it pointed the
+address at a domain that refuses all mail.
+
+Recorded rather than quietly amended, because **a correction that produces a dead
+target is indistinguishable from one that worked** unless somebody checks. The
+same instinct that made the typo fix feel safe is what would have kept it
+unexamined.
+
+### And the queue now checks at send time
+
+`arrakis.ai` was NXDOMAIN — no MX, no A, no SOA — and our checker said so
+correctly. It was queued and sent to anyway, because **nothing consulted the
+checker at the moment of sending**. A domain that died after the last sweep is
+indistinguishable from one that was never swept.
+
+`queue_batch.py` now runs `deliverable()` over each batch on the way out and holds
+anything that comes back `False`, printing what it held. Only the batch is
+checked, so it stays a handful of DNS lookups. A lookup *failure* is still treated
+as sendable, deliberately: condemning a broker on a transient resolver error is
+the expensive direction of that mistake.
+
+**Related:** §85, §86, §88, §89.
+
+## §93 — The tracker was able to erase its own best results
+
+While recording outcomes from the inbox, I set MyLife to `submitted` on the
+strength of a newly acknowledged ticket. MyLife had been **`confirmed`** since 18
+August — they had written that the account and its associated information were
+deleted.
+
+The new ticket was a *follow-up*, chasing residual identifiers re-supplied after
+they searched only name and email. It was not a reversal. But `tracker.py set`
+took the write without comment, and the confirmed total silently dropped by one.
+
+### Why this is the worst shape of error in this project
+
+Every other failure here is a broker doing something. This one was **the record
+keeping losing a real result**, and it is nearly invisible: the totals are the
+thing you check to see how you are doing, so an error that alters the totals
+corrupts the instrument you would use to notice it. A confirmed removal is the
+most expensive fact in the file — a letter, usually a follow-up, and a broker
+willing to say plainly that the data is gone.
+
+Worse, the pressure that produced it recurs constantly. **New activity on a
+settled broker is normal**: a follow-up ticket, a duplicate confirmation re-sent,
+an autoreply on an old thread. Every one of those tempts a status write, and every
+one of them arrives long after the confirmation, when the confirmation is no
+longer in front of you.
+
+### The guard
+
+`tracker.py set` now refuses to move a broker away from `confirmed` or
+`not_found` unless `--regressed` is passed, and tells you what to do instead:
+
+```
+refusing to move mylife from 'confirmed' to 'submitted'.
+  'confirmed' is a recorded outcome that cost real work. New activity on a
+  settled broker is usually a follow-up, not a reversal -- record it with:
+      tracker.py set mylife confirmed --note "..."
+  If the broker really has re-added the data or withdrawn the confirmation,
+  pass --regressed to say so deliberately.
+```
+
+**Downgrades are still possible, and must be.** A broker really can re-add
+someone, and a tool that refused to record that would be lying in the other
+direction. The point is only that it should never happen *by accident* — with
+`--regressed` it happens deliberately and prints a note to stderr saying so.
+
+**Note the shape of this fix.** The failure was not caught by care; I made the
+mistake while being careful. It was caught because the summary count moved by one
+in the wrong direction. **Watch the aggregates for movement you did not intend** —
+they are frequently the only witness to this kind of error.
+

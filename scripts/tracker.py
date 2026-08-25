@@ -38,6 +38,10 @@ STATUSES = [
 ]
 
 
+
+# Outcomes that represent real, hard-won progress. Moving away from one of these
+# is almost always an accident (see cmd_set), so it needs an explicit flag.
+TERMINAL_WINS = {"confirmed", "not_found"}
 def load(path, default):
     if path.exists():
         return json.loads(path.read_text())
@@ -89,6 +93,35 @@ def cmd_set(args):
     if args.broker_id not in reg:
         sys.exit(f"unknown broker: {args.broker_id}")
     rec = st.setdefault(args.broker_id, {"history": []})
+
+    # Don't let a later note quietly undo an earlier win.
+    #
+    # A confirmed removal is the most expensive fact in this file: it took a
+    # letter, usually a follow-up, and a broker willing to say plainly that the
+    # data is gone. New activity on an already-confirmed broker is normally a
+    # FOLLOW-UP ticket, not a reversal -- MyLife acknowledged a fresh ticket a
+    # week after confirming deletion, and recording that as `submitted` silently
+    # erased the confirmation from the totals.
+    #
+    # Downgrades are still allowed: a broker can genuinely re-add someone, and
+    # refusing to record that would be its own kind of lie. But it must be
+    # deliberate, so it requires --regressed and says so out loud.
+    prior = rec.get("status")
+    if prior in TERMINAL_WINS and args.status != prior and not args.regressed:
+        sys.exit(
+            f"refusing to move {args.broker_id} from '{prior}' to "
+            f"'{args.status}'.\n"
+            f"  '{prior}' is a recorded outcome that cost real work. New "
+            f"activity on a settled broker is usually a follow-up, not a "
+            f"reversal -- record it with:\n"
+            f"      tracker.py set {args.broker_id} {prior} --note \"...\"\n"
+            f"  If the broker really has re-added the data or withdrawn the "
+            f"confirmation, pass --regressed to say so deliberately."
+        )
+    if args.regressed and prior:
+        print(f"NOTE: {args.broker_id} regressed from '{prior}' to "
+              f"'{args.status}'", file=sys.stderr)
+
     rec["status"] = args.status
     rec["updated"] = now()
     if args.url:
@@ -181,6 +214,8 @@ def main():
     stp = sub.add_parser("set")
     stp.add_argument("broker_id"); stp.add_argument("status")
     stp.add_argument("--note"); stp.add_argument("--url"); stp.add_argument("--ref")
+    stp.add_argument("--regressed", action="store_true",
+                     help="allow moving away from a confirmed/not_found outcome")
     # 'email' is a fresh outbound letter and counts against the daily send cap.
     # 'reply' is a message into an existing thread -- answering a deflection,
     # recording a ticket acknowledgement -- and does not. Conflating them lets a

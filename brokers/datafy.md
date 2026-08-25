@@ -7,10 +7,13 @@
 
 ## Status
 
-- Current: `email_pending` (updated 2026-08-25)
+- Current: `submitted` (updated 2026-08-25)
 - Statutory delete/opt-out request emailed to opt-out@datafy.com. Auto-ack received
   ("Someone from our team will review and get back to you shortly") — a queue
   confirmation, not a completion. Awaiting substantive reply.
+- Tracked as `submitted` rather than `email_pending`: nothing has been sent to a
+  mailbox for me to click. `email_pending` means the request is void until a
+  confirmation link is followed, which is a different and more urgent state.
 
 ## Steps
 

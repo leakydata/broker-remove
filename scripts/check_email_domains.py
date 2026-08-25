@@ -44,6 +44,10 @@ REGISTRY = ROOT / "data" / "brokers.json"
 def deliverable(domain):
     """Can mail be delivered here? MX, or an A record as the implicit fallback.
 
+    A null MX (RFC 7505, a lone `0 .` record) is an explicit refusal and returns
+    False -- see the comment below for why that case must not be read as "an MX
+    exists, therefore deliverable".
+
     Returns True / False / None, where None means the lookup itself failed and
     the domain must NOT be condemned -- guessing 'dead' is the expensive
     direction of this error."""
@@ -52,7 +56,23 @@ def deliverable(domain):
                             text=True, timeout=10)
         if mx.returncode != 0:
             return None
-        if any(l.strip() for l in mx.stdout.splitlines()):
+        hosts = [l.strip() for l in mx.stdout.splitlines() if l.strip()]
+
+        # RFC 7505 "null MX": a single record of priority 0 pointing at the root
+        # (".") is the domain owner stating explicitly that this domain accepts
+        # NO mail. It is the one case where an MX record present means the exact
+        # opposite of deliverable, and reading it as deliverable is worse than a
+        # missing record -- the send is refused immediately, the broker gets
+        # marked `submitted`, and nobody learns the letter never left.
+        #
+        # crawlbee.com published `0 .` while still serving an A record and an
+        # Afternic SOA (i.e. parked for sale). We sent to it and it bounced.
+        if len(hosts) == 1:
+            parts = hosts[0].split()
+            if len(parts) == 2 and parts[0] == "0" and parts[1] in (".", ""):
+                return False
+
+        if hosts:
             return True
         # No MX. RFC 5321 says fall back to the A record, so this is not formally
         # undeliverable -- but in practice a company that runs a website and no

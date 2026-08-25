@@ -25,6 +25,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from make_optout_email import TEMPLATE, CONTACT_NOTE, load_profile  # noqa: E402
+from check_email_domains import deliverable  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 from paths import state, outbox  # noqa: E402
@@ -150,7 +151,37 @@ def main():
               + (" ..." if len(held) > 8 else ""), file=sys.stderr)
     # Highest leverage first: aggregators before niche sites.
     pool.sort(key=lambda b: (-b.get("priority", 0), b["id"]))
-    batch = pool[: min(args.size, remaining)]
+
+    # Check deliverability on the way out, not once in a while.
+    #
+    # arrakis.ai was NXDOMAIN and crawlbee.com published a null MX -- an explicit
+    # RFC 7505 refusal of all mail -- and both were queued and sent to anyway,
+    # because nothing consulted the checker at send time. A domain that died
+    # after the last sweep is indistinguishable from one that was never swept,
+    # and the cost is not just a wasted send: the broker gets marked `submitted`
+    # and the request is believed to be in flight when it never left.
+    #
+    # Only the batch is checked, not the whole pool, so this stays a handful of
+    # DNS lookups. `None` (lookup failed) is treated as sendable on purpose --
+    # condemning a broker on a transient resolver error is the expensive
+    # direction of this mistake.
+    batch, dead = [], []
+    for b in pool:
+        if len(batch) >= min(args.size, remaining):
+            break
+        domain = (b.get("email_to") or "").split("@")[-1].lower()
+        verdict = deliverable(domain) if domain else None
+        if verdict is False:
+            dead.append((b["id"], domain))
+            continue
+        batch.append(b)
+    if dead:
+        print(f"holding {len(dead)} broker(s) whose contact domain accepts no "
+              f"mail (NXDOMAIN or null MX): "
+              + ", ".join(f"{i} ({d})" for i, d in dead[:6])
+              + (" ..." if len(dead) > 6 else "")
+              + " -- mark these unreachable or find another address",
+              file=sys.stderr)
 
     out = []
     for b in batch:
