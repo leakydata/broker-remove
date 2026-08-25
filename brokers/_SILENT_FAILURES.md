@@ -4567,3 +4567,89 @@ the same action produces a record that reads as two actions.
 one command, it is authoritative, and it beats an inference built from three
 negative local checks.
 
+## §95 — The registries exist so consumers can find brokers, and consumers cannot read them
+
+Mining California's four registry files unlocked **517 brokers that appeared in no
+other source we had**. It is far and away the highest-yield thing done in this
+project. So the obvious next move is the other three states with a registration
+regime: Vermont, Oregon and Texas.
+
+All three are blocked, and each is blocked differently.
+
+| state | registry | blocked by |
+|---|---|---|
+| California | four CSV files, downloadable | **nothing** — this is why it worked |
+| Vermont | bulk database download | **login required** |
+| Oregon | ASP.NET license lookup | **CAPTCHA** |
+| Texas | Appian portal app | **client-rendered; no data without a browser** |
+
+### What each one actually is
+
+**Vermont** publishes the best artifact of any state — a genuine *bulk database
+download*, no scraping needed, covering ~283 registrants (~177 active, ~101
+expired). It sits behind an account login. We will not create an account with a
+state filing system to read a public record, so this is a handoff.
+
+**Oregon** has a public license-verification search and it very nearly worked. The
+form is a standard ASP.NET postback; I fetched it, extracted `__VIEWSTATE`,
+`__VIEWSTATEGENERATOR` and `__EVENTVALIDATION`, and posted
+`t_web_lookup__profession_name=DFR-Data Broker` with
+`t_web_lookup__license_type_name=Data Broker`. HTTP 200. The response said:
+
+> *"There is an error with your input. * **Please solve the CAPTCHA.**"*
+
+That is the end of the road. **We do not solve CAPTCHAs** — no exceptions, no
+paid solving services, no local models. Handed off with the exact field values so
+a person can reproduce it in about two minutes.
+
+**Texas** requires registration under SB 2105 at \$300/year and publishes a
+"searchable, central registry" — as an Appian portal application. `curl` returns
+a **2.5 KB shell** containing the words "Data Broker" and nothing else; the list
+is fetched client-side. It needs a real browser.
+
+### Why this is worth recording rather than just working around
+
+Each of these regimes was created so that consumers could find out who holds data
+about them. The registry is not incidental to the law — in Texas the statute
+*directs* the Secretary of State to maintain a searchable central registry.
+
+And then:
+
+- one requires an **account** to read a public record;
+- one requires a **CAPTCHA**, i.e. it is designed to be readable one query at a
+  time by a human and not otherwise;
+- one requires **JavaScript**, which excludes any programmatic access and some
+  assistive technology.
+
+None of that is malice, and it should not be described as such. Each is an
+ordinary implementation decision, made by a different agency, for reasons that
+have nothing to do with data brokers. **The aggregate effect is still that the
+lists exist and cannot be used at scale by the people they were written for.**
+
+California is the control case. Its registry is four CSV files anyone can
+download, and it is the reason 517 brokers are in this repository. The difference
+between Californian coverage and everywhere-else coverage in this project is not
+a difference in how many brokers operate in those states. **It is a difference in
+file format.**
+
+### The asymmetry that follows
+
+A broker's obligation to register is satisfied by filing once a year. A
+consumer's ability to act on that filing depends on being able to read the whole
+list — one broker at a time behind a CAPTCHA is not a usable interface for
+someone facing several hundred of them.
+
+If any of this is ever worth raising with a regulator, the ask is small and
+concrete: **publish the registry as a downloadable file.** California already
+does. Nothing else about the regime needs to change.
+
+### Status
+
+Three handoffs staged — `_registry_oregon`, `_registry_vermont`,
+`_registry_texas` — each self-contained, with the exact search values, the exact
+menu path, and what to save where. Expected yield, extrapolating from California:
+several hundred registrants, a meaningful share of them absent from every source
+we currently hold.
+
+**Related:** §78 (state filings as a family map), §83, §88.
+
