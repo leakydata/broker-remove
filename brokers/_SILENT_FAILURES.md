@@ -5150,3 +5150,84 @@ whole exercise that arrives without being sought.
 
 **Related:** §90, §100; `_FAMILIES.md` appendix six.
 
+## §103 — 464 requests were searched against the wrong keys, and I caused it
+
+The largest defect found in this project so far is mine, not a broker's.
+
+**The identifier list grew during the campaign.** Early letters carried 8 email
+addresses, 10 prior addresses and 8 prior telephone numbers. Current letters carry
+12, 16 and 11. The additions were made partway through, as older accounts and
+addresses were recovered.
+
+**464 brokers were contacted before that expansion.** Every one of them was
+searched against a list missing four email addresses, six prior addresses and
+three telephone numbers.
+
+### Why that is much worse than "some keys were missing"
+
+BDEX searched all twelve email addresses and reported back that **four matched —
+and every one of the four was a mailbox out of service for years. Not one current
+address matched** (§87).
+
+Those four are:
+
+| identifier | in the early letters? |
+|---|---|
+| the four addresses BDEX matched | **none of them** |
+
+All four were among the late additions. So the identifiers **demonstrated to be
+the ones that actually match** were absent from 464 requests. This is not a
+theoretical gap — it is the specific gap that the one broker who checked carefully
+told us was the productive one.
+
+Worse, the early wave was the **high-value wave**: Acxiom, Epsilon, Data Axle,
+Intelius, BeenVerified, InstantCheckmate were all contacted on 15–18 August. The
+largest compilers got the shortest list.
+
+### Every null from that period is weaker evidence than it looked
+
+This is the part that changes how the record should be read. A "no records found"
+from a broker contacted on 16 August means *"nothing matched 8 email addresses, 10
+addresses and 8 numbers"* — **not** *"nothing matched the full set."* Those are
+different claims, and the first was being recorded as though it were the second.
+
+The brokers did nothing wrong. They answered accurately for what they were given.
+
+### The remediation
+
+`scripts/supplement_identifiers.py` generates a letter that:
+
+- **states plainly that it is not a new request** — *"please treat it as completing
+  the one already on file rather than restarting the clock."* Framing matters: a
+  new request resets a statutory response period and invites a fresh verification
+  round, which is exactly what should not happen;
+- lists the additions separately, and **marks them inline** in the full list so
+  the recipient can see at a glance what is new;
+- gives the BDEX evidence as the reason, without disputing the earlier answer:
+  *"that answer was accurate for the identifiers it was given — and may still be
+  incomplete. I am not disputing it."*;
+- asks the recipient to **enumerate what they searched** (§96, §101);
+- pre-commits to accepting a repeated null.
+
+**426 brokers qualify** (the balance of the 464 are unreachable, form-only, or
+otherwise past helping by email). It tracks a `supplemented` flag per broker so the
+campaign is resumable and nobody is written to twice.
+
+### The lesson worth generalising
+
+**When the identifier list changes, every prior request becomes partially stale —
+and nothing in the system notices.** The tracker records that a request was sent;
+it does not record *what was in it*. A null answer keeps looking like a null answer
+long after the question that produced it has changed.
+
+Two habits follow:
+
+1. **Freeze the identifier list before a campaign, or version it.** Recording which
+   identifier-set version each request used would have made this visible
+   immediately instead of five hundred letters later.
+2. **Treat a recovered identifier as a trigger, not just an addition.** Finding an
+   old mailbox is not merely one more thing to search — it retroactively weakens
+   every answer already received.
+
+**Related:** §87, §96, §101.
+
