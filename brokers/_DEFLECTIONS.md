@@ -2948,3 +2948,65 @@ not let it stand.
 
 **Related:** §54, §55; `_SILENT_FAILURES.md` §91, §99.
 
+## §59 — The notification that withholds the notification
+
+Eight emails from PwC's OneTrust in thirty-two minutes, one per open request:
+
+> *"Dear [name], A comment has been added to your request (Request ID:
+> 82M3JY825A). Please click the button below to access your request in the
+> portal."*
+
+**It tells you a comment exists. It does not tell you what the comment says.**
+
+That is a small design decision with a large effect. The content — very often a
+verification question or a scope clarification, the sort of thing answerable in
+one line — sits behind a signed portal link. So a message that could have resolved
+the request in a single reply instead becomes a task: open a browser, follow a
+per-request token, read, log in to the reply box, type there.
+
+For a consumer with **one** request that is a minor annoyance. For anyone with
+several it multiplies, and it multiplies precisely when the requests are otherwise
+identical.
+
+### Why there were eight
+
+Almost certainly the §101 data model again: **intake forms commonly accept one
+identifier per submission.** Someone with twelve email addresses, twelve telephone
+numbers and sixteen prior addresses cannot make one complete request — they are
+structurally forced to make many near-identical ones, and then receive many
+near-identical notifications about them.
+
+Same root cause as Accurate Append processing exactly one value per field, and as
+Speedeon's *"Only one name and address may be included on this form."* The system
+holds one value per field, so every interface it offers holds one value per field.
+
+### What to do
+
+1. **Use the fallback address the notification itself names.** This one said: *"If
+   you have issues accessing your request, please contact a member of the PwC US
+   privacy team at us_privacy_office@pwc.com."* That sentence is an escape hatch
+   from the portal, exactly like the Converge fallback in §57 — and "I cannot read
+   a comment I have not been shown" is a genuine access issue.
+2. **Ask them to paste the comment text into a reply** and say you will answer it
+   there. Almost nothing in a DSAR comment actually requires a portal.
+3. **Ask them to merge the parallel requests into one**, and to say which reference
+   survives. Put it as good for both sides, because it is: it is *n* queues for
+   their team and *n* portals for you, and every one needs the same answer to the
+   same question.
+4. **Explain why there are n**, briefly, without blame. A privacy team may not know
+   its intake form is generating duplicate work for itself. This is the rare case
+   where the consumer can see the defect and the company cannot.
+5. **Restate the request in the email** so that nothing depends on retrieving it —
+   and say explicitly that this is a restatement, **not a new request**, so no
+   statutory clock restarts.
+
+### The general shape
+
+A notification that says *something happened, go elsewhere to find out what* is a
+channel that costs the recipient more than it needed to. It is not obstruction —
+nobody designed it to frustrate anyone — but it converts an answerable question
+into an errand, and it does so most severely for the people with the most
+identifiers, who are the people most likely to have records worth deleting.
+
+**Related:** §57; `_SILENT_FAILURES.md` §101.
+
