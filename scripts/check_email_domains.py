@@ -54,11 +54,22 @@ def deliverable(domain):
             return None
         if any(l.strip() for l in mx.stdout.splitlines()):
             return True
+        # No MX. RFC 5321 says fall back to the A record, so this is not formally
+        # undeliverable -- but in practice a company that runs a website and no
+        # mail server has nothing listening on port 25, and the sender spends two
+        # days retrying before giving up. `calibrant.com` behaved exactly that
+        # way: site up, no MX, and a delivery-delay notice rather than either a
+        # bounce or a delivery.
+        #
+        # Reported as "weak" rather than folded into either verdict, because the
+        # two errors are asymmetric: calling it deliverable wastes a send and two
+        # days of a false `submitted`, while calling it dead could write off a
+        # broker whose mail genuinely arrives via the A record.
         a = subprocess.run(["dig", "+short", "A", domain], capture_output=True,
                            text=True, timeout=10)
         if a.returncode != 0:
             return None
-        return any(l.strip() for l in a.stdout.splitlines())
+        return "weak" if any(l.strip() for l in a.stdout.splitlines()) else False
     except Exception:
         return None
 
@@ -78,11 +89,14 @@ def main():
     with ThreadPoolExecutor(max_workers=args.workers) as ex:
         verdicts = dict(zip(hosts, ex.map(deliverable, hosts)))
 
-    dead, unknown = [], 0
+    dead, weak, unknown = [], [], 0
     for b in rows:
         h = b["email_to"].split("@")[-1].lower()
         if verdicts.get(h) is None:
             unknown += 1
+            continue
+        if verdicts[h] == "weak":
+            weak.append((b["id"], b["email_to"]))
             continue
         if verdicts[h]:
             continue
@@ -96,6 +110,13 @@ def main():
     print(f"\n{len(dead)} contact address(es) on a domain that cannot receive mail:")
     for bid, addr, fix in dead:
         print(f"  {bid:34} {addr:38} -> {fix or 'NO SUGGESTION'}")
+    if weak:
+        print(f"\n{len(weak)} address(es) on a domain with NO MX but a live A record."
+              f"\n  Formally deliverable via A-record fallback; in practice usually a"
+              f"\n  website with no mail server, which costs two days of retries."
+              f"\n  Not rewritten - verify before spending a send:")
+        for bid, addr in weak:
+            print(f"    {bid:32} {addr}")
     if unknown:
         print(f"\n({unknown} address(es) skipped - DNS lookup failed, not condemned)")
 

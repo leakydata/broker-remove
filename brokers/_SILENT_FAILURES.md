@@ -4017,6 +4017,36 @@ by mail at all. Those were marked `unreachable` without ever being written to,
 which is the point: the check runs before the send, not after two days of silent
 retries.
 
+### The third verdict: a website with no mail server
+
+A domain with **no MX but a live A record** is a distinct case, and folding it
+into either answer is wrong.
+
+RFC 5321 says a sender falls back to the A record when no MX exists, so such a
+domain is not *formally* undeliverable. But in practice a company that runs a
+website and no mail server has nothing listening on port 25 — and the sender does
+not learn that quickly. It reports a **delivery delay** and retries for two days
+first.
+
+Observed exactly that way:
+
+| Domain | What happened |
+|---|---|
+| `structure.ac` | Three days of delay notices, then a hard failure |
+| `4-eyes.ai` | Two days of "Gmail will retry", then failure |
+| `calibrant.com` | Site serving normally, no MX, delay notice |
+
+So the checker reports these as **weak** rather than resolving them either way,
+and does not rewrite them. The two possible errors are asymmetric: calling such a
+domain deliverable wastes a send and two days of a false `submitted`, while
+calling it dead could write off a broker whose mail genuinely does arrive via the
+A record. Neither is cheap enough to guess at, so the tool surfaces the list and
+stops.
+
+**Eight addresses in the registry are currently in this state.** Verify before
+spending a send — a single SMTP probe, or simply watching whether the first
+letter delays, settles it.
+
 ### The rules that fall out
 
 - **Check deliverability before spending a send.** It costs one DNS lookup and it
