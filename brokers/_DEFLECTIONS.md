@@ -2786,3 +2786,72 @@ machine has answered on it.** Registry filings (`_SILENT_FAILURES.md` §83, §85
 decommissioned. This is a fourth: **a mailbox that answers every time and receives
 nothing.** It looks healthiest of the four and is no better than the rest.
 
+## §57 — The form redirect that keeps a door open
+
+Converge Marketing's autoreply is the best-shaped redirect received so far:
+
+> *"To submit your request, please use our secure online form: » Submit Your
+> Privacy Request [my.datasubject.com link]. The form takes just a few minutes to
+> complete and will route your request to the right team based on your location.
+> **If you are unable to use the form, please reply with your name, the state you
+> reside in, and a description of your request, and we will assist you
+> directly.**"*
+
+Two sentences separate this from every other form redirect in this file:
+Blackbaud, Buxton, Catalist and Crexi all name a destination and stop there. This
+one names a destination **and keeps email open for anyone the destination does not
+work for.**
+
+### Why that last sentence matters more than it looks
+
+A form is not a neutral channel. It can fail in ways the person on the other end
+never sees:
+
+- §45 — an Osano `my.datasubject.com` request that **rendered with no fields at
+  all** once a location gate applied. Same platform Converge links to.
+- A CAPTCHA the requester will not solve, or cannot.
+- An attestation they are not willing to make.
+- Assistive technology the form does not work with.
+- A required field the person genuinely cannot fill.
+
+In every one of those cases a form-only policy converts a valid request into
+silence, and the company never learns it happened. **The fallback is what makes
+the redirect honest**, because it means a broken form costs the requester a reply
+rather than the request.
+
+### Take the fallback rather than the form
+
+When offered, use it. It needs no browser, faces no CAPTCHA, and produces a
+threaded written record, which a form submission usually does not. Give exactly
+the three things asked for, then attach the full request underneath — supplying
+the requested minimum is what makes the reply easy to action, and the detail
+underneath is what makes it complete.
+
+### While you are there: volunteer the weak fact
+
+Their fallback asks for **state of residence**, and the honest answer is often
+unhelpful — Pennsylvania has no comprehensive consumer privacy statute.
+
+Say so first, plainly, rather than letting it surface later as a reason to
+decline:
+
+> *"Pennsylvania has no comprehensive consumer privacy statute. I am therefore not
+> claiming a Pennsylvania statutory right, and I will not pretend otherwise. I am
+> asking you to honour this under the CCPA as amended to the extent it applies to
+> records you hold about me; and failing that, as a matter of your own published
+> privacy policy, which is not conditioned on my state of residence."*
+
+Then close the escape hatch:
+
+> *"If your position is that you will only act for residents of states with a
+> comprehensive privacy law, please say so directly rather than declining
+> silently. A clear refusal is something I can record and respect; an unanswered
+> request is not."*
+
+The published policy is the load-bearing part. Most privacy policies commit to
+handling requests without limiting the promise by state, and a company that
+declines anyway has to decline **against its own published words** rather than
+against a statute you cannot invoke. See §47 — "your state has no privacy law" is
+sometimes true, and the answer is not to argue it but to move the request onto
+ground that does not depend on it.
+
