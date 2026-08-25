@@ -1975,3 +1975,108 @@ that panel membership, survey responses and call records be treated as in scope,
 and that the do-not-call entry cover **research calls as well as marketing ones**.
 Research calls are commonly treated as outside DNC rules, and almost nobody
 expects that.
+
+## Skip tracing
+
+**Examples:** DataSkip; DealMachine (skip trace bundled with property leads).
+
+Skip tracing is the business of locating a person who is *not readily locatable* —
+assembling current address, telephone, employment, relatives and associates from
+sources the subject never gave anything to. Three things need separate answers.
+
+**1. The relatives-and-associates graph is the product.** A skip-trace record does
+not merely describe you; it holds **edges** connecting you to household members,
+relatives, former co-residents and known associates. Those edges are personal
+information about you, and they are what makes the record useful. **Deleting your
+row while retaining you as a linked associate on someone else's record does not
+fulfil the request.** Ask for the links to go in *both* directions.
+
+**2. Suppression is the entire request.** The product exists to reassemble a
+person's whereabouts from continuously refreshed public and commercial sources. A
+one-time deletion is undone by the next refresh, and the confirmation reads
+identically either way. Insist on **forward-looking** suppression, and ask which
+list any retained identifier sits on.
+
+**3. Ask whether a report has been run.** Not *who* ran it — do not ask them to
+identify a user, which they will refuse and which invites a refusal of the whole
+question. Ask only whether a locate report on you exists in their logs, how many
+times, over what period. **A person who has been the subject of a skip trace has
+an obvious interest in knowing and no other way to find out.** If they decline,
+make them decline explicitly.
+
+Pair with the FCRA-in-the-alternative fallback: if some data is a consumer report,
+ask for the §609 file and its sources, deletion of anything held *outside* the
+regulated file, and non-FCRA suppression.
+
+**Search-key note:** an address history is not incidental to a skip-trace record —
+it *is* the record. Lead with it.
+
+## Pre-date / social screening
+
+**Example:** Date Detective.
+
+The defining feature: **the subject of a report is never the customer.** Any record
+was assembled so somebody else could read it, and the subject would never know it
+existed.
+
+**The ask that matters most is accuracy, not just deletion.** Reports of this kind
+routinely mismatch on common names. Supply your **date of birth deliberately** as
+the disambiguating field and ask directly: *has another person with my name had
+their records attached to my identifiers?* A false criminal or court record in a
+screening product does real and untraceable harm — the subject never learns why
+someone stopped replying.
+
+Also ask whether a report has been run (not by whom), and whether the service
+claims **FCRA** status. If it does not, note that it therefore must not be used
+for employment, tenancy or credit decisions — and ask which position they take.
+
+## Consultancies and other non-obvious registrants
+
+**Example:** Deloitte Consulting LLP.
+
+Occasionally a firm appears in a state broker registry that does not look like a
+data business at all. The letter almost writes itself, and the structure is
+reusable:
+
+**Concede every obvious deflection up front, so none of them can consume the
+reply.** For a professional services firm that is: processing on behalf of clients
+as a processor; HR and applicant records; privilege and audit-retention
+obligations. Grant all three in the first paragraph.
+
+**Then make the point they cannot answer with any of them:**
+
+> *"None of that explains a data broker registration. Registration is required of
+> an entity that sells or shares personal information about consumers with whom it
+> has no direct relationship. So: what activity caused this entity to register,
+> and does it involve personal information about me?"*
+
+**Pre-commit to accepting a one-sentence answer.** If the registration reflects a
+narrow activity that does not touch you, say you will take that and stop. It costs
+nothing, it makes the reply cheap to write, and it must be honoured.
+
+## Website-visitor identification
+
+**Example:** Dealfront / Leadfeeder.
+
+These products resolve website visitors from IP and related signals. Ask
+**carefully**, because the honest answer may genuinely be *company-level only* —
+and if it is, there is no personal information to delete.
+
+Three questions, in this order:
+
+1. Is any visitor record ever resolved to, or linked with, an **individual**
+   rather than only an organisation — by joining an IP or cookie to a contact
+   record, an email hash, or a device identifier?
+2. Are **IP addresses** retained, and linked to any identifier of yours?
+3. **If both answers are no, say so plainly — that is complete and will be
+   accepted.**
+
+The reason to ask this way: company-level and individual-level resolution are
+described in *very similar marketing language*, and the difference is the whole
+question of whether the product processes personal data at all. Asking accusingly
+gets a defensive non-answer; asking precisely gets a usable one.
+
+**If the vendor is EU-established** (Dealfront Finland Oy is), frame it under GDPR
+Articles 15, 17 and **21** — and if they rely on legitimate interests for B2B
+prospecting, state explicitly that the letter **is an Article 21 objection** and
+ask for the outcome. Offer CCPA or their own published policy in the alternative.
