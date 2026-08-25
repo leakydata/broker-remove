@@ -3033,6 +3033,61 @@ someone with a long identifier history. **The notification volume is the intake
 design, compounding.** Whoever set the per-request email rule never saw a case
 like this, and would probably not defend it if shown one.
 
+### Correction: we did not create these requests. PwC did.
+
+I twice assumed the parallel requests came from **our** side — that a form taking
+one identifier per submission had forced many near-identical submissions. That is
+the pattern recorded at `_SILENT_FAILURES.md` §101 and it fitted, so I reached for
+it.
+
+The mailbox says otherwise. **We sent PwC exactly one email**, on 19 August, and
+one follow-up today. There are **no submission confirmations at all** — nothing
+saying "we have received your request", which is what a portal sends when a
+consumer files one. Every message is *"a comment has been added to your request"*,
+about a request we never knowingly opened.
+
+And the arithmetic is hard to ignore. That single letter carried:
+
+| | count |
+|---|---|
+| email addresses | 12 |
+| prior postal addresses | 16 |
+| prior telephone numbers | 11 |
+| current address | 1 |
+| current telephone number | 1 |
+| **total identifiers** | **41** |
+
+Request IDs observed: **~35 and still arriving**, at a machine-steady 3.5-minute
+cadence.
+
+**The most likely explanation is that their intake decomposed one letter into one
+request per identifier.** I hold that as the best available reading rather than a
+finding — §66 applies, and a mechanism that would explain the evidence is not
+thereby the cause of it. But it fits the count, the absence of confirmations, the
+cadence, and the fact that only one letter was ever sent.
+
+### Why this inverts the lesson
+
+§101 and the earlier part of this section describe **the consumer** being forced
+into many requests by a one-value-per-field form. This is the same data model
+**on the receiving side**, and it is worse in an interesting way:
+
+- the consumer did exactly the right thing — one letter, every identifier listed,
+  explicitly asking that each be searched;
+- the recipient's system could not hold that shape, so it fanned it out;
+- the fan-out then generated ~41 notifications, ~41 portals, and ~41 comment
+  threads, **for one person making one request**.
+
+Nobody chose this. No individual at PwC decided to send forty emails. The intake
+design multiplied a single well-formed request by the requester's identifier
+count, and the requester's identifier count is high precisely because they have a
+long history — which is precisely why they have records worth deleting.
+
+**The practical consequence is reassuring rather than alarming.** This is not our
+volume and cannot be read as abusive on our part: we sent one letter. It also
+means the consolidation ask is exactly right, and better founded than when I sent
+it — I asked PwC to merge requests that *their own system* created.
+
 ### If the comments turn out to be identical
 
 Check two or three before answering any. If a queue of requests from one person
