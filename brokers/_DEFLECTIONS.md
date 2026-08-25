@@ -2556,3 +2556,91 @@ that address" is entirely compatible with holding its digest, and that is the
 difference between an opt-out that works and one that looks like it did.
 
 **Related:** §51 (grading a confirmation), §50.
+
+## §54 — "We don't collect personal data like name or email"
+
+LoopMe's autoreply, in full on the relevant point:
+
+> *"LoopMe is an advertising technology company that provides interest-based
+> advertising. We don't collect traditional forms of personal data such as
+> name/email address and therefore we are unable to action a request based on
+> this information alone. You can opt-out of interest-based advertising by
+> providing your Device ID on our opt-out page."*
+
+Read that sentence carefully, because it is almost certainly **true**, and it is
+almost certainly **not the whole picture**. In the advertising industry all of
+the following routinely hold at the same time:
+
+- the company receives **hashed** email addresses — MD5, SHA-1, SHA-256 — in bid
+  requests or from data partners;
+- it stores them as **match keys** against device, cookie and CTV identifiers;
+- it never sees or stores the plaintext, and can therefore say with a straight
+  face that it does not collect email addresses.
+
+Every clause of "we don't collect name or email" survives. And a hashed email is
+still personal information about the person it identifies — identifying them is
+its *only* function.
+
+### Why this is the most efficient deflection in the industry
+
+It does two jobs in one sentence. It sounds like a **privacy virtue** ("we never
+even see your email"), and it functions as a **jurisdictional exit** ("so we
+cannot act on what you sent us"). A consumer who accepts it at face value goes
+away satisfied and deleted, and nothing has been deleted.
+
+### The reply that gets past it
+
+Do not argue about whether they collect email addresses. Concede the sentence and
+ask the question it does not answer:
+
+> *"I accept that as stated. Please answer this directly rather than by reference
+> to the collection statement: does LoopMe hold, or receive from partners, hashed
+> forms of any of the email addresses or phone numbers listed in my first letter?
+> **You can determine this without my help — hash each of the twelve and check.**"*
+
+That last clause is the load-bearing one. It removes the only practical excuse
+for not answering. The company has the hashing function; the consumer supplied
+the inputs; no additional information is required from anyone.
+
+Then ask the two follow-ups that decide whether a deletion is real:
+
+- are the hashes **linked** to device, cookie or CTV identifiers, and will the
+  **links** be deleted rather than only the attribute rows? In an identity
+  business the graph is the product, and a record deleted while the linkage
+  survives is reassembled from the next bid stream;
+- if a hash is retained **for suppression**, say so and confirm it is used only to
+  keep me out and never to match me in. Do not object to a suppression hash —
+  object to not being told which list it sits in. The same string does opposite
+  work depending on the answer.
+
+### It arrived paired with the Device ID demand
+
+The same autoreply asks for a Device ID, which is the §MAID impossibility in
+`_CATEGORY_VARIANTS.md`: an identifier the person it describes cannot reliably
+read, and which may have been reset many times over the period the records cover.
+Any ID readable off a phone today will not match the historical rows; the ones
+that would match are exactly the ones the consumer has no way of knowing.
+
+The two deflections work as a pair, and it is worth naming that in the reply: one
+sentence says the identifiers you *can* supply are not held, the next says the
+only acceptable identifier is one you *cannot* supply. Between them there is no
+route in — **not because the consumer is being difficult, but by construction**,
+and equally for every consumer.
+
+So do not merely complain about it. Offer a concrete substitute and put the
+burden where the knowledge is:
+
+> *"I am not asking you to delete on an unverified guess... If that particular
+> method does not fit your systems, please tell me what would. I am asking you to
+> name a route that exists, not to waive the check."*
+
+### One genuinely useful thing in the autoreply
+
+It ended: *"If your email does not relate to the above, we will review and
+respond as necessary."* That sentence is a hook, and it is worth pulling on
+explicitly — open the reply by quoting it. It converts a canned response into a
+standing commitment to review, made by them, in writing.
+
+**Related:** §MAID material in `_CATEGORY_VARIANTS.md`; `_SILENT_FAILURES.md` §87
+(the identifiers that matched were the ones nobody would think to send).
+
