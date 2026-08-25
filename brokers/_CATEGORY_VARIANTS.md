@@ -1400,3 +1400,42 @@ nominates a `security@` mailbox. That is not obviously a privacy channel, so ope
 by saying so and asking for a forward rather than assuming it will be routed.
 See `_SILENT_FAILURES.md` §83 and §85 on registered contacts that are not
 consumer channels.
+
+
+## Real-estate investor lead platforms  (e.g. BatchLeads, PropStream, PropertyReach, Leadsherpa)
+
+A subtype of the property-data category above, and the asks differ enough to be
+worth separating. These products exist so investors and wholesalers can pull a
+list of owners and start dialling.
+
+**Concede the deed immediately** — same as the property variant. Deeds,
+assessments and mortgages are county records and no consumer can claw them back.
+A letter that ignores that invites a true and useless reply.
+
+**Then go for the append, which is the whole point.** The county published a
+property and an owner name. It did **not** publish the owner's mobile number.
+That number was skip-traced from somewhere else and bolted on, and it is what
+produces the calls and texts:
+
+> The deed is a county record I cannot claw back, but the phone number bolted
+> onto it is not a public record and is what produces the calls and texts. Please
+> tell me which of my telephone numbers and email addresses are attached to any
+> property record, and delete them.
+
+**Distress scoring is the ask with the sharpest edge.** Likelihood-to-sell,
+motivated-seller, absentee-owner, equity position, pre-foreclosure, financial
+distress. Worth naming plainly why it matters rather than listing it neutrally:
+**a distress score is a signal to contact someone precisely when they are least
+able to deal with being contacted.** That sentence lands, and it is true.
+
+**Exported lists are the operative copies.** The platform's purpose is bulk
+export. Ask how many times a record was supplied and to whom — a deletion at
+source leaves every downloaded CSV intact.
+
+**Do-not-call held independently of the property record**, and specifically
+**do-not-skip-trace**: these platforms re-run enrichment on demand, so a number
+deleted today is re-appended the next time somebody pulls that address.
+
+**Search every prior address.** A property record follows the address and an
+owner record follows the person, so the two diverge — a search limited to the
+current address finds the least interesting record and misses the rest.
