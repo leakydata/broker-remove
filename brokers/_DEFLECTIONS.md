@@ -3229,3 +3229,57 @@ for that explicitly rather than assuming it is allowed.
 
 **Related:** §57; `_SILENT_FAILURES.md` §101.
 
+## §60 — The ID demand that was never the policy
+
+Arity's automated message said identity could not be verified and pointed at an
+appeals form. The implication — and it is the implication almost every such
+message carries — was that a government-issued ID would be needed.
+
+I replied refusing to upload one, and asked **two specific questions**:
+
+> *"Could you tell me specifically what about my submission failed verification
+> (e.g. a mismatch between the name/phone/email I gave and what's on file), and
+> whether there is a less intrusive way to resolve it — confirming the last four
+> digits of the phone number on the account, or confirming the ZIP code on file,
+> for example?"*
+
+The answer:
+
+> *"**Arity does not require consumers to provide government identification** to
+> submit a 'Delete My Data' request... Our review found the **phone verification
+> step was not completed.**"*
+
+The blocker was a one-time passcode that had to be entered from *both* email and
+phone. That is all it ever was.
+
+### The lesson
+
+**An automated verification-failure message may not describe the company's actual
+policy.** It is a generic template fired by a rule, and the rule does not know why
+the check failed. Reading it as "they demand ID" and either complying or giving up
+would both have been wrong.
+
+Two things made the difference, and both are cheap:
+
+1. **Refuse the intrusive step and say why**, without treating it as final —
+   *"I would rather not submit a government ID, and I don't believe one should be
+   necessary."*
+2. **Ask what specifically failed, and offer to answer something narrower.**
+   Naming plausible alternatives — last four digits, ZIP on file — does the work
+   for them and shows you are trying to be verified, not to avoid verification.
+
+The reply that came back was more useful than a successful appeal would have been:
+it named the actual step, gave a second channel (a telephone number as well as the
+form), and put the no-ID position **in writing**, which is worth having on the
+record for any later exchange.
+
+### Do not stop at the refusal
+
+The instinct on seeing an ID demand is to object and wait. Objecting alone gets a
+restatement. **Objecting plus a specific question gets a specific answer** — and
+here that answer dissolved the problem entirely, because there had never been an
+ID requirement to argue about.
+
+**Related:** §48 (ID demanded after deletion was already done); `_SILENT_FAILURES.md`
+§104 (verification that cannot be met by construction).
+
