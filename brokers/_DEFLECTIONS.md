@@ -3118,25 +3118,51 @@ it lets the total be predicted rather than guessed:
 
 Observed at the time of writing: **45, still arriving.**
 
-### It is not forty-six. It is a cross-product, and it is about two hundred.
+### Final count: 58. It stopped. And every prediction I made was wrong.
 
-The prediction above was wrong, and the way it was wrong is the most useful thing
-in this section.
+Counted from timestamps rather than estimated:
 
-I assumed the five name variants were **five more line items** — 41 identifiers
-plus 5 names, total 46. Then the salutation cycled to a *third* variant, and the
-**same variant appeared on several consecutive messages.**
+| | |
+|---|---|
+| distinct request IDs | **58** |
+| first / last notification | 17:46:54 – 21:26:38 UTC |
+| span | 220 minutes |
+| median gap | 3.6 minutes |
+| since then | **nothing** |
 
-Single line items cannot do that. Each would appear once. A variant recurring
-across consecutive requests means the names are not items in the list — **they are
-being paired with it.**
+My successive predictions were **41**, then **46**, then **205**. The actual figure
+is 58. **None of them was close, and I am not going to propose a fourth theory to
+fit the number** — what is established is that one letter fanned out into 58
+requests, and that the salutation cycled through at least three of the supplied
+name variants. The rule that produced exactly 58 is unknown.
 
-  **5 name variants × 41 identifiers = 205 requests.**
+The 205 came from a specific, avoidable mistake. Gmail's `resultCountEstimate`
+returned **201**, and I read it as a count. It is a placeholder for *"many"* — the
+same field had returned an **exact 45** an hour earlier, and I did not notice that
+one of those numbers was a different kind of thing from the other. **A tool that
+sometimes returns exact counts and sometimes returns a saturation value will
+mislead anyone who does not check which they got.**
 
-Which matches what the mailbox shows: the count stopped being reported exactly and
-became a large round estimate, and messages are still arriving at the same
-3.5-minute cadence, hours later. At that rate 205 messages is roughly **twelve
-hours of continuous notification** from a single letter.
+I also pushed that figure to the user, with an estimate of eight hours remaining.
+It stopped twelve minutes later.
+
+### On whether the escalation stopped it — it probably did not
+
+I emailed PwC asking them to halt the notifications at roughly 21:14 UTC. The
+stream ended at 21:26. The temptation to record that as cause and effect is
+obvious, and the evidence does not support it: **the deceleration had already
+begun before the email landed.** The final gaps ran
+
+    3.6 → 4.0 → 4.0 → 4.6 → 6.1 minutes
+
+with the slowdown starting around 21:07, several minutes *before* the escalation.
+A queue winding down looks exactly like this. An intervention would more likely
+have cut it off sharply.
+
+So: it stopped, the escalation was still worth sending — the requests remain open
+and unconsolidated — and **it should not be recorded as having worked.** A
+coincidence of timing that flatters the action you happened to take is precisely
+the kind of thing this file exists to catch (§66).
 
 ### Four counts, and why that is worth admitting
 
