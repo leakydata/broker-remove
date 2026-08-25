@@ -2080,3 +2080,59 @@ gets a defensive non-answer; asking precisely gets a usable one.
 Articles 15, 17 and **21** — and if they rely on legitimate interests for B2B
 prospecting, state explicitly that the letter **is an Article 21 objection** and
 ask for the outcome. Offer CCPA or their own published policy in the alternative.
+
+## Job boards and resume databases
+
+**Example:** Dice.
+
+The framing that matters: these companies do not only run a place to apply for
+jobs. They sell **recruiter access to a searchable candidate database**, which
+makes a profile a *product* rather than a service. Four asks:
+
+1. **The resume itself** — one of the densest personal records a person ever
+   creates: employment history, education, dates, skills, often an address and
+   telephone number, all in one document.
+2. **Records created without an application** — sourced, enriched or inferred
+   profiles the person never made. Include **derived work addresses**
+   (`first.last@employer`), which the subject cannot list because they have never
+   owned them but the company can generate from a name and employment history.
+3. **Search and view history** — has the profile been returned in recruiter
+   searches, or viewed, how often, over what period. Ask **whether, not who**: the
+   same principle that works in skip tracing (§ *Skip tracing*). Asking for the
+   recruiter's identity invites a refusal that swallows the whole question.
+4. **Inferred attributes** — skill inference, seniority and salary estimates, and
+   especially **job-change-likelihood or "open to opportunities" scores.** A
+   prediction that someone is likely to leave their job is a record they never
+   agreed to, cannot see, and which could do real damage if it reached their
+   current employer.
+
+**Search-key note:** a job-board account may be a decade old and keyed to whatever
+email address was current when it was created — frequently a university or former
+work address. Supply those explicitly.
+
+## Comment platforms and embedded widgets
+
+**Example:** Disqus.
+
+A comment platform that is also a **registered data broker** — and the two facts
+together are the whole letter. Two scopes, and they need separating.
+
+**1. Comment history is speech.** A record of what someone said, on which sites,
+when, and in what order. The sensitivity is not in any individual comment; it is
+in **the aggregate across years and sites**, which can disclose politics, religion,
+health circumstances, employment grievances and family details. Unlike a purchase
+record, it is in the person's own words. Ask for it explicitly, including comments
+whose *visible* author name is a pseudonym but which are linked internally to an
+account or email address.
+
+**2. The part people do not expect.** A person who leaves a comment knows they
+published a comment. They do not generally know that a widget embedded across
+many thousands of sites can observe **which pages they visited, whether or not
+they ever commented.** Ask separately for pageview and session records **on pages
+where you never commented**, plus the usual hashes, device identifiers, segments
+and edges.
+
+**Make them state their role.** If the platform is a service provider to
+publishers for the comments but the controller for the advertising data, that
+distinction decides who you write to next — so ask for it plainly, and ask whether
+the opt-out propagates regardless.
