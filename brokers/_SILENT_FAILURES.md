@@ -5231,3 +5231,90 @@ Two habits follow:
 
 **Related:** §87, §96, §101.
 
+## §104 — Proving you control a mailbox that no longer exists
+
+Proxima's verification notice, which is otherwise one of the better ones received:
+
+> *"We reserve the right, where allowed by law, to take steps to confirm that you
+> are the owner/controller of all email addresses you provide in connection with a
+> request."*
+
+The purpose is sound and should be conceded immediately: a company should not
+delete a stranger's records because someone typed their address into a form.
+
+But applied strictly, the rule is **unmeetable for exactly the identifiers that
+matter.**
+
+### The two directions run opposite
+
+Of the twelve email addresses in this project, several are mailboxes that cannot
+be accessed by anyone:
+
+- a university account closed on leaving the institution;
+- addresses at `webtv.net`, `iwon.com`, `gateway.net` — **providers that no longer
+  exist.** Nobody can demonstrate control of a mailbox at a company gone for
+  twenty years.
+
+And those are the ones that match. BDEX searched all twelve and found **four — every
+one a dead mailbox, none of the current addresses** (§87).
+
+So:
+
+| | can prove control | likely to match |
+|---|---|---|
+| current addresses | **yes** | rarely |
+| dead mailboxes | **no** | **frequently** |
+
+A verification rule of *prove you control each address* therefore admits the
+identifiers least likely to be in the data and excludes the ones most likely to
+be. It is the same shape as the MAID demand (`_DEFLECTIONS.md` §54): a requirement
+that is unmeetable **by construction** rather than by reluctance, and unmeetable
+for everyone equally.
+
+### Do not just object — offer three substitutes
+
+Objecting alone gets you nowhere, because the company's concern is legitimate.
+Offer alternatives that preserve the protective purpose:
+
+1. **Confirm the live ones individually** — reply from each address you still
+   control. Cheap, and it settles that subset completely.
+2. **Corroborating identifiers for the dead ones** — date of birth, prior postal
+   addresses, prior telephone numbers. Not proof of mailbox control, but a set a
+   stranger would not hold together.
+3. **Confirm-before-delete** — the strongest, and the one to lead with:
+
+   > *"If a dead address matches something in your data, tell me what you found —
+   > the approximate record date, the associated postal address or telephone
+   > number — and I will confirm it is mine before you delete anything."*
+
+   This **protects any third party completely**, because nothing is removed until
+   the requester verifies the match, and it uses only information the company
+   already holds. It is the email-address analogue of the geographic query offered
+   to location brokers.
+
+### Then close the gap explicitly
+
+> *"If none of those is acceptable and you can only act on addresses whose control
+> I can demonstrate today, please say so plainly. I will accept it and record it
+> as the scope of what was done — but I would like it stated, rather than have the
+> dead addresses quietly fall out of the request."*
+
+That last clause is the point. Without it, the likely outcome is not a refusal but
+a **silent narrowing**: the request is honoured for the addresses that verified,
+the others are never mentioned again, and the confirmation reads exactly as it
+would have if everything had been searched.
+
+**Related:** §87, §96, §103; `_DEFLECTIONS.md` §54.
+
+### A company that solved this in one sentence
+
+Disqus, unprompted, in a routine support reply:
+
+> *"If the account you are looking to remove is registered with an email address
+> that you no longer have access to, **please mention that in your request**."*
+
+That is the whole fix. It costs one sentence, it requires no new process, and it
+tells the person with the twenty-year-old mailbox that their case is anticipated
+rather than disqualifying. Worth quoting to any company that raises the control
+requirement.
+
