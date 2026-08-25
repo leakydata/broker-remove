@@ -1601,3 +1601,126 @@ when the gift or enrolment was recorded. A `.edu` address and the postal
 addresses contemporaneous with the affiliation are the highest-value keys here —
 flag which prior addresses map to that period, since it narrows the search for
 them.
+
+## Political data / voter file enrichment
+
+**Example:** Catalist.
+
+**What they hold.** A national voter file — registration status, party where the
+state records it, and vote history — joined to purchased commercial data and then
+scored: partisanship, ideology, turnout likelihood, issue support,
+persuadability.
+
+**The deflection to expect, and it is half right.** Registration and vote history
+are public records in most states. The company did not create them and cannot
+unmake them at the county or state level. Conceding this immediately is what
+makes the rest of the letter answerable.
+
+**What the concession does not cover, and this is the whole ask.** The modelled
+scores are not public records. No election authority holds a persuadability score.
+They are inferences the company generates, they are personal information under
+CCPA/CPRA, and they are the part of the file a person can neither see nor correct
+anywhere. Neither is the commercial append — household composition, income or
+wealth estimates, lifestyle segments, and phone numbers and email addresses that
+came from no registration form. Nor is the identity linkage joining the voter
+record to hashed emails and device IDs for advertising.
+
+**Ask for three things separately** so the public-record answer cannot swallow
+the letter:
+1. modelled scores, by name;
+2. commercial append **and its suppliers** — then write to those suppliers;
+3. identity linkage to online identifiers, edges included.
+
+**Search-key note.** A voter file is address-history-keyed by construction. It
+will hold superseded registrations under prior addresses. Lead with the address
+history and say explicitly that superseded registration records are in scope.
+
+**Why it matters more than most.** A score about a person's politics, built
+without their knowledge and sold on, is among the records people are most
+surprised to learn exists.
+
+## Search-intent data
+
+**Example:** Captify (Verve).
+
+**What they hold.** What people typed into search boxes across a publisher
+network, turned into keyword and intent segments keyed to cookie and device IDs.
+
+**The argument that distinguishes this category.** Search queries are **content,
+not metadata**. A record of what someone searched for can disclose health
+concerns, financial difficulty, legal trouble, relationships and beliefs — none
+of which the person intended to publish, and all of which they would have
+described as private had anyone asked. Say so, ask for stored query text,
+query-derived keywords and intent segments by name, and ask specifically whether
+any segment touches health or financial condition. A company that would quietly
+delete a row may still tell you a sensitive segment existed if you ask about it
+directly.
+
+**Otherwise** it is a standard identity-graph letter: a name search returns
+nothing, so ask for hashes, cookie/MAID/CTV IDs, household-IP linkage, and the
+edges.
+
+## Creator / influencer intelligence
+
+**Example:** Captiv8.
+
+**What they hold.** Profiles of people who post publicly, with audience
+demographics, engagement metrics, estimated earnings, brand affinity and reach
+scores.
+
+**The deflection to expect:** "it came from a public profile."
+
+**The answer.** A public post is a thing *you* published. A scored, ranked,
+searchable dossier assembled from thousands of them and sold to brands is a thing
+*they* created. The scores — audience composition, engagement quality, estimated
+rates, brand fit — exist nowhere but in their database and were never published
+by anyone. Ask for those by name, separately from the collected fields.
+
+**Search-key note.** Records are keyed to **social handles**. Say so and ask them
+to search handles, not only names and emails, or a truthful "no records found"
+will come back while the profile sits untouched.
+
+## Dealer management systems / automotive retail
+
+**Example:** CDK Global.
+
+**The deflection to expect, and it is largely right.** They supply software to
+dealerships and process each dealer's data on that dealer's behalf. Concede it;
+you are not asking them to alter a dealership's system of record.
+
+**The question that survives the concession:** then why is the company a
+*registered data broker*? Somewhere data leaves the processor role. Ask for:
+cross-dealer consolidated profiles joining service and purchase history from
+multiple dealerships into one consumer record; in-market-shopper and
+equity-mining products built from it and licensed onward; identity linkage to
+advertising identifiers; and VIN-linked ownership and service records.
+
+**Why it is worth the letter.** Automotive data is a category people rarely
+realise is traded, and it is unusually durable — a service visit from a decade
+ago outlives the car, and the record is keyed to whatever address and phone
+number were current at the time.
+
+## Card-linked / purchase-history marketing
+
+**Example:** Catalina Marketing; Bridg (Cardlytics).
+
+**Concede first:** the underlying transactions belong to retailers, manufacturers
+or banks, and those are their systems of record.
+
+**Then ask for what the company itself builds:** the *linked shopper identity*
+that ties purchases across visits and across retailers into one person. That
+linkage exists in no single retailer's file. It is what turns transactions into a
+profile, and it is theirs.
+
+**The search-key problem is acute here.** Records are keyed to loyalty-card
+numbers, frequent-shopper IDs, or retailer-issued household keys. The consumer
+cannot supply any of them. Say that plainly and **ask what they can accept
+instead** — putting the burden where the knowledge is, rather than letting an
+unmeetable identifier requirement quietly end the request.
+
+**Ask for the sensitive inferences by name:** dietary, health-adjacent,
+household-composition, income and life-stage. Purchase data is unusually
+revealing about exactly those.
+
+**Verification note.** Payment-adjacent brokers tend to ask for a card number or
+its last four digits. Rule that out in advance, in the first letter.
