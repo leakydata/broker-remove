@@ -818,6 +818,38 @@ filing and not present in any broker list used here.
 
 ---
 
+## Appendix: the ticket that arrives from a company you did not write to
+
+A request to `privacy@beeswax.com` was acknowledged by
+**`ccpa-consumer@freewheel.zendesk.com`** — FreeWheel, the Comcast/NBCUniversal
+ad platform that acquired Beeswax. Nothing in the letter mentioned FreeWheel and
+nothing on beeswax.com had to.
+
+**The acknowledgement is the disclosure.** A parent that has consolidated its
+rights handling answers from the parent's help desk, because that is where the
+queue lives. So the reply address on an autoresponder is a corporate-structure
+signal available for free, immediately, on the first exchange.
+
+This is the same shape as the OneTrust request ID appearing under two brands
+further down, and it has the same strength: it proves a **shared privacy
+operation**, not necessarily a shared database. Ask rather than assert:
+
+> Does a suppression recorded here cover [the brand I wrote to] and [the parent],
+> or are these separate datasets requiring separate requests?
+
+**Record the ticket reference against the brand you wrote to, not the parent.**
+The reference belongs to the request you made; filing it under the parent loses
+the connection to the letter that produced it.
+
+**Watch for the scope widening on its own.** FreeWheel's acknowledgement covered
+*"access to and/or deletion of personal information"* — broader than the request
+as sent. A consolidated desk often runs one process for every right, which means
+a deletion request can return an access response, and the reply may cover data
+the original brand never held. That is a bonus rather than a problem, but read
+the eventual answer for **which entity's data it describes**.
+
+---
+
 ## Appendix: the acquisition named in the mailbox itself
 
 Azerion's registered contact is **`dpo_hybridtheory@azerion.com`** — the local
