@@ -1116,6 +1116,19 @@ Then the asks that hold **whatever the answer is**:
 - **The processor escape hatch**, offered as acceptable: if you act only for
   clients, say so, name them, pass it on.
 
+**Cite the BDEX result when asking them to search prior identifiers.** The
+instruction "search every address, not only the current ones" reads as boilerplate
+and is easy to skim past. One concrete result makes it an argument:
+
+> Another identity-data company ran my full twelve-address list this week and
+> reported that four matched — and all four were addresses at providers that no
+> longer exist. Not one currently-used address matched. Records keep whatever
+> identifiers were current when the data was acquired, so the abandoned ones are
+> the live keys.
+
+That converts a request into a reason, and it pre-empts the search that would
+otherwise return a truthful nothing. See `_SILENT_FAILURES.md` §87.
+
 **Cite a precedent for the suppression ask.** The do-not-add-on-null-result
 request is the one most often refused on the reasoning that there is nothing to
 suppress. Naming a company that did it anyway converts the ask from a favour into
