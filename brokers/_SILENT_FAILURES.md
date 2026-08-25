@@ -3965,6 +3965,32 @@ a legally nominated address, not a demonstrated working consumer channel.** Both
 affected rows now carry `registry_verified_unmonitored` and point at the live
 address instead.
 
+### What to do when the filed contact is a person, not a desk
+
+A large share of registry filings publish an individual's work address — a named
+employee, a `dev@`, an `admin@`. Writing to one of those is not wrong; it is the
+only contact the company has published, and off-channel submission is
+contemplated by CCPA Reg §999.312(e)(2). But the letter arrives in the inbox of
+someone who did not expect it and may have no idea what to do with it, and the
+cheapest thing for them to do is nothing.
+
+Opening the letter by saying **where the address came from and what you want done
+if it is the wrong desk** costs three sentences and removes that excuse:
+
+> *"I have used this address because it is the contact your company published in
+> its data broker registration filing; if it is not the right desk, I would be
+> grateful if you would forward this internally rather than discard it, and tell
+> me where to write in future. If the filing is out of date, correcting it would
+> spare the next person this step."*
+
+It does three things at once: it explains an otherwise baffling email, it names
+forwarding as the expected action rather than leaving the recipient to invent
+one, and it asks for a correction that benefits everyone who writes after you.
+The last clause matters — a stale filing is a defect the company can fix once,
+and the person reading your email is often exactly the person who filed it.
+
+**Related:** §83, §85.
+
 ### The good version of the same thing
 
 Blackbaud's registered contact also refuses requests, but the refusal is
