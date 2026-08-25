@@ -4714,6 +4714,50 @@ so the honest use of it trips the bot protection) rather than defending it.
 the evidence that it works: a company given three distinct questions answered
 three distinct questions.
 
+### The confirmation wording worth quoting back at people
+
+Speedeon's, in full:
+
+> *"We have fulfilled your request to delete/opt-out. As you have asked to be
+> deleted/opted-out please note that we are required by law to maintain a log of
+> your request. Also, **we will retain your name and address on our Privacy
+> Suppression file to ensure that we continue to delete your records from any new
+> data files we receive from our vendors.**"*
+
+Three sentences, and the last one does the work of a whole correspondence:
+
+1. **The suppression is forward-looking** — applied against *incoming vendor
+   files*, not a one-time clear of what they hold today. In a compiled-data
+   business that is the difference between a removal and a pause.
+2. **It says what is retained and why**, so the recipient does not have to ask
+   which of the two lists it sits on. No guessing whether a retained identifier is
+   protecting them or matching them.
+3. **It explains the request log** as a legal requirement rather than leaving an
+   unexplained retention to be discovered later.
+
+Most confirmations say "your data has been removed" and stop, which is compatible
+with almost any subset of the work having been done. **This one is checkable.**
+Worth quoting to other companies as the model — it costs them one extra sentence
+and removes three rounds of follow-up.
+
+### But check the key it is suppressed on
+
+Speedeon retains *"your name and address"* — singular. Sixteen addresses were
+supplied.
+
+A compiled consumer file is built on **address history**, and incoming vendor
+records routinely carry a person under an address they left years ago. A
+suppression matching only the current address lets precisely those records
+through — the ones most likely to exist. So the scope question is worth asking
+even of an excellent confirmation, and it is a question about **scope, not
+sincerity** (§99): *is the entry keyed to the full history, or to current details
+only?*
+
+Same failure shape as §96, arrived at from the opposite direction: there, an
+enumeration revealed an omission; here, a **singular noun** reveals a possible
+one.
+
+
 ## §97 — The best tool in the country is available in one state
 
 Datasys's General Counsel refused email by name — *"Sending a request to this
