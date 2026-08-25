@@ -4518,3 +4518,52 @@ mistake while being careful. It was caught because the summary count moved by on
 in the wrong direction. **Watch the aggregates for movement you did not intend** —
 they are frequently the only witness to this kind of error.
 
+## §94 — Two agents on one queue
+
+Partway through a run I found sends in the mailbox I had not made — four letters
+and several replies, timestamped after my last batch. I checked for a cron entry,
+a systemd timer, and other session files in the project directory. All three came
+back empty, so I recorded the sends as *"most likely by the account owner working
+the queue by hand."*
+
+That was wrong. A `git push` was then rejected as non-fast-forward, and the
+missing commit was **authored by Claude** — another session working the same
+repository, fixing bounced addresses and sending its own outreach batch.
+
+**The error was in the inference, not the evidence.** Every check I ran was
+accurate. I just did not check the git remote, which is exactly where the answer
+was, and then treated absence of evidence in the places I *had* looked as evidence
+of absence. The same fault as §66: a mechanism that would explain the evidence is
+not thereby the cause of it. I even wrote the wrong conclusion into five broker
+notes before the push failure corrected me.
+
+### What actually protects against collision here
+
+Worth being precise, because the risk sounds worse than it is:
+
+- **`data/removal_status.json` is gitignored and local.** Both sessions on the
+  same machine read and write the same file, so `queue_batch.py`'s
+  already-has-an-open-thread guard sees the other session's work. Duplicate
+  letters to one broker are prevented by that, not by luck.
+- **The daily cap is read from the same file**, so the two sessions share one
+  budget rather than each spending a full one.
+- **Git is where they actually collide**, and git says so loudly — a rejected push
+  is a good failure. Rebase, resolve, continue.
+
+### Resolving the overlap
+
+Both sessions had written `brokers/datafy.md`. Theirs was the better file: they
+made the send, and their note read more precisely than my scaffold. So I took
+theirs wholesale rather than merging two descriptions of one event, and changed
+only the status line, which said `email_pending` where nothing was actually
+waiting on a confirmation link.
+
+**Take the other agent's version when they did the work.** Merging two accounts of
+the same action produces a record that reads as two actions.
+
+### The rule
+
+**When you find work you did not do, check the remote before theorising.** It is
+one command, it is authoritative, and it beats an inference built from three
+negative local checks.
+
