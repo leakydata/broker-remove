@@ -3088,6 +3088,61 @@ volume and cannot be read as abusive on our part: we sent one letter. It also
 means the consolidation ask is exactly right, and better founded than when I sent
 it — I asked PwC to merge requests that *their own system* created.
 
+### The salutation gave it away
+
+Partway through the stream the greeting changed. Earlier messages opened with the
+subject's **full name**. Later ones open with an **initialised short form** —
+`[initial] [surname]`.
+
+That short form is not a mistake. It is one of the **name variants** our letter
+listed under "Also known as", where five spellings of the same name were supplied
+so that each could be searched.
+
+So each request carries whichever item from the letter it was built from, and the
+salutation is rendered from that request's own record. **A system that had simply
+received many requests from one person would not change how it addresses them
+mid-stream.** One that built a request per line item would.
+
+That moves the decomposition from a plausible reading to a well-evidenced one, and
+it lets the total be predicted rather than guessed:
+
+| item type in the 19 Aug letter | count |
+|---|---|
+| email addresses | 12 |
+| prior postal addresses | 16 |
+| prior telephone numbers | 11 |
+| current address | 1 |
+| current telephone number | 1 |
+| **name variants** | **5** |
+| **total** | **46** |
+
+Observed at the time of writing: **45, still arriving.**
+
+### Three counts, and why that is worth admitting
+
+I reported this as **eight**, then **twenty-seven**, then **forty-five**. The first
+two were not cautious estimates that grew — they were **wrong numbers stated
+plainly**, because I read one page of results and did not paginate, and then did
+not re-check before writing the second.
+
+The cost was not embarrassment. It was that each number went into a handoff, and a
+handoff is a set of instructions someone else acts on. *Work through eight
+portals* and *work through forty-six portals* are not the same task; they are not
+even the same **kind** of task. At eight, grinding through is reasonable. At
+forty-six, grinding through is the wrong move and the right move is to make the
+sender consolidate.
+
+So the handoff has been rewritten a third time and **changed from a click task to a
+decision task**, because that is what it now is:
+
+> Do not open forty-six portals. Wait on the consolidation email. If no reply,
+> open **two**, compare the comment text, and if identical answer once by email
+> citing every ID.
+
+**When a number is load-bearing for someone else's work, count it properly or say
+you have not.** An estimate labelled as an estimate would have caused no harm here.
+A confident wrong number caused two bad handoffs.
+
 ### If the comments turn out to be identical
 
 Check two or three before answering any. If a queue of requests from one person
