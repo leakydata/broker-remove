@@ -1491,3 +1491,56 @@ inferences rather than facts.
 storage is cleared or the device is replaced, and does nothing about server-side
 records keyed to a hashed email. Say so before they say it, so the reply has to
 engage rather than redirect.
+
+
+## Health-adjacent brokers: ask what they are before writing
+
+A broker whose name suggests health, life sciences or biotech should get a
+**categorisation question first**, not a health-data letter. The name may mean
+patient data, prescriber data, clinical trial records, or nothing medical at all
+— and each needs a different request.
+
+  1. Health, condition, treatment, medication or diagnosis data, or anything
+     **inferred** about health from other signals.
+  2. Healthcare **professional** data — prescribers, practitioners, affiliations.
+  3. Clinical trial, patient registry or research participation records.
+  4. Consumer contact or marketing records with no health dimension.
+  5. Something else.
+
+**Why the branches matter.**
+
+**On (1), ask specifically whether any health attribute is inferred rather than
+reported.** This is the sharpest question in the category. An inference is neither
+verifiable nor correctable by the person it describes, it can simply be wrong, and
+it is acted on by insurers, employers and advertisers who never see the
+uncertainty. Say why it matters rather than listing it neutrally:
+
+> Health information is the category where a general assurance tells a person
+> least and where being wrong costs most — an inferred condition attached to a
+> name is acted on by others, and the person it describes never sees it.
+
+**On (2), a hit is a misattribution, not a privacy problem.** If the subject is
+not a healthcare professional, a prescriber record bearing their name is a wrong
+record about someone — and **correction matters as much as deletion**, because a
+wrong record can be acted on by a third party. Say so explicitly; it changes what
+you are asking for.
+
+### Pre-empt the HIPAA deflection
+
+Expect "this is health data, HIPAA governs it, your state request does not
+apply". Answer it before it arrives, and concede the legitimate part:
+
+> If you consider any of this data to be covered by HIPAA rather than state
+> consumer privacy law, please say so and identify which elements. That is a
+> legitimate distinction and I will not argue it — but I would note that data
+> held by a broker outside a covered entity or business associate relationship is
+> generally not HIPAA-protected, which is precisely why a consumer request is the
+> only route available to me.
+
+That is accurate, it is not adversarial, and it closes the escape route without
+accusing anyone of trying to use it.
+
+**Also invoke the sensitive-data right.** Several state statutes treat health
+information as sensitive personal information with a separate right to **limit
+its use and disclosure**, which survives independently of a deletion right. Ask
+for both.
