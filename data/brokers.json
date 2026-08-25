@@ -1554,15 +1554,16 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "contact@join5x5.com",
-      "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_to": "contact@5x5data.com",
+      "email_verified": false,
+      "email_verified_by": "domain_typo_corrected",
       "registry_years": [
         "2026"
       ],
       "legal_name": null,
       "duplicate_of": "five_by_five",
-      "notes": "Resolves to 5x5data.com, the same site as five_by_five. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the five_by_five thread rather than opening a second request."
+      "notes": "Resolves to 5x5data.com, the same site as five_by_five. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the five_by_five thread rather than opening a second request. The registered contact contact@join5x5.com is undeliverable - that domain publishes no mail records at all. Almost certainly a typo in the filing. Rewritten onto the broker's own domain; unverified until a reply arrives.",
+      "email_alt": "contact@join5x5.com (UNDELIVERABLE - domain has no MX and no A)"
     },
     {
       "id": "aberdeen",
@@ -2000,11 +2001,11 @@
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "adttribution",
-      "email_to": "hello@adttrbution.com",
-      "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
-      "email_alt": "hello@adttribution.com",
-      "notes": "Site publishes hello@adttribution.com; info@adttribution.com is more privacy-specific but appears nowhere on the site. Try the alternate if this goes unanswered. Registry keeps info@adttribution.com (purpose-built for this request type); the site publishes hello@adttribution.com, retained as a fallback.",
+      "email_to": "hello@adttribution.com",
+      "email_verified": false,
+      "email_verified_by": "domain_typo_corrected",
+      "email_alt": "hello@adttrbution.com (UNDELIVERABLE - domain has no MX and no A)",
+      "notes": "Site publishes hello@adttribution.com; info@adttribution.com is more privacy-specific but appears nowhere on the site. Try the alternate if this goes unanswered. Registry keeps info@adttribution.com (purpose-built for this request type); the site publishes hello@adttribution.com, retained as a fallback. The registered contact hello@adttrbution.com is undeliverable - that domain publishes no mail records at all. Almost certainly a typo in the filing. Rewritten onto the broker's own domain; unverified until a reply arrives.",
       "registry_years": [
         "2024",
         "2026"
@@ -3238,13 +3239,15 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "dpo@bisceince.com",
-      "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_to": "dpo@biscience.com",
+      "email_verified": false,
+      "email_verified_by": "domain_typo_corrected",
       "registry_years": [
         "2025"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "email_alt": "dpo@bisceince.com (UNDELIVERABLE - domain has no MX and no A)",
+      "notes": "The registered contact dpo@bisceince.com is undeliverable - that domain publishes no mail records at all. Almost certainly a typo in the filing. Rewritten onto the broker's own domain; unverified until a reply arrives."
     },
     {
       "id": "babel_street",
@@ -7608,14 +7611,15 @@
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "five-by-five",
-      "email_to": "contact@join5x5.com",
-      "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
-      "email_alt": "privacy@5x5coop.com",
+      "email_to": "contact@5x5coop.com",
+      "email_verified": false,
+      "email_verified_by": "domain_typo_corrected",
+      "email_alt": "contact@join5x5.com (UNDELIVERABLE - domain has no MX and no A)",
       "registry_years": [
         "2024",
         "2025"
-      ]
+      ],
+      "notes": "The registered contact contact@join5x5.com is undeliverable - that domain publishes no mail records at all. Almost certainly a typo in the filing. Rewritten onto the broker's own domain; unverified until a reply arrives."
     },
     {
       "id": "five_star_rated",
@@ -9089,13 +9093,15 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "chad@idengine.ai",
-      "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_to": "chad@idengine.com",
+      "email_verified": false,
+      "email_verified_by": "domain_typo_corrected",
       "registry_years": [
         "2024"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "email_alt": "chad@idengine.ai (UNDELIVERABLE - domain has no MX and no A)",
+      "notes": "The registered contact chad@idengine.ai is undeliverable - that domain publishes no mail records at all. Almost certainly a typo in the filing. Rewritten onto the broker's own domain; unverified until a reply arrives."
     },
     {
       "id": "idi",

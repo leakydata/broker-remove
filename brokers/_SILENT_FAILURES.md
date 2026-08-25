@@ -3966,3 +3966,69 @@ affected rows now carry `registry_verified_unmonitored` and point at the live
 address instead.
 
 **Related:** §64, §65, §78, §83.
+
+
+---
+
+## §86 A registered address is only as good as the typing
+
+B.I Science (2009) Ltd registered `dpo@bisceince.com` with California. Their
+actual domain is `biscience.com` — the `e` and `i` are transposed. The registered
+domain publishes **no MX and no A record**; the real one runs Microsoft 365.
+
+Nothing in the existing tooling caught it, and it is worth being precise about
+why. The address is well-formed. The local-part `dpo@` is a near-perfect privacy
+contact. The provenance is `ca_data_broker_registry`, which this project ranks as
+the strongest signal it has. **Every quality check passed except the only one that
+mattered: can anything be delivered there?**
+
+§83 and §85 already qualified registry provenance — a nominated contact may be
+the wrong desk, or an unmonitored batch mailbox. This adds the dumbest failure of
+the three and possibly the most common: **the filing has a typo in it.** These
+forms are typed by hand once a year.
+
+### What makes it invisible
+
+A domain with no mail records does not bounce immediately. The sending MTA cannot
+distinguish "this zone does not exist" from "the far end is briefly down", so it
+reports a **temporary delay** and retries for roughly 48 hours before the final
+failure. For two days the tracker reads `submitted` and the inbox shows a
+reassuring "Gmail will retry" notice. Same mechanism as §65, arriving through a
+typo rather than a lapsed registration.
+
+### The check, and what it found
+
+`check_email_domains.py` asks the crude question before the clever one: does the
+contact domain have an MX, or failing that an A record? One DNS lookup per
+broker, 959 distinct domains, and it surfaced **15 undeliverable contact
+addresses**.
+
+Five were repairable typos where the broker's own domain was live:
+
+| Registered | Actual |
+|---|---|
+| `dpo@bisceince.com` | `biscience.com` |
+| `hello@adttrbution.com` | `adttribution.com` |
+| `chad@idengine.ai` | `idengine.com` |
+| `contact@join5x5.com` | `5x5data.com` / `5x5coop.com` |
+
+The other ten had a dead contact domain **and** a dead company domain — no route
+by mail at all. Those were marked `unreachable` without ever being written to,
+which is the point: the check runs before the send, not after two days of silent
+retries.
+
+### The rules that fall out
+
+- **Check deliverability before spending a send.** It costs one DNS lookup and it
+  is the cheapest check in the project.
+- **Only suggest the broker's own domain if that domain can take mail.** Rewriting
+  onto a second dead domain achieves nothing and looks like progress.
+- **Never condemn on a failed lookup.** The checker returns `None` when `dig`
+  itself fails, and those rows are skipped rather than marked dead — guessing
+  "dead" is the expensive direction of this error.
+- **Report the typo to the broker.** They can amend the filing; a consumer
+  cannot. And the sentence that lands is not the complaint but the consequence:
+  *every person who looks you up in the state registry reaches nobody, and does
+  not find out for two days.*
+
+**Related:** §64, §65, §83, §85.
