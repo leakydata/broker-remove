@@ -3118,7 +3118,58 @@ it lets the total be predicted rather than guessed:
 
 Observed at the time of writing: **45, still arriving.**
 
-### Three counts, and why that is worth admitting
+### It is not forty-six. It is a cross-product, and it is about two hundred.
+
+The prediction above was wrong, and the way it was wrong is the most useful thing
+in this section.
+
+I assumed the five name variants were **five more line items** — 41 identifiers
+plus 5 names, total 46. Then the salutation cycled to a *third* variant, and the
+**same variant appeared on several consecutive messages.**
+
+Single line items cannot do that. Each would appear once. A variant recurring
+across consecutive requests means the names are not items in the list — **they are
+being paired with it.**
+
+  **5 name variants × 41 identifiers = 205 requests.**
+
+Which matches what the mailbox shows: the count stopped being reported exactly and
+became a large round estimate, and messages are still arriving at the same
+3.5-minute cadence, hours later. At that rate 205 messages is roughly **twelve
+hours of continuous notification** from a single letter.
+
+### Four counts, and why that is worth admitting
+
+I reported this as **eight**, then **twenty-seven**, then **forty-five**, then
+**about two hundred**. The first two were simply wrong — I read one page of
+results and did not paginate. The third was correct at the time. The fourth
+corrects a *reasoning* error rather than a counting one: I had the right data and
+drew the wrong structure from it, because "5 names" looked like five things.
+
+The cost was never embarrassment. Each number went into a handoff, and a handoff
+is instructions someone else acts on. These are not the same task:
+
+| stated scale | reasonable response |
+|---|---|
+| 8 portals | work through them |
+| 27 portals | ask for consolidation first, then work through |
+| 46 portals | do not start; make them consolidate |
+| **~205 portals, still growing** | **do not start; consolidate, telephone, and filter the inbox** |
+
+They are not even the same *kind* of task. So the handoff has been rewritten four
+times, and its final form adds two things none of the earlier versions had:
+
+- **telephone them.** This is now a volume problem their own system is generating,
+  and a call resolves it faster than email ever will;
+- **filter the inbox.** A rule on the sender stops ~200 identical notifications
+  drowning every other broker reply. None of them needs individual attention.
+
+**When a number is load-bearing for someone else's work, count it properly or say
+you have not** — and when a structure is load-bearing, check whether the thing you
+counted is a list or a dimension. Five names in a list is five. Five names crossed
+with forty-one identifiers is two hundred and five.
+
+
 
 I reported this as **eight**, then **twenty-seven**, then **forty-five**. The first
 two were not cautious estimates that grew — they were **wrong numbers stated
