@@ -4782,3 +4782,108 @@ form is not usable, what postal address may I write to?"*
 
 **Related:** §95; `_DEFLECTIONS.md` §56, §57.
 
+## §98 — Automation that routes, and automation that absorbs
+
+Two automated first replies, four hours apart, doing opposite things.
+
+**DemandScience** (`_DEFLECTIONS.md` §56) invited a reply — *"please reply with
+those business details"* — and then answered that reply with a byte-identical copy
+of itself, twelve seconds later, from an address sub-addressed `canned.response`.
+The follow-up was **consumed**.
+
+**DealMachine** replied:
+
+> *"I'm AI Support Assistant, DealMachine's AI Agent and I'm well trained to
+> answer your query but you can reply and ask for the team at any time. Your
+> request involves legal compliance matters that require careful handling by our
+> specialized team. A human agent will review your complete submission and respond
+> directly to [your address] with next steps. **You won't need to repeat the
+> details you've already provided.**"*
+
+Both are automation. The difference is not sophistication — it is what happens to
+the request.
+
+### What DealMachine's agent got right
+
+Four things, and each is worth naming because each is a decision somebody made:
+
+1. **It identified itself as an AI.** No pretence of being a person.
+2. **It recognised the limits of its competence.** A rights request is a legal
+   compliance matter; it did not attempt an answer.
+3. **It escalated, and said so specifically** — a named team, a stated next step,
+   and a reply promised to the same address.
+4. **It preserved the submission.** *"You won't need to repeat the details you've
+   already provided."* That single sentence is the whole difference. A long,
+   carefully assembled letter with twelve identifiers and prior addresses is
+   exactly the thing an autoresponder loop destroys.
+
+It also offered an override — *"you can reply and ask for the team at any time"* —
+so the human route does not depend on the AI having judged correctly.
+
+### The test to apply
+
+An automated reply is fine. **Ask only what happened to the request:**
+
+| | routes | absorbs |
+|---|---|---|
+| identifies itself | usually | sometimes |
+| escalates to a human | yes, named | no |
+| preserves what you sent | yes, says so | no |
+| a reply to it reaches a person | yes | no — loops |
+
+If the second automated message is identical to the first, it absorbs. If it names
+a next step and says your details are retained, it routes.
+
+**Do not treat "an AI answered" as a deflection in itself.** DealMachine's agent
+handled a privacy request better than most human-staffed mailboxes in this
+project: better than an unmonitored registered contact (§85), better than a dead
+person-addressed filing (§88), and far better than an invitation that eats its own
+acceptance (§56).
+
+## §99 — Honouring the pre-commitment when the answer is inconvenient
+
+Every letter in this project contains a version of this line:
+
+> *"I would rather have an accurate answer than a flattering one. If you hold
+> nothing about me, please say so — a clean 'no records found' is a useful and
+> acceptable reply, and I will not treat it as evasion."*
+
+True Blue Analytics replied, in full: **"We do not have your information on
+file."**
+
+That is a bare, unfalsifiable null — precisely the shape §91 argues is worse than
+an enumerated one. Nothing about it can be checked. I could have asked which
+identifiers they searched, whether prior addresses were included, whether the
+search was keyed to name or to something else. Every one of those questions would
+have been fair in the abstract.
+
+**It was recorded as `not_found` and closed, with no follow-up.**
+
+The pre-commitment exists to make honest answers cheap. A company that expects a
+null to trigger an interrogation has every incentive to send something vaguer and
+more defensible instead. **A pre-commitment honoured only when the answer is
+convenient is not a pre-commitment** — it is a rhetorical device, and the second
+time it is used on the same correspondent it will not work.
+
+There is also a plain-facts reason to accept this one. True Blue Analytics
+describes its work as serving progressive organisations and Democratic campaigns.
+A null for someone with no donation, volunteer or membership history with them is
+entirely plausible on its face. **Disbelief needs a reason, not just an
+opportunity.**
+
+### Where the line actually sits
+
+The follow-ups sent elsewhere in this project were not to *nulls*. They were to
+statements that **did not answer the question asked**:
+
+- LoopMe and Connatix and Cint said *"we cannot identify you by name or email"* —
+  which is not "we hold nothing", and my letters had asked about hashes, not
+  names.
+- BuiltWith said *"we do not hold data about social accounts"* — which is not
+  "we hold nothing about you".
+- Circana enumerated five cases and I asked about a sixth the list did not reach.
+
+Those are gaps in scope. A flat "we do not have your information on file" has no
+gap to point at — it answers exactly the question that was asked. **Press on
+scope, never on sincerity.**
+
