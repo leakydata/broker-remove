@@ -8,7 +8,7 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-18)
+- Current: `not_found` (updated 2026-08-25)
 - Note: Their only published privacy contact is ccpa@ - a mailbox named for one state. Opened by asking them not to treat the name of the mailbox as the scope of their obligations, and to put any residency-based refusal in writing (_DEFLECTIONS.md 23). Standard data-provider asks otherwise: hashed forms, permanent suppression, derived attributes, onward recipients, source.
 
 ## Steps

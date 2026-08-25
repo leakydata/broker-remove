@@ -7,23 +7,28 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-17)
+- Current: `not_found` (updated 2026-08-25)
 - Note: Statutory delete/opt-out request emailed, tailored to the broker's data category; opens with a first-party declaration. Awaiting reply.
 
 ## Steps
 
-<!-- Replace once the route is confirmed. What actually worked, in order. -->
+1. Email `privacy@decide.co`; `support@decide.co` answers.
+2. Ask explicitly **which identifier types were matched on** — see below.
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+**The null result does not say what was searched**,
+which at an identity-keyed company is the whole question: a name search and a
+hashed-email search produce the same sentence and mean opposite things. Ask
+which, and offer both readings as acceptable so the answer is cheap to give.
+
+**"Anonymous Mode" is offered as a remedy.** It is a browser-level tracking
+opt-out — device-scoped, dies when storage is cleared, and does nothing about
+server-side records keyed to a hashed email. Note it as separate and useful
+rather than a substitute, and point out that if they hold nothing there is
+nothing for it to switch off.
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+No public listing. A null result here is weak evidence until
+they say what they searched, so the follow-up question is the verification.

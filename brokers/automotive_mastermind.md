@@ -11,17 +11,29 @@
 
 ## Steps
 
-<!-- Replace once the route is confirmed. What actually worked, in order. -->
+1. Their CA-registered contact is `info@`; expect a Zendesk ticket
+   from `help@automotivemastermind.com`.
+2. Expect an immediate redirect to a form — and ask for the URL, because the
+   template does not include one.
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+**The redirect names two pages and links neither.** The reply
+directs you to "our California Do Not Share My Personal Information page" and
+"our Privacy Request Page" as plain text with no hyperlink behind either. The
+ticket is marked solved three minutes after opening, before the instruction can
+be followed. See `_DEFLECTIONS.md` §52.
+
+**They assert service-provider status.** Two counters that work: "we do not
+disseminate to the general public" answers a question nobody asked, since the
+concern is records supplied to *dealerships*; and a service provider must assist
+the controller, so the answer is "route it" rather than "no". Ask which
+dealerships hold a copy.
+
+**The scores are unambiguously theirs.** Whatever the processor analysis says
+about dealer-sourced records, a likelihood-to-buy or equity-position score is an
+inference aM generated. Asking about those sidesteps the controller argument
+entirely.
 
 ## Verification
 

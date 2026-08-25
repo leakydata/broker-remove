@@ -7,7 +7,7 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-22)
+- Current: `manual_required` (updated 2026-08-25)
 - Note: Statutory opt-out/deletion email sent 2026-08-22.
 
 ## Steps
@@ -22,14 +22,24 @@
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+**Email is refused outright** — *"Email alone
+is not sufficient to process an opt-out"* — and the ticket closes in the same
+minute the form redirect is sent.
+
+**The form is one address at a time.** Their own page says *"Submit multiple
+requests if you need to suppress more than one postal address, email address or
+phone number"*, and it sits behind an interactive Cloudflare challenge. Sixteen
+addresses means sixteen runs at a CAPTCHA, which is the `_SILENT_FAILURES.md` §84
+trap — the honest way to use the form is what trips its own bot protection.
+
+**So use the form once and email the rest.** They invite replies for help
+completing it, which is the opening: send the full identifier list and ask for
+one-pass application, explaining the anti-bot problem as the reason rather than
+as a complaint. The `ADD ANOTHER PHONE` / `ADD ANOTHER EMAIL` controls exist but
+kept resetting under automation — worth trying by hand.
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+No public listing. Their ticket closes immediately on the
+form redirect, so the only artifact is the form submission itself. Re-check by
+replying to the ticket thread and quoting the ticket number.

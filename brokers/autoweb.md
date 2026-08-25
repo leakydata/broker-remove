@@ -11,17 +11,19 @@
 
 ## Steps
 
-<!-- Replace once the route is confirmed. What actually worked, in order. -->
+1. Do not email — `autolegal@autoweb.com` autoreplies that email is
+   not a designated method.
+2. **Two forms are required**, because AutoWeb and Buyerlink share a privacy
+   desk: the AutoWeb OneTrust webform, and
+   `buyerlink.co/do-not-sell-or-share-my-personal-information`.
+3. Toll-free fallbacks: AutoWeb (800) 267-2015, Buyerlink 1-888-821-1041.
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+**The refusal autoreply is where the family surfaced.** It lists a
+form and a phone number for *each* brand, because a shared desk cannot know which
+one you wrote about. Nothing on either site announces the relationship. Read
+every "use our form instead" reply for the full list — see `_FAMILIES.md`.
 
 ## Verification
 

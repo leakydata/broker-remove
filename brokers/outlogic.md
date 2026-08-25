@@ -8,7 +8,7 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-20)
+- Current: `manual_required` (updated 2026-08-25)
 - Reference: Zendesk ticket `#187713`
 
 ## Steps

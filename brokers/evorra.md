@@ -8,7 +8,7 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-18)
+- Current: `confirmed` (updated 2026-08-25)
 - Note: Auto-acknowledged; a team member will reply.
 
 ## Steps

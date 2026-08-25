@@ -7,7 +7,7 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-22)
+- Current: `not_found` (updated 2026-08-25)
 - Note: Statutory opt-out/deletion email sent 2026-08-22.
 
 ## Steps
@@ -20,14 +20,17 @@
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+**They suppress on a null result without being
+asked**, and volunteer two things nobody requested: a reference code, and an
+appeal address (`privacy-info@01advertising.com`) for disputing the outcome.
+
+An appeal route offered unprompted is rare and worth noting — most negatives in
+this project arrive with no way to contest them, so a wrong one is simply final.
+Cite this broker when asking others to record a suppression despite finding
+nothing; it is one of three that did so in a single day.
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+No public listing. The artifact is the reference code they
+issue unprompted — quote it in any follow-up. They also volunteer an appeal
+address, so a disputed negative has a named route rather than a dead end.

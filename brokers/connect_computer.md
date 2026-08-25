@@ -12,21 +12,26 @@
 
 ## Steps
 
-<!-- Replace once the route is confirmed. What actually worked, in order. -->
+No route exists. Both the registered contact domain and the company's
+own domain publish no MX and no A record, so nothing was ever sent.
+
+If the domain is ever reinstated, or a successor entity files a later state
+registration under the same legal name, re-run
+`scripts/check_email_domains.py` and the route reopens.
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+**Do not "just try it".** A domain with no mail records produces a
+*delayed delivery* notice and roughly 48 hours of retries before failing, so a
+letter here would sit at `submitted` for two days and teach nobody anything. That
+is the whole reason the deliverability check runs before the send rather than
+after — see `_SILENT_FAILURES.md` §86.
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+Nothing to verify. Re-check the domain periodically; a dead
+domain can mean a lapsed registration, a wound-up company, or a rebrand that left
+the filing behind, and only the last of those reopens.
 
 
 ## Unreachable: no mail route exists

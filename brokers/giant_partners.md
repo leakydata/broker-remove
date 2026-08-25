@@ -8,7 +8,7 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-18)
+- Current: `confirmed` (updated 2026-08-25)
 - Note: Data/multichannel marketing. Standard suppression-not-deletion ask plus one specific to their channels: add the phone numbers to internal do-not-call and do-not-text suppression lists AS WELL AS deleting the record, because deletion alone can remove the suppression along with the record - the perverse case where a number becomes eligible again precisely because it was deleted.
 
 ## Steps

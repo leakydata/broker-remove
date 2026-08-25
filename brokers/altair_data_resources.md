@@ -7,21 +7,39 @@
 
 ## Status
 
+- Current: `confirmed` (updated 2026-08-25)
+
 - Current: `pending`
 
 ## Steps
 
-<!-- Replace once the route is confirmed. What actually worked, in order. -->
+1. **Do not email.** The contact in their California registration is a
+   business-development address and they will decline under CCPA Reg
+   §999.312(e)(2), citing an undesignated submission method.
+2. Use the Jira portal: `datacloudhome.atlassian.net/servicedesk/customer/portal/12`
+3. Pick **"Individual: Opt-Out/Deletion Request Form"** — *not* the Authorized
+   Agent form directly beneath it.
+4. Tick four of the five preference boxes; leave "Postal Mailings to Deceased
+   Persons" unticked.
+5. Two attestations at the end: acting on your own behalf, and manual submission
+   only. Their banner directs automated submitters elsewhere, so a human submits.
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+**One address field, and the completion notice says so.** *"Data
+removed is specific to the name and mailing address provided... An additional
+request must be submitted if the name and/or address changes."* With sixteen
+addresses that clears a sixteenth of the surface — and the fifteen omitted are
+the ones that matter, since a marketing file is built from addresses a person no
+longer lives at.
+
+**This is more dangerous than a misleading confirmation, because it is correct.**
+Nothing in it is false; the limitation is stated outright. A requester who skims
+reads "Completed" and stops. See `_SILENT_FAILURES.md` §84.
+
+**Ask in the ticket rather than submitting fifteen more forms.** Jira accepts
+email replies, so the prior addresses go back on the same thread — one request
+instead of sixteen, and it sidesteps rate-based bot protection entirely.
 
 ## Verification
 
