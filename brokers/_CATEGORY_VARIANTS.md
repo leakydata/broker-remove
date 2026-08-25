@@ -1843,3 +1843,135 @@ by a hiring system has an interest in knowing it happened.
 
 That converts the processor answer from a dead end into a partial win, and it
 costs nothing to include in the first letter.
+
+## Location data
+
+**Example:** Cuebiq.
+
+The hardest category to make a request in, because the record is keyed to a
+mobile advertising identifier and **nobody can supply their own**. A MAID is not
+reliably surfaced to the person it describes, a resettable one may have changed
+many times over the period the history covers, and any value readable off a phone
+today will not match the historical rows. The identifiers that *would* match are
+exactly the ones the subject has no way of knowing. If a MAID is the only accepted
+key, the right is exercisable only by someone holding information the system is
+designed not to give them.
+
+**But location data has a property that makes verification possible anyway.** A
+person's home is where their device dwells overnight, persistently, for months or
+years. So offer this, concretely:
+
+> *"Query your data for devices showing a persistent overnight dwell pattern at
+> the residential addresses listed below, over the periods I lived at each. Then
+> **confirm the match back to me before deleting anything** — tell me how many
+> device identifiers matched and over what date ranges, and let me confirm the
+> periods are right."*
+
+Confirm-before-delete is what makes this safe to offer and hard to refuse: no
+other person's records can be touched, because nothing is deleted until the
+subject verifies. It preserves the entire protective purpose of verification while
+using only information the subject can actually supply.
+
+**Two details that make the offer read as good faith rather than a fishing
+expedition.** First, list only *residential* addresses — **omit PO boxes and say
+why**: a device does not dwell at a post office box overnight, so including them
+would only add noise. Second, close with *"if this specific method does not fit
+your systems, please tell me what would — I am asking you to name a route that
+exists, not to waive the check."* Both signal that you understand their problem
+and are trying to solve it with them.
+
+**Ask about sensitive-location inferences by name** — places of worship, medical
+facilities, legal offices, shelters, union halls, protest sites — and say you want
+to be told **even where they conclude they may retain them**. Location history is
+unusually revealing about exactly those, and being told one exists has value on
+its own.
+
+**Suppression must be forward-looking**, or the next feed from the same app
+publisher restores everything. And **ask for the app publishers and SDK partners**
+by name: that is the upstream, it is invisible from outside, and it is trivial for
+them to state.
+
+## Customer data platforms
+
+**Example:** DataDojo.
+
+A CDP's entire function is identity resolution — joining fragments from many
+sources into one persistent profile. So say plainly: **the linkage is the thing.**
+Deleting attribute rows while keeping the resolved profile ID, the match keys, or
+the mappings between identifiers does not fulfil the request, because the profile
+is rebuilt from the next inbound feed and the person never learns of it. Ask for
+confirmation that the **edges** are deleted.
+
+**Pre-accept the service-provider answer, then ask what defeats it.** Where a CDP
+resolves identity inside a customer's own tenant on that customer's data, the
+customer is the controller. Fine. But the company is a *registered data broker*,
+so ask which of these exists:
+
+1. a cross-customer, shared or reference identity graph;
+2. enrichment or append data supplied *by* the CDP rather than received;
+3. audience or segment products built from resolved profiles and licensed onward.
+
+**Pre-commit to accepting "none of these exist" as a complete answer** — provided
+they then name which customers hold matching records, and confirm suppression
+applies regardless.
+
+## Content syndication / intent data
+
+**Example:** Contentgine.
+
+**The argument that carries this category:** content engagement is behavioural
+data about a person. A record that a named individual downloaded a particular
+white paper, at a particular time, is a statement about their interests and their
+employer's purchasing intentions. It is more revealing than a contact record, and
+it is the part of the file the person has no way to see.
+
+Ask for **which assets, which dates, and which clients received the resulting
+lead**. The last is the one that matters — once a lead has been sold it is beyond
+the seller's control, so knowing where it went is the only way to follow it.
+
+Pair with the derived-address ask and the LinkedIn URL suppression
+(`_SILENT_FAILURES.md` §90); this sector is where both bite hardest.
+
+## Crawling businesses
+
+**Example:** Crawlbee.
+
+Say it outright in the letter: **suppression is the request, deletion alone
+achieves very little.** A record deleted today is re-created by the next crawl of
+the same page, and the person has no way of knowing it came back.
+
+So invert the usual letter. Lead with the **source URL** as the thing to suppress
+on — for a crawler, the source *is* the key — and make the deletion the rider
+rather than the headline.
+
+Then ask for the **source URLs they hold**: which pages the data about you was
+collected from. Trivial for them, impossible for you, and it hands you the next
+set of places to approach.
+
+## Nonprofit fundraising / donor data
+
+**Example:** RKD Group (registered as Data Management).
+
+Two categories to name explicitly:
+
+1. **Donor and giving records** — giving history, gift amounts, donor status,
+   nonprofit affiliations. **Whom a person supports can reveal their religion,
+   politics, health circumstances and family situation**, and it is among the most
+   private information most people hold. Ask what the record says and which
+   organisations it relates to.
+2. **Capacity and propensity scores** — wealth estimates, capacity-to-give
+   ratings, giving-likelihood and major-donor scores. An estimate of what someone
+   can afford to give is a financial assessment made about them without their
+   knowledge.
+
+Ask both directions of the chain: which suppliers supplied the record, and which
+client organisations received it. Donor files are address-keyed and often decades
+deep, so lead with the address history.
+
+### A rider for market-research firms
+
+If the company conducts or supplies data for **surveys or market research**, ask
+that panel membership, survey responses and call records be treated as in scope,
+and that the do-not-call entry cover **research calls as well as marketing ones**.
+Research calls are commonly treated as outside DNC rules, and almost nobody
+expects that.
