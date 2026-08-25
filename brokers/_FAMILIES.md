@@ -818,6 +818,41 @@ filing and not present in any broker list used here.
 
 ---
 
+## Appendix: the acquisition named in the mailbox itself
+
+Azerion's registered contact is **`dpo_hybridtheory@azerion.com`** — the local
+part names Hybrid Theory, a business Azerion acquired, while the domain is the
+parent's.
+
+**A local-part naming a different company is a disclosed acquisition.** It is
+weaker evidence than a shared statutory contact (it could be a legacy alias
+nobody renamed) but it is free, it is visible before you write, and it tells you
+two things worth acting on:
+
+1. **Which entity actually holds the data.** A request addressed to the parent in
+   general terms may be answered for the parent's own systems while the acquired
+   business's dataset sits untouched. Name both.
+2. **That there is probably a suppression boundary**, since acquired platforms
+   are frequently still running on their own infrastructure. Ask directly:
+   *does a suppression recorded here reach the other, or stop at your systems?*
+   Both answers are useful and only the assumption is dangerous.
+
+**Also read the prefix.** `dpo_` signals a European data protection function, so
+a US request sent there risks being answered under the GDPR — or filed as
+out-of-scope. State the governing law in the first paragraph:
+
+> I am a United States resident and this request is made under US state law, not
+> the GDPR. Your registered contact is a `dpo_` address, which usually signals a
+> European function, so please route this to whoever handles US state privacy
+> requests if that is someone else.
+
+Compare Experian's `ca_drop_audigent@experian.com` in the appendix below — same
+shape, parent domain plus acquired-brand local part, and there the mailbox turned
+out to be unmonitored. **A brand-named local part is a lead about corporate
+structure and says nothing about whether anyone reads it.**
+
+---
+
 ## Appendix: the legal name nobody would search for
 
 Registrations are filed under **legal entity names**, and consumers know
