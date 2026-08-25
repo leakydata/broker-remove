@@ -1439,3 +1439,42 @@ deleted today is re-appended the next time somebody pulls that address.
 **Search every prior address.** A property record follows the address and an
 owner record follows the person, so the two diverge — a search limited to the
 current address finds the least interesting record and misses the rest.
+
+
+## Ad-serving and bidding infrastructure  (e.g. Beeswax, Adprime, AdsWizz, adtech DSPs)
+
+Distinct from the audience-data companies above: these run the **pipes** rather
+than owning the audience. That changes the opening move.
+
+**Lead with the controller/processor split, and make naming the price of the
+deflection.** Data may sit with them for their own account — an identity graph
+entry, a segment they build — or be processed for a customer running campaigns on
+their platform. Both are plausible, and the second is a legitimate answer:
+
+> I am not trying to make you answer for something that is not yours. But "we are
+> only infrastructure" without naming the controller leaves me with a right and
+> nobody to exercise it against — which in practice is no right at all.
+
+That framing concedes the point and still extracts something usable. See
+`_DEFLECTIONS.md` §50 and §52 for the same move against a processor claim.
+
+**The ask that matters is the bid stream.** Impression and bid records attach a
+device to the sites and apps where it was seen. That is **a browsing history by
+another name**, and it is the single most revealing thing in the category — it
+can indicate health conditions, finances, religion, politics and sexuality
+without any of them being declared. It is also exactly what a contact-shaped
+deletion misses, because there is no name on it.
+
+Ask for it explicitly, including the site and app list, not just "any data
+associated with me".
+
+**Then the standard identity-graph asks:** hashed match keys with the
+suppression-versus-inventory split, cookie/device/CTV identifiers, any persistent
+pseudonymous ID the platform assigned, **the edges** between those and real-world
+identifiers, IP-derived household association, and segment memberships as
+inferences rather than facts.
+
+**Pre-empt the browser opt-out.** It will be offered. Device-scoped, dies when
+storage is cleared or the device is replaced, and does nothing about server-side
+records keyed to a hashed email. Say so before they say it, so the reply has to
+engage rather than redirect.
