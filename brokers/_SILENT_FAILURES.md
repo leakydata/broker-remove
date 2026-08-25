@@ -5081,3 +5081,72 @@ thirty-six identifiers will not be read by anyone, ever.
 
 **Related:** §85, §87, §96; and the Speedeon note above on suppression scope.
 
+## §102 — The cold approach is a free sample of the pipeline
+
+An unsolicited recruiter email arrived mid-project:
+
+> *"Hi [name], We came across your profile and think you could be an excellent fit
+> for a role we're looking to fill..."*
+
+Ordinary recruiting spam. Not a registered data broker, not in our registry, and
+in the normal course you would delete it.
+
+**Do not delete it. Reply and ask where they got your details.**
+
+### Why this is the highest-signal discovery event available
+
+The hardest problem in this entire project is not persuading brokers to delete
+things. It is **finding out which companies hold your data in the first place.**
+State registries list companies that have *registered*; they do not say which of
+them holds a record on **you**, and a large number of the businesses in this chain
+never register at all.
+
+Every other discovery method is inference:
+
+- registries → who is *obliged to register*, not who holds you;
+- MX tenant fingerprinting (`_FAMILIES.md` appendix six) → corporate structure;
+- asking brokers to name suppliers → good, but only reaches brokers you already
+  found.
+
+A cold approach is different in kind. **The sender was looking at a screen with
+your name and email address on it.** They know the answer as a matter of direct
+observation, and it costs them one line.
+
+### How to ask
+
+Politely, and as a favour rather than a demand. This person sent a normal
+recruiting email; turning it into a compliance confrontation makes them defensive
+and forward it to a legal team who will say nothing.
+
+What worked in the letter sent:
+
+- **Disclaim hostility explicitly.** *"I am not accusing you of anything, and I
+  know that sourcing candidate contact details is a normal part of recruiting."*
+- **Say what you actually want:** the name of the tool, platform, list or
+  enrichment service. Not a policy discussion — a product name.
+- **Explain why it is worth so much to you**, briefly. People help when they
+  understand the problem, and this one is easy to explain: registries say who is
+  obliged to register, not who holds me; you know because you were looking at it.
+- **Ask for deletion *and* suppression**, with the reason stated — deletion alone
+  is undone by their next refresh from the same source, and neither party would
+  know.
+- **Offer the profile URL as a suppression key** (§90).
+- **Mention the statutory right last, and defuse it:** *"I would much rather this
+  were a favour between people than a formal request."* Keep it available without
+  leading with it.
+
+### It also confirms something in the other direction
+
+This arrival is itself evidence that the LinkedIn → sourcing-tool →
+recruiter-inbox pipeline is **live right now**, and that the profile is still
+being ingested despite every suppression request sent. That is not a reason to
+stop asking for suppression. It is the measurement showing why the suppression has
+to be *forward-looking against the source* rather than a deletion of one
+downstream copy.
+
+**Treat every unsolicited approach — recruiter, insurance, home services, "we
+noticed you own a property" — as a discovery lead.** It is the only signal in this
+whole exercise that arrives without being sought.
+
+**Related:** §90, §100; `_FAMILIES.md` appendix six.
+
