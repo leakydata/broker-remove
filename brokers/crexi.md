@@ -12,7 +12,11 @@
 
 ## Steps
 
-<!-- Replace once the route is confirmed. What actually worked, in order. -->
+1. Do not expect email to work — privacy@crexi.com auto-replies that the inbox
+   is unmonitored and DSARs must go through their BigID portal.
+2. Portal (queued in `handoff.py`): `https://crexi.bigidprivacy.cloud/consumer/#/o2TCsG9LJ7`
+3. General support fallback (their auto-reply's words: "for any questions
+   needing an immediate response"): support@crexi.com.
 
 ## Gotchas
 

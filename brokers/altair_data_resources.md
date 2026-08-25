@@ -1,15 +1,24 @@
 # Altair Data Resources, Inc
 
-- **Email:** dpelland@altairci.com (verified)
-- **Method:** email — Statutory request by email. No web form needed.
+- **Email:** connect@altairci.com (verified — the address altairdata.com's own
+  privacy/CCPA pages actually designate; dpelland@altairci.com replied that it
+  is a business-development address only and not monitored for privacy requests)
+- **Method:** email OR web form. Two working routes now confirmed.
 - **Domain:** altairdata.com
 - **Priority: 2.**
 
 ## Status
 
-- Current: `confirmed` (updated 2026-08-25)
-
-- Current: `pending`
+- Current: `email_pending` (updated 2026-08-25)
+- Note: 2026-08-25: original letter to dpelland@altairci.com (the CA registration
+  contact) drew a reply from dciriello@altairci.com: *"This email address is
+  intended solely for direct business communications and is not monitored for
+  opt-out or privacy-related requests."* No alternate was offered in the reply.
+  altairdata.com's own privacy policy and "Do Not Sell or Share My Personal
+  Information" page name `connect@altairci.com` as the actual privacy contact,
+  alongside the Jira portal below as the designated request-submission method.
+  Resent to connect@altairci.com. The Jira portal (Steps below) remains the
+  documented-working manual route if email goes unanswered again.
 
 ## Steps
 

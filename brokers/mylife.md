@@ -59,3 +59,4 @@ confirmation you can check; treat the disclosure as an invitation.
 Re-check after the stated 3-5 business days rather than immediately — a removal
 with a propagation window will still be visible on the day it is granted.
 
+> **Correction (2026-08-25):** A duplicate-detection error in that day's run sent an unnecessary second request to `membersupport@mylife.com`, on top of the already-open thread documented above. The exclusion check matched only exact addresses seen in a partial Sent-folder scan, and this broker's registry `email_to` had drifted from the address actually used historically — so it looked unsent when it wasn't. No new information was requested; treat the status above as authoritative. **Lesson: check this playbook's own `Current:` status before treating a registry email_to as evidence a broker is unsent — it is not reliable on its own.**

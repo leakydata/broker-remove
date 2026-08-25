@@ -12,7 +12,24 @@
 
 ## Steps
 
-<!-- Replace once the route is confirmed. What actually worked, in order. -->
+1. Do not expect a reply at consumerprivacy@buxtonco.com for a direct consumer
+   request — buxtonco.com's privacy policy now redirects (301) to
+   `audiense.com/legal/privacy`, and reading it shows `consumerprivacy@buxtonco.com`
+   is documented as being for **authorized-agent requests specifically**, not
+   direct consumer ones. That is consistent with the auto-reply saying "we do
+   not accept privacy requests submitted by email."
+2. Use the web form at `https://www.audiense.com/legal/privacy` instead — queued
+   in `handoff.py` for a human to complete (browser required).
+3. Phone fallback published on the same page: 1-888-228-9866.
+
+## Gotchas
+
+**Buxton now operates under the Audiense brand.** Audiense, LLC (with
+subsidiaries Elevar, LLC and Audiense, LTD) is the current legal entity;
+`buxtonco.com`'s own privacy policy repeatedly references "Buxton" internally
+while redirecting to audiense.com for the actual policy text and request form.
+Nothing on buxtonco.com's homepage announces this — you only find it by
+following the privacy-policy link.
 
 ## Gotchas
 

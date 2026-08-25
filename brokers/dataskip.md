@@ -1,23 +1,18 @@
-# Blackbaud, Inc
+# Dataskip
 
-- **Email:** privacy@blackbaud.com (verified)
+- **Email:** support@dataskip.io (verified)
 - **Method:** email — Statutory request by email. No web form needed.
-- **Domain:** blackbaud.com
+- **Domain:** dataskip.io
 - **Priority: 2.**
 
 ## Status
 
-- Current: `manual_required` (updated 2026-08-25)
-- Note: 2026-08-25: Privacy@blackbaud.com auto-replied that the address "is not
-  a mechanism for the submission of privacy rights requests." Found their
-  designated route instead.
+- Current: `email_pending` (updated 2026-08-25)
+- Statutory delete/opt-out request emailed to support@dataskip.io. Dataskip is a skip-tracing / people-locate service, so the letter asked them to identify categories of purchasers any skip-trace report on file was sold or delivered to, and to direct those purchasers to delete their copies too. Awaiting reply.
 
 ## Steps
 
-1. Do not email — use the Data Subject Rights Request form:
-   `https://www.blackbaud.com/company/Data-Subject-Rights-Request`
-   (queued in `handoff.py` for a human to complete).
-2. Phone fallback published on the same privacy page: +1 844-532-0022.
+<!-- Replace once the route is confirmed. What actually worked, in order. -->
 
 ## Gotchas
 

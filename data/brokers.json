@@ -2314,9 +2314,9 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "lzepeda@agrgroupinc.com",
+      "email_to": "privacy@agrgroupinc.com",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "state_registry",
       "registry_years": [
         "2020-2023",
         "2024"
@@ -2417,9 +2417,9 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "dpelland@altairci.com",
+      "email_to": "connect@altairci.com",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "privacy_policy",
       "registry_years": [
         "2024",
         "2025",
@@ -3023,9 +3023,9 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "security@audiencepoint.com",
+      "email_to": "privacy@audiencepoint.com",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "privacy_policy",
       "registry_years": [
         "2025"
       ],
@@ -3166,7 +3166,7 @@
       "optery_slug": null,
       "email_to": "contact@aviato.co",
       "email_verified": false,
-      "email_verified_by": "registry_contact_bounced",
+      "email_verified_by": "bounced",
       "registry_years": [
         "2025",
         "2026"
@@ -4011,9 +4011,9 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "privacy@bvdinfo.com",
+      "email_to": "privacy@moodys.com",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "privacy_policy",
       "registry_years": [
         "2020-2023"
       ],
@@ -5415,8 +5415,8 @@
       "source": "ca_data_broker_registry",
       "optery_slug": null,
       "email_to": "privacy@crawlbee.com",
-      "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified": false,
+      "email_verified_by": "bounced",
       "registry_years": [
         "2024",
         "2025"
@@ -5567,8 +5567,8 @@
       "source": "ca_data_broker_registry",
       "optery_slug": null,
       "email_to": "ccgprivacy@customer.com",
-      "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified": false,
+      "email_verified_by": "bounced",
       "registry_years": [
         "2020-2023"
       ],

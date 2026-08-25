@@ -1,23 +1,20 @@
-# Blackbaud, Inc
+# Datafy, LLC
 
-- **Email:** privacy@blackbaud.com (verified)
+- **Email:** opt-out@datafy.com (verified)
 - **Method:** email — Statutory request by email. No web form needed.
-- **Domain:** blackbaud.com
+- **Domain:** datafy.com
 - **Priority: 2.**
 
 ## Status
 
-- Current: `manual_required` (updated 2026-08-25)
-- Note: 2026-08-25: Privacy@blackbaud.com auto-replied that the address "is not
-  a mechanism for the submission of privacy rights requests." Found their
-  designated route instead.
+- Current: `email_pending` (updated 2026-08-25)
+- Statutory delete/opt-out request emailed to opt-out@datafy.com. Auto-ack received
+  ("Someone from our team will review and get back to you shortly") — a queue
+  confirmation, not a completion. Awaiting substantive reply.
 
 ## Steps
 
-1. Do not email — use the Data Subject Rights Request form:
-   `https://www.blackbaud.com/company/Data-Subject-Rights-Request`
-   (queued in `handoff.py` for a human to complete).
-2. Phone fallback published on the same privacy page: +1 844-532-0022.
+<!-- Replace once the route is confirmed. What actually worked, in order. -->
 
 ## Gotchas
 

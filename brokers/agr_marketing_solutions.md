@@ -27,3 +27,5 @@ permanent suppression.
 ## Verification
 No public listing to re-check. Their written confirmation is the artifact; they
 state "next few days", so chase after ~2 weeks if nothing further arrives.
+
+> **Correction (2026-08-25):** A duplicate-detection error in that day's run sent an unnecessary second request to `stephen@agrmarketingsolutions.com`, on top of the already-open thread documented above. The exclusion check matched only exact addresses seen in a partial Sent-folder scan, and this broker's registry `email_to` had drifted from the address actually used historically — so it looked unsent when it wasn't. No new information was requested; treat the status above as authoritative. **Lesson: check this playbook's own `Current:` status before treating a registry email_to as evidence a broker is unsent — it is not reliable on its own.**

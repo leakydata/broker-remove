@@ -52,3 +52,5 @@ would have shown `submitted` for two days and taught nobody anything.
 registration, a company that has wound up, or a rebrand that left the filing
 behind. If the domain is ever reinstated, or a successor entity appears in a
 later state registration under the same legal name, the route reopens.
+
+> **Correction (2026-08-25):** That same day's run sent another request to `sam@arrakis.ai`, which this playbook already recorded as `unreachable` earlier the same day. Same root cause as the note above (registry email_to didn't reflect this playbook's own status) — no new information, no status change.

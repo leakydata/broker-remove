@@ -90,3 +90,4 @@ True of the source articles, irrelevant to the request. Concede the point about
 the originals — they are not Cision's to remove — and distinguish the compiled
 profile, the contact details as held, and the derived scores, which are.
 
+> **Correction (2026-08-25):** A duplicate-detection error in that day's run sent an unnecessary second request to `dpo@cision.com`, on top of the already-open thread documented above. The exclusion check matched only exact addresses seen in a partial Sent-folder scan, and this broker's registry `email_to` had drifted from the address actually used historically — so it looked unsent when it wasn't. No new information was requested; treat the status above as authoritative. **Lesson: check this playbook's own `Current:` status before treating a registry email_to as evidence a broker is unsent — it is not reliable on its own.**

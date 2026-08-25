@@ -12,7 +12,10 @@
 
 ## Steps
 
-<!-- Replace once the route is confirmed. What actually worked, in order. -->
+1. Email is not accepted for processing — privacy@catalist.us auto-replies that
+   requests must go through their form.
+2. Form (queued in `handoff.py`): `https://catalist.us/your-privacy-choices`
+3. Phone fallback: (800) 938-9516.
 
 ## Gotchas
 
