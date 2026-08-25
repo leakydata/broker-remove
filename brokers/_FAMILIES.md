@@ -818,6 +818,47 @@ filing and not present in any broker list used here.
 
 ---
 
+## Appendix: the legal name nobody would search for
+
+Registrations are filed under **legal entity names**, and consumers know
+**brands**. Where the two differ, the company is effectively invisible in the
+state registry to anyone searching by the name they recognise:
+
+| Registered as | Known as |
+|---|---|
+| Baron App, Inc. | **Cameo** |
+| Predictive Pop, Inc. | **Audigent** |
+| Mississippi Tornado Alley, LLC | ten people-search brands |
+| B.I Science (2009) Ltd | biScience |
+
+This cuts both ways for the work here.
+
+**Against you:** searching the registry for a brand you want to check will miss
+it. There is no reliable brand-to-entity index, so the only safe approach is to
+import the whole registry and match on domain rather than on name — which is what
+`import_state_registries.py` does, and why it caught Cameo at all.
+
+**For you:** the mismatch is itself a finding. A consumer-facing product filing
+as a data broker under an unfamiliar legal name is asserting that it sells or
+shares personal information about people **it has no direct relationship with**.
+That is the statutory trigger for registration. So a brand you have never used is
+still worth writing to, and the letter can say so plainly:
+
+> I do not believe I have used your service, and if you hold nothing that is
+> entirely plausible. But the registration means you have determined you meet the
+> definition of a data broker — which is to say you sell or share personal
+> information about people with whom you do not have a direct relationship. That
+> is exactly the category I fall into.
+
+That framing pre-empts the obvious brush-off ("you have no account with us") and
+turns the registration itself into the justification for asking.
+
+**Tell them about the mismatch.** Most companies do not realise their filing is
+unfindable by brand. It costs a sentence and it is the kind of thing only an
+outsider notices.
+
+---
+
 ## Appendix: the refusal autoreply that lists the family
 
 AutoWeb's privacy address refuses email — *"Email is not a designated method for
