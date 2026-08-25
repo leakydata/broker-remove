@@ -2722,3 +2722,67 @@ to review, made by them, in writing — and it is nearly always literally true t
 the request *was* for something else, because the canned answer addresses the
 common case and the letter was written for the uncommon one.
 
+## §56 — The offer that cannot be accepted
+
+DemandScience's reply made a genuinely good offer, better than most in its sector
+(`_SILENT_FAILURES.md` §90):
+
+> *"If you believe we may hold a professional profile for you under a corporate
+> email address, wish to suppress a specific business domain, or would like us to
+> suppress your public LinkedIn profile URL, **please reply with those business
+> details** so we can add them to our internal suppression list."*
+
+I replied and did exactly that. **Twelve seconds later a byte-identical copy of
+the same message arrived**, from `dataprivacy+canned.response@demandscience.com`.
+
+The invitation asks you to reply. Replying triggers the autoresponder that issued
+the invitation.
+
+### State only what is observable
+
+I cannot see inside their mail routing, and I am not claiming no human ever reads
+the thread. What is observable is: identical text, twelve seconds, and a
+sub-address whose local part is literally `canned.response` — consistent with a
+rule that fires on every inbound message including replies to itself. Whether a
+person also triages the thread later is unknown, and the follow-up should say so
+rather than accuse. (Compare `_SILENT_FAILURES.md` §66: a mechanism that would
+explain the evidence is not thereby the cause of it.)
+
+### Why this is worse than a plain refusal
+
+A refusal tells you where you stand and you move on. This shape:
+
+- **looks cooperative**, so a consumer records it as progress;
+- **consumes the follow-up**, so the substantive reply is absorbed;
+- **is self-concealing** — the loop is only visible if you notice the second
+  message is identical to the first. Skim it and it reads as "they responded
+  again", which sounds like engagement.
+
+A consumer working through a long list will very reasonably file this as handled.
+
+### What to do
+
+1. **Diff the two messages.** If a reply produces an identical body, treat the
+   address as an autoresponder rather than a mailbox, whatever the signature says.
+2. **Change channel, do not re-send.** Re-replying feeds the same rule. Look for
+   another published address — theirs named `legal@` for HR and applicant
+   requests, which is at least a different mailbox — or a web form or portal.
+3. **Lead with the loop, briefly and without accusation.** Set it out as numbered
+   steps with the timing, say plainly that you cannot tell whether a human also
+   reviews the thread, and ask them to route the message. A company that made a
+   good offer will usually want to know its acceptance path is broken.
+4. **Grant the point that the offer was good.** It costs nothing and it is true.
+   *"That is precisely why the loop is worth fixing — it makes a genuine
+   concession look like a brush-off, which cannot be what you intended."* You are
+   reporting a defect in their process, not litigating their good faith.
+5. **Restate the ask in full in the new message.** Do not refer back to "my
+   previous email"; assume whoever reads this has none of the history.
+
+### The general lesson
+
+**A published contact address is not a channel until something other than a
+machine has answered on it.** Registry filings (`_SILENT_FAILURES.md` §83, §85,
+§88) already fail in three ways — wrong desk, unmonitored mailbox, mailbox
+decommissioned. This is a fourth: **a mailbox that answers every time and receives
+nothing.** It looks healthiest of the four and is no better than the rest.
+
