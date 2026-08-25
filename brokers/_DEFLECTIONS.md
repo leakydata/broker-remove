@@ -2505,3 +2505,54 @@ own customer file?* That is about their systems, not the client's data.
 
 **Related:** §50 (processor referral to a party that cannot help), §51;
 `_SILENT_FAILURES.md` §66, §70.
+
+
+## §53 The conditional confirmation
+
+BDEX answered a twelve-address request with:
+
+> *"if an email address was provided then the opt-out has been processed."*
+
+The condition is satisfied — twelve were provided — so on its face this says the
+opt-out ran. But **"an email address" is singular**, and the sentence is
+identical whether the opt-out covered one address, some, or all twelve. It is a
+template written for the common case of a one-address request, reused against a
+list.
+
+**This is the cheapest kind of unfalsifiable confirmation** and it is worth
+distinguishing from the vague sort in §51. A vague confirmation says nothing
+specific. A *conditional* one appears to say something specific while the
+condition does all the work — it is true regardless of what happened, so it
+carries no information at all.
+
+### How to answer it
+
+Ask for the list, and make producing it look like the labour-saving option:
+
+> A broker who answered me this week itemised eight email addresses and eleven
+> postal addresses individually, which let me check coverage against what I sent.
+> A list is more work to produce once and saves both of us a follow-up.
+
+Then restate the addresses so the reply can be a copy-paste rather than a
+lookup.
+
+### Do not lose the disclosure buried in it
+
+The same message contained something genuinely useful:
+
+> *"our platform tracks consumers based on their email address, not name and
+> postal address"*
+
+That is a direct answer to *what is your index keyed to*, which is the question
+worth asking of any identifier-based broker. Lead the reply by acknowledging it —
+it tells you the sixteen postal addresses and twelve phone numbers in the letter
+are not usable keys there, which shapes every follow-up and is worth knowing
+rather than assuming.
+
+**And the follow-on question it creates:** a platform that keys on email address
+almost certainly keys on a **hash** of one for matching. So ask whether the
+opt-out covers hashed forms or only plaintext. A truthful "we hold no record of
+that address" is entirely compatible with holding its digest, and that is the
+difference between an opt-out that works and one that looks like it did.
+
+**Related:** §51 (grading a confirmation), §50.
