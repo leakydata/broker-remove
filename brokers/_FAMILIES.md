@@ -1027,3 +1027,72 @@ useful and should be offered as acceptable.
 be *silently scoped* to that brand only, while the platform shows both. Do not
 assume coverage from the shared ID — that is the same scoped-confirmation error
 as §40, arriving through a vendor rather than a hostname.
+
+---
+
+## Appendix six — the mail tenant gives the parent away
+
+Every method above needs someone to tell you something: a mailbox local-part that
+names the acquisition, an autoreply that lists the family, an acknowledgement from
+a company you never wrote to, a shared request ID. All of them require a sent
+letter and a cooperative reply.
+
+This one requires neither. It is a DNS lookup.
+
+When one company buys another, the acquired brand usually keeps its domain — the
+customers know that name — but its **mail** gets folded into the parent's tenant,
+because running a separate mail estate for an acquired subsidiary is pointless
+work. Enterprise mail security providers stamp a **per-customer tenant identifier
+into the MX hostname**, so the fold is visible from outside:
+
+```
+bvdinfo.com   MX -> mxa-00520701.gslb.pphosted.com
+moodys.com    MX -> mxa-00520701.gslb.pphosted.com
+reis.com      MX -> mxa-00520701.gslb.pphosted.com
+```
+
+`00520701` is one Proofpoint customer. Bureau van Dijk and Reis are Moody's.
+
+`scripts/mx_family_scan.py` runs this across every contact domain we hold. Two
+confirmed groups out of 960 domains:
+
+| tenant | domains | registered entities |
+|---|---|---|
+| `proofpoint:00520701` | bvdinfo.com, moodys.com, reis.com | Bureau van Dijk Electronic Publishing, Moody's, Moody's Analytics, Reis, Acquire Media (U.S.) |
+| `proofpoint:00143702` | beeswax.com, freewheel.com | Beeswax, FreeWheel |
+
+**Read the second row against appendix five.** That is the same Beeswax/FreeWheel
+relationship — the one we only learned because a letter to Beeswax came back
+acknowledged by FreeWheel's Zendesk. Appendix five needed a sent letter and a
+piece of luck. This finds it in a DNS query, before writing to anyone. The method
+reproducing a fact we already established by other means is the reason to trust
+it on the row we hadn't.
+
+### The discipline that makes it usable
+
+Most shared mail hosts mean nothing. Half the internet is on Google Workspace,
+SendGrid, MailChannels, a Zendesk pod, Mimecast's shared inbound pool, or a
+reseller's Exchange box. The first version of this scanner grouped on any shared
+host and confidently announced that Altrata and GBG were one company.
+
+So the scanner separates:
+
+- **CONFIRMED** — a *provider-issued tenant identifier*, unique to one customer.
+  Proofpoint's `mx[ab]-<digits>`, an M365 label belonging to a different domain
+  than the one being checked.
+- **WEAK** — a merely shared host. Reported for curiosity, never merged, never
+  acted on alone.
+
+A family assertion is used to redirect a request that bounced, and to scope one
+letter across several registered entities. Getting it wrong means writing to a
+stranger about someone else's data. The asymmetry runs the same way it did in the
+duplicate-domain sweep: a wrong letter is embarrassing and visible, a wrongly
+suppressed one is invisible and permanent.
+
+### What it was actually used for
+
+`privacy@bvdinfo.com` bounced `550 5.1.1` — the registered contact is dead and the
+filing was never amended. Rather than record Bureau van Dijk as unreachable, the
+tenant match relocated the request: one letter to `privacy@moodys.com` naming all
+five entities, stating plainly how the relationship was established, and asking
+them to correct the stale filing. See `_SILENT_FAILURES.md` §88 and §89.

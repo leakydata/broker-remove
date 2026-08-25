@@ -4176,3 +4176,121 @@ lands as help rather than criticism:
 > prompting for prior addresses would do it.
 
 **Related:** §51, §53, §77.
+
+## §88 — The filing names a person, and the person has left
+
+`lzepeda@agrgroupinc.com` bounced: *address not found*. So did
+`privacy@bvdinfo.com`: `550 5.1.1`.
+
+Both domains are perfectly healthy. `agrgroupinc.com` has valid Microsoft 365 MX
+records. `bvdinfo.com` has valid Proofpoint MX records and an A record and a
+working website. Every domain-level deliverability check we run passes on both.
+The **mailbox** is what is dead, and nothing short of sending a message reveals
+that.
+
+This is a different failure from §86 (a typo in the filing) and from §85 (a
+mailbox that answers to say it is not monitored). Here the filing was correct
+when it was made and has since rotted, quietly, in a way no one is responsible
+for noticing:
+
+- the company registered as a data broker and gave a real contact;
+- the contact was an **individual's work address**, not a role mailbox;
+- that individual left, or the acquisition closed, and the mailbox was deleted;
+- the filing was never amended;
+- the domain still resolves, so the address still *looks* fine.
+
+**How much of the corpus is exposed to this.** Of 1,180 brokers for which we hold
+a contact address, **195 (17%) have a person-shaped local-part** — a
+`first.last@`, an `flast@`, a bare given name. **181 of those 195 came straight
+from the California registry filings.** Every one of them is a letter that will
+be delivered to a specific human being's inbox for as long as that person works
+there, and will bounce, silently and without recourse, the day after they leave.
+
+### What follows from it
+
+1. **A green deliverability check is not evidence the address works.**
+   `check_email_domains.py` verifies domains and cannot do better; mailbox
+   existence is not observable without sending. Do not let a clean domain report
+   create false confidence about a person-addressed contact.
+2. **A bounce on a person-shaped address is a lead, not a dead end.** The company
+   is usually still there. Look for a role mailbox, a privacy page, or — see §89
+   — a parent that now runs the domain's mail.
+3. **Say where you got the address.** The three-sentence opener recorded under
+   §83 asks the recipient to correct a stale filing. The person who reads it is
+   frequently the person who filed it.
+4. **Registries should require a role address.** A filing regime that accepts an
+   individual's mailbox as the sole public contact is guaranteed to decay. Worth
+   saying to a regulator; nothing a consumer can do about it directly.
+
+**Related:** §83, §85, §86, §89.
+
+## §89 — The mailbox is dead because the company was bought
+
+`privacy@bvdinfo.com` bounced. Bureau van Dijk is a registered data broker with a
+live website and a live product, so the bounce was surprising rather than
+explanatory — until the MX records answered it:
+
+```
+bvdinfo.com   MX -> mxa-00520701.gslb.pphosted.com
+moodys.com    MX -> mxa-00520701.gslb.pphosted.com
+reis.com      MX -> mxa-00520701.gslb.pphosted.com
+```
+
+`00520701` is a **Proofpoint tenant identifier**. It is issued to one customer.
+Three brand domains resolving to it is not a coincidence of vendor choice the way
+"they both use Google Workspace" would be — it means one organisation runs the
+mail for all three. Bureau van Dijk and Reis are Moody's. The BvD privacy mailbox
+was decommissioned after the acquisition and the registry filing was never
+updated.
+
+So the bounce was not a dead end. It relocated the request: one letter went to
+`privacy@moodys.com` naming all five registered entities in the group, explaining
+where the relationship came from, and asking them to fix the stale filing.
+
+### Mail-tenant fingerprinting as a family detector
+
+`family_scan.py` groups brokers whose contact addresses share a **domain**. That
+catches the obvious cases and misses the interesting one: a company that was
+acquired, kept its own brand domain, and had its mail quietly re-pointed at the
+parent. Different domain, different branding, different registry filing —
+identical mail tenant.
+
+`mx_family_scan.py` is the new pass. Across all 960 contact domains it returns
+**two confirmed groups**, and the second one is why the method is trustworthy:
+
+| tenant | domains | brokers |
+|---|---|---|
+| `proofpoint:00520701` | bvdinfo.com, moodys.com, reis.com | Bureau van Dijk, Moody's, Moody's Analytics, Reis, Acquire Media |
+| `proofpoint:00143702` | beeswax.com, freewheel.com | Beeswax, FreeWheel |
+
+**The second row is a control.** We already knew Beeswax is FreeWheel — but only
+because a letter to Beeswax produced an acknowledgement from FreeWheel's Zendesk,
+a company we had never written to (`_FAMILIES.md`, appendix five). That took a
+sent letter and a lucky reply. The MX scan rediscovers the same fact from public
+DNS, before writing to anyone. A method that independently reproduces a
+known-true finding is worth keeping.
+
+### Precision cost this nearly had
+
+The first run of the scanner reported **twenty-odd** groups, and most were
+garbage: SendGrid inbound, MailChannels, Zendesk pods, Mimecast's shared inbound
+pool, a Network Solutions reseller, Trellix's shared filtering cloud. It cheerfully
+declared Altrata and GBG one company because both use Mimecast.
+
+Every one of those false positives was *plausible*, which is exactly the failure
+mode the duplicate-domain sweep already taught us — that sweep grouped six
+unrelated brokers because their opt-out pages all redirected through one
+interstitial. So the scanner now reports two tiers and will not merge them:
+
+- **CONFIRMED** — a provider-issued tenant identifier that is unique to one
+  customer.
+- **WEAK** — two domains merely sharing a mail host. Reported, never acted on
+  alone. Both remaining weak groups are Google Workspace and Amazon SES, i.e.
+  half the internet.
+
+Yield is low: 2 groups from 960 domains. But it costs one DNS lookup per domain,
+asks no one for anything, and works precisely on the acquisition case that every
+other method misses.
+
+**Related:** §78, §80, §88; `_FAMILIES.md`.
+
