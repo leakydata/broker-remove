@@ -3965,7 +3965,35 @@ a legally nominated address, not a demonstrated working consumer channel.** Both
 affected rows now carry `registry_verified_unmonitored` and point at the live
 address instead.
 
-**Related:** §64, §65, §78, §83.
+### The good version of the same thing
+
+Blackbaud's registered contact also refuses requests, but the refusal is
+everything Experian's was not:
+
+> *"This email address is intended for the handling of questions and complaints
+> regarding Blackbaud's privacy practices and is not a mechanism for the
+> submission of privacy rights requests... Your email to this inbox will not be
+> considered a valid submission of a privacy rights request, and the recipients
+> of emails to this address do not have the ability to action any such
+> requests."*
+
+It **names the limitation precisely**, says plainly that the request has not been
+received, and **gives a working destination**. Nobody is left believing a request
+is in flight when it is not.
+
+That is the whole difference. Both mailboxes decline; one tells you and points
+onward, the other consumes the letter or says only that it will not be read. When
+reporting this class of fault to a company, Blackbaud's autoreply is the model to
+point at — a single added sentence naming the real route converts a dead end into
+a redirect.
+
+**Also read such a page for what it does *not* restrict.** Blackbaud's form page
+says fulfilment of **correction and access** is limited to states with a
+comprehensive privacy law. It says no such thing about **deletion or opt-out of
+sale** — so those are the two to ask for from a state without one. The scope of a
+stated limitation is itself information.
+
+**Related:** §64, §65, §78, §83; `_DEFLECTIONS.md` §45, §46.
 
 
 ---
