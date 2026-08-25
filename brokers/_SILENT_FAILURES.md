@@ -5009,3 +5009,75 @@ rather than asking to be believed.**
 
 **Related:** §91, §96, §99; `_DEFLECTIONS.md` §54, §58.
 
+## §101 — The mailbox that sends but does not receive
+
+`optout@accurateappend.com`, **14:58**, a personalised confirmation naming exactly
+which of my details had been opted out:
+
+> *"Information opted-out: [name] / [current address] / [current phone] /
+> [current email]"*
+
+The same address, **15:20**, replying to my follow-up:
+
+> *"Please note that **this email address is not monitored.**"*
+
+Twenty-two minutes apart. The mailbox **sends** and does not **receive**.
+
+### This is worse than §85, and looks better
+
+§85 was Experian's mailbox announcing it was unmonitored — annoying, but honest,
+and immediately legible as a dead end. Here the first message is a **personalised
+confirmation containing my own data**, which is about as strong a signal as exists
+that a person is on the other end. Every instinct says *someone read my letter and
+acted on it*.
+
+They did not. A machine did, and nothing will read the reply.
+
+**So a confirmation that names your specific data is not evidence the mailbox is
+monitored.** That inference feels safe and is wrong.
+
+### The shape of the partial tells you which mechanism produced it
+
+This is the useful diagnostic, and it generalises.
+
+Accurate Append processed **four** identifiers out of roughly **forty**: one name,
+one address, one phone number, one email address. **Exactly one of each field
+type, all of them the current value.**
+
+That is not what careless human transcription looks like. A person skimming a long
+list and giving up drops a *ragged* subset — six of twelve emails, a few
+addresses, whatever they got through. **One-of-each-type is the signature of an
+automated single-value field parser**: it recognises `Name:`, `Phone:`, `Mailing
+address:`, `Email:`, takes the first value it finds for each, and ignores every
+subsequent line.
+
+| what the partial looks like | what produced it | what to do |
+|---|---|---|
+| exactly one of each field type | automated field extraction | email is useless — find the form; expect one value per submission |
+| ragged subset across categories | a human working through a list | reply with the remainder; a person will read it |
+| every stale value, current one missed | human working from the list as given | reply, flag the omission (§96) |
+| only stale values matched | genuine search result, not an error | that is a real finding (§87) |
+
+Sync.me's omission (§96) was the *ragged* kind — eleven of twelve emails, all
+eleven old numbers but not the current one. A human copying a long list. And a
+human read the follow-up and could act on it.
+
+Accurate Append's is the *parser* kind. The follow-up asking for the remaining
+thirty-six identifiers will not be read by anyone, ever.
+
+### What follows practically
+
+1. **Read the shape of a partial before writing a follow-up.** If it is
+   one-of-each-type, a follow-up is wasted effort; go straight to the form.
+2. **A form that takes one identifier per submission is the same limitation
+   surfacing in a different place.** Accurate Append's does, and so does
+   Speedeon's (*"Only one name and address may be included on this form"*). The
+   system holds one value per field, so every route it offers holds one value per
+   field. That is not obstruction, it is the data model showing through.
+3. **Correct a handoff when the facts change.** Mine told the reader to wait for
+   the email reply before touching the form. That instruction became wrong
+   twenty-two minutes after I wrote it, and a handoff that is confidently wrong is
+   worse than one that is vague.
+
+**Related:** §85, §87, §96; and the Speedeon note above on suppression scope.
+
