@@ -4032,3 +4032,63 @@ retries.
   not find out for two days.*
 
 **Related:** §64, §65, §83, §85.
+
+
+---
+
+## §87 The addresses that matched were the ones nobody would think to send
+
+BDEX ran a twelve-address list and reported back:
+
+> *"4 of 12 emails have associated BDEX data. Found: [gateway.net address],
+> [hotmail variant], [iwon.com address], [att.net address]."*
+
+**All four are dead.** `gateway.net` and `iwon.com` are long-defunct consumer
+ISPs; the other two are abandoned webmail accounts. **Not one currently-used
+address matched.**
+
+This project has argued from the start that a request should list every
+identifier a person has ever had. That was reasoning from how the industry works.
+This is the first case where a broker ran the full list and reported per-address
+results, and the argument turns out to be not merely right but *the whole thing*:
+
+**A consumer who submits only their current email address gets a truthful "no
+record found", and every record stays exactly where it is.**
+
+### Why the dead ones are the ones that match
+
+A marketing or identity record is created at the moment data is acquired, and it
+keeps whatever identifiers were current then. Nobody goes back and refreshes a
+2009 record with a 2026 address. So the older and more abandoned an identifier
+is, the more likely it is to be the key on a record that still exists — and the
+less likely the person is to think of it as theirs.
+
+Defunct-ISP addresses are the extreme case: `gateway.net`, `iwon.com`,
+`webtv.net`, `aol.com`, `juno.com`, `netzero.net`, `earthlink.net`. The provider
+is gone, the mailbox is unreachable, and the string is still a live join key in
+somebody's database.
+
+### What follows operationally
+
+- **Never let a requester trim the identifier list for brevity.** The instinct is
+  to send the two addresses currently in use. That is the one selection
+  guaranteed to miss.
+- **A dead mailbox is a search key, not a contact address**, and the letter must
+  say which — see §77. "Please search this, do not reply to it" is the whole
+  distinction and it takes one sentence.
+- **A null result on a short list is not evidence of anything.** When a broker
+  reports nothing found, check what they were given before recording
+  `not_found`. Several early letters in this project carried only four addresses;
+  those negatives are weaker than the ones that followed.
+- **Ask for per-identifier results.** "4 of 12, here they are" is checkable.
+  "No records found" is not, and the two can describe the same search.
+
+### Worth telling the broker
+
+BDEX prompts for a single email address on its opt-out. Saying so is free and
+lands as help rather than criticism:
+
+> If BDEX ever wants to make its opt-out more effective without doing more work,
+> prompting for prior addresses would do it.
+
+**Related:** §51, §53, §77.
