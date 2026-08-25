@@ -1544,3 +1544,60 @@ accusing anyone of trying to use it.
 information as sensitive personal information with a separate right to **limit
 its use and disclosure**, which survives independently of a deletion right. Ask
 for both.
+
+
+## Nonprofit and donor platforms  (e.g. Blackbaud, DonorSearch, iWave, Kindsight)
+
+These sit in **two positions at once**, and conflating them wastes the request.
+
+**Position one: service provider.** Most individual records are hosted for
+nonprofit, educational and healthcare customers running their fundraising or CRM
+systems on the platform. A deletion request for that data properly goes to the
+organisation. **Concede this immediately** — it is true, and a letter that ignores
+it invites a reply scoped entirely to it.
+
+**Position two: data broker.** These companies are *registered* as data brokers,
+which is a determination that they sell or share personal information about
+people **with whom they have no direct relationship**. That is a different
+dataset and it is what the letter should target.
+
+### The ask that matters: wealth screening
+
+Capacity-to-give ratings, estimated net worth, real-estate value, philanthropic
+propensity, major-gift likelihood. Name them, and say plainly why:
+
+> These are inferences you generated rather than facts I supplied, they are shown
+> to fundraising organisations who then decide how to approach me, and the person
+> they describe never sees them. **An estimate of what someone can afford to give
+> is a financial assessment made without their knowledge.**
+
+That framing does more work than a list, because it identifies the harm rather
+than the category.
+
+### Ask which customer organisations hold you
+
+If the answer is "go to the controller", the controllers must be named or the
+right is unexercisable. Offer the alternative that a service provider is
+generally required to assist with:
+
+> If that is commercially or contractually restricted, please say so plainly, and
+> please pass this request to them on my behalf instead.
+
+### Where a breach is in the picture
+
+Ask directly and without accusation, and connect it to the same gap:
+
+> A person who cannot find out which organisations hold their data through your
+> platform also cannot find out whether they were affected by a breach of it, and
+> those two gaps are the same gap.
+
+That reframes a breach question as a scope question, which is answerable, rather
+than as a grievance, which is not.
+
+### Search the institutional address
+
+Donor and alumni records are decades old and keep whatever address was current
+when the gift or enrolment was recorded. A `.edu` address and the postal
+addresses contemporaneous with the affiliation are the highest-value keys here —
+flag which prior addresses map to that period, since it narrows the search for
+them.
