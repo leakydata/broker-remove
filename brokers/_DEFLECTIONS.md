@@ -2855,3 +2855,96 @@ against a statute you cannot invoke. See §47 — "your state has no privacy law
 sometimes true, and the answer is not to argue it but to move the request onto
 ground that does not depend on it.
 
+## §58 — The qualified null
+
+Blueprint Audiences' Privacy Lead replied — carefully, in full sentences, from a
+named human address. It is the most sophisticated non-answer received in this
+project, and it is worth taking apart slowly, because at a glance it reads as a
+completed search.
+
+> *"Blueprint Audiences has reviewed its records and completed a search of the
+> **direct identifiable records** it maintains. We did not locate any **direct
+> identifiable records** for this individual in our systems.*
+>
+> *Blueprint Audiences does not maintain directly identifiable records in its
+> pseudonymous audience activation environment and does not reidentify
+> pseudonymous identifiers to a known individual. We have already forwarded this
+> request to applicable partners through our partner suppression workflow.*
+>
+> *Based on our review of the records maintained directly by Blueprint Audiences,
+> there is no further direct deletion action for Blueprint Audiences to take at
+> this time."*
+
+### Three distinct moves, each individually true
+
+**1. The qualifier carries everything.** "We did not locate any *direct
+identifiable* records" is not "we hold nothing about you." My letter had opened by
+predicting precisely this: *"A name-and-address search is likely to return nothing
+even when you do hold data about me, because the record is keyed to a pseudonymous
+identifier."* The search performed was the one I said in advance would come back
+empty.
+
+**2. A tautology presented as a finding.** *"Does not maintain directly
+identifiable records in its **pseudonymous** audience activation environment"* is
+true **by definition** — a pseudonymous environment holds pseudonymous records.
+It describes the architecture. It says nothing about whether anything in that
+environment corresponds to the person asking.
+
+**3. A statement about process, answering a question about data.** *"Does not
+reidentify pseudonymous identifiers to a known individual"* describes something
+they **do not do**. The question was what they **hold**. A company can hold a
+hashed email that identifies someone perfectly well as a match key while never
+once reidentifying it to a name. **Both facts are simultaneously true, and the
+second does not answer the first.**
+
+### Why this is harder to answer than §54
+
+§54 ("we don't collect name or email") is visibly a statement about collection.
+This one **has the shape of a completed search** — records reviewed, search
+completed, no results, no further action. Every structural cue says *resolved*.
+Only the adjective says otherwise.
+
+### The lever: suppression implies a key
+
+The strongest thing in the reply is also the loose thread, and it should be pulled
+**as a question, not an accusation**:
+
+> *"You forwarded the request to partners through your partner suppression
+> workflow. Suppression normally operates against an identifier — a partner has to
+> be told what to suppress. So: what identifier was forwarded? If a hash or key of
+> mine was passed to partners, then such a key existed here, and I would like it
+> deleted as well as suppressed."*
+
+A null and a forwarded suppression are hard to hold together without a key
+somewhere. Say that you are not alleging untruthfulness and would rather ask than
+assume — because there *are* innocent answers (a generic workflow, a
+partner-side-only match), and the point is to find out which.
+
+### Also: correct a mischaracterisation of who is asking
+
+This reply described the request as *"submitted on behalf of the individual
+identified in your correspondence"* — i.e. recast a first-party consumer as an
+**authorized agent**, despite the letter's opening line saying the opposite.
+
+Correct it, briefly and factually, and say why it matters: **agent-submitted
+requests carry additional authorisation requirements and are sometimes declined
+for want of them.** Left uncorrected, it sits in the file as a ready-made reason
+to refuse later. Do not treat it as bad faith — long letters get skimmed — but do
+not let it stand.
+
+### The reply that fits
+
+1. **Credit what was actually done.** They forwarded to partners unprompted and
+   said so. That is item 3 of the standard request, delivered without chasing.
+   Lead with it.
+2. **Accept the finding as stated** — the direct-identifiable search really did
+   come back empty, and saying so costs nothing.
+3. **Name the qualifier** and show it answers a predicted false negative.
+4. **Re-ask the hash question with the hash-it-yourself clause**, which reduces it
+   to a lookup requiring nothing from the consumer.
+5. **Pull the suppression thread as a question.**
+6. **Re-commit to accepting a clean answer**, and mean it — see
+   `_SILENT_FAILURES.md` §99.
+
+**Related:** §54, §55; `_SILENT_FAILURES.md` §91, §99.
+
