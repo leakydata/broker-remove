@@ -4714,3 +4714,71 @@ so the honest use of it trips the bot protection) rather than defending it.
 the evidence that it works: a company given three distinct questions answered
 three distinct questions.
 
+## §97 — The best tool in the country is available in one state
+
+Datasys's General Counsel refused email by name — *"Sending a request to this
+email address does not complete the privacy-request submission process"* — and
+then, unusually, named **three** routes instead of one. The third was this:
+
+> *"California residents: Datasys Group, Inc. is a registered California data
+> broker. California residents may also submit a deletion request through
+> California's Delete Request and Opt-Out Platform (**DROP**)."*
+
+DROP is the mechanism created by California's DELETE Act (SB 362). Since 1
+January 2026 a consumer submits **one request** and **every active registered
+data broker** must honour it. Against a list of several hundred brokers, that is
+not an incremental improvement over writing letters — it is a different category
+of thing. It is, by a wide margin, the single highest-leverage action available to
+a consumer anywhere in the United States.
+
+**It is restricted to California residents.** The CPPA's own wording:
+
+> *"As of January 1, 2026, **California residents** may use DROP to submit one
+> request to all active data brokers."*
+
+So it is unavailable here, and unavailable to residents of forty-nine states. It
+must not be attempted by claiming a residency one does not have — that is a false
+statement to a regulator's platform, and it would poison every legitimate request
+in this project.
+
+### What this means alongside §95
+
+Two findings that belong together:
+
+- **§95** — California is the only state whose data broker registry can be read
+  in bulk. The other three require an account, a CAPTCHA, or JavaScript. That is
+  why 517 of the brokers in this repository came from California filings.
+- **§97** — California is also the only state where a consumer can act on that
+  list with one submission instead of several hundred.
+
+The same state has both the **readable list** and the **single lever**. Everyone
+else gets neither, and has to do what this project does: enumerate brokers by
+hand from whatever sources can be scraped, then write to each one individually,
+then chase each reply.
+
+The gap is not about how many brokers operate in each state — the brokers are
+national and mostly identical. **It is entirely about what one state's
+implementation makes possible.**
+
+### The practical consequence for anyone using this repository
+
+If you live in California: **use DROP first.** One submission does more than
+everything in this repository combined, and the letters are then only for brokers
+that are unregistered, out of scope, or that you want a substantive answer from
+rather than just a deletion.
+
+If you do not: this repository is the workaround, and the volume is the point.
+
+### One thing worth taking from Datasys regardless
+
+They also gave a **postal address** — 750 Park of Commerce Drive, Suite 150, Boca
+Raton, FL 33487. Postal is the only channel in this entire project that **no
+technical gate can close**. No account, no CAPTCHA, no JavaScript, no
+autoresponder loop, no location gate. It is slow and it costs a stamp, and it
+works when every other route has failed.
+
+Worth asking for by default when a portal turns out to be unreachable: *"if the
+form is not usable, what postal address may I write to?"*
+
+**Related:** §95; `_DEFLECTIONS.md` §56, §57.
+
