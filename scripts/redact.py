@@ -172,4 +172,21 @@ if __name__ == "__main__":
     for f, i, t in hits:
         print(f"  {f}:{i}  contains profile value: {t[:28]!r}")
     print(f"\n{len(hits)} personal-data occurrence(s) in files git would publish")
+    if hits:
+        # Every catch so far has had the same cause: quoting a real value while
+        # writing up a finding, to make the evidence concrete. The finding has
+        # never actually needed the value -- a placeholder carries the same
+        # point. Say so here rather than only refusing, because the person
+        # reading this is mid-writeup and about to reach for a workaround.
+        print(
+            "\nThis is almost always a quoted value in a writeup. Replace it with a\n"
+            "placeholder -- [name], [current address], 'one of the twelve email\n"
+            "addresses' -- rather than trimming the sentence. The argument reads the\n"
+            "same without the value, and the value is the only part that cannot be\n"
+            "unpublished.\n"
+            "\n"
+            "If a specific value genuinely IS the finding, add it to\n"
+            "data/redaction_allowlist.json for that one file. Do not widen the\n"
+            "allowlist to make a commit pass."
+        )
     sys.exit(1 if hits else 0)
