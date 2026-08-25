@@ -52,7 +52,7 @@ To help you locate my records, my identifying details are:
   Mailing address: {street}
                    {city}, {state} {zipc}
   Email addresses: {emails}
-{prior_block}
+{profile_block}{prior_block}
 This request covers records associated with ANY of the identifiers listed above —
 every email address, every prior address, and every prior telephone number, not
 only the current ones. Please search each of them.
@@ -60,7 +60,7 @@ only the current ones. Please search each of them.
 I have listed prior addresses and old telephone numbers deliberately. Records are
 frequently indexed against a former address or a disconnected number rather than
 a current one, and a search limited to my present details will miss them.
-
+{suppress_block}
 I am exercising rights available to me under applicable state consumer privacy
 law, including the California Consumer Privacy Act as amended by the CPRA
 (Cal. Civ. Code 1798.105 and 1798.120) where applicable, and comparable statutes
@@ -88,6 +88,34 @@ CONTACT_NOTE = ("\nThat address is a contact address for this request; the "
                 "records to be deleted are\nthose associated with the details "
                 "listed above.")
 
+# A public profile is re-scraped continuously, so a deletion that leaves nothing
+# keyed against the SOURCE is undone at the next crawl and the person never
+# learns of it. The profile URL is the only identifier the subject can supply
+# that is also stable over time and is itself the collection input -- the exact
+# opposite of a device ID, which the subject structurally cannot produce. It also
+# reaches records the subject could never name, such as work addresses derived
+# from an employment history rather than collected. See _SILENT_FAILURES.md #90.
+SUPPRESS_BLOCK = """
+Please also add the public profile URL listed above to any internal suppression
+list you maintain, and please make that suppression:
+
+  (a) forward-looking -- applied against future ingestion, not only against the
+      records you hold today, so that a re-crawl of that page does not simply
+      re-create what you have deleted; and
+  (b) exclude-only -- used to keep me out, never as a match key to identify me in
+      an incoming feed.
+
+I am not objecting to your retaining the URL for the first purpose. I am asking
+you to confirm which of the two it is used for, because the same string does
+opposite work depending on the answer.
+
+If you hold any email address for me that was DERIVED rather than collected -- a
+first.last@employer pattern constructed from my name and employment history
+rather than one I have ever used -- that is a record about me and it is within
+this request. I cannot list such addresses, because I have never owned them. You
+can generate them from the same public profile they were built from.
+"""
+
 
 def load_profile():
     p = json.loads((state("profile.json")).read_text())
@@ -106,6 +134,24 @@ def load_profile():
         prior += [" " * 19 + n for n in p["prior_phones"]]
     prior_block = ("\n" + "\n".join(prior) + "\n") if prior else "\n"
 
+    # Addresses that still match records but can no longer receive mail. Marked
+    # inline so no broker sends a verification link to a mailbox nobody can open
+    # -- a silent failure that looks identical to being ignored.
+    closed = {e.lower() for e in p.get("closed_emails") or []}
+    email_lines = [
+        e + ("   (closed mailbox — a search key only, not a reply address)"
+             if e in closed else "")
+        for e in emails
+    ]
+
+    profiles = p.get("public_profiles") or []
+    if profiles:
+        label = "  Public profile:" if len(profiles) == 1 else "  Public profiles:"
+        profile_block = ("\n" + label + " " * (19 - len(label) + 2) +
+                         indent.join(profiles) + "\n")
+    else:
+        profile_block = ""
+
     mid = (p.get("middle_name") or "").title()
     full = " ".join(x for x in [p["first_name"].title(), mid, p["last_name"].title()] if x)
     aliases = p.get("variants", {}).get("name_forms") or [full]
@@ -117,7 +163,9 @@ def load_profile():
         "dob": p.get("dob_display") or p.get("date_of_birth") or "(not provided)",
         "prior_block": prior_block,
         "email": (p.get("confirmation_email") or p["email"]).lower(),
-        "emails": indent.join(emails),
+        "emails": indent.join(email_lines),
+        "profile_block": profile_block,
+        "suppress_block": SUPPRESS_BLOCK if profiles else "",
         "phone": p["phone_number"],
         "street": p["address"],
         "city": p["city"].title(),
