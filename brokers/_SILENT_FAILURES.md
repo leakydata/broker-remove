@@ -6106,4 +6106,26 @@ raised as a factual inconsistency to resolve rather than a point to win.
 This is only visible because the roster was enumerated. A sibling list is not just
 extra coverage; it is a **cross-check on what the parent tells you about itself.**
 
+### And the letter meant to fix it had the same bug
+
+The grouped supplement built this morning (§114) names a mailbox's sibling brands in
+the body, so one letter covers a whole family. It named two of 33 Mile Radius's four.
+
+The sibling list was built from the **supplement candidate list** rather than from
+the registry. A supplement candidate is by definition a broker that has already been
+written to — so the brands the letter named were exactly the ones that least needed
+naming, and **EverConnect and Five Star Rated, which had never been contacted and
+never would be, were silently dropped.**
+
+The two guards compose into a hole. `queue_batch` will not write to them because the
+address is already spoken for. The supplement letter will not name them because they
+have no prior contact to supplement. Each rule is right on its own, and between them
+a broker becomes unreachable by any path — with no status to show for it, because
+nothing failed.
+
+Fixed by keying the sibling list on the whole registry, and verified against a live
+candidate: Alliant's letter now names Alliant Cooperative Data Solutions LLC, which
+it previously could not have. A correction went to the 33 Mile Radius thread naming
+the two omitted brands.
+
 **Related:** §114, §117, §112, `_DEFLECTIONS.md` §63.

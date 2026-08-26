@@ -215,10 +215,29 @@ def main():
     for bid, b, rec, d in cand:
         by_addr.setdefault(b["email_to"].lower(), []).append((bid, b, rec, d))
 
+    # The sibling list has to come from the WHOLE registry, not from the
+    # candidate list. Grouping over candidates only names brands that were
+    # themselves eligible for a supplement -- which by definition means they had
+    # already been written to. The siblings that most need naming are the ones
+    # that never were: queue_batch refuses to send to them because the address is
+    # already spoken for (_SILENT_FAILURES 114), so the only letter that can ever
+    # reach them is this one, and they were the ones being left out of it.
+    #
+    # 33 Mile Radius is the case that showed it. Four brands sit on
+    # operations@ignitevisibility.com; the letter named the two that already had
+    # a status and silently omitted EverConnect and Five Star Rated, which had
+    # none and never would.
+    all_on_addr = {}
+    for bid, b in reg.items():
+        e = (b.get("email_to") or "").lower().strip()
+        if e:
+            all_on_addr.setdefault(e, []).append(bid)
+
     out = []
     for addr, members in list(by_addr.items())[:args.size]:
         bid, b, rec, d = members[0]          # earliest-contacted drives the date
-        siblings = [m[1].get("name", m[0]) for m in members[1:]]
+        siblings = [reg[o].get("name", o)
+                    for o in all_on_addr.get(addr, []) if o != bid]
         ref = ""
         if rec.get("confirmation_ref"):
             ref = f" (your reference {rec['confirmation_ref']})"
