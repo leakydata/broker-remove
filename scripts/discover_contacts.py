@@ -69,8 +69,34 @@ PREFER = ["privacy", "dataprivacy", "dpo", "dsr", "dsar", "optout", "opt-out",
           "hello", "help"]
 
 # Addresses that are never a privacy route, however privacy-ish they look.
-JUNK = re.compile(r"(no-?reply|do-?not-?reply|example\.|sentry|wixpress|"
+# `example@` is here because socialcatfish.com publishes the literal placeholder
+# `example@domain.com` in its page text; an earlier pattern only caught
+# "example." and let it through.
+JUNK = re.compile(r"(no-?reply|do-?not-?reply|^example@|example\.(com|org|net)|"
+                  r"your-?email|user@|name@|sentry|wixpress|"
                   r"\.png$|\.jpg$|\.gif$|\.webp$|\.svg$)", re.I)
+
+# A ROLE mailbox only. This is a rule, not a preference, and the difference
+# matters twice over.
+#
+# The first run of this scan returned a named individual's work address at a
+# large company, scraped out of a page footer -- someone who has nothing to do
+# with this request, whose personal data would then have been written into a
+# public repository and possibly written to. That is the exact harm the whole
+# project exists to undo, produced by our own tooling.
+#
+# The second reason is smaller but real: ziprecruiter.com yielded
+# `accessibility@` -- right domain, wrong function. Ranking it last still left it
+# first when nothing better existed, so a privacy request would have gone to an
+# accessibility desk.
+#
+# So: if no address on the page has a recognised role prefix, report nothing.
+# "No published privacy contact" is the honest finding, and by this script's own
+# doctrine it sends you to look again, which a wrong address does not.
+ROLE = re.compile(r"^(" + "|".join(re.escape(p) for p in
+                  ["privacy", "dataprivacy", "data-privacy", "dpo", "dsr", "dsar",
+                   "optout", "opt-out", "donotsell", "do-not-sell", "compliance",
+                   "legal", "gdpr", "ccpa"]) + r")[a-z0-9._-]*@", re.I)
 
 
 def resolves(domain):
@@ -140,9 +166,11 @@ def scan(bid, domain):
         if linked:
             break          # a linked address on an earlier path is the best signal
 
-    cands = sorted(linked, key=lambda a: rank(a, domain))
+    cands = [a for a in sorted(linked, key=lambda a: rank(a, domain))
+             if ROLE.match(a)]
     if not cands:
-        cands = sorted(plain, key=lambda a: rank(a, domain))
+        cands = [a for a in sorted(plain, key=lambda a: rank(a, domain))
+                 if ROLE.match(a)]
     if not cands:
         return None
     best = cands[0]

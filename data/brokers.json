@@ -24865,13 +24865,16 @@
       "name": "Zeta Global",
       "domain": "zetaglobal.com",
       "domain_source": "derived_from_optery_slug",
-      "priority": 1,
+      "priority": 3,
       "method": "unknown",
       "optout_url": "",
       "needs_email_confirm": null,
       "source": "optery",
       "optery_slug": "zeta-global",
-      "optery_url": "https://www.optery.com/data-brokers/zeta-global/"
+      "optery_url": "https://www.optery.com/data-brokers/zeta-global/",
+      "email_to": "privacy@zetaglobal.com",
+      "email_verified": true,
+      "email_verified_by": "published_mailto_on_own_privacy_policy"
     },
     {
       "id": "ziprecruiter",

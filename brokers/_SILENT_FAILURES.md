@@ -6181,3 +6181,59 @@ which the subject has never owned and cannot supply. So the follow-up asked for 
 as good as the key it is indexed on.
 
 **Related:** §96, §103, §90, §108.
+
+---
+
+## §120
+### Our own tool scraped a stranger's email address
+
+`discover_contacts.py` (§ preceding commit) looks for a published privacy address on
+the sites of the 122 route-less brokers that at least have a domain. The first full
+run returned **10 usable-looking addresses out of 122**, and triaging them honestly
+is more instructive than the hit rate:
+
+| finding | verdict |
+|---|---|
+| `privacy@zetaglobal.com`, linked on their own privacy policy | **the one real result** |
+| `leads@`, `team@` on their own domains | wrong function, sales desks |
+| `accessibility@ziprecruiter.com` | right domain, **wrong function entirely** |
+| four addresses on *other companies'* domains | correctly flagged OFF-DOMAIN |
+| `example@domain.com` | literal placeholder text on the page |
+| a named individual's work address at a large company | **should never have been emitted** |
+
+That last row is the one that matters. The tool scraped a real person's name-based
+work address out of a page, and the next steps in the pipeline would have written it
+into a **public repository** and possibly written *to* it. A private individual who
+has nothing to do with this request would have had their personal data republished
+by the project that exists to get personal data taken down.
+
+Nothing malicious and nothing exotic — the ranking function preferred role prefixes
+but *fell back* to whatever it found when none existed. A preference is not a
+constraint, and the difference only shows up on the inputs where the preference
+fails.
+
+**The fix is a rule, not a better ranking.** An address is now reported only if its
+local part matches a known role prefix — privacy, dpo, dsr, optout, compliance,
+legal, gdpr, ccpa. If nothing on the page matches, the answer is *nothing found*.
+That is the script's own doctrine applied to itself: a false confirmation is worse
+than a null, because a null sends you to look again and a wrong address does not.
+
+Re-verified after the change: it still finds `privacy@infotracer.com`,
+`privacy@spokeo.com` and `privacy@zetaglobal.com`, and now returns nothing for
+ziprecruiter, unity and socialcatfish. **Nine of the ten original results were
+rejected and the one real one survived** — which is the right shape for a tool whose
+output becomes a letter.
+
+### The honest yield
+
+One usable address from 122 domains. This is not the unlock it looked like: most of
+those sites either block automated fetches, publish no address, or route everything
+through a form. The 280 route-less rows are mostly going to stay route-less, and the
+useful conclusion is that **they should be counted as leads rather than as brokers
+remaining** — otherwise every progress figure is measured against a denominator that
+includes companies nobody can write to.
+
+The one result was worth having, though. Zeta Global runs a large identity graph and
+had never been contacted at all.
+
+**Related:** §117, §108, `_DEFLECTIONS.md` §67.
