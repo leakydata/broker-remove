@@ -3383,3 +3383,40 @@ no route exists — which gives them something easy to say yes to.
 
 **Related:** §61 (the deflection that is a schema rather than a decision — this is
 its geographic twin), `_SILENT_FAILURES.md` §110, §109.
+
+---
+
+## §63
+### The address that answers is not the address that acts
+
+**Shape:** you write to the contact address a broker published — often the very one
+in its state registry filing — and get a courteous reply saying that this mailbox
+handles customer service and *"we do not process privacy requests received via
+email,"* followed by a link to a form.
+
+**Is it legitimate?** Under CCPA Reg §999.312(e)(2) a business that receives a
+request through a non-designated channel must either treat it as validly submitted
+or tell the consumer how to submit it properly. These replies do the second thing,
+so on the regulation's own terms they are compliant. Do not argue that point; it is
+not winnable and it is not the interesting part.
+
+**What is worth noticing** is what the reply does to your records. Every request you
+sent to that address before the reply arrived was, by the company's own account,
+never processed. If a status in your tracker says `submitted` on the strength of an
+email to a mailbox that refuses email, that status is describing something that did
+not happen.
+
+**And check before you downgrade.** When we swept the six brokers in this position,
+five turned out to be properly backed — three by a consolidated letter to the
+corporate estate's *privacy* address, which is a different channel and does work,
+and two by self-service submissions confirmed on screen. Only one rested on nothing.
+Downgrading all six would have thrown away four real submissions and one confirmed
+one.
+
+**The useful move:** find the address that *does* act. It is rarely the one on the
+website. For a family of brands it is often the parent's registry-filed privacy
+address, which answers precisely because it was filed for this purpose — while the
+consumer-facing support desks are staffed to sell subscriptions and are told to
+deflect.
+
+**Related:** §61 (the deflection with no author), `_SILENT_FAILURES.md` §112, §103.

@@ -5719,3 +5719,60 @@ state registry, send nothing, and count the 550s. It is the kind of sweep a
 regulator could run in an afternoon.
 
 **Related:** §88, §92 (null MX), §107, §109.
+
+---
+
+## §112
+### Seven brands, one refusal, word for word
+
+Writing to a people-search site's support address gets this back:
+
+> "This email address is dedicated to customer service inquiries and is not
+> intended for privacy-related requests. We do not process privacy requests
+> received via email."
+
+We have now had that text back **character-for-character identical** from seven
+brands: PeopleSearchNow, Phonebooks, AdvancedBackgroundChecks, FastPeopleSearch,
+SpyDialer, TruePeopleSearch and FamilyTreeNow.
+
+Four of those seven are named on Mississippi Tornado Alley LLC's California
+registration. **Three are not.**
+
+So this is a third family-fingerprinting technique, and it has a different reach
+from the other two:
+
+| Signal | Strength | Finds |
+|---|---|---|
+| Shared mail tenant (§89) | circumstantial — shared hosts exist | who runs the mailboxes |
+| Compliance-portal menu (§109) | the operator's own client list | who the vendor answers for |
+| Identical support boilerplate | strong, but ambiguous in one specific way | who shares a *support desk* |
+
+The ambiguity is real and worth stating rather than papering over: identical
+boilerplate can mean one operator, or it can mean two operators using the same
+support vendor's canned reply. The reason to act on it anyway is that the two
+possibilities have the same next step — **ask the estate you already know about
+whether the unattributed brands are theirs**, and offer them the vendor explanation
+as an out. Either answer moves you forward, and only silence does not.
+
+We sent exactly that on 2026-08-26 to `privacy@mtalley.zendesk.com`, quoting the
+boilerplate and naming the three outsiders.
+
+**The second thing this catches.** A brand that sends this reply has stated in
+writing that email does not reach its privacy function. That retroactively weakens
+every `submitted` status resting on an email to it. Check each one before
+downgrading, though — five of our six looked wrong and turned out to be fine:
+
+- three were separately covered by the consolidated letter to the estate's
+  *privacy* address, which is a different channel and does work;
+- two had on-screen confirmed self-service submissions.
+
+Only **SpyDialer** had nothing underneath — its `submitted` had been adopted from a
+shared ledger with the note *"another agent recorded submitted, no detail is
+carried across"*, and the sole reply we have ever had from it is the refusal.
+Downgraded to `manual_required` and staged against the real form.
+
+The lesson is not "downgrade on sight." It is that **a refusal template is a reason
+to re-check every status that rests on that channel**, and the check has to look at
+what each status actually rests on, one at a time.
+
+**Related:** §89, §109, §103, `_DEFLECTIONS.md` §63, `_FAMILIES.md`.
