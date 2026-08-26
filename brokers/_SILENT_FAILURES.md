@@ -5965,3 +5965,64 @@ the reply arrived. If it does, the other session has it. Move to the structural
 queue instead.
 
 **Related:** §94, §113, §114.
+
+---
+
+## §117
+### Twenty-six third-party opt-out hosts, and what the biggest one hides
+
+After the privacycompliance.biz find (§109), the obvious next question was how many
+*other* brokers route their opt-out to a domain they do not own. Answer, from the
+registry: **26 distinct third-party hosts**, and the distribution is not what the
+portal-menu story would predict.
+
+| host | brokers routed to it |
+|---|---|
+| infotracer.com | **53** |
+| onetrust.com | 11 |
+| truthfinder.com | 9 |
+| peopleconnect.us | 5 |
+| privacycompliance.biz | 5 |
+| intelius.com | 5 |
+
+`onetrust.com` is a compliance SaaS with thousands of unrelated customers — a shared
+*vendor*, not a family, and grouping on it would be the Mimecast mistake from §89.
+The rest are brokers hosting their own siblings' opt-outs, which is the real signal.
+
+**InfoTracer at 53 was already handled well**, and it is worth saying so: one ticket
+(537420) carried a scope clarification covering "all InfoTracer properties including
+the 46 state arrest-record sites," and that coverage was propagated to every row.
+That is exactly the right shape, and it was done before this sweep.
+
+**What the sweep found was the edge of it.** Five sites routed to
+`infotracer.com/optout` had no status at all — texasarrests.org, uswarrants.org,
+usrecords.net, govwarrantsearch.org, affordablebackgroundchecks.com. Texas, missing
+from a list of forty-six state arrest sites, is the tell: the propagation was done
+by hand against a list, and the list was one short.
+
+**And the roster was never split.** InfoPay, Inc.'s California filing names twelve
+brands in a single field — InfoTracer, GoodCar, PropertyChecker, EntityCheck,
+Sentinex, CourtCaseFinder, StateCourts, ThePublicIndex, IDStrong, CourtRecords,
+StateRecords, RecordsFinder. `_FAMILIES.md` already warns that the name field is
+often a brand list. This one had been imported as a single row, id
+`infotracer_goodcar_propertychecker_entitycheck_sentinex_cour`, **with no status** —
+seven of the twelve brands existed nowhere else in the registry.
+
+So the phrase "all InfoTracer properties" was doing more interpretive work than a
+scope clarification should. GoodCar is an InfoPay property; whether it is an
+*InfoTracer* property is exactly the kind of thing a support agent resolves in
+whichever direction is less work.
+
+**The fix is not to assume in our favour.** Fourteen rows are now tracked, but
+against a letter that names every brand and every missed site explicitly and asks
+one question: does one suppression cover them all, or are some separate controllers?
+Either answer closes the ambiguity; assuming the generous reading would have left
+fourteen `submitted` statuses resting on a phrase.
+
+**A fault report went with it.** The InfoTracer opt-out form takes first name, last
+name, state and city — nothing else. A name-and-city search cannot reach records
+keyed to identifiers the consumer no longer uses, and those are precisely the
+records they cannot find in order to ask for removal. The form's shape decides the
+ceiling on what any request through it can achieve.
+
+**Related:** §109, §112, §89, `_FAMILIES.md`.
