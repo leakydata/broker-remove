@@ -3420,3 +3420,53 @@ consumer-facing support desks are staffed to sell subscriptions and are told to
 deflect.
 
 **Related:** §61 (the deflection with no author), `_SILENT_FAILURES.md` §112, §103.
+
+---
+
+## §64
+### Closed, and how would you rate us?
+
+**Shape:** you ask a specific question. The reply answers something adjacent. You
+follow up, shorter, with the one question isolated. The next thing you receive is
+**a customer-satisfaction survey** — the ticket is closed and the question was
+never touched.
+
+Nuwber did this on 2026-08-26. Three asks, none answered:
+
+1. A five-question letter came back with *"your information has already been
+   deleted"* plus a paragraph on Google's cache — the one thing they explicitly
+   cannot control.
+2. A deliberately short follow-up isolated the single question: deletion or
+   suppression?
+3. The ticket was closed and a survey sent.
+
+**Why it is worth a name.** There is no refusal anywhere in this. Nobody declined
+to answer, so there is nothing to escalate and nothing to quote. A support system
+measured on ticket closure and satisfaction treats a closed ticket as a success,
+and a question that does not map to a macro is friction on the way there. The
+survey is not cynicism; it is the workflow reaching its end state.
+
+It is also, quietly, the most effective deflection in this file — because it leaves
+the consumer holding a **real** outcome. The Nuwber profile genuinely is down. It
+is easy to accept that as the answer and stop, and only notice months later that
+nobody ever said whether it stays down.
+
+**The response.** Reply once more, and make three things explicit:
+
+- **Decline the survey, and say why** — "I would rather not rate the exchange
+  before the question in it has been answered." This is not point-scoring; on
+  Zendesk-style systems a reply reopens the ticket, and it names the thing that
+  just happened without accusing anyone.
+- **Offer the easy answer.** *"If nobody there can answer it, or if the answer is
+  'deletion only, we do not hold suppression entries,' say so in a line — I will
+  record it and will not write again."* A support agent who cannot answer a
+  technical question can very often forward one that has been reduced to a
+  sentence.
+- **State the default.** *"If I do not hear back, I will record it as
+  deletion-only."* That converts silence into an answer with a cost, and it is
+  honest — it is what you are going to do anyway.
+
+**Do not click the rating.** A rating closes the loop on their side and gives the
+thread a terminal state.
+
+**Related:** §58 (the qualified null), `_SILENT_FAILURES.md` §112.
