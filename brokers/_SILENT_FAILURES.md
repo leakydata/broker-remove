@@ -6290,11 +6290,26 @@ and, four paragraphs later:
 > "If you can't find what you need using the links above, please contact
 > privacy@zetaglobal.com."
 
-Not worth treating as evasion — it is a template assembled from two blocks written
-at different times. But it is worth **using**: the second sentence is a standing
-invitation for exactly the case where the forms are insufficient, which is the case
-here. Quote both lines back, say which one you are relying on, and offer to stop if
-the other is the operative one. That is honest, it costs nothing, and it converts an
-inconsistency into a door.
+We did exactly that — quoted both lines back, said we were relying on the
+invitation, and offered to stop if the refusal was the operative sentence.
+
+**The reply came back 83 seconds later, byte-identical.**
+
+So the address is a pure autoresponder, and the sentence *"if you can't find what
+you need using the links above, please contact privacy@zetaglobal.com"* points at a
+mailbox whose only behaviour is to send that sentence. **The escape hatch is a
+referral cycle of length one.**
+
+That is worth naming, because it is not the ordinary portal deflection. A portal
+deflection redirects you somewhere that exists. This one offers a route for the case
+the forms cannot cover, and the route returns you to the offer. Nobody built it that
+way on purpose — an autoresponder was pointed at an address, and the text it sends
+names that address — but the effect is that the one question the forms have no field
+for has **no channel at all**. Not refused. Unaskable.
+
+**The practical rule:** a second identical reply is proof of an autoresponder, and a
+third is guaranteed. Stop writing, record that the channel is closed, and treat the
+forms as the only route — while noting in the record exactly which question was left
+unanswerable, because that gap is the finding.
 
 **Related:** §90, §112, `_DEFLECTIONS.md` §63, §69.
