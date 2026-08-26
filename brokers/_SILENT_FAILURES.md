@@ -6237,3 +6237,64 @@ The one result was worth having, though. Zeta Global runs a large identity graph
 had never been contacted at all.
 
 **Related:** §117, §108, `_DEFLECTIONS.md` §67.
+
+---
+
+## §121
+### Two forms, split along the same seam as the data, and the join belongs to neither
+
+Zeta Global describes its own holdings accurately:
+
+> "Some of the data we maintain is linked to your email address, and some is linked
+> to cookies that may be present on your browser."
+
+And then offers **two different request forms** — a OneTrust DSAR form for the
+email-linked data, and a separate page for the cookie-linked data.
+
+Both forms work. Neither is a deflection. But in an identity business the asset is
+not either side: it is **the edge asserting that this email and this cookie are the
+same person.** That edge is not email-linked data, and it is not cookie-linked data.
+It is the join, and the request mechanism has been partitioned along exactly the
+seam where the join sits.
+
+So a consumer who diligently completes both forms may have cleared the two endpoints
+and left the graph able to reconnect them the next time either identifier arrives
+from a supplier. From outside there is no way to tell, and **nothing in either form
+has a field to ask.**
+
+This is §90's suppression-hash question in a new form, and it generalises: whenever a
+company splits its request surface by data type, ask which surface owns the
+relationships *between* the types. The answer is often that nobody wrote a form for
+it, because a relationship is not the kind of thing a DSAR form is shaped to
+describe.
+
+**Two more limits worth asking about at any cookie-based opt-out:**
+
+- A cookie form can only reach cookies **on the browser being used**. A cookie or
+  device identifier on a browser abandoned years ago, or a replaced phone, is
+  unreachable by construction — and is still an identifier linked to the person in
+  the graph. The form's reach is bounded by the consumer's current device, while the
+  data's reach is not.
+- A form keyed to a **typed** email address may return an accurate answer to the
+  wrong question if the company holds hashes. Ask them to hash the address
+  themselves; they have the function and you have supplied the input.
+
+### And an address that both refuses and invites
+
+The same message contains:
+
+> "These requests cannot be made through privacy@zetaglobal.com."
+
+and, four paragraphs later:
+
+> "If you can't find what you need using the links above, please contact
+> privacy@zetaglobal.com."
+
+Not worth treating as evasion — it is a template assembled from two blocks written
+at different times. But it is worth **using**: the second sentence is a standing
+invitation for exactly the case where the forms are insufficient, which is the case
+here. Quote both lines back, say which one you are relying on, and offer to stop if
+the other is the operative one. That is honest, it costs nothing, and it converts an
+inconsistency into a door.
+
+**Related:** §90, §112, `_DEFLECTIONS.md` §63, §69.
