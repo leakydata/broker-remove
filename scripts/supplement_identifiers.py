@@ -120,6 +120,8 @@ def main():
                     help="identifiers added since; default reads _late_identifiers "
                          "from profile.json")
     ap.add_argument("--size", type=int, default=10)
+    ap.add_argument("--broker", action="append", default=None,
+                    help="generate for these broker ids only. send_plan.py\ndecides what to send; this flag lets it drive the generator instead of the\ngenerator re-deciding with a different filter.")
     ap.add_argument("--summary", action="store_true")
     args = ap.parse_args()
 
@@ -147,7 +149,14 @@ def main():
         b = reg.get(bid)
         if not b or not b.get("email_to"):
             continue
-        if rec.get("supplemented"):
+        # send_plan.py already refuses these; the generator must refuse them
+        # too. When only one of the two filtered, a broker skipped on purpose
+        # (shared mailbox with a broker already written to) came back at the
+        # top of the generator's list -- one copy-paste from a duplicate
+        # letter to an address that had already had one.
+        if rec.get("supplemented") or rec.get("supplement_skipped"):
+            continue
+        if args.broker and bid not in args.broker:
             continue
         cand.append((bid, b, rec, d))
 

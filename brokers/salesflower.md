@@ -1,10 +1,8 @@
-# ResearchUSA
+# Salesflower
 
-- **Email:** ~~privacy@researchusallc.com~~ — **hard-bounces 550, do not use.** It is
-  the address in their own California registry filing; the mailbox does not exist.
-- **Method:** web — the `privacycompliance.biz` portal is the only working route.
-- **Opt-out:** https://privacycompliance.biz/other-researchusallc/
-- **Domain:** researchusallc.com
+- **Opt-out:** https://privacycompliance.biz/other-salesflower/
+- **Method:** web — 
+- **Domain:** salesflower.com
 - **Priority: 2.**
 
 ## Status
@@ -17,7 +15,7 @@
 **Use the portal, not email.** See `_PRIVACYCOMPLIANCE_FAMILY.md` for the full
 picture; the short version:
 
-1. Open `https://privacycompliance.biz/other-researchusallc/`. Enter email address and full name.
+1. Open `https://privacycompliance.biz/other-salesflower/`. Enter email address and full name.
 2. Open the link emailed by `OptOut@privacycompliance.biz`. It expires.
 3. Enable **all three** toggles — opt-out of sale, delete, disclosure of categories.
    They are independent.
@@ -25,7 +23,7 @@ picture; the short version:
 
 ## Gotchas
 
-ResearchUSA is one of fourteen brands run through a single compliance portal by one
+Salesflower is one of fourteen brands run through a single compliance portal by one
 operator in Omaha. A suppression recorded under one brand and not the others is not
 a suppression if the underlying file is shared — ask whether it is.
 

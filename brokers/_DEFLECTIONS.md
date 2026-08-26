@@ -3346,3 +3346,40 @@ from one letter — it makes the point concrete and it is not hypothetical.
 
 **Related:** `_SILENT_FAILURES.md` §101, §107; §57.
 
+
+---
+
+## §62
+### The row that was never built
+
+**Shape:** you follow a broker's published opt-out link, land on a compliance
+portal, and find pages for California, Colorado, Connecticut, Delaware, Indiana,
+Iowa, Maryland, Montana, Utah and Virginia. You live somewhere else. The URL for
+somewhere else 404s.
+
+**Why it is not the residency deflection.** The residency deflection is a claim:
+*we honour requests only from covered states.* You can answer a claim — point at
+the company's own registry filing, ask them to honour it as policy and to state in
+writing which basis they used, note that their form already accepts non-covered
+states. Someone wrote that sentence and someone can unwrite it.
+
+A missing page is not a claim. It is the absence of one. There is no text to quote
+back, no author to appeal to, and no one on the operator's side who will ever learn
+it happened — no form arrives, no complaint arrives, nothing bounces. From where
+you stand it looks like a broken link.
+
+**What it costs.** In the family we found this in, six of fourteen brands have a
+catch-all page and eight do not. Same operator, same Omaha address, plausibly the
+same underlying file. So whether you can opt out turns on **which brand name your
+record was sold under** — a fact about the vendor's page matrix, not about you or
+the statute.
+
+**The response.** Go up a level. Write to the operator of the portal rather than
+the brand, and ask it as a routing question, because that is almost certainly what
+it is: *what is a resident of a non-covered state supposed to do for these brands?*
+Name the brands and name the gaps, so the question cannot be answered generically.
+Then ask them to honour the request as company policy if the honest answer is that
+no route exists — which gives them something easy to say yes to.
+
+**Related:** §61 (the deflection that is a schema rather than a decision — this is
+its geographic twin), `_SILENT_FAILURES.md` §110, §109.

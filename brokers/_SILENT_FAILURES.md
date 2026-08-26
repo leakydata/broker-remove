@@ -5600,3 +5600,122 @@ sentences can describe the same database.
 
 **Related:** §103; `_DEFLECTIONS.md` §54, §58.
 
+
+---
+
+## §109
+### A compliance portal's navigation menu is a client list
+
+`privacycompliance.biz` runs the opt-out flow for DatabaseUSA and Infofree. We knew
+that much: Infofree's privacy policy links to it, and we completed the flow through
+it twice on 2026-08-18.
+
+What we had not done was read the menu.
+
+The portal's navigation enumerates **fourteen brands**, each with its own privacy
+pages: AtoZdatabases, AtoZacademics, DatabaseUSA, DatabaseUSA Gov, EmailUSA,
+FreeSalesLeads, HDML, Infofree, ListProGuru, NewBusinessListsUSA,
+NewHomeownerListsUSA, ReferenceGuru, ResearchUSA, Salesflower, SalesLeads101.
+
+Two of those fourteen were in a broker registry assembled from every state
+data-broker registry plus a commercial removal service's catalogue. **Twelve were
+not in it anywhere.**
+
+The technique generalises, and it is better than the MX fingerprinting in §89 for
+this purpose. Mail-tenant fingerprinting infers a family from shared
+infrastructure, which is circumstantial — two companies can share a mail host and
+be unrelated, which is why that scan reports CONFIRMED and WEAK separately. A
+compliance portal's menu is not circumstantial. The operator built a page for each
+brand because each brand needs one, and the menu that lists them is the operator's
+own statement of which brands it answers for.
+
+And the enumeration is a **byproduct of the law**. The pages exist because
+state privacy statutes require a disclosed consumer route. The more thoroughly an
+operator complies, the more completely it publishes the shape of the group.
+
+**How to use it:** when a broker's opt-out route lands on a third-party compliance
+domain rather than the broker's own site, do not just complete the form. Pull every
+link on the page and group them by brand token. The ones you do not recognise are
+brokers you have not written to.
+
+**Related:** §89 (family discovery by mail tenant), §110, §100.
+
+---
+
+## §110
+### The matrix has rows for states, and you may not be one of them
+
+The same portal is organised as a grid: one page per brand, per state. California,
+Colorado, Connecticut, Delaware, Indiana, Iowa, Maryland, Montana, Utah, Virginia —
+the states with comprehensive privacy statutes. Six of the fourteen brands also
+have a catch-all page for everybody else, named `/other-<brand>/`.
+
+Eight of them do not.
+
+So for eight brands in this family, a resident of a state without a comprehensive
+privacy law has **no page at all**. Not a page that refuses them. Not a page that
+explains why they are ineligible. Nothing — the URL 404s, because the row was never
+built.
+
+This is worth separating from an ordinary residency deflection. A residency
+deflection is an answer: *we only honour requests from covered states.* It can be
+argued with, escalated, or pre-empted (ask them to honour it as company policy and
+to say in writing which basis they used). It is a position someone holds.
+
+A missing row is not a position. Nobody decided that a Pennsylvanian may not opt
+out of NewHomeownerListsUSA. Someone built pages for the states that generate legal
+exposure and stopped. The absence is invisible from the operator's side — no form
+arrives, no complaint arrives, no bounce arrives — and it is invisible from the
+consumer's side too, because a 404 looks like a broken link rather than a decision.
+
+The consequence is that **which rights you have depends on which brand name your
+data was sold under**, and that is a fact about the vendor's page matrix rather
+than about you, the data, or the statute.
+
+**What to do:** write to the operator, not the brand, and ask the question plainly
+— *what is a resident of a non-covered state supposed to do for these brands?*
+Frame it as a routing question rather than an accusation, because it probably is
+one. Then ask them to honour the request as company policy if the honest answer is
+that no route exists. We sent exactly that letter on 2026-08-26 to
+`OptOut@privacycompliance.biz`, naming all fourteen brands and the eight gaps.
+
+**Related:** §109, §97 (DROP is California-only), `_DEFLECTIONS.md` §61 (the
+deflection that is a schema rather than a decision).
+
+---
+
+## §111
+### Both addresses this company filed with the state are dead
+
+ResearchUSA's California data-broker registration lists
+`privacy@researchusallc.com` as its consumer contact. It returns
+550 "address couldn't be found." DatabaseUSA's filing lists
+`privacy@databaseusa.com`. Same 550.
+
+In both cases the domain is healthy and the MX records resolve — Intermedia
+Exchange, the same tenant for both — so **every domain-level deliverability check
+passes.** `check_email_domains.deliverable()` returns True for both. The mailbox is
+what does not exist, and nothing short of sending a message finds that out.
+
+That is the §88 pattern, but the detail that matters here is *where the address came
+from.* This was not scraped off a footer or guessed from a pattern. It is the
+address the company itself typed into a regulator's form as the place consumers
+should write. Our registry even records `email_verified: true`,
+`email_verified_by: ca_data_broker_registry` — and the verification was real. The
+filing does say that. The filing is just wrong.
+
+ResearchUSA's older 2020 filing lists a web route too, `ccpa-optout.com/rsusa/`.
+That 404s. The 2024 filing's route, `privacycompliance.biz/researchusallc-ccpa/`,
+is the only one of the three that works.
+
+**So of the three consumer routes this company has filed with a state regulator
+across its registration history, two are dead, and nothing in the registry marks
+which is current.** Filings accumulate. Nobody revalidates them. A consumer working
+from the published registry — or a tool doing it at scale — fails two times in
+three and has no way to tell a dead route from a route that is ignoring them.
+
+This is checkable by anyone, cheaply, at scale: resolve every address in every
+state registry, send nothing, and count the 550s. It is the kind of sweep a
+regulator could run in an afternoon.
+
+**Related:** §88, §92 (null MX), §107, §109.
