@@ -3469,6 +3469,13 @@ nobody ever said whether it stays down.
 **Do not click the rating.** A rating closes the loop on their side and gives the
 thread a terminal state.
 
+**It is systemic, not one company.** Three satisfaction surveys arrived from three
+different people-search desks on a single day — Nuwber, Ownerly and NeighborWho.
+Only Nuwber's is confirmed to have closed over an unanswered question; the point is
+that the survey is a standard stage in the workflow these desks run, so expect it
+after any exchange that does not end in a macro. Its arrival is not a signal that
+anything was resolved. It is a signal that the ticket state changed.
+
 **Related:** §58 (the qualified null), `_SILENT_FAILURES.md` §112.
 
 ---
