@@ -1,18 +1,14 @@
-# Lizdev
+# S&P Global Inc
 
-- **Email:** privacyanddatacompliancereview@lizdev.com (verified)
+- **Email:** privacy@spglobal.com (state-registry / site-published address — unverified until a reply arrives)
 - **Method:** email — Statutory request by email. No web form needed.
-- **Domain:** lizdev.com
+- **Domain:** spglobal.com
 - **Priority: 2.**
 
 ## Status
 
-- Current: `not_found` (updated 2026-08-26)
-- Note: Statutory delete + opt-out + suppression letter, including hashed-email matching, sent 2026-08-18.
-- Note: 2026-08-26: replied within a week - reviewed records against the identifiers
-  supplied and found no personal information about the subject in any database.
-  Retaining a record of the request and reply as required under the CPRA. A clean,
-  unprompted negative; no further action needed.
+- Current: `submitted` (updated 2026-08-26)
+- Note: 2026-08-26: emailed privacy@spglobal.com. Conceded any FCRA-regulated consumer-report product up front and scoped the request to non-FCRA products, marketing use and model training, asking them to say plainly what is FCRA-regulated and out of scope.
 
 ## Steps
 

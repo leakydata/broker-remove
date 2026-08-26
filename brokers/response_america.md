@@ -1,18 +1,14 @@
-# Lizdev
+# Response America, Inc.
 
-- **Email:** privacyanddatacompliancereview@lizdev.com (verified)
+- **Email:** ncoa@responseamerica.net (state-registry / site-published address — unverified until a reply arrives)
 - **Method:** email — Statutory request by email. No web form needed.
-- **Domain:** lizdev.com
+- **Domain:** responseamerica.net
 - **Priority: 2.**
 
 ## Status
 
-- Current: `not_found` (updated 2026-08-26)
-- Note: Statutory delete + opt-out + suppression letter, including hashed-email matching, sent 2026-08-18.
-- Note: 2026-08-26: replied within a week - reviewed records against the identifiers
-  supplied and found no personal information about the subject in any database.
-  Retaining a record of the request and reply as required under the CPRA. A clean,
-  unprompted negative; no further action needed.
+- Current: `submitted` (updated 2026-08-26)
+- Note: 2026-08-26: emailed ncoa@responseamerica.net. Asked for do-not-mail, do-not-sell and do-not-append as standing suppression entries (not just a one-time deletion), and which list owners or clients supplied or received a file.
 
 ## Steps
 

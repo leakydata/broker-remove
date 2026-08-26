@@ -1,18 +1,14 @@
-# Lizdev
+# REAL INTENT INC
 
-- **Email:** privacyanddatacompliancereview@lizdev.com (verified)
+- **Email:** aaron@realintent.co (state-registry / site-published address — unverified until a reply arrives)
 - **Method:** email — Statutory request by email. No web form needed.
-- **Domain:** lizdev.com
+- **Domain:** realintent.co
 - **Priority: 2.**
 
 ## Status
 
-- Current: `not_found` (updated 2026-08-26)
-- Note: Statutory delete + opt-out + suppression letter, including hashed-email matching, sent 2026-08-18.
-- Note: 2026-08-26: replied within a week - reviewed records against the identifiers
-  supplied and found no personal information about the subject in any database.
-  Retaining a record of the request and reply as required under the CPRA. A clean,
-  unprompted negative; no further action needed.
+- Current: `submitted` (updated 2026-08-26)
+- Note: 2026-08-26: emailed aaron@realintent.co. Asked for any likelihood-to-sell/distress/pre-foreclosure/motivated-seller classification and which categories were applied, any skip-traced/appended contact details and the vendor, and which subscribers received a lead so they can be directed to delete it.
 
 ## Steps
 

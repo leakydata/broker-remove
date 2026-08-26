@@ -1,18 +1,14 @@
-# Lizdev
+# ResearchUSA
 
-- **Email:** privacyanddatacompliancereview@lizdev.com (verified)
+- **Email:** privacy@researchusallc.com (state-registry / site-published address — unverified until a reply arrives)
 - **Method:** email — Statutory request by email. No web form needed.
-- **Domain:** lizdev.com
+- **Domain:** researchusallc.com
 - **Priority: 2.**
 
 ## Status
 
-- Current: `not_found` (updated 2026-08-26)
-- Note: Statutory delete + opt-out + suppression letter, including hashed-email matching, sent 2026-08-18.
-- Note: 2026-08-26: replied within a week - reviewed records against the identifiers
-  supplied and found no personal information about the subject in any database.
-  Retaining a record of the request and reply as required under the CPRA. A clean,
-  unprompted negative; no further action needed.
+- Current: `submitted` (updated 2026-08-26)
+- Note: 2026-08-26: emailed privacy@researchusallc.com. Flagged that ResearchUSA shares mail infrastructure with DatabaseUSA (whose privacy@databaseusa.com is currently bouncing) and asked them to say whether the two share a data estate or should be treated as standalone — see databaseusa.md.
 
 ## Steps
 

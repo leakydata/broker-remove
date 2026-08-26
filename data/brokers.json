@@ -499,12 +499,12 @@
       "priority": 4,
       "method": "web_form",
       "optout_url": "https://privacycompliance.biz/other-dbusa/",
-      "email_to": null,
+      "email_to": "privacy@databaseusa.com",
       "email_verified": true,
-      "email_verified_by": "bounced",
+      "email_verified_by": "ca_data_broker_registry",
       "needs_email_confirm": true,
       "source": "discovered_via_infofree",
-      "notes": "Found because infofree.com links its privacy route here. Runs a self-service portal at privacycompliance.biz with separate toggles for opt-out of sale, deletion and category disclosure, and an emailed verification link. Their disclosure page lists ethnicity, religion and political party among the categories collected, and 'Resale to Data Brokers' among the purposes. 2026-08-26: privacy@databaseusa.com bounced 550 5.1.1 'User unknown in relay recipient table'. Domain and MX healthy (Intermedia Exchange); the mailbox does not exist. Use the privacycompliance.biz portal instead - the original 2026-08-18 request was completed there end to end.",
+      "notes": "Found because infofree.com links its privacy route here. Runs a self-service portal at privacycompliance.biz with separate toggles for opt-out of sale, deletion and category disclosure, and an emailed verification link. Their disclosure page lists ethnicity, religion and political party among the categories collected, and 'Resale to Data Brokers' among the purposes.",
       "email_alt": "info@databaseusa.com",
       "registry_years": [
         "2020-2023",
@@ -1536,8 +1536,9 @@
       "source": "ca_data_broker_registry",
       "optery_slug": null,
       "email_to": "privacy@4-eyes.ai",
-      "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified": false,
+      "email_verified_by": "bounced",
+      "notes": "privacy@4-eyes.ai bounced permanently 2026-08-25 after 3 days of connection-timeout retries (the mail server never accepted a connection at all, not a mailbox-not-found bounce) - the domain's mail infrastructure appears down. No alternate contact found yet.",
       "registry_years": [
         "2024",
         "2025"
@@ -2315,8 +2316,9 @@
       "source": "ca_data_broker_registry",
       "optery_slug": null,
       "email_to": "privacy@agrgroupinc.com",
-      "email_verified": true,
-      "email_verified_by": "state_registry",
+      "email_verified": false,
+      "email_verified_by": "bounced",
+      "notes": "Both known addresses bounced: lzepeda@agrgroupinc.com (2026-08-25, 550 mailbox unavailable) and privacy@agrgroupinc.com, the current CA registry filing address (2026-08-25, 550 5.4.1 Access denied - Microsoft 365 rejects the recipient). agrgroupinc.com does not resolve over HTTP, so no company-site route exists either. No working email route as of 2026-08-25; postal fallback would need a registered-agent address lookup.",
       "registry_years": [
         "2020-2023",
         "2024"
@@ -16269,8 +16271,9 @@
       "source": "ca_data_broker_registry",
       "optery_slug": null,
       "email_to": "ops@findtrueowner.com",
-      "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified": false,
+      "email_verified_by": "bounced",
+      "notes": "findtrueowner.com has no MX and no A record (NXDOMAIN) - confirmed twice, 2026-08-25 and 2026-08-26. No mail route exists.",
       "registry_years": [
         "2020-2023"
       ],

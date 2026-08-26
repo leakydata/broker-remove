@@ -1,18 +1,14 @@
-# Lizdev
+# Ripple Effect Strategies
 
-- **Email:** privacyanddatacompliancereview@lizdev.com (verified)
+- **Email:** dylan@ripple-fx.com (state-registry / site-published address — unverified until a reply arrives)
 - **Method:** email — Statutory request by email. No web form needed.
-- **Domain:** lizdev.com
+- **Domain:** ripple-fx.com
 - **Priority: 2.**
 
 ## Status
 
-- Current: `not_found` (updated 2026-08-26)
-- Note: Statutory delete + opt-out + suppression letter, including hashed-email matching, sent 2026-08-18.
-- Note: 2026-08-26: replied within a week - reviewed records against the identifiers
-  supplied and found no personal information about the subject in any database.
-  Retaining a record of the request and reply as required under the CPRA. A clean,
-  unprompted negative; no further action needed.
+- Current: `submitted` (updated 2026-08-26)
+- Note: 2026-08-26: emailed dylan@ripple-fx.com. Asked for any partisanship/ideology/issue-interest/giving-capacity/propensity-to-give score and any voter-file-derived attribute, conceding that a public voter record itself cannot be altered but the derived scoring and their copy can be deleted.
 
 ## Steps
 

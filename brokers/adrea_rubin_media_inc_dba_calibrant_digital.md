@@ -7,7 +7,17 @@
 
 ## Status
 
-- Current: `pending`
+- Current: `pending` (updated 2026-08-26)
+- Note: 2026-08-26: the 2026-08-24 send to jennifer@calibrant.com has been
+  bouncing with a connection timeout for 2 days (still inside Gmail's retry
+  window). Checked calibrant.com directly: it now serves a **parked domain
+  page** ("protected by copyright spaceship.com", a domain registrar's default
+  placeholder) with no privacy policy, no contact email, nothing related to
+  Calibrant Digital at all. The domain has almost certainly lapsed and been
+  re-registered by someone else. Treat this as the same failure mode as
+  `crawlbee.md` — do not trust this domain for a `privacy@<domain>` guess going
+  forward. No alternate contact found; the only registered address is
+  jennifer@calibrant.com, now unreachable at the source.
 
 ## Steps
 

@@ -7,7 +7,18 @@
 
 ## Status
 
-- Current: `pending`
+- Current: `pending` (updated 2026-08-26)
+- Note: 2026-08-26: the 2026-08-24 send to jenniferv@adrearubin.com has been
+  soft-bouncing for 2 days with "Mail received as unauthenticated, incoming to
+  a recipient domain configured in a hosted tenant which has no mail-enabled
+  subscriptions" (M365 4.4.4) — still inside Gmail's retry window as of this
+  writing. Checked adrearubin.com directly: the site returns HTTP 503. Between
+  that and the sibling entry's domain (calibrant.com) now being a parked/resold
+  page (see `adrea_rubin_media_inc_dba_calibrant_digital.md`), both halves of
+  this joint mailing look to be reaching a company that has gone dark. No
+  alternate contact found. If the final DSN confirms failure, mark
+  `unreachable` on both entries rather than hunting for a third address —
+  there is no live site to search one on.
 
 ## Steps
 
