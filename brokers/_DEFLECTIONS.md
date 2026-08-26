@@ -3470,3 +3470,57 @@ nobody ever said whether it stays down.
 thread a terminal state.
 
 **Related:** §58 (the qualified null), `_SILENT_FAILURES.md` §112.
+
+---
+
+## §65
+### One request per identifier
+
+**Shape:** the portal works. The request types are all there. Nothing is refused.
+And then, in Epsilon's case highlighted in yellow so you cannot miss it:
+
+> "A separate request must be made for each address and email address."
+
+Do the arithmetic for one ordinary person. Twelve email addresses accumulated over
+thirty years, sixteen postal addresses, and five applicable request types —
+delete, do not sell, do not share, opt out of profiling, right to know. That is
+**up to 140 portal submissions**, each with its own identity verification email to
+click, to exercise one set of rights at one company.
+
+**Why this is the sharpest version of the pattern.** PwC's fan-out (§59) was
+accidental — an intake system decomposed one letter into ~58 parallel requests and
+nobody chose that. This one is *policy*. Someone wrote the sentence, someone
+highlighted it, and it is delivered alongside "we do not action privacy requests
+received via email" and "responses to this message will not be answered." Every
+door except the multiplying one is closed in the same message.
+
+**And it inverts the incentive.** The more identifiers a company holds on you — the
+more thoroughly it has tracked you across three decades of addresses and dead
+mailboxes — the more submissions it takes to get free of it. The rule scales the
+burden with the harm.
+
+**What it costs even if you comply.** Each submission is independently verified and
+independently answered, so you get 140 confirmations, none of which tells you
+whether the others succeeded, and no way to ask a question that spans them. It also
+guarantees the identifier-linkage question can never be asked: the whole point of
+an identity graph is the edges between identifiers, and a process that admits one
+identifier at a time cannot be asked about the join.
+
+**The response.** Do not file 140 requests. File **one more**, through the portal
+since that is the only channel that is actioned, and use its free-text field to:
+
+- reference the request IDs already issued, so it reads as completing existing
+  requests rather than opening new ones;
+- list every identifier and ask them to treat the request as covering all of them;
+- state the arithmetic plainly and ask whether that is genuinely the intended
+  process — *"if it is, please say so in writing."*
+
+That last part is the point. A company will often quietly do the sensible thing
+rather than put "yes, 140 submissions" in writing. And if they do put it in
+writing, that sentence is worth more than the 140 submissions would have been:
+it is the clearest possible evidence that the process, not the answer, is what
+defeats the right.
+
+**Related:** §59 (the notification that withholds the notification), §61 (the
+deflection that is a schema), §63 (the address that answers is not the address that
+acts), `_SILENT_FAILURES.md` §103.
