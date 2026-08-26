@@ -6058,3 +6058,52 @@ Match on registered domain, never on substring, and verify one member before
 believing the group.
 
 **Related:** §109, §112, §89, `_FAMILIES.md`.
+
+---
+
+## §118
+### The subsidiary that registered separately and was never written to
+
+The opt-out-host sweep (§117) joined brokers on where their *form* lives. The same
+join on where their *mail* goes finds a different population: **42 untracked
+brokers share a contact address with a broker we have already written to.**
+
+They are not duplicates. They are separately registered legal entities that filed
+under a shared corporate privacy address:
+
+| address | tracked | untracked siblings |
+|---|---|---|
+| usprivacy@equifax.com | Equifax | Ansonia Credit Data, Austin Consolidated Holdings, DataX, **Equifax Workforce Solutions**, PayNet |
+| privacy@altrata.com | BoardEx | Boardroom Insiders, Relationship Science, Wealth-X, WealthEngine |
+| operations@ignitevisibility.com | 33 Mile Radius | EverConnect, Five Star Rated |
+
+`queue_batch` correctly refuses to send to these — one address, one letter (§114).
+But refusing to send is not the same as being covered, and the gap between those two
+is where a subsidiary quietly falls out of the campaign. **The guard that stops the
+duplicate also stops the coverage**, and nothing notices, because the row simply has
+no status rather than a bad one.
+
+**The fix is a scope addendum, not a new letter.** One message into the thread
+already open, naming every sibling and asking a single question: *does my request
+reach them, or is each a separate controller that merely files under a shared group
+address?* Both answers are useful and neither can be guessed at from outside.
+
+### What the Equifax roster turned up
+
+`Equifax Workforce Solutions LLC` **registers as a data broker in its own name.**
+
+That sits awkwardly beside Equifax's reply on the open thread, which describes The
+Work Number as *a processor for the Businesses who utilize our service* and routes
+access, correction and deletion to the employer.
+
+Broker registration describes a business that collects and sells personal
+information about consumers **with whom it has no direct relationship**. That is a
+controller's description. A processor acting for employers is not usually the thing
+that registers. The registration and the reply appear to describe two different
+roles, and which one is right decides where the request should go — so it was
+raised as a factual inconsistency to resolve rather than a point to win.
+
+This is only visible because the roster was enumerated. A sibling list is not just
+extra coverage; it is a **cross-check on what the parent tells you about itself.**
+
+**Related:** §114, §117, §112, `_DEFLECTIONS.md` §63.
