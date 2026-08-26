@@ -5821,3 +5821,52 @@ statuses** — which is the answer worth having, and only checkable because each
 `submitted` records what it rests on.
 
 **Related:** §88, §92, §111, §103.
+
+---
+
+## §114
+### Two planners, one queue, and only one of them knew the rule
+
+`queue_batch.py` has held duplicate letters for a while: *one address, one letter*.
+State filings register corporate families under a single contact, so several rows
+in the registry share a mailbox, and left alone the queue writes to that desk once
+per row.
+
+`send_plan.py` — the newer planner that decides supplements-versus-new-brokers —
+did not have the rule. So it offered `ansonia_credit_data` and
+`austin_consolidated`, both resolving to `usprivacy@equifax.com`, a desk that
+already has an open thread. Ported the guard across; **it immediately held
+seventeen brokers.** Seventeen letters that would have gone to mailboxes already
+in conversation with us.
+
+This is the same defect as the `supplement_skipped` divergence found earlier the
+same day, and that is the point worth recording. When a rule lives in one of two
+planners, the safe one is not the one that runs — **the unsafe one is**, because
+you reach for whichever planner answers the question you are currently asking, and
+the guard you are not thinking about is exactly the one you need. Two code paths
+that decide the same thing must share the decision or they will drift, and the
+drift is invisible until something goes out.
+
+### The better letter hiding inside the guard
+
+Skipping a duplicate is the defensive half. The other half is that a shared address
+is an opportunity.
+
+`operations@ignitevisibility.com` is the published privacy contact for 33 Mile
+Radius, Keyword Connects and Remodeling.com. Three near-identical letters to that
+desk read as a mail-merge and invite one reply covering whichever brand the reader
+happened to open. **One letter naming all three** makes the scope explicit and lets
+you ask the question that matters:
+
+> If those are separate controllers with separate files, please say so and I will
+> write to each. If they share an index, one answer covering all of them is
+> exactly what I am asking for — please confirm against each by name, because a
+> reply naming one brand leaves me unable to tell whether the others were looked
+> at.
+
+`supplement_identifiers.py` now groups candidates by address and names the siblings
+in the body. Four letters this morning covered seven brokers, and each one asks for
+a confirmation that can be checked brand by brand.
+
+**Related:** §109 (families from a portal menu), §112 (families from a support
+template), `_FAMILIES.md`.

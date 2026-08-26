@@ -63,7 +63,25 @@ def build():
     sp = state("removal_status.json")
     st = json.loads(sp.read_text()) if sp.exists() else {}
 
-    supplements, new = [], []
+    # One address, one letter -- the same rule queue_batch.py applies, and it has
+    # to be applied here too or the two planners disagree. State filings register
+    # corporate families under a single contact, so several rows share a mailbox:
+    # ansonia_credit_data and austin_consolidated both resolve to
+    # usprivacy@equifax.com, which already has an open thread. queue_batch held
+    # them; this planner offered them, which is one copy-paste from a second
+    # letter to a desk that has already answered.
+    #
+    # That is not a free retry. It reads as not having read the reply, or as
+    # pressure; it spends a slot from the daily cap; and it costs the credibility
+    # the next letter depends on. The earlier thread is the live one -- raise a
+    # sibling inside it rather than opening a new request.
+    spoken_for = {}
+    for bid, b in reg.items():
+        e = (b.get("email_to") or "").lower()
+        if e and st.get(bid, {}).get("status", "pending") != "pending":
+            spoken_for.setdefault(e, bid)
+
+    supplements, new, shadowed = [], [], []
     for bid, b in reg.items():
         if not b.get("email_to") or b.get("duplicate_of"):
             continue
@@ -72,6 +90,10 @@ def build():
         pri = b.get("priority") or 0
 
         if status == "pending":
+            holder = spoken_for.get((b.get("email_to") or "").lower())
+            if holder and holder != bid:
+                shadowed.append((bid, holder))
+                continue
             new.append((pri, bid, b, "new"))
         elif (status in SUPPLEMENTABLE
               and not rec.get("supplemented")
@@ -98,7 +120,7 @@ def build():
     tail = lo_supp[len(mid_new):] + mid_new[len(lo_supp):]
     plan += tail
     plan += lo_new                            # 3. long tail of low-priority new
-    return plan, len(hi_supp), len(supplements), len(new)
+    return plan, len(hi_supp), len(supplements), len(new), shadowed
 
 
 def main():
@@ -107,9 +129,15 @@ def main():
     ap.add_argument("--summary", action="store_true")
     args = ap.parse_args()
 
-    plan, n_hi, n_supp, n_new = build()
+    plan, n_hi, n_supp, n_new, shadowed = build()
     print(f"{n_supp} supplement(s) outstanding ({n_hi} high-priority), "
           f"{n_new} new broker(s) never contacted", file=sys.stderr)
+    if shadowed:
+        print(f"holding {len(shadowed)} broker(s) whose contact address already "
+              f"has an open thread: "
+              + ", ".join(f"{a}->{c}" for a, c in sorted(shadowed)[:6])
+              + (" ..." if len(shadowed) > 6 else "")
+              + " -- raise these inside the existing thread", file=sys.stderr)
 
     batch = plan[: args.size]
     if args.summary:

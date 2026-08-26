@@ -96,6 +96,24 @@ Regards,
 """
 
 
+def sibling_block(siblings):
+    """Name every brand registered against this address, when there is more
+    than one. Silence here is how one reply ends up covering one brand."""
+    if not siblings:
+        return ""
+    names = "\n".join(f"    {n}" for n in siblings)
+    return (
+        "This address is the published privacy contact for more than one of your\n"
+        "properties, so to be explicit about scope: I am asking for this to be\n"
+        "applied to that one **and** to\n\n"
+        f"{names}\n\n"
+        "If those are separate controllers with separate files, please say so and\n"
+        "I will write to each. If they share an index, one answer covering all of\n"
+        "them is exactly what I am asking for -- please confirm against each by\n"
+        "name, because a reply naming one brand leaves me unable to tell whether\n"
+        "the others were looked at.\n\n")
+
+
 def load_state():
     p = state("removal_status.json")
     return json.loads(p.read_text()) if p.exists() else {}
@@ -183,19 +201,37 @@ def main():
         full.append(f"    {e.strip()}{mark}")
     full_block = "\n".join(full)
 
+    # One address, one letter -- and here that is not merely about avoiding a
+    # duplicate, it is a better letter. Corporate families register several
+    # brands against a single contact: operations@ignitevisibility.com is the
+    # address for 33 Mile Radius, Keyword Connects and Remodeling.com, and
+    # privacyrequest@whitepages.com covers both 411.com and PeopleSearch. Sending
+    # three near-identical letters to one desk reads as a mail-merge and invites
+    # one reply covering whichever brand the reader happened to open. Sending one
+    # that NAMES all three makes the scope explicit and asks them to confirm
+    # against each -- which is the answer we actually want.
+    by_addr = {}
+    for bid, b, rec, d in cand:
+        by_addr.setdefault(b["email_to"].lower(), []).append((bid, b, rec, d))
+
     out = []
-    for bid, b, rec, d in cand[:args.size]:
+    for addr, members in list(by_addr.items())[:args.size]:
+        bid, b, rec, d = members[0]          # earliest-contacted drives the date
+        siblings = [m[1].get("name", m[0]) for m in members[1:]]
         ref = ""
         if rec.get("confirmation_ref"):
             ref = f" (your reference {rec['confirmation_ref']})"
         out.append({
             "id": bid,
+            "covers": [m[0] for m in members],
+            "siblings": siblings,
             "to": b["email_to"],
             "subject": ("Additional identifiers for my existing privacy request "
                         f"— {prof['name']}"),
             "body": TEMPLATE.format(
                 broker=b.get("name", bid), when=d, ref=ref,
-                added_block=added_block, full_block=full_block,
+                added_block=(sibling_block(siblings) + added_block),
+                full_block=full_block,
                 contact=prof["email"], name=prof["name"]),
         })
     print(json.dumps(out, indent=2))
