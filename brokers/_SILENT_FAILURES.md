@@ -5474,3 +5474,66 @@ answered before they stopped.**
 **Related:** §90, §99; `_CATEGORY_VARIANTS.md` on workforce and talent
 intelligence.
 
+## §107 — The company does not know what its own filing says
+
+Datonics' accounting department replied to a request that had reached them because
+their registered contact address is an accounts mailbox:
+
+> *"We believe you have mistakenly reached the Datonics accounting department.
+> **This email address is not made publicly available by Datonics.**"*
+
+It is. By Datonics. In its own California data broker registration filings — which
+is the only place I found it.
+
+| filing year | contact email listed |
+|---|---|
+| 2020–2023 (DOJ) | `privacy [at] datonics.com` |
+| **2024 (CPPA)** | **`accounting@…`** |
+| **2025 (CPPA)** | **`accounting@…`** |
+| **2026 (CPPA)** | **`accounting@…`** |
+
+The address was right in the earliest filing, changed before the 2024
+registration, and has been **re-filed the same way for three consecutive years.**
+
+### This is a distinct failure from §83 and §86
+
+- **§83** — the filed contact is a *person*, not a desk. Wrong desk, but the
+  company chose it.
+- **§86** — the filed address contains a *typo*. Wrong address, and nobody
+  noticed.
+- **§107** — the address is correct, deliverable, and monitored. **The company
+  simply does not know it is the one they published**, and says so in writing when
+  a request arrives.
+
+That last one is the most invisible of the three, because **everything works**.
+The mail is delivered. A human reads it. They reply. And the reply says the
+sender must have made a mistake — so the sender, if less stubborn than this
+project, concludes they got the address from somewhere unreliable and goes away.
+
+### Why it compounds silently
+
+Every consumer who does the correct thing — look up the registered contact and
+write to it — lands in Accounting. Some of those requests will be deleted as
+misdirected. **Neither the sender nor the privacy team ever learns it happened.**
+The privacy team's view is that email requests are rare; the accounting team's
+view is that they occasionally get odd mail. Both are consistent with the
+evidence each of them sees.
+
+### What to do
+
+**Tell them, with the citation.** Not tactfully — plainly, with the filing years
+and the exact values, because a vague "I think your filing might be wrong" is easy
+to set aside and a table is not. The correction costs them one form and closes the
+gap permanently for everyone who writes after you.
+
+And say why it matters *to them*, not to you: misdirected rights requests that
+get quietly deleted are a compliance exposure they cannot see from inside.
+
+**This is the forward-this-internally opener (§83) paying off twice.** It got the
+letter routed to the right desk *and* surfaced the reason it had gone to the wrong
+one. Asking a recipient to correct a stale filing sounds like boilerplate
+politeness; here it produced a documented three-year error the company did not
+know it had.
+
+**Related:** §83, §86, §88.
+
