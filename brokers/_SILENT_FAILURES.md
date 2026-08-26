@@ -6129,3 +6129,55 @@ it previously could not have. A correction went to the 33 Mile Radius thread nam
 the two omitted brands.
 
 **Related:** §114, §117, §112, `_DEFLECTIONS.md` §63.
+
+---
+
+## §119
+### The best reply we have had, and the gap it disclosed about itself
+
+BookYourData answered a four-part request by taking the parts in order and saying,
+in their words, *"what is actually true rather than a general assurance"*:
+
+- they **listed the addresses searched**, by name;
+- they said it was **a complete check of our database rather than a sample**;
+- they separated the **exclusion entry from the deletion**, and explained that the
+  exclusion is the part that lasts — *"if any of those addresses reaches us later
+  from another data source, it is matched against the list and dropped rather than
+  added. A one-off deletion cannot do that on its own"*;
+- they answered the onward-disclosure point honestly (nothing held, so nothing to
+  direct);
+- and then, unprompted, they **volunteered what they retain and why** — the
+  addresses, the name, the request type and the date, *"nothing else, and none of
+  it is used for any other purpose"* — and offered to delete that entry too, **with
+  the consequence stated**: *"deleting the entry itself would remove the only thing
+  that recognises your addresses, and the protection would quietly lapse."*
+
+That last paragraph answers the suppression-hash question from §90 before it was
+asked, and answers it in the only way that makes the consumer's choice a real one:
+by naming the cost of the other option.
+
+**And then the gap.** They listed **seven** addresses. The letter listed **twelve**.
+The five current Gmail addresses were not searched.
+
+This is the third time this month an enumerated confirmation has caught an omission
+(§96, §103). It is worth stating the mechanism plainly, because it is the single
+most useful thing in this file:
+
+> A reply saying *"we hold no record of you"* and a reply saying *"we searched these
+> seven and hold no record"* are **indistinguishable in their conclusion** and
+> completely different in what they let you check. The first is unfalsifiable. The
+> second told us, in one glance, that five identifiers were never looked at.
+
+The company that is most forthcoming is therefore the one whose mistakes you find.
+That is an argument for asking every broker to enumerate — not because the honest
+ones are suspect, but because **only the enumerating ones can be audited at all**,
+and an unaudited "no records found" is not evidence of anything.
+
+**One thing even this reply could not cover.** An address-keyed exclusion list
+cannot catch an address that does not exist yet. A B2B file is frequently keyed to
+a work address *constructed* from a name and an employer — `first.last@employer` —
+which the subject has never owned and cannot supply. So the follow-up asked for a
+**name-based** exclusion alongside the address-based one. The exclusion list is only
+as good as the key it is indexed on.
+
+**Related:** §96, §103, §90, §108.
