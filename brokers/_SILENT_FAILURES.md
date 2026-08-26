@@ -5775,7 +5775,41 @@ The lesson is not "downgrade on sight." It is that **a refusal template is a rea
 to re-check every status that rests on that channel**, and the check has to look at
 what each status actually rests on, one at a time.
 
-**Related:** §89, §109, §103, `_DEFLECTIONS.md` §63, `_FAMILIES.md`.
+### Update, same day: the estate address sends the template too
+
+The letter asking Mississippi Tornado Alley whether SpyDialer, TruePeopleSearch and
+FamilyTreeNow were theirs got an answer — not to the question, but better.
+
+`privacy@mtalley.zendesk.com` — **the address on their own California data broker
+registration** — replied with the identical customer-service refusal macro, and
+signed it:
+
+> *"Regards, FastPeopleSearch Customer Support — support@fastpeoplesearch.com"*
+
+Every link in it points at fastpeoplesearch.com. The three replies from MTA,
+TruePeopleSearch and FamilyTreeNow arrived **within four minutes of each other**,
+from one Zendesk, on one shift, from one macro.
+
+So the family question is settled by the signature block rather than by an answer.
+
+**And it breaks a conclusion drawn earlier the same day.** The reasoning above said
+five of six statuses were sound because *"three were separately covered by the
+consolidated letter to the estate's privacy address, which is a different channel
+and does work."* It is not a different channel. It is FastPeopleSearch's support
+desk under another name, and it refuses the requests it is registered to receive.
+
+Eight statuses downgraded from `submitted` to `manual_required` on that basis.
+TruePeopleSearch and FamilyTreeNow were **not** downgraded — they rest on on-screen
+self-service confirmations from 2026-08-18 and stand on their own evidence, which is
+the same per-status check that was right this morning and is still right now.
+
+**The lesson is narrower than "check your statuses".** It is that *"we wrote to the
+corporate parent's privacy address"* felt like stronger evidence than *"we wrote to
+a brand's support desk"*, and was treated as such — when the only thing actually
+established was that a **different string** had been used in the To: field. Whether
+it reached a different desk was never tested until the desk answered.
+
+**Related:** §89, §109, §103, §118, `_DEFLECTIONS.md` §63, `_FAMILIES.md`.
 
 ---
 
