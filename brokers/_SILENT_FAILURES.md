@@ -5923,3 +5923,45 @@ rather than what was generated. We only caught it because the acknowledgement
 quoted our own subject line back.
 
 **Related:** §114, §88.
+
+---
+
+## §116
+### Two agents on one mailbox, and the useful division of labour
+
+Two Claude sessions have been working this repo concurrently since 2026-08-24,
+sending from the same mailbox and committing to the same branch. That was not
+planned, and the first evidence of it was a rejected `git push` (§94) followed by
+letters going out that no tick of ours had sent.
+
+The failure modes are real and we hit several: a letter sent to an address the
+tracker had already marked `unreachable` (§113), a `submitted` recorded against a
+bounced send, and a rebase conflict where one session described a hard-bouncing
+mailbox as verified while the other had just watched it 550.
+
+But the sweep that prompted this note found the opposite of what it expected.
+Working through every unread broker reply older than a day — fifteen threads —
+**thirteen had already been read, answered and recorded** by the other session,
+several within minutes of arrival. Only two statuses were stale.
+
+**So the contention is not over the work; it is over the same work.** Both sessions
+naturally reach for the newest reply, because that is the most obviously actionable
+thing in the inbox. Two agents racing the same queue produce duplicate replies to
+one desk, which is the one thing this project spends most of its effort avoiding.
+
+**The division that actually works** is by *kind* rather than by *item*:
+
+- Reply-handling is inherently serialised by the inbox and is handled fast. Racing
+  it adds risk and no coverage.
+- Structural work is not: family discovery from portal menus and support
+  boilerplate (§109, §112), the guards in the planners (§114), the dead-address
+  list (§113), the transport bug (§115). None of that is visible in the inbox, none
+  of it is something two agents would collide on, and all of it compounds — a guard
+  written once holds for every future send by either session.
+
+**The check that makes this safe** is cheap and should stay in the loop: before
+replying to a thread, look at whether the tracker already has a note dated after
+the reply arrived. If it does, the other session has it. Move to the structural
+queue instead.
+
+**Related:** §94, §113, §114.
