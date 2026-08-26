@@ -14,6 +14,7 @@
     "no-reply@resonate.com": "550 address not found, 2026-08-19. They send from it; it does not receive.",
     "ops@findtrueowner.com": "domain findtrueowner.com does not resolve, 2026-08-26.",
     "optout@staircase.co": "550 5.1.1, 2026-08-20.",
+    "privacy@4-eyes.ai": "no MX record; RFC 5321 A-record fallback host refuses SMTP connections entirely. Gmail retried 48h then failed permanently, 2026-08-25.",
     "privacy@agrgroupinc.com": "550 address not found, 2026-08-25.",
     "privacy@aviato.co": "550 address not found, 2026-08-24.",
     "privacy@bvdinfo.com": "550 5.1.1, 2026-08-25.",

@@ -187,7 +187,7 @@ def main():
     # ops@findtrueowner.com a day after that broker was marked unreachable.
     dead_addrs = load_dead_addresses()
 
-    batch, dead, dead_mailbox = [], [], []
+    batch, dead, dead_mailbox, weak = [], [], [], []
     for b in pool:
         if len(batch) >= min(args.size, remaining):
             break
@@ -200,7 +200,22 @@ def main():
         if verdict is False:
             dead.append((b["id"], domain))
             continue
+        if verdict == "weak":
+            # No MX, but a live A record -- RFC 5321 says fall back to the A
+            # host, and for some small domains that genuinely works. So this is
+            # NOT a reason to hold the send; condemning a broker on it is the
+            # expensive direction of the mistake. It is a reason to expect a
+            # bounce, though: 4-eyes.ai is on an A record whose host refuses SMTP
+            # outright, and Gmail retried for 48 hours before giving up. Naming
+            # them here means the eventual failure is anticipated rather than
+            # discovered weeks later in a status that says `submitted`.
+            weak.append((b["id"], domain))
         batch.append(b)
+    if weak:
+        print(f"note: {len(weak)} broker(s) have no MX record, only an A record -- "
+              f"mail may still be delivered by RFC 5321 fallback, but expect "
+              f"bounces: " + ", ".join(f"{i} ({d})" for i, d in weak[:6])
+              + (" ..." if len(weak) > 6 else ""), file=sys.stderr)
     if dead_mailbox:
         print(f"holding {len(dead_mailbox)} broker(s) whose address has already "
               f"hard-bounced: "

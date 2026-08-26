@@ -3671,3 +3671,42 @@ A redirect is a fact about corporate structure, and corporate structure is where
 untracked entities live (`_SILENT_FAILURES.md` §118).
 
 **Related:** §57, §63, `_SILENT_FAILURES.md` §118, §117.
+
+---
+
+## §69
+### The deflection that was just broken
+
+automotivemastermind replied to a deletion request:
+
+> "To help us respond to your request as quickly as possible please complete the
+> form on our California Do Not Share My Personal Information page"
+
+**There was no link in the message.** The anchor text had been sent without its
+href, so the sentence named a page and gave no way to reach it. Their ticket was
+then marked "solved" — twice.
+
+From outside, this is indistinguishable from a hostile deflection. Being told to use
+a form that cannot be found, and having the ticket closed, reads as a brush-off, and
+the natural response is to treat it as one.
+
+It was a template bug. We replied saying so plainly — *"neither link is in the
+message"* — as a fault report rather than an accusation, and the next message
+contained the URL written out in full.
+
+**The lesson is about the reply you choose.** The same facts support two responses:
+
+- *"You closed my request and pointed me at a page you did not link to"* — true, and
+  it puts a support agent on the defensive about something they did not decide.
+- *"Neither link is in the message; I think your template has lost its hrefs"* —
+  also true, costs nothing, and gives them something they can actually fix.
+
+The second one got a working URL in a day. Assume a broken system before a hostile
+one, because the broken kind is far more common and is the only kind that responds
+to being told.
+
+**A related tell:** a ticket marked "solved" whose resolution text is the same
+deflection, repeated. Resolution is a workflow state, not a claim that anything
+happened — the same point as §64.
+
+**Related:** §64, §66, `_SILENT_FAILURES.md` §115.
