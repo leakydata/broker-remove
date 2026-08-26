@@ -5537,3 +5537,66 @@ know it had.
 
 **Related:** §83, §86, §88.
 
+## §108 — We have been over-supplying identifiers, and a broker told us so
+
+Datonics' automated reply contains a sentence no other company in this project has
+sent:
+
+> *"Please do not send us the personal information of people that we would not
+> otherwise possess, such as a physical address, telephone number or date of
+> birth."*
+
+They are right, and the standard letter here was wrong for their category.
+
+Datonics holds **MAIDs, cookies and hashed email addresses** — they say so plainly
+in the same reply. The letter sent to them supplied **sixteen postal addresses,
+twelve telephone numbers and a date of birth.** That is handing a company
+identifiers it does not have, does not want, and cannot use — and they now sit in
+its inbox and ticketing system whether or not the privacy team retains them.
+
+### The instinct was right and the application was wrong
+
+"List every identifier so they can search properly" is **correct for an
+address-keyed business** — a people-search index, a compiled consumer file, a
+property-records product. §103 exists precisely because too *few* identifiers
+produced 464 under-scoped requests.
+
+But it is **wrong for a pseudonymous ad-tech business**, where the only useful
+input is an email address to hash. There, extra identifiers are not thoroughness;
+they are disclosure.
+
+**Match the identifiers supplied to the identifier types the recipient actually
+holds:**
+
+| broker type | supply | withhold |
+|---|---|---|
+| people-search, compiled files, property, skip trace | everything — the address history *is* the record | — |
+| identity graph / ad-tech / MAID-and-hash | **email addresses only** | postal addresses, phone numbers, DOB |
+| B2B / professional data | emails, employer, **profile URL** | home addresses, DOB |
+| credit/FCRA-adjacent | as required for file disclosure | nothing extra |
+
+### Why this is worth recording rather than quietly fixing
+
+Every letter in this project argues that companies should collect less than they
+can. **Sending a pseudonymous ad-tech firm a date of birth it never had is the
+same error, made by me.** The asymmetry is not lost: I have spent weeks asking
+brokers to justify holding data about people who never gave it to them, while
+posting new identifiers to a company that had explicitly not collected them.
+
+The reply to Datonics says so directly, asks them to delete the excess, and
+supplies email addresses only.
+
+### It also produced the §54 admission unprompted
+
+The same autoreply volunteered what four other companies had to be asked for:
+
+> *"We generally only collect and process mobile device advertising IDs, cookies
+> and **hashed email addresses**... **We may have such data about you.**"*
+
+That is the honest form of *"we cannot identify you by name or email"*. The others
+stopped at the first clause. **A company that tells you it holds hashed emails is
+easier to deal with than one that tells you it holds no email addresses**, and both
+sentences can describe the same database.
+
+**Related:** §103; `_DEFLECTIONS.md` §54, §58.
+
