@@ -6359,7 +6359,33 @@ work?" for two. That asymmetry is invisible in every status count, because
 present.
 
 The fix is not more letters. It is recording, at the moment a people-search broker is
-first worked, **the URL that will later prove or disprove the removal** — which costs
-nothing then and is unrecoverable later at scale.
+first worked, **the route that will later prove or disprove the removal** — which
+costs nothing then and is unrecoverable later at scale.
+
+### "Search URL unknown" was the wrong instruction
+
+Chasing that gap turned up a reason 96 of those brokers could never have had one.
+The per-state arrest and court-record families search by **POST form**, not by a
+constructible URL. Checked directly rather than assumed:
+
+    alabamacourtrecords.us   POST /search/loading/   firstName, lastName, city, state
+    alabamaarrests.org       POST /Results           fname, lname, state
+    staterecords.org         POST /search/           first_name, last_name, city_name, state_name
+
+So the worklist was telling someone to go and find a URL that does not exist, for a
+third of the list. It now says what is actually true — *a form post, not a link* —
+and carries the endpoint and field names, matched by domain suffix so one entry
+covers every state in the family.
+
+The worklist breaks down as: **2** verifiable by a link, **96** by a form post, **9**
+with no public listing at all, and **227** with no route recorded yet. Only the last
+number is a to-do. The other three are facts about how those businesses work, and
+they were previously all collapsed into one misleading line.
+
+**A note on actually running the 96.** A POST verifier is a small job now the fields
+are known, but it means submitting a real name and city to a hundred people-search
+sites in sequence. Searching for yourself on one is ordinary; doing it programmatically
+across a family is closer to scraping, and the sites are the last place to invite
+attention to a name. Worth doing deliberately and slowly rather than as a sweep.
 
 **Related:** §119, §90, `_DEFLECTIONS.md` §64, §66.

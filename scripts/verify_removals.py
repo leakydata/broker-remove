@@ -61,6 +61,43 @@ SEARCH_TEMPLATES = {
     "peekyou":           "https://www.peekyou.com/{first}_{last}",
 }
 
+# Families whose people-search is a POST FORM, not a URL you can construct.
+#
+# ~100 rows in the registry are per-state arrest and court-record sites, and the
+# worklist used to print "search URL unknown -- find it on the site" against every
+# one of them. That is the wrong instruction: it sends someone hunting for a URL
+# that does not exist. Checked directly on 2026-08-26 --
+#
+#   alabamacourtrecords.us  <form method="post" action="/search/loading/">
+#                           firstName, lastName, city, state
+#   alabamaarrests.org      <form action="/Results">   fname, lname, state
+#   staterecords.org        first_name, last_name, city_name, state_name
+#
+# -- so a GET template cannot reach them and never will. Recording the endpoint
+# and the field names instead means the finding survives, and a POST-capable
+# verifier becomes a small job rather than a rediscovery.
+#
+# Matched by domain suffix so one entry covers every state in the family.
+SEARCH_FORMS = {
+    "courtrecords.us": {"path": "/search/loading/", "method": "POST",
+                        "fields": ["firstName", "lastName", "city", "state"]},
+    "arrests.org":     {"path": "/Results", "method": "POST",
+                        "fields": ["fname", "lname", "state"]},
+    "staterecords.org": {"path": "/search/", "method": "POST",
+                         "fields": ["first_name", "last_name", "city_name",
+                                    "state_name"]},
+}
+
+
+def search_form(domain):
+    """The POST form for this broker's family, if it has one."""
+    d = (domain or "").lower()
+    for suffix, spec in SEARCH_FORMS.items():
+        if d == suffix or d.endswith("." + suffix) or d.endswith(suffix):
+            return spec
+    return None
+
+
 # Brokers with NO public listing to search. Verification by lookup is impossible;
 # their written confirmation is the only available evidence. Saying "check
 # manually" here would send someone hunting for a page that does not exist.
@@ -126,7 +163,7 @@ def cmd_list(args):
         b = reg.get(bid, {})
         rows.append((due_in, bid, b.get("name", bid), b.get("priority", 0),
                      search_url(bid, bits), checks[-1]["result"] if checks else None,
-                     bid in NO_PUBLIC_LISTING))
+                     bid in NO_PUBLIC_LISTING, search_form(b.get("domain"))))
 
     rows.sort(key=lambda r: (r[0], -r[3]))
     if not rows:
@@ -140,11 +177,20 @@ def cmd_list(args):
 
     if checkable:
         print("VERIFIABLE BY SEARCH — re-run the lookup and see if you are listed\n")
-        for due_in, bid, name, pri, url, lastres, _ in checkable:
+        for due_in, bid, name, pri, url, lastres, _, form in checkable:
             when = "DUE NOW" if due_in <= 0 else f"in {due_in}d"
             prev = f"  [last: {lastres}]" if lastres else ""
             print(f"  {when:>8}  p{pri}  {bid:26}{prev}")
-            print(f"            {url if url else 'search URL unknown — find it on the site'}")
+            if url:
+                print(f"            {url}")
+            elif form:
+                print(f"            POST {form['path']} on this domain — fields: "
+                      f"{', '.join(form['fields'])}")
+                print(f"            (a form post, not a link; needs a browser or "
+                      f"a POST request)")
+            else:
+                print("            no search route recorded yet — open the site and "
+                      "find how it searches")
 
     if opaque:
         print(f"\nNO PUBLIC LISTING ({len(opaque)}) — nothing to search; their written")
