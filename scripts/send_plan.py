@@ -116,8 +116,16 @@ def main():
         for pri, bid, b, kind in batch:
             print(f"  {kind:10} p{pri}  {bid:38} {b['email_to']}", file=sys.stderr)
         return
+    st = json.loads(state("removal_status.json").read_text())
     print(json.dumps([{"id": bid, "kind": kind, "priority": pri,
-                       "name": b.get("name", bid), "to": b["email_to"]}
+                       "name": b.get("name", bid), "to": b["email_to"],
+                       # Carry the CURRENT status through, because a supplement
+                       # must be recorded against it rather than overwriting it.
+                       # Several of these brokers already replied "confirmed" to
+                       # the short-list request, and writing "submitted" on top
+                       # would erase a real outcome -- the guard in tracker.py
+                       # catches it, but only after the mistake is made.
+                       "current_status": (st.get(bid) or {}).get("status", "pending")}
                       for pri, bid, b, kind in batch], indent=2))
 
 
