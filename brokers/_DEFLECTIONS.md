@@ -3531,3 +3531,53 @@ defeats the right.
 **Related:** §59 (the notification that withholds the notification), §61 (the
 deflection that is a schema), §63 (the address that answers is not the address that
 acts), `_SILENT_FAILURES.md` §103.
+
+---
+
+## §66
+### Send us the URL of the profile we already deleted
+
+**Shape:** you write a supplementary letter to a people-search site — new
+identifiers, added to a request they have already honoured. The reply is polite and
+sounds reasonable:
+
+> "We apologize for any inconvenience. Please provide the URL/web address of your
+> profile details page so we can identify your profile."
+
+There is no profile details page. **They removed it**, eight days earlier, and
+confirmed it on screen with the record named back. The only way to produce the URL
+they are asking for would be for the removal to have failed.
+
+**The removal you were granted is what makes the follow-up unanswerable.** Nobody
+designed that; it falls out of a support script written for the first contact being
+used on the second. But its effect is a request that cannot be satisfied and a
+ticket that closes for want of information the consumer structurally cannot have.
+
+**The deeper error is the key, not the timing.** Even before the removal, a URL
+would have been the wrong thing to ask for. A supplementary letter exists precisely
+because of identifiers that *do not surface in a name search* — four dead email
+addresses, six addresses left decades ago, three old phone numbers. Records keyed
+to those were never going to appear on the page the consumer could find. A URL is a
+front-end artifact; the request is about the index behind it. **A back-end search
+takes identifiers, not links.**
+
+**The response.** Do not treat it as obstruction — say plainly why it cannot be
+answered, and give them the thing that works:
+
+- Name the circularity in one sentence: *the only way I could give you that URL is
+  if your removal had failed.*
+- Distinguish the artifact from the data: *a page URL is the front end; my request
+  is about what is in the index.*
+- Redirect to the usable key: *please search the identifiers themselves.*
+- Invert the ask: *if any of them produce a live record, that URL is something you
+  can see and I cannot — I would rather be told about it than asked for it.*
+
+That last line is the useful one. It converts an impossible demand into a question
+they are uniquely able to answer, and it costs them nothing to answer honestly.
+
+**A tell worth noticing.** Both TruePeopleSearch and FamilyTreeNow sent this text —
+identical, word for word — **two seconds apart**. Same script, same desk, same
+moment. That is stronger corroboration of a shared operator than the boilerplate in
+`_SILENT_FAILURES.md` §112, and it arrived for free.
+
+**Related:** §61, §63, `_SILENT_FAILURES.md` §112, §103.
