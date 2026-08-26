@@ -3581,3 +3581,51 @@ moment. That is stronger corroboration of a shared operator than the boilerplate
 `_SILENT_FAILURES.md` §112, and it arrived for free.
 
 **Related:** §61, §63, `_SILENT_FAILURES.md` §112, §103.
+
+---
+
+## §67
+### The sending address is not the address in the record
+
+**Shape:** you write, in the first line, *"I am the consumer, writing about my own
+data. I am not an authorized agent acting for anyone else."* The reply says:
+
+> "To proceed with this request, it must be submitted directly by the data
+> subject."
+
+Nobody read past the identifier list. But the interesting question is not *why did
+they not read it* — it is **what made an agent request the more natural reading**,
+because that is fixable and the rest is not.
+
+**The likely cause, and it is structural.** A letter is sent from one address and
+lists twelve. If a broker holds a record at all, it is far more likely keyed to one
+of the older ones — the dead university mailbox, the ISP address abandoned in 2003
+— than to the address you write from today. So the sending address does not match
+the record, and a verification step built on "does the requester's email match the
+subject's email" fails on exactly the population with the longest data trail.
+
+The same shape appeared at BDEX: of twelve addresses searched, **four matched and
+every one had been out of service for years**, while none of the current addresses
+matched at all. The addresses most likely to be *in* the file are the least likely
+to be the one you can send from.
+
+**A second trigger** is naming the brand rather than the parent. Writing to Clearbit
+about Clearbit, when HubSpot now owns it, reads to a HubSpot agent as a request
+about somebody else's product.
+
+**The response.** Do not simply re-assert that you are the data subject; that is
+what the ignored first line already said. Instead:
+
+- Quote your own first line back, so the correction is checkable rather than
+  asserted.
+- **Offer them the cause.** *"If something made it look otherwise I would like to
+  know what"* — then name the sending-address mismatch and the brand-versus-parent
+  point. This converts a contradiction into a diagnosis, which is much easier for a
+  support agent to accept.
+- Ask them to treat the existing request as validly submitted **rather than
+  restarting the clock**. A re-file resets the statutory deadline, which is the real
+  cost of the misclassification.
+- Offer the fallback without conceding: *"if your process genuinely cannot accept it
+  on that basis, say so plainly and I will use the portal."*
+
+**Related:** §61, §63, §65, `_SILENT_FAILURES.md` §103.
