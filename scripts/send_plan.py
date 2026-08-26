@@ -73,7 +73,13 @@ def build():
 
         if status == "pending":
             new.append((pri, bid, b, "new"))
-        elif status in SUPPLEMENTABLE and not rec.get("supplemented"):
+        elif (status in SUPPLEMENTABLE
+              and not rec.get("supplemented")
+              # A broker can be covered by a letter sent to a sibling brand or to
+              # a shared contact address. Recording that as a skip is a decision,
+              # not a gap -- without this the planner re-offers it every tick and
+              # the same judgement gets made again, or worse, a duplicate goes out.
+              and not rec.get("supplement_skipped")):
             d = first_contact(rec)
             if d and d < CUTOVER:
                 supplements.append((pri, bid, b, "supplement"))
