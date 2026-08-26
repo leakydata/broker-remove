@@ -3283,3 +3283,66 @@ ID requirement to argue about.
 **Related:** §48 (ID demanded after deletion was already done); `_SILENT_FAILURES.md`
 §104 (verification that cannot be met by construction).
 
+## §61 — The form has no box for you
+
+Deloitte's intake redirect asks the requester to state **their relationship with
+Deloitte**, and offers: current or former job applicant, Tax client, subscriber or
+marketing recipient, MyDeloitte accountholder, event registrant, Business
+Chemistry participant, alumnus or retiree, and *Other*.
+
+Every option describes **a customer, an employee, or a counterparty.**
+
+But Deloitte Consulting LLP appears in a state **data broker registry** — and
+registration applies to an entity that sells or shares personal information about
+consumers **with whom it has no direct relationship.** The one category that
+describes the person most likely to be exercising a broker-related right is the
+only one the form does not offer.
+
+### This is not a refusal, and that is what makes it interesting
+
+Nobody wrote a rule saying "reject people with no relationship to us." The form
+was almost certainly designed by mapping the ways a person's data *normally*
+arrives at a professional services firm — and that map is complete, for the
+population it was drawn from.
+
+Then a registration obligation attached, aimed at a completely different
+population, and no one revisited the taxonomy. **The deflection is a schema, not a
+decision.** It cannot be appealed, because there is nobody who chose it.
+
+That makes it invisible from the inside, too: a privacy team reviewing its intake
+sees categories that account for every request it has ever received.
+
+### What to do
+
+1. **Select "Other" and name the missing category explicitly** — *"no
+   relationship; writing in response to a data broker registration."* Do not pick
+   the nearest-fitting real relationship. Saying you are a former job applicant
+   when you are not routes the request to HR and answers a different question.
+2. **Say the category is missing, once, without heat.** It is genuinely useful
+   information: *"a request taxonomy built entirely from customer relationships
+   cannot receive requests from the population that data-broker registration
+   exists to protect."*
+3. **Separate the question that needs no form.** Here that was: *what activity
+   caused the registration?* That is not a data subject request — it needs no
+   verification and no identity check, because it is not about the requester at
+   all. **Asking it in the email thread, explicitly flagged as not-a-DSR, routes
+   around the form entirely.**
+
+### The companion instruction: one request per email address
+
+The same reply said: *"Please submit one request for each unique email address that
+is associated with you."*
+
+Twelve addresses, twelve separate Data Subject Requests, for one person. This is
+`_SILENT_FAILURES.md` §101 — the one-value-per-field data model — but stated as
+**policy, in advance**, and placed on the consumer rather than executed silently
+inside the company.
+
+Ask whether one request listing all of them is acceptable, and **give the reason
+in terms of their cost, not yours**: it is twelve queues, twelve reference numbers
+and twelve verification exercises on their side. Cite the case where an intake
+system did this multiplication by itself and generated dozens of parallel requests
+from one letter — it makes the point concrete and it is not hypothetical.
+
+**Related:** `_SILENT_FAILURES.md` §101, §107; §57.
+
