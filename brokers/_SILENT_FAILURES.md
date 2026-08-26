@@ -6423,3 +6423,50 @@ across a family is closer to scraping, and the sites are the last place to invit
 attention to a name. Worth doing deliberately and slowly rather than as a sweep.
 
 **Related:** §119, §90, `_DEFLECTIONS.md` §64, §66.
+
+---
+
+## §123
+### The null that comes with a suppression entry
+
+DataLane's reply, in full:
+
+> *"We are confirming receipt of your email requesting for your data to be removed
+> from our system. We assure you we do not have your name nor email in our database
+> **and have now flagged your information on our suppression list**."*
+
+Two sentences, and the second one is the rare part.
+
+**Almost every "no records found" is a snapshot.** It is true on the day it is
+written and says nothing about the next ingest. For a compiled file that rebuilds
+from suppliers on a cycle, a null is the least durable answer a company can give —
+the record does not exist *yet*, and nothing in the reply prevents it existing next
+quarter. The consumer files it as a win and never looks again, which is precisely
+when it stops being one.
+
+A null **plus a forward-looking suppression entry** is a different object. It says:
+we have nothing, and we have arranged not to acquire you. That is the only form of
+null that survives contact with time.
+
+**Ask for it explicitly, in the first letter, and phrase it for the null case.** Not
+*"suppress my details"* — which reads as conditional on there being something to
+suppress — but *"if you hold nothing today, please add my identifiers to a standing
+do-not-add entry so a future ingest cannot create the record."* The template already
+does this; DataLane is the first to answer it in the terms it was asked.
+
+### And then stop writing
+
+The same letter promises: *"if you hold nothing about me, please say so — a clean
+'no records found' is a useful and acceptable reply, and I will not write again."*
+
+DataLane gave exactly that. So no reply was sent, including no thank-you.
+
+There was a residual thing to ask — they name *"name nor email"* and not the phone
+numbers or prior addresses, so the suppression may be narrower than the request. It
+is a real gap and it was still not worth writing about, because **the promise is
+load-bearing.** The reason a broker gives a straight answer is that a straight answer
+ends the exchange. A project that says "this closes it" and then writes once more,
+however politely, teaches the next reader of that mailbox that it does not close
+anything — and the cost lands on every subsequent letter, not this one.
+
+**Related:** §119, §90, `_DEFLECTIONS.md` §58.
