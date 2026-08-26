@@ -5402,3 +5402,75 @@ alternative of blasting everything:
 
 **Related:** §91, §99, §100.
 
+## §106 — Five answers, two of them uncomfortable, and then a closed door
+
+Revelio Labs answered a five-part follow-up in five lines:
+
+> *1. Fully suppressed unless someone changes their professional profile URL and
+> we can't connect it to the old one*
+> *2. We had modeled fields, but we have deleted all of them*
+> *3. Underlying records came from professional profile sites*
+> *4. **No, we cannot enforce downstream deletion.***
+> *5. We fully deleted the individual record; it is no longer contained in
+> aggregates*
+>
+> *"We now consider this case fully closed and will not be engaging in further
+> correspondence on the matter."*
+
+### Two of those cost them something to say
+
+**Answer 4 is the one to notice.** Companies are not obliged to volunteer that a
+deletion does not reach copies already licensed to customers. Most simply do not
+mention downstream copies at all, and the omission is invisible. Revelio said it
+flatly.
+
+My letter had asked for exactly that: *"I would rather have an uncomfortable
+accurate answer than a comfortable vague one."* **When a company takes you up on
+that, the answer is to accept it — not to treat the admission as an opening.**
+
+**Answer 2 is the second.** *"We had modeled fields"* concedes that inferred
+attributes existed, in reply to a question that named estimated compensation,
+inferred seniority, inferred gender or ethnicity, and departure-likelihood
+scores. Nothing forced that concession either.
+
+### Answer 1 confirms the suppression key
+
+*"Fully suppressed unless someone changes their professional profile URL and we
+can't connect it to the old one."*
+
+That is §90 stated from the inside. A standing do-not-source entry **is**
+possible at a crawl-driven workforce broker, and it **is** keyed to the profile
+URL. The caveat is honest and technically real: change the URL and the link to the
+old suppression may break.
+
+So the guidance sharpens. When asking for profile-URL suppression, it is worth
+knowing that **changing your profile URL afterwards can silently undo it.** That
+is not a reason to avoid the request; it is a reason not to change the URL later
+without re-notifying.
+
+### Answer 3 fell short, and I let it
+
+I asked which platform, posting site or licensed feed supplied the records. The
+answer — *"professional profile sites"* — is a category, not a name.
+
+**I did not press.** Not because the answer was adequate, but because they had
+answered four other questions squarely, conceded two things against interest, and
+said they were closing the matter.
+
+Pressing there teaches a company that **candour buys more work.** The next person
+who asks Revelio a five-part question gets a shorter reply, or a form. A single
+generic answer among five good ones is a price worth paying to keep candour cheap.
+
+Recorded as unresolved rather than pursued: **the sources are still unnamed.**
+
+### On "we will not be engaging in further correspondence"
+
+Honour it. This is not the Outlogic case (`_DEFLECTIONS.md`) where two refusals
+came without substance — here the door closed *after* the questions were answered.
+
+**The test is not whether they refused to keep talking. It is whether they
+answered before they stopped.**
+
+**Related:** §90, §99; `_CATEGORY_VARIANTS.md` on workforce and talent
+intelligence.
+
