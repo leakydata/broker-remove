@@ -6313,3 +6313,53 @@ forms as the only route — while noting in the record exactly which question wa
 unanswerable, because that gap is the finding.
 
 **Related:** §90, §112, `_DEFLECTIONS.md` §63, §69.
+
+---
+
+## §122
+### We finally looked, and the confirmed removal was still listed
+
+`verify_removals.py` exists because *a submission is not a removal*. It had never
+been run against a live search. Running it produced two results and both are
+instructive — one about a broker, and one much larger about the file itself.
+
+**Radaris.** Status `confirmed`. Re-approved a removal earlier today with the words
+*"the removal may take up to 24 hours."* A search seven hours later returns a live
+results page.
+
+The count of same-name matches is weak evidence on its own — it is a common name.
+The strong evidence is the **city facet in the sidebar**. It lists the towns from
+the prior-address history, in a filter panel built from the matched records. Three
+unrelated namesakes do not produce a facet list that mirrors one person's address
+history. **The facet is derived from the record, which means the record is there.**
+
+That is worth keeping as a technique: on a people-search results page, the filter
+sidebar is often a more reliable presence test than the visible cards, because it is
+generated from the underlying rows rather than from the rendering.
+
+**Not downgraded — yet.** Today's stated 24-hour window has about sixteen hours left.
+Downgrading inside a window the broker asked for would be unfair, and it would also
+throw away the more interesting question, which is whether they keep it. Re-check
+after the window closes. If it is still listed then, this is a `confirmed` that did
+not hold, at the broker with the strongest reappearance reputation in this file.
+
+**Nuwber.** The search URL returns **HTTP 403** to an ordinary request. That is bot
+protection, not an answer. Recorded as *verification blocked*, because **a 403 is not
+evidence of removal** and recording it as one would manufacture a clean result out of
+a failed check — precisely the error this whole file is about.
+
+### The larger finding: 332 of 334 cannot be verified at all
+
+The worklist has 334 brokers due. **Two have a recorded search URL.** Every other
+line reads *"search URL unknown — find it on the site."*
+
+So the project can currently answer "did we submit?" for 600-odd brokers and "did it
+work?" for two. That asymmetry is invisible in every status count, because
+`submitted` and `confirmed` both look like progress and neither is a claim about the
+present.
+
+The fix is not more letters. It is recording, at the moment a people-search broker is
+first worked, **the URL that will later prove or disprove the removal** — which costs
+nothing then and is unrecoverable later at scale.
+
+**Related:** §119, §90, `_DEFLECTIONS.md` §64, §66.
