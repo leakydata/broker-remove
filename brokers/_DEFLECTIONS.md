@@ -3710,3 +3710,62 @@ deflection, repeated. Resolution is a workflow state, not a claim that anything
 happened — the same point as §64.
 
 **Related:** §64, §66, `_SILENT_FAILURES.md` §115.
+
+---
+
+## §70
+### Confirm your residency — when residency was never the question
+
+CinqDI replied to a deletion request:
+
+> "under current U.S. state data privacy laws, only residents of certain states are
+> eligible to submit consumer requests. Based on the information provided, it
+> appears you are not a resident of one of those states. If you believe this may be
+> an error, please provide us with additional information confirming your state of
+> residency."
+
+The letter had given the current address in full, **Pennsylvania** included. Nothing
+about residency was unclear, and Pennsylvania genuinely has no comprehensive
+consumer privacy statute — **their conclusion is correct**.
+
+So do not argue the law. Arguing it is the trap: it is a fight you lose on the
+merits, it uses up the goodwill you need, and it lets the exchange end on the one
+question where they are right.
+
+**What is actually wrong with the reply is that it answers a question the letter had
+already conceded.** Our template ends:
+
+> *"If you believe you are not subject to these statutes, I ask that you honor this
+> request as a matter of your published privacy policy."*
+
+That sentence exists for exactly this reply, and the reply did not engage with it.
+Not refused — **not seen**. A residency check is a workflow step with two outcomes,
+and "honour it anyway as policy" is not one of them, so the sentence had nowhere to
+go (the §61 shape: a schema, not a decision).
+
+**The response, in three moves:**
+
+1. **Concede the law immediately and explicitly.** *"Your conclusion is correct on
+   the facts as stated and I am not going to argue that a law covers me when it does
+   not."* This costs nothing, and it makes the rest readable as something other than
+   a complaint.
+2. **Re-ask the policy question as a separate question**, in one sentence, so it
+   cannot be absorbed back into the residency workflow: *will you delete and
+   suppress as a matter of company policy, notwithstanding that no state law obliges
+   you to?*
+3. **Price it honestly and give them the out.** The cost is one suppression entry;
+   the alternative is continuing to sell data about someone who asked in writing not
+   to, in a state that happens not to have legislated yet. And: *if the answer is no,
+   say so and tell me which basis you applied — I will record it and will not write
+   again.*
+
+That last part matters most. The failure mode to avoid is not refusal, it is the
+request that is **neither honoured nor refused and simply stops**. A stated refusal
+is a usable outcome; silence is not.
+
+**An aside worth noticing.** The reply was signed by a Principal Digital Project
+Manager at *mv digital group* — CinqDI's privacy desk is run by an outside agency.
+That is a vendor relationship you only learn from a signature block, and it is the
+same class of fact as §63: the address that answers is not always the company.
+
+**Related:** §61, §63, §68, `_SILENT_FAILURES.md` §110.
