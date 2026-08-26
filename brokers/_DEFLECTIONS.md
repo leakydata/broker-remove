@@ -3629,3 +3629,45 @@ what the ignored first line already said. Instead:
   on that basis, say so plainly and I will use the portal."*
 
 **Related:** §61, §63, §65, `_SILENT_FAILURES.md` §103.
+
+---
+
+## §68
+### The redirect that carries the request with it
+
+Almost every entry in this file is a way of handing work back to the consumer.
+This one is the opposite, and it is worth recording as the shape to hope for.
+
+LexisNexis Legal & Professional replied:
+
+> "You have reached LexisNexis Legal & Professional which handles case law and news
+> information. We are a separate business from LexisNexis Risk Solutions which
+> handles requests such as yours. We have reviewed the details that you provided,
+> and we have forwarded this request to LexisNexis Risk Solutions."
+
+Four things happened there, and only the first is common:
+
+1. They identified that they were the wrong division.
+2. They **forwarded the request** rather than telling the consumer to resend it.
+3. They **said they had done so**, with a reference number.
+4. They gave the correct route anyway, and closed their own ticket cleanly.
+
+Compare that with the usual version — *"we do not action privacy requests received
+via email, please use the portal"* (§63) — where the work of getting the request to
+the right place lands back on the person who already did it once, and the statutory
+clock quietly restarts.
+
+**The trap inside the good outcome.** A forwarded request is invisible to the person
+who sent it. You cannot tell whether it arrived, whether it kept its date, or
+whether it landed in a queue nobody reads. So the right move is not to relax — it is
+to **write directly to the receiving division as well**, referencing the forward and
+saying plainly *"treat this as the same request, not a second one."* That costs one
+letter and removes the single point of failure without accusing anyone of anything.
+
+**And check who they pointed at.** `lexisnexis_risk_solutions_fl` sat in our
+registry with **no status at all** — one of the largest consumer data businesses in
+the United States, never written to. It surfaced only because the reply named it.
+A redirect is a fact about corporate structure, and corporate structure is where the
+untracked entities live (`_SILENT_FAILURES.md` §118).
+
+**Related:** §57, §63, `_SILENT_FAILURES.md` §118, §117.
