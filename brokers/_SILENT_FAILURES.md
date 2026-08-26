@@ -5870,3 +5870,56 @@ a confirmation that can be checked brand by brand.
 
 **Related:** §109 (families from a portal menu), §112 (families from a support
 template), `_FAMILIES.md`.
+
+---
+
+## §115
+### The mail client rewrote the first line of the letter
+
+A supplementary letter to Whitepages went out opening:
+
+    To the Privacy Officer at https://www.google.com/url?q=http://411.com&
+    source=gmail&ust=1787832692238000&sa=E,
+
+Gmail's linkifier found the bare domain in the salutation and **replaced the
+visible text** with a tracking redirect. Not a link with sensible text — the URL
+itself, as the first line of a privacy request, which is precisely the letter where
+looking legitimate matters. Corporate mail filters also score `google.com/url`
+redirects, so the cost is not only that it reads badly.
+
+Nothing in the repo did this. The letter was correct when generated and correct
+when handed to the send tool. The rewrite happened in the transport, which is the
+one part of the pipeline none of the checks look at — `redact.py` reads what we
+wrote, `validate.py` reads the registry, and neither reads what actually left.
+
+**Tested rather than guessed.** Same text sent both ways to our own mailbox:
+
+| | `411.com` in salutation | `Remodeling.com` mid-sentence |
+|---|---|---|
+| plain `body` | becomes the redirect URL | untouched |
+| `htmlBody` | `<a href="…">411.com</a>` — text intact | untouched |
+
+So the trigger is narrow: Gmail only rewrote the token it was confident was a
+hostname, and left two other bare domains alone in the same message. Narrow is not
+the same as predictable, though, and working out which names are safe is more
+fragile than simply not sending plain text.
+
+**Fix.** `scripts/letter_html.py` renders a plain-text letter as HTML preserving
+the hard-wrapped lines and the indentation that the identifier lists depend on, and
+both generators now emit `html_body` alongside `body`. Send the HTML one. The link
+wrapper is unavoidable and harmless; losing the visible text is neither.
+
+**On the letter already sent:** not resent. Whitepages had already opened ticket
+#5460448, so a resend would be a duplicate to a desk already in conversation — the
+exact thing §114 is about. Sent a two-sentence correction inside the existing
+thread instead, saying the salutation was mangled in transit and there is no link
+to click.
+
+**The general point.** Twelve broker names in the registry are bare domains, and
+sibling-brand lists add more. But the lesson is not "handle these twelve." It is
+that a pipeline can be correct at every stage it controls and still deliver
+something wrong, and the only way to find that out is to look at what **arrived**
+rather than what was generated. We only caught it because the acknowledgement
+quoted our own subject line back.
+
+**Related:** §114, §88.

@@ -26,6 +26,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from make_optout_email import TEMPLATE, CONTACT_NOTE, load_profile  # noqa: E402
 from check_email_domains import deliverable  # noqa: E402
+from letter_html import to_html  # noqa: E402
 
 
 def load_dead_addresses():
@@ -226,7 +227,11 @@ def main():
         body = body.split("\n", 2)[2].lstrip("\n")
         out.append({"id": b["id"], "name": b.get("name", b["id"]),
                     "to": b["email_to"], "priority": b.get("priority"),
-                    "subject": subject, "body": body})
+                    "subject": subject, "body": body,
+                    # Send html_body, not body. Gmail rewrites bare
+                    # domains in plain text and replaces the visible
+                    # text with a redirect URL -- scripts/letter_html.py.
+                    "html_body": to_html(body)})
 
     if args.summary:
         print(f"{len(pool)} brokers still to contact by email.")

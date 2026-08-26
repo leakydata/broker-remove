@@ -33,6 +33,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 from paths import state  # noqa: E402
 from make_optout_email import load_profile  # noqa: E402
+from letter_html import to_html  # noqa: E402
 
 REGISTRY = ROOT / "data" / "brokers.json"
 
@@ -221,6 +222,11 @@ def main():
         ref = ""
         if rec.get("confirmation_ref"):
             ref = f" (your reference {rec['confirmation_ref']})"
+        body = TEMPLATE.format(
+            broker=b.get("name", bid), when=d, ref=ref,
+            added_block=(sibling_block(siblings) + added_block),
+            full_block=full_block,
+            contact=prof["email"], name=prof["name"])
         out.append({
             "id": bid,
             "covers": [m[0] for m in members],
@@ -228,11 +234,11 @@ def main():
             "to": b["email_to"],
             "subject": ("Additional identifiers for my existing privacy request "
                         f"— {prof['name']}"),
-            "body": TEMPLATE.format(
-                broker=b.get("name", bid), when=d, ref=ref,
-                added_block=(sibling_block(siblings) + added_block),
-                full_block=full_block,
-                contact=prof["email"], name=prof["name"]),
+            "body": body,
+            # Send this, not `body`. Gmail rewrites bare domains in a plain-text
+            # body and replaces the VISIBLE text with a google.com/url redirect
+            # -- see scripts/letter_html.py.
+            "html_body": to_html(body),
         })
     print(json.dumps(out, indent=2))
 
