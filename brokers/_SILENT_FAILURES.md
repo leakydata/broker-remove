@@ -6025,4 +6025,36 @@ keyed to identifiers the consumer no longer uses, and those are precisely the
 records they cannot find in order to ask for removal. The form's shape decides the
 ceiling on what any request through it can achieve.
 
+### The unbranded site is the one that gets missed
+
+Applying the same sweep to the PeopleConnect brands found five sites that carry
+**no PeopleConnect branding at all** and yet send their opt-out requests to a
+PeopleConnect page:
+
+    backgroundhawk.com, northcarolinapublicrecords.org,
+    southcarolinapublicrecords.com, recordspage.org
+        -> truthfinder.com/opt-out/v2/submit/
+    peoplefind.com  -> intelius.com/privacy-center
+
+None was tracked. And they are the dangerous shape: a suppression recorded under
+seven brand names, where the consumer's record is served by an eighth site not on
+that list, is not a suppression — the listing keeps appearing under a name nobody
+checked. Asked directly whether the existing suppression covers them, and offered
+the alternative that they may be separate businesses merely using the same opt-out
+page, which is entirely possible.
+
+### A false family, caught by checking
+
+The first pass at this grouped fifty `*courtrecords.us` domains as one family
+routed to `courtrecords.us`. They are not. The match was a **substring** —
+`alabamacourtrecords.us` contains the characters `courtrecords.us` — and each of
+those sites has its own opt-out page on its own domain. Checking one URL was enough
+to see it.
+
+That is §89's asymmetry in a new costume, and worth repeating because the cost is
+one-directional: a wrong grouping produces a letter claiming a relationship that
+does not exist, in the same paragraph where we ask the recipient to be precise.
+Match on registered domain, never on substring, and verify one member before
+believing the group.
+
 **Related:** §109, §112, §89, `_FAMILIES.md`.
