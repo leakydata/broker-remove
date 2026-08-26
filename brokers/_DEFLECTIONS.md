@@ -3769,3 +3769,59 @@ That is a vendor relationship you only learn from a signature block, and it is t
 same class of fact as §63: the address that answers is not always the company.
 
 **Related:** §61, §63, §68, `_SILENT_FAILURES.md` §110.
+
+---
+
+## §71
+### Prove you are ""
+
+LocateFamily.com's identity-validation email arrived with its name merge-field
+empty — four times:
+
+> *"We have received your request to remove information pertaining to **""**."*
+> *"we must ascertain that you are in fact **""**"*
+> *"we were unable to confirm that this email address belongs to **""**"*
+
+So the message asks the recipient to prove they are nobody. It is a template bug,
+not a tactic (§69 — assume broken before hostile), but it has a real consequence,
+and the consequence is the interesting part.
+
+**Their check is address-matching, and the address is theirs to name.** They ask for
+an ordinary document — a junk-mail label, an invoice, a business card — showing your
+name at an address, and they state:
+
+> *"THE ADDRESS on the ID MUST BE THE SAME as the address displayed."*
+
+Displayed on *their* listing. For anyone with a long address history that may be a
+house left a decade ago, so a current utility bill fails the check through nobody's
+fault. And the consumer cannot aim at the target, because **the target is on the
+page they are trying to have removed** and the email that demands the match does not
+say what it is.
+
+**The response is to ask before sending, not to send and hope.** Two questions: what
+name is on the listing associated with this reference, and what address is displayed
+on it? They can see both; you cannot. Only then can you say whether you are able to
+evidence it — and if the answer is an address you can no longer document, say so and
+ask what else they accept rather than manufacturing something.
+
+There is a second reason not to lead with a document. Sending proof of address is
+handing over personal data to settle a dispute about personal data, and it should be
+a deliberate decision by the person whose data it is, taken once the requirement is
+actually known.
+
+### Credit where it is due
+
+The same email says:
+
+> *"DO NOT provide government issued ID as this would be inappropriate."*
+
+Twice, in capitals. That is better than most of the industry. The common pattern is
+a privacy desk demanding a driving licence or passport to process a removal — which
+means surrendering more sensitive data than the record being removed, to a company
+whose competence at holding it is exactly what is in question (§60).
+
+A broker that refuses to accept government ID has thought about this properly, and
+it is worth saying so in the reply. Naming the one thing a company does well costs
+nothing and makes the rest of the letter read as something other than a complaint.
+
+**Related:** §60, §66, §69.
