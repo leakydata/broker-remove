@@ -27,6 +27,15 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from make_optout_email import TEMPLATE, CONTACT_NOTE, load_profile  # noqa: E402
 from check_email_domains import deliverable  # noqa: E402
 
+
+def load_dead_addresses():
+    """Addresses observed to hard-bounce. Absent file means nothing is known
+    yet, not that everything is fine -- so an empty set, never an error."""
+    f = ROOT / "data" / "dead_addresses.json"
+    if not f.exists():
+        return set()
+    return {a.lower() for a in json.loads(f.read_text()).get("addresses", {})}
+
 ROOT = Path(__file__).resolve().parent.parent
 from paths import state, outbox  # noqa: E402
 REGISTRY = ROOT / "data" / "brokers.json"
@@ -165,16 +174,39 @@ def main():
     # DNS lookups. `None` (lookup failed) is treated as sendable on purpose --
     # condemning a broker on a transient resolver error is the expensive
     # direction of this mistake.
-    batch, dead = [], []
+    #
+    # The domain check is only half of it. A domain can resolve, answer on its
+    # MX, and still have no such mailbox -- privacy@researchusallc.com and
+    # privacy@databaseusa.com both 550 while every domain-level check passes,
+    # and both are the addresses those companies filed with California as their
+    # consumer contact. Nothing short of sending finds that out, so once a
+    # bounce has been seen it gets written into data/dead_addresses.json and
+    # consulted here. Otherwise the knowledge lives only in removal_status,
+    # which the send path never reads -- which is exactly how a letter went to
+    # ops@findtrueowner.com a day after that broker was marked unreachable.
+    dead_addrs = load_dead_addresses()
+
+    batch, dead, dead_mailbox = [], [], []
     for b in pool:
         if len(batch) >= min(args.size, remaining):
             break
-        domain = (b.get("email_to") or "").split("@")[-1].lower()
+        addr = (b.get("email_to") or "").lower().strip()
+        if addr in dead_addrs:
+            dead_mailbox.append((b["id"], addr))
+            continue
+        domain = addr.split("@")[-1]
         verdict = deliverable(domain) if domain else None
         if verdict is False:
             dead.append((b["id"], domain))
             continue
         batch.append(b)
+    if dead_mailbox:
+        print(f"holding {len(dead_mailbox)} broker(s) whose address has already "
+              f"hard-bounced: "
+              + ", ".join(f"{i} ({a})" for i, a in dead_mailbox[:6])
+              + (" ..." if len(dead_mailbox) > 6 else "")
+              + " -- find another address before spending a send",
+              file=sys.stderr)
     if dead:
         print(f"holding {len(dead)} broker(s) whose contact domain accepts no "
               f"mail (NXDOMAIN or null MX): "

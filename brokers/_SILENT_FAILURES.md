@@ -5776,3 +5776,48 @@ to re-check every status that rests on that channel**, and the check has to look
 what each status actually rests on, one at a time.
 
 **Related:** §89, §109, §103, `_DEFLECTIONS.md` §63, `_FAMILIES.md`.
+
+---
+
+## §113
+### The send path could not see what the tracker already knew
+
+`saha_ventures` was marked `unreachable` on 2026-08-25 with the note *"contact
+domain publishes no MX and no A record — nothing can be delivered... marked before
+spending a send."* On 2026-08-26 a letter went to `ops@findtrueowner.com` and
+bounced.
+
+Nobody ignored the note. The note was in `removal_status.json`, and the send path
+reads `brokers.json`. **The knowledge and the decision lived in different files.**
+
+That is the general shape, and it is worth naming because it will happen again in
+other forms: a fact learned expensively during one request gets recorded against
+*that request*, while the machinery that would have used it consults the
+*registry*. Per-request memory does not protect future requests.
+
+The same split explains the more interesting half. `check_email_domains.deliverable()`
+tests a domain — NXDOMAIN, null MX — and it is right about all of those. It cannot
+see a **dead mailbox** on a healthy domain, and that is the commonest failure we
+have: `privacy@researchusallc.com` and `privacy@databaseusa.com` both return 550
+while their domains resolve and their MX hosts answer. Both are the addresses those
+companies filed with California as their consumer contact.
+
+The obvious tool for this is an SMTP `RCPT TO` probe — open a conversation, ask
+about the mailbox, hang up before `DATA`, send nothing. **It does not work from
+here: outbound port 25 is blocked.** Worth knowing before building it, and worth
+recording so nobody builds it twice.
+
+What does work is remembering. A bounce is expensive to learn and free to write
+down, so `data/dead_addresses.json` now holds every address observed to hard-bounce
+with the code and date, and `queue_batch.py` refuses to send to anything on it. Backfilled
+with 26 addresses from the mailbox history.
+
+**A reconciliation, while we were in there.** Every hard-bounced address was checked
+against the tracker to find statuses resting on a dead channel. Two looked wrong
+and both turned out to be fine: DatabaseUSA's `submitted` came from a portal
+submission on 2026-08-18, not the bounced letter, and ROC Advertising had been
+resent to a working first-party address after its vendor address died. **Zero false
+statuses** — which is the answer worth having, and only checkable because each
+`submitted` records what it rests on.
+
+**Related:** §88, §92, §111, §103.

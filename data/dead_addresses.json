@@ -1,0 +1,31 @@
+{
+  "_doc": "Addresses that have hard-bounced. The domain-level deliverability check in check_email_domains.py cannot see these: the domain resolves, the MX records answer, and only the MAILBOX is absent. Nothing short of sending finds that out, so once found it must be written down. Keyed by lowercase address. queue_batch.py refuses to send to anything listed here.",
+  "addresses": {
+    "admin@sawyerdatadirect.com": "550 address not found, 2026-08-26.",
+    "ccgprivacy@customer.com": "550 address not found, 2026-08-25.",
+    "compliance@rpmleader.com": "550 address not found, 2026-08-24.",
+    "connect@rpmleader.com": "550 5.7.1, 2026-08-19.",
+    "consumerinquiries@rpmleader.com": "550, 2026-08-19. This is the address their own privacy policy designates for consumer privacy requests.",
+    "datanalytics@teamdms.com": "550 address not found, 2026-08-22.",
+    "dataprivacy_rocadvertising@simpleoptoutcompliance.com": "550 5.1.1, 2026-08-20. A third-party compliance vendor's address, published as ROC Advertising's designated privacy contact. Working first-party address is privacy@rocadvertising.com.",
+    "info@rpmleader.com": "550 5.7.1, 2026-08-19.",
+    "info@searchsystems.net": "550 5.1.1, 2026-08-20.",
+    "lzepeda@agrgroupinc.com": "550 address not found, 2026-08-25.",
+    "no-reply@resonate.com": "550 address not found, 2026-08-19. They send from it; it does not receive.",
+    "ops@findtrueowner.com": "domain findtrueowner.com does not resolve, 2026-08-26.",
+    "optout@staircase.co": "550 5.1.1, 2026-08-20.",
+    "privacy@agrgroupinc.com": "550 address not found, 2026-08-25.",
+    "privacy@aviato.co": "550 address not found, 2026-08-24.",
+    "privacy@bvdinfo.com": "550 5.1.1, 2026-08-25.",
+    "privacy@connextdigital.com": "550 5.1.1, 2026-08-22.",
+    "privacy@crawlbee.com": "crawlbee.com publishes a null MX (RFC 7505) - an explicit refusal of all mail, 2026-08-25.",
+    "privacy@databaseusa.com": "550 5.1.1 user unknown in relay recipient table, 2026-08-26. In their California registry filing.",
+    "privacy@researchusallc.com": "550 user unknown, 2026-08-26. In their California registry filing. Domain and MX healthy.",
+    "privacy@xmodesocial.com": "550 5.2.1, 2026-08-20.",
+    "privacyofficer@datacomplianceportal.com": "550 address not found, 2026-08-20.",
+    "sam@arrakis.ai": "domain arrakis.ai does not resolve, 2026-08-25.",
+    "support@cloudlead.co": "550 5.1.1, 2026-08-24.",
+    "support@privatenumberchecker.com": "550, 2026-08-19.",
+    "webmaster@searchsystems.net": "550 5.1.1, 2026-08-20. The address published on their own site."
+  }
+}
