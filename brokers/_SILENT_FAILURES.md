@@ -6997,3 +6997,62 @@ is what makes the retention safe. A suppression list that is itself a saleable a
 is the §90 nightmare, and it is worth one sentence to close.
 
 **Related:** §90, §119, §123, §126, §127.
+
+---
+
+## §129
+### The address I called personal was the work address that matched
+
+SalesIntel is a B2B prospecting database. The follow-up letter to them made a
+confident prediction:
+
+> *"I ask because the answer is likely **no**, and for a reason that is nobody's
+> fault. Every email address I gave you is personal, and SalesIntel is a B2B
+> prospecting database — so it is keyed to **work** email addresses, employers, and
+> job titles. Searching my personal addresses is very likely an accurate search of
+> the wrong index."*
+
+They came back with:
+
+> *"**Yes**, we identified and deleted a legacy record from our back-end systems that
+> contained business information related to your position at [a university],
+> including your title and business contact information."*
+
+**The prediction was wrong, and it was wrong on facts already in the letter.** One of
+the twelve addresses is a university account. It had been in every letter for weeks,
+annotated only as *"closed mailbox — a search key only, not a reply address"* — an
+accurate note about its deliverability that said nothing about what kind of address
+it is. A closed institutional mailbox is still a **work** address, and in a B2B file
+it is exactly the key most likely to match.
+
+So the identifier list had been silently mis-typed all along: twelve addresses
+treated as one category, when one of them belonged to the other.
+
+**The general error is worth naming.** The argument was built on a real and usually
+correct insight — B2B files are keyed to work identifiers, so personal addresses miss
+— and then applied without checking whether the premise held for this particular
+list. A good general rule, applied without looking at the data.
+
+**What changes:**
+
+- **Classify identifiers by domain type, not by whose they are.** An address at a
+  university, a former employer, or any organisational domain is a *work* identifier
+  regardless of how personal the use was. It belongs in the part of the letter that
+  argues about B2B indexes, not the part that lists personal contact details.
+- **Stop predicting the answer in the letter.** The prediction added nothing — the
+  question *"was anything actually found?"* stands perfectly well alone, and being
+  wrong out loud costs credibility on every other claim in the same message.
+
+### What they did right, recorded as the standard
+
+Three questions, three direct answers, and the retention enumerated to the field:
+*"limited to your first and last name, and the email addresses you provided."* Plus
+the downstream question closed unprompted: *"None of our clients have ever accessed
+the record."*
+
+That is §128's shape done properly — minimal retention for recognition, stated
+precisely enough to check. **No reply was sent**, because the letter promised a
+complete answer closes the matter, and writing back to say *"you were right and I was
+wrong"* would spend their time for my benefit.
+
+**Related:** §119, §123, §128, `_DEFLECTIONS.md` §76.
