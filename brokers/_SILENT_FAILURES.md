@@ -7116,3 +7116,96 @@ portal access can do.
 
 **Related:** §113 (per-request memory not protecting future requests),
 `_DEFLECTIONS.md` §59, §65.
+
+## §131
+
+**A right gated behind a key the data has outlived.**
+*Outreach — 27 Aug 2026*
+
+Outreach replied at length, and this section is not a complaint about them. Nothing
+here is a deflection; every part of it is a defensible design decision, several of
+them better-reasoned than anything else in this file. The failure is structural, and
+it is worth writing down precisely *because* the company reasoning its way into it
+was reasoning correctly.
+
+Their verification rule is the correct one, and stated more clearly than anyone else
+has managed:
+
+> verification protects **disclosure**. Access discloses, so it requires
+> verification. Deletion and opt-out disclose nothing — they remove or restrict —
+> so they do not.
+
+That is right. It is also the cleanest articulation of a distinction most companies
+either ignore (verify everything, including deletions, using an identity document) or
+collapse the other way (verify nothing at all). Applied to a request with one email
+address on it, it produces exactly the right outcome.
+
+Applied to a request with twelve, four of which are addresses I no longer control, it
+splits the request into two halves — and the half that most needs answering is the
+half that cannot be.
+
+**Why the split falls where it does.** A sales-prospecting platform is fed from
+business contact data. The record most likely to exist is the one keyed to the
+address a person used at a previous employer or institution. That address is, by
+definition, one they no longer receive mail at — that is what "previous" means.
+
+So the verification link goes to the mailbox, and the mailbox is gone. Three of mine
+are at consumer services that shut down years ago; one is a university account closed
+when I left. No link sent to any of them will ever be opened by anyone, ever, for any
+reason.
+
+Which gives the anti-correlation that makes this a structural failure rather than an
+inconvenience: **the more likely a record is to exist, the less likely you can be
+authenticated to see it.** The addresses that pass verification are the ones I use
+daily — the ones a prospecting database is least likely to be built from. The
+current-address half of the request is the half that will come back empty.
+
+**This is the same shape as the Foursquare problem, in a second flavour.** There the
+right was gated behind a mobile advertising ID: the platform will act on the
+identifier its data is keyed to, and modern phones will not show you that identifier
+and reset it behind your back regardless. Here the gate is an email address. The
+difference is only in *how* the key is lost:
+
+- **Foursquare**: the key cannot be produced at all. You can neither name it nor
+  demonstrate control of it.
+- **Outreach**: the key can be *named* perfectly — I typed all twelve — but control
+  of it cannot be *demonstrated*, because demonstration means receiving mail there.
+
+Generalised: **any verification scheme that authenticates by proving control of an
+identifier can only authenticate you for data keyed to identifiers you have not lost
+track of.** It is exactly backwards from where the risk is. The profile you most need
+to see is the one assembled under a name for you that you have stopped being.
+
+**There is a real escape hatch, and it comes from their own reasoning.** If
+verification protects disclosure only, then the deletion right does not need the key
+at all. You can be deleted from a record you will never be permitted to see. I have
+asked for exactly that — deletion applied to all twelve regardless of what happens
+with the verification links — and the request rests on their argument, not mine,
+which is the strongest position to ask from.
+
+But look where that lands. The right that survives the gap is the one whose success
+cannot be checked, and the right that would let you check it is the one the gap
+closes. This is the verification problem from `samba_tv.md` reached by a completely
+different route: an outcome you must take on trust, because the mechanism that would
+confirm it has been removed for a good reason.
+
+**One narrower ask, which may be the useful part.** The security rationale for
+per-address delivery applies to the *contents* of a record. It does not obviously
+apply to the *bare fact that one exists*. Telling me a match was found for a defunct
+address discloses nothing to an impostor that the impostor did not already assert by
+naming the address — but it is the entire difference between knowing a deletion did
+something and assuming it did. Whether that ask lands is worth watching; if
+existence-disclosure can be decoupled from content-disclosure, it is a general
+answer, not a one-company favour.
+
+**A note on how the failure gets recorded.** Their procedural note says an address
+unverified after 14 days is closed as *non-responsive*. For a defunct domain that
+close is automatic and certain. On a compliance record, "non-responsive" reads as a
+consumer who lost interest — the file cannot distinguish *did not bother* from *could
+not, structurally, ever*. I have asked for it to be recorded as **address not under
+the requester's control** instead. That is not pedantry: aggregate response-rate
+statistics built from these records are one of the few external measures of how the
+regime is working, and this failure mode is invisible in them by construction.
+
+**Related:** §113, `_DEFLECTIONS.md` §68, `brokers/foursquare.md`,
+`brokers/samba_tv.md`.

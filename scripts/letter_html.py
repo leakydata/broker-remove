@@ -33,13 +33,24 @@ indentation collapses and every identifier list turns into one paragraph.
 """
 
 import html as _html
+import re as _re
+
+# Letters use markdown-style emphasis for the one or two sentences that carry
+# the request. In plain text the asterisks read as emphasis; in HTML they read
+# as a typo, so convert them. Emphasis can span a hard-wrapped line break, so
+# this runs over the whole escaped text before it is split -- <strong> around a
+# <br/> is legal and renders correctly.
+_BOLD = _re.compile(r"\*\*(.+?)\*\*", _re.S)
+_ITALIC = _re.compile(r"(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)", _re.S)
 
 
 def to_html(text):
     """Plain-text letter -> HTML that renders identically."""
+    esc_all = _html.escape(text, quote=False)
+    esc_all = _BOLD.sub(r"<strong>\1</strong>", esc_all)
+    esc_all = _ITALIC.sub(r"<em>\1</em>", esc_all)
     out = []
-    for line in text.split("\n"):
-        esc = _html.escape(line, quote=False)
+    for esc in esc_all.split("\n"):
         # Leading whitespace is significant: the identifier lists and the
         # sibling-brand block are indented, and HTML would eat it.
         stripped = esc.lstrip(" ")

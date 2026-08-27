@@ -39,3 +39,48 @@ the one they use now. Every historical address needs to be in the letter.
 ## Verification
 
 <!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+
+## Outcome (27 Aug 2026)
+
+A long, careful reply from their Sr Director of Data Privacy — the best-argued
+answer on the controller/processor line the project has had. Status stays
+`submitted` (60–90 days notified), but the reasoning is worth more than the
+outcome.
+
+**All three pre-empts above got direct answers.** That is the reusable finding:
+naming an expected deflection in advance, and asking them to state the basis
+rather than decline quietly on it, produced explicit positions on all three
+instead of silence on all three. In particular the B2B carve-out was *not*
+claimed — they went out of their way to say that address, phone and DOB do not
+fall outside CCPA, and that email is simply the key their systems search on. That
+is an engineering constraint honestly labelled as one, and it is the first time
+anyone has drawn that line the right way round.
+
+**What they refused, and how.** They will not name customers, explicitly and on
+the record — which is the fallback the gotcha above asks for, so it counts as an
+answer rather than a dodge. The half that got dropped was the *other* half:
+whether they will forward the request to those customers. Re-asked. **Expect the
+forwarding question to need asking twice**; it is the one that falls out of a
+reply that otherwise engages fully.
+
+**Deletion and opt-out are mutually exclusive here, and they said why.** Marking
+someone opted-out means keeping enough of them to recognise them again, so it
+cannot be layered on top of a deletion. Any letter asking for both should expect
+to be sent back to choose. Decide in advance which you want, and — the useful
+move — reply with a *conditional* rather than a question, so the choice does not
+cost a round trip: pick one, and name the single fact that would change the
+answer.
+
+**They cannot suppress against a customer re-upload, and volunteered it.** A
+deletion on a platform fed by customer imports lasts until the next import. This
+was point 4 of the letter, the point usually answered evasively or not at all.
+See `_SILENT_FAILURES.md` §131.
+
+**The verification gap.** Access requests are gated behind a confirmation link
+sent to each address individually, with no consolidated response — so any address
+you no longer control is one you cannot be authenticated for, and on a
+prospecting platform those are precisely the addresses the records are keyed to.
+The counter comes from their own rule: verification protects *disclosure*, and
+deletion discloses nothing, so **ask for the deletion to apply to every address
+regardless of what the verification links do**. Full analysis in
+`_SILENT_FAILURES.md` §131.
