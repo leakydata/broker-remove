@@ -4264,6 +4264,38 @@ correct once and may still work; they are just no longer the first choice.
 role mailbox it simply never re-filed, and using it avoids both failure modes at
 once — the filing that rotted when the person left, and writing an unrelated
 individual's mailbox into a public repository.
+
+### The full sweep: 27 of 75
+
+The remaining 53 produced 20 more, so **27 of 75 person-shaped contacts — 36% — had
+a published role address the registry did not have.** Eighteen were adopted directly;
+two were held back (below).
+
+Three of them are not staleness but different failures wearing the same clothes:
+
+- **`the_swarm`** filed **`privcy@theswarm.com`**. The live address is
+  `privacy@theswarm.com`. That is a **typo in the filing** — a missing letter — and
+  it would have bounced forever while looking like an ordinary dead mailbox.
+- **`fetch_rewards`** filed `@fetchrewards.com`; the live address is `@fetch.com`.
+  The company changed domain and the filing did not follow.
+- **`refinition`** filed `getrefined@` — a marketing address — where the privacy page
+  publishes `optout@`. Not a person and not stale, just the wrong desk.
+
+So "person-shaped" is really a proxy for *"nobody has revisited this field since it
+was first typed"*, and once you look at that field properly you find every kind of
+rot in it at once.
+
+**Two were deliberately not adopted.** `stat_resource_group_llc_dba_statlistics`
+points at `privacy@alesco.com` and `intentmacro` at `privacy@pharosiq.com` — both
+role addresses on a **different company's domain**. Those are parents or rebrands,
+which is a real finding, but promoting them on a page-scrape alone is the §89 error:
+a shared or successor domain is a hypothesis, not a correction. They are recorded as
+`email_alt` with `offdomain_needs_confirmation`, which is the category
+`verify_emails.py` already maintains for exactly this.
+
+The asymmetry is the same one this file keeps returning to. Adopting a wrong address
+sends a stranger's mailbox a letter about someone else's data; leaving it unadopted
+costs one extra look later.
 - the domain still resolves, so the address still *looks* fine.
 
 **How much of the corpus is exposed to this.** Of 1,180 brokers for which we hold

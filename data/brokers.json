@@ -12486,16 +12486,18 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "daniel@multimedialists.com",
+      "email_to": "compliance@multimedialists.com",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "role_address_published_on_own_privacy_page",
       "registry_years": [
         "2020-2023",
         "2024",
         "2025",
         "2026"
       ],
-      "legal_name": "MULTIMEDIA LISTS, INC."
+      "legal_name": "MULTIMEDIA LISTS, INC.",
+      "email_alt": "daniel@multimedialists.com",
+      "contact_is_person": false
     },
     {
       "id": "my_renter_checker",
@@ -12737,13 +12739,15 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "amyl@networx.com",
+      "email_to": "privacy@networx.com",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "role_address_published_on_own_privacy_page",
       "registry_years": [
         "2026"
       ],
-      "legal_name": "Networx Systems Inc."
+      "legal_name": "Networx Systems Inc.",
+      "email_alt": "amyl@networx.com",
+      "contact_is_person": false
     },
     {
       "id": "neustar",
@@ -13086,16 +13090,18 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "tsg@finthrive.com",
+      "email_to": "privacy@finthrive.com",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "role_address_published_on_own_privacy_page",
       "registry_years": [
         "2020-2023",
         "2024",
         "2025",
         "2026"
       ],
-      "legal_name": "TSG Holdco, LLC"
+      "legal_name": "TSG Holdco, LLC",
+      "email_alt": "tsg@finthrive.com",
+      "contact_is_person": false
     },
     {
       "id": "nordic_data_resources_as",
@@ -14308,15 +14314,17 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "lchiodo@porchgroupmedia.com",
+      "email_to": "privacy@porchgroupmedia.com",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "role_address_published_on_own_privacy_page",
       "registry_years": [
         "2024",
         "2025",
         "2026"
       ],
-      "legal_name": "Datamentors LLC"
+      "legal_name": "Datamentors LLC",
+      "email_alt": "lchiodo@porchgroupmedia.com",
+      "contact_is_person": false
     },
     {
       "id": "pharosiq",
@@ -15260,14 +15268,16 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "ezra@quorum.inc",
+      "email_to": "privacy@quorum.inc",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "role_address_published_on_own_privacy_page",
       "registry_years": [
         "2026"
       ],
       "legal_name": null,
-      "domain_source": "ca_registry_contact_email"
+      "domain_source": "ca_registry_contact_email",
+      "email_alt": "ezra@quorum.inc",
+      "contact_is_person": false
     },
     {
       "id": "rainbarrel",
@@ -15356,14 +15366,16 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "ddemarsh@rayinsights.com",
+      "email_to": "privacy@rayinsights.com",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "role_address_published_on_own_privacy_page",
       "registry_years": [
         "2026"
       ],
       "legal_name": "Ray CDP, Inc.",
-      "domain_source": "ca_registry_contact_email"
+      "domain_source": "ca_registry_contact_email",
+      "email_alt": "ddemarsh@rayinsights.com",
+      "contact_is_person": false
     },
     {
       "id": "reach_marketing",
@@ -15655,13 +15667,15 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "getrefined@refinition.com",
+      "email_to": "optout@refinition.com",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "role_address_published_on_own_privacy_page",
       "registry_years": [
         "2024"
       ],
-      "legal_name": "GeoDataScience Inc."
+      "legal_name": "GeoDataScience Inc.",
+      "email_alt": "getrefined@refinition.com",
+      "contact_is_person": false
     },
     {
       "id": "reis",
@@ -15691,15 +15705,17 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "finance@reklaimyours.com",
+      "email_to": "privacy@reklaimyours.com",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "role_address_published_on_own_privacy_page",
       "registry_years": [
         "2020-2023",
         "2025",
         "2026"
       ],
-      "legal_name": "Reklaim Ltd."
+      "legal_name": "Reklaim Ltd.",
+      "email_alt": "finance@reklaimyours.com",
+      "contact_is_person": false
     },
     {
       "id": "relationship_science",
@@ -16114,16 +16130,18 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "jeff@richmediallc.com",
+      "email_to": "privacy@richmediallc.com",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "role_address_published_on_own_privacy_page",
       "registry_years": [
         "2020-2023",
         "2024",
         "2025",
         "2026"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "email_alt": "jeff@richmediallc.com",
+      "contact_is_person": false
     },
     {
       "id": "ripple_effect_strategies",
@@ -17380,16 +17398,18 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "jmatthes@spokeo.com",
+      "email_to": "privacy@spokeo.com",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "role_address_published_on_own_privacy_page",
       "registry_years": [
         "2026"
       ],
       "legal_name": "Spokeo, Inc.",
       "domain_source": "ca_registry_contact_email",
       "duplicate_of": "spokeo",
-      "notes": "Resolves to spokeo.com, the same site as spokeo. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the spokeo thread rather than opening a second request."
+      "notes": "Resolves to spokeo.com, the same site as spokeo. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the spokeo thread rather than opening a second request.",
+      "email_alt": "jmatthes@spokeo.com",
+      "contact_is_person": false
     },
     {
       "id": "sports_innovation_lab",
@@ -17551,11 +17571,12 @@
       "optery_slug": null,
       "email_to": "michael@alescodata.com",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "offdomain_needs_confirmation",
       "registry_years": [
         "2020-2023"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "email_alt": "privacy@alesco.com"
     },
     {
       "id": "statara",
@@ -17983,14 +18004,16 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "sourcing@tauxbe.com",
+      "email_to": "privacy@tauxbe.com",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "role_address_published_on_own_privacy_page",
       "registry_years": [
         "2026"
       ],
       "legal_name": null,
-      "domain_source": "ca_registry_contact_email"
+      "domain_source": "ca_registry_contact_email",
+      "email_alt": "sourcing@tauxbe.com",
+      "contact_is_person": false
     },
     {
       "id": "td_cowen",
@@ -18199,15 +18222,17 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "jhenson@thedatagroup.com",
+      "email_to": "compliance@thedatagroup.com",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "role_address_published_on_own_privacy_page",
       "registry_years": [
         "2024",
         "2025",
         "2026"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "email_alt": "jhenson@thedatagroup.com",
+      "contact_is_person": false
     },
     {
       "id": "the_org",
@@ -18260,15 +18285,17 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "privcy@theswarm.com",
+      "email_to": "privacy@theswarm.com",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "role_address_published_on_own_privacy_page",
       "registry_years": [
         "2024",
         "2025",
         "2026"
       ],
-      "legal_name": "Swarm Holdings, Inc."
+      "legal_name": "Swarm Holdings, Inc.",
+      "email_alt": "privcy@theswarm.com",
+      "contact_is_person": false
     },
     {
       "id": "think_data",
@@ -18299,15 +18326,17 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "jmcleod@throtle.io",
+      "email_to": "privacy@throtle.io",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "role_address_published_on_own_privacy_page",
       "registry_years": [
         "2020-2023",
         "2024",
         "2025"
       ],
-      "legal_name": "Throtle, Inc"
+      "legal_name": "Throtle, Inc",
+      "email_alt": "jmcleod@throtle.io",
+      "contact_is_person": false
     },
     {
       "id": "tie",
@@ -18770,14 +18799,16 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "policy@upcell.io",
+      "email_to": "privacy@upcell.io",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "role_address_published_on_own_privacy_page",
       "registry_years": [
         "2025",
         "2026"
       ],
-      "legal_name": "upcell, LLC"
+      "legal_name": "upcell, LLC",
+      "email_alt": "policy@upcell.io",
+      "contact_is_person": false
     },
     {
       "id": "ups_capital",
@@ -19658,15 +19689,17 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "sam@wealthfeed.com",
+      "email_to": "privacy@wealthfeed.com",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "role_address_published_on_own_privacy_page",
       "registry_years": [
         "2024",
         "2025",
         "2026"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "email_alt": "sam@wealthfeed.com",
+      "contact_is_person": false
     },
     {
       "id": "webbula",
@@ -22134,16 +22167,17 @@
       "needs_email_confirm": null,
       "source": "optery",
       "optery_slug": "hunter-2",
-      "email_to": "matt@hunter.io",
+      "email_to": "privacy@hunter.io",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
-      "email_alt": "privacy@hunter.io",
+      "email_verified_by": "role_address_published_on_own_privacy_page",
+      "email_alt": "matt@hunter.io",
       "registry_years": [
         "2020-2023",
         "2024",
         "2025",
         "2026"
-      ]
+      ],
+      "contact_is_person": false
     },
     {
       "id": "hunter_web_services",
@@ -22267,7 +22301,7 @@
       "optery_slug": "intentmacro",
       "email_to": "paul@intentmacro.com",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "offdomain_needs_confirmation",
       "notes": "privacy@pharosiq.com is not on intentmacro.com -- the site publishes no address on the broker's own domain. Either an acquisition (route is correct) or a wrong domain in the registry (route is a stranger). Confirm the corporate relationship before sending: the letter carries a full identifier set.",
       "email_alt": "privacy@pharosiq.com",
       "registry_years": [
@@ -24819,14 +24853,15 @@
       "needs_email_confirm": null,
       "source": "optery",
       "optery_slug": "wiza",
-      "email_to": "harrison@wiza.com",
+      "email_to": "optout@wiza.com",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
-      "email_alt": "optout@wiza.com",
+      "email_verified_by": "role_address_published_on_own_privacy_page",
+      "email_alt": "harrison@wiza.com",
       "registry_years": [
         "2025",
         "2026"
-      ]
+      ],
+      "contact_is_person": false
     },
     {
       "id": "x_ray_contact",
