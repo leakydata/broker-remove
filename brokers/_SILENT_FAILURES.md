@@ -7677,3 +7677,75 @@ out loud rather than dressed up as a deletion.
 
 **Related:** §135 (a confirmation is a key list), §137 (the identical macro),
 `brokers/radaris.md`.
+
+## §139
+
+**The confirmation was written from the parsed copy, not the letter.**
+*BookYourData — 27 Aug 2026*
+
+Their first reply was the most complete this project had received. It did the
+thing almost nobody does: it **enumerated**. Not "we hold no record of you" but a
+list of the seven addresses actually searched, plus a statement that it was a
+complete check rather than a sample, a distinction drawn between the exclusion
+entry and the deletion, and an unprompted account of exactly what is retained
+afterwards — addresses, name, request type, date, nothing else — with an offer to
+delete that too and the consequence spelled out.
+
+The letter had listed **twelve** addresses. The reply listed seven.
+
+Pushed on the five missing. The answer names the cause exactly, and it is a
+failure mode this file did not have:
+
+> "Our parser captured seven of the twelve from your letter and the confirmation
+> was written from what the parser had, not from what you sent."
+
+**Nobody misled anyone.** The confirmation was a faithful, accurate report — on a
+truncated input. Every claim in it was true of the seven addresses the machine had
+extracted. It was internally consistent and externally wrong, and no amount of
+care in *writing* it could have caught that, because the writer was reading the
+parse rather than the letter.
+
+**Why this is the sharpest case for enumeration yet.** §138 said a confirmation is
+corroborated when it contains something only the work could have produced. This
+goes further:
+
+> **Enumeration does not just prove work happened. It reveals what the work was
+> done ON.**
+
+A general assurance conceals its own scope perfectly. "We hold no record of you"
+would have been *equally true* of the seven and *equally satisfying* to read, and
+five addresses would have stayed unprotected forever with neither side aware.
+They said so themselves: "a confirmation saying only that we hold no record of you
+would have looked identical, and neither of us would have known."
+
+Generalised: **an unenumerated confirmation may be reporting on a subset of your
+request that you cannot see, and there is no way to detect it from the outside.**
+Every "we have processed your request" in this project's `confirmed` column that
+does not list what it processed carries that risk silently. The fix is not
+suspicion — it is asking every company to enumerate, and treating an enumerated
+partial answer as *better* than an unenumerated complete-sounding one.
+
+**Three more straight answers, all volunteered.**
+
+*On generated addresses* — the first.last@employer constructions a B2B file is
+built from, which a subject cannot list because they have never owned them:
+
+> "Our exclusion list is keyed on email address. It cannot hold a name-only entry,
+> so it cannot catch a constructed address that neither of us knows about yet.
+> That is a genuine gap in the mechanism."
+
+A stated limit rather than a reassurance. Then they searched the **name** across
+every employer anyway, found nothing — and mentioned that the only near match was
+a different person with a similar name, *"so you know the search actually ran
+rather than returned an empty result by accident."* That is §138's corroboration
+test, offered unprompted by the company being tested.
+
+*On past purchasers*: no. They do not notify them, and are not aware of anyone in
+the sector who does. A downloaded file is beyond reach; the exclusion entry is
+what stops re-supply. Worth having as a plain sector-wide answer.
+
+*On the retained exclusion entry*: kept, at our request. Deleting it would remove
+the only thing that recognises the addresses, and the protection would lapse — the
+§135 trade-off, correctly framed by them before it was put to them.
+
+**Related:** §138 (corroboration), §135 (a confirmation is a key list), §133.

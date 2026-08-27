@@ -35,13 +35,21 @@ ROOT = Path(__file__).resolve().parent.parent
 from paths import state, outbox  # noqa: E402
 QUEUE = state("handoff_queue.json")
 
+# Keep this in step with what the queue actually contains. `form` and `verify`
+# were in use for weeks before they were in this dict: add() rejected them while
+# list() rendered them fine, because list() falls back to the raw string. The
+# validator and the data disagreed and the data was right -- filling a web form
+# is the commonest handoff there is after a CAPTCHA.
 ACTIONS = {
     "captcha":  "solve a CAPTCHA, then submit",
+    "form":     "fill in and submit a web form",
     "click":    "click one button",
+    "verify":   "complete a verification step",
     "phone":    "make a phone call",
     "postal":   "print, sign and post",
     "id":       "decide whether to supply an identity document",
     "decision": "make a judgement call",
+    "none":     "nothing to do -- recorded so it is not re-planned",
 }
 
 
