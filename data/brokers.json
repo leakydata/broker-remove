@@ -6930,8 +6930,7 @@
         "2024",
         "2025"
       ],
-      "legal_name": null,
-      "contact_is_person": true
+      "legal_name": null
     },
     {
       "id": "email_industries",
@@ -6959,11 +6958,13 @@
       "optery_slug": null,
       "email_to": "dataprivacy2026@listmatch.com",
       "email_verified": true,
-      "email_verified_by": "published_on_own_privacy_page_after_registry_address_bounced",
+      "email_verified_by": "broker_reply",
       "registry_years": [
         "2024"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "email_alt": "dataprivacy@listmatch.com",
+      "notes": "dataprivacy@listmatch.com \u2014 the address on their CA data broker registration \u2014 hard-bounced (550) 2026-08-27. Their own privacy page publishes a YEAR-SUFFIXED address, dataprivacy2026@listmatch.com, which rotates while the registry keeps the old one. Resent there 2026-08-27 and got an auto-reply confirming receipt (gmail:1a041e3313fd0e4e). Registry entry was stale \u2014 email_to still pointed at the dead address after a prior session already found and used the fix."
     },
     {
       "id": "emailmovers",
@@ -6990,7 +6991,7 @@
       "domain": "emerges.com",
       "priority": 2,
       "method": "email",
-      "optout_url": "https://www.emerges.com/Government-Record-Opt-Out_ep_51-1.html",
+      "optout_url": "",
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
@@ -7001,8 +7002,7 @@
         "2020-2023",
         "2024"
       ],
-      "legal_name": "eMerges.com, Inc.",
-      "email_alt": "shawn@emerges.com"
+      "legal_name": "eMerges.com, Inc."
     },
     {
       "id": "endgame",
@@ -7053,8 +7053,7 @@
       "registry_years": [
         "2026"
       ],
-      "legal_name": "Enlyft Inc.",
-      "contact_is_person": true
+      "legal_name": "Enlyft Inc."
     },
     {
       "id": "enrich_layer",
@@ -7404,15 +7403,13 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "privacy@fetch.com",
+      "email_to": "c.brown@fetchrewards.com",
       "email_verified": true,
-      "email_verified_by": "role_address_published_on_own_privacy_page",
+      "email_verified_by": "ca_data_broker_registry",
       "registry_years": [
         "2026"
       ],
-      "legal_name": null,
-      "email_alt": "c.brown@fetchrewards.com",
-      "contact_is_person": false
+      "legal_name": null
     },
     {
       "id": "fha_mortgage_finder",
@@ -7597,18 +7594,16 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "privacy@firstorion.com",
+      "email_to": "snichols@firstorion.com",
       "email_verified": true,
-      "email_verified_by": "role_address_published_on_own_privacy_page",
+      "email_verified_by": "ca_data_broker_registry",
       "registry_years": [
         "2020-2023",
         "2024",
         "2025",
         "2026"
       ],
-      "legal_name": "First Orion Corp",
-      "email_alt": "snichols@firstorion.com",
-      "contact_is_person": false
+      "legal_name": "First Orion Corp"
     },
     {
       "id": "five_by_five",
@@ -8549,16 +8544,14 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "privacyteam@growinglibraries.com",
+      "email_to": "ian@growinglibraries.com",
       "email_verified": true,
-      "email_verified_by": "role_address_published_on_own_privacy_page",
+      "email_verified_by": "ca_data_broker_registry",
       "registry_years": [
         "2025",
         "2026"
       ],
-      "legal_name": null,
-      "email_alt": "ian@growinglibraries.com",
-      "contact_is_person": false
+      "legal_name": null
     },
     {
       "id": "growthcode",
@@ -8570,15 +8563,13 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "privacy@growthcode.io",
+      "email_to": "jonathon@growthcode.io",
       "email_verified": true,
-      "email_verified_by": "role_address_published_on_own_privacy_page",
+      "email_verified_by": "ca_data_broker_registry",
       "registry_years": [
         "2026"
       ],
-      "legal_name": null,
-      "email_alt": "jonathon@growthcode.io",
-      "contact_is_person": false
+      "legal_name": null
     },
     {
       "id": "h1",
@@ -8706,17 +8697,15 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "privacy@healthcare.com",
+      "email_to": "deasley@healthcare.com",
       "email_verified": true,
-      "email_verified_by": "role_address_published_on_own_privacy_page",
+      "email_verified_by": "ca_data_broker_registry",
       "registry_years": [
         "2020-2023",
         "2024",
         "2025"
       ],
-      "legal_name": null,
-      "email_alt": "deasley@healthcare.com",
-      "contact_is_person": false
+      "legal_name": null
     },
     {
       "id": "healthcare_com",
@@ -9405,7 +9394,7 @@
       "optery_slug": "infofree",
       "email_to": "info@infofree.com",
       "email_verified": true,
-      "email_verified_by": "delivery_evidence",
+      "email_verified_by": "privacy_policy",
       "email_alt": "privacy@infofree.com",
       "notes": "privacy@infofree.com hard-bounces (550, address not found); the site's own privacy policy publishes only info@infofree.com. Registry corrected 2026-08-22 to use the working address as primary (email_to field was stale despite the note already saying this).",
       "registry_years": [
@@ -9580,18 +9569,16 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "privacy@inmarket.com",
+      "email_to": "jknapp@inmarket.com",
       "email_verified": true,
-      "email_verified_by": "role_address_published_on_own_privacy_page",
+      "email_verified_by": "ca_data_broker_registry",
       "registry_years": [
         "2020-2023",
         "2024",
         "2025",
         "2026"
       ],
-      "legal_name": "InMarket Media, LLC",
-      "email_alt": "jknapp@inmarket.com",
-      "contact_is_person": false
+      "legal_name": "InMarket Media, LLC"
     },
     {
       "id": "inmatessearcher",
@@ -10305,7 +10292,7 @@
       "optery_slug": "keyopinionleaders",
       "email_to": "privacy@keyopinionleaders.com",
       "email_verified": false,
-      "email_verified_by": "delivery_evidence",
+      "email_verified_by": "bounced",
       "notes": "Domain has NO NS, NO SOA, NO A and NO MX - it does not resolve at all, on the apex or on www. The registration has lapsed or been withdrawn. Gmail reports this as a DELIVERY DELAY and retries for 48 hours, so it looks transient for two days before hard-bouncing."
     },
     {
@@ -10605,8 +10592,8 @@
       "source": "optery_scrape",
       "optery_slug": "leadership-connect",
       "email_to": "privacy@leadershipconnect.io",
-      "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified": false,
+      "email_verified_by": "no_address_published",
       "email_alt": null,
       "registry_years": [
         "2020-2023"
@@ -10894,16 +10881,14 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "privacyinfo@lightboxre.com",
+      "email_to": "jfranks@lightboxre.com",
       "email_verified": true,
-      "email_verified_by": "role_address_published_on_own_privacy_page",
+      "email_verified_by": "ca_data_broker_registry",
       "registry_years": [
         "2025",
         "2026"
       ],
-      "legal_name": "LightBox Parent, L.P.",
-      "email_alt": "jfranks@lightboxre.com",
-      "contact_is_person": false
+      "legal_name": "LightBox Parent, L.P."
     },
     {
       "id": "lightcast",
@@ -12486,18 +12471,16 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "compliance@multimedialists.com",
+      "email_to": "daniel@multimedialists.com",
       "email_verified": true,
-      "email_verified_by": "role_address_published_on_own_privacy_page",
+      "email_verified_by": "ca_data_broker_registry",
       "registry_years": [
         "2020-2023",
         "2024",
         "2025",
         "2026"
       ],
-      "legal_name": "MULTIMEDIA LISTS, INC.",
-      "email_alt": "daniel@multimedialists.com",
-      "contact_is_person": false
+      "legal_name": "MULTIMEDIA LISTS, INC."
     },
     {
       "id": "my_renter_checker",
@@ -12739,15 +12722,13 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "privacy@networx.com",
+      "email_to": "amyl@networx.com",
       "email_verified": true,
-      "email_verified_by": "role_address_published_on_own_privacy_page",
+      "email_verified_by": "ca_data_broker_registry",
       "registry_years": [
         "2026"
       ],
-      "legal_name": "Networx Systems Inc.",
-      "email_alt": "amyl@networx.com",
-      "contact_is_person": false
+      "legal_name": "Networx Systems Inc."
     },
     {
       "id": "neustar",
@@ -13090,18 +13071,16 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "privacy@finthrive.com",
+      "email_to": "tsg@finthrive.com",
       "email_verified": true,
-      "email_verified_by": "role_address_published_on_own_privacy_page",
+      "email_verified_by": "ca_data_broker_registry",
       "registry_years": [
         "2020-2023",
         "2024",
         "2025",
         "2026"
       ],
-      "legal_name": "TSG Holdco, LLC",
-      "email_alt": "tsg@finthrive.com",
-      "contact_is_person": false
+      "legal_name": "TSG Holdco, LLC"
     },
     {
       "id": "nordic_data_resources_as",
@@ -13859,8 +13838,8 @@
       "source": "optery_scrape",
       "optery_slug": "paramount-direct-marketing",
       "email_to": "ccpa@paramountdirectmarketing.com",
-      "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified": false,
+      "email_verified_by": "no_address_published",
       "notes": "ccpa@paramountdirectmarketing.com does not exist - bounced 'Recipient Unknown' from postmaster@PARAMOUNTLISTS.COM, which names their Office 365 tenant and therefore their sibling brand. Use the web form: separate /do-not-sell-ca and /do-not-sell-non-ca routes, the non-CA one offering BOTH opt-out and delete as multi-select checkboxes. reCAPTCHA on submit. They compare the state you select against the geolocation of your connection, so it must be submitted from the state you claim.",
       "email_alt": null,
       "registry_years": [
@@ -14314,17 +14293,15 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "privacy@porchgroupmedia.com",
+      "email_to": "lchiodo@porchgroupmedia.com",
       "email_verified": true,
-      "email_verified_by": "role_address_published_on_own_privacy_page",
+      "email_verified_by": "ca_data_broker_registry",
       "registry_years": [
         "2024",
         "2025",
         "2026"
       ],
-      "legal_name": "Datamentors LLC",
-      "email_alt": "lchiodo@porchgroupmedia.com",
-      "contact_is_person": false
+      "legal_name": "Datamentors LLC"
     },
     {
       "id": "pharosiq",
@@ -15268,16 +15245,14 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "privacy@quorum.inc",
+      "email_to": "ezra@quorum.inc",
       "email_verified": true,
-      "email_verified_by": "role_address_published_on_own_privacy_page",
+      "email_verified_by": "ca_data_broker_registry",
       "registry_years": [
         "2026"
       ],
       "legal_name": null,
-      "domain_source": "ca_registry_contact_email",
-      "email_alt": "ezra@quorum.inc",
-      "contact_is_person": false
+      "domain_source": "ca_registry_contact_email"
     },
     {
       "id": "rainbarrel",
@@ -15308,16 +15283,18 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "privacy@rampedup.io",
-      "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_to": "contact@rampedup.io",
+      "email_verified": false,
+      "email_verified_by": null,
       "registry_years": [
         "2020-2023",
         "2024",
         "2025",
         "2026"
       ],
-      "legal_name": "RampedUp"
+      "legal_name": "RampedUp",
+      "email_alt": "privacy@rampedup.io",
+      "notes": "privacy@rampedup.io \u2014 the address on their CA data broker registration \u2014 is a restricted Google Workspace group that rejects outside senders ('group may not exist or you may not have permission to post'), bounced 2026-08-26. Their own site publishes contact@rampedup.io instead; resent there, unverified until a reply arrives."
     },
     {
       "id": "rategain_adara",
@@ -15366,16 +15343,14 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "privacy@rayinsights.com",
+      "email_to": "ddemarsh@rayinsights.com",
       "email_verified": true,
-      "email_verified_by": "role_address_published_on_own_privacy_page",
+      "email_verified_by": "ca_data_broker_registry",
       "registry_years": [
         "2026"
       ],
       "legal_name": "Ray CDP, Inc.",
-      "domain_source": "ca_registry_contact_email",
-      "email_alt": "ddemarsh@rayinsights.com",
-      "contact_is_person": false
+      "domain_source": "ca_registry_contact_email"
     },
     {
       "id": "reach_marketing",
@@ -15667,15 +15642,13 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "optout@refinition.com",
+      "email_to": "getrefined@refinition.com",
       "email_verified": true,
-      "email_verified_by": "role_address_published_on_own_privacy_page",
+      "email_verified_by": "ca_data_broker_registry",
       "registry_years": [
         "2024"
       ],
-      "legal_name": "GeoDataScience Inc.",
-      "email_alt": "getrefined@refinition.com",
-      "contact_is_person": false
+      "legal_name": "GeoDataScience Inc."
     },
     {
       "id": "reis",
@@ -15705,17 +15678,15 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "privacy@reklaimyours.com",
+      "email_to": "finance@reklaimyours.com",
       "email_verified": true,
-      "email_verified_by": "role_address_published_on_own_privacy_page",
+      "email_verified_by": "ca_data_broker_registry",
       "registry_years": [
         "2020-2023",
         "2025",
         "2026"
       ],
-      "legal_name": "Reklaim Ltd.",
-      "email_alt": "finance@reklaimyours.com",
-      "contact_is_person": false
+      "legal_name": "Reklaim Ltd."
     },
     {
       "id": "relationship_science",
@@ -16130,18 +16101,16 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "privacy@richmediallc.com",
+      "email_to": "jeff@richmediallc.com",
       "email_verified": true,
-      "email_verified_by": "role_address_published_on_own_privacy_page",
+      "email_verified_by": "ca_data_broker_registry",
       "registry_years": [
         "2020-2023",
         "2024",
         "2025",
         "2026"
       ],
-      "legal_name": null,
-      "email_alt": "jeff@richmediallc.com",
-      "contact_is_person": false
+      "legal_name": null
     },
     {
       "id": "ripple_effect_strategies",
@@ -16386,17 +16355,16 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "privacy@samba.tv",
+      "email_to": "jagdip.sekhon@samba.tv",
       "email_verified": true,
-      "email_verified_by": "named_by_company_employee_in_reply",
+      "email_verified_by": "ca_data_broker_registry",
       "registry_years": [
         "2020-2023",
         "2024",
         "2025",
         "2026"
       ],
-      "legal_name": null,
-      "email_alt": ""
+      "legal_name": null
     },
     {
       "id": "sawyer_lists",
@@ -17215,8 +17183,8 @@
       "source": "ca_data_broker_registry",
       "optery_slug": null,
       "email_to": "dataprivacy@sourceitmarketing.com",
-      "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified": false,
+      "email_verified_by": "no_address_published",
       "registry_years": [
         "2024"
       ],
@@ -17398,18 +17366,16 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "privacy@spokeo.com",
+      "email_to": "jmatthes@spokeo.com",
       "email_verified": true,
-      "email_verified_by": "role_address_published_on_own_privacy_page",
+      "email_verified_by": "ca_data_broker_registry",
       "registry_years": [
         "2026"
       ],
       "legal_name": "Spokeo, Inc.",
       "domain_source": "ca_registry_contact_email",
       "duplicate_of": "spokeo",
-      "notes": "Resolves to spokeo.com, the same site as spokeo. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the spokeo thread rather than opening a second request.",
-      "email_alt": "jmatthes@spokeo.com",
-      "contact_is_person": false
+      "notes": "Resolves to spokeo.com, the same site as spokeo. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the spokeo thread rather than opening a second request."
     },
     {
       "id": "sports_innovation_lab",
@@ -17571,12 +17537,11 @@
       "optery_slug": null,
       "email_to": "michael@alescodata.com",
       "email_verified": true,
-      "email_verified_by": "offdomain_needs_confirmation",
+      "email_verified_by": "ca_data_broker_registry",
       "registry_years": [
         "2020-2023"
       ],
-      "legal_name": null,
-      "email_alt": "privacy@alesco.com"
+      "legal_name": null
     },
     {
       "id": "statara",
@@ -18004,16 +17969,14 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "privacy@tauxbe.com",
+      "email_to": "sourcing@tauxbe.com",
       "email_verified": true,
-      "email_verified_by": "role_address_published_on_own_privacy_page",
+      "email_verified_by": "ca_data_broker_registry",
       "registry_years": [
         "2026"
       ],
       "legal_name": null,
-      "domain_source": "ca_registry_contact_email",
-      "email_alt": "sourcing@tauxbe.com",
-      "contact_is_person": false
+      "domain_source": "ca_registry_contact_email"
     },
     {
       "id": "td_cowen",
@@ -18222,17 +18185,15 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "compliance@thedatagroup.com",
+      "email_to": "jhenson@thedatagroup.com",
       "email_verified": true,
-      "email_verified_by": "role_address_published_on_own_privacy_page",
+      "email_verified_by": "ca_data_broker_registry",
       "registry_years": [
         "2024",
         "2025",
         "2026"
       ],
-      "legal_name": null,
-      "email_alt": "jhenson@thedatagroup.com",
-      "contact_is_person": false
+      "legal_name": null
     },
     {
       "id": "the_org",
@@ -18285,17 +18246,15 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "privacy@theswarm.com",
+      "email_to": "privcy@theswarm.com",
       "email_verified": true,
-      "email_verified_by": "role_address_published_on_own_privacy_page",
+      "email_verified_by": "ca_data_broker_registry",
       "registry_years": [
         "2024",
         "2025",
         "2026"
       ],
-      "legal_name": "Swarm Holdings, Inc.",
-      "email_alt": "privcy@theswarm.com",
-      "contact_is_person": false
+      "legal_name": "Swarm Holdings, Inc."
     },
     {
       "id": "think_data",
@@ -18326,17 +18285,15 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "privacy@throtle.io",
+      "email_to": "jmcleod@throtle.io",
       "email_verified": true,
-      "email_verified_by": "role_address_published_on_own_privacy_page",
+      "email_verified_by": "ca_data_broker_registry",
       "registry_years": [
         "2020-2023",
         "2024",
         "2025"
       ],
-      "legal_name": "Throtle, Inc",
-      "email_alt": "jmcleod@throtle.io",
-      "contact_is_person": false
+      "legal_name": "Throtle, Inc"
     },
     {
       "id": "tie",
@@ -18799,16 +18756,14 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "privacy@upcell.io",
+      "email_to": "policy@upcell.io",
       "email_verified": true,
-      "email_verified_by": "role_address_published_on_own_privacy_page",
+      "email_verified_by": "ca_data_broker_registry",
       "registry_years": [
         "2025",
         "2026"
       ],
-      "legal_name": "upcell, LLC",
-      "email_alt": "policy@upcell.io",
-      "contact_is_person": false
+      "legal_name": "upcell, LLC"
     },
     {
       "id": "ups_capital",
@@ -19689,17 +19644,15 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "privacy@wealthfeed.com",
+      "email_to": "sam@wealthfeed.com",
       "email_verified": true,
-      "email_verified_by": "role_address_published_on_own_privacy_page",
+      "email_verified_by": "ca_data_broker_registry",
       "registry_years": [
         "2024",
         "2025",
         "2026"
       ],
-      "legal_name": null,
-      "email_alt": "sam@wealthfeed.com",
-      "contact_is_person": false
+      "legal_name": null
     },
     {
       "id": "webbula",
@@ -22167,17 +22120,16 @@
       "needs_email_confirm": null,
       "source": "optery",
       "optery_slug": "hunter-2",
-      "email_to": "privacy@hunter.io",
+      "email_to": "matt@hunter.io",
       "email_verified": true,
-      "email_verified_by": "role_address_published_on_own_privacy_page",
-      "email_alt": "matt@hunter.io",
+      "email_verified_by": "ca_data_broker_registry",
+      "email_alt": "privacy@hunter.io",
       "registry_years": [
         "2020-2023",
         "2024",
         "2025",
         "2026"
-      ],
-      "contact_is_person": false
+      ]
     },
     {
       "id": "hunter_web_services",
@@ -22301,7 +22253,7 @@
       "optery_slug": "intentmacro",
       "email_to": "paul@intentmacro.com",
       "email_verified": true,
-      "email_verified_by": "offdomain_needs_confirmation",
+      "email_verified_by": "ca_data_broker_registry",
       "notes": "privacy@pharosiq.com is not on intentmacro.com -- the site publishes no address on the broker's own domain. Either an acquisition (route is correct) or a wrong domain in the registry (route is a stranger). Confirm the corporate relationship before sending: the letter carries a full identifier set.",
       "email_alt": "privacy@pharosiq.com",
       "registry_years": [
@@ -24853,15 +24805,14 @@
       "needs_email_confirm": null,
       "source": "optery",
       "optery_slug": "wiza",
-      "email_to": "optout@wiza.com",
+      "email_to": "harrison@wiza.com",
       "email_verified": true,
-      "email_verified_by": "role_address_published_on_own_privacy_page",
-      "email_alt": "harrison@wiza.com",
+      "email_verified_by": "ca_data_broker_registry",
+      "email_alt": "optout@wiza.com",
       "registry_years": [
         "2025",
         "2026"
-      ],
-      "contact_is_person": false
+      ]
     },
     {
       "id": "x_ray_contact",
@@ -24918,16 +24869,13 @@
       "name": "Zeta Global",
       "domain": "zetaglobal.com",
       "domain_source": "derived_from_optery_slug",
-      "priority": 3,
+      "priority": 1,
       "method": "unknown",
       "optout_url": "",
       "needs_email_confirm": null,
       "source": "optery",
       "optery_slug": "zeta-global",
-      "optery_url": "https://www.optery.com/data-brokers/zeta-global/",
-      "email_to": "privacy@zetaglobal.com",
-      "email_verified": true,
-      "email_verified_by": "published_mailto_on_own_privacy_policy"
+      "optery_url": "https://www.optery.com/data-brokers/zeta-global/"
     },
     {
       "id": "ziprecruiter",
@@ -24965,332 +24913,6 @@
       "source": "optery",
       "optery_slug": "zumper-inc",
       "optery_url": "https://www.optery.com/data-brokers/zumper-inc/"
-    },
-    {
-      "id": "atozdatabases",
-      "name": "AtoZdatabases",
-      "domain": "atozdatabases.com",
-      "priority": 3,
-      "method": "web",
-      "optout_url": "https://privacycompliance.biz/other-atozdatabases/",
-      "needs_email_confirm": true,
-      "source": "privacycompliance_portal_menu",
-      "optery_slug": null,
-      "email_to": "",
-      "email_verified": false,
-      "email_verified_by": null,
-      "registry_years": [],
-      "legal_name": "AtoZdatabases",
-      "family": "privacycompliance.biz (DatabaseUSA / Infofree operator, Omaha NE)"
-    },
-    {
-      "id": "hdml",
-      "name": "HDML",
-      "domain": "hdml.com",
-      "priority": 2,
-      "method": "web",
-      "optout_url": "https://privacycompliance.biz/other-hdml/",
-      "needs_email_confirm": true,
-      "source": "privacycompliance_portal_menu",
-      "optery_slug": null,
-      "email_to": "",
-      "email_verified": false,
-      "email_verified_by": null,
-      "registry_years": [],
-      "legal_name": "HDML",
-      "family": "privacycompliance.biz (DatabaseUSA / Infofree operator, Omaha NE)"
-    },
-    {
-      "id": "salesflower",
-      "name": "Salesflower",
-      "domain": "salesflower.com",
-      "priority": 2,
-      "method": "web",
-      "optout_url": "https://privacycompliance.biz/other-salesflower/",
-      "needs_email_confirm": true,
-      "source": "privacycompliance_portal_menu",
-      "optery_slug": null,
-      "email_to": "",
-      "email_verified": false,
-      "email_verified_by": null,
-      "registry_years": [],
-      "legal_name": "Salesflower",
-      "family": "privacycompliance.biz (DatabaseUSA / Infofree operator, Omaha NE)"
-    },
-    {
-      "id": "atozacademics",
-      "name": "AtoZacademics",
-      "domain": "atozacademics.com",
-      "priority": 2,
-      "method": "manual",
-      "optout_url": "",
-      "needs_email_confirm": null,
-      "source": "privacycompliance_portal_menu",
-      "optery_slug": null,
-      "email_to": "",
-      "email_verified": false,
-      "email_verified_by": null,
-      "registry_years": [],
-      "legal_name": "AtoZacademics",
-      "family": "privacycompliance.biz (DatabaseUSA / Infofree operator, Omaha NE)"
-    },
-    {
-      "id": "emailusa",
-      "name": "EmailUSA",
-      "domain": "emailusa.com",
-      "priority": 2,
-      "method": "manual",
-      "optout_url": "",
-      "needs_email_confirm": null,
-      "source": "privacycompliance_portal_menu",
-      "optery_slug": null,
-      "email_to": "",
-      "email_verified": false,
-      "email_verified_by": null,
-      "registry_years": [],
-      "legal_name": "EmailUSA",
-      "family": "privacycompliance.biz (DatabaseUSA / Infofree operator, Omaha NE)"
-    },
-    {
-      "id": "freesalesleads",
-      "name": "FreeSalesLeads",
-      "domain": "freesalesleads.com",
-      "priority": 1,
-      "method": "manual",
-      "optout_url": "",
-      "needs_email_confirm": null,
-      "source": "privacycompliance_portal_menu",
-      "optery_slug": null,
-      "email_to": "",
-      "email_verified": false,
-      "email_verified_by": null,
-      "registry_years": [],
-      "legal_name": "FreeSalesLeads",
-      "family": "privacycompliance.biz (DatabaseUSA / Infofree operator, Omaha NE)"
-    },
-    {
-      "id": "listproguru",
-      "name": "ListProGuru",
-      "domain": "listproguru.com",
-      "priority": 1,
-      "method": "manual",
-      "optout_url": "",
-      "needs_email_confirm": null,
-      "source": "privacycompliance_portal_menu",
-      "optery_slug": null,
-      "email_to": "",
-      "email_verified": false,
-      "email_verified_by": null,
-      "registry_years": [],
-      "legal_name": "ListProGuru",
-      "family": "privacycompliance.biz (DatabaseUSA / Infofree operator, Omaha NE)"
-    },
-    {
-      "id": "newbusinesslistsusa",
-      "name": "NewBusinessListsUSA",
-      "domain": "newbusinesslistsusa.com",
-      "priority": 1,
-      "method": "manual",
-      "optout_url": "",
-      "needs_email_confirm": null,
-      "source": "privacycompliance_portal_menu",
-      "optery_slug": null,
-      "email_to": "",
-      "email_verified": false,
-      "email_verified_by": null,
-      "registry_years": [],
-      "legal_name": "NewBusinessListsUSA",
-      "family": "privacycompliance.biz (DatabaseUSA / Infofree operator, Omaha NE)"
-    },
-    {
-      "id": "newhomeownerlistsusa",
-      "name": "NewHomeownerListsUSA",
-      "domain": "newhomeownerlistsusa.com",
-      "priority": 2,
-      "method": "manual",
-      "optout_url": "",
-      "needs_email_confirm": null,
-      "source": "privacycompliance_portal_menu",
-      "optery_slug": null,
-      "email_to": "",
-      "email_verified": false,
-      "email_verified_by": null,
-      "registry_years": [],
-      "legal_name": "NewHomeownerListsUSA",
-      "family": "privacycompliance.biz (DatabaseUSA / Infofree operator, Omaha NE)"
-    },
-    {
-      "id": "referenceguru",
-      "name": "ReferenceGuru",
-      "domain": "referenceguru.org",
-      "priority": 1,
-      "method": "manual",
-      "optout_url": "",
-      "needs_email_confirm": null,
-      "source": "privacycompliance_portal_menu",
-      "optery_slug": null,
-      "email_to": "",
-      "email_verified": false,
-      "email_verified_by": null,
-      "registry_years": [],
-      "legal_name": "ReferenceGuru",
-      "family": "privacycompliance.biz (DatabaseUSA / Infofree operator, Omaha NE)"
-    },
-    {
-      "id": "salesleads101",
-      "name": "SalesLeads101",
-      "domain": "salesleads101.com",
-      "priority": 1,
-      "method": "manual",
-      "optout_url": "",
-      "needs_email_confirm": null,
-      "source": "privacycompliance_portal_menu",
-      "optery_slug": null,
-      "email_to": "",
-      "email_verified": false,
-      "email_verified_by": null,
-      "registry_years": [],
-      "legal_name": "SalesLeads101",
-      "family": "privacycompliance.biz (DatabaseUSA / Infofree operator, Omaha NE)"
-    },
-    {
-      "id": "databaseusa_gov",
-      "name": "DatabaseUSA Gov",
-      "domain": "databaseusa.com",
-      "priority": 1,
-      "method": "manual",
-      "optout_url": "",
-      "needs_email_confirm": null,
-      "source": "privacycompliance_portal_menu",
-      "optery_slug": null,
-      "email_to": "",
-      "email_verified": false,
-      "email_verified_by": null,
-      "registry_years": [],
-      "legal_name": "DatabaseUSA Gov",
-      "family": "privacycompliance.biz (DatabaseUSA / Infofree operator, Omaha NE)"
-    },
-    {
-      "id": "goodcar",
-      "name": "GoodCar",
-      "domain": "goodcar.com",
-      "priority": 2,
-      "method": "web",
-      "optout_url": "https://infotracer.com/optout/",
-      "needs_email_confirm": null,
-      "source": "ca_registry_roster_split",
-      "optery_slug": null,
-      "email_to": "compliance@infopay.com",
-      "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
-      "registry_years": [
-        "2020-2023",
-        "2024",
-        "2025"
-      ],
-      "legal_name": "InfoPay, Inc.",
-      "family": "InfoPay, Inc. (Boston MA) - named on their own California filing alongside InfoTracer"
-    },
-    {
-      "id": "entitycheck",
-      "name": "EntityCheck",
-      "domain": "entitycheck.com",
-      "priority": 1,
-      "method": "web",
-      "optout_url": "https://infotracer.com/optout/",
-      "needs_email_confirm": null,
-      "source": "ca_registry_roster_split",
-      "optery_slug": null,
-      "email_to": "compliance@infopay.com",
-      "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
-      "registry_years": [
-        "2020-2023",
-        "2024",
-        "2025"
-      ],
-      "legal_name": "InfoPay, Inc.",
-      "family": "InfoPay, Inc. (Boston MA) - named on their own California filing alongside InfoTracer"
-    },
-    {
-      "id": "sentinex",
-      "name": "Sentinex",
-      "domain": "sentinex.org",
-      "priority": 1,
-      "method": "web",
-      "optout_url": "https://infotracer.com/optout/",
-      "needs_email_confirm": null,
-      "source": "ca_registry_roster_split",
-      "optery_slug": null,
-      "email_to": "compliance@infopay.com",
-      "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
-      "registry_years": [
-        "2020-2023",
-        "2024",
-        "2025"
-      ],
-      "legal_name": "InfoPay, Inc.",
-      "family": "InfoPay, Inc. (Boston MA) - named on their own California filing alongside InfoTracer"
-    },
-    {
-      "id": "staterecords",
-      "name": "StateRecords",
-      "domain": "staterecords.org",
-      "priority": 2,
-      "method": "web",
-      "optout_url": "https://infotracer.com/optout/",
-      "needs_email_confirm": null,
-      "source": "ca_registry_roster_split",
-      "optery_slug": null,
-      "email_to": "compliance@infopay.com",
-      "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
-      "registry_years": [
-        "2020-2023",
-        "2024",
-        "2025"
-      ],
-      "legal_name": "InfoPay, Inc.",
-      "family": "InfoPay, Inc. (Boston MA) - named on their own California filing alongside InfoTracer"
-    },
-    {
-      "id": "freepeopledirectory",
-      "name": "FreePeopleDirectory.com",
-      "domain": "freepeopledirectory.com",
-      "priority": 2,
-      "method": "email",
-      "optout_url": "",
-      "needs_email_confirm": null,
-      "source": "ca_registry_roster_split",
-      "optery_slug": null,
-      "email_to": "privacy@spokeo.com",
-      "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
-      "registry_years": [
-        "2026"
-      ],
-      "legal_name": "Spokeo, Inc.",
-      "family": "Spokeo, Inc. - named on its own California filing alongside five siblings"
-    },
-    {
-      "id": "family_me",
-      "name": "Family.me",
-      "domain": "family.me",
-      "priority": 2,
-      "method": "email",
-      "optout_url": "",
-      "needs_email_confirm": null,
-      "source": "ca_registry_roster_split",
-      "optery_slug": null,
-      "email_to": "privacy@spokeo.com",
-      "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
-      "registry_years": [
-        "2026"
-      ],
-      "legal_name": "Spokeo, Inc.",
-      "family": "Spokeo, Inc. - named on its own California filing alongside five siblings"
     }
   ]
 }

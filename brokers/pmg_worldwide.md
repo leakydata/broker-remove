@@ -1,16 +1,14 @@
-# PublicRecordCom, LLC
+# PMG Worldwide, LLC
 
-- **Email:** compliance@publicrecord.com (verified — broker confirmed removal)
+- **Email:** dataprivacy@pmg.com (verified)
 - **Method:** email — Statutory request by email. No web form needed.
-- **Domain:** publicrecord.com
+- **Domain:** pmg.com
 - **Priority: 2.**
 
 ## Status
 
-- Current: `confirmed` (updated 2026-08-27)
-- Reference: `gmail:1a03d9909a50ac6b`
-- Note: 2026-08-26: emailed compliance@publicrecord.com. Conceded up front that any underlying public record cannot be altered by them; asked only for their compiled record, name removed from any name-searchable index, and which public sources they draw from.
-- Note: 2026-08-27: replied within a day — *"Your record removal request has been received, and we are pleased to confirm that the entry for Nathan Jones has been successfully expunged from our [system]."* An affirmative removal statement, not just a submission receipt — meets the bar for `confirmed` rather than `submitted`.
+- Current: `submitted` (updated 2026-08-27)
+- Note: 2026-08-27: first contact. PMG is a media/marketing agency, so used the ad-tech variant: hashed email, advertising/cookie IDs, modelled audience segments, and asked them to confirm client campaign data and DSP/SSP partners were directed to do the same.
 
 ## Steps
 

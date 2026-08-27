@@ -7,22 +7,13 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-26)
+- Current: `not_found` (updated 2026-08-27)
 - Note: 2026-08-26: emailed privacy@quadrant.io. Asked for advertising/device identifiers, location and movement history, inferred home/work location, and the identity-graph linkage, and asked them to name the identifier types they matched on since a name-and-address search will not reach device-keyed records.
-
-## Steps
-
-<!-- Replace once the route is confirmed. What actually worked, in order. -->
+- Note: 2026-08-26/27: two replies, consistent both times — *"Please note that Quadrant does not collect personally identifiable information (PII) such as name, date of birth, phone number, email addresses"* and *"Our database can only search using MAID/Device ID."* Pushed back once asking them to at least confirm no name/email/phone-keyed record exists; they held the line that MAID/Device ID is the only search key. Declined to supply a MAID or IDFA (would be handing them a new identifier rather than removing one — against the "never submit more personal data than required" rule). Treated as closed: a device-ID-only ad-tech vendor genuinely cannot search on the identifiers this project uses, and this is a believable true negative rather than a stonewall.
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+- **Device-ID-only matching is a real architectural limit, not a deflection** — several ad-tech/identity-graph brokers in this registry are built this way. Don't supply a MAID/IDFA to "help" the search; that hands them a working key to a record that otherwise can't be found.
 
 ## Verification
 

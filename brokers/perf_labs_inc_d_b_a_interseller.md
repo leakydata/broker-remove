@@ -1,16 +1,14 @@
-# PublicRecordCom, LLC
+# Perf Labs, Inc. d/b/a Interseller
 
-- **Email:** compliance@publicrecord.com (verified — broker confirmed removal)
+- **Email:** privacy@interseller.io (verified)
 - **Method:** email — Statutory request by email. No web form needed.
-- **Domain:** publicrecord.com
+- **Domain:** interseller.io
 - **Priority: 2.**
 
 ## Status
 
-- Current: `confirmed` (updated 2026-08-27)
-- Reference: `gmail:1a03d9909a50ac6b`
-- Note: 2026-08-26: emailed compliance@publicrecord.com. Conceded up front that any underlying public record cannot be altered by them; asked only for their compiled record, name removed from any name-searchable index, and which public sources they draw from.
-- Note: 2026-08-27: replied within a day — *"Your record removal request has been received, and we are pleased to confirm that the entry for Nathan Jones has been successfully expunged from our [system]."* An affirmative removal statement, not just a submission receipt — meets the bar for `confirmed` rather than `submitted`.
+- Current: `submitted` (updated 2026-08-27)
+- Note: 2026-08-27: first contact. Interseller is a sales-engagement/contact-enrichment tool, so asked them to search for and delete DERIVED work email addresses (first.last@employer patterns) generated internally rather than supplied by the subject, and to say specifically if a derived record exists even when the personal identifiers draw a blank.
 
 ## Steps
 

@@ -29,6 +29,24 @@
     "sam@arrakis.ai": "domain arrakis.ai does not resolve, 2026-08-25.",
     "support@cloudlead.co": "550 5.1.1, 2026-08-24.",
     "support@privatenumberchecker.com": "550, 2026-08-19.",
-    "webmaster@searchsystems.net": "550 5.1.1, 2026-08-20. The address published on their own site."
+    "webmaster@searchsystems.net": "550 5.1.1, 2026-08-20. The address published on their own site.",
+    "privacy@rampedup.io": "Rejected as a restricted Google Workspace group ('group may not exist or no permission to post'), 2026-08-26. Alternate published on their own site: contact@rampedup.io.",
+    "privacy@venpath.net": "Rejected as a restricted Google Workspace group, 2026-08-20. No alternate email published; registry uses the web form at /legal/opt-out as primary.",
+    "security@audiencepoint.com": "Rejected as a restricted Google Workspace group, 2026-08-24. Not the registry's primary contact — privacy@audiencepoint.com (the correct, verified address) delivers fine.",
+    "privacy@modigie.com": "Rejected as a restricted Google Workspace group, 2026-08-19. Already superseded — registry's email_to was corrected to dpauli@modigie.com on 2026-08-22.",
+    "info@openpeoplesearch.com": "550 address not found, 2026-08-26. This is the exact address published on the broker's own privacy policy — domain and MX are healthy, only the mailbox is absent. Registry uses the web form at /Consumer as primary.",
+    "legal@onemata.com": "550 address not found, 2026-08-19.",
+    "info@onemata.com": "550 address not found, 2026-08-19.",
+    "privacy@onemata.com": "550 address not found, 2026-08-19. All three onemata.com addresses on file are dead; registry points to the web form / phone line (833) 663-6282 as primary.",
+    "info@matchandappend.com": "550 address not found, 2026-08-19.",
+    "privacy@matchandappend.com": "550 address not found, 2026-08-19. Both addresses on file are dead; registry uses the web form as primary.",
+    "ccpa@paramountdirectmarketing.com": "'Recipient Unknown' from Office 365 (postmaster@PARAMOUNTLISTS.COM), 2026-08-18. Registry now uses the reCAPTCHA-gated web form as primary.",
+    "dataprivacy@sourceitmarketing.com": "No such recipient, 2026-08-27. This entry (sourceit_technologies) is a duplicate CA registration of 'sourceit', which has a working address (dataprivacy2026@sourceitmarketing.com) already on file — do not resend here.",
+    "privacy@leadershipconnect.io": "550 address not found, 2026-08-19. Site publishes no email at all; registry uses the web form as primary.",
+    "support@structure.ac": "Recipient server rejected the message outright, 2026-08-20. Ambiguous whether the mailbox is dead or filtering automated senders; registry already uses the web form as primary.",
+    "privacy@keyopinionleaders.com": "Domain has no NS/SOA/A/MX records at all — the registration has lapsed. Reads as a soft delay for 48h before hard-bouncing, 2026-08-20.",
+    "privacy@infofree.com": "550 address not found. Already superseded — registry's email_to was corrected to info@infofree.com on 2026-08-22.",
+    "ccpa@leadmemedia.com": "550 address not found. Already superseded — registry's email_to was corrected to californiaregistry@leadmemedia.com.",
+    "contact@join5x5.com": "Domain has no MX and no A record at all — publishes no working mail route. Registry note flags this as almost certainly a typo in the CA filing; the entry is held out of the send queue as a duplicate of five_by_five."
   }
 }

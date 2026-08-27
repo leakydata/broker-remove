@@ -91,3 +91,23 @@ a shared support vendor, or coincidence of a very common template — recorded a
 an open lead, not a conclusion. See `_FAMILIES.md` on the difference between a
 shared template (weak evidence, vendors sell them) and a shared ticket counter
 (strong).
+
+The pattern is now confirmed a fourth time. FastPeopleSearch replied to the
+follow-up letter with the same sentence, plus **the actual per-property route**
+that the earlier replies only gestured at:
+
+> *"If you are a resident of a state that has a consumer privacy law... please
+> use our Opt-Out Form: https://www.fastpeoplesearch.com/removal"*
+
+So the estate-wide letter to `privacy@mtalley.zendesk.com` gets deflected
+per-property to a per-property web form — there is no single form that clears
+all ten sites at once. Each of the ten needs its own form submission
+(`<site>/removal` or the equivalent), which needs a human with a browser. This
+is genuinely `manual_required`, not `unreachable` — the estate letter still
+matters as the record of the request and the question about the three
+unregistered siblings, but it will not by itself produce a removal on any one
+property.
+
+The reply also never answered the SpyDialer / TruePeopleSearch / FamilyTreeNow
+question from the follow-up letter — it just repeated the generic per-property
+deflection. Still open.

@@ -74,6 +74,23 @@ connected to a record that we were unable to identify based on your original req
 information you submit here may appear on our site in the future."* Partial
 identifiers buy a removal that does not stick.
 
+## A later letter with additional identifiers hit the customer-service wall
+
+2026-08-26: wrote again — after the original opt-out was already confirmed
+(above) — with four email addresses, six prior postal addresses and three
+phone numbers that were not in the original submission, since FamilyTreeNow is
+a relationship index and prior addresses are co-residence evidence, not just
+contact details. Support first asked for the profile URL (circular: the
+profile no longer exists precisely because the earlier removal worked), then,
+on push-back, gave the real answer: `support@familytreenow.com` is
+customer-service-only and does not process privacy requests — use
+https://www.familytreenow.com/removal (the same self-service opt-out door
+documented above) or https://www.familytreenow.com/privacy-rights.
+
+**Needs a human to re-run the self-service opt-out with the additional
+identifiers.** The route is already known and working (see above); this is not
+a new investigation, just a resubmission with a longer identifier list.
+
 ## How to verify, and how not to
 
 The confirmation page carries an unusually candid instruction about checking the work:
