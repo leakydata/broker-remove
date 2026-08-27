@@ -7469,3 +7469,76 @@ means most have this same gap and no way to see it.
 
 **Related:** §131 (a right gated behind a key the data outlived), `_DEFLECTIONS.md`
 §68, `brokers/peopleconnect.md`.
+
+## §136
+
+**The company name was in the email the whole time, set to `display: none`.**
+*OneTrust attribution — 27 Aug 2026*
+
+§130 recorded five OneTrust request IDs that mapped to nothing:
+
+```
+RBGMK7TRW8   C72TYXB7VB   2GL3JMMFYE   DYZKVFK523   AQ953DYZGV
+```
+
+Submitted 17 Aug, all five sent a "a comment has been added to your request"
+notification on 27 Aug, and none could be tied to a company. The conclusion at the
+time was that this needed a human with portal access to log in and read the names
+off. It was queued as a handoff on that basis.
+
+It did not. **The company name is in the notification email**, and always was.
+
+A OneTrust tenant email carries the answer in up to four places:
+
+| where | value seen |
+|---|---|
+| `<title>` | `Publicis Global` |
+| header logo `href` | `https://www.epsilon.com/` |
+| header logo filename | `Epsilon_PrimaryBlue_Orange_Tag_wTM_2023.jpg` |
+| footer `otEmailBrandingFooterRootOrganization` | "This email was sent from Publicis Global" |
+| verification-link host | `publicisresources-privacy.my.onetrust.com` |
+
+All five are **Epsilon**, whose parent is Publicis. Confirmed directly on the first
+(15:28) and last (15:50) of the sequence, with the three between falling inside the
+same portal session at the same 5–6 minute cadence; the sampling is stated rather
+than the middle three being assumed silently.
+
+**Why it was invisible.** That footer row carries `style="display: none"`. The
+organisation *is* named, in a field OneTrust provides for exactly this purpose,
+and the tenant has switched off its rendering. A reader sees an unbranded
+transactional email with an opaque ten-character ID.
+
+Compare a second tenant seen the same day. Babel Street's OneTrust email uses the
+generic OneTrust banner in the header — no brand logo at all — but leaves the
+footer **visible**: "This email was sent from Babel Street". The two are configured
+in opposite ways, and between them they demonstrate the point: no single field is
+reliable, and the union of them nearly always is.
+
+**The rule.** *Parse the HTML, not the rendering.* This project reads mail through
+an API that hands over `htmlBody`, and had been reading `plaintextBody` — which is
+generated from the visible tree and therefore inherits the sender's decision to
+hide things. The identifying information was one field away the entire time.
+
+**What it changed.** The handoff is closed without a portal login. More usefully,
+**AQ953DYZGV is Epsilon's `Delete my Personal Information` request, and it has sat
+at "confirm your email" since 17 August** — ten days, unconfirmed, therefore never
+worked. Of the five, it is the one that mattered, and it was the one nobody could
+see was stalled. The five IDs were not an accounting problem; one of them was a
+dead deletion request wearing an opaque name.
+
+A second, fresh instance arrived the same day: Babel Street's `TGWANMEESR`,
+Delete + Do-Not-Sell, also parked at the confirm step. Both are now a single
+handoff. The general lesson for this queue: **a OneTrust request that has not had
+its email confirmed is not slow, it is not running at all**, and nothing in the
+notification stream ever says so.
+
+**One more thing visible in the masked echo.** OneTrust reflects the submitted form
+back with each field partly starred — `XXXhan`, `XXnes`, `XXXXXXXoro`. Enough
+survives to read the shape. Babel Street's form, which *they* filled in on our
+behalf from our letter, shows a city ending "oro" and a phone ending "404": they
+chose a **prior** address and a **prior** phone rather than the current ones. Which
+identifiers a company picks out of a list is itself information, and the masking
+does not hide it.
+
+**Related:** §130, §133 (references as join keys), §135 (a confirmation is a key
+list).
