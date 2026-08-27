@@ -127,7 +127,16 @@ def cmd_set(args):
     if args.url:
         rec["optout_url_used"] = args.url
     if args.ref:
+        # confirmation_ref keeps the most recent reference, as it always has.
+        # But a single broker can hold SEVERAL external references -- Epsilon has
+        # five OneTrust request IDs, one per request type -- and overwriting meant
+        # only the last survived. When OneTrust then mailed "a comment has been
+        # added to request AQ953DYZGV", the ID mapped to nothing and there was no
+        # way to tell whose comment it was. So every reference is also kept.
         rec["confirmation_ref"] = args.ref
+        refs = rec.setdefault("refs", [])
+        if args.ref not in refs:
+            refs.append(args.ref)
     entry = {"at": now(), "status": args.status}
     if args.via:
         entry["via"] = args.via

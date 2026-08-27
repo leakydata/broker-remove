@@ -7066,3 +7066,53 @@ complete answer closes the matter, and writing back to say *"you were right and 
 wrong"* would spend their time for my benefit.
 
 **Related:** §119, §123, §128, `_DEFLECTIONS.md` §76.
+
+---
+
+## §130
+### A notification arrives with an ID that maps to nothing
+
+OneTrust sent seven *"a comment has been added to your request"* notifications in one
+hour today. Two carried request IDs recorded in the tracker — Epsilon's `VNCPHY7L53`
+(Delete) and `HZRTNAEGLM` (Do Not Sell). **Five carried IDs that map to nothing**, and
+four more from earlier in the week are equally orphaned.
+
+So there are comments waiting from companies we cannot name.
+
+**The cause was in our own tooling.** `tracker.py --ref` wrote to a single field:
+
+```python
+rec["confirmation_ref"] = args.ref     # overwrites
+```
+
+One broker, one reference. But Epsilon filed **five** request types in one sitting,
+each returning its own OneTrust ID, and only the last survived. Every portal
+submission with more than one request type has been quietly discarding references
+ever since — and a reference is worthless at the moment you record it and essential
+weeks later, when a notification arrives naming nothing but the ID.
+
+Fixed: `confirmation_ref` still holds the most recent, so nothing downstream changes,
+and every reference is now also appended to a `refs` list. Epsilon's two known IDs
+are recorded; the rest have to come from inside the portal.
+
+**Two things worth generalising.**
+
+**A reference is a join key, and join keys must be kept exhaustively.** The tracker
+records *what happened* well — every status carries a note saying what it rests on.
+It recorded *what to quote back* badly, because a single slot looked sufficient at
+the time each one was written. The asymmetry is that notes are read by us, while
+references are read by *them* — and their systems will address us by an identifier we
+did not choose.
+
+**Portal submissions need the same discipline as letters.** A letter leaves a thread
+ID and a searchable body. A portal submission leaves a bare ID in one email, and if
+that ID is not written down against a broker at that moment, the submission becomes
+unattributable the instant the confirmation email scrolls out of view. The five
+orphans are all portal submissions.
+
+The unattributable IDs are staged as a handoff — one portal login shows the company
+name on each, and mapping them back is a few minutes of work that only a person with
+portal access can do.
+
+**Related:** §113 (per-request memory not protecting future requests),
+`_DEFLECTIONS.md` §59, §65.
