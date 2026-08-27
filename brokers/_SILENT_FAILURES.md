@@ -6225,6 +6225,28 @@ That is an argument for asking every broker to enumerate — not because the hon
 ones are suspect, but because **only the enumerating ones can be audited at all**,
 and an unaudited "no records found" is not evidence of anything.
 
+### A second axis: enumerate the RIGHTS, not just the identifiers
+
+BookYourData enumerated the *identifiers searched* and revealed that five of twelve
+were missed. ActivImpact enumerated something different — the **request types
+processed** — and revealed a different kind of gap:
+
+> *"Here are the request types we processed:*
+> *1. Please do not sell my personal information*
+> *2. Please do not use my personal information for targeted ads"*
+
+Two items. The letter asked for four. **Deletion is not on the list**, and neither is
+forward-looking suppression.
+
+An opt-out and a deletion are not substitutes: the first leaves the record in place
+and restricts what may be done with it, the second removes it. A confirmation reading
+*"your privacy request has been processed"* would have covered both readings and
+settled neither. Because they listed, the omission is visible in one glance.
+
+So the enumeration ask should cover **both axes**: which *identifiers* did you
+search, and which *rights* did you action. A request can be complete on one and
+silently partial on the other.
+
 **One thing even this reply could not cover.** An address-keyed exclusion list
 cannot catch an address that does not exist yet. A B2B file is frequently keyed to
 a work address *constructed* from a name and an employer — `first.last@employer` —
