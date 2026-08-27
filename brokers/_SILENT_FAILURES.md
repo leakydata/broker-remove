@@ -4197,6 +4197,40 @@ for noticing:
 - the contact was an **individual's work address**, not a role mailbox;
 - that individual left, or the acquisition closed, and the mailbox was deleted;
 - the filing was never amended;
+
+### Re-measured, 2026-08-27: 146 of 1,185, and two more confirmations
+
+An earlier count put person-shaped filings at 195 of 1,180. That number was built
+with a prefix test and was wrong in a way worth recording, because the error is
+instructive: it counted `askprivacy@acxiom.com`, `usprivacy@equifax.com`,
+`priorityoptout@intelius.com` and `newsedgesupport@moodys.com` as people, purely
+because their local parts did not *begin* with a known role word.
+
+Re-run with a substring test — any role token anywhere in the local part
+disqualifies — the figure is **146 of the 1,185 rows that have an email at all, or
+12.3%**. The survivors are unmistakable: `shawn@`, `jenniferv@`, `troy@`,
+`hkhan@`, `jo.bergstrom@`, `chad.brown@`, `richard.doone@`, `ben@`. One false
+positive remains that I can see (`safety@cameo.com`), so read it as *about* 12%.
+
+**Two incidents this week confirm the mechanism from the receiving end**, which the
+original entry could only infer:
+
+- **Ripple Effect Strategies** — the reply came from the person themselves: *"I am
+  no longer working at Ripple Effect Strategies."* The mailbox still existed; the
+  person was gone. A filing can rot without ever producing a bounce.
+- **Samba TV** — the registry contact replied: *"You have reached an email of a
+  Samba TV employee rather than the address provided for exercising your privacy
+  rights: privacy@samba.tv."* The company had a role mailbox all along; the filing
+  simply named someone else.
+
+That second one matters most. It means a person-shaped filing is not always evidence
+that no role mailbox exists — sometimes the right address is sitting there unfiled.
+**Before treating a person-shaped contact as the only route, check the company's own
+privacy page for a role address**, exactly as §111 says to do after a bounce.
+
+**75 of the 146 have no status yet**, meaning we have not written to them. Those are
+the ones where the choice is still open, and `contact_is_person` is now flagged in
+the registry so the send path can see it.
 - the domain still resolves, so the address still *looks* fine.
 
 **How much of the corpus is exposed to this.** Of 1,180 brokers for which we hold

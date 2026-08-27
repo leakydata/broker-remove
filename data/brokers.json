@@ -6930,7 +6930,8 @@
         "2024",
         "2025"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "contact_is_person": true
     },
     {
       "id": "email_industries",
@@ -7052,7 +7053,8 @@
       "registry_years": [
         "2026"
       ],
-      "legal_name": "Enlyft Inc."
+      "legal_name": "Enlyft Inc.",
+      "contact_is_person": true
     },
     {
       "id": "enrich_layer",
