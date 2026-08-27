@@ -6651,3 +6651,54 @@ is not yet the norm, but it is concentrated in exactly the largest and most
 data-rich companies, which is where the records that matter are.
 
 **Related:** `_DEFLECTIONS.md` §63, §71, §73, §74, §121.
+
+---
+
+## §126
+### The opt-out that your own privacy hygiene deletes
+
+Two companies, two technologies, one structure.
+
+**Quadrant** (location data) will only search by mobile advertising ID. That ID is
+resettable by design, and both mobile platforms encourage resetting it as a privacy
+measure — so everything collected under the previous ID becomes permanently
+unreachable by the person it describes (`_DEFLECTIONS.md` §72).
+
+**Semasio** (audience data) is purely cookie-keyed and says so plainly: *"We do not
+store names, addresses, phone numbers or email addresses to identify the user within
+our system."* Their remedy is a browser opt-out — which is **itself stored as a
+cookie.** Clearing cookies, the single most widely given piece of privacy advice,
+deletes the opt-out and leaves the tracking free to resume.
+
+**In both cases the action a privacy-conscious person is told to take is the action
+that destroys their protection.** Reset your advertising ID and you lose the ability
+to request deletion. Clear your cookies and you lose the opt-out. The more diligent
+the person, the less durable their remedy.
+
+Nobody designed this. It falls out of using an **ephemeral identifier as the anchor
+for a durable right** — the identifier is deliberately disposable because that is
+the privacy feature, and the right is attached to it because that is the only handle
+the company has.
+
+**What follows practically:**
+
+- **Do the opt-out in the browser actually used**, not a fresh profile. A clean
+  profile has no cookie for them to act on, so the opt-out applies to nothing.
+- **Record that these are device-bound**, in the tracker and in the handoff. A
+  cookie opt-out on a laptop says nothing about a phone, and neither says anything
+  about a browser abandoned three years ago whose identifiers are still in the graph.
+- **Prefer the central tools where they exist.** Semasio points at NAI and EDAA,
+  which cover many companies in one pass. Same fragility, better coverage per click.
+- **Never treat a cookie opt-out as equivalent to a deletion** — except where the
+  company says otherwise, and Semasio does: *"we delete the data that we have
+  received an opt out for."* That sentence is worth asking for by name everywhere
+  else, because it converts a preference into a removal.
+
+**One thing Semasio does that is worth copying.** Their access route returns the
+**visited URLs** they hold — browsing history, including activity on partner sites.
+Most adtech firms describe their holdings as segments or scores; this is the
+underlying observation, and it is considerably more sensitive. Where an access route
+exists, use it even when deletion is the goal: what comes back defines what deletion
+has to cover.
+
+**Related:** `_DEFLECTIONS.md` §72, §121, §124, §54.
