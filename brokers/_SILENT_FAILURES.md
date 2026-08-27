@@ -7542,3 +7542,65 @@ does not hide it.
 
 **Related:** §130, §133 (references as join keys), §135 (a confirmation is a key
 list).
+
+## §137
+
+**Forwarded for manual processing, closed by the macro.**
+*Altair Data Resources — 27 Aug 2026*
+
+A follow-up letter reached a named person at the company. She replied:
+
+> "I have forwarded your information and request to our internal teams for
+> processing of your request manually."
+
+That produced a new service-desk ticket, CIOO-42714. Eighteen minutes later it
+acknowledged receipt. Twenty-one minutes after that it went **In Progress and
+Completed in the same minute**, closed with an automated comment that is — word
+for word, checked against both — the identical macro that closed the *previous*
+ticket three days earlier.
+
+The follow-up was answered by the automation the follow-up was about.
+
+**This is not someone ignoring a letter.** The likeliest reading is that the ticket
+was typed as an opt-out at intake, and the macro fires on the **type** rather than
+the **text**. Everything after that is a correctly functioning workflow doing the
+wrong thing very quickly. From outside, though, it is indistinguishable from having
+been ignored — which is worth saying plainly, because the distinction matters to
+what you do next and you cannot see it.
+
+**The generalisable point.** *A human promising manual handling does not remove the
+automation from the path.* She did forward it, honestly and promptly. Forwarding
+put it into a pipeline whose first act was to classify it, and classification is
+where the content stopped being read. So "we'll handle this manually" is not
+evidence that a follow-up will be read by a human — it is evidence that it was
+routed, and routing is exactly the step that can discard the distinction between a
+first request and a follow-up.
+
+Watch for the tell: **a completion notice whose text is byte-identical to one you
+have already received.** That is cheap to check and it is conclusive. It is also
+the only signal available, since the ticket status says Completed either way.
+
+**A second thing, and the reason this is filed rather than shrugged at.** The macro
+is genuinely good — better than most. It states a 45-day offline-backup window, it
+says the request is retained as a *forward filter* against future supplier feeds,
+and it says outright that they cannot reach their suppliers' copies and the
+consumer should go to those providers directly. Then it says this:
+
+> "Data removed is specific to the name and mailing address provided. We cannot be
+> responsible for tracking changes of address or changes or variations to names on
+> an ongoing basis."
+
+That is §135's key-set problem, stated outright, by a company in an entirely
+different sector from the people-search services where it was first noticed. A
+removal is keyed, and it recognises only what it has a key for. Sixteen prior
+addresses and eleven prior phone numbers were supplied precisely because a
+marketing file is built from the address someone used two moves ago — and by this
+sentence, fifteen of the sixteen are untouched.
+
+The two halves compound: the request that would have widened the key set is the
+one the macro closed. Replied asking for a human answer, and for the removal *and*
+the forward filter to be applied against every identifier rather than the current
+pair. The forward filter is the valuable part, and it is worth far more holding all
+the keys than one.
+
+**Related:** §135 (a confirmation is a key list, not a verdict), §133.
