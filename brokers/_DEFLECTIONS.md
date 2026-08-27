@@ -3945,3 +3945,49 @@ is held, or something is held about a person with no relationship to any
 contributor, which is the population broker registration exists for.
 
 **Related:** §60, §71, §63.
+
+---
+
+## §74
+### Europeans may use email; Americans must use the portal
+
+Captiv8's reply sets out two routes, and which one you get depends on where you
+live:
+
+> **US residents:** *"Captiv8 accepts privacy rights requests only through the
+> methods identified in the Captiv8 Privacy Notice"* — a portal or a toll-free
+> number. *"If your request was submitted through a method not authorized by the
+> Captiv8 Privacy Notice, Captiv8 is unable to process the request at this time."*
+
+> **EEA, UK and Switzerland:** *"may reply directly to this email instead of using
+> the privacy portal or toll-free number."*
+
+**The easier channel is reserved for the jurisdiction with the stronger law.** A
+European gets to answer an email. An American is sent to a form, and if they write
+instead, the request is not processed at all.
+
+That is worth noticing precisely because it is the opposite of the lazy assumption —
+that companies do the minimum where the law is weakest. Here the effort follows the
+enforcement risk in a subtler way: GDPR makes obstructing a request expensive, so the
+frictionless path exists where GDPR applies. US state law mostly does not police
+*channel* friction, only outcomes, so friction is where the law does not look.
+
+**Practical consequence:** none, really — use the portal. But record it, because a
+company that has thought carefully enough to build two tiers has thought carefully
+about which one you fall into, and that tells you what kind of correspondent you are
+dealing with. It also means the usual *"if no statute covers me, please honour it as
+policy"* ask is going nowhere, which Captiv8 confirms in the same message:
+
+> *"Captiv8 processes privacy rights requests **only to the extent required by
+> applicable law**."*
+
+Unusual to see that written down. Treat it as a genuine answer to the policy
+question rather than an evasion of it — it is one — and stop asking.
+
+**One useful admission in the same reply.** They state they are *"registered as a
+data broker in California, Texas, Oregon, and Vermont."* Companies rarely enumerate
+their registrations unprompted, and a four-state list is a fact you can check against
+each registry — including Texas and Oregon, whose registries we could not read
+directly (`_SILENT_FAILURES.md` §95).
+
+**Related:** §70, §63, §65, `_SILENT_FAILURES.md` §110.
