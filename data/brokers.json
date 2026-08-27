@@ -7404,13 +7404,15 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "c.brown@fetchrewards.com",
+      "email_to": "privacy@fetch.com",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "role_address_published_on_own_privacy_page",
       "registry_years": [
         "2026"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "email_alt": "c.brown@fetchrewards.com",
+      "contact_is_person": false
     },
     {
       "id": "fha_mortgage_finder",
@@ -7595,16 +7597,18 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "snichols@firstorion.com",
+      "email_to": "privacy@firstorion.com",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "role_address_published_on_own_privacy_page",
       "registry_years": [
         "2020-2023",
         "2024",
         "2025",
         "2026"
       ],
-      "legal_name": "First Orion Corp"
+      "legal_name": "First Orion Corp",
+      "email_alt": "snichols@firstorion.com",
+      "contact_is_person": false
     },
     {
       "id": "five_by_five",
@@ -8545,14 +8549,16 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "ian@growinglibraries.com",
+      "email_to": "privacyteam@growinglibraries.com",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "role_address_published_on_own_privacy_page",
       "registry_years": [
         "2025",
         "2026"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "email_alt": "ian@growinglibraries.com",
+      "contact_is_person": false
     },
     {
       "id": "growthcode",
@@ -8564,13 +8570,15 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "jonathon@growthcode.io",
+      "email_to": "privacy@growthcode.io",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "role_address_published_on_own_privacy_page",
       "registry_years": [
         "2026"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "email_alt": "jonathon@growthcode.io",
+      "contact_is_person": false
     },
     {
       "id": "h1",
@@ -8698,15 +8706,17 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "deasley@healthcare.com",
+      "email_to": "privacy@healthcare.com",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "role_address_published_on_own_privacy_page",
       "registry_years": [
         "2020-2023",
         "2024",
         "2025"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "email_alt": "deasley@healthcare.com",
+      "contact_is_person": false
     },
     {
       "id": "healthcare_com",
@@ -9570,16 +9580,18 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "jknapp@inmarket.com",
+      "email_to": "privacy@inmarket.com",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "role_address_published_on_own_privacy_page",
       "registry_years": [
         "2020-2023",
         "2024",
         "2025",
         "2026"
       ],
-      "legal_name": "InMarket Media, LLC"
+      "legal_name": "InMarket Media, LLC",
+      "email_alt": "jknapp@inmarket.com",
+      "contact_is_person": false
     },
     {
       "id": "inmatessearcher",
@@ -10882,14 +10894,16 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "jfranks@lightboxre.com",
+      "email_to": "privacyinfo@lightboxre.com",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "role_address_published_on_own_privacy_page",
       "registry_years": [
         "2025",
         "2026"
       ],
-      "legal_name": "LightBox Parent, L.P."
+      "legal_name": "LightBox Parent, L.P.",
+      "email_alt": "jfranks@lightboxre.com",
+      "contact_is_person": false
     },
     {
       "id": "lightcast",

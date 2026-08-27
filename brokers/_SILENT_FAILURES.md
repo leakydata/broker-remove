@@ -4231,6 +4231,39 @@ privacy page for a role address**, exactly as §111 says to do after a bounce.
 **75 of the 146 have no status yet**, meaning we have not written to them. Those are
 the ones where the choice is still open, and `contact_is_person` is now flagged in
 the registry so the send path can see it.
+
+### Acting on it: seven of the first twenty-two had a role address all along
+
+Running `discover_contacts.py` — which reports an address only if it has a
+recognised role prefix and only if the company published it — against the first
+twenty-two of those 75 domains:
+
+| registry contact | published role address |
+|---|---|
+| `c.brown@fetchrewards.com` | `privacy@fetch.com` |
+| `snichols@firstorion.com` | `privacy@firstorion.com` |
+| `ian@growinglibraries.com` | `privacyteam@growinglibraries.com` |
+| `jonathon@growthcode.io` | `privacy@growthcode.io` |
+| `deasley@healthcare.com` | `privacy@healthcare.com` |
+| `jknapp@inmarket.com` | `privacy@inmarket.com` |
+| `jfranks@lightboxre.com` | `privacyinfo@lightboxre.com` |
+
+**Seven of twenty-two, about a third.** Every one of them is a maintained mailbox
+that outlives whoever currently sits behind the filed one, and every one was
+discoverable in a single page fetch.
+
+Note `fetch_rewards`: the filing gives `@fetchrewards.com`, the live address is
+`@fetch.com`. The company changed domain and the filing did not follow — the same
+staleness as §111's year-suffixed address, in a different field.
+
+The person-shaped addresses are kept as `email_alt` rather than discarded. They were
+correct once and may still work; they are just no longer the first choice.
+
+**The rule, stated for reuse:** a person-shaped contact in a registry filing is a
+*prompt to look*, not a route to use. Roughly a third of the time the company has a
+role mailbox it simply never re-filed, and using it avoids both failure modes at
+once — the filing that rotted when the person left, and writing an unrelated
+individual's mailbox into a public repository.
 - the domain still resolves, so the address still *looks* fine.
 
 **How much of the corpus is exposed to this.** Of 1,180 brokers for which we hold
