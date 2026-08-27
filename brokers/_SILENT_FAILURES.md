@@ -6488,3 +6488,59 @@ however politely, teaches the next reader of that mailbox that it does not close
 anything — and the cost lands on every subsequent letter, not this one.
 
 **Related:** §119, §90, `_DEFLECTIONS.md` §58.
+
+---
+
+## §124
+### "Our database can only search using MAID/Device ID"
+
+Quadrant Global, asked directly, answered in one line:
+
+> *"Our database can only search using MAID/Device ID."*
+> — Raymund, Quadrant Data Analyst
+
+That sentence is the cleanest artifact this project has produced. It is a
+location-data company stating in writing that **its systems cannot be searched by
+any key a consumer is able to supply.**
+
+Follow it through. On current iOS the advertising identifier is not displayed to the
+user at all and returns as zeros to apps without tracking permission; on current
+Android the setting offers to delete the ID rather than show it. So for most people
+the required key is unobtainable — and for anyone who has ever reset their ad ID,
+everything collected under the previous one is unreachable permanently (§ `_DEFLECTIONS`
+§72).
+
+The result is not a refusal, a delay, or a deflection. **The right is unexercisable
+by construction**, and the company is not being evasive in saying so — it is being
+unusually straight.
+
+### How the answer was obtained
+
+Worth recording, because the method is repeatable:
+
+1. **Ask one narrow question** that has a true one-line answer. Not "please delete my
+   data" but *"can your systems be searched by anything other than a MAID?"*
+2. **Promise in advance not to argue with it.** The letter said: *"If the honest
+   answer is that your systems can only be searched by MAID and no geographic query
+   is possible, please say exactly that. I will record it as given and I will not
+   argue with it."*
+3. **Then keep the promise.** No reply was sent to Raymund's answer and none will be.
+
+A company will tell you something inconvenient if telling you ends the exchange, and
+will not if telling you starts one. The promise is what makes the answer cheap enough
+to give — and it is worthless the first time it is broken (§123).
+
+### A gap in our own vocabulary
+
+There is no status for this. The tracker offers `pending`, `submitted`, `confirmed`,
+`not_found`, `manual_required`, `unreachable`, `failed`, `captcha_blocked` — and not
+one of them means *"the company is reachable, willing and honest, and the right
+still cannot be exercised."*
+
+It is recorded as `submitted` with the finding in the note, which is the least
+misleading option available and still wrong: nothing is in flight and nothing will
+arrive. Worth a distinct state if this recurs, because a status vocabulary that
+cannot express structural impossibility will quietly file those cases under
+"waiting" forever.
+
+**Related:** `_DEFLECTIONS.md` §72, §54, §123, §90.
