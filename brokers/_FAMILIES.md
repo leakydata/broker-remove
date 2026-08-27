@@ -462,6 +462,17 @@ filing and not present in any broker list used here.
 | Hivestack Inc. | hivestack.com | 2020-2023, 2024, 2025 | tracked · `hivestack` · pending |
 | Perion | perion.com | 2026 | tracked · `perion` · pending |
 
+**Confirmed as one desk, 2026-08-27.** A letter to `privacy@hivestack.com` was
+answered six minutes later by `legaldsr@perion.com` — the parent's legal DSR desk,
+not Hivestack's. The registry already had both entries sharing the Hivestack
+address, so `queue_batch`'s one-address-one-letter guard held `perion` back and the
+single letter reached both; the parent replying is the confirmation that it was
+right to. Perion refuses email entirely and splits requests across **two**
+monday.com forms — "Product/Offering related" and "Job Candidates /
+Business-to-Business contacts" — so a consumer whose device data flows through the
+ad product *and* whose work contact details may sit in a partner file belongs in
+both, and submitting one silently scopes the request to half of it.
+
 ### `hubspot.com` — 2 filings, 1 distinct sites
 
 | Registrant | Site | Years filed | Status here |
