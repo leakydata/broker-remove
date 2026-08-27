@@ -6162,6 +6162,24 @@ candidate: Alliant's letter now names Alliant Cooperative Data Solutions LLC, wh
 it previously could not have. A correction went to the 33 Mile Radius thread naming
 the two omitted brands.
 
+### One more level down: same company, different mailbox
+
+Exact-address matching still missed the near-duplicate. `ace_agents` registers its
+privacy contact at **admin@academixdirect.com** and `academixdirect` at
+**tp-compliance@** on the same domain — two rows, two mailboxes, one company reading
+both. Neither guard fires, because the strings differ.
+
+So the grouping now also matches on the company's **own mail domain**, and one
+letter goes to the compliance desk naming both brands.
+
+**With one restriction that matters more than the feature.** Only a first-party
+domain counts. A shared domain at `zendesk.com`, `onetrust.com`, `freshdesk.com` or
+`gmail.com` means a shared *vendor*, not a shared company — grouping on those is
+exactly the Mimecast error from §89, and it would put a claim in the letter that is
+simply false. The generic list is explicit in the code for that reason: the failure
+mode is not a wasted send, it is telling a company that an unrelated business is
+theirs, in the same paragraph where we ask them to be precise.
+
 **Related:** §114, §117, §112, `_DEFLECTIONS.md` §63.
 
 ---

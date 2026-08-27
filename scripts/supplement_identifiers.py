@@ -227,17 +227,37 @@ def main():
     # operations@ignitevisibility.com; the letter named the two that already had
     # a status and silently omitted EverConnect and Five Star Rated, which had
     # none and never would.
+    # Group by address AND by the company's own mail domain. Exact-address
+    # matching misses the near-duplicate: ace_agents is registered at
+    # admin@academixdirect.com and academixdirect at tp-compliance@ on the same
+    # domain. Two letters, two mailboxes, one company reading both.
+    #
+    # Only the company's OWN domain counts. A shared domain at zendesk.com or
+    # onetrust.com means a shared vendor, not a shared company -- grouping on
+    # those is the Mimecast mistake from _SILENT_FAILURES 89, and it would put a
+    # claim in the letter that is simply false.
+    GENERIC = {"zendesk.com", "onetrust.com", "gmail.com", "outlook.com",
+               "googlegroups.com", "hotmail.com", "yahoo.com", "salesforce.com",
+               "freshdesk.com", "intercom-mail.com", "hubspot.com", "atlassian.net",
+               "wordpress.com", "squarespace.com", "wixpress.com"}
+
     all_on_addr = {}
+    by_domain = {}
     for bid, b in reg.items():
         e = (b.get("email_to") or "").lower().strip()
-        if e:
-            all_on_addr.setdefault(e, []).append(bid)
+        if not e:
+            continue
+        all_on_addr.setdefault(e, []).append(bid)
+        dom = e.split("@")[-1]
+        if dom and dom not in GENERIC:
+            by_domain.setdefault(dom, []).append(bid)
 
     out = []
     for addr, members in list(by_addr.items())[:args.size]:
         bid, b, rec, d = members[0]          # earliest-contacted drives the date
-        siblings = [reg[o].get("name", o)
-                    for o in all_on_addr.get(addr, []) if o != bid]
+        dom = addr.split("@")[-1]
+        related = dict.fromkeys(all_on_addr.get(addr, []) + by_domain.get(dom, []))
+        siblings = [reg[o].get("name", o) for o in related if o != bid]
         ref = ""
         if rec.get("confirmation_ref"):
             ref = f" (your reference {rec['confirmation_ref']})"
