@@ -3825,3 +3825,67 @@ it is worth saying so in the reply. Naming the one thing a company does well cos
 nothing and makes the rest of the letter read as something other than a complaint.
 
 **Related:** §60, §66, §69.
+
+---
+
+## §72
+### Send us the advertising ID your phone no longer shows you
+
+Quadrant Global, a mobility-data company, replied that it holds no name, date of
+birth, phone number, email or postal address — so it could find nothing — and
+offered to search if the consumer supplies their **MAID / IDFA / AAID**, with
+instructions:
+
+> *iOS: Settings > Privacy > Tracking — your IDFA will be displayed.*
+> *Android: Privacy > Ads — your AAID will be listed under "Your advertising ID".*
+
+**Neither screen does that any more.** Apple removed IDFA display from the interface,
+and since iOS 14.5 the IDFA is returned as all zeros to any app the user has not
+explicitly permitted to track. Current Android offers to **delete** the advertising
+ID rather than show it. So the verification step points at a UI that does not exist,
+which is a template rotting quietly in place (§69) rather than a tactic.
+
+**The structural problem is worse than the stale instructions, and it is worth
+stating carefully because it is not obvious.**
+
+An advertising ID is *designed* to be resettable, and both platforms actively
+encourage resetting it as a privacy measure. Now apply the MAID-only policy to
+anyone who has ever done so:
+
+> Every location record keyed to their **previous** ID becomes permanently
+> unreachable by them, because the only key that would find it is one they no longer
+> possess and cannot recover.
+
+**Taking the privacy step the operating system recommends destroys your ability to
+request deletion of everything collected before you took it.** Nobody designed that;
+it falls out of using a deliberately-ephemeral key as the sole index for a
+deletion right.
+
+### The substitute: ask them to run the query only they can run
+
+The consumer cannot supply a device ID. But a mobility dataset resolves a device's
+**home** as its persistent overnight dwell location — and *that* is a key the
+consumer does know:
+
+> *Please search for device identifiers whose persistent overnight location resolves
+> to my current address, and to the prior addresses listed, for the periods I lived
+> at each.*
+
+**Volunteer the safeguard before they raise it.** Other people live at those
+addresses; a household holds devices that are not yours. So ask for a **count and
+date ranges first, and confirm which are yours before anything is deleted.** That
+turns a request they would rightly be nervous about into one they can act on without
+deleting a stranger's data on your say-so — and it demonstrates you understand their
+problem, which changes how the rest of the letter is read.
+
+### A smaller thing worth answering plainly
+
+They also asked whether the consumer had *"engaged in any written communications
+regarding a project with Quadrant or executed a consent form."*
+
+The honest answer is no — and that is worth saying, along with why it does not
+matter: people with **no relationship at all** to the company are precisely the
+population data-broker registration exists for. A request should not depend on
+producing a contract. Say it once, without heat, and move on.
+
+**Related:** §54, §69, `_SILENT_FAILURES.md` §90, §121.
