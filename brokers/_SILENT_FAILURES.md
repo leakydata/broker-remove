@@ -6946,3 +6946,54 @@ way is worth more than another deletion — it decides whether an opt-out surviv
 ordinary privacy hygiene (§126).
 
 **Related:** §90, §121, §124, §126, `_DEFLECTIONS.md` §72, §73.
+
+---
+
+## §128
+### The honest answer to the suppression question: you cannot have both
+
+Two companies have now volunteered the same trade-off, unprompted, in almost the same
+words.
+
+**BookYourData** (§119):
+
+> *"Deleting the entry itself would remove the only thing that recognises your
+> addresses, and the protection would quietly lapse."*
+
+**LionShare**, a healthcare data analytics business:
+
+> *"In order to ensure the record remains suppressed in future data refreshes, we
+> cannot delete the record in its entirety. Removing the record completely would
+> prevent us from maintaining the suppression needed to keep it from being
+> reintroduced later."*
+
+This is the real answer to the question this project has been asking everyone, and it
+is not the answer the question was designed to catch out. **A durable suppression and
+a complete deletion are mutually exclusive.** A suppression list has to hold enough of
+you to recognise you; delete that and the next ingest reintroduces the record with
+nobody noticing.
+
+So *"we deleted everything"* is either untrue or means the protection has no memory —
+and the companies saying it are not necessarily the better ones.
+
+**What to ask for instead.** Take the suppression, say so explicitly, and then narrow
+the retention to what recognition actually requires:
+
+> A suppression entry needs identifiers — name, addresses, contact details. It does
+> not need the **attributes**. So the trade-off that justifies retaining the record
+> does not justify retaining a modelled health attribute, an income estimate, a
+> propensity score or an audience segment. Nothing is lost from the suppression by
+> dropping those.
+
+That is the follow-up sent to LionShare, and it uses their own reasoning rather than
+arguing against it. It is a much stronger position than demanding deletion of the
+whole record, because it concedes the point they are right about and isolates the
+part they are not.
+
+**And ask the question BookYourData answered without being asked:** is the
+suppression file itself licensed or disclosed? LionShare volunteered that theirs is
+not — *"LionShare does not share data that resides in our suppression files"* — which
+is what makes the retention safe. A suppression list that is itself a saleable asset
+is the §90 nightmare, and it is worth one sentence to close.
+
+**Related:** §90, §119, §123, §126, §127.
