@@ -7749,3 +7749,79 @@ the only thing that recognises the addresses, and the protection would lapse —
 §135 trade-off, correctly framed by them before it was put to them.
 
 **Related:** §138 (corroboration), §135 (a confirmation is a key list), §133.
+
+## §140
+
+**A suppression keyed to an identifier that rotates.**
+*Fog Data Science — 27 Aug 2026*
+
+Fog is the second company, after Foursquare, to answer that everything it holds is
+indexed by Mobile Advertising ID and nothing else. Their statement of it is the
+clearest the project has:
+
+> "Data Services information received from third-party Data Suppliers is not
+> indexed or searchable by consumer name, email address, telephone number,
+> physical address, date of birth, LinkedIn profile, or similar traditional
+> identifiers."
+
+Three things they did that almost nobody does, recorded because they are the
+template for how this answer *should* be given.
+
+**They separated two systems and answered each on its own terms.** Website and
+Reveal Portal records, searched against the traditional identifiers — nil. Data
+Services, MAID-indexed — unsearchable by anything supplied. Most replies collapse
+that into one "no records found" and leave the reader unable to tell which half was
+looked at. This is §139's enumeration principle applied to *systems* rather than
+identifiers.
+
+**They pre-empted the refusal-versus-impossibility ambiguity**, unprompted:
+
+> "This does not mean Fog has identified responsive Data Services information and
+> is declining to delete it. Rather, Fog has no method of associating the
+> traditional identifiers you supplied with an unidentified MAID."
+
+From outside, "we won't" and "we can't" are indistinguishable. Saying which costs
+nothing and is almost never done.
+
+**They told the subject to stop sending personal data.** Date of birth, historical
+addresses, phone numbers, public-profile URL — all declared unnecessary, with an
+explicit refusal to add the LinkedIn URL to any suppression list because it is not
+an identifier they use to match or enrich. A data broker declining offered
+identifiers runs against every incentive, and it answers the letter's
+exclude-only-versus-match-key question better than agreement would have: they will
+not hold it at all.
+
+**Now the finding, which is not a criticism of them.**
+
+Their opt-out is genuinely low-friction — the form takes only the MAID, with no
+name, no account, no identity document and no verification, and they will accept it
+by email reply. Compared with Foursquare's wall this is a door that opens.
+
+But **a MAID is resettable by design.** The user can rotate it at will, and current
+mobile platforms rotate or zero it under conditions the user does not control. So
+if the suppression is keyed to the MAID *string*:
+
+> The opt-out covers exactly one value of a rotating identifier. The same device
+> keeps generating location data under its next ID, arrives from a supplier as an
+> unrecognised MAID, and is not matched — because the string on the list is no
+> longer the string on the device.
+
+**A suppression keyed to a rotating identifier has an expiry date set by the
+operating system rather than by the consumer, and nothing announces when it
+passes.** That is the §135 key-set problem in its terminal form: elsewhere the key
+set is merely incomplete, here it is guaranteed to go stale.
+
+Asked directly, with three sub-questions and an explicit statement that a
+string-scoped answer is a *complete* answer and a property of MAID systems rather
+than a fault of theirs.
+
+**The structural point underneath.** The identifier these systems are keyed to is
+one the subject generally cannot see, cannot choose, and cannot prove control of —
+while the suppliers feeding it in have it as a matter of course. iOS does not
+display the IDFA to the user at all; recent Android offers to *delete* the ad ID
+rather than show it. Whether a MAID can be produced at all is now a device
+question, and it is queued as a handoff, because one retrieved string would unlock
+both Fog and Foursquare at once.
+
+**Related:** §131 (a right gated behind a key the data outlived), §135, §139,
+`brokers/foursquare.md`.

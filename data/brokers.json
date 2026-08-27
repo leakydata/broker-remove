@@ -7775,9 +7775,9 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "info@fogdatascience.com",
+      "email_to": "privacy@fogdatascience.com",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "broker_reply",
       "registry_years": [
         "2026"
       ],
