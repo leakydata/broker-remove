@@ -4296,6 +4296,29 @@ a shared or successor domain is a hypothesis, not a correction. They are recorde
 The asymmetry is the same one this file keeps returning to. Adopting a wrong address
 sends a stranger's mailbox a letter about someone else's data; leaving it unadopted
 costs one extra look later.
+
+### And sometimes the person is the company
+
+Car Market Solutions LLC files `ben@carmarketsolutions.com`, which trips every
+person-shaped test here. But the same address appears on **both** the 2024 and the
+2025 filing, the company's registered address is a house in Naperville, and their
+privacy page publishes no role mailbox at all.
+
+That is not a contact that rotted. It is a small business where one person genuinely
+is the privacy function, and re-filing the same address two years running is evidence
+of maintenance rather than neglect.
+
+So the heuristic needs its counter-case stated plainly: **person-shaped is a signal
+about the filing, not a verdict about the company.** Before treating one as stale,
+check whether it was re-filed — a contact that survives two registration cycles is
+probably correct, and the right response to a delivery problem there is a different
+channel, not a different address.
+
+For this one the deferrals are on the receiving mail server, so the useful fallbacks
+are the phone number and postal address on the same filing — both staged as a
+decision for the user, since the project does not place calls.
+
+**Related:** §111, §113.
 - the domain still resolves, so the address still *looks* fine.
 
 **How much of the corpus is exposed to this.** Of 1,180 brokers for which we hold
