@@ -1,6 +1,6 @@
 # ATTOM DATA SOLUTIONS
 
-- **Email:** jo.bergstrom@attomdata.com (verified)
+- **Email:** [named individual]@attomdata.com (verified)
 - **Method:** email — Statutory request by email. No web form needed.
 - **Domain:** attomdata.com
 - **Priority: 2.**

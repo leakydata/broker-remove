@@ -1,15 +1,14 @@
-# Snov.io
+# Exact Match Marketing Inc
 
-- **Opt-out:** https://snov.io/do-not-sell-my-personal-information
-- **Email:** [named individual]@snov.io (verified)
-- **Method:** web_form — Web form.
-- **Domain:** snov.io
-- **Priority: 3.**
+- **Email:** datarequest@exactmatch.io (verified)
+- **Method:** email — Statutory request by email. No web form needed.
+- **Domain:** exactmatch.io
+- **Priority: 2.**
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-23)
-- Note: Statutory opt-out/deletion email sent 2026-08-23, category-tailored.
+- Current: `submitted` (updated 2026-08-27)
+- Note: Opt-out letter sent by email to datarequest@exactmatch.io (delete + opt out of sale/sharing + direct downstream recipients + suppress against future ingestion). All twelve email addresses, sixteen prior addresses and eleven prior phone numbers listed for search. Sent as HTML per letter_html.
 
 ## Steps
 

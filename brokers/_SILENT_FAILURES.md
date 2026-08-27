@@ -3719,7 +3719,7 @@ Cloudlead's pages yielded five:
 | `support@cloudlead.io` | Published support address — **dead**, domain has no MX |
 | `hello@cloudlead.co` | The only live candidate |
 | `john@company.com` | A **placeholder** in a product screenshot |
-| `r.richards@meridianops.com` | A **sample record** in a demo of their data |
+| `[named individual]@meridianops.com` | A **sample record** in a demo of their data |
 
 The last two are the interesting ones. A company that sells contact data
 demonstrates the product by showing contact data, so its marketing pages are
@@ -4240,13 +4240,13 @@ twenty-two of those 75 domains:
 
 | registry contact | published role address |
 |---|---|
-| `c.brown@fetchrewards.com` | `privacy@fetch.com` |
-| `snichols@firstorion.com` | `privacy@firstorion.com` |
-| `ian@growinglibraries.com` | `privacyteam@growinglibraries.com` |
-| `jonathon@growthcode.io` | `privacy@growthcode.io` |
-| `deasley@healthcare.com` | `privacy@healthcare.com` |
-| `jknapp@inmarket.com` | `privacy@inmarket.com` |
-| `jfranks@lightboxre.com` | `privacyinfo@lightboxre.com` |
+| `[named individual]@fetchrewards.com` | `privacy@fetch.com` |
+| `[named individual]@firstorion.com` | `privacy@firstorion.com` |
+| `[named individual]@growinglibraries.com` | `privacyteam@growinglibraries.com` |
+| `[named individual]@growthcode.io` | `privacy@growthcode.io` |
+| `[named individual]@healthcare.com` | `privacy@healthcare.com` |
+| `[named individual]@inmarket.com` | `privacy@inmarket.com` |
+| `[named individual]@lightboxre.com` | `privacyinfo@lightboxre.com` |
 
 **Seven of twenty-two, about a third.** Every one of them is a maintained mailbox
 that outlives whoever currently sits behind the filed one, and every one was
@@ -7260,3 +7260,128 @@ cases where the answer was poor. Having a value and having a good value are
 different questions, and a not-null check cannot tell them apart.
 
 **Related:** §113, `verify_emails.py:is_role_address`.
+
+## §133
+
+**Sixteen letters that were sent, and did not count.**
+*tracker.stats — 27 Aug 2026*
+
+Fourteen letters went out. The submitted count went *down*, from 630 to 628.
+
+`tracker.py stats` built its totals by walking the registry and looking each
+broker up in the state file:
+
+```python
+for bid in reg:
+    s = st.get(bid, {}).get("status", "pending")
+```
+
+An inner join, in a report about work completed. Every status row recorded against
+an id that later left `brokers.json` — merged into a duplicate, renamed by a
+registry rebuild, or an ad-hoc family rollup like `publicinfoservices_family` that
+was never a registry entry in the first place — was simply not counted. Nineteen
+rows: **16 submitted and 3 manual_required**. Real letters, really sent, really
+answered in some cases, invisible in every figure the project has quoted.
+
+It only surfaced because the number moved the wrong way. Fourteen additions
+against sixteen silent subtractions nets to minus two, and minus two after sending
+fourteen letters is loud. Had the registry churned by exactly the amount added,
+nothing would have looked wrong at all.
+
+**Why this is the same bug as §132, one layer down.** There the filter was "which
+brokers have no route?", which quietly became "which brokers are worth looking
+at". Here the join is "which registry entries have a status?", which quietly became
+"how much work has been done". Both take a lookup written for one purpose and let
+it define the population for another. Both fail by *omission*, which is the failure
+mode no assertion catches, because the dropped rows do not raise anything — they
+just are not there.
+
+**The fix is not to make the join lenient.** It is to say the registry is not the
+authority on what work was done. `_tally` now counts every status row, registry
+entry or not, and returns the off-registry ids alongside so `stats` can name them:
+
+```
+19 of these have a status but no registry entry (merged, renamed, or a family rollup):
+  atozacademics, atozdatabases, databaseusa_gov, ...
+```
+
+Stating the gap is the point. A total that silently absorbs its own exceptions is
+worse than one that is visibly imperfect, because the first cannot be audited and
+the second invites exactly the check that found this.
+
+**The general rule.** *A record of what happened must not be joined against a
+record of what exists.* The first is history and is immutable; the second is a
+working index and changes whenever anyone tidies it. Letting the second filter the
+first means every cleanup silently rewrites the past.
+
+**Related:** §132, §130 (references as join keys).
+
+## §134
+
+**The repo that publishes other people's addresses.**
+*redact.py, scaffold_playbook.py — 27 Aug 2026*
+
+§132 replaced thirty registry contacts that named an individual with the company's
+own role address. Recording the fourteen letters that followed scaffolded fourteen
+playbooks, and two of them printed the contact straight into a public file:
+
+```
+- **Email:** richard@evs7.com (verified)
+- Note: Opt-out letter sent by email to richard@evs7.com ...
+```
+
+The same problem, one layer downstream, arriving by an automated path within
+minutes of the manual one being cleaned up. The redaction gate passed throughout:
+it scans for *our* personal data, and someone else's address is not in the profile.
+
+**Three attempts at a rule, and why the first two were wrong.**
+
+*Attempt one: flag any address that `is_role_address()` does not recognise.* 747
+hits. That function is a whitelist built to **choose a good route**, and inverting
+a whitelist into a publication filter condemns every role mailbox nobody happened
+to list — `notice@`, `research@`, `removals@`, `accounting@`, `intelligence@`,
+`safety@`. A whitelist and a blacklist are not each other's complement when the
+list is incomplete, and it always is.
+
+*Attempt two: same rule, but only over markdown.* 196 hits, still mostly role
+mailboxes. Better scope, same broken test.
+
+*Attempt three, shipped: ask whether the local part looks like a person.*
+`first.last`, `f.last`, `first_last` — the shapes a filed registry contact
+actually takes. 17 hits, 15 of them real, 2 allowlisted (`consumer.documents@`,
+`regulatory.licenses@` — role mailboxes that happen to contain a dot).
+
+It deliberately **misses the bare first name** (`richard@`, `chirag@`), which is
+the case that started this. Adding bare words takes it back to 196. A gate that
+noisy gets switched off within a day, and a gate that is switched off protects
+nobody, so the narrow one is worth more than the complete one.
+
+**The bare-name case is handled where it originates instead.** `scaffold_playbook.py`
+now masks a non-role contact at the moment it writes the file. That needs no
+heuristic at all: the address came from `email_to`, the provenance is known, and
+`is_role_address()` is being used for exactly the question it was built for. The
+local part is masked and the domain kept —
+
+```
+- **Email:** [named individual]@evs7.com (verified)
+```
+
+— because *which company*, and *the fact that its only published contact is a
+person*, are both things a reader of the playbook needs. The name is not.
+
+**A mistake worth recording, made while fixing this.** Having settled on the
+precise rule for the gate, I then ran a bulk masking pass over `brokers/*.md`
+using the *broad* rule — the one just rejected — and rewrote 166 addresses across
+94 files, destroying documented routes like `removals@radaris.com` and
+`data@trestleiq.com`. Reverted and redone with the precise rule: 13 addresses,
+9 files. Choosing the right rule and then not using it is its own failure mode,
+and the tell was the count: 166 where the analysis predicted 17.
+
+**Still open, and not decided here.** `data/brokers.json` is tracked and public,
+and it carries all **184** remaining named contacts, because they are the routes.
+Stripping them would break those 184 brokers; keeping them republishes 184 work
+addresses. Every one is already published by a state registry, which is a real
+distinction but not obviously a sufficient one. That is a judgement about someone
+else's data in someone else's repo, so it is flagged rather than taken.
+
+**Related:** §132, §133.

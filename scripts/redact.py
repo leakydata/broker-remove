@@ -113,6 +113,101 @@ def _allowlist():
             for e in d.get("allow", []) if e.get("value")}
 
 
+
+# ---------------------------------------------------------------------------
+# Other people's addresses.
+#
+# Everything above protects the person running this. This protects everyone
+# else. State data-broker registries name an individual as the contact for
+# roughly one company in six, and a writeup that quotes one -- or a playbook
+# scaffolded from the recorded route -- republishes a real person's work address
+# in a public repo about deleting personal data. It has happened three times: a
+# table of seven registry contacts in _SILENT_FAILURES.md, and two playbooks
+# scaffolded automatically the moment a letter was recorded.
+#
+# Two deliberate narrowings, because the first attempt at this flagged 747
+# addresses and would have been switched off within a day.
+#
+# SCOPE: prose only -- markdown. The registry JSON and the vendor exports hold
+# registry contacts because that is what they are for; the data files are the
+# protected source, and stripping them would break the routes. The leak happens
+# when an address is *quoted into an argument*, and arguments live in markdown.
+#
+# TEST: person-shaped, not "unrecognised". is_role_address() is a whitelist
+# built to choose a good route, and as a publication filter it condemns every
+# role mailbox nobody thought of -- notice@, research@, removals@, intelligence@
+# were all flagged. So this asks the opposite question: does the local part look
+# like a human name? Under-blocking is the right error here. This is a backstop;
+# the primary control is the ROLE rule in discover_contacts.py.
+
+EMAIL = re.compile(r"\b[A-Za-z0-9][A-Za-z0-9._%+-]*@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b")
+
+# first.last / f.last / flast-with-a-known-first-name are what registry contacts
+# actually look like. A bare word is only person-shaped if it is not a role word,
+# so the role list still does useful work -- as an exemption, not as the rule.
+_PERSON = re.compile(r"""^(
+      [a-z]+\.[a-z]+          # first.last
+    | [a-z]\.[a-z]{2,}        # f.last
+    | [a-z]+_[a-z]+           # first_last
+)[0-9]*$""", re.X)
+
+# A bare first name -- `richard@`, `chirag@` -- is the other common registry
+# shape, and this rule does NOT catch it. Widening to bare words flags 196
+# addresses in markdown alone, nearly all of them role mailboxes nobody thought
+# to list: accounting@, removals@, notice@, leads@, safety@, requests@. A gate
+# that noisy gets switched off, so it is worth less than the narrow one.
+#
+# The bare-name case is handled where it actually originates instead:
+# scaffold_playbook.py masks a non-role contact at the moment it writes the
+# file, which needs no heuristic at all because the provenance is known.
+
+
+def _is_role(addr):
+    try:
+        sys.path.insert(0, str(Path(__file__).resolve().parent))
+        from verify_emails import is_role_address
+    except Exception:
+        return True          # cannot judge -> do not block a commit on a guess
+    return is_role_address(addr)
+
+
+def _person_shaped(addr):
+    local = addr.split("@")[0].lower()
+    if _is_role(local + "@x.com"):
+        return False
+    return bool(_PERSON.match(local))
+
+
+def _people_allowlist():
+    f = ROOT / "data" / "people_allowlist.json"
+    if not f.exists():
+        return set()
+    try:
+        return {a.lower() for a in json.loads(f.read_text())}
+    except Exception:
+        return set()
+
+
+def scan_people(files, skip):
+    """Return [(path, lineno, addr)] for named individuals' addresses in prose."""
+    allowed = _people_allowlist()
+    hits = []
+    for f in files:
+        if f in skip or not f.endswith(".md"):
+            continue
+        try:
+            content = (ROOT / f).read_text(errors="replace")
+        except Exception:
+            continue
+        for i, line in enumerate(content.splitlines(), 1):
+            for addr in EMAIL.findall(line):
+                a = addr.lower()
+                if a in allowed or not _person_shaped(a):
+                    continue
+                hits.append((f, i, addr))
+    return hits
+
+
 def scan_tracked():
     """Return [(path, lineno, term)] for personal data in files git will publish.
 
@@ -126,8 +221,6 @@ def scan_tracked():
     Gitignored paths stay out of scope. They are where personal data is supposed
     to live."""
     terms = _terms()
-    if not terms:
-        return []
     try:
         tracked = subprocess.run(["git", "ls-files"], cwd=ROOT,
                                  capture_output=True, text=True,
@@ -139,13 +232,13 @@ def scan_tracked():
             capture_output=True, text=True, check=True).stdout.split()
         files = tracked + untracked
     except Exception:
-        return []
+        return [], []
     # The profile template and this scanner legitimately mention field names.
     skip = {"data/profile.example.json", "scripts/redact.py",
             "data/redaction_allowlist.json"}
     allowed = _allowlist()
     hits = []
-    for f in files:
+    for f in files if terms else []:
         if f in skip:
             continue
         fp = ROOT / f
@@ -164,14 +257,28 @@ def scan_tracked():
                         continue
                     hits.append((f, i, t))
                     break
-    return hits
+    return hits, scan_people(files, skip)
 
 
 if __name__ == "__main__":
-    hits = scan_tracked()
+    hits, people = scan_tracked()
     for f, i, t in hits:
         print(f"  {f}:{i}  contains profile value: {t[:28]!r}")
     print(f"\n{len(hits)} personal-data occurrence(s) in files git would publish")
+    if people:
+        print()
+        for f, i, a in people:
+            print(f"  {f}:{i}  third party's address: {a}")
+        print(f"\n{len(people)} named individual's address(es) in files git would "
+              f"publish")
+        print(
+            "\nThese belong to other people -- usually a registry contact. Mask the\n"
+            "local part ([named individual]@company.com) or use the company's role\n"
+            "address instead. The point of a writeup is never the person's name.\n"
+            "\n"
+            "If an address really is a role mailbox this rule misreads, add it to\n"
+            "data/people_allowlist.json."
+        )
     if hits:
         # Every catch so far has had the same cause: quoting a real value while
         # writing up a finding, to make the evidence concrete. The finding has
@@ -189,4 +296,4 @@ if __name__ == "__main__":
             "data/redaction_allowlist.json for that one file. Do not widen the\n"
             "allowlist to make a commit pass."
         )
-    sys.exit(1 if hits else 0)
+    sys.exit(1 if (hits or people) else 0)

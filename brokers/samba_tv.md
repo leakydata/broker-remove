@@ -1,7 +1,7 @@
 # Samba TV, Inc.
 
 - **Email:** privacy@samba.tv (correct address, confirmed by a Samba TV employee)
-- **Email fallback (wrong personal mailbox):** jagdip.sekhon@samba.tv — the address on their CA data broker registration is a named individual, not a role address
+- **Email fallback (wrong personal mailbox):** [named individual]@samba.tv — the address on their CA data broker registration is a named individual, not a role address
 - **Method:** web — email reaches the right desk, but they route every request to a
   OneTrust DSAR form for email verification.
 - **Opt-out:** https://privacyportal-cdn.onetrust.com/dsarwebform/87c5ee85-893d-4972-ba26-2e82b743d041/d84d9664-facb-4de3-85fd-a2e339b73dbf.html
@@ -11,7 +11,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-27)
-- Note: 2026-08-26: emailed jagdip.sekhon@samba.tv (the CA registration contact). Named ACR data explicitly: viewing history, channel/programme tuning data, household device graphs, ad exposure/attribution events, and asked which TV manufacturer or platform supplied their data.
+- Note: 2026-08-26: emailed [named individual]@samba.tv (the CA registration contact). Named ACR data explicitly: viewing history, channel/programme tuning data, household device graphs, ad exposure/attribution events, and asked which TV manufacturer or platform supplied their data.
 - Note: 2026-08-26: Mr. Sekhon (Director of Data Governance) replied personally that this is his individual mailbox, not the privacy-rights address, named privacy@samba.tv as correct, and said he was transferring the request to their portal. Resent the same letter directly to privacy@samba.tv 2026-08-27 to have a written record at the correct address regardless of what the internal portal transfer does.
 
 ## Gotchas

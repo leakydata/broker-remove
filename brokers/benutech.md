@@ -1,6 +1,6 @@
 # Benutech Inc
 
-- **Email:** chad.brown@benutech.com (verified)
+- **Email:** [named individual]@benutech.com (verified)
 - **Method:** email — Statutory request by email. No web form needed.
 - **Domain:** benutech.com
 - **Priority: 2.**

@@ -154,9 +154,15 @@ def main():
 
     # The repository is public. A tracked file containing personal data is a
     # permanent, indexable leak - treat it as a hard failure, never a warning.
-    for f, ln, term in scan_tracked():
+    leaks, people = scan_tracked()
+    for f, ln, term in leaks:
         errors.append(f"PRIVACY LEAK {f}:{ln} contains a profile value "
                       f"({term[:20]!r}) - this repo is public. Redact it.")
+    # Someone else's address is a leak too, just not of our data. A registry
+    # contact quoted into a playbook republishes a real person's work address.
+    for f, ln, addr in people:
+        errors.append(f"THIRD-PARTY ADDRESS {f}:{ln} names an individual "
+                      f"({addr}) - mask the local part or use a role address.")
 
     for w in warnings:
         print(f"  warn: {w}")

@@ -161,26 +161,47 @@ def cmd_next(args):
 
 
 def _tally(reg, st):
+    """Count every status row, including ones the registry no longer knows.
+
+    This used to iterate the registry alone and look each id up in the state
+    file. Anything recorded against an id that later left `brokers.json` --
+    merged into a duplicate, renamed by a rebuild, or an ad-hoc family rollup
+    that was never a registry entry -- vanished from every total. It was
+    under-reporting 16 submitted and 3 manual_required: real letters, really
+    sent, invisible.
+
+    A join that drops non-matching rows is the wrong default for a progress
+    report. The count of work done must not depend on the registry still
+    agreeing that the broker exists. `off_registry` is returned alongside so the
+    gap is stated rather than absorbed."""
     counts = {}
     for bid in reg:
         s = st.get(bid, {}).get("status", "pending")
         counts[s] = counts.get(s, 0) + 1
-    return counts
+    off_registry = sorted(bid for bid in st if bid not in reg)
+    for bid in off_registry:
+        s = st[bid].get("status", "pending")
+        counts[s] = counts.get(s, 0) + 1
+    return counts, off_registry
 
 
 def cmd_stats(args):
     reg, st = get_registry(), get_state()
-    counts = _tally(reg, st)
-    total = len(reg)
+    counts, off_registry = _tally(reg, st)
+    total = len(reg) + len(off_registry)
     print(f"total tracked brokers: {total}")
     for s in STATUSES:
         if counts.get(s):
             print(f"  {s:16} {counts[s]:4}")
+    if off_registry:
+        print(f"\n  {len(off_registry)} of these have a status but no registry "
+              f"entry (merged, renamed, or a family rollup):")
+        print("    " + ", ".join(off_registry))
 
 
 def cmd_report(args):
     reg, st = get_registry(), get_state()
-    counts = _tally(reg, st)
+    counts, off_registry = _tally(reg, st)
     lines = [
         "# Data Broker Removal Report",
         "",

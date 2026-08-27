@@ -45,6 +45,38 @@ METHOD_NOTE = {
 }
 
 
+
+_ADDR = re.compile(r"\b[A-Za-z0-9][A-Za-z0-9._%+-]*@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b")
+
+
+def _mask_people(text):
+    """Same masking, applied to free text -- tracker notes quote the route."""
+    return _ADDR.sub(lambda m: _publishable(m.group(0)), text)
+
+
+def _publishable(addr):
+    """A contact address as it should appear in a public playbook.
+
+    Roughly one registry contact in six names an individual rather than a role
+    mailbox. The registry has to keep it -- it is the route. The playbook is
+    prose in a public repo, and printing it there republishes a real person's
+    work address in a document about deleting personal data. Two playbooks were
+    scaffolded that way the moment a letter was recorded against them.
+
+    The local part is masked, not the whole line: which company, and the fact
+    that the only published contact is a person, are both things a reader of
+    this playbook needs. The person's name is not."""
+    try:
+        sys.path.insert(0, str(Path(__file__).resolve().parent))
+        from verify_emails import is_role_address
+    except Exception:
+        return addr
+    if is_role_address(addr):
+        return addr
+    domain = addr.split("@", 1)[-1]
+    return f"[named individual]@{domain}"
+
+
 def scaffold(bid, reg, st):
     b = reg.get(bid)
     if not b:
@@ -61,7 +93,7 @@ def scaffold(bid, reg, st):
         lines.append(f"- **Opt-out:** {b['optout_url']}")
     if b.get("email_to"):
         verified = " (verified)" if b.get("email_verified") else " — **unverified, may bounce**"
-        lines.append(f"- **Email:** {b['email_to']}{verified}")
+        lines.append(f"- **Email:** {_publishable(b['email_to'])}{verified}")
     lines.append(f"- **Method:** {b.get('method','unknown')} — "
                  f"{METHOD_NOTE.get(b.get('method'), '')}")
     if b.get("domain"):
@@ -77,7 +109,7 @@ def scaffold(bid, reg, st):
     if rec.get("note"):
         # Tracker notes are gitignored and may contain personal data; this file
         # is tracked and public. Redact on the way across that boundary.
-        lines.append(f"- Note: {redact(rec['note'])}")
+        lines.append(f"- Note: {_mask_people(redact(rec['note']))}")
     lines.append("")
 
     lines += [
@@ -112,7 +144,7 @@ def status_block(bid, rec):
     if rec.get("confirmation_ref"):
         lines.append(f"- Reference: `{redact(rec['confirmation_ref'])}`")
     if rec.get("note"):
-        lines.append(f"- Note: {redact(rec['note'])}")
+        lines.append(f"- Note: {_mask_people(redact(rec['note']))}")
     return "\n".join(lines) + "\n"
 
 

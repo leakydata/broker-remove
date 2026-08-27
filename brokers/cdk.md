@@ -1,6 +1,6 @@
 # CDK
 
-- **Email:** james.kinzer@cdk.com (verified)
+- **Email:** [named individual]@cdk.com (verified)
 - **Method:** email — Statutory request by email. No web form needed.
 - **Domain:** cdkglobal.com
 - **Priority: 2.**
@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-25)
-- Note: 2026-08-25: emailed james.kinzer@cdk.com - person-shaped registry contact, so used the forward-this-internally opener and mentioned that two letters bounced off dead registered mailboxes this week. Conceded the dealer-management-system processor role, then pressed on why a processor is a REGISTERED DATA BROKER at all: cross-dealer consolidated profiles, in-market-shopper and equity-mining products, identity linkage, VIN-linked service and ownership records. Automotive data is a category people rarely realise is traded and unusually durable.
+- Note: 2026-08-25: emailed [named individual]@cdk.com - person-shaped registry contact, so used the forward-this-internally opener and mentioned that two letters bounced off dead registered mailboxes this week. Conceded the dealer-management-system processor role, then pressed on why a processor is a REGISTERED DATA BROKER at all: cross-dealer consolidated profiles, in-market-shopper and equity-mining products, identity linkage, VIN-linked service and ownership records. Automotive data is a category people rarely realise is traded and unusually durable.
 
 ## Steps
 

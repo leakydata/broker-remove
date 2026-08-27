@@ -1,15 +1,15 @@
-# Snov.io
+# eSite Analytics
 
-- **Opt-out:** https://snov.io/do-not-sell-my-personal-information
-- **Email:** [named individual]@snov.io (verified)
+- **Opt-out:** https://www.esiteanalytics.com/privacy-policy/
+- **Email:** privacy@kalibrate.com (verified)
 - **Method:** web_form — Web form.
-- **Domain:** snov.io
-- **Priority: 3.**
+- **Domain:** esiteanalytics.com
+- **Priority: 2.**
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-23)
-- Note: Statutory opt-out/deletion email sent 2026-08-23, category-tailored.
+- Current: `submitted` (updated 2026-08-27)
+- Note: Opt-out letter sent by email to privacy@kalibrate.com (delete + opt out of sale/sharing + direct downstream recipients + suppress against future ingestion). All twelve email addresses, sixteen prior addresses and eleven prior phone numbers listed for search. Sent as HTML per letter_html.
 
 ## Steps
 

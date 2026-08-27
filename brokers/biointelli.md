@@ -1,6 +1,6 @@
 # Biointelli Corporation
 
-- **Email:** david.hines@biointelli.net (verified)
+- **Email:** [named individual]@biointelli.net (verified)
 - **Method:** email — Statutory request by email. No web form needed.
 - **Domain:** biointelli.net
 - **Priority: 2.**
