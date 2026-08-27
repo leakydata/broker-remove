@@ -6956,9 +6956,9 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "dataprivacy@listmatch.com",
+      "email_to": "dataprivacy2026@listmatch.com",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "published_on_own_privacy_page_after_registry_address_bounced",
       "registry_years": [
         "2024"
       ],
@@ -6989,7 +6989,7 @@
       "domain": "emerges.com",
       "priority": 2,
       "method": "email",
-      "optout_url": "",
+      "optout_url": "https://www.emerges.com/Government-Record-Opt-Out_ep_51-1.html",
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
@@ -7000,7 +7000,8 @@
         "2020-2023",
         "2024"
       ],
-      "legal_name": "eMerges.com, Inc."
+      "legal_name": "eMerges.com, Inc.",
+      "email_alt": "shawn@emerges.com"
     },
     {
       "id": "endgame",

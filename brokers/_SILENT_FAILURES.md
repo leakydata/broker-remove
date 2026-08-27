@@ -5718,6 +5718,36 @@ This is checkable by anyone, cheaply, at scale: resolve every address in every
 state registry, send nothing, and count the 550s. It is the kind of sweep a
 regulator could run in an afternoon.
 
+### The year-suffixed address, and why registries hold the wrong one
+
+`dataprivacy@listmatch.com` — the address on Email Marketing Services' California
+registration — bounces 550. Their own privacy page publishes
+**`dataprivacy2026@listmatch.com`**.
+
+The address carries a **year**. It rotates, and the registry filing keeps whichever
+year was current when the form was submitted. Nothing is wrong on their side except
+that nobody re-filed; the live address is published, findable, and one character
+class away from the dead one.
+
+This is the second sighting. `check_mailto.py` exists because SourceIT's privacy
+policy linked the visible text `dataprivacy2026@…` to a `mailto:` of
+`dataprivacy@…` — the same rotation, failing in the same direction. Two independent
+companies with the same convention is enough to make it a rule rather than an
+anecdote:
+
+> **When a filed privacy address bounces, before concluding the broker is
+> unreachable, check the company's own privacy page for a year-suffixed variant of
+> the same local part.** It costs one fetch and it recovered a live channel here.
+
+Worth generalising slightly: a bouncing address is not evidence that a company has
+no privacy contact. It is evidence that *the address you have* is stale. The
+registry is a snapshot of a form submitted once; the website is maintained.
+
+`data@emerges.com` bounced in the same batch, from the same cause and without the
+same recovery — the domain's Google Workspace MX is healthy, the mailbox is simply
+gone, and their older filing offers only a named individual's address, which is what
+§88 is about. That one became a handoff to the opt-out page instead.
+
 **Related:** §88, §92 (null MX), §107, §109.
 
 ---
