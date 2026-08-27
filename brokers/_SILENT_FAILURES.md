@@ -6848,3 +6848,68 @@ exists, use it even when deletion is the goal: what comes back defines what dele
 has to cover.
 
 **Related:** `_DEFLECTIONS.md` §72, §121, §124, §54.
+
+---
+
+## §127
+### The best technical answer we have had, gated behind a key nobody can obtain
+
+Foursquare, after being pressed twice, answered four questions almost no company
+answers. Quoting, because the wording is the point:
+
+> **Deletion mechanics.** *"Deletion is not limited to removing a mapping between
+> the submitted MAID and otherwise retained device-level observations… Foursquare
+> deletes personal information within the scope of the request that its systems
+> associate with the submitted MAID."*
+
+That is the **edges-versus-nodes** question (§121, §90) answered directly: they are
+saying the deletion is not merely an unlinking.
+
+> **Persistent suppression.** *"Foursquare may retain limited information necessary
+> to document and implement the request, including information used to prevent the
+> identifier from being reintroduced… retained for privacy compliance purposes and
+> is not used for advertising or audience activation… the request is not implemented
+> merely as a one-time deletion that permits the same identifier to be reintroduced
+> during a later data refresh."*
+
+That is the **suppression-hash question** — *which of the two lists does my
+identifier sit on?* — answered unprompted and in the right direction. It is the
+single most important distinction in this whole project, and it is the one almost
+every company blurs.
+
+> **The submitted identifier.** *"Providing a MAID through that process does not
+> cause it to be used for advertising or other commercial purposes."*
+
+Which addresses the fear that handing over an identifier to exercise a right enriches
+the record — the same worry that made the SSN demand in `_DEFLECTIONS` §73
+unacceptable. Here it is anticipated and closed.
+
+They also said they do not require government-issued identification, which should be
+unremarkable and, across seventeen months of this file, is not.
+
+### And it is still unusable
+
+Every one of those mechanisms is keyed to a **MAID**, which on current devices the
+consumer cannot obtain: Apple removed the IDFA from the interface and returns zeros
+without tracking permission, and current Android offers to *delete* the advertising
+ID rather than display it. An advertising ID is also resettable by design, so
+observations held under a previous one are unreachable by the person they describe.
+
+So the honest summary is not "good company" or "bad company":
+
+> **Foursquare has built the mechanism this project keeps asking for, and attached it
+> to a key that the more privacy-conscious a person is, the less likely they are to
+> hold.**
+
+That is a different failure from every other entry here. Nothing is being withheld,
+deflected, or mis-templated. The policy is right and the interface to it is
+unreachable — which means the gap is not in any one company but between the privacy
+tooling in phones and the identifier model the ad industry still runs on.
+
+**The question that matters most is now outstanding with them:** *if a consumer
+resets their advertising ID after opting out, does the suppression still protect
+them, or does the new identifier arrive as an unrecognised device?* An answer either
+way is worth more than another deletion — it decides whether an opt-out survives
+ordinary privacy hygiene (§126).
+
+**Related:** §90, §121, §124, §126, `_DEFLECTIONS.md` §72, §73.
