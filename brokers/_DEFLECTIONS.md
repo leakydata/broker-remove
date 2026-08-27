@@ -4033,3 +4033,49 @@ at the company chose to build a system that rewards attrition; it simply does.
 
 **Related:** §64 (the satisfaction survey as closure), §66 (send us the URL of the
 profile we deleted), §70.
+
+---
+
+## §76
+### "We have a lot of people with your name. Which company do you work for?"
+
+Lead411 asked exactly that, nine days after the letter, from a person rather than a
+macro. It is not a deflection — it is a genuine disambiguation problem, and it
+deserves a genuine answer rather than suspicion.
+
+It is in this file because **the obvious answer is the wrong one.**
+
+Naming an employer would narrow the search, and it would also:
+
+1. **Add information to their database.** If they do not currently hold a
+   name-to-employer link for this person, supplying one creates precisely the
+   association the letter asks them to delete. A deletion request that enriches the
+   record is a strange object.
+2. **Narrow the search past the records that matter.** The consumer does not know
+   which employer, if any, the broker's data was built around. Answering "I work at
+   X" quietly excludes any record built around a previous employer — and in a B2B
+   file, historical employment is most of the file.
+
+**The better answer is to offer keys that do not collide.** Names collide; email
+addresses and phone numbers do not. Twelve of each, and any record carrying one is
+this person's while any record without one is somebody else's. No employer needed,
+no new association created, and no silent narrowing.
+
+The public professional profile URL does the rest: it carries the employment history
+without the consumer retyping it, and it is already public, so supplying it discloses
+nothing new. For a B2B broker it is also probably the source of what they hold.
+
+**And then ask for the thing only they can do.** A B2B file often holds a *derived*
+work address — `first.last@employer` — constructed rather than collected, which the
+subject has never owned and cannot list. They can generate it from the same profile
+it was built from. A constructed address that is wrong is still a record about the
+person, and mail sent to it reaches a stranger.
+
+**The general rule:** when a broker asks for an identifier you have not already
+given them, ask what it is for. If it is to *find* you, offer a unique key you have
+already disclosed. If the only way to find you is to tell them something new about
+yourself, that is worth noticing before answering — the request is meant to reduce
+what they hold, not to complete their record.
+
+**Related:** §67 (the sending address is not the address in the record), §73 (the
+SSN gate), `_SILENT_FAILURES.md` §119.
