@@ -47,6 +47,7 @@
     "privacy@keyopinionleaders.com": "Domain has no NS/SOA/A/MX records at all — the registration has lapsed. Reads as a soft delay for 48h before hard-bouncing, 2026-08-20.",
     "privacy@infofree.com": "550 address not found. Already superseded — registry's email_to was corrected to info@infofree.com on 2026-08-22.",
     "ccpa@leadmemedia.com": "550 address not found. Already superseded — registry's email_to was corrected to californiaregistry@leadmemedia.com.",
-    "contact@join5x5.com": "Domain has no MX and no A record at all — publishes no working mail route. Registry note flags this as almost certainly a typo in the CA filing; the entry is held out of the send queue as a duplicate of five_by_five."
+    "contact@join5x5.com": "Domain has no MX and no A record at all — publishes no working mail route. Registry note flags this as almost certainly a typo in the CA filing; the entry is held out of the send queue as a duplicate of five_by_five.",
+    "info@hellofyllo.com": "550 address not found, 2026-08-27. Domain still has live Mimecast MX -- only the mailbox is gone. No published role address on the site."
   }
 }

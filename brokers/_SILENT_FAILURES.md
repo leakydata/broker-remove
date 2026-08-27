@@ -7604,3 +7604,76 @@ pair. The forward filter is the valuable part, and it is worth far more holding 
 the keys than one.
 
 **Related:** §135 (a confirmation is a key list, not a verdict), §133.
+
+## §138
+
+**The confirmation that fired before anyone read the request.**
+*Versium — 27 Aug 2026*
+
+On 20 August, seconds after the letter was sent, `optout+noreply@versium.com`
+replied:
+
+> "We have processed your request to optout/delete your record from Versium data.
+> **Please consider this response your confirmation.**"
+
+That was recorded as `confirmed`. It was the strongest wording in the whole
+project — past tense, unhedged, and explicitly labelling itself as the
+confirmation.
+
+Seven days later a human at `optout@versium.com` wrote:
+
+> "If we do not receive a reply to this email within 10 days, we will process the
+> opt-out request."
+
+Both cannot be true. The opt-out had not been processed on 20 August; the
+autoresponder fires on **receipt** and describes queued work in the past tense.
+Downgraded to `submitted` via `--regressed`, which is what that flag is for.
+
+**The trap in the new message, which is worth more than the correction.** Read
+literally, *silence* triggers the opt-out and *a reply* suspends it. A consumer
+who answers the company's questions is worse off than one who ignores them
+entirely. Almost certainly not the intent — but it is what the sentence says, and
+a request left mid-conversation is indistinguishable from one being worked. The
+reply therefore leads with an unconditional instruction to process the deletion
+and opt-out now, explicitly severable from everything else in the message. **Any
+reply to a "we will proceed unless we hear from you" notice has to open that
+way.**
+
+**So how many other confirmations rest on an autoresponder?** All 47 were audited.
+The answer is: essentially none, and working out *why* produced the useful part.
+
+The naive test — fast reply, `noreply@` sender — flags `fourleaf` and `trestle`,
+both confirmed within about a minute by `noreply@trustsuperset.com`. But those are
+sound, and for a specific reason: Superset returned **two separate emails, one per
+right** — "right to erasure completed" and "right to opt-out completed" — having
+parsed an emailed letter into two request types unprompted. A
+confirmation-on-receipt cannot do that. It does not know what you asked for. The
+same platform answered FI Navigator today with "no matching records found",
+split across two tickets: a *result*, not a receipt.
+
+**The discriminator, then, is not latency and not the sender address:**
+
+> **A confirmation is corroborated when it contains something only the work could
+> have produced.**
+
+Itemised match lists (`bdex`: 4 of 12 emails, named). Per-field sources
+(`kaspr_io`). A per-right split (`trestle`). A nil result (`search_quarry`). A
+named agent answering a specific question. Any of these is a fact about *this*
+request that a template cannot fabricate.
+
+Versium's had none. Strip the salutation and it is a fixed string that would be
+byte-identical for every requester on earth — which is exactly what §137 found
+from the other direction, where an *identical* macro was the tell that a follow-up
+had never been read. Same test, both polarities: **compare the message against what
+a template alone could say.** If nothing distinguishes it, nothing has been
+established.
+
+**Two things Versium did well, recorded so the correction is not read as a verdict
+on the company.** They apply opt-out, deletion and consent withdrawal to everyone
+regardless of state, having gated only access by residency — most companies gate
+all four the same way. And they wrote that they retain "information necessary to
+ensure that your information remains deleted", which is the suppression key said
+out loud rather than dressed up as a deletion.
+
+**Related:** §135 (a confirmation is a key list), §137 (the identical macro),
+`brokers/radaris.md`.
