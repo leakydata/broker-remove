@@ -6566,3 +6566,58 @@ cannot express structural impossibility will quietly file those cases under
 "waiting" forever.
 
 **Related:** `_DEFLECTIONS.md` §72, §54, §123, §90.
+
+---
+
+## §125
+### Sixteen brokers now refuse email outright, and the pattern has a shape
+
+Counting the tracker for brokers that have stated in writing that they will not
+process a privacy request sent by email: **sixteen**, and fourteen of them are now
+`manual_required` because no email route survives.
+
+The wording is strikingly consistent — *"we do not accept privacy requests received
+via email"*, *"requests submitted by email alone cannot be processed"*, *"email is
+not a mechanism used by [company] for privacy rights requests"* — and it spans
+completely unrelated businesses: people-search (the Mississippi Tornado Alley
+family), workforce intelligence (Lightcast), adtech (Zeta), marketing data (Epsilon),
+property data (PropertyReach, CoreLogic), campaign tech (Unearth), retail analytics
+(Buxton), automotive (Client Command).
+
+**This is not a family fingerprint.** It is a compliance-vendor convention: a DSAR
+portal with identity verification is what the major privacy platforms sell, and once
+a company buys one, routing everything through it is the defensible choice. The
+sentence is the same everywhere because the product is.
+
+### Why it matters more than the inconvenience
+
+Three consequences, in increasing order of importance:
+
+1. **Every question that is not a form field disappears.** A portal collects an
+   identity and a request type. It has nowhere to put *"is the suppression keyed to
+   my name or my email address?"* or *"do you hold a derived address I never owned?"*
+   — which are the questions that decide whether a removal actually works. §121 is
+   the sharp case; this is the general one.
+
+2. **Verification hardens.** Email accepts a letter that argues. A portal accepts
+   fields, and increasingly demands a verified identity to fill them — which is how
+   `_DEFLECTIONS` §71 (proof of address) and §73 (SSN fragment) arrive. The channel
+   change and the verification escalation are the same movement.
+
+3. **The autoresponder makes it non-negotiable.** Zeta, Lightcast and Captiv8 all
+   replied in seconds from a `noreply` address. There is no human on the other end of
+   the refusal, so there is no one to make the case to. §121's referral cycle is the
+   limit case: the escape hatch pointing back at the autoresponder.
+
+### What it changes about method
+
+The email campaign has been the efficient path — one letter, tailored, arguing the
+specific business. That path is closing for a growing minority of brokers, and for
+those the leverage moves to **the free-text field**, which is why every portal
+handoff in the queue now carries the two or three sentences that must go in it.
+
+Worth tracking as a rate rather than a list: sixteen of roughly six hundred contacted
+is not yet the norm, but it is concentrated in exactly the largest and most
+data-rich companies, which is where the records that matter are.
+
+**Related:** `_DEFLECTIONS.md` §63, §71, §73, §74, §121.
