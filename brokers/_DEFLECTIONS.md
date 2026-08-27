@@ -3889,3 +3889,59 @@ population data-broker registration exists for. A request should not depend on
 producing a contract. Say it once, without heat, and move on.
 
 **Related:** §54, §69, `_SILENT_FAILURES.md` §90, §121.
+
+---
+
+## §73
+### Send us four digits of your Social Security Number
+
+SBFE's verification list, for a request about data they had not confirmed holding:
+
+> *Applicable law or statute · Full Name (including all possible variations) · Home
+> Address · Date of Birth · **Last 4 Digits of Social Security Number***
+
+with *"if you do not provide all of the information requested, SBFE will not proceed
+with your request, and SBFE will consider the matter closed."*
+
+**Do not send it.** Not a partial SSN, not to establish identity, not to unblock a
+stalled request. The reasoning is not squeamishness, and it is worth being able to
+state:
+
+- The same message said SBFE *"does not collect any information directly from
+  consumers."* So the proposal is to hand a Social Security fragment to a company
+  that may hold nothing about you at all.
+- The same message also said they *"must keep a record of the information you
+  provide."* So if they hold nothing, the SSN fragment is the **only** personal data
+  of yours they now have — a request to delete data has become a disclosure of data.
+- An SSN fragment is a **key**, not a fact. It is the join used across the credit
+  system, which is exactly why it verifies — and exactly why it should not be spent
+  on a company that has not shown it holds anything.
+
+This is the ID demand from §60 escalated one level. There, the ask was a driving
+licence or passport; here it is the identifier those documents are used to protect.
+
+**The reply that works** separates the question they can answer without it from the
+one they say they need it for:
+
+> *"Do you hold anything about me at all? A yes-or-no is a complete answer, and it
+> needs no Social Security Number."*
+
+Everything contentious — exemptions, retention, contracts — is downstream of that,
+and there is no point arguing it about a record whose existence is unestablished.
+
+### Two more shapes in the same message
+
+**The exemption asserted before the search.** *"**If** SBFE has your information...
+SBFE is not required to remove your personal information."* A conditional refusal is
+not a refusal; it is a legal position taken about a hypothetical record. Concede it
+freely — it may well be correct — and go back to whether the record exists.
+
+**The redirect that assumes what it is meant to establish.** *"Please contact the
+business lending institutions with which you have relationships."* Only the exchange
+can see which contributor supplied a record. Instructing the consumer to go and ask
+the lender presupposes they know which lender — which they only would if they
+already knew the answer. And if there are no such relationships, then either nothing
+is held, or something is held about a person with no relationship to any
+contributor, which is the population broker registration exists for.
+
+**Related:** §60, §71, §63.
