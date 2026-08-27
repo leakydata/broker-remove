@@ -7209,3 +7209,54 @@ regime is working, and this failure mode is invisible in them by construction.
 
 **Related:** §113, `_DEFLECTIONS.md` §68, `brokers/foursquare.md`,
 `brokers/samba_tv.md`.
+
+## §132
+
+**Thirty-one strangers' work addresses, published by us.**
+*registry hygiene — 27 Aug 2026*
+
+`discover_contacts.py` was built to find a route for brokers that had none. It
+took the no-route case as its whole input set, which meant a broker whose recorded
+contact was a named individual — `richard@`, `chirag@`, `paul@` — was never
+probed. It had a route. The filter was satisfied.
+
+That is the wrong test, twice over.
+
+**As a route**, a named individual is fragile in a way a role mailbox is not. It
+stops working when they change jobs, and it stops working *silently* — the mail is
+accepted by the company's server and then goes nowhere, which is the failure this
+whole file is about. A privacy request sent to someone who left in 2024 does not
+bounce.
+
+**As a publication**, it is worse. This repository is public. Every named contact
+in it is a real person's work address, republished by us, attached to a data
+broker, in a repo about getting data deleted. The registry entry that put it there
+was a state filing; our copy is a second publication with a different audience and
+no expiry.
+
+So `--person-shaped` now selects on exactly that: a recorded contact that
+`is_role_address()` rejects. It reuses the project's own definition rather than a
+fresh heuristic, which matters — an earlier ad-hoc substring check had counted
+`askprivacy@` and `usprivacy@` as people.
+
+**Result: 32 of 83 probed domains publish a role address of their own.** Thirty
+were adopted outright. One (`stat_resource_group…`) looked off-domain until the
+registry filing turned out to name a contact at that same operator's domain
+already, which settles it. One (`intentmacro` → `privacy@pharosiq.com`) is a
+genuine unknown and went to the handoff queue rather than being guessed at.
+
+**A note on the count, so it is not read as a regression.** Named contacts still on
+record now read as **184 of 1,180 (15.6%)**, against a figure of ~146 recorded
+earlier. Nothing got worse — 31 were just removed. The number moved because the
+measurement did: it now uses `is_role_address()`, the same function that decides
+what is safe to record, instead of the looser heuristic that produced the older
+figure. Measuring with the canonical definition is the point; a hygiene metric
+computed a different way from the rule it is meant to police will drift from it.
+
+**The general shape.** A filter written for one purpose — "which brokers still need
+a route?" — silently became the definition of "which brokers are worth looking at".
+Every case that already had *an* answer stopped being examined, including all the
+cases where the answer was poor. Having a value and having a good value are
+different questions, and a not-null check cannot tell them apart.
+
+**Related:** §113, `verify_emails.py:is_role_address`.

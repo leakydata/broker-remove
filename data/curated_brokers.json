@@ -10395,9 +10395,9 @@
       "needs_email_confirm": null,
       "source": "optery",
       "optery_slug": "fetcher",
-      "email_to": "chris@fetcher.ai",
+      "email_to": "privacy@fetcher.ai",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "privacy_policy",
       "email_alt": "privacy@fetcher.ai",
       "registry_years": [
         "2020-2023",
@@ -10586,9 +10586,9 @@
       "needs_email_confirm": null,
       "source": "optery",
       "optery_slug": "hunter-2",
-      "email_to": "matt@hunter.io",
+      "email_to": "privacy@hunter.io",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "privacy_policy",
       "email_alt": "privacy@hunter.io",
       "registry_years": [
         "2020-2023",
@@ -10610,7 +10610,6 @@
       "email_to": "paul@intentmacro.com",
       "email_verified": true,
       "email_verified_by": "ca_data_broker_registry",
-      "notes": "privacy@pharosiq.com is not on intentmacro.com -- the site publishes no address on the broker's own domain. Either an acquisition (route is correct) or a wrong domain in the registry (route is a stranger). Confirm the corporate relationship before sending: the letter carries a full identifier set.",
       "email_alt": "privacy@pharosiq.com",
       "registry_years": [
         "2020-2023"
@@ -11169,9 +11168,9 @@
       "needs_email_confirm": null,
       "source": "optery",
       "optery_slug": "wiza",
-      "email_to": "harrison@wiza.com",
+      "email_to": "optout@wiza.com",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "privacy_policy",
       "email_alt": "optout@wiza.com",
       "registry_years": [
         "2025",
@@ -11727,9 +11726,9 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "tom.cushing@lgads.tv",
+      "email_to": "privacy@alphonso.tv",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "privacy_policy",
       "registry_years": [
         "2020-2023",
         "2024",
@@ -14575,9 +14574,9 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "c.brown@fetchrewards.com",
+      "email_to": "privacy@fetch.com",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "privacy_policy",
       "registry_years": [
         "2026"
       ],
@@ -14708,9 +14707,9 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "tsg@finthrive.com",
+      "email_to": "privacy@finthrive.com",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "privacy_policy",
       "registry_years": [
         "2020-2023",
         "2024",
@@ -14770,9 +14769,9 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "snichols@firstorion.com",
+      "email_to": "privacy@firstorion.com",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "privacy_policy",
       "registry_years": [
         "2020-2023",
         "2024",
@@ -15188,9 +15187,9 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "ian@growinglibraries.com",
+      "email_to": "privacyteam@growinglibraries.com",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "privacy_policy",
       "registry_years": [
         "2025",
         "2026"
@@ -15207,9 +15206,9 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "jonathon@growthcode.io",
+      "email_to": "privacy@growthcode.io",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "privacy_policy",
       "registry_years": [
         "2026"
       ],
@@ -15320,9 +15319,9 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "deasley@healthcare.com",
+      "email_to": "privacy@healthcare.com",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "privacy_policy",
       "registry_years": [
         "2020-2023",
         "2024",
@@ -15609,9 +15608,9 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "justin@idatabasesolutions.com",
+      "email_to": "compliance@idatabasesolutions.com",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "privacy_policy",
       "registry_years": [
         "2024",
         "2025",
@@ -15977,9 +15976,9 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "jknapp@inmarket.com",
+      "email_to": "privacy@inmarket.com",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "privacy_policy",
       "registry_years": [
         "2020-2023",
         "2024",
@@ -16354,9 +16353,9 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "chrissy@jdmlistservices.com",
+      "email_to": "privacy@jdmlistservices.com",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "privacy_policy",
       "registry_years": [
         "2020-2023",
         "2024",
@@ -16820,9 +16819,9 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "jfranks@lightboxre.com",
+      "email_to": "privacyinfo@lightboxre.com",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "privacy_policy",
       "registry_years": [
         "2025",
         "2026"
@@ -17644,9 +17643,9 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "daniel@multimedialists.com",
+      "email_to": "compliance@multimedialists.com",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "privacy_policy",
       "registry_years": [
         "2020-2023",
         "2024",
@@ -17777,9 +17776,9 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "amyl@networx.com",
+      "email_to": "privacy@networx.com",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "privacy_policy",
       "registry_years": [
         "2026"
       ],
@@ -18061,9 +18060,9 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "accounting@onspotdata.com",
+      "email_to": "privacy@onspotdata.com",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "privacy_policy",
       "registry_years": [
         "2020-2023",
         "2024",
@@ -18392,9 +18391,9 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "lchiodo@porchgroupmedia.com",
+      "email_to": "privacy@porchgroupmedia.com",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "privacy_policy",
       "registry_years": [
         "2024",
         "2025",
@@ -18680,9 +18679,9 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "ezra@quorum.inc",
+      "email_to": "privacy@quorum.inc",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "privacy_policy",
       "registry_years": [
         "2026"
       ],
@@ -18740,9 +18739,9 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "ddemarsh@rayinsights.com",
+      "email_to": "privacy@rayinsights.com",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "privacy_policy",
       "registry_years": [
         "2026"
       ],
@@ -18852,9 +18851,9 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "getrefined@refinition.com",
+      "email_to": "optout@refinition.com",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "privacy_policy",
       "registry_years": [
         "2024"
       ],
@@ -18870,9 +18869,9 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "finance@reklaimyours.com",
+      "email_to": "privacy@reklaimyours.com",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "privacy_policy",
       "registry_years": [
         "2020-2023",
         "2025",
@@ -19101,9 +19100,9 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "jeff@richmediallc.com",
+      "email_to": "privacy@richmediallc.com",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "privacy_policy",
       "registry_years": [
         "2020-2023",
         "2024",
@@ -19445,9 +19444,9 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "ops@semantiqhealth.com",
+      "email_to": "privacy@semantiqhealth.com",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "privacy_policy",
       "registry_years": [
         "2026"
       ],
@@ -19999,9 +19998,9 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "michael@alescodata.com",
+      "email_to": "privacy@alesco.com",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "privacy_policy",
       "registry_years": [
         "2020-2023"
       ],
@@ -20176,9 +20175,9 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "sourcing@tauxbe.com",
+      "email_to": "privacy@tauxbe.com",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "privacy_policy",
       "registry_years": [
         "2026"
       ],
@@ -20251,9 +20250,9 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "jhenson@thedatagroup.com",
+      "email_to": "compliance@thedatagroup.com",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "privacy_policy",
       "registry_years": [
         "2024",
         "2025",
@@ -20312,9 +20311,9 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "privcy@theswarm.com",
+      "email_to": "privacy@theswarm.com",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "privacy_policy",
       "registry_years": [
         "2024",
         "2025",
@@ -20372,9 +20371,9 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "jmcleod@throtle.io",
+      "email_to": "privacy@throtle.io",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "privacy_policy",
       "registry_years": [
         "2020-2023",
         "2024",
@@ -20628,9 +20627,9 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "policy@upcell.io",
+      "email_to": "privacy@upcell.io",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "privacy_policy",
       "registry_years": [
         "2025",
         "2026"
@@ -20666,9 +20665,9 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "usdatabroker@urbanscience.com",
+      "email_to": "privacy@urbanscience.com",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "privacy_policy",
       "registry_years": [
         "2026"
       ],
@@ -20997,9 +20996,9 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "sam@wealthfeed.com",
+      "email_to": "privacy@wealthfeed.com",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "privacy_policy",
       "registry_years": [
         "2024",
         "2025",

@@ -189,17 +189,43 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--limit", type=int, default=20)
     ap.add_argument("--json", help="write findings to this file")
+    ap.add_argument("--ids", help="comma-separated broker ids to probe, "
+                                  "regardless of what route is on record")
+    ap.add_argument("--person-shaped", action="store_true",
+                    help="probe brokers whose recorded contact is a named "
+                         "individual rather than a role mailbox")
     args = ap.parse_args()
 
     reg = {b["id"]: b for b in json.loads((ROOT / "data" / "brokers.json").read_text())["brokers"]}
     sp = state("removal_status.json")
     st = json.loads(sp.read_text()) if sp.exists() else {}
 
-    todo = [(i, b["domain"]) for i, b in reg.items()
-            if i not in st and (b.get("domain") or "").strip()
-            and not (b.get("email_to") or "").strip()
-            and not (b.get("optout_url") or "").strip()
-            and not b.get("duplicate_of")]
+    if args.ids:
+        want = {i.strip() for i in args.ids.split(",") if i.strip()}
+        missing = want - set(reg)
+        if missing:
+            sys.exit("unknown broker id(s): " + ", ".join(sorted(missing)))
+        todo = [(i, reg[i]["domain"]) for i in sorted(want)
+                if (reg[i].get("domain") or "").strip()]
+    elif args.person_shaped:
+        # A registry contact that names an individual is a route, so the
+        # no-route filter below never reaches it -- but it is exactly the case
+        # worth a second look. A published role address is better as a route
+        # (it survives the person leaving) and better for this repo, which is
+        # public and should not be republishing someone's work address.
+        sys.path.insert(0, str(Path(__file__).resolve().parent))
+        from verify_emails import is_role_address
+        todo = [(i, b["domain"]) for i, b in reg.items()
+                if i not in st and (b.get("domain") or "").strip()
+                and (b.get("email_to") or "").strip()
+                and not is_role_address(b["email_to"])
+                and not b.get("duplicate_of")]
+    else:
+        todo = [(i, b["domain"]) for i, b in reg.items()
+                if i not in st and (b.get("domain") or "").strip()
+                and not (b.get("email_to") or "").strip()
+                and not (b.get("optout_url") or "").strip()
+                and not b.get("duplicate_of")]
     todo.sort()
     todo = todo[:args.limit]
     print(f"probing {len(todo)} domain(s) with no route on record", file=sys.stderr)
