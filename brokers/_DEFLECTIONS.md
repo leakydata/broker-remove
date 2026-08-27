@@ -3991,3 +3991,45 @@ each registry — including Texas and Oregon, whose registries we could not read
 directly (`_SILENT_FAILURES.md` §95).
 
 **Related:** §70, §63, §65, `_SILENT_FAILURES.md` §110.
+
+---
+
+## §75
+### "If we do not receive a reply, we will consider your request resolved"
+
+Spokeo's Customer Care macro closes with that sentence.
+
+Read it carefully, because it inverts something. Everywhere else in this file the
+consumer's problem is a company going quiet — the request neither honoured nor
+refused, drifting until it is forgotten (§70). Here the company has made **its own
+silence the consumer's deadline**: if you do not write back, the matter is treated
+as finished, whether or not anything was done.
+
+That is a reasonable ticketing policy and an unreasonable privacy policy, and the
+difference is worth naming rather than resenting. A support desk cannot leave
+tickets open forever, and most tickets genuinely are resolved by the customer going
+away satisfied. But a deletion request is not a support ticket: the consumer has no
+way to tell "done" from "closed", and the outcome that follows from not replying is
+identical in the inbox either way.
+
+**What it does in practice** is convert every unanswered question into a resolved
+one. Ask something the macro does not cover — as here, a scope question about five
+sibling sites named on their own registration — and the macro answers something
+else, and then the clock starts on *you*.
+
+**The response is short and has three parts:**
+
+1. **Reply, promptly.** The default only bites if you do not. This is one of the few
+   places where speed matters more than substance.
+2. **Say plainly that the reply does not answer the question**, and restate the
+   question in one line so it cannot be absorbed into the macro a second time.
+3. **Address the default itself, once, without heat.** *"A request is resolved when
+   the answer is given, not when the correspondence stops — and treating silence as
+   resolution means the only requests that ever close are the ones the consumer
+   gives up on."*
+
+That last sentence is worth keeping because it is true and not an accusation. Nobody
+at the company chose to build a system that rewards attrition; it simply does.
+
+**Related:** §64 (the satisfaction survey as closure), §66 (send us the URL of the
+profile we deleted), §70.
