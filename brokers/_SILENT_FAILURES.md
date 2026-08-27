@@ -5884,6 +5884,30 @@ resent to a working first-party address after its vendor address died. **Zero fa
 statuses** — which is the answer worth having, and only checkable because each
 `submitted` records what it rests on.
 
+### And a third state: deferred forever, never bounced
+
+A letter to Adrea Rubin Marketing and Calibrant Digital drew Gmail **deferral**
+notices over three days — *"will retry for 47 more hours"*, then 45, then 22 — and
+then nothing. No permanent failure notice ever arrived, and the retry window closed.
+
+Gmail does not notify on eventual success. So this is neither a delivery nor a
+bounce: it is **the absence of evidence in both directions**, and from inside the
+tracker it looks exactly like success.
+
+That matters because the working assumption everywhere else in this project is that
+silence from a broker means they received the letter and chose not to reply. Here
+silence may mean the letter never arrived. The tell is the deferral notices, which
+are easy to skim past because each one says the system is still trying.
+
+`calibrant.com` publishes **no MX record at all**, so mail falls back to the A host
+under RFC 5321 — the same shape as `4-eyes.ai` above, except deferring rather than
+refusing outright. A domain with no MX that defers for three days is very unlikely to
+be accepting mail.
+
+**The rule:** a deferral notice is worth recording when it arrives, not after the
+window closes. Once the retries stop, the evidence stops with them — there is no
+later moment at which the outcome becomes knowable.
+
 **Related:** §88, §92, §111, §103.
 
 ---
