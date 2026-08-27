@@ -7039,6 +7039,16 @@ list. A good general rule, applied without looking at the data.
   university, a former employer, or any organisational domain is a *work* identifier
   regardless of how personal the use was. It belongs in the part of the letter that
   argues about B2B indexes, not the part that lists personal contact details.
+
+  **Done in the generator**, not left as advice: `make_optout_email.py` now annotates
+  any address whose domain is not a consumer mail provider as *"organisational
+  address — a work identifier, the kind a B2B file is keyed to"*, alongside the
+  existing closed-mailbox note where both apply. The two annotations are independent
+  and conflating them is what caused this — one described deliverability, and nothing
+  described type. Classification is by exclusion from a consumer-provider list, which
+  errs toward flagging: a wrongly flagged address invites a broader search, a missed
+  one invites a confident and wrong claim. The supplement generator inherits it,
+  since both build the block from the same profile loader.
 - **Stop predicting the answer in the letter.** The prediction added nothing — the
   question *"was anything actually found?"* stands perfectly well alone, and being
   wrong out loud costs credibility on every other claim in the same message.

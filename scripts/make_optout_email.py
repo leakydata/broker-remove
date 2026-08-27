@@ -134,15 +134,45 @@ def load_profile():
         prior += [" " * 19 + n for n in p["prior_phones"]]
     prior_block = ("\n" + "\n".join(prior) + "\n") if prior else "\n"
 
-    # Addresses that still match records but can no longer receive mail. Marked
-    # inline so no broker sends a verification link to a mailbox nobody can open
-    # -- a silent failure that looks identical to being ignored.
+    # Two independent annotations, and conflating them cost us a real finding.
+    #
+    # CLOSED: still matches records but can no longer receive mail. Marked so no
+    # broker sends a verification link to a mailbox nobody can open -- a silent
+    # failure that looks identical to being ignored.
+    #
+    # WORK-DOMAIN: an address at an employer, university or other organisational
+    # domain, as opposed to a consumer mail provider. This is a fact about the
+    # KIND of identifier, not about whose it is or whether it still works, and a
+    # B2B database is keyed to exactly this kind. SalesIntel found a live record
+    # under one -- a university address that had been annotated only as "closed
+    # mailbox" for weeks, while a letter in the same thread asserted that every
+    # address supplied was personal (_SILENT_FAILURES 129). The note was accurate
+    # about deliverability and silent about type, so the type went unnoticed.
+    #
+    # Classified by exclusion: anything not on the consumer-provider list is
+    # treated as organisational. That errs toward flagging, which is the cheap
+    # direction -- a wrongly flagged address invites a broader search, while a
+    # missed one invites a confident and wrong claim.
+    CONSUMER_MAIL = {
+        "gmail.com", "googlemail.com", "hotmail.com", "outlook.com", "live.com",
+        "msn.com", "yahoo.com", "ymail.com", "aol.com", "icloud.com", "me.com",
+        "mac.com", "proton.me", "protonmail.com", "gmx.com", "mail.com",
+        "zoho.com", "fastmail.com", "webtv.net", "iwon.com", "att.net",
+        "gateway.net", "verizon.net", "comcast.net", "sbcglobal.net",
+        "bellsouth.net", "cox.net", "earthlink.net", "juno.com", "netzero.net",
+    }
     closed = {e.lower() for e in p.get("closed_emails") or []}
-    email_lines = [
-        e + ("   (closed mailbox — a search key only, not a reply address)"
-             if e in closed else "")
-        for e in emails
-    ]
+
+    def annotate(e):
+        notes = []
+        if e.lower() not in CONSUMER_MAIL and e.lower().split("@")[-1] not in CONSUMER_MAIL:
+            notes.append("organisational address — a work identifier, "
+                         "the kind a B2B file is keyed to")
+        if e.lower() in closed:
+            notes.append("closed mailbox — a search key only, not a reply address")
+        return e + ("   (" + "; ".join(notes) + ")" if notes else "")
+
+    email_lines = [annotate(e) for e in emails]
 
     profiles = p.get("public_profiles") or []
     if profiles:
