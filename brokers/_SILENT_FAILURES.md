@@ -7385,3 +7385,87 @@ distinction but not obviously a sufficient one. That is a judgement about someon
 else's data in someone else's repo, so it is flagged rather than taken.
 
 **Related:** §132, §133.
+
+## §135
+
+**A suppression keyed to where I live now.**
+*Intelius / InstantCheckmate / TruthFinder / USSearch — 27 Aug 2026*
+
+Four confirmations in one action, and the most honest paragraph a people-search
+service has sent this project:
+
+> "background reports are compiled in real time via live calls to data
+> providers... Because we don't retain reports, we cannot delete them."
+
+That is the whole model stated plainly. The site is not a database with my record
+in it; it is a query engine that assembles a report on demand from other people's
+data. So "delete" is not available, "suppress" is, and they said which one they
+were doing instead of letting the word do the lying. Recorded as `confirmed` on
+that basis, with the architecture written into the note rather than lost.
+
+**Then look at what the suppression actually covers.**
+
+The confirmation enumerates it: full name, **one** phone number, **one** home
+address, and **four** email addresses. My request listed twelve email addresses,
+sixteen prior addresses and eleven prior telephone numbers. Eight emails, every
+prior address and every prior phone number are simply not in the list.
+
+The two readings are not equivalent and cannot be told apart from outside:
+
+- **searched, matched only these** — the others genuinely appear in no record; or
+- **only these became suppression keys** — the others were never entered.
+
+**Why the architecture makes this decisive rather than pedantic.** On a system
+that holds stored records, a deletion that misses an identifier still removes the
+row, and the missed key is a loose end. On a system that compiles live, there is
+no row. The only thing standing between a searcher and a freshly-assembled report
+is whether their search term is in the suppression key set.
+
+And a third party looking someone up on a people-search site **does not search the
+current address.** They search a former one — an old town, a maiden name, a
+disconnected number. That is what the product is *for*. So a suppression keyed to
+where I live now is keyed to the one identifier least likely to be used against
+me, and the sixteen prior addresses that make up the actual attack surface are the
+ones absent from the list.
+
+**The burden inversion, stated politely.** Their message closes with:
+
+> "If you see other identifying information about you displayed on those sites,
+> please identify the additional information and where it appears"
+
+Offered helpfully, and it is a genuine offer. But the test it proposes is: search
+for yourself on four people-search sites, repeatedly and indefinitely, and report
+back. That is simultaneously the activity the request exists to prevent and a far
+worse test than the one they can run internally against their own key set in a
+second. Replied by filing the report *in advance* — every identifier, before the
+leak rather than after it.
+
+**One sibling left outside.** The same message applies the suppression across four
+brands in one step and then carves out a fifth:
+
+> "You will need to reach out directly to Classmates for assistance with any
+> removal from their site (206) 301-5700."
+
+Classmates is the same corporate family. "Same corporate family" was the stated
+reason the other four were covered, and the same fact ought to cut the same way.
+A telephone remedy for one sibling where the other four took a single email is
+either a separate data store — a real answer — or a routing convention, in which
+case the person inside the company is far better placed to route it than I am.
+Asked which; recorded as `manual_required` meanwhile.
+
+**The ask that matters most.** If they hold no reports and call providers live,
+the providers are where the data is, and they are one of the very few parties who
+know which ones they call. Asked for the **categories of data provider** — no
+contract terms, nothing commercially sensitive, just the level of detail their own
+privacy disclosures already use. A display suppression is worth having. By their
+own description it leaves the source untouched, and the source is the only place a
+deletion can happen.
+
+**Generalising: a confirmation should be read as a key list, not a verdict.** The
+useful question is never "did they say yes". It is *which identifiers did the yes
+attach to* — and a confirmation that enumerates its own scope, as this one did, is
+doing you a favour by making that answerable at all. Most do not enumerate, which
+means most have this same gap and no way to see it.
+
+**Related:** §131 (a right gated behind a key the data outlived), `_DEFLECTIONS.md`
+§68, `brokers/peopleconnect.md`.
