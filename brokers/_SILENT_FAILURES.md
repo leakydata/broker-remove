@@ -6593,6 +6593,39 @@ throw away the more interesting question, which is whether they keep it. Re-chec
 after the window closes. If it is still listed then, this is a `confirmed` that did
 not hold, at the broker with the strongest reappearance reputation in this file.
 
+### The re-check, 2026-08-27: it did not hold
+
+Checked five minutes after the 24-hour window closed. **Still listed.** The search
+returns *"3 people found"*, and the city facet has if anything grown — it now lists
+the current town alongside six others, and those six are towns from the prior-address
+list, in the order that list runs. Essentially the whole address history, rendered as
+a filter.
+
+So `radaris` is downgraded from `confirmed` to `submitted`, and it is **the first
+confirmed status in this project demonstrated not to have held.**
+
+Two things make that worth more than one broker's failure:
+
+**It was only findable because someone looked.** The confirmation email was
+unambiguous, dated, and wrong. Nothing in the correspondence would ever have revealed
+it — no bounce, no refusal, no silence. The tracker would have carried `confirmed`
+indefinitely, and every summary count would have included it as a win. **A status
+derived from what a company said is a claim; only a search is evidence.**
+
+**And it retroactively weights the deletion-versus-suppression question.** That
+question has been asked of nearly every broker on the theory that a deletion without
+forward-looking suppression is undone at the next ingest. This is the first
+observation consistent with that theory actually happening — which is why the
+follow-up asks it directly rather than simply re-filing the request, and offers
+Radaris the out of saying plainly that suppression is not something they do.
+
+**The methodological rule:** re-check every `confirmed`, and re-check it *after* the
+broker's own stated window rather than before. Being scrupulous about their timing is
+what makes the result usable — a check run early proves nothing and forfeits the
+argument.
+
+**Related:** §90, §119, §123, `_DEFLECTIONS.md` §64.
+
 **Nuwber.** The search URL returns **HTTP 403** to an ordinary request. That is bot
 protection, not an answer. Recorded as *verification blocked*, because **a 403 is not
 evidence of removal** and recording it as one would manufacture a clean result out of
