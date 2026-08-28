@@ -8040,6 +8040,26 @@ upstream direction were applied. Those are policy statements in a macro, not
 confirmations. Status stays `submitted`, and the follow-up asking them to name the
 sources has demonstrably not been read by anyone.
 
+**One refinement, from Datonics the next morning.** Their
+`privacy+noreply@datonics.com` autoresponder also fires on every inbound message,
+and it fired again on the reply to them — identical text, exactly the pattern
+described above. But a **human at `privacy@datonics.com` answered as well**, two
+days later, with a specific claim about that request.
+
+So the probe detects *"there is a macro"*, not *"there is only a macro"*. Those are
+different findings and the second is the one that matters. The distinguishing
+question is not whether the identical text came back, but whether **anything else
+did**:
+
+| | autoresponder | human reply |
+|---|---|---|
+| Innovative Database Solutions | yes, on both messages | none |
+| Datonics | yes, on both messages | yes, separately |
+
+A macro alongside a working desk is ordinary and harmless. A macro *instead of* a
+desk is the wall. Give it the time a real reply would take before concluding which
+one you are looking at.
+
 **Related:** §137 (the identical macro as a tell), §138, §142.
 
 
