@@ -1229,6 +1229,11 @@
     "changed": "2026-08-28",
     "via": null
   },
+  "data_marketing_solutions": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": "email"
+  },
   "data_trust": {
     "status": "submitted",
     "changed": "2026-08-28",
@@ -2154,6 +2159,11 @@
     "changed": "2026-08-28",
     "via": null
   },
+  "hubspot": {
+    "status": "manual_required",
+    "changed": "2026-08-28",
+    "via": "email"
+  },
   "hybrid_theory": {
     "status": "submitted",
     "changed": "2026-08-28",
@@ -2165,6 +2175,11 @@
     "via": "email"
   },
   "id5": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": "email"
+  },
+  "id_analytics": {
     "status": "submitted",
     "changed": "2026-08-28",
     "via": "email"
@@ -2203,6 +2218,11 @@
     "status": "submitted",
     "changed": "2026-08-28",
     "via": null
+  },
+  "idology": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": "email"
   },
   "idstrong": {
     "status": "submitted",
@@ -2377,7 +2397,7 @@
   "intranet_quorum": {
     "status": "submitted",
     "changed": "2026-08-28",
-    "via": null
+    "via": "email"
   },
   "iowa_arrests": {
     "status": "submitted",
@@ -2458,6 +2478,11 @@
     "status": "submitted",
     "changed": "2026-08-28",
     "via": null
+  },
+  "kalibrate": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": "email"
   },
   "kansas_arrests": {
     "status": "submitted",
@@ -2554,6 +2579,11 @@
     "changed": "2026-08-28",
     "via": "email"
   },
+  "lead_enhance": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": "email"
+  },
   "lead_me_media": {
     "status": "submitted",
     "changed": "2026-08-28",
@@ -2566,6 +2596,11 @@
   },
   "leadiq": {
     "status": "not_found",
+    "changed": "2026-08-28",
+    "via": "email"
+  },
+  "leadloft": {
+    "status": "submitted",
     "changed": "2026-08-28",
     "via": "email"
   },
@@ -2589,6 +2624,16 @@
     "changed": "2026-08-28",
     "via": "email"
   },
+  "learnmore": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": "email"
+  },
+  "leidos_digital_solutions": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": "email"
+  },
   "lexisnexis": {
     "status": "submitted",
     "changed": "2026-08-28",
@@ -2599,10 +2644,30 @@
     "changed": "2026-08-28",
     "via": null
   },
+  "lg_ads_solutions": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": "email"
+  },
   "licensefiles": {
     "status": "not_found",
     "changed": "2026-08-28",
     "via": "reply"
+  },
+  "lifesight": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": "email"
+  },
+  "liftengine": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": "email"
+  },
+  "lightbox_parent_l_p": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": "email"
   },
   "lighthouse_list": {
     "status": "not_found",
@@ -2614,12 +2679,22 @@
     "changed": "2026-08-28",
     "via": "email"
   },
+  "liminal_ifish_digital_lead_lure": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": "email"
+  },
   "lionshare": {
     "status": "submitted",
     "changed": "2026-08-28",
     "via": "email"
   },
   "list_service_direct": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": "email"
+  },
+  "listkit": {
     "status": "submitted",
     "changed": "2026-08-28",
     "via": "email"
@@ -2656,6 +2731,11 @@
   },
   "lizdev": {
     "status": "not_found",
+    "changed": "2026-08-28",
+    "via": "email"
+  },
+  "lob_com": {
+    "status": "submitted",
     "changed": "2026-08-28",
     "via": "email"
   },
@@ -2766,6 +2846,11 @@
   },
   "mch": {
     "status": "manual_required",
+    "changed": "2026-08-28",
+    "via": "email"
+  },
+  "media_direct": {
+    "status": "submitted",
     "changed": "2026-08-28",
     "via": "email"
   },
@@ -2934,6 +3019,16 @@
     "changed": "2026-08-28",
     "via": "reply"
   },
+  "n_a": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": "email"
+  },
+  "narvar": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": "email"
+  },
   "national_public_data": {
     "status": "confirmed",
     "changed": "2026-08-28",
@@ -2960,6 +3055,11 @@
     "via": "reply"
   },
   "netwise": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": "email"
+  },
+  "neustar": {
     "status": "submitted",
     "changed": "2026-08-28",
     "via": "email"
@@ -3045,6 +3145,16 @@
     "via": "web"
   },
   "njpropertyrecords": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": "email"
+  },
+  "no": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": "email"
+  },
+  "none": {
     "status": "submitted",
     "changed": "2026-08-28",
     "via": "email"
@@ -3144,6 +3254,11 @@
     "changed": "2026-08-28",
     "via": "web"
   },
+  "optimal": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": "email"
+  },
   "oracle_datacloud": {
     "status": "submitted",
     "changed": "2026-08-28",
@@ -3158,6 +3273,11 @@
     "status": "submitted",
     "changed": "2026-08-28",
     "via": null
+  },
+  "ourstates": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": "email"
   },
   "outbrain": {
     "status": "submitted",
@@ -3175,6 +3295,11 @@
     "via": "email"
   },
   "outward_media": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": "email"
+  },
+  "owneriq": {
     "status": "submitted",
     "changed": "2026-08-28",
     "via": "email"
@@ -3604,8 +3729,18 @@
     "changed": "2026-08-28",
     "via": null
   },
+  "rainbarrel": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": "email"
+  },
   "rampedup": {
     "status": "manual_required",
+    "changed": "2026-08-28",
+    "via": "email"
+  },
+  "rategain_adara": {
+    "status": "submitted",
     "changed": "2026-08-28",
     "via": "email"
   },
@@ -4004,6 +4139,11 @@
     "changed": "2026-08-28",
     "via": null
   },
+  "solar_direct_marketing": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": "email"
+  },
   "sourceit": {
     "status": "confirmed",
     "changed": "2026-08-28",
@@ -4129,6 +4269,11 @@
     "changed": "2026-08-28",
     "via": "email"
   },
+  "tandem_marketing": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": "email"
+  },
   "tapad": {
     "status": "manual_required",
     "changed": "2026-08-28",
@@ -4200,6 +4345,11 @@
     "via": null
   },
   "tl1": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": "email"
+  },
+  "tovodata": {
     "status": "submitted",
     "changed": "2026-08-28",
     "via": "email"
@@ -4394,6 +4544,11 @@
     "changed": "2026-08-28",
     "via": "email"
   },
+  "verve_for_advertisers": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": "email"
+  },
   "viant": {
     "status": "submitted",
     "changed": "2026-08-28",
@@ -4478,6 +4633,11 @@
     "status": "submitted",
     "changed": "2026-08-28",
     "via": "reply"
+  },
+  "wholesale_mail": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": "email"
   },
   "windfall": {
     "status": "submitted",
