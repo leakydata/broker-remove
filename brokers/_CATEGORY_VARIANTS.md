@@ -393,6 +393,58 @@ a misattributed criminal record is worth finding out about.
 Records refresh from bulk public-record feeds, so suppression matters more here
 than almost anywhere: a one-time removal reappears at the next import.
 
+## Skip tracing  (e.g. Kind Skiptracing)
+
+The customers are debt collectors, process servers, repossession agents, bail
+bondsmen, investigators and increasingly landlords. The product is locating a
+person who has not been findable by ordinary means. That makes four things worth
+asking that the standard letter does not reach.
+
+**1. Stored file, or compiled at query time?** This decides whether a deletion
+means anything. If the file is assembled on demand from credit header data,
+utility and telecom connections, public records and other brokers' APIs, there may
+be nothing stored to delete — and a deletion confirmation would be *true and
+worthless at the same time*, with the next search returning the person exactly as
+before. Ask which architecture it is, say plainly that "we compile at query time"
+is a complete answer, and name the substitute you want if it is: **suppression
+applied at query time**, plus the upstream source names so you can go to them
+directly.
+
+**2. The access log — who has looked you up.** This is the ask specific to the
+category and probably the most valuable thing in the letter. For a skip tracing
+service the search log is not incidental: it records *who has been trying to find
+this person, when, and on what stated basis*. Request, under the right of access,
+the date of each search, the customer or **category** of customer, the permissible
+purpose claimed, and what was returned. Offer the fallback yourself — categories
+and dates without customer names is still substantive — and say that a **nil
+result against the named identifiers is a real answer**, because by §138 it is
+something only this request could have produced.
+
+**3. Which framework, asked neutrally.** Either they treat output as a consumer
+report under the FCRA, in which case also request the **§ 609 file disclosure and
+the list of everyone who has obtained it**; or they take the non-FCRA position, in
+which case the state consumer privacy statutes apply *without* the FCRA exemption
+and the request stands in full. The positions are exclusive. Raise both so
+whichever applies does not cost a round trip. Ask separately whether any data
+derives from **credit header** records and from which agency, so the source can be
+approached too.
+
+**4. Whether a consumer suppression list exists at all.** Ask it as a yes/no, and
+ask whether it is honored across every product and every customer or only some.
+The reason to ask bluntly: a service whose function is defeating someone's efforts
+not to be located is one where **the ability to be excluded is the only protection
+the searched-for person has**, and the person who most needs it is the least
+likely to know it exists. "We have no such mechanism" is a more useful answer than
+a confirmation implying a protection that is not offered.
+
+**On the identifiers.** Prior addresses and disconnected numbers matter more here
+than anywhere: a skip trace is built precisely out of that trail, so a search
+scoped to current details misses the part of the file that makes it a skip trace.
+But note the §144 tension is sharpest in this category — writing to a
+people-locating company hands it a fuller identifier set than most of its searches
+start with. Send the list, and ask them explicitly to be particular about the
+retention clause.
+
 ## Real-estate investor lead platforms  (e.g. Connected Investors)
 
 Identify property owners and sell owner contact details and "motivated seller"
