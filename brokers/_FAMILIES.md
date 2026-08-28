@@ -1134,3 +1134,49 @@ addresses on two different domains:
 catches two brokers sharing a mailbox and cannot catch one company holding two.
 A rename or an acquisition produces exactly the second shape, and the evidence for
 it is rarely in the registry — here it was in a signature.
+
+
+## Neustar / TransUnion — one privacy desk, two registrations, three request channels
+
+**Confirmed 28 Aug 2026, from the reply's sender address.** A letter to
+`privacy@team.neustar` was answered by *"TRANSUNION'S PRIVACY SUPPORT TEAM"* from
+**`NS_privacy@transunion.com`** — the `NS_` prefix being Neustar. TransUnion
+acquired Neustar in 2021 and now runs its privacy function.
+
+| id | domain | address written to |
+|---|---|---|
+| `neustar` | home.neustar | `privacy@team.neustar` — answered from TransUnion |
+| `transunion` | transunion.com | `privacy@transunion.com` |
+
+Two separate California registrations, both written to. Same open question as ISS
+Governance / ISS Market Intelligence: **does one search cover both, or do the
+Neustar identity-graph systems need their own?** Asked; unanswered so far.
+
+### The part that generalises
+
+TransUnion's autoresponder is better than most and repays reading rather than
+filing:
+
+- It says **"no further action is needed from you"** — the emailed request is
+  accepted, not deflected to a portal. Rarer than it should be.
+- It warns that **every reply to the mailbox regenerates the same macro.** Openly
+  stating the loop is unusual and saves a wasted send; do not expect a human on a
+  reply.
+- It **partitions the request into three channels**: general consumer privacy,
+  *"Subject line: HR"* for employee and applicant data, and *"Subject line: B2B"*
+  for data collected from business customers and their representatives.
+
+That third point is the actionable one, and it is easy to read past. **A general
+consumer request does not reach the B2B records** — the company has said so, in
+the act of telling you how to ask. Since the CCPA's business-to-business carve-out
+sunset on 1 January 2023, that data is squarely in scope, and for a common name it
+is exactly where a wrong professional record accumulates.
+
+So: send the separately tagged request. It is not a duplicate — it is a different
+data category the company has partitioned itself. Skip the HR channel unless the
+person was actually an employee or applicant; asking anyway invites a search for
+records that cannot exist.
+
+**Worth checking elsewhere:** any autoresponder that enumerates several request
+types is describing the boundaries of its own searches. Read the list as a map of
+what the default request will *miss*.
