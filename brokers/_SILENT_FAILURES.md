@@ -8472,3 +8472,71 @@ to make unilaterally while a rebase is open.
 **Related:** §133 (a count that dropped rows it did not recognise), §139 (record
 what produced the record), §141 (the Sent-vs-registry diff, and its blind spot);
 `scripts/sync_status.py`.
+
+
+---
+
+## §148
+
+**A send cap only counts what it can see.**
+*28 Aug 2026, immediately downstream of §147*
+
+Having merged the shared ledger, the next `queue_batch` refused to run:
+
+```
+daily cap reached (125/120 sent today) - stop sending until tomorrow
+```
+
+That is the correct answer, and it had been wrong all morning.
+
+### The arithmetic
+
+Of the 125 sends counted for today, **63 were this session's and 62 were the cloud
+session's**, adopted an hour earlier by `sync_status.py --merge`. Before that merge
+each agent counted only its own, so each saw roughly half the real figure and each
+believed it had most of a 120-letter budget left.
+
+The number was checked rather than assumed, because a merge stamps adopted rows
+with the date it ran and that would inflate the count with letters sent on earlier
+days. It does not here — the shared ledger's own `changed` field says
+**2026-08-28 for all 62**. They really were sent today.
+
+So the cap is not firing early. It is firing **five letters late**: the two agents
+between them have already exceeded a limit neither could see itself approaching.
+
+### Why this is the same failure as §147, one layer down
+
+`sync_status.py`'s docstring predicted it in as many words — *"today that produced
+a duplicate letter to one broker and a daily send cap counted twice"* — and the
+duplicate letter got the attention because a duplicate is visible. The miscounted
+cap is not visible. Nothing announces it. Each agent's own arithmetic is correct
+and the conclusion drawn from it is false, which is the shape this whole file is
+about.
+
+> A rate limit computed from a private view of a shared resource does not limit
+> the resource. It limits one participant's belief about the resource.
+
+The overshoot itself is small and harmless — 125 against a self-imposed 120, well
+under what the mailbox actually permits, and the cap exists to protect sender
+reputation rather than to satisfy a rule. The instructive part is that **the number
+was wrong in the direction that does not hurt until it does.** Two agents at half
+visibility each would have been equally happy at 200.
+
+### What follows
+
+- **Merge before counting, not after sending.** The cap is only meaningful
+  downstream of `sync_status.py --merge`, so that merge belongs at the top of a
+  tick — the same conclusion §147 reached from the duplicate-send direction,
+  arrived at again from the rate-limit direction. Two independent reasons for one
+  habit is worth noting.
+- **Replies are still available.** `queue_batch` deliberately excludes `via=reply`
+  from the count, on the reasoning that a message into an existing thread costs the
+  recipient nothing new. So a capped day still permits follow-ups, and today's
+  remaining work is follow-ups, handoffs and writing — not first contact.
+- **Stop at the cap even though it was reached by surprise.** The temptation on
+  discovering the count was wrong is to relitigate the limit. The limit is a proxy
+  for sender reputation, the proxy has now been measured correctly for the first
+  time, and the honest reading is that the day is done.
+
+**Related:** §147 (the shared ledger, and not looking for it), §141 (the
+Sent-vs-registry diff and its single-session blind spot); `scripts/sync_status.py`.
