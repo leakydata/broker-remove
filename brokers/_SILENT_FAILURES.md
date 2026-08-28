@@ -7994,3 +7994,51 @@ since an address-keyed list cannot catch a generated `first.last@employer`
 construction the subject has never owned and cannot list.
 
 **Related:** §135, §138, §140, `brokers/bookyourdata.md`.
+
+### Correction, forty minutes later: it was a macro after all
+
+The follow-up above was sent. **The reply came back byte-identical** — same three
+paragraphs, same architectural claim, same "No further action is needed on your
+part", 42 seconds later, quoting a completely different letter. It is an
+autoresponder that fires on every inbound message.
+
+So the reading above is wrong in its central claim, and the way it is wrong is
+worth more than the original entry.
+
+**I applied §138's test and got it backwards.** §138 says a confirmation is
+corroborated when it contains *something only the work could have produced*. I
+treated "we operate as a reselling intermediary and hold no persistent database"
+as passing that test, because it is specific, non-obvious and architecturally
+revealing.
+
+But it is a fact about **the company**, not about **this request**. It is equally
+true of every person who writes to them, which makes it exactly the kind of thing
+a template contains. The sharper form of the rule:
+
+> **Corroboration requires something only *this request* could have produced** — an
+> itemised match list, a per-right split, a nil result against named identifiers, a
+> figure that had to be counted. Not a fact about the company, however specific,
+> because a company can put a true and interesting sentence in a macro and it stays
+> a macro.
+
+A template can be honest, informative and worth reading. It still says nothing
+about whether anyone looked.
+
+**The cheap general probe, discovered by accident here: send a second, different
+message and see whether the reply changes.** Infutor (§142) auto-replied *"this is
+not a valid channel"* — annoying but honest, and self-identifying. This
+autoresponder is the harder case: it looks like an answer, commits to actions, and
+is indistinguishable from a real reply until a second message returns the same
+text. One extra round trip settles it.
+
+**What actually stands, and what does not.** The architectural claim may well be
+true — nothing here contradicts it, and a pass-through reseller is a real business
+shape. The *leverage* argument in §143 also stands on its own terms: if they hold
+nothing at rest, the sources are where the data lives. What does **not** stand is
+the claim that any of it was said *to this request*, or that the exclusion and
+upstream direction were applied. Those are policy statements in a macro, not
+confirmations. Status stays `submitted`, and the follow-up asking them to name the
+sources has demonstrably not been read by anyone.
+
+**Related:** §137 (the identical macro as a tell), §138, §142.
+
