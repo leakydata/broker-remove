@@ -8895,3 +8895,92 @@ is.
 
 **Related:** §97 (DROP, California residents only), §138, §149a (the registry is a
 directory, not a doorway); `_FAMILIES.md` on ListMatch's supplier list.
+
+
+---
+
+## §152
+
+**A duplicate storm turned out to be an enumeration, and it audited the other agent.**
+*Wodwo — 28 Aug 2026*
+
+Wodwo sent **five** acknowledgements in twenty-eight seconds. The obvious reading is
+a mail loop, and the obvious response is to note it as noise and move on. The
+message sizes differed slightly — 21990, 21969, 21970, 21976, 21957 bytes — which
+was the only reason to look further.
+
+Each names a **different email address**:
+
+```
+"Your privacy request for [address 1] has been received"
+"...for [address 2]..."
+"...for [address 3]..."
+"...for [address 4]..."
+"...for [address 2]..."            <- repeat of the second
+```
+
+Four distinct addresses, one duplicated. **Wodwo's intake emits one acknowledgement
+per identifier it parsed** — which makes the storm an accidental instance of §139
+enumeration. Their system is telling you exactly what it read.
+
+### And what it read was not the whole letter
+
+The identifier set for this subject is **twelve** email addresses. Wodwo
+acknowledged four. The natural first suspicion is that their parser truncated.
+
+It didn't. The four it named are *precisely* the four in the letter it received —
+verified against the full text quoted back in two other replies the same morning
+(Inmar/OwnerIQ and Datasys/Media Direct), both of which show:
+
+```
+Email addresses: [four addresses, all at one consumer mail provider]
+```
+
+— where the project's full set is twelve, spanning six providers including
+three that no longer exist.
+
+So Wodwo parsed correctly and completely. **The shortfall is upstream.** Those
+letters were sent by the cloud session (§147), whose template carries a reduced
+identifier block: four of twelve email addresses, and — in both verified samples —
+**none of the sixteen prior addresses and none of the eleven prior phone numbers.**
+
+The same letters contain this sentence:
+
+> *"This request covers records associated with ANY of the identifiers listed above
+> — every email address, every prior address, and every prior telephone number, not
+> only the current ones. Please search each of them."*
+
+The letter promises lists it does not contain. A recipient acting on it in perfect
+good faith searches four keys and reports honestly that it found nothing.
+
+### Why this matters more than it sounds
+
+The project's whole method rests on one claim, repeated in every letter and
+justified at length: **records are held against details a person no longer uses.**
+Prior addresses and disconnected numbers are not padding — for an address-keyed
+file they are the search. A letter that drops them is asking the wrong question
+politely.
+
+And the failure is silent in both directions. The broker cannot know identifiers
+were withheld. The tracker records `submitted` either way. The only reason this
+surfaced is that one company happened to acknowledge per-identifier, and happened
+to do it five times, and the byte counts happened to differ.
+
+> **A confirmation is scoped by what the letter contained, and nothing downstream
+> records that scope.** Two letters to the same broker, one with twelve keys and
+> one with four, produce identical-looking `submitted` rows and identical-looking
+> "no records found" replies.
+
+### Not fixed here
+
+The cloud session's template is not this session's to rewrite mid-flight — the same
+reasoning as §149's reverted registry change and the `is_role_address` whitelist
+left alone in §147. Flagged to the user, with the two verified samples named so the
+claim can be checked rather than taken on trust.
+
+What is worth doing regardless: **when a reply enumerates identifiers, diff the
+enumeration against what was actually sent.** It is the only free audit of letter
+quality available, and it arrives disguised as a duplicate.
+
+**Related:** §139 (enumeration reveals what the work was done on), §147 (two
+agents, divergent state), §148 (a measure computed from a private view).
