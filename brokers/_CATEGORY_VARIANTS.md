@@ -22,6 +22,22 @@ lowercased string) — identifier matching in advertising is routinely done on
 hashed email, so a plaintext-only search can miss everything.
 
 ## Direct mail / list rental  (e.g. 360 Media Direct)
+
+**The industry-wide levers come first.** Before writing to individual mailers, two
+registrations do more than any single letter, and a broker volunteered both:
+
+- **DMAchoice** (ANA/DMA mail preference service) — one registration most US direct
+  mailers subscribe to, lasting ten years. It is the postal analogue of California's
+  DROP, and **unlike DROP it is not state-restricted**, so it works for a consumer
+  in a state with no privacy statute (§151). A company cannot register on the
+  consumer's behalf; the individual must do it.
+- **optoutprescreen.com** — prescreened credit and insurance offers, free, and can
+  be made permanent by posting a signed form.
+
+Neither replaces the letters — a mailer that ignores DMAchoice is unaffected, and
+neither touches the compiled file itself — but they suppress the *output* across the
+industry while the letters work one company at a time.
+
 Ask for deletion **and** permanent internal suppression, and say explicitly that
 suppression is not a substitute for deletion. Acknowledge they may need to retain
 minimal data to honor suppression — that concession costs nothing and removes
