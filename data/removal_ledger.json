@@ -805,8 +805,8 @@
     "via": "web"
   },
   "car_market_solutions": {
-    "status": "submitted",
-    "changed": "2026-08-25",
+    "status": "unreachable",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "careerbuilder": {
@@ -4545,9 +4545,9 @@
     "via": "email"
   },
   "verve_for_advertisers": {
-    "status": "submitted",
+    "status": "manual_required",
     "changed": "2026-08-28",
-    "via": "email"
+    "via": "reply"
   },
   "viant": {
     "status": "submitted",
