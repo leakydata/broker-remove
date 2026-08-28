@@ -2735,9 +2735,9 @@
     "via": "email"
   },
   "lob_com": {
-    "status": "submitted",
+    "status": "manual_required",
     "changed": "2026-08-28",
-    "via": "email"
+    "via": "reply"
   },
   "local_crime_news": {
     "status": "not_found",
@@ -3150,14 +3150,14 @@
     "via": "email"
   },
   "no": {
-    "status": "submitted",
+    "status": "manual_required",
     "changed": "2026-08-28",
-    "via": "email"
+    "via": "reply"
   },
   "none": {
-    "status": "submitted",
+    "status": "manual_required",
     "changed": "2026-08-28",
-    "via": "email"
+    "via": "reply"
   },
   "north_carolina_arrests": {
     "status": "submitted",
@@ -4350,9 +4350,9 @@
     "via": "email"
   },
   "tovodata": {
-    "status": "submitted",
+    "status": "manual_required",
     "changed": "2026-08-28",
-    "via": "email"
+    "via": "reply"
   },
   "transunion": {
     "status": "submitted",

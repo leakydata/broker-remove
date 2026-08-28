@@ -1180,3 +1180,61 @@ records that cannot exist.
 **Worth checking elsewhere:** any autoresponder that enumerates several request
 types is describing the boundaries of its own searches. Read the list as a map of
 what the default request will *miss*.
+
+
+## Consumer Canvas / NielsenIQ — established from the autoresponder's own markup
+
+**Confirmed 28 Aug 2026, three independent tells in one automatic reply.** The
+registry carries `consumer_canvas` under the junk id `no` (a CA-registry parse
+artefact — the company is Consumer Canvas). Its autoresponder identifies the
+parent three separate ways:
+
+1. It says *"Consumer Canvas belongs to the group of companies listed here"* and
+   links to a **NielsenIQ** operating-entities page.
+2. The **press contact's `mailto:` href is at a `nielseniq.net` domain** while the
+   visible anchor text reads `info@consumercanvas.net`. That is exactly the SPLIT
+   href/text disagreement `discover_contacts.py` refuses to auto-resolve — here
+   the disagreement is the finding rather than a problem.
+3. The Outlook safelinks wrapper around their own form link carries a
+   `nielseniq.com` mailbox in its query string. (Not reproduced: it names an
+   individual employee, and this repository is public — §132.)
+
+None of the three is conclusive alone. Together they are, and the first is a
+plain statement.
+
+**Asked, unanswered:** does one search cover Consumer Canvas and the wider NielsenIQ
+group, or do the entities hold separate data needing separate letters? Same
+question as ISS Governance / ISS MI and Neustar / TransUnion.
+
+### The B2B channel, again
+
+Consumer Canvas's autoresponder sets out a separate route for
+**business-to-business client data**, requiring the subject line *"B2B Data Privacy
+Request"* — the same structure as TransUnion's, found the same morning.
+
+**Two independent instances in two hours makes this a pattern worth checking for
+by default.** A large company's privacy autoresponder frequently partitions its
+searches, and a general consumer request reaches only the consumer partition. The
+company tells you this in the act of explaining how to ask, which is easy to skim
+past as boilerplate.
+
+> Read every enumerated channel in an autoresponder as a **map of what the default
+> request will miss**, and send the extra letters. Skip only the ones that cannot
+> apply — an HR channel is irrelevant to someone who was never an employee, and
+> asking invites a search for records that cannot exist.
+
+### On the pseudonymisation claim
+
+*"**Most** of our records and Data Products contain only pseudonymized
+information."* Most, not all — so some are identifiable, and that minority is where
+the request has purchase. The reply accepts the majority claim entirely and asks
+only that the remainder be searched, plus the IQVIA question: does a pseudonym
+corresponding to this person exist, what is it derived from, and is that derivation
+re-derivable? *"We cannot locate a pseudonym from these identifiers"* is offered as
+a complete answer.
+
+The two claims in their reply sit oddly together, and saying so politely is the
+whole move: if the pseudonym cannot be resolved by anyone including them, the data
+is safer than assumed and that is worth having on the record; if a client's
+matching key resolves it, then "not linked to your identifying information"
+describes a lock, not the absence of a door.
