@@ -8223,3 +8223,139 @@ this one is closer to a company that has stopped existing without deregistering.
   settles a mailbox is sending to it.
 
 **Related:** §64, §65, §68, §85, §86, §109; the VenPath entry above.
+
+
+---
+
+## §146
+
+**Which right is free tells you where the mechanism lives.**
+*Kargo Global, and Koddi alongside it — 28 Aug 2026*
+
+Two adtech companies answered within seconds of each other this morning, both
+with macros, both pointing at a portal. The macros are unremarkable. What Kargo's
+portal says once you read it is not, and it gives a **diagnostic that works
+without asking anyone anything.**
+
+### The asymmetry
+
+Kargo's privacy portal offers two rights on completely different terms:
+
+| Right | What it requires |
+|---|---|
+| Opt out of sale / sharing / targeted advertising | **Nothing.** Tick a box. |
+| Access or delete | A **Digital Identifier** — a `ktcid`, `krg_uid` or `krg_crb` cookie, an IDFA, an Android advertising ID, or a CTV ad ID |
+
+That gap is not arbitrary and it is not a policy choice. It is a description of
+the plumbing:
+
+> **The opt-out is free because it does not touch their data. The access request
+> is gated because it does.**
+
+Ticking the box writes a cookie into *my* browser. Nothing on their side needs to
+know who I am, because nothing on their side changes. Their own page confirms it
+without meaning to — *"your opt-out choice applies only to the specific browser or
+device you're using. You'll need to opt out separately for each browser and
+device."* An opt-out that is per-browser is an opt-out that lives in the browser.
+It dies when cookies are cleared, and it never existed as a record anywhere else.
+
+Reaching the *data*, by contrast, needs the key the data is filed under. Hence the
+gate. **So the price of each right is a read-out of where that right is
+implemented**, and it can be read off any adtech privacy portal in about thirty
+seconds. Wherever the opt-out is free and the access request is not, expect the
+opt-out to be client-side and worth roughly what a cookie is worth.
+
+### Two of the four keys cannot be obtained at all
+
+This is where the portal stops being merely revealing and becomes circular. It
+tells the consumer to "follow instructions from your device manufacturer" to find
+their advertising identifier. Those instructions do not exist:
+
+- **iOS never displays the IDFA.** App Tracking Transparency is a per-app
+  permission prompt, not a value. No Settings screen reveals it.
+- **Recent Android replaced the ad-ID display with a control that *deletes* it.**
+  The operating system offers to destroy the key rather than show it.
+
+Same structural fact as §140 (Fog), reached from the other direction: there, a
+suppression was keyed to an identifier that rotates; here, an access right is
+keyed to identifiers the platform vendors have deliberately made invisible.
+
+The cookie is the one key a determined person *can* extract — and it is the wrong
+one:
+
+- **The profile is older than any cookie now held.** Every clear, expiry or
+  browser reinstall broke the association and started a new one. Each earlier
+  record is about the same person and is now unreachable by anybody, including the
+  company. A request keyed to today's cookie reaches the most recent fragment and
+  nothing before it.
+- **To hold a Kargo cookie you must first have been tracked by Kargo.** Block
+  third-party cookies, or clear them, and you have no key — and therefore no way
+  to ask what is held about you. *The strongest privacy hygiene locks you out of
+  the privacy right.*
+
+### Koddi: a requirement that is not hard but incoherent
+
+Koddi's macro arrived two seconds after the letter and refuses email outright
+("we are unable to accept privacy rights requests via email"), pointing at a
+OneTrust webform. Inside it, three conditions:
+
+1. They "do not process consumer information submitted as ... **unhashed names**."
+2. They do not process "**Alias Email addresses**."
+3. They require "the specific email address associated with your **digital
+   commerce activities**."
+
+The first is not a high bar — it is an **unmeetable** one. A hash is a match key
+only when both sides derive it identically: same normalisation of case,
+whitespace, punctuation and name order, plus any salt. A consumer knows none of
+that, so a self-hashed name would not match, and **neither party could distinguish
+"no record" from "hashed differently."** The charitable reading is that the
+sentence means *"our data is keyed to hashed values, so a plaintext name is not a
+search key we can use"* — true, reasonable, and a different statement. One
+describes a limit of their systems; the other declines the request.
+
+The third is §131 exactly: the key was created when a retailer hashed an address
+and passed it on, in a transaction between two companies that the consumer was
+never told about. **Only Koddi and its source hold it.** Asking the consumer to
+supply it conditions a statutory right on a guess, and a wrong guess returns "no
+records found" — which is indistinguishable from success.
+
+The second lands on the privacy-conscious specifically. A rule excluding relay and
+masked addresses excludes the population most likely to be exercising these rights
+in the first place.
+
+### What was done
+
+Both got a follow-up rather than a shrug, because in both cases there is a
+question that is answerable and worth the answer:
+
+- Kargo: does the checkbox write anything server-side, or is it purely a cookie?
+  And is a Digital Identifier the **only** searchable key — no hashed email, no
+  UID2 / RampID / ID5 / publisher ID, no IP-plus-user-agent history? Both letters
+  said plainly that a nil result against the supplied identifiers is a complete
+  answer.
+- Koddi: which of the two readings of "unhashed names" is meant, what counts as an
+  alias, can the form search all twelve addresses or only one — and, procedurally,
+  **is an emailed request recorded as received or discarded?**
+
+Kargo's handoff is filed as a **decision, not a form.** Reading a `ktcid` out of a
+browser and mailing it is the only route they offer — and it hands an adtech
+company a fresh, dated link between a named person and a live tracking cookie.
+That is §144 at its strongest, and it should not be done reflexively just because
+it is the only door.
+
+### The rules
+
+- **Compare the price of the two rights.** Free opt-out plus gated access means
+  the opt-out is client-side. No correspondence required to work that out.
+- **A per-browser opt-out is a cookie.** Say so in the notes; do not record it as
+  a suppression.
+- **Distinguish "we decline to process X" from "X is not a key we can search."**
+  They read alike and mean opposite things — one is a refusal, the other is an
+  answer.
+- **Do not hand over a device identifier reflexively.** §144 applies hardest
+  exactly where the identifier is the only accepted key.
+
+**Related:** §131 (a key only the company holds), §138 (what makes an answer
+corroborated), §140 (Fog, rotating keys), §143 (the two-second macro), §144
+(the letter creates the record); `_CATEGORY_VARIANTS.md` "Do not hand over a
+device identifier to establish that one is not held".
