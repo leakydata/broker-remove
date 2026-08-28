@@ -8359,3 +8359,116 @@ it is the only door.
 corroborated), §140 (Fog, rotating keys), §143 (the two-second macro), §144
 (the letter creates the record); `_CATEGORY_VARIANTS.md` "Do not hand over a
 device identifier to establish that one is not held".
+
+
+---
+
+## §147
+
+**I rebuilt a tool that was already in the repository.**
+*Reconciliation — 28 Aug 2026*
+
+This section was drafted once, confidently, and was wrong. Both versions are worth
+keeping in mind, because the gap between them is the finding.
+
+### What it looked like
+
+A routine tick found autoresponders from six companies this session had never
+written to. The Sent folder held **about twenty-five letters sent between 10:19 and
+10:36 UTC that this session did not send.** All twenty-six matching rows in
+`removal_status.json` still read `pending`, so `queue_batch` would have handed
+those brokers straight back and a second letter would have gone to every one.
+
+The investigation was careful and the facts were all correct:
+
+```
+this session's last send   10:08 UTC      tracker mtime        10:09 UTC
+unexplained sends          10:19-10:36    local claude procs   1 (this session's own parent)
+crontab -l                 none           CronList             no scheduled jobs
+```
+
+Conclusion drawn: something with access to this mailbox is running elsewhere,
+unidentifiable from here. Sending was stopped, and all twenty-six rows were
+reconciled by hand from the Sent folder, matching recipient against registry
+`email_to`.
+
+### What was actually true
+
+The `git push` was rejected. Fetching showed three commits from
+`Claude <noreply@anthropic.com>`, one of them titled *"recover 8 sends missing from
+the shared ledger"*.
+
+**The shared ledger.** `data/removal_ledger.json`, tracked in git, 943 rows. It
+already contained every broker in my hand-reconciled list — and my own morning's
+work too, adopted from the playbooks I had committed:
+
+```
+tovodata          submitted  2026-08-28   (theirs)
+lob_com           submitted  2026-08-28   (theirs)
+iqvia             submitted  2026-08-28   (mine, adopted from the playbook)
+koddi             manual_required         (mine, adopted)
+```
+
+And `scripts/sync_status.py` exists to move exactly this information. Its
+docstring, written before today, opens:
+
+> *Two agents are working this project — a local session and a scheduled cloud one
+> — and they cannot see each other ... Today that produced a duplicate letter to
+> one broker and a daily send cap counted twice.*
+
+The problem was known. The cause was known. The fix was written, committed, and
+sitting one command away. **`./sync_status.py --merge` would have adopted all
+twenty-six rows in one line**, with no Gmail archaeology and no hand-authored
+notes — and running it at the *start* of the tick would have meant never
+discovering the anomaly at all, because there would not have been one.
+
+### Why the investigation did not find it
+
+Every check ran against the machine — processes, crontab, systemd, `CronList`,
+`ListAgents`. All returned nothing, and the nothing was accurate: the other agent
+is a **scheduled cloud session**, which none of those can see. The reasoning was
+sound and the conclusion — "running elsewhere, cannot identify it from here" —
+was even true.
+
+It was just the wrong question. **The evidence was not on the machine, it was in
+the repository:** one `git fetch` would have shown three commits from another
+Claude naming the shared ledger in a subject line. A `grep -l ledger scripts/`
+would have found the tool. Neither was run, because the anomaly was framed as *an
+unknown process* rather than *a state this project might already handle*.
+
+> The instinct on finding a surprising failure is to investigate the failure. The
+> cheaper first move is to ask whether the repository already knows about it —
+> the answer is in a docstring or it is not, and finding out costs one grep.
+
+### What the hand-reconciliation cost
+
+Not much, and that is almost the problem — a wasted tick is easy to miss. The
+notes it wrote are worse than the ledger's, and they say something slightly wrong
+in a public file: *"sent ... by an agent running outside this session, and was
+never written to the tracker."* It **was** written to the tracker — the shared
+one. Those rows have been replaced by the other session's, which carry a
+`Reference: gmail:<threadid>` — better evidence than a reconstruction, because it
+points at the message rather than inferring it.
+
+### The standing checks
+
+- **`git fetch` before diagnosing anything anomalous.** Another agent's commit
+  messages are the highest-signal source available and cost one network round trip.
+- **Run `sync_status.py --merge` at the top of a tick, before `queue_batch`.**
+  §141's Sent-vs-registry diff runs at the *end* and only sees this session's
+  sends; the merge runs at the start and sees everyone's.
+- **Before building a fix, grep for one.** Especially in a repository that has been
+  documenting its own failure modes for 146 sections.
+
+### One defect noticed in passing, not fixed
+
+Both agents' playbooks render `remove@ileads.com` as `[named individual]@ileads.com`.
+`remove@` is plainly a role mailbox; the whitelist in `is_role_address` does not
+list it, so the masking publishes a false claim about a stranger's address. Left
+alone deliberately — changing that whitelist re-masks addresses across many
+committed playbooks and affects the other agent mid-flight, which is not a change
+to make unilaterally while a rebase is open.
+
+**Related:** §133 (a count that dropped rows it did not recognise), §139 (record
+what produced the record), §141 (the Sent-vs-registry diff, and its blind spot);
+`scripts/sync_status.py`.
