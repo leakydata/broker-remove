@@ -8984,3 +8984,90 @@ quality available, and it arrives disguised as a duplicate.
 
 **Related:** §139 (enumeration reveals what the work was done on), §147 (two
 agents, divergent state), §148 (a measure computed from a private view).
+
+
+---
+
+## §153
+
+**Re-verification on a common name returns other people, and the naive check calls it a regression.**
+*Radaris and Nuwber — 28 Aug 2026*
+
+With sending capped for the day, the useful work was the step the project has
+mostly deferred: **checking whether the removals held.** `verify_removals.py` listed
+405 brokers due, of which exactly **two** have a recorded search URL. The rest say
+"no search route recorded yet" or need a form POST — which is its own finding about
+how much of this cannot be automated, but not today's.
+
+### What the check returned
+
+Radaris — previously verified `gone` — served a results page saying **"3 people
+found"** for the subject's name in his current city, containing that name **sixty-four
+times.**
+
+Any keyword test — *is the name on the page?* — reports a regression. The removal
+would be recorded as reverted, the broker written to again, and the project would
+have manufactured a false accusation out of its own tooling.
+
+**None of the three is him.** Reading the actual entries:
+
+| # | Age / born | Home | Address history | Verdict |
+|---|---|---|---|---|
+| 1 | 47 / 1978 | Bradford, ME | Bradford ME, Charleston ME, **[subject's current city]**, Shermans Dale PA, Fort Lauderdale FL, Lehi UT | **not him** — different middle initial, born a year earlier, none of the sixteen prior addresses match |
+| 2 | 36 / 1990 | Albion, IN | Albion IN, Patrick AFB FL, Pittsfield MA… | not him |
+| 3 | deceased | Shermans Dale, PA | Shermans Dale PA, Bradford ME, Bangor ME… | not him |
+
+Three other men share the name and the region. The removal held.
+
+### The trap, stated generally
+
+> **On a common name, absence of *your* record and presence of *the name* are
+> perfectly compatible.** A verification that tests for the name tests the wrong
+> thing, and fails in the direction that looks like diligence.
+
+So a verification needs **discriminating identifiers**, decided before the check
+rather than after: a middle name, a birth year, and — most reliably — an address
+history. Entry 1 above is the instructive case: right region, age within a year,
+and the current city present. Only the address history separates it, because a
+person's twenty-year trail of addresses is close to unique in a way a name and a
+city are not.
+
+That is the same fact the letters have been asserting all along — *records are held
+against details a person no longer uses* — turned around and used as a
+disambiguator instead of a search key.
+
+### The thing that cannot be settled from outside
+
+Entry 1 lists **the subject's current city** in a residence history that is
+otherwise entirely Maine, Florida and Utah. Two readings:
+
+- a different man of the same name genuinely lived there; or
+- **the subject's current address has been merged into that man's cluster.**
+
+The second would be a misattribution of exactly the kind these letters keep raising
+— a wrong record about a real person, acted on by third parties who have no way to
+know it is wrong. It is recorded as an open question rather than a finding, because
+the page cannot distinguish them and asserting either would be the §143 mistake.
+
+### Nuwber, and a different failure
+
+`nuwber.com/search` returned **HTTP 403** to a plain fetch with a browser
+user-agent — bot detection, and a 92KB block page rather than an error. So the
+earlier `gone` verdict is **unrefreshed, not reconfirmed**, and the note says so in
+those words. Queued as a `verify` handoff needing a real browser.
+
+> A check that could not run is not a check that passed. Record the blocked attempt,
+> or the next pass reads an old verdict and a recent timestamp and concludes both
+> are current.
+
+### What this says about the 57 confirmations
+
+They rest almost entirely on **what companies said**, not on what the indexes show.
+Two of 405 were even checkable by URL today, and one of those was blocked. That is
+not an argument against the letters — a written confirmation is worth having — but
+it is the honest boundary of the result, and §151 already established there is no
+regulator to escalate a false one to.
+
+**Related:** §135 (suppression vs deletion), §138 (what makes an answer
+corroborated), §143 (not over-reading a single artefact), §151 (no statutory floor);
+`scripts/verify_removals.py`.
