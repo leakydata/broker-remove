@@ -77,6 +77,13 @@ Please do not ask me to create an account, and do not request a copy of a
 government-issued identity document; less intrusive verification is sufficient
 given the limited scope of this request.
 
+The identifiers above are supplied solely as search keys. If any of them is a
+category you do not otherwise process -- date of birth, postal addresses and
+telephone numbers are the usual ones -- please do not retain it beyond what you
+need to evidence that you handled this request. I would rather not have supplied
+you with data you did not previously hold, and I list everything only because I
+cannot tell from outside which keys you use.
+
 I look forward to your confirmation within the period required by law.
 
 Regards,

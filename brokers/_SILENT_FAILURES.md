@@ -8042,3 +8042,73 @@ sources has demonstrably not been read by anyone.
 
 **Related:** §137 (the identical macro as a tell), §138, §142.
 
+
+## §144
+
+**The letter creates the record it came to delete.**
+*Datonics, and Fog Data Science before it — 28 Aug 2026*
+
+Two companies, independently and unprompted, have now told this project the same
+thing about its own method.
+
+Fog Data Science, 27 August:
+
+> "**Please do not provide additional sensitive identifying information at this
+> time.** Your date of birth, historical addresses, telephone numbers, and
+> public-profile URL are not necessary to search Fog's Data Services."
+
+Datonics, 28 August:
+
+> "We do not process telephone numbers, physical addresses or dates of birth in
+> our services, so **we never had that information until you chose to send it to
+> us.**"
+
+They are right, and the second one is blunt enough to be worth quoting exactly.
+
+**The trade-off is real and it does not have a clean answer.** The letter lists
+twelve email addresses, sixteen prior addresses, eleven prior telephone numbers and
+a date of birth because *a search of current details finds the least interesting
+record and misses the rest* — and that is not a theory. BookYourData's enumerated
+reply (§139) showed seven of twelve addresses searched; the five missing ones were
+only visible because the identifiers had been supplied and the reply enumerated
+them. At a company that keys on prior addresses, listing them is the difference
+between finding the record and not.
+
+But at a company that does **not**:
+
+> The request hands over a date of birth, sixteen addresses and eleven phone
+> numbers to an organisation that did not have them, and they come to rest in a
+> privacy mailbox and a ticketing system. **The letter has created a record where
+> none existed.**
+
+And the subject cannot know which kind of company they are writing to until after
+they have written.
+
+**What was done about it.** Not a note — a change to the letter. `make_optout_email`
+now closes with:
+
+> The identifiers above are supplied solely as search keys. If any of them is a
+> category you do not otherwise process — date of birth, postal addresses and
+> telephone numbers are the usual ones — please do not retain it beyond what you
+> need to evidence that you handled this request. I would rather not have supplied
+> you with data you did not previously hold, and I list everything only because I
+> cannot tell from outside which keys you use.
+
+That costs six lines and removes most of the harm without giving up the coverage.
+It also does something a two-stage letter could not: it works on the *first* pass,
+where a "which identifiers do you key on?" round trip would cost a reply most
+companies will not send.
+
+**The general point, which is uncomfortable and worth keeping that way.** A privacy
+request is itself a disclosure. Every technique in this file that improves
+*coverage* — more identifiers, more name variants, more history — increases what is
+handed to a company that may hold nothing. The discipline that applies to brokers
+applies here too: **know which of your keys are doing work, and do not supply the
+ones that are not.** The difference is that only the broker can tell you, and only
+after the fact.
+
+Datonics was told this directly and asked to delete the three categories it does
+not process. Worth doing everywhere the point arises, rather than only where a
+company raises it.
+
+**Related:** §139 (enumeration), §140 (Fog), §135.
