@@ -2380,9 +2380,9 @@
     "via": "reply"
   },
   "intent_iq": {
-    "status": "submitted",
+    "status": "manual_required",
     "changed": "2026-08-28",
-    "via": null
+    "via": "reply"
   },
   "intentgine": {
     "status": "not_found",
@@ -4375,8 +4375,8 @@
     "via": "email"
   },
   "truepeoplesearch": {
-    "status": "submitted",
-    "changed": "2026-08-18",
+    "status": "manual_required",
+    "changed": "2026-08-28",
     "via": "reply"
   },
   "truepeoplesearch_net": {
