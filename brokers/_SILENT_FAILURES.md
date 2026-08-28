@@ -8807,3 +8807,91 @@ the company describing it accurately is the reason we know.**
 
 **Related:** §131, §140, §144, §146, §149a; `_CATEGORY_VARIANTS.md` "Do not hand
 over a device identifier to establish that one is not held".
+
+
+---
+
+## §151
+
+**Two companies drew the same map, and the subject lives outside it.**
+*ListMatch and Catalist — 28 Aug 2026, independently, hours apart*
+
+ListMatch's autoresponder carries a sentence that is easy to skim past and is
+probably the most consequential disclosure this project has recorded:
+
+> *"As of 2024 we do not sell/share/buy data in the following states:
+> **CA, CO, CT, DE, IA, IN, KY, MD, MT, NE, NH, NJ, OR, TN, TX, UT, VA, VT**"*
+
+Eighteen states. They correspond closely to the states that have enacted
+comprehensive consumer privacy legislation. **Pennsylvania is not among them**,
+because Pennsylvania has no such statute.
+
+So this is not a company that complies with the state privacy laws. It is a company
+that has **withdrawn from the states that have them and carried on trading in the
+states that do not.** The compliance strategy is a map.
+
+### It is not one company's quirk
+
+Earlier the same day, Catalist listed the states where it will disclose specific
+pieces of personal information: CA, CO, OR, MT, DE, IA, NE, NH, NJ, TN, MD, IN, KY,
+RI.
+
+Two unrelated companies — a B2B email list broker and a national voter-file
+operator — with no reason to coordinate, produced near-identical maps:
+
+```
+Catalist's 14 access states, minus ListMatch's 18 withdrawal states:  RI
+ListMatch's 18, minus Catalist's 14:  CT, TX, UT, VA, VT
+overlap: 13 of 14
+```
+
+That is the same line drawn twice by people looking at the same statute book. **The
+industry knows exactly where the borders are**, and both lists put Pennsylvania
+outside.
+
+### What this actually means for a request from an unregulated state
+
+Every letter this project sends says *"where applicable"*, precisely because the
+subject cannot assert CCPA rights. Until now that read as a legal nicety. It is
+better understood as this:
+
+> In an unregulated state, a privacy request has **no statutory floor at all**.
+> Everything obtained is obtained because a company chose to give it. There is no
+> escalation, no regulator to complain to about a refusal, and no consequence for
+> ignoring the letter entirely.
+
+That reframes the whole results set. The 54 confirmations are not compliance —
+several companies said so outright. Catalist: *"honors requests ... regardless of
+your state of residence."* Fog: reviewed it under published procedures having
+correctly noted that California residency was not established. Astoria: suppressed
+without being obliged to. **Those were courtesies, and they should be recorded as
+courtesies**, because a courtesy tells you something a compliance obligation does
+not — it tells you who the company is.
+
+### The uncomfortable corollary
+
+The response to a patchwork of state laws, for at least one broker, has been to
+**concentrate the trade in the people the laws do not cover.** A resident of a
+regulated state gets removed from ListMatch's dataset by geography. A resident of
+Pennsylvania stays in it, and is now marginally more valuable for being one of the
+remaining ones.
+
+That is not a failure mode this file can fix, and it is not a criticism of the
+letter template. It is the shape of the terrain, and it belongs written down
+because it explains why the work is harder than the statutes suggest — and why
+"where applicable" is carrying more weight in these letters than it looks like it
+is.
+
+### Practice
+
+- **Record which basis a company applied.** "Honored under published policy" and
+  "honored under statute" look identical in a status column and are different
+  facts. Where a company says which, put it in the note (§139).
+- **Expect no leverage, and be pleasantly surprised.** The letters already read as
+  requests rather than demands, which is the right register for an unregulated
+  state and happens also to work better in regulated ones.
+- **A state list in an autoresponder is a disclosure.** Read it. It tells you the
+  company's legal map, and by omission it tells you where you stand on it.
+
+**Related:** §97 (DROP, California residents only), §138, §149a (the registry is a
+directory, not a doorway); `_FAMILIES.md` on ListMatch's supplier list.
