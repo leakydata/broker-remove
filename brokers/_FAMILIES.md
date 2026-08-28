@@ -1298,3 +1298,72 @@ read it.
 > written once, by lawyers, and often grants more than the reply above it offers.
 > The gap between the two is not usually deliberate — which is exactly why nobody
 > in the company has noticed it.
+
+
+## The supplier chain, named by a broker who did not have to name it
+
+**28 Aug 2026.** Email Marketing Services / ListMatch answered a request with a nil
+result — and then volunteered where its data comes from:
+
+> *"The email contact lists that we have is from other third parties/data brokers,
+> which include **L2 Data, Apollo, DatabaseUSA, Zoominfo, LinkedIn, GetProspects,
+> ExactData**. We do not operate websites that collect consumer email lists."*
+
+No other broker in this project has named its suppliers. By §139 that is worth more
+than the deletion: a deletion clears one file, a supplier list tells you which
+files refill it.
+
+### Cross-checked against the registry
+
+| Named supplier | In registry | Status |
+|---|---|---|
+| L2 Data | `l2_data` | submitted |
+| — second filing | **`l2`** (`info@l2political.com`) | **no status — never written to** |
+| Apollo | `apollo_io` | **confirmed** |
+| DatabaseUSA | `databaseusa` | submitted — *but its filed address 550s* |
+| ZoomInfo | `zoominfo` | submitted |
+| ExactData | `exact_data` | submitted |
+| GetProspects | **`getprospect`** | **no status — never written to** |
+| LinkedIn | not a registered broker | — |
+
+Two entries had never been contacted, and surfaced only because a third company
+said where it shops. LinkedIn is not a data broker registration, so naming it as a
+source of *email contact lists* is its own small disclosure.
+
+### It also closed a family
+
+`exactdata.com`'s privacy policy points at `privacyteam@data-axle.com`. So
+**ExactData is Data Axle** — and the registry already carries `exact_data` on the
+`data-axle.com` domain alongside `dataaxle` itself, plus **`donorbase` on
+`dataaxlenonprofit.com`**.
+
+That last one matters beyond bookkeeping: DonorBase is the company that, the same
+morning, demanded a **signed declaration form** before it would process anything.
+So one arm of Data Axle is supplying email lists to a third party while another arm
+requires a notarisable document before answering. Worth holding together when
+deciding whether to sign it.
+
+## ListMatch / SourceIt — the year-suffixed address convention
+
+The same reply said *"I replied before for the other company we manage."* Two
+registry entries share an unusual convention:
+
+| id | address |
+|---|---|
+| `email_marketing_services` | `dataprivacy2026@listmatch.com` |
+| `sourceit` | `dataprivacy2026@sourceitmarketing.com` |
+
+A **year-suffixed** privacy address on two different domains is not a coincidence —
+it is one operator's habit, applied twice. `sourceit` is already `confirmed`, which
+fits the "I replied before" remark exactly.
+
+> **The convention is the tell.** Shared infrastructure usually shows up as a shared
+> mailbox or a shared domain, and `queue_batch` dedupes on address so it catches
+> that. It cannot catch one operator running two companies on two domains with a
+> *stylistically identical* address. Look at the shape of the local-part, not only
+> its value.
+
+Both entries also carry a stale first address: `dataprivacy@listmatch.com` and
+`dataprivacy@sourceitmarketing.com` both 550, and the working pair are the
+year-suffixed ones — so the operator rotates the address annually and the registry
+filing lags. Asked which other entities they manage; unanswered so far.
