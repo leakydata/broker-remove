@@ -7882,3 +7882,55 @@ Recording the mine one plainly is the point: an audit that only looks for other
 people's failures will keep finding them.
 
 **Related:** §132 (named individuals as routes), §138 (corroboration), §139.
+
+## §142
+
+**Accepted and disclaimed: a fourth delivery state.**
+*Infutor / Verisk Marketing Solutions — 28 Aug 2026*
+
+Four seconds after the letter, `privacy@infutor.com` replied:
+
+> "Any data subject requests sent to these Infutor privacy compliance email
+> addresses **will not be considered a valid submission of a privacy rights
+> request**. The functions of these email addresses are not for data subject
+> privacy rights request processing."
+
+This project has tracked three delivery states: **delivered**, **hard-bounced**,
+and **deferred-forever-never-bounced**. This is a fourth, and it is the one every
+deliverability check passes:
+
+> **Accepted and disclaimed.** The domain resolves. The MX answers. The mailbox
+> exists and is monitored. Someone wrote the refusal. And the address — published
+> in their own privacy policy and carried in the state registry — is not a route.
+
+It is more honest than silence: you learn in four seconds rather than never, which
+is genuinely better than the deferred case in §… the one where mail is accepted
+into a void. But it means **a published privacy address can be a dead route while
+being perfectly alive**, and no MX probe, no bounce log and no delivery receipt
+will ever say so. Only sending finds it out — the same lesson as
+`data/dead_addresses.json`, one layer up: there, the mailbox was missing; here, the
+mailbox is present and declines the job.
+
+**The corporate-identity find, which is the more useful half.** The auto-reply
+signs off:
+
+> "InfutorData formally Verisk Marketing Solutions"
+
+("formally" for "formerly", but the meaning is clear.) The registry carries
+`verisk_marketing_solutions` as a **separate entry with a different address** —
+`vmsprivacy@verisk.com` — never contacted. So `queue_batch`'s one-address-one-letter
+guard would not have connected them: it deduplicates on *address*, and these are
+two addresses at two domains belonging to one company.
+
+**That is a real gap in the guard, and worth stating as a rule.** Deduplicating on
+address catches the case where two brokers share a mailbox. It cannot catch the
+reverse — one company reachable at two mailboxes — and the reverse is what a rename
+or an acquisition produces. The tell is almost never in the registry; it is in the
+signature block of a reply.
+
+Acted on immediately rather than filed: the letter went to `vmsprivacy@verisk.com`
+opening with why, so it is not mistaken for a duplicate, and asking them to treat
+it as one request across both names or say if it must be made twice. A refusal on
+one channel is a reason to try the other, not a reason to stop.
+
+**Related:** §132, §141, `data/dead_addresses.json`, `brokers/_FAMILIES.md`.

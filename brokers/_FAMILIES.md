@@ -1116,3 +1116,21 @@ filing was never amended. Rather than record Bureau van Dijk as unreachable, the
 tenant match relocated the request: one letter to `privacy@moodys.com` naming all
 five entities, stating plainly how the relationship was established, and asking
 them to correct the stale filing. See `_SILENT_FAILURES.md` §88 and §89.
+
+
+## Infutor / Verisk Marketing Solutions — one company, two registry entries
+
+**Confirmed 28 Aug 2026, from a signature block.** The auto-reply from
+`privacy@infutor.com` signs off *"InfutorData formally Verisk Marketing
+Solutions"*. The registry carries them as two entries with two different
+addresses on two different domains:
+
+| id | domain | address |
+|---|---|---|
+| `infutordata` | infutor.com | `privacy@infutor.com` — **disclaimed as a channel** |
+| `verisk_marketing_solutions` | marketing.verisk.com | `vmsprivacy@verisk.com` |
+
+`queue_batch`'s one-address-one-letter guard deduplicates on **address**, so it
+catches two brokers sharing a mailbox and cannot catch one company holding two.
+A rename or an acquisition produces exactly the second shape, and the evidence for
+it is rarely in the registry — here it was in a signature.
