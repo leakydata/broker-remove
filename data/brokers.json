@@ -8336,14 +8336,14 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "privacy@graph8.com",
+      "email_to": "support@graph8.com",
       "email_verified": true,
-      "email_verified_by": "broker_reply",
+      "email_verified_by": "ca_data_broker_registry",
       "registry_years": [
         "2024"
       ],
       "legal_name": null,
-      "email_note": "Registry publishes support@graph8.com. Support replied 2026-08-28 saying 'our privacy team handles these requests directly' and redirecting to privacy@graph8.com. Use the privacy address; the registry filing points at the support desk."
+      "email_note": "Support redirected a request to privacy@graph8.com on 2026-08-28, but that address is a RESTRICTED WORKSPACE GROUP and rejects external senders -- verified by bounce the same day. support@graph8.com is the registry route, accepts mail, and replied within a day. Do not adopt the privacy@ address even though the company itself supplied it."
     },
     {
       "id": "grassroots_analytics",
@@ -13655,18 +13655,19 @@
       "domain": "dspolitical.com",
       "priority": 2,
       "method": "email",
-      "optout_url": "",
+      "optout_url": "https://www.dspolitical.com/opt-out/",
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
       "email_to": "andy@mstreetlegal.com",
-      "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified": false,
+      "email_verified_by": "broker_reply",
       "registry_years": [
         "2025",
         "2026"
       ],
-      "legal_name": "DSPolitical, LLC"
+      "legal_name": "DSPolitical, LLC",
+      "email_note": "The CA filing's only contact is an OUTSIDE COUNSEL address, and on 2026-08-28 that lawyer replied disclaiming all authority: 'I am not an officer, employee, or other agent or representative with authority of any kind to receive requests ... on behalf of Optimal'. So the statutory route answers and refuses. Do not resend there. Real routes found in DSPolitical's own privacy policy: opt-out page https://www.dspolitical.com/opt-out/ , a second at https://www.dspolitical.com/opt-out-of-advertising/ (their policy links it with a double slash), and OneTrust webforms under tenant 2de5f42a-3bbb-4bcf-867b-251b00739ee1. Related brand to check: untu.us."
     },
     {
       "id": "oregon_arrests",

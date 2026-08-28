@@ -8540,3 +8540,100 @@ visibility each would have been equally happy at 200.
 
 **Related:** §147 (the shared ledger, and not looking for it), §141 (the
 Sent-vs-registry diff and its single-session blind spot); `scripts/sync_status.py`.
+
+
+---
+
+## §149
+
+**An address is verified by a send, not by a source — even when the source is the company.**
+*graph8, and Optimal's outside counsel — 28 Aug 2026*
+
+Two failures an hour apart, both of a route that came from the best possible
+authority and still did not work. Together they retire an assumption this project
+had been making without stating it.
+
+### graph8: the company gave an address it does not accept mail at
+
+graph8's support desk answered a letter and redirected it:
+
+> *"please send the work email address you'd like removed to `privacy@graph8.com`.
+> Our privacy team handles these requests directly."*
+
+That is a first-party route, supplied deliberately, the same day. So the registry
+entry was updated to it and `email_verified_by` moved from
+`ca_data_broker_registry` to `broker_reply` — an upgrade in provenance, by this
+project's own ranking.
+
+The letter sent there bounced within the hour:
+
+```
+the group you tried to contact (privacy) may not exist, or you may not have
+permission to post messages to the group          -- graph8.com admins
+```
+
+A **restricted Google Workspace group**: it accepts internal mail and rejects
+everyone else. Same mechanism as `privacy@modigie.com`, `privacy@venpath.net` and
+`privacy@rampedup.io` in `dead_addresses.json` — but those were stale registry
+entries. This one was handed over by the company, in a reply, that morning.
+
+**The registry change was reverted within thirty minutes**, `support@graph8.com`
+restored as the route (it works and answers inside a day), and an `email_note`
+added saying explicitly not to re-adopt `privacy@` *even though graph8 supplied
+it*. Without that note the next pass would read the reply and make the same
+change again.
+
+### Optimal: the statutory contact answered, and refused
+
+The only contact in DSPolitical, LLC's California registration (filed as
+"Optimal", 2025 and 2026) is an **outside counsel** address at a law firm. He
+replied:
+
+> *"I am not an officer, employee, or other agent or representative with authority
+> of any kind to receive requests for exercise of consumer rights on behalf of
+> 'Optimal'. Your request to me ... does not constitute proper submission."*
+
+This is a worse failure than a dead mailbox and deserves its own line. **A dead
+address bounces and you know in seconds.** This one is live, is read by a real
+person, and refuses — on the ground that the state's own register names someone
+without authority to receive what the register exists to route.
+
+He is a third party who did not ask for any of this, so the reply was one short
+courteous note telling him his address is the filed contact, that correcting the
+filing would stop it recurring, and that no reply was needed.
+
+The company's own privacy policy then yielded working routes in about two minutes:
+an opt-out page, a second opt-out path, and OneTrust webforms. **The dead end was
+in the register, not in the company.**
+
+### What the two have in common
+
+Both routes came from authorities this project treats as strong — one from the
+company itself, one from a state filing — and both were **claims about where mail
+should go, not evidence that it arrives.**
+
+> A source tells you where to send. Only a send tells you whether anything
+> arrives. `email_verified_by` records *who said so*, and has never recorded
+> *whether it worked* — those are different columns and the schema has one.
+
+§86 established that deliverability is checkable before spending a send, and that
+a clean pre-send check is evidence rather than a guarantee. This is the same point
+from the other end: **a route upgraded on provenance has not been upgraded on
+deliverability**, and upgrading the field can make a working address worse by
+replacing it with a better-sourced broken one — which is exactly what happened to
+graph8 for half an hour.
+
+### The rules
+
+- **Never replace a route that has delivered with one that has not**, however good
+  the new source. Record the new address, send to it, and only then swap.
+- **When a broker's own reply supplies an address, that is a lead, not a
+  correction.** Treat it exactly as a registry address: worth trying, not yet true.
+- **Write the reversal down.** A reverted change with no note is an invitation to
+  make it again — the next pass sees the same reply and reaches the same wrong
+  conclusion.
+- **When the filed contact disclaims authority, go to the privacy policy.** The
+  company usually publishes real routes; the register is what is stale.
+
+**Related:** §64, §65, §85, §86, §109, §145 (a clean check is not a promise);
+`data/dead_addresses.json`.
