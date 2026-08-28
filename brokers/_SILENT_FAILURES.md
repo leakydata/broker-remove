@@ -9071,3 +9071,87 @@ regulator to escalate a false one to.
 **Related:** §135 (suppression vs deletion), §138 (what makes an answer
 corroborated), §143 (not over-reading a single artefact), §151 (no statutory floor);
 `scripts/verify_removals.py`.
+
+
+---
+
+## §154
+
+**The suppression I asked for would have harmed strangers.**
+*First Direct — 28 Aug 2026, a correction from the other side*
+
+Every letter this project sends carries some version of the same line:
+
+> *"Please search and suppress every address and number listed, not only the ones I
+> still use."*
+
+It is the project's signature ask, justified at length in §152 and elsewhere:
+records are held against details a person no longer uses, so a suppression keyed to
+the current address misses most of what exists.
+
+First Direct's Chief Privacy Officer declined half of it, and was right:
+
+> *"We do not suppress physical addresses by address alone, as those addresses may
+> now be associated with other consumers."*
+>
+> *"We do not add historical telephone numbers to our permanent phone suppression
+> file based solely on prior ownership. Telephone numbers are frequently reassigned,
+> and suppressing an old number indefinitely could suppress information belonging to
+> its current owner."*
+
+### Why this is a real error and not a technicality
+
+Fifteen of those sixteen addresses are **houses where other people now live.**
+Eleven of those phone numbers **almost certainly belong to eleven other people.**
+
+Suppressing them by address or by number would have removed strangers from a
+marketing file. They never asked for it, would never learn it had happened, and
+some of them presumably want the mail. **The request was to do something to third
+parties in order to protect the requester** — and the company caught it when the
+requester did not.
+
+The part that should sting: the *same letter* made the mirror-image argument about
+the name.
+
+> *"I would rather you removed nothing than removed a different [same-named
+> person]'s record."*
+
+The reasoning was already there, applied to a common surname, and simply not
+carried across to an address left in 2004. §153 had established the day before that
+address history is what distinguishes one person from another of the same name —
+which is exactly why an address cannot be treated as belonging to one person
+indefinitely.
+
+### The corrected ask
+
+- **Name-plus-address pairs, not addresses.** "Suppress records associated with me
+  at these addresses" — not "suppress these addresses". A compiled file is keyed on
+  the pair anyway, so this loses nothing and is what First Direct did voluntarily.
+- **Do not ask for permanent suppression of disconnected numbers.** A number is a
+  reassignable resource. Ask that records *linking that number to this person* be
+  suppressed, which is the actual concern.
+- **Say the third-party point out loud in the letter.** A company that has not
+  thought about it will suppress by address if asked; the ones who have will decline
+  and may think less of the request. Better to pre-empt it: *"as name-and-address
+  pairs, not by address alone — those addresses have other residents now."*
+
+### On the exchange generally
+
+First Direct, across three messages: explained why it converts deletions to
+suppressions and offered to do otherwise; volunteered the entire CCPA disclosure set
+unprompted, naming client types concretely rather than as "marketing partners";
+confirmed the suppression is **exclude-only** in terms that answered the question
+exactly; stated plainly that it does **not** pass suppression upstream, so the
+boundary is known; and declined part of the request for a better reason than the
+reason for asking.
+
+That last is the rare one. Companies comply or refuse. **Very few push back on the
+substance and turn out to be right**, and when one does, the correct response is to
+withdraw the ask and change the template — not to record it as a partial refusal.
+
+The compiler names remain unanswered after three attempts, now with an explicit
+invitation to say "commercially confidential" instead, since an unanswered question
+cannot be distinguished from a declined one.
+
+**Related:** §135 (deletion vs suppression), §138, §144 (the letter creates the
+record), §152 (the identifier block), §153 (address history as the disambiguator).
