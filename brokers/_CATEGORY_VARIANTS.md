@@ -10,6 +10,13 @@ relatives), not just the directory listing. Ask that suppression apply to phone,
 address and email lookups — **not only name search**, which is how PeopleConnect
 scopes theirs.
 
+**Scope the suppression to the person, not to the identifier** (§154). Ask them to
+*search* on prior addresses and disconnected numbers, and to suppress the records
+that are about you — never to suppress an address or a number in itself. Those
+addresses have new residents and those numbers have been reassigned, and a company
+that does what is literally asked will remove strangers from its file. Saying this
+explicitly also pre-empts a refusal from the companies that have thought about it.
+
 ## Ad tech / audience data  (e.g. 33Across)
 Directly identifying records are the small part. Also demand:
 - cookie IDs, mobile advertising IDs (MAIDs), and **hashed email identifiers**

@@ -60,6 +60,13 @@ only the current ones. Please search each of them.
 I have listed prior addresses and old telephone numbers deliberately. Records are
 frequently indexed against a former address or a disconnected number rather than
 a current one, and a search limited to my present details will miss them.
+
+To be clear about the scope of that: I am asking you to SEARCH on those prior
+addresses and numbers, and to suppress the records that turn out to be ABOUT ME.
+I am not asking you to suppress an address or a telephone number in itself. Other
+people live at those addresses now, and those numbers have been reassigned --
+suppressing them outright would remove strangers from your file, which is not
+something I am entitled to ask for on their behalf.
 {suppress_block}
 I am exercising rights available to me under applicable state consumer privacy
 law, including the California Consumer Privacy Act as amended by the CPRA
