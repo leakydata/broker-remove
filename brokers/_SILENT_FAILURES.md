@@ -8132,3 +8132,94 @@ not process. Worth doing everywhere the point arises, rather than only where a
 company raises it.
 
 **Related:** §139 (enumeration), §140 (Fog), §135.
+
+
+---
+
+## §145
+
+**An A record that answers is not a website.**
+*Imprint Analytics LLC — 28 Aug 2026*
+
+This is a refinement of something already documented, not a new phenomenon, and
+it is worth saying so plainly before adding to the pile. §68 and the VenPath
+entry both cover *infrastructure outliving the business*: live MX in front of a
+parking page, live MX with no A record at all. Imprint Analytics is a third
+shape of the same fact, and the reason it earns a line is that **it passes every
+check the other two fail.**
+
+### What the checks said
+
+Imprint Analytics LLC is on the California data broker registry (2020–2023) with
+`privacy@imprintanalytics.io` as its filed contact. Before sending, the signals
+were as good as this project ever gets:
+
+```
+dig +short MX imprintanalytics.io  ->  aspmx.l.google.com. + 4 more   (live Workspace)
+dig +short A  imprintanalytics.io  ->  160.153.0.60                   (resolves)
+```
+
+MX present. A present. Address role-shaped, `privacy@`, on the company's own
+domain, sourced from a state filing — the strongest provenance the registry
+offers. `check_email_domains.py` has nothing to complain about, and it is right
+not to: **its question is "can mail be delivered here", and the honest answer
+from DNS alone is yes.**
+
+The letter went out and bounced in one second:
+
+    550 5.1.1 The email account that you tried to reach does not exist.
+
+### The part that is actually new
+
+At that point the standard recovery is the one §64, §85 and §109 all describe:
+the bounce is a mailbox-level fact, so go and read the company's privacy policy
+and take the address published there. `discover_contacts.py` ran and returned
+nothing. Checked by hand:
+
+    curl -I https://imprintanalytics.io   ->  exit 35 — TLS handshake fails outright
+    curl -I http://imprintanalytics.io    ->  HTTP 409, body: "error code: 1001"
+
+So the A record resolves, the host accepts a TCP connection on port 80, and what
+comes back is a Cloudflare 1001 — Cloudflare cannot resolve the origin. There is
+no page. There has not been one for long enough that the certificate is gone too.
+
+**The distinction worth keeping:** VenPath had *no* A record, which reads
+immediately as "no website" to anyone looking. §68's Tymax served a "this domain
+is for lease" page, which reads as a parked domain to anyone looking. This one
+resolves and answers, and only a request that goes all the way to a response body
+reveals there is nothing behind it. A checker that stops at "does the name
+resolve" — and most do, because that is the cheap question — records this domain
+as healthier than either of the other two.
+
+> A record present, MX present, mailbox absent, site absent. The DNS is a
+> complete set of green lights in front of an empty building.
+
+### Why it matters beyond one broker
+
+The recourse chain for a bounced registry address has three links: *the filing
+gives an address → the address fails → the company's own site gives another one.*
+Every prior case in this file broke at link two and recovered at link three.
+Here link three is missing, so a registered data broker — one that filed with the
+state, four years running — is unreachable by **every route the statute creates.**
+The registry filing is the company's entire public existence, and the contact in
+it does not exist.
+
+That is not a tooling failure and there is no code change that fixes it. It is
+recorded as `unreachable` with the evidence in the note, and queued as a decision
+about a CA AG complaint, grouped with the other registry-address bounces
+(`data@emerges.com`, `privacy@databaseusa.com`, `privacy@researchusallc.com`,
+`dataprivacy@listmatch.com`) — those had working sites, so they are contact rot;
+this one is closer to a company that has stopped existing without deregistering.
+
+### The rule
+
+- **"The domain resolves" is not "the company is there."** If a bounce sends you
+  looking for a second address, fetch the page and check the *body*, not the
+  status of the lookup. A 4xx with a CDN error string is a dead site wearing the
+  DNS of a live one.
+- **Do not treat a clean pre-send check as a promise.** §86 established that
+  deliverability is checkable before spending a send. This is the other half:
+  passing that check is evidence, not a guarantee, and the only test that
+  settles a mailbox is sending to it.
+
+**Related:** §64, §65, §68, §85, §86, §109; the VenPath entry above.
