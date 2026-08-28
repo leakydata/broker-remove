@@ -2480,9 +2480,9 @@
     "via": "email"
   },
   "juicebox_app": {
-    "status": "submitted",
+    "status": "manual_required",
     "changed": "2026-08-28",
-    "via": "email"
+    "via": "reply"
   },
   "kalibrate": {
     "status": "submitted",
