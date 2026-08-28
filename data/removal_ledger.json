@@ -520,9 +520,9 @@
     "via": null
   },
   "babel_street": {
-    "status": "submitted",
-    "changed": "2026-08-25",
-    "via": null
+    "status": "manual_required",
+    "changed": "2026-08-28",
+    "via": "reply"
   },
   "background_hawk": {
     "status": "submitted",
@@ -1925,9 +1925,9 @@
     "via": "email"
   },
   "fusable": {
-    "status": "submitted",
-    "changed": "2026-08-27",
-    "via": null
+    "status": "failed",
+    "changed": "2026-08-28",
+    "via": "reply"
   },
   "fushia_media": {
     "status": "submitted",
