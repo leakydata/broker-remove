@@ -1,3187 +1,4557 @@
 {
   "01advertising": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "33_mile_radius": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "33across": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "360_media_direct": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "360_media_direct_bperx_adsmith_subco_clicknread_wrss": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "411_com": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "4c_insights": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "4eyes_ai_4_eyes_ai": {
     "status": "failed",
-    "changed": "2026-08-26",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "5x5": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "6sense": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "above_data": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "absolute_people_search": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "academixdirect": {
     "status": "confirmed",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "accenture": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "accudata_integrated_marketing": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "accurate_append": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "ace_agents": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "ach_address_clearing_house": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "acquire_media_u_s": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "acronymix": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "activimpact": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "acuant": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "acxiom": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "ad_direct": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "reply"
   },
   "adadapted": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "adagio": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "addresses_com": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "reply"
+  },
+  "adeptid": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "adprime": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "adrea_rubin_marketing": {
     "status": "submitted",
-    "changed": "2026-08-26",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "adrea_rubin_media_inc_dba_calibrant_digital": {
     "status": "submitted",
-    "changed": "2026-08-26",
+    "changed": "2026-08-28",
     "via": "email"
+  },
+  "adsquare": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "adstra": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "adswizz": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "adttribution": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "advancedbackgroundchecks": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "affinity": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "affinity_answers": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "affinity_solutions": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "affordable_background_checks": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "aged_lead_store": {
     "status": "confirmed",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "aggknowledge": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "agile_education_marketing": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "agr_marketing_solutions": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "aidentified": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "airlines_reporting": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "alabama_arrests": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "alabamacourtrecords_us": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "alarmscalifornia": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "alaska_arrests": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "alaskacourtrecords_us": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "alesco_data": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "alikeaudience": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "all_biz": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "all_global_resources": {
     "status": "unreachable",
-    "changed": "2026-08-26",
+    "changed": "2026-08-28",
     "via": "email"
+  },
+  "all_web_leads": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "alliant": {
     "status": "confirmed",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "web"
   },
   "allpeople": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "alphonso": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "altair_data_resources": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "american_city_business_journals": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "amplemarket": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "ampliz": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "analyticsiq": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "anchor": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "andrews_wharton": {
     "status": "not_found",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "ansonia_credit_data": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "anteriad": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "anywho": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "apollo_interactive": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "apollo_io": {
     "status": "confirmed",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
+  },
+  "app_science": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "appily": {
     "status": "manual_required",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "reply"
+  },
+  "applovin": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "aristotle_international": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "arity": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "web"
   },
   "arizona_arrests": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "arizonacourtrecords_us": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "arkansas_arrests": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "arkansascourtrecords_us": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "arrakis_technologies": {
     "status": "unreachable",
-    "changed": "2026-08-26",
+    "changed": "2026-08-28",
     "via": null
   },
   "arrestwarrant_org": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "aspire_north": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "astoria": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "atdata": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "atlantic_fox_technologies": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "atlas": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "atozacademics": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "atozdatabases": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "attom_data_solutions": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "attribits": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "audience_acuity": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "audiencemix": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "audiencepoint": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "audiencerate": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "audigent": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "austin_consolidated": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "automotive_mastermind": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "autoweb": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "aviato": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "awl": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "azerion": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "azira": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "b_i_science_2009": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "babel_street": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "background_hawk": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "backgroundcheckers": {
     "status": "confirmed",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "reply"
+  },
+  "baron_app": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "batchleads": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "bb_direct": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "bdex": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "bdo": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "becausal": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "beenverified": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "reply"
+  },
+  "beenverified_llc_and_its_subsidiaries_and_affiliates": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "beeswax": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "belardi_wong": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "benutech": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "big_village": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "bigdbm": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "billtrust": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
+  },
+  "biointelli": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "birdeye": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "biscred": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "bizarchive": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
+  },
+  "black_pearl": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "blackbaud": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "blis_global": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "blue_action": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "blue_fire_leads_home_upgrade_professionals_home_upgrade_pros": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "blueprint_audiences": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "boam_ai": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "boardex": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "boardroom_insiders": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "bombora": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
+  },
+  "bookyourdata": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "brandwatch": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "bridg": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "bright_data": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "brightcheck": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "brightswipe": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "brooksim": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "buildertrend": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "builtwith": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "bumper": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "reply"
   },
   "bureau_van_dijk_electronic_publishing": {
     "status": "submitted",
-    "changed": "2026-08-26",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "business_watch_network": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "buxton": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "buyerlink": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "cadent": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "californiabrokers_org": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "californiacourtrecords_us": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "californiaengineering_org": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "californialicensing_org": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "californianursing_org": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "californiapharmacists_org": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "callersmart": {
     "status": "confirmed",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "campaigner_smtp": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "cappex_com": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "captify_technologies": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "captiv8": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "car_market_solutions": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "careerbuilder": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "carney_direct_marketing": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "cashmere": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "catalina_marketing": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "catalist": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "catalyze_ai": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "cdk": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "censai_analytics": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "censia": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "chartboost_loopme": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "checkpeople": {
     "status": "confirmed",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "checksecrets": {
     "status": "confirmed",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "reply"
   },
   "choreograph": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "chris_holbert": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "cinqdi": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "cint": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "circana": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "cision": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "city_data_com": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "citydata": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "civis": {
     "status": "failed",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "claritas": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "clarivate": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "classmates_com": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "reply"
   },
   "clearbit": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "clearco": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "clearview_ai": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "clickagy": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "client_command": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "cloudlead": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "clustrmaps": {
     "status": "manual_required",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "cml_medical": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "coalition_greenwich": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "coast_technology": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "cocofinder": {
     "status": "failed",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "cognism": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "collective_data_solutions": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "collectors_datastore": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "colorado_arrests": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "coloradocourtrecords_us": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "commerce_signals": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "compile": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "complementics": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "complete_mailing_lists": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "confidentialphonelookup": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "connatix_native_exchange": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "connect_computer": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "connected_investors": {
     "status": "manual_required",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "reply"
   },
   "connecticut_arrests": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "connecticutcourtrecords_us": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "connext_digital": {
     "status": "failed",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "consider": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "reply"
+  },
+  "contacts411": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "contentgine": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "contractorscalifornia_org": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "converge": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "convex": {
     "status": "not_found",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "reply"
+  },
+  "corelogic": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "corelogic_cotality": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "coresignal": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "costar_realty_information": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "courtcasefinder": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "reply"
   },
   "courtrecords_us": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "cox_automotive": {
+    "status": "manual_required",
+    "changed": "2026-08-28",
     "via": null
   },
   "crawlbee": {
     "status": "unreachable",
-    "changed": "2026-08-26",
+    "changed": "2026-08-28",
     "via": "email"
+  },
+  "crexi": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "criminal_com": {
     "status": "not_found",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "criminaldatacheck": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "reply"
   },
   "criminalrecords_com": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "criteo": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
+  },
+  "cross_pixel": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "crosswalk_technologies": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "crunchbase": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "crustdata": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "cuebiq": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "customer_communications": {
     "status": "unreachable",
-    "changed": "2026-08-26",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "cyberbackgroundchecks": {
     "status": "captcha_blocked",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "cyberbackgroundchecks_com_advancedbackgroundchecks_com_fastb": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "cyndx": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "d_dots": {
     "status": "failed",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
+  },
+  "data_decisions": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "data_delivers": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "data_direct_marketing": {
     "status": "failed",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
+  },
+  "data_management": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "data_trust": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "dataaxle": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "web"
   },
   "databaseusa": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "web"
+  },
+  "databaseusa_gov": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "datadesk": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "datadojo_cdp": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "datafy": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "datalane": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "dataline": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
+  },
+  "dataman": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "datamasters": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
+  },
+  "datapartners": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "dataskip": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "datasys": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
+  },
+  "datax": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "date_detective": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "datonics": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "dealerx": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
+  },
+  "dealfront_finland_oy": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "dealmachine": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "decide": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "decisionlinks": {
     "status": "not_found",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "deep_root": {
     "status": "confirmed",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "web"
+  },
+  "deep_root_analytics": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "deep_sync": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
+  },
+  "deeptrace": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "definitive_healthcare": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "delaware_arrests": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "delawarecourtrecords_us": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "deloitte_consulting": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "deluxe": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
+  },
+  "demandbase": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "demandscience": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "demyst_data": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "dentistscalifornia_org": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "dexknows_com": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "reply"
   },
   "diablomedia": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
+  },
+  "dice_com": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "digdev": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "digital_media_solutions": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
+  },
+  "digital_segment": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "digital_viking_media": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "diligent": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "direct_marketing_solutions": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "disco_network": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
+  },
+  "disqus": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "distribution_processing_center": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "dmdatabases_com": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
+  },
+  "dojomojo": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "donorbase": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "donorbureau": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "draup": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "dresden_direct": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "driveniq": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "reply"
+  },
+  "dstillery": {
+    "status": "email_pending",
+    "changed": "2026-08-28",
+    "via": null
   },
   "dtn": {
     "status": "manual_required",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "web"
   },
   "dynata": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "reply"
   },
   "e_republic": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "eab": {
     "status": "manual_required",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "reply"
   },
   "easybackgroundchecks": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
+  },
+  "economic_modeling_rhetorik": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "edvisors_network": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "ekata": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "el_toro_com": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "electronic_voice_services": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "email_industries": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
+  },
+  "email_marketing_services": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "emailmovers": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
+  },
+  "emailusa": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "emerges_com": {
+    "status": "manual_required",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "endgame": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "enformion": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "enigma": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
+  },
+  "enlyft": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "enrich_layer": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "enriched": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "entitycheck": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "eprodirect": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "epsilon": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "equifax": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "equifax_workforce_solutions": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "equimine_propstream": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "esite_analytics": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "everconnect": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "evertrue_donorsearch": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "evorra": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
+  },
+  "exa": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "exact_customer": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "exact_data": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "web"
+  },
+  "exact_match_marketing": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "experian_marketing": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "experience": {
     "status": "confirmed",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "eyeota": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "factori": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
+  },
+  "family_me": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "familytreenow": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "web"
+  },
+  "famous_birthdays": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "faraday": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "fastbackgroundcheck": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "fastpeoplesearch": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "fastpeoplesearch_io": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
+  },
+  "fetch_rewards": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "fha_mortgage_finder": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
+  },
+  "fi_navigator": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "findem": {
     "status": "confirmed",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "findpeoplefast_net": {
     "status": "manual_required",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
+  },
+  "finsum": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "firearmscalifornia_org": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "firmfuel": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "first_direct_national_list_services": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "first_orion": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "five_by_five": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
+  },
+  "five_star_rated": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "flashintel": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "florida_arrests": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "floridacourtrecords_us": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "floridaparcels_com": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "fmadata": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "focus_usa": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "reply"
+  },
+  "fog_data_science": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "forager_ai": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "forddirect": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "reply"
+  },
+  "forewarn": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "formerly_fullcontact": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "foundry": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "four_corner_media": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "fourleaf": {
     "status": "confirmed",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "foursquare": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "reply"
   },
   "fourthwall": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "fraiser": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "freebackgroundcheck_org": {
     "status": "failed",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "freebackgroundchecks_com": {
     "status": "confirmed",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
+  },
+  "freepeopledirectory": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "freepeoplesearch": {
     "status": "confirmed",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "freephonetracer": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
+  },
+  "freesalesleads": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "freewheel": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
+  },
+  "fusable": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "fushia_media": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "fusion92": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "fyllo": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "g2_stack": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "gale": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
+  },
+  "general_motors": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "georgia_arrests": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "georgiacourtrecords_us": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "getemails": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "giant_partners": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "glad_i_know": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
+  },
+  "global_source_data_solutions": {
+    "status": "confirmed",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "goodcar": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "governmentregistry_org": {
     "status": "confirmed",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "reply"
+  },
+  "govwarrantsearch_org": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "graph8": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "grassroots_analytics": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
+  },
+  "grata": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "gravy_analytics": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "grayhair": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
+  },
+  "graze_social": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "great_lakes_list_management": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "greenhouse_software": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "grin_technologies": {
+    "status": "manual_required",
+    "changed": "2026-08-28",
+    "via": null
   },
   "groundtruth": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "growbots": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "web"
+  },
+  "growing_libraries": {
+    "status": "manual_required",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "growthcode": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "h1": {
     "status": "not_found",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
+  },
+  "h1_insights": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "harmon_research": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "hawaii_arrests": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "hawaiicourtrecords_us": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "hd_information": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "hdml": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "health_union": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "healthcare": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "healthlink_dimensions": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "healthwise_data": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "heartbeat_ai": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "reply"
+  },
+  "helix_campaigns": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "here_north_america": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "hexasoft_development_sdn_bhd": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "hightouch": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "hireez": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
+  },
+  "hivestack": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "homeowner_marketing_services": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "hybrid_theory": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "i360": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "id5": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "idaho_arrests": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "idahocourtrecords_us": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "idcrawl": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
+  },
+  "idengine": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "idi": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "idm": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
+  },
+  "idmap": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "idstrong": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "reply"
   },
   "illinois_arrests": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "illinoiscourtrecords_us": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "illumin": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
+  },
+  "imprint_analytics": {
+    "status": "unreachable",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "inbound_insight": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "index_exchange": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "indiana_arrests": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "indianacourtrecords_us": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "infinite_media_concepts": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "infocore": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "infofree": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "web"
   },
   "infopay": {
+    "status": "not_found",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "informa": {
     "status": "submitted",
-    "changed": "2026-08-23",
-    "via": "email"
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "informa_techtarget": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "information_com": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "reply"
+  },
+  "infortal_worldwide": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "infotracer": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "infotracer_goodcar_propertychecker_entitycheck_sentinex_cour": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "infutordata": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "inmarket": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "inmatessearcher": {
     "status": "confirmed",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "inmobi": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "innovative_database_solutions": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "instantcheckmate": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "reply"
   },
   "instantcheckspy": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
+  },
+  "instantly_ai": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "institutional_shareholder_services": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "integrated_medical_data": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "intelius": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "reply"
+  },
+  "intent_iq": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "intentgine": {
     "status": "not_found",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "reply"
+  },
+  "intentsify": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "internet_brands": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "intranet_quorum": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "iowa_arrests": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "iowacourtrecords_us": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "ipapi": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "ipreo": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "ipsos": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "iqvia": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "irys": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "ispot_tv": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
+  },
+  "iss_market_intelligence_or_iss_mi": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "iwave": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "j_d_power": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "jdm_list_services": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "jigyasa_analytics": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "jkid_consulting": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "jmr_media": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "juicebox_app": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "kansas_arrests": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "kansascourtrecords_us": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "kargo_global": {
+    "status": "manual_required",
+    "changed": "2026-08-28",
     "via": null
   },
   "kaspr_io": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "kb_synergy": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "kentucky_arrests": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "kentuckycourtrecords_us": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "key_marketing_advantage": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "keyopinionleaders": {
     "status": "unreachable",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "keyword_connects": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "kids_live_safe": {
     "status": "confirmed",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
+  },
+  "kind_skiptracing": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "klarifi": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "koddi": {
+    "status": "manual_required",
+    "changed": "2026-08-28",
+    "via": null
   },
   "komodo_health": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
+  },
+  "kontext_data": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "kyc_data": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "l2_data": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "lead411": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "lead_me_media": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "leadership_connect": {
     "status": "not_found",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "web"
   },
   "leadiq": {
     "status": "not_found",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "leadpost": {
     "status": "manual_required",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "leadsmarket_com": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "leadspace": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "leadzod": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "lexisnexis": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "lexisnexis_risk_solutions_fl": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "licensefiles": {
     "status": "not_found",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "reply"
   },
   "lighthouse_list": {
     "status": "not_found",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "limeleads": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "lionshare": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "list_service_direct": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
+  },
+  "listproguru": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "lists_direct_mail_solutions": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "listsonline": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "live_data_technologies": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "liveintent": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "liveramp": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "lizdev": {
     "status": "not_found",
-    "changed": "2026-08-26",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "local_crime_news": {
     "status": "not_found",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "reply"
   },
   "locatefamily": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "locatesmarter": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "lookups_io": {
     "status": "manual_required",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "web"
   },
   "lotame": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "louisiana_arrests": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "louisianacourtrecords_us": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "lusha": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "m1_data": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "magnite": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "maine_arrests": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "mainecourtrecords_us": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "marinus_analytics": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "marketforce": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "marketops": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "maryland_arrests": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "marylandcourtrecords_us": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "massachusetsscourtrecords_us": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "massachusetts_arrests": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "match_and_append": {
     "status": "unreachable",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "web"
   },
   "matchbook": {
     "status": "manual_required",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "reply"
   },
   "mch": {
     "status": "manual_required",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "media_source_solutions": {
     "status": "not_found",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "mediamath": {
     "status": "failed",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "mediasoft": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "mediawallah": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "melissa": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "men_stopping_violence": {
     "status": "confirmed",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "web"
   },
   "merkle": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "michigan_arrests": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "michigancourtrecords_us": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "mightyrep": {
     "status": "not_found",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "milestone_marketing_solutions": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "mineralholders": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "minerva": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "minnesota_arrests": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "minnesotacourtrecords_us": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "mississippi_arrests": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "mississippi_tornado_alley": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "mississippicourtrecords_us": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "missouri_arrests": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "missouricourtrecords_us": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "mixrank": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "modigie": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "mogean": {
     "status": "not_found",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "moneybot5000": {
     "status": "manual_required",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "reply"
   },
   "montana_arrests": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "montanacourtrecords_us": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "moody_s": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "moody_s_analytics": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "mr": {
     "status": "not_found",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "reply"
   },
   "mrss": {
     "status": "not_found",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "mugshotlook": {
     "status": "confirmed",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "reply"
   },
   "my_renter_checker": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "mylife": {
     "status": "confirmed",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "reply"
   },
   "national_public_data": {
     "status": "confirmed",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "reply"
   },
   "nc_solutions": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "nebraska_arrests": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "nebraskacourtrecords_us": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "neighborwho": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "reply"
   },
   "netwise": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "nevadacourtrecords_us": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "new_hampshire_arrests": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "new_jersey_arrests": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "new_mexico_arrests": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "new_york_arrests": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "newbusinesslistsusa": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "newhampshirecourtrecords_us": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "newhomeownerlistsusa": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "newjerseycourtrecords_us": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "newmexicocourtrecords_us": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "newyorkcourtrecords_us": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "nexsales": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "nextroll": {
     "status": "captcha_blocked",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "web"
   },
   "nexxa": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "web"
   },
   "nfocus": {
     "status": "not_found",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "nielsen": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "web"
   },
   "njpropertyrecords": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "north_carolina_arrests": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "north_dakota_arrests": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "northcarolinacourtrecords_us": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "northcarolinapublicrecords_org": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "northdakotacourtrecords_us": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "notariescalifornia_com": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "npi_profile": {
     "status": "not_found",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "web"
   },
   "numberguru": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "reply"
   },
   "numlookup": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "reply"
   },
   "nuwber": {
     "status": "confirmed",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "officialusa": {
     "status": "unreachable",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "ohio_arrests": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "ohiocourtrecords_us": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "oklahoma_arrests": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "oklahomacourtrecords_us": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "oncore_leads": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "onemata": {
     "status": "unreachable",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "onemodel": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "openpeoplesearch": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "web"
   },
   "oracle_datacloud": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "oregon_arrests": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "oregoncourtrecords_us": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "outbrain": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "outlogic": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "outreach_io": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "outward_media": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "ownerly": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "reply"
   },
   "pacificeast": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "parade_pet": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "paramount_direct_marketing": {
     "status": "captcha_blocked",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "web"
   },
   "path2response": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "web"
+  },
+  "pathway_ventures": {
+    "status": "unreachable",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "paynet": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "pbi_research": {
     "status": "manual_required",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "web"
   },
   "peekyou": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "pennsylvania_arrests": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "pennsylvaniacourtrecords_us": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "people_search_org": {
     "status": "manual_required",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "web"
   },
   "peoplebyname": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "peopleconnect": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "reply"
+  },
+  "peoplefind_com": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "peoplefinder": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "peoplefinders": {
     "status": "captcha_blocked",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "reply"
   },
   "peoplefindersdaas": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "peoplelooker": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "reply"
   },
   "peoplesearch": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "reply"
   },
   "peoplesearch123": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "peoplesearcher": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "peoplesearchnow": {
     "status": "captcha_blocked",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "web"
   },
   "peoplesearchusa": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "peoplesmart": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "peoplewhiz_com": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "peoplewhizr_com": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
+  },
+  "peoplewin": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "perf_labs_inc_d_b_a_interseller": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "perion": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "permutive": {
+    "status": "not_found",
+    "changed": "2026-08-28",
+    "via": null
   },
   "persistent_id": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "personsearchers": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "persopo_com": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
+  },
+  "pgm_solutions_porch_group_media": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "pharosiq": {
     "status": "not_found",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "reply"
   },
   "phonebooks_com": {
     "status": "captcha_blocked",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "web"
   },
   "phonenumberinfo_us": {
     "status": "unreachable",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "web"
   },
   "phonenumbers_org": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
+  },
+  "pickmedicare": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "pipl": {
     "status": "not_found",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "pitchbook": {
-    "status": "submitted",
-    "changed": "2026-08-23",
+    "status": "email_pending",
+    "changed": "2026-08-28",
     "via": "email"
+  },
+  "place_exchange": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "plexuss": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
+  },
+  "plug_industries": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "plunge_digital": {
+    "status": "confirmed",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "pmg_worldwide": {
+    "status": "manual_required",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "podscribe": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "pop_acta": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "possiblenow": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "postie": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "postpilot": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "precisely": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
+  },
+  "preferred_communications": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "privateeye": {
     "status": "unreachable",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "web"
   },
   "privatenumberchecker_com": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "web"
   },
   "privaterecords": {
     "status": "confirmed",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "privatereports": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "privco": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "propertychecker": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "web"
   },
   "propertyiq": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "propertyradar": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "propertyreach": {
     "status": "manual_required",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "web"
   },
   "propertyrecord_com": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "propertyrecs": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "prospectbase_uk": {
     "status": "submitted",
-    "changed": "2026-08-26",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "prospeo": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "public_data_check": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "public_information_services": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "public_libraries": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "public_record_reports": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "publicinfoservices_family": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "publicrecordcom": {
-    "status": "submitted",
-    "changed": "2026-08-26",
-    "via": "email"
+    "status": "confirmed",
+    "changed": "2026-08-28",
+    "via": null
   },
   "publicrecords_com": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "publicrecords_us": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "publicsearcher": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "pwc": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "quad": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "quadrant_global_pte": {
     "status": "submitted",
-    "changed": "2026-08-26",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "qualcomm": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "qualfon": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "quick_people_trace": {
     "status": "not_found",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "reply"
   },
   "quick_public_records": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "reply"
   },
   "quientelefono": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "radaris": {
     "status": "confirmed",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "rampedup": {
-    "status": "submitted",
-    "changed": "2026-08-26",
+    "status": "manual_required",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "reach_marketing": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "real_intent": {
     "status": "submitted",
-    "changed": "2026-08-26",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "real_performance_marketing": {
     "status": "unreachable",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "web"
   },
   "realeflow": {
     "status": "submitted",
-    "changed": "2026-08-26",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "reallygreatrate": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "realpeoplesearch": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "realsource_data": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "realtyhop_com": {
     "status": "not_found",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "recordsfinder": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
+  },
+  "recordspage": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "recordsquarry": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "recruitbot": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "redbird_direct": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "redi_data": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
+  },
+  "referenceguru": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "rehold": {
     "status": "unreachable",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "reis": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "relationship_science": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "relpro": {
     "status": "submitted",
-    "changed": "2026-08-26",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "remodeling_com": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "reonomy": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "researchusa": {
     "status": "submitted",
-    "changed": "2026-08-26",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "resonate": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "response_america": {
     "status": "submitted",
-    "changed": "2026-08-26",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "retention_com": {
     "status": "confirmed",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "reply"
   },
   "rev": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "revcontent": {
     "status": "submitted",
-    "changed": "2026-08-26",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "reveal_mobile": {
     "status": "submitted",
-    "changed": "2026-08-26",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "reveal_phone_owner": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "revelio_labs": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "reply"
   },
   "revenuebase": {
     "status": "submitted",
-    "changed": "2026-08-26",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "reversephone": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "reversephonelookup": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "rhetorik": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "rhode_island_arrests": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "rhodeislandcourtrecord_us": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "ripple_effect_strategies": {
     "status": "submitted",
-    "changed": "2026-08-26",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "roc_advertising": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "rocketreach": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "ror_partners": {
     "status": "email_pending",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "round_sky": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "s_p_global": {
     "status": "submitted",
-    "changed": "2026-08-26",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "sabio": {
     "status": "submitted",
-    "changed": "2026-08-26",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "safegraph": {
     "status": "submitted",
-    "changed": "2026-08-26",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "saha_ventures": {
     "status": "unreachable",
-    "changed": "2026-08-26",
+    "changed": "2026-08-28",
     "via": null
   },
   "salesassistiq": {
     "status": "submitted",
-    "changed": "2026-08-26",
+    "changed": "2026-08-28",
     "via": "email"
+  },
+  "salesflower": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "salesintel_research": {
     "status": "submitted",
-    "changed": "2026-08-26",
+    "changed": "2026-08-28",
     "via": "email"
+  },
+  "salesleads101": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "samba_tv": {
     "status": "submitted",
-    "changed": "2026-08-26",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "sawyer_lists": {
-    "status": "submitted",
-    "changed": "2026-08-26",
-    "via": "email"
+    "status": "unreachable",
+    "changed": "2026-08-28",
+    "via": null
   },
   "sbfe": {
     "status": "submitted",
-    "changed": "2026-08-26",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "scanbuy": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "scileads": {
     "status": "submitted",
-    "changed": "2026-08-26",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "scraping_robot": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "sealedrecords": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "seamless_ai": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "web"
   },
   "search_quarry": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "searchpeoplefree": {
     "status": "manual_required",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "searchpeoplefree_net": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "searchpublicrecords_com": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "searchsystems_public_records": {
     "status": "unreachable",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "secretinfo": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "seedtable": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "seekout": {
     "status": "manual_required",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "semantiq": {
     "status": "submitted",
-    "changed": "2026-08-26",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "semasio": {
     "status": "submitted",
-    "changed": "2026-08-26",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "semcasting": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "sentilink": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "sentinex": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "sg360": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "share_local_media": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "sharethis": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "sheriffsdepartment_net": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "shopify": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "web"
   },
   "simiocloud": {
     "status": "captcha_blocked",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "smartmove": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "snoopstation": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "snov_io": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "sourceit": {
     "status": "confirmed",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "south_carolina_arrests": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "south_dakota_arrests": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "southcarolinacourtrecords_us": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "southcarolinapublicrecords_com": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "southdakotacourtrecords_us": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "spectrum_mailing_lists": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "speedeon_data": {
     "status": "captcha_blocked",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "spokeo": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "spycloud": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "spydialer": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "spyfly": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "staircase": {
     "status": "unreachable",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "statara": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "statecourts": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
+  },
+  "staterecords": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "staterecords_org": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "step2success_marketing": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "steppingblocks": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "sterling": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "stirista": {
     "status": "not_found",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "strata": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "strategic_data_intelligence": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "structure": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "sync_me": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "tapad": {
     "status": "manual_required",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "web"
   },
   "td_cowen": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "teads": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "telefi": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "telephone_directories": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "tennessee_arrests": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "tennesseecourtrecords_us": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "terminus": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "web"
+  },
+  "texas_arrests": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "texascourtrecords_us": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "texaswarrantroundup_org": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "thatsthem": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "the_bridge": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
+  },
+  "thepublicindex": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "tl1": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "transunion": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "trestle": {
     "status": "confirmed",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "true_blue_analytics": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "truepeoplesearch": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "web"
   },
   "truepeoplesearch_net": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "trustoria": {
     "status": "unreachable",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "truthfinder": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "reply"
   },
   "truthrecord": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "truthviewer": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "tunnl": {
     "status": "confirmed",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "web"
   },
   "tymax_media": {
     "status": "unreachable",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "ufind_name": {
     "status": "captcha_blocked",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "web"
   },
   "unearth_campaigns": {
     "status": "manual_required",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "web"
   },
   "unmask": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "uplead": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "us_marketing_group": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "usadata": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "usatrace": {
     "status": "not_found",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "web"
   },
   "usdatacorporation": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "usphonebook": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "usphonelookup": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "usrecords": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "ussearch": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "reply"
+  },
+  "uswarrants": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "utah_arrests": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "utahcourtrecords_us": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "vdx_tv": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "venntel": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "venpath": {
     "status": "unreachable",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "veraset": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "reply"
   },
   "verifypublicrecords_com": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "verifyrecords": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "reply"
   },
   "verinext": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "veripages": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "verisk_marketing_solutions": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "vermont_arrests": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "vermontcourtrecords_us": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "versium": {
     "status": "confirmed",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "viant": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "viewdns": {
     "status": "not_found",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "reply"
   },
   "virginia_arrests": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "virginiacourtrecords_us": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "voilanorbert": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "voterrecords_com": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "warmly": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "washington_arrests": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "washington_dc_arrests": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "washingtoncourtrecords_us": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "wealth_x": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
+  },
+  "wealthengine": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": null
   },
   "webbula": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "weinform": {
     "status": "confirmed",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "reply"
   },
   "west_virginia_arrests": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "westvirginiacourtrecords_us": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "whitepages": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "reply"
   },
   "windfall": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "wisconsin_arrests": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "wisconsincourtrecords_us": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "wisdom_media_group": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "wodwo": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "wunderkind": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "wyoming_arrests": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "wyomingcourtrecords_us": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "wyty": {
     "status": "confirmed",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "x_mode_social": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "xome": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": null
   },
   "zabasearch": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "reply"
+  },
+  "zeta_global": {
+    "status": "submitted",
+    "changed": "2026-08-28",
+    "via": null
   },
   "zlookup": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "zoominfo": {
     "status": "submitted",
-    "changed": "2026-08-23",
+    "changed": "2026-08-28",
     "via": "email"
   }
 }

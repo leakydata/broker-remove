@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-20)
-- Note: Emailed privacyofficer@datacomplianceportal.com. datacomplianceportal.com (Tymax Media's registered privacy contact domain) returned HTTP 522 (Cloudflare: origin unreachable) when checked on 2026-08-20 — the domain may be unreliable or intermittently down. Sent as a marketing/list-rental category letter (hashed-email search, downstream list-partner deletion).
+- Current: `unreachable` (updated 2026-08-28)
+- Note: 2026-08-28: The 2026-08-20 send was logged `submitted`, which didn't match this playbook's own table below — it had hard-bounced. Corrected the ledger and the registry's `email_verified` flag to match what was already documented here. Sent as a marketing/list-rental category letter (hashed-email search, downstream list-partner deletion).
 
 ## Steps
 

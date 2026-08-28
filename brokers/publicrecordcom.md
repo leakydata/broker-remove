@@ -14,18 +14,20 @@
 
 ## Steps
 
-<!-- Replace once the route is confirmed. What actually worked, in order. -->
+1. Email `compliance@publicrecord.com`. Concede up front that the underlying
+   public record itself is outside their control; ask only for their
+   compiled record, name removal from any name-searchable index, and their
+   upstream sources.
+2. Expect a same-day affirmative removal confirmation, not just a receipt.
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+Conceding the underlying public record up front — rather than demanding the
+impossible — is what got a same-day affirmative answer instead of a deflection
+about public-records exemptions.
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+Re-run the name search on publicrecord.com after a week to confirm the entry
+doesn't resurface; the written "successfully expunged" confirmation is
+already a stronger artifact than most in this category.

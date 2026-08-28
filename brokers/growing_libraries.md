@@ -7,23 +7,23 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-27)
+- Current: `manual_required` (updated 2026-08-28)
 - Note: Opt-out letter sent by email to privacyteam@growinglibraries.com (delete + opt out of sale/sharing + direct downstream recipients + suppress against future ingestion). All twelve email addresses, sixteen prior addresses and eleven prior phone numbers listed for search. Sent as HTML per letter_html.
+- Update 2026-08-27: Auto-reply marked the emailed request "completed for now" but said they will only actually act once the do-not-sell web form is submitted — the "completed" label is a queue-management state, not a result. Queued for a human.
 
 ## Steps
 
-<!-- Replace once the route is confirmed. What actually worked, in order. -->
+Email gets acknowledged but not acted on. Submit
+`https://growinglibraries.com/do-not-sell` to actually trigger removal.
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+**"Completed" in their auto-reply does not mean done.** It closes the email
+ticket, not the request — the same message says plainly it will only reopen
+and act once the web form arrives. Do not record this as `submitted` from
+the email alone; the email is a dead end that looks like progress.
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+No confirmation yet — pending the web-form submission. Their auto-reply
+states no timeframe; check back after the form is filed.

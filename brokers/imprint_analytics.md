@@ -26,14 +26,12 @@ policy, no second address. See `_SILENT_FAILURES.md` §145.
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+**Do not stop at DNS-health checks.** MX resolves, the A record resolves, port
+80 answers — every check this project normally runs to decide a domain is
+alive says yes, and there is still no reachable company behind any of them.
+See `_SILENT_FAILURES.md` §145.
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+Nothing to verify — no route exists (see Status/Steps above). Re-check
+periodically whether imprintanalytics.io starts serving a real site.

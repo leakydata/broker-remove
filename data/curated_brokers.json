@@ -1873,7 +1873,7 @@
       "email_to": "info@connextdigital.com",
       "email_verified": false,
       "email_verified_by": "bounced",
-      "notes": "Both info@connextdigital.com (2026-08-17) and privacy@connextdigital.com (2026-08-22) hard-bounce 550 5.1.1. No alternative address published anywhere on the site. Domain/MX resolve — live domain, no working mailbox. No usable email route; do not resend to either address.",
+      "notes": "Both info@connextdigital.com (2026-08-17) and privacy@connextdigital.com (2026-08-22) hard-bounce 550 5.1.1. No alternative address published anywhere on the site. Domain/MX resolve \u2014 live domain, no working mailbox. No usable email route; do not resend to either address.",
       "email_alt": "privacy@connextdigital.com",
       "registry_years": [
         "2020-2023",
@@ -2039,7 +2039,7 @@
       "email_to": "priorityoptout@intelius.com",
       "email_verified": true,
       "email_verified_by": "broker_reply",
-      "notes": "support@criminaldatacheck.com hard-bounces (550) and is the only address the site itself publishes. This is an Intelius/PeopleConnect affiliate front (optout_url already pointed at intelius.com/privacy-center) — file against priorityoptout@intelius.com naming CriminalDataCheck.com specifically, same pattern as addresses_com and zabasearch.",
+      "notes": "support@criminaldatacheck.com hard-bounces (550) and is the only address the site itself publishes. This is an Intelius/PeopleConnect affiliate front (optout_url already pointed at intelius.com/privacy-center) \u2014 file against priorityoptout@intelius.com naming CriminalDataCheck.com specifically, same pattern as addresses_com and zabasearch.",
       "email_alt": "support@criminaldatacheck.com"
     },
     {
@@ -2187,7 +2187,7 @@
       "email_to": "info@datadirectmarketing.com",
       "email_verified": false,
       "email_verified_by": "bounced",
-      "notes": "Both info@datadirectmarketing.com (2026-08-17) and datanalytics@teamdms.com (2026-08-22) hard-bounce 'address not found'. No alternative address published anywhere on the site. Domain/MX resolve — live domain, no working mailbox. No usable email route; do not resend to either address.",
+      "notes": "Both info@datadirectmarketing.com (2026-08-17) and datanalytics@teamdms.com (2026-08-22) hard-bounce 'address not found'. No alternative address published anywhere on the site. Domain/MX resolve \u2014 live domain, no working mailbox. No usable email route; do not resend to either address.",
       "email_alt": "datanalytics@teamdms.com",
       "registry_years": [
         "2020-2023",
@@ -2227,8 +2227,8 @@
       "method": "web_form",
       "optout_url": "https://privacycompliance.biz/other-dbusa/",
       "email_to": "privacy@databaseusa.com",
-      "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified": false,
+      "email_verified_by": "bounced",
       "needs_email_confirm": true,
       "source": "discovered_via_infofree",
       "notes": "Found because infofree.com links its privacy route here. Runs a self-service portal at privacycompliance.biz with separate toggles for opt-out of sale, deletion and category disclosure, and an emailed verification link. Their disclosure page lists ethnicity, religion and political party among the categories collected, and 'Resale to Data Brokers' among the purposes.",
@@ -5076,8 +5076,8 @@
       "source": "optery_scrape",
       "optery_slug": "match-and-append",
       "email_to": "info@matchandappend.com",
-      "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified": false,
+      "email_verified_by": "bounced",
       "notes": "Both privacy@matchandappend.com and info@matchandappend.com hard-bounce (550); the CA data broker registry (oag.ca.gov/data-broker/registration/546620) lists the same dead privacy@ address plus info@. The privacy-policy page itself returned 503 on the day this was checked, so the site may be intermittently down rather than gone. Fallback web routes published in the registry: https://www.matchandappend.com/do-not-sell-my-data/ and https://www.matchandappend.com/unsubscribe/ - needs a human, no CAPTCHA info available.",
       "email_alt": null,
       "registry_years": [
@@ -5279,8 +5279,8 @@
       "source": "optery_scrape",
       "optery_slug": "mightyrep",
       "email_to": "privacy@mightyrep.com",
-      "email_verified": true,
-      "email_verified_by": "was hard-bouncing; repaired by the founder on 2026-08-19 after being reported",
+      "email_verified": false,
+      "email_verified_by": "bounced",
       "notes": "privacy@mightyrep.com hard-bounces (address not found) despite being the exact address on file in MightyRep's own CA data broker registration (oag.ca.gov/data-broker/registration/564387, approved 2023-03-16) - the state registry does not guarantee deliverability. No alternate address published. Fallback is the contact form at /contact (needs a human; no CAPTCHA info available)."
     },
     {
@@ -6161,8 +6161,8 @@
       "source": "optery_scrape",
       "optery_slug": "onemata",
       "email_to": "privacy@onemata.com",
-      "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified": false,
+      "email_verified_by": "bounced",
       "notes": "privacy@, info@ and legal@onemata.com all hard-bounce; the bare domain (onemata.com, no www) 404s. The CA data broker registry (oag.ca.gov/data-broker/registration/546702) lists privacy@onemata.com as the contact and a do-not-sell-my-personal-info form plus a phone line, (833) 663-6282, as alternate CCPA channels - both unverified since the site itself would not load when checked. Needs a human to try the phone line or re-check the site; email is a dead end for now.",
       "email_alt": null,
       "registry_years": [
@@ -6194,8 +6194,8 @@
       "source": "optery_scrape",
       "optery_slug": "openpeoplesearch",
       "email_to": "info@openpeoplesearch.com",
-      "email_verified": true,
-      "email_verified_by": "privacy_policy"
+      "email_verified": false,
+      "email_verified_by": "bounced"
     },
     {
       "id": "openpublicrecords",
@@ -9062,7 +9062,7 @@
       "optery_slug": "tymax-media",
       "email_to": "privacyofficer@datacomplianceportal.com",
       "email_verified": false,
-      "email_verified_by": null
+      "email_verified_by": "bounced"
     },
     {
       "id": "ufind_name",
@@ -11957,8 +11957,8 @@
       "source": "ca_data_broker_registry",
       "optery_slug": null,
       "email_to": "sam@arrakis.ai",
-      "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified": false,
+      "email_verified_by": "bounced",
       "registry_years": [
         "2020-2023",
         "2024"
@@ -14347,8 +14347,8 @@
       "source": "ca_data_broker_registry",
       "optery_slug": null,
       "email_to": "data@emerges.com",
-      "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified": false,
+      "email_verified_by": "bounced",
       "registry_years": [
         "2020-2023",
         "2024"
@@ -15725,8 +15725,8 @@
       "source": "ca_data_broker_registry",
       "optery_slug": null,
       "email_to": "privacy@imprintanalytics.io",
-      "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified": false,
+      "email_verified_by": "bounced",
       "registry_years": [
         "2020-2023"
       ],
@@ -15782,8 +15782,8 @@
       "source": "ca_data_broker_registry",
       "optery_slug": null,
       "email_to": "privacyofficer@indivizio.com",
-      "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified": false,
+      "email_verified_by": "bounced",
       "registry_years": [
         "2020-2023",
         "2024"
@@ -16887,7 +16887,7 @@
       ],
       "legal_name": null,
       "email_alt": "dataprivacy@listmatch.com",
-      "notes": "dataprivacy@listmatch.com — the address on their CA data broker registration — hard-bounced (550) 2026-08-27. Their own privacy page publishes a YEAR-SUFFIXED address, dataprivacy2026@listmatch.com, which rotates while the registry keeps the old one. Resent there 2026-08-27 and got an auto-reply confirming receipt (gmail:1a041e3313fd0e4e). Registry entry was stale — email_to still pointed at the dead address after a prior session already found and used the fix."
+      "notes": "dataprivacy@listmatch.com \u2014 the address on their CA data broker registration \u2014 hard-bounced (550) 2026-08-27. Their own privacy page publishes a YEAR-SUFFIXED address, dataprivacy2026@listmatch.com, which rotates while the registry keeps the old one. Resent there 2026-08-27 and got an auto-reply confirming receipt (gmail:1a041e3313fd0e4e). Registry entry was stale \u2014 email_to still pointed at the dead address after a prior session already found and used the fix."
     },
     {
       "id": "lob_com",
@@ -18709,7 +18709,7 @@
       ],
       "legal_name": "RampedUp",
       "email_alt": "privacy@rampedup.io",
-      "notes": "privacy@rampedup.io — the address on their CA data broker registration — is a restricted Google Workspace group that rejects outside senders ('group may not exist or you may not have permission to post'), bounced 2026-08-26. Their own site publishes contact@rampedup.io instead; resent there, unverified until a reply arrives."
+      "notes": "privacy@rampedup.io \u2014 the address on their CA data broker registration \u2014 is a restricted Google Workspace group that rejects outside senders ('group may not exist or you may not have permission to post'), bounced 2026-08-26. Their own site publishes contact@rampedup.io instead; resent there, unverified until a reply arrives."
     },
     {
       "id": "ray_cdp",
@@ -18922,14 +18922,14 @@
       "name": "ResearchUSA",
       "domain": "researchusallc.com",
       "priority": 2,
-      "method": "email",
-      "optout_url": "",
+      "method": "web_form",
+      "optout_url": "https://privacycompliance.biz/other-researchusallc/",
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
       "email_to": "privacy@researchusallc.com",
-      "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified": false,
+      "email_verified_by": "bounced",
       "registry_years": [
         "2020-2023",
         "2024"
@@ -19345,8 +19345,8 @@
       "source": "ca_data_broker_registry",
       "optery_slug": null,
       "email_to": "admin@sawyerdatadirect.com",
-      "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified": false,
+      "email_verified_by": "bounced",
       "registry_years": [
         "2020-2023"
       ],

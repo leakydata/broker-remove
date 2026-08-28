@@ -7,23 +7,26 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-27)
+- Current: `manual_required` (updated 2026-08-28)
 - Note: 2026-08-27: first contact. PMG is a media/marketing agency, so used the ad-tech variant: hashed email, advertising/cookie IDs, modelled audience segments, and asked them to confirm client campaign data and DSP/SSP partners were directed to do the same.
+- Update 2026-08-28: Got back the same canned "Do Not Sell or Share" template used by `dataprivacy+noreply@koddi.com` and `privacyinfo+noreply@kargo.com` — see Gotchas. No point sending a follow-up by email.
 
 ## Steps
 
-<!-- Replace once the route is confirmed. What actually worked, in order. -->
+1. Do not expect an email reply to answer anything — `dataprivacy+noreply@pmg.com`
+   is a canned autoresponder (see Gotchas). Use whatever web form/portal it names.
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+**`dataprivacy+noreply@pmg.com` sent the identical canned template used by
+Koddi and Kargo** ("On behalf of [Company], I am writing to address your
+recent inquiries concerning 'Do Not Sell or Share' requests..."). Same
+boilerplate, different company name substituted — almost certainly a shared
+privacy-ops vendor or template across these three. Treat any `+noreply`
+sender the same way: don't spend an email round asking it a question, look
+for the web form it names instead.
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+No confirmation yet — the only reply so far is the canned autoresponder.
+Nothing public to re-search (ad agency, not a listing site).

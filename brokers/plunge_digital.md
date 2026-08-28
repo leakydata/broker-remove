@@ -7,23 +7,28 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-27)
+- Current: `confirmed` (updated 2026-08-28)
+- Reference: https://my.datasubject.com/Azq9ITU2sQjNPKhSo/38050
 - Note: 2026-08-27: first contact. Direct-mail/list-rental variant: asked them to identify list partners/clients who already received a record and direct them to delete it too.
+- Update 2026-08-27: Confirmed opt-out of sale/sharing "effective immediately," with a Privacy Notice reference link. **The reply only addresses the opt-out side.** The original letter also asked for deletion and for list partners who already received a record to be told to delete it — neither is mentioned in the confirmation, and CCPA opt-out-of-sale and deletion are separate rights that don't imply each other.
 
 ## Steps
 
-<!-- Replace once the route is confirmed. What actually worked, in order. -->
+1. Email `privacy@plungedigital.com` — the direct-mail/list-rental variant,
+   naming list partners/clients explicitly.
+2. Expect confirmation of the opt-out-of-sale side only; deletion and
+   downstream-partner notification may need a separate follow-up.
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+**Opt-out-of-sale confirmed is not deletion confirmed.** Plunge Digital's reply
+reads like a complete answer but only speaks to one of the four things asked
+for. If this broker resurfaces in a listing later, the deletion and
+list-partner-notification asks are still open — don't assume they were
+folded into the opt-out confirmation.
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+Opt-out-of-sale confirmed effective immediately, with a Privacy Notice
+reference URL. No stated timeframe for the deletion side, which wasn't
+explicitly addressed — see Gotchas.

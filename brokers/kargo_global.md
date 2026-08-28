@@ -7,23 +7,24 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-28)
-- Note: Emailed ccparequest@kargo.com 2026-08-28 (dedicated CCPA mailbox as filed). Standard letter incl. retention clause.
+- Current: `manual_required` (updated 2026-08-28)
+- Note: Emailed ccparequest@kargo.com 2026-08-28 (dedicated CCPA mailbox as filed). Standard letter incl. retention clause. A second, unrelated letter to privacyinfo@kargo.com the same day got the identical canned reply below, confirming it's not specific to one mailbox.
+- Update 2026-08-28: Both threads got back the same template from `privacyinfo+noreply@kargo.com` pointing at their Privacy Rights Portal, regardless of what was asked — see Gotchas. A detailed follow-up question got the exact same paragraph again.
 
 ## Steps
 
-<!-- Replace once the route is confirmed. What actually worked, in order. -->
+**Do not email follow-up questions — use the portal.** `privacyinfo+noreply@kargo.com`
+is an autoresponder; go straight to the Privacy Rights Portal it names.
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+**`privacyinfo+noreply@kargo.com` is a template autoresponder, confirmed by
+direct test** — two separate threads (a fresh submission to a different
+mailbox, and a detailed follow-up) both got back byte-for-byte the same
+canned paragraph pointing at the Privacy Rights Portal. See `koddi.md` and
+`pmg_worldwide.md` for the same shape, possibly the same vendor/template.
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+No confirmation yet — pending the Privacy Rights Portal submission. Nothing
+public to re-search (ad-tech, not a listing site).

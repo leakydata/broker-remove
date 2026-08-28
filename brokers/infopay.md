@@ -8,8 +8,10 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-18)
+- Current: `not_found` (updated 2026-08-28)
+- Reference: 537420, 538135, 538136, 538631, 538837, 538871, 539317, 539385, 540287, 540288
 - Note: People-search. Every former address and disconnected number; relatives-and-associates listings; suppression vs one-time; upstream sources; sibling properties. Also refused in advance any requirement to purchase or subscribe in order to exercise a deletion right.
+- Update 2026-08-27: Unusually thorough single reply covering ten logged reference numbers across all of InfoPay's aggregated brands (incl. IDStrong) at once. Searched every identifier including priors, found no matching record anywhere (no court/criminal/arrest entry either), and confirmed no account exists under IDStrong specifically. Applied a **standing** suppression (re-applied on future ingestion, not a one-time removal) against every identifier supplied. On the relatives/associates question: removal doesn't reach an entry where the name appears only as a relative on someone *else's* record, since those are indexed under the other person — asked to be sent the URL if one is ever found. Confirmed not treating any of this as an FCRA-regulated consumer report. **On Pennsylvania: stated plainly that PA has no applicable statute, then actioned the request anyway "as a matter of its published privacy policy" — the fallback clause working exactly as designed**, and said which basis they used, unprompted.
 
 ## Steps
 

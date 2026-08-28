@@ -7,23 +7,24 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-27)
+- Current: `not_found` (updated 2026-08-28)
 - Note: 2026-08-27: first contact. Ad-tech/audience-data variant: asked for hashed-email matching (SHA-256/MD5), cookie IDs, MAIDs, and modelled audience segments, and framed as an opt-out of cross-context behavioral-advertising sharing specifically, including downstream DSP/SSP partners.
+- Update 2026-08-27: Confirmed by a named person (not a template): searched records, holds no personal information matching any identifier, and confirmed it will not use/collect/sell it going forward. Sent twice (duplicate, identical text, three minutes apart) — treat as one answer, not two.
 
 ## Steps
 
-<!-- Replace once the route is confirmed. What actually worked, in order. -->
+1. Email `privacy@permutive.com` with the ad-tech variant letter (hashed-email
+   matching, cookie IDs, MAIDs, modelled segments).
+2. Expect an unqualified no-match answer from a named person, not a form.
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+Sent as an unqualified no-match by a named contact rather than a form
+template — a clean outcome for an ad-tech identity-graph business, where
+"no match" is a real and useful answer given how these businesses are
+usually built on hashed/derived identifiers rather than plaintext ones.
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+Nothing public to re-search. The written no-match confirmation, received
+same-day (twice, duplicate), is the artifact.
