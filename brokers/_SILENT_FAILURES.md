@@ -8712,3 +8712,98 @@ again.
 
 **Related:** §97 (DROP, California-only), §145, §149; `_SILENT_FAILURES` entries
 that describe registry addresses as statutory routes now read against this.
+
+
+---
+
+## §150
+
+**The durable opt-out would require the surveillance it protects against.**
+*Fog Data Science — 28 Aug 2026, confirming §140 in the company's own words*
+
+§140 recorded a suspicion: that a suppression keyed to a Mobile Advertising ID
+covers one value of a rotating identifier, and therefore expires. Fog was asked
+three direct questions and answered all three without hedging. The suspicion is
+now a documented fact.
+
+> **1.** *"Fog's Data Services opt-out and suppression process is keyed to the
+> specific MAID submitted. Fog does not maintain a durable identity or device
+> linkage designed to associate a subsequently reset or replaced MAID with a
+> previously submitted MAID for opt-out purposes."*
+>
+> **2.** *"If a Data Supplier later provides information associated with a
+> different MAID, Fog does not have a mechanism that identifies that new MAID as
+> the successor to a previously suppressed identifier."*
+>
+> **3.** *"Fog does not receive notice when a particular consumer's or device's
+> advertising identifier is reset and therefore cannot notify the consumer when
+> that occurs ... the suppression remains effective for the exact MAID submitted,
+> but it does not automatically transfer to a replacement advertising identifier."*
+
+So, stated plainly:
+
+> **A MAID-keyed opt-out has an expiry date set by the operating system rather than
+> by the person who submitted it, and its lapse is silent on both sides.** The
+> consumer is not told. The broker is not told. The device carries on producing
+> location data under its next identifier, arrives from a supplier as an
+> unrecognised MAID, and matches nothing on the suppression list.
+
+### The part that is genuinely surprising
+
+The second answer contains a sentence that reframes the whole problem:
+
+> *"Maintaining such a relationship would require Fog to maintain **additional
+> persistent linkage between identifiers**, which is not part of Fog's current Data
+> Services architecture."*
+
+A suppression that survived resets would require a graph tying successive
+advertising IDs to one device or person. **The mechanism that would make the
+privacy protection durable is the same mechanism that would make the underlying
+dataset more invasive.**
+
+That is not a gotcha and should not be written up as one. Declining to build
+cross-identifier persistence is a defensible choice and plausibly the more
+privacy-protective one: a company that could reliably carry a suppression across
+MAID resets would be a company that had solved persistent device identity, and
+would then hold something considerably more powerful than what it holds now.
+
+But the consequence follows regardless of intent, and it is invisible from outside:
+
+- **You cannot have a durable suppression in a MAID-keyed system** without the
+  linkage such systems are designed not to keep.
+- So the honest ceiling on this category is *"suppressed until your phone decides
+  otherwise"*, and no amount of persistence by the consumer changes that.
+
+### What it means for the practice
+
+- **Stop treating a MAID opt-out as an outcome.** It is a lease, not a deletion.
+  Record it with the expiry property attached, or a later pass will read
+  "suppressed" and believe it.
+- **The retrieval problem compounds it.** iOS never displays the IDFA; recent
+  Android replaced the display with a delete control (§146). So the consumer is
+  asked to supply, repeatedly and on an unknowable schedule, a value the platform
+  will not show them once.
+- **If a MAID is submitted, use the anonymous form, never an email reply.** Fog's
+  form takes the MAID alone — no name, address, DOB, ID document or account — and
+  Fog confirmed in writing that it requires no identity verification. Replying in
+  a named thread would attach the identifier to the person, which is §144 exactly.
+- **Weigh the payoff as decaying.** Fog's handoff was queued on the basis that one
+  MAID unlocks Fog and Foursquare. Still true — but each unlock is temporary,
+  while the cost of handing a location broker a device identifier is not.
+
+### On the quality of the answer
+
+Fog also declined to treat the submission as a CCPA request, correctly, because
+California residency was not established — and reviewed it under their published
+procedures anyway. And in the earlier message they told the subject to **stop
+sending personal data**, saying the date of birth, historical addresses, phone
+numbers and profile URL were unnecessary and would not improve the search.
+
+Three direct answers to three direct questions, one of which made their own
+product look less durable than a vaguer reply would have. That is worth recording
+alongside the finding, because this file is mostly about companies that answer
+badly, and the contrast is the point: **the architecture here is the problem, and
+the company describing it accurately is the reason we know.**
+
+**Related:** §131, §140, §144, §146, §149a; `_CATEGORY_VARIANTS.md` "Do not hand
+over a device identifier to establish that one is not held".

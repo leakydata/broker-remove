@@ -1832,7 +1832,7 @@
   "fog_data_science": {
     "status": "not_found",
     "changed": "2026-08-27",
-    "via": null
+    "via": "reply"
   },
   "forager_ai": {
     "status": "submitted",
