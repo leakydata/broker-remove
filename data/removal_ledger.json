@@ -1550,9 +1550,9 @@
     "via": "email"
   },
   "el_toro_com": {
-    "status": "submitted",
-    "changed": "2026-08-27",
-    "via": "email"
+    "status": "manual_required",
+    "changed": "2026-08-28",
+    "via": "reply"
   },
   "electronic_voice_services": {
     "status": "submitted",
