@@ -1238,3 +1238,63 @@ whole move: if the pseudonym cannot be resolved by anyone including them, the da
 is safer than assumed and that is worth having on the record; if a client's
 matching key resolves it, then "not linked to your identifying information"
 describes a lock, not the absence of a door.
+
+
+## Brandwatch / Cision — and an opt-out hidden in the signature
+
+**Confirmed 28 Aug 2026 by the reply's sender.** A letter to
+`privacy@brandwatch.com` (17 Aug) was answered on 28 Aug by
+**`PrivacyTeam@cision.com`**, signing off as "The Cision Privacy Team". Cision
+acquired Brandwatch; the privacy function is Cision's. Both appear separately in
+the registrations this project works from, so the standing question was asked
+again: one search, or two?
+
+### They answered the architecture question straight
+
+> *"Our data is generally indexed by social media account identifiers rather than
+> by name, address, phone number, or email address."*
+
+That is a real answer and most companies do not give one. It also decides what to
+do next, in a way that is worth spelling out because the obvious move is the wrong
+one.
+
+They then asked for the social handles, plus proof of account ownership, before
+searching.
+
+**Do not send the handles.** If the index is keyed to handles and not to names or
+emails, the company *cannot presently connect any record it holds to this person*.
+Supplying handles does not help them find an existing record — **it creates the
+linkage that was missing**, in writing, dated, tied to a name and an email address,
+inside a business that sells profiles derived from social content. §144 at its
+sharpest: the request would manufacture the exact association it exists to remove.
+
+The right substitute is to offer them the sentence that closes it honestly:
+
+> *"Our datasets are indexed by social account identifiers and we are unable to
+> locate any record associated with [the consumer] from the name, email addresses,
+> postal addresses and telephone numbers supplied."*
+
+That is a complete disposition. It establishes that the linkage runs one way, which
+is the thing actually worth knowing.
+
+### The opt-out was in the footer all along
+
+Below the signature, in 8pt grey boilerplate:
+
+> *"if you do not want us to sell your (publicly available) personal information
+> and to be on the database, please let us know by replying to this email with
+> **OPT OUT** as a subject line and we'll get this done for you."*
+
+So the same message that demands handles **and** account-ownership verification
+before it will search, offers removal from the database on a one-word reply with no
+verification whatsoever. §146 exactly: the right that costs them nothing is free,
+the right that touches their data is gated.
+
+The reply was therefore sent with the literal subject line `OPT OUT`, so any
+automation keyed to it fires, with the reasoning in the body where a human may
+read it.
+
+> **Read the footer before answering the body.** A privacy team's boilerplate is
+> written once, by lawyers, and often grants more than the reply above it offers.
+> The gap between the two is not usually deliberate — which is exactly why nobody
+> in the company has noticed it.
