@@ -7934,3 +7934,63 @@ it as one request across both names or say if it must be made twice. A refusal o
 one channel is a reason to try the other, not a reason to stop.
 
 **Related:** §132, §141, `data/dead_addresses.json`, `brokers/_FAMILIES.md`.
+
+## §143
+
+**The pass-through reseller: nothing to delete, and the leverage that creates.**
+*Innovative Database Solutions — 28 Aug 2026*
+
+A reply arrived **47 seconds** after the letter. By §138's test that latency means
+nothing on its own — what matters is whether the message contains something only
+the work could have produced. This one does, and it is an architectural claim the
+project had not seen:
+
+> "Innovative Database Solutions is a registered data broker that operates as a
+> **reselling intermediary. We do not maintain a persistent database of consumer
+> information.** We will exclude your information from future distribution and
+> direct the data source(s) we work with to do the same."
+
+**A fifth broker architecture.** The catalogue so far: a stored index; a
+live-compile query engine that holds no reports and calls suppliers at search time
+(PeopleConnect, §135); an identity graph whose value is the edges (Infutor, IDI); a
+MAID-keyed location store searchable by nothing a person can supply (Fog, §140).
+This is a fourth shape — **files move from source to buyer and the broker keeps no
+copy**.
+
+What follows is not a deflection, it is arithmetic:
+
+- **Deletion is inapplicable rather than refused.** There is no row. Pressing for
+  one would be pressing for a gesture.
+- **The exclusion list is the entire remedy on their side** — and they applied it,
+  plus upstream direction, unprompted. Points 2, 3 and 4 of the letter answered in
+  a sentence.
+
+**The leverage is in the same sentence, and it is why this is a follow-up rather
+than a close.** If they hold nothing at rest, then the **sources are where the data
+actually lives** — and by undertaking to *direct* those sources, they have
+confirmed they know who they are and can reach them.
+
+So the ask became: **name them**, or name the categories if naming counterparties
+is commercially sensitive. The reason was put plainly rather than as a demand:
+
+> Their instruction to the source is worth having. But it is an instruction I
+> cannot verify, to a party I cannot identify, about data I cannot see. Naming the
+> sources is the difference between one closed file and a route to the companies
+> that actually hold the record.
+
+**Generalise it.** Whenever a broker says it will *direct*, *instruct*, *notify* or
+*pass on* to someone else, it has just admitted it can identify that someone. That
+admission is worth more than the instruction, because the instruction is
+unverifiable and the identity is actionable. **A pass-through broker is a dead end
+as a target and a directory as a witness.**
+
+Three smaller asks went with it, all following from the shape: whether the
+exclusion is keyed to all twelve addresses and the prior addresses and phones or
+only some — on a pass-through file the exclusion list is the *only* thing between
+the subject and the next distribution, and it recognises only what it has a key
+for (§135 again); whether past recipients are notified or the exclusion is
+forward-only; and whether the exclusion can hold a **name-plus-employer** entry,
+since an address-keyed list cannot catch a generated `first.last@employer`
+construction the subject has never owned and cannot list.
+
+**Related:** §135, §138, §140, `brokers/bookyourdata.md`.
