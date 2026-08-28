@@ -830,9 +830,9 @@
     "via": null
   },
   "catalist": {
-    "status": "submitted",
+    "status": "confirmed",
     "changed": "2026-08-28",
-    "via": null
+    "via": "reply"
   },
   "catalyze_ai": {
     "status": "submitted",
@@ -2850,9 +2850,9 @@
     "via": "email"
   },
   "media_direct": {
-    "status": "submitted",
+    "status": "manual_required",
     "changed": "2026-08-28",
-    "via": "email"
+    "via": "reply"
   },
   "media_source_solutions": {
     "status": "not_found",
