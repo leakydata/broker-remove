@@ -1780,9 +1780,14 @@
     "via": null
   },
   "first_direct_national_list_services": {
-    "status": "submitted",
-    "changed": "2026-08-27",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-08-28",
+    "via": "reply"
+  },
+  "first_direct_national_list_services_firstdirect360": {
+    "status": "confirmed",
+    "changed": "2026-08-28",
+    "via": "reply"
   },
   "first_orion": {
     "status": "submitted",
@@ -2665,9 +2670,9 @@
     "via": "email"
   },
   "lightbox_parent_l_p": {
-    "status": "submitted",
+    "status": "manual_required",
     "changed": "2026-08-28",
-    "via": "email"
+    "via": "reply"
   },
   "lighthouse_list": {
     "status": "not_found",
