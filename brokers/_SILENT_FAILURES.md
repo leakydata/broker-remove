@@ -7825,3 +7825,60 @@ both Fog and Foursquare at once.
 
 **Related:** §131 (a right gated behind a key the data outlived), §135, §139,
 `brokers/foursquare.md`.
+
+## §141
+
+**The send path has an unverified hand-transcription step.**
+*infocore — 28 Aug 2026*
+
+A letter to Infocore bounced. The obvious reading was a dead registry route, and
+the reflex was to record it as one. It was not: the registry said
+`info@infocore.com` and the letter went to `privacy@infocore.com`. **The address
+was mistyped between reading the queue and composing the send.**
+
+That matters more than one lost letter, because of how the mistake was caught:
+**a bounce**. Nothing else would have. The queue prints an address; it is then
+re-typed into the send tool by hand; nothing compares the two afterwards. If a
+typo happens to land on a mailbox that *exists* — and `privacy@`, `info@`,
+`support@` and `legal@` exist at a great many domains — then:
+
+> a letter containing a full name, date of birth, twelve email addresses, sixteen
+> prior addresses and eleven prior telephone numbers is delivered to a stranger,
+> and **nothing at all signals it**.
+
+The bounce is the lucky case. Silence is the dangerous one, and silence is
+indistinguishable from a broker who simply has not replied yet.
+
+**So the whole day was audited.** Every `Consumer Request` in the Sent folder for
+the day was pulled and each recipient checked against the registry's `email_to`:
+
+```
+19/19 recipients match a registry route
+18/19 recipients match a registry route   (the one miss was a route updated
+                                           after sending, not a mistyped send)
+```
+
+Clean apart from the one already known. But the check should not have been a
+one-off prompted by a bounce — **it belongs after every sending tick**, because it
+is the only thing that can detect the silent version. The rule:
+
+> *After sending, diff the Sent-folder recipients against the registry routes.
+> A bounce catches a typo that lands nowhere. Only the diff catches a typo that
+> lands somewhere.*
+
+**A second bounce surfaced in the same audit**, which is the point about noticing
+things. `slyster@idg.com` — Foundry's contact, named in a state data-broker filing
+— returned "Address not found" three seconds after sending, and that had gone
+unremarked at the time. `idg.com` still publishes live Outlook and Mimecast MX, so
+the domain accepts mail and only the mailbox is gone: the named individual has
+left. IDG now trades as Foundry and no role address is published on either domain,
+so a **registered data broker whose only filed contact has left, and who publishes
+no alternative, is currently unreachable by any route a consumer can use.** That is
+§132's problem in its terminal form, and it is queued for a human to look for a
+portal.
+
+**Two bounces in roughly fifty letters**, both instructive, and one of them mine.
+Recording the mine one plainly is the point: an audit that only looks for other
+people's failures will keep finding them.
+
+**Related:** §132 (named individuals as routes), §138 (corroboration), §139.

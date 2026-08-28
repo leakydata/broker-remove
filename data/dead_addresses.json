@@ -48,6 +48,8 @@
     "privacy@infofree.com": "550 address not found. Already superseded — registry's email_to was corrected to info@infofree.com on 2026-08-22.",
     "ccpa@leadmemedia.com": "550 address not found. Already superseded — registry's email_to was corrected to californiaregistry@leadmemedia.com.",
     "contact@join5x5.com": "Domain has no MX and no A record at all — publishes no working mail route. Registry note flags this as almost certainly a typo in the CA filing; the entry is held out of the send queue as a duplicate of five_by_five.",
-    "info@hellofyllo.com": "550 address not found, 2026-08-27. Domain still has live Mimecast MX -- only the mailbox is gone. No published role address on the site."
+    "info@hellofyllo.com": "550 address not found, 2026-08-27. Domain still has live Mimecast MX -- only the mailbox is gone. No published role address on the site.",
+    "privacy@infocore.com": "550 address not found, 2026-08-28. NOT a registry route -- it was mistyped in a send when the registry said info@infocore.com. Recorded anyway because the bounce proves the mailbox is absent, so nothing should try it later. dpo@infocore.com is published on their privacy policy and was adopted instead.",
+    "slyster@idg.com": "550 address not found, 2026-08-27. Registry contact from a state filing, person-shaped. idg.com still has live Outlook and Mimecast MX, so the domain accepts mail and only the mailbox is gone -- the named individual has left. IDG now trades as Foundry (foundryco.com); no role address is published on either domain."
   }
 }

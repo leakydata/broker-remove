@@ -7866,8 +7866,8 @@
       "source": "ca_data_broker_registry",
       "optery_slug": null,
       "email_to": "slyster@idg.com",
-      "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified": false,
+      "email_verified_by": "bounced",
       "registry_years": [
         "2025"
       ],
@@ -9374,9 +9374,9 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "info@infocore.com",
+      "email_to": "dpo@infocore.com",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "privacy_policy",
       "registry_years": [
         "2024"
       ],
