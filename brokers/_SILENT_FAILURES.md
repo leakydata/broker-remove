@@ -8583,7 +8583,10 @@ added saying explicitly not to re-adopt `privacy@` *even though graph8 supplied
 it*. Without that note the next pass would read the reply and make the same
 change again.
 
-### Optimal: the statutory contact answered, and refused
+### Optimal: the registry contact answered, and refused
+
+*(Heading corrected — see the addendum below. Calling it "the statutory contact"
+was my error, not his.)*
 
 The only contact in DSPolitical, LLC's California registration (filed as
 "Optimal", 2025 and 2026) is an **outside counsel** address at a law firm. He
@@ -8595,8 +8598,8 @@ replied:
 
 This is a worse failure than a dead mailbox and deserves its own line. **A dead
 address bounces and you know in seconds.** This one is live, is read by a real
-person, and refuses — on the ground that the state's own register names someone
-without authority to receive what the register exists to route.
+person, and refuses — on the ground that the register names someone with no
+authority to receive what was sent to him.
 
 He is a third party who did not ask for any of this, so the reply was one short
 courteous note telling him his address is the filed contact, that correcting the
@@ -8637,3 +8640,75 @@ graph8 for half an hour.
 
 **Related:** §64, §65, §85, §86, §109, §145 (a clean check is not a promise);
 `data/dead_addresses.json`.
+
+
+---
+
+## §149a — addendum, and a correction I was given
+
+*Same day, a few hours later.* Optimal's outside counsel replied a second time,
+unprompted, after I had told him no reply was needed. He was correcting me, and he
+was right:
+
+> *"I am indeed the contact listed, but the data broker registry is set up with a
+> method for you to submit a request for data deletion **using the system itself**,
+> not contacting the email contact directly. Contacting the email contact directly
+> does not legally qualify as a formal 'request' for deletion under California's
+> data broker registry. Rather ... you have to follow the instructions in the
+> registry ... Alternatively, you can contact the company directly at one of the
+> contact methods listed in its privacy policy."*
+
+I had written to him that his address was *"the official route the statute directs
+consumers to."* **That was wrong**, and the error is worth stating precisely because
+it has been sitting in the project's assumptions rather than in one letter.
+
+### What the registry contact field actually is
+
+The California data broker registry's contact field is a **published disclosure**,
+not a designated request channel. Two channels carry statutory weight:
+
+- **The Delete Act's DROP platform** — one submission, propagated to every
+  registered broker. California residents only (§97).
+- **The company's own designated methods**, published in its privacy policy, which
+  is where a CCPA request properly goes.
+
+Writing to the registry's listed address is neither. It often works, because a real
+privacy desk is on the other end — but when it does, that is the company being
+cooperative, not the statute being satisfied. I had been treating a directory entry
+as a legal address.
+
+### Why this matters beyond one letter
+
+It reframes a whole class of finding in this file. §145's Imprint Analytics, §149's
+graph8, the registry addresses in `dead_addresses.json` — these were written up as
+*brokers unreachable by the route the law provides*. The sharper statement is:
+
+> **The registry is a directory, not a doorway.** A stale or disclaimed contact in
+> it is a defect in a public disclosure, which is a real thing to record and a real
+> thing to complain about — but it is not the same as a company having no lawful
+> route. The lawful route is the privacy policy, and it is usually there.
+
+So the practice does not change — writing to the registry address remains the
+cheapest opening move and produces answers — but the *characterisation* does. When
+a registry contact fails, the correct next step is the privacy policy, and the
+correct way to describe the failure is "the filing is wrong", not "the consumer has
+no route".
+
+It also means the AG-complaint framing queued for Imprint Analytics is narrower
+than I wrote it: the complaint is about an inaccurate registration, not about a
+company evading a statutory obligation to receive email.
+
+### On the source
+
+He is a lawyer, speaking about his own jurisdiction, correcting a characterisation
+I asserted in writing to him — and he had no reason to bother, having already been
+told the matter was closed. That is about as good as a correction gets, and §138's
+test cuts in his favour rather than mine: **his statement is specific to what I
+claimed, and could only have been produced by someone who read it.**
+
+Not replied to. He has now written twice about something that is not his
+responsibility, and the useful thing was to fix the record rather than to thank him
+again.
+
+**Related:** §97 (DROP, California-only), §145, §149; `_SILENT_FAILURES` entries
+that describe registry addresses as statutory routes now read against this.
