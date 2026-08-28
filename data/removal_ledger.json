@@ -1505,8 +1505,8 @@
     "via": "reply"
   },
   "dstillery": {
-    "status": "submitted",
-    "changed": "2026-08-27",
+    "status": "manual_required",
+    "changed": "2026-08-28",
     "via": "reply"
   },
   "dtn": {
@@ -2000,9 +2000,9 @@
     "via": "email"
   },
   "graph8": {
-    "status": "submitted",
-    "changed": "2026-08-27",
-    "via": null
+    "status": "manual_required",
+    "changed": "2026-08-28",
+    "via": "reply"
   },
   "grassroots_analytics": {
     "status": "submitted",
