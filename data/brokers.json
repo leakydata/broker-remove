@@ -2854,15 +2854,16 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "bizdev@astoriacompany.com",
+      "email_to": "privacy@astoriacompany.com",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "broker_reply",
       "registry_years": [
         "2024",
         "2025",
         "2026"
       ],
-      "legal_name": "Astoria Company"
+      "legal_name": "Astoria Company",
+      "email_note": "CA registry publishes bizdev@astoriacompany.com -- business development. A letter there was answered 2026-08-28 by Astoria's privacy team, signing off as privacy@astoriacompany.com. The registry filing points consumers at the wrong desk; this is the working one."
     },
     {
       "id": "atdata",

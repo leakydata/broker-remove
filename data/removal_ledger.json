@@ -415,9 +415,9 @@
     "via": null
   },
   "astoria": {
-    "status": "submitted",
-    "changed": "2026-08-24",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-08-28",
+    "via": "reply"
   },
   "atdata": {
     "status": "submitted",
@@ -3300,9 +3300,9 @@
     "via": "email"
   },
   "owneriq": {
-    "status": "submitted",
+    "status": "manual_required",
     "changed": "2026-08-28",
-    "via": "email"
+    "via": "reply"
   },
   "ownerly": {
     "status": "submitted",
