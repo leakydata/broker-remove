@@ -11775,7 +11775,8 @@
       ],
       "legal_name": null,
       "duplicate_of": "verinext",
-      "notes": "Resolves to verinext.com, the same site as verinext. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the verinext thread rather than opening a second request."
+      "notes": "Resolves to verinext.com, the same site as verinext. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the verinext thread rather than opening a second request.",
+      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (see _SILENT_FAILURES 170): filings lapsed, so the 163 domain check ran. anexinet.com redirects to verinext.com. The Anexinet name does not appear on the successor site, so ASK rather than assume. Route the request to the successor, or ask which entity holds the data now -- naming it is enough. Successor domain: verinext.com."
     },
     {
       "id": "ansonia_credit_data",
@@ -11887,7 +11888,8 @@
       ],
       "legal_name": null,
       "duplicate_of": "app_science",
-      "notes": "Resolves to appscience.ai, the same site as app_science. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the app_science thread rather than opening a second request."
+      "notes": "Resolves to appscience.ai, the same site as app_science. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the app_science thread rather than opening a second request.",
+      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (see _SILENT_FAILURES 170): filings lapsed, so the 163 domain check ran. domain redirects to appscience.ai and the registrant name appears there. Route the request to the successor, or ask which entity holds the data now -- naming it is enough. Successor domain: appscience.ai."
     },
     {
       "id": "app_science",
@@ -11984,7 +11986,8 @@
       ],
       "legal_name": null,
       "duplicate_of": "deep_sync",
-      "notes": "Resolves to deepsync.com, the same site as deep_sync. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the deep_sync thread rather than opening a second request."
+      "notes": "Resolves to deepsync.com, the same site as deep_sync. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the deep_sync thread rather than opening a second request.",
+      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (see _SILENT_FAILURES 170): filings lapsed and the website does not load, but the domain has LIVE MX -- a maintained mail tenant with no site, the nymblr/minerva shape rather than the Near danger case where a stranger owns the domain. Safe to email, and email is the only channel; say so in the letter so it is not mistaken for skipping a form, and ask them to name an acquirer if the data has moved."
     },
     {
       "id": "astoria",
@@ -12593,7 +12596,8 @@
       ],
       "legal_name": null,
       "duplicate_of": "tinuiti",
-      "notes": "Resolves to tinuiti.com, the same site as tinuiti. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the tinuiti thread rather than opening a second request."
+      "notes": "Resolves to tinuiti.com, the same site as tinuiti. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the tinuiti thread rather than opening a second request.",
+      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (see _SILENT_FAILURES 170): filings lapsed, so the 163 domain check ran. domain redirects to tinuiti.com and the registrant name appears there. Route the request to the successor, or ask which entity holds the data now -- naming it is enough. Successor domain: tinuiti.com."
     },
     {
       "id": "blue_fire_leads_home_upgrade_professionals_home_upgrade_pros",
@@ -13290,7 +13294,8 @@
       ],
       "legal_name": null,
       "duplicate_of": "deep_sync",
-      "notes": "Resolves to deepsync.com, the same site as deep_sync. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the deep_sync thread rather than opening a second request."
+      "notes": "Resolves to deepsync.com, the same site as deep_sync. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the deep_sync thread rather than opening a second request.",
+      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (see _SILENT_FAILURES 170): filings lapsed, so the 163 domain check ran. domain redirects to deepsync.com and the registrant name appears there. Route the request to the successor, or ask which entity holds the data now -- naming it is enough. Successor domain: deepsync.com."
     },
     {
       "id": "complete_mailing_lists",
@@ -15527,7 +15532,8 @@
       ],
       "legal_name": null,
       "duplicate_of": "deep_sync",
-      "notes": "Resolves to deepsync.com, the same site as deep_sync. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the deep_sync thread rather than opening a second request."
+      "notes": "Resolves to deepsync.com, the same site as deep_sync. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the deep_sync thread rather than opening a second request.",
+      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (see _SILENT_FAILURES 170): filings lapsed and the website does not load, but the domain has LIVE MX -- a maintained mail tenant with no site, the nymblr/minerva shape rather than the Near danger case where a stranger owns the domain. Safe to email, and email is the only channel; say so in the letter so it is not mistaken for skipping a form, and ask them to name an acquirer if the data has moved."
     },
     {
       "id": "hubspot",
@@ -17011,7 +17017,8 @@
       ],
       "legal_name": null,
       "duplicate_of": "cint",
-      "notes": "Resolves to cint.com, the same site as cint. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the cint thread rather than opening a second request."
+      "notes": "Resolves to cint.com, the same site as cint. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the cint thread rather than opening a second request.",
+      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (see _SILENT_FAILURES 170): filings lapsed, so the 163 domain check ran. lucid's domain redirects to cint.com -- Lucid appears to have been absorbed into Cint. The Lucid name does not appear on the successor site, so ASK rather than assume. Route the request to the successor, or ask which entity holds the data now -- naming it is enough. Successor domain: cint.com."
     },
     {
       "id": "lusha_systems",
@@ -17031,7 +17038,8 @@
       ],
       "legal_name": null,
       "duplicate_of": "lusha",
-      "notes": "Resolves to lusha.com, the same site as lusha. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the lusha thread rather than opening a second request."
+      "notes": "Resolves to lusha.com, the same site as lusha. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the lusha thread rather than opening a second request.",
+      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (see _SILENT_FAILURES 170): filings lapsed and the website does not load, but the domain has LIVE MX -- a maintained mail tenant with no site, the nymblr/minerva shape rather than the Near danger case where a stranger owns the domain. Safe to email, and email is the only channel; say so in the letter so it is not mistaken for skipping a form, and ask them to name an acquirer if the data has moved."
     },
     {
       "id": "machintel",
@@ -18324,7 +18332,8 @@
       ],
       "legal_name": null,
       "duplicate_of": "precisely",
-      "notes": "Resolves to precisely.com, the same site as precisely. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the precisely thread rather than opening a second request."
+      "notes": "Resolves to precisely.com, the same site as precisely. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the precisely thread rather than opening a second request.",
+      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (see _SILENT_FAILURES 170): filings lapsed, so the 163 domain check ran. domain redirects to precisely.com and the registrant name appears there. Route the request to the successor, or ask which entity holds the data now -- naming it is enough. Successor domain: precisely.com."
     },
     {
       "id": "plug_industries",
@@ -19457,7 +19466,8 @@
       "registry_years": [
         "2020-2023"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (see _SILENT_FAILURES 170): CHECK BEFORE SENDING. zipstorm's domain now resolves to app.seekout.io ('Seekout: Discover and reach candidates faster'), with live MX. That is either an acquisition or a domain sale, and the two need opposite handling: an acquisition means write to SeekOut about ZipStorm-origin data, a domain sale means writing to SeekOut would be a letter to a stranger (157). The landing page is a JS app shell so there is no footer to read -- resolve it before sending."
     },
     {
       "id": "semantiq",
@@ -19615,7 +19625,8 @@
       "registry_years": [
         "2020-2023"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (see _SILENT_FAILURES 170): filings lapsed and the website does not load, but the domain has LIVE MX -- a maintained mail tenant with no site, the nymblr/minerva shape rather than the Near danger case where a stranger owns the domain. Safe to email, and email is the only channel; say so in the letter so it is not mistaken for skipping a form, and ask them to name an acquirer if the data has moved."
     },
     {
       "id": "slashdot_media",
@@ -19669,12 +19680,13 @@
       "source": "ca_data_broker_registry",
       "optery_slug": null,
       "email_to": "steven@smacomm.com",
-      "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified": false,
+      "email_verified_by": "domain_parked",
       "registry_years": [
         "2020-2023"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (see _SILENT_FAILURES 170): DO NOT SEND. smacomm.com is PARKED FOR SALE on HugeDomains and has NO MX record at all. The company is gone and the domain is merchandise; anything sent there either fails or, if it is ever bought, reaches a stranger -- the 157 harm. No successor is discoverable from the domain. Mark unreachable unless a successor turns up from another source."
     },
     {
       "id": "smarte",
@@ -20068,7 +20080,8 @@
       "registry_years": [
         "2020-2023"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (see _SILENT_FAILURES 170): filings lapsed and the website does not load, but the domain has LIVE MX -- a maintained mail tenant with no site, the nymblr/minerva shape rather than the Near danger case where a stranger owns the domain. Safe to email, and email is the only channel; say so in the letter so it is not mistaken for skipping a form, and ask them to name an acquirer if the data has moved."
     },
     {
       "id": "stirista_123push_lbdigital_media_source_solutions_customer_p",
@@ -20442,7 +20455,8 @@
       ],
       "legal_name": null,
       "duplicate_of": "atdata",
-      "notes": "Resolves to atdata.com, the same site as atdata. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the atdata thread rather than opening a second request."
+      "notes": "Resolves to atdata.com, the same site as atdata. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the atdata thread rather than opening a second request.",
+      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (see _SILENT_FAILURES 170): filings lapsed, so the 163 domain check ran. towerdata.com redirects to atdata.com -- TowerData now trades as AtData (Email Address Intelligence). The registrant name does not appear on the successor site, so ASK rather than assume. Route the request to the successor, or ask which entity holds the data now -- naming it is enough. Successor domain: atdata.com."
     },
     {
       "id": "traackr",
@@ -20618,7 +20632,8 @@
       "registry_years": [
         "2020-2023"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (see _SILENT_FAILURES 170): filings lapsed and the website does not load, but the domain has LIVE MX -- a maintained mail tenant with no site, the nymblr/minerva shape rather than the Near danger case where a stranger owns the domain. Safe to email, and email is the only channel; say so in the letter so it is not mistaken for skipping a form, and ask them to name an acquirer if the data has moved."
     },
     {
       "id": "unacast",
@@ -20734,7 +20749,8 @@
       ],
       "legal_name": null,
       "duplicate_of": "pgm_solutions_porch_group_media",
-      "notes": "Resolves to porchgroupmedia.com, the same site as pgm_solutions_porch_group_media. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the pgm_solutions_porch_group_media thread rather than opening a second request."
+      "notes": "Resolves to porchgroupmedia.com, the same site as pgm_solutions_porch_group_media. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the pgm_solutions_porch_group_media thread rather than opening a second request.",
+      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (see _SILENT_FAILURES 170): filings lapsed, so the 163 domain check ran. domain redirects to porchgroupmedia.com and the registrant name appears there. Route the request to the successor, or ask which entity holds the data now -- naming it is enough. Successor domain: porchgroupmedia.com."
     },
     {
       "id": "valassis_communications",
@@ -20752,7 +20768,8 @@
       "registry_years": [
         "2020-2023"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (see _SILENT_FAILURES 170): filings lapsed, so the 163 domain check ran. domain redirects to rrd.com and the registrant name appears there. Route the request to the successor, or ask which entity holds the data now -- naming it is enough. Successor domain: rrd.com."
     },
     {
       "id": "vector",
@@ -21089,7 +21106,8 @@
       ],
       "legal_name": null,
       "duplicate_of": "windfall",
-      "notes": "Resolves to windfall.com, the same site as windfall. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the windfall thread rather than opening a second request."
+      "notes": "Resolves to windfall.com, the same site as windfall. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the windfall thread rather than opening a second request.",
+      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (see _SILENT_FAILURES 170): filings lapsed, so the 163 domain check ran. domain redirects to windfall.com and the registrant name appears there. Route the request to the successor, or ask which entity holds the data now -- naming it is enough. Successor domain: windfall.com."
     },
     {
       "id": "winr_data",
@@ -21239,7 +21257,8 @@
       ],
       "legal_name": null,
       "duplicate_of": "yobi_ai",
-      "notes": "Resolves to yobi.ai, the same site as yobi_ai. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the yobi_ai thread rather than opening a second request."
+      "notes": "Resolves to yobi.ai, the same site as yobi_ai. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the yobi_ai thread rather than opening a second request.",
+      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (see _SILENT_FAILURES 170): filings lapsed and the website does not load, but the domain has LIVE MX -- a maintained mail tenant with no site, the nymblr/minerva shape rather than the Near danger case where a stranger owns the domain. Safe to email, and email is the only channel; say so in the letter so it is not mistaken for skipping a form, and ask them to name an acquirer if the data has moved."
     },
     {
       "id": "zeotap",

@@ -10609,3 +10609,90 @@ corrected.
 
 Related: §147 (the shared ledger), §162, §163, §166 — which audited the bounce
 pipeline from two directions and did not think to check the verification flag itself.
+
+---
+
+## §170
+
+**Checking the whole lapsed cohort at once, instead of one broker at a time.**
+*29 Aug 2026*
+
+§163 established the rule: before writing to a broker whose registry filings have
+stopped, check who owns the domain now. It has fired on nearly every batch since —
+Near, Nova, Minerva, Ray, Nymblr, ReachData, Reality Media — which is a strong hint
+that it should not be a per-batch interruption at all.
+
+ReachData made the point in one line. Its autoresponder said *"ReachData.com has
+ceased operations and is no longer active"* — confirming the diagnosis the domain
+check had already produced, and confirming that the cohort is real rather than
+incidental.
+
+So the cohort was measured and then cleared in a single pass.
+
+### The measurement
+
+| | count |
+|---|---|
+| pending brokers with an email route | 215 |
+| **of those, lapsed** (no 2025 or 2026 filing) | **32** |
+| of those, no registry years recorded at all | 70 |
+
+Thirty-two is small enough to check exhaustively and large enough that meeting them
+one at a time would keep interrupting the queue for the next month.
+
+### The result
+
+A parallel scan fetched each domain, compared the final host against the registered
+one, looked for the registrant's corporate name in the page text, and checked MX.
+Four outcomes, and each needs different handling:
+
+**Live and matching — 12.** Send normally. No further thought required, and that is
+the point: the check earns its cost by clearing the majority, not by catching the
+minority.
+
+**Redirects to a successor — 10.** `towerdata` → AtData, `lucid` → Cint, `anexinet`
+→ Verinext, `compact_information_systems` → Deepsync, `v12_privacy` → Porch Group
+Media, `precisely_software_placeiq` → Precisely, `valassis_communications` → RRD,
+`bliss_point_media` → Tinuiti, `appscience` → appscience.ai, `windfall_data` →
+windfall.com.
+
+Seven of those carry the registrant's name on the successor site, which settles it.
+**Three do not** — TowerData, Lucid and Anexinet — and those are annotated *ask,
+don't assume*, because a redirect proves where a domain points and not who owns the
+file.
+
+**Site dead, mail live — 7.** `asl_marketing`, `homedata`, `lusha_systems`,
+`skyhook_holding`, `sterling_data`, `ubermedia`, `yobi_ventures`. The nymblr shape: a
+maintained mail tenant with no website. Safe to email, and email is the only channel
+— which the letter should say, so it is not mistaken for skipping a form.
+
+**Do not send — 2.**
+
+  - `sma_communications`: **smacomm.com is parked for sale on HugeDomains** and has
+    no MX at all. The company is gone and its domain is merchandise. Marked
+    unreachable. This is §157's harm arriving through a lapsed registration rather
+    than a compressed name guess — and it is the case the whole rule exists for.
+  - `zipstorm`: the domain now resolves to `app.seekout.io`, with live MX. That is
+    either an acquisition or a domain sale, and **the two need opposite handling** —
+    acquisition means writing to SeekOut about ZipStorm-origin data; a domain sale
+    means writing to SeekOut would be a letter to a stranger. The landing page is a
+    JS app shell with no footer to read, so it is flagged *resolve before sending*.
+
+### The lesson, which is about when to run a check rather than what it finds
+
+A safety check that fires on most batches is not really a per-batch check. It is a
+property of a **cohort**, and cohorts should be swept.
+
+Running it per-broker cost a few minutes each time, interrupted the queue, and meant
+the same reasoning was reconstructed from scratch on every encounter. Running it over
+all 32 took one pass, produced routing for ten successions that would otherwise have
+been discovered one at a time over weeks, and — more valuable — **cleared twelve
+brokers to be sent without any further checking at all.**
+
+The corresponding cohort still unexamined is the 70 pending entries with no registry
+years recorded, which are Optery-derived and of unknown provenance. That is the next
+sweep, and it is noted here rather than started, because it needs a different test:
+those rows have no filing history to lapse, so the question is not "did this company
+stop filing" but "was this ever a real route."
+
+Related: §157, §163, §163a, §165a.
