@@ -179,25 +179,25 @@
       "kind": "restricted_group",
       "observed": "2026-08-26",
       "evidence": "Rejected as a restricted Google Workspace group ('group may not exist or no permission to post'), 2026-08-26. Alternate published on their own site: contact@rampedup.io.",
-      "response": "A privacy@ alias configured as an INTERNAL-ONLY group. It works for staff and silently rejects every consumer, so the company believes it works. Tell them, and use any alternate address."
+      "response": "A privacy@ alias configured as an INTERNAL-ONLY group. It works for staff and silently rejects every consumer, so the company believes it works. Tell them, and use any alternate address. REPORTED 2026-08-29 via contact@rampedup.io; retest before assuming it is still shut."
     },
     "privacy@venpath.net": {
       "kind": "restricted_group",
       "observed": "2026-08-20",
       "evidence": "Rejected as a restricted Google Workspace group, 2026-08-20. No alternate email published; registry uses the web form at /legal/opt-out as primary.",
-      "response": "A privacy@ alias configured as an INTERNAL-ONLY group. It works for staff and silently rejects every consumer, so the company believes it works. Tell them, and use any alternate address."
+      "response": "A privacy@ alias configured as an INTERNAL-ONLY group. It works for staff and silently rejects every consumer, so the company believes it works. Tell them, and use any alternate address. CANNOT BE REPORTED: this restricted group is the ONLY published contact for this company, so there is no channel by which to tell them their only channel is broken. See SILENT_FAILURES 183."
     },
     "security@audiencepoint.com": {
       "kind": "restricted_group",
       "observed": "2026-08-24",
       "evidence": "Rejected as a restricted Google Workspace group, 2026-08-24. Not the registry's primary contact — privacy@audiencepoint.com (the correct, verified address) delivers fine.",
-      "response": "A privacy@ alias configured as an INTERNAL-ONLY group. It works for staff and silently rejects every consumer, so the company believes it works. Tell them, and use any alternate address."
+      "response": "A privacy@ alias configured as an INTERNAL-ONLY group. It works for staff and silently rejects every consumer, so the company believes it works. Tell them, and use any alternate address. REPORTED 2026-08-29 via privacy@audiencepoint.com; retest before assuming it is still shut."
     },
     "privacy@modigie.com": {
       "kind": "restricted_group",
       "observed": "2026-08-19",
       "evidence": "Rejected as a restricted Google Workspace group, 2026-08-19. Already superseded — registry's email_to was corrected to dpauli@modigie.com on 2026-08-22.",
-      "response": "A privacy@ alias configured as an INTERNAL-ONLY group. It works for staff and silently rejects every consumer, so the company believes it works. Tell them, and use any alternate address."
+      "response": "A privacy@ alias configured as an INTERNAL-ONLY group. It works for staff and silently rejects every consumer, so the company believes it works. Tell them, and use any alternate address. REPORTED 2026-08-29 via dpauli@modigie.com; retest before assuming it is still shut."
     },
     "info@openpeoplesearch.com": {
       "kind": "no_such_mailbox",
@@ -383,7 +383,7 @@
       "kind": "restricted_group",
       "evidence": "Not a missing mailbox. Google Workspace postmaster rejected it: 'The group privacy isn't set up to receive messages from [the requester's address]' -- a restricted group that accepts internal senders only, so it works for staff and silently rejects every consumer. Same failure mode as graph8 (_SILENT_FAILURES 149). Address is the one published on the CA data broker register. Observed on a send by the other agent, recorded here because dead_addresses.json is the shared record and that agent does not publish a ledger.",
       "replacement": "none known yet -- no alternative published address found",
-      "response": "A privacy@ alias configured as an INTERNAL-ONLY group. It works for staff and silently rejects every consumer, so the company believes it works. Tell them, and use any alternate address."
+      "response": "A privacy@ alias configured as an INTERNAL-ONLY group. It works for staff and silently rejects every consumer, so the company believes it works. Tell them, and use any alternate address. CANNOT BE REPORTED: this restricted group is the ONLY published contact for this company, so there is no channel by which to tell them their only channel is broken. See SILENT_FAILURES 183."
     },
     "privacy@reklaimyou.com": {
       "address": "privacy@reklaimyou.com",

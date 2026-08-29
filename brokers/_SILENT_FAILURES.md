@@ -11422,3 +11422,60 @@ Two of those are singletons worth naming anyway:
 `kind` is the field that earns its place, because it converts a record of what went
 wrong into an instruction about what to do next — and those are different for every
 one of the nine.
+
+## §183 — no channel by which to report that the only channel is broken
+
+Acted on §182 and told the companies. Four of the six could be reached. Two could
+not, and the reason is the finding.
+
+**Reported successfully:**
+
+  - **graph8** — via `support@graph8.com`, the desk that had handed me the broken
+    address in the first place.
+  - **rampedup** — via `contact@rampedup.io`, published on their own site.
+  - **modigie** — via `dpauli@modigie.com`, the personal address the registry had
+    already been corrected to.
+  - **audiencepoint** — via `privacy@audiencepoint.com`, which *works*. Theirs is the
+    instructive case: the broken group is `security@`, sitting right beside a
+    correctly configured `privacy@`. Somebody deliberately opened one group to the
+    internet and never revisited the other, which is what makes it legible as an
+    oversight rather than a policy. The note made the security-specific argument:
+    `security@` is the conventional vulnerability-report route, and a researcher who
+    bounces once concludes the channel is dead and either gives up or goes public —
+    **and neither outcome leaves the company any trace that it happened.**
+
+**Could not be reported:**
+
+  - **venpath** — `privacy@venpath.net` is a restricted group and is the only
+    published email contact.
+  - **date_detective** — `privacy@date-detective.app` likewise.
+
+For those two, **the broken address is the entire external contact surface.** There
+is no route by which to tell them that the route is broken. Any message reporting the
+misconfiguration is rejected by the misconfiguration.
+
+That is worth stating plainly because it is the terminal form of every failure in
+this file. The usual silent failure wastes a request; this one is self-sealing. The
+company's outward-facing channel refuses all outside mail, so no consumer request
+arrives, so no complaint about non-response arrives, so nothing ever accumulates that
+would prompt anyone to check. **From inside, a `privacy@` group that rejects the
+public and a `privacy@` group that nobody has written to are indistinguishable** —
+both produce an empty inbox, and an empty privacy inbox reads as a quiet quarter
+rather than as a fault.
+
+Both companies remain reachable in principle by post or through a web form, and both
+registry rows already route that way. But it is the email failure that is invisible,
+and the register lists the address that does not work.
+
+**A note on the boundary I stayed inside.** Reporting a misconfiguration to a company
+is not the same as looking for one. I did not probe anybody's mail configuration,
+enumerate groups, or test addresses I had no reason to write to. Every one of these
+six turned up as the ordinary bounce of an ordinary consumer request, and what I did
+with it was tell the recipient what their own server told me. `audiencepoint`'s
+`security@` is the only one that shades toward a security finding, and the note there
+says what the bounce said and nothing more — no probing, and an explicit allowance
+that routing vulnerability reports through a form may well be deliberate.
+
+The four notes each asked for no reply. The point was not to open a correspondence;
+it was that one sentence from me fixes the channel for every consumer who writes
+after me, which is worth more than my own request.
