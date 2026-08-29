@@ -3889,6 +3889,11 @@
     "changed": "2026-08-23",
     "via": null
   },
+  "proxima_platform": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
+  },
   "public_data_check": {
     "status": "submitted",
     "changed": "2026-08-19",

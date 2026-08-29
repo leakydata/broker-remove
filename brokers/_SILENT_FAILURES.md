@@ -10416,3 +10416,83 @@ Vendor recorded: SixFifty (`app.sixfifty.com`), second tenant found, now in
 `_FAMILIES.md`.
 
 Related: §150, §161, §161a.
+
+---
+
+## §168
+
+**Three published privacy policies, three different contacts, one of them at a domain that no longer exists.**
+*Proxima Platform — 29 Aug 2026*
+
+`queue_batch` offered this broker with three warning flags at once, and every one of
+them was misleading:
+
+  - **lapsed filing** — registered for 2024 only, nothing since (§163 says check who
+    owns the domain);
+  - **domain mismatch** — the registry contact is at `outlook.com`, not the company
+    domain (§157 says check identity);
+  - **person-shaped address** — a named individual's personal webmail, the profile
+    §165 flags as most likely to become an abandoned mailbox.
+
+Three flags is normally the shape of a broker not worth writing to. **The checks
+said the opposite.** The site is live and the business is substantial: a data and
+analytics agency whose own copy claims *"over 2,000 deterministic data points ...
+Transactional – Demographic – Behavioral – Psychographic"* and a *"multi-relational
+view of the Individual"*, focused on **pharmaceutical, health-wellness, luxury and
+cannabis** markets, operating registration portals including an **HCP portal, a
+Patient portal, a Cannabis portal and a Smart TV portal**.
+
+That is worth recording on its own: **the flags are a prompt to look, not a verdict.**
+Had the rule been "three flags, skip it", this would have been the most sensitive
+holding in the batch, skipped.
+
+### The contact problem
+
+The site publishes several privacy policies, and each names a different address:
+
+| policy | contact | state |
+|---|---|---|
+| Consumer Privacy Policy | `info@quantummedica.co.uk` | **no MX record at all; site does not resolve** |
+| CCPA page | `alexyaybar@ohomail.com` | live (Zoho) |
+| Smart TV policy, and the CA register | `alex.de.aybar@outlook.com` | live |
+
+So the policy a consumer would read *first* — the general Consumer Privacy Policy —
+points at a domain that is gone. Not a dead mailbox on a live domain (§162), not an
+abandoned one that still accepts mail (§165), but a whole domain with no mail
+exchanger.
+
+**And note how it was found: by DNS, not by a bounce.** Nothing was sent there. The
+project's usual detector is the send itself (§162: "the bounce is the test result"),
+but here checking three published addresses before writing cost nothing and
+established the answer for free. That is a cheap addition to the routine when a
+broker publishes more than one contact — and publishing more than one is itself the
+signal, because addresses only diverge when nobody is maintaining them together.
+
+The letter went to both live addresses at once, opening with the defect (§162's
+framing) and saying plainly that until it is fixed, the only requests reaching them
+are from people persistent enough to try a second address.
+
+### What the sensitive categories required
+
+Three of the four markets are ones where being wrong costs the person rather than the
+advertiser, so the substance follows the §1798.121 pattern — limit-use asked
+separately from deletion — with the cannabis argument carried over verbatim from New
+Frontier Data: an attribute marking a named individual as associated with cannabis
+can bear on employment screening, firearm eligibility, licensing, immigration, family
+proceedings and federal benefits, **and none of those consequences depends on the
+inference being correct.**
+
+Two asks are new and worth reusing:
+
+  - **A separate privacy policy implies a separate collection.** They publish a Smart
+    TV policy; that is a reason to ask what the Smart TV portal actually collects,
+    how long it is kept, and whether it joins to a name. A company that writes a
+    dedicated policy for a data stream is telling you the stream exists.
+  - **Psychographic attributes deserve their own paragraph.** Transactional and
+    demographic data are at least things a person might recognise. Psychographic
+    inferences are claims about personality and disposition that the subject never
+    stated, cannot verify and cannot correct — and when the vendor advertises a
+    "multi-relational view of the Individual" built from them, that view is precisely
+    what the request is about.
+
+Related: §157, §162, §163, §165.

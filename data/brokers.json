@@ -14965,7 +14965,8 @@
       "registry_years": [
         "2024"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "email_note": "THREE PUBLISHED CONTACTS, ONE DEAD. Consumer Privacy Policy gives info@quantummedica.co.uk -- domain has NO MX and does not resolve, so the policy a consumer would read first has no working route. CCPA page gives alexyaybar@ohomail.com (live, Zoho MX). Smart TV policy and the CA register both give alex.de.aybar@outlook.com (live). Written to the two live ones together on 2026-08-29, leading with the dead one. NOTE the registry flags that looked bad and were not: lapsed filing (2024 only), domain mismatch (personal outlook.com) and a person-shaped address -- but the business is live and substantial. See _SILENT_FAILURES 168."
     },
     {
       "id": "public_data_check",
