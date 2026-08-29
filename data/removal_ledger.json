@@ -2919,6 +2919,16 @@
     "changed": "2026-08-28",
     "via": "reply"
   },
+  "media_net": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
+  },
+  "media_resource": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
+  },
   "media_source_solutions": {
     "status": "not_found",
     "changed": "2026-08-19",
@@ -2939,10 +2949,20 @@
     "changed": "2026-08-19",
     "via": "email"
   },
+  "medpro_systems": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
+  },
   "melissa": {
     "status": "submitted",
     "changed": "2026-08-15",
     "via": null
+  },
+  "meltwater_news": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
   },
   "men_stopping_violence": {
     "status": "confirmed",
@@ -2952,6 +2972,11 @@
   "merkle": {
     "status": "submitted",
     "changed": "2026-08-19",
+    "via": "email"
+  },
+  "message_digital": {
+    "status": "submitted",
+    "changed": "2026-08-29",
     "via": "email"
   },
   "michigan_arrests": {
@@ -2983,6 +3008,11 @@
     "status": "submitted",
     "changed": "2026-08-19",
     "via": "email"
+  },
+  "minerva_bi": {
+    "status": "manual_required",
+    "changed": "2026-08-29",
+    "via": "web"
   },
   "minnesota_arrests": {
     "status": "submitted",

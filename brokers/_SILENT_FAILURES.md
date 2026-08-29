@@ -9155,3 +9155,268 @@ cannot be distinguished from a declined one.
 
 **Related:** §135 (deletion vs suppression), §138, §144 (the letter creates the
 record), §152 (the identifier block), §153 (address history as the disambiguator).
+
+---
+
+## §155
+
+**The opt-out form sits on a site whose policy converts form submission into telemarketing consent.**
+*Media Resource Group — 28 Aug 2026*
+
+Media Resource Group is a direct-mail list company: registered as a data broker in
+California, licensed in Oregon, Texas and Vermont. Its published privacy policy
+contains this, in the section about how it uses personal information:
+
+> *By submitting your personal information by and through our website offerings by
+> clicking on the consent button on the opening page of this website, and thereby
+> providing your express prior written consent, you agree that such act constitutes
+> an inquiry and/or application for purposes of the Amended Telemarketing Sales
+> Rule ... As such, notwithstanding that your telephone number may be listed on the
+> Federal Trade Commission's Do-Not-Call List, and/or on applicable state
+> do-not-call lists, as a result of your actions, we retain the right to contact
+> you via telemarketing.*
+
+Read that alongside the fact that the opt-out and do-not-sell pages are also forms
+on that website, into which a consumer types a name, a postal address and a
+telephone number.
+
+I do not know that the clause reaches those pages. It is conditioned on "clicking
+on the consent button on the opening page", which may be a different control
+entirely. That is exactly the point: **a consumer cannot tell from outside, and the
+only way to find out is to submit the form.**
+
+### The shape of the problem
+
+The project has catalogued a lot of ways a privacy mechanism fails quietly. This is
+a new one, and it is worse than the others, because every previous failure mode
+made the request *ineffective*. This one raises the possibility that the request is
+*counter-productive* — that the act of asking to be left alone is recorded as
+permission to call, and overrides a federal Do-Not-Call listing that was working
+until the consumer tried to protect themselves further.
+
+The consumer's position is:
+
+  - do nothing, and remain in the file;
+  - use the form, and possibly convert a DNC-listed number into a consented one.
+
+That is not a choice a privacy mechanism should present.
+
+### What was actually done about it
+
+Not an accusation. A question, in writing, with the reasoning stated:
+
+> *"PLEASE CONFIRM IN WRITING that submitting a do-not-sell, do-not-share or
+> do-not-mail request through your website does not constitute an inquiry or
+> application under the Telemarketing Sales Rule, and creates no prior express
+> written consent under the TCPA."*
+>
+> *"I do not suggest that is your intention. I do think a consumer should not have
+> to weigh whether asking to be left alone might be recorded as permission to call,
+> and I would like the answer in writing so that the next person who asks can be
+> pointed at it."*
+
+Two things make that the right form for it. The clause probably *is* aimed at
+lead-generation forms rather than opt-out forms — asserting otherwise would repeat
+the §149 mistake of stating something I had not verified. And a written "no, it does
+not" is more useful than being right: it can be cited by anyone else, whereas being
+right in a private note helps nobody.
+
+The letter also becomes self-justifying. It opens by explaining that it is an email
+rather than a form submission, and the clause is the reason. A broker who asks why
+the designated method was not used has the answer in the first paragraph.
+
+### The generalisation
+
+**Read the consent language on a broker's site before using its opt-out form, not
+only the privacy rights section.** The rights section describes what the form does.
+The consent language describes what SUBMITTING ANYTHING does, and the two are
+written by different people for different purposes.
+
+Specifically, look for:
+
+  - TSR "inquiry or application" language — it manufactures the established business
+    relationship exemption that permits calling a DNC-listed number;
+  - TCPA "prior express written consent" language — it authorises autodialled calls
+    and SMS;
+  - any clause that attaches consequences to "submitting information through this
+    website" without distinguishing which form.
+
+Where such language exists and the opt-out is a web form, **prefer the email route
+and say why**. The statutes contemplate a business receiving a request outside its
+designated method; they do not contemplate the designated method carrying a cost.
+
+Related: §146 (which right is free tells you where the mechanism lives), §156 (the
+same company logs the IP of anyone who clicks the opt-out link).
+
+---
+
+## §156
+
+**Clicking "Opt Out" sends the visitor's IP address to the company.**
+*Media Resource Group — 28 Aug 2026*
+
+Same company as §155, a separate finding, and this one is not a question — it is
+readable in the published source.
+
+The site ships a `trackClick` helper. It fetches the visitor's public IP from a
+third-party lookup service, then POSTs `{type, element, url, ip_address}` to the
+company's own tracking endpoint. The footer link labelled **"Opt Out"** is wired to
+call it, with both arguments set to the string `"Opt Out"`.
+
+So: a person who has never dealt with this company, who arrives to ask that their
+data not be sold, generates — *before reaching the form* — a dated record at a
+marketing-data company, keyed to a network identifier they never supplied and
+cannot see, labelled with the fact that they were looking for the opt-out.
+
+### Why this is its own category
+
+§150 recorded a version of this: the durable opt-out for a location data broker
+would have required the subject to hand over the mobile advertising ID that made
+the tracking possible. That was a *trade* — the mechanism asked for something.
+
+This asks for nothing. There is no consent step, no field, no disclosure at the
+point of collection. The collection is a side effect of the click, and the clicked
+element is the one labelled with the consumer's intention to withdraw.
+
+Call the pattern: **the privacy page is instrumented like a marketing page.**
+It is presumably not malice — one analytics helper, applied to every link in the
+footer, and nobody asked whether one of those links was different from the others.
+That is exactly why it is worth writing down: the failure needs no bad intent, and
+nothing on the page reveals it.
+
+### How it was found, and how that was handled
+
+The site is served as an **un-minified webpack development build** — React DevTools
+warnings, `./src/` module paths, a 2.6 MB `bundle.js`, the create-react-app "run
+`npm start`" comment still in the HTML. Every route returns the same empty shell to
+a text fetch; the entire application, including the privacy policy text, lives in
+the bundle.
+
+Two consequences.
+
+**For the letter.** It says how I know, in a clause, and notes the dev build as
+something they may want to look at — along with the fact that the same bundle
+exposes internal file paths and an API token, **which was not reproduced in the
+letter and is not in this repository.** Explaining the provenance is what separates
+a useful report from something that reads as surveillance, and the token is theirs.
+
+**For the tooling.** `discover_contacts.py` finds nothing at this domain, and would
+have found nothing however many paths it tried, because `/privacy`, `/ccpa`,
+`/contact` and `/` all return the identical CRA shell. The published rights address
+`info@mrginc.com` appears eight times — inside the bundle. A JS-only site is
+invisible to every text-based scraper in this repo, and "no published privacy
+contact" is the wrong conclusion to draw from it.
+
+That is a real gap and it is worth stating plainly rather than fixing hastily: the
+scanner's honest-failure doctrine (report nothing rather than guess) is correct, but
+"nothing found" at a single-page app means "not looked at", not "not published".
+
+Related: §145 (an A record that answers is not a website), §150, §155.
+
+---
+
+## §157
+
+**A company name compressed into a domain guess landed on a different company.**
+*Minerva BI — 28 Aug 2026*
+
+The registry carried `minervabio.com` as the domain for **Minerva BI, Inc.**
+
+That is not their domain. It belongs to an unrelated business and answers with a
+mod_security block. The registrant is at **minerva.io** — its footer names the
+entity, and its privacy policy gives the company's Brooklyn address.
+
+The error is legible once seen: *Minerva BI* → *minervabio* → *Minerva Bio*. A
+catalogue-derived domain guess collapsed a two-letter suffix into a word, and the
+word happened to belong to somebody else.
+
+### Why this is more than a typo
+
+Every domain-keyed tool in this repo would have followed it:
+
+  - `discover_contacts.py` would have probed a stranger's privacy pages and, if any
+    published a role address, offered it as this broker's route;
+  - `check_email_domains.py` would have reported `minervabio.com` deliverable — it
+    is;
+  - a letter sent to a `privacy@` address at that domain would have been a request
+    about one person's data, sent to a company that has never held it, listing
+    twelve email addresses, sixteen prior addresses and eleven telephone numbers.
+
+The scanner's ROLE-prefix rule (§ in `discover_contacts.py`: report nothing rather
+than a wrong address) exists to prevent writing to the wrong *mailbox*. It does not
+help when the wrong *company* is the input. **A guard on the output cannot repair a
+bad key.**
+
+### The check that catches it
+
+Cheap, and it should be routine before trusting a catalogue-derived domain: fetch
+the site and look for the registrant's exact corporate name in the footer or the
+privacy policy. Minerva's page carries "© 2026 Minerva BI, Inc." — one string,
+decisive. `minervabio.com` carries nothing of the kind, and could not, because it is
+not them.
+
+Where a domain is *inferred* rather than filed by the company, treat it as a lead,
+not a fact. The registry contact address is usually the better anchor: here
+`justin@minerva.io` was on file the whole time, and the domain in it was right while
+the domain field was wrong.
+
+Related: §145, §149.
+
+---
+
+## §158
+
+**A company that says out loud what §149a had to be argued.**
+*Minerva BI — 28 Aug 2026*
+
+§149a records a correction from Optimal's outside counsel: the contact published in
+a state data broker register is *a disclosure*, not a designated request channel,
+and treating it as "the route the statute directs consumers to" was wrong.
+
+Minerva's privacy policy states the same distinction in its own words, and is the
+first company in this project to do so explicitly:
+
+> *Minerva has designated the following methods for submitting consumer requests
+> under the CCPA, including access, correction, deletion, and opt-out of sale or
+> sharing: Webform ... Toll-Free Number ... To ensure secure and efficient
+> processing, Minerva only processes data subject requests submitted via these
+> designated methods. Requests sent to other channels, including email, will receive
+> an automatic response redirecting to the webform. For general inquiries unrelated
+> to data subject rights, contact: privacy@minerva.io*
+
+Three separate addresses are therefore in play, and they are three different things:
+
+| what | which | what it is |
+|---|---|---|
+| `justin@minerva.io` | the CA register contact | a published disclosure |
+| `privacy@minerva.io` | the policy's general mailbox | explicitly *not* for rights requests |
+| `preferences.minerva.io` | the policy's designated method | the only channel that starts a clock |
+
+**No letter was sent.** A request to either mailbox is stated in advance to produce
+an autoresponder pointing at the form, so the send would have bought a deflection
+and spent a slot. The broker is queued for the form instead.
+
+That is the operational rule this section exists to fix in place: **when a policy
+names a designated method AND says other channels are redirected, believe it, and go
+to the form.** The email route is the project's default because most brokers put
+their CAPTCHA on the form and are obliged to honour a written request anyway — but
+"most" is not "all", and a company that has published the answer has removed the
+need to guess.
+
+The portal is a **DataGrail** Privacy Request Center, which the repo has already
+run end to end at `brokers/seamless_ai.md`: state picker defaults to Virginia,
+Pennsylvania is accepted, and the flow terminates at an hCaptcha. So the handoff
+note is precise rather than exploratory.
+
+One thing worth keeping from the reconnaissance, since the form will ask nothing
+about it: Minerva's own front page advertises **270 million records, 1,000+
+attributes, updated daily since 2010**, a "B2B2C" consumer graph — and the policy's
+list of uses includes *"inferring and/or deriving characteristics ... (e.g.
+estimated income, estimated net worth)"* and *"compiling and selling personal
+information to third parties."* The policy is also unusually specific about process:
+acknowledgement within 10 business days, response within 45 with one 45-day
+extension, opt-outs within 15 business days, and request records kept for 24 months
+including the outcome and the reason for any denial. That last commitment is worth
+citing if the eventual response is thin.
+
+Related: §146, §149a, §157.

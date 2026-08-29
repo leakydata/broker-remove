@@ -1889,6 +1889,50 @@ B2B, professional-information *and* publicly-available exemptions together — a
 compiled and scored profile is not the same thing as the public sources it was
 compiled from.
 
+## HCP credentialing and licence verification
+
+**Example:** MedPro Systems.
+
+Adjacent to the prescriber datasets above but a different animal, and the
+difference changes what you are allowed to ask for.
+
+**What they hold.** Practitioner and organisation licence status pulled from state
+boards, the NPPES registry and federal databases, sold to pharmaceutical companies
+so that drug-sample eligibility, DSCSA obligations, PDMA rules and Sunshine Act
+transparency reporting can be satisfied. The file is a compliance instrument.
+
+**Open with a do-not-suppress warning, not with the request.** This is the one
+category where a careless removal has a named victim. A suppression applied on
+name alone can pull a real practitioner out of the file that governs whether they
+can be engaged and whether their employer can report accurately. On a common name
+that is not a hypothetical. So the first paragraph should say: match against the
+**full** identifier set, and if the only candidates are licensed practitioners
+whose details do not match, *"no match found" is the correct answer and the one I
+would rather have.* (`_SILENT_FAILURES.md` §153, §154.)
+
+**Concede the public-record half immediately.** Licensing-board and NPPES data is
+public record, deletion rights do not reach it, and you are not asking anyone to
+alter a licensing record. Say so. The concession is what earns the next paragraph.
+
+**The wedge is everything that is not the licence.** These companies also sell
+commercial data solutions, pre-commercial packages and HCP engagement platforms,
+and describe "first- and third-party data collection and validation". Ask three
+things:
+  (a) any record in a dataset **other than** a publicly-sourced licence file;
+  (b) whether any dataset contains **non-practitioners** — purchased contact data,
+      or people appearing as staff, contacts or recipients;
+  (c) engagement records, **transfer-of-value or spend records**, sample-request
+      history, event and interaction data.
+
+**Expect and ask for a nil result — in the right form.** Most subjects are not
+HCPs. Say so in the letter, then ask for the nil result *against the named
+identifiers* rather than a bare "your request has been processed", which is
+compatible with no search having run at all (§138).
+
+**Do not supply an NPI, DEA number or licence number** you do not have, and say
+you have none — it forecloses a verification demand for a credential that does not
+exist.
+
 ## Applicant tracking / HR software
 
 **Example:** ClearCompany.
@@ -2299,3 +2343,154 @@ nationality derived from a name, a photograph, an institution or a location. The
 are common in workforce analytics, are used in ways subjects would rarely
 sanction, and are frequently wrong. Companies will not volunteer them; they will
 often confirm or deny when asked plainly.
+
+## Contextual and programmatic advertising networks
+
+**Example:** Media.net; MaxMind on the geolocation side.
+
+**Concede first, because the concession is what makes the answer usable.**
+Contextual advertising works from the page, not the person. If the file is keyed
+to cookie identifiers, mobile advertising IDs and IP-derived geography, a name
+search returns nothing — *not because the search failed, but because the name was
+never a key.* Say that in the letter and say that you will record such an answer
+as a real result. Otherwise you get a defensive reply about a question you were
+not asking.
+
+**Then ask the three that are actually answerable.**
+
+1. **Is there an identifier-keyed store, and can any of it reach a person?**
+   Cookie IDs, IDFA/AAID, hashed email, household or ISP-level geography, segments
+   attached to any of those — and is any of it linkable, by them or by a partner,
+   to a name or an address. *"Keyed only to identifiers the consumer cannot
+   produce"* is an answer, and a useful one.
+
+2. **The hashed-email wedge — the one identifier a consumer can actually supply.**
+   You cannot read your own cookie ID, and sending a device ID to an advertising
+   company would create the very association you are ending. But the industry's
+   identity layer is keyed to hashes of email addresses, and you have those. So
+   ask them to **do the hashing themselves**: normalise as their systems normally
+   do (lowercased, trimmed, SHA-256, plus MD5 and SHA-1 if held) and search on the
+   results. It derives nothing they could not already derive and hands over
+   nothing new. Same move works on fraud-scoring vendors — see MaxMind/minFraud.
+
+3. **Where does the opt-out actually live?** This is the question worth the
+   letter. If the mechanism is a cookie set in the browser that visits the opt-out
+   page, it is scoped to one browser on one device, absent from the phone, and
+   destroyed by a cache clear — *stored inside the thing it is meant to protect
+   against.* Ask whether a **server-side** opt-out persists against an identifier,
+   and say plainly that "we honour opt-outs" and "we set a cookie" are different
+   claims, only one of which survives a browser reset. Ask about **GPC** in the
+   same breath: honoured, and recorded persistently, or respected only in-session?
+
+**Do not supply an IP address, and say why.** It would hand a company that derives
+geography from network addresses a fresh dated association between an address and
+a named person — the opposite of the request. Offer to reconsider if they say what
+they would do with it afterwards.
+
+## Media intelligence and social listening
+
+**Example:** Meltwater.
+
+Not one database. **Ask about three holdings separately**, or a single "no record
+found" will be true of one and false of another and nobody will notice.
+
+1. **The media and influencer contact database** — journalists, editors, bloggers,
+   creators, compiled without a relationship and licensed to customers. Search on
+   name, addresses, employment history and profile URL, including lapsed entries.
+
+2. **The social listening archive, and specifically the author entity.** Monitoring
+   stores public posts. It also builds a persistent **person-level author record**
+   accumulated across posts: inferred audience demographics, reach and engagement
+   metrics, topic affinities, influence scores, sentiment history. Deleting post
+   copies while keeping the entity is a half-deletion and the standard way this
+   request fails while appearing to succeed. Ask directly whether the entity
+   exists, whether they hold one, and whether a deletion reaches it. The derived
+   attributes are personal information they *created* rather than collected.
+
+3. **The news and editorial archive — and state the limit.** Say explicitly that
+   you are **not** asking them to remove, alter or suppress journalism: it is
+   third-party editorial content they did not write, and it would be wrong to ask a
+   monitoring company to make published reporting harder to find. What is in scope
+   is the **index and what is derived from it** — if a customer can retrieve "every
+   article mentioning [name]", or there is a mention-count, person-entity or
+   alerting subscription keyed to the subject, that is a person-level record they
+   hold. Drawing the line yourself is what stops the whole letter being refused on
+   free-expression grounds.
+
+Then the family question: which product line the registration covers, and which
+acquired or sibling brands draw on the same underlying data, so a deletion is not
+undone by a sibling holding its own copy.
+
+## Political and nonprofit messaging platforms
+
+**Example:** Message Digital.
+
+Distinct from the voter-file enrichment section above: these are the **senders**,
+not the compilers — texting, email and a client-facing data warehouse, run for
+hundreds of campaigns and causes at once.
+
+**The controller/processor split, with the forwarding ask.** Some of what they
+hold is held *for* a client on instructions; some is theirs, in the warehouse and
+reporting products. Ask which is which, apply the request in full to the second,
+and for the first use the Outreach move: *forwarding is not altering.* Ask them to
+pass the request through to the client programs holding the number and to say that
+they have. An explicit refusal to name clients is workable; silence is not.
+
+**Central or per client? — and why the answer is decisive here rather than
+academic.** If suppression applies across every program on the platform, one
+request does what a consumer expects. If it is per client, stopping one campaign
+leaves hundreds untouched and a consumer told "done" is badly misled. What makes
+this different from an ordinary list company: **political and nonprofit messaging
+does not sit under the federal DNC registry the way commercial telemarketing
+does.** For anything sent through the platform, their internal suppression is not
+one mechanism among several — it is the only one that exists.
+
+**Inferred affiliation is sensitive, and belongs in a separate ask.** Which
+programs hold a person implies party and candidate support and issue positions.
+Ask for deletion — or use-and-disclosure restriction where deletion is impossible
+— of inferred political affiliation, party scores, candidate and issue-support
+attributes and donor propensity scores, *separately* from any contact suppression,
+so a "we have suppressed your number" reply cannot stand in for it.
+
+**Sources.** Voter file, commercial cell-append vendor, list exchange, or a
+client's own collection. A named vendor tells you where to write next.
+
+**And the §154 limit, which bites hardest here.** Do **not** ask them to add
+disconnected historic numbers to a permanent do-not-text file. Those numbers are
+reassigned; the suppression would land on whoever holds them now.
+
+## First-party businesses on the broker register
+
+**Example:** Marriott International.
+
+Occasionally the register turns up a company the subject has an actual account
+with. A blanket deletion letter can then cost them something real, and the letter
+has to be built around that.
+
+**Open by saying what you are NOT asking for**, in the first paragraph, in
+capitals if necessary: not to close or cancel an account, forfeit points, or erase
+a booking or billing record — and if the request would do any of those, *stop and
+ask first.*
+
+**Then split the ask by whether it destroys anything.**
+  - **Unconditional:** opt-out of sale and sharing, and marketing suppression.
+    These touch no account and destroy nothing.
+  - **Conditional:** deletion only of what is *not* required for an active
+    account, a completed transaction, a legal obligation or fraud prevention —
+    which in practice means marketing profiles, inferred preferences, segments,
+    propensity scores, and anything **acquired from or shared with third parties**
+    rather than generated by the subject's own dealings with them.
+
+**Ask the question the registration itself raises.** A data broker sells personal
+information about consumers it has *no direct relationship with*. So what is the
+data that made this company a registrant, and which activity involves people who
+are not its customers? A one-line answer changes what to ask for next.
+
+**Name the category-specific sensitivity.** For a hotel chain, stay history: where
+a person was, on what dates, sometimes with whom — which can reveal a medical
+treatment, a religious observance, a legal proceeding or a relationship. Ask for
+use-and-disclosure limitation on it *separately* from deletion, since the two are
+frequently mutually exclusive.
+
+**Never send an account number, card number, passport number or SSN**, and refuse
+them in advance.
