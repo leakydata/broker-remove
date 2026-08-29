@@ -2646,3 +2646,52 @@ happens when an inferred age falls below the threshold. Frame it honestly: *"Thi
 does not concern me personally — I am not a child — but it bears directly on whether
 the answers you give me about method can be trusted."* A company that cannot describe
 its age handling cannot be relied on to describe its matching either.
+
+## Law-enforcement intelligence vendors on the consumer broker register
+
+**Example:** Penlink (digital evidence, open-source intelligence, link analysis,
+real-time communication interception).
+
+Occasionally a company whose customers are police forces and intelligence agencies
+turns up on a *consumer* data broker register. That is worth a letter, but the letter
+has to be built differently from every other one in this project, and the shape
+matters more than the content.
+
+**Narrow the request in the first paragraph, before asking for anything.** State
+explicitly that you are NOT asking them to delete, suppress, alter or disclose:
+
+  - anything held for, by, or on behalf of a law enforcement agency;
+  - anything obtained under warrant, court order, subpoena or other legal process;
+  - anything forming part of an active or closed investigation;
+  - anything held by their customers in their own systems.
+
+Say plainly that you are not asking them to interfere with lawful investigative work
+and would not want them to, and that *"that category is out of scope"* is an answer
+you will accept without argument. This is not throat-clearing. It is the difference
+between a request a compliance officer can act on and one they must refuse in whole.
+
+**Then ask the question the registration itself poses.** A company that sells
+investigative software to agencies is not, by that fact, a data broker — *the tool is
+not the file*. The registration is a statement that a file exists too. So: which
+product line or dataset is the registered one, what is sold, about whom, to which
+categories of purchaser? A short answer there tells you whether anything further is
+worth asking.
+
+**The decisive technical question is the same as at any people-search business:**
+does the OSINT capability compile and retain profiles in advance, or run a live query
+and retain nothing about people never searched? Offer the second as a complete answer
+in advance — a query engine that stores nothing is a real result, not an evasion.
+
+**Ask for the access log, but concede the obvious objection first.** An investigative
+subject learning they were searched can defeat an investigation, and you are not
+trying to construct that. So ask only for what can be said without that risk:
+*outside* any law enforcement, national security or legal-process context, has a
+**commercial** customer queried the identifiers? *"We cannot distinguish the two
+categories"* is itself an answer worth having.
+
+**And the common-name warning carries its heaviest weight here.** In a marketing file
+a mismatch wastes a mailing. In an intelligence or investigative context a mismatch
+can attach one person's record to another person's identity, and the consequences
+fall on a stranger who will never learn it happened. Ask them not to match, annotate,
+flag or suppress on the name alone, and say that "we found nothing of yours" is
+preferable to any action taken on a partial match.
