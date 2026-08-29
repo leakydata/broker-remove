@@ -11479,3 +11479,70 @@ that routing vulnerability reports through a form may well be deliberate.
 The four notes each asked for no reply. The point was not to open a correspondence;
 it was that one sentence from me fixes the channel for every consumer who writes
 after me, which is worth more than my own request.
+
+## §184 — the one category that can answer the recipients question
+
+The recipients question — *who received a copy of my data* — has been asked of well
+over a hundred companies and answered by almost none. Usually the refusal is
+strategic. But for a compiler it is often genuinely impossible: a file goes out in
+bulk, to a list of clients, and there is no per-consumer record of who got which row
+because no such record was ever created.
+
+**Skip-trace and investigative search platforms are the exception, and the exception
+is structural.**
+
+On a search platform every lookup is a discrete, authenticated, billable event.
+Somebody logged in, ran a query on a named person, and received a result. That is
+recorded — not out of transparency, but because it has to be for billing, for audit,
+and for permissible-purpose compliance. **The log exists whether or not they want to
+show it to me.**
+
+So the letter to Tracers/EnformionGO asks the question in the form the architecture
+can actually satisfy: *has anyone searched for me, how many times, on what dates, and
+under what category of subscriber and stated permissible purpose?*
+
+**And it concedes the subscriber identities up front.** Naming who searched is a real
+refusal with a real reason behind it — an ongoing investigation being the obvious one
+— and demanding it invites a refusal that swallows the whole question. Counts, dates
+and categories carry almost all the value: they answer *have I been looked for, and
+by what sort of party*, which is the thing a person actually wants to know. Asking
+for the answerable version of a question is not a concession; it is the difference
+between a reply and a refusal.
+
+Same move as the L2 concession in the voter-file letter, and the same reasoning:
+**give away the part they were going to win anyway, so the part you care about has
+nowhere to hide.**
+
+### Two other things this category needs
+
+**Association graphs name people who never asked to be there.** A locating product
+links relatives and associates. Those are other living people, they made no request
+of anyone, and an error in that graph is where this category does its worst damage.
+The letter asks specifically what associations are recorded.
+
+**Match discipline stops being a formality.** Everywhere else, a wrong match sends a
+catalogue to the wrong house. Here it means *somebody gets found by a person looking
+for someone else*. The letter says that in those words, and says "no match found" is
+preferable to a mistaken edit.
+
+### The protected-person question, asked on behalf of nobody in particular
+
+A product that resolves a person across addresses, phones, relatives and associates
+is the precise tool used to find someone who moved in order not to be found. For a
+domestic-violence survivor or a stalking victim, an ordinary opt-out can be
+inadequate in three specific ways: too slow, reversible at the next data refresh,
+and — the one that is least obvious — **visible**. A record that displays as
+suppressed tells a subscriber that this person took steps to disappear, which is
+itself information, and in the wrong hands it is a confirmation rather than a
+protection.
+
+So the letter asks whether a distinct safety suppression exists that is faster,
+permanent, and *invisible rather than merely empty*, how it is invoked, what evidence
+is required, and whether it propagates across all their brands.
+
+It states plainly that the requester is not in danger and is not claiming protected
+status. That matters for two reasons: it is true, and a false claim of endangerment
+would poison a mechanism that other people genuinely need. The answer is worth having
+in the project's records regardless of whether this requester ever uses it — and
+`scripts/make_protected_person_request.py` already exists for the case where somebody
+does.
