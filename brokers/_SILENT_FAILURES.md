@@ -10981,3 +10981,71 @@ distinguish an overwrite from a fresh death to be worth acting on: **in both cas
 the registry is pointing at a route that no longer works, and that is the thing that
 needs fixing.** A check that catches a second failure mode you did not anticipate is
 a better check than you wrote, not a false alarm.
+
+## §176 — the identifier a rebrand cannot afford to change
+
+A white-label people-search operator can vary almost everything per brand: the
+domain, the logo, the company name in the footer, the support phone number, the
+support mailbox. Each of those is cheap. What it does not usually vary is the paid
+third-party account behind the page — the LiveChat seat, the analytics property, the
+tag-manager container. Those cost money and effort per brand and buy nothing, so one
+gets reused across the estate.
+
+That reuse is sitting in the page source of every front end, and it is the cheapest
+family-detection method I have found.
+
+    window.__lc.license = N     LiveChat account -- strongest, it is a paid seat
+    UA-… / G-…                  Analytics property -- strong
+    GTM-…                       Tag Manager container -- good, with the caveat below
+
+Scanned all 1371 registry domains; 682 returned a usable fingerprint.
+
+**The find.** `courtrec.com` and `publicrecords.info` came in as two ordinary pending
+rows, presenting as separate services with separate support numbers. Both carry
+`__lc.license = 7139371` — and so do `publicrecords.us`, `propertyrecord.com` and
+`propertyrecs.com`. Identical page structure, identical FAQ word for word, identical
+Daniel's Law paragraph. **Three of the five had already been written to separately,
+under three unrelated-looking addresses** (`support@publicrecords.us`,
+`andy@Propertyrecord.com`, `privacy@propertyrecs.com`), with no indication anywhere
+that they were the same operation.
+
+So the letter changed shape. Instead of two more per-brand requests it asks the
+operator to apply the removal at the level where the data actually lives, names all
+five sites, and asks them to name any sibling I missed — on the reasoning that *a
+person who removes themselves from four of five sites has not removed themselves
+from anything.*
+
+**The control.** The ten-site California licensing family — alarmscalifornia.org,
+californianursing.org, dentistscalifornia.org and seven more — came back sharing one
+analytics property. That family was already known, and every row already routed to
+`contact@licensedata.org`. The method reproduced, exactly, a family established by
+other means. A technique that only ever finds new things is a technique you cannot
+calibrate; this one agreeing with a known answer is what makes the new answer
+credible.
+
+**The caveat, which is real.** A shared identifier proves a shared *operator*, which
+is usually but not always a shared *owner*. `UA-7117339-4` linked smacomm.com,
+bigbendtransit.com, fandominc.com, thepublicindex.com, torrelabs.com and
+wellnesscom.com. A transit authority, a wellness directory and a public-records site
+have no plausible common owner — that is one web agency reusing its own analytics
+property across client sites. **Treat a cluster as a lead to verify, never as a
+finding.** Corroborate with page structure, shared copy, or a common contact address
+before writing to anyone as a family. The LiveChat cluster earned its letter because
+the FAQ text matched word for word; the agency cluster gets nothing.
+
+**A second, unplanned yield: duplicate registry rows.** The same scan exposed a dozen
+pairs that are one company under two ids — propertychecker/propertychecker_com,
+salesgear/salesgear_io, windfall/windfall_data, versium/versium_analytics,
+spectrum_data/spectrum_mailing_lists, seamless/seamless_ai, retention_com/…_rb2b and
+others. These are not families; they are dedup candidates, and each one is a letter I
+would otherwise send twice to the same company. Listed in `_FAMILIES.md`.
+
+Saved as `scripts/fingerprint_scan.py`, read-only, with the caveat in its docstring.
+
+**Why this belongs in a file about silent failures.** The per-brand request is the
+archetypal silent failure. It succeeds — the brand really does remove you — and it
+accomplishes nothing, because the record lives one layer down and four other front
+ends still serve it. Nothing bounces, nothing refuses, and the confirmation is
+honest. §138 asks what only this request could have produced; here the better
+question is *what layer did this request reach*, and the answer had been "the wrong
+one" five times over without a single sign of trouble.

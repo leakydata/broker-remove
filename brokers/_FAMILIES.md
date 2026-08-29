@@ -1419,3 +1419,57 @@ which is to say the form exists partly to extract the identifier. Read
 it; the project's position is that it should not be supplied, because at a company
 holding no names it is the act of supplying it that creates the association.
 
+
+## Shared-infrastructure fingerprints (discovered 2026-08-29)
+
+Found by scanning every registry domain for identifiers that a white-label operator
+cannot easily vary per brand: the LiveChat license (`window.__lc.license`), Google
+Tag Manager container IDs (`GTM-…`) and Analytics property IDs (`UA-…`, `G-…`).
+1371 domains scanned, 682 returned a usable fingerprint. Method and caveats in
+`_SILENT_FAILURES.md` §176.
+
+### LC:7139371 — one people-search platform, five consumer brands
+
+    courtrec_com            courtrec.com
+    publicrecords_info      publicrecords.info
+    publicrecords_us        publicrecords.us
+    propertyrecord_com      propertyrecord.com
+    propertyrecs            propertyrecs.com
+
+Identical page structure and FAQ text word for word, including the Daniel's Law
+paragraph; only brand name, support phone and support address differ. Three had
+already been written to separately, under three unrelated-looking addresses, before
+the fingerprint linked them. Now handled as one family.
+
+All five carry the FCRA disclaimer, so the CCPA deletion right applies — see §174.
+
+### GA:G-SD1PWKQGB7 / UA-69319119-1 — the California licensing family (ten sites)
+
+    alarmscalifornia          californiabrokers_org      californiaengineering_org
+    californialicensing_org   californianursing_org      californiapharmacists_org
+    contractorscalifornia_org dentistscalifornia_org     firearmscalifornia_org
+    notariescalifornia_com
+
+Ten separate .org brands, one analytics property, all publishing California
+licensed-professional records. This family was **already** known and every row
+already routes to `contact@licensedata.org` — the scan confirmed it rather than
+discovering it, which is the useful control case: the method reproduces a family
+established by other means.
+
+### Smaller clusters worth knowing
+
+    GTM-TJC8P5K    dataaxle / exact_data            (data-axle.com)
+    GTM-TH3ZZ2G    whitepages / 411_com
+    GTM-MZ5LL5BG   corelogic / corelogic_cotality   (rebrand, confirms the succession)
+    GTM-PQM22XN    equifax / austin_consolidated / paynet
+    UA-23879909-1  apollo_interactive / blue_fire_leads / mortgage_rates_pro
+    GTM-WKMHFBN    pgm_solutions_porch_group_media / v12_privacy
+    GTM-MZR4JBR    valassis_communications / valassis…_an_rrd
+
+### Duplicate registry rows exposed by the same scan
+
+Same company, two ids, one fingerprint. These are dedup candidates, not families:
+propertychecker/propertychecker_com, salesgear/salesgear_io, windfall/windfall_data,
+versium/versium_analytics, spectrum_data/spectrum_mailing_lists, seamless/seamless_ai,
+socialgist/socialgist_boardreader, retention_com/retention_com_rb2b, mrss/mr,
+stirista pair, monitorbase/lender_feed_lc, oan pair.
