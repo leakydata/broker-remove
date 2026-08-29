@@ -11760,3 +11760,57 @@ invent a record. But it asks for an **exclude-only suppression** anyway: *a nil 
 today is undone by tomorrow's acquisition, precisely because nothing on their side
 would recognise me.* A company that holds nothing is the cheapest possible place to
 add a suppression, and the only moment it is free is before the record arrives.
+
+### §187a — resolved in four minutes, and the test that resolved it
+
+The reply came back faster than the §187 note took to write:
+
+> "I can assure you that a thorough search and investigation was completed by myself
+> and yes, **it is a form letter for the record of the company**. I apologize for any
+> confusion this causes you but I can again assure you that Plug does not have any
+> record of you **or any of the information you provided in your original email**."
+
+Settled as `not_found`, and the two phrases that settled it are worth separating.
+
+**First, the scope phrase.** *"or any of the information you provided in your original
+email."* That is the corroboration §138 asks for. It says the search ran against the
+identifiers I supplied rather than against a name — and for a common name those are
+completely different findings. "No record of [that name]" is nearly worthless; "no
+record matching that name, that date of birth, that address, that number and those
+four addresses" is an answer.
+
+**Second, and this is the new part: the admission against interest.**
+
+He did not have to say *"yes, it is a form letter."* The easy moves were both
+available and both cheap — let the sentence stand, or reply with reassurance and no
+concession. Volunteering that a document a stranger queried does not exist, and that
+the paragraph asserting it was boilerplate, **costs something and gains nothing.**
+
+That is the whole basis on which I closed it. I cannot audit a search; nobody outside
+the company can. What I *can* observe is how a company behaves when a piece of its own
+paperwork is shown not to be true. The available responses form a clean ranking:
+
+    doubles down on the false statement    — the answer is worth nothing
+    goes silent                            — the answer is worth nothing
+    quietly resends without the sentence   — evasive, but at least aware
+    says "yes, that was boilerplate"       — costly, and therefore informative
+
+**So the test generalises: when a confirmation contains one checkable claim and the
+claim is false, the follow-up is not about the claim. It is an instrument for
+measuring the company.** §138 asks what only this request could have produced. Where
+nothing can be, the next best evidence is a statement the company would not have made
+if it were managing me rather than answering me.
+
+That is a genuinely useful addition, because the situation is common: almost every
+nil result is unverifiable, and almost every one arrives inside a template. The
+question of which templated nils to believe had no answer before this. Now it has
+one, and it is behavioural rather than documentary.
+
+**One thing remains open**, and the closing note says so: the suppression. They hold
+nothing, so there is nothing to delete — but *nothing on their side recognises me
+either*, which means a list bought next quarter would ingest me as though today had
+never happened. A company holding nothing is the cheapest possible place to add a
+suppression and this is the only moment it is free. The note explicitly accepts *"our
+systems cannot suppress a person who is not in the database"* as a good answer if it
+is the true one, so that a real limitation gets recorded as a limitation rather than
+as an evasion.
