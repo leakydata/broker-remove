@@ -11114,3 +11114,57 @@ The recurring shape, now three sections running: **the failure is not that a req
 fails, it is that a request lands somewhere adjacent to where it needed to land.**
 §171 the record recomputed after deletion, §176 the sibling site still serving it,
 §177 the second letter to a mailbox that already had the first.
+
+## §178 — "send us the link to your profile"
+
+Two people-search sites replied within forty seconds of each other, from different
+domains, with the same message word for word:
+
+> "To ensure we accurately locate your specific record and avoid inadvertently
+> removing another individual's information, we need a few more details... Profile
+> Page URL(s): The exact link(s) to the page(s) you wish to have removed."
+
+Two things worth separating here, because they pull in opposite directions.
+
+**The stated reason is genuinely good.** Avoiding the removal of a stranger's record
+is the concern I raise in my own letters — Nathan Jones is a common name, and a
+match on name-plus-street will eventually take down the wrong person. A company that
+says this is being careful, and the reply says so before it says anything else.
+
+**But the specific item asked for inverts the positions.** To produce a profile URL I
+have to search their site for myself: type my own name, address and date of birth
+into a people-search engine, open the result, and copy the link. That means
+
+  - submitting my identifiers to the very index I am asking to be removed from,
+  - generating a query log tied to me on their infrastructure, and
+  - in most cases hitting a paywall or an account prompt before the page I would be
+    citing is even visible.
+
+**They have a search engine over their own database and I do not.** Asking the
+person who wants out to first go in and find themselves is asking for the one thing
+the request exists to make unnecessary. The reply declines that single item, supplies
+everything else in more detail than a search needs, and asks them to say plainly if
+the process genuinely cannot proceed without it — so it gets recorded as an answer
+rather than left as a stall.
+
+Note what is *not* being claimed. This is not accused of being a deliberate
+obstruction, and it probably is not one. It is a support template written for the
+common case, where the requester found their listing on Google and is annoyed about
+it. It fails for the requester who has not looked and does not intend to.
+
+**A second finding, free.** Two identical templates from `searchpeoplefree.net` and
+`usphonelookup.com` corroborate a shared platform independently of the §176
+fingerprint method. **A support template is a fingerprint too** — cheaper to check
+than page source, and it arrives unprompted. Where §176 reads what the operator
+deploys, this reads what the operator writes; two brands that answer in the same
+words are one desk. So `usphonelookup` was asked directly whether one team can action
+both, and if not, to name the sites they can and cannot reach.
+
+**And the phone-specific caution, which belongs on every phone-lookup letter from
+here on.** Prior numbers get reassigned. Somebody else answers them now. So the
+request must be *detach my identity from the number*, never *suppress the number* —
+blacklisting a reassigned number takes a stranger's listing down along with mine, and
+reversing that later is far harder than getting it right the first time. The same
+logic applies to prior addresses, and it is the exclude-only principle pointed at the
+requester's own risk of causing collateral damage rather than at the broker's
+convenience.
