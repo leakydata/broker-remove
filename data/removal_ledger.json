@@ -3994,6 +3994,11 @@
     "changed": "2026-08-19",
     "via": "email"
   },
+  "quorum_data": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
+  },
   "radaris": {
     "status": "confirmed",
     "changed": "2026-08-28",
@@ -4012,6 +4017,11 @@
   "rategain_adara": {
     "status": "submitted",
     "changed": "2026-08-28",
+    "via": "email"
+  },
+  "ray_insights": {
+    "status": "submitted",
+    "changed": "2026-08-29",
     "via": "email"
   },
   "reach_marketing": {

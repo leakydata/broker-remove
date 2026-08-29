@@ -15353,7 +15353,8 @@
       "registry_years": [
         "2020-2023"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "email_note": "POSSIBLE SUCCESSION, ASKED NOT ASSUMED (2026-08-29): ray_cdp (Ray CDP Inc, raycdp.com, filed 2020-2023 only) and ray_insights (Ray Insights Inc, rayinsights.com, filed 2026) show the 163 signature -- one filing stops, the other begins, and the names are near-identical. raycdp.com serves only a 'Coming Soon / under construction' placeholder but has LIVE Google Workspace MX, so there is no site to check identity against and mail still works: the Minerva case rather than the Near case. Both mailboxes accept mail. The succession question was put to ray_insights in its 2026-08-29 letter. Do NOT merge these rows until answered -- 'Ray' is a common enough name and both could be unrelated."
     },
     {
       "id": "ray_insights",
@@ -15372,7 +15373,8 @@
         "2026"
       ],
       "legal_name": "Ray CDP, Inc.",
-      "domain_source": "ca_registry_contact_email"
+      "domain_source": "ca_registry_contact_email",
+      "email_note": "POSSIBLE SUCCESSION, ASKED NOT ASSUMED (2026-08-29): ray_cdp (Ray CDP Inc, raycdp.com, filed 2020-2023 only) and ray_insights (Ray Insights Inc, rayinsights.com, filed 2026) show the 163 signature -- one filing stops, the other begins, and the names are near-identical. raycdp.com serves only a 'Coming Soon / under construction' placeholder but has LIVE Google Workspace MX, so there is no site to check identity against and mail still works: the Minerva case rather than the Near case. Both mailboxes accept mail. The succession question was put to ray_insights in its 2026-08-29 letter. Do NOT merge these rows until answered -- 'Ray' is a common enough name and both could be unrelated."
     },
     {
       "id": "reach_marketing",
@@ -15404,7 +15406,8 @@
       "registry_years": [
         "2024"
       ],
-      "legal_name": "Freemium Data Services, LLC"
+      "legal_name": "Freemium Data Services, LLC",
+      "email_note": "2026-08-29: filings stop after 2024 so the 163 domain check ran. reachdata.com does NOT resolve (HTTP 000) but has live Google Workspace MX, i.e. a maintained tenant with no website -- the nymblr/minerva shape, not the Near danger case, so email is safe and is the only channel available. Say so in the letter so the choice is not mistaken for skipping a form."
     },
     {
       "id": "real_intent",
