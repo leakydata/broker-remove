@@ -9880,3 +9880,161 @@ rights channel is a message that arrives — which means the bounce is not a was
 send, it is the test result.
 
 Related: §149, §156, §160.
+
+---
+
+## §163
+
+**The company died, the file did not, and the register still points at the grave.**
+*Near / Azira — 29 Aug 2026*
+
+`queue_batch` offered two brokers this tick: `near_north_america` (Near North
+America, Inc., `privacy@near.com`) and `near_pte` (NEAR PTE LTD, `privacy@near.co`).
+Both were location-intelligence businesses. Neither letter was sent, and the reason
+is the finding.
+
+### Both domains now belong to other people
+
+  - **near.com** is operated by a different company entirely. Its own privacy
+    policy, updated June 2026, names **INTENTS TECHNOLOGY, LIMITED** and describes a
+    cryptocurrency interface. There is nothing about location data anywhere on it.
+  - **near.co** redirects to an unrelated product at a third domain.
+
+A letter to `privacy@near.com` would have sent twelve email addresses, sixteen
+former home addresses, eleven telephone numbers and a date of birth to a crypto
+company that has never held any of it. That is §157's harm — writing to a stranger —
+arriving by a different road: not a compressed name guess this time, but **a
+registry domain that expired and was re-registered by someone else.**
+
+`check_email_domains.deliverable()` returns `True` for both. Of course it does: the
+domains resolve and accept mail. Deliverability was never the question. **A live MX
+record tells you a letter will arrive; it tells you nothing about who opens it.**
+
+### The successor was already in the registry, unlinked
+
+The location business now trades as **Azira** — `azira.com`, `privacy@azira.com`,
+present in this repo as broker `azira` and written to on 24 August. The registry
+years line up exactly with a 2024 succession:
+
+| entity | California filings |
+|---|---|
+| NEAR PTE LTD | 2020–2023 |
+| Near North America, Inc. | 2020–2023, 2024 |
+| Azira, LLC | 2024, 2025, 2026 |
+
+Near's filings stop where Azira's begin. Three rows in one registry describing one
+continuous file, with nothing connecting them, and two of the three pointing at
+domains that now belong to strangers.
+
+### Why this is a gap nothing in the system closes
+
+A state register records **the entity that filed**. It does not record what happened
+to the data afterwards. When a data business is sold, wound up, or reorganised, the
+database is an asset and it moves — and the consumer whose records are inside it
+gets no notice, no forwarding address, and no way to find out. The register keeps
+listing the dead company, with a contact that either bounces or, worse, reaches
+whoever bought the domain.
+
+So the follow-up went to Azira instead, asking four things:
+
+  1. whether it holds, ingested, derived from or built products on Near-origin data;
+  2. if yes, that the 24 August request be applied to it **including historical
+     records predating the transfer** — a 2021 record is as much about the subject as
+     last month's, and a suppression applied only to current ingestion would leave it;
+  3. if no, **who should a consumer write to** — an estate, a trustee, a purchaser?
+     Naming them is enough; the letter says explicitly it is not asking Azira to
+     answer for anyone else, only to confirm they exist;
+  4. and the general question worth more than this case: **when a data business
+     changes hands, does the consumer suppression list transfer with the data — or
+     does the file arrive at its new owner with the records intact and the objections
+     stripped out?**
+
+That fourth question is the one to reuse. If the answer is generally "no", then
+every suppression this project has obtained from a company that later sells its
+assets is a suppression with an expiry date nobody discloses.
+
+### The operational rule
+
+**Before writing to any broker whose registry filings have stopped, check who owns
+the domain now.** The check is thirty seconds — fetch the site, look for the
+registrant's corporate name in the footer or policy (§157) — and the failure mode it
+prevents is the worst one available: handing a complete identifier set to an
+uninvolved company. Lapsed filing years are the tell. A broker that filed in
+2020–2023 and never again either died or was absorbed, and in both cases the address
+on file is the least trustworthy field in the row.
+
+Related: §149, §157, §159, §160.
+
+---
+
+## §164
+
+**A privacy request that supplies a phone number may be consent to call it.**
+*Networx Systems — 29 Aug 2026*
+
+§155 recorded Media Resource Group's clause converting website form submissions into
+TCPA consent, and noted it was conditioned on "clicking on the consent button on the
+opening page" — narrow enough that whether it reached the opt-out form was a genuine
+question.
+
+Networx's is not narrow:
+
+> *"By registering on the Sites **or otherwise providing Networx with a phone
+> number**, you agree to receive recurring, non-emergency, automated promotional
+> and/or marketing text messages, phone calls using a prerecorded message or
+> artificial voice, and calls/messages delivered using an auto telephone dialing
+> system ... from Networx, its affiliates, and/or designated Service Professionals
+> and Fulfillment Partners at any number(s) you provide to Networx ...
+> Notwithstanding that your telephone number may be listed on the Federal Trade
+> Commission's Do-Not-Call [Registry]..."*
+
+"Or otherwise providing Networx with a phone number" has no site, no form and no
+button in it. Read literally it reaches **any** communication in which a consumer
+supplies a number — including a letter asking them to stop.
+
+### This is a problem with our own template, not just with their drafting
+
+Every letter this project sends lists **twelve telephone numbers**, deliberately,
+because records are indexed against numbers a person no longer uses. That is the
+right instinct and §152 defends it at length.
+
+But it means the standard letter hands a phone number to every recipient, and at a
+lead-generation company whose terms treat *providing a number* as consent to
+autodialled marketing — expressly overriding a Do-Not-Call listing — the letter
+carries a cost that the letter itself was written to avoid. The subject's numbers
+would be delivered to Networx, "its affiliates, and/or designated Service
+Professionals and Fulfillment Partners", which is a lead network, not one company.
+
+### The fix, which costs one paragraph
+
+The letter opens with an express reservation, **before** the identifiers rather than
+after:
+
+> *"the telephone numbers below are supplied ONLY as search keys for this privacy
+> request. This is not a registration, not an inquiry, not an application, and not
+> consent of any kind ... nothing in this letter should be treated as prior express
+> written consent under the TCPA or as an inquiry or application under the
+> Telemarketing Sales Rule."*
+
+Then it asks for that in writing, concedes the clause is obviously not aimed at
+privacy requests, and offers the alternative rather than demanding: *"If you would
+prefer I withhold the numbers entirely, say so and I will re-send without them,
+accepting that the search will be less complete."*
+
+The phone list is also labelled inline — `Prior phone numbers (SEARCH KEYS ONLY —
+see the reservation above)` — so the reservation travels with the data if the letter
+is excerpted into a ticket.
+
+### The rule
+
+**Read the consent language before sending identifiers, not just the rights
+section** — and where a company's terms attach consequences to *providing* a
+telephone number rather than to using a particular form, state the reservation in
+the first paragraph.
+
+Categories where this is worth checking every time: lead generation, home services,
+insurance and loan comparison, home improvement, education, and anything describing
+itself as a marketplace connecting consumers to providers. Those are precisely the
+businesses whose model is delivering a phone number to someone else.
+
+Related: §152, §154, §155.

@@ -3184,6 +3184,16 @@
     "changed": "2026-08-19",
     "via": "email"
   },
+  "near_north_america": {
+    "status": "unreachable",
+    "changed": "2026-08-29",
+    "via": "email"
+  },
+  "near_pte": {
+    "status": "unreachable",
+    "changed": "2026-08-29",
+    "via": "email"
+  },
   "nebraska_arrests": {
     "status": "submitted",
     "changed": "2026-08-16",
@@ -3199,9 +3209,19 @@
     "changed": "2026-08-15",
     "via": "reply"
   },
+  "neptune_ops": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
+  },
   "netwise": {
     "status": "submitted",
     "changed": "2026-08-19",
+    "via": "email"
+  },
+  "networx_systems": {
+    "status": "submitted",
+    "changed": "2026-08-29",
     "via": "email"
   },
   "neustar": {
@@ -3213,6 +3233,11 @@
     "status": "submitted",
     "changed": "2026-08-16",
     "via": null
+  },
+  "new_frontier_data": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
   },
   "new_hampshire_arrests": {
     "status": "submitted",
