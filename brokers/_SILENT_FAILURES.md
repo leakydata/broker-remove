@@ -10906,3 +10906,78 @@ identification it actually is, and asks what alternative channel exists — secu
 upload, postal, knowledge-based — rather than treating the requirement as bad faith.
 If there is no route that works without emailing one of those two items, that gets
 recorded as a limit of the process, not as a refusal by them.
+
+## §175 — three replies in one hour, and each broke a rule I had just written
+
+Sent three letters, and the responses arrived fast enough to test yesterday's
+generalisations against the same day's evidence. All three came back wrong-footed.
+
+**(a) The autoresponder that is not a deflection.** §161a named the class *"the
+deflection that reads as a result"* — the auto-reply that absorbs a request and
+looks like an answer. HireRight's is the counter-example, and it deserves recording
+because I would otherwise have filed it under the same heading and been wrong:
+
+> "If you are an individual contacting us about our privacy policy, you have sent
+> your email to the right place! We will get back to you."
+
+It then routes by need — disputes here, disclosures there, expungements to
+`consumers@`, documents to `documentation@` — and separates individuals from
+customers from prospects. It confirms receipt, promises a human, and adds routes.
+That is an autoresponder doing its job.
+
+**So the §161a test needs sharpening.** The tell is not *"an automated reply came
+back."* It is *does the automation stand in place of an answer, or in front of one?*
+ReachData's said the company had ceased operations and fired verbatim again against
+a follow-up containing no identifiers — a wall. HireRight's says a person will
+follow up and tells me where else to look — a doorway. Same mechanism, opposite
+function.
+
+**(b) The newer published address is the dead one.** §173 had just concluded that
+directory addresses stay alive and register filings rot. Reklaim inverts it inside a
+single company:
+
+  - `privacy@reklaimyours.com` — the **older** California register filing —
+    delivered and autoresponded.
+  - `privacy@reklaimyou.com` — published on their **current** privacy policy at the
+    domain they actually use now — hard-bounced, `550 5.1.1 ... does not exist`.
+
+The company moved from reklaimyours.com to reklaimyou.com, published a contact at
+the new domain, and never created the mailbox. The stale filing works; the current
+policy does not. §162 recorded "the privacy address on their own live policy does
+not exist" once before; this is the second, and the pattern is now worth expecting
+rather than noting. **Recency is not freshness.** When two addresses exist, try both
+— the wrong guess here would have been the confident one.
+
+**(c) The mailbox that lives while the person does not.** The Alesco/Response
+Solutions contact answered immediately:
+
+> "Michael Sklorenko is no longer with the company. Please contact Steve Bell at
+> steve@alescodata.com for assistance."
+
+This is the 117-address person-shaped cohort caught in the act, and it is worth
+being precise about what happened, because it is neither of the two failure modes I
+had names for. **It did not bounce** — the mailbox exists and answers. **It is not
+an unread mailbox (§165)** — someone configured a forward-on. The address works
+perfectly and the person behind it is gone.
+
+That is the failure the register cannot see. A personal-name privacy contact stops
+working the day its owner resigns, and nothing in the filing process notices, ever.
+A role address — `privacy@`, `compliance@`, `optout@` — survives staff changes by
+construction. The covering note to the successor says exactly that, because it is
+free advice worth more to them than my request is.
+
+Filed under kind `departed_employee` rather than any existing kind: mailbox live,
+recipient gone, successor named.
+
+**(d) And my own guard caught it, for a reason I did not design it for.** The
+validate rule written yesterday — *dead address + live verification flag = probable
+overwrite* — fired on `response_solutions` within the hour. It was a true positive
+and my stated rationale was wrong: nothing had been overwritten. The address had
+simply been alive when verified and died since.
+
+The signature is identical either way, which is the useful part. I have widened the
+message rather than narrowing the rule, because the check does not need to
+distinguish an overwrite from a fresh death to be worth acting on: **in both cases
+the registry is pointing at a route that no longer works, and that is the thing that
+needs fixing.** A check that catches a second failure mode you did not anticipate is
+a better check than you wrote, not a false alarm.

@@ -95,6 +95,22 @@
       "kind": "restricted_group",
       "evidence": "Not a missing mailbox. Google Workspace postmaster rejected it: 'The group privacy isn't set up to receive messages from [the requester's address]' -- a restricted group that accepts internal senders only, so it works for staff and silently rejects every consumer. Same failure mode as graph8 (_SILENT_FAILURES 149). Address is the one published on the CA data broker register. Observed on a send by the other agent, recorded here because dead_addresses.json is the shared record and that agent does not publish a ledger.",
       "replacement": "none known yet -- no alternative published address found"
+    },
+    "privacy@reklaimyou.com": {
+      "address": "privacy@reklaimyou.com",
+      "broker": "reklaim",
+      "observed": "2026-08-29",
+      "kind": "dead_domain_mailbox",
+      "evidence": "550 5.1.1 'The email account that you tried to reach does not exist' from Google. This address is the one published on Reklaim's CURRENT privacy policy at reklaimyou.com; the address on the older California register filing, privacy@reklaimyours.com, delivered normally and autoresponded. The newer published contact is the dead one.",
+      "use_instead": "privacy@reklaimyours.com"
+    },
+    "michael@alescodata.com": {
+      "address": "michael@alescodata.com",
+      "broker": "response_solutions",
+      "observed": "2026-08-29",
+      "kind": "departed_employee",
+      "evidence": "Autoresponder: 'Michael Sklorenko is no longer with the company. Please contact Steve Bell at steve@alescodata.com for assistance.' Mailbox still accepts and answers, so this is not a bounce -- the address works and the person does not. Registered on the CA broker register as the privacy contact for Response Solutions Group LLC.",
+      "use_instead": "steve@alescodata.com"
     }
   }
 }

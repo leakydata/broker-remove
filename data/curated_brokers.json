@@ -19077,14 +19077,14 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "michael@alescodata.com",
+      "email_to": "steve@alescodata.com",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "successor_named_by_autoresponder",
       "registry_years": [
         "2020-2023"
       ],
       "legal_name": null,
-      "email_note": "|| 2026-08-29: the lapsed-cohort scan reported SITE-DEAD / NO-MX, and that verdict was about the WRONG HOST -- it checked the registry domain responsesoulutionsllc.com, which is a typo ('soulutions') and has never resolved. The contact michael@alescodata.com is on a LIVE Microsoft 365 tenant at Alesco Data, a working compiler whose own site advertises automotive, business, consumer, CPG, demographic, DONOR, education, FINANCIAL, HEALTHCARE, intent, insurance, licensed-professional, LIFE EVENT, media and mortgage data. So the route is live and the letter should be addressed to the Alesco relationship as well as to Response Solutions Group LLC. See the KNOWN LIMITATION note in scripts/lapsed_scan.py."
+      "email_note": "|| 2026-08-29: the lapsed-cohort scan reported SITE-DEAD / NO-MX, and that verdict was about the WRONG HOST -- it checked the registry domain responsesoulutionsllc.com, which is a typo ('soulutions') and has never resolved. The contact michael@alescodata.com is on a LIVE Microsoft 365 tenant at Alesco Data, a working compiler whose own site advertises automotive, business, consumer, CPG, demographic, DONOR, education, FINANCIAL, HEALTHCARE, intent, insurance, licensed-professional, LIFE EVENT, media and mortgage data. So the route is live and the letter should be addressed to the Alesco relationship as well as to Response Solutions Group LLC. See the KNOWN LIMITATION note in scripts/lapsed_scan.py. || 2026-08-29 REROUTED: michael@alescodata.com autoresponded that Michael Sklorenko has left and named Steve Bell as the contact. Mailbox live, person gone -- not a bounce. email_to moved to steve@alescodata.com on the strength of the company's own autoresponder."
     },
     {
       "id": "retention_com_rb2b",

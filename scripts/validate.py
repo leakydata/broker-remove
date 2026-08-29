@@ -167,11 +167,17 @@ def main():
                     errors.append(
                         f"{where}: email_to '{to}' is recorded DEAD in "
                         f"dead_addresses.json ({when}) yet email_verified is true "
-                        f"via '{b.get('email_verified_by')}'. Nobody who knew it was "
-                        f"dead would set that, so a correction has probably been "
-                        f"overwritten -- check whether the edit was made in "
-                        f"data/brokers.json (generated) instead of "
-                        f"data/curated_brokers.json (source), and check git log."
+                        f"via '{b.get('email_verified_by')}'. Two things produce "
+                        f"this. Usually an overwrite: nobody who knew the address "
+                        f"was dead would set a live verification flag, so check "
+                        f"whether the edit landed in data/brokers.json (generated) "
+                        f"instead of data/curated_brokers.json (source), and check "
+                        f"git log. But it also fires honestly the moment a "
+                        f"previously-good address dies -- response_solutions hit it "
+                        f"the same hour an autoresponder revealed the named contact "
+                        f"had left the company. Either way the registry now points "
+                        f"at a dead route; the check does not need to tell the two "
+                        f"apart to be worth acting on."
                         + (f" Known replacement: {repl}." if repl else ""))
                 else:
                     warnings.append(
