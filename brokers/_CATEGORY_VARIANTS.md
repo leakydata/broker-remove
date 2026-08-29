@@ -2778,3 +2778,61 @@ in an ordinary deletion request and it can only be asked of the legacy holder.
 
 Related: [SILENT_FAILURES §163] succession, [§177] the second-address doctrine that
 identified 31 of these rows.
+
+## Credit-trigger and prescreen monitoring
+
+A distinct category from both the people-search sites and the compilers, and the one
+where my standard letter is most clearly the wrong instrument.
+
+The product is sold to lenders as retention or "opportunity mining": monitor a
+lender's past customers against bureau data, and alert the lender when one of them
+shows a credit event — an inquiry, a rate shop, a score-band change — so the lender
+can call before the competitor closes. MonitorBase describes itself as a borrower
+retention system that mines opportunities from a contact database.
+
+**Why the standard letter fails here.** If the monitoring runs on consumer report
+information, it is prescreening under the FCRA, and CCPA §1798.145 exempts
+FCRA-regulated activity. A deletion demand asks for a right that does not apply and
+misses the ones that do. Same fork as [SILENT_FAILURES §174]: the question is never
+what the marketing says, it is whether the company's activity is FCRA-regulated.
+
+**What to ask instead**, in this order, because the first answer determines the rest:
+
+  1. Does the monitoring use consumer report information, and from which bureau?
+  2. Have I been monitored, alerted on, or included in a prescreened list — how many
+     times, when, and for which lender? §615(d) entitles a consumer to know a
+     prescreened offer came from a consumer report; ask it directly.
+  3. **Are you a CRA, a reseller, or an end user?** This decides which rights exist.
+     Make the §609 file-disclosure request conditional on the answer rather than
+     assuming it.
+  4. Record an election not to receive prescreened offers **directly with them**.
+     They are the party generating the alerts; a request to the generator should not
+     have to wait on a mechanism run by somebody else.
+  5. Then the CCPA request, scoped to whatever sits *outside* the FCRA activity —
+     marketing records, client-uploaded contact data, appended property or
+     demographic attributes, web identifiers.
+  6. If a lender client uploaded the data, they are likely a service provider for it.
+     Accept that the deletion instruction has to come from the client, but ask them
+     to **forward** the request and name the client. Forwarding is not altering.
+
+**Match discipline matters more than usual.** A trigger alert fired against the wrong
+person — a stranger at a former address — is worse than no removal at all, because it
+sends a lender chasing somebody who never applied for anything. Always ask for the
+full identifier set with date of birth as discriminator.
+
+### The upstream fix is a handoff, and here is why
+
+The real remedy sits above every vendor in this category: the **FCRA §604(e) national
+opt-out** from prescreened offers, operated jointly by the nationwide consumer
+reporting agencies. One election there stops the source, and outranks any number of
+letters to downstream lead vendors.
+
+**It requires a Social Security number.** That is inside the standing refusal and
+always will be, so it is queued as `optoutprescreen` for the requester to decide
+rather than something the tooling does. Two routes exist: a five-year opt-out
+completed online, and a permanent one begun online and finished by returning a signed
+form by post — the permanent route being the stronger.
+
+And a caution that belongs with it: a site asking for an SSN is exactly the shape a
+lookalike phishing domain imitates. The URL should be verified independently before
+anything is typed into it.
