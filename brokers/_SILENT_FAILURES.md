@@ -10318,3 +10318,101 @@ looked at. The difference is that this one is bounded and cheap to close if it e
 matters — the threads are all still in the mailbox.
 
 Related: §160, §162, §163, §165.
+
+---
+
+## §167
+
+**"We hold no names" and "send us your device ID" are the same sentence.**
+*OpenX — 29 Aug 2026*
+
+§150 recorded a trade: the durable opt-out required surrendering the identifier that
+made the tracking possible. §161 sharpened it: the identifier demanded was itself
+defective, by the company's own description. OpenX supplies the limiting case, and
+it does so honestly, which is what makes it worth writing down.
+
+Their privacy autoresponder is not a deflection. It answers, unprompted, the exact
+question the letter had conceded in advance:
+
+> *"we process only pseudonymous data (such as cookie IDs, mobile advertising IDs,
+> and connected television IDs) in connection with our ad exchange and related
+> services. **We do not collect directly identifiable information like names, email
+> addresses, or phone numbers in these contexts**, and cannot use this kind of
+> information to process data subject requests."*
+
+That is a clean architectural statement and it was recorded as a real answer.
+
+And then, in the same message, the intake requirement — **mandatory**:
+
+> *"The device identifier(s) you would like your request to apply to ... We are
+> unable to process requests that do not include this information."*
+
+### The trap, stated as plainly as it goes
+
+The company holds no name, no email address, no telephone number. **So there is no
+link between this person and their systems.** None. The file is genuinely
+pseudonymous.
+
+To exercise the right, the consumer must send a device identifier — from a named
+email address, in a named thread, with a date on it.
+
+**The act of asking to be excluded creates the only record connecting the person's
+identity to the company that has ever existed.** Not as a side effect, and not
+through carelessness: it is the required input. The mechanism cannot function
+without manufacturing precisely the association it is being used to sever.
+
+That is worse than §150's trade, where at least something already existed to be
+protected. Here, complying with the process is strictly worse than doing nothing —
+unless the exclusion is worth more than the linkage it creates, and the consumer has
+no way to price either.
+
+### Two further defects, carried over
+
+  - **Not durable.** A mobile advertising ID is resettable, and resetting it is the
+    commonest privacy advice given to phone owners — so following that advice
+    silently voids the opt-out. On iOS after App Tracking Transparency, a user who
+    declined tracking has no identifier at all: the person most likely to want the
+    opt-out cannot supply the key it requires.
+  - **Partial by construction.** A person has a phone, a laptop, a tablet and a
+    television. An identifier-scoped opt-out covers one.
+
+### What was actually done
+
+Everything cooperative was supplied — country and state, and the request type, split
+into two because deletion and opt-out are different rights and often mutually
+exclusive. Only the device identifier was refused, with the reasoning above stated to
+them in terms, and without rancour: *"I am not suggesting the requirement is
+unreasonable from where you sit — if the system genuinely holds nothing else, there
+is nothing else to match on."*
+
+**The counter-offer is the useful part, and it turns on one qualifier in their own
+sentence.** They said they hold no names *"in these contexts."* So:
+
+> Is there **any** product, partnership, identity partner or matching arrangement in
+> which a **hashed email address** is accepted, resolved, or joined to a cookie,
+> mobile or CTV identifier?
+
+A hash is not directly identifiable either. It sits entirely within a
+pseudonymous-only architecture — and unlike a device ID it survives a reset, covers
+every device at once, and is provably the requester's. If such a path exists, they
+can hash the twelve addresses themselves. If it genuinely does not exist anywhere in
+the chain, that is a complete answer and was accepted in advance as one.
+
+**The general rule this gives the project:** where a company demands the identifier
+it tracks you by, do not argue about whether the demand is reasonable. Ask instead
+whether *any* email-derived key exists anywhere in their stack — and make refusing
+the device ID and offering the hash a single move, so the letter is a proposal
+rather than a refusal.
+
+### One aside worth keeping
+
+The portal offered as the alternative *"will walk you through the process of
+submitting one, including by providing instructions to help you locate your device
+identifiers."* The form exists, in part, to extract the identifier. That is not
+sinister — it is the only key they have — but a consumer should understand that the
+easier route and the more revealing one are the same route.
+
+Vendor recorded: SixFifty (`app.sixfifty.com`), second tenant found, now in
+`_FAMILIES.md`.
+
+Related: §150, §161, §161a.

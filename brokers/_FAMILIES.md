@@ -1394,3 +1394,28 @@ Unlike the household-name platforms, PrivacyPillar has no published tenant
 directory to enumerate from, so the only way to find more tenants is the way these
 three were found: the URL appearing in a registry filing or a privacy policy. Grep
 the registry CSVs for `privacypillar` when new filings are imported.
+
+## SixFifty (compliance vendor, DSR portal)
+
+Another small compliance-vendor tenant family, in the same class as PrivacyPillar
+above. Forms are served from `app.sixfifty.com/request-easy/<tenant>/questions/<form>`
+— the tenant slug is the part that identifies the company.
+
+| broker | tenant slug |
+|---|---|
+| `openx_technologies` | `611c-1551` |
+| `experience` | `6385-4387` |
+
+Found because OpenX's privacy autoresponder names the portal as the alternative to
+email. Worth grepping for on each registry import, the same way PrivacyPillar is:
+one flow learned unlocks every tenant.
+
+Note for whoever runs the OpenX form: their intake is **mandatory on device
+identifier**, and their autoresponder says in terms that a request without one cannot
+be processed. The portal *"will walk you through the process of submitting one,
+including by providing instructions to help you locate your device identifiers"* —
+which is to say the form exists partly to extract the identifier. Read
+`_SILENT_FAILURES` §161 and the OpenX tracker note before deciding whether to supply
+it; the project's position is that it should not be supplied, because at a company
+holding no names it is the act of supplying it that creates the association.
+

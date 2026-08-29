@@ -13629,7 +13629,7 @@
       "domain": "openx.com",
       "priority": 2,
       "method": "email",
-      "optout_url": "",
+      "optout_url": "https://app.sixfifty.com/request-easy/611c-1551/questions/5310164",
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
@@ -13642,7 +13642,8 @@
         "2025",
         "2026"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "email_note": "privacy@openx.com is monitored but auto-replies with a MANDATORY intake list: country/state, request type, and DEVICE IDENTIFIER(S) -- 'We are unable to process requests that do not include this information.' Their stated reason is architectural and unusually candid: 'we process only pseudonymous data (such as cookie IDs, mobile advertising IDs, and connected television IDs) ... We do not collect directly identifiable information like names, email addresses, or phone numbers in these contexts, and cannot use this kind of information to process data subject requests.' Portal is SixFifty (app.sixfifty.com), same vendor as broker `experience` -- see _FAMILIES. Timelines quoted: 15, 30 or 45 days. Privacy Center at openx.com/privacy-center/."
     },
     {
       "id": "optable",
