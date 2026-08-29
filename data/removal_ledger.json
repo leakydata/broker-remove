@@ -3474,12 +3474,22 @@
     "changed": "2026-08-29",
     "via": "email"
   },
+  "onspot_data": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
+  },
   "openpeoplesearch": {
     "status": "submitted",
     "changed": "2026-08-19",
     "via": "web"
   },
   "opensend": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
+  },
+  "openx_technologies": {
     "status": "submitted",
     "changed": "2026-08-29",
     "via": "email"
