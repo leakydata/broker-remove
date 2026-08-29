@@ -10787,3 +10787,122 @@ The standing refusal applies here with extra force, and the letter states it:
 **I will not create an account in order to be deleted from a file I never joined.**
 That trades a new relationship for the removal of an old one, and it is the wrong
 direction.
+
+## §173 — provenance predicts freshness, and it predicts it backwards
+
+§170 swept the brokers whose California registry filings had lapsed. This tick swept
+the other cohort: 399 pending rows with **no registry years at all**, 72 of which
+carry an email route. These did not come from the register. They came from Optery's
+broker directory — a commercial removal service's working list.
+
+I expected a graveyard. The §170 cohort was full of dead domains and abandoned
+mailboxes, and these rows had never been attested to by anyone under penalty of
+perjury. The test was framed as *"was this ever a real route"* rather than *"did this
+company stop filing."*
+
+**All 72 have live MX. Not one dead route.**
+
+Every failure in the output was a bot-block, not a death: 403 from Cloudflare on
+b2bhint, fullcontact, getprospect, names_and_facts, salesintel, thryv, findlaw and
+getemail_io; 405/406 from equilar, prezi, buyersroad and traded_media. One genuinely
+dead site (opendatausa, `certlaw.com`, connection refused) and two clean rebrands
+(edgein -> mentibus.xyz, everyday_health -> everydayhealthgroup.com). Nothing else.
+
+Compare: `data/dead_addresses.json` now holds 61+ entries, and the overwhelming
+majority came from register rows.
+
+The reason is structural, and once seen it is obvious:
+
+  - **A register filing is a one-time attestation.** A company files a privacy
+    contact, and nothing ever forces it to look at that field again. The address
+    rots in place, undisturbed, for years. Nobody is downstream of it.
+  - **A removal service's directory is a working tool.** When an address dies, the
+    service's own requests bounce, and the breakage is visible to the people who
+    maintain it. It gets fixed because it has to be.
+
+So the more official source produces the less reliable address. **The attestation
+made under legal compulsion decays; the list maintained for commercial use does not.**
+
+And the inversion runs the other way too, which is the part worth holding onto:
+
+  - The register row is **weak evidence of a live route** and **strong evidence the
+    company is a broker** — somebody signed a filing saying so.
+  - The Optery row is **strong evidence of a live route** and **weak evidence the
+    company is a broker** — it is a third party's research, and nobody attested to
+    anything.
+
+Two kinds of confidence, inversely correlated, and I had been treating them as one.
+That is why this cohort contains Salesforce, OneTrust, Transcend, Prezi, Scribd,
+Subsplash and MapQuest alongside genuine people-search sites — and why OneTrust and
+Transcend appear here as targets while also appearing in `_FAMILIES.md` as the
+compliance vendors whose webforms other brokers hand me. A deletion demand sent to
+the company that operates other companies' deletion webforms is a category error,
+and only the provenance distinction catches it before the letter goes out.
+
+**Practical rule going forward:** trust a register row for *what the company is* and
+re-verify its address; trust a directory row for *the address* and re-verify what
+the company is. Never carry confidence across the gap.
+
+## §174 — the same two words, pointing in opposite legal directions
+
+Nineteen rows in the registry mention background checks or consumer reporting. They
+do not belong to one category. They belong to two, and the two are legal opposites.
+
+**The disclaimers.** Almost all of them — advancedbackgroundchecks,
+smartbackgroundchecks, fastbackgroundcheck, easybackgroundchecks, background_alert,
+top4backgroundchecks and the rest — are people-search sites wearing the words as
+marketing. Every one carries the standard notice: *not a consumer reporting agency,
+do not use for FCRA purposes.* That sentence reads like a company distancing itself
+from responsibility. It is doing the opposite of that for me: **by disclaiming FCRA
+status, they keep themselves inside the CCPA, and my deletion right survives.** The
+standard letter is correct for them.
+
+**The credential.** HireRight is the other kind. Its notice says, without hedging:
+
+> "We are a background screening company (a 'consumer reporting agency') that the
+> federal Fair Credit Reporting Act governs... We are a consumer reporting agency
+> governed by the FCRA, so this exemption applies."
+
+That is honest, accurate, and it removes the deletion right. CCPA §1798.145 exempts
+information collected, used and disclosed under the FCRA. Sending my standard
+deletion demand there asks for a right that does not exist and misses the rights
+that do.
+
+**So the label inverts the instrument.** The claim that sounds like evasion
+("we are not a CRA") is what preserves the deletion right. The claim that sounds
+authoritative and compliant ("FCRA-governed screening") is what extinguishes it.
+Reading the phrase "background check" on a homepage tells you nothing; only the
+company's own statement about its FCRA status does.
+
+The right letter to a real CRA, and what I sent:
+
+  1. **§609(a)(1)** — all information in the file.
+  2. **§609(a)(2)** — the sources of it.
+  3. **§609(a)(3)** — *the identification of each person who procured a consumer
+     report on me*: two years back for employment purposes, one year for any other.
+
+Point 3 deserves its own line in this file. **It is the recipients question, and the
+FCRA simply owes the answer.** I have asked well over a hundred companies who
+received a copy of my data. The answer is nearly always a refusal, sometimes polite,
+sometimes a flat "we do not disclose client relationships." Here a consumer can be
+told, by statute, whether or not they ever applied for anything. If this comes back
+answered, it will be the first genuine recipient disclosure the project has obtained.
+
+Part two of the letter works a narrower point: **the FCRA exemption is
+activity-scoped, not entity-scoped.** It exempts information to the *extent* it is
+FCRA-regulated. A CRA is not exempt from the CCPA for everything it does — marketing
+data, web and advertising identifiers, prospect records and analytics all sit
+outside. So the letter asks what is held outside the regulated activity and makes a
+full delete/opt-out/suppress request as to that, while inviting the plain answer
+"everything we hold about you is FCRA-regulated" as a good one.
+
+**And one honest limit, recorded rather than argued.** §610(a)(1) conditions
+disclosure on proper identification, and that protection exists for my benefit — a
+file released to an impostor is a real harm. This is the one place in the whole
+project where the standing refusal to email an SSN or a government ID may genuinely
+block a right rather than merely inconvenience a form. The letter says so directly,
+offers sixteen addresses across four states and thirty years as the stronger
+identification it actually is, and asks what alternative channel exists — secure
+upload, postal, knowledge-based — rather than treating the requirement as bad faith.
+If there is no route that works without emailing one of those two items, that gets
+recorded as a limit of the process, not as a refusal by them.
