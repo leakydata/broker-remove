@@ -11220,3 +11220,61 @@ commits, five of which predate this and are covered by the standing decision to 
 historical occurrences alone. **Rewriting published history is not mine to decide, so
 it is flagged for the user rather than done.** Fixing forward and disclosing is the
 proportionate action; a force-push to a public repository on my own initiative is not.
+
+## §180 — the mail tenant as evidence of a maintained file
+
+Working the §177 second-address rows produced a test I had not articulated. When a
+company is acquired and its domain redirects to the successor, the question is
+whether anyone still stands behind the old name. **The mail configuration answers
+it, and the answer is graded.**
+
+Three of today's targets, in ascending order of how strongly they argue for writing:
+
+  - **`aslmarketing.com`** — redirects to `deepsync.com/asl-marketing`, plain Google
+    MX. Someone kept the mailbox. Weakest of the three, but not nothing: a truly
+    abandoned domain loses its MX along with everything else.
+
+  - **`v12data.com`** — Microsoft 365 tenant, and the address is `v12privacy@`.
+    Stronger, and for a different reason: **the address is purpose-built.** Nobody
+    provisions a mailbox named for privacy requests about a specific brand unless
+    they intend to receive privacy requests about that brand. The name is the intent.
+
+  - **`towerdata.com`** — Proofpoint. That is a paid enterprise mail-security
+    gateway, licensed per domain. **Enterprise mail filtering does not survive a
+    rebrand by accident.** Somebody renews it, which means somebody expects mail
+    worth filtering, which means somebody reads what gets through.
+
+So the argument to open a legacy letter with is not "your site redirects, do you
+still exist" — it is the specific observation about their own infrastructure. It is
+verifiable, it is not accusatory, and it forestalls the obvious brush-off that the
+request belongs with the acquirer.
+
+**The corresponding letters differ by what the company's business made of me.** This
+is the part worth generalising, because the identifier list is identical every time
+and the letter should not be:
+
+  - TowerData sold **email intelligence** — resolving an address to a person and
+    appending attributes. So the twelve email addresses stop being one search key
+    among several and become *the* key, and the letter is built around them. It also
+    asks them to search **MD5, SHA-1 and SHA-256** of each, lowercased and trimmed:
+    an enrichment file is frequently keyed to a digest, and **a plaintext-only search
+    reports "no match" while the record sits there under its hash.** That is a silent
+    failure with a one-line fix, and the fix has to come from me because they will
+    not think to do it. As with the MAID refusal, the hashes are deliberately not
+    computed on my side — they should not have to trust my arithmetic.
+
+  - V12 sold a **consumer file organised around life events**, above all moving
+    house, because a person who has just moved buys everything again at once. The
+    sixteen prior addresses are therefore not background — they are the product. So
+    that letter asks for a new-mover record *per move*, historic ones included, and
+    the source of each.
+
+  - The V12 letter also carries a question I had not asked anyone before, and it
+    generalises to every mover-file and every people-search site: **is the
+    suppression keyed to me, or to my current address?** A suppression attached to an
+    address is undone by the next move — which is exactly the event the file exists to
+    capture. It would be suppressed at the address I left and freshly published at
+    the one I arrived at, and the confirmation would still have been honest.
+
+Same doctrine as §171 and §176: the request lands somewhere adjacent to where it
+needed to land, and nothing about the reply reveals it.
