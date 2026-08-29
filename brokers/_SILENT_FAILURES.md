@@ -11278,3 +11278,67 @@ and the letter should not be:
 
 Same doctrine as §171 and §176: the request lands somewhere adjacent to where it
 needed to land, and nothing about the reply reveals it.
+
+## §181 — the privacy function with nobody behind it
+
+MediaMath's registered privacy address was recorded `failed` back on 19 August, with
+a note I did not appreciate the significance of at the time. Working the §177
+second-address rows brought it back, and it is the most complete example of a silent
+failure the project has found.
+
+`privacy@mediamath.com` is not a mailbox. It is a **distribution list that fans out
+to four named individuals**, and delivery failed to **all four**, each with the same
+error: the recipient's mailbox is full and cannot accept messages.
+
+Read the sequence carefully, because every step of it looks fine:
+
+  1. The domain resolves. The MX record is valid.
+  2. The receiving server **accepts** the message. SMTP returns success.
+  3. *Then* it fans out, and fails to every member of the list, because four separate
+     people have each stopped emptying an inbox.
+
+**From the sender's side, step 2 is what a delivered message looks like.** The
+failure arrives afterwards, as a separate report, and only if you read it does the
+truth appear. A requester who fires and forgets — which is what most people
+reasonably do — records a successful submission and waits forever.
+
+And the thing being described is not a dead company or a stale address. It is a
+**privacy function that is still formally in place**: still constituted, still
+staffed on paper by four named people, still published on a public register as the
+route by which consumers exercise their statutory rights — and with nobody behind it
+at all. Not one person left who empties the inbox.
+
+**Why the four-way over-quota pattern is diagnostic.** A single full mailbox is an
+individual on holiday. Four, simultaneously, on one alias, is an organisation that
+has stopped existing in the relevant sense. Every person on the rota has left or
+disengaged, and nobody reassigned the list — because reassigning it was somebody's
+job and that somebody is one of the four.
+
+**The response is to escalate to whoever is still solvent.** MediaMath's assets went
+to Infillion, so the letter puts three questions there:
+
+  - Did the acquisition include consumer data — identifier graphs, segment
+    memberships, cookie and device mappings, log-level bid data, audience files?
+  - If not, **where did it go?** Data does not evaporate in an insolvency. It is
+    sold, transferred, retained by a trustee, or left on infrastructure somebody is
+    still paying for. Naming the holder is enough.
+  - **Who is answering requests sent to MediaMath?** On the evidence, nobody, and the
+    register still directs people there.
+
+Framed without blame, deliberately. A company in insolvency has larger problems than
+a distribution list, and four people who moved on to other jobs are not at fault for
+a mailbox nobody reassigned. The consequence is what matters: **a consumer following
+the official published route exactly gets no answer and no visible error.**
+
+**The general rule this adds to the bounce taxonomy.** `dead_addresses.json` has
+kinds for bounced domains, abandoned mailboxes, restricted groups, departed
+employees. This is a new one — *the alias that accepts and then fails to everyone* —
+and it is the most deceptive of the set, because the two most common ways of checking
+an address both pass it: the domain resolves, and the server accepts. Only the
+asynchronous delivery report tells you, and only if someone reads it.
+
+Which is the same lesson as §179, arriving from the other direction. There, my gate
+printed FAILED and committed anyway. Here, a mail server prints OK and delivers to
+nobody. **In both cases the observable signal was decoupled from the outcome it was
+supposed to represent, and in both cases the only way to catch it was to look past
+the signal at the thing itself.**

@@ -11777,7 +11777,8 @@
       "optery_slug": "mediamath",
       "email_to": "privacy@mediamath.com",
       "email_verified": false,
-      "email_verified_by": "no_address_published"
+      "email_verified_by": "no_address_published",
+      "email_note": "|| 2026-08-29 ESCALATED TO THE ACQUIRER (SILENT_FAILURES 181). The four-way over-quota failure means no consumer can reach this company by its published route, so the question went to Infillion, which bought MediaMath's assets: did the data come with them, if not where is it, and who answers requests sent here now. Do not retry this address -- it will keep accepting and keep failing."
     },
     {
       "id": "mediasoft",
