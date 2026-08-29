@@ -11168,3 +11168,55 @@ reversing that later is far harder than getting it right the first time. The sam
 logic applies to prior addresses, and it is the exclude-only principle pointed at the
 requester's own risk of causing collateral damage rather than at the broker's
 convenience.
+
+## §179 — the gate that printed FAILED and committed anyway
+
+Immediately after writing §178 the redaction gate reported:
+
+    1 personal-data occurrence(s) in files git would publish
+    GATE FAILED
+
+and the commit and push ran regardless. The requester's full name reached a public
+repository, in a §178 aside about common names, and I found out by reading the output
+of a step that had already been overtaken.
+
+**The bug was in the gate, not in the writeup.** For weeks every commit had been
+guarded by an inlined version of this:
+
+    R=$(python3 scripts/redact.py 2>&1|grep 'personal-data occurrence')
+    V=$(python3 scripts/validate.py 2>&1|grep 'curated brokers')
+    case "$R $V" in "0 personal-data"*"| 0 errors"*) echo "GATE PASSED";;
+                    *) echo "GATE FAILED";; esac
+    git add -A && git commit -q -F - <<'EOF' ... EOF
+    git push -q origin main
+
+The `case` statement's failure branch is `echo`. It prints a verdict and falls
+through. **There was never a `&&` between the gate and the commit** — the two were
+sequential statements, and `git commit` ran on its own terms whatever the check said.
+
+It passed as a guard for weeks purely because it had not yet said FAILED at a moment
+when the next line was a push. Every one of those green "GATE PASSED" lines in the
+history was true and meaningless: the gate was reporting, not gating.
+
+**The general shape, which is the reason this is in this file.** A check whose
+failure branch is a print statement is not a check. It produces exactly the
+observable behaviour of a working guard for as long as nothing fails, which is
+exactly as long as you cannot tell the difference. This is the §138 corroboration
+test turned on my own tooling: *what could only a working gate have produced?* Not a
+PASSED line — a failing build produces those too, right up until it doesn't.
+
+Fixed as `scripts/gate.sh`, which `exit 1`s. Proved both directions rather than
+assuming: appended the name to the file and confirmed exit 1, reverted and confirmed
+exit 0. Call sites become `scripts/gate.sh && git commit ... && git push`, so the
+shell enforces the ordering rather than my remembering to read the output.
+
+**On the leak itself.** The name is now redacted at HEAD, and the sentence lost
+nothing — *"the requester's name is a common one"* carries the argument exactly as
+well, which is what `redact.py`'s own error text tells you to do: replace the value,
+do not trim the sentence. The value is the only part that cannot be unpublished.
+
+It sits in one commit's diff in a public history. `git log -S` shows the name in six
+commits, five of which predate this and are covered by the standing decision to leave
+historical occurrences alone. **Rewriting published history is not mine to decide, so
+it is flagged for the user rather than done.** Fixing forward and disclosing is the
+proportionate action; a force-push to a public repository on my own initiative is not.
