@@ -2579,6 +2579,11 @@
     "changed": "2026-08-20",
     "via": "email"
   },
+  "l_s_mobile_apps": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
+  },
   "lead411": {
     "status": "submitted",
     "changed": "2026-08-18",
@@ -2637,6 +2642,11 @@
   "leidos_digital_solutions": {
     "status": "submitted",
     "changed": "2026-08-28",
+    "via": "email"
+  },
+  "lender_feed_lc": {
+    "status": "submitted",
+    "changed": "2026-08-29",
     "via": "email"
   },
   "lexisnexis": {
@@ -2759,10 +2769,20 @@
     "changed": "2026-08-18",
     "via": "email"
   },
+  "logiq": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
+  },
   "lookups_io": {
     "status": "manual_required",
     "changed": "2026-08-18",
     "via": "web"
+  },
+  "lotadata": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
   },
   "lotame": {
     "status": "submitted",
@@ -2787,6 +2807,16 @@
   "m1_data": {
     "status": "submitted",
     "changed": "2026-08-18",
+    "via": "email"
+  },
+  "machintel": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
+  },
+  "madhive": {
+    "status": "submitted",
+    "changed": "2026-08-29",
     "via": "email"
   },
   "magnite": {
