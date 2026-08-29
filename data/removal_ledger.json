@@ -3829,6 +3829,11 @@
     "changed": "2026-08-28",
     "via": null
   },
+  "preqin": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
+  },
   "privateeye": {
     "status": "unreachable",
     "changed": "2026-08-19",
@@ -3852,6 +3857,11 @@
   "privco": {
     "status": "submitted",
     "changed": "2026-08-19",
+    "via": "email"
+  },
+  "prodpro": {
+    "status": "submitted",
+    "changed": "2026-08-29",
     "via": "email"
   },
   "propertychecker": {
