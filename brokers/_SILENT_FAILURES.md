@@ -10038,3 +10038,74 @@ itself as a marketplace connecting consumers to providers. Those are precisely t
 businesses whose model is delivering a phone number to someone else.
 
 Related: §152, §154, §155.
+
+---
+
+## §163a — the check paying off the first time it ran
+
+*Nova List / OnPoint Data Strategy — 29 Aug 2026*
+
+§163 ended with a rule: **before writing to any broker whose registry filings have
+stopped, check who owns the domain now.** It ran on the next batch and caught a
+second succession within the hour — this one benign, and worth recording precisely
+because the outcome was different.
+
+`queue_batch` offered `nova_list` (Nova List Company, filings 2020–2023 and 2024,
+then nothing). `novalist.com` redirects to `onpointdatastrategy.com`, under a banner:
+
+> *"NOVA and Sunrise Data Services have now merged into 'OnPoint Data Strategy.'"*
+
+OnPoint's California filing begins in 2025, exactly where Nova's stops. Same
+signature as Near → Azira. But two things differ, and they change the response
+entirely:
+
+| | Near → Azira | Nova → OnPoint |
+|---|---|---|
+| domain now holds | an unrelated crypto company | the successor itself |
+| successor in our registry | yes, but unlinked | yes, but **never contacted** |
+| right action | refuse to send; follow up with successor | **one letter covering all three** |
+
+So instead of two dead ends and a defensive note, this produced a single letter to
+OnPoint that expressly covers **OnPoint Data Strategy, Nova List Company and Sunrise
+Data Services**, and any file inherited from either predecessor. `nova_list` is
+closed as handled-via-successor rather than left pending, and the note says to
+reopen it only if OnPoint disclaims the Nova data — in which case their reply should
+name whoever holds it.
+
+Sunrise Data Services, incidentally, appears nowhere in this repo's registry at all.
+The merger banner is the only reason it is now in scope. **A successor's own
+marketing copy can name predecessors the register never captured** — worth reading
+for that alone.
+
+### The general shape
+
+Lapsed filing years are not a reason to skip a broker. They are a reason to look
+harder, and they resolve into one of three states:
+
+1. **the domain now belongs to a stranger** — do not send (§163, Near);
+2. **the domain redirects to a live successor** — write to the successor, naming
+   every predecessor, and close the old row as handled rather than pending;
+3. **the domain is dead and no successor is findable** — mark unreachable and record
+   what was checked, so the next pass does not repeat the work.
+
+Thirty seconds of checking distinguishes them, and only the first is dangerous.
+
+### And one more from the same batch
+
+`new_mexico_data_insights` carried a domain mismatch — registry domain
+`newmexicodatainsights.com`, filed contact `privacy@eleris.com`. The same check
+resolved it benignly: Eleris describes itself as "behind eight consumer brands we own
+and operate", so it is plausibly the parent rather than an unrelated acquirer.
+
+The mismatch then became the letter's opening question rather than a reason to stop:
+**does the request reach all eight brands, or only the registered one?** If the
+brands share a database, a deletion at one and not the others is not a deletion — and
+a consumer has no way to discover the other seven, because nothing names them.
+
+That is the useful generalisation. **A domain mismatch is a signal to check identity
+before sending, and — once identity checks out — a question worth asking in the
+letter.** The same fact that could have been a §157 disaster is, when it resolves
+safely, a lever: a parent that operates several brands has just been asked to
+enumerate them.
+
+Related: §157, §159, §163.

@@ -3254,6 +3254,11 @@
     "changed": "2026-08-16",
     "via": null
   },
+  "new_mexico_data_insights": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
+  },
   "new_york_arrests": {
     "status": "submitted",
     "changed": "2026-08-16",
@@ -3304,6 +3309,11 @@
     "changed": "2026-08-19",
     "via": "web"
   },
+  "nexxen": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
+  },
   "nfocus": {
     "status": "not_found",
     "changed": "2026-08-23",
@@ -3328,6 +3338,16 @@
     "status": "manual_required",
     "changed": "2026-08-28",
     "via": "reply"
+  },
+  "nordic_data_resources_as": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
+  },
+  "north_american_media": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
   },
   "north_carolina_arrests": {
     "status": "submitted",
@@ -3358,6 +3378,11 @@
     "status": "submitted",
     "changed": "2026-08-16",
     "via": null
+  },
+  "nova_list": {
+    "status": "not_found",
+    "changed": "2026-08-29",
+    "via": "email"
   },
   "npi_profile": {
     "status": "not_found",
@@ -3417,6 +3442,11 @@
   "onemodel": {
     "status": "submitted",
     "changed": "2026-08-19",
+    "via": "email"
+  },
+  "onpoint_data_strategy": {
+    "status": "submitted",
+    "changed": "2026-08-29",
     "via": "email"
   },
   "openpeoplesearch": {
