@@ -8,6 +8,8 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-25)
+
+> **Note (2026-08-29):** a separate pass, working from a stale local copy of the registry that predated this playbook, independently sent a second statutory letter to the same address, not knowing this company had already been contacted on 2026-08-25. Harmless duplicate — no action needed — but worth flagging: "does a playbook already exist for this id" is a cheap check that would have caught it before sending, and evidently wasn't run.
 - Note: 2026-08-25: emailed privacy@demandbase.com. Account-based marketing, three distinct products asked about separately: derived first.last@employer addresses (Kaspr precedent); INTENT DATA, argued as behavioural information - a record that a named individual researched a particular topic at a particular time is more revealing than a contact record and invisible to the subject, so asked which publisher or co-op sources it came from; and visitor resolution asked CAREFULLY, since the honest answer may be company-level only, with a pre-commitment to accept a plain no as complete.
 
 ## Steps

@@ -1,13 +1,15 @@
 # MULTIMEDIA LISTS, INC.
 
-- **Email:** compliance@multimedialists.com (verified)
+- **Email:** compliance@multimedialists.com — **hard-bounced 550 the same day it was marked verified; see correction**
+- **Email fallback (unconfirmed):** daniel@multimedialists.com
 - **Method:** email — Statutory request by email. No web form needed.
 - **Domain:** multimedialists.com
 - **Priority: 2.**
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-29)
+- Current: `email_pending` (updated 2026-08-29)
+- **Correction (2026-08-29):** despite being marked `email_verified: true` via `privacy_policy`, compliance@multimedialists.com hard-bounced (550, address not found) the same day this entry was submitted. Sent a second, independent letter the same day to daniel@multimedialists.com as an alternate contact — this address is **not independently verified** (no confirmed evidence it accepts mail; it surfaced in an earlier, now-superseded local copy of the registry with no recorded provenance). Treat as an unconfirmed experiment, not a fix, until it either succeeds or also bounces.
 - Note: Emailed compliance@multimedialists.com 2026-08-29 (CA registry 2020-2026, every period). Full-service list business: compiled and response brokerage, list management, data licensing, data appends, phone appends, mobile targeting data, a self-service platform (DataWhizz), and -- the reason for most of the letter -- RX LIST SERVICES. FIVE ASKS. (1) THE HEALTH-ADJACENT LISTS, ASKED FIRST AND SEPARATELY so a general 'we have suppressed you' reply cannot swallow it: do they hold, compile, broker, manage or license any pharmacy- or prescription-derived, condition-based, ailment- or treatment-selected, health-interest, medical-device, supplement or caregiver list, and does any contain a record matching my identifiers? Made the legal point explicitly: membership of a condition-selected list is an INFERENCE ABOUT A PERSON'S HEALTH whether or not it is accurate, which makes it sensitive personal information under 1798.121 carrying a RIGHT TO LIMIT USE AND DISCLOSURE -- a different right from deletion that survives where deletion does not. Exercised it. (2) Deletion vs suppression stated as opposites rather than degrees; asked for the SUPPRESSION, exclude-only, applied to managed lists as well as owned files. (3) BROKERAGE VS MANAGEMENT are different roles with different answers -- where they act as list manager for a third-party owner they cannot delete, so asked them to FORWARD (forwarding is not altering) and to say they had. (4) THE APPEND BUSINESS IS THE MECHANISM: data/phone/mobile appends are how a twenty-year-old address becomes a live mobile number, which is why the sixteen prior addresses are listed; asked which sources feed the append. (5) The self-service platform -- is a QUERY LOG retained, and is there a record of my details being selected, counted or delivered in an order?
 
 ## Steps

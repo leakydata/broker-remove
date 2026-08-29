@@ -54,3 +54,5 @@ behind. If the domain is ever reinstated, or a successor entity appears in a
 later state registration under the same legal name, the route reopens.
 
 > **Correction (2026-08-25):** That same day's run sent another request to `support@calltruth.com`, which this playbook already recorded as `unreachable` earlier the same day. Same root cause as the note above (registry email_to didn't reflect this playbook's own status) — no new information, no status change.
+
+> **Correction (2026-08-29):** the same thing happened again, later. A letter reached `support@calltruth.com` around 2026-08-26, sat as a "delivery incomplete, will retry" notice for two days — exactly the pattern this playbook already warned about for a SERVFAIL domain — and hard-failed on 2026-08-28. The registry's `email_verified` flag was still `true` (`ca_data_broker_registry`) at the time, which is presumably why it went out; corrected the flag to `false`/`bounced` here so the queue itself carries the finding, not only this file's prose.

@@ -9,6 +9,7 @@
 
 - Current: `submitted` (updated 2026-08-18)
 - Note: Discovered via infofree.com, which links its privacy route to this portal. Completed privacycompliance.biz end to end with all three rights enabled: opt-out of sale (15 days), deletion (45 days), and disclosure of categories collected. Their disclosure page is unusually candid - see the playbook.
+- **Correction (2026-08-29):** a separately CA-registered `databaseusa` entry (this same company, registered under its own name rather than found via infofree.com) had never actually been emailed and its registered address, privacy@databaseusa.com, hard-bounced (550) when tried. No dedicated privacy mailbox is published anywhere on their site — only a general inbox (info@databaseusa.com) and this same privacycompliance.biz portal. Sent a short secondary email to info@databaseusa.com naming the portal and this already-completed submission, so the two threads read as the same request rather than a fresh one. Status stays `submitted` on the strength of the portal completion; this was a duplicate-effort near-miss from the registry carrying the company under two unconnected entries.
 
 ## Steps
 

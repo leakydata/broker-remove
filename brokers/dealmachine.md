@@ -8,6 +8,8 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-25)
+
+> **Note (2026-08-29):** a separate pass, working from a stale local copy of the registry that predated this playbook, independently sent a second statutory letter to the same address, not knowing this company had already been contacted on 2026-08-25. Harmless duplicate — no action needed — but worth flagging: "does a playbook already exist for this id" is a cheap check that would have caught it before sending, and evidently wasn't run.
 - Note: 2026-08-25: emailed support@dealmachine.com. Real-estate investor leads + SKIP TRACING - turns an address into an owner's name, phones and emails so investors can cold-contact them about selling. Four asks: internal DNC/do-not-text (the product's output is unsolicited investor contact, so suppression is the point); concede county deeds but press that A DEED DOES NOT CARRY A PHONE NUMBER OR EMAIL, so anything of that kind was appended or derived and is squarely theirs - name the supplier; the skip-trace relatives-and-associates edges and any 'likely owner' or contact-confidence score; and whether any lookup returning my details has occurred and over what period, explicitly not asking who ran it.
 
 ## Steps

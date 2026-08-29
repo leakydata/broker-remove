@@ -7,8 +7,15 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-27)
-- Note: Opt-out letter sent by email to [named individual]@idg.com (delete + opt out of sale/sharing + direct downstream recipients + suppress against future ingestion). All twelve email addresses, sixteen prior addresses and eleven prior phone numbers listed for search. Sent as HTML per letter_html.
+- Current: `email_pending` (updated 2026-08-29)
+- Note: Opt-out letter sent by email to [named individual]@idg.com on 2026-08-27 (delete + opt out of sale/sharing + direct downstream recipients + suppress against future ingestion). All twelve email addresses, sixteen prior addresses and eleven prior phone numbers listed for search. Sent as HTML per letter_html.
+- **Correction (2026-08-29):** that address hard-bounced (550, address not found) the same day it was sent — this wasn't caught before now, so the entry sat at `submitted` for two days on a letter that was never delivered. Foundry's own privacy policy (foundryco.com/privacy-policy) names its Data Protection Officer directly: `dataprotection@foundryco.com`. Resent there 2026-08-29, scoped explicitly to subscriber/marketing/lead data with editorial content conceded as out of scope.
+
+## Steps
+
+1. Do not use the CA-registration address (`...@idg.com`) — it hard-bounces.
+   Foundry's own privacy policy names its DPO directly:
+   `dataprotection@foundryco.com`.
 
 ## Steps
 

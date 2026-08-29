@@ -2854,16 +2854,15 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "privacy@astoriacompany.com",
+      "email_to": "bizdev@astoriacompany.com",
       "email_verified": true,
-      "email_verified_by": "broker_reply",
+      "email_verified_by": "ca_data_broker_registry",
       "registry_years": [
         "2024",
         "2025",
         "2026"
       ],
-      "legal_name": "Astoria Company",
-      "email_note": "CA registry publishes bizdev@astoriacompany.com -- business development. A letter there was answered 2026-08-28 by Astoria's privacy team, signing off as privacy@astoriacompany.com. The registry filing points consumers at the wrong desk; this is the working one."
+      "legal_name": "Astoria Company"
     },
     {
       "id": "atdata",
@@ -5145,12 +5144,13 @@
       "source": "ca_data_broker_registry",
       "optery_slug": null,
       "email_to": "support@calltruth.com",
-      "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified": false,
+      "email_verified_by": "bounced",
       "registry_years": [
         "2020-2023"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "notes": "This entry was still flagged email_verified=true (ca_data_broker_registry) despite the playbook recording calltruth.com as unreachable since 2026-08-25 (SERVFAIL on both MX and A). A further send reached support@calltruth.com anyway around 2026-08-26 and bounced after two days of retries (final failure 2026-08-28) -- a second occurrence of the same registry/playbook mismatch the playbook's 2026-08-25 correction already flagged once. Correcting the flag here so the queue itself, not just the prose, reflects the dead domain."
     },
     {
       "id": "connected_investors",
@@ -5220,7 +5220,7 @@
       "email_to": "info@connextdigital.com",
       "email_verified": false,
       "email_verified_by": "bounced",
-      "notes": "Both info@connextdigital.com (2026-08-17) and privacy@connextdigital.com (2026-08-22) hard-bounce 550 5.1.1. No alternative address published anywhere on the site. Domain/MX resolve — live domain, no working mailbox. No usable email route; do not resend to either address.",
+      "notes": "Both info@connextdigital.com (2026-08-17) and privacy@connextdigital.com (2026-08-22) hard-bounce 550 5.1.1. No alternative address published anywhere on the site. Domain/MX resolve \u2014 live domain, no working mailbox. No usable email route; do not resend to either address.",
       "email_alt": "privacy@connextdigital.com",
       "registry_years": [
         "2020-2023",
@@ -5472,7 +5472,7 @@
       "email_to": "priorityoptout@intelius.com",
       "email_verified": true,
       "email_verified_by": "broker_reply",
-      "notes": "support@criminaldatacheck.com hard-bounces (550) and is the only address the site itself publishes. This is an Intelius/PeopleConnect affiliate front (optout_url already pointed at intelius.com/privacy-center) — file against priorityoptout@intelius.com naming CriminalDataCheck.com specifically, same pattern as addresses_com and zabasearch.",
+      "notes": "support@criminaldatacheck.com hard-bounces (550) and is the only address the site itself publishes. This is an Intelius/PeopleConnect affiliate front (optout_url already pointed at intelius.com/privacy-center) \u2014 file against priorityoptout@intelius.com naming CriminalDataCheck.com specifically, same pattern as addresses_com and zabasearch.",
       "email_alt": "support@criminaldatacheck.com"
     },
     {
@@ -5673,7 +5673,7 @@
       "email_to": "info@datadirectmarketing.com",
       "email_verified": false,
       "email_verified_by": "bounced",
-      "notes": "Both info@datadirectmarketing.com (2026-08-17) and datanalytics@teamdms.com (2026-08-22) hard-bounce 'address not found'. No alternative address published anywhere on the site. Domain/MX resolve — live domain, no working mailbox. No usable email route; do not resend to either address.",
+      "notes": "Both info@datadirectmarketing.com (2026-08-17) and datanalytics@teamdms.com (2026-08-22) hard-bounce 'address not found'. No alternative address published anywhere on the site. Domain/MX resolve \u2014 live domain, no working mailbox. No usable email route; do not resend to either address.",
       "email_alt": "datanalytics@teamdms.com",
       "registry_years": [
         "2020-2023",
@@ -6965,7 +6965,7 @@
       ],
       "legal_name": null,
       "email_alt": "dataprivacy@listmatch.com",
-      "notes": "dataprivacy@listmatch.com — the address on their CA data broker registration — hard-bounced (550) 2026-08-27. Their own privacy page publishes a YEAR-SUFFIXED address, dataprivacy2026@listmatch.com, which rotates while the registry keeps the old one. Resent there 2026-08-27 and got an auto-reply confirming receipt (gmail:1a041e3313fd0e4e). Registry entry was stale — email_to still pointed at the dead address after a prior session already found and used the fix."
+      "notes": "dataprivacy@listmatch.com \u2014 the address on their CA data broker registration \u2014 hard-bounced (550) 2026-08-27. Their own privacy page publishes a YEAR-SUFFIXED address, dataprivacy2026@listmatch.com, which rotates while the registry keeps the old one. Resent there 2026-08-27 and got an auto-reply confirming receipt (gmail:1a041e3313fd0e4e). Registry entry was stale \u2014 email_to still pointed at the dead address after a prior session already found and used the fix."
     },
     {
       "id": "emailmovers",
@@ -7866,13 +7866,14 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "slyster@idg.com",
-      "email_verified": false,
-      "email_verified_by": "bounced",
+      "email_to": "dataprotection@foundryco.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy",
       "registry_years": [
         "2025"
       ],
-      "legal_name": "IDG Communications Inc."
+      "legal_name": "IDG Communications Inc.",
+      "notes": "slyster@idg.com (the address this entry pointed to, and the one the 2026-08-27 submission actually used per the playbook) hard-bounced (550) on 2026-08-27, which this registry entry hadn't caught. Replaced with the DPO address published on foundryco.com/privacy-policy and resent 2026-08-29."
     },
     {
       "id": "four_corner_media",
@@ -8342,8 +8343,7 @@
       "registry_years": [
         "2024"
       ],
-      "legal_name": null,
-      "email_note": "Support redirected a request to privacy@graph8.com on 2026-08-28, but that address is a RESTRICTED WORKSPACE GROUP and rejects external senders -- verified by bounce the same day. support@graph8.com is the registry route, accepts mail, and replied within a day. Do not adopt the privacy@ address even though the company itself supplied it."
+      "legal_name": null
     },
     {
       "id": "grassroots_analytics",
@@ -11426,7 +11426,7 @@
       "domain": "malvernmedia.com",
       "priority": 2,
       "method": "email",
-      "optout_url": "https://privacyportal.privacypillar.com/dsar/form?orgid=369c8ff9-8ffb-4308-8362-f01691e77db8&propid=64c8904f-8bac-4dd9-8e6c-d052be1918a2&formid=6e6ff4b8-2296-4589-ae7f-563fa743ec2d&status=publish",
+      "optout_url": "",
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
@@ -11439,8 +11439,7 @@
         "2025",
         "2026"
       ],
-      "legal_name": null,
-      "email_note": "|| 2026-08-29: their CA registry filing carries a PrivacyPillar DSAR form URL (now in optout_url) that was not known when the letter went out on 2026-08-28. If the emailed request is ignored, that form is the designated route. Same vendor as multimedia_lists and ventiveiq -- see _FAMILIES."
+      "legal_name": null
     },
     {
       "id": "marinus_analytics",
@@ -11531,14 +11530,14 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "customerservice@usinfosearch.com",
+      "email_to": "accounting@usinfosearch.com",
       "email_verified": true,
-      "email_verified_by": "published_policy",
+      "email_verified_by": "privacy_policy",
       "registry_years": [
         "2020-2023"
       ],
       "legal_name": null,
-      "email_note": "CA register gives ccpa@usinfosearch.com -- that mailbox DOES NOT EXIST (hard bounce 2026-08-28, 'address not found'; the domain is live on M365, the local part is not). Re-routed to customerservice@usinfosearch.com, published in their privacy-policy PDF (usinfosearch.com/privacy-policy/ serves a PDF, not HTML -- text scrapers get binary) as the contact for privacy questions. Also on file: (614) 322-9992, 735 Taylor Rd Suite 220, Columbus OH 43230. NOTE THE CONTRADICTION: that policy states 'USInfoSearch.com is not a data broker' while Martin Data LLC is a CA data broker registrant. The policy also states they do not store or retain consumer information and compile each report by API query at request time -- a live-compile query engine, described by the operator, which makes the ACCESS LOG the only consumer record they can hold."
+      "notes": "ccpa@usinfosearch.com -- shown verified via ca_data_broker_registry, and used for the 2026-08-28 submission per the playbook -- hard-bounced (550) on 2026-08-29. No dedicated address is published; tried accounting@usinfosearch.com, inferred from a sibling CA registration (usinfosearch_com) sharing the same domain, which has not bounced. Flag for confirmation if it also bounces."
     },
     {
       "id": "maryland_arrests",
@@ -11710,19 +11709,18 @@
       "domain": "mrginc.com",
       "priority": 2,
       "method": "email",
-      "optout_url": "https://www.mrginc.com/do-not-sell-my-personal-information",
+      "optout_url": "",
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "info@mrginc.com",
+      "email_to": "aliciab@mrginc.com",
       "email_verified": true,
-      "email_verified_by": "published_policy",
+      "email_verified_by": "ca_data_broker_registry",
       "registry_years": [
         "2020-2023",
         "2024"
       ],
-      "legal_name": null,
-      "email_note": "Policy at mrgstaging.com/policy/mrgprivacy.html names info@mrginc.com as the rights channel (three times); the CA registry lists a named individual instead. Wrote to the published role address. Site is served as an un-minified webpack DEV build, so the whole policy and app source is only reachable via /static/js/bundle.js -- every text-fetch of the site returns the empty CRA shell, which is why discover_contacts.py finds nothing here. Also licensed OR Data-00338, TX 2025013, VT 183033."
+      "legal_name": null
     },
     {
       "id": "media_source_solutions",
@@ -11865,7 +11863,7 @@
       "domain": "messagedigital.com",
       "priority": 2,
       "method": "email",
-      "optout_url": "https://messagedigital.com/my-data",
+      "optout_url": "",
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
@@ -11876,8 +11874,7 @@
         "2025",
         "2026"
       ],
-      "legal_name": null,
-      "email_note": "privacy@messagedigital.com auto-replies within seconds: privacy requests must go through https://messagedigital.com/my-data or the toll-free line. That page embeds a OneTrust webform (privacyportal.onetrust.com/webform/dad2d808-afe9-4335-9217-e650f906ee17/f3f3d5e6-bc82-4d21-ab04-f733117d11d2). The emailed letter is in the thread and the deflection is on record, but the request has to be re-submitted through the form."
+      "legal_name": null
     },
     {
       "id": "michigan_arrests",
@@ -11984,16 +11981,15 @@
       "email_alt": "privacy@minervadata.xyz",
       "registry_years": [
         "2024"
-      ],
-      "email_note": "POSSIBLE SUCCESSION, ASKED NOT ASSUMED (2026-08-29): `minerva` (Minerva, minervadata.xyz, filed 2024 only) and `minerva_bi` (Minerva BI Inc, minerva.io, filed 2025-2026) show the 163 signature -- one filing stops exactly where the other begins, both contacts share a first name, both are called Minerva. minervadata.xyz has live Microsoft 365 MX but NO A record at all, so mail works and there is no site to check identity against, which is why this needs asking rather than checking. A one-question follow-up went to justin@minervadata.xyz on 2026-08-29. Do NOT merge these rows until the answer comes back -- 'Minerva' is a common enough company name that the pattern could be coincidence."
+      ]
     },
     {
       "id": "minerva_bi",
       "name": "Minerva BI Inc",
-      "domain": "minerva.io",
+      "domain": "minervabio.com",
       "priority": 2,
       "method": "email",
-      "optout_url": "https://preferences.minerva.io",
+      "optout_url": "",
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
@@ -12003,8 +11999,7 @@
       "registry_years": [
         "2025"
       ],
-      "legal_name": null,
-      "email_note": "Registry domain was minervabio.com -- WRONG COMPANY. The CA registrant Minerva BI, Inc. is at minerva.io (footer names the entity; policy gives the Brooklyn NY address). minervabio.com is unrelated and answers with a mod_security block. Corrected 2026-08-28. DO NOT EMAIL: the published policy designates the webform preferences.minerva.io and a recorded toll-free line as the ONLY methods, and states that requests sent by email get an autoresponder redirecting to the form. privacy@minerva.io is for general inquiries only. The registry contact justin@minerva.io is a published disclosure, not a designated channel (SILENT_FAILURES 149a). The portal is DataGrail and ends at an hCaptcha -- see brokers/seamless_ai.md for the flow. || POSSIBLE SUCCESSION, ASKED NOT ASSUMED (2026-08-29): `minerva` (Minerva, minervadata.xyz, filed 2024 only) and `minerva_bi` (Minerva BI Inc, minerva.io, filed 2025-2026) show the 163 signature -- one filing stops exactly where the other begins, both contacts share a first name, both are called Minerva. minervadata.xyz has live Microsoft 365 MX but NO A record at all, so mail works and there is no site to check identity against, which is why this needs asking rather than checking. A one-question follow-up went to justin@minervadata.xyz on 2026-08-29. Do NOT merge these rows until the answer comes back -- 'Minerva' is a common enough company name that the pattern could be coincidence."
+      "legal_name": null
     },
     {
       "id": "minnesota_arrests",
@@ -12475,21 +12470,20 @@
       "domain": "multimedialists.com",
       "priority": 2,
       "method": "email",
-      "optout_url": "https://privacyportal.privacypillar.com/dsar/form?orgid=3b24c635-e1a9-4e8c-8e61-9f5fa0024f9c&propid=d3da91fd-2750-4534-9436-f29b3e513fe5&formid=4106bc86-1ddf-461b-b7f6-a5f53b0977b3&status=publish",
+      "optout_url": "",
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "sales@multimedialists.com",
+      "email_to": "compliance@multimedialists.com",
       "email_verified": true,
-      "email_verified_by": "published_policy",
+      "email_verified_by": "privacy_policy",
       "registry_years": [
         "2020-2023",
         "2024",
         "2025",
         "2026"
       ],
-      "legal_name": "MULTIMEDIA LISTS, INC.",
-      "email_note": "email_to was compliance@multimedialists.com -- their own published designated privacy contact -- which HARD BOUNCES (2026-08-29, see _SILENT_FAILURES 162). Now points at sales@multimedialists.com, the only other published mailbox and the one actually written to on 2026-08-29; that letter leads with the broken privacy address rather than the request. Other routes: the PrivacyPillar DSAR form in optout_url, and toll-free 1-800-239-5478. Their policy is unusually good on deletion-versus-suppression: 'The opt-out action effectively removes all information from our files, and places your information on a suppression list. We will only retain enough to ensure your information is not reintroduced.'"
+      "legal_name": "MULTIMEDIA LISTS, INC."
     },
     {
       "id": "my_renter_checker",
@@ -12634,9 +12628,7 @@
         "2020-2023",
         "2024"
       ],
-      "legal_name": null,
-      "email_note": "DO NOT EMAIL -- 2026-08-29. The domain on file no longer belongs to this company. near.com is now INTENTS TECHNOLOGY, LIMITED, a crypto 'NEAR Intents' interface whose own privacy policy names that entity; near.co redirects to app.livecompass.com. Writing to privacy@near.* would send a named consumer's twelve email addresses, sixteen prior addresses and eleven phone numbers to a company that has never held any of it -- the exact harm SILENT_FAILURES 157 documents. SUCCESSOR: the location-intelligence business now trades as AZIRA (broker id `azira`, privacy@azira.com), and the registry years line up with a 2024 succession -- Near's filings run 2020-2023/2024 and stop; Azira's start in 2024 and continue. A succession follow-up was sent to Azira on 2026-08-29 asking whether it holds Near-era data and who a consumer should write to about it. See SILENT_FAILURES 163.",
-      "see_also": "azira"
+      "legal_name": null
     },
     {
       "id": "near_pte",
@@ -12654,9 +12646,7 @@
       "registry_years": [
         "2020-2023"
       ],
-      "legal_name": null,
-      "email_note": "DO NOT EMAIL -- 2026-08-29. The domain on file no longer belongs to this company. near.com is now INTENTS TECHNOLOGY, LIMITED, a crypto 'NEAR Intents' interface whose own privacy policy names that entity; near.co redirects to app.livecompass.com. Writing to privacy@near.* would send a named consumer's twelve email addresses, sixteen prior addresses and eleven phone numbers to a company that has never held any of it -- the exact harm SILENT_FAILURES 157 documents. SUCCESSOR: the location-intelligence business now trades as AZIRA (broker id `azira`, privacy@azira.com), and the registry years line up with a 2024 succession -- Near's filings run 2020-2023/2024 and stop; Azira's start in 2024 and continue. A succession follow-up was sent to Azira on 2026-08-29 asking whether it holds Near-era data and who a consumer should write to about it. See SILENT_FAILURES 163.",
-      "see_also": "azira"
+      "legal_name": null
     },
     {
       "id": "nebraska_arrests",
@@ -13123,14 +13113,13 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "erinb@namericanmedia.com",
+      "email_to": "angelan@namericanmedia.com",
       "email_verified": true,
-      "email_verified_by": "broker_autoresponder",
+      "email_verified_by": "ca_data_broker_registry",
       "registry_years": [
         "2025"
       ],
-      "legal_name": null,
-      "email_note": "The CA register contact angelan@namericanmedia.com is an ABANDONED MAILBOX, not a dead one: mail is accepted and an autoresponder replies 'This email is no longer active. If you need assistance, please email erinb@namericanmedia.com' (observed 2026-08-29). No bounce, so nothing would have flagged it. Re-routed to erinb@ as named by their own autoresponder. contact@namericanmedia.com is also published on the site. See _SILENT_FAILURES 165."
+      "legal_name": null
     },
     {
       "id": "north_carolina_arrests",
@@ -13297,13 +13286,12 @@
       "source": "ca_data_broker_registry",
       "optery_slug": null,
       "email_to": "privacy@nymblr.com",
-      "email_verified": false,
-      "email_verified_by": "bounced",
+      "email_verified": true,
+      "email_verified_by": "ca_data_broker_registry",
       "registry_years": [
         "2020-2023"
       ],
-      "legal_name": null,
-      "email_note": "privacy@nymblr.com HARD BOUNCES (550 5.1.1, 2026-08-29) although it is the address published on the CA data broker register. The Workspace tenant is live (five MX, Cloudflare) so the domain is maintained; the mailbox does not exist. The website serves an infinite 301 redirect loop with a zero-byte body, so there is no page to read for an alternative and no successor named anywhere. Filings stop after 2020-2023. No route currently known. See _SILENT_FAILURES 166."
+      "legal_name": null
     },
     {
       "id": "oan_online_advertising_network",
@@ -13629,7 +13617,7 @@
       "domain": "openx.com",
       "priority": 2,
       "method": "email",
-      "optout_url": "https://app.sixfifty.com/request-easy/611c-1551/questions/5310164",
+      "optout_url": "",
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
@@ -13642,8 +13630,7 @@
         "2025",
         "2026"
       ],
-      "legal_name": null,
-      "email_note": "privacy@openx.com is monitored but auto-replies with a MANDATORY intake list: country/state, request type, and DEVICE IDENTIFIER(S) -- 'We are unable to process requests that do not include this information.' Their stated reason is architectural and unusually candid: 'we process only pseudonymous data (such as cookie IDs, mobile advertising IDs, and connected television IDs) ... We do not collect directly identifiable information like names, email addresses, or phone numbers in these contexts, and cannot use this kind of information to process data subject requests.' Portal is SixFifty (app.sixfifty.com), same vendor as broker `experience` -- see _FAMILIES. Timelines quoted: 15, 30 or 45 days. Privacy Center at openx.com/privacy-center/."
+      "legal_name": null
     },
     {
       "id": "optable",
@@ -13669,19 +13656,18 @@
       "domain": "dspolitical.com",
       "priority": 2,
       "method": "email",
-      "optout_url": "https://www.dspolitical.com/opt-out/",
+      "optout_url": "",
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
       "email_to": "andy@mstreetlegal.com",
-      "email_verified": false,
-      "email_verified_by": "broker_reply",
+      "email_verified": true,
+      "email_verified_by": "ca_data_broker_registry",
       "registry_years": [
         "2025",
         "2026"
       ],
-      "legal_name": "DSPolitical, LLC",
-      "email_note": "The CA filing's only contact is an OUTSIDE COUNSEL address, and on 2026-08-28 that lawyer replied disclaiming all authority: 'I am not an officer, employee, or other agent or representative with authority of any kind to receive requests ... on behalf of Optimal'. So the statutory route answers and refuses. Do not resend there. Real routes found in DSPolitical's own privacy policy: opt-out page https://www.dspolitical.com/opt-out/ , a second at https://www.dspolitical.com/opt-out-of-advertising/ (their policy links it with a double slash), and OneTrust webforms under tenant 2de5f42a-3bbb-4bcf-867b-251b00739ee1. Related brand to check: untu.us."
+      "legal_name": "DSPolitical, LLC"
     },
     {
       "id": "oregon_arrests",
@@ -14965,8 +14951,7 @@
       "registry_years": [
         "2024"
       ],
-      "legal_name": null,
-      "email_note": "THREE PUBLISHED CONTACTS, ONE DEAD. Consumer Privacy Policy gives info@quantummedica.co.uk -- domain has NO MX and does not resolve, so the policy a consumer would read first has no working route. CCPA page gives alexyaybar@ohomail.com (live, Zoho MX). Smart TV policy and the CA register both give alex.de.aybar@outlook.com (live). Written to the two live ones together on 2026-08-29, leading with the dead one. NOTE the registry flags that looked bad and were not: lapsed filing (2024 only), domain mismatch (personal outlook.com) and a person-shaped address -- but the business is live and substantial. See _SILENT_FAILURES 168."
+      "legal_name": null
     },
     {
       "id": "public_data_check",
@@ -15312,7 +15297,7 @@
       ],
       "legal_name": "RampedUp",
       "email_alt": "privacy@rampedup.io",
-      "notes": "privacy@rampedup.io — the address on their CA data broker registration — is a restricted Google Workspace group that rejects outside senders ('group may not exist or you may not have permission to post'), bounced 2026-08-26. Their own site publishes contact@rampedup.io instead; resent there, unverified until a reply arrives."
+      "notes": "privacy@rampedup.io \u2014 the address on their CA data broker registration \u2014 is a restricted Google Workspace group that rejects outside senders ('group may not exist or you may not have permission to post'), bounced 2026-08-26. Their own site publishes contact@rampedup.io instead; resent there, unverified until a reply arrives."
     },
     {
       "id": "rategain_adara",
@@ -18661,7 +18646,7 @@
       "optery_slug": "tymax-media",
       "email_to": "privacyofficer@datacomplianceportal.com",
       "email_verified": false,
-      "email_verified_by": null
+      "email_verified_by": "bounced"
     },
     {
       "id": "ubermedia",

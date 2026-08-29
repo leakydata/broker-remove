@@ -16,13 +16,13 @@
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+- **Same domain as the separately-registered `coresignal` entry** (priority 3,
+  `web_form` only via coresignal.com/privacy-rights/, still `pending` — a
+  browser handoff item with no email route on file). This CA registration
+  under "Deeptrace Inc." gives an email route into what looks like the same
+  company. If a reply confirms they're the same entity, treat this email as
+  covering the `coresignal` request too rather than also completing the web
+  form, and update both files.
 
 ## Verification
 

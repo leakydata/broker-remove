@@ -8,6 +8,8 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-25)
+
+> **Note (2026-08-29):** a separate pass, working from a stale local copy of the registry that predated this playbook, independently sent a second statutory letter to the same address, not knowing this company had already been contacted on 2026-08-25. Harmless duplicate — no action needed — but worth flagging: "does a playbook already exist for this id" is a cheap check that would have caught it before sending, and evidently wasn't run.
 - Note: 2026-08-25: emailed privacy@diligent.com. Governance and executive-profile data - same structure as the BoardEx/Altrata letter. Conceded public filings up front, then asked for the compilation and three things attached: the cross-organisation person record no regulator holds; THE RELATIONSHIP EDGES, with the line that being retained as an endpoint of a connection recorded under someone else's profile is still personal information about me and in a relationship-data business is the more valuable half; and screening flags (risk, PEP, sanctions-adjacency, adverse-media), asking to be told EVEN IF they conclude they may retain them, because a false or stale flag causes declined accounts and failed onboarding and the person it describes is the last to find out. Pre-empted B2B, professional-information and publicly-available exemptions together.
 
 ## Steps

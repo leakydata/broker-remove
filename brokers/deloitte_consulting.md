@@ -8,6 +8,8 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-25)
+
+> **Note (2026-08-29):** a separate pass, working from a stale local copy of the registry that predated this playbook, independently sent a second statutory letter to the same address, not knowing this company had already been contacted on 2026-08-25. Harmless duplicate — no action needed — but worth flagging: "does a playbook already exist for this id" is a cheap check that would have caught it before sending, and evidently wasn't run.
 - Note: 2026-08-25: emailed usprivacyquestions@deloitte.com. Unusual target - a professional services firm that appears in a state data broker registry. Conceded all three obvious deflections UP FRONT so they could not consume the reply (processing for clients as a processor; HR/applicant records; privilege and audit retention), then made the point that NONE OF THEM EXPLAINS A DATA BROKER REGISTRATION, since registration is required of an entity selling or sharing personal information about consumers with whom it has no direct relationship. The single narrow question asked: what activity caused Deloitte Consulting LLP to register, and does it involve records about me? Pre-committed to accepting a one-sentence description of a narrow activity as a complete answer. This concede-everything-then-ask-why-you-registered structure is worth reusing for any consultancy or non-obvious registrant.
 
 ## Steps

@@ -8,6 +8,7 @@
 ## Status
 
 - Current: `pending`
+- Note (2026-08-29): a separate CA registration under the legal name "Deeptrace Inc." shares this domain and was emailed at privacy@coresignal.com (see `deeptrace.md`, submitted 2026-08-25) — a possible email route into the same company that would avoid this browser-only web form. Check `deeptrace.md` for a reply before treating this as handoff-only.
 
 ## Steps
 
