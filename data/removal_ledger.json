@@ -3864,6 +3864,11 @@
     "changed": "2026-08-29",
     "via": "email"
   },
+  "propensity": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
+  },
   "propertychecker": {
     "status": "submitted",
     "changed": "2026-08-19",
@@ -4017,6 +4022,11 @@
   "rategain_adara": {
     "status": "submitted",
     "changed": "2026-08-28",
+    "via": "email"
+  },
+  "ray_cdp": {
+    "status": "submitted",
+    "changed": "2026-08-29",
     "via": "email"
   },
   "ray_insights": {
