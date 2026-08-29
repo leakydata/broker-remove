@@ -2574,3 +2574,75 @@ the results; ask whether anything is stored against a household, address, visit
 record or identity graph rather than a raw identifier, since a device-ID opt-out
 would never touch that; and ask for a **nil result stated against named
 identifiers**, accepted in advance as a complete answer.
+
+## EEA-established brokers selling US audiences
+
+**Examples:** Nordic Data Resources (Norway), ONAUDIENCE (Poland), OAN (Poland),
+Ocean.io (Denmark), Ogury (UK).
+
+A recurring and easily-missed shape: a company incorporated in Europe, registered as
+a data broker in California, selling audiences about Americans. The subject of this
+project is a Pennsylvania resident, and Pennsylvania has no comprehensive consumer
+privacy statute — so the default answer such a company can give is "no statute
+applies to you."
+
+**The argument that answers that, and it is worth making every time:**
+
+> An EEA-established controller's obligations under the GDPR are not conditioned on
+> the DATA SUBJECT being in Europe. They follow from where the controller is
+> established and where processing takes place in the context of that establishment
+> (Art. 3(1)). If the processing happens in the context of the European
+> establishment, Articles 15, 17 and 21 appear to reach the data of an American just
+> as they reach a European's.
+
+Three things make this land rather than read as bluster:
+
+1. **Frame it as a question and invite correction.** *"I may have that wrong, and I
+   would genuinely rather be corrected than proceed on a mistaken premise."* The
+   point is to get a reasoned answer, not to win an argument by assertion.
+2. **Ask which framework they are answering under**, and ask them specifically *not*
+   to decline solely because Pennsylvania has no statute — because that answer,
+   standing alone, leaves a European-established company treating an American as
+   having fewer rights than the law of its own establishment provides. Put that way
+   it is a position most compliance functions will not want to adopt in writing.
+3. **Add an Article 21 objection to direct-marketing processing as a separate item.**
+   Unlike erasure it requires no balancing test — where it applies it is absolute —
+   so it is the ask most likely to be honoured even if the rest is refused.
+
+**Also fold in, since the same letter can carry it:** special category data under
+Art. 9 (health, political opinion, religious belief, sexual orientation, ethnicity,
+trade union membership) maps closely onto CCPA "sensitive personal information", so
+ask for those segments reported *separately* and exercise both the Art. 9 concern
+and the §1798.121 limit-use right in one paragraph.
+
+For UK companies, name the **UK GDPR** alongside the GDPR — post-Brexit the
+establishment argument runs the same way but under a different instrument.
+
+## Gaming audience data
+
+**Example:** OAN / Online Advertising Network ("over 600 gaming segments worldwide").
+
+A distinct category, and one where the segments disclose considerably more than the
+subject matter suggests. A file built on which games a person plays, how long, how
+often, at what hours and how much they spend indicates:
+
+  - **approximate age**, and in particular whether the player is a minor;
+  - **daily routine and waking hours** — a proxy for employment status, shift
+    pattern, and sometimes for insomnia or illness;
+  - **disposable income and spending impulsivity**, from in-game purchase behaviour.
+    This is the attribute most obviously capable of being used *against* the person
+    it describes, and it is worth naming as such;
+  - and from title selection, inferences touching religion, sexuality, political
+    outlook and national origin.
+
+**Say explicitly that you are not alleging they market those inferences** — only that
+they are derivable from the signals, which is precisely why the question is *what is
+stored*, not *what is sold*.
+
+**Ask about children even when the subject is an adult.** Gaming audiences skew
+young, so any provider in this field handles minors' records whether it intends to or
+not. Ask what age assurance is applied before a record enters a segment, and what
+happens when an inferred age falls below the threshold. Frame it honestly: *"This
+does not concern me personally — I am not a child — but it bears directly on whether
+the answers you give me about method can be trusted."* A company that cannot describe
+its age handling cannot be relied on to describe its matching either.
