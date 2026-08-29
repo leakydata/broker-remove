@@ -317,7 +317,7 @@
       "kind": "restricted_group",
       "observed": "2026-08-28",
       "evidence": "Rejected as a restricted Google Workspace group, 2026-08-28: 'the group you tried to contact (privacy) may not exist, or you may not have permission to post messages to the group'. NOT a stale registry address -- graph8's own support desk gave this address the SAME DAY ('our privacy team handles these requests directly'), and it does not accept external mail. Use support@graph8.com, which is the registry route and answers within a day.",
-      "response": "A privacy@ alias configured as an INTERNAL-ONLY group. It works for staff and silently rejects every consumer, so the company believes it works. Tell them, and use any alternate address."
+      "response": "A privacy@ alias configured as an INTERNAL-ONLY group. It works for staff and silently rejects every consumer, so the company believes it works. Tell them, and use any alternate address. REPORTED to support@graph8.com on 2026-08-29 with the Admin setting to change; retest this address in a few weeks before assuming it is still shut."
     },
     "support@calltruth.com": {
       "kind": "dead_domain",
