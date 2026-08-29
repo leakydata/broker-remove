@@ -2735,3 +2735,46 @@ see what was actually captured.
 **Always carry the §164 telephone reservation.** Lead forms in this sector routinely
 embed prior-express-written-consent language for autodialled calls and texts, and the
 standard letter hands over twelve numbers.
+
+## The legacy file of an acquired compiler
+
+Not a business category so much as a place a file hides, but it needs its own entry
+because the letter is different and the ordinary one fails silently.
+
+When a compiler is bought, the acquirer's privacy desk answers for the systems it
+can query. The file the acquired company built years earlier — on a different
+platform, under different rules, possibly never migrated whole — is frequently not
+among them. A request to the acquirer comes back honestly negative while the older
+data sits somewhere nobody thought to search.
+
+The tell is a domain that redirects to the acquirer while its **mail tenant stays
+live**. `aslmarketing.com` 301s to `deepsync.com/asl-marketing` and still has Google
+MX. Someone is maintaining that mailbox. Whoever reads it is far more likely to know
+what the legacy file contained than someone querying a consolidated system for a
+name.
+
+What the letter has to do differently:
+
+  - **Say it is not a duplicate, and say why**, in the first paragraph. Otherwise it
+    is closed as one — reasonably, since the acquirer already answered.
+  - **Ask whether the file transferred.** If it did, the request belongs with the
+    acquirer for that portion; if it did not, this is the only address that reaches
+    it. Either answer is useful and the recipient can give it in one line.
+  - **Ask for provenance before deletion.** The removal destroys the evidence of
+    where the record came from and where it went. For a legacy file that evidence is
+    usually the only surviving record of a transaction from decades ago.
+  - **Match the identifiers to the era.** A student-list compiler will have filed a
+    record under the university address, not the current one. Ordering the prior
+    addresses by period, and flagging which are from which era, does work that a
+    flat list does not.
+
+Worked example: ASL Marketing, whose historic business was student and young-adult
+lists. The letter leads on the university email address as a *search key* — the
+identifier most likely to be the one the record is filed under, and the one the
+subject cannot check — and asks, as its sharpest question, **when the record was
+created and what the subject's age was at the time.** A high-school-era source means
+the record was created when the subject was a minor. That question has no analogue
+in an ordinary deletion request and it can only be asked of the legacy holder.
+
+Related: [SILENT_FAILURES §163] succession, [§177] the second-address doctrine that
+identified 31 of these rows.
