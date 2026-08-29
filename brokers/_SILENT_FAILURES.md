@@ -11619,3 +11619,69 @@ None of that verifies anything by itself. Fifty-six confirmations remain
 uncorroborated, and closing that gap means deciding whether the audit is worth the
 query it costs — which is a judgement about the subject's own exposure, not a
 mechanical step, and so is flagged rather than assumed.
+
+## §186 — chase the promise, not the statute
+
+§185 surfaced thirteen brokers with no public listing, where a written confirmation
+is the only evidence that will ever exist. Reading their notes produced a distinction
+worth keeping.
+
+**Most of the thirteen are not late.** The statutory window is forty-five days and
+twelve have passed. A chase framed as "you are overdue" would be wrong on the facts,
+and being wrong on the facts is expensive: it hands the recipient a correction to
+make instead of an answer to give, and it makes every subsequent letter from the same
+sender easier to discount.
+
+But one of them had made a commitment of its own. AGR Marketing Solutions replied on
+17 August saying the removal would be carried out *within days*.
+
+**That is the thing to chase, and the letter says so explicitly:** the statutory
+window has not expired, nothing is overdue in law, and I am not suggesting otherwise
+— but "within days" was their estimate, not mine, and it is the only commitment
+either party has to go on. A self-imposed deadline that has lapsed is a real basis
+for a follow-up in a way that a statutory clock still running is not.
+
+Conceding the statute costs nothing and buys the whole letter. Third time this
+pattern has earned its place: the L2 public-record concession, the Tracers
+subscriber-identity concession, and now this. **Give away the point they were going
+to win, so the point you care about has nowhere to hide.**
+
+### The two questions a chase should actually ask
+
+Not "have you done it." That invites a yes which advances nothing.
+
+  1. **Was there anything to remove?** *"We deleted your record"* and *"we searched
+     and found nothing"* are completely different facts. Both are good outcomes. A
+     confirmation that does not distinguish them tells the requester nothing about
+     whether they were ever in the file — and it is the single most common way these
+     replies manage to be simultaneously honest and useless.
+
+  2. **Deletion or suppression?** Opposites, not degrees. A deletion leaves nothing
+     to recognise the person by, so the next acquired file puts them straight back; a
+     suppression keeps just enough to keep them out. The letter asks for the
+     suppression and explicitly does *not* ask them to undo a deletion already
+     performed — the point is to learn which happened, and therefore how long it
+     lasts, not to relitigate it.
+
+### Chasing a parent to collapse four requests into one
+
+Deep Sync had gone twelve days in silence, and in the meantime §177 had put me into
+three of its acquired brands separately — ASL Marketing, Compact Information Systems,
+HomeData, each carrying its own register entry and its own contact address.
+
+So the chase stopped being a chase and became the question only the parent can
+settle: **does a request to Deep Sync reach the files that came from those
+companies?** If yes, the other three stand down and stop arriving as duplicates. If
+no — if a legacy file sits on a platform the privacy process does not query — that is
+the *more* valuable answer, because four confirmations each covering a different
+quarter of the problem is exactly the §176/§177 failure shape.
+
+Framed without accusation, deliberately: consolidating acquired brands takes years,
+and multiple registrations are what the register is for. Nobody is hiding anything;
+the requester simply cannot see the boundary from outside, and the company can.
+
+And the ASL student-file question went to the acquirer too, because they now hold
+whatever ASL held: *if an inherited record exists, when was it created and what was
+my age at the time?* That question survives only until the deletion is performed —
+after which the provenance is gone along with the record — and an acquirer is
+uniquely placed to answer it and uniquely unlikely to be asked.
