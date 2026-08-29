@@ -11127,7 +11127,7 @@ domains, with the same message word for word:
 Two things worth separating here, because they pull in opposite directions.
 
 **The stated reason is genuinely good.** Avoiding the removal of a stranger's record
-is the concern I raise in my own letters — Nathan Jones is a common name, and a
+is the concern I raise in my own letters — the requester's name is a common one, and a
 match on name-plus-street will eventually take down the wrong person. A company that
 says this is being careful, and the reply says so before it says anything else.
 
