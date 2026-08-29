@@ -9420,3 +9420,297 @@ including the outcome and the reason for any denial. That last commitment is wor
 citing if the eventual response is thin.
 
 Related: §146, §149a, §157.
+
+---
+
+## §159
+
+**The suppression is a leaf, not a branch — and every letter has been pointing the wrong way.**
+*First Direct — 28 Aug 2026*
+
+Item 3 of this project's standard letter, sent to hundreds of companies, reads:
+
+> *"DIRECT any service providers and third parties to whom you have sold, shared, or
+> otherwise disclosed my personal information to do the same."*
+
+That sentence points **downstream**. It assumes the company is a source, and that
+the harm flows outward from it.
+
+First Direct's Chief Privacy Officer answered a question I had asked in one line,
+and the answer reframes the whole ask:
+
+> *"Our data is obtained from third-party data compilers. Our suppression applies to
+> First Direct's use and distribution of that data; we do not send our suppression
+> file upstream to those independent data providers."*
+
+### Why that is the sentence that matters
+
+For a **pass-through reseller** — one of the five broker architectures, and a large
+share of the direct-mail layer — the company is not a source. It is a customer of
+compilers, and everything it holds arrived from somewhere else.
+
+So the geometry is the opposite of what the letter assumes:
+
+  - **Downstream direction** (what the letter asks for) reaches the clients who
+    already received a file. Useful, and narrow.
+  - **Upstream direction** (what the letter never asks for) reaches the compiler
+    where the record actually lives, and would reach every *other* reseller buying
+    from that same compiler.
+  - **Upstream is the one that does not happen.** Stated plainly, unprompted.
+
+The consequence is quiet and permanent. The suppression holds at exactly one
+boundary. The compiler keeps supplying every other licensee. And it keeps supplying
+*First Direct itself* — which is why their suppression file has to be durable, and
+why the deletion-versus-suppression trade recorded earlier in the same thread is
+not a technicality but the whole mechanism. Delete instead of suppress here and the
+next feed reinstates you.
+
+A suppression at a reseller is therefore a leaf on a tree whose trunk is untouched
+and unnamed. It works. It just cannot spread.
+
+### What to change
+
+**Add an upstream ask to the reseller variant.** Downstream direction stays, but for
+any company that says it sources rather than compiles, the more valuable request is:
+
+  1. do you transmit suppression signals **back to your suppliers**? (Usually no —
+     get it on the record either way.)
+  2. if not, is there any **industry-wide or co-operative suppression file** those
+     suppliers honour — DMAchoice, an association do-not-mail list, a co-op
+     suppression — that a consumer could register with once instead of writing to
+     every reseller in turn?
+
+Question 2 is the operationally important one, and it is deliberately *not* a
+request for supplier names. A company that has twice declined to name its compilers
+can still answer it, because it gives nothing away. It converts a refusal into a
+next step.
+
+It also raises the priority of the **DMAchoice** item sitting in the handoff queue.
+If a central registration is read by the compilers, one registration is worth more
+than a hundred letters to resellers — and this project has been doing the hundred
+letters.
+
+### And the credit due
+
+Nothing forced this answer. It was volunteered in reply to a question about
+something else, and it makes their own suppression look narrower than a vaguer
+answer would have. The best information in this project keeps arriving that way:
+§152's enumeration, §154's correction, and now this. Companies that answer
+precisely tell you more than companies that answer generously.
+
+Related: §138 (corroboration), §154 (the correction from the same desk), §152.
+
+---
+
+## §160
+
+**"We are not a data broker" — published by a company on the data broker register.**
+*Martin Data LLC / USInfoSearch — 28 Aug 2026*
+
+Three findings from one bounced letter, and they compound.
+
+### 1. The address on the register does not exist
+
+`ccpa@usinfosearch.com` is the contact published for **Martin Data LLC** on the
+California data broker register. It hard-bounced: *"the address couldn't be found,
+or is unable to receive mail."*
+
+The domain is fine — Microsoft 365 answers on MX. It is the mailbox that is gone.
+So a California consumer who does exactly what the register tells them to do sends
+a request that is never received, and receives a bounce that looks like a technical
+glitch rather than a broken statutory route.
+
+This is §149 again — *an address is verified by a send, not by a source* — and it
+is now the second register-published contact in a week to fail on contact. The
+register is a directory of claims, and nobody checks them.
+
+### 2. The privacy policy is a PDF, so no scraper can read it
+
+`usinfosearch.com/privacy-policy/` returns **a PDF**, served at an HTML-looking URL.
+Every text-extraction path in this repo receives `%PDF-1.6` followed by compressed
+binary, finds no email addresses, and concludes there is no published contact.
+
+`pdftotext` on the same bytes returns the entire policy in clean prose, including
+the working contact address. The information was never hidden; the pipeline simply
+could not see it.
+
+Add to the §156 list of ways a published policy becomes invisible: a JS-only site
+(Media Resource Group) and a PDF-behind-an-HTML-URL (here). Both return HTTP 200.
+Both look like "nothing published" to a text fetch. Neither is.
+
+### 3. The policy denies the registration, and describes the architecture
+
+The policy opens:
+
+> *"USInfoSearch.com is a national investigative service for credentialed users ...
+> legally qualified to receive this information under the Gramm-Leach-Bliley Act
+> (GLBA), the Drivers Privacy Protection Act (DPPA), or the Fair Credit Reporting
+> Act (FCRA) ... **USInfoSearch.com is not a data broker.**"*
+
+Martin Data LLC is on the register. Both statements may be true of different
+entities or different activities — that is precisely why it is a question in the
+letter rather than an accusation. But a consumer cannot tell from outside which
+description governs the service that would return a report about them, and that
+determines which rights are even available.
+
+The next paragraph is more useful than the disclaimer:
+
+> *"USInfoSearch.com does not store or retain information about consumers. The
+> investigative service connects to a variety of permissible purpose federal and
+> state data sets via API query for a person of interest and the information is
+> returned ... which formats the resulting data into a comprehensive report on an
+> individual."*
+
+That is a **live-compile query engine**, described by its operator, in public. The
+project catalogued that architecture as one of five; here is a company confirming
+it in its own privacy policy.
+
+### What follows for the letter, and it is a rewrite rather than a resend
+
+If nothing is stored, a deletion request is **true and worthless at the same
+moment**: there is nothing to delete, and the next query rebuilds the identical
+report from the identical sources. Demanding one anyway invites a confirmation that
+means nothing — the exact failure §138 exists to catch.
+
+So the re-sent letter drops the deletion ask and says why, then asks for the three
+things a query engine can actually answer:
+
+  - **query-time suppression**, if any list causes a search to return nothing or a
+    restricted result — with *"we have no suppression capability"* accepted in
+    advance as a real answer;
+  - **the upstream datasets and providers**, since that is the only layer where a
+    removal could bite;
+  - **the log**, which is the point.
+
+**The log is the whole letter.** If a company retains nothing *about* consumers,
+the only consumer records left are records *about searches*: who ran one, when, on
+whom, under what claimed permissible purpose, and roughly what came back. A search
+log is a record about the person searched for at least as much as about the
+searcher — and for a GLBA/DPPA/FCRA-credentialed service it is the one thing that
+must exist.
+
+Conceding the architecture is what makes that ask answerable. A letter that
+demanded deletion would have been declined in one line, truthfully, and the log
+would never have come up.
+
+Related: §138, §149, §156, and the skip-tracing section of `_CATEGORY_VARIANTS.md`.
+
+---
+
+## §161
+
+**The exclusion they offer expires, covers strangers, and has to be re-done — and they say so.**
+*Marketing Architects — 29 Aug 2026*
+
+A nil result arrived sixty seconds after the letter:
+
+> *"Marketing Architects has none of the personal data provided regarding this
+> individual."*
+
+Unqualified, and the letter had promised that an unqualified nil closes the matter.
+It is closed. The finding is in what was offered instead.
+
+> *"To exclude this individual from targeted advertising, we require an IP address.
+> IP address may be found by using third party lookup services ... Please keep in
+> mind that devices using the same Wi-Fi network may have overlapping IP addresses
+> and IP addresses can be changed by the user or their internet service provider,
+> so these steps may need to be repeated later."*
+
+Read the caveat as a specification of the product being offered. The exclusion:
+
+  - **is not reliably about the requester** — an IP identifies a network, so
+    suppressing it excludes the household and its guests. Asking for it means asking
+    a company to exclude people who never asked to be excluded, which is the same
+    error §154 caught in the opposite direction;
+  - **is not reliably about all of the requester** — it misses every device on any
+    other network, so it does not cover the phone that left the house;
+  - **expires silently** — "may need to be repeated later" means the opt-out lapses
+    at the next lease renewal, with nothing to signal that it has, and the consumer
+    believing throughout that it holds.
+
+And obtaining it requires the consumer to visit a third-party lookup service and
+then hand a fresh, dated network-address-to-name association to an advertising
+company that, by its own account, holds nothing about them. **The price of the
+exclusion is creating the record.**
+
+### Why this is a distinct entry rather than another §150
+
+§150 (Fog, mobile advertising ID) recorded a *trade*: the durable opt-out required
+surrendering the identifier that made the tracking possible. This is worse in a
+specific way — **the identifier being asked for is not even a good identifier for
+the job**, and the company says so in the same paragraph. It is a trade where the
+thing received is defective by the seller's own description.
+
+Name the pattern: **an opt-out keyed to an identifier that is neither stable nor
+exclusive to the person.** It looks like a mechanism, it is offered in good faith,
+and it cannot do what a consumer will assume it does.
+
+### The response, and the counter-offer
+
+Declined, on the record, with their own caveat quoted back — because a refusal
+without a reason reads later as losing interest (§ the Outreach thread made the
+same point about unverified addresses). Credit given too: most companies offering
+an IP-keyed opt-out do not mention that it lapses.
+
+Then a counter-offer, which is the part worth reusing. CTV audiences are
+increasingly resolved through **hashed email** rather than raw IP. A hash is
+durable, portable across devices, and unambiguously one person — everything an IP
+is not. So: if any platform or supplier in the chain accepts a hashed email as a
+suppression key, addresses will be supplied willingly, and they can hash them
+themselves from the thread. *"Not available"* stated in advance as a complete
+answer.
+
+That is the general move for identifier-keyed businesses, and it is now in three
+letters this week — MaxMind, Media.net, and here. **Do not send the identifier they
+ask for; offer the one you can prove is yours, and ask them to derive the rest.**
+
+One more thing worth noting: the reply splits rights across two policies — a
+Product-and-Services policy for the CTV campaigns and a Website-and-Business
+Representative policy for people who deal with the agency — and conditions
+compliance on the requester being *"a California resident"*. The subject is a
+Pennsylvania resident. Another map drawn without him in it (§151).
+
+Related: §150, §151, §154.
+
+### §160a — what the tooling fix actually fixed
+
+`discover_contacts.py` was patched the same evening. Being precise about the result
+matters more than claiming a win, because two of the three gates are still shut.
+
+**Fixed, and verified against the live sites:**
+
+  - **PDF policies.** A response beginning `%PDF-` is now passed through
+    `pdftotext` instead of being decoded as UTF-8 into binary noise. Verified on
+    the usinfosearch policy bytes: 1,930 characters of clean prose, and
+    `customerservice@USInfoSearch.com` recovered from it. A `None` return still
+    means *unreadable*, never *empty*.
+  - **Single-page apps.** When a page matches a CRA/SPA shell and yields no
+    addresses, the first same-origin JS bundle is fetched and appended. Verified on
+    mrginc.com: the shell is 2,600 bytes and contains nothing; the bundle is 2.6 MB
+    and contains `info@mrginc.com`. The read cap is raised to 4 MB for bundles
+    only, because that address sits past 580 KB and the old 600 KB cap would have
+    truncated just short of it.
+  - **Trailing-slash paths.** `/privacy-policy/` and `/privacy/` added after the
+    bare forms. Not redundant: usinfosearch serves the policy at the slashed form
+    and returns 404 — no redirect — for the bare one.
+
+**Not fixed, and worth stating plainly:**
+
+  - **The ROLE gate still filters both addresses.** `info@` and `customerservice@`
+    are not privacy-role prefixes, so the scanner still reports nothing for these
+    two domains even though it can now *see* what they publish. That gate is
+    deliberate and stays: it exists because an earlier run returned a named
+    individual's work address and, separately, an accessibility desk. Making the
+    content readable and deciding what counts as a route are two different
+    problems, and only the first was in scope tonight.
+  - **usinfosearch blocks urllib below the header layer.** Adding the full Chrome
+    navigation header set changed nothing: still `202 Accepted` and an interstitial,
+    while curl gets the real document from the same URL. The discriminator is TLS or
+    protocol fingerprint. That is not worth chasing and not something this scanner
+    should be doing, so that address was recovered by hand and written into the
+    registry instead.
+
+So: one of the two documented invisibility problems is genuinely solved end to end,
+one is solved up to a filter that is correct to keep, and one host remains
+unreachable by design on their side. The `--limit 8` regression run completes
+clean.

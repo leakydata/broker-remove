@@ -2855,7 +2855,7 @@
     "via": "email"
   },
   "marketing_architects": {
-    "status": "submitted",
+    "status": "not_found",
     "changed": "2026-08-29",
     "via": "email"
   },
@@ -2975,7 +2975,7 @@
     "via": "email"
   },
   "message_digital": {
-    "status": "submitted",
+    "status": "manual_required",
     "changed": "2026-08-29",
     "via": "email"
   },

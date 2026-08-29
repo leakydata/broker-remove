@@ -40,8 +40,10 @@ import argparse
 import html
 import json
 import re
+import shutil
 import socket
 import ssl
+import subprocess
 import sys
 import urllib.error
 import urllib.request
@@ -55,10 +57,41 @@ from paths import state  # noqa: E402
 # Ordered by how often they actually hold the address, because the scan stops at
 # the first page that yields a linked one. Nine paths x two hosts x a 12s timeout
 # against a domain that no longer resolves is four minutes of waiting for nothing.
-PATHS = ["/privacy-policy", "/privacy", "/legal/privacy", "/ccpa",
-         "/do-not-sell", "/contact", "/"]
+# Trailing-slash variants are not redundant. usinfosearch.com serves its policy
+# at /privacy-policy/ and returns 404 for /privacy-policy -- no redirect -- so the
+# bare form alone reports "nothing published" for a site that publishes plainly
+# (_SILENT_FAILURES 160). They sit after the bare forms because most hosts do
+# redirect, and the scan stops at the first path that yields a linked address.
+PATHS = ["/privacy-policy", "/privacy", "/privacy-policy/", "/privacy/",
+         "/legal/privacy", "/ccpa", "/do-not-sell", "/contact", "/"]
 UA = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/128.0 Safari/537.36")
+
+# The headers Chrome sends for a top-level navigation, so the request is coherent
+# with the UA it already claims. Nothing here defeats an access control; the target
+# is a privacy policy, which is the one page a company publishes to be read.
+#
+# Worth recording what this did NOT fix, since the obvious inference is wrong.
+# usinfosearch.com answers urllib with `202 Accepted` and an interstitial -- no
+# content, no error -- and it still does with every one of these headers set. curl
+# gets the real policy from the same URL, so the discriminator is below the header
+# layer (TLS or protocol fingerprint), and chasing it is neither worth the time nor
+# something this scanner should be doing. That domain's address was recovered by
+# hand instead (_SILENT_FAILURES 160).
+#
+# The rule that saves us here is the existing one: `r.status != 200` returns None,
+# so the interstitial is discarded rather than parsed as an empty policy page.
+HEADERS = {
+    "User-Agent": UA,
+    "Accept": ("text/html,application/xhtml+xml,application/xml;q=0.9,"
+               "application/pdf;q=0.9,*/*;q=0.8"),
+    "Accept-Language": "en-US,en;q=0.9",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+}
 ANCHOR = re.compile(r'<a[^>]*mailto:([^"\'?>]+)[^>]*>(.*?)</a>', re.I | re.S)
 ADDR = re.compile(r'[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}')
 
@@ -111,20 +144,70 @@ def resolves(domain):
     return False
 
 
-def fetch(url):
+# A published policy can be served at an HTML-looking URL and not be HTML.
+# usinfosearch.com/privacy-policy/ returns HTTP 200 and a PDF; every text path
+# here saw `%PDF-1.6` plus compressed binary, found no addresses, and concluded
+# nothing was published. `pdftotext` on the same bytes returns the whole policy
+# including the working contact address (_SILENT_FAILURES 160).
+#
+# "No published privacy contact" and "we could not read the format" are different
+# findings, and only the first should send you looking elsewhere.
+def _pdf_to_text(raw):
+    if not shutil.which("pdftotext"):
+        return None
+    try:
+        r = subprocess.run(["pdftotext", "-q", "-", "-"], input=raw,
+                           capture_output=True, timeout=20)
+    except (OSError, subprocess.SubprocessError):
+        return None
+    return r.stdout.decode("utf-8", "replace") if r.returncode == 0 else None
+
+
+def fetch(url, limit=600_000):
     ctx = ssl.create_default_context()
     ctx.check_hostname = False
     ctx.verify_mode = ssl.CERT_NONE
-    req = urllib.request.Request(url, headers={"User-Agent": UA})
+    req = urllib.request.Request(url, headers=HEADERS)
     try:
         with urllib.request.urlopen(req, timeout=8, context=ctx) as r:
             if r.status != 200:
                 return None
-            raw = r.read(600_000)
-        return html.unescape(raw.decode("utf-8", "replace"))
+            raw = r.read(limit)
     except (urllib.error.URLError, urllib.error.HTTPError, ssl.SSLError,
             TimeoutError, OSError, ValueError):
         return None
+    if raw[:5] == b"%PDF-":
+        text = _pdf_to_text(raw)
+        return text  # None means "unreadable", not "empty" -- same as a failed GET
+    return html.unescape(raw.decode("utf-8", "replace"))
+
+
+# A single-page app serves the same empty shell on every path, so the policy text
+# and the published contact live in the JS bundle instead. mrginc.com is served as
+# an un-minified development build: /privacy, /ccpa, /contact and / all return the
+# identical create-react-app shell, while `info@mrginc.com` appears eight times
+# inside /static/js/bundle.js (_SILENT_FAILURES 156).
+#
+# Only the first bundle is followed, and only when the page itself yielded nothing
+# -- this is a fallback for an otherwise-blank result, not an extra crawl on every
+# domain.
+_SPA_SHELL = re.compile(
+    r"You need to enable JavaScript to run this app|<div id=[\"']root[\"']></div>|"
+    r"<div id=[\"']app[\"']></div>", re.I)
+_SCRIPT_SRC = re.compile(r'<script[^>]+src=["\'](/[^"\']+\.js)["\']', re.I)
+
+
+def spa_bundle(body, base):
+    """Body of the first same-origin JS bundle, or None. Cheap gate first."""
+    if not _SPA_SHELL.search(body):
+        return None
+    # A dev build is megabytes and the address can sit near the end -- mrginc's
+    # appears past 580 KB -- so read further here than for an ordinary page.
+    for m in _SCRIPT_SRC.findall(body)[:2]:
+        got = fetch(base + m, limit=4_000_000)
+        if got:
+            return got
+    return None
 
 
 def rank(addr, domain):
@@ -149,6 +232,13 @@ def scan(bid, domain):
                 break
         if not body:
             continue
+        # A single-page app hides its published contact in the bundle. Try it once,
+        # on the first path that returns a shell, and append rather than replace.
+        if not linked and not plain:
+            base = f"https://www.{domain}"
+            extra = spa_bundle(body, base) or spa_bundle(body, f"https://{domain}")
+            if extra:
+                body = body + "\n" + extra
         for href, inner in ANCHOR.findall(body):
             href = href.strip().lower()
             if not ADDR.fullmatch(href) or JUNK.search(href):

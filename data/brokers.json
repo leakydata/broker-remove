@@ -11530,13 +11530,14 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "ccpa@usinfosearch.com",
+      "email_to": "customerservice@usinfosearch.com",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "published_policy",
       "registry_years": [
         "2020-2023"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "email_note": "CA register gives ccpa@usinfosearch.com -- that mailbox DOES NOT EXIST (hard bounce 2026-08-28, 'address not found'; the domain is live on M365, the local part is not). Re-routed to customerservice@usinfosearch.com, published in their privacy-policy PDF (usinfosearch.com/privacy-policy/ serves a PDF, not HTML -- text scrapers get binary) as the contact for privacy questions. Also on file: (614) 322-9992, 735 Taylor Rd Suite 220, Columbus OH 43230. NOTE THE CONTRADICTION: that policy states 'USInfoSearch.com is not a data broker' while Martin Data LLC is a CA data broker registrant. The policy also states they do not store or retain consumer information and compile each report by API query at request time -- a live-compile query engine, described by the operator, which makes the ACCESS LOG the only consumer record they can hold."
     },
     {
       "id": "maryland_arrests",
@@ -11863,7 +11864,7 @@
       "domain": "messagedigital.com",
       "priority": 2,
       "method": "email",
-      "optout_url": "",
+      "optout_url": "https://messagedigital.com/my-data",
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
@@ -11874,7 +11875,8 @@
         "2025",
         "2026"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "email_note": "privacy@messagedigital.com auto-replies within seconds: privacy requests must go through https://messagedigital.com/my-data or the toll-free line. That page embeds a OneTrust webform (privacyportal.onetrust.com/webform/dad2d808-afe9-4335-9217-e650f906ee17/f3f3d5e6-bc82-4d21-ab04-f733117d11d2). The emailed letter is in the thread and the deflection is on record, but the request has to be re-submitted through the form."
     },
     {
       "id": "michigan_arrests",
