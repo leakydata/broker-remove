@@ -75,6 +75,12 @@
       "kind": "abandoned_mailbox",
       "evidence": "NOT A BOUNCE. The message was accepted and delivered; an autoresponder then said 'This email is no longer active. If you need assistance, please email erinb@namericanmedia.com.' So the send succeeded, the tracker would have read 'submitted', and the request would have sat unread indefinitely. Address came from the CA data broker register. See _SILENT_FAILURES 165.",
       "replacement": "erinb@namericanmedia.com (named by their own autoresponder); contact@namericanmedia.com is also published on their site"
+    },
+    "privacy@nymblr.com": {
+      "observed": "2026-08-29",
+      "broker": "nymblr",
+      "evidence": "550 5.1.1 address not found. Came from the CA data broker register (email_verified_by: ca_data_broker_registry), not from a guess. The Google Workspace tenant IS live -- five MX records, Cloudflare in front -- so the domain is actively maintained and the mailbox simply does not exist. Website serves an infinite 301 loop with a zero-byte body. Fourth register-published address to fail on contact this week.",
+      "replacement": "none found -- no website to read, no alternative address published anywhere reachable"
     }
   }
 }

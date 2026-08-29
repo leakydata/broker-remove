@@ -12479,9 +12479,9 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "compliance@multimedialists.com",
+      "email_to": "sales@multimedialists.com",
       "email_verified": true,
-      "email_verified_by": "privacy_policy",
+      "email_verified_by": "published_policy",
       "registry_years": [
         "2020-2023",
         "2024",
@@ -12489,7 +12489,7 @@
         "2026"
       ],
       "legal_name": "MULTIMEDIA LISTS, INC.",
-      "email_note": "compliance@multimedialists.com HARD BOUNCES (2026-08-29) although it is published on their own live privacy policy as the designated privacy contact, with a postal address at 46 Park Avenue, Asheville NC 28801. Domain is live on M365; the mailbox is not. Do not re-adopt it. Routes that remain: the PrivacyPillar DSAR form linked from the policy as 'Do Not Sell My Information' (now in optout_url), toll-free 1-800-239-5478, and sales@multimedialists.com, which is the only other published mailbox. Their policy is unusually good on the deletion-vs-suppression point -- 'The opt-out action effectively removes all information from our files, and places your information on a suppression list. We will only retain enough to ensure your information is not reintroduced' -- which is the correct resolution stated by the company itself."
+      "email_note": "email_to was compliance@multimedialists.com -- their own published designated privacy contact -- which HARD BOUNCES (2026-08-29, see _SILENT_FAILURES 162). Now points at sales@multimedialists.com, the only other published mailbox and the one actually written to on 2026-08-29; that letter leads with the broken privacy address rather than the request. Other routes: the PrivacyPillar DSAR form in optout_url, and toll-free 1-800-239-5478. Their policy is unusually good on deletion-versus-suppression: 'The opt-out action effectively removes all information from our files, and places your information on a suppression list. We will only retain enough to ensure your information is not reintroduced.'"
     },
     {
       "id": "my_renter_checker",
@@ -13297,12 +13297,13 @@
       "source": "ca_data_broker_registry",
       "optery_slug": null,
       "email_to": "privacy@nymblr.com",
-      "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified": false,
+      "email_verified_by": "bounced",
       "registry_years": [
         "2020-2023"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "email_note": "privacy@nymblr.com HARD BOUNCES (550 5.1.1, 2026-08-29) although it is the address published on the CA data broker register. The Workspace tenant is live (five MX, Cloudflare) so the domain is maintained; the mailbox does not exist. The website serves an infinite 301 redirect loop with a zero-byte body, so there is no page to read for an alternative and no successor named anywhere. Filings stop after 2020-2023. No route currently known. See _SILENT_FAILURES 166."
     },
     {
       "id": "oan_online_advertising_network",

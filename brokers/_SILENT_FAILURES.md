@@ -10234,3 +10234,87 @@ deliberately **not** merged pending a reply. "Minerva" is a common enough name t
 the pattern could be coincidence.
 
 Related: §163, §163a, §165.
+
+---
+
+## §166
+
+**An audit of the bounce pipeline, because §165 implied one was overdue.**
+*29 Aug 2026*
+
+§165 established that a delivered message is not a received one, and that the only
+failure mode with no detector is the abandoned mailbox. That raised an obvious
+adjacent question the project had never actually tested: **of the bounces that ARE
+detectable, how many were caught?**
+
+A bounce arrives as an ordinary email. If nobody reads it, the tracker still says
+`submitted` and the send is recorded as successful — the same silent failure, reached
+by a shorter road. So the pipeline was audited from both directions.
+
+### Direction one: from the mailbox
+
+The account holds **201** delivery-status-notification threads. The most recent
+**50** were examined in full, and each was resolved to the address the original
+letter went to. Of the 42 distinct addresses that were hard failures (as opposed to
+transient "Delay" notices):
+
+**42 of 42 were already recorded in `data/dead_addresses.json`.** None had been
+missed.
+
+Three brokers showed `submitted` despite a bounce against their address, and all
+three resolve correctly on inspection:
+
+| broker | why `submitted` is right |
+|---|---|
+| `databaseusa` | the request succeeded through a **web portal** on 18 Aug; only a later *supplementary* letter bounced, and the history says so |
+| `researchusa` | status came from the **other agent** via the shared ledger on 28 Aug, not from the bounced email |
+| `multimedia_lists` | bounced, then **re-routed** to a working address the same evening (§162) |
+
+### Direction two: from the record
+
+The mailbox check covers only the 50 threads read. The complementary test is
+complete and free: for every one of the **60** entries in `dead_addresses.json`, is
+the broker's state consistent?
+
+  - **29** are no longer any broker's `email_to` — they were replaced with working
+    routes, which is the desired outcome.
+  - **31** are still set as a broker's `email_to`, and all but three carry either a
+    terminal status (`unreachable` / `not_found` / `manual_required`) or
+    `email_verified_by: bounced`.
+
+The three exceptions were checked individually. Two are correct — `captcha_blocked`
+and a portal handoff, where the stale email field is inert because the real route is
+a form. **One was a genuine inconsistency:** `multimedia_lists` had been re-routed to
+`sales@` in practice, and the registry's `email_to` still pointed at the dead
+`compliance@`. Fixed.
+
+### And the guard that made the exceptions harmless
+
+`queue_batch` loads `dead_addresses.json` and holds any broker whose address is in
+it. All three exceptions were confirmed held:
+
+```
+sourceit_technologies    dataprivacy@sourceitmarketing.com    in_dead_set=True
+multimedia_lists         compliance@multimedialists.com       in_dead_set=True
+paramount_direct_marketing  ccpa@paramountdirectmarketing.com in_dead_set=True
+```
+
+So a stale `email_to` cannot cause a re-send to a known-dead mailbox. That guard was
+added after exactly that happened once, and it is doing its job.
+
+### What this does and does not establish
+
+**Established:** every recorded bounce has been acted on, no broker is sitting in
+`submitted` on the strength of a message that bounced, and the dead-address guard
+prevents the failure recurring through the queue.
+
+**Not established:** bounce threads 51–201 were not individually examined. The
+`dead_addresses` cross-check covers every bounce that was *recorded*; it cannot see a
+bounce that was never recorded at all. The only evidence on that rate is the sample
+above, which found none in fifty — encouraging, and not proof.
+
+That residual gap is the same shape as §165's: you cannot detect a thing you never
+looked at. The difference is that this one is bounded and cheap to close if it ever
+matters — the threads are all still in the mailbox.
+
+Related: §160, §162, §163, §165.
