@@ -11984,7 +11984,8 @@
       "email_alt": "privacy@minervadata.xyz",
       "registry_years": [
         "2024"
-      ]
+      ],
+      "email_note": "POSSIBLE SUCCESSION, ASKED NOT ASSUMED (2026-08-29): `minerva` (Minerva, minervadata.xyz, filed 2024 only) and `minerva_bi` (Minerva BI Inc, minerva.io, filed 2025-2026) show the 163 signature -- one filing stops exactly where the other begins, both contacts share a first name, both are called Minerva. minervadata.xyz has live Microsoft 365 MX but NO A record at all, so mail works and there is no site to check identity against, which is why this needs asking rather than checking. A one-question follow-up went to justin@minervadata.xyz on 2026-08-29. Do NOT merge these rows until the answer comes back -- 'Minerva' is a common enough company name that the pattern could be coincidence."
     },
     {
       "id": "minerva_bi",
@@ -12003,7 +12004,7 @@
         "2025"
       ],
       "legal_name": null,
-      "email_note": "Registry domain was minervabio.com -- WRONG COMPANY. The CA registrant Minerva BI, Inc. is at minerva.io (footer names the entity; policy gives the Brooklyn NY address). minervabio.com is unrelated and answers with a mod_security block. Corrected 2026-08-28. DO NOT EMAIL: the published policy designates the webform preferences.minerva.io and a recorded toll-free line as the ONLY methods, and states that requests sent by email get an autoresponder redirecting to the form. privacy@minerva.io is for general inquiries only. The registry contact justin@minerva.io is a published disclosure, not a designated channel (SILENT_FAILURES 149a). The portal is DataGrail and ends at an hCaptcha -- see brokers/seamless_ai.md for the flow."
+      "email_note": "Registry domain was minervabio.com -- WRONG COMPANY. The CA registrant Minerva BI, Inc. is at minerva.io (footer names the entity; policy gives the Brooklyn NY address). minervabio.com is unrelated and answers with a mod_security block. Corrected 2026-08-28. DO NOT EMAIL: the published policy designates the webform preferences.minerva.io and a recorded toll-free line as the ONLY methods, and states that requests sent by email get an autoresponder redirecting to the form. privacy@minerva.io is for general inquiries only. The registry contact justin@minerva.io is a published disclosure, not a designated channel (SILENT_FAILURES 149a). The portal is DataGrail and ends at an hCaptcha -- see brokers/seamless_ai.md for the flow. || POSSIBLE SUCCESSION, ASKED NOT ASSUMED (2026-08-29): `minerva` (Minerva, minervadata.xyz, filed 2024 only) and `minerva_bi` (Minerva BI Inc, minerva.io, filed 2025-2026) show the 163 signature -- one filing stops exactly where the other begins, both contacts share a first name, both are called Minerva. minervadata.xyz has live Microsoft 365 MX but NO A record at all, so mail works and there is no site to check identity against, which is why this needs asking rather than checking. A one-question follow-up went to justin@minervadata.xyz on 2026-08-29. Do NOT merge these rows until the answer comes back -- 'Minerva' is a common enough company name that the pattern could be coincidence."
     },
     {
       "id": "minnesota_arrests",
@@ -13122,13 +13123,14 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "angelan@namericanmedia.com",
+      "email_to": "erinb@namericanmedia.com",
       "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified_by": "broker_autoresponder",
       "registry_years": [
         "2025"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "email_note": "The CA register contact angelan@namericanmedia.com is an ABANDONED MAILBOX, not a dead one: mail is accepted and an autoresponder replies 'This email is no longer active. If you need assistance, please email erinb@namericanmedia.com' (observed 2026-08-29). No bounce, so nothing would have flagged it. Re-routed to erinb@ as named by their own autoresponder. contact@namericanmedia.com is also published on the site. See _SILENT_FAILURES 165."
     },
     {
       "id": "north_carolina_arrests",

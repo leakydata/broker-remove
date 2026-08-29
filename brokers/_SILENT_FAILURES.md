@@ -10109,3 +10109,128 @@ safely, a lever: a parent that operates several brands has just been asked to
 enumerate them.
 
 Related: §157, §159, §163.
+
+---
+
+## §165
+
+**The mailbox that accepts everything and reads nothing.**
+*North American Media — 29 Aug 2026*
+
+§160 and §162 recorded published privacy addresses that do not exist. This is the
+version that does not announce itself.
+
+`angelan@namericanmedia.com` is the contact published for North American Media on
+the California data broker register. The letter was **accepted** — SMTP fine, no
+bounce, nothing anywhere in the delivery path to suggest a problem. Fifteen minutes
+later an autoresponder arrived:
+
+> *"This email is no longer active. If you need assistance, please email
+> erinb@namericanmedia.com."*
+
+### Why this is worse than a bounce
+
+A hard bounce is a gift. It is loud, immediate, machine-readable, and it forces the
+sender to do something. This project has three of them on file this week and each
+produced a working re-route within the hour.
+
+An abandoned mailbox produces none of that. The send succeeds. `queue_batch` moves
+on. The tracker says `submitted`. The statutory clock is, as far as the consumer
+knows, running. Nothing ever comes back, and the request is indistinguishable from
+the very large number of requests that companies simply ignore — which is precisely
+the failure mode this whole document exists to separate out.
+
+**The only thing that revealed it was a courtesy.** Somebody at that company set an
+autoresponder pointing at a colleague. Had they not — or had it been switched off
+when the mailbox was decommissioned, which is the more usual housekeeping — the
+letter would have vanished in complete silence and been recorded here as sent.
+
+### The taxonomy, now three deep
+
+| state | how it presents | how it is detected |
+|---|---|---|
+| **address does not exist** | hard bounce in seconds | automatic, unmissable |
+| **domain gone / re-registered** | delivers to a stranger (§163) | only by checking who owns the domain first |
+| **mailbox abandoned** | delivers, and is never read | **only by luck, or by silence over time** |
+
+The third has no detector. There is no protocol-level difference between a message
+sitting unread in a decommissioned mailbox and one sitting unread in a busy one.
+
+### What follows operationally
+
+Silence is not evidence of being ignored. It is evidence of *nothing*, and the two
+things it could mean — deliberate non-response, or nobody home — call for opposite
+next steps. That argues for a **second-address pass** over the long tail of
+`submitted` brokers that have never replied: where a site or policy publishes a
+different address from the register, the cheapest test is to write to it and see
+whether the silence continues. That is a substantial piece of work and is noted here
+rather than started tonight.
+
+The re-send says so to them, plainly and without reproach:
+
+> *"the register directs consumers to a mailbox nobody reads, and because it accepts
+> mail rather than rejecting it, nothing on either side would ordinarily reveal
+> that ... the next person who writes will not get an autoresponder pointing them
+> anywhere if it is ever switched off."*
+
+That framing — §162's lesson, that a message opening with something useful about the
+recipient gets read — is now the standard shape for a re-route letter.
+
+Related: §149, §160, §162, §163.
+
+### §165a — measuring the silent tail before acting on it
+
+§165 argued for a second-address pass over brokers that have gone quiet. Before
+starting one, it is worth knowing how big it is and whether it is ripe. It is not,
+and the numbers say so clearly.
+
+**Submitted, no reply recorded, by age since last activity:**
+
+| age | count |
+|---|---|
+| under 3 days | 215 |
+| 3–7 days | 131 |
+| 7–14 days | 345 |
+| **over 14 days** | **0** |
+
+Nothing is older than a fortnight, because the campaign itself is only that old. And
+the statutory response window under the California statute is **45 days**, extendable
+by another 45. So at 7–14 days, silence means nothing at all: every one of those 345
+is comfortably inside the period in which a company is entitled to say nothing.
+
+**A second-address pass now would be premature and would read as harassment.** The
+trigger is roughly 45 days from send — mid-October for the earliest cohort — at which
+point silence starts to carry information.
+
+### The cohort that is actually worth targeting first
+
+Not all silence is equally suspicious. §165's failure mode has a specific profile: a
+mailbox tied to *a person* rather than a function. A `privacy@` address survives the
+person who read it leaving; `firstname@` does not.
+
+So the sharper query is: of the brokers written to and not heard from, how many were
+written to at a **person-shaped address**?
+
+**117** — of which **23** already have an `optout_url` on file as a ready second
+route.
+
+That is a tractable list rather than a sweep of 345, and it is the right one: these
+are the addresses most likely to have quietly stopped being read, and the ones where
+a re-route has somewhere obvious to go. `verify_emails.is_role_address` already
+draws the distinction, so the cohort can be regenerated at any time.
+
+**Plan of record:** wait for the 45-day mark, then work the 117 person-shaped
+addresses first, starting with the 23 that have a form as a fallback. Do not sweep
+the whole silent set.
+
+One thing the measurement turned up incidentally, which is why it was worth running:
+`minerva` (filed 2024, `justin@minervadata.xyz`) and `minerva_bi` (filed 2025–2026,
+`justin@minerva.io`) both appear in the person-shaped cohort, share a first name and
+a company name, and their filing years abut exactly — the §163 signature for a third
+time. But `minervadata.xyz` has live mail and **no A record at all**, so there is no
+site to check the identity against. Where the domain cannot answer, ask the mailbox:
+a one-question follow-up went out, and the two registry rows are annotated and
+deliberately **not** merged pending a reply. "Minerva" is a common enough name that
+the pattern could be coincidence.
+
+Related: §163, §163a, §165.

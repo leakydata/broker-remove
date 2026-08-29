@@ -68,6 +68,13 @@
       "broker": "multimedia_lists",
       "evidence": "mailer-daemon 'Address not found ... the address couldn't be found, or is unable to receive mail'. Domain is live on Microsoft 365; the mailbox is not. WORSE THAN A STALE REGISTER ENTRY: this address is published on the company's OWN CURRENT privacy policy as its designated privacy contact, alongside a postal address, and discover_contacts.py independently rediscovered it there. See _SILENT_FAILURES 162.",
       "replacement": "PrivacyPillar DSAR form linked from their privacy policy as 'Do Not Sell My Information'; toll-free 1-800-239-5478; sales@multimedialists.com is the only other published mailbox"
+    },
+    "angelan@namericanmedia.com": {
+      "observed": "2026-08-29",
+      "broker": "north_american_media",
+      "kind": "abandoned_mailbox",
+      "evidence": "NOT A BOUNCE. The message was accepted and delivered; an autoresponder then said 'This email is no longer active. If you need assistance, please email erinb@namericanmedia.com.' So the send succeeded, the tracker would have read 'submitted', and the request would have sat unread indefinitely. Address came from the CA data broker register. See _SILENT_FAILURES 165.",
+      "replacement": "erinb@namericanmedia.com (named by their own autoresponder); contact@namericanmedia.com is also published on their site"
     }
   }
 }
