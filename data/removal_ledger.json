@@ -2770,7 +2770,7 @@
     "via": "email"
   },
   "logiq": {
-    "status": "submitted",
+    "status": "unreachable",
     "changed": "2026-08-29",
     "via": "email"
   },
@@ -2815,9 +2815,9 @@
     "via": "email"
   },
   "madhive": {
-    "status": "submitted",
+    "status": "manual_required",
     "changed": "2026-08-29",
-    "via": "email"
+    "via": "reply"
   },
   "magnite": {
     "status": "submitted",
