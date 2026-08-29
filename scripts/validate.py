@@ -36,6 +36,22 @@ GUESSY_LOCAL = {"privacy", "support", "info", "contact", "legal", "admin"}
 errors, warnings = [], []
 
 
+def _dead_addresses():
+    """Addresses observed to bounce, keyed lowercase. Missing file means nothing
+    is known yet, not that everything is fine -- so an empty dict, never a crash."""
+    f = ROOT / "data" / "dead_addresses.json"
+    if not f.exists():
+        return {}
+    try:
+        raw = json.loads(f.read_text()).get("addresses", {})
+    except (json.JSONDecodeError, OSError):
+        return {}
+    return {a.lower(): (v if isinstance(v, dict) else {}) for a, v in raw.items()}
+
+
+DEAD_ADDRS = _dead_addresses()
+
+
 def main():
     data = json.loads(CURATED.read_text())
     brokers = data["brokers"]
@@ -106,6 +122,63 @@ def main():
             # nobody had performed -- and this check, which keys off the flag,
             # silently passed on all of them. Four of the first thirteen such
             # addresses hard-bounced.
+            # A KNOWN-DEAD ADDRESS MUST NOT BE PRESENTED AS A LIVE ROUTE.
+            #
+            # data/brokers.json is one large JSON blob shared between two agents.
+            # Git will happily accept a stale whole-file snapshot as a legitimate
+            # new version: there is nothing for it to flag, so an older copy simply
+            # wins and every correction made since is reverted in silence. That
+            # happened on 2026-08-29 and it reverted ten fixes, including one whose
+            # only job was to stop a full identifier set being posted to a company
+            # that had bought a lapsed broker's domain (_SILENT_FAILURES 169).
+            #
+            # dead_addresses.json is the record that survived, because the other
+            # agent had no reason to touch it. So it is the right thing to check
+            # against: if an address is known to bounce and the registry still
+            # offers it as a verified route, something has overwritten a repair.
+            # This is an ERROR rather than a warning precisely because the failure
+            # mode is silence -- a warning would scroll past in a list of 1,390.
+            # A KNOWN-DEAD ADDRESS MUST NOT BE PRESENTED AS A LIVE ROUTE.
+            #
+            # Keeping a dead address in email_to is fine and common: the entry is
+            # marked email_verified false / verified_by "bounced", queue_batch holds
+            # it on the dead-address list, and the row still records what was tried.
+            # That is a warning at most.
+            #
+            # What is an ERROR is a dead address carrying a LIVE verification flag,
+            # because that combination cannot be produced by anyone who knows the
+            # address is dead -- it means a repair has been overwritten.
+            #
+            # It happened on 2026-08-29 twice over. data/brokers.json is GENERATED
+            # from data/curated_brokers.json, and hand edits had been going into the
+            # generated file, so every one of them was due to vanish at the next
+            # build; a stale snapshot from the other agent merely got there first
+            # and reverted ten at once, including the note whose only job was to
+            # stop a full identifier set reaching a company that had bought a lapsed
+            # broker's domain. See _SILENT_FAILURES 169.
+            #
+            # dead_addresses.json is the right thing to check against because it is
+            # append-only, hand-maintained, and was the one file that survived.
+            if to.lower() in DEAD_ADDRS:
+                d = DEAD_ADDRS[to.lower()]
+                when = d.get("observed") or "date not recorded"
+                if b.get("email_verified") and b.get("email_verified_by") != "bounced":
+                    repl = (d.get("replacement") or "").split(";")[0].strip()
+                    errors.append(
+                        f"{where}: email_to '{to}' is recorded DEAD in "
+                        f"dead_addresses.json ({when}) yet email_verified is true "
+                        f"via '{b.get('email_verified_by')}'. Nobody who knew it was "
+                        f"dead would set that, so a correction has probably been "
+                        f"overwritten -- check whether the edit was made in "
+                        f"data/brokers.json (generated) instead of "
+                        f"data/curated_brokers.json (source), and check git log."
+                        + (f" Known replacement: {repl}." if repl else ""))
+                else:
+                    warnings.append(
+                        f"{where}: email_to '{to}' is a known-dead address ({when}), "
+                        f"correctly flagged. queue_batch holds it; retained for the "
+                        f"record.")
+
             if b.get("email_verified") and not b.get("email_verified_by"):
                 warnings.append(
                     f"{where}: email_verified is true but email_verified_by is unset. "

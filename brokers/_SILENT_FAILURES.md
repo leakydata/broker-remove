@@ -10496,3 +10496,116 @@ Two asks are new and worth reusing:
     what the request is about.
 
 Related: §157, §162, §163, §165.
+
+---
+
+## §169
+
+**I was editing a generated file all night, and a merge is what told me.**
+*29 Aug 2026*
+
+The other agent pushed a commit titled *"Catch two bounces the registry's own
+verified flags had missed."* Pulling it reverted ten registry corrections made
+during this session — including the note on `near_north_america` whose entire job was
+to stop a full identifier set being sent to the crypto company that now owns
+`near.com` (§163).
+
+No conflict. No warning. `git pull --rebase` applied their commit on top of mine and
+their older whole-file JSON snapshot simply won.
+
+That was the visible failure. Investigating it produced a worse one.
+
+### The real bug: `data/brokers.json` is generated
+
+```
+$ head scripts/build_registry.py
+"""Merge the hand-curated broker definitions with the scraped Optery directory
+into a single data/brokers.json registry."""
+CURATED = ROOT / "data" / "curated_brokers.json"
+OUT     = ROOT / "data" / "brokers.json"
+```
+
+`curated_brokers.json` is the **source**. `brokers.json` is the **output**. The build
+script even prints *"edit data/curated_brokers.json instead"* when it runs.
+
+Every registry edit made this session went into `brokers.json`. Comparing the two
+files at my own last commit, before any merge:
+
+| broker | generated `brokers.json` | source `curated_brokers.json` |
+|---|---|---|
+| `martin_data` | customerservice@usinfosearch.com | ccpa@usinfosearch.com |
+| `multimedia_lists` | sales@multimedialists.com | compliance@multimedialists.com |
+| `north_american_media` | erinb@namericanmedia.com | angelan@namericanmedia.com |
+| `media_resource` | info@mrginc.com | aliciab@mrginc.com |
+
+**Every one of those repairs was going to disappear at the next `build_registry.py`
+run regardless of what any other agent did.** The dead addresses were the ones
+re-routed hours earlier after they hard-bounced; the source file still pointed at all
+of them. And the problem predates tonight — `astoria`, `graph8` and `optimal` carried
+hand edits from earlier sessions that had never reached the source either, including
+an address verified by the broker's own reply.
+
+The merge did not cause the data loss. **It surfaced a loss that was already
+scheduled**, and did it while there was still a git object to recover from.
+
+### What was actually done
+
+Sixteen hand-edited entries were ported from the generated file into the source, the
+registry rebuilt, and the values confirmed to survive a rebuild. Three genuine
+improvements from the other agent were kept rather than overwritten:
+`foundry` (a bounced address replaced with the DPO address from their published
+policy), `connect_computer` and `tymax_media` (verification flags corrected to
+`bounced`). Their `martin_data` alternative — an accounts-desk address from a
+same-domain sibling registration, which they themselves flagged unconfirmed — is
+recorded in the note as a fallback rather than adopted, because the address the
+company's own privacy policy names is better sourced than a sibling filing.
+
+### The guard, and why it is an error rather than a warning
+
+`dead_addresses.json` survived, because the other agent had no reason to touch it. It
+is append-only, hand-maintained, and it records every address observed to bounce
+along with its replacement. That is what made recovery take minutes. It is also,
+therefore, the right thing to validate against.
+
+`validate.py` now fails when a broker's `email_to` appears in `dead_addresses.json`
+**while carrying a live verification flag**:
+
+```
+ERROR: north_american_media: email_to 'angelan@namericanmedia.com' is recorded DEAD
+in dead_addresses.json (2026-08-29) yet email_verified is true via
+'ca_data_broker_registry'. Nobody who knew it was dead would set that, so a
+correction has probably been overwritten -- check whether the edit was made in
+data/brokers.json (generated) instead of data/curated_brokers.json (source).
+Known replacement: erinb@namericanmedia.com
+```
+
+The distinction matters. Keeping a dead address in `email_to` is normal and useful —
+flagged `verified: false` / `verified_by: bounced`, held by `queue_batch`'s
+dead-address list, the row still records what was tried. That is a warning at most,
+and there are twenty-nine such rows.
+
+**A dead address with a live verification flag is different: that combination cannot
+be produced by anyone who knows the address is dead.** It is a signature of an
+overwrite, which is why it fails the gate rather than scrolling past in a list of
+1,400 warnings — the failure mode being repaired is silence.
+
+Run against the restored registry it found **two genuine pre-existing regressions**
+nobody had noticed: `car_market_solutions` and `logiq`, both still claiming
+verification via the California register for addresses recorded dead days ago. Both
+corrected.
+
+### Three rules from this
+
+1. **Edit the source, not the output.** Before hand-editing any data file, check
+   whether something generates it. `git log --oneline -- <file>` and the header of
+   any `build_*.py` will say.
+2. **A silent revert needs a loud detector.** Two agents sharing a large JSON blob
+   will overwrite each other, and git cannot help — there is nothing for it to flag.
+   The defence is a validator that knows what a correct state looks like and fails
+   when it sees an impossible one.
+3. **Keep at least one append-only, hand-maintained record.** `dead_addresses.json`
+   was the fixed point everything else was recovered against. A file that is only
+   ever added to is worth more in a collision than any amount of careful merging.
+
+Related: §147 (the shared ledger), §162, §163, §166 — which audited the bounce
+pipeline from two directions and did not think to check the verification flag itself.
