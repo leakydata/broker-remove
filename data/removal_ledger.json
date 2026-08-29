@@ -2855,7 +2855,7 @@
     "via": "email"
   },
   "marketing_architects": {
-    "status": "not_found",
+    "status": "submitted",
     "changed": "2026-08-29",
     "via": "email"
   },
@@ -3024,6 +3024,11 @@
     "changed": "2026-08-16",
     "via": null
   },
+  "missionwired": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
+  },
   "mississippi_arrests": {
     "status": "submitted",
     "changed": "2026-08-16",
@@ -3053,6 +3058,26 @@
     "status": "submitted",
     "changed": "2026-08-23",
     "via": null
+  },
+  "mobilefuse": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
+  },
+  "mobilewalla": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
+  },
+  "mobility_global_s_p_global": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
+  },
+  "modfx_labs": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
   },
   "modigie": {
     "status": "submitted",

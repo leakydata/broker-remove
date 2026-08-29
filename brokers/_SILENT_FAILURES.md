@@ -9714,3 +9714,90 @@ So: one of the two documented invisibility problems is genuinely solved end to e
 one is solved up to a filter that is correct to keep, and one host remains
 unreachable by design on their side. The `--limit 8` regression run completes
 clean.
+
+---
+
+## §161a — the correction, which is the actual finding
+
+*Marketing Architects — 29 Aug 2026, one hour after §161 was written*
+
+§161 above opens: *"A nil result arrived sixty seconds after the letter ...
+Unqualified, and the letter had promised that an unqualified nil closes the matter.
+It is closed."*
+
+That was wrong, and it was wrong in precisely the direction this document exists to
+guard against.
+
+The reply is an **autoresponder**. I know because it fired a second time, verbatim,
+against a two-paragraph follow-up that contained no identifiers and asked one
+question — whether a hashed email could serve as a suppression key — which the
+canned text does not address anywhere. Same opening sentence, same body, same
+minute.
+
+So this:
+
+> *"Marketing Architects has none of the personal data provided regarding this
+> individual."*
+
+is not the output of a search against twelve email addresses, sixteen prior
+addresses and eleven telephone numbers. It is a fixed string that would have come
+back from an empty message.
+
+### The tell was in my own note
+
+The subject line reads `[PRIVACY-AUTO]`. I quoted that string in the tracker entry
+while recording the message as a substantive result. The response time — sixty
+seconds — is in the same note, described as "templated but responsive," which is
+almost the right observation stopped one word early.
+
+§138 exists to catch exactly this: **a confirmation is corroborated only by
+something that only this request could have produced.** An itemised match list, a
+per-right split, a nil stated against named identifiers. A sentence that would be
+identical for every consumer who ever writes is none of those. I have applied that
+test to dozens of companies this month and did not apply it to myself for an hour.
+
+### Why it mattered mechanically, not just for the record
+
+`not_found` is a **terminal** state. `queue_batch` will never surface a broker in it
+again. Left alone, that entry would have settled this company permanently on the
+strength of a form letter, and nothing downstream would ever have questioned it —
+the exact silent failure, produced by my own bookkeeping rather than by a broker.
+
+Reverted to `submitted` via `--regressed`. The flag's label is imperfect: the broker
+withdrew nothing. What regressed is the evidence.
+
+### Name the class
+
+**The deflection that reads as a result.** A refusal ("use our web form") is
+obviously not an answer and gets filed as one. An autoresponder that happens to
+contain a *substantive-sounding assertion about your data* is far more dangerous,
+because it satisfies the reader's expectation of an outcome. Marketing Architects'
+version is unusually convincing: it describes the business accurately, explains the
+CTV exclusion mechanism, links two policies, and states a nil. Everything in it is
+probably true in general. None of it is about the person who wrote in.
+
+**Detection rules, cheap and worth applying every time:**
+
+  - an `[AUTO]`, `[PRIVACY-AUTO]`, `noreply`, or `+noreply` marker anywhere in the
+    subject or sender — treat any assertion in the body as unverified;
+  - a reply in under about two minutes on a request that would require searching a
+    marketing file;
+  - **the decisive test: write back with something that demands a different
+    answer.** If the same text returns, nobody read either message. It costs one
+    send and it settles the question.
+
+That third test is now the standing check for any nil result that arrives fast, and
+it is the only reason this entry exists — the follow-up was sent to ask about hashed
+email, not to probe the mailbox, and it exposed the autoresponder by accident.
+
+### What survives from §161
+
+Everything quoted from their published text, because none of it depended on a search
+having been run: the IP-keyed exclusion, and its three defects stated in their own
+paragraph — overlapping addresses on a shared network, changed by the user or ISP,
+and *"these steps may need to be repeated later."* That is still a real finding about
+a mechanism that is really offered. What does not survive is the claim that anyone
+looked for this person's data before saying they held none.
+
+Related: §138, §161, and §152 — where an enumeration of duplicate acknowledgements
+also turned out to say more about the sender's automation than about the request.

@@ -2494,3 +2494,83 @@ frequently mutually exclusive.
 
 **Never send an account number, card number, passport number or SSN**, and refuse
 them in advance.
+
+## Vehicle and automotive intelligence
+
+**Example:** Mobility Global (formerly S&P Global Mobility).
+
+**The DPPA fork is the whole letter.** Ask first whether any data held, received or
+derived originated — directly or through an intermediary — in **state motor vehicle
+records**: title, registration, lienholder or driver-licence records. If it did, the
+Driver's Privacy Protection Act (18 U.S.C. 2721 et seq.) governs, and two things
+follow that follow from nothing else:
+
+  - disclosure and any resale are lawful only under an **enumerated permissible
+    use** — ask which one they rely on;
+  - **§2721(c) requires a reseller or rediscloser to keep, for five years, records
+    identifying each recipient and the permitted purpose.** Ask for those records as
+    they relate to the requester: who received it, when, for what purpose. This is
+    an access-log request with a *federal statutory hook* rather than an appeal to
+    goodwill, and it is the strongest version of the access-log ask this project
+    has. Require a named exemption if they decline.
+
+If it did *not* come from motor vehicle records, ask where instead — dealer
+management systems, service and repair records, warranty registrations, telematics,
+finance and lease records, purchased marketing files. Each has a different answer
+and none is visible from outside.
+
+**The vehicle is the key, not the name.** These files are indexed by VIN and by the
+registrant's details *at the time of each transaction*, which means addresses the
+person left years ago. Lead with the address history, and say explicitly that
+records where the subject appears as registered owner, co-owner, lessee, service
+customer, warranty registrant **or prior owner** are in scope. Apply the §154 limit:
+other people live at those addresses now and other people have owned those vehicles
+since.
+
+**Do not supply a VIN or driver's licence number** unprompted; offer to reconsider
+if one is genuinely needed to complete a search.
+
+**Watch for a rename or divestiture.** This sector consolidates and spins out
+constantly. Ask explicitly whether the request reaches records under a former name,
+predecessor entities in the same lineage, and any copy retained by a former parent —
+and say that if a copy sits with a company that is no longer theirs, naming it is
+enough; you will write to them yourself.
+
+## MAID-keyed opt-outs, and why to refuse them
+
+**Examples:** ModFx Labs, Marketing Architects (IP variant), Fog Data Science.
+
+A whole class of broker offers exactly one exclusion mechanism: send us the
+identifier we track you by. Refuse it, and say why — the reasons are about the
+mechanism, not about the requester, and stating them usually produces a better
+answer than silence would.
+
+**The three defects, in the order that lands best:**
+
+1. **It fails the people most likely to use it.** A mobile advertising ID can be
+   reset at any time, and resetting it is the commonest privacy advice given to
+   phone owners — so anyone who follows that advice silently destroys the opt-out
+   they submitted. On iOS after App Tracking Transparency, a user who declined
+   tracking has **no advertising identifier at all**; instructions to "find your
+   Advertising ID" send that person looking for something that is not there. The
+   mechanism works for people who have taken no protective steps and fails for
+   people who have. Say that plainly; it is not usually intentional and companies
+   respond to it.
+2. **It asks you to create the association you are asking them to end.** A named,
+   dated message linking a device to an identity, often in a subject line, sent to a
+   company that may hold nothing about you. If they hold nothing today, complying
+   with their instructions is the act that creates the record.
+3. **Nothing tells you whether it did anything.** "If your ID is in our records we
+   will block it" is honest and unfalsifiable from outside — blocked-because-found
+   and nothing-happened-because-absent produce identical silence.
+
+The IP-address variant has the same shape plus one more: an IP identifies a
+*network*, so the exclusion covers the household and its guests — people who never
+asked to be excluded — and misses every device on any other network.
+
+**Always counter-offer rather than just refusing.** Ask them to hash the email
+addresses themselves (lowercased, trimmed, SHA-256, plus MD5/SHA-1) and search on
+the results; ask whether anything is stored against a household, address, visit
+record or identity graph rather than a raw identifier, since a device-ID opt-out
+would never touch that; and ask for a **nil result stated against named
+identifiers**, accepted in advance as a complete answer.
