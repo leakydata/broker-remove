@@ -195,11 +195,20 @@ def cmd_list(args):
     if opaque:
         print(f"\nNO PUBLIC LISTING ({len(opaque)}) — nothing to search; their written")
         print("confirmation is the only evidence. Chase any that never replied.\n")
-        for due_in, bid, name, pri, url, lastres, _ in opaque:
+        # 8-tuple, not 7: search_form was appended to the row and only the
+        # checkable loop above was updated. This branch then raised
+        # ValueError every time any opaque broker was due -- i.e. every run
+        # that reached it -- so the cohort whose written confirmation is the
+        # ONLY possible evidence was the one section that never printed.
+        # The crash came after the useful output, which is why it survived.
+        for due_in, bid, name, pri, url, lastres, _, _form in opaque:
             prev = f"  [last: {lastres}]" if lastres else ""
             print(f"            p{pri}  {bid}{prev}")
     print(f"\nRecord an outcome:  ./verify_removals.py --mark <id> "
-          f"gone|still_listed|not_found")
+          f"gone|still_listed|not_found [--url <listing url>]")
+    print("Pass --url with the page the listing was found on. Recording it once "
+          "turns every\nlater re-check into a single GET, instead of a fresh "
+          "search against the index\nyou are trying to leave.")
     return 0
 
 
@@ -215,6 +224,23 @@ def cmd_mark(args):
              "result": result}
     if args.note:
         entry["note"] = args.note
+
+    # RECORD THE LISTING URL AT THE MOMENT YOU SEE IT.
+    #
+    # On 2026-08-29 this project had 58 confirmed removals and a recorded
+    # listing URL for exactly none of them, which made cheap verification
+    # impossible. With a URL, re-checking is one GET against a known page: no
+    # new query, no new log entry on the broker's side, no CAPTCHA, no paywall.
+    # Without one, the only route back is a fresh search -- which means typing
+    # the subject's identifiers into the very index they asked to leave, and
+    # generating a query tied to them, to audit a removal that was supposed to
+    # make that unnecessary (_SILENT_FAILURES 178, 185).
+    #
+    # So the URL is worth more the earlier it is captured, and it is free at
+    # the moment of discovery and expensive at every moment after.
+    if args.url:
+        entry["listing_url"] = args.url
+        rec.setdefault("listing_url", args.url)
     rec.setdefault("verifications", []).append(entry)
 
     # A record that came back is the finding worth surfacing: it means the
@@ -247,6 +273,9 @@ def main():
                     help="also show checks becoming due within N days")
     ap.add_argument("--mark", nargs=2, metavar=("BROKER_ID", "RESULT"))
     ap.add_argument("--note")
+    ap.add_argument("--url", help="the page the listing was found on; "
+                    "recording it makes every later re-check a single GET "
+                    "instead of a fresh search against the broker's index")
     args = ap.parse_args()
     return cmd_mark(args) if args.mark else cmd_list(args)
 

@@ -11546,3 +11546,76 @@ would poison a mechanism that other people genuinely need. The answer is worth h
 in the project's records regardless of whether this requester ever uses it — and
 `scripts/make_protected_person_request.py` already exists for the case where somebody
 does.
+
+## §185 — fifty-eight confirmations, two verified, and no way back to check
+
+Ran `verify_removals.py` for the first time this session. It crashed.
+
+```
+    for due_in, bid, name, pri, url, lastres, _ in opaque:
+ValueError: too many values to unpack (expected 7, got 8)
+```
+
+A partial refactor: `search_form` was appended to each row, the `checkable` loop
+above was updated to unpack eight, and the `opaque` loop below was not. So the branch
+raised every time any opaque broker came due — which is every run that reached it.
+
+**The section that never printed was the one that most needed to.** `opaque` is the
+NO PUBLIC LISTING cohort: thirteen brokers with nothing to search, where *their
+written confirmation is the only evidence there will ever be*, and whose only
+available follow-up is to chase the ones that never replied. The tool's own header
+says so. It has been unable to say it since the field was added.
+
+And the crash survived because **it came after the useful output.** Two hundred lines
+of verification worklist print correctly, then a traceback at the bottom. Skim from
+the top and the tool worked. Same shape as §179, where my gate printed FAILED and
+committed anyway: the failure was downstream of where attention stops.
+
+### The count that matters more than the bug
+
+    58 brokers marked confirmed
+     2 with any verification recorded
+     0 with a recorded listing URL
+
+**Fifty-six confirmations rest on a company's own say-so and nothing else.** That is
+precisely what §138 exists to reject — a confirmation is corroborated only by
+something only this request could have produced, and "we have deleted your data" is
+not that. It is the claim, not evidence for the claim.
+
+### The part that is my fault, and is the actual lesson
+
+The zero is worse than the two.
+
+**Nobody ever recorded where the listing was found.** With a URL captured at
+discovery, verification later is one GET against a known page: no new query, no new
+entry in the broker's logs, no CAPTCHA, no paywall. Without one, the only route back
+is a *fresh search* — typing the subject's identifiers into the very index they asked
+to leave, generating a query tied to them, in order to audit a removal that was
+supposed to make that unnecessary.
+
+So the project destroyed its own ability to verify cheaply, before it ever needed to,
+by not writing down one string.
+
+**And this reframes §178 honestly.** That section objected to a people-search site
+demanding a profile URL before it would process a removal, on the grounds that
+producing one means searching their index for yourself. That objection stands — as a
+*precondition for service* it inverts the positions. But the URL itself is not the
+problem. **The URL is the cheap key, for them and for me, and I should already have
+had it.** The reason I could not supply one is not that supplying it is wrong; it is
+that nobody wrote it down at the point where it was free.
+
+The cost of that string is asymmetric in time: **free at the moment of discovery,
+expensive at every moment after.**
+
+### What changed
+
+  - The unpacking bug is fixed, with the reason in a comment rather than a silent
+    one-word edit.
+  - `--url` added to `--mark`, storing the listing URL on both the verification entry
+    and the broker record. Round-tripped against the real state file and restored.
+  - The tool now prints, under every worklist, why the URL is worth capturing.
+
+None of that verifies anything by itself. Fifty-six confirmations remain
+uncorroborated, and closing that gap means deciding whether the audit is worth the
+query it costs — which is a judgement about the subject's own exposure, not a
+mechanical step, and so is flagged rather than assumed.
