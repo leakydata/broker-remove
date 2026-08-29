@@ -2819,6 +2819,11 @@
     "changed": "2026-08-29",
     "via": "reply"
   },
+  "madison_logic": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
+  },
   "magnite": {
     "status": "submitted",
     "changed": "2026-08-18",
@@ -2834,6 +2839,11 @@
     "changed": "2026-08-16",
     "via": null
   },
+  "malvern_media": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
+  },
   "marinus_analytics": {
     "status": "submitted",
     "changed": "2026-08-19",
@@ -2844,9 +2854,24 @@
     "changed": "2026-08-19",
     "via": "email"
   },
+  "marketing_architects": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
+  },
   "marketops": {
     "status": "submitted",
     "changed": "2026-08-19",
+    "via": "email"
+  },
+  "marriott_international": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
+  },
+  "martin_data": {
+    "status": "submitted",
+    "changed": "2026-08-29",
     "via": "email"
   },
   "maryland_arrests": {
@@ -2878,6 +2903,11 @@
     "status": "manual_required",
     "changed": "2026-08-19",
     "via": "reply"
+  },
+  "maxmind": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
   },
   "mch": {
     "status": "manual_required",
