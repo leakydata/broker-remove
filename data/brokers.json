@@ -2551,7 +2551,7 @@
       "legal_name": null,
       "duplicate_of": "verinext",
       "notes": "Resolves to verinext.com, the same site as verinext. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the verinext thread rather than opening a second request.",
-      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (see _SILENT_FAILURES 170): filings lapsed, so the 163 domain check ran. anexinet.com redirects to verinext.com. The Anexinet name does not appear on the successor site, so ASK rather than assume. Route the request to the successor, or ask which entity holds the data now -- naming it is enough. Successor domain: verinext.com."
+      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (see _SILENT_FAILURES 170): filings lapsed, so the 163 domain check ran. anexinet.com redirects to verinext.com. The Anexinet name does not appear on the successor site, so ASK rather than assume. Route the request to the successor, or ask which entity holds the data now -- naming it is enough. Successor domain: verinext.com. || 2026-08-29 SECOND ADDRESS FOR A CONTACTED COMPANY (SILENT_FAILURES 177). duplicate_of=verinext, which is already submitted -- but at a DIFFERENT address (dpo@verinext.com); this row's is privacy@anexinet.com. Deliberately left PENDING: an acquired or renamed entity often keeps a legacy file the successor's privacy desk never sees, and the old address is the only route to it. Write to it as its own target, referencing the canonical, rather than treating it as a duplicate to be closed."
     },
     {
       "id": "ansonia_credit_data",
@@ -2675,7 +2675,7 @@
       "legal_name": null,
       "duplicate_of": "app_science",
       "notes": "Resolves to appscience.ai, the same site as app_science. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the app_science thread rather than opening a second request.",
-      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (see _SILENT_FAILURES 170): filings lapsed, so the 163 domain check ran. domain redirects to appscience.ai and the registrant name appears there. Route the request to the successor, or ask which entity holds the data now -- naming it is enough. Successor domain: appscience.ai."
+      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (see _SILENT_FAILURES 170): filings lapsed, so the 163 domain check ran. domain redirects to appscience.ai and the registrant name appears there. Route the request to the successor, or ask which entity holds the data now -- naming it is enough. Successor domain: appscience.ai. || 2026-08-29 SECOND ADDRESS FOR A CONTACTED COMPANY (SILENT_FAILURES 177). duplicate_of=app_science, which is already submitted -- but at a DIFFERENT address (privacy@appscience.inc); this row's is privacy@appsci.io. Deliberately left PENDING: an acquired or renamed entity often keeps a legacy file the successor's privacy desk never sees, and the old address is the only route to it. Write to it as its own target, referencing the canonical, rather than treating it as a duplicate to be closed."
     },
     {
       "id": "areacode_lookup",
@@ -2831,7 +2831,7 @@
       "legal_name": null,
       "duplicate_of": "deep_sync",
       "notes": "Resolves to deepsync.com, the same site as deep_sync. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the deep_sync thread rather than opening a second request.",
-      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (see _SILENT_FAILURES 170): filings lapsed and the website does not load, but the domain has LIVE MX -- a maintained mail tenant with no site, the nymblr/minerva shape rather than the Near danger case where a stranger owns the domain. Safe to email, and email is the only channel; say so in the letter so it is not mistaken for skipping a form, and ask them to name an acquirer if the data has moved."
+      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (see _SILENT_FAILURES 170): filings lapsed and the website does not load, but the domain has LIVE MX -- a maintained mail tenant with no site, the nymblr/minerva shape rather than the Near danger case where a stranger owns the domain. Safe to email, and email is the only channel; say so in the letter so it is not mistaken for skipping a form, and ask them to name an acquirer if the data has moved. || 2026-08-29 SECOND ADDRESS FOR A CONTACTED COMPANY (SILENT_FAILURES 177). duplicate_of=deep_sync, which is already submitted -- but at a DIFFERENT address (legal@deepsync.com); this row's is privacy.compliance@aslmarketing.com. Deliberately left PENDING: an acquired or renamed entity often keeps a legacy file the successor's privacy desk never sees, and the old address is the only route to it. Write to it as its own target, referencing the canonical, rather than treating it as a duplicate to be closed."
     },
     {
       "id": "aspire_north",
@@ -3429,7 +3429,8 @@
       "legal_name": null,
       "domain_source": "ca_registry_contact_email",
       "duplicate_of": "moneybot5000",
-      "notes": "Resolves to moneybot5000.com, the same site as moneybot5000. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the moneybot5000 thread rather than opening a second request."
+      "notes": "Resolves to moneybot5000.com, the same site as moneybot5000. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the moneybot5000 thread rather than opening a second request.",
+      "email_note": "|| 2026-08-29 SECOND ADDRESS FOR A CONTACTED COMPANY (SILENT_FAILURES 177). duplicate_of=moneybot5000, which is already manual_required -- but at a DIFFERENT address (support@moneybot5000.com); this row's is privacy@moneybot5000.com. Deliberately left PENDING: an acquired or renamed entity often keeps a legacy file the successor's privacy desk never sees, and the old address is the only route to it. Write to it as its own target, referencing the canonical, rather than treating it as a duplicate to be closed."
     },
     {
       "id": "beenverified_llc_and_its_subsidiaries_and_affiliates",
@@ -5046,7 +5047,7 @@
       "legal_name": null,
       "duplicate_of": "deep_sync",
       "notes": "Resolves to deepsync.com, the same site as deep_sync. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the deep_sync thread rather than opening a second request.",
-      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (see _SILENT_FAILURES 170): filings lapsed, so the 163 domain check ran. domain redirects to deepsync.com and the registrant name appears there. Route the request to the successor, or ask which entity holds the data now -- naming it is enough. Successor domain: deepsync.com."
+      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (see _SILENT_FAILURES 170): filings lapsed, so the 163 domain check ran. domain redirects to deepsync.com and the registrant name appears there. Route the request to the successor, or ask which entity holds the data now -- naming it is enough. Successor domain: deepsync.com. || 2026-08-29 SECOND ADDRESS FOR A CONTACTED COMPANY (SILENT_FAILURES 177). duplicate_of=deep_sync, which is already submitted -- but at a DIFFERENT address (legal@deepsync.com); this row's is privacy.compliance@compactlists.com. Deliberately left PENDING: an acquired or renamed entity often keeps a legacy file the successor's privacy desk never sees, and the old address is the only route to it. Write to it as its own target, referencing the canonical, rather than treating it as a duplicate to be closed."
     },
     {
       "id": "compile",
@@ -6203,7 +6204,8 @@
       ],
       "legal_name": null,
       "duplicate_of": "4eyes_ai_4_eyes_ai",
-      "notes": "Resolves to delivr.ai, the same site as 4eyes_ai_4_eyes_ai. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the 4eyes_ai_4_eyes_ai thread rather than opening a second request."
+      "notes": "Resolves to delivr.ai, the same site as 4eyes_ai_4_eyes_ai. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the 4eyes_ai_4_eyes_ai thread rather than opening a second request.",
+      "email_note": "|| 2026-08-29 SECOND ADDRESS FOR A CONTACTED COMPANY (SILENT_FAILURES 177). duplicate_of=4eyes_ai_4_eyes_ai, which is already unreachable -- but at a DIFFERENT address (privacy@4-eyes.ai); this row's is support@delivr.ai. Deliberately left PENDING: an acquired or renamed entity often keeps a legacy file the successor's privacy desk never sees, and the old address is the only route to it. Write to it as its own target, referencing the canonical, rather than treating it as a duplicate to be closed."
     },
     {
       "id": "deloitte_consulting",
@@ -7199,7 +7201,8 @@
       ],
       "legal_name": "ListsOnline.com, Inc.",
       "duplicate_of": "listsonline",
-      "notes": "Resolves to everleads.com, the same site as listsonline. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the listsonline thread rather than opening a second request."
+      "notes": "Resolves to everleads.com, the same site as listsonline. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the listsonline thread rather than opening a second request.",
+      "email_note": "|| 2026-08-29 SECOND ADDRESS FOR A CONTACTED COMPANY (SILENT_FAILURES 177). duplicate_of=listsonline, which is already submitted -- but at a DIFFERENT address (privacyofficer@listsonline.com); this row's is privacy@everleads.com. Deliberately left PENDING: an acquired or renamed entity often keeps a legacy file the successor's privacy desk never sees, and the old address is the only route to it. Write to it as its own target, referencing the canonical, rather than treating it as a duplicate to be closed."
     },
     {
       "id": "evertrue_donorsearch",
@@ -8736,7 +8739,8 @@
       "legal_name": "Healthcare Inc",
       "domain_source": "ca_registry_contact_email",
       "duplicate_of": "healthcare",
-      "notes": "Resolves to healthcare.com, the same site as healthcare. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the healthcare thread rather than opening a second request."
+      "notes": "Resolves to healthcare.com, the same site as healthcare. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the healthcare thread rather than opening a second request.",
+      "email_note": "|| 2026-08-29 SECOND ADDRESS FOR A CONTACTED COMPANY (SILENT_FAILURES 177). duplicate_of=healthcare, which is already submitted -- but at a DIFFERENT address (privacy@healthcare.com); this row's is security@healthcare.com. Deliberately left PENDING: an acquired or renamed entity often keeps a legacy file the successor's privacy desk never sees, and the old address is the only route to it. Write to it as its own target, referencing the canonical, rather than treating it as a duplicate to be closed."
     },
     {
       "id": "healthlink_dimensions",
@@ -8922,7 +8926,7 @@
       "legal_name": null,
       "duplicate_of": "deep_sync",
       "notes": "Resolves to deepsync.com, the same site as deep_sync. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the deep_sync thread rather than opening a second request.",
-      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (see _SILENT_FAILURES 170): filings lapsed and the website does not load, but the domain has LIVE MX -- a maintained mail tenant with no site, the nymblr/minerva shape rather than the Near danger case where a stranger owns the domain. Safe to email, and email is the only channel; say so in the letter so it is not mistaken for skipping a form, and ask them to name an acquirer if the data has moved."
+      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (see _SILENT_FAILURES 170): filings lapsed and the website does not load, but the domain has LIVE MX -- a maintained mail tenant with no site, the nymblr/minerva shape rather than the Near danger case where a stranger owns the domain. Safe to email, and email is the only channel; say so in the letter so it is not mistaken for skipping a form, and ask them to name an acquirer if the data has moved. || 2026-08-29 SECOND ADDRESS FOR A CONTACTED COMPANY (SILENT_FAILURES 177). duplicate_of=deep_sync, which is already submitted -- but at a DIFFERENT address (legal@deepsync.com); this row's is privacy.compliance@deepsync.com. Deliberately left PENDING: an acquired or renamed entity often keeps a legacy file the successor's privacy desk never sees, and the old address is the only route to it. Write to it as its own target, referencing the canonical, rather than treating it as a duplicate to be closed."
     },
     {
       "id": "homeowner_marketing_services",
@@ -8976,7 +8980,7 @@
       "legal_name": null,
       "duplicate_of": "atlas",
       "notes": "Resolves to huntclub.com, the same site as atlas. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the atlas thread rather than opening a second request.",
-      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (SILENT_FAILURES 170): filings have lapsed, so the 163 domain check ran and CLEARED this row -- the site is live and carries the registrant's own name, so the domain has not been re-registered by anyone else. Safe to send normally; no further domain check needed."
+      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (SILENT_FAILURES 170): filings have lapsed, so the 163 domain check ran and CLEARED this row -- the site is live and carries the registrant's own name, so the domain has not been re-registered by anyone else. Safe to send normally; no further domain check needed. || 2026-08-29 SECOND ADDRESS FOR A CONTACTED COMPANY (SILENT_FAILURES 177). duplicate_of=atlas, which is already submitted -- but at a DIFFERENT address (scott@huntclub.com); this row's is admin@huntclub.com. Deliberately left PENDING: an acquired or renamed entity often keeps a legacy file the successor's privacy desk never sees, and the old address is the only route to it. Write to it as its own target, referencing the canonical, rather than treating it as a duplicate to be closed."
     },
     {
       "id": "hybrid_theory",
@@ -9356,7 +9360,8 @@
       ],
       "legal_name": "PaeDae, Inc.",
       "duplicate_of": "mediamath",
-      "notes": "Resolves to infillion.com, the same site as mediamath. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the mediamath thread rather than opening a second request."
+      "notes": "Resolves to infillion.com, the same site as mediamath. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the mediamath thread rather than opening a second request.",
+      "email_note": "|| 2026-08-29 SECOND ADDRESS FOR A CONTACTED COMPANY (SILENT_FAILURES 177). duplicate_of=mediamath, which is already failed -- but at a DIFFERENT address (privacy@mediamath.com); this row's is privacy@infillion.com. Deliberately left PENDING: an acquired or renamed entity often keeps a legacy file the successor's privacy desk never sees, and the old address is the only route to it. Write to it as its own target, referencing the canonical, rather than treating it as a duplicate to be closed."
     },
     {
       "id": "infinite_media_concepts",
@@ -9734,7 +9739,8 @@
       "legal_name": "Intelius, LLC",
       "domain_source": "ca_registry_contact_email",
       "duplicate_of": "intelius",
-      "notes": "Resolves to intelius.com, the same site as intelius. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the intelius thread rather than opening a second request."
+      "notes": "Resolves to intelius.com, the same site as intelius. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the intelius thread rather than opening a second request.",
+      "email_note": "|| 2026-08-29 SECOND ADDRESS FOR A CONTACTED COMPANY (SILENT_FAILURES 177). duplicate_of=intelius, which is already confirmed -- but at a DIFFERENT address (support@mailer.intelius.com); this row's is legal@intelius.com. Deliberately left PENDING: an acquired or renamed entity often keeps a legacy file the successor's privacy desk never sees, and the old address is the only route to it. Write to it as its own target, referencing the canonical, rather than treating it as a duplicate to be closed."
     },
     {
       "id": "intent_iq",
@@ -10511,7 +10517,8 @@
       ],
       "legal_name": null,
       "duplicate_of": "l2_data",
-      "notes": "Resolves to l2-data.com, the same site as l2_data. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the l2_data thread rather than opening a second request."
+      "notes": "Resolves to l2-data.com, the same site as l2_data. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the l2_data thread rather than opening a second request.",
+      "email_note": "|| 2026-08-29 SECOND ADDRESS FOR A CONTACTED COMPANY (SILENT_FAILURES 177). duplicate_of=l2_data, which is already submitted -- but at a DIFFERENT address (lauren.pembo@l2political.com); this row's is info@l2political.com. Deliberately left PENDING: an acquired or renamed entity often keeps a legacy file the successor's privacy desk never sees, and the old address is the only route to it. Write to it as its own target, referencing the canonical, rather than treating it as a duplicate to be closed."
     },
     {
       "id": "l_s_mobile_apps",
@@ -11268,7 +11275,7 @@
       "legal_name": null,
       "duplicate_of": "cint",
       "notes": "Resolves to cint.com, the same site as cint. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the cint thread rather than opening a second request.",
-      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (see _SILENT_FAILURES 170): filings lapsed, so the 163 domain check ran. lucid's domain redirects to cint.com -- Lucid appears to have been absorbed into Cint. The Lucid name does not appear on the successor site, so ASK rather than assume. Route the request to the successor, or ask which entity holds the data now -- naming it is enough. Successor domain: cint.com."
+      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (see _SILENT_FAILURES 170): filings lapsed, so the 163 domain check ran. lucid's domain redirects to cint.com -- Lucid appears to have been absorbed into Cint. The Lucid name does not appear on the successor site, so ASK rather than assume. Route the request to the successor, or ask which entity holds the data now -- naming it is enough. Successor domain: cint.com. || 2026-08-29 SECOND ADDRESS FOR A CONTACTED COMPANY (SILENT_FAILURES 177). duplicate_of=cint, which is already submitted -- but at a DIFFERENT address (compliance@cint.com); this row's is compliance@luc.id. Deliberately left PENDING: an acquired or renamed entity often keeps a legacy file the successor's privacy desk never sees, and the old address is the only route to it. Write to it as its own target, referencing the canonical, rather than treating it as a duplicate to be closed."
     },
     {
       "id": "lusha_systems",
@@ -11289,7 +11296,7 @@
       "legal_name": null,
       "duplicate_of": "lusha",
       "notes": "Resolves to lusha.com, the same site as lusha. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the lusha thread rather than opening a second request.",
-      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (see _SILENT_FAILURES 170): filings lapsed and the website does not load, but the domain has LIVE MX -- a maintained mail tenant with no site, the nymblr/minerva shape rather than the Near danger case where a stranger owns the domain. Safe to email, and email is the only channel; say so in the letter so it is not mistaken for skipping a form, and ask them to name an acquirer if the data has moved."
+      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (see _SILENT_FAILURES 170): filings lapsed and the website does not load, but the domain has LIVE MX -- a maintained mail tenant with no site, the nymblr/minerva shape rather than the Near danger case where a stranger owns the domain. Safe to email, and email is the only channel; say so in the letter so it is not mistaken for skipping a form, and ask them to name an acquirer if the data has moved. || 2026-08-29 SECOND ADDRESS FOR A CONTACTED COMPANY (SILENT_FAILURES 177). duplicate_of=lusha, which is already submitted -- but at a DIFFERENT address (legal@lusha.com); this row's is privacy@lusha.co. Deliberately left PENDING: an acquired or renamed entity often keeps a legacy file the successor's privacy desk never sees, and the old address is the only route to it. Write to it as its own target, referencing the canonical, rather than treating it as a duplicate to be closed."
     },
     {
       "id": "m1_data",
@@ -11404,7 +11411,8 @@
       ],
       "legal_name": "Infinite Media Concepts, Inc.",
       "duplicate_of": "infinite_media_concepts",
-      "notes": "Resolves to mailinglists.com, the same site as infinite_media_concepts. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the infinite_media_concepts thread rather than opening a second request."
+      "notes": "Resolves to mailinglists.com, the same site as infinite_media_concepts. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the infinite_media_concepts thread rather than opening a second request.",
+      "email_note": "|| 2026-08-29 SECOND ADDRESS FOR A CONTACTED COMPANY (SILENT_FAILURES 177). duplicate_of=infinite_media_concepts, which is already submitted -- but at a DIFFERENT address (sheck@mlxp.com); this row's is unsubscribe@mailinglists.com. Deliberately left PENDING: an acquired or renamed entity often keeps a legacy file the successor's privacy desk never sees, and the old address is the only route to it. Write to it as its own target, referencing the canonical, rather than treating it as a duplicate to be closed."
     },
     {
       "id": "maine_arrests",
@@ -12330,7 +12338,8 @@
       ],
       "legal_name": "Ownco, LLC",
       "duplicate_of": "lender_feed_lc",
-      "notes": "Resolves to monitorbase.com, the same site as lender_feed_lc. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the lender_feed_lc thread rather than opening a second request."
+      "notes": "Resolves to monitorbase.com, the same site as lender_feed_lc. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the lender_feed_lc thread rather than opening a second request.",
+      "email_note": "|| 2026-08-29 SECOND ADDRESS FOR A CONTACTED COMPANY (SILENT_FAILURES 177). duplicate_of=lender_feed_lc, which is already submitted -- but at a DIFFERENT address (ccpa@monitorbase.com); this row's is privacy@monitorbase.com. Deliberately left PENDING: an acquired or renamed entity often keeps a legacy file the successor's privacy desk never sees, and the old address is the only route to it. Write to it as its own target, referencing the canonical, rather than treating it as a duplicate to be closed."
     },
     {
       "id": "monocl",
@@ -12438,7 +12447,8 @@
       "legal_name": "Apollo Interactive, LLC",
       "domain_source": "ca_registry_contact_email",
       "duplicate_of": "apollo_interactive",
-      "notes": "Resolves to apollointeractive.com, the same site as apollo_interactive. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the apollo_interactive thread rather than opening a second request."
+      "notes": "Resolves to apollointeractive.com, the same site as apollo_interactive. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the apollo_interactive thread rather than opening a second request.",
+      "email_note": "|| 2026-08-29 SECOND ADDRESS FOR A CONTACTED COMPANY (SILENT_FAILURES 177). duplicate_of=apollo_interactive, which is already submitted -- but at a DIFFERENT address (legal@apollointeractive.com); this row's is deatherage@apollointeractive.com. Deliberately left PENDING: an acquired or renamed entity often keeps a legacy file the successor's privacy desk never sees, and the old address is the only route to it. Write to it as its own target, referencing the canonical, rather than treating it as a duplicate to be closed."
     },
     {
       "id": "mr",
@@ -14664,7 +14674,7 @@
       "legal_name": null,
       "duplicate_of": "precisely",
       "notes": "Resolves to precisely.com, the same site as precisely. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the precisely thread rather than opening a second request.",
-      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (see _SILENT_FAILURES 170): filings lapsed, so the 163 domain check ran. domain redirects to precisely.com and the registrant name appears there. Route the request to the successor, or ask which entity holds the data now -- naming it is enough. Successor domain: precisely.com."
+      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (see _SILENT_FAILURES 170): filings lapsed, so the 163 domain check ran. domain redirects to precisely.com and the registrant name appears there. Route the request to the successor, or ask which entity holds the data now -- naming it is enough. Successor domain: precisely.com. || 2026-08-29 SECOND ADDRESS FOR A CONTACTED COMPANY (SILENT_FAILURES 177). duplicate_of=precisely, which is already submitted -- but at a DIFFERENT address (placeiq.privacy@precisely.com); this row's is privacy@placeiq.com. Deliberately left PENDING: an acquired or renamed entity often keeps a legacy file the successor's privacy desk never sees, and the old address is the only route to it. Write to it as its own target, referencing the canonical, rather than treating it as a duplicate to be closed."
     },
     {
       "id": "preferred_communications",
@@ -17233,7 +17243,7 @@
       "legal_name": null,
       "duplicate_of": "sourceit",
       "notes": "Resolves to sourceit.co, the same site as sourceit. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the sourceit thread rather than opening a second request.",
-      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (SILENT_FAILURES 170): filings have lapsed, so the 163 domain check ran and CLEARED this row -- the site is live and carries the registrant's own name, so the domain has not been re-registered by anyone else. Safe to send normally; no further domain check needed."
+      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (SILENT_FAILURES 170): filings have lapsed, so the 163 domain check ran and CLEARED this row -- the site is live and carries the registrant's own name, so the domain has not been re-registered by anyone else. Safe to send normally; no further domain check needed. || 2026-08-29 SECOND ADDRESS FOR A CONTACTED COMPANY (SILENT_FAILURES 177). duplicate_of=sourceit, which is already confirmed -- but at a DIFFERENT address (dataprivacy2026@sourceitmarketing.com); this row's is dataprivacy@sourceitmarketing.com. Deliberately left PENDING: an acquired or renamed entity often keeps a legacy file the successor's privacy desk never sees, and the old address is the only route to it. Write to it as its own target, referencing the canonical, rather than treating it as a duplicate to be closed."
     },
     {
       "id": "south_carolina_arrests",
@@ -17419,7 +17429,8 @@
       "legal_name": "Spokeo, Inc.",
       "domain_source": "ca_registry_contact_email",
       "duplicate_of": "spokeo",
-      "notes": "Resolves to spokeo.com, the same site as spokeo. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the spokeo thread rather than opening a second request."
+      "notes": "Resolves to spokeo.com, the same site as spokeo. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the spokeo thread rather than opening a second request.",
+      "email_note": "|| 2026-08-29 SECOND ADDRESS FOR A CONTACTED COMPANY (SILENT_FAILURES 177). duplicate_of=spokeo, which is already submitted -- but at a DIFFERENT address (legal@spokeo.com); this row's is jmatthes@spokeo.com. Deliberately left PENDING: an acquired or renamed entity often keeps a legacy file the successor's privacy desk never sees, and the old address is the only route to it. Write to it as its own target, referencing the canonical, rather than treating it as a duplicate to be closed."
     },
     {
       "id": "sports_innovation_lab",
@@ -18360,7 +18371,8 @@
       ],
       "legal_name": "Revenue Roll Inc.",
       "duplicate_of": "revenue_roll",
-      "notes": "Resolves to meettie.com, the same site as revenue_roll. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the revenue_roll thread rather than opening a second request."
+      "notes": "Resolves to meettie.com, the same site as revenue_roll. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the revenue_roll thread rather than opening a second request.",
+      "email_note": "|| 2026-08-29 SECOND ADDRESS FOR A CONTACTED COMPANY (SILENT_FAILURES 177). duplicate_of=revenue_roll, which is already submitted -- but at a DIFFERENT address (info@revenueroll.com); this row's is info@meettie.com. Deliberately left PENDING: an acquired or renamed entity often keeps a legacy file the successor's privacy desk never sees, and the old address is the only route to it. Write to it as its own target, referencing the canonical, rather than treating it as a duplicate to be closed."
     },
     {
       "id": "tl1",
@@ -18419,7 +18431,7 @@
       "legal_name": null,
       "duplicate_of": "atdata",
       "notes": "Resolves to atdata.com, the same site as atdata. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the atdata thread rather than opening a second request.",
-      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (see _SILENT_FAILURES 170): filings lapsed, so the 163 domain check ran. towerdata.com redirects to atdata.com -- TowerData now trades as AtData (Email Address Intelligence). The registrant name does not appear on the successor site, so ASK rather than assume. Route the request to the successor, or ask which entity holds the data now -- naming it is enough. Successor domain: atdata.com."
+      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (see _SILENT_FAILURES 170): filings lapsed, so the 163 domain check ran. towerdata.com redirects to atdata.com -- TowerData now trades as AtData (Email Address Intelligence). The registrant name does not appear on the successor site, so ASK rather than assume. Route the request to the successor, or ask which entity holds the data now -- naming it is enough. Successor domain: atdata.com. || 2026-08-29 SECOND ADDRESS FOR A CONTACTED COMPANY (SILENT_FAILURES 177). duplicate_of=atdata, which is already submitted -- but at a DIFFERENT address (privacy_support@atdata.com); this row's is privacy@towerdata.com. Deliberately left PENDING: an acquired or renamed entity often keeps a legacy file the successor's privacy desk never sees, and the old address is the only route to it. Write to it as its own target, referencing the canonical, rather than treating it as a duplicate to be closed."
     },
     {
       "id": "traackr",
@@ -18461,7 +18473,8 @@
       "legal_name": "Enformion, LLC",
       "domain_source": "ca_registry_contact_email",
       "duplicate_of": "enformion",
-      "notes": "Resolves to enformion.com, the same site as enformion. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the enformion thread rather than opening a second request."
+      "notes": "Resolves to enformion.com, the same site as enformion. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the enformion thread rather than opening a second request.",
+      "email_note": "|| 2026-08-29 SECOND ADDRESS FOR A CONTACTED COMPANY (SILENT_FAILURES 177). duplicate_of=enformion, which is already submitted -- but at a DIFFERENT address (compliance@enformion.com); this row's is support@enformion.com. Deliberately left PENDING: an acquired or renamed entity often keeps a legacy file the successor's privacy desk never sees, and the old address is the only route to it. Write to it as its own target, referencing the canonical, rather than treating it as a duplicate to be closed."
     },
     {
       "id": "trestle",
@@ -18746,7 +18759,8 @@
       ],
       "legal_name": "Unacast, Inc.",
       "duplicate_of": "gravy_analytics",
-      "notes": "Resolves to unacast.com, the same site as gravy_analytics. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the gravy_analytics thread rather than opening a second request."
+      "notes": "Resolves to unacast.com, the same site as gravy_analytics. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the gravy_analytics thread rather than opening a second request.",
+      "email_note": "|| 2026-08-29 SECOND ADDRESS FOR A CONTACTED COMPANY (SILENT_FAILURES 177). duplicate_of=gravy_analytics, which is already submitted -- but at a DIFFERENT address (privacy@gravyanalytics.com); this row's is privacy@unacast.com. Deliberately left PENDING: an acquired or renamed entity often keeps a legacy file the successor's privacy desk never sees, and the old address is the only route to it. Write to it as its own target, referencing the canonical, rather than treating it as a duplicate to be closed."
     },
     {
       "id": "unearth_campaigns",
@@ -19034,7 +19048,7 @@
       "legal_name": null,
       "duplicate_of": "pgm_solutions_porch_group_media",
       "notes": "Resolves to porchgroupmedia.com, the same site as pgm_solutions_porch_group_media. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the pgm_solutions_porch_group_media thread rather than opening a second request.",
-      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (see _SILENT_FAILURES 170): filings lapsed, so the 163 domain check ran. domain redirects to porchgroupmedia.com and the registrant name appears there. Route the request to the successor, or ask which entity holds the data now -- naming it is enough. Successor domain: porchgroupmedia.com."
+      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (see _SILENT_FAILURES 170): filings lapsed, so the 163 domain check ran. domain redirects to porchgroupmedia.com and the registrant name appears there. Route the request to the successor, or ask which entity holds the data now -- naming it is enough. Successor domain: porchgroupmedia.com. || 2026-08-29 SECOND ADDRESS FOR A CONTACTED COMPANY (SILENT_FAILURES 177). duplicate_of=pgm_solutions_porch_group_media, which is already submitted -- but at a DIFFERENT address (privacy@porchgroupmedia.com); this row's is v12privacy@v12data.com. Deliberately left PENDING: an acquired or renamed entity often keeps a legacy file the successor's privacy desk never sees, and the old address is the only route to it. Write to it as its own target, referencing the canonical, rather than treating it as a duplicate to be closed."
     },
     {
       "id": "valassis_communications",
@@ -19504,7 +19518,8 @@
       ],
       "legal_name": null,
       "duplicate_of": "driveniq",
-      "notes": "Resolves to visitiq.io, the same site as driveniq. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the driveniq thread rather than opening a second request."
+      "notes": "Resolves to visitiq.io, the same site as driveniq. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the driveniq thread rather than opening a second request.",
+      "email_note": "|| 2026-08-29 SECOND ADDRESS FOR A CONTACTED COMPANY (SILENT_FAILURES 177). duplicate_of=driveniq, which is already submitted -- but at a DIFFERENT address (support@driveniq.com); this row's is james.dunay@visitiq.io. Deliberately left PENDING: an acquired or renamed entity often keeps a legacy file the successor's privacy desk never sees, and the old address is the only route to it. Write to it as its own target, referencing the canonical, rather than treating it as a duplicate to be closed."
     },
     {
       "id": "vistar_media",
@@ -19892,7 +19907,7 @@
       "legal_name": null,
       "duplicate_of": "windfall",
       "notes": "Resolves to windfall.com, the same site as windfall. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the windfall thread rather than opening a second request.",
-      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (see _SILENT_FAILURES 170): filings lapsed, so the 163 domain check ran. domain redirects to windfall.com and the registrant name appears there. Route the request to the successor, or ask which entity holds the data now -- naming it is enough. Successor domain: windfall.com."
+      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (see _SILENT_FAILURES 170): filings lapsed, so the 163 domain check ran. domain redirects to windfall.com and the registrant name appears there. Route the request to the successor, or ask which entity holds the data now -- naming it is enough. Successor domain: windfall.com. || 2026-08-29 SECOND ADDRESS FOR A CONTACTED COMPANY (SILENT_FAILURES 177). duplicate_of=windfall, which is already submitted -- but at a DIFFERENT address (privacy@windfall.com); this row's is privacy@windfalldata.com. Deliberately left PENDING: an acquired or renamed entity often keeps a legacy file the successor's privacy desk never sees, and the old address is the only route to it. Write to it as its own target, referencing the canonical, rather than treating it as a duplicate to be closed."
     },
     {
       "id": "winr_data",
@@ -20261,7 +20276,8 @@
       ],
       "legal_name": "Ziff Davis LLC",
       "duplicate_of": "campaigner_smtp",
-      "notes": "Resolves to ziffdavis.com, the same site as campaigner_smtp. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the campaigner_smtp thread rather than opening a second request."
+      "notes": "Resolves to ziffdavis.com, the same site as campaigner_smtp. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the campaigner_smtp thread rather than opening a second request.",
+      "email_note": "|| 2026-08-29 SECOND ADDRESS FOR A CONTACTED COMPANY (SILENT_FAILURES 177). duplicate_of=campaigner_smtp, which is already submitted -- but at a DIFFERENT address (privacy@ziffdavis.com); this row's is legal@ziffdavis.com. Deliberately left PENDING: an acquired or renamed entity often keeps a legacy file the successor's privacy desk never sees, and the old address is the only route to it. Write to it as its own target, referencing the canonical, rather than treating it as a duplicate to be closed."
     },
     {
       "id": "zipstorm",
@@ -20842,7 +20858,7 @@
       "email_verified_by": "offdomain_needs_confirmation",
       "notes": "support@experience.com is not on buyersroad.co -- the site publishes no address on the broker's own domain. Either an acquisition (route is correct) or a wrong domain in the registry (route is a stranger). Confirm the corporate relationship before sending: the letter carries a full identifier set. Resolves to experience.com, the same site as experience. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the experience thread rather than opening a second request.",
       "duplicate_of": "experience",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here."
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here. || 2026-08-29 SECOND ADDRESS FOR A CONTACTED COMPANY (SILENT_FAILURES 177). duplicate_of=experience, which is already confirmed -- but at a DIFFERENT address (privacy@experience.com); this row's is support@experience.com. Deliberately left PENDING: an acquired or renamed entity often keeps a legacy file the successor's privacy desk never sees, and the old address is the only route to it. Write to it as its own target, referencing the canonical, rather than treating it as a duplicate to be closed."
     },
     {
       "id": "buzzfile_media",
@@ -23563,7 +23579,7 @@
       "email_verified_by": "privacy_policy",
       "duplicate_of": "propertychecker",
       "notes": "Resolves to propertychecker.com, the same site as propertychecker. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the propertychecker thread rather than opening a second request.",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here."
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here. || 2026-08-29 SECOND ADDRESS FOR A CONTACTED COMPANY (SILENT_FAILURES 177). duplicate_of=propertychecker, which is already submitted -- but at a DIFFERENT address (privacy@propertychecker.com); this row's is support@propertychecker.com. Deliberately left PENDING: an acquired or renamed entity often keeps a legacy file the successor's privacy desk never sees, and the old address is the only route to it. Write to it as its own target, referencing the canonical, rather than treating it as a duplicate to be closed."
     },
     {
       "id": "propertyshark",

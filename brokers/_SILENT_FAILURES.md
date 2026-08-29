@@ -11049,3 +11049,68 @@ ends still serve it. Nothing bounces, nothing refuses, and the confirmation is
 honest. §138 asks what only this request could have produced; here the better
 question is *what layer did this request reach*, and the answer had been "the wrong
 one" five times over without a single sign of trouble.
+
+## §177 — fifty-six letters queued to mailboxes that already had the request
+
+The §176 fingerprint scan turned up a dozen duplicate registry rows as a side
+effect. Checking whether the registry already knew about duplicates in general
+produced a much larger number than the scan did.
+
+**83 rows carry a `duplicate_of` link. 56 of them were still sitting at `pending`
+while their canonical was already settled.** About a tenth of the entire pending
+queue. Every one was a letter waiting to be sent to a company that had already
+received one.
+
+The registry knew. The status tracker did not. Nothing connected them, so the
+information sat in one file being contradicted by another, and neither file was
+wrong on its own terms.
+
+**The split that matters.** `duplicate_of` does not mean one thing, and treating all
+56 the same way would have been the second mistake:
+
+  - **25 rows carry the identical `email_to` as their canonical.** One letter
+    physically reached that mailbox. `alliant_cooperative_data_solutions` and
+    `alliant` both point at `compliance@alliantdata.com`; `truth_now` and
+    `checksecrets` both at `support@checksecrets.com`. Sending again puts a second
+    copy of the same request in front of the same person. These are now marked
+    covered, with a note recording *why* rather than just *that*.
+
+  - **31 rows point somewhere different**, and those were deliberately left pending.
+    `towerdata` → `atdata` is settled at `privacy_support@atdata.com`, but the
+    `towerdata` row holds `privacy@towerdata.com`. `lucid` → `cint` the same way,
+    and `v12_privacy`, `precisely_software_placeiq`, `unacast`, `anexinet`. **An
+    acquired or renamed entity often keeps a legacy file the successor's privacy
+    desk never sees, and the old address is the only route to it.** Closing those as
+    duplicates would quietly discard the more valuable target of the pair. They are
+    stamped as second addresses for a contacted company, to be written to on their
+    own merits.
+
+**On what status a covered row should get.** Not `confirmed` — no confirmation was
+received for that row, and claiming one would corrupt the only number in the project
+that means anything. `submitted` is honest: a letter really did go to that address,
+naming me, and whether the company files it under one brand or the other is internal
+to them. Where the canonical was `manual_required` or `captcha_blocked`, the
+duplicate inherits that instead, because the same obstacle sits at the same address.
+
+Where the canonical was `not_found` — the stirista pair — I inherited **nothing** and
+left the row pending. §161a is the reason: `not_found` is terminal, it settles a
+broker forever, and propagating a terminal nil result to a row that never received
+one is exactly the kind of tidy bookkeeping that ends an enquiry by accident.
+
+**The guard.** Added to `validate.py`: a pending row whose `duplicate_of` is already
+submitted or confirmed *at the identical address* now raises a warning. Verified by
+simulation — flipped `seamless` back to pending and watched it fire, then restored
+the file. The check deliberately says nothing when the two addresses differ, because
+that case is not a duplicate at all.
+
+**Why this is a silent failure and not just untidiness.** Nothing here would ever
+have surfaced as an error. The duplicate letters would have sent successfully, been
+received, and probably been answered — politely, by a privacy team wondering why
+this person was asking twice. The cost is not a bounce; it is credibility, the send
+cap spent twice on one company, and a pending count inflated by ten percent that
+made the remaining work look larger and less finished than it was.
+
+The recurring shape, now three sections running: **the failure is not that a request
+fails, it is that a request lands somewhere adjacent to where it needed to land.**
+§171 the record recomputed after deletion, §176 the sibling site still serving it,
+§177 the second letter to a mailbox that already had the first.

@@ -55,6 +55,24 @@ DEAD_ADDRS = _dead_addresses()
 def main():
     data = json.loads(CURATED.read_text())
     brokers = data["brokers"]
+    by_id = {b["id"]: b for b in brokers if b.get("id")}
+
+    # Status lives in a gitignored state file, so it is loaded defensively: a
+    # missing or malformed file must not turn every check below into a crash.
+    _state_raw = {}
+    _sp = state_file("removal_status.json")
+    if _sp.exists():
+        try:
+            _s = json.loads(_sp.read_text())
+            _state_raw = _s.get("brokers", _s)
+        except Exception:
+            _state_raw = {}
+
+    def _status(bid):
+        rec = _state_raw.get(bid)
+        if isinstance(rec, dict):
+            return rec.get("status") or "pending"
+        return rec or "pending"
 
     seen_ids, seen_domains = {}, {}
     for i, b in enumerate(brokers):
@@ -184,6 +202,27 @@ def main():
                         f"{where}: email_to '{to}' is a known-dead address ({when}), "
                         f"correctly flagged. queue_batch holds it; retained for the "
                         f"record.")
+
+            # A duplicate_of row that is still pending while its canonical is
+            # settled AT THE SAME ADDRESS is a queued second letter to a mailbox
+            # that already has the request. 56 of these had accumulated silently
+            # by 2026-08-29 -- about a tenth of the pending count. See
+            # _SILENT_FAILURES 177. Where the two addresses DIFFER this is not a
+            # duplicate at all but a second route into an acquired entity, and
+            # that is left alone deliberately.
+            canon = b.get("duplicate_of")
+            if canon and canon in by_id:
+                other = by_id[canon]
+                a1 = (b.get("email_to") or "").lower().strip()
+                a2 = (other.get("email_to") or "").lower().strip()
+                if a1 and a1 == a2 and _status(b["id"]) == "pending" \
+                        and _status(canon) in ("submitted", "confirmed"):
+                    warnings.append(
+                        f"{where}: pending, but duplicate_of '{canon}' is already "
+                        f"{_status(canon)} at the identical address {a1}. Sending "
+                        f"would put a second letter in a mailbox that has the "
+                        f"request. Mark it covered, or drop the duplicate_of link "
+                        f"if these are genuinely different companies.")
 
             if b.get("email_verified") and not b.get("email_verified_by"):
                 warnings.append(
