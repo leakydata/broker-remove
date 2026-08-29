@@ -9801,3 +9801,82 @@ looked for this person's data before saying they held none.
 
 Related: §138, §161, and §152 — where an enumeration of duplicate acknowledgements
 also turned out to say more about the sender's automation than about the request.
+
+---
+
+## §162
+
+**The privacy address on their own live policy does not exist.**
+*Multimedia Lists — 29 Aug 2026*
+
+§149 established that a register-published contact is verified by a send, not by a
+source. §160 found a register address that had simply died. This is the next step
+down, and it is worse.
+
+Multimedia Lists' current privacy policy names a designated privacy contact:
+
+> *Privacy Officer, Multimedia Lists, Inc., 46 Park Avenue, Asheville, NC 28801*
+> *Compliance@Multimedialists.com*
+
+The mailbox does not exist. The letter bounced in three seconds: *"the address
+couldn't be found, or is unable to receive mail."* The domain is fine — Microsoft
+365 answers on MX — so this is one missing mailbox, not a mail failure.
+
+### Why this is a different failure from the register ones
+
+A state register is a filing. Filings go stale between periods, contacts leave, and
+nobody re-checks. That is bad but it is at least explicable.
+
+**This is the company's own current website, describing its own rights channel,
+today.** A consumer who does exactly what the policy instructs sends a request
+nobody receives and gets back a bounce that reads like a technical hiccup rather
+than a broken statutory route. A reasonable person would try once, get a
+mailer-daemon message, and conclude they had mistyped it or that the company was
+stonewalling. Neither is true, and there is nothing in the bounce to suggest the
+third possibility.
+
+The tooling confirms how invisible this is from the outside.
+`discover_contacts.py` — patched the same evening to read harder, and with its
+honest-failure doctrine intact — probed this domain and returned exactly one
+result: `compliance@multimedialists.com`, found on `/privacy-policy`, correctly. It
+did its job perfectly and produced a dead address, **because reading a page cannot
+tell you whether a mailbox behind it accepts mail.** Discovery and deliverability
+are separate problems, and only the second one can be settled by sending.
+
+### What was done instead of giving up
+
+Three routes survive: a PrivacyPillar DSAR form linked from the policy as *"Do Not
+Sell My Information"*, a toll-free number, and `sales@` — the only other published
+mailbox.
+
+The re-send went to the sales desk, and **leads with the defect rather than the
+request**:
+
+> *"I am writing to the sales address only because the privacy one does not work,
+> and I would guess you would rather know that than not ... I have no interest in
+> making anything of this. I am telling you because it is cheap to fix and expensive
+> to leave."*
+
+That framing is the point of this entry as an operational note. A consumer request
+arriving cold at a sales inbox gets forwarded or ignored. A message that opens by
+telling a company something *useful about itself* gets read by a human, and the
+request rides along behind it. It is also simply true and worth saying.
+
+### And credit where it is due, because the same policy gets something right
+
+> *"The 'opt-out' action effectively removes all information from our files, and
+> places your information on a 'suppression' list. We will only retain enough to
+> ensure your information is not reintroduced."*
+
+That is the correct resolution of the deletion-versus-suppression problem this
+project has spent months arguing for — retain the minimum needed to keep the door
+shut — stated plainly by the company, unprompted, in a policy nobody made them
+write that way. The reply quotes it back approvingly, because it is what is being
+asked for and because a letter that only criticises is a letter that gets filed.
+
+**The lesson generalises past this company:** a published contact is a claim about
+where to write, not evidence that anyone is there. The only thing that verifies a
+rights channel is a message that arrives — which means the bounce is not a wasted
+send, it is the test result.
+
+Related: §149, §156, §160.

@@ -1367,3 +1367,30 @@ Both entries also carry a stale first address: `dataprivacy@listmatch.com` and
 `dataprivacy@sourceitmarketing.com` both 550, and the working pair are the
 year-suffixed ones — so the operator rotates the address annually and the registry
 filing lags. Asked which other entities they manage; unanswered so far.
+
+## PrivacyPillar (compliance vendor, small tenant set)
+
+A DSAR-portal vendor in the same class as OneTrust, DataGrail, Ketch, Transcend,
+Osano and Securiti, but far smaller. Forms are served from
+`privacyportal.privacypillar.com/dsar/form` with three query parameters that
+identify the tenant: `orgid`, `propid`, `formid`.
+
+Three tenants appear across the California registry files and this repo:
+
+| broker | how it surfaced |
+|---|---|
+| `multimedia_lists` | linked from their privacy policy as "Do Not Sell My Information"; found after their published privacy mailbox bounced (§162) |
+| `malvern_media` | the form URL is in their own 2024 registry filing — it was not known when the letter went out on 28 Aug 2026 |
+| `ventiveiq` | form URL in the 2024 registry filing |
+
+Worth treating as a family for the usual reason: **one flow learned is three
+brokers unlocked.** Whatever the Multimedia Lists submission turns out to require —
+whether a CAPTCHA appears, whether it verifies by email, whether it accepts a
+free-text box large enough for the full identifier set — applies to the other two.
+The handoff note for `multimedia_lists` asks specifically for the CAPTCHA answer to
+be recorded for that reason.
+
+Unlike the household-name platforms, PrivacyPillar has no published tenant
+directory to enumerate from, so the only way to find more tenants is the way these
+three were found: the URL appearing in a registry filing or a privacy policy. Grep
+the registry CSVs for `privacypillar` when new filings are imported.

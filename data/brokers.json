@@ -11426,7 +11426,7 @@
       "domain": "malvernmedia.com",
       "priority": 2,
       "method": "email",
-      "optout_url": "",
+      "optout_url": "https://privacyportal.privacypillar.com/dsar/form?orgid=369c8ff9-8ffb-4308-8362-f01691e77db8&propid=64c8904f-8bac-4dd9-8e6c-d052be1918a2&formid=6e6ff4b8-2296-4589-ae7f-563fa743ec2d&status=publish",
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
@@ -11439,7 +11439,8 @@
         "2025",
         "2026"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "email_note": "|| 2026-08-29: their CA registry filing carries a PrivacyPillar DSAR form URL (now in optout_url) that was not known when the letter went out on 2026-08-28. If the emailed request is ignored, that form is the designated route. Same vendor as multimedia_lists and ventiveiq -- see _FAMILIES."
     },
     {
       "id": "marinus_analytics",
@@ -12473,7 +12474,7 @@
       "domain": "multimedialists.com",
       "priority": 2,
       "method": "email",
-      "optout_url": "",
+      "optout_url": "https://privacyportal.privacypillar.com/dsar/form?orgid=3b24c635-e1a9-4e8c-8e61-9f5fa0024f9c&propid=d3da91fd-2750-4534-9436-f29b3e513fe5&formid=4106bc86-1ddf-461b-b7f6-a5f53b0977b3&status=publish",
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
@@ -12486,7 +12487,8 @@
         "2025",
         "2026"
       ],
-      "legal_name": "MULTIMEDIA LISTS, INC."
+      "legal_name": "MULTIMEDIA LISTS, INC.",
+      "email_note": "compliance@multimedialists.com HARD BOUNCES (2026-08-29) although it is published on their own live privacy policy as the designated privacy contact, with a postal address at 46 Park Avenue, Asheville NC 28801. Domain is live on M365; the mailbox is not. Do not re-adopt it. Routes that remain: the PrivacyPillar DSAR form linked from the policy as 'Do Not Sell My Information' (now in optout_url), toll-free 1-800-239-5478, and sales@multimedialists.com, which is the only other published mailbox. Their policy is unusually good on the deletion-vs-suppression point -- 'The opt-out action effectively removes all information from our files, and places your information on a suppression list. We will only retain enough to ensure your information is not reintroduced' -- which is the correct resolution stated by the company itself."
     },
     {
       "id": "my_renter_checker",
