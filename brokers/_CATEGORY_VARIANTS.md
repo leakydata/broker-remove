@@ -2836,3 +2836,58 @@ form by post — the permanent route being the stronger.
 And a caution that belongs with it: a site asking for an SSN is exactly the shape a
 lookalike phishing domain imitates. The URL should be verified independently before
 anything is typed into it.
+
+## Voter files and political data
+
+The category where the broker has the strongest legal answer available, which is
+exactly why the letter has to be built differently.
+
+Voter registration is a public record in every state. The CCPA expressly excludes
+publicly available information from the definition of personal information, and
+comparable statutes do the same. A standard deletion demand walks straight into that,
+gets a correct and complete refusal, and settles the broker as answered.
+
+**So concede it first, explicitly, and say you are conceding it.** The letter to L2
+states up front that the requester is a Pennsylvania voter, that party enrollment and
+turnout are public records held by the Commonwealth, that no deletion is being sought
+for that portion, and that nothing is being asked which touches the actual voter
+registration — which belongs to the state, is not the broker's to alter, and the
+requester would not want altered. It then asks them not to answer by explaining that
+voter data is public.
+
+That concession is not politeness. It removes the only easy answer and makes the rest
+of the letter unavoidable.
+
+**The request is for the manufactured half.** A commercial voter file is the state
+roll plus a large volume of appended and modeled attributes, and those are not public
+records — they did not exist until somebody computed them:
+
+  - **Modeled race, ethnicity, religion, national origin, ideology.** Pennsylvania
+    collects none of these at registration, so any such value is *necessarily* an
+    inference — commonly from surname, census-block composition, or a commercial
+    append. These are sensitive-PI categories: exercise limit-use (§1798.121)
+    separately from deletion, because they are different rights and one survives
+    where the other does not.
+  - **Scores** — partisanship, support, turnout propensity, persuadability,
+    issue-position models. Ask what they say and what inputs produced them.
+  - **Joined commercial data** — income, property, purchase, donor, lifestyle
+    appends, with the supplier named where possible.
+  - **Suppression against re-derivation**, which matters more here than deletion: a
+    modeled score removed today is simply recomputed at the next build unless
+    something marks the person excluded.
+
+**The single most useful thing to ask for** is a field list with each attribute marked
+*public-record-derived* or *modeled*. That one split answers most of the rest, and a
+company that maintains the file can produce it far more easily than it can answer six
+separate questions.
+
+**Match discipline is unusually important.** Former addresses have current residents
+who are themselves registered voters, and a voter file is precisely the record where
+acting against the wrong person at an old address does real harm. Ask for full
+identifier matching with date of birth as discriminator, and say plainly that "no
+match found" is preferable to a mistaken edit.
+
+The closing argument, which generalises to any broker built on public records —
+property, court, licence, marriage data: **the public record is the raw material; the
+file being sold is a manufactured product built on top of it, and the fact that the
+foundation is public does not make the building public.**
