@@ -31,6 +31,15 @@ Four verdicts, needing four different responses:
     PLACEHOLDER / NO-MX     stop. A parked or for-sale domain. smacomm.com was found
                             listed on HugeDomains this way
 
+KNOWN LIMITATION, found the morning after the first run: this classifies the registry
+`domain` field, but a letter is sent to the `email_to` domain, and those are not
+always the same host. response_solutions came back SITE-DEAD / NO-MX -- correctly,
+for `responsesoulutionsllc.com`, which is a typo domain that has never resolved --
+while its contact `michael@alescodata.com` sits on a live Microsoft 365 tenant at a
+substantial working company. The verdict was accurate about a host nobody was going
+to write to. Where the two domains differ, check the one you are actually sending to;
+the output now prints both so the difference is visible rather than assumed.
+
 Deliberately read-only: it prints, and changes nothing. The judgement about what a
 redirect means belongs to whoever writes the letter, and a script that auto-adopted a
 successor address would be making exactly the assumption 163 exists to prevent.

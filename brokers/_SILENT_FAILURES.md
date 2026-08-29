@@ -10696,3 +10696,94 @@ those rows have no filing history to lapse, so the question is not "did this com
 stop filing" but "was this ever a real route."
 
 Related: §157, §163, §163a, §165a.
+
+## §171 — the record that is not stored but computed
+
+Every letter in this project up to now has assumed the same physical thing on the
+other end: a row, in a file, that can be found and removed. "Delete my record"
+presupposes a record sitting still.
+
+Revenue Roll Inc., now trading as Tie, sells something else. Its own navigation
+lists the products in sequence, and the sequence is the whole story:
+
+    Website Visitor Identification  ->  Customer Identity Resolution
+    under the heading:                  Grow Email Lists
+    supported by:                       Primary Inbox Placement
+                                        Protect Email Deliverability
+
+Read forward: a person browses a merchant's store without signing in or giving an
+address. The service resolves that anonymous session to a named individual with a
+deliverable email. The merchant's list grows by one. Then the deliverability
+products work to ensure the message that person never asked for lands in the
+primary inbox rather than the spam folder.
+
+The privacy consequence is structural, not rhetorical. **If the identification is
+computed on demand from a graph, deleting the output row accomplishes nothing** --
+the same match is recomputed the next time I visit any customer of theirs. The
+deletion is real and it is also empty. It removes yesterday's answer while leaving
+intact everything needed to produce it again tomorrow.
+
+So the letter asks for the suppression as the substantive request and the deletion
+as the lesser one, and asks the mechanism question directly: pixel, hashed-email
+match, IP/device graph, cookie sync, or a licensed supplier's graph? That answer
+determines whether anything they do for me survives the week.
+
+And it asks them to say so if the honest answer is no. Verbatim: *"I would rather
+record an honest 'we can delete but we cannot prevent recreation' than a
+confirmation that means less than it appears to."*
+
+**The general test, for the rest of the queue:** before accepting a deletion
+confirmation, ask whether the company *stores* the fact about me or *derives* it.
+A derived fact has no row to delete, and a confirmation about it is true and
+worthless at the same time. This is §138 corroboration pointed at a new target:
+not "what could only this request have produced" but "what could survive this
+request being honoured."
+
+Also noted for the record: their published timeline is 60 days extendable by 30.
+The 90-day outer bound is right; the 60-day first step is longer than the 45 the
+California statute allows. Flagged to them as a drafting point, not a complaint --
+a published 60 sets their own team a deadline the law does not give them.
+
+## §172 — the consent-first broker, and the button a non-member cannot press
+
+Reklaim is the most sympathetic company on the register I have written to. The
+pitch is *take back control of your data and earn rewards for sharing it on your
+terms* -- a model that starts from the person rather than from the file, and one
+that deserves to be said out loud in a document that is otherwise a catalogue of
+evasions.
+
+It is also on the California data broker register. A company registers there
+because it sells personal information about consumers **with whom it has no direct
+relationship**. Those two facts sit at right angles to each other, and the gap
+between them is the entire letter:
+
+> I have never installed the app, never registered, never answered a survey, never
+> accepted terms, never been paid, and never consented to anything. So: do you hold
+> any data about me? And if you do, since it cannot have come from my consent,
+> where did it come from?
+
+That is a question a consent-based business is uniquely obliged to be able to
+answer and uniquely awkward to answer. It is not a gotcha. A consent-first company
+can perfectly well have *acquired* a file that was never consent-based -- which is
+why the letter asks that as its own numbered question rather than leaving it as an
+implication.
+
+**The reusable finding is the removal path.** The footer offers "Do Not Sell" and
+"Delete Account". Both render only under JavaScript, so neither could be read; but
+the second name alone gives it away. *The deletion route is account-shaped, and a
+non-member has no account to delete.*
+
+This is not malice, and the note to them says so. A company built around members
+naturally builds a members' privacy flow. But the register listing says the data
+reaches past the membership, and so **the people most in need of the button are
+precisely the ones who cannot press it -- they have nothing to log in with.**
+
+That is a new class, and it is going to recur: any company whose consumer-facing
+product is an account will tend to build only the logged-in removal path, while
+its brokered file covers people who never had one. Watch for a privacy page whose
+only verbs are *delete your account*, *manage your preferences*, *log in to*.
+
+The standing refusal applies here with extra force, and the letter states it:
+**I will not create an account in order to be deleted from a file I never joined.**
+That trades a new relationship for the removal of an old one, and it is the wrong
+direction.

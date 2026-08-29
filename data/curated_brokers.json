@@ -10403,7 +10403,8 @@
       "registry_years": [
         "2020-2023",
         "2024"
-      ]
+      ],
+      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (SILENT_FAILURES 170): filings have lapsed, so the 163 domain check ran and CLEARED this row -- the site is live and carries the registrant's own name, so the domain has not been re-registered by anyone else. Safe to send normally; no further domain check needed."
     },
     {
       "id": "finalscout",
@@ -10614,7 +10615,8 @@
       "email_alt": "privacy@pharosiq.com",
       "registry_years": [
         "2020-2023"
-      ]
+      ],
+      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (SILENT_FAILURES 170): filings have lapsed, so the 163 domain check ran and CLEARED this row -- the site is live and carries the registrant's own name, so the domain has not been re-registered by anyone else. Safe to send normally; no further domain check needed."
     },
     {
       "id": "lawlink",
@@ -15572,7 +15574,8 @@
       ],
       "legal_name": null,
       "duplicate_of": "atlas",
-      "notes": "Resolves to huntclub.com, the same site as atlas. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the atlas thread rather than opening a second request."
+      "notes": "Resolves to huntclub.com, the same site as atlas. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the atlas thread rather than opening a second request.",
+      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (SILENT_FAILURES 170): filings have lapsed, so the 163 domain check ran and CLEARED this row -- the site is live and carries the registrant's own name, so the domain has not been re-registered by anyone else. Safe to send normally; no further domain check needed."
     },
     {
       "id": "hybrid_theory",
@@ -18196,7 +18199,8 @@
       "registry_years": [
         "2020-2023"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (SILENT_FAILURES 170): filings have lapsed, so the 163 domain check ran and CLEARED this row -- the site is live and carries the registrant's own name, so the domain has not been re-registered by anyone else. Safe to send normally; no further domain check needed."
     },
     {
       "id": "paynet",
@@ -18486,7 +18490,8 @@
       "registry_years": [
         "2020-2023"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (SILENT_FAILURES 170): filings have lapsed, so the 163 domain check ran and CLEARED this row -- the site is live and carries the registrant's own name, so the domain has not been re-registered by anyone else. Safe to send normally; no further domain check needed."
     },
     {
       "id": "private_reports_mugshot_look_public_searcher",
@@ -18891,7 +18896,8 @@
       "registry_years": [
         "2024"
       ],
-      "legal_name": "GeoDataScience Inc."
+      "legal_name": "GeoDataScience Inc.",
+      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (SILENT_FAILURES 170): filings have lapsed, so the 163 domain check ran and CLEARED this row -- the site is live and carries the registrant's own name, so the domain has not been re-registered by anyone else. Safe to send normally; no further domain check needed."
     },
     {
       "id": "reklaim",
@@ -18911,7 +18917,8 @@
         "2025",
         "2026"
       ],
-      "legal_name": "Reklaim Ltd."
+      "legal_name": "Reklaim Ltd.",
+      "email_note": "|| 2026-08-29: site moved from reklaimyours.com to reklaimyou.com (singular). Register address privacy@reklaimyours.com still has MX; the current policy publishes privacy@reklaimyou.com. Wrote to both. Removal paths on the footer are 'Do Not Sell' and 'Delete Account' -- both JS-only and both account-shaped, which a non-member cannot use."
     },
     {
       "id": "relpro",
@@ -19004,7 +19011,8 @@
       "registry_years": [
         "2020-2023"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "email_note": "|| 2026-08-29: the lapsed-cohort scan reported SITE-DEAD / NO-MX, and that verdict was about the WRONG HOST -- it checked the registry domain responsesoulutionsllc.com, which is a typo ('soulutions') and has never resolved. The contact michael@alescodata.com is on a LIVE Microsoft 365 tenant at Alesco Data, a working compiler whose own site advertises automotive, business, consumer, CPG, demographic, DONOR, education, FINANCIAL, HEALTHCARE, intent, insurance, licensed-professional, LIFE EVENT, media and mortgage data. So the route is live and the letter should be addressed to the Alesco relationship as well as to Response Solutions Group LLC. See the KNOWN LIMITATION note in scripts/lapsed_scan.py."
     },
     {
       "id": "retention_com_rb2b",
@@ -19102,7 +19110,8 @@
       "registry_years": [
         "2025"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "email_note": "|| 2026-08-29: rebranded to Tie -- revenueroll.com 301s to meettie.com and the policy names 'Revenue Roll Inc DBA Tie', 537 NE 64th St, Miami FL. Same legal entity, so NOT a 163 succession; the register row stands. Contact info@meettie.com; the old info@revenueroll.com still has Google MX."
     },
     {
       "id": "revoptimal",
@@ -19804,7 +19813,8 @@
       ],
       "legal_name": null,
       "duplicate_of": "sourceit",
-      "notes": "Resolves to sourceit.co, the same site as sourceit. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the sourceit thread rather than opening a second request."
+      "notes": "Resolves to sourceit.co, the same site as sourceit. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the sourceit thread rather than opening a second request.",
+      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (SILENT_FAILURES 170): filings have lapsed, so the 163 domain check ran and CLEARED this row -- the site is live and carries the registrant's own name, so the domain has not been re-registered by anyone else. Safe to send normally; no further domain check needed."
     },
     {
       "id": "source_path_digital",
@@ -19865,7 +19875,8 @@
       ],
       "legal_name": "SPECTRUM MAILING LISTS",
       "duplicate_of": "spectrum_mailing_lists",
-      "notes": "Resolves to spectrummailinglists.com, the same site as spectrum_mailing_lists. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the spectrum_mailing_lists thread rather than opening a second request."
+      "notes": "Resolves to spectrummailinglists.com, the same site as spectrum_mailing_lists. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the spectrum_mailing_lists thread rather than opening a second request.",
+      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (SILENT_FAILURES 170): filings have lapsed, so the 163 domain check ran and CLEARED this row -- the site is live and carries the registrant's own name, so the domain has not been re-registered by anyone else. Safe to send normally; no further domain check needed."
     },
     {
       "id": "s_p_global",
@@ -20041,7 +20052,8 @@
       "registry_years": [
         "2020-2023"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (SILENT_FAILURES 170): filings have lapsed, so the 163 domain check ran and CLEARED this row -- the site is live and carries the registrant's own name, so the domain has not been re-registered by anyone else. Safe to send normally; no further domain check needed."
     },
     {
       "id": "statsocial",
@@ -20729,7 +20741,8 @@
       "registry_years": [
         "2024"
       ],
-      "legal_name": "Martin Data LLC"
+      "legal_name": "Martin Data LLC",
+      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (SILENT_FAILURES 170): filings have lapsed, so the 163 domain check ran and CLEARED this row -- the site is live and carries the registrant's own name, so the domain has not been re-registered by anyone else. Safe to send normally; no further domain check needed."
     },
     {
       "id": "v12_privacy",
@@ -20867,7 +20880,8 @@
       "registry_years": [
         "2024"
       ],
-      "legal_name": "Valassis Communications, Inc."
+      "legal_name": "Valassis Communications, Inc.",
+      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (SILENT_FAILURES 170): filings have lapsed, so the 163 domain check ran and CLEARED this row -- the site is live and carries the registrant's own name, so the domain has not been re-registered by anyone else. Safe to send normally; no further domain check needed."
     },
     {
       "id": "versium_analytics",
@@ -21276,7 +21290,8 @@
       "registry_years": [
         "2024"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (SILENT_FAILURES 170): filings have lapsed, so the 163 domain check ran and CLEARED this row -- the site is live and carries the registrant's own name, so the domain has not been re-registered by anyone else. Safe to send normally; no further domain check needed."
     },
     {
       "id": "zerotoone_ai",
