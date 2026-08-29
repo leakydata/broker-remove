@@ -3089,10 +3089,20 @@
     "changed": "2026-08-19",
     "via": "email"
   },
+  "monevo": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
+  },
   "moneybot5000": {
     "status": "manual_required",
     "changed": "2026-08-19",
     "via": "reply"
+  },
+  "monocl": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
   },
   "montana_arrests": {
     "status": "submitted",
@@ -3129,6 +3139,11 @@
     "changed": "2026-08-20",
     "via": "reply"
   },
+  "multimedia_lists": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
+  },
   "my_renter_checker": {
     "status": "submitted",
     "changed": "2026-08-19",
@@ -3149,10 +3164,20 @@
     "changed": "2026-08-28",
     "via": "email"
   },
+  "national_opinion_institute": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
+  },
   "national_public_data": {
     "status": "confirmed",
     "changed": "2026-08-19",
     "via": "reply"
+  },
+  "nativo": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
   },
   "nc_solutions": {
     "status": "submitted",
