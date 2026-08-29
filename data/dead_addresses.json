@@ -88,6 +88,13 @@
       "kind": "dead_domain",
       "evidence": "Published on Proxima Platform's own CONSUMER PRIVACY POLICY as the contact. quantummedica.co.uk has NO MX record at all and the website does not resolve (HTTP 000). Not sent to; failure established by DNS rather than by bounce. Proxima publishes THREE different contacts across three policies -- see _SILENT_FAILURES 168.",
       "replacement": "alex.de.aybar@outlook.com (Smart TV policy + CA register) and alexyaybar@ohomail.com (CCPA page); both live, both written to 2026-08-29"
+    },
+    "privacy@date-detective.app": {
+      "observed": "2026-08-29",
+      "broker": "date_detective",
+      "kind": "restricted_group",
+      "evidence": "Not a missing mailbox. Google Workspace postmaster rejected it: 'The group privacy isn't set up to receive messages from [the requester's address]' -- a restricted group that accepts internal senders only, so it works for staff and silently rejects every consumer. Same failure mode as graph8 (_SILENT_FAILURES 149). Address is the one published on the CA data broker register. Observed on a send by the other agent, recorded here because dead_addresses.json is the shared record and that agent does not publish a ledger.",
+      "replacement": "none known yet -- no alternative published address found"
     }
   }
 }

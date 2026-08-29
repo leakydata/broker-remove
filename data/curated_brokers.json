@@ -13812,12 +13812,13 @@
       "source": "ca_data_broker_registry",
       "optery_slug": null,
       "email_to": "privacy@date-detective.app",
-      "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified": false,
+      "email_verified_by": "bounced",
       "registry_years": [
         "2025"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "email_note": "privacy@date-detective.app is a RESTRICTED GOOGLE WORKSPACE GROUP: the postmaster replies 'The group privacy isn't set up to receive messages from [the requester's address]'. It accepts internal mail and rejects every consumer, so it looks alive from outside and is not. Same shape as graph8 (149). This is the address on the CA register. No alternative found yet -- the product runs background and identity checks on people for dating-safety purposes, so the file is worth reaching; needs a second route."
     },
     {
       "id": "datonics",
@@ -15827,13 +15828,14 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "dpo@infocore.com",
+      "email_to": "compliance@infocore.com",
       "email_verified": true,
-      "email_verified_by": "privacy_policy",
+      "email_verified_by": "broker_autoresponder",
       "registry_years": [
         "2024"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "email_note": "|| 2026-08-29: info@infocore.com auto-replies 'If your request is in regards to CCPA or other privacy inquiries, please direct your email to compliance@infocore.com.' That is the company naming its own rights desk, so adopted over dpo@ -- note privacy@infocore.com is already recorded dead. Observed via the other agent's send."
     },
     {
       "id": "infomatics",
