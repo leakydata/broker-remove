@@ -4039,6 +4039,11 @@
     "changed": "2026-08-19",
     "via": "email"
   },
+  "reachdata": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
+  },
   "real_intent": {
     "status": "submitted",
     "changed": "2026-08-28",
@@ -4052,6 +4057,11 @@
   "realeflow": {
     "status": "submitted",
     "changed": "2026-08-28",
+    "via": "email"
+  },
+  "reality_media": {
+    "status": "submitted",
+    "changed": "2026-08-29",
     "via": "email"
   },
   "reallygreatrate": {

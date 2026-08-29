@@ -2695,3 +2695,43 @@ can attach one person's record to another person's identity, and the consequence
 fall on a stranger who will never learn it happened. Ask them not to match, annotate,
 flag or suppress on the name alone, and say that "we found nothing of yours" is
 preferable to any action taken on a partial match.
+
+## Debt relief and financial-hardship lead generation
+
+**Example:** Reality Media, Inc. (operating Reality Debt Solutions).
+
+**The argument that makes this category different from ordinary lead-gen:** the fact
+that a named person enquired about debt relief is itself an inference about their
+financial condition. It is not a preference or an interest — it is a statement that
+someone is, or was thought to be, in difficulty.
+
+That inference can bear on credit decisions, employment screening in some roles,
+insurance underwriting and tenancy applications. **And as with every inference, those
+consequences do not depend on it being accurate** — a person wrongly placed in a
+debt-relief audience carries them just the same, and has no way to see the record or
+correct it. Say that plainly; it is the whole reason the letter is longer than a
+list-broker letter.
+
+**Ask for the limit-use right separately.** Any attribute indicating financial
+hardship, debt level, delinquency or debt-relief interest should be met with a
+request to *limit use and disclosure* as well as to delete. They are different
+rights, one survives where the other does not, and asking for them together lets a
+company answer only the easier one.
+
+**A lead is delivered, not stored.** Deleting the originator's copy leaves every
+recipient's copy untouched, so the questions that matter are how many recipients, on
+what dates, and to whom — plus the pass-through request. Quote the company's own
+sharing language back at them where the policy has it; these policies almost always
+say something like *"we may share your contact information with third parties who may
+contact you."*
+
+**And the provenance question has teeth here.** This sector runs on affiliate traffic
+and co-registration, so a record may have arrived from an affiliate rather than from
+the person. Ask for the **specific referring source, the date, and the raw record
+rather than a summary** — because if somebody else submitted the details, any consent
+recorded against them is not the subject's, and the only way to establish that is to
+see what was actually captured.
+
+**Always carry the §164 telephone reservation.** Lead forms in this sector routinely
+embed prior-express-written-consent language for autodialled calls and texts, and the
+standard letter hands over twelve numbers.
