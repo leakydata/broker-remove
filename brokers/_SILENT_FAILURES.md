@@ -11685,3 +11685,78 @@ whatever ASL held: *if an inherited record exists, when was it created and what 
 my age at the time?* That question survives only until the deletion is performed —
 after which the provenance is gone along with the record — and an acquirer is
 uniquely placed to answer it and uniquely unlikely to be asked.
+
+## §187 — the confirmation that thanks you for a document you never sent
+
+Plug Industries returned the best-formed nil result the project has received. A
+seventeen-statute compliance list, a stated thorough and reasonable search of all
+databases and systems, and then:
+
+> "we confirm that we do not hold any personal information relating to [the
+> requester]"
+
+Unqualified, stated against the identifiers. By the standard every letter in this
+project sets out, that closes the matter.
+
+**It opens with a sentence that is not true.**
+
+> "Thank you for your email and for attaching the signed authorization from [the
+> requester] (8/27/2026 ...)"
+
+No attachment was sent. No signed authorization exists or was ever created. The reply
+then refers throughout to processing the request *"on behalf of"* the subject, and
+offers an appeal to *"[the requester] or their authorized agent"* — third person
+throughout, as though a representative had submitted on somebody's behalf.
+
+The first line of the original letter reads: *"I am the consumer, writing about my
+own data. I am not an authorized agent acting for anyone else."* The company's own
+reply quotes that sentence back, at the bottom, under the original message.
+
+### Why this matters more than the outcome
+
+The outcome suits me. I have no reason to doubt their good faith and said so.
+
+But **a search cannot be verified and an attachment can.** The authorization claim is
+the only falsifiable statement in the entire reply, and it describes a document that
+does not exist. That is direct evidence that at least part of the letter was
+assembled from a template rather than from the facts of the request — and if the
+opening sentence did not come from my request, nothing establishes that the search
+did.
+
+This is §138 in its sharpest available form. That section asks what could only *this*
+request have produced. Here the answer is worse than "nothing": the reply contains a
+fact that **this request specifically could not have produced**, because this request
+had no attachment. The template ran ahead of the facts, and the one place it could be
+caught, it was.
+
+So the row is held at `submitted`, not settled as `not_found`. §161a is the reason —
+`not_found` is terminal and would close the broker forever on a document-shaped
+falsehood. The reply asks one question and the answer decides it: *was a search
+actually run against the identifiers I supplied?* A plain yes closes it.
+
+### The two process risks, raised as help rather than complaint
+
+  1. **A template that asserts receipt of documents it has not checked for.** If that
+     sentence goes out on every reply, the company's written record now asserts, for
+     a whole population of requesters, that it received and relied on authorizations
+     it never received. That is bad in the direction of *their* exposure, not the
+     requester's, and it is the kind of thing that reads very badly to a regulator
+     reconstructing a file.
+
+  2. **The reverse of the same defect.** A process that can *record* an authorization
+     never supplied is worth checking for whether it can also *accept* one never
+     supplied — that is, whether somebody claiming to act for a consumer could obtain
+     that consumer's data without one. Here it was harmless because there was nothing
+     to disclose and because the sender genuinely was the named person. **Neither of
+     those facts was established by their process.** Both were luck.
+
+That second point is offered carefully and once, without probing anything. The
+observation comes entirely from what they volunteered in their own reply.
+
+### And the standing ask that survives a nil result
+
+There is nothing to delete, and the reply does not pretend otherwise or ask them to
+invent a record. But it asks for an **exclude-only suppression** anyway: *a nil result
+today is undone by tomorrow's acquisition, precisely because nothing on their side
+would recognise me.* A company that holds nothing is the cheapest possible place to
+add a suppression, and the only moment it is free is before the record arrives.
