@@ -1,100 +1,389 @@
 {
-  "_doc": "Addresses that have hard-bounced. The domain-level deliverability check in check_email_domains.py cannot see these: the domain resolves, the MX records answer, and only the MAILBOX is absent. Nothing short of sending finds that out, so once found it must be written down. Keyed by lowercase address. queue_batch.py refuses to send to anything listed here.",
+  "_doc": "Addresses that have hard-bounced. The domain-level deliverability check in check_email_domains.py cannot see these: the domain resolves, the MX records answer, and only the MAILBOX is absent. Nothing short of sending finds that out, so once found it must be written down. Keyed by lowercase address. queue_batch.py refuses to send to anything listed here.\n\nEach entry carries a `kind`, which is the useful field: it says what the failure MEANS and therefore what to do next. `no_such_mailbox` -- find another address. `restricted_group` -- an internal-only alias that works for staff and rejects every consumer, so tell the company, because they think it works. `departed_employee` -- the mailbox is fine and the person is gone; use the named successor. `accepts_then_fails` -- the server accepts and only afterwards fails to every recipient, so it LOOKS delivered; do not retry, escalate to whoever is still solvent. `dead_domain` -- check for a re-registration by a stranger before sending anything.\n\nKinds were backfilled on 2026-08-29 from the free-text evidence of 56 entries that had been recorded as bare strings. The evidence string is preserved verbatim in every case; nothing was rewritten, only classified.\n\nTwo further kinds, each recorded once and each meaning something the others do not. `null_mx`: the domain publishes RFC 7505 null MX, an explicit declaration that it accepts no mail at all -- configuration rather than decay, so no amount of retrying or investigating will help. `rejected_ambiguous`: the server refused the message and it is genuinely unclear whether the mailbox is dead or the server is filtering unfamiliar senders; that one is deliberately left unsettled rather than recorded wrongly.",
   "addresses": {
-    "admin@sawyerdatadirect.com": "550 address not found, 2026-08-26.",
-    "ccgprivacy@customer.com": "550 address not found, 2026-08-25.",
-    "compliance@rpmleader.com": "550 address not found, 2026-08-24.",
-    "connect@rpmleader.com": "550 5.7.1, 2026-08-19.",
-    "consumerinquiries@rpmleader.com": "550, 2026-08-19. This is the address their own privacy policy designates for consumer privacy requests.",
-    "data@emerges.com": "550 5.1.1 account does not exist, 2026-08-27. The address on eMerges.com's 2024 California registration. Domain has healthy Google Workspace MX; the mailbox is absent.",
-    "datanalytics@teamdms.com": "550 address not found, 2026-08-22.",
-    "dataprivacy@listmatch.com": "550 address not found, 2026-08-27. The address on Email Marketing Services' California registration. Their own privacy page publishes dataprivacy2026@listmatch.com instead - a YEAR-SUFFIXED address that rotates while the registry keeps the old one.",
-    "dataprivacy_rocadvertising@simpleoptoutcompliance.com": "550 5.1.1, 2026-08-20. A third-party compliance vendor's address, published as ROC Advertising's designated privacy contact. Working first-party address is privacy@rocadvertising.com.",
-    "info@rpmleader.com": "550 5.7.1, 2026-08-19.",
-    "info@searchsystems.net": "550 5.1.1, 2026-08-20.",
-    "lzepeda@agrgroupinc.com": "550 address not found, 2026-08-25.",
-    "no-reply@resonate.com": "550 address not found, 2026-08-19. They send from it; it does not receive.",
-    "ops@findtrueowner.com": "domain findtrueowner.com does not resolve, 2026-08-26.",
-    "optout@staircase.co": "550 5.1.1, 2026-08-20.",
-    "privacy@4-eyes.ai": "no MX record; RFC 5321 A-record fallback host refuses SMTP connections entirely. Gmail retried 48h then failed permanently, 2026-08-25.",
-    "privacy@agrgroupinc.com": "550 address not found, 2026-08-25.",
-    "privacy@aviato.co": "550 address not found, 2026-08-24.",
-    "privacy@bvdinfo.com": "550 5.1.1, 2026-08-25.",
-    "privacy@connextdigital.com": "550 5.1.1, 2026-08-22.",
-    "privacy@crawlbee.com": "crawlbee.com publishes a null MX (RFC 7505) - an explicit refusal of all mail, 2026-08-25.",
-    "privacy@databaseusa.com": "550 5.1.1 user unknown in relay recipient table, 2026-08-26. In their California registry filing.",
-    "privacy@researchusallc.com": "550 user unknown, 2026-08-26. In their California registry filing. Domain and MX healthy.",
-    "privacy@xmodesocial.com": "550 5.2.1, 2026-08-20.",
-    "privacyofficer@datacomplianceportal.com": "550 address not found, 2026-08-20.",
-    "sam@arrakis.ai": "domain arrakis.ai does not resolve, 2026-08-25.",
-    "support@cloudlead.co": "550 5.1.1, 2026-08-24.",
-    "support@privatenumberchecker.com": "550, 2026-08-19.",
-    "webmaster@searchsystems.net": "550 5.1.1, 2026-08-20. The address published on their own site.",
-    "privacy@rampedup.io": "Rejected as a restricted Google Workspace group ('group may not exist or no permission to post'), 2026-08-26. Alternate published on their own site: contact@rampedup.io.",
-    "privacy@venpath.net": "Rejected as a restricted Google Workspace group, 2026-08-20. No alternate email published; registry uses the web form at /legal/opt-out as primary.",
-    "security@audiencepoint.com": "Rejected as a restricted Google Workspace group, 2026-08-24. Not the registry's primary contact — privacy@audiencepoint.com (the correct, verified address) delivers fine.",
-    "privacy@modigie.com": "Rejected as a restricted Google Workspace group, 2026-08-19. Already superseded — registry's email_to was corrected to dpauli@modigie.com on 2026-08-22.",
-    "info@openpeoplesearch.com": "550 address not found, 2026-08-26. This is the exact address published on the broker's own privacy policy — domain and MX are healthy, only the mailbox is absent. Registry uses the web form at /Consumer as primary.",
-    "legal@onemata.com": "550 address not found, 2026-08-19.",
-    "info@onemata.com": "550 address not found, 2026-08-19.",
-    "privacy@onemata.com": "550 address not found, 2026-08-19. All three onemata.com addresses on file are dead; registry points to the web form / phone line (833) 663-6282 as primary.",
-    "info@matchandappend.com": "550 address not found, 2026-08-19.",
-    "privacy@matchandappend.com": "550 address not found, 2026-08-19. Both addresses on file are dead; registry uses the web form as primary.",
-    "ccpa@paramountdirectmarketing.com": "'Recipient Unknown' from Office 365 (postmaster@PARAMOUNTLISTS.COM), 2026-08-18. Registry now uses the reCAPTCHA-gated web form as primary.",
-    "dataprivacy@sourceitmarketing.com": "No such recipient, 2026-08-27. This entry (sourceit_technologies) is a duplicate CA registration of 'sourceit', which has a working address (dataprivacy2026@sourceitmarketing.com) already on file — do not resend here.",
-    "privacy@leadershipconnect.io": "550 address not found, 2026-08-19. Site publishes no email at all; registry uses the web form as primary.",
-    "support@structure.ac": "Recipient server rejected the message outright, 2026-08-20. Ambiguous whether the mailbox is dead or filtering automated senders; registry already uses the web form as primary.",
-    "privacy@keyopinionleaders.com": "Domain has no NS/SOA/A/MX records at all — the registration has lapsed. Reads as a soft delay for 48h before hard-bouncing, 2026-08-20.",
-    "privacy@infofree.com": "550 address not found. Already superseded — registry's email_to was corrected to info@infofree.com on 2026-08-22.",
-    "ccpa@leadmemedia.com": "550 address not found. Already superseded — registry's email_to was corrected to californiaregistry@leadmemedia.com.",
-    "contact@join5x5.com": "Domain has no MX and no A record at all — publishes no working mail route. Registry note flags this as almost certainly a typo in the CA filing; the entry is held out of the send queue as a duplicate of five_by_five.",
-    "info@hellofyllo.com": "550 address not found, 2026-08-27. Domain still has live Mimecast MX -- only the mailbox is gone. No published role address on the site.",
-    "privacy@infocore.com": "550 address not found, 2026-08-28. NOT a registry route -- it was mistyped in a send when the registry said info@infocore.com. Recorded anyway because the bounce proves the mailbox is absent, so nothing should try it later. dpo@infocore.com is published on their privacy policy and was adopted instead.",
-    "slyster@idg.com": "550 address not found, 2026-08-27. Registry contact from a state filing, person-shaped. idg.com still has live Outlook and Mimecast MX, so the domain accepts mail and only the mailbox is gone -- the named individual has left. IDG now trades as Foundry (foundryco.com); no role address is published on either domain.",
-    "privacy@imprintanalytics.io": "550 5.1.1 no such user, 2026-08-28. The address Imprint Analytics LLC filed on the California data broker registry -- and the only contact it publishes anywhere. Domain has live Google Workspace MX but serves no website (TLS handshake fails; plain HTTP returns Cloudflare error 1001), so there is no privacy policy page to read a second address off.",
-    "ben@carmarketsolutions.com": "NOT a mailbox failure -- a CONNECTION failure. Status 4.4.1, 'the recipient server did not accept our requests to connect [carmarketsolutions.com. 200.225.43.10: timed out]', 2026-08-28 after Gmail retried for three days. The domain has an MX (self-pointing, carmarketsolutions.com) and an A record, so every DNS check passes; nothing is listening on port 25. Confirmed by hand: a direct TCP connect to 200.225.43.10:25 times out. Whether the mailbox exists is UNKNOWN and unknowable from outside -- unlike a 550, this says nothing about the address, only about the server. Worth one retry if the company is ever seen to fix its mail; do not treat as proof the address is wrong.",
-    "privacy@graph8.com": "Rejected as a restricted Google Workspace group, 2026-08-28: 'the group you tried to contact (privacy) may not exist, or you may not have permission to post messages to the group'. NOT a stale registry address -- graph8's own support desk gave this address the SAME DAY ('our privacy team handles these requests directly'), and it does not accept external mail. Use support@graph8.com, which is the registry route and answers within a day.",
-    "support@calltruth.com": "BROKEN DNS DELEGATION, not a dead mailbox and not a lapsed registration. Gmail gave up 2026-08-28 after three attempts across three days with 'DNS Error: DNS type mx lookup of calltruth.com responded with code SERVFAIL' (status 4.4.3 -- a TEMPORARY code that never resolved). The domain is still registered (eNom, clientTransferProhibited) and still delegated to DNS1-4.NAME-SERVICES.COM, but those nameservers answer SERVFAIL for every record type -- NS, SOA, MX and A -- from two independent resolvers. So this is a third failure shape distinct from the others here: NXDOMAIN means the name does not exist, no-MX-no-A means no mail route, and SERVFAIL means the name is delegated to servers that are broken or gone. Nothing can be delivered and no bounce arrives quickly, because a resolver cannot distinguish a broken nameserver from a briefly unreachable one. Retry only if the delegation is ever seen to answer.",
-    "privacy@speedeon.com": "Permanent failure 2026-08-28 after three days of delays. speedeon.com has NS and A records but NO MX -- the §86 'website with no mail server' case: RFC 5321 falls back to the A record, nothing listens on port 25, and the sender reports delays for days before giving up. NOT the registry route and NOT a problem: the broker is speedeon_data, its filed contact is accounting@speedeondata.com on a DIFFERENT domain, and that address produced a confirmation. This entry only stops a later pass retrying the wrong domain.",
-    "compliance@logiq.com": "550 5.1.0 'Recipient not found', 2026-08-28, from smtp.secureserver.net. The address on Logiq Inc's California registration (2020-2023 only). logiq.com is now a PARKED DOMAIN -- it serves a 114-byte page whose only content is a script redirecting to /lander, on GoDaddy nameservers with GoDaddy's default MX. So the mail path is GoDaddy's parking MX, which rejects cleanly rather than timing out. No privacy policy exists to read a second address off; discover_contacts found nothing. Registry years stopping at 2023 fit a company that no longer trades under this name.",
+    "admin@sawyerdatadirect.com": {
+      "kind": "no_such_mailbox",
+      "observed": "2026-08-26",
+      "evidence": "550 address not found, 2026-08-26.",
+      "response": "The mailbox is absent though the domain is healthy. Find another published address; the company may not know this one is dead."
+    },
+    "ccgprivacy@customer.com": {
+      "kind": "no_such_mailbox",
+      "observed": "2026-08-25",
+      "evidence": "550 address not found, 2026-08-25.",
+      "response": "The mailbox is absent though the domain is healthy. Find another published address; the company may not know this one is dead."
+    },
+    "compliance@rpmleader.com": {
+      "kind": "no_such_mailbox",
+      "observed": "2026-08-24",
+      "evidence": "550 address not found, 2026-08-24.",
+      "response": "The mailbox is absent though the domain is healthy. Find another published address; the company may not know this one is dead."
+    },
+    "connect@rpmleader.com": {
+      "kind": "no_such_mailbox",
+      "observed": "2026-08-19",
+      "evidence": "550 5.7.1, 2026-08-19.",
+      "response": "The mailbox is absent though the domain is healthy. Find another published address; the company may not know this one is dead."
+    },
+    "consumerinquiries@rpmleader.com": {
+      "kind": "no_such_mailbox",
+      "observed": "2026-08-19",
+      "evidence": "550, 2026-08-19. This is the address their own privacy policy designates for consumer privacy requests.",
+      "response": "The mailbox is absent though the domain is healthy. Find another published address; the company may not know this one is dead."
+    },
+    "data@emerges.com": {
+      "kind": "no_such_mailbox",
+      "observed": "2026-08-27",
+      "evidence": "550 5.1.1 account does not exist, 2026-08-27. The address on eMerges.com's 2024 California registration. Domain has healthy Google Workspace MX; the mailbox is absent.",
+      "response": "The mailbox is absent though the domain is healthy. Find another published address; the company may not know this one is dead."
+    },
+    "datanalytics@teamdms.com": {
+      "kind": "no_such_mailbox",
+      "observed": "2026-08-22",
+      "evidence": "550 address not found, 2026-08-22.",
+      "response": "The mailbox is absent though the domain is healthy. Find another published address; the company may not know this one is dead."
+    },
+    "dataprivacy@listmatch.com": {
+      "kind": "no_such_mailbox",
+      "observed": "2026-08-27",
+      "evidence": "550 address not found, 2026-08-27. The address on Email Marketing Services' California registration. Their own privacy page publishes dataprivacy2026@listmatch.com instead - a YEAR-SUFFIXED address that rotates while the registry keeps the old one.",
+      "response": "The mailbox is absent though the domain is healthy. Find another published address; the company may not know this one is dead."
+    },
+    "dataprivacy_rocadvertising@simpleoptoutcompliance.com": {
+      "kind": "no_such_mailbox",
+      "observed": "2026-08-20",
+      "evidence": "550 5.1.1, 2026-08-20. A third-party compliance vendor's address, published as ROC Advertising's designated privacy contact. Working first-party address is privacy@rocadvertising.com.",
+      "response": "The mailbox is absent though the domain is healthy. Find another published address; the company may not know this one is dead."
+    },
+    "info@rpmleader.com": {
+      "kind": "no_such_mailbox",
+      "observed": "2026-08-19",
+      "evidence": "550 5.7.1, 2026-08-19.",
+      "response": "The mailbox is absent though the domain is healthy. Find another published address; the company may not know this one is dead."
+    },
+    "info@searchsystems.net": {
+      "kind": "no_such_mailbox",
+      "observed": "2026-08-20",
+      "evidence": "550 5.1.1, 2026-08-20.",
+      "response": "The mailbox is absent though the domain is healthy. Find another published address; the company may not know this one is dead."
+    },
+    "lzepeda@agrgroupinc.com": {
+      "kind": "no_such_mailbox",
+      "observed": "2026-08-25",
+      "evidence": "550 address not found, 2026-08-25.",
+      "response": "The mailbox is absent though the domain is healthy. Find another published address; the company may not know this one is dead."
+    },
+    "no-reply@resonate.com": {
+      "kind": "no_such_mailbox",
+      "observed": "2026-08-19",
+      "evidence": "550 address not found, 2026-08-19. They send from it; it does not receive.",
+      "response": "The mailbox is absent though the domain is healthy. Find another published address; the company may not know this one is dead."
+    },
+    "ops@findtrueowner.com": {
+      "kind": "dead_domain",
+      "observed": "2026-08-26",
+      "evidence": "domain findtrueowner.com does not resolve, 2026-08-26.",
+      "response": "The domain itself is gone. Check whether a stranger has re-registered it before sending anything (SILENT_FAILURES 163)."
+    },
+    "optout@staircase.co": {
+      "kind": "no_such_mailbox",
+      "observed": "2026-08-20",
+      "evidence": "550 5.1.1, 2026-08-20.",
+      "response": "The mailbox is absent though the domain is healthy. Find another published address; the company may not know this one is dead."
+    },
+    "privacy@4-eyes.ai": {
+      "kind": "dead_domain",
+      "observed": "2026-08-25",
+      "evidence": "no MX record; RFC 5321 A-record fallback host refuses SMTP connections entirely. Gmail retried 48h then failed permanently, 2026-08-25.",
+      "response": "The domain itself is gone. Check whether a stranger has re-registered it before sending anything (SILENT_FAILURES 163)."
+    },
+    "privacy@agrgroupinc.com": {
+      "kind": "no_such_mailbox",
+      "observed": "2026-08-25",
+      "evidence": "550 address not found, 2026-08-25.",
+      "response": "The mailbox is absent though the domain is healthy. Find another published address; the company may not know this one is dead."
+    },
+    "privacy@aviato.co": {
+      "kind": "no_such_mailbox",
+      "observed": "2026-08-24",
+      "evidence": "550 address not found, 2026-08-24.",
+      "response": "The mailbox is absent though the domain is healthy. Find another published address; the company may not know this one is dead."
+    },
+    "privacy@bvdinfo.com": {
+      "kind": "no_such_mailbox",
+      "observed": "2026-08-25",
+      "evidence": "550 5.1.1, 2026-08-25.",
+      "response": "The mailbox is absent though the domain is healthy. Find another published address; the company may not know this one is dead."
+    },
+    "privacy@connextdigital.com": {
+      "kind": "no_such_mailbox",
+      "observed": "2026-08-22",
+      "evidence": "550 5.1.1, 2026-08-22.",
+      "response": "The mailbox is absent though the domain is healthy. Find another published address; the company may not know this one is dead."
+    },
+    "privacy@crawlbee.com": {
+      "kind": "null_mx",
+      "observed": "2026-08-25",
+      "evidence": "crawlbee.com publishes a null MX (RFC 7505) - an explicit refusal of all mail, 2026-08-25.",
+      "response": "The domain publishes a NULL MX (RFC 7505) -- an explicit, deliberate declaration that it accepts no mail at all. This is configuration, not decay: somebody chose it. Nothing will ever be delivered here, no matter how many times it is retried, and no bounce investigation will change that. Use a web form or a postal route, and note that a registered broker whose domain refuses all email has closed the cheapest consumer channel by design."
+    },
+    "privacy@databaseusa.com": {
+      "kind": "no_such_mailbox",
+      "observed": "2026-08-26",
+      "evidence": "550 5.1.1 user unknown in relay recipient table, 2026-08-26. In their California registry filing.",
+      "response": "The mailbox is absent though the domain is healthy. Find another published address; the company may not know this one is dead."
+    },
+    "privacy@researchusallc.com": {
+      "kind": "no_such_mailbox",
+      "observed": "2026-08-26",
+      "evidence": "550 user unknown, 2026-08-26. In their California registry filing. Domain and MX healthy.",
+      "response": "The mailbox is absent though the domain is healthy. Find another published address; the company may not know this one is dead."
+    },
+    "privacy@xmodesocial.com": {
+      "kind": "no_such_mailbox",
+      "observed": "2026-08-20",
+      "evidence": "550 5.2.1, 2026-08-20.",
+      "response": "The mailbox is absent though the domain is healthy. Find another published address; the company may not know this one is dead."
+    },
+    "privacyofficer@datacomplianceportal.com": {
+      "kind": "no_such_mailbox",
+      "observed": "2026-08-20",
+      "evidence": "550 address not found, 2026-08-20.",
+      "response": "The mailbox is absent though the domain is healthy. Find another published address; the company may not know this one is dead."
+    },
+    "sam@arrakis.ai": {
+      "kind": "dead_domain",
+      "observed": "2026-08-25",
+      "evidence": "domain arrakis.ai does not resolve, 2026-08-25.",
+      "response": "The domain itself is gone. Check whether a stranger has re-registered it before sending anything (SILENT_FAILURES 163)."
+    },
+    "support@cloudlead.co": {
+      "kind": "no_such_mailbox",
+      "observed": "2026-08-24",
+      "evidence": "550 5.1.1, 2026-08-24.",
+      "response": "The mailbox is absent though the domain is healthy. Find another published address; the company may not know this one is dead."
+    },
+    "support@privatenumberchecker.com": {
+      "kind": "no_such_mailbox",
+      "observed": "2026-08-19",
+      "evidence": "550, 2026-08-19.",
+      "response": "The mailbox is absent though the domain is healthy. Find another published address; the company may not know this one is dead."
+    },
+    "webmaster@searchsystems.net": {
+      "kind": "no_such_mailbox",
+      "observed": "2026-08-20",
+      "evidence": "550 5.1.1, 2026-08-20. The address published on their own site.",
+      "response": "The mailbox is absent though the domain is healthy. Find another published address; the company may not know this one is dead."
+    },
+    "privacy@rampedup.io": {
+      "kind": "restricted_group",
+      "observed": "2026-08-26",
+      "evidence": "Rejected as a restricted Google Workspace group ('group may not exist or no permission to post'), 2026-08-26. Alternate published on their own site: contact@rampedup.io.",
+      "response": "A privacy@ alias configured as an INTERNAL-ONLY group. It works for staff and silently rejects every consumer, so the company believes it works. Tell them, and use any alternate address."
+    },
+    "privacy@venpath.net": {
+      "kind": "restricted_group",
+      "observed": "2026-08-20",
+      "evidence": "Rejected as a restricted Google Workspace group, 2026-08-20. No alternate email published; registry uses the web form at /legal/opt-out as primary.",
+      "response": "A privacy@ alias configured as an INTERNAL-ONLY group. It works for staff and silently rejects every consumer, so the company believes it works. Tell them, and use any alternate address."
+    },
+    "security@audiencepoint.com": {
+      "kind": "restricted_group",
+      "observed": "2026-08-24",
+      "evidence": "Rejected as a restricted Google Workspace group, 2026-08-24. Not the registry's primary contact — privacy@audiencepoint.com (the correct, verified address) delivers fine.",
+      "response": "A privacy@ alias configured as an INTERNAL-ONLY group. It works for staff and silently rejects every consumer, so the company believes it works. Tell them, and use any alternate address."
+    },
+    "privacy@modigie.com": {
+      "kind": "restricted_group",
+      "observed": "2026-08-19",
+      "evidence": "Rejected as a restricted Google Workspace group, 2026-08-19. Already superseded — registry's email_to was corrected to dpauli@modigie.com on 2026-08-22.",
+      "response": "A privacy@ alias configured as an INTERNAL-ONLY group. It works for staff and silently rejects every consumer, so the company believes it works. Tell them, and use any alternate address."
+    },
+    "info@openpeoplesearch.com": {
+      "kind": "no_such_mailbox",
+      "observed": "2026-08-26",
+      "evidence": "550 address not found, 2026-08-26. This is the exact address published on the broker's own privacy policy — domain and MX are healthy, only the mailbox is absent. Registry uses the web form at /Consumer as primary.",
+      "response": "The mailbox is absent though the domain is healthy. Find another published address; the company may not know this one is dead."
+    },
+    "legal@onemata.com": {
+      "kind": "no_such_mailbox",
+      "observed": "2026-08-19",
+      "evidence": "550 address not found, 2026-08-19.",
+      "response": "The mailbox is absent though the domain is healthy. Find another published address; the company may not know this one is dead."
+    },
+    "info@onemata.com": {
+      "kind": "no_such_mailbox",
+      "observed": "2026-08-19",
+      "evidence": "550 address not found, 2026-08-19.",
+      "response": "The mailbox is absent though the domain is healthy. Find another published address; the company may not know this one is dead."
+    },
+    "privacy@onemata.com": {
+      "kind": "no_such_mailbox",
+      "observed": "2026-08-19",
+      "evidence": "550 address not found, 2026-08-19. All three onemata.com addresses on file are dead; registry points to the web form / phone line (833) 663-6282 as primary.",
+      "response": "The mailbox is absent though the domain is healthy. Find another published address; the company may not know this one is dead."
+    },
+    "info@matchandappend.com": {
+      "kind": "no_such_mailbox",
+      "observed": "2026-08-19",
+      "evidence": "550 address not found, 2026-08-19.",
+      "response": "The mailbox is absent though the domain is healthy. Find another published address; the company may not know this one is dead."
+    },
+    "privacy@matchandappend.com": {
+      "kind": "no_such_mailbox",
+      "observed": "2026-08-19",
+      "evidence": "550 address not found, 2026-08-19. Both addresses on file are dead; registry uses the web form as primary.",
+      "response": "The mailbox is absent though the domain is healthy. Find another published address; the company may not know this one is dead."
+    },
+    "ccpa@paramountdirectmarketing.com": {
+      "kind": "no_such_mailbox",
+      "observed": "2026-08-18",
+      "evidence": "'Recipient Unknown' from Office 365 (postmaster@PARAMOUNTLISTS.COM), 2026-08-18. Registry now uses the reCAPTCHA-gated web form as primary.",
+      "response": "The mailbox is absent though the domain is healthy. Find another published address; the company may not know this one is dead."
+    },
+    "dataprivacy@sourceitmarketing.com": {
+      "kind": "no_such_mailbox",
+      "observed": "2026-08-27",
+      "evidence": "No such recipient, 2026-08-27. This entry (sourceit_technologies) is a duplicate CA registration of 'sourceit', which has a working address (dataprivacy2026@sourceitmarketing.com) already on file — do not resend here.",
+      "response": "The mailbox is absent though the domain is healthy. Find another published address; the company may not know this one is dead."
+    },
+    "privacy@leadershipconnect.io": {
+      "kind": "no_such_mailbox",
+      "observed": "2026-08-19",
+      "evidence": "550 address not found, 2026-08-19. Site publishes no email at all; registry uses the web form as primary.",
+      "response": "The mailbox is absent though the domain is healthy. Find another published address; the company may not know this one is dead."
+    },
+    "support@structure.ac": {
+      "kind": "rejected_ambiguous",
+      "observed": "2026-08-20",
+      "evidence": "Recipient server rejected the message outright, 2026-08-20. Ambiguous whether the mailbox is dead or filtering automated senders; registry already uses the web form as primary.",
+      "response": "The receiving server rejected the message outright, and it is NOT established whether the mailbox is dead or whether the server is filtering automated or unfamiliar senders. Do not record this as a dead address on one attempt -- it may deliver from a different sender or via a form. Prefer the alternate route and leave the question open rather than settling it wrongly."
+    },
+    "privacy@keyopinionleaders.com": {
+      "kind": "dead_domain",
+      "observed": "2026-08-20",
+      "evidence": "Domain has no NS/SOA/A/MX records at all — the registration has lapsed. Reads as a soft delay for 48h before hard-bouncing, 2026-08-20.",
+      "response": "The domain itself is gone. Check whether a stranger has re-registered it before sending anything (SILENT_FAILURES 163)."
+    },
+    "privacy@infofree.com": {
+      "kind": "no_such_mailbox",
+      "observed": "2026-08-22",
+      "evidence": "550 address not found. Already superseded — registry's email_to was corrected to info@infofree.com on 2026-08-22.",
+      "response": "The mailbox is absent though the domain is healthy. Find another published address; the company may not know this one is dead."
+    },
+    "ccpa@leadmemedia.com": {
+      "kind": "no_such_mailbox",
+      "observed": null,
+      "evidence": "550 address not found. Already superseded — registry's email_to was corrected to californiaregistry@leadmemedia.com.",
+      "response": "The mailbox is absent though the domain is healthy. Find another published address; the company may not know this one is dead."
+    },
+    "contact@join5x5.com": {
+      "kind": "dead_domain",
+      "observed": null,
+      "evidence": "Domain has no MX and no A record at all — publishes no working mail route. Registry note flags this as almost certainly a typo in the CA filing; the entry is held out of the send queue as a duplicate of five_by_five.",
+      "response": "The domain itself is gone. Check whether a stranger has re-registered it before sending anything (SILENT_FAILURES 163)."
+    },
+    "info@hellofyllo.com": {
+      "kind": "no_such_mailbox",
+      "observed": "2026-08-27",
+      "evidence": "550 address not found, 2026-08-27. Domain still has live Mimecast MX -- only the mailbox is gone. No published role address on the site.",
+      "response": "The mailbox is absent though the domain is healthy. Find another published address; the company may not know this one is dead."
+    },
+    "privacy@infocore.com": {
+      "kind": "no_such_mailbox",
+      "observed": "2026-08-28",
+      "evidence": "550 address not found, 2026-08-28. NOT a registry route -- it was mistyped in a send when the registry said info@infocore.com. Recorded anyway because the bounce proves the mailbox is absent, so nothing should try it later. dpo@infocore.com is published on their privacy policy and was adopted instead.",
+      "response": "The mailbox is absent though the domain is healthy. Find another published address; the company may not know this one is dead."
+    },
+    "slyster@idg.com": {
+      "kind": "departed_employee",
+      "observed": "2026-08-27",
+      "evidence": "550 address not found, 2026-08-27. Registry contact from a state filing, person-shaped. idg.com still has live Outlook and Mimecast MX, so the domain accepts mail and only the mailbox is gone -- the named individual has left. IDG now trades as Foundry (foundryco.com); no role address is published on either domain.",
+      "response": "Mailbox live, person gone. Use the successor the autoresponder names, and make the case for a role address that survives staff changes."
+    },
+    "privacy@imprintanalytics.io": {
+      "kind": "no_such_mailbox",
+      "observed": "2026-08-28",
+      "evidence": "550 5.1.1 no such user, 2026-08-28. The address Imprint Analytics LLC filed on the California data broker registry -- and the only contact it publishes anywhere. Domain has live Google Workspace MX but serves no website (TLS handshake fails; plain HTTP returns Cloudflare error 1001), so there is no privacy policy page to read a second address off.",
+      "response": "The mailbox is absent though the domain is healthy. Find another published address; the company may not know this one is dead."
+    },
+    "ben@carmarketsolutions.com": {
+      "kind": "no_such_mailbox",
+      "observed": "2026-08-28",
+      "evidence": "NOT a mailbox failure -- a CONNECTION failure. Status 4.4.1, 'the recipient server did not accept our requests to connect [carmarketsolutions.com. 200.225.43.10: timed out]', 2026-08-28 after Gmail retried for three days. The domain has an MX (self-pointing, carmarketsolutions.com) and an A record, so every DNS check passes; nothing is listening on port 25. Confirmed by hand: a direct TCP connect to 200.225.43.10:25 times out. Whether the mailbox exists is UNKNOWN and unknowable from outside -- unlike a 550, this says nothing about the address, only about the server. Worth one retry if the company is ever seen to fix its mail; do not treat as proof the address is wrong.",
+      "response": "The mailbox is absent though the domain is healthy. Find another published address; the company may not know this one is dead."
+    },
+    "privacy@graph8.com": {
+      "kind": "restricted_group",
+      "observed": "2026-08-28",
+      "evidence": "Rejected as a restricted Google Workspace group, 2026-08-28: 'the group you tried to contact (privacy) may not exist, or you may not have permission to post messages to the group'. NOT a stale registry address -- graph8's own support desk gave this address the SAME DAY ('our privacy team handles these requests directly'), and it does not accept external mail. Use support@graph8.com, which is the registry route and answers within a day.",
+      "response": "A privacy@ alias configured as an INTERNAL-ONLY group. It works for staff and silently rejects every consumer, so the company believes it works. Tell them, and use any alternate address."
+    },
+    "support@calltruth.com": {
+      "kind": "dead_domain",
+      "observed": "2026-08-28",
+      "evidence": "BROKEN DNS DELEGATION, not a dead mailbox and not a lapsed registration. Gmail gave up 2026-08-28 after three attempts across three days with 'DNS Error: DNS type mx lookup of calltruth.com responded with code SERVFAIL' (status 4.4.3 -- a TEMPORARY code that never resolved). The domain is still registered (eNom, clientTransferProhibited) and still delegated to DNS1-4.NAME-SERVICES.COM, but those nameservers answer SERVFAIL for every record type -- NS, SOA, MX and A -- from two independent resolvers. So this is a third failure shape distinct from the others here: NXDOMAIN means the name does not exist, no-MX-no-A means no mail route, and SERVFAIL means the name is delegated to servers that are broken or gone. Nothing can be delivered and no bounce arrives quickly, because a resolver cannot distinguish a broken nameserver from a briefly unreachable one. Retry only if the delegation is ever seen to answer.",
+      "response": "The domain itself is gone. Check whether a stranger has re-registered it before sending anything (SILENT_FAILURES 163)."
+    },
+    "privacy@speedeon.com": {
+      "kind": "dead_domain",
+      "observed": "2026-08-28",
+      "evidence": "Permanent failure 2026-08-28 after three days of delays. speedeon.com has NS and A records but NO MX -- the §86 'website with no mail server' case: RFC 5321 falls back to the A record, nothing listens on port 25, and the sender reports delays for days before giving up. NOT the registry route and NOT a problem: the broker is speedeon_data, its filed contact is accounting@speedeondata.com on a DIFFERENT domain, and that address produced a confirmation. This entry only stops a later pass retrying the wrong domain.",
+      "response": "The domain itself is gone. Check whether a stranger has re-registered it before sending anything (SILENT_FAILURES 163)."
+    },
+    "compliance@logiq.com": {
+      "kind": "no_such_mailbox",
+      "observed": "2026-08-28",
+      "evidence": "550 5.1.0 'Recipient not found', 2026-08-28, from smtp.secureserver.net. The address on Logiq Inc's California registration (2020-2023 only). logiq.com is now a PARKED DOMAIN -- it serves a 114-byte page whose only content is a script redirecting to /lander, on GoDaddy nameservers with GoDaddy's default MX. So the mail path is GoDaddy's parking MX, which rejects cleanly rather than timing out. No privacy policy exists to read a second address off; discover_contacts found nothing. Registry years stopping at 2023 fit a company that no longer trades under this name.",
+      "response": "The mailbox is absent though the domain is healthy. Find another published address; the company may not know this one is dead."
+    },
     "ccpa@usinfosearch.com": {
       "observed": "2026-08-28",
       "broker": "martin_data",
       "evidence": "mailer-daemon 'Address not found ... the address couldn't be found, or is unable to receive mail'. The DOMAIN is live (Microsoft 365 MX) -- it is the mailbox that does not exist. Address came from the CA data broker register.",
-      "replacement": "customerservice@usinfosearch.com (published in their own privacy policy PDF as the contact for privacy questions)"
+      "replacement": "customerservice@usinfosearch.com (published in their own privacy policy PDF as the contact for privacy questions)",
+      "kind": "no_such_mailbox",
+      "response": "The mailbox is absent though the domain is healthy. Find another published address; the company may not know this one is dead."
     },
     "compliance@multimedialists.com": {
       "observed": "2026-08-29",
       "broker": "multimedia_lists",
       "evidence": "mailer-daemon 'Address not found ... the address couldn't be found, or is unable to receive mail'. Domain is live on Microsoft 365; the mailbox is not. WORSE THAN A STALE REGISTER ENTRY: this address is published on the company's OWN CURRENT privacy policy as its designated privacy contact, alongside a postal address, and discover_contacts.py independently rediscovered it there. See _SILENT_FAILURES 162.",
-      "replacement": "PrivacyPillar DSAR form linked from their privacy policy as 'Do Not Sell My Information'; toll-free 1-800-239-5478; sales@multimedialists.com is the only other published mailbox"
+      "replacement": "PrivacyPillar DSAR form linked from their privacy policy as 'Do Not Sell My Information'; toll-free 1-800-239-5478; sales@multimedialists.com is the only other published mailbox",
+      "kind": "no_such_mailbox",
+      "response": "The mailbox is absent though the domain is healthy. Find another published address; the company may not know this one is dead."
     },
     "angelan@namericanmedia.com": {
       "observed": "2026-08-29",
       "broker": "north_american_media",
       "kind": "abandoned_mailbox",
       "evidence": "NOT A BOUNCE. The message was accepted and delivered; an autoresponder then said 'This email is no longer active. If you need assistance, please email erinb@namericanmedia.com.' So the send succeeded, the tracker would have read 'submitted', and the request would have sat unread indefinitely. Address came from the CA data broker register. See _SILENT_FAILURES 165.",
-      "replacement": "erinb@namericanmedia.com (named by their own autoresponder); contact@namericanmedia.com is also published on their site"
+      "replacement": "erinb@namericanmedia.com (named by their own autoresponder); contact@namericanmedia.com is also published on their site",
+      "response": "Failure mode not recorded. Re-read the evidence before acting."
     },
     "privacy@nymblr.com": {
       "observed": "2026-08-29",
       "broker": "nymblr",
       "evidence": "550 5.1.1 address not found. Came from the CA data broker register (email_verified_by: ca_data_broker_registry), not from a guess. The Google Workspace tenant IS live -- five MX records, Cloudflare in front -- so the domain is actively maintained and the mailbox simply does not exist. Website serves an infinite 301 loop with a zero-byte body. Fourth register-published address to fail on contact this week.",
-      "replacement": "none found -- no website to read, no alternative address published anywhere reachable"
+      "replacement": "none found -- no website to read, no alternative address published anywhere reachable",
+      "kind": "no_such_mailbox",
+      "response": "The mailbox is absent though the domain is healthy. Find another published address; the company may not know this one is dead."
     },
     "info@quantummedica.co.uk": {
       "observed": "2026-08-29",
       "broker": "proxima_platform",
       "kind": "dead_domain",
       "evidence": "Published on Proxima Platform's own CONSUMER PRIVACY POLICY as the contact. quantummedica.co.uk has NO MX record at all and the website does not resolve (HTTP 000). Not sent to; failure established by DNS rather than by bounce. Proxima publishes THREE different contacts across three policies -- see _SILENT_FAILURES 168.",
-      "replacement": "alex.de.aybar@outlook.com (Smart TV policy + CA register) and alexyaybar@ohomail.com (CCPA page); both live, both written to 2026-08-29"
+      "replacement": "alex.de.aybar@outlook.com (Smart TV policy + CA register) and alexyaybar@ohomail.com (CCPA page); both live, both written to 2026-08-29",
+      "response": "The domain itself is gone. Check whether a stranger has re-registered it before sending anything (SILENT_FAILURES 163)."
     },
     "privacy@date-detective.app": {
       "observed": "2026-08-29",
       "broker": "date_detective",
       "kind": "restricted_group",
       "evidence": "Not a missing mailbox. Google Workspace postmaster rejected it: 'The group privacy isn't set up to receive messages from [the requester's address]' -- a restricted group that accepts internal senders only, so it works for staff and silently rejects every consumer. Same failure mode as graph8 (_SILENT_FAILURES 149). Address is the one published on the CA data broker register. Observed on a send by the other agent, recorded here because dead_addresses.json is the shared record and that agent does not publish a ledger.",
-      "replacement": "none known yet -- no alternative published address found"
+      "replacement": "none known yet -- no alternative published address found",
+      "response": "A privacy@ alias configured as an INTERNAL-ONLY group. It works for staff and silently rejects every consumer, so the company believes it works. Tell them, and use any alternate address."
     },
     "privacy@reklaimyou.com": {
       "address": "privacy@reklaimyou.com",
@@ -102,7 +391,8 @@
       "observed": "2026-08-29",
       "kind": "dead_domain_mailbox",
       "evidence": "550 5.1.1 'The email account that you tried to reach does not exist' from Google. This address is the one published on Reklaim's CURRENT privacy policy at reklaimyou.com; the address on the older California register filing, privacy@reklaimyours.com, delivered normally and autoresponded. The newer published contact is the dead one.",
-      "use_instead": "privacy@reklaimyours.com"
+      "use_instead": "privacy@reklaimyours.com",
+      "response": "Failure mode not recorded. Re-read the evidence before acting."
     },
     "michael@alescodata.com": {
       "address": "michael@alescodata.com",
@@ -110,7 +400,15 @@
       "observed": "2026-08-29",
       "kind": "departed_employee",
       "evidence": "Autoresponder: 'Michael Sklorenko is no longer with the company. Please contact Steve Bell at steve@alescodata.com for assistance.' Mailbox still accepts and answers, so this is not a bounce -- the address works and the person does not. Registered on the CA broker register as the privacy contact for Response Solutions Group LLC.",
-      "use_instead": "steve@alescodata.com"
+      "use_instead": "steve@alescodata.com",
+      "response": "Mailbox live, person gone. Use the successor the autoresponder names, and make the case for a role address that survives staff changes."
+    },
+    "privacy@mediamath.com": {
+      "kind": "accepts_then_fails",
+      "observed": "2026-08-19",
+      "broker": "mediamath",
+      "evidence": "Not a mailbox: a distribution list fanning out to four named individuals, and delivery failed to ALL FOUR -- 'The recipient's mailbox is full and can't accept messages now' x4. The exchanger accepts the message first, so from the sender's side it looks like successful delivery, and the failure arrives afterwards as a separate report. Still published on the California register as the consumer route. See SILENT_FAILURES 181.",
+      "response": "The server ACCEPTS and then fails delivery afterwards, so it looks delivered. Do not retry. Escalate to whoever is still solvent -- an acquirer, a parent, or a successor. Escalated 2026-08-29 to Infillion, which acquired MediaMath's assets."
     }
   }
 }

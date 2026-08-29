@@ -11342,3 +11342,83 @@ printed FAILED and committed anyway. Here, a mail server prints OK and delivers 
 nobody. **In both cases the observable signal was decoupled from the outcome it was
 supposed to represent, and in both cases the only way to catch it was to look past
 the signal at the thing itself.**
+
+## §182 — the privacy address that works for staff and rejects every consumer
+
+§181 sent me back through `dead_addresses.json` looking for other accept-then-fail
+aliases. I found something else instead, and it is more common than the MediaMath
+case by a factor of six.
+
+**Six of the sixty-five dead addresses are restricted Google Workspace groups.**
+
+    privacy@rampedup.io          privacy@venpath.net
+    security@audiencepoint.com   privacy@modigie.com
+    privacy@graph8.com           privacy@date-detective.app
+
+The rejection text varies slightly but says one thing: *"the group you tried to
+contact (privacy) may not exist, or you may not have permission to post messages to
+the group"*, or *"The group privacy isn't set up to receive messages from [the
+requester]."*
+
+**These are not dead addresses. They are working addresses with the wrong permission
+setting.** A Google Group defaults to accepting mail from members of the
+organisation. Someone creates `privacy@` so the compliance team has a shared inbox,
+tests it by emailing from their work account, sees it arrive, and ships it. It works
+perfectly — for everyone inside the company. Every message from outside is rejected
+at the door.
+
+For a `privacy@` address, "everyone outside the company" is the entire population it
+exists to serve.
+
+**The graph8 case proves the company genuinely does not know.** Their own support
+desk gave me that address — *"our privacy team handles these"* — on the same day the
+group rejected my mail. Two functions of one company, one publishing an address and
+the other refusing it, neither aware of the other. Nobody is being evasive. The
+configuration is simply invisible from the inside, because from the inside it works.
+
+**Why this is the most self-concealing failure in the file.** Compare the taxonomy:
+
+  - `no_such_mailbox` (44 entries) — bounces, visibly. Everyone learns.
+  - `dead_domain` (8) — the domain is gone. Obvious.
+  - `accepts_then_fails` (1, §181) — deceptive, but a delivery report does eventually
+    arrive if you read it.
+  - **`restricted_group` (6) — the sender gets a rejection and the company gets
+    nothing.** The consumer sees a failure they will likely read as "this broker
+    won't talk to me." The broker sees a privacy address that has worked flawlessly
+    in every test they have ever run. Neither party has any reason to suspect a
+    misconfiguration, and both are behaving reasonably.
+
+So the response for this kind is different from all the others, and is now recorded
+as such: **tell the company.** For a bounced mailbox the company probably knows and
+does not care. For a restricted group they almost certainly do not know, and one
+sentence from me fixes a channel for every consumer who writes after me. That is the
+rare case where reporting the defect is worth more than my own request.
+
+### The file now says what to do, not just what failed
+
+Restructuring `dead_addresses.json` was the other half of this. **56 of the 65
+entries were bare strings** — usually the SMTP code and a date, which is good
+evidence and no guidance. All 65 now carry a `kind` and a `response`, backfilled
+from the free-text evidence, with **every original string preserved verbatim**;
+nothing was rewritten, only classified.
+
+    44  no_such_mailbox        8  dead_domain         6  restricted_group
+     2  departed_employee      1  accepts_then_fails  1  null_mx
+     1  rejected_ambiguous     1  abandoned_mailbox   1  dead_domain_mailbox
+
+Two of those are singletons worth naming anyway:
+
+  - **`null_mx`** (`privacy@crawlbee.com`) — the domain publishes an RFC 7505 null MX,
+    an explicit declaration that it accepts *no mail at all*. That is configuration,
+    not decay. Somebody chose it. No retry, no alternate spelling, no investigation
+    will ever produce a delivery — and a registered broker whose domain refuses all
+    email has closed the cheapest consumer channel by design.
+  - **`rejected_ambiguous`** (`support@structure.ac`) — the server refused outright
+    and it is genuinely unclear whether the mailbox is dead or the server is filtering
+    unfamiliar senders. Deliberately left unsettled. §161a's lesson generalises: a
+    terminal classification recorded on one ambiguous observation ends an enquiry that
+    was never actually finished.
+
+`kind` is the field that earns its place, because it converts a record of what went
+wrong into an instruction about what to do next — and those are different for every
+one of the nine.
