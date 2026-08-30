@@ -7370,8 +7370,11 @@
       "needs_email_confirm": null,
       "category": "adtech",
       "source": "privacyinsightsolutions",
-      "email_verified": false,
-      "email_verified_by": "no_address_published"
+      "email_verified": true,
+      "email_verified_by": "published_privacy_policy",
+      "email_to": "dpo@quantcast.com",
+      "email_alt": "legal@quantcast.com",
+      "email_note": "|| 2026-08-30 DISCOVERED from https://www.quantcast.com/privacy/ : dpo@quantcast.com (DPO), legal@quantcast.com, contact@quantcast.com and contact.dublin@quantcast.com. The policy also names info@dataprotection.ie -- the Irish Data Protection Commission -- which together with the Dublin contact makes the GDPR Art 3(1) ESTABLISHMENT question well-founded here rather than speculative: they publish an EU entity and an EU lead supervisory authority. Category adtech, so the letter is sent --keys email-only per 195/195a."
     },
     {
       "id": "quick_people_trace",
