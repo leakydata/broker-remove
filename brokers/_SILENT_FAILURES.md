@@ -12494,3 +12494,63 @@ doing at some point. It is not worth doing *instead of* keeping the human decisi
 because the third case — a live-compile people-search site, where the maximal set is
 the suppression rather than a disclosure (§193) — is not distinguishable from
 metadata at all.
+
+## §196 — classifying 1,248 brokers by what they say they do, and the mislabel that would have hurt
+
+§195b established that the key-set heuristic reads a `category` field populated on 48
+of 1,248 rows, and that inferring category from the broker *name* adds only 48 more.
+Most names are just names. "Bliss Point Media" is CTV measurement and says nothing.
+
+So `scripts/classify_brokers.py` reads the site instead — title, meta description and
+the first few thousand characters of visible text — and matches category vocabulary
+drawn from how these companies describe themselves.
+
+Run against the 459 pending rows: **88 of 164 attempted classified.** 31
+people-search, 28 adtech, 22 B2B contact, 5 compilers, 1 screening, 1 list broker.
+Registry coverage went from 48 to 136, and the number of pending rows the key
+heuristic can flag went from **4 to 30**.
+
+### The mislabel, caught on the fifth test row
+
+The first draft put `adtech` first in the rule order and matched on the bare word
+**`cookie`**. Spokeo came back as `adtech`.
+
+That is the dangerous direction, and it is worth being precise about why. A
+people-search site labelled adtech would make the tool suggest a *minimised*
+identifier set. A partial search against a name-keyed file returns a truthful **"no
+record found"** that is simply wrong — and gets recorded as `not_found`, which is
+terminal and settles the broker forever (§161a, §194). The reverse mistake, labelling
+an adtech firm as people-search, costs only an over-disclosure the sender chose to
+make.
+
+**The two errors are not symmetric, so the rule order is defensive:** `people_search`
+and `screening` are tested first, before `adtech`. And `cookie` is gone — every site
+on the internet has a cookie banner, which makes it a pure false-positive generator.
+So is `maid`, for the same reason.
+
+It surfaced on the fifth test row rather than the five-hundredth letter, which is the
+entire argument for testing a classifier against rows whose answer you already know
+before pointing it at the ones you don't.
+
+### Provenance, again
+
+Every category written by the script carries `category_source: "site_classifier
+2026-08-30"`, and hand-set categories are never overwritten. §192 is the reason: once
+a checked claim and a guessed one sit in the same field, written in the same voice,
+no later reader can tell them apart — and the later reader is usually me.
+
+**76 of the 164 attempted came back unclassified**, mostly bot-blocked sites
+returning 403. That is the correct outcome rather than a gap to be filled: an
+unclassified row falls through to `full`, which is the safe default. A classifier
+that guessed at Cloudflare error pages would be worse than one that declines.
+
+### What it still cannot do
+
+The category feeds a *suggestion*. It does not decide, and §195a's reasoning is
+unchanged by better coverage — because the third case is not visible in site copy at
+all. A **live-compile people-search site**, where reports are built on demand and the
+maximal identifier set *is* the suppression rather than a disclosure (§193), reads
+exactly like any other people-search site. Intelius told me that architecture in a
+support reply; no amount of homepage scraping would have found it.
+
+Better coverage makes the warning fire more often. It does not move the judgement.

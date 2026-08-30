@@ -748,6 +748,8 @@
       "optery_slug": "smartbackgroundchecks",
       "email_verified": false,
       "email_verified_by": "no_address_published",
+      "category": "people_search",
+      "category_source": "site_classifier 2026-08-30",
       "source": "curated"
     },
     {
@@ -1256,6 +1258,8 @@
       "optery_slug": "publicrecordsnow",
       "email_verified": false,
       "email_verified_by": "no_address_published",
+      "category": "people_search",
+      "category_source": "site_classifier 2026-08-30",
       "source": "curated"
     },
     {
@@ -1863,7 +1867,9 @@
       "source": "optery_scrape",
       "optery_slug": "addresssearch-com",
       "email_verified": false,
-      "email_verified_by": "no_address_published"
+      "email_verified_by": "no_address_published",
+      "category": "people_search",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "adeptid",
@@ -2465,7 +2471,9 @@
       "source": "optery_scrape",
       "optery_slug": "americaphonebook",
       "email_verified": false,
-      "email_verified_by": "no_address_published"
+      "email_verified_by": "no_address_published",
+      "category": "people_search",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "amplemarket",
@@ -4111,7 +4119,9 @@
       "source": "optery_scrape",
       "optery_slug": "california-arrests",
       "email_verified": false,
-      "email_verified_by": "no_address_published"
+      "email_verified_by": "no_address_published",
+      "category": "people_search",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "california_birth_index",
@@ -4135,7 +4145,9 @@
       "source": "optery_scrape",
       "optery_slug": "california-criminal-records-search",
       "email_verified": false,
-      "email_verified_by": "no_address_published"
+      "email_verified_by": "no_address_published",
+      "category": "people_search",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "californiabrokers_org",
@@ -5014,7 +5026,9 @@
       "source": "optery_scrape",
       "optery_slug": "coloradoresidentdirectory",
       "email_verified": false,
-      "email_verified_by": "no_address_published"
+      "email_verified_by": "no_address_published",
+      "category": "people_search",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "commerce_signals",
@@ -5204,7 +5218,9 @@
       "source": "optery_scrape",
       "optery_slug": "connecticut-resident-directory",
       "email_verified": false,
-      "email_verified_by": "no_address_published"
+      "email_verified_by": "no_address_published",
+      "category": "people_search",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "connecticutcourtrecords_us",
@@ -6576,7 +6592,9 @@
       "source": "optery_scrape",
       "optery_slug": "dobsearch-com",
       "email_verified": false,
-      "email_verified_by": "no_address_published"
+      "email_verified_by": "no_address_published",
+      "category": "people_search",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "dojomojo",
@@ -7717,7 +7735,9 @@
       "source": "optery_scrape",
       "optery_slug": "florida-voter-directory",
       "email_verified": false,
-      "email_verified_by": "no_address_published"
+      "email_verified_by": "no_address_published",
+      "category": "people_search",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "floridacourtrecords_us",
@@ -7991,7 +8011,9 @@
       "source": "optery_scrape",
       "optery_slug": "free-people-directory",
       "email_verified": false,
-      "email_verified_by": "no_address_published"
+      "email_verified_by": "no_address_published",
+      "category": "people_search",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "freebackgroundcheck_org",
@@ -12804,7 +12826,9 @@
       "source": "optery_scrape",
       "optery_slug": "nevada-arrests",
       "email_verified": false,
-      "email_verified_by": "no_address_published"
+      "email_verified_by": "no_address_published",
+      "category": "people_search",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "nevadacourtrecords_us",
@@ -13632,7 +13656,9 @@
       "source": "optery_scrape",
       "optery_slug": "openpublicrecords",
       "email_verified": false,
-      "email_verified_by": "no_address_published"
+      "email_verified_by": "no_address_published",
+      "category": "people_search",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "opensend",
@@ -15098,7 +15124,9 @@
       "source": "optery_scrape",
       "optery_slug": "publicrecordcenter-com",
       "email_verified": false,
-      "email_verified_by": "no_address_published"
+      "email_verified_by": "no_address_published",
+      "category": "people_search",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "publicrecordcom",
@@ -16637,7 +16665,9 @@
       "optout_url": "https://www.searchusapeople.com/data-removal-request/",
       "needs_email_confirm": null,
       "source": "optery_scrape",
-      "optery_slug": "searchusapeople"
+      "optery_slug": "searchusapeople",
+      "category": "people_search",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "secretinfo",
@@ -17555,7 +17585,9 @@
         "2025",
         "2026"
       ],
-      "legal_name": "StackAdapt Inc."
+      "legal_name": "StackAdapt Inc.",
+      "category": "adtech",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "staircase",
@@ -17587,7 +17619,9 @@
       "registry_years": [
         "2025"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "category": "adtech",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "stat_resource_group_llc_dba_statlistics",
@@ -17689,7 +17723,9 @@
         "2025",
         "2026"
       ],
-      "legal_name": "StatSocial"
+      "legal_name": "StatSocial",
+      "category": "adtech",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "step2success_marketing",
@@ -17885,7 +17921,9 @@
         "2025",
         "2026"
       ],
-      "legal_name": "Qurium Solutions, Inc."
+      "legal_name": "Qurium Solutions, Inc.",
+      "category": "compiler",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "swoop_com",
@@ -17904,7 +17942,9 @@
         "2025",
         "2026"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "category": "adtech",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "sync_me",
@@ -17960,7 +18000,9 @@
         "2025",
         "2026"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "category": "adtech",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "tagx",
@@ -18025,7 +18067,9 @@
         "2020-2023"
       ],
       "legal_name": null,
-      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (SILENT_FAILURES 170): filings have lapsed, so the 163 domain check ran and CLEARED this row -- the site is live and carries the registrant's own name, so the domain has not been re-registered by anyone else. Safe to send normally; no further domain check needed."
+      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (SILENT_FAILURES 170): filings have lapsed, so the 163 domain check ran and CLEARED this row -- the site is live and carries the registrant's own name, so the domain has not been re-registered by anyone else. Safe to send normally; no further domain check needed.",
+      "category": "compiler",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "tauxbe_data",
@@ -18044,7 +18088,9 @@
         "2026"
       ],
       "legal_name": null,
-      "domain_source": "ca_registry_contact_email"
+      "domain_source": "ca_registry_contact_email",
+      "category": "people_search",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "td_cowen",
@@ -18110,7 +18156,9 @@
         "2025",
         "2026"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "category": "compiler",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "tennessee_arrests",
@@ -18167,7 +18215,9 @@
       "source": "optery_scrape",
       "optery_slug": "texas-arrest-warrants-search",
       "email_verified": false,
-      "email_verified_by": "no_address_published"
+      "email_verified_by": "no_address_published",
+      "category": "people_search",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "texas_arrests",
@@ -18227,7 +18277,9 @@
         "2024",
         "2025"
       ],
-      "legal_name": "PureCars Technologies, LLC"
+      "legal_name": "PureCars Technologies, LLC",
+      "category": "adtech",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "the_bridge",
@@ -18261,7 +18313,9 @@
         "2025",
         "2026"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "category": "people_search",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "the_org",
@@ -18322,7 +18376,9 @@
         "2025",
         "2026"
       ],
-      "legal_name": "Swarm Holdings, Inc."
+      "legal_name": "Swarm Holdings, Inc.",
+      "category": "b2b_contact",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "think_data",
@@ -18341,7 +18397,9 @@
         "2025",
         "2026"
       ],
-      "legal_name": "Think Data Group Inc"
+      "legal_name": "Think Data Group Inc",
+      "category": "adtech",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "throtle",
@@ -18361,7 +18419,9 @@
         "2024",
         "2025"
       ],
-      "legal_name": "Throtle, Inc"
+      "legal_name": "Throtle, Inc",
+      "category": "adtech",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "tie",
@@ -18517,7 +18577,9 @@
         "2025",
         "2026"
       ],
-      "legal_name": "TripleLift, Inc."
+      "legal_name": "TripleLift, Inc.",
+      "category": "adtech",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "true_blue_analytics",
@@ -18571,7 +18633,9 @@
         "2025",
         "2026"
       ],
-      "legal_name": "TrueData Solutions, Inc."
+      "legal_name": "TrueData Solutions, Inc.",
+      "category": "adtech",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "truepeoplesearch_net",
@@ -18797,7 +18861,9 @@
       "source": "optery_scrape",
       "optery_slug": "unitedstatesphonebook-com",
       "email_verified": false,
-      "email_verified_by": "no_address_published"
+      "email_verified_by": "no_address_published",
+      "category": "people_search",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "unmask",
@@ -18836,7 +18902,9 @@
         "2025",
         "2026"
       ],
-      "legal_name": "upcell, LLC"
+      "legal_name": "upcell, LLC",
+      "category": "b2b_contact",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "ups_capital",
@@ -18900,7 +18968,9 @@
       "source": "optery_scrape",
       "optery_slug": "usa-people-search",
       "email_verified": false,
-      "email_verified_by": "no_address_published"
+      "email_verified_by": "no_address_published",
+      "category": "people_search",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "usadata",
@@ -19096,7 +19166,9 @@
         "2024"
       ],
       "legal_name": "Valassis Communications, Inc.",
-      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (SILENT_FAILURES 170): filings have lapsed, so the 163 domain check ran and CLEARED this row -- the site is live and carries the registrant's own name, so the domain has not been re-registered by anyone else. Safe to send normally; no further domain check needed."
+      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (SILENT_FAILURES 170): filings have lapsed, so the 163 domain check ran and CLEARED this row -- the site is live and carries the registrant's own name, so the domain has not been re-registered by anyone else. Safe to send normally; no further domain check needed.",
+      "category": "adtech",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "valassis_communications_inc_an_rrd",
@@ -19151,7 +19223,9 @@
         "2025",
         "2026"
       ],
-      "legal_name": "GetVector, Inc."
+      "legal_name": "GetVector, Inc.",
+      "category": "adtech",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "veeva_systems",
@@ -19172,7 +19246,9 @@
         "2025",
         "2026"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "category": "compiler",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "vendelux",
@@ -19191,7 +19267,9 @@
         "2025",
         "2026"
       ],
-      "legal_name": "Vendelux, Inc."
+      "legal_name": "Vendelux, Inc.",
+      "category": "adtech",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "venntel",
@@ -19464,7 +19542,9 @@
         "2025",
         "2026"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "category": "adtech",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "viewdns",
@@ -19548,7 +19628,9 @@
         "2025",
         "2026"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "category": "adtech",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "vizio_services",
@@ -19616,7 +19698,9 @@
         "2025",
         "2026"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "category": "adtech",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "warmly",
@@ -19730,7 +19814,9 @@
         "2025",
         "2026"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "category": "list_broker",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "webbula",
@@ -19882,7 +19968,9 @@
         "2025",
         "2026"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "category": "b2b_contact",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "windfall",
@@ -20036,7 +20124,9 @@
       "registry_years": [
         "2026"
       ],
-      "legal_name": "WURL, LLC"
+      "legal_name": "WURL, LLC",
+      "category": "adtech",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "wyoming_arrests",
@@ -20118,7 +20208,9 @@
         "2025",
         "2026"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "category": "adtech",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "xome",
@@ -20170,7 +20262,9 @@
         "2025",
         "2026"
       ],
-      "legal_name": "PubMatic Inc."
+      "legal_name": "PubMatic Inc.",
+      "category": "adtech",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "yieldmo",
@@ -20207,7 +20301,9 @@
         "2025",
         "2026"
       ],
-      "legal_name": "Yobi Ventures, Inc."
+      "legal_name": "Yobi Ventures, Inc.",
+      "category": "adtech",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "yobi_ventures",
@@ -20228,7 +20324,9 @@
       "legal_name": null,
       "duplicate_of": "yobi_ai",
       "notes": "Resolves to yobi.ai, the same site as yobi_ai. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the yobi_ai thread rather than opening a second request.",
-      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (see _SILENT_FAILURES 170): filings lapsed and the website does not load, but the domain has LIVE MX -- a maintained mail tenant with no site, the nymblr/minerva shape rather than the Near danger case where a stranger owns the domain. Safe to email, and email is the only channel; say so in the letter so it is not mistaken for skipping a form, and ask them to name an acquirer if the data has moved."
+      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (see _SILENT_FAILURES 170): filings lapsed and the website does not load, but the domain has LIVE MX -- a maintained mail tenant with no site, the nymblr/minerva shape rather than the Near danger case where a stranger owns the domain. Safe to email, and email is the only channel; say so in the letter so it is not mistaken for skipping a form, and ask them to name an acquirer if the data has moved.",
+      "category": "compiler",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "zeotap",
@@ -20247,7 +20345,9 @@
         "2024"
       ],
       "legal_name": null,
-      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (SILENT_FAILURES 170): filings have lapsed, so the 163 domain check ran and CLEARED this row -- the site is live and carries the registrant's own name, so the domain has not been re-registered by anyone else. Safe to send normally; no further domain check needed."
+      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (SILENT_FAILURES 170): filings have lapsed, so the 163 domain check ran and CLEARED this row -- the site is live and carries the registrant's own name, so the domain has not been re-registered by anyone else. Safe to send normally; no further domain check needed.",
+      "category": "adtech",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "zerotoone_ai",
@@ -20419,7 +20519,9 @@
       "email_to": "support@addressscoop.com",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here."
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "category": "screening",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "addrhistory",
@@ -20459,7 +20561,9 @@
       "email_to": "support@aeroleads.com",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here."
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "category": "people_search",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "affluense_ai",
@@ -20474,7 +20578,9 @@
       "email_to": "privacy@affluense.ai",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here."
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "category": "b2b_contact",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "aged_solar_leads",
@@ -20489,7 +20595,9 @@
       "email_to": "info@agedsolarleads.com",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here."
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "category": "b2b_contact",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "alignable",
@@ -20517,7 +20625,9 @@
       "email_to": "privacy@allantgroup.com",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here."
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "category": "adtech",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "allhighschools_com",
@@ -20980,7 +21090,9 @@
       "email_to": "privacy@cbinsights.com",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here."
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "category": "b2b_contact",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "census_info_us",
@@ -21044,7 +21156,9 @@
       "email_to": "privacy@clay.com",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here."
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "category": "b2b_contact",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "clearout_io",
@@ -21083,7 +21197,9 @@
       "email_to": "support@clodura.ai",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here."
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "category": "b2b_contact",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "closely",
@@ -21159,7 +21275,9 @@
       "email_to": "privacy@comscore.com",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here."
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "category": "adtech",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "contactout",
@@ -21179,7 +21297,9 @@
         "2020-2023",
         "2025",
         "2026"
-      ]
+      ],
+      "category": "b2b_contact",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "cortera",
@@ -21314,7 +21434,9 @@
         "2024",
         "2025",
         "2026"
-      ]
+      ],
+      "category": "adtech",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "dark_reading",
@@ -21341,7 +21463,9 @@
       "email_to": "gdpr@datagma.com",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here."
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "category": "b2b_contact",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "datalead",
@@ -21514,7 +21638,9 @@
       "email_verified": false,
       "email_verified_by": "offdomain_needs_confirmation",
       "notes": "privacy@mentibus.com is not on edgein.io -- the site publishes no address on the broker's own domain. Either an acquisition (route is correct) or a wrong domain in the registry (route is a stranger). Confirm the corporate relationship before sending: the letter carries a full identifier set.",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here. || 2026-08-29: rebranded, edgein.io -> mentibus.xyz; contact privacy@mentibus.com matches the new name."
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here. || 2026-08-29: rebranded, edgein.io -> mentibus.xyz; contact privacy@mentibus.com matches the new name.",
+      "category": "adtech",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "elocal_usa",
@@ -21732,7 +21858,9 @@
       "email_to": "privacy@finalscout.com",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here."
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "category": "people_search",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "finalsite",
@@ -21829,7 +21957,9 @@
       "optery_slug": "first-advantage-corporation",
       "email_verified": false,
       "email_verified_by": "no_address_published",
-      "notes": "support@moxiworks.com is not on firstadvantage.com -- the site publishes no address on the broker's own domain. Either an acquisition (route is correct) or a wrong domain in the registry (route is a stranger). Confirm the corporate relationship before sending: the letter carries a full identifier set. Registry domain was firstadvantage.com, which redirects to erafirst.com -- ERA First Advantage Realty, a real-estate brokerage with no connection to First Advantage Corporation. That is how support@moxiworks.com (real-estate software) was scraped as the privacy contact. First Advantage Corporation operates on fadv.com."
+      "notes": "support@moxiworks.com is not on firstadvantage.com -- the site publishes no address on the broker's own domain. Either an acquisition (route is correct) or a wrong domain in the registry (route is a stranger). Confirm the corporate relationship before sending: the letter carries a full identifier set. Registry domain was firstadvantage.com, which redirects to erafirst.com -- ERA First Advantage Realty, a real-estate brokerage with no connection to First Advantage Corporation. That is how support@moxiworks.com (real-estate software) was scraped as the privacy contact. First Advantage Corporation operates on fadv.com.",
+      "category": "people_search",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "first_beat_media",
@@ -21910,7 +22040,9 @@
       "email_to": "privacy@fullcontact.com",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here."
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "category": "adtech",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "fullenrich",
@@ -21925,7 +22057,9 @@
       "email_to": "support@fullenrich.com",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here."
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "category": "b2b_contact",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "furyforums_com",
@@ -22003,7 +22137,9 @@
       "email_verified": false,
       "email_verified_by": "offdomain_needs_confirmation",
       "notes": "getemailsales@dnb.com is not on getemail.io -- the site publishes no address on the broker's own domain. Either an acquisition (route is correct) or a wrong domain in the registry (route is a stranger). Confirm the corporate relationship before sending: the letter carries a full identifier set.",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here."
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "category": "b2b_contact",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "getprospect",
@@ -22018,7 +22154,9 @@
       "email_to": "support@getprospect.com",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here."
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "category": "b2b_contact",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "github",
@@ -22247,7 +22385,9 @@
         "2024",
         "2025",
         "2026"
-      ]
+      ],
+      "category": "b2b_contact",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "hunter_web_services",
@@ -22376,7 +22516,9 @@
       "registry_years": [
         "2020-2023"
       ],
-      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (SILENT_FAILURES 170): filings have lapsed, so the 163 domain check ran and CLEARED this row -- the site is live and carries the registrant's own name, so the domain has not been re-registered by anyone else. Safe to send normally; no further domain check needed."
+      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (SILENT_FAILURES 170): filings have lapsed, so the 163 domain check ran and CLEARED this row -- the site is live and carries the registrant's own name, so the domain has not been re-registered by anyone else. Safe to send normally; no further domain check needed.",
+      "category": "b2b_contact",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "ipqualityscore",
@@ -22816,7 +22958,9 @@
       "email_to": "support@muraena.ai",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here."
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "category": "people_search",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "my_funny_profile",
@@ -22945,7 +23089,9 @@
       "email_to": "support@nocallername.com",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here."
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "category": "people_search",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "noon_ai",
@@ -23182,7 +23328,9 @@
       "email_to": "dataprotectionofficer@optimalfusion.com",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here."
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "category": "adtech",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "orbitly",
@@ -23295,7 +23443,9 @@
       "email_verified": false,
       "email_verified_by": "offdomain_needs_confirmation",
       "notes": "info@virtivox.com is not on peeplookup.net -- the site publishes no address on the broker's own domain. Either an acquisition (route is correct) or a wrong domain in the registry (route is a stranger). Confirm the corporate relationship before sending: the letter carries a full identifier set.",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here."
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "category": "people_search",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "peepslocator",
@@ -23822,7 +23972,9 @@
       "email_to": "privacy@peoplerecords.org",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here."
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "category": "people_search",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "robokiller",
@@ -23913,7 +24065,9 @@
       "email_to": "privacy@salesforce.com",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here."
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "category": "b2b_contact",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "salesgear",
@@ -23928,7 +24082,9 @@
       "email_to": "support@salesgear.io",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here."
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "category": "b2b_contact",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "salesgear_io",
@@ -23945,7 +24101,9 @@
       "email_verified_by": "privacy_policy",
       "duplicate_of": "salesgear",
       "notes": "Resolves to salesgear.io, the same site as salesgear. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the salesgear thread rather than opening a second request.",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here."
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "category": "b2b_contact",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "saleshandy_ikigai_infotech_llp",
@@ -23972,7 +24130,9 @@
       "email_to": "support@salesintel.io",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here."
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "category": "b2b_contact",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "scribd",
@@ -24092,7 +24252,9 @@
       "email_to": "support@signalhire.com",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here."
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "category": "b2b_contact",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "simplecontacts",
@@ -24119,7 +24281,9 @@
       "email_to": "dpo@simunix.com",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here."
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "category": "people_search",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "slideplayer",
@@ -24184,7 +24348,9 @@
       "email_to": "privacy@sprouts.ai",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here."
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "category": "b2b_contact",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "stageresearch",
@@ -24504,7 +24670,9 @@
       "email_verified": false,
       "email_verified_by": "published_general_mailbox",
       "notes": "hello@thisnumber.com is the only address published on the site and is a general mailbox, not a rights channel. Re-check for a privacy contact before treating silence as refusal.",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here."
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "category": "people_search",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "thomson_reuters",
@@ -24562,7 +24730,9 @@
       "email_to": "privacy@tomba.io",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here."
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "category": "b2b_contact",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "top4backgroundchecks",
@@ -24646,7 +24816,9 @@
       "email_to": "support@transcend.io",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here. || 2026-08-29 CATEGORY CHECK (173): same as onetrust -- Transcend is a privacy-request platform listed in _FAMILIES.md, not obviously a broker. Decide the category before writing."
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here. || 2026-08-29 CATEGORY CHECK (173): same as onetrust -- Transcend is a privacy-request platform listed in _FAMILIES.md, not obviously a broker. Decide the category before writing.",
+      "category": "adtech",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "transparent_nevada",
@@ -24662,7 +24834,9 @@
       "email_verified": false,
       "email_verified_by": "offdomain_needs_confirmation",
       "notes": "info@nevadapolicy.org is not on transparentnevada.com -- the site publishes no address on the broker's own domain. Either an acquisition (route is correct) or a wrong domain in the registry (route is a stranger). Confirm the corporate relationship before sending: the letter carries a full identifier set.",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here."
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "category": "people_search",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "trulia",
@@ -24968,7 +25142,9 @@
       "registry_years": [
         "2025",
         "2026"
-      ]
+      ],
+      "category": "people_search",
+      "category_source": "site_classifier 2026-08-30"
     },
     {
       "id": "x_ray_contact",
