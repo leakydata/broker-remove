@@ -12554,3 +12554,49 @@ exactly like any other people-search site. Intelius told me that architecture in
 support reply; no amount of homepage scraping would have found it.
 
 Better coverage makes the warning fire more often. It does not move the judgement.
+
+### §196a — the minimised letter contradicted itself four times
+
+Before sending the first batch under the new key policy, I read a generated
+`--keys email-only` letter end to end. It withheld the date of birth, the postal
+addresses and the phone numbers correctly — and then said, four separate times, that
+it had included them:
+
+  - *"every email address, address and telephone number listed below is mine"*
+  - *"I have listed prior addresses and old telephone numbers deliberately"*
+  - *"I am asking you to SEARCH on those prior addresses and numbers"*
+  - *"if any of them is a category you do not otherwise process — date of birth,
+    postal addresses and telephone numbers are the usual ones"*
+
+The data had been stripped and the prose about the data had not.
+
+**That is worse than sending the full set.** A letter claiming to have listed prior
+addresses while listing none reads as careless, and carelessness is exactly what the
+minimisation is meant to disprove: §195a's whole point was that a marked omission
+reads as a decision and an unmarked one reads as an oversight. Four sentences
+describing absent data turn a deliberate act back into an apparent mistake — and
+invite the reader to wonder what else in the letter is boilerplate.
+
+It would have gone to 28 recipients. It was caught by reading one generated letter
+before sending any of them, which cost about a minute.
+
+Fixed by parameterising the four passages rather than deleting them, so each mode
+gets prose that matches its own data:
+
+  - the identity preamble now says "every email address listed below is mine";
+  - the prior-identifiers rationale becomes the §189a argument instead — *several of
+    these addresses are at services that no longer exist, which is exactly why they
+    are the records I cannot check and you can*;
+  - the cap becomes conditional — *if you hold a postal address or number for me,
+    suppress the association rather than the value* — which is the right form when
+    none were supplied;
+  - the closing note drops the list of categories that were not sent.
+
+**The general shape:** when a tool learns to omit something, the omission has to
+propagate to everything that referred to it. Stripping data from a template is a
+one-line change; stripping the *claims about* that data is not, and nothing fails
+loudly when you skip the second half. The output is still well-formed, still sends,
+still reads fluently — and quietly asserts things that are not true.
+
+Same family as §179's gate and §185's crash: the machinery kept working, and only
+reading the actual artifact showed what it was producing.

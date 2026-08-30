@@ -30,10 +30,7 @@ To the Privacy Officer at {broker},
 
 I am submitting a consumer request regarding my personal information.
 
-I am the consumer, writing about my own data. I am not an authorized agent acting
-for anyone else, and every email address, address and telephone number listed
-below is mine. I list them all so that each can be searched, because records are
-frequently held against details a person no longer uses.
+{ident_intro}
 
 I request that you:
   1. DELETE all personal information you hold about me;
@@ -54,16 +51,7 @@ To help you locate my records, my identifying details are:
 {profile_block}{prior_block}
 {scope_block}
 
-I have listed prior addresses and old telephone numbers deliberately. Records are
-frequently indexed against a former address or a disconnected number rather than
-a current one, and a search limited to my present details will miss them.
-
-To be clear about the scope of that: I am asking you to SEARCH on those prior
-addresses and numbers, and to suppress the records that turn out to be ABOUT ME.
-I am not asking you to suppress an address or a telephone number in itself. Other
-people live at those addresses now, and those numbers have been reassigned --
-suppressing them outright would remove strangers from your file, which is not
-something I am entitled to ask for on their behalf.
+{prior_rationale}
 {suppress_block}
 I am exercising rights available to me under applicable state consumer privacy
 law, including the California Consumer Privacy Act as amended by the CPRA
@@ -91,13 +79,7 @@ mean something:
      current address; they search the one they have. If that is how your system
      works, please apply the suppression across every identifier listed above.
 
-One limit on that, which I would ask you to respect even though it costs me
-something: other people live at my former addresses now and several of those
-telephone numbers have been reassigned. Please suppress the ASSOCIATION between
-those details and me -- keyed to my name and date of birth -- and never the
-address or number in itself. If your system can only exclude a bare value, please
-do not apply it to the former ones at all. I would rather remain findable than
-have a stranger's record suppressed on my account.
+{cap_block}
 
 Please send all correspondence about this request, including any verification
 step and your written confirmation, to {contact}.{contact_note}
@@ -106,12 +88,7 @@ Please do not ask me to create an account, and do not request a copy of a
 government-issued identity document; less intrusive verification is sufficient
 given the limited scope of this request.
 
-The identifiers above are supplied solely as search keys. If any of them is a
-category you do not otherwise process -- date of birth, postal addresses and
-telephone numbers are the usual ones -- please do not retain it beyond what you
-need to evidence that you handled this request. I would rather not have supplied
-you with data you did not previously hold, and I list everything only because I
-cannot tell from outside which keys you use.
+{minimise_tail}
 
 I look forward to your confirmation within the period required by law.
 
@@ -271,6 +248,41 @@ def load_profile():
         "aliases": ", ".join(aliases),
         "dob": p.get("dob_display") or p.get("date_of_birth") or "(not provided)",
         "prior_block": prior_block,
+        "ident_intro": (
+            "I am the consumer, writing about my own data. I am not an authorized "
+            "agent acting\nfor anyone else, and every email address, address and "
+            "telephone number listed\nbelow is mine. I list them all so that each "
+            "can be searched, because records are\nfrequently held against details "
+            "a person no longer uses."),
+        "prior_rationale": (
+            "I have listed prior addresses and old telephone numbers deliberately. "
+            "Records are\nfrequently indexed against a former address or a "
+            "disconnected number rather than\na current one, and a search limited "
+            "to my present details will miss them.\n\nTo be clear about the scope "
+            "of that: I am asking you to SEARCH on those prior\naddresses and "
+            "numbers, and to suppress the records that turn out to be ABOUT ME.\n"
+            "I am not asking you to suppress an address or a telephone number in "
+            "itself. Other\npeople live at those addresses now, and those numbers "
+            "have been reassigned --\nsuppressing them outright would remove "
+            "strangers from your file, which is not\nsomething I am entitled to "
+            "ask for on their behalf."),
+        "cap_block": (
+            "One limit on that, which I would ask you to respect even though it "
+            "costs me\nsomething: other people live at my former addresses now and "
+            "several of those\ntelephone numbers have been reassigned. Please "
+            "suppress the ASSOCIATION between\nthose details and me -- keyed to my "
+            "name and date of birth -- and never the\naddress or number in itself. "
+            "If your system can only exclude a bare value, please\ndo not apply it "
+            "to the former ones at all. I would rather remain findable than\nhave "
+            "a stranger's record suppressed on my account."),
+        "minimise_tail": (
+            "The identifiers above are supplied solely as search keys. If any of "
+            "them is a\ncategory you do not otherwise process -- date of birth, "
+            "postal addresses and\ntelephone numbers are the usual ones -- please "
+            "do not retain it beyond what you\nneed to evidence that you handled "
+            "this request. I would rather not have supplied\nyou with data you did "
+            "not previously hold, and I list everything only because I\ncannot tell "
+            "from outside which keys you use."),
         "mailing_block": (p["address"] + indent +
                           f"{p['city']}, {p['state']} {p['zip_code']}"),
         "scope_block": (
@@ -326,6 +338,37 @@ def render(b, prof, to=None, contact=None, keys="full"):
         # Strip the name-keyed identifiers and say why, rather than silently
         # sending a thinner letter that reads like an oversight.
         prof["prior_block"] = "\n" + MINIMISED_NOTE
+        # The prose that assumes a full identifier list has to go with the data.
+        # A minimised letter that still says "I have listed prior addresses
+        # deliberately" while listing none reads as careless, and undermines the
+        # one thing the minimisation is trying to demonstrate: that the omission
+        # was a decision. Caught by reading a generated letter before sending it
+        # to 28 recipients (_SILENT_FAILURES 196a).
+        prof["ident_intro"] = (
+            "I am the consumer, writing about my own data. I am not an authorized "
+            "agent acting\nfor anyone else, and every email address listed below is "
+            "mine. I list them all so\nthat each can be searched, because records "
+            "are frequently held against an address\na person no longer uses.")
+        prof["prior_rationale"] = (
+            "Several of those addresses are at services that no longer exist. I "
+            "list them\nbecause they are exactly the records I cannot check myself "
+            "-- nothing sent to them\nwill ever be read by anyone -- and because an "
+            "old file is keyed to the address\nsomebody had when the record was "
+            "made, not the one they use now.")
+        prof["cap_block"] = (
+            "One limit, which I would ask you to respect even though it costs me "
+            "something:\nif you hold a postal address or telephone number for me, "
+            "please suppress the\nASSOCIATION between it and me rather than the "
+            "value itself. Other people live at\nmy former addresses now and "
+            "several of my old numbers have been reassigned, so\nexcluding a bare "
+            "value would remove a stranger from your file. If your system can\n"
+            "only exclude bare values, please leave the former ones alone. I would "
+            "rather\nremain findable than have someone else suppressed on my "
+            "account.")
+        prof["minimise_tail"] = (
+            "The addresses above are supplied solely as search keys, and nothing "
+            "else was\nsupplied at all. If you retain any of them, please retain "
+            "only what you need to\nevidence that you handled this request.")
         prof["scope_block"] = (
             "This request covers records associated with any of the email "
             "addresses listed\nabove. Please search each of them, in plaintext "
