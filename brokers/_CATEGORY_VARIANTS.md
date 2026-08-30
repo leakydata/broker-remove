@@ -3150,3 +3150,90 @@ Cite the CCPA B2B and employee carve-out expiry (1 January 2023, not renewed)
 explicitly in this category. Candidate and professional contact data is exactly the
 kind a recruiting firm may still assume is exempt, and the assumption is three years
 out of date.
+
+## Health data in advertising, and the de-identification gap
+
+Five companies in this project sit on health data in some form, and none of them is a
+covered entity in the sense a hospital is. The letter has to be built differently for
+each, but they share one argument, and it is the most important in this file.
+
+    swoop_com        health-audience targeting: rare disease, non-adherence
+    nexxen           adtech with a healthcare data partner in the stack
+    everyday_health  consumer health media (Ziff Davis)
+    healthcare_com   health insurance marketplace
+    amedisys         home health and hospice, written to as a NON-patient
+
+### The argument, in its general form
+
+**De-identification is doing legal work while targeting does identifying work.**
+
+HIPAA stops applying to health information once it is de-identified. State privacy
+statutes have their own de-identification carve-outs. A company can therefore hold
+health-derived data entirely lawfully and outside both frameworks — and Swoop's own
+privacy statement says so plainly: *"De-identified health-related information is no
+longer protected health information (PHI) under HIPAA, nor personal information
+subject to this Privacy Statement."*
+
+And yet the product only has value if a message reaches **specific households**
+because of that attribute.
+
+So the question to ask is never "is this PHI" — it is:
+
+> **At what point in the chain is an individual re-identified?** If an advertisement
+> can be delivered to a particular person or household on the basis of a health
+> attribute, the pairing of attribute to person exists somewhere in the chain, even if
+> no single system holds both halves and even if the halves sit with different
+> companies.
+
+That question cannot be answered by pointing at a de-identification standard, because
+it is about the *end* of the pipeline rather than the beginning.
+
+### Three supporting questions that make it answerable
+
+  1. **What standard, and how is it tested?** Under the CPRA, data is de-identified
+     only if it cannot reasonably be used to infer information about or be linked to a
+     consumer, *and* the business takes reasonable measures, publicly commits, and
+     contractually binds recipients. Ask whether that test is considered met, and by
+     what process.
+
+  2. **What is the minimum segment size?** This is the one that bites. **A rare
+     disease audience is small by definition** — the rarer the condition and tighter
+     the geography, the fewer people can possibly be in it, and below some size
+     *membership of the segment is itself identifying*, whatever was stripped from the
+     record. A company with a real floor will state it; one without has not thought
+     about the problem in those terms.
+
+  3. **If it sits outside your privacy statement, what governs it?** Where a policy
+     explicitly excludes de-identified health data, the honest follow-up is to ask
+     which document does apply — supplier contracts, an internal standard, an expert
+     determination. From outside it otherwise reads as a category with no governing
+     document at all.
+
+### And the scope question, which matters more here than anywhere
+
+[SILENT_FAILURES §199] applies with unusual force: **if the de-identified health store
+is treated as out of scope for consumer requests, then a search of every other system
+is entirely truthful and answers a different question.** Always ask whether that store
+was searched, and if not, why not.
+
+### Tone: ask, do not accuse
+
+These companies generally have a considered compliance posture, and the ones with the
+most explicit de-identification language are often the ones thinking hardest about it.
+Say so. Offer, in writing, to record a clean answer if the targeting genuinely operates
+at an aggregation level that makes the question misconceived — *and mean it*.
+
+The gap between the legal category and the practical effect is the widest in this
+industry, and it is genuinely possible the answer is reassuring. An accusatory letter
+gets a defensive non-answer; an honest question about architecture sometimes gets the
+architecture.
+
+### The non-patient variant
+
+Amedisys is the separate case worth remembering. Writing to a health *provider* as
+someone who was never a patient inverts the usual protection: if you were a patient,
+the data would be PHI with a right of access. **A non-patient record at a hospice
+company is a prediction that someone will need end-of-life care** — built from age,
+discharge data, Medicare eligibility or bereavement — more sensitive in substance and
+less protected in law. Ask for it by that description, because it will not be filed
+under anything you would recognise.
