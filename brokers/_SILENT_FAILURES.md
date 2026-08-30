@@ -12323,3 +12323,88 @@ tool that asks hundreds of companies to blacklist sixteen addresses and eleven
 reassigned numbers is quietly spending other people's findability at scale, and the
 scale is exactly why it belongs in the template rather than in a judgement call made
 letter by letter.
+
+## §195 — the request is itself a disclosure
+
+Nexxen's compliance specialist redirected to their DSR portal, and then added a
+sentence no other recipient in this project has written:
+
+> "Most important note: your initial request may have included personal data that we
+> do not hold including name, address, email, date of birth, phone numbers, etc.
+> **Please do not send us personal data which we do not collect or process.**"
+
+That is correct, it is the sharpest criticism anyone has made of this project's own
+method, and it is worth recording as a correction rather than a complaint.
+
+### The tension, stated honestly
+
+Every letter here sends twelve email addresses, sixteen postal addresses and eleven
+phone numbers. The justification is [§194]: a partial search produces a *truthful and
+completely wrong* answer. The bdex result proved it empirically — they itemised, and
+matched me on **four addresses, all at internet services that shut down years ago**,
+and on none of my current ones. Had the letter listed only working addresses, their
+honest reply would have been "no record found."
+
+So against a compiler keyed to names and postal addresses, the maximal list is the
+difference between a real search and a false negative.
+
+**Against an identifier-keyed platform it is not a search key at all. It is purely a
+disclosure.** For a company whose records are cookies, device IDs, CTV IDs and
+bid-stream signals, a postal address cannot match anything — it can only be *added*.
+
+And the letter to Nexxen **contained that exact concession in its opening paragraph**
+— *"if your records are keyed to cookies, device and connected-TV identifiers... a
+search on my name returns nothing, because the name was never a key"* — and then sent
+sixteen addresses anyway. The reasoning was already on the page and the practice did
+not follow it.
+
+### The general rule this establishes
+
+**The right identifier set is a function of what the recipient can key on, and the
+cost of getting it wrong falls on the sender.**
+
+    name-keyed compiler, people-search, list broker  ->  maximal set is correct
+    identifier-keyed adtech, DMP, attribution, ACR   ->  maximal set is disclosure only
+    live-compile people-search                       ->  maximal set, and it IS the
+                                                         suppression (§193)
+
+The third row is why this cannot simply become "always send less." For a live-compile
+site the key set *is* the protection, and sending less means protecting less. The
+answer is not minimisation everywhere; it is **matching the disclosure to the
+architecture**, which requires knowing the architecture first.
+
+Which is itself the finding: the identifier list should be chosen *after* establishing
+what the company keys on, not before. Where that is unknown, the honest move is to
+ask first and send second — a two-step exchange that costs a round trip and avoids
+handing a company a file it did not have.
+
+### What was done
+
+The reply conceded the point without hedging, explained the compiler-versus-platform
+distinction and why the letter had failed to apply its own reasoning, and asked for
+three things: **delete the identifiers from the ticket**, tell me which keys you can
+actually resolve on so I can supply only those, and — on hashed email — hash the
+addresses already in the thread yourselves and then delete the plaintext.
+
+The two architecture questions were kept alive because neither requires them to hold
+anything about me: whether ACR data is retained at household or device level and
+joinable to an address or hashed email, and at what point Nexxen Health re-identifies
+a person so an advertisement can reach them on the basis of a health attribute.
+
+The portal is queued as a handoff with explicit instructions to submit **the
+minimum** and to abandon it if it demands a government ID or an account — because
+completing a portal with the full identifier set would double the disclosure the
+original note was warning about.
+
+### And the uncomfortable corollary
+
+§187 recorded Plug Industries returning a clean nil result. Read alongside this: **a
+company that genuinely held nothing about me now holds a support ticket containing my
+full identifier set.** Every clean "we have no record of you" in this project is also
+a small act of self-disclosure, and the 44 `not_found` rows are exactly the population
+where the letter created the only data that exists.
+
+That does not make the letters wrong — a broker that holds nothing today may acquire
+a file tomorrow, which is why the suppression ask travels with every nil. But it is a
+real cost, it has been paid 44 times, and it had not been written down until a
+recipient pointed it out.
