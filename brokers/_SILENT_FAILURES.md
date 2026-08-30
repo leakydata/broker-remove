@@ -13160,3 +13160,40 @@ occurs. If the identity match is performed by LiveRamp rather than by Swoop, the
 answer may be *"not here"* — truthfully — and the question has to follow the supplier.
 Recorded on both rows, because it is exactly the §199 scope problem crossing a company
 boundary rather than a system boundary.
+
+### §203b — the sweep, and 22 handoff items that stopped being research
+
+§203a's rule — *when the mailed link is broken, go to the website* — turned out to be
+worth running against every portal-gated row rather than just the one that prompted
+it.
+
+`scripts/find_request_urls.py` fetches `/privacy/`, `/privacy-policy/`,
+`/your-privacy-choices/` and the homepage for each broker at `manual_required` or
+`captcha_blocked`, and matches both the known DSAR vendors (OneTrust, TrustArc, Osano,
+Ketch, Transcend, Securiti, DataGrail, PrivacyPillar, my.datasubject) and the
+self-hosted patterns (`/do-not-sell`, `/ccpa`, `/privacy-request`).
+
+**22 of 58 yielded a request URL.** Eighteen were new and are now recorded on the
+registry rows with the URL itself, not a description of where to look.
+
+That changes what those handoff items are. *"Find and complete Koddi's opt-out form"*
+is a research task; *"open koddi.com/do-not-sell-my-personal-information/ and fill it
+in"* is a two-minute one. The queue holds 160-odd items and the scarce resource is a
+person's attention, so converting a third of the portal-gated ones from discovery to
+execution is worth more than any single letter sent today.
+
+**Two things the sweep found that were not the point:**
+
+  - **`my.datasubject.com` is a second small DSAR vendor**, alongside PrivacyPillar.
+    Two tenants known — plunge_digital and lightbox — both surfaced from a reply or a
+    privacy page rather than a directory. LightBox exposes *two* form IDs under one
+    tenant token, which is worth checking before assuming one form covers every right.
+  - **LightBox runs Osano for consent and datasubject for rights requests**, side by
+    side on the same site. Finding one vendor tells you nothing about the other, which
+    is a caution for the §176 fingerprinting: a consent-platform fingerprint is not a
+    DSAR-platform fingerprint.
+
+**And the 36 that yielded nothing are not failures.** Some are genuinely
+CAPTCHA-gated with no linkable form, some sit behind bot protection that returns 403
+to any automated fetch, and some publish no request route at all — which is itself
+worth knowing, and is the case the handoff queue exists for.

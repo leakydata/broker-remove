@@ -735,6 +735,7 @@
       "email_to": "support@searchpeoplefree.com",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
+      "email_note": "|| 2026-08-30 REQUEST URL FOUND ON THEIR OWN SITE (SILENT_FAILURES 203a), via scripts/find_request_urls.py: https://www.searchpeoplefree.com/do-not-sell -- recovered from their published privacy pages rather than from a mailed link, which is the route that can be corrupted in transit. Use this directly; no discovery needed.",
       "source": "curated"
     },
     {
@@ -2643,13 +2644,14 @@
       "domain": "eab.com",
       "priority": 2,
       "method": "email",
-      "optout_url": "",
+      "optout_url": "https://privacyportal.onetrust.com/webform/2d4f8bee-b269-434d-a07f-3b94c6618cb4/795af979-a3a2-431b-9d7e-b777155c7a18",
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "appily",
       "email_to": "privacy@eab.com",
       "email_verified": true,
-      "email_verified_by": "delivery_evidence"
+      "email_verified_by": "delivery_evidence",
+      "email_note": "|| 2026-08-30 REQUEST URL FOUND ON THEIR OWN SITE (SILENT_FAILURES 203a), via scripts/find_request_urls.py: https://privacyportal.onetrust.com/webform/2d4f8bee-b269-434d-a07f-3b94c6618cb4/795af979-a3a2-431b-9d7e-b777155c7a18 -- recovered from their published privacy pages rather than from a mailed link, which is the route that can be corrupted in transit. Use this directly; no discovery needed."
     },
     {
       "id": "applovin",
@@ -3274,7 +3276,7 @@
       "domain": "babelstreet.com",
       "priority": 2,
       "method": "email",
-      "optout_url": "",
+      "optout_url": "https://privacyportal.onetrust.com/webform/43f52ed9-df36-44dc-94b6-ce2f8458ca29/2ddc0d62-7d6a-4de2-b5c4-9f9f68116970",
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
@@ -3284,7 +3286,8 @@
       "registry_years": [
         "2026"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "email_note": "|| 2026-08-30 REQUEST URL FOUND ON THEIR OWN SITE (SILENT_FAILURES 203a), via scripts/find_request_urls.py: https://privacyportal.onetrust.com/webform/43f52ed9-df36-44dc-94b6-ce2f8458ca29/2ddc0d62-7d6a-4de2-b5c4-9f9f68116970 -- recovered from their published privacy pages rather than from a mailed link, which is the route that can be corrupted in transit. Use this directly; no discovery needed."
     },
     {
       "id": "background_hawk",
@@ -3866,7 +3869,7 @@
       "domain": "brandwatch.com",
       "priority": 2,
       "method": "email",
-      "optout_url": "",
+      "optout_url": "https://www.brandwatch.com/your-privacy-choices/",
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "brandwatch",
@@ -3879,7 +3882,8 @@
         "2024",
         "2025",
         "2026"
-      ]
+      ],
+      "email_note": "|| 2026-08-30 REQUEST URL FOUND ON THEIR OWN SITE (SILENT_FAILURES 203a), via scripts/find_request_urls.py: https://www.brandwatch.com/your-privacy-choices/ -- recovered from their published privacy pages rather than from a mailed link, which is the route that can be corrupted in transit. Use this directly; no discovery needed."
     },
     {
       "id": "bridg",
@@ -6741,7 +6745,7 @@
       "domain": "dstillery.com",
       "priority": 2,
       "method": "email",
-      "optout_url": "",
+      "optout_url": "https://privacyportal-eu.onetrust.com/webform/246426b7-49c6-4bf5-879b-d3fdd4cbc15d/35502283-7b19-4b67-b3e0-ede06d3820c5",
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
@@ -6754,7 +6758,8 @@
         "2025",
         "2026"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "email_note": "|| 2026-08-30 REQUEST URL FOUND ON THEIR OWN SITE (SILENT_FAILURES 203a), via scripts/find_request_urls.py: https://privacyportal-eu.onetrust.com/webform/246426b7-49c6-4bf5-879b-d3fdd4cbc15d/35502283-7b19-4b67-b3e0-ede06d3820c5 -- recovered from their published privacy pages rather than from a mailed link, which is the route that can be corrupted in transit. Use this directly; no discovery needed."
     },
     {
       "id": "dtn",
@@ -6776,7 +6781,8 @@
         "2024",
         "2025",
         "2026"
-      ]
+      ],
+      "email_note": "|| 2026-08-30 REQUEST URL FOUND ON THEIR OWN SITE (SILENT_FAILURES 203a), via scripts/find_request_urls.py: https://www.dtn.com/do-not-sell-my-information-form/ -- recovered from their published privacy pages rather than from a mailed link, which is the route that can be corrupted in transit. Use this directly; no discovery needed."
     },
     {
       "id": "dun_and_bradstreet",
@@ -6835,7 +6841,7 @@
       "domain": "eab.com",
       "priority": 2,
       "method": "email",
-      "optout_url": "",
+      "optout_url": "https://privacyportal.onetrust.com/webform/2d4f8bee-b269-434d-a07f-3b94c6618cb4/795af979-a3a2-431b-9d7e-b777155c7a18",
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "eab",
@@ -6850,7 +6856,8 @@
         "2026"
       ],
       "duplicate_of": "appily",
-      "notes": "Resolves to eab.com, the same site as appily. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the appily thread rather than opening a second request."
+      "notes": "Resolves to eab.com, the same site as appily. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the appily thread rather than opening a second request.",
+      "email_note": "|| 2026-08-30 REQUEST URL FOUND ON THEIR OWN SITE (SILENT_FAILURES 203a), via scripts/find_request_urls.py: https://privacyportal.onetrust.com/webform/2d4f8bee-b269-434d-a07f-3b94c6618cb4/795af979-a3a2-431b-9d7e-b777155c7a18 -- recovered from their published privacy pages rather than from a mailed link, which is the route that can be corrupted in transit. Use this directly; no discovery needed."
     },
     {
       "id": "easybackgroundchecks",
@@ -6932,7 +6939,7 @@
       "domain": "eltoro.com",
       "priority": 2,
       "method": "email",
-      "optout_url": "",
+      "optout_url": "https://eltoro.com/do-not-sell-my-personal-information/",
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
@@ -6945,7 +6952,8 @@
         "2025",
         "2026"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "email_note": "|| 2026-08-30 REQUEST URL FOUND ON THEIR OWN SITE (SILENT_FAILURES 203a), via scripts/find_request_urls.py: https://eltoro.com/do-not-sell-my-personal-information/ -- recovered from their published privacy pages rather than from a mailed link, which is the route that can be corrupted in transit. Use this directly; no discovery needed."
     },
     {
       "id": "electronic_voice_services",
@@ -8581,7 +8589,7 @@
       "domain": "growinglibraries.com",
       "priority": 2,
       "method": "email",
-      "optout_url": "",
+      "optout_url": "https://growinglibraries.com/do-not-sell",
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
@@ -8592,7 +8600,8 @@
         "2025",
         "2026"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "email_note": "|| 2026-08-30 REQUEST URL FOUND ON THEIR OWN SITE (SILENT_FAILURES 203a), via scripts/find_request_urls.py: https://growinglibraries.com/do-not-sell -- recovered from their published privacy pages rather than from a mailed link, which is the route that can be corrupted in transit. Use this directly; no discovery needed."
     },
     {
       "id": "growthcode",
@@ -10466,7 +10475,7 @@
       "domain": "koddi.com",
       "priority": 2,
       "method": "email",
-      "optout_url": "",
+      "optout_url": "https://koddi.com/do-not-sell-my-personal-information/",
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
@@ -10477,7 +10486,8 @@
         "2025",
         "2026"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "email_note": "|| 2026-08-30 REQUEST URL FOUND ON THEIR OWN SITE (SILENT_FAILURES 203a), via scripts/find_request_urls.py: https://koddi.com/do-not-sell-my-personal-information/ -- recovered from their published privacy pages rather than from a mailed link, which is the route that can be corrupted in transit. Use this directly; no discovery needed."
     },
     {
       "id": "komodo_health",
@@ -10699,7 +10709,8 @@
         "2024",
         "2025",
         "2026"
-      ]
+      ],
+      "email_note": "|| 2026-08-30 REQUEST URL FOUND ON THEIR OWN SITE (SILENT_FAILURES 203a), via scripts/find_request_urls.py: https://leadpost.com/PrivacyRequest -- recovered from their published privacy pages rather than from a mailed link, which is the route that can be corrupted in transit. Use this directly; no discovery needed."
     },
     {
       "id": "leadsherpa",
@@ -10925,7 +10936,7 @@
       "domain": "lightboxre.com",
       "priority": 2,
       "method": "email",
-      "optout_url": "",
+      "optout_url": "https://my.datasubject.com/16BXQXSvkBnuN4W2w/51306",
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
@@ -10936,7 +10947,8 @@
         "2025",
         "2026"
       ],
-      "legal_name": "LightBox Parent, L.P."
+      "legal_name": "LightBox Parent, L.P.",
+      "email_note": "|| 2026-08-30 REQUEST URL FOUND ON THEIR OWN SITE (SILENT_FAILURES 203a), via scripts/find_request_urls.py: https://my.datasubject.com/16BXQXSvkBnuN4W2w/51306 -- recovered from their published privacy pages rather than from a mailed link, which is the route that can be corrupted in transit. Use this directly; no discovery needed."
     },
     {
       "id": "lightcast",
@@ -11671,13 +11683,14 @@
       "domain": "matchbookdata.com",
       "priority": 2,
       "method": "email",
-      "optout_url": "",
+      "optout_url": "https://www.matchbookdata.com/your-privacy-choices/",
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "matchbook",
       "email_to": "privacy@matchbookdata.com",
       "email_verified": true,
-      "email_verified_by": "privacy_policy"
+      "email_verified_by": "privacy_policy",
+      "email_note": "|| 2026-08-30 REQUEST URL FOUND ON THEIR OWN SITE (SILENT_FAILURES 203a), via scripts/find_request_urls.py: https://www.matchbookdata.com/your-privacy-choices/ -- recovered from their published privacy pages rather than from a mailed link, which is the route that can be corrupted in transit. Use this directly; no discovery needed."
     },
     {
       "id": "maxmind",
@@ -11706,7 +11719,7 @@
       "domain": "mchdata.com",
       "priority": 2,
       "method": "email",
-      "optout_url": "",
+      "optout_url": "https://www.mchdata.com/about/ccpaemail",
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "mch",
@@ -11714,7 +11727,8 @@
       "email_verified": false,
       "email_verified_by": null,
       "email_alt": "info@mchdata.com",
-      "notes": "Site publishes info@mchdata.com; privacy@mchdata.com is more privacy-specific but appears nowhere on the site. Try the alternate if this goes unanswered. Registry keeps privacy@mchdata.com (purpose-built for this request type); the site publishes info@mchdata.com, retained as a fallback."
+      "notes": "Site publishes info@mchdata.com; privacy@mchdata.com is more privacy-specific but appears nowhere on the site. Try the alternate if this goes unanswered. Registry keeps privacy@mchdata.com (purpose-built for this request type); the site publishes info@mchdata.com, retained as a fallback.",
+      "email_note": "|| 2026-08-30 REQUEST URL FOUND ON THEIR OWN SITE (SILENT_FAILURES 203a), via scripts/find_request_urls.py: https://www.mchdata.com/about/ccpaemail -- recovered from their published privacy pages rather than from a mailed link, which is the route that can be corrupted in transit. Use this directly; no discovery needed."
     },
     {
       "id": "media_direct",
@@ -13738,7 +13752,7 @@
         "2026"
       ],
       "legal_name": "DSPolitical, LLC",
-      "email_note": "The CA filing's only contact is an OUTSIDE COUNSEL address, and on 2026-08-28 that lawyer replied disclaiming all authority: 'I am not an officer, employee, or other agent or representative with authority of any kind to receive requests ... on behalf of Optimal'. So the statutory route answers and refuses. Do not resend there. Real routes found in DSPolitical's own privacy policy: opt-out page https://www.dspolitical.com/opt-out/ , a second at https://www.dspolitical.com/opt-out-of-advertising/ (their policy links it with a double slash), and OneTrust webforms under tenant 2de5f42a-3bbb-4bcf-867b-251b00739ee1. Related brand to check: untu.us."
+      "email_note": "The CA filing's only contact is an OUTSIDE COUNSEL address, and on 2026-08-28 that lawyer replied disclaiming all authority: 'I am not an officer, employee, or other agent or representative with authority of any kind to receive requests ... on behalf of Optimal'. So the statutory route answers and refuses. Do not resend there. Real routes found in DSPolitical's own privacy policy: opt-out page https://www.dspolitical.com/opt-out/ , a second at https://www.dspolitical.com/opt-out-of-advertising/ (their policy links it with a double slash), and OneTrust webforms under tenant 2de5f42a-3bbb-4bcf-867b-251b00739ee1. Related brand to check: untu.us. || 2026-08-30 REQUEST URL FOUND ON THEIR OWN SITE (SILENT_FAILURES 203a), via scripts/find_request_urls.py: https://privacyportal.onetrust.com/webform/2de5f42a-3bbb-4bcf-867b-251b00739ee1/a8b3a307-cdeb-46d5-bb3c-7733424b01ff -- recovered from their published privacy pages rather than from a mailed link, which is the route that can be corrupted in transit. Use this directly; no discovery needed."
     },
     {
       "id": "oregon_arrests",
@@ -13860,7 +13874,7 @@
       "domain": "inmar.com",
       "priority": 2,
       "method": "email",
-      "optout_url": "",
+      "optout_url": "https://privacyportal.onetrust.com/webform/fa9f2f77-33ff-473b-ae55-579e2e693a91/b9c860bc-cc13-4db1-b995-395c9fcbe3c7",
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
@@ -13871,7 +13885,8 @@
         "2025",
         "2026"
       ],
-      "legal_name": "Inmar Brand Solutions, Inc."
+      "legal_name": "Inmar Brand Solutions, Inc.",
+      "email_note": "|| 2026-08-30 REQUEST URL FOUND ON THEIR OWN SITE (SILENT_FAILURES 203a), via scripts/find_request_urls.py: https://privacyportal.onetrust.com/webform/fa9f2f77-33ff-473b-ae55-579e2e693a91/b9c860bc-cc13-4db1-b995-395c9fcbe3c7 -- recovered from their published privacy pages rather than from a mailed link, which is the route that can be corrupted in transit. Use this directly; no discovery needed."
     },
     {
       "id": "pacificeast",
@@ -14554,7 +14569,7 @@
       "domain": "pmg.com",
       "priority": 2,
       "method": "email",
-      "optout_url": "",
+      "optout_url": "https://www.pmg.com/your-privacy-choices",
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
@@ -14565,7 +14580,8 @@
         "2025",
         "2026"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "email_note": "|| 2026-08-30 REQUEST URL FOUND ON THEIR OWN SITE (SILENT_FAILURES 203a), via scripts/find_request_urls.py: https://www.pmg.com/your-privacy-choices -- recovered from their published privacy pages rather than from a mailed link, which is the route that can be corrupted in transit. Use this directly; no discovery needed."
     },
     {
       "id": "podscribe",
@@ -19478,7 +19494,7 @@
       "domain": "jungroup.com",
       "priority": 2,
       "method": "email",
-      "optout_url": "",
+      "optout_url": "http://www.jungroup.com/ccpa",
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
@@ -19491,7 +19507,8 @@
         "2025",
         "2026"
       ],
-      "legal_name": "Jun Group Productions, LLC"
+      "legal_name": "Jun Group Productions, LLC",
+      "email_note": "|| 2026-08-30 REQUEST URL FOUND ON THEIR OWN SITE (SILENT_FAILURES 203a), via scripts/find_request_urls.py: http://www.jungroup.com/ccpa -- recovered from their published privacy pages rather than from a mailed link, which is the route that can be corrupted in transit. Use this directly; no discovery needed."
     },
     {
       "id": "vi_technologies",

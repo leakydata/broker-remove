@@ -1433,6 +1433,24 @@ it; the project's position is that it should not be supplied, because at a compa
 holding no names it is the act of supplying it that creates the association.
 
 
+
+## my.datasubject.com (DSAR vendor, found 2026-08-30)
+
+Two tenants so far, both surfaced from a reply or a published privacy page rather
+than from any directory:
+
+    plunge_digital       my.datasubject.com/Azq9ITU2sQjNPKhSo/38050
+    lightbox_parent_l_p  my.datasubject.com/16BXQXSvkBnuN4W2w/51306  (and /59124)
+
+The path shape is `/{tenant-token}/{form-id}`, so a single tenant token can carry
+several forms -- LightBox exposes two, which is worth checking before assuming one
+form covers every right. Like PrivacyPillar, there is no published tenant directory,
+so grep for `datasubject.com` when new filings or replies are imported.
+
+LightBox also loads Osano as its consent platform, so the two vendors sit side by
+side on the same site: Osano for the banner, datasubject for the rights request.
+Finding one does not tell you about the other.
+
 ## Shared-infrastructure fingerprints (discovered 2026-08-29)
 
 Found by scanning every registry domain for identifiers that a white-label operator
