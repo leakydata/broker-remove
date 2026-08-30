@@ -12600,3 +12600,78 @@ still reads fluently — and quietly asserts things that are not true.
 
 Same family as §179's gate and §185's crash: the machinery kept working, and only
 reading the actual artifact showed what it was producing.
+
+## §197 — the divestiture dead end
+
+Specialists Marketing Services replied to a deletion request with something this
+project has not seen before:
+
+> "Effective June 15, 2026, Specialists Marketing Services, Inc. no longer owns,
+> controls, or has access to the prior databases. As a result, [we are] unable to
+> search for, identify, access, modify, delete, or otherwise process information that
+> may have been maintained within those systems. Accordingly, [we are] unable to
+> process your request and **no further action is required in response to your
+> request.**"
+
+Every sentence of that may well be true, and the substance is probably right: a
+company that has sold a database genuinely cannot search it.
+
+**What makes it the most adverse reply received so far is what it omits.** It does not
+name the buyer.
+
+Compare the other endings in this file:
+
+    ReachData        ceased operations           -- data may be gone entirely
+    Lotame           merged into Epsilon         -- successor NAMED, route given
+    Bliss Point      acquired by Tinuiti         -- successor discoverable
+    SMS              sold the databases          -- successor NOT NAMED, and the
+                                                   request declared closed
+
+The first three leave a consumer with somewhere to go. This one does not. Read
+literally it says: *the data about you still exists, we can no longer act on it, and
+the party who can is not identified.*
+
+**That does not refuse the right. It makes the right unexercisable** — a request
+cannot be addressed to a company whose name you do not know. And unlike every other
+failure in this file, no amount of care on the consumer's side fixes it: there is no
+address to find, no policy to read, no alternate route to try.
+
+### The reply, and why it asks only one thing
+
+The follow-up accepts the substance without argument — pressing them to reach what
+they cannot reach would be pointless — and asks the single question that requires no
+processing at all:
+
+> **Who holds those databases now?** That is a fact about your own corporate history,
+> not a search of anybody's records. Answering it requires no lookup, no verification
+> of my identity, and no processing of my personal data.
+
+That framing matters. Their entire stated reason for declining is inability to
+*process*. A question about who the transferee is sidesteps that reason completely,
+which leaves only unwillingness — and makes an unwilling answer visible as a choice
+rather than a limitation.
+
+One legal note was included, once, without threat: obligations attached to personal
+information generally travel with it through a transfer, and a business receiving a
+deletion request is ordinarily expected to direct third parties to delete as well.
+*"We sold the database" is a statement about who can now act, not about whether the
+right survives.* Raised as something for their compliance team rather than as an
+accusation, because the fix is one sentence and not a process.
+
+### The inconsistency worth noticing
+
+The same message that says they cannot search, identify, access, modify or delete
+anything **links in its footer to a B2B opt-out form they continue to operate.**
+
+If that form still writes to a list they control, some suppression capability
+survives — so the reply asks for an exclude-only entry there. And it makes the §187
+argument again, which applies with unusual force to a company that has just divested:
+
+> A company that holds nothing today is the cheapest possible place to record a
+> suppression, and this is the only moment it is free — because if my details ever
+> return through an acquisition, nothing on their side would recognise me.
+
+**The general rule:** when a company says it no longer holds the data, the follow-up
+is never "please look again." It is *who has it*, and *will you exclude me from
+whatever you build next*. The first restores a route; the second is worth more the
+emptier the company is.
