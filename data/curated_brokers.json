@@ -20136,14 +20136,15 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "privacy@alesco.com",
+      "email_to": "legal@alescodata.com",
       "email_verified": true,
-      "email_verified_by": "privacy_policy",
+      "email_verified_by": "delivery_evidence",
       "registry_years": [
         "2020-2023"
       ],
       "legal_name": null,
-      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (SILENT_FAILURES 170): filings have lapsed, so the 163 domain check ran and CLEARED this row -- the site is live and carries the registrant's own name, so the domain has not been re-registered by anyone else. Safe to send normally; no further domain check needed. || 2026-08-29 CROSS-LINK: this row's contact is privacy@alesco.com -- part of the same GROUP as -- verified 2026-08-30 from the parent site alesco.com, which names all three brands -- the company answering for response_solutions, whose register contact michael@alescodata.com turned out to be a departed employee (successor steve@alescodata.com). Two separate register entries under unrelated registrant names route to Alesco. Treat as one operator when chasing, and note the alesco.com vs alescodata.com domain split. || 2026-08-30 VERIFIED: The Alesco Group (alesco.com) publishes its portfolio as responsesolutionsllc.com, alescodata.com and statlistics.com. Three brands, at least two separate CA register entries. Group letter sent to privacy@alesco.com covering all three. Register typo confirmed: responsesoulutionsllc.com is dead (HTTP 000, no MX); the correct responsesolutionsllc.com is live with M365 MX."
+      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (SILENT_FAILURES 170): filings have lapsed, so the 163 domain check ran and CLEARED this row -- the site is live and carries the registrant's own name, so the domain has not been re-registered by anyone else. Safe to send normally; no further domain check needed. || 2026-08-29 CROSS-LINK: this row's contact is privacy@alesco.com -- part of the same GROUP as -- verified 2026-08-30 from the parent site alesco.com, which names all three brands -- the company answering for response_solutions, whose register contact michael@alescodata.com turned out to be a departed employee (successor steve@alescodata.com). Two separate register entries under unrelated registrant names route to Alesco. Treat as one operator when chasing, and note the alesco.com vs alescodata.com domain split. || 2026-08-30 VERIFIED: The Alesco Group (alesco.com) publishes its portfolio as responsesolutionsllc.com, alescodata.com and statlistics.com. Three brands, at least two separate CA register entries. Group letter sent to privacy@alesco.com covering all three. Register typo confirmed: responsesoulutionsllc.com is dead (HTTP 000, no MX); the correct responsesolutionsllc.com is live with M365 MX. || 2026-08-30 BOUNCE: the group letter sent to privacy@alesco.com hard-bounced (550, address not found -- alesco.com has no mailbox at all, not just a restricted one). Rerouted to legal@alescodata.com, the verified working contact for the same operator (see alesco_data.md), cc steve@alescodata.com (the named successor contact for the Response Solutions brand). This is the third of three Alesco Group brands to route through alescodata.com -- alesco.com itself has no working inbox for any purpose.",
+      "email_alt": "steve@alescodata.com"
     },
     {
       "id": "statsocial",
