@@ -3022,3 +3022,76 @@ do something for a person who will never know to ask.
 
 Related: [SILENT_FAILURES §189] on self-declared multi-brand filings, and the
 identifier-keyed adtech entry above for the hashed-email and MAID handling.
+
+## User-generated content licensing
+
+A category where the personal data is not a profile assembled *about* the person but
+**things the person wrote** — forum posts, reviews, comments — collected at scale and
+licensed onward. Socialgist advertises 34 billion conversations a year, 100 million
+posts and documents daily from 55,000 sources, delivered by API, stream, dataset and
+Snowflake, as "the data infrastructure behind AI products."
+
+The standard deletion letter does not fit, for three reasons.
+
+### 1. Concede that it was public, then draw the actual line
+
+They will say the content was public, and they will be right. Say so first: *these
+posts were public when I made them, I am not claiming otherwise, and I am not asking
+you to pretend a public forum was a closed room.*
+
+Then the distinction that matters: **published is not the same as collected,
+retained, indexed by author, and licensed in bulk.** The register agrees that far, or
+the company would not be on it. The request is not about the original post — it is
+about the copy they hold and the copies they sell.
+
+Fourth use of the same move in this project, after L2's public records, Tracers'
+subscriber identities and the DPPA's limits: give away the point they were going to
+win, so the point you care about has nowhere to hide.
+
+### 2. Do not send your handles — and say why
+
+This is the sharpest instance yet of the identifier refusal, and it is worth stating
+in full because it is not obvious.
+
+Locating "my" content requires telling them which pseudonymous accounts, across
+55,000 sources, are mine. **That hands a company licensing data to AI and
+intelligence platforms a mapping from legal name to pseudonymous writing — a mapping
+that does not currently exist in their systems.**
+
+  - If the request fails, the mapping was created for nothing.
+  - If it succeeds, the mapping was created in order to have part of it deleted.
+  - Either way the mapping is more revealing than any individual post.
+
+Same structure as refusing a MAID to an ad-tech company, but stronger: a device ID is
+a technical key, whereas a handle-to-name link *is the thing pseudonymity exists to
+prevent*. Never supply it. Offer real-name identifiers and email addresses instead,
+and ask the architecture questions:
+
+  - How is authorship keyed — source-native username, internal author ID, profile
+    URL, exposed email?
+  - **Do you build or license cross-source author resolution?** Anything asserting
+    that two handles are the same person, or linking a handle to a legal identity.
+    A plain *"no, we key to source-native identifiers and do not resolve across
+    sources or to real-world identity"* largely settles the concern, and should be
+    invited explicitly.
+  - Can you act on real-name identifiers at all? If not, that is a recordable limit
+    of the right rather than a refusal.
+
+### 3. The AI questions the deletion cannot reach
+
+Where the buyer is a model developer, deletion is bounded in a way worth naming:
+
+  - Has content authored by me been delivered for training or development? Counts,
+    dates, categories of customer.
+  - **What does deletion actually accomplish** once a dataset is delivered and
+    weights are trained? A delivered dataset is beyond the seller's reach and trained
+    weights are beyond anyone's. Invite the honest answer — *we can stop future
+    delivery but cannot undo past delivery* — in those words.
+  - **Does suppression prevent re-collection?** If the post is still live on a source
+    crawled daily, deleting today's copy accomplishes nothing unless something stops
+    tomorrow's crawl. This is [SILENT_FAILURES §171] — the record that is recomputed
+    rather than stored — with a crawler in place of an identity graph.
+
+One practical note: old email addresses matter more here than usual. A decades-old
+address is what an old forum profile exposes, and it is the one the subject cannot
+check because the mailbox is gone.
