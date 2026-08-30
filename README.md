@@ -11,10 +11,41 @@ each broker works** plus a **status log** you can act on months from now.
 
 ## Status
 
-Early. The registry tracks **966 brokers** (55 hand-verified with working opt-out
-endpoints, the rest imported as stubs from Optery's public directory). The
-submission flow is driven by an agent with browser control rather than by a
-headless scraper — see [Design notes](#design-notes).
+The registry tracks **1,248 curated brokers** (1,530 rows after merging the
+imported directories), of which **1,180 have a working contact route on file**.
+1,062 have been acted on: 851 requests submitted, 58 confirmed removed, 44
+searched-and-found-nothing, 47 needing a human step, 37 unreachable.
+
+Roughly a thousand per-broker playbooks have accumulated alongside those, and —
+more usefully — three files of accumulated findings about *how removal requests
+actually fail*. Those are the part worth reading if you are here for anything
+other than this particular person's data:
+
+| File | What is in it |
+|---|---|
+| `brokers/_SILENT_FAILURES.md` | ~200 numbered findings on requests that appear to succeed and do not. The core artifact. |
+| `brokers/_CATEGORY_VARIANTS.md` | How the letter has to change by broker type — adtech, credit triggers, voter files, skip-trace, list managers, content licensing. |
+| `brokers/_FAMILIES.md` | Multi-brand operators, and the fingerprints that expose the ones that do not declare themselves. |
+| `data/dead_addresses.json` | 65 contact addresses that are dead, and *how* each is dead — the failure mode determines what to do next. |
+
+### The recurring finding
+
+Most removal requests do not fail loudly. They fail by landing somewhere adjacent
+to where they needed to land, and reporting success:
+
+- a record **recomputed on demand** rather than stored, so deletion clears an
+  output that is rebuilt on the next request;
+- a **sibling site** on the same platform still serving the record the deleted
+  brand no longer shows;
+- a **suppression that is a leaf, not a branch** — it stops at the company and
+  never reaches the co-op members or list owners who supplied the data;
+- an alias that **accepts mail and then fails delivery to everyone on it**, so the
+  sender sees success and the company sees nothing;
+- a `privacy@` group configured to **accept mail only from inside the company**,
+  which works for every internal test and rejects every consumer.
+
+None of those produce a bounce, a refusal, or an error. Several produce a warm
+written confirmation that is entirely honest and accomplishes nothing.
 
 ## Layout
 
@@ -96,7 +127,14 @@ removes the "which Python / which venv" problem entirely.
 | `make_protected_person_request.py` | Removal request for current/former law enforcement, judges, public officials. |
 | `queue_batch.py` | Next batch of emails to send, respecting a daily cap. |
 | `scaffold_playbook.py` | Creates `brokers/<id>.md` from registry + status data. |
-| `validate.py` | Schema, duplicate, and missing-playbook checks. |
+| `validate.py` | Schema, duplicate, dead-address and missing-playbook checks. |
+| `gate.sh` | Pre-commit gate: runs redact + validate and **exits non-zero** on failure. Run it before every commit. |
+| `redact.py` | Refuses to let personal data reach a public commit. |
+| `verify_removals.py` | Builds the re-check worklist. A submission is not a removal. |
+| `handoff.py` | Queue of steps only a human can do — CAPTCHAs, portals, phone calls. |
+| `fingerprint_scan.py` | Clusters brokers by shared LiveChat / analytics / GTM IDs to expose white-label families. |
+| `discover_contacts.py` | Finds contact addresses in policies, PDFs and JS bundles. |
+| `lapsed_scan.py` | Checks brokers whose registry filings have lapsed, before writing to a domain someone else may now own. |
 
 Record every attempt as you go:
 
@@ -157,6 +195,25 @@ is worth more than the registry entry on its own.
 - Most brokers require an emailed confirmation link; unconfirmed requests are void.
 - Some "opt-out" pages funnel into a paid removal service. The free statutory path
   always exists — find it rather than paying.
+- **A confirmation is not evidence.** "We have deleted your data" is the claim, not
+  proof of it. Ask for something only a real search could have produced — the
+  categories held, the source, whether anything was found at all. "We searched and
+  found nothing" and "we deleted your record" are different facts, and a reply that
+  does not distinguish them tells you nothing.
+- **Deletion and suppression are opposites, not degrees.** A deletion leaves nothing
+  to recognise you by, so the next file the company acquires puts you straight back.
+  A suppression keeps just enough to keep you out. Ask which one you got, and ask
+  that it be *exclude-only* — used to keep you out of outgoing files, never as a
+  match key against incoming ones.
+- **Do not hand over an identifier to find yourself.** A device ID, a mobile
+  advertising ID, or a list of your pseudonymous handles will create a link between
+  your name and a history that is currently unlinked. If the request fails you gave
+  it away for nothing; if it succeeds you built the link in order to delete part of
+  it. Offer email addresses and ask them to hash those instead.
+- **Match on the full identifier set, never on a name.** Former addresses have
+  current residents and old phone numbers get reassigned. On a people-search or
+  court-records site, a name-only match removes a stranger's record instead of
+  yours. "No match found" is a better outcome than a mistaken edit.
 - Nothing here is legal advice.
 
 ## License
