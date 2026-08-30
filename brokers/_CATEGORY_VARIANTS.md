@@ -3095,3 +3095,58 @@ Where the buyer is a model developer, deletion is bounded in a way worth naming:
 One practical note: old email addresses matter more here than usual. A decades-old
 address is what an old forum profile exposes, and it is the one the subject cannot
 check because the mailbox is gone.
+
+## Recruiting, executive search and candidate data
+
+A category where the file may contain something no other broker holds: **other
+people's opinions about the subject.**
+
+An ordinary broker record is attributes — address, income band, purchase propensity.
+A candidate file can additionally hold a recruiter's notes, a referrer's
+characterisation, an interview impression, a fit or seniority score, a reason someone
+was not advanced, or flags about availability and compensation expectations.
+
+Those are *evaluative* rather than descriptive, they are written by people the
+subject may never have met, they sit in a file the subject usually does not know
+exists, and they are consequential in a way a marketing attribute never is — because
+they decide whether a person is put forward for something.
+
+So the letter asks for them directly, and **pre-accepts a refusal in a specific
+form**:
+
+> If it exists but you consider it exempt from disclosure — because it also concerns
+> the person who wrote it, or is commercially privileged — please say so plainly and
+> cite the basis. *"There are notes and we will not show them"* is an answer I will
+> record as given; silence is not.
+
+That framing matters. A blunt demand for evaluative notes invites a refusal that
+swallows the whole question; naming the likely exemption first, and saying the refusal
+itself is an acceptable answer, converts a probable non-response into a recordable
+one. Same move as the L2 and Tracers concessions, applied to a disclosure the company
+has a legitimate reason to withhold.
+
+### The referral loop
+
+Search firms built on a referral network have the [§188] contribution problem in a
+form the co-op letter cannot reach: the record did not come from a public source or a
+purchase, but from **a person who knows the subject**.
+
+Ask *whether*, never *who* — and say so. A referrer almost certainly acted in good
+faith and believed they were doing the subject a favour; identifying them serves
+nothing and would sour a relationship the subject may value. But the answer decides
+the durability question:
+
+> A deletion in a referral system is circular: you remove me, the person who
+> introduced me still knows me, and the next search puts me back — with every step
+> correct and nothing having gone wrong.
+
+So ask for a **do-not-refer control** that declines a future submission *at intake*,
+rather than accepting it and re-deleting. If none exists, that is the most useful
+single fact about how durable the removal is.
+
+### And the statutory footnote
+
+Cite the CCPA B2B and employee carve-out expiry (1 January 2023, not renewed)
+explicitly in this category. Candidate and professional contact data is exactly the
+kind a recruiting firm may still assume is exempt, and the assumption is three years
+out of date.
