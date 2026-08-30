@@ -20791,7 +20791,8 @@
       ],
       "legal_name": "TrueData Solutions, Inc.",
       "category": "adtech",
-      "category_source": "site_classifier 2026-08-30"
+      "category_source": "site_classifier 2026-08-30",
+      "email_note": "|| 2026-08-30 SUCCESSION (163): truedata.co's own homepage announces 'STRONGER TOGETHER: ID5 & TRUEDATA -- ID5 and TrueData have joined forces to unite complementary technologies, expertise, and reach.' ID5 is a European identity provider, so the GDPR Art 3(1) establishment question applies here as it does for Criteo and Quantcast. Ask which entity is controller and whether the TrueData graph transferred, before or alongside sending."
     },
     {
       "id": "true_opulence",
