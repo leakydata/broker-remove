@@ -26,6 +26,15 @@ First run, 2026-08-30: 22 of 58 portal-gated rows yielded a URL. Each one turns 
 handoff item from "find the form" into a direct link, which is the difference
 between a task a person can clear in a minute and one they have to research.
 
+A URL FOUND BY THIS SWEEP IS NOT AUTOMATICALLY BETTER THAN THE ONE ALREADY ON
+FILE. Applying the first run overwrote Koddi's queued OneTrust webform with a
+`/do-not-sell-my-personal-information/` page found on their own site -- a
+downgrade, because a vendor webform URL is the actual submission endpoint while a
+site page is usually just something that links to one. When merging results,
+prefer a vendor URL (OneTrust, datasubject, PrivacyPillar, TrustArc, Osano, Ketch,
+Transcend, Securiti, DataGrail) over a site landing page, and keep the other as an
+alternate rather than discarding it -- vendor links do expire.
+
 Read-only. Prints; changes nothing.
 """
 import json,re,subprocess,concurrent.futures as cf

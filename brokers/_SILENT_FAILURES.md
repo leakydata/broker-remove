@@ -13197,3 +13197,41 @@ execution is worth more than any single letter sent today.
 CAPTCHA-gated with no linkable form, some sit behind bot protection that returns 403
 to any automated fetch, and some publish no request route at all — which is itself
 worth knowing, and is the case the handoff queue exists for.
+
+### §203c — pushing the URLs into the queue, and the one it made worse
+
+Recording the recovered URLs on the registry rows was only half of it: the handoff
+queue is what a person actually works from, and it had not moved.
+
+Nine of the eighteen were already queued, several with a URL that was worse than the
+one just found — `eab.com` rather than the OneTrust webform, and in one case a Gmail
+message reference standing in for a link. Nine more were `manual_required` with **no
+queued item at all**, which meant they were invisible to anyone clearing the queue.
+All eighteen now carry the recovered URL plus a provenance line explaining where it
+came from and the standing instructions: minimum data, no government ID, no SSN, no
+advertising identifier.
+
+**And the merge made one item worse.**
+
+Koddi's queued URL was already a specific OneTrust webform. The sweep found
+`koddi.com/do-not-sell-my-personal-information/` on their site, and the update
+overwrote the first with the second. That is a downgrade: **a vendor webform URL is
+the actual submission endpoint, while a `/do-not-sell` page is usually just a page
+that links to one** — an extra click at best, a dead end at worst.
+
+Restored, with the site page kept as an alternate rather than discarded, because
+vendor links do expire. The rule is now in the script's docstring:
+
+> A URL found by this sweep is not automatically better than the one already on file.
+> Prefer a vendor URL over a site landing page; keep the other as an alternate.
+
+Worth noting how the mistake happened, because it is a familiar shape. The sweep was
+written to solve *"there is no URL"* and it did that well. Applying it wholesale
+treated *"there is already a URL"* as the same problem, and overwrote a better answer
+with a newer one. **A tool that fills gaps should not be trusted to resolve
+conflicts** — those are different operations, and only the first one was tested.
+
+Caught by printing the before-and-after for every replacement rather than just the
+count. One line of output; one regression that would otherwise have sat in the queue
+until somebody clicked it and found themselves on a landing page wondering where the
+form was.
