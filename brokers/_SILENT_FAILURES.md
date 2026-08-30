@@ -12255,3 +12255,71 @@ named Intelius, InstantCheckmate, TruthFinder and USSearch. Two of the three reg
 brands are covered; **US Search Pro appears in neither list under that name.** One
 line to ask, and worth asking, because a confirmation that covers two of three named
 brands reads exactly like one that covers all of them.
+
+## §194 — auditing 58 confirmations, and fixing the template instead of sending 24 letters
+
+§193 found that a live-compile suppression only covers the identifiers you submit.
+The obvious next question: how many of the other 57 confirmations have the same gap?
+
+Sorting the confirmed rows by what their notes actually record:
+
+    4   live-compile, suppression explicitly keyed to submitted identifiers
+        (instantcheckmate, intelius, truthfinder, ussearch -- all PeopleConnect,
+        all covered by the one follow-up)
+    5   itemised: the reply names which identifiers matched
+   24   worded as a suppression, key set not stated
+   25   a plain confirmation with no mechanism described
+
+**Only five of fifty-eight say what actually matched.** For the other fifty-three the
+question cannot be answered from the record, which is its own finding: the project has
+been collecting confirmations without collecting the one detail that makes a
+confirmation checkable.
+
+### The five that itemised are worth reading closely
+
+  - **catalist** quoted back the exact four identifiers that matched — name, current
+    address, phone, date of birth. That is the strongest §138 corroboration obtainable:
+    a list only this request could have produced.
+  - **carney_direct_marketing** volunteered the architecture: *"our database is
+    primarily built using name and mailing address as key identifiers"* — which
+    silently converts sixteen prior addresses from supplementary detail into *the
+    search itself*.
+  - **bdex** itemised, and produced the most surprising result in the project.
+    **Four of twelve email addresses matched — and all four were long-dead**:
+    gateway.net, iwon.com and two others at defunct services. *Zero current
+    addresses matched.* They then applied standing suppression to all twelve,
+    including the eight they did not hold.
+
+That bdex result is empirical support for [§189a], which had argued from reasoning
+alone that a dead address can be the strongest key rather than the weakest. The one
+broker that itemised its matches matched **only** on addresses the subject could not
+have checked. Had the letter listed just the working addresses, the reply would have
+been a truthful and completely wrong nil result.
+
+### The fix is the template, not twenty-four follow-ups
+
+Chasing 24 rows to ask "what was your suppression keyed to" would be a lot of letters
+to re-open settled matters, and would not help the next 500. So the standard letter
+generator now asks for both things up front, in every letter it produces:
+
+  1. **Which identifiers matched** — with the reason stated: *"we deleted your record"
+     and "we searched and found nothing" are different outcomes, both fine, and a
+     confirmation that does not distinguish them tells me nothing.*
+  2. **Whether the suppression is keyed to me or to the identifiers sent** — with the
+     live-compile consequence spelled out, and the concrete reason it matters:
+     *somebody looking me up does not search my current address; they search the one
+     they have.*
+
+And the §193 cap travels with it, in every letter from now on rather than as a
+one-off:
+
+> Please suppress the ASSOCIATION between those details and me — keyed to my name and
+> date of birth — and never the address or number in itself. If your system can only
+> exclude a bare value, please do not apply it to the former ones at all. **I would
+> rather remain findable than have a stranger's record suppressed on my account.**
+
+That sentence costs the requester something on every future letter, deliberately. A
+tool that asks hundreds of companies to blacklist sixteen addresses and eleven
+reassigned numbers is quietly spending other people's findability at scale, and the
+scale is exactly why it belongs in the template rather than in a judgement call made
+letter by letter.

@@ -77,6 +77,31 @@ you honor this request as a matter of your published privacy policy.
 Please confirm in writing when this request has been completed, and tell me the
 categories of personal information you held about me at the time of deletion.
 
+Two things I would ask the confirmation to state, because they are what make it
+mean something:
+
+  1. WHICH of the identifiers above matched. "We deleted your record" and "we
+     searched and found nothing" are different outcomes, and both are fine -- but
+     a confirmation that does not distinguish them tells me nothing about whether
+     I was ever in your file. If some identifiers matched and others did not,
+     saying which is the single most useful sentence you can write.
+
+  2. WHETHER THE SUPPRESSION IS KEYED TO ME OR TO THE IDENTIFIERS I SENT. If your
+     system builds results on demand rather than storing a record, then a
+     suppression cannot attach to "my record" -- it can only attach to the keys I
+     supplied, and anything outside that set is not suppressed but merely
+     un-searched. That matters because somebody looking me up does not search my
+     current address; they search the one they have. If that is how your system
+     works, please apply the suppression across every identifier listed above.
+
+One limit on that, which I would ask you to respect even though it costs me
+something: other people live at my former addresses now and several of those
+telephone numbers have been reassigned. Please suppress the ASSOCIATION between
+those details and me -- keyed to my name and date of birth -- and never the
+address or number in itself. If your system can only exclude a bare value, please
+do not apply it to the former ones at all. I would rather remain findable than
+have a stranger's record suppressed on my account.
+
 Please send all correspondence about this request, including any verification
 step and your written confirmation, to {contact}.{contact_note}
 
