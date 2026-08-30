@@ -12408,3 +12408,50 @@ That does not make the letters wrong — a broker that holds nothing today may a
 a file tomorrow, which is why the suppression ask travels with every nil. But it is a
 real cost, it has been paid 44 times, and it had not been written down until a
 recipient pointed it out.
+
+### §195a — implementing the correction, and refusing to make it automatic
+
+Acting on Nexxen's point meant changing the letter generator, and the interesting
+part is what the change deliberately does *not* do.
+
+`make_optout_email.py` now takes `--keys full | email-only`:
+
+  - **`full`** — everything. Correct for a compiler, list broker or people-search
+    site keyed to names and postal addresses, where a partial search returns a
+    truthful false negative.
+  - **`email-only`** — name and email addresses, nothing else. Correct for a platform
+    keyed to cookies, device IDs, CTV IDs or bid-stream signals, where a postal
+    address cannot match anything and can only be added.
+
+When minimised, the letter does not simply get shorter. The withheld fields are
+printed as `(withheld -- see the note below)` and a paragraph explains the reasoning
+to the recipient. **A shorter letter reads like an oversight; a marked one reads like
+a decision, and the decision is the point.** The scope paragraph also switches from
+"search every prior address and number" to "search these emails, plaintext and
+hashed, MD5/SHA-1/SHA-256, and I have not computed them for you."
+
+**`suggest_keys()` only ever suggests.** It scans category, name, domain and notes for
+identifier-keyed vocabulary and prints a note on stderr — but the default stays
+`full`, and choosing to minimise is always an explicit act.
+
+That asymmetry is the whole design, and it is worth stating why, because "always
+minimise" is the intuitive reading of Nexxen's point and it would be wrong:
+
+    over-sending   -> a disclosure. Bad, bounded, and the requester's own to bear.
+    under-sending  -> a truthful "no record found" that is simply false, recorded
+                      as not_found, which is TERMINAL and settles the broker
+                      forever (§161a, §194).
+
+Those costs are not equal, so the tool must not silently pick the cheaper-looking
+one. It warns in both directions: if a name-keyed row is given `--keys email-only`,
+it says so explicitly, because that is the dangerous mistake.
+
+The heuristic currently flags 25 rows, of which 19 are already submitted — so the
+correction arrives too late for most of them, which is the ordinary shape of learning
+something from a recipient. Four are still pending and will get the minimised letter.
+
+**And the reason this stays a suggestion rather than a rule:** for a live-compile
+people-search site the maximal set is not a disclosure to be minimised — *it is the
+suppression itself* (§193). Sending less there protects less. Three categories, three
+different correct answers, and no single default can be right for all of them. What
+can be automated is the warning; what cannot is the judgement.

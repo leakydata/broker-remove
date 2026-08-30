@@ -49,13 +49,10 @@ To help you locate my records, my identifying details are:
   Also known as:   {aliases}
   Date of birth:   {dob}
   Phone:           {phone}
-  Mailing address: {street}
-                   {city}, {state} {zipc}
+  Mailing address: {mailing_block}
   Email addresses: {emails}
 {profile_block}{prior_block}
-This request covers records associated with ANY of the identifiers listed above —
-every email address, every prior address, and every prior telephone number, not
-only the current ones. Please search each of them.
+{scope_block}
 
 I have listed prior addresses and old telephone numbers deliberately. Records are
 frequently indexed against a former address or a disconnected number rather than
@@ -156,6 +153,49 @@ can generate them from the same public profile they were built from.
 """
 
 
+# ---------------------------------------------------------------- key policy
+#
+# WHAT IDENTIFIER SET TO SEND, AND WHY IT IS NOT ALWAYS "ALL OF THEM".
+#
+# Nexxen's privacy team wrote back on 2026-08-30: "your initial request may have
+# included personal data that we do not hold including name, address, email,
+# date of birth, phone numbers, etc. Please do not send us personal data which
+# we do not collect or process." They were right (_SILENT_FAILURES 195).
+#
+# The maximal list exists for a real reason. bdex itemised its matches and found
+# the subject on FOUR long-dead email addresses and none of the current ones --
+# a letter listing only working addresses would have drawn a truthful and
+# completely wrong "no record found" (195, 194, 189a). Against a compiler keyed
+# to names and postal addresses, sending everything is the difference between a
+# search and a false negative.
+#
+# Against a platform keyed to cookies, device IDs, CTV IDs and bid-stream
+# signals, a postal address cannot match anything. It can only be ADDED. There
+# the same list is not a search key at all, it is purely a disclosure.
+#
+# So the policy is per-recipient, and DELIBERATELY ASYMMETRIC:
+#
+#   full        default. Over-sending costs disclosure -- bad, bounded, and the
+#               requester's own to bear.
+#   email-only  emails and name only. Under-sending costs a FALSE NIL, which
+#               settles a broker wrongly and is terminal (161a). Much worse.
+#
+# Because the two failure modes are not equal, this never minimises silently.
+# The heuristic only SUGGESTS, on stderr; choosing email-only is an explicit act.
+_IDENTIFIER_KEYED = (
+    "adtech", "identity_graph", "dsp", "ssp", "exchange", "programmatic",
+    "dmp", "attribution", "retargeting", "audience", "ctv", "bidstream",
+    "bid stream", "ad tech", "advertising platform", "identity resolution",
+)
+
+
+def suggest_keys(b):
+    """Return 'email-only' if this looks identifier-keyed rather than name-keyed."""
+    hay = " ".join(str(b.get(k) or "") for k in
+                   ("category", "name", "domain", "notes", "email_note")).lower()
+    return "email-only" if any(w in hay for w in _IDENTIFIER_KEYED) else "full"
+
+
 def load_profile():
     p = json.loads((state("profile.json")).read_text())
     emails = [e.lower() for e in p.get("all_emails") or [p["email"]]]
@@ -231,6 +271,13 @@ def load_profile():
         "aliases": ", ".join(aliases),
         "dob": p.get("dob_display") or p.get("date_of_birth") or "(not provided)",
         "prior_block": prior_block,
+        "mailing_block": (p["address"] + indent +
+                          f"{p['city']}, {p['state']} {p['zip_code']}"),
+        "scope_block": (
+            "This request covers records associated with ANY of the identifiers "
+            "listed above —\nevery email address, every prior address, and every "
+            "prior telephone number, not\nonly the current ones. Please search "
+            "each of them."),
         "email": (p.get("confirmation_email") or p["email"]).lower(),
         "emails": indent.join(email_lines),
         "profile_block": profile_block,
@@ -250,12 +297,46 @@ def guess_to(b):
     return f"privacy@{d}" if d else "privacy@<broker-domain>"
 
 
-def render(b, prof, to=None, contact=None):
+MINIMISED_NOTE = """
+A NOTE ON WHAT I HAVE NOT SENT YOU
+
+I have deliberately left out my date of birth, my postal addresses and my
+telephone numbers.
+
+If your records are keyed to cookies, device or connected-TV identifiers, hashed
+emails or bid-stream signals -- as I believe they are -- then none of those could
+match anything in your systems. They would not be search keys; they would only be
+new personal data arriving at a company that did not previously hold it. Sending
+them would enlarge exactly the footprint I am writing to reduce.
+
+So this letter carries only my name and my email addresses. If you can in fact
+resolve on something else, tell me which identifier types your systems use and I
+will supply those and nothing more.
+"""
+
+
+def render(b, prof, to=None, contact=None, keys="full"):
     """`contact` is the mailbox that will actually receive replies. When it differs
     from the profile email (e.g. sending from a different account than the one
     being scrubbed), say so explicitly so the broker searches the right identity
     but answers somewhere reachable."""
     contact = contact or prof["email"]
+    prof = dict(prof)
+    if keys == "email-only":
+        # Strip the name-keyed identifiers and say why, rather than silently
+        # sending a thinner letter that reads like an oversight.
+        prof["prior_block"] = "\n" + MINIMISED_NOTE
+        prof["scope_block"] = (
+            "This request covers records associated with any of the email "
+            "addresses listed\nabove. Please search each of them, in plaintext "
+            "and hashed — MD5, SHA-1 and\nSHA-256, lowercased and trimmed. I "
+            "have not computed the hashes myself; you\nshould not have to trust "
+            "my arithmetic.")
+        # Show these as explicitly withheld rather than dropping the lines:
+        # a shorter letter reads like an oversight, a marked one reads like a
+        # decision, and the decision is the point.
+        for f in ("dob", "phone", "mailing_block"):
+            prof[f] = "(withheld -- see the note below)"
     return TEMPLATE.format(
         to=to or guess_to(b),
         broker=b.get("name", b["id"]),
@@ -269,6 +350,14 @@ def main():
     ap.add_argument("broker_id", nargs="?")
     ap.add_argument("--to")
     ap.add_argument("--contact", help="mailbox that will receive replies")
+    ap.add_argument("--keys", choices=("full", "email-only"), default=None,
+                    help="identifier set to disclose. 'full' (default) sends "
+                         "everything, correct for a name-keyed compiler where a "
+                         "partial search returns a false nil. 'email-only' sends "
+                         "name and emails only, for a platform keyed to cookies "
+                         "or device IDs where postal details cannot match and "
+                         "would only be a disclosure. Never inferred silently: "
+                         "see suggest_keys().")
     ap.add_argument("--all-blocked", action="store_true")
     args = ap.parse_args()
 
@@ -292,9 +381,23 @@ def main():
         if not b:
             print(f"  skip unknown broker: {bid}")
             continue
+        # Never minimise on a guess. The heuristic warns; the operator decides.
+        # Over-sending is a bounded disclosure the requester chose to make;
+        # under-sending draws a truthful false nil and settles the broker for
+        # good. See suggest_keys() and _SILENT_FAILURES 195.
+        keys = args.keys or "full"
+        hint = suggest_keys(b)
+        if hint == "email-only" and keys == "full":
+            print(f"  NOTE {bid}: looks identifier-keyed (cookie/device/CTV). "
+                  f"A postal address cannot match there and would only be a "
+                  f"disclosure -- consider --keys email-only.")
+        elif hint == "full" and keys == "email-only":
+            print(f"  WARNING {bid}: looks NAME-keyed, but --keys email-only was "
+                  f"given. A partial search here can return a truthful 'no "
+                  f"record found' that is simply wrong.")
         path = OUTDIR / f"{bid}.eml.txt"
-        path.write_text(render(b, prof, args.to, args.contact))
-        print(f"  wrote {path}")
+        path.write_text(render(b, prof, args.to, args.contact, keys))
+        print(f"  wrote {path}  [keys={keys}]")
 
     print(f"\n{len(targets)} email(s) in {OUTDIR}/ — review the To: address before sending.")
 
