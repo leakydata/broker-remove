@@ -296,6 +296,34 @@ def main():
                     f"note is {'empty' if not note else f'only {len(note)} chars'}. "
                     f"Record what was searched and what was found, or the row "
                     f"cannot be reviewed later. See _SILENT_FAILURES 200.")
+                continue
+
+            # A LONG NOTE IS NOT THE SAME AS AN EVIDENCED ONE.
+            #
+            # The length rule above passes a note that describes the OUTGOING
+            # LETTER in detail and never records the reply. apollo_io sat at
+            # 'confirmed' with a note reading "first contact, sent to the address
+            # discovered by the verify_emails sweep" -- 121 characters about a
+            # send, while the actual reply (deletion actioned plus an unprompted
+            # suppression, four minutes later) went unrecorded entirely. Same
+            # shape at 'experience', whose note enumerates what was ASKED.
+            #
+            # So this looks for any sign the note records an ANSWER rather than a
+            # dispatch: a quotation, or a word describing what the company did.
+            # Deliberately generous -- it is a prompt to write the outcome down,
+            # not a grammar check, and a false pass costs nothing that the length
+            # rule was not already going to miss (_SILENT_FAILURES 202).
+            ANSWERED = ("confirm", "replied", "reply", "answered", "said",
+                        "response", "responded", "ticket", "wrote back",
+                        "not found", "no record", "deleted", "suppress",
+                        "'", '"', "\u2019")
+            if not any(w in note.lower() for w in ANSWERED):
+                warnings.append(
+                    f"{bid}: status '{rec.get('status')}' is TERMINAL and its "
+                    f"note is substantial but shows no sign of recording a "
+                    f"REPLY -- no quotation, no description of what the company "
+                    f"did. Check it is not describing the outgoing letter "
+                    f"instead. See _SILENT_FAILURES 202.")
 
     # A high-priority broker with no playbook is the biggest documentation gap.
     for b in brokers:

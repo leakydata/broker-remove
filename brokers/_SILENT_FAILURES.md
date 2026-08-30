@@ -12934,3 +12934,75 @@ summary, and summarising is exactly where the scope goes missing.* It is the sam
 failure this project spends its time diagnosing in brokers — §199's nil bounded by a
 record type, §193's suppression bounded by a key set — occurring in the tracker that
 records the diagnosis.
+
+## §202 — a long note is not an evidenced one, and the inbox knew better
+
+§201's rule rejects a terminal status whose note is under forty characters. It found
+`plunge_digital` immediately. It also passed several rows it should not have, because
+**length is a poor proxy for evidence**: a note can describe the outgoing letter at
+length and never record the reply.
+
+`apollo_io` sat at `confirmed` with 121 characters reading *"first contact, sent to
+the address discovered by the verify_emails sweep."* That is a dispatch note. The
+actual reply — arriving **four minutes** after the letter — said:
+
+> "We have successfully actioned the deletion request you submitted. We have also
+> added the individual to our suppression files to ensure that they are not
+> [re-added]..."
+
+Deletion plus an unprompted forward-looking suppression, §198-quality, entirely
+unrecorded. `experience` had the same shape: a long note enumerating what was *asked*.
+
+So the rule was extended. A terminal status whose note shows no sign of an answer —
+no quotation, no word describing what the company did — now raises a warning.
+Deliberately generous, because it is a prompt to write the outcome down rather than a
+grammar check.
+
+It fired on two more: `nfocus` and `pipl`.
+
+### Pipl, and the evidence sitting in the inbox
+
+Pipl's nil was: *"We did not find any profiles in our system that match the data
+points provided."*
+
+Scoped to **profiles** — their consumer product, and the natural thing for a support
+team to search. The §199 shape exactly. But this time the scope error is not a
+suspicion, because **the mailbox contains Pipl's own email to that address**:
+
+    "Information on Today's Minor Pipl API Service Interruption"  -- addressed
+        "Dear API customer", March 2018
+    "Pipl Index Update: Enhanced Work History and Contact Data"   -- Feb 2018
+    "GDPR Compliance - we've got you covered"  -- from privacy@pipl.com, Apr 2018
+    "Pipl Index Update: Gimme more emails! Gimme more phones!"    -- Mar 2019
+
+Several say *"Go to your account."*
+
+**A commercial relationship existed.** Account records, billing, support tickets,
+mailing-list membership, API usage logs — none of which is a *profile*, which is
+precisely why a profile search returns nothing while the data still exists.
+
+The reply quotes their own subject lines back as the evidence, frames it as scope
+rather than dishonesty — *a support team searches the system it owns* — and asks them
+to state **which systems were searched** rather than only whether something was found.
+It also says that a clean "no profile" finding from a profile-building company is
+genuinely good news and will be recorded as such.
+
+### What this run of sections adds up to
+
+Four passes over the tracker, each prompted by the last:
+
+    §194  56 of 58 confirmations rest on say-so with no itemised match
+    §200  2 terminal rows with no evidence at all
+    §201  1 terminal row that was not a confirmation of the request
+    §202  4 more whose notes record the letter and not the reply
+
+Every one was found by making a row explain itself, and every one was invisible to a
+reader skimming a status column. **The project's own ledger had the same defect it
+spends its time diagnosing in brokers:** a summary that is true about the thing it
+summarises and silent about the scope.
+
+And Pipl is the sharpest version, because it inverts the usual asymmetry. Normally the
+company knows more than the requester about what it holds. Here the requester's own
+inbox — nine-year-old marketing mail nobody thought to look at — proved a relationship
+that the company's own search had not surfaced. **The evidence a broker's nil is wrong
+is sometimes already in your possession.**
