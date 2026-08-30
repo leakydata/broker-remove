@@ -12735,3 +12735,67 @@ evidence to the assumption that a broker's compliance function is adversarial by
 nature, and the reason it is worth writing back to say so specifically rather than
 just saying thank you — a compliance team that gets told which of its practices was
 useful has a reason to keep it.
+
+## §199 — "no record of a verification attempt" is not "no personal information"
+
+SheerID answered a deletion request with a real search and a genuinely good offer:
+
+> "We have found no record of a verification attempt made to SheerID based on the
+> user data provided. **If you have another email address or verification ID with
+> which we can search, please let us know and we'll be happy to investigate
+> further.**"
+
+Inviting more identifiers is the opposite of how most companies close one of these
+out, and it was credited as such. But the answer has a scope worth noticing, and it
+is not a scope the requester can see from outside.
+
+**The nil is bounded by a record type, not by the person.** "No record of a
+verification attempt" is narrower than "no personal information about you", and
+SheerID is a *registered data broker* — a registration that implies holding or
+selling personal information about people the company has no direct relationship
+with. That is a broader category than verification attempts. There could plausibly
+be:
+
+  - data obtained from the third-party sources they check status against, retained
+    independently of any attempt;
+  - records held on behalf of a merchant client rather than under their own name;
+  - marketing, analytics or web records unconnected to verification.
+
+So the follow-up asks the distinction directly: **does "no verification attempt" mean
+"no personal information of any kind", or only that one record type was searched?**
+
+### Why this is nobody's fault, and why it matters anyway
+
+The framing in the reply is deliberate:
+
+> A support desk naturally searches the system it owns, and "we found nothing" is
+> entirely truthful about that system while being silent about the others. It is
+> nobody's fault; it is just invisible from my side.
+
+That is the generalisation, and it applies to a large fraction of the 44 `not_found`
+rows in this project. **A nil result inherits the scope of whoever ran it.** A
+verification support agent searches verification records. A marketing team searches
+the marketing database. Neither is lying, neither is being evasive, and neither
+answer is what was asked — and the requester has no way to tell, because the reply
+says "we found nothing" in both cases.
+
+The fix is cheap and belongs in every nil-result follow-up from here on: **ask which
+systems were searched, not whether something was found.** A company that answers
+"all of them" has given a much stronger statement than one that answers "our
+verification records", and the difference is invisible until you ask.
+
+### The identifier that should have been sent first
+
+The letter that produced this nil listed four consumer email addresses. SheerID
+verifies *student* status. The natural key for that is a `.edu` address — and
+the subject's university address was among the eight not sent.
+
+That is §189a again: match the vintage and *kind* of identifier to what the company
+does. A student-verification company searched four Gmail addresses and found nothing,
+which is exactly the truthful-and-wrong outcome §194 describes. The follow-up supplies
+all eight remaining addresses and flags the university one explicitly as the likely
+key.
+
+The row stays `submitted` rather than settling as `not_found`, for the §161a reason:
+a terminal status recorded on a scoped search closes a broker on a question that was
+never actually asked.
