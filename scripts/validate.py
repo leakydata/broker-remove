@@ -55,6 +55,27 @@ DEAD_ADDRS = _dead_addresses()
 def main():
     data = json.loads(CURATED.read_text())
     brokers = data["brokers"]
+
+    # An address that dies gets email_verified_by overwritten with the CAUSE of death
+    # ("bounced", "declared_unmonitored_by_company"), which destroys the record of what
+    # the address was trusted on in the first place. That made the obvious question --
+    # do register-filed addresses fail more often than policy-published ones? --
+    # unanswerable from the data, because failure erased the evidence. 27 of them were
+    # recoverable from git history; the rest are gone. See _SILENT_FAILURES 206.
+    #
+    # The rule now: when demoting a verified address, move the old basis to
+    # email_verified_was before writing the cause of death over it.
+    # Only bases that imply the address once WORKED. "no_address_published" and
+    # "site_unreachable" are discovery outcomes -- 88 rows were born carrying them and
+    # never had a prior basis to lose, so warning on those would be 88 false positives.
+    _DEATH_BASIS = {"bounced", "hard_bounce", "declared_unmonitored_by_company"}
+    for _b in brokers:
+        _by = (_b.get("email_verified_by") or "")
+        if _by in _DEATH_BASIS and not _b.get("email_verified_was"):
+            warnings.append(
+                f"[{_b['id']}]: email_verified_by={_by!r} records the cause of "
+                "death but the prior basis is lost; set email_verified_was "
+                "when demoting")
     by_id = {b["id"]: b for b in brokers if b.get("id")}
 
     # Status lives in a gitignored state file, so it is loaded defensively: a

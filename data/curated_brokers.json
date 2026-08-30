@@ -1887,13 +1887,14 @@
       "email_to": "info@connextdigital.com",
       "email_verified": false,
       "email_verified_by": "bounced",
-      "notes": "Both info@connextdigital.com (2026-08-17) and privacy@connextdigital.com (2026-08-22) hard-bounce 550 5.1.1. No alternative address published anywhere on the site. Domain/MX resolve — live domain, no working mailbox. No usable email route; do not resend to either address.",
+      "notes": "Both info@connextdigital.com (2026-08-17) and privacy@connextdigital.com (2026-08-22) hard-bounce 550 5.1.1. No alternative address published anywhere on the site. Domain/MX resolve \u2014 live domain, no working mailbox. No usable email route; do not resend to either address.",
       "email_alt": "privacy@connextdigital.com",
       "registry_years": [
         "2020-2023",
         "2024",
         "2025"
-      ]
+      ],
+      "email_verified_was": "ca_data_broker_registry"
     },
     {
       "id": "consider",
@@ -2053,7 +2054,7 @@
       "email_to": "priorityoptout@intelius.com",
       "email_verified": true,
       "email_verified_by": "broker_reply",
-      "notes": "support@criminaldatacheck.com hard-bounces (550) and is the only address the site itself publishes. This is an Intelius/PeopleConnect affiliate front (optout_url already pointed at intelius.com/privacy-center) — file against priorityoptout@intelius.com naming CriminalDataCheck.com specifically, same pattern as addresses_com and zabasearch.",
+      "notes": "support@criminaldatacheck.com hard-bounces (550) and is the only address the site itself publishes. This is an Intelius/PeopleConnect affiliate front (optout_url already pointed at intelius.com/privacy-center) \u2014 file against priorityoptout@intelius.com naming CriminalDataCheck.com specifically, same pattern as addresses_com and zabasearch.",
       "email_alt": "support@criminaldatacheck.com"
     },
     {
@@ -2172,7 +2173,8 @@
       "email_to": "support@ddotslab.com",
       "email_verified": false,
       "email_verified_by": "bounced",
-      "notes": "Published address hard-bounces (550); no alternative published."
+      "notes": "Published address hard-bounces (550); no alternative published.",
+      "email_verified_was": "privacy_policy"
     },
     {
       "id": "data_delivers",
@@ -2201,12 +2203,13 @@
       "email_to": "info@datadirectmarketing.com",
       "email_verified": false,
       "email_verified_by": "bounced",
-      "notes": "Both info@datadirectmarketing.com (2026-08-17) and datanalytics@teamdms.com (2026-08-22) hard-bounce 'address not found'. No alternative address published anywhere on the site. Domain/MX resolve — live domain, no working mailbox. No usable email route; do not resend to either address.",
+      "notes": "Both info@datadirectmarketing.com (2026-08-17) and datanalytics@teamdms.com (2026-08-22) hard-bounce 'address not found'. No alternative address published anywhere on the site. Domain/MX resolve \u2014 live domain, no working mailbox. No usable email route; do not resend to either address.",
       "email_alt": "datanalytics@teamdms.com",
       "registry_years": [
         "2020-2023",
         "2024"
-      ]
+      ],
+      "email_verified_was": "ca_data_broker_registry"
     },
     {
       "id": "data_trust",
@@ -2250,7 +2253,8 @@
       "registry_years": [
         "2020-2023",
         "2024"
-      ]
+      ],
+      "email_verified_was": "privacy_policy"
     },
     {
       "id": "dataline",
@@ -3404,7 +3408,8 @@
       "email_verified": false,
       "email_verified_by": "bounced",
       "email_alt": "support@freebackgroundcheck.org",
-      "notes": "Both published addresses hard-bounce (550): support@ from the home page and privacy@ from the privacy policy. Every actionable link in that policy points at web.archive.org snapshots, and the live optout URL redirects back to the policy. No working removal route exists. Google MX resolves, which routes mail but says nothing about whether a mailbox exists."
+      "notes": "Both published addresses hard-bounce (550): support@ from the home page and privacy@ from the privacy policy. Every actionable link in that policy points at web.archive.org snapshots, and the live optout URL redirects back to the policy. No working removal route exists. Google MX resolves, which routes mail but says nothing about whether a mailbox exists.",
+      "email_verified_was": "privacy_policy"
     },
     {
       "id": "freebackgroundchecks_com",
@@ -4375,7 +4380,8 @@
       "email_to": "privacy@keyopinionleaders.com",
       "email_verified": false,
       "email_verified_by": "bounced",
-      "notes": "Domain has NO NS, NO SOA, NO A and NO MX - it does not resolve at all, on the apex or on www. The registration has lapsed or been withdrawn. Gmail reports this as a DELIVERY DELAY and retries for 48 hours, so it looks transient for two days before hard-bouncing."
+      "notes": "Domain has NO NS, NO SOA, NO A and NO MX - it does not resolve at all, on the apex or on www. The registration has lapsed or been withdrawn. Gmail reports this as a DELIVERY DELAY and retries for 48 hours, so it looks transient for two days before hard-bouncing.",
+      "email_verified_was": "site_unreachable"
     },
     {
       "id": "keyword_connects",
@@ -4503,7 +4509,8 @@
       "email_alt": null,
       "registry_years": [
         "2020-2023"
-      ]
+      ],
+      "email_verified_was": "hard_bounce"
     },
     {
       "id": "leadiq",
@@ -5107,7 +5114,8 @@
       "email_alt": null,
       "registry_years": [
         "2020-2023"
-      ]
+      ],
+      "email_verified_was": "site_unreachable"
     },
     {
       "id": "matchbook",
@@ -5309,7 +5317,8 @@
       "email_to": "privacy@mightyrep.com",
       "email_verified": false,
       "email_verified_by": "bounced",
-      "notes": "privacy@mightyrep.com hard-bounces (address not found) despite being the exact address on file in MightyRep's own CA data broker registration (oag.ca.gov/data-broker/registration/564387, approved 2023-03-16) - the state registry does not guarantee deliverability. No alternate address published. Fallback is the contact form at /contact (needs a human; no CAPTCHA info available)."
+      "notes": "privacy@mightyrep.com hard-bounces (address not found) despite being the exact address on file in MightyRep's own CA data broker registration (oag.ca.gov/data-broker/registration/564387, approved 2023-03-16) - the state registry does not guarantee deliverability. No alternate address published. Fallback is the contact form at /contact (needs a human; no CAPTCHA info available).",
+      "email_verified_was": "unrecorded"
     },
     {
       "id": "milestone_marketing_solutions",
@@ -6198,7 +6207,8 @@
       "email_alt": null,
       "registry_years": [
         "2020-2023"
-      ]
+      ],
+      "email_verified_was": "delivery_evidence"
     },
     {
       "id": "onemodel",
@@ -6226,7 +6236,8 @@
       "optery_slug": "openpeoplesearch",
       "email_to": "info@openpeoplesearch.com",
       "email_verified": false,
-      "email_verified_by": "bounced"
+      "email_verified_by": "bounced",
+      "email_verified_was": "privacy_policy"
     },
     {
       "id": "openpublicrecords",
@@ -6424,7 +6435,8 @@
         "2024",
         "2025",
         "2026"
-      ]
+      ],
+      "email_verified_was": "delivery_evidence"
     },
     {
       "id": "path2response",
@@ -6816,7 +6828,8 @@
       "email_to": null,
       "email_verified": false,
       "email_verified_by": "no_address_published",
-      "notes": "support@ replies that they DO NOT process privacy requests by email. Three web routes: /opt-out (the only one that does anything), /do-not-sell, and /privacy-rights - which is a funnel with no submit button that ends in an essay explaining why they will not delete. Opt-out is CAPTCHA-gated then email-verified, link expires in 24h, 3 days to take effect. They claim results are retrieved live from third-party providers rather than stored."
+      "notes": "support@ replies that they DO NOT process privacy requests by email. Three web routes: /opt-out (the only one that does anything), /do-not-sell, and /privacy-rights - which is a funnel with no submit button that ends in an essay explaining why they will not delete. Opt-out is CAPTCHA-gated then email-verified, link expires in 24h, 3 days to take effect. They claim results are retrieved live from third-party providers rather than stored.",
+      "email_verified_was": "broker_reply"
     },
     {
       "id": "phonenumberinfo_us",
@@ -7038,7 +7051,8 @@
       "email_to": null,
       "email_verified": false,
       "email_verified_by": "no_address_published",
-      "notes": "support@privatenumberchecker.com hard-bounces 'address not found' despite the domain publishing MX. Use /removalrequest/ - a short form, NO CAPTCHA, with a free-text 'Removal reason' box that accepts a full multi-identifier request. Phone field rejects hyphens ('must be numeric') and the failed validation leaves the submit button DISABLED, so the correction cannot be sent without reloading. Cloudflare challenges the page but clears in ~10s."
+      "notes": "support@privatenumberchecker.com hard-bounces 'address not found' despite the domain publishing MX. Use /removalrequest/ - a short form, NO CAPTCHA, with a free-text 'Removal reason' box that accepts a full multi-identifier request. Phone field rejects hyphens ('must be numeric') and the failed validation leaves the submit button DISABLED, so the correction cannot be sent without reloading. Cloudflare challenges the page but clears in ~10s.",
+      "email_verified_was": "delivery_evidence"
     },
     {
       "id": "privaterecords",
@@ -7497,7 +7511,8 @@
       "email_alt": null,
       "registry_years": [
         "2024"
-      ]
+      ],
+      "email_verified_was": "delivery_evidence"
     },
     {
       "id": "reallygreatrate",
@@ -9109,7 +9124,8 @@
       "optery_slug": "tymax-media",
       "email_to": "privacyofficer@datacomplianceportal.com",
       "email_verified": false,
-      "email_verified_by": "bounced"
+      "email_verified_by": "bounced",
+      "email_verified_was": "unrecorded"
     },
     {
       "id": "ufind_name",
@@ -11437,7 +11453,8 @@
         "2024",
         "2025"
       ],
-      "legal_name": "4Eyes.ai, Inc."
+      "legal_name": "4Eyes.ai, Inc.",
+      "email_verified_was": "ca_data_broker_registry"
     },
     {
       "id": "5x5",
@@ -11854,7 +11871,8 @@
         "2020-2023",
         "2024"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "email_verified_was": "ca_data_broker_registry"
     },
     {
       "id": "alikeaudience",
@@ -12166,7 +12184,8 @@
         "2020-2023",
         "2024"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "email_verified_was": "ca_data_broker_registry"
     },
     {
       "id": "asl_marketing",
@@ -12386,7 +12405,8 @@
       ],
       "legal_name": "Bachmanity, Inc.",
       "email_alt": "privacy@aviato.co (DEAD - 550), contact@joinaviato.com (mailto href)",
-      "notes": "privacy@aviato.co - the CA-registered contact - hard-bounces 550 though the domain has live Google MX. Their privacy policy DISPLAYS contact@aviato.co but the mailto href points at contact@joinaviato.com, a different domain that redirects to aviato.co. Both accept mail; wrote to both."
+      "notes": "privacy@aviato.co - the CA-registered contact - hard-bounces 550 though the domain has live Google MX. Their privacy policy DISPLAYS contact@aviato.co but the mailto href points at contact@joinaviato.com, a different domain that redirects to aviato.co. Both accept mail; wrote to both.",
+      "email_verified_was": "ca_data_broker_registry"
     },
     {
       "id": "azerion",
@@ -13089,7 +13109,8 @@
       "registry_years": [
         "2020-2023"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "email_verified_was": "ca_data_broker_registry"
     },
     {
       "id": "campaigner_smtp",
@@ -13166,7 +13187,8 @@
         "2025"
       ],
       "legal_name": null,
-      "email_note": "|| 2026-08-29: the registry still claimed email_verified via the CA register for an address already recorded dead in dead_addresses.json. Flag corrected. Found by the new dead-address check in validate.py, which exists because of exactly this failure -- see _SILENT_FAILURES 169."
+      "email_note": "|| 2026-08-29: the registry still claimed email_verified via the CA register for an address already recorded dead in dead_addresses.json. Flag corrected. Found by the new dead-address check in validate.py, which exists because of exactly this failure -- see _SILENT_FAILURES 169.",
+      "email_verified_was": "ca_data_broker_registry"
     },
     {
       "id": "carney_direct_marketing",
@@ -13705,7 +13727,8 @@
         "2024",
         "2025"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "email_verified_was": "ca_data_broker_registry"
     },
     {
       "id": "reis",
@@ -13802,7 +13825,8 @@
       "registry_years": [
         "2020-2023"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "email_verified_was": "ca_data_broker_registry"
     },
     {
       "id": "cyberbackgroundchecks_com_advancedbackgroundchecks_com_fastb",
@@ -14027,7 +14051,8 @@
         "2025"
       ],
       "legal_name": null,
-      "email_note": "privacy@date-detective.app is a RESTRICTED GOOGLE WORKSPACE GROUP: the postmaster replies 'The group privacy isn't set up to receive messages from [the requester's address]'. It accepts internal mail and rejects every consumer, so it looks alive from outside and is not. Same shape as graph8 (149). This is the address on the CA register. No alternative found yet -- the product runs background and identity checks on people for dating-safety purposes, so the file is worth reaching; needs a second route."
+      "email_note": "privacy@date-detective.app is a RESTRICTED GOOGLE WORKSPACE GROUP: the postmaster replies 'The group privacy isn't set up to receive messages from [the requester's address]'. It accepts internal mail and rejects every consumer, so it looks alive from outside and is not. Same shape as graph8 (149). This is the address on the CA register. No alternative found yet -- the product runs background and identity checks on people for dating-safety purposes, so the file is worth reaching; needs a second route.",
+      "email_verified_was": "ca_data_broker_registry"
     },
     {
       "id": "datonics",
@@ -14570,7 +14595,8 @@
         "2020-2023",
         "2024"
       ],
-      "legal_name": "eMerges.com, Inc."
+      "legal_name": "eMerges.com, Inc.",
+      "email_verified_was": "ca_data_broker_registry"
     },
     {
       "id": "endgame",
@@ -14894,7 +14920,8 @@
       "registry_years": [
         "2020-2023"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "email_verified_was": "ca_data_broker_registry"
     },
     {
       "id": "finsum",
@@ -15627,7 +15654,8 @@
         "2020-2023",
         "2024"
       ],
-      "legal_name": "Casters Holdings LLC"
+      "legal_name": "Casters Holdings LLC",
+      "email_verified_was": "ca_data_broker_registry"
     },
     {
       "id": "wholesale_mail_hp",
@@ -15953,7 +15981,8 @@
       "registry_years": [
         "2020-2023"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "email_verified_was": "ca_data_broker_registry"
     },
     {
       "id": "inbound_insight",
@@ -16011,7 +16040,8 @@
         "2020-2023",
         "2024"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "email_verified_was": "ca_data_broker_registry"
     },
     {
       "id": "infillion",
@@ -17118,7 +17148,7 @@
       ],
       "legal_name": null,
       "email_alt": "dataprivacy@listmatch.com",
-      "notes": "dataprivacy@listmatch.com — the address on their CA data broker registration — hard-bounced (550) 2026-08-27. Their own privacy page publishes a YEAR-SUFFIXED address, dataprivacy2026@listmatch.com, which rotates while the registry keeps the old one. Resent there 2026-08-27 and got an auto-reply confirming receipt (gmail:1a041e3313fd0e4e). Registry entry was stale — email_to still pointed at the dead address after a prior session already found and used the fix."
+      "notes": "dataprivacy@listmatch.com \u2014 the address on their CA data broker registration \u2014 hard-bounced (550) 2026-08-27. Their own privacy page publishes a YEAR-SUFFIXED address, dataprivacy2026@listmatch.com, which rotates while the registry keeps the old one. Resent there 2026-08-27 and got an auto-reply confirming receipt (gmail:1a041e3313fd0e4e). Registry entry was stale \u2014 email_to still pointed at the dead address after a prior session already found and used the fix."
     },
     {
       "id": "lob_com",
@@ -17156,7 +17186,8 @@
         "2020-2023"
       ],
       "legal_name": null,
-      "email_note": "|| 2026-08-29: the registry still claimed email_verified via the CA register for an address already recorded dead in dead_addresses.json. Flag corrected. Found by the new dead-address check in validate.py, which exists because of exactly this failure -- see _SILENT_FAILURES 169."
+      "email_note": "|| 2026-08-29: the registry still claimed email_verified via the CA register for an address already recorded dead in dead_addresses.json. Flag corrected. Found by the new dead-address check in validate.py, which exists because of exactly this failure -- see _SILENT_FAILURES 169.",
+      "email_verified_was": "ca_data_broker_registry"
     },
     {
       "id": "chartboost_loopme",
@@ -18162,7 +18193,8 @@
         "2020-2023"
       ],
       "legal_name": null,
-      "email_note": "privacy@nymblr.com HARD BOUNCES (550 5.1.1, 2026-08-29) although it is the address published on the CA data broker register. The Workspace tenant is live (five MX, Cloudflare) so the domain is maintained; the mailbox does not exist. The website serves an infinite 301 redirect loop with a zero-byte body, so there is no page to read for an alternative and no successor named anywhere. Filings stop after 2020-2023. No route currently known. See _SILENT_FAILURES 166."
+      "email_note": "privacy@nymblr.com HARD BOUNCES (550 5.1.1, 2026-08-29) although it is the address published on the CA data broker register. The Workspace tenant is live (five MX, Cloudflare) so the domain is maintained; the mailbox does not exist. The website serves an infinite 301 redirect loop with a zero-byte body, so there is no page to read for an alternative and no successor named anywhere. Filings stop after 2020-2023. No route currently known. See _SILENT_FAILURES 166.",
+      "email_verified_was": "ca_data_broker_registry"
     },
     {
       "id": "online_advertising_network_sp_z_o_o",
@@ -18911,7 +18943,8 @@
       "legal_name": "PureCars Technologies, LLC",
       "category": "adtech",
       "category_source": "site_classifier 2026-08-30",
-      "email_note": "|| 2026-08-30 email_verified set FALSE. It had been true via 'ca_data_broker_registry', which only ever meant 'this address appears on the register' -- not 'this address works'. The company has now said in its own autoresponder that the mailbox is not monitored, so the route is dead while the register entry stands. See SILENT_FAILURES 205."
+      "email_note": "|| 2026-08-30 email_verified set FALSE. It had been true via 'ca_data_broker_registry', which only ever meant 'this address appears on the register' -- not 'this address works'. The company has now said in its own autoresponder that the mailbox is not monitored, so the route is dead while the register entry stands. See SILENT_FAILURES 205.",
+      "email_verified_was": "ca_data_broker_registry"
     },
     {
       "id": "quadrant_global_pte",
@@ -18972,7 +19005,7 @@
       ],
       "legal_name": "RampedUp",
       "email_alt": "privacy@rampedup.io",
-      "notes": "privacy@rampedup.io — the address on their CA data broker registration — is a restricted Google Workspace group that rejects outside senders ('group may not exist or you may not have permission to post'), bounced 2026-08-26. Their own site publishes contact@rampedup.io instead; resent there, unverified until a reply arrives."
+      "notes": "privacy@rampedup.io \u2014 the address on their CA data broker registration \u2014 is a restricted Google Workspace group that rejects outside senders ('group may not exist or you may not have permission to post'), bounced 2026-08-26. Their own site publishes contact@rampedup.io instead; resent there, unverified until a reply arrives."
     },
     {
       "id": "ray_cdp",
@@ -19202,7 +19235,8 @@
         "2020-2023",
         "2024"
       ],
-      "legal_name": "ResearchUSA"
+      "legal_name": "ResearchUSA",
+      "email_verified_was": "ca_data_broker_registry"
     },
     {
       "id": "response_america",
@@ -19620,7 +19654,8 @@
       "registry_years": [
         "2020-2023"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "email_verified_was": "ca_data_broker_registry"
     },
     {
       "id": "sbfe",
@@ -20043,7 +20078,8 @@
       "legal_name": null,
       "duplicate_of": "sourceit",
       "notes": "Resolves to sourceit.co, the same site as sourceit. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the sourceit thread rather than opening a second request.",
-      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (SILENT_FAILURES 170): filings have lapsed, so the 163 domain check ran and CLEARED this row -- the site is live and carries the registrant's own name, so the domain has not been re-registered by anyone else. Safe to send normally; no further domain check needed. || 2026-08-29 SECOND ADDRESS FOR A CONTACTED COMPANY (SILENT_FAILURES 177). duplicate_of=sourceit, which is already confirmed -- but at a DIFFERENT address (dataprivacy2026@sourceitmarketing.com); this row's is dataprivacy@sourceitmarketing.com. Deliberately left PENDING: an acquired or renamed entity often keeps a legacy file the successor's privacy desk never sees, and the old address is the only route to it. Write to it as its own target, referencing the canonical, rather than treating it as a duplicate to be closed."
+      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (SILENT_FAILURES 170): filings have lapsed, so the 163 domain check ran and CLEARED this row -- the site is live and carries the registrant's own name, so the domain has not been re-registered by anyone else. Safe to send normally; no further domain check needed. || 2026-08-29 SECOND ADDRESS FOR A CONTACTED COMPANY (SILENT_FAILURES 177). duplicate_of=sourceit, which is already confirmed -- but at a DIFFERENT address (dataprivacy2026@sourceitmarketing.com); this row's is dataprivacy@sourceitmarketing.com. Deliberately left PENDING: an acquired or renamed entity often keeps a legacy file the successor's privacy desk never sees, and the old address is the only route to it. Write to it as its own target, referencing the canonical, rather than treating it as a duplicate to be closed.",
+      "email_verified_was": "ca_data_broker_registry"
     },
     {
       "id": "source_path_digital",

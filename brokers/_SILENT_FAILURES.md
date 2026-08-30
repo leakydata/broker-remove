@@ -13358,3 +13358,86 @@ disclosure from writing to the company.
 Where a **phone route** exists alongside it, the handoff now recommends the phone
 first: it reaches the same team, creates no third-party record, and for a company
 holding DMV-derived data the questions are ones a person can ask aloud.
+
+## §206 — the failure overwrote the evidence of what failed
+
+§205 ended with a schema complaint: 613 rows claimed `email_verified: true` on the
+basis `ca_data_broker_registry`, which only ever meant *a company filed this address
+on a state register*. This entry is what happened when I tried to act on it.
+
+### Deriving the tier was easy
+
+`build_registry.py` now computes `route_evidence` from the raw basis, in the
+generated file only, so there is one place to change the mapping:
+
+    replied     9   a human at the company answered
+    delivered 131   a message arrived, or an autoresponder fired
+    published 212   the company published the address itself
+    filed     613   it appears on a register, and nothing more
+    none      565   no evidence at all
+
+Four fifths of everything I have ever called "verified" is the weakest tier.
+
+### Testing the tier was not
+
+The obvious question: **do register-filed addresses fail more often than
+policy-published ones?** I have 66 known-dead addresses. Cross-referencing them
+against the tier gave a clean, absurd answer:
+
+    filed      613 addrs, known-dead 0 (0.0%)
+    published  212 addrs, known-dead 0 (0.0%)
+    none       216 addrs, known-dead 32 (14.8%)
+
+Every dead address is in the *none* tier — because when an address dies I overwrite
+`email_verified_by` with the **cause of death** (`bounced`, `site_unreachable`,
+`declared_unmonitored_by_company`), which drops the row to *none*. The measurement was
+circular. Death demotes the row, so the tier can never be observed failing.
+
+**The failure overwrote the evidence of what failed.** A field recording *why we
+stopped trusting this* was written over the field recording *why we trusted it*, and
+the second was the one that answered the question.
+
+### Recovering it from git
+
+The prior basis was recoverable, because the repo is the audit log I did not know I was
+keeping. Walking all 98 revisions of `curated_brokers.json` oldest-first and taking each
+row's first non-death basis recovered 27 of 32, and a second pass over the wider set of
+death-basis rows recovered 11 more. Four of those "bases" turned out to be prose —
+discovery notes like *"privacy.php and contact.php publish no address in page text"*
+stuffed into a field meant to hold a token — and were dropped.
+
+The rule is now enforced: demoting a verified address moves the old basis to
+**`email_verified_was`** before writing the cause of death over it, and `validate.py`
+warns when a death basis appears with no prior basis beside it.
+
+One correction to my own guard, caught immediately: it first fired 96 times. Because
+88 of those rows were **born** carrying `no_address_published` — they were never
+verified, so there was no prior basis to lose. Those are discovery outcomes, not
+demotions, and warning on them is 88 false positives. The guard now covers only bases
+that imply the address once worked.
+
+### What the recovered data actually shows
+
+    ca_data_broker_registry   22 died of 635 ever held   3.5%
+    privacy_policy             4 died of 205 ever held   2.0%
+    delivery_evidence          4 died of 133 ever held   3.0%
+
+Weaker than I expected, and I am going to say so rather than round it toward the
+conclusion I wanted. Register-filed addresses died at under twice the rate of
+policy-published ones, on small numbers — and addresses with **actual delivery
+evidence** died at 3.0%, nearly the same. Rot is general; it is not a register
+phenomenon.
+
+**But the denominator is the wrong one, and in the direction that matters.** An address
+only enters `dead_addresses.json` when I mail it and it *hard-bounces*. A mailbox that
+accepts mail and is read by nobody never bounces and never gets counted — and that is
+precisely the failure mode a register contact is most prone to: filed once at
+registration, satisfying the statute, then abandoned without anyone updating the
+filing. PureCars is in the *filed* tier and is not in that 3.5%; it counts as alive.
+It is only known to be dead because it happened to autorespond and say so.
+
+So the death rate is a floor, and it undercounts hardest exactly where the tier is
+weakest. The case for ranking *filed* below *published* stays what it was in §173 —
+semantic, not statistical. **Filed means someone typed it into a form once. Published
+means someone maintains the page it sits on.** The numbers do not establish that;
+they are merely consistent with it, and they are honest about which one they are.
