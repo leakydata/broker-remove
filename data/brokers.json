@@ -17014,7 +17014,9 @@
         "2024",
         "2025"
       ],
-      "legal_name": "Slashdot Media, LLC"
+      "legal_name": "Slashdot Media, LLC",
+      "duplicate_of": "slashdot_media_sourceforge_voipreview_slashdot_linux_journal",
+      "email_note": "|| 2026-08-29 COVERED BY CANONICAL (177/189): identical address roger.abbott@slashdotmedia.com as the seven-brand row, which names Slashdot Media itself among its brands. One letter reached this mailbox; a second would be the same request arriving twice. NOT marked confirmed -- no confirmation received."
     },
     {
       "id": "slashdot_media_sourceforge_voipreview_slashdot_linux_journal",

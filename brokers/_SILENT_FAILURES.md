@@ -11954,3 +11954,50 @@ domain split.
 registrant filled in. A public register is a pile of self-descriptions written under
 obligation, and the multi-brand ones are handing over the family structure that
 §176's whole apparatus exists to reconstruct.
+
+### §189a — the dead address as the strongest key, not the weakest
+
+Every letter in this project lists twelve email addresses, four of which are at
+services that no longer exist: WebTV, Gateway.net, iWon, and a closed university
+account. They are normally the long shot — included because they cost nothing to
+list and because they are the records the subject cannot check.
+
+The Slashdot Media filing inverts that, and the inversion is worth naming because it
+will recur.
+
+Seven brands on one registration: Slashdot Media, SourceForge, Slashdot, Linux
+Journal, VoipReview, My Rate Plan, Wirefly. Three of those are **among the oldest
+continuously operating communities on the internet.** People registered accounts on
+them in the late 1990s and early 2000s — and they did so under the email addresses
+they had *then*.
+
+Which are exactly the four dead ones. WebTV, Gateway and iWon are not obscure
+choices; they are what a great many American households had for email in that
+period, and a university address is what a student had. **For this company, the
+unverifiable addresses are the most likely match in the set, not the least.**
+
+So the letter says so explicitly and asks them not to skip addresses that cannot be
+verified — because a process that quietly drops unverifiable identifiers would miss
+precisely the records being asked about. It also lists the prior postal addresses
+*oldest era first* rather than in the usual order, on the same reasoning: an account
+from 2001 carries a 2001 address.
+
+**The general rule:** an identifier's value depends on the age of the file, not on
+whether it still works. Match the vintage of the identifier to the vintage of the
+company. A twenty-year-old community, a legacy compiler ([§163] successions), a
+student-list broker ([ASL, in `_CATEGORY_VARIANTS`]) — for all of these the dead
+address is the live key, and the working one is nearly useless.
+
+**The second question the letter asks** is the one that makes this filing unusual.
+Seven brands, but two kinds: three community properties, and three shopping-comparison
+sites. A person comparing phone plans is a shopping-intent lead and that is a business
+model people broadly understand. A twenty-year-old forum account being brokered is
+something else, and nobody who registered it in 2001 contemplated it. So the letter
+asks which of the two feeds the brokered file — and if it is the communities, *when
+that began and whether those users were told.*
+
+**And one addition to the standing refusals.** The usual line is "please do not ask me
+to create an account." Against a company that may hold a dormant account of mine from
+decades ago, that needs extending: *do not ask me to reactivate an old one either.*
+Recovering a lapsed account to prove identity would mean restoring the very
+relationship the request exists to end.
