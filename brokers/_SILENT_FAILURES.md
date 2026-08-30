@@ -12001,3 +12001,72 @@ to create an account." Against a company that may hold a dormant account of mine
 decades ago, that needs extending: *do not ask me to reactivate an old one either.*
 Recovering a lapsed account to prove identity would mean restoring the very
 relationship the request exists to end.
+
+## §190 — three places the recipients question is answerable, and why
+
+The single most-refused question in this project is *who received a copy of my data*.
+Over a hundred companies have been asked. Almost none have answered, and for a bulk
+compiler the refusal is often honest rather than strategic: the file went out to a
+client list, and no per-consumer record of who got which row was ever created. The
+answer does not exist to be given.
+
+Three categories are different, and it is worth collecting them, because the reason
+is the same each time and it is not goodwill.
+
+  1. **Skip-trace and search platforms** ([§184]). Every lookup is a discrete,
+     authenticated, billable event. The log exists for billing, audit and
+     permissible-purpose compliance.
+
+  2. **Contributory co-operatives** ([§188]). Contribution and draw are both tracked,
+     because that accounting is what determines a member's entitlement.
+
+  3. **DMV-derived automotive data** — this tick, Urban Science. **18 U.S.C.
+     §2721(c) requires an authorised recipient who resells or rediscloses motor
+     vehicle record information to keep records of each person who received it and
+     the purpose, for five years.**
+
+In all three, the record exists because something other than transparency required
+it: a billing system, a settlement ledger, a federal statute. **The recipients
+question is answerable exactly where somebody other than the consumer needed the
+answer first.**
+
+That is the general lesson and it is a useful one for targeting. Before asking a
+company who received the data, ask what would have forced them to write it down.
+Where nothing would have, expect an honest inability and do not spend the letter on
+it. Where something did, the answer exists and "we do not keep that information" is
+not among the available replies.
+
+### On not overclaiming the instrument
+
+The DPPA letter is careful in a way worth recording, because the temptation was real.
+
+§2721(c) creates a record-keeping duty. It does **not** create a consumer right of
+access to those records — as far as I can tell, nothing in the DPPA does; the
+consumer's remedy under §2724 is a civil action for impermissible use, which is a
+different thing entirely. So the letter says so, in its own words:
+
+> "I want to be careful about what I am and am not claiming here. I am not asserting
+> that the DPPA gives me a right to demand that log — as I read it, it does not. I am
+> asking you to tell me voluntarily. But the reason I am asking *you*, rather than
+> asking the hundred other companies who cannot answer it, is that if any of my data
+> reached you from a DMV, those records exist by federal requirement."
+
+Stating the limit of the instrument makes the request stronger rather than weaker.
+A recipient who has been told exactly what is and is not being asserted has nothing
+to correct and no easy exit; a recipient handed an overstated legal claim gets to
+answer the overstatement instead of the question. This is the same move as the L2
+public-record concession and the Tracers subscriber-identity concession — the third
+form of *give away the part they were going to win.*
+
+**The part that does carry weight** is §2721(b)(12): using DMV-derived personal
+information for bulk marketing or solicitation requires the individual's **express
+consent**. That is a bright line, it is about conduct rather than access, and the
+subject has never given such consent to anyone. So the letter asks whether it has
+been used that way and on what basis — a question with a real answer and real
+consequences either way.
+
+And one small refusal added to the standing list, specific to this category: *do not
+request a government-issued identity document — including a driver's licence.* Asking
+a company that may hold DMV-derived data to accept a driver's licence as proof of
+identity would hand it the one document most directly connected to the file in
+question.
