@@ -12455,3 +12455,42 @@ people-search site the maximal set is not a disclosure to be minimised — *it i
 suppression itself* (§193). Sending less there protects less. Three categories, three
 different correct answers, and no single default can be right for all of them. What
 can be automated is the warning; what cannot is the judgement.
+
+### §195b — the heuristic reads a field almost nobody filled in
+
+Bliss Point Media is the first letter where the key policy was chosen against the
+tool's own suggestion, and the reason is worth recording before someone starts
+trusting `suggest_keys()`.
+
+It returned **`full`** for Bliss Point. The correct answer is `email-only`: the
+company does television and streaming measurement, so its records are device and CTV
+identifiers and household graphs, and a postal address cannot match any of them.
+
+The heuristic was not wrong so much as blind. It scans `category`, `name`, `domain`,
+`notes` and `email_note` — and **`category` is populated on 47 rows out of 1,248.**
+Where it is set, the suggestion is good: it correctly flags criteo and lotame as
+adtech. Where it is absent, the suggestion falls back to whatever happens to appear in
+a company name, and "Bliss Point Media" contains no identifier-keyed vocabulary at
+all.
+
+So the coverage is not 1,248 rows. It is roughly the 47 that somebody categorised,
+plus whatever the name gives away for free.
+
+**That is fine, and it is why the tool only ever suggests.** A heuristic with 4%
+coverage that defaults to the safe option and prints a note is useful. The same
+heuristic wired to decide would silently send minimised letters to a few dozen
+correctly-flagged platforms and full letters to every uncategorised one — including
+every CTV, measurement and identity company whose name happens to sound like a
+marketing agency.
+
+The general point, which applies well beyond this script: **a rule that reads a
+sparsely-populated field will look like it works, because the rows it fires on are
+the rows somebody already thought about.** The ones it misses are the ones nobody
+classified — which is the same population where a human would also have to think, and
+therefore exactly where automation would have been worth having.
+
+Backfilling `category` across the registry would raise the coverage, and is worth
+doing at some point. It is not worth doing *instead of* keeping the human decision,
+because the third case — a live-compile people-search site, where the maximal set is
+the suppression rather than a disclosure (§193) — is not distinguishable from
+metadata at all.
