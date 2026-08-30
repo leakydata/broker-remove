@@ -13050,3 +13050,59 @@ tested. Once, across the whole population, and the answer was no.
 same standard this file demands of brokers — a searched nil beats an unelaborated one
 — applied to the project's own claims, which is where §200 through §202 have all
 ended up pointing.
+
+## §203 — the authentication link that cannot work
+
+Throtle's privacy autoresponder does everything right. It acknowledges the request,
+explains that authentication is required, routes to a portal, and volunteers concrete
+timelines — *opt-out within 15 days, deletion within 45*. That is more specific than
+most human replies in this project.
+
+**And the link it sends is broken.**
+
+All three query parameters lost their `=` separators somewhere between their template
+and the inbox. It arrives as `?orgid[·]a4ea97-…&propidrc016a3-…&formid3f8dff1-…`
+where it should read `?orgid=…&propid=…&formid=…` — the first separator replaced by a
+control character, the other two simply absent.
+
+The host answers HTTP 200 normally, so nothing is down. Only the parameters are
+damaged, which means a consumer who clicks reaches a form that **cannot identify which
+organisation, property or form the request belongs to.**
+
+### Why this is the shape this file is named for
+
+Consider what each side sees.
+
+**The consumer** clicks a link from a company that has just told them, politely and
+competently, exactly how to proceed. They get an error or an empty form. Most will
+not inspect a URL to find a missing equals sign. They will conclude the process is
+broken, or not worth pursuing, and stop.
+
+**The company** sees a request received, acknowledged, and correctly routed — and a
+consumer who never completed it. Which is indistinguishable, in every system they
+have, from a consumer who changed their mind.
+
+Nothing bounces. Nothing errors on their side. No metric moves. The abandonment rate
+on that portal is presumably already non-zero for ordinary reasons, so even a total
+failure would not stand out. **A template defect can silently zero out an entire
+compliance channel and look exactly like consumer apathy.**
+
+The reply asks for a plain-text resend, or just the three UUIDs, and then makes the
+systemic point directly: *if that template is what goes to every requester, every
+consumer who writes to you is being handed a link that does not work.* Offered as a
+fixable formatting problem rather than a failing of substance, with the concrete
+suggestion — test-send it to an external address and see how it survives the trip.
+
+### Two things carried into the portal step
+
+  - **Which identifier types does the form actually need?** Throtle does identity
+    resolution, so a postal address or date of birth cannot match anything in their
+    systems and would only be new disclosure (§195). Better to ask than to fill every
+    field.
+  - **The device-ID refusal was declared in advance**, so that if the form requires
+    one, it gets recorded as a limit of the process rather than discovered halfway
+    through with data already entered.
+
+Also: Throtle is the **fourth PrivacyPillar tenant** found, and like the other three
+it surfaced from a URL in a reply rather than from any directory. That vendor still
+has no enumerable tenant list, so this remains the only way to find them.

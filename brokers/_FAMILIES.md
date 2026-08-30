@@ -1390,6 +1390,19 @@ free-text box large enough for the full identifier set — applies to the other 
 The handoff note for `multimedia_lists` asks specifically for the CAPTCHA answer to
 be recorded for that reason.
 
+### Fourth tenant, found 2026-08-30
+
+`throtle` (Throtle, Inc., identity resolution). Their privacy autoresponder routes
+to the same `privacyportal.privacypillar.com/dsar/form` with the usual three
+parameters -- found the way the other three were, from a URL in a reply rather than
+from any directory.
+
+Worth recording alongside it: **the link arrived malformed.** All three query
+parameters lost their `=` separators somewhere between their template and the
+inbox, so a consumer clicking through reaches a form that cannot identify which
+organisation, property or form the request belongs to. The host itself answers
+normally. See _SILENT_FAILURES 203.
+
 Unlike the household-name platforms, PrivacyPillar has no published tenant
 directory to enumerate from, so the only way to find more tenants is the way these
 three were found: the URL appearing in a registry filing or a privacy policy. Grep
