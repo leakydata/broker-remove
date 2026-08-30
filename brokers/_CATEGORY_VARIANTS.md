@@ -2955,3 +2955,70 @@ requester; attaching an identity to one attaches it to them too.
 So the ask has to be phrased as removing *the association between those signals and
 me* — never the signals themselves. That is the exclude-only principle pointed at
 the requester's own capacity to cause collateral damage.
+
+## Insurance and financial lead generation
+
+A network of quote and comparison sites whose product is not a database but a
+*lead*: a person who filled in a form, packaged with a consent claim and sold to
+buyers who will call them. One register entry in this project names sixteen such
+brands at once — mortgage, auto, home, life, final expense, four health and four
+Medicare.
+
+The standard deletion letter is not wrong here, but it misses the two things that
+actually govern the category.
+
+### 1. Ask for the consent record, in full
+
+Lead generation runs on a claim of **prior express written consent**. That claim is
+the entire legal basis for the calls that follow, and the generator is supposed to
+hold evidence of it. So ask:
+
+  - Does a consent record purporting to be from the requester exist?
+  - If so, produce it: **date and time, the brand and page URL it was captured on,
+    the IP address, and the exact disclosure text shown at the moment of
+    submission** — including the partner list that text incorporated by reference.
+
+That last element is the one worth insisting on. The disclosure text is where a
+single checkbox is turned into consent for dozens or hundreds of named "marketing
+partners," and it is usually the only place the list appears.
+
+**Say plainly that no consent was given**, and then name the three explanations, all
+of which are the company's problem as much as the requester's:
+
+  - a mis-attribution,
+  - **a reassigned phone number matched to the wrong person** — much the most likely,
+  - or a supplier who fabricated the lead.
+
+Framing it that way converts an accusation into a shared diagnostic question, and it
+gives an honest recipient a reason to actually look.
+
+### 2. The inference, not the enquiry, is the sensitive part
+
+For health, Medicare and final-expense brands the sensitivity is not that somebody
+asked about insurance. It is what the enquiry implies:
+
+  - a **Medicare** lead implies an age band;
+  - a **final expense** lead implies age *and often health status*, because final
+    expense is sold to people who expect to need it;
+  - a **health insurance** enquiry can imply a condition, a coverage gap, or a
+    qualifying life event.
+
+So ask what health, condition, age-band, eligibility or final-expense attribute is
+attached, and exercise limit-use (§1798.121) separately from deletion.
+
+### 3. The reassigned-number caution runs in both directions
+
+Standard practice in this project is to ask that a former phone number not be
+suppressed as a number, because strangers hold it now. In a lead file there is a
+second, sharper reason, and it favours the stranger rather than the requester:
+
+> **If a lead keyed to one of those numbers is still being sold, somebody who never
+> asked for anything is receiving the calls intended for me.**
+
+Say so, and say that correcting it helps them more than it helps you. It is true, it
+is the strongest argument available for actually fixing the record rather than
+suppressing a string, and it is the one part of these letters that asks a company to
+do something for a person who will never know to ask.
+
+Related: [SILENT_FAILURES §189] on self-declared multi-brand filings, and the
+identifier-keyed adtech entry above for the hashed-email and MAID handling.
