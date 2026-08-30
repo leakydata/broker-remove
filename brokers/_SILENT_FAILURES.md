@@ -11814,3 +11814,84 @@ suppression and this is the only moment it is free. The note explicitly accepts 
 systems cannot suppress a person who is not in the database"* as a good answer if it
 is the true one, so that a real limitation gets recorded as a limitation rather than
 as an evasion.
+
+## §188 — the node you delete and the edges you leave behind
+
+Finishing the thirteen no-listing chases produced two structures where the ordinary
+deletion is not so much refused as *bypassed* — the record leaves and the information
+stays.
+
+### The co-operative, where removal is circular
+
+A contributory co-operative's members both supply data and draw from it. That makes
+the removal loop back on itself:
+
+    You suppress me in the co-operative file.
+    Member A, who contributed me, still holds me.
+    Member A contributes again on the next cycle.
+    I am back.
+
+**Every step of that is correct.** Nobody failed at anything, no confirmation was
+false, and the outcome is that nothing happened. §159 named this shape — the
+suppression that is a leaf rather than a branch — and a co-op is where it is
+structural rather than incidental.
+
+So the letter asks whether the suppression propagates to members or stops at the
+co-op file, and pre-accepts *"it stops with us"* as a good answer. Then the question
+that actually matters: **is there a do-not-contribute flag** — can I be marked so
+that a member's next contribution containing me is *rejected at ingest*, rather than
+accepted and then re-suppressed? Those two designs are indistinguishable in the
+confirmation letter and completely different in effect.
+
+**And a co-op can answer the two questions almost nobody else can.** Contribution and
+draw are both tracked, because that accounting is what determines a member's
+entitlement. So *which member contributed me* and *which members have drawn me* are
+retrievable facts here, where a bulk compiler genuinely cannot produce them. The
+ledger exists for commercial reasons rather than transparency ones — but it exists,
+which is the same insight as §184's search logs, arriving from a different direction.
+
+### The relationship graph, where deleting the node is not the same as deleting the person
+
+AIdentified maps who knows whom, so a client can find a warm introduction. Any record
+about me therefore asserts things about *other named living people* — colleagues,
+family, acquaintances — none of whom wrote to anyone and most of whom will never know
+the graph exists.
+
+The letter is careful here: it does not ask for third-party details and says so. It
+asks about the **edges** — how many connections are asserted, in what categories, and
+from what source material. Those edges are data about me as much as about them.
+
+Then the question this section exists for:
+
+> **When you delete me, what happens to the edges?**
+
+If my node is removed but the connections survive attached to the other endpoints,
+then a description of me persists in the graph without my name on it — and a node
+defined by its neighbours is very often re-identifiable from position alone. The
+deletion is real, the confirmation is honest, and the shape of me is still sitting
+there.
+
+This is §171 — the record that is computed rather than stored — generalised past
+recomputation. **What survives a deletion is not always a copy of the record. It can
+be the record's imprint on everything it was connected to**, whether that is a graph
+edge, a co-op member's own file, or a segment already activated downstream.
+
+The letter invites *"the edges remain"* explicitly, because an honest description of
+a partial deletion is worth more than a complete-sounding confirmation that does not
+distinguish the two cases. That request — *tell me the shape of what I am getting* —
+has now been the most productive sentence in this entire project.
+
+### One more note on how to ask about an inference
+
+AIdentified attaches a wealth estimate. The letter asks what it says, and then asks
+whether it is *accurate* — with the reason for wanting the answer either way stated
+outright:
+
+> If it is wrong, an inaccurate financial profile is circulating about me. If it is
+> right, that is more concerning, not less — because it means a reasonably reliable
+> estimate of my finances is available to anyone with a subscription, assembled
+> without my knowledge from sources I never gave them.
+
+Worth keeping as a form of words. It forecloses the reassuring answer, because both
+branches lead somewhere the requester cares about, and it makes clear the objection
+is to the estimate existing rather than to it being unflattering.
