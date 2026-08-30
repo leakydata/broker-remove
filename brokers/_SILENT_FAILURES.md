@@ -12675,3 +12675,63 @@ argument again, which applies with unusual force to a company that has just dive
 is never "please look again." It is *who has it*, and *will you exclude me from
 whatever you build next*. The first restores a route; the second is worth more the
 emptier the company is.
+
+## §198 — what a good confirmation actually looks like
+
+This file is almost entirely a catalogue of failure, which risks giving the wrong
+impression: some companies answer well. Three have now done it in a way worth
+copying, and the shared features are specific enough to ask for by name.
+
+    catalist     itemised the exact identifiers that matched, and split the answer
+                 per right ("completed your delete and opt-out")
+    stirista     not_found PLUS an unprompted forward-looking CCPA opt-out entry
+    revoptimal   two separate confirmations, one per right, plus an unprompted
+                 statement that future collection is blocked
+
+### The four properties
+
+**1. It distinguishes "deleted" from "found nothing."** These are different facts and
+both are good outcomes. A confirmation that conflates them is honest and useless — it
+leaves the requester unable to tell whether they were ever in the file, which is the
+thing they actually wanted to know. Only 5 of 58 confirmations in this project say
+which (§194).
+
+**2. It itemises what matched.** Catalist quoted back the exact four identifiers —
+name, current address, phone, date of birth. That is the strongest §138 corroboration
+obtainable: a list only this request could have produced, which simultaneously proves
+a record existed and that they found it. bdex did the same and produced the project's
+most surprising result — four matches, all on long-dead addresses, none current.
+
+**3. It splits the answer per right.** Deletion, opt-out of sale, and limit-use are
+different rights with different survivals. A single sentence covering "your request"
+hides which ones were actually actioned — and given that deletion and suppression are
+frequently mutually exclusive (§Outreach), the reader cannot tell what they hold.
+
+**4. It volunteers the forward-looking half.** This is the rarest and the most
+valuable. *"We have also taken steps to ensure your personal data will not be
+collected, stored, shared, or processed in the future"* — RevOptimal. *"Added to our
+CCPA Opt-outs to keep your information out of our system in the future"* — Stirista.
+
+A deletion alone is undone by the next file the company acquires, **precisely because
+nothing on their side recognises the person any more.** A company that deletes without
+suppressing has restored the requester to exactly the position they were in before,
+with a written confirmation saying otherwise. Both of these did the durable thing
+without being asked twice.
+
+### Why this belongs in a file about silent failures
+
+Because the good confirmations define the standard the bad ones fail against, and
+without them "we have processed your request" looks adequate. It is only next to
+Catalist's itemised match list that a bare confirmation becomes visibly empty.
+
+And because all four properties are *askable*. The letter template now requests two
+of them explicitly (§194) — which identifiers matched, and whether the suppression is
+keyed to the person or the submitted keys. The other two are worth adding to any
+follow-up: ask for the per-right split, and ask whether the forward-looking block
+exists or only the deletion.
+
+**None of these companies were compelled to do any of it.** They are the counter-
+evidence to the assumption that a broker's compliance function is adversarial by
+nature, and the reason it is worth writing back to say so specifically rather than
+just saying thank you — a compliance team that gets told which of its practices was
+useful has a reason to keep it.
