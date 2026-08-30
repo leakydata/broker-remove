@@ -17944,7 +17944,8 @@
       ],
       "legal_name": null,
       "category": "adtech",
-      "category_source": "site_classifier 2026-08-30"
+      "category_source": "site_classifier 2026-08-30",
+      "email_note": "|| 2026-08-30 SUPPLIER LINK: swoop.com/your-privacy-choices/ links to liveramp.com/privacy/my-privacy-choices/, which indicates Swoop uses LiveRamp for identity resolution. Relevant because Swoop's health audiences are de-identified on their own account -- if LiveRamp performs the identity match, the re-identification question may have to be put to LiveRamp rather than to Swoop."
     },
     {
       "id": "sync_me",

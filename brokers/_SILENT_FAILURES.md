@@ -13106,3 +13106,57 @@ suggestion — test-send it to an external address and see how it survives the t
 Also: Throtle is the **fourth PrivacyPillar tenant** found, and like the other three
 it surfaced from a URL in a reply rather than from any directory. That vendor still
 has no enumerable tenant list, so this remains the only way to find them.
+
+### §203a — the broken link was on their website all along
+
+§203 recorded Throtle's DSAR link arriving malformed and a reply asking them to resend
+it. Two things happened next, and together they change the lesson.
+
+**First, the autoresponder fired again — verbatim — at the reply reporting the broken
+link.** Same message, same broken URL. So nobody is reading that mailbox: it is the
+§161a wall rather than the §175 doorway, and a corrected link was never going to
+arrive no matter how clearly the problem was explained.
+
+**Second, the working link was on their own privacy page the whole time.** At
+`throtle.io/privacy/` — not `/privacy-policy/`, which 404s — sits the intact URL:
+
+    email:   ?orgid[·]a4ea97-…  &propidrc016a3-…   &formid3f8dff1-…
+    website: ?orgid=04a4ea97-…  &propid=72c016a3-… &formid=33f8dff1-…
+
+The corruption dropped both the `=` separators *and* the leading characters of each
+UUID. Not a display artefact — the values themselves were damaged.
+
+### The lesson, which is not the one §203 drew
+
+§203 concluded that a template defect can silently zero out a compliance channel. That
+still holds. But the practical rule is different and better:
+
+> **When a company's automated route is broken, stop asking the company and go to the
+> website.** The same identifiers usually exist in a published privacy policy, because
+> the vendor generates one link and it gets pasted in both places — and only one of
+> those two paths passes through an email pipeline that can corrupt it.
+
+Asking for a resend was the obvious move and it was the wrong one. It depended on a
+human reading a mailbox that demonstrably nobody reads, and it would have left the
+item blocked indefinitely on a correction that could not come. Thirty seconds of
+looking at their own site solved it outright.
+
+The handoff has been superseded with the corrected URL and an explicit instruction not
+to wait for a resend.
+
+**Worth generalising to every portal-gated broker:** if the link in the reply fails,
+the same form is very often reachable from the privacy policy, the "Your Privacy
+Choices" footer link, or a `/privacy/` path that differs from the obvious one. Try
+those before treating the route as blocked.
+
+### One thing found on the way
+
+Swoop's Your Privacy Choices page links out to **LiveRamp's** privacy choices page,
+which indicates Swoop uses LiveRamp for identity resolution.
+
+That matters for §Swoop's central question. Swoop's position is that its health data is
+de-identified; the question put to them was where in the chain re-identification
+occurs. If the identity match is performed by LiveRamp rather than by Swoop, then the
+answer may be *"not here"* — truthfully — and the question has to follow the supplier.
+Recorded on both rows, because it is exactly the §199 scope problem crossing a company
+boundary rather than a system boundary.
