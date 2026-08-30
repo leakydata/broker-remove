@@ -12120,3 +12120,67 @@ than to another address. An address-to-address redirect is a routing change. A
 portal redirect is usually a merger — because a portal is what a large acquirer
 consolidates onto — and it means the entity you wrote to may no longer exist. Read
 those closely rather than just following the link.
+
+## §192 — checking an inference I had already written down as a fact
+
+Yesterday I noticed that `stat_resource_group_llc_dba_statlistics` files its contact
+at `privacy@alesco.com`, and that `response_solutions` had routed to
+`michael@alescodata.com`. I wrote a cross-link note saying it was **"the SAME COMPANY
+that answers for response_solutions."**
+
+That was an inference from a shared word in two different domain names, recorded in
+the registry in the declarative voice. §176 had explicitly warned against exactly
+this — a shared *something* is evidence of a relationship, not proof of one, and the
+UA-7117339-4 cluster there turned out to be a web agency's client list rather than a
+corporate family.
+
+So before writing to them I checked, expecting to have to retract.
+
+**The inference was right, and the evidence is much better than the guess.**
+`alesco.com` serves gzip that curl needed `--compressed` to read, which is why an
+earlier look had come back blank. Decoded, it is the homepage of **The Alesco Group**,
+and it publishes its own portfolio:
+
+    responsesolutionsllc.com  ·  alescodata.com  ·  statlistics.com
+
+A parent company naming its brands on its own front page is the same class of
+evidence as §189's self-declared register filings — an attestation, not a
+reconstruction.
+
+**Being right is not the point.** The note now says the family is *verified from the
+parent site on 2026-08-30*, rather than asserting it flatly, because the next reader
+— including a later me — cannot tell a checked claim from a plausible one once both
+are written in the same voice. A registry is a place where inferences harden into
+facts by being read twice, and the only defence is recording *how* something is
+known at the moment it is written.
+
+### The typo, now settled
+
+The same check closed the question opened two days ago:
+
+    responsesoulutionsllc.com   HTTP 000, no MX      ← the register's spelling
+    responsesolutionsllc.com    HTTP 200, live M365  ← the parent's own link
+
+The register misspells the domain of a registered data broker — "soulutions", with an
+extra u — and the correct one has been live all along. A consumer who goes to the
+register to find that company lands nowhere, and no amount of care on the consumer's
+side fixes it. That is now confirmed rather than suspected, and it has been reported
+to the group.
+
+### And the ask that only applies to a list manager
+
+Statlistics is not a compiler. It describes itself as a **list management and
+brokerage firm with over 2,000 lists and alternative media programs under
+management** — it markets other organisations' data.
+
+That changes what a suppression can possibly do, in the §159 / §188 way but at scale:
+*if you manage a list that belongs to somebody else, a suppression at your end
+removes me from your marketing of that list while leaving me on the list.* The owner
+is unaffected, and so is the next manager.
+
+So the letter asks whether the suppression reaches the underlying list owners or
+stops at Statlistics, pre-accepting *"it stops with us"* as a good answer — and then
+asks whose list a matching record sits on, or failing that the category of owner:
+publisher, association, non-profit, retailer, educational institution. Naming the
+owner lets me stop it at source, which serves them as much as me, since the record
+they are managing keeps regenerating otherwise.
