@@ -62,8 +62,8 @@ you honor this request as a matter of your published privacy policy.
 Please confirm in writing when this request has been completed, and tell me the
 categories of personal information you held about me at the time of deletion.
 
-Two things I would ask the confirmation to state, because they are what make it
-mean something:
+Three things I would ask the confirmation to state, because they are what make
+it mean something:
 
   1. WHICH of the identifiers above matched. "We deleted your record" and "we
      searched and found nothing" are different outcomes, and both are fine -- but
@@ -71,7 +71,14 @@ mean something:
      I was ever in your file. If some identifiers matched and others did not,
      saying which is the single most useful sentence you can write.
 
-  2. WHETHER THE SUPPRESSION IS KEYED TO ME OR TO THE IDENTIFIERS I SENT. If your
+  2. WHICH SYSTEMS WERE SEARCHED, not only whether something was found. A
+     support desk naturally searches the system it owns, and "we found nothing"
+     is entirely truthful about that system while silent about the others -- a
+     verification team searches verification records, a marketing team searches
+     the marketing database, and neither is the whole answer. Naming the systems
+     costs you a sentence and tells me what the result actually covers.
+
+  3. WHETHER THE SUPPRESSION IS KEYED TO ME OR TO THE IDENTIFIERS I SENT. If your
      system builds results on demand rather than storing a record, then a
      suppression cannot attach to "my record" -- it can only attach to the keys I
      supplied, and anything outside that set is not suppressed but merely
