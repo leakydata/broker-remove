@@ -12799,3 +12799,73 @@ key.
 The row stays `submitted` rather than settling as `not_found`, for the §161a reason:
 a terminal status recorded on a scoped search closes a broker on a question that was
 never actually asked.
+
+## §200 — two terminal statuses with nothing behind them
+
+§199's scoped-nil finding prompted an audit of the 44 `not_found` rows: which of them
+rest on a nil that was bounded by a record type, and which were pushed on?
+
+Most had been. The notes on `blueprint_audiences`, `builtwith`, `bookyourdata`,
+`convex` and others record multi-exchange pushback and resolution — the §199 work was
+already being done case by case before it had a name.
+
+**But two rows — `mrss` and `permutive` — carried `not_found` with a completely empty
+note.**
+
+That is the worst state in the tracker. `not_found` is terminal: it settles a broker
+forever and the queue never offers it again. A terminal status with no evidence is
+unfalsifiable and unreviewable — nobody, including a later me, can tell whether it
+came from a searched nil, a bounce misread, or a mistake.
+
+### Both turned out to be sound, which is not the point
+
+Recovered from the mailbox:
+
+**Permutive** returned an *unqualified* nil within two hours — "we have searched our
+records and do not hold any personal information about you" — plus a forward-looking
+commitment. Not scoped to a record type, no account demanded, no form. A §198-quality
+answer.
+
+**M+R Strategic Services turned out to be the prototype of §199, ten days before it
+was articulated.** Their first reply was scoped exactly the way SheerID's was: *"we
+did not identify any information in our databases associated with your name and/or
+address"* — name and address only, at a fundraising and marketing firm where the
+email address is the key a record actually sits under.
+
+The pushback asked three things, and got all three answered in six minutes:
+
+  1. Was the search run against the twelve emails and the phone numbers, or only
+     name and address? *(Re-supplied the full list.)*
+  2. Does the answer cover data held **for clients** as well as data held in their
+     own right — since "we hold nothing about you" can be entirely true of a firm's
+     own records while a client list it processes contains you? *(And offered "it is
+     the client's request to action" as an acceptable complete answer.)*
+  3. Their reply called it an *access* request; it was a deletion and opt-out
+     request. Flagged rather than assumed.
+
+The answer: *"we did check our records **and client records we hold** for all of
+those email addresses and phone numbers, and did not find any matches on any of those
+data points. We also treat all requests as deletion requests, so if we had found any
+of your data, it would be deleted."*
+
+Scope widened to processor-held data, identifiers confirmed, deletion semantics
+confirmed. One of the best exchanges in the project — **and its note was blank.**
+
+### The actual finding
+
+Both notes are now backfilled. But the failure was never about these two brokers.
+
+**The evidence lived in a Gmail mailbox and the ledger recorded a bare verdict.** If
+that mailbox is lost, closed, or simply full — and §165 records mailboxes that accept
+everything and read nothing, §181 records four full inboxes on one alias — then two
+settled brokers become permanently unjustifiable, and there is no way to tell them
+apart from a mistake.
+
+That is the same class as §185's fifty-six confirmations resting on a company's
+say-so, pointed inward: **a status is a claim, and a claim without its evidence is
+worth exactly what a broker's unelaborated confirmation is worth.** This project spends
+a great deal of effort demanding that companies say *what* they searched and *what*
+they found. It had two rows where it had not done that for itself.
+
+The audit that found them cost one query. Worth repeating whenever the terminal-status
+count grows.
