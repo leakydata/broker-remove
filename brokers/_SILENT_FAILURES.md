@@ -12184,3 +12184,74 @@ asks whose list a matching record sits on, or failing that the category of owner
 publisher, association, non-profit, retailer, educational institution. Naming the
 owner lets me stop it at source, which serves them as much as me, since the record
 they are managing keeps regenerating otherwise.
+
+## §193 — a live-compile suppression is only as wide as its key set
+
+Intelius is one of 58 rows marked `confirmed`, and the confirmation was a good one:
+PeopleConnect applied the suppression in a single action across Intelius.com,
+InstantCheckmate.com, TruthFinder.com and USSearch.com, and explained the
+architecture rather than hiding it —
+
+> "background reports are compiled in real time via live calls to data providers...
+> Because we don't retain reports, we cannot delete them."
+
+That is the clearest statement of the people-search model in the project, and it is
+honest: what was obtained is a **display suppression**, not a deletion, because there
+is no stored report to delete.
+
+**But the architecture has a consequence they did not draw, and it undoes most of the
+protection.**
+
+If nothing is stored, the suppression cannot be attached to *my record* — there is no
+record. It can only be attached to **the identifiers I supplied**. Everything outside
+that key set is not suppressed. It is merely un-searched, which looks identical right
+up until somebody searches it.
+
+The confirmation named four email addresses, the current telephone number and the
+current address. **No former address and no former telephone number appeared in it.**
+
+And that is exactly backwards from how people are actually looked up:
+
+> **A person looking me up does not search my current address. They search the one
+> they have.**
+
+An old employer, a former landlord, somebody holding a document from 2009 — each
+searches a stale identifier, and on a live-compile system that query returns a
+freshly built report the suppression never saw. The suppression is real, the
+confirmation is honest, and it protects the one query nobody runs.
+
+So the follow-up asks to extend the same family suppression to all twelve email
+addresses, eleven phone numbers and sixteen addresses.
+
+### The cap that had to go with it
+
+Extending a suppression to sixteen addresses and eleven reassigned phone numbers is
+not obviously harmless, and the letter says so before they can act on it:
+
+> **Please do not suppress an address or a number as such.** Suppress the association
+> between each of them and *me* — my name, with my date of birth as the discriminator.
+>
+> If your system can only blacklist a bare address or number, then please do *not*
+> apply it to the former ones. A suppression that hides the current residents of my
+> old house from a legitimate search would be a worse outcome than my own record
+> remaining findable, and I would rather carry that risk myself than impose it on
+> strangers.
+
+That is the first time in this project a request has been *capped* rather than
+maximised, and it is the right call. The standing instruction is maximum removal —
+but "maximum removal for me" and "maximum suppression keyed to strings I once used"
+are not the same thing, and the second silently spends other people's findability to
+buy mine. Sixteen addresses is a lot of current residents.
+
+The general rule, which belongs alongside the exclude-only principle: **an
+identifier I no longer hold is not mine to suppress.** Only the link between it and
+me is mine. Where a company cannot make that distinction, the honest move is to
+accept less protection rather than take it from someone who never asked.
+
+### And the scope check that came free
+
+The register entry names **Intelius, US Search and US Search Pro**. The confirmation
+named Intelius, InstantCheckmate, TruthFinder and USSearch. Two of the three register
+brands are covered; **US Search Pro appears in neither list under that name.** One
+line to ask, and worth asking, because a confirmation that covers two of three named
+brands reads exactly like one that covers all of them.
