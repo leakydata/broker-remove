@@ -263,6 +263,40 @@ def main():
                 f"{bid}: status '{rec.get('status')}' but no brokers/{bid}.md - "
                 f"run scripts/scaffold_playbook.py --missing")
 
+        # A TERMINAL STATUS WITH NO NOTE IS AN UNFALSIFIABLE CLAIM.
+        #
+        # 'not_found' and 'confirmed' settle a broker: the queue never offers it
+        # again, and no later pass revisits it. So the note is the only surviving
+        # record of WHY. On 2026-08-30 an audit found two rows -- mrss and
+        # permutive -- carrying not_found with a completely empty note. Both
+        # turned out to be sound, recovered from the mailbox: one was an
+        # unqualified nil plus a forward commitment, the other was a scoped nil
+        # pushed on until the company confirmed it had searched client records
+        # too. One of the better exchanges in the project, and the ledger said
+        # nothing at all (_SILENT_FAILURES 200).
+        #
+        # The evidence lived in a Gmail mailbox. This file already documents
+        # mailboxes that accept everything and read nothing (165), and four full
+        # inboxes on a single alias (181) -- mailboxes are not durable storage.
+        # If that one goes, an unevidenced terminal row is indistinguishable
+        # from a mistake.
+        #
+        # This project spends most of its effort demanding that companies say
+        # what they searched and what they found. The same standard has to apply
+        # inward: a status is a claim, and a claim without its evidence is worth
+        # what a broker's unelaborated confirmation is worth.
+        TERMINAL = {"not_found", "confirmed"}
+        for bid, rec in state.items():
+            if rec.get("status") not in TERMINAL:
+                continue
+            note = (rec.get("note") or "").strip()
+            if len(note) < 40:
+                errors.append(
+                    f"{bid}: status '{rec.get('status')}' is TERMINAL but its "
+                    f"note is {'empty' if not note else f'only {len(note)} chars'}. "
+                    f"Record what was searched and what was found, or the row "
+                    f"cannot be reviewed later. See _SILENT_FAILURES 200.")
+
     # A high-priority broker with no playbook is the biggest documentation gap.
     for b in brokers:
         if (b.get("priority", 0) >= 4 and b.get("source") != "optery_scrape"

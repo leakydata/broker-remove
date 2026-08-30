@@ -12869,3 +12869,68 @@ they found. It had two rows where it had not done that for itself.
 
 The audit that found them cost one query. Worth repeating whenever the terminal-status
 count grows.
+
+## §201 — the check found a wrong status, not just a missing note
+
+§200 ended with an obvious follow-up: add a validate rule so a terminal status cannot
+be recorded without evidence. `not_found` and `confirmed` settle a broker permanently,
+so the note is the only surviving record of why.
+
+The rule went in — terminal status, note under 40 characters, hard error. It fired
+immediately on a row the manual audit had missed entirely, because that audit only
+looked at `not_found` and this one was **`confirmed`**.
+
+`plunge_digital`. Empty note. And recovering the evidence from the mailbox showed the
+status was not merely unevidenced — **it was wrong.**
+
+### What the reply actually said
+
+The letter asked for four things. The reply confirmed one:
+
+    1. DELETE all personal information you hold about me    -- not addressed
+    2. OPT OUT of sale or sharing                           -- confirmed
+    3. DIRECT third parties who received it to do the same  -- not addressed
+    4. SUPPRESS against future ingestion                    -- not addressed
+
+> "This message confirms that we have received and processed your request to **opt
+> out of the sale or sharing** of your personal information under the CCPA... we may
+> still use your information for purposes that are permitted under the CCPA and do
+> not constitute a sale or sharing."
+
+That is a *good* reply. It is precise about which right was actioned and honest about
+what it does not cover — the second sentence is a qualification most companies omit
+entirely. It is §198's per-right split done properly.
+
+**And the tracker read it as a complete confirmation**, because "confirms that we have
+received and processed your request" reads like a full answer if you are skimming for
+a verdict rather than for a scope. A precise partial answer and a complete one look
+identical at the level of a status field.
+
+Regressed to `submitted`, with a reply asking the three unaddressed parts — was a
+deletion performed and was there anything to delete; is there a *suppression* as well
+as an opt-out, since an opt-out flag applies to a record they hold while a suppression
+keeps me out of records they acquire later; and did anything reach clients or list
+partners.
+
+### Why this changes how much §200's rule is worth
+
+The rule was written to stop unevidenced claims. It turned out to catch a
+**miscounted outcome** — a broker sitting in the `confirmed` column that had confirmed
+a quarter of what was asked.
+
+That matters because `confirmed` is the only number in this project anybody would
+quote. There are 58 of them. This audit has now found, in two passes:
+
+  - 56 of 58 resting on a company's say-so with no itemised match (§194);
+  - 2 with no recorded evidence at all (§200);
+  - and 1 that was not a confirmation of the request at all (§201).
+
+None of that means the removals did not happen. It means **the ledger was carrying
+more certainty than the mailbox supports**, and the difference was invisible until a
+check demanded that each terminal row explain itself.
+
+The general form, and the reason this file keeps returning to it: *a status is a
+summary, and summarising is exactly where the scope goes missing.* It is the same
+failure this project spends its time diagnosing in brokers — §199's nil bounded by a
+record type, §193's suppression bounded by a key set — occurring in the tracker that
+records the diagnosis.
