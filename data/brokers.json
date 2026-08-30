@@ -88,6 +88,7 @@
       "optery_slug": "epsilon",
       "email_verified": true,
       "email_verified_by": "delivery_evidence",
+      "email_note": "|| 2026-08-30 NOW ALSO COVERS LOTAME: Lotame Solutions, Inc. merged into Epsilon Data Management, LLC on 2025-10-01. When the portal handoff is worked, NAME LOTAME explicitly in the form -- a request scoped to 'Epsilon' may not reach a dataset acquired by merger, which is the 177/188 boundary problem.",
       "source": "curated"
     },
     {
@@ -593,7 +594,8 @@
         "2020-2023",
         "2024",
         "2025"
-      ]
+      ],
+      "email_note": "|| 2026-08-30 SUCCESSION (163): Lotame Solutions, Inc. merged into EPSILON DATA MANAGEMENT, LLC effective 2025-10-01 and no longer exists as a separate legal entity, per their own autoresponder. All privacy requests now go through https://legal.epsilon.com/dsr and that portal is the ONLY route they accept -- email is acknowledged but not processed. Do not re-send here. See the 'epsilon' row (already submitted) and the two queued handoffs."
     },
     {
       "id": "lusha",

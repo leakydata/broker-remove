@@ -12070,3 +12070,53 @@ request a government-issued identity document — including a driver's licence.*
 a company that may hold DMV-derived data to accept a driver's licence as proof of
 identity would hand it the one document most directly connected to the file in
 question.
+
+## §191 — the succession that arrives in the autoresponder
+
+Chasing Lotame produced not an answer but a change of company:
+
+> "Effective October 1, 2025, Lotame Solutions, Inc. was merged into Epsilon Data
+> Management, LLC and no longer exists as a separate legal entity. As a result, all
+> privacy rights requests are now handled by Epsilon... through Epsilon's Consumer
+> Privacy Portal... **including those submitted by authorized agents.**"
+
+Three things worth separating here, because only one of them is bad news.
+
+**First, this is a good autoresponder.** By the §175 test — does the automation stand
+*in place of* an answer or *in front of* one — it is a doorway. It names the acquiring
+entity, gives the effective date, states the only accepted route, and provides a
+staffed phone line with hours. That is more information than most human replies in
+this project have contained. It belongs with HireRight's as the counter-example
+class.
+
+**Second, it closes the email route completely.** The mailbox still exists and still
+answers, but no request sent to it will be processed — the portal is the only channel
+and the text says so without hedging. That is a distinct state from every kind in
+`dead_addresses.json`: nothing bounced, nothing was restricted, nobody departed. **The
+address works perfectly and cannot accomplish anything.**
+
+So the row moved to `manual_required` rather than staying `submitted`. Recording it as
+submitted would have been the exact failure this file is named for: a request logged
+as sent, acknowledged in writing, and structurally incapable of being acted on.
+
+**Third, and this is the part that needed real care: the successor was already in the
+queue.** Epsilon is already `submitted`, and a portal handoff for
+`legal.epsilon.com/dsr` was already staged days ago with two request IDs. The lazy
+move was to call Lotame covered and move on.
+
+That would have been wrong for the reason §177 and §188 keep circling: **a request
+scoped to the acquirer is not automatically a request that reaches what the acquirer
+acquired.** A portal form filed against "Epsilon" may or may not touch a dataset that
+arrived by merger eleven months ago, and from outside there is no way to know. The
+boundary is invisible to me and visible to them.
+
+The only lever available is the form's free-text field. So a second handoff was queued
+— same URL, same sitting — whose entire purpose is to **name Lotame explicitly in the
+request**, and ask that it cover the former Lotame audience data specifically. One
+extra sentence typed by a human, at the moment when it is free to type.
+
+**The pattern to watch for:** an autoresponder that redirects to a *portal* rather
+than to another address. An address-to-address redirect is a routing change. A
+portal redirect is usually a merger — because a portal is what a large acquirer
+consolidates onto — and it means the entity you wrote to may no longer exist. Read
+those closely rather than just following the link.
