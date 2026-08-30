@@ -2920,7 +2920,8 @@
       "registry_years": [
         "2020-2023"
       ],
-      "legal_name": null
+      "legal_name": null,
+      "email_note": "|| 2026-08-30 DEREGISTERED per the company: 'no longer registered as an active data broker in any jurisdictions... service offerings no longer include data brokerage.' The row was built from a stale CA registration entry, so treat the broker classification as HISTORIC. But note carefully: that is a statement about REGISTRATION STATUS, not about whether they still hold data collected while they were a broker, and the follow-up asks exactly that."
     },
     {
       "id": "atlas",

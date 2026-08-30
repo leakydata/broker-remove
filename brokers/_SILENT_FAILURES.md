@@ -13235,3 +13235,63 @@ Caught by printing the before-and-after for every replacement rather than just t
 count. One line of output; one regression that would otherwise have sat in the queue
 until somebody clicked it and found themselves on a landing page wondering where the
 form was.
+
+## §204 — "we are no longer a data broker" is not "we do not hold your data"
+
+Atlantic Fox Technologies replied to a deletion request with three sentences:
+
+> "The information you have about our registration is dated and incorrect. Atlantic
+> Fox is no longer registered as an active data broker in any jurisdictions. Our
+> service offerings no longer include data brokerage."
+
+All three are almost certainly true, and the first is a fair correction I should
+accept without complaint — the row was built from a California registration entry
+that has since lapsed, so I was working from stale data and said so.
+
+**And none of the three is a fact about whether they hold personal information about
+me.**
+
+Every sentence describes *corporate and regulatory status*. Deregistering ends a
+filing obligation. Exiting a line of business ends an offering. **Neither empties a
+database.** A company that stops brokering data does not thereby stop holding what it
+collected while it did — if anything, exiting the business removes the commercial
+reason to keep the file while leaving the file exactly where it was.
+
+So the question survives the answer intact, and the follow-up puts it back in the
+terms that cannot be met by a status update:
+
+> Do you still hold personal information about me — including anything acquired
+> during the period when you were operating as a data broker?
+
+### How this differs from §197
+
+Both are corporate-change answers, and it is worth separating them:
+
+    SMS (§197)        "we sold the databases, we cannot access them"
+                      -> addresses the DATA. Says where it is not. Does not say
+                         who has it.
+    Atlantic Fox      "we are no longer a registered broker"
+                      -> addresses the COMPANY. Says nothing about the data at all.
+
+The second is the subtler failure, because it *sounds* more like a denial. "We are not
+a data broker" reads, to a consumer, as "so we do not have your data" — and the
+inference is invalid but almost automatic. A reply can be entirely honest, contain no
+misleading word, and still leave the reader believing something it never said.
+
+### The part worth conceding, and the part worth telling them
+
+The concession is real: my registry entry *was* out of date, and a company should not
+have to keep answering requests premised on a lapsed filing. The reply says so plainly
+before saying anything else, because a correction accepted gracefully is what buys the
+right to press on the substance.
+
+And one thing they may not realise, offered because it is their problem and not mine:
+**a deregistered entry does not vanish from the public record a consumer works from.**
+Anyone building a list from state registers — the only practical way for a person to
+discover who holds their data — will keep writing with dated information, and every
+one of them will receive this same correction. Updating one copy fixes one copy.
+
+The remaining asks travel either way: where the brokerage data went on exit (retained,
+deleted, or transferred — *naming a recipient is enough*), and a standing suppression
+even on a nil, because **a company that has exited data brokerage is the single
+likeliest place for a file to sit unattended.**
