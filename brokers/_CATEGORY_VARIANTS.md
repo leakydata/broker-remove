@@ -2891,3 +2891,67 @@ The closing argument, which generalises to any broker built on public records �
 property, court, licence, marriage data: **the public record is the raw material; the
 file being sold is a manufactured product built on top of it, and the fact that the
 foundation is public does not make the building public.**
+
+## Identifier-keyed adtech: DMPs, attribution, retargeting, intent
+
+Four of the thirteen no-listing brokers turned out to be one category wearing
+different labels — Criteo (retargeting), Lotame (audience platform), Bombora (B2B
+intent), AdTtribution (attribution graph). The standard letter reaches none of them
+properly, and the reason is the same in each case.
+
+**They are not keyed to a person.** A compiler holds rows: name, address, attributes.
+These hold identifiers — a cookie, a mobile advertising ID, an IP, a hashed email
+supplied by a client — and a person is what those identifiers *resolve to*, if
+anything. So a deletion actioned against a name and email address may not reach the
+record at all, and the confirmation will still say it did.
+
+**Ask the determining question first**, before anything else in the letter:
+
+> Can you resolve a person from an email address at all?
+
+The three possible answers each demand a different follow-up, and it is worth
+enumerating them in the letter so the recipient can simply pick one:
+
+  - **Hashed email** — findable. Then ask for **MD5, SHA-1 and SHA-256** of each
+    address, lowercased and trimmed. This matters enormously: *a plaintext-only
+    lookup reports "no match" while the record sits under its digest.* Do not compute
+    the hashes yourself — they should not have to trust the requester's arithmetic,
+    and the addresses are all they need.
+  - **IP or company-level only** — the request may genuinely not apply. Say in
+    advance that this is a fine answer and will be recorded as one; it costs nothing
+    and makes the honest answer easier to give than the evasive one.
+  - **Cookie or device ID** — the deletion cannot reach it. State the refusal to
+    supply one, with the reasoning, and pre-accept *"we cannot act without one"* as a
+    recordable limit of the right rather than as a refusal.
+
+**The MAID refusal, stated once and reused:** handing a device identifier to an
+advertising company, unauthenticated, binds a named person to a browsing or movement
+history that is currently unnamed. *If the request fails, a device ID has been given
+away for nothing; if it succeeds, the identification the whole system exists to avoid
+has been completed.* Either way the risk is the requester's and the benefit is
+speculative.
+
+### Two questions that outrank the deletion
+
+**Stored or recomputed?** ([SILENT_FAILURES §171]) If the link between my devices is
+derived on demand from incoming signals rather than stored as a row, deleting today's
+output accomplishes nothing — the same link rebuilds on the next matching signal. Ask
+it directly, and invite the honest answer in its own words: *"we can delete but we
+cannot prevent recreation."* Better recorded plainly than hidden inside a
+confirmation.
+
+**Does the suppression survive the next ingest?** These platforms are rebuilt
+continuously from supply. A deletion that lasts until the next refresh is worth
+having, but only if you know that is what it is.
+
+### The reassigned-identifier caution, extended to IP
+
+Every people-search letter warns against suppressing a former address or a reassigned
+phone number, because strangers live there now. **The same argument applies to IP
+addresses and applies harder**: residential IPs are reassigned constantly and shared
+across an entire household. Suppressing one would take strangers out along with the
+requester; attaching an identity to one attaches it to them too.
+
+So the ask has to be phrased as removing *the association between those signals and
+me* — never the signals themselves. That is the exclude-only principle pointed at
+the requester's own capacity to cause collateral damage.
