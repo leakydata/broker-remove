@@ -13295,3 +13295,66 @@ The remaining asks travel either way: where the brokerage data went on exit (ret
 deleted, or transferred — *naming a recipient is enough*), and a standing suppression
 even on a nil, because **a company that has exited data brokerage is the single
 likeliest place for a file to sit unattended.**
+
+## §205 — the registered contact the registrant says nobody reads
+
+PureCars replied to a deletion request with a routing notice, and one sentence in it
+is worth the whole entry:
+
+> "We recently updated our data subject request intake process... This means that
+> **this email address is no longer part of our data subject request process and it is
+> not being monitored.**"
+
+That address is `privacy@purecars.com` — **the contact on their California data broker
+registration.** The company has not deregistered, has not changed its filing, and has
+not stopped being a broker. It has simply abandoned the mailbox the register points at,
+and says so in writing.
+
+This is a new kind for `dead_addresses.json`, and it is distinct from all six already
+there:
+
+    no_such_mailbox      bounces. Everyone learns.
+    dead_domain          gone. Obvious.
+    restricted_group     works internally, rejects the public (§182)
+    departed_employee    mailbox fine, person gone (§175)
+    accepts_then_fails   accepts, then fails to everyone (§181)
+    declared_unmonitored the mailbox works, autoresponds, and the company
+                         states that nobody reads it
+
+The autoresponse is the trap. It arrives promptly, it is polite, and to anyone not
+reading closely it looks like receipt. It is the opposite: a notice that the message
+has landed nowhere.
+
+### The schema problem it exposed
+
+The dead-address guard fired on the row, correctly — but the reason it *could* fire is
+that the row claimed `email_verified: true` via `email_verified_by:
+"ca_data_broker_registry"`.
+
+**613 of the verified rows carry that same basis.** And it has never meant what the
+field name implies. Appearing on a register means *a company filed this address*. It
+does not mean the address works, is read, or reaches anyone. §173 established the
+point — a register filing is a one-time attestation nobody revisits, and it rots — but
+the schema still records it under a flag called *verified*, alongside 129 rows verified
+by actual `delivery_evidence`, which is a completely different claim.
+
+Two facts sitting in one field, one of them much weaker than its name suggests. The
+row is now `email_verified: false`, and the wider point is recorded rather than fixed:
+a schema audit separating *filed* from *reachable* would be worth doing before the
+register-derived count grows further.
+
+### And the second Google Form of the day
+
+PureCars offers two routes: a **Google Form** and a toll-free number. Skydeo did the
+same thing this morning.
+
+Two brokers in one day routing statutory privacy requests through
+`docs.google.com/forms` is worth noting as a pattern rather than an oddity. It is not
+improper — small teams use Google Forms for everything — but it means submitting
+personal data into a third-party service, under an account the requester cannot
+inspect, landing in a spreadsheet owned by whoever built the form. That is a different
+disclosure from writing to the company.
+
+Where a **phone route** exists alongside it, the handoff now recommends the phone
+first: it reaches the same team, creates no third-party record, and for a company
+holding DMV-derived data the questions are ones a person can ask aloud.

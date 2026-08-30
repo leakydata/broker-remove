@@ -409,6 +409,14 @@
       "broker": "mediamath",
       "evidence": "Not a mailbox: a distribution list fanning out to four named individuals, and delivery failed to ALL FOUR -- 'The recipient's mailbox is full and can't accept messages now' x4. The exchanger accepts the message first, so from the sender's side it looks like successful delivery, and the failure arrives afterwards as a separate report. Still published on the California register as the consumer route. See SILENT_FAILURES 181.",
       "response": "The server ACCEPTS and then fails delivery afterwards, so it looks delivered. Do not retry. Escalate to whoever is still solvent -- an acquirer, a parent, or a successor. Escalated 2026-08-29 to Infillion, which acquired MediaMath's assets."
+    },
+    "privacy@purecars.com": {
+      "kind": "declared_unmonitored",
+      "observed": "2026-08-30",
+      "broker": "the_autominer_trupayments_purecars",
+      "evidence": "Their own autoresponder: 'We recently updated our data subject request intake process... This means that this email address is no longer part of our data subject request process and IT IS NOT BEING MONITORED.' The mailbox accepts and autoresponds, so it is not a bounce -- the company simply states that nobody reads it. It remains the contact on their California data broker registration. See SILENT_FAILURES 205.",
+      "response": "The company has declared its own registered contact abandoned. Do not send here again and do not treat an autoresponse as receipt. Use the route the autoresponder names -- here a Google Form or a toll-free number -- and note that a phone route avoids the third-party-form disclosure entirely.",
+      "use_instead": "https://docs.google.com/forms/d/e/1FAIpQLSdXAQsI4b0angLCONbwT4B4YSFiPyVMMLzizCuBSnPZmsTp_g/viewform or (877) 860-0086"
     }
   }
 }

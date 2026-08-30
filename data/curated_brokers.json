@@ -18902,15 +18902,16 @@
       "source": "ca_data_broker_registry",
       "optery_slug": null,
       "email_to": "privacy@purecars.com",
-      "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified": false,
+      "email_verified_by": "declared_unmonitored_by_company",
       "registry_years": [
         "2024",
         "2025"
       ],
       "legal_name": "PureCars Technologies, LLC",
       "category": "adtech",
-      "category_source": "site_classifier 2026-08-30"
+      "category_source": "site_classifier 2026-08-30",
+      "email_note": "|| 2026-08-30 email_verified set FALSE. It had been true via 'ca_data_broker_registry', which only ever meant 'this address appears on the register' -- not 'this address works'. The company has now said in its own autoresponder that the mailbox is not monitored, so the route is dead while the register entry stands. See SILENT_FAILURES 205."
     },
     {
       "id": "quadrant_global_pte",
