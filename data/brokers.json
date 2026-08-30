@@ -17598,7 +17598,7 @@
         "2020-2023"
       ],
       "legal_name": null,
-      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (SILENT_FAILURES 170): filings have lapsed, so the 163 domain check ran and CLEARED this row -- the site is live and carries the registrant's own name, so the domain has not been re-registered by anyone else. Safe to send normally; no further domain check needed."
+      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (SILENT_FAILURES 170): filings have lapsed, so the 163 domain check ran and CLEARED this row -- the site is live and carries the registrant's own name, so the domain has not been re-registered by anyone else. Safe to send normally; no further domain check needed. || 2026-08-29 CROSS-LINK: this row's contact is privacy@alesco.com -- the SAME COMPANY that answers for response_solutions, whose register contact michael@alescodata.com turned out to be a departed employee (successor steve@alescodata.com). Two separate register entries under unrelated registrant names route to Alesco. Treat as one operator when chasing, and note the alesco.com vs alescodata.com domain split."
     },
     {
       "id": "statara",

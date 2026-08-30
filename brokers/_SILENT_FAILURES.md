@@ -11895,3 +11895,62 @@ outright:
 Worth keeping as a form of words. It forecloses the reassuring answer, because both
 branches lead somewhere the requester cares about, and it makes clear the objection
 is to the estimate existing rather than to it being unflattering.
+
+## §189 — the families the register already told me about
+
+§176 built a fingerprint scanner to detect white-label operators from shared LiveChat
+licenses and analytics IDs. It worked, and it found a real family. But this tick's
+Spokeo row exposed something I should have checked first:
+
+**Twenty-nine registry rows declare their own multi-brand family in the registrant's
+own name field.**
+
+    Spokeo.com; Freepeopledirectory.com; Thatsthem.com; Peoplewin
+    Slashdot Media; Sourceforge; VoipReview; Slashdot; Linux Journal; ...
+    Everleads; ListsOnline; Internet Directory Publishers; Stanford Direct
+    Stirista; 123Push; LBDigital; Media Source Solutions; Customer Portfolio...
+    Mortgage Rates Pro; Online Mortgage Loans; Best Auto Insurance; BlueSky...
+    StateRecords; CourtRecords
+    BeenVerified, Inc. and its subsidiaries and affiliates
+    Stat Resource Group LLC DBA Statlistics
+    Urban Science; USAI
+
+Eighteen were already submitted, nine still pending, and I had been treating each as
+a single opaque name rather than as a list.
+
+**This is better evidence than any fingerprint**, and the difference is in kind. A
+shared analytics ID is an *inference* — §176 had to add an explicit caveat that a
+shared operator is not always a shared owner, after a cluster turned out to be one
+web agency's client list. A semicolon-separated name field on a state register is an
+*attestation*: the registrant wrote it, under a filing obligation, about itself.
+
+So the cheapest family-detection method in the project was sitting in a field I was
+already parsing, and I built a web scraper before reading it. The scraper was still
+worth building — it finds the families that *don't* declare themselves, which is the
+harder and more interesting half — but the order was backwards.
+
+**What it changes about the letter.** For Spokeo the letter names all four brands,
+asks them to apply the request where the data lives, and asks them to name any brand
+*not* on the filing. It also credits them, because the credit is deserved and true:
+most multi-brand operators in this registry had to be reverse-engineered from shared
+templates and live-chat accounts, and declaring the family on a public register is
+materially more honest than that.
+
+**A second thing the name field exposes: the third name.** The StateRecords /
+CourtRecords row files its contact at `intermedia.team` — a domain matching neither
+brand. So the register entry names two brands and routes to a third identity, and
+from outside there is no way to tell whether that is the parent, an agent, or a
+shared compliance desk. The letter simply asks, as its first question, which entity
+holds the data.
+
+**And a cross-link worth recording.** `stat_resource_group_llc_dba_statlistics` files
+its contact at `privacy@alesco.com` — the same company that answers for
+`response_solutions`, whose own filed contact turned out to be a departed employee.
+Two register entries, unrelated registrant names, one operator. Noted on the row so a
+future chase treats them together, along with the `alesco.com` / `alescodata.com`
+domain split.
+
+**The rule going forward:** before reaching for a scraper, read the field the
+registrant filled in. A public register is a pile of self-descriptions written under
+obligation, and the multi-brand ones are handing over the family structure that
+§176's whole apparatus exists to reconstruct.
