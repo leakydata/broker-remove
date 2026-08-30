@@ -13006,3 +13006,47 @@ company knows more than the requester about what it holds. Here the requester's 
 inbox — nine-year-old marketing mail nobody thought to look at — proved a relationship
 that the company's own search had not surfaced. **The evidence a broker's nil is wrong
 is sometimes already in your possession.**
+
+### §202a — the sweep that found nothing, which is the useful outcome
+
+§202 ended on a claim worth testing rather than repeating: *the evidence that a nil is
+wrong is sometimes already in your possession.* Pipl's own nine-year-old marketing
+mail had contradicted their profile-scoped nil, sitting unread in the requester's
+inbox.
+
+The obvious question is how often that is true. So the test was run properly.
+
+**Method.** Every broker sitting at `not_found` or `confirmed` — 103 rows with a
+usable domain — batched into `from:(...)` searches across the whole mailbox including
+spam and trash, restricted to `before:2026/08/01` so that the project's own
+correspondence could not match.
+
+**Result: nothing. Not one hit across all 103 domains.**
+
+That is worth recording precisely because it is a null. Three things follow:
+
+  1. **Pipl is an exception, not a pattern.** The subject had a genuine commercial
+     relationship with that one company — an API account — and no comparable prior
+     relationship with any of the other 102. The §202 finding stands as a finding
+     about Pipl and as a *technique*, not as a general suspicion that nils are
+     routinely contradicted by the inbox.
+
+  2. **The other 102 nils are not contradicted by anything in the requester's
+     possession.** That is a small, real piece of positive evidence for them. It does
+     not make them corroborated — §138 still applies, and §194 still counts 56 of 58
+     confirmations as resting on say-so — but it removes one specific way they could
+     have been wrong, and it removes it for all of them at once.
+
+  3. **The check is cheap and repeatable.** Five queries. It should be re-run whenever
+     the terminal-status count grows meaningfully, and it costs nothing to fold into
+     the periodic audit that §200-§202 established.
+
+The reason to write down a negative result at all: without it, §202's closing line
+reads as a general warning that every nil might be undermined by forgotten mail, and
+a later reader would have no way to know whether that had ever been tested. It was
+tested. Once, across the whole population, and the answer was no.
+
+**A null result you went looking for is worth more than one you assumed.** That is the
+same standard this file demands of brokers — a searched nil beats an unelaborated one
+— applied to the project's own claims, which is where §200 through §202 have all
+ended up pointing.
