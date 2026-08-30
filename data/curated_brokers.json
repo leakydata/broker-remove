@@ -10395,7 +10395,7 @@
       "email_to": "info@everydayhealthgroup.com",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here. || 2026-08-29: everydayhealthinc.com -> everydayhealthgroup.com; contact already points at the current name."
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here. || 2026-08-29: everydayhealthinc.com -> everydayhealthgroup.com; contact already points at the current name. || 2026-08-30 GROUP: Everyday Health Inc. is one of three registry rows resolving to ZIFF DAVIS (with ziff_davis and campaigner_smtp). A group-level letter went to legal@ziffdavis.com on 2026-08-30 asking whether one request covers all three; if they confirm it does, this row is covered and should not be re-sent."
     },
     {
       "id": "exlservice_com",
@@ -12983,7 +12983,8 @@
         "2026"
       ],
       "legal_name": "J2 Global Canada Inc.",
-      "domain_source": "ca_registry_contact_email"
+      "domain_source": "ca_registry_contact_email",
+      "email_note": "|| 2026-08-30 GROUP: one of three registry rows resolving to Ziff Davis. Group letter sent to legal@ziffdavis.com; if they confirm group coverage this row is included."
     },
     {
       "id": "captify_technologies",
