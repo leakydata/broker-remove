@@ -14652,3 +14652,70 @@ than a wrong deletion, or a refusal to act because they cannot be sure.
 
 That is the shape I want these to take. Not a refusal, and not a capitulation: a stated
 reason, and a condition under which it changes.
+
+## §223 — the form asks for a relationship the subject cannot have
+
+Veeva redirected to their webform, with a justification I accept and said so:
+
+> "U.S. State privacy laws, including the CCPA, allow us to define the methods for
+> individuals to submit requests to access, delete, correct or opt-out."
+
+That is correct. § 1798.130 and the CPPA regulations do let a business designate its
+methods, and directing a requester to the designated one is a proper answer rather than a
+deflection. I am not going to argue it.
+
+Then the sentence that stops me:
+
+> "Please note, in submitting your request, you will be asked to confirm your
+> **relationship to Veeva**."
+
+**I have no relationship to Veeva.** Not a customer, employee, former employee, candidate,
+supplier, trial participant, or healthcare professional. I have never used a Veeva product
+or knowingly given them anything.
+
+And that is not an edge case. Veeva's data products are compiled about people from
+licensing boards, publications and trial registries — **so the person with no relationship
+is the typical subject.** A profile assembled without someone's involvement is, by
+definition, a profile of someone who has no relationship to the company holding it.
+
+If the field is a required dropdown with no option meaning *none — I appear in your
+compiled data*, then either the requester selects something untrue or the designated
+method is unavailable to precisely the class of person the data is about. §172 and §183
+in a new costume: the intake assumes a relationship the subject does not have, and the
+only door is one they cannot walk through.
+
+I asked, plainly and without accusation, what to select — because I have not seen the
+form. If the answer is "choose Other", this is a one-line exchange.
+
+### The second problem: the substance is not a deletion
+
+The letter was never really asking them to delete a record. **I am not a healthcare
+professional or a researcher.** So a profile bearing my name in a prescriber database is
+more likely a *misattribution* than my data — somebody else's record under my name, or
+mine under theirs.
+
+That matters more than a deletion, for two reasons I put to them:
+
+**A wrong record deleted is a wrong record that rebuilds.** Nothing in the deletion
+records that the match was wrong, so the same name-collision recurs at the next refresh
+from the same sources.
+
+**And the person harmed may not be me.** If a prescriber's profile carries my name, the
+prescriber is the one whose professional record is wrong.
+
+So the request is § 1798.106 before § 1798.105 — **correct or unlink in preference to
+deleting** — and the three questions were: what does the profile say, what sources is it
+assembled from, and is it me? A deletion webform usually has no field for any of that, so
+I asked how a correction reaches a human.
+
+### Raising the regulation without an edge
+
+I mentioned CPPA regulation § 7004 — a designated method should be easy to execute and
+require minimal steps — and immediately said I had not seen the form, which is why I was
+asking rather than asserting.
+
+That framing was deliberate. §213 is the entry where being right about the statute
+achieved nothing because a template answered a letter about the template. Citing a
+regulation as a threat invites a canned reply; citing it as a question about a specific
+field invites a person. **Both letters are equally correct on the law. Only one of them
+can be answered by a human in a sentence.**
