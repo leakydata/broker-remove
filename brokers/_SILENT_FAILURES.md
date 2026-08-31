@@ -13978,3 +13978,45 @@ letters in half:
 The second letter is a weaker letter, and it should be. The evidence behind it is
 weaker. Writing the strong version anyway is how I ended up sending OneTrust a claim I
 could not support.
+
+### §214a — the audit, and making the guard mechanical
+
+Having found one instance, the question is how many there are. **Ten** directory-sourced
+rows had already been written to before §214. I checked every one.
+
+The generated template does not contain the claim at all — it opens *"I am submitting a
+consumer request regarding my personal information"* and never says why the company is
+on my list. So only **hand-written** letters could carry the error, and of the ten,
+eight went out on the template. Their notes contain no registration language.
+
+The other two were both written by hand, both today, within the same hour:
+
+    onetrust    "OneTrust appears on the California data broker register."
+    transcend   "Transcend both operates as a registered data broker and
+                 processes privacy requests on behalf of other companies."
+
+Both corrected, in the same terms: I have no evidence of a registration, I should not
+have said it, and if there is none then the framing built on it is void and saying so
+answers the letter completely.
+
+**The template's dullness is what protected the other eight.** It asserts nothing about
+provenance, so it cannot assert it wrongly. Everything I hand-wrote to make a letter
+sharper is also everything that could be wrong, and today both of the sharp letters
+were.
+
+### The guard
+
+`validate.py` now warns when a row's notes assert a data broker registration while
+`registry_years` is empty. Proved in both directions before committing: planted the
+claim on `scribd` (directory-sourced) and watched it fire, then reverted.
+
+    warn: [scribd]: notes assert a data broker registration but registry_years is
+    empty (listing_basis=third_party_directory) - verify before any letter repeats it
+
+It reports **0** across the current dataset, which is the answer I wanted and — after
+§212 — an answer I now check rather than accept. The check is that it fires when it
+should, which is why the planted row mattered more than the clean run.
+
+Three places now carry the distinction: the data (`listing_basis`), the letter writer
+(`make_optout_email.py`), and the validator. That is deliberate. §179 established that
+a rule I have to remember is not a rule.

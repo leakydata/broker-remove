@@ -95,6 +95,23 @@ def main():
             return rec.get("status") or "pending"
         return rec or "pending"
 
+    # A letter must not tell a company it is on a state register unless the row says so.
+    # I told OneTrust and Transcend exactly that on 2026-08-31, from rows whose
+    # registry_years were empty, and had to write to both again to withdraw it. The
+    # distinguishing field was there the whole time. See _SILENT_FAILURES 214/214a.
+    _REG_WORDS = ("data broker register", "registered as a data broker",
+                  "registered data broker", "ca data broker registration")
+    for _b in brokers:
+        if _b.get("registry_years"):
+            continue
+        _r = _state_raw.get(_b["id"]) or {}
+        _notes = " ".join((e.get("note") or "") for e in (_r.get("history") or [])).lower()
+        if any(w in _notes for w in _REG_WORDS) and "correction" not in _notes:
+            warnings.append(
+                f"[{_b['id']}]: notes assert a data broker registration but registry_years "
+                "is empty (listing_basis=" + str(_b.get("listing_basis")) + ") - verify "
+                "before any letter repeats it")
+
     seen_ids, seen_domains = {}, {}
     for i, b in enumerate(brokers):
         where = f"[{i}] {b.get('id', '<no id>')}"
