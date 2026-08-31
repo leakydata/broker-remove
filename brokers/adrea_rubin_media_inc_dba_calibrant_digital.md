@@ -7,7 +7,7 @@
 
 ## Status
 
-- Current: `pending` (updated 2026-08-26)
+- Current: `failed` (updated 2026-08-31)
 - Note: 2026-08-26: the 2026-08-24 send to jennifer@calibrant.com has been
   bouncing with a connection timeout for 2 days (still inside Gmail's retry
   window). Checked calibrant.com directly: it now serves a **parked domain
@@ -18,6 +18,11 @@
   `crawlbee.md` — do not trust this domain for a `privacy@<domain>` guess going
   forward. No alternate contact found; the only registered address is
   jennifer@calibrant.com, now unreachable at the source.
+- Note (2026-08-31): Retry window closed with a final hard failure ("recipient
+  server did not accept our requests to connect"). `email_verified` corrected
+  from `ca_data_broker_registry` to `bounced`. Confirmed via a fresh fetch that
+  calibrant.com still serves the domain-parking page — the lapse is real, not
+  transient, and no alternate contact exists for either sibling entry.
 
 ## Steps
 

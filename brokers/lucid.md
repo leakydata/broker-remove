@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-30)
+- Current: `failed` (updated 2026-08-31)
 - Note: 2026-08-30 Sent the standard letter, tailored for a survey/market-research panel operator, to compliance@luc.id. Asked them to search by email specifically since panel membership is normally email-keyed, and to delete any panel/respondent profile, not just a directory-style record.
+- Note (2026-08-31): Hard-bounced same day — 550 5.1.1, account does not exist (Gmail). `email_verified` corrected from `ca_data_broker_registry` to `bounced`. **luc.id is a duplicate/legacy registration of `cint`** (the domain redirects to cint.com — Lucid was absorbed into Cint) — that canonical entry is already submitted, at compliance@cint.com. No resend needed here: dead legacy mailbox, request already covered via the successor.
 
 ## Steps
 

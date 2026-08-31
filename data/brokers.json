@@ -2036,13 +2036,14 @@
       "source": "ca_data_broker_registry",
       "optery_slug": null,
       "email_to": "jenniferv@adrearubin.com",
-      "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified": false,
+      "email_verified_by": "bounced",
       "registry_years": [
         "2020-2023"
       ],
       "legal_name": null,
-      "route_evidence": "filed"
+      "notes": "Hard-bounced (final, after two temporary-delay retries) 2026-08-27: jenniferv@adrearubin.com -> 451 4.4.4 (remote server would not accept). adrearubin.com now returns HTTP 503 site-wide as of 2026-08-31 -- looks lapsed/unreachable rather than a wrong mailbox. No working alternate found.",
+      "route_evidence": "none"
     },
     {
       "id": "adrea_rubin_media_inc_dba_calibrant_digital",
@@ -2055,13 +2056,14 @@
       "source": "ca_data_broker_registry",
       "optery_slug": null,
       "email_to": "jennifer@calibrant.com",
-      "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified": false,
+      "email_verified_by": "bounced",
       "registry_years": [
         "2020-2023"
       ],
       "legal_name": null,
-      "route_evidence": "filed"
+      "notes": "Hard-bounced (final, after two temporary-delay retries) 2026-08-27: jennifer@calibrant.com -> recipient server did not accept. calibrant.com now serves a domain-for-sale/parking page (redirects visitors to spaceship.com) as of 2026-08-31 -- the domain has lapsed and been repurposed, not merely a wrong mailbox. No working alternate exists at this domain.",
+      "route_evidence": "none"
     },
     {
       "id": "adsquare",
@@ -2711,16 +2713,16 @@
       "source": "ca_data_broker_registry",
       "optery_slug": null,
       "email_to": "privacy@anexinet.com",
-      "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified": false,
+      "email_verified_by": "bounced",
       "registry_years": [
         "2020-2023"
       ],
       "legal_name": null,
       "duplicate_of": "verinext",
-      "notes": "Resolves to verinext.com, the same site as verinext. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the verinext thread rather than opening a second request.",
+      "notes": "Resolves to verinext.com, the same site as verinext. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the verinext thread rather than opening a second request. Hard-bounced 2026-08-30: privacy@anexinet.com -> 550 5.4.1 Recipient address rejected: Access denied (anexinet-com.mail.protection.outlook.com). Registry-sourced address was never actually live. Legacy request already covered via the verinext successor (dpo@verinext.com, submitted separately) -- no resend needed here, this is a dead legacy mailbox.",
       "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (see _SILENT_FAILURES 170): filings lapsed, so the 163 domain check ran. anexinet.com redirects to verinext.com. The Anexinet name does not appear on the successor site, so ASK rather than assume. Route the request to the successor, or ask which entity holds the data now -- naming it is enough. Successor domain: verinext.com. || 2026-08-29 SECOND ADDRESS FOR A CONTACTED COMPANY (SILENT_FAILURES 177). duplicate_of=verinext, which is already submitted -- but at a DIFFERENT address (dpo@verinext.com); this row's is privacy@anexinet.com. Deliberately left PENDING: an acquired or renamed entity often keeps a legacy file the successor's privacy desk never sees, and the old address is the only route to it. Write to it as its own target, referencing the canonical, rather than treating it as a duplicate to be closed.",
-      "route_evidence": "filed"
+      "route_evidence": "none"
     },
     {
       "id": "ansonia_credit_data",
@@ -5599,13 +5601,14 @@
       "source": "ca_data_broker_registry",
       "optery_slug": null,
       "email_to": "barrygold@contacts411.com",
-      "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified": false,
+      "email_verified_by": "bounced",
       "registry_years": [
         "2025"
       ],
       "legal_name": "Infinite Knot Inc.",
-      "route_evidence": "filed"
+      "notes": "Hard-bounced (final, after two temporary-delay retries) 2026-08-28: both contact@contacts411.com and barrygold@contacts411.com -> DNS Error, no MX record for contacts411.com. www.contacts411.com does not resolve at all as of 2026-08-31 (DNS timeout) -- the domain itself is dead, not a wrong mailbox. No route exists.",
+      "route_evidence": "none"
     },
     {
       "id": "contentgine",
@@ -11976,16 +11979,16 @@
       "source": "ca_data_broker_registry",
       "optery_slug": null,
       "email_to": "compliance@luc.id",
-      "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified": false,
+      "email_verified_by": "bounced",
       "registry_years": [
         "2020-2023"
       ],
       "legal_name": null,
       "duplicate_of": "cint",
-      "notes": "Resolves to cint.com, the same site as cint. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the cint thread rather than opening a second request.",
+      "notes": "Resolves to cint.com, the same site as cint. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the cint thread rather than opening a second request. Hard-bounced 2026-08-30: compliance@luc.id -> 550 5.1.1 account does not exist (Gmail). Registry-sourced address was never live. Legacy request already covered via the cint successor (compliance@cint.com, submitted separately) -- no resend needed, dead legacy mailbox.",
       "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (see _SILENT_FAILURES 170): filings lapsed, so the 163 domain check ran. lucid's domain redirects to cint.com -- Lucid appears to have been absorbed into Cint. The Lucid name does not appear on the successor site, so ASK rather than assume. Route the request to the successor, or ask which entity holds the data now -- naming it is enough. Successor domain: cint.com. || 2026-08-29 SECOND ADDRESS FOR A CONTACTED COMPANY (SILENT_FAILURES 177). duplicate_of=cint, which is already submitted -- but at a DIFFERENT address (compliance@cint.com); this row's is compliance@luc.id. Deliberately left PENDING: an acquired or renamed entity often keeps a legacy file the successor's privacy desk never sees, and the old address is the only route to it. Write to it as its own target, referencing the canonical, rather than treating it as a duplicate to be closed.",
-      "route_evidence": "filed"
+      "route_evidence": "none"
     },
     {
       "id": "lusha_systems",
@@ -15594,16 +15597,16 @@
       "source": "ca_data_broker_registry",
       "optery_slug": null,
       "email_to": "privacy@placeiq.com",
-      "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified": false,
+      "email_verified_by": "bounced",
       "registry_years": [
         "2020-2023"
       ],
       "legal_name": null,
       "duplicate_of": "precisely",
-      "notes": "Resolves to precisely.com, the same site as precisely. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the precisely thread rather than opening a second request.",
+      "notes": "Resolves to precisely.com, the same site as precisely. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the precisely thread rather than opening a second request. Hard-bounced 2026-08-30: privacy@placeiq.com -> 550 5.1.1 account does not exist (Gmail). Registry-sourced address was never live. Legacy request already covered via the precisely successor (placeiq.privacy@precisely.com, submitted separately) -- no resend needed, dead legacy mailbox.",
       "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (see _SILENT_FAILURES 170): filings lapsed, so the 163 domain check ran. domain redirects to precisely.com and the registrant name appears there. Route the request to the successor, or ask which entity holds the data now -- naming it is enough. Successor domain: precisely.com. || 2026-08-29 SECOND ADDRESS FOR A CONTACTED COMPANY (SILENT_FAILURES 177). duplicate_of=precisely, which is already submitted -- but at a DIFFERENT address (placeiq.privacy@precisely.com); this row's is privacy@placeiq.com. Deliberately left PENDING: an acquired or renamed entity often keeps a legacy file the successor's privacy desk never sees, and the old address is the only route to it. Write to it as its own target, referencing the canonical, rather than treating it as a duplicate to be closed.",
-      "route_evidence": "filed"
+      "route_evidence": "none"
     },
     {
       "id": "preferred_communications",
@@ -18967,7 +18970,8 @@
       "optery_slug": "structure",
       "email_to": "support@structure.ac",
       "email_verified": false,
-      "email_verified_by": null,
+      "email_verified_by": "bounced",
+      "notes": "Hard-bounced (final, after two temporary-delay retries) 2026-08-21: support@structure.ac -> DNS Error on mx lookup. Domain appears dead; verified_by corrected to reflect the bounce (was unset).",
       "route_evidence": "none"
     },
     {
@@ -20313,15 +20317,16 @@
       "source": "ca_data_broker_registry",
       "optery_slug": null,
       "email_to": "privacy@valassis.com",
-      "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified": false,
+      "email_verified_by": "bounced",
       "registry_years": [
         "2020-2023"
       ],
       "legal_name": null,
       "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (see _SILENT_FAILURES 170): filings lapsed, so the 163 domain check ran. domain redirects to rrd.com and the registrant name appears there. Route the request to the successor, or ask which entity holds the data now -- naming it is enough. Successor domain: rrd.com.",
       "listing_basis": "state_register",
-      "route_evidence": "filed"
+      "notes": "Hard-bounced 2026-08-31: privacy@valassis.com (cc'd on the 2026-08-31 letter) -> 550 5.1.1 account does not exist (Gmail). The primary recipient on that same letter, valassisprivacy.request@rrd.com (the successor entity, see valassis_communications_inc_an_rrd), delivered with no bounce -- treat that as the live channel for this registration going forward.",
+      "route_evidence": "none"
     },
     {
       "id": "valassis_communications_inc_a_vericast_business",

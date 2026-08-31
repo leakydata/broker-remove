@@ -7,7 +7,7 @@
 
 ## Status
 
-- Current: `pending` (updated 2026-08-26)
+- Current: `failed` (updated 2026-08-31)
 - Note: 2026-08-26: the 2026-08-24 send to jenniferv@adrearubin.com has been
   soft-bouncing for 2 days with "Mail received as unauthenticated, incoming to
   a recipient domain configured in a hosted tenant which has no mail-enabled
@@ -19,6 +19,11 @@
   alternate contact found. If the final DSN confirms failure, mark
   `unreachable` on both entries rather than hunting for a third address —
   there is no live site to search one on.
+- Note (2026-08-31): Prediction confirmed — the retry window closed with a
+  final hard failure, 451 4.4.4 "Mail received as unauthenticated..." (same
+  root cause, now terminal). adrearubin.com still returns HTTP 503 site-wide.
+  `email_verified` corrected from `ca_data_broker_registry` to `bounced`; no
+  working alternate address exists for this domain.
 
 ## Steps
 

@@ -7,7 +7,8 @@
 
 ## Status
 
-- Current: `submitted`
+- Current: `submitted` (updated 2026-08-31)
+- Note (2026-08-31): This is a `third_party_directory`-sourced listing, not a state broker registration — said so plainly in the letter, and offered "the listing is wrong" as a complete answer that would close the matter without argument. Also flagged the CLEAR/public-records line as the plausible real target if the listing is right at all, distinct from the news/professional-information core business.
 
 ## Steps
 
@@ -15,13 +16,14 @@
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+**Reply, same day, from `privacy.enquiries@thomsonreuters.com`:** a generic
+auto-response redirecting to a OneTrust DSR portal, engaging with none of the
+specific questions asked (is the listing accurate at all, which product/team).
+Classic §2/§10 deflection — pushed back once, asking whether the narrow scoping
+question ("is this listing accurate, and if so which product") can be answered
+by return email before a full portal intake with re-submitted identifiers.
+Awaiting reply; if none, the portal is the fallback route (needs a browser
+session — flag for handoff if this doesn't get answered by email).
 
 ## Verification
 

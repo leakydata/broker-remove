@@ -18,6 +18,17 @@
 1. Email `dataprivacy2026@listmatch.com`, not the plain `dataprivacy@listmatch.com` on their CA registration — that one is dead.
 2. A self-service portal also exists at listmatch.com/privacy/ per their auto-reply, unverified.
 
+**Closed, 2026-08-31.** Follow-up questions to Jonathan (the person actually
+answering, at `jonathan@listmatch.com`) got direct answers to both: **the
+suppression hash applies across every company he manages, not per-entity**, and
+**he manages no other registered entities** — SourceIt (a sibling suppression
+hit, same address convention) was the only other one, already accounted for.
+He also confirmed the California registration was voluntarily withdrawn ("we
+pulled out of California") rather than lapsing, which explains why no current
+CA filing shows for this company. Also reported upstream: one of his named
+suppliers, `privacy@databaseusa.com`, hard-bounces — worth knowing if he ever
+pushes a suppression file that way.
+
 ## Gotchas
 
 - **Year-suffixed address rotates while the state registry keeps the old one.** Same pattern as several other CA-registered brokers: the filed contact address ages out and the site quietly moves to a dated successor (`dataprivacy2026@`) without updating the registration. Worth checking any bounce from a CA-registered broker against the current privacy-policy page before assuming the whole channel is dead.
