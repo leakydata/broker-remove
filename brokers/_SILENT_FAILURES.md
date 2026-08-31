@@ -14428,3 +14428,82 @@ broker would sit at `pending` forever while a perfect record of its handling acc
 one character away. **The cheapest integrity check in a keyed store is asking whether the
 key exists**, and I had not been running it for the eleven days this project has been
 going.
+
+## §220 — a deletion right conditioned on a liability release
+
+The last six `pending` rows are a WHOIS-intelligence cluster: `domainbigdata`,
+`domainiq`, `securitytrails`, `whoisxmlapi`, `whoxy`, and `getprospect`. Four publish no
+contact address at all — two are form-only, one returns HTTP 403 to a plain fetch, one
+returns 530. They are queued.
+
+`whoisxmlapi` publishes a policy that invites deletion requests. It reads:
+
+> "You May Request Deletion of Personal Information. You may request that WHOIS API
+> delete personal information (either your own, or a third-party's at said third-party's
+> request). **However, you acknowledge and agree that doing so shall relieve and release
+> WHOIS API from any liability, obligation, claim, or other damages related to or arising
+> from said personal information.**"
+
+**A liability release attached to a statutory right.** Ask for your data to be deleted,
+and by asking you have released the company from claims arising from having held it.
+
+I exercised the right and declined the release, and said why plainly rather than
+cleverly: I assert no claim, have no dispute, and have no present intention of bringing
+one. I simply cannot accept that asking a company to stop holding my data is the moment
+at which I sign away the right to object to how it was held.
+
+I also pointed at **Cal. Civ. Code § 1798.192**, which provides that any provision of a
+contract or agreement of any kind purporting to waive or limit a consumer's CCPA rights
+"shall be deemed contrary to public policy and shall be void and unenforceable." A
+release demanded as the price of a deletion request is that sort of provision.
+
+The charitable reading, which I offered them, is that the clause was drafted for a
+commercial customer's data-submission agreement and not for a member of the public
+exercising a statutory right — and that the policy currently treats those two situations
+identically. I asked them to say **in writing** if they will not act without the release,
+because that is an answer I can record, and better than a request that quietly lapses.
+
+There is also no privacy address anywhere on the site. The only published route is a
+sales address, which is where the letter had to go. A policy that invites deletion
+requests and publishes no route for them is §183 again: no channel to reach the thing
+the page is about.
+
+### Why historical WHOIS is its own category
+
+Worth stating, because it is the strongest single exposure I have found and it is almost
+invisible to the person it concerns.
+
+A *current* WHOIS record is largely redacted — ICANN's 2018 temporary specification and
+the GDPR saw to that. **Historical WHOIS records from before then are not.** They carry
+the registrant's full name, postal address, telephone number and email address, exactly
+as typed into a registrar's form fifteen or twenty years ago.
+
+For many people that is the most complete set of contact details in commercial
+circulation, and almost nobody remembers publishing it — because in any meaningful sense
+they did not. It was a mandatory field at a time when redaction was not offered by
+default, and it has outlived every address and telephone number in it.
+
+So the four defunct addresses in the identifier set — the ones at services that shut down
+years ago — are the ones I asked them to search hardest. A registration made in that era
+is exactly the kind whose contact block was never redacted.
+
+### The thing I did not do, stated rather than quietly resolved
+
+**I have not run a reverse-WHOIS search on my own name or addresses, with this service or
+any other.**
+
+I could have. It would have told me precisely what to ask for, and it would have made
+the letter far more specific. I did not, because submitting my identifiers to a
+WHOIS-intelligence service in order to discover what it holds about me means handing
+those identifiers to the company I am asking to hold less — and on many such services,
+creating a query record that did not exist before.
+
+That is the §210 problem in advance rather than in hindsight. VRTCAL's reply told me,
+accurately, that it now held a name and twelve email addresses it had not held before I
+wrote. Here the same trade is available *before* the letter, dressed as research, and it
+is easier to take because it feels like diligence.
+
+So the letter asks them to search instead: **they can search their own data without
+either of us adding to it.** That is the whole of the reasoning, and it belongs in the
+letter rather than in a note to myself, because a company reading it learns something
+about why the request is shaped the way it is.
