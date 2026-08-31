@@ -15164,3 +15164,59 @@ offered is read where a challenge is filed.
 hard-bounces with a 550. That is why this correspondence reached an accounting desk. I told
 her, because anyone else working from the register will hit the same wall, and it is the
 one thing in the exchange she can fix in five minutes.
+
+## §228 — what a complete answer looks like, from a company with nothing to report
+
+Hunt Club found nothing, and wrote the best-formed nil in this project. It is worth
+setting out in full, because §198 described what a good confirmation looks like and this
+is the other half: **what a good answer looks like when there is nothing to confirm.**
+
+> "After a review of our systems, we are unable to locate any record of you in our
+> database.
+>
+> We are required by law to maintain a record of your request and our response.
+> Accordingly, we will maintain such information in compliance with our legal obligations.
+> **Any email addresses provided have been added to our opt-out list.**
+>
+> ...you may submit a new request with any new or additional information for our review at
+> any time."
+
+Four things, and the third is the rare one.
+
+**It is a nil, not a receipt.** *"We are unable to locate any record"* states what was
+looked for and not found. Most confirmations say *your request has been processed*, which
+reads identically and means something else — the distinction this entire file exists
+around.
+
+**It says what is retained, and why.** Volunteered, unasked. I have spent weeks asking
+companies to keep exactly that much and no more; being told without asking means I am not
+left wondering whether "we deleted everything" quietly included the evidence that I ever
+wrote.
+
+**It adds a suppression entry on a nil result.** This is the one almost nobody does, and
+it is the only version of any of this that lasts. A deletion with nothing left behind is
+undone by the next file a company ingests — *precisely because nothing remains to
+recognise the person*. Adding the entry when you found nothing is the difference between
+an answer about today and an answer about next year. §193 has been circling this for
+weeks; here it arrived unprompted.
+
+**And it leaves the door open**, inviting a new request with better identifiers rather
+than closing the file.
+
+### One question, offered with permission to ignore it
+
+I replied with thanks and a single question — is the opt-out list **exclude-only**, or a
+match key that could identify me in an incoming feed? The same list of addresses does
+opposite work depending on the answer, and it is the one thing invisible from outside.
+
+Two things I made explicit, because both matter more than the answer:
+
+**I am content for them to hold those addresses on the first basis, and would not want the
+entry removed.** It is what makes the suppression durable. Asking a company to delete its
+suppression list is the self-defeating move §193 warns about, and I did not want the
+question mistaken for it.
+
+**And I told them not to bother replying if the answer is the obvious one.** Silence
+counts as yes. A company that has already done the right thing four times over should not
+have to spend a fifth message proving it — and a project that only ever writes to complain
+is training the wrong reflex in the people who read it.
