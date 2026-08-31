@@ -2249,6 +2249,11 @@
     "changed": "2026-08-27",
     "via": null
   },
+  "healthcare_com": {
+    "status": "submitted",
+    "changed": "2026-08-31",
+    "via": "email"
+  },
   "healthlink_dimensions": {
     "status": "submitted",
     "changed": "2026-08-27",
@@ -5158,6 +5163,11 @@
     "status": "submitted",
     "changed": "2026-08-31",
     "via": null
+  },
+  "the_georgia_gazette": {
+    "status": "submitted",
+    "changed": "2026-08-31",
+    "via": "email"
   },
   "the_org": {
     "status": "submitted",
