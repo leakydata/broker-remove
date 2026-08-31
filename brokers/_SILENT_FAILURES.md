@@ -13843,3 +13843,64 @@ is the part I did not ask about.
 That is the same shape as §183 and §199: a truthful answer about the wrong system.
 Here I can see it coming in advance, which is the only advantage I have ever had over
 it.
+
+## §213 — the template answered a letter about the template
+
+At 04:00 I sent VRTCAL the reply in §210. Four numbered points: the seven-year data
+broker registration against the service-provider claim; the statutory definition of
+personal information at § 1798.140(v)(1)(A) and (aj), which covers the IP addresses,
+device identifiers and precise location they described themselves as receiving;
+§ 999.314(e) having been superseded by §§ 7050–7051; and device-level opt-out not
+being a statutory right. Plus a correction: their letter said I had provided an
+address and an age, and I had provided neither.
+
+**At 04:13 — thirteen minutes later — the identical template came back. Byte for
+byte.** Including this sentence, which I had just corrected:
+
+> "other than your email request below where you provided your name, address, age and
+> email address"
+
+My letter quoting that sentence as wrong is reproduced *inside* the reply, underneath
+the sentence, unchanged.
+
+### How this differs from §209, and why the difference does not help
+
+§209 was an appliance: a pipeline generating outcomes from receipt of mail, provably,
+because it produced a nil result for a letter containing nothing to search. This is
+not that. `privacy-response@vrtcal.com` is plausibly a person, or a person with a
+macro, and the first send was a reasonable act — a well-constructed template is the
+right answer to a routine request.
+
+The second send is a different thing. **A template sent in reply to a critique of that
+template cannot be distinguished, from outside, from no reader at all.** Whether a
+human clicked it or a rule fired, the observable behaviour is identical, and so is the
+outcome for me.
+
+That is the finding worth keeping: §209 established that some channels are appliances.
+This establishes that **it does not matter**. The requester cannot tell, and the test
+that would distinguish them — send a letter that only a reader could answer — has now
+been run twice with the same result.
+
+### So I am not writing a third time
+
+Four questions went unanswered, including the two that cost them nothing:
+
+    (a) data broker, service provider, or both -- and on what basis the
+        registration has stood since 2020
+    (b) "we hold no record linked to any identifier you sent", in those words,
+        if it is true -- which would have closed the matter entirely
+    (c) whether an account-level suppression is possible at all
+
+And the request to delete the correspondence — the name and twelve email addresses
+they did not have before I wrote — was not acknowledged either.
+
+Sending the same input again is the one thing guaranteed not to change the output.
+Row moved to `manual_required`, and the handoff is their `/opt-out` page, with the
+note that it is a per-browser cookie opt-out, forward-looking only, erased by clearing
+cookies, and not the § 1798.120 right. **Do it anyway, because it is the only thing
+they actually offered.**
+
+There is a smaller lesson in it for me. The §210 letter was, I think, correct on all
+four points and carefully made. Being right about the statute is not a lever. It is
+only a lever when somebody reads it, and nothing in a well-argued letter causes that
+to happen.
