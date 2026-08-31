@@ -2540,9 +2540,9 @@
     "via": null
   },
   "intelius": {
-    "status": "confirmed",
-    "changed": "2026-08-27",
-    "via": "reply"
+    "status": "submitted",
+    "changed": "2026-08-31",
+    "via": "email"
   },
   "intelius_us_search_us_search_pro": {
     "status": "submitted",

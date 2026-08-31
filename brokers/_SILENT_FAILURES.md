@@ -15220,3 +15220,68 @@ question mistaken for it.
 counts as yes. A company that has already done the right thing four times over should not
 have to spend a fifth message proving it — and a project that only ever writes to complain
 is training the wrong reflex in the people who read it.
+
+## §229 — the key set went from six identifiers to nineteen
+
+Intelius answered the §193 argument by acting on it, which is the first time that has
+happened.
+
+The 27 August suppression covered my name, **one** phone number, **one** address and
+**four** email addresses. My reply pointed out that the request had listed twelve emails,
+sixteen prior addresses and eleven prior phone numbers, and asked the question that
+decides everything for a live-compile architecture: *were all of them searched and only
+these matched, or were only these used as suppression keys?*
+
+The second response adds:
+
+    four more email addresses
+    six prior addresses  -- two PO boxes, and an address in Alabama from a long time ago
+    three prior telephone numbers
+
+**Those are exactly the identifiers a people-search lookup actually runs on.** Nobody
+searching for a person types their current address; they type the one they have. §193 has
+been arguing that for weeks in the abstract — here it is, six addresses that were invisible
+to the first suppression and are the most likely keys for any third-party search.
+
+### Four of eight came back, and the missing four are the whole question
+
+Still absent: four of them — a personal address, the university one, and two at
+providers that shut down years ago. (Listed by name in the tracker, not here; §217's
+lesson is that writing about an identifier reproduces it.)
+
+Most likely that *is* the answer to my question, arriving as a list rather than a
+sentence: they searched everything, and those four matched nothing today.
+
+But "matched nothing today" and "is in the key set" are different facts, and their own
+architecture makes the difference decisive. They told me — plainly, and it remains the
+clearest description of the model I have had from anyone:
+
+> "background reports are compiled in real time via live calls to data providers...
+> Because we don't retain reports, we cannot delete them."
+
+If nothing is retained, **there is no stored record that was deleted. There is only a list
+of things to check against when the next report is built.** The key set is not part of the
+protection; it is the entire protection.
+
+And provider files change. An address returning nothing this week can return a record next
+quarter, from a source not called today. If those four are not in the key set, that report
+displays — and neither of us finds out.
+
+So the ask is four rows: add them regardless of whether they match anything. It is the
+difference between a suppression that describes today and one that holds.
+
+### What this validates
+
+§193 predicted that a live-compile suppression is only as wide as its key set. §171
+established that a computed record still needs an exclusion. Both were arguments; this is
+the first company to move on them, twice, and to move specifically on the stale
+identifiers rather than the current ones.
+
+Two rounds took the key set from six identifiers to nineteen. More movement than anyone
+else has given me this month, and it came from asking the same question twice in slightly
+different words rather than from any escalation.
+
+Two things stay open — Classmates, still outside a family-wide action and routed to a
+telephone number while its four siblings were handled in one email; and the categories of
+data provider, which by their own description is where the record actually lives. I said I
+would rather have the key-set answer than either of them, because I would.
