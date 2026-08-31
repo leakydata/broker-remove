@@ -15013,3 +15013,78 @@ implemented, asks the consumer to close that gap themselves.
 **The person who most wants not to be identified is the only one who can complete the
 identification.** Every honest answer in this exchange is true, and the outcome is still
 that the safest thing I can do is nothing.
+
+### §226a — install an app to reveal your advertising ID, then email it to us
+
+Azira answered the same day as PubMatic, and it is the same paradox with two additions
+worth recording.
+
+They were honest about what they do not hold — *"Azira does not store identifiers such as
+your name, email address, physical address, phone number, government ID number(s), or the
+IMEI"* — which is more specific than most. Then:
+
+> "If you have not provided your MAID, then we have no way to associate any personal
+> information in our possession with you. **In that case, this concludes our response to
+> your current request.**"
+
+### The query I asked for was not run
+
+My letter anticipated that reply almost word for word. It said that no consumer can look
+up their own mobile advertising identifier historically, that a name lookup would
+therefore find nothing while a full profile existed, and it asked them to run the query I
+*can* specify:
+
+> *any device showing a persistent overnight dwell pattern at [nine residential addresses]
+> — and delete the records for any such device, together with any inferred home location,
+> work location, visitation history and identity-graph linkage attached to it.*
+
+The reply does not mention it. **A persistent overnight dwell at a residential address is
+not an exotic request — it is home-location inference, a standard product of location
+intelligence, run for customers as ordinary business.** It is the usual query pointed at
+one person by request rather than at a market by a client.
+
+I had written that I would accept a nil from that query as a complete answer, and I meant
+it. What came back is a null from a query that could never have found me — §199 and §209,
+in the one place where the company had a query available that would have worked.
+
+### The key they demand is designed to rotate
+
+The letter asked one question the reply passes over: **if suppression can only be keyed to
+a MAID, say so explicitly** — because a MAID is resettable by design, and changes on a
+factory reset or a new handset.
+
+A suppression entry keyed to one therefore **lapses silently when the identifier rotates,
+and the person who requested it is never told.** If that is the position, no consumer can
+hold a durable suppression with Azira at all. That is not an accusation — a company can
+only key on what it holds — but a remedy that expires without notice ought to be described
+as one.
+
+### And the instruction I will not follow
+
+> "The IDFA on an iOS device is hidden by default. It can be accessed using a third-party
+> app. There are several free apps available on the App Store that allow you to know your
+> device's IDFA."
+
+To exercise a privacy right, install an application whose function is to expose your
+advertising identifier, from a developer neither party has assessed, and email the result
+to a location-data company.
+
+Every step of that increases exposure. And it is likely futile: on a device where app
+tracking is not permitted the IDFA returns as all zeroes, so the instruction yields either
+nothing or a fresh linkage. I declined and said why, in those terms.
+
+**This is the standing rule about not solving CAPTCHAs, arriving from a new direction.**
+The principle is the same — a privacy process must not require the subject to defeat their
+own protections in order to use it.
+
+### What I asked for instead
+
+Three things, none requiring an identifier from me: run the dwell query or say plainly
+that you will not; confirm whether suppression can only be keyed to a MAID and whether it
+survives a reset; and add a standing do-not-add entry regardless, since several registered
+brokers have done exactly that for me this month having found no record at all.
+
+And the household offer from the original letter restated, because it still matters more
+than the deletion: **that query may return devices belonging to others in my household, so
+report what you find and let me confirm before deleting anything.** I do not want a family
+member's record removed on my say-so any more than they would want mine removed on theirs.
