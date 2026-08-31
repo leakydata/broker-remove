@@ -14590,3 +14590,65 @@ would suppress a stranger's home on my say-so. I told them that if the system ca
 exclude bare values, they should leave the former addresses alone and act on my current
 one: *I would rather stay in the file at fifteen old addresses than have fifteen
 households suppressed on my account.*
+
+## §222 — the escape hatch worked, and I was the one who was wrong
+
+Allant Group replied to the minimised letter asking for more identifiers. Not as a
+stalling tactic — with a reason:
+
+> "This is our process to ensure we don't mistakenly delete the information of the wrong
+> party, whether because of fraud or simple mistake."
+
+**That is the §193 limit pointed the other way.** For weeks I have been asking companies
+not to suppress a bare street address or telephone number of mine, because other people
+live at those addresses now and excluding the value would remove *them* from a file on my
+say-so. Allant is refusing to delete a stranger's record because somebody bearing the
+subject's name sent an email.
+
+Same principle, opposite direction, and it is a very common name. The risk is real, and
+I would rather be asked for more than have someone else quietly removed in my place. So the
+identifier request is not an obstacle and I said so before anything else.
+
+### And it corrected me
+
+The letter was `--keys email-only`. It withheld date of birth, postal addresses and
+telephone numbers on the §195 judgement that Allant's records would be keyed to cookies,
+device identifiers or hashed emails — so those fields could not match and would only be
+new data arriving at a company that did not hold it.
+
+**Their reply says name and postal address are the required fields.** They are
+address-keyed. The heuristic misfired.
+
+What saved it is the sentence the minimised letter has carried since §196a:
+
+> "If you can in fact resolve on something else, tell me which identifier types your
+> systems use and I will supply those and nothing more."
+
+That escape hatch has been in every one of these letters and this is the first time a
+company has used it. It works — **but only because the letter invited the correction
+rather than asserting the premise.** A minimised letter without that sentence is a
+guess presented as a decision, and when the guess is wrong the request quietly returns a
+false nil (§209) with nobody at fault.
+
+So the rule survives §195 intact, with an addition: **minimise, but always name the
+assumption and ask to be corrected.** Withholding is defensible only when it costs
+nothing. Here it would have cost the search.
+
+### The date of birth, and giving a reason rather than a refusal
+
+Their email marks name and postal address as required, and date of birth, phone and email
+as optional. I sent everything required and most of what was optional, and held back the
+date of birth — with the reasoning stated, because their reason for asking was a good one
+and mine for declining should be too.
+
+A date of birth is the standard key for tying records together across sources. It is the
+field I am most reluctant to add to a marketing file that may not already hold it, and
+"optional" means the search can proceed without it.
+
+**But their disambiguation concern outranks my preference**, and I said so in terms: if
+sixteen addresses do not resolve me uniquely — if they find more than one person of
+that name and cannot tell us apart — say so and I will send it immediately. Better one more field
+than a wrong deletion, or a refusal to act because they cannot be sure.
+
+That is the shape I want these to take. Not a refusal, and not a capitulation: a stated
+reason, and a condition under which it changes.
