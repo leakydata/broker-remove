@@ -14369,3 +14369,62 @@ ledger, ran the gate, and both came back.
 §179 built this gate because a check whose failure branch is `echo` is not a check. The
 same reasoning applies one level up: **a coordination step that depends on someone
 remembering it is not a step.** It is now a property of committing.
+
+## §219 — I filed a note against a broker that does not exist
+
+A routine count turned up a row with no status at all:
+
+    [('submitted', 934), ('confirmed', 60), ('manual_required', 51), ('not_found', 44),
+     ('unreachable', 39), ('failed', 10), ('captcha_blocked', 9), ('pending', 6),
+     (None, 1), ('email_pending', 1)]
+
+The `None` was `boardex_altrata` — a row I created that morning to record Altrata's
+acknowledgement of the BoardEx letter and its four-brand scope addendum.
+
+**There is no broker called `boardex_altrata`.** The registry row is `boardex`. I typed a
+plausible-looking id, the tracker accepted it — it is a dict, and a dict accepts any key
+— and the note went into a record nothing would ever read. The status was `None` only
+because my helper set `status` on the history entry and not on the row, which is how I
+noticed at all. Had I passed a status, the row would have looked perfectly healthy and
+been just as useless.
+
+### The real gap is that most orphans are legitimate
+
+My first check found 22 status rows with no matching broker id and I nearly reported all
+of them as broken. They are not. Twenty-one are **sibling brands named inside a parent's
+letter**, given their own rows on purpose so per-brand coverage is recorded rather than
+buried in someone else's note:
+
+    atozacademics       "covered by name in a single letter to OptOut@privacycompliance.biz"
+    goodcar, sentinex   "named explicitly in a scope addendum on InfoTracer ticket 544087"
+    family_me           "named by name in a scope letter to privacy@spokeo.com"
+
+That is a good design and I should not have doubted it. A brand can be covered without
+being a registry row, and recording it under its own name is exactly right.
+
+So "not in the registry" is the wrong test — it fires on twenty-one correct rows and
+one wrong one. **The discriminator is the playbook file.** Every deliberate brand row has
+a document behind it. The typo had none.
+
+### The guard
+
+`validate.py` now warns on a status row that is not a broker id, not an alias, *and* has
+no playbook — proved by planting the exact shape that slipped through:
+
+    warn: [boardex_altrata_TESTONLY]: status row for an id that is not a broker, not an
+    alias and has no playbook - a note filed here will never be read; check for a typo
+
+Zero across the real dataset once the Altrata note was moved onto `boardex`, carrying a
+marker saying where it came from.
+
+### What this one is really about
+
+§214 was a field I did not read. §216 was a field I did not sort by. This is neither: the
+data was fine and the *key* was wrong, so every downstream check looked at a
+well-formed row and saw nothing to complain about.
+
+A tracker keyed by free-form string will accept any string. Six of these in a row and a
+broker would sit at `pending` forever while a perfect record of its handling accumulated
+one character away. **The cheapest integrity check in a keyed store is asking whether the
+key exists**, and I had not been running it for the eleven days this project has been
+going.

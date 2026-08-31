@@ -142,6 +142,29 @@ def main():
                     f"business still registered as {_cur} - prefer the current registrant's "
                     "contact; a lapsed filing's address is the one most likely to be dead")
 
+    # ORPHAN STATUS ROWS. A note can be written against any key at all -- the tracker
+    # is a dict and nothing validates the id. On 2026-08-31 I recorded an Altrata
+    # acknowledgement under "boardex_altrata", which is not a broker, not an alias and
+    # has no playbook. The note was real, the work was real, and it landed somewhere
+    # nothing would ever read it. See 219.
+    #
+    # A status row that is NOT a registry id is usually legitimate: a sibling brand
+    # named inside a parent's letter gets its own row so per-brand coverage is
+    # recorded. Those have a playbook file. The discriminator is therefore the
+    # playbook, not the registry -- an orphan with no document behind it is a typo.
+    _ids = {b["id"] for b in brokers}
+    try:
+        _al = json.loads((ROOT / "data" / "playbook_aliases.json").read_text())["aliases"]
+        _known = _ids | set(_al) | set(_al.values())
+    except Exception:
+        _known = _ids
+    for _bid in _state_raw:
+        if _bid in _known or (PLAYBOOKS / f"{_bid}.md").exists():
+            continue
+        warnings.append(
+            f"[{_bid}]: status row for an id that is not a broker, not an alias and has "
+            "no playbook - a note filed here will never be read; check for a typo")
+
     seen_ids, seen_domains = {}, {}
     for i, b in enumerate(brokers):
         where = f"[{i}] {b.get('id', '<no id>')}"
