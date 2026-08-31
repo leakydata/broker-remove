@@ -423,6 +423,24 @@
       "first_seen": "2026-08-31",
       "response": "550 Address not found -- 'the address couldn't be found, or is unable to receive mail'",
       "evidence": "Bounced within 6 seconds of send, 2026-08-31 03:09. This address is the contact on the California data broker registration for 'Valassis Communications, Inc., a Vericast Business' (2024). Same shape as SF 205/206: filed on the register, does not work."
+    },
+    "privacy@valassis.com": {
+      "kind": "no_such_mailbox",
+      "first_seen": "2026-08-31",
+      "response": "550 Address not found",
+      "evidence": "Bounced 4s after send, 2026-08-31 09:38, as the cc on the RRD letter. This is the contact on the 2020-2023 Valassis Communications, Inc. registration. TWO of the three Valassis register contacts are now confirmed dead (this and privacyrequests@vericast.com); only the CURRENT registrant's address, valassisprivacy.request@rrd.com, is live. Direct confirmation of the SF 216 rule."
+    },
+    "privacy@tauxbe.com": {
+      "kind": "no_such_mailbox",
+      "first_seen": "2026-08-31",
+      "response": "550 5.7.1",
+      "evidence": "Bounced 1s after send, 2026-08-31 10:23. CA register contact."
+    },
+    "info@sterlingstrategies.co": {
+      "kind": "no_such_mailbox",
+      "first_seen": "2026-08-31",
+      "response": "550 5.1.1",
+      "evidence": "Bounced 3s after send, 2026-08-31 10:22. CA register contact for Sterling Data Company LLC."
     }
   }
 }

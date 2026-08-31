@@ -252,7 +252,16 @@ def scan_tracked():
             if "github.com/" in line:
                 continue
             for t in terms:
-                if len(t) > 4 and re.search(re.escape(t), line, re.I):
+                # (?<![A-Za-z]) -- the term must not be the tail of a longer word.
+                # Without it "NATHAN" matches inside "Jonathan", and the gate fired
+                # on a broker contact's own first name. A gate that cries wolf is a
+                # gate that eventually gets overridden, which is the failure mode
+                # 179 exists to prevent.
+                #
+                # Only the LEADING side is bounded, deliberately. A trailing bound
+                # would miss "nathanjones@..." and concatenated forms, and a miss
+                # here is far worse than a false positive.
+                if len(t) > 4 and re.search(r"(?<![A-Za-z])" + re.escape(t), line, re.I):
                     if f in allowed.get(t.lower(), ()):
                         continue
                     hits.append((f, i, t))

@@ -14220,3 +14220,91 @@ data on my say-so. So: suppress the association, not the value — and if the sy
 only exclude bare values, **leave the former addresses alone and act on the current one
 only.** I would rather remain in the file at four old addresses than have four
 households suppressed on my account.
+
+## §217 — the gate fired on a broker's first name
+
+Pulling the other agent's commits, the redaction gate reported two errors:
+
+    ERROR: PRIVACY LEAK brokers/email_marketing_services.md:21 contains a profile
+    value ('<forename>') - this repo is public. Redact it.
+
+*(The real message names the value. It is redacted here for the obvious reason, which
+is itself the third finding in this entry — see below.)*
+
+Line 21 names **Jonathan**, the ListMatch contact who has been more helpful than almost
+anyone else in this project (§211).
+
+**His first name contains the subject's forename as a substring.** The scanner matched
+on that. No leak. Two false positives.
+
+### Why this is worth fixing rather than shrugging at
+
+A gate that cries wolf gets overridden. That is not a hypothetical: §179 exists because
+a gate printed `GATE FAILED` and the commit ran anyway, and the fix was making the
+failure *mean* something. A gate that fails on correct files teaches whoever is
+standing at it — me, the other agent, a future reader — that its failures are noise. It
+would have taken two or three more of these before someone reached for `--no-verify`.
+
+It is also a live risk in a two-agent setup. The other agent wrote that file; I pulled
+it; my gate blocked *my* commit over *their* text. Neither of us can override the other's
+judgement quickly, and a false positive in that position is a deadlock rather than an
+annoyance.
+
+### The fix, and why it is bounded on one side only
+
+    re.search(r"(?<![A-Za-z])" + re.escape(t), line, re.I)
+
+The term must not be the tail of a longer word. `Jonathan` no longer matches; a name at
+the start of a token still does.
+
+**Only the leading side is bounded, and that is deliberate.** A trailing boundary would
+be tidier and would be tidier and would break the scanner. The shapes a real leak takes include the
+forename and surname *concatenated* into an email local-part, and the same pair
+camel-cased into a URL slug — and `\b` on the right rejects the first of those,
+because a lowercase letter follows. A miss here costs far more than a false positive,
+so the asymmetry is the whole point.
+
+Proved in both directions, which after §214b I do not skip:
+
+    the name written plainly                 -> caught
+    concatenated into an email local-part    -> caught
+    camel-cased into a URL slug              -> caught
+    hyphen-separated in a contact string     -> caught
+    the broker contact's name in the file    -> clean
+
+Four planted shapes caught, zero across the actual repository. **A clean run only means
+something once you have watched the thing fail on purpose.**
+
+### A note I am leaving alone
+
+The file names a broker's employee and his work address. That is a business contact the
+company publishes for this purpose, and it is his answers — group-wide suppression,
+stated plainly — that make §211 worth having. It is the other agent's editorial choice
+and I see no reason to overrule it. Recording that the gate's false positive was
+triggered by a *third party's* name rather than the subject's is the useful part: the
+scanner's terms come from one profile, and it has no concept of anyone else's.
+
+### And the entry above failed the gate on its first write
+
+Writing this up, I pasted the four test shapes verbatim — the name plainly, concatenated
+into an email local-part, camel-cased into a slug, hyphenated in a contact string. Every
+one is a real profile value. The gate caught **seven occurrences in my own findings
+file** and refused the commit.
+
+Which is exactly right, and worth recording as the third finding here rather than
+quietly fixed:
+
+**Writing about a leak reproduces the leak.** A document explaining what a personal
+identifier looks like will, if written carelessly, contain personal identifiers. The
+test cases that prove the scanner works are by construction the thing the scanner
+exists to find, and the same is true of quoting the scanner's own error message, which
+names the matched value.
+
+So the entry now describes the shapes instead of spelling them: *"concatenated into an
+email local-part"*, *"camel-cased into a URL slug"*. Slightly less vivid, and it costs
+nothing — a reader who needs the literal form can run the scanner.
+
+Three gate outcomes in one tick, and all three were correct: a false positive I fixed,
+a real block on my own draft, and a clean run afterwards. §179 rebuilt this gate after
+it printed a failure and let the commit through anyway. It is now the only thing in
+this project that has caught **both** agents.
