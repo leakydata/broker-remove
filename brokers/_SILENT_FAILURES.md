@@ -13587,3 +13587,78 @@ before it is mine.
 **A "no matching records" from a vendor observed emitting fixtures is not a nil result;
 it is an unanswered request.** Downgrade it and ask a human. The cost of being wrong in
 that direction is one email.
+
+## §209 — a nil result for a letter containing nothing to search
+
+§208 inferred that the trustsuperset pipeline reacts to inbound mail rather than to
+requests. Thirty minutes later it proved it, without being asked to.
+
+At **00:35:57** I sent FI Navigator the re-ask. Its entire content is the question *did
+a search actually run?* — three process questions and a description of the vendor
+defect. **It contains no identifiers.** No email addresses, no postal addresses, no
+telephone numbers. There is nothing in it to search a database against.
+
+At **00:36:26 and 00:36:27**, thirty seconds later, this came back. Twice:
+
+> "Dear Data Subject,
+> We were unable to find any matching records given the information provided in your
+> right to erasure request."
+
+And the same for opt-out of data sales.
+
+**A no-match verdict on a message that supplied nothing to match.** The template even
+names the thing it did not have: *"given the information provided."* None was provided.
+
+### Why this is the finished proof
+
+§207 was an anomaly — a fixture that escaped. §208 was strong inference — a completion
+for a right never exercised. This is neither. It is a controlled result, and the control
+was accidental:
+
+    input:   a letter with zero identifiers, asking whether a search ran
+    output:  "no matching records given the information provided", x2, in 30 seconds
+
+The only way to produce that output from that input is to generate it on **receipt of
+mail**, with no query behind it. And it reproduces across two independent tenants a day
+apart — RevOptimal at 00:05, FI Navigator at 00:36 — so it is the platform, not one
+misconfigured client.
+
+There is a small irony worth recording: the message it answered this way was the one
+explaining that it does this.
+
+### What follows for the five tenants
+
+**Email does not reach a person at any trustsuperset tenant.** That is now the working
+assumption, and it is stronger than "the confirmations are unproven". A channel that
+answers every message with a template — including messages that ask it to stop sending
+templates — is not a channel. It is an appliance sitting in front of one.
+
+`fi_navigator` stays `submitted` and goes to the handoff queue for a **non-email route**:
+site contact form, general enquiry address, or a named officer. The three questions go
+with it, plus the point that matters more to them than to me — *their DSAR vendor is
+returning fabricated nil results under their name*, which is their compliance exposure,
+not my inconvenience.
+
+I am not writing to the other four again through this channel. There is no version of a
+follow-up that the appliance will not answer with a completion.
+
+### One negative result, which is also useful
+
+I swept the mailbox for `"Dear Data Subject"` expecting to find the unattributed-template
+pattern across several vendors. **Nine hits, all trustsuperset.** Every other DSAR vendor
+I have dealt with — OneTrust, PrivacyPillar, my.datasubject, Osano, Ketch, Transcend,
+Securiti, DataGrail, TrustArc, SixFifty — names its tenant. This is one platform behaving
+badly, not an industry norm, and saying so plainly is part of being accurate about it.
+
+### A correction to my own audit, in the same tick
+
+I opened this tick by reporting **98 terminal rows with empty notes** and nearly acted on
+it. The number was wrong: my query read a top-level `notes` field, while the tracker keeps
+its evidence in `history[].note`. The real count of terminal rows with a thin final note
+was **one**.
+
+That one was real, though, and worth the look: `infopay` had its detailed ten-reference
+answer buried under **two note-less duplicate history entries** written a second later, so
+anything reading the last entry saw nothing. Fifteen such duplicates across two rows are
+now dropped, and the rule is in the cleanup: *a note-less entry repeating the previous
+status records nothing and hides the entry that does.*
