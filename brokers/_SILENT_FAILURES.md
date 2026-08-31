@@ -14507,3 +14507,86 @@ So the letter asks them to search instead: **they can search their own data with
 either of us adding to it.** That is the whole of the reasoning, and it belongs in the
 letter rather than in a note to myself, because a company reading it learns something
 about why the request is shaped the way it is.
+
+## §221 — declining one right and honouring the others anyway
+
+MaxMind replied to the GeoIP letter, and the reply is worth recording as a model, because
+it does something almost nobody does: **it takes the rights apart.**
+
+> "Based on the information that you provided, we have determined that you do not qualify
+> for CCPA, GDPR, or other similar privacy regulations. At this time, we are only providing
+> **right to know** requests to individuals who do qualify... MaxMind has **historically
+> provided deletion and opt-out rights to individuals** and below are the web forms..."
+
+Three separate things happen there, and the ordinary failure collapses all three into
+one:
+
+**They declined a specific right on a stated ground.** Not "your request cannot be
+processed" — the *right to know*, on residency. I am a Pennsylvania resident with no
+comprehensive state statute behind me, and I said so in my own letter. That reading is
+correct and I am not going to argue it.
+
+**They then honoured the other two anyway.** My letter asked that if they concluded no
+statute applied, they honour the request under their published policy and tell me which
+basis they applied. They did both. The common answer is *no statute applies*, full stop —
+which leaves the requester unable to distinguish a legal conclusion from a business
+decision, and §204's problem in reverse.
+
+**And they answered an unasked question:** *"MaxMind does not sell or share email
+addresses, names, phone numbers, or street addresses as part of its services or
+products."* Specific, checkable, and it disposes of the thing I was most likely to be
+wrong about.
+
+### What I pressed, and what I did not
+
+I acknowledged all three before asking anything, then pressed only the two that survive
+that sentence — neither answerable from a web form:
+
+**Sell-or-share is not hold.** Their sentence is about *selling*. Mine was about
+*holding*. minFraud accepts an email address, or its hash, and returns a risk assessment;
+if that produces or accumulates any stored value — a reputation score, a seen-before
+flag, a velocity counter, a fraud outcome fed back by a customer — then something keyed
+to me exists **and their sentence is still entirely true.** Both can hold at once, which
+is why the question needed asking again rather than dropping.
+
+A risk score attached to an email address is personal information the subject has no
+other way to discover. Nobody is told when one is created; it can affect whether a
+transaction is accepted; and if it is wrong, the person never learns why. So I asked them
+to hash the twelve addresses **themselves**, with their own normalisation, and say only
+whether any stored value exists. They have the function, I supplied the inputs, and
+neither of us has to trust my arithmetic.
+
+**The query log**, which is the part people miss. A lookup service's logs record what was
+queried, by which customer, and when. That is data about me which exists *because someone
+else asked about me* — not because I ever dealt with the company. I asked for the
+retention period and whether the queried value is kept in identifiable form.
+
+And I did not re-ask the fourth question. Their pointing me at a separate IP opt-out form
+is a fair answer to "what could removal even mean for a range-keyed dataset", and I said
+so. **I still have not sent them an IP address**, and said that too: I would rather leave
+that question permanently unanswered than hand a geolocation company a fresh,
+precisely-dated association between a network address and a named person. That is the
+§220 principle again — the research that would sharpen the letter is the same act the
+letter exists to prevent.
+
+### Two more replies the same afternoon, both good
+
+**PharosIQ upgraded its own answer.** On 20 August: *"the information you provided is not
+present."* On 31 August, unprompted: *"We have searched our database for all instances of
+your email address, name, phone number and address, but have been unable to identify any
+records relating to you."* The second **names the fields searched** rather than asserting
+a bare negative — the §198 shape, arrived at without being asked. Recorded as a clean nil.
+
+**AGR Marketing asked for better identifiers** rather than closing on a truthful email
+nil: *"We have not found your information in our databases by your email. Can you provide
+more information including your address and phone number — and we can conduct a more
+thorough search."* That is §215 a second time, and correct for a direct-mail file, which
+is address-keyed rather than inbox-keyed. Sixteen prior addresses and ten prior numbers
+went back.
+
+Which put the §193 limit at its sharpest yet. **In a mailing file, excluding a bare street
+address stops mail reaching that household** — so suppressing a former address of mine
+would suppress a stranger's home on my say-so. I told them that if the system can only
+exclude bare values, they should leave the former addresses alone and act on my current
+one: *I would rather stay in the file at fifteen old addresses than have fifteen
+households suppressed on my account.*

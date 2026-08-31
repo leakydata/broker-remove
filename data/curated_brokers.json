@@ -10588,12 +10588,13 @@
       "source": "optery",
       "optery_slug": "findwhocallsyou",
       "email_to": "contact@findwhocallsyou.com",
-      "email_verified": true,
-      "email_verified_by": "privacy_policy",
+      "email_verified": false,
+      "email_verified_by": "bounced",
       "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "listing_basis": "third_party_directory",
       "category": "people_search",
-      "category_source": "hand 2026-08-31 (phone lookup + community reports)"
+      "category_source": "hand 2026-08-31 (phone lookup + community reports)",
+      "email_verified_was": "privacy_policy"
     },
     {
       "id": "first_advantage",

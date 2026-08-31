@@ -222,7 +222,7 @@
   "agr_marketing_solutions": {
     "status": "submitted",
     "changed": "2026-08-16",
-    "via": "reply"
+    "via": "email"
   },
   "aidentified": {
     "status": "submitted",
@@ -1885,7 +1885,7 @@
     "via": "email"
   },
   "findwhocallsyou": {
-    "status": "submitted",
+    "status": "unreachable",
     "changed": "2026-08-31",
     "via": "email"
   },
@@ -2547,7 +2547,7 @@
   "intentgine": {
     "status": "not_found",
     "changed": "2026-08-23",
-    "via": "reply"
+    "via": "email"
   },
   "intentsify": {
     "status": "submitted",
