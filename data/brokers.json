@@ -19452,6 +19452,8 @@
       ],
       "legal_name": "Orgio, Inc.",
       "listing_basis": "state_register",
+      "category": "b2b_contact",
+      "category_source": "hand 2026-08-31 (org charts / professional profiles)",
       "route_evidence": "filed"
     },
     {
@@ -21659,6 +21661,8 @@
       "legal_name": null,
       "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (see _SILENT_FAILURES 170): CHECK BEFORE SENDING. zipstorm's domain now resolves to app.seekout.io ('Seekout: Discover and reach candidates faster'), with live MX. That is either an acquisition or a domain sale, and the two need opposite handling: an acquisition means write to SeekOut about ZipStorm-origin data, a domain sale means writing to SeekOut would be a letter to a stranger (157). The landing page is a JS app shell so there is no footer to read -- resolve it before sending.",
       "listing_basis": "state_register",
+      "category": "recruiting",
+      "category_source": "hand 2026-08-31 (SeekOut candidate database)",
       "route_evidence": "filed"
     },
     {
