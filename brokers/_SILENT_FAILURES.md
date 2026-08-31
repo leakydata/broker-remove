@@ -13815,9 +13815,11 @@ ancillary activity qualifies.** The homepage cannot tell me what that activity i
 neither can the register, which records that a company filed but not what it filed
 about.
 
-`onetrust.com` deserves its own line. The DSAR vendor named throughout
-`_FAMILIES.md` — whose portals I have submitted through repeatedly on other companies'
-behalf — is itself a registered California data broker.
+`onetrust.com` deserves its own line — **and the line I first wrote here was wrong.
+See §214.** I said the DSAR vendor named throughout `_FAMILIES.md` "is itself a
+registered California data broker". My own data does not say that. It says a
+third-party directory listed them; there is no registration year on the row for any
+state. The correction is below, and it went to OneTrust as well as into this file.
 
 ### Three consequences for the letters
 
@@ -13904,3 +13906,75 @@ There is a smaller lesson in it for me. The §210 letter was, I think, correct o
 four points and carefully made. Being right about the statute is not a lever. It is
 only a lever when somebody reads it, and nothing in a well-argued letter causes that
 to happen.
+
+## §214 — I said a company was a registered data broker. My own data does not say so.
+
+§212 sorted 53 uncategorisable rows and concluded they were *"registrants whose
+principal business is something else."* I then wrote, with some relish:
+
+> "`onetrust.com` deserves its own line. The DSAR vendor named throughout
+> `_FAMILIES.md` — whose portals I have submitted through repeatedly on other
+> companies' behalf — is itself a registered California data broker."
+
+I put it in the entry, repeated it in the commit message, said it out loud, and then
+**sent OneTrust a letter whose opening premise was that they appear on the California
+data broker register.**
+
+Then I checked the field I had never looked at.
+
+    residue cohort: 53
+      on a state register: 27
+      NOT on any register: 26   <- all sourced from a third-party broker directory
+
+OneTrust is in the second group. So are Thomson Reuters, Scribd, Prezi, MapQuest,
+Flexera, DomainTools, Equilar and eighteen others. **Their rows carry no registration
+year for any state.** They entered my list because a commercial compilation of data
+brokers named them — which is a third party's judgement, not a government filing.
+
+### What I actually did wrong
+
+Not the classification. The 26 are still uncategorisable and the §212 observation
+about broker vocabulary still holds. What I got wrong is **the evidential claim I
+hung on it**, and I got it wrong in the most avoidable way available: the data was
+already in the row, in a field called `registry_years`, and I did not look because the
+conclusion was pleasing.
+
+That is the exact failure I have spent this file cataloguing in other people. §202 was
+about a long note that was not an evidenced note. §192 was about checking an inference
+already written down as fact. This is one of mine, and it is worse than those, because
+I did not merely record it — **I asserted it to the company it was about.**
+
+### The correction
+
+A note to OneTrust went out within the hour, saying in terms that I do not have
+evidence they are a registered data broker, that I should not have said they are, that
+my letter built its whole framing on § 1798.99.80(c) with no basis to invoke it, and
+that if there is no registration then the question I asked them is void. §212 is
+corrected in place above rather than quietly edited.
+
+The two things in that letter which survive are the ones that never depended on the
+registration: an ordinary consumer request as to what they hold as a controller, and
+the question I said I valued more than the deletion — whether they hold data about me
+*only because my requests to their customers passed through their systems*, and how
+long that is kept. I am not asking them to delete it. It is simply a record about me
+that I created by exercising a right, and I had not counted it.
+
+### The rule this produces
+
+**A third-party directory is not a register, and the two must not share a sentence.**
+
+The distinction is now load-bearing for the whole residue cohort, because it splits the
+letters in half:
+
+    27 register-sourced   The §212 frame works. A company filed. "Which activity
+                          made that necessary" is a fair question with a real
+                          document behind it.
+
+    26 directory-sourced  The frame is void. Nobody filed anything. The honest
+                          opening is "a commercial directory lists you as a data
+                          broker; I cannot tell whether that is right, and if it
+                          is not, saying so is a complete answer."
+
+The second letter is a weaker letter, and it should be. The evidence behind it is
+weaker. Writing the strong version anyway is how I ended up sending OneTrust a claim I
+could not support.
