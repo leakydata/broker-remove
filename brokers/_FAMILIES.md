@@ -1451,6 +1451,29 @@ LightBox also loads Osano as its consent platform, so the two vendors sit side b
 side on the same site: Osano for the banner, datasubject for the rights request.
 Finding one does not tell you about the other.
 
+## trustsuperset.com (DSAR vendor, found 2026-08-30)
+
+Sends under the client's name -- the From line reads `"Privacy Team at revoptimal.com"
+<noreply@trustsuperset.com>` -- so the vendor is invisible unless you look at the
+envelope. Only one tenant confirmed so far:
+
+    revoptimal    noreply@trustsuperset.com, From-name "Privacy Team at revoptimal.com"
+
+**It emits test fixtures to real consumers.** A follow-up drew two replies one second
+apart: `E2E-NOTFOUND: No matching records for your opt-out request` with the body *"This
+is the 404-not-found email (e2e test)"*, and a `Confirmation: Your request has been
+completed` whose body was nothing but the vendor's homepage URL. They contradict each
+other. See _SILENT_FAILURES 207.
+
+Two strings worth grepping the mailbox for on every sweep, because either one identifies
+a tenant and a defective outcome at the same time:
+
+    E2E-
+    trustsuperset.com
+
+A "no matching records" from any tenant of this vendor should be treated as unproven
+until a human restates it, which is the opposite of how that message normally reads.
+
 ## Shared-infrastructure fingerprints (discovered 2026-08-29)
 
 Found by scanning every registry domain for identifiers that a white-label operator
