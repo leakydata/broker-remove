@@ -376,6 +376,34 @@ def main():
         # what they searched and what they found. The same standard has to apply
         # inward: a status is a claim, and a claim without its evidence is worth
         # what a broker's unelaborated confirmation is worth.
+        # THE FIELD THE CHECK READS AND THE FIELD I HAD BEEN WRITING DIVERGED.
+        #
+        # A tracker row has a top-level `note` -- what this check inspects, and what a
+        # human reads first -- and a `history` list, which is the log. My recording
+        # helpers appended to history and never touched `note`, so 152 rows had an
+        # EMPTY top-level note with everything in the log, and 70 more had a stale one
+        # that predated the outcome.
+        #
+        # It surfaced only when a terminal row was created that way, because the check
+        # below looks at terminal rows alone. Everything non-terminal drifted in silence.
+        # See _SILENT_FAILURES 225.
+        for _bid, _rec in state.items():
+            if not isinstance(_rec, dict):
+                continue
+            _hn = [(e.get("note") or "").strip()
+                   for e in (_rec.get("history") or []) if (e.get("note") or "").strip()]
+            if not _hn:
+                continue
+            _top = (_rec.get("note") or "").strip()
+            if not _top:
+                warnings.append(
+                    f"{_bid}: history has {len(_hn)} note(s) but the top-level `note` is "
+                    "empty - that is the field this validator and a human both read first")
+            elif _top != _hn[-1] and _hn[-1] not in _top:
+                warnings.append(
+                    f"{_bid}: top-level `note` is older than the last history entry - "
+                    "the log advanced and the summary did not")
+
         TERMINAL = {"not_found", "confirmed"}
         for bid, rec in state.items():
             if rec.get("status") not in TERMINAL:

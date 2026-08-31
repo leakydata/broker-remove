@@ -14869,3 +14869,71 @@ The tool goes in the repo with that caveat in its docstring. What it is good for
 next acquisition, not this one: it now runs in a minute across every closed row, and the
 whole point of §224 is that the moment to ask is during an integration rather than a year
 later, when the answer would be archaeology.
+
+## §225 — I was writing to the log and the check was reading the summary
+
+The Georgia Gazette answered in fifteen minutes, from the publisher personally:
+
+> "We are simply a news website and do not sell databases, lists, APIs, or the like."
+
+Exactly the answer §214's weak frame invites — I had written that *"that listing is wrong,
+we are a newspaper" is a complete answer*, and it was. I set the row to `not_found`, and
+the gate refused the commit:
+
+    ERROR: the_georgia_gazette: status 'not_found' is TERMINAL but its note is empty.
+
+The note was not empty. It was 632 characters long. **It was in the wrong field.**
+
+A tracker row has a top-level `note` — the summary, which §200's check inspects and which
+a human reads first — and a `history` list, which is the log. My recording helpers have
+been appending to `history` and never touching `note`.
+
+    top-level note: filled 152 empty, refreshed 70 stale
+
+**Two hundred and twenty-two rows.** A hundred and fifty-two had an empty summary with
+everything in the log; seventy more had a summary that predated the outcome it was
+supposed to describe.
+
+### Why it stayed hidden for two weeks
+
+§200's check only inspects **terminal** rows. Everything at `submitted` — which is 934 of
+1,155 — drifted in complete silence, and would have gone on drifting until each row
+closed.
+
+So the failure needed a specific coincidence to surface: a terminal row *created* by my
+helper rather than updated by the older tooling. `intentgine` went terminal today and
+passed, because it had a top-level note from weeks ago. The Georgia Gazette was the first
+row that was both new and closed.
+
+That is the same shape as §219 — a well-formed row that every downstream check looked at
+and found nothing to complain about — except this one is worse, because §219 was one typo
+and this is systematic. Every row I have touched since I started using that helper.
+
+### What I actually did wrong
+
+Not writing to history. History is right; the log should be complete and append-only.
+
+**I added a second place for the truth to live and only maintained one of them.** The
+older tooling wrote the summary. My helper wrote the log. Neither wrote both, and nothing
+compared them — so the field a reader sees first was quietly the least current thing in
+the file.
+
+`revoptimal` is the tell: its summary and its latest log entry are byte-identical at 1,383
+characters, because I happened to set both by hand that once. Every row where I used the
+helper diverged.
+
+### The fix, proved in both directions
+
+Backfilled all 222, and `validate.py` now warns on either divergence:
+
+    warn: t_mobile: history has 1 note(s) but the top-level `note` is empty - that is
+    the field this validator and a human both read first
+    warn: yieldmo: top-level `note` is older than the last history entry - the log
+    advanced and the summary did not
+
+Both proved by planting them and reverting — a clean run means nothing until the check has
+been watched to fire (§214b, §224a). Zero across the dataset afterwards.
+
+The general rule, which this project keeps rediscovering in new places: **two fields
+holding the same fact will diverge, and the one that diverges is the one nothing reads
+back.**

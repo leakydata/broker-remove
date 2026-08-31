@@ -5170,7 +5170,7 @@
     "via": null
   },
   "the_georgia_gazette": {
-    "status": "submitted",
+    "status": "not_found",
     "changed": "2026-08-31",
     "via": "email"
   },
@@ -5450,7 +5450,7 @@
     "via": "email"
   },
   "valassis_communications_inc_an_rrd": {
-    "status": "submitted",
+    "status": "email_pending",
     "changed": "2026-08-31",
     "via": "email"
   },
@@ -5675,8 +5675,8 @@
     "via": "email"
   },
   "windfall_data": {
-    "status": "submitted",
-    "changed": "2026-08-30",
+    "status": "manual_required",
+    "changed": "2026-08-31",
     "via": "email"
   },
   "wisconsin_arrests": {
