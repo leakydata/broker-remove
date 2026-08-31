@@ -14140,3 +14140,83 @@ is the most common route by which a truthful "no record found" turns out to be
 incomplete. It is §183 and §199 in a different costume. I said explicitly that I was
 not accusing them of it, because they had not told me they found nothing; they had told
 me to send a better identifier, which is the opposite thing.
+
+## §216 — the register lists one business three times, and I wrote to the dead one
+
+Yesterday's Valassis letter hard-bounced (§210). Going back for a working route, I
+looked at what the register actually contains for that name:
+
+    Valassis Communications, Inc.                        valassis.com   2020-2023
+    Valassis Communications, Inc., a Vericast Business    vericast.com   2024
+    Valassis Communications, Inc., an RRD Company         rrd.com        2020-2023, 2025, 2026
+
+**One operating business, three corporate parents, three separate registrations with
+three different contact addresses.** The 2024 Vericast filing sits as a single year
+between two RRD ones — an ownership excursion, recorded in the register and then
+reversed.
+
+I wrote to the Vericast address. It is the *only one of the three that is not current*,
+and its mailbox is dead. The live route — RRD — has been on the register continuously
+through 2026 and was sitting in my own data the entire time.
+
+### Why I picked the wrong one
+
+Not for any interesting reason. My rows are keyed by an id derived from the registered
+name, I iterated them in sort order, and `valassis_communications_inc_a_vericast_business`
+came up first. **Nothing in the selection looked at `registry_years`.** The field that
+distinguishes a current registrant from a lapsed one was present, populated, and
+unread — which is the same sentence as §214, four entries later, about a different
+field.
+
+### It is a pattern, not a one-off
+
+Grouping every registered row by name stem and looking for families spanning more than
+one domain found exactly two, and the second is the same shape:
+
+    BeenVerified, Inc. and its subsidiaries...   moneybot5000.com   2020-2023, 2025
+    BeenVerified                                 beenverified.com   2024
+    BeenVerified, LLC and its subsidiaries...    ltvco.com          2026
+
+Two registrations, two of them lapsed, current registrant `ltvco.com`. That family
+came out fine — all three rows are submitted and even the 2024 row routes to
+`legal@ltvco.com` — but that was luck rather than method.
+
+### The rule, and the guard
+
+**Pick the row with the latest registry year, not the name you recognise.** A lapsed
+filing's contact address is the one most likely to be dead, because nobody maintains a
+mailbox for a registration they no longer file. §205 and §206 established that register
+contacts rot; this narrows it usefully — **they rot fastest where the registration
+itself has stopped.**
+
+`validate.py` now warns on every lapsed member of a succession family and names the
+current registrant:
+
+    warn: [valassis_communications_inc_a_vericast_business]: lapsed registration
+    (['2024']) for a business still registered as ['valassis_communications_inc_an_rrd']
+    - prefer the current registrant's contact; a lapsed filing's address is the one
+    most likely to be dead
+
+Four warnings across the dataset, covering both families. All four are true.
+
+### The letter that went instead
+
+To RRD as current registrant, copying `privacy@valassis.com`, **covering all three
+names** — I cannot tell from outside where one wrapper ends and another begins, and a
+request answered for one while the records sit under another is half answered. It also
+tells them the address on their own 2024 filing bounces, which is their exposure rather
+than mine.
+
+And it **reverses my identifier policy**, deliberately. Everywhere else recently I have
+withheld postal addresses, because a platform keyed to cookies and device IDs cannot
+match on them (§195). Valassis is printed and mailed advertising: **the household
+address is the primary key.** So all sixteen prior addresses went, and the letter says
+outright that they are probably the most important lines in it. An email-only search
+there would return a false nil almost by construction.
+
+Which makes the §193 limit sharper than anywhere else it has appeared. Suppressing a
+bare street address in a *mailing* file would remove a stranger's household from their
+data on my say-so. So: suppress the association, not the value — and if the system can
+only exclude bare values, **leave the former addresses alone and act on the current one
+only.** I would rather remain in the file at four old addresses than have four
+households suppressed on my account.

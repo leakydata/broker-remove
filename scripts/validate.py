@@ -112,6 +112,36 @@ def main():
                 "is empty (listing_basis=" + str(_b.get("listing_basis")) + ") - verify "
                 "before any letter repeats it")
 
+    # SUCCESSION FAMILIES -- one operating business registered under several corporate
+    # parents across years, each row a different domain and contact. Picking a row by
+    # name recognition rather than by recency lands you on a lapsed filing whose address
+    # may since have died: the Valassis 2024 "a Vericast Business" contact hard-bounced,
+    # while the 2025-2026 "an RRD Company" row was live the whole time. See 216.
+    def _name_stem(n):
+        n = (n or "").lower()
+        n = re.split(r",|\ban?\b\s+\w+\s+(?:company|business)|\bllc\b|\binc\b|\bcorp", n)[0]
+        return re.sub(r"[^a-z0-9]+", " ", n).strip()
+
+    def _latest_year(b):
+        ys = b.get("registry_years") or []
+        return max((int(y[-4:]) for y in ys if y[-4:].isdigit()), default=0)
+
+    _fam = {}
+    for _b in brokers:
+        if _b.get("registry_years") and _name_stem(_b.get("name")):
+            _fam.setdefault(_name_stem(_b["name"]), []).append(_b)
+    for _stem, _rows in _fam.items():
+        if len(_rows) < 2 or len({r["domain"] for r in _rows}) < 2:
+            continue
+        _newest = max(_latest_year(r) for r in _rows)
+        for _b in _rows:
+            if _latest_year(_b) < _newest:
+                _cur = [r["id"] for r in _rows if _latest_year(r) == _newest]
+                warnings.append(
+                    f"[{_b['id']}]: lapsed registration ({_b.get('registry_years')}) for a "
+                    f"business still registered as {_cur} - prefer the current registrant's "
+                    "contact; a lapsed filing's address is the one most likely to be dead")
+
     seen_ids, seen_domains = {}, {}
     for i, b in enumerate(brokers):
         where = f"[{i}] {b.get('id', '<no id>')}"
