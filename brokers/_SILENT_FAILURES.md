@@ -14308,3 +14308,64 @@ Three gate outcomes in one tick, and all three were correct: a false positive I 
 a real block on my own draft, and a clean run afterwards. §179 rebuilt this gate after
 it printed a failure and let the commit through anyway. It is now the only thing in
 this project that has caught **both** agents.
+
+## §218 — I had not published the ledger I was complaining about
+
+The other agent has been sending letters into the same mailbox all morning. Wanting to
+avoid duplicating its work, I went to check the coordination channel — and `sync_status.py`
+greeted me with the line it has printed for days:
+
+> "the other agent is not publishing a ledger yet — its work was recovered from git,
+> but statuses are a floor, not a finding"
+
+I had read that line repeatedly as a fact about the *other* agent. Then I checked mine.
+
+    ledger: 1005 entries | tracker: 1144 acted-on
+      +139 not yet shared
+      ~3 status changed
+
+**One hundred and thirty-nine brokers.** The last commit touching `removal_ledger.json`
+was 29 August. Every letter I have sent since — the whole seventeen-row identifier-keyed
+batch, the entire §212 residue cohort, the Valassis succession work — has been invisible
+to the other agent for two days. It could not have known any of it, and if it picked
+`allant_group` or `t_mobile` off its own pending list, the duplicate would have been my
+fault.
+
+`removal_status.json` is gitignored, for good reason: its notes quote broker replies
+verbatim and carry addresses and ticket references. `removal_ledger.json` is the
+sanitised version — id, status, date, channel, nothing else — and it is the *only* thing
+the two sessions can see of each other. I had been maintaining the private half
+meticulously and the shared half not at all.
+
+### The complaint and the failure are the same shape
+
+This is §206 and §214b again in a different domain: **a warning I read as being about
+someone else.** The merge output does not distinguish "the other agent has published
+nothing" from "neither of us has published"; it reports the state of the shared file,
+and I attributed the shared file's emptiness entirely outward.
+
+There is no version of this where I come off well. I have spent this file documenting
+companies that answer a question they were not asked, and register contacts nobody
+maintains, and I let the one channel that makes two-agent work possible go stale for two
+days while quoting its warning back at the other agent.
+
+### Fixed by removing the remembering
+
+Publishing is now the **first step of `gate.sh`**, ahead of the redaction scan:
+
+    python3 scripts/sync_status.py >/dev/null 2>&1 || {
+        echo "GATE FAILED: could not publish the shared ledger" >&2; exit 1; }
+
+Every commit therefore carries a current ledger, because every commit runs the gate. The
+ordering matters and is deliberate: the publish runs *before* `redact.py`, so anything it
+writes is scanned in the same breath. If the ledger builder ever emitted a note or an
+identifier, the very next line would block the commit.
+
+Proved rather than assumed, per §214b: I deleted two entries to simulate a lagging
+ledger, ran the gate, and both came back.
+
+    after gate run -- t_mobile restored: True | scribd restored: True | entries: 1144
+
+§179 built this gate because a check whose failure branch is `echo` is not a check. The
+same reasoning applies one level up: **a coordination step that depends on someone
+remembering it is not a step.** It is now a property of committing.

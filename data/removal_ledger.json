@@ -92,7 +92,7 @@
   "ach_address_clearing_house": {
     "status": "submitted",
     "changed": "2026-08-16",
-    "via": null
+    "via": "reply"
   },
   "acquire_media_u_s": {
     "status": "submitted",
@@ -177,7 +177,7 @@
   "adttribution": {
     "status": "submitted",
     "changed": "2026-08-16",
-    "via": null
+    "via": "reply"
   },
   "advancedbackgroundchecks": {
     "status": "submitted",
@@ -222,12 +222,12 @@
   "agr_marketing_solutions": {
     "status": "submitted",
     "changed": "2026-08-16",
-    "via": null
+    "via": "reply"
   },
   "aidentified": {
     "status": "submitted",
     "changed": "2026-08-16",
-    "via": null
+    "via": "reply"
   },
   "airlines_reporting": {
     "status": "submitted",
@@ -284,10 +284,20 @@
     "changed": "2026-08-24",
     "via": null
   },
+  "allant_group": {
+    "status": "submitted",
+    "changed": "2026-08-31",
+    "via": "email"
+  },
   "alliant": {
     "status": "confirmed",
     "changed": "2026-08-20",
     "via": "web"
+  },
+  "alliant_cooperative_data_solutions": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
   },
   "allpeople": {
     "status": "submitted",
@@ -303,6 +313,11 @@
     "status": "confirmed",
     "changed": "2026-08-24",
     "via": null
+  },
+  "amedisys": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
   },
   "american_city_business_journals": {
     "status": "submitted",
@@ -332,6 +347,11 @@
   "andrews_wharton": {
     "status": "not_found",
     "changed": "2026-08-19",
+    "via": null
+  },
+  "anexinet": {
+    "status": "submitted",
+    "changed": "2026-08-30",
     "via": null
   },
   "ansonia_credit_data": {
@@ -374,6 +394,11 @@
     "changed": "2026-08-24",
     "via": null
   },
+  "appscience": {
+    "status": "submitted",
+    "changed": "2026-08-30",
+    "via": null
+  },
   "aristotle_international": {
     "status": "submitted",
     "changed": "2026-08-24",
@@ -414,6 +439,11 @@
     "changed": "2026-08-16",
     "via": null
   },
+  "asl_marketing": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
+  },
   "aspire_north": {
     "status": "submitted",
     "changed": "2026-08-17",
@@ -432,12 +462,17 @@
   "atlantic_fox_technologies": {
     "status": "submitted",
     "changed": "2026-08-24",
-    "via": null
+    "via": "reply"
   },
   "atlas": {
     "status": "submitted",
     "changed": "2026-08-24",
     "via": null
+  },
+  "atlas_influence_targeting": {
+    "status": "manual_required",
+    "changed": "2026-08-29",
+    "via": "email"
   },
   "atozacademics": {
     "status": "submitted",
@@ -472,7 +507,7 @@
   "audiencepoint": {
     "status": "submitted",
     "changed": "2026-08-24",
-    "via": null
+    "via": "email"
   },
   "audiencerate": {
     "status": "submitted",
@@ -487,6 +522,11 @@
   "austin_consolidated": {
     "status": "submitted",
     "changed": "2026-08-26",
+    "via": "email"
+  },
+  "autodata_solutions": {
+    "status": "submitted",
+    "changed": "2026-08-29",
     "via": "email"
   },
   "automotive_mastermind": {
@@ -574,6 +614,11 @@
     "changed": "2026-08-15",
     "via": "reply"
   },
+  "beenverified_inc_and_its_subsidiaries_and_affiliates": {
+    "status": "submitted",
+    "changed": "2026-08-30",
+    "via": "email"
+  },
   "beenverified_llc_and_its_subsidiaries_and_affiliates": {
     "status": "submitted",
     "changed": "2026-08-25",
@@ -644,6 +689,11 @@
     "changed": "2026-08-25",
     "via": null
   },
+  "bliss_point_media": {
+    "status": "submitted",
+    "changed": "2026-08-30",
+    "via": "email"
+  },
   "blue_action": {
     "status": "submitted",
     "changed": "2026-08-17",
@@ -677,7 +727,7 @@
   "bombora": {
     "status": "submitted",
     "changed": "2026-08-21",
-    "via": "email"
+    "via": "reply"
   },
   "bookyourdata": {
     "status": "not_found",
@@ -718,6 +768,11 @@
     "status": "submitted",
     "changed": "2026-08-17",
     "via": null
+  },
+  "buildertrend_solutions": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
   },
   "builtwith": {
     "status": "not_found",
@@ -874,6 +929,11 @@
     "changed": "2026-08-20",
     "via": "reply"
   },
+  "checksecrets_peoplesearchusa_inmate_searcher_sealedrecords": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
+  },
   "choreograph": {
     "status": "submitted",
     "changed": "2026-08-17",
@@ -1019,6 +1079,11 @@
     "changed": "2026-08-25",
     "via": null
   },
+  "compact_information_systems": {
+    "status": "submitted",
+    "changed": "2026-08-30",
+    "via": null
+  },
   "compile": {
     "status": "submitted",
     "changed": "2026-08-17",
@@ -1033,6 +1098,11 @@
     "status": "submitted",
     "changed": "2026-08-25",
     "via": "reply"
+  },
+  "comscore": {
+    "status": "submitted",
+    "changed": "2026-08-31",
+    "via": "email"
   },
   "confidentialphonelookup": {
     "status": "submitted",
@@ -1124,6 +1194,11 @@
     "changed": "2026-08-17",
     "via": "reply"
   },
+  "courtrec_com": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
+  },
   "courtrecords_us": {
     "status": "submitted",
     "changed": "2026-08-16",
@@ -1162,7 +1237,7 @@
   "criteo": {
     "status": "submitted",
     "changed": "2026-08-21",
-    "via": "email"
+    "via": "reply"
   },
   "cross_pixel": {
     "status": "submitted",
@@ -1192,6 +1267,11 @@
   "customer_communications": {
     "status": "unreachable",
     "changed": "2026-08-28",
+    "via": "email"
+  },
+  "cybba": {
+    "status": "submitted",
+    "changed": "2026-08-31",
     "via": "email"
   },
   "cyberbackgroundchecks": {
@@ -1362,7 +1442,7 @@
   "deep_sync": {
     "status": "submitted",
     "changed": "2026-08-17",
-    "via": "email"
+    "via": "reply"
   },
   "deeptrace": {
     "status": "submitted",
@@ -1384,10 +1464,20 @@
     "changed": "2026-08-16",
     "via": null
   },
+  "delivr_ai": {
+    "status": "submitted",
+    "changed": "2026-08-30",
+    "via": null
+  },
   "deloitte_consulting": {
     "status": "submitted",
     "changed": "2026-08-28",
     "via": null
+  },
+  "deloitte_financial_advisory_services": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
   },
   "deluxe": {
     "status": "submitted",
@@ -1397,7 +1487,7 @@
   "demandbase": {
     "status": "submitted",
     "changed": "2026-08-25",
-    "via": null
+    "via": "email"
   },
   "demandscience": {
     "status": "submitted",
@@ -1519,6 +1609,11 @@
     "changed": "2026-08-18",
     "via": "web"
   },
+  "dun_and_bradstreet": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
+  },
   "dynata": {
     "status": "submitted",
     "changed": "2026-08-18",
@@ -1572,7 +1667,7 @@
   "email_marketing_services": {
     "status": "confirmed",
     "changed": "2026-08-28",
-    "via": "reply"
+    "via": "email"
   },
   "emailmovers": {
     "status": "submitted",
@@ -1657,6 +1752,11 @@
   "everconnect": {
     "status": "submitted",
     "changed": "2026-08-26",
+    "via": "email"
+  },
+  "everleads_listsonline_internet_directory_publishers_stanford": {
+    "status": "submitted",
+    "changed": "2026-08-30",
     "via": "email"
   },
   "evertrue_donorsearch": {
@@ -1756,8 +1856,13 @@
   },
   "fi_navigator": {
     "status": "not_found",
-    "changed": "2026-08-27",
-    "via": null
+    "changed": "2026-08-31",
+    "via": "email"
+  },
+  "findaneighborhood": {
+    "status": "captcha_blocked",
+    "changed": "2026-08-29",
+    "via": "email"
   },
   "findem": {
     "status": "confirmed",
@@ -1929,6 +2034,11 @@
     "changed": "2026-08-18",
     "via": "email"
   },
+  "fullcontact": {
+    "status": "submitted",
+    "changed": "2026-08-31",
+    "via": "email"
+  },
   "fusable": {
     "status": "failed",
     "changed": "2026-08-28",
@@ -2012,7 +2122,7 @@
   "graph8": {
     "status": "submitted",
     "changed": "2026-08-28",
-    "via": "reply"
+    "via": "email"
   },
   "grassroots_analytics": {
     "status": "submitted",
@@ -2125,9 +2235,9 @@
     "via": null
   },
   "healthwise_data": {
-    "status": "submitted",
-    "changed": "2026-08-27",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-08-31",
+    "via": "email"
   },
   "heartbeat_ai": {
     "status": "submitted",
@@ -2159,6 +2269,11 @@
     "changed": "2026-08-18",
     "via": "email"
   },
+  "hireright": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
+  },
   "hivestack": {
     "status": "submitted",
     "changed": "2026-08-28",
@@ -2172,6 +2287,11 @@
   "hubspot": {
     "status": "manual_required",
     "changed": "2026-08-28",
+    "via": "email"
+  },
+  "hunt_club": {
+    "status": "submitted",
+    "changed": "2026-08-30",
     "via": "email"
   },
   "hybrid_theory": {
@@ -2279,6 +2399,11 @@
     "changed": "2026-08-16",
     "via": null
   },
+  "infillion": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
+  },
   "infinite_media_concepts": {
     "status": "submitted",
     "changed": "2026-08-28",
@@ -2293,6 +2418,11 @@
     "status": "submitted",
     "changed": "2026-08-18",
     "via": "web"
+  },
+  "infomatics": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
   },
   "infopay": {
     "status": "not_found",
@@ -2384,6 +2514,11 @@
     "changed": "2026-08-27",
     "via": "reply"
   },
+  "intelius_us_search_us_search_pro": {
+    "status": "submitted",
+    "changed": "2026-08-30",
+    "via": "email"
+  },
   "intent_iq": {
     "status": "manual_required",
     "changed": "2026-08-28",
@@ -2437,6 +2572,11 @@
   "iqvia": {
     "status": "submitted",
     "changed": "2026-08-28",
+    "via": "email"
+  },
+  "iqvia_digital": {
+    "status": "submitted",
+    "changed": "2026-08-29",
     "via": "email"
   },
   "irys": {
@@ -2549,9 +2689,19 @@
     "changed": "2026-08-18",
     "via": "email"
   },
+  "kidslivesafe_com_quickpublicrecords_com": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
+  },
   "kind_skiptracing": {
     "status": "submitted",
     "changed": "2026-08-28",
+    "via": "email"
+  },
+  "kindsight": {
+    "status": "submitted",
+    "changed": "2026-08-29",
     "via": "email"
   },
   "klarifi": {
@@ -2577,6 +2727,11 @@
   "kyc_data": {
     "status": "submitted",
     "changed": "2026-08-18",
+    "via": "email"
+  },
+  "l2": {
+    "status": "submitted",
+    "changed": "2026-08-29",
     "via": "email"
   },
   "l2_data": {
@@ -2622,6 +2777,11 @@
   "leadpost": {
     "status": "manual_required",
     "changed": "2026-08-18",
+    "via": "email"
+  },
+  "leadsherpa": {
+    "status": "manual_required",
+    "changed": "2026-08-29",
     "via": "email"
   },
   "leadsmarket_com": {
@@ -2688,6 +2848,11 @@
     "status": "manual_required",
     "changed": "2026-08-28",
     "via": "reply"
+  },
+  "lightcast": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
   },
   "lighthouse_list": {
     "status": "not_found",
@@ -2791,7 +2956,7 @@
   },
   "lotame": {
     "status": "submitted",
-    "changed": "2026-08-21",
+    "changed": "2026-08-30",
     "via": "email"
   },
   "louisiana_arrests": {
@@ -2804,10 +2969,20 @@
     "changed": "2026-08-16",
     "via": null
   },
+  "lucid": {
+    "status": "submitted",
+    "changed": "2026-08-30",
+    "via": null
+  },
   "lusha": {
     "status": "submitted",
     "changed": "2026-08-23",
     "via": null
+  },
+  "lusha_systems": {
+    "status": "submitted",
+    "changed": "2026-08-30",
+    "via": "email"
   },
   "m1_data": {
     "status": "submitted",
@@ -2833,6 +3008,11 @@
     "status": "submitted",
     "changed": "2026-08-18",
     "via": "email"
+  },
+  "mailinglists_com": {
+    "status": "submitted",
+    "changed": "2026-08-30",
+    "via": null
   },
   "maine_arrests": {
     "status": "submitted",
@@ -3104,6 +3284,11 @@
     "changed": "2026-08-19",
     "via": "reply"
   },
+  "monitorbase": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
+  },
   "monocl": {
     "status": "submitted",
     "changed": "2026-08-29",
@@ -3129,6 +3314,11 @@
     "changed": "2026-08-25",
     "via": null
   },
+  "mortgage_rates_pro_online_mortgage_loans_best_auto_insurance": {
+    "status": "submitted",
+    "changed": "2026-08-30",
+    "via": "email"
+  },
   "mr": {
     "status": "not_found",
     "changed": "2026-08-20",
@@ -3137,7 +3327,7 @@
   "mrss": {
     "status": "not_found",
     "changed": "2026-08-22",
-    "via": null
+    "via": "reply"
   },
   "mugshotlook": {
     "status": "confirmed",
@@ -3316,7 +3506,7 @@
   },
   "nexxen": {
     "status": "submitted",
-    "changed": "2026-08-29",
+    "changed": "2026-08-30",
     "via": "email"
   },
   "nfocus": {
@@ -3474,6 +3664,16 @@
     "changed": "2026-08-19",
     "via": "email"
   },
+  "onetrust": {
+    "status": "submitted",
+    "changed": "2026-08-31",
+    "via": "email"
+  },
+  "online_advertising_network_sp_z_o_o": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
+  },
   "onpoint_data_strategy": {
     "status": "submitted",
     "changed": "2026-08-29",
@@ -3508,6 +3708,11 @@
     "status": "manual_required",
     "changed": "2026-08-28",
     "via": "reply"
+  },
+  "optimal_fusion": {
+    "status": "submitted",
+    "changed": "2026-08-31",
+    "via": "email"
   },
   "oracle_datacloud": {
     "status": "submitted",
@@ -3712,7 +3917,7 @@
   "permutive": {
     "status": "not_found",
     "changed": "2026-08-28",
-    "via": null
+    "via": "email"
   },
   "persistent_id": {
     "status": "submitted",
@@ -3761,7 +3966,7 @@
   },
   "pipl": {
     "status": "not_found",
-    "changed": "2026-08-23",
+    "changed": "2026-08-30",
     "via": "email"
   },
   "pitchbook": {
@@ -3780,14 +3985,14 @@
     "via": "email"
   },
   "plug_industries": {
-    "status": "submitted",
-    "changed": "2026-08-28",
-    "via": null
+    "status": "not_found",
+    "changed": "2026-08-29",
+    "via": "reply"
   },
   "plunge_digital": {
     "status": "confirmed",
-    "changed": "2026-08-28",
-    "via": null
+    "changed": "2026-08-30",
+    "via": "reply"
   },
   "pmg_worldwide": {
     "status": "manual_required",
@@ -3824,12 +4029,22 @@
     "changed": "2026-08-19",
     "via": "email"
   },
+  "precisely_software_placeiq": {
+    "status": "submitted",
+    "changed": "2026-08-30",
+    "via": null
+  },
   "preferred_communications": {
     "status": "submitted",
     "changed": "2026-08-28",
     "via": null
   },
   "preqin": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
+  },
+  "private_reports_mugshot_look_public_searcher": {
     "status": "submitted",
     "changed": "2026-08-29",
     "via": "email"
@@ -3939,6 +4154,11 @@
     "changed": "2026-08-20",
     "via": null
   },
+  "publicnsa_llc_dba_bigdbm": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
+  },
   "publicrecordcom": {
     "status": "confirmed",
     "changed": "2026-08-27",
@@ -3947,6 +4167,11 @@
   "publicrecords_com": {
     "status": "submitted",
     "changed": "2026-08-18",
+    "via": "email"
+  },
+  "publicrecords_info": {
+    "status": "submitted",
+    "changed": "2026-08-29",
     "via": "email"
   },
   "publicrecords_us": {
@@ -3984,6 +4209,11 @@
     "changed": "2026-08-19",
     "via": "email"
   },
+  "quantcast": {
+    "status": "submitted",
+    "changed": "2026-08-30",
+    "via": "email"
+  },
   "quick_people_trace": {
     "status": "not_found",
     "changed": "2026-08-19",
@@ -4015,9 +4245,9 @@
     "via": "email"
   },
   "rampedup": {
-    "status": "manual_required",
-    "changed": "2026-08-27",
-    "via": "web"
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
   },
   "rategain_adara": {
     "status": "submitted",
@@ -4114,10 +4344,20 @@
     "changed": "2026-08-19",
     "via": "email"
   },
+  "redmob": {
+    "status": "submitted",
+    "changed": "2026-08-30",
+    "via": null
+  },
   "referenceguru": {
     "status": "submitted",
     "changed": "2026-08-26",
     "via": "email"
+  },
+  "refinition": {
+    "status": "submitted",
+    "changed": "2026-08-30",
+    "via": null
   },
   "rehold": {
     "status": "unreachable",
@@ -4128,6 +4368,11 @@
     "status": "submitted",
     "changed": "2026-08-25",
     "via": null
+  },
+  "reklaim": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
   },
   "relationship_science": {
     "status": "submitted",
@@ -4164,10 +4409,20 @@
     "changed": "2026-08-26",
     "via": "reply"
   },
+  "response_solutions": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
+  },
   "retention_com": {
     "status": "confirmed",
     "changed": "2026-08-19",
     "via": "reply"
+  },
+  "retention_com_rb2b": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
   },
   "rev": {
     "status": "submitted",
@@ -4194,6 +4449,11 @@
     "changed": "2026-08-26",
     "via": "reply"
   },
+  "revenue_roll": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
+  },
   "revenuebase": {
     "status": "submitted",
     "changed": "2026-08-28",
@@ -4208,6 +4468,11 @@
     "status": "submitted",
     "changed": "2026-08-18",
     "via": "email"
+  },
+  "revoptimal": {
+    "status": "confirmed",
+    "changed": "2026-08-30",
+    "via": "reply"
   },
   "rhetorik": {
     "status": "submitted",
@@ -4224,6 +4489,11 @@
     "changed": "2026-08-16",
     "via": null
   },
+  "rich_media": {
+    "status": "submitted",
+    "changed": "2026-08-30",
+    "via": null
+  },
   "ripple_effect_strategies": {
     "status": "submitted",
     "changed": "2026-08-28",
@@ -4238,6 +4508,11 @@
     "status": "submitted",
     "changed": "2026-08-21",
     "via": "email"
+  },
+  "rooftop_digital": {
+    "status": "submitted",
+    "changed": "2026-08-30",
+    "via": null
   },
   "ror_partners": {
     "status": "submitted",
@@ -4289,6 +4564,11 @@
     "changed": "2026-08-26",
     "via": "email"
   },
+  "salutary_data": {
+    "status": "submitted",
+    "changed": "2026-08-30",
+    "via": null
+  },
   "samba_tv": {
     "status": "submitted",
     "changed": "2026-08-28",
@@ -4319,9 +4599,19 @@
     "changed": "2026-08-26",
     "via": null
   },
+  "scribd": {
+    "status": "submitted",
+    "changed": "2026-08-31",
+    "via": "email"
+  },
   "sealedrecords": {
     "status": "submitted",
     "changed": "2026-08-20",
+    "via": "email"
+  },
+  "seamless": {
+    "status": "submitted",
+    "changed": "2026-08-29",
     "via": "email"
   },
   "seamless_ai": {
@@ -4342,7 +4632,7 @@
   "searchpeoplefree_net": {
     "status": "submitted",
     "changed": "2026-08-20",
-    "via": null
+    "via": "reply"
   },
   "searchpublicrecords_com": {
     "status": "submitted",
@@ -4409,6 +4699,16 @@
     "changed": "2026-08-20",
     "via": null
   },
+  "sharethrough": {
+    "status": "submitted",
+    "changed": "2026-08-30",
+    "via": null
+  },
+  "sheerid": {
+    "status": "submitted",
+    "changed": "2026-08-30",
+    "via": "reply"
+  },
   "sheriffsdepartment_net": {
     "status": "submitted",
     "changed": "2026-08-18",
@@ -4419,15 +4719,50 @@
     "changed": "2026-08-20",
     "via": "web"
   },
+  "similarweb": {
+    "status": "submitted",
+    "changed": "2026-08-30",
+    "via": null
+  },
   "simiocloud": {
     "status": "captcha_blocked",
     "changed": "2026-08-20",
     "via": null
   },
+  "site_impact": {
+    "status": "submitted",
+    "changed": "2026-08-30",
+    "via": null
+  },
+  "skydeo": {
+    "status": "manual_required",
+    "changed": "2026-08-30",
+    "via": null
+  },
+  "skyhook_holding": {
+    "status": "submitted",
+    "changed": "2026-08-30",
+    "via": null
+  },
+  "slashdot_media": {
+    "status": "submitted",
+    "changed": "2026-08-30",
+    "via": "email"
+  },
+  "slashdot_media_sourceforge_voipreview_slashdot_linux_journal": {
+    "status": "submitted",
+    "changed": "2026-08-30",
+    "via": "email"
+  },
   "sma_communications": {
     "status": "unreachable",
     "changed": "2026-08-29",
     "via": "email"
+  },
+  "smarte": {
+    "status": "submitted",
+    "changed": "2026-08-30",
+    "via": null
   },
   "smartmove": {
     "status": "submitted",
@@ -4444,10 +4779,30 @@
     "changed": "2026-08-23",
     "via": null
   },
+  "socialgist": {
+    "status": "submitted",
+    "changed": "2026-08-30",
+    "via": "email"
+  },
+  "socialgist_boardreader": {
+    "status": "submitted",
+    "changed": "2026-08-30",
+    "via": "email"
+  },
+  "sojern": {
+    "status": "submitted",
+    "changed": "2026-08-30",
+    "via": null
+  },
   "solar_direct_marketing": {
     "status": "submitted",
     "changed": "2026-08-28",
     "via": "email"
+  },
+  "source_path_digital": {
+    "status": "submitted",
+    "changed": "2026-08-30",
+    "via": null
   },
   "sourceit": {
     "status": "confirmed",
@@ -4479,6 +4834,21 @@
     "changed": "2026-08-16",
     "via": null
   },
+  "sovrn": {
+    "status": "submitted",
+    "changed": "2026-08-30",
+    "via": null
+  },
+  "specialists_marketing_services": {
+    "status": "submitted",
+    "changed": "2026-08-30",
+    "via": "reply"
+  },
+  "spectrum_data": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
+  },
   "spectrum_mailing_lists": {
     "status": "submitted",
     "changed": "2026-08-20",
@@ -4493,6 +4863,21 @@
     "status": "submitted",
     "changed": "2026-08-15",
     "via": "reply"
+  },
+  "spokeo_com_freepeopledirectory_com_thatsthem_com_peoplewin_c": {
+    "status": "submitted",
+    "changed": "2026-08-30",
+    "via": "email"
+  },
+  "sports_innovation_lab": {
+    "status": "submitted",
+    "changed": "2026-08-31",
+    "via": null
+  },
+  "sprout_social": {
+    "status": "submitted",
+    "changed": "2026-08-31",
+    "via": null
   },
   "spycloud": {
     "status": "submitted",
@@ -4509,9 +4894,29 @@
     "changed": "2026-08-20",
     "via": "email"
   },
+  "spyfly_com_publicrecordreports_com": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
+  },
+  "stackadapt": {
+    "status": "submitted",
+    "changed": "2026-08-30",
+    "via": "email"
+  },
   "staircase": {
     "status": "unreachable",
     "changed": "2026-08-20",
+    "via": "email"
+  },
+  "start_io": {
+    "status": "submitted",
+    "changed": "2026-08-30",
+    "via": "email"
+  },
+  "stat_resource_group_llc_dba_statlistics": {
+    "status": "submitted",
+    "changed": "2026-08-30",
     "via": "email"
   },
   "statara": {
@@ -4529,9 +4934,19 @@
     "changed": "2026-08-26",
     "via": "email"
   },
+  "staterecords_courtrecords": {
+    "status": "submitted",
+    "changed": "2026-08-30",
+    "via": "email"
+  },
   "staterecords_org": {
     "status": "submitted",
     "changed": "2026-08-20",
+    "via": "email"
+  },
+  "statsocial": {
+    "status": "submitted",
+    "changed": "2026-08-30",
     "via": "email"
   },
   "step2success_marketing": {
@@ -4549,10 +4964,20 @@
     "changed": "2026-08-20",
     "via": "email"
   },
+  "sterling_data": {
+    "status": "submitted",
+    "changed": "2026-08-31",
+    "via": null
+  },
   "stirista": {
     "status": "not_found",
     "changed": "2026-08-19",
     "via": null
+  },
+  "stirista_123push_lbdigital_media_source_solutions_customer_p": {
+    "status": "submitted",
+    "changed": "2026-08-30",
+    "via": "reply"
   },
   "strata": {
     "status": "submitted",
@@ -4569,9 +4994,34 @@
     "changed": "2026-08-24",
     "via": "email"
   },
+  "subgraph": {
+    "status": "submitted",
+    "changed": "2026-08-31",
+    "via": null
+  },
+  "supplier_io": {
+    "status": "submitted",
+    "changed": "2026-08-31",
+    "via": null
+  },
+  "swoop_com": {
+    "status": "submitted",
+    "changed": "2026-08-30",
+    "via": "email"
+  },
   "sync_me": {
     "status": "confirmed",
     "changed": "2026-08-25",
+    "via": "email"
+  },
+  "t_mobile": {
+    "status": "submitted",
+    "changed": "2026-08-31",
+    "via": "email"
+  },
+  "taboola": {
+    "status": "submitted",
+    "changed": "2026-08-30",
     "via": "email"
   },
   "tandem_marketing": {
@@ -4583,6 +5033,16 @@
     "status": "manual_required",
     "changed": "2026-08-20",
     "via": "web"
+  },
+  "targetsmart_communications": {
+    "status": "submitted",
+    "changed": "2026-08-31",
+    "via": null
+  },
+  "tauxbe_data": {
+    "status": "submitted",
+    "changed": "2026-08-31",
+    "via": null
   },
   "td_cowen": {
     "status": "submitted",
@@ -4603,6 +5063,11 @@
     "status": "submitted",
     "changed": "2026-08-20",
     "via": "email"
+  },
+  "telesign": {
+    "status": "submitted",
+    "changed": "2026-08-31",
+    "via": null
   },
   "tennessee_arrests": {
     "status": "submitted",
@@ -4639,15 +5104,60 @@
     "changed": "2026-08-15",
     "via": null
   },
+  "the_autominer_trupayments_purecars": {
+    "status": "manual_required",
+    "changed": "2026-08-30",
+    "via": "email"
+  },
   "the_bridge": {
     "status": "submitted",
     "changed": "2026-08-20",
     "via": "email"
   },
+  "the_data": {
+    "status": "submitted",
+    "changed": "2026-08-31",
+    "via": null
+  },
+  "the_org": {
+    "status": "submitted",
+    "changed": "2026-08-31",
+    "via": "email"
+  },
+  "the_people_searchers": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
+  },
+  "the_swarm": {
+    "status": "submitted",
+    "changed": "2026-08-31",
+    "via": null
+  },
   "thepublicindex": {
     "status": "submitted",
     "changed": "2026-08-26",
     "via": "email"
+  },
+  "think_data": {
+    "status": "submitted",
+    "changed": "2026-08-31",
+    "via": "email"
+  },
+  "thomson_reuters": {
+    "status": "submitted",
+    "changed": "2026-08-31",
+    "via": "email"
+  },
+  "throtle": {
+    "status": "manual_required",
+    "changed": "2026-08-30",
+    "via": "email"
+  },
+  "tie": {
+    "status": "submitted",
+    "changed": "2026-08-30",
+    "via": null
   },
   "tl1": {
     "status": "submitted",
@@ -4659,6 +5169,26 @@
     "changed": "2026-08-28",
     "via": "reply"
   },
+  "towerdata": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
+  },
+  "traackr": {
+    "status": "submitted",
+    "changed": "2026-08-31",
+    "via": null
+  },
+  "tracers_com_enformiongo": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
+  },
+  "transcend": {
+    "status": "submitted",
+    "changed": "2026-08-31",
+    "via": "email"
+  },
   "transunion": {
     "status": "submitted",
     "changed": "2026-08-21",
@@ -4669,9 +5199,24 @@
     "changed": "2026-08-20",
     "via": "email"
   },
+  "triplelift": {
+    "status": "submitted",
+    "changed": "2026-08-30",
+    "via": "email"
+  },
   "true_blue_analytics": {
     "status": "not_found",
     "changed": "2026-08-25",
+    "via": "email"
+  },
+  "true_opulence": {
+    "status": "submitted",
+    "changed": "2026-08-31",
+    "via": null
+  },
+  "truedata": {
+    "status": "submitted",
+    "changed": "2026-08-30",
     "via": "email"
   },
   "truepeoplesearch": {
@@ -4684,9 +5229,24 @@
     "changed": "2026-08-20",
     "via": "email"
   },
+  "trust_will": {
+    "status": "submitted",
+    "changed": "2026-08-31",
+    "via": null
+  },
   "trustoria": {
     "status": "unreachable",
     "changed": "2026-08-20",
+    "via": null
+  },
+  "truth_now": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
+  },
+  "truthed": {
+    "status": "submitted",
+    "changed": "2026-08-31",
     "via": null
   },
   "truthfinder": {
@@ -4714,10 +5274,20 @@
     "changed": "2026-08-20",
     "via": null
   },
+  "ubermedia": {
+    "status": "submitted",
+    "changed": "2026-08-31",
+    "via": null
+  },
   "ufind_name": {
     "status": "captcha_blocked",
     "changed": "2026-08-20",
     "via": "web"
+  },
+  "unacast": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
   },
   "unearth_campaigns": {
     "status": "manual_required",
@@ -4729,10 +5299,25 @@
     "changed": "2026-08-26",
     "via": "reply"
   },
+  "upcell": {
+    "status": "submitted",
+    "changed": "2026-08-31",
+    "via": null
+  },
   "uplead": {
     "status": "submitted",
     "changed": "2026-08-23",
     "via": null
+  },
+  "ups_capital": {
+    "status": "submitted",
+    "changed": "2026-08-31",
+    "via": "email"
+  },
+  "urban_science_usai": {
+    "status": "submitted",
+    "changed": "2026-08-30",
+    "via": "email"
   },
   "us_marketing_group": {
     "status": "submitted",
@@ -4754,6 +5339,11 @@
     "changed": "2026-08-20",
     "via": "email"
   },
+  "usinfosearch_com": {
+    "status": "submitted",
+    "changed": "2026-08-30",
+    "via": null
+  },
   "usphonebook": {
     "status": "submitted",
     "changed": "2026-08-28",
@@ -4762,7 +5352,7 @@
   "usphonelookup": {
     "status": "submitted",
     "changed": "2026-08-20",
-    "via": null
+    "via": "reply"
   },
   "usrecords": {
     "status": "submitted",
@@ -4789,10 +5379,45 @@
     "changed": "2026-08-16",
     "via": null
   },
+  "v12_privacy": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
+  },
+  "valassis_communications": {
+    "status": "unreachable",
+    "changed": "2026-08-31",
+    "via": "email"
+  },
+  "valassis_communications_inc_a_vericast_business": {
+    "status": "unreachable",
+    "changed": "2026-08-31",
+    "via": "email"
+  },
+  "valassis_communications_inc_an_rrd": {
+    "status": "submitted",
+    "changed": "2026-08-31",
+    "via": "email"
+  },
   "vdx_tv": {
     "status": "submitted",
     "changed": "2026-08-20",
     "via": null
+  },
+  "vector": {
+    "status": "submitted",
+    "changed": "2026-08-31",
+    "via": "email"
+  },
+  "veeva_systems": {
+    "status": "submitted",
+    "changed": "2026-08-31",
+    "via": null
+  },
+  "vendelux": {
+    "status": "submitted",
+    "changed": "2026-08-31",
+    "via": "email"
   },
   "venntel": {
     "status": "submitted",
@@ -4849,6 +5474,11 @@
     "changed": "2026-08-28",
     "via": "email"
   },
+  "versium_analytics": {
+    "status": "submitted",
+    "changed": "2026-08-29",
+    "via": "email"
+  },
   "verve_for_advertisers": {
     "status": "manual_required",
     "changed": "2026-08-28",
@@ -4858,6 +5488,11 @@
     "status": "submitted",
     "changed": "2026-08-20",
     "via": null
+  },
+  "videoamp": {
+    "status": "submitted",
+    "changed": "2026-08-30",
+    "via": "email"
   },
   "viewdns": {
     "status": "not_found",
@@ -4874,6 +5509,21 @@
     "changed": "2026-08-16",
     "via": null
   },
+  "visitiq": {
+    "status": "submitted",
+    "changed": "2026-08-30",
+    "via": "email"
+  },
+  "vistar_media": {
+    "status": "submitted",
+    "changed": "2026-08-31",
+    "via": "email"
+  },
+  "vizio_services": {
+    "status": "submitted",
+    "changed": "2026-08-31",
+    "via": "email"
+  },
   "voilanorbert": {
     "status": "submitted",
     "changed": "2026-08-20",
@@ -4882,6 +5532,11 @@
   "voterrecords_com": {
     "status": "submitted",
     "changed": "2026-08-20",
+    "via": "email"
+  },
+  "vrtcal_markets": {
+    "status": "manual_required",
+    "changed": "2026-08-31",
     "via": "email"
   },
   "warmly": {
@@ -4954,6 +5609,11 @@
     "changed": "2026-08-20",
     "via": "email"
   },
+  "windfall_data": {
+    "status": "submitted",
+    "changed": "2026-08-30",
+    "via": "email"
+  },
   "wisconsin_arrests": {
     "status": "submitted",
     "changed": "2026-08-16",
@@ -4979,6 +5639,11 @@
     "changed": "2026-08-20",
     "via": null
   },
+  "wurl": {
+    "status": "submitted",
+    "changed": "2026-08-31",
+    "via": "email"
+  },
   "wyoming_arrests": {
     "status": "submitted",
     "changed": "2026-08-16",
@@ -4999,20 +5664,50 @@
     "changed": "2026-08-20",
     "via": "reply"
   },
+  "xcelerated_data": {
+    "status": "submitted",
+    "changed": "2026-08-31",
+    "via": "email"
+  },
   "xome": {
     "status": "submitted",
     "changed": "2026-08-20",
     "via": null
+  },
+  "yes": {
+    "status": "submitted",
+    "changed": "2026-08-31",
+    "via": "email"
+  },
+  "yobi_ai": {
+    "status": "submitted",
+    "changed": "2026-08-31",
+    "via": "email"
   },
   "zabasearch": {
     "status": "submitted",
     "changed": "2026-08-15",
     "via": "reply"
   },
+  "zeotap": {
+    "status": "submitted",
+    "changed": "2026-08-31",
+    "via": "email"
+  },
   "zeta_global": {
     "status": "submitted",
     "changed": "2026-08-28",
     "via": "reply"
+  },
+  "ziff_davis": {
+    "status": "submitted",
+    "changed": "2026-08-30",
+    "via": "email"
+  },
+  "zipstorm": {
+    "status": "submitted",
+    "changed": "2026-08-31",
+    "via": "email"
   },
   "zlookup": {
     "status": "submitted",
