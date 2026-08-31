@@ -15285,3 +15285,83 @@ Two things stay open — Classmates, still outside a family-wide action and rout
 telephone number while its four siblings were handled in one email; and the categories of
 data provider, which by their own description is where the record actually lives. I said I
 would rather have the key-set answer than either of them, because I would.
+
+## §230 — one question turned a dead end into a forwarding address
+
+§224 asked whether a pending request survives an acquisition, and warned that a
+suppression list is the artifact least likely to migrate. This is the same seam from the
+seller's side, and it resolved better than any exchange in this project.
+
+Specialists Marketing Services replied to a routine request with a closure:
+
+> "Effective June 15, 2026, Specialists Marketing Services, Inc. no longer owns, controls,
+> or has access to the prior databases... **no further action is required in response to
+> your request.**"
+
+That sentence is true about their obligations and false about my situation. My record, if
+it existed, was not deleted — **it moved.** It is presumably intact, in a system presumably
+still in use, held by a company I could not identify. The effect of a transfer is not that
+the data is gone; it is that the data becomes *unreachable by the person it describes*.
+
+So I asked for one thing, and only one: **who holds them now?** Not a search, not a
+deletion — a name. And I said why it was a fair thing to ask: they were a party to the
+transaction, so there is nothing to query and no record to locate. It is one line.
+
+### They gave it
+
+> "The databases and related data assets... were acquired effective June 15, 2026 by
+> **Innovative Data Services, Inc., doing business as Specialists Marketing Solutions.**
+> You may direct any request concerning data currently maintained by Specialists Marketing
+> Solutions directly to that company."
+
+And then, unprompted, they explained the thing I had raised as a courtesy:
+
+> "Specialists Marketing Services, Inc. ceased operating as a data broker effective June
+> 15, 2026 and subsequently notified the California Privacy Protection Agency of that
+> change. **Any continued appearance of the company on the registry does not reflect
+> ongoing data broker activity.**"
+
+That is §204's distinction — deregistering is not a statement about holdings — made
+correctly *by the company*, and it also tells me the register is stale rather than the
+company evasive. I had assumed the former was the interesting failure. Here it was simply
+a filing that had not caught up.
+
+### A registry row that exists because someone answered a question
+
+`innovative_data_services` is now in the dataset with `source: "named_by_predecessor"`. It
+is on no register I have imported and in no commercial directory I hold. **It exists
+because one company answered "who holds them now".**
+
+That is a new way of finding a broker, and it is better than either of the two I have —
+better than a state register, which records a filing that may be years stale, and better
+than a commercial directory, which is somebody's guess (§214). A named successor is
+first-hand knowledge from a party to the transaction.
+
+The letter to them opens with that provenance, which makes it the only first letter in
+this project that does not guess: *if a record about me existed in those databases before
+15 June, it is now yours, and the seller said so.*
+
+### And it leads with §224's question
+
+Before the deletion, the thing I said I valued more:
+
+**Did the suppression and opt-out lists come across with the data?**
+
+With the asymmetry spelled out, because it is invisible from inside a migration: a
+deletion that fails to carry over is *visible* — records missing, somebody notices. A
+suppression that fails to carry over shows **nothing**. The exclusion table is not
+revenue-generating, is not what anyone tests against, and dropping it makes the acquired
+database look better on every metric a migration is judged by. The only people who could
+detect the loss are the ones who asked to be excluded, and they are not looking.
+
+I told them *"they did not come across"* would be a good answer, and that it matters for
+everyone who ever opted out of the predecessor's file rather than only for me.
+
+### The general rule
+
+**When a company says it no longer holds the data, the next question is not "are you
+sure" — it is "who does".** Three words, no burden, and the difference between a request
+that ends and a request that continues somewhere else.
+
+I have been treating a disclaimer of capacity as a terminal state for weeks. It is a
+redirect, and the redirect is only invisible because nobody asks for it.

@@ -2514,6 +2514,11 @@
     "changed": "2026-08-18",
     "via": null
   },
+  "innovative_data_services": {
+    "status": "submitted",
+    "changed": "2026-08-31",
+    "via": "email"
+  },
   "innovative_database_solutions": {
     "status": "submitted",
     "changed": "2026-08-28",
@@ -4890,9 +4895,9 @@
     "via": null
   },
   "specialists_marketing_services": {
-    "status": "submitted",
-    "changed": "2026-08-30",
-    "via": "reply"
+    "status": "not_found",
+    "changed": "2026-08-31",
+    "via": "email"
   },
   "spectrum_data": {
     "status": "submitted",

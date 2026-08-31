@@ -21816,6 +21816,23 @@
       "email_verified_by": "published_but_bounced",
       "notes": "Named by Kaspr as a supplier; in no broker list. BOTH support addresses published on their own site are dead: support@cloudlead.co returns 550 5.1.1 though the domain has live Google MX, and cloudlead.io has no MX and serves no site. Their published opt-out is a 2020 blog post about cold-email practice, not a mechanism. Writing to hello@cloudlead.co instead.",
       "email_alt": "support@cloudlead.co (DEAD - 550 5.1.1), support@cloudlead.io (DEAD - no MX)"
+    },
+    {
+      "id": "innovative_data_services",
+      "name": "Innovative Data Services, Inc. (dba Specialists Marketing Solutions)",
+      "legal_name": "Innovative Data Services, Inc.",
+      "domain": "specialistsmarketingsolutions.com",
+      "priority": 3,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": false,
+      "source": "named_by_predecessor",
+      "email_to": "privacy@specialistsdata.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy",
+      "category": "list_broker",
+      "category_source": "hand 2026-08-31 (acquired the Specialists Marketing Services mailing-list databases)",
+      "notes": "Added 2026-08-31 because Specialists Marketing Services named it as the acquirer of its databases effective 15 June 2026. Not found on any register by us -- this row exists ONLY because a predecessor answered the question 'who holds them now'. See _SILENT_FAILURES 230."
     }
   ]
 }
