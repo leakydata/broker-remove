@@ -15365,3 +15365,79 @@ that ends and a request that continues somewhere else.
 
 I have been treating a disclaimer of capacity as a terminal state for weeks. It is a
 redirect, and the redirect is only invisible because nobody asks for it.
+
+## §231 — the company ran the search I had refused to run
+
+§220 recorded a dilemma and left it unresolved on purpose: I would not run a reverse-WHOIS
+on myself, because submitting my identifiers to a WHOIS-intelligence service in order to
+discover what it holds means handing them to the company I am asking to hold less — and on
+many such services, creating a query record that did not previously exist. So the letter
+asked them to search instead, on the reasoning that *they can search their own data
+without either of us adding to it*.
+
+The service desk answered all three parts.
+
+**The release clause, disposed of without an argument.** §220's whole legal section was
+about a policy sentence conditioning deletion on releasing the company from liability. The
+answer:
+
+> "This is a free service, and **we do not place any additional requirements or barriers on
+> the removal process.**"
+
+So the clause is not applied in practice. I recorded it, dropped the point entirely, and
+suggested only that the published policy be brought into line with what the desk actually
+does — since the policy is what made me raise it.
+
+**The dilemma answered rather than the request.** I had expected the reverse-WHOIS
+paragraph to be ignored; it is a scruple, not a demand. Instead:
+
+> "Please don't worry about using our Reverse WHOIS service to identify your personal
+> data. We process millions of requests every day and **do not store search queries**, so we
+> will not use the information from your searches to add or retain your personal data in
+> our databases."
+
+That is precisely the fact I could not establish from outside, and it is the only kind of
+thing that could have resolved the dilemma. §226 and §226a are companies telling me the
+only door creates the record; this is a company telling me the door is safe, and *why*.
+
+**And they ran the search anyway.** 2,188 domains carry the name, with the list attached.
+
+### 2,188 is the number a common name produces
+
+Most of those registrations belong to other people. That is the whole difficulty, and it
+is the same one §226a and the Sysoon letter turn on from the other direction: **a name is
+not an identifier.**
+
+Reading the list by hand is the wrong instrument. It would take hours, produce a worse
+answer than a query, and every wrong guess risks deleting a stranger's WHOIS history.
+
+So the reply asks for the join, which is the §226 move in a new setting — **they have the
+function, I supplied the inputs**:
+
+> Intersect those 2,188 against the twelve email addresses and sixteen former postal
+> addresses already in my letter, and return only domains matching on a field **other than
+> the name**.
+
+A WHOIS registrant block carries an email address and a postal address alongside the name.
+A registration bearing my name *and* one of my email addresses is almost certainly mine. A
+registration bearing my name and an address I have never lived at is almost certainly
+somebody else's. One join does disambiguation that no amount of reading achieves — and it
+protects the other people on the list, which matters independently of my request.
+
+The four addresses at defunct providers carry the most weight: those services no longer
+exist, and a domain registered in that era is exactly the kind whose contact block was
+never redacted.
+
+### What I committed to in return
+
+**Confirming before any removal.** I will not have a record deleted on my say-so that turns
+out to belong to another person of the same name. That would be this project's own harm,
+pointed at somebody else — and it is the same limit as §193's *suppress the association,
+not the value*, arriving in a place I had not expected to meet it.
+
+And I said a nil intersection would be a complete and welcome answer: it would mean all
+2,188 are namesakes and the historical WHOIS footprint is empty.
+
+The handoff note is explicit that the human step is the one thing I cannot do — *which
+domains did you actually register* is knowledge only the subject has. The intersection
+request exists to make that step a short confirmation rather than a review of 2,188 rows.
