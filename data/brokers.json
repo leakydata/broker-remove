@@ -9503,6 +9503,8 @@
       "notes": "Resolves to deepsync.com, the same site as deep_sync. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the deep_sync thread rather than opening a second request.",
       "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (see _SILENT_FAILURES 170): filings lapsed and the website does not load, but the domain has LIVE MX -- a maintained mail tenant with no site, the nymblr/minerva shape rather than the Near danger case where a stranger owns the domain. Safe to email, and email is the only channel; say so in the letter so it is not mistaken for skipping a form, and ask them to name an acquirer if the data has moved. || 2026-08-29 SECOND ADDRESS FOR A CONTACTED COMPANY (SILENT_FAILURES 177). duplicate_of=deep_sync, which is already submitted -- but at a DIFFERENT address (legal@deepsync.com); this row's is privacy.compliance@deepsync.com. Deliberately left PENDING: an acquired or renamed entity often keeps a legacy file the successor's privacy desk never sees, and the old address is the only route to it. Write to it as its own target, referencing the canonical, rather than treating it as a duplicate to be closed.",
       "listing_basis": "state_register",
+      "category": "compiler",
+      "category_source": "hand 2026-08-31 (Deep Sync brand; property/household data)",
       "route_evidence": "filed"
     },
     {
@@ -21538,6 +21540,8 @@
       ],
       "legal_name": null,
       "listing_basis": "state_register",
+      "category": "adtech",
+      "category_source": "hand 2026-08-31 (ad platform / bid-stream)",
       "route_evidence": "filed"
     },
     {

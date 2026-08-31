@@ -1442,7 +1442,7 @@
   "deep_sync": {
     "status": "submitted",
     "changed": "2026-08-17",
-    "via": "reply"
+    "via": "email"
   },
   "deeptrace": {
     "status": "submitted",
@@ -2303,6 +2303,11 @@
     "status": "submitted",
     "changed": "2026-08-28",
     "via": null
+  },
+  "homedata": {
+    "status": "submitted",
+    "changed": "2026-08-31",
+    "via": "email"
   },
   "homeowner_marketing_services": {
     "status": "submitted",
@@ -5735,6 +5740,11 @@
     "via": null
   },
   "yes": {
+    "status": "submitted",
+    "changed": "2026-08-31",
+    "via": "email"
+  },
+  "yieldmo": {
     "status": "submitted",
     "changed": "2026-08-31",
     "via": "email"
