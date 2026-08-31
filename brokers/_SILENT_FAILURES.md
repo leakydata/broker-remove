@@ -14802,3 +14802,70 @@ And no mobile advertising identifier, stated as a refusal rather than an omissio
 supplying a MAID to a location-intelligence company in order to be removed would hand
 them a fresh, precisely-dated link between a device and a named person — the exact record
 the letter objects to. §220's principle, third outing.
+
+### §224a — the sweep, and the zero that was an artifact
+
+§224 was found by hand: I opened `zerotoone.ai` to fill in a `category` field and the
+homepage happened to say it had acquired a company I had an open request with. That is
+luck, not process, so I wrote `scripts/succession_scan.py` — re-read the sites of every
+closed row and look for a change of owner.
+
+It went wrong twice, and both failures are ones this file has already recorded against
+other people.
+
+**First: a rule that matched ordinary prose.** Among the patterns was one meant to catch
+taglines like *"a Vericast Business"*:
+
+    \ban? [A-Z]\w+ (?:company|business|brand)\b
+
+Twenty hits came back. Eleven were that rule, matching *"an indispensable asset in any
+business"*, *"an extension of your business"*, *"a B2B SaaS Brand"*, *"We are not a
+marketing company"*. Exactly §196, where the classifier called Spokeo adtech because the
+adtech regex matched the bare word `cookie` and every site has a cookie banner. I dropped
+the rule, and `acquisition of` with it — in adtech copy that phrase almost always means
+*customer* acquisition.
+
+Re-run: **0 hits across 81 sites read.** Which looked like a clean result.
+
+**Second: the zero was an artifact of my own extractor.** Before recording it I tested
+whether the check could fire at all, against the one page I knew contained the phrase.
+
+    zerotoone.ai     outcome=ok     hit=(none)
+
+It did not fire on the page §224 quotes. The extractor pulled a *sentence* — it required
+a full stop within 160 characters after the phrase. But the text reads:
+
+> "ZeroToOne.AI **has acquired** GroundTruth This acquisition brings together ZeroToOne's
+> predictive intelligence AI platform and GroundTruth's scaled real-world signal network
+> to help enterprises anticipate..."
+
+The next full stop is **254 characters away**, because nav and hero copy is not punctuated
+like prose. The pattern matched; the extraction threw the match away.
+
+So "0 across 81 sites" was a statement about my regex, not about the sites — §214b again,
+in a tool written *because of* §214b, four hours later. A null that means "I could not
+read it" was the thing I had just built machinery to avoid, and I reproduced it one layer
+down: this time the fetch succeeded, the match succeeded, and the *extractor* returned
+nothing.
+
+Fixed to return a fixed-width window rather than a sentence, and proved firing on
+`zerotoone.ai` before re-running.
+
+### And the honest result
+
+    0 possible succession(s) in 79 site(s) actually read
+    25 site(s) could not be read -- these are NOT clean results:
+        12 empty, 9 challenge, 4 thin
+
+**Nothing found among the 79.** That is a real and reassuring answer, and I would not have
+been entitled to it an hour ago.
+
+The 25 are not reassurance. Nine are behind bot challenges I will not work around, twelve
+return nothing to an ordinary fetch, four are too thin to judge. **Roughly a quarter of my
+closed rows cannot be checked this way at all** — and a company that has gone quiet behind
+Cloudflare is not obviously less likely to have changed hands than one that has not.
+
+The tool goes in the repo with that caveat in its docstring. What it is good for is the
+next acquisition, not this one: it now runs in a minute across every closed row, and the
+whole point of §224 is that the moment to ask is during an integration rather than a year
+later, when the answer would be archaeology.
