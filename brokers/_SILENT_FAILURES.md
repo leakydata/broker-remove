@@ -13441,3 +13441,77 @@ weakest. The case for ranking *filed* below *published* stays what it was in §1
 semantic, not statistical. **Filed means someone typed it into a form once. Published
 means someone maintains the page it sits on.** The numbers do not establish that;
 they are merely consistent with it, and they are honest about which one they are.
+
+## §207 — "No matching records," sent by a test harness
+
+RevOptimal gave me one of the better confirmations I have had. Two rights answered
+separately, and the forward-looking half volunteered without being asked twice:
+
+> "we have also taken steps within our system to ensure that your personal data will
+> not be collected, stored, shared, or processed in the future by RevOptimal."
+
+I said so in my reply, and then asked the two questions from §198 — *was there anything
+to delete*, and *where did it come from* — plus the twelve-address key-set extension.
+
+**One second apart, at 13:35:46 and 13:35:47, two automated messages came back.** Both
+from `noreply@trustsuperset.com`, the DSAR vendor behind RevOptimal's privacy mail.
+Here they are in full. Not excerpted — in full.
+
+    Subject: E2E-NOTFOUND: No matching records for your opt-out request
+    Body:    This is the 404-not-found email (e2e test).
+
+    Subject: Confirmation: Your request has been completed
+    Body:    Dear Data Subject,
+             https://trustsuperset.com
+             Best regards, Your Privacy Team
+
+The first is a **test fixture**. Its subject carries the `E2E-` prefix and its body says
+what it is. The second is a template nobody filled in; its entire content is the
+vendor's own homepage URL.
+
+And they contradict each other. One says nothing matched. The other says the request
+was completed. Same second, same input.
+
+### Why this one is worse than a bounce
+
+Everything in this file about silent failure points at this message:
+
+**"No matching records" is the answer a person is least likely to question.** It is
+good news. It closes the file. It requires nothing further. A requester who received
+that message alone — without the absurd body text, without the second message
+contradicting it — would record a clean result and never write again.
+
+And it was produced by a test harness. Whether any search ran is unknowable from the
+outside; the message carries no evidence that one did, because the message is a
+fixture.
+
+§138 asks whether a confirmation is corroborated by something only this request could
+have produced. Here the reverse question answers itself: this message is something
+*any* input would have produced, including no input at all.
+
+### What it does to the confirmation I already recorded
+
+The 06:15 erasure confirmation is specific prose, not a placeholder, so I have left
+`revoptimal` as **confirmed** rather than retracting it on suspicion. But it came from
+the same address as the two messages above, and I no longer know whether a person stood
+behind it. The tracker note now records both facts, and the defect has gone back to
+`privacy@revoptimal.com` with a request for one human line settling which of *deleted*
+or *nothing found* actually happened.
+
+The vendor is worth naming for the families file: **trustsuperset.com**, a DSAR
+platform sending under the client's name ("Privacy Team at revoptimal.com"). If it
+emits fixtures for one tenant it emits them for others, and its `E2E-` prefix is now a
+string worth grepping the mailbox for.
+
+### My own error in the same tick
+
+Reporting this, I sent RevOptimal an **empty email** — I passed a shell command
+substitution as a tool argument, so the literal text `$(cat)` went out as the body
+instead of the letter. Corrected within the minute by resending in-thread with an
+apology on the first line.
+
+Worth writing down beside the vendor's failure rather than quietly fixing, because it
+is the same class of mistake: **a template placeholder that reached a real recipient
+because nothing checked the body before it left.** Their pipeline did it at scale and
+mine did it once. The rule for me is the narrower one — a message body must be read
+from a file by the sending call, never interpolated by a shell that is not running.
