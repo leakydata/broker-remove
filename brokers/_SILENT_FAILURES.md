@@ -13503,6 +13503,12 @@ platform sending under the client's name ("Privacy Team at revoptimal.com"). If 
 emits fixtures for one tenant it emits them for others, and its `E2E-` prefix is now a
 string worth grepping the mailbox for.
 
+*(§232: RevOptimal later explained that the 00:05 pair in §208 was probably caused by my
+empty email confusing their pipeline — which is fair, and I have accepted it. The E2E
+fixture in this entry arrived twenty-four hours BEFORE that email, in reply to a full
+letter, so it stands unexplained. The distinction matters and the correction is theirs
+as much as mine.)*
+
 ### My own error in the same tick
 
 Reporting this, I sent RevOptimal an **empty email** — I passed a shell command
@@ -15441,3 +15447,62 @@ And I said a nil intersection would be a complete and welcome answer: it would m
 The handoff note is explicit that the human step is the one thing I cannot do — *which
 domains did you actually register* is knowledge only the subject has. The intersection
 request exists to make that step a short confirmation rather than a review of 2,188 rows.
+
+## §232 — half the fault was mine, and the timestamps decide which half
+
+RevOptimal came back on the §207/§208 defect report, personally:
+
+> "Our system works by taking each type of data subject access right requested and
+> processes them separately hence the multiple initial emails... I believe **your second
+> empty request might have confused our system** causing the odd automated responses."
+
+**They are right about that, and it is mine.** The empty message was my error — a shell
+substitution sent as a message body, recorded at the end of §207. If a blank email caused
+the two confirmations at 00:05 on 31 August, including one for a *Right to Restriction of
+Processing* I had never requested, that is a reasonable explanation and I accepted it in
+terms. A system fed a blank message will do something unhelpful, and it was not fed a blank
+message by them.
+
+§208 read that pair as proof the pipeline emits completions for rights nobody asked for.
+The more likely reading is now that it emits them for an input it could not parse, which is
+a different and smaller fault. I have annotated the entry rather than rewriting it.
+
+### But the timestamps do not cover the fixture
+
+Set out plainly, because they are checkable on their side and they decide the question:
+
+    30 Aug 13:35     my substantive follow-up -- two questions, twelve addresses. A
+                     full letter.
+    30 Aug 13:35:46  "E2E-NOTFOUND: No matching records for your opt-out request",
+                     body: "This is the 404-not-found email (e2e test)."
+    31 Aug 00:04     my empty message. Twenty-four hours later.
+
+**The empty email cannot explain the test fixture. It arrived a day before I sent it, in
+reply to a proper letter.**
+
+I said I was not pressing the point and did not need an explanation — only that this is
+the one thing in the exchange that could harm somebody who is not me. A message reading
+*"no matching records"* is the answer a person is least likely to question: it reads as
+good news, it closes the file, it asks nothing further. The next person to receive one
+will reasonably record a clean result and never write again.
+
+### What I take from being partly wrong
+
+§208's conclusion was drawn from two events, and one of them turns out to have a mundane
+cause I introduced myself. The finding survives on the other, but it is weaker than I
+wrote it, and the weakening comes from a fact I already knew and did not weigh: **I had
+recorded my own empty email in §207 and then, one entry later, treated everything that
+followed it as the company's doing.**
+
+That is the §214 failure in miniature — evidence sitting in my own record, unread because
+the conclusion was already formed. Two entries apart this time, which is faster than usual
+and no more excusable.
+
+The company also made an offer worth taking: *send a fresh request and our system will
+process it fully.* Done, with all twelve addresses, hashed and plaintext, the four
+defunct-provider ones flagged as the likeliest matches, and the two questions that need no
+system at all — was there anything to delete, and where did it come from.
+
+And their original confirmation still stands as a good one. It separated the two rights and
+volunteered the forward-looking suppression unasked. I said so at the time and this
+exchange has not changed it.
