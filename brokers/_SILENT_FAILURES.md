@@ -14081,3 +14081,62 @@ Two of those thirteen are behind bot protection, and I will not be working aroun
 that is the standing rule about CAPTCHAs and it applies to a challenge page whether or
 not a human is being asked to solve anything. Those rows get the letter without a
 category, which after §212 is the right default anyway.
+
+## §215 — the company that told me I had sent the wrong identifier
+
+Demandbase received a letter listing four Gmail addresses, a phone number and a postal
+address. They could have searched all of it, found nothing, and written back
+truthfully that no record exists. That answer would have been honest, complete on its
+own terms, and wrong in effect — §209's false negative, arrived at in perfect good
+faith.
+
+Instead:
+
+> "Could you please respond by confirming your work e-mail address? We are a B2B
+> company and do not process personal email addresses (such as those with the domain
+> @gmail.com) as part of our Business Profiles."
+
+**They told me the identifiers were the wrong kind rather than reporting that the
+search failed.** In a file almost entirely about failure this is worth its own entry,
+because it is the single cheapest thing a company can do that changes the outcome. It
+cost them two sentences. It converts a dead end into an answerable request.
+
+§198 recorded what a good *confirmation* looks like. This is the other one: **what a
+good clarification looks like.** The test is whether the reply tells the requester
+something they could not have known from outside. "We found nothing" does not. "You
+have sent the wrong class of identifier, and here is the right one" does.
+
+### What went back
+
+The work address — a **closed** university mailbox — with the point that its being
+closed is precisely why it matters. A business profile is keyed to the address someone
+had when the record was made, so the addresses most likely to sit in a B2B graph are
+exactly the ones the person can no longer check. A live address is the *least* likely
+match.
+
+Then the two things they cannot get from me:
+
+**The derived address.** B2B contact data is frequently *constructed* rather than
+collected — `first.last@employer` generated from a name and an employment history,
+then validated and scored. If such an address exists for me I have never owned it and
+cannot list it. So I asked that "nothing found for the address you gave us" not close
+the matter, since the address I could not name may be the one they hold. They can
+generate the candidates from the same public profile they were built from.
+
+**And the question I most want answered.** "We do not process personal email
+addresses" resolves two ways:
+
+    (a) you never hold one -- nothing to find
+    (b) you do not MATCH on one -- a Business Profile is keyed to work identity,
+        but a personal address could sit on it as an appended attribute, on a
+        profile matched some other way
+
+If (a), that closes a real question and I will record it gladly. If (b), **a search by
+key returns nothing while the data sits there as a field**, and I asked for a search of
+the attribute as well as the key.
+
+That distinction — *searching what a system is indexed on rather than what it stores* —
+is the most common route by which a truthful "no record found" turns out to be
+incomplete. It is §183 and §199 in a different costume. I said explicitly that I was
+not accusing them of it, because they had not told me they found nothing; they had told
+me to send a better identifier, which is the opposite thing.
