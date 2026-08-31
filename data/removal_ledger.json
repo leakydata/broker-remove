@@ -3354,6 +3354,11 @@
     "changed": "2026-08-28",
     "via": "email"
   },
+  "names_and_facts": {
+    "status": "submitted",
+    "changed": "2026-08-31",
+    "via": "email"
+  },
   "narvar": {
     "status": "submitted",
     "changed": "2026-08-28",
@@ -4087,6 +4092,11 @@
   "propertychecker": {
     "status": "submitted",
     "changed": "2026-08-19",
+    "via": "email"
+  },
+  "propertychecker_com": {
+    "status": "submitted",
+    "changed": "2026-08-31",
     "via": "email"
   },
   "propertyiq": {

@@ -10881,7 +10881,9 @@
       "email_verified": true,
       "email_verified_by": "privacy_policy",
       "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
-      "listing_basis": "third_party_directory"
+      "listing_basis": "third_party_directory",
+      "category": "people_search",
+      "category_source": "hand 2026-08-31 (site is behind a bot challenge; category from its own name and known business)"
     },
     {
       "id": "nocallername",
@@ -11015,7 +11017,9 @@
       "duplicate_of": "propertychecker",
       "notes": "Resolves to propertychecker.com, the same site as propertychecker. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the propertychecker thread rather than opening a second request.",
       "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here. || 2026-08-29 SECOND ADDRESS FOR A CONTACTED COMPANY (SILENT_FAILURES 177). duplicate_of=propertychecker, which is already submitted -- but at a DIFFERENT address (privacy@propertychecker.com); this row's is support@propertychecker.com. Deliberately left PENDING: an acquired or renamed entity often keeps a legacy file the successor's privacy desk never sees, and the old address is the only route to it. Write to it as its own target, referencing the canonical, rather than treating it as a duplicate to be closed.",
-      "listing_basis": "third_party_directory"
+      "listing_basis": "third_party_directory",
+      "category": "people_search",
+      "category_source": "hand 2026-08-31 (homepage: search property owners by address, owner name, email and phone)"
     },
     {
       "id": "publicrecords_info",
