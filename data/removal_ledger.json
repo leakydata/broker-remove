@@ -5005,9 +5005,9 @@
     "via": "email"
   },
   "subgraph": {
-    "status": "submitted",
+    "status": "email_pending",
     "changed": "2026-08-31",
-    "via": null
+    "via": "email"
   },
   "supplier_io": {
     "status": "submitted",
