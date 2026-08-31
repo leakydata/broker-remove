@@ -13515,3 +13515,75 @@ is the same class of mistake: **a template placeholder that reached a real recip
 because nothing checked the body before it left.** Their pipeline did it at scale and
 mine did it once. The rule for me is the narrower one — a message body must be read
 from a file by the sending call, never interpolated by a shell that is not running.
+
+## §208 — the pipeline confirmed a right I never asked for
+
+§207 recorded a test fixture arriving from `trustsuperset.com`. I grepped the mailbox
+for that vendor to see how far it went, and the answer changes what §207 was about.
+
+### It answered a defect report with two completions
+
+At 00:04 on 31 August I sent RevOptimal the defect report. It contains no request. It
+asks two questions and reports a fault. **Fifty-five seconds later, two confirmations
+arrived:**
+
+    00:05:23  Confirmation: Your request to exercise your Right to Erasure has been completed
+    00:05:25  Confirmation: Your request to Restriction of Processing has been completed
+
+I have **never exercised a right to restriction of processing** — not with RevOptimal,
+not with anyone, not once in this entire project. There was no such request to complete.
+
+That settles what §207 left open. The pipeline is not confirming outcomes; it is
+reacting to inbound mail, and it will report a right as *completed* on the strength of
+an email that requested nothing. A confirmation from it is not weak evidence. It is
+**not evidence**, because I have now watched it produce one from an input that
+contained no request at all.
+
+### Five tenants, and four terminal statuses resting on this
+
+The vendor is much wider than one company. Every one of these came from
+`noreply@trustsuperset.com`:
+
+    revoptimal    "Privacy Team at revoptimal.com" -- the E2E fixture (207)
+    trestle       four messages in two seconds: opt-out x2, deletion x2, exact duplicates
+    fourleaf      erasure + opt-out "completed", addressed "Dear Data Subject"
+    gsdsi         Global Source Data Solutions -- names itself, which is unusual here
+    fi_navigator  "unable to find any matching records" x2
+
+Most of these templates **never name the tenant.** "Dear Data Subject ... Your Privacy
+Team" — I identified FourLeaf and FI Navigator only from the quoted original beneath
+the reply. If the quote had been stripped, I would have held a confirmation belonging
+to no known company.
+
+And all four non-RevOptimal rows sat in my tracker at a terminal status with a
+**completely empty note.** §200 found that pattern before and I fixed the instances;
+this is the same pattern arriving fresh, from a single vendor, in a single sweep.
+
+### What I changed, and what I did not
+
+Three stay **confirmed**. Trestle, FourLeaf and GSDSI each got messages that named the
+correct rights against a real request I had actually made, and GSDSI named itself. I am
+not retracting an outcome on suspicion of the mail system that delivered it. Their notes
+now carry the vendor and the corroboration problem in full.
+
+**FI Navigator is downgraded from `not_found` back to `submitted`,** and re-asked.
+
+That one is different in kind. It is the only *negative* in the set, and a negative is
+the single outcome I now have direct evidence this pipeline can fabricate — the fixture
+in §207 is literally subject-lined `E2E-NOTFOUND: No matching records`. The request it
+answered carried the full key set: twelve emails, sixteen prior addresses, eleven prior
+phones. A true nil is possible. But I cannot distinguish a search that found nothing
+from a template that never searched, and **the asymmetry decides it**: a wrongly-held
+`confirmed` costs me a duplicate letter, while a wrongly-held `not_found` closes the
+file forever on a company that still holds the record.
+
+The re-ask went to FI Navigator directly, asking three things a person can answer —
+did a search run, which fields did it cover, were hashed forms included — and passing
+on the vendor defect, because a false negative sent under their name is their problem
+before it is mine.
+
+### The rule
+
+**A "no matching records" from a vendor observed emitting fixtures is not a nil result;
+it is an unanswered request.** Downgrade it and ask a human. The cost of being wrong in
+that direction is one email.
