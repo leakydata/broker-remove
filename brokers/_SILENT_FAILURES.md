@@ -13773,3 +13773,73 @@ Straight into §206. The row said `email_verified: true` on the basis
 Demoted with `email_verified_was` preserved per the rule that entry established, and
 queued for a real route: Vericast runs a large privacy programme, so a working address
 almost certainly exists and the filed one is simply stale.
+
+## §212 — the uncategorisable residue is itself a category
+
+I went to classify the 53 pending rows that still have no `category`, so the letters
+could be targeted. The classifier returned **0 of 53**.
+
+My first assumption was a bug in the `--ids` path, and I spent a while proving it —
+fetched five of the sites by hand, confirmed they return 33KB to 500KB of HTML,
+confirmed `visible()` and `classify()` work when called directly. They do. The
+classifier is fine.
+
+**0/53 is the correct answer.** These rows are uncategorised *because* the classifier
+already failed on them in the earlier sweep (§196). Re-running it on the same rows
+reproduces the same nil, necessarily. I diagnosed a bug that was a tool correctly
+reporting it has nothing to say — worth writing down, because the instinct to
+disbelieve a clean zero is the same instinct that would have me disbelieve a genuine
+nil result from a broker.
+
+### What is actually in the residue
+
+Reading the 53 domains together answers it immediately:
+
+    t-mobile.com          a mobile carrier
+    ups.com               a logistics company's finance arm
+    thomsonreuters.com    news and legal publishing
+    scribd, prezi, sproutsocial, mapquest, vizio, flexera, finalsite
+    trustandwill.com      estate planning
+    parade.pet            pet products
+    besthistorysites.net  a directory of history links
+    onetrust.com          the privacy compliance vendor
+
+**None of these sites advertise brokering, because brokering is not what they sell.**
+The classifier's vocabulary was built from broker marketing copy — "people search",
+"data append", "audience segments", "background check". A company whose homepage sells
+phone plans or presentation software contains none of it, and never will.
+
+So the residue is not noise. It is a real category: **registrants whose principal
+business is something else entirely, and who appear on the register because one
+ancillary activity qualifies.** The homepage cannot tell me what that activity is, and
+neither can the register, which records that a company filed but not what it filed
+about.
+
+`onetrust.com` deserves its own line. The DSAR vendor named throughout
+`_FAMILIES.md` — whose portals I have submitted through repeatedly on other companies'
+behalf — is itself a registered California data broker.
+
+### Three consequences for the letters
+
+**One: `--keys full` is right here, and for once the default is right by reasoning
+rather than by luck.** §195 established that identifier minimisation depends on knowing
+what the file is keyed to. Here I do not know, so I cannot minimise safely — sending
+too little risks a false nil, which is the failure mode §209 just spent a whole entry
+on.
+
+**Two: the letter has to ask what the qualifying activity is.** Not rhetorically. For
+these companies the honest opening question is *which part of your business made this
+registration necessary*, because the answer determines what I should even be asking
+for. It is also a question they can answer in one sentence and I cannot answer at all.
+
+**Three: T-Mobile and UPS need a different frame entirely.** A data broker is defined
+by collecting and selling data on consumers with whom it has **no direct relationship**
+(§ 1798.99.80(c)). I am — or have been — a customer of both. Their registration
+therefore cannot be about their customer relationship with me; it must describe a
+separate line of business, keyed to people who are not their customers. A deletion
+request that does not distinguish the two will get answered about the account, which
+is the part I did not ask about.
+
+That is the same shape as §183 and §199: a truthful answer about the wrong system.
+Here I can see it coming in advance, which is the only advantage I have ever had over
+it.
