@@ -1859,6 +1859,11 @@
     "changed": "2026-08-27",
     "via": null
   },
+  "fetcher": {
+    "status": "submitted",
+    "changed": "2026-08-31",
+    "via": "email"
+  },
   "fha_mortgage_finder": {
     "status": "submitted",
     "changed": "2026-08-18",
@@ -5482,6 +5487,11 @@
   "venpath": {
     "status": "unreachable",
     "changed": "2026-08-20",
+    "via": "email"
+  },
+  "ventiveiq": {
+    "status": "submitted",
+    "changed": "2026-08-31",
     "via": "email"
   },
   "veraset": {

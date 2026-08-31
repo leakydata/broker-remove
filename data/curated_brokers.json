@@ -10526,7 +10526,9 @@
         "2024"
       ],
       "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (SILENT_FAILURES 170): filings have lapsed, so the 163 domain check ran and CLEARED this row -- the site is live and carries the registrant's own name, so the domain has not been re-registered by anyone else. Safe to send normally; no further domain check needed.",
-      "listing_basis": "state_register"
+      "listing_basis": "state_register",
+      "category": "recruiting",
+      "category_source": "hand 2026-08-31 (AI candidate sourcing for recruiters)"
     },
     {
       "id": "finalscout",
