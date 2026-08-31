@@ -892,7 +892,7 @@
   "catalist": {
     "status": "confirmed",
     "changed": "2026-08-28",
-    "via": "reply"
+    "via": "email"
   },
   "catalyze_ai": {
     "status": "submitted",
@@ -1350,9 +1350,9 @@
     "via": null
   },
   "datafy": {
-    "status": "submitted",
-    "changed": "2026-08-25",
-    "via": null
+    "status": "not_found",
+    "changed": "2026-09-01",
+    "via": "email"
   },
   "datalane": {
     "status": "not_found",
