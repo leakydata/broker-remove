@@ -173,6 +173,21 @@ _IDENTIFIER_KEYED = (
 )
 
 
+# LISTING BASIS -- see _SILENT_FAILURES 214.
+#
+# `registry_years` present means a company FILED with a state. Absent, with
+# source="optery", means a commercial directory named them and nobody filed anything.
+# Those are different evidence and they must not share a sentence in a letter: I told
+# OneTrust they appeared on the California register when my own row said no such thing,
+# and had to write again to withdraw it.
+#
+# A row's `listing_basis` is "state_register" or "third_party_directory". Any letter
+# that asserts WHY a company is on my list must read it first, and the
+# directory-sourced version has to be the weaker letter, because the evidence is
+# weaker: "a commercial directory lists you as a data broker; I cannot tell whether
+# that is right, and if it is not, saying so is a complete answer."
+
+
 def suggest_keys(b):
     """Return 'email-only' if this looks identifier-keyed rather than name-keyed."""
     hay = " ".join(str(b.get(k) or "") for k in
