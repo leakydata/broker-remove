@@ -14937,3 +14937,79 @@ been watched to fire (§214b, §224a). Zero across the dataset afterwards.
 The general rule, which this project keeps rediscovering in new places: **two fields
 holding the same fact will diverge, and the one that diverges is the one nothing reads
 back.**
+
+## §226 — the only door offered is one that creates the record
+
+PubMatic answered the escape hatch. My letter said *"if you can in fact resolve on
+something else, tell me which identifier types your systems use and I will supply those
+and nothing more"*, and they did:
+
+> "PubMatic does not generally maintain information such as your first and last name, or
+> personal email address. **Our systems operate on digital identifiers and therefore our
+> systems do not recognize you.**"
+
+Then the remedy: follow their DSR notice to **find your digital identifiers** and send
+them.
+
+So the minimisation was right here — unlike §222, where Allant corrected me the other way.
+Withholding date of birth, addresses and phone numbers cost nothing, because none of them
+could have matched.
+
+### The paradox is in their own sentence
+
+They have told me their systems **do not recognize me.** On their own account there is,
+at present, *no link* between me as a named person and any record they hold.
+
+To exercise the right, I must send a cookie ID or a mobile advertising identifier. Doing
+that hands an advertising platform a fresh, dated association between a device identifier
+and a named individual — **an association which, by their own account, does not currently
+exist.**
+
+**The act of requesting deletion would manufacture the precise linkage the request exists
+to prevent.**
+
+Nobody designed it that way, and I said so. But it means the only door offered is one I
+cannot walk through without doing the thing I am here to avoid. I declined, and said I
+would rather leave the request unfulfilled than create the record.
+
+That is §220's principle at its sharpest — and this time I did not have to argue it. The
+company's own sentence establishes it. §220 was me refusing to run a reverse-WHOIS on
+myself; §224 was refusing to send a MAID to a location firm. This is the first where the
+company has stated, in writing, that the link does not exist — which is what turns a
+scruple into a demonstration.
+
+### What I asked for instead
+
+The §221 move, applied to identifiers rather than to selling. *"We do not maintain your
+email address"* and *"no identifier derived from your email address exists in our
+systems"* are different statements, and only the first was made.
+
+Programmatic identity runs substantially on **hashed, salted email addresses** — UID2 and
+EUID being the obvious cases, along with various vendor resolved IDs. A token of that kind
+is a deterministic function of an address. **So a company can truthfully deny holding
+email addresses while holding something computed from one.**
+
+Three questions, asked rather than asserted, because I cannot see inside their stack:
+
+1. Do their systems accept, store or transact on email-derived identifiers?
+2. If so, **will they hash the twelve addresses themselves**, with their own normalisation
+   and salt, and search the resulting tokens? Nothing new about me enters their system —
+   they already hold whatever tokens exist, and I have deliberately computed no hashes, so
+   they need not trust my arithmetic. *This is the route that costs me nothing and reveals
+   nothing new.*
+3. If the answer is genuinely no, say **"there is nothing here that can be tied to you"**
+   in those words. That closes it, and it is worth more to me than a deletion.
+
+Plus: is the opt-out at `/legal/opt-out` **cookie-based**? If so it is per-browser,
+forward-looking only, and lost when cookies are cleared — a real and useful thing, but not
+a statutory opt-out and not something that reaches data already held.
+
+### The shape worth keeping
+
+An identifier-keyed platform can be simultaneously (a) unable to find you, (b) holding
+data about you, and (c) able to link the two only if you help it. The consumer right, as
+implemented, asks the consumer to close that gap themselves.
+
+**The person who most wants not to be identified is the only one who can complete the
+identification.** Every honest answer in this exchange is true, and the outcome is still
+that the safest thing I can do is nothing.
