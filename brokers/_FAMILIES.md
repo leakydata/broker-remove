@@ -1455,9 +1455,19 @@ Finding one does not tell you about the other.
 
 Sends under the client's name -- the From line reads `"Privacy Team at revoptimal.com"
 <noreply@trustsuperset.com>` -- so the vendor is invisible unless you look at the
-envelope. Only one tenant confirmed so far:
+envelope. **Most of its templates never name the tenant at all** ("Dear Data Subject ...
+Your Privacy Team"), so two of the five below were identifiable only from the quoted
+original beneath the reply. A stripped quote would leave a confirmation belonging to no
+known company.
 
-    revoptimal    noreply@trustsuperset.com, From-name "Privacy Team at revoptimal.com"
+    revoptimal    From-name "Privacy Team at revoptimal.com"; the E2E fixture
+    trestle       four messages in two seconds: opt-out x2, deletion x2, exact duplicates
+    fourleaf      erasure + opt-out "completed", tenant named nowhere in the body
+    gsdsi         Global Source Data Solutions -- names itself, unusually for this vendor
+    fi_navigator  "unable to find any matching records" x2, tenant named nowhere
+
+Duplicate emission (Trestle) suggests the pipeline fires per matched record rather than
+per request.
 
 **It emits test fixtures to real consumers.** A follow-up drew two replies one second
 apart: `E2E-NOTFOUND: No matching records for your opt-out request` with the body *"This
@@ -1471,8 +1481,17 @@ a tenant and a defective outcome at the same time:
     E2E-
     trustsuperset.com
 
+**It also confirms rights nobody requested.** A defect report sent 2026-08-31 00:04 --
+containing no request, only two questions and a fault report -- drew two confirmations
+55 seconds later, one of them for a *Right to Restriction of Processing* never exercised
+with any company in this project. So a confirmation from this vendor is not weak
+evidence; it is not evidence, because an input containing no request produces one.
+
 A "no matching records" from any tenant of this vendor should be treated as unproven
 until a human restates it, which is the opposite of how that message normally reads.
+`fi_navigator` was downgraded from `not_found` back to `submitted` on that basis --
+the asymmetry is what decides it, since a wrong `confirmed` costs a duplicate letter
+and a wrong `not_found` closes the file forever.
 
 ## Shared-infrastructure fingerprints (discovered 2026-08-29)
 
