@@ -92,6 +92,31 @@ RULES = [
 ]
 
 
+# A null verdict used to mean two unrelated things: "I read the page and none of the
+# vocabulary matched" and "I never saw the page." _SILENT_FAILURES 212 read 53 nulls as
+# the first and concluded something about all of them; 13 were actually the second --
+# 8 empty responses, 3 near-empty, 2 Cloudflare interstitials. Same structural mistake
+# as 206 and 199: one value standing for both a finding and the absence of one.
+#
+# fetch() now returns (text, outcome) and the outcomes are reported separately.
+_CHALLENGE = ("just a moment", "enable javascript and cookies", "checking your browser",
+              "attention required", "verifying you are human", "ddos protection by",
+              "access denied", "cf-browser-verification")
+
+
+def fetch(url):
+    """-> (visible_text, outcome). outcome is one of: ok, empty, thin, challenge."""
+    text = visible(url)
+    low = text.lower()
+    if not text.strip():
+        return text, "empty"
+    if any(c in low for c in _CHALLENGE) and len(text) < 1200:
+        return text, "challenge"
+    if len(text) < 400:
+        return text, "thin"
+    return text, "ok"
+
+
 def visible(url):
     try:
         h = subprocess.run(
@@ -144,16 +169,30 @@ def main():
     print(f"classifying {len(targets)} broker(s) from site copy\n")
     found = {}
 
+    unread = {}
+
     def one(b):
-        return b["id"], classify(visible("https://" + b["domain"]))
+        text, outcome = fetch("https://" + b["domain"])
+        return b["id"], (classify(text) if outcome == "ok" else None), outcome
 
     with cf.ThreadPoolExecutor(12) as ex:
-        for bid, cat in ex.map(one, targets):
-            if cat:
+        for bid, cat, outcome in ex.map(one, targets):
+            if outcome != "ok":
+                unread[bid] = outcome
+            elif cat:
                 found[bid] = cat
                 print(f"  {bid:<40} {cat}")
 
-    print(f"\n{len(found)}/{len(targets)} classified")
+    read = len(targets) - len(unread)
+    print(f"\n{len(found)}/{read} classified of {read} page(s) actually read")
+    if unread:
+        # NOT counted as unclassified: nothing was read, so nothing was concluded.
+        print(f"{len(unread)} site(s) could not be read -- these are NOT nil results:")
+        from collections import Counter as _C
+        for o, n in _C(unread.values()).most_common():
+            print(f"  {n:>4}  {o}")
+        for bid, o in sorted(unread.items()):
+            print(f"        {o:<10} {bid}")
     from collections import Counter
     for c, n in Counter(found.values()).most_common():
         print(f"  {n:>4}  {c}")

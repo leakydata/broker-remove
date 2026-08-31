@@ -13811,7 +13811,10 @@ phone plans or presentation software contains none of it, and never will.
 
 So the residue is not noise. It is a real category: **registrants whose principal
 business is something else entirely, and who appear on the register because one
-ancillary activity qualifies.** The homepage cannot tell me what that activity is, and
+ancillary activity qualifies.**
+
+*(Correction, §214b: that holds for the 40 whose sites were actually read. Thirteen of
+the 53 were never read at all — the classifier reported a null for them too. See below.)* The homepage cannot tell me what that activity is, and
 neither can the register, which records that a company filed but not what it filed
 about.
 
@@ -14020,3 +14023,61 @@ should, which is why the planted row mattered more than the clean run.
 Three places now carry the distinction: the data (`listing_basis`), the letter writer
 (`make_optout_email.py`), and the validator. That is deliberate. §179 established that
 a rule I have to remember is not a rule.
+
+### §214b — a third tool that says "nothing" when it means "I could not look"
+
+Going back to the residue to write the letters, I checked *why* the classifier had
+failed on a plainly obvious people-search site. `namesandfacts.com` returned:
+
+    Just a moment...
+
+Eighteen characters. A Cloudflare interstitial. The classifier read the bot challenge,
+found no broker vocabulary in it — correctly, there is none — and returned a null
+indistinguishable from the null it returns for a page it read properly.
+
+So I measured it across all 53:
+
+    40  ok          read, and genuinely nothing matched
+     8  empty       zero bytes back
+     3  thin        under 400 characters of visible text
+     2  challenge   bot interstitial
+
+**Thirteen of the fifty-three were never read.** §212 concluded something about all 53
+from a signal that only exists for 40 of them. The conclusion still holds for those 40
+— nothing in the reasoning about broker vocabulary changes — but it was never
+supported for the other thirteen, and `ups_capital` is among them, which I wrote a
+letter about yesterday on the strength of a category I did not have.
+
+### This is the third time, and it is always the same shape
+
+    §199   "no verification attempt found" read as "no personal information"
+    §206   the cause of death overwrote the basis for trust, so the tier
+           could never be observed failing
+    §214b  a page that could not be fetched scored identically to a page
+           that was read and had nothing in it
+
+Every one is **a single value standing for both a finding and the absence of one.** I
+have written that sentence about brokers repeatedly — §209's whole point is that "no
+matching records" from a system that never searched is not a nil result. It is a
+harder habit to keep in my own tools than to spot in someone else's, and the reason is
+plain enough: a null is cheap to return and costs nothing at the call site until
+somebody counts it.
+
+### The fix
+
+`classify_brokers.py` now has `fetch()` returning `(text, outcome)`, and outcomes other
+than `ok` are **excluded from the denominator** rather than counted as unclassified:
+
+    0/40 classified of 40 page(s) actually read
+    13 site(s) could not be read -- these are NOT nil results:
+         8  empty
+         3  thin
+         2  challenge
+
+The phrasing in the output is deliberate. "0/53 classified" invited the reading I gave
+it. "0 of 40 read, 13 could not be read" does not.
+
+Two of those thirteen are behind bot protection, and I will not be working around it —
+that is the standing rule about CAPTCHAs and it applies to a challenge page whether or
+not a human is being asked to solve anything. Those rows get the letter without a
+category, which after §212 is the right default anyway.
