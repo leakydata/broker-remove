@@ -15088,3 +15088,79 @@ And the household offer from the original letter restated, because it still matt
 than the deletion: **that query may return devices belonging to others in my household, so
 report what you find and let me confirm before deleting anything.** I do not want a family
 member's record removed on my say-so any more than they would want mine removed on theirs.
+
+## §227 — "we have no database, therefore no suppression" is a non-sequitur
+
+US Info Search / Martin Data replied personally, from the General Manager, within two
+days. Three claims in the covering note:
+
+> "we are no longer classified as a data broker, nor do we have an 'opt-out' or
+> 'suppression' option **as we do not have databases that collect or save data from any
+> data provider**. The data we resell is not FCRA data; therefore, we are legally allowed
+> under the Gramm Leach Bliley Act to sell to credentialed businesses with a legal use
+> case."
+
+The middle claim is the one worth taking apart, because the architecture it describes is
+real and the conclusion drawn from it does not follow.
+
+### The premise is about storage; the remedy is about output
+
+If they pass a query through to providers and return what comes back rather than holding a
+compiled file, then I accept there is nothing stored about me to delete. §171 established
+that shape — a record computed rather than kept.
+
+**But a suppression list is not a database of me. It is a list of people not to return.**
+
+It holds only the identifiers the requester has already supplied, and it is applied at
+*query* time rather than at *storage* time. A pass-through service can hold one precisely
+*because* it needs no profile to do so — it needs a name and a match rule, nothing else.
+
+The proof is already in this file: a company that described its reports as *"compiled in
+real time via live calls to data providers"* added a permanent suppression entry anyway,
+and several registered brokers have added standing entries this month having found no
+record at all.
+
+So "no database, therefore no suppression" moves from a true premise to a conclusion it
+does not support. I asked them to look at that step again, and said that a plain *no* — if
+there genuinely is no mechanism to exclude a person from results — would be recorded and
+would close it. **That answer would mean a person cannot be kept out of their results by
+any means, which is worth knowing and is not a thing I can discover otherwise.**
+
+### The query log a pass-through still has
+
+If you resell searches rather than storing files, there is still a record of *the
+searches*: what was queried, by which credentialed customer, when. That is data about me
+which exists **because somebody else asked about me**, not because I ever dealt with the
+company — the §221 question, arriving somewhere it matters more, since for a credentialed
+reseller the audit trail is probably the most important record they keep.
+
+I asked only for the retention period and whether the queried value is identifiable, and
+said explicitly that I am *not* asking them to delete it.
+
+### The GLBA sentence, flagged rather than argued
+
+> "The data we resell is not FCRA data; therefore, we are legally allowed under the Gramm
+> Leach Bliley Act to sell to credentialed businesses with a legal use case."
+
+The practice is real and common. The framing runs backwards. **The GLBA is a restriction
+on the disclosure of nonpublic personal information, not a grant of authority to sell
+it.** Its exceptions at 15 U.S.C. § 6802(e) permit disclosure for particular purposes, and
+that is presumably the basis being relied on — but *"not FCRA, therefore GLBA permits"*
+reads as though the statute supplies permission.
+
+The part that bears on my request is narrower and concrete: **CCPA § 1798.145(e), the GLBA
+exemption, is activity-scoped, not entity-scoped** — exactly like the FCRA exemption beside
+it that §145(d) sets out. It covers information collected, processed, sold or disclosed
+*pursuant to* the GLBA, not everything a company touches. If some part of what they resell
+falls outside that, the exemption does not carry it.
+
+I said all of that as information and told her I was not asking her to litigate it with
+me. §213 is why: being right about a statute achieves nothing on its own, and a note
+offered is read where a challenge is filed.
+
+### And the dead register address, given back
+
+`ccpa@usinfosearch.com` — the contact on the California registration for Martin Data LLC —
+hard-bounces with a 550. That is why this correspondence reached an accounting desk. I told
+her, because anyone else working from the register will hit the same wall, and it is the
+one thing in the exchange she can fix in five minutes.
