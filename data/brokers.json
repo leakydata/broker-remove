@@ -20313,8 +20313,8 @@
       "source": "ca_data_broker_registry",
       "optery_slug": null,
       "email_to": "privacyrequests@vericast.com",
-      "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified": false,
+      "email_verified_by": "bounced",
       "registry_years": [
         "2024"
       ],
@@ -20322,7 +20322,8 @@
       "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (SILENT_FAILURES 170): filings have lapsed, so the 163 domain check ran and CLEARED this row -- the site is live and carries the registrant's own name, so the domain has not been re-registered by anyone else. Safe to send normally; no further domain check needed.",
       "category": "adtech",
       "category_source": "site_classifier 2026-08-30",
-      "route_evidence": "filed"
+      "email_verified_was": "ca_data_broker_registry",
+      "route_evidence": "none"
     },
     {
       "id": "valassis_communications_inc_an_rrd",

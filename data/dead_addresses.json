@@ -190,19 +190,19 @@
     "security@audiencepoint.com": {
       "kind": "restricted_group",
       "observed": "2026-08-24",
-      "evidence": "Rejected as a restricted Google Workspace group, 2026-08-24. Not the registry's primary contact — privacy@audiencepoint.com (the correct, verified address) delivers fine.",
+      "evidence": "Rejected as a restricted Google Workspace group, 2026-08-24. Not the registry's primary contact \u2014 privacy@audiencepoint.com (the correct, verified address) delivers fine.",
       "response": "A privacy@ alias configured as an INTERNAL-ONLY group. It works for staff and silently rejects every consumer, so the company believes it works. Tell them, and use any alternate address. REPORTED 2026-08-29 via privacy@audiencepoint.com; retest before assuming it is still shut."
     },
     "privacy@modigie.com": {
       "kind": "restricted_group",
       "observed": "2026-08-19",
-      "evidence": "Rejected as a restricted Google Workspace group, 2026-08-19. Already superseded — registry's email_to was corrected to dpauli@modigie.com on 2026-08-22.",
+      "evidence": "Rejected as a restricted Google Workspace group, 2026-08-19. Already superseded \u2014 registry's email_to was corrected to dpauli@modigie.com on 2026-08-22.",
       "response": "A privacy@ alias configured as an INTERNAL-ONLY group. It works for staff and silently rejects every consumer, so the company believes it works. Tell them, and use any alternate address. REPORTED 2026-08-29 via dpauli@modigie.com; retest before assuming it is still shut."
     },
     "info@openpeoplesearch.com": {
       "kind": "no_such_mailbox",
       "observed": "2026-08-26",
-      "evidence": "550 address not found, 2026-08-26. This is the exact address published on the broker's own privacy policy — domain and MX are healthy, only the mailbox is absent. Registry uses the web form at /Consumer as primary.",
+      "evidence": "550 address not found, 2026-08-26. This is the exact address published on the broker's own privacy policy \u2014 domain and MX are healthy, only the mailbox is absent. Registry uses the web form at /Consumer as primary.",
       "response": "The mailbox is absent though the domain is healthy. Find another published address; the company may not know this one is dead."
     },
     "legal@onemata.com": {
@@ -244,7 +244,7 @@
     "dataprivacy@sourceitmarketing.com": {
       "kind": "no_such_mailbox",
       "observed": "2026-08-27",
-      "evidence": "No such recipient, 2026-08-27. This entry (sourceit_technologies) is a duplicate CA registration of 'sourceit', which has a working address (dataprivacy2026@sourceitmarketing.com) already on file — do not resend here.",
+      "evidence": "No such recipient, 2026-08-27. This entry (sourceit_technologies) is a duplicate CA registration of 'sourceit', which has a working address (dataprivacy2026@sourceitmarketing.com) already on file \u2014 do not resend here.",
       "response": "The mailbox is absent though the domain is healthy. Find another published address; the company may not know this one is dead."
     },
     "privacy@leadershipconnect.io": {
@@ -262,25 +262,25 @@
     "privacy@keyopinionleaders.com": {
       "kind": "dead_domain",
       "observed": "2026-08-20",
-      "evidence": "Domain has no NS/SOA/A/MX records at all — the registration has lapsed. Reads as a soft delay for 48h before hard-bouncing, 2026-08-20.",
+      "evidence": "Domain has no NS/SOA/A/MX records at all \u2014 the registration has lapsed. Reads as a soft delay for 48h before hard-bouncing, 2026-08-20.",
       "response": "The domain itself is gone. Check whether a stranger has re-registered it before sending anything (SILENT_FAILURES 163)."
     },
     "privacy@infofree.com": {
       "kind": "no_such_mailbox",
       "observed": "2026-08-22",
-      "evidence": "550 address not found. Already superseded — registry's email_to was corrected to info@infofree.com on 2026-08-22.",
+      "evidence": "550 address not found. Already superseded \u2014 registry's email_to was corrected to info@infofree.com on 2026-08-22.",
       "response": "The mailbox is absent though the domain is healthy. Find another published address; the company may not know this one is dead."
     },
     "ccpa@leadmemedia.com": {
       "kind": "no_such_mailbox",
       "observed": null,
-      "evidence": "550 address not found. Already superseded — registry's email_to was corrected to californiaregistry@leadmemedia.com.",
+      "evidence": "550 address not found. Already superseded \u2014 registry's email_to was corrected to californiaregistry@leadmemedia.com.",
       "response": "The mailbox is absent though the domain is healthy. Find another published address; the company may not know this one is dead."
     },
     "contact@join5x5.com": {
       "kind": "dead_domain",
       "observed": null,
-      "evidence": "Domain has no MX and no A record at all — publishes no working mail route. Registry note flags this as almost certainly a typo in the CA filing; the entry is held out of the send queue as a duplicate of five_by_five.",
+      "evidence": "Domain has no MX and no A record at all \u2014 publishes no working mail route. Registry note flags this as almost certainly a typo in the CA filing; the entry is held out of the send queue as a duplicate of five_by_five.",
       "response": "The domain itself is gone. Check whether a stranger has re-registered it before sending anything (SILENT_FAILURES 163)."
     },
     "info@hellofyllo.com": {
@@ -328,7 +328,7 @@
     "privacy@speedeon.com": {
       "kind": "dead_domain",
       "observed": "2026-08-28",
-      "evidence": "Permanent failure 2026-08-28 after three days of delays. speedeon.com has NS and A records but NO MX -- the §86 'website with no mail server' case: RFC 5321 falls back to the A record, nothing listens on port 25, and the sender reports delays for days before giving up. NOT the registry route and NOT a problem: the broker is speedeon_data, its filed contact is accounting@speedeondata.com on a DIFFERENT domain, and that address produced a confirmation. This entry only stops a later pass retrying the wrong domain.",
+      "evidence": "Permanent failure 2026-08-28 after three days of delays. speedeon.com has NS and A records but NO MX -- the \u00a786 'website with no mail server' case: RFC 5321 falls back to the A record, nothing listens on port 25, and the sender reports delays for days before giving up. NOT the registry route and NOT a problem: the broker is speedeon_data, its filed contact is accounting@speedeondata.com on a DIFFERENT domain, and that address produced a confirmation. This entry only stops a later pass retrying the wrong domain.",
       "response": "The domain itself is gone. Check whether a stranger has re-registered it before sending anything (SILENT_FAILURES 163)."
     },
     "compliance@logiq.com": {
@@ -417,6 +417,12 @@
       "evidence": "Their own autoresponder: 'We recently updated our data subject request intake process... This means that this email address is no longer part of our data subject request process and IT IS NOT BEING MONITORED.' The mailbox accepts and autoresponds, so it is not a bounce -- the company simply states that nobody reads it. It remains the contact on their California data broker registration. See SILENT_FAILURES 205.",
       "response": "The company has declared its own registered contact abandoned. Do not send here again and do not treat an autoresponse as receipt. Use the route the autoresponder names -- here a Google Form or a toll-free number -- and note that a phone route avoids the third-party-form disclosure entirely.",
       "use_instead": "https://docs.google.com/forms/d/e/1FAIpQLSdXAQsI4b0angLCONbwT4B4YSFiPyVMMLzizCuBSnPZmsTp_g/viewform or (877) 860-0086"
+    },
+    "privacyrequests@vericast.com": {
+      "kind": "no_such_mailbox",
+      "first_seen": "2026-08-31",
+      "response": "550 Address not found -- 'the address couldn't be found, or is unable to receive mail'",
+      "evidence": "Bounced within 6 seconds of send, 2026-08-31 03:09. This address is the contact on the California data broker registration for 'Valassis Communications, Inc., a Vericast Business' (2024). Same shape as SF 205/206: filed on the register, does not work."
     }
   }
 }

@@ -13662,3 +13662,114 @@ answer buried under **two note-less duplicate history entries** written a second
 anything reading the last entry saw nothing. Fifteen such duplicates across two rows are
 now dropped, and the rule is in the cleanup: *a note-less entry repeating the previous
 status records nothing and hides the entry that does.*
+
+## §210 — registered for seven years as the thing they say they are not
+
+VRTCAL Markets sent the fullest service-provider deflection I have received. It is
+worth recording because it is *well made* — it cites the regulation, quotes it
+accurately, and gives real opt-out instructions. It is also wrong in a specific and
+correctable way, and the way it is wrong is the interesting part.
+
+Their position: VRTCAL is a **service provider** to app and CTV publishers, so under
+§ 999.314(e) it cannot act on a request to know or delete, and an opt-out must go to
+the publisher. And:
+
+> "VRTCAL NEVER receives information directly identifying an individual such as name,
+> email address, phone number... so this information is never stored on our platform"
+
+### The contradiction that outranks the rest
+
+**VRTCAL is on the California data broker register, and has been every year from 2020
+through 2026.**
+
+A data broker is a business that knowingly collects and *sells* personal information
+of consumers it has no direct relationship with (§ 1798.99.80(c)). The definition
+carves out FCRA, GLBA and DPPA entities. **It does not carve out service providers** —
+because a service provider does not sell, which is what makes it one.
+
+So the two claims cannot both hold. Either they sell, and § 1798.120 binds them
+directly, or they do not, and seven consecutive years of registration are in error. I
+asked which, and said plainly that a *precautionary* registration would be a fine
+answer if that is the truth. It probably is. But it should be said rather than left
+to sit under a letter denying the same activity.
+
+### "Directly identifying" is not the statutory test
+
+The second error is the most common substitution in this entire file, and it is
+almost always made sincerely.
+
+They deny receiving **direct identifiers**, then conclude they hold no **personal
+information**. But § 1798.140(v)(1)(A) lists "unique personal identifier, online
+identifier, Internet Protocol address" as personal information, § 1798.140(aj)
+defines unique personal identifier to include device identifiers, cookies and
+probabilistic identifiers, and precise geolocation is *sensitive* PI under
+§ 1798.140(ae)(1)(C).
+
+By their own description they receive IP address, mobile advertising identifiers,
+precise location, cookies and device make and model. Every one is personal
+information as the statute defines it. **The narrower category was substituted for
+the statutory one, and the answer given is to a question I did not ask.**
+
+Two smaller points went back with it: § 999.314(e) is from the 2020 AG regulations
+and the operative service-provider duties now sit at §§ 7050–7051 (which require
+*assisting* the business), and device-level opt-out is not the same right — it is
+per-device, forward-looking only, and erased by a reset.
+
+### The part that is my own fault
+
+Their reply contains this: *"other than your email request below where you provided
+your name, address, age and email address."*
+
+I did not send an address or an age. Both were marked withheld, deliberately. So the
+sentence is wrong — but the shape of it is not, and it lands on the thing the
+minimised letter exists to prevent:
+
+**Before I wrote, VRTCAL held no direct identifier for me. It now holds my name and
+twelve email addresses, because I sent them in order to ask it to hold nothing.**
+
+That is the cost of the identifier-keyed letter, stated by the recipient. The
+minimisation was right — it is why they hold no DOB and no postal address — but it
+does not make the residue zero. I have asked them to delete the correspondence beyond
+what compliance evidence requires, and not to load any of it into the ad platform.
+Whether they do is not something I can verify, which is the honest end of that
+paragraph.
+
+## §211 — the answer I stopped pressing for, given anyway
+
+Against all of that, ListMatch. Three questions asked once, three answered plainly:
+
+    Other registered entities?        "None others."
+    Hash per company or group-wide?   "Yes applies to them all."
+    Why did the CA registration lapse?
+        "I submitted to CA when their laws came out but then business decision
+         based on very few customers we pulled out of California."
+
+**Group-wide suppression, stated in terms.** That is the answer §193 and §195 have
+been circling for weeks — whether a suppression attaches to the person or only to the
+keys and the brand that received them — and here it covers every company the operator
+runs, so SourceIt closes on the same answer without a separate letter.
+
+The registration answer is §204 volunteered rather than extracted: **a commercial
+withdrawal from a state is not a statement about what a company holds.** He said so
+himself, without being asked to distinguish them.
+
+He also qualified the supplier list he had given earlier — *"we rarely buy data unless
+a client requests, most of the time clients come in with their own lists"* — which
+reframes those seven names as client-driven purchases rather than a standing supply
+chain. That is a correction against his own earlier answer's apparent weight, offered
+unprompted.
+
+I had told him I would treat the matter as resolved and would not press further. He
+answered anyway. Both rows are closed, and I am not writing again.
+
+### And one more register contact that does not work
+
+`privacyrequests@vericast.com` — the contact on the Valassis Communications data
+broker registration — **hard-bounced six seconds after send**: *address not found, or
+is unable to receive mail.*
+
+Straight into §206. The row said `email_verified: true` on the basis
+`ca_data_broker_registry`, which only ever meant the address appears on a register.
+Demoted with `email_verified_was` preserved per the rule that entry established, and
+queued for a real route: Vericast runs a large privacy programme, so a working address
+almost certainly exists and the filed one is simply stale.
