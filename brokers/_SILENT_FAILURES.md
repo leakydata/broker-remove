@@ -14719,3 +14719,86 @@ achieved nothing because a template answered a letter about the template. Citing
 regulation as a threat invites a canned reply; citing it as a question about a specific
 field invites a person. **Both letters are equally correct on the law. Only one of them
 can be answered by a human in a sentence.**
+
+## §224 — a suppression list is the first thing lost in a migration
+
+`zerotoone.ai` was one of the residue rows with no category, so I read the homepage. It
+says:
+
+> "ZeroToOne.AI has acquired **GroundTruth**... bringing together ZeroToOne's predictive
+> intelligence AI platform and GroundTruth's scaled real-world signal network."
+
+I have an **open, unresolved request with GroundTruth** — location and visitation data,
+mobile advertising identifiers, observed visits versus mapped places. It has been sitting
+at `legal@groundtruth.com` since before the acquisition surfaced in my data.
+
+So the letter went to the acquirer, copying the acquired company, and the first question
+is not about data at all:
+
+**Does a pending consumer request transfer with the business?**
+
+A request in flight during an acquisition is among the easiest things in the world to
+lose. It is not a customer, not a contract, not revenue — it is an obligation sitting in
+an inbox that may no longer be monitored. I said explicitly that I am not asking anyone to
+answer it twice; I am asking whether it is still alive and who owns it now.
+
+### The asymmetry that makes suppression different
+
+Then the substantive question, which I do not think I have put anywhere in this file
+before:
+
+**If GroundTruth applied a suppression entry for anyone, does it survive the migration?**
+
+Consider what happens when each kind of record fails to carry over:
+
+    A deletion that fails to migrate is VISIBLE.
+        Records are missing. Somebody notices. The migration gets fixed.
+
+    A suppression that fails to migrate is INVISIBLE.
+        The exclusion table is not revenue-generating. It is not what anyone tests
+        against. Its entire purpose is to make certain records NOT appear.
+
+Drop the exclusion table and **the system looks healthier** — more records, better match
+rates, improved coverage. Every metric a migration is judged on moves in the right
+direction. Nothing alerts.
+
+And the only people who could notice are the ones who asked to be excluded — who, by
+definition, are not looking. **The people most affected by a lost suppression list are
+precisely the people who cannot detect the loss.**
+
+That is why I asked during the integration rather than in a year, when the answer would
+be archaeology. And I said plainly that *"suppression entries did not carry over"* is a
+**good** answer — far more useful than a confirmation quietly resting on a table that no
+longer exists.
+
+### Why this generalises past one acquisition
+
+Every §138 corroboration test in this file assumes the confirmation and the data stay in
+the same company. Acquisitions break that assumption silently. §191 caught succession
+running *backwards* — an autoresponder revealing that Lotame's obligations had passed to
+Epsilon. This is the same seam running *forwards*, and it is worse, because:
+
+- the confirmation I hold was true when written;
+- the company that wrote it no longer operates the system;
+- and the artifact that carried the promise is the one least likely to be migrated.
+
+**A suppression confirmation is only as durable as the company's next corporate
+transaction.** Nothing in a deletion letter reaches across one, and nothing in my tracker
+would have told me — I found this because a homepage I fetched for a category label
+happened to say so.
+
+Which is an argument for the residue work being worth doing at all: I opened that page to
+fill in a `category` field.
+
+### The rest of the letter
+
+Standard location doctrine, plus § 1798.121 limit-use, since **precise geolocation is
+sensitive personal information** under § 1798.140(ae)(1)(C) and a visitation record is
+precise geolocation with a purpose attached. Model output named specifically, because
+deleting an observation log while keeping the audience segment built from it is not
+deletion.
+
+And no mobile advertising identifier, stated as a refusal rather than an omission:
+supplying a MAID to a location-intelligence company in order to be removed would hand
+them a fresh, precisely-dated link between a device and a named person — the exact record
+the letter objects to. §220's principle, third outing.

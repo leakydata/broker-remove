@@ -21722,7 +21722,9 @@
         "2026"
       ],
       "legal_name": null,
-      "listing_basis": "state_register"
+      "listing_basis": "state_register",
+      "category": "adtech",
+      "category_source": "hand 2026-08-31 (AI marketing platform; acquirer of GroundTruth location data)"
     },
     {
       "id": "ziff_davis",
