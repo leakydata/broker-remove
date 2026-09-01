@@ -16986,3 +16986,75 @@ business licenses information about people onward, an account purge would not ha
 
 **Related:** §252 (the argument, now evidenced); §250 (the supplement that added this address to
 other letters); the closed-mailbox rule, which until today was a caution and is now a finding.
+
+---
+
+## §255 — "we searched and found nothing" was true, and the evidence to disprove it was in my inbox
+
+Pipl answered a request on 21 August with a clean, honest nil:
+
+> *"We did not find any profiles in our system that match the data points provided."*
+
+That is the §205 shape in its purest form. A support team searches the system it owns; the answer
+is entirely truthful about that system and silent about every other one; and **the requester has
+no way to tell the difference.** Most of this file is about failures nobody can see. This is one
+that was visible only by accident.
+
+**The accident: their own marketing was still in the mailbox.** Five messages from 2018 and 2019
+— API service-interruption notices addressed *"Dear API customer"*, index-update announcements,
+and a GDPR-compliance mailing sent from the very address that later returned the nil. Several
+said *"Go to your account."*
+
+So there had been a commercial relationship, and personal data attached to it — account records,
+billing, support tickets, mailing-list membership, API usage. **None of that is a "profile"**,
+which is exactly why a profile search returned nothing while the data still existed.
+
+The follow-up therefore asked for something narrower than "look again": *search beyond the
+profile index — customer and account records, CRM, billing, ticketing, marketing systems — and
+**tell me which systems were searched** rather than only whether something was found.*
+
+### What came back
+
+> *"After looking through our **internal (non-public) facing system**, we did find an account
+> associated with [the address]. This account had been permanently disabled… We cannot remove
+> this account from our internal system, as it's not allowed."*
+
+**They searched a different system, found the thing, and said so** — without defending the first
+answer and without requiring proof of anything. That is the correct response to a challenged nil,
+and it is rare enough to be worth naming as the good outcome it is.
+
+### The three things this establishes
+
+**1. A nil is a statement about a system, not about a company.** Every negative answer in this
+file should now be read as *"nothing in the system the person answering searched."* That is not
+cynicism — it is what the Pipl exchange proves, and the fix is already in the standard letter:
+ask *which systems were searched*, not merely whether something was found.
+
+**2. Corroboration works, and it has to be specific.** A general "are you sure?" would have got a
+restatement. Five dated subject lines from their own outbound mail could not be restated away.
+§138 said a confirmation is corroborated only by something only this request could have produced;
+this is the mirror image — **a nil is refuted only by evidence the company itself generated.**
+
+**3. And the evidence was luck.** The only reason any of this surfaced is that a mailbox from 2018
+still held the messages. Nobody can generally run that check. For every nil where the requester
+has no old email to hand, the narrower answer stands unchallenged and looks identical to a
+complete one.
+
+### The part that is not about me
+
+An account at a people-search company may retain **a history of the searches it ran** — and a
+search history at Pipl is not data about the account holder alone. **It is a list of other
+people's names.**
+
+So the follow-up asks whether the retained record includes query logs, and if so requests their
+deletion on two grounds: they are personal information about the requester, since a record of what
+someone looked at is as revealing as anything in a profile; and they are personal information
+about **third parties who never had any dealings with the company at all**, retained now for no
+operational purpose, on an account permanently disabled and incapable of being used again.
+
+That is the §244/§246 shape — *the data subject is someone else entirely* — arriving from the
+opposite direction: not data a company collected about strangers, but data a *customer* generated
+about strangers, which outlives the customer's account.
+
+**Related:** §205 (the system the answerer owns); §138 (corroboration); §244, §246 (the data
+subject is the other side); §252 (a suppression discloses nothing).
