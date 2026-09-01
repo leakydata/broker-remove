@@ -52,7 +52,7 @@ To help you locate my records, my identifying details are:
 {scope_block}
 
 {prior_rationale}
-{suppress_block}
+{suppress_block}{sensitive_block}
 I am exercising rights available to me under applicable state consumer privacy
 law, including the California Consumer Privacy Act as amended by the CPRA
 (Cal. Civ. Code 1798.105 and 1798.120) where applicable, and comparable statutes
@@ -103,6 +103,105 @@ Regards,
 {name}
 {contact}
 """
+
+# SENSITIVE-CATEGORY DECLARATIONS, taken from the broker's own state filing.
+#
+# Every California registrant answers three yes/no questions: does it collect
+# minors' personal information, consumers' precise geolocation, and consumers'
+# reproductive health care data. 137 answer yes to geolocation, 38 to minors, 15
+# to reproductive health -- and none of that was in any letter this project sent
+# before 1 September 2026, because nobody had read those columns (§239).
+#
+# It matters because § 1798.121 -- limit the use and disclosure of sensitive
+# personal information -- is a DISTINCT right. It is not satisfied by a deletion
+# and not satisfied by an opt-out, it does not require identity verification, and
+# a letter that asks only for the other two leaves it on the table. Quoting the
+# registrant's own answer back removes any argument about whether the category
+# applies: they said so, on a form, to a regulator.
+# CAREFUL WITH THE CITATIONS. Precise geolocation and health information are both
+# enumerated in the sensitive-personal-information definition at 1798.140(ae), so
+# 1798.121 attaches to them directly. MINORS' PERSONAL INFORMATION IS NOT IN THAT
+# LIST -- it is governed separately by 1798.120(c), which requires opt-in consent
+# before selling or sharing the information of a consumer under sixteen. Citing
+# (ae) for it would be wrong, and a letter that miscites is easier to dismiss than
+# one that says less. So the minors declaration gets its own accurate paragraph
+# below rather than being folded into the 1798.121 direction.
+_SENSITIVE_LABEL = {
+    "precise_geolocation": ("consumers' precise geolocation", "1798.140(ae)(1)(C)"),
+    "reproductive_health": ("consumers' reproductive health care data",
+                            "1798.140(ae)(2)(B)"),
+}
+
+
+def sensitive_block(broker_id, profiles):
+    """Cite the broker's own sensitive-category declarations, or return ''."""
+    recs = (profiles or {}).get(broker_id) or []
+    found, minor_years = {}, set()
+    for rec in recs:
+        for key, on in (rec.get("collects") or {}).items():
+            if not on:
+                continue
+            if key in _SENSITIVE_LABEL:
+                found.setdefault(key, set()).add(rec.get("year"))
+            elif key == "minors":
+                minor_years.add(rec.get("year"))
+    if not found and not minor_years:
+        return ""
+    lines = []
+    if found:
+        lines += ["", "ONE FURTHER RIGHT, WHICH YOUR OWN FILING MAKES RELEVANT",
+                  "",
+                  "Your California data broker registration answers YES to collecting:", ""]
+    for key in ("precise_geolocation", "reproductive_health"):
+        if key in found:
+            label, cite = _SENSITIVE_LABEL[key]
+            years = ", ".join(sorted(found[key]))
+            lines.append("  - %s  (%s filing; Cal. Civ. Code %s)" % (label, years, cite))
+    if found:
+        lines += [
+        "",
+        "Each of those is sensitive personal information. I am therefore also",
+        "exercising Cal. Civ. Code 1798.121 and directing you to LIMIT THE USE AND",
+        "DISCLOSURE of my sensitive personal information to what is necessary to",
+        "perform the services reasonably expected by an average consumer.",
+        "",
+        "That is a right distinct from the deletion and the opt-out above. It is not",
+        "satisfied by either, it applies to each declared category independently, and",
+        "-- like an opt-out -- it is a direction rather than a lookup, so it does not",
+        "require you to verify my identity before honouring it. Please confirm it as a",
+        "separate item rather than folding it into the others.",
+        "",
+        "And one question on each category you declared: is any such data associated",
+        "with me? A plain no closes that part entirely and I will record it as your",
+        "answer. If a declaration changed between filing years, I would also like to",
+        "know whether the practice changed or the form was answered differently -- and",
+            "if collection stopped, what became of what had already been collected, since a",
+            "change in practice does not by itself dispose of a back file.",
+            "",
+        ]
+    if minor_years:
+        lines += [
+            "",
+            "AND ONE QUESTION ABOUT A DIFFERENT DECLARATION",
+            "",
+            "The same registration answers YES to collecting minors' personal",
+            "information (%s filing). I am an adult and that provision is not mine to" % ", ".join(sorted(minor_years)),
+            "invoke -- Cal. Civ. Code 1798.120(c) requires opt-in consent before selling",
+            "or sharing the information of a consumer under sixteen, and it protects them",
+            "rather than me. I raise it for one narrow reason:",
+            "",
+            "  If any record you hold about me was created while I was a minor, or is",
+            "  keyed to a household rather than to an individual, please say so.",
+            "",
+            "A household-keyed record is the case worth checking. Deleting my row from one",
+            "does not necessarily remove the household, and a household record built when",
+            "there were minors in it can carry attributes derived from them. I am not",
+            "asking you to tell me anything about another person -- only whether the record",
+            "you hold is about me or about an address with several people attached to it.",
+            "",
+        ]
+    return "\n".join(lines)
+
 
 CONTACT_NOTE = ("\nThat address is a contact address for this request; the "
                 "records to be deleted are\nthose associated with the details "
@@ -428,7 +527,30 @@ def render(b, prof, to=None, contact=None, keys="full"):
         broker=b.get("name", b["id"]),
         contact=contact,
         contact_note="" if contact == prof["email"] else CONTACT_NOTE,
+        sensitive_block=sensitive_block(b["id"], _register_profiles()),
         **prof)
+
+
+_PROFILE_CACHE = {}
+
+
+def _register_profiles():
+    """Sensitive-category declarations, built by scripts/register_profile.py.
+
+    Absent on a fresh checkout -- the file is generated, not committed as a
+    prerequisite -- so a missing file must degrade to no block rather than
+    crashing the generator. A letter without the 1798.121 paragraph is weaker;
+    a letter that never renders is useless.
+    """
+    if "v" not in _PROFILE_CACHE:
+        p = ROOT / "data" / "register_profiles.json"
+        try:
+            _PROFILE_CACHE["v"] = json.loads(p.read_text())
+        except Exception:
+            _PROFILE_CACHE["v"] = {}
+            print("  NOTE: data/register_profiles.json missing or unreadable -- "
+                  "no sensitive-category paragraph. Run scripts/register_profile.py.")
+    return _PROFILE_CACHE["v"]
 
 
 def main():
