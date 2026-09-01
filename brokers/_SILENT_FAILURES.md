@@ -15704,3 +15704,108 @@ on the privacy page naming West Publishing Corp as the registered entity would c
 for everyone else who looks. I said plainly that the filing itself is correct and I was not
 suggesting otherwise — the gap is in how it looks from outside, which is exactly the thing
 a company cannot see and I can.
+
+---
+
+## §236 — the directory was right about the domain and wrong about the site
+
+I wrote to PhoneOwner describing it, in my own tracker, as *"the highest-value row in the
+residue cohort — a genuine people-search keyed on telephone number rather than name."* The
+letter led with the listing-URL ask, because reverse-lookup services publish results as
+pages and I wanted the URL of mine.
+
+The letter bounced. Reading the site afterwards showed it was wrong on its premise. Their
+About page says it plainly:
+
+> Despite the domain's history as a phone directory, this site does not identify the owners
+> of phone numbers.
+
+It holds no names, no addresses, no personal data, and no user-submitted reports about
+individual numbers. It is a static reference on the North American Numbering Plan built from
+NANPA public reports — area codes, NXX prefixes, rate centres, which carrier and rate centre
+a *block* belongs to. The privacy policy matches: no analytics, no cookies, no accounts, and
+the search runs client-side against a static index. Public numbering data describes carriers
+and localities, never subscribers.
+
+**The directory listing is not wrong. It is out of date by one change of ownership.** Optery
+recorded `phoneowner.com` when phoneowner.com was a phone directory, and the domain outlived
+the product. A broker directory keys on a domain; a domain is not a company and does not
+retire when the company behind it does.
+
+This is the mirror image of §235. There, the third-party directory knew about a broker my
+register did not; the directory was right about the present. Here the directory is right
+about the *past* and my row inherited the tense. Both failures come from the same place: a
+`listing_basis` tells you where a claim came from, not when it was true.
+
+**And I made the §214 mistake again.** §214 was: I asserted a company was a registered data
+broker when my own data did not say so. This is the same shape one field over — I asserted
+what a company *does* from the `category` my own classifier assigned, and wrote the letter
+around it. The classifier had read a domain name and a stub. The company's own About page,
+one fetch away, said the opposite in a sentence.
+
+The only reason the claim never reached anyone is that the mailbox was dead. That is luck,
+not process. The check is the one §214 already installed and I skipped: **before asserting
+what a company does, read what the company says it does.** A category field is a hypothesis
+carried forward from whatever produced it, and mine was produced by a classifier that had
+never seen the About page.
+
+**The cohort correction.** This also falsifies something I wrote into 72 rows. The
+no-registry-year scan (§173) checked that each domain had live MX and recorded, in every
+row, *"Treat the ADDRESS as reliable."* Live MX proves the **domain** accepts mail for some
+mailbox. It says nothing about whether **this** mailbox exists. Twenty-eight of those 72 have
+now been written to and two returned 550. All 72 notes have been corrected to say what the
+check actually proved: domain reachable, address unproven until a send succeeds.
+
+**Related:** §235 (the directory was right and my register was silent); §214 (I said a
+company was a registered data broker; my data doesn't); §173 (the no-registry-year cohort);
+§237 (the contact route that cannot report its own failure).
+
+---
+
+## §237 — the only way to contact them is a form pointing at a mailbox that does not exist
+
+Two of the residue letters bounced the same day. Both failures have the same unusual
+property: **the operator has no way to find out.**
+
+PhoneOwner publishes a contact page. The page carries a form. The form is:
+
+    <form class="facts" method="post" action="mailto:contact@phoneowner.com" ...>
+
+A `mailto:` form does not post to a server. It hands the message to whatever mail client the
+visitor happens to have, and for most visitors today that is nothing at all — the click does
+nothing visible. When it does work, the mail goes to `contact@phoneowner.com`, which returns
+**550, address not found**.
+
+So the channel fails at both ends, and neither failure is observable from the inside:
+
+- **Nothing reaches their server**, because a `mailto:` form never touches it. There is no
+  submission log, no error rate, no empty-inbox anomaly to notice.
+- **The bounce goes to the sender**, not to them. I have the 550. They do not.
+
+Meanwhile their privacy policy makes a retention commitment about this channel: *"If you
+write to us, we keep the correspondence for as long as needed to handle it."* That sentence
+is about mail that cannot arrive.
+
+Best of History Web Sites is the same shape by a different route. Its published address
+bounces; its `/contact` page has neither a form nor an address on it; and `www.` does not
+resolve at all, only the apex. A site with a Contact link in its navigation has no working
+way to be contacted, and — again — no signal that this is so.
+
+**Why this matters beyond two dead rows.** Every framework I have written assumes that
+silence from a company means a decision: they read it and declined, or they read it and did
+nothing. §205 named the case where a company cannot observe its own non-response. This is
+one layer earlier — the message never became a message. A `mailto:` form is the purest
+version, because it is a contact route that has never carried a single request and cannot
+report that fact.
+
+The practical rule: **a bounce is evidence about the company, and a published-but-dead
+address is stronger evidence than a stale directory entry.** Both these addresses were on the
+company's own pages, not scraped from a third party. A directory entry rots because nobody
+maintains it. A self-published address that returns 550 means nobody has tried to reach them
+through it and told them, which is its own finding about how much traffic the channel gets.
+
+Neither row is being closed as *confirmed no data*. Both are `unreachable`, with the reason
+recorded as the site's own evidence rather than as a company's answer. Those are different
+things and the ledger should not blur them.
+
+**Related:** §205 (the failure the company cannot see); §236; §173.

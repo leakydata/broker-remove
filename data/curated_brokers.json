@@ -11389,7 +11389,7 @@
       "email_verified_by": "published_general_mailbox",
       "note": "Added on a category hypothesis (firms that may hold pre-redaction WHOIS records), NOT on evidence about this company. Verify the actual product line before writing - ViewDNS was on this list and does not offer historical WHOIS. See _SILENT_FAILURES.md 67 correction.",
       "notes": "sales@whoisxmlapi.com is the only address published on the site and is a general mailbox, not a rights channel. Re-check for a privacy contact before treating silence as refusal.",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "listing_basis": "own_research"
     },
     {
@@ -11487,7 +11487,7 @@
       "email_to": "support@addressscoop.com",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "category": "screening",
       "category_source": "site_classifier 2026-08-30",
       "listing_basis": "third_party_directory"
@@ -11505,7 +11505,7 @@
       "email_to": "support@aeroleads.com",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "category": "people_search",
       "category_source": "site_classifier 2026-08-30",
       "listing_basis": "third_party_directory"
@@ -11523,7 +11523,7 @@
       "email_to": "privacy@affluense.ai",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "category": "b2b_contact",
       "category_source": "site_classifier 2026-08-30",
       "listing_basis": "third_party_directory"
@@ -11541,7 +11541,7 @@
       "email_to": "info@agedsolarleads.com",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "category": "b2b_contact",
       "category_source": "site_classifier 2026-08-30",
       "listing_basis": "third_party_directory"
@@ -11559,7 +11559,7 @@
       "email_to": "privacy@allantgroup.com",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "category": "adtech",
       "category_source": "site_classifier 2026-08-30",
       "listing_basis": "third_party_directory"
@@ -11577,7 +11577,7 @@
       "email_to": "privacy@amedisys.com",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "listing_basis": "third_party_directory"
     },
     {
@@ -11594,7 +11594,7 @@
       "email_verified": false,
       "email_verified_by": "published_general_mailbox",
       "notes": "hello@b2bhint.com is the only address published on the site and is a general mailbox, not a rights channel. Re-check for a privacy contact before treating silence as refusal.",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "listing_basis": "third_party_directory"
     },
     {
@@ -11608,10 +11608,11 @@
       "source": "optery",
       "optery_slug": "besthistorysites-net",
       "email_to": "support@besthistorysites.net",
-      "email_verified": true,
-      "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
-      "listing_basis": "third_party_directory"
+      "email_verified": false,
+      "email_verified_by": "bounced",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here. || 2026-09-01 HARD BOUNCE: support@besthistorysites.net returned 550 address-not-found. See SILENT_FAILURES 236/237.",
+      "listing_basis": "third_party_directory",
+      "email_verified_was": "privacy_policy"
     },
     {
       "id": "buyersroad",
@@ -11628,7 +11629,7 @@
       "email_verified_by": "offdomain_needs_confirmation",
       "notes": "support@experience.com is not on buyersroad.co -- the site publishes no address on the broker's own domain. Either an acquisition (route is correct) or a wrong domain in the registry (route is a stranger). Confirm the corporate relationship before sending: the letter carries a full identifier set. Resolves to experience.com, the same site as experience. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the experience thread rather than opening a second request.",
       "duplicate_of": "experience",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here. || 2026-08-29 SECOND ADDRESS FOR A CONTACTED COMPANY (SILENT_FAILURES 177). duplicate_of=experience, which is already confirmed -- but at a DIFFERENT address (privacy@experience.com); this row's is support@experience.com. Deliberately left PENDING: an acquired or renamed entity often keeps a legacy file the successor's privacy desk never sees, and the old address is the only route to it. Write to it as its own target, referencing the canonical, rather than treating it as a duplicate to be closed.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here. || 2026-08-29 SECOND ADDRESS FOR A CONTACTED COMPANY (SILENT_FAILURES 177). duplicate_of=experience, which is already confirmed -- but at a DIFFERENT address (privacy@experience.com); this row's is support@experience.com. Deliberately left PENDING: an acquired or renamed entity often keeps a legacy file the successor's privacy desk never sees, and the old address is the only route to it. Write to it as its own target, referencing the canonical, rather than treating it as a duplicate to be closed.",
       "listing_basis": "third_party_directory"
     },
     {
@@ -11644,7 +11645,7 @@
       "email_to": "privacy@cbinsights.com",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "category": "b2b_contact",
       "category_source": "site_classifier 2026-08-30",
       "listing_basis": "third_party_directory"
@@ -11662,7 +11663,7 @@
       "email_to": "privacy@clay.com",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "category": "b2b_contact",
       "category_source": "site_classifier 2026-08-30",
       "listing_basis": "third_party_directory"
@@ -11680,7 +11681,7 @@
       "email_to": "support@clodura.ai",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "category": "b2b_contact",
       "category_source": "site_classifier 2026-08-30",
       "listing_basis": "third_party_directory"
@@ -11698,7 +11699,7 @@
       "email_to": "privacy@comscore.com",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "category": "adtech",
       "category_source": "site_classifier 2026-08-30",
       "listing_basis": "third_party_directory"
@@ -11739,7 +11740,7 @@
       "email_to": "support@courtrec.com",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "category": "people_search",
       "category_source": "site_classifier 2026-08-31",
       "listing_basis": "third_party_directory"
@@ -11781,7 +11782,7 @@
       "email_to": "gdpr@datagma.com",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "category": "b2b_contact",
       "category_source": "site_classifier 2026-08-30",
       "listing_basis": "third_party_directory"
@@ -11800,7 +11801,7 @@
       "email_verified": false,
       "email_verified_by": "offdomain_needs_confirmation",
       "notes": "hello@fruits.co is the only address published on the site and is a general mailbox, not a rights channel. Re-check for a privacy contact before treating silence as refusal. hello@fruits.co is not on datalead.io -- the site publishes no address on the broker's own domain. Either an acquisition (route is correct) or a wrong domain in the registry (route is a stranger). Confirm the corporate relationship before sending: the letter carries a full identifier set.",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "listing_basis": "third_party_directory"
     },
     {
@@ -11817,7 +11818,7 @@
       "email_verified": false,
       "email_verified_by": "offdomain_needs_confirmation",
       "notes": "privacy@netamo.com is not on datocapital.com -- the site publishes no address on the broker's own domain. Either an acquisition (route is correct) or a wrong domain in the registry (route is a stranger). Confirm the corporate relationship before sending: the letter carries a full identifier set.",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "listing_basis": "third_party_directory"
     },
     {
@@ -11833,7 +11834,7 @@
       "email_to": "enterprisesupport@domaintools.com",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "listing_basis": "third_party_directory"
     },
     {
@@ -11850,7 +11851,7 @@
       "email_verified": false,
       "email_verified_by": "offdomain_needs_confirmation",
       "notes": "privacy@mentibus.com is not on edgein.io -- the site publishes no address on the broker's own domain. Either an acquisition (route is correct) or a wrong domain in the registry (route is a stranger). Confirm the corporate relationship before sending: the letter carries a full identifier set.",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here. || 2026-08-29: rebranded, edgein.io -> mentibus.xyz; contact privacy@mentibus.com matches the new name.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here. || 2026-08-29: rebranded, edgein.io -> mentibus.xyz; contact privacy@mentibus.com matches the new name.",
       "category": "adtech",
       "category_source": "site_classifier 2026-08-30",
       "listing_basis": "third_party_directory"
@@ -11868,7 +11869,7 @@
       "email_to": "dataprotectionofficer@equilar.com",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "listing_basis": "third_party_directory"
     },
     {
@@ -11884,7 +11885,7 @@
       "email_to": "info@everydayhealthgroup.com",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here. || 2026-08-29: everydayhealthinc.com -> everydayhealthgroup.com; contact already points at the current name. || 2026-08-30 GROUP: Everyday Health Inc. is one of three registry rows resolving to ZIFF DAVIS (with ziff_davis and campaigner_smtp). A group-level letter went to legal@ziffdavis.com on 2026-08-30 asking whether one request covers all three; if they confirm it does, this row is covered and should not be re-sent.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here. || 2026-08-29: everydayhealthinc.com -> everydayhealthgroup.com; contact already points at the current name. || 2026-08-30 GROUP: Everyday Health Inc. is one of three registry rows resolving to ZIFF DAVIS (with ziff_davis and campaigner_smtp). A group-level letter went to legal@ziffdavis.com on 2026-08-30 asking whether one request covers all three; if they confirm it does, this row is covered and should not be re-sent.",
       "listing_basis": "third_party_directory"
     },
     {
@@ -11900,7 +11901,7 @@
       "email_to": "privacy@exlservice.com",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "listing_basis": "third_party_directory"
     },
     {
@@ -11939,7 +11940,7 @@
       "email_to": "privacy@finalscout.com",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "category": "people_search",
       "category_source": "site_classifier 2026-08-30",
       "listing_basis": "third_party_directory"
@@ -11957,7 +11958,7 @@
       "email_to": "privacy@finalsite.com",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "listing_basis": "third_party_directory"
     },
     {
@@ -11974,7 +11975,7 @@
       "email_verified": false,
       "email_verified_by": "offdomain_needs_confirmation",
       "notes": "privacy@internetbrands.com is not on findlaw.com -- the site publishes no address on the broker's own domain. Either an acquisition (route is correct) or a wrong domain in the registry (route is a stranger). Confirm the corporate relationship before sending: the letter carries a full identifier set.",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "listing_basis": "third_party_directory"
     },
     {
@@ -11990,7 +11991,7 @@
       "email_to": "contact@findwhocallsyou.com",
       "email_verified": false,
       "email_verified_by": "bounced",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "listing_basis": "third_party_directory",
       "category": "people_search",
       "category_source": "hand 2026-08-31 (phone lookup + community reports)",
@@ -12026,7 +12027,7 @@
       "email_to": "dataprotectionteam@flexera.com",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "listing_basis": "third_party_directory"
     },
     {
@@ -12042,7 +12043,7 @@
       "email_to": "privacy@fullcontact.com",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "category": "adtech",
       "category_source": "site_classifier 2026-08-30",
       "listing_basis": "third_party_directory"
@@ -12060,7 +12061,7 @@
       "email_to": "support@fullenrich.com",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "category": "b2b_contact",
       "category_source": "site_classifier 2026-08-30",
       "listing_basis": "third_party_directory"
@@ -12079,7 +12080,7 @@
       "email_verified": false,
       "email_verified_by": "offdomain_needs_confirmation",
       "notes": "getemailsales@dnb.com is not on getemail.io -- the site publishes no address on the broker's own domain. Either an acquisition (route is correct) or a wrong domain in the registry (route is a stranger). Confirm the corporate relationship before sending: the letter carries a full identifier set.",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "category": "b2b_contact",
       "category_source": "site_classifier 2026-08-30",
       "listing_basis": "third_party_directory"
@@ -12097,7 +12098,7 @@
       "email_to": "support@getprospect.com",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "category": "b2b_contact",
       "category_source": "site_classifier 2026-08-30",
       "listing_basis": "third_party_directory"
@@ -12116,7 +12117,7 @@
       "email_verified": false,
       "email_verified_by": "published_general_mailbox",
       "notes": "admin@h1bdata.info is the only address published on the site and is a general mailbox, not a rights channel. Re-check for a privacy contact before treating silence as refusal.",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "listing_basis": "third_party_directory"
     },
     {
@@ -12133,7 +12134,7 @@
       "email_verified_by": "privacy_policy",
       "notes": "Registry domain was hireright.io, which is a live but unrelated site; HireRight LLC is hireright.com. The wrong domain produced a scraped support@hireright.io that would have sent a full identifier set to a stranger.",
       "email_to": "hirerightprivacy@hireright.com",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "category": "people_search",
       "category_source": "site_classifier 2026-08-31",
       "listing_basis": "third_party_directory"
@@ -12197,7 +12198,7 @@
       "email_to": "info@lawlink.com",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "listing_basis": "third_party_directory"
     },
     {
@@ -12213,7 +12214,7 @@
       "email_to": "contact@localpages.com",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "listing_basis": "third_party_directory"
     },
     {
@@ -12229,7 +12230,7 @@
       "email_to": "contact@mansionquest.com",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "listing_basis": "third_party_directory"
     },
     {
@@ -12245,7 +12246,7 @@
       "email_to": "help@mapquest.com",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "listing_basis": "third_party_directory"
     },
     {
@@ -12261,7 +12262,7 @@
       "email_to": "support@merchantcircle.com",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "listing_basis": "third_party_directory"
     },
     {
@@ -12277,7 +12278,7 @@
       "email_to": "support@muraena.ai",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "category": "people_search",
       "category_source": "site_classifier 2026-08-30",
       "listing_basis": "third_party_directory"
@@ -12295,7 +12296,7 @@
       "email_to": "info@namesandfacts.com",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "listing_basis": "third_party_directory",
       "category": "people_search",
       "category_source": "hand 2026-08-31 (site is behind a bot challenge; category from its own name and known business)"
@@ -12313,7 +12314,7 @@
       "email_to": "support@nocallername.com",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "category": "people_search",
       "category_source": "site_classifier 2026-08-30",
       "listing_basis": "third_party_directory"
@@ -12331,7 +12332,7 @@
       "email_to": "dpo@onetrust.com",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here. || 2026-08-29 CATEGORY CHECK (173): OneTrust also appears in _FAMILIES.md as the COMPLIANCE VENDOR whose webforms other brokers hand me. Do not send a broker deletion demand here without deciding whether they are a target or a processor for other companies' privacy programs.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here. || 2026-08-29 CATEGORY CHECK (173): OneTrust also appears in _FAMILIES.md as the COMPLIANCE VENDOR whose webforms other brokers hand me. Do not send a broker deletion demand here without deciding whether they are a target or a processor for other companies' privacy programs.",
       "listing_basis": "third_party_directory"
     },
     {
@@ -12348,7 +12349,7 @@
       "email_verified": false,
       "email_verified_by": "offdomain_needs_confirmation",
       "notes": "contact_us@certlaw.com is not on opendatausa.com -- the site publishes no address on the broker's own domain. Either an acquisition (route is correct) or a wrong domain in the registry (route is a stranger). Confirm the corporate relationship before sending: the letter carries a full identifier set.",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here. || 2026-08-29: the only DEAD site in the cohort -- certlaw.com refuses connections (curl 000), though the email domain still has MX. Verify before writing.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here. || 2026-08-29: the only DEAD site in the cohort -- certlaw.com refuses connections (curl 000), though the email domain still has MX. Verify before writing.",
       "listing_basis": "third_party_directory"
     },
     {
@@ -12364,7 +12365,7 @@
       "email_to": "dataprotectionofficer@optimalfusion.com",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "category": "adtech",
       "category_source": "site_classifier 2026-08-30",
       "listing_basis": "third_party_directory"
@@ -12383,7 +12384,7 @@
       "email_verified": false,
       "email_verified_by": "offdomain_needs_confirmation",
       "notes": "info@virtivox.com is not on peeplookup.net -- the site publishes no address on the broker's own domain. Either an acquisition (route is correct) or a wrong domain in the registry (route is a stranger). Confirm the corporate relationship before sending: the letter carries a full identifier set.",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "category": "people_search",
       "category_source": "site_classifier 2026-08-30",
       "listing_basis": "third_party_directory"
@@ -12399,10 +12400,11 @@
       "source": "optery",
       "optery_slug": "phoneowner-inc",
       "email_to": "contact@phoneowner.com",
-      "email_verified": true,
-      "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
-      "listing_basis": "third_party_directory"
+      "email_verified": false,
+      "email_verified_by": "bounced",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here. || 2026-09-01 HARD BOUNCE: contact@phoneowner.com returned 550 address-not-found. See SILENT_FAILURES 236/237.",
+      "listing_basis": "third_party_directory",
+      "email_verified_was": "privacy_policy"
     },
     {
       "id": "prezi",
@@ -12417,7 +12419,7 @@
       "email_to": "privacy@prezi.com",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "listing_basis": "third_party_directory"
     },
     {
@@ -12435,7 +12437,7 @@
       "email_verified_by": "privacy_policy",
       "duplicate_of": "propertychecker",
       "notes": "Resolves to propertychecker.com, the same site as propertychecker. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the propertychecker thread rather than opening a second request.",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here. || 2026-08-29 SECOND ADDRESS FOR A CONTACTED COMPANY (SILENT_FAILURES 177). duplicate_of=propertychecker, which is already submitted -- but at a DIFFERENT address (privacy@propertychecker.com); this row's is support@propertychecker.com. Deliberately left PENDING: an acquired or renamed entity often keeps a legacy file the successor's privacy desk never sees, and the old address is the only route to it. Write to it as its own target, referencing the canonical, rather than treating it as a duplicate to be closed.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here. || 2026-08-29 SECOND ADDRESS FOR A CONTACTED COMPANY (SILENT_FAILURES 177). duplicate_of=propertychecker, which is already submitted -- but at a DIFFERENT address (privacy@propertychecker.com); this row's is support@propertychecker.com. Deliberately left PENDING: an acquired or renamed entity often keeps a legacy file the successor's privacy desk never sees, and the old address is the only route to it. Write to it as its own target, referencing the canonical, rather than treating it as a duplicate to be closed.",
       "listing_basis": "third_party_directory",
       "category": "people_search",
       "category_source": "hand 2026-08-31 (homepage: search property owners by address, owner name, email and phone)"
@@ -12453,7 +12455,7 @@
       "email_to": "support@publicrecords.info",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "category": "people_search",
       "category_source": "site_classifier 2026-08-31",
       "listing_basis": "third_party_directory"
@@ -12471,7 +12473,7 @@
       "email_to": "support@realsatisfied.com",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "listing_basis": "third_party_directory"
     },
     {
@@ -12487,7 +12489,7 @@
       "email_to": "privacy@peoplerecords.org",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "category": "people_search",
       "category_source": "site_classifier 2026-08-30",
       "listing_basis": "third_party_directory"
@@ -12505,7 +12507,7 @@
       "email_to": "privacy@salesforce.com",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "category": "b2b_contact",
       "category_source": "site_classifier 2026-08-30",
       "listing_basis": "third_party_directory"
@@ -12523,7 +12525,7 @@
       "email_to": "support@salesgear.io",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "category": "b2b_contact",
       "category_source": "site_classifier 2026-08-30",
       "listing_basis": "third_party_directory"
@@ -12543,7 +12545,7 @@
       "email_verified_by": "privacy_policy",
       "duplicate_of": "salesgear",
       "notes": "Resolves to salesgear.io, the same site as salesgear. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the salesgear thread rather than opening a second request.",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "category": "b2b_contact",
       "category_source": "site_classifier 2026-08-30",
       "listing_basis": "third_party_directory"
@@ -12561,7 +12563,7 @@
       "email_to": "support@salesintel.io",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "category": "b2b_contact",
       "category_source": "site_classifier 2026-08-30",
       "listing_basis": "third_party_directory"
@@ -12579,7 +12581,7 @@
       "email_to": "privacy@scribd.com",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "listing_basis": "third_party_directory"
     },
     {
@@ -12595,7 +12597,7 @@
       "email_to": "support@signalhire.com",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "category": "b2b_contact",
       "category_source": "site_classifier 2026-08-30",
       "listing_basis": "third_party_directory"
@@ -12613,7 +12615,7 @@
       "email_to": "dpo@simunix.com",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "category": "people_search",
       "category_source": "site_classifier 2026-08-30",
       "listing_basis": "third_party_directory"
@@ -12631,7 +12633,7 @@
       "email_to": "privacy@sprouts.ai",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "category": "b2b_contact",
       "category_source": "site_classifier 2026-08-30",
       "listing_basis": "third_party_directory"
@@ -12650,7 +12652,7 @@
       "email_verified": false,
       "email_verified_by": "published_general_mailbox",
       "notes": "hello@subsplash.com is the only address published on the site and is a general mailbox, not a rights channel. Re-check for a privacy contact before treating silence as refusal.",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "listing_basis": "third_party_directory"
     },
     {
@@ -12666,7 +12668,7 @@
       "email_to": "info@sysoon.net",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "listing_basis": "third_party_directory",
       "category": "public_records",
       "category_source": "hand 2026-08-31 (grave/cemetery/death record index)"
@@ -12684,7 +12686,7 @@
       "email_to": "support@thegeorgiagazette.com",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "listing_basis": "third_party_directory",
       "category": "local_crime_news",
       "category_source": "hand 2026-08-31 (crime-news publication with editorial standards and its own removal page)"
@@ -12703,7 +12705,7 @@
       "email_verified": false,
       "email_verified_by": "published_general_mailbox",
       "notes": "hello@thisnumber.com is the only address published on the site and is a general mailbox, not a rights channel. Re-check for a privacy contact before treating silence as refusal.",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "category": "people_search",
       "category_source": "site_classifier 2026-08-30",
       "listing_basis": "third_party_directory"
@@ -12721,7 +12723,7 @@
       "email_to": "privacy.enquiries@thomsonreuters.com",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "listing_basis": "third_party_directory"
     },
     {
@@ -12737,7 +12739,7 @@
       "email_to": "support@thryv.com",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "listing_basis": "third_party_directory",
       "category": "list_broker",
       "category_source": "hand 2026-09-01 (successor to Dex Media / YP; legacy directory data, own Directory Opt-Out)"
@@ -12755,7 +12757,7 @@
       "email_to": "privacy@tomba.io",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "category": "b2b_contact",
       "category_source": "site_classifier 2026-08-30",
       "listing_basis": "third_party_directory"
@@ -12773,7 +12775,7 @@
       "email_to": "help@topline.com",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "listing_basis": "third_party_directory"
     },
     {
@@ -12790,7 +12792,7 @@
       "email_verified": true,
       "email_verified_by": "privacy_policy",
       "notes": "hello@traded.co is the only address published on the site and is a general mailbox, not a rights channel. Re-check for a privacy contact before treating silence as refusal.",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "listing_basis": "third_party_directory"
     },
     {
@@ -12806,7 +12808,7 @@
       "email_to": "support@transcend.io",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here. || 2026-08-29 CATEGORY CHECK (173): same as onetrust -- Transcend is a privacy-request platform listed in _FAMILIES.md, not obviously a broker. Decide the category before writing.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here. || 2026-08-29 CATEGORY CHECK (173): same as onetrust -- Transcend is a privacy-request platform listed in _FAMILIES.md, not obviously a broker. Decide the category before writing.",
       "category": "adtech",
       "category_source": "site_classifier 2026-08-30",
       "listing_basis": "third_party_directory"
@@ -12825,7 +12827,7 @@
       "email_verified": false,
       "email_verified_by": "offdomain_needs_confirmation",
       "notes": "info@nevadapolicy.org is not on transparentnevada.com -- the site publishes no address on the broker's own domain. Either an acquisition (route is correct) or a wrong domain in the registry (route is a stranger). Confirm the corporate relationship before sending: the letter carries a full identifier set.",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "category": "people_search",
       "category_source": "site_classifier 2026-08-30",
       "listing_basis": "third_party_directory"
@@ -12844,7 +12846,7 @@
       "email_verified": false,
       "email_verified_by": "published_general_mailbox",
       "notes": "sales@wealthminder.com is the only address published on the site and is a general mailbox, not a rights channel. Re-check for a privacy contact before treating silence as refusal.",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. Treat the ADDRESS as reliable and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
       "listing_basis": "third_party_directory"
     },
     {

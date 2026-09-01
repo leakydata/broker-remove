@@ -640,7 +640,7 @@
     "via": null
   },
   "besthistorysites_net": {
-    "status": "submitted",
+    "status": "unreachable",
     "changed": "2026-09-01",
     "via": "email"
   },
@@ -4045,7 +4045,7 @@
     "via": "email"
   },
   "phoneowner": {
-    "status": "submitted",
+    "status": "unreachable",
     "changed": "2026-09-01",
     "via": "email"
   },
