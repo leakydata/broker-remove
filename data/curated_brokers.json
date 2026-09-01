@@ -24337,6 +24337,24 @@
       "category_source": "named_by_fullenrich 2026-09-01",
       "listing_basis": "named_by_company",
       "email_note": "2026-09-01: NOT A BROKER. Named by FullEnrich as the CLIENT that submitted a reverse lookup on the subject's address on 21 Aug 2026. Held here as a data RECIPIENT so the 1798.105(c) downstream-deletion trail is recorded. See SILENT_FAILURES 246."
+    },
+    {
+      "id": "near_kroll_estate",
+      "name": "Near Intelligence (Ch.11 estate, c/o Kroll)",
+      "domain": "ra.kroll.com",
+      "priority": 3,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "named_by_company",
+      "optery_slug": null,
+      "email_to": "nearinfo@ra.kroll.com",
+      "email_verified": false,
+      "email_verified_by": null,
+      "category": "defunct_broker_estate",
+      "category_source": "named_by_azira 2026-09-01",
+      "listing_basis": "named_by_company",
+      "email_note": "2026-09-01: NOT A BROKER -- the Chapter 11 claims agent for Near Intelligence (Case 23-11962, Bankr. D. Del.). Route reached only because Azira named the docket. Address is Kroll's standard case-mailbox convention and is UNVERIFIED. See _CATEGORY_VARIANTS.md, the bankrupt broker."
     }
   ]
 }

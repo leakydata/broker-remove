@@ -3447,3 +3447,62 @@ licence registers: state plainly what the subject is not (not an attorney, no ba
 say that a name-only match is somebody else, and offer the date of birth **to rule out**. In
 a category this sensitive, deleting the wrong person's record is a worse outcome than
 deleting nothing, and saying so makes the rest of the letter easier to act on.
+
+---
+
+## The bankrupt broker: the register outlives the company, the file outlives both
+
+Near Intelligence was a location-data business. Both its registered entities appear on the
+California data broker register; the filings stop after 2024. Writing to the published routes
+gets you nowhere — one domain is now an unrelated cryptocurrency product under a different
+company entirely, the other redirects to a third product.
+
+So a consumer who does exactly what the register instructs — write to the address published for
+the company holding their data — **reaches a stranger, or reaches nobody.** And a person who
+does not notice the domain has changed hands will hand a full identifier set to a business that
+has never held any of it, which is worse than not asking.
+
+The answer came from a competitor. Azira, whose filings begin where Near's end, said plainly
+that they hold nothing Near-origin and pointed at a **Chapter 11 docket** — Near Intelligence,
+Inc., Case No. 23-11962 (Bankr. D. Del.), sale hearing February 2024, Drivetrain, LLC as Plan
+Administrator.
+
+**That is where a failed broker's file goes, and nothing in the consumer-facing world says so.**
+The register records the entity that filed. It does not record what happened next.
+
+### What to ask, and who to ask
+
+The claims agent is the reachable party. The three questions worth asking are:
+
+**1. Was a consumer privacy ombudsman appointed?** This is the real legal hook, and it is
+specific. Under **11 U.S.C. § 363(b)(1)**, where a debtor sells personally identifiable
+information in a manner inconsistent with a privacy policy in effect on the filing date, the sale
+may not proceed unless an ombudsman is appointed under **§ 332** and the court makes findings.
+Congress wrote that provision precisely because a bankruptcy sale can move personal data out from
+under the promises made when it was collected. For a debtor whose *entire business was consumer
+data*, the question is squarely raised — and the answer is a docket number either way.
+
+**2. Who bought the data assets?** A name is enough. The consumer can write to the purchaser
+themselves; what they cannot do is discover the name, because it sits in a sale order nobody
+outside the case reads.
+
+**3. Does the estate still hold it?** If records stayed with the estate or the plan
+administrator rather than transferring, then there is a custodian and a consumer ought to be able
+to reach them.
+
+### Why this generalises
+
+Every register has entries whose filings simply stop. Some of those companies were acquired —
+that is §216's succession problem, and the acquirer usually still answers mail. **Some went
+bankrupt, and that is a different shape entirely:** there is no successor to write to, the domain
+has been sold to someone unrelated, and the only public record of where the data went is a
+docket.
+
+Two practical rules follow:
+
+- **A register row whose filings stop is not a closed row.** Before marking it unreachable,
+  check whether the entity filed for bankruptcy — a claims-agent portal is a public, searchable
+  route that no privacy workflow thinks to try.
+- **Never send an identifier set to a domain that used to belong to a broker.** Check who
+  operates it now. A resold domain is the one case where writing a careful letter actively
+  creates the exposure it was meant to remove.

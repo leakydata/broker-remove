@@ -555,8 +555,8 @@
     "via": null
   },
   "azira": {
-    "status": "submitted",
-    "changed": "2026-08-24",
+    "status": "replied",
+    "changed": "2026-09-01",
     "via": "email"
   },
   "b_i_science_2009": {
@@ -3502,6 +3502,11 @@
   "nc_solutions": {
     "status": "submitted",
     "changed": "2026-08-19",
+    "via": "email"
+  },
+  "near_kroll_estate": {
+    "status": "submitted",
+    "changed": "2026-09-01",
     "via": "email"
   },
   "near_north_america": {
