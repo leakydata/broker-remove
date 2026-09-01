@@ -16802,3 +16802,70 @@ either one closed matter or a list of letters still to write.
 **Related:** §216 (succession families, found from names); §250 (read the filing first); §239
 (the register was never a list of addresses); §242 (Outlogic and Matchbook's identical metrics,
 noticed there and explained here).
+
+---
+
+## §252 — verification protects against disclosure, and a suppression discloses nothing
+
+HealthLink Dimensions asked for the cleanest version of a demand this project meets constantly.
+They will process the address the request came from, and for each of the other eleven they want
+**a separate email sent from that mailbox**, confirming the name and asking for deletion.
+
+That is a reasonable rule. It is also, in this case, impossible to satisfy for a third of the
+list.
+
+**Four of the eleven cannot send email and never will again.** WebTV shut down in 2013. Gateway's
+ISP business no longer exists. iWon's mail service closed when it was folded into Ask.com. And a
+university mailbox is closed permanently to someone who has left. Nobody can send from those
+addresses — not the subject, not an impostor, not anyone.
+
+**And those four are the addresses most likely to be in the file.** A compiled or licensed record
+is keyed to the address a person used *when the record was made*, not the one they use now. An
+address that died in 2013 is exactly the kind that sits untouched in an old file for a decade,
+which is why it is on the list at all.
+
+So the verification method excludes precisely the identifiers that most need it. Nobody designed
+that; it is what happens when a rule written for live mailboxes meets a twenty-year identifier
+history. The consequence is worth stating in full:
+
+> **The records held under those four addresses can never be deleted — by anyone — because the
+> only proof accepted is one the internet no longer makes possible.**
+
+This is Hunter's Claim gap (§—only usable by someone who still receives mail at the address)
+stated explicitly, in writing, across four addresses at once.
+
+### The argument that answers it, and it generalises
+
+Verification exists for one reason: **to stop a business disclosing personal data to the wrong
+person.** That is a real risk and worth protecting against.
+
+But a suppression request asks for no disclosure at all. So:
+
+> Treat the unverifiable addresses as **search keys for an exclude-only suppression** rather than
+> as a verified deletion request. Add them to a do-not-use entry, used solely to keep the
+> associated records out of outgoing files, and tell me nothing about what was found.
+
+**If the requester is an impostor, that outcome harms nobody.** The real owner of a defunct 2005
+mailbox is not damaged by their old record being excluded from marketing. There is no disclosure,
+no account takeover, no data handed to a stranger — the only effect is that a record stops being
+sold, which is the outcome the real owner would also have chosen.
+
+The asymmetry runs entirely one way, and that is the point: **verification is doing no protective
+work in the suppression case.** It is a control designed for access requests, applied uniformly to
+a request that carries none of the risk it exists to prevent.
+
+Which produces a general rule worth putting in every letter where verification is demanded:
+
+**Separate the ask.** Access and deletion can properly require proof. **Suppression cannot be
+made to, because there is nothing to protect.** A company that cannot verify you can still
+exclude you, and a company that says otherwise has usually not been asked to distinguish the two
+— it applies one identity gate to every request type because that is how the workflow was built.
+
+"Our process cannot separate suppression from deletion" is a real answer and should be
+pre-accepted as one. It records a limitation rather than a refusal, and it is the honest reply
+for most ticketing systems.
+
+**Related:** §242 (an opt-out is not a verifiable consumer request — the same argument from the
+statute rather than from first principles); §222 (the escape hatch, offered and taken); §205,
+§241 (failures the operator cannot observe); the closed-mailbox rule, which this section makes
+the argument for rather than merely the caveat.

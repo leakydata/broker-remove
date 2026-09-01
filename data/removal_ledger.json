@@ -2350,9 +2350,9 @@
     "via": "email"
   },
   "healthlink_dimensions": {
-    "status": "submitted",
-    "changed": "2026-08-27",
-    "via": null
+    "status": "email_pending",
+    "changed": "2026-09-02",
+    "via": "email"
   },
   "healthwise_data": {
     "status": "confirmed",
