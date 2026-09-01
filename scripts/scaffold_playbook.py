@@ -32,7 +32,23 @@ STATE = state("removal_status.json")
 ALIASES = ROOT / "data" / "playbook_aliases.json"
 OUT = ROOT / "brokers"
 
-ACTED = {"submitted", "email_pending", "captcha_blocked", "manual_required", "failed"}
+# Which statuses --missing will scaffold. This list must stay a SUPERSET of what
+# validate.py demands a playbook for, and validate demands one for every status
+# except None and 'pending'. Keeping a narrower list here produces a build that
+# cannot be fixed by any command: validate errors on a missing playbook, and
+# `--missing` declines to write it because the status is not in this set. That
+# happened on the first row given status 'covered_by_sibling'. So: enumerate the
+# in-flight ones for readability, then fall back to "anything not pending".
+_IN_FLIGHT = {"submitted", "email_pending", "captcha_blocked", "manual_required",
+              "failed"}
+
+
+def _acted(status):
+    """True for any status validate.py would require a playbook for."""
+    return status not in (None, "", "pending")
+
+
+ACTED = _IN_FLIGHT  # kept for callers that import it
 
 METHOD_NOTE = {
     "email": "Statutory request by email. No web form needed.",
@@ -213,7 +229,7 @@ def main():
                    if ALIASES.exists() else {})
         have = {p.stem for p in OUT.glob("*.md")}
         ids = [bid for bid, rec in st.items()
-               if rec.get("status") in ACTED
+               if _acted(rec.get("status"))
                and bid not in have
                and aliases.get(bid) not in have]
     else:
