@@ -92,6 +92,48 @@ The template has the structure. What makes one genuinely useful:
 - **Flag upsells.** Some "opt-out" pages funnel into a paid removal service. The
   free statutory path always exists.
 
+## A B2B letter that lists only consumer webmail cannot find anything
+
+This is the most expensive mistake available when writing to a contact-enrichment,
+sales-intelligence or email-finder company, and it is invisible: the reply comes back
+truthful, negative, and final.
+
+**Their index is not keyed to personal email.** Hunter put it plainly when asked:
+
+> *"no, we can't search by name or phone number. Our system only ever indexes
+> professional email addresses, so a personal one doesn't function as a lookup key…
+> gmail and other consumer webmail addresses aren't something we collect or store at
+> all, by design, not just 'not found'."*
+
+So a letter listing four Gmail addresses gets searched exactly as sent, returns nothing,
+and the ticket closes as resolved. Nobody has done anything wrong and the outcome is
+worthless.
+
+**Three keys belong in every B2B letter, and none of them is a consumer address:**
+
+1. **Any former institutional or work address**, even — especially — a closed one. A
+   university or ex-employer address is the single likeliest thing in a B2B index under
+   someone's name. Mark it inline as closed so no verification link is ever sent there,
+   and say that any "confirm by email" step attached to it is unusable by design.
+
+2. **The public profile URL**, given explicitly as a *suppression key rather than a
+   search hint*. A public profile is re-scraped continuously, so an exclusion keyed to
+   nothing is undone at the next pass. It is the only identifier a person can supply
+   that is both stable and is itself the collection input.
+
+3. **An instruction to search their own constructed addresses.** These files hold
+   `first.last@employer` patterns generated from a name and an employment history rather
+   than observed anywhere — Lusha's disclosure records the provenance of one such address
+   in its own words as *"guessed emails based on full name and company email
+   structures."* **A person cannot list an address that was invented for them.** Ask the
+   company to generate the same patterns from the employment history it already holds and
+   search those. Nothing new enters their systems: they are being asked to search what
+   they have, not to reveal what it says.
+
+And ask the binary that a template cannot answer by accident: **was anything found, or
+nothing?** *"Any data we have associated with the info provided will be removed"* is true
+whether they held a full record or nothing at all.
+
 ## What this project won't take
 
 - **CAPTCHA-solving integrations**, whether a paid service or a local model. Partly

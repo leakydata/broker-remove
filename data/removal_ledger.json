@@ -4709,6 +4709,11 @@
     "changed": "2026-08-28",
     "via": "web"
   },
+  "salesintel": {
+    "status": "replied",
+    "changed": "2026-09-01",
+    "via": "email"
+  },
   "salesintel_research": {
     "status": "confirmed",
     "changed": "2026-08-27",
