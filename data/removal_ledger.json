@@ -134,6 +134,11 @@
     "changed": "2026-08-23",
     "via": null
   },
+  "address_scoop": {
+    "status": "submitted",
+    "changed": "2026-09-02",
+    "via": "email"
+  },
   "addresses_com": {
     "status": "submitted",
     "changed": "2026-08-15",
@@ -2390,8 +2395,8 @@
     "via": "email"
   },
   "hireright": {
-    "status": "submitted",
-    "changed": "2026-08-29",
+    "status": "acknowledged",
+    "changed": "2026-09-02",
     "via": "email"
   },
   "hivestack": {
@@ -2540,9 +2545,9 @@
     "via": "email"
   },
   "infocore": {
-    "status": "submitted",
-    "changed": "2026-08-28",
-    "via": null
+    "status": "acknowledged",
+    "changed": "2026-09-02",
+    "via": "email"
   },
   "infofree": {
     "status": "submitted",
