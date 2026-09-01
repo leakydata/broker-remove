@@ -199,6 +199,11 @@
     "changed": "2026-08-17",
     "via": null
   },
+  "affluense_ai": {
+    "status": "submitted",
+    "changed": "2026-09-02",
+    "via": "email"
+  },
   "affordable_background_checks": {
     "status": "submitted",
     "changed": "2026-08-26",
@@ -2659,6 +2664,11 @@
     "changed": "2026-08-23",
     "via": "email"
   },
+  "intentmacro": {
+    "status": "submitted",
+    "changed": "2026-09-02",
+    "via": "email"
+  },
   "intentsify": {
     "status": "submitted",
     "changed": "2026-08-28",
@@ -5094,6 +5104,11 @@
     "changed": "2026-08-31",
     "via": null
   },
+  "sprouts_ai": {
+    "status": "submitted",
+    "changed": "2026-09-02",
+    "via": "email"
+  },
   "spycloud": {
     "status": "submitted",
     "changed": "2026-08-20",
@@ -5822,6 +5837,11 @@
   "wealthengine": {
     "status": "submitted",
     "changed": "2026-08-26",
+    "via": "email"
+  },
+  "wealthfeed": {
+    "status": "submitted",
+    "changed": "2026-09-02",
     "via": "email"
   },
   "webbula": {
