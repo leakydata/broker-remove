@@ -15506,3 +15506,63 @@ system at all — was there anything to delete, and where did it come from.
 And their original confirmation still stands as a good one. It separated the two rights and
 volunteered the forward-looking suppression unasked. I said so at the time and this
 exchange has not changed it.
+
+## §233 — a hundred and forty-three items is not a queue, it is a wall
+
+The handoff queue reached **143 open items and about fourteen hours** of estimated work.
+Every one was written carefully, with a URL and steps. As a flat list it is useless.
+
+That is a failure I created gradually and never noticed, because each individual addition
+was correct. The natural response to a wall is to do nothing — and doing nothing is the
+worst available outcome here, because **some of these expire.**
+
+So `scripts/handoff_brief.py` sorts by what is lost by not doing it, rather than by when it
+was added:
+
+    12  EXPIRING   a stated deadline or a confirmation token. The request does not
+                   start until clicked, and the token dies. Nothing else has a clock.
+    10  STAGED     a form already filled in an open browser tab, waiting on one human
+                   action. This work is LOST rather than delayed -- a closed tab or a
+                   session timeout throws the staging away.
+     1  PUBLIC     a listing anybody can read. The only category where the harm is
+                   ongoing and visible.
+     9  CAPTCHA    blocked on a challenge we will not solve. A human is the only route
+                   and waiting changes nothing.
+    28  DECISION   needs judgement rather than hands -- an account, an ID document, a
+                   trade-off only the subject can make.
+    83  REST       the request is already made by email; the form is belt-and-braces.
+
+Cheapest first within each tier, because the goal is to make **the next twenty minutes
+obvious**, not to schedule fourteen hours. `--minutes 20` prints exactly what fits.
+
+### The rule I got wrong first, again
+
+My first version put anything whose steps contained the word *"expire"* into the top tier.
+That swept seven CAPTCHA items in, because their instructions mention an expiring link in
+passing — and diluted the tier that exists precisely to be short.
+
+**Same failure as §196** (the classifier calling Spokeo adtech because the regex matched
+the bare word `cookie`) **and §224a** (the succession scan matching *"an extension of your
+business"*). Three times now: a bare word is not a signal, a phrase is. The tier now
+matches `"expires in"`, `"one-time access"`, `"access code"`, `"use it promptly"` — things
+that can only mean a deadline.
+
+### The tier I had not thought of
+
+Splitting EXPIRING correctly surfaced a category I would have missed: **STAGED.**
+
+Ten items are forms already filled in an open browser tab, needing one click. That is work
+already done, sitting in volatile storage. It is not *delayed* by inaction — it is
+**destroyed** by it, silently, whenever the tab closes or the session times out. And
+nothing in the queue recorded that, because "minutes: 1" looks like the cheapest item
+rather than the most perishable one.
+
+Those ten now rank above every people-search listing and every unstarted form. A minute
+spent there preserves work; a minute spent anywhere else creates it.
+
+### What this is really about
+
+Every entry in this file is about a request that fails while looking like it succeeded.
+This is the same shape turned inward: **143 well-written handoff notes look like progress,
+and an unsorted wall of them is indistinguishable from having done nothing** — because the
+outcome is the same if nobody can find the twelve that matter.
