@@ -16667,3 +16667,78 @@ disclosure means handling it more carefully than the silence it replaced.
 
 **Related:** §246 (this project's artifacts as broker inputs); §244 (the gate firing on a quoted
 phrase); §217 (a gate that cries wolf gets overridden); the hashed-input wedge, now vindicated.
+
+---
+
+## §250 — the reason a request failed was published two years before I sent it
+
+Hunter took two rounds of correspondence to tell me their index cannot be searched by name, and
+that consumer webmail addresses *"aren't something we collect or store at all, by design, not
+just 'not found'."* That admission is §242's cleanest, and it explains a whole batch of letters
+that could never have succeeded.
+
+Growbots published the same thing on a state filing in **2024**:
+
+> *"We collect and use data such as names, job titles, and corporate email addresses (e.g.,
+> name@company.com). **We do not collect or process personal email addresses (e.g., @gmail.com)**
+> or personal consumer data."*
+
+Nobody had to be asked. Nobody had to reply twice. It was in a public spreadsheet column for two
+years, and a letter written after reading it would have opened with the right key instead of
+learning it the expensive way.
+
+T-Mobile is the other half of the pattern. My letter's whole first page argued that a data
+broker registration cannot describe a *subscriber* relationship — §1798.99.80(c) requires *no*
+direct relationship — and asked which part of the business the filing covered, saying a portal
+could never answer it. Their filing already had:
+
+> *"The only division within T-Mobile USA, Inc. that engages in data broker-related activities is
+> its 'T-Ads' line of business."*
+
+Two sentences, published, answering a page of careful reasoning. I withdrew the question.
+
+**Forty-nine registrants scope or disclaim in that box.** The report now surfaces them
+(`register_profile.py`, the scoping section), and what they say falls into three useful kinds:
+
+**1. Which division the filing is about.** T-Mobile names T-Ads. This is the single most common
+question my letters ask, and it is answerable from the register for anyone who reads it.
+
+**2. Which identifier class they do not hold.** Growbots on personal webmail; Anteriad —
+*"does not collect information directly from consumers. We are a business-to-business service
+provider"*; EXL — *"processes external third-party data sources… does not collect data or
+information directly from California consumers."* Each of these tells you in advance that a
+consumer-keyed search will return a structural nil, and which key to send instead.
+
+**3. Denials that sit oddly with the registration itself.** Datamasters: *"Does Not Compile Data
+or Maintain any Consumer Data Whatsoever."* Data Direct Marketing: *"this business does NOT
+collect ANY information on any business or consumer."* Jigyasa: *"We do not collect any data. We
+buy demographic data to service the modeling and direct marketing requirements of a couple of our
+clients"* — two sentences that do not agree. These are not gotchas to wave at anyone, but they
+are the rows where a letter should ask what the registration is *for*, rather than asking for a
+deletion the registrant says is impossible.
+
+And one that is straightforwardly §242 evidence from a third source. Irys, explaining a gap
+between deletions requested and deletions performed:
+
+> *"Seventy-three of the requested deletions were related to name and address information, which
+> Irys does not collect and therefore cannot delete. The remaining forty were related to data
+> collected by Irys."*
+
+Seventy-three people asked a company to delete something it structurally could not hold, and the
+company had to explain the arithmetic to a regulator. That is the wrong-key problem measured
+from the inside.
+
+**The rule this produces is embarrassing in its simplicity: read the filing before writing the
+letter.** §239 found that the register held sensitive-category declarations and request metrics
+nobody was reading. This is the same file, one column over, and it is the more useful column —
+metrics tell you how a company behaves, but the free text tells you **what to ask it and which
+identifier to ask with.**
+
+There is a cost worth naming honestly. Reading thirty free-text descriptions takes minutes;
+writing and re-writing letters that could not have worked took most of a day, and consumed the
+goodwill of at least two companies who answered patiently while I learned in public what they
+had already filed. **The intelligence was free and I paid for it twice.**
+
+**Related:** §239 (the register was never a list of addresses); §242 (opt-out denials and the
+wrong-key nil); §249 (the answer as personal data); CONTRIBUTING's B2B rule, which this section
+is the evidence for.

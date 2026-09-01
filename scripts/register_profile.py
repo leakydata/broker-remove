@@ -318,6 +318,35 @@ def report(profiles):
     if not oo:
         print("  (none)")
 
+    # SCOPING AND DISCLAIMING STATEMENTS. The free-text box is where a registrant
+    # says which part of itself the filing is about, or denies collecting the thing
+    # you are about to ask after. Growbots' 2024 filing says it collects "names, job
+    # titles, and corporate email addresses" and "do not collect or process personal
+    # email addresses (e.g., @gmail.com)" -- which is precisely what Hunter told me
+    # only after two rounds of correspondence, and it was published two years
+    # earlier. T-Mobile names the one division that made its registration necessary,
+    # twice. Reading this before writing scopes the letter and picks the key. See
+    # §250.
+    _SCOPE_PAT = re.compile(
+        r"(only division|line of business|the only part|only the \S+ (?:division|"
+        r"business|unit)|do(?:es)? not (?:sell|collect|compile|maintain|process)|"
+        r"we are a (?:business-to-business )?service provider|not collect .{0,40}"
+        r"directly)", re.I)
+
+    print("\n=== registrants whose free text scopes or disclaims the business ===")
+    print("  Read these BEFORE writing. They say which division the filing covers,")
+    print("  or deny holding the identifier class you were about to search on.")
+    scoped = []
+    for bid, recs in profiles.items():
+        for r in recs:
+            txt = r.get("notes_practices") or ""
+            if len(txt) > 80 and _SCOPE_PAT.search(txt):
+                scoped.append((bid, r["year"], re.sub(r"\s+", " ", txt)))
+                break
+    for bid, year, txt in sorted(scoped):
+        print("  %-30s (%s) %s" % (bid, year, txt[:150]))
+    print("  -- %d registrants" % len(scoped))
+
     prose = [bid for bid, recs in profiles.items()
              if any(len(r["notes_practices"]) > 120 for r in recs)]
     print("\n=== %d brokers wrote a substantive free-text description ===" % len(prose))
