@@ -16350,3 +16350,72 @@ time through the best-behaved company in the file.
 **Related:** §228 (what a complete answer looks like — this is the exemplar); §239, §240
 (MixRank, found from the other direction); §193 (suppress the association, not the value); the
 derived-address wedge, now confirmed by a broker rather than argued at one.
+
+---
+
+## §245 — a guessed address cannot be opted in
+
+RampedUp is the supplier Lusha named (§244). Writing to them produced a small structural finding
+and one substantive contradiction, and the contradiction is the more useful of the two.
+
+**Three addresses, none of them a route.** The address on their *current* California filing,
+`privacy@`, is a restricted Google Workspace group that rejects outside senders — it bounced on
+26 August. The address on their *2024* filing, and on their own website, auto-replies *"this is
+**not** a monitored inbox."* The designated method is a portal inside their client application,
+plus a telephone line.
+
+So **the register email got worse between filings.** The 2024 address is live but unmonitored;
+the 2025 address is dead. A consumer following the register to the current entry reaches nothing
+at all, and the previous year's entry would at least have reached a mailbox. That inverts the
+usual assumption — that a newer filing is a better filing — and it is the second time this week
+the register has been more reliable in an older year than a current one (§216).
+
+Their autoresponder also contains, in passing, the §242 problem stated in their own words:
+
+> *"All inquiries must be completed via the online portal to **authenticate your identity** and
+> comply with privacy guidelines."*
+
+An opt-out is not a verifiable consumer request, and verification may not be required as a
+condition of honouring one. Requiring authentication for a *do-not-sell* is the same category
+error the register metrics revealed at scale.
+
+### The contradiction
+
+Their 2024 filing describes the business:
+
+> *"RampedUp helps organizations keep their **'opted-in'** professional contact data updated…"*
+
+The scare quotes are theirs.
+
+Lusha's access response names RampedUp as the source of an email address, and records that
+address's provenance as:
+
+> *"Guessed emails based on full name and company email structures."*
+
+**A guessed address cannot be opted in.** Nobody opts in with an address that was invented for
+them by a pattern-matcher — the person has never seen it, never used it, and in many cases it
+does not route anywhere at all. Consent requires an act by the person consenting, and there is
+no act here; there is a naming convention and a surname.
+
+Two readings are available and both are worth having:
+
+- **The construction happened at Lusha**, and RampedUp supplied only observed identifiers. Then
+  "opted-in" survives as a description of what RampedUp holds, and the constructed address is
+  Lusha's inference presented alongside RampedUp's observations — which is precisely the
+  labelling question §244 put to Lusha.
+- **The construction happened at RampedUp.** Then "opted-in" is doing work the data cannot
+  support, and a filing made to a state regulator characterises as consented a set of records
+  that were partly generated.
+
+That is one question, answerable in one line, and it is the sharpest thing to have come out of a
+supplier disclosure so far. It exists only because Lusha named its source *and* labelled its
+provenance. Either alone would have been useless: the name without the label gives nowhere to
+point the question, and the label without the name gives no one to ask.
+
+**This is what naming a source is actually worth.** Not that it lets a person send one more
+letter — that is the small version. It is that **two companies' accounts of the same record can
+be laid side by side**, and where they disagree, the disagreement is visible from outside for the
+first time. Every claim in this file up to now has been a company's word against nothing.
+
+**Related:** §244 (Lusha's disclosure); §242 (verification demanded for opt-outs); §216 (an older
+register year more reliable than a newer one); the derived-address wedge.
