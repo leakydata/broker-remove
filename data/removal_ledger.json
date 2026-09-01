@@ -1819,6 +1819,11 @@
     "changed": "2026-08-27",
     "via": null
   },
+  "exlservice_com": {
+    "status": "submitted",
+    "changed": "2026-09-01",
+    "via": "email"
+  },
   "experian_marketing": {
     "status": "submitted",
     "changed": "2026-08-21",
@@ -1962,6 +1967,11 @@
   "flashintel": {
     "status": "submitted",
     "changed": "2026-08-18",
+    "via": "email"
+  },
+  "flexera": {
+    "status": "submitted",
+    "changed": "2026-09-01",
     "via": "email"
   },
   "florida_arrests": {
