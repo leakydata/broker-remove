@@ -16869,3 +16869,68 @@ for most ticketing systems.
 statute rather than from first principles); §222 (the escape hatch, offered and taken); §205,
 §241 (failures the operator cannot observe); the closed-mailbox rule, which this section makes
 the argument for rather than merely the caveat.
+
+---
+
+## §253 — a company reasoned out §252 on its own, the same day
+
+Datagma answered the supplement, and it is now the best answer this project has received —
+past FullEnrich (§246) and Lusha (§244), because it closes the one loop neither of those could.
+
+It answers every numbered ask in order:
+
+- **The basis applied**, all three branches: GDPR as a French company, intended to satisfy US
+  state statutes where they apply, and honoured under the published policy where none does. That
+  question goes in every letter. This is the first answer that does not simply pick the branch
+  that suits.
+- **A structural nil, and then an empirical one anyway.** *"Data is retrieved in real time on a
+  client's request and returned without retention, so there is no stored file in which a record
+  about you could persist — by design, not merely 'not found'."* And then, rather than stopping
+  at the structural answer, they searched the two places where something *could* exist and named
+  them: the suppression list, and technical and billing records. A structural answer alone would
+  have been true and incomplete.
+- **The constructed-address question, answered directly** — which nobody else has managed.
+  Pattern addresses are generated transiently at the moment of a request and not stored, so none
+  is held; and **with the suppression in place, none can be generated in future.** That last
+  clause closes the loop the derived-address wedge cannot close from outside, because **a person
+  cannot ask for the deletion of an address that does not exist yet.**
+- **A standing block checked before every lookup**, keyed to the profile URL as well as the
+  addresses — used as a suppression key rather than a search hint, without being asked twice.
+
+And they credited the supplement: *"the additional keys did make it answerable."* That is direct
+confirmation of §250 — the original letter could not have succeeded, and the fault was mine.
+
+### The part that matters beyond this thread
+
+Their opening line:
+
+> *"No account, identity document or social profile link is required: **nothing is disclosed by
+> this response and the actions taken are protective only.**"*
+
+**That is §252, written by a company, unprompted, on the same day I wrote it.**
+
+§252 was reasoned from first principles a few hours earlier, in a letter to a different company:
+verification exists to stop a business disclosing data to the wrong person; a suppression request
+asks for no disclosure; therefore an identity gate does no protective work there. If the
+requester were an impostor, the only consequence is that somebody's records stop being looked
+up — which is the outcome the real person would also have chosen.
+
+I had never seen a company state it. Datagma reached the same conclusion independently and, more
+to the point, **acted on it**: no verification demanded, and a suppression applied covering
+identifiers they could not possibly have confirmed belonged to the sender.
+
+That changes the status of the argument. Until today it was mine — a plausible reading I was
+pressing on companies that had not considered it. It is now something a data business has
+articulated and implemented in its own words, which makes it quotable rather than merely
+arguable. **An argument a company has made against its own convenience is worth more than the
+same argument made by the person asking.**
+
+There is a smaller courtesy worth recording alongside it. Their first message offered a
+suppression form, said it takes twenty seconds and applies within fifteen minutes — and then they
+applied the suppression themselves rather than making the form a precondition. **Offering a fast
+route and not requiring it** is the difference between a designated method and a gate, and almost
+nobody does both.
+
+**Related:** §252 (the argument, reasoned out hours earlier); §250 (read the filing first — and
+the supplement that made this answerable); §246, §244 (the previous best answers); §228 (what a
+complete answer looks like — this is now the exemplar).
