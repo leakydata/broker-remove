@@ -16020,3 +16020,76 @@ company whose name I did not know I had.
 
 **Related:** §239 (the register was never a list of addresses); §216 (one business, three
 register rows); §214 (assert from the record, not from the label).
+
+---
+
+## §241 — the privacy mailbox that points at a draft form
+
+Two auto-replies arrived within twenty minutes of each other, and both were more informative
+than the human replies I was hoping for.
+
+**CallerSmart answered the letter by accident.** I had asked them three things about a removal
+they had already confirmed: what was the URL, what is the suppression keyed to, and does it
+survive a rebuild. The reply was a template beginning *"This is an unmonitored inbox"* — a §205
+demotion — and then it answered two of the three without meaning to:
+
+> CallerSmart users search listings **by phone number only** (not by name, email, or physical
+> address). If you see a listing that you'd like to remove, please use the phone number
+> associated with it.
+
+That is question two. The index is keyed to the number, so a name-based removal does nothing.
+It is also as much of an answer to question one as there is: the listing *is* the number.
+
+And then the consequence, which the template states plainly without noticing it is a finding.
+The opt-out form takes **one number, plus one emailed confirmation, per submission.** A person
+with ten former telephone numbers must file **eleven separate requests and click eleven
+confirmation links.**
+
+That is not a policy of obstruction — opt-outs are *"processed immediately"* and the removal is
+free. It is a burden created by the index design, and it falls hardest on exactly the people
+most likely to be listed: **the more times you have moved, the more numbers you have shed, and
+the more submissions the same removal costs you.** § 7004 asks that a designated method be easy
+to execute with minimal steps, and eleven of anything is worth naming against that standard even
+when every individual step is reasonable.
+
+**FinThrive's auto-reply points at a form that was never published.** Their privacy mailbox
+replies *"This mailbox is not set up to receive privacy requests"* and links a OneTrust web
+form. The URL contains `/draft/`, with form id `f88f0580…`.
+
+FinThrive's own published privacy policy links a **different** form: `c3d22390…`, same OneTrust
+account, no draft segment.
+
+One check made it reportable. Requesting the auto-reply's form id at the *published* path — the
+same URL with `/draft/` removed — returns **404**. The form their mailbox sends privacy requests
+to exists only as a draft.
+
+**What I did not claim.** I do not know what happens to a submission made through a draft form.
+It may route perfectly well. Both URLs load an identical OneTrust application shell and cannot
+be told apart from outside without putting real data through each, which would be a foolish way
+to find out. So the letter says exactly that, and says they can check it in a minute from inside
+their console, which is why I wrote rather than guessed. §236 and §239 were both cases where a
+plausible inference would have been wrong; the discipline is cheap and it keeps a defect report
+from becoming an accusation.
+
+**The failure shape is the reason it was worth an email.** If draft submissions do not reach the
+live workflow, then the person who submits one **believes they have filed a request**. Form,
+confirmation, stop. Nothing looks wrong from their side. Nothing looks wrong from FinThrive's
+either, because the request simply never appears.
+
+And it would never show in the register metrics, which is what makes it invisible at the
+regulatory level too. FinThrive's 2025 filing reports 63 deletion requests received, 63 complied
+with in whole, none denied, mean response 8.9 days — among the best figures on the register, and
+the reason I wrote to them expecting a straight answer. **A request that never arrives is not a
+denied request. It is in neither the numerator nor the denominator.** A company can have
+flawless compliance statistics and a broken front door at the same time, and the statistics are
+what a regulator sees.
+
+**The pattern across §205, §237 and this.** Three different mechanisms — an unmonitored mailbox,
+a `mailto:` form pointing at a dead address, an auto-reply linking a draft form — and one shared
+property: **the operator cannot observe the failure, because the only signal would have been a
+message that never became a message.** Every one of them was found by writing a letter and
+reading what came back carefully, and none of them would have been found by any audit the
+company could run on itself.
+
+**Related:** §205 (declared unmonitored); §237 (the contact route that cannot report its own
+failure); §236 and §239 (do not assert past what you checked).

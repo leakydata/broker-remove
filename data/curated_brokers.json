@@ -1556,11 +1556,13 @@
       "source": "optery_scrape",
       "optery_slug": "callersmart",
       "email_to": "feedback@callersmart.com",
-      "email_verified": true,
-      "email_verified_by": "delivery_evidence",
+      "email_verified": false,
+      "email_verified_by": "declared_unmonitored_by_company",
       "category": "people_search",
       "category_source": "site_classifier 2026-08-31",
-      "listing_basis": "third_party_directory"
+      "listing_basis": "third_party_directory",
+      "email_verified_was": "delivery_evidence",
+      "email_note": " || 2026-09-01: feedback@callersmart.com auto-replies 'This is an unmonitored inbox.' Route is the /data form (Cloudflare-gated) or the /contact page. See SILENT_FAILURES 241."
     },
     {
       "id": "careerbuilder",
@@ -16810,7 +16812,7 @@
       "domain": "finthrive.com",
       "priority": 2,
       "method": "email",
-      "optout_url": "",
+      "optout_url": "https://privacyportal.onetrust.com/webform/e2abd578-6539-47f6-9895-b18d23b76ac4/c3d22390-d038-4464-83d3-3f0c91c76a01",
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
@@ -16824,7 +16826,8 @@
         "2026"
       ],
       "legal_name": "TSG Holdco, LLC",
-      "listing_basis": "state_register"
+      "listing_basis": "state_register",
+      "email_note": " || 2026-09-01: tuhc@finthrive.com auto-replies 'This mailbox is not set up to receive privacy requests' and links a DRAFT OneTrust form; the published policy links a different form id. Use the policy's URL. See SILENT_FAILURES 241."
     },
     {
       "id": "first_direct_national_list_services",
