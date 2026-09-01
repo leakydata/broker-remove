@@ -2255,9 +2255,9 @@
     "via": null
   },
   "gravy_analytics": {
-    "status": "submitted",
-    "changed": "2026-08-27",
-    "via": null
+    "status": "replied",
+    "changed": "2026-09-02",
+    "via": "email"
   },
   "grayhair": {
     "status": "submitted",
@@ -5550,8 +5550,8 @@
     "via": "web"
   },
   "unacast": {
-    "status": "submitted",
-    "changed": "2026-08-29",
+    "status": "replied",
+    "changed": "2026-09-02",
     "via": "email"
   },
   "unearth_campaigns": {
