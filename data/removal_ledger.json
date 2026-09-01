@@ -3180,9 +3180,9 @@
     "via": "web"
   },
   "matchbook": {
-    "status": "manual_required",
-    "changed": "2026-08-19",
-    "via": "reply"
+    "status": "submitted",
+    "changed": "2026-09-01",
+    "via": "email"
   },
   "maxmind": {
     "status": "submitted",
@@ -3852,7 +3852,7 @@
   "outlogic": {
     "status": "submitted",
     "changed": "2026-08-28",
-    "via": null
+    "via": "email"
   },
   "outreach_io": {
     "status": "submitted",
@@ -5645,9 +5645,9 @@
     "via": "email"
   },
   "verve_for_advertisers": {
-    "status": "manual_required",
-    "changed": "2026-08-28",
-    "via": "reply"
+    "status": "submitted",
+    "changed": "2026-09-01",
+    "via": "email"
   },
   "vi_technologies": {
     "status": "acknowledged",
