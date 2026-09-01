@@ -4570,7 +4570,7 @@
     "via": "email"
   },
   "revoptimal": {
-    "status": "submitted",
+    "status": "replied",
     "changed": "2026-09-01",
     "via": "email"
   },
@@ -4610,9 +4610,9 @@
     "via": "email"
   },
   "rooftop_digital": {
-    "status": "submitted",
-    "changed": "2026-08-30",
-    "via": null
+    "status": "replied",
+    "changed": "2026-09-01",
+    "via": "email"
   },
   "ror_partners": {
     "status": "submitted",
@@ -5615,8 +5615,8 @@
     "via": "reply"
   },
   "vi_technologies": {
-    "status": "submitted",
-    "changed": "2026-08-31",
+    "status": "acknowledged",
+    "changed": "2026-09-01",
     "via": "email"
   },
   "viant": {
