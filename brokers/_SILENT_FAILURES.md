@@ -16604,3 +16604,66 @@ incapable of affecting anything (§237). I wrote those sections and then did all
 afternoon.
 
 **Related:** §138; §205; §237; §241.
+
+---
+
+## §249 — the answer to a request can be personal data the gate has never seen
+
+WhoisXMLAPI ran the intersection this project had been asking companies to run — the hashed-input
+wedge, where they hold the filter and I have already supplied the inputs — and it worked better
+than anything else tried here. **2,188 name matches became thirty-four records** that also
+carried one of the subject's own email addresses. They removed all thirty-four without waiting
+for confirmation, including one that carried the email address but *not* the name — a record that
+fails a name search and that a more literal process would have excluded.
+
+That is the single most effective action any company has taken here: free, same-day, no account,
+no identity document, no portal, and reaching records that no search on a name could have
+disambiguated.
+
+**And then the reply itself became the problem.**
+
+The thirty-four domains are, individually, unremarkable. Read together they disclose **religion,
+sexual orientation, health-related purchases and political interest** — far more sharply than a
+postal address ever could. A person's fifteen-year-old domain registrations are a portrait of
+what they cared about, and the registrant field was mandatory at the time. Nobody publishing a
+small site in 2008 understood they were also publishing an index of themselves.
+
+**The redaction gate could not see any of it.** The gate matches known identifier *values* —
+name, current and former addresses, phone numbers, email addresses — derived from the profile.
+None of those thirty-four strings is any of those things. Pasting the list into a write-up,
+which is exactly what these sections do with every other reply, would have published a more
+revealing disclosure than any leak the gate has ever caught, and it would have reported **zero
+occurrences** while doing it.
+
+That is a new class and it needs naming:
+
+> **A broker's answer can contain personal data in values the gate has never seen.**
+
+Every prior leak the gate caught was the subject's own identifier appearing where it should not
+(§217, §222, §229, §244). Those are values known in advance. This is the opposite shape:
+**data that is personal because of what it reveals, expressed entirely in strings that are not
+identifiers at all.** No list of the subject's own attributes could have predicted it, because
+the values came from a company's reply rather than from the subject's life.
+
+**The fix, and its limits.** The domains are now in the gitignored profile under
+`sensitive_strings`, so the scanner blocks them like any other term — proved firing on a test
+file, and the list itself never ships. That closes this instance.
+
+It does not close the class. The next disclosure will contain different values, and the gate will
+be blind to those too until someone adds them. **The gate is a backstop against re-publishing
+what is already known, not a filter on incoming material**, and the only real protection is the
+step before it: read a disclosure and decide what may be quoted *before* drafting the write-up
+that quotes it, rather than relying on a scan afterwards.
+
+So the working rule is now: **when a company answers with content rather than a status — a
+record, a list, a source, a date — treat that content as unpublishable until specifically
+cleared, and add its distinctive values to the profile before writing anything at all.**
+
+There is an irony worth recording. §246 established that this project's own artifacts are broker
+inputs, and that exercising the right generates records. This is the sharper version:
+**the most complete answer received also carried the largest disclosure risk, and the two are
+the same property.** A company that tells you nothing gives you nothing to leak. Rewarding
+disclosure means handling it more carefully than the silence it replaced.
+
+**Related:** §246 (this project's artifacts as broker inputs); §244 (the gate firing on a quoted
+phrase); §217 (a gate that cries wolf gets overridden); the hashed-input wedge, now vindicated.

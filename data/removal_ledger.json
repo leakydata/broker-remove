@@ -2384,6 +2384,11 @@
     "changed": "2026-08-31",
     "via": "email"
   },
+  "hunter": {
+    "status": "replied",
+    "changed": "2026-09-01",
+    "via": "email"
+  },
   "hybrid_theory": {
     "status": "submitted",
     "changed": "2026-08-28",
@@ -5780,8 +5785,8 @@
     "via": "reply"
   },
   "whoisxmlapi": {
-    "status": "submitted",
-    "changed": "2026-08-31",
+    "status": "confirmed",
+    "changed": "2026-09-01",
     "via": "email"
   },
   "wholesale_mail": {
