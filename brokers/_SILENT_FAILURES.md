@@ -16419,3 +16419,79 @@ first time. Every claim in this file up to now has been a company's word against
 
 **Related:** §244 (Lusha's disclosure); §242 (verification demanded for opt-outs); §216 (an older
 register year more reliable than a newer one); the derived-address wedge.
+
+---
+
+## §246 — the address I use to ask for deletion became a record worth buying
+
+FullEnrich answered an access request today, and it is now the best answer this project has
+received from anyone — better than §244's, because it names both directions of the chain.
+
+**What they disclosed, unprompted:**
+
+- They searched **every identifier supplied**, not only the sending address.
+- **One match**, and they said which: one Gmail address. Nothing on the name, the phone, or the
+  three other addresses.
+- **A date**: 21 August 2026.
+- **The client who asked**: named.
+- **The provider who answered**: named — ContactOut, a registered California data broker.
+- **What the lookup returned and what it did not**: an identity match to a LinkedIn profile; no
+  phone number, no second address. Scope stated without being asked.
+- **The suppression blocks the request before it reaches a data provider** — not a deletion, a
+  pre-ingest block. This is the thing asked for in every letter and almost never granted.
+- **They notified both the client and the provider**, and said I was entitled to approach either
+  myself.
+- And they **explained why they did not demand verification**: the match was to the address the
+  mail came from. Proportionate reasoning, said out loud, instead of a reflexive demand for a
+  driving licence.
+
+Set against the Hunter reply received four minutes earlier — a search over consumer-provider
+addresses that a B2B index by definition does not hold, returning a truthful nil and closing the
+ticket as resolved — the contrast is the whole argument of this file in two messages.
+
+### The part that is about this project rather than about them
+
+The address that matched is **the mailbox created for this work**. It is not a professional
+address, appears on no profile, and has essentially one use: privacy requests are sent from it.
+
+By 21 August it had gone out to several dozen data companies. Days later, somebody paid to find
+out who was behind it.
+
+I cannot show a chain between those facts and would not assert one. The address could have been
+harvested anywhere, and a reverse-lookup on a Gmail address needs no help from me to happen. But
+the shape is worth recording, because it is structural rather than accidental:
+
+**Exercising the right generates the record the right exists to remove.**
+
+Every letter in this project is also a disclosure. Each one asserts a name, a current address,
+prior addresses, phone numbers and a dozen email addresses to a company in the business of
+compiling exactly those things. The letters are necessary — §195 established that a partial
+identifier set draws a truthful false nil and settles the broker for good — so the disclosure is
+the price of the search working at all. But the price is real, and until today it was invisible.
+
+Three things follow, and only the first is comfortable:
+
+**1. It vindicates the dedicated-mailbox decision.** The address that got looked up is the one
+created for this. It is not the subject's personal mail, not his old university address, not the
+one his bank writes to. Whatever accrues to it accrues to a mailbox that exists for this purpose
+and can be abandoned. That was set up before there was any evidence it would matter.
+
+**2. It means the project's own artifacts should be treated as broker inputs.** A public
+repository documenting hundreds of requests is itself a source. The redaction gate exists for
+that reason and has fired repeatedly (§217, §222, §229, and again today on a quoted phrase in
+§244). This is the argument for why it must keep firing.
+
+**3. It changes what a nil result from a B2B enrichment company means.** If the sending address
+can itself become a lookup key, then a company answering *"we hold nothing on the identifiers
+you sent"* may be describing a state that its own answer to somebody else's query helped create
+after the fact. The record did not exist when the letter was written. It existed a fortnight
+later, and only one company out of dozens ever mentioned it.
+
+**What made this visible was a single sentence volunteered by one company that had no obligation
+to volunteer it.** No audit would have surfaced it. No register column contains it. It exists in
+the record because FullEnrich answered a question nobody asked, and that is the strongest
+argument in this entire file for why naming clients and providers matters more than any
+confirmation ever will.
+
+**Related:** §244 (Lusha's disclosure, the previous best); §245 (two accounts of one record laid
+side by side); §195 (why the full identifier set has to be sent); §138 (corroboration).
