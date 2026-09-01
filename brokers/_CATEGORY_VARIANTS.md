@@ -3354,3 +3354,45 @@ predecessor.
 The §193 limit is at its most concrete in this category: in a *directory* product,
 excluding a bare address or number removes **that household's listing**. Say explicitly
 that if the system can only exclude bare values, the former ones should be left alone.
+
+---
+
+## Business directories: a person's home address, filed as business data
+
+MerchantCircle, Local Pages, and every "find a local plumber" site are not people-search
+products, and a letter written as though they were reads as a mistake. But they hold the
+same fields, and the reason is worth stating plainly because it is the argument that
+unlocks the whole category:
+
+**A small-business listing is very often a person wearing a company's hat.** The "business
+phone" is a mobile. The "business address" is a home. The owner's name is the person's
+name, and the contact email is the one they use for everything else. When a directory
+compiles those listings, enriches them and licenses them onward, what actually moves is a
+named individual's home address and personal telephone number — categorised as business
+data and therefore, historically, treated as out of scope.
+
+**That answer expired on 1 January 2023.** California's business-to-business carve-out
+sunset and was not renewed, so personal information collected in a commercial or employment
+context has been ordinary personal information ever since, with the same rights attached.
+A listing does not stop being about a person because it is filed under a trade name.
+
+Two things follow for the letter:
+
+**Ask for deletion "including anything held inside a business or merchant record rather
+than a consumer one."** The phrasing matters. A privacy team searching a consumer table for
+a name will honestly return nothing while the record sits in the merchant table, and the
+answer they send back will be true and useless — the §205/§214b failure shape, where
+"nothing found" means "I did not look there."
+
+**Ask where the listing came from and where it went, in the same breath.** Directory
+listings are rarely typed in by the business. They arrive from print yellow-pages files,
+licensed compilations and web crawls, and they syndicate outward the same way. Deleting the
+local copy while the upstream feed still carries it means it returns on the next ingest.
+
+For the direct-mail variant of this (coupon books, saturation mailers), the suppression
+inversion is sharper still: the deletion is only durable if a suppression key survives it,
+and the §193 limit is at its most literal — suppress the *association*, because suppressing
+the bare address stops mail for the people who live there now. Offer the off-ramp
+explicitly: if the mail is unaddressed, delivered by postal route rather than by name, then
+no personal information is involved and there is nothing to suppress. Being told that is a
+real answer; assuming it is not.

@@ -2999,6 +2999,11 @@
     "changed": "2026-08-18",
     "via": "reply"
   },
+  "local_pages": {
+    "status": "submitted",
+    "changed": "2026-09-01",
+    "via": "email"
+  },
   "locatefamily": {
     "status": "submitted",
     "changed": "2026-08-28",
@@ -3223,6 +3228,11 @@
     "status": "confirmed",
     "changed": "2026-08-19",
     "via": "web"
+  },
+  "merchantcircle": {
+    "status": "submitted",
+    "changed": "2026-09-01",
+    "via": "email"
   },
   "merkle": {
     "status": "submitted",
@@ -4032,6 +4042,11 @@
   "phonenumbers_org": {
     "status": "submitted",
     "changed": "2026-08-19",
+    "via": "email"
+  },
+  "phoneowner": {
+    "status": "submitted",
+    "changed": "2026-09-01",
     "via": "email"
   },
   "pickmedicare": {
