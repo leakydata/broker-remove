@@ -3268,3 +3268,56 @@ One limit specific to this category: a contest entry may belong to somebody else
 household. The letter should say plainly that it is not asking for a family member's entry
 or photographs to be removed, and ask the company to *report* rather than act if a search
 on the requester's identifiers surfaces a household member's record.
+
+
+## Contact-upload directories (caller ID, "who called me", contacts sync)
+
+Sync.me and its relatives build a searchable directory substantially from **address books
+uploaded by other users** — people who installed an app and shared their phone's contact
+list.
+
+This inverts the usual consent question. The subject's entry did not come from the
+subject. It came from **somebody who knows them**, who had their number saved, and who
+almost certainly did not understand they were contributing another person's name and
+number to a searchable directory. Nobody did anything wrong: the consent simply sits with
+the wrong person.
+
+Two things follow, and a letter to this category should carry both.
+
+**The reversal mechanism is different, so the durability question is sharper.** A deletion
+here is undone not by a data refresh but by *another user re-uploading their address book*
+with the subject still in it. That is entirely outside the subject's control — you cannot
+ask everyone who has your number to delete it, and you would not want to. **A suppression
+keyed to the number is the only thing that can stop it**, which makes "is there a standing
+suppression" more important in this category than almost any other.
+
+**And the request must not reach the uploaders.** Say so explicitly: do not delete
+anybody's address book, do not suspend an account, and do not tell anyone that the request
+was made. Whoever had the number saved was being an ordinary person with a phone. The
+request is about the *directory entry* built from those uploads, not about the people who
+made them.
+
+Former numbers matter more here than in any other category. An acquaintance from ten years
+ago still has the old number saved, so the old numbers are the likeliest keys — and they
+are also the likeliest to have been reassigned, which makes §193's limit acute: suppress
+the association between an old number and the name, never the bare number, because
+blocking the value removes whoever holds it now.
+
+## Registry-adjacent products (offender maps, neighbourhood safety)
+
+Kids Live Safe and similar products present sex-offender registry data alongside ordinary
+people-search results, mapped by neighbourhood.
+
+**Do not ask for anything to be removed from the registry data.** It is public record,
+published by states deliberately, and it is not the requester's to ask about. Say so first
+and plainly, because a privacy letter arriving at such a company will otherwise be read as
+asking exactly that.
+
+The real issue is **adjacency**. When a product displays uninvolved residents on the same
+map, in the same interface, as registry entries, an ordinary listing can read as something
+else entirely to a person scanning quickly. So the question worth asking is narrow and
+mechanical: **does the removal reach the neighbourhood and map views, or only the search
+results?** A record hidden from a name search but still plotted as a household on a map is
+not removed in the way that matters.
+
+Ask it as a question about how the removal propagates, not as a criticism of the product.
