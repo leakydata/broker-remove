@@ -1167,7 +1167,7 @@
   "converge": {
     "status": "submitted",
     "changed": "2026-08-17",
-    "via": null
+    "via": "email"
   },
   "convex": {
     "status": "not_found",
