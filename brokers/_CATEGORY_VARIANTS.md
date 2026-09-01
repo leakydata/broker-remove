@@ -3396,3 +3396,54 @@ the bare address stops mail for the people who live there now. Offer the off-ram
 explicitly: if the mail is unaddressed, delivered by postal route rather than by name, then
 no personal information is involved and there is nothing to suppress. Being told that is a
 real answer; assuming it is not.
+
+---
+
+## Legal and clinical AI tools: the data subject is the other side
+
+LawLink is an attorney network, and the obvious request — *am I in your directory of 100,000
+attorneys?* — is almost certainly a no. The interesting holding is the one nobody asks about.
+
+The product generates **demand letters, tables of exhibits and medical chronologies** from
+documents members upload. Those documents have a property ordinary SaaS data does not:
+
+**They are full of personal information about people who are not users, never agreed to
+anything, and will never know the company exists.**
+
+A demand letter names an adverse party. A table of exhibits names witnesses and treating
+physicians. A medical chronology is, by definition, a structured record of an identified
+person's health history — sensitive personal information under § 1798.140(ae), assembled
+about someone who is not the customer and never will be. Every consent framework the vendor
+has runs to the member. The data subject is on the other side of the matter.
+
+This generalises well past legal tech: clinical scribing, insurance claims processing,
+underwriting, HR investigation tooling, anything where the customer uploads a file about a
+third party. The whole category is invisible to a normal opt-out sweep, because the person in
+the file has no account to find and no relationship to terminate.
+
+Five questions do the work, and none of them require the company to admit anything:
+
+**1. Are uploads and outputs retained after the session, and are they parsed into structured
+fields?** Parsing is the step that converts a document into a database of people. A retained
+PDF is a filing cabinet; a table of extracted names, dates and conditions is a product.
+
+**2. Are they used to train or fine-tune a model — theirs or a vendor's?** And if a vendor
+model is called, does the contract forbid the vendor retaining or training on the content?
+This is where the third party's data leaves the building without anyone deciding to send it.
+
+**3. Is the content searchable across accounts?** Cross-account search is exactly the line
+between a filing cabinet and a people-search product, and it is a yes/no question.
+
+**4. Is there any route for a person named in someone else's document to ask what is held or
+to have it deleted?** Expect no, and say in advance that *no* is a real answer worth
+recording. It usually is no, and the honest version is more useful than a hedge.
+
+**5. If they say it is the member's data rather than theirs**, accept it — and then note that
+a service provider must still *assist* the business in responding and delete on instruction
+(§§ 7050–7051). That answer names who to write to next; it does not end the enquiry.
+
+Pair this with the misattribution discipline, because these products sit in professions with
+licence registers: state plainly what the subject is not (not an attorney, no bar admission),
+say that a name-only match is somebody else, and offer the date of birth **to rule out**. In
+a category this sensitive, deleting the wrong person's record is a worse outcome than
+deleting nothing, and saying so makes the rest of the letter easier to act on.
