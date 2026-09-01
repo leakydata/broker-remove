@@ -64,6 +64,32 @@ positioning, not a refusal. Accept the "courtesy" framing and proceed — the go
 the removal, not winning the argument. Ask them to confirm in writing which basis
 they applied, so the answer is on record either way.
 
+**And when it is a refusal rather than positioning, the exclusion has a condition
+attached that is easy to miss.** Information is *not* publicly available if it is
+
+> used for a purpose that is not compatible with the purpose for which the data is
+> maintained and made available in the government records — § 1798.140(v)(2)
+
+That is a real limit, not a rhetorical one. County property appraiser rolls are
+maintained for **ad valorem tax assessment**; a ranked wealth list published as a
+sponsored media product is a different purpose. Voter rolls are maintained for
+**election administration**; a commercial consumer graph built on them is a different
+purpose. The clause does not automatically win — reasonable readings differ — but it
+converts "it's public record" from a full stop into a question.
+
+Put it *as* a question. "Have you considered the compatibility condition, and what
+view did you take?" is answerable; an accusation is not. Say in advance that *"we rely
+on the exclusion and think the condition is satisfied"* is a good answer you will
+record as theirs.
+
+**Then ask the question the exclusion cannot reach:** does the product hold, append or
+publish anything that did **not** come from the government record? Telephone numbers,
+email addresses, ages, estimated net worth, household members, relatives, prior
+addresses, anything bought from a vendor to enrich a row. None of that is
+government-record data and the exclusion does not touch it. This is the narrowest and
+most productive ask in the whole exchange, it costs them one line, and a compiler that
+appends *anything* has just conceded the part of its file that carries ordinary rights.
+
 ---
 
 ## 4. "We don't store data — we fetch it from third parties"

@@ -15809,3 +15809,70 @@ recorded as the site's own evidence rather than as a company's answer. Those are
 things and the ledger should not blur them.
 
 **Related:** §205 (the failure the company cannot see); §236; §173.
+
+---
+
+## §238 — the same check caught an error in the other direction, an hour later
+
+§236 was written this morning: I asserted what a company did from the `category` my own
+classifier had assigned, wrote a letter around it, and was saved only by a dead mailbox. The
+rule that came out of it was **read what the company says it does before asserting it.**
+
+MansionQuest was the next row but one, and I applied the rule. It caught the opposite error.
+
+**What I expected.** A directory-sourced residue row: *MansionQuest.com — Ranking Florida's
+Most Expensive Homes*, published by Potomac Land Company. Rankings of *houses*. The subject
+has never lived in Florida. I had the letter half-drafted in my head — the gracious kind, the
+one I sent to Best of History Web Sites: *I think this listing is a mistake, here is a line
+you can send back, sorry for the noise.*
+
+**What the county page actually contains.** One fetch:
+
+    Rank 2025 | Just Value | Owner | Address | City | Zip | Community |
+    SQFT | Beds | Baths | Year Built | Acreage | Homestead | Rank 2024 … Rank 2018
+
+Every row is a **named individual, their exact street address, and a detailed description of
+their home**, in a sortable, filterable thousand-row table, with eight years of history so you
+can watch a household's position move. It is the sharpest people-search product in the entire
+residue cohort, and it is the one I was about to apologise to.
+
+**Both errors are the same error.** In §236 the category said *people_search* and the site
+said reference work. Here the domain said *rankings of houses* and the table said a thousand
+identified people at their addresses. In both cases I had formed a view of the company from
+metadata — a classifier label, a title tag — and in both cases the company's own pages said
+something else. The direction of the mistake is incidental. What matters is that **metadata
+about a company is a hypothesis and the company's own pages are evidence**, and I keep
+treating the first as the second.
+
+The asymmetry worth noting is in the cost. §236's error would have sent a slightly wrong
+letter to a company that has no personal data — embarrassing, harmless. This one would have
+sent a *thank-you* to a product that publishes wealthy households at their street addresses,
+and closed the row. A false positive costs a letter. **A false negative closes a file.**
+
+**What the reading changed in the letter.** Three things, none of which I would have got to
+from the home page:
+
+- The publicly-available exclusion genuinely does look like it covers them, and the letter
+  says so rather than pretending otherwise. Every field came from a county appraiser's roll.
+- But § 1798.140(v)(2) attaches a **compatibility condition** — information is not publicly
+  available if used for a purpose incompatible with why the government record is maintained.
+  Appraiser rolls exist for ad valorem tax assessment; a sponsored wealth ranking is a
+  different purpose. Put as a question, with *"we think the condition is satisfied"* named in
+  advance as a good answer.
+- And the narrow ask that the exclusion cannot reach: **does anything in the table not come
+  from the roll?** Phones, emails, ages, net worth, relatives, prior addresses, any vendor
+  append. That is where the exemption stops, it costs one line, and a compiler that appends
+  anything has conceded the part of its file that carries ordinary rights.
+
+None of that is available to someone writing from a title tag.
+
+**One thing raised that was not about me at all.** The subject is not in this data and will
+never be. But the format is: the letter asks whether they have a removal route for the people
+they *do* name — the judge, the police officer, the person with a stalker who happens to own
+an expensive house. Several states run address confidentiality programmes aimed precisely at
+published address lists, and a wealth-ranked table with street addresses is what those
+programmes exist to defeat. Offered as a suggestion, not a demand. It costs nothing to ask and
+it is the part of the letter most likely to do somebody good.
+
+**Related:** §236 (the directory was right about the domain and wrong about the site); §214;
+`_DEFLECTIONS.md` §3, now carrying the compatibility condition.

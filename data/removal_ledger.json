@@ -3119,6 +3119,11 @@
     "changed": "2026-08-29",
     "via": "email"
   },
+  "mansionquest_com": {
+    "status": "submitted",
+    "changed": "2026-09-01",
+    "via": "email"
+  },
   "marinus_analytics": {
     "status": "submitted",
     "changed": "2026-08-19",
@@ -4147,6 +4152,11 @@
   "preqin": {
     "status": "submitted",
     "changed": "2026-08-29",
+    "via": "email"
+  },
+  "prezi": {
+    "status": "submitted",
+    "changed": "2026-09-01",
     "via": "email"
   },
   "private_reports_mugshot_look_public_searcher": {
