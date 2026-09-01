@@ -922,7 +922,7 @@
   "checkpeople": {
     "status": "confirmed",
     "changed": "2026-08-19",
-    "via": null
+    "via": "email"
   },
   "checksecrets": {
     "status": "confirmed",
@@ -4292,7 +4292,7 @@
   "radaris": {
     "status": "confirmed",
     "changed": "2026-08-28",
-    "via": "web"
+    "via": "email"
   },
   "rainbarrel": {
     "status": "submitted",
