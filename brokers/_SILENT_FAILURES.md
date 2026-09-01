@@ -15876,3 +15876,82 @@ it is the part of the letter most likely to do somebody good.
 
 **Related:** §236 (the directory was right about the domain and wrong about the site); §214;
 `_DEFLECTIONS.md` §3, now carrying the compatibility condition.
+
+---
+
+## §239 — the register was never a list of addresses, and I had read it as one
+
+Two rows forced this. WINR Data and Online Media Group were both register-sourced with nothing
+usable on the website — omginc.xyz does not resolve at all, winrdata.com sits behind a bot
+challenge — and both had been parked as *blank site, nothing to write about*.
+
+Everything I needed was in a CSV already in the repository, in columns I had never read.
+
+Online Media Group's filing carries a DBA field: **MixRank**. That is the product — a
+people-data feed sold for B2B and candidate enrichment, updating hourly — and a dead domain had
+hidden it completely. WINR's filing carries a free-text description of the business in their own
+words: data sourced from *"online competitions, sales promotions, prize draws, surveys, coupon
+and sample websites"*, supplied to *"multinational FinTech and AdTech companies"* for *"identity
+verification and identity resolution."* Two letters that had no premise now had a premise each,
+and neither needed a single web fetch.
+
+**What the register actually contains.** Every registrant answers a questionnaire under a filing
+obligation. Per broker, per year:
+
+- **Self-declared collection** of minors' data, precise geolocation, and reproductive health
+  care data. Three yes/no boxes, answered by the company, filed with the state.
+- **FCRA / GLBA / IIPPA / CMIA / HIPAA** claims — and for each, *the types of personal
+  information*, *the specific products or services*, and *the approximate proportion of the
+  business* it covers. That is the activity-scoping argument in the registrant's own words,
+  filed **in advance of** any exemption they later assert at me.
+- **Request metrics** for the prior year: deletion, know, know-sold-or-shared, opt-out and
+  limit-sensitive requests received, complied with in whole, in part, denied, plus median and
+  mean days to respond.
+- Free-text on data collection practices — **244 of the matched brokers wrote something
+  substantive**.
+
+`scripts/register_profile.py` now parses the 2024 and 2025 files and attaches
+**1,092 filings to 677 of the 1,250 curated brokers**. The numbers that fall straight out:
+**137 brokers self-declare collecting precise geolocation**, 38 minors' data, and **15
+reproductive health care data**. Those last two categories are the sharpest sensitive-PI
+arguments available under § 1798.121, and I had not used either, because I did not know the
+data was there.
+
+**And then the tool produced a dramatic result that was wrong.** Sorted by denial rate, the
+first report said Giant Partners denied 19,343 of 19,343 deletion requests, Milestone Marketing
+9,077 of 9,077, The Data Group 117 of 117. A list of companies that deny every request.
+
+I read four of them before writing anything, and the list evaporated. Giant Partners filed
+19,343 received, 19,343 complied with **in whole**, and 19,343 **denied** — which cannot all be
+true. Milestone filed the same figure in every box. These are not policies, they are **filing
+errors**: the registrant pasted one total into every field.
+
+So the check is arithmetic before it is interpretive. A metrics row counts as evidence only if
+its own numbers are possible — and even that needed two readings, because some registrants treat
+whole/part/denied as a partition of the total while others treat *"complied in part"* as a
+restatement of the same requests already counted *in whole*. Accepting either reading and
+rejecting only rows that fail both cuts the unusable set from 102 to 18, and keeps the real
+signal that the strict test was throwing away.
+
+The same discipline killed the second dramatic list. Eight brokers report a mean response time
+above the 45-day statutory window, led by Digital Media Solutions at **242 days** — and every
+one of them explains it in the filing's own notes field. DMS transitioned to a new privacy
+platform mid-year and cleared the backlog by July 2024. There is no finding there at all, and
+the report now says so on its face and prints `[explained in filing]` against each row.
+
+**This is §236 and §238 again at a different scale.** There, I asserted what a company did from
+a classifier label and from a title tag. Here I nearly asserted what a company did from a
+spreadsheet cell. In all three the fix was the same and cost about four minutes: **read the
+underlying record before the summary of it becomes a claim.** The difference is that this time
+the wrong version would have been published as a ranked list with numbers attached, which is
+the most credible-looking way to be wrong.
+
+**One finding did survive, and it is pointed.** Among the arithmetically coherent filings,
+**Rooftop Digital reports denying 8,533 of 11,420 deletion requests — 75%.** That is the company
+which, this morning, told me it could not verify my identity from a name, date of birth,
+telephone number, mailing address and four email addresses, while adding one of those addresses
+to its suppression list in the same message (§ recorded on that row). Their own filing puts that
+reply in context, and the context is the answer to a question I had asked them directly.
+
+**Related:** §236; §238; §235 (the directory knew what the register did not — this is the
+reverse, and both are now instrumented).

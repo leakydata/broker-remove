@@ -3779,6 +3779,11 @@
     "changed": "2026-08-29",
     "via": "email"
   },
+  "online_media": {
+    "status": "submitted",
+    "changed": "2026-09-01",
+    "via": "email"
+  },
   "onpoint_data_strategy": {
     "status": "submitted",
     "changed": "2026-08-29",
@@ -5787,6 +5792,11 @@
   "windfall_data": {
     "status": "manual_required",
     "changed": "2026-08-31",
+    "via": "email"
+  },
+  "winr_data": {
+    "status": "submitted",
+    "changed": "2026-09-01",
     "via": "email"
   },
   "wisconsin_arrests": {
