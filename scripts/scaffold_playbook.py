@@ -77,8 +77,24 @@ def _publishable(addr):
     return f"[named individual]@{domain}"
 
 
+def _curated():
+    """Rows that exist only in the curated set.
+
+    brokers.json is the imported registry; curated_brokers.json is the working
+    file, and a broker discovered mid-run -- named by another company, say --
+    lands in the second and not the first. Scaffolding read only the first, so
+    such a row could never get a playbook while validate demanded one.
+    """
+    try:
+        raw = json.loads((ROOT / "data" / "curated_brokers.json").read_text())
+    except Exception:
+        return {}
+    rows = raw.get("brokers", raw) if isinstance(raw, dict) else raw
+    return {r["id"]: r for r in rows if isinstance(r, dict) and r.get("id")}
+
+
 def scaffold(bid, reg, st):
-    b = reg.get(bid)
+    b = reg.get(bid) or _curated().get(bid)
     if not b:
         return f"  skip unknown broker: {bid}"
     path = OUT / f"{bid}.md"
@@ -205,9 +221,25 @@ def main():
     if not ids:
         raise SystemExit("nothing to do — pass broker ids or --missing")
 
-    for bid in sorted(ids):
-        print(scaffold(bid, reg, st))
-    print(f"\n{len(ids)} processed")
+    # The summary has to be able to express failure, because it is the line that
+    # survives truncation. A run that skipped every id used to end "3 processed",
+    # and `| tail -1` then reported success for work that had not happened --
+    # exactly the shape this project documents in other people's systems. One
+    # broker (firecrawl) sat with status 'submitted' and no playbook for a full
+    # commit cycle because of it, and the gate caught it only on the next run.
+    results = [scaffold(bid, reg, st) for bid in sorted(ids)]
+    for line in results:
+        print(line)
+    skipped = [r for r in results if r.lstrip().startswith("skip unknown")]
+    wrote = [r for r in results if r.lstrip().startswith("wrote")]
+    kept = len(results) - len(skipped) - len(wrote)
+    summary = f"\n{len(results)} processed: {len(wrote)} written, {kept} already present"
+    if skipped:
+        summary += (f", {len(skipped)} NOT FOUND IN THE REGISTRY -- these have no "
+                    f"playbook and validate will fail on them")
+    print(summary)
+    if skipped:
+        raise SystemExit(1)
 
 
 if __name__ == "__main__":

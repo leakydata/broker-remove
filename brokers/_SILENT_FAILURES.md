@@ -16543,3 +16543,64 @@ small cost**; the alternative — partitioning the broker list so neither can to
 would have meant nobody was reading the reply that mattered most today.
 
 **Related:** the ledger design; §239 (a shared channel is only as current as its last write).
+
+---
+
+## §248 — my own summary line could not express failure, and I truncated it
+
+This one is mine, and it is the exact shape of failure this file spends its time documenting in
+other people's systems.
+
+A new broker was added to the working file mid-run — a company named by another company, so it
+existed in `curated_brokers.json` and not in the imported `brokers.json`. I ran the playbook
+scaffolder and it printed:
+
+    1 processed
+
+I read that as success. It was not. `scaffold()` had returned *"skip unknown broker: firecrawl"*,
+because it reads only the imported registry, and the loop printed that line honestly — but I was
+running the command as `scaffold_playbook.py --missing | tail -1`, and `tail -1` showed me the
+summary and discarded the sentence that mattered.
+
+**The tool told the truth and the summary did not.** *"1 processed"* is true of a run that
+processed one id and wrote nothing. It is compatible with complete success and with complete
+failure, which makes it exactly the kind of confirmation §138 warns about: **a message that
+cannot distinguish the two outcomes it is reporting on.** I have written that sentence to about
+forty companies this month.
+
+Then the second failure compounded it. The gate does catch this — validate errors on a broker
+with an acted status and no playbook. But I was invoking it as:
+
+    scripts/gate.sh 2>&1 | tail -3 && git add -A && git commit …
+
+A pipeline's exit status is the **last** command's, so `tail` returning 0 satisfied the `&&` and
+the commit ran on a failing gate. The gate did its job, said `GATE FAILED`, and was obeyed by
+nobody. **A check whose result is discarded is not a check.**
+
+Two fixes, both cheap:
+
+**1. The summary can now express failure.** It reports written, already-present and not-found
+separately, names the consequence in the not-found case, and exits non-zero. A run that skips
+everything now ends:
+
+    1 processed: 0 written, 0 already present, 1 NOT FOUND IN THE REGISTRY --
+    these have no playbook and validate will fail on them
+
+That survives `tail -1`, which is the point. **A summary line is a truncation-resistant
+interface, and it has to carry the bad news, because the bad news is what gets cut.**
+
+**2. The scaffolder now falls back to the curated file**, so a broker discovered mid-run — named
+by another company, found in a source disclosure — can get a playbook at all. Previously such a
+row could be given a status but never a playbook, and validate would then fail forever on a
+condition no command could satisfy.
+
+**And a rule for me, not for the code:** never pipe `gate.sh` into anything before `&&`. The
+whole value of a gate is that its failure stops what follows, and a pipe throws that away.
+
+The uncomfortable part is that all three of these are failures this project catalogues in
+others. A summary that cannot say "nothing happened" (§205, §241). A confirmation compatible
+with both outcomes (§138). And a safety check that ran, reported correctly, and was structurally
+incapable of affecting anything (§237). I wrote those sections and then did all three in one
+afternoon.
+
+**Related:** §138; §205; §237; §241.
