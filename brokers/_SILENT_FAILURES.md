@@ -16934,3 +16934,55 @@ nobody does both.
 **Related:** §252 (the argument, reasoned out hours earlier); §250 (read the filing first — and
 the supplement that made this answerable); §246, §244 (the previous best answers); §228 (what a
 complete answer looks like — this is now the exemplar).
+
+---
+
+## §254 — the address nobody could verify was the one that matched
+
+§252 argued from first principles that the addresses a person can no longer prove they control
+are exactly the ones most likely to still hold a record — and that a verification rule requiring
+a message *from* each address therefore excludes precisely the identifiers it should reach. It
+was a good argument with no evidence behind it.
+
+Scribd supplied the evidence, without meaning to:
+
+> *"We have closed your account and erased your personal information ([a current webmail
+> address] and **[the former university address]**)."*
+
+The second address is a closed university mailbox. Nobody can read it or send from it. It was
+listed as a search key precisely because it is the kind of record that cannot be checked from
+outside — and it is the **first confirmed match on a dead mailbox anywhere in this project.**
+
+**The argument is no longer a hypothesis.** An old account is keyed to the address somebody had
+when they made it, not the one they use now. Scribd's search result is the proof.
+
+Set against the week's other replies, the contrast is exact. HealthLink Dimensions will act on an
+address only if a message arrives from it — four of the eleven supplied cannot send mail and never
+will again. Hunter's Claim mechanism is tied to a specific email address, usable only by someone
+who still receives mail there. Under either rule, **the psu.edu record would have stayed exactly
+where it was, permanently, with no route by which anyone could ever reach it.**
+
+Scribd searched it because it was on a list, and reported the match. There is no sign the
+decision registered as a decision at all, which is rather the point: **the good outcome here came
+from the absence of a verification gate, not from anyone weighing one.**
+
+Two smaller things worth recording alongside it.
+
+**The named exception was overtaken by the purge.** The letter carved out one thing and asked to
+be consulted first: if any address had uploaded documents attached, say so before deleting,
+because *"I am asking about personal information, not about taking down material."* The deletion
+ran anyway. That is not a grievance — a deletion was requested and performed, promptly, with no
+identity document demanded. But it is worth naming as a pattern: **a deletion pipeline executes
+the request type, not the letter.** An exception written in prose does not survive contact with a
+workflow that has one button. Where an exception genuinely matters, it needs to be the *subject*
+of the request rather than a qualification inside it.
+
+**And the primary question went unanswered.** The letter's actual subject was whether Scribd's
+appearance in a commercial data-broker directory is correct at all — my own records show no state
+registration, and a subscription reading service has a *direct* relationship with its customers,
+which is close to the opposite of the statutory definition. That question has now been asked
+twice. The account deletion, however well handled, does not touch it: if some other part of the
+business licenses information about people onward, an account purge would not have reached it.
+
+**Related:** §252 (the argument, now evidenced); §250 (the supplement that added this address to
+other letters); the closed-mailbox rule, which until today was a caution and is now a finding.
