@@ -112,6 +112,20 @@ def main():
                 "is empty (listing_basis=" + str(_b.get("listing_basis")) + ") - verify "
                 "before any letter repeats it")
 
+    # PLACEHOLDER NAMES. The register's "Doing Business As, if applicable" field is
+    # answered "None" or "N/A" by registrants that have no DBA, and the importer took
+    # that answer as the company name. FinThrive -- continuously registered since 2020
+    # and self-declaring reproductive health care data collection in its 2024 filing --
+    # sat in this file under the name "None" for weeks. A letter addressed to a company
+    # called "No" is not a letter anyone answers. See _SILENT_FAILURES 240.
+    _PLACEHOLDER = re.compile(r"^(none|n/?a|na|null|not applicable|nil|[-.\s])$", re.I)
+    for _b in brokers:
+        if _PLACEHOLDER.match((_b.get("name") or "").strip()):
+            errors.append(
+                f"[{_b['id']}]: name is the placeholder {_b.get('name')!r} -- almost "
+                "certainly the register's empty-DBA answer imported as a company name. "
+                "Set it from the filing's business-name column before writing.")
+
     # SUCCESSION FAMILIES -- one operating business registered under several corporate
     # parents across years, each row a different domain and contact. Picking a row by
     # name recognition rather than by recency lands you on a lapsed filing whose address

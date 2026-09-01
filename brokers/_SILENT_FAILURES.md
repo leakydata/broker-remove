@@ -15955,3 +15955,68 @@ reply in context, and the context is the answer to a question I had asked them d
 
 **Related:** §236; §238; §235 (the directory knew what the register did not — this is the
 reverse, and both are now instrumented).
+
+---
+
+## §240 — a company called "None", registered since 2020
+
+The register-profile work of §239 surfaced a cohort I had never been able to see: brokers that
+self-declare, in a mandatory state filing, collecting minors' data, precise geolocation, or
+reproductive health care data. Fifteen declare the last of those.
+
+Listing them by broker id, one of the fifteen was `none`.
+
+Not a missing value in a report — an actual row in `curated_brokers.json`, with
+`"name": "None"`, a live domain, a verified privacy address, and `registry_years` of
+`2020-2023, 2024, 2025, 2026`. A company registered as a California data broker every year for
+six years, sitting in my file under the name **None**.
+
+**Where it came from.** The register form asks for *"Doing Business As (DBA), if applicable."*
+Registrants with no DBA type `None`, or `N/A`. My importer read that column as the company
+name. It is FinThrive Healthcare, Inc. — legal entity TSG Holdco, LLC — a revenue-cycle
+technology business supplying hospitals, and its 2024 filing answers **yes** to collecting
+consumers' reproductive health care data.
+
+A second row had the same defect: `n_a`, name `"N/A"`, which is CRISIL Irevna US LLC. A third,
+`no`, was Consumer Canvas. Three rows, one bug.
+
+**What it actually cost.** Not much on its own — three rows out of 1,250. But it was not the
+name that was lost, it was the *reachability*:
+
+- A letter addressed to a company called **None** is not a letter anyone answers.
+- Every triage pass I have run sorts and reads by name. A row named `None` reads as an
+  artifact, so it was skipped by eye every single time, for weeks.
+- And the fields that would have made it a priority — six consecutive registration years, a
+  reproductive-health declaration — were in columns nobody was reading until yesterday.
+
+**The compounding is the point.** §239's finding was that I had read the register as a list of
+addresses. This is the same failure one layer down: I read *one* column of it, and I read the
+wrong one. Both errors are invisible from inside the pipeline, because a name field with a
+plausible-looking string in it does not raise anything. `None` is a perfectly good five-letter
+company name as far as a schema is concerned.
+
+The guard now in `validate.py` is an **error**, not a warning: a name matching
+`none|n/a|na|null|not applicable|nil` fails the build, with the message that it is almost
+certainly the register's empty-DBA answer imported as a company name.
+
+**And the letters were worth writing.** Both rows produced real material:
+
+FinThrive's filing says *"We do not sell PHI"* and *"No data covered by HIPAA is sold."* Taken
+at face value — and I do take it at face value — that has a consequence: **whatever FinThrive
+does sell is, on its own account, not HIPAA-covered, and so the § 1798.146 carve-out does not
+reach it.** A data broker registration means selling personal information about consumers with
+no direct relationship. Something is in scope, and that something is what a request is about.
+The exemption defines the boundary rather than closing the question.
+
+CRISIL's filing names its upstream supplier unprompted — Dun & Bradstreet — which made possible
+the one ask that is normally impossible: *if you hold a record about me, tell me the D-U-N-S
+identifier it arrived under.* Their deletion cannot reach their source; the record stays in the
+D&B file, licensed onward to everyone else, and returns on their next refresh. Suppressing at
+CRISIL is worth doing. Suppressing at D&B is what ends it, **and that requires knowing which
+record to point at.**
+
+Neither letter could have been written from a website. Both were written from a filing, about a
+company whose name I did not know I had.
+
+**Related:** §239 (the register was never a list of addresses); §216 (one business, three
+register rows); §214 (assert from the record, not from the label).
