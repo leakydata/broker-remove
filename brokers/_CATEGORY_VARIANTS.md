@@ -3321,3 +3321,36 @@ results?** A record hidden from a name search but still plotted as a household o
 not removed in the way that matters.
 
 Ask it as a question about how the removal propagates, not as a criticism of the product.
+
+
+## Legacy print-directory data (Yellow Pages successors)
+
+Thryv is the successor to the Dex Media / YP businesses, and its footer still publishes a
+**"Directory Opt-Out"** next to the usual do-not-sell link. A company offering a directory
+opt-out has a directory to opt out of.
+
+The category is worth naming because the consent story is unlike any other in this file.
+**A print directory listing was, for most of its history, something a person was in by
+default.** You got a telephone line and you were listed unless you paid to be
+ex-directory. Nobody consented in a sense we would now recognise, there was no form and no
+notice, and the listings long outlived the lines they described. An address and telephone
+number printed in 1998 is still an address and telephone number — and it is precisely the
+stale, address-keyed record that a people-search compiler buys and re-publishes.
+
+So a letter here should:
+
+**Lead with the former addresses, not the current one.** A directory record is frozen at
+the moment it was printed. Current details are the least likely to match.
+
+**Ask about licensees explicitly, and invite a plain no.** A directory licensed onward for
+decades is the clearest case there is of a deletion that cannot travel. Being told "we
+cannot reach them" is worth more than a confirmation that implies otherwise.
+
+**And ask which entity the registration sits under** (§235). These businesses have been
+sold, renamed and merged repeatedly — Dex, DexOne, SuperMedia, YP Holdings, Thryv — so a
+register search by current trading name will find nothing while a filing sits under a
+predecessor.
+
+The §193 limit is at its most concrete in this category: in a *directory* product,
+excluding a bare address or number removes **that household's listing**. Say explicitly
+that if the system can only exclude bare values, the former ones should be left alone.

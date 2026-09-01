@@ -1784,6 +1784,11 @@
     "changed": "2026-08-27",
     "via": null
   },
+  "everyday_health": {
+    "status": "submitted",
+    "changed": "2026-09-01",
+    "via": "email"
+  },
   "evorra": {
     "status": "confirmed",
     "changed": "2026-08-24",
@@ -5232,6 +5237,11 @@
   "throtle": {
     "status": "manual_required",
     "changed": "2026-08-30",
+    "via": "email"
+  },
+  "thryv_holdings": {
+    "status": "submitted",
+    "changed": "2026-09-01",
     "via": "email"
   },
   "tie": {
