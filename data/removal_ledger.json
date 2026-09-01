@@ -1584,6 +1584,11 @@
     "changed": "2026-08-31",
     "via": "web"
   },
+  "domaintools": {
+    "status": "submitted",
+    "changed": "2026-09-01",
+    "via": "email"
+  },
   "donorbase": {
     "status": "manual_required",
     "changed": "2026-08-28",
@@ -1747,6 +1752,11 @@
   "equifax_workforce_solutions": {
     "status": "submitted",
     "changed": "2026-08-26",
+    "via": "email"
+  },
+  "equilar": {
+    "status": "submitted",
+    "changed": "2026-09-01",
     "via": "email"
   },
   "equimine_propstream": {
