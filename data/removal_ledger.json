@@ -4795,9 +4795,9 @@
     "via": "reply"
   },
   "scanbuy": {
-    "status": "submitted",
-    "changed": "2026-08-20",
-    "via": null
+    "status": "not_found",
+    "changed": "2026-09-02",
+    "via": "email"
   },
   "scileads": {
     "status": "submitted",
