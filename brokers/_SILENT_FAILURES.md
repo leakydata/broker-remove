@@ -16172,3 +16172,83 @@ never looked at.
 **Related:** §239 (the register was never a list of addresses); §234 (the MAID refusal); §237,
 §241 (failures the operator cannot observe — this is the opposite: a failure the operator
 published).
+
+---
+
+## §243 — the test fixture fired again, and the explanation I had accepted was wrong
+
+§232 was titled *"half the fault was mine."* RevOptimal's privacy team replied to my defect
+report personally and quickly, and offered an explanation: *"I believe your second empty request
+might have confused our system causing the odd automated responses."* The empty message was
+entirely my error — a mis-sent draft — so I accepted the explanation, said so, and corrected my
+own record on the strength of it.
+
+**That correction was wrong, and this is the entry that says so.**
+
+At 06:01 today I sent their vendor a short note. It was not a request. It made no new demand and
+said so in its second line: *"This is a short note, and it asks for nothing new."* Two questions
+and a paragraph of thanks.
+
+At **07:13:28** and **07:13:29** — one second apart — two automated emails came back:
+
+> Subject: *Confirmation: Your request has been completed.*
+> Body, in its entirety: *"Dear Data Subject, https://trustsuperset.com, Best regards, Your
+> Privacy Team."*
+
+No request named, no right named, no outcome. A template whose content variable did not render,
+leaving a bare URL where the answer should be.
+
+> Subject: *E2E-NOTFOUND: No matching records for your opt-out request.*
+> Body, in its entirety: *"This is the 404-not-found email (e2e test)."*
+
+The same test fixture as §207. **And this time there was no empty email anywhere near it** — the
+blank message was thirty-one hours earlier, and this reply came to a full letter. So the
+explanation cannot hold, which also means the chronology I had set out and then set aside on
+their word was right: the fixture first fired on 30 August at 13:35:46, in reply to a
+substantive letter, a day *before* the blank one existed.
+
+**The lesson is not that I was right.** It is about how I handled being told I was wrong.
+
+I conceded on receiving a plausible explanation from a company that had bothered to reply
+personally, and that instinct is correct — a company answering in good faith deserves to be
+believed, and §232 exists because half of that dispute genuinely was my fault. But I folded the
+*whole* claim, including the part the explanation did not touch. I had written the chronology
+out in the same message — *"the empty email cannot explain the test fixture: it arrived a day
+before I sent it"* — and then, one message later, treated the matter as settled anyway.
+
+**A courteous explanation that covers part of a complaint should retire that part and no more.**
+What I should have recorded is: *the empty email explains the 00:05 confirmations; it does not
+explain the 13:35 fixture; that remains open.* Instead I recorded a general concession, and had
+today's message not arrived I would have carried a false correction indefinitely.
+
+**What I now think is happening, offered to them as a hypothesis rather than a claim.** The
+system appears unable to distinguish a question from a request. Every inbound message on that
+address seems to be parsed as a new data subject request, run through the rights pipeline, and
+answered with whatever templates the parse produces. One hypothesis explains everything
+observed: the twenty-four second turnaround on a twelve-address request; a confirmation for a
+Right to Restriction of Processing never asked for; two completions in the same second; a
+thank-you note generating a completion notice and a not-found notice one second apart; and a
+test fixture reaching a real person twice, because a message that parses to nothing falls
+through to whatever branch is left.
+
+If that is right it has a consequence past my correspondence, and it connects this to §242:
+**the published request metrics would be counting the company's own inbox.** Every reply, every
+clarification, every thank-you becomes another "request received" and another "request
+completed" — on a public state filing. §239 found metrics that were arithmetically impossible.
+This is a mechanism by which metrics could be arithmetically fine and still measure the wrong
+thing.
+
+**And the part that could actually harm someone is unchanged.** Of everything above, the message
+that matters is *"No matching records for your opt-out request."* It is the single reply a person
+is least likely to question. It reads as good news, it closes the file, it asks nothing further.
+Someone who receives it will reasonably record a clean result and never write again — and if it
+came from a test fixture rather than a search, they will be wrong and neither party will find
+out. Two people have now received it in this thread and both were me.
+
+The fix asked for is one line: **the string "E2E" should never be able to leave the production
+system.** An outbound filter, no architectural change, and it would have caught both occurrences.
+
+**Related:** §207 (the fixture, first sighting); §232 (half the fault was mine — now amended);
+§239 and §242 (what register metrics can and cannot be trusted to mean); §138 (a confirmation is
+corroborated only by something only this request could have produced — a test fixture is the
+purest counter-example there is).
