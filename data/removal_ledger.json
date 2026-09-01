@@ -904,6 +904,11 @@
     "changed": "2026-08-17",
     "via": null
   },
+  "cb_insights": {
+    "status": "email_pending",
+    "changed": "2026-09-01",
+    "via": "email"
+  },
   "cdk": {
     "status": "submitted",
     "changed": "2026-08-25",
@@ -1390,9 +1395,9 @@
     "via": "email"
   },
   "dataman": {
-    "status": "submitted",
-    "changed": "2026-08-25",
-    "via": null
+    "status": "not_found",
+    "changed": "2026-09-01",
+    "via": "email"
   },
   "datamasters": {
     "status": "submitted",
@@ -1700,9 +1705,9 @@
     "via": "reply"
   },
   "electronic_voice_services": {
-    "status": "submitted",
-    "changed": "2026-08-27",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-09-01",
+    "via": "email"
   },
   "email_industries": {
     "status": "submitted",
@@ -2745,8 +2750,8 @@
     "via": "email"
   },
   "jmr_media": {
-    "status": "submitted",
-    "changed": "2026-08-28",
+    "status": "manual_required",
+    "changed": "2026-09-01",
     "via": "email"
   },
   "juicebox_app": {
@@ -3250,8 +3255,8 @@
     "via": "email"
   },
   "media_resource": {
-    "status": "submitted",
-    "changed": "2026-08-29",
+    "status": "confirmed",
+    "changed": "2026-09-01",
     "via": "email"
   },
   "media_source_solutions": {
@@ -5865,7 +5870,7 @@
     "via": "web"
   },
   "wiland": {
-    "status": "submitted",
+    "status": "replied",
     "changed": "2026-09-01",
     "via": "email"
   },
