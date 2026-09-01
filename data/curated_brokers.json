@@ -21429,13 +21429,15 @@
       "source": "ca_data_broker_registry",
       "optery_slug": null,
       "email_to": "cform@realitymediainc.com",
-      "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified": false,
+      "email_verified_by": "bounced",
       "registry_years": [
         "2020-2023"
       ],
       "legal_name": null,
-      "listing_basis": "state_register"
+      "listing_basis": "state_register",
+      "email_verified_was": "ca_data_broker_registry",
+      "email_note": "|| 2026-09-01: cform@realitymediainc.com failed permanently after 3 days of retries -- 'the recipient server did not accept our requests to connect'. Server unreachable rather than address unknown, so the failure took three days to surface."
     },
     {
       "id": "redmob",
