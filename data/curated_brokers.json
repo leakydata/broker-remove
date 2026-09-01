@@ -9019,7 +9019,7 @@
       ],
       "listing_basis": "state_register",
       "legal_name": "Kezzler Holdings LLC",
-      "notes": "|| 2026-09-01: replied as 'Scanbuy, now KEZZLER HOLDINGS LLC'. The CA register still carries the filing under Scanbuy, so the rename is invisible to anyone working from the register. privacy@scanbuy.com still reaches them."
+      "notes": "|| 2026-09-01: replied as 'Scanbuy, now KEZZLER HOLDINGS LLC'. The CA register still carries the filing under Scanbuy, so the rename is invisible to anyone working from the register. privacy@scanbuy.com still reaches them. || 2026-09-01: THE DATA BUSINESS IS NOT HERE. Scanbuy Inc split -- Kezzler Holdings LLC took the Smart Packaging & QR Engagement business and the NAME; the former corporate entity and DATA business became BECAUSAL, INC (privacy@becausal.com), which is the current registrant. Route data requests to becausal. This row answers accurately and holds nothing. See SILENT_FAILURES 257."
     },
     {
       "id": "scraping_robot",
@@ -14180,7 +14180,8 @@
       "legal_name": null,
       "category": "adtech",
       "category_source": "site_classifier 2026-08-31",
-      "listing_basis": "state_register"
+      "listing_basis": "state_register",
+      "notes": "|| Holds the former SCANBUY DATA business (their homepage: 'DATA STORE -- formerly Scanbuy Data'). Search scan-event, device-identifier and derived-location data, not a contact file."
     },
     {
       "id": "beenverified_inc_and_its_subsidiaries_and_affiliates",

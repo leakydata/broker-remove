@@ -17115,3 +17115,72 @@ consumer can be excluded anywhere except at the source.
 
 **Related:** §254 (the dead mailbox that matched); §252 (unverifiable addresses are the ones that
 matter); §249 (a reply can carry personal data the sender did not consider).
+
+---
+
+## §257 — the name went one way and the data went the other
+
+Every dead end this project has hit announced itself with something broken. A bounced address. A
+domain resold to a cryptocurrency company. A filing that stops after 2024 and a claims agent at
+the end of it. In each case the failure is visible, eventually, to anyone who keeps pulling.
+
+Kezzler described one that is invisible because **nothing goes wrong at all.**
+
+> *"Scanbuy, Inc. previously operated two separate businesses… Kezzler acquired the Smart
+> Packaging & QR Engagement business in 2025 and **retained the Scanbuy name**. The former Scanbuy
+> corporate entity **and data business** were not acquired by Kezzler and subsequently became
+> **Becausal, Inc.**"*
+
+So a company split, and **the name went with one half while the data went with the other.**
+
+A consumer who knows the company by name writes to the name. They reach a real company, at a
+working address, which searches its systems promptly and answers accurately: *we hold nothing
+about you.* Every word of that is true. The requester records a clean nil and stops.
+
+**And the data is at a company they have never heard of.**
+
+This is worse for the requester than any broken route in this file, precisely because there is no
+brokenness to detect. §237's `mailto:` form pointing at a dead mailbox is discoverable — you get a
+bounce. The bankrupt broker is discoverable — the filings stop. Here the signal is a correct
+answer from an honest company, and there is nothing in it to pull on.
+
+**Two independent routes reached both halves, and neither route knew about the other.** Scanbuy
+was reached by name, from a snapshot of the register carrying the historical row. Becausal was
+reached separately, from the same register's *current* entry, without any idea why it mattered —
+its homepage says *"DATA STORE — formerly Scanbuy Data"*, which meant nothing until Kezzler
+explained the split. The two halves sat in the same working file as unrelated rows.
+
+**The only thing that joined them was a company volunteering information about a business that
+was not its own.** Kezzler could have left the nil standing and been entirely within its rights.
+
+### The practical rule
+
+**A nil from a company reached by brand name is worth less than a nil from a company reached by
+registration.** A brand can be sold separately from the data it was built on; a registration is
+filed by the entity that holds the file. Where the two disagree, the registration is the one to
+follow.
+
+And when a company answers with a structural nil — *"we do not maintain the type of consumer
+database you describe"* — that is the moment to ask **who does**, rather than to close the row.
+The answer costs them nothing and may be the only way to find the data at all.
+
+### And a correction to my own standard ask
+
+Kezzler declined the prospective suppression, and gave a better reason than I had for requesting
+it:
+
+> *"nor would we want to create and retain personal information solely for that purpose."*
+
+**They are right, and the standard letter has been overreaching.** A standing suppression is the
+single most valuable thing a company that holds a consumer file can grant, because a deletion
+retaining nothing is undone at the next ingest. But where a company holds **no** consumer
+database, a suppression list is not a protection — it is a new file of personal information,
+created at the requester's own request, about someone who was not otherwise in any record. That
+is a net increase in data held, to guard against a risk that does not exist.
+
+So the ask now carries a precondition it should always have had: **a prospective suppression is
+worth having only where there is a file it could otherwise be rebuilt into.** Where there is
+none, declining it is the more privacy-protective answer.
+
+**Related:** §216 (succession by acquisition); the bankrupt-broker category; §205 (a truthful
+answer about the wrong system); §252 (suppression discloses nothing — now qualified by this).
