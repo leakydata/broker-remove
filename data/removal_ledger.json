@@ -1029,6 +1029,11 @@
     "changed": "2026-08-28",
     "via": null
   },
+  "clodura_ai": {
+    "status": "submitted",
+    "changed": "2026-09-01",
+    "via": "email"
+  },
   "cloudlead": {
     "status": "submitted",
     "changed": "2026-08-24",
@@ -1366,6 +1371,11 @@
   },
   "datafy": {
     "status": "not_found",
+    "changed": "2026-09-01",
+    "via": "email"
+  },
+  "datagma": {
+    "status": "submitted",
     "changed": "2026-09-01",
     "via": "email"
   },
@@ -3469,6 +3479,11 @@
     "changed": "2026-08-29",
     "via": "email"
   },
+  "muraena": {
+    "status": "submitted",
+    "changed": "2026-09-01",
+    "via": "email"
+  },
   "my_renter_checker": {
     "status": "submitted",
     "changed": "2026-08-19",
@@ -4718,6 +4733,11 @@
     "status": "submitted",
     "changed": "2026-08-28",
     "via": "web"
+  },
+  "salesgear": {
+    "status": "submitted",
+    "changed": "2026-09-01",
+    "via": "email"
   },
   "salesintel": {
     "status": "replied",
