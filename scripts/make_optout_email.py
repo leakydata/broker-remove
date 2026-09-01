@@ -181,7 +181,28 @@ _IDENTIFIER_KEYED = (
 # OneTrust they appeared on the California register when my own row said no such thing,
 # and had to write again to withdraw it.
 #
-# A row's `listing_basis` is "state_register" or "third_party_directory". Any letter
+# THERE ARE THREE, NOT TWO -- see _SILENT_FAILURES 235.
+#
+#   state_register         a company filed. Strong EVIDENCE of what it does.
+#   third_party_directory  a commercial compilation named it. Weak evidence, but
+#                          BETTER COVERAGE: a directory indexes by brand where a
+#                          register indexes by registered entity, so it catches
+#                          groups that file under a subsidiary name.
+#   named_by_company       a company that was party to the facts said so -- a
+#                          predecessor naming its acquirer, a group naming the
+#                          subsidiary its registration sits under, a broker naming
+#                          its supplier. First-hand, and the only route to rows we
+#                          could not have found any other way.
+#
+# The corollary I got wrong: register-sourced is not simply "better". Thomson Reuters
+# looked directory-only because the filing is under West Publishing Corp, a name no
+# search by trading name would match. So a directory-sourced letter should ASK:
+#
+#     "Are you registered in any data broker registry under a different entity name?"
+#
+# It costs a line, and it is how a register gap gets closed from the outside.
+#
+# A row's `listing_basis` is one of the three above. Any letter
 # that asserts WHY a company is on my list must read it first, and the
 # directory-sourced version has to be the weaker letter, because the evidence is
 # weaker: "a commercial directory lists you as a data broker; I cannot tell whether
