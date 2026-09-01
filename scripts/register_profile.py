@@ -290,6 +290,34 @@ def report(profiles):
     if not slow:
         print("  (none above the 45-day statutory window)")
 
+    # OPT-OUT DENIALS are a different animal from deletion or access denials, and
+    # worth their own pass. An opt-out of sale or sharing is not a verifiable
+    # consumer request: the regulations bar requiring a consumer to verify identity
+    # as a condition of honouring one, because demanding proof of identity in order
+    # to stop a sale would defeat the right. A business may still deny where it has
+    # a good-faith, documented belief the request is fraudulent, and may require
+    # proof of authorisation from an agent -- so a high rate is a QUESTION, not a
+    # verdict. The notes field usually says which. See §242.
+    print("\n=== opt-out requests denied (>=50%, coherent filings) ===")
+    print("  An opt-out needs no identity verification. A high rate is a question;")
+    print("  read the notes column before drawing any conclusion.")
+    oo = []
+    for bid, recs in profiles.items():
+        for r in recs:
+            m = r["metrics"].get("opt_out")
+            if not m or not consistent(m):
+                continue
+            rec, den = m["received"], m.get("denied") or 0
+            if den and den / rec >= 0.5:
+                oo.append((den / rec, den, rec, bid, r["year"],
+                           r.get("notes_metrics") or ""))
+    for rate, den, rec, bid, year, note in sorted(oo, reverse=True):
+        print("  %-28s %5d/%-6d (%3.0f%%) %s" % (bid, den, rec, rate * 100, year))
+        if note:
+            print("      %s" % note[:160])
+    if not oo:
+        print("  (none)")
+
     prose = [bid for bid, recs in profiles.items()
              if any(len(r["notes_practices"]) > 120 for r in recs)]
     print("\n=== %d brokers wrote a substantive free-text description ===" % len(prose))

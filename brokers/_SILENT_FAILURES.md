@@ -16093,3 +16093,82 @@ company could run on itself.
 
 **Related:** §205 (declared unmonitored); §237 (the contact route that cannot report its own
 failure); §236 and §239 (do not assert past what you checked).
+
+---
+
+## §242 — twenty companies deny most opt-outs, and the reason is usually printed next to the number
+
+§239 attached 1,092 register filings to 677 brokers. The metrics in them support one query that
+turns out to be more useful than all the others, and it took ZS Associates to make me see it.
+
+Every metrics analysis I had run treated deletion, access and opt-out denials as the same
+quantity. **They are not.** Deletion and access denials have ordinary, legitimate explanations:
+the business could not verify the requester, or held no matching record. Both are defensible and
+both are common.
+
+**An opt-out of sale or sharing is different in kind, because it is not a verifiable consumer
+request.** The regulations bar requiring a consumer to verify their identity as a condition of
+honouring one, and the reason is structural rather than technical: requiring proof of identity
+in order to stop a sale would defeat the right, and there is nothing to protect against. The
+consumer is not asking to receive data, to alter a record, or to have anything disclosed to
+them. **They are asking to be excluded.** If the identifiers match nothing, the exclusion costs
+nothing and can be applied prospectively. If they match something, the exclusion *is* the right.
+
+So a high opt-out denial rate is a question worth asking in a way a high deletion denial rate is
+not. Filtering for it — coherent filings only, per §239 — gives **twenty registrants denying at
+least half their opt-out requests**, and the notes field usually says why. Four distinct reasons
+appear, and they are not equally defensible:
+
+**1. "Could not authenticate the requester."** Wiland: *"Denials of deletion and opt-out requests
+were due to the failure of the requester to sufficiently authenticate the requester's or the
+individual's identity"* — 478 of 790. EverTrue: *"2 were denied because we could not verify the
+contacts."* Black Pearl similarly. This is the one that matters, because the note attributes
+deletion **and** opt-out denials to the same authentication gate, which suggests both went
+through it.
+
+Wiland's filing also contains the sentence that makes the check hard to explain even in
+principle: *"We don't possess or utilize sensitive data like credit card or bank account
+numbers, Social Security Numbers or other government-issued identifiers."* If what they hold is
+a name, an address, an email and a set of modelled attributes, that is exactly what a requester
+supplies — so there is nothing else to compare against. **A supplied detail that matches no
+record is a nil result, not an authentication failure**, and the two send opposite messages: *"you
+were never here"* versus *"we did not believe you."*
+
+**2. "No data found."** Rooftop Digital, 8,551 of 11,452, with the notes field saying so
+outright. Not a refusal at all — a nil result wearing the wrong word (§239).
+
+**3. "The requester would not give us a device ID."** Outlogic and Matchbook, identically:
+*"the limited personal data collected is logged by a device ID. The requestor refused to provide
+the necessary device D despite the company's follow up."* Verve: *"We require a valid device
+identifier to be able to process requests (we do not collect/process/store name, email, etc.) so
+the vast majority of requests…"*
+
+This is the standing refusal of this whole project, appearing in the register as an aggregate
+statistic. Three companies state on a state filing that they deny requests when the person will
+not hand over a mobile advertising identifier. The circularity is complete: the only key is the
+device ID, so to be removed you must first disclose the identifier that makes you trackable,
+to a company you are asking to stop tracking you. **The denominator is people who declined to do
+that.** (Outlogic and Matchbook report byte-identical figures — 355/526 — which is its own
+finding about how closely related those two filings are.)
+
+**4. "Spam requests."** Belardi Wong, 814 of 1,269. This is legitimate: the rules permit denying
+a request the business has a good-faith, documented basis to believe is fraudulent, and permit
+asking an *agent* for proof of authorisation. Bulk agent submissions are a real phenomenon. I
+record this one as answered.
+
+**The report now lives in the tool** (`register_profile.py`, opt-out section), with the caveat
+printed above the table: *an opt-out needs no identity verification; a high rate is a question,
+read the notes column before drawing a conclusion.* That caveat is there because of §239, where
+the first dramatic-looking ranking I produced turned out to be an artifact of filing errors. The
+same discipline applies here — three of the four reasons above are the company's own words, and
+the fourth is legitimate.
+
+**What makes this different from every other finding in this file:** it is visible without
+writing to anyone. Every other silent failure here was found by sending a letter and reading
+what came back. This one was already published, by the companies themselves, in a mandatory
+filing, in a spreadsheet column nobody reads. The information was never hidden. It was just
+never looked at.
+
+**Related:** §239 (the register was never a list of addresses); §234 (the MAID refusal); §237,
+§241 (failures the operator cannot observe — this is the opposite: a failure the operator
+published).
