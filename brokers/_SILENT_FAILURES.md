@@ -16252,3 +16252,101 @@ system.** An outbound filter, no architectural change, and it would have caught 
 §239 and §242 (what register metrics can and cannot be trusted to mean); §138 (a confirmation is
 corroborated only by something only this request could have produced — a test fixture is the
 purest counter-example there is).
+
+---
+
+## §244 — the best answer anyone has given, and the theory it confirmed by accident
+
+Lusha answered an access request today, and it is the most complete reply this project has
+received from anyone. §228 set out what a complete answer would look like. This is one, and it
+is worth recording what it contained before recording what was wrong in it.
+
+**What made it complete:**
+
+- **It named the sources, with contact addresses.** Two suppliers, each with a route to reach
+  them. Almost every company declines this, and it is the single most useful thing a broker can
+  give a person, because their deletion cannot reach their source and mine can.
+- **It named a recipient** — an actual customer domain, not a category.
+- **It stated the lawful basis as legitimate interest and expressly not consent**, rather than
+  implying the subject had agreed to something.
+- **It distinguished what was observed from what was inferred**, which is the sentence discussed
+  below.
+- **A second message applied suppression to the additional identifiers unprompted**, without
+  needing to be argued into it.
+
+### The sentence that confirms the derived-address wedge
+
+Under sources, for one of the two email addresses:
+
+> **"Guessed emails based on full name and company email structures."**
+
+That is the whole of the derived-address argument, written down by a broker as a routine source
+category. The wedge has been in every B2B letter for weeks: a contact file contains
+*first.last@employer* constructions generated from a name and an employer rather than observed
+anywhere, which is why **a person cannot list their own identifiers accurately — you cannot
+recite an address that was invented for you** — and why a search matching only the addresses a
+requester supplies misses by construction.
+
+Every other company has denied it, deflected it, or not understood the question. This one filed
+it under "sources".
+
+The follow-up asks the question that now matters more: **is a guessed address marked as guessed
+in what a customer receives?** If a buyer sees the constructed address in a result, can they tell
+it was generated from a naming pattern rather than observed? If not, an inference is being
+delivered with the authority of an observation, and neither the buyer nor the subject can tell.
+
+### The chain closed on itself in a single morning
+
+The other sources named were MixRank and Online Media Group, Inc.
+
+**I wrote to Online Media Group four hours before this reply arrived**, having found it in the
+California register — where the domain does not resolve at all and only the filing's
+trading-name field connects the registered entity to the product (§239, §240). That letter was
+sent on the strength of a spreadsheet column nobody reads.
+
+Two completely independent discovery paths — a register filing and a broker's own source
+disclosure — landed on the same company within the same morning, neither knowing about the
+other. That is the first time in this project that the map has closed a loop rather than
+extended one.
+
+### And the record is probably wrong
+
+The disclosed record carries **a LinkedIn profile that is not the subject's** — his was supplied
+in the original letter, in bold, precisely because it is the identifier a B2B file is most likely
+keyed to — and **a telephone number not among the eleven listed**, though sharing an exchange
+with one of them. It ties a personal webmail address to a corporate domain and an employer.
+
+So this looks like two people with a very common name, partially merged.
+
+The reply therefore does something that costs me: **it asks them not to delete the record if it
+is a merge.**
+
+> *"If that record is in fact a merge of two people, then deleting all of it may erase another
+> person's professional record — someone who shares the name and has not asked you for
+> anything. I would rather my own deletion were incomplete than that it took a stranger's
+> record with it."*
+
+This is §193's limit at the level of a whole identity rather than a single address. The
+date of birth goes to them **solely as a discriminator to rule the subject out of the other
+person's record**, and a § 1798.106 correction is requested in the alternative: if the profile,
+employer and work address belong to someone else, they are inaccurate *as to me*, and correcting
+the join is better than deleting the result of it.
+
+### One new failure shape, small and worth naming
+
+Lusha's platform sent the access response to **the matched address, not the stated reply
+address.** The letter had asked in terms that all correspondence go to one mailbox; the automated
+disclosure went to the address that matched in their file.
+
+Here that is harmless — both are readable. But the letter also listed four addresses flagged as
+closed or defunct, kept in the request purely as search keys, and those are the addresses an
+older record is most likely keyed to. **A person whose matching identifier is a dead mailbox
+would never receive their own access response**, and would have no way to discover that it had
+been sent. The request would show as fulfilled at both ends and be received by nobody.
+
+That is the same shape as §205, §237 and §241 — a failure invisible from inside — arriving this
+time through the best-behaved company in the file.
+
+**Related:** §228 (what a complete answer looks like — this is the exemplar); §239, §240
+(MixRank, found from the other direction); §193 (suppress the association, not the value); the
+derived-address wedge, now confirmed by a broker rather than argued at one.
