@@ -3237,3 +3237,34 @@ company is a prediction that someone will need end-of-life care** — built from
 discharge data, Medicare eligibility or bereavement — more sensitive in substance and
 less protected in law. Ask for it by that description, because it will not be filed
 under anything you would recognise.
+
+
+## The contest as a collection point
+
+Good Boy Studios sells a "Pet Demographics(R) Audience Platform" and runs *parade.pet*, a
+cutest-pet tournament with a cash prize where people upload photographs of their animals
+and vote on each other's.
+
+The pattern is worth naming because the collection point does not look like one. A person
+entering a picture of their dog to win a gift card is playing a game. They are not, in any
+sense they would recognise, joining a marketing audience — and the terms that say
+otherwise are the least-read text on the internet. Sweepstakes, quizzes, photo contests and
+"which X are you" widgets all work this way, and a letter to one of them should ask
+**which entry point produced the record**, because that is the part the subject genuinely
+does not know.
+
+**And the segment is rarely about its nominal subject.** An audience built on pet ownership
+is a set of inferences about the *household*: species, count and size, plus food and
+veterinary spend, are proxies for household composition, disposable income, home ownership,
+whether there is a garden, and life stage. A pet segment is a household segment wearing a
+friendly name.
+
+So the deletion has to name the inferences separately from the fields. Deleting a record
+that says someone owns a large dog, while keeping a segment that says their household has a
+garden and above-median discretionary spend, is **deleting the evidence and keeping the
+conclusion**.
+
+One limit specific to this category: a contest entry may belong to somebody else in the
+household. The letter should say plainly that it is not asking for a family member's entry
+or photographs to be removed, and ask the company to *report* rather than act if a search
+on the requester's identifiers surfaces a household member's record.
