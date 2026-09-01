@@ -17058,3 +17058,60 @@ about strangers, which outlives the customer's account.
 
 **Related:** §205 (the system the answerer owns); §138 (corroboration); §244, §246 (the data
 subject is the other side); §252 (a suppression discloses nothing).
+
+---
+
+## §256 — a list of identifiers is not a list of mailboxes, and replying to all of them is a disclosure
+
+Leidos answered a request and addressed the reply to **every email address the request had
+listed**, rather than to the single correspondence address the letter named.
+
+No harm here: all four belong to the subject and all four are readable. But the general case is
+considerably worse than it looks, and it appears to be invisible from inside.
+
+**The addresses in a privacy request are search keys, not contact points.** People supply old
+addresses precisely because that is where old records live — a former employer's address, a
+defunct provider, a university mailbox closed years ago. §254 proved the point from the other
+direction: the only confirmed match on a dead mailbox in this entire project came from an address
+nobody can send from or receive at.
+
+So a reply-to-all sends the request to mailboxes the requester may not hold. And what it
+discloses is worse than any single address would be:
+
+> **The linkage is the sensitive part.** A stranger receiving that message learns not just that
+> somebody made a privacy request, but that these twelve addresses, this name, this date of birth
+> and these sixteen postal addresses all belong to **one person** — which is precisely the
+> compiled identity the request was written to break up.
+
+Four of the twelve addresses used in these letters are at services that no longer exist. Had one
+of them been *reassigned* rather than shut down — a common outcome for corporate and ISP
+addresses — the full request would have gone to whoever holds it now.
+
+**Why nobody notices.** In the overwhelming majority of cases the addresses really do belong to
+the person writing, so replying to all of them looks like thoroughness and never produces a
+complaint. The failure only manifests for the requesters with the longest identifier histories,
+who are exactly the people these letters are written for, and it manifests as a disclosure they
+never learn about.
+
+The fix is one line of process and costs nothing:
+
+> **Reply to the stated correspondence address only. Treat every other identifier as a search
+> key.**
+
+That is why every letter this project sends now carries the instruction explicitly, and marks
+dead mailboxes inline — *"a search key only, never a reply address."* Leidos's reply is the first
+demonstration that the instruction is necessary rather than fussy.
+
+**One related note on the same reply, and it is to their credit.** Leidos explained that they
+resell voter data without retaining it — the file passes from the source directly to their
+customer, and they re-purchase on every order. That makes their nil **structural rather than
+empirical**: it would have been "nothing found" whether or not the subject appears in the
+underlying file. They named the upstream source with an address, unprompted.
+
+It also produces a question specific to pass-through resale: if nothing is retained, a deletion is
+meaningless *and so is a suppression* — unless an exclusion list is applied at the moment data
+passes through. Whether such a filtering step exists is the only thing that determines if a
+consumer can be excluded anywhere except at the source.
+
+**Related:** §254 (the dead mailbox that matched); §252 (unverifiable addresses are the ones that
+matter); §249 (a reply can carry personal data the sender did not consider).

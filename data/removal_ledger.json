@@ -2685,9 +2685,9 @@
     "via": null
   },
   "intranet_quorum": {
-    "status": "submitted",
-    "changed": "2026-08-18",
-    "via": null
+    "status": "replied",
+    "changed": "2026-09-02",
+    "via": "email"
   },
   "iowa_arrests": {
     "status": "submitted",
@@ -2955,8 +2955,8 @@
     "via": "email"
   },
   "leidos_digital_solutions": {
-    "status": "submitted",
-    "changed": "2026-08-28",
+    "status": "replied",
+    "changed": "2026-09-02",
     "via": "email"
   },
   "lender_feed_lc": {
