@@ -111,6 +111,30 @@ NO_PUBLIC_LISTING = {
     "plaid", "windfall", "dun_bradstreet", "enformion",
 }
 
+# The set above is hand-maintained and cannot keep up. Meanwhile `category` now
+# carries the answer for most rows, so derive it instead: a PUBLIC LISTING -- a page
+# a stranger can read -- exists only for these categories. An adtech platform, a B2B
+# contact file or a list broker has nothing to look up, so telling someone to "re-run
+# the lookup" for Yieldmo or T-Mobile is advice that cannot be followed.
+#
+# Before this, 498 rows were offered as "verifiable by search" and almost every one
+# printed "no search route recorded yet". A worklist that is mostly impossible is a
+# worklist nobody works.
+PUBLIC_LISTING_CATEGORIES = {"people_search", "public_records", "local_crime_news"}
+
+
+def no_public_listing(bid, broker):
+    """True when there is no page a stranger could look the subject up on.
+
+    An UNKNOWN category is not evidence either way, so those stay checkable and fall
+    back to the hand-maintained set. Same rule as 214b: 'I could not tell' must not
+    quietly become a finding.
+    """
+    if bid in NO_PUBLIC_LISTING:
+        return True
+    cat = broker.get("category")
+    return bool(cat) and cat not in PUBLIC_LISTING_CATEGORIES
+
 
 def load(p, default):
     return json.loads(p.read_text()) if p.exists() else default
@@ -163,7 +187,7 @@ def cmd_list(args):
         b = reg.get(bid, {})
         rows.append((due_in, bid, b.get("name", bid), b.get("priority", 0),
                      search_url(bid, bits), checks[-1]["result"] if checks else None,
-                     bid in NO_PUBLIC_LISTING, search_form(b.get("domain"))))
+                     no_public_listing(bid, b), search_form(b.get("domain"))))
 
     rows.sort(key=lambda r: (r[0], -r[3]))
     if not rows:
