@@ -15636,3 +15636,71 @@ Two questions remain, both free and neither needing a MAID: whether they transac
 **email-derived** identifier — *"we do not collect email addresses"* is not the same as never
 holding a token computed from one, which is §221's distinction — and whether a standing
 do-not-add entry is possible on whatever key they can hold.
+
+## §235 — the directory was right and my register was silent
+
+§214 established that a third-party directory is not a register, and that a
+directory-sourced row deserves a weaker letter. That was correct. But I drew a corollary
+from it that this entry disproves: I had started treating *register-sourced* as strong
+evidence and *directory-sourced* as thin.
+
+Thomson Reuters answered the weak letter — by email, without making me use the portal
+first:
+
+> "Where required by applicable law, we have registered **West Publishing Corp** in data
+> broker registries. West Publishing Corp is the entity that holds the Thomson Reuters
+> products that compile information from public and other lawful sources... including the
+> **CLEAR and Public Records on Westlaw** family of products."
+
+**The directory listing was right. My register data was wrong.**
+
+I searched the state registers for "Thomson Reuters" and found nothing, which is what put
+that row in the weak tier. The registration exists — under a subsidiary name I would never
+have matched to the brand.
+
+### Why the directory caught what the register missed
+
+A register indexes by **registered entity**. A commercial directory indexes by **brand**.
+
+For a group that files under a subsidiary — which is entirely proper, since the
+registration belongs in the name of the entity that actually holds the data — those two
+indexes disagree, and only one of them matches the name a consumer knows.
+
+So the hierarchy is not *register > directory*. It is:
+
+    a register filing is stronger EVIDENCE of what a company does
+    a directory entry has better COVERAGE of who a company is
+
+Neither substitutes for the other, and the failure modes are opposite: the register misses
+brands, the directory misses accuracy (§214, where I told two companies they were
+registered when my own data said no such thing).
+
+### The gap this opens in my own dataset
+
+If Thomson Reuters is invisible to a register search by trading name, **so is every other
+group that files under a subsidiary.** My register import is keyed to filed names, and I
+have no systematic way to connect *"West Publishing Corp"* to *"Thomson Reuters"* without a
+company telling me.
+
+That is a real coverage hole and I cannot close it by working harder at the register. The
+only reliable route is the one that worked here and in §230: **ask, and a company will
+often tell you the entity name for free.**
+
+`west_publishing_corp` is now a row with `source: "named_by_company"` — the second entity
+in this project to exist because somebody answered a question rather than because I found
+a filing.
+
+### And what I sent back
+
+The FCRA question, because CLEAR is used for both regulated and unregulated purposes and a
+single "delete everything" request sits badly across both. If it is all FCRA-regulated, a
+deletion request is the wrong instrument and a § 609 file-disclosure request is the right
+one — and saying so saves the portal round-trip. I raised § 1798.145(d)'s activity scoping
+once and said I would not labour it.
+
+Plus one thing offered in return: a consumer working from a state register by brand will
+search "Thomson Reuters", get nothing, and conclude there is nothing to ask about. A line
+on the privacy page naming West Publishing Corp as the registered entity would close that
+for everyone else who looks. I said plainly that the filing itself is correct and I was not
+suggesting otherwise — the gap is in how it looks from outside, which is exactly the thing
+a company cannot see and I can.
