@@ -2957,7 +2957,7 @@
   "lionshare": {
     "status": "confirmed",
     "changed": "2026-08-27",
-    "via": "reply"
+    "via": "email"
   },
   "list_service_direct": {
     "status": "failed",
