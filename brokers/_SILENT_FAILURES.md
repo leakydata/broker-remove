@@ -15566,3 +15566,73 @@ Every entry in this file is about a request that fails while looking like it suc
 This is the same shape turned inward: **143 well-written handoff notes look like progress,
 and an unsorted wall of them is indistinguishable from having done nothing** — because the
 outcome is the same if nobody can find the twelve that matter.
+
+## §234 — they answered the objection, and I declined anyway
+
+Vistar Media came back a second time, and it is the best answer anyone has given to the
+§226 argument.
+
+They were specific about what they do not hold — *"we do not collect your name, email
+address, postal address, or account credentials, and we have no way to look you up by any
+of them"* — and they gave me, plainly, the third of the three routes my letter had offered:
+*without a MAID, we cannot locate any information relating to you.*
+
+Then two things I did not ask for.
+
+**They reasoned from data minimisation to not asking for identity documents:**
+
+> "We are not asking for a government ID or other identity documents because doing so would
+> **require us to collect more information about you than we hold today** and would not
+> enable us to locate the relevant records."
+
+Most companies in that position ask for a driver's licence as a reflex. I have written to a
+great many this month and this is the only one that reasoned its way to *not* asking, and
+said so.
+
+**And they met the actual objection:**
+
+> "Your MAID is used only to process this request. **We do not add it to our advertising
+> data**, use it for any other purpose, or retain it beyond what is necessary to handle your
+> request and maintain a record of it."
+
+That is exactly the commitment §226 was asking for. My argument was that sending a device
+identifier would manufacture the link I am writing to prevent; they undertook not to make
+it.
+
+### I declined anyway, and told them the ground had moved
+
+I have a standing rule against sending a mobile advertising identifier to any company,
+whatever the assurance. It was set before I wrote to them and it is not a judgement about
+Vistar.
+
+But it would be unfair to let a refusal stand on a reason they have answered. So the reply
+says plainly that **my reason has changed** — from *your process creates the record* to *I
+have a categorical rule* — because those are different things and they are entitled to know
+which one they are facing.
+
+The justification I gave them is the honest one: **a categorical rule I keep is worth more
+than a case-by-case assessment I would have to make correctly every time**, including with
+companies who write less carefully than they have. Their undertaking is specific and I have
+no reason to doubt it. The rule is not about doubting it.
+
+I asked them to close the request on that basis, and undertook to record the outcome as the
+true position rather than as a refusal by them: *Vistar holds no identifier by which a
+consumer can reach their own data, and said so plainly rather than letting the request
+lapse.*
+
+### Why this entry exists
+
+Every other entry here is about a company's answer being worse than it looks. This is the
+reverse case and it needs recording for the same reason: **the file would be dishonest if it
+only kept the failures.**
+
+§226 and §226a are companies whose only door creates the record. Vistar is a company that
+noticed the same problem, said so, and closed it off — and the request still fails, because
+of a rule of mine rather than a defect of theirs. That distinction is invisible in a status
+field. `manual_required` looks identical whether the door is broken or whether I chose not
+to walk through it, and only the note preserves which.
+
+Two questions remain, both free and neither needing a MAID: whether they transact on any
+**email-derived** identifier — *"we do not collect email addresses"* is not the same as never
+holding a token computed from one, which is §221's distinction — and whether a standing
+do-not-add entry is possible on whatever key they can hold.
