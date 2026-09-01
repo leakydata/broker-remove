@@ -2121,7 +2121,7 @@
       "email_to": "info@connextdigital.com",
       "email_verified": false,
       "email_verified_by": "bounced",
-      "notes": "Both info@connextdigital.com (2026-08-17) and privacy@connextdigital.com (2026-08-22) hard-bounce 550 5.1.1. No alternative address published anywhere on the site. Domain/MX resolve \u2014 live domain, no working mailbox. No usable email route; do not resend to either address.",
+      "notes": "Both info@connextdigital.com (2026-08-17) and privacy@connextdigital.com (2026-08-22) hard-bounce 550 5.1.1. No alternative address published anywhere on the site. Domain/MX resolve — live domain, no working mailbox. No usable email route; do not resend to either address.",
       "email_alt": "privacy@connextdigital.com",
       "registry_years": [
         "2020-2023",
@@ -2309,7 +2309,7 @@
       "email_to": "priorityoptout@intelius.com",
       "email_verified": true,
       "email_verified_by": "broker_reply",
-      "notes": "support@criminaldatacheck.com hard-bounces (550) and is the only address the site itself publishes. This is an Intelius/PeopleConnect affiliate front (optout_url already pointed at intelius.com/privacy-center) \u2014 file against priorityoptout@intelius.com naming CriminalDataCheck.com specifically, same pattern as addresses_com and zabasearch.",
+      "notes": "support@criminaldatacheck.com hard-bounces (550) and is the only address the site itself publishes. This is an Intelius/PeopleConnect affiliate front (optout_url already pointed at intelius.com/privacy-center) — file against priorityoptout@intelius.com naming CriminalDataCheck.com specifically, same pattern as addresses_com and zabasearch.",
       "email_alt": "support@criminaldatacheck.com",
       "category": "people_search",
       "category_source": "site_classifier 2026-08-31",
@@ -2477,7 +2477,7 @@
       "email_to": "info@datadirectmarketing.com",
       "email_verified": false,
       "email_verified_by": "bounced",
-      "notes": "Both info@datadirectmarketing.com (2026-08-17) and datanalytics@teamdms.com (2026-08-22) hard-bounce 'address not found'. No alternative address published anywhere on the site. Domain/MX resolve \u2014 live domain, no working mailbox. No usable email route; do not resend to either address.",
+      "notes": "Both info@datadirectmarketing.com (2026-08-17) and datanalytics@teamdms.com (2026-08-22) hard-bounce 'address not found'. No alternative address published anywhere on the site. Domain/MX resolve — live domain, no working mailbox. No usable email route; do not resend to either address.",
       "email_alt": "datanalytics@teamdms.com",
       "registry_years": [
         "2020-2023",
@@ -19247,7 +19247,7 @@
       ],
       "legal_name": null,
       "email_alt": "dataprivacy@listmatch.com",
-      "notes": "dataprivacy@listmatch.com \u2014 the address on their CA data broker registration \u2014 hard-bounced (550) 2026-08-27. Their own privacy page publishes a YEAR-SUFFIXED address, dataprivacy2026@listmatch.com, which rotates while the registry keeps the old one. Resent there 2026-08-27 and got an auto-reply confirming receipt (gmail:1a041e3313fd0e4e). Registry entry was stale \u2014 email_to still pointed at the dead address after a prior session already found and used the fix.",
+      "notes": "dataprivacy@listmatch.com — the address on their CA data broker registration — hard-bounced (550) 2026-08-27. Their own privacy page publishes a YEAR-SUFFIXED address, dataprivacy2026@listmatch.com, which rotates while the registry keeps the old one. Resent there 2026-08-27 and got an auto-reply confirming receipt (gmail:1a041e3313fd0e4e). Registry entry was stale — email_to still pointed at the dead address after a prior session already found and used the fix.",
       "listing_basis": "state_register"
     },
     {
@@ -21308,7 +21308,7 @@
       ],
       "legal_name": "RampedUp",
       "email_alt": "privacy@rampedup.io",
-      "notes": "privacy@rampedup.io \u2014 the address on their CA data broker registration \u2014 is a restricted Google Workspace group that rejects outside senders ('group may not exist or you may not have permission to post'), bounced 2026-08-26. Their own site publishes contact@rampedup.io instead; resent there, unverified until a reply arrives. || 2026-09-01: contact@rampedup.io auto-replies 'not a monitored inbox' and routes all privacy requests to the portal at basic.rampedup.io/app/donotsell or (404) 682-9570. The 2024 filing listed contact@ and the 2025 filing listed privacy@, which bounces -- the register address got worse between years. See SILENT_FAILURES 245.",
+      "notes": "privacy@rampedup.io — the address on their CA data broker registration — is a restricted Google Workspace group that rejects outside senders ('group may not exist or you may not have permission to post'), bounced 2026-08-26. Their own site publishes contact@rampedup.io instead; resent there, unverified until a reply arrives. || 2026-09-01: contact@rampedup.io auto-replies 'not a monitored inbox' and routes all privacy requests to the portal at basic.rampedup.io/app/donotsell or (404) 682-9570. The 2024 filing listed contact@ and the 2025 filing listed privacy@, which bounces -- the register address got worse between years. See SILENT_FAILURES 245.",
       "category": "adtech",
       "category_source": "site_classifier 2026-08-31",
       "listing_basis": "state_register"
@@ -22965,7 +22965,7 @@
       "category_source": "site_classifier 2026-08-30",
       "email_verified_was": "bounced",
       "listing_basis": "state_register",
-      "email_alt": "privacy@tauxbe.com (BOUNCED 2026-09-01, 550 5.7.1 \u2014 published as the privacy contact but rejects mail)",
+      "email_alt": "privacy@tauxbe.com (BOUNCED 2026-09-01, 550 5.7.1 — published as the privacy contact but rejects mail)",
       "email_note": " || 2026-09-01 HARD BOUNCE + CORRECTION: privacy@tauxbe.com (the address their own privacy policy names) returned 550 5.7.1. The site is live (natcrim background-screening product); its own /contact page lists solutions@tauxbe.com as the general inbox, and the privacy policy's state list (CA, VA, CO, CT, UT, OR, TX, MT, IA, DE, NE, NH, NJ) does not include PA -- fallback clause applies. Resent to solutions@tauxbe.com noting the bounce and asking it be routed to whoever owns privacy requests.",
       "notes": "Not on their listed-state roster (CA/VA/CO/CT/UT/OR/TX/MT/IA/DE/NE/NH/NJ); PA has no such list, fallback-to-policy clause invoked."
     },
@@ -24304,7 +24304,7 @@
     },
     {
       "id": "west_publishing_corp",
-      "name": "West Publishing Corp (Thomson Reuters \u2014 CLEAR, Public Records on Westlaw)",
+      "name": "West Publishing Corp (Thomson Reuters — CLEAR, Public Records on Westlaw)",
       "legal_name": "West Publishing Corp",
       "domain": "thomsonreuters.com",
       "priority": 4,
@@ -24319,6 +24319,24 @@
       "category_source": "named by Thomson Reuters 2026-09-01 as the registered entity holding CLEAR and Public Records on Westlaw",
       "listing_basis": "state_register",
       "notes": "Added 2026-09-01. Thomson Reuters' privacy office named this as the entity registered in data broker registries and holding the CLEAR / Public Records on Westlaw products. Our register import had NO row for Thomson Reuters because the filing is under the subsidiary name. See _SILENT_FAILURES 235."
+    },
+    {
+      "id": "firecrawl",
+      "name": "Firecrawl",
+      "domain": "firecrawl.dev",
+      "priority": 3,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "named_by_company",
+      "optery_slug": null,
+      "email_to": "privacy@firecrawl.dev",
+      "email_verified": false,
+      "email_verified_by": null,
+      "category": "data_recipient",
+      "category_source": "named_by_fullenrich 2026-09-01",
+      "listing_basis": "named_by_company",
+      "email_note": "2026-09-01: NOT A BROKER. Named by FullEnrich as the CLIENT that submitted a reverse lookup on the subject's address on 21 Aug 2026. Held here as a data RECIPIENT so the 1798.105(c) downstream-deletion trail is recorded. See SILENT_FAILURES 246."
     }
   ]
 }

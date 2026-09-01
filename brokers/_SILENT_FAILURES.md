@@ -16495,3 +16495,51 @@ confirmation ever will.
 
 **Related:** §244 (Lusha's disclosure, the previous best); §245 (two accounts of one record laid
 side by side); §195 (why the full identifier set has to be sent); §138 (corroboration).
+
+---
+
+## §247 — two agents wrote to the same company twenty-five minutes apart
+
+A small operational finding, recorded because the fix is cheap and the failure will otherwise
+recur.
+
+Two Claude sessions share this mailbox and this repository. This morning both wrote to
+ContactOut. The cloud session sent it at 10:17 as part of a disciplined batch over brokers with
+a verified address and no letter on file. I sent a second letter around 10:44, built on the
+FullEnrich disclosure, naming a specific lookup on a specific date.
+
+Both letters are legitimate and mine is far more useful. But from the recipient's side it is one
+person writing twice in half an hour with two different framings, which reads as disorganised
+and makes the second letter easier to file as a duplicate of the first.
+
+**Why the existing coordination did not catch it.** `removal_ledger.json` is the shared channel
+and it works — it is committed, sanitised, and both sessions read it. But it is **synced at
+commit time, not at send time.** The cloud session sent at 10:17 and committed at 10:21. In the
+window between, the ledger said ContactOut was uncontacted, because it was uncontacted when the
+ledger was last written.
+
+Any repository-based channel has this gap. The commit is downstream of the send, so a
+repository can never be authoritative about what has just been sent.
+
+**The mailbox can be.** Both sessions share the Gmail account, and a sent message appears there
+immediately. So the rule is procedural rather than mechanical, and it is one search:
+
+> **Before sending a cold-open letter, search the sent folder for the recipient domain.**
+> `in:sent to:example.com` — if something went out in the last day, either skip it or write a
+> follow-up that acknowledges the first letter instead of a second cold open.
+
+That check costs one call and closes the window the ledger cannot. It is worth running only for
+*cold opens*; a reply in an existing thread is already scoped by the thread.
+
+**What the collision also shows, and this is the better half of the story.** The FullEnrich reply
+that produced §246 — the best answer of the project — came back to **the cloud session's letter**,
+not mine. I read it in the shared mailbox, recognised what it contained, and built three further
+letters on it: to FullEnrich, to the provider it named, and to the client it named.
+
+So the two-agent arrangement did the thing it was set up to do. One session works breadth —
+twenty-four letters in a batch, under a self-imposed cap, skipping anything mid-conversation.
+The other works depth on whatever comes back. **The duplicate is the cost of that, and it is a
+small cost**; the alternative — partitioning the broker list so neither can touch the other's —
+would have meant nobody was reading the reply that mattered most today.
+
+**Related:** the ledger design; §239 (a shared channel is only as current as its last write).

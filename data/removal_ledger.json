@@ -1939,6 +1939,11 @@
     "changed": "2026-08-16",
     "via": null
   },
+  "firecrawl": {
+    "status": "submitted",
+    "changed": "2026-09-01",
+    "via": "email"
+  },
   "firmfuel": {
     "status": "submitted",
     "changed": "2026-08-18",
