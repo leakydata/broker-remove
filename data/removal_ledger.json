@@ -2565,9 +2565,9 @@
     "via": null
   },
   "infotracer": {
-    "status": "submitted",
-    "changed": "2026-08-15",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-09-01",
+    "via": "email"
   },
   "infotracer_goodcar_propertychecker_entitycheck_sentinex_cour": {
     "status": "not_found",
@@ -5385,7 +5385,7 @@
     "via": "email"
   },
   "topline_holdings": {
-    "status": "submitted",
+    "status": "replied",
     "changed": "2026-09-01",
     "via": "email"
   },
