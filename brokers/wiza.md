@@ -1,14 +1,14 @@
-# Findwhocallsyou
+# Wiza
 
-- **Email:** contact@findwhocallsyou.com (verified)
+- **Email:** optout@wiza.com (verified)
 - **Method:** email — Statutory request by email. No web form needed.
-- **Domain:** findwhocallsyou.com
+- **Domain:** wiza.com
 - **Priority: 1.**
 
 ## Status
 
-- Current: `unreachable` (updated 2026-08-31)
-- Note: 2026-08-31 CORRECTION — this was previously recorded as `submitted`, written right after the send and before the bounce arrived. contact@findwhocallsyou.com hard-bounced (550, address not found) the same day. No alternate address found on the site or in any registry (directory-sourced entry, not a state filing).
+- Current: `submitted` (updated 2026-09-01)
+- Note: Sent to their own published opt-out address (optout@wiza.com). Wiza pulls contact records from LinkedIn searches, so deliberately did NOT supply a LinkedIn profile URL — offered to decide separately if they say they need one, per `_CATEGORY_VARIANTS.md` ("Do not hand over a device identifier/profile URL to establish that one is not held"). Asked for phone/name search over personal email and a do-not-add suppression on a null result.
 
 ## Steps
 

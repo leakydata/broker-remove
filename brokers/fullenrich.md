@@ -1,14 +1,14 @@
-# Findwhocallsyou
+# Fullenrich
 
-- **Email:** contact@findwhocallsyou.com (verified)
+- **Email:** support@fullenrich.com (verified)
 - **Method:** email — Statutory request by email. No web form needed.
-- **Domain:** findwhocallsyou.com
+- **Domain:** fullenrich.com
 - **Priority: 1.**
 
 ## Status
 
-- Current: `unreachable` (updated 2026-08-31)
-- Note: 2026-08-31 CORRECTION — this was previously recorded as `submitted`, written right after the send and before the bounce arrived. contact@findwhocallsyou.com hard-bounced (550, address not found) the same day. No alternate address found on the site or in any registry (directory-sourced entry, not a state filing).
+- Current: `submitted` (updated 2026-09-01)
+- Note: Sent the B2B contact-database letter, with the enrichment-waterfall variant: asked which upstream providers returned a match (FullEnrich explicitly waterfalls across providers), asked about customer export/sync.
 
 ## Steps
 

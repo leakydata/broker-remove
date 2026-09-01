@@ -1,14 +1,14 @@
-# Findwhocallsyou
+# Clay
 
-- **Email:** contact@findwhocallsyou.com (verified)
+- **Email:** privacy@clay.com (verified)
 - **Method:** email — Statutory request by email. No web form needed.
-- **Domain:** findwhocallsyou.com
+- **Domain:** clay.com
 - **Priority: 1.**
 
 ## Status
 
-- Current: `unreachable` (updated 2026-08-31)
-- Note: 2026-08-31 CORRECTION — this was previously recorded as `submitted`, written right after the send and before the bounce arrived. contact@findwhocallsyou.com hard-bounced (550, address not found) the same day. No alternate address found on the site or in any registry (directory-sourced entry, not a state filing).
+- Current: `submitted` (updated 2026-09-01)
+- Note: Sent the B2B contact-database letter, with the enrichment-platform variant: asked which upstream data sources returned a match (Clay aggregates many providers), asked which customers exported/synced a record via the platform, and asked about standing suppression surviving a re-enrichment run.
 
 ## Steps
 

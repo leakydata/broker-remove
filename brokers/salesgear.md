@@ -1,14 +1,14 @@
-# Findwhocallsyou
+# Salesgear
 
-- **Email:** contact@findwhocallsyou.com (verified)
+- **Email:** support@salesgear.io (verified)
 - **Method:** email — Statutory request by email. No web form needed.
-- **Domain:** findwhocallsyou.com
+- **Domain:** salesgear.io
 - **Priority: 1.**
 
 ## Status
 
-- Current: `unreachable` (updated 2026-08-31)
-- Note: 2026-08-31 CORRECTION — this was previously recorded as `submitted`, written right after the send and before the bounce arrived. contact@findwhocallsyou.com hard-bounced (550, address not found) the same day. No alternate address found on the site or in any registry (directory-sourced entry, not a state filing).
+- Current: `submitted` (updated 2026-09-01)
+- Note: Sent the standard B2B contact-database letter: phone/name search over personal email, do-not-add suppression on a null result, customer-export question. Note: salesgear_io is a duplicate registration of the same site/address and was deliberately held out of the send queue rather than double-emailing the same mailbox.
 
 ## Steps
 

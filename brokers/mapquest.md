@@ -1,14 +1,14 @@
-# Findwhocallsyou
+# Mapquest Inc
 
-- **Email:** contact@findwhocallsyou.com (verified)
+- **Email:** help@mapquest.com (verified)
 - **Method:** email — Statutory request by email. No web form needed.
-- **Domain:** findwhocallsyou.com
+- **Domain:** mapquest.com
 - **Priority: 1.**
 
 ## Status
 
-- Current: `unreachable` (updated 2026-08-31)
-- Note: 2026-08-31 CORRECTION — this was previously recorded as `submitted`, written right after the send and before the bounce arrived. contact@findwhocallsyou.com hard-bounced (550, address not found) the same day. No alternate address found on the site or in any registry (directory-sourced entry, not a state filing).
+- Current: `submitted` (updated 2026-09-01)
+- Note: No registry filing and no clear indication of what a mapping/directions company would hold about an individual beyond a name-and-address search testing the wrong keys. Sent the "unknown broker" categorisation letter, adapted to specifically ask about search/route history and IP-or-device-derived location data, which a name search would not surface.
 
 ## Steps
 

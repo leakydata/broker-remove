@@ -1,14 +1,14 @@
-# Findwhocallsyou
+# Tomba
 
-- **Email:** contact@findwhocallsyou.com (verified)
+- **Email:** privacy@tomba.io (verified)
 - **Method:** email — Statutory request by email. No web form needed.
-- **Domain:** findwhocallsyou.com
+- **Domain:** tomba.io
 - **Priority: 1.**
 
 ## Status
 
-- Current: `unreachable` (updated 2026-08-31)
-- Note: 2026-08-31 CORRECTION — this was previously recorded as `submitted`, written right after the send and before the bounce arrived. contact@findwhocallsyou.com hard-bounced (550, address not found) the same day. No alternate address found on the site or in any registry (directory-sourced entry, not a state filing).
+- Current: `submitted` (updated 2026-09-01)
+- Note: Sent the B2B contact-database letter, with the email-finder variant: asked directly whether any work-email address under my name exists in their index (generated or observed) rather than asking me to guess the format; asked about API/extension export and re-crawl suppression.
 
 ## Steps
 

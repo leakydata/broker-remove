@@ -1,14 +1,14 @@
-# Findwhocallsyou
+# Finalscout
 
-- **Email:** contact@findwhocallsyou.com (verified)
+- **Email:** privacy@finalscout.com (verified)
 - **Method:** email — Statutory request by email. No web form needed.
-- **Domain:** findwhocallsyou.com
+- **Domain:** finalscout.com
 - **Priority: 1.**
 
 ## Status
 
-- Current: `unreachable` (updated 2026-08-31)
-- Note: 2026-08-31 CORRECTION — this was previously recorded as `submitted`, written right after the send and before the bounce arrived. contact@findwhocallsyou.com hard-bounced (550, address not found) the same day. No alternate address found on the site or in any registry (directory-sourced entry, not a state filing).
+- Current: `submitted` (updated 2026-09-01)
+- Note: Sent the B2B contact-database letter, with the LinkedIn-sourcing variant: FinalScout is built from LinkedIn profile data, so deliberately did NOT supply a LinkedIn URL (see `_CATEGORY_VARIANTS.md`, "Do not hand over a device identifier to establish that one is not held" — the same logic applies to a profile URL); offered to decide separately if they say they need one.
 
 ## Steps
 

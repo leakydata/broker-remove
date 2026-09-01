@@ -790,9 +790,9 @@
     "via": "reply"
   },
   "bureau_van_dijk_electronic_publishing": {
-    "status": "failed",
-    "changed": "2026-08-25",
-    "via": null
+    "status": "submitted",
+    "changed": "2026-09-01",
+    "via": "email"
   },
   "business_watch_network": {
     "status": "submitted",
@@ -5100,9 +5100,9 @@
     "via": "email"
   },
   "sterling_data": {
-    "status": "submitted",
-    "changed": "2026-08-31",
-    "via": null
+    "status": "unreachable",
+    "changed": "2026-09-01",
+    "via": "email"
   },
   "stirista": {
     "status": "not_found",
@@ -5180,9 +5180,9 @@
     "via": null
   },
   "tauxbe_data": {
-    "status": "submitted",
-    "changed": "2026-08-31",
-    "via": null
+    "status": "email_pending",
+    "changed": "2026-09-01",
+    "via": "email"
   },
   "td_cowen": {
     "status": "submitted",
@@ -5922,6 +5922,126 @@
   "zs_associates": {
     "status": "submitted",
     "changed": "2026-08-31",
+    "via": "email"
+  },
+  "affluense_ai": {
+    "status": "submitted",
+    "changed": "2026-09-01",
+    "via": "email"
+  },
+  "aged_solar_leads": {
+    "status": "submitted",
+    "changed": "2026-09-01",
+    "via": "email"
+  },
+  "cb_insights": {
+    "status": "submitted",
+    "changed": "2026-09-01",
+    "via": "email"
+  },
+  "clay": {
+    "status": "submitted",
+    "changed": "2026-09-01",
+    "via": "email"
+  },
+  "clodura_ai": {
+    "status": "submitted",
+    "changed": "2026-09-01",
+    "via": "email"
+  },
+  "contactout": {
+    "status": "submitted",
+    "changed": "2026-09-01",
+    "via": "email"
+  },
+  "datagma": {
+    "status": "submitted",
+    "changed": "2026-09-01",
+    "via": "email"
+  },
+  "fullenrich": {
+    "status": "submitted",
+    "changed": "2026-09-01",
+    "via": "email"
+  },
+  "hunter": {
+    "status": "submitted",
+    "changed": "2026-09-01",
+    "via": "email"
+  },
+  "intentmacro": {
+    "status": "submitted",
+    "changed": "2026-09-01",
+    "via": "email"
+  },
+  "salesforce": {
+    "status": "submitted",
+    "changed": "2026-09-01",
+    "via": "email"
+  },
+  "salesgear": {
+    "status": "submitted",
+    "changed": "2026-09-01",
+    "via": "email"
+  },
+  "salesintel": {
+    "status": "submitted",
+    "changed": "2026-09-01",
+    "via": "email"
+  },
+  "signalhire": {
+    "status": "submitted",
+    "changed": "2026-09-01",
+    "via": "email"
+  },
+  "sprouts_ai": {
+    "status": "submitted",
+    "changed": "2026-09-01",
+    "via": "email"
+  },
+  "tomba": {
+    "status": "submitted",
+    "changed": "2026-09-01",
+    "via": "email"
+  },
+  "wiza": {
+    "status": "submitted",
+    "changed": "2026-09-01",
+    "via": "email"
+  },
+  "address_scoop": {
+    "status": "submitted",
+    "changed": "2026-09-01",
+    "via": "email"
+  },
+  "aeroleads": {
+    "status": "submitted",
+    "changed": "2026-09-01",
+    "via": "email"
+  },
+  "finalscout": {
+    "status": "submitted",
+    "changed": "2026-09-01",
+    "via": "email"
+  },
+  "muraena": {
+    "status": "submitted",
+    "changed": "2026-09-01",
+    "via": "email"
+  },
+  "wealthfeed": {
+    "status": "submitted",
+    "changed": "2026-09-01",
+    "via": "email"
+  },
+  "mapquest": {
+    "status": "submitted",
+    "changed": "2026-09-01",
+    "via": "email"
+  },
+  "west_publishing_corp": {
+    "status": "manual_required",
+    "changed": "2026-09-01",
     "via": "email"
   }
 }
