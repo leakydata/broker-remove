@@ -347,6 +347,66 @@ def report(profiles):
         print("  %-30s (%s) %s" % (bid, year, txt[:150]))
     print("  -- %d registrants" % len(scoped))
 
+    # IDENTICAL FREE TEXT MEANS ONE OPERATOR *OR* ONE TEMPLATE, AND THE METRICS
+    # TELL YOU WHICH.
+    #
+    # Filings are written by a person, so two registrants whose practices paragraph
+    # matches word-for-word were filled in from the same desk -- Exact Data's text
+    # is Data Axle's and names Data Axle in the first line; Spectrum Data and
+    # Spectrum Mailing Lists share one.
+    #
+    # But Lusha, UpLead and ZoomInfo also share a paragraph, and those are
+    # competitors. There the shared sentence is industry boilerplate, which is its
+    # own finding: "limited to business information" is a position the sector
+    # coordinates on rather than each company reaching independently.
+    #
+    # The discriminator is the request metrics. One operation filing twice reports
+    # the SAME NUMBERS twice -- Outlogic and Matchbook both file 526/171/171/355;
+    # LeadSherpa and PropertyReach both file 8 of 9 opt-outs denied. Shared counsel
+    # does not produce shared arithmetic. So a cluster is flagged SAME-OPERATOR when
+    # the metrics match too, and SHARED-TEXT when only the prose does.
+    #
+    # It matters operationally either way: a suppression at one row may or may not
+    # reach the siblings, and writing to one and not the others leaves the rest
+    # untouched -- the §216 succession problem detected from prose rather than from
+    # corporate names. See §251.
+    print("\n=== registrant rows sharing identical free text ===")
+    print("  SAME-OPERATOR: prose and request metrics both match -- almost certainly")
+    print("  one operation filing more than once. SHARED-TEXT: prose only, which may")
+    print("  be shared counsel or sector boilerplate. Ask either way whether one")
+    print("  suppression covers the siblings.")
+    fam = {}
+    for bid, recs in profiles.items():
+        for r in recs:
+            txt = re.sub(r"\s+", " ", (r.get("notes_practices") or "")).strip().lower()
+            if len(txt) > 120:
+                fam.setdefault(txt, set()).add(bid)
+    def _metric_sig(bid):
+        """Every metrics figure a broker filed, as a comparable signature."""
+        out = []
+        for r in profiles.get(bid, []):
+            for kind in sorted(r["metrics"]):
+                m = r["metrics"][kind]
+                out.append((r["year"], kind, m.get("received"), m.get("whole"),
+                            m.get("part"), m.get("denied")))
+        return tuple(sorted(out))
+
+    shared = [(sorted(ids), txt) for txt, ids in fam.items() if len(ids) > 1]
+    for ids, txt in sorted(shared):
+        sigs = {_metric_sig(b) for b in ids}
+        # A cluster where nobody filed metrics tells us nothing either way.
+        has_metrics = any(_metric_sig(b) for b in ids)
+        if has_metrics and len(sigs) == 1:
+            tag = "SAME-OPERATOR"
+        elif has_metrics:
+            tag = "SHARED-TEXT  "
+        else:
+            tag = "no metrics   "
+        print("  [%s] %s" % (tag, " + ".join(ids)))
+        print("      %s" % txt[:130])
+    print("  -- %d clusters covering %d rows"
+          % (len(shared), sum(len(i) for i, _ in shared)))
+
     prose = [bid for bid, recs in profiles.items()
              if any(len(r["notes_practices"]) > 120 for r in recs)]
     print("\n=== %d brokers wrote a substantive free-text description ===" % len(prose))

@@ -16742,3 +16742,63 @@ had already filed. **The intelligence was free and I paid for it twice.**
 **Related:** §239 (the register was never a list of addresses); §242 (opt-out denials and the
 wrong-key nil); §249 (the answer as personal data); CONTRIBUTING's B2B rule, which this section
 is the evidence for.
+
+---
+
+## §251 — two registrants filing the same paragraph, and the arithmetic that tells you why
+
+§250's rule was *read the filing before writing the letter.* Reading forty-nine of them produced
+something the individual filings do not contain: **twenty-nine clusters of registrant rows whose
+free-text practices paragraph matches word-for-word, covering sixty-six rows.**
+
+Filings are typed by a person, not generated. So identical prose means the same desk — or the
+same template. Both are findings, and they are different findings, so the interesting part is
+telling them apart.
+
+**The arithmetic separates them.** One operation filing twice reports the *same numbers* twice.
+Outlogic and Matchbook both file 526 opt-outs received, 171 complied, 355 denied. LeadSherpa and
+PropertyReach both file eight of nine opt-outs denied. Shared counsel does not produce shared
+arithmetic — two genuinely separate businesses using the same boilerplate still receive different
+numbers of requests.
+
+So the report now tags each cluster **SAME-OPERATOR** when the prose *and* the metrics match, and
+**SHARED-TEXT** when only the prose does.
+
+Twenty-eight clusters come back SAME-OPERATOR. **Exactly one comes back SHARED-TEXT**, and it is
+the one that proves the method:
+
+> **Lusha + UpLead + ZoomInfo** — *"the information we include in our database is limited to
+> business information, including a person's name, job title, employer, office address…"*
+
+Those are competitors. Their request metrics differ. So that sentence is not one company filing
+three times; it is **a position the sector has coordinated on**, appearing verbatim in three
+separate companies' statements to a regulator. *"Limited to business information"* is the
+industry's shared answer to the question the register asks, and the fact that three rivals
+reached it in identical words is worth more than any one of them saying it.
+
+**What the SAME-OPERATOR clusters are worth.** They are §216's succession problem detected from
+prose rather than from corporate names, and they catch cases name-matching misses entirely:
+
+- **Data Axle + Exact Data** — Exact Data's 2025 text *is* Data Axle's, naming Data Axle in its
+  first line.
+- **Alphonso + LG Ads Solutions**, **Deep Root + Tunnl**, **SeekOut + Zipstorm**,
+  **Enformion + Tracers**, **BigDBM + PublicNSA**, **Versium + Versium Analytics**.
+- **Dun & Bradstreet + NetWise** — a cluster no name comparison would ever produce.
+- **Valassis + Vericast + RRD** across three filing years, which §216 found the hard way after a
+  hard bounce; the prose would have shown it immediately.
+- **CyberBackgroundChecks + FastPeopleSearch + Mississippi Tornado Alley**, where the shared
+  paragraph does the work by *listing the sites operated*.
+
+**Why it matters operationally, and it is not a curiosity.** A suppression applied at one
+registrant row may or may not reach its siblings. If it does, writing to one is enough and the
+rest can be closed. If it does not, then a person who found one row on the register and wrote to
+it has been removed from one of three or four places and told the matter is complete.
+
+**Neither the register nor the reply tells you which.** So the question belongs in the letter:
+*your filing is word-for-word identical to that of [sibling] — is this one dataset or two, and
+does one suppression cover both?* That is answerable in a line, and it converts a cluster into
+either one closed matter or a list of letters still to write.
+
+**Related:** §216 (succession families, found from names); §250 (read the filing first); §239
+(the register was never a list of addresses); §242 (Outlogic and Matchbook's identical metrics,
+noticed there and explained here).
