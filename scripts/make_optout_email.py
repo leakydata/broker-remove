@@ -52,7 +52,7 @@ To help you locate my records, my identifying details are:
 {scope_block}
 
 {prior_rationale}
-{suppress_block}{sensitive_block}
+{suppress_block}{sensitive_block}{intake_block}
 I am exercising rights available to me under applicable state consumer privacy
 law, including the California Consumer Privacy Act as amended by the CPRA
 (Cal. Civ. Code 1798.105 and 1798.120) where applicable, and comparable statutes
@@ -233,6 +233,41 @@ first.last@employer pattern constructed from my name and employment history
 rather than one I have ever used -- that is a record about me and it is within
 this request. I cannot list such addresses, because I have never owned them. You
 can generate them from the same public profile they were built from.
+"""
+
+
+# A prospect database is not the only place a person's data lands. Tools that
+# offer a mail plugin or CRM sync ingest the CUSTOMER'S address book and message
+# metadata, which is substantially data about the customer's CORRESPONDENTS --
+# third parties who were never asked and cannot know which of their contacts
+# installed what. That store is populated by a different route and a query
+# against the prospect database does not touch it, so it has to be named or it
+# is silently excluded from the search. See _SILENT_FAILURES.md #267.
+INTAKE_BLOCK = """
+ONE STORE I WOULD ASK YOU TO SEARCH SEPARATELY
+
+If any part of your product connects to a customer's mailbox, calendar or CRM --
+a browser extension, a mail plugin, an address-book sync -- then some of what you
+hold about people did not come from a data feed at all. It came out of the
+contacts and correspondence of somebody who installed your software.
+
+I am not suggesting anything improper: your customer consented, and the notice
+they were given is presumably accurate. But the people in that address book are
+third parties to the arrangement. They were not asked, and they have no way of
+discovering which of their correspondents over twenty years connected which tool.
+
+That store is populated by a different route from your prospect database, so a
+query against the prospect database will not reach it.
+
+Please search it separately: for my name, for any of the email addresses listed
+above appearing as a contact or as a message recipient, and in any stored message
+metadata. If nothing is there, that is a complete answer and I will record it --
+I am asking that the question be put to that system specifically rather than
+answered from the one it is easiest to search.
+
+The identifier most likely to match there is not my current one. An address book
+keeps whatever address a contact had when the entry was created, so an old or
+closed mailbox is the one that persists in it.
 """
 
 
@@ -436,12 +471,31 @@ def load_profile():
         "emails": indent.join(email_lines),
         "profile_block": profile_block,
         "suppress_block": SUPPRESS_BLOCK if profiles else "",
+        "intake_block": "",   # set by build(); depends on the broker, not the profile
         "phone": p["phone_number"],
         "street": p["address"],
         "city": p["city"].title(),
         "state": p["state"].upper(),
         "zipc": p["zip_code"],
     }
+
+
+# The address-book vector (§267) is only plausible where the product actually
+# touches a customer's mailbox or CRM: sales-engagement tools, contact platforms,
+# enrichment. Including it for a public-records site would be noise, and a letter
+# that asks about things a company obviously does not do reads as a form letter --
+# which is the one thing that gets these triaged as bulk.
+_INTAKE_CATEGORIES = {"b2b_contact", "compiler", "list_broker", "recruiting"}
+_INTAKE_HINTS = ("extension", "plugin", "crm", "outreach", "sales engagement",
+                 "sequenc", "prospect", "email finder", "enrich")
+
+
+def wants_intake_block(b):
+    """Should this letter ask about mailbox/address-book ingestion?"""
+    if b.get("category") in _INTAKE_CATEGORIES:
+        return True
+    blob = " ".join(str(b.get(k) or "") for k in ("name", "notes", "email_note")).lower()
+    return any(h in blob for h in _INTAKE_HINTS)
 
 
 def guess_to(b):
@@ -528,7 +582,8 @@ def render(b, prof, to=None, contact=None, keys="full"):
         contact=contact,
         contact_note="" if contact == prof["email"] else CONTACT_NOTE,
         sensitive_block=sensitive_block(b["id"], _register_profiles()),
-        **prof)
+        **{**prof,
+           "intake_block": INTAKE_BLOCK if wants_intake_block(b) else ""})
 
 
 _PROFILE_CACHE = {}
