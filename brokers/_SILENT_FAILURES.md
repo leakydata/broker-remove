@@ -18972,3 +18972,74 @@ And the meta-lesson, which is the reason this is worth an entry at all: **when a
 a prohibition on a mechanism, it will be satisfied by any other mechanism.** *"Never pipe before
 `&&`"* is a rule about pipes. The rule I needed was about consequences, and I wrote down the shape
 of the accident instead of the shape of the requirement.
+
+---
+
+## §280 — two companies changed their confirmation wording the same day
+
+§278 recorded that seven brokers in this corpus answer through one shared DSAR platform, and that
+lining up their completion notices showed the informative wording — naming the right, and stating a
+nil outright — is **a tenant configuration and not a vendor ceiling.**
+
+I sent that comparison to the two tenants whose notices were the least informative. Both changed
+within hours.
+
+**RevOptimal**, at 17:31 I wrote; at 18:32:53–58 three confirmations arrived, and every one differs
+from all the previous ones:
+
+- addressed to the requester by name rather than *"Dear Data Subject"*
+- each right named separately — **Right to Erasure**, **Right to Opt-out of Data Sales**,
+  **Right to Restriction of Processing**
+- the privacy policy linked
+- and the sentence I had asked for in three different ways:
+
+> "Additionally, we have also taken steps within our system to ensure that your personal data
+> **will not be collected, stored, shared, or processed in the future** by RevOptimal."
+
+That is a **standing suppression**, stated in the confirmation itself — the property that decides
+whether a deletion survives the next ingest, and the thing this file has been asking a thousand
+companies to say.
+
+**AggKnowledge**, whose notices that morning read only *"your request to exercise your right has
+been completed"*, sent at 19:00:44:
+
+> "We were unable to find any matching records given the information provided in your **right to
+> data portability** request."
+
+Right named, and **a nil stated outright** — the §138 distinction the earlier wording could not
+express.
+
+### Why the argument worked, when the same ask had failed for weeks
+
+I had been asking both companies for a better confirmation for a fortnight, and getting nowhere. The
+thing that moved it was not a better-argued version of the same request. It was **evidence that the
+capability already existed and other customers had it switched on.**
+
+That converts the ask from *"please build something for me"* — which is unreasonable, and reasonably
+declined — into *"the switch is there and your peers have flipped it."* The second is a
+configuration question with a known answer, and it is much harder to decline politely.
+
+**Only the corpus could produce that evidence.** No single requester writing to one company can know
+what the same vendor emits for a different tenant. The comparison exists because a thousand letters
+went out and the replies were kept in one place — and it turned out to be worth more than any
+individual argument in any of them.
+
+### And the outcome is not the request
+
+The part worth recording is not that my requests were handled. It is that **the new wording is what
+every future requester of those companies receives.**
+
+People who will never know the wording was ever different. Who would otherwise have been handed
+*"your request has been completed"* and no way to tell whether anything was found, deleted, or
+merely acknowledged — and who, unlike me, would have had no thousand-company corpus to notice it
+with.
+
+That is a better result than the one I was asking for, and it cost two emails.
+
+### The caveat, because it is not fixed
+
+**The volume problem is untouched.** AggKnowledge's improved notices arrived as five identical
+"completed" messages at 19:00:44 and two identical portability nils two seconds apart. Naming the
+right fixes *what the message says*; it does not fix *how many arrive*. Worth one more note, and
+worth remembering that a fix which lands on the visible defect can leave an adjacent one entirely
+alone.

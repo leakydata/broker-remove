@@ -230,7 +230,7 @@
     "via": "email"
   },
   "aggknowledge": {
-    "status": "replied",
+    "status": "suppressed",
     "changed": "2026-09-02",
     "via": null
   },
@@ -3020,8 +3020,8 @@
     "via": "email"
   },
   "learnmore": {
-    "status": "submitted",
-    "changed": "2026-08-28",
+    "status": "confirmed",
+    "changed": "2026-09-02",
     "via": "email"
   },
   "leidos_digital_solutions": {
@@ -4765,8 +4765,8 @@
     "via": "email"
   },
   "revoptimal": {
-    "status": "replied",
-    "changed": "2026-09-01",
+    "status": "confirmed",
+    "changed": "2026-09-02",
     "via": "email"
   },
   "rhetorik": {
