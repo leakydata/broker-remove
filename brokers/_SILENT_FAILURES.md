@@ -18336,3 +18336,75 @@ direction: **a fact can be public, documented and still not reachable from where
 §263 mistook one document for the site, §266a mistook one lookup for the record, and the port probe
 mistook one address family for the internet. This is the inverse error and the same lesson —
 *I called something verifiable before checking that I could verify it.*
+
+---
+
+## §270 — the warning and the bug were four lines apart
+
+Went to write to Subsplash and found it `pending`. It is not: the cloud agent wrote to it yesterday
+morning, along with Wealthminder and H1BData. Their commit says so.
+
+`data/removal_status.json` is gitignored and private to each agent (§268), so the shared channel is
+`data/removal_ledger.json` — id, status, date, method, nothing else. Their commit wrote **1233**
+rows to it, including those three. My next commit wrote **1230**.
+
+**Every sync I ran deleted whatever the other agent had added since my last merge.**
+
+```python
+LEDGER.write_text(json.dumps(fresh, indent=2, ensure_ascii=False) + "\n")
+```
+
+`fresh` is *this* agent's whole view, written straight over the file. Rows the other agent added
+are not in `fresh`, so they cease to exist. Five were lost — the three above plus `salesforce` and
+`west_publishing_corp`.
+
+And the consequence is exactly the one the file was built to prevent. Its own docstring says the
+ledger exists because divergent private copies *"produced a duplicate letter to one broker."* With
+those five gone they read as `pending`, and **the next `queue_batch` run would have written to all
+five a second time** — a duplicate letter to a company that had answered, which is the fastest way
+to get a live thread filed as bulk.
+
+### The part that is genuinely embarrassing
+
+Four lines above that write, the same function already prints:
+
+> `!5 in the ledger but not in this tracker — the other agent did these: …`
+> `   run --merge to adopt them, or they will be contacted twice`
+
+**It names the hazard, in those words, and then does it.** The diagnostic was right, the warning was
+right, and the next statement performed the loss the warning describes. Nobody has to misread
+anything for this to fire; running the tool as designed is sufficient.
+
+This is §248's shape at the level of an action rather than a summary line: there, a script printed
+"1 processed" for a run that wrote nothing. Here a script prints "they will be contacted twice" and
+then makes it true. **A diagnostic that describes a risk the very next line takes is not a warning,
+it is a confession written in advance.**
+
+### The fix, and the rule under it
+
+The write is now a **union**:
+
+```python
+merged = dict(ledger)
+for bid, rec in fresh.items():
+    prev = merged.get(bid)
+    if prev is None: merged[bid] = rec; continue
+    r_new, r_old = rank(rec["status"]), rank(prev.get("status", "pending"))
+    if r_new > r_old or (r_new == r_old and rec["changed"] >= prev.get("changed", "")):
+        merged[bid] = rec
+```
+
+Higher-ranked status wins; on a tie the later date does; **a row present only in the ledger is kept,
+because it is not stale — it is the other agent's work.** The write now reports how many rows it
+preserved rather than overwrote.
+
+The general rule, which I had backwards:
+
+**In a shared file, absence from my view is not evidence of absence.** I was treating my status file
+as the truth and the ledger as its output. It is the reverse: the ledger is the shared surface and
+my file is one contributor to it. A writer that can only add and update is safe; one that can
+delete by omission will eventually delete everything it did not personally do.
+
+The five rows were recoverable only because git had the other agent's version. Had both agents been
+syncing on a schedule instead of committing, each write would have silently deleted the other's
+work until whichever ran last was the only one left.

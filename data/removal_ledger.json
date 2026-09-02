@@ -2379,6 +2379,11 @@
     "changed": "2026-08-27",
     "via": null
   },
+  "h1bdata_info": {
+    "status": "submitted",
+    "changed": "2026-09-02",
+    "via": "email"
+  },
   "harmon_research": {
     "status": "submitted",
     "changed": "2026-08-27",
@@ -4849,6 +4854,11 @@
     "changed": "2026-08-28",
     "via": "web"
   },
+  "salesforce": {
+    "status": "submitted",
+    "changed": "2026-09-02",
+    "via": null
+  },
   "salesgear": {
     "status": "submitted",
     "changed": "2026-09-01",
@@ -5332,6 +5342,11 @@
   "subgraph": {
     "status": "email_pending",
     "changed": "2026-08-31",
+    "via": "email"
+  },
+  "subsplash": {
+    "status": "submitted",
+    "changed": "2026-09-02",
     "via": "email"
   },
   "supplier_io": {
@@ -5954,6 +5969,11 @@
     "changed": "2026-09-02",
     "via": "email"
   },
+  "wealthminder": {
+    "status": "submitted",
+    "changed": "2026-09-02",
+    "via": "email"
+  },
   "webbula": {
     "status": "submitted",
     "changed": "2026-08-20",
@@ -5963,6 +5983,11 @@
     "status": "confirmed",
     "changed": "2026-08-20",
     "via": "reply"
+  },
+  "west_publishing_corp": {
+    "status": "submitted",
+    "changed": "2026-09-02",
+    "via": null
   },
   "west_virginia_arrests": {
     "status": "submitted",

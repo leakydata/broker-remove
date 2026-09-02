@@ -211,8 +211,43 @@ def main():
 
     if a.check:
         return 0
-    LEDGER.write_text(json.dumps(fresh, indent=2, ensure_ascii=False) + "\n")
-    print(f"\nwrote {LEDGER.relative_to(ROOT)} ({len(fresh)} entries, no personal data)")
+
+    # THE LEDGER WRITE IS A UNION, NOT A REPLACEMENT.
+    #
+    # This used to write `fresh` -- this agent's whole view -- straight over the
+    # file. Which meant every sync silently deleted whatever the other agent had
+    # added since the last merge. On 2 September it dropped three brokers the
+    # cloud agent had written to that morning (subsplash, wealthminder,
+    # h1bdata_info); they reverted to looking `pending`, and the next queue_batch
+    # run would have sent each of them a second letter.
+    #
+    # The bitter part: the block above ALREADY PRINTS the warning -- "!N in the
+    # ledger but not in this tracker ... run --merge to adopt them, or they will
+    # be contacted twice" -- and then the next line did exactly what it warned
+    # against. A diagnostic that names a hazard and an action that causes it, four
+    # lines apart. See _SILENT_FAILURES §270.
+    #
+    # A row present only in the ledger is not stale, it is the other agent's work.
+    # Keep it. On conflict the higher-ranked status wins; on equal rank the later
+    # change date does.
+    merged = dict(ledger)
+    for bid, rec in fresh.items():
+        prev = merged.get(bid)
+        if prev is None:
+            merged[bid] = rec
+            continue
+        r_new, r_old = rank(rec["status"]), rank(prev.get("status", "pending"))
+        if r_new > r_old or (r_new == r_old
+                             and (rec.get("changed") or "") >= (prev.get("changed") or "")):
+            merged[bid] = rec
+    merged = dict(sorted(merged.items()))
+    kept = len(set(merged) - set(fresh))
+
+    LEDGER.write_text(json.dumps(merged, indent=2, ensure_ascii=False) + "\n")
+    print(f"\nwrote {LEDGER.relative_to(ROOT)} ({len(merged)} entries, no personal data)")
+    if kept:
+        print(f"  {kept} entry(ies) preserved from the other agent rather than "
+              f"overwritten -- run --merge to adopt them locally")
     return 0
 
 
