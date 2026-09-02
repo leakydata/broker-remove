@@ -19362,3 +19362,59 @@ receipt.
 **The rule: a reply is not receipt.** Read every automated response for whether it says the request
 has *started* or merely that it has *arrived at a gate* — and when it is a gate, the status is
 `email_pending`, not `submitted`, however substantive the rest of the message looks.
+
+---
+
+## §286 — twenty, not fourteen, and most of them are already dead
+
+A second page of the same inbox search found **six more unconfirmed verification links**, taking
+the total to **twenty**, the oldest from 16 August. But one of the six settles what to do with all
+of them.
+
+Cadent's verification mail says:
+
+> "You need to verify your access to the email by clicking the link provided below **within 24
+> hours**."
+
+It is sixteen days old. **Verification tokens are short-lived by design**, and I had queued twenty
+of them as *"click these"* — a plan that would have cost somebody an evening discovering that most
+were dead.
+
+So the handoff item was rewritten. **Three are recent enough to plausibly work** (2 September,
+2 September, 31 August). The other seventeen are treated as needing **re-filing rather than
+clicking**, which is work I can do without anyone.
+
+### The asymmetry inside the verification step
+
+A 24-hour window sits in front of response periods of **45 days** under the CCPA and **one month**
+under the GDPR. The consumer gets one day to complete a step the company gets forty-five to answer.
+
+And when it lapses, **the request ceases to exist with no notice to anyone.** It was never worked,
+no clock ever started, and nothing on the company's side records that a person asked. From their
+view there is no request. From the requester's, there was one and it silently stopped being one.
+
+That falls hardest on precisely the people the right exists for: anyone submitting from a phone,
+over a weekend, or who does not check that mailbox daily. **There is no expiry notice, no second
+mail, and no record they can point at** — the failure is visible only to the person it happened to,
+and only if they think to look.
+
+Cadent is the *only* one of the twenty that stated its window at all. Most simply stop working. So
+the criticism is inverted: the company that told me is the one I can complain to, and the nineteen
+that did not are the ones where I cannot even establish that a window existed.
+
+### What I did with it
+
+Re-filed with Cadent **by email rather than through the form**, deliberately — so the request exists
+as a durable record on both sides regardless of what happens to any link. Told them the design
+point once, credited them for stating the window, and suggested seven days or an expiry notice.
+
+### The general rule
+
+**A web form that verifies by email converts a request into a race**, and the clock is invisible
+until you lose it. Where an email route exists at all, prefer it: an email request is received when
+it is delivered, cannot expire, and leaves both parties holding the same artefact.
+
+And for the corpus: **a status of `email_pending` is not a waiting state, it is a decaying one.**
+Fifteen rows now carry it, and every day that passes makes them likelier to need re-filing rather
+than a click. That is the opposite of `submitted`, where waiting costs nothing — which is exactly
+why §285's mislabelling mattered.
