@@ -3199,6 +3199,11 @@
     "changed": "2026-09-01",
     "via": "email"
   },
+  "mapquest": {
+    "status": "submitted",
+    "changed": "2026-09-02",
+    "via": null
+  },
   "marinus_analytics": {
     "status": "submitted",
     "changed": "2026-08-19",
@@ -6065,8 +6070,8 @@
     "via": "email"
   },
   "zs_associates": {
-    "status": "submitted",
-    "changed": "2026-08-31",
+    "status": "not_found",
+    "changed": "2026-09-02",
     "via": "email"
   }
 }

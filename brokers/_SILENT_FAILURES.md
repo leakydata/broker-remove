@@ -17248,3 +17248,87 @@ delivered, its premise would have been wrong, and nothing would have corrected i
 
 **Related:** §250 (read the filing first); §251 (prose and metrics clustering); §216 (succession
 families); §257 (the name and the data going separate ways).
+
+---
+
+## §259 — the first verification gate that was right, and the limit of my own argument
+
+Every entry in this file about identity verification says a version of the same thing: the gate
+demands an identifier the requester has no way to produce, and the request dies without anyone
+refusing it. §252 argues the general form — verification exists to protect against wrongful
+*disclosure*, and a suppression discloses nothing, so gating a suppression behind proof of
+identity protects nobody. §253 records a company reaching the same conclusion unprompted.
+
+ZS Associates is the first registrant I have written to whose gate is **correct**, and the
+reason is worth more than the case.
+
+**Their reply, in full on the point:**
+
+> "If you are not a healthcare professional, we do not have your personal data in our system.
+> We require an NPI number to validate identity and are unable to confirm a match on name
+> alone."
+
+Their own filing says the brokered product is "publicly available professional information
+about individuals working within healthcare (i.e., HCPs)". So:
+
+**Every person actually in the file holds an NPI number, by definition of what the file is.**
+
+That single fact inverts the usual analysis. A gate is a silent failure when the population it
+guards cannot pass it. Here the population it guards passes it trivially — an NPI is the thing
+that makes you a member of the dataset in the first place. The requirement excludes exactly one
+class of person: people who are **not in the file**. Which is the class it should exclude.
+
+### The half of the argument I had not thought through
+
+The mirror matters more, and it is the part that made me stop and reconsider a position I have
+taken in perhaps forty letters.
+
+I have been arguing that a company holding no match should suppress **on name** anyway — record
+the name so a future ingest cannot rebuild the record (§193, §252). In a consumer file that is
+right: the cost of suppressing a name that turns out not to match is that one non-existent
+record stays non-existent.
+
+**In this file it is not right.** The subject's surname is one of the commonest in the country.
+A name-keyed suppression in an HCP dataset would land on **a namesake who is a real prescriber**,
+with a real interest in their professional record being complete and accurate, who never asked
+for anything and would never learn it had happened. The suppression would be an unrequested
+alteration of a stranger's file.
+
+So the reason ZS cannot honour a name-only request is not that they are protecting themselves.
+**It is that they are protecting the namesake from the requester.**
+
+I said so in the reply and withdrew the § 7026 point explicitly rather than making it and
+letting them decline. It is a real limit on an argument I will keep making elsewhere, and the
+limit has a shape: *a name-keyed suppression is safe only where a false positive costs nothing.
+In a file whose subjects are identified professionals, a false positive costs somebody their
+record.*
+
+### And it explains a denial row I would otherwise have mis-ranked
+
+ZS's 2025 filing reports **57 opt-outs received, 0 complied in whole, 0 in part, 57 denied.**
+Deletion 23/23 denied. Access 7/7 denied. On the face of it: a registrant that refuses
+everything.
+
+Their reply explains it without setting out to. A request arriving with a name and no NPI cannot
+be matched, so it is logged **denied**. Most of those 57 people are in exactly my position —
+**not in the file at all.** They were not refused. There was nothing to refuse.
+
+This is §255 seen from the register side, and it is the second time the same confusion has
+produced a number that means the opposite of what it reads as. §239 killed a denial ranking
+built on arithmetic that did not hold; this kills a ranking built on arithmetic that *does*
+hold, because the word in the column heading is wrong rather than the number under it.
+
+**A denial rate is only interpretable alongside what the registrant means by "denied."** The
+form does not ask, so the answer lives in a free-text field if it lives anywhere, and for most
+registrants it does not live anywhere at all.
+
+### What to carry forward
+
+- **Before objecting to a verification requirement, ask what identifier the file is keyed to.**
+  If every subject of the file holds it by construction, the gate is calibrated and the standard
+  objection does not apply.
+- **A name-keyed suppression is only free where a false positive is free.** Consumer files: yes.
+  Professional, licensed, or identifier-keyed files: no — the cost lands on a namesake who did
+  not ask.
+- **A 100% denial rate can mean "we found nobody."** Do not rank on it without asking. Two of
+  the three worst-looking denial rows I have investigated turned out to be nil results.
