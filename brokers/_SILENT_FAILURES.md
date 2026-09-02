@@ -18602,3 +18602,74 @@ The general rule, which this file keeps re-deriving: **a guard scoped to the sta
 worried about will not cover the status you rely on.** The unfalsifiable-claim rule was written
 about outcomes — the rows a reader most wants explained. But the number quoted in every summary is
 `submitted`, and it was the one status the rule exempted.
+
+---
+
+## §274 — a status inferred from a filename, and eight letters that never arrived
+
+§273 fixed rows whose status came from the ledger with an honest "no detail is carried across"
+placeholder. Fixing them surfaced a worse variant of the same adoption.
+
+**62 rows in this tracker have a status that was inferred from the mere existence of
+`brokers/<id>.md` in git.** The note says so plainly:
+
+> "Adopted from a committed playbook: brokers/coresignal.md exists in git but this tracker had
+> nothing, so another agent acted and did not publish a ledger entry. **Status is a floor, not a
+> finding.**"
+
+The reasoning is sound as far as it goes — a playbook file does mean *somebody worked this row*.
+But it does not mean a letter was sent, and the adopter defaulted to `submitted`, which asserts
+exactly that.
+
+**Comparing all 62 against what their playbooks now say produced 15 disagreements. Eight run the
+wrong way:**
+
+| row | tracker claimed | playbook says |
+|---|---|---|
+| `anexinet` | submitted | **failed** — hard bounce, 550 5.4.1 |
+| `lucid` | submitted | **failed** — hard bounce, 550 5.1.1 |
+| `precisely_software_placeiq` | submitted | **failed** — hard bounce, 550 5.1.1 |
+| `sterling_data` | submitted | **unreachable** — bounce, and no site to fall back to |
+| `tauxbe_data` | submitted | **email_pending** — bounce from the address their own policy names |
+| `aberdeen` | submitted | **email_pending** — and the letter should never have gone out |
+| `outlogic` | submitted | **manual_required** |
+| `coresignal` | submitted | **pending** — the row was never contacted in its own name |
+
+**Eight rows where the tracker said a letter was in flight and the committed evidence says it
+bounced, was never sent, or needs a person.** Every one of them was counted in the coverage figure.
+
+The other seven disagreements run the safe way — the tracker is *ahead* of a stale playbook, because
+I processed a reply and did not refresh the shared file. Those cost nothing but should be pushed
+back, since the playbook is the durable channel (§268).
+
+### Why this is worse than §273 and not the same bug
+
+§273's placeholder was **honest about being thin**: it said no detail was carried and told the
+reader not to rely on it. This one **manufactured a fact.** A file existing became "a letter was
+sent," and the default chosen for the unknown was the optimistic one.
+
+*The failure is in the default, not the inference.* Adopting `pending` — or a dedicated
+"worked-by-another-agent, outcome unknown" state — would have been equally cheap and would not have
+inflated anything. Choosing `submitted` meant that in eight cases the tracker recorded the opposite
+of what happened, in the direction that flatters the totals.
+
+**When the evidence supports "somebody did something," do not record what you hope they did.**
+
+### And the check is now in the tool
+
+`backfill_notes.py` refuses to attach a playbook's note to a row whose status the playbook
+contradicts, and reports it instead:
+
+```
+!! 1 row(s) where the PLAYBOOK DISAGREES with the tracker -- left untouched:
+   coresignal    tracker=submitted    playbook=pending
+```
+
+That guard matters more than the eight corrections. Silently copying a note across a status
+mismatch would have *attached evidence for one claim to a row making a different one* — the most
+convincing possible form of a wrong record, because it would then pass every check that looks for
+unevidenced claims.
+
+Corrected totals: `submitted` 957 → 952, `failed` 10 → 13, `unreachable` 49 → 50, `email_pending`
+4 → 6. The number went down, which for a figure derived from optimistic defaults is the only
+direction that indicates the check worked.

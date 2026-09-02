@@ -370,8 +370,8 @@
     "via": null
   },
   "anexinet": {
-    "status": "submitted",
-    "changed": "2026-08-30",
+    "status": "failed",
+    "changed": "2026-09-02",
     "via": null
   },
   "ansonia_credit_data": {
@@ -1240,8 +1240,8 @@
     "via": null
   },
   "coresignal": {
-    "status": "submitted",
-    "changed": "2026-08-24",
+    "status": "covered_by_sibling",
+    "changed": "2026-09-02",
     "via": null
   },
   "corporationwiki": {
@@ -3195,8 +3195,8 @@
     "via": null
   },
   "lucid": {
-    "status": "submitted",
-    "changed": "2026-08-30",
+    "status": "failed",
+    "changed": "2026-09-02",
     "via": null
   },
   "lusha": {
@@ -4310,8 +4310,8 @@
     "via": "email"
   },
   "precisely_software_placeiq": {
-    "status": "submitted",
-    "changed": "2026-08-30",
+    "status": "failed",
+    "changed": "2026-09-02",
     "via": null
   },
   "preferred_communications": {
@@ -5310,8 +5310,8 @@
     "via": "email"
   },
   "sterling_data": {
-    "status": "submitted",
-    "changed": "2026-08-31",
+    "status": "unreachable",
+    "changed": "2026-09-02",
     "via": null
   },
   "stirista": {

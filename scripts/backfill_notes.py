@@ -28,7 +28,13 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from paths import ROOT  # noqa: E402
 
 STATE = ROOT / "data" / "removal_status.json"
-NOTE_RE = re.compile(r"^- Note:\s*(.+?)(?=\n- |\n\n|\n## |\Z)", re.S | re.M)
+NOTE_RE = re.compile(r"^- Note[^:]*:\s*(.+?)(?=\n- |\n\n|\n## |\Z)", re.S | re.M)
+# Last-resort evidence: the playbook's own status line. Weaker than a note, but a
+# committed "- Current: `submitted` (updated 2026-08-18)" is still a dated,
+# checkable assertion in git -- which is more than the ledger placeholder it
+# replaces. Recorded as minimal so it is never mistaken for a real account of
+# what was sent.
+CUR_RE = re.compile(r"^- Current: `([a-z_]+)`(?:\s*\(updated ([0-9-]+)\))?", re.M)
 
 
 def is_placeholder(note):
@@ -49,7 +55,7 @@ def main():
     a = ap.parse_args()
 
     st = json.loads(STATE.read_text())
-    recovered, no_playbook, too_thin = [], [], []
+    recovered, no_playbook, too_thin, conflicts = [], [], [], []
 
     for bid, rec in st.items():
         if not rec.get("history") or substantive(rec):
@@ -58,10 +64,32 @@ def main():
         if not pb.exists():
             no_playbook.append(bid)
             continue
-        m = NOTE_RE.search(pb.read_text())
+        body = pb.read_text()
+        m = NOTE_RE.search(body)
         text = (m.group(1).strip() if m else "")
+
+        # A DISAGREEMENT IS NOT A GAP. If the playbook asserts a different status
+        # than the tracker, recovering its note would attach evidence for one
+        # claim to a row making another. Report it and leave the row alone --
+        # somebody has to decide which is right, and it is not this script.
+        cm = CUR_RE.search(body)
+        if cm and cm.group(1) != rec.get("status"):
+            conflicts.append((bid, rec.get("status"), cm.group(1)))
+            continue
+
         if len(text) < a.min_chars:
-            too_thin.append(bid)
+            # A short note is still evidence: "Statutory opt-out/deletion email
+            # sent 2026-08-22" says what was sent and when, which is exactly what
+            # a `submitted` claim asserts. Take it, and mark it minimal.
+            if text:
+                recovered.append((bid, text + "  [minimal: this is the whole of "
+                                  "what the playbook records]"))
+            elif cm and cm.group(2):
+                recovered.append((bid, f"No note in the playbook; its status line "
+                                  f"records `{cm.group(1)}` as of {cm.group(2)}. "
+                                  f"That is the whole of the evidence for this row."))
+            else:
+                too_thin.append(bid)
             continue
         recovered.append((bid, text))
 
@@ -72,6 +100,11 @@ def main():
     print(f"  no playbook at all                    : {len(no_playbook)}")
     if no_playbook:
         print("     " + ", ".join(sorted(no_playbook)[:10]))
+    if conflicts:
+        print(f"\n  !! {len(conflicts)} row(s) where the PLAYBOOK DISAGREES with "
+              f"the tracker -- left untouched, these need a decision:")
+        for bid, tr, pb in conflicts:
+            print(f"     {bid:<34} tracker={tr:<12} playbook={pb}")
 
     if not a.apply:
         print("\n(report only -- pass --apply to write)")
