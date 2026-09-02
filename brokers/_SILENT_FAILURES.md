@@ -18536,3 +18536,69 @@ while trying to avoid the second:
 The answer is neither: **mark the branch the rule closes, keep the branch it doesn't, and say which
 is which.** And where the rule has a real cost, say that too, once, in the place the person will
 actually read it.
+
+---
+
+## §273 — a hundred and thirteen statuses with nothing behind them
+
+`validate.py` has carried this rule for weeks:
+
+> **A TERMINAL STATUS WITH NO NOTE IS AN UNFALSIFIABLE CLAIM.**
+
+It applies to `not_found`, `confirmed` and now `suppressed`. It does not apply to `submitted` —
+which is the status **957 of 1,553 rows** carry, and the one the entire coverage figure rests on.
+
+Checking the queue for another reason turned up what that gap was hiding. **113 rows in this
+tracker asserted a status with no evidence anywhere in their history** — 109 of them `submitted`.
+The only note on each was the placeholder the ledger sync writes:
+
+> "Adopted from the shared ledger: another agent recorded 'submitted' on 2026-08-23. No detail is
+> carried across — re-read the broker's own reply before relying on this."
+
+That note is scrupulously honest. It says exactly what it is and warns the reader not to lean on
+it. **And it is still an unfalsifiable claim**, because there is nothing behind it: no address, no
+date of send, no account of what was asked. If a reply arrives from one of those 113 I cannot tell
+whether it is responsive, because I have no record of the question.
+
+### Why the gap existed, which is not carelessness
+
+The ledger carries *only* id, status, date and method — deliberately, because notes quote broker
+replies verbatim and carry addresses and ticket references, and the ledger is committed to a public
+repository. §268 records that trade: the ledger is a cache, the playbook is the durable channel,
+the status file is a private opinion.
+
+So the sanitisation that makes the ledger safe is exactly what makes an adopted status
+evidence-free. **The design was right and the consequence was unexamined.**
+
+### The evidence was never lost, only in the other file
+
+The playbooks *are* committed, and the other agent writes its note there. So the fix is recovery,
+not investigation: `scripts/backfill_notes.py` lifts `- Note:` out of `brokers/<id>.md` and files it
+as a history entry.
+
+**96 of the 113 recovered.** Seventeen remain, where the playbook exists but its note is a stub.
+
+Two details in the implementation matter more than the script:
+
+- **It stamps the recovered entry with the original date, not today.** Stamping it now would make a
+  send from 23 August look like it happened this morning — which is precisely the bug the other
+  agent fixed in `sync_status.py` (a merge that used `datetime.now()` made the daily-send counter
+  see 878 sends "today" and refuse to send anything). *A recovery is not an event.*
+- **It never overwrites a substantive note and never changes a status.** It can only add evidence
+  to a claim that had none.
+
+### And the count is now reported rather than invisible
+
+`validate.py` warns — not errors, because ledger adoption is a legitimate source and the other
+agent's work is real:
+
+```
+warn: [17] rows are 'submitted' with no evidence in their history -- only a
+ledger-adoption placeholder. Run scripts/backfill_notes.py --apply to recover
+what the committed playbooks hold: ...
+```
+
+The general rule, which this file keeps re-deriving: **a guard scoped to the statuses you were
+worried about will not cover the status you rely on.** The unfalsifiable-claim rule was written
+about outcomes — the rows a reader most wants explained. But the number quoted in every summary is
+`submitted`, and it was the one status the rule exempted.

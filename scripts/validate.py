@@ -420,6 +420,28 @@ def main():
 
         # 'suppressed' settles a broker exactly as the other two do -- the queue
         # stops offering it -- so it needs the same unfalsifiable-claim guard.
+        # `submitted` is not terminal, so the guard below never saw it -- and it
+        # is the status the entire coverage figure rests on. 113 rows once
+        # asserted it with nothing behind them but "Adopted from the shared
+        # ledger... No detail is carried across", which is honest and still an
+        # unfalsifiable claim. Warn rather than error: the ledger is a legitimate
+        # source and the fix (scripts/backfill_notes.py) recovers the evidence
+        # from committed playbooks, but the count should never be invisible again.
+        # See _SILENT_FAILURES §273.
+        _thin = [b for b, r in state.items()
+                 if r.get("status") == "submitted"
+                 and r.get("history")
+                 and all((h.get("note") or "").startswith("Adopted from")
+                         or not (h.get("note") or "")
+                         for h in r["history"])]
+        if _thin:
+            warnings.append(
+                f"[{len(_thin)}] rows are 'submitted' with no evidence in their "
+                f"history -- only a ledger-adoption placeholder. Run "
+                f"scripts/backfill_notes.py --apply to recover what the "
+                f"committed playbooks hold: {', '.join(sorted(_thin)[:8])}"
+                + (" ..." if len(_thin) > 8 else ""))
+
         TERMINAL = {"not_found", "confirmed", "suppressed"}
         for bid, rec in state.items():
             if rec.get("status") not in TERMINAL:
