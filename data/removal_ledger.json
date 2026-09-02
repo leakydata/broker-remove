@@ -105,13 +105,13 @@
     "via": "email"
   },
   "activimpact": {
-    "status": "submitted",
-    "changed": "2026-08-22",
+    "status": "email_pending",
+    "changed": "2026-09-02",
     "via": "reply"
   },
   "acuant": {
-    "status": "submitted",
-    "changed": "2026-08-22",
+    "status": "email_pending",
+    "changed": "2026-09-02",
     "via": "email"
   },
   "acxiom": {
@@ -425,8 +425,8 @@
     "via": null
   },
   "arity": {
-    "status": "submitted",
-    "changed": "2026-08-28",
+    "status": "email_pending",
+    "changed": "2026-09-02",
     "via": "web"
   },
   "arizona_arrests": {
@@ -1235,8 +1235,8 @@
     "via": "reply"
   },
   "corelogic_cotality": {
-    "status": "submitted",
-    "changed": "2026-08-23",
+    "status": "email_pending",
+    "changed": "2026-09-02",
     "via": null
   },
   "coresignal": {
@@ -1575,8 +1575,8 @@
     "via": "email"
   },
   "demandscience": {
-    "status": "submitted",
-    "changed": "2026-08-28",
+    "status": "email_pending",
+    "changed": "2026-09-02",
     "via": null
   },
   "demyst_data": {
@@ -1640,8 +1640,8 @@
     "via": "email"
   },
   "disqus": {
-    "status": "submitted",
-    "changed": "2026-08-28",
+    "status": "email_pending",
+    "changed": "2026-09-02",
     "via": null
   },
   "distribution_processing_center": {
@@ -3395,8 +3395,8 @@
     "via": "email"
   },
   "merkle": {
-    "status": "submitted",
-    "changed": "2026-08-19",
+    "status": "email_pending",
+    "changed": "2026-09-02",
     "via": "email"
   },
   "message_digital": {
@@ -3770,8 +3770,8 @@
     "via": "email"
   },
   "nielsen": {
-    "status": "submitted",
-    "changed": "2026-08-19",
+    "status": "email_pending",
+    "changed": "2026-09-02",
     "via": "web"
   },
   "njpropertyrecords": {
@@ -4815,8 +4815,8 @@
     "via": "email"
   },
   "ror_partners": {
-    "status": "submitted",
-    "changed": "2026-08-24",
+    "status": "email_pending",
+    "changed": "2026-09-02",
     "via": null
   },
   "round_sky": {
@@ -4935,8 +4935,8 @@
     "via": "email"
   },
   "seamless_ai": {
-    "status": "submitted",
-    "changed": "2026-08-20",
+    "status": "email_pending",
+    "changed": "2026-09-02",
     "via": "web"
   },
   "search_quarry": {

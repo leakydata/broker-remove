@@ -19301,3 +19301,64 @@ a live one anyway, because it was the interesting case rather than the safe one.
 The warning line I had just added did its job perfectly. It told me precisely what it was about to
 destroy, in the moment before it destroyed it, and I read it afterwards. That is §279 one more time:
 *a diagnostic is not a control.*
+
+---
+
+## §285 — fourteen requests that were never received, and the tracker called them sent
+
+An inbox sweep for *"confirm your email"* turned up **fourteen distinct unconfirmed verification
+links**, the oldest from **18 August**. Every one carries a sentence in the company's own words:
+
+> "One more step is required **before we can start working on your request.**"
+
+So none of those fourteen requests is in flight. The company has not begun; their response clock has
+not started; and in most cases the request does not exist on their side as anything but a pending
+verification.
+
+**Ten of them were recorded as `submitted`.**
+
+That is §274's error arriving from a completely different direction. There, a status was inferred
+from a filename and defaulted optimistically. Here the letter genuinely went out, a real reply came
+back — *and the reply said the request had not started.* I read "the company responded" as "the
+request is with them", and filed it accordingly.
+
+`email_pending` — *blocked: needs a confirmation link in the user's inbox* — already existed for
+exactly this, and was in use on **two** rows. It is now on fifteen.
+
+### Why this is the most expensive silent failure in the file so far
+
+Every other stalled route in this corpus is stalled on something hard: a CAPTCHA, an ID demand, a
+portal behind a bot wall, a company that will not answer. **These are stalled on one click.**
+
+Fourteen companies. One click each. Some sitting since 18 August — twenty-one days doing nothing,
+inside a window where I had separately concluded (§282) that non-response was the expected state
+and nothing needed chasing. That conclusion was right for the 948 rows it was about and wrong about
+these fourteen, and I did not distinguish them because **the tracker said `submitted` and I believed
+it.**
+
+A row that is genuinely waiting and a row that is stalled on a click look identical in a status
+column. Only the mailbox knows the difference.
+
+### And the reminders were the signal I did not read
+
+Several of these companies sent **more than one** verification mail. CB Insights sent three, the
+last of which says *"this is our final"* notice. Outreach sent two, the second saying *"this is our
+second verification"*. OneTrust re-sent two request IDs.
+
+**A vendor chasing you for a confirmation is telling you the request is stuck.** Those reminders
+arrived in the same inbox I was reading for replies, and I classified them as noise — acknowledgement
+traffic rather than a queue of blocked work — because each one individually looks like an automated
+receipt.
+
+### What changed
+
+- Ten rows moved from `submitted` to `email_pending`, which is a downgrade of the coverage figure
+  and the correct direction.
+- One consolidated handoff item lists all fourteen by sender and Request ID, with the instruction to
+  open the **newest** message from each sender because only the latest link works, and the note that
+  an expired link cannot be salvaged — the only remedy is re-filing, which I can do once I know
+  which.
+
+**The rule: a reply is not receipt.** Read every automated response for whether it says the request
+has *started* or merely that it has *arrived at a gate* — and when it is a gate, the status is
+`email_pending`, not `submitted`, however substantive the rest of the message looks.
