@@ -19484,3 +19484,35 @@ accept privacy requests by email and require their portal.
 
 **A queue built from an inbox measures what arrived, not what remains.** The two are only the same
 if something removes items when they are done, and nothing does.
+
+### §287a — and one of the three has no owner
+
+Working through the corrected list of three outstanding verification links, the second one turns
+out to be untraceable.
+
+`Request ID TS7LYMSMBF`, OneTrust, 2 September 14:27 UTC. **No row in the tracker references it, and
+no commit from the other agent covers it.** A request was submitted through somebody's OneTrust form
+this afternoon and nothing in the record says which company it went to.
+
+The click is still right — it is our request whichever company it belongs to. But if it is confirmed
+and nothing more happens, **the request completes into a record that does not know it exists**: no
+row moves, no confirmation is matched to a broker, and if that company later replies, the reply
+arrives against a thread with no tracker entry behind it.
+
+The recoverable part is that **the OneTrust confirmation page names the company.** So the handoff
+item now asks for the name, which converts a dead end into one line of data entry.
+
+Two smaller things worth keeping:
+
+- **A OneTrust request ID is not a broker identifier.** Two rows in this tracker both cite
+  `L7JE3RVPKK`, which cannot be right for a single tenant's request — one of those notes attributes
+  a stranger's reference to the wrong company. Request IDs are per-tenant and reused across tenants;
+  they identify a *ticket*, not a *company*, and I have been recording them as though they did both.
+- **The mail opens with the surname in lower case** where the given name is capitalised, which
+  says the two were typed into separate form fields. A small tell, and the only evidence available that the submission
+  was made by hand through a form rather than by email.
+
+The general point: **an action taken outside the tracker is invisible to it, and the artefact that
+would connect them is usually a page nobody thought to read.** Two agents working one project makes
+this routine rather than exceptional — the ledger carries statuses, not the intermediate steps, so a
+form submission by one agent leaves the other holding a verification email it cannot attribute.
