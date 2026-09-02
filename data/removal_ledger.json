@@ -1484,6 +1484,11 @@
     "changed": "2026-08-17",
     "via": "email"
   },
+  "dealfront": {
+    "status": "submitted",
+    "changed": "2026-09-02",
+    "via": null
+  },
   "dealfront_finland_oy": {
     "status": "submitted",
     "changed": "2026-08-25",
