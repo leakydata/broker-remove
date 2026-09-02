@@ -4709,6 +4709,11 @@
     "changed": "2026-08-16",
     "via": null
   },
+  "rhodeislandpeoplerecords_org": {
+    "status": "submitted",
+    "changed": "2026-09-02",
+    "via": "email"
+  },
   "rich_media": {
     "status": "submitted",
     "changed": "2026-08-30",
@@ -6012,6 +6017,11 @@
   "yobi_ai": {
     "status": "submitted",
     "changed": "2026-08-31",
+    "via": "email"
+  },
+  "yobi_ventures": {
+    "status": "submitted",
+    "changed": "2026-09-02",
     "via": "email"
   },
   "zabasearch": {
