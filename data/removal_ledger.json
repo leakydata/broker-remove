@@ -189,6 +189,11 @@
     "changed": "2026-08-28",
     "via": "web"
   },
+  "aeroleads": {
+    "status": "unreachable",
+    "changed": "2026-09-02",
+    "via": "email"
+  },
   "affinity": {
     "status": "submitted",
     "changed": "2026-08-24",
@@ -3714,6 +3719,11 @@
     "changed": "2026-08-28",
     "via": "reply"
   },
+  "nocallername": {
+    "status": "submitted",
+    "changed": "2026-09-02",
+    "via": "email"
+  },
   "none": {
     "status": "replied",
     "changed": "2026-09-01",
@@ -4958,6 +4968,11 @@
     "status": "captcha_blocked",
     "changed": "2026-08-20",
     "via": null
+  },
+  "simunix": {
+    "status": "submitted",
+    "changed": "2026-09-02",
+    "via": "email"
   },
   "site_impact": {
     "status": "submitted",

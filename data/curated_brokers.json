@@ -11507,12 +11507,13 @@
       "source": "optery",
       "optery_slug": "aeroleads",
       "email_to": "support@aeroleads.com",
-      "email_verified": true,
-      "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_verified": false,
+      "email_verified_by": "bounced",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here. || 2026-09-01: support@aeroleads.com hard-bounced -- account does not exist.",
       "category": "people_search",
       "category_source": "site_classifier 2026-08-30",
-      "listing_basis": "third_party_directory"
+      "listing_basis": "third_party_directory",
+      "email_verified_was": "privacy_policy"
     },
     {
       "id": "affluense_ai",
