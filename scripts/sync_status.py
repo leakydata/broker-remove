@@ -66,9 +66,19 @@ ALIASES = ROOT / "data" / "playbook_aliases.json"
 
 # Ranked worst-to-best. A merge never downgrades: an outcome you obtained from
 # the broker outranks another agent's report that a letter went out.
+#
+# "acknowledged", "replied" and "covered_by_sibling" were added to tracker.py's
+# STATUSES vocabulary (see the comment there) but never added here -- any status
+# missing from this list falls through rank()'s `else 0`, the same rank as
+# "pending". That silently made "acknowledged" indistinguishable from
+# "pending" during a merge: an already-answered broker's ledger entry looked
+# no better than an untouched one, so --merge skipped adopting it and
+# queue_batch.py (which has the same gap in its own DONE set) queued a fresh
+# "Consumer Request" letter into a thread that already had a reply sitting in
+# it. Keep any status added to tracker.py's STATUSES in sync with this list.
 RANK = ["pending", "manual_required", "captcha_blocked", "email_pending",
-        "submitted", "failed", "unreachable", "still_listed", "gone",
-        "not_found", "confirmed"]
+        "submitted", "acknowledged", "replied", "failed", "unreachable",
+        "still_listed", "gone", "not_found", "confirmed", "covered_by_sibling"]
 
 
 def rank(s):
@@ -137,22 +147,36 @@ def main():
                 continue          # ours is equal or better; leave it alone
             rec["status"] = entry["status"]
             rec["updated"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
+            # The history "at" is what queue_batch.py's daily-send-cap counter reads.
+            # Stamping it with datetime.now() backdated nothing -- it FRONT-dated
+            # every adopted row to the moment the merge ran, so a merge adopting
+            # hundreds of old sends made the cap counter see them all as sent today.
+            # Use the ledger's own "changed" date when there is one; only a
+            # playbook-only adoption (no ledger date at all) has no real date to
+            # fall back to, so that case alone uses now().
+            at = (entry.get("changed") or "") or rec["updated"]
+            note = (
+                f"Adopted from a committed playbook: brokers/{bid}.md exists in "
+                f"git but this tracker had nothing, so another agent acted and "
+                f"did not publish a ledger entry. Status is a floor, not a "
+                f"finding — read the playbook and the broker's own reply before "
+                f"relying on it."
+                if entry.get("_from") == "playbook" else
+                f"Adopted from the shared ledger: another agent recorded "
+                f"'{entry['status']}' on {entry['changed']}. No detail is "
+                f"carried across — re-read the broker's own reply before "
+                f"relying on this.")
             rec.setdefault("history", []).append({
-                "at": rec["updated"],
-                "status": entry["status"],
-                "via": entry.get("via"),
-                "note": (
-                    f"Adopted from a committed playbook: brokers/{bid}.md exists in "
-                    f"git but this tracker had nothing, so another agent acted and "
-                    f"did not publish a ledger entry. Status is a floor, not a "
-                    f"finding — read the playbook and the broker's own reply before "
-                    f"relying on it."
-                    if entry.get("_from") == "playbook" else
-                    f"Adopted from the shared ledger: another agent recorded "
-                    f"'{entry['status']}' on {entry['changed']}. No detail is "
-                    f"carried across — re-read the broker's own reply before "
-                    f"relying on this."),
+                "at": at, "status": entry["status"], "via": entry.get("via"),
+                "note": note,
             })
+            # validate.py's TERMINAL-status check (and a human skimming this
+            # file) both read the top-level `note`, not history -- tracker.py's
+            # own `set` command writes both, but this adoption path used to
+            # write only history, which is how a merge could adopt hundreds of
+            # `confirmed`/`not_found` rows and have every one of them fail
+            # validate.py's "TERMINAL status needs a note" check afterwards.
+            rec["note"] = note
             adopted.append(bid)
         if adopted:
             PRIVATE.write_text(json.dumps(private, indent=2, ensure_ascii=False) + "\n")

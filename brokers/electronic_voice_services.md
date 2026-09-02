@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-27)
+- Current: `confirmed` (updated 2026-09-01)
 - Note: Opt-out letter sent by email to [named individual]@evs7.com (delete + opt out of sale/sharing + direct downstream recipients + suppress against future ingestion). All twelve email addresses, sixteen prior addresses and eleven prior phone numbers listed for search. Sent as HTML per letter_html.
+- **Reply (2026-09-01):** Clean, affirmative confirmation: "We have deleted any information we had about you. We agree not to disclose, process, market, share, or sell any information about you." **Scope limit stated plainly and worth recording as a model of how to say it:** "Even though we have deleted information and agree not to sell information about you, you must be aware that any customer to whom we have previously provided your information will not have your information removed from their lists." A telephone-list company (telephonelists.biz) — the honest limit is exactly the one CONTRIBUTING.md flags for list brokers: deleting your own copy doesn't reach a list already sold to a buyer.
 
 ## Steps
 

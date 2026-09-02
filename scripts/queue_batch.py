@@ -24,7 +24,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from make_optout_email import TEMPLATE, CONTACT_NOTE, load_profile  # noqa: E402
+from make_optout_email import load_profile, render, suggest_keys  # noqa: E402
 from check_email_domains import deliverable  # noqa: E402
 from letter_html import to_html  # noqa: E402
 
@@ -50,8 +50,15 @@ STATE = state("removal_status.json")
 # The second group was missing, so brokers whose email route had already been
 # proved dead kept surfacing at the top of the queue -- and a batch that re-sends
 # to a known-bad address spends the daily cap on guaranteed bounces.
+# Keep this in sync with tracker.py's STATUSES. "acknowledged", "replied" and
+# "covered_by_sibling" were added there later and left out here, which meant a
+# broker that had already replied -- with only an acknowledgement, or with a
+# substantive answer not yet fully resolved -- was treated as untouched and
+# queued for a fresh "Consumer Request" letter into a thread that already had
+# a reply sitting in it. See the matching RANK gap this had in sync_status.py.
 DONE = {"submitted", "confirmed", "not_found", "unreachable", "email_pending",
-        "failed", "manual_required", "captcha_blocked"}
+        "failed", "manual_required", "captcha_blocked", "acknowledged",
+        "replied", "covered_by_sibling"}
 
 
 def main():
@@ -235,9 +242,20 @@ def main():
     for b in batch:
         subject = ("Consumer Request to Delete and Opt Out of Sale of "
                    f"Personal Information — {prof['name']}")
-        body = TEMPLATE.format(
-            to=b["email_to"], broker=b.get("name", b["id"]),
-            contact=prof["email"], contact_note="", **prof)
+        # render() computes the per-broker blocks (sensitive_block, intake_block,
+        # the email-only minimisation) that a bare TEMPLATE.format(**prof) does
+        # not have -- this used to duplicate that formatting inline and crash
+        # with a missing sensitive_block key the moment render() grew a new
+        # required block it didn't know about. Never minimise on a guess here
+        # either: warn only, same as make_optout_email.py's own CLI.
+        keys = "full"
+        hint = suggest_keys(b)
+        if hint == "email-only":
+            print(f"  NOTE {b['id']}: looks identifier-keyed (cookie/device/CTV) -- "
+                  f"sending the full identifier set anyway (never auto-minimised); "
+                  f"consider make_optout_email.py --keys email-only by hand.",
+                  file=sys.stderr)
+        body = render(b, prof, to=b["email_to"], keys=keys)
         # Drop the To:/Subject: header lines -- the mail tool sets those.
         body = body.split("\n", 2)[2].lstrip("\n")
         out.append({"id": b["id"], "name": b.get("name", b["id"]),
