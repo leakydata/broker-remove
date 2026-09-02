@@ -19418,3 +19418,69 @@ And for the corpus: **a status of `email_pending` is not a waiting state, it is 
 Fifteen rows now carry it, and every day that passes makes them likelier to need re-filing rather
 than a click. That is the opposite of `submitted`, where waiting costs nothing — which is exactly
 why §285's mislabelling mattered.
+
+---
+
+## §287 — an inbox is not a work queue, and I downgraded nine live requests
+
+§285 reported fourteen requests stalled on unconfirmed verification links, and §286 raised it to
+twenty. Both were wrong, and the error is worth more than either finding.
+
+I built that list by searching the inbox for *"confirm your email"* and treating **the presence of a
+verification mail as evidence the link had never been used.** Ten rows were downgraded from
+`submitted` to `email_pending` on that basis.
+
+Checking each row's own history — which I did only when I sat down to re-file them — showed
+**nine of the ten already carried notes saying the opposite:**
+
+> *"email verification clicked; the portal returned 'Your request is confirmed!'"*
+> *"PrivacyEngine rights form submitted and email verification link clicked; portal returned 'Your
+> request has been successfully verified.'"*
+> *"After the hCaptcha and email verification, DataGrail sent: 'We have received your Deletion
+> request…'"*
+
+Those requests were never stuck. **A verification mail stays in the inbox forever because nobody
+archives it.** Its presence says nothing at all about whether the link was clicked — and I used it
+as the sole signal, against nine rows whose notes I had written myself.
+
+### The error I keep making, now in a fourth costume
+
+§267a: a finding I had already made twice, not recognised. §278: a claim asserted in a letter that
+six of my own notes contradicted. §282: a worry about 948 rows that one arithmetic check dissolved.
+And now this.
+
+Every one is the same move: **a signal is observed, a conclusion is drawn, and the evidence already
+in my own record is not consulted.** The rule I adopted at §267a — *before writing a new claim, grep
+the notes for it* — I applied to writing entries, then to writing letters, and not to **changing
+data**, which is where it is most expensive.
+
+This one was worse than the others because it was **acted on, not just written.** Nine accurate rows
+were degraded, the coverage figure moved by nine in the wrong direction, and a handoff item told a
+person to spend an evening clicking links that were already clicked.
+
+### Fixed in the place that would have caught it
+
+`tracker.py set` now refuses a status change that the row's own history contradicts:
+
+```
+refusing to set arity to 'email_pending': this row's own history contradicts it.
+  found: "...Clicked; the portal returned 'Your request is confirmed! Thank you for
+  confirming your email address...'"
+  If the earlier note is wrong, or the state genuinely regressed, pass --regressed.
+```
+
+`--regressed` already existed for demoting a terminal win. It now covers any downgrade the history
+argues against. **The check costs nothing and runs on the data I was ignoring.**
+
+### And the real state of it
+
+**Three links are genuinely outstanding**, not twenty — CB Insights (whose latest mail says *"this
+is our final"* notice), one OneTrust request from 2 September, and one from 31 August. The handoff
+item went from twenty entries and twelve minutes to three entries and three, which is the whole
+value of having checked.
+
+One row, CoreLogic, is genuinely blocked and has no link at all: they replied that they do not
+accept privacy requests by email and require their portal.
+
+**A queue built from an inbox measures what arrived, not what remains.** The two are only the same
+if something removes items when they are done, and nothing does.

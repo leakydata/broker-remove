@@ -105,12 +105,12 @@
     "via": "email"
   },
   "activimpact": {
-    "status": "email_pending",
+    "status": "submitted",
     "changed": "2026-09-02",
     "via": "reply"
   },
   "acuant": {
-    "status": "email_pending",
+    "status": "submitted",
     "changed": "2026-09-02",
     "via": "email"
   },
@@ -425,7 +425,7 @@
     "via": null
   },
   "arity": {
-    "status": "email_pending",
+    "status": "submitted",
     "changed": "2026-09-02",
     "via": "web"
   },
@@ -1575,7 +1575,7 @@
     "via": "email"
   },
   "demandscience": {
-    "status": "email_pending",
+    "status": "submitted",
     "changed": "2026-09-02",
     "via": null
   },
@@ -1640,7 +1640,7 @@
     "via": "email"
   },
   "disqus": {
-    "status": "email_pending",
+    "status": "submitted",
     "changed": "2026-09-02",
     "via": null
   },
@@ -3395,7 +3395,7 @@
     "via": "email"
   },
   "merkle": {
-    "status": "email_pending",
+    "status": "submitted",
     "changed": "2026-09-02",
     "via": "email"
   },
@@ -3770,7 +3770,7 @@
     "via": "email"
   },
   "nielsen": {
-    "status": "email_pending",
+    "status": "submitted",
     "changed": "2026-09-02",
     "via": "web"
   },
@@ -4815,7 +4815,7 @@
     "via": "email"
   },
   "ror_partners": {
-    "status": "email_pending",
+    "status": "submitted",
     "changed": "2026-09-02",
     "via": null
   },
@@ -4935,7 +4935,7 @@
     "via": "email"
   },
   "seamless_ai": {
-    "status": "email_pending",
+    "status": "submitted",
     "changed": "2026-09-02",
     "via": "web"
   },

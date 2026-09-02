@@ -16,6 +16,7 @@ Usage:
 
 import argparse
 import json
+import re
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -118,6 +119,36 @@ def cmd_set(args):
               f"disclosure, a family rollup, or renamed). Updating its "
               f"existing status row.")
     rec = st.setdefault(args.broker_id, {"history": []})
+
+    # A STATUS CHANGE THAT CONTRADICTS THE ROW'S OWN HISTORY IS ALMOST ALWAYS A
+    # MISREADING OF SOMETHING ELSE.
+    #
+    # Ten rows were moved to `email_pending` on the strength of unconfirmed-looking
+    # verification emails sitting in the inbox. Nine of them already carried notes
+    # saying "email verification clicked" and "Your request is confirmed!" -- the
+    # mails were still there because nobody archives them, and presence in an inbox
+    # is not evidence that a link was never used. See _SILENT_FAILURES 287.
+    #
+    # The evidence is in the row. Check it before writing over it.
+    _CONTRADICTS = {
+        "email_pending": (
+            r"verification (link )?(was )?clicked|email verification clicked|"
+            r"request is confirmed|successfully verified|confirmed my email"),
+        "pending": r"emailed|sent (the |a )?(letter|request)|submitted",
+    }
+    _pat = _CONTRADICTS.get(args.status)
+    if _pat and not args.regressed:
+        _hist = " ".join((h.get("note") or "") for h in rec.get("history", []))
+        _m = re.search(_pat, _hist, re.I)
+        if _m:
+            sys.exit(
+                f"refusing to set {args.broker_id} to '{args.status}': this row's "
+                f"own history contradicts it.\n"
+                f"  found: \"...{_hist[max(0, _m.start()-90):_m.start()+110]}...\"\n"
+                f"  If the earlier note is wrong, or the state genuinely regressed, "
+                f"pass --regressed.\n"
+                f"  See _SILENT_FAILURES 287.")
+
 
     # Don't let a later note quietly undo an earlier win.
     #
