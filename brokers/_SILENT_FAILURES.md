@@ -18918,3 +18918,57 @@ worth of uninformative confirmations trace to one configuration screen.
 It also means the corpus can measure something no single exchange can: *when the same platform
 produces both a good answer and a bad one, the difference is the company, not the tooling* — which
 removes the most common excuse for a bad one.
+
+---
+
+## §279 — I followed the letter of my own rule and broke the point of it
+
+§248 recorded a commit that went out while the gate was failing, because
+`gate.sh 2>&1 | tail -3 && git commit` masks the gate's exit code behind the pipe. The rule adopted
+then: **never pipe `gate.sh` before `&&`.**
+
+Today I did this instead:
+
+```bash
+bash scripts/gate.sh > out.txt 2>&1; echo "EXIT=$?"; tail -3 out.txt
+python3 scripts/sync_status.py
+git add -A && git commit -q -m "..." && git push
+```
+
+No pipe. The exit code was captured and printed correctly — **`EXIT=1`, in my own output.** And then
+the commit ran anyway, because it was a separate statement that never consulted it.
+
+**The rule I wrote protected against the mechanism and not against the failure.** The pipe was the
+means the first time; the actual defect is *the gate's result not deciding whether the commit
+happens.* Redirecting to a file and echoing `$?` fixes the visibility problem and leaves the control
+problem exactly where it was — arguably worse, because the number is right there and looks like
+diligence.
+
+The error was trivial (a row reached `submitted` before its playbook was scaffolded, which validate
+correctly refuses) and the fix took one command. That is not the point. **A gate that reports and
+does not block is a log line.**
+
+### The general form
+
+This is the third time this file has recorded a check that named a hazard and then permitted it —
+§270's ledger write printed *"they will be contacted twice"* and then did it; §248's summary line
+printed *"1 processed"* for a run that wrote nothing; and now a gate that printed `EXIT=1` above a
+commit that proceeded.
+
+Every one of them was **a diagnostic standing in for a control.** The information was present,
+correct, and inert.
+
+So the rule replaces the old one rather than joining it:
+
+> **The gate's exit status must be the thing that decides.** Not visible, not logged, not printed
+> above the decision — *in* it.
+
+```bash
+bash scripts/gate.sh > out.txt 2>&1 || { tail -20 out.txt; exit 1; }
+git add -A && git commit -m "..."
+```
+
+And the meta-lesson, which is the reason this is worth an entry at all: **when a rule is written as
+a prohibition on a mechanism, it will be satisfied by any other mechanism.** *"Never pipe before
+`&&`"* is a rule about pipes. The rule I needed was about consequences, and I wrote down the shape
+of the accident instead of the shape of the requirement.
