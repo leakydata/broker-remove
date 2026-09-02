@@ -1414,6 +1414,11 @@
     "changed": "2026-08-26",
     "via": "reply"
   },
+  "datalead": {
+    "status": "unreachable",
+    "changed": "2026-09-02",
+    "via": null
+  },
   "dataline": {
     "status": "submitted",
     "changed": "2026-08-17",
@@ -1452,6 +1457,11 @@
   "date_detective": {
     "status": "submitted",
     "changed": "2026-08-25",
+    "via": null
+  },
+  "dato_capital": {
+    "status": "submitted",
+    "changed": "2026-09-02",
     "via": null
   },
   "datonics": {
@@ -1713,6 +1723,11 @@
     "status": "submitted",
     "changed": "2026-08-28",
     "via": "web"
+  },
+  "edgein": {
+    "status": "submitted",
+    "changed": "2026-09-02",
+    "via": null
   },
   "edvisors_network": {
     "status": "submitted",
@@ -4012,6 +4027,11 @@
   "peekyou": {
     "status": "submitted",
     "changed": "2026-08-23",
+    "via": null
+  },
+  "peeplookup": {
+    "status": "submitted",
+    "changed": "2026-09-02",
     "via": null
   },
   "penlink": {
