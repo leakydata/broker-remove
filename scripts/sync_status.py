@@ -236,9 +236,28 @@ def main():
         if prev is None:
             merged[bid] = rec
             continue
-        r_new, r_old = rank(rec["status"]), rank(prev.get("status", "pending"))
-        if r_new > r_old or (r_new == r_old
-                             and (rec.get("changed") or "") >= (prev.get("changed") or "")):
+        # RECENCY DECIDES, NOT RANK -- and this was wrong for one tick.
+        #
+        # The first version of this merge kept the higher-ranked status, on the
+        # assumption that a status only ever improves. It does not. A bounce, a
+        # discovered mis-send, or a playbook correction all move it DOWN, and
+        # those are exactly the corrections that matter, because they deflate an
+        # overclaim. Ranking made them unpublishable: `aberdeen` (submitted ->
+        # email_pending) and `outlogic` (submitted -> manual_required) were
+        # corrected locally and silently refused by the ledger, so the other
+        # agent would have kept acting on `submitted`.
+        #
+        # Fixing deletion-by-omission had introduced monotonic optimism instead:
+        # the shared file could no longer be told that something got worse. See
+        # _SILENT_FAILURES §275.
+        #
+        # The later assertion wins, whichever direction it points. Rank breaks a
+        # same-day tie only, where "further along" is the better guess.
+        d_new = rec.get("changed") or ""
+        d_old = prev.get("changed") or ""
+        if d_new > d_old or (
+                d_new == d_old
+                and rank(rec["status"]) >= rank(prev.get("status", "pending"))):
             merged[bid] = rec
     merged = dict(sorted(merged.items()))
     kept = len(set(merged) - set(fresh))

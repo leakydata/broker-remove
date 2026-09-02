@@ -7,7 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-30)
+- Current: `replied` (updated 2026-09-02)
+- **Reconciled 2026-09-02 (§274):** playbook said `submitted`, tracker said `replied`. RECURRENCE, AND A CORRECTION TO MY OWN RECORD (SF 243). The E2E test fixture fired AGAIN at 07:13:29 on 1 Sep, in reply to a 06:01 note that was explicitly NOT a request -- its second line read 'This is a short note, and it asks for nothing new.' Alongside it, one second earlier, a 'Confirmation: Your request has been completed' whose ENTIRE BODY was 'Dear Data Subject, https://trustsuperset.com, Best regards, Your P
 - Note: 2026-08-30 Sent the standard data-broker letter to privacy@revoptimal.com.
 
 ## Steps

@@ -7,7 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-30)
+- Current: `not_found` (updated 2026-09-02)
+- **Reconciled 2026-09-02 (§274):** playbook said `submitted`, tracker said `not_found`. ANSWERED IN FULL, AND NAMED THE ACQUIRER (SF 230). Compliance@sms-inc.com 2026-08-31 20:01: 'The databases and related data assets formerly owned and controlled by Specialists Marketing Services, Inc. were acquired effective June 15, 2026 by Innovative Data Services, Inc., doing business as Specialists Marketing Solutions. You may direct any request concerning data currently maintained by Specialists Marketing Soluti
 - Note: 2026-08-30 Sent the LIST-BROKERAGE variant to dataprivacyteam@sms-inc.com, same shape as Compact Information Systems above.
 
 ## Steps

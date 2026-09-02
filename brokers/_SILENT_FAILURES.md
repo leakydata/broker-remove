@@ -18673,3 +18673,71 @@ unevidenced claims.
 Corrected totals: `submitted` 957 → 952, `failed` 10 → 13, `unreachable` 49 → 50, `email_pending`
 4 → 6. The number went down, which for a figure derived from optimistic defaults is the only
 direction that indicates the check worked.
+
+---
+
+## §275 — I fixed deletion-by-omission and introduced monotonic optimism
+
+§270 fixed a ledger write that deleted whatever the other agent had added. The fix was a union:
+keep every row, and on a conflict keep **the higher-ranked status**.
+
+That held for one tick. Correcting the eight overclaims in §274 exposed the rest of it.
+
+Five of the corrections propagated to the shared ledger. **Two did not:**
+
+```
+aberdeen   tracker=email_pending     ledger=submitted
+outlogic   tracker=manual_required   ledger=submitted
+```
+
+`failed`, `unreachable` and `covered_by_sibling` all rank *above* `submitted`, so those went
+through. `email_pending` and `manual_required` rank *below* it — and the merge, doing exactly what
+I told it to, kept the ledger's more advanced value and discarded the correction.
+
+**Ranking assumes a status only ever improves. It does not.** A bounce, a discovered mis-send, a
+playbook that contradicts the tracker — every one of those moves a status *down*, and those are the
+corrections that matter most, because they are the ones that deflate an overclaim. My merge made
+them the only kind that could not be published.
+
+So the shared channel would have kept telling the other agent that Aberdeen and Outlogic had
+letters in flight, on the strength of a rule I wrote to protect its work.
+
+### The shape of the mistake
+
+Fixing a bug in one direction and creating its mirror is common enough that it deserves naming.
+§270's failure was **deletion by omission** — silence in my file erased the other agent's row.
+§275's is **monotonic optimism** — the shared file could no longer be told that something got
+worse.
+
+Both come from the same root: *I treated the ledger as a place to publish progress rather than a
+place to publish observations.* Progress only goes one way. Observations do not.
+
+The fix is to stop arbitrating on the value at all:
+
+```python
+d_new = rec.get("changed") or ""
+d_old = prev.get("changed") or ""
+if d_new > d_old or (d_new == d_old
+                     and rank(rec["status"]) >= rank(prev.get("status", "pending"))):
+    merged[bid] = rec
+```
+
+**The later assertion wins, whichever direction it points.** Rank breaks a same-day tie only, where
+"further along" is the better guess and nothing better is available.
+
+That is also the right semantics for two agents making genuine observations at different times: the
+one who looked most recently is the one to believe, and neither is entitled to overrule the other
+by being more optimistic.
+
+### The check I should have run and did not
+
+I verified §270's fix by confirming the row count stopped dropping — 1235 in, 1235 out. That test
+could not fail for this bug, because **the count is identical whether a conflict resolves correctly
+or not.** Nothing was missing; two rows were merely wrong.
+
+The test that would have caught it takes one line: *make a correction, sync, and read the ledger
+back.* Which is what found it in the end, a tick late, and only because §274 happened to produce
+downgrades.
+
+**A merge is not verified by counting what survived. It is verified by writing a value and reading
+it back.**

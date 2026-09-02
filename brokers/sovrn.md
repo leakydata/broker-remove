@@ -7,7 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-30)
+- Current: `acknowledged` (updated 2026-09-02)
+- **Reconciled 2026-09-02 (§274):** playbook said `submitted`, tracker said `acknowledged`. privacy@sovrn.com 2026-09-01: 'We have received your request regarding your personal information. We are working on your request and will provide confirmation once it has been completed.' Receipt only -- no outcome stated. Awaiting the confirmation.
 - Note: 2026-08-30 Sent the AD TECH variant to privacy@sovrn.com (publisher monetization / programmatic infrastructure). Standard ad-tech identifier set.
 
 ## Steps

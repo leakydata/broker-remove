@@ -7,7 +7,8 @@
 
 ## Status
 
-- Current: `pending`
+- Current: `covered_by_sibling` (updated 2026-09-02)
+- **Reconciled 2026-09-02 (§274):** playbook said `pending`, tracker said `covered_by_sibling`. STATUS CORRECTED 2026-09-02 (SF 274). Tracker said 'submitted', inferred on 2026-08-24 from brokers/coresignal.md merely existing; the playbook, written later by hand, says pending. Neither is right. WHAT ACTUALLY HAPPENED: a separate CA registration under the legal name DEEPTRACE INC. shares this domain and was emailed at privacy@coresignal.com on 2026-08-25 -- so Coresignal's own privacy mailbox HAS received a lett
 - Note (2026-08-29): a separate CA registration under the legal name "Deeptrace Inc." shares this domain and was emailed at privacy@coresignal.com (see `deeptrace.md`, submitted 2026-08-25) — a possible email route into the same company that would avoid this browser-only web form. Check `deeptrace.md` for a reply before treating this as handoff-only.
 
 ## Steps

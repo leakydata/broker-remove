@@ -7,7 +7,8 @@
 
 ## Status
 
-- Current: `email_pending` (updated 2026-09-01)
+- Current: `submitted` (updated 2026-09-02)
+- **Reconciled 2026-09-02 (§274):** playbook said `email_pending`, tracker said `submitted`. NEW ROUTE FOUND AND USED 2026-09-02: solutions@tauxbe.com, the mailto: published on their own site, after privacy@tauxbe.com hard-bounced 550 5.7.1. BOTH DESIGNATED ROUTES ARE BROKEN and I led with it: (a) the privacy address their policy names refuses mail while the domain's Proofpoint MX is otherwise healthy; (b) THE 'DELETION REQUEST PAGE' THEIR POLICY DIRECTS CONSUMERS TO DOES NOT EXIST -- 'you may submit a reque
 - Note: 2026-08-31: sent the "unknown broker" categorisation letter to privacy@tauxbe.com — at the time, no public site content had been found beyond the CA registration.
 - Note: 2026-09-01: that letter hard-bounced (550 5.7.1, mailbox rejects mail) — despite privacy@tauxbe.com being the address Tauxbe's own privacy policy names as the privacy contact. The site turned out to be live after all: Tauxbe runs NatCrim, a billion-record criminal-background-screening database for trust-and-safety customers. Its privacy policy lists request pages for CA/VA/CO/CT/UT/OR/TX/MT/IA/DE/NE/NH/NJ residents — **Pennsylvania is not on that list**. Resent to solutions@tauxbe.com (the general contact address on their own /contact page), noting the bounce, invoking the fallback-to-published-policy clause, and asking specifically whether any NatCrim background-screening record exists (a distinct category from a marketing contact record).
 

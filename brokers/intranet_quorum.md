@@ -7,7 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-18)
+- Current: `replied` (updated 2026-09-02)
+- **Reconciled 2026-09-02 (§274):** playbook said `submitted`, tracker said `replied`. Answered by the Leidos Global Privacy Office in the leidos_digital_solutions thread -- the original letter was addressed to Intranet Quorum (Leidos) and the reply came from privacy@leidos.com on behalf of both. See the leidos_digital_solutions note for the substance: a structural nil, L2 named as the upstream source, and the SF 256 reply-to-all-addresses finding.
 
 ## Steps
 

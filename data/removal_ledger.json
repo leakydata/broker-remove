@@ -50,8 +50,8 @@
     "via": null
   },
   "aberdeen": {
-    "status": "submitted",
-    "changed": "2026-08-29",
+    "status": "email_pending",
+    "changed": "2026-09-02",
     "via": null
   },
   "above_data": {
@@ -4010,8 +4010,8 @@
     "via": "email"
   },
   "outlogic": {
-    "status": "submitted",
-    "changed": "2026-08-28",
+    "status": "manual_required",
+    "changed": "2026-09-02",
     "via": "email"
   },
   "outreach_io": {
@@ -5396,7 +5396,7 @@
   },
   "tauxbe_data": {
     "status": "submitted",
-    "changed": "2026-08-31",
+    "changed": "2026-09-02",
     "via": null
   },
   "td_cowen": {
