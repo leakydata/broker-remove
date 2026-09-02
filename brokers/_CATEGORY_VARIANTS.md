@@ -3506,3 +3506,77 @@ Two practical rules follow:
 - **Never send an identifier set to a domain that used to belong to a broker.** Check who
   operates it now. A resold domain is the one case where writing a careful letter actively
   creates the exposure it was meant to remove.
+
+---
+
+## The third-party-contributed record: when somebody else consents for you
+
+**Applies to:** B2B contact platforms with a mail plugin or CRM sync · contact-upload
+directories · data co-operatives · membership SaaS sold to churches, clubs, schools, unions,
+associations and nonprofits · anything whose customer is an *organisation* holding a list of
+people.
+
+This is the same structure as the "Contact-upload directories" section above, generalised —
+because it turned out not to be a caller-ID problem. It is a shape that recurs across four
+unrelated sectors, and the request has to change in the same way each time.
+
+**The structure.** Data about a person enters a company because *somebody else with a
+relationship to them handed it over*, and that somebody else is the one who consented:
+
+| sector | who contributes | what they hand over |
+|---|---|---|
+| B2B contact platform | a colleague or correspondent | their address book, or read access to their mailbox |
+| contacts-sync directory | a friend with your number | the phone's contact list |
+| data co-operative | a member business | its own customer file |
+| membership SaaS | your church, club, school or union | the congregation or member roll |
+
+**Why the ordinary request fails here**, and it fails three separate ways:
+
+1. **The subject cannot enumerate the companies.** Registers list companies that hold data.
+   This vector puts a person into companies selected by *other people's* software choices, which
+   no register or directory can predict. My whole method — work through the registers — cannot
+   reach it.
+
+2. **There is no surface to check.** No public listing, no search page, no profile. The subject's
+   first and only signal is downstream: an oddly well-informed cold email, a call, a mailing.
+   *The notice is the harm.*
+
+3. **Deletion is circular, and nobody is at fault.** Remove me; the contributor's address book,
+   CRM or member roll still has me; their next sync contributes me again. **Every step is
+   correct.** The contributor is not doing anything wrong and usually has no idea the tool does
+   this.
+
+### What to ask instead
+
+- **Name the store and ask for it to be searched separately.** A query against the prospect
+  database or the main product does not reach a store filled by a different pipeline. Ask them to
+  *say in the reply which store they searched* — that clause is what turns a nil into information.
+- **Ask for a do-not-contribute rule applied at ingest**, so a future contribution matching the
+  subject is *rejected* rather than accepted and then suppressed. This matters more than the
+  search: it is the only thing that breaks the loop.
+- **Ask whether, not who.** The contributor is almost certainly acting innocently, and naming
+  them serves no purpose the subject is entitled to. Say so in the letter — it also makes the
+  question much easier to answer.
+- **Ask what scopes the integration requests** (mail/CRM cases). A contacts scope settles it; its
+  absence narrows it, because a read-mail scope already suffices to lift correspondents and
+  signatures out of message bodies. Unlike "do you ingest contacts," a stated scope is a
+  falsifiable claim.
+- **Where the customer is the controller, ask them to name it.** In the membership-SaaS case the
+  platform is usually a processor and *should not* delete a controller's records. Naming the
+  organisation is the single most useful thing they can do, and it costs them nothing.
+- **The likeliest key is the dead one.** An address book, a signature archive and an old member
+  roll all preserve whatever address the person had *when the entry was made*, and are never
+  refreshed. A closed university or work mailbox is the highest-value search key here and the
+  lowest-value one everywhere else.
+
+### One category-specific escalation
+
+Where the contributing organisation is a **church, union, political group, clinic or support
+organisation**, the record's *existence* discloses affiliation — religious belief, union
+membership, political opinion, health status. That is sensitive personal information under
+Cal. Civ. Code § 1798.140(ae) and a special category under GDPR Art 9, and it is the case where
+a data subject **cannot mitigate by being careful**, because the sensitive fact is that the record
+exists at all rather than anything written in it.
+
+Exercise § 1798.121 (limit use and disclosure) alongside deletion, and say why: the ordinary
+deletion request treats the record as contact data, and this one is not.

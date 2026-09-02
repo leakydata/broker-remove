@@ -18408,3 +18408,71 @@ delete by omission will eventually delete everything it did not personally do.
 The five rows were recoverable only because git had the other agent's version. Had both agents been
 syncing on a schedule instead of committing, each write would have silently deleted the other's
 work until whichever ran last was the only one left.
+
+---
+
+## §271 — four sectors, one structure: the person who consents is not the person in the record
+
+§267 came from a B2B sales tool. §267a found I had already met it at a phone-contacts directory and
+at a data co-operative and failed to generalise. Writing to a **church management platform** this
+morning made it four, in a sector with nothing else in common with the other three — and that is
+enough to stop treating it as a category quirk.
+
+| sector | who consents | what they hand over |
+|---|---|---|
+| B2B contact platform | a colleague or correspondent | their address book, or read access to their mailbox |
+| contacts-sync directory | a friend with your number | the phone's contact list |
+| data co-operative | a member business | its own customer file |
+| membership SaaS | your church, club, school, union | the member roll |
+
+In every one, **the consenting party is not the data subject**, and the consent is real — the
+customer agreed, the notice they were shown was accurate, nobody did anything wrong.
+
+### Why this is the hardest category in the file
+
+Every other structure documented here has *some* surface a person can inspect. A people-search site
+can be searched. A register lists registrants. A privacy policy can be read for what it omits
+(§262). Even the generator (§260, GetEmail) can be reasoned about from its own marketing.
+
+This one has none:
+
+- **It defeats enumeration.** My entire method is working through registers and directories of
+  companies that hold data. This vector places a person into companies chosen by *other people's
+  software decisions*. No register lists that, and no amount of diligence by the subject changes
+  which of their correspondents installs a Chrome extension.
+- **There is no public artefact.** Nothing is published, so nothing can be checked.
+- **The only notice is the harm.** The first signal is an unexpectedly well-informed cold email, a
+  call, or a mailing — by which point the processing has already happened.
+- **The remedy is circular without an ingest rule.** Delete me; the contributor's copy is
+  untouched; the next sync restores me. Every step correct.
+
+### The escalation the church case adds
+
+For most contributors the record is contact data. For some it is not:
+
+**Where the contributing organisation is a church, union, political group, clinic or support
+organisation, the *existence* of the record discloses affiliation.** Religious belief, union
+membership, political opinion, health status — sensitive personal information under
+§ 1798.140(ae), special category under GDPR Art 9.
+
+And it is the one case where **a data subject cannot mitigate by being careful.** Everywhere else,
+withholding an identifier limits exposure. Here the sensitive fact is *that the record exists*,
+which the subject cannot influence at all — the disclosure happened when they joined something,
+years before any platform was chosen.
+
+So the ask changes: § 1798.121 limit-use alongside deletion, said explicitly, because the default
+request treats the record as contact data and this one is not.
+
+### What I actually changed
+
+`_CATEGORY_VARIANTS.md` gets the generalised section rather than four scattered ones, with the six
+asks that differ from the standard letter: search the contributed store *separately* and say which
+store was searched; **do-not-contribute at ingest**; ask *whether*, not *who*; ask what OAuth scopes
+the integration requests; where the customer is the controller, ask them to **name it** rather than
+act outside a processor mandate; and search the **dead** mailbox first, because a contact list, a
+signature archive and an old member roll all preserve the address in use when the entry was made
+and are never refreshed.
+
+That last one is worth isolating. **The closed university address is the highest-value key in this
+category and the lowest-value key everywhere else.** A live file discards it as stale; a contributed
+one keeps it forever, because nobody updates a copied contact.
