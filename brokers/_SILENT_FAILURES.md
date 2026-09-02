@@ -18025,3 +18025,56 @@ alike and are not: one is a limit of engineering, the other is a refusal of a st
 
 **Look for this sentence in policies.** It is short, it sounds like candour, and it forecloses the
 one remedy that reaches data already gone out the door.
+
+### §267a — a company described this vector to me three weeks ago and I did not hear it
+
+The address-book finding came from Salesgear's policy on 2 September. It had already been told to
+me on 20 August, in the second sentence of LeadIQ's first reply, and I read straight past it:
+
+> "The information that we provide is typically found on public professional profiles, business
+> cards, or **email signatures**."
+
+The first two are public. **An email signature is not.** It arrives in somebody's mailbox, and it
+becomes available to a contact-data company only when a customer's browser extension or mail
+integration reads the messages in that mailbox.
+
+So a third of the stated sourcing, named without prompting in the opening paragraph, describes
+data captured **from private correspondence with the consent of one party to it**. I quoted that
+sentence back in my own reply at the time and engaged with everything around it — the constructed
+address formats, the LinkedIn request — and did not notice the middle clause at all.
+
+**Why I missed it:** the sentence is framed as reassurance. It appears in a paragraph whose job is
+to say *we hold ordinary business-card information, nothing sensitive* — and read at that level it
+works. The list runs from most public to least, and the least public item sits at the end where a
+list is skimmed rather than read. I was looking for what the paragraph was arguing about and not
+at what it was disclosing.
+
+**The general form:** *a company's own description of its sources is the highest-value text in any
+reply, and it is usually embedded in a paragraph written to do something else.* Read source lists
+item by item and ask of each one: **could I have chosen differently?** A public profile — yes. A
+business card — I handed it over. An email signature in someone else's inbox — **no**, and the "no"
+is the whole finding.
+
+### The other half: I declined the key that would have worked
+
+LeadIQ asked twice for a LinkedIn URL, explaining it was to *"conclusively determine whether an
+existing record belongs to you"* — not to build one — and closed the request when I refused. My
+reasoning was that handing a prospecting database a live profile URL supplies an identifier they
+may not hold and creates the join the search was meant to test.
+
+That reasoning is sound in general and **weak here specifically**, for a reason I should have seen
+at the time: *LeadIQ's records are built from public professional profiles.* The URL is not
+something I would be giving them — **it is their input.** What they lacked was not the URL but the
+link between it and a request to be excluded. Withholding it protected the database from being
+cleaned, and protected nothing of mine.
+
+Reopened, supplied, under the two conditions this file has been arguing for since §90:
+forward-looking, and **exclude-only — used to keep me out, never as a match key** — with a request
+that they state back which of the two it is used for.
+
+The test that resolves it, and it is not "is this identifier sensitive":
+
+**Does the company already hold this key as a matter of course?** If yes, supplying it adds
+nothing to their file and adds everything to my request. If no — a device advertising ID (§260),
+a government identifier — supplying it manufactures the very link the request exists to sever.
+*Same act, opposite meaning, decided entirely by what they already have.*
