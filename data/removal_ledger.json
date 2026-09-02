@@ -219,6 +219,11 @@
     "changed": "2026-08-17",
     "via": null
   },
+  "aged_solar_leads": {
+    "status": "submitted",
+    "changed": "2026-09-02",
+    "via": "email"
+  },
   "aggknowledge": {
     "status": "submitted",
     "changed": "2026-08-24",
@@ -4840,14 +4845,14 @@
     "via": null
   },
   "searchpeoplefree": {
-    "status": "manual_required",
-    "changed": "2026-08-26",
-    "via": "web"
+    "status": "replied",
+    "changed": "2026-09-02",
+    "via": "email"
   },
   "searchpeoplefree_net": {
-    "status": "submitted",
-    "changed": "2026-08-20",
-    "via": "reply"
+    "status": "replied",
+    "changed": "2026-09-02",
+    "via": "email"
   },
   "searchpublicrecords_com": {
     "status": "submitted",
@@ -5615,9 +5620,9 @@
     "via": "email"
   },
   "usphonelookup": {
-    "status": "submitted",
-    "changed": "2026-08-20",
-    "via": "reply"
+    "status": "replied",
+    "changed": "2026-09-02",
+    "via": "email"
   },
   "usrecords": {
     "status": "submitted",
