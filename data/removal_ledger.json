@@ -225,7 +225,7 @@
     "via": null
   },
   "aged_solar_leads": {
-    "status": "submitted",
+    "status": "confirmed",
     "changed": "2026-09-02",
     "via": "email"
   },
@@ -5095,8 +5095,8 @@
     "via": null
   },
   "sovrn": {
-    "status": "submitted",
-    "changed": "2026-08-30",
+    "status": "acknowledged",
+    "changed": "2026-09-02",
     "via": null
   },
   "specialists_marketing_services": {

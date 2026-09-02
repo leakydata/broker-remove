@@ -17332,3 +17332,144 @@ registrants it does not live anywhere at all.
   not ask.
 - **A 100% denial rate can mean "we found nobody."** Do not rank on it without asking. Two of
   the three worst-looking denial rows I have investigated turned out to be nil results.
+
+---
+
+## §260 — the gate that closes against the people it exists to serve
+
+§259 records the first correctly calibrated verification gate: ZS require an NPI number, every
+subject of their file holds one by construction, so the requirement excludes nobody who is
+actually in the data.
+
+Mobilewalla replied the same day and is the exact inverse. Both letters were answered within
+hours of each other, which is the only reason the pair is visible at all.
+
+Their answer began well — a real nil result, plainly stated:
+
+> "We do not have any record of your name, address or email information or any of the other
+> information that you provided in our files."
+
+Then:
+
+> "If you have not provided this to us in your initial communication, you will need to provide
+> your Mobile Advertising ID (MAID) and your country of residence for us to do a deeper search
+> of our database."
+
+Followed by instructions. For iOS: the identifier "is hidden from users by Apple by default but
+can be retrieved with third-party apps," and two apps are named. For Android: open the Google
+Settings app and click Ads.
+
+### Why this is the inverse of §259
+
+Take the two conditions that made ZS's gate legitimate and apply them here.
+
+**Does every subject of the file hold the identifier?** The file is device-keyed, so nominally
+yes — but the *person* does not hold it in any usable sense. The platform holds it, and both
+platforms have spent years making it harder to reach:
+
+- **On iOS, Apple conceals the IDFA by default.** Mobilewalla's own remedy is to install an
+  additional app, from a company the consumer has no relationship with, to extract a value the
+  operating system deliberately hid.
+- **On Android, a user can delete the advertising ID outright.** Apps then receive a string of
+  zeroes. Opting out of ad personalisation has the same practical effect. There is no value to
+  send.
+
+Which produces the finding:
+
+**The person most likely to write a deletion request is the person most likely to have already
+taken the step that destroys the identifier required to process it.**
+
+A person who has never thought about any of this still has their MAID and could supply it. A
+person who acted to protect themselves cannot, and is told the deeper search is unavailable to
+them. *The gate is closed specifically to the population it exists to serve* — the precise
+opposite of ZS, whose gate is open to exactly that population and shut to everyone else.
+
+**Does supplying the identifier cost the requester anything?** For ZS, no: an NPI is a public
+professional number, already published in a federal registry. Here the cost is the entire
+subject matter of the request. A MAID is worth nothing alone; it becomes valuable the instant it
+is bound to a name. Emailing one to a data broker **creates, dated and from the subject's own
+hand, the device-to-named-person link the request exists to sever.** Whatever is deleted
+afterwards, that association would not have existed but for the deletion request.
+
+This is the standing rule (§234) meeting its sharpest justification yet. The rule was written as
+a precaution. This is the case that shows why it is not merely a precaution: *complying with the
+verification step would defeat the request even if the request then succeeded.*
+
+### Two smaller things worth keeping
+
+**The reply did not reach the paragraph that pre-empted it.** My letter declined the MAID under
+its own heading — "the identifier I cannot produce, and the one I can" — and offered the
+alternative. The boilerplate arrived anyway. A long letter buys thoroughness at the cost of being
+read to the end, and the section that most needed reading was in the middle. **Where a letter
+declines something the recipient's template will ask for, the refusal has to survive being
+skimmed** — put it where a template-driven reply cannot route around it.
+
+**Their Android instructions are years out of date.** There has been no separate "Google
+Settings" app since well before the current registration cycle. Told them, as a courtesy. It is
+a small thing but it dates the template: the procedure a company hands to consumers exercising a
+right is written once and then never revisited, because *nobody who fails at step one writes
+back to say so.* The same reason register filings rot (§250) and verified addresses decay — the
+failure is invisible from inside.
+
+### The pair, stated once
+
+| | ZS Associates (§259) | Mobilewalla (§260) |
+|---|---|---|
+| Identifier demanded | NPI number | Mobile advertising ID |
+| Held by every data subject? | Yes, by construction | Only until they protect themselves |
+| Obtainable by the consumer? | Public federal registry | iOS: install a third-party app. Android: may no longer exist |
+| Cost of supplying it | None | Creates the link the request exists to break |
+| Verdict | Calibrated | Closed against its own population |
+
+---
+
+## §261 — the tracker could not write the values its own file contained
+
+Found while recording the two entries above. `tracker.py set` rejected both `replied` and
+`acknowledged`:
+
+```
+status must be one of: pending, not_found, submitted, email_pending,
+captcha_blocked, manual_required, confirmed, failed, unreachable
+```
+
+Nine values. But `removal_status.json` at that moment held **twelve**: those nine plus
+`replied` (24 rows), `acknowledged` (4) and `covered_by_sibling` (2).
+
+Those thirty rows were written by the ledger sync and by the second agent, which use a wider
+vocabulary. So for weeks:
+
+- **A row that reached one of the three extra states could never be updated through the normal
+  path.** The only tool for editing status refused to name the state the row was in.
+- **`stats` iterated `STATUSES` and printed nothing for the rest.** It reported
+  `total tracked brokers: 1553` and then a breakdown summing to **1523**. Thirty brokers were
+  missing from a table that gave no indication anything was missing — including, at that moment,
+  every broker that had actually *answered* me.
+- **`report`** — the markdown summary — had the same hole.
+
+This is §248 again in a different file. There, a summary line could not express failure, so a
+run that wrote nothing printed "1 processed". Here a summary could not express three states, so
+a total and its own breakdown disagreed by thirty and neither number was marked as suspect. The
+common shape: **a display that enumerates a fixed vocabulary silently drops anything outside it,
+and the drop is invisible precisely because the display looks complete.**
+
+The fix is two-part, and the second half matters more:
+
+1. Add the three states to `STATUSES` so `set` can write them.
+2. **Print unknown statuses rather than skipping them, and assert that the breakdown sums to the
+   total.**
+
+```python
+unknown = sorted(k for k in counts if k and k not in STATUSES)
+for s in unknown:
+    print(f"  {s:16} {counts[s]:4}  <-- UNKNOWN STATUS, not in STATUSES")
+shown = sum(counts.get(s, 0) for s in STATUSES) + sum(counts[s] for s in unknown)
+if shown != total:
+    print(f"  !! breakdown sums to {shown}, not {total} -- "
+          f"{total - shown} row(s) unaccounted for")
+```
+
+Part 1 fixes today's vocabulary. Part 2 fixes the next drift, which is certain — two agents write
+this file and only one of them has the enum. **Any per-category breakdown of a total should be
+made to prove it adds up**, because the failure mode is not a wrong number, it is a number that
+looks right and is quietly incomplete.

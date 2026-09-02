@@ -35,6 +35,14 @@ STATUSES = [
     "confirmed",         # broker confirmed removal
     "failed",            # attempted, broker rejected or site broken
     "unreachable",       # site dead / domain parked
+    # --- states written by the shared-ledger sync and by the second agent.
+    # These were present in removal_status.json for weeks while `set` rejected
+    # them, so a row that reached one of them could never be updated through
+    # the normal path, and cmd_stats silently omitted it from the breakdown.
+    # See _SILENT_FAILURES 261.
+    "replied",           # broker answered substantively; outcome not yet settled
+    "acknowledged",      # broker confirmed receipt only, no outcome stated
+    "covered_by_sibling",# handled under another row (renamed / re-registered entity)
 ]
 
 
@@ -193,6 +201,15 @@ def cmd_stats(args):
     for s in STATUSES:
         if counts.get(s):
             print(f"  {s:16} {counts[s]:4}")
+    # Anything the vocabulary does not know about must still be printed, or the
+    # breakdown quietly fails to add up to the total it just claimed.
+    unknown = sorted(k for k in counts if k and k not in STATUSES)
+    for s in unknown:
+        print(f"  {s:16} {counts[s]:4}  <-- UNKNOWN STATUS, not in STATUSES")
+    shown = sum(counts.get(s, 0) for s in STATUSES) + sum(counts[s] for s in unknown)
+    if shown != total:
+        print(f"  !! breakdown sums to {shown}, not {total} -- "
+              f"{total - shown} row(s) unaccounted for")
     if off_registry:
         print(f"\n  {len(off_registry)} of these have a status but no registry "
               f"entry (merged, renamed, or a family rollup):")
@@ -212,7 +229,7 @@ def cmd_report(args):
         "| Status | Count |",
         "|---|---|",
     ]
-    for s in STATUSES:
+    for s in STATUSES + sorted(k for k in counts if k and k not in STATUSES):
         if counts.get(s):
             lines.append(f"| {s} | {counts[s]} |")
     lines += ["", "## Detail", "",
