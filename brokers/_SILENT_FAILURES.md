@@ -18283,3 +18283,56 @@ company's favour tells you nothing, whichever way it points.
 I agreed to one clock and undertook not to open a third thread while it runs. That is the right
 trade: a slow answer that is true beats a fast one that has to be walked back, and the whole value
 of this exchange came from somebody being willing to say "not yet."
+
+### §269a — the scope is verifiable, but not by me, and that changes what to do with it
+
+Having called the OAuth scope "the first question in this project with an externally verifiable
+answer," the obvious next move was to sweep it across the B2B cohort. I tried three routes and all
+three failed, for reasons worth recording because they bound the method.
+
+**Vendor sites and API docs.** Grepping for literal scope strings — `googleapis.com/auth/…`,
+`Mail.Read`, `Contacts.ReadWrite`, Graph permissions — across marketing pages, docs and knowledge
+bases returned nothing but JavaScript noise (`people.set`, `people.toString`). Scopes are declared
+to the *authorisation server*, not published on the website.
+
+**Google Workspace Marketplace.** Listing pages do publish "this app has access to" — but search
+returned Sheets add-ons from unrelated vendors, not the mail integrations these companies run.
+Most of these are direct OAuth clients rather than Marketplace apps, so there is no listing at all.
+
+**The consent screen itself.** This is where the scopes genuinely are: declared, itemised, shown
+before anything is granted. And it is where the method breaks, because **reaching it requires
+starting a signup with the company** — creating an account and handing the vendor a live Google or
+Microsoft identity.
+
+Which is precisely what every letter in this project refuses to do. *The check that verifies
+whether a company ingests your contacts requires giving that company your contacts provider.*
+
+### So the method survives, in a different form
+
+The scope question is still better than the one it replaces, and for a reason that does not depend
+on my being able to run it:
+
+> **"Do you ingest address books?" is a policy question. "What scopes does your integration
+> request?" is a factual claim that can be checked by anyone who does connect one.**
+
+An unfalsifiable answer costs a company nothing to give. A stated scope list is falsifiable by
+every one of their own customers, by any researcher with a throwaway Workspace account, and by a
+regulator with a subpoena. **Asking converts a question that cannot be wrong into one that can.**
+
+That is where the value is, and it is why Hunter's answer was worth crediting: they did not have to
+give a checkable answer, and they gave one anyway.
+
+Two consequences, both now in the tooling:
+
+1. **The intake block asks for the scope list by name** rather than asking whether ingestion
+   happens. A company that answers it has made a commitment; a company that will not has told me
+   something too.
+2. **The consent-screen check is a handoff item, not an automated one** — and one I would not
+   recommend lightly, because performing it means starting an account with a data broker using a
+   live mail identity. Worth doing for a specific company where the answer matters, not as a sweep.
+
+And the general form, which is the third time this file has arrived at it from a different
+direction: **a fact can be public, documented and still not reachable from where I am standing.**
+§263 mistook one document for the site, §266a mistook one lookup for the record, and the port probe
+mistook one address family for the internet. This is the inverse error and the same lesson —
+*I called something verifiable before checking that I could verify it.*

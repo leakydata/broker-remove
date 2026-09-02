@@ -269,6 +269,20 @@ The identifier most likely to match there is not my current one. An address book
 keeps whatever address a contact had when the entry was created, so an old or
 closed mailbox is the one that persists in it.
 
+ONE QUESTION WITH A CHECKABLE ANSWER
+
+If your product connects to a mailbox, it does so through an authorisation flow
+that declares the permissions it asks for. So rather than ask whether contacts
+are ingested -- a question I cannot verify either way -- I would ask:
+
+  WHICH SCOPES DOES YOUR MAIL OR CRM INTEGRATION REQUEST?
+
+A contacts or address-book scope settles the question. Its absence narrows it
+without closing it, because a read-mail scope is already sufficient to extract
+correspondents and signatures from message bodies. Either way the answer is a
+fact rather than an assurance: it is itemised on the consent screen every one of
+your customers has seen, so it can be checked by anyone who connects an account.
+
 AND THE ASK THAT MATTERS MORE THAN THE SEARCH
 
 If data does arrive that way, a deletion on its own is circular, and not through
