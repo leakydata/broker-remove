@@ -18026,34 +18026,63 @@ alike and are not: one is a limit of engineering, the other is a refusal of a st
 **Look for this sentence in policies.** It is short, it sounds like candour, and it forecloses the
 one remedy that reaches data already gone out the door.
 
-### §267a — a company described this vector to me three weeks ago and I did not hear it
+### §267a — I had already found this, twice, and did not recognise it coming back
 
-The address-book finding came from Salesgear's policy on 2 September. It had already been told to
-me on 20 August, in the second sentence of LeadIQ's first reply, and I read straight past it:
+I wrote §267 as a discovery. It is not one. Checking my own notes before propagating it
+turned up the same finding, in my own words, made twice before and applied both times:
 
-> "The information that we provide is typically found on public professional profiles, business
-> cards, or **email signatures**."
+**Sync.me, earlier:** *"Sync.me builds its directory from address books uploaded by other users, so
+a number and name can be present without the subject ever installing the app or agreeing to
+anything."* That is §267 exactly, written before §267 existed.
 
-The first two are public. **An email signature is not.** It arrives in somebody's mailbox, and it
-becomes available to a contact-data company only when a customer's browser extension or mail
-integration reads the messages in that mailbox.
+**Lusha Systems, 30 August:** the letter's central ask was *"a contact platform may have obtained
+my details neither from public records nor a purchase but from a USER'S ADDRESS BOOK, mail client,
+CRM sync or browser extension."* And it went further than anything I sent this week — asking
+**whether, explicitly not who**, on the ground that the contributor was probably a colleague acting
+innocently and I would not want them identified, and then drawing the consequence:
 
-So a third of the stated sourcing, named without prompting in the opening paragraph, describes
-data captured **from private correspondence with the consent of one party to it**. I quoted that
-sentence back in my own reply at the time and engaged with everything around it — the constructed
-address formats, the LinkedIn request — and did not notice the middle clause at all.
+> a deletion in a contributory system is circular — remove me, another user's address book still
+> has me, their next sync contributes me again, **every step correct and nothing wrong** — so what
+> is needed is a **do-not-contribute flag rejecting future contributions at ingest**, rather than
+> accepting and re-suppressing.
 
-**Why I missed it:** the sentence is framed as reassurance. It appears in a paragraph whose job is
-to say *we hold ordinary business-card information, nothing sensitive* — and read at that level it
-works. The list runs from most public to least, and the least public item sits at the end where a
-list is skimmed rather than read. I was looking for what the paragraph was arguing about and not
-at what it was disclosing.
+That is §188's co-operative loop applied to B2B contact data, and it is **a better ask than the one
+I sent Apollo, Kaspr, Lusha, Hunter, SalesIntel and LeadIQ this week.** I asked them to search a
+store. The August letter asked for the thing that makes searching it unnecessary.
 
-**The general form:** *a company's own description of its sources is the highest-value text in any
-reply, and it is usually embedded in a paragraph written to do something else.* Read source lists
-item by item and ask of each one: **could I have chosen differently?** A public profile — yes. A
-business card — I handed it over. An email signature in someone else's inbox — **no**, and the "no"
-is the whole finding.
+**LeadIQ told me too**, on 20 August, in the second sentence of their first reply: the data is
+*"typically found on public professional profiles, business cards, or email signatures."* The first
+two are public. A signature is not — it sits in somebody's inbox and reaches a data company only
+when software with access to that inbox reads it. I quoted the sentence back at the time, argued
+with everything around it, and did not register the middle clause.
+
+### So the failure is not what I first wrote down
+
+The honest version is worse and more useful. I did not miss the vector. **I found it, wrote it
+down, used it well on the rows where I found it, and never generalised it** — not into the letter
+template, not into a sweep of the sector, not into anything that would make it fire again. Then a
+fortnight later I met it in a third company's policy and experienced it as new.
+
+Which means: *my own record was not functioning as memory.* Two hundred rows of notes containing
+the answer did nothing, because nothing in the process reads them back before a "discovery" gets
+promoted to a finding.
+
+**Two corrections follow, and only the second one matters:**
+
+1. §267 keeps its content and loses its framing. The vector is real, it is under-asked, and the
+   sector sweep is worth doing.
+
+2. **Before writing a new entry, grep the notes for it.** The check that caught this was one
+   command against `removal_status.json` for a dozen intake-route words, and it returned 81 hits
+   across 60 rows — including co-ops asking *which member contributed*, SDK rows asking *which app
+   publisher*, panel rows, and `nymblr`, where "contributed address books" was already in my list
+   of sources to ask about. **A finding that is genuinely new should survive that grep. This one
+   did not.**
+
+The template change now carries the better ask, not the one I sent this week: the intake block
+asks for a **do-not-contribute rule applied at ingest**, because a suppression that accepts the
+record and then hides it is undone by the contributor's next sync, and the contributor is not doing
+anything wrong.
 
 ### The other half: I declined the key that would have worked
 

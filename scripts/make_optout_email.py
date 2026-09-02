@@ -268,6 +268,26 @@ answered from the one it is easiest to search.
 The identifier most likely to match there is not my current one. An address book
 keeps whatever address a contact had when the entry was created, so an old or
 closed mailbox is the one that persists in it.
+
+AND THE ASK THAT MATTERS MORE THAN THE SEARCH
+
+If data does arrive that way, a deletion on its own is circular, and not through
+anybody's fault:
+
+  You remove me. Another user's address book still has me. Their next sync
+  contributes me again. Every step is correct and nobody has done anything wrong.
+
+So what I am asking for is not only a deletion but a DO-NOT-CONTRIBUTE RULE
+APPLIED AT INGEST -- a flag that causes a future contribution matching me to be
+REJECTED rather than accepted and then re-suppressed. The difference decides
+whether this removal lasts a month or permanently.
+
+I am asking WHETHER data about me arrived this way. I am deliberately NOT asking
+WHO contributed it. Whoever it was is almost certainly a colleague or
+correspondent who installed a tool and had no idea it would do this, and I have no
+wish to have them identified. If no such ingest-level rule exists, saying so
+plainly is the single most useful thing you can tell me, because it is the fact
+that determines how durable any of this is.
 """
 
 
