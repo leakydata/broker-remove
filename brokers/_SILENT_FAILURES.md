@@ -18190,3 +18190,96 @@ That is not a bug so much as the shape of the arrangement, but it has a conseque
 **a status correction by one agent is invisible to the other unless it is written to the playbook.**
 Which the other agent did, and which is the only reason this was recoverable. The playbook is the
 durable channel; the ledger is a cache; the status file is a private opinion.
+
+### §268a — the sweep that would have created forty-six more errors
+
+Having moved four rows, the obvious next step was to check the other sixty-one for the same
+mislabelling. The first version of that sweep read each row's **most recent** history note and
+flagged every `confirmed` row without removal language in it.
+
+**It returned 46 of 61.** Which, taken at face value, would have meant three quarters of the
+project's headline number was wrong.
+
+It was wrong instead. The latest note on a settled row is very often a *follow-up* — a supplement,
+a listing-URL question, a status correction — and the confirmation it is following up on sits two
+or three entries earlier in the history. Apollo and Kaspr were both in the 46, and both had been
+confirmed in writing weeks ago; the notes I had appended hours earlier were about the address-book
+supplement.
+
+Reading the **whole** history rather than the last entry returned **zero**. The four already moved
+were the entire set.
+
+Same shape as §263 (a policy scan that took one document for the site), §266a (a DNS sweep that
+took one lookup for the record), and the port probe that took one address family for the internet.
+*A record has more than one entry and I keep querying the newest one as though it were the record.*
+
+The difference this time is only that I checked before acting rather than after — which cost one
+extra command and would have cost forty-six wrong corrections and a rewritten headline. **The
+check that matters is not "is my query right" but "what would this number mean if it were wrong,"**
+and 46-of-61 was implausible enough to be worth two minutes.
+
+---
+
+## §269 — ask what the integration requests, not what the company does
+
+Hunter answered the §267 supplement within an hour, and the answer changed the question rather
+than closing it.
+
+> "Hunter's Sequences integration requests permission to read, search, and send mail messages, and
+> basic profile info, that's the documented OAuth scope for both Gmail and Outlook connections.
+> **It does not request a separate Contacts or address-book permission.** So there's no
+> address-book ingestion happening through that mechanism."
+
+I have been asking companies *whether they ingest address books.* That is a **policy question**: it
+is answered with a sentence, the sentence is unfalsifiable from outside, and a support desk can
+give it in good faith while being wrong about a system it does not own.
+
+The scope question is a **fact about a consent screen.** OAuth scopes are declared by the
+application, shown to the user at authorisation, and documented publicly. A tool that ingests
+contacts must request a contacts scope, and that request is visible to anyone who looks —
+*including to me, without asking the company anything at all.*
+
+**That makes it the first question in this whole project with an externally verifiable answer.**
+
+### What the scope answer does and does not settle
+
+It narrows the problem. It does not close it, and Hunter said so themselves rather than letting the
+good half stand for the whole:
+
+> "whether the reply-detection process, in scanning a connected mailbox, ever retains sender or
+> subject metadata from messages that aren't part of a Hunter sequence, as a new record in our
+> system. **That's a real architecture question, not a policy one.**"
+
+Which is the sharper version of my own question. And note *why* it survives the scope answer:
+**"read and search mail" is already sufficient.** A tool with mailbox read access can extract every
+correspondent, every signature and every address from message bodies without ever requesting a
+Contacts permission. The contacts scope is one route in; it is not the only one.
+
+So the method has two steps, not one:
+
+1. **Check the declared scopes.** If a contacts or address-book scope is requested, the vector
+   exists and no denial survives it. If it is not, that route is closed — verifiably.
+2. **Then ask about the read scope**, which is where the answer stops being checkable and starts
+   requiring somebody inside to look.
+
+### The behaviour worth naming separately
+
+Four things in that reply, and the fourth is the one that makes the first three worth believing:
+
+- Gave a **checkable** fact rather than an assurance.
+- Named **precisely** what could not be verified without engineering, and declined to guess in
+  either direction.
+- **Refused to run two threads** — bundled it with the still-open generator question rather than
+  send two partial answers on two clocks, which would have put the coordination cost on me and the
+  duplication cost on them.
+- **Corrected a misimpression before I formed it:** *"I don't want to leave you thinking a line
+  saying so already went out when it hasn't."*
+
+That last one is small and almost nobody does it. It is also, exactly, §138's corroboration test
+seen from the other side: **a company that volunteers what it has *not* done is the one whose
+statements about what it *has* done carry information.** An answer that only ever resolves in the
+company's favour tells you nothing, whichever way it points.
+
+I agreed to one clock and undertook not to open a third thread while it runs. That is the right
+trade: a slow answer that is true beats a fast one that has to be walked back, and the whole value
+of this exchange came from somebody being willing to say "not yet."

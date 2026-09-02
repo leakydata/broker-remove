@@ -103,7 +103,20 @@ def cmd_set(args):
         sys.exit(f"status must be one of: {', '.join(STATUSES)}")
     reg, st = get_registry(), get_state()
     if args.broker_id not in reg:
-        sys.exit(f"unknown broker: {args.broker_id}")
+        # A row can legitimately exist off-registry: brokers DISCOVERED BY
+        # DISCLOSURE (a supplier named in someone else's answer), family
+        # rollups, and renamed entities. Twenty-one such rows carry a status
+        # today, and `set` refused every one of them -- so the only tool for
+        # editing status could not touch the rows the project's best evidence
+        # produced. Same shape as §261, one level up: there the vocabulary was
+        # too narrow, here the row list is. Allow it, say so, and still refuse
+        # a broker that exists nowhere at all.
+        if args.broker_id not in st:
+            sys.exit(f"unknown broker: {args.broker_id} "
+                     f"(not in the registry and no existing status row)")
+        print(f"  NOTE: {args.broker_id} is off-registry (discovered by "
+              f"disclosure, a family rollup, or renamed). Updating its "
+              f"existing status row.")
     rec = st.setdefault(args.broker_id, {"history": []})
 
     # Don't let a later note quietly undo an earlier win.
