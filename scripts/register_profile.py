@@ -53,7 +53,7 @@ CURATED = os.path.join(ROOT, "data", "curated_brokers.json")
 LAYOUTS = {
     "registry2025.csv": {
         "header_row": 1,
-        "name": 0, "dba": 1, "site": 2, "email": 3,
+        "name": 0, "dba": 1, "site": 2, "email": 3, "street": 5, "zip": 8,
         "minors": 11, "geo": 12, "repro": 13, "rights_url": 14,
         "regimes": {
             "FCRA": (15, 16, 17, 18), "GLBA": (19, 20, 21, 22),
@@ -72,7 +72,7 @@ LAYOUTS = {
     },
     "registry2024.csv": {
         "header_row": 0,
-        "name": 1, "dba": 2, "site": 3, "email": 4,
+        "name": 1, "dba": 2, "site": 3, "email": 4, "street": 6, "zip": 9,
         "minors": 12, "geo": 13, "repro": 14, "rights_url": 15,
         "regimes": {
             "FCRA": (16, 17), "GLBA": (18, 19), "IIPPA": (20, 21),
@@ -133,6 +133,8 @@ def parse_file(path, layout):
             "site": _get(row, layout["site"]),
             "email": _get(row, layout["email"]),
             "rights_url": _get(row, layout["rights_url"]),
+            "street": _get(row, layout.get("street")),
+            "zip": _get(row, layout.get("zip")),
             "collects": {
                 "minors": _yes(_get(row, layout["minors"])),
                 "precise_geolocation": _yes(_get(row, layout["geo"])),
@@ -406,6 +408,39 @@ def report(profiles):
         print("      %s" % txt[:130])
     print("  -- %d clusters covering %d rows"
           % (len(shared), sum(len(i) for i, _ in shared)))
+
+    # SAME POSTAL ADDRESS = ALMOST CERTAINLY ONE OPERATION, and this catches
+    # successions the prose and metrics checks miss entirely.
+    #
+    # Yobi Ventures, LLC (yobi.ventures, filings 2020-2023, contact now dead) and
+    # Yobi Ventures, Inc. (yobi.ai, filings 2025-2026, contact live) share a suite
+    # number in New York. Different legal form, different domain, different email,
+    # no shared free text and no overlapping metrics years -- so neither §251 check
+    # would pair them. The street address does, immediately.
+    #
+    # A shared address can also be a registered-agent or coworking address serving
+    # unrelated companies, so this is a lead rather than a conclusion. Treat a
+    # cluster as one operation only when the names or domains also look related.
+    # See §258.
+    def _addr_key(rec):
+        s = re.sub(r"[^a-z0-9]+", "", (rec.get("street") or "").lower())
+        z = re.sub(r"[^0-9]", "", (rec.get("zip") or ""))[:5]
+        return (s, z) if len(s) > 8 and len(z) == 5 else None
+
+    print("\n=== registrant rows sharing a postal address ===")
+    print("  A lead, not a conclusion: registered-agent and coworking addresses")
+    print("  serve unrelated companies. Check the names and domains before pairing.")
+    addr = {}
+    for bid, recs in profiles.items():
+        for r in recs:
+            k = _addr_key(r)
+            if k:
+                addr.setdefault(k, set()).add(bid)
+    shared_addr = sorted((sorted(v), k) for k, v in addr.items() if len(v) > 1)
+    for ids, k in shared_addr:
+        print("  %s" % " + ".join(ids))
+    print("  -- %d clusters covering %d rows"
+          % (len(shared_addr), sum(len(i) for i, _ in shared_addr)))
 
     prose = [bid for bid, recs in profiles.items()
              if any(len(r["notes_practices"]) > 120 for r in recs)]

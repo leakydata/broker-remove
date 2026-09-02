@@ -24139,18 +24139,19 @@
       "source": "ca_data_broker_registry",
       "optery_slug": null,
       "email_to": "admin@yobi.ventures",
-      "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified": false,
+      "email_verified_by": "bounced",
       "registry_years": [
         "2020-2023"
       ],
       "legal_name": null,
       "duplicate_of": "yobi_ai",
       "notes": "Resolves to yobi.ai, the same site as yobi_ai. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the yobi_ai thread rather than opening a second request.",
-      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (see _SILENT_FAILURES 170): filings lapsed and the website does not load, but the domain has LIVE MX -- a maintained mail tenant with no site, the nymblr/minerva shape rather than the Near danger case where a stranger owns the domain. Safe to email, and email is the only channel; say so in the letter so it is not mistaken for skipping a form, and ask them to name an acquirer if the data has moved.",
+      "email_note": "|| 2026-08-29 LAPSED-COHORT SCAN (see _SILENT_FAILURES 170): filings lapsed and the website does not load, but the domain has LIVE MX -- a maintained mail tenant with no site, the nymblr/minerva shape rather than the Near danger case where a stranger owns the domain. Safe to email, and email is the only channel; say so in the letter so it is not mistaken for skipping a form, and ask them to name an acquirer if the data has moved. || 2026-09-02: admin@yobi.ventures hard-bounced. THIS ROW IS A PREDECESSOR of yobi_ai -- Yobi Ventures, Inc. filed 2025 and 2026 at yobi.ai with privacy@yobi.ai, same New York suite. Route requests to yobi_ai. See SILENT_FAILURES 258.",
       "category": "compiler",
       "category_source": "site_classifier 2026-08-30",
-      "listing_basis": "state_register"
+      "listing_basis": "state_register",
+      "email_verified_was": "ca_data_broker_registry"
     },
     {
       "id": "zeotap",

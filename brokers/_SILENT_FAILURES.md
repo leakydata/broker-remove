@@ -17184,3 +17184,67 @@ none, declining it is the more privacy-protective answer.
 
 **Related:** §216 (succession by acquisition); the bankrupt-broker category; §205 (a truthful
 answer about the wrong system); §252 (suppression discloses nothing — now qualified by this).
+
+---
+
+## §258 — the suite number finds what the prose and the numbers miss
+
+A letter went to Yobi Ventures, LLC on the strength of a register row whose filings run
+2020–2023 and then stop. The letter's whole opening argued that a lapsed filing has four possible
+readings and asked which applied.
+
+**The premise was wrong, and the bounce is what led to finding out.** `admin@yobi.ventures` no
+longer exists. Checking the other registry files showed why: the filings do not stop. **Yobi
+Ventures, *Inc.*** filed for 2025 and 2026, at **yobi.ai**, with a live privacy address and a
+published opt-out URL. Same operation, one legal form later.
+
+Neither §251 check would have paired them. Different legal form, different domain, different
+contact address, no shared free text, and metrics years that do not overlap — so there is nothing
+for a prose match or an arithmetic match to catch.
+
+**The street address pairs them instantly.** Both filings give the same suite number in New York.
+
+### What the detector found
+
+Clustering every registrant by normalised street address and postcode gives **93 clusters
+covering 209 rows** — against 29 clusters and 66 rows for the prose-and-metrics method. It finds
+groups the other checks cannot see, including:
+
+- a **seven-row people-search cluster** at one address, spanning several familiar consumer-facing
+  brands that share nothing in their filing text;
+- acquisitions where the acquired brand kept its own filing — an adtech firm and the
+  sales-intelligence company that bought it; a media-monitoring pair; an automotive-data pair;
+- and several three-row groups where a parent and two products each filed separately.
+
+**It is a lead, not a conclusion, and the report says so on its face.** Registered-agent
+addresses and coworking suites serve unrelated companies — one five-row cluster in the output
+pairs a major workforce-data business with credit bureaus that plainly are not affiliated with
+it. The rule is to check that the names or domains also look related before treating a cluster as
+one operation.
+
+### What it was worth in practice
+
+Running the coverage check across all 93 clusters produced **exactly one genuine gap** — a row
+already known and deliberately held back because it is mid-conversation on a sibling's thread and
+needs a web form.
+
+That is the right result and worth stating plainly: **the detector found almost nothing to do,
+which is the outcome that validates the previous months of work.** Its value now is prospective.
+Every new row can be checked against it before a letter is written, and a company that has
+renamed itself between filings will surface at once rather than after a bounce.
+
+### And the honest part
+
+The letter that went out said *"the filings then stop."* They did not. That sentence was drawn
+from a single registry file when three were sitting in the same directory, and §250's rule — read
+the filing before writing the letter — turns out to have an unstated second half:
+
+> **Read *all* the filings. A register row is a snapshot of one year, and a company that has
+> renamed itself appears twice under two names, with the newer row carrying the address that
+> works.**
+
+The bounce was lucky. Had `admin@yobi.ventures` still accepted mail, the letter would have been
+delivered, its premise would have been wrong, and nothing would have corrected it.
+
+**Related:** §250 (read the filing first); §251 (prose and metrics clustering); §216 (succession
+families); §257 (the name and the data going separate ways).
