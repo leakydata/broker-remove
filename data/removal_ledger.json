@@ -685,8 +685,8 @@
     "via": null
   },
   "billtrust": {
-    "status": "submitted",
-    "changed": "2026-08-17",
+    "status": "replied",
+    "changed": "2026-09-02",
     "via": null
   },
   "biointelli": {
@@ -980,8 +980,8 @@
     "via": "email"
   },
   "choreograph": {
-    "status": "submitted",
-    "changed": "2026-08-17",
+    "status": "confirmed",
+    "changed": "2026-09-02",
     "via": "email"
   },
   "chris_holbert": {
@@ -3325,8 +3325,8 @@
     "via": "email"
   },
   "maxmind": {
-    "status": "submitted",
-    "changed": "2026-08-29",
+    "status": "replied",
+    "changed": "2026-09-02",
     "via": "email"
   },
   "mch": {

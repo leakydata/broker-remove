@@ -18741,3 +18741,66 @@ downgrades.
 
 **A merge is not verified by counting what survived. It is verified by writing a value and reading
 it back.**
+
+---
+
+## §276 — strict on disclosure, generous on action: split the ask along the seam
+
+MaxMind has now answered four times, and the fourth answer made me notice that I had been asking
+for the wrong shape of thing.
+
+Their two positions, stated across the exchange:
+
+- **On disclosure, strict.** *"Your question would be a component of a right to know request, which
+  we cannot provide where there's not an applicable legal obligation."* I am a Pennsylvania
+  resident with no comprehensive state statute behind me. That is a correct reading and I am not
+  going to argue a right I do not have.
+- **On action, generous.** *"MaxMind has historically provided deletion and opt-out rights to
+  individuals"* — voluntarily, where no statute compels it.
+
+Those look inconsistent and are not. **Disclosing creates a record and a verification burden that
+acting does not.** A company that tells you what it holds must first be sure you are you, must
+stand behind the completeness of the answer, and must produce something durable and quotable. A
+company that simply *removes* something incurs none of that. Generous-on-action,
+strict-on-disclosure is a defensible posture, and it is probably a common one.
+
+### Which means my request was badly framed
+
+I had asked: *hash these twelve addresses with your own normalisation, and tell me whether a stored
+value exists against any of them.*
+
+That is **two asks welded together** — look, and tell. The telling is the half they decline. The
+looking is the half they had already volunteered to do.
+
+So I unwelded it:
+
+> **Please do not tell me anything. Please just act.** Hash the addresses, delete or suppress any
+> stored value keyed to any of them, and reply only *"the deletion has been applied against the
+> addresses you supplied."* I do not need to know whether anything was found.
+
+That is a deletion request, not a right-to-know request. It sits entirely inside the right they say
+they honour voluntarily, and it discloses nothing — they would be telling me what they *did*, not
+what they *have*.
+
+### The principle underneath, which generalises well beyond this company
+
+**A deletion of something a company declines to look for is not a deletion.**
+
+The remedy they offered is real. It can only reach a record if the search happens. By bundling the
+search with a disclosure they were entitled to refuse, I had made the search refusable too — and
+would have recorded the refusal as a limit on my rights when it was a limit on my drafting.
+
+So the rule for any company that grants remedies but withholds information:
+
+1. **Find the seam.** Which half of the ask are they declining — the act, or the account of it?
+2. **Drop the account.** Ask for the act alone, and say explicitly that no answer about findings is
+   wanted.
+3. **Accept a confirmation that discloses nothing.** *"Applied against the identifiers you
+   supplied"* is a complete answer. It is not evidence that a record existed, and it does not need
+   to be.
+
+This is the mirror of §138's corroboration test. There, the question was which confirmations carry
+information — a confirmation is corroborated only by something only this request could have
+produced. Here the answer is deliberately *uncorroborated*, and that is the point: **I traded the
+evidence for the outcome**, because the outcome is what the user actually wants and the evidence
+was what made it refusable.
