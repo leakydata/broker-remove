@@ -19043,3 +19043,70 @@ That is a better result than the one I was asking for, and it cost two emails.
 right fixes *what the message says*; it does not fix *how many arrive*. Worth one more note, and
 worth remembering that a fix which lands on the visible defect can leave an adjacent one entirely
 alone.
+
+---
+
+## §281 — the nil that explains why it is a nil
+
+Graze Social returned a negative result, and it is the best-constructed answer of the project. It is
+worth setting out in full, because every element is something this file normally has to ask for
+twice.
+
+**It named the identifier searched** — not "we searched our systems" but *"using the identifier
+supplied with the request (…)"*. That one detail is what separates a search from a template.
+
+**It itemised what was absent, by store:** no account, no billing or subscription record, no stored
+personal data. Three stores, named separately, rather than one undifferentiated "nothing found".
+
+**It stated the §138 distinction unprompted:**
+
+> "To be precise about what that means: **no data was deleted, because we hold none matching the
+> identifiers provided.**"
+
+**It logged the search with a dated record**, so the nil is evidenced on their side and not merely
+asserted to me.
+
+### And then the part that has no precedent here
+
+> "The personal data we process about people who are not Graze account holders consists of publicly
+> posted Bluesky content, **keyed by AT Protocol DID and handle.** It is not indexed by name, date of
+> birth or email address, **so an email address alone cannot locate a person within it.**"
+
+Every letter this project sends contains a version of that question — *if your index is keyed to
+something I have not supplied and cannot supply, tell me what it is keyed to; that answer is useful
+even if it means you cannot find me.* Almost nobody answers it. They answered it **without being
+asked**, and then went further and offered the remedy: send a handle or DID and it goes on a
+suppression list that excludes the account from *post ingestion, crawling, feed ranking and
+automated profiling.*
+
+This closes the most dangerous gap in the whole exercise. **A company whose index is keyed to
+something the requester has not supplied can return a completely truthful nil that means nothing,
+and the requester cannot tell.** §205 and §255 are both instances of it. Here the company closed the
+gap on itself, unprompted, and handed over the key that would work.
+
+### The spam-folder disclosure, which nobody had to make
+
+> "your message had been placed in our spam folder by Google's filter. We have corrected that so
+> future correspondence is seen promptly."
+
+Volunteering that was unnecessary and it is the second most useful thing in the message.
+
+**A privacy request that lands in spam produces silence — and silence is indistinguishable from
+refusal from the outside.** I would have recorded them as non-responsive, which is a worse outcome
+than a refusal because it also carries an implied judgement about the company. Neither side would
+ever have learned why.
+
+It is the same asymmetry as the bounce (§266) and the dead register filing (§250): *the failure is
+visible only to the party who cannot see it matters.* But this is the first time anyone has told me
+it happened. It raises an uncomfortable question about the corpus — **how many of the rows recorded
+as "no reply" are letters sitting in a spam folder?** There is no way to find out from here, and the
+answer is certainly not zero.
+
+### What to carry forward
+
+- **A nil is only as good as the account of what was searched.** Named identifier, named stores,
+  and an explicit statement that nothing was deleted *because* nothing was held.
+- **Ask what the index is keyed to, always** — and when a company answers, the follow-up is not an
+  argument but a request for the key that would work.
+- **Non-response is not evidence of anything.** At least some of it is a spam filter, and the
+  recipient cannot see it either.
