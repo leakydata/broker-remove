@@ -18107,3 +18107,86 @@ The test that resolves it, and it is not "is this identifier sensitive":
 nothing to their file and adds everything to my request. If no — a device advertising ID (§260),
 a government identifier — supplying it manufactures the very link the request exists to sever.
 *Same act, opposite meaning, decided entirely by what they already have.*
+
+---
+
+## §268 — the outcome the vocabulary could not express, and so mislabelled five times
+
+The other agent corrected two of my `confirmed` rows, saying the broker's own reply did not support
+the status. It was right about both, and being right about them exposed something larger than two
+bad readings.
+
+**The plain error first**, because it is mine and it is embarrassing in the simplest way. Aged Solar
+Leads replied: *"We have received your request and if we have any of your data it will be removed
+immediately."* That is conditional and future-tense — an undertaking about what would happen if a
+record exists, not a statement that anything was searched or done. I wrote in my own note
+*"conditional but unambiguous as to intent"* and then filed it as **confirmed**.
+
+That is the §248 shape in its purest form: **the note was accurate and the label was not, and the
+label is what the counts are built from.** Nobody reading the summary line would ever see the word
+"conditional."
+
+### But the second correction was not an error, it was a missing word
+
+Media Resource Group said:
+
+> "Based on the information provided, we don't have any information on file **but we have still
+> placed you on our general opt out suppression file.**"
+
+The other agent moved that to `not_found`. That is more defensible than `confirmed` — nothing was
+deleted, because nothing was held. **But it is also lossy**, and in the direction that matters
+most to this project: it throws away the fact that a *prospective* suppression was applied against
+identifiers the company does not currently hold.
+
+This file has argued since §193 and §252 that the suppression is the part that lasts, and that a
+nil result on its own is worthless because the next purchase rebuilds the record. So a nil **plus**
+a forward block is not a lesser outcome than a deletion — *it is arguably the best possible
+outcome*, because there was never a record and now there never will be.
+
+And the status vocabulary had no word for it:
+
+| word | what it asserts | what it gets wrong here |
+|---|---|---|
+| `confirmed` | a removal happened | nothing was removed |
+| `not_found` | they held nothing | discards the only durable part |
+
+Both are false in different directions, so the outcome landed under whichever one the writer
+happened to feel more strongly about. Sweeping for it found **five** `confirmed` rows whose own
+notes say the broker held nothing — Media Resource, Aged Lead Store, Carney Direct, Astoria, and
+the Aged Solar case above.
+
+**Added `suppressed`:** searched, held nothing, applied a forward block anyway. Four rows moved
+into it; the headline `confirmed` count drops from 66 to 61, which is the correct direction for a
+number that was overstating itself.
+
+### Why it had to be added in three files at once
+
+The other agent's commit had just fixed a bug caused by exactly this: `acknowledged`, `replied` and
+`covered_by_sibling` existed in the data but were missing from `sync_status.py`'s `RANK` (so they
+ranked as low as `pending` and an already-answered broker's ledger entry was never adopted) and
+from `queue_batch.py`'s `DONE` set (so those brokers were still offered for a fresh send).
+
+**A new status added in one place reintroduces that bug immediately.** So `suppressed` went into all
+four at once — `tracker.py` STATUSES and TERMINAL_WINS, `sync_status.py` RANK (above `not_found`,
+below `confirmed`: a nil plus a block outranks a bare nil and does not assert a deletion),
+`queue_batch.py` DONE, and `validate.py` TERMINAL, since it settles a broker and therefore needs the
+same unfalsifiable-claim guard as the other two.
+
+§261 said a vocabulary drift between two agents is certain because only one of them has the enum.
+The answer is not to avoid adding words — it is to **add them everywhere the enum is read, in the
+same change.**
+
+### And the coordination fact worth writing down
+
+`data/removal_status.json` is gitignored. It is local to each agent. The shared channel is
+`removal_ledger.json` plus the `brokers/*.md` playbooks.
+
+So when the other agent corrected those two rows, **the correction landed in its status file and in
+the playbooks, and my status file never moved.** I only discovered the disagreement because I read
+its commit message. The ledger still carried `confirmed` for both, because the ledger is written
+from whichever agent last synced.
+
+That is not a bug so much as the shape of the arrangement, but it has a consequence:
+**a status correction by one agent is invisible to the other unless it is written to the playbook.**
+Which the other agent did, and which is the only reason this was recoverable. The playbook is the
+durable channel; the ledger is a cache; the status file is a private opinion.

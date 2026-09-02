@@ -33,6 +33,10 @@ STATUSES = [
     "captcha_blocked",   # blocked: needs a human to solve a CAPTCHA
     "manual_required",   # blocked: needs ID upload, phone call, or postal mail
     "confirmed",         # broker confirmed removal
+    # The outcome the vocabulary had no word for, so it was being filed under
+    # 'confirmed' (asserting a removal that never happened) or 'not_found'
+    # (throwing away the only durable part). See _SILENT_FAILURES §268.
+    "suppressed",        # searched, held nothing, AND applied a forward suppression
     "failed",            # attempted, broker rejected or site broken
     "unreachable",       # site dead / domain parked
     # --- states written by the shared-ledger sync and by the second agent.
@@ -49,7 +53,7 @@ STATUSES = [
 
 # Outcomes that represent real, hard-won progress. Moving away from one of these
 # is almost always an accident (see cmd_set), so it needs an explicit flag.
-TERMINAL_WINS = {"confirmed", "not_found"}
+TERMINAL_WINS = {"confirmed", "not_found", "suppressed"}
 def load(path, default):
     if path.exists():
         return json.loads(path.read_text())

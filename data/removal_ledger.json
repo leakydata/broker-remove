@@ -220,12 +220,12 @@
     "via": "email"
   },
   "aged_lead_store": {
-    "status": "confirmed",
-    "changed": "2026-08-17",
+    "status": "suppressed",
+    "changed": "2026-09-02",
     "via": null
   },
   "aged_solar_leads": {
-    "status": "acknowledged",
+    "status": "submitted",
     "changed": "2026-09-02",
     "via": "email"
   },
@@ -475,8 +475,8 @@
     "via": null
   },
   "astoria": {
-    "status": "confirmed",
-    "changed": "2026-08-28",
+    "status": "suppressed",
+    "changed": "2026-09-02",
     "via": "reply"
   },
   "atdata": {
@@ -915,8 +915,8 @@
     "via": null
   },
   "carney_direct_marketing": {
-    "status": "confirmed",
-    "changed": "2026-08-28",
+    "status": "suppressed",
+    "changed": "2026-09-02",
     "via": "reply"
   },
   "cashmere": {
@@ -1747,7 +1747,7 @@
   "edgein": {
     "status": "manual_required",
     "changed": "2026-09-02",
-    "via": "email"
+    "via": null
   },
   "edvisors_network": {
     "status": "submitted",
@@ -2378,11 +2378,6 @@
     "status": "submitted",
     "changed": "2026-08-27",
     "via": null
-  },
-  "h1bdata_info": {
-    "status": "submitted",
-    "changed": "2026-09-02",
-    "via": "email"
   },
   "harmon_research": {
     "status": "submitted",
@@ -3345,7 +3340,7 @@
     "via": "email"
   },
   "media_resource": {
-    "status": "not_found",
+    "status": "suppressed",
     "changed": "2026-09-02",
     "via": "email"
   },
@@ -4854,11 +4849,6 @@
     "changed": "2026-08-28",
     "via": "web"
   },
-  "salesforce": {
-    "status": "submitted",
-    "changed": "2026-09-02",
-    "via": null
-  },
   "salesgear": {
     "status": "submitted",
     "changed": "2026-09-01",
@@ -5177,7 +5167,7 @@
   "sovrn": {
     "status": "acknowledged",
     "changed": "2026-09-02",
-    "via": "email"
+    "via": null
   },
   "specialists_marketing_services": {
     "status": "not_found",
@@ -5342,11 +5332,6 @@
   "subgraph": {
     "status": "email_pending",
     "changed": "2026-08-31",
-    "via": "email"
-  },
-  "subsplash": {
-    "status": "submitted",
-    "changed": "2026-09-02",
     "via": "email"
   },
   "supplier_io": {
@@ -5815,8 +5800,8 @@
     "via": "email"
   },
   "ventiveiq": {
-    "status": "not_found",
-    "changed": "2026-09-02",
+    "status": "submitted",
+    "changed": "2026-08-31",
     "via": "email"
   },
   "veraset": {
@@ -5969,11 +5954,6 @@
     "changed": "2026-09-02",
     "via": "email"
   },
-  "wealthminder": {
-    "status": "submitted",
-    "changed": "2026-09-02",
-    "via": "email"
-  },
   "webbula": {
     "status": "submitted",
     "changed": "2026-08-20",
@@ -5983,11 +5963,6 @@
     "status": "confirmed",
     "changed": "2026-08-20",
     "via": "reply"
-  },
-  "west_publishing_corp": {
-    "status": "submitted",
-    "changed": "2026-09-02",
-    "via": null
   },
   "west_virginia_arrests": {
     "status": "submitted",

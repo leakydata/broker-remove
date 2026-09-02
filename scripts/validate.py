@@ -418,7 +418,9 @@ def main():
                     f"{_bid}: top-level `note` is older than the last history entry - "
                     "the log advanced and the summary did not")
 
-        TERMINAL = {"not_found", "confirmed"}
+        # 'suppressed' settles a broker exactly as the other two do -- the queue
+        # stops offering it -- so it needs the same unfalsifiable-claim guard.
+        TERMINAL = {"not_found", "confirmed", "suppressed"}
         for bid, rec in state.items():
             if rec.get("status") not in TERMINAL:
                 continue

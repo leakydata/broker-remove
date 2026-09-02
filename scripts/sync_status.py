@@ -78,7 +78,8 @@ ALIASES = ROOT / "data" / "playbook_aliases.json"
 # it. Keep any status added to tracker.py's STATUSES in sync with this list.
 RANK = ["pending", "manual_required", "captcha_blocked", "email_pending",
         "submitted", "acknowledged", "replied", "failed", "unreachable",
-        "still_listed", "gone", "not_found", "confirmed", "covered_by_sibling"]
+        "still_listed", "gone", "not_found", "suppressed", "confirmed",
+        "covered_by_sibling"]
 
 
 def rank(s):

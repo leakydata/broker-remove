@@ -58,7 +58,7 @@ STATE = state("removal_status.json")
 # a reply sitting in it. See the matching RANK gap this had in sync_status.py.
 DONE = {"submitted", "confirmed", "not_found", "unreachable", "email_pending",
         "failed", "manual_required", "captcha_blocked", "acknowledged",
-        "replied", "covered_by_sibling"}
+        "replied", "covered_by_sibling", "suppressed"}
 
 
 def main():

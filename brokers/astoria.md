@@ -7,7 +7,8 @@
 
 ## Status
 
-- Current: `pending`
+- Current: `suppressed` (updated 2026-09-02)
+- **Status corrected 2026-09-02 (§268):** STATUS CORRECTED 2026-09-02 to 'suppressed' (SILENT_FAILURES 268). Astoria Company 2026-08-28 remains one of the best replies of the project and passes the 138 corroboration test on three counts -- but the outcome was a NIL PLUS A SUPPRESSION, not a removal: 'based on the information provided, we were unable to locate a matching consumer record in our active database', followed by 'Astoria has treated this request as a deletion request, opt-out of sale/sharing request, and suppression request'. Nothing was deleted because nothing was found; what makes it a win is the suppression applied anyway
 
 ## Steps
 

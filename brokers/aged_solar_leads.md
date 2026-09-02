@@ -7,7 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-01)
+- Current: `submitted` (updated 2026-09-02)
+- **Status corrected 2026-09-02 (§268):** STATUS CORRECTED 2026-09-02 -- I over-recorded this and the other agent was right to flag it. The reply was 'We have received your request and if we have any of your data it will be removed immediately.' That is CONDITIONAL and FUTURE-TENSE: an undertaking about what would happen if a record exists, not a statement that anything was searched or done. I noted it as 'conditional but unambiguous as to intent' and then filed it as confirmed anyway, which is the 268 error in its plainest form -- the note was accurate and the label was not, and the label is what the counts are built from. Back to su
 - Note: Sent the aged-lead-resale letter (`_CATEGORY_VARIANTS.md`, "Aged lead resale"): asked which buyers received a lead with my information, asked them to direct those buyers to delete it, and asked for the original acquisition source so I'm not simply re-acquired next quarter.
 
 ## Steps

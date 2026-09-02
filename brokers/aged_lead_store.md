@@ -7,6 +7,11 @@
   address published in public broker directories.
 - **Priority: 2.**
 
+## Status
+
+- Current: `suppressed` (updated 2026-09-02)
+- **Status corrected 2026-09-02 (§268):** STATUS CORRECTED 2026-09-02 to the new 'suppressed' status (SILENT_FAILURES 268). The note already recorded the shape precisely: 'no record existed, and they added a forward suppression entry so future data cannot enter their database.' That is a nil result plus a prospective block -- not a confirmed removal, since there was nothing to remove, and not a bare not_found, since the durable half was actually applied. Reached by email despite an initial written refusal of the channel.
+
 ## The forms exclude most of the country
 
 Their **Data Deletion Request Form** has a **required** State field driven by a
