@@ -18866,3 +18866,55 @@ wrong depending on which direction it moves the blast radius.* Here it shrinks i
    the people who share their name.
 
 None of that is discoverable from outside. All of it decides whether the removal is real.
+
+---
+
+## §278 — one platform, six tenants, and the confirmation quality is a setting
+
+Six companies in this corpus answer through the same shared privacy-request platform. Lining up
+what each one's completion notice actually said turns a vague impression into a measurement:
+
+| tenant | what the confirmation said |
+|---|---|
+| A | *"your right to erasure request has been completed"* + separately *"your right to opt-out of data sales request has been completed"* |
+| B | *"[Company] has received and **fulfilled** your Right to Erasure request"* — names company and right |
+| C | *"right to opt out has been completed"* / *"right to deletion has been completed"* |
+| D | *"we were unable to find any matching records given the information provided in your right to…"* — **states a nil** |
+| E | entire body: *"Dear Data Subject, https://trustsuperset.com, Best regards, Your P…"* — broken |
+| F | *"your request to exercise your right has been completed"* — **names no right at all** |
+
+The same vendor, in the same month, produced all six.
+
+**So confirmation quality is a tenant configuration, not a vendor ceiling.** Tenant D's message is
+the important one: it distinguishes *records found and deleted* from *searched and found nothing* —
+which is exactly the §138 distinction this file has been asking a thousand companies to make. The
+platform can express it. Most of its tenants have not switched it on.
+
+That changes what to ask for. Requesting an informative confirmation from a company on this
+platform is **asking them to change a setting, not to build something** — and saying so makes the
+request much harder to decline politely.
+
+### And I got it wrong first, in a letter, again
+
+My follow-up to tenant F speculated that *"the template cannot say which right it is confirming."*
+I had six examples in my own notes and did not look at them before asserting. Four of the six
+contradict it flatly.
+
+This is §267a's failure repeating four days later: **the answer was already in my own record, and I
+reasoned from the single case in front of me instead of reading back.** The rule I adopted then —
+*before writing a new claim, grep the notes for it* — I applied to writing up findings, and not to
+writing letters. It belongs in both.
+
+Sent a correction within the hour. It is a better letter than the one it corrects, because *"other
+tenants of your platform already do this"* is concrete where *"your template cannot"* was a guess —
+and it happens to make the request smaller.
+
+### The general point, which is worth more than the correction
+
+**Where several companies answer through one vendor, the vendor is the failure surface.** A
+template deficiency propagates to every tenant, and a template improvement would too. Six brokers'
+worth of uninformative confirmations trace to one configuration screen.
+
+It also means the corpus can measure something no single exchange can: *when the same platform
+produces both a good answer and a bad one, the difference is the company, not the tooling* — which
+removes the most common excuse for a bad one.
