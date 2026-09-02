@@ -78,13 +78,37 @@ it mean something:
      the marketing database, and neither is the whole answer. Naming the systems
      costs you a sentence and tells me what the result actually covers.
 
-  3. WHETHER THE SUPPRESSION IS KEYED TO ME OR TO THE IDENTIFIERS I SENT. If your
-     system builds results on demand rather than storing a record, then a
-     suppression cannot attach to "my record" -- it can only attach to the keys I
+  3. WHAT FIELDS THE SUPPRESSION JOINS ON. Not whether it was applied -- what the
+     KEY IS. This is the single most useful thing you can tell me and almost
+     nobody does, because it decides whether the protection holds or quietly
+     lapses, and it cannot be worked out from outside.
+
+     One company answered it plainly: "exact match but not case sensitive, and we
+     join on first name, last name, city, and state." That one sentence showed the
+     entry did two things neither of us had realised. It DID NOT FOLLOW THE PERSON
+     -- a key containing a city stops matching the moment they move, and nobody is
+     told. And it was WIDER THAN THE PERSON -- the same key matches anyone sharing
+     that name in that town.
+
+     So, if you can:
+
+       (a) Which fields does the match use, and is the name match exact-string? If
+           it is, every alias I listed is a separate key and I would ask you to
+           add each one.
+       (b) Does the key contain a location? If so the suppression is keyed to me
+           AT THESE ADDRESSES, and my address history above is not a search aid --
+           it is the suppression, and any town missing from it is a hole.
+       (c) Can a discriminator be added -- date of birth, or year of birth alone?
+           I am offering mine NOT to identify me but to keep the suppression from
+           catching a stranger who shares my name. If the join is fixed and cannot
+           take another field, please apply it as it stands; I would rather have
+           the protection and know its cost than not have it.
+
+     And if your system builds results on demand rather than storing a record,
+     then a suppression cannot attach to "my record" at all -- only to the keys I
      supplied, and anything outside that set is not suppressed but merely
-     un-searched. That matters because somebody looking me up does not search my
-     current address; they search the one they have. If that is how your system
-     works, please apply the suppression across every identifier listed above.
+     un-searched. Somebody looking me up does not search my current address; they
+     search the one they have.
 
 {cap_block}
 

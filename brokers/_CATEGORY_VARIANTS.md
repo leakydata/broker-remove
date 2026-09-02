@@ -3580,3 +3580,70 @@ exists at all rather than anything written in it.
 
 Exercise § 1798.121 (limit use and disclosure) alongside deletion, and say why: the ordinary
 deletion request treats the record as contact data, and this one is not.
+
+---
+
+## The service provider that redirects you to a party only it can identify
+
+**Applies to:** payment and order-to-cash platforms · accounts-receivable and invoicing software ·
+CRM and marketing-automation vendors · fulfilment, logistics and print vendors · anything sold
+*to businesses* that processes records about those businesses' customers.
+
+The reply to expect is a three-part sentence, and it is worth taking apart because two thirds of
+it is usually correct:
+
+> "As a B2B service provider, we do not engage directly with individual consumers and do not
+> control the personal information involved in these transactions. Please contact the business
+> associated with your transaction. Accordingly, this request falls outside our scope and this case
+> will now be considered closed."
+
+**Part one — "we do not engage directly with consumers."** True, and it points the wrong way. The
+statutory definition of a data broker turns precisely on selling information about people the
+business has *no direct relationship* with. And the **CCPA's business-to-business exemption expired
+on 1 January 2023**; the GDPR never had one. Do not let this be the load-bearing sentence.
+
+**Part two — "we do not control the personal information."** *Usually true, and accept it.* A
+processor cannot delete a controller's records at a stranger's request, and a vendor that did so
+would be doing something worse than refusing. Saying this plainly costs nothing and makes the rest
+of the letter credible.
+
+But it does not close the request. **Cal. Civ. Code § 1798.140(ag) and CPPA regs §§ 7050–7051
+require a service provider to *assist* the business in responding to consumer requests** — by
+forwarding, or by acting on the business's instruction. The duty is not to decide the request. It
+is not to be the place it stops.
+
+**Part three — "contact the business you transacted with."** This is the part to refuse, and the
+reason is not legal but practical:
+
+> **The requester cannot identify that business. The vendor can.**
+
+No invoice names the seller's accounts-receivable software. No mailing names the print vendor. So
+the instruction resolves to *"guess, from a list only we can see, which of your counterparties uses
+us."* A redirection to a party only the redirector can identify **ends the request while appearing
+to continue it** — and it looks helpful, which is why it works.
+
+### Offer three closures, and take any of them
+
+Naming acceptable outcomes converts a refusal into a choice:
+
+1. **Name the client instance** whose records match. Best outcome, least work for them.
+2. **Forward the request** and confirm they have, without naming the client. The requester loses
+   follow-up but the request reaches the controller.
+3. **State that a search across client instances returned nothing.** A complete answer, and it
+   costs them one query.
+
+What cannot be accepted is a closure that **neither searched nor forwarded** — which is what the
+default reply is.
+
+### The store their reply will not reach
+
+Order-to-cash and credit platforms usually mention *credit applications* somewhere in their own
+description. That is a different store from payment transactions and it is the one that holds
+consumer data:
+
+**A trade credit application routinely names a natural person** — owner, officer, or personal
+guarantor — with home address, date of birth, and a personal guarantee. Being told to "contact the
+financial institution that issued your card" cannot reach it, because no card was involved.
+
+Ask about guarantor and trade-reference records **by name and as a separate search**. A query
+against the transaction store will not touch them.
