@@ -135,7 +135,7 @@
     "via": null
   },
   "address_scoop": {
-    "status": "submitted",
+    "status": "confirmed",
     "changed": "2026-09-02",
     "via": "email"
   },
@@ -1330,9 +1330,9 @@
     "via": "email"
   },
   "data_decisions": {
-    "status": "submitted",
-    "changed": "2026-08-28",
-    "via": null
+    "status": "replied",
+    "changed": "2026-09-02",
+    "via": "email"
   },
   "data_delivers": {
     "status": "submitted",
@@ -4725,9 +4725,9 @@
     "via": null
   },
   "round_sky": {
-    "status": "submitted",
-    "changed": "2026-08-20",
-    "via": null
+    "status": "not_found",
+    "changed": "2026-09-02",
+    "via": "email"
   },
   "s_p_global": {
     "status": "submitted",
@@ -5960,8 +5960,8 @@
     "via": null
   },
   "wyty": {
-    "status": "acknowledged",
-    "changed": "2026-09-01",
+    "status": "confirmed",
+    "changed": "2026-09-02",
     "via": "email"
   },
   "x_mode_social": {
