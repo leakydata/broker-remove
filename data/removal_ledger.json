@@ -1730,7 +1730,7 @@
     "via": "web"
   },
   "edgein": {
-    "status": "submitted",
+    "status": "manual_required",
     "changed": "2026-09-02",
     "via": null
   },
@@ -4833,6 +4833,11 @@
     "status": "submitted",
     "changed": "2026-09-01",
     "via": "email"
+  },
+  "salesgear_io": {
+    "status": "submitted",
+    "changed": "2026-09-02",
+    "via": null
   },
   "salesintel": {
     "status": "replied",

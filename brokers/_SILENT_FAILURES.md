@@ -17850,8 +17850,7 @@ the inside it is the sales enquiry page and it works fine.
   find out, and it is the most valuable thing in the letter regardless of what they do about my
   request.
 - **Look for a same-name mailbox on the domain the site actually runs on.** `mentibus.com` was
-  almost certainly a legacy or defensive registration; the working domain carried the same local
-  part.
+  almost certainly a legacy or defensive registration. *This did not work here* — see below.
 - **A negative from one probe is not an absence.** My port-25 test used IPv4 because that is what
   this machine has, and I read "no answer from the transport I can speak" as "no mail host." The
   bounce report already contained the correct answer and I wrote past it. §263 said a detector
@@ -17914,3 +17913,115 @@ The tool prints one more line, at the bottom, where the number is:
 > successful send shows that.`
 
 Which is §236, restated where it will actually be read rather than in a note on a row.
+
+### §266b — all three of them, and the praise needs qualifying
+
+The entry above was written after one bounce. By the end of the night there were four.
+
+| Address | Published in | Result |
+|---|---|---|
+| `privacy@mentibus.com` | Privacy Policy **and** GDPR Notice | 550 No Such User Here |
+| `privacy@mentibus.xyz` | my guess, on the working domain | 550 5.1.1, address not found |
+| `policy@mentibus.com` | Terms of Use | 550 No Such User Here |
+
+**Two different mailboxes, named across three legal documents, and neither exists.** The server is
+live — it answers over IPv6 and refuses each recipient by name. These are missing aliases, not a
+broken domain, which makes the fix smaller and the omission harder to explain.
+
+Four letters bounced, including the correction I sent to fix my own wrong diagnosis. **They have
+seen none of it**, including the part telling them their contact addresses are dead.
+
+This forces a qualification on §264, where I named Mentibus one of three companies in a cohort of
+1,252 whose privacy disclosure does the job properly. That assessment of the *document* stands —
+it names the non-user profile data first, gives sources, states legitimate interest honestly, and
+publishes an objection route. But the entry treated a well-drafted policy as a good outcome, and
+it is not one on its own:
+
+**A rights channel is a claim about infrastructure, and I graded it as a claim about intent.**
+
+The infrastructure half is the half nobody checks, including me until it bounced. The three
+properties in §264 need a fourth, and it is not optional:
+
+4. **The address in the policy has to accept mail.** Everything above it is worthless without it,
+   and it is the one property that can be verified in four seconds by anyone, at any time,
+   including the company itself.
+
+The remaining route is the contact form, and it is queued for a human rather than taken, because
+it requires business email, phone, company and job title and carries a checkbox reading *"Create
+my Mentibus profile automatically."* A request to remove a profile should not have to begin by
+supplying one.
+
+**Status set to `manual_required`, not `unreachable`.** The distinction matters: a route exists,
+it is just not one I should take unilaterally. Recording it as unreachable would file the row
+under "nothing more to do" when what is true is "one thing to do, and a person has to decide."
+
+
+---
+
+## §267 — the address book is a broker's intake, and the people in it cannot consent
+
+Salesgear's privacy policy discloses this plainly, to its credit:
+
+> "When you use the Software provided by the company, you allow Salesgear to access information in
+> your email client and address book. We collect and store the email date, subject, recipients of
+> mails and content…"
+
+Read from the account holder's side that is a normal integration notice. Read from the other side
+it is something else:
+
+**A person who has never heard of the company can be in the company's data, because somebody they
+once emailed installed a plugin.**
+
+The disclosure is addressed to the customer, and the customer consents. But the data collected is
+substantially *about the people in their address book* — third parties to the entire arrangement,
+who were never asked, and who have no way of discovering which of their correspondents over
+twenty years connected which tool.
+
+### Why this is a different failure from the ones already in this file
+
+Most entries here are about a route that fails: a bounced address (§266), a gate that excludes
+its own population (§260), a policy silent about the product (§262). This one is about a route
+that works perfectly and is invisible from the outside.
+
+- **There is no site to check.** The subject never visits, never searches, never appears in a
+  public listing. Nothing is published.
+- **There is no signal of any kind** until an unexpected, oddly well-informed cold email arrives —
+  and by then the profiling has already happened. *The only notice the data subject receives is
+  the harm itself.*
+- **It defeats enumeration.** My whole method is working through registers and directories of
+  companies that hold data. This vector puts a person into companies **selected by other people's
+  software choices**, which no register lists and no directory can predict.
+
+The practical consequence for the request: **ask for the mailbox-ingested store to be searched
+separately.** It is a different store, populated by a different route, and a query against the
+prospect database will not touch it. I have not been asking for this, and should have been.
+
+And the identifier that matters there is not the current one. An address book keeps whatever
+address a contact had when the entry was created, so **the closed university mailbox is the
+likeliest hit** — the same lesson as §254, arriving through a completely different door.
+
+### The second finding: "we cannot do anything" understates the duty
+
+The same policy says, of removal:
+
+> "We cannot do anything if your data has already been disclosed to our customers."
+
+The practical claim is largely true — a vendor cannot reach into a customer's CRM and delete a
+row, and I would not ask them to pretend otherwise.
+
+But the statutory duty is not framed as an outcome. **§ 1798.105(c) requires a business to notify
+and direct its service providers and third parties to delete**, and Article 17(2) requires
+reasonable steps to inform others processing the data. *The obligation is to send the instruction,
+not to guarantee compliance with it.*
+
+So the sentence tells a consumer that nothing at all can be done, at the exact point where the one
+thing that can be done is the thing the law requires. It is an overstatement of the limit **in the
+company's own disfavour** — they are disclaiming an ability they have and a duty they hold.
+
+I offered them the honest fallback explicitly: *"if your architecture makes it impossible to
+identify which customers received a particular contact, please say so plainly — that is a
+meaningful answer, and it is different from 'we cannot do anything.'"* Those two sentences sound
+alike and are not: one is a limit of engineering, the other is a refusal of a statutory step.
+
+**Look for this sentence in policies.** It is short, it sounds like candour, and it forecloses the
+one remedy that reaches data already gone out the door.
