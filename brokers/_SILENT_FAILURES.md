@@ -18804,3 +18804,65 @@ information — a confirmation is corroborated only by something only this reque
 produced. Here the answer is deliberately *uncorroborated*, and that is the point: **I traded the
 evidence for the outcome**, because the outcome is what the user actually wants and the evidence
 was what made it refusable.
+
+---
+
+## §277 — the suppression key is not a person, and only one company would say so
+
+§193 argued that a live-compile suppression is only as wide as its key set. Wyty answered the
+question directly, and the answer is more specific — and more alarming — than the general form:
+
+> "It is exact match but not case sensitive. Also, **we join on first name, last name, city, and
+> state.**"
+
+Almost nobody will tell you this. I have asked more than a thousand companies what their
+suppression is keyed to; a handful have answered at all, and this is the first to name the fields.
+
+### What a four-field key actually does
+
+**It does not follow the person.** The entry protects *[the subject's name] in these towns.* Move house, and
+a record built under the new city matches no key the company holds. The suppression does not fail —
+it simply stops describing where the person is, and **nobody is told.** A protection that lapses on
+a change of address, silently, is not obviously different from one that was never applied, and the
+person has no way to detect either.
+
+That is why their own observation — *"some of the addresses don't have a city or state, please
+correct and re-send"* — turned out to be the important sentence. **The address history is not a
+search aid here. It is the suppression.** Sixteen towns, sixteen keys, and any one missing is a hole.
+
+**And it is wider than the person.** A key of `(first, last, city, state)` matches *any* person
+sharing that first and last name in the same town -- and the subject's is among the commonest name
+combinations in the country. Across sixteen towns and thirty years the chance that no namesake
+exists in any of them is not good.
+
+So the same disclosure that shows the suppression is too narrow in time shows it is too broad in
+population. **Under-protects me, over-reaches onto strangers** — from one join clause.
+
+### The part that had to be said rather than banked
+
+A suppression that catches a namesake is a benefit to me and an unrequested alteration of somebody
+else's listing. They did not ask, they will never be told, and if they later search for themselves
+and find nothing they cannot discover why.
+
+The standing position in every letter this project sends is that I would rather remain findable
+than have a stranger suppressed on my account. Applying that here meant **telling Wyty their key is
+too coarse**, offering a date of birth *specifically so the suppression would catch fewer people*,
+and saying that if the join cannot take a fifth field I still want it — with the cost recorded
+rather than accidental.
+
+Offering an identifier to **narrow** a suppression is the exact inverse of the usual reason to
+withhold one (§260, §269a: supplying an identifier manufactures a link). *The same act is right or
+wrong depending on which direction it moves the blast radius.* Here it shrinks it, so it is right.
+
+### What to ask everyone, now that one company has shown the question is answerable
+
+1. **What fields does the suppression join on?** Not "is it suppressed" — *what is the key.*
+2. **Does it survive a change of address?** If the key contains a location, the answer is no, and
+   the person needs to re-file every time they move — which nobody tells them.
+3. **Is the name match exact-string?** If so, every alias is a separate key and must be listed
+   separately. Wyty's "exact match but not case sensitive" means a middle initial and a spelled-out
+   middle name are two different entries, and a suppression filed under one does not cover the other.
+4. **Can a discriminator be added?** Not to identify the requester — to keep the suppression off
+   the people who share their name.
+
+None of that is discoverable from outside. All of it decides whether the removal is real.
