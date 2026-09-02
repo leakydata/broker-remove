@@ -19110,3 +19110,63 @@ answer is certainly not zero.
   argument but a request for the key that would work.
 - **Non-response is not evidence of anything.** At least some of it is a spam filter, and the
   recipient cannot see it either.
+
+---
+
+## §282 — nine hundred and forty-eight silences, and none of them means anything yet
+
+§281 ended on a worry: a company told me my letter had been sitting in their spam folder, which
+raised the question of **how many rows recorded as "no reply" are letters nobody ever saw.**
+
+The obvious next move was to look for evidence of that. The first check dissolved most of the
+question, and it was one line of arithmetic: *how old are the unanswered requests?*
+
+```
+awaiting a response: 958 row(s), as at 2026-09-02
+  still inside every period               958
+
+Nothing is chaseable yet -- the oldest request is 18 days old.
+The earliest rows reach the 45-day mark on 2026-09-29.
+```
+
+**Every unanswered request in the corpus is younger than every applicable response period.** CCPA
+allows 45 days (extendable once by a further 45); the GDPR allows one month. The oldest letter went
+out 18 days ago.
+
+So the 948 silences are not evidence of anything at all. They are not refusals, not spam-filtered,
+not ignored — they are **young**. And I had begun to reason about them as though they were a
+problem to investigate.
+
+### The failure was mine and it is a specific one
+
+A real finding — *silence can mean a spam folder* — generated a general suspicion about a large
+population, and I did not check whether that population was even eligible for suspicion. The spam
+disclosure was true and worth recording. **The inference I hung on it was not supported by anything,
+and the check that tested it took thirty seconds.**
+
+It is the same shape as §268a, where a sweep flagged 46 of 61 rows and reading the whole history
+returned zero: *a plausible worry, a large number attached to it, and no check on whether the number
+meant what I was reading into it.* The difference is that this time nothing was sent and no company
+was troubled — the cost was only that I nearly built a spam-diagnosis tool for a problem that has
+not arrived.
+
+### What got built instead
+
+`scripts/deadlines.py`, which answers the question I actually needed: **which requests are old
+enough to chase.** Today the answer is none, and it says so plainly rather than printing an empty
+list that could be misread as an error.
+
+Two cautions are compiled into the output rather than left to memory, because getting either wrong
+would mean accusing companies of breaches they have not committed:
+
+- **The subject is a Pennsylvania resident and PA has no comprehensive statute.** The 45-day period
+  is not a deadline this requester can enforce — it is the period the company would apply to a
+  Californian, and which many have said in writing they apply to everyone. The tool says *"past the
+  period"* and never *"in breach"*.
+- **The clock runs from receipt, not from sending.** A letter that bounced or sat in a spam folder
+  has no clock at all, and §281 is cited in the output as the reason.
+
+The first genuinely chaseable rows arrive on **29 September**. Until then, non-response is the
+expected state and the right action is to keep working the queue rather than to chase.
+
+**A number is not a finding until you know what it would look like if nothing were wrong.**
