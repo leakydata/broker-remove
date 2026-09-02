@@ -834,6 +834,11 @@
     "changed": "2026-08-25",
     "via": null
   },
+  "buyersroad": {
+    "status": "submitted",
+    "changed": "2026-09-02",
+    "via": null
+  },
   "cadent": {
     "status": "submitted",
     "changed": "2026-08-17",
@@ -1988,6 +1993,11 @@
     "status": "confirmed",
     "changed": "2026-08-19",
     "via": "email"
+  },
+  "findlaw": {
+    "status": "submitted",
+    "changed": "2026-09-02",
+    "via": null
   },
   "findpeoplefast_net": {
     "status": "manual_required",
