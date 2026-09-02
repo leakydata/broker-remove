@@ -579,6 +579,11 @@
     "changed": "2026-09-01",
     "via": "email"
   },
+  "b2bhint": {
+    "status": "submitted",
+    "changed": "2026-09-02",
+    "via": null
+  },
   "b_i_science_2009": {
     "status": "submitted",
     "changed": "2026-08-25",
@@ -5418,6 +5423,11 @@
     "status": "submitted",
     "changed": "2026-08-31",
     "via": "email"
+  },
+  "thisnumber_com": {
+    "status": "submitted",
+    "changed": "2026-09-02",
+    "via": null
   },
   "thomson_reuters": {
     "status": "submitted",

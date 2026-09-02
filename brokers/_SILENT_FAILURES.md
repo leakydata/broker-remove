@@ -17473,3 +17473,177 @@ Part 1 fixes today's vocabulary. Part 2 fixes the next drift, which is certain �
 this file and only one of them has the enum. **Any per-category breakdown of a total should be
 made to prove it adds up**, because the failure mode is not a wrong number, it is a number that
 looks right and is quietly incomplete.
+
+---
+
+## §262 — the privacy policy is about the wrong data subject
+
+Two companies in one hour, found independently, with the same structure.
+
+**ThisNumber.com** operates an international reverse phone lookup. Its privacy policy — last
+revised **29 September 2018** — runs to some 17,000 characters and is genuinely careful. It
+covers cookies, Google Analytics, IP anonymisation, DoubleClick, Cloudflare, retention of comment
+metadata, and the rights of a "Data Subject."
+
+It mentions **the phone listings nowhere.** Not their sources, not their retention, not who they
+are shared with, and not how a person named in one has it removed. Searched for *directory*,
+*listing*, *phone number*, *source*, *remove*, *California*, *CCPA*: nothing on the product, and
+every hit on *delete* and *opt-out* is about advertising cookies.
+
+**B2BHint** republishes officers, owners and court cases from 185 government company registers,
+with screening, list matching, lender-exposure and bulk export on top. Its policy opens: *"one of
+our main priorities is the privacy of our visitors."* It recites GDPR and CCPA rights carefully.
+The officers and owners appear **nowhere** — no sources, no retention, no lawful basis, no route
+for a named person to ask anything.
+
+In both cases:
+
+**The policy governs the visitor doing the lookup. It is silent about the person being looked
+up.** And only one of those two chose to be involved.
+
+### Why this is a silent failure and not just untidy drafting
+
+The asymmetry is the whole point. A visitor arrived voluntarily, can leave, and is the party the
+template was written for. **The person in the listing never chose anything, cannot leave, and in
+most cases does not know the listing exists.** The entire subject matter of the business is
+absent from the only document that describes how the business handles personal data.
+
+I do not think it is usually deliberate. The mechanism is visible in the text: these policies are
+assembled from a boilerplate built around *website analytics*, and the dataset that **is the
+product** is not what the boilerplate is about, so it never gets written in. The company's own
+compliance artifact is about its least important data relationship.
+
+### The operational consequence, which is mine
+
+My standard fallback ask, used in perhaps two hundred letters, is:
+
+> "If you believe you are not subject to these statutes, I ask that you honor this request as a
+> matter of your published privacy policy."
+
+That ask depends on the policy containing a commitment that reaches the requester. **Where the
+policy is about visitors only, there is nothing to appeal to.** The fallback silently degrades
+into a request for a favour — and against a company outside CCPA's reach, the fallback was the
+whole argument.
+
+So the check has to happen *before* the letter: **read the policy for whether it describes the
+product data at all**, and if it does not, find a different anchor.
+
+### The anchor that worked, both times
+
+Both policies, while ignoring the product, made a general declaration that reaches it anyway.
+
+ThisNumber: *"ThisNumber.com is the Data Controller of your personal data provided to, or
+collected by or for, or processed in connection with, our Service."* Data collected **for** and
+processed **in connection with** the Service plainly includes the directory — the listings are
+not incidental to the Service, they *are* the Service. The company has declared itself controller
+of the listing data in its own words, and the controller duties its own policy then recites —
+erasure, rectification, objection, and access *including the source* — attach without my having
+to establish which statute binds an international site of unknown establishment.
+
+B2BHint recites the full GDPR rights list for "every user," and separately claims every record is
+*"sourced from an official government register — and cited to it."*
+
+**A boilerplate policy is drafted to be broad, and breadth is the lever.** A template that says
+"your personal data" and "our Service" without qualifying which data or whose, has committed to
+more than its author was thinking about. That is the opposite of the usual problem, and it is
+worth looking for specifically: *where the policy ignores the product, quote the widest sentence
+in it back.*
+
+### What to carry forward
+
+- **Before writing, check whether the policy mentions the product data at all.** If it does not,
+  do not rely on the published-policy fallback — it has nothing to attach to.
+- **Then quote the broadest general clause in the policy back at them.** A visitor-shaped
+  template usually claims controllership over "your personal data" without limit; the product
+  data is inside that sentence whether or not anyone intended it.
+- **Tell them about the gap.** Both letters did, framed as an observation rather than a charge.
+  A missing removal route means the requests a company receives are only from the small fraction
+  of people persistent enough to hunt for an address — *and it never hears from the rest*, which
+  is exactly why the gap survives.
+
+---
+
+## §263 — the removal route exists, and the document that must describe it does not mention it
+
+§262 came from two companies read by hand. I turned the test into a scan —
+`scripts/policy_scope_scan.py` — and ran it over the people-search cohort: fetch each site's
+privacy policy, and check whether the text says (a) **where the product data comes from** and
+(b) **how a person in it gets out.**
+
+Of 60 rows, 43 policies were reachable and readable. The first result was going to be the entry:
+
+> **33 of 43 — 77% — contain no removal, opt-out, suppression or "do not sell" language at
+> all.** They name the source freely: *"public records"*, *"source of the information"*,
+> *"we receive from"*, *"publicly available records"*, *"data providers"*. The justification for
+> holding the data is in the document. The way out is not.
+
+Then I checked the obvious thing before writing it down, and the finding changed.
+
+**All 33 have a working removal route. Every single one.** It just lives somewhere else — an
+`/optout/` page, a suppression form, a privacy centre. Nothing is missing from the *site*.
+
+So the honest claim is narrower and, I think, more interesting:
+
+**The route out exists. The one document a person is directed to for their rights does not
+mention it.**
+
+That is not a technicality. CCPA § 1798.130(a)(5) requires the privacy policy to describe
+consumers' rights *and the methods for submitting requests*. GDPR Arts 13–14 require the same,
+and Art 14 applies precisely to data **not obtained from the data subject** — which is the entire
+inventory of a people-search site. The policy is not an incidental page. It is the designated
+place. A person who reads it end to end and concludes there is no way out has read the document
+correctly and reached the wrong answer.
+
+### And for 14 of them, the exit is on a different domain
+
+The scan prints this separately because it is the sharper version:
+
+```
+411_com                        -> whitepages.com/suppression-requests
+alabama_arrests                -> infotracer.com/optout/
+criminaldatacheck              -> intelius.com/privacy-center
+connected_investors            -> firstam.service-now.com/x_farf2_dp_request_...
+arrestwarrant_org              -> ms.arrestwarrant.org/InfoPayOpt-OutNew.pdf
+```
+
+To get out of `alabamaarrests.org`, a person must leave the policy, leave the site, arrive at a
+company whose name appears nowhere on the page that published their arrest record, and trust that
+it governs. **Each hop loses people**, and the operator never learns how many, because *nobody
+who gives up at hop two writes to say so* — the same invisibility that keeps register filings
+stale (§250) and verified addresses rotting (§236).
+
+### The methodological part, which is the reason this entry exists
+
+My scan measured **absence in one document.** The sentence I nearly wrote reported **absence
+overall.**
+
+That is precisely §258 again — the Yobi letter asserted "the filings then stop" from one registry
+file when three sat in the same directory — and §236, where I asserted what a company did from my
+own classifier rather than from the company's own page. Three times now, the same shape: *a tool
+looked in one place, and I let its silence stand for the world's.*
+
+The difference this time is that the check was one line of code, because the corpus already holds
+`optout_url` for every row. So the fix is not "be careful"; it is structural, and it is in the
+tool now:
+
+```python
+silent = [r for r in out if r.get("url") and not r.get("exit")]
+elsewhere = [r for r in silent if by_id.get(r["id"], {}).get("optout_url")]
+print(f"  a removal route is on record elsewhere for {len(elsewhere)} of them"
+      f" -- so this measures what the POLICY omits, not what the SITE lacks")
+```
+
+**A detector that reports an absence must, in the same breath, report what it did not look at.**
+Not in a comment, not in the README — in the output, next to the number, where the person reading
+the number cannot miss it. The stranded case is printed too, so a genuine "no route anywhere"
+would still be visible rather than buried in the 33.
+
+### What to carry forward
+
+- **Check the policy before leaning on it.** For a people-search site the published policy is
+  unlikely to name the removal route even though one exists; cite the route itself, not the
+  policy's description of it.
+- **When a route lives on another domain, say so in the letter.** It is a real usability defect
+  the operator can fix and probably cannot see.
+- **When any scan reports "X of Y lack a thing", make the scan itself name the places it did not
+  look.** The claim that survives is always narrower than the claim the raw count supports.

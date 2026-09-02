@@ -20,3 +20,4 @@ data/handoff_queue.json
 # derived rows and the script are enough for reproducibility without this repo
 # republishing the bulk file.
 data/registries/*.csv
+data/policy_scope_*.json
