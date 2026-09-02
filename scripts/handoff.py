@@ -67,6 +67,25 @@ def now():
 
 
 def cmd_add(a):
+    # A queued item is read days later by someone who does not have the session
+    # that staged it. Steps written as "already filled in the open tab" are worse
+    # than useless then: the URL opens an empty form and the note says the work is
+    # already done. Thirteen items broke this rule while the rule was in the
+    # docstring above. Refuse them at the point of writing, where the fix is free.
+    # See _SILENT_FAILURES 283.
+    _STALE = ("open tab", "already open", "open in chrome", "fully filled",
+              "already filled", "already prefilled", "tab is open",
+              "tab is staged", "in the open tab")
+    _steps = (a.steps or "").lower()
+    if any(t in _steps for t in _STALE) and "if the tab is gone" not in _steps:
+        sys.exit(
+            "refusing: these steps assume a browser tab that will not exist when "
+            "someone reads them.\n"
+            "  Write the field VALUES to enter, not 'already filled'.\n"
+            "  If the item does describe a live tab AND also carries the values, "
+            "include the words\n  'IF THE TAB IS GONE' and it will be accepted. "
+            "See _SILENT_FAILURES 283.")
+
     q = load()
     q["open"] = [e for e in q["open"] if e["broker"] != a.broker]
     q["open"].append({

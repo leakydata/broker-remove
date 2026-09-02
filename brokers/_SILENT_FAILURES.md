@@ -19170,3 +19170,63 @@ The first genuinely chaseable rows arrive on **29 September**. Until then, non-r
 expected state and the right action is to keep working the queue rather than to chase.
 
 **A number is not a finding until you know what it would look like if nothing were wrong.**
+
+---
+
+## §283 — thirteen queued items that described a browser tab which no longer exists
+
+`handoff.py` has carried this in its docstring since it was written:
+
+> "Each entry stands on its own: broker, URL, and exactly what to do. **It does NOT depend on a
+> browser tab still being open, because tabs do not survive the wait.**"
+
+Reviewing the 22 CAPTCHA items in the queue, thirteen of them do exactly that:
+
+> *"Form is FULLY staged in the open tab: [name] / [email] / [phone] / [zip], SIX rights ticked…"*
+> *"FORM IS ALREADY FILLED IN THE OPEN TAB — tick the reCAPTCHA and submit."*
+> *"FULLY FILLED AND VERIFIED IN THE OPEN TAB — type the distorted CAPTCHA code and submit."*
+
+Every one was true when written. The session ended days ago. **Opening the URL now gives an empty
+form, and the note says the work is already done** — so the reader has to reconstruct what was
+filled from a message that never expected to be read in that state.
+
+That is worse than an item with no detail, because it *appears* complete. Someone working the queue
+would open the tab expecting a CAPTCHA and find a blank form with no field values anywhere.
+
+### The rule was right and lived in the wrong place
+
+The docstring is read by whoever edits the script. It is not read by whoever writes an item. So the
+rule was stated once, at the top of a file, and then broken thirteen times by the same tool it
+governs.
+
+This is §279 again in a different disguise: **a stated principle that nothing enforces.** There the
+gate printed `EXIT=1` and did not block; here the docstring said "must not depend on a tab" and
+nothing checked.
+
+So `add` now refuses:
+
+```
+refusing: these steps assume a browser tab that will not exist when someone reads them.
+  Write the field VALUES to enter, not 'already filled'.
+```
+
+with an escape hatch — an item that describes a live tab *and* also carries the values passes, if
+it includes the words the fix requires. The point is not to ban a phrase but to make the fallback
+mandatory.
+
+The thirteen existing items were rewritten rather than deleted: each now carries a
+**"IF THE TAB IS GONE"** block with every value any of these forms has asked for — name and
+variants, the reply address, phone, date of birth, the postal address, *"requesting on behalf of:
+myself, never authorised agent"*, an instruction to tick **every** right offered rather than the
+most obvious one, and the standing refusals (no account, no government ID, no SSN in whole or part;
+if a form demands one, record the row as blocked rather than complete it on those terms).
+
+### What generalises
+
+**A handoff item is written by someone who has context and read by someone who has none** — even
+when they are the same person, because the context was a browser session that no longer exists.
+Anything the item relies on that is not *in* the item has already been lost by the time it is read.
+
+The test is simple and I was not applying it: **could a stranger complete this from the text
+alone?** For thirteen items the answer was no, and the reason was invisible from where I wrote them,
+because when I wrote them the tab was right there.
