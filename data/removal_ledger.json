@@ -449,6 +449,11 @@
     "changed": "2026-08-16",
     "via": null
   },
+  "arounddeal": {
+    "status": "submitted",
+    "changed": "2026-09-02",
+    "via": null
+  },
   "arrakis_technologies": {
     "status": "unreachable",
     "changed": "2026-08-25",
