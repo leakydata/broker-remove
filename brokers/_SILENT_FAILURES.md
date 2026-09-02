@@ -17752,3 +17752,165 @@ that question which matters for removals: **once a profile has been served to an
 copies, embeds and summarises rather than queries, what does a deletion at the source actually
 reach?** A page that hopes agents will honour an attribution clause has already answered how much
 enforcement it expects to have.
+
+---
+
+## §266 — the objection route bounces, and only the sender finds out
+
+§264, written two hours ago, named Mentibus as one of three companies whose privacy disclosure
+does the job properly. Their GDPR notice tabulates category, source, purpose and legal ground for
+**"Person Profile Data (first and last name, news articles, company, investments)"** — the
+non-user data, named first — and then says individuals may object to the legitimate-interest
+processing *at any time* by writing to `privacy@mentibus.com`, and that such objection will be
+acted on.
+
+I wrote to that address. It came back in four seconds:
+
+```
+550 No Such User
+```
+
+**And I got the cause wrong, in a letter, before checking properly.** That part is recorded
+below because it is the more useful half of this entry.
+
+My first reading was DNS. `mentibus.com`'s MX record self-points:
+
+```
+mentibus.com.   MX   0 mentibus.com.        A 200.69.17.154
+mentibus.xyz.   MX   5 alt2.aspmx.l.google.com.  10 alt3.aspmx.l.google.com.
+```
+
+I connected to that IPv4 address on port 25, got nothing, and concluded the domain had no mail
+host at all — *"nothing addressed there can ever be delivered"* — and I put that diagnosis in the
+letter as a fact.
+
+The delivery report, which I had already received, says otherwise:
+
+```
+Remote-MTA: dns; mentibus.com. (2606:bd00:1234:700:1::39, the server for the domain mentibus.com.)
+Diagnostic-Code: smtp; 550 No Such User Here
+```
+
+**Their mail server works.** It is reachable over IPv6, it accepted the connection, and it
+answered. My probe only tried IPv4 — this machine has no IPv6 route — so I saw silence and read
+it as absence. The self-pointing MX is fine; the host has an AAAA record and serves SMTP on it.
+
+The real finding is simpler and unchanged in effect: **the mailbox does not exist.** A live server
+is specifically refusing that recipient. It is a missing alias, not a broken domain — a smaller
+fix than the one I described. I sent a correction within the hour.
+
+Both policy documents publish only that address, twice.
+
+### The part that makes this a silent failure rather than a typo
+
+**Every data subject who has followed the published objection route since that record was set has
+had their objection bounce — and the company cannot know.**
+
+A non-delivery report goes to the *sender*. It never reaches the intended recipient. So from
+inside Mentibus the route does not look broken; it looks quiet. A rights channel that receives
+nothing is indistinguishable from a rights channel nobody uses, and the second reading is the
+flattering one, so it is the one that gets believed.
+
+This is the same asymmetry as §250 (a register filing rots because nobody who fails to reach you
+writes to say so), §236 (a verified address decays and the verification is never rechecked), and
+§260 (a stale instruction page survives because nobody who fails at step one reports back). But
+this is the sharpest instance, because here **the failure lands on the exercise of a right the
+company has voluntarily and correctly promised to honour.** The better the notice, the more people
+route through it, and the more objections vanish.
+
+Which produces an uncomfortable corollary for §264: *a well-drafted policy increases the harm done
+by a broken contact address.* The three properties I set out there — name the non-user, give the
+source, say what survives an erasure — are all necessary and none of them is sufficient, because
+they all terminate in an address that has to work.
+
+**Add a fourth: send mail to the address in the policy and see whether it arrives.** It costs one
+message. I had been treating the published address as the reliable end of the process and the
+company's willingness as the unreliable end. Here it was the reverse.
+
+### And the only alternative route was worse
+
+The site's other contact channel is a form. It requires business email, phone number, company and
+job title, and it carries a checkbox reading **"Create my Mentibus profile automatically."**
+
+For a person writing to ask that a profile about them be removed, that is the one form on the
+internet they cannot safely complete. Whatever the checkbox defaults to, the request would open by
+handing over a fresh, dated, self-supplied set of exactly the identifiers the request concerns —
+the same trap as the MAID demand in §260, arrived at from a completely different direction.
+
+I did not submit it. Told them instead: **a rights channel and a lead-capture form should not be
+the same form.** I doubt anyone has looked at that page from a data subject's side, because from
+the inside it is the sales enquiry page and it works fine.
+
+### What to carry forward
+
+- **Test the address the policy publishes before crediting the policy.** A rights channel is a
+  claim about infrastructure, not just about intent, and the infrastructure half is the half
+  nobody checks.
+- **When a published address bounces, tell them, and lead with it.** They have no other way to
+  find out, and it is the most valuable thing in the letter regardless of what they do about my
+  request.
+- **Look for a same-name mailbox on the domain the site actually runs on.** `mentibus.com` was
+  almost certainly a legacy or defensive registration; the working domain carried the same local
+  part.
+- **A negative from one probe is not an absence.** My port-25 test used IPv4 because that is what
+  this machine has, and I read "no answer from the transport I can speak" as "no mail host." The
+  bounce report already contained the correct answer and I wrote past it. §263 said a detector
+  reporting an absence must name what it did not look at; here the detector was me, and the thing
+  I did not look at was the other half of the internet.
+- **Read the diagnostic before diagnosing.** A 550 means a server answered. A connection failure
+  means it did not. Those are different findings and only one of them was mine to report.
+
+### §266a — and the scan I wrote to catch it was wrong 56% of the time
+
+The obvious follow-up to §266 was to check every contact address in the corpus for a working mail
+route before more letters bounce. I wrote a quick shell sweep over all 964 contact domains. It
+reported **25 undeliverable**.
+
+Fourteen of those twenty-five were false. Two defects, both the same shape as the mistake in the
+letter:
+
+**It judged each domain on one MX host.** `onetrust.com` publishes four. The priority-5 host does
+not resolve; the other three do. Taking the lowest-priority record and stopping produced
+"undeliverable" for a company whose mail obviously works.
+
+**It asked once.** `addirectinc.com` came back NO-MX in the sweep and has two perfectly good
+Proofpoint records. A transient resolver failure under 964 concurrent lookups is indistinguishable
+from a real empty answer — *unless you ask again.*
+
+Both are single negative observations reported as facts about the world. That is §263's lesson
+arriving three times in one session, in three disguises: a policy scan that mistook one document
+for the site, a port probe that mistook one address family for the internet, and a DNS sweep that
+mistook one lookup for the record.
+
+The rewrite (`scripts/mx_route_check.py`) resolves **every** MX host, retries three times before
+concluding absence, and treats a bare A record as a valid implicit route, which RFC 5321 allows
+and the first version did not know. Corrected result:
+
+```
+routable        943
+implicit-mx      10
+NO-ROUTE         11
+```
+
+Ten of the eleven were already marked `unreachable` — the process had caught them by bouncing,
+which is what bouncing is for. **The scan's entire net yield was one row**: Adrea Rubin Media dba
+Calibrant Digital, still marked `submitted` while its own note recorded a hard bounce five days
+earlier and its domain had become a parking page. One row that was counted as contacted and was
+not.
+
+That is a fair return for the tool, and a poor return for the first version, which would have
+reported twenty-five and sent me chasing fourteen working companies.
+
+**And the same-operator signature caught the pair.** Adrea Rubin Marketing, Inc. and Adrea Rubin
+Media, Inc. dba Calibrant Digital file from **the same New York suite number** (§258), both filed
+2020–2023 and then stopped, and both domains are now dead. Their register filings tell consumers
+to opt out *"by either calling a number listed on our website or filling out a form on our
+website."* **Both websites are gone.** The only CCPA-designated method either filing names has
+ceased to exist, and the filing that names it is still the public record.
+
+The tool prints one more line, at the bottom, where the number is:
+
+> `note: 'routable' means the DOMAIN accepts mail. It does not mean the ADDRESS exists — only a
+> successful send shows that.`
+
+Which is §236, restated where it will actually be read rather than in a note on a row.
