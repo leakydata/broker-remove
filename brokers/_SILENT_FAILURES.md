@@ -18476,3 +18476,63 @@ and are never refreshed.
 That last one is worth isolating. **The closed university address is the highest-value key in this
 category and the lowest-value key everywhere else.** A live file discards it as stale; a contributed
 one keeps it forever, because nobody updates a copied contact.
+
+---
+
+## §272 — six queued "decisions" that a standing rule had already answered
+
+Went through the 33 open `decision` items in the handoff queue looking for ones I could clear
+without troubling anyone. Six turned on the same thing: **supply a mobile advertising ID, a device
+ID, a tracking cookie or an IP address, or don't** — Foursquare, CityData, Fog Data Science, Kargo,
+Madhive, and the consolidated `maid_decision` item covering five companies at once.
+
+There is a standing categorical rule against all of that. So my first move was to close them as
+already answered.
+
+**That would have been wrong, and checking is what stopped it.** Read properly, the queue notes do
+not ask for the rule to be reconsidered. They already say *"do NOT fetch it yet — I have asked them
+first whether they hold any other key,"* and *"WAIT for those replies before deciding."* They are
+tracking whether an alternative route lands, not re-litigating a settled question. Closing them
+would have discarded live work.
+
+But something was still wrong with them, and it is worth naming:
+
+**They are filed as open decisions when the decision is foreclosed.** A queue that says
+`33 decisions` when six of them cannot resolve in one direction is overstating the load it is
+asking someone to carry. The cost is not confusion, it is *attention* — a person scanning that list
+spends thought on six items that a rule they set months ago has already settled.
+
+So the fix is annotation rather than closure: each now says the standing rule forecloses the
+"supply it" branch, records §260's reasoning for why the rule is right (a MAID is worth nothing
+until bound to a name, so sending one *creates* the link the request exists to sever), and states
+that the item is there to record the route and its cost — **not to ask again.**
+
+### And one where I flagged the tension instead of hiding it
+
+Fog Data Science is the strongest case *against* the rule, and burying that would have been the
+easier thing to do.
+
+Their anonymous opt-out form takes **only** the MAID — no name, no address, no account, no reply
+thread. So the standard objection does not apply on its face: there is no named correspondence for
+the identifier to be bound to. What it would still do is tell Fog that some device they may hold is
+the subject of a removal interest, and it relies on their form genuinely discarding the network
+metadata around the submission.
+
+The rule is categorical and I am following it. But the note now says plainly that **this is the one
+item where the rule may be costing something real.** A standing instruction is worth more when the
+person who set it is told where it bites, and a queue that only ever reports "rule applied,
+nothing to see" is not reporting.
+
+### The general shape
+
+Two failures are available when a standing rule meets a queue, and I nearly committed the first
+while trying to avoid the second:
+
+- **Closing items the rule appears to cover** — which discards the parts that were still live, here
+  the pending answers on an alternative route that needs no identifier at all.
+- **Leaving them indistinguishable from open questions** — which quietly bills the rule-setter for
+  a decision they already made.
+
+The answer is neither: **mark the branch the rule closes, keep the branch it doesn't, and say which
+is which.** And where the rule has a real cost, say that too, once, in the place the person will
+actually read it.
