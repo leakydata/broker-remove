@@ -19230,3 +19230,74 @@ Anything the item relies on that is not *in* the item has already been lost by t
 The test is simple and I was not applying it: **could a stranger complete this from the text
 alone?** For thirteen items the answer was no, and the reason was invisible from where I wrote them,
 because when I wrote them the tab was right there.
+
+---
+
+## §284 — I destroyed two real queue items while testing the fix for a different queue bug
+
+A queue audit turned up three brokers carrying more than one open item. One pair was deliberate —
+a phone route and a portal fallback, staged together, the second saying *"only if the phone call
+does not work."* The other two were **stale duplicates that contradicted their replacements**:
+
+- FinThrive: an item saying *"submit FinThrive's OneTrust webform"*, sitting beside a newer one
+  saying **hold — that URL is a draft form their auto-reply links, and the published one differs.**
+  Following the older item would have refiled into the wrong form.
+- RampedUp: a superseded form item beside a newer decision item.
+
+Both closed with the reason recorded. So far, so ordinary.
+
+### Then I broke something real while fixing the mechanism
+
+`add` has always silently dropped any existing open item for the same broker. That is right when the
+new item supersedes the old and wrong when a broker legitimately needs two — so I added a `--also`
+flag and a warning line, and then **tested it against `rooftop_digital`**, which was the one pair
+that was deliberate.
+
+The test add printed the warning correctly:
+
+```
+  replacing 2 existing open item(s) for rooftop_digital (pass --also to keep them alongside)
+    dropped: [decision] PHONE ROUTE, and the easier of the two...
+    dropped: [decision] PORTAL ROUTE, only if the phone call does not work...
+```
+
+— and dropped them. **With no copy anywhere.** `handoff_queue.json` is gitignored, so there was no
+history to recover from either. Two carefully written items, gone, in a test I ran on live data
+because it was the most convenient example to hand.
+
+They were reconstructed from a tracker note that happened to carry the substance, plus the eighty
+characters the warning had printed. That worked, and it worked by luck.
+
+### Three separate mistakes, and the third is the one that matters
+
+1. **Testing a destructive operation on live data**, using the one record that was an intentional
+   exception, because it was the convenient example.
+2. **No dry-run.** The flag I was adding governs whether data is destroyed, and I verified it by
+   destroying data.
+3. **The replace path discarded rather than archived** — which is the actual defect, and the reason
+   a careless test became data loss instead of an inconvenience. `done` archives to a `closed` list;
+   `add`-that-replaces did not.
+
+Only the third is fixed in code, because it is the only one that is a property of the tool:
+
+```python
+for e in prior:
+    e["closed_at"] = now()[:10]
+    e["closed_reason"] = ("replaced by a newer item for the same broker "
+                          "(handoff.py add). Archived rather than discarded.")
+    q.setdefault("closed", []).append(e)
+```
+
+**A destructive default is survivable if the thing destroyed is kept.** The queue now loses nothing:
+replacement archives, `done` archives, and the only way to genuinely lose an item is to edit the
+file by hand.
+
+### The general rule I violated and would restate as
+
+**Never test a delete path against real data when a throwaway row costs one command.** I created a
+`testbroker` row minutes earlier for exactly this purpose in the same session — and then reached for
+a live one anyway, because it was the interesting case rather than the safe one.
+
+The warning line I had just added did its job perfectly. It told me precisely what it was about to
+destroy, in the moment before it destroyed it, and I read it afterwards. That is §279 one more time:
+*a diagnostic is not a control.*

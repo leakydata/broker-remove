@@ -87,7 +87,34 @@ def cmd_add(a):
             "See _SILENT_FAILURES 283.")
 
     q = load()
-    q["open"] = [e for e in q["open"] if e["broker"] != a.broker]
+    # Replacing silently is how contradictory items survive. `add` has always
+    # dropped any existing entry for the same broker -- which is right when the
+    # new item supersedes the old, and wrong when a broker legitimately needs two
+    # (a phone route and a portal fallback, say). Either way the person staging it
+    # should be told which happened. A queue audit found two brokers carrying an
+    # old item beside a newer one that CONTRADICTED it: one said "submit this
+    # OneTrust form", the newer said "hold, that URL is a draft". See
+    # _SILENT_FAILURES 284.
+    prior = [e for e in q["open"] if e["broker"] == a.broker]
+    if prior and not getattr(a, "also", False):
+        print(f"  replacing {len(prior)} existing open item(s) for {a.broker} "
+              f"(pass --also to keep them alongside)")
+        for e in prior:
+            print(f"    dropped: [{e.get('action')}] "
+                  f"{(e.get('steps') or '')[:80]}")
+    if not getattr(a, "also", False):
+        # Archive what is replaced rather than discarding it. Testing this very
+        # function destroyed two real items -- a phone route and its portal
+        # fallback -- which had to be reconstructed from a tracker note, because
+        # the replace path dropped them with no copy anywhere and this file is
+        # gitignored, so there was no history to recover from either.
+        for e in prior:
+            e["closed_at"] = now()[:10]
+            e["closed_reason"] = ("replaced by a newer item for the same broker "
+                                  "(handoff.py add). Archived rather than "
+                                  "discarded -- see _SILENT_FAILURES 284.")
+            q.setdefault("closed", []).append(e)
+        q["open"] = [e for e in q["open"] if e["broker"] != a.broker]
     q["open"].append({
         "broker": a.broker, "url": a.url, "action": a.action,
         "steps": a.steps, "note": a.note, "staged_at": now(),
@@ -162,6 +189,9 @@ def main():
     p.add_argument("--steps", required=True, help="exactly what the human does")
     p.add_argument("--note", help="anything else worth knowing")
     p.add_argument("--minutes", type=int, default=1, help="rough time cost")
+    p.add_argument("--also", action="store_true",
+                   help="keep any existing open items for this broker rather than "
+                        "replacing them -- for a route and its fallback")
     p.set_defaults(func=cmd_add)
 
     p = sub.add_parser("done")
