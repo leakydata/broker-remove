@@ -19946,3 +19946,59 @@ submissions and not raise it again.**
 **Shopify remains open**: one email per submission, both reCAPTCHA and hCaptcha loaded, so eleven
 further runs. That one cannot be reached by letter, because the missing coverage is *identifiers*
 rather than *rights* — and identifiers are exactly what verification exists to check.
+
+---
+
+## §295 — the identifier most likely to find the old record is the one a portal cannot accept
+
+Writing the Shopify queue item — eleven runs, one per email address — produced a line I had to stop
+and think about:
+
+> the university address — **that one is a closed mailbox. Do not run it:** the verification link would go
+> to an inbox nobody can read, so the submission would expire unverified and achieve nothing. **Ten
+> runs, not eleven.**
+
+That is a small operational note and it points at something general.
+
+**A portal that verifies by email can only act on addresses the requester still controls.** That is
+correct behaviour — it is the whole point of verification. But it means a self-service rights system
+is structurally incapable of reaching any record keyed to an address the person has lost.
+
+And those are precisely the records worth reaching:
+
+- §271: a contributed record — an address book, a signature archive, an old member roll — **keeps
+  whatever address the contact had when the entry was made**, and is never refreshed.
+- §254: a company found a record under exactly such a dead address after finding nothing under the
+  live ones.
+- MCH (§290): an institutional file is keyed to where somebody *worked*, and a live consumer file
+  drops that address as stale while an institutional one does not.
+
+So the asymmetry, stated plainly:
+
+**The identifier most likely to match an old record is the one no verifying portal can accept.**
+Self-service systems reach the newest slice of a person's data and cannot, by construction, reach
+the oldest.
+
+### Which means the letter is not a fallback, it is the only route to part of the file
+
+I have been treating email as the *convenient* channel and portals as the *designated* one — with
+§290's wedge as a way to get some rights done without the portal. This is stronger than that:
+
+> Where a record is keyed to an address the requester no longer controls, **a human reading a letter
+> is the only mechanism that can act on it.** No amount of portal design fixes it, because the
+> verification step is not an obstacle to be routed around — it is doing its job, and its job
+> excludes exactly this case.
+
+That reframes several things in this corpus. Every "the company refuses email and designates a form"
+row (§290) has a slice of data the form cannot touch. Every one-email-per-submission portal (§294)
+is not merely tedious; it is **complete only for currently-held addresses.** And a nil result from
+such a portal is honest and narrow in a way its completion notice will never say.
+
+### What to do with it
+
+- **Never submit a dead address to a verifying portal.** It cannot succeed, and it consumes a run.
+- **Where a company is form-only, say in the letter that a dead address exists and cannot be
+  submitted**, and ask them to search it manually. That is a request only a person can action, which
+  makes it exactly the kind of thing worth putting in front of one.
+- **Record which addresses a portal-sourced result covered.** A completion means "for the address
+  that could be verified", and that is a materially smaller claim than it looks.
