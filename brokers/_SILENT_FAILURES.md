@@ -20059,3 +20059,55 @@ And for a public-records product the durability question matters more than anywh
 corpus: **the courthouse record does not change; only their copy does.** A deletion with nothing
 retained is rebuilt from the same sources at the next refresh, so the forward suppression is not a
 refinement — it is the entire remedy.
+
+---
+
+## §297 — I sent the same letter to the same company twice, two days apart
+
+§296 records Thomson Reuters answering the scoping question and my reply to it. **I had already
+replied, on 1 September.** Tonight I read their answer again, wrote most of the same letter a second
+time, and sent it.
+
+The duplicate was also *worse* than the original. The 1 September letter asked the FCRA question as a
+**three-way** — *FCRA-regulated, non-FCRA, or some of each* — and offered the honest concession that
+my own records had been wrong rather than theirs, because I had searched for "Thomson Reuters" and
+the registration is filed under West Publishing Corp. Tonight's asked a **binary** version of the
+same question and repeated a compliment they had already received.
+
+### The mechanism, which is embarrassingly simple
+
+**I read the last inbound message in the thread and replied to it. I did not read the last outbound
+one.**
+
+The thread listing was in front of me and showed my 1 September reply, three lines below theirs. I
+had scanned that listing minutes earlier looking for new replies — and "new replies" is an
+inbound-only question, so the outbound row registered as scenery.
+
+### The count, and what is different about this one
+
+This is the **sixth** instance in this session of acting without consulting evidence already in hand
+— after a finding met as though new, a claim contradicted by four of my own notes, a worry dissolved
+by one arithmetic check, nine live requests downgraded on an inbox artefact, and an attribution error
+that was not one.
+
+But the five before it cost **my own records**. This one cost **a company's time**, and it did it in
+the register of the whole project: I have spent months writing to people about the difference between
+a careful answer and an automated one, and then sent a near-duplicate letter to a privacy office that
+had answered me properly by hand.
+
+Corrected within minutes — *disregard tonight's, the 1 September letter stands, and the only part
+worth keeping is the new question* — because flagging it myself is better than letting them work out
+that they had already answered it.
+
+### The fix, and why the existing guards missed it
+
+`tracker.py` refuses a status change the row's history contradicts (§287). `claimcheck.py` searches
+every note for a claim before I assert it (§288). **Neither covers a letter**, because a letter is
+not a status change and its content is not in the notes in enough detail to match.
+
+The rule that does cover it is one line and costs a single tool call:
+
+> **Before replying to a thread, read the last message *I* sent in it — not the last one received.**
+
+The listing already contains it. The failure is that "check for replies" and "check what I said" feel
+like the same act and are not, and only one of them is reflexive.

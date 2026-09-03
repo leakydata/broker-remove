@@ -9,6 +9,9 @@ change -- that my own notes already contradicted:
   282   a worry about 948 rows that one arithmetic check dissolved
   287   nine live requests downgraded because a mail sat in an inbox
   288   "one of these rows misattributes a ticket ID" -- neither did
+  297   a letter sent twice to one company, two days apart, because I read the
+        last INBOUND message in the thread and replied to it without reading the
+        last OUTBOUND one
 
 Every one had the same shape: a signal observed, a conclusion drawn, the evidence
 in `removal_status.json` not consulted. The rule adopted at 267a -- grep the notes
