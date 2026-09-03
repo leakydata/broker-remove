@@ -19665,3 +19665,63 @@ the first.
 
 **Every nil result in this file up to today is unverified.** That is not an accusation about any of
 them. It is a property of what I could observe, and it stopped being a necessary one this evening.
+
+---
+
+## §290 — the only route expires in a day, and the channel that could bypass it points back at the route
+
+§286 recorded Cadent's 24-hour verification window and the request that died in it. I re-filed by
+email, deliberately, so the request would exist as a durable record regardless of any link.
+
+Four minutes later:
+
+> "To submit a data rights request, please complete the form which can be found here:
+> `https://privacy.cadent.tv/privacy/#/verify-email`. We aim to resolve your request within 45 days."
+
+**That is the same flow the request died in.** The letter it answers was about that window
+specifically, and the reply directs me back into it.
+
+So the loop, stated without any complaint attached:
+
+- The **only route accepted** carries a **one-day expiry**.
+- The **channel that could bypass it** answers by pointing at the route.
+- A person who misses the window twice has **no third option**.
+
+Nobody designed that. It is what two individually reasonable rules produce when they meet: *"rights
+requests go through the form"* and *"verification links expire in 24 hours"* are each defensible, and
+together they build a door that closes behind you.
+
+And note the shape of the asymmetry the autoresponder states in the same breath: **the consumer gets
+one day; the company gets forty-five.**
+
+### The wedge, which is the useful part
+
+There is one right that cannot be gated behind that form, and it is worth knowing precisely why:
+
+> **An opt-out of sale and sharing requires no verification of identity.** The CCPA's implementing
+> regulations are explicit that a business shall not require a consumer to verify themselves as a
+> condition of honouring one — because requiring proof of identity in order to stop a sale would
+> defeat the right. There is nothing to verify: the consumer is not asking to receive data or to
+> have records altered, only to be excluded.
+
+So the verification step the form exists to perform **is not a prerequisite for § 1798.120**, and
+that part can be actioned from an email that arrives in a mailbox they read. I asked for exactly
+that, and — if they disagree — for the position in writing, *not to argue with it but to record it
+as a clear statement of policy.*
+
+**This generalises to every form-only company in the corpus.** Wherever a broker refuses email and
+designates a portal, the opt-out half of the request can still be pressed by email, because it is
+the one right that verification cannot lawfully gate. The deletion may genuinely need the form. The
+opt-out does not.
+
+### And the operational instruction that makes the form survivable
+
+The handoff item does not say "submit the form". It says:
+
+> **Timing is the whole task — do not start this unless you can finish it within the hour.** Submit,
+> then go straight to the inbox and click the confirmation immediately; if you cannot check mail
+> right after submitting, do it another day instead.
+
+A 24-hour window is not a difficulty, it is a *scheduling constraint*, and writing the instruction
+without it is how the first attempt was lost. **An item that can expire needs its expiry in the
+instruction, not in a note about the company.**
