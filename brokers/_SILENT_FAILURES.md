@@ -20792,3 +20792,58 @@ a sixth message to a mailbox that has answered none of five, and §304's lesson 
 channel has not responded, another message into it is not communication, it is volume.** The
 consolidated request is already on file there. The next move at PeopleConnect, if any, goes through
 `support@mailer.intelius.com`, which demonstrably reads its mail.
+
+---
+
+## §310 — a guard for §309, and a control proving it can fire
+
+§309 diagnosed the duplicate sends. This closes them.
+
+The blind spot was structural, not careless: **the tracker is keyed by broker id, so it answers
+"has this row been written to?"** — and that is the wrong question, because the recipient does not
+experience a row. Four ids resolving to one mailbox looked like four untouched brokers.
+
+Two things now exist:
+
+**`scripts/mailbox_guard.py`** — given a broker id or an address, prints every registry row that
+resolves to that mailbox, which have been written to and when, and then the decision rather than the
+data:
+
+```
+priorityoptout@intelius.com
+  4 registry row(s) resolve to this address; 4 already written to
+    2026-08-15  submitted   addresses_com
+    2026-08-15  submitted   zabasearch
+    2026-08-17  submitted   criminaldatacheck
+    2026-08-18  submitted   easybackgroundchecks
+  ** SEPARATE SEND DATES -- this mailbox has probably had more than one letter.
+     REPLY IN THE EXISTING THREAD. A new top-level letter here is §309.
+```
+
+It reads local files only. Sent mail is the better authority — §308 found a registry address no
+letter ever went to — but **a check that needs credentials is a check that gets skipped**, and this
+one runs in under a second, which is the only way it gets run at all.
+
+**A `validate.py` warning** for the case nobody has noticed yet: any address where a row is still
+`pending` while a sibling at the same address has already been written to. The existing
+`duplicate_of` check only fired where someone had already spotted the link — which is precisely the
+situation in which the mistake does not happen.
+
+### The control, because the guard is exactly the kind of thing that silently never fires
+
+It reports **nothing** on the current tree. That is the correct answer — every remaining pending row
+has no email address at all, so no collision exists — but it is also indistinguishable from a check
+that is broken. §289 applies to my own tooling as much as to a broker's search.
+
+So I injected a synthetic pending row sharing an address with a row already written to:
+
+```
+warn: [mailbox] privacy@hellofyllo.com: 1 row(s) still pending (_leaktest_sibling) share this
+address with 1 already written to. A new letter here repeats one the mailbox has.
+```
+
+It fired, named the address, named the offending row, and told the reader what to do instead. Tree
+restored; the warning count returns to zero.
+
+**A guard that has never fired is a claim, not a check.** This one has now fired once, under
+conditions I created on purpose, which is the difference between knowing it works and assuming it.

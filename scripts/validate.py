@@ -342,6 +342,29 @@ def main():
             warnings.append(f"{where}: needs_email_confirm unset - "
                             f"unclear whether the request is void until confirmed")
 
+    # SF 309: four letters reached one mailbox in 24 hours because four rows
+    # resolved to one address and nothing in the send path looked at the address.
+    # The duplicate_of check above only fires where somebody already noticed the
+    # link. This catches the ones nobody noticed -- an unsent row sharing an
+    # address with a row that has already been written to.
+    _by_addr = {}
+    for b in brokers:
+        a = (b.get("email_to") or "").lower().strip()
+        if a:
+            _by_addr.setdefault(a, []).append(b["id"])
+    _SENT = {"submitted", "email_pending", "confirmed", "replied", "acknowledged", "suppressed"}
+    for a, ids in sorted(_by_addr.items()):
+        if len(ids) < 2:
+            continue
+        unsent = [i for i in ids if _status(i) == "pending"]
+        already = [i for i in ids if _status(i) in _SENT]
+        if unsent and already:
+            warnings.append(
+                f"[mailbox] {a}: {len(unsent)} row(s) still pending ({', '.join(sorted(unsent)[:3])})"
+                f" share this address with {len(already)} already written to. A new letter here "
+                f"repeats one the mailbox has. Reply in the existing thread, or cover the pending "
+                f"rows by naming them in it -- run scripts/mailbox_guard.py {a}")
+
     # Any broker we have ACTED on must have a playbook. This is the gap that
     # opens silently: playbooks get written while working browser forms, then
     # skipped during email batches -- which is exactly when the knowledge is
