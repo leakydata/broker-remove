@@ -19886,3 +19886,63 @@ So the check to run on any portal-sourced confirmation:
 
 None of those is answerable from the completion email, and all three are usually recorded in the
 note taken at submission — which is where I found them, a fortnight late, in my own writing.
+
+---
+
+## §294 — the portal that takes one thing at a time, and who pays for it
+
+§293's check — *how many identifiers, which right, which entity* — run across every row whose notes
+mention a portal, found **seven** carrying a recorded per-submission limit. Three had already been
+followed up. Three are genuinely open, and one had been raised.
+
+| row | the limit | what it left undone |
+|---|---|---|
+| Epsilon | one **request type** per submission | 2 of 5 rights filed; three outstanding |
+| Affinity Solutions | one **right** per submission | do-not-sell went in a free-text box, which is not a filed request |
+| Shopify | one **email** per submission | 1 of 12 addresses covered; full coverage = 12 runs |
+| Altair | one **address** per submission | 1 of 16 — *already chased on the ticket* |
+| Tunnl / Deep Root | one **address**, one **type** | handled in §293 |
+| PwC | one **identifier** per submission | produced eight near-identical requests — already raised |
+
+Every one of those limits is a reasonable design decision on its own. Together they produce a
+consistent effect:
+
+**The person who wants the most protection does the most work.** Twelve addresses and five rights is
+sixty submissions at the extreme, each with its own reference, its own verification step and its own
+clock — and each an additional chance for one to lapse unnoticed. A person with one address and one
+right is done in ninety seconds.
+
+That is not anybody's intent. It falls out of *one value per field* meeting *one right per form*,
+and it is invisible from inside because the log shows a completed request either way.
+
+### The lever, and it converts queued human work into a letter
+
+§290's wedge applies with unusual force here. Where the outstanding item is an **opt-out, a
+do-not-share, a profiling opt-out or a § 1798.121 limit**, it does not need the portal at all:
+
+> These are **directions, not lookups.** None asks the company to find me, hand me anything, or alter
+> a record. Each tells them what not to do with whatever they hold. And for the opt-out the position
+> is explicit — the CCPA's regulations state a business shall not require verification as a
+> condition of honouring one, because requiring proof of identity to stop a sale would defeat the
+> right.
+
+So *"three more portal runs"* becomes *"one email"*. Sent to Epsilon (three outstanding types) and
+Affinity Solutions (the do-not-sell that was only ever a note in a text box), each with the same
+exit offered: **if your position is that it must go through the portal, say so and I will do the
+submissions and not raise it again.**
+
+### And the two company-specific asks that came out of it
+
+- **Affinity Solutions** works with card-transaction data from financial institutions, so *the
+  derived layer is the product* — spend categories, merchant affinities, income inference — and a
+  deletion clearing the identity row while keeping the segments is a half-deletion. More importantly:
+  I never had a relationship with them, so if a record exists it came **from a bank I did deal
+  with**, which makes *which institution supplied it* the question that decides whether any removal
+  survives the next feed.
+- **Epsilon** has five request IDs sitting unconfirmed since 17 August. Asked whether they have
+  expired, since an unconfirmed request is not being worked and no clock has started — the §286
+  problem, now on the other side of the table.
+
+**Shopify remains open**: one email per submission, both reCAPTCHA and hCaptcha loaded, so eleven
+further runs. That one cannot be reached by letter, because the missing coverage is *identifiers*
+rather than *rights* — and identifiers are exactly what verification exists to check.

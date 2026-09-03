@@ -56,3 +56,7 @@ A request submitted here sat unverified for roughly a day and was indistinguisha
 from a completed one. Do not close the loop until you have seen the confirmation
 page. See `_SILENT_FAILURES.md` §2.
 
+## Status
+
+- Current: `submitted` (updated 2026-09-03)
+- **2026-09-03 (§294):** SECOND RIGHT PRESSED BY EMAIL 2026-09-03 (SILENT_FAILURES 293/290). The OneTrust deletion is filed and email-verified (X4SPXJY2DR, right selected: Delete My Information) but THE FORM ALLOWS ONE RIGHT PER SUBMISSION, so the do-not-sell request went into the free-text details field -- and a note in a text box is not a filed request. Asked them to record the 1798.120 opt-out from the email, on the ground that it requires no verification: there is nothing to verify, a wrongly-honoured opt-out discloses nothing and harms no one, which is why it is treated differently from deletion where a mistaken match destroys the wrong person's record. Their form has already verified the address for the deletion; the opt-out needs less than that. TWO COMPANY-SPECIFIC POINTS: Affinity works with CARD-TRANSACTION DATA SOURCED FROM FINANCIAL INSTITUTIONS, so (a) the derived layer IS the product -- spend categories, merchant affinities, income and lifestyle inferences, audience segments -- and a deletion clearing an identity row while keeping the segments is a half-deletion; and (b) I never had a relationship with them, so if a record exists it arrived from a bank or card issuer I DID deal with, which ma

@@ -151,3 +151,8 @@ The confirmation page has a **"< Start new request"** link. It resets the form
 completely — **Country reverts to blank** and must be set to United States again
 before the request-type radios will render at all. If the radios seem to be
 missing, that is why.
+
+## Status
+
+- Current: `submitted` (updated 2026-09-03)
+- **2026-09-03 (§294):** THREE REMAINING REQUEST TYPES PRESSED BY EMAIL 2026-09-03 (SILENT_FAILURES 293/290). Two of five filed via the DSR portal: Delete my Personal Information (VNCPHY7L53) and Do Not Sell (HZRTNAEGLM). The portal takes ONE REQUEST TYPE PER SUBMISSION, so the remaining three -- Do Not Share/cross-context behavioural advertising, opt-out of profiling/automated decision-making, and 1798.121 limit-use of sensitive PI -- each need their own submission, reference, verification and clock. Named the effect: THE PERSON WHO WANTS THE MOST PROTECTION DOES THE MOST WORK, and each extra submission is another chance for one to lapse unnoticed. Argued all three are DIRECTIONS RATHER THAN LOOKUPS -- none asks them to find me, hand me anything, or change a record, only to say what not to do with what they hold -- and that the opt-out explicitly requires no verification under the CCPA regulations, with the same logic reaching 1798.121 and profiling. Asked them to record all three from the email, and offered the exit: if their position is that each must go through the portal, that is a clear statement of policy, I will record it, make the submissions and not raise it again. ALSO ASKED about the FIVE Epsil
