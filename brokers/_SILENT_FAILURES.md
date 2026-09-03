@@ -20163,3 +20163,56 @@ three separately and would rather record that than press three companies for the
 
 **A displayed address and a linked address that differ is worth checking every time.** It is
 invisible to anyone who copies the text, and it is the kind of thing only an outsider notices.
+
+---
+
+## §299 — a letter about an autoresponder is answered by the autoresponder
+
+Four companies in one night, all the same shape:
+
+| company | I wrote about | what came back |
+|---|---|---|
+| **Cadent** | the verification loop, and that their reply had pointed me back into it | the identical autoresponse, pointing at the same form |
+| **Koddi** | that the opt-out needs no verification, so email suffices for that half | the same macro, restating that email is not accepted |
+| **AggKnowledge** | the volume — nine near-identical messages for one set of requests | a third copy of the message I was writing about |
+| **Tunnl** | the limits of their one-address-per-submission portal | a pointer back to that portal |
+
+None of this is bad faith and I do not read it as evasion. **An autoresponder cannot distinguish a
+letter about the process from a request submitted through it**, so any correspondence *about* the
+channel arrives at the channel and is handled as traffic.
+
+Which produces a bound on what letter-writing can do, and it is worth stating plainly because I have
+spent weeks acting as though it were not there:
+
+> **Where a company's only inbound channel is automated, a letter about the automation is
+> structurally undeliverable.** It will be received, processed, and answered — by the thing it is
+> about.
+
+### The distinction that decides whether writing again is worth anything
+
+Three of the four had a human somewhere in the loop earlier, and that is exactly where progress came
+from:
+
+- **RevOptimal** replied personally when the automation could not, and the template changed within an
+  hour of the §278 comparison.
+- **AggKnowledge** changed its wording the same day — so a person *did* read that letter — and then
+  the substantive follow-up hit the macro again.
+- **Cadent** and **Koddi** have produced nothing but macros.
+
+So the test before writing a third time is not *"is my argument good"* but **"has a human ever
+answered on this thread?"** If one has, a further letter can reach them. If the only replies have
+been generated, another letter is a message to a program about the program.
+
+### What I did with each
+
+Stopped on **Koddi** and **AggKnowledge** — both were offered a one-line close (*"say it must go
+through the form and I will stop"*, *"yes, a do-not-add entry was recorded"*), and a third automated
+reply is not going to become an answer at the fourth attempt. Recorded what was actually achieved in
+both cases, which is not nothing: AggKnowledge's template genuinely improved, and that improvement
+reaches every future requester of theirs.
+
+**Cadent** and **Tunnl** are recorded and their forms are queued, with the operative constraints in
+the instruction rather than in a note about the company.
+
+**The rule: offer the exit, and then take it.** A letter that says *"if your position is X, say so
+and I will stop"* only means something if the silence is treated as the answer too.
