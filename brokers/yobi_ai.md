@@ -8,6 +8,7 @@
 ## Status
 
 - Current: `submitted`
+- **Merge note (2026-09-03):** this row and `yobi_ventures` (Yobi Ventures, LLC — the CA-registered predecessor name, filings 2020-2023 then lapsed) were independently discovered and fixed by two concurrent sessions on the same day, both converging on privacy@yobi.ai. `yobi_ventures` is now marked `duplicate_of` this row; see `yobi_ventures.md` for the fuller original reasoning (acquisition/lapse analysis, modelled-data deletion scope, conditional-suppression precondition) — worth reading before writing to this address again, since it's carried over here only as a pointer.
 
 ## Steps
 
