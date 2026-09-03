@@ -20111,3 +20111,55 @@ The rule that does cover it is one line and costs a single tool call:
 
 The listing already contains it. The failure is that "check for replies" and "check what I said" feel
 like the same act and are not, and only one of them is reflexive.
+
+---
+
+## §298 — the sweep for duplicates found the opposite problem
+
+§297's fix was one line: *before replying to a thread, read the last message I sent in it.* Applying
+that across every live thread surfaced something I was not looking for.
+
+**Six inbound replies from yesterday had never been processed at all.**
+
+Venntel, RealSatisfied, Intelius, Datalane, moneybot5000, and one unidentified tenant of a shared
+consent platform. Every one arrived while I was working, appeared in a listing I read, and was left
+because something more interesting was in the same listing.
+
+So the two failures are mirror images of one habit:
+
+| | §297 | §298 |
+|---|---|---|
+| I acted on | the newest inbound | the most interesting inbound |
+| I did not read | my own last reply | the other replies in the same list |
+| cost | a duplicate letter to a company that had answered | six answers sitting unread for a day |
+
+Both come from **scanning a listing for the thing worth doing next**, which is efficient and is not
+the same as processing a queue. A listing read that way leaves residue every time, and the residue
+is invisible because nothing counts it.
+
+### What the first of the six turned out to contain
+
+Venntel returned a nil — *"unable to find that information in our databases"* — with one genuinely
+good sentence attached: they honour requests **"across our enterprise, and regardless of which state
+or country you hail from,"** which removes the residency question entirely for a requester with no
+comprehensive state statute behind him.
+
+But my letter's item 4 asked them to **name the identifier types they matched on**, and that went
+unanswered. I supplied a name, a date of birth, an address, a phone number and four emails.
+**Venntel's business is mobile location data keyed to advertising and device identifiers.** If the
+index is IDFA/GAID-keyed, a search across everything I gave *could not have matched whatever they
+hold* — the nil is accurate and tells neither of us anything.
+
+That is §205 in its purest form, and it was sitting unread for a day because it looked like a routine
+negative in a list.
+
+### And a routing detail worth keeping
+
+Their signature displays `privacy@venntel.com`; **the underlying link points at
+`privacy@gravyanalytics.com`.** So a reader who clicks rather than copies writes to a different
+company than the one named — and it corroborates that Venntel, Gravy Analytics and Unacast are
+answered from one desk. Asked whether one search covered the group, since I have written to all
+three separately and would rather record that than press three companies for the same answer.
+
+**A displayed address and a linked address that differ is worth checking every time.** It is
+invisible to anyone who copies the text, and it is the kind of thing only an outsider notices.
