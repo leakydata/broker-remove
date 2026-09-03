@@ -4839,6 +4839,11 @@
     "changed": "2026-08-28",
     "via": "email"
   },
+  "safeopt": {
+    "status": "submitted",
+    "changed": "2026-09-03",
+    "via": "email"
+  },
   "saha_ventures": {
     "status": "unreachable",
     "changed": "2026-08-25",

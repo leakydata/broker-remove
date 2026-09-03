@@ -20556,3 +20556,59 @@ only an outsider can see:
 The remaining route is a B2B sales-intake form at `mentibus.xyz/contact` — not a rights form, which
 means the message body has to carry the entire request. Queued for handoff rather than abandoned,
 because a bad channel that exists beats a good channel that does not.
+
+---
+
+## §306 — one address in 121 domains, and the control that made the number sayable
+
+The email campaign is effectively finished: 941 requests sent, and of the entire curated registry only
+38 rows have never been contacted, all of them web forms. What remains is the long tail — 279 rows
+carried in from a catalogue as a name, sometimes a domain, and **no route at all**. 121 of them have a
+domain, which is enough to go looking.
+
+I ran the contact-discovery scraper across all 121. **It found one address.**
+
+> `safeopt` → `privacy@addshoppers.com` — off-domain, and correct: SafeOpt is an AddShoppers product.
+
+One in 121 is close enough to zero that I would not state it. §289 is exactly this: **a scraper that
+is silently broken returns nothing for everything**, and from outside, *"these companies publish no
+address"* and *"my fetcher is failing"* produce an identical result. §301 is the companion — I nearly
+published a number last week that three spot-checks destroyed.
+
+### So I ran the control before saying anything
+
+I fed it 40 brokers whose published privacy address I **already hold on record**, verified from their
+own policy pages. It probed 20 of them (it caps, and says so) and returned:
+
+- **12 of 20 found** → sensitivity ≈ **60%**
+- **12 of 12 exactly matching the recorded address** → precision **100%**, no false positives
+
+That is a working tool with a real miss rate, which is the only result that lets the headline number
+be interpreted at all.
+
+### What the finding actually supports
+
+Correcting 1-in-121 for a 60% detection rate puts the share of the untouched tail that publishes a
+findable privacy address at **roughly 1–2%**, and the honest upper bound — Poisson on a single
+observation, against the low end of the sensitivity interval — is about **10%**. Not 99%. **The claim
+is "almost none of them, and certainly under about ten percent,"** and I would not have been able to
+say even that much without the control.
+
+### The part that is more interesting than the number
+
+Among the brokers I already have addresses for, the same scraper finds one **60%** of the time. Among
+the brokers I have never contacted, it finds one **under 2%** of the time.
+
+Those two populations are not different in kind. They are different in exactly one respect: **the
+first group is reachable, which is why it is in the first group.**
+
+So the corpus's coverage is not a sample of data brokers. **It is a sample of data brokers that made
+themselves reachable** — and every rate computed over it (response rate, confirmation rate,
+nil rate) inherits that selection. The 941 sent requests measure the behaviour of companies that
+published a contact. The 279 uncontacted rows are the control group nobody gets to run, and the one
+thing now known about them is that **their unreachability is not an accident of my search.**
+
+That reframes the remaining work. For this tail there is no letter to write, because there is no
+address to write to. What is left is the state broker registries — where registration is compulsory
+and a contact address is a filing requirement — which is a route that does not depend on a company
+choosing to be findable.
