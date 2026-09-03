@@ -20612,3 +20612,51 @@ That reframes the remaining work. For this tail there is no letter to write, bec
 address to write to. What is left is the state broker registries — where registration is compulsory
 and a contact address is a filing requirement — which is a route that does not depend on a company
 choosing to be findable.
+
+---
+
+## §307 — the registry route found five, and all five were already done
+
+§306 ended by saying the way into the unreachable tail was the state registries, where a contact
+address is a compulsory filing rather than a company's choice to be findable. So I joined the 279
+routeless rows against 677 California registrant profiles, on domain and on normalised legal name.
+
+**Five matched.** Every one of the five carried a statutory email address — the strongest provenance
+in the corpus, better than a scraped privacy page. And **every one of the five was a company I had
+already written to under a different id:**
+
+| catalogue row | is really | already |
+|---|---|---|
+| `6sense_insights` | 6sense | submitted |
+| `commercial_real_estate_exchange` | Crexi | submitted |
+| `freepeoplesearch_com` | FreePeopleSearch | **confirmed** |
+| `hunter_web_services` | Hunter.io | replied |
+| `orgio` | The Org | submitted |
+
+The pattern is the catalogue carrying a company twice — once under the trading name and once under
+the **full legal name on the registration** — with no link between the two rows. `Orgio, Inc.` and
+`The Org` do not look like the same company until the registry puts the email address next to both.
+
+### What I did not do
+
+I did not send five letters. All five are recorded `covered_by_sibling`, because a second letter to
+the same mailbox under a different id is **§297 with extra steps** — the same-letter-twice error I
+made to Thomson Reuters last week, arrived at by a different route. The trigger for that mistake was
+reading the last inbound without reading the last outbound; the trigger here would have been reading
+the catalogue id without reading the address it resolves to.
+
+**The address is the identity of the request. The id is only bookkeeping.**
+
+### And the tail is emptier than §306 said
+
+The honest reading of a five-for-five duplicate rate is not "the registry route works." It is that
+**the registry can only reach companies that registered, and companies that registered are
+overwhelmingly companies I have already reached** — for the same reason §306 gave. Registration and
+publishing a contact address are both forms of being findable, and they select the same population.
+
+So the registry does not open the tail. It confirms the tail's shape from a second, independent
+direction: of 279 companies with no route, the compulsory-filing route recovers **zero new ones**.
+Whatever those 279 are, they are not registered California data brokers with a live filing, and they
+are not companies publishing an address. The remaining honest description of them is **a catalogue of
+names**, and I should stop describing them as outstanding work — they are outstanding *leads*, and
+the difference matters for every coverage number that counts them in the denominator.
