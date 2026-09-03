@@ -7,9 +7,10 @@
 
 ## Status
 
-- Current: `failed` (updated 2026-08-31)
+- Current: `covered_by_sibling` (updated 2026-09-03) — see `cint.md`
 - Note: 2026-08-30 Sent the standard letter, tailored for a survey/market-research panel operator, to compliance@luc.id. Asked them to search by email specifically since panel membership is normally email-keyed, and to delete any panel/respondent profile, not just a directory-style record.
 - Note (2026-08-31): Hard-bounced same day — 550 5.1.1, account does not exist (Gmail). `email_verified` corrected from `ca_data_broker_registry` to `bounced`. **luc.id is a duplicate/legacy registration of `cint`** (the domain redirects to cint.com — Lucid was absorbed into Cint) — that canonical entry is already submitted, at compliance@cint.com. No resend needed here: dead legacy mailbox, request already covered via the successor.
+- **Correction (2026-09-03): resent anyway, to privacy@cint.com** (found independently via Cint's privacy policy, unaware the `cint` row already existed and had been submitted 2026-08-17 to the identical address, `privacy@Cint.com`, per that row's own record). A genuine duplicate, not just a near one. Same lesson as `anexinet.md`: check the registry for a successor row by name before treating a rebrand-address discovery as a fresh find.
 
 ## Steps
 

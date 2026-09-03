@@ -22,9 +22,9 @@
       "response": "Failure mode not recorded. Re-read the evidence before acting."
     },
     "ben@carmarketsolutions.com": {
-      "kind": "no_such_mailbox",
+      "kind": "dead_domain",
       "observed": "2026-08-28",
-      "evidence": "NOT a mailbox failure -- a CONNECTION failure. Status 4.4.1, 'the recipient server did not accept our requests to connect [carmarketsolutions.com. 200.225.43.10: timed out]', 2026-08-28 after Gmail retried for three days. The domain has an MX (self-pointing, carmarketsolutions.com) and an A record, so every DNS check passes; nothing is listening on port 25. Confirmed by hand: a direct TCP connect to 200.225.43.10:25 times out. Whether the mailbox exists is UNKNOWN and unknowable from outside -- unlike a 550, this says nothing about the address, only about the server. Worth one retry if the company is ever seen to fix its mail; do not treat as proof the address is wrong.",
+      "evidence": "NOT a mailbox failure -- a CONNECTION failure. Status 4.4.1, 'the recipient server did not accept our requests to connect [carmarketsolutions.com. 200.225.43.10: timed out]', 2026-08-28 after Gmail retried for three days. The domain has an MX (self-pointing, carmarketsolutions.com) and an A record, so every DNS check passes; nothing is listening on port 25. Confirmed by hand: a direct TCP connect to 200.225.43.10:25 times out. Whether the mailbox exists is UNKNOWN and unknowable from outside -- unlike a 550, this says nothing about the address, only about the server. Worth one retry if the company is ever seen to fix its mail; do not treat as proof the address is wrong. || 2026-09-03: agent-proxy reports connection reset / tunnel closed for carmarketsolutions.com itself -- no reachable web server. Upgraded from no_such_mailbox to dead_domain.",
       "response": "The mailbox is absent though the domain is healthy. Find another published address; the company may not know this one is dead."
     },
     "ccgprivacy@customer.com": {
@@ -36,7 +36,7 @@
     "ccpa@leadmemedia.com": {
       "kind": "no_such_mailbox",
       "observed": null,
-      "evidence": "550 address not found. Already superseded — registry's email_to was corrected to californiaregistry@leadmemedia.com.",
+      "evidence": "550 address not found. Already superseded \u2014 registry's email_to was corrected to californiaregistry@leadmemedia.com.",
       "response": "The mailbox is absent though the domain is healthy. Find another published address; the company may not know this one is dead."
     },
     "ccpa@paramountdirectmarketing.com": {
@@ -94,7 +94,7 @@
     "contact@join5x5.com": {
       "kind": "dead_domain",
       "observed": null,
-      "evidence": "Domain has no MX and no A record at all — publishes no working mail route. Registry note flags this as almost certainly a typo in the CA filing; the entry is held out of the send queue as a duplicate of five_by_five.",
+      "evidence": "Domain has no MX and no A record at all \u2014 publishes no working mail route. Registry note flags this as almost certainly a typo in the CA filing; the entry is held out of the send queue as a duplicate of five_by_five.",
       "response": "The domain itself is gone. Check whether a stranger has re-registered it before sending anything (SILENT_FAILURES 163)."
     },
     "data@emerges.com": {
@@ -118,7 +118,7 @@
     "dataprivacy@sourceitmarketing.com": {
       "kind": "no_such_mailbox",
       "observed": "2026-08-27",
-      "evidence": "No such recipient, 2026-08-27. This entry (sourceit_technologies) is a duplicate CA registration of 'sourceit', which has a working address (dataprivacy2026@sourceitmarketing.com) already on file — do not resend here.",
+      "evidence": "No such recipient, 2026-08-27. This entry (sourceit_technologies) is a duplicate CA registration of 'sourceit', which has a working address (dataprivacy2026@sourceitmarketing.com) already on file \u2014 do not resend here.",
       "response": "The mailbox is absent though the domain is healthy. Find another published address; the company may not know this one is dead."
     },
     "dataprivacy_rocadvertising@simpleoptoutcompliance.com": {
@@ -148,7 +148,7 @@
     "info@openpeoplesearch.com": {
       "kind": "no_such_mailbox",
       "observed": "2026-08-26",
-      "evidence": "550 address not found, 2026-08-26. This is the exact address published on the broker's own privacy policy — domain and MX are healthy, only the mailbox is absent. Registry uses the web form at /Consumer as primary.",
+      "evidence": "550 address not found, 2026-08-26. This is the exact address published on the broker's own privacy policy \u2014 domain and MX are healthy, only the mailbox is absent. Registry uses the web form at /Consumer as primary.",
       "response": "The mailbox is absent though the domain is healthy. Find another published address; the company may not know this one is dead."
     },
     "info@quantummedica.co.uk": {
@@ -293,13 +293,13 @@
     "privacy@infofree.com": {
       "kind": "no_such_mailbox",
       "observed": "2026-08-22",
-      "evidence": "550 address not found. Already superseded — registry's email_to was corrected to info@infofree.com on 2026-08-22.",
+      "evidence": "550 address not found. Already superseded \u2014 registry's email_to was corrected to info@infofree.com on 2026-08-22.",
       "response": "The mailbox is absent though the domain is healthy. Find another published address; the company may not know this one is dead."
     },
     "privacy@keyopinionleaders.com": {
       "kind": "dead_domain",
       "observed": "2026-08-20",
-      "evidence": "Domain has no NS/SOA/A/MX records at all — the registration has lapsed. Reads as a soft delay for 48h before hard-bouncing, 2026-08-20.",
+      "evidence": "Domain has no NS/SOA/A/MX records at all \u2014 the registration has lapsed. Reads as a soft delay for 48h before hard-bouncing, 2026-08-20.",
       "response": "The domain itself is gone. Check whether a stranger has re-registered it before sending anything (SILENT_FAILURES 163)."
     },
     "privacy@leadershipconnect.io": {
@@ -336,7 +336,7 @@
     "privacy@modigie.com": {
       "kind": "restricted_group",
       "observed": "2026-08-19",
-      "evidence": "Rejected as a restricted Google Workspace group, 2026-08-19. Already superseded — registry's email_to was corrected to dpauli@modigie.com on 2026-08-22.",
+      "evidence": "Rejected as a restricted Google Workspace group, 2026-08-19. Already superseded \u2014 registry's email_to was corrected to dpauli@modigie.com on 2026-08-22.",
       "response": "A privacy@ alias configured as an INTERNAL-ONLY group. It works for staff and silently rejects every consumer, so the company believes it works. Tell them, and use any alternate address. REPORTED 2026-08-29 via dpauli@modigie.com; retest before assuming it is still shut."
     },
     "privacy@nymblr.com": {
@@ -385,7 +385,7 @@
     "privacy@speedeon.com": {
       "kind": "dead_domain",
       "observed": "2026-08-28",
-      "evidence": "Permanent failure 2026-08-28 after three days of delays. speedeon.com has NS and A records but NO MX -- the §86 'website with no mail server' case: RFC 5321 falls back to the A record, nothing listens on port 25, and the sender reports delays for days before giving up. NOT the registry route and NOT a problem: the broker is speedeon_data, its filed contact is accounting@speedeondata.com on a DIFFERENT domain, and that address produced a confirmation. This entry only stops a later pass retrying the wrong domain.",
+      "evidence": "Permanent failure 2026-08-28 after three days of delays. speedeon.com has NS and A records but NO MX -- the \u00a786 'website with no mail server' case: RFC 5321 falls back to the A record, nothing listens on port 25, and the sender reports delays for days before giving up. NOT the registry route and NOT a problem: the broker is speedeon_data, its filed contact is accounting@speedeondata.com on a DIFFERENT domain, and that address produced a confirmation. This entry only stops a later pass retrying the wrong domain.",
       "response": "The domain itself is gone. Check whether a stranger has re-registered it before sending anything (SILENT_FAILURES 163)."
     },
     "privacy@tauxbe.com": {
@@ -433,7 +433,7 @@
     "security@audiencepoint.com": {
       "kind": "restricted_group",
       "observed": "2026-08-24",
-      "evidence": "Rejected as a restricted Google Workspace group, 2026-08-24. Not the registry's primary contact — privacy@audiencepoint.com (the correct, verified address) delivers fine.",
+      "evidence": "Rejected as a restricted Google Workspace group, 2026-08-24. Not the registry's primary contact \u2014 privacy@audiencepoint.com (the correct, verified address) delivers fine.",
       "response": "A privacy@ alias configured as an INTERNAL-ONLY group. It works for staff and silently rejects every consumer, so the company believes it works. Tell them, and use any alternate address. REPORTED 2026-08-29 via privacy@audiencepoint.com; retest before assuming it is still shut."
     },
     "slyster@idg.com": {
@@ -471,6 +471,20 @@
       "observed": "2026-08-20",
       "evidence": "550 5.1.1, 2026-08-20. The address published on their own site.",
       "response": "The mailbox is absent though the domain is healthy. Find another published address; the company may not know this one is dead."
+    },
+    "contact@contacts411.com": {
+      "kind": "dead_domain",
+      "observed": "2026-09-03",
+      "broker": "contacts411",
+      "evidence": "Repeated hard bounces 2026-08-25 through 2026-08-27 (4 DSNs); agent-proxy reports CONNECT tunnel failures / connection refused for both contacts411.com and www.contacts411.com -- no reachable web server either.",
+      "response": "The domain itself is gone. Check whether a stranger has re-registered it before sending anything (SIL_FAILURES pattern)."
+    },
+    "barrygold@contacts411.com": {
+      "kind": "dead_domain",
+      "observed": "2026-09-03",
+      "broker": "contacts411",
+      "evidence": "Repeated hard bounces 2026-08-25 through 2026-08-27 (4 DSNs); agent-proxy reports CONNECT tunnel failures / connection refused for both contacts411.com and www.contacts411.com -- no reachable web server either.",
+      "response": "The domain itself is gone. Check whether a stranger has re-registered it before sending anything (SIL_FAILURES pattern)."
     }
   }
 }

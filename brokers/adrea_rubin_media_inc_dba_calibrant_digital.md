@@ -1,13 +1,14 @@
 # Adrea Rubin Media, Inc. dba Calibrant Digital
 
-- **Email:** jennifer@calibrant.com (verified)
+- **Email:** info@adrearubin.com — **the sibling's address; calibrant.com itself has no mail server, see below**
+- **Email fallback (dead):** jennifer@calibrant.com — bounced, connection timeout
 - **Method:** email — Statutory request by email. No web form needed.
-- **Domain:** calibrant.com
+- **Domain:** calibrant.com (dead for mail — see below); using adrearubin.com's contact instead
 - **Priority: 2.**
 
 ## Status
 
-- Current: `failed` (updated 2026-08-31)
+- Current: `submitted` (updated 2026-09-03)
 - Note: 2026-08-26: the 2026-08-24 send to jennifer@calibrant.com has been
   bouncing with a connection timeout for 2 days (still inside Gmail's retry
   window). Checked calibrant.com directly: it now serves a **parked domain
@@ -48,3 +49,11 @@
 One letter addressed to both entities' registered contacts. See
 `adrea_rubin_marketing.md` for the reasoning and the asks. If they reply
 confirming the two are unrelated, split the threads and treat this separately.
+
+**Correction (2026-09-03):** the current send is again one combined letter to
+`info@adrearubin.com`, covering both brands — see `adrea_rubin_marketing.md`
+for the full account of where that (unverified, third-party-sourced) address
+came from and why it was tried despite this file's own prior recommendation
+to stop. calibrant.com's parked-domain status is unchanged and still worth
+treating as possibly re-registered by a stranger — do not derive any contact
+from that domain directly.

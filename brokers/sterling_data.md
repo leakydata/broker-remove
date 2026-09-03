@@ -1,21 +1,25 @@
 # Sterling Data Company LLC
 
-- **Email:** info@sterlingstrategies.co (bounced 2026-09-01 — no replacement found)
-- **Method:** email — Statutory request by email. No web form needed, but no live web route either (see below).
-- **Domain:** sterlingstrategies.co
+- **Email:** privacy@sterling.ai (found via their current CPPA registry filing)
+- **Email fallback (dead):** info@sterlingstrategies.co — hard-bounced, and the domain itself now serves an expired Squarespace page
+- **Method:** email — Statutory request by email. No web form needed.
+- **Domain:** sterling.ai (their actual current domain — sterlingstrategies.co is defunct)
 - **Priority: 2.**
 
 ## Status
 
-- Current: `unreachable` (updated 2026-09-01)
+- Current: `submitted` (updated 2026-09-03)
 - Note: 2026-08-31: sent the "unknown broker" categorisation letter (`_CATEGORY_VARIANTS.md`, "When you cannot tell what kind of broker it is") to info@sterlingstrategies.co — no public site content found describing the business, so asked the seven-way categorisation question rather than guessing.
-- Note: 2026-09-01: that letter hard-bounced (550 5.1.1, no such account) — the same address the CA data broker registry lists as current (registration #547507, checked via web search). `http://sterlingstrategies.co` returns HTTP 404 at the root, so there is no alternate contact page, privacy page, or form to fall back to. No other address for this business found anywhere. Registered address on file: 3407 Tulane Dr, Apt #12, Adelphi, MD 20783 (residential-looking address, not a corporate suite — worth noting for anyone deciding whether postal follow-up is worthwhile).
+- Note: 2026-09-01: that letter hard-bounced (550 5.1.1, no such account) — the same address the CA data broker registry lists as current (registration #547507). `http://sterlingstrategies.co` returned HTTP 404 at the root at the time.
+- **Correction (2026-09-03): the company has a live domain, just not the registered one.** `sterlingstrategies.co` now serves an expired Squarespace page (not merely a missing page — the domain lapsed entirely). The CPPA's *current* (2025) California Data Broker Registry filing for "Sterling Data Company LLC" lists an updated website, **sterling.ai**, and privacy contact `privacy@sterling.ai` — a live company that simply changed domains without updating anything pointing at the old one. Resent there. **Lesson generalised:** when a registered domain 404s or expires outright, check the *current* year's registry filing before concluding the company is gone — a lapsed *domain* and a lapsed *company* are different things, and the fresher filing pointed straight at the real one (see `yobi_ventures.md` for the same pattern the same session).
 
 ## Steps
 
-No live email route. If pursued further, the only option is postal mail to the
-registered address above — a human decision, not an automated one, given the
-address looks residential rather than corporate.
+1. Email `privacy@sterling.ai`, not `info@sterlingstrategies.co` (dead domain).
+2. If that also fails, postal mail to the address on the old CA filing
+   (3407 Tulane Dr, Apt #12, Adelphi, MD 20783) is the last resort — but check
+   for a current registered agent address first, since that one predates the
+   domain move and may be equally stale.
 
 ## Gotchas
 

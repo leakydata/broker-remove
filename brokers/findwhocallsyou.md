@@ -1,14 +1,16 @@
 # Findwhocallsyou
 
-- **Email:** contact@findwhocallsyou.com (verified)
+- **Email:** findwhocallsyou@gmail.com — **weak sourcing, see below**
+- **Email fallback (dead):** contact@findwhocallsyou.com — hard-bounced
 - **Method:** email — Statutory request by email. No web form needed.
-- **Domain:** findwhocallsyou.com
+- **Domain:** findwhocallsyou.com (site itself is behind a Cloudflare bot-challenge, could not be fetched to confirm on-site)
 - **Priority: 1.**
 
 ## Status
 
-- Current: `unreachable` (updated 2026-08-31)
-- Note: 2026-08-31 CORRECTION — this was previously recorded as `submitted`, written right after the send and before the bounce arrived. contact@findwhocallsyou.com hard-bounced (550, address not found) the same day. No alternate address found on the site or in any registry (directory-sourced entry, not a state filing).
+- Current: `submitted` (updated 2026-09-03)
+- Note: 2026-08-31 CORRECTION — this was previously recorded as `submitted`, written right after the send and before the bounce arrived. contact@findwhocallsyou.com hard-bounced (550, address not found). No alternate address found on the site or in any registry (directory-sourced entry, not a state filing).
+- **Correction (2026-09-03):** the company's own site is unreachable to automated fetching (Cloudflare challenge), so no on-site address could be confirmed. `findwhocallsyou@gmail.com` is cited as the removal contact by two independent third-party opt-out guides (joindeleteme.com, deletemyinfo.com) — a Gmail address for a company's official contact is itself a small yellow flag (worth noting, not necessarily disqualifying for a small operator). Sent there and asked to be redirected if wrong. Treat any reply's authenticity with a little more caution than usual until it's confirmed as genuinely theirs.
 
 ## Steps
 

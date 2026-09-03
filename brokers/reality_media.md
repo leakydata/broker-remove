@@ -1,13 +1,16 @@
 # Reality Media, Inc.
 
-- **Email:** [named individual]@realitymediainc.com (verified)
-- **Method:** email — Statutory request by email. No web form needed.
+- **Email:** [named individual]@realitymediainc.com — **hard-bounced repeatedly; realitymediainc.com has no MX record at all.** Do not resend to this domain.
+- **Web form:** https://realitydebtsolutions.com/do-not-sell-my-personal-information/
+- **Method:** web_form — the dedicated do-not-sell form on their actual working domain.
 - **Domain:** realitydebtsolutions.com
 - **Priority: 2.**
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-29)
+- Current: `manual_required` (updated 2026-09-03)
+- Note (2026-08-29): sent to [named individual]@realitymediainc.com, flagged at the time as a "weak" deliverability verdict (A record only, no MX — may or may not accept mail via RFC fallback).
+- **Correction (2026-09-03):** the "weak" send never got a bounce back, but never got a reply either — three DSN delay/failure notices arrived over the following days, confirming the weak-domain address genuinely does not work. realitydebtsolutions.com (their real operating domain, confirmed via their own privacy policy naming Reality Media Inc. as operator) has a working mail server but publishes no email address anywhere on site (checked /contact/, /privacy-policy/, /ccpaprivacy/, homepage footer — all WordPress pages, contact-form-only). It DOES have a dedicated do-not-sell form at the URL above. Queued to `handoff.py` for a human to submit, carrying the same debt-relief-specific asks as the original letter (see note below).
 - Note: Emailed [named individual]@realitymediainc.com 2026-08-29 (CA registry 2020-2023; FOUR flags on the queue row and the checks resolved all of them). LAPSED filing, DOMAIN-MISMATCH, person-shaped-ish address, and a 'weak' deliverability verdict. What the checks found: realitymediainc.com has NO MX RECORD AT ALL, only an A record, so mail may be accepted by the RFC fallback or may fail outright -- that is what check_email_domains flags as weak, and it is the first time this project has sent to one knowingly. Meanwhile the registry's OTHER domain, realitydebtsolutions.com, has live Google Workspace MX and a live site. So the mismatch flag was pointing at the BETTER domain, which is the reverse of the usual case. Their privacy policy resolves the identity: 'Reality Media, Inc, 1914 E. 9400 S. #201 Sandy, UT 84093' is named as the operator of Reality Debt Solutions -- one business, two domains, benign. No email address is published on any of their contact, privacy or about pages, so the register's weak-domain address is the only route; told them so in the letter and suggested adding an MX record or filing a contact on the working domain. SUBSTANCE: DEBT-RELIEF LEAD GENERATION IS FINANCIAL-DISTRESS DATA. The argument: the fact that a named person enquired about debt relief is itself an inference about their financial condition, and can bear on credit decisions, employment screening, insurance underwriting and tenancy -- consequences that do not depend on the inference being accurate, since a person wrongly placed in a debt-relief audience carries them just the same and cannot see the record to correct it. Five asks: am I in it, with a nil against named identifiers accepted; if so the SPECIFIC referring source, date and raw record rather than a summary, since their policy describes affiliates driving traffic and IF SOMEBODY ELSE SUBMITTED MY DETAILS ANY CONSENT RECORDED AGAINST THEM IS NOT MINE; who received it, quoting their own policy line about sharing contact information with third parties who may contact you, with forward-not-alter; the 1798.121 limit-use right exercised separately for any hardship, debt-level, delinquency or debt-relief-interest attribute; and a pre-emptive TCPA/TSR reservation on the phone numbers per 164, since lead forms in this sector routinely carry autodialer consent language.
 
 ## Steps

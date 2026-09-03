@@ -1,7 +1,7 @@
 # Email Marketing Services, INC
 
-- **Email:** dataprivacy2026@listmatch.com (verified — broker auto-reply)
-- **Email fallback (dead):** dataprivacy@listmatch.com — the address on their CA data broker registration
+- **Email:** jonathan@listmatch.com (verified — the person actually answering)
+- **Email fallback (dead):** dataprivacy@listmatch.com (CA registration address) and dataprivacy2026@listmatch.com, which itself started hard-bouncing 2026-09-01 — the year-suffixed alias rotates faster than anyone is tracking it. Write to the person, not the alias.
 - **Method:** email — Statutory request by email. No web form needed.
 - **Domain:** listmatch.co
 - **Priority: 2.**
@@ -28,6 +28,13 @@ pulled out of California") rather than lapsing, which explains why no current
 CA filing shows for this company. Also reported upstream: one of his named
 suppliers, `privacy@databaseusa.com`, hard-bounces — worth knowing if he ever
 pushes a suppression file that way.
+
+**Correction (2026-09-03):** `dataprivacy2026@listmatch.com`, the address this
+playbook and the registry both pointed at, itself hard-bounced on 2026-09-01 —
+confirming the gotcha below is not theoretical. The registry `email_to` was
+still set to the now-dead alias; repointed it to `jonathan@listmatch.com`
+directly, which is a named individual rather than a rotating mailbox and has
+proven reliable across several threads.
 
 ## Gotchas
 
