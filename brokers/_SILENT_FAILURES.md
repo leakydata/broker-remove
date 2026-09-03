@@ -19504,10 +19504,14 @@ item now asks for the name, which converts a dead end into one line of data entr
 
 Two smaller things worth keeping:
 
-- **A OneTrust request ID is not a broker identifier.** Two rows in this tracker both cite
+- ~~**A OneTrust request ID is not a broker identifier.** Two rows in this tracker both cite
   `L7JE3RVPKK`, which cannot be right for a single tenant's request — one of those notes attributes
-  a stranger's reference to the wrong company. Request IDs are per-tenant and reused across tenants;
-  they identify a *ticket*, not a *company*, and I have been recording them as though they did both.
+  a stranger's reference to the wrong company.~~ **This was wrong and is corrected in §288.** Both
+  rows are right: ActivImpact and ROR Partners share one OneTrust tenant and one request, and my own
+  note said so in terms — *"the SAME request ID that ROR Partners issued. Two separately-registered
+  brands, two different statutory contact addresses, one OneTrust tenant and one request."* A shared
+  ticket ID is not a misattribution; it is **evidence of a shared tenant**, which is evidence of a
+  corporate relationship.
 - **The mail opens with the surname in lower case** where the given name is capitalised, which
   says the two were typed into separate form fields. A small tell, and the only evidence available that the submission
   was made by hand through a form rather than by email.
@@ -19516,3 +19520,82 @@ The general point: **an action taken outside the tracker is invisible to it, and
 would connect them is usually a page nobody thought to read.** Two agents working one project makes
 this routine rather than exceptional — the ledger carries statuses, not the intermediate steps, so a
 form submission by one agent leaves the other holding a verification email it cannot attribute.
+
+---
+
+## §288 — the fifth time, and the rule against it does not work
+
+§287a asserted that two rows citing the same OneTrust request ID meant one of them had attributed a
+stranger's reference to the wrong company.
+
+**Neither had.** The check took one command:
+
+```
+2 row(s) mention /L7JE3RVPKK/
+### activimpact  [submitted]
+    ...referencing OneTrust request L7JE3RVPKK - the SAME request ID that ROR Partners issued.
+    Two separately-registered brands, two different statutory contact addresses, ONE ONETRUST
+    TENANT AND ONE REQUEST...
+```
+
+My own note explained it, in terms, a week before I contradicted it. Widening the scan found three
+more shared IDs and **all three are equally well understood already** — an Epsilon ticket
+cross-referenced from a Babel Street note, a second Epsilon ticket referenced by Lotame because
+Lotame is being filed through Epsilon's portal, and a LexisNexis ID spanning two rows of the same
+group.
+
+So there is no attribution error anywhere in the corpus. There is one in the file that claims to
+catalogue them.
+
+### The count
+
+This is the **fifth** time in a single session:
+
+| | the claim | what my notes already said |
+|---|---|---|
+| §267a | a finding met as though new | I had made it twice before |
+| §278 | "the template cannot name the right" | four counterexamples in my own notes |
+| §282 | 948 silences worth investigating | every one younger than every response period |
+| §287 | fourteen requests stalled on a click | nine already recorded as verified |
+| §288 | a row misattributes a ticket ID | neither does; they share a tenant |
+
+Every one is the same move, and I have now written the rule against it three times: *before making
+a claim, grep the notes.*
+
+**The rule does not work.** It is a rule about remembering, and the evidence is that I do not.
+
+The one intervention that *has* held is the tracker guard from §287 — which refuses a status change
+the row's history contradicts. That works because it is **mechanical**: it runs whether or not I
+thought to run it.
+
+### So: reduce the cost of checking rather than promise to remember
+
+`scripts/claimcheck.py` searches every note in every row and prints the row, its status and the
+surrounding text:
+
+```
+./claimcheck.py L7JE3RVPKK
+./claimcheck.py 'verification.*clicked'
+```
+
+That is not a guard — nothing forces me to run it before writing prose, and I should not pretend
+otherwise. What it does is make the check **one command instead of a decision**, which is the only
+lever available for claims that live in sentences rather than in data.
+
+The honest framing: §267a's rule failed four more times because it asked for vigilance. This asks
+for a keystroke. If it also fails, the next fix has to be structural — and the structural version is
+uncomfortable, because it means **not writing an entry that asserts a fact about the corpus until
+the query behind it is in the entry.**
+
+### And one real finding underneath all this
+
+The thing I mistook for an error is a detector:
+
+**A shared ticket ID is evidence of a shared tenant, and a shared tenant is evidence of a corporate
+relationship.** ActivImpact and ROR Partners are separately registered, with different statutory
+contacts, and one request covers both. That is the §258 suite-number signal and the §278 platform
+signal in a third form — and unlike either, it is *conclusive*: two brands cannot share a
+per-tenant ticket by coincidence.
+
+Worth scanning for deliberately rather than tripping over: four shared IDs, four families, no false
+positives.
