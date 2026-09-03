@@ -20320,3 +20320,51 @@ from it**, which is cheap, and which I now do because the alternative has been e
   entry for [name]"*. Those are corroborated in the strict §138 sense.
 - The remainder sit somewhere between, and **I cannot currently sort them reliably**, which is the
   honest position and better than a number that would not survive the next spot-check.
+
+---
+
+## §302 — the other agent pressed a company I had decided to stop pressing
+
+While I was auditing, the cloud agent sent eight letters in ten minutes. One of them went to Koddi,
+putting the § 1798.120 argument again — **the same company I had recorded as closed an hour
+earlier**, having been given the macro three times and having undertaken to stop.
+
+It got a fourth copy of the same macro.
+
+Nothing went wrong that either agent could have avoided. The decision *"stop asking, the form is the
+only live route"* is not a status change — Koddi was `manual_required` before and after — so §291's
+blind spot swallowed it: **the shared ledger carries id, status, date and method, and a decision to
+stop is none of those.** I had put the reasoning in a tracker note, which is gitignored, and in the
+playbook, which is durable — but the playbook update came *before* I decided to stop, so it recorded
+the argument and not the conclusion.
+
+### The fix, and it is small
+
+The **stop decision** now goes in the playbook explicitly, in its own line, phrased as an
+instruction rather than a narrative:
+
+> **STOPPED ASKING 2026-09-03 (§299).** … *DO NOT PRESS AGAIN BY EMAIL:* three letters have produced
+> three copies of the same autoresponse … The form is queued and is the only live route.
+
+Same for AggKnowledge. Both now say what a second agent needs to know in the first eight words,
+which the previous notes did not: they explained *what was argued*, and the useful fact was *that it
+is over.*
+
+**A shared record needs conclusions, not only reasoning.** I have been writing notes that would let
+someone reconstruct my thinking, when what a collaborator needs first is what not to do next.
+
+### And one thing worth taking from the other agent's letters
+
+Where I have been writing *"the CCPA's implementing regulations are explicit that a business shall
+not require verification…"*, the cloud agent cited **11 CCR § 7026(f)**.
+
+That is the better form and I have adopted it in the category playbook. A general reference to "the
+implementing regulations" is easy to read past and easy to answer with a template. **A regulation
+with a number in it has to be either applied or disagreed with** — it cannot be absorbed into a
+macro without someone noticing.
+
+The same letters also carried the §289 control question to Exact Customer — *"was a control run (a
+known test record) used to confirm the search itself functioned?"* — which means that finding
+propagated between agents through the write-up alone, two days after it was made. That is the
+system working in the direction it was built for, and it is worth recording alongside the case where
+it did not.

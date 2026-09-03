@@ -3666,9 +3666,14 @@ right the form is not a prerequisite for.
 ### The opt-out cannot lawfully be gated behind verification
 
 > An opt-out of sale and sharing **requires no verification of identity**. The CCPA's implementing
-> regulations are explicit that a business shall not require a consumer to verify themselves as a
-> condition of honouring one — because requiring proof of identity in order to stop a sale would
-> defeat the right it attaches to.
+> regulations say so in terms — **11 CCR § 7026(f)**: a business shall not require a consumer to
+> verify their identity as a condition of honouring an opt-out, because requiring proof of identity
+> in order to stop a sale would defeat the right it attaches to.
+
+**Cite the rule by number.** A general reference to "the implementing regulations" is easy to read
+past and easy to answer with a template; a regulation with a number in it has to be either applied
+or disagreed with. The other agent working this project used the citation and it is the sharper
+form — adopted here.
 
 And the reason is worth stating in the letter, because it is what makes the argument land rather
 than sound like lawyering:
