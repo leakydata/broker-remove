@@ -20002,3 +20002,60 @@ such a portal is honest and narrow in a way its completion notice will never say
   makes it exactly the kind of thing worth putting in front of one.
 - **Record which addresses a portal-sourced result covered.** A completion means "for the address
   that could be verified", and that is a materially smaller claim than it looks.
+
+---
+
+## §296 — the scoping question answered by email, and the exemption that answers itself
+
+I have written a version of the §235 entity question to a great many companies: *the register records
+that a company filed; it does not record what it filed about — which part of the business made the
+registration necessary?*
+
+Thomson Reuters answered it in three lines, by email, after first pointing me at a portal:
+
+> "Where required by applicable law, we have registered **West Publishing Corp** in data broker
+> registries. West Publishing Corp is the entity that holds the Thomson Reuters products that compile
+> information from public and other lawful sources… including the **CLEAR and Public Records on
+> Westlaw** family of products."
+
+**Entity, register position, and product family.** That converts a third-party directory listing —
+somebody else's judgement about them, which I had said in the letter I had no way to check — into a
+fact about their own corporate structure. It is the single most useful thing a large group can say
+to a request like this, and it took an email exchange rather than a DSR intake.
+
+The thing that got it: I replied to the portal redirect saying **the portal may not be necessary for
+this particular question** — *"'the listing is not accurate' or 'it belongs to the CLEAR side, here's
+who to write to' is a complete answer, and doesn't obviously need a full DSR intake with identifiers
+re-submitted through a form."* A scoping question is not a rights request, and saying so plainly is
+what let a human answer it as one.
+
+### And the exemption argument closed itself
+
+My first letter set up a fork I promised not to smuggle past them: I was not asking them to breach
+the FCRA, a consumer report is not deletable on request, and **§ 1798.145(d) is activity-scoped, not
+entity-scoped** — so if they relied on it, which category did it cover?
+
+Their answer names CLEAR. And Thomson Reuters' own published positioning is that **CLEAR is expressly
+not a consumer reporting product and not for FCRA-permissible purposes.** That is their limitation,
+not my inference — which means, on their own account, the FCRA exemption does not reach CLEAR data
+and the state-law rights apply to it undiminished.
+
+I put that as a proposition rather than a conclusion, and invited them to name any part of the family
+that *is* FCRA-regulated — which I would treat as out of scope and pursue under § 609 separately.
+**A fork offered honestly tends to get answered honestly**, and a company that has publicly disclaimed
+FCRA status for a product cannot then rely on the FCRA exemption for it without saying so out loud.
+
+### The one thing asked before using the portal
+
+> **Does the OneTrust DSR portal route to West Publishing Corp and reach CLEAR and Public Records, or
+> is there a separate intake?**
+
+This is the §293 check applied *before* submission rather than after. The failure being pre-empted is
+a group-level portal that accepts a request, returns a truthful completion, and never touches the
+subsidiary that holds the file — *a team searches what it owns, and "we found nothing" is entirely
+accurate about one system while silent about the others.*
+
+And for a public-records product the durability question matters more than anywhere else in this
+corpus: **the courthouse record does not change; only their copy does.** A deletion with nothing
+retained is rebuilt from the same sources at the next refresh, so the forward suppression is not a
+refinement — it is the entire remedy.

@@ -9,6 +9,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-20)
+- **2026-09-03 (§296):** SUBMITTED AND VERIFIED 2026-08-20. Human solved the CAPTCHA and pressed Submit; email verification link clicked at 16:36Z with ~10 min left on a 30-minute expiry. Portal now shows: 'Your erasure request has been received. Your data will be erased within 30 days.' Reference ID f7e04aba-0821-41d6-aaa4-4b5decb44754. Covers the cross-merchant controller layer for [primary address] only - one email per submission.
 
 ## Gotchas
 
