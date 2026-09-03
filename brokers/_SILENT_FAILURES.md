@@ -19831,3 +19831,58 @@ This is the first time in the recent run that I checked *before* writing rather 
 was two message fetches. It changed the finding from "another company sends duplicates" — which
 would have been wrong about the mechanism and would have missed the type field entirely — into two
 specific questions a company can actually answer.
+
+---
+
+## §293 — a completion for part of a request, read as completion of the request
+
+§292's Choreograph case — four completions all reading `Request Type: OPT_OUT` when the letter had
+asked for two rights — suggested a sweep. **Does any other row rest on a completion that covered
+less than was asked for?**
+
+The obvious query returned zero, which was suspicious rather than reassuring: the check keyed on
+notes that mention an opt-out and no deletion, and a note written by me will usually mention both
+because I wrote the letter. So I asked a different question — **which confirmed rows rest on a
+portal completion rather than a human statement** — and that found it.
+
+**Tunnl and Deep Root Analytics.** The removal itself was the fastest and cleanest of the project:
+the Ethyca Privacy Center returned *"Your data has been deleted"* about a minute after submission,
+the full cycle under two minutes, no CAPTCHA and no human step. Recorded as `confirmed`, correctly.
+
+But my own notes from the day recorded two limits, and neither was ever acted on:
+
+> *"Form takes ONE address only, so address history is not covered by a single submission."*
+> *"Confirm on the ticket that the deletion covers records held under the Deep Root name."*
+
+And §292 supplies a third: the submission was an **erasure**, and the portal completes one request
+type per submission — so there is no opt-out.
+
+### Three gaps, and each is invisible in a confirmation
+
+- **Sixteen addresses, one submission.** For an audience and household data company the address
+  history *is* the record. One address of sixteen was covered, and nothing in the flow says so. The
+  completion notice is entirely accurate about what it did.
+- **Erasure without opt-out.** A deletion removes what is held today; an opt-out governs what
+  happens next. For data refreshed from partners those are not alternatives — a deletion with
+  nothing retained is undone at the next ingest.
+- **Two brands, one portal.** Tunnl and Deep Root share a domain, a mailbox and an Ethyca instance.
+  I submitted through one and **assumed** it covered both. Two separately-named businesses can share
+  a privacy platform and still hold separate files.
+
+The row said `confirmed` and every word of the evidence behind it was true. **What was wrong was the
+inference: a completion for part of a request read as completion of the request.**
+
+### The general form, which is worth more than the row
+
+A portal that takes **one request type**, or **one address**, or **one brand** per submission will
+return a completion notice that is truthful about what it did and silent about the shape of what was
+asked. §292 is the request-type version; this is all three at once.
+
+So the check to run on any portal-sourced confirmation:
+
+1. **How many identifiers did the form accept, against how many were supplied?**
+2. **Which right did it record, against how many were asked for?**
+3. **Which legal entity did it act for, where a platform serves several?**
+
+None of those is answerable from the completion email, and all three are usually recorded in the
+note taken at submission — which is where I found them, a fortnight late, in my own writing.
