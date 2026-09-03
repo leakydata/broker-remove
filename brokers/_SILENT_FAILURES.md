@@ -20847,3 +20847,63 @@ restored; the warning count returns to zero.
 
 **A guard that has never fired is a claim, not a check.** This one has now fired once, under
 conditions I created on purpose, which is the difference between knowing it works and assuming it.
+
+---
+
+## §311 — the first nil in the corpus that is demonstrated rather than asserted, and the gate that stops the rest
+
+§300 counted 26 nils that are **asserted**: a company says it holds nothing, and from outside a
+careful search and a silently broken one emit the identical sentence. Four of the twenty-six are
+checkable because the company's product is a public search page. This is the first one checked.
+
+**criminal.com** wrote: *"does not own, store, or publish any personal records… we are an
+informational website and keep no database of individuals, so there is nothing on our end to remove
+or delete."*
+
+Their own FAQ already concedes the mechanism, in a sentence a reader skims past:
+
+> *"its optional name-search tool is provided by a third party and is not an official or certified
+> report."*
+
+So I ran their public search for the subject with city and state. **The form does not search
+anything.** It redirects straight to `truthfinder.com/search` with the identifiers as query
+parameters and a complete affiliate tag set — source `REVEN`, campaign `AG-Criminal:CM-Reveneo`,
+creative `CRE-criminalsearchbox`, plus a click id.
+
+**criminal.com holds no index, their letter was accurate, and the nil is now demonstrated.** That is
+one row out of 1,553 where the claim rests on something other than the company's own say-so.
+
+### The second finding is better than the first
+
+The search box is not a search box. **It is a data transfer.** A person who searches for *themselves*
+on criminal.com — exactly what a worried consumer does, and exactly what this project's own handoff
+note tells the user to do — hands their name, city and state to TruthFinder along with a tracking
+identifier.
+
+That reframes what a referral front is. I had `criminal_com` filed as a company with no data, which
+is true and which made it look harmless. It is better described as **a company whose product is
+generating queries about people and passing them to a broker.** Holding no records and creating
+records about who is being looked up are not the same thing, and my status vocabulary has no word
+for the second.
+
+### Where it stopped, and why that matters for the other three
+
+TruthFinder's results sit behind an **"I AGREE"** gate: a Terms of Use and Privacy Policy acceptance,
+with an FCRA certification attached.
+
+I stopped there. Accepting a company's terms is not mine to do on someone else's behalf, and a
+certification about the purpose of a search is exactly the kind of thing that should be clicked by
+the person it binds.
+
+But note what that means, because it is the finding rather than the limitation:
+
+> **Verifying whether a suppression held costs you a contract with the company you are verifying.**
+
+TruthFinder is already `confirmed` here — a PeopleConnect family display-suppression applied on
+27 August. Checking whether that suppression actually holds requires agreeing to TruthFinder's terms
+first. **The check has an entry price, and the price is paid to the party being checked.**
+
+That is not a conspiracy; it is an ordinary consequence of the product being a paid funnel. But it
+does mean the honest description of the remaining three checkable nils is not *"quick to verify"* —
+it is *"verifiable only by someone willing to accept the terms of the site being tested."* The
+handoff note has been left with the user for that reason, and it should say so.
