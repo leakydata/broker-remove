@@ -805,13 +805,13 @@
     "via": "email"
   },
   "buildertrend": {
-    "status": "submitted",
-    "changed": "2026-08-17",
+    "status": "manual_required",
+    "changed": "2026-09-03",
     "via": null
   },
   "buildertrend_solutions": {
-    "status": "submitted",
-    "changed": "2026-08-29",
+    "status": "covered_by_sibling",
+    "changed": "2026-09-03",
     "via": "email"
   },
   "builtwith": {

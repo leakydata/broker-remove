@@ -20660,3 +20660,68 @@ Whatever those 279 are, they are not registered California data brokers with a l
 are not companies publishing an address. The remaining honest description of them is **a catalogue of
 names**, and I should stop describing them as outstanding work — they are outstanding *leads*, and
 the difference matters for every coverage number that counts them in the denominator.
+
+---
+
+## §308 — 53 mailboxes received a request under more than one name, and I went looking for my own §297
+
+§307 found five catalogue rows that were really companies I had already written to. That raised an
+obvious worry about the other direction: **how often have I sent the same mailbox the same letter
+twice without noticing?** §297 — writing to Thomson Reuters twice — was one I caught by luck.
+
+So I indexed the whole registry by address rather than by id.
+
+- **70 addresses are shared by more than one registry row.**
+- **53 of those received a request under more than one id.**
+- The extremes: `privacy@courtrecords.us` covers **51** rows; `privacy@infotracer.com` covers **49**.
+- **41 shared addresses have rows marked submitted on more than one date** — the signature of a
+  second letter rather than one letter covering many properties.
+
+That 41 is the number that looked like 41 instances of §297.
+
+### It mostly is not, and the reason matters
+
+I checked five of the 41 against sent mail rather than against my own status file, because the status
+file is the thing under suspicion. Every one was defensible:
+
+- **CourtRecords.us — one letter, not 51.** Subject line: *covering all 51 CourtRecords.us
+  properties*, with all 51 domains enumerated in the body and a closing request to *"tell me which of
+  the properties above held a record about me."* The 51 statuses are earned by one well-scoped
+  letter. This is §276 done right.
+- **Alliant, Business Watch Network** — one letter each, two rows each. Fine.
+- **Alesco** — two letters, but the second is explicitly a different brand at a corrected address
+  (*Stat Resource Group LLC DBA Statlistics*). Splitting along the seam, not repeating.
+- **CRISIL** — two letters, scoped to different entities two weeks apart (Coalition Greenwich; then
+  CRISIL Irevna US LLC and the D&B record). Also fine.
+
+**Multiple ids at one address is usually correct bookkeeping, not duplicate sending.** A date spread
+in the status file is weak evidence of a repeat letter, because rows get marked when the *coverage*
+is established, not when the envelope goes out.
+
+### The one real defect, and it was not the one I was hunting
+
+`buildertrend` and `buildertrend_solutions` both carried `legal@buildertrend.com`. **No letter was
+ever sent there.** Every piece of real correspondence went to `privacy@buildertrend.com`, which
+replied twice. The registry held an address that had never been used and would have been used next
+time — and would then have looked, from the status file, exactly like a normal send.
+
+Corrected, with the old value retained in `email_verified_was` so the record shows the substitution
+rather than hiding it.
+
+### And what Buildertrend actually said, twice
+
+> *"It looks like your request wasn't submitted through the designated method outlined in Section X
+> of our Privacy Notice."*
+
+My second letter said plainly that I *wanted* the designated method and could not find Section X in
+the notice at their published URL. **The reply was the same macro, naming the same section.**
+
+A pointer to a section that cannot be located is not a designated method. It is a dead end shaped
+like an instruction, and it will read as a valid refusal to anyone auditing from inside the company.
+Recorded as stopped, per §302, as an instruction in the playbook rather than as narrative.
+
+### The method note worth keeping
+
+**Audit by the thing that identifies the request, not by the thing that organises your notes.** Every
+error in this section — the duplicate rows in §307, the stale address here — was invisible when
+looking at ids and obvious the moment the index key was the mailbox.
