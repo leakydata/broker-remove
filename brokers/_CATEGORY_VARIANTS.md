@@ -3647,3 +3647,58 @@ financial institution that issued your card" cannot reach it, because no card wa
 
 Ask about guarantor and trade-reference records **by name and as a separate search**. A query
 against the transaction store will not touch them.
+
+---
+
+## The company that refuses email and designates a form
+
+**Applies to:** any broker whose autoresponder says some version of *"we are unable to accept
+privacy rights requests via email"*, *"email is not a mechanism used for privacy rights requests"*,
+or *"requests submitted to this inbox will not be processed"*.
+
+Six rows in this corpus carry that refusal, and it is usually legitimate: a designated method is
+exactly what Cal. Civ. Code § 1798.130 contemplates, and a company that names a working destination
+is behaving better than one that goes silent.
+
+**Do not argue the channel.** Use the form. But send one further email first, because there is a
+right the form is not a prerequisite for.
+
+### The opt-out cannot lawfully be gated behind verification
+
+> An opt-out of sale and sharing **requires no verification of identity**. The CCPA's implementing
+> regulations are explicit that a business shall not require a consumer to verify themselves as a
+> condition of honouring one — because requiring proof of identity in order to stop a sale would
+> defeat the right it attaches to.
+
+And the reason is worth stating in the letter, because it is what makes the argument land rather
+than sound like lawyering:
+
+**There is nothing to verify.** The consumer is not asking to *receive* data and not asking to
+*alter* a record. They are asking to be excluded. *A wrongly-honoured opt-out discloses nothing to
+anyone and harms no one* — which is precisely why the regulations treat it differently from access
+and deletion, where a mistaken match hands one person's information to another.
+
+So the verification the form exists to perform is **not a precondition for § 1798.120**, and that
+half can be recorded from an email that has already arrived in a mailbox they read.
+
+### Ask for the refusal in writing, and say why
+
+> "If your position is that every right including the opt-out must go through the form, that is a
+> clear statement of policy and I will record it and stop asking. What I would rather avoid is the
+> question disappearing inside a general refusal of the channel — those are different things, and
+> only one of them is a decision."
+
+That framing does real work. It offers an easy exit, it makes silence conspicuous, and a company
+that *does* write the policy down has given you something quotable to put to the next one.
+
+### Two riders
+
+- **Where the autoresponder fires in seconds**, note it without complaint: a macro is not a reading,
+  so the substance of a letter cannot reach a person through that address even when part of that
+  substance is something the form cannot carry. Ask whether a human-monitored address exists for
+  correspondence *about* the process, as distinct from requests submitted through it.
+- **Where the company is a processor** — a mailing house, a payment platform, a CRM — add the
+  controller question: if a record exists as *customer* data, ask them to name the customer rather
+  than act outside their mandate, and separately claim whatever they hold *in their own right*
+  (deliverability records, normalised addresses, cross-customer suppression history), which is
+  theirs and not the client's.
