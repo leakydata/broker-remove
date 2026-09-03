@@ -20216,3 +20216,59 @@ the instruction rather than in a note about the company.
 
 **The rule: offer the exit, and then take it.** A letter that says *"if your position is X, say so
 and I will stop"* only means something if the silence is treated as the answer too.
+
+---
+
+## §300 — twenty-six unverifiable nils, three that can be checked, and one that was
+
+§289 established that a nil result is unfalsifiable from outside: a careful search and a silently
+broken query emit the same sentence. Counting how much of this corpus rests on that:
+
+```
+warn: [26] nil results are ASSERTED, not demonstrated -- no evidence the search
+could have found anything (see §289).
+```
+
+**Twenty-seven rows are settled on a stated nil. One is demonstrated.** Graze Social ran a positive
+control and said so. The other twenty-six are accurate as far as anyone can tell and unverifiable in
+principle.
+
+That count is now printed by `validate.py` on every run, with the caveat attached in the message
+itself: *not a fault of the brokers; a limit on what this corpus proves.* It belongs next to the
+totals rather than in a note nobody re-reads, because `not_found` reads like a settled outcome and a
+quarter of the settled outcomes are settled on somebody's word.
+
+### The three that can be checked, and why only three
+
+Sorting the twenty-seven by what the company actually does produces a sharp split:
+
+- **Twenty-four are unverifiable in principle.** B2B contact platforms, ad-tech, compilers, lead
+  brokers — their data is not public, so there is no observation available to me that could
+  contradict a nil. Asking again would produce the same sentence.
+- **Three are people-search sites** — `criminal.com`, `infopay.com`, `searchquarry.com` — plus a
+  fourth uncategorised one. **Their product is a public search page.** Which means the one category
+  where §289 does not bite is the category where the answer is on the open web.
+
+So a ten-minute queue item: search each site for the name and the current address, using the address
+history as the discriminator. **The free preview is enough** — what matters is whether a result
+exists at all, not what it says — and the instruction says explicitly not to create an account, pay
+for a report, or enter a card, because every one of those sites pushes toward a paid unlock.
+
+The three outcomes and what each is worth:
+
+- **No result** → the nil is corroborated, and it becomes the second demonstrated nil in the corpus.
+- **A result exists** → far more valuable: a company said in writing it held nothing while a public
+  page says otherwise, which is a specific, evidenced thing to put back to them *with the URL
+  attached.*
+- **Ambiguous** — a namesake, a different age, a different state → recorded as a namesake, not a hit.
+  The name is common, and I would rather record nothing than chase a stranger's listing.
+
+### The point underneath
+
+The corpus has 71 confirmed and suppressed rows and 51 not-founds, and I have been quoting those as
+a coverage figure. **A quarter of the negatives are unfalsifiable, and until tonight nothing in the
+tooling said so.** The honest version is not a smaller number; it is the same number with the
+distinction visible — *demonstrated*, *asserted*, and *checkable but unchecked.*
+
+Three of them are about to move out of the third category, which is the first time any of this has
+been testable at all.

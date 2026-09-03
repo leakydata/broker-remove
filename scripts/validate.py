@@ -442,6 +442,35 @@ def main():
                 f"committed playbooks hold: {', '.join(sorted(_thin)[:8])}"
                 + (" ..." if len(_thin) > 8 else ""))
 
+        # HOW MANY NILS ARE ASSERTED RATHER THAN DEMONSTRATED.
+        #
+        # A company that searched carefully and a company whose query silently
+        # returned zero send the identical sentence, so from outside every nil is
+        # unfalsifiable -- until one of them runs a positive control and says so
+        # (§289). One company in this corpus has. Reporting the count keeps the
+        # distinction visible instead of letting `not_found` read as settled.
+        #
+        # This is not a warning about the brokers. It is a warning about what the
+        # corpus can support, and the number should be quoted whenever the totals
+        # are.
+        _nil = re.compile(r"found no|no record|nothing on file|do ?n'?o?t have|"
+                          r"not have any|unable to (find|locate)|no match|"
+                          r"searched and found", re.I)
+        _demo = re.compile(r"positive control|ran (the same query|a control)|"
+                           r"control returned", re.I)
+        _asserted = []
+        for _b, _r in state.items():
+            if _r.get("status") not in ("not_found", "suppressed"):
+                continue
+            _n = " ".join((h.get("note") or "") for h in _r.get("history", []))
+            if _nil.search(_n) and not _demo.search(_n):
+                _asserted.append(_b)
+        if _asserted:
+            warnings.append(
+                f"[{len(_asserted)}] nil results are ASSERTED, not demonstrated -- "
+                f"no evidence the search could have found anything (see §289). "
+                f"Not a fault of the brokers; a limit on what this corpus proves.")
+
         TERMINAL = {"not_found", "confirmed", "suppressed"}
         for bid, rec in state.items():
             if rec.get("status") not in TERMINAL:
