@@ -19781,3 +19781,53 @@ private opinion. I keep reaching for whichever is nearest and treating it as com
 
 The rule, stated so the next instance is recognisable: **if a piece of work does not change a value
 the shared channel carries, the shared channel did not record it — and something else has to.**
+
+---
+
+## §292 — four completions, four request IDs, and the mechanism was not what I assumed
+
+I had grouped Choreograph with AggKnowledge (§280) as the same problem: a company sending the same
+completion notice several times. Before writing that up I checked, which §288 says to do and which I
+have failed to do five times.
+
+**It is a different mechanism, and the difference matters.**
+
+| | AggKnowledge | Choreograph |
+|---|---|---|
+| timing | five identical messages **in the same second** | four messages, **exactly one hour apart** |
+| request IDs | one request | **four different IDs** |
+| reading | one request notified repeatedly | **four request records created and completed** |
+
+`03069655-…` at 16:01; `ea69aba7-…` at 19:01. Same primary email, same request type, same completion
+date, different record each time — then it stopped.
+
+So this is not a noisy notifier. It is either something on my side submitting four times, or **one
+submission producing four request records on an hourly cycle.** I put both to them without choosing,
+because only they can tell, and said why the second would be theirs to care about: *a requester
+cannot distinguish four things happening from one thing happening four times* — and if it is a
+duplicate-creation loop, every requester gets it while the company's own queue carries four records
+each. Nothing about that is visible from the sending side.
+
+### And the more consequential thing the check surfaced
+
+All four notices read **`Request Type: OPT_OUT`** and nothing else. The letter asked for two things:
+deletion *and* opt-out.
+
+The opt-out is plainly done. What cannot be told from four completion notices is whether the
+deletion was processed under a record I was not notified about, folded into the opt-out, or **never
+carried through the intake at all** — because *a form that takes one request type per submission
+will silently drop the second right rather than reject the request.*
+
+That third possibility is a shape worth watching for generally. It produces a completion notice that
+is entirely truthful about the right it names and silent about the one it dropped, and the requester
+has no way to notice unless they compare the notice against what they actually asked for.
+
+**Downgraded from `confirmed` to `replied`.** I had recorded a completion as a confirmed removal when
+what completed was an opt-out, and the deletion half is unaccounted for.
+
+### The small win
+
+This is the first time in the recent run that I checked *before* writing rather than after. The cost
+was two message fetches. It changed the finding from "another company sends duplicates" — which
+would have been wrong about the mechanism and would have missed the type field entirely — into two
+specific questions a company can actually answer.

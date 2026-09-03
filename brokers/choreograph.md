@@ -9,6 +9,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-17)
+- **2026-09-03 (§292):** CORRECTED AND FOLLOWED UP 2026-09-03. Recorded as 'confirmed' yesterday on the strength of a portal completion; downgraded to replied because two things are open and one of my earlier readings was wrong. WHAT I GOT WRONG: I grouped this with AggKnowledge as a duplicate-message problem. IT IS NOT THE SAME MECHANISM. Checked before writing (SF 288): the four notices arrived at 16:01, 17:01, 18:01 and 19:01 -- exactly hourly, then stopped -- and THE REQUEST IDs DIFFER IN EACH (03069655-... first, ea69aba7-... last), same primary email, same type, same completion date. So these are FOUR SEPARATE REQUEST RECORDS created and completed an hour apart, not one request notified four times. AggKnowledge's were identical messages in the same second; this is a duplicate-creation cycle. Put both explanations to them without choosing: either something on my side submitted four times, in which case the fault is mine and I want to know, or one submission produced four records on an hourly cycle. Noted why it is theirs to care about: a requester cannot tell four things from one thing four times, and i
 - Note: Statutory delete/opt-out request emailed, tailored to the broker's data category; awaiting reply.
 
 ## Steps
