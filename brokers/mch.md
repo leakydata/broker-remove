@@ -8,6 +8,7 @@
 ## Status
 
 - Current: `manual_required` (updated 2026-08-19)
+- **2026-09-02 (§290):** OPT-OUT WEDGE PLUS THE INSTITUTIONAL-KEY QUESTION, sent 2026-09-02 (SILENT_FAILURES 290). MCH refuses email ('requests for removal from our database are not processed through this email address') and designates a form. Pressed the 1798.120 opt-out as the one right the form cannot be a prerequisite for, since it requires no verification and a wrongly-honoured opt-out discloses nothing and harms no one. SECOND AND MORE IMPORTANT POINT, SPECIFIC TO THIS COMPANY: MCH compiles data on PROFESSIONALS -- educators, healthcare and institutional staff -- keyed to where somebody WORKS rather than where they live. So a form asking for name, home address and personal email may be STRUCTURALLY UNABLE to find the record it exists to remove. Named [the closed university address] as the likely key and said why it is the right one here and the wrong one everywhere else: a live consumer file drops a closed university addre
 - Note: Auto-reply refuses email: 'requests for removal from our database are not processed through this email address. To submit a removal request, kindly complete the form available...' Needs the web form; queued.
 
 ## Steps

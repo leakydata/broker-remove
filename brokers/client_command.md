@@ -8,6 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-17)
+- **2026-09-02 (§290):** OPT-OUT WEDGE PLUS THE DERIVED-LAYER AND FCRA FORK, sent 2026-09-02 (SILENT_FAILURES 290). Client Command (Summit Resources, LLC) refused email by name -- 'email is not a mechanism used by Client Command for privacy rights requests' -- but gave the FULL OneTrust DSAR URL and a postal address, which is a better refusal than most. Pressed the 1798.120 opt-out as the one right no form can be a prerequisite for. THE COMPANY-SPECIFIC PART: their business is identifying IN-MARKET AUTOMOTIVE SHOPPERS for dealers, so the record is not principally a contact row -- it is a set of INFERENCES: in-market score, predicted purchase window, vehicle and trade-in interest, credit tier or affordability band. Argued three things about that: the inferences are personal information I never supplied and cannot see anywhere else; a deletion clearing source fields while leaving the score is a half-deletion AND T
 - Note: Statutory delete/opt-out request emailed, tailored to the broker's data category; awaiting reply.
 
 ## Steps
