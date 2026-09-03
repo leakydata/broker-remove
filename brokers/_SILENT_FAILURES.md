@@ -20977,3 +20977,57 @@ each *looked* like they had worked. The rule that comes out of it:
 
 > **A form is not submitted until something other than the absence of an error says so.** Read the
 > network request, scroll for the message, and prefer a page that changes to a page that does not.
+
+---
+
+## §313 — a company that tells you, in writing, that its opt-out expires
+
+SpyDialer's opt-out wizard asks for your state, then a reCAPTCHA, **before it asks for a single
+identifier**. I did not solve it — that is a standing rule here, and the point of the rule is that a
+CAPTCHA is a decision about whether a human is present, which is not mine to answer on someone
+else's behalf.
+
+Two things were visible without solving anything.
+
+### The gate is over its own quota
+
+On a clean load the widget carries a Google notice:
+
+> *"This site is exceeding reCAPTCHA Enterprise free quota."*
+
+That is the vendor telling the world the site is using more verification than it pays for. When a
+site exceeds quota, challenges can degrade or stop completing — and a consumer who hits that sees
+only a checkbox that will not tick. **They cannot tell whether the fault is the site's or their
+own browser's**, and nothing on the page suggests the former.
+
+So this is a route that may be broken for reasons entirely internal to the company, presenting as
+though the user failed.
+
+### And the notice says the opt-out decays
+
+This is the part worth keeping. From their Do Not Sell notice, verbatim:
+
+> *"we regularly receive new public records so even if you opt out, your publicly available
+> information may appear in our data products again in the future. We recommend you periodically
+> refresh your opt-out request using the methods described below."*
+
+**That is deletion-without-suppression, admitted in writing, by the company.** Every letter this
+project sends asks whether a suppression is *standing*, because a deletion that is not undone by the
+next ingest is worth little. Here the answer is printed on the site: it is not standing, it will be
+undone, and the burden of noticing and repeating is placed on the consumer.
+
+They are also candid about the basis. Honouring the opt-out for public-record data is done, in their
+words, *"as a courtesy"* — the publicly-available exemption, stated plainly rather than hidden.
+
+I would rather have this than a confident silence. **A company that tells you its remedy expires is
+more useful than one that lets you assume it did not**, and it converts a one-off task into a
+recurring one, which is a thing a person can actually plan for.
+
+### The route that was there all along
+
+The same notice offers a **phone number** as an equal alternative to the form. No CAPTCHA on that
+path at all.
+
+That is the second time this week the gate on the obvious route turned out to have a published
+bypass sitting next to it. It is worth reading the opt-out notice in full before fighting the
+opt-out form, because **the notice is where a company documents the routes it forgot to make hard.**
