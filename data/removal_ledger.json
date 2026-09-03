@@ -1425,8 +1425,8 @@
     "via": "email"
   },
   "datalane": {
-    "status": "not_found",
-    "changed": "2026-08-26",
+    "status": "suppressed",
+    "changed": "2026-09-03",
     "via": "reply"
   },
   "datalead": {
@@ -2725,8 +2725,8 @@
     "via": "email"
   },
   "intelius_us_search_us_search_pro": {
-    "status": "submitted",
-    "changed": "2026-08-30",
+    "status": "replied",
+    "changed": "2026-09-03",
     "via": "email"
   },
   "intent_iq": {
