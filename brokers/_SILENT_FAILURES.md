@@ -20725,3 +20725,70 @@ Recorded as stopped, per §302, as an instruction in the playbook rather than as
 **Audit by the thing that identifies the request, not by the thing that organises your notes.** Every
 error in this section — the duplicate rows in §307, the stale address here — was invisible when
 looking at ids and obvious the moment the index key was the mailbox.
+
+---
+
+## §309 — I found my own §297, four times over, and the fix is already visible in the archive
+
+Continuing the address-indexed audit from §308 into the next eight shared mailboxes. One of them is
+a genuine repeat, and it is mine.
+
+**`priorityoptout@intelius.com` received four separate near-identical letters:**
+
+| when | which site the subject line named |
+|---|---|
+| 15 Aug | Addresses.com |
+| 18 Aug 01:29 | easybackgroundchecks.com |
+| 18 Aug 10:13 | CriminalDataCheck.com |
+| 18 Aug 10:14 | ZabaSearch.com |
+
+Every subject line was the same standard request wording, differing only in the site named.
+
+The last two are **seventeen seconds apart**. A fifth followed on 26 August as a scope question.
+`support@mailer.intelius.com` similarly took three.
+
+This is §297 — the same letter twice — except I did it four times, to one mailbox, before I had ever
+written the rule down.
+
+### What makes it more than an embarrassment
+
+I wrote to AggKnowledge on 2 September criticising exactly this, in their direction:
+
+> *THEY SEE ONE SEND EVENT AND THE RECIPIENT SEES THE COUNT.*
+
+and warned that near-identical messages arriving in a burst are *"exactly the pattern spam filters
+catch,"* citing §281, where a company disclosed my letter had been sitting in their spam folder and
+**neither of us would otherwise have found out.**
+
+`priorityoptout@intelius.com` has never replied to any of the five. `support@mailer.intelius.com`,
+which received three, replies readily and at length. I cannot tell those two facts apart from here —
+a silent intake mailbox and a filtered one look identical from outside, which is the whole subject of
+this file. But I am no longer able to say the burst had no cost.
+
+### The fix is in the archive, dated
+
+The same mailboxes show me learning it in real time:
+
+- **17–18 Aug** — one letter per *site*, four to one address.
+- **20 Aug** — a single letter subject-lined *"one request, covering all sixteen sites on your
+  platform"*, sent once to nine addresses at that platform.
+- **16 Aug and after, for InfoTracer** — *"scope clarification, all 46 InfoTracer arrest-record
+  properties"*, then a single consolidated letter for **all 51 CourtRecords.us properties**.
+
+So the corpus contains both the mistake and its correction, four days apart, and §308's finding that
+51 rows rest on one well-scoped letter is the *mature* form of the same behaviour that produced four
+letters in 24 hours here.
+
+**The rule, stated where it belongs:** the unit of a request is the **mailbox**, not the site, not
+the brand, and not the registry id. If two rows resolve to one address, they get one letter that
+enumerates them — which is better for the recipient *and* strictly better evidence, because a single
+letter naming 51 properties is a document I can point at, while four letters naming one property each
+are four chances to be filtered and no record that the set was ever complete.
+
+### And one thing I will not do
+
+I am not writing to `priorityoptout@intelius.com` again to apologise or to consolidate. That would be
+a sixth message to a mailbox that has answered none of five, and §304's lesson applies: **when the
+channel has not responded, another message into it is not communication, it is volume.** The
+consolidated request is already on file there. The next move at PeopleConnect, if any, goes through
+`support@mailer.intelius.com`, which demonstrably reads its mail.
