@@ -20368,3 +20368,147 @@ known test record) used to confirm the search itself functioned?"* — which mea
 propagated between agents through the write-up alone, two days after it was made. That is the
 system working in the direction it was built for, and it is worth recording alongside the case where
 it did not.
+
+---
+
+## §303 — two companies that acquired a data broker, answering as if it had never existed
+
+Within four minutes of each other this morning, two companies replied to requests about data broker
+businesses they had bought. Neither reply mentioned the broker business. Both were, in their own
+terms, entirely accurate.
+
+**Fyllo** — *"As a marketing agency, Fyllo operates as a service provider or data processor for our
+clients… we recommend contacting the relevant data controller directly."* Then, unprompted and to
+their credit: *"Fyllo was founded in 2019 and was previously a registered data broker. Current
+management acquired the Fyllo brand and the marketing agency business line in early 2025. Fyllo did
+not acquire and does not currently operate a data broker business."*
+
+**Cint**, on a request naming Lucid Holdings, LLC — a registered California data broker Cint
+acquired in 2022 — replied with a canned notice offering four routes: survey panellists, three named
+European panel sites, an ex-employee address, and a candidate-data statement. **None of the four is a
+route for a person who was never a panellist.** The word *broker* does not appear.
+
+### The structure, which I had not seen before
+
+An acquisition can be **narrower than the name**. The buyer takes the brand and one business line;
+the database that made the company a registered broker stays with the seller, goes to a different
+buyer, or is wound up. Afterwards, the company that answers to the broker's name is telling the
+literal truth when it says it does not operate a data broker business — **and the records still
+exist somewhere, held by a party that no longer has a name a consumer would think to write to.**
+
+This is not evasion. It is what an asset purchase looks like from outside. But it means a
+consumer's request dead-ends in a company that is being honest, and the honest answer contains
+the only clue to where the data went.
+
+**So the question to ask is not "will you delete it" but "where did it go":**
+
+> Was the consumer database transferred to the seller, to a different buyer, or to an affiliated
+> entity — and if so, name that party. Or was it destroyed, in which case say so with a date, and
+> that is a complete answer.
+
+Both framings give the company an exit that costs it nothing, which is the only reason to expect
+an answer. I also asked Fyllo the part that does not depend on the answer: whether anything
+survives on present systems as backups, archives, or **agency audience segments seeded from or
+derived from the former broker database** — because a derived segment is still personal information,
+and changing business line does not delete it.
+
+### The second thing Cint said, which is the more useful one
+
+> *"Cint is not able to verify your identity by your name, as Cint uses a cookie or pixel."*
+
+That is candid and I would rather have it than a form. It has two consequences and they cut in
+opposite directions.
+
+**It cannot stop the opt-out.** 11 CCR § 7026(f): a business shall not require a consumer to verify
+their identity as a condition of honouring a request to opt out of sale or sharing. A business that
+*cannot* verify me is still required to act.
+
+**And it must not be solved the way they would solve it.** The obvious next move — supply the cookie
+ID so they can find the record — is one I refused before being asked, and said why:
+
+> *Sending you an identifier that presently has no name attached to it, in order to have it deleted,
+> would attach my name to it — which is the opposite of what I am asking for, and creates a linkage
+> that does not currently exist.*
+
+That is §234's mobile-advertising-ID rule read across to cookie IDs, and the reasoning is the same
+one that made the original rule right. **A pseudonymous record is a smaller harm than an identified
+one.** A deletion request that identifies the record first has, in the interval before the deletion
+runs — and permanently, in whatever logs the request itself generates — made things worse.
+
+So the ask becomes: *do you hold any record keyed to a name, email, postal address or phone number at
+all, as opposed to cookie or pixel identifiers alone? If no, say so — that is a nil, and it closes
+the file.* A company that genuinely cannot find me by name should find that the easiest question it
+has been asked.
+
+### And the loose end worth naming
+
+Their portal presumably drops an opt-out cookie. **A per-browser cookie opt-out does not survive a
+cleared cookie or a second device** — so I asked whether it records a durable suppression against an
+identity graph or only paints the browser it was clicked in. The answer determines whether their
+portal is a remedy or a gesture, and no privacy policy I have read distinguishes the two.
+
+---
+
+## §304 — the automation answered the question three humans would not
+
+Same platform, same evening, and the sixth firing of a bug I have been reporting to its customer
+since 30 August.
+
+On 2 September I sent RevOptimal a note that was **explicitly not a request** — it said so in its
+second line — whose entire purpose was to hand them evidence that their DSAR platform *can*
+distinguish "deleted" from "nothing found," because a sibling tenant's notices do exactly that.
+
+The platform ingested my letter as fresh requests and answered it at 18:32 with three separate
+completions: **Right to Erasure, Right to Opt-out of Data Sales, and Restriction of Processing.**
+
+Every previous firing produced one right. Three at once is new, and it sharpens the diagnosis rather
+than changing it: the system cannot tell a question from a request, **and then guesses which rights
+the question invoked.**
+
+### These are not wins and I have not recorded them as any
+
+Three terminal-looking confirmations arrived and the honest count of new confirmations is zero. They
+are artifacts of my own letter entering the request pipeline — the very defect the letter described.
+Counting them would be **§138 turned on myself**: a confirmation corroborated by nothing except the
+thing that produced it.
+
+This is worth stating plainly because the failure mode is so easy. The ledger would have accepted
+them. The subject lines are indistinguishable from real ones. Nothing but knowing where they came
+from separates a win from an echo.
+
+### One thing of real value came out of it anyway
+
+The erasure template carries a sentence I asked three humans for across three letters and never got:
+
+> *"Additionally, we have also taken steps within our system to ensure that your personal data will
+> not be collected, stored, shared, or processed in the future by RevOptimal."*
+
+That is question (c) — **is the suppression standing?** — answered in writing by the company. It
+arrived only because a machine mishandled a letter.
+
+I am recording it for what it is and no more: it is template boilerplate, so it is an **assertion
+about their configuration, not evidence about my record.** But it is their assertion, in writing,
+and it is the thing I was asking for. A claim a company makes to every requester is in some ways
+better than one made to me alone — it is harder to have been improvised, and easier to hold them to.
+
+### File closed
+
+I told them any answer would close it, and that I would rather have a real answer than a fourth
+confirmation. I have now had a fourth, fifth and sixth. **A seventh letter would produce a seventh
+confirmation** — and per §302 that conclusion belongs in the playbook, phrased as an instruction,
+where the other agent can see it before writing.
+
+### The four-right asymmetry, which is the general lesson
+
+Across the two tenants on this platform, the same evening produced:
+
+- **portability → a nil**: *"we were unable to find any matching records"*
+- **erasure → completed**
+- **opt-out → completed**
+- **restriction of processing → completed**
+
+**Portability is the only one of the four that reports on content.** The other three report on
+process — a job ran. That is why the nil is the only message in the set that carries information,
+and why, when a company offers a menu of rights, *the access or portability request is the one to
+send first even when deletion is what you want.* You cannot tell whether a deletion did anything.
+You can always tell whether a disclosure was empty.
