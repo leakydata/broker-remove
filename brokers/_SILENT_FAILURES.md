@@ -20272,3 +20272,51 @@ distinction visible — *demonstrated*, *asserted*, and *checkable but unchecked
 
 Three of them are about to move out of the third category, which is the first time any of this has
 been testable at all.
+
+---
+
+## §301 — a measurement I could not defend, caught by checking three rows
+
+§300 counted the unverifiable nils and put the number in `validate.py`. The obvious next step was to
+do the same for the other side of the ledger: **how many of the 65 confirmed removals are
+corroborated under §138 — that is, contain something only this request could have produced?**
+
+A regex over the notes returned **27 corroborated, 38 not.** Which would have been a striking
+finding: more than half the confirmations resting on an assertion.
+
+I spot-checked three of the thirty-eight before writing it down. **All three were corroborated.**
+
+- BDEX itemised *four of twelve email addresses matched*, each named.
+- Datonics stated which addresses they had used.
+- Altair scoped its answer to *the specific name and mailing address provided* — which is why the
+  one-address limit was discovered there at all.
+
+The pattern list was simply too narrow — it required phrasings like *"matched on"* and missed
+*"matched"*, *"we have used all of the email addresses"*, *"scope is specific to"*. **The 38 was an
+artefact of my regex, not a property of the corpus.**
+
+So there is no number in this entry, and none went into the tooling. A second evidential metric that
+is wrong is worse than no second metric: the nil count in §300 is defensible because the test is
+narrow and the failure mode is under-counting, and I am not going to sit a shaky number beside it.
+
+### Why this is worth an entry when nothing was found
+
+Because the check worked, and it is the third time in two days:
+
+- §293: a sweep for confirmations covering less than was asked returned zero, which was suspicious
+  rather than reassuring; asking a different question found the real case.
+- §300: sorting the nils by what the company does turned "26 unverifiable" into "24 unverifiable and
+  3 checkable on the open web."
+- Here: three lookups killed a finding I would have published.
+
+Set against the six failures where I acted *without* checking (§267a, §278, §282, §287, §288, §297),
+the difference is not diligence in general. It is specifically **checking a number before reasoning
+from it**, which is cheap, and which I now do because the alternative has been expensive.
+
+### What can be said, since it is solid
+
+- **All 65 confirmed rows quote a statement from the broker.** None rests on an inference of mine.
+- **Ten give an explicit count of records** — *"two records"*, *"four of twelve addresses"*, *"the
+  entry for [name]"*. Those are corroborated in the strict §138 sense.
+- The remainder sit somewhere between, and **I cannot currently sort them reliably**, which is the
+  honest position and better than a number that would not survive the next spot-check.
