@@ -20907,3 +20907,73 @@ That is not a conspiracy; it is an ordinary consequence of the product being a p
 does mean the honest description of the remaining three checkable nils is not *"quick to verify"* —
 it is *"verifiable only by someone willing to accept the terms of the site being tested."* The
 handoff note has been left with the user for that reason, and it should say so.
+
+---
+
+## §312 — four companies, one broken form, and the error is below the fold
+
+First session with a browser, and the first four form items in the queue turned out to be the same
+form. All four brokers designate a request page on `privacycompliance.biz`. All four pages post to
+**one Contact Form 7 instance, form id 705.**
+
+It does not work. Three separate defects, and they compound.
+
+### 1. The submission succeeds and the mail does not
+
+On ResearchUSA and HDML the POST reaches
+`wp-json/contact-form-7/v1/contact-forms/705/feedback` and returns **HTTP 200**. Then the page says:
+
+> *"There was an error trying to send your message. Please try again later."*
+
+The request is accepted and then lost. **There is no failed request on the company's side to notice,
+and no request at all on the consumer's.** This is the exact shape this file exists to document,
+except here I can see both halves at once: a 200 on the wire and a failure on the screen.
+
+### 2. The error is below the fold
+
+On a normal desktop window the message renders under the visible area. I only found it by scrolling
+after the page appeared unchanged. **A consumer who submits and does not scroll sees a page identical
+to one that worked.**
+
+That is what turns a bug into a silent failure. An error nobody reads is not an error message; it is
+a decoration on a page that lied.
+
+### 3. One sibling cannot be submitted at all
+
+AtoZdatabases refuses with:
+
+> *"Disabled! To enable, check the acceptance field."*
+
+**There is no acceptance field on the page.** I read the full accessibility tree — email, name, state,
+Send, and nothing else. On HDML and Salesflower the same input exists in the DOM but is invisible, so
+the defect is present everywhere and only *fires* where the template requires it. A consumer at
+AtoZdatabases has no route whatsoever: the form tells them to tick a box that does not exist.
+
+### And a fourth thing, which is not a bug but is worse
+
+**Four companies' request pages post to the same form.** Unless a hidden field carries the tenant,
+whoever receives these submissions cannot tell which company any given request was meant for. That
+affects the requests that *do* get through, whenever delivery is restored.
+
+I have no way to see the hidden fields from outside, so I put it to them as a question rather than a
+finding.
+
+### What I did
+
+Only one of the four has an email address on record. I sent it the bug report **and** the request
+itself, on the principle that a report the company can act on is worth more than a complaint, and
+asked two things: whether requests submitted since the break were lost and roughly since when — with
+*"we cannot tell"* explicitly accepted as a real answer — and the standing §138 question of whether
+anything was actually found.
+
+The other three are recorded `failed`, not `submitted`. **They have no working channel**, and marking
+them submitted would put four rows in the corpus asserting a request that provably never left the
+page.
+
+### The lesson for the queue
+
+I have 53 more form items. This one took four attempts to understand and the first three attempts
+each *looked* like they had worked. The rule that comes out of it:
+
+> **A form is not submitted until something other than the absence of an error says so.** Read the
+> network request, scroll for the message, and prefer a page that changes to a page that does not.

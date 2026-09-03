@@ -510,8 +510,8 @@
     "via": "email"
   },
   "atozdatabases": {
-    "status": "submitted",
-    "changed": "2026-08-28",
+    "status": "failed",
+    "changed": "2026-09-03",
     "via": "web"
   },
   "attom_data_solutions": {
@@ -2420,8 +2420,8 @@
     "via": null
   },
   "hdml": {
-    "status": "submitted",
-    "changed": "2026-08-28",
+    "status": "failed",
+    "changed": "2026-09-03",
     "via": "web"
   },
   "health_union": {
@@ -4715,8 +4715,8 @@
     "via": "email"
   },
   "researchusa": {
-    "status": "submitted",
-    "changed": "2026-08-28",
+    "status": "replied",
+    "changed": "2026-09-03",
     "via": "email"
   },
   "resonate": {
@@ -4880,8 +4880,8 @@
     "via": "email"
   },
   "salesflower": {
-    "status": "submitted",
-    "changed": "2026-08-28",
+    "status": "failed",
+    "changed": "2026-09-03",
     "via": "web"
   },
   "salesforce": {
