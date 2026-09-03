@@ -16,14 +16,10 @@
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+- **`privacy@reklaimyou.com` (their current-policy address) hard-bounces (550, no such address)** even though the site itself has moved to reklaimyou.com — a live site does not imply a live mailbox at the same domain. `privacy@reklaimyours.com` (the CA register address, plural "reklaimyours") is the one that actually works.
+- **The auto-reply is account-shaped and answers nothing for a non-member.** It fires on any message to `privacy@reklaimyours.com` and links only to "Do Not Sell", "Delete My Account" and the privacy policy — every one of them assumes an existing account. A person who has never joined has nothing to opt out of and no account to delete, so the auto-reply is a complete non-answer to "do you hold data about me, and where from" — the actual question a non-member on a data-broker register needs answered. Flagged this explicitly in the follow-up rather than working through the links.
+- **The register listing is itself the leverage.** A company on the CA data broker register is registered *because* it sells data on people with no direct relationship — so "I was never a member" is not a dead end, it's the reason the letter is addressed to them at all.
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+Awaiting a substantive (human) answer to whether any record exists and, if so, its source. The auto-reply does not count as an answer. Re-check in ~1-2 weeks if silent.

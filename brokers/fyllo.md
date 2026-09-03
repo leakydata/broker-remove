@@ -1,14 +1,16 @@
 # Fyllo
 
-- **Email:** info@hellofyllo.com (verified)
+- **Email:** privacy@hellofyllo.com (verified — named on their own privacy policy)
+- **Email fallback (dead):** info@hellofyllo.com — hard-bounced 2026-09-02
 - **Method:** email — Statutory request by email. No web form needed.
 - **Domain:** hellofyllo.com
 - **Priority: 2.**
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-27)
-- Note: Opt-out letter sent by email to info@hellofyllo.com (delete + opt out of sale/sharing + direct downstream recipients + suppress against future ingestion). All twelve email addresses, sixteen prior addresses and eleven prior phone numbers listed for search. Sent as HTML per letter_html.
+- Current: `submitted` (updated 2026-09-03)
+- Note: 2026-08-27: Opt-out letter sent by email to info@hellofyllo.com (delete + opt out of sale/sharing + direct downstream recipients + suppress against future ingestion). All twelve email addresses, sixteen prior addresses and eleven prior phone numbers listed for search. Sent as HTML per letter_html.
+- **Correction (2026-09-03):** info@hellofyllo.com hard-bounced. `privacy@hellofyllo.com` is named directly in hellofyllo.com/legal/corporate-privacy-policy ("To exercise any other applicable privacy right under this Policy, please contact us at privacy@hellofyllo.com") — a dedicated privacy contact was there the whole time, just not the one guessed originally. Resent.
 
 ## Steps
 

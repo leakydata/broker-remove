@@ -54,3 +54,5 @@ behind. If the domain is ever reinstated, or a successor entity appears in a
 later state registration under the same legal name, the route reopens.
 
 > **Correction (2026-08-25):** That same day's run sent another request to `barrygold@contacts411.com (plus an unverified contact@contacts411.com added as a guess)`, which this playbook already recorded as `unreachable` earlier the same day. Same root cause as the note above (registry email_to didn't reflect this playbook's own status) — no new information, no status change.
+
+> **Re-confirmed (2026-09-03):** re-checked rather than taking the 2026-08-25 finding on faith. Still dead: the agent egress proxy reports outright connection failures (CONNECT tunnel rejected) for both `contacts411.com` and `www.contacts411.com` — not just no mail, no reachable web server either. Both bounced addresses (`contact@` and `barrygold@`) now recorded in `dead_addresses.json` as `dead_domain`. No change to the `unreachable` status; this closes the gap where that status had never actually been logged against the address in the shared dead-address file.

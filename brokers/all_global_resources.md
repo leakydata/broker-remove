@@ -40,3 +40,5 @@
 ## Verification
 
 <!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+
+**Re-confirmed (2026-09-03):** agrgroupinc.com is now unreachable from every angle (DNS/connect failures on all attempts, not just HTTP), and the company is absent from the CPPA's current (2025) data broker registry entirely — the 2024 filing that named the already-dead `lzepeda@` address appears to have lapsed rather than been renewed. Consistent with the company having wound down since the original registration. No further route found; the postal fallback noted above remains the only option if this is ever pursued further.

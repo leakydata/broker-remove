@@ -160,8 +160,8 @@
     "via": "email"
   },
   "adrea_rubin_media_inc_dba_calibrant_digital": {
-    "status": "unreachable",
-    "changed": "2026-09-02",
+    "status": "submitted",
+    "changed": "2026-09-03",
     "via": "email"
   },
   "adsquare": {
@@ -370,8 +370,8 @@
     "via": null
   },
   "anexinet": {
-    "status": "failed",
-    "changed": "2026-09-02",
+    "status": "covered_by_sibling",
+    "changed": "2026-09-03",
     "via": null
   },
   "ansonia_credit_data": {
@@ -1330,8 +1330,8 @@
     "via": null
   },
   "customer_communications": {
-    "status": "unreachable",
-    "changed": "2026-08-28",
+    "status": "failed",
+    "changed": "2026-09-03",
     "via": "email"
   },
   "cybba": {
@@ -1470,8 +1470,8 @@
     "via": "email"
   },
   "date_detective": {
-    "status": "submitted",
-    "changed": "2026-08-25",
+    "status": "unreachable",
+    "changed": "2026-09-03",
     "via": null
   },
   "dato_capital": {
@@ -1745,8 +1745,8 @@
     "via": "web"
   },
   "edgein": {
-    "status": "manual_required",
-    "changed": "2026-09-02",
+    "status": "submitted",
+    "changed": "2026-09-03",
     "via": null
   },
   "edvisors_network": {
@@ -2020,8 +2020,8 @@
     "via": "email"
   },
   "findwhocallsyou": {
-    "status": "unreachable",
-    "changed": "2026-08-31",
+    "status": "submitted",
+    "changed": "2026-09-03",
     "via": "email"
   },
   "finsum": {
@@ -2225,8 +2225,8 @@
     "via": null
   },
   "fyllo": {
-    "status": "unreachable",
-    "changed": "2026-08-27",
+    "status": "submitted",
+    "changed": "2026-09-03",
     "via": null
   },
   "g2_stack": {
@@ -2615,8 +2615,8 @@
     "via": "email"
   },
   "infocore": {
-    "status": "acknowledged",
-    "changed": "2026-09-02",
+    "status": "replied",
+    "changed": "2026-09-03",
     "via": "email"
   },
   "infofree": {
@@ -3195,8 +3195,8 @@
     "via": null
   },
   "lucid": {
-    "status": "failed",
-    "changed": "2026-09-02",
+    "status": "covered_by_sibling",
+    "changed": "2026-09-03",
     "via": null
   },
   "lusha": {
@@ -4310,8 +4310,8 @@
     "via": "email"
   },
   "precisely_software_placeiq": {
-    "status": "failed",
-    "changed": "2026-09-02",
+    "status": "covered_by_sibling",
+    "changed": "2026-09-03",
     "via": null
   },
   "preferred_communications": {
@@ -5310,8 +5310,8 @@
     "via": "email"
   },
   "sterling_data": {
-    "status": "unreachable",
-    "changed": "2026-09-02",
+    "status": "submitted",
+    "changed": "2026-09-03",
     "via": null
   },
   "stirista": {
@@ -5780,13 +5780,13 @@
     "via": "email"
   },
   "valassis_communications_inc_a_vericast_business": {
-    "status": "unreachable",
-    "changed": "2026-08-31",
+    "status": "submitted",
+    "changed": "2026-09-03",
     "via": "email"
   },
   "valassis_communications_inc_an_rrd": {
-    "status": "email_pending",
-    "changed": "2026-08-31",
+    "status": "submitted",
+    "changed": "2026-09-03",
     "via": "email"
   },
   "vdx_tv": {
@@ -6130,8 +6130,8 @@
     "via": "email"
   },
   "yobi_ventures": {
-    "status": "covered_by_sibling",
-    "changed": "2026-09-02",
+    "status": "submitted",
+    "changed": "2026-09-03",
     "via": "email"
   },
   "zabasearch": {

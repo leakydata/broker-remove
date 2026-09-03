@@ -1,14 +1,15 @@
 # Edgein
 
-- **Email:** privacy@mentibus.com — **confirmed dead, hard-bounces 550. Do not resend.**
-- **Method:** email attempted, now `manual_required` — web contact form only
+- **Email:** webmaster@mentibus.com (untested, non-privacy-specific — see below). **privacy@mentibus.com confirmed dead, hard-bounces 550 three separate times. Do not resend to it again.**
+- **Method:** email — Statutory request by email. No web form needed, though one exists as backup.
 - **Web form:** https://www.mentibus.xyz/contact
-- **Domain:** edgein.io (redirects to www.mentibus.xyz)
+- **Domain:** edgein.io (redirects to www.mentibus.xyz / mentibus.com)
 - **Priority: 1.**
 
 ## Status
 
-- Current: `manual_required` (updated 2026-09-02)
+- Current: `submitted` (updated 2026-09-03)
+- **Note (2026-09-03):** sent to `webmaster@mentibus.com`, the only other address published anywhere on the site (page footer) — not privacy-specific, so the letter explicitly asked to be routed to whoever handles privacy requests and flagged that the company's own published privacy contact does not accept mail. This is the fourth distinct attempt at this company (three variants of `privacy@`/`policy@` across `.com`/`.xyz` all bounced). If this also bounces or goes unanswered, the only route left is the B2B-intake contact form.
 - **Note (2026-09-02): the published contact address does not exist.** All three variants tried
   hard-bounce 550 "address not found": `policy@mentibus.com`, `privacy@mentibus.xyz`,
   `privacy@mentibus.com`. The third is the address Mentibus's *own current* privacy policy

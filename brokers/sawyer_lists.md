@@ -35,3 +35,5 @@ website. Check the response body, not just whether the domain resolves.
 ## Verification
 
 Nothing to verify. Re-check both domains periodically for signs of a real site.
+
+**Re-confirmed (2026-09-03):** still the same picture — sawyerlists.com has no MX and no A record at all (confirmed via DNS-over-HTTPS lookup), and every path on sawyerdatadirect.com, including /privacy-policy, client-side-redirects to the same GoDaddy parking lander. No change.
