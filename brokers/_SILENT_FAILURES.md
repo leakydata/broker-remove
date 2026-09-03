@@ -20512,3 +20512,47 @@ process — a job ran. That is why the nil is the only message in the set that c
 and why, when a company offers a menu of rights, *the access or portability request is the one to
 send first even when deletion is what you want.* You cannot tell whether a deletion did anything.
 You can always tell whether a disclosure was empty.
+
+---
+
+## §305 — four published addresses, four hard bounces, and the last one was in the footer
+
+Mentibus, formerly EdgeIn. Today `webmaster@mentibus.com` returned 550 *address not found* — the
+**fourth** dead address at this one company, and the last one printed anywhere on its live site.
+
+The full tally:
+
+- `privacy@mentibus.com` — bounced three separate times. **This is the address their own current
+  privacy policy names as the contact for rights requests.**
+- `policy@mentibus.com` — bounced.
+- `privacy@mentibus.xyz` — bounced.
+- `webmaster@mentibus.com` — bounced today. Taken from the page footer, i.e. not a privacy address
+  at all; I used it because nothing else remained and asked in the letter to be routed onward.
+
+### Why I am stopping rather than trying a fifth
+
+There is no fifth *published* address, and I will not guess one. §266 already establishes why: a
+guessed local-part that happens to reach a real mailbox is **a letter about a stranger's data sent to
+a stranger**, which is a worse outcome than not writing. The rule is that an address gets used only
+if the company published it, and this company has now published four and staffed none.
+
+### What makes this the cleanest case in the corpus
+
+Most silent failures in this file are ambiguous — a request that may have been processed
+invisibly, a nil that may or may not be real. This one is not ambiguous at all. **A consumer
+following the company's own privacy policy exactly, to the letter, reaches nothing** — and unless
+they happen to read the bounce carefully, they will believe they filed a request.
+
+That is the failure mode the whole file is about, in its most literal possible form: the published
+rights channel is a dead mailbox, and the company cannot know, because **bounces go to the sender,
+not to the recipient.** Nobody at Mentibus has any way to discover this from inside.
+
+So the form message I queued does double duty. It files the request, and it tells them the thing
+only an outsider can see:
+
+> *"Please also fix the published address, because every other consumer trying to reach you is
+> hitting the same wall silently."*
+
+The remaining route is a B2B sales-intake form at `mentibus.xyz/contact` — not a rights form, which
+means the message body has to carry the entire request. Queued for handoff rather than abandoned,
+because a bad channel that exists beats a good channel that does not.

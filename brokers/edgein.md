@@ -1,12 +1,14 @@
 # Edgein
 
-- **Email:** webmaster@mentibus.com (untested, non-privacy-specific — see below). **privacy@mentibus.com confirmed dead, hard-bounces 550 three separate times. Do not resend to it again.**
+- **Email:** NONE LIVE. `webmaster@mentibus.com` hard-bounced 550 on 2026-09-03 — the FOURTH dead address at this company. **privacy@mentibus.com confirmed dead, hard-bounces 550 three separate times. Do not resend to it again.**
 - **Method:** email — Statutory request by email. No web form needed, though one exists as backup.
 - **Web form:** https://www.mentibus.xyz/contact
 - **Domain:** edgein.io (redirects to www.mentibus.xyz / mentibus.com)
 - **Priority: 1.**
 
 ## Status
+
+- **ALL EMAIL ROUTES EXHAUSTED 2026-09-03 (§266b, §305).** Four distinct published addresses, four hard bounces: `privacy@mentibus.com` (x3), `policy@mentibus.com`, `privacy@mentibus.xyz`, and now `webmaster@mentibus.com` — the last being the only address printed anywhere on the live site. *DO NOT ATTEMPT ANOTHER ADDRESS AT THIS COMPANY BY EMAIL:* there are no more published ones, and guessing would be a letter about a stranger's data if it landed. THE ONLY REMAINING ROUTE IS THE CONTACT FORM at https://www.mentibus.xyz/contact, which is a B2B sales intake rather than a rights channel. Queued for handoff.
 
 - Current: `submitted` (updated 2026-09-03)
 - **Note (2026-09-03):** sent to `webmaster@mentibus.com`, the only other address published anywhere on the site (page footer) — not privacy-specific, so the letter explicitly asked to be routed to whoever handles privacy requests and flagged that the company's own published privacy contact does not accept mail. This is the fourth distinct attempt at this company (three variants of `privacy@`/`policy@` across `.com`/`.xyz` all bounced). If this also bounces or goes unanswered, the only route left is the B2B-intake contact form.
