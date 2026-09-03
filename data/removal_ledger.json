@@ -3520,8 +3520,8 @@
     "via": "email"
   },
   "moneybot5000": {
-    "status": "manual_required",
-    "changed": "2026-08-19",
+    "status": "replied",
+    "changed": "2026-09-03",
     "via": "reply"
   },
   "monitorbase": {
@@ -4595,8 +4595,8 @@
     "via": "email"
   },
   "realsatisfied": {
-    "status": "submitted",
-    "changed": "2026-09-01",
+    "status": "replied",
+    "changed": "2026-09-03",
     "via": "email"
   },
   "realsource_data": {
