@@ -8,6 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-17)
+- **2026-09-02 (§291):** AUTORESPONDER ROUTES BACK TO THE FLOW THAT FAILED. Replying to my 2026-09-02 re-file, privacy@cadent.com (note: a different domain from the cadent.tv address I wrote to) returned a form letter: 'To submit a data rights request, please complete the form which can be found here: https://privacy.cadent.tv/privacy/#/verify-email. We aim to resolve your request within 45 days.' That is THE SAME verify-email flow the 17 August request died in -- the one whose confirmation mail gives 24 hours -- and the letter it answers was specifically about that window. THE LOOP, put to them without complaint attached: the only route they accept has a one-day expiry, and the channel that could bypass it answers by pointing at the route, so a person who misses the window twice has no third option. Not deliberate; it is what two reasonable rules produce when they meet. THE WEDGE USED: asked them to action the 1798.120 SALE/SHARING OPT-OUT FROM EMAIL ALONE, since that right REQUIRES NO IDENTITY VERIFICATION -- the CCPA regulations are explicit that a business shall not require verification as a condition of
 - Reference: `tracking code on file`
 - Note: Household opt-out of sale/share (incl. targeted advertising and sensitive PI) submitted and acknowledged by email with a tracking code. Access and Delete remain unexercised because both require a device ID the consumer cannot produce. Stated turnaround 45 days.
 

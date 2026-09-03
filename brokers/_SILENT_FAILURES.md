@@ -19725,3 +19725,59 @@ The handoff item does not say "submit the form". It says:
 A 24-hour window is not a difficulty, it is a *scheduling constraint*, and writing the instruction
 without it is how the first attempt was lost. **An item that can expire needs its expiry in the
 instruction, not in a note about the company.**
+
+---
+
+## §291 — the work the ledger cannot see
+
+Two letters went out yesterday evening — the opt-out wedge to the last two companies refusing email
+— and `git commit` answered:
+
+```
+nothing to commit, working tree clean
+```
+
+Both were real letters, carefully argued, to rows that needed them. Neither changed a status: MCH was
+`manual_required` before and after; Client Command was `submitted` before and after. **The shared
+ledger carries id, status, date and method — so a letter that does not move a status is invisible in
+it.**
+
+That trade is right and I would not undo it (§268): notes quote broker replies verbatim and carry
+addresses and ticket references, and this repository is public. But the blind spot has a shape worth
+naming, because it catches **exactly the letters most worth knowing about**:
+
+- a **follow-up** to a company already recorded as blocked
+- an **opt-out wedge** to a row already `submitted`
+- a **correction** sent to fix my own error
+- and the answers to any of them that do not change the outcome
+
+All real work. None of it a status move. The other agent would never learn any of it happened, and
+would be entitled to conclude from the ledger that those rows had been untouched for days.
+
+### The fix is to make the gap audible, not to widen the ledger
+
+`sync_status.py` now reports it:
+
+```
+  5 row(s) had activity today that DID NOT move a status,
+  so the ledger cannot carry it: client_command, graze_social, koddi, lob_com, mch
+  If any of that was a letter or a finding, put it in the playbook -- brokers/<id>.md --
+  or the other agent will never see it.
+```
+
+It ran once and immediately caught a fifth row I had already missed: **`graze_social`** — the
+positive-control exchange (§289), the single most useful reply of the project, sitting entirely in a
+gitignored file. Six playbooks were updated as a result, including that one.
+
+### The general shape, which is now a small family
+
+Three failures in this file share it. **§270**: a ledger write deleted rows it could not see in its
+own view. **§285**: statuses were read as evidence of activity they did not carry. And this: activity
+occurred that the shared channel had no field for.
+
+Each is a case of **a sanitised or summarised channel being mistaken for the record itself.** The
+ledger is a cache of one fact per row. The playbook is the durable channel. The status file is a
+private opinion. I keep reaching for whichever is nearest and treating it as complete.
+
+The rule, stated so the next instance is recognisable: **if a piece of work does not change a value
+the shared channel carries, the shared channel did not record it — and something else has to.**

@@ -8,6 +8,7 @@
 ## Status
 
 - Current: `pending`
+- **2026-09-02 (§291):** VOLUME NOTE SENT 2026-09-02, after crediting the same-day template change. THE FIX LANDED ON THE VISIBLE DEFECT AND LEFT THE ADJACENT ONE: the wording now names the right and states an outcome, but the evening's delivery was FIVE identical 'completed' messages all timestamped 19:00:44, TWO identical portability nils two seconds apart, and TWO identical completions 3.5 minutes apart earlier -- nine messages for one set of requests. Told them the asymmetry: THEY SEE ONE SEND EVENT AND THE RECIPIENT SEES THE COUNT. Two reasons beyond tidiness: (1) five identical messages in the same second is exactly the pattern spam filters catch, so if a provider starts junking them the NEXT requester never sees the improved wording and the company cannot know, since filtering is invisible to the sender -- cited SILENT_FAILURES 281, where a company disclosed my letter had been in their spam folder and neither of us would otherwise have found out; (2) a person receiving one clear nil reads it, a person receiving nine near-identical automated messages skims, and the useful sentence is the one most likel
 
 ## Steps
 

@@ -191,6 +191,34 @@ def main():
                   "recovered from git, but statuses are a floor, not a finding")
         return 0
 
+    # ACTIVITY THE LEDGER STRUCTURALLY CANNOT CARRY.
+    #
+    # The ledger holds id, status, date and method -- and nothing else, because
+    # notes quote broker replies and carry identifiers, and this repo is public.
+    # That trade is right (§268) and it has a blind spot: A LETTER THAT DOES NOT
+    # CHANGE A STATUS IS INVISIBLE HERE. A follow-up to a company already recorded
+    # as `manual_required`, an opt-out wedge to a row already `submitted`, a
+    # correction sent to fix my own error -- all real work, none of it a status
+    # move, so the other agent never learns it happened.
+    #
+    # On 2 September two such letters went out and `git commit` reported nothing
+    # to commit. The fix is not to widen the ledger; it is to say out loud which
+    # rows moved WITHOUT their status moving, so the substance can be pushed into
+    # the playbook, which is the durable channel. See _SILENT_FAILURES §291.
+    today = datetime.now(timezone.utc).date().isoformat()
+    quiet = []
+    for bid, rec in private.items():
+        hist = rec.get("history") or []
+        touched = [h for h in hist if (h.get("at") or "")[:10] == today]
+        if touched and last_change(rec) != today:
+            quiet.append(bid)
+    if quiet:
+        print(f"\n  {len(quiet)} row(s) had activity today that DID NOT move a status,")
+        print(f"  so the ledger cannot carry it: {', '.join(sorted(quiet)[:10])}"
+              + (" ..." if len(quiet) > 10 else ""))
+        print(f"  If any of that was a letter or a finding, put it in the playbook "
+              f"-- brokers/<id>.md --\n  or the other agent will never see it.")
+
     fresh = build(private)
     added = sorted(set(fresh) - set(ledger))
     changed = sorted(b for b in set(fresh) & set(ledger)

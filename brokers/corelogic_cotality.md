@@ -9,6 +9,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-23)
+- **2026-09-02 (§291):** STATUS CORRECTED TWICE TODAY, AND THIS IS THE ACCURATE ONE (SILENT_FAILURES 287). It is NOT an unconfirmed verification link -- I applied that note to this row in error along with nine others. CoreLogic replied 2026-08-26 from privacy@corelogic.com: 'Thank you for reaching out to our Privacy mailbox with your privacy request. You may submit your privacy request through our self-serve online privacy portal, AS WE DO NOT ACCEPT PRIVACY [requests by email].' That is a refusal of the email channel and a named alternative destination -- the same good-refusal shape as Blackbaud, Buxton and Catalist: declines clearly AND gives a working route, which is far better than silence. So the correct status is manual_required, not email_pending: nothing is waiting on a click, a person has to drive a portal. CoreLogic now trades as Cotality; the row carries privacy@cotality.com as the address, which is worth checking against whichever domain the portal lives on before assuming they are the same intake.
 - Note: Statutory opt-out/deletion email sent 2026-08-23, category-tailored.
 
 ## Steps
