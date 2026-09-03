@@ -62,7 +62,7 @@ you honor this request as a matter of your published privacy policy.
 Please confirm in writing when this request has been completed, and tell me the
 categories of personal information you held about me at the time of deletion.
 
-Three things I would ask the confirmation to state, because they are what make
+Four things I would ask the confirmation to state, because they are what make
 it mean something:
 
   1. WHICH of the identifiers above matched. "We deleted your record" and "we
@@ -71,14 +71,34 @@ it mean something:
      I was ever in your file. If some identifiers matched and others did not,
      saying which is the single most useful sentence you can write.
 
-  2. WHICH SYSTEMS WERE SEARCHED, not only whether something was found. A
+  2. WHETHER A CONTROL WAS RUN, if the answer is that nothing was found. This
+     is a small ask and it is the only one that can make a nil result mean
+     anything to me.
+
+     A query that is silently broken returns zero for everything, and that looks
+     exactly like a true negative from where I am standing. I cannot tell a
+     careful search from a failed one -- both produce the same sentence -- so
+     every nil I receive is, strictly, unfalsifiable.
+
+     One company solved it in a way I had not thought of: they ran the same query
+     with an identifier they KNEW was present in the table. It returned a row;
+     mine returned none. That is the difference between "we found nothing" and
+     "our lookup was not working", it costs one extra query, and it converts an
+     assertion into a demonstration.
+
+     If you did something equivalent, saying so is worth more than any other
+     sentence in the reply. If you did not, that is fine and I am not asking you
+     to redo the work -- I would simply record the result as unverified, which is
+     what it is.
+
+  3. WHICH SYSTEMS WERE SEARCHED, not only whether something was found. A
      support desk naturally searches the system it owns, and "we found nothing"
      is entirely truthful about that system while silent about the others -- a
      verification team searches verification records, a marketing team searches
      the marketing database, and neither is the whole answer. Naming the systems
      costs you a sentence and tells me what the result actually covers.
 
-  3. WHAT FIELDS THE SUPPRESSION JOINS ON. Not whether it was applied -- what the
+  4. WHAT FIELDS THE SUPPRESSION JOINS ON. Not whether it was applied -- what the
      KEY IS. This is the single most useful thing you can tell me and almost
      nobody does, because it decides whether the protection holds or quietly
      lapses, and it cannot be worked out from outside.

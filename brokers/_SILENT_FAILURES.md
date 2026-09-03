@@ -19599,3 +19599,69 @@ per-tenant ticket by coincidence.
 
 Worth scanning for deliberately rather than tripping over: four shared IDs, four families, no false
 positives.
+
+---
+
+## §289 — the positive control, and the end of the unfalsifiable nil
+
+§138 set out the corroboration problem: a confirmation is only worth something if it contains
+something **only this request could have produced.** §205, §255 and §281 are all instances of the
+same weakness from different angles — and underneath all of them sits one fact I had concluded was
+simply a limit of the exercise:
+
+**From outside, every nil result is unfalsifiable.** A company that searched carefully and a company
+whose query silently returned zero send the identical sentence. There is no observation available to
+the requester that separates them.
+
+Graze Social solved it, unprompted, in the second sentence of a follow-up:
+
+> "a query that is silently broken **returns zero for everything**, which looks identical to a true
+> negative. So we ran the same query with a **control** — an address we know is present in the
+> account table. The control returned one row; your twelve returned none. That is the difference
+> between 'we found nothing' and 'our lookup was not working'."
+
+It is unsolvable from my side because it *is*. **It is trivially solvable from theirs**, at the cost
+of one extra query, and in more than a thousand companies they are the first to do it.
+
+### Why this is the most useful thing anyone has sent
+
+Every other improvement I have extracted makes a *good* answer better: naming the identifier
+searched, naming the stores, stating a nil in words rather than a generic completion. All of those
+still rest on the company's account of its own diligence.
+
+A control does not. It is **evidence internal to the result** — the query demonstrably discriminates,
+because it returned a row for something and zero for me. That is the difference between being told
+a search happened and being shown one did.
+
+### And the admission that came with it
+
+> "our intake had taken the first address from your letter rather than all of them… **had you not
+> pressed, eleven of your addresses would have gone unsearched.** The fault was ours."
+
+They could have re-run the twelve quietly and reported the same nil. It would have read identically
+and I would never have known. Volunteering the defect is what makes the rest credible — and it is
+§269's fourth property again: *a company that says what it has not done is the one whose statements
+about what it has done carry information.*
+
+The fix is also the right shape. Not "we re-ran it for him" but **a request listing multiple
+identifiers now has each one searched and logged separately** — which changes the outcome for
+everyone who writes to them afterwards, including the people who would never think to ask whether
+all their addresses were used.
+
+### The new question, now in the template
+
+Added to the confirmation asks, ahead of "which systems were searched":
+
+> **Whether a control was run**, if the answer is that nothing was found… If you did something
+> equivalent, saying so is worth more than any other sentence in the reply. If you did not, that is
+> fine and I am not asking you to redo the work — I would simply record the result as unverified,
+> which is what it is.
+
+The last clause matters. **The point is not to extract a control from everyone**; it is to make the
+distinction visible, so that a nil which comes with one can be recorded as *demonstrated* and a nil
+which does not can be recorded as *asserted*. Those have been indistinguishable in this corpus for
+its entire existence, and roughly fifty rows currently sit in the second category while reading like
+the first.
+
+**Every nil result in this file up to today is unverified.** That is not an accusation about any of
+them. It is a property of what I could observe, and it stopped being a necessary one this evening.
