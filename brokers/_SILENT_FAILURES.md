@@ -21202,3 +21202,64 @@ That is the address on their own registry row. So the position is now:
 this is worse in one specific way: Mentibus at least *bounced*, and a bounce is information. Here a
 consumer gets a form that looks like it worked and an address that silently is not there. Recorded
 `unreachable`. No further address to try, and I will not guess one.
+
+---
+
+## §317 — deletion and access are in tension, and nobody had said so
+
+Donorbase conceded the argument this project has been making since §259, in terms:
+
+> *"Your deletion request does not require you to complete the signed declaration form."*
+
+That is the § 1798.120 / 11 CCR § 7026(f) split holding up. Verification exists to prevent
+**disclosure** to an impostor; an opt-out discloses nothing, so it cannot be gated on identity. They
+accepted it and are processing the opt-out, the forward suppression and the do-not-contact entries
+now, unverified.
+
+They also answered all three questions about their declaration form directly rather than asking me
+to take it on trust: **no government-issued ID, no new identifiers, and retained only as long as
+needed to process the request and meet recordkeeping obligations, then securely deleted.** §303's
+lesson applies in reverse here — asking a company exactly what an artefact contains and how long it
+lives is a question most will answer if it is put plainly.
+
+### And then they told me something I had not thought of
+
+> *"if we proceed with deleting your personal information prior to fulfilling your data access
+> request, we will no longer have the information available to provide to you."*
+
+**Deletion destroys the evidence that access would disclose.** Exercise them in the order a consumer
+naturally writes them — delete first, everything else after — and the access request becomes
+impossible to fulfil against records that no longer exist.
+
+Obvious once said. Nobody has said it. This is somewhere past 950 requests and several hundred
+replies, and **no other company has flagged the ordering** — including companies that processed a
+deletion and an access request in the same breath and returned a nil on the second.
+
+That last observation is uncomfortable, and it is the reason this entry exists. §304 established
+that access is the only request type reporting on *content*. §316 showed a nil that could not
+distinguish "nothing held" from "wrong key searched." Now add a third possibility to every
+access-request nil in this corpus:
+
+> **The record may have been deleted by my own earlier request before the access request was run.**
+
+I cannot currently rule that out for any of them. A company that deletes on Monday and answers an
+access request on Friday returns a perfectly honest nil, and nothing in the reply distinguishes it
+from a company that never held anything. **I have been generating some of my own null results.**
+
+### What follows, practically
+
+Donorbase flagged it *rather than silently processing in the order I listed them*, which is the
+whole difference. The sequence now agreed with them, in writing:
+
+1. **Now** — opt-out, forward suppression, do-not-contact. Nothing disclosed, nothing destroyed.
+2. **On receipt of the signed declaration** — the access request.
+3. **After** — the deletion, outstanding throughout and merely queued, explicitly not withdrawn.
+
+And a rule for every future letter that asks for both:
+
+> **State the order.** *"Please fulfil the access request before actioning the deletion, and treat
+> the deletion as outstanding meanwhile."* One sentence. Without it the company picks, and the
+> reasonable pick destroys the answer.
+
+The declaration itself goes to the user to sign. I do not sign things on someone's behalf, and a
+statement made under penalty of perjury is the clearest possible case of that.

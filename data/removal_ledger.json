@@ -1685,8 +1685,8 @@
     "via": "email"
   },
   "donorbase": {
-    "status": "manual_required",
-    "changed": "2026-08-28",
+    "status": "replied",
+    "changed": "2026-09-04",
     "via": "reply"
   },
   "donorbureau": {
