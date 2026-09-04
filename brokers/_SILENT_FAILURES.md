@@ -21085,3 +21085,45 @@ routing to manual review. As it stands, a consumer in any of the 27 unlisted sta
 field with no valid value **and no explanation on the page**. The reasonable inference from inside
 that experience is that the site is broken — not that they are out of scope. A single option would
 convert a silent dead end into a stated one, and a stated no is a thing a person can act on.
+
+---
+
+## §315 — two DSR portals, two opposite answers to the same question
+
+Lightcast's request centre and Epsilon's are both OneTrust-powered, both ask for a US state, and they
+do opposite things with it.
+
+- **Epsilon** (§314): 23 states offered, Pennsylvania absent, field required. The access request
+  cannot be filed.
+- **Lightcast**: a free-text autocomplete. Type "Penn" and Pennsylvania appears. The request proceeds
+  normally.
+
+Same vendor, same field, same country. **The exclusion in §314 is a configuration choice, not a
+platform limitation** — which I could not have known from Epsilon's page alone, and which makes the
+suggestion I sent them cheaper than it looked: another customer of the same product already does it.
+
+### What Lightcast gets right, and it is worth copying
+
+Their form states its own scope in the page body:
+
+> *"Mentions of Lightcast include its subsidiaries and other trading names, including Economic
+> Modeling, EMSI, Rhetorik and SkillCollective"*
+
+**One submission covers four brands, and the consumer is told so before filling anything in.** Most
+of this project's effort goes into establishing exactly that fact for companies that will not state
+it — the §278 shared-platform work, the §307 legal-name aliases. Here it is printed above the form.
+
+They also warn, in a tooltip rather than after the fact, that submitting as the data subject triggers
+an email verification. That is the §290/§283 failure mode named in advance: **an unconfirmed
+verification is how a request dies quietly**, and knowing it is coming is most of the defence.
+
+### Where it stopped
+
+A distorted-text image CAPTCHA sits immediately above Submit. Not solved — standing rule.
+
+So the item is staged to the last field and queued. The request text is preserved in a file rather
+than left living in a browser tab, because §283 is exactly this: **an item that depends on a tab
+surviving is an item that reads as done and is not.** The handoff says what to do if the tab is gone,
+which is the only version of that instruction worth writing.
+
+The cookie banner was declined rather than accepted.
