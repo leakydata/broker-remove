@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-23)
-- Note: Statutory opt-out/deletion email sent 2026-08-23, category-tailored.
+- Current: `not_found` (updated 2026-09-03)
+- Note: Statutory opt-out/deletion email sent 2026-08-23, category-tailored. Reply 2026-09-03: "unable to locate any information about you based on the details provided" — an unqualified nil, with an invitation to resupply under a different name/email/employer/profile URL if one is believed to exist. No suppression or forward-looking commitment mentioned; not worth pressing further absent a specific reason to believe a record exists under different identifiers.
 
 ## Steps
 

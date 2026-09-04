@@ -13,18 +13,31 @@
 
 ## Steps
 
-<!-- Replace once the route is confirmed. What actually worked, in order. -->
+Email `ob-privacy@teads.com` (Outbrain's post-merger privacy address, covers both
+Outbrain and Teads estates per their own routing).
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+- **A genuine "we cannot search on that" answer, not a deflection.** Their reply
+  (2026-09-03) states plainly they "do not process, retain, or associate data
+  with traditional personal identifiers" and operate exclusively on cookie IDs
+  and mobile advertising identifiers — so a name/email/address/phone request
+  cannot be matched to anything in their systems. This is the honest ad-tech
+  answer described in `_DEFLECTIONS.md`, not a stall.
+- **They will ask for the cookie/MAID to proceed — decline it.** Supplying a
+  device identifier to get a search done creates the exact device-to-name link
+  the request exists to sever. The letter should say this up front (it did) and
+  hold the line when they ask anyway.
+- **Self-serve routes exist but are cookie-scoped, not identity-scoped**: Outbrain
+  Interest Profile (find your own cookie ID) and Teads privacy policy §5. Neither
+  helps a person trying to opt out by name/email rather than by browser session —
+  flag for a human with a browser to check, but expect no name-based result.
+- Worth asking once whether a hashed-email suppression list exists independent of
+  cookie/device matching — some ad-tech platforms maintain one specifically so a
+  consumer can opt out without surrendering a device ID. If the answer is no,
+  that's a complete and final answer for this channel.
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+No name-based verification is possible; this is a structural property of the
+company, not something a recheck will resolve.

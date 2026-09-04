@@ -7,7 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-25)
+- Current: `manual_required` (updated 2026-09-02)
+- Note (2026-09-02): A named person (not a bot) answered every verification question directly and helpfully: no SSN, no ID photo, no account. The deletion form (https://datadecisionsgroup.com/preferences) takes name/email/current physical address/consumer-or-agent plus a free-text "request details" field — put extra emails and prior addresses in that field, since the main address field is used only to determine which state's law applies and the response deadline. Confirmed they don't retain phone numbers at all. Confirmed all deletions/suppressions are done "at a person level," so an old address doesn't catch someone else who lives there now. Queued the form to handoff.py — genuinely needs a browser, no further email value to extract.
 - Note: 2026-08-25: emailed privacy@datadecisionsgroup.com. Two general-purpose asks plus one category-specific rider: if they conduct or supply data for MARKET RESEARCH or telephone surveys, panel membership, survey responses and call records are in scope, and the do-not-call ask should cover research calls as well as marketing ones - research calls are commonly treated as exempt from DNC and people do not expect that.
 
 ## Steps

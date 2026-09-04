@@ -11,18 +11,37 @@
 
 ## Steps
 
-<!-- Replace once the route is confirmed. What actually worked, in order. -->
+Email `privacy@scribd.com`, which creates a Zendesk-style ticket ("Support Desk").
+No form, no account needed to correspond.
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+- **Not a data broker, by their own written statement** (2026-09-03): "we do not
+  sell or license personal information about people to third parties, and we are
+  not registered as a data broker in California or any other state." Scribd
+  reached this project's list via a commercial compiled directory, not a state
+  registration — worth checking the same for any subscription/SaaS company that
+  shows up only on a third-party compiled list rather than a state filing.
+- **The first search pass missed an active account.** Searching by name/known
+  emails returned nothing; a second, more careful pass (prompted by pushing back
+  with specific evidence — old marketing emails still in the inbox — at a
+  *different* company, Pipl, in the same week) found a live Slideshare account
+  under a *different, work-derived username* tied to the requester's Gmail
+  address, with one publicly-visible upload from 2015. Scribd
+  owns Slideshare — a "no record" answer from the flagship brand does not cover
+  the acquired product unless asked to.
+- **Closed/defunct-mailbox search keys work.** A closed `@psu.edu` university
+  address supplied as "search key only, never a reply address" turned up a real
+  match (the same account) — direct evidence that an old mailbox a person can no
+  longer prove they control is exactly the kind of record most likely to survive
+  untouched. Always list dead addresses even though you can't verify them.
+- **Named an upload-specific carve-out and it worked as intended**: the original
+  letter asked them to check for attached uploaded documents *before* deleting an
+  account, rather than deleting silently. Worth including in any letter to a
+  content-hosting company, since a blanket deletion can take down someone's own
+  uploaded content along with their account.
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+Re-search Scribd/Slideshare/Everand for the account username and uploaded
+content after confirmation of deletion.

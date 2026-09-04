@@ -30,6 +30,21 @@ request, despite the standard flow implying otherwise.
 - Requests route into Zendesk (`support@whitepagesprivacy.zendesk.com`) and get a
   ticket number — record it, it's your reference.
 - Ask explicitly for 411.com to be covered; it is a separate property.
+- **`peoplesearch.com` publishes `support@whitepages.com` as its privacy contact,
+  and that address autoresponds that it is unmonitored.** If Whitepages operates
+  peoplesearch.com, this is the dead-mailbox trap from the other direction: their
+  own published privacy contact for a sibling property bounces a consumer back
+  to nowhere. Ask explicitly whether peoplesearch.com is in scope — don't assume
+  a whitepages.com/411.com confirmation covers it.
+- **A "listings removed" confirmation answers less than it sounds like.** Their
+  agent's boilerplate (2026-09-03) explained the suppression mechanism in general
+  terms (flag data as unpublishable, prevent re-listing) but did not confirm, for
+  this specific ticket, (a) which of their properties held a record, (b) whether
+  suppression vs. one-time removal applied here, or (c) whether an opt-out of
+  sale/sharing was applied separately from the display removal. Ask these three
+  as a numbered list if the first reply is templated — a template reply answers
+  the mechanism, not your ticket.
 
 ## Verification
-Re-search whitepages.com and 411.com for the name + city after ~7 days.
+Re-search whitepages.com, 411.com and peoplesearch.com for the name + city after
+~7 days. Their stated window for listing removal is 72 hours.

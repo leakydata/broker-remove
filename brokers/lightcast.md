@@ -7,7 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-29)
+- Current: `manual_required` (updated 2026-09-04)
+- Note (2026-09-04): A separate OneTrust privacy-portal request surfaced (Request ID 8833M5QZH4), distinct from the email route below — the confirmation mail states "someone submitted a privacy data subject request for this email address" and requires clicking a "Confirm email" link to activate it before it will be worked. Unclear whether this was submitted by a prior automated pass or is itself a duplicate of the email-based request; either way, the confirmation link is void until clicked, so queued to handoff.py rather than left to expire unclicked (see `_SILENT_FAILURES.md` on unconfirmed requests being indistinguishable from success). Do not send a second email request to privacy@lightcast.io while this is pending — see 2026-08-29 note below on the canonical row.
 - Note: 2026-08-29 COVERED BY CANONICAL (SILENT_FAILURES 177). duplicate_of=economic_modeling_rhetorik, and both rows carry the identical address privacy@lightcast.io -- so a letter was sent to this exact address for the canonical row 'economic_modeling_rhetorik' (submitted). Not a separate send: the mailbox has the request, and whether the company files it under one brand name or the other is internal to them. Status set here so the queue stops offering a second letter to an address that already has one. NOT marked confirmed -- no confirmation was received for this row.
 
 ## Steps

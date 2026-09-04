@@ -1325,9 +1325,9 @@
     "via": "email"
   },
   "crunchbase": {
-    "status": "submitted",
-    "changed": "2026-08-23",
-    "via": null
+    "status": "not_found",
+    "changed": "2026-09-04",
+    "via": "email"
   },
   "crustdata": {
     "status": "submitted",
@@ -1370,8 +1370,8 @@
     "via": "email"
   },
   "data_decisions": {
-    "status": "replied",
-    "changed": "2026-09-02",
+    "status": "manual_required",
+    "changed": "2026-09-04",
     "via": "email"
   },
   "data_delivers": {
@@ -1625,8 +1625,8 @@
     "via": "email"
   },
   "digital_segment": {
-    "status": "replied",
-    "changed": "2026-09-02",
+    "status": "confirmed",
+    "changed": "2026-09-04",
     "via": "email"
   },
   "digital_viking_media": {
@@ -3090,8 +3090,8 @@
     "via": "reply"
   },
   "lightcast": {
-    "status": "submitted",
-    "changed": "2026-08-29",
+    "status": "manual_required",
+    "changed": "2026-09-04",
     "via": "email"
   },
   "lighthouse_list": {
@@ -3510,8 +3510,8 @@
     "via": "email"
   },
   "mobilewalla": {
-    "status": "submitted",
-    "changed": "2026-08-29",
+    "status": "not_found",
+    "changed": "2026-09-04",
     "via": "email"
   },
   "mobility_global_s_p_global": {
@@ -4270,8 +4270,8 @@
     "via": null
   },
   "pipl": {
-    "status": "replied",
-    "changed": "2026-09-02",
+    "status": "confirmed",
+    "changed": "2026-09-04",
     "via": "email"
   },
   "pitchbook": {
@@ -5940,8 +5940,8 @@
     "via": null
   },
   "visitiq": {
-    "status": "submitted",
-    "changed": "2026-08-30",
+    "status": "manual_required",
+    "changed": "2026-09-04",
     "via": "email"
   },
   "vistar_media": {

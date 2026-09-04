@@ -7,7 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-28)
+- Current: `confirmed` (updated 2026-09-02)
+- Note (2026-09-02): "the entry for [FIRST LAST] has been successfully expunged from our database of available reports," up to 48 hours to reflect on the site. Templated support-desk reply (Help Scout) — did not answer whether the record was a directly-supplied contact vs. a sold/compiled education lead, or name a downstream recipient. Not pursued further given a clean removal confirmation; the lead-provenance question is lower value once the record itself is gone.
 - Reference: `gmail:1a047ed536407281`
 
 ## Steps
