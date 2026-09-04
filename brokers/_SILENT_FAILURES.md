@@ -21127,3 +21127,78 @@ surviving is an item that reads as done and is not.** The handoff says what to d
 which is the only version of that instruction worth writing.
 
 The cookie banner was declined rather than accepted.
+
+---
+
+## §316 — the nil I predicted in writing, ten days before they sent it
+
+Catalina Marketing's business is purchase history: what people buy, where, over years. On 25 August
+I wrote to them and said, in the letter itself, what their answer would be and why it would not
+settle anything:
+
+> *"please treat loyalty-card numbers, frequent-shopper IDs and any retailer-issued household key as
+> identifiers within scope. I cannot list those — I do not know what they are — but they are how your
+> records are keyed, and **a search run only on my name and address will report nothing while the
+> profile sits untouched under a number.**"*
+
+Their reply, today:
+
+> *"we searched our databases… Your email was not identified in our database… Your name, address, and
+> phone number were not identified in our database."*
+
+**They searched the four identifier types I had told them in advance were the wrong key, and reported
+the nil that produces.**
+
+### Why this is the cleanest example of §289 in the file
+
+Their nil is consistent with two different worlds:
+
+1. Catalina holds nothing about the subject.
+2. Catalina holds a shopper profile keyed to a loyalty or household identifier that was never linked
+   to a name or email in their systems — invisible to the search they ran.
+
+From outside, those are the same sentence. What makes this instance unusually clean is that **the
+prediction is timestamped before the result.** Every other asserted nil in this corpus could be
+defended as hindsight; this one cannot.
+
+### Credit where it is due, because it matters to the argument
+
+Catalina **said what they searched.** Almost nobody does. §300 counts 26 nils that are bare
+assertions precisely because the company never names the key.
+
+And that is the point worth extracting: **naming the key is what makes a nil checkable.** Catalina's
+answer is more useful *because* it can be shown to be about the wrong field. A vaguer reply —
+"we were unable to locate any personal information" — would have been unfalsifiable and would have
+looked better.
+
+### What I asked for, and the exit I offered
+
+One question: *is a loyalty-card, frequent-shopper, or retailer-issued household identifier the key
+your shopper records are held against — and if so, what can I give you that would let you look one
+up, given I do not know my own card numbers?*
+
+With the exit stated plainly, as always: **"we cannot locate records without a number you do not
+have" is a real answer**, I will record it and stop. That sentence costs them nothing and is worth
+more to this file than a confirmation resting on the wrong key.
+
+They offered an appeal route. I declined it — an appeal is disproportionate to a question a sentence
+answers, and spending a formal escalation on this would make the next one cheaper to ignore.
+
+---
+
+## §312a — and the company whose form was broken has a dead mailbox too
+
+Four seconds after I sent ResearchUSA the bug report about their non-delivering form, it bounced:
+
+> `550 address couldn't be found, or is unable to receive mail` — `privacy@researchusallc.com`
+
+That is the address on their own registry row. So the position is now:
+
+- **The designated web form** accepts a submission, returns HTTP 200, fails to deliver, and shows the
+  error below the fold.
+- **The published email address** does not accept mail at all.
+
+**There is no channel.** §305 recorded the same end state at Mentibus after four dead addresses, but
+this is worse in one specific way: Mentibus at least *bounced*, and a bounce is information. Here a
+consumer gets a form that looks like it worked and an address that silently is not there. Recorded
+`unreachable`. No further address to try, and I will not guess one.

@@ -930,8 +930,8 @@
     "via": null
   },
   "catalina_marketing": {
-    "status": "submitted",
-    "changed": "2026-08-25",
+    "status": "replied",
+    "changed": "2026-09-04",
     "via": null
   },
   "catalist": {
@@ -1750,7 +1750,7 @@
     "via": "email"
   },
   "economic_modeling_rhetorik": {
-    "status": "captcha_blocked",
+    "status": "submitted",
     "changed": "2026-09-04",
     "via": "web"
   },
@@ -4715,8 +4715,8 @@
     "via": "email"
   },
   "researchusa": {
-    "status": "replied",
-    "changed": "2026-09-03",
+    "status": "unreachable",
+    "changed": "2026-09-04",
     "via": "email"
   },
   "resonate": {
