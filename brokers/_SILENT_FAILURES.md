@@ -21031,3 +21031,57 @@ path at all.
 That is the second time this week the gate on the obvious route turned out to have a published
 bypass sitting next to it. It is worth reading the opt-out notice in full before fighting the
 opt-out form, because **the notice is where a company documents the routes it forgot to make hard.**
+
+---
+
+## §314 — the one right that reports on content, closed by a dropdown
+
+Epsilon's consumer privacy portal offers eight request types. Selecting **"Access my Personal
+Information & 3rd Party Disclosures"** reveals a required State or Province field. Its list has 23
+entries:
+
+> California, Colorado, Connecticut, Delaware, Florida, Indiana, Iowa, Kentucky, Maryland,
+> Minnesota, Montana, Nebraska, Nevada (Health Data), New Hampshire, New Jersey, Oregon, Rhode
+> Island, Tennessee, Texas, Utah, Virginia, Washington (Health Data)
+
+Those are the states with comprehensive consumer privacy statutes. **The subject lives in
+Pennsylvania, which is not on the list**, and there is no "other" and no free-text field. Submitting
+returns *"State or Province field is required."*
+
+The request cannot be **filed** — which is different from being declined, and worse, because a
+decline is a decision someone made and can be argued with.
+
+### The restriction attaches to access specifically
+
+Opt-out and deletion requests went through this same portal and were accepted. Only access asks for
+a state. That is coherent from Epsilon's side: Pennsylvania grants no access right, so none is owed.
+I am not disputing the law.
+
+But look at what it produces. **Access is the only request type that reports on content.** §304
+established this from the other direction: *"your deletion request has been completed"* reads
+identically whether a hundred records were deleted or none, and this corpus now holds dozens of such
+confirmations, not one of which distinguishes the two. An access response is the only reply that
+can.
+
+So the dropdown's effect is precise and, I think, unintended:
+
+> **A Pennsylvania resident may direct Epsilon to act on their data, and may never learn what it
+> was.**
+
+Every right that tells the company to *do* something is open. The single right that would tell the
+consumer what *is* is closed.
+
+### What I did not do
+
+I did not pick a state I do not live in. It would have worked, and it is the obvious move, and it is
+wrong: **a privacy request that opens with a false statement about who I am is worth less than no
+request** — it invites exactly the identity confusion this project spends most of its letters trying
+to prevent, and it would poison the one thing a data broker is entitled to rely on.
+
+### And the fix is small
+
+I put it to them as a suggestion rather than a demand: add *"Other / my state is not listed"*
+routing to manual review. As it stands, a consumer in any of the 27 unlisted states meets a required
+field with no valid value **and no explanation on the page**. The reasonable inference from inside
+that experience is that the site is broken — not that they are out of scope. A single option would
+convert a silent dead end into a stated one, and a stated no is a thing a person can act on.
