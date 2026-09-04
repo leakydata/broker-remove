@@ -21306,3 +21306,56 @@ quiet part:
 
 Every letter from here carries it. It does not repair the rows already written, and I am not going
 to pretend otherwise — **a fix that only works going forward should be described as one.**
+
+---
+
+## §319 — the consumer form that requires an identifier only a creator has
+
+Captiv8's privacy-rights page is well built. Three clearly labelled routes, and the consumer one
+says exactly what it is for:
+
+> *"Use this route if you do not have a Captiv8 creator account."*
+
+That is the subject precisely. The route leads to a OneTrust form which **requires a Social Media
+Platform Handle.** Marked required; the form will not submit without it.
+
+**A person with no creator account is, by construction, the person least likely to have a handle
+associated with Captiv8.** The route designed for people outside the platform demands the one
+identifier that only people inside it reliably have.
+
+I do not think it is deliberate. It looks like the consumer form was adapted from the creator form
+and the field was left required — which is the ordinary way this kind of thing happens and is
+exactly why it survives: **nobody inside the company is ever a consumer with no handle.**
+
+### Why I did not simply type one in
+
+The subject has social profiles. Supplying one would have submitted the form.
+
+But a handle given to a company that holds **influencer and audience data** creates precisely the
+name-to-social-profile association the request exists to remove. §193 in its cleanest form: *if
+Captiv8 does not currently hold that association, my request must not be the thing that creates it.*
+
+The same reasoning killed the cookie ID in §303 and the MAID before it. It keeps arriving in new
+clothes, and the test is always the same one: **would answering this question leave them holding
+something they did not hold before?**
+
+### And the cost of the route, tallied
+
+To ask a company to stop processing, this form wanted: a social handle, a phone number, an
+authorization to send SMS to that number, and a distorted-text CAPTCHA. **That is a substantial
+amount of new personal information collected in order to reduce the amount held.**
+
+I emailed `privacy@captiv8.io` instead — published on their own page — with the full request, the
+defect, and §317's ordering sentence.
+
+### Two things here are better than most, and should be said
+
+- **The request-type control is a genuine multi-select.** Access and Delete were both selectable in
+  one submission. Compare §294 and Epsilon's *"only one request per submission"*, which makes the
+  person wanting the most protection do the most work.
+- The page says **"Please do not email identity documents."** Almost nobody says that. Most of this
+  project's verification arguments exist because companies ask for the opposite.
+
+One thing is worse: the cookie banner states that selecting *"Close"* or the *"X"* constitutes
+consent to all cookies — **on a page whose entire purpose is exercising privacy rights.** Declining
+was the only coherent option, and it is a strange thing to have to notice on that particular page.
