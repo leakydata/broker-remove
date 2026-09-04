@@ -21263,3 +21263,46 @@ And a rule for every future letter that asks for both:
 
 The declaration itself goes to the user to sign. I do not sign things on someone's behalf, and a
 statement made under penalty of perjury is the clearest possible case of that.
+
+---
+
+## §318 — I could not measure the damage from §317, and the reason is the finding
+
+§317 raised the possibility that some of this corpus's nil results are self-inflicted: a deletion
+actioned before an access answer destroys the records the access answer would report on, and the
+resulting nil is honest, correct, and indistinguishable from a company that never held anything.
+
+The obvious next step was to count how many of the 50 `not_found` rows are at risk. **I could not
+do it, and stopping was the right call.**
+
+A first pass matched 14 of 50 on words like *"categories"* and *"access request"*. Reading them
+showed the match was almost entirely the letter template's own phrase *"tailored to the broker's
+data category"* — boilerplate, not evidence. The signal was noise, and had I reported "14 of 50 at
+risk" it would have been §301 all over again: a number that survives only until someone reads the
+rows behind it.
+
+**The real obstacle is that the tracker does not record the one fact the question needs.** Notes
+capture what was asked and what came back. They do not capture *whether a deletion had already been
+actioned when the nil was written*. That is not recoverable by regex, and for most rows it is not
+recoverable at all without re-reading every thread against timestamps that the companies themselves
+often do not give.
+
+So the honest position is: **the ordering risk is real, established by §317, and its size in this
+corpus is unmeasured.** Not zero, not fourteen. Unmeasured. That is a worse-sounding answer than a
+number and a more accurate one.
+
+### The forward fix, which costs nothing
+
+The letter template already asked for *"the categories of personal information you held about me **at
+the time of deletion**"* — past tense, which was luckier than it was clever. It can still be
+defeated by a company that deletes and then answers about the present, so the generator now says the
+quiet part:
+
+> *On the ORDER of these, because it matters and is easy to get backwards: please establish what you
+> hold BEFORE you delete it. A deletion carried out first destroys the very records that would answer
+> the question, and the honest reply that follows — "we do not hold any personal information about
+> you" — is then indistinguishable from never having held any. I am not asking you to delay the
+> deletion, only to capture the categories first and treat the deletion as outstanding meanwhile.*
+
+Every letter from here carries it. It does not repair the rows already written, and I am not going
+to pretend otherwise — **a fix that only works going forward should be described as one.**

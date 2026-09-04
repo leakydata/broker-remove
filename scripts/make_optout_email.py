@@ -62,6 +62,14 @@ you honor this request as a matter of your published privacy policy.
 Please confirm in writing when this request has been completed, and tell me the
 categories of personal information you held about me at the time of deletion.
 
+On the ORDER of these, because it matters and is easy to get backwards: please
+establish what you hold BEFORE you delete it. A deletion carried out first
+destroys the very records that would answer the question, and the honest reply
+that follows -- "we do not hold any personal information about you" -- is then
+indistinguishable from never having held any. I am not asking you to delay the
+deletion, only to capture the categories first and treat the deletion as
+outstanding meanwhile.
+
 Four things I would ask the confirmation to state, because they are what make
 it mean something:
 
