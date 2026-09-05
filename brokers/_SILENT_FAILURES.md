@@ -22766,8 +22766,8 @@ reason each time.
 
 ### One thing flagged as a question, not an accusation
 
-Their echo of my address list reads `…njones@att.net <nathanc82@gmail.com>`. **I have never used or
-supplied that address.**
+Their echo of my address list appends, to the last address I gave them, **a further Gmail address in
+angle brackets that I have never used or supplied.**
 
 It is most likely a mail-client artifact. But if it came out of their system alongside my list, it is
 somebody else's address disclosed to me, and they would want to know — so I asked them to check
@@ -22781,3 +22781,51 @@ manner until it's deleted."*
 
 Unprompted, specific, with a number and a limitation. Most companies describe deletion as if it were
 instantaneous and total; this one says what actually survives and for how long.
+
+---
+
+## §350 — the macro matched the wrong topic, so I made the letter shorter
+
+Fourth reply on the Whitepages ticket, and it explains what to do if a listing still appears on
+**search engine result pages** — including a link to Google's cached-result removal tool.
+
+I am not seeing anything on a search engine. I have never mentioned one.
+
+Neither open item was touched: whether Whitepages operates `peoplesearch.com` (asked **four times**,
+and the reason it keeps coming up is that the site publishes `support@whitepages.com` as its own
+privacy contact), and whether a **do-not-sell** flag was applied as distinct from do-not-publish.
+
+### The diagnosis, and it is not indifference
+
+The agent is answering from a **macro library keyed on topic words**, not on the questions in front
+of her. My previous message contained the words *listing*, *removed*, *appear* and *page*; the macro
+that matched is the one about listings appearing on pages. It is a plausible retrieval and a useless
+answer.
+
+That reframes what to do about it. A longer, more carefully reasoned letter — my instinct, and what I
+have been sending — **increases** the surface a topic-matcher can grab and makes a wrong macro more
+likely, not less. Every additional paragraph is another chance to be misrouted.
+
+### So the response was to shorten it
+
+The final message is two questions, each answerable in one word, with the non-questions explicitly
+ruled out:
+
+> *Does Whitepages operate peoplesearch.com? YES or NO.*
+> *Is my information now flagged DO-NOT-SELL, as well as do-not-publish? YES, NO, or "we do not sell
+> personal information, so it does not arise."*
+>
+> *I am not disputing the removal, I do not need a screenshot reviewed, and I am not asking about
+> search engines.*
+
+Naming what I am **not** asking is the part that matters. A macro library cannot match on absence,
+but a human skimming can, and the three sentences that rule topics out are cheaper to read than the
+paragraphs that would have argued the point.
+
+I also said it is my last message on the ticket and that I will close the file on any answer or none.
+Four asks is the limit; past that I am generating volume rather than pressing a question (§304).
+
+**And the credit stands.** Whitepages' §329 explanation of unpublishable-flagging is still the best
+suppression disclosure in this corpus, and the removal itself was prompt. A company can be excellent
+at the substance and still have a support layer that cannot route a question — those are different
+failures, and it is worth ending on the first rather than the second.
