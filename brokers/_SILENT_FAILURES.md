@@ -21825,3 +21825,52 @@ history, donor scores, capacity models, segments built from giving behaviour?
 
 That is the question worth having, it was never covered by the promise, and it continues where it
 belongs. **The exit closed a thread, not a subject.**
+
+---
+
+## §329 — the suppression disclosure I had to ask Eleris for, volunteered by someone else
+
+Two days after §327 concluded that a durable suppression means **keeping** a record, and that the
+kept record needs a purpose limitation nobody usually asks for, Whitepages sent this unprompted:
+
+> *"we remove the listings from our sites, and flag the information in our database as
+> **unpublishable** in order to prevent a new listing from being created in a future update. This
+> means that your contact information is **not deleted** from the Whitepages database. If we did, it
+> would reappear on our site within a few months as we receive new information. This information is
+> **kept only for the purposes of keeping listing removals permanent, and is not sold or otherwise
+> shared to any third parties.**"*
+
+That is the entire architecture, in plain words, including every part companies usually leave out:
+
+- the suppression is **not** a deletion, and they say so rather than letting "removed" imply it;
+- **why** it cannot be a deletion — upstream data would rebuild the listing within months;
+- the kept record is **purpose-limited** to suppression, and not sold or shared.
+
+I spent §327 arguing a company into stating that, and added a clause to the letter generator to ask
+for it every time. **Here it arrives without being asked**, which is the strongest evidence yet that
+the clause is reasonable: at least one company already words it that way voluntarily.
+
+They also volunteer the residual risk, which almost nobody admits exists:
+
+> *"Should we receive information for you in the future that is different from that flagged data
+> (such as new address or misspelled name) it is possible that a new listing may be created."*
+
+**A suppression keyed to a value cannot catch a variant of that value.** That is the honest limit of
+every suppression in this corpus, and Whitepages is the only company to have stated it to me
+unprompted.
+
+### What is still open, and one thing I did not do
+
+Two items, both short: whether `peoplesearch.com` is theirs (it publishes `support@whitepages.com`
+as its privacy contact, which is why I have now asked three times), and whether an opt-out of
+**sale** was applied distinct from removing the listing from **display**.
+
+That second distinction matters and their own wording supports it: *"the flagged suppression data is
+not sold"* is a statement about the **suppression record**, not about the underlying information.
+Do-not-publish and do-not-sell are different flags.
+
+I did not dispute their 4 September *"we were not able to locate any listings for you"* as
+contradicting the 3 September *"located and removed"*. Read carefully they are consistent — the
+agent says the listing *"may have already been removed"* — and a company that removed a listing and
+then cannot find it is describing success, not confusion. **Not every apparent contradiction is
+one**, and treating this as a catch would have spent credibility that (a) and (c) still need.
