@@ -22343,3 +22343,53 @@ Candid, and it means the key is an identifier rather than a person — which in 
 often a **hashed email address**. So the ask that costs them nothing: hash the addresses themselves,
 lowercased and trimmed, SHA-256 plus MD5 and SHA-1, and search on the results. **No verification is
 needed for that, because I am not asking to see what comes back** — only that a match be suppressed.
+
+---
+
+## §340 — a form that completes and never transmits
+
+Datasys' Privacy Rights Center is a four-step wizard, and it is well built for three of them:
+request type, relationship to the data subject, then a full identity panel with **Pennsylvania in the
+state list**.
+
+Step 4 of 4 shows a button labelled **Next**.
+
+**Clicking it does nothing.** No error, no validation message, no confirmation, no step 5. The page
+does not change.
+
+I checked at the network level rather than trusting the screen, because §312 taught me that a form
+can POST successfully and still fail to deliver:
+
+> **No request is sent at all.**
+
+That is a category worse than §312. ResearchUSA's form at least reached the server and returned
+HTTP 200 before losing the message. This one **never attempts to transmit.** The button is inert.
+
+### Why it is invisible from inside
+
+There is no failed request in Datasys' queue to investigate, because there is no request. Nothing is
+logged, nothing errors, no alert fires. **The only person who can observe this fault is standing
+outside the form, and has no reason to check the network tab.**
+
+A consumer who works through all four steps and clicks the final button has, from their side, done
+everything that was asked of them. Most would assume it worked — and the design gives them no reason
+not to, because a wizard that reaches "Step 4 of 4" reads as a wizard that finished.
+
+### Two smaller things from the same walkthrough
+
+- The counter says **"Step 4 of 4" while displaying the step 3 panel**, which suggests the final
+  step's content fails to render rather than that it was never built. That distinction matters to
+  whoever fixes it: it is likely one broken component, not a missing feature.
+- **Step 1 advances immediately on click**, so a mis-click cannot be corrected except by going Back.
+  I hit this myself — two clicks intended as multi-select carried me to step 3 with a selection I had
+  not reviewed, which is how I learned the option list is single-select.
+
+### The rule this sharpens
+
+§312 gave: *a form is not submitted until something other than the absence of an error says so.*
+
+This adds the test that actually settles it: **watch the network, not the page.** A page can look
+identical whether a request succeeded silently, failed silently, or was never made — three quite
+different states, and only one of them is worth recording as a submission.
+
+Reported to their published contact with the full request attached, since the form cannot carry it.
