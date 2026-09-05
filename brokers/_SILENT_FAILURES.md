@@ -22214,3 +22214,49 @@ whoever configured it. Leadership Connect's bounce goes to the sender.
 
 **Every one of these failures reports success to the party responsible for it.** That is not a
 coincidence; it is the selection effect that makes this whole file necessary.
+
+---
+
+## §337 — three published routes, one works, and it told me something the others could not
+
+Leadership Connect's privacy address bounced (§336), so I went looking for another way in. Their
+site publishes three:
+
+1. **The privacy policy's DSAR link** — *"To enter a Data Subject Access Request (DSAR), please go
+   here"* → `/dsar/` → **redirects to the homepage.**
+2. **The "Privacy Portal" page** — a list of policy documents and a **postal address** for the Chief
+   Privacy Officer in Washington DC. No form, no email.
+3. **The footer's Do Not Sell link** → `/opt-out/` → a live two-field form. Name, email, invisible
+   reCAPTCHA, no challenge.
+
+**One of three works.** A consumer who starts from the privacy policy — the document that exists to
+tell them how to exercise their rights — is sent to a page that quietly becomes the homepage, and
+would reasonably conclude the site was broken rather than that the link was.
+
+### And then the form said something worth having
+
+> **"This is a duplicate optout request."**
+
+That is corroboration in the §138 sense: **a fact only a pre-existing record could have produced.**
+Not a confirmation that a system emitted regardless, but a refusal that is only possible if an
+opt-out for this address is already on file.
+
+Which resolves the row's history. The earlier `not_found`, adopted from the shared ledger with no
+detail and no evidence any request had ever arrived, turns out to rest on something real — and
+something that went in **through the form, not through the mailbox that bounces.** The other agent's
+work landed; the address in the registry was simply wrong.
+
+**A duplicate-detection message is one of the few honest signals in this whole corpus.** It cannot be
+produced by a system that did nothing, and unlike *"your request has been completed"* it distinguishes
+the two states this file spends most of its length trying to separate.
+
+### The limits, stated rather than glossed
+
+It confirms an **opt-out keyed to one email address.** It says nothing about deletion, nothing about
+the fifteen prior addresses, and nothing about the former public office that §331 argued would be the
+likeliest key in a directory of people in *roles*.
+
+Those questions are now unaskable through any working channel: the email bounces, the DSAR link is
+dead, and the form takes two fields. **The postal address is the only route left that could carry
+them** — which is a real answer about this company's accessibility, and worth recording as one rather
+than leaving the row looking finished.

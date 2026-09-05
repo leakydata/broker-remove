@@ -5101,17 +5101,18 @@
    "needs_email_confirm": true,
    "source": "optery_scrape",
    "optery_slug": "leadership-connect",
-   "email_to": "privacy@leadershipconnect.io",
+   "email_to": "",
    "email_verified": false,
-   "email_verified_by": "no_address_published",
+   "email_verified_by": "bounced",
    "email_alt": null,
    "registry_years": [
     "2020-2023"
    ],
-   "email_verified_was": "hard_bounce",
+   "email_verified_was": "privacy@leadershipconnect.io",
    "category": "b2b_contact",
    "category_source": "site_classifier 2026-08-31",
-   "listing_basis": "state_register"
+   "listing_basis": "state_register",
+   "email_note": "privacy@leadershipconnect.io HARD BOUNCED 2026-09-05 (address not found). The working route is the opt-out form at /opt-out/ -- name and email only, invisible reCAPTCHA, no challenge. Their privacy policy also links a DSAR form at /dsar/ which REDIRECTS TO THE HOMEPAGE, and their 'Privacy Portal' page offers only a postal address for the Chief Privacy Officer. So of three published routes, one bounces, one 404s to home, and one works."
   },
   {
    "id": "leadiq",
