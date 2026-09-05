@@ -28,8 +28,10 @@ worked out afterwards does not belong in it, and merging the two would make the
 Dry run by default. --apply writes, after taking a backup.
 """
 import json
+import os
 import shutil
 import sys
+import tempfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -91,13 +93,17 @@ def main():
         print("\nDRY RUN. Re-run with --apply to write.")
         return
 
-    backup = p.with_suffix(".json.bak-via")
+    # The backup goes OUTSIDE the repo. The first version wrote it beside the
+    # source as removal_status.json.bak-via, and .gitignore named the file rather
+    # than a pattern -- so a byte-identical copy of a protected file was not
+    # protected, and 23,121 lines of tracker state were committed. See 367.
+    backup = Path(tempfile.gettempdir()) / f"removal_status.bak-via.{os.getpid()}.json"
     shutil.copy2(p, backup)
     for k, via, why in todo:
         st[k]["via_inferred"] = via
         st[k]["via_inferred_basis"] = why
     p.write_text(json.dumps(st, indent=2, ensure_ascii=False) + "\n")
-    print(f"\nwrote {len(todo)} via_inferred value(s); backup at {backup.name}")
+    print(f"\nwrote {len(todo)} via_inferred value(s); backup at {backup}")
 
 
 if __name__ == "__main__":

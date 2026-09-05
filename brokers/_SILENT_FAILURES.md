@@ -23749,3 +23749,62 @@ block would push people toward writing a plausible channel to get past it, which
 worse than a blank. Tested it by writing a status without `--via` and watching it
 fire, then re-writing the same status with `--via` and watching it not; the row was
 set to the value it already held, so nothing real moved to prove the check works.
+
+## §367 — I committed the entire tracker to a public repo, and the gate that caught it did not stop me
+
+`backfill_via.py` takes a backup before writing, which is the right instinct. It
+wrote that backup to `data/removal_status.json.bak-via` — beside the file it was
+copying.
+
+`.gitignore` protects `data/removal_status.json` **by name**. It does not protect
+`data/removal_status.json.bak-via`, because that is a different name. So a
+byte-identical copy of the most sensitive file in the project became a publishable
+file, and **23,121 lines of it went into a commit**: every email address, the home
+address, every prior address, the date of birth, every note.
+
+The repository is public. It had not been pushed. Fifteen commits were sitting
+unpushed, this was the newest, and it was reachable from no other commit — so
+`git rm --cached`, `rm`, and `--amend` removed it completely rather than merely
+hiding it. Verified afterwards that no commit anywhere in the repository still
+references the blob. Had I pushed at any point in the last hour, this would have
+been a disclosure requiring history surgery on a published branch, and the
+`_SILENT_FAILURES` file would be recording something much worse than a near miss.
+
+### Two independent failures, and the second is mine
+
+**The ignore rule named a file where it needed a pattern.** `removal_status.json`
+is protected; `removal_status.json.bak-via` is not; `removal_status.json.2` would
+not be either. Any tool that ever writes a variant filename beside a protected file
+punches straight through. Fixed both ends: `.gitignore` now covers `*.bak`,
+`*.bak-*`, `*.backup` and `data/*.json.bak*`, and `backfill_via.py` writes its
+backup to a temporary directory **outside the repository**, which is where a backup
+of a gitignored file always belonged.
+
+**And the gate caught it. And I committed anyway.** This is the part worth sitting
+with. The command was:
+
+```
+python3 scripts/redact.py 2>&1 | tail -1 && git add -A && git commit ...
+```
+
+`redact.py` exited non-zero. It printed its refusal. But a pipeline's exit status
+is the status of its **last** command, and `tail -1` always succeeds — so `&&` saw
+success and the commit ran. The output was even visible: the line that scrolled past
+was `allowlist to make a commit pass`, the tail end of the gate's own failure
+message. I read it as noise.
+
+I have been piping the gate through `tail` all session, on every commit, for
+readability. Every one of those commits was unguarded. The gate has been running as
+decoration since the first time I did it.
+
+That is a more interesting failure than the ignore rule, because the mechanism was
+working perfectly. It detected the problem, reported it, and returned the correct
+status. What defeated it was a shell habit adopted for tidier output — the check
+was never disabled, it was **disconnected**, and nothing about the terminal
+distinguished a disconnected check from a passing one. §358 says: when the status
+code and the page disagree, believe the status code. I spent this afternoon writing
+that about other people's servers while discarding exit codes in my own shell.
+
+The rule, for this project and for me: **never pipe a gate.** Redirect its output
+to a file and check `$?`, or run it bare and read what it says. `cmd | tail && next`
+is not a check; it is two unrelated commands with a decorative first one.
