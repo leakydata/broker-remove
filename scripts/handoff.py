@@ -114,12 +114,20 @@ def cmd_add(a):
     # closed matter kept a live-looking form item and I staged a fourth letter to
     # a company that had answered plainly three times and been told twice I would
     # stop. The information was three keystrokes away; nothing asked for it.
+    # Refined the same day it was written: a terminal status does NOT mean no work
+    # remains. Auditing the fourteen open items on closed rows found most were
+    # legitimate -- a decision the user must make, a listing to re-verify, a reply
+    # to wait for -- and several exist BECAUSE the row is closed. What a closed row
+    # forbids is FILING THE REQUEST AGAIN, so the guard is scoped to the actions
+    # that submit one.
+    _SUBMITTING = {"form", "captcha", "click", "postal", "id"}
     _st = _terminal_status(a.broker)
-    if _st in TERMINAL_BLOCK and not getattr(a, "anyway", False):
+    if _st in TERMINAL_BLOCK and a.action in _SUBMITTING and not getattr(a, "anyway", False):
         sys.exit(
-            f"refusing: {a.broker} is already '{_st}'.\n"
-            "  That matter is closed -- queueing a form for it stages a duplicate "
-            "request,\n  and if an exit was offered and taken, it breaks a promise. "
+            f"refusing: {a.broker} is already '{_st}' and this is a "
+            f"'{a.action}' item.\n"
+            "  That matter is closed -- filing again stages a duplicate request,\n"
+            "  and if an exit was offered and taken, it breaks a promise. "
             "Read the row first:\n"
             f"    scripts/tracker.py show {a.broker}\n"
             "  If the row is genuinely wrong, reopen it deliberately with "

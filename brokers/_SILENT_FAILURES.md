@@ -22636,3 +22636,32 @@ for work later.
 The lesson is narrow and I should have had it already: **do not run a control against live data.**
 §310's synthetic row was injected into a copy and the tree restored; this control was fired at a real
 broker because it was convenient. A test that can destroy the thing it is testing is not a test.
+
+### The guard was too crude, and I broke the same thing again proving it
+
+Auditing the queue found **fourteen open items whose broker was already terminal** — the class the
+new guard exists to prevent. Reading them showed the guard as written would have been wrong:
+
+**Most of those fourteen are legitimate, and several exist *because* the row is closed.** A decision
+the user must make about signing an affidavit. A listing to re-check because automated fetch gets a
+403. A filtered domain list to wait for. A question only the user can answer. A closed row means the
+*request* is settled; it does not mean nothing remains.
+
+So the guard is now scoped to the actions that **file a request** — `form`, `captcha`, `click`,
+`postal`, `id` — and leaves `decision`, `verify`, `phone`, `none` alone. What a closed matter forbids
+is asking again, not thinking about it.
+
+Three of the fourteen were genuinely stale and are closed: one that said *"NO ACTION NEEDED from
+you"* in its own first line, one marked *"DOWNGRADED — no longer urgent, and the original reason for
+it has expired"*, and one asking for a decision that a standing rule had already made.
+
+**And I destroyed a second real queue item testing the change.** One paragraph after writing *"do not
+run a control against live data,"* I fired the positive control at `versium` — a live row — and `add`
+replaced its affidavit-decision item exactly as it had replaced Koddi's. Recovered from the closed
+list again.
+
+Twice in one hour, with the lesson written down in between. The fix that actually holds is not a
+better intention: **`add` replaces silently, and that is the defect.** Until it refuses to overwrite
+without `--also` or an explicit confirmation, any test against a live broker destroys work — so the
+only safe control is the refusal path, which exits before touching the queue, and that is what is
+recorded above.
