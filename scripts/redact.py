@@ -75,9 +75,10 @@ def _terms():
         out.append(re.sub(r"^\d+\s+", "", p["address"]))
 
     # An address is almost never quoted the way the profile stores it. The profile
-    # holds "248 S Potomac St, Waynesboro, PA 17268"; what gets written into a
-    # note, and from there into a public playbook, is "248 S Potomac St" with the
-    # town factored out into a shared suffix. Matching only the full literal meant
+    # holds each address as ONE string -- number, street, town, state and ZIP
+    # together. What gets written into a note, and from there into a public
+    # playbook, is the street line alone, with the town factored out into a
+    # shared suffix. Matching only the full literal meant
     # thirteen prior street addresses were published under a PASSING scan. So
     # index the street line on its own -- the part before the first comma -- for
     # every address-shaped string the profile holds.
@@ -253,8 +254,16 @@ def scan_tracked():
     except Exception:
         return [], []
     # The profile template and this scanner legitimately mention field names.
-    skip = {"data/profile.example.json", "scripts/redact.py",
-            "data/redaction_allowlist.json"}
+    # scripts/redact.py used to be skipped outright. That is the blanket exemption
+    # _allowlist()'s own docstring argues against, three lines further up -- and it
+    # cost a real leak: a prior street address sat in a comment in this very file,
+    # committed, unscannable by the scanner it was written into. See 368. The four
+    # name and local-part fragments this file legitimately quotes are now allowlist
+    # entries scoped to it, so a NEW value appearing here is caught.
+    #
+    # redaction_allowlist.json stays skipped because it lists exempted values by
+    # definition, and profile.example.json because it is a template of field names.
+    skip = {"data/profile.example.json", "data/redaction_allowlist.json"}
     allowed = _allowlist()
     hits = []
     for f in files if terms else []:

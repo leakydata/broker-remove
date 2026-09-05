@@ -10,6 +10,34 @@
         ".claude-plugin/marketplace.json",
         ".claude-plugin/plugin.json"
       ]
+    },
+    {
+      "value": "NATHAN",
+      "reason": "Quoted in a comment explaining a real defect: an unanchored match for the forename fired inside the word 'Jonathan'. The value IS the finding -- removing it destroys the explanation of why the pattern is anchored.",
+      "files": [
+        "scripts/redact.py"
+      ]
+    },
+    {
+      "value": "scholyx",
+      "reason": "Quoted in a comment explaining why email LOCAL-PARTS are indexed as terms in their own right. The full address remains blocked everywhere including here.",
+      "files": [
+        "scripts/redact.py"
+      ]
+    },
+    {
+      "value": "nej105",
+      "reason": "Same comment as 'scholyx': the pair illustrates that a local-part leaks without its domain. The full address remains blocked.",
+      "files": [
+        "scripts/redact.py"
+      ]
+    },
+    {
+      "value": "njones",
+      "reason": "Quoted in a comment explaining why concatenated forms of the name are matched. The full address remains blocked.",
+      "files": [
+        "scripts/redact.py"
+      ]
     }
   ]
 }

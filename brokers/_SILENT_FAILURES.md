@@ -23808,3 +23808,67 @@ that about other people's servers while discarding exit codes in my own shell.
 The rule, for this project and for me: **never pipe a gate.** Redirect its output
 to a file and check `$?`, or run it bare and read what it says. `cmd | tail && next`
 is not a check; it is two unrelated commands with a decorative first one.
+
+## §368 — the scanner exempted itself, and I wrote an address into it
+
+After §367 I audited every unpushed commit from this session: extracted each blob
+and matched it against the profile terms. Fifteen commits, and it found two things.
+
+**The one already known and already published.** A single prior street address
+appears in six older commits of this file. It is already in `origin/main` — pushed
+before today — so rewriting local history would achieve nothing except to diverge
+from what is already public. The working tree was cleaned in §360; that is the
+correct scope, and the standing instruction on already-published history is to
+leave it.
+
+**The one that was new, and mine.** `scripts/redact.py` — the scanner itself —
+contained a real prior street address, twice, in a comment I wrote a few hours ago
+explaining §360. I had quoted the exact value while explaining how the exact value
+had leaked.
+
+It was committed. It was never flagged. And it could not have been:
+
+```python
+skip = {"data/profile.example.json", "scripts/redact.py",
+        "data/redaction_allowlist.json"}
+```
+
+**The scanner skipped itself**, for a defensible reason — it legitimately quotes
+field names and fragments while explaining what it matches — and that exemption was
+*blanket*. Anything written into that file was invisible to it, forever, including
+the one category of value the file exists to catch.
+
+The sharpest part is that this file already contains the argument against what it
+was doing. `_allowlist()`'s docstring, three lines above the `skip` set, says:
+
+> "Deliberately per-file and per-value, with no wildcard. A blanket exemption would
+> silently cover every future file, which is how an allowlist stops being a decision
+> and becomes a hole."
+
+That is exactly right, and `skip` is exactly a blanket exemption. The project had
+already reasoned its way to the correct principle for one mechanism and left the
+other one unreformed beside it. Having the right rule written down twenty lines away
+is no protection at all.
+
+### Fixed
+
+`scripts/redact.py` is no longer skipped. The four fragments it genuinely needs to
+quote — a forename that fired inside "Jonathan", two email local-parts, one
+concatenated form — are now **allowlist entries scoped to that single file**, each
+with the reason it is permitted. Any *new* value appearing in the scanner is caught
+like anywhere else. Two files remain skipped and both are defensible by
+construction: the allowlist itself, which lists exempted values by definition, and
+the profile template, which is field names with no values in it.
+
+Then a positive control, since §306 is in this file and a fix that cannot fail its
+own test is worth nothing: wrote one real prior street into the scanner, ran the
+gate, watched it exit 1 naming `scripts/redact.py:84`, and restored the file in the
+same command with a byte-comparison to prove the restore took. Under the old skip
+that same file passed.
+
+**Three exemptions found in one day, all of the same shape.** A gate that skipped a
+path (this one). A gate whose exit code was discarded by a pipe (§367). A default
+limit that silently truncated an explicit list (§361). None of the three was a
+broken check. All three were working checks that had been quietly disconnected from
+the thing they were supposed to guard — and in every case the terminal output looked
+exactly like success.
