@@ -23446,3 +23446,73 @@ where it belonged.
 Re-running uncapped over all 274. The prior 121-domain sweep this session yielded
 exactly one address, so the expected return is very low — but low is a finding and
 twenty is not a sample of two hundred and seventy-four.
+
+## §362 — what is actually left, and why the last email route must not be used
+
+The uncapped re-run from §361 probed **120** domains, not 274, and returned
+**0 published addresses**. The gap is not another truncation — it is that the
+274 figure was answering a different question than I thought. Broken out
+properly, the 302 registry rows never contacted are:
+
+| what the row has | count | what can be done with it |
+|---|---:|---|
+| nothing — no email, no URL, no domain | **154** | a name in a register and nothing else |
+| a domain only | 119 | discoverable in principle; **0 published an address** |
+| an opt-out URL | 28 | browser work |
+| an email address | **1** | see below |
+
+So the real frontier is not 274 unworked brokers. It is **154 companies that are
+names on a filing and nothing else**, 119 whose sites publish no contact route at
+all, and 28 forms. The email channel is not merely exhausted — for two hundred and
+seventy-three of these there is no channel to exhaust.
+
+That 119-domain result deserves its own sentence, because it is the second nil of
+the day and this one is corroborated rather than assumed. A previous sweep this
+session covered 121 domains and produced exactly one address. This one covered 119
+different domains and produced none. **Two hundred and forty domains, one published
+contact.** For companies at this end of the register, publishing no way to be
+contacted is not an oversight; it is the norm.
+
+### The one email route, and why it stays unsent
+
+The single untouched row with an email address is **TransparentNevada**, and
+working it properly meant not sending to it.
+
+- **It is not that kind of company.** TransparentNevada publishes Nevada
+  *government payroll* — city, county, state, university, K-12 and special-district
+  salaries and pensions — under Nevada public-records law. It is a transparency
+  project run by a policy institute. It entered this registry through a
+  third-party removal-service directory, never a state data-broker register: the
+  row itself records `listing_basis: third_party_directory` and
+  `route_evidence: none`. Nobody ever attested that this is a data broker; a
+  directory asserted it and this project inherited the assertion.
+- **They hold no record of the subject.** Searched their index directly rather
+  than guessing. It reports 1,034 results for the name — a loose token match that
+  reverses the word order and pulls in unrelated Las Vegas municipal staff.
+  Exactly one row is an exact-name match: a temporary events worker in NSHE
+  Administration, $6,904, 2025.
+  The subject is a Pennsylvania resident whose entire address and employment
+  history is PA, MD and AL and who has never been a Nevada public employee. **That
+  row is a stranger.**
+- **The route is off-domain and unverified.** `info@nevadapolicy.org` appears
+  nowhere on `transparentnevada.com`, and the row's own note already warned to
+  confirm the corporate relationship before sending, because the letter carries a
+  full identifier set.
+
+Put together: sending the standard letter here would ship twelve email addresses,
+sixteen postal addresses, eleven phone numbers and a date of birth to an
+organisation that demonstrably holds none of it, in support of a removal request
+whose only possible target is **a real public employee's salary record in a
+government-transparency database, matched on a common name**. That is the
+Shippensburg namesake error from earlier today, with a worse consequence and a
+public-interest cost attached.
+
+Recorded `not_found` on the evidence of their own index, and flagged do-not-send so
+a later sweep does not pick it up as an unworked email route.
+
+The shape worth keeping: **the last item in a queue is the one most likely to be
+wrong.** Everything easy and correct gets done first, so what survives to the end
+is a residue of edge cases — and the pressure at that point is to clear the row
+rather than to ask whether the row should exist. This one had been sitting behind
+three separate warnings in its own record. Reaching it last is exactly why they
+needed reading.
