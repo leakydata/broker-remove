@@ -23166,3 +23166,75 @@ the population of "data brokers" as measured by these directories can only grow,
 whatever the companies actually do. Worth a pass over the registry for other rows
 whose registration has lapsed — the register profiles are already stored, so the
 lapse is checkable without asking anyone.
+
+## §358 — HTTP 200, `Location: /opt-out-failed`
+
+Intent IQ emailed a button: *"Click to opt-out of this email address being
+shared, sold or used for targeted advertising."* Clicking it produces a blank
+page. Not an error page — a blank one. No message, no confirmation, nothing.
+
+The response is:
+
+```
+HTTP/2 200
+location: https://www.intentiq.com/opt-out-failed
+```
+
+A `200` is a success status, and a browser follows `Location` only on a 3xx. So
+the header is inert in a browser and authoritative in anything else, and the two
+audiences are told opposite things by the same response:
+
+- **A person** clicking the button in their mail client lands on the servlet URL
+  with an empty document. Nothing tells them the opt-out failed. Nothing tells
+  them it succeeded either. They close the tab.
+- **A machine** — `curl -L`, a link checker, a compliance scanner — follows the
+  header and is told, in the URL's own words, `opt-out-failed`.
+
+Checked in a real browser as well as from the command line, because a
+command-line result alone would not have shown the half that matters: the tab
+stays on the servlet URL with an empty body. And the parameter was tried three
+ways (`mi=`, `mi`, and `mi%10` preserving the byte below) with an identical
+response each time, so the malformed parameter is not the cause.
+
+The malformed parameter is real too, and worth recording separately. The `href`
+in the message as delivered is:
+
+```
+...ProfilesEngineServlet?at=7&mi<0x10>&email=...&emailVoucher=...
+```
+
+A literal **0x10 (DLE) control byte** sits where the value of `mi` should be, in
+the raw HTML of the email they sent. Something templating that URL is emitting a
+control character instead of a value.
+
+**Whether the opt-out was recorded cannot be determined from outside**, which is
+why the row is `failed` and not `submitted`. But the sentence that matters is the
+one about the consumer: *a person who clicks that button once and sees a blank
+page has exactly the same information I do, and no reason to try again.* They
+will believe they opted out. Intent IQ's records will show they did not. Neither
+side will ever discover the disagreement, because the only way to see it is to
+read a status code, and nobody reads status codes.
+
+Written to `privacy@intentiq.com` asking one thing — confirm in a reply whether
+the opt-out against the address was recorded — since that is the single fact
+unavailable from this side.
+
+**Three in one day, and they are the same failure.** AddressSearch printed
+"Your information has successfully been removed" over an HTTP 500 (§355).
+Juicebox conditioned an opt-out on a verification email, which I then sent to a
+mailbox nobody reads (§353, §356). Intent IQ returns success and failure in the
+same response. In all three the consumer-facing signal and the machine-readable
+signal disagree, and in all three **the consumer-facing signal is the optimistic
+one**. That direction is not random. A page that says "success" costs nothing to
+emit and ends the interaction; a page that says "we are not sure" invites a
+second attempt, a support ticket, a complaint. Every one of these systems fails
+in the direction that makes the consumer stop asking.
+
+So the working rule from §355 — *when a form's confirmation is a page rather than
+a reference number, check the status code* — needs its converse: **when the
+status code and the page disagree, believe the status code, and record the
+outcome as undetermined rather than as either one.** "Undetermined" is an
+uncomfortable state to keep in a tracker, and it is the honest one. Of today's
+three, exactly one produced a reference number (§352's OneTrust UUIDs, which
+verified cleanly and left a receipt in the URL) — and that is the only one now
+recorded as done.
