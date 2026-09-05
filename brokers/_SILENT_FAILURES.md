@@ -22710,3 +22710,74 @@ But **recoverability is what made the losses survivable, not what made them acce
 recovery depended on my noticing within minutes. A queue item destroyed on a tick I did not audit
 would sit in `closed` looking deliberate, and the only signal would be its absence from a list nobody
 counts.
+
+---
+
+## §349 — a nil whose own explanation makes it uninformative
+
+RevContent's DPO replied properly and quickly, and the reply contains two sentences that cannot both
+be load-bearing.
+
+> *"We have no record of a registered user matching the following identifiers…"* — followed by all
+> twelve email addresses and twelve phone numbers, echoed back in full.
+
+Three lines later:
+
+> *"RevContent does not collect or store **non-hashed** email addresses through its services."*
+
+**They searched twelve plaintext addresses against a system they have just described as containing no
+plaintext addresses.** A nil was the only possible outcome, whether or not they hold data about the
+subject.
+
+This is §289 in its purest form so far. Elsewhere in this file a nil *might* have been run on the
+wrong key and I had to argue it. Here **the company supplies the proof itself**, in the same message,
+without noticing that the second sentence empties the first.
+
+### The ask that costs them nothing
+
+The original letter had already asked for the hashed search. So the question back is narrow: *were
+the hashes searched, or only the plaintext?*
+
+And the reason it is worth pressing is that **it requires nothing from me**. They hash the addresses
+themselves — lowercase, trim, SHA-256, plus MD5 and SHA-1 if held — and match against their own
+identity tables. Nothing new enters their systems, no verification is needed, and I am not asking to
+see the output. Match: delete. No match: **a nil on the field they actually use**, which would be the
+first real one.
+
+### "Registered user" is a second, narrower scope
+
+I have never registered with RevContent, so I do not doubt the answer. But a native-advertising
+network's records are overwhelmingly about people who never registered — cookie IDs, device-graph
+entries, partner-supplied hashed-email matches, modelled segments. All personal information under the
+statute regardless of any account.
+
+**Two narrowings stacked**: wrong field, and a population that excludes almost everyone.
+
+### And the route they offered is the one I always refuse
+
+They ask for a form supplying *"the user_id associated with you or your IP address and user-agent"*,
+once per browser and device.
+
+Reasonable engineering; wrong direction. **Supplying a device identifier to a company holding
+device-keyed data attaches my name to identifiers that currently have none.** If RevContent really
+holds only hashed and pseudonymous values, a request carrying an IP address and a user-agent makes
+their records *more* identifying than before. Same refusal as §303, §319 and §323, and the same
+reason each time.
+
+### One thing flagged as a question, not an accusation
+
+Their echo of my address list reads `…njones@att.net <nathanc82@gmail.com>`. **I have never used or
+supplied that address.**
+
+It is most likely a mail-client artifact. But if it came out of their system alongside my list, it is
+somebody else's address disclosed to me, and they would want to know — so I asked them to check
+rather than asserting anything.
+
+### Credit where it is due
+
+*"RevContent may retain certain data collected on users for up to 90 days for audit purposes… Any
+retained data will be automatically deleted after 90 days. Retained data will be used in a restricted
+manner until it's deleted."*
+
+Unprompted, specific, with a number and a limitation. Most companies describe deletion as if it were
+instantaneous and total; this one says what actually survives and for how long.
