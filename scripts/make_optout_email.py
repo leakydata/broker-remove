@@ -40,6 +40,17 @@ I request that you:
   4. SUPPRESS my details so that my records are not re-added from future
      data sources.
 
+On that fourth point, one limit that I would ask you to apply and confirm. A
+suppression entry has to be durable, and it has to carry enough of my identifiers
+to match whatever a future supplier sends you -- which can mean it becomes the
+most complete record you hold about me, created because I asked you to stop.
+Cal. Civ. Code 1798.105(d)(1) permits retaining information needed to give effect
+to a deletion request, and I am relying on that rather than objecting to it. I am
+asking only that the suppression record be USED FOR SUPPRESSION AND NOTHING ELSE
+-- not as a marketing signal, not shared with affiliates or sibling brands as an
+audience, not sold, and not used to enrich anything -- and kept only for as long
+as the suppression must hold.
+
 To help you locate my records, my identifying details are:
 
   Name:            {name}

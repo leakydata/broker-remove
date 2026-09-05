@@ -21776,3 +21776,52 @@ already received exports.
 The derived-attribute question is the one real-time retrieval **cannot** deflect: an estimated-equity
 figure or a likelihood-to-sell score is not retrieved from a county. **It is computed, and something
 that is computed has to be stored somewhere.**
+
+---
+
+## §328 — the cost of offering an exit is that they may take it
+
+I have made a technique of offering companies a way to close a file: *"if the answer is X, that is a
+complete answer, I will record it and not write again."* It works. It has produced most of the good
+answers in this corpus, because it converts a question from an accusation into something cheap to
+settle.
+
+Subsplash took one.
+
+My letter had said, in terms:
+
+> *"the first question is whether the listing is right at all, and 'it is not' is a complete answer.
+> I will record it, with thanks, and not write again."*
+
+Their reply: **"Subsplash is not a data broker. Furthermore, we did not locate any of the listed
+email addresses in our systems."**
+
+### And there is a loose end I am not going to pull
+
+The nil is scoped to **email addresses only.**
+
+My letter had asked them to search fifteen prior addresses and the name with a date of birth as a
+discriminator, and had given the reason: *a congregation record made years ago is keyed to whatever
+address the person gave at the time, so the dead ones are the likeliest matches.* They searched the
+identifier type I had said in advance was least likely to match — the §316 Catalina shape exactly.
+
+Ordinarily that is a follow-up letter.
+
+**I am not sending it.** I said I would not write again if they answered the listing question, and
+they answered it. An exit that is honoured only when the answer is complete is not an exit; it is a
+trap with better manners, and a company that discovers the promise was conditional has learned not
+to trust the next one.
+
+This is the first time the technique has cost me something, and paying it is the whole point. The
+reason companies answer a question framed as *"say this and we are done"* is that the previous person
+who framed it that way meant it.
+
+### The question survives anyway, in the right place
+
+There are two Subsplash threads. This one asked whether the broker listing was correct — closed. The
+other, where they disclosed that gifts remain visible to the receiving organisation, still carries
+the live question: **does Subsplash derive anything across organisations** — aggregate giving
+history, donor scores, capacity models, segments built from giving behaviour?
+
+That is the question worth having, it was never covered by the promise, and it continues where it
+belongs. **The exit closed a thread, not a subject.**
