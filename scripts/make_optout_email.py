@@ -539,7 +539,20 @@ def load_profile():
             "itself. Other\npeople live at those addresses now, and those numbers "
             "have been reassigned --\nsuppressing them outright would remove "
             "strangers from your file, which is not\nsomething I am entitled to "
-            "ask for on their behalf."),
+            "ask for on their behalf.\n\nAND ONE POINT ABOUT WHICH KEY IS LIKELY "
+            "TO MATCH, because it has caught me out\nbefore. The identifiers a "
+            "consumer thinks of first -- a current personal email\naddress, a "
+            "current phone number -- are often the ones a specialised database "
+            "is\nLEAST likely to hold. A business-contact file is built around "
+            "institutional\naddresses and public professional profiles; a "
+            "lead file is keyed to whatever\naddress was used when the enquiry "
+            "was made, years ago. One company searched six\nof my identifiers "
+            "and truthfully found nothing, then searched a closed "
+            "university\nmailbox and a profile URL and found a record "
+            "immediately -- same database, same\nweek. So please search the "
+            "OBSOLETE and INSTITUTIONAL identifiers above as well as\nthe "
+            "current ones, and if you can, tell me which keys you searched. "
+            "That single\nclause is what turns a nil result into information."),
         "cap_block": (
             "One limit on that, which I would ask you to respect even though it "
             "costs me\nsomething: other people live at my former addresses now and "

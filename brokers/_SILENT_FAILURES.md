@@ -22003,3 +22003,51 @@ The same three clauses in both letters, and they are the ones worth reusing:
 
 And the exit, as always: *a nil on the right keys closes the file.* It is worth far more than a nil
 on the wrong ones, and saying so is what makes the second letter welcome rather than an accusation.
+
+---
+
+## §332 — the fix belongs in the first letter, not the second
+
+§330 and §331 are both second letters. That is the wrong place for the lesson to live.
+
+Each time, the sequence was: send the identifiers a consumer naturally thinks of, receive a truthful
+nothing, work out afterwards which key would have matched, and write again. It worked twice. But a
+second letter costs the company a second search and costs me the interval — and for the 941 requests
+already sent, there is no second letter coming.
+
+So the generator now carries it at the input end:
+
+> *…the identifiers a consumer thinks of first — a current personal email address, a current phone
+> number — are often the ones a specialised database is **least** likely to hold. A business-contact
+> file is built around institutional addresses and public professional profiles; a lead file is keyed
+> to whatever address was used when the enquiry was made, years ago. One company searched six of my
+> identifiers and truthfully found nothing, then searched a closed university mailbox and a profile
+> URL and found a record immediately — same database, same week. So please search the **obsolete and
+> institutional** identifiers above as well as the current ones, and if you can, tell me which keys
+> you searched.*
+
+Three things about that paragraph are deliberate.
+
+**It gives the evidence, not the instruction.** *"Please search thoroughly"* is a sentence every
+company already believes it complies with. *"Six of my identifiers found nothing and two found a
+record, in the same database, in the same week"* is a fact that makes the request specific, and it is
+a fact about **my own file**, so it costs no company anything to be told.
+
+**It names which identifiers are which.** The letter already lists prior addresses, dead mailboxes
+and old phone numbers. What it never did was say *why those are the promising ones* — that an address
+whose provider shut down in 2013 is precisely what sits untouched in an old file, and that a live
+consumer database would have dropped it years ago.
+
+**It asks for the disclosure clause.** *"Tell me which keys you searched."* §330 needed two rounds to
+establish that; §316 shows what its absence costs; §300 counts twenty-six nils that could not be
+checked because nobody said. Asking in the first letter is free.
+
+### What this does not fix
+
+**941 requests have already gone out without it.** Some proportion of the fifty `not_found` rows are
+nils on keys that could not match, and §318 established that the tracker cannot tell me which — the
+one fact needed was never recorded.
+
+A change to the generator repairs the future and nothing else. **That is worth saying plainly rather
+than letting the fix imply more than it does**, which is the same discipline §318 arrived at and the
+reason this entry exists at all.
