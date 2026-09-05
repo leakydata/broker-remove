@@ -21604,3 +21604,66 @@ macro. **One of them someone stands behind.**
 
 Also worth noting, because it cuts against the §281 filtering worry: their mail system stamped my
 letter `[SUSPECTED SPAM]` in the subject line, and **a person answered it anyway.**
+
+---
+
+## §325 — the metrics tables mix two incompatible units, and only one company says so
+
+The wider scan: **10 of 59** brokers we have written to publish a CCPA metrics table. Read together,
+they do not measure the same thing.
+
+| | delete | access | opt-out | denied |
+|---|---|---|---|---|
+| **Snov.io** (2025) | 81 | 33 | **1,504,362** | 0 |
+| **UpLead** (2024) | **4,063,777** | **0** | **0** | 0 |
+| **FastPeopleSearch** (2024) | **0** | **0** | 1,204,017 | **207,021** |
+| **Pipl** (2025) | 19,227 | 7 | 507 | 0 |
+| **Thomson Reuters** (2025) | 414 | 213 | 23,231 | 6,432 |
+| **6sense** (2025) | 404 | 38 | 128 | 0 |
+
+Thomson Reuters received 213 access requests in a year. UpLead reports four million deletions.
+**These are not the same unit and nothing in the tables says so.**
+
+### Snov.io is the only one that explains itself
+
+> *"We also received 1,504,362 **automated** deletion requests under Section 1798.105 of the CCPA…"*
+
+One word — *automated* — and the table becomes readable. Their 81 human deletion requests and their
+1.5 million machine signals are separable, and a reader can compare the 81 with somebody else's 414.
+
+**UpLead's table has no such word.** Neither does FastPeopleSearch's 1.2 million opt-outs.
+
+§999.317 exists so the public can compare how businesses handle rights requests. That purpose
+survives only if the numbers share a unit. As published, **a reader comparing 4,063,777 with 213 is
+comparing an ingested feed with letters people wrote**, and has no way to know it. This is almost
+certainly not concealment — it is a count inherited from an automated system and published without a
+label. But the effect is a table that cannot be read.
+
+### The zeros are the sharper half
+
+**UpLead: zero access, zero sold/shared disclosure, zero opt-out, zero limit-sensitive.**
+**FastPeopleSearch: zero Right to Delete and zero Right to Know**, alongside 1.2 million opt-outs.
+
+If four million deletion signals reached UpLead, it is surprising that not one person asked what was
+held about them. And a people-search site receiving *zero* deletion requests in a year is not
+credible as a description of what consumers asked for — it is far more likely that every consumer
+removal is **classified as an opt-out**, which matters, because delete and opt-out are different
+rights with different consequences and only one of them removes anything.
+
+So a zero in these tables carries two readings — *nobody asked*, or *asked through a channel this
+table does not count* — and the second understates what consumers actually wanted.
+
+### FastPeopleSearch also explains its denials, which almost nobody does
+
+> *"…include instances where the data provided by the requestor did not match data in our records, or
+> the requestors' records had already been opted-out."*
+
+**207,021 denials, with a stated reason.** The second limb is worth noting: a request denied because
+the record *was already suppressed* is counted as a denial. That inflates the denial column with what
+are in substance successes, and it is another reason these tables cannot be compared column by
+column without reading the footnotes.
+
+I put the unit question to UpLead directly, with Snov.io's sentence offered as the fix, and said
+plainly that I am not alleging anything: **publishing the table at all puts them ahead of most
+brokers, and a number inherited from an automated system is an ordinary reporting artefact.** The
+exit offered is the usual one.
