@@ -21667,3 +21667,54 @@ I put the unit question to UpLead directly, with Snov.io's sentence offered as t
 plainly that I am not alleging anything: **publishing the table at all puts them ahead of most
 brokers, and a number inherited from an automated system is an ordinary reporting artefact.** The
 exit offered is the usual one.
+
+---
+
+## §326 — verification by channel, which creates nothing
+
+Kloudend (`ipapi.co`) answered all three questions I asked an IP-geolocation company, and the third
+answer is the best piece of verification design I have seen in this project.
+
+**1. Is any of the data keyed to individuals?**
+> *"We do not link IP data to individual identifiers like name / email / phone etc."*
+
+**2. Do you retain the query log, and for how long?**
+> *"The queried IPs are written to webserver logs and are kept strictly for security, operation and
+> maintenance purposes. They are automatically deleted after a 30 day period."*
+
+An actual retention period, and a statement that the lookup log is not an identity record. That was
+the question I said most companies miss — an IP API's own logs are a record of *who was looked up, by
+whom, and when* — and it was answered directly.
+
+**3. What would removal even mean here?**
+> *"If you'd like us to remove the IP address from our dataset, please submit the request FROM THE IP
+> that needs to be removed."*
+
+### Why that third sentence is the important one
+
+Every other verification demand this week asked me to **hand over a new identifier**: a cookie ID
+(§303, §323), a social media handle (§319), a phone number and SMS authorization (§319), a
+government ID (§317). Each has the same defect — **supplying the identifier creates the association
+the request exists to remove.**
+
+Kloudend's method has no such defect. **The proof is already in the packet.** You do not tell them
+your IP address; you connect from it, and the request itself carries the only fact that needed
+verifying. Nothing new is disclosed, nothing new is stored, and an impostor cannot submit from an
+address they do not control.
+
+**Verification by channel rather than by disclosure.** It works because they chose a verification
+fact that the interaction already produces — which is the general principle, and it generalises
+further than IP addresses: an email verification link is the same idea, and is the reason it is a
+better design than asking for a driving licence.
+
+### What I did not do
+
+I did not use the removal link. It would have suppressed **this automation host's IP**, not the
+subject's — a different address entirely, and one whose removal would be a small piece of false data
+rather than a win.
+
+And my own letter had already said I was not asking for a residential IP to be suppressed, because a
+carrier reassigns it and the suppression would then degrade the data for whoever holds the address
+next. **That reasoning does not stop being true because they offered.**
+
+File closed with thanks. Every question answered, nothing outstanding, no further letter.

@@ -2790,8 +2790,8 @@
     "via": null
   },
   "ipapi": {
-    "status": "submitted",
-    "changed": "2026-08-28",
+    "status": "not_found",
+    "changed": "2026-09-05",
     "via": "email"
   },
   "ipreo": {
