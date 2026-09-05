@@ -22438,3 +22438,49 @@ The handoff carries one instruction that matters more than the click: **file the
 second, and only after the access response arrives.** Lob's own disclosure is the reason. If their
 records are organised by postal address and a deletion runs first, it destroys exactly what the
 access request exists to disclose — §317, arriving with the company's own sentence as the evidence.
+
+---
+
+## §342 — I navigated away from my own staged tab, twenty minutes after writing §341
+
+The Lob request was staged to its review page: every field entered, the whole thing displayed back,
+one captcha between it and submission. I queued it for handoff.
+
+Then, on the next tick, I reused **that same tab** to open the next broker's form — and the staged
+review page was gone.
+
+§283 is the entry about queue items that depend on a browser tab surviving. §284 is the entry about
+destroying two real queue items while testing. I have written the rule twice and broken it a third
+time, this time on work I had staged myself minutes earlier.
+
+### What made it recoverable, and what should have made it recoverable
+
+The handoff note already said *"IF THE TAB IS GONE, start again… and ask me to re-print the comments
+text."* That is the §283 rule applied, and it saved the item from being silently dead — the user would
+have found a working instruction rather than an empty form and a note implying the work was done.
+
+But *"ask me to re-print it"* is a dependency on **me** rather than on a tab, which is barely better.
+An agent that has been compacted, or is simply not running, cannot re-print anything.
+
+So the text is now written to a file — `outbox/staged/lob_access_comments.txt`, with every field
+value alongside it — and the handoff points at the file instead of at me. **The item now depends on
+nothing that can disappear.**
+
+### The rule, restated so it covers the case I actually got wrong
+
+Previous form: *an item must not depend on a tab surviving.*
+
+That was too narrow. Staging work in a browser is fine; **what must not be lost is the content**. So:
+
+> **Before staging anything into a form, write the payload to a file.** The tab is a convenience.
+> The file is the artefact. And do not reuse a tab that is holding staged work — open a new one,
+> which costs nothing.
+
+Both halves matter. I had the first half in a weaker form and skipped the second entirely.
+
+### Why this belongs in the file rather than in a commit message
+
+Every other entry here is about a company's process failing in a way that reports success to whoever
+is responsible for it. This one is mine, and it has exactly that shape: **the queue would have looked
+identical whether the tab was alive or dead**, and the only person positioned to notice was the one
+who had just broken it.
