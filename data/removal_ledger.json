@@ -4900,8 +4900,8 @@
     "via": null
   },
   "salesintel": {
-    "status": "replied",
-    "changed": "2026-09-01",
+    "status": "confirmed",
+    "changed": "2026-09-05",
     "via": "email"
   },
   "salesintel_research": {

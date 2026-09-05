@@ -21874,3 +21874,71 @@ contradicting the 3 September *"located and removed"*. Read carefully they are c
 agent says the listing *"may have already been removed"* — and a company that removed a listing and
 then cannot find it is describing success, not confusion. **Not every apparent contradiction is
 one**, and treating this as a catch would have spent credibility that (a) and (c) still need.
+
+---
+
+## §330 — nil on the wrong keys, match on the right ones, three days apart
+
+The whole argument of this file, demonstrated by one company against its own database.
+
+**1 September.** SalesIntel searched four consumer webmail addresses, a phone number and a name.
+Result: nothing. Their reply — *"any data we have associated with the info provided will be
+removed"* — was true and told me nothing, because it reads identically whether they held a full
+record or none.
+
+I said at the time the nil was probably my fault rather than their search's: a B2B contact database
+is not keyed to personal webmail, and I had said so in the original letter and then failed to supply
+the key I knew was better. So I gave it: a closed university mailbox at an organisational
+domain, plus the public professional-profile URL.
+
+**4 September**, same company, same file:
+
+> *"our search returned **one match:**"* — the closed university address **and** the profile URL.
+> *"No other identifier you listed matched a record in our systems."*
+
+**Six identifiers returned a truthful nothing. Two returned a record.**
+
+### Why this matters more than the removal
+
+§289 says a careful search and a broken one emit the same sentence. §316 showed a company searching
+the four fields I had told it in advance were the wrong ones. §300 counts 26 nils that cannot be
+checked at all.
+
+This is the first time **both halves of that argument have come from the same database about the
+same person within a week** — and, importantly, the second answer came from *them searching
+properly*, not from me catching anything. It is a controlled experiment I did not have to design.
+
+The lesson is sharper than "ask again". It is:
+
+> **A nil is a statement about the keys, not about the file.** *"We found no record"* means *"none of
+> the things you gave us matched"* — and for a specialised database, the things a consumer naturally
+> supplies are exactly the things least likely to match.
+
+The identifier that worked was **dead and institutional**: an address closed for years, at an
+organisational domain. A live consumer file would have dropped it. A B2B file built on
+human-verified professional contacts kept it, because that is what such a file is *for*.
+
+### Two more answers almost nobody gives
+
+> *"That record has not been exported, shared, or disclosed to any customer or third party."*
+
+This is the question that actually matters, and it is usually met with silence. A deletion cannot
+reach a copy already downloaded into somebody's CRM; a negative here is the difference between a
+removal that is complete and one that is merely local.
+
+> *"All email identifiers you provided have been added to our permanent suppression list so they are
+> not added again through a future data collection or verification cycle."*
+
+Durable, and applied without being argued into it — the same instinct they showed unprompted on
+1 September.
+
+### What is still open, and one thing I asked for anyway
+
+The **verification source** — their distinguishing claim is human-verified data, so a person verified
+that record against something, which names an upstream relationship the deletion cannot reach. And
+whether a **mailbox/signature-capture store** exists and was covered, since *"our systems"* may or
+may not include it.
+
+And per §327 and §329: the suppression entry now holds a closed university address and a LinkedIn
+URL — **a fairly precise record of who I am, created because I asked them to stop.** I asked them to
+keep it purpose-limited. I have no reason to think otherwise. I would simply rather have asked.
