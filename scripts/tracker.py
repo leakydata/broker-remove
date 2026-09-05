@@ -55,6 +55,11 @@ STATUSES = [
 # Outcomes that represent real, hard-won progress. Moving away from one of these
 # is almost always an accident (see cmd_set), so it needs an explicit flag.
 TERMINAL_WINS = {"confirmed", "not_found", "suppressed"}
+
+# Statuses that assert a request actually reached the broker. Each of these
+# should carry a channel; see the warning in cmd_set.
+NEEDS_CHANNEL = {"submitted", "email_pending", "confirmed", "replied",
+                 "acknowledged", "suppressed", "captcha_blocked"}
 def load(path, default):
     if path.exists():
         return json.loads(path.read_text())
@@ -196,6 +201,16 @@ def cmd_set(args):
     entry = {"at": now(), "status": args.status}
     if args.via:
         entry["via"] = args.via
+    elif args.status in NEEDS_CHANNEL:
+        # 439 of 1,200 rows reached a status implying a request went in and never
+        # recorded HOW. --via has existed the whole time; nobody passed it. While
+        # the opt-out route stays alive that is untidy. Once the route rots there
+        # is nothing left to reconstruct from and the status becomes an assertion
+        # that cannot be checked. See _SILENT_FAILURES 365, 366.
+        print(f"WARNING: {args.broker_id} -> '{args.status}' with no --via. "
+              f"A status that says a request went in should say how it went in: "
+              f"--via email|reply|web|phone|postal. Recording it now costs a word; "
+              f"reconstructing it later is usually impossible.", file=sys.stderr)
     if args.note:
         entry["note"] = args.note
         rec["note"] = args.note

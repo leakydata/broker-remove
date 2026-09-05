@@ -23693,3 +23693,59 @@ rather than flagging the row as broken. Added a `DELEGATED` verdict and a list o
 portal hosts — OneTrust, Osano, TrustArc, Ketch, Securiti, Transcend, Mine and the
 rest. Three defects in one day, all of them a string test standing in for a
 question about the world.
+
+## §366 — the flag existed the whole time
+
+§365 found eleven rows that could not say how they were filed. The real number is
+**439 of 1,200** — every row that reached a status implying a request went in, and
+never recorded the channel. 387 of them are `submitted`.
+
+The cause is not a missing capability. `tracker.py set` has accepted
+`--via email|reply|web|phone|postal` for as long as the history entries have had
+the field; 1,441 entries carry one. Nobody passed it the other 439 times. **I did
+not pass it once today**, across every status I wrote — while writing an entry
+complaining that other rows lacked it.
+
+That is the recurring shape here, and it is worth stating plainly: *an optional
+field that nothing asks for is a field that will be empty in the cases you most
+need it.* It costs one word at the moment of writing and is usually impossible to
+reconstruct afterwards, which means the cost is paid entirely by a later reader
+who has no way to recover what the writer knew for free.
+
+### What could be reconstructed, and what could not
+
+Two fields already on the record are unambiguous evidence of channel:
+
+| evidence | means | n |
+|---|---|---:|
+| `confirmation_ref` begins `gmail:` | the reference *is* a mail message id | 119 |
+| `optout_url_used` begins `http` | the route used was a page | 21 |
+| everything else | — | **299** |
+
+So 140 of 439 were recoverable and 299 were not. A bare ticket number —
+`REQ-224224`, `540175`, `CIOO-42714` — is deliberately excluded: portals and mail
+desks both issue those, and treating one as proof of a web submission would
+manufacture exactly the kind of confident wrong fact this file exists to catch.
+
+`scripts/backfill_via.py` does the reconstruction, dry-run by default, backing up
+before it writes. The recovered value goes to **`via_inferred` on the record, never
+into a history entry.** History is a log of what happened at the time; a value
+worked out three weeks later does not belong in it, and merging the two would make
+1,441 contemporaneous records indistinguishable from 140 educated guesses. Keeping
+them in separate fields costs nothing and preserves the difference between *what we
+recorded* and *what we later worked out* — which is the whole point of the exercise.
+
+### The forward fix
+
+`tracker.py set` now warns when a status that asserts a request reached the broker
+is written without a channel:
+
+> WARNING: health_union -> 'email_pending' with no --via. A status that says a
+> request went in should say how it went in.
+
+A warning rather than a refusal, deliberately. Some rows genuinely arrive without a
+known channel — a status adopted from a shared ledger, a family rollup — and a hard
+block would push people toward writing a plausible channel to get past it, which is
+worse than a blank. Tested it by writing a status without `--via` and watching it
+fire, then re-writing the same status with `--via` and watching it not; the row was
+set to the value it already held, so nothing real moved to prove the check works.
