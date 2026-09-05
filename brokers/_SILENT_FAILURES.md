@@ -21718,3 +21718,61 @@ carrier reassigns it and the suppression would then degrade the data for whoever
 next. **That reasoning does not stop being true because they offered.**
 
 File closed with thanks. Every question answered, nothing outstanding, no further letter.
+
+---
+
+## §327 — the suppression list is the one record a no-storage company must keep forever
+
+Eleris / New Mexico Data Insights replied with two sentences that cannot both be true:
+
+> *"We do not permanently store public records on our servers. Public record information displayed
+> through our service is retrieved from external data sources at the time a report is generated."*
+
+> *"Your information has been removed as requested."*
+
+**If nothing is stored, there is nothing to remove.**
+
+The resolution is almost certainly not dishonesty. A real-time retrieval service **cannot** honour a
+deletion by deleting, because it holds nothing to delete. The only mechanism available to it is a
+**list of people not to show** — and what was created is a suppression entry, not a deletion.
+
+Their own closing line gives it away: *"Don't forget to clear your browser's cache before searching
+again."* That is an instruction about **display**.
+
+### And that produces the inversion worth keeping
+
+If the remedy is a suppression list, then:
+
+> **The suppression entry is the only record about me this company must keep permanently — and it
+> exists because I asked them to stop.**
+
+It has to be durable, or the next query re-displays me. It has to carry enough identifiers to match
+whatever the suppliers return — realistically a name and every address supplied. **Which is more
+than they held before I wrote**, since by their own account they held nothing between queries.
+
+This is not a reason to stop asking. It is contemplated by statute: **§ 1798.105(d)(1)** expressly
+permits retaining information necessary to *give effect* to a deletion request, and a durable
+suppression is exactly what this project asks every company for. §193 has been arguing the whole time
+that suppressing the association beats deleting the value.
+
+But it does mean the ask has to be completed properly, and I have now added the two clauses that
+finish it:
+
+1. **The list is for suppression and nothing else** — not a marketing signal, not shared across the
+   eight brands as an audience, not sold.
+2. **Kept for as long as the suppression must hold, and used for no other purpose.**
+
+Without those, a person who asks to disappear has handed a data broker a clean, verified, permanent
+record of exactly who they are and every address they have lived at — assembled at their own
+request. **The remedy and the harm are made of the same material**, and the only thing separating
+them is a purpose limitation nobody usually asks for.
+
+### What is still open
+
+The reply answered none of the letter's actual questions: which entity holds the data, whether the
+request reaches all eight brands Eleris says it operates, what derived attributes exist, and who
+already received exports.
+
+The derived-attribute question is the one real-time retrieval **cannot** deflect: an estimated-equity
+figure or a likelihood-to-sell score is not retrieved from a county. **It is computed, and something
+that is computed has to be stored somewhere.**
