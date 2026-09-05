@@ -22393,3 +22393,48 @@ identical whether a request succeeded silently, failed silently, or was never ma
 different states, and only one of them is worth recording as a submission.
 
 Reported to their published contact with the full request attached, since the form cannot carry it.
+
+---
+
+## §341 — the form that tells you what its search key is
+
+After twenty-odd portals this week, Lob's is the one worth describing as a model.
+
+**It pre-selects the state.** Country of residence and State of residence arrive already set to United
+States / Pennsylvania. Compare §314, where a Pennsylvania resident hunts a 23-entry dropdown for a
+state that is not in it, and §333, where the state is accepted but only one right is on offer.
+
+**All four rights are offered to that resident** — Access, Deletion, Transfer, Update Inaccuracies.
+Not gated, not filtered, no explanation required.
+
+**And it says what its search key is:**
+
+> *"Mailing Address — Lob's records are organized using postal information. **Without your mailing
+> address, Lob is unable to locate the correct records.**"*
+
+That single sentence is the thing §330 needed two rounds and a controlled experiment to establish at
+another company: *which field does this database actually match on?* Lob prints it above the field,
+unprompted, before the consumer has submitted anything.
+
+It also happens to confirm the comment I had already written into the form — that for a direct-mail
+and address-verification business the postal address is the key and the email address is nearly
+irrelevant. **I was guessing from the company's business model; they simply told me.**
+
+### Everything else it gets right
+
+A **review page** that displays the whole request back — name, email, mailing address, relationship,
+comments, jurisdiction — before anything is sent. §312 and §340 are both about forms where the
+consumer cannot tell what, if anything, was transmitted. This one shows you.
+
+And a free-text comments box large enough to carry the identifier list, the ordering sentence and the
+closing questions, so the request is not truncated to whatever the fields happen to allow (§333,
+§334).
+
+### Where it stopped
+
+*"Complete the Captcha."* Not solved — standing rule — so it is staged to the review page and queued.
+
+The handoff carries one instruction that matters more than the click: **file the deletion request
+second, and only after the access response arrives.** Lob's own disclosure is the reason. If their
+records are organised by postal address and a deletion runs first, it destroys exactly what the
+access request exists to disclose — §317, arriving with the company's own sentence as the evidence.
