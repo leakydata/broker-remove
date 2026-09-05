@@ -1800,8 +1800,8 @@
     "via": "email"
   },
   "emerges_com": {
-    "status": "manual_required",
-    "changed": "2026-08-27",
+    "status": "submitted",
+    "changed": "2026-09-05",
     "via": "web"
   },
   "endgame": {

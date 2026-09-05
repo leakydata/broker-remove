@@ -22096,3 +22096,59 @@ longer exist, all flagged as search keys only.
 **A well-built form and a well-built request are not the same artefact.** This one is clean, accepts
 every state, verifies properly and issues a tracking ID — and still cannot express the thing that
 makes the request likely to find anything.
+
+---
+
+## §334 — the company left the business and switched off the remedy
+
+eMerges' recorded opt-out URL returns a 404. The reason is on their homepage and contact page, stated
+plainly and without evasion:
+
+> *"As of July 1, 2025 eMerges ceased operating as a List Broker… eMerges has ceased operating its
+> entire list business **therefore this opt out resource has been disabled.**"*
+
+The logic is explicit: no longer a broker, so no opt-out needed. And as a statement about their
+*future* conduct it is presumably true.
+
+But **ceasing to sell is not ceasing to hold.** A quarter-century of government-record compilation —
+voter, watercraft, aircraft and snowmobile registrations, hunting, fishing and pilot licences,
+2000–2025 — existed on 30 June 2025. On 1 July it did not stop existing; it stopped being sold. And
+the one mechanism a consumer had for asking about it was **removed as a consequence of the
+wind-down.**
+
+This is §303's shape again — an acquisition narrower than the name — arriving from the opposite
+direction. There, a buyer took the brand and left the database behind. Here a seller stops trading
+and the database's disposition is simply unstated. **Both leave records somewhere with no route to
+them.**
+
+### The only remaining channel, and its 255-character limit
+
+A general contact form: Full Name, Phone, Email, Subject. No message field.
+
+My request — four numbered questions, the identifier list, the standing-suppression ask, and a note
+that their homepage still markets the very lists the notice says they no longer handle — was
+rejected:
+
+> **"Please enter less than 256 characters"**
+
+So the entire request had to fit in 249 characters:
+
+> *Consumer privacy request. Your opt-out is disabled, so I ask here. Ceasing to SELL lists is not
+> ceasing to HOLD them. What became of the data held to 1 Jul 2025 - destroyed, retained or
+> transferred? If transferred, to whom? Reply [correspondence address]*
+
+Everything else was dropped. **When a channel is that narrow, the discipline is to spend it on the
+one question whose answer determines every other question** — here, *where did the data go* — because
+a named transferee turns a dead end into a new address, and "destroyed, with a date" closes the file
+outright.
+
+It submitted, with a positive confirmation rather than an absence of error (§312's test).
+
+### And the page contradicts itself
+
+The same site that says it is *"neither acquiring, publishing, processing or selling any lists"*
+still advertises, in its hero text, *comprehensive registrations and licences from 2000 to 2025.*
+
+Almost certainly a stale page rather than a live offer. But **a consumer arriving there cannot tell
+which sentence is current**, and the one that says the data is available is the one written in the
+largest type.
