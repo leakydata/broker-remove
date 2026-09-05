@@ -22665,3 +22665,48 @@ better intention: **`add` replaces silently, and that is the defect.** Until it 
 without `--also` or an explicit confirmation, any test against a live broker destroys work — so the
 only safe control is the refusal path, which exits before touching the queue, and that is what is
 recorded above.
+
+---
+
+## §344a — three destroyed items in ninety minutes, and the rule I kept writing but not following
+
+The fix was right and I implemented it: `handoff.py add` no longer replaces silently. It refuses,
+lists what it would have destroyed, and makes you choose `--also` or `--replace`.
+
+Then I tested it against live data for the **third** time in ninety minutes.
+
+- **Koddi** — positive control for the terminal-state guard. `add` replaced its OneTrust form route.
+  Recovered from `closed`.
+- **Versium** — positive control for the scoped guard, one paragraph after writing *"do not run a
+  control against live data."* `add` replaced its affidavit decision. Recovered from `closed`.
+- **Dstillery** — control for the new refusal. The refusal **worked**: it declined to add, because
+  Dstillery already had an open item. I misread the output as a successful add, ran
+  `handoff.py done dstillery` to clean up my probe, and closed the real item instead. Recovered
+  from `closed`.
+
+The third is the worst of the three, because **the guard did its job and I destroyed the item
+anyway.** The protection was working; the cleanup step had no protection at all.
+
+### What actually generalises
+
+Every one of the three had the same shape: **I reached for a live row because it was convenient, and
+the destructive step was the one I had not thought about.** The first two were `add` overwriting. The
+third was `done` closing. Guarding `add` did nothing for `done`, and guarding `done` would leave
+whatever I reach for next.
+
+So the rule is not another guard. It is:
+
+> **Do not exercise a destructive command against real state to prove it works.** Read the code, or
+> exercise the refusal path — which exits before touching anything — or build the fixture. §310 got
+> this right by injecting a synthetic row into a copy and restoring the tree. I have since ignored my
+> own precedent three times because a real broker id was closer to hand.
+
+### Why all three were recoverable, and why that is not the point
+
+Archiving on replace (§284) meant every destroyed item was sitting in `closed` with its full text.
+That is a good design and it saved three real pieces of work today.
+
+But **recoverability is what made the losses survivable, not what made them acceptable.** Each
+recovery depended on my noticing within minutes. A queue item destroyed on a tick I did not audit
+would sit in `closed` looking deliberate, and the only signal would be its absence from a list nobody
+counts.

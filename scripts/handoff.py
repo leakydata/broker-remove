@@ -145,13 +145,29 @@ def cmd_add(a):
     # OneTrust form", the newer said "hold, that URL is a draft". See
     # _SILENT_FAILURES 284.
     prior = [e for e in q["open"] if e["broker"] == a.broker]
-    if prior and not getattr(a, "also", False):
-        print(f"  replacing {len(prior)} existing open item(s) for {a.broker} "
-              f"(pass --also to keep them alongside)")
+    # SF 344a: printing "replacing N items" AFTER the fact is not a warning, it is
+    # a receipt. Twice in one hour I destroyed a real item -- Koddi's OneTrust form
+    # route, then Versium's affidavit decision -- by running a control against a
+    # live broker, and read the notice only afterwards. Archiving made both
+    # recoverable, which is why they were recovered; it did not stop either loss.
+    # So replacement is now REFUSED unless it is asked for. The default is the
+    # safe one, and the destructive path has to be typed.
+    if prior and not getattr(a, "also", False) and not getattr(a, "replace", False):
+        lines = "\n".join(
+            f"    [{e.get('action')}] {(e.get('steps') or '')[:100]}" for e in prior)
+        sys.exit(
+            f"refusing: {a.broker} already has {len(prior)} open item(s):\n"
+            f"{lines}\n"
+            "  Adding would REPLACE them. Choose deliberately:\n"
+            "    --also     keep the existing item(s) and add this one alongside\n"
+            "    --replace  supersede them (they are archived to `closed`, not lost)\n"
+            "  See _SILENT_FAILURES 344a.")
+    if prior and getattr(a, "replace", False):
+        print(f"  replacing {len(prior)} existing open item(s) for {a.broker}")
         for e in prior:
             print(f"    dropped: [{e.get('action')}] "
                   f"{(e.get('steps') or '')[:80]}")
-    if not getattr(a, "also", False):
+    if not getattr(a, "also", False) and prior:
         # Archive what is replaced rather than discarding it. Testing this very
         # function destroyed two real items -- a phone route and its portal
         # fallback -- which had to be reconstructed from a tracker note, because
@@ -238,6 +254,9 @@ def main():
     p.add_argument("--steps", required=True, help="exactly what the human does")
     p.add_argument("--note", help="anything else worth knowing")
     p.add_argument("--minutes", type=int, default=1, help="rough time cost")
+    p.add_argument("--replace", action="store_true",
+                   help="supersede existing open item(s) for this broker; they "
+                        "are archived to `closed`. See _SILENT_FAILURES 344a.")
     p.add_argument("--anyway", action="store_true",
                    help="queue even though the broker is already in a terminal "
                         "state -- only for genuinely separate work on a closed "
