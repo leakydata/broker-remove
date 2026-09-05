@@ -22260,3 +22260,86 @@ Those questions are now unaskable through any working channel: the email bounces
 dead, and the form takes two fields. **The postal address is the only route left that could carry
 them** — which is a real answer about this company's accessibility, and worth recording as one rather
 than leaving the row looking finished.
+
+---
+
+## §338 — the right exists, and no written channel can carry it
+
+InfutorData, replying to the follow-up §333 sent by email:
+
+> *"Any data subject requests sent to these Infutor privacy compliance email addresses **will not be
+> considered a valid submission** of a privacy rights request. The functions of these email addresses
+> are not for data subject privacy rights request processing."*
+
+They then name what the proper channels handle: *"right to be deleted, right to opt-out, right to
+access."*
+
+Set that against §333. Their online form, with Pennsylvania selected, offered **exactly one** request
+type: *Do not Sell or Share*. No deletion. No access.
+
+So the position is:
+
+- **Email** — declared invalid by the company itself.
+- **The form** — cannot express deletion or access.
+- **A toll-free number** — the only remaining route to two of the three rights they name.
+
+Nothing here is a refusal. Nobody said no. And yet **a consumer who does not make a telephone call
+cannot obtain a deletion from this company** — not because the right is denied but because no written
+channel will carry the words.
+
+That is a designated-methods failure rather than a substantive one, and it is harder to see precisely
+because every individual component is defensible: an email address that is not a request intake is a
+reasonable thing to have; a form scoped to a state's statutory rights is a reasonable thing to build;
+a phone line is a reasonable alternative. The gap only appears when you try to walk through it.
+
+Queued the call, with the identifiers to have ready and an instruction to refuse if asked for an SSN,
+a card number or a photo ID.
+
+---
+
+## §339 — a verification rule that is right in general and impossible in this case
+
+Nordic Data Resources, a Norwegian AS registered as a California data broker, replied thoughtfully:
+they will act on the sending address, and for the other eleven,
+
+> *"please submit a separate request from each relevant address. This will allow us to reasonably
+> verify that the request originates from the holder of the address concerned."*
+
+For a live mailbox that is entirely reasonable and I said so.
+
+**Four of the twelve addresses cannot send mail and never will again.** WebTV shut down in 2013.
+Gateway's ISP is gone. iWon folded into Ask.com. The university mailbox is closed. These are not
+addresses I am declining to use — **the providers do not exist.**
+
+And those four are the ones **most likely to be in the file.** A record compiled years ago is keyed to
+whatever address was current then. An address that died in 2013 is exactly what sits untouched in a
+compiled file for a decade; a live consumer mailbox is exactly what would not.
+
+So the rule as applied produces:
+
+> **The records most likely to exist are the ones nobody on earth can ever request the removal of.**
+
+Not because the company refuses. Because the only proof it accepts is one the internet no longer
+makes possible. This is the HealthLink Dimensions shape (§ earlier this project) arriving from a
+European controller with a better-reasoned policy — which makes it more interesting, not less.
+
+### The exit offered, and why it should be acceptable to them
+
+Verification exists to stop a business **disclosing** data to an impostor. I am not asking for
+disclosure. So: treat the four dead addresses as **search keys for an exclude-only suppression** —
+do not say what matched, do not confirm anything, simply suppress.
+
+**If an impostor did this, the worst case is that a stranger's dead email address stops being
+targeted.** The risk of acting is nil; the cost of not acting is that the data is permanent. That
+asymmetry is the whole argument, and it is the same one that has now worked at Donorbase (§317) and
+elsewhere.
+
+### And their own answer sharpens the hash question
+
+> *"we process data relating to internet users, but we do not ordinarily process Personally
+> Identifiable Information such as names, surnames, addresses, phone numbers, dates of birth"*
+
+Candid, and it means the key is an identifier rather than a person — which in this industry is very
+often a **hashed email address**. So the ask that costs them nothing: hash the addresses themselves,
+lowercased and trimmed, SHA-256 plus MD5 and SHA-1, and search on the results. **No verification is
+needed for that, because I am not asking to see what comes back** — only that a match be suppressed.
