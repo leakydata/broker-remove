@@ -5580,9 +5580,9 @@
     "via": "email"
   },
   "tovodata": {
-    "status": "manual_required",
-    "changed": "2026-08-28",
-    "via": "reply"
+    "status": "submitted",
+    "changed": "2026-09-05",
+    "via": "web"
   },
   "towerdata": {
     "status": "submitted",

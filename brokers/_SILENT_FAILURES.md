@@ -22484,3 +22484,56 @@ Every other entry here is about a company's process failing in a way that report
 is responsible for it. This one is mine, and it has exactly that shape: **the queue would have looked
 identical whether the tab was alive or dead**, and the only person positioned to notice was the one
 who had just broken it.
+
+---
+
+## §343 — the gate was in the prose, not in the field
+
+iLeads' request form opens:
+
+> *"If you are a resident of **California** and you would like to exercise your rights under the
+> California Consumer Privacy Act…"*
+
+The State dropdown underneath carries **all fifty states**, and accepted Pennsylvania without
+complaint. The request went through and returned *"Thank you for your message. It has been sent."*
+
+That is §314 turned inside out. There, the prose was neutral and **the dropdown excluded the
+consumer**. Here the prose excludes and the field does not.
+
+Both produce the same practical outcome for most people, and it is worth naming why: **a consumer
+reads the sentence and stops.** Someone who lives in one of the 27 states without a comprehensive
+statute sees "if you are a resident of California", concludes the form is not for them, and never
+scrolls to discover that their state is in the list and the form will take it.
+
+**The heading is the gate.** No validation rejected me; the only thing standing between a
+Pennsylvania resident and this form is a sentence that says, inaccurately, that it is for someone
+else.
+
+### And it takes all four rights at once
+
+Data Deletion, Data Access, Right to Know, Do Not Sell — genuine multi-select checkboxes, all four in
+one submission. Compare §335, where six rights were offered one per ticket, and §333, where one right
+was offered at all. **This is the shape the others should be**, and it costs nothing extra to build.
+
+### A tooling note worth keeping
+
+The four checkboxes **would not respond to clicks** — not by coordinate, not by element reference.
+Each click reported success and the box stayed unchecked, and the only evidence anything was wrong
+was the form refusing with *"Please fill out this field."*
+
+Setting the checkbox value directly worked immediately.
+
+The page also reflows between actions, so coordinates captured from one screenshot are stale by the
+next click. Twice I clicked what I believed was a checkbox and hit an unrelated field.
+
+The general rule, which is §340's rule pointed at my own tooling: **verify state after setting it,
+rather than trusting that the action landed.** A click that reports success and changes nothing is
+the same class of failure as a form that returns HTTP 200 and delivers nothing — and I spent four
+attempts on it because I trusted the report instead of checking the result.
+
+### The limitation, recorded
+
+No free-text field. The sixteen prior addresses, ten old phone numbers and the dead mailboxes could
+not be supplied — and for a **mortgage-lead company whose records are keyed to a property address**,
+those are exactly the identifiers most likely to match. §333 again. A follow-up by email is warranted
+if they reply.
