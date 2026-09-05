@@ -21359,3 +21359,63 @@ defect, and §317's ordering sentence.
 One thing is worse: the cookie banner states that selecting *"Close"* or the *"X"* constitutes
 consent to all cookies — **on a page whose entire purpose is exercising privacy rights.** Declining
 was the only coherent option, and it is a strange thing to have to notice on that particular page.
+
+---
+
+## §320 — a company published the evidence against its own portal, in a table
+
+Semasio's privacy page carries a CCPA metrics table. Companies publish these because California
+requires it, and they are almost always ignored — including by me, until this one.
+
+Read as a set rather than row by row:
+
+| right | volume | median response |
+|---|---|---|
+| Object to any processing | 904 last year | **< 1 second** |
+| Do not sell or share | 33 YTD | **< 1 second** |
+| Withdraw of consent | 4 YTD | **< 1 second** |
+| Right for Information | 1 last year | **< 1 second** |
+| **Right to Know** | **11 last year** | **N/A** |
+
+**A sub-second median is a cookie being written.** It is not a request being read, searched,
+considered or answered — no human process has a median response time of under one second, and no
+database search that reports its own findings does either.
+
+And the single right that cannot be satisfied by writing a cookie — the one that requires telling a
+person what you actually hold about them — is the only row with **no response time at all.**
+
+Eleven people asked. The table does not say what happened to them.
+
+### Why this is worth more than another nil
+
+Everything else in this file is inference from the outside: a confirmation that could mean two
+things, a nil that cannot be checked, a form that fails quietly. This is **the company's own
+published number**, in the format a regulator required, saying that four of its five rights complete
+instantly and the fifth has no measurable completion at all.
+
+I asked plainly what `N/A` represents, and said that *"eleven Right to Know requests came in and
+none reached completion"* would be a real answer that I would record as such. It may mean something
+innocent — an unpopulated field, a metric not tracked for that type. I would rather ask than assume
+the worst reading of a table the company chose to publish.
+
+**The general move is worth keeping: read the metrics table.** It is the one place a company states,
+in numbers it did not choose freely, how its process actually performs. §300 counts 26 nils that
+cannot be checked; this took one minute and produced a checkable question.
+
+### The rest of the page is candid, and still a dead end
+
+> *"We do not store names, unhashed email addresses or other direct unique identifiers… Therefore we
+> cannot act on your request if you do not use this privacy center or supply us with an active cookie
+> ID."*
+
+> *"If you delete cookies, change browsers, or clear your browser's cookie cache, you will need to
+> repeat the opt-out process."*
+
+Both admissions are creditable and neither helps. The cookie ID is refused for the §303 reason,
+which I put to them in their own terms: **if Semasio genuinely holds no direct identifiers, then a
+request that supplies one makes their records more identifying, not less.**
+
+Note also the careful wording — *"names, **unhashed** email addresses"*. That adjective is doing
+work. A hashed email is still personal information about the person it identifies, so I asked
+whether any record is keyed to one, and offered to let them tell me the hashing scheme rather than
+send anything new.
