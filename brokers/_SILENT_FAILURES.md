@@ -22537,3 +22537,102 @@ No free-text field. The sixteen prior addresses, ten old phone numbers and the d
 not be supplied — and for a **mortgage-lead company whose records are keyed to a property address**,
 those are exactly the identifiers most likely to match. §333 again. A follow-up by email is warranted
 if they reply.
+
+---
+
+## §344 — I staged a fourth letter to a company I had twice promised to stop writing to
+
+I worked listmatch.com off the form queue this morning, found a genuinely good privacy page, and
+built a careful request: the eleven other email addresses, sixteen prior addresses, ten old phone
+numbers, and three questions — about their eighteen-state trading list, about their named suppliers,
+and about the one-way hash they retain on removal.
+
+Then, before committing, I read the tracker row.
+
+**It was closed. Twice. By me.**
+
+- **31 August** — Jonathan at ListMatch answered all three of my follow-ups plainly: no other
+  registered entities, the suppression hash *"applies to them all"* group-wide, and the lapsed
+  California registration was a commercial withdrawal rather than a change in holdings. He also
+  qualified the supplier list: *"we rarely buy data unless a client requests, most of the time
+  clients come in with their own lists."*
+- **2 September** — three lines answering the last question: *"YES SUPPRESSION COVERS ALL. That note
+  was our note to California before we pulled out."*
+
+Every question I had just staged was **already answered**, and the answers were better than my
+questions. The eighteen-state list I was about to ask him to confirm as evidence that Pennsylvania
+data is still traded is, in his words, a note written *to California* before they withdrew from it.
+My reading of it was wrong, and he had already told me so three days ago.
+
+Worse: I had written, in that row, *"I told him I would not press further and I will not"* — and
+then, on the second close, *"I had said either answer would close it, so I closed it and said I would
+not write again."*
+
+**A fourth letter would have broken a promise I made twice, to a person who answered plainly three
+times without a portal or an ID demand.** §328 is the entry about honouring an exit when the company
+takes it. This would have been the same failure with the company's cooperation already banked.
+
+### Why it nearly happened, and the fix
+
+The form queue is organised by **task**, not by **state**. The item said "listmatch.com — privacy
+form", and the form was there, and it worked. Nothing in the act of working a queue item tells you
+the underlying matter is finished.
+
+§309's guard checks whether a *mailbox* has already been written to. It does not fire here, because
+the channel is a web form and the row's status is `confirmed` — a terminal state the queue never
+consulted.
+
+So: **`handoff.py` should refuse to hand out an item whose broker is already in a terminal state**,
+or at minimum print the current status and last note when the item is opened. The information existed
+and was three keystrokes away; the workflow simply never asked for it.
+
+### What was actually worth keeping from this morning
+
+Two things, neither requiring a letter:
+
+- Their self-service checker was run for the correspondence address and returned *"not found"* —
+  a **demonstrated** nil on that key, produced by a query I watched execute rather than asserted in a
+  reply (§289).
+- Their removal mechanism retains **only a one-way hash** of the deleted record to prevent
+  re-addition. That is the cleanest answer to §327 in the corpus: a durable suppression whose
+  retained artefact is not readable as personal information, cannot be sold as an audience, and is
+  useless to anyone who steals it. §329's purpose limitation mitigates the problem; a hash dissolves
+  it.
+
+The staged payload has been deleted and the queue item closed, so neither I nor the user can send it
+by accident.
+
+### The guard, and a control proving it fires
+
+`handoff.py add` now refuses any broker already in a terminal state — `confirmed`, `not_found`,
+`suppressed`, `covered_by_sibling`:
+
+```
+refusing: email_marketing_services is already 'confirmed'.
+  That matter is closed -- queueing a form for it stages a duplicate request,
+  and if an exit was offered and taken, it breaks a promise. Read the row first:
+    scripts/tracker.py show email_marketing_services
+```
+
+It names the row, says what to read, and offers two deliberate escapes: reopen the status with
+`--regressed` if the row is genuinely wrong, or pass `--anyway` if this really is separate work on a
+closed matter. **Both make the operator say what they are doing**, which is the point — the failure
+here was not a wrong decision but an unasked question.
+
+Per §310, a guard that has never fired is a claim rather than a check, so both directions were
+tested: it refused the closed row above, and accepted a control item on a broker at
+`manual_required`.
+
+**And testing it broke something, which is §284 for the second time.** I ran the positive control
+against `koddi` — a live row — and `add` did what it has always done: replaced the existing item.
+The console said so (*"dropped: [form] Submit Koddi's OneTrust DSR webform…"*) and I read it only
+after clearing the control, by which point the real item was in `closed`.
+
+Recovered in full from the closed list — the vendor webform URL, the note that Koddi's macro refuses
+email so the form is the only route, and the §203 correction about preferring the vendor endpoint
+over a landing page. The control artefact was deleted rather than closed, so it cannot be mistaken
+for work later.
+
+The lesson is narrow and I should have had it already: **do not run a control against live data.**
+§310's synthetic row was injected into a copy and the tree restored; this control was fired at a real
+broker because it was convenient. A test that can destroy the thing it is testing is not a test.

@@ -66,6 +66,30 @@ def now():
     return datetime.now(timezone.utc).isoformat(timespec="seconds")
 
 
+
+# SF 344: I staged a fourth letter to a company whose row was already `confirmed`,
+# because the queue is organised by TASK and never consults the STATE. The form was
+# there and it worked; nothing in working a queue item tells you the matter is closed.
+TERMINAL_BLOCK = {"confirmed", "not_found", "suppressed", "covered_by_sibling"}
+
+
+def _terminal_status(broker):
+    """Current status of a broker, or None. Used to refuse queueing finished work."""
+    try:
+        st = json.load(open(state("removal_status.json")))
+    except Exception:
+        return None
+    rec = st.get(broker)
+    if not rec:
+        return None
+    if isinstance(rec, str):
+        return rec
+    if rec.get("status"):
+        return rec["status"]
+    hist = rec.get("history") or []
+    return hist[-1].get("status") if hist else None
+
+
 def cmd_add(a):
     # A queued item is read days later by someone who does not have the session
     # that staged it. Steps written as "already filled in the open tab" are worse
@@ -85,6 +109,23 @@ def cmd_add(a):
             "  If the item does describe a live tab AND also carries the values, "
             "include the words\n  'IF THE TAB IS GONE' and it will be accepted. "
             "See _SILENT_FAILURES 283.")
+
+    # SF 344: the queue is organised by TASK and never consulted the STATE, so a
+    # closed matter kept a live-looking form item and I staged a fourth letter to
+    # a company that had answered plainly three times and been told twice I would
+    # stop. The information was three keystrokes away; nothing asked for it.
+    _st = _terminal_status(a.broker)
+    if _st in TERMINAL_BLOCK and not getattr(a, "anyway", False):
+        sys.exit(
+            f"refusing: {a.broker} is already '{_st}'.\n"
+            "  That matter is closed -- queueing a form for it stages a duplicate "
+            "request,\n  and if an exit was offered and taken, it breaks a promise. "
+            "Read the row first:\n"
+            f"    scripts/tracker.py show {a.broker}\n"
+            "  If the row is genuinely wrong, reopen it deliberately with "
+            "`tracker.py set ... --regressed`.\n"
+            "  If this really is separate work on a closed matter, pass --anyway. "
+            "See _SILENT_FAILURES 344.")
 
     q = load()
     # Replacing silently is how contradictory items survive. `add` has always
@@ -189,6 +230,10 @@ def main():
     p.add_argument("--steps", required=True, help="exactly what the human does")
     p.add_argument("--note", help="anything else worth knowing")
     p.add_argument("--minutes", type=int, default=1, help="rough time cost")
+    p.add_argument("--anyway", action="store_true",
+                   help="queue even though the broker is already in a terminal "
+                        "state -- only for genuinely separate work on a closed "
+                        "matter. See _SILENT_FAILURES 344.")
     p.add_argument("--also", action="store_true",
                    help="keep any existing open items for this broker rather than "
                         "replacing them -- for a route and its fallback")
