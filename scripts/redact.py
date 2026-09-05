@@ -47,8 +47,14 @@ def _terms():
             for x in v.values():
                 add(x)
 
+    # Underscored keys are prose notes to the reader -- except the ones that are
+    # not. _late_addresses and _late_phones are identifier LISTS that happen to be
+    # named with a leading underscore, and skipping them meant a prior address
+    # could be published while this scanner reported a clean run. It did: see
+    # _SILENT_FAILURES 360.
+    DATA_UNDERSCORED = {"_late_addresses", "_late_phones", "_late_identifiers"}
     for k, v in p.items():
-        if k.startswith("_"):
+        if k.startswith("_") and k not in DATA_UNDERSCORED:
             continue
         add(v)
 
@@ -67,6 +73,19 @@ def _terms():
     # identifying in combination.
     if p.get("address"):
         out.append(re.sub(r"^\d+\s+", "", p["address"]))
+
+    # An address is almost never quoted the way the profile stores it. The profile
+    # holds "248 S Potomac St, Waynesboro, PA 17268"; what gets written into a
+    # note, and from there into a public playbook, is "248 S Potomac St" with the
+    # town factored out into a shared suffix. Matching only the full literal meant
+    # thirteen prior street addresses were published under a PASSING scan. So
+    # index the street line on its own -- the part before the first comma -- for
+    # every address-shaped string the profile holds.
+    for t in list(out):
+        head = t.split(",")[0].strip()
+        if head != t and re.match(r"^\d+[A-Za-z]?\s+\S", head) and len(head) > 6:
+            out.append(head)
+
     return sorted({t for t in out if len(t) > 3}, key=len, reverse=True)
 
 

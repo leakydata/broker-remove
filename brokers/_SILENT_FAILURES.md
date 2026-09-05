@@ -1349,7 +1349,7 @@ This is the part worth carrying to every other add-a-row form:
 > are in the act of overwriting the lost value.
 
 `form_input` returns `(previous: "...")` on every call, and that string is a free,
-per-item receipt. It caught `225 Buckhout St` going missing in a batch of five
+per-item receipt. It caught `a prior street address` going missing in a batch of five
 that otherwise looked perfect, and it distinguished the two names that committed
 from the two that did not in an earlier batch of four.
 
@@ -23295,3 +23295,67 @@ recommendation, in the same entry where I was congratulating a correspondent for
 asking rather than assuming. The measurement took four minutes and the data was
 already on disk. `scripts/register_lapse_stats.py` runs it, so the next person to
 have this idea can spend those four minutes instead of a week acting on it.
+
+## §360 — thirteen prior addresses, published, under a passing scan
+
+The validator wanted a playbook page for each of the nine brokers whose status
+changed today, so I ran the scaffolder. It builds each page from the tracker note.
+The page it produced for AddressSearch contained this, in a file git was about to
+publish:
+
+> Addresses submitted: [PERSONAL] [PERSONAL] PA; <seven street addresses>
+> Waynesboro PA; <one> Hagerstown MD; <two> State College PA; …
+
+The current address was redacted. **Thirteen prior street addresses were not.**
+And `redact.py` reported *0 personal-data occurrence(s) in files git would
+publish* — not silently, not by being skipped, but by running and passing.
+
+Two independent holes, and the second is the instructive one.
+
+**Hole one: an underscore.** `_terms()` skips every profile key beginning with
+`_`, on the reasonable theory that those are prose notes to the reader. But
+`_late_addresses` and `_late_phones` are not notes. They are identifier *lists*
+that happen to have been named with a leading underscore when they were added,
+and they were being skipped entirely. A naming convention adopted for one purpose
+was silently load-bearing for another.
+
+**Hole two: nobody writes an address the way a profile stores it.** The profile
+holds each address as ONE string — number, street, town, state and ZIP together.
+What gets written into a note, and from there into a public page, is the street
+line alone, with the town factored out into a shared suffix, because
+that is how a person writes a list of seven addresses in one town. The scanner
+matched the full literal. The full literal never appeared. **Every one of the
+thirteen was present, and none of them matched.**
+
+That is the same failure as §289 and §340 wearing different clothes: the check ran,
+the check reported success, and the check was asking a question the data could not
+answer. A scan that only matches a value in its canonical form is a scan that
+passes on every reformatting of that value — and reformatting is not an edge case
+here, it is the normal way prose quotes data.
+
+Fixed both. `_late_addresses`, `_late_phones` and `_late_identifiers` are now read
+as data. And for every address-shaped string the profile holds, the **street line
+on its own** — the part before the first comma — is indexed as a term in its own
+right.
+
+Then ran a positive control, because §306 is in this file and a fix that cannot
+fail its own test is worth nothing: wrote one prior street into a temporary
+tracked-path file, ran the gate, and watched it exit 1 with the redaction
+guidance. Removed the file in the same command, so a failure anywhere in the check
+could not leave the value sitting in the working tree. The old gate would have
+passed that file.
+
+Two occurrences of the same address were already committed, in
+`brokers/openpeoplesearch.md` and in this file — both quoting it as an example of
+a value going missing from a batch, which is a use where the specific street was
+never the point. Both now read "a prior street address". The argument is
+unchanged, which is the test §309's rule sets for a redaction: if removing the
+value damages the sentence, the value was the finding; if it does not, it should
+never have been there.
+
+The uncomfortable part is where it came from. **I wrote that tracker note.** I
+listed all sixteen addresses in it deliberately, so that a future reader would know
+exactly which submissions were made — a good instinct for a gitignored tracker and
+a bad one the moment a generator copies notes into a published page. The note was
+never the risk. The *pipeline* was: gitignored source, tracked destination, and a
+scanner between them that had been quietly matching nothing.

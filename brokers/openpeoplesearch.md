@@ -58,7 +58,7 @@ it generalises to any add-a-row modal:
 > overwrite it.
 
 That single signal caught two losses in this flow that would otherwise have gone
-unnoticed: four names early on, and `225 Buckhout St` later. Reading the
+unnoticed: four names early on, and `a prior street address` later. Reading the
 committed table with a text extraction after every few rows is the belt to that
 braces, and costs one call.
 
