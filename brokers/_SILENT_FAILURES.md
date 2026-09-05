@@ -23516,3 +23516,69 @@ is a residue of edge cases — and the pressure at that point is to clear the ro
 rather than to ask whether the row should exist. This one had been sitting behind
 three separate warnings in its own record. Reaching it last is exactly why they
 needed reading.
+
+## §363 — they were already doing the right thing and telling people they were not
+
+Juicebox answered. It is the best reply this project has received, and the part
+that matters most is the part that corrects me.
+
+I had told them their confirmation panel conditions a Do Not Sell or Share request
+on clicking a verification link, and that **11 CCR § 7026(f)** does not permit
+that. Their answer:
+
+> "Your Do Not Sell or Share request will be honored for the identifiers you've
+> provided."
+
+So the opt-out is honoured without the click. The rule is being followed. **The
+panel is simply wrong about what the company does**, and it is wrong in the
+direction that costs the consumer the protection.
+
+That is a failure mode this file has not recorded before, and it is the inverse of
+every other entry here. The usual shape is a system that claims more than it does —
+"successfully removed" over an HTTP 500 (§355), a success status carrying a failure
+redirect (§358). This is a system that **claims less than it does**. The opt-out
+works; the page says it is pending your verification; and a person who cannot click
+that link — wrong address, shared mailbox, aggressive spam filter, or simply
+someone who does not check that mailbox for a week — concludes it did not go
+through. They are protected and do not know it. Some will refile, some will
+escalate, and some will give up believing the company ignored them.
+
+The lesson generalises past this company: **an interface that understates its own
+compliance is still an interface that misinforms.** It will not appear in any audit,
+because audits check whether the right thing happened, and the right thing did
+happen. It shows up only where nobody is looking — in the consumer's belief about
+their own file. Worth adding to what I ask for: not only *did you do it*, but *does
+your interface say you did*.
+
+### The architecture, finally
+
+Both questions from the 28 August letter, deflected to a portal with no field to
+receive them (§353), came back answered:
+
+1. **Deletion is keyed to the profile URL.** "Once your deletion request is
+   verified and completed, that profile is removed." Consistent with the form's own
+   help text naming the profile URL as the match key.
+2. **It is a hybrid, and this is the useful part.** "We do not hold email addresses
+   for the profiles in our index. Contact data is retrieved live, only when a
+   customer requests it for a specific profile."
+
+So the profile is **stored** and the contact data is **fetched at query time from
+third parties**. That is neither of the two architectures I offered them, and it is
+worse for a consumer than either: deleting the profile removes the index entry, but
+the contact-retrieval path runs against suppliers the deletion cannot reach and
+whom I still cannot name. Their suppression list is the right answer to that — "any
+email addresses you provide through a verified request are added to our suppression
+list, which means we will never provide them to customers" — and it has a hole:
+
+**The form has one email field and no free-text anywhere.** Eleven of the twelve
+addresses in the original letter cannot physically be supplied to the mechanism
+that would suppress them. §353 recorded that the general-inquiry route has no field
+for the inquiry; this is the same defect with a consequence attached. The company
+built a suppression list keyed on identifiers its own intake cannot accept.
+
+Asked for the upstream source names, asked how to get the other eleven addresses
+onto the list, and asked whether the profile suppression survives a re-crawl or
+whether a new profile simply gets created. Refile of all four authorised in writing
+— "refiling won't create duplicates on our side" since the originals expire
+unverified — and queued with exact values, because the browser extension has now
+refused screenshots and script injection for three hours across every site tried.
