@@ -2750,8 +2750,8 @@
     "via": "email"
   },
   "intent_iq": {
-    "status": "manual_required",
-    "changed": "2026-08-28",
+    "status": "captcha_blocked",
+    "changed": "2026-09-05",
     "via": "reply"
   },
   "intentgine": {

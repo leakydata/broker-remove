@@ -22829,3 +22829,55 @@ Four asks is the limit; past that I am generating volume rather than pressing a 
 suppression disclosure in this corpus, and the removal itself was prompt. A company can be excellent
 at the substance and still have a support layer that cannot route a question — those are different
 failures, and it is worth ending on the first rather than the second.
+
+---
+
+## §352 — three routes, one of them safe, and they built it
+
+Intent IQ's opt-out page offers three routes: **browser/cookie**, **mobile device**, and **email**.
+
+The first two require surrendering a cookie ID or a mobile advertising ID. The standing rule forbids
+that, and §303, §319, §323 and §349 give the reason each time: **handing a device identifier to a
+company whose records are keyed to device identifiers attaches a name to data that currently has
+none.**
+
+The third route avoids it entirely:
+
+> *"We use hashed email addresses in our services, not unhashed email addresses. Please provide us
+> with your email address below, and then we will send you instructions about how to properly opt-out
+> using your email address."*
+
+They hash what you give them and match it against what they already hold. **Nothing new is created**
+— the same principle as §326's verification-by-channel, applied to matching rather than to identity.
+
+This is the first company this week that offered the device route *and* built the alternative,
+rather than treating the device identifier as the only possible key. Staged; blocked only by the
+reCAPTCHA. Cookie banner rejected.
+
+### And three admissions on that page are more candid than anything else this week
+
+**The residence gate is in the prose, and it is explicit.** Nineteen states are listed, Pennsylvania
+is not one, and the page says the rights *"are only available to you if you are a resident of such
+jurisdictions."* No hidden dropdown, no silent rejection (§314, §343) — just a statement.
+
+**They admit the linkage is probabilistic, and that opting out may hit strangers:**
+
+> *"this information may be 'probabilistically' tied to your device… when you opt-out using the
+> method below, it is possible that we will be opting out other devices in addition to yours that are
+> on the same computer network with you."*
+
+Every letter this project sends asks companies to suppress **only what is actually about me**,
+because a name-keyed suppression can catch a namesake. Here the company volunteers the same risk from
+the other side — its own matching is uncertain enough that a removal may sweep in a neighbour. That
+is a more honest description of identity resolution than most policies contain.
+
+**And downstream propagation is conceded not to happen:**
+
+> *"it is up to the client to integrate with Intent IQ… our clients generally prefer to just use
+> fresh data… once you make a request above to delete your information, it will naturally result in
+> these third parties no longer having your information **when they next refresh** their data."*
+
+§ 1798.105(c) asks a business to *direct* third parties to delete. What is described here is not a
+direction — it is **hoping the cache expires.** They are candid that the mechanism is refresh
+cadence rather than instruction, which is almost certainly true across this whole industry and is
+almost never written down.
