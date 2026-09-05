@@ -21942,3 +21942,64 @@ may not include it.
 And per §327 and §329: the suppression entry now holds a closed university address and a LinkedIn
 URL — **a fairly precise record of who I am, created because I asked them to stop.** I asked them to
 keep it purpose-limited. I have no reason to think otherwise. I would simply rather have asked.
+
+---
+
+## §331 — reopening two nils, and deliberately regressing them to say so
+
+§330 turned a suspicion into evidence: a nil is a statement about the keys, not about the file. So
+the obvious next question is which of the 50 `not_found` rows were searched on keys that could not
+have matched.
+
+I did not try to answer that across all fifty — §318 established that the tracker does not record
+which keys a company searched, and a regex over the notes produces noise. But two rows say it
+themselves.
+
+**Round Sky.** My own note, written weeks ago, already contained the defect:
+
+> *"the batch letter used four current gmail addresses only; the older addresses are the ones a
+> years-old lead would carry."*
+
+Round Sky is lead generation for short-term lending. The record most likely to exist is a **lead** —
+an enquiry submitted through a partner site, keyed to whatever address and phone number the person
+used *at that time*. I searched them on four recent Gmail addresses. **A years-old lead would carry
+none of them.**
+
+Re-sent with eleven email addresses — several at providers that no longer exist — eleven phone
+numbers, and sixteen addresses. The dead ones are the point: an address that died in 2013 is exactly
+what sits untouched in an old lead file for a decade.
+
+**Leadership Connect.** Worse provenance: the nil was **adopted from the shared ledger with no
+detail**, so nothing was ever known about which keys the other agent's search covered. And their
+product is a directory of people in *roles* — government, corporate, non-profit — which makes
+personal webmail close to the least likely thing it holds.
+
+The key my original letter never mentioned, and the likeliest match in that particular database: the
+subject held a **public office** until 2022. A leadership directory is precisely the file that
+carries that, and it is keyed to no email address I have ever supplied. **That omission was mine.**
+
+### The status change is the point
+
+Both rows moved from `not_found` back to `submitted`, and the tracker made me pass `--regressed` to
+do it — a guard that exists to stop terminal wins being silently withdrawn.
+
+Using it deliberately is right here. **The nils are no longer trusted and a fresh request is
+outstanding**, and a corpus that quietly keeps counting them as negatives is overstating what it
+knows. The guard did its job: it made me state that I was withdrawing something, rather than letting
+a status drift.
+
+That costs two rows off the `not_found` column. Both were asserted, neither was demonstrated, and
+§300 already said as much about twenty-six of them.
+
+### The asks that make a re-run worth anything
+
+The same three clauses in both letters, and they are the ones worth reusing:
+
+1. **Say which keys you searched.** Without it, neither side can tell what the negative covered —
+   and this is the entire lesson of §330, which took two rounds with the same company to establish.
+2. **If a record exists, name the source** — the partner site, the verification source, the
+   supplier. A deletion cannot reach the upstream copy, so the source is what actually matters.
+3. **Record the suppression regardless, and keep it purpose-limited** (§327, §329).
+
+And the exit, as always: *a nil on the right keys closes the file.* It is worth far more than a nil
+on the wrong ones, and saying so is what makes the second letter welcome rather than an accusation.

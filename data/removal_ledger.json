@@ -3000,9 +3000,9 @@
     "via": "email"
   },
   "leadership_connect": {
-    "status": "not_found",
-    "changed": "2026-08-22",
-    "via": "web"
+    "status": "submitted",
+    "changed": "2026-09-05",
+    "via": "email"
   },
   "leadiq": {
     "status": "replied",
@@ -4845,8 +4845,8 @@
     "via": null
   },
   "round_sky": {
-    "status": "not_found",
-    "changed": "2026-09-02",
+    "status": "submitted",
+    "changed": "2026-09-05",
     "via": "email"
   },
   "s_p_global": {
