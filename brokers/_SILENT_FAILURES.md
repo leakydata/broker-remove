@@ -21540,3 +21540,67 @@ honest enough to publish them.**
 
 The exit is the usual one: *"we do not break the denials down by reason"* is a real answer and closes
 it.
+
+---
+
+## §323 — two companies, one privacy desk, and I only found out from a signature line
+
+Two replies arrived one second apart:
+
+- **01:01:46** — Samba TV privacy
+- **01:01:47** — Semasio privacy
+
+Both from `sambatv.zendesk.com`. The Semasio one closes:
+
+> *"This email is a service from Samba TV."*
+
+I have been running Semasio and Samba TV as two separate companies, with two separate requests, two
+threads and two rows in the tracker. **They are one queue.**
+
+Nothing improper — Samba TV acquiring Semasio is a matter of public record, and a shared helpdesk is
+ordinary. But it is the §278 shared-platform problem arriving from a new direction: not a shared
+*vendor* serving many tenants, but **two of my own tracked brokers turning out to be one desk**, and
+the only evidence was a footer.
+
+I told them I had noticed rather than quietly acting on it. That is the §302 rule pointed outward:
+say what you have inferred, so the other side can correct it.
+
+### The question it opens, which neither website answers
+
+If Semasio's suppression is a **cookie** and Samba TV's records are a different system, then:
+
+> **A consumer who opts out of one has not opted out of the other** — and nothing on either site says
+> so.
+
+They share the desk that receives the request. Whether they share the mechanism that acts on it is
+exactly the thing a consumer cannot see, and it is now asked.
+
+### What the reply actually was
+
+The portal macro. It answered none of §320's three questions — the `N/A` median on Right to Know,
+the hashed-email wording, the durable-suppression question — and directed me back to the Global
+Privacy Center, which by its own description cannot act without a cookie ID and produces an opt-out
+that expires when cookies are cleared.
+
+So one letter now covers both companies, asks the three questions once, and declines the cookie ID
+with the reason stated plainly: **if Semasio genuinely holds no direct identifiers, a request that
+supplies one makes their records more identifying than they were before.**
+
+---
+
+## §324 — a four-word nil, from someone who signed it
+
+Equilar, in full:
+
+> *"We searched and found no record."*
+
+From a named Senior Product Manager, with a company postal address in the signature. No template, no
+portal redirect, no verification demand, no request for a cookie ID.
+
+By §300's test it is still an **asserted** nil — it does not say which identifiers were searched, and
+I cannot check it. But there is a difference worth recording between a claim that an identifiable
+person at a named company put their name to and the same sentence emitted by an unattributable
+macro. **One of them someone stands behind.**
+
+Also worth noting, because it cuts against the §281 filtering worry: their mail system stamped my
+letter `[SUSPECTED SPAM]` in the subject line, and **a person answered it anyway.**
