@@ -22152,3 +22152,65 @@ still advertises, in its hero text, *comprehensive registrations and licences fr
 Almost certainly a stale page rather than a live offer. But **a consumer arriving there cannot tell
 which sentence is current**, and the one that says the data is available is the one written in the
 largest type.
+
+---
+
+## §336 — three ways a channel can be open and useless, in one morning
+
+**Zeta Global**, twenty minutes after my letter, in a single macro:
+
+> *"To request that we do not send you emails, get a copy of data linked to your email, or ask that
+> data be deleted, please click here to fill out a request form… **These requests cannot be made
+> through privacy@zetaglobal.com.**"*
+
+and four lines later:
+
+> *"If you can't find what you need using the links above, **please contact
+> privacy@zetaglobal.com**."*
+
+**The same message says the address cannot process requests and that you should write to it when the
+route fails.** A consumer blocked by the form is directed to the address that has just told them it
+cannot help. Nobody wrote that on purpose; two paragraphs from different eras were assembled into one
+template, and the contradiction is invisible from inside because nobody reads their own macro as a
+sequence.
+
+Two genuinely useful things came out of it anyway. They confirm **two separate stores** — *"some of
+the data we maintain is linked to your email address, and some is linked to cookies"* — which means
+the form request reaches only half, and the cookie half has its own route. And there is a **phone
+number**, offered to California residents, which is not gated by a CAPTCHA. That is now the third
+time this week the published notice contained a bypass the obvious route did not (§313, §319).
+
+### Semasio, hourly
+
+After one reply from me at 01:32, the identical portal macro arrived at **02:01, 03:01 and 04:01**.
+
+It is a cron, not a reply trigger — one message from me did not produce three answers, the clock
+did. None of them engages with the letter, which had explained why the portal cannot act (it needs a
+cookie ID I will not supply) and asked three questions answerable without identifying anyone.
+
+I have stopped replying. A fifth message produces a fifth macro; **when a channel has not responded,
+another message into it is volume, not communication.** The three questions are recorded unanswered
+rather than pursued.
+
+### Leadership Connect, bounced
+
+The §331 letter — the careful one, reopening a nil on the theory that a leadership directory would be
+keyed to a former public office rather than to any email address — **hard bounced two seconds after
+sending.** `privacy@leadershipconnect.io`: *address couldn't be found.*
+
+So it never arrived. And the row is worse than it looks: the original `not_found` was **adopted from
+the shared ledger with no detail**, so there is now no evidence any request ever reached this company
+at all. A nil stood for two weeks resting on a search nobody can describe, sent by an agent whose
+letter may have bounced exactly as mine just did.
+
+Recorded `unreachable` rather than restoring the nil, because restoring it would re-assert something
+that was never established.
+
+### What the three have in common
+
+All three channels are **published, current, and non-functional in a way the company cannot see.**
+Zeta's contradiction is invisible from inside a template. Semasio's cron looks like responsiveness to
+whoever configured it. Leadership Connect's bounce goes to the sender.
+
+**Every one of these failures reports success to the party responsible for it.** That is not a
+coincidence; it is the selection effect that makes this whole file necessary.
