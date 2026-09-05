@@ -22881,3 +22881,82 @@ is a more honest description of identity resolution than most policies contain.
 direction — it is **hoping the cache expires.** They are candid that the mechanism is refresh
 cadence rather than instruction, which is almost certainly true across this whole industry and is
 almost never written down.
+
+## §353 — the best privacy centre yet, and the one right it gates
+
+Juicebox (PeopleGPT) deflected the 28 August letter to its privacy centre without
+answering either architecture question in it. Portals that appear at the end of a
+deflection are usually worse than the letter they replaced. This one is not. It is
+the best-built privacy centre this project has seen, and it is worth naming what it
+does right before naming what it gets wrong, because the two are not in tension —
+the same team built both.
+
+What it does right:
+
+- **It detects the jurisdiction and says so.** "We've automatically detected your
+  jurisdiction. Since privacy rights differ based on where you live, please verify
+  that this is accurate," with the detected value in a dropdown you can correct. It
+  offered Pennsylvania, US and then offered a Pennsylvania resident seven rights,
+  including deletion and opt-out. Pennsylvania has no comprehensive privacy statute.
+  Most portals ask for your state and then use the answer to decide how little to do
+  (§137, §213). This one asks for your state and then does not use the answer to
+  narrow anything.
+- **It carries a GPC badge.** A green "Opt-Out Signal Honored" chip sits in the
+  corner of the page, asserting a live fact about the request in front of it rather
+  than a policy sentence about signals in general.
+- **It names its own data broker status in its own opt-out copy** — "personal data
+  linked to our data broker status." Very few companies write that sentence about
+  themselves.
+- **It states its match key in the form's help text.** "We need your professional
+  networking profile URL to match the information you provided with data used in our
+  products and services." That is a company telling you which key its index is built
+  on. §330 is the entry about a nil that was a statement about the keys rather than
+  about the file; this form removes the guesswork by naming the key up front. Supply
+  it. Here the profile URL is not extra exposure — it is the only key that makes the
+  search run at all, and withholding it buys a nil.
+
+And then, on the confirmation panel for the **Do Not Sell or Share** request:
+
+> "Please check your email to verify your identity. **In order to process your
+> request** please check the email you provided us within the next few minutes to
+> verify your identity."
+
+**11 CCR § 7026(f)** says a business shall not require a consumer to verify their
+identity as a condition of honouring an opt-out. The panel conditions processing on
+verification in as many words. It is very likely a shared success template rather
+than a considered policy — the identical panel appears after the access request,
+where verification is entirely proper — but a shared template is exactly how this
+failure mode survives: nobody chose to gate the opt-out, so nobody will find the
+place where it was chosen. The consequence is real either way. A consumer who does
+not click the link has, by the portal's own account, not had their opt-out
+processed, and the portal will have recorded a request that never completed.
+
+Two smaller ones from the same widget:
+
+- **REQUESTOR TYPE opens on "Employee."** The options are Employee / Other /
+  Consumer / Authorized Agent, in that order, and Submit enables the moment any
+  option is selected. A consumer who opens the select and presses Down once files as
+  an employee — a different queue, a different statute, a different retention rule —
+  and every field they filled will look correct on the way out.
+- **"Other — submit a general inquiry" has no field for the inquiry.** Four identity
+  fields, a Turnstile, a Submit button, and nowhere to write what you are asking. I
+  opened it specifically to re-ask the two architecture questions the email reply
+  ignored, and there was no place to put them. I did not submit it. A blank general
+  inquiry is not a smaller version of the question; it is noise that lands in a
+  queue and generates a reply asking what I wanted.
+
+That last one is the finding with teeth, because it explains the deflection. The
+letter asked two questions — does deletion remove the profile or only hide it from
+results, and is the index a stored copy or assembled live from third-party sources
+at query time. The reply said all requests go through the privacy centre. The
+privacy centre has seven routes and not one of them accepts a sentence. So the
+deflection was not evasion: it was a company routing a question to a system that
+structurally cannot receive one, and having no way to notice. **A portal that
+handles every right and no questions will convert every question into silence, and
+the silence will look like a policy.**
+
+Filed anyway, in the order the portal permitted: access, opt-out, limit sensitive
+PI, opt out of using sensitive PI. **Deletion withheld** until the summary arrives —
+§317, deletion destroys the evidence access would disclose. The two questions go
+back by email to the address that deflected them, now with four request IDs
+attached, so the answer has somewhere to attach to.
