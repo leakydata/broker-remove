@@ -21471,3 +21471,72 @@ Exit offered as usual: *"we build nothing across organisations"* closes the file
 
 Every letter from §318 onward carries it, and it went out here too: **establish what you hold before
 deleting it.** Two days old and already the most reusable sentence in the corpus.
+
+---
+
+## §322 — the same obligation, the same table, denial rates from 0% to 100%
+
+§320's method, applied. `scripts/metrics_scan.py` probes brokers we have already written to for a
+published CCPA metrics table — the annual disclosure of requests received, complied with, denied and
+median days to respond. **Eight of forty publish one.** The script reports the excerpt and
+deliberately does not parse the numbers: table markup varies wildly, and a parser that silently
+mis-reads a column would manufacture exactly the confident wrong number §301 exists to prevent.
+
+Read side by side, the eight do not describe the same industry.
+
+**RocketReach**, calendar 2025: Requests to Know 71 received, 71 complied, **0 denied**. Opt
+out/delete 3,367 / 3,367 / **0**. Correct 190 / 190 / **0**. Mean response: *< 1 day*, every row.
+
+**6sense**: Know 38/38/0, Delete 404/404/0, Opt-out 128/128/0, Correct 4/4/0. **Zero denials**, with
+medians of 1–6 days — slow enough to be a process rather than a reflex.
+
+**Intelius**: Know 9,811 received, 9,336 complied, 475 denied. Delete 105,645 / 103,003 / 2,642.
+Opt-out 193,047 / 193,047 / **0 denied**. A ~5% denial rate at enormous volume.
+
+**Thomson Reuters**:
+
+| request | received | completed | rejected |
+|---|---|---|---|
+| Data Access | 213 | 40 | **173** |
+| Delete | 414 | 276 | 138 |
+| Do Not Sell | 23,231 | 17,128 | **6,103** |
+| **Correct** | **18** | **0** | **18** |
+
+**Every correction request received in 2025 was rejected.** Not a low rate — a zero.
+
+### Why comparison is what makes a number mean something
+
+Any one of these tables read alone is unremarkable. A rejection rate is just a number; a company can
+always say the requests were unverifiable or out of scope, and that is often true.
+
+But these companies publish **the same table, under the same regulation, in the same year.** Two
+report zero denials across every category. One reports 5% at two hundred thousand requests. One
+rejects 81% of access requests and 100% of corrections.
+
+That is not proof of anything — different products, different populations, different verification
+postures. **It is, however, a question that could not be asked without the comparison**, and it is
+the first question in this project that a company cannot answer with a template, because the numbers
+are its own.
+
+### What I asked, and what I did not
+
+I put three questions to Thomson Reuters, all answerable without verifying me:
+
+1. **Is the zero on corrections structural?** If corrections are rejected because the underlying
+   record is a court filing or public document Thomson Reuters cannot alter, that is coherent and
+   honest — and it means the correction right is **effectively unavailable here**, which a consumer
+   should be able to learn before spending 45 days finding out.
+2. **What explains the 173 access denials?** Failure to verify is understandable. FCRA-regulated or
+   public-records product scope is a different and better answer. A consumer cannot tell which.
+3. **On what basis were roughly a quarter of opt-outs rejected?** 11 CCR § 7026(f) is explicit that
+   verification cannot be required for an opt-out. **6,103 people asked a company to stop selling
+   their information and were told no**, and the one reason that would be easiest to give is the one
+   the regulation forecloses.
+
+I did not accuse them of anything, and I said so: duplicates, wrong-person requests and
+out-of-scope products would all explain some of it. I also credited the disclosure — their table is
+clearer and more readable than most, and **the figures raise questions precisely because it is
+honest enough to publish them.**
+
+The exit is the usual one: *"we do not break the denials down by reason"* is a real answer and closes
+it.
