@@ -23007,3 +23007,56 @@ if it does, there is no mechanism by which anyone could ask. Those are different
 findings and this file has previously blurred them (§289: a silently broken query
 returns zero for everything). Recording "no route exists" is a statement about the
 company. It is not a nil, and it must never be counted as one.
+
+## §355 — "successfully been removed", HTTP 500
+
+AddressSearch.com's removal form is the friendliest one this project has met. No
+CAPTCHA, no account, no verification email, seven fields, and a page that says
+plainly that anyone may remove themselves free of charge. I submitted it sixteen
+times — the current address and fifteen prior ones, because the form takes a
+single address per submission — and every time the page came back saying:
+
+> Your information has successfully been removed.
+
+Every one of those sixteen responses was an **HTTP 500**.
+
+The first two went through the browser and looked perfect: fill, click, success
+page, no error of any kind. The status code is invisible to a person using a
+browser. I only saw it because the remaining fourteen were posted with `fetch`
+and the response object carries the status.
+
+Checked directly rather than assumed. The response is 2,748 bytes, contains the
+success sentence, contains **no** PHP error text — no fatal, no warning, no
+SQLSTATE — and is **truncated**: there is no closing `</html>`. So the script
+prints the confirmation and then dies partway through rendering the rest of the
+page, with `display_errors` off, and the web server turns the incomplete
+response into a 500.
+
+The important part is the ordering. **The success message is printed before the
+thing that failed.** It is therefore not evidence of anything. The write to the
+suppression table might happen before that line or after it; from outside there
+is no way to tell, and the confirmation cannot distinguish the two because it
+was emitted before either outcome was determined. This is the same shape as
+§289 — a silently broken query returns zero for everything — but inverted: a
+silently broken *write* returns success for everything.
+
+What that means for the record I keep:
+
+- **Not `submitted`.** The server said the request failed. Recording submitted
+  would put sixteen rows into the pipeline as done and they would age quietly
+  into "no reply received", which is the wrong reason to give up on them.
+- **Not `not_found`.** Nothing was searched; a record may well exist.
+- **`failed`** — "attempted, site broken" — which is exactly what happened, and
+  which keeps the row live.
+
+And a rule that generalises past this site: **when a form's confirmation is a
+page rather than a reference number, check the status code.** A confirmation
+that carries an identifier (§352's OneTrust IDs, Juicebox's request UUIDs) is
+produced by something that had to store a row first. A confirmation that is just
+a sentence is produced by `echo`, and `echo` runs whether or not the write did.
+Sixteen submissions here produced sixteen sentences and not one reference number.
+
+The only thing that can settle this is looking myself up in the directory again
+in a few days. That is a search, not a reply — which makes AddressSearch one of
+the few cases where verification is actually available to me, and I should use
+it rather than filing the confirmation as an outcome.
