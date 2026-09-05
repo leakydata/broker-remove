@@ -14,11 +14,11 @@
     "final": "https://www.whitepages.com/suppression-requests"
   },
   {
-    "verdict": "BLOCKED",
+    "verdict": "OK",
     "id": "6sense",
     "url": "https://6sense.com/privacy",
-    "detail": "HTTP 403",
-    "final": "https://6sense.com/privacy"
+    "detail": "HTTP 200",
+    "final": "https://6sense.com/privacy-policy/"
   },
   {
     "verdict": "OK",
@@ -49,10 +49,10 @@
     "final": "https://isapps.acxiom.com/optout/optout.aspx"
   },
   {
-    "verdict": "BLOCKED",
+    "verdict": "GONE",
     "id": "addresses_com",
     "url": "https://www.addresses.com/optout.php",
-    "detail": "HTTP 403",
+    "detail": "HTTP 404",
     "final": "https://www.addresses.com/optout.php"
   },
   {
@@ -199,8 +199,8 @@
     "verdict": "REDIRECT-AWAY",
     "id": "anchor",
     "url": "https://ecom2.anchorcomputer.com/ccpa",
-    "detail": "302 https://ecom2.anchorcomputer.com/Error?ref=64257",
-    "final": "https://ecom2.anchorcomputer.com/Error?ref=64257"
+    "detail": "302 https://ecom2.anchorcomputer.com/Error?ref=7481",
+    "final": "https://ecom2.anchorcomputer.com/Error?ref=7481"
   },
   {
     "verdict": "OK",
@@ -392,11 +392,11 @@
     "final": "https://bombora.com/privacy-philosophy/"
   },
   {
-    "verdict": "GONE",
+    "verdict": "ERROR",
     "id": "brandwatch",
     "url": "https://www.brandwatch.com/your-privacy-choices/",
-    "detail": "HTTP 404",
-    "final": "https://www.brandwatch.com/your-privacy-choices/"
+    "detail": "TimeoutError: The read operation timed out",
+    "final": ""
   },
   {
     "verdict": "OK",
@@ -602,10 +602,10 @@
     "final": "https://cocofinder.com/optout"
   },
   {
-    "verdict": "REDIRECT-AWAY",
+    "verdict": "DELEGATED",
     "id": "cognism",
     "url": "https://www.cognism.com/data-opt-out",
-    "detail": "301 https://cognism.privacy.saymine.io/cognism",
+    "detail": "handed to cognism.privacy.saymine.io",
     "final": "https://cognism.privacy.saymine.io/cognism"
   },
   {
@@ -1008,11 +1008,11 @@
     "final": "https://www.fastbackgroundcheck.com/optout"
   },
   {
-    "verdict": "BLOCKED",
+    "verdict": "OK",
     "id": "fastpeoplesearch",
     "url": "https://www.fastpeoplesearch.com/removal",
-    "detail": "HTTP 403",
-    "final": "https://www.fastpeoplesearch.com/removal"
+    "detail": "HTTP 200",
+    "final": "https://www.fastpeoplesearch.com/optout"
   },
   {
     "verdict": "OK",
@@ -1239,10 +1239,10 @@
     "final": "https://idahocourtrecords.us/optout/"
   },
   {
-    "verdict": "ERROR",
+    "verdict": "OK",
     "id": "idcaller",
     "url": "https://idcaller.com",
-    "detail": "HTTP 503",
+    "detail": "HTTP 200",
     "final": "https://idcaller.com"
   },
   {
@@ -2457,10 +2457,10 @@
     "final": "https://www.realsourcedata.com/do-not-sell-my-personal-information"
   },
   {
-    "verdict": "GONE",
+    "verdict": "BLOCKED",
     "id": "realtyhop_com",
     "url": "https://www.realtyhop.com/resources/realtyhop-redaction-request-system/",
-    "detail": "HTTP 404",
+    "detail": "HTTP 403",
     "final": "https://www.realtyhop.com/resources/realtyhop-redaction-request-system/"
   },
   {
@@ -2555,10 +2555,10 @@
     "final": "https://www.sealedrecords.net/api/helper/optOutLight/search"
   },
   {
-    "verdict": "OK",
+    "verdict": "BLOCKED",
     "id": "seamless_ai",
     "url": "https://login.seamless.ai/personalDataRequest",
-    "detail": "HTTP 200",
+    "detail": "HTTP 403",
     "final": "https://login.seamless.ai/personalDataRequest"
   },
   {
@@ -2835,10 +2835,10 @@
     "final": "https://texaswarrantroundup.org/InfoPayOpt-OutNew.pdf"
   },
   {
-    "verdict": "OK",
+    "verdict": "BLOCKED",
     "id": "thatsthem",
     "url": "https://thatsthem.com/optout",
-    "detail": "HTTP 200",
+    "detail": "HTTP 403",
     "final": "https://thatsthem.com/optout"
   },
   {
@@ -2961,10 +2961,10 @@
     "final": "https://www.usdatacorporation.com/opt-out"
   },
   {
-    "verdict": "BLOCKED",
+    "verdict": "OK",
     "id": "usphonebook",
     "url": "https://www.usphonebook.com/removal",
-    "detail": "HTTP 403",
+    "detail": "HTTP 200",
     "final": "https://www.usphonebook.com/removal"
   },
   {

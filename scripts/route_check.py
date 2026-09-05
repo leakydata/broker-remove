@@ -16,6 +16,8 @@ So this checker does NOT ask whether the URL resolves. It asks whether the
 thing it resolves to is still plausibly the opt-out page:
 
   OK             200, and the final path still carries the opt-out segment
+  DELEGATED      200 on a recognised privacy-portal host -- a real route, handed
+                 to a third party. Not a failure; record which portal.
   REDIRECT-AWAY  200, but the final path no longer does -- treat as missing
   GONE           404/410
   BLOCKED        403/429 or a bot wall; unknown, needs eyes
@@ -51,6 +53,25 @@ def marker(url):
     """The opt-out-ness of a URL: its path plus query, lowercased."""
     p = urlparse(url)
     return f"{p.path}?{p.query}".lower()
+
+
+# Hosts that ARE a removal route, just not one on the company's own domain.
+# A redirect to one of these is a delegation, not a dead link: cognism.com's
+# /data-opt-out 301s to cognism.privacy.saymine.io/cognism, whose PATH carries no
+# opt-out segment at all, so the path test alone called a perfectly good route
+# broken. Same error as _SILENT_FAILURES 364 -- matching characters instead of
+# asking what the thing is.
+PORTAL_HOSTS = (
+    "saymine.io", "onetrust.com", "privacyportal.onetrust.com", "osano.com",
+    "trustarc.com", "ketch.com", "securiti.ai", "transcend.io", "didomi.io",
+    "usercentrics.com", "wirewheel.io", "ethyca.com", "privacyrequest.io",
+    "datagrail.io", "truyo.com", "mydatarequest.com",
+)
+
+
+def is_portal(url):
+    host = urlparse(url).netloc.lower()
+    return any(host == h or host.endswith("." + h) for h in PORTAL_HOSTS)
 
 
 class NoRedirect(urllib.request.HTTPRedirectHandler):
@@ -99,6 +120,8 @@ def classify(url):
     started_specific = bool(SEGMENTS.search(marker(url)))
     ended_specific = bool(SEGMENTS.search(marker(final)))
     if started_specific and not ended_specific:
+        if is_portal(final):
+            return "DELEGATED", f"handed to {urlparse(final).netloc}", final
         hop = " -> ".join(f"{c} {u}" for c, u in chain) or "client-side"
         return "REDIRECT-AWAY", hop[:110], final
     return "OK", f"HTTP {status}", final
@@ -131,7 +154,7 @@ def main():
         ):
             results.append((verdict, bid, u, detail, final))
 
-    order = ["REDIRECT-AWAY", "GONE", "ERROR", "BLOCKED", "OK"]
+    order = ["REDIRECT-AWAY", "GONE", "ERROR", "BLOCKED", "DELEGATED", "OK"]
     for v in order:
         rows_v = [r for r in results if r[0] == v]
         if not rows_v:

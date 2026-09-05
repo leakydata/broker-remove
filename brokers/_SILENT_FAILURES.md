@@ -23640,3 +23640,56 @@ The honest reading of the corrected numbers is still modest. Eighty-one domains
 were reachable and had nothing — no published address and no removal page. For
 those, the company is contactable in principle and has chosen to publish no way to
 ask it anything. That is not a discovery failure; it is the finding.
+
+## §365 — sweeping all 489 routes, and the eleven rows that cannot say how they were filed
+
+`route_check.py` had only ever run over *pending* rows. Run over all 489 brokers
+with a recorded opt-out URL:
+
+| verdict | n |
+|---|---:|
+| OK | 381 |
+| BLOCKED (403/429, a bot wall — says nothing) | 53 |
+| GONE (404/410) | 28 |
+| ERROR (DNS, TLS, timeout) | 20 |
+| REDIRECT-AWAY | 7 |
+
+**Nineteen dead routes sit on rows recorded as `submitted`** — which sounds alarming
+and mostly is not, for a reason worth writing down before anyone panics at the
+number. For a row submitted by email, `optout_url` is a field on the registry, not
+the channel that was used; it dying proves nothing about the request. Splitting the
+nineteen by how the submission actually went in:
+
+- **8** went by `email` or `reply`. The dead URL is metadata. No implication at all.
+- **1** went by `web` — **advancedbackgroundchecks**, whose form now returns 404.
+  That one matters: we submitted through a form that no longer exists at that
+  address. Either the site restructured after we filed and the request stands, or
+  the page was already gone and nothing landed. There is no way to choose between
+  those from outside, so the row is off `submitted` and queued for a human. Leaving
+  it at `submitted` would assert a filing whose evidence has evaporated.
+- **11** have **no channel recorded at all**.
+
+That last group is the finding. Eleven rows say a request was submitted and cannot
+say *how*. While the route was alive that was merely untidy; now that it is dead
+there is nothing left to reconstruct from — not the form, not a message in a
+mailbox, not a reference number. **A status without a channel is an assertion that
+cannot be checked, and it decays into an unfalsifiable one the moment the route
+rots.** The tracker has recorded `via` for a long time; these predate that, or were
+written by a path that skipped it. Worth backfilling where the outbox or the
+mailbox can still say, and worth refusing to write without it going forward.
+
+### And a false positive of my own, in the checker I wrote this morning
+
+Cognism's `/data-opt-out` 301s to `cognism.privacy.saymine.io/cognism`. My checker
+called that REDIRECT-AWAY, because it tests whether the final **path** still
+carries an opt-out segment and `/cognism` does not. But that is not a dead route —
+it is a company handing its data-subject requests to a named privacy portal, which
+is a perfectly good route and arguably a better one than a homegrown form.
+
+Same error as §364, in the tool built to catch that class of error: **matching
+characters instead of asking what the thing is.** A redirect to a recognised
+privacy-portal host is a delegation, and the registry should record which portal
+rather than flagging the row as broken. Added a `DELEGATED` verdict and a list of
+portal hosts — OneTrust, Osano, TrustArc, Ketch, Securiti, Transcend, Mine and the
+rest. Three defects in one day, all of them a string test standing in for a
+question about the world.
