@@ -277,7 +277,11 @@ def scan(bid, domain):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--limit", type=int, default=20)
+    ap.add_argument("--limit", type=int, default=None,
+                    help="cap the number probed. Defaults to 20 for a sweep, "
+                         "and to NO CAP when --ids names them explicitly: an "
+                         "explicit list is a statement of intent and a default "
+                         "should not quietly discard most of it. See 361.")
     ap.add_argument("--json", help="write findings to this file")
     ap.add_argument("--ids", help="comma-separated broker ids to probe, "
                                   "regardless of what route is on record")
@@ -317,8 +321,20 @@ def main():
                 and not (b.get("optout_url") or "").strip()
                 and not b.get("duplicate_of")]
     todo.sort()
-    todo = todo[:args.limit]
+
+    # An explicit --ids list is not a sweep and must not be silently truncated.
+    # This capped a 274-id list at 20 and printed "probing 20 domain(s)", which
+    # reads as completion; 254 brokers went unprobed and nothing said so. See 361.
+    limit = args.limit if args.limit is not None else (None if args.ids else 20)
+    requested = len(todo)
+    if limit is not None:
+        todo = todo[:limit]
+    dropped = requested - len(todo)
+
     print(f"probing {len(todo)} domain(s) with no route on record", file=sys.stderr)
+    if dropped:
+        print(f"  NOT PROBED: {dropped} more matched and were cut by --limit "
+              f"{limit}. Raise it or they stay unchecked.", file=sys.stderr)
 
     with ThreadPoolExecutor(max_workers=16) as pool:
         found = [r for r in pool.map(lambda t: scan(*t), todo) if r]

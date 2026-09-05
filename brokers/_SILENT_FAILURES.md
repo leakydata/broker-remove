@@ -23396,3 +23396,53 @@ response to a defect that did not actually recur is scope I would be inventing f
 myself. Recording it instead, so that the next person who edits an output path in
 this repo knows that the path *is* the security boundary and there is nothing
 underneath it.
+
+## §361 — I passed it 274 ids and it probed 20, and told me so in a way I read as done
+
+Every broker with a mailbox has now been written to. Checking that produced a
+number worth recording on its own: of the 302 registry rows never contacted,
+**274 have no route at all** — no email address, no opt-out URL — and 28 have a
+URL only. Not one has an email address. The email channel is exhausted, and the
+remaining frontier is contact discovery.
+
+So I ran `discover_contacts.py --ids <274 ids>`. It printed:
+
+> probing 20 domain(s) with no route on record
+>
+> 0/20 produced a published address
+
+Two hundred and fifty-four brokers were never probed. `--limit` defaults to 20,
+and line 320 applied it *after* the `--ids` selection, so an explicitly named list
+was truncated by 93% by a default meant for exploratory sweeps.
+
+**The output was not false and that is exactly the problem.** It said 20. It said
+0/20. Both true. Nothing in it was a lie and nothing in it was an error, and I
+still came away believing a 274-domain sweep had returned nothing — because
+"probing 20 domain(s)" answers *what did I do* and never answers *what did you ask
+for*. A cap that reports its own size but not the size of what it discarded is
+indistinguishable, at the point of reading, from a complete run.
+
+This is §289 again with the polarity reversed. There, a broken query returned zero
+for everything and a nil looked like a true negative. Here a truncated sweep
+returned zero for twenty and looked like a nil across the whole set. In both cases
+the artifact is *an honest zero standing in for an unasked question*, and in both
+cases the only defence is to make the tool state the denominator.
+
+Fixed:
+
+- `--limit` now defaults to **20 for a sweep and no cap when `--ids` is given**.
+  An explicit list of identifiers is a statement of intent; a default that
+  discards most of it is overriding the caller, not helping them.
+- Whenever anything *is* cut, the tool now prints how many, and says they stay
+  unchecked until the limit is raised.
+
+The general rule, which this project has written twice now and had to learn a
+third time: **a tool that bounds its own work must report the bound in the same
+breath as the result.** "0 of 20" is a fact about twenty domains. "0 of 20; 254
+more matched and were not probed" is a fact about the question I actually asked.
+The first one closes an investigation. The second one keeps it open, which is
+where it belonged.
+
+Re-running uncapped over all 274. The prior 121-domain sweep this session yielded
+exactly one address, so the expected return is very low — but low is a finding and
+twenty is not a sample of two hundred and seventy-four.
