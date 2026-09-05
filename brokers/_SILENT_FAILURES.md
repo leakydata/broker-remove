@@ -22960,3 +22960,50 @@ PI, opt out of using sensitive PI. **Deletion withheld** until the summary arriv
 §317, deletion destroys the evidence access would disclose. The two questions go
 back by email to the address that deflected them, now with four request IDs
 attached, so the answer has somewhere to attach to.
+
+## §354 — the opt-out URL that returns 200 by redirecting to the front page
+
+PublicRecordsNow advertises "120+ Billion Records", "access to more than 6,000 data
+sources" and "30+ Years Experience". The opt-out URL on file for it,
+`/optout/`, does not 404. It redirects to the homepage and returns 200.
+
+That distinction is the whole entry. Every route-health check this project has
+written, and every one I have seen described elsewhere, asks some version of *does
+the opt-out URL still resolve*. This one resolves. A checker that follows redirects
+— which is the default in every HTTP client — records a healthy opt-out page for a
+site that has no opt-out at all. **A dead route that 404s is self-reporting; a dead
+route that redirects is a silent failure by construction.** The site with the
+broken opt-out scores identically to the site with the working one, and scores
+better than a site whose opt-out page is temporarily down.
+
+Once you look past the status code, there is nothing else there either:
+
+- The footer "Privacy Policy" link is `href="#"`. So is "Contact". So is "About Us".
+  Every entry under the footer's own **Legal** and **Company** headings is a dead
+  anchor back to the top of the same page.
+- Navigating to `/privacy-policy` directly returns **"404 Page Not Found. Did you
+  forget to add the page to the router?"** — the framework's developer-facing
+  message, shipped to production, on the privacy policy of a people-search site.
+- `publicrecordsnow.com` publishes **no MX record**. The domain cannot receive mail.
+- No postal address appears anywhere on the site.
+
+So there is no form, no policy, no contact link, no mailbox, and no address. Recorded
+`unreachable` rather than `failed`, because `failed` would claim a route was tried and
+refused, and there was no route to try.
+
+Two things worth carrying forward.
+
+**The route check needs to distinguish 200-after-redirect from 200-at-the-requested-
+URL.** A redirect to `/`, to a search page, or to any URL whose path no longer
+contains the opt-out segment should be treated as route-missing, not route-healthy.
+That is a cheap change and it is the only reason this site was not still sitting in
+the queue as a working web form.
+
+**Claims of scale are not evidence of a data holding, and their absence is not
+evidence either.** Thirty years of experience and six thousand sources are asserted
+on a page whose copyright reads 2024 and whose router is missing its legal pages.
+I do not know whether this company holds a record about the subject; I know only that
+if it does, there is no mechanism by which anyone could ask. Those are different
+findings and this file has previously blurred them (§289: a silently broken query
+returns zero for everything). Recording "no route exists" is a statement about the
+company. It is not a nil, and it must never be counted as one.

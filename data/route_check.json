@@ -1,0 +1,240 @@
+[
+  {
+    "verdict": "OK",
+    "id": "addresssearch_com",
+    "url": "https://www.addresssearch.com/remove-info.php",
+    "detail": "HTTP 200",
+    "final": "https://www.addresssearch.com/remove-info.php"
+  },
+  {
+    "verdict": "OK",
+    "id": "adform",
+    "url": "https://site.adform.com/privacy-center/website-privacy/opt-out/",
+    "detail": "HTTP 200",
+    "final": "https://site.adform.com/privacy-center/website-privacy/opt-out/"
+  },
+  {
+    "verdict": "BLOCKED",
+    "id": "allareacodes",
+    "url": "https://www.allareacodes.com/remove_name.htm",
+    "detail": "HTTP 403",
+    "final": "https://www.allareacodes.com/remove_name.htm"
+  },
+  {
+    "verdict": "OK",
+    "id": "americaphonebook",
+    "url": "http://www.americaphonebook.com/contact.php",
+    "detail": "HTTP 200",
+    "final": "http://www.americaphonebook.com/contact.php"
+  },
+  {
+    "verdict": "ERROR",
+    "id": "areacode_lookup",
+    "url": "https://www.areacode-lookup.com/optout",
+    "detail": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (",
+    "final": ""
+  },
+  {
+    "verdict": "ERROR",
+    "id": "backgroundcheck_run",
+    "url": "https://backgroundcheck.run/optout",
+    "detail": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+    "final": ""
+  },
+  {
+    "verdict": "OK",
+    "id": "california_arrests",
+    "url": "https://www.californiaarrests.org/ccpaOptOut/",
+    "detail": "HTTP 200",
+    "final": "https://www.californiaarrests.org/ccpaOptOut/"
+  },
+  {
+    "verdict": "BLOCKED",
+    "id": "california_birth_index",
+    "url": "https://californiabirthindex.org",
+    "detail": "HTTP 403",
+    "final": "https://californiabirthindex.org"
+  },
+  {
+    "verdict": "OK",
+    "id": "california_criminal_records_search",
+    "url": "https://californiacriminalrecords.org/contact",
+    "detail": "HTTP 200",
+    "final": "https://californiacriminalrecords.org/contact"
+  },
+  {
+    "verdict": "OK",
+    "id": "coloradoresidentdirectory",
+    "url": "https://www.coloradoresidentdirectory.com/opt-out",
+    "detail": "HTTP 200",
+    "final": "https://www.coloradoresidentdirectory.com/opt-out"
+  },
+  {
+    "verdict": "BLOCKED",
+    "id": "connecticut_resident_directory",
+    "url": "https://www.connecticutresidentdirectory.com/opt-out",
+    "detail": "HTTP 403",
+    "final": "https://www.connecticutresidentdirectory.com/opt-out"
+  },
+  {
+    "verdict": "BLOCKED",
+    "id": "datarade",
+    "url": "https://datarade.ai/company/privacy-policy",
+    "detail": "HTTP 403",
+    "final": "https://datarade.ai/company/privacy-policy"
+  },
+  {
+    "verdict": "ERROR",
+    "id": "dmachoice",
+    "url": "https://dmachoice.thedma.org/",
+    "detail": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certif",
+    "final": ""
+  },
+  {
+    "verdict": "REDIRECT-AWAY",
+    "id": "dobsearch_com",
+    "url": "https://www.dobsearch.com/people-finder/block-record-request.php",
+    "detail": "301 https://www.dobsearch.com/how-to-find-information-someone-online/",
+    "final": "https://www.dobsearch.com/how-to-find-information-someone-online/"
+  },
+  {
+    "verdict": "OK",
+    "id": "familyrelatives",
+    "url": "https://familyrelatives.com",
+    "detail": "HTTP 200",
+    "final": "https://familyrelatives.com"
+  },
+  {
+    "verdict": "BLOCKED",
+    "id": "florida_residents",
+    "url": "https://www.floridaresidentsdirectory.com/opt-out",
+    "detail": "HTTP 403",
+    "final": "https://www.floridaresidentsdirectory.com/opt-out"
+  },
+  {
+    "verdict": "BLOCKED",
+    "id": "florida_voter_directory",
+    "url": "https://www.floridavoterdirectory.com/opt-out",
+    "detail": "HTTP 403",
+    "final": "https://www.floridavoterdirectory.com/opt-out"
+  },
+  {
+    "verdict": "OK",
+    "id": "free_people_directory",
+    "url": "https://www.freepeopledirectory.com/optout",
+    "detail": "HTTP 200",
+    "final": "https://www.freepeopledirectory.com/optout"
+  },
+  {
+    "verdict": "ERROR",
+    "id": "golookup",
+    "url": "https://golookup.com/optout",
+    "detail": "URLError: <urlopen error [Errno -5] No address associated with hostname>",
+    "final": ""
+  },
+  {
+    "verdict": "ERROR",
+    "id": "homemetry",
+    "url": "https://homemetry.com/optout",
+    "detail": "URLError: <urlopen error [Errno -5] No address associated with hostname>",
+    "final": ""
+  },
+  {
+    "verdict": "OK",
+    "id": "idcaller",
+    "url": "https://idcaller.com",
+    "detail": "HTTP 200",
+    "final": "https://idcaller.com"
+  },
+  {
+    "verdict": "ERROR",
+    "id": "idtrue",
+    "url": "https://www.idtrue.com/optout",
+    "detail": "URLError: <urlopen error [Errno -2] Name or service not known>",
+    "final": ""
+  },
+  {
+    "verdict": "BLOCKED",
+    "id": "michigan_residents",
+    "url": "https://www.michiganresidentdatabase.com/opt-out",
+    "detail": "HTTP 403",
+    "final": "https://www.michiganresidentdatabase.com/opt-out"
+  },
+  {
+    "verdict": "OK",
+    "id": "nevada_arrests",
+    "url": "https://www.nevadaarrests.org/contact-form",
+    "detail": "HTTP 200",
+    "final": "https://www.nevadaarrests.org/contact-form"
+  },
+  {
+    "verdict": "BLOCKED",
+    "id": "north_carolina_residents",
+    "url": "https://northcarolinaresidentdatabase.com/opt-out",
+    "detail": "HTTP 403",
+    "final": "https://northcarolinaresidentdatabase.com/opt-out"
+  },
+  {
+    "verdict": "BLOCKED",
+    "id": "ohio_residents",
+    "url": "https://www.ohioresidentdatabase.com/opt-out",
+    "detail": "HTTP 403",
+    "final": "https://www.ohioresidentdatabase.com/opt-out"
+  },
+  {
+    "verdict": "OK",
+    "id": "openpublicrecords",
+    "url": "https://www.open-public-records.com/records_removal.htm",
+    "detail": "HTTP 200",
+    "final": "https://www.open-public-records.com/records_removal.htm"
+  },
+  {
+    "verdict": "BLOCKED",
+    "id": "optoutprescreen",
+    "url": "https://www.optoutprescreen.com/",
+    "detail": "HTTP 403",
+    "final": "https://www.optoutprescreen.com/"
+  },
+  {
+    "verdict": "OK",
+    "id": "plaid",
+    "url": "https://my.plaid.com/data-subject-request-form",
+    "detail": "HTTP 200",
+    "final": "https://my.plaid.com/data-subject-request-form"
+  },
+  {
+    "verdict": "GONE",
+    "id": "publicrecordcenter_com",
+    "url": "https://www.publicrecordcenter.com/remove.html",
+    "detail": "HTTP 404",
+    "final": "https://www.publicrecordcenter.com/remove.html"
+  },
+  {
+    "verdict": "OK",
+    "id": "searchusapeople",
+    "url": "https://www.searchusapeople.com/data-removal-request/",
+    "detail": "HTTP 200",
+    "final": "https://www.searchusapeople.com/data-removal-request/"
+  },
+  {
+    "verdict": "OK",
+    "id": "texas_arrest_warrants_search",
+    "url": "https://texasarrestwarrants.org/contact",
+    "detail": "HTTP 200",
+    "final": "https://texasarrestwarrants.org/contact"
+  },
+  {
+    "verdict": "OK",
+    "id": "unitedstatesphonebook_com",
+    "url": "http://www.unitedstatesphonebook.com/contact.php",
+    "detail": "HTTP 200",
+    "final": "http://www.unitedstatesphonebook.com/contact.php"
+  },
+  {
+    "verdict": "OK",
+    "id": "yellow_pages_directory",
+    "url": "https://www.yellowpagesdirectory.com/support.php",
+    "detail": "HTTP 200",
+    "final": "https://www.yellowpagesdirectory.com/support.php"
+  }
+]
