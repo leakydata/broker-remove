@@ -21419,3 +21419,55 @@ Note also the careful wording — *"names, **unhashed** email addresses"*. That 
 work. A hashed email is still personal information about the person it identifies, so I asked
 whether any record is keyed to one, and offered to let them tell me the hashing scheme rather than
 send anything new.
+
+---
+
+## §321 — a human privacy team and a follow-up bot in the same mailbox, not seeing each other
+
+Subsplash's privacy team replied on 3 September like a person: real next steps, a verification stage,
+and — creditably — a disclosed exclusion stated up front rather than discovered later.
+
+> *"Gifts you've given will remain visible to the organization that received them. This way they can
+> send you a donation statement."*
+
+That is correct and I accepted it. A church needs its own giving records for donation statements,
+tax and audit, and a privacy request should not interfere with an organisation's books.
+
+Meanwhile, on a **24-hour timer**, a separate system kept writing:
+
+- 2 Sep 10:19 — please submit your request to `privacy@subsplash.com` or the form
+- 3 Sep 10:19 — please submit your request to `privacy@subsplash.com` or the form
+- 4 Sep 10:22 — *"...which you submitted to privacy@subsplash.com. Please let me know if you need
+  further help with this privacy request"*
+
+**The third one acknowledges that the request was submitted, and then offers help submitting it.**
+
+Two systems in one mailbox that cannot see each other: a human team processing the request, and a
+follow-up bot that does not know. From outside, the bot is the louder signal — it arrives daily,
+and it says the thing that has not been done. **A less stubborn consumer re-submits**, and now there
+are two requests, two clocks, and a duplicate to reconcile.
+
+I reported it as a bug rather than a complaint, and asked them to switch the cadence off. Worth
+saying: their assistant labels itself *"composed by Subsplash Assistant, Subsplash's AI Agent"* —
+which is more disclosure than most companies manage, and is why I could tell the two apart at all.
+
+### The substantive question the carve-out opens
+
+Accepting the organisation's own records as out of scope makes the real question sharp:
+
+> **Does Subsplash itself retain or derive anything from giving data BEYOND what the receiving
+> organisation sees?** Aggregate giving history across multiple organisations, donor scores,
+> capacity or propensity models, affinity or life-stage inferences, segments built from giving
+> behaviour and made available to other customers.
+
+That layer — if it exists — is Subsplash's, exists in **no single church's file**, and is the thing a
+donation platform would be a data broker for. It is the same wedge as Catalina's linked shopper
+identity (§316): *the individual transactions belong to the merchant; the profile built across
+merchants belongs to the platform.*
+
+Exit offered as usual: *"we build nothing across organisations"* closes the file.
+
+### And the ordering sentence is now standard
+
+Every letter from §318 onward carries it, and it went out here too: **establish what you hold before
+deleting it.** Two days old and already the most reusable sentence in the corpus.
