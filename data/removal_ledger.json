@@ -560,8 +560,8 @@
     "via": "email"
   },
   "automotive_mastermind": {
-    "status": "submitted",
-    "changed": "2026-08-28",
+    "status": "captcha_blocked",
+    "changed": "2026-09-05",
     "via": "web"
   },
   "autoweb": {
