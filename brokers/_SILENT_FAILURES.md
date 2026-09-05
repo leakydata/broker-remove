@@ -23238,3 +23238,60 @@ uncomfortable state to keep in a tracker, and it is the honest one. Of today's
 three, exactly one produced a reference number (§352's OneTrust UUIDs, which
 verified cleanly and left a receipt in the URL) — and that is the only one now
 recorded as done.
+
+## §359 — the hypothesis from §357, measured, and half of it was wrong
+
+An hour ago I ended §357 with a suggestion: sweep the registry for companies whose
+data-broker registration has lapsed, on the reasoning that eMerges deregistered
+after 2024, wound down, and kept receiving requests it had no list to act on. The
+implied inference was that a lapsed registration marks a company that has stopped
+answering, and that the silence on those rows means something different from
+ordinary silence.
+
+The register filings are already stored, so this was checkable without asking
+anyone. It should have been checked before it was suggested.
+
+Latest filing year on record is 2025. Splitting all 677 profiled companies on
+whether their most recent filing is 2025 or 2024:
+
+| cohort | n | written to | answered | answer rate | dead route | rate |
+|---|---:|---:|---:|---:|---:|---:|
+| lapsed — last filed 2024 | 116 | 100 | 15 | **15.0%** | 15 | **12.9%** |
+| current — filed 2025 | 561 | 508 | 94 | **18.5%** | 14 | **2.5%** |
+
+**The answer rates are the same.** Three and a half points apart on n=100 against
+n=508 is inside the noise; the standard error on the smaller cohort alone is
+around 3.6 points. A lapsed registration tells you nothing about whether a company
+will reply. That half of §357's suggestion is simply wrong, and it would have been
+a comfortable thing to believe — it converts eighty-five unanswered letters into
+"they wound down" rather than "they ignored me", which is the more flattering
+reading and the one I reached for.
+
+**The dead-route rates differ by a factor of five.** 12.9% against 2.5%, on
+cohorts large enough that this is not an accident. A company that lets its
+registration lapse is much likelier to have lost its domain or its mailbox along
+with it.
+
+So the correct statement is: **deregistration predicts a dead route, not a dead
+company.** Which is precisely the premise `lapsed_scan.py` was already built on
+(§163: a broker that filed for 2024 and never again either died or was absorbed,
+and the address on file is then the least trustworthy field in the row). That
+script sweeps *pending* rows and routes around dead addresses. What this measures
+is that its premise holds at population scale — and that the extension I proposed,
+reinterpreting *submitted-and-silent* rows in light of a lapse, has no support.
+
+Two things worth carrying.
+
+**Nothing here changes what to send.** eMerges is the case in point and the reason
+the temptation was there: it deregistered, wound down its entire list business,
+disabled its opt-out — and still holds twenty-five years of records, under a legal
+obligation that forbids destroying them. Deregistering is not ceasing to reply and
+it is emphatically not ceasing to hold. A lapsed row still deserves a letter; it
+just deserves one that asks what became of the data rather than one that assumes
+a live list.
+
+**And the general shape.** I wrote a plausible inference into this file as a
+recommendation, in the same entry where I was congratulating a correspondent for
+asking rather than assuming. The measurement took four minutes and the data was
+already on disk. `scripts/register_lapse_stats.py` runs it, so the next person to
+have this idea can spend those four minutes instead of a week acting on it.
