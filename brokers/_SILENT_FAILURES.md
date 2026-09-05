@@ -23582,3 +23582,61 @@ whether a new profile simply gets created. Refile of all four authorised in writ
 — "refiling won't create duplicates on our side" since the originals expire
 unverified — and queued with exact values, because the browser extension has now
 refused screenshots and script injection for three hours across every site tried.
+
+## §364 — asking the domain a different question
+
+§362 closed the email question on 240 domains: probed for a published contact
+address, 239 answered "none". That is a real answer and it ends one line of
+enquiry. It does not end the broker. A company with no published mailbox can still
+have a removal form, and a form is a route — so `discover_contacts.py` asking
+*"what address do you publish?"* had been treated as the whole question when it is
+only half of it.
+
+`scripts/find_optout_pages.py` asks the other half. For each of the 119 domains
+that publish no contact address, it fetches the front page and the usual policy
+paths, follows the links they contain, and reports any whose **path** looks like a
+removal route. Links rather than page text, deliberately: a link is what a person
+would click, and matching body text would flag every privacy policy ever written.
+
+The first run over those 119:
+
+| verdict | n |
+|---|---:|
+| same-site removal route | **14** |
+| off-site route only | 9 |
+| reachable, nothing found | 81 |
+| not reached | 15 |
+
+**Fourteen brokers went from "no route on record" to a named removal page.** That
+is fourteen rows that had nothing to work with and now have somewhere to send a
+human. The nine off-site ones are reported separately and flagged rather than
+merged in, because a link to a OneTrust portal, an NAI opt-out page or a parent
+company's privacy centre is a route the domain does not control, and the registry
+should record which kind it is. Three of those nine point at
+`networkadvertising.org` or Google's analytics opt-out, which are not removal
+routes for this company's own data at all — they are the industry-wide cookie
+opt-outs, and treating them as a route would be the §353 mistake of accepting a
+gesture in place of a mechanism.
+
+### Two false positives, and what they have in common
+
+The first run reported `youmail` as having a removal route at
+`.../complianz/css/banner-1-optout.css`. A **stylesheet**. And it reported
+`us_people_search` with a `data:image/png;base64,…` URI whose payload happened to
+contain letters matching the path regex — which dumped thirty kilobytes of encoded
+image into the report.
+
+Both are the same error: I matched a pattern against URL *text* without first
+asking whether the URL is a page a person could land on. The fix is small — skip
+`data:` and `blob:` URIs, skip asset extensions, cap length — but the shape is
+worth naming, because it is the same one as §360. There, a scanner matched an
+address in its canonical form and missed every reformatting of it. Here, a scanner
+matched a route pattern anywhere it appeared and caught things that are not routes.
+**A string match is a claim about characters; the finding is always a claim about
+something in the world, and the gap between them is where both of today's scanner
+defects lived.**
+
+The honest reading of the corrected numbers is still modest. Eighty-one domains
+were reachable and had nothing — no published address and no removal page. For
+those, the company is contactable in principle and has chosen to publish no way to
+ask it anything. That is not a discovery failure; it is the finding.
