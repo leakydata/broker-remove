@@ -23359,3 +23359,40 @@ exactly which submissions were made — a good instinct for a gitignored tracker
 a bad one the moment a generator copies notes into a published page. The note was
 never the risk. The *pipeline* was: gitignored source, tracked destination, and a
 scanner between them that had been quietly matching nothing.
+
+### §360a — the rest of the pipeline, checked
+
+Having found one generator publishing gitignored content, the obvious worry was
+that there were more. There are five other scripts that read tracker notes and
+write markdown, and **only `scaffold_playbook.py` calls `redact()`**. That looked
+bad for about ten minutes.
+
+It is not, and the reason is worth writing down because it is the actual safety
+property:
+
+| script | reads notes | writes to | published? |
+|---|---|---|---|
+| `scaffold_playbook.py` | yes | `brokers/*.md` | **yes** — and it redacts |
+| `tracker.py report` | yes | `docs/REMOVAL_REPORT.md` | no — gitignored |
+| `generate_checklist.py` | yes | `docs/MANUAL_CHECKLIST.md` | no — gitignored |
+| `backfill_notes.py` | yes | `removal_status.json` | no — gitignored |
+| `sync_status.py` | yes | `removal_ledger.json` | yes — but carries **no note text**, only status, date and channel |
+| `build_families_doc.py` | no | `brokers/_FAMILIES.md` | yes — built from register filings, never from notes |
+
+So exactly one script crosses from a gitignored source to a tracked destination,
+and it is the one that redacts. The others do not need a filter because they never
+cross the boundary. The audit came out clean.
+
+But notice what the invariant actually rests on: **a path string**. Nothing
+enforces the rule. `generate_checklist.py` is one line away from writing somewhere
+tracked, and if that line ever changes, the note text goes with it and the only
+thing standing in the way is the commit gate — which is the gate that was blind to
+this class of value until an hour ago. The property "we redact when crossing into
+tracked space" is currently maintained by everyone happening to write to the right
+directory.
+
+I am not adding a mechanism for that today; a second enforcement layer invented in
+response to a defect that did not actually recur is scope I would be inventing for
+myself. Recording it instead, so that the next person who edits an output path in
+this repo knows that the path *is* the security boundary and there is nothing
+underneath it.
