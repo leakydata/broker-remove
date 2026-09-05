@@ -1,5 +1,31 @@
 # eMerges.com
 
+> **CLOSED — 5 September 2026. This company has wound down and answered in full.
+> Please do not send it a removal request.**
+>
+> eMerges ceased operating as a list broker on 1 July 2025, did not renew its
+> California data-broker registration for 2025 or 2026, and has disabled its
+> opt-out because there is no longer a list to opt out of. Its proprietor
+> replied personally to this project and answered the question its public notice
+> did not: what became of the data. The answer was that it is **retained under a
+> legal preservation obligation** — "because data could be relevant during a
+> possible discovery process we are not permitted to destroy anything that could
+> be considered evidence." Not sold, not transferred, not destroyed, and not
+> available: preserved because a hold requires preserving it.
+>
+> That is a legitimate answer, not an evasion. A duty to preserve evidence
+> generally overrides a duty to delete on request, and nobody should be asking
+> this company to breach it. The only thing asked in return was that the vault
+> stay a vault — not queried, licensed, sampled or sold as part of the wind-down.
+>
+> The reason this page exists at all is worth stating, because it is the same
+> reason the company is still receiving requests it cannot act on: **directories
+> built from the 2024 register never expire.** The register itself is correct and
+> shows the lapse. The commercial copies made from it in 2024 do not, and each of
+> them keeps sending people here. This page was one of those copies. It is not
+> one any more.
+
+
 - **Email:** ~~data@emerges.com~~ — **hard-bounces 550, do not use.**
 - **Method:** web_form — a Google Form is the only route found; no working email.
 - **Opt-out:** https://docs.google.com/forms/d/e/1FAIpQLSdi3KjEPMsVnXQL-KllxvgOQWxvLpLfuz30-Z_eqXDHGEbX6w/viewform ("Remove Me/Opt Out", linked from their privacy policy)

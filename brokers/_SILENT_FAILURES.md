@@ -23060,3 +23060,109 @@ The only thing that can settle this is looking myself up in the directory again
 in a few days. That is a search, not a reply — which makes AddressSearch one of
 the few cases where verification is actually available to me, and I should use
 it rather than filing the confirmation as an outcome.
+
+## §356 — I typed the identity address into the confirmation field, four times, on the best form I had found
+
+The profile file carries a note I wrote to protect against exactly one mistake:
+
+> "TWO DISTINCT ROLES. all_emails = identity data; every address is asserted on
+> removal requests so records tied to each are purged. confirmation_email = where
+> verification links go... Before staging any form, check where its confirmation
+> goes, not just which address it searches."
+
+Today I filed four requests through Juicebox's privacy centre and typed an
+identity address into the EMAIL field on every one. All four verification emails
+went to a mailbox nobody reads. Confirmed rather than assumed: a search of the
+working mailbox for anything addressed to that account in the past two days
+returns nothing.
+
+So all four requests — access, do-not-sell-or-share, limit sensitive PI, opt out
+of using sensitive PI — will expire unverified. On my side the tracker said
+`submitted` and carried four UUIDs. On theirs, four consumers who started a
+request and walked away. Nothing in either record says the two disagree. That is
+the definition this file was started for, and this time I built it myself.
+
+Three things about **how** it happened, because "be more careful" is not a
+finding.
+
+**The field was labelled EMAIL, not CONFIRMATION EMAIL.** Every form that asks
+for one address is ambiguous about which of the two roles it wants, and the
+ambiguity resolves differently depending on what the form is for. A people-search
+opt-out wants the identity address, because it is searching. A rights portal
+wants the reply address, because it is going to write to you. Juicebox's form
+wanted both from one field and told me which only afterwards, on the confirmation
+panel: *"check the email you provided us."* By then it was typed.
+
+**The good form disarmed me.** §353 is four hundred words about how well built
+this privacy centre is — jurisdiction detection, a GPC badge, the match key
+stated in the help text. I spent the session's attention on evaluating the site
+and none on the one field where I make the same decision every time. The forms
+that get checked are the ones that look hostile.
+
+**It repeated because nothing checked it.** Four submissions, then three more
+across two other brokers before I noticed — and I only noticed because I went
+looking for the verification emails and found the inbox empty. There is a
+validator that reads the tracker and a redaction gate that reads the repo, and
+neither of them can see what I type into a browser. Every other guard in this
+project was built after exactly this shape of repetition (§309 duplicate sends,
+§344a destroyed queue items), and the pattern each time is: the mistake is
+invisible at the moment of making it and only shows up in a later artifact.
+
+What I did rather than quietly refile: **wrote to them with the four request IDs
+and asked them to either change the contact address or tell me to refile.**
+Refiling unprompted would leave one company holding eight requests for one person
+and no way to tell which four are live — which is a worse state than the one I
+created. Also corrected the two queued items (SmartBackgroundChecks, USA People
+Search) before the user reaches them; the USA People Search route is the
+dangerous one, because it *emails the opt-out form* and its link expires in 24
+hours, so as staged it would have consumed a human's CAPTCHA solve and produced
+nothing.
+
+And the sentence I have to sit with: the same message where I told Juicebox that
+gating an opt-out behind an emailed link is unlawful under 11 CCR § 7026(f) was
+followed, hours later, by my own opt-out failing for precisely that reason. The
+argument is not weakened by that. It is the argument. An opt-out that depends on
+a click in a mailbox fails silently whenever the mailbox is wrong, unattended, or
+full — and I have now demonstrated it on myself.
+
+## §357 — a broker read this file
+
+eMerges' proprietor replied personally, twice, and in the second message asked a
+question no company has asked before. Alongside answering mine, he sent a link
+and one line: *"Is this someone else?"* The link resolves to this project's
+public repository.
+
+He had found it, read enough of it to notice that its tone does not match "one
+person making requests about his own data", and asked directly rather than
+assuming. That is more good faith than most of the correspondence in here.
+
+The answer given was straight: it is one individual's project, the identity
+details are deliberately excluded, and a check runs before every commit
+specifically to keep them out. Both things he was weighing are true at once — it
+is one person, and it is organised enough to read as an institution.
+
+Two consequences worth writing down.
+
+**This file is read by the companies it is about.** It was always public and that
+was always foreseeable, but foreseeable and demonstrated are different states.
+Nothing here needs softening on that account — the entries are about mechanisms,
+they quote companies accurately, and several of them say plainly when a company
+did well (§348, §352, §353). But the standard for a sentence in here is now the
+standard for a sentence a named company will read, and that is a good standard to
+have been held to all along.
+
+**A directory entry outlives the company it describes.** His actual complaint was
+not about me. It was that he deregistered in California in 2024, the register
+correctly reflects the lapse, and the 2024-vintage commercial copies made from
+that register do not and never will — so a wound-down business keeps receiving
+removal requests it has no list to act on. This repository was one of those
+copies. `brokers/emerges_com.md` now opens with the cessation, his answer, and an
+instruction not to send the company anything.
+
+That is a general defect, not an eMerges one. **A broker directory has an
+onboarding path and no offboarding path.** Registers expire; the copies made from
+them do not. Every list in this space is monotonically increasing, which means
+the population of "data brokers" as measured by these directories can only grow,
+whatever the companies actually do. Worth a pass over the registry for other rows
+whose registration has lapsed — the register profiles are already stored, so the
+lapse is checkable without asking anyone.

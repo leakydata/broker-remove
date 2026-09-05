@@ -1,6 +1,6 @@
 # Accurate Append Inc.
 
-- **Email:** shawn@accurateappend.com (verified)
+- **Email:** [named individual]@accurateappend.com (verified)
 - **Method:** email — Statutory request by email. No web form needed.
 - **Domain:** accurateappend.com
 - **Priority: 2.**
@@ -12,7 +12,7 @@
 
 ## Steps
 
-1. Email `shawn@accurateappend.com` (an individual's address, not a generic
+1. Email `[named individual]@accurateappend.com` (an individual's address, not a generic
    privacy alias — worth noting for a small/boutique append vendor). Letter
    named the append-vendor business model explicitly: asked them to treat any
    appended/enriched email, phone, or demographic field linked to me as in
