@@ -22051,3 +22051,48 @@ one fact needed was never recorded.
 A change to the generator repairs the future and nothing else. **That is worth saying plainly rather
 than letting the fix imply more than it does**, which is the same discipline §318 arrived at and the
 reason this entry exists at all.
+
+---
+
+## §333 — a form that offers one right, and takes only the identifiers least likely to match
+
+InfutorData's privacy centre is Securiti-powered and, unlike Epsilon's (§314), **accepts
+Pennsylvania.** The request went through and the email verification confirmed:
+*"Your request is being processed."*
+
+Two things about it are worth recording anyway.
+
+### One right on offer
+
+Having selected United States and Pennsylvania, the Request Type control showed **exactly one
+option**: *Do not Sell or Share (Opt-out)*. No deletion. No access.
+
+That is §314's shape rotated ninety degrees. There, a right existed and the state list excluded the
+consumer. Here the state is accepted and **the right itself is absent from the menu.**
+
+I put it to them as a question rather than a finding, because from outside the two explanations are
+indistinguishable: the form may vary by state, showing a Pennsylvania resident only the right the
+state guarantees; or opt-out may be the only right offered through that channel to anyone.
+
+Either way the effect on the consumer is the same and is worth naming: **a single button and no
+explanation.** They cannot tell whether the other rights do not exist, do not apply to them, or live
+somewhere else entirely. One sentence on the page would resolve it — *"additional rights are
+available to residents of certain states; contact us if yours is not listed."*
+
+### And the form collects the smallest useful identifier set
+
+Current name, current street address, current email. That is all it has room for.
+
+InfutorData's business is **identity resolution across time** — connecting the person who lived at
+one address in 2004 to the one at another in 2026. §330 established that for a specialised database,
+the identifiers a consumer naturally supplies are the ones least likely to match. Here the form
+*enforces* that mistake: it will not accept a prior address, an old phone number, or a defunct
+mailbox, which for this particular company are the keys the file is most plausibly built on.
+
+So the form can carry the request but not the search. The email that followed supplied sixteen prior
+addresses, ten prior phone numbers and ten email addresses including several at providers that no
+longer exist, all flagged as search keys only.
+
+**A well-built form and a well-built request are not the same artefact.** This one is clean, accepts
+every state, verifies properly and issues a tracking ID — and still cannot express the thing that
+makes the request likely to find anything.
