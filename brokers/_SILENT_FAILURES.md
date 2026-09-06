@@ -23938,3 +23938,72 @@ query. It is unverifiable from outside in exactly the way §138 describes — an
 also the most *checkable-in-principle* kind of nil in the file, because it is a
 claim about what a company does rather than about what one lookup returned. Recorded
 as `not_found`, on their word, with the word quoted.
+
+## §370 — an error page that files the request anyway
+
+Refiling the four Juicebox requests with the correct address. The access request
+went in cleanly: `4c8c0616-763f-43e4-854b-c2b8f75c3cfc`. Then Do Not Sell or Share
+returned this:
+
+> "We're sorry, but we're unable to process your request at this time due to a
+> technical error encountered during request submission. Please try re-submitting
+> your request at a later time."
+
+I recorded it as failed and stopped, which is exactly what that message asks a
+person to do.
+
+**It had not failed.** A verification email arrived at 00:53 UTC — the same minute
+as the error — for request `8e1a46ad-32b4-457c-8bd8-c5c60e82189d`, a UUID I had
+never seen. Clicked it: *"We've verified your email... We are in receipt of your
+request."* Two submissions were made this evening and the other one is accounted
+for, so on timing this is the request the page said had failed.
+
+### The direction is the interesting part
+
+This is the third success/failure disagreement in a day, and the second one today
+that runs **backwards** from the usual:
+
+| | interface says | reality |
+|---|---|---|
+| AddressSearch (§355) | "successfully removed" | HTTP 500, write status unknown |
+| Intent IQ (§358) | blank page | `Location: /opt-out-failed`, outcome unknown |
+| Juicebox panel (§363) | opt-out pending your verification | honoured regardless |
+| **Juicebox error page** | **submission failed, try later** | **request created and queued** |
+
+The first two are the familiar shape: a system claiming more than it did. The
+Juicebox pair are the opposite — a system **claiming less than it did**, twice, in
+two different places, on the same afternoon.
+
+That direction is worse than it sounds, and worse in a way that is easy to miss
+because it looks like conservatism. Work through what the error page does to an
+ordinary person filing an opt-out. They are told it failed and to retry, so either
+they retry — and the company now holds two identical requests, with nothing marking
+which pair came from one person told they had failed — or they do not, and they
+believe they have no opt-out on file when they do. Both outcomes are wrong. Neither
+is visible from inside: the queue just shows requests.
+
+And **no audit will ever find it.** An audit asks whether the right thing happened.
+The right thing happened. The defect lives entirely in the gap between what the
+system did and what it told the person it did — which is not a field in any
+compliance checklist.
+
+So the thing to add to what I ask companies is not only *did you do it* but *does
+your interface say you did*. §363 recorded that for the confirmation panel; this
+generalises it. **An interface that understates its own compliance is still an
+interface that misinforms**, and it costs the consumer the thing they came for
+while the company gets full credit for having provided it.
+
+### What I did about it
+
+Did not refile. I cannot see the request type from outside, and refiling on a guess
+would create precisely the duplicate the error message manufactures. Wrote to
+Juicebox with both UUIDs, asked which type `8e1a46ad` is, and said I will file Do
+Not Sell tonight only if it turns out to be something else — plus the two sensitive-PI
+requests, which definitely were not submitted.
+
+Also reported, as a bug rather than a grievance: **on a freshly loaded Juicebox
+form the first field typed into silently discards its input.** It ate the email
+address this morning and the first name this evening, in two separate browser
+sessions. Every other field behaves normally and the form looks complete, which is
+what makes it dangerous — this morning it is the reason four requests went to a
+mailbox nobody reads.
