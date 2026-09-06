@@ -24188,3 +24188,61 @@ say they extend the same rights to residents of **every** US state, with a fifte
 day deadline. §137 and §213 are about companies using a state list to narrow who
 they help. This is a company publishing the same list and declining to use it that
 way.
+
+## §374 — what a good confirmation looks like, in nine lines
+
+This file is mostly a record of things going wrong, so it is worth writing down
+what the opposite looks like when it arrives. L.S Mobile Apps replied:
+
+> "Following your request, we confirm that we have completed our deletion process
+> and deleted the data associated with the Email address you provide.
+>
+> We have also required our processors or service providers to delete your personal
+> data from their databases.
+>
+> We further conducted an extensive search in our database and were not able to find
+> any data associated with the phone number you provided. Therefore we do not have
+> the ability to conduct the actions you requested from us with regards to such a
+> phone number.
+>
+> Please note that certain personal data, such as records of this request, will be
+> retained by the company in our legitimate interest and for the sole purpose of
+> compliance with a future legal obligation or the exercise or defense of legal
+> claims."
+
+Nine lines, and it does four separate things this project has spent months asking
+companies for.
+
+**It itemises by identifier.** One key matched and was deleted; another was searched
+and found nothing — and the two outcomes are reported separately. §138 is about
+confirmations that cannot be distinguished from each other: "your request has been
+completed" reads identically whether a company held a full file or nothing at all.
+This reply cannot be misread in that way. It also, incidentally, answers the
+question §330 exists for — *which* key matched — without being asked.
+
+**It performs the third-party direction and says so.** Cal. Civ. Code
+§ 1798.105(c) obliges a business to direct its service providers and contractors to
+delete. The overwhelming majority of replies pass over it in silence, and a
+consumer has no way to tell silence from non-compliance. This one states it was
+done, in a single sentence.
+
+**It discloses the retention with a purpose limitation, unprompted.** §327 is about
+the suppression inversion — that a durable record of a deletion request becomes a
+record the company must keep, and can quietly become the most complete thing it
+holds about you. The correct handling is to say what is kept and bound what it may
+be used for. They did both: records of the request, retained for legal-obligation
+and legal-claims purposes, and nothing else.
+
+**And it is nine lines.** No macro, no portal deflection, no invitation to create an
+account, no request for a driver's licence.
+
+Two things it does not do, recorded for accuracy and deliberately not pursued: it
+does not say which of the twelve email addresses matched, and it does not address
+the postal addresses or the aliases. A follow-up would extract marginal detail at
+the cost of another round with a company that has behaved better than almost any
+other in this file. §304's rule cuts both ways — another message into a channel
+that has answered is not diligence either.
+
+Worth keeping as the reference reply. When asking a company for a better answer,
+this is the shape to point at: **what matched, what did not, what you told your
+processors, and what you kept and why.**
