@@ -24466,7 +24466,8 @@
       "optery_slug": "allpeople-biz",
       "optery_url": "https://www.optery.com/data-brokers/allpeople-biz/",
       "route_evidence": "none",
-      "optout_url_note": "route discovered 2026-09-05 by scripts/find_optout_pages.py, by following links from the front page and policy pages -- this domain publishes no contact address, so this is a CANDIDATE route and nobody has confirmed a working form behind it. See _SILENT_FAILURES 364."
+      "optout_url_note": "route discovered 2026-09-05 by scripts/find_optout_pages.py, by following links from the front page and policy pages -- this domain publishes no contact address, so this is a CANDIDATE route and nobody has confirmed a working form behind it. See _SILENT_FAILURES 364.",
+      "scope_note": "India-only B2B contact directory -- 'AllPeople India is the largest free directory of business contacts for India' (their own front page, checked 2026-09-06). Will not hold a US consumer record. Closed not_found on a demonstrated search rather than an assumption."
     },
     {
       "id": "altrata",
