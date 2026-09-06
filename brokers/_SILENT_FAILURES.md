@@ -24803,3 +24803,95 @@ therefore a request made on behalf of people who did not make it. That is a
 genuine complication rather than a rhetorical one, and the honest thing is to
 raise it with the company and ask, not to let one person's request silently
 bind the others living there.
+
+## 385. The auto-reply that discloses an acquisition
+
+Throtle answered in twenty-six minutes, with an out-of-office macro:
+
+    "Thank you, we have received your request and will promptly review.
+    Please use our new submission form located here: [OneTrust webform]
+    or our new privacy email address: PrivacyOfficer@IQVIA.com."
+
+Nothing in that message is about my request. It is a routing note. But it says
+something no privacy policy, register entry or press release in my files says:
+Throtle's privacy mail now goes to IQVIA's Privacy Officer.
+
+Throtle sold marketing identity resolution — resolving a name or a hashed
+email to the digital identifiers representing the same person. IQVIA's
+principal business is healthcare data and analytics. If a consumer marketing
+graph has moved into a healthcare data company, that is a material change in
+what the data might be joined to, and the people in the graph were not the
+ones told about it. The California register still lists Throtle at its own
+address for 2020-2023, 2024 and 2025.
+
+I am not alleging wrongdoing and I do not know that an acquisition occurred —
+a shared privacy address has duller explanations, including a services
+agreement or a shared parent. What I know is that the only public artefact
+pointing at a change is a Zendesk macro that fired because I happened to write.
+
+WHAT WAS ASKED, at the new address: who controls the graph today; when and how
+it transferred; whether the processing purposes differ under the new controller;
+whether the consumers in the graph were notified; and — the one that must be
+answered even if every other answer is "nothing changed" — WHETHER OPT-OUTS AND
+SUPPRESSIONS RECORDED BEFORE THE TRANSFER BIND THE NEW CONTROLLER. An opt-out
+that does not survive a corporate transaction is not an opt-out. It is a pause
+with an expiry date nobody mentioned.
+
+THE GENERAL RULE: read the routing furniture. Auto-replies, bounce messages,
+ticket footers and macro text are written by systems rather than by lawyers,
+and they are not curated for what they disclose. Three of the more useful facts
+in this project arrived that way — a company's real privacy mailbox, a
+send-only address that swallows mail, and now a change of controller. Do not
+skim past a message just because it does not answer the question asked.
+
+## 386. The refusal that ends the matter, and keeping the promise anyway
+
+Outlogic answered in twenty-seven minutes:
+
+    "Outlogic and its products only work with advertising identifiers for
+    mobile devices and not with personal identifiers such as names, email
+    addresses, telephone numbers, etc. Therefore, in order to fulfill your
+    request, you must submit the mobile advertising identifiers of your
+    device(s) to us."
+
+My letter had offered them exactly this exit, in advance and in terms: if you
+hold nothing but device identifiers with no route from a person to a device,
+say so plainly and I will accept it and stop writing. They said something very
+close to it. THE PROMISE HAS TO BE KEPT. A letter that offers an exit and then
+refuses to honour it when the company walks through it is not an argument, it
+is a trap, and the next letter this project sends is worth less for it.
+
+But their sentence is present-tense and product-scoped, and my question was
+neither. So one short reply asked the two things it does not cover, with an
+undertaking to close on either answer:
+
+  - HAVE YOU EVER? Not "do your current products" — has Outlogic, X-Mode
+    Social, or any predecessor or affiliate whose data was inherited, at any
+    time held a linkage between an advertising identifier and a name, email,
+    telephone number or postal address? A present-tense answer about current
+    products does not cover a historical table.
+  - DID IT ARRIVE PRE-LINKED? Some location supply reaches a buyer already
+    joined to a person by the upstream partner. Whether or not the products
+    then used that association, was it ever received?
+
+WHAT IS DIFFERENT ABOUT THIS REFUSAL, and it is worth recording because most
+in this file are not like it: they are not asking me to prove who I am. They
+are saying they cannot look me up without the key. That is a lookup problem,
+not a verification wall, and it is a more honest thing than most companies say.
+11 CCR §7026(f) does not reach it. The letter says so.
+
+The identifier still will not be sent, and the reason was given rather than
+asserted: handing a current, live advertising ID to a location data company in
+order to ask it to hold less gives it something it did not have a minute
+earlier. If the ID is not in their systems, I would be putting it there. If it
+is, they now know it is current and belongs to a real person who reads his
+privacy mail. The request is therefore unresolvable on their side, that is the
+consequence of my own choice, and the letter says that too.
+
+AND THE THING THAT IS NOT ABOUT THIS COMPANY: Outlogic is on the California
+data broker register for every year from 2020. If their answer is right, the
+register lists a company structurally incapable of answering a consumer
+request — not from unwillingness, but because the register's model assumes a
+name-keyed holding and theirs is not one. That is a gap in the register, not a
+failing of theirs, and they are far better placed than I am to say so to the
+people who administer it. So they were invited to.
