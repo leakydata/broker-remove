@@ -24582,3 +24582,52 @@ the info it provides to make decisions about credit, employment, insurance…"* 
 which is an acceptance of terms and not mine to give. The modal was closed, not
 accepted. That gate is the same one blocking four other public-search verifications
 in this project, and it stays blocked.
+
+## §381 — a 403 to a script is not a wall to a person
+
+Four routes in this project were recorded as "behind a bot wall, needs a human" on
+the strength of one observation: `curl` got an HTTP 403 and a Cloudflare
+interstitial. With a working browser, that classification turns out to be nearly
+worthless.
+
+| site | what a script saw | what a browser sees |
+|---|---|---|
+| allpeople.biz | 403, "Quick security check" | **self-resolves in 20–25s**, no interaction |
+| ziprecruiter.com | 403 | **no challenge at all** — page loads normally |
+| ohioresidentdirectory.com | 403 | **interactive "Verify you are human" checkbox** |
+| morningstar.com | HTTP 202, empty body | not yet retested |
+
+Three sites, three different realities, one indistinguishable symptom. **A 403 from
+a script says something about the script, not about whether a person can complete
+the route** — and treating it as a wall wrote off two routes that were open the
+whole time.
+
+The one that genuinely needs a human is the *interactive* checkbox, which is a
+CAPTCHA-class control and stays untouched. The managed challenge that resolves
+itself is not a barrier, it is a delay — and the only cost of discovering that was
+twenty-five seconds of waiting instead of a queue entry.
+
+So the rule to carry: **never record a route as human-only on the evidence of an
+HTTP client.** Look at it once in a browser first. The queue is the scarcest
+resource in this project — every entry spends a person's attention — and two of
+these four entries were spending it on nothing.
+
+### What that unblocked
+
+**ZipRecruiter, submitted.** Their notice offers two routes and the difference
+matters: *"Opt Out for Your Device"* is per-browser and cookie-scoped — it dies when
+cookies are cleared, and it is the route the standing rule declines — while *"Opt
+Out for Your Email"* takes an address. Used the email route: first name, last name,
+email, country, state, no CAPTCHA. The response promises a verification email, and
+that email is the only corroboration on offer, because **no reference number was
+issued on screen**. §355's caution applies: a confirmation that is a sentence rather
+than a receipt is produced by `echo`.
+
+**AllPeople, closed on a demonstrated nil** — and worth one more line, because of
+how close it came. Their flow puts the site into *Removal Mode*, a red banner reading
+"Please locate the record you want to remove," with a Remove button beside every
+result. The search for the name returned fourteen records, every one an Indian
+business contact, because — as their own front page says — *"AllPeople India is the
+largest free directory of business contacts for India."* The bot wall had been
+cleared, the attestation ticked, the removal flow armed. **The only thing between
+that state and deleting a stranger's listing was reading where the results were.**
