@@ -24529,3 +24529,56 @@ stays unread. **A reinvestigation is already open** on their side (case
 `SF-07328613`, forwarded reference `REQ0014382`) with the results withheld pending
 authentication — so this is not a request that failed. It is one waiting on a
 decision that belongs to the person whose Social Security number it is.
+
+## §380 — the search that returns the wrong person, on a site that demands you identify yourself by URL
+
+SearchPeopleFree asked, for the third time, for a profile page URL — *"to ensure we
+accurately locate your specific record and avoid inadvertently removing another
+individual's information."* That reasoning is right, and rarer in this industry than
+it should be. §372 recorded a company whose opt-out needed an identifier its own
+search could not produce. This is worse: **the search produces one, and it is the
+wrong person.**
+
+With the browser working again, three facts, in the order they were found.
+
+**The domain they write from has no site on it.** `searchpeoplefree.net` — the
+domain their support address belongs to — returns a bare nginx **404** at the root
+and at every path tried. The working site is `searchpeoplefree.com`. Anyone who
+takes the domain from the email signature and goes looking for their listing finds
+nothing at all.
+
+**The location filter does not filter.** Searching the site for the subject's name
+with the subject's own town and state in the City/State field returned a profile
+page for a **deceased man of the same name in Grand Prairie, Texas** — a different
+marriage, Texas phone numbers, a Texas address. The URL carried the town as a path
+segment and the record was a Texan. Trying the state-scoped URL directly produces a
+page **headed with the subject's state**, reporting 194 people, whose first result
+lives in Jupiter, Florida and whose second lives in Williamsburg, Virginia. The
+location appears in the heading and in the URL and narrows nothing.
+
+
+**So the compliance mechanism is the misidentification risk.** Had I taken the first
+result the site returned for my name and my city and sent it back as "my profile", I
+would have asked them to delete a dead man's listing in Texas. The single artifact
+they require in order to avoid removing the wrong person is the artifact their search
+is most likely to get wrong.
+
+That is a distinct shape from the two this file already has. §372 was a route whose
+input could not be obtained — a closed door. This is a route whose input can be
+obtained easily and is **actively misleading**: it looks like an answer, it is
+formatted like an answer, and acting on it harms a third party who will never know.
+A consumer with less patience would have sent that URL. Most would.
+
+**What was sent instead:** a refusal to supply an unverified URL, plus the
+discriminator that actually works — date of birth, which rules a namesake *out*
+rather than ruling the subject *in* — with the offer to have them run it against
+their own index, or to check candidate links before they remove anything. And the
+line this project keeps returning to: *I would rather you remove nothing than remove
+somebody else's listing on my say-so.*
+
+One thing not done, and worth recording as a boundary rather than an omission: their
+profile pages sit behind an FCRA acknowledgement — *"I will not use this service or
+the info it provides to make decisions about credit, employment, insurance…"* —
+which is an acceptance of terms and not mine to give. The modal was closed, not
+accepted. That gate is the same one blocking four other public-search verifications
+in this project, and it stays blocked.
