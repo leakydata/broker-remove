@@ -24675,3 +24675,65 @@ in plain text with every field the form would have collected, asking them to
 record the requests directly or to say that they cannot. A request made in
 writing to a published privacy address is a request. The form is a convenience
 for them, not a precondition on the right.
+
+## 383. "The people id field is required"
+
+Locate Friend publishes an opt-out page. It is linked from the main navigation
+of every page on the site. It has a name field, an email field, a message box
+and a Submit button. Filling it in and submitting produces exactly one error:
+
+    The people id field is required.
+
+`people_id` is a hidden input. It gets populated when you click a specific
+listing. It cannot be typed, guessed, or looked up. So the question becomes:
+how does a person find their own listing?
+
+They cannot. The search does not index first names. A full-name query returns
+"No results were found," which reads as a clean nil and is in fact meaningless
+— the search never looked for a first name. Query the surname alone and you get
+a list of surname buckets -- the bare surname, then every variant and
+hyphenation of it, each with a count. The subject's own surname bucket holds
+64,448 entries. The only route to an individual is to browse into that page and
+page through sixty-four thousand records, and that page returns a Cloudflare
+interactive challenge.
+
+So the chain is: opt-out requires an id → id requires clicking a listing →
+finding a listing requires a search that cannot match a person → the fallback
+browse is behind a challenge. Four links, each individually reasonable, and the
+opt-out at the end of them is unreachable by construction.
+
+This is the purest specimen of §372 yet — a route whose required input the site
+provides no way to obtain. What makes it worth its own entry is how ordinary it
+looks. There is no refusal here, no verification wall, no identifier-class
+barrier, no bot detection aimed at the consumer. The form is not hostile. It is
+the second half of a "click this listing → report it" flow that somebody also
+linked from the nav bar as a standalone page, where the first half never runs.
+Every automated check passes it: the URL resolves, the page returns 200, a form
+element is present with the expected fields. §354's route_check would call it
+OK. find_optout_pages would call it a same-site removal route. Both would be
+right about everything they measured and wrong about the only thing that
+matters.
+
+THE NIL THAT MEANT NOTHING is worth separating out, because it nearly ended the
+investigation. The full-name search returned no results. That is the shape of an
+answer — and had I recorded not_found there, as I did an hour earlier at
+criminalregistry on what looked like the same evidence, the record would say
+this company holds nothing. It says nothing of the kind. It says the search
+takes surnames. §380 was about a search returning the wrong person; this is the
+other half of it: a search whose granularity is coarser than the question, whose
+empty result is not evidence of absence but evidence that nobody looked.
+ALWAYS ESTABLISH WHAT THE SEARCH INDEXES BEFORE BELIEVING WHAT IT RETURNS.
+
+Reported to support@locate-friend.com (address obfuscated on their contact page
+by Cloudflare; decoded from the data-cfemail attribute) with the request itself,
+the chain above, and two fixes: make people_id optional for requests arriving at
+/optout directly, or index first names.
+
+AND ONE THING THAT WAS NOT ABOUT PRIVACY AT ALL: the first POST returned an
+unhandled Laravel exception page — a full stack trace to an anonymous visitor,
+framework and PHP versions, thirty-one vendor frames with paths and line
+numbers. APP_DEBUG is on in production. Told them, told them plainly, did not
+go looking for what else it exposes, and did not report it anywhere else. It
+came up on their privacy page, which is a bad place to be leaking, and a
+company that is being asked to look after data has a right to hear that from
+the person who tripped over it rather than from someone with an interest in it.
