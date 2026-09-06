@@ -24291,3 +24291,71 @@ out**, and an undertaking to close on any of them:
 That shape — offer the answers, promise to stop — is what turned eMerges (§357) and
 Atlantic Fox (§369) from deflection into substance. It costs the company a line and
 removes every reason to treat the question as an opening move.
+
+## §375 — a live MX on a tenant with no mailboxes
+
+The last candidate address for Adrea Rubin Marketing failed this morning, and the
+bounce is worth quoting because it names a failure mode this project had reasoned
+about but never seen stated by a server:
+
+> 451 4.4.4 Mail received as unauthenticated, incoming to a recipient domain
+> configured in a hosted tenant which **has no mail-enabled subscriptions**.
+
+`adrearubin.com` publishes exactly one MX, pointing at Microsoft 365. Every route
+check, every MX probe, and this project's own `mx_route_check.py` score that domain
+as reachable — correctly, by their own definition. The domain resolves, the MX
+resolves, the server answers, the TLS handshake completes.
+
+And **nobody has a licensed mailbox on the tenant.** The server accepts the
+connection and then refuses on the grounds that there is nothing behind the domain
+to deliver to. Not this address — *any* address.
+
+§236 established the rule that a live MX proves the DOMAIN accepts mail and never
+that an ADDRESS exists. This is a sharper version: here the MX does not even
+establish the first half. A domain can present every outward sign of receiving mail
+while being, in fact, a mail configuration with no mail in it.
+
+Three addresses have now failed for this company — two 550s at
+`jenniferv@adrearubin.com` and `jennifer@calibrant.com`, and this. `calibrant.com`
+has no MX at all. The row moves from `submitted` to `unreachable`, because
+`submitted` asserted a delivery that never happened, and a status that outlives its
+own evidence is the thing this file exists to catch.
+
+Worth noting the failure code is a **4.4.4 — a transient class.** Gmail retried for
+three days before giving up. Anything that classified this by response code rather
+than by outcome would still be calling it temporary.
+
+## §376 — the same helpdesk, one thread answered and one answered by a cron
+
+Samba TV closed its ticket the same morning:
+
+> "Samba TV is a television and data analytics company. **We do not collect a
+> consumer's name, physical or email address, or telephone number.** Based on
+> information provided in the request we have not collected or processed any
+> personal information related to the requester."
+
+That is the answer §330 asks for: **a nil that is a statement about the keys, not
+about the file.** Every identifier the letter supplied is of a type they say they do
+not hold at all, so the nil follows from their data model rather than resting on a
+lookup nobody outside can verify. It is also consistent with what the company is —
+an automatic-content-recognition business whose graph is built on television device
+and household signals.
+
+I did not reopen the ticket, although they invited it. The only way to be findable
+in a file keyed to device and household signals is to hand over a device identifier
+or an IP address, and the standing rule refuses both. **The residual holding, if
+there is one, is unreachable by design rather than by their obstruction** — and
+that distinction is worth recording precisely, because "we could not get a removal"
+and "the only key that would work is one we will not supply" are different
+outcomes.
+
+The contrast that makes this entry worth writing: **Semasio shares this exact
+Zendesk.** §336 records that thread receiving the same portal-deflection macro four
+times, on the hour, at 01:01, 02:01, 03:01 and 04:01, engaging with nothing. Same
+company group, same helpdesk instance, same week. One thread got a considered answer
+about the company's data model; the other got a cron job.
+
+So the variable is not the company's policy, its resourcing, or its helpdesk
+software — all three were held constant. Whatever produced the good answer here was
+local to the ticket. That is worth knowing when a macro arrives: it is evidence
+about one thread, and not yet evidence about the company.
