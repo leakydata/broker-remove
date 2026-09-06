@@ -24088,8 +24088,8 @@ refuses and says why is doing its job.
 The problem is what it demands. `people_id` means a consumer cannot make a general
 opt-out; they must arrive from their own listing. And their search cannot find it.
 
-Searching the full name returns *"No results were found for &lt;the full name&gt;."*
-That
+Searching the full name returns "No results were found" for it. That nil means
+nothing — **the search is a surname directory, not a person index.** So I
 ran a control rather than recording an unfalsifiable zero:
 
 | query | result |
