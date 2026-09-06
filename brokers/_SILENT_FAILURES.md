@@ -24125,3 +24125,66 @@ The surname pages embed **crawler traps** — `/crawler-trap-a81f92` and two sib
 automatically should exclude them: the cost of tripping one is the requester's own
 address getting blocked, which would close the route for the person the request is
 for. Worth carrying to `find_optout_pages.py`, which follows links by design.
+
+## §373 — thirteen discovered routes, worked to the end
+
+§364 found thirteen removal routes on domains recorded as having no route at all.
+All thirteen are now resolved. The distribution is more interesting than the count.
+
+| outcome | n | which |
+|---|---:|---|
+| request sent | 2 | searchbug (written, no ID), numlooker (page had no form) |
+| closed — no usable key | 2 | foller.me, fifty.io |
+| queued, bot-walled | 4 | allpeople.biz, ohioresidentdirectory, ziprecruiter, morningstar |
+| queued, JS-only form | 2 | noon.ai, socialcatfish |
+| queued, needs listing lookup | 2 | criminalregistry, locate-friend |
+| likely unusable key | 1 | unity |
+
+**Two letters out of thirteen discovered routes.** That is the honest yield, and it
+is worth stating plainly rather than counting the thirteen as progress. What the
+exercise actually produced is thirteen rows that used to say *nothing to do* and now
+say *here is the route, here is what it needs, here is what to watch for* — which is
+a different and smaller kind of value than thirteen removals.
+
+### Three of thirteen are keyed to identifiers this project will not send
+
+Foller.me and Fifty.io both index **public social media handles**. Unity's
+do-not-sell is, on the evidence of what Unity's consumer data business is, keyed to
+a **mobile advertising identifier**. The standing rule refuses all of those, along
+with cookie IDs and IP addresses.
+
+That is not a route being blocked. It is a route that exists and works and asks for
+the one thing that must not be handed over — and the refusal is right, because
+supplying a device or advertising identifier to a company in order to be removed
+hands it a durable key it may not have had, in exchange for a suppression it can
+only apply against that same key. §234 established that; what is new here is the
+**rate**. Nearly a quarter of the routes discovered on contactless domains are of
+this shape, which suggests the population of "brokers with no published contact
+address" skews heavily toward identifier-graph and social-data companies rather
+than the name-and-address compilers this project mostly writes to.
+
+### Six of thirteen are behind a wall a script cannot pass
+
+Four Cloudflare or Akamai challenges, two JavaScript-injected forms. None is a
+refusal to help; all six are ordinary infrastructure. But the effect is that **the
+route is discoverable by automation and not completable by it**, and that gap is
+where the queue keeps filling up. It also explains something about the earlier
+sweep: `find_optout_pages.py` reads links, which survives a bot wall, so it found
+routes on sites that will not let a script anywhere near the form behind them.
+
+### And one small correction, recorded because I nearly acted on it
+
+I read SocialCatfish's field list, saw an email-and-password pair, and concluded
+the opt-out sat behind a login — which under the no-accounts rule would have closed
+it. Wrong: that is a site-wide login modal, and the opt-out is a separate form
+needing no account at all. The check that caught it was looking at *which form the
+fields belong to* rather than at the page's field list as a flat set. A page's
+inputs are not a description of its forms, and reading them as one produced a
+confident and wrong verdict in under a second.
+
+Their policy also deserves the record, because it is the inverse of the pattern
+this file usually documents: they name the states with privacy statutes and then
+say they extend the same rights to residents of **every** US state, with a fifteen
+day deadline. §137 and §213 are about companies using a state list to narrow who
+they help. This is a company publishing the same list and declining to use it that
+way.
