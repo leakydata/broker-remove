@@ -24007,3 +24007,66 @@ address this morning and the first name this evening, in two separate browser
 sessions. Every other field behaves normally and the form looks complete, which is
 what makes it dangerous — this morning it is the reason four requests went to a
 mailbox nobody reads.
+
+## §371 — "we do not store any information as we are only a data broker"
+
+Worked the first of the thirteen routes §364 discovered. `searchbug.com/ccpa.aspx`
+turned out to be a long, detailed, genuinely-written rights page — and unusable,
+because **every route on it requires uploading a driver's licence or government
+ID**. Not only access. Deletion and Do Not Sell too:
+
+> "Click 'Attach files' to upload an image of your Driver's License, or Government
+> ID and/or legal document **(Required)**"
+
+Recorded blocked rather than pending. This project does not upload identity
+documents, so the route is closed as it stands.
+
+That is the second company today demanding verification for an opt-out, and the
+contrast with the first is the useful part. Juicebox's confirmation panel *said*
+an opt-out was gated on email verification, and when asked, the company said it
+honours the opt-out regardless — the demand was wording over a compliant practice
+(§363). Here the demand is the documented procedure, spelled out step by step, for
+every path on the page. **11 CCR § 7026(f) says a business shall not require a
+consumer to verify their identity as a condition of honouring an opt-out.** A
+driver's licence is the most identity-verifying thing a person owns.
+
+Three other things on that page are worth keeping, because each is a shape this
+file has met elsewhere and here they appear together.
+
+**The sentence that argues with itself.** Verbatim:
+
+> "we do not store any information as we are only a data broker and do not
+> administer any personally identifying information on non-users"
+
+*We do not store any information, as we are only a data broker.* Read it twice. It
+is offered as a reason a consumer's request cannot be processed.
+
+**The visitor/subject conflation, again.** "CCPA requests are only available for
+registered users, as we do not collect any personally identifiable information on
+website visitors without an account" — written by a company whose product is
+looking people up. The people in the reports are not website visitors and never
+were; that is the entire point of the service. DOBSearch had the same defect in its
+privacy policy (§— the visitor-only policy). Here it has been promoted from a
+drafting gap into an eligibility rule: not a registered user, no request.
+
+**The live-assembly claim.** "Searchbug does not collect, store, manage,
+administer, or delete the original source records reflected in reports. Searchbug
+reports are derived from third-party data brokers and data providers that collect
+and maintain the underlying information" — the same hybrid architecture Juicebox
+described (§363), and stated more plainly than most companies manage. They then
+direct consumers to opt out with Searchbug anyway, which is the right instruction
+and sits awkwardly beside the disclaimer.
+
+One genuinely useful disclosure, in fairness: they state they are "not currently
+required to participate in DROP" — California's Delete Request and Opt-Out Platform
+— "based on the applicable legal thresholds in California Civil Code section
+1798.140," and that they review that annually. That is a specific, checkable claim
+about a statutory threshold rather than a vague gesture, and very few companies say
+anything about DROP at all.
+
+**Next step that does not involve an ID.** The page publishes
+`support@searchbug.zohodesk.com` for opt-out services submitting vetted lists of
+covered persons. That is an address that accepts written requests, and a letter is
+not a driver's licence. Worth a send — and worth noting that the accessible route
+for a *bulk removal vendor* is easier than the one for the individual whose data it
+is.
