@@ -24246,3 +24246,48 @@ that has answered is not diligence either.
 Worth keeping as the reference reply. When asking a company for a better answer,
 this is the shape to point at: **what matched, what did not, what you told your
 processors, and what you kept and why.**
+
+### §374a — the same morning, the other kind of short reply
+
+Redi-Data answered the 19 August letter this morning, an hour after L.S Mobile Apps
+answered theirs. In full:
+
+> "We received your request and processed the request. We have added the provided
+> information in our suppression list."
+
+Two sentences to §374's nine, and the comparison is worth drawing because **length
+is not the variable.** Both replies are short. One reports an outcome per item; the
+other reports a single act.
+
+Credit where it is owed, and it is owed: the letter argued that in a compiled-data
+business a suppression is the only ask with a lasting effect — a deletion alone is
+undone by the next refresh from the same upstream source — and a suppression is
+exactly what they applied. Of the eight things asked, they did the one with the
+longest half-life.
+
+But "added to our suppression list" is ambiguous in a way that matters in their
+industry. It is equally consistent with *we kept your record and excluded it from
+output* and *we removed your record and blocked re-addition*. Those fail
+differently, and a consumer cannot tell which they have.
+
+The unanswered ask with real consequence is the **sensitive selects** — health
+condition, disability, pregnancy and presence of children, religious and political
+affiliation, ethnicity, income and financial-distress proxies, gambling and firearms
+interest, life-event tags. Those sit in a different table from the contact record
+and are separately rentable. A do-not-mail flag stops the letters and leaves the
+attribute in the file, licensable to everyone else. "Suppressed" does not
+distinguish the two, and the letter had spelled that out.
+
+**Follow-up narrowed to three questions, each with its acceptable answers written
+out**, and an undertaking to close on any of them:
+
+1. Suppression with the record retained, or deletion, or both?
+2. Sensitive selects **deleted**, or flagged? — "flagged, not deleted" accepted as
+   a complete answer, and "we hold no selects of that kind" too.
+3. Are already-licensed copies contractually recallable? — a plain **no** is as
+   useful as a yes, because it says the suppression protects forward and not
+   backward.
+
+That shape — offer the answers, promise to stop — is what turned eMerges (§357) and
+Atlantic Fox (§369) from deflection into substance. It costs the company a line and
+removes every reason to treat the question as an opening move.
