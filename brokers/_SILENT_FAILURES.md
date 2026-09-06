@@ -24417,3 +24417,56 @@ of them was searched.** The hash challenge is a good instrument and it fired on 
 false positive here, because it assumed an architecture. A better first question is
 the one this exchange ended up answering anyway — *how many identity stores do you
 have, and what is the key of each?*
+
+## §378 — the itemised nil, extended to the keys that could have matched
+
+§348 credited Liminal for itemising a nil: one reference number per identifier
+searched, instead of the single least informative sentence in this field. §330
+argued separately that a nil means nothing unless it was run against the keys a
+company's index is actually built on — and that the identifiers a consumer reaches
+for first, a current personal email and a current phone, are often the ones a
+specialised database is *least* likely to hold.
+
+This is the first time those two ideas have been put together and tested on the
+same company.
+
+The first pass covered four current Gmail addresses and the current postal address.
+Nothing found — and, as recorded at the time, that proved very little about a
+lead-generation business, where a record is keyed to whatever a person used **when
+the lead was created**. So I owned the omission, supplied eight obsolete addresses
+(two at providers that no longer exist, plus a closed university mailbox — the exact
+key class that produced an immediate match at another company in the same week),
+sixteen prior postal addresses, ten prior phone numbers and four name variants, and
+offered an exit: *"If the re-run also returns nothing, please say so in the same
+itemised form and I will record it as a demonstrated nil and not write again."*
+
+They re-ran it and returned **twelve identifiers, each with its own reference**.
+Nothing found.
+
+That is a nil worth having. It is not a claim that a search happened; it is a list of
+what was searched, on the keys most likely to match, from a company that had already
+shown it could produce the format.
+
+Two things they did without being asked:
+
+- **They fixed the duplicate reference.** The first reply used `PR-20260905-000835`
+  against two different addresses — the difference between four searches and three,
+  and the reason I queried it. The re-run assigned `000836`–`000839` uniquely to
+  those same four. Corrected by action rather than by explanation, which is the
+  better of the two.
+- **They waived verification.** *"While our policy allows us to require consumers to
+  verify their identity directly, we have reviewed the authorization you provided and
+  have accepted it for this deletion request."*
+
+**And what the itemisation does not cover, recorded because it matters:** it lists
+email addresses only. The sixteen prior postal addresses, ten prior phone numbers and
+four name variants supplied for the re-run are not individually referenced, so
+coverage there is unevidenced. For a lead-generation file, a postal address is a
+plausible key.
+
+I am not pursuing it. I wrote that an itemised nil would close the file and that I
+would not write again, they produced one, and the promise binds. **An exit offered
+and then not honoured is worth less than no exit at all** — it teaches the next
+company that answering fully buys nothing, and the whole reason companies engage with
+these letters is that the terms have so far been kept. The gap goes in the record
+instead, where it belongs, and the file closes.
