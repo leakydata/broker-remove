@@ -24737,3 +24737,69 @@ go looking for what else it exposes, and did not report it anywhere else. It
 came up on their privacy page, which is a bad place to be leaking, and a
 company that is being asked to look after data has a right to hear that from
 the person who tripped over it rather than from someone with an interest in it.
+
+## 384. The refusal is not always a handicap
+
+The standing rule is that no advertising identifier, device identifier, cookie
+ID, IP address or social handle is ever sent to a broker, whatever the
+assurance. Until today I had treated that purely as a cost — a constraint that
+weakens every request against an adtech company, because it withholds the one
+key those companies index on, and the predictable result is a truthful,
+useless nil (§373, §330).
+
+Writing to three adtech firms in one sitting made it clear that the cost is not
+uniform. It depends entirely on what the company's product actually is, and for
+some of them the refusal is not a handicap at all.
+
+LOCATION SUPPLY — the refusal costs the most. Location arrives keyed to an
+advertising ID and becomes a person only if someone joins it to something else.
+A name-and-email request genuinely may find nothing. The right move is not to
+argue but to ask an architecture question with three honest exits: do you hold
+ANY linkage between an advertising ID and a name, email or address — built,
+licensed, or supplied? If yes, that linkage makes my keys searchable, so search
+them. If no, say so, and I will accept that the data is pseudonymous in a way
+that makes the request unanswerable rather than merely inconvenient, and stop
+writing. What that framing forecloses is the middle path: searching only the
+supplied keys, finding nothing, and reporting a nil that is a fact about the
+search rather than about the holdings.
+
+IDENTITY RESOLUTION — the refusal costs nothing, and the company's own product
+is the argument. Deterministic identity resolution takes an offline identifier
+— a name, a postal address, a hashed email — and resolves it to the digital
+identifiers representing the same person. That is not a side effect of the
+business; it is the business. A company that sells the resolution of an email
+address to an identity graph cannot coherently claim an email address is not a
+searchable key. The keys I am willing to give are precisely the inputs their
+systems are built to accept. And the identifiers I refuse are the OUTPUTS of
+their graph — which is worth saying to them in terms, because it reframes the
+refusal from obstruction into consistency.
+
+IP-TO-HOUSEHOLD MATCHING — the refusal costs nothing and the polarity inverts
+completely. If the product matches IP addresses to physical postal addresses,
+the postal address is the PRIMARY key, not a fallback, and the IP is what the
+matching produces. So the consumer can hand over a genuinely powerful key
+while giving up nothing, and the IP they withhold is an output they never owed.
+There is no gap here between what the company indexes and what I will supply,
+which is rare enough to be worth stating to them plainly.
+
+THE GENERAL RULE: establish what the company's product resolves FROM and
+resolves TO before deciding what a nil from them would mean. Same refusal,
+three different letters, because the refusal lands on a different part of three
+different architectures. A single form letter sent to all three would have been
+weakest exactly where the case was strongest.
+
+Two further things worth carrying forward from these three:
+
+ASK THE SENSITIVE-LOCATION QUESTION IN ITS THREE TENSES. "We do not sell that,"
+"we do not collect that," and "we no longer do that" are three different
+statements that blur together in a single sentence of reassurance. Naming the
+categories — medical, worship, shelters, reproductive health, correctional,
+addiction treatment, military — and asking which of the three is true forces
+the distinction that a general denial hides.
+
+HOUSEHOLD SUPPRESSION BINDS OTHER PEOPLE. Household-level targeting reaches
+everyone at the address. A suppression that works at the household level is
+therefore a request made on behalf of people who did not make it. That is a
+genuine complication rather than a rhetorical one, and the honest thing is to
+raise it with the company and ask, not to let one person's request silently
+bind the others living there.
