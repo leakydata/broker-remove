@@ -24359,3 +24359,61 @@ So the variable is not the company's policy, its resourcing, or its helpdesk
 software — all three were held constant. Whatever produced the good answer here was
 local to the ticket. That is worth knowing when a macro arrives: it is evidence
 about one thread, and not yet evidence about the company.
+
+## §377 — the hash objection, answered and dissolved
+
+§349 recorded RevContent's first reply as a **self-refuting nil**: they searched
+twelve plaintext email addresses and found nothing, having said in the same message
+that they "do not collect or store non-hashed email addresses." A nil on a field
+you have just said you do not hold is not evidence of anything.
+
+Their DPO answered, and the answer is that the premise was wrong — mine, not
+theirs. **There are two populations, not one.**
+
+| population | what they hold | why the search worked or did not |
+|---|---|---|
+| registered advertisers and publishers | plaintext email, phone, postal address | *"Because this is a plaintext dataset, we search it using plaintext; running a hash match against it would yield the exact same result."* |
+| anonymous visitors to publisher pages | IP address, user-agent, `__ID` cookie — no email, ever | *"Because email addresses are never accessed or available for this group, we cannot perform checks based on them."* |
+
+So the nil was run against a real plaintext table and a hash search over it would
+return the same nil. The objection was correct in general and wrong here, because
+the letter assumed one identity store where the company runs two with different
+schemas. **"We don't store plaintext emails" and "we searched your plaintext
+emails" are only contradictory if the company has one dataset.**
+
+Three further disclosures worth keeping, none of them asked for:
+
+- **They do hash, where hashing is the interface.** *"For CCPA DROP requests, we end
+  up hashing these very email and phone numbers and comparing the hash against those
+  provided in DROP requests."* California's Delete Act platform exchanges hashes, so
+  they hash to meet it — which confirms the capability exists and is used where it
+  is the right tool.
+- **The publisher-supplied hashes are not identity.** They exist to tie a click back
+  to a served ad, are random UUIDs that **rotate on every impression**, live in a
+  temporary store with a 72-hour TTL, and are purged every three days. That is a
+  specific, checkable reason for excluding them from a deletion search rather than a
+  brush-off, and it is the first time anyone in this file has explained *why* a hash
+  store is out of scope instead of simply not mentioning it.
+- **Ad serving without PII, described concretely.** Bucketing on IP-derived geography
+  and user-agent-derived device class; no email or phone retargeting; the data passed
+  to third-party DSPs limited to IP, user-agent and `__ID`.
+
+And they owned a mistake. The stray third-party email address in their first reply —
+which I had raised as a question rather than an accusation — was *"entirely my
+fault,"* a template reused from an earlier ticket with an old hyperlink left
+attached, with an apology and safeguards promised. A company that answers a
+"where did this come from?" with an explanation rather than silence is rarer than it
+should be.
+
+**Recorded `not_found`, not `confirmed`.** Nothing of the subject's was found, and
+the remaining population is reachable only by submitting an IP address, user-agent
+and cookie ID through their form — which the standing rule refuses, because doing so
+would attach a name to identifiers that currently carry none. That is a **declined
+route, not a failed one**, and the distinction belongs in the record: the company
+offered a working mechanism and the requester turned it down on principle.
+
+The lesson for the letters: **ask which datasets exist before objecting to how one
+of them was searched.** The hash challenge is a good instrument and it fired on a
+false positive here, because it assumed an architecture. A better first question is
+the one this exchange ended up answering anyway — *how many identity stores do you
+have, and what is the key of each?*
