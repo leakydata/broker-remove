@@ -24470,3 +24470,62 @@ and then not honoured is worth less than no exit at all** — it teaches the nex
 company that answering fully buys nothing, and the whole reason companies engage with
 these letters is that the terms have so far been kept. The gap goes in the record
 instead, where it belongs, and the file closes.
+
+## §379 — "documentation is NOT required", and then it is
+
+LexisNexis Risk Solutions wrote twice on the same day about the same matter. The
+first letter, listing what assists authentication:
+
+> "In addition, documentation can only assist as well, **however is NOT required.**"
+
+The second, four hours later:
+
+> "Please note the following verification **documents are required** to process most
+> Consumer Requests."
+
+A consumer reading the first would reasonably conclude they can authenticate on data
+alone. That is what I did: their first letter named five items, they already held
+four of them — full name, current address with ZIP, current phone, full date of
+birth — and I supplied the four again, offered prior addresses with dates, eleven
+prior phone numbers, a knowledge-based challenge drawn from their own file, or
+verification by telephone to the number they hold. I asked one question: **what is
+the minimum sufficient set that excludes a Social Security number and a
+government-issued identity document?**
+
+The answer was the document list, again. Proof of Identity must be a copy of a
+Social Security card, driver's licence, passport picture page, Green Card or
+military ID — plus a *separate* proof-of-address document. So the effective answer is
+that no data-only route exists, delivered by a template that does not acknowledge the
+question was asked.
+
+Two things worth separating carefully here, because it would be easy to write this
+up as an outrage and it is not one.
+
+**The requirement itself is lawful and sensible.** LexisNexis is acting as a
+consumer reporting agency under FCRA; authenticating before disclosing a file is
+what a CRA is supposed to do, and the file this protects is exactly the file I am
+asking to see. This is *not* the §7026(f) objection that applies when a company
+demands ID for a CCPA opt-out. Conflating the two would be wrong and I have kept them
+apart in the record.
+
+**The contradiction is the defect, not the requirement.** A person who acts on the
+first letter spends a round supplying data, is refused, and is told nothing about
+why the first letter said what it said. That is a small, real harm and it is entirely
+avoidable: one of those two sentences is wrong.
+
+### And a note on when to stop
+
+I did not send a third email. The question was put once, precisely, with the
+acceptable answers written out and an undertaking to accept any of them — the shape
+that worked on eMerges (§357), Atlantic Fox (§369) and Redi-Data. It produced a
+template. Another message into the same channel would be volume rather than
+communication, which §304 already establishes, and the fact that this particular
+company is important does not change it.
+
+What is left is a genuine choice and not mine: their **Consumer Center on
+1-800-456-6004**, open at weekends, where a person can say what a template cannot;
+or supplying the SSN; or accepting that the largest consumer-data file in the set
+stays unread. **A reinvestigation is already open** on their side (case
+`SF-07328613`, forwarded reference `REQ0014382`) with the results withheld pending
+authentication — so this is not a request that failed. It is one waiting on a
+decision that belongs to the person whose Social Security number it is.
