@@ -68,6 +68,14 @@ def fetch(url, cap=500_000):
 # URL is only a candidate route if a person could land on it.
 ASSET = re.compile(r"\.(css|js|mjs|png|jpe?g|gif|svg|webp|ico|woff2?|ttf|eot|map)(\?|$)", re.I)
 
+# Honeypots. locate-friend.com plants /crawler-trap-a81f92 and two siblings among
+# the ordinary links on its surname pages -- URLs that exist only to catch anything
+# walking the site automatically. This scanner follows links by design, so it has to
+# know not to. The cost of tripping one is the requester's own address getting
+# blocked, which closes the route for the person the request is being made for.
+# See _SILENT_FAILURES 372.
+TRAP = re.compile(r"crawler[-_]?trap|honey[-_]?pot|bot[-_]?trap|do[-_]?not[-_]?follow|spider[-_]?trap", re.I)
+
 
 def links(base, html):
     out = []
@@ -75,7 +83,7 @@ def links(base, html):
         h = m.group(1).strip()
         if h.startswith(("mailto:", "tel:", "javascript:", "#", "data:", "blob:")):
             continue
-        if ASSET.search(h) or len(h) > 300:
+        if ASSET.search(h) or TRAP.search(h) or len(h) > 300:
             continue
         try:
             out.append(urllib.parse.urljoin(base, h))
