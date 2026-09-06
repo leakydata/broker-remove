@@ -24070,3 +24070,58 @@ covered persons. That is an address that accepts written requests, and a letter 
 not a driver's licence. Worth a send — and worth noting that the accessible route
 for a *bulk removal vendor* is easier than the one for the individual whose data it
 is.
+
+## §372 — the opt-out needs an ID the site gives you no way to obtain
+
+Locate Friend's opt-out form posts a name, an email, a 500-character message, a
+honeypot field, a CSRF token — and a hidden `people_id`. Submitted as a general
+request, it came back with two validation errors, stated plainly:
+
+> The people id field is required.
+> The message field must not be greater than 500 characters.
+
+Credit first, because it is the rarer thing: **the form said it had failed.** After
+AddressSearch printing "successfully removed" over an HTTP 500 (§355) and Juicebox
+reporting a technical error for a request it had created (§370), a form that
+refuses and says why is doing its job.
+
+The problem is what it demands. `people_id` means a consumer cannot make a general
+opt-out; they must arrive from their own listing. And their search cannot find it.
+
+Searching the full name returns *"No results were found for &lt;the full name&gt;."*
+That
+ran a control rather than recording an unfalsifiable zero:
+
+| query | result |
+|---|---|
+| Smith | SMITH (120,941) |
+| the subject's surname | 64,448 entries |
+| the subject's full name | no results |
+
+The search works. The index is large. The full-name query returns nothing because
+full names are not what it takes.
+
+Put those together and the opt-out has a precondition the interface cannot satisfy:
+**locate your own record among 64,448 entries for that surname, using a search that
+accepts only surnames.** Not a refusal, not a dark pattern in the usual sense —
+nobody decided to make this impossible. The removal flow was built assuming you
+arrive from a listing page, and the search was built to browse surnames, and
+between those two reasonable designs sits a consumer with no path from one to the
+other.
+
+That is worth separating from the two failure modes this file usually records. It is
+not a system claiming more than it did (§355), nor less (§370). It is a system whose
+parts are each honest and which, composed, asks for something it does not provide.
+**The check to add is not "does the route work" but "can the person who needs it
+reach its inputs."** A route whose first required field is obtainable only by
+browsing sixty-four thousand records is, for practical purposes, closed — and it
+will pass every route-health check ever written, including mine, because the page
+loads and the form submits and the errors are accurate.
+
+### One operational warning
+
+The surname pages embed **crawler traps** — `/crawler-trap-a81f92` and two siblings
+— among the ordinary links. They were not followed. Anything walking this site
+automatically should exclude them: the cost of tripping one is the requester's own
+address getting blocked, which would close the route for the person the request is
+for. Worth carrying to `find_optout_pages.py`, which follows links by design.
