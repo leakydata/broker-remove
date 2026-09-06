@@ -24631,3 +24631,47 @@ business contact, because — as their own front page says — *"AllPeople India
 largest free directory of business contacts for India."* The bot wall had been
 cleared, the attestation ticked, the removal flow armed. **The only thing between
 that state and deleting a stranger's listing was reading where the results were.**
+
+## 382. The click that lands on nothing
+
+The Juicebox privacy centre presents seven request types as cards. Clicking one
+opens its form. Roughly a third of the time. The other two thirds the click
+registers on the page and nothing happens at all — no navigation, no error, no
+spinner, no console complaint. Repeated clicks on the card and on its arrow do
+nothing. Reloading sometimes helps and often does not. Across two browser
+sessions and a browser restart the tally was about three opens against six or
+more dead clicks.
+
+There is no failure state here to detect. A form that errors tells you it
+errored. A form that discards a field can be caught by reading the field back.
+A card that swallows a click leaves the page exactly as it was, which is
+indistinguishable from not having clicked.
+
+So the consumer's experience is: click "Do Not Sell or Share My Personal
+Information", see nothing, click again, see nothing, conclude the site is
+broken or that they mis-clicked, and close the tab. They have been turned away
+and no record exists on either side that they ever arrived. The company's
+metrics show a page view and no submission, which reads as a person who
+browsed and chose not to file.
+
+The widget is also absent from the page's accessibility tree — the cards cannot
+be located by role or name, only by pixel coordinates. Whatever that means for
+automation, it means the same thing for a screen reader.
+
+Four defects have now been reported to this one company:
+
+  - a panel that understated a compliant opt-out (§358)
+  - an error page that files the request anyway (§370)
+  - a first field that silently discards what is typed into it
+  - cards that swallow a click
+
+None of them is a refusal. Every one of them is the interface saying something
+other than what the system is doing, and in three of the four the mismatch runs
+in the direction that loses the request.
+
+WHAT TO DO WHEN THE WIDGET WILL NOT OPEN: stop clicking and write to the
+company. The two outstanding request types were sent to privacy@juicebox.work
+in plain text with every field the form would have collected, asking them to
+record the requests directly or to say that they cannot. A request made in
+writing to a published privacy address is a request. The form is a convenience
+for them, not a precondition on the right.
