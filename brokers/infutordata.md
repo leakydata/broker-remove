@@ -8,6 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-28)
+- Reply (2026-09-05): auto-acknowledgment stating plainly that email to their privacy-compliance addresses "will not be considered a valid submission of a privacy rights request" — DSR requests must go through the web form at infutor.com/privacy-center/ or by phone (1-866-207-1399). This message itself references an existing portal ticket (`3222d7d5-5def-4aa0-9dd8-669821207349`) already filed and separately confirmed complete by their securiti.ai-hosted portal ("Request complete... we now consider this matter closed") — so the underlying opt-out is done; this reply is only clarifying that the *email* channel doesn't independently count, not reopening anything.
 - Note: Sent the IDENTITY-GRAPH variant. Five points: (1) THE EDGES not only the rows -- the linkage is the product, so deleting endpoints while keeping the joins means the record reassembles when the same fragments next arrive; (2) any PERSISTENT PERSON-KEY, HOUSEHOLD KEY OR CLUSTER ID, which is a record about the subject and the thing that survives deletion of the attributes hanging off it; (3) ADDRESS HISTORY AS THE SPINE -- a consumer identity file is address-history keyed by construction, which is what lets it follow a person across moves, so the sixteen prior addresses are the important part of the letter rather than a courtesy; (4) hashed email match keys and device identifiers; (5) categories of supplier and recipient. FCRA double-claim pre-empted, and the identifier-types-matched question asked.
 
 ## Steps
