@@ -23872,3 +23872,69 @@ limit that silently truncated an explicit list (§361). None of the three was a
 broken check. All three were working checks that had been quietly disconnected from
 the thing they were supposed to guard — and in every case the terminal output looked
 exactly like success.
+
+## §369 — a registrant that was never a broker
+
+Atlantic Fox, closing a thread that took two rounds:
+
+> "Atlantic Fox does not now, nor did we ever hold personal information about you,
+> or any other consumer. We are a technology company and build and design software.
+> We had been asked by a client to provide them data in 2022 and under advice of
+> counsel registered. We then decided that other companies were better situated to
+> handle that kind of business and we cancelled our registrations accordingly."
+
+A software company filed as a data broker **on legal advice, for a product it never
+shipped**, and cancelled when it decided not to enter the business. It never held a
+consumer record at all.
+
+That is a category this project did not have, and it matters because of where the
+whole method starts. There is no list of who holds your data. The only practical
+starting point is the state data-broker registers — every consumer tool, every
+removal service, and this repository all begin there. But **a register records who
+FILED, not who HOLDS**, and those two sets can be completely disjoint. Atlantic Fox
+is one end of that gap: an entry with no data behind it. The register cannot mark
+the difference, because filing is the only thing it observes.
+
+Set beside the day's other two, the register turns out to over-report in three
+distinct ways:
+
+| | what the register says | what is actually true |
+|---|---|---|
+| **eMerges** (§357) | filed 2020–24, then lapsed | wound down, but still holds 25 years under a legal preservation duty |
+| **TransparentNevada** (§362) | listed via a removal-service directory | a public-payroll transparency project; never a commercial compiler |
+| **Atlantic Fox** | filed 2022, cancelled | never held a consumer record; registered defensively and did not proceed |
+
+Three companies, three different relationships between the filing and the data, and
+**no way to tell them apart from the register entry**. Only one of the three — the
+one that lapsed — actually still holds anything, which is the reverse of what a
+lapse intuitively suggests, and consistent with §359: deregistration predicts a dead
+route, not a dead company, and it says nothing at all about a holding.
+
+### The two sentences
+
+The reason this closed correctly is one distinction, and it is worth keeping.
+Atlantic Fox's **first** reply said the registration information was dated, that
+they are no longer registered in any jurisdiction, and that their offerings no
+longer include data brokerage. Every word true. All three are facts about
+**regulatory status** and not one is a fact about what they hold — and a company
+quietly sitting on a retained file could send that identical paragraph honestly.
+
+So the follow-up asked for the other sentence in terms, and promised to close on it
+without argument:
+
+> "'We searched and hold nothing about you' is a complete answer and I will not
+> press further. It is also a different sentence from the one you sent, and the
+> difference is the whole of my follow-up."
+
+They sent it, and the thread closed. **"We are not a data broker" and "we hold
+nothing about you" are different claims, and only the second one is an answer.**
+Asking for the second explicitly, while committing in advance to accept it, is what
+turned a deflection-shaped reply into a real one — and it cost the company two
+sentences rather than an argument.
+
+The mirror of that is worth stating too, because it constrains what I may do with
+this: their claim is about their business model, not about a search. Nobody ran a
+query. It is unverifiable from outside in exactly the way §138 describes — and it is
+also the most *checkable-in-principle* kind of nil in the file, because it is a
+claim about what a company does rather than about what one lookup returned. Recorded
+as `not_found`, on their word, with the word quoted.
