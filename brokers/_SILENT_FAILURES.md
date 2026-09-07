@@ -25343,3 +25343,55 @@ for the first week of October, at which point the ask is an acknowledgement
 rather than an accusation, and the dead route becomes a fact to report to them
 rather than a complaint: your published opt-out URL returns 404, so if my email
 did not reach you there is now no route at all.
+
+## 394. What 864 "submitted" rows are actually standing on
+
+§393 found seven rows resting on a send and nothing else. The obvious question
+was how many others do, and it had never been asked at scale, so
+scripts/corroboration.py now asks it. The rule it applies is simple: a row is
+CORROBORATED when something came back FROM THE COMPANY — a ticket or case
+number, a reply described in the note, an acknowledgement, a confirmation
+quoted verbatim. It is UNCORROBORATED when the only evidence is that a message
+left this side.
+
+Across 864 rows at status `submitted`:
+
+    corroborated      380     44.0%
+    weak               13      1.5%
+    adverse            12      1.4%     the only thing that came back was a bounce
+    uncorroborated    459     53.1%
+
+So slightly over half of everything this project calls "submitted" is standing
+on its own outbox.
+
+ONE THING THE SCRIPT GETS RIGHT THAT IS EASY TO GET WRONG. Many rows carry a
+`refs` value like `gmail:1a040af3bd84a3b7`. That looks like corroboration and
+is not: it is the message id of OUR OWN SENT LETTER. It proves a send. It
+proves nothing about a receipt. Counting those as evidence would have turned
+the headline from 44% into something far more flattering and completely false,
+which is exactly §389's failure mode, so they are excluded explicitly.
+
+WHAT THE NUMBER DOES AND DOES NOT MEAN, because it would be easy to read it as
+an indictment and it is not one:
+
+  - A company that received a letter and has said nothing may simply be inside
+    its response window. Many of these are.
+  - Silence from a company that holds nothing about the subject is the
+    commonest single outcome in this whole project. There is often nothing for
+    them to say and no obligation to say it.
+  - 44% is not a low number for unsolicited consumer correspondence. Three
+    hundred and eighty companies produced something back.
+
+What it measures is narrower and more useful than a grade: HOW MUCH OF THE
+LEDGER IS A RECORD OF WHAT WE DID VERSUS A RECORD OF WHAT HAPPENED. Those are
+different things, `submitted` blurs them, and any honest account of this
+project's results has to say which of the two it is quoting. When the total is
+reported to anyone, both halves go with it.
+
+A SECOND-ORDER OBSERVATION, not yet acted on: 380 rows show evidence of a
+reply while sitting at status `submitted` rather than `replied`. Some of that
+is correct — an autoresponder or a designated-method refusal is a reply that
+advances nothing, and moving those to `replied` would overstate them just as
+badly in the other direction. But it is worth a pass to find the ones where a
+substantive answer arrived and the status never moved, because those are rows
+where the project may already have an answer it has not read.
