@@ -25298,3 +25298,48 @@ The net position: a consumer who will not disclose a device identifier has NO
 route to Infillion at all. Not a hard route, not a slow route — none. That is
 worse than either §373 or §386, and it arrives by three independent decisions
 none of which is individually outrageous.
+
+## 393. Fourteen submissions against dead routes, and why that was not the finding
+
+The §389 scanner produced a list of twenty-seven recorded removal routes that
+are now gone — mostly 404, one 410, one 500. Cross-referencing those against
+the ledger turned up fourteen rows marked SUBMITTED whose route no longer
+exists, which reads as the worst kind of ledger error: a request recorded as
+made through a door that is not there.
+
+It is not that. All fourteen were submitted BY EMAIL. Every one of the notes
+says so — "statutory delete/opt-out request emailed", "named by name in a
+scope letter", "covered by one consolidated letter naming all four
+properties", "family-wide suppression confirmed in five identical replies."
+The dead URL is a stale `optout_url` field on the broker record, not the
+channel that was used.
+
+Which is the lesson, and it is about the check rather than the ledger: A
+BROKER'S RECORDED ROUTE IS NOT A RECORD OF HOW THE REQUEST WAS SENT. The two
+fields look adjacent and mean different things — one is a property of the
+company, discovered by a crawler; the other is a property of the transaction,
+and lives in `via`. Joining on the wrong one manufactures an alarm. This is
+§389's error in a different costume: an appealing, serious-looking finding
+that dissolves the moment the join is examined. Two of those in one night is
+enough to make it a habit — before reporting a cross-reference, say out loud
+what the two columns actually mean.
+
+WHAT SURVIVED, AND IT IS WORTH KEEPING
+
+Seven rows rest on a send and nothing else: audience_acuity, audiencerate,
+blue_action, citydata, compile, confidentialphonelookup, phonenumbers_org.
+No acknowledgement, no reference number, no reply — and now no web route
+either, so if the email produced nothing there is no second channel to try.
+They are the weakest rows in the ledger, and "submitted" is doing more work
+for them than the evidence supports. §304's point stands: a send is not a
+receipt, and volume is not communication.
+
+NOT CHASED, DELIBERATELY. They were sent on 17-19 August, which makes them
+nineteen to twenty-one days old against a forty-five day response window.
+Nothing is overdue. Chasing a company that is inside its statutory window and
+telling it that it is late is both wrong and corrosive to every later letter
+this project sends — the same reason §386's promise had to be kept. Diarised
+for the first week of October, at which point the ask is an acknowledgement
+rather than an accusation, and the dead route becomes a fact to report to them
+rather than a complaint: your published opt-out URL returns 404, so if my email
+did not reach you there is now no route at all.
