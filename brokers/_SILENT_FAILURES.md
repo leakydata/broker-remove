@@ -25990,3 +25990,61 @@ FOUR MORE ARE FRAGMENTS WITH NO LEGAL NAME TO REPAIR FROM: `awl` (awl.com),
 `idm` (idm.us.com), `rev` (getrev.ai), and `mr` (mrss.com). "Mr" is plainly a
 truncation. They are left alone rather than guessed at — inventing a company
 name to make a ledger tidier is how a ledger stops being evidence.
+
+## 406. Retested four days later: the same wall, a different brick
+
+§312 recorded that the shared request form on privacycompliance.biz does not
+deliver, and that the defect was reported to the one sibling brand with a
+working address. Four days is long enough to be worth a retest, so today the
+form was driven end to end in a real browser.
+
+IT STILL DOES NOT WORK, AND THE FAILURE HAS MOVED.
+
+    3 September: the form refused to submit. "Disabled! To enable, check the
+    acceptance field" — with NO acceptance checkbox rendered anywhere on the
+    page. Nothing for a consumer to tick.
+
+    7 September: the form accepts the click and attempts the send. The send
+    fails: "There was an error trying to send your message. Please try again
+    later."
+
+That is movement without progress, and it is worth distinguishing. Something
+changed — the submit path now runs — so somebody touched it. The outcome for
+the consumer is identical. The orphaned "Disabled!" string is still in the
+markup with still no checkbox to go with it.
+
+THE BLAST RADIUS, WHICH IS THE REASON THIS MATTERS MORE THAN ONE BROKER ROW.
+Contact Form 7 form id 705 is embedded on every request page on that site. The
+site's own menu lists brands including AtoZdatabases, DatabaseUSA, DBUSA LLC,
+DBUSAgov, EmailUSA, Infofree, ResearchUSA, Salesflower, SalesLeads101, HDML,
+ListProGuru, AtoZacademics, NewBusinessListsUSA, NewHomeownerListsUSA,
+ReferenceGuru and FreeSalesLeads — across roughly fifty state-specific pages
+covering nineteen states plus an "Other" page. ONE MAIL MISCONFIGURATION SITS
+BETWEEN EVERY CONSUMER WHO REACHES ANY OF THOSE PAGES AND THE REQUEST THEY CAME
+TO MAKE.
+
+AND THE PART THAT MAKES IT SELF-CONCEALING: the page returns a POLITE ERROR
+inviting the consumer to try again later. So the natural response is to assume
+a transient glitch and come back — which will not help, and which produces no
+signal on the company's side either. From inside the business, a form that
+cannot send mail looks exactly like nobody asking. That is §402's shape again:
+a failure invisible to BOTH parties, where the company cannot see the mail that
+never arrives.
+
+Escalated to the register-listed addresses for three brands in the family
+rather than to the vendor, with the reproduction steps, the CF7 diagnosis (the
+error string is CF7's standard mail-send failure, so the plugin reaches the
+send step and the transport refuses it), and the three fixes. Stated plainly
+that no bad faith is alleged — a CF7 mail failure is a mundane
+misconfiguration that breaks quietly and stays broken precisely because the
+only people who notice are the ones whose messages never arrived.
+
+The consumer request itself was made in the same letter, since the designated
+route cannot carry it.
+
+ONE THING WORTH COPYING FROM THEM: the portal publishes state-specific pages
+for nineteen states AND an "Other" page for everyone else. Most companies in
+this project either restrict to California or silently exclude non-covered
+states (§151, §312, and Civis's Google Form which lists sixteen states and
+strands a Pennsylvanian on page one). An explicit "Other" route is the right
+design. It is just wired to a form that cannot send.
