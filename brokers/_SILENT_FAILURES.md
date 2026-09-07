@@ -26073,3 +26073,53 @@ this project either restrict to California or silently exclude non-covered
 states (§151, §312, and Civis's Google Form which lists sixteen states and
 strands a Pennsylvanian on page one). An explicit "Other" route is the right
 design. It is just wired to a form that cannot send.
+
+## 407. Twenty-two items looked stale; three were
+
+The handoff queue is the only artefact in this project that costs somebody
+else's time — 150 items, roughly twelve hours of a person's attention. It has
+been added to constantly and never audited, so today it was cross-referenced
+against the ledger: which open items belong to brokers whose rows have since
+closed?
+
+Twenty-two. Fourteen per cent of the queue, apparently obsolete.
+
+Reading all twenty-two, THREE were. The other nineteen are live for reasons the
+cross-reference could not see, and the reasons are worth recording because they
+are the general case:
+
+  - AN `unreachable` ROW MAKES ITS HANDOFF MORE URGENT, NOT LESS. Nine items
+    are "find a route" or "decide whether to escalate" tasks that exist
+    PRECISELY BECAUSE every known route failed. Closing them because the row
+    is closed would be closing them because they have not been done.
+
+  - A `confirmed` ROW CAN STILL CARRY A LIVE DECISION. One asks whether to
+    sign an affidavit; one asks the user to confirm which domains in a
+    thirty-five record removal are actually his, because approving the rest
+    would remove other people's records; one asks a question only he can
+    answer (does he have an account on a particular network) that would unlock
+    a real suppression.
+
+  - A `not_found` ROW CAN NEED VERIFYING RATHER THAN CLOSING. One asks for a
+    non-email route to establish whether a DSAR vendor's nil was real, because
+    there is evidence it was fabricated. A nil that may be manufactured is not
+    a closed matter.
+
+  - `covered_by_sibling` DOES NOT COVER EVERY RIGHT. One item is the
+    belt-and-braces route for a sharing opt-out specifically, where the
+    sibling's answer confirmed a deletion and said nothing about sharing.
+
+THE THREE THAT WERE OBSOLETE had one thing in common: the handoff asked a human
+to do the exact thing that later got done another way. A phone call to have a
+listing removed, where a named agent removed it and said so. A CAPTCHA to
+submit an opt-out form, where the request was confirmed by email instead. A
+form to file a request, where a categorical nil came back. In each case the
+PURPOSE was served, not merely the row.
+
+THE TEST, for next time: a handoff is obsolete when its PURPOSE has been
+achieved, not when its broker's row has changed colour. Status is a property of
+the request; the handoff is a property of the work. They move independently and
+joining on the wrong one is §393's error in a different table — the third time
+that shape has appeared this week.
+
+Three closed. 150 remain, which is the honest number.
