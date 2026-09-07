@@ -25942,3 +25942,51 @@ anything was answered, and this project has been treating ticket state as a
 signal. It is a workflow state, exactly like §403's completion notice — one
 says a queue emptied, the other says a workflow finished, and neither says what
 was found. Wait for prose, from a person, or record nothing.
+
+## 405. A company called "Yes"
+
+Reading the ledger for stale threads turned up a row whose broker id was
+literally `none`, and pulling the thread found four ids that are import
+artifacts rather than names:
+
+    none  ->  FinThrive Healthcare, Inc.   (finthrive.com)
+    no    ->  Consumer Canvas, LLC         (consumercanvas.net)
+    yes   ->  PubMatic Inc.                (pubmatic.com)
+    n_a   ->  CRISIL Irevna US LLC         (greenwich.com)
+
+Some column in a register import contained a yes/no/none/N-A answer and got
+used to derive the identifier. Two of those four also had the DISPLAY NAME
+damaged, which is worse than a bad key, because the id is an opaque handle
+nobody reads and the name is what a human sees:
+
+    name "Yes"  for PubMatic Inc.
+    name "Tie"  for Revenue Roll Inc.
+    name "Exa"  for Exa Labs Inc.
+
+A ledger row reading `yes -> submitted, "Yes"` conveys nothing. Worse, any
+duplicate-detection or family-grouping pass would never match a row called
+"Yes" against a PubMatic row, so a sibling relationship could sit undetected
+indefinitely — which is exactly the class of thing §177 exists to catch.
+
+FIXED: the three display names, from the `legal_name` field already present on
+each row, with a `name_note` recording what was changed and why. Backup written
+OUTSIDE the repo first (§367).
+
+NOT FIXED, DELIBERATELY: the ids. `none`, `no`, `yes` and `n_a` remain. They
+are referenced by tracker history, handoff queue entries, staged files and
+several hundred notes, and renaming a key to make a listing read better is a
+large, silent blast radius in exchange for cosmetics. The names now carry the
+truth and the ids are just handles. Recorded rather than repaired, which is the
+same call as §403's missing `--corrected` flag.
+
+CHECKED AND CLEAN: no duplicate ids anywhere in brokers.json. The dangerous
+version of this bug would be two companies both deriving the id `none` and one
+silently overwriting the other. That did not happen. It was the first thing to
+look for and it is worth saying that it was looked for, because the absence of
+a collision is the only reason this is a cosmetic problem rather than a lost
+company.
+
+FOUR MORE ARE FRAGMENTS WITH NO LEGAL NAME TO REPAIR FROM: `awl` (awl.com),
+`idm` (idm.us.com), `rev` (getrev.ai), and `mr` (mrss.com). "Mr" is plainly a
+truncation. They are left alone rather than guessed at — inventing a company
+name to make a ledger tidier is how a ledger stops being evidence.
