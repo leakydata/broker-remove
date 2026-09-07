@@ -7,7 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-30)
+- Current: `submitted` (updated 2026-09-07)
+- Note (2026-09-06): Throtle's auto-reply gave a new submission form (OneTrust) and a new email, **PrivacyOfficer@IQVIA.com** — Throtle's privacy function now appears to route through its parent/affiliate IQVIA. Resent the identity-graph questions (stored-vs-recomputed link, which clients contributed/received identifiers) to the new address, cc'ing the old one, rather than filling the OneTrust form (browser-only). If IQVIA replies from a materially different privacy program than Throtle's own, treat it as a new row rather than assuming full carryover.
 - Note: 2026-08-30 sent privacy@throtle.io, email-only key policy (195). IDENTITY RESOLUTION, so the letter leads on 171: is the link between my identifiers STORED OR RECOMPUTED, since a graph-derived association rebuilds on the next matching signal and deleting the output accomplishes nothing -- honest 'we can delete but cannot prevent recreation' invited in those words. Also asked which brands/publishers/onboarding clients CONTRIBUTED my identifiers (their deletion cannot reach the contributor, so the record returns at the next onboarding run) and who RECEIVED a resolved identity, counts/dates/categories only. Device/advertising ID refused with the reasoning. Carries the three confirmation asks including 199's which-systems-were-searched, and the cap extended to IP.
 
 ## Steps

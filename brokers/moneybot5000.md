@@ -8,7 +8,8 @@
 
 ## Status
 
-- Current: `manual_required` (updated 2026-08-19)
+- Current: `manual_required` (updated 2026-09-07)
+- Note (2026-09-03): the follow-up letter (re: the unclaimed-money carve-out and the BeenVerified Inc./LLC entity-consolidation questions) was mis-routed to billing support, which asked for card/charge details on a request that involved no charge and no account. Declined to send payment card data, explained the misroute in writing (data-broker request vs. billing dispute are different mailboxes), and asked for the consumer-data/privacy team specifically. 2026-09-03: escalated to their privacy team per their own reply — awaiting response. Worth flagging generally: a support desk that defaults to a billing-dispute macro will ask for financial verification irrelevant to a privacy request; decline and ask for re-routing rather than answering the billing questions.
 - Note: PRODUCT-BY-PRODUCT CARVE-OUT. 'At this time, we are unable to remove data from the unclaimed money feature.' They then offer TWO working opt-out routes - Property Search and possible-resident - so the refusal covers one surface while the offer covers two, which is very easy to read as 'the removal'. Asked which kind of 'unable' it is: a technical limitation with no place to store a suppression, or a policy position on public record - and whether display-level suppression exists even if the upstream lookup cannot change. Their scope wording is honest and worth keeping: 'Information about the property may still be available, but details about your identity and any association to the property will be removed' - the linkage is the right unit. Two opt-out flows still to run.
 
 ## Steps

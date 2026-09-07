@@ -8,7 +8,9 @@
 
 ## Status
 
-- Current: `confirmed` (updated 2026-08-20)
+- Current: `confirmed` (updated 2026-09-07)
+- **Note (2026-09-02):** followed up on the completed removal with three questions (listing URL, what the suppression is keyed to, whether it survives a rebuild). Wyty answered directly and usefully: addresses and phone numbers CAN share one suppression entry; the name match is exact-string but case-insensitive, and **joins on first name + last name + city + state together** — so an address entry with no city/state attached is not weakly matched, it is unmatchable against their join key. They flagged that some of the addresses I'd sent lacked a city/state and asked me to resend. **Worth generalizing: when a broker states its join key explicitly, re-check your own letter's formatting against it** — a suppression list is only as good as whether the entries can actually be looked up.
+- Note (2026-09-07): resent the full address and phone list with every entry spelled out individually (no shared trailing "City, State" relying on a prior line), plus the name variants, so nothing depends on inferred grouping. Awaiting confirmation the corrected entries were added.
 
 ## Gotchas
 

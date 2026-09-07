@@ -7,7 +7,8 @@
 
 ## Status
 
-- Current: `submitted`
+- Current: `confirmed` (updated 2026-09-07)
+- Note (2026-09-02): reply — "unable to locate personal information relating to the consumer in our systems... added to our suppression list. Please allow up to 30 days." A clean nil plus a proactive suppression entry, without being asked — one of the better unprompted outcomes in this project. Did not answer which identifier types were searched or whether hashed forms were checked, but the volunteered suppression makes that less important than usual.
 - Note: SF 212 residue, register-sourced, --keys full. THE SITE RETURNS NOTHING to an ordinary fetch (one of the 214b 'empty' outcomes), so I have no description of the business beyond the fact of registration. Letter says so openly rather than pretending to a tailored frame: 'I try to shape each of these to the business it is going to... I could not do that here.' Opening question is the SF 212 one -- which part of the business made the registration necessary, and WHAT KIND OF IDENTIFIERS is that data keyed to -- because one sentence determines what I should be asking for. Full identifier set sent precisely because I cannot guess the keys, with the request that they retain only what is needed to evidence handling if some are categories they do not process. Standard suppression-vs-deletion and 193 association limit.
 
 ## Steps

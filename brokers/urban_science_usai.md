@@ -7,7 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-30)
+- Current: `not_found` (updated 2026-09-06)
+- Note (2026-09-06): reply — "We reviewed your request and were unable to locate any personal information about you in our systems." A plain, unqualified nil. It did not itemize which of the four DPPA sub-questions were checked (DMV-derived data, permissible purpose, marketing use, disclosure log), so treat this as a nil on identity/contact records rather than a specific answer to the DPPA questions — those went unaddressed rather than answered negatively.
 - Note: 2026-08-29 sent privacy@urbanscience.com. Self-declared two-brand row (189): Urban Science; USAI. Automotive, so the letter is built on the DPPA (18 U.S.C. 2721) rather than the standard instrument. Four questions: do they hold DMV-derived data (registration/title/driver) for me or a vehicle registered to me across PA, MD and AL; under which permissible purpose was it obtained; HAS IT BEEN USED FOR MARKETING OR SOLICITATION, which under 2721(b)(12) requires the individual's EXPRESS CONSENT that I have never given anyone; and to whom has it been disclosed. On the last, deliberately did NOT overclaim -- stated plainly that as I read it the DPPA gives no consumer right to demand the log, and asked voluntarily -- but made the point that under 2721(c) a reseller/rediscloser must keep recipient-and-purpose records for FIVE YEARS, so 'we do not keep that information' is one of the few answers not available. Counts/dates/categories accepted; not asking for dealer names. Also flagged that a vehicle file keyed to an address picks up whoever registered a car there afterwards, and refused a driver's licence specifically as an ID document.
 
 ## Steps

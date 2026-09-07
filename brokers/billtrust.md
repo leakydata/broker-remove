@@ -7,7 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-22)
+- Current: `submitted` (updated 2026-09-07)
+- Note (2026-09-02): first reply was the flat processor deflection — "we do not engage directly with individual consumers... contact the business associated with your transaction" — unworkable since the requester cannot know which of hundreds of businesses might route receivables through Billtrust. Pushed back: conceded the B2B/no-direct-relationship point does not exempt them (CCPA's B2B carve-out expired 1 Jan 2023), conceded they cannot search a client's own instance, but asked them to name the client, forward the request, or confirm a platform-side search found nothing.
+- Note (2026-09-03): Billtrust's rep (Humberto Vargas) responded well — explained the platform architecture (no standing cross-client query access), agreed to check Billtrust's own directly-held records, and asked the fair question: **what made you think Billtrust holds anything about you specifically?** Answered honestly: nothing did — this was a category-based letter prompted by Billtrust's CA data broker registration, not evidence of a real transaction. **Worth generalizing: when a company asks this, say so plainly if it's true.** Overclaiming a specific basis to sound more credible would have been a worse answer and harder to walk back.
 - Note: Published privacy@ address is an internal-only Microsoft 365 distribution group; rejected with 550 5.7.133 SenderNotAuthenticatedForGroup. Resent to privacyrequests@billtrust.com from their privacy policy (2026-08-17), quoting the rejection so they can fix the published address — delivered without bouncing. A follow-up run (2026-08-22) resent again to the same address without checking Sent history first; also delivered fine, but was a redundant duplicate. **privacyrequests@billtrust.com is the working address — check Sent history before resending.**
 
 ## Steps

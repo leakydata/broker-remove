@@ -10,7 +10,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-27)
+- Current: `submitted` (updated 2026-09-07)
+- Note (2026-09-06): Samba closed the OneTrust-derived ticket with "we do not collect a consumer's name, physical or email address, or telephone number... have not collected or processed any personal information related to the requester." **This is the exact trap the playbook already documents below**: a name/email nil from an ACR company answers nothing about device-keyed viewing data. Reopened the same ticket (they explicitly allow this) asking three narrower questions: do they hold ACR/device-graph data tied to the home address regardless of account; what would such a record even be keyed to if no account exists; which TV manufacturer/platform supplied it. Awaiting reply.
 - Note: 2026-08-26: emailed [named individual]@samba.tv (the CA registration contact). Named ACR data explicitly: viewing history, channel/programme tuning data, household device graphs, ad exposure/attribution events, and asked which TV manufacturer or platform supplied their data.
 - Note: 2026-08-26: Mr. Sekhon (Director of Data Governance) replied personally that this is his individual mailbox, not the privacy-rights address, named privacy@samba.tv as correct, and said he was transferring the request to their portal. Resent the same letter directly to privacy@samba.tv 2026-08-27 to have a written record at the correct address regardless of what the internal portal transfer does.
 

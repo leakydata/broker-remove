@@ -9,6 +9,7 @@
 
 - Current: `submitted` (updated 2026-08-22)
 - Note: dataremoval@listservicedirect.com bounced: 'The recipient's mailbox is full and can't accept messages now.' That is a soft bounce, not a dead address - the mailbox exists and someone stopped reading it. Rather than waiting for it to drain, resent 2026-08-22 to micah@listservicedirect.com (a named contact, not the generic removal box) with a list-rental-category letter (downstream purchaser deletion, permanent suppression). Delivered without bouncing.
+- **Note (2026-09-07):** a separate pass, not knowing the request was already delivered via micah@ on 08-22, re-tried dataremoval@ directly (cc'ing micah@ and info@) and got the identical "mailbox full" bounce again — still unread two weeks later. The cc'd addresses did NOT bounce, so the request landed regardless; this was a redundant re-send, not a new gap. No action needed — the registry's `email_to: micah@listservicedirect.com` is already correct. Lesson repeated from `anexinet.md`: check whether a row is already `submitted` before resending a bounce.
 
 ## Steps
 

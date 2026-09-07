@@ -7,7 +7,8 @@
 
 ## Status
 
-- Current: `submitted`
+- Current: `submitted` (updated 2026-09-07)
+- Note (2026-09-06): after the second, more careful pass found the live Slideshare account (see Gotchas), asked Scribd whether to delete it themselves or leave it for the requester. Replied asking them to delete it directly — no reason to make the requester find a login flow for an account they didn't know existed. Awaiting confirmation of deletion.
 
 ## Steps
 
