@@ -25267,9 +25267,21 @@ hard.
 
 THE OTHER THING THIS ROUTE IS, and it compounds:
 
-  - Infillion publishes NO privacy email address. Not on /contact, not on
-    /company, not on the privacy policy, not as a mailto anywhere on the site.
-    The webform is the only route in existence.
+  - Infillion publishes no privacy email address ON ITS WEBSITE. Not on
+    /contact, not on /company, not in the privacy policy, not as a mailto
+    anywhere. The webform is the only route a consumer arriving at the site
+    can find.
+
+    CORRECTED WITHIN THE HOUR: I first wrote that the webform was "the only
+    route in existence." It is not. The California data broker register lists
+    privacy@infillion.com against PaeDae, Inc. for 2024, 2025 and 2026, and
+    this project had already written to that address on 29 August. It did not
+    bounce. So the sentence should have been that their SITE offers no email
+    route, which is a smaller and true claim. The register is a source of
+    contact addresses that a site crawl will never find, and forgetting to
+    check it produced a confident statement that the project's own files
+    contradicted. Check the register before declaring a company unreachable
+    by mail.
   - The webform's URL contains /draft/ — privacyportal.onetrust.com/webform/
     <id>/draft/<id>. A OneTrust draft link is normally a preview of an
     unpublished form. This one renders and appears complete, so it is
