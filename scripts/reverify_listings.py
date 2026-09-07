@@ -45,9 +45,14 @@ SITES = {
     "truthfinder":       "https://www.truthfinder.com/results/?firstName={first}&lastName={last}&state={state}",
     "instantcheckmate":  "https://www.instantcheckmate.com/results?firstName={first}&lastName={last}&state={state}",
     "idstrong":          "https://www.idstrong.com/people/{first}-{last}/",
-    "search_quarry":     "https://www.searchquarry.com/name-search/?fn={first}&ln={last}",
-    "openpublicrecords": "https://open-public-records.com/name/{first}_{last}.html",
-    "governmentregistry_org": "https://governmentregistry.org/search/?fn={first}&ln={last}",
+    # URLs below were DISCOVERED from each site's own search form rather than
+    # guessed. The first five templates in this file were guesses and all five
+    # returned 404 -- see _SILENT_FAILURES 409.
+    "search_quarry":     "https://www.searchquarry.com/namesearch/search/?fname={first}&lname={last}&city={city}",
+    "governmentregistry_org": "https://governmentregistry.org/?firstName={first}&lastName={last}&town={city}",
+    # open-public-records.com is NOT searchable: both its "search" forms POST
+    # to /click-ad.php and /opr-bc-redirect.php -- affiliate redirects, not a
+    # query. Same shape as dobsearch (SF 390). Nothing to re-verify there.
 }
 
 # the subject appears
