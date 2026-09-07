@@ -26123,3 +26123,58 @@ joining on the wrong one is §393's error in a different table — the third tim
 that shape has appeared this week.
 
 Three closed. 150 remain, which is the honest number.
+
+## 408. Two scanners disagreed, and the newer one was wrong
+
+DOBSearch's recorded route, /people-finder/block-record-request.php, returns
+HTTP 200 by redirecting to a blog article titled "How To Find Information On
+Someone Online (7 Ways)". §354's route_check.py caught that correctly and
+called it REDIRECT-AWAY.
+
+scripts/route_has_form.py — written three days later, specifically to be a
+BETTER check — called it FORM.
+
+Because the article carries eight site-search boxes. The newer scanner asked
+"is there a form on the page" and never asked "is this still the page I asked
+for". A page that has stopped being about removal is not a route however many
+forms are on it.
+
+That is worth an entry on its own: WHEN TWO CHECKS DISAGREE, THE NEWER ONE IS
+NOT AUTOMATICALLY RIGHT. route_has_form was built to fix route_check's blind
+spot and inherited a worse one, and nothing would have surfaced it except
+reading a single row by hand.
+
+FIXED by carrying route_check's redirect logic into route_has_form: if the URL
+started on a removal-specific path and the final URL is not, that is
+REDIRECT-AWAY regardless of forms present.
+
+AND THEN THE FIX OVER-FIRED TWICE, IN TEN MINUTES, WHICH IS THE REST OF THE
+ENTRY.
+
+    First run: 14 redirect-aways. Eight were TruthFinder and Intelius URLs
+    redirecting /opt-out/v2/submit/ to app.truthfinder.com/privacy-center/ —
+    a route MOVING, not vanishing. The word list did not contain
+    "privacy-center".
+
+    Second run: 6. One was ussearch redirecting to
+    suppression.peopleconnect.us — where the meaning lives in the HOSTNAME and
+    the check only read the path.
+
+    Third run: 5. Those five are real.
+
+        anchor          /ccpa -> /Error?ref=NNNNN
+        dobsearch       -> a blog article
+        publicrecordsnow /optout/ -> the homepage
+        searchsystems   /opt-out.php -> /privacy  (a policy, not a route)
+        spydialer       /optout.aspx -> /consumers/
+
+Three passes to get from 14 to 5. The first number was the exciting one and it
+was 64% wrong. §389 said be most suspicious when a finding is large, clean and
+flattering to the effort that produced it; this is the fourth time this week
+that a detector I wrote reported more than was there, and the only reason the
+number is now 5 is that each version was checked against the actual URLs before
+being believed.
+
+THE RULE THIS LEAVES: a detector's first output is a draft. Read the rows it
+flags — all of them, if there are few enough — before recording the count
+anywhere. The count is the last thing to trust, not the first.

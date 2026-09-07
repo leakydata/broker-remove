@@ -35,6 +35,19 @@ from urllib.parse import urlparse
 UA = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/126.0 Safari/537.36")
 
+# a path segment that means "this page is about exercising a right"
+# A path segment that means "this page is about exercising a right".
+# FIRST VERSION OF THIS LIST OVER-FIRED: it omitted privacy-center and
+# privacy-choices, so eight redirects that land on a company's REAL privacy
+# centre were reported as redirect-aways. A redirect from /opt-out to
+# /privacy-center is a route moving, not a route vanishing. Fixed before the
+# number was believed -- see _SILENT_FAILURES 408.
+SPECIFIC = re.compile(r"opt[-_]?out|do[-_]?not[-_]?sell|remove|removal|suppress|delete|"
+                      r"dsar|data[-_]?request|ccpa|subject[-_]?request|erase|"
+                      r"block[-_]?record|privacy[-_ ]?(?:request|cent(?:er|re)|choices|"
+                      r"portal|rights)|your[-_]?privacy|consumer[-_]?(?:rights|choices)|"
+                      r"suppression[-_]?cent(?:er|re)", re.I)
+
 PORTAL_HOSTS = ("saymine.io", "onetrust.com", "osano.com", "trustarc.com",
                 "ketch.com", "securiti.ai", "transcend.io", "didomi.io",
                 "usercentrics.com", "relyance.ai", "datagrail.io",
@@ -87,6 +100,10 @@ def strip(html):
     return re.sub(r"\s+", " ", t).strip()
 
 
+def is_portal_host(host):
+    return any(p in host for p in PORTAL_HOSTS)
+
+
 def classify(bid, url):
     try:
         code, final, html = fetch(url)
@@ -98,13 +115,32 @@ def classify(bid, url):
     text = strip(html)
     host = urlparse(final).netloc.lower()
 
+    # REDIRECT-AWAY MUST BE CHECKED BEFORE LOOKING FOR A FORM. route_check.py
+    # already flagged dobsearch's /people-finder/block-record-request.php as
+    # redirecting to a blog article -- and THIS script called it "FORM",
+    # because the article carries eight site-search boxes. Two scanners, one
+    # right and one wrong, and the wrong one was the newer. A page that has
+    # stopped being about removal is not a route however many forms are on it.
+    # See _SILENT_FAILURES 408.
+    # match against host AND path: a redirect to suppression.peopleconnect.us
+    # keeps its meaning in the HOSTNAME, and a path-only check called that a
+    # redirect-away too. Second over-fire of the same detector in ten minutes.
+    def specific(u):
+        p = urlparse(u)
+        return bool(SPECIFIC.search(p.netloc + p.path))
+
+    started = specific(url)
+    ended = specific(final)
+    if started and not ended and not is_portal_host(host):
+        return (bid, url, "REDIRECT-AWAY", strip(html)[:110], final)
+
     # a real form with at least one text-ish input
     forms = re.findall(r"(?is)<form\b.*?</form>", html)
     real_form = any(re.search(r'<(input|textarea|select)\b', f, re.I) and
                     not re.search(r'action=["\'][^"\']*(search|login|signin)', f, re.I)
                     for f in forms)
 
-    delegated = any(p in host for p in PORTAL_HOSTS) or \
+    delegated = is_portal_host(host) or \
         any(p in html.lower() for p in PORTAL_HOSTS)
     privacy_mailto = bool(re.search(
         r'mailto:[^"\'>\s]*(privacy|dpo|ccpa|optout|opt-out|dsar|compliance)',
@@ -174,7 +210,8 @@ def main():
         for bid in ids:
             out.append((bid, url, verdict, detail, final))
 
-    order = ["PRODUCT-PAGE", "OFF-TOPIC", "JS-SHELL", "RATE-LIMITED",
+    order = ["PRODUCT-PAGE", "REDIRECT-AWAY", "OFF-TOPIC", "JS-SHELL",
+             "RATE-LIMITED",
              "WIDGET-LIKELY", "HTTP-403",
              "HTTP-404", "ERROR", "MAILTO", "DELEGATED", "FORM"]
     out.sort(key=lambda r: (order.index(r[2]) if r[2] in order else 99, r[0]))

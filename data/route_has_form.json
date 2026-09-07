@@ -1,5 +1,40 @@
 [
  {
+  "id": "anchor",
+  "url": "https://ecom2.anchorcomputer.com/ccpa",
+  "verdict": "REDIRECT-AWAY",
+  "detail": "Anchor Computer - Error We've experienced an unexpected error. Our technical team has been notified and will a",
+  "final": "https://ecom2.anchorcomputer.com/Error?ref=40105"
+ },
+ {
+  "id": "dobsearch_com",
+  "url": "https://www.dobsearch.com/people-finder/block-record-request.php",
+  "verdict": "REDIRECT-AWAY",
+  "detail": "How To Find Information On Someone Online (7 Ways) &#8211; DOBSearch.com Skip to content Menu Home People Sear",
+  "final": "https://www.dobsearch.com/how-to-find-information-someone-online/"
+ },
+ {
+  "id": "publicrecordsnow",
+  "url": "https://www.publicrecordsnow.com/optout/",
+  "verdict": "REDIRECT-AWAY",
+  "detail": "PublicRecordsNow - People Search, Background Checks & Public Records PublicRecordsNow Search Public Records Fe",
+  "final": "https://publicrecordsnow.com/"
+ },
+ {
+  "id": "searchsystems_public_records",
+  "url": "https://publicrecords.searchsystems.net/opt-out.php",
+  "verdict": "REDIRECT-AWAY",
+  "detail": "Privacy Policy \u2014 SearchSystems.net Skip to main content SearchSystems .net First Free Public Records Directory",
+  "final": "https://www.searchsystems.net/privacy"
+ },
+ {
+  "id": "spydialer",
+  "url": "https://www.spydialer.com/optout.aspx",
+  "verdict": "REDIRECT-AWAY",
+  "detail": "Remove My Info | Spy Dialer &nbsp; Tweet &nbsp;&nbsp; Toggle navigation Home How it Works Remove My Info Spy D",
+  "final": "https://www.spydialer.com/consumers/"
+ },
+ {
   "id": "bdo",
   "url": "https://www.bdo.com/consumer-request-form",
   "verdict": "OFF-TOPIC",
@@ -31,7 +66,7 @@
   "id": "l2_data",
   "url": "https://www.l2-data.com/optout1-667457/",
   "verdict": "OFF-TOPIC",
-  "detail": "[Z\ufffdSd`\ufffd8\u0000\u0000\ufffds\u000f\u0017Ee\ufffd\ufffd\ufffd\"z\ufffdj\ufffd\u0000\ufffdZ$d^\ufffd\ufffd\ufffd\u05df\u007f\ufffd\ufffdo\ufffd\ufffd\ufffd\ufffd\u0001\u00b4l\ufffd\ufffd\ufffd\ufffdx}~\ufffd\ufffd/\ufffd\ufffd\ufffd6?_;\ufffdU\u0002. $1\u0018\ufffd&\ufffd\ufffd\ufffdT\ufffdNu\ufffd)/7KF\ufffdV\u0005$\ufffd$ IU\u0005pe8\ufffd\ufffd\ufffdH\ufffd*T\ufffd+ \ufffd\ufffd",
+  "detail": "\ufffd\ufffd{\u0011\ufffd\ufffd \u038c$\ufffd\ufffd\u0007@#e\ufffd\ufffd\ufffd3p\\\ufffdu\ufffd\ufffd\ufffdK\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u000e~\ufffd\ufffdK\u0002I \u01b8In\ufffd4U\ufffdS\ufffdo\ufffd\ufffd\u0352\ufffd\ufffdU\u0001\ufffd' \u000fM\ufffd3\ufffd\ufffdNW \ufffd\ufffd\ufffd7|\ufffd$o&\ufffd\ufffdJ\ufffd\ufffd\u025ev\ufffdM4\ufffd\u0005\ufffd \ufffd\u0002\ufffd $[Cr\ufffd9\ufffdcH\ufffd\ufffd\ufffd\ufffd",
   "final": "https://l2-data.com/optout1-667457/"
  },
  {
@@ -47,13 +82,6 @@
   "verdict": "OFF-TOPIC",
   "detail": "&gt; MixRank Privacy Policy - MixRank Solutions B2B data enrichment Investment Intelligence Fraud Prevention &",
   "final": "https://mixrank.com/privacy-policy"
- },
- {
-  "id": "publicrecordsnow",
-  "url": "https://www.publicrecordsnow.com/optout/",
-  "verdict": "OFF-TOPIC",
-  "detail": "PublicRecordsNow - People Search, Background Checks & Public Records PublicRecordsNow Search Public Records Fe",
-  "final": "https://publicrecordsnow.com/"
  },
  {
   "id": "quantcast",
@@ -80,8 +108,15 @@
   "id": "whoxy",
   "url": "https://www.whoxy.com/contact.php",
   "verdict": "OFF-TOPIC",
-  "detail": "Contact Us Our database now contains whois records of 720 Million (720,403,902) domain names. Login / Password",
+  "detail": "Contact Us Our database now contains whois records of 720 Million (720,627,973) domain names. Login / Password",
   "final": "https://www.whoxy.com/contact.php"
+ },
+ {
+  "id": "acxiom",
+  "url": "https://isapps.acxiom.com/optout/optout.aspx",
+  "verdict": "JS-SHELL",
+  "detail": "",
+  "final": "https://isapps.acxiom.com/optout/optout.aspx"
  },
  {
   "id": "affinity_solutions",
@@ -103,13 +138,6 @@
   "verdict": "JS-SHELL",
   "detail": "React.js Boilerplate",
   "final": "https://choice.alphonso.tv/donotsell"
- },
- {
-  "id": "anchor",
-  "url": "https://ecom2.anchorcomputer.com/ccpa",
-  "verdict": "JS-SHELL",
-  "detail": "Anchor Computer - Error We've experienced an unexpected error. Our technical team has been notified and will a",
-  "final": "https://ecom2.anchorcomputer.com/Error?ref=92373"
  },
  {
   "id": "anteriad",
@@ -2625,13 +2653,6 @@
   "final": "https://www.achcoop.com/do-not-sell-my-personal-info"
  },
  {
-  "id": "acxiom",
-  "url": "https://isapps.acxiom.com/optout/optout.aspx",
-  "verdict": "FORM",
-  "detail": "",
-  "final": "https://isapps.acxiom.com/optout/optout.aspx"
- },
- {
   "id": "addresssearch_com",
   "url": "https://www.addresssearch.com/remove-info.php",
   "verdict": "FORM",
@@ -2917,13 +2938,6 @@
   "verdict": "FORM",
   "detail": "",
   "final": "https://www.dentistscalifornia.org/about"
- },
- {
-  "id": "dobsearch_com",
-  "url": "https://www.dobsearch.com/people-finder/block-record-request.php",
-  "verdict": "FORM",
-  "detail": "",
-  "final": "https://www.dobsearch.com/how-to-find-information-someone-online/"
  },
  {
   "id": "domainiq",
@@ -3318,13 +3332,6 @@
   "final": "https://www.searchpeoplefree.com/opt-out"
  },
  {
-  "id": "searchsystems_public_records",
-  "url": "https://publicrecords.searchsystems.net/opt-out.php",
-  "verdict": "FORM",
-  "detail": "",
-  "final": "https://www.searchsystems.net/privacy"
- },
- {
   "id": "searchusapeople",
   "url": "https://www.searchusapeople.com/data-removal-request/",
   "verdict": "FORM",
@@ -3372,13 +3379,6 @@
   "verdict": "FORM",
   "detail": "",
   "final": "https://www.spokeo.com/optout"
- },
- {
-  "id": "spydialer",
-  "url": "https://www.spydialer.com/optout.aspx",
-  "verdict": "FORM",
-  "detail": "",
-  "final": "https://www.spydialer.com/consumers/"
  },
  {
   "id": "staterecords_org",
