@@ -25805,3 +25805,52 @@ program, and it survives the loss of the mailbox it came from. A note that
 paraphrases is only as good as the person who wrote it, and it cannot be
 distinguished later from an assertion. Every entry from here on that records
 an outcome should carry at least one sentence in the company's words.
+
+## 402. The contact link that points at an unregistered domain
+
+Three companies in this project publish a mailto whose VISIBLE TEXT and HREF
+disagree. It is a hard defect to notice because the page looks right: the
+address on screen is correct, and only the link underneath is wrong. Anyone who
+reads the address and types it reaches the company. Anyone who clicks — which
+is most people — does not.
+
+Attribits is the worst case, and checking it turned a nuisance into something
+that should be fixed today. Their announcement bar renders:
+
+    <a href="mailto:info@attritbits.com"><em>info@attribits.com</em></a>
+
+t and b transposed in the href only. So the question is what sits behind the
+typo, and the answer is nothing:
+
+    attritbits.com — no A record, no MX, and WHOIS returns "No match for
+                     domain." IT IS NOT REGISTERED.
+
+Today that means mail sent through their published contact link fails. It also
+means THE DOMAIN IS AVAILABLE TO ANYONE, and whoever registered it would begin
+receiving correspondence intended for a California-registered data broker —
+which, given what that correspondence is, means consumer privacy requests
+carrying names, postal addresses and email addresses. People writing to have
+their data removed would be sending it to a stranger.
+
+Reported to them at both their displayed address and their register filing,
+with the two commands to verify it themselves rather than take my word, and
+with the fix stated: correct the href, and register the typo domain so it
+cannot be used later. Nothing was registered or attempted from this side and
+the letter says so.
+
+FOR CONTRAST, THE BENIGN CASE. Aviato has the same shape — policy displays
+contact@aviato.co, href points to contact@joinaviato.com — but joinaviato.com
+is registered to them, created 2021, and resolves to the same host as
+aviato.co. A text/href mismatch is not automatically an exposure. THE CHECK IS
+WHAT SEPARATES THEM, and it is two commands:
+
+    whois <domain>        does it exist, and who holds it
+    dig <domain> MX       can it receive mail
+
+WHY THIS BELONGS IN THIS FILE RATHER THAN A BUG TRACKER. Every other entry here
+is about a route that fails silently for the consumer. This one fails silently
+for the COMPANY as well — they cannot see the mail that never arrives, so a
+broken contact link looks exactly like nobody writing to them. And it is the
+first case where a consumer exercising a privacy right could have their data
+land somewhere neither party intended, by clicking the link the company itself
+published. Whenever a mailto is the route, check the href, not the text.
