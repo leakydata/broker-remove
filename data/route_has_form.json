@@ -1,0 +1,3516 @@
+[
+ {
+  "id": "bdo",
+  "url": "https://www.bdo.com/consumer-request-form",
+  "verdict": "OFF-TOPIC",
+  "detail": "BDO USA&#x27;s Privacy Policy | BDO Careers Locations Client Center person Login / Register Contact search men",
+  "final": "https://www.bdo.com/privacy-policy"
+ },
+ {
+  "id": "bright_data",
+  "url": "https://brightdata.com/privacy",
+  "verdict": "OFF-TOPIC",
+  "detail": "Privacy Policy - Bright Data Accessibility Menu skip to content en English Espa\u00f1ol Deutsch Fran\u00e7ais \u65e5\u672c\u8a9e Portug",
+  "final": "https://brightdata.com/privacy"
+ },
+ {
+  "id": "experian_marketing",
+  "url": "https://www.experian.com/privacy/",
+  "verdict": "OFF-TOPIC",
+  "detail": "Privacy Policy at Experian.com Skip to main navigation Consumer Small Business Business Share price at About E",
+  "final": "https://www.experian.com/privacy/"
+ },
+ {
+  "id": "familyrelatives",
+  "url": "https://familyrelatives.com",
+  "verdict": "OFF-TOPIC",
+  "detail": "Familyrelatives.com | Home Home Family Tree Community Announcements Home Page Browse Search Society Browse Sea",
+  "final": "https://familyrelatives.com"
+ },
+ {
+  "id": "l2_data",
+  "url": "https://www.l2-data.com/optout1-667457/",
+  "verdict": "OFF-TOPIC",
+  "detail": "[Z\ufffdSd`\ufffd8\u0000\u0000\ufffds\u000f\u0017Ee\ufffd\ufffd\ufffd\"z\ufffdj\ufffd\u0000\ufffdZ$d^\ufffd\ufffd\ufffd\u05df\u007f\ufffd\ufffdo\ufffd\ufffd\ufffd\ufffd\u0001\u00b4l\ufffd\ufffd\ufffd\ufffdx}~\ufffd\ufffd/\ufffd\ufffd\ufffd6?_;\ufffdU\u0002. $1\u0018\ufffd&\ufffd\ufffd\ufffdT\ufffdNu\ufffd)/7KF\ufffdV\u0005$\ufffd$ IU\u0005pe8\ufffd\ufffd\ufffdH\ufffd*T\ufffd+ \ufffd\ufffd",
+  "final": "https://l2-data.com/optout1-667457/"
+ },
+ {
+  "id": "lotame",
+  "url": "https://www.lotame.com/privacy/",
+  "verdict": "OFF-TOPIC",
+  "detail": "Privacy Center | Lotame Skip to content Win Q4 Before It Begins | Discover the Audiences Marketers Should Be T",
+  "final": "https://www.lotame.com/privacy/"
+ },
+ {
+  "id": "mixrank",
+  "url": "https://www.mixrank.com/privacy-policy",
+  "verdict": "OFF-TOPIC",
+  "detail": "&gt; MixRank Privacy Policy - MixRank Solutions B2B data enrichment Investment Intelligence Fraud Prevention &",
+  "final": "https://mixrank.com/privacy-policy"
+ },
+ {
+  "id": "publicrecordsnow",
+  "url": "https://www.publicrecordsnow.com/optout/",
+  "verdict": "OFF-TOPIC",
+  "detail": "PublicRecordsNow - People Search, Background Checks & Public Records PublicRecordsNow Search Public Records Fe",
+  "final": "https://publicrecordsnow.com/"
+ },
+ {
+  "id": "quantcast",
+  "url": "https://www.quantcast.com/privacy-choices/",
+  "verdict": "OFF-TOPIC",
+  "detail": "Your Privacy Choices Platform How it Works Overview AI Suite Q+ Advantage Audience Graph Channels CTV Audio Vi",
+  "final": "https://www.quantcast.com/privacy-choices/"
+ },
+ {
+  "id": "searchpublicrecords_com",
+  "url": "https://www.searchpublicrecords.com/help-center/privacy-requests",
+  "verdict": "OFF-TOPIC",
+  "detail": "Waiting Room powered by Cloudflare You are now in line. Thank you for your patience. We are experiencing a hig",
+  "final": "https://www.searchpublicrecords.com/help-center/privacy-requests"
+ },
+ {
+  "id": "truthviewer",
+  "url": "https://www.truthviewer.com/api/helper/optOutLight/search",
+  "verdict": "OFF-TOPIC",
+  "detail": "TruthViewer TruthViewer Alabama Alaska Arizona Arkansas California Colorado Connecticut Delaware District Of C",
+  "final": "https://www.truthviewer.com/api/helper/optOutLight/search"
+ },
+ {
+  "id": "whoxy",
+  "url": "https://www.whoxy.com/contact.php",
+  "verdict": "OFF-TOPIC",
+  "detail": "Contact Us Our database now contains whois records of 720 Million (720,403,902) domain names. Login / Password",
+  "final": "https://www.whoxy.com/contact.php"
+ },
+ {
+  "id": "affinity_solutions",
+  "url": "https://affinitysolutions-privacy.my.onetrust.com/webform/a564cfa1-53bf-4c10-bf95-cd907432d7e8/7e4e6bf3-6562-454e-8c73-6a7bd1f4b336",
+  "verdict": "JS-SHELL",
+  "detail": "Privacy Web Form",
+  "final": "https://affinitysolutions-privacy.my.onetrust.com/webform/a564cfa1-53bf-4c10-bf95-cd907432d7e8/7e4e6bf3-6562-454e-8c73-6a7bd1f4b336"
+ },
+ {
+  "id": "alliant",
+  "url": "https://privacyportal-cdn.onetrust.com/dsarwebform/591ac1c1-3a1e-496f-9e43-ff4afb5fef85/2b52262e-8ada-4725-b86e-e4b960336f96.html",
+  "verdict": "JS-SHELL",
+  "detail": "Privacy Web Form",
+  "final": "https://privacyportal-cdn.onetrust.com/dsarwebform/591ac1c1-3a1e-496f-9e43-ff4afb5fef85/2b52262e-8ada-4725-b86e-e4b960336f96.html"
+ },
+ {
+  "id": "alphonso",
+  "url": "https://choice.alphonso.tv/donotsell",
+  "verdict": "JS-SHELL",
+  "detail": "React.js Boilerplate",
+  "final": "https://choice.alphonso.tv/donotsell"
+ },
+ {
+  "id": "anchor",
+  "url": "https://ecom2.anchorcomputer.com/ccpa",
+  "verdict": "JS-SHELL",
+  "detail": "Anchor Computer - Error We've experienced an unexpected error. Our technical team has been notified and will a",
+  "final": "https://ecom2.anchorcomputer.com/Error?ref=92373"
+ },
+ {
+  "id": "anteriad",
+  "url": "https://info.anteriad.com/marketing-data-unsubscribe-page",
+  "verdict": "JS-SHELL",
+  "detail": "Unsubscribe Please enter your email address below to be unsubscribed from future campaigns. Our Results &nbsp;",
+  "final": "https://info.anteriad.com/unsubscribe"
+ },
+ {
+  "id": "appily",
+  "url": "https://privacyportal.onetrust.com/webform/2d4f8bee-b269-434d-a07f-3b94c6618cb4/795af979-a3a2-431b-9d7e-b777155c7a18",
+  "verdict": "JS-SHELL",
+  "detail": "Privacy Web Form",
+  "final": "https://privacyportal.onetrust.com/webform/2d4f8bee-b269-434d-a07f-3b94c6618cb4/795af979-a3a2-431b-9d7e-b777155c7a18"
+ },
+ {
+  "id": "babel_street",
+  "url": "https://privacyportal.onetrust.com/webform/43f52ed9-df36-44dc-94b6-ce2f8458ca29/2ddc0d62-7d6a-4de2-b5c4-9f9f68116970",
+  "verdict": "JS-SHELL",
+  "detail": "Privacy Web Form",
+  "final": "https://privacyportal.onetrust.com/webform/43f52ed9-df36-44dc-94b6-ce2f8458ca29/2ddc0d62-7d6a-4de2-b5c4-9f9f68116970"
+ },
+ {
+  "id": "background_hawk",
+  "url": "https://www.truthfinder.com/opt-out/v2/submit/",
+  "verdict": "JS-SHELL",
+  "detail": "TruthFinder",
+  "final": "https://app.truthfinder.com/privacy-center/"
+ },
+ {
+  "id": "belardi_wong",
+  "url": "https://privacyportal.onetrust.com/webform/3d2d5e0c-bd98-46b8-906c-ede68a6f6a80/400f54ed-fcbb-4749-ab5b-32f491c72390",
+  "verdict": "JS-SHELL",
+  "detail": "Privacy Web Form",
+  "final": "https://privacyportal.onetrust.com/webform/3d2d5e0c-bd98-46b8-906c-ede68a6f6a80/400f54ed-fcbb-4749-ab5b-32f491c72390"
+ },
+ {
+  "id": "choreograph",
+  "url": "https://amer-cpp.choreograph.com/manage-your-data/do-not-sell",
+  "verdict": "JS-SHELL",
+  "detail": "Loading...",
+  "final": "https://amer-cpp.choreograph.com/manage-your-data/do-not-sell"
+ },
+ {
+  "id": "claritas",
+  "url": "https://privacyportal.onetrust.com/webform/68582716-6ce4-4f6e-bf08-78371b5f3292/6c7dc52d-0e2b-481f-9256-0755179e3783.html",
+  "verdict": "JS-SHELL",
+  "detail": "Privacy Web Form",
+  "final": "https://privacyportal.onetrust.com/webform/68582716-6ce4-4f6e-bf08-78371b5f3292/6c7dc52d-0e2b-481f-9256-0755179e3783.html"
+ },
+ {
+  "id": "clearbit",
+  "url": "https://preferences.clearbit.com/",
+  "verdict": "JS-SHELL",
+  "detail": "Privacy Request Center | DataGrail",
+  "final": "https://preferences.clearbit.com/"
+ },
+ {
+  "id": "cognism",
+  "url": "https://www.cognism.com/data-opt-out",
+  "verdict": "JS-SHELL",
+  "detail": "Privacy Center",
+  "final": "https://cognism.privacy.saymine.io/cognism"
+ },
+ {
+  "id": "criminal_com",
+  "url": "https://www.truthfinder.com/opt-out/v2/submit/",
+  "verdict": "JS-SHELL",
+  "detail": "TruthFinder",
+  "final": "https://app.truthfinder.com/privacy-center/"
+ },
+ {
+  "id": "criminaldatacheck",
+  "url": "https://www.intelius.com/privacy-center",
+  "verdict": "JS-SHELL",
+  "detail": "Intelius",
+  "final": "https://app.intelius.com/privacy-center/"
+ },
+ {
+  "id": "criminalrecords_com",
+  "url": "https://www.intelius.com/privacy-center",
+  "verdict": "JS-SHELL",
+  "detail": "Intelius",
+  "final": "https://app.intelius.com/privacy-center/"
+ },
+ {
+  "id": "crunchbase",
+  "url": "https://preferences.crunchbase.com/form/opt_out",
+  "verdict": "JS-SHELL",
+  "detail": "Privacy Request Center | DataGrail",
+  "final": "https://preferences.crunchbase.com/form/opt_out"
+ },
+ {
+  "id": "deep_root",
+  "url": "https://privacy.deeprootanalytics.com/",
+  "verdict": "JS-SHELL",
+  "detail": "Deep Root Privacy Requests",
+  "final": "https://privacy.deeprootanalytics.com/"
+ },
+ {
+  "id": "digital_media_solutions",
+  "url": "https://dms-privacy.my.onetrust.com/webform/506f8b15-11ff-4f18-95fa-48ff903e623f/4268d0f0-bd98-4afb-b33a-a7a922ae182a",
+  "verdict": "JS-SHELL",
+  "detail": "Privacy Web Form",
+  "final": "https://dms-privacy.my.onetrust.com/webform/506f8b15-11ff-4f18-95fa-48ff903e623f/4268d0f0-bd98-4afb-b33a-a7a922ae182a"
+ },
+ {
+  "id": "dstillery",
+  "url": "https://privacyportal-eu.onetrust.com/webform/246426b7-49c6-4bf5-879b-d3fdd4cbc15d/35502283-7b19-4b67-b3e0-ede06d3820c5",
+  "verdict": "JS-SHELL",
+  "detail": "Privacy Web Form",
+  "final": "https://privacyportal-eu.onetrust.com/webform/246426b7-49c6-4bf5-879b-d3fdd4cbc15d/35502283-7b19-4b67-b3e0-ede06d3820c5"
+ },
+ {
+  "id": "dun_bradstreet",
+  "url": "https://submit-irm.trustarc.eu/services/validation/ba81b98f-997d-4216-b4cc-d64cf261b082",
+  "verdict": "JS-SHELL",
+  "detail": "Data Subject Request Form There was a problem loading this page It looks like your browser is blocking a requi",
+  "final": "https://submit-irm.trustarc.eu/services/validation/ba81b98f-997d-4216-b4cc-d64cf261b082"
+ },
+ {
+  "id": "eab",
+  "url": "https://privacyportal.onetrust.com/webform/2d4f8bee-b269-434d-a07f-3b94c6618cb4/795af979-a3a2-431b-9d7e-b777155c7a18",
+  "verdict": "JS-SHELL",
+  "detail": "Privacy Web Form",
+  "final": "https://privacyportal.onetrust.com/webform/2d4f8bee-b269-434d-a07f-3b94c6618cb4/795af979-a3a2-431b-9d7e-b777155c7a18"
+ },
+ {
+  "id": "easybackgroundchecks",
+  "url": "https://www.intelius.com/suppression-center/",
+  "verdict": "JS-SHELL",
+  "detail": "Intelius",
+  "final": "https://app.intelius.com/privacy-center/"
+ },
+ {
+  "id": "equifax",
+  "url": "https://myprivacy.equifax.com/opt-in-opt-out/personal-info",
+  "verdict": "JS-SHELL",
+  "detail": "myPrivacy -->",
+  "final": "https://myprivacy.equifax.com/opt-in-opt-out/personal-info"
+ },
+ {
+  "id": "experience",
+  "url": "https://app.sixfifty.com/request-easy/6385-4387/questions/5303735",
+  "verdict": "JS-SHELL",
+  "detail": "--> --> SixFifty",
+  "final": "https://app.sixfifty.com/request-easy/6385-4387/questions/5303735"
+ },
+ {
+  "id": "growing_libraries",
+  "url": "https://growinglibraries.com/do-not-sell",
+  "verdict": "JS-SHELL",
+  "detail": "Growing Libraries | Opt-Out \u00a9 2026 Growing Libraires. All Rights Reserved. Privacy Policy Do Not Sell or Share",
+  "final": "https://growinglibraries.com/do-not-sell"
+ },
+ {
+  "id": "heartbeat_ai",
+  "url": "https://heartbeat.ai/optout",
+  "verdict": "JS-SHELL",
+  "detail": "Checking for any bots \u2026",
+  "final": "https://heartbeat.ai/optout"
+ },
+ {
+  "id": "idcrawl",
+  "url": "https://www.idcrawl.com/remove-my-information",
+  "verdict": "JS-SHELL",
+  "detail": "",
+  "final": "https://www.idcrawl.com/remove-my-information"
+ },
+ {
+  "id": "instantcheckmate",
+  "url": "https://suppression.peopleconnect.us",
+  "verdict": "JS-SHELL",
+  "detail": "PeopleConnect - Suppression Center",
+  "final": "https://suppression.peopleconnect.us"
+ },
+ {
+  "id": "instantcheckspy",
+  "url": "https://www.truthfinder.com/privacy-center",
+  "verdict": "JS-SHELL",
+  "detail": "TruthFinder",
+  "final": "https://app.truthfinder.com/privacy-center/"
+ },
+ {
+  "id": "intelius",
+  "url": "https://suppression.peopleconnect.us",
+  "verdict": "JS-SHELL",
+  "detail": "PeopleConnect - Suppression Center",
+  "final": "https://suppression.peopleconnect.us"
+ },
+ {
+  "id": "j_d_power",
+  "url": "https://privacyportal.onetrust.com/webform/5e27ce89-3714-4976-8df7-1d1560e32aa1/d6419967-880f-480f-9935-960045988858",
+  "verdict": "JS-SHELL",
+  "detail": "Privacy Web Form",
+  "final": "https://privacyportal.onetrust.com/webform/5e27ce89-3714-4976-8df7-1d1560e32aa1/d6419967-880f-480f-9935-960045988858"
+ },
+ {
+  "id": "kaspr_io",
+  "url": "https://kaspr.privacy.saymine.io/kaspr",
+  "verdict": "JS-SHELL",
+  "detail": "Privacy Center",
+  "final": "https://kaspr.privacy.saymine.io/kaspr"
+ },
+ {
+  "id": "komodo_health",
+  "url": "https://komodohealth-privacy.my.onetrust.com/webform/5c3cf8b1-3cf1-422d-84d5-618844b7316f/267fe393-726e-4ba9-87ad-c470e0e554ae",
+  "verdict": "JS-SHELL",
+  "detail": "Privacy Web Form",
+  "final": "https://komodohealth-privacy.my.onetrust.com/webform/5c3cf8b1-3cf1-422d-84d5-618844b7316f/267fe393-726e-4ba9-87ad-c470e0e554ae"
+ },
+ {
+  "id": "leadpost",
+  "url": "https://client.leadpost.com/PrivacyRequest",
+  "verdict": "JS-SHELL",
+  "detail": "LeadPost - Opt Out &amp; Deletion Request LeadPost Opt Out & Deletion Request Which rights would you like to E",
+  "final": "https://app.leadpost.com/OptOut/PrivacyRequest"
+ },
+ {
+  "id": "lexisnexis",
+  "url": "https://optout.lexisnexis.com/",
+  "verdict": "JS-SHELL",
+  "detail": "LexisNexis Information Suppression Request",
+  "final": "https://optout.lexisnexis.com/"
+ },
+ {
+  "id": "lightbox_parent_l_p",
+  "url": "https://my.datasubject.com/16BXQXSvkBnuN4W2w/51306",
+  "verdict": "JS-SHELL",
+  "detail": "Data Access Request",
+  "final": "https://my.datasubject.com/16BXQXSvkBnuN4W2w/51306"
+ },
+ {
+  "id": "locatefamily",
+  "url": "https://locatefamily.com/remove.html",
+  "verdict": "JS-SHELL",
+  "detail": "",
+  "final": "https://locatefamily.com/remove.html"
+ },
+ {
+  "id": "malvern_media",
+  "url": "https://privacyportal.privacypillar.com/dsar/form?orgid=369c8ff9-8ffb-4308-8362-f01691e77db8&propid=64c8904f-8bac-4dd9-8e6c-d052be1918a2&formid=6e6ff4b8-2296-4589-ae7f-563fa743ec2d&status=publish",
+  "verdict": "JS-SHELL",
+  "detail": "Privacy Portal",
+  "final": "https://privacyportal.privacypillar.com/dsar/form?orgid=369c8ff9-8ffb-4308-8362-f01691e77db8&propid=64c8904f-8bac-4dd9-8e6c-d052be1918a2&formid=6e6ff4b8-2296-4589-ae7f-563fa743ec2d&status=publish"
+ },
+ {
+  "id": "media_resource",
+  "url": "https://www.mrginc.com/do-not-sell-my-personal-information",
+  "verdict": "JS-SHELL",
+  "detail": "Media Resource Group, Inc. tag. To begin the development, run `npm start` or `yarn start`. To create a product",
+  "final": "https://www.mrginc.com/do-not-sell-my-personal-information"
+ },
+ {
+  "id": "minerva_bi",
+  "url": "https://preferences.minerva.io",
+  "verdict": "JS-SHELL",
+  "detail": "Privacy Request Center | DataGrail",
+  "final": "https://preferences.minerva.io"
+ },
+ {
+  "id": "morningstar",
+  "url": "https://www.morningstar.com/company/privacy-policy/do-not-sell-or-share",
+  "verdict": "JS-SHELL",
+  "detail": "",
+  "final": "https://www.morningstar.com/company/privacy-policy/do-not-sell-or-share"
+ },
+ {
+  "id": "multimedia_lists",
+  "url": "https://privacyportal.privacypillar.com/dsar/form?orgid=3b24c635-e1a9-4e8c-8e61-9f5fa0024f9c&propid=d3da91fd-2750-4534-9436-f29b3e513fe5&formid=4106bc86-1ddf-461b-b7f6-a5f53b0977b3&status=publish",
+  "verdict": "JS-SHELL",
+  "detail": "Privacy Portal",
+  "final": "https://privacyportal.privacypillar.com/dsar/form?orgid=3b24c635-e1a9-4e8c-8e61-9f5fa0024f9c&propid=d3da91fd-2750-4534-9436-f29b3e513fe5&formid=4106bc86-1ddf-461b-b7f6-a5f53b0977b3&status=publish"
+ },
+ {
+  "id": "nextroll",
+  "url": "https://app.adroll.com/optout",
+  "verdict": "JS-SHELL",
+  "detail": "",
+  "final": "https://app.adroll.com/optout"
+ },
+ {
+  "id": "none",
+  "url": "https://privacyportal.onetrust.com/webform/e2abd578-6539-47f6-9895-b18d23b76ac4/c3d22390-d038-4464-83d3-3f0c91c76a01",
+  "verdict": "JS-SHELL",
+  "detail": "Privacy Web Form",
+  "final": "https://privacyportal.onetrust.com/webform/e2abd578-6539-47f6-9895-b18d23b76ac4/c3d22390-d038-4464-83d3-3f0c91c76a01"
+ },
+ {
+  "id": "northcarolinapublicrecords_org",
+  "url": "https://www.truthfinder.com/opt-out/v2/submit/",
+  "verdict": "JS-SHELL",
+  "detail": "TruthFinder",
+  "final": "https://app.truthfinder.com/privacy-center/"
+ },
+ {
+  "id": "openx_technologies",
+  "url": "https://app.sixfifty.com/request-easy/611c-1551/questions/5310164",
+  "verdict": "JS-SHELL",
+  "detail": "--> --> SixFifty",
+  "final": "https://app.sixfifty.com/request-easy/611c-1551/questions/5310164"
+ },
+ {
+  "id": "outreach_io",
+  "url": "https://preferences.outreach.io/form/opt_out?locationCode=US",
+  "verdict": "JS-SHELL",
+  "detail": "Privacy Request Center | DataGrail",
+  "final": "https://preferences.outreach.io/form/opt_out?locationCode=US"
+ },
+ {
+  "id": "owneriq",
+  "url": "https://privacyportal.onetrust.com/webform/fa9f2f77-33ff-473b-ae55-579e2e693a91/b9c860bc-cc13-4db1-b995-395c9fcbe3c7",
+  "verdict": "JS-SHELL",
+  "detail": "Privacy Web Form",
+  "final": "https://privacyportal.onetrust.com/webform/fa9f2f77-33ff-473b-ae55-579e2e693a91/b9c860bc-cc13-4db1-b995-395c9fcbe3c7"
+ },
+ {
+  "id": "paramount_direct_marketing",
+  "url": "https://www.paramountdirectmarketing.com/do-not-sell-non-ca",
+  "verdict": "JS-SHELL",
+  "detail": "Paramount Direct Marketing",
+  "final": "https://www.paramountdirectmarketing.com/do-not-sell-non-ca"
+ },
+ {
+  "id": "path2response",
+  "url": "https://privacyportal-cdn.onetrust.com/dsarwebform/2de26f06-de6f-45a7-8e1d-7d1148a3f301/draft/7a5dc7d1-cc7e-43a8-9f24-702807deb65b.html",
+  "verdict": "JS-SHELL",
+  "detail": "Privacy Web Form",
+  "final": "https://privacyportal-cdn.onetrust.com/dsarwebform/2de26f06-de6f-45a7-8e1d-7d1148a3f301/draft/7a5dc7d1-cc7e-43a8-9f24-702807deb65b.html"
+ },
+ {
+  "id": "peoplefind_com",
+  "url": "https://www.intelius.com/privacy-center",
+  "verdict": "JS-SHELL",
+  "detail": "Intelius",
+  "final": "https://app.intelius.com/privacy-center/"
+ },
+ {
+  "id": "peoplefinder",
+  "url": "https://suppression.peopleconnect.us/login",
+  "verdict": "JS-SHELL",
+  "detail": "PeopleConnect - Suppression Center",
+  "final": "https://suppression.peopleconnect.us/login"
+ },
+ {
+  "id": "peoplewhizr_com",
+  "url": "https://www.peoplewhizr.com/remove-my-info",
+  "verdict": "JS-SHELL",
+  "detail": "Remove My Info - PeopleWhiz",
+  "final": "https://www.peoplewhizr.com/remove-my-info"
+ },
+ {
+  "id": "personsearchers",
+  "url": "https://personsearchers.com/optout",
+  "verdict": "JS-SHELL",
+  "detail": "",
+  "final": "https://www.personsearchers.com/optout"
+ },
+ {
+  "id": "plaid",
+  "url": "https://my.plaid.com/data-subject-request-form",
+  "verdict": "JS-SHELL",
+  "detail": "The convenient way to manage your financial data | Plaid",
+  "final": "https://my.plaid.com/data-subject-request-form"
+ },
+ {
+  "id": "precisely",
+  "url": "https://privacyportal-eu.onetrust.com/webform/d88b298e-1f7e-420f-949c-fedc475c1e77/afa5d3a0-dd94-44d6-9176-3d2000f91b6a",
+  "verdict": "JS-SHELL",
+  "detail": "Privacy Web Form",
+  "final": "https://privacyportal-eu.onetrust.com/webform/d88b298e-1f7e-420f-949c-fedc475c1e77/afa5d3a0-dd94-44d6-9176-3d2000f91b6a"
+ },
+ {
+  "id": "precisely_software_placeiq",
+  "url": "https://privacyportal-eu.onetrust.com/webform/d88b298e-1f7e-420f-949c-fedc475c1e77/83126462-6c9f-4d90-9077-f029b129a2a6",
+  "verdict": "JS-SHELL",
+  "detail": "Privacy Web Form",
+  "final": "https://privacyportal-eu.onetrust.com/webform/d88b298e-1f7e-420f-949c-fedc475c1e77/83126462-6c9f-4d90-9077-f029b129a2a6"
+ },
+ {
+  "id": "public_libraries",
+  "url": "https://www.truthfinder.com/opt-out/v2/submit/",
+  "verdict": "JS-SHELL",
+  "detail": "TruthFinder",
+  "final": "https://app.truthfinder.com/privacy-center/"
+ },
+ {
+  "id": "publicrecords_com",
+  "url": "https://suppression.peopleconnect.us/login",
+  "verdict": "JS-SHELL",
+  "detail": "PeopleConnect - Suppression Center",
+  "final": "https://suppression.peopleconnect.us/login"
+ },
+ {
+  "id": "qualfon",
+  "url": "https://ccpa.qualfon.com/deletionrequest",
+  "verdict": "JS-SHELL",
+  "detail": "ApplicationCcpa",
+  "final": "https://ccpa.qualfon.com/deletionrequest"
+ },
+ {
+  "id": "rampedup",
+  "url": "https://basic.rampedup.io/app/donotsell",
+  "verdict": "JS-SHELL",
+  "detail": "RampedUp.io",
+  "final": "https://basic.rampedup.io/app/donotsell"
+ },
+ {
+  "id": "reallygreatrate",
+  "url": "https://privacyportal-eu-cdn.onetrust.com/dsarwebform/942fbf02-bbfe-4a5d-808d-080b06c5651c/3fdf8f1d-7ab3-4a99-bb4e-24965500290d.html",
+  "verdict": "JS-SHELL",
+  "detail": "Privacy Web Form",
+  "final": "https://privacyportal-eu-cdn.onetrust.com/dsarwebform/942fbf02-bbfe-4a5d-808d-080b06c5651c/3fdf8f1d-7ab3-4a99-bb4e-24965500290d.html"
+ },
+ {
+  "id": "recordspage",
+  "url": "https://www.truthfinder.com/opt-out/v2/submit/",
+  "verdict": "JS-SHELL",
+  "detail": "TruthFinder",
+  "final": "https://app.truthfinder.com/privacy-center/"
+ },
+ {
+  "id": "recordsquarry",
+  "url": "https://www.truthfinder.com/opt-out/v2/submit/",
+  "verdict": "JS-SHELL",
+  "detail": "TruthFinder",
+  "final": "https://app.truthfinder.com/privacy-center/"
+ },
+ {
+  "id": "reveal_phone_owner",
+  "url": "https://www.revealphoneowner.com/data-removal/",
+  "verdict": "JS-SHELL",
+  "detail": "Fatal error : Uncaught Error: Call to undefined method MDB2_Error::numRows() in /www/wwwroot/revealphoneowner.",
+  "final": "https://www.revealphoneowner.com/data-removal/"
+ },
+ {
+  "id": "reversephonelookup",
+  "url": "https://www.intelius.com/privacy-center",
+  "verdict": "JS-SHELL",
+  "detail": "Intelius",
+  "final": "https://app.intelius.com/privacy-center/"
+ },
+ {
+  "id": "sheriffsdepartment_net",
+  "url": "https://www.truthfinder.com/opt-out/v2/submit/",
+  "verdict": "JS-SHELL",
+  "detail": "TruthFinder",
+  "final": "https://app.truthfinder.com/privacy-center/"
+ },
+ {
+  "id": "snoopstation",
+  "url": "https://www.intelius.com/privacy-center",
+  "verdict": "JS-SHELL",
+  "detail": "Intelius",
+  "final": "https://app.intelius.com/privacy-center/"
+ },
+ {
+  "id": "southcarolinapublicrecords_com",
+  "url": "https://www.truthfinder.com/opt-out/v2/submit/",
+  "verdict": "JS-SHELL",
+  "detail": "TruthFinder",
+  "final": "https://app.truthfinder.com/privacy-center/"
+ },
+ {
+  "id": "speedeon_data",
+  "url": "https://optout.speedeondata.com/",
+  "verdict": "JS-SHELL",
+  "detail": "Speedeon Data Opt Out",
+  "final": "https://optout.speedeondata.com/"
+ },
+ {
+  "id": "stirista",
+  "url": "https://unsubscribe.stirista.com/",
+  "verdict": "JS-SHELL",
+  "detail": "Stirista Unsubscribe Loading...",
+  "final": "https://unsubscribe.stirista.com/"
+ },
+ {
+  "id": "terminus",
+  "url": "https://home.terminusplatform.com/data-deletion-request",
+  "verdict": "JS-SHELL",
+  "detail": "DemandScience Loading...",
+  "final": "https://app.demandscienceplatform.com/data-deletion-request"
+ },
+ {
+  "id": "trestle",
+  "url": "https://portal.trestleiq.com/do-not-sell",
+  "verdict": "JS-SHELL",
+  "detail": "Trestle Developer Portal",
+  "final": "https://portal.trestleiq.com/do-not-sell"
+ },
+ {
+  "id": "truthfinder",
+  "url": "https://suppression.peopleconnect.us",
+  "verdict": "JS-SHELL",
+  "detail": "PeopleConnect - Suppression Center",
+  "final": "https://suppression.peopleconnect.us"
+ },
+ {
+  "id": "tunnl",
+  "url": "https://privacy.tunnldata.com/",
+  "verdict": "JS-SHELL",
+  "detail": "Tunnl Privacy Requests",
+  "final": "https://privacy.tunnldata.com/"
+ },
+ {
+  "id": "ussearch",
+  "url": "https://www.ussearch.com/opt-out/",
+  "verdict": "JS-SHELL",
+  "detail": "PeopleConnect - Suppression Center",
+  "final": "https://suppression.peopleconnect.us/"
+ },
+ {
+  "id": "west_publishing_corp",
+  "url": "https://privacyportal.onetrust.com/webform/dbf5ae8a-0a6a-4f4b-b527-7f94d0de6bbc/23dce484-737f-4d47-a389-2e990f683e8c",
+  "verdict": "JS-SHELL",
+  "detail": "Privacy Web Form",
+  "final": "https://privacyportal.onetrust.com/webform/dbf5ae8a-0a6a-4f4b-b527-7f94d0de6bbc/23dce484-737f-4d47-a389-2e990f683e8c"
+ },
+ {
+  "id": "affordable_background_checks",
+  "url": "https://infotracer.com/optout/",
+  "verdict": "RATE-LIMITED",
+  "detail": "Sorry this page was requested too many times. If you feel this is an error, please go back and reach out to su",
+  "final": "https://infotracer.com/optout/"
+ },
+ {
+  "id": "alabama_arrests",
+  "url": "https://infotracer.com/optout/",
+  "verdict": "RATE-LIMITED",
+  "detail": "Sorry this page was requested too many times. If you feel this is an error, please go back and reach out to su",
+  "final": "https://infotracer.com/optout/"
+ },
+ {
+  "id": "alaska_arrests",
+  "url": "https://infotracer.com/optout/",
+  "verdict": "RATE-LIMITED",
+  "detail": "Sorry this page was requested too many times. If you feel this is an error, please go back and reach out to su",
+  "final": "https://infotracer.com/optout/"
+ },
+ {
+  "id": "arizona_arrests",
+  "url": "https://infotracer.com/optout/",
+  "verdict": "RATE-LIMITED",
+  "detail": "Sorry this page was requested too many times. If you feel this is an error, please go back and reach out to su",
+  "final": "https://infotracer.com/optout/"
+ },
+ {
+  "id": "arkansas_arrests",
+  "url": "https://infotracer.com/optout/",
+  "verdict": "RATE-LIMITED",
+  "detail": "Sorry this page was requested too many times. If you feel this is an error, please go back and reach out to su",
+  "final": "https://infotracer.com/optout/"
+ },
+ {
+  "id": "colorado_arrests",
+  "url": "https://infotracer.com/optout/",
+  "verdict": "RATE-LIMITED",
+  "detail": "Sorry this page was requested too many times. If you feel this is an error, please go back and reach out to su",
+  "final": "https://infotracer.com/optout/"
+ },
+ {
+  "id": "connecticut_arrests",
+  "url": "https://infotracer.com/optout/",
+  "verdict": "RATE-LIMITED",
+  "detail": "Sorry this page was requested too many times. If you feel this is an error, please go back and reach out to su",
+  "final": "https://infotracer.com/optout/"
+ },
+ {
+  "id": "coresignal",
+  "url": "https://coresignal.com/privacy-rights/",
+  "verdict": "RATE-LIMITED",
+  "detail": "Notice of the Right to Opt-Out | Coresignal New integrations: Our data is now available via Zapier and Clay Re",
+  "final": "https://coresignal.com/privacy-rights/"
+ },
+ {
+  "id": "delaware_arrests",
+  "url": "https://infotracer.com/optout/",
+  "verdict": "RATE-LIMITED",
+  "detail": "Sorry this page was requested too many times. If you feel this is an error, please go back and reach out to su",
+  "final": "https://infotracer.com/optout/"
+ },
+ {
+  "id": "florida_arrests",
+  "url": "https://infotracer.com/optout/",
+  "verdict": "RATE-LIMITED",
+  "detail": "Sorry this page was requested too many times. If you feel this is an error, please go back and reach out to su",
+  "final": "https://infotracer.com/optout/"
+ },
+ {
+  "id": "georgia_arrests",
+  "url": "https://infotracer.com/optout/",
+  "verdict": "RATE-LIMITED",
+  "detail": "Sorry this page was requested too many times. If you feel this is an error, please go back and reach out to su",
+  "final": "https://infotracer.com/optout/"
+ },
+ {
+  "id": "govwarrantsearch_org",
+  "url": "https://infotracer.com/optout/",
+  "verdict": "RATE-LIMITED",
+  "detail": "Sorry this page was requested too many times. If you feel this is an error, please go back and reach out to su",
+  "final": "https://infotracer.com/optout/"
+ },
+ {
+  "id": "hawaii_arrests",
+  "url": "https://infotracer.com/optout/",
+  "verdict": "RATE-LIMITED",
+  "detail": "Sorry this page was requested too many times. If you feel this is an error, please go back and reach out to su",
+  "final": "https://infotracer.com/optout/"
+ },
+ {
+  "id": "idaho_arrests",
+  "url": "https://infotracer.com/optout/",
+  "verdict": "RATE-LIMITED",
+  "detail": "Sorry this page was requested too many times. If you feel this is an error, please go back and reach out to su",
+  "final": "https://infotracer.com/optout/"
+ },
+ {
+  "id": "illinois_arrests",
+  "url": "https://infotracer.com/optout/",
+  "verdict": "RATE-LIMITED",
+  "detail": "Sorry this page was requested too many times. If you feel this is an error, please go back and reach out to su",
+  "final": "https://infotracer.com/optout/"
+ },
+ {
+  "id": "indiana_arrests",
+  "url": "https://infotracer.com/optout/",
+  "verdict": "RATE-LIMITED",
+  "detail": "Sorry this page was requested too many times. If you feel this is an error, please go back and reach out to su",
+  "final": "https://infotracer.com/optout/"
+ },
+ {
+  "id": "infotracer",
+  "url": "https://infotracer.com/optout/",
+  "verdict": "RATE-LIMITED",
+  "detail": "Sorry this page was requested too many times. If you feel this is an error, please go back and reach out to su",
+  "final": "https://infotracer.com/optout/"
+ },
+ {
+  "id": "iowa_arrests",
+  "url": "https://infotracer.com/optout/",
+  "verdict": "RATE-LIMITED",
+  "detail": "Sorry this page was requested too many times. If you feel this is an error, please go back and reach out to su",
+  "final": "https://infotracer.com/optout/"
+ },
+ {
+  "id": "kansas_arrests",
+  "url": "https://infotracer.com/optout/",
+  "verdict": "RATE-LIMITED",
+  "detail": "Sorry this page was requested too many times. If you feel this is an error, please go back and reach out to su",
+  "final": "https://infotracer.com/optout/"
+ },
+ {
+  "id": "kentucky_arrests",
+  "url": "https://infotracer.com/optout/",
+  "verdict": "RATE-LIMITED",
+  "detail": "Sorry this page was requested too many times. If you feel this is an error, please go back and reach out to su",
+  "final": "https://infotracer.com/optout/"
+ },
+ {
+  "id": "louisiana_arrests",
+  "url": "https://infotracer.com/optout/",
+  "verdict": "RATE-LIMITED",
+  "detail": "Sorry this page was requested too many times. If you feel this is an error, please go back and reach out to su",
+  "final": "https://infotracer.com/optout/"
+ },
+ {
+  "id": "maine_arrests",
+  "url": "https://infotracer.com/optout/",
+  "verdict": "RATE-LIMITED",
+  "detail": "Sorry this page was requested too many times. If you feel this is an error, please go back and reach out to su",
+  "final": "https://infotracer.com/optout/"
+ },
+ {
+  "id": "maryland_arrests",
+  "url": "https://infotracer.com/optout/",
+  "verdict": "RATE-LIMITED",
+  "detail": "Sorry this page was requested too many times. If you feel this is an error, please go back and reach out to su",
+  "final": "https://infotracer.com/optout/"
+ },
+ {
+  "id": "massachusetts_arrests",
+  "url": "https://infotracer.com/optout/",
+  "verdict": "RATE-LIMITED",
+  "detail": "Sorry this page was requested too many times. If you feel this is an error, please go back and reach out to su",
+  "final": "https://infotracer.com/optout/"
+ },
+ {
+  "id": "michigan_arrests",
+  "url": "https://infotracer.com/optout/",
+  "verdict": "RATE-LIMITED",
+  "detail": "Sorry this page was requested too many times. If you feel this is an error, please go back and reach out to su",
+  "final": "https://infotracer.com/optout/"
+ },
+ {
+  "id": "minnesota_arrests",
+  "url": "https://infotracer.com/optout/",
+  "verdict": "RATE-LIMITED",
+  "detail": "Sorry this page was requested too many times. If you feel this is an error, please go back and reach out to su",
+  "final": "https://infotracer.com/optout/"
+ },
+ {
+  "id": "mississippi_arrests",
+  "url": "https://infotracer.com/optout/",
+  "verdict": "RATE-LIMITED",
+  "detail": "Sorry this page was requested too many times. If you feel this is an error, please go back and reach out to su",
+  "final": "https://infotracer.com/optout/"
+ },
+ {
+  "id": "missouri_arrests",
+  "url": "https://infotracer.com/optout/",
+  "verdict": "RATE-LIMITED",
+  "detail": "Sorry this page was requested too many times. If you feel this is an error, please go back and reach out to su",
+  "final": "https://infotracer.com/optout/"
+ },
+ {
+  "id": "montana_arrests",
+  "url": "https://infotracer.com/optout/",
+  "verdict": "RATE-LIMITED",
+  "detail": "Sorry this page was requested too many times. If you feel this is an error, please go back and reach out to su",
+  "final": "https://infotracer.com/optout/"
+ },
+ {
+  "id": "nebraska_arrests",
+  "url": "https://infotracer.com/optout/",
+  "verdict": "RATE-LIMITED",
+  "detail": "Sorry this page was requested too many times. If you feel this is an error, please go back and reach out to su",
+  "final": "https://infotracer.com/optout/"
+ },
+ {
+  "id": "new_hampshire_arrests",
+  "url": "https://infotracer.com/optout/",
+  "verdict": "RATE-LIMITED",
+  "detail": "Sorry this page was requested too many times. If you feel this is an error, please go back and reach out to su",
+  "final": "https://infotracer.com/optout/"
+ },
+ {
+  "id": "new_jersey_arrests",
+  "url": "https://infotracer.com/optout/",
+  "verdict": "RATE-LIMITED",
+  "detail": "Sorry this page was requested too many times. If you feel this is an error, please go back and reach out to su",
+  "final": "https://infotracer.com/optout/"
+ },
+ {
+  "id": "new_mexico_arrests",
+  "url": "https://infotracer.com/optout/",
+  "verdict": "RATE-LIMITED",
+  "detail": "Sorry this page was requested too many times. If you feel this is an error, please go back and reach out to su",
+  "final": "https://infotracer.com/optout/"
+ },
+ {
+  "id": "new_york_arrests",
+  "url": "https://infotracer.com/optout/",
+  "verdict": "RATE-LIMITED",
+  "detail": "Sorry this page was requested too many times. If you feel this is an error, please go back and reach out to su",
+  "final": "https://infotracer.com/optout/"
+ },
+ {
+  "id": "north_carolina_arrests",
+  "url": "https://infotracer.com/optout/",
+  "verdict": "RATE-LIMITED",
+  "detail": "Sorry this page was requested too many times. If you feel this is an error, please go back and reach out to su",
+  "final": "https://infotracer.com/optout/"
+ },
+ {
+  "id": "north_dakota_arrests",
+  "url": "https://infotracer.com/optout/",
+  "verdict": "RATE-LIMITED",
+  "detail": "Sorry this page was requested too many times. If you feel this is an error, please go back and reach out to su",
+  "final": "https://infotracer.com/optout/"
+ },
+ {
+  "id": "ohio_arrests",
+  "url": "https://infotracer.com/optout/",
+  "verdict": "RATE-LIMITED",
+  "detail": "Sorry this page was requested too many times. If you feel this is an error, please go back and reach out to su",
+  "final": "https://infotracer.com/optout/"
+ },
+ {
+  "id": "oklahoma_arrests",
+  "url": "https://infotracer.com/optout/",
+  "verdict": "RATE-LIMITED",
+  "detail": "Sorry this page was requested too many times. If you feel this is an error, please go back and reach out to su",
+  "final": "https://infotracer.com/optout/"
+ },
+ {
+  "id": "oregon_arrests",
+  "url": "https://infotracer.com/optout/",
+  "verdict": "RATE-LIMITED",
+  "detail": "Sorry this page was requested too many times. If you feel this is an error, please go back and reach out to su",
+  "final": "https://infotracer.com/optout/"
+ },
+ {
+  "id": "pennsylvania_arrests",
+  "url": "https://infotracer.com/optout/",
+  "verdict": "RATE-LIMITED",
+  "detail": "Sorry this page was requested too many times. If you feel this is an error, please go back and reach out to su",
+  "final": "https://infotracer.com/optout/"
+ },
+ {
+  "id": "rhode_island_arrests",
+  "url": "https://infotracer.com/optout/",
+  "verdict": "RATE-LIMITED",
+  "detail": "Sorry this page was requested too many times. If you feel this is an error, please go back and reach out to su",
+  "final": "https://infotracer.com/optout/"
+ },
+ {
+  "id": "south_carolina_arrests",
+  "url": "https://infotracer.com/optout/",
+  "verdict": "RATE-LIMITED",
+  "detail": "Sorry this page was requested too many times. If you feel this is an error, please go back and reach out to su",
+  "final": "https://infotracer.com/optout/"
+ },
+ {
+  "id": "south_dakota_arrests",
+  "url": "https://infotracer.com/optout/",
+  "verdict": "RATE-LIMITED",
+  "detail": "Sorry this page was requested too many times. If you feel this is an error, please go back and reach out to su",
+  "final": "https://infotracer.com/optout/"
+ },
+ {
+  "id": "tennessee_arrests",
+  "url": "https://infotracer.com/optout/",
+  "verdict": "RATE-LIMITED",
+  "detail": "Sorry this page was requested too many times. If you feel this is an error, please go back and reach out to su",
+  "final": "https://infotracer.com/optout/"
+ },
+ {
+  "id": "texas_arrests",
+  "url": "https://infotracer.com/optout",
+  "verdict": "RATE-LIMITED",
+  "detail": "Sorry this page was requested too many times. If you feel this is an error, please go back and reach out to su",
+  "final": "https://infotracer.com/optout/"
+ },
+ {
+  "id": "usrecords",
+  "url": "https://infotracer.com/optout",
+  "verdict": "RATE-LIMITED",
+  "detail": "Sorry this page was requested too many times. If you feel this is an error, please go back and reach out to su",
+  "final": "https://infotracer.com/optout/"
+ },
+ {
+  "id": "uswarrants",
+  "url": "https://infotracer.com/optout",
+  "verdict": "RATE-LIMITED",
+  "detail": "Sorry this page was requested too many times. If you feel this is an error, please go back and reach out to su",
+  "final": "https://infotracer.com/optout/"
+ },
+ {
+  "id": "utah_arrests",
+  "url": "https://infotracer.com/optout/",
+  "verdict": "RATE-LIMITED",
+  "detail": "Sorry this page was requested too many times. If you feel this is an error, please go back and reach out to su",
+  "final": "https://infotracer.com/optout/"
+ },
+ {
+  "id": "virginia_arrests",
+  "url": "https://infotracer.com/optout/",
+  "verdict": "RATE-LIMITED",
+  "detail": "Sorry this page was requested too many times. If you feel this is an error, please go back and reach out to su",
+  "final": "https://infotracer.com/optout/"
+ },
+ {
+  "id": "washington_arrests",
+  "url": "https://infotracer.com/optout/",
+  "verdict": "RATE-LIMITED",
+  "detail": "Sorry this page was requested too many times. If you feel this is an error, please go back and reach out to su",
+  "final": "https://infotracer.com/optout/"
+ },
+ {
+  "id": "washington_dc_arrests",
+  "url": "https://infotracer.com/optout/",
+  "verdict": "RATE-LIMITED",
+  "detail": "Sorry this page was requested too many times. If you feel this is an error, please go back and reach out to su",
+  "final": "https://infotracer.com/optout/"
+ },
+ {
+  "id": "west_virginia_arrests",
+  "url": "https://infotracer.com/optout/",
+  "verdict": "RATE-LIMITED",
+  "detail": "Sorry this page was requested too many times. If you feel this is an error, please go back and reach out to su",
+  "final": "https://infotracer.com/optout/"
+ },
+ {
+  "id": "wisconsin_arrests",
+  "url": "https://infotracer.com/optout/",
+  "verdict": "RATE-LIMITED",
+  "detail": "Sorry this page was requested too many times. If you feel this is an error, please go back and reach out to su",
+  "final": "https://infotracer.com/optout/"
+ },
+ {
+  "id": "wyoming_arrests",
+  "url": "https://infotracer.com/optout/",
+  "verdict": "RATE-LIMITED",
+  "detail": "Sorry this page was requested too many times. If you feel this is an error, please go back and reach out to su",
+  "final": "https://infotracer.com/optout/"
+ },
+ {
+  "id": "33across",
+  "url": "https://udp.33across.com/udp_opt_out",
+  "verdict": "WIDGET-LIKELY",
+  "detail": "",
+  "final": "https://udp.33across.com/udp_opt_out"
+ },
+ {
+  "id": "411_com",
+  "url": "https://www.whitepages.com/suppression-requests",
+  "verdict": "WIDGET-LIKELY",
+  "detail": "",
+  "final": "https://www.whitepages.com/suppression-requests"
+ },
+ {
+  "id": "aidentified",
+  "url": "https://www.aidentified.com/delete-my-data",
+  "verdict": "WIDGET-LIKELY",
+  "detail": "",
+  "final": "https://www.aidentified.com/delete-my-data"
+ },
+ {
+  "id": "backgroundcheckers",
+  "url": "https://www.backgroundcheckers.net/api/helper/optOutLight/search",
+  "verdict": "WIDGET-LIKELY",
+  "detail": "",
+  "final": "https://www.backgroundcheckers.net/api/helper/optOutLight/search"
+ },
+ {
+  "id": "brooksim",
+  "url": "https://www.brooksim.com/privacy-form",
+  "verdict": "WIDGET-LIKELY",
+  "detail": "",
+  "final": "https://www.brooksim.com/privacy-form"
+ },
+ {
+  "id": "checksecrets",
+  "url": "https://www.checksecrets.com/api/helper/optOutLight/search",
+  "verdict": "WIDGET-LIKELY",
+  "detail": "",
+  "final": "https://www.checksecrets.com/api/helper/optOutLight/search"
+ },
+ {
+  "id": "crustdata",
+  "url": "https://crustdata.com/privacy",
+  "verdict": "WIDGET-LIKELY",
+  "detail": "",
+  "final": "https://crustdata.com/privacy"
+ },
+ {
+  "id": "diablomedia",
+  "url": "https://diablomedia.com/privacy-request/",
+  "verdict": "WIDGET-LIKELY",
+  "detail": "",
+  "final": "https://www.diablomedia.com/privacy-request/"
+ },
+ {
+  "id": "emerges_com",
+  "url": "https://docs.google.com/forms/d/e/1FAIpQLSdi3KjEPMsVnXQL-KllxvgOQWxvLpLfuz30-Z_eqXDHGEbX6w/viewform",
+  "verdict": "WIDGET-LIKELY",
+  "detail": "",
+  "final": "https://docs.google.com/forms/d/e/1FAIpQLSdi3KjEPMsVnXQL-KllxvgOQWxvLpLfuz30-Z_eqXDHGEbX6w/closedform"
+ },
+ {
+  "id": "eprodirect",
+  "url": "https://www.eprodirect.com/privacy-policy/",
+  "verdict": "WIDGET-LIKELY",
+  "detail": "",
+  "final": "https://www.eprodirect.com/privacy-policy/"
+ },
+ {
+  "id": "fastpeoplesearch_io",
+  "url": "https://fastpeoplesearch.io/remove-my-info",
+  "verdict": "WIDGET-LIKELY",
+  "detail": "",
+  "final": "https://fastpeoplesearch.io/remove-my-info"
+ },
+ {
+  "id": "fraiser",
+  "url": "https://www.fraiser.org/data-request-form",
+  "verdict": "WIDGET-LIKELY",
+  "detail": "",
+  "final": "https://www.fraiser.org/data-request-form"
+ },
+ {
+  "id": "giant_partners",
+  "url": "https://giantpartners.com/do-not-sell-my-personal-info-all-other-states/",
+  "verdict": "WIDGET-LIKELY",
+  "detail": "",
+  "final": "https://giantpartners.com/do-not-sell-my-personal-info-all-other-states/"
+ },
+ {
+  "id": "inmatessearcher",
+  "url": "https://www.inmatessearcher.com/api/helper/optOutLight/search",
+  "verdict": "WIDGET-LIKELY",
+  "detail": "",
+  "final": "https://www.inmatessearcher.com/api/helper/optOutLight/search"
+ },
+ {
+  "id": "koddi",
+  "url": "https://koddi.com/do-not-sell-my-personal-information/",
+  "verdict": "WIDGET-LIKELY",
+  "detail": "",
+  "final": "https://koddi.com/do-not-sell-my-personal-information/"
+ },
+ {
+  "id": "leadiq",
+  "url": "https://leadiq.com/request-removal",
+  "verdict": "WIDGET-LIKELY",
+  "detail": "",
+  "final": "https://leadiq.com/request-removal"
+ },
+ {
+  "id": "melissa",
+  "url": "https://www.melissa.com/privacy",
+  "verdict": "WIDGET-LIKELY",
+  "detail": "",
+  "final": "https://www.melissa.com/privacy"
+ },
+ {
+  "id": "mugshotlook",
+  "url": "https://www.mugshotlook.com/api/helper/optOutLight/search",
+  "verdict": "WIDGET-LIKELY",
+  "detail": "",
+  "final": "https://www.mugshotlook.com/api/helper/optOutLight/search"
+ },
+ {
+  "id": "nielsen",
+  "url": "https://sites.nielsen.com/legal/privacy-statement/exelate-privacy-policy/opt-in-opt-out/",
+  "verdict": "WIDGET-LIKELY",
+  "detail": "",
+  "final": "https://sites.nielsen.com/legal/privacy-statement/exelate-privacy-policy/opt-in-opt-out/"
+ },
+ {
+  "id": "noon_ai",
+  "url": "https://www.noon.ai/privacy-center",
+  "verdict": "WIDGET-LIKELY",
+  "detail": "",
+  "final": "https://www.noon.ai/privacy-center"
+ },
+ {
+  "id": "npi_profile",
+  "url": "https://npiprofile.com/opt-out",
+  "verdict": "WIDGET-LIKELY",
+  "detail": "",
+  "final": "https://npiprofile.com/opt-out"
+ },
+ {
+  "id": "numlooker",
+  "url": "https://numlooker.com/remove-my-info",
+  "verdict": "WIDGET-LIKELY",
+  "detail": "",
+  "final": "https://numlooker.com/remove-my-info"
+ },
+ {
+  "id": "oncore_leads",
+  "url": "https://oncoreleads.com/do_not_sell/",
+  "verdict": "WIDGET-LIKELY",
+  "detail": "",
+  "final": "https://oncoreleads.com/do_not_sell/"
+ },
+ {
+  "id": "openpeoplesearch",
+  "url": "https://www.openpeoplesearch.com/Consumer",
+  "verdict": "WIDGET-LIKELY",
+  "detail": "",
+  "final": "https://www.openpeoplesearch.com/Consumer"
+ },
+ {
+  "id": "people_search_org",
+  "url": "https://www.people-search.org/privacy-policy",
+  "verdict": "WIDGET-LIKELY",
+  "detail": "",
+  "final": "https://www.people-search.org/privacy-policy"
+ },
+ {
+  "id": "peoplesearch123",
+  "url": "https://www.peoplesearch123.com/api/helper/optOutLight/search",
+  "verdict": "WIDGET-LIKELY",
+  "detail": "",
+  "final": "https://www.peoplesearch123.com/api/helper/optOutLight/search"
+ },
+ {
+  "id": "peoplesearcher",
+  "url": "https://www.peoplesearcher.com/api/helper/optOutLight/search",
+  "verdict": "WIDGET-LIKELY",
+  "detail": "",
+  "final": "https://www.peoplesearcher.com/api/helper/optOutLight/search"
+ },
+ {
+  "id": "peoplesearchusa",
+  "url": "https://www.peoplesearchusa.org/api/helper/optOutLight/search",
+  "verdict": "WIDGET-LIKELY",
+  "detail": "",
+  "final": "https://www.peoplesearchusa.org/api/helper/optOutLight/search"
+ },
+ {
+  "id": "persopo_com",
+  "url": "http://info.persopo.com/opt-out.html",
+  "verdict": "WIDGET-LIKELY",
+  "detail": "",
+  "final": "https://persopo.com/opt-out.html"
+ },
+ {
+  "id": "privaterecords",
+  "url": "https://www.privaterecords.net/api/helper/optOutLight/search",
+  "verdict": "WIDGET-LIKELY",
+  "detail": "",
+  "final": "https://www.privaterecords.net/api/helper/optOutLight/search"
+ },
+ {
+  "id": "privatereports",
+  "url": "https://www.privatereports.com/api/helper/optOutLight/search",
+  "verdict": "WIDGET-LIKELY",
+  "detail": "",
+  "final": "https://www.privatereports.com/api/helper/optOutLight/search"
+ },
+ {
+  "id": "propertyiq",
+  "url": "https://www.propertyiq.com/opt-out/address-search",
+  "verdict": "WIDGET-LIKELY",
+  "detail": "",
+  "final": "https://www.propertyiq.com/opt-out/address-search"
+ },
+ {
+  "id": "prospeo",
+  "url": "https://prospeo.io/privacy",
+  "verdict": "WIDGET-LIKELY",
+  "detail": "",
+  "final": "https://prospeo.io/privacy"
+ },
+ {
+  "id": "publicsearcher",
+  "url": "https://www.publicsearcher.com/api/helper/optOutLight/search",
+  "verdict": "WIDGET-LIKELY",
+  "detail": "",
+  "final": "https://www.publicsearcher.com/api/helper/optOutLight/search"
+ },
+ {
+  "id": "radaris",
+  "url": "https://radaris.com/data_privacy_center",
+  "verdict": "WIDGET-LIKELY",
+  "detail": "",
+  "final": "https://radaris.com/data_privacy_center"
+ },
+ {
+  "id": "reality_media",
+  "url": "https://realitydebtsolutions.com/do-not-sell-my-personal-information/",
+  "verdict": "WIDGET-LIKELY",
+  "detail": "",
+  "final": "https://www.realitydebtsolutions.com/do-not-sell-my-personal-information/"
+ },
+ {
+  "id": "realsource_data",
+  "url": "https://www.realsourcedata.com/do-not-sell-my-personal-information",
+  "verdict": "WIDGET-LIKELY",
+  "detail": "",
+  "final": "https://www.realsourcedata.com/do-not-sell-my-personal-information"
+ },
+ {
+  "id": "sealedrecords",
+  "url": "https://www.sealedrecords.net/api/helper/optOutLight/search",
+  "verdict": "WIDGET-LIKELY",
+  "detail": "",
+  "final": "https://www.sealedrecords.net/api/helper/optOutLight/search"
+ },
+ {
+  "id": "searchbug",
+  "url": "https://www.searchbug.com/ccpa.aspx",
+  "verdict": "WIDGET-LIKELY",
+  "detail": "",
+  "final": "https://www.searchbug.com/ccpa.aspx"
+ },
+ {
+  "id": "secretinfo",
+  "url": "https://www.secretinfo.org/api/helper/optOutLight/search",
+  "verdict": "WIDGET-LIKELY",
+  "detail": "",
+  "final": "https://www.secretinfo.org/api/helper/optOutLight/search"
+ },
+ {
+  "id": "truepeoplesearch_net",
+  "url": "https://truepeoplesearch.net/remove-my-info",
+  "verdict": "WIDGET-LIKELY",
+  "detail": "",
+  "final": "https://truepeoplesearch.net/remove-my-info"
+ },
+ {
+  "id": "truthrecord",
+  "url": "https://www.truthrecord.org/api/helper/optOutLight/search",
+  "verdict": "WIDGET-LIKELY",
+  "detail": "",
+  "final": "https://www.truthrecord.org/api/helper/optOutLight/search"
+ },
+ {
+  "id": "uplead",
+  "url": "https://www.uplead.com/privacy/",
+  "verdict": "WIDGET-LIKELY",
+  "detail": "",
+  "final": "https://www.uplead.com/privacy/"
+ },
+ {
+  "id": "versium",
+  "url": "https://versium.com/ccpa-opt-out",
+  "verdict": "WIDGET-LIKELY",
+  "detail": "",
+  "final": "https://versium.com/ccpa-opt-out/"
+ },
+ {
+  "id": "webbula",
+  "url": "https://webbula.com/opt-out-request-d/#OptOut",
+  "verdict": "WIDGET-LIKELY",
+  "detail": "",
+  "final": "https://webbula.com/opt-out-request/"
+ },
+ {
+  "id": "weinform",
+  "url": "https://www.weinform.org/api/helper/optOutLight/search",
+  "verdict": "WIDGET-LIKELY",
+  "detail": "",
+  "final": "https://www.weinform.org/api/helper/optOutLight/search"
+ },
+ {
+  "id": "whitepages",
+  "url": "https://www.whitepages.com/suppression-requests",
+  "verdict": "WIDGET-LIKELY",
+  "detail": "",
+  "final": "https://www.whitepages.com/suppression-requests"
+ },
+ {
+  "id": "windfall",
+  "url": "https://www.windfall.com/do-not-sell-my-info",
+  "verdict": "WIDGET-LIKELY",
+  "detail": "",
+  "final": "https://www.windfall.com/your-privacy-choices"
+ },
+ {
+  "id": "6sense",
+  "url": "https://6sense.com/privacy",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "allareacodes",
+  "url": "https://www.allareacodes.com/remove_name.htm",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "allpeople",
+  "url": "https://allpeople.com/removal",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "allpeople_biz",
+  "url": "https://allpeople.biz/removal",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "beenverified",
+  "url": "https://www.beenverified.com/svc/optout/search/optouts",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "buildertrend",
+  "url": "https://buildertrend.com/privacy-policy/",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "bumper",
+  "url": "https://www.bumper.com/svc/optout/search/comprehensive_optouts",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "california_birth_index",
+  "url": "https://californiabirthindex.org",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "callersmart",
+  "url": "https://www.callersmart.com/data",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "careerbuilder",
+  "url": "https://edge.careerbuilder.com/optout",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "classmates_com",
+  "url": "https://www.classmates.com/about/privacy#p-8",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "connecticut_resident_directory",
+  "url": "https://www.connecticutresidentdirectory.com/opt-out",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "cyberbackgroundchecks",
+  "url": "https://www.cyberbackgroundchecks.com/removal",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "datarade",
+  "url": "https://datarade.ai/company/privacy-policy",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "dexknows_com",
+  "url": "https://privacyportal-cdn.onetrust.com/dsarwebform/dd6500c7-03cb-45b0-8bed-97ece55a892d/cfcefb69-41db-4aee-bd00-c702df72ee0f.html",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "familytreenow",
+  "url": "https://www.familytreenow.com/optout",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "fastpeoplesearch",
+  "url": "https://www.fastpeoplesearch.com/removal",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "findpeoplefast_net",
+  "url": "https://findpeoplefast.net/company/remove-my-info",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "five_by_five",
+  "url": "https://5x5coop.com/do-not-sell-my-info/",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "florida_residents",
+  "url": "https://www.floridaresidentsdirectory.com/opt-out",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "florida_voter_directory",
+  "url": "https://www.floridavoterdirectory.com/opt-out",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "freepeoplesearch",
+  "url": "https://freepeoplesearch.com/opt-out",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "freephonetracer",
+  "url": "https://www.beenverified.com/app/optout/search",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "lookups_io",
+  "url": "https://lookups.io/data-claim",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "men_stopping_violence",
+  "url": "https://www.menstoppingviolence.org/opt-out/",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "michigan_residents",
+  "url": "https://www.michiganresidentdatabase.com/opt-out",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "moneybot5000",
+  "url": "https://www.moneybot5000.com/svc/optout/search/optouts",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "mylife",
+  "url": "https://www.mylife.com/ccpa/index.pubview",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "national_public_data",
+  "url": "https://nationalpublicdata.com/optout.html",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "neighborwho",
+  "url": "https://www.neighborwho.com/optout",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "njpropertyrecords",
+  "url": "https://njpropertyrecords.com/redaction",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "north_carolina_residents",
+  "url": "https://northcarolinaresidentdatabase.com/opt-out",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "numberguru",
+  "url": "https://www.numberguru.com/svc/optout/search/optouts",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "nuwber",
+  "url": "https://nuwber.com/removal/link",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "ohio_resident_directory",
+  "url": "https://www.ohioresidentdirectory.com/opt-out",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "ohio_residents",
+  "url": "https://www.ohioresidentdatabase.com/opt-out",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "optoutprescreen",
+  "url": "https://www.optoutprescreen.com/",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "ownerly",
+  "url": "https://www.ownerly.com/optout",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "peoplebyname",
+  "url": "http://www.peoplebyname.com/remove.php",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "peoplefinders",
+  "url": "https://www.peoplefinders.com/opt-out",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "peoplelooker",
+  "url": "https://www.peoplelooker.com/app/optout/form",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "peoplesearchnow",
+  "url": "https://www.peoplesearchnow.com/opt-out",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "peoplesmart",
+  "url": "https://www.peoplesmart.com/app/optout/search",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "peoplewhiz_com",
+  "url": "https://www.peoplewhiz.com/optout",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "phonebooks_com",
+  "url": "https://www.phonebooks.com/opt-out",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "privatenumberchecker_com",
+  "url": "https://www.privatenumberchecker.com/removalrequest/",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "propertyreach",
+  "url": "https://www.propertyreach.com/privacy-rights",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "realpeoplesearch",
+  "url": "https://realpeoplesearch.com/about/remove-my-info",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "realtyhop_com",
+  "url": "https://www.realtyhop.com/resources/realtyhop-redaction-request-system/",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "reversephone",
+  "url": "https://www.reversephone.com/svc/optout/search/optouts",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "seamless_ai",
+  "url": "https://login.seamless.ai/personalDataRequest",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "searchpeoplefree_net",
+  "url": "https://searchpeoplefree.net/resource/remove-my-info",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "securitytrails",
+  "url": "https://securitytrails.com/corp/privacy",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "share_local_media",
+  "url": "https://privacy.sharelocalmedia.com/",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "spyfly",
+  "url": "https://www.spyfly.com/help-center/privacy-requests",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "thatsthem",
+  "url": "https://thatsthem.com/optout",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "transunion",
+  "url": "https://www.transunion.com/consumer-privacy",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "truepeoplesearch",
+  "url": "https://www.truepeoplesearch.com/removal",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "unmask",
+  "url": "https://unmask.com/opt-out/",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "usphonebook",
+  "url": "https://www.usphonebook.com/removal",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "veripages",
+  "url": "https://veripages.com/optout",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "voterrecords_com",
+  "url": "https://voterrecords.com/faq",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "wyty",
+  "url": "https://www.wyty.com/remove/",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "ziprecruiter",
+  "url": "https://www.ziprecruiter.com/ccpa-opt-out",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "zoominfo",
+  "url": "https://privacyrequest.zoominfo.com/remove/verify",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "ace_agents",
+  "url": "https://www.aceagents.ai/privacy",
+  "verdict": "HTTP-404",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "addresses_com",
+  "url": "https://www.addresses.com/optout.php",
+  "verdict": "HTTP-404",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "adttribution",
+  "url": "https://www.adttribution.com/opt-out.html",
+  "verdict": "HTTP-404",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "advancedbackgroundchecks",
+  "url": "https://www.advancedbackgroundchecks.com/removal",
+  "verdict": "HTTP-404",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "arrestwarrant_org",
+  "url": "https://ms.arrestwarrant.org/InfoPayOpt-OutNew.pdf",
+  "verdict": "HTTP-404",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "audience_acuity",
+  "url": "https://audienceacuity.com/opt-out-of-database/",
+  "verdict": "HTTP-404",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "audiencerate",
+  "url": "https://www.audiencerate.com/optout",
+  "verdict": "HTTP-404",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "blue_action",
+  "url": "https://request.blueaction.io/",
+  "verdict": "HTTP-404",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "brandwatch",
+  "url": "https://www.brandwatch.com/your-privacy-choices/",
+  "verdict": "HTTP-404",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "citydata",
+  "url": "https://citydata.ai/privacy/do_not_sell_personal_information/",
+  "verdict": "HTTP-404",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "cocofinder",
+  "url": "https://cocofinder.com/optout",
+  "verdict": "HTTP-404",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "compile",
+  "url": "https://www.compile.com/hcp-opt-out/",
+  "verdict": "HTTP-404",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "confidentialphonelookup",
+  "url": "https://www.confidentialphonelookup.com/removals/",
+  "verdict": "HTTP-404",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "freebackgroundcheck_org",
+  "url": "https://new-members.freebackgroundcheck.org/removeMyData/",
+  "verdict": "HTTP-404",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "idstrong",
+  "url": "https://www.idstrong.com/optout/",
+  "verdict": "HTTP-404",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "onemata",
+  "url": "https://www.onemata.com/do-not-sell-my-personal-info",
+  "verdict": "HTTP-404",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "peoplesearch",
+  "url": "https://www.whitepages.com/privacy/ccpa",
+  "verdict": "HTTP-404",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "peoplewin",
+  "url": "https://peoplewin.com/privacy/control",
+  "verdict": "HTTP-404",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "phonenumbers_org",
+  "url": "https://phonenumbers.org/optout/",
+  "verdict": "HTTP-404",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "pmg_worldwide",
+  "url": "https://www.pmg.com/your-privacy-choices",
+  "verdict": "HTTP-404",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "publicrecordcenter_com",
+  "url": "https://www.publicrecordcenter.com/remove.html",
+  "verdict": "HTTP-404",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "smartbackgroundchecks",
+  "url": "https://www.smartbackgroundchecks.com/optoutcheck",
+  "verdict": "HTTP-404",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "texaswarrantroundup_org",
+  "url": "https://texaswarrantroundup.org/InfoPayOpt-OutNew.pdf",
+  "verdict": "HTTP-404",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "whoisxmlapi",
+  "url": "https://www.whoisxmlapi.com/privacy-policy.php",
+  "verdict": "HTTP-404",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "zabasearch",
+  "url": "https://www.zabasearch.com/block_records/",
+  "verdict": "HTTP-404",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "areacode_lookup",
+  "url": "https://www.areacode-lookup.com/optout",
+  "verdict": "ERROR",
+  "detail": "URLError",
+  "final": ""
+ },
+ {
+  "id": "backgroundcheck_run",
+  "url": "https://backgroundcheck.run/optout",
+  "verdict": "ERROR",
+  "detail": "URLError",
+  "final": ""
+ },
+ {
+  "id": "cloudlead",
+  "url": "https://blog.cloudlead.co/2020/07/24/opt-out-in-cold-emails/",
+  "verdict": "ERROR",
+  "detail": "URLError",
+  "final": ""
+ },
+ {
+  "id": "clustrmaps",
+  "url": "https://clustrmaps.com/bl/opt-out",
+  "verdict": "ERROR",
+  "detail": "URLError",
+  "final": ""
+ },
+ {
+  "id": "dmachoice",
+  "url": "https://dmachoice.thedma.org/",
+  "verdict": "ERROR",
+  "detail": "URLError",
+  "final": ""
+ },
+ {
+  "id": "golookup",
+  "url": "https://golookup.com/optout",
+  "verdict": "ERROR",
+  "detail": "URLError",
+  "final": ""
+ },
+ {
+  "id": "homemetry",
+  "url": "https://homemetry.com/optout",
+  "verdict": "ERROR",
+  "detail": "URLError",
+  "final": ""
+ },
+ {
+  "id": "idtrue",
+  "url": "https://www.idtrue.com/optout",
+  "verdict": "ERROR",
+  "detail": "URLError",
+  "final": ""
+ },
+ {
+  "id": "local_crime_news",
+  "url": "https://dataconnect.force.com/contactremoval/s/contactsupport",
+  "verdict": "ERROR",
+  "detail": "URLError",
+  "final": ""
+ },
+ {
+  "id": "match_and_append",
+  "url": "https://www.matchandappend.com/do-not-sell-my-data/",
+  "verdict": "ERROR",
+  "detail": "URLError",
+  "final": ""
+ },
+ {
+  "id": "officialusa",
+  "url": "https://www.officialusa.com/",
+  "verdict": "ERROR",
+  "detail": "URLError",
+  "final": ""
+ },
+ {
+  "id": "peekyou",
+  "url": "https://www.peekyou.com/about/contact/optout/",
+  "verdict": "ERROR",
+  "detail": "URLError",
+  "final": ""
+ },
+ {
+  "id": "rehold",
+  "url": "https://rehold.com/optout",
+  "verdict": "ERROR",
+  "detail": "URLError",
+  "final": ""
+ },
+ {
+  "id": "structure",
+  "url": "https://www.structure.ac/opt_outs/new",
+  "verdict": "ERROR",
+  "detail": "URLError",
+  "final": ""
+ },
+ {
+  "id": "telephone_directories",
+  "url": "https://www.telephonedirectories.us/Edit_Records",
+  "verdict": "ERROR",
+  "detail": "URLError",
+  "final": ""
+ },
+ {
+  "id": "trustoria",
+  "url": "https://trustoria.com/control/privacy",
+  "verdict": "ERROR",
+  "detail": "URLError",
+  "final": ""
+ },
+ {
+  "id": "venpath",
+  "url": "https://www.venpath.net/legal/opt-out",
+  "verdict": "ERROR",
+  "detail": "URLError",
+  "final": ""
+ },
+ {
+  "id": "adform",
+  "url": "https://site.adform.com/privacy-center/website-privacy/opt-out/",
+  "verdict": "MAILTO",
+  "detail": "",
+  "final": "https://site.adform.com/privacy-center/website-privacy/opt-out/"
+ },
+ {
+  "id": "attribits",
+  "url": "https://www.attribits.com/do-not-sell",
+  "verdict": "MAILTO",
+  "detail": "",
+  "final": "https://www.attribits.com/do-not-sell"
+ },
+ {
+  "id": "big_village",
+  "url": "https://big-village.com/do-not-sell-or-share-my-personal-information/",
+  "verdict": "MAILTO",
+  "detail": "",
+  "final": "https://big-village.com/do-not-sell-or-share-my-personal-information/"
+ },
+ {
+  "id": "corelogic",
+  "url": "https://www.cotality.com/legal/privacy-policy",
+  "verdict": "MAILTO",
+  "detail": "",
+  "final": "https://www.cotality.com/legal/privacy-policy"
+ },
+ {
+  "id": "corelogic_cotality",
+  "url": "https://www.cotality.com/legal/privacy-policy",
+  "verdict": "MAILTO",
+  "detail": "",
+  "final": "https://www.cotality.com/legal/privacy-policy"
+ },
+ {
+  "id": "epsilon",
+  "url": "https://legal.epsilon.com/dsr",
+  "verdict": "MAILTO",
+  "detail": "",
+  "final": "https://legal.epsilon.com/dsr"
+ },
+ {
+  "id": "esite_analytics",
+  "url": "https://www.esiteanalytics.com/privacy-policy/",
+  "verdict": "MAILTO",
+  "detail": "",
+  "final": "https://www.esiteanalytics.com/privacy-policy/"
+ },
+ {
+  "id": "rocketreach",
+  "url": "https://rocketreach.co/privacy",
+  "verdict": "MAILTO",
+  "detail": "",
+  "final": "https://rocketreach.co/privacy"
+ },
+ {
+  "id": "unity",
+  "url": "https://unity.com/legal/do-not-sell-my-personal-information",
+  "verdict": "MAILTO",
+  "detail": "",
+  "final": "https://unity.com/legal/do-not-sell-my-personal-information"
+ },
+ {
+  "id": "alabamacourtrecords_us",
+  "url": "https://alabamacourtrecords.us/optout/",
+  "verdict": "DELEGATED",
+  "detail": "alabamacourtrecords.us",
+  "final": "https://alabamacourtrecords.us/optout/"
+ },
+ {
+  "id": "alaskacourtrecords_us",
+  "url": "https://alaskacourtrecords.us/optout/",
+  "verdict": "DELEGATED",
+  "detail": "alaskacourtrecords.us",
+  "final": "https://alaskacourtrecords.us/optout/"
+ },
+ {
+  "id": "analyticsiq",
+  "url": "https://analytics-iq.com/opt-out-statistics/",
+  "verdict": "DELEGATED",
+  "detail": "analytics-iq.com",
+  "final": "https://analytics-iq.com/opt-out-statistics/"
+ },
+ {
+  "id": "arizonacourtrecords_us",
+  "url": "https://arizonacourtrecords.us/optout/",
+  "verdict": "DELEGATED",
+  "detail": "arizonacourtrecords.us",
+  "final": "https://arizonacourtrecords.us/optout/"
+ },
+ {
+  "id": "arkansascourtrecords_us",
+  "url": "https://arkansascourtrecords.us/optout/",
+  "verdict": "DELEGATED",
+  "detail": "arkansascourtrecords.us",
+  "final": "https://arkansascourtrecords.us/optout/"
+ },
+ {
+  "id": "californiacourtrecords_us",
+  "url": "https://californiacourtrecords.us/optout/",
+  "verdict": "DELEGATED",
+  "detail": "californiacourtrecords.us",
+  "final": "https://californiacourtrecords.us/optout/"
+ },
+ {
+  "id": "coloradocourtrecords_us",
+  "url": "https://coloradocourtrecords.us/optout/",
+  "verdict": "DELEGATED",
+  "detail": "coloradocourtrecords.us",
+  "final": "https://coloradocourtrecords.us/optout/"
+ },
+ {
+  "id": "connecticutcourtrecords_us",
+  "url": "https://connecticutcourtrecords.us/optout/",
+  "verdict": "DELEGATED",
+  "detail": "connecticutcourtrecords.us",
+  "final": "https://connecticutcourtrecords.us/optout/"
+ },
+ {
+  "id": "courtcasefinder",
+  "url": "https://courtcasefinder.com/optout",
+  "verdict": "DELEGATED",
+  "detail": "courtcasefinder.com",
+  "final": "https://courtcasefinder.com/optout"
+ },
+ {
+  "id": "courtrecords_us",
+  "url": "https://courtrecords.us/optout/",
+  "verdict": "DELEGATED",
+  "detail": "courtrecords.us",
+  "final": "https://courtrecords.us/optout/"
+ },
+ {
+  "id": "delawarecourtrecords_us",
+  "url": "https://delawarecourtrecords.us/optout/",
+  "verdict": "DELEGATED",
+  "detail": "delawarecourtrecords.us",
+  "final": "https://delawarecourtrecords.us/optout/"
+ },
+ {
+  "id": "el_toro_com",
+  "url": "https://eltoro.com/do-not-sell-my-personal-information/",
+  "verdict": "DELEGATED",
+  "detail": "eltoro.com",
+  "final": "https://eltoro.com/do-not-sell-my-personal-information/"
+ },
+ {
+  "id": "equimine_propstream",
+  "url": "https://www.propstream.com/your-privacy-choices",
+  "verdict": "DELEGATED",
+  "detail": "www.propstream.com",
+  "final": "https://www.propstream.com/your-privacy-choices"
+ },
+ {
+  "id": "eyeota",
+  "url": "https://www.eyeota.com/how-to-opt-out",
+  "verdict": "DELEGATED",
+  "detail": "www.eyeota.com",
+  "final": "https://www.eyeota.com/how-to-opt-out"
+ },
+ {
+  "id": "first_advantage",
+  "url": "https://fadv.com/privacy-policy/",
+  "verdict": "DELEGATED",
+  "detail": "fadv.com",
+  "final": "https://fadv.com/privacy-center/"
+ },
+ {
+  "id": "floridacourtrecords_us",
+  "url": "https://floridacourtrecords.us/optout/",
+  "verdict": "DELEGATED",
+  "detail": "floridacourtrecords.us",
+  "final": "https://floridacourtrecords.us/optout/"
+ },
+ {
+  "id": "g2_stack",
+  "url": "https://legal.g2.com/privacy-request",
+  "verdict": "DELEGATED",
+  "detail": "legal.g2.com",
+  "final": "https://legal.g2.com/privacy-request"
+ },
+ {
+  "id": "georgiacourtrecords_us",
+  "url": "https://georgiacourtrecords.us/optout/",
+  "verdict": "DELEGATED",
+  "detail": "georgiacourtrecords.us",
+  "final": "https://georgiacourtrecords.us/optout/"
+ },
+ {
+  "id": "hawaiicourtrecords_us",
+  "url": "https://hawaiicourtrecords.us/optout/",
+  "verdict": "DELEGATED",
+  "detail": "hawaiicourtrecords.us",
+  "final": "https://hawaiicourtrecords.us/optout/"
+ },
+ {
+  "id": "idahocourtrecords_us",
+  "url": "https://idahocourtrecords.us/optout/",
+  "verdict": "DELEGATED",
+  "detail": "idahocourtrecords.us",
+  "final": "https://idahocourtrecords.us/optout/"
+ },
+ {
+  "id": "illinoiscourtrecords_us",
+  "url": "https://illinoiscourtrecords.us/optout/",
+  "verdict": "DELEGATED",
+  "detail": "illinoiscourtrecords.us",
+  "final": "https://illinoiscourtrecords.us/optout/"
+ },
+ {
+  "id": "indianacourtrecords_us",
+  "url": "https://indianacourtrecords.us/optout/",
+  "verdict": "DELEGATED",
+  "detail": "indianacourtrecords.us",
+  "final": "https://indianacourtrecords.us/optout/"
+ },
+ {
+  "id": "iowacourtrecords_us",
+  "url": "https://iowacourtrecords.us/optout/",
+  "verdict": "DELEGATED",
+  "detail": "iowacourtrecords.us",
+  "final": "https://iowacourtrecords.us/optout/"
+ },
+ {
+  "id": "kansascourtrecords_us",
+  "url": "https://kansascourtrecords.us/optout/",
+  "verdict": "DELEGATED",
+  "detail": "kansascourtrecords.us",
+  "final": "https://kansascourtrecords.us/optout/"
+ },
+ {
+  "id": "kentuckycourtrecords_us",
+  "url": "https://kentuckycourtrecords.us/optout/",
+  "verdict": "DELEGATED",
+  "detail": "kentuckycourtrecords.us",
+  "final": "https://kentuckycourtrecords.us/optout/"
+ },
+ {
+  "id": "liveramp",
+  "url": "https://liveramp.com/privacy/my-privacy-choices",
+  "verdict": "DELEGATED",
+  "detail": "liveramp.com",
+  "final": "https://liveramp.com/privacy/my-privacy-choices"
+ },
+ {
+  "id": "louisianacourtrecords_us",
+  "url": "https://louisianacourtrecords.us/optout/",
+  "verdict": "DELEGATED",
+  "detail": "louisianacourtrecords.us",
+  "final": "https://louisianacourtrecords.us/optout/"
+ },
+ {
+  "id": "mainecourtrecords_us",
+  "url": "https://mainecourtrecords.us/optout/",
+  "verdict": "DELEGATED",
+  "detail": "mainecourtrecords.us",
+  "final": "https://mainecourtrecords.us/optout/"
+ },
+ {
+  "id": "marylandcourtrecords_us",
+  "url": "https://marylandcourtrecords.us/optout/",
+  "verdict": "DELEGATED",
+  "detail": "marylandcourtrecords.us",
+  "final": "https://marylandcourtrecords.us/optout/"
+ },
+ {
+  "id": "massachusetsscourtrecords_us",
+  "url": "https://courtrecords.us/optout/",
+  "verdict": "DELEGATED",
+  "detail": "courtrecords.us",
+  "final": "https://courtrecords.us/optout/"
+ },
+ {
+  "id": "merkle",
+  "url": "https://www.merkle.com/en/privacy-policy/data-product-privacy-notice/control-your-personal-information.html",
+  "verdict": "DELEGATED",
+  "detail": "www.merkle.com",
+  "final": "https://www.merkle.com/en/privacy-policy/data-product-privacy-notice/control-your-personal-information.html"
+ },
+ {
+  "id": "message_digital",
+  "url": "https://messagedigital.com/my-data",
+  "verdict": "DELEGATED",
+  "detail": "messagedigital.com",
+  "final": "https://messagedigital.com/my-data"
+ },
+ {
+  "id": "michigancourtrecords_us",
+  "url": "https://michigancourtrecords.us/optout/",
+  "verdict": "DELEGATED",
+  "detail": "michigancourtrecords.us",
+  "final": "https://michigancourtrecords.us/optout/"
+ },
+ {
+  "id": "minnesotacourtrecords_us",
+  "url": "https://minnesotacourtrecords.us/optout/",
+  "verdict": "DELEGATED",
+  "detail": "minnesotacourtrecords.us",
+  "final": "https://minnesotacourtrecords.us/optout/"
+ },
+ {
+  "id": "mississippicourtrecords_us",
+  "url": "https://mississippicourtrecords.us/optout/",
+  "verdict": "DELEGATED",
+  "detail": "mississippicourtrecords.us",
+  "final": "https://mississippicourtrecords.us/optout/"
+ },
+ {
+  "id": "missouricourtrecords_us",
+  "url": "https://missouricourtrecords.us/optout/",
+  "verdict": "DELEGATED",
+  "detail": "missouricourtrecords.us",
+  "final": "https://missouricourtrecords.us/optout/"
+ },
+ {
+  "id": "montanacourtrecords_us",
+  "url": "https://montanacourtrecords.us/optout/",
+  "verdict": "DELEGATED",
+  "detail": "montanacourtrecords.us",
+  "final": "https://montanacourtrecords.us/optout/"
+ },
+ {
+  "id": "nebraskacourtrecords_us",
+  "url": "https://nebraskacourtrecords.us/optout/",
+  "verdict": "DELEGATED",
+  "detail": "nebraskacourtrecords.us",
+  "final": "https://nebraskacourtrecords.us/optout/"
+ },
+ {
+  "id": "nevadacourtrecords_us",
+  "url": "https://nevadacourtrecords.us/optout/",
+  "verdict": "DELEGATED",
+  "detail": "nevadacourtrecords.us",
+  "final": "https://nevadacourtrecords.us/optout/"
+ },
+ {
+  "id": "newhampshirecourtrecords_us",
+  "url": "https://newhampshirecourtrecords.us/optout/",
+  "verdict": "DELEGATED",
+  "detail": "newhampshirecourtrecords.us",
+  "final": "https://newhampshirecourtrecords.us/optout/"
+ },
+ {
+  "id": "newjerseycourtrecords_us",
+  "url": "https://newjerseycourtrecords.us/optout/",
+  "verdict": "DELEGATED",
+  "detail": "newjerseycourtrecords.us",
+  "final": "https://newjerseycourtrecords.us/optout/"
+ },
+ {
+  "id": "newmexicocourtrecords_us",
+  "url": "https://newmexicocourtrecords.us/optout/",
+  "verdict": "DELEGATED",
+  "detail": "newmexicocourtrecords.us",
+  "final": "https://newmexicocourtrecords.us/optout/"
+ },
+ {
+  "id": "newyorkcourtrecords_us",
+  "url": "https://newyorkcourtrecords.us/optout/",
+  "verdict": "DELEGATED",
+  "detail": "newyorkcourtrecords.us",
+  "final": "https://newyorkcourtrecords.us/optout/"
+ },
+ {
+  "id": "northcarolinacourtrecords_us",
+  "url": "https://northcarolinacourtrecords.us/optout/",
+  "verdict": "DELEGATED",
+  "detail": "northcarolinacourtrecords.us",
+  "final": "https://northcarolinacourtrecords.us/optout/"
+ },
+ {
+  "id": "northdakotacourtrecords_us",
+  "url": "https://northdakotacourtrecords.us/optout/",
+  "verdict": "DELEGATED",
+  "detail": "northdakotacourtrecords.us",
+  "final": "https://northdakotacourtrecords.us/optout/"
+ },
+ {
+  "id": "ohiocourtrecords_us",
+  "url": "https://ohiocourtrecords.us/optout/",
+  "verdict": "DELEGATED",
+  "detail": "ohiocourtrecords.us",
+  "final": "https://ohiocourtrecords.us/optout/"
+ },
+ {
+  "id": "oklahomacourtrecords_us",
+  "url": "https://oklahomacourtrecords.us/optout/",
+  "verdict": "DELEGATED",
+  "detail": "oklahomacourtrecords.us",
+  "final": "https://oklahomacourtrecords.us/optout/"
+ },
+ {
+  "id": "oracle_datacloud",
+  "url": "https://www.oracle.com/legal/privacy/marketing-cloud-data-cloud-privacy-policy.html",
+  "verdict": "DELEGATED",
+  "detail": "www.oracle.com",
+  "final": "https://www.oracle.com/contracts/data-services/"
+ },
+ {
+  "id": "oregoncourtrecords_us",
+  "url": "https://oregoncourtrecords.us/optout/",
+  "verdict": "DELEGATED",
+  "detail": "oregoncourtrecords.us",
+  "final": "https://oregoncourtrecords.us/optout/"
+ },
+ {
+  "id": "pennsylvaniacourtrecords_us",
+  "url": "https://pennsylvaniacourtrecords.us/optout/",
+  "verdict": "DELEGATED",
+  "detail": "pennsylvaniacourtrecords.us",
+  "final": "https://pennsylvaniacourtrecords.us/optout/"
+ },
+ {
+  "id": "recordsfinder",
+  "url": "https://recordsfinder.com/optout/",
+  "verdict": "DELEGATED",
+  "detail": "recordsfinder.com",
+  "final": "https://recordsfinder.com/optout/"
+ },
+ {
+  "id": "rhodeislandcourtrecord_us",
+  "url": "https://rhodeislandcourtrecords.us/optout/",
+  "verdict": "DELEGATED",
+  "detail": "rhodeislandcourtrecords.us",
+  "final": "https://rhodeislandcourtrecords.us/optout/"
+ },
+ {
+  "id": "search_quarry",
+  "url": "https://members.searchquarry.com/terms?tab=optout",
+  "verdict": "DELEGATED",
+  "detail": "members.searchquarry.com",
+  "final": "https://members.searchquarry.com/terms?tab=optout"
+ },
+ {
+  "id": "seekout",
+  "url": "https://www.seekout.com/privacy/choices",
+  "verdict": "DELEGATED",
+  "detail": "www.seekout.com",
+  "final": "https://www.seekout.com/privacy/choices/"
+ },
+ {
+  "id": "southcarolinacourtrecords_us",
+  "url": "https://southcarolinacourtrecords.us/optout/",
+  "verdict": "DELEGATED",
+  "detail": "southcarolinacourtrecords.us",
+  "final": "https://southcarolinacourtrecords.us/optout/"
+ },
+ {
+  "id": "southdakotacourtrecords_us",
+  "url": "https://southdakotacourtrecords.us/optout/",
+  "verdict": "DELEGATED",
+  "detail": "southdakotacourtrecords.us",
+  "final": "https://southdakotacourtrecords.us/optout/"
+ },
+ {
+  "id": "teads",
+  "url": "https://privacy-policy.teads.com",
+  "verdict": "DELEGATED",
+  "detail": "privacy-policy.teads.com",
+  "final": "https://privacy-policy.teads.com"
+ },
+ {
+  "id": "tennesseecourtrecords_us",
+  "url": "https://tennesseecourtrecords.us/optout/",
+  "verdict": "DELEGATED",
+  "detail": "tennesseecourtrecords.us",
+  "final": "https://tennesseecourtrecords.us/optout/"
+ },
+ {
+  "id": "texascourtrecords_us",
+  "url": "https://texascourtrecords.us/optout/",
+  "verdict": "DELEGATED",
+  "detail": "texascourtrecords.us",
+  "final": "https://texascourtrecords.us/optout/"
+ },
+ {
+  "id": "utahcourtrecords_us",
+  "url": "https://utahcourtrecords.us/optout/",
+  "verdict": "DELEGATED",
+  "detail": "utahcourtrecords.us",
+  "final": "https://utahcourtrecords.us/optout/"
+ },
+ {
+  "id": "vermontcourtrecords_us",
+  "url": "https://vermontcourtrecords.us/optout/",
+  "verdict": "DELEGATED",
+  "detail": "vermontcourtrecords.us",
+  "final": "https://vermontcourtrecords.us/optout/"
+ },
+ {
+  "id": "virginiacourtrecords_us",
+  "url": "https://virginiacourtrecords.us/optout/",
+  "verdict": "DELEGATED",
+  "detail": "virginiacourtrecords.us",
+  "final": "https://virginiacourtrecords.us/optout/"
+ },
+ {
+  "id": "washingtoncourtrecords_us",
+  "url": "https://washingtoncourtrecords.us/optout/",
+  "verdict": "DELEGATED",
+  "detail": "washingtoncourtrecords.us",
+  "final": "https://washingtoncourtrecords.us/optout/"
+ },
+ {
+  "id": "westvirginiacourtrecords_us",
+  "url": "https://westvirginiacourtrecords.us/optout/",
+  "verdict": "DELEGATED",
+  "detail": "westvirginiacourtrecords.us",
+  "final": "https://westvirginiacourtrecords.us/optout/"
+ },
+ {
+  "id": "wisconsincourtrecords_us",
+  "url": "https://wisconsincourtrecords.us/optout/",
+  "verdict": "DELEGATED",
+  "detail": "wisconsincourtrecords.us",
+  "final": "https://wisconsincourtrecords.us/optout/"
+ },
+ {
+  "id": "aberdeen",
+  "url": "https://www.aberdeen.com/do-not-sell-my-personal-information/",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.aberdeen.com/do-not-sell-my-personal-information/"
+ },
+ {
+  "id": "ach_address_clearing_house",
+  "url": "https://www.achcoop.com/do-not-sell-my-personal-info",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.achcoop.com/do-not-sell-my-personal-info"
+ },
+ {
+  "id": "acxiom",
+  "url": "https://isapps.acxiom.com/optout/optout.aspx",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://isapps.acxiom.com/optout/optout.aspx"
+ },
+ {
+  "id": "addresssearch_com",
+  "url": "https://www.addresssearch.com/remove-info.php",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.addresssearch.com/remove-info.php"
+ },
+ {
+  "id": "affinity_answers",
+  "url": "https://www.affinityanswers.com/your-privacy-choices/",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.affinityanswers.com/your-privacy-choices/"
+ },
+ {
+  "id": "alarmscalifornia",
+  "url": "http://www.alarmscalifornia.org/about",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.alarmscalifornia.org/about"
+ },
+ {
+  "id": "all_biz",
+  "url": "https://www.allbiz.com/removal",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.allbiz.com/removal"
+ },
+ {
+  "id": "americaphonebook",
+  "url": "http://www.americaphonebook.com/contact.php",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "http://www.americaphonebook.com/contact.php"
+ },
+ {
+  "id": "andrews_wharton",
+  "url": "https://www.andrewswharton.com/your-privacy-choices",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.andrewswharton.com/your-privacy-choices"
+ },
+ {
+  "id": "anywho",
+  "url": "https://www.anywho.com/optout",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.spokeo.com/optout"
+ },
+ {
+  "id": "apollo_io",
+  "url": "https://www.apollo.io/privacy-policy/remove",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.apollo.io/privacy-policy/remove"
+ },
+ {
+  "id": "arounddeal",
+  "url": "https://www.arounddeal.com/remove-profile",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.arounddeal.com/remove-profile"
+ },
+ {
+  "id": "atdata",
+  "url": "https://instantdata.atdata.com/optout",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://instantdata.atdata.com/optout"
+ },
+ {
+  "id": "awl",
+  "url": "https://dnc.allwebleads.com/Unsubscribe",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://dnc.allwebleads.com/Unsubscribe"
+ },
+ {
+  "id": "birdeye",
+  "url": "https://birdeye.com/ccpa/",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://birdeye.com/ccpa/"
+ },
+ {
+  "id": "bombora",
+  "url": "https://bombora.com/privacy-philosophy/",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://bombora.com/privacy-philosophy/"
+ },
+ {
+  "id": "builtwith",
+  "url": "https://builtwith.com/privacy",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://builtwith.com/privacy"
+ },
+ {
+  "id": "buyerlink",
+  "url": "https://www.buyerlink.co/do-not-sell-or-share-my-personal-information",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.buyerlink.co/do-not-sell-or-share-my-personal-information"
+ },
+ {
+  "id": "california_arrests",
+  "url": "https://www.californiaarrests.org/ccpaOptOut/",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.californiaarrests.org/ccpaOptOut/"
+ },
+ {
+  "id": "california_criminal_records_search",
+  "url": "https://californiacriminalrecords.org/contact",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://californiacriminalrecords.org/contact"
+ },
+ {
+  "id": "californiabrokers_org",
+  "url": "http://www.californiabrokers.org/about#contact",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.californiabrokers.org/about"
+ },
+ {
+  "id": "californiaengineering_org",
+  "url": "http://www.californiaengineering.org/about#contact",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.californiaengineering.org/about"
+ },
+ {
+  "id": "californialicensing_org",
+  "url": "http://www.californialicensing.org/about#contact",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.californialicensing.org/about"
+ },
+ {
+  "id": "californianursing_org",
+  "url": "http://www.californianursing.org/about#contact",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.californianursing.org/about"
+ },
+ {
+  "id": "californiapharmacists_org",
+  "url": "http://www.californiapharmacists.org/about#contact",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.californiapharmacists.org/about"
+ },
+ {
+  "id": "censia",
+  "url": "https://docs.google.com/forms/d/1VhF33VAQG4AmUqBWf7e3m8fw17h9ek64EtQXnuuBQcA/viewform",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://docs.google.com/forms/d/e/1FAIpQLScUgnaMXFrJ_U9CpxRgCPOrb7SfAkYOFTyxdkBDyBCRoH8bzw/viewform"
+ },
+ {
+  "id": "checkpeople",
+  "url": "https://checkpeople.com/opt-out",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://checkpeople.com/opt-out"
+ },
+ {
+  "id": "city_data_com",
+  "url": "https://www.city-data.com/delrequest/form.php",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.city-data.com/delrequest/form.php"
+ },
+ {
+  "id": "civis",
+  "url": "https://docs.google.com/forms/d/e/1FAIpQLSfvUYww9wEK9Y4F6VY3nQtm0bBS8QTdcDthet6WAKDYqnnwHA/viewform",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://docs.google.com/forms/d/e/1FAIpQLSfvUYww9wEK9Y4F6VY3nQtm0bBS8QTdcDthet6WAKDYqnnwHA/viewform"
+ },
+ {
+  "id": "cml_medical",
+  "url": "https://www.completemedicallists.com/ccpa.php",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.completemedicallists.com/ccpa.php"
+ },
+ {
+  "id": "coloradoresidentdirectory",
+  "url": "https://www.coloradoresidentdirectory.com/opt-out",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.coloradoresidentdirectory.com/opt-out"
+ },
+ {
+  "id": "connected_investors",
+  "url": "https://firstam.service-now.com/x_farf2_dp_request_fa_connected_investor.do?sysparm_id=6d6e7e8edb3e3158665f182813961985",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://firstam.service-now.com/x_farf2_dp_request_fa_connected_investor.do?sysparm_id=6d6e7e8edb3e3158665f182813961985"
+ },
+ {
+  "id": "contractorscalifornia_org",
+  "url": "http://www.contractorscalifornia.org/about#contact",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.contractorscalifornia.org/about"
+ },
+ {
+  "id": "criminalregistry_org",
+  "url": "https://criminalregistry.org/remove.php",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://criminalregistry.org/remove.php"
+ },
+ {
+  "id": "criteo",
+  "url": "https://www.criteo.com/privacy/",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.criteo.com/privacy/"
+ },
+ {
+  "id": "data_delivers",
+  "url": "https://datadelivers.com/do-not-sell-or-share-personal-information",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://datadelivers.com/do-not-sell-or-share-personal-information/"
+ },
+ {
+  "id": "data_trust",
+  "url": "https://thedatatrust.com/your-privacy-choices/",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://thedatatrust.com/your-privacy-choices/"
+ },
+ {
+  "id": "dataaxle",
+  "url": "https://www.data-axle.com/privacy-rights-request/",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.data-axle.com/privacy-rights-request/"
+ },
+ {
+  "id": "databaseusa",
+  "url": "https://privacycompliance.biz/other-dbusa/",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://privacycompliance.biz/other-dbusa/"
+ },
+ {
+  "id": "dealfront",
+  "url": "https://privacycockpit.leadfeeder.com/",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://privacycockpit.leadfeeder.com/"
+ },
+ {
+  "id": "decisionlinks",
+  "url": "https://www.decisionlinks.com/legal-pages/your-privacy-choices",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.decisionlinks.com/legal-pages/your-privacy-choices"
+ },
+ {
+  "id": "deep_sync",
+  "url": "https://privacy.deepsync.com/",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://privacy.deepsync.com/"
+ },
+ {
+  "id": "demandscience",
+  "url": "https://demandscience.com/privacy-policy/",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://demandscience.com/privacy-policy/"
+ },
+ {
+  "id": "dentistscalifornia_org",
+  "url": "http://www.dentistscalifornia.org/about#contact",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.dentistscalifornia.org/about"
+ },
+ {
+  "id": "dobsearch_com",
+  "url": "https://www.dobsearch.com/people-finder/block-record-request.php",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.dobsearch.com/how-to-find-information-someone-online/"
+ },
+ {
+  "id": "domainiq",
+  "url": "https://domainiq.com/contact",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.domainiq.com/contact"
+ },
+ {
+  "id": "dtn",
+  "url": "https://www.dtn.com/do-not-sell-my-information-form/",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.dtn.com/do-not-sell-my-information-form/"
+ },
+ {
+  "id": "e_republic",
+  "url": "https://erepublic.my.salesforce-sites.com/PrivacyRequest/",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://erepublic.my.salesforce-sites.com/PrivacyRequest/"
+ },
+ {
+  "id": "enformion",
+  "url": "https://www.enformion.com/privacy-policy/",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.enformion.com/privacy-policy/"
+ },
+ {
+  "id": "evorra",
+  "url": "https://evorra.com/opt-out/",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://evorra.com/opt-out/"
+ },
+ {
+  "id": "fastbackgroundcheck",
+  "url": "https://www.fastbackgroundcheck.com/optout",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.fastbackgroundcheck.com/optout"
+ },
+ {
+  "id": "fifty",
+  "url": "https://fifty.io/opt-out",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://fifty.io/opt-out"
+ },
+ {
+  "id": "firearmscalifornia_org",
+  "url": "http://www.firearmscalifornia.org/about#contact",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.firearmscalifornia.org/about"
+ },
+ {
+  "id": "floridaparcels_com",
+  "url": "https://floridaparcels.com/redaction/",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://floridaparcels.com/redaction/"
+ },
+ {
+  "id": "fmadata",
+  "url": "https://www.fmadata.com/opt-out-requests/new",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.fmadata.com/opt-out-requests/new"
+ },
+ {
+  "id": "focus_usa",
+  "url": "https://www.focus-usa.com/optout-form/",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.focus-usa.com/your-privacy-choices/"
+ },
+ {
+  "id": "foller_me",
+  "url": "https://foller.me/do-not-sell.html",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://foller.me/do-not-sell"
+ },
+ {
+  "id": "free_people_directory",
+  "url": "https://www.freepeopledirectory.com/optout",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.freepeopledirectory.com/optout"
+ },
+ {
+  "id": "freebackgroundchecks_com",
+  "url": "https://freebackgroundchecks.com/optout/",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://freebackgroundchecks.com/optout/"
+ },
+ {
+  "id": "glad_i_know",
+  "url": "https://gladiknow.com/opt-out",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://gladiknow.com/opt-out"
+ },
+ {
+  "id": "governmentregistry_org",
+  "url": "https://www.governmentregistry.org/opt-out",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://governmentregistry.org/opt-out"
+ },
+ {
+  "id": "grassroots_analytics",
+  "url": "https://www.grassrootsanalytics.com/california-consumer-privacy-act-ccpa",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.grassrootsanalytics.com/california-consumer-privacy-act-ccpa"
+ },
+ {
+  "id": "idm",
+  "url": "https://idm.us.com/do-not-sell-my-personal-information/",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://idm.us.com/do-not-sell-my-personal-information/"
+ },
+ {
+  "id": "infofree",
+  "url": "https://privacycompliance.biz/other-infofree/",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://privacycompliance.biz/other-infofree/"
+ },
+ {
+  "id": "infopay",
+  "url": "https://www.infopay.com/contact",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.infopay.com/contact"
+ },
+ {
+  "id": "information_com",
+  "url": "https://information.com/opt-out",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://information.com/opt-out"
+ },
+ {
+  "id": "intentgine",
+  "url": "https://intentgine.com/ccpa-privacy/",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://intentgine.com/ccpa-privacy/"
+ },
+ {
+  "id": "kids_live_safe",
+  "url": "https://www.kidslivesafe.com/help-center/privacy-requests",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.kidslivesafe.com/help-center/privacy-requests"
+ },
+ {
+  "id": "leadership_connect",
+  "url": "https://leadershipconnect.io/opt-out/",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://leadershipconnect.io/opt-out/"
+ },
+ {
+  "id": "licensefiles",
+  "url": "https://licensefiles.com/pg/contact",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://licensefiles.com/pg/contact"
+ },
+ {
+  "id": "locate_friend",
+  "url": "https://locate-friend.com/optout",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://locate-friend.com/optout"
+ },
+ {
+  "id": "lusha",
+  "url": "https://lusha.com/privacy",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.lusha.com/privacy-center/"
+ },
+ {
+  "id": "matchbook",
+  "url": "https://www.matchbookdata.com/your-privacy-choices/",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.matchbookdata.com/your-privacy-choices/"
+ },
+ {
+  "id": "mch",
+  "url": "https://www.mchdata.com/about/ccpaemail",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.mchdata.com/about/ccpaemail"
+ },
+ {
+  "id": "mightyrep",
+  "url": "https://www.mightyrep.com/contact",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://mightyrep.com/contact/"
+ },
+ {
+  "id": "mineralholders",
+  "url": "https://www.mineralholders.com/opt-out",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.mineralholders.com/opt-out"
+ },
+ {
+  "id": "nevada_arrests",
+  "url": "https://www.nevadaarrests.org/contact-form",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.nevadaarrests.org/contact-form"
+ },
+ {
+  "id": "notariescalifornia_com",
+  "url": "http://www.notariescalifornia.com/about",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.notariescalifornia.com/about"
+ },
+ {
+  "id": "numlookup",
+  "url": "https://www.numlookup.com/opt_out",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.numlookup.com/opt_out"
+ },
+ {
+  "id": "openpublicrecords",
+  "url": "https://www.open-public-records.com/records_removal.htm",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.open-public-records.com/records_removal.htm"
+ },
+ {
+  "id": "optimal",
+  "url": "https://www.dspolitical.com/opt-out/",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.dspolitical.com/opt-out/"
+ },
+ {
+  "id": "ourstates",
+  "url": "https://ourstates.org",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://ourstates.org"
+ },
+ {
+  "id": "pacificeast",
+  "url": "https://www.pacificeast.com/contact-us-privacy/",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.pacificeast.com/contact-us-privacy/"
+ },
+ {
+  "id": "pbi_research",
+  "url": "https://www.pbinfo.com/crf/",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://pbinfo.com/crf/"
+ },
+ {
+  "id": "phonenumberinfo_us",
+  "url": "https://phonenumberinfo.us/contact.php",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://phonenumberinfo.us/contact.php"
+ },
+ {
+  "id": "pipl",
+  "url": "https://pipl.com/personal-information-removal-request",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://pipl.com/personal-information-removal-request"
+ },
+ {
+  "id": "possiblenow",
+  "url": "https://www.possiblenow.com/do-not-sell-my-personal-information",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.possiblenow.com/do-not-sell-my-personal-information"
+ },
+ {
+  "id": "postie",
+  "url": "https://optout.postie.com/",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://optout.postie.com/"
+ },
+ {
+  "id": "propertychecker",
+  "url": "https://propertychecker.com/optout",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://propertychecker.com/optout"
+ },
+ {
+  "id": "propertyrecord_com",
+  "url": "https://dashboard.propertyrecord.com/opt-out",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://dashboard.propertyrecord.com/opt-out"
+ },
+ {
+  "id": "propertyrecs",
+  "url": "https://dashboard.propertyrecs.com/opt-out",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://dashboard.propertyrecs.com/opt-out"
+ },
+ {
+  "id": "public_data_check",
+  "url": "https://www.publicdatacheck.com/help-center/privacy-requests",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.publicdatacheck.com/help-center/privacy-requests"
+ },
+ {
+  "id": "public_information_services",
+  "url": "https://www.publicinfoservices.com/help-center/privacy-requests",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.publicinfoservices.com/help-center/privacy-requests"
+ },
+ {
+  "id": "public_record_reports",
+  "url": "https://www.publicrecordreports.com/help-center/privacy-requests",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.publicrecordreports.com/help-center/privacy-requests"
+ },
+ {
+  "id": "publicrecords_us",
+  "url": "https://dashboard.publicrecords.us/opt-out",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://dashboard.publicrecords.us/opt-out"
+ },
+ {
+  "id": "quick_people_trace",
+  "url": "https://www.usatrace.com/your-privacy/",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.usatrace.com/your-privacy/"
+ },
+ {
+  "id": "quick_public_records",
+  "url": "https://www.quickpublicrecords.com/help-center/privacy-requests",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.quickpublicrecords.com/help-center/privacy-requests"
+ },
+ {
+  "id": "researchusa",
+  "url": "https://privacycompliance.biz/other-researchusallc/",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://privacycompliance.biz/other-researchusallc/"
+ },
+ {
+  "id": "retention_com",
+  "url": "https://app.retention.com/optout/",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://app.retention.com/optout/"
+ },
+ {
+  "id": "round_sky",
+  "url": "https://www.roundsky.com/supplemental-privacy-notice/contact.php",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.roundsky.com/supplemental-privacy-notice/contact.php"
+ },
+ {
+  "id": "searchpeoplefree",
+  "url": "https://www.searchpeoplefree.com/opt-out",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.searchpeoplefree.com/opt-out"
+ },
+ {
+  "id": "searchsystems_public_records",
+  "url": "https://publicrecords.searchsystems.net/opt-out.php",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.searchsystems.net/privacy"
+ },
+ {
+  "id": "searchusapeople",
+  "url": "https://www.searchusapeople.com/data-removal-request/",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.searchusapeople.com/data-removal-request/"
+ },
+ {
+  "id": "sharethis",
+  "url": "https://sharethis.com/do-not-sell-my-data-page/",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://sharethis.com/do-not-sell-my-data-page/"
+ },
+ {
+  "id": "shopify",
+  "url": "https://privacy.shopify.com/en/dsr_submission/subject_types?selected=erasure",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://privacy.shopify.com/en/subject_types?selected=erasure"
+ },
+ {
+  "id": "snov_io",
+  "url": "https://snov.io/do-not-sell-my-personal-information",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://snov.io/do-not-sell-my-personal-information"
+ },
+ {
+  "id": "socialcatfish",
+  "url": "https://socialcatfish.com/opt-out/?id=request_optout",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://socialcatfish.com/opt-out/?id=request_optout"
+ },
+ {
+  "id": "sourceit",
+  "url": "https://www.sourceitmarketing.com/privacy",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.sourceitmarketing.com/privacy/"
+ },
+ {
+  "id": "spokeo",
+  "url": "https://www.spokeo.com/optout",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.spokeo.com/optout"
+ },
+ {
+  "id": "spydialer",
+  "url": "https://www.spydialer.com/optout.aspx",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.spydialer.com/consumers/"
+ },
+ {
+  "id": "staterecords_org",
+  "url": "https://staterecords.org/optout",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://staterecords.org/optout"
+ },
+ {
+  "id": "sync_me",
+  "url": "https://sync.me/unsubscribe/",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://sync.me/unsubscribe/"
+ },
+ {
+  "id": "tagx",
+  "url": "https://tagxdata.com/contact",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.tagxdata.com/contact"
+ },
+ {
+  "id": "texas_arrest_warrants_search",
+  "url": "https://texasarrestwarrants.org/contact",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://texasarrestwarrants.org/contact"
+ },
+ {
+  "id": "ufind_name",
+  "url": "https://ufind.name/opt-out",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://ufind.name/opt-out"
+ },
+ {
+  "id": "unitedstatesphonebook_com",
+  "url": "http://www.unitedstatesphonebook.com/contact.php",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "http://www.unitedstatesphonebook.com/contact.php"
+ },
+ {
+  "id": "us_marketing_group",
+  "url": "https://usmarketinggrp.com/privacy-policy/",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://usmarketinggrp.com/privacy-policy/"
+ },
+ {
+  "id": "usa_people_search",
+  "url": "https://www.usa-people-search.com/removal",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.usa-people-search.com/removal"
+ },
+ {
+  "id": "usatrace",
+  "url": "https://www.usatrace.com/your-privacy/",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.usatrace.com/your-privacy/"
+ },
+ {
+  "id": "usdatacorporation",
+  "url": "https://www.usdatacorporation.com/opt-out",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.usdatacorporation.com/opt-out"
+ },
+ {
+  "id": "verifyrecords",
+  "url": "https://members.verifyrecords.com/customer/opt-out",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://members.verifyrecords.com/customer/opt-out"
+ },
+ {
+  "id": "vermont_arrests",
+  "url": "https://members.infotracer.com/removeMyData",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://members.infotracer.com/removeMyData"
+ },
+ {
+  "id": "verve_for_advertisers",
+  "url": "http://www.jungroup.com/ccpa",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "http://jungroup.com/ccpa"
+ },
+ {
+  "id": "yellow_pages_directory",
+  "url": "https://www.yellowpagesdirectory.com/support.php",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.yellowpagesdirectory.com/support.php"
+ },
+ {
+  "id": "zlookup",
+  "url": "https://www.zlookup.com/opt_out",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://www.zlookup.com/opt_out"
+ },
+ {
+  "id": "corporationwiki",
+  "url": "https://www.corporationwiki.com/profiles/public",
+  "verdict": "HTTP-410",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "domainbigdata",
+  "url": "https://domainbigdata.com/",
+  "verdict": "HTTP-530",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "idcaller",
+  "url": "https://idcaller.com",
+  "verdict": "HTTP-503",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "real_performance_marketing",
+  "url": "https://rpmleader.com/privacy-policy/",
+  "verdict": "HTTP-500",
+  "detail": "",
+  "final": ""
+ }
+]

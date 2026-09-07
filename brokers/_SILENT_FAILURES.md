@@ -25021,3 +25021,70 @@ company to confirm — volunteered in writing before anyone asked. It means the
 opt-out here is a lease, not an outcome, and this row gets re-checked rather
 than closed. Credit where it is due: most companies leave that to be
 discovered by the person it happens to.
+
+## 389. The scanner that manufactured its own finding
+
+§388 showed that "does the URL resolve" is not enough to know whether a removal
+route exists, so I wrote scripts/route_has_form.py to ask a better question:
+is there anything on the page a person could USE — a form, a delegated privacy
+portal, a privacy mailto, or failing those, prose that is at least about
+removal rather than about people.
+
+The first run reported 110 OFF-TOPIC routes out of 489. That would have been
+the largest single finding in this file.
+
+It was almost entirely wrong, in three separate ways, and every one of them was
+mine rather than the brokers'.
+
+FIRST, AND WORST: I fetched one URL per broker. Whole families share a single
+route — fifty state-arrest sites are served by one page at one host. Fetching
+per broker meant fifty concurrent requests at that host, which rate-limited,
+which the scanner then recorded as fifty brokers with an off-topic route. The
+page said, in plain English, "Sorry this page was requested too many times."
+The scanner had created the condition it was measuring and then reported it as
+a fact about fifty companies.
+
+SECOND: no gzip handling. urllib does not decompress, and some servers gzip
+regardless of what you ask for. Two routes arrived as binary, which every text
+check read as gibberish and reported as an off-topic page.
+
+THIRD: no distinction between "this page is about something else" and "this
+page has not rendered yet." Client-side apps serve a shell — "Loading...",
+"Checking for any bots", a React boilerplate title, or an empty body — and 78
+routes were being called off-topic for the crime of using JavaScript.
+
+After fixing all three: OFF-TOPIC fell from 110 to 12. So 98 of the original
+110 were artefacts of the instrument.
+
+WHAT THE FIXES WERE, since they generalise:
+  - Fetch each DISTINCT URL once and fan the verdict out to every broker that
+    shares it. This is both the rate-limit fix and simply correct: 489 broker
+    rows are 430-odd distinct routes.
+  - Declare Accept-Encoding AND decode it.
+  - Add verdicts that are honest about not knowing. JS-SHELL and RATE-LIMITED
+    are not verdicts about the route at all; they mean ASK AGAIN, not "no
+    route here." A scanner that can only say pass or fail will lie whenever
+    the truth is "I could not tell."
+
+THE RULE, which is §368's twin: a scanner's output is a claim about the world
+made by a program you wrote, and the program is the least examined part of the
+system. §368 was the scanner exempting itself from its own check. This is the
+scanner's method contaminating its own result. Before reporting a number that
+would be the largest finding of the week, try to break it — and be most
+suspicious when the finding is large, clean, and flattering to the effort that
+produced it.
+
+WHAT SURVIVED, AND IT IS WORTH HAVING
+  - ONE PAGE SERVES FIFTY BROKER ROWS. infotracer.com/optout/ is the recorded
+    route for fifty state-arrest sites plus infotracer itself. If that opt-out
+    genuinely covers the family, fifty rows close on one submission. If it does
+    not, fifty sites are pointing consumers at a form that cannot help them.
+    Either answer is worth more than the fifty rows were.
+  - 12 real OFF-TOPIC routes, and most are the same mistake: someone recorded
+    a company's general PRIVACY POLICY as the removal route. A policy page is
+    not a route; it is a document about routes.
+  - Several people-search sites whose /optout renders the product homepage —
+    §388's shape again, which PRODUCT-PAGE failed to catch because it only
+    looks for surname-listing language. The detector needs widening.
+  - 125 routes with a real form, 65 delegated to a named portal, 9 with a
+    privacy mailto: the majority of recorded routes are genuinely usable.
