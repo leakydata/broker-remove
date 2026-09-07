@@ -26304,3 +26304,62 @@ A regex over notes measures the vocabulary of whoever wrote the notes, not the
 world. It is a fine tool for FINDING candidate rows — all four of these were
 useful for that. It is not a tool for counting them. Where a number is going to
 be stated, the rows behind it get read, or the number does not get stated.
+
+## 411. The durability audit, done by reading
+
+§410 refused to report 41 and said the real count required reading sixty-nine
+notes rather than grepping them. So they were read. All sixty-nine.
+
+    22   THE COMPANY STATED A FORWARD-LOOKING SUPPRESSION, in its own words
+    23   ASKED AND STILL OPEN — the gap is known and recorded on the row
+    24   NEITHER STATED NOR ASKED
+
+The grep said 41 had nothing. The true figure for "nothing, and nobody asked"
+is 24 — and 23 more are not gaps in the evidence at all, they are gaps in the
+answer, already chased and on the record.
+
+THE BEST ANSWER ANY COMPANY HAS GIVEN, and the one worth quoting at every other
+company from now on, is Speedeon's, volunteered without being asked:
+
+    "we will retain your name and address on our Privacy Suppression file to
+     ensure that we continue to delete your records from any new data files we
+     receive from our vendors."
+
+That is the whole concept in one sentence: the retention is minimal, its
+purpose is stated, and it fires against INCOMING VENDOR FILES rather than
+against the existing database. A deletion cleans what is there; only that
+sentence stops what is coming.
+
+Others that answered properly, in their own words:
+
+    catalist      "maintains a suppression list and we will only retain enough
+                   to ensure your information is not reintroduced"
+    kaspr         a suppression list "holding only the minimum needed to
+                   prevent reintroduction"
+    findem        "added to our blocklist which will ensure you will not be
+                   contacted in the future"
+    revelio_labs  "fully suppressed unless someone changes their professional
+                   profile URL and we can't connect it to the old one"
+    altair        the request "retained as a forward filter against future
+                   supplier feeds"
+    affinity      "added your IDs to an exclusion list, so that no data with
+                   your IDs will be retained"
+
+And the honest counter-example, which belongs here too: the PeopleConnect
+brands (Intelius, InstantCheckmate, TruthFinder, USSearch) apply a DISPLAY
+SUPPRESSION rather than a deletion, and said why — "background reports are
+compiled in real time via live calls to data providers... because we don't
+retain reports, we cannot delete them." That is durability answered honestly in
+the negative, and it is more useful than a confident "deleted".
+
+THE 24 WITH NOTHING are not a scandal. Most are small operators whose entire
+reply was one line confirming a removal, and asking a follow-up question of
+every one of them would be exactly the volume §398 refused. What the number
+does is make the shape of the ledger honest: a third of this project's
+confirmed removals rest on a statement about the day it was made, with nothing
+said about the next rebuild — and now that is written down rather than assumed
+either way.
+
+WHAT CHANGES: the durability question joins the supply-chain question in
+_SUPPLY_CHAIN.md as a standing ask, carried by every future letter and by any
+thread that reopens on its own. Not a campaign of twenty-four letters.

@@ -94,6 +94,35 @@ Three sentences, added to any letter to a company that resells or licenses:
     from those suppliers? If nothing persists to exclude me, the removal lasts
     until the next load — which is worth knowing either way.
 
+## The second standing ask: does it survive the rebuild
+
+A deletion cleans what is in the database today. It says nothing about the file
+arriving tomorrow. Add to any letter where a removal has been confirmed:
+
+    A deletion removes what you hold now. It does not stop the same record
+    arriving again in the next file you receive from a supplier, because
+    nothing remains in your systems that recognises me as someone who asked.
+
+    Do you retain a minimal suppression entry -- a hash or key, used for
+    nothing else -- that is checked against INCOMING data rather than only
+    applied to existing records? Cal. Civ. Code 1798.105(d)(1) expressly
+    permits retaining what is necessary to give effect to the request.
+
+    If nothing persists, please say so plainly. That is a real answer, I will
+    record it as yours, and it tells me to re-check rather than assume the
+    matter is closed.
+
+THE MODEL ANSWER, volunteered unprompted by Speedeon Data, is worth quoting to
+companies that hesitate:
+
+    "we will retain your name and address on our Privacy Suppression file to
+     ensure that we continue to delete your records from any new data files we
+     receive from our vendors."
+
+Audited 2026-09-07 across all 69 confirmed rows, by reading them: 22 companies
+have stated a forward-looking suppression, 23 have been asked and not answered,
+24 have neither. See _SILENT_FAILURES 411.
+
 ## What this file is for
 
 Every entry above is a company that can be written to BECAUSE another company
