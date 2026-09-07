@@ -25854,3 +25854,39 @@ broken contact link looks exactly like nobody writing to them. And it is the
 first case where a consumer exercising a privacy right could have their data
 land somewhere neither party intended, by clicking the link the company itself
 published. Whenever a mailto is the route, check the href, not the text.
+
+## 403. A completion notice is a workflow event, not an outcome
+
+Adsquare's portal sent "Your privacy-related request (Request ID: 8WN6LE4TGK)
+has been completed" at 12:30. That was recorded as `confirmed`, with a note
+saying honestly that "completed" does not distinguish a deletion from a nil.
+
+The substantive message arrived thirty minutes later:
+
+    "we received your Data Subject Request and did not find any match in our
+     databases. Therefore, we confirm that Adsquare does not process any
+     personal data associated with the personal data provided."
+
+A nil, not a deletion. So the row is `not_found`, and had the correction not
+been made, this project's count of confirmed removals would have included a
+company that removed nothing because it held nothing.
+
+THE RULE: a portal completion notice is a state change in the company's ticket
+system. It says the workflow finished. It says nothing about what the workflow
+found, and the two arrive in separate emails often enough that the first should
+never be characterised on its own. WAIT FOR THE PROSE.
+
+A TOOLING GAP, RECORDED BECAUSE IT WILL RECUR. tracker.py correctly refused to
+move the row from `confirmed` to `not_found`, on the reasoning that a settled
+outcome cost real work and new activity is usually a follow-up rather than a
+reversal. That guard is right and has caught real errors. But its only override
+is `--regressed`, which asserts that THE BROKER re-added the data or withdrew
+the confirmation. Adsquare did neither. What happened is that I classified my
+own evidence wrongly and then got better evidence.
+
+The tracker has no verb for "I was wrong." So `--regressed` was used with a
+note whose first line says it is not a regression — which works, and which
+will read as a contradiction to anyone scanning statuses rather than notes. The
+honest fix is a `--corrected` flag that records a reclassification without
+implying the company did anything. Noted rather than built, because changing the
+tool mid-run to make a commit pass is how gates stop meaning anything (§367).
