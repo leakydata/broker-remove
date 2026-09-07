@@ -25364,6 +25364,14 @@ Across 864 rows at status `submitted`:
 So slightly over half of everything this project calls "submitted" is standing
 on its own outbox.
 
+NUMBERS CORRECTED THE SAME NIGHT — see §399. The classifier had false
+negatives and these figures were pessimistic. Corrected: `submitted` is 47.3%
+corroborated against 50.6% resting on a send. The headline claim survives
+almost unchanged. What changed materially is the closed statuses, which this
+entry never measured: `confirmed` is 92.8% corroborated with NONE resting on a
+send, and `not_found` is 93.9%. That is the more useful pair of numbers and
+§399 explains why.
+
 ONE THING THE SCRIPT GETS RIGHT THAT IS EASY TO GET WRONG. Many rows carry a
 `refs` value like `gmail:1a040af3bd84a3b7`. That looks like corroboration and
 is not: it is the message id of OUR OWN SENT LETTER. It proves a send. It
@@ -25628,3 +25636,58 @@ of an unanswered one is the same failure in miniature.
 The rest wait until those two answer. If the reset generalises, the question
 will be worth asking properly; if it does not, sixty letters would have been
 sixty apologies.
+
+## 399. The audit that undercounted its own evidence
+
+§394 measured how much of `submitted` rests on the company having done
+something rather than on this project having sent something, and reported 44%
+corroborated. Running the same instrument over the CLOSED statuses — the ones
+that make an actual claim about an outcome — flagged four `confirmed` rows as
+resting on a send and nothing else. `confirmed` is the strongest word in this
+vocabulary, so four unevidenced ones would have been serious.
+
+They were not unevidenced. Every one quotes the company's own words:
+
+    "we have checked our systems and we have deleted all your data.
+     Additionally, we have added your IDs to an exclusion list"
+    "We have deleted any information we had about you. We agree not to..."
+    "we LOCATED TWO RECORDS associated with your name and prior Pennsylvania
+     addresses"
+    four completion emails, two opt-out and two deletion, confirmed separately
+
+The classifier missed all four because its "did something come back" pattern
+looked for words like `replied`, `acknowledged`, `their response` — the
+language of DESCRIBING a reply — and never for the language of a company
+SPEAKING. A note that quotes "we have deleted all your data" contains stronger
+evidence than one that says "they replied", and scored lower.
+
+Fixed by matching first-person-plural company statements (we have / we located
+/ we deleted / our systems / has been completed / unable to locate) and by
+treating a quoted sentence containing "we" or "our" as evidence in itself.
+
+CORRECTED FIGURES
+
+                    before          after
+    confirmed       85.5%           92.8%   corroborated, none uncorroborated
+    not_found       75.8%           93.9%
+    submitted       44.0%           47.3%
+
+THE HEADLINE SURVIVES: roughly half of `submitted` still rests on this
+project's own outbox, and §394's point stands. What changed is the part §394
+never measured, and it is the part worth quoting: THE ROWS THIS PROJECT CALLS
+FINISHED REST ON THE COMPANY'S OWN WORDS ABOUT 93% OF THE TIME. "Sent" and
+"finished" are different claims with very different evidential backing, and
+both are now measured rather than one standing in for the other.
+
+THE LESSON, which is §389's again in a third costume: an instrument built to
+detect a failure will find the failure it was built to detect and miss
+everything shaped differently. §389's scanner manufactured findings that were
+not there. This one erased findings that were. Both were wrong in the
+direction the author was looking. The check that catches it is the same in both
+cases — take the rows the instrument flags and READ THEM, before believing a
+number computed from them.
+
+And a smaller note on which direction the error ran. §389's mistake was
+flattering to the effort that produced it; this one was the opposite, making
+the project's own record look worse than it was. Being wrong pessimistically
+feels like rigour and is not. It is the same failure to check.

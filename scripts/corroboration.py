@@ -25,7 +25,19 @@ REPLIED = re.compile(
     r"\breplied\b|\breply\b|\bthey (?:said|wrote|answered|confirmed|told)\b|"
     r"\bauto[- ]?repl|\backnowledg|\bconfirmed by\b|\banswered\b|"
     r"\bresponded\b|\btheir (?:reply|answer|response)\b|"
-    r"\bwe (?:have )?(?:received|completed)\b", re.I)
+    r"\bwe (?:have )?(?:received|completed)\b|"
+    # a company speaking in the first person plural, quoted back into the note.
+    # These were missed on the first pass and four `confirmed` rows that quote
+    # an actual deletion were being scored as uncorroborated. See SF 399.
+    r"\bwe (?:have|had|are|do not|don't|located|deleted|checked|agree|confirm)\b|"
+    r"\bwe(?:'ve| have) (?:added|processed|removed|suppressed)\b|"
+    r"\bour systems\b|\bcompletion email|\bhas been completed\b|"
+    r"\bunable to (?:locate|find)\b|\bno (?:records?|match|data) (?:were |was )?found\b",
+    re.I)
+
+# a sentence quoted from the company is itself evidence something came back
+QUOTED = re.compile(r"[\"'‘’“”][^\"'‘’“”]{25,}"
+                    r"[\"'‘’“”]")
 BOUNCE = re.compile(r"\bbounce|\b550\b|\b451\b|mailbox is full|address not found", re.I)
 VERBATIM = re.compile(r"['\"‘’“”]")
 
@@ -48,6 +60,9 @@ def classify(rec):
         return "corroborated", "ticket or case number in note"
     if REPLIED.search(note):
         return "corroborated", "reply described in note"
+    if QUOTED.search(note) and re.search(r"\bwe\b|\bour\b|\byour (?:request|data|information)\b",
+                                        note, re.I):
+        return "corroborated", "company sentence quoted in note"
     if BOUNCE.search(note):
         return "adverse", "the only thing that came back was a bounce"
     if len(hist) > 2:
