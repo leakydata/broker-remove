@@ -29,3 +29,6 @@ data/policy_scope_*.json
 *.bak-*
 *.backup
 data/*.json.bak*
+
+# derived: embeds the subject name in every search URL
+data/reverify.json

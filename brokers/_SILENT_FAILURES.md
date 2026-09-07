@@ -26178,3 +26178,69 @@ being believed.
 THE RULE THIS LEAVES: a detector's first output is a draft. Read the rows it
 flags — all of them, if there are few enough — before recording the count
 anywhere. The count is the last thing to trust, not the first.
+
+## 409. Nobody has checked whether the removals held
+
+Every `confirmed` row in this project is a claim about the day it was made. A
+people-search index is rebuilt from supplier feeds on a cycle, and §396, §398
+and §400 all converge on the same question — does a suppression persist, or
+does the record come back? Twenty-four closed people-search rows, and not one
+has ever been re-checked.
+
+scripts/reverify_listings.py was written to check. Read-only: the same public
+search a stranger could run, no form submitted, no identifier sent that the
+site does not already claim to hold.
+
+ON THE OBJECTION, because it is a real one. Searching for the subject at a
+company we have asked to hold less is itself a small exposure — a log line at a
+firm that sells search data. Set against it: without checking, every
+`confirmed` row stays a claim about August. The project already resolved this
+once in favour of checking (§401 records two self-verified nils established
+exactly this way), and a verification that can be re-run is worth more than a
+confirmation that cannot.
+
+THE SWEEP PRODUCED NOTHING USABLE, AND THAT IS THE FINDING.
+
+    4  HTTP-403        bot detection: checkpeople, instantcheckmate,
+                       truthfinder, whitepages
+    5  HTTP-404        my URL templates were guesses and were wrong
+    1  binary noise    radaris returned an undecodable body
+
+Zero usable verdicts on the first run. Two of those three causes were mine.
+
+    THE ENCODING BUG WAS A REPEAT. Asking for gzip made radaris return
+    something this client could not decode; plain curl with no Accept-Encoding
+    gets clean HTML from the same URL. §389 fixed exactly this in
+    route_has_form and the fix was never carried across. Now fixed by asking
+    for `identity` — the pages are small and the point is to read them, not to
+    save bytes. A bug fixed in one script is not fixed.
+
+    AND THEN THE WORST ONE. With encoding fixed, radaris came back LISTED —
+    which would have meant a confirmed removal had been undone. It had not.
+    radaris.com/p/<first>/<last>/ is a DIRECTORY PAGE FOR EVERYONE OF THAT
+    NAME: 233 in this state alone, none of them the subject. His city appears
+    ZERO times on it, and the one string on the page that looks like his
+    postcode is a patent application number.
+
+    The check was matching a name and some profile furniture and calling that a
+    person. §380 and §388 are both about exactly this — a result at the wrong
+    granularity is not an answer — and I wrote them both. Fixed: LISTED now
+    requires the name AND the subject's own city or ZIP; a name page without
+    the locality is reported as NAME-ONLY, which is not a listing.
+
+WHAT THE HONEST CONCLUSION IS
+
+Scripted re-verification of people-search listings does not work. Four of the
+major sites block automation outright, and the ones that do not need per-site
+URL discovery that requires fetching pages which also block automation. The
+durability question — did the removal hold — CANNOT BE ANSWERED BY THE PERSON
+WHO ASKED, from a script, at any of the sites that matter most.
+
+That is worth stating plainly because it is the same asymmetry as §404's timer
+and §406's silent form: the consumer cannot see the outcome of their own
+request. Here they cannot even see the thing the request was about.
+
+It belongs in the handoff queue as ONE batched browser task — open each site
+once, look, record — rather than twenty-four separate items. The script remains
+useful for the sites that do answer, and its verdicts are now honest about what
+they cannot see.
