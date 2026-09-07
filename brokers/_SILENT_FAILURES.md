@@ -26244,3 +26244,63 @@ It belongs in the handoff queue as ONE batched browser task — open each site
 once, look, record — rather than twenty-four separate items. The script remains
 useful for the sites that do answer, and its verdicts are now honest about what
 they cannot see.
+
+## 410. The fourth over-reporting classifier in one day
+
+The durability question — does a suppression survive the next rebuild — is the
+thread running through §396, §398, §400 and §409. So the obvious measurement:
+of the 69 `confirmed` rows, how many have any evidence that the removal
+persists?
+
+The classifier said 41 had none. Fifty-nine per cent of every confirmed removal
+in the project, unevidenced against the question that decides whether it means
+anything. That would have been the finding of the week.
+
+Then I read nine of the forty-one.
+
+    bdex          "ALL TWELVE opted out from future use in the platform,
+                   i.e. standing suppression applied to addresses they did
+                   not hold"
+    sourceit      the suppression hash "applies to them all"
+    findem        "added to our blocklist which will ensure you will not be
+                   contacted in the future"
+    revelio_labs  "Fully suppressed unless someone changes their professional
+                   profile URL"
+    instantcheckmate  a family-wide display suppression
+
+Five of nine had exactly the evidence the classifier said was missing. It was
+looking for words like "survives", "persist" and "re-ingest" — the vocabulary
+of the QUESTION — and these notes carry the vocabulary of the ANSWER:
+blocklist, standing, future use, fully suppressed.
+
+The four that genuinely lack it (trestle, alliant, tunnl, national_public_data)
+are real, and the last of those already records the gap in its own note.
+
+SO THE NUMBER 41 IS NOT REPORTED ANYWHERE, and the honest statement is: many
+confirmed rows have no durability evidence, the true count is materially lower
+than 41, and establishing it requires reading sixty-nine notes rather than
+grepping them.
+
+THE PATTERN, WHICH IS NOW THE POINT OF THIS ENTRY
+
+Four keyword classifiers written in one day. Every one over-reported:
+
+    route_has_form   110 off-topic routes    -> 12       (§389)
+    route_has_form    14 redirect-aways      -> 5        (§408)
+    reverify          1 LISTED               -> 0        (§409)
+    durability        41 unevidenced         -> far fewer (here)
+
+Each was caught the same way: by reading the rows it flagged. None was caught
+by the code. And in each case the wrong number was the more interesting one,
+which is exactly why it survived long enough to be nearly written down.
+
+The rule from §389 was "be suspicious of a large clean finding". §408 sharpened
+it to "a detector's first output is a draft". Four in a day says something
+stronger is needed:
+
+    DO NOT COMPUTE A COUNT OVER FREE TEXT AND REPORT IT.
+
+A regex over notes measures the vocabulary of whoever wrote the notes, not the
+world. It is a fine tool for FINDING candidate rows — all four of these were
+useful for that. It is not a tool for counting them. Where a number is going to
+be stated, the rows behind it get read, or the number does not get stated.
