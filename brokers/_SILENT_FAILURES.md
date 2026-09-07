@@ -25088,3 +25088,78 @@ WHAT SURVIVED, AND IT IS WORTH HAVING
     looks for surname-listing language. The detector needs widening.
   - 125 routes with a real form, 65 delegated to a named portal, 9 with a
     privacy mailto: the majority of recorded routes are genuinely usable.
+
+## 390. Fifty-two brokers that were one search box and a commission
+
+§389's scanner found that fifty-three rows in this project share a single
+recorded removal route. That was flagged as the one surviving finding worth
+having, on the reasoning that either fifty-three rows close on one submission
+or fifty-three sites are pointing consumers at a form that cannot help them.
+
+Neither. They are not brokers.
+
+Their own footer says so, and says it plainly:
+
+    "The owners of this site do not own the records found on this site or any
+    public records database. All records presented on this site are gathered
+    from third party databases that are not controlled by the owners of this
+    site... The website owners receive compensation if you complete a
+    registration through our website."
+
+Fifty-two state-arrest and warrant-search domains, each with its own name, its
+own state, its own copyright line going back to 2011 — and each one a search
+box that hands the visitor to InfoPay and takes a cut of the registration.
+There is no record behind them to delete. A deletion request sent to
+pennsylvaniaarrests.org is addressed to a referral link.
+
+THE UPSTREAM WAS ALREADY CLOSED, which is what makes this resolvable rather
+than merely disappointing. InfoPay answered completely under ticket 544087:
+zero records under the subject's identifiers, the identifiers and record
+categories named, and suppression re-applied on each subsequent ingestion. And
+their scope reasoning was checkable rather than an assurance — "a record cannot
+appear on a redirect or sibling brand without first existing on InfoPay."
+These fifty-two sit downstream of exactly that. So the fifty-two close on
+evidence, not on a shrug.
+
+WHAT THE SWEEP OF ALL FIFTY-THREE DOMAINS ACTUALLY FOUND, because the shared
+route turned out to be an inference rather than an observation:
+
+    22  publish their own /privacy-request-portal — a WPForms form with a
+        CAPTCHA, offering Know / Opt Out / Correct / Delete
+    27  return 404 on that path
+     3  return a page with no form on it
+
+The family is not uniform. One route had been recorded against all fifty-three
+because they share an operator, and nobody had checked.
+
+TWO THINGS THAT MATTER MORE THAN THE COUNT.
+
+FIRST, THE PORTALS THAT EXIST GOVERN THE WRONG PERSON. Their own copy says the
+data covered is "your email address, search history, payment records, and other
+data from using the site." That is the VISITOR's data. It is not the arrest
+record about the SUBJECT, which is the thing anyone arrives at that page
+wanting removed. For someone who has never used the site — which is everyone
+who is on it involuntarily — the portal is a well-built form for a question
+they are not asking. It would answer honestly and change nothing.
+
+SECOND, THE SUBJECT'S OWN STATE SITE HAS NO PORTAL AT ALL.
+pennsylvaniaarrests.org is one of the twenty-seven 404s. The site publishing
+Pennsylvania arrest records offers a Pennsylvanian a privacy policy and nothing
+else. Which state you live in determines whether the operator has bothered to
+deploy a form, and there is no pattern to it beyond that.
+
+A SMALL THING, RECORDED BECAUSE I NEARLY OVERCLAIMED IT. alabamaarrests.org's
+portal page reads "Step right into the Privacy Request Portal at ctarrests.org"
+— the wrong sibling domain, left in when the template was cloned. And
+ctarrests.org's own portal is one of the 404s, so it points at nothing. On
+first sight this looked like the whole family being shuffled clones, and I
+wrote it up that way. Checking properly: twenty of the twenty-two name
+themselves correctly, one is unnamed, and exactly one is wrong. It is a
+copy-paste slip on a single site, not a pattern. The interesting version of
+the finding was the false one, which is the second time tonight (§389) that
+the appealing reading was the wrong one.
+
+THE RULE: before treating a shared route as a shared company, read the footer.
+The question "is this a data broker" has a cheaper answer than any amount of
+route analysis — most affiliate sites say what they are, in the small print, on
+every page.
