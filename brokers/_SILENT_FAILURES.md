@@ -25522,3 +25522,51 @@ be excluded, who by definition are not looking. The people most affected by a
 lost suppression list are precisely the people who cannot detect the loss.
 Asked during the integration rather than in a year, when it would be
 archaeology.
+
+## 397. The reset question, and the case that will decide whether it generalises
+
+§396 recorded GroundTruth's disclosure that a consumer can reset their own
+advertising identifier and thereby break a company's linkage to everything held
+against the prior one, disclosing nothing. If that generalises it dissolves the
+deadlock behind every location and adtech row in this project. It has now been
+put to the MAID-keyed cohort as a standing question, phrased so that a "no" is
+as useful as a "yes" and so that the company is asked to look nothing up.
+
+Madhive first, then Tapad. Outlogic is DELIBERATELY EXCLUDED from this round:
+§386 promised not to write again until they answer the two questions already
+with them, and a promise that only holds while it is convenient is not one.
+
+TAPAD IS THE CASE THAT MATTERS, and the reason is worth recording in advance of
+their answer.
+
+A device reset works by removing the identifier a record is keyed to. That is a
+complete remedy against a store that holds observations against one device ID
+and nothing else. A CROSS-DEVICE GRAPH IS BUILT TO SURVIVE EXACTLY THAT LOSS —
+its entire purpose is to keep a person's cluster intact when any single
+identifier changes. That is what makes it a graph rather than a list. So the
+question for Tapad is not whether a reset severs one edge, but whether the
+cluster is RE-ASSOCIATED through the remaining ones: the person's other
+devices, a hashed email, an IP or household signal, a probabilistic match.
+
+If the answer is yes, then the general advice — reset your advertising ID —
+is materially weaker against the companies whose business is joining
+identifiers together, which is to say weakest exactly where it is most needed.
+Consumers relying on it would be relying on something that does not work in the
+case that matters most, and would have no way to discover that. Only the
+company can say.
+
+WHY NO IDENTIFIER GOES TO A GRAPH COMPANY, stated to them in terms because the
+usual formulation understates it here: supplying one identifier to a company
+whose business is joining identifiers does not merely tell them about one
+device. It offers a fresh, dated, SELF-ATTESTED SEED — a confirmed link between
+a named person and a device, which is the single most valuable input a
+cross-device graph can receive. Of every company in this project, Tapad is the
+one where handing over the key would do the most work against the purpose of
+the request.
+
+Also asked, and unresolved since 20 August: the original letter went to
+privacy@tapad.com and the ticket came back on an EXPERIAN MARKETING SERVICES
+Atlassian instance. If Experian is the controller for Tapad's holdings, the
+request belongs with whoever answers for that. Asked which entity owns the
+answer rather than assuming a group request covers it — the same question that
+Throtle/IQVIA, MediaMath/Infillion and LiveIntent/Zeta each turned out to need.
