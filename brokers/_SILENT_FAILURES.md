@@ -25691,3 +25691,63 @@ And a smaller note on which direction the error ran. §389's mistake was
 flattering to the effort that produced it; this one was the opposite, making
 the project's own record look worse than it was. Being wrong pessimistically
 feels like rigour and is not. It is the same failure to check.
+
+## 400. The answer that revealed the risk of getting what you asked for
+
+Wyty is the most straightforwardly helpful company in this project. Three
+questions, three answers, no hedging; then two more, answered the same way.
+Asked what their suppression is keyed to, they said something no other company
+has said plainly:
+
+    "It is exact match but not case sensitive. Also, we join on first name,
+     last name, city, and state."
+
+That is a complete, checkable description of a matching rule. It is also, once
+you read it twice, a problem — and the problem is created BY THE SUPPRESSION,
+not by the data.
+
+A suppression entry keyed to name + city + state matches ANY person of that
+name in that town. The subject lived at seven addresses in one small borough
+and his name is common. A suppression entry for [name] in that borough
+plausibly removes a DIFFERENT person of the same name from the service — a
+stranger who never asked for it, will never know it happened, and has no way
+to undo it.
+
+§193 said suppress the ASSOCIATION, not the VALUE, because excluding a bare
+address or phone number removes whoever holds it now. This is the same
+principle reaching further than expected: here the suppression KEY ITSELF is
+too coarse to identify one person, so even a correctly-scoped association
+suppression over-reaches.
+
+WHAT WAS DONE, AND WHY IT IS THE RIGHT SHAPE. Three options were put to them
+and the choice was left with them, because they can see the data and I cannot:
+
+  (a) add a distinguishing field — date of birth, or one of the phone numbers —
+      so the join is name + city + state + something actually mine. The date of
+      birth was offered FOR THE PURPOSE OF NARROWING THE MATCH, not widening
+      the search, and the letter says so in terms;
+  (b) if the system cannot hold a distinguishing field, apply the suppression
+      only where a collision is least likely and SAY WHICH ENTRIES WERE KEPT
+      AND WHICH DROPPED — a partial suppression that is understood beats a
+      complete one that quietly covers other people;
+  (c) if the risk is overstated — if their data for those towns is thin, or
+      there is something in the matching not understood from outside — say so
+      and it will be accepted.
+
+Also asked, deliberately hedged: whether exact matching means each name variant
+needs its own entry, with the note that they should be added ONLY if genuinely
+required, since each additional entry carries the same collision risk. More
+suppression is not automatically better.
+
+THE GENERAL POINT, which is uncomfortable and worth stating plainly: this
+project asks companies to suppress records, and a suppression is an exclusion
+applied to whoever matches a key. Every time the key is coarser than a person,
+the request has the potential to remove someone who did not make it. That cost
+is invisible to the person asking and to the company granting, and falls
+entirely on a third party who is never consulted. THE ONLY REASON IT BECAME
+VISIBLE HERE IS THAT ONE COMPANY DESCRIBED ITS MATCHING RULE HONESTLY. Every
+other suppression in this ledger rests on a key nobody has described, and some
+of them are certainly this coarse.
+
+That is not a reason to stop asking. It is a reason to ask what the key is, and
+to prefer a narrower suppression to a wider one whenever the choice exists.
