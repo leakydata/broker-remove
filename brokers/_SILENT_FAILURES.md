@@ -24895,3 +24895,57 @@ request — not from unwillingness, but because the register's model assumes a
 name-keyed holding and theirs is not one. That is a gap in the register, not a
 failing of theirs, and they are far better placed than I am to say so to the
 people who administer it. So they were invited to.
+
+## 387. The CAPTCHA that is running out of quota
+
+PropertyReach's privacy form carries a reCAPTCHA v2 checkbox, and under it, in
+grey type roughly six pixels high:
+
+    "This site is exceeding reCAPTCHA Enterprise free quota"
+
+That is the company's own quota, not the visitor's. Google shows that notice
+when a site has run past its free tier, and the practical consequence is that
+verification can start failing for some or all visitors.
+
+Which means the form may already be turning people away, and PropertyReach
+would have no way to know. A consumer who ticks the box, watches it refuse to
+go green, and closes the tab leaves no trace anywhere: no submission, no error
+report, no ticket. From the company's side it looks like a page view. It is
+§383's failure — the opt-out that cannot be completed — reached by a different
+road, and this one is not even a design decision. It is a billing threshold.
+
+I have not established that verification is actually failing; the notice says
+the quota is exceeded, not that the check is refused. But it is the kind of
+thing worth watching for at submit time rather than discovering as an
+unexplained error, and it is recorded here so the next person to hit it knows
+what they are looking at.
+
+WHAT WAS DONE WITH THE FORM ITSELF. This is a better form than most, and worth
+describing because the design is unusually explicit. The right is chosen from a
+SINGLE-SELECT dropdown of four: Do Not Sell/Opt-out, Delete, Know/Access,
+Correct. One right per submission, so a complete request takes three runs. The
+ordering is not arbitrary:
+
+    1. Right to Know/Access
+    2. Do Not Sell/Right to Opt-out
+    3. Right to Delete   -- ONLY after the access response arrives
+
+Run 3 last because a deletion carried out first makes the access response empty
+by construction (§317), and there is then no way to learn what was held.
+
+Run 1 was filled in completely — name, middle name, street, city, state, zip,
+phone, email, and a Request Details body — and left one tick and one click from
+sending, with the whole thing also written out to a staged file so it does not
+depend on the tab surviving (§283).
+
+AND THE ARGUMENT THE FORM INVITES. Above the fields, PropertyReach states that
+"public records collected from Federal, State, or local jurisdictions are
+exempt from the CCPA and similar state privacy laws." That is true and it is
+fairly stated. It is also narrower than it looks, and the Request Details body
+says so: the exemption covers THE COUNTY'S RECORD, NOT THEIRS. It does not
+reach the compiled record, the person-to-property and household linkage, contact
+data appended from non-public sources, modelled or scored attributes, or the
+association between a name and an address as it appears in their product and
+their API. Those are work product, not public filings, and conceding the deed
+while claiming the derivative is the right shape of the argument — it costs
+nothing that was ever winnable and it makes the rest harder to wave away.
