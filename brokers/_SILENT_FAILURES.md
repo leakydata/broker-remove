@@ -25570,3 +25570,61 @@ Atlassian instance. If Experian is the controller for Tapad's holdings, the
 request belongs with whoever answers for that. Asked which entity owns the
 answer rather than assuming a group request covers it — the same question that
 Throtle/IQVIA, MediaMath/Infillion and LiveIntent/Zeta each turned out to need.
+
+## 398. Two ways to search a device-keyed file without surrendering a device key
+
+The reset disclosure (§396) is the second method this project has for getting
+an answer out of a MAID-keyed company without handing one over. They are worth
+recording together, because they solve opposite halves of the same problem and
+neither is obvious from outside.
+
+METHOD ONE — THE GEOGRAPHIC QUERY, for asking WHAT THEY HOLD.
+Invented for the Cuebiq letter and used since. Instead of supplying an
+identifier, ask the company to query RESIDENTIAL DWELL PATTERNS at named
+addresses over the periods the subject lived there. It works because of what
+location data is: a person's home is where their device dwells overnight,
+persistently, for months or years. The address is already known to the
+consumer, discloses nothing new, and is a real search key against exactly the
+kind of file that has no name in it. It answers "is there a record", and it
+costs the company a query rather than a policy decision.
+
+METHOD TWO — THE DEVICE RESET, for MAKING THEM STOP.
+Disclosed by GroundTruth. The consumer resets the advertising identifier on
+their own device; the company's linkage to everything held against the prior
+identifier breaks, and the data becomes unusable to them. The consumer
+discloses nothing and the company never learns which identifier was reset. It
+answers "can this be stopped", and it requires no cooperation from the company
+at all — which is what makes it different in kind from everything else in this
+file.
+
+Together they cover the two things a consumer actually wants, and neither
+requires the transaction that the whole category insists on. That the second
+had to be volunteered by one company out of dozens, and the first had to be
+invented by the person making the request, says something about how much of
+this is genuinely impossible versus merely unoffered.
+
+WHAT WAS DELIBERATELY NOT DONE WITH THIS, and the reason belongs in the record.
+
+The cohort is sixty-nine adtech rows with a live email address and device-keyed
+holdings. The reset question is generic, costs the company a sentence, and asks
+them to look nothing up — so there is an obvious temptation to send it to all
+sixty-nine tonight.
+
+That would be §304's error committed by the person who wrote §304. Volume is
+not communication. Most of those rows are `submitted` with no reply and are
+still inside their response windows; a second letter arriving before the first
+is answered is a chase wearing a question's clothes, and it teaches every
+recipient that letters from this address do not need to be read carefully
+because another will follow. The value of a careful letter is destroyed by
+sending sixty of them.
+
+So: two sent, to Madhive and Tapad, chosen because one is a plain device-keyed
+store and the other is a cross-device graph — the two architectures whose
+answers would differ, which is what makes the pair informative rather than
+merely numerous. Outlogic excluded by promise (§386). Unacast excluded because
+they owe an answer to a letter of 1 September and piling a new question on top
+of an unanswered one is the same failure in miniature.
+
+The rest wait until those two answer. If the reset generalises, the question
+will be worth asking properly; if it does not, sixty letters would have been
+sixty apologies.
