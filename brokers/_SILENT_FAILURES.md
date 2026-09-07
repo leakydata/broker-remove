@@ -24903,9 +24903,20 @@ grey type roughly six pixels high:
 
     "This site is exceeding reCAPTCHA Enterprise free quota"
 
-That is the company's own quota, not the visitor's. Google shows that notice
-when a site has run past its free tier, and the practical consequence is that
+Google shows that notice when a site has run past the free tier on the project
+its reCAPTCHA key belongs to, and the practical consequence is that
 verification can start failing for some or all visitors.
+
+CORRECTED THE SAME EVENING, and the correction matters. I first wrote that the
+quota was "the company's own, not the visitor's." Within the hour the identical
+notice appeared under the CAPTCHA on PeopleSearchNow, an unrelated site, and
+the SpyDialer note from 3 September records the same thing. Three sites is a
+pattern, and a pattern admits two explanations I cannot presently tell apart:
+each of these sites is genuinely over its own quota, or something about this
+client provokes the notice. The message is keyed to the site's own project,
+which favours the first, and these are all high-traffic consumer-facing sites,
+which makes exceeding a free tier entirely plausible. But I have not
+established it, and stating it as fact was going further than the evidence.
 
 Which means the form may already be turning people away, and PropertyReach
 would have no way to know. A consumer who ticks the box, watches it refuse to
@@ -24949,3 +24960,64 @@ association between a name and an address as it appears in their product and
 their API. Those are work product, not public filings, and conceding the deed
 while claiming the derivative is the right shape of the argument — it costs
 nothing that was ever winnable and it makes the rest harder to wave away.
+
+## 388. The opt-out URL that is a surname
+
+The route recorded for PeopleSearchNow was /optout. It returns HTTP 200. It
+renders a clean, styled page on the company's own domain, with their header,
+their search box, their footer. Every check in scripts/route_check.py passes
+it: it resolves, it is not a redirect-away, it is not a 404, it is not blocked,
+and the path contains a segment the opt-out matcher recognises.
+
+It is a surname search. PeopleSearchNow routes /<word> as a last name, so the
+page reads:
+
+    "Find people with the last name Optout"
+
+with two results, "Testfour Optout" and "Testthree Optout" — records someone
+created while testing, now published in a people-search directory like anybody
+else's.
+
+This is a NAMESPACE COLLISION, and it is a new shape. §354 was a redirect that
+carried the visitor away from a specific page to a generic one; the URL changed
+and the change was detectable. Here nothing redirects and nothing errors. The
+site's own routing has quietly claimed the word "optout" for its directory, and
+the opt-out path is squatted by the company's core product. A scanner asking
+"does this domain publish a removal route" gets a confident yes.
+
+The real chain was three clicks away and perfectly ordinary:
+
+    footer "Do Not Sell My Personal Information"
+      -> /do-not-sell   (a notice page, with an "Opt-Out Form" link)
+        -> /opt-out     (the actual form — note the hyphen)
+
+/optout and /opt-out. One character.
+
+WHAT THIS COSTS TO CHECK, and why the check has to change: nothing about the
+HTTP response distinguishes these. The only reliable discriminator is whether
+the page contains a FORM, or failing that whether its text is about removal
+rather than about people. route_check.py currently answers "does the URL
+resolve," which was already known to be insufficient (§354) and is now
+insufficient in a second way. The cheap fix is to record, for any candidate
+removal route, whether a form element is present — a route with no form is a
+claim, not a route.
+
+AND THE THING THAT IS NOT ABOUT ROUTING. Two test records are sitting in a
+live public directory under the surname "Optout." Nobody named Testthree
+Optout exists. They are almost certainly artefacts of somebody checking that
+the opt-out pipeline worked. They are also indexed, browsable, and
+indistinguishable to a visitor from the real people on every other surname
+page — which says something about how little stands between a row in this
+company's database and a published profile.
+
+STATED CANDIDLY BY THE COMPANY, ON THE PAGE THAT OFFERS THE OPT-OUT:
+
+    "we regularly receive new public records so even if you opt out, your
+    publicly available information may appear in our data products again in
+    the future. We recommend you periodically refresh your opt-out request"
+
+That is the rebuild problem — the thing I have been asking company after
+company to confirm — volunteered in writing before anyone asked. It means the
+opt-out here is a lease, not an outcome, and this row gets re-checked rather
+than closed. Credit where it is due: most companies leave that to be
+discovered by the person it happens to.
