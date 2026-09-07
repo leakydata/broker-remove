@@ -25163,3 +25163,58 @@ THE RULE: before treating a shared route as a shared company, read the footer.
 The question "is this a data broker" has a cheaper answer than any amount of
 route analysis — most affiliate sites say what they are, in the small print, on
 every page.
+
+## 391. The same test, applied twice, giving two different answers
+
+§390 closed fifty-two rows by reading a footer. That worked because the sites
+said what they were. The obvious next move was to run the same test on the two
+remaining shared-route clusters — thirteen rows pointing at TruthFinder's and
+Intelius's opt-out pages — and it is worth recording that the test did NOT
+produce a second clean sweep, because the temptation to make it produce one was
+real.
+
+WHAT THE TEST FOUND
+
+Three sites — criminalrecords.com, snoopstation.com, peoplefind.com — say
+"powered by Intelius" on their own About pages, in their own words, alongside
+Intelius's search, Intelius's report format and Intelius's FCRA disclaimer.
+That is an affirmative statement of what they are. They are closed against the
+PeopleConnect family suppression already confirmed on 27 August, with all three
+of that suppression's caveats carried across intact rather than quietly
+dropped: it is a DISPLAY suppression and not a deletion, by their own
+architectural explanation; it is keyed to a NAME search, so a phone, address or
+email lookup may still surface a report; and PeopleConnect scoped it to "the
+people search sites within our corporate family that we control", a phrase that
+covers a powered-by brand on the plain reading but which nobody at PeopleConnect
+has confirmed against these domains by name.
+
+The other seven do not say that. backgroundhawk.com is a review site with an
+explicit Affiliate Disclosure — "Some of the links you will see on this page
+are affiliate links... we may receive a commission" — and Top Picks pages.
+sheriffsdepartment.net disclaims government affiliation and refers to
+"sponsored companies mentioned here". The remaining three that loaded say
+NOTHING either way: no disclaimer, no attribution, no ownership statement. Two
+were unreachable.
+
+WHY THEY WERE NOT CLOSED ANYWAY, which is the actual entry
+
+Absence of a disclaimer is not evidence of holding records. §390 worked because
+fifty-two sites affirmatively stated they owned nothing; silence is a different
+thing from that, and treating it as the same would be extending a verdict past
+its evidence to reach a tidier number. The pull to do it was strong — thirteen
+rows, a method that had just worked, a running total that would have looked
+better. That is exactly the shape of §389's mistake from two hours earlier: the
+appealing reading arriving first and the evidence being asked to catch up.
+
+So: three closed on what the sites say, seven left open with everything found
+written into the row so the next pass starts from the evidence rather than
+repeating the fetches. The route recorded against all seven was INFERRED FROM
+AN AFFILIATE LINK, which is now noted on each — an outbound link to a broker is
+not proof that the linking site is one.
+
+THE DECIDING QUESTION, recorded so it can be asked rather than guessed at:
+PeopleConnect's suppression covers "the people search sites within our
+corporate family that we control." Whether a given domain is inside that phrase
+is a question only PeopleConnect can answer, and it is one question covering
+seven rows. That is a better next move than seven more rounds of reading
+footers.
