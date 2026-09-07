@@ -25395,3 +25395,71 @@ advances nothing, and moving those to `replied` would overstate them just as
 badly in the other direction. But it is worth a pass to find the ones where a
 substantive answer arrived and the status never moved, because those are rows
 where the project may already have an answer it has not read.
+
+## 395. Eight answers the project already had and had not read
+
+§394 ended with an observation not yet acted on: 380 rows show evidence of a
+reply while sitting at status `submitted`, and some of those might be rows
+where a substantive answer arrived and the status never moved. Checking the
+MAILBOX rather than the ledger — Gmail is the ground truth for what came back —
+turned up nineteen inbound messages from broker domains with no outbound
+response, and eight of them belong to rows whose note does not mention a reply
+at all:
+
+    liveintent (via zetaglobal.com)   medpro_systems
+    dun_and_bradstreet                onaudience
+    groundtruth                       comscore
+    visitiq                           flexera
+
+These are not lost. They are unread. The distinction matters: the project has
+been measuring its own outbox carefully (§304, §393, §394) while a queue of
+actual answers accumulated on the other side of it. THE LEDGER IS NOT THE
+RECORD OF WHAT CAME BACK — THE MAILBOX IS. Any audit that only reads the ledger
+will find exactly the errors the ledger already knows about.
+
+COMSCORE, processed first, and worth describing because the reply is a model
+of the thing this file usually complains about the absence of:
+
+    "we were unable to locate any personal information stored or processed by
+    Comscore... based on the nature of the request, only Comscore's consumer
+    data repositories were considered in scope."
+
+They named the scope of their own nil, unprompted, in the same breath as the
+nil. §330 and §358 are both about companies whose nils are silently narrower
+than they sound. This one says how narrow it is. My letter had asked WHICH
+SYSTEMS WERE SEARCHED; they answered it without being asked twice, and they
+also flagged that cookie, device and panelist holdings run through a separate
+route. That is three scope disclosures nobody extracted from them.
+
+TWO THINGS WERE PUT BACK, both narrow:
+
+  - THE B2B REPOSITORY. They offered to process the request differently if
+    there were an employment, applicant or B2B relationship. There is none —
+    and that does not answer the question, because B2B DATA IS NOT THE RESIDUE
+    OF A RELATIONSHIP, IT IS BOUGHT. A business-contact file is assembled from
+    list vendors, conference registrations, professional profiles and derived
+    address generation, and the people in it have no relationship with the
+    holder and usually do not know it exists. The original letter had listed a
+    closed university address as an organisational key for exactly this reason.
+    So: search the B2B holdings on the basis that no relationship is required
+    for a record to be there.
+
+  - THE DEVICE ROUTE, DECLINED WITH THE REASON GIVEN. Their cookie and panelist
+    forms DETECT identifiers on the device rather than asking the consumer to
+    type one, which is a better design than most and avoids the usual absurdity
+    of handing over a fresh copy of the key you want stopped. Credit given for
+    that in terms. It was still declined: running it creates a detection event
+    tied to a live browser at a company being asked to hold less, and if
+    nothing of mine is there, the visit is the first thing that is. Recorded
+    as "unexamined by my choice, not by any refusal of theirs" — which is the
+    honest shape of that gap and not a grievance against them. They were asked
+    one costless question: whether a device-keyed record could exist without a
+    consumer-repository record, i.e. whether those are two holdings or two
+    views of one.
+
+And the standing point, made once: the opt-out should be recorded against the
+supplied identifiers whether or not anything matched, so that it binds if a
+record arrives later. A nil search result should not quietly convert an
+opt-out into nothing.
+
+SEVEN REMAIN UNREAD. They are the next work.
