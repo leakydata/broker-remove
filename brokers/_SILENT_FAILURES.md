@@ -25463,3 +25463,62 @@ record arrives later. A nil search result should not quietly convert an
 opt-out into nothing.
 
 SEVEN REMAIN UNREAD. They are the next work.
+
+## 396. Reset it yourself — the way out of the identifier deadlock
+
+Every MAID-keyed company in this project presents the same dilemma. Their
+systems index advertising identifiers, not names. To act on a request they want
+the identifier. Supplying it hands a location or advertising company a fresh,
+current, dated link between a device and a named person — the exact record the
+request exists to remove. So the standing rule refuses, every time, and the
+usual result is a stalemate neither side can fix: §373's identifier-class
+barrier, §386's honest lookup claim, §392's dishonest verification claim.
+
+GroundTruth offered a third thing, and nobody else has:
+
+    "Alternatively, instead of providing your MAID(s) to us, you can learn how
+    to reset your MAID(s)... Resetting the MAID will break the linkage in our
+    systems to any information we have about that device from before the
+    reset, rendering it unusable in our systems."
+
+THE CONSUMER CAN SEVER THE LINK FROM THEIR OWN END, DISCLOSING NOTHING. It is
+an action taken on the device, in the device's own settings, and the company
+never learns which identifier was reset because it never needed to. The
+deadlock was never necessary; it just went unmentioned by everyone else.
+
+This should now be asked of every MAID-keyed company in the queue — Outlogic,
+Infillion, Skydeo, Madhive, Kargo, VRTCAL, Tapad, El Toro — as a standing
+question: DOES A DEVICE-SIDE RESET SEVER YOUR LINKAGE? It converts a request
+that cannot be processed into an action the subject can take unilaterally, and
+it costs the company nothing to answer.
+
+TWO THINGS A RESET IS NOT, which were put back to them rather than assumed:
+
+  - It is not a deletion. "Rendering it unusable" and "deleting it" are
+    different outcomes. The likely reading is that the observations remain and
+    are orphaned from any device the company will ever see again — still a good
+    outcome, but worth stating correctly rather than overstating.
+  - It probably does not reach downstream. If a segment containing that device
+    was already activated with a customer, the reset severs the company's
+    linkage and not the copy that left. "Out of reach by construction" is an
+    acceptable answer; not knowing is not.
+
+WHAT ELSE THE REPLY DID. A nil on the supplied keys, accepted without pressing.
+An architecture explanation that is a LOOKUP claim rather than a verification
+demand — the §386/§392 distinction, and this one falls on the honest side. And
+a scope confirmation covering both GroundTruth and ZeroToOne operations, which
+answers the acquisition question — though conditioned on supplying a MAID, so
+the same confirmation was requested for the route actually being taken.
+
+WHAT IT DID NOT DO, and the ask has been repeated once: the letter's central
+question was never about this subject's own record. It was whether GROUNDTRUTH'S
+EXISTING SUPPRESSION ENTRIES — anyone's — SURVIVE THE MIGRATION into ZeroToOne.
+A deletion that fails to migrate is visible: records are missing, somebody
+notices, it gets fixed. A suppression that fails to migrate is invisible. The
+exclusion table generates no revenue, nobody tests against it, and its entire
+purpose is to make certain records NOT appear — so if it is dropped the system
+looks healthier, and the only people who could notice are the ones who asked to
+be excluded, who by definition are not looking. The people most affected by a
+lost suppression list are precisely the people who cannot detect the loss.
+Asked during the integration rather than in a year, when it would be
+archaeology.
