@@ -26363,3 +26363,43 @@ either way.
 WHAT CHANGES: the durability question joins the supply-chain question in
 _SUPPLY_CHAIN.md as a standing ask, carried by every future letter and by any
 thread that reopens on its own. Not a campaign of twenty-four letters.
+
+## 412. The file had no way in
+
+_SILENT_FAILURES.md is the main intellectual artefact of this project: 410
+numbered findings across 26,000 lines. It is written chronologically, which is
+the right order to write findings in and the wrong order to look them up in.
+Until today the only way to find "the one about suppression keys" was to
+remember roughly when it happened.
+
+scripts/index_failures.py now regenerates brokers/_SILENT_FAILURES_INDEX.md
+from the file itself, so it cannot drift. Themes are matched against section
+TITLES only — deliberately, because a title is short and written to describe,
+whereas matching against bodies is the error catalogued four times in one day
+(§410). An entry appears under every theme it matches and under Other if none.
+
+    Routes that resolve but do not work            72
+    Reaching a company at all                      73
+    Confirmations that do not confirm              68
+    Identifiers and what not to hand over          37
+    My own errors and instruments                  37
+    Suppression, deletion and durability           33
+    Who actually holds the data                    27
+    Other                                         144
+
+BUILDING IT TOOK THREE PASSES, FOR THE SAME REASON EVERYTHING ELSE HAS THIS
+WEEK. The first version found 74 entries and I nearly shipped it. The file uses
+THREE heading formats nobody had documented:
+
+    ## 12. Title          entries 1-44 and roughly 350 onward
+    ## §57 Title          the long middle
+    ## §109               number alone, title on the next line
+
+Each was discovered by listing what the previous pattern had NOT matched, which
+is the only reliable way to find a format nobody wrote down. 74 -> 348 -> 410.
+Five prose headings are correctly left out.
+
+The lesson is the same one as §410 with the sign flipped: that entry was about
+a classifier reporting MORE than was there, and this is one reporting LESS.
+Both were caught by the same move — look at what the instrument did not
+account for, not at what it returned.
