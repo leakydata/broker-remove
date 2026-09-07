@@ -25218,3 +25218,71 @@ corporate family that we control." Whether a given domain is inside that phrase
 is a question only PeopleConnect can answer, and it is one question covering
 seven rows. That is a better next move than seven more rounds of reading
 footers.
+
+## 392. Two companies, one refusal, and the difference between them
+
+Tonight produced a near-perfect matched pair, which is why it is worth an entry
+rather than a line in a broker note. Two location-and-advertising companies,
+both holding data keyed to mobile advertising identifiers, both told that no
+advertising identifier would ever be sent. §386 credited the first for its
+honesty. The second does the same thing and should not be credited, and the
+difference is one word.
+
+OUTLOGIC said: our products "only work with advertising identifiers for mobile
+devices and not with personal identifiers such as names, email addresses,
+telephone numbers... Therefore, in order to fulfill your request, you must
+submit the mobile advertising identifiers of your device(s)."
+
+That is a LOOKUP claim. They are not asking the consumer to prove who they are.
+They are saying they cannot find them without the key. It may be true or not,
+but it is a coherent statement about an index, and 11 CCR §7026(f) — which
+forbids conditioning an OPT-OUT on identity verification — does not reach it,
+because no verification is being demanded. §386 said so, and that still stands.
+
+INFILLION's webform says: "Infillion is required to validate the identity of
+the individual making the request as well as their ownership of the mobile
+advertising ID. This ensures the privacy and security of your information."
+
+That is a VERIFICATION claim, in terms, and the form makes "Mobile Advertising
+ID (IDFA/GAID)" a required field on every request type — including "Do Not Sell
+My Information." So an opt-out cannot be submitted at all without producing the
+identifier, and the stated reason for requiring it is identity validation.
+That is the thing §7026(f) exists to prohibit.
+
+The mechanism is identical. The justification is not, and the justification is
+what the regulation regulates. A company that says "we cannot find you" is
+describing an architecture. A company that says "we must validate you" is
+imposing a condition. The second is reviewable; the first is not.
+
+I want to be fair about the sentence that follows in their preamble: "This
+ensures the privacy and security of your information." That is not cynical
+boilerplate — validating that a requester actually owns a device ID does
+protect the person that ID belongs to, since anyone can type any MAID and opt
+out or delete someone else's profile. The problem is not that the concern is
+fake. It is that the concern is real, unavoidable in a MAID-keyed business, and
+resolved entirely against the consumer: the only way to exercise the right is
+to hand over a live copy of the identifier the right is about. §7026(f) does
+not carve out an exception for businesses that find verification genuinely
+hard.
+
+THE OTHER THING THIS ROUTE IS, and it compounds:
+
+  - Infillion publishes NO privacy email address. Not on /contact, not on
+    /company, not on the privacy policy, not as a mailto anywhere on the site.
+    The webform is the only route in existence.
+  - The webform's URL contains /draft/ — privacyportal.onetrust.com/webform/
+    <id>/draft/<id>. A OneTrust draft link is normally a preview of an
+    unpublished form. This one renders and appears complete, so it is
+    presumably live, but a company's sole consumer route being served from a
+    draft URL is not a detail that inspires confidence about where the
+    submissions land.
+  - Infillion is MEDIAMATH'S SUCCESSOR. mediamath.com redirects to
+    infillion.com and their privacy policy names MediaMath. So MediaMath's
+    holdings now sit behind a form that cannot be used without surrendering
+    the identifier, and MediaMath's own privacy address is a distribution list
+    whose four named recipients all have full mailboxes.
+
+The net position: a consumer who will not disclose a device identifier has NO
+route to Infillion at all. Not a hard route, not a slow route — none. That is
+worse than either §373 or §386, and it arrives by three independent decisions
+none of which is individually outrageous.
