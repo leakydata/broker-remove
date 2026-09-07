@@ -26034,7 +26034,32 @@ never arrives.
 Escalated to the register-listed addresses for three brands in the family
 rather than to the vendor, with the reproduction steps, the CF7 diagnosis (the
 error string is CF7's standard mail-send failure, so the plugin reaches the
-send step and the transport refuses it), and the three fixes. Stated plainly
+send step and the transport refuses it), and the three fixes.
+
+AND THEN THE ESCALATION BOUNCED, WHICH CORRECTS THIS ENTRY'S OWN PREMISE.
+privacy@researchusallc.com returned 550, address not found. Checking the
+mailbox: THREE SENDS TO THAT ADDRESS, ALL THREE HARD-BOUNCED — the original
+consumer request on 26 August, the defect report on 3 September, and today's
+escalation. So the sentence above about the defect having been "reported and
+not fixed" was wrong in a way worth stating plainly: IT WAS NEVER REPORTED.
+Four days of apparent inaction were four days of nobody knowing. §312's note
+recorded "reported the whole defect to the one sibling that does have an
+address" — recording the send, not the delivery, with the bounce sitting in the
+mailbox unread. The same error §393 catches in the ledger, made here in a note
+written by hand.
+
+Today's letter did reach the two CC'd addresses, info@databaseusa.com and
+info@infofree.com, which have not bounced. That is the first time anything
+about this defect has landed anywhere.
+
+WHICH MAKES THE FINDING WORSE AND SIMPLER THAN §406 FIRST SAID. This family's
+designated web form cannot send mail, on any page, for any brand. AND the
+register-listed privacy address for one of its brands has not existed at any
+point across twelve days and three attempts. All four domains
+— researchusallc.com, databaseusa.com, infofree.com, privacycompliance.biz —
+share one mail platform, so the infrastructure is common and healthy; it is the
+mailbox that is absent. A consumer following either published route reaches
+nothing, and neither route reports its own failure to the company. Stated plainly
 that no bad faith is alleged — a CF7 mail failure is a mundane
 misconfiguration that breaks quietly and stays broken precisely because the
 only people who notice are the ones whose messages never arrived.
