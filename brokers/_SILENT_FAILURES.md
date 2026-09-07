@@ -25751,3 +25751,57 @@ of them are certainly this coarse.
 
 That is not a reason to stop asking. It is a reason to ask what the key is, and
 to prefer a narrower suppression to a wider one whenever the choice exists.
+
+## 401. A third kind of evidence, and the limit of measuring it by regex
+
+§399 fixed the corroboration classifier once. Running it over the closed
+statuses again surfaced two `not_found` rows scored as resting on a send and
+nothing else. Reading them showed something the instrument had no category for.
+
+  - free_people_directory: their site was SEARCHED. The subject's name,
+    filtered to Pennsylvania, returns 54 reports; filtered to his own city it
+    returns "No Result", and the same for every other city he has lived in.
+  - npi_profile: the site republishes exactly one dataset, the federal NPPES
+    release. So the question was settled AT THE SOURCE — the public API was
+    queried directly, without writing to the company at all.
+
+Neither is the company's word. Both are better than the company's word in one
+respect and worse in another, which is why they deserve their own bucket:
+
+  BETTER, because they are RE-RUNNABLE. A company's "we hold nothing about
+  you" is a claim about a moment that cannot be checked again. A search of
+  their own interface can be repeated next month and next year.
+
+  WORSE, because they only cover WHAT THE INTERFACE EXPOSES. §388 is the
+  warning: a search whose granularity is coarser than the question returns an
+  empty result that is not evidence of absence but evidence that nobody
+  looked. A self-verified nil is only as good as the search behind it, and the
+  search is the company's, not ours.
+
+`self-verified` is now a bucket. With it, EVERY CLOSED ROW IN THIS PROJECT HAS
+EVIDENCE BEHIND IT: `confirmed` 92.8% corroborated with none unevidenced,
+`not_found` 93.9% corroborated plus 4.5% self-verified — 98.4% — and none
+unevidenced. `submitted` is unchanged at roughly half, which was always the
+real finding.
+
+AND THE LIMIT, WHICH IS NOT WORTH PATCHING FURTHER
+
+Five `confirmed` rows still score as "weak". Reading them, all five are
+properly evidenced — one records that four of twelve email addresses matched
+and each was removed with its associated data, and all twelve were opted out;
+another records an operator confirming a suppression hash "applies to them
+all" across every company he manages.
+
+The classifier cannot see it because THOSE NOTES PARAPHRASE THE COMPANY RATHER
+THAN QUOTING IT. Once a note is written in my own voice, a fact the company
+supplied and a claim I made are the same string. No regex can separate them,
+and pretending otherwise by adding more patterns would be building an
+instrument that agrees with me — which is §389's failure, arrived at by
+patience instead of haste.
+
+SO THE FIX IS IN THE WRITING, NOT THE SCRIPT: QUOTE THE COMPANY. A note that
+carries the company's own sentence is auditable by anyone, including by a
+program, and it survives the loss of the mailbox it came from. A note that
+paraphrases is only as good as the person who wrote it, and it cannot be
+distinguished later from an assertion. Every entry from here on that records
+an outcome should carry at least one sentence in the company's words.

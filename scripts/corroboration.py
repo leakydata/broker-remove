@@ -41,6 +41,20 @@ QUOTED = re.compile(r"[\"'‘’“”][^\"'‘’“”]{25,}"
 BOUNCE = re.compile(r"\bbounce|\b550\b|\b451\b|mailbox is full|address not found", re.I)
 VERBATIM = re.compile(r"['\"‘’“”]")
 
+# evidence produced by US rather than by the company: a search of their own
+# interface, a query against the upstream source, a fetch that returned nothing.
+# This is a THIRD kind of evidence and it was being scored as "a send and
+# nothing else". It is not weaker than a company's word -- it is re-runnable,
+# which their word is not -- but it only covers what the interface exposes.
+# See _SILENT_FAILURES 401.
+SELF_VERIFIED = re.compile(
+    r"\bsearched (?:their|the|it|his|202\d)|\bqueried\b|\bI checked\b|"
+    r"\bverified directly\b|\bchecked (?:properly|in a browser|their)\b|"
+    r"\breturns? ['\"‘’“”]?no result|\bno (?:record|listing|entry) (?:for|found)|"
+    r"\bthe (?:public )?API\b|\bfetched\b|\bre-?tested\b|"
+    r"\bsettled at the source\b|\bnot a broker\b|\bholds? nothing\b",
+    re.I)
+
 SENT_ONLY = re.compile(
     r"statutory (?:delete|opt-out)|request emailed|letter sent|sent \d{4}-\d{2}-\d{2}|"
     r"^\d{4}-\d{2}-\d{2} sent", re.I)
@@ -65,6 +79,8 @@ def classify(rec):
         return "corroborated", "company sentence quoted in note"
     if BOUNCE.search(note):
         return "adverse", "the only thing that came back was a bounce"
+    if SELF_VERIFIED.search(note):
+        return "self-verified", "checked directly rather than taken on their word"
     if len(hist) > 2:
         return "weak", f"{len(hist)} status changes but nothing quoted back"
     return "uncorroborated", "a send and nothing else"
@@ -86,7 +102,8 @@ def main():
 
     total = len(rows)
     print(f"status = {want}   ({total} rows)\n")
-    for b in ("corroborated", "weak", "adverse", "uncorroborated"):
+    for b in ("corroborated", "self-verified", "weak", "adverse",
+              "uncorroborated"):
         n = buckets.get(b, 0)
         if not n:
             continue
@@ -102,6 +119,10 @@ def main():
             print(f"  ... and {len(unc)-60} more")
 
     print("""
+  self-verified means WE established it -- searched their site, queried the
+  upstream source -- rather than the company saying so. Re-runnable, which
+  their word is not; but it only covers what the interface exposes (SF 388).
+
   This is NOT a list of failures. A company that received a letter and has
   said nothing is inside its response window until it is not, and silence
   from a company that holds nothing about you is the commonest outcome in
