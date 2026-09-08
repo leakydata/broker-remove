@@ -27345,3 +27345,76 @@ after §427 was written, and §427 is *about* shipping checks that cannot fail.
 Writing the lesson down did not prevent the next instance of it. What caught
 this one was the same thing that caught §427 — running it against cases whose
 answer was already known, and noticing that Acxiom is not a dead route.
+
+## 429. Sixty-one of sixty-five meant it
+
+`route_has_form.py` sends a User-Agent and very little else. Sixty-five recorded
+routes came back HTTP-403, and a 403 to a bare fetch is a claim about *our
+request*, not about the route — plenty of WAFs refuse on header shape alone. So
+before writing sixty-five routes off, they got one careful retry with a full
+browser header set: `Accept-Language`, the four `Sec-Fetch-*` headers, a real
+`Accept`, `Upgrade-Insecure-Requests`.
+
+    now answer 200      4  of 65
+      …with a real form 2
+    still refusing     61
+
+**The theory was mostly wrong, and that is the useful part.** Sixty-one of
+sixty-five refuse a request indistinguishable from Chrome's. Those are not
+header artefacts and no amount of header craft will open them; they are
+genuinely closed to anything that is not a browser session with cookies, TLS
+fingerprint and the rest. That converts sixty-one rows from "maybe our fetch was
+too crude" into "a consumer needs a browser here", which is a different and more
+honest instruction. A negative result that closes a hypothesis is worth
+recording precisely because nothing prompts you to write it down.
+
+The four that opened:
+
+    thatsthem.com/optout              FORM   — indexes by EMAIL ADDRESS
+    optoutprescreen.com               FORM   — the FCRA 604(e) national opt-out
+    californiabirthindex.org          200, no form
+    edge.careerbuilder.com/optout     200, no form
+
+`thatsthem` matters more than its size: it is one of very few people-search
+services keyed to email rather than name-and-address, so a removal aimed at name
+and address leaves it untouched, and the oldest addresses are the ones an
+email-keyed index actually matches on. Queued.
+
+**And then the part that is about me rather than about them.**
+
+`optoutprescreen` had no row in `removal_status.json`. I read that as "never
+written to", wrote a ledger note saying the route had been *"invisible until
+today"*, and moved to queue it as new human work. `handoff.py` refused: an open
+item for it had been sitting in the queue since **29 August**, ten days, and it
+was better than the one I was about to add. It already stated the SSN
+requirement as established fact rather than as something "widely reported". It
+already identified the permanent postal route as the stronger of the two. And it
+carried a caution I had not thought of at all:
+
+> *"a site asking for an SSN is exactly the shape a lookalike phishing domain
+> imitates, and I am not in a position to vouch for it."*
+
+My item would have been a **regression**, and only a duplicate guard written for
+a different reason (§344a) stopped it landing.
+
+**Three stores, and none of them is the memory.** State lives in
+`removal_status.json` (what happened), `brokers.json` (what exists) and
+`handoff_queue.json` (what a human still owes). A question asked of one returns
+a confident answer about that store, phrased in my head as an answer about the
+project. This is the third time today: §424 joined ledger status to a probe of a
+different domain; the arrests.org family looked untouched because I queried rows
+lacking a *status* rather than rows lacking an *entry*; and now a route looked
+undiscovered because the discovery was recorded as a task rather than as a
+status.
+
+The shape is identical every time and it is not a coding error. **"I have no
+record of X" is a fact about where I looked, and it takes the same grammatical
+form as "X did not happen."** Nothing in the sentence marks the difference. The
+guard that caught this one worked because it consults a store I had not, which
+suggests the fix is not to remember harder but to make each store's writer
+consult the others — as `handoff.py` already does, and `tracker.py` does not.
+
+Worth noting what did *not* go wrong: nothing was lost, because the refusal was
+loud and named the existing item. A silent overwrite would have replaced ten-day
+old verified knowledge with a fresher, weaker version of itself, and left no
+trace that it had ever been better.
