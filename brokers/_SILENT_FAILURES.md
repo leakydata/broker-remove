@@ -26810,3 +26810,60 @@ about the client and not about the directory, and it establishes nothing about
 whether sixteen submissions took effect. §289 exists for exactly this and it
 earned its keep: without the control, a meaningless nil would have gone into
 the ledger as a verified removal.
+
+## 421. The cliff on 28 September
+
+Nothing in this project is overdue. The oldest open row's first action was 15
+August, twenty-four days ago, against a statutory window of forty-five. Every
+"do not chase yet" judgement made this week was correct.
+
+That will not be true for long, and the shape of what is coming had never been
+computed:
+
+    week of 2026-09-28     414 rows cross 45 days
+    week of 2026-10-05     246
+    week of 2026-10-12     328
+    week of 2026-10-19      12
+
+A THOUSAND OPEN ROWS BECOME OVERDUE INSIDE THREE WEEKS, and 414 of them on a
+single week. That is a cliff, and it needs a decision before it arrives rather
+than on the day.
+
+The two obvious responses are both wrong. Chasing all 414 is precisely the
+volume §398 refused — it would teach every recipient that letters from this
+address need not be read carefully because another is coming. Chasing none
+makes the forty-five days a number nobody acted on, which is the same as not
+having a deadline.
+
+THE PRINCIPLED SUBSET, and the corroboration work of §394 and §399 turns out to
+have been building the tool for exactly this. Of the 464 rows whose window
+closes on or before 7 October:
+
+    247   corroborated     something came back — a ticket, a reply, an
+                           acknowledgement. These are not silent; they are
+                           slow, and a chase adds nothing a wait does not.
+    197   UNCORROBORATED   nothing ever came back. Not one artifact from the
+                           company. Silence here is ambiguous in the way that
+                           matters: it may mean the request is queued, or it
+                           may mean the letter never arrived.
+     10   adverse          the only response was a bounce
+      9   weak / 1 self-verified
+
+THE 197 ARE THE ONES A CHASE CAN ACTUALLY SETTLE, because the question they
+raise is not "when will you answer" but "did you receive this at all" — and
+that is a question a company can answer in one line without doing any work on
+the substance. A chase to a corroborated row asks them to hurry. A chase to an
+uncorroborated row asks them to confirm receipt, which is a different and much
+smaller thing.
+
+Even 197 is too many to send in a week. The shape that follows: order them by
+what a reply would settle — the rows whose ONLY route is the one that went
+unanswered first, since those are where silence and unreachability are
+indistinguishable; the ones with a live alternative route last, since those can
+be re-routed rather than chased.
+
+Recorded now, in September, so the decision is made before the date rather than
+under it. The diarised October items in §420's tool are the first seven of
+this wave; the other 457 have no diary entry at all, which is the actual
+finding — the ledger knows when every request was sent and has never once been
+asked what that implies.
