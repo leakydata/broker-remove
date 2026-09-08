@@ -4,7 +4,7 @@
   "url": "https://ecom2.anchorcomputer.com/ccpa",
   "verdict": "REDIRECT-AWAY",
   "detail": "Anchor Computer - Error We've experienced an unexpected error. Our technical team has been notified and will a",
-  "final": "https://ecom2.anchorcomputer.com/Error?ref=99243"
+  "final": "https://ecom2.anchorcomputer.com/Error?ref=39046"
  },
  {
   "id": "dobsearch_com",
@@ -73,14 +73,14 @@
   "id": "familyrelatives",
   "url": "https://familyrelatives.com",
   "verdict": "OFF-TOPIC",
-  "detail": "Familyrelatives.com | Home Home Family Tree Community Announcements Home Page Browse Search Society Browse Sea",
+  "detail": "Familyrelatives.com | Home Home Family Tree Community Announcements Home Page Browse Search Society Browse Sea [host also answers 200 for a nonexistent path, 44766B]",
   "final": "https://familyrelatives.com"
  },
  {
   "id": "l2_data",
   "url": "https://www.l2-data.com/optout1-667457/",
   "verdict": "OFF-TOPIC",
-  "detail": "+ \ufffd\u0010Q]\ufffd\ufffd\" \ufffd\ufffd\"\u0493V\ufffd\u0007@#e\ufffd\ufffd\ufffdE`\ufffd\ufffd\ufffd:\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdo\ufffd\ufffd_%\ufffd\ufffd@\u0012\ufffd1n\ufffd[=M\ufffd\ufffdT\ufffd\ufffd\ufffdr\ufffdd$lU@\ufffdI\ufffdC\u0013\ufffd\ufffd\u051e\ufffd\ufffdV\ufffd\ufffdf\u0003\ufffd!D\ufffdC\u0012J\ufffd*\u01c9\ufffd\ufffdN:cO\u0017F\ufffd\u0000\u0010$!R\ufffdLR2e\ufffd",
+  "detail": "[H\ufffdSd`\ufffd8\u0000\u0000\ufffds\u000f\u0017Ee\ufffd\ufffd\ufffd\"z\ufffdj\ufffd\u0000\ufffdZ$d^\ufffd\ufffd\ufffd\u05df\u007f\ufffd\ufffdo\ufffd\ufffd\ufffd\ufffd\u0001\u00b4l\ufffd\ufffd\ufffd\ufffdx}~\ufffd\ufffd/\ufffd\ufffd\ufffd6?_;\ufffdU\u0002. $1\u0018\ufffd&\ufffd\ufffd\ufffdT\ufffdNu\ufffd)/7KF\ufffdV\u0005$\ufffd$ \ufffd\u007fJ\ufffd#*@f\ufffd\ufffd\ufffd\u0000K\ufffd% q\ufffd",
   "final": "https://l2-data.com/optout1-667457/"
  },
  {
@@ -143,15 +143,8 @@
   "id": "whoxy",
   "url": "https://www.whoxy.com/contact.php",
   "verdict": "OFF-TOPIC",
-  "detail": "Contact Us Our database now contains whois records of 720 Million (720,700,357) domain names. Login / Password",
+  "detail": "Contact Us Our database now contains whois records of 720 Million (720,732,435) domain names. Login / Password",
   "final": "https://www.whoxy.com/contact.php"
- },
- {
-  "id": "acxiom",
-  "url": "https://isapps.acxiom.com/optout/optout.aspx",
-  "verdict": "JS-SHELL",
-  "detail": "Request unsuccessful. Incapsula incident ID: 1093000050125455947-92564774457770354",
-  "final": "https://isapps.acxiom.com/optout/optout.aspx"
  },
  {
   "id": "affinity_solutions",
@@ -171,7 +164,7 @@
   "id": "alphonso",
   "url": "https://choice.alphonso.tv/donotsell",
   "verdict": "JS-SHELL",
-  "detail": "React.js Boilerplate",
+  "detail": "React.js Boilerplate [host also answers 200 for a nonexistent path, 2518B]",
   "final": "https://choice.alphonso.tv/donotsell"
  },
  {
@@ -192,7 +185,7 @@
   "id": "background_hawk",
   "url": "https://www.truthfinder.com/opt-out/v2/submit/",
   "verdict": "JS-SHELL",
-  "detail": "TruthFinder",
+  "detail": "TruthFinder [host also answers 200 for a nonexistent path, 1851B]",
   "final": "https://app.truthfinder.com/privacy-center/"
  },
  {
@@ -206,7 +199,7 @@
   "id": "choreograph",
   "url": "https://amer-cpp.choreograph.com/manage-your-data/do-not-sell",
   "verdict": "JS-SHELL",
-  "detail": "Loading...",
+  "detail": "Loading... [host also answers 200 for a nonexistent path, 164328B]",
   "final": "https://amer-cpp.choreograph.com/manage-your-data/do-not-sell"
  },
  {
@@ -227,28 +220,28 @@
   "id": "cognism",
   "url": "https://www.cognism.com/data-opt-out",
   "verdict": "JS-SHELL",
-  "detail": "Privacy Center",
+  "detail": "Privacy Center [host also answers 200 for a nonexistent path, 12378B]",
   "final": "https://cognism.privacy.saymine.io/cognism"
  },
  {
   "id": "criminal_com",
   "url": "https://www.truthfinder.com/opt-out/v2/submit/",
   "verdict": "JS-SHELL",
-  "detail": "TruthFinder",
+  "detail": "TruthFinder [host also answers 200 for a nonexistent path, 1851B]",
   "final": "https://app.truthfinder.com/privacy-center/"
  },
  {
   "id": "criminaldatacheck",
   "url": "https://www.intelius.com/privacy-center",
   "verdict": "JS-SHELL",
-  "detail": "Intelius",
+  "detail": "Intelius [host also answers 200 for a nonexistent path, 1830B]",
   "final": "https://app.intelius.com/privacy-center/"
  },
  {
   "id": "criminalrecords_com",
   "url": "https://www.intelius.com/privacy-center",
   "verdict": "JS-SHELL",
-  "detail": "Intelius",
+  "detail": "Intelius [host also answers 200 for a nonexistent path, 1830B]",
   "final": "https://app.intelius.com/privacy-center/"
  },
  {
@@ -262,7 +255,7 @@
   "id": "deep_root",
   "url": "https://privacy.deeprootanalytics.com/",
   "verdict": "JS-SHELL",
-  "detail": "Deep Root Privacy Requests",
+  "detail": "Deep Root Privacy Requests [host also answers 200 for a nonexistent path, 27541B]",
   "final": "https://privacy.deeprootanalytics.com/"
  },
  {
@@ -297,21 +290,21 @@
   "id": "easybackgroundchecks",
   "url": "https://www.intelius.com/suppression-center/",
   "verdict": "JS-SHELL",
-  "detail": "Intelius",
+  "detail": "Intelius [host also answers 200 for a nonexistent path, 1830B]",
   "final": "https://app.intelius.com/privacy-center/"
  },
  {
   "id": "equifax",
   "url": "https://myprivacy.equifax.com/opt-in-opt-out/personal-info",
   "verdict": "JS-SHELL",
-  "detail": "myPrivacy -->",
+  "detail": "myPrivacy --> [host also answers 200 for a nonexistent path, 20925B]",
   "final": "https://myprivacy.equifax.com/opt-in-opt-out/personal-info"
  },
  {
   "id": "experience",
   "url": "https://app.sixfifty.com/request-easy/6385-4387/questions/5303735",
   "verdict": "JS-SHELL",
-  "detail": "--> --> SixFifty",
+  "detail": "--> --> SixFifty [host also answers 200 for a nonexistent path, 21249B]",
   "final": "https://app.sixfifty.com/request-easy/6385-4387/questions/5303735"
  },
  {
@@ -325,35 +318,35 @@
   "id": "heartbeat_ai",
   "url": "https://heartbeat.ai/optout",
   "verdict": "JS-SHELL",
-  "detail": "Checking for any bots \u2026",
+  "detail": "Checking for any bots \u2026 [host also answers 200 for a nonexistent path, 10688B]",
   "final": "https://heartbeat.ai/optout"
  },
  {
   "id": "idcrawl",
   "url": "https://www.idcrawl.com/remove-my-information",
   "verdict": "JS-SHELL",
-  "detail": "",
+  "detail": " [host also answers 200 for a nonexistent path, 2022B]",
   "final": "https://www.idcrawl.com/remove-my-information"
  },
  {
   "id": "instantcheckmate",
   "url": "https://suppression.peopleconnect.us",
   "verdict": "JS-SHELL",
-  "detail": "PeopleConnect - Suppression Center",
+  "detail": "PeopleConnect - Suppression Center [host also answers 200 for a nonexistent path, 1758B]",
   "final": "https://suppression.peopleconnect.us"
  },
  {
   "id": "instantcheckspy",
   "url": "https://www.truthfinder.com/privacy-center",
   "verdict": "JS-SHELL",
-  "detail": "TruthFinder",
+  "detail": "TruthFinder [host also answers 200 for a nonexistent path, 1851B]",
   "final": "https://app.truthfinder.com/privacy-center/"
  },
  {
   "id": "intelius",
   "url": "https://suppression.peopleconnect.us",
   "verdict": "JS-SHELL",
-  "detail": "PeopleConnect - Suppression Center",
+  "detail": "PeopleConnect - Suppression Center [host also answers 200 for a nonexistent path, 1758B]",
   "final": "https://suppression.peopleconnect.us"
  },
  {
@@ -367,7 +360,7 @@
   "id": "kaspr_io",
   "url": "https://kaspr.privacy.saymine.io/kaspr",
   "verdict": "JS-SHELL",
-  "detail": "Privacy Center",
+  "detail": "Privacy Center [host also answers 200 for a nonexistent path, 12378B]",
   "final": "https://kaspr.privacy.saymine.io/kaspr"
  },
  {
@@ -388,14 +381,14 @@
   "id": "lexisnexis",
   "url": "https://optout.lexisnexis.com/",
   "verdict": "JS-SHELL",
-  "detail": "LexisNexis Information Suppression Request",
+  "detail": "LexisNexis Information Suppression Request [host also answers 200 for a nonexistent path, 682B]",
   "final": "https://optout.lexisnexis.com/"
  },
  {
   "id": "lightbox_parent_l_p",
   "url": "https://my.datasubject.com/16BXQXSvkBnuN4W2w/51306",
   "verdict": "JS-SHELL",
-  "detail": "Data Access Request",
+  "detail": "Data Access Request [host also answers 200 for a nonexistent path, 352B]",
   "final": "https://my.datasubject.com/16BXQXSvkBnuN4W2w/51306"
  },
  {
@@ -409,14 +402,14 @@
   "id": "malvern_media",
   "url": "https://privacyportal.privacypillar.com/dsar/form?orgid=369c8ff9-8ffb-4308-8362-f01691e77db8&propid=64c8904f-8bac-4dd9-8e6c-d052be1918a2&formid=6e6ff4b8-2296-4589-ae7f-563fa743ec2d&status=publish",
   "verdict": "JS-SHELL",
-  "detail": "Privacy Portal",
+  "detail": "Privacy Portal [host also answers 200 for a nonexistent path, 6219B]",
   "final": "https://privacyportal.privacypillar.com/dsar/form?orgid=369c8ff9-8ffb-4308-8362-f01691e77db8&propid=64c8904f-8bac-4dd9-8e6c-d052be1918a2&formid=6e6ff4b8-2296-4589-ae7f-563fa743ec2d&status=publish"
  },
  {
   "id": "media_resource",
   "url": "https://www.mrginc.com/do-not-sell-my-personal-information",
   "verdict": "JS-SHELL",
-  "detail": "Media Resource Group, Inc. tag. To begin the development, run `npm start` or `yarn start`. To create a product",
+  "detail": "Media Resource Group, Inc. tag. To begin the development, run `npm start` or `yarn start`. To create a product [host also answers 200 for a nonexistent path, 2600B]",
   "final": "https://www.mrginc.com/do-not-sell-my-personal-information"
  },
  {
@@ -437,7 +430,7 @@
   "id": "multimedia_lists",
   "url": "https://privacyportal.privacypillar.com/dsar/form?orgid=3b24c635-e1a9-4e8c-8e61-9f5fa0024f9c&propid=d3da91fd-2750-4534-9436-f29b3e513fe5&formid=4106bc86-1ddf-461b-b7f6-a5f53b0977b3&status=publish",
   "verdict": "JS-SHELL",
-  "detail": "Privacy Portal",
+  "detail": "Privacy Portal [host also answers 200 for a nonexistent path, 6219B]",
   "final": "https://privacyportal.privacypillar.com/dsar/form?orgid=3b24c635-e1a9-4e8c-8e61-9f5fa0024f9c&propid=d3da91fd-2750-4534-9436-f29b3e513fe5&formid=4106bc86-1ddf-461b-b7f6-a5f53b0977b3&status=publish"
  },
  {
@@ -458,14 +451,14 @@
   "id": "northcarolinapublicrecords_org",
   "url": "https://www.truthfinder.com/opt-out/v2/submit/",
   "verdict": "JS-SHELL",
-  "detail": "TruthFinder",
+  "detail": "TruthFinder [host also answers 200 for a nonexistent path, 1851B]",
   "final": "https://app.truthfinder.com/privacy-center/"
  },
  {
   "id": "openx_technologies",
   "url": "https://app.sixfifty.com/request-easy/611c-1551/questions/5310164",
   "verdict": "JS-SHELL",
-  "detail": "--> --> SixFifty",
+  "detail": "--> --> SixFifty [host also answers 200 for a nonexistent path, 21249B]",
   "final": "https://app.sixfifty.com/request-easy/611c-1551/questions/5310164"
  },
  {
@@ -486,7 +479,7 @@
   "id": "paramount_direct_marketing",
   "url": "https://www.paramountdirectmarketing.com/do-not-sell-non-ca",
   "verdict": "JS-SHELL",
-  "detail": "Paramount Direct Marketing",
+  "detail": "Paramount Direct Marketing [host also answers 200 for a nonexistent path, 754B]",
   "final": "https://www.paramountdirectmarketing.com/do-not-sell-non-ca"
  },
  {
@@ -500,14 +493,14 @@
   "id": "peoplefind_com",
   "url": "https://www.intelius.com/privacy-center",
   "verdict": "JS-SHELL",
-  "detail": "Intelius",
+  "detail": "Intelius [host also answers 200 for a nonexistent path, 1830B]",
   "final": "https://app.intelius.com/privacy-center/"
  },
  {
   "id": "peoplefinder",
   "url": "https://suppression.peopleconnect.us/login",
   "verdict": "JS-SHELL",
-  "detail": "PeopleConnect - Suppression Center",
+  "detail": "PeopleConnect - Suppression Center [host also answers 200 for a nonexistent path, 1758B]",
   "final": "https://suppression.peopleconnect.us/login"
  },
  {
@@ -521,14 +514,14 @@
   "id": "personsearchers",
   "url": "https://personsearchers.com/optout",
   "verdict": "JS-SHELL",
-  "detail": "",
+  "detail": " [host also answers 200 for a nonexistent path, 3927B]",
   "final": "https://www.personsearchers.com/optout"
  },
  {
   "id": "plaid",
   "url": "https://my.plaid.com/data-subject-request-form",
   "verdict": "JS-SHELL",
-  "detail": "The convenient way to manage your financial data | Plaid",
+  "detail": "The convenient way to manage your financial data | Plaid [host also answers 200 for a nonexistent path, 1160B]",
   "final": "https://my.plaid.com/data-subject-request-form"
  },
  {
@@ -549,21 +542,21 @@
   "id": "public_libraries",
   "url": "https://www.truthfinder.com/opt-out/v2/submit/",
   "verdict": "JS-SHELL",
-  "detail": "TruthFinder",
+  "detail": "TruthFinder [host also answers 200 for a nonexistent path, 1851B]",
   "final": "https://app.truthfinder.com/privacy-center/"
  },
  {
   "id": "publicrecords_com",
   "url": "https://suppression.peopleconnect.us/login",
   "verdict": "JS-SHELL",
-  "detail": "PeopleConnect - Suppression Center",
+  "detail": "PeopleConnect - Suppression Center [host also answers 200 for a nonexistent path, 1758B]",
   "final": "https://suppression.peopleconnect.us/login"
  },
  {
   "id": "qualfon",
   "url": "https://ccpa.qualfon.com/deletionrequest",
   "verdict": "JS-SHELL",
-  "detail": "ApplicationCcpa",
+  "detail": "ApplicationCcpa [host also answers 200 for a nonexistent path, 17138B]",
   "final": "https://ccpa.qualfon.com/deletionrequest"
  },
  {
@@ -584,56 +577,49 @@
   "id": "recordspage",
   "url": "https://www.truthfinder.com/opt-out/v2/submit/",
   "verdict": "JS-SHELL",
-  "detail": "TruthFinder",
+  "detail": "TruthFinder [host also answers 200 for a nonexistent path, 1851B]",
   "final": "https://app.truthfinder.com/privacy-center/"
  },
  {
   "id": "recordsquarry",
   "url": "https://www.truthfinder.com/opt-out/v2/submit/",
   "verdict": "JS-SHELL",
-  "detail": "TruthFinder",
+  "detail": "TruthFinder [host also answers 200 for a nonexistent path, 1851B]",
   "final": "https://app.truthfinder.com/privacy-center/"
  },
  {
   "id": "reveal_phone_owner",
   "url": "https://www.revealphoneowner.com/data-removal/",
   "verdict": "JS-SHELL",
-  "detail": "Fatal error : Uncaught Error: Call to undefined method MDB2_Error::numRows() in /www/wwwroot/revealphoneowner.",
+  "detail": "Fatal error : Uncaught Error: Call to undefined method MDB2_Error::numRows() in /www/wwwroot/revealphoneowner. [host also answers 200 for a nonexistent path, 425B]",
   "final": "https://www.revealphoneowner.com/data-removal/"
  },
  {
   "id": "reversephonelookup",
   "url": "https://www.intelius.com/privacy-center",
   "verdict": "JS-SHELL",
-  "detail": "Intelius",
+  "detail": "Intelius [host also answers 200 for a nonexistent path, 1830B]",
   "final": "https://app.intelius.com/privacy-center/"
- },
- {
-  "id": "seamless_ai",
-  "url": "https://login.seamless.ai/personalDataRequest",
-  "verdict": "JS-SHELL",
-  "detail": "Seamless.AI",
-  "final": "https://login.seamless.ai/personalDataRequest"
  },
  {
   "id": "sheriffsdepartment_net",
   "url": "https://www.truthfinder.com/opt-out/v2/submit/",
   "verdict": "JS-SHELL",
-  "detail": "TruthFinder",
+  "detail": "TruthFinder [host also answers 200 for a nonexistent path, 1851B]",
   "final": "https://app.truthfinder.com/privacy-center/"
  },
  {
   "id": "snoopstation",
   "url": "https://www.intelius.com/privacy-center",
   "verdict": "JS-SHELL",
-  "detail": "Intelius",
+  "detail": "Intelius [host also answers 200 for a nonexistent path, 1830B]",
   "final": "https://app.intelius.com/privacy-center/"
  },
  {
   "id": "southcarolinapublicrecords_com",
   "url": "https://www.truthfinder.com/opt-out/v2/submit/",
   "verdict": "JS-SHELL",
-  "detail": "TruthFinder",
+  "detail": "TruthFinder [host also answers 200 for a nonexistent path, 1851B]",
   "final": "https://app.truthfinder.com/privacy-center/"
  },
  {
@@ -647,42 +633,42 @@
   "id": "stirista",
   "url": "https://unsubscribe.stirista.com/",
   "verdict": "JS-SHELL",
-  "detail": "Stirista Unsubscribe Loading...",
+  "detail": "Stirista Unsubscribe Loading... [host also answers 200 for a nonexistent path, 1746B]",
   "final": "https://unsubscribe.stirista.com/"
  },
  {
   "id": "terminus",
   "url": "https://home.terminusplatform.com/data-deletion-request",
   "verdict": "JS-SHELL",
-  "detail": "DemandScience Loading...",
+  "detail": "DemandScience Loading... [host also answers 200 for a nonexistent path, 41062B]",
   "final": "https://app.demandscienceplatform.com/data-deletion-request"
  },
  {
   "id": "trestle",
   "url": "https://portal.trestleiq.com/do-not-sell",
   "verdict": "JS-SHELL",
-  "detail": "Trestle Developer Portal",
+  "detail": "Trestle Developer Portal [host also answers 200 for a nonexistent path, 4803B]",
   "final": "https://portal.trestleiq.com/do-not-sell"
  },
  {
   "id": "truthfinder",
   "url": "https://suppression.peopleconnect.us",
   "verdict": "JS-SHELL",
-  "detail": "PeopleConnect - Suppression Center",
+  "detail": "PeopleConnect - Suppression Center [host also answers 200 for a nonexistent path, 1758B]",
   "final": "https://suppression.peopleconnect.us"
  },
  {
   "id": "tunnl",
   "url": "https://privacy.tunnldata.com/",
   "verdict": "JS-SHELL",
-  "detail": "Tunnl Privacy Requests",
+  "detail": "Tunnl Privacy Requests [host also answers 200 for a nonexistent path, 28789B]",
   "final": "https://privacy.tunnldata.com/"
  },
  {
   "id": "ussearch",
   "url": "https://www.ussearch.com/opt-out/",
   "verdict": "JS-SHELL",
-  "detail": "PeopleConnect - Suppression Center",
+  "detail": "PeopleConnect - Suppression Center [host also answers 200 for a nonexistent path, 1758B]",
   "final": "https://suppression.peopleconnect.us/"
  },
  {
@@ -1764,6 +1750,13 @@
   "final": ""
  },
  {
+  "id": "seamless_ai",
+  "url": "https://login.seamless.ai/personalDataRequest",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
   "id": "searchpeoplefree_net",
   "url": "https://searchpeoplefree.net/resource/remove-my-info",
   "verdict": "HTTP-403",
@@ -1787,6 +1780,13 @@
  {
   "id": "spyfly",
   "url": "https://www.spyfly.com/help-center/privacy-requests",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "thatsthem",
+  "url": "https://thatsthem.com/optout",
   "verdict": "HTTP-403",
   "detail": "",
   "final": ""
@@ -2210,6 +2210,13 @@
   "verdict": "MAILTO",
   "detail": "",
   "final": "https://unity.com/legal/do-not-sell-my-personal-information"
+ },
+ {
+  "id": "acxiom",
+  "url": "https://isapps.acxiom.com/optout/optout.aspx",
+  "verdict": "BOT-BLOCKED",
+  "detail": "interstitial served as 200; try a browser",
+  "final": "https://isapps.acxiom.com/optout/optout.aspx"
  },
  {
   "id": "alabamacourtrecords_us",
@@ -3070,7 +3077,7 @@
   "url": "https://www.governmentregistry.org/opt-out",
   "verdict": "FORM",
   "detail": "",
-  "final": "https://governmentregistry.org/opt-out"
+  "final": "https://www.governmentregistry.org/opt-out"
  },
  {
   "id": "grassroots_analytics",
@@ -3162,13 +3169,6 @@
   "verdict": "FORM",
   "detail": "",
   "final": "https://mightyrep.com/contact/"
- },
- {
-  "id": "mineralholders",
-  "url": "https://www.mineralholders.com/opt-out",
-  "verdict": "FORM",
-  "detail": "",
-  "final": "https://www.mineralholders.com/opt-out"
  },
  {
   "id": "nevada_arrests",
@@ -3402,13 +3402,6 @@
   "final": "https://texasarrestwarrants.org/contact"
  },
  {
-  "id": "thatsthem",
-  "url": "https://thatsthem.com/optout",
-  "verdict": "FORM",
-  "detail": "",
-  "final": "https://thatsthem.com/optout"
- },
- {
   "id": "ufind_name",
   "url": "https://ufind.name/opt-out",
   "verdict": "FORM",
@@ -3503,6 +3496,13 @@
   "id": "idcaller",
   "url": "https://idcaller.com",
   "verdict": "HTTP-503",
+  "detail": "",
+  "final": ""
+ },
+ {
+  "id": "mineralholders",
+  "url": "https://www.mineralholders.com/opt-out",
+  "verdict": "HTTP-401",
   "detail": "",
   "final": ""
  },

@@ -109,6 +109,54 @@ def is_portal_host(host):
     return any(p in host for p in PORTAL_HOSTS)
 
 
+# Unambiguous parking signatures. Precise on purpose: each of these is a page
+# whose entire content is an instruction to go somewhere else, which no real
+# route ever is. Anything less certain than these is left to a human.
+PARKED_SIG = re.compile(
+    r'window\.location\.href\s*=\s*["\']/?lander|'
+    r'>\s*Click here to enter\s*<|'
+    r'parking(?:crew|page)|sedoparking|bodis\.com|afternic',
+    re.I)
+
+# An Incapsula / Imperva style bot interstitial: a tiny body that is nothing but
+# an iframe, marked noindex. Served with a 200, so it is invisible to a status
+# check, and it means "a browser might get through where this did not" -- which
+# is a different thing from "there is no route here".
+WAF_SHELL = re.compile(r'NOINDEX,\s*NOFOLLOW', re.I)
+
+
+def answers_everything(final, html):
+    """Does this host return the same page for a path that cannot exist?
+
+    An HTTP 200 does not mean "this page exists", it means "something
+    answered" (SF 427). But THIS SIGNAL DOES NOT IDENTIFY WHAT ANSWERED, and
+    three unrelated conditions produce it identically: a parked domain, a WAF
+    interstitial, and a single-page app whose routing runs in the browser.
+
+    I tried twice to make it decide a verdict and it was wrong both times --
+    first flagging 44 routes including Acxiom, Equifax, Intelius and
+    TruthFinder, several with COMPLETED removals through those exact URLs;
+    then, after gating it on <script>, missing the parked domains outright
+    because their lander redirect is itself a script. Whichever way the
+    boolean was set it destroyed information.
+
+    So it no longer decides anything. It ANNOTATES: the verdict comes from
+    what the page contains, and this is appended as a note for a human or a
+    browser check to weigh. A signal that cannot distinguish three causes has
+    no business choosing between them. See _SILENT_FAILURES 428.
+    """
+    try:
+        base = urlparse(final)
+        _, _, bogus = fetch(f"{base.scheme}://{base.netloc}/zzz-not-a-real-page-9137/")
+    except urllib.error.HTTPError:
+        return ""            # a 4xx here is CORRECT: the host discriminates
+    except Exception:
+        return ""            # control unreachable: say nothing
+    if abs(len(bogus) - len(html)) < 200:
+        return f" [host also answers 200 for a nonexistent path, {len(bogus)}B]"
+    return ""
+
+
 def classify(bid, url):
     try:
         code, final, html = fetch(url)
@@ -119,30 +167,6 @@ def classify(bid, url):
 
     text = strip(html)
     host = urlparse(final).netloc.lower()
-
-    # NEGATIVE CONTROL. An HTTP 200 does not mean "this page exists" -- it means
-    # "something answered". Parking pages, catch-all rewrites, soft-404s and SPA
-    # routers all answer 200 to every path, and a classifier that reads 200 as
-    # existence reports a route on every one of them. Seventeen arrests.org
-    # domains were queued as thirteen human form-fills on exactly that mistake:
-    # nine served a 114-byte stub and four a 32KB landing page, identically, for
-    # every path requested. The tell costs one request -- ask for something that
-    # MUST NOT exist and require the answer to differ. Real sites 404 here; the
-    # parked ones returned byte-identical 200s. See _SILENT_FAILURES 427.
-    #
-    # Runs only once a page looks answerable, so it costs nothing on the error
-    # paths, and compares LENGTH rather than bytes because a parking page may
-    # echo the requested path back into its own body.
-    try:
-        base = urlparse(final)
-        ncode, _, nhtml = fetch(f"{base.scheme}://{base.netloc}/zzz-not-a-real-page-9137/")
-        if ncode == 200 and abs(len(nhtml) - len(html)) < 200:
-            return (bid, url, "CATCH-ALL",
-                    f"nonexistent path also returns 200, {len(nhtml)}B vs {len(html)}B", final)
-    except urllib.error.HTTPError:
-        pass          # a 404/410 here is the CORRECT answer: the site discriminates
-    except Exception:
-        pass          # control unreachable: fall through rather than guess
 
     # REDIRECT-AWAY MUST BE CHECKED BEFORE LOOKING FOR A FORM. route_check.py
     # already flagged dobsearch's /people-finder/block-record-request.php as
@@ -178,10 +202,18 @@ def classify(bid, url):
     product = bool(PRODUCT_WORDS.search(text[:3000]))
     removal = bool(REMOVAL_WORDS.search(text[:6000]))
 
+    # PARKED is positive evidence and outranks everything: the page's whole
+    # content is a redirect to a parking lander. Seventeen arrests.org domains
+    # sat behind exactly this and were briefly queued as human form-fills.
+    if PARKED_SIG.search(html):
+        return (bid, url, "PARKED", strip(html)[:60] or "redirects to a parking lander", final)
+    if WAF_SHELL.search(html) and len(text) < 400:
+        return (bid, url, "BOT-BLOCKED", "interstitial served as 200; try a browser", final)
     if RATELIMIT.search(text[:2000]):
         return (bid, url, "RATE-LIMITED", text[:110], final)
     if not real_form and (SHELL.search(text[:2000]) or len(text) < 400):
-        return (bid, url, "JS-SHELL", text[:110], final)
+        return (bid, url, "JS-SHELL",
+                text[:110] + answers_everything(final, html), final)
     if product and not real_form:
         return (bid, url, "PRODUCT-PAGE", text[:110], final)
     if real_form:
@@ -191,7 +223,8 @@ def classify(bid, url):
     if privacy_mailto:
         return (bid, url, "MAILTO", "", final)
     if not removal:
-        return (bid, url, "OFF-TOPIC", text[:110], final)
+        return (bid, url, "OFF-TOPIC",
+                text[:110] + answers_everything(final, html), final)
     # talks about removal, no form element -- almost always a JS widget
     return (bid, url, "WIDGET-LIKELY", "", final)
 
@@ -242,7 +275,8 @@ def main():
     order = ["PRODUCT-PAGE", "REDIRECT-AWAY", "OFF-TOPIC", "JS-SHELL",
              "RATE-LIMITED",
              "WIDGET-LIKELY", "HTTP-403",
-             "HTTP-404", "ERROR", "MAILTO", "DELEGATED", "CATCH-ALL", "FORM"]
+             "HTTP-404", "ERROR", "MAILTO", "PARKED", "BOT-BLOCKED",
+             "DELEGATED", "FORM"]
     out.sort(key=lambda r: (order.index(r[2]) if r[2] in order else 99, r[0]))
 
     counts = {}

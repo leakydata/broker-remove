@@ -27268,3 +27268,80 @@ rather than remember.
 Next: `route_has_form.py` and `find_optout_pages.py` both treat a 200 as a page.
 Neither runs a negative control. Both should, and until they do, every route
 verdict either has produced is provisional in exactly this way.
+
+## 428. Three different things, one signature, and I let it decide twice
+
+§427 ended with an instruction to myself: build the negative control into the
+scanners rather than remember it. I did, within the hour. Then I ran it against
+502 recorded routes and it reported forty-eight catch-alls — and the list opened
+with these:
+
+    acxiom          isapps.acxiom.com/optout/optout.aspx
+    equifax         myprivacy.equifax.com/opt-in-opt-out/personal-info
+    intelius        intelius.com/privacy-center
+    truthfinder     truthfinder.com/opt-out/v2/submit/
+
+Eight of the forty-eight brokers are `confirmed` in the ledger. Removals were
+completed through those URLs. The control had just declared them dead.
+
+**The cause.** A single-page application returns byte-identical HTML for every
+path, because its routing happens in the browser. So does a parked domain. So
+does a WAF interstitial. Three unrelated conditions, one observable, and length
+identity cannot separate them. The check was not merely imprecise — it was
+measuring something that does not distinguish the thing it was being asked to
+decide.
+
+**The second attempt, which was also wrong.** I gated it on `<script>`: an app
+shell has one, a parking stub does not. That cleared Acxiom, Equifax, Intelius
+and TruthFinder — and lost every parked domain, because a parking lander *is* a
+script:
+
+    <script>window.onload=function(){window.location.href="/lander"}</script>
+
+114 bytes, and it contains the one token I had chosen as the signature of
+legitimacy. Whichever way the boolean was set, it destroyed information. That is
+the tell that the boolean was the wrong instrument, not that it needed tuning.
+
+**The redesign.** The control no longer decides anything. It **annotates**:
+
+    intelius   JS-SHELL   Intelius [host also answers 200 for a nonexistent path, 1830B]
+
+The verdict still comes from what the page contains. The signal is appended for
+a human, or a later browser check, to weigh. Nothing is suppressed and nothing
+is invented. *A signal that cannot distinguish three causes has no business
+choosing between them* — and the instinct to convert every new signal into a
+verdict is exactly what produced §389, §408 and §424.
+
+Two things I *can* identify with certainty became verdicts of their own, because
+they are positive evidence rather than inference:
+
+  **PARKED** — the page's entire content is a redirect to a parking lander, or
+  the words "Click here to enter". No real route is only an instruction to go
+  somewhere else. Catches the seventeen arrests.org domains exactly.
+
+  **BOT-BLOCKED** — a tiny body that is nothing but an iframe marked
+  `NOINDEX, NOFOLLOW`. This is what `isapps.acxiom.com` actually served: an
+  Imperva-style interstitial with a 200 status, invisible to any status check.
+  Its meaning is *"a browser might get through where this did not"*, which is a
+  wholly different instruction from "there is no route here" — and it is the
+  diagnosis the catch-all verdict was hiding.
+
+Verified after the change: connecticutarrests and newjerseyarrests → PARKED;
+acxiom → BOT-BLOCKED; equifax, intelius, truthfinder → JS-SHELL, annotated,
+routes intact; californiaarrests and pennsylvaniaarrests → FORM.
+
+**The part worth carrying.** Three times in one day a check produced confident
+nonsense, and each time the fix taught the same thing from a different angle.
+§424: join on what the evidence is keyed to. §427: make the check able to fail.
+This one is the third and the least obvious — **a check that can fail can still
+be measuring the wrong quantity**, and the symptom is that neither setting of it
+is right. When tuning a threshold trades one class of error for another with no
+setting that is correct, the answer is not a better threshold. It is that the
+observable does not determine the answer, and the honest move is to report it
+and stop pretending otherwise.
+
+Also worth saying plainly: the first version of this control shipped an hour
+after §427 was written, and §427 is *about* shipping checks that cannot fail.
+Writing the lesson down did not prevent the next instance of it. What caught
+this one was the same thing that caught §427 — running it against cases whose
+answer was already known, and noticing that Acxiom is not a dead route.
