@@ -27125,3 +27125,68 @@ opted out of separates it from a working route.
 a different TLD from the site itself. That may be ordinary infrastructure or it
 may be a route pointing at a property the operator can disclaim. Recorded, not
 concluded.
+
+## 426. Two answers on the same morning, and the useless one was the generous one
+
+Within eleven hours on 8 September the project received both of these.
+
+**Attribits**, thirty-five times in thirty-eight seconds, from an address that
+states in its own signature that it does not accept replies:
+
+> *"Hello, this has been completed as requested."*
+
+**Outbrain/Teads**, once, in answer to a single question:
+
+> *"No such mechanism does exist in our systems. Because we do not collect or
+> process email addresses in any form, we do not maintain a suppression list
+> keyed to them."*
+
+The first grants everything and settles nothing. The second grants nothing and
+settles the matter completely. It is worth being precise about why, because the
+instinct is to score these the other way round.
+
+**What "completed as requested" cannot do.** The request had four parts. The
+sentence reports on none of them individually, names no key that was searched,
+carries no reference, and is contradicted on the one point that was externally
+checkable (§423). Crucially, there is no observation that would distinguish it
+from a false statement. A consumer receiving it has learned nothing and must
+either accept it on faith or keep writing — and the mailbox it came from does
+not receive.
+
+**What "no such mechanism exists" does.** It is specific (email addresses, in
+any form), it explains the architecture rather than citing a policy, and it is
+falsifiable — if Outbrain later offered a hashed-email opt-out, this sentence
+would be visibly wrong, and they wrote it knowing that. It also does the thing a
+consumer actually needs, which is to make further effort here provably pointless
+so the effort can go somewhere it works. **The value of an answer is not how
+much it concedes. It is how much it lets you stop doing.**
+
+Three closures now rest on exactly this shape — a company saying plainly that it
+cannot act, and being believed because the account was checkable and specific:
+Outbrain, Teads, and the earlier honest exit at §386.
+
+**The promise was the load-bearing part.** The follow-up of 4 September said, in
+writing, *"One question, and then I'll treat this as closed regardless of the
+answer… If the honest answer is that no such mechanism exists on your systems,
+that's a complete answer too — please just say so plainly."* They said so
+plainly. Closing on that, immediately and without a further ask, is not
+politeness; it is the only thing that makes the offer worth anything the next
+time it is made to anyone. A promise to stop that does not produce stopping
+teaches every recipient that the cheapest reply is no reply (§386).
+
+**The status is the awkward part and is recorded rather than smoothed.** These
+rows are `unreachable`, which is true of the *route* — there is no path by which
+this person can be removed from Outbrain or Teads without surrendering a cookie
+ID or a MAID, and that surrender is a standing refusal. But `unreachable` reads
+as a company that could not be contacted, and Outbrain answered twice, promptly,
+with the clearest architectural explanation in the ad-tech cohort. The note on
+each row says so in its first line. The ledger has no status meaning *"answered
+well, and the answer is that nothing can be done"*, and rather than invent one
+for two rows the mismatch is written down here.
+
+The closing letter said one further thing, framed as an offer needing no reply:
+the limitation they described is invisible from outside, and a person who has
+never had an advertising identifier — or who has just reset one — has no route
+at all. A sentence to that effect in their privacy policy would cost them
+nothing they have not already put in writing, and would save the next person the
+three weeks this took.
