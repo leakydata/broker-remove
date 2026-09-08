@@ -217,6 +217,47 @@ def cmd_set(args):
     rec.setdefault("history", []).append(entry)
     save(STATE, st)
     print(f"{args.broker_id} -> {args.status}")
+    _say_if_queued(args.broker_id)
+
+
+def _say_if_queued(bid):
+    """Tell the caller this broker already has a human waiting on it.
+
+    THREE STORES HOLD STATE HERE and none of them is the memory: this ledger
+    (what happened), brokers.json (what exists) and handoff_queue.json (what a
+    human still owes). A question asked of one returns a confident answer about
+    that store, which is then easy to phrase as an answer about the project.
+
+    On 2026-09-08 optoutprescreen.com had no row here, I read that as "never
+    written to", and wrote a ledger note calling the route invisible until that
+    day. An open queue item had been sitting on it for ten days, and it was
+    better than what I was about to replace it with -- it stated the SSN
+    requirement as fact rather than hearsay and carried a phishing caution I had
+    not thought of. handoff.py refused the overwrite because handoff.py consults
+    THIS file. Nothing here consulted handoff.py, and the asymmetry is the whole
+    bug. See _SILENT_FAILURES 429.
+
+    Printed, never blocking: a status change on a queued row is usually right
+    (that is what happens when the human clears the item). The point is only
+    that the ledger should stop being able to say "no record" about a row a
+    human is actively holding.
+    """
+    try:
+        q = json.loads((ROOT / "data" / "handoff_queue.json").read_text())
+    except Exception:
+        return
+    items = q if isinstance(q, list) else (q.get("open") or q.get("items") or [])
+    for e in items:
+        if not isinstance(e, dict) or e.get("broker") != bid:
+            continue
+        if e.get("done") or e.get("closed_at"):
+            continue
+        steps = " ".join(str(e.get("steps", "")).split())
+        print(f"  NOTE: {bid} also has an OPEN handoff item "
+              f"[{e.get('action', '?')}] staged {str(e.get('staged_at', ''))[:10]} -- "
+              f"a human is waiting on it, and it may already know more than this "
+              f"note does.\n        {steps[:150]}", file=sys.stderr)
+        return
 
 
 def cmd_next(args):
