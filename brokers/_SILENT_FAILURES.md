@@ -26403,3 +26403,51 @@ The lesson is the same one as §410 with the sign flipped: that entry was about
 a classifier reporting MORE than was there, and this is one reporting LESS.
 Both were caught by the same move — look at what the instrument did not
 account for, not at what it returned.
+
+## 413. Re-testing a CAPTCHA from a script does not work either
+
+Sites change. The privacycompliance.biz form moved from "refuses to submit" to
+"submits and fails to send" in four days (§406), so the seventeen
+`captcha_blocked` rows were worth re-checking: has any of those CAPTCHAs gone
+away?
+
+Thirteen had a URL. Five came back CLEAN — no CAPTCHA anywhere in the HTML:
+NextRoll, Paramount Direct Marketing, SpyDialer, DSPolitical, Message Digital.
+Five rows apparently unblocked.
+
+None of them was.
+
+    NextRoll          1,715 bytes, zero text, zero forms — a JS shell
+    Message Digital  21,984 bytes, 359 characters of text, zero forms —
+                     a OneTrust widget that had not rendered
+    Paramount           754 bytes, the words "Paramount Direct Marketing"
+                     and nothing else
+    DSPolitical      a real page with a real form — a MAILCHIMP NEWSLETTER
+                     SIGNUP. "Join Our List". The opt-out is elsewhere.
+    SpyDialer        a real ASP.NET page whose form contains __VIEWSTATE and
+                     a START button. The CAPTCHA is at step one, which a
+                     static fetch never reaches.
+
+"No CAPTCHA in the HTML" and "no CAPTCHA" are different statements, and the gap
+between them has four separate causes: the page has not rendered, the widget
+injects itself, the only static form belongs to something else entirely, or the
+gate is one screen further in.
+
+THIS IS THE SECOND RE-TEST THAT CANNOT BE SCRIPTED. §409 established that
+people-search listings cannot be re-verified from a script — the sites that
+matter block automation, and the rest render in JavaScript. This establishes
+the same for CAPTCHA status. Both belong to the human browser queue or nowhere.
+
+Recorded so the project stops re-attempting them. The five rows stay
+`captcha_blocked`; nothing about them has changed except that a cheap check was
+tried and found not to answer the question.
+
+ONE THING WORTH KEEPING, from SpyDialer's page and better than most:
+
+    "We allow consumers in all states to opt-out their information."
+
+Most of this file's residency findings run the other way — forms that restrict
+to California, dropdowns with sixteen states and no seventeenth, Civis's Google
+Form that strands a Pennsylvanian on page one (§151, §312). A company saying
+plainly that it does not care which state you live in deserves the same
+attention as the ones that do.
