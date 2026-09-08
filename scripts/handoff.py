@@ -28,7 +28,7 @@ depend on a browser tab still being open, because tabs do not survive the wait.
 import argparse
 import json
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -184,6 +184,12 @@ def cmd_add(a):
         "broker": a.broker, "url": a.url, "action": a.action,
         "steps": a.steps, "note": a.note, "staged_at": now(),
         "minutes": a.minutes,
+        # A handoff that depends on a live token has a clock the reader cannot
+        # see. Recording the window here lets `list` say EXPIRED instead of
+        # leaving a twenty-day-dead link reading as "click this".
+        # See _SILENT_FAILURES 418.
+        "window_hours": a.window_hours,
+        "issued_at": a.issued_at or (now() if a.window_hours else None),
     })
     save(q)
     print(f"queued: {a.broker} ({ACTIONS.get(a.action, a.action)})")
@@ -205,6 +211,25 @@ def cmd_done(a):
     print(f"{a.broker}: {'failed - ' + a.failed if a.failed else 'done'}")
 
 
+def _clock(e):
+    """How long is left on this item's token, if it has one."""
+    w = e.get("window_hours")
+    iss = e.get("issued_at")
+    if not w or not iss:
+        return ""
+    try:
+        left = (datetime.fromisoformat(iss)
+                + timedelta(hours=w) - datetime.now(timezone.utc))
+    except Exception:
+        return ""
+    hrs = left.total_seconds() / 3600
+    if hrs <= 0:
+        return f"   *** EXPIRED {abs(int(hrs))}h ago - do not click, restart ***"
+    if hrs < 3:
+        return f"   *** {hrs:.1f}h LEFT ***"
+    return f"   ({hrs:.0f}h left)"
+
+
 def cmd_list(a):
     q = load()
     open_ = q["open"]
@@ -218,7 +243,14 @@ def cmd_list(a):
         for e in open_:
             kinds[e["action"]] = kinds.get(e["action"], 0) + 1
         bits = ", ".join(f"{v} {k}" for k, v in sorted(kinds.items()))
-        print(f"{len(open_)} waiting on you ({bits}) - about {total} min")
+        dead = sum(1 for e in open_ if "EXPIRED" in _clock(e))
+        soon = sum(1 for e in open_ if "LEFT" in _clock(e))
+        urgent = ""
+        if soon:
+            urgent += f" - {soon} EXPIRING SOON"
+        if dead:
+            urgent += f" - {dead} already expired"
+        print(f"{len(open_)} waiting on you ({bits}) - about {total} min{urgent}")
         return 0
 
     print(f"\n{len(open_)} item(s) waiting on you - roughly {total} minute(s) total\n")
@@ -230,7 +262,9 @@ def cmd_list(a):
             waited = f"  (staged {mins} min ago)"
         except Exception:
             pass
-        print(f"{i}. {e['broker']}  -  {ACTIONS.get(e['action'], e['action'])}{waited}")
+        clock = _clock(e)
+        print(f"{i}. {e['broker']}  -  {ACTIONS.get(e['action'], e['action'])}"
+              f"{waited}{clock}")
         if e.get("url"):
             print(f"   {e['url']}")
         if e.get("steps"):
@@ -254,6 +288,12 @@ def main():
     p.add_argument("--steps", required=True, help="exactly what the human does")
     p.add_argument("--note", help="anything else worth knowing")
     p.add_argument("--minutes", type=int, default=1, help="rough time cost")
+    p.add_argument("--window-hours", dest="window_hours", type=float,
+                   help="hours until the token/link in this item dies. Sets a "
+                        "clock so `list` can mark it EXPIRED rather than "
+                        "letting it read as live forever (SF 418).")
+    p.add_argument("--issued-at", dest="issued_at",
+                   help="ISO time the token was issued, if not now")
     p.add_argument("--replace", action="store_true",
                    help="supersede existing open item(s) for this broker; they "
                         "are archived to `closed`. See _SILENT_FAILURES 344a.")

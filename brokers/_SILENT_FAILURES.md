@@ -26714,3 +26714,49 @@ THE RULE: any handoff whose instruction depends on a live token must say the
 issue time, the window, and what to do when the window has passed — in that
 order, at the top. "Click the link in the email" is not an instruction; it is
 an instruction with an undeclared expiry date.
+
+## 419. Giving the queue a clock
+
+§418 fixed four handoff items that still said "click this link" about tokens
+dead for five to twenty days, and ended by naming the structural problem the
+fix did not solve: a queue item is written once and read an unknown number of
+days later, and nothing in it knows what time it is. Fifteen more items carry
+a window that has not bitten yet only because their tokens have never been
+minted.
+
+Patching prose four items at a time does not scale and will not be remembered.
+So the tool now carries the clock instead.
+
+`handoff.py add` takes `--window-hours` (and optionally `--issued-at`), stored
+on the item. `list` computes what is left and says so on the line itself:
+
+    152. peoplesearchnow  -  fill in and submit a web form    (21h left)
+    153. winr_data        -  complete a verification step     (5h left)
+     21. peoplefinders    -  solve a CAPTCHA, then submit
+             *** EXPIRED 444h ago - do not click, restart ***
+
+and `list --brief`, which is the one-line form used for notifications, now
+ends with the only part that is urgent:
+
+    153 waiting on you (...) - about 724 min - 4 already expired
+
+Clocks were set on the six items with a known window: the two live ones — WINR
+issued 05:43 UTC with an assumed six-hour DataGrail window, PeopleSearchNow to
+03:28 UTC tomorrow — and the four §418 found dead.
+
+WHY THIS IS THE RIGHT SHAPE OF FIX rather than more careful writing. The
+warning §418 added is a sentence a person has to read and believe. A computed
+clock is checked every time the list is printed, cannot be forgotten when the
+next time-limited item is queued, and states the ONE thing the reader needs
+before deciding whether to open a link: is this still alive.
+
+It also makes the failure legible in the other direction. "4 already expired"
+in the brief line is a standing measure of how much of this queue has quietly
+gone off — which was previously knowable only by reading 153 items and doing
+date arithmetic, which is to say not knowable at all.
+
+WHAT IT STILL DOES NOT DO: nothing sets the window automatically. A future
+item queued without `--window-hours` is exactly as blind as before. The habit
+has to be that any handoff depending on a token records its clock at the
+moment it is written — which is now cheap enough that there is no excuse, and
+that is the most a tool can do about a habit.
