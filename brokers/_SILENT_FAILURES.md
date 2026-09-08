@@ -26498,3 +26498,56 @@ checking each.
 THE RULE, which §409 stated and this carries out: when a bug is found in one
 place, grep for its shape in every other place before considering it fixed. The
 grep took a minute. The bug had been producing wrong verdicts for three days.
+
+## 415. The commit that was half-written when the machine went down
+
+The workstation restarted unexpectedly during a commit. On return, every git
+command failed identically:
+
+    error: object file .git/objects/e1/26f3aa... is empty
+    fatal: bad object HEAD
+
+NINE ZERO-BYTE OBJECT FILES. Git creates the file, then writes the compressed
+object into it; a power loss between those two steps leaves a correctly-named
+file with nothing in it. One of the nine was the commit object HEAD pointed at,
+so every read of history died at the first hop.
+
+WHAT WAS INTACT, WHICH IS THE PART THAT MATTERS: the working tree. The prose,
+the script fix and the regenerated index were all on disk — because they are
+written by the editor and the gate long before `git commit` runs. Only the
+commit was lost, not the work. And `data/removal_status.json`, the ledger this
+whole project rests on, was untouched: 1,265 rows, every count where it should
+be.
+
+THE REPAIR, in the order it has to happen:
+
+    1. BACK UP FIRST — a copy of .git and a tar of the working tree, outside
+       the repo. Every step after this is destructive and there is no remote
+       to re-clone from; the branch was 70 commits ahead of origin.
+    2. Read .git/logs/HEAD. The reflog is a plain text file and does not
+       depend on the object store, so it survives when nothing else does. It
+       named the last good commit.
+    3. Point refs/heads/main at that commit by writing the file directly —
+       `git reset` cannot run when HEAD is unreadable.
+    4. Strip the reflog lines mentioning the corrupt object.
+    5. Delete the nine empty files, and .git/index, which was also mid-write.
+    6. `git reset` to rebuild the index from HEAD. It then reports exactly the
+       four files of the lost commit as modified, and nothing else — which is
+       the proof the repair was clean rather than lucky.
+    7. Re-run the redaction gate and re-commit.
+
+`git fsck` afterwards reports only DANGLING objects — orphans with no parent,
+which are harmless. Zero missing, zero broken links.
+
+WHY THIS IS IN THIS FILE rather than a sysadmin note. Every entry here is about
+a record that looks like something it is not. This is the same shape turned on
+the project itself: for two hours the repository looked destroyed and was
+almost entirely fine, and the only reason that was knowable is that the
+evidence lives in three independent places — the working tree, the reflog, and
+a ledger that is written separately from git. A project whose findings existed
+only as commits would have lost the ability to check whether it had lost
+anything.
+
+THE PRACTICAL RULE: the reflog is the recovery path, and it is plain text. Read
+it before touching anything else, and copy .git before touching anything at
+all.
