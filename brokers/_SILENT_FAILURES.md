@@ -26664,3 +26664,53 @@ same for every prohibition. Three of these end the attempt; one of them is a
 tool to be used carefully. An instruction set that says only "never send X"
 flattens that distinction, and the flattening is what leaves the person holding
 it to guess.
+
+## 418. The handoff item that sends you to a dead link
+
+The queue now runs to 152 items and about twelve hours of somebody's attention.
+Nineteen of them mention a time limit — a 24-hour link, a single-use token, a
+15-minute access code. Those are the items most likely to rot, because their
+instructions were written on the day the token was live and say "click this
+link" in the present tense forever after.
+
+Checked against the calendar, four were sending the reader to something that
+cannot work:
+
+    peoplefinders   a 24-hour link issued 2026-08-19 — twenty days dead
+    acuant          a one-time portal access code, fifteen days old
+    cadent          a 24-hour verification link, five days old
+    cb_insights     a single-use DataGrail link, and their mail had already
+                    said FINAL notice
+
+The failure is not that the links expired. It is that the ITEM STILL READS AS
+IF THEY HAVE NOT. Someone working the queue opens a twenty-day-old token, it
+fails, and the natural reading is that they did it wrong — so they retry, or
+give up, or quietly mark it done. None of those is the correct action, which
+in every case is to restart and get a fresh token.
+
+That is this file's own subject applied to this project's own instructions: a
+step that looks executable and cannot succeed.
+
+FIXED by prepending a dated header to each, naming what has expired and what
+the real next action is:
+
+    *** STALE AS OF 2026-09-08 — READ THIS FIRST. This item was staged 20 days
+    ago around a 24-hour link issued 2026-08-19. THAT LINK IS TWENTY DAYS
+    DEAD. Do not open it — it will fail and look like your mistake. The action
+    now is to RESTART FROM STAGE 1... ***
+
+The body is left intact underneath, because the route notes, field values and
+warnings in it are all still good. Only the premise had gone off.
+
+THE STRUCTURAL PROBLEM, which the header does not solve: a queue item is
+written once and read an unknown number of days later, and nothing in it knows
+what time it is. Fifteen more items in this queue carry a time limit that has
+not yet been checked because their tokens were never issued — they are stage-1
+items that will MINT a short-lived link when someone starts them. Those are
+fine today and become the same trap the moment the link is generated and not
+used.
+
+THE RULE: any handoff whose instruction depends on a live token must say the
+issue time, the window, and what to do when the window has passed — in that
+order, at the top. "Click the link in the email" is not an instruction; it is
+an instruction with an undeclared expiry date.
