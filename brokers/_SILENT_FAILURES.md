@@ -26551,3 +26551,69 @@ anything.
 THE PRACTICAL RULE: the reflog is the recovery path, and it is plain text. Read
 it before touching anything else, and copy .git before touching anything at
 all.
+
+## 416. The unsatisfiable required field does not block the request, it corrupts it
+
+§392 recorded that Gimbal (PaeDae, Inc) makes "Mobile Advertising ID
+(IDFA/GAID)" a REQUIRED field on every request type, including Do Not Sell, and
+that a consumer who will not disclose one therefore has no route at all. That
+was written as a wall.
+
+It is not a wall. On 8 September a request went into that form with the
+subject's TELEPHONE NUMBER in the advertising-ID field:
+
+    Type of Mobile Advertising ID (IDFA/GAID): GAID (Google Android)
+    Mobile Advertising ID (IDFA/GAID): [the subject's telephone number]
+
+Nobody decided to do that. It is what a mandatory field produces when it cannot
+be satisfied and the alternative is abandoning the request. The form does not
+stop the request; it takes whatever gets typed and treats it as a device
+identifier.
+
+SO THE FAILURE MODE IS WORSE THAN THE ONE §392 DESCRIBED. A wall turns people
+away and they know it. THIS ONE LETS THEM THROUGH AND SILENTLY MIS-FILES WHAT
+THEY BRING — a phone number, deposited by the consumer's own hand, into a field
+the company's systems read as a device ID. It matches nothing, and it puts a
+new identifier into a broker's records in the course of asking them to hold
+less.
+
+Consider what this means at scale for the company: some unknown proportion of
+everything arriving in that field is not an advertising ID at all, and there is
+no way to tell which. The field's mandatory status guarantees noise in exactly
+the column that is supposed to be authoritative.
+
+HANDLED, in this order:
+
+  1. The confirmation link was NOT clicked and will not be. An unconfirmed
+     OneTrust request expires, which is the clean withdrawal.
+  2. Written to the company asking them to delete the request in full
+     including the field values, and never to treat that value as a device
+     identifier. The letter makes the argument above rather than apologising —
+     making the field optional for Do Not Sell requests fixes both this and
+     the §7026(f) point that is still open with them.
+  3. Queued as a do-not-click decision so nobody completes it later.
+
+AND THE PART THAT WAS THIS PROJECT'S FAULT. Twenty-eight open handoff items
+told the operator "do not enter a government ID, an SSN, or a device/advertising
+identifier." NOT ONE said what to do when the field is REQUIRED. An instruction
+that forbids the only value a form will accept, and stops there, leaves the
+person holding it to improvise — and improvising is what happened.
+
+All twenty-eight now carry the missing branch:
+
+    IF THE FIELD IS REQUIRED AND THE FORM WILL NOT SUBMIT WITHOUT IT: stop,
+    leave the request unsent, and say so. Do not type a placeholder, a phone
+    number, a zero or any other filler. A required field that cannot be
+    honestly filled is itself the finding, and it is worth more than the
+    submission.
+
+THE GENERAL RULE: a prohibition is only half an instruction. Whenever a
+handoff says "never supply X", it must also say what to do when X is the only
+thing the form will take. Otherwise the prohibition is a trap for the person
+carrying it out.
+
+ONE SMALLER THING, REPORTED AND NOT OURS TO FIX: their OneTrust confirmation
+email masks name, email, state and country as XXXX, and does not mask the
+advertising-ID field, which appears in full. For its intended contents that is
+a device identifier sent in cleartext; for what people actually put there it
+may be anything.
