@@ -7,8 +7,11 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-24)
-- Note: 2026-08-24: first contact via the address nominated in the California data broker registration. Tailored per _CATEGORY_VARIANTS.md.
+- Current: `submitted` (updated 2026-09-07)
+- Note: 2026-09-07 reply: "we received your Data Subject Request and did not find any match in our databases... Adsquare does not process any personal data associated with the personal data provided" — a nil, but scoped to the identifiers supplied (advertising IDs, hashed emails, name/address/phone). THE GEOGRAPHIC ASK WAS NOT ANSWERED: the original letter's point (c) deliberately asked a non-identifier query — any device showing a persistent overnight dwell pattern at the home address and each prior address — on the reasoning that a location-keyed dataset has no name field to search, so a name/email nil says nothing about it. Replied same day asking directly whether that query was run, offering three acceptable closing answers (ran it and nothing matched; don't hold place-queryable dwell data; can't run that query type) — awaiting a considered reply, not yet chased further. Also asked that the archived request data not become matchable inventory, and that a standing do-not-sell/do-not-share/do-not-append bind even against a nil.
+
+  Separately, two OneTrust portal ticket confirmations arrived alongside this email thread — Request ID 8WN6LE4TGK (opened 2026-08-24, the same day as the original letter; marked "completed" 2026-09-07 with no detail in the email body, only a JS portal link that could not be fetched headlessly) and Request ID 4XA7NCDD84 (opened 2026-09-07, "logged successfully", no content yet). Adsquare's system appears to auto-generate a portal ticket per inbound message on this thread rather than these being separate requests initiated elsewhere. Left uninvestigated this pass since the live email thread already carries the substantive exchange; worth checking on the next pass whether 8WN6LE4TGK's portal page (browser-only) states anything the email reply didn't.
+- Note (2026-08-24): first contact via the address nominated in the California data broker registration. Tailored per _CATEGORY_VARIANTS.md.
 
 ## Steps
 
