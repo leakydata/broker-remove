@@ -26867,3 +26867,51 @@ under it. The diarised October items in §420's tool are the first seven of
 this wave; the other 457 have no diary entry at all, which is the actual
 finding — the ledger knows when every request was sent and has never once been
 asked what that implies.
+
+## 422. The cliff is twelve letters
+
+§421 computed that 414 open rows cross the forty-five day window in the week of
+28 September and about a thousand within three weeks, and proposed a principled
+subset: chase only the UNCORROBORATED rows, because a chase to a corroborated
+one asks a company to hurry while a chase to a silent one asks whether the
+letter arrived at all — a question answerable in a line.
+
+scripts/chase_queue.py now builds that list, and a dry run against 1 October
+turns the cliff into something much smaller than it looked.
+
+    72   uncorroborated rows past forty-five days
+     8   of them sole-route — the unanswered channel is the only one known
+    64   have an alternative address or a working form
+
+    12   DISTINCT CONTACT ADDRESSES ACROSS ALL SEVENTY-TWO
+
+Three addresses carry sixty-three of the rows:
+
+    privacy@courtrecords.us      50 rows
+    contact@licensedata.org      10
+    support@verifyrecords.com     3
+
+plus nine singletons.
+
+SO THE WEEK OF 28 SEPTEMBER IS NOT 414 LETTERS. It is twelve, of which one
+covers fifty state-court-records sites and another covers ten. The register
+counts companies; the mailbox counts operators; and this project has spent
+weeks learning that those are very different numbers (§390, §391, §405). Here
+the difference is the whole workload.
+
+TWO THINGS THAT FOLLOW.
+
+The 64 with an alternative route are not chase candidates at all. Sending a
+second letter down a channel that produced nothing is worse than trying the
+door that has not been tried — so those get RE-ROUTED, and only the 8
+sole-route rows plus whatever the re-routes fail to reach become chases.
+
+And the three shared addresses should be ONE LETTER EACH, naming every row it
+covers, not fifty near-identical messages to the same mailbox. Fifty letters to
+one inbox is not fifty requests; it is one request and forty-nine reasons to
+stop reading. §304's rule about volume applies with more force when the volume
+lands in a single place.
+
+Recorded three weeks early, which is the point. The number that mattered was
+never 414 — it was 12 — and finding that out on the day would have meant
+finding it out badly.
