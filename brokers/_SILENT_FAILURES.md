@@ -26617,3 +26617,50 @@ email masks name, email, state and country as XXXX, and does not mask the
 advertising-ID field, which appears in full. For its intended contents that is
 a device identifier sent in cleartext; for what people actually put there it
 may be anything.
+
+## 417. The other three prohibitions had the same hole
+
+§416 fixed the advertising-identifier instruction: twenty-eight handoff items
+said "never supply one" and none said what to do when the form requires one.
+The obvious next question is whether the project's OTHER standing refusals had
+the same shape. They did, and worse.
+
+    account creation   35 items mentioned it,  6 told the operator what to do
+    government ID      40 items,              18
+    SSN                41 items,              18
+    date of birth      29 items,               7
+
+(The 18s are §416's fix already covering those rows.) So on roughly thirty
+items apiece, the instruction was a prohibition with no exit — the exact
+structure that put a phone number in Gimbal's advertising-ID field.
+
+TWO DIFFERENT CLAUSES WERE NEEDED, because these are not all the same kind of
+rule, and treating them as one would have been its own error.
+
+ACCOUNT, GOVERNMENT ID, SSN — absolute refusals. 45 items now carry:
+
+    stop, leave the request unsent, and say so. These are absolute refusals,
+    not preferences — do not create a throwaway account, do not upload a
+    document, do not enter a partial or made-up number to get past validation.
+    A route that cannot be used without one of these is a finding worth more
+    than the submission, and it is the thing to report back.
+
+DATE OF BIRTH is not in that class and never was. This project has supplied it
+deliberately — to MedPro as a search key, and offered to Wyty specifically so a
+suppression keyed to name-plus-city would not catch a stranger of the same
+name (§400). Lumping it in with the SSN would have removed the one identifier
+that can actually protect a third party. 29 items now carry:
+
+    supply it when it NARROWS a match — when a company has several records
+    under a common name and needs to know which is his, or is asking so it can
+    rule him out. Do not supply it to WIDEN a search, and do not volunteer it
+    into a blank field just because the form offers one. The test is whether it
+    makes the company more likely to act on the RIGHT record, or merely gives
+    them a new attribute they did not hold.
+
+THE POINT WORTH KEEPING: §416's rule was "a prohibition is only half an
+instruction." The corollary this turned up is that the missing half is not the
+same for every prohibition. Three of these end the attempt; one of them is a
+tool to be used carefully. An instruction set that says only "never send X"
+flattens that distinction, and the flattening is what leaves the person holding
+it to guess.
