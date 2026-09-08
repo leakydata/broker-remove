@@ -120,6 +120,30 @@ def classify(bid, url):
     text = strip(html)
     host = urlparse(final).netloc.lower()
 
+    # NEGATIVE CONTROL. An HTTP 200 does not mean "this page exists" -- it means
+    # "something answered". Parking pages, catch-all rewrites, soft-404s and SPA
+    # routers all answer 200 to every path, and a classifier that reads 200 as
+    # existence reports a route on every one of them. Seventeen arrests.org
+    # domains were queued as thirteen human form-fills on exactly that mistake:
+    # nine served a 114-byte stub and four a 32KB landing page, identically, for
+    # every path requested. The tell costs one request -- ask for something that
+    # MUST NOT exist and require the answer to differ. Real sites 404 here; the
+    # parked ones returned byte-identical 200s. See _SILENT_FAILURES 427.
+    #
+    # Runs only once a page looks answerable, so it costs nothing on the error
+    # paths, and compares LENGTH rather than bytes because a parking page may
+    # echo the requested path back into its own body.
+    try:
+        base = urlparse(final)
+        ncode, _, nhtml = fetch(f"{base.scheme}://{base.netloc}/zzz-not-a-real-page-9137/")
+        if ncode == 200 and abs(len(nhtml) - len(html)) < 200:
+            return (bid, url, "CATCH-ALL",
+                    f"nonexistent path also returns 200, {len(nhtml)}B vs {len(html)}B", final)
+    except urllib.error.HTTPError:
+        pass          # a 404/410 here is the CORRECT answer: the site discriminates
+    except Exception:
+        pass          # control unreachable: fall through rather than guess
+
     # REDIRECT-AWAY MUST BE CHECKED BEFORE LOOKING FOR A FORM. route_check.py
     # already flagged dobsearch's /people-finder/block-record-request.php as
     # redirecting to a blog article -- and THIS script called it "FORM",
@@ -218,7 +242,7 @@ def main():
     order = ["PRODUCT-PAGE", "REDIRECT-AWAY", "OFF-TOPIC", "JS-SHELL",
              "RATE-LIMITED",
              "WIDGET-LIKELY", "HTTP-403",
-             "HTTP-404", "ERROR", "MAILTO", "DELEGATED", "FORM"]
+             "HTTP-404", "ERROR", "MAILTO", "DELEGATED", "CATCH-ALL", "FORM"]
     out.sort(key=lambda r: (order.index(r[2]) if r[2] in order else 99, r[0]))
 
     counts = {}

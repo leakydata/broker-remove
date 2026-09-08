@@ -92,6 +92,30 @@ def links(base, html):
     return out
 
 
+def catch_all(host):
+    """Does this host answer 200 to a path that cannot exist?
+
+    An HTTP 200 does not mean a page exists, it means something answered.
+    Parked domains, catch-all rewrites and SPA routers answer every path
+    identically, and a scanner that reads 200 as existence will report a route
+    on all of them. Seventeen arrests.org domains were queued as human work on
+    exactly that mistake -- nine served a 114-byte stub and four a 32KB landing
+    page, byte-identical, for every path asked for. One extra request tells them
+    apart: real sites 404 here. See _SILENT_FAILURES 427.
+
+    Returns the length of the bogus page when the host is a catch-all, else None.
+    """
+    for scheme in ("https://", "http://"):
+        try:
+            _, bogus = fetch(f"{scheme}{host}/zzz-not-a-real-page-9137/")
+            return len(bogus)
+        except urllib.error.HTTPError:
+            return None      # a 4xx here is the CORRECT answer: it discriminates
+        except Exception:
+            continue
+    return None
+
+
 def probe(bid, domain):
     host = domain.replace("https://", "").replace("http://", "").strip("/")
     same, off, reached = set(), set(), False
@@ -114,7 +138,10 @@ def probe(bid, domain):
             break
         if same:
             break
-    return {"id": bid, "domain": host, "reached": reached,
+    # Only worth asking once something answered, and only where it matters --
+    # a host that produced no candidate route is already reported as "nothing".
+    bogus = catch_all(host) if (reached and (same or off)) else None
+    return {"id": bid, "domain": host, "reached": reached, "catch_all": bogus is not None,
             "same_site": sorted(same)[:4], "off_site": sorted(off)[:3]}
 
 
@@ -140,8 +167,10 @@ def main():
     with ThreadPoolExecutor(max_workers=12) as pool:
         res = list(pool.map(lambda t: probe(*t), todo))
 
-    found = [r for r in res if r["same_site"]]
-    offonly = [r for r in res if not r["same_site"] and r["off_site"]]
+    parked = [r for r in res if r.get("catch_all")]
+    found = [r for r in res if r["same_site"] and not r.get("catch_all")]
+    offonly = [r for r in res if not r["same_site"] and r["off_site"]
+               and not r.get("catch_all")]
     dead = [r for r in res if not r["reached"]]
 
     print(f"\n=== SAME-SITE REMOVAL ROUTE ({len(found)})")
@@ -154,15 +183,21 @@ def main():
     for r in sorted(offonly, key=lambda r: r["id"]):
         print(f"  {r['id']:38s} {r['off_site'][0]}")
 
+    print(f"\n=== CATCH-ALL ({len(parked)}) -- answers 200 to a path that cannot exist,")
+    print("    so any 'route' found on it is an artefact. See _SILENT_FAILURES 427.")
+    for r in sorted(parked, key=lambda r: r["id"]):
+        print(f"  {r['id']:38s} {r['domain']}")
+
     print(f"\n=== NOT REACHED ({len(dead)})")
     for r in sorted(dead, key=lambda r: r["id"]):
         print(f"  {r['id']:38s} {r['domain']}")
 
-    n_none = len(res) - len(found) - len(offonly) - len(dead)
+    n_none = len(res) - len(found) - len(offonly) - len(dead) - len(parked)
     print(f"\n=== summary")
     print(f"  same-site route   {len(found)}")
     print(f"  off-site only     {len(offonly)}")
     print(f"  reachable, none   {n_none}")
+    print(f"  catch-all         {len(parked)}")
     print(f"  not reached       {len(dead)}")
     print("\n  A path match is a CANDIDATE. Nothing here confirms a working form;")
     print("  that needs a browser. The point is to hand one a queue.")
