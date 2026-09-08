@@ -29531,7 +29531,7 @@
    "domain": "connecticutarrests.org",
    "priority": 2,
    "method": "web_form",
-   "optout_url": "https://www.connecticutarrests.org/ccpaOptOut/",
+   "optout_url": null,
    "needs_email_confirm": null,
    "source": "family_enumeration 2026-09-08",
    "email_verified": false,
@@ -29539,9 +29539,9 @@
    "category": "people_search",
    "category_source": "family_enumeration 2026-09-08",
    "listing_basis": "third_party_directory",
-   "route_evidence": "probed",
+   "route_evidence": "none",
    "family": "arrests_org_ccpa",
-   "notes": "No InfoTracer/SafeCart boilerplate; publishes its own /ccpaOptOut/ route. Data source unestablished."
+   "notes": "PARKED / CATCH-ALL as at 2026-09-08. Every path on this host returns 200 with byte-identical content, including a deliberately nonsensical one. No opt-out route exists."
   },
   {
    "id": "delawarearrests_org",
@@ -29549,7 +29549,7 @@
    "domain": "delawarearrests.org",
    "priority": 2,
    "method": "web_form",
-   "optout_url": "https://www.delawarearrests.org/ccpaOptOut/",
+   "optout_url": null,
    "needs_email_confirm": null,
    "source": "family_enumeration 2026-09-08",
    "email_verified": false,
@@ -29557,9 +29557,9 @@
    "category": "people_search",
    "category_source": "family_enumeration 2026-09-08",
    "listing_basis": "third_party_directory",
-   "route_evidence": "probed",
+   "route_evidence": "none",
    "family": "arrests_org_ccpa",
-   "notes": "No InfoTracer/SafeCart boilerplate; publishes its own /ccpaOptOut/ route. Data source unestablished."
+   "notes": "PARKED / CATCH-ALL as at 2026-09-08. Every path on this host returns 200 with byte-identical content, including a deliberately nonsensical one. No opt-out route exists."
   },
   {
    "id": "floridaarrests_org",
@@ -29567,7 +29567,7 @@
    "domain": "floridaarrests.org",
    "priority": 2,
    "method": "web_form",
-   "optout_url": "https://www.floridaarrests.org/ccpaOptOut/",
+   "optout_url": null,
    "needs_email_confirm": null,
    "source": "family_enumeration 2026-09-08",
    "email_verified": false,
@@ -29575,9 +29575,9 @@
    "category": "people_search",
    "category_source": "family_enumeration 2026-09-08",
    "listing_basis": "third_party_directory",
-   "route_evidence": "probed",
+   "route_evidence": "none",
    "family": "arrests_org_ccpa",
-   "notes": "No InfoTracer/SafeCart boilerplate; publishes its own /ccpaOptOut/ route. Data source unestablished."
+   "notes": "PARKED / CATCH-ALL as at 2026-09-08. Every path on this host returns 200 with byte-identical content, including a deliberately nonsensical one. No opt-out route exists."
   },
   {
    "id": "massachusettsarrests_org",
@@ -29585,7 +29585,7 @@
    "domain": "massachusettsarrests.org",
    "priority": 2,
    "method": "web_form",
-   "optout_url": "https://www.massachusettsarrests.org/ccpaOptOut/",
+   "optout_url": null,
    "needs_email_confirm": null,
    "source": "family_enumeration 2026-09-08",
    "email_verified": false,
@@ -29593,9 +29593,9 @@
    "category": "people_search",
    "category_source": "family_enumeration 2026-09-08",
    "listing_basis": "third_party_directory",
-   "route_evidence": "probed",
+   "route_evidence": "none",
    "family": "arrests_org_ccpa",
-   "notes": "No InfoTracer/SafeCart boilerplate; publishes its own /ccpaOptOut/ route. Data source unestablished."
+   "notes": "PARKED / CATCH-ALL as at 2026-09-08. Every path on this host returns 200 with byte-identical content, including a deliberately nonsensical one. No opt-out route exists."
   },
   {
    "id": "mississippiarrests_org",
@@ -29603,7 +29603,7 @@
    "domain": "mississippiarrests.org",
    "priority": 2,
    "method": "web_form",
-   "optout_url": "https://www.mississippiarrests.org/contact-form",
+   "optout_url": null,
    "needs_email_confirm": null,
    "source": "family_enumeration 2026-09-08",
    "email_verified": false,
@@ -29611,9 +29611,9 @@
    "category": "people_search",
    "category_source": "family_enumeration 2026-09-08",
    "listing_basis": "third_party_directory",
-   "route_evidence": "probed",
+   "route_evidence": "none",
    "family": "arrests_org_ccpa",
-   "notes": "No InfoTracer/SafeCart boilerplate; publishes its own /ccpaOptOut/ route. Data source unestablished."
+   "notes": "PARKED / CATCH-ALL as at 2026-09-08. Every path on this host returns 200 with byte-identical content, including a deliberately nonsensical one. No opt-out route exists."
   },
   {
    "id": "newhampshirearrests_org",
@@ -29621,7 +29621,7 @@
    "domain": "newhampshirearrests.org",
    "priority": 2,
    "method": "web_form",
-   "optout_url": "https://www.newhampshirearrests.org/contact-form",
+   "optout_url": null,
    "needs_email_confirm": null,
    "source": "family_enumeration 2026-09-08",
    "email_verified": false,
@@ -29629,9 +29629,9 @@
    "category": "people_search",
    "category_source": "family_enumeration 2026-09-08",
    "listing_basis": "third_party_directory",
-   "route_evidence": "probed",
+   "route_evidence": "none",
    "family": "arrests_org_ccpa",
-   "notes": "No InfoTracer/SafeCart boilerplate; publishes its own /ccpaOptOut/ route. Data source unestablished."
+   "notes": "PARKED / CATCH-ALL as at 2026-09-08. Every path on this host returns 200 with byte-identical content, including a deliberately nonsensical one. No opt-out route exists."
   },
   {
    "id": "newjerseyarrests_org",
@@ -29639,7 +29639,7 @@
    "domain": "newjerseyarrests.org",
    "priority": 2,
    "method": "web_form",
-   "optout_url": "https://www.newjerseyarrests.org/contact-form",
+   "optout_url": null,
    "needs_email_confirm": null,
    "source": "family_enumeration 2026-09-08",
    "email_verified": false,
@@ -29647,9 +29647,9 @@
    "category": "people_search",
    "category_source": "family_enumeration 2026-09-08",
    "listing_basis": "third_party_directory",
-   "route_evidence": "probed",
+   "route_evidence": "none",
    "family": "arrests_org_ccpa",
-   "notes": "No InfoTracer/SafeCart boilerplate; publishes its own /ccpaOptOut/ route. Data source unestablished."
+   "notes": "PARKED / CATCH-ALL as at 2026-09-08. Every path on this host returns 200 with byte-identical content, including a deliberately nonsensical one. No opt-out route exists."
   },
   {
    "id": "newmexicoarrests_org",
@@ -29657,7 +29657,7 @@
    "domain": "newmexicoarrests.org",
    "priority": 2,
    "method": "web_form",
-   "optout_url": "https://www.newmexicoarrests.org/ccpaOptOut/",
+   "optout_url": null,
    "needs_email_confirm": null,
    "source": "family_enumeration 2026-09-08",
    "email_verified": false,
@@ -29665,9 +29665,9 @@
    "category": "people_search",
    "category_source": "family_enumeration 2026-09-08",
    "listing_basis": "third_party_directory",
-   "route_evidence": "probed",
+   "route_evidence": "none",
    "family": "arrests_org_ccpa",
-   "notes": "No InfoTracer/SafeCart boilerplate; publishes its own /ccpaOptOut/ route. Data source unestablished."
+   "notes": "PARKED / CATCH-ALL as at 2026-09-08. Every path on this host returns 200 with byte-identical content, including a deliberately nonsensical one. No opt-out route exists."
   },
   {
    "id": "newyorkarrests_org",
@@ -29675,7 +29675,7 @@
    "domain": "newyorkarrests.org",
    "priority": 2,
    "method": "web_form",
-   "optout_url": "https://www.newyorkarrests.org/ccpaOptOut/",
+   "optout_url": null,
    "needs_email_confirm": null,
    "source": "family_enumeration 2026-09-08",
    "email_verified": false,
@@ -29683,9 +29683,9 @@
    "category": "people_search",
    "category_source": "family_enumeration 2026-09-08",
    "listing_basis": "third_party_directory",
-   "route_evidence": "probed",
+   "route_evidence": "none",
    "family": "arrests_org_ccpa",
-   "notes": "No InfoTracer/SafeCart boilerplate; publishes its own /ccpaOptOut/ route. Data source unestablished."
+   "notes": "PARKED / CATCH-ALL as at 2026-09-08. Every path on this host returns 200 with byte-identical content, including a deliberately nonsensical one. No opt-out route exists."
   },
   {
    "id": "northcarolinaarrests_org",
@@ -29693,7 +29693,7 @@
    "domain": "northcarolinaarrests.org",
    "priority": 2,
    "method": "web_form",
-   "optout_url": "https://www.northcarolinaarrests.org/contact-form",
+   "optout_url": null,
    "needs_email_confirm": null,
    "source": "family_enumeration 2026-09-08",
    "email_verified": false,
@@ -29701,9 +29701,9 @@
    "category": "people_search",
    "category_source": "family_enumeration 2026-09-08",
    "listing_basis": "third_party_directory",
-   "route_evidence": "probed",
+   "route_evidence": "none",
    "family": "arrests_org_ccpa",
-   "notes": "No InfoTracer/SafeCart boilerplate; publishes its own /ccpaOptOut/ route. Data source unestablished."
+   "notes": "PARKED / CATCH-ALL as at 2026-09-08. Every path on this host returns 200 with byte-identical content, including a deliberately nonsensical one. No opt-out route exists."
   },
   {
    "id": "northdakotaarrests_org",
@@ -29711,7 +29711,7 @@
    "domain": "northdakotaarrests.org",
    "priority": 2,
    "method": "web_form",
-   "optout_url": "https://www.northdakotaarrests.org/ccpaOptOut/",
+   "optout_url": null,
    "needs_email_confirm": null,
    "source": "family_enumeration 2026-09-08",
    "email_verified": false,
@@ -29719,9 +29719,9 @@
    "category": "people_search",
    "category_source": "family_enumeration 2026-09-08",
    "listing_basis": "third_party_directory",
-   "route_evidence": "probed",
+   "route_evidence": "none",
    "family": "arrests_org_ccpa",
-   "notes": "No InfoTracer/SafeCart boilerplate; publishes its own /ccpaOptOut/ route. Data source unestablished."
+   "notes": "PARKED / CATCH-ALL as at 2026-09-08. Every path on this host returns 200 with byte-identical content, including a deliberately nonsensical one. No opt-out route exists."
   },
   {
    "id": "oregonarrests_org",
@@ -29729,7 +29729,7 @@
    "domain": "oregonarrests.org",
    "priority": 2,
    "method": "web_form",
-   "optout_url": "https://www.oregonarrests.org/ccpaOptOut/",
+   "optout_url": null,
    "needs_email_confirm": null,
    "source": "family_enumeration 2026-09-08",
    "email_verified": false,
@@ -29737,9 +29737,9 @@
    "category": "people_search",
    "category_source": "family_enumeration 2026-09-08",
    "listing_basis": "third_party_directory",
-   "route_evidence": "probed",
+   "route_evidence": "none",
    "family": "arrests_org_ccpa",
-   "notes": "No InfoTracer/SafeCart boilerplate; publishes its own /ccpaOptOut/ route. Data source unestablished."
+   "notes": "PARKED / CATCH-ALL as at 2026-09-08. Every path on this host returns 200 with byte-identical content, including a deliberately nonsensical one. No opt-out route exists."
   },
   {
    "id": "rhodeislandarrests_org",
@@ -29747,7 +29747,7 @@
    "domain": "rhodeislandarrests.org",
    "priority": 2,
    "method": "web_form",
-   "optout_url": "https://www.rhodeislandarrests.org/ccpaOptOut/",
+   "optout_url": null,
    "needs_email_confirm": null,
    "source": "family_enumeration 2026-09-08",
    "email_verified": false,
@@ -29755,9 +29755,9 @@
    "category": "people_search",
    "category_source": "family_enumeration 2026-09-08",
    "listing_basis": "third_party_directory",
-   "route_evidence": "probed",
+   "route_evidence": "none",
    "family": "arrests_org_ccpa",
-   "notes": "No InfoTracer/SafeCart boilerplate; publishes its own /ccpaOptOut/ route. Data source unestablished."
+   "notes": "PARKED / CATCH-ALL as at 2026-09-08. Every path on this host returns 200 with byte-identical content, including a deliberately nonsensical one. No opt-out route exists."
   },
   {
    "id": "southcarolinaarrests_org",
@@ -29765,7 +29765,7 @@
    "domain": "southcarolinaarrests.org",
    "priority": 2,
    "method": "web_form",
-   "optout_url": "https://www.southcarolinaarrests.org/ccpaOptOut/",
+   "optout_url": null,
    "needs_email_confirm": null,
    "source": "family_enumeration 2026-09-08",
    "email_verified": false,
@@ -29773,9 +29773,9 @@
    "category": "people_search",
    "category_source": "family_enumeration 2026-09-08",
    "listing_basis": "third_party_directory",
-   "route_evidence": "probed",
+   "route_evidence": "none",
    "family": "arrests_org_ccpa",
-   "notes": "No InfoTracer/SafeCart boilerplate; publishes its own /ccpaOptOut/ route. Data source unestablished."
+   "notes": "PARKED / CATCH-ALL as at 2026-09-08. Every path on this host returns 200 with byte-identical content, including a deliberately nonsensical one. No opt-out route exists."
   },
   {
    "id": "southdakotaarrests_org",
@@ -29783,7 +29783,7 @@
    "domain": "southdakotaarrests.org",
    "priority": 2,
    "method": "web_form",
-   "optout_url": "https://www.southdakotaarrests.org/ccpaOptOut/",
+   "optout_url": null,
    "needs_email_confirm": null,
    "source": "family_enumeration 2026-09-08",
    "email_verified": false,
@@ -29791,9 +29791,9 @@
    "category": "people_search",
    "category_source": "family_enumeration 2026-09-08",
    "listing_basis": "third_party_directory",
-   "route_evidence": "probed",
+   "route_evidence": "none",
    "family": "arrests_org_ccpa",
-   "notes": "No InfoTracer/SafeCart boilerplate; publishes its own /ccpaOptOut/ route. Data source unestablished."
+   "notes": "PARKED / CATCH-ALL as at 2026-09-08. Every path on this host returns 200 with byte-identical content, including a deliberately nonsensical one. No opt-out route exists."
   },
   {
    "id": "vermontarrests_org",
@@ -29801,7 +29801,7 @@
    "domain": "vermontarrests.org",
    "priority": 2,
    "method": "web_form",
-   "optout_url": "https://www.vermontarrests.org/ccpaOptOut/",
+   "optout_url": null,
    "needs_email_confirm": null,
    "source": "family_enumeration 2026-09-08",
    "email_verified": false,
@@ -29809,9 +29809,9 @@
    "category": "people_search",
    "category_source": "family_enumeration 2026-09-08",
    "listing_basis": "third_party_directory",
-   "route_evidence": "probed",
+   "route_evidence": "none",
    "family": "arrests_org_ccpa",
-   "notes": "No InfoTracer/SafeCart boilerplate; publishes its own /ccpaOptOut/ route. Data source unestablished."
+   "notes": "PARKED / CATCH-ALL as at 2026-09-08. Every path on this host returns 200 with byte-identical content, including a deliberately nonsensical one. No opt-out route exists."
   },
   {
    "id": "westvirginiaarrests_org",
@@ -29819,7 +29819,7 @@
    "domain": "westvirginiaarrests.org",
    "priority": 2,
    "method": "web_form",
-   "optout_url": "https://www.westvirginiaarrests.org/ccpaOptOut/",
+   "optout_url": null,
    "needs_email_confirm": null,
    "source": "family_enumeration 2026-09-08",
    "email_verified": false,
@@ -29827,9 +29827,9 @@
    "category": "people_search",
    "category_source": "family_enumeration 2026-09-08",
    "listing_basis": "third_party_directory",
-   "route_evidence": "probed",
+   "route_evidence": "none",
    "family": "arrests_org_ccpa",
-   "notes": "No InfoTracer/SafeCart boilerplate; publishes its own /ccpaOptOut/ route. Data source unestablished."
+   "notes": "PARKED / CATCH-ALL as at 2026-09-08. Every path on this host returns 200 with byte-identical content, including a deliberately nonsensical one. No opt-out route exists."
   }
  ]
 }

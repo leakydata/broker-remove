@@ -27048,13 +27048,14 @@ words, for their own billing reasons:
 That is a better result than the one I first reported, and I would not have
 gone looking for it if the wrong version had not been checkable.
 
-**The real gap is the nineteen with no status**, and seventeen of those carry no
-InfoTracer note at all. They publish their own `/ccpaOptOut/` and their own
-`/request-portal` instead — a coherent second operation inside a network that
-looks uniform from outside. InfoTracer's scope claim named *46* state sites and
-there are 50; these seventeen are exactly the shape of what the claim never
-reached. Thirteen answer cleanly and are queued as real submissions; four fail
-on TLS or time out. The remaining two (`californiaarrests.org`,
+**The nineteen with no status looked like the real gap**, and seventeen of them
+appeared to carry no InfoTracer note and to publish their own `/ccpaOptOut/` and
+`/request-portal` — a coherent second operation inside a network that looks
+uniform from outside. I queued thirteen of them as real submissions.
+
+**That was wrong too, and §427 is the correction.** Those seventeen domains are
+parked: every path on them returns 200, including a nonsense one. There is no
+second family. Read §427 before relying on anything in this paragraph. The remaining two (`californiaarrests.org`,
 `nevadaarrests.org`) do carry the InfoTracer note and are plausibly inside 544087.
 
 **Repair.** Seventeen registry rows had been added with ids colliding against
@@ -27190,3 +27191,80 @@ never had an advertising identifier — or who has just reset one — has no rou
 at all. A sentence to that effect in their privacy policy would cost them
 nothing they have not already put in writing, and would save the next person the
 three weeks this took.
+
+## 427. Seventeen sites that answer 200 to a question nobody asked
+
+Straight after §424 I queued thirteen `<state>arrests.org` opt-out forms as
+human work — forty-five minutes of someone's morning, thirteen forms, name and
+postal address into each. Before scheduling it I ran one more check, on the four
+siblings that had failed with TLS errors. One of them, `newjerseyarrests.org`,
+now answered 200 — and served 1,129 bytes reading, in its entirety:
+
+    newjerseyarrests.org   Click here to enter
+
+Both `/ccpaOptOut/` and `/request-portal` returned that same page. A host that
+answers every path identically is not a host with two routes. So I put the
+obvious control to the other thirteen: request a path that cannot exist.
+
+    site            /ccpaOptOut/      /zzz-not-a-real-page-9137/
+    connecticut     200,    114 B     200,    114 B    identical
+    delaware        200,    114 B     200,    114 B    identical
+    florida         200, 32,288 B     200, 32,288 B    identical
+    massachusetts   200,    114 B     200,    114 B    identical
+    …                                                  13 of 13
+
+**All thirteen.** Nine serve a 114-byte parking stub for every path; four serve
+a ~32KB generic landing page for every path. Not one has an opt-out form. There
+was never a second family. The entire structure I described in §424 — two
+operations, distinguishable by which route each publishes, the seventeen that
+InfoTracer's 46-site claim never reached — was assembled out of unconditional
+200s.
+
+The positive control settles it beyond argument. Every operating InfoTracer
+sibling returns **404** on that same nonsense path while returning 200 on its
+real route:
+
+    california     /ccpaOptOut/  200, 50,912 B     /zzz-…/  404, 46,399 B
+    pennsylvania   /contact-form 200, 46,020 B     /zzz-…/  404
+    texas, ohio, alabama, georgia, wyoming, nevada    same shape, 404
+
+So the network is 33 operating InfoTracer front-ends — all covered by ticket
+544087, all 31 testable closures evidenced — plus 17 parked domains. Corrected
+to `unreachable`, routes cleared, handoff withdrawn before anyone touched it.
+
+**What this is really about.** §389 was a scanner that manufactured findings
+from rate-limiting. §408 was a detector that read a path and not a host. §424,
+this morning, was a join on the wrong key. This is the fourth in one project and
+the third in one day, and they share a single structure: **a check that has no
+way to fail returns success, and success is read as evidence.**
+
+An HTTP 200 does not mean "this page exists." It means "something answered."
+Parking pages, catch-all rewrites, soft-404s and single-page-app routers all
+answer 200 to everything, and a route classifier that treats 200 as existence
+will confidently report a route on every one of them. The tell is free and takes
+one extra request: **ask for something that must not exist, and require the
+answer to differ.** A checker that cannot distinguish a real page from a
+fabricated one is not measuring the site. It is measuring itself.
+
+Two things I want on the record about how this was caught, because neither was
+cleverness.
+
+It was not caught by review. §424 had already been rewritten once that morning
+after the id-collision error, and I reread it while rewriting. The parked-domain
+problem was invisible in it, because every number in it was internally
+consistent — thirteen sites, thirteen 200s, a clean partition against the
+InfoTracer boilerplate. Consistency is what this failure mode produces. Rereading
+consistent wrong numbers produces confidence, not correction.
+
+It was caught by **going back to the four failures**. The three TLS errors and
+one timeout were the least interesting rows in the set — the ones easiest to
+write off as flaky infrastructure and move on from. Following up the one that
+had merely failed is what surfaced the 1,129-byte page, and the 1,129-byte page
+is what made me doubt the thirteen that had succeeded. **The anomalies you
+dismiss are where the errors in your successes are visible.** A negative control
+is the systematic version of that instinct, and it is now the thing to build in
+rather than remember.
+
+Next: `route_has_form.py` and `find_optout_pages.py` both treat a 200 as a page.
+Neither runs a negative control. Both should, and until they do, every route
+verdict either has produced is provisional in exactly this way.
