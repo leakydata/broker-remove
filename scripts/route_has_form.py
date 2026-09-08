@@ -301,7 +301,19 @@ def main():
   form in JavaScript, so a fetch cannot see it. Check those in a browser.
   JS-SHELL and RATE-LIMITED are NOT verdicts about the route. The first
   means the page had not rendered; the second means the host was shedding
-  load. Both mean 'ask again', not 'no route here'.""")
+  load. Both mean 'ask again', not 'no route here'.
+
+  PARKED and BOT-BLOCKED are new, and they are OPPOSITE instructions.
+  PARKED means the page is nothing but a redirect to a parking lander:
+  there is no route and no point looking again.
+  BOT-BLOCKED means an interstitial was served WITH A 200 STATUS, so a
+  status check saw success and the fetch never reached the real page --
+  the route may work perfectly in a browser, and is worth one.
+
+  A '[host also answers 200 for a nonexistent path]' note appended to any
+  verdict is an ANNOTATION, never a judgement. App shells, parked domains
+  and WAF interstitials all produce that signature identically; it says
+  'weigh this', not 'this route is dead'. See _SILENT_FAILURES 428.""")
 
     json.dump([{"id": b, "url": u, "verdict": v, "detail": d, "final": f}
                for b, u, v, d, f in out],
