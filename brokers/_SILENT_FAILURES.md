@@ -26998,3 +26998,130 @@ reason a reasonable person thought otherwise.
 Written back to `info@attribits.com` — the address that *works*, not the one on
 the register filing — with the two-target structure spelled out, the loop
 reported, and the four asks restated as four.
+
+## 424. The id said Connecticut; the domain said something else
+
+There are two `arrests.org` naming schemes, and until today the project treated
+them as one. Some sites use the state's full name — `connecticutarrests.org`,
+`oregonarrests.org`. Others use the postal abbreviation — `ctarrests.org`,
+`flarrests.org`, `nyarrests.org`, and one outlier, `dewarrants.org`. The
+registry held rows for the abbreviated set under ids built from the *full*
+state name: `connecticut_arrests` → `ctarrests.org`.
+
+So `connecticut_arrests` and `connecticutarrests.org` look like the same thing
+written two ways. They are different websites.
+
+I enumerated all fifty full-name domains, probed them, keyed the results by id,
+and read a conclusion off the join: five sites closed under InfoTracer's ticket
+544087 whose own contact pages carried no InfoTracer relationship. I wrote it
+up as an audit finding, moved five rows from `covered_by_sibling` back to
+`pending`, and queued five submissions.
+
+Every part of that was wrong, and it was wrong in the way that is hardest to
+notice: **the join succeeded**. `st['connecticut_arrests']` returned a real
+status for a real row, and the probe returned real evidence for a real site.
+Nothing was missing, nothing errored, and the two halves described different
+companies. It surfaced only when `tracker.py` echoed the domain it had just
+written to and the string said `ctarrests.org`.
+
+Redone keyed by **domain**, which is the identifier the evidence is actually
+about:
+
+    registry rows in the arrests family                71
+      domains I actually probed                        50
+      abbreviated / other pattern, NOT probed          21
+
+    of the 50 probed:
+      covered_by_sibling under ticket 544087           31
+        contact page names InfoTracer / SafeCart       31   <- 31 of 31
+        contradicted                                    0
+      no status at all                                 19
+
+**The closure is fully evidenced everywhere it can be tested.** Thirty-one of
+thirty-one closed sites state their own relationship to InfoTracer in their own
+words, for their own billing reasons:
+
+> *"Payment will display on your credit card statement as "SAFECART INFOTRACE",
+> "INFOTRACER.COM" or "INFOTRACER". The service is provided by a third-party
+> database…"*
+
+That is a better result than the one I first reported, and I would not have
+gone looking for it if the wrong version had not been checkable.
+
+**The real gap is the nineteen with no status**, and seventeen of those carry no
+InfoTracer note at all. They publish their own `/ccpaOptOut/` and their own
+`/request-portal` instead — a coherent second operation inside a network that
+looks uniform from outside. InfoTracer's scope claim named *46* state sites and
+there are 50; these seventeen are exactly the shape of what the claim never
+reached. Thirteen answer cleanly and are queued as real submissions; four fail
+on TLS or time out. The remaining two (`californiaarrests.org`,
+`nevadaarrests.org`) do carry the InfoTracer note and are plausibly inside 544087.
+
+**Repair.** Seventeen registry rows had been added with ids colliding against
+existing rows — `connecticut_arrests` twice, pointing at two different domains.
+Renamed to domain-derived ids (`connecticutarrests_org`), duplicates now zero.
+The five status changes were reverted with a note on each saying explicitly that
+the entry above it describes a different site, because a reverted row that does
+not say why reads later as indecision. The handoff item was withdrawn rather
+than edited: it named five URLs and described a different five sites, and an
+item whose reasoning is wrong should not be quietly repointed.
+
+**Two lessons, and the second is the one worth keeping.**
+
+An id is a name someone chose; a domain is the thing the evidence is about. Join
+on the identifier your evidence is *keyed to*, not the one that reads most like
+English. This is §388 in a second costume — there the collision was two people
+sharing a surname, here two websites sharing a state — and both times the
+collision was invisible because both sides of the join were populated and
+plausible.
+
+And: **a join that returns rows is not a join that returned the right rows.** A
+missing key throws. A wrong key that happens to exist returns confident nonsense,
+and every downstream check — the counts, the split, the near-perfect partition I
+admired — inherits the error and corroborates it. There is no error state to
+detect. The only defence is to make the join print back the thing it matched on,
+which is how this one died: not by review, but because a status-setter echoed a
+domain.
+
+## 425. A hundred and six domains, and not one removal route
+
+`find_optout_pages.py` exists for brokers that publish no contact address: it
+asks whether a domain that will not tell you where to write will at least show
+you where to click. Run over the 106 such domains on 8 September:
+
+    same-site removal route     0
+    off-site only               6
+    reachable, nothing         81
+    not reached                19
+
+Zero. Not a low number — zero. Eighty-one domains answered, served a policy
+page, and offered no path to removal anywhere in their own link graph, and
+nineteen would not answer at all (including `arrests.org` itself, the parent of
+the family in §424).
+
+The six off-site "routes" are worse than the eighty-one blanks, and this is the
+part worth keeping. Three of them are not removal routes at all:
+
+    growjo                 tools.google.com/dlpage/gaoptout
+    tinuiti                tools.google.com/dlpage/gaoptout
+    publicrecordsreviews   networkadvertising.org/managing/opt_out.asp
+
+The first two point at **Google's Analytics browser opt-out** — an extension
+that stops Google Analytics measuring your visits. The third points at the NAI
+cookie opt-out. None of the three touches a single record the company holds.
+A person who clicks the only opt-out link on `publicrecordsreviews` will opt out
+of interest-based advertising cookies and their public-records listing will sit
+exactly where it was.
+
+This is the §148 pattern in its purest form and it deserves its own name: the
+route that exists, resolves, loads, presents a real opt-out interface belonging
+to a real organisation — and removes nothing the linking company holds. It
+defeats every check short of asking "opt out of *what*, held by *whom*". A link
+checker sees 200. A route classifier sees a strong path match. A consumer sees a
+recognised brand and a confirmation. Only the question of *whose* data is being
+opted out of separates it from a working route.
+
+`searqle` is a fourth variant, unresolved: its opt-out sits on `searqle.cc`,
+a different TLD from the site itself. That may be ordinary infrastructure or it
+may be a route pointing at a property the operator can disclaim. Recorded, not
+concluded.

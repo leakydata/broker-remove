@@ -9,7 +9,7 @@
   {
     "id": "411reverselookup_ca",
     "domain": "411reverselookup.ca",
-    "reached": false,
+    "reached": true,
     "same_site": [],
     "off_site": []
   },
@@ -39,15 +39,6 @@
     "domain": "allhighschools.com",
     "reached": false,
     "same_site": [],
-    "off_site": []
-  },
-  {
-    "id": "allpeople_biz",
-    "domain": "allpeople.biz",
-    "reached": true,
-    "same_site": [
-      "https://allpeople.biz/removal"
-    ],
     "off_site": []
   },
   {
@@ -88,7 +79,7 @@
   {
     "id": "arrests_org",
     "domain": "arrests.org",
-    "reached": true,
+    "reached": false,
     "same_site": [],
     "off_site": []
   },
@@ -132,9 +123,7 @@
     "domain": "chamberofcommerce.com",
     "reached": true,
     "same_site": [],
-    "off_site": [
-      "https://www.networkadvertising.org/managing/opt_out.asp"
-    ]
+    "off_site": []
   },
   {
     "id": "commercial_list",
@@ -155,15 +144,6 @@
     "domain": "criminalpages.com",
     "reached": false,
     "same_site": [],
-    "off_site": []
-  },
-  {
-    "id": "criminalregistry_org",
-    "domain": "criminalregistry.org",
-    "reached": true,
-    "same_site": [
-      "https://criminalregistry.org/remove.php?fn=&ln="
-    ],
     "off_site": []
   },
   {
@@ -199,7 +179,7 @@
   {
     "id": "familysearch",
     "domain": "familysearch.co",
-    "reached": false,
+    "reached": true,
     "same_site": [],
     "off_site": []
   },
@@ -218,15 +198,6 @@
     "off_site": []
   },
   {
-    "id": "fifty",
-    "domain": "fifty.io",
-    "reached": true,
-    "same_site": [
-      "https://fifty.io/opt-out"
-    ],
-    "off_site": []
-  },
-  {
     "id": "findglocal",
     "domain": "findglocal.com",
     "reached": true,
@@ -238,15 +209,6 @@
     "domain": "firstbeatmedia.com",
     "reached": true,
     "same_site": [],
-    "off_site": []
-  },
-  {
-    "id": "foller_me",
-    "domain": "foller.me",
-    "reached": true,
-    "same_site": [
-      "https://foller.me/do-not-sell.html"
-    ],
     "off_site": []
   },
   {
@@ -287,7 +249,7 @@
   {
     "id": "granicus",
     "domain": "granicus.co",
-    "reached": false,
+    "reached": true,
     "same_site": [],
     "off_site": []
   },
@@ -387,15 +349,6 @@
     "off_site": []
   },
   {
-    "id": "locate_friend",
-    "domain": "locate-friend.com",
-    "reached": true,
-    "same_site": [
-      "https://locate-friend.com/optout"
-    ],
-    "off_site": []
-  },
-  {
     "id": "locatepeople_org",
     "domain": "locatepeople.org",
     "reached": false,
@@ -421,16 +374,6 @@
     "domain": "medifind.com",
     "reached": true,
     "same_site": [],
-    "off_site": []
-  },
-  {
-    "id": "morningstar",
-    "domain": "morningstar.com",
-    "reached": true,
-    "same_site": [
-      "https://www.morningstar.com/company/privacy-center",
-      "https://www.morningstar.com/company/privacy-policy/do-not-sell-or-share"
-    ],
     "off_site": []
   },
   {
@@ -462,15 +405,6 @@
     "off_site": []
   },
   {
-    "id": "noon_ai",
-    "domain": "noon.ai",
-    "reached": true,
-    "same_site": [
-      "https://www.noon.ai/privacy-center"
-    ],
-    "off_site": []
-  },
-  {
     "id": "north_data",
     "domain": "northdata.com",
     "reached": true,
@@ -482,24 +416,6 @@
     "domain": "npir.org",
     "reached": true,
     "same_site": [],
-    "off_site": []
-  },
-  {
-    "id": "numlooker",
-    "domain": "numlooker.com",
-    "reached": true,
-    "same_site": [
-      "https://numlooker.com/remove-my-info"
-    ],
-    "off_site": []
-  },
-  {
-    "id": "ohio_resident_directory",
-    "domain": "ohioresidentdirectory.com",
-    "reached": true,
-    "same_site": [
-      "https://www.ohioresidentdirectory.com/opt-out"
-    ],
     "off_site": []
   },
   {
@@ -589,7 +505,7 @@
   {
     "id": "ppl_data_com",
     "domain": "ppl-data.com",
-    "reached": false,
+    "reached": true,
     "same_site": [],
     "off_site": []
   },
@@ -633,11 +549,9 @@
   {
     "id": "reunion_com",
     "domain": "reunion.com",
-    "reached": true,
+    "reached": false,
     "same_site": [],
-    "off_site": [
-      "https://www.mylife.com/ccpa/index.pubview"
-    ]
+    "off_site": []
   },
   {
     "id": "reverseaustralia",
@@ -682,16 +596,6 @@
     "off_site": []
   },
   {
-    "id": "searchbug",
-    "domain": "searchbug.com",
-    "reached": true,
-    "same_site": [
-      "https://www.searchbug.com/ccpa.aspx",
-      "https://www.searchbug.com/ccpa.aspx#DoNoSell"
-    ],
-    "off_site": []
-  },
-  {
     "id": "searchmobilenumber_com",
     "domain": "searchmobilenumber.com",
     "reached": true,
@@ -729,17 +633,6 @@
     "off_site": []
   },
   {
-    "id": "socialcatfish",
-    "domain": "socialcatfish.com",
-    "reached": true,
-    "same_site": [
-      "https://socialcatfish.com/opt-out/?id=law_enforcement_optout",
-      "https://socialcatfish.com/opt-out/?id=request_optout",
-      "https://socialcatfish.com/scamfish/how-to-remove-your-social-media-profiles-from-google-search-results/"
-    ],
-    "off_site": []
-  },
-  {
     "id": "solar_investments",
     "domain": "solarinvestments.com",
     "reached": true,
@@ -756,7 +649,7 @@
   {
     "id": "suggestadoctor_com",
     "domain": "suggestadoctor.com",
-    "reached": true,
+    "reached": false,
     "same_site": [],
     "off_site": []
   },
@@ -803,15 +696,6 @@
     "domain": "touchsuite.com",
     "reached": false,
     "same_site": [],
-    "off_site": []
-  },
-  {
-    "id": "unity",
-    "domain": "unity.com",
-    "reached": true,
-    "same_site": [
-      "https://unity.com/legal/do-not-sell-my-personal-information"
-    ],
     "off_site": []
   },
   {
@@ -870,15 +754,6 @@
     "domain": "youmail.com",
     "reached": true,
     "same_site": [],
-    "off_site": []
-  },
-  {
-    "id": "ziprecruiter",
-    "domain": "ziprecruiter.com",
-    "reached": true,
-    "same_site": [
-      "https://www.ziprecruiter.com/ccpa-opt-out"
-    ],
     "off_site": []
   }
 ]
