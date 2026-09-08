@@ -26760,3 +26760,53 @@ item queued without `--window-hours` is exactly as blind as before. The habit
 has to be that any handoff depending on a token records its clock at the
 moment it is written — which is now cheap enough that there is no excuse, and
 that is the most a tool can do about a habit.
+
+## 420. The to-do list written in prose
+
+Notes in the ledger routinely end with a commitment: "next move is the sibling
+desks", "diarise for the first week of October", "watch for the DataGrail
+completion notice rather than a 6sense one", "re-check the directory in a few
+days". Nineteen open rows carry one.
+
+Nothing surfaces them. They are a to-do list written into prose and then never
+read again, and today produced both failure modes at once:
+
+  - SPYFLY set a trigger on 20 August — "if that goes unanswered the next move
+    is the sibling desks" — and sat NINETEEN DAYS past it. Acted on today.
+  - MEDIAMATH said "NEXT MOVE is to find a human address... or the CA register
+    entry if Infillion filed one." That had been done the previous day. The
+    note read as outstanding while being complete.
+
+So a row can be late, or a row can be finished and still look pending, and the
+ledger cannot tell the difference because nobody is reading the prose.
+
+scripts/next_moves.py now extracts them. It is the ledger's half of what
+handoff.py does for the human queue, and it splits three ways: commitments with
+no date or a date now past, things waiting on the company, and items diarised
+for a later month.
+
+IT DELIBERATELY PRINTS NO COUNT. Four keyword classifiers over free text
+over-reported in a single day (§410), and this one is no better — it matches
+the LANGUAGE OF COMMITMENT, not the state of the world. A row acted on
+yesterday still says "next move is" until somebody rewrites the note. Of the
+ten it surfaced as due, several were mid-note sentences describing what had
+been asked rather than what remained. Every line is a pointer to a note to
+read, never a verdict, and the docstring says so.
+
+AND THE ONE GENUINE ITEM IT FOUND, which is worth the tool on its own:
+AddressSearch's row had committed to re-checking the directory, because sixteen
+removal submissions had each returned HTTP 500 behind a page reading "Your
+information has successfully been removed" and no other verification exists.
+
+The re-check ran. Both lookups returned "no results" — which looked like
+success until the control.
+
+    surname SMITH, Pennsylvania      no results, 1406 chars
+    a nonsense surname               no results, 1408 chars
+    the subject                      no results, 1425 chars
+
+THE ENGINE RETURNS NOTHING TO THIS CLIENT FOR ANYBODY. So the nil is a fact
+about the client and not about the directory, and it establishes nothing about
+whether sixteen submissions took effect. §289 exists for exactly this and it
+earned its keep: without the control, a meaningless nil would have gone into
+the ledger as a verified removal.
