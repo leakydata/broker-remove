@@ -78,9 +78,14 @@ def fetch(url, timeout=20):
     # gzip anyway and the body arrives as binary, which every text check then
     # reads as gibberish and reports as an off-topic page. Two routes were
     # mis-verdicted that way on the first run.
+    # ASK FOR identity. Requesting gzip and decompressing on the header alone
+    # is the bug that made radaris arrive as binary noise in reverify_listings
+    # (SF 409) -- some servers compress without declaring it. This script had
+    # the same latent defect and its verdicts have been quoted all day. These
+    # pages are small; the compression was never worth the failure mode.
     req = urllib.request.Request(url, headers={
         "User-Agent": UA, "Accept": "text/html",
-        "Accept-Encoding": "gzip, deflate"})
+        "Accept-Encoding": "identity"})
     with urllib.request.urlopen(req, timeout=timeout) as r:
         raw = r.read(600_000)
         enc = (r.headers.get("Content-Encoding") or "").lower()

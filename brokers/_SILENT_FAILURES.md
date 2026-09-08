@@ -26451,3 +26451,50 @@ to California, dropdowns with sixteen states and no seventeenth, Civis's Google
 Form that strands a Pennsylvanian on page one (§151, §312). A company saying
 plainly that it does not care which state you live in deserves the same
 attention as the ones that do.
+
+## 414. The same bug, found by looking for it everywhere
+
+§409 ended with "a bug fixed in one script is not fixed." That was written
+about a compression header: asking a server for gzip and decompressing on the
+Content-Encoding header alone, which fails silently when a server compresses
+without declaring it. The page arrives as binary and every text check reads it
+as noise.
+
+So all eleven scripts in this project that fetch a URL were audited for it.
+
+    9 of 11 set no Accept-Encoding at all — safe by default, since urllib then
+      sends no header and servers return identity.
+    1 was already fixed (reverify_listings, where the bug was found).
+    1 still had it: route_has_form.py — the scanner whose verdicts have been
+      quoted all day.
+
+FIXED, AND THE COST WAS NOT ZERO. Re-running with `Accept-Encoding: identity`
+changed THIRTEEN VERDICTS:
+
+    FORM          -> OFF-TOPIC        4
+    FORM          -> WIDGET-LIKELY    3
+    JS-SHELL      -> DELEGATED        2
+    HTTP-403      -> OFF-TOPIC        1
+    HTTP-403      -> JS-SHELL         1
+    HTTP-403      -> FORM             1
+    WIDGET-LIKELY -> HTTP-403         1
+
+The four FORM -> OFF-TOPIC are the ones that matter. The scanner had been
+saying "there is a usable removal form on this page" about four pages that are
+not about removal at all — a FALSE REASSURANCE, which is worse than a false
+alarm here, because a false alarm gets investigated and a false reassurance
+gets recorded as a working route and never looked at again. Exactly the class
+of error this whole file exists to catalogue, produced by my own instrument.
+
+One went the other way: a row recorded as bot-walled turned out to have a
+usable form once the body could be read.
+
+None of the thirteen unblocks anything — all three of the most interesting are
+already worked by other routes — so the practical effect is nil. The value is
+that the scanner's output is now honest, and that the audit established the
+blast radius was ONE script rather than eleven, which was not knowable without
+checking each.
+
+THE RULE, which §409 stated and this carries out: when a bug is found in one
+place, grep for its shape in every other place before considering it fixed. The
+grep took a minute. The bug had been producing wrong verdicts for three days.

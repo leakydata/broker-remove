@@ -4,7 +4,7 @@
   "url": "https://ecom2.anchorcomputer.com/ccpa",
   "verdict": "REDIRECT-AWAY",
   "detail": "Anchor Computer - Error We've experienced an unexpected error. Our technical team has been notified and will a",
-  "final": "https://ecom2.anchorcomputer.com/Error?ref=40105"
+  "final": "https://ecom2.anchorcomputer.com/Error?ref=99243"
  },
  {
   "id": "dobsearch_com",
@@ -35,6 +35,13 @@
   "final": "https://www.spydialer.com/consumers/"
  },
  {
+  "id": "ach_address_clearing_house",
+  "url": "https://www.achcoop.com/do-not-sell-my-personal-info",
+  "verdict": "OFF-TOPIC",
+  "detail": "--> DNSMPI | ACH, Address Clearing House .sd7JVOm{cursor:pointer}.sd7JVOm.oarMm9q--hovered{background-color:#d",
+  "final": "https://www.achcoop.com/do-not-sell-my-personal-info"
+ },
+ {
   "id": "bdo",
   "url": "https://www.bdo.com/consumer-request-form",
   "verdict": "OFF-TOPIC",
@@ -47,6 +54,13 @@
   "verdict": "OFF-TOPIC",
   "detail": "Privacy Policy - Bright Data Accessibility Menu skip to content en English Espa\u00f1ol Deutsch Fran\u00e7ais \u65e5\u672c\u8a9e Portug",
   "final": "https://brightdata.com/privacy"
+ },
+ {
+  "id": "classmates_com",
+  "url": "https://www.classmates.com/about/privacy#p-8",
+  "verdict": "OFF-TOPIC",
+  "detail": "Classmates Privacy Policy !function(){\"use strict\";var e=\"undefined\"!=typeof globalThis?globalThis:\"undefined\"",
+  "final": "https://www.classmates.com/about/privacy#p-8"
  },
  {
   "id": "experian_marketing",
@@ -66,7 +80,7 @@
   "id": "l2_data",
   "url": "https://www.l2-data.com/optout1-667457/",
   "verdict": "OFF-TOPIC",
-  "detail": "\ufffd\ufffd{\u0011\ufffd\ufffd \u038c$\ufffd\ufffd\u0007@#e\ufffd\ufffd\ufffd3p\\\ufffdu\ufffd\ufffd\ufffdK\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u000e~\ufffd\ufffdK\u0002I \u01b8In\ufffd4U\ufffdS\ufffdo\ufffd\ufffd\u0352\ufffd\ufffdU\u0001\ufffd' \u000fM\ufffd3\ufffd\ufffdNW \ufffd\ufffd\ufffd7|\ufffd$o&\ufffd\ufffdJ\ufffd\ufffd\u025ev\ufffdM4\ufffd\u0005\ufffd \ufffd\u0002\ufffd $[Cr\ufffd9\ufffdcH\ufffd\ufffd\ufffd\ufffd",
+  "detail": "+ \ufffd\u0010Q]\ufffd\ufffd\" \ufffd\ufffd\"\u0493V\ufffd\u0007@#e\ufffd\ufffd\ufffdE`\ufffd\ufffd\ufffd:\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdo\ufffd\ufffd_%\ufffd\ufffd@\u0012\ufffd1n\ufffd[=M\ufffd\ufffdT\ufffd\ufffd\ufffdr\ufffdd$lU@\ufffdI\ufffdC\u0013\ufffd\ufffd\u051e\ufffd\ufffdV\ufffd\ufffdf\u0003\ufffd!D\ufffdC\u0012J\ufffd*\u01c9\ufffd\ufffdN:cO\u0017F\ufffd\u0000\u0010$!R\ufffdLR2e\ufffd",
   "final": "https://l2-data.com/optout1-667457/"
  },
  {
@@ -84,6 +98,20 @@
   "final": "https://mixrank.com/privacy-policy"
  },
  {
+  "id": "numlookup",
+  "url": "https://www.numlookup.com/opt_out",
+  "verdict": "OFF-TOPIC",
+  "detail": "Sign in Sign Up /* * HSHeader Plugin * @version: 3.0.0 (Mon, 25 Mar 2021) * @author: HtmlStream * @event-names",
+  "final": "https://www.numlookup.com/opt_out"
+ },
+ {
+  "id": "pbi_research",
+  "url": "https://www.pbinfo.com/crf/",
+  "verdict": "OFF-TOPIC",
+  "detail": "CCPA Consumer Request &#8211; PBI Research Services /********* Compiled CSS - Do not edit *********/ :root{--b",
+  "final": "https://pbinfo.com/crf/"
+ },
+ {
   "id": "quantcast",
   "url": "https://www.quantcast.com/privacy-choices/",
   "verdict": "OFF-TOPIC",
@@ -98,6 +126,13 @@
   "final": "https://www.searchpublicrecords.com/help-center/privacy-requests"
  },
  {
+  "id": "tagx",
+  "url": "https://tagxdata.com/contact",
+  "verdict": "OFF-TOPIC",
+  "detail": "@font-face{font-family:Sora;font-style:normal;font-weight:200;font-display:swap;src:url(/_next/static/media/b8",
+  "final": "https://www.tagxdata.com/contact"
+ },
+ {
   "id": "truthviewer",
   "url": "https://www.truthviewer.com/api/helper/optOutLight/search",
   "verdict": "OFF-TOPIC",
@@ -108,14 +143,14 @@
   "id": "whoxy",
   "url": "https://www.whoxy.com/contact.php",
   "verdict": "OFF-TOPIC",
-  "detail": "Contact Us Our database now contains whois records of 720 Million (720,627,973) domain names. Login / Password",
+  "detail": "Contact Us Our database now contains whois records of 720 Million (720,700,357) domain names. Login / Password",
   "final": "https://www.whoxy.com/contact.php"
  },
  {
   "id": "acxiom",
   "url": "https://isapps.acxiom.com/optout/optout.aspx",
   "verdict": "JS-SHELL",
-  "detail": "",
+  "detail": "Request unsuccessful. Incapsula incident ID: 1093000050125455947-92564774457770354",
   "final": "https://isapps.acxiom.com/optout/optout.aspx"
  },
  {
@@ -152,13 +187,6 @@
   "verdict": "JS-SHELL",
   "detail": "Privacy Web Form",
   "final": "https://privacyportal.onetrust.com/webform/2d4f8bee-b269-434d-a07f-3b94c6618cb4/795af979-a3a2-431b-9d7e-b777155c7a18"
- },
- {
-  "id": "babel_street",
-  "url": "https://privacyportal.onetrust.com/webform/43f52ed9-df36-44dc-94b6-ce2f8458ca29/2ddc0d62-7d6a-4de2-b5c4-9f9f68116970",
-  "verdict": "JS-SHELL",
-  "detail": "Privacy Web Form",
-  "final": "https://privacyportal.onetrust.com/webform/43f52ed9-df36-44dc-94b6-ce2f8458ca29/2ddc0d62-7d6a-4de2-b5c4-9f9f68116970"
  },
  {
   "id": "background_hawk",
@@ -581,6 +609,13 @@
   "final": "https://app.intelius.com/privacy-center/"
  },
  {
+  "id": "seamless_ai",
+  "url": "https://login.seamless.ai/personalDataRequest",
+  "verdict": "JS-SHELL",
+  "detail": "Seamless.AI",
+  "final": "https://login.seamless.ai/personalDataRequest"
+ },
+ {
   "id": "sheriffsdepartment_net",
   "url": "https://www.truthfinder.com/opt-out/v2/submit/",
   "verdict": "JS-SHELL",
@@ -649,13 +684,6 @@
   "verdict": "JS-SHELL",
   "detail": "PeopleConnect - Suppression Center",
   "final": "https://suppression.peopleconnect.us/"
- },
- {
-  "id": "west_publishing_corp",
-  "url": "https://privacyportal.onetrust.com/webform/dbf5ae8a-0a6a-4f4b-b527-7f94d0de6bbc/23dce484-737f-4d47-a389-2e990f683e8c",
-  "verdict": "JS-SHELL",
-  "detail": "Privacy Web Form",
-  "final": "https://privacyportal.onetrust.com/webform/dbf5ae8a-0a6a-4f4b-b527-7f94d0de6bbc/23dce484-737f-4d47-a389-2e990f683e8c"
  },
  {
   "id": "affordable_background_checks",
@@ -1071,6 +1099,13 @@
   "final": "https://www.brooksim.com/privacy-form"
  },
  {
+  "id": "checkpeople",
+  "url": "https://checkpeople.com/opt-out",
+  "verdict": "WIDGET-LIKELY",
+  "detail": "",
+  "final": "https://checkpeople.com/opt-out"
+ },
+ {
   "id": "checksecrets",
   "url": "https://www.checksecrets.com/api/helper/optOutLight/search",
   "verdict": "WIDGET-LIKELY",
@@ -1090,6 +1125,13 @@
   "verdict": "WIDGET-LIKELY",
   "detail": "",
   "final": "https://www.diablomedia.com/privacy-request/"
+ },
+ {
+  "id": "e_republic",
+  "url": "https://erepublic.my.salesforce-sites.com/PrivacyRequest/",
+  "verdict": "WIDGET-LIKELY",
+  "detail": "",
+  "final": "https://erepublic.my.salesforce-sites.com/PrivacyRequest/"
  },
  {
   "id": "emerges_com",
@@ -1125,6 +1167,13 @@
   "verdict": "WIDGET-LIKELY",
   "detail": "",
   "final": "https://giantpartners.com/do-not-sell-my-personal-info-all-other-states/"
+ },
+ {
+  "id": "information_com",
+  "url": "https://information.com/opt-out",
+  "verdict": "WIDGET-LIKELY",
+  "detail": "",
+  "final": "https://information.com/opt-out"
  },
  {
   "id": "inmatessearcher",
@@ -1174,13 +1223,6 @@
   "verdict": "WIDGET-LIKELY",
   "detail": "",
   "final": "https://www.noon.ai/privacy-center"
- },
- {
-  "id": "npi_profile",
-  "url": "https://npiprofile.com/opt-out",
-  "verdict": "WIDGET-LIKELY",
-  "detail": "",
-  "final": "https://npiprofile.com/opt-out"
  },
  {
   "id": "numlooker",
@@ -1442,13 +1484,6 @@
   "final": ""
  },
  {
-  "id": "classmates_com",
-  "url": "https://www.classmates.com/about/privacy#p-8",
-  "verdict": "HTTP-403",
-  "detail": "",
-  "final": ""
- },
- {
   "id": "connecticut_resident_directory",
   "url": "https://www.connecticutresidentdirectory.com/opt-out",
   "verdict": "HTTP-403",
@@ -1596,6 +1631,13 @@
   "final": ""
  },
  {
+  "id": "npi_profile",
+  "url": "https://npiprofile.com/opt-out",
+  "verdict": "HTTP-403",
+  "detail": "",
+  "final": ""
+ },
+ {
   "id": "numberguru",
   "url": "https://www.numberguru.com/svc/optout/search/optouts",
   "verdict": "HTTP-403",
@@ -1722,13 +1764,6 @@
   "final": ""
  },
  {
-  "id": "seamless_ai",
-  "url": "https://login.seamless.ai/personalDataRequest",
-  "verdict": "HTTP-403",
-  "detail": "",
-  "final": ""
- },
- {
   "id": "searchpeoplefree_net",
   "url": "https://searchpeoplefree.net/resource/remove-my-info",
   "verdict": "HTTP-403",
@@ -1752,13 +1787,6 @@
  {
   "id": "spyfly",
   "url": "https://www.spyfly.com/help-center/privacy-requests",
-  "verdict": "HTTP-403",
-  "detail": "",
-  "final": ""
- },
- {
-  "id": "thatsthem",
-  "url": "https://thatsthem.com/optout",
   "verdict": "HTTP-403",
   "detail": "",
   "final": ""
@@ -2219,6 +2247,13 @@
   "final": "https://arkansascourtrecords.us/optout/"
  },
  {
+  "id": "babel_street",
+  "url": "https://privacyportal.onetrust.com/webform/43f52ed9-df36-44dc-94b6-ce2f8458ca29/2ddc0d62-7d6a-4de2-b5c4-9f9f68116970",
+  "verdict": "DELEGATED",
+  "detail": "privacyportal.onetrust.com",
+  "final": "https://privacyportal.onetrust.com/webform/43f52ed9-df36-44dc-94b6-ce2f8458ca29/2ddc0d62-7d6a-4de2-b5c4-9f9f68116970"
+ },
+ {
   "id": "californiacourtrecords_us",
   "url": "https://californiacourtrecords.us/optout/",
   "verdict": "DELEGATED",
@@ -2625,6 +2660,13 @@
   "final": "https://washingtoncourtrecords.us/optout/"
  },
  {
+  "id": "west_publishing_corp",
+  "url": "https://privacyportal.onetrust.com/webform/dbf5ae8a-0a6a-4f4b-b527-7f94d0de6bbc/23dce484-737f-4d47-a389-2e990f683e8c",
+  "verdict": "DELEGATED",
+  "detail": "privacyportal.onetrust.com",
+  "final": "https://privacyportal.onetrust.com/webform/dbf5ae8a-0a6a-4f4b-b527-7f94d0de6bbc/23dce484-737f-4d47-a389-2e990f683e8c"
+ },
+ {
   "id": "westvirginiacourtrecords_us",
   "url": "https://westvirginiacourtrecords.us/optout/",
   "verdict": "DELEGATED",
@@ -2644,13 +2686,6 @@
   "verdict": "FORM",
   "detail": "",
   "final": "https://www.aberdeen.com/do-not-sell-my-personal-information/"
- },
- {
-  "id": "ach_address_clearing_house",
-  "url": "https://www.achcoop.com/do-not-sell-my-personal-info",
-  "verdict": "FORM",
-  "detail": "",
-  "final": "https://www.achcoop.com/do-not-sell-my-personal-info"
  },
  {
   "id": "addresssearch_com",
@@ -2814,13 +2849,6 @@
   "final": "https://docs.google.com/forms/d/e/1FAIpQLScUgnaMXFrJ_U9CpxRgCPOrb7SfAkYOFTyxdkBDyBCRoH8bzw/viewform"
  },
  {
-  "id": "checkpeople",
-  "url": "https://checkpeople.com/opt-out",
-  "verdict": "FORM",
-  "detail": "",
-  "final": "https://checkpeople.com/opt-out"
- },
- {
   "id": "city_data_com",
   "url": "https://www.city-data.com/delrequest/form.php",
   "verdict": "FORM",
@@ -2954,13 +2982,6 @@
   "final": "https://www.dtn.com/do-not-sell-my-information-form/"
  },
  {
-  "id": "e_republic",
-  "url": "https://erepublic.my.salesforce-sites.com/PrivacyRequest/",
-  "verdict": "FORM",
-  "detail": "",
-  "final": "https://erepublic.my.salesforce-sites.com/PrivacyRequest/"
- },
- {
   "id": "enformion",
   "url": "https://www.enformion.com/privacy-policy/",
   "verdict": "FORM",
@@ -3080,13 +3101,6 @@
   "final": "https://www.infopay.com/contact"
  },
  {
-  "id": "information_com",
-  "url": "https://information.com/opt-out",
-  "verdict": "FORM",
-  "detail": "",
-  "final": "https://information.com/opt-out"
- },
- {
   "id": "intentgine",
   "url": "https://intentgine.com/ccpa-privacy/",
   "verdict": "FORM",
@@ -3171,13 +3185,6 @@
   "final": "https://www.notariescalifornia.com/about"
  },
  {
-  "id": "numlookup",
-  "url": "https://www.numlookup.com/opt_out",
-  "verdict": "FORM",
-  "detail": "",
-  "final": "https://www.numlookup.com/opt_out"
- },
- {
   "id": "openpublicrecords",
   "url": "https://www.open-public-records.com/records_removal.htm",
   "verdict": "FORM",
@@ -3204,13 +3211,6 @@
   "verdict": "FORM",
   "detail": "",
   "final": "https://www.pacificeast.com/contact-us-privacy/"
- },
- {
-  "id": "pbi_research",
-  "url": "https://www.pbinfo.com/crf/",
-  "verdict": "FORM",
-  "detail": "",
-  "final": "https://pbinfo.com/crf/"
  },
  {
   "id": "phonenumberinfo_us",
@@ -3395,18 +3395,18 @@
   "final": "https://sync.me/unsubscribe/"
  },
  {
-  "id": "tagx",
-  "url": "https://tagxdata.com/contact",
-  "verdict": "FORM",
-  "detail": "",
-  "final": "https://www.tagxdata.com/contact"
- },
- {
   "id": "texas_arrest_warrants_search",
   "url": "https://texasarrestwarrants.org/contact",
   "verdict": "FORM",
   "detail": "",
   "final": "https://texasarrestwarrants.org/contact"
+ },
+ {
+  "id": "thatsthem",
+  "url": "https://thatsthem.com/optout",
+  "verdict": "FORM",
+  "detail": "",
+  "final": "https://thatsthem.com/optout"
  },
  {
   "id": "ufind_name",
