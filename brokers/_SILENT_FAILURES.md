@@ -26915,3 +26915,86 @@ lands in a single place.
 Recorded three weeks early, which is the point. The number that mattered was
 never 414 — it was 12 — and finding that out on the day would have meant
 finding it out badly.
+
+## 423. Thirty-five times, from a mailbox that cannot hear you
+
+Attribits — registered on the California data broker register for 2020-2023,
+2024, 2025 and 2026 — replied to a consumer request on 8 September. It replied
+thirty-five times, byte-identically, between 00:05:17 and 00:05:55 UTC. Thirty
+five copies of eighteen words:
+
+> *"Hello, this has been completed as requested. This is being sent from an
+> unmonitored mailbox."*
+
+Every one carried the subject prefix `Re: Fwd:`, so the letter was forwarded
+somewhere that answers each forward — or answers once per recipient of a list.
+
+Three separate defects are stacked here and it is worth pulling them apart,
+because only one of them is the loop.
+
+**The loop is the least of it.** Thirty-five duplicates is a nuisance and a
+misconfiguration, nothing more. Any consumer who exercises a right against this
+company gets it, and their own ticketing records thirty-five outbound events per
+inbound request, but nobody is harmed.
+
+**The address that cannot receive is worse.** `compliance@allgoodmediagroup.com`
+is the contact on the *register filing* — the address the state publishes as the
+way to reach this company about exactly this. It sends and does not receive. A
+consumer who replies asking what "completed" covered is writing into a void, and
+is given no hint of it except a line at the bottom of a message they may not
+read to the end. Compare §283 (Accurate Append): same shape, and it is becoming
+a pattern rather than an accident — the compliance mailbox is wired as an outlet.
+
+**The claim itself is the real finding.** "This has been completed as requested"
+is the only substantive content in thirty-five messages, and it is not capable
+of being true, because the request had four distinct parts — access, deletion,
+opt-out, and named sources — and *no* single sentence can report on four asks.
+It cannot even be checked. There is no reference, no statement of which keys
+were searched, no nil result, nothing to hold them to later.
+
+And one part of the request was checkable, which is what makes this entry worth
+writing rather than merely irritating. The letter had also reported a defect on
+their own site: their announcement bar's `mailto:` href reads `attritbits.com`
+(t and b transposed) while the visible text reads `attribits.com`, and the typo
+domain is unregistered — so the published contact link goes nowhere, and the
+domain sits available for anyone who wants other people's privacy requests
+(§402). That is a five-minute fix with a binary outcome. Checked at 10:57 UTC on
+8 September, eleven hours after "completed":
+
+    whois attritbits.com   ->  No match for domain
+    dig attritbits.com MX  ->  (nothing)
+    attribits.com homepage ->  mailto:info@attritbits.com STILL PRESENT
+
+**But the page source shows why someone could believe it was done**, and this is
+the part I would have got wrong if I had only checked whether the string was
+still there. The announcement bar carries *two* click targets sitting adjacent
+in the Squarespace config:
+
+    "text":"<p ...><a href=\"mailto:info@attritbits.com\">
+                  <em>info@attribits.com</em></a></p>",
+    "clickthroughUrl":{"url":"mailto:info@attribits.com","newWindow":true}
+
+The `clickthroughUrl` — the bar-level field, the one surfaced in the editing UI —
+is **correct**. The broken href is the inline anchor one layer down, reachable
+only by clicking into the text block and editing the link on the highlighted
+words. Someone who opened the settings panel, read the clickthrough URL, saw
+`attribits` and closed it was looking at a field that was already right, and
+would have closed the ticket honestly.
+
+So the bar half-works, which is worse than not working: a click on the blue
+address itself hits the inner anchor and fails; a click on the bar around it
+hits the clickthrough and succeeds. The visible text is precisely what a person
+aims at. A defect that fails only on the target is invisible to anyone testing
+it casually, and it explains a "completed" that was not a lie.
+
+The generalisation is the one worth keeping. **"Completed" is a claim about the
+sender's belief, not about the world**, and the two come apart most often where
+a settings panel shows a value that is not the value in effect. Where a claim is
+checkable, check it — not to catch anyone out, but because the check is what
+turns an unfalsifiable sentence into either a confirmation or a specific,
+fixable, reportable fact. Here it produced both: what is still broken, and the
+reason a reasonable person thought otherwise.
+
+Written back to `info@attribits.com` — the address that *works*, not the one on
+the register filing — with the two-target structure spelled out, the loop
+reported, and the four asks restated as four.
