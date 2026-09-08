@@ -39,6 +39,8 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from paths import state  # noqa: E402
 
+CAP = 500_000
+
 UA = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/126 Safari/537.36")
 
@@ -55,7 +57,8 @@ SEED_PATHS = ["/", "/privacy", "/privacy-policy", "/privacy.html",
               "/legal/privacy", "/policies/privacy"]
 
 
-def fetch(url, cap=500_000):
+def fetch(url, cap=None):
+    cap = CAP if cap is None else cap
     req = urllib.request.Request(url, headers={"User-Agent": UA})
     with urllib.request.urlopen(req, timeout=20) as r:
         final = r.geturl()
@@ -92,7 +95,7 @@ def links(base, html):
     return out
 
 
-def catch_all(host):
+def catch_all(host, real_len):
     """Does this host answer 200 to a path that cannot exist?
 
     An HTTP 200 does not mean a page exists, it means something answered.
@@ -103,22 +106,58 @@ def catch_all(host):
     page, byte-identical, for every path asked for. One extra request tells them
     apart: real sites 404 here. See _SILENT_FAILURES 427.
 
-    Returns the length of the bogus page when the host is a catch-all, else None.
+    Takes `real_len`, the length of a page that DOES exist on this host, and
+    requires the bogus page to be near-identical to it. Comparing against the
+    real page is the whole test and an earlier version of this function omitted
+    it -- it flagged any host answering 200, which caught acxiom.com, a real
+    broker with a real opt-out route whose site serves a full styled "page not
+    found" body with a 200. That is a soft-404, not a catch-all: the content
+    differs, so the host still distinguishes one path from another. Flagging it
+    would have hidden a working route, which is a worse failure than the one
+    this control exists to prevent -- a check that suppresses true positives is
+    not a safer check, it is a differently wrong one.
+
+    WHAT THIS CATCHES, AND WHAT IT DOES NOT. The baseline here is the host's
+    FRONT PAGE, so this detects a wholly parked host -- one serving the same
+    body for every path including "/". It does NOT catch a host that serves a
+    real homepage and a generic page for everything else: floridaarrests.org
+    has a 31,989-byte front page and returns ~32,288 bytes for /ccpaOptOut/ and
+    for a nonsense path alike, so it passes here and is still a fake route.
+    Catching that needs the candidate page itself as the baseline, which is
+    route_has_form.py's CATCH-ALL check -- it compares the route it was asked
+    about against a nonsense path on the same host, and is the authority on
+    whether a specific route is real. This function only reports candidates, so
+    a candidate surviving here means "worth checking", never "confirmed".
+
+    Returns the bogus page's length when the host answers everything alike,
+    else None.
     """
     for scheme in ("https://", "http://"):
         try:
             _, bogus = fetch(f"{scheme}{host}/zzz-not-a-real-page-9137/")
-            return len(bogus)
         except urllib.error.HTTPError:
             return None      # a 4xx here is the CORRECT answer: it discriminates
         except Exception:
             continue
+        # If either page hit fetch()'s read cap, both lengths are the cap and
+        # comparing them says nothing about the pages. acxiom.com -- a real
+        # broker with a working opt-out route -- truncated at 499,898 bytes on
+        # BOTH the front page and the bogus one and was flagged a catch-all on
+        # the strength of two identical truncation points. A comparison whose
+        # inputs were produced by the measuring instrument is not a comparison.
+        if len(bogus) >= CAP - 1000 or real_len >= CAP - 1000:
+            return None
+
+        # Near-identical length is the signature of a page served regardless of
+        # what was asked for. A tolerance rather than equality because parking
+        # pages often echo the requested path back into the body.
+        return len(bogus) if abs(len(bogus) - real_len) < 200 else None
     return None
 
 
 def probe(bid, domain):
     host = domain.replace("https://", "").replace("http://", "").strip("/")
-    same, off, reached = set(), set(), False
+    same, off, reached, real_len = set(), set(), False, 0
     for path in SEED_PATHS:
         for scheme in ("https://", "http://"):
             try:
@@ -126,6 +165,7 @@ def probe(bid, domain):
             except Exception:
                 continue
             reached = True
+            real_len = len(html)      # the control compares against this
             for u in links(final, html):
                 p = urllib.parse.urlparse(u)
                 marker = f"{p.path}?{p.query}"
@@ -140,7 +180,7 @@ def probe(bid, domain):
             break
     # Only worth asking once something answered, and only where it matters --
     # a host that produced no candidate route is already reported as "nothing".
-    bogus = catch_all(host) if (reached and (same or off)) else None
+    bogus = catch_all(host, real_len) if (reached and (same or off)) else None
     return {"id": bid, "domain": host, "reached": reached, "catch_all": bogus is not None,
             "same_site": sorted(same)[:4], "off_site": sorted(off)[:3]}
 
