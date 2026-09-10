@@ -27418,3 +27418,115 @@ Worth noting what did *not* go wrong: nothing was lost, because the refusal was
 loud and named the existing item. A silent overwrite would have replaced ten-day
 old verified knowledge with a fresher, weaker version of itself, and left no
 trace that it had ever been better.
+
+## 430. Criteo did the thing six companies said could not be done
+
+On the morning of 10 September, Criteo wrote:
+
+> *"We confirm that we have received and processed your request. The personal
+> data associated with the email addresses you provided have been deleted from
+> our systems."*
+
+No cookie ID. No advertising identifier. A demand-side retargeting business
+resolved a deletion **against email addresses** and said so in one sentence.
+
+Three days earlier, Outbrain/Teads had written:
+
+> *"Because we do not collect or process email addresses in any form, we do not
+> maintain a suppression list keyed to them."*
+
+And before that, in one form or another: PubMatic, Madhive, Tapad, Start.io,
+Outlogic, Foursquare, CityData.AI, Matchbook, Mogean, Infillion/Gimbal. The
+sentence varies; the shape does not. *We are an ad-tech company. Our systems are
+keyed to pseudonymous online identifiers. We cannot find you from a name or an
+email, and to be removed you must first supply the identifier you are asking us
+to delete.*
+
+I have accepted that answer every time it was given, and I still think each
+company was describing its own systems honestly. **What changed is what the
+answer means.** It was easy to read as a fact about the sector — a consequence
+of how programmatic advertising must work. It is not. Criteo is the same shape
+of business, subject to the same bidding protocols, and it holds a mapping from
+email to profile and was willing to use it in the consumer's favour.
+
+So the sentence is a description of one company's architecture and its choices
+about that architecture. That is a much weaker thing than it appeared, and it
+changes what can fairly be asked next. Not *"I dispute that you cannot find
+me"* — that would be arguing with people about their own systems. Rather:
+**Criteo managed it this morning; can you say whether your position is that you
+could not, or that you do not?** Those are different answers and only the second
+is a choice.
+
+**The evasion the counter-example makes visible.** "We do not process email
+addresses" and "we hold hashed emails and identity-provider IDs derived from
+them" are both true at once, comfortably, because a SHA-256 digest is not an
+email address in the sense the sentence uses. This was already suspected and was
+unaskable without looking like an accusation. With Criteo on the record it is a
+neutral question, and it now goes to every company in the cohort: not *do you
+hold email addresses*, but *do you hold hashed emails, or identifiers derived
+from them by LiveRamp, ID5, UID2 or similar* — and, separately, *do partners
+supply you with segments that were built from email-derived identifiers
+upstream*, since a segment arrives keyed to a MAID however it was assembled.
+
+Put to Redmob the same day, along with something their own policy supplies for
+free. They hold *"Mobile Advertising IDs… and Connected TV (CTV) device
+identifiers."* Their published opt-out is *"a non-identifying opt-out cookie…
+stored in your browser"*, which *"is limited to the browser and device from
+which it was submitted"* and is lost when cookies are cleared. A browser cookie
+is not a GAID and is certainly not a television. **The remedy they offer and the
+records they hold are in different namespaces**, and they document both halves
+themselves — §148 written by the company rather than discovered about it. Their
+mobile section gives genuine reset instructions for phones and says nothing
+about CTV, which has no reset-the-advertising-ID equivalent and no browser to
+hold the cookie.
+
+---
+
+**Three other things from the same two days, each short.**
+
+**CinqDI: an eligibility gate is a claim about obligation, not capability.**
+Refused on 26 August because Pennsylvania has no comprehensive privacy statute —
+correct on the stated facts, and the reply said so rather than arguing. It
+invoked instead the clause the original letter had carried all along for exactly
+this answer: honour it as a matter of published policy, and *an explicit no is a
+complete answer*. Fifteen days later they searched and returned a nil, with no
+mention of residency. Reusable on every register-sourced broker that refuses a
+Pennsylvania resident on eligibility grounds. Rooftop Digital showed the same
+shape on the same day from a different starting point — an initial refusal on
+identity-verification grounds, then a nil **plus an unprompted suppression
+entry**: *"we have suppressed your email from future mailings."*
+
+**Complete Medical Lists answered a question nobody had asked.** With the nil
+came this:
+
+> *"The information you submitted has not been and will not be stored, rented,
+> or shared."*
+
+Every letter this project sends hands a list broker twelve email addresses, ten
+prior postal addresses and eight prior phone numbers — which is a better record
+than most of what such a company buys. The standing worry is that **the request
+becomes the record**, and there has never been a good way to raise it without
+sounding like an accusation. CML disclaimed it in writing, unprompted. That
+sentence is now the standard to quote at other compilers.
+
+**Kaspr, and the questions that are not about the subject.** Kaspr gave the
+project's best-ever disclosure on 24 August — per-field sourcing, deletion,
+minimum-data suppression — in answer to a letter from this same personal email
+address, unverified. On 10 September, asked whether they also ingest users'
+contacts and address books, they replied that they must verify identity first,
+"as this request has been submitted from a personal email address."
+
+The reply did not argue about verification in general. It made one distinction:
+**two of the four questions do not concern the requester at all.** *Does Kaspr
+ingest contacts from connected accounts?* has the same answer for every person
+on earth. It describes the product. Verifying identity cannot change what the
+answer is, and withholding it protects nobody — there is no personal data in
+"yes we do" or "no we don't." Only the two questions that ask them to *search
+for me* are verifiable territory.
+
+That is worth generalising. A verification demand is usually answered by
+disputing the demand, which is slow and adversarial and often loses. The faster
+move is to **sort the request into the part that is about you and the part that
+is about them**, and ask for the second half now. Most letters in this project
+mix the two without noticing, which hands a company a single gate in front of
+both.
