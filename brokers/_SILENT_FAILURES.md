@@ -27530,3 +27530,65 @@ move is to **sort the request into the part that is about you and the part that
 is about them**, and ask for the second half now. Most letters in this project
 mix the two without noticing, which hands a company a single gate in front of
 both.
+
+## 431. Send us the link to the page you want removed
+
+USPhoneLookup and SearchPeopleFree replied on 9 September, eighty-six seconds
+apart, with byte-identical letters. Both asked for the same five things, the
+first of which was:
+
+> *"Profile Page URL(s): The exact link(s) to the page(s) you wish to have
+> removed."*
+
+The stated reason is a good one and deserves saying so: *"to avoid inadvertently
+removing another individual's information."* On a name as common as this one
+that is a real risk, and a company being careful about it is behaving better
+than one that deletes on a name alone.
+
+But the URL is the single item on that list the consumer is **worse** placed to
+produce than the company, and the gap is not small.
+
+**A listing is a cluster assembled from address history.** It is not a row filed
+under a current address. This subject's history runs to sixteen addresses over
+thirty years, and a search on the current town will not surface a cluster
+indexed under a town he left in 1998. So a consumer who sends "the URLs I could
+find" has silently narrowed his own request to *the subset findable from where
+he lives now* — and the rest survives a removal that looks complete from both
+sides. The company reports success against the URLs given. The consumer records
+success. The clusters under the old addresses are untouched and nobody has
+misrepresented anything.
+
+**Producing the URL requires searching the site for yourself.** That means
+running a query for your own name against the index you are asking to be removed
+from. On services of this kind such queries are logged, and on some the query
+itself feeds record-building. Requiring the person requesting removal to first
+perform the search is a strange shape for a privacy process even where nothing
+turns on it.
+
+**And they can do in one query what the consumer cannot do at all.** They hold
+the index. Any one of seventeen addresses or twelve phone numbers is a far more
+precise key into their own database than a string a stranger typed into a search
+box.
+
+So the reply supplied every other field and asked them to **run the search and
+report the URLs, then remove** — which also leaves a checkable list for next
+month that costs no further query against the site.
+
+**On the date of birth, which is the interesting judgement here.** They did not
+ask for it. It was *offered* rather than volunteered: *"if a date of birth would
+help you separate my records from another Nathan Jones, say so and I will send
+it."* The standing test is whether an identifier NARROWS a match or WIDENS a
+search, and disambiguating one Nathan Jones from another is the textbook case
+for narrowing. But the identifier they asked for was not this one, and a company
+that has not asked has not established it needs it. Offering satisfies the test
+without adding an attribute to a file that may not need one — and it puts the
+choice where it belongs, with the party who can see the ambiguity.
+
+**The eighty-six seconds are worth keeping too.** Two nominally separate
+people-search brands answering identically, a minute and a half apart, is
+platform evidence obtained for free — better than any fingerprint scan, because
+it is behavioural rather than infrastructural (§424 was a caution about reading
+shared hosting as shared ownership). The SearchPeopleFree letter says so and
+asks the question that follows: does a removal here cover the siblings on the
+same platform, or does each need its own request? Better to ask now than to
+discover in a month that one of several was closed.
