@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-30)
+- Current: `confirmed` (updated 2026-09-09)
 - Note: 2026-08-30 Sent the standard letter, tailored for an ESP (email marketing/messaging platform), to dataprivacy@siteimpact.com. Framed as likely email-keyed rather than name-keyed.
+- **Reply (2026-09-09):** an affirmative, unambiguous confirmation — "We searched our records against the identifiers you provided. Any matching records have been deleted, and your identifiers have been added to our suppression list to prevent re-collection and opt you out of any sale or sharing." Names both the search step and the suppression step without being asked twice. One of the cleanest complete answers in the corpus — no upsell, no deflection, no scope-narrowing.
 
 ## Steps
 

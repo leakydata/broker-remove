@@ -8,7 +8,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-03)
+- Current: `unreachable` (updated 2026-09-06)
+- Note (2026-09-06): the shared `info@adrearubin.com` channel finished its final retry with a terminal 451 4.4.4 (no mail-enabled subscriptions on the tenant) — see `adrea_rubin_marketing.md` for the full account. Both sibling entries are now unreachable: calibrant.com's own domain is parked/re-registered, and the one address tried on its behalf is dead too.
 - Note: 2026-08-26: the 2026-08-24 send to jennifer@calibrant.com has been
   bouncing with a connection timeout for 2 days (still inside Gmail's retry
   window). Checked calibrant.com directly: it now serves a **parked domain

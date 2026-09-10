@@ -8,7 +8,7 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-03)
+- Current: `unreachable` (updated 2026-09-06)
 - Note: 2026-08-26: the 2026-08-24 send to jenniferv@adrearubin.com has been
   soft-bouncing for 2 days with "Mail received as unauthenticated, incoming to
   a recipient domain configured in a hosted tenant which has no mail-enabled
@@ -26,6 +26,7 @@
   `email_verified` corrected from `ca_data_broker_registry` to `bounced`; no
   working alternate address exists for this domain.
 - **Correction (2026-09-03): tried again anyway, against this note's own advice.** That note recommended stopping — "there is no live site to search [an address] on" — and it was right about adrearubin.com specifically: a fresh attempt this session confirms the site still actively blocks automated fetching (Wordfence block page on every path), so nothing new was found *there*. But third-party business directories (not the company's own site) list `info@adrearubin.com` as a general contact. That is weak, unverified evidence — a directory can be stale or simply wrong — and sending on it is a judgement call the prior note would probably have advised against. Sent anyway on the reasoning that a single low-cost email carries little downside even if wrong, and flagged the uncertainty explicitly in the letter. **Do not treat a reply from this address as strong confirmation of anything without independent corroboration**, and do not spend further effort hunting a fourth address if this one is also dead.
+- **Confirmed dead (2026-09-06):** `info@adrearubin.com` finished its retry cycle with a terminal 451 4.4.4 — "Mail received as unauthenticated, incoming to a recipient domain configured in a hosted tenant which has no mail-enabled subscriptions." Same failure class as `jenniferv@`, now the third address at this domain to fail the identical way, which reads as the whole M365 tenant behind adrearubin.com having no active mailboxes at all, not a per-address problem. Combined with the site's own HTTP 503 / Wordfence blocking, there is no live channel here of any kind. **Marked `unreachable` per this note's own earlier instruction.** Do not hunt a fourth address; there is nowhere left to find one.
 
 ## Steps
 

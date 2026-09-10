@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-30)
+- Current: `not_found` (updated 2026-09-09)
 - Note: 2026-08-30 Sent the standard data-broker letter to privacy@sourcepathdigital.com.
+- **Reply (2026-09-09):** a named human (Director of Data and Technology) replied same-thread, quoting every identifier back and stating "the record was removed if present (was not present)." A real, specific nil — not a form auto-response — and it echoed all four email addresses plus DOB, phone and address, so the search plausibly covered the keys given. No suppression-list language, so treat this as a point-in-time negative rather than a standing exclusion against re-ingestion.
 
 ## Steps
 

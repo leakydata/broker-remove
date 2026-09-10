@@ -12829,8 +12829,8 @@
    "name": "Transparent Nevada",
    "domain": "transparentnevada.com",
    "priority": 1,
-   "method": "email",
-   "optout_url": "",
+   "method": "web_form",
+   "optout_url": "https://transparentnevada.com/contact",
    "needs_email_confirm": null,
    "source": "optery",
    "optery_slug": "transparent-nevada",
@@ -24396,6 +24396,23 @@
    "category_source": "named_by_azira 2026-09-01",
    "listing_basis": "named_by_company",
    "email_note": "2026-09-01: NOT A BROKER -- the Chapter 11 claims agent for Near Intelligence (Case 23-11962, Bankr. D. Del.). Route reached only because Azira named the docket. Address is Kroll's standard case-mailbox convention and is UNVERIFIED. See _CATEGORY_VARIANTS.md, the bankrupt broker."
+  },
+  {
+   "id": "locate_friend",
+   "name": "Locate Friend",
+   "domain": "locate-friend.com",
+   "priority": 2,
+   "method": "web_form",
+   "optout_url": "https://www.locate-friend.com/optout",
+   "needs_email_confirm": null,
+   "source": "discovered",
+   "email_to": "support@locate-friend.com",
+   "email_verified": false,
+   "email_verified_by": "bounced",
+   "category": "people_search",
+   "category_source": "manual 2026-09-10",
+   "listing_basis": "discovered",
+   "notes": "Both channels broken. Email (support@locate-friend.com) times out at SMTP connect on all published A/AAAA records (Cloudflare-proxied; no live mail service behind the site). The /optout form requires a hidden people_id populated only by clicking into a specific listing, and the surname-only search cannot reach an individual listing without paging through tens of thousands of surname matches behind a Cloudflare interactive challenge."
   }
  ]
 }

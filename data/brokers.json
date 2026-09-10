@@ -13275,6 +13275,25 @@
    "route_evidence": "none"
   },
   {
+   "id": "locate_friend",
+   "name": "Locate Friend",
+   "domain": "locate-friend.com",
+   "priority": 2,
+   "method": "web_form",
+   "optout_url": "https://www.locate-friend.com/optout",
+   "needs_email_confirm": null,
+   "source": "discovered",
+   "email_to": "support@locate-friend.com",
+   "email_verified": false,
+   "email_verified_by": "bounced",
+   "category": "people_search",
+   "category_source": "manual 2026-09-10",
+   "listing_basis": "discovered",
+   "notes": "Both channels broken. Email (support@locate-friend.com) times out at SMTP connect on all published A/AAAA records (Cloudflare-proxied; no live mail service behind the site). The /optout form requires a hidden people_id populated only by clicking into a specific listing, and the surname-only search cannot reach an individual listing without paging through tens of thousands of surname matches behind a Cloudflare interactive challenge.",
+   "optery_slug": "locate-friend",
+   "route_evidence": "none"
+  },
+  {
    "id": "locatesmarter",
    "name": "Locatesmarter",
    "domain": "locatesmarter.com",
@@ -26759,20 +26778,6 @@
    "route_evidence": "none"
   },
   {
-   "id": "locate_friend",
-   "name": "Locate Friend",
-   "domain": "locate-friend.com",
-   "domain_source": "derived_from_optery_slug",
-   "priority": 1,
-   "method": "unknown",
-   "optout_url": "",
-   "needs_email_confirm": null,
-   "source": "optery",
-   "optery_slug": "locate-friend",
-   "optery_url": "https://www.optery.com/data-brokers/locate-friend/",
-   "route_evidence": "none"
-  },
-  {
    "id": "locatefamily_com",
    "name": "Locatefamily Com",
    "domain": "",
@@ -29050,8 +29055,8 @@
    "name": "Transparent Nevada",
    "domain": "transparentnevada.com",
    "priority": 1,
-   "method": "email",
-   "optout_url": "",
+   "method": "web_form",
+   "optout_url": "https://transparentnevada.com/contact",
    "needs_email_confirm": null,
    "source": "optery",
    "optery_slug": "transparent-nevada",
