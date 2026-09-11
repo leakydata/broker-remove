@@ -27784,3 +27784,81 @@ ignores them.
 
 `confirmed` falls from 71 to 69. Two of the project's confirmed deletions were
 confirmations of nothing, and both had already been caught once.
+
+## 434. Seventeen rows that said a request went in when the company had refused to take one
+
+§433 found two adoptions that silently reversed a correction. This is the same
+query run across all 124 adopted rows instead of the five terminal ones.
+
+    adoptions that overwrote a CONSIDERED local entry
+      (different status, previous note over 200 chars)        53
+      …of those, never revisited by any later real work       26
+      …of those, manual_required -> submitted                 17
+
+The 17 are one story told seventeen times. Each had a note recording that the
+company **refused the email route in writing**, and each was deliberately
+downgraded to `manual_required` because of it:
+
+> *"Buxton does not accept privacy requests submitted by email, so this request
+> will not be processed"*
+> *"Sending a request to this email address does not complete the privacy-request
+> process"* — DataSys, General Counsel
+> *"Requests submitted by email alone cannot be processed."* — Lightcast
+> *"email is not a mechanism used by Client Command for privacy rights requests"*
+> *"This email address is dedicated to customer service inquiries and is not
+> intended for privacy-related requests. We do not accept privacy requests
+> received via email."* — the mtalley estate, signed by FastPeopleSearch support
+
+On 28 August an adoption set every one of them to `submitted`. For two weeks the
+ledger has said a request went in at seventeen companies that had each stated, in
+writing, that the route used does not count. `manual_required` means *a human
+still has to do something*; `submitted` means *it is with them*. The adoption
+converted the first into the second, and it is the worse direction to be wrong
+in — an overstated `submitted` waits quietly, where an overstated
+`manual_required` merely wastes someone's time.
+
+**Then I nearly reported the wrong number, for the third time this week.**
+
+Of the 17, seven had no open handoff item under their own broker id, which I was
+one keystroke from writing up as *seven rows where the work is invisible*. Six of
+the seven were covered — under a **different id**:
+
+    cappex_com                        -> queued under `eab`
+    hivestack                         -> queued under `perion`
+    lotame                            -> queued under `lotame_via_epsilon`
+    fastpeoplesearch                  -> queued under `mississippi_tornado_alley`
+    usphonebook                       -> ditto, one form for ten brands
+    cyberbackgroundchecks_com_…       -> ditto
+
+Coverage in this project lives under whichever id happens to name the parent, the
+successor, or the estate — `eab` owns Cappex, Perion answers for Hivestack,
+Lotame was merged into Epsilon in October 2025, and one FastPeopleSearch form
+serves the whole mtalley estate. Keying on the row's own id finds none of that.
+This is §424 and §429 a third time, and the lesson has now cost me an hour in
+three separate forms: **the identifier you query by is a choice, and it is
+usually the wrong one.**
+
+**Only Classmates was genuinely loose**, and it is the interesting one. It was
+explicitly carved out of the PeopleConnect family suppression that covered
+Intelius, InstantCheckmate, TruthFinder and USSearch on a single email — by
+PeopleConnect's own support desk:
+
+> *"You will need to reach out directly to Classmates for assistance with any
+> removal from their site (206) 301-5700."*
+
+Four brands suppressed by one email; the fifth directed to a telephone line. A
+family suppression that silently excludes one brand is precisely the failure this
+project exists to catch, and nobody outside would ever discover it — it only
+surfaced because the support desk volunteered it. Queued as a phone handoff, with
+the question to put on the call: is Classmates on separate infrastructure, or
+operated under different terms?
+
+All seventeen statuses corrected, each note naming the item that actually covers
+it so the next person does not repeat the search.
+
+**What makes this worth its own entry rather than a footnote to §433.** The two
+rows in §433 were caught because a `confirmed` deletion is checked. These
+seventeen sat in `submitted`, which is the status nothing looks at — not the
+chase queue (they were inside the 45-day window), not the corroboration report
+(a send is a send), not any terminal-status audit. **The middle of a pipeline is
+where wrong data survives longest**, because attention collects at the ends.
