@@ -6,6 +6,11 @@
    "why": "own item [captcha]"
   },
   {
+   "id": "advancedbackgroundchecks",
+   "status": "manual_required",
+   "why": "note points at `mississippi_tornado_alley` [form]"
+  },
+  {
    "id": "appily",
    "status": "manual_required",
    "why": "own item [form]"
@@ -61,6 +66,11 @@
    "why": "own item [click]"
   },
   {
+   "id": "cyberbackgroundchecks",
+   "status": "manual_required",
+   "why": "note points at `mississippi_tornado_alley` [form]"
+  },
+  {
    "id": "cyberbackgroundchecks_com_advancedbackgroundchecks_com_fastb",
    "status": "manual_required",
    "why": "note points at `mississippi_tornado_alley` [form]"
@@ -94,6 +104,11 @@
    "id": "fastpeoplesearch",
    "status": "manual_required",
    "why": "note points at `mississippi_tornado_alley` [form]"
+  },
+  {
+   "id": "findpeoplefast_net",
+   "status": "manual_required",
+   "why": "own item [form]"
   },
   {
    "id": "leadpost",
@@ -231,6 +246,11 @@
    "why": "own item [form]"
   },
   {
+   "id": "jmr_media",
+   "status": "manual_required",
+   "why": "own item [form]"
+  },
+  {
    "id": "kargo_global",
    "status": "manual_required",
    "why": "own item [decision]"
@@ -249,6 +269,11 @@
    "id": "optimal",
    "status": "captcha_blocked",
    "why": "own item [captcha]"
+  },
+  {
+   "id": "media_direct",
+   "status": "manual_required",
+   "why": "own item [form]"
   },
   {
    "id": "lob_com",
@@ -368,23 +393,7 @@
  ],
  "no_coverage_found": [
   {
-   "id": "advancedbackgroundchecks",
-   "status": "manual_required"
-  },
-  {
    "id": "buildertrend",
-   "status": "manual_required"
-  },
-  {
-   "id": "cyberbackgroundchecks",
-   "status": "captcha_blocked"
-  },
-  {
-   "id": "findpeoplefast_net",
-   "status": "manual_required"
-  },
-  {
-   "id": "mediamath",
    "status": "manual_required"
   },
   {
@@ -392,15 +401,7 @@
    "status": "email_pending"
   },
   {
-   "id": "jmr_media",
-   "status": "manual_required"
-  },
-  {
    "id": "no",
-   "status": "manual_required"
-  },
-  {
-   "id": "media_direct",
    "status": "manual_required"
   },
   {

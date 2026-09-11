@@ -27963,3 +27963,86 @@ to look, not a verdict — which after §427, §428 and §434a is the only hones
 left to build a detector in this project. Two of the twelve, `mediamath` and
 `cyberbackgroundchecks`, are already resolved elsewhere and would have been
 false accusations had the output claimed more than it knows.
+
+## 436. The designated method that cannot be located
+
+Under Cal. Civ. Code §1798.130 a business may designate how consumer requests
+must be submitted, and refusing a request that arrives another way is lawful.
+Two companies have now refused this project's letters on exactly that ground —
+and in both, **the designated method cannot be found.**
+
+**JMR Media**, refusing:
+
+> *"If this message is a consumer privacy request, we do not accept email as a
+> submission method… please submit your request using one of our designated
+> methods."*
+
+Their privacy policy is at `jmr-media.com/privacy-policy/`. It returns 2,899
+bytes. So does `jmr-media.com/zzz-not-a-real-page-9137/` — the same 2,899 bytes,
+byte for byte. The whole site is a single-page shell that serves one document for
+every URL and renders the rest in JavaScript. From outside a browser there is no
+privacy policy, no rights section, and no method, designated or otherwise.
+
+**Buildertrend**, refusing twice with an identical macro:
+
+> *"It looks like your request wasn't submitted through the designated method
+> outlined in Section X of our Privacy Notice."*
+
+The second letter said plainly that the requester *wanted* to use the designated
+method and could not find Section X in the notice at
+`buildertrend.com/privacy-notice/`. It was answered with the same macro, naming
+the same section. (§308.)
+
+The two failures are different in mechanism and identical in effect. One points
+at a section that is not in the document; the other points at a document that is
+not served. **A refusal is only lawful if the alternative exists**, and a
+consumer in either case is left with no route at all — while the file shows a
+request received and correctly declined.
+
+This is worse than an ordinary dead end because it is **self-concealing**. The
+company has done something that looks exactly like compliance: it named a
+statutory basis, cited its own policy, and invited a properly-formed request.
+Everything is in order except the part nobody checks. And the consumer cannot
+easily tell the difference between "I failed to find it" and "it is not there",
+which is precisely the doubt that stops people escalating.
+
+Both are queued, and both items say the same thing: find the method and use it,
+**and if you cannot find it, that is the finding** — do not improvise a route,
+report what the policy actually says. A company that refuses email and publishes
+no working alternative has said more about itself than any submission would have.
+
+---
+
+### The sweep that surfaced it
+
+§435's `coverage.py` listed 15 rows needing a human with nobody assigned. Working
+through them:
+
+    queued this session      6   socialcatfish, ohio_resident_directory,
+                                 clustrmaps, jmr_media, media_direct,
+                                 findpeoplefast_net
+    coverage pointer added   3   mediamath -> infillion; cyberbackgroundchecks
+                                 and advancedbackgroundchecks -> the mtalley
+                                 estate form, which names both by name
+    still to work            6
+
+    no coverage found: 15 -> 6
+
+The three pointer cases are the §434 lesson repeating in miniature: the work was
+always covered, and only the note failed to say by whom. Adding one sentence to
+each is the entire fix, and it is the difference between a queue that can be
+audited and one that has to be re-derived by hand every time.
+
+**One more thing worth keeping, from FindPeopleFast.** Their removal form
+requires a profile URL. Their own people-search box does not search their index —
+it opens affiliate redirects carrying the query to other brokers:
+
+    truthfinder.com/search/?…utm_campaign=findpeoplefast…firstName=…&lastName=…
+    intelius.com/phone/search/?…utm_campaign=findpeoplefast…phone=…
+
+So a consumer trying to satisfy the removal form's mandatory field is routed into
+handing their name and telephone number to two further brokers, as affiliate
+traffic, from which the operator earns. **The removal process is itself a lead
+generator.** The queue item says in terms: do not use their search box, and if no
+URL can be found, write in the field why — it is true, it is verifiable, and it
+puts the problem where it belongs.
