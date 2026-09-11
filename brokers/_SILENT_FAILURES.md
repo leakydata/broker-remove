@@ -28766,3 +28766,52 @@ answered nor refused because two scopes were in play at once.
 Neither company did anything wrong. **The word "completed" carries a scope that
 only the company can see**, and until someone asks, both readings of it are
 sincere.
+
+### 444a. Auditing the nils, and mostly finding good ones
+
+§444 named the processor nil — a true answer, narrower than the question, with
+the narrowing invisible. The obvious next move was to ask how many of this
+project's 71 `not_found` rows might be one.
+
+**The first attempt looked in the wrong place.** I searched the notes for
+language about acting for customers or clients, and got three hits — all three
+of which turned out to be rows where the scope question had *already* been asked
+and answered. Of course they were: a note that discusses the controller/processor
+split is a note where somebody thought about it. **A processor nil's signature is
+the absence of that discussion, not its presence**, and searching for the words
+found the successes rather than the gaps. Same inversion as §432, where a pattern
+matched the vocabulary of the question rather than the answer.
+
+Redone by category instead — screening and B2B contact businesses, where holding
+data for client organisations is the norm. Eight rows. **Seven were already
+properly scoped**, and it is worth recording what that looks like, because these
+are the standard:
+
+    bookyourdata   enumerated the seven addresses searched, and said it was a
+                   complete check rather than a sample
+    intentgine     named the fields searched -- email, name, phone, address --
+                   rather than asserting a bare negative
+    mightyrep      enumerated the STORES: the product, a CRM, an enrichment
+                   cache, a suppression list. "Simple Answer: No."
+    hunt_club      "After a review of our systems, we are unable to locate any
+                   record of you in our database", plus what they retain and why
+    licensefiles   scope attached to the record deliberately -- "their website,
+                   name+state only" -- rather than filed as a blanket negative
+
+**One was not.** DecisionLinks: *"We have no data on this individual and we have
+added them to our suppression list."* Two sentences, a nil and a forward-looking
+suppression, no account and no ID demanded — a genuinely good answer, and silent
+on whether it covers searches run **for clients**. For a background-screening
+business that is the whole question, since almost none of the work is done for
+their own account.
+
+Asked, with (a) *nothing anywhere* offered as a one-line close and (b) *nothing
+in our own database, client records not in scope* offered as equally acceptable.
+Raised FCRA §609 conditionally — a file disclosure would settle it definitively,
+and "no file exists" under FCRA is far stronger than a nil under a statute that
+may not cover a Pennsylvania resident at all — with an explicit invitation to
+disregard that paragraph if they are not a consumer reporting agency.
+
+**The result is mostly reassuring and that is worth saying.** One under-scoped
+nil in seventy-one. The habit of asking *what did you search* rather than *did
+you find anything* was already established well before §444 gave it a name.
