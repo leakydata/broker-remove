@@ -8,8 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-17)
-- Note: Statutory delete/opt-out request emailed, tailored to the broker's data category; awaiting reply.
+- Current: `not_found` (updated 2026-09-10)
+- Note: Statutory delete/opt-out request emailed, tailored to the broker's data category — the letter specifically asked them to say plainly if any held record carried a health-related attribute (condition, treatment, medication) and confirm its deletion, since list-rental records often carry a sensitive attribute the consumer never sees.
+- **Reply (2026-09-10):** tburnell@completemedicallists.com replied, quoting CCPA (Cal. Civil Code Div. 3, Part 4 1798.100 et seq.): "we searched our databases using the name/address information submitted and, as of the date of this notification, did not find the name/address submitted. The information you submitted has not been and will not be stored, rented, or shared." A specific, dated nil rather than a form auto-response — but it does not address the health-attribute question asked directly in the letter, so treat the sensitive-category point as unanswered rather than assume it's covered by the general nil.
 
 ## Steps
 

@@ -1090,8 +1090,8 @@
     "via": null
   },
   "cml_medical": {
-    "status": "submitted",
-    "changed": "2026-08-17",
+    "status": "not_found",
+    "changed": "2026-09-11",
     "via": null
   },
   "coalition_greenwich": {
@@ -1310,8 +1310,8 @@
     "via": "email"
   },
   "criteo": {
-    "status": "submitted",
-    "changed": "2026-08-21",
+    "status": "confirmed",
+    "changed": "2026-09-11",
     "via": "reply"
   },
   "cross_pixel": {
@@ -1668,6 +1668,11 @@
     "status": "submitted",
     "changed": "2026-08-18",
     "via": "email"
+  },
+  "dobsearch_com": {
+    "status": "submitted",
+    "changed": "2026-09-11",
+    "via": null
   },
   "dojomojo": {
     "status": "submitted",
@@ -3179,6 +3184,11 @@
     "changed": "2026-09-01",
     "via": "email"
   },
+  "locate_friend": {
+    "status": "submitted",
+    "changed": "2026-09-11",
+    "via": null
+  },
   "locatefamily": {
     "status": "submitted",
     "changed": "2026-08-28",
@@ -3520,8 +3530,8 @@
     "via": "email"
   },
   "mobility_global_s_p_global": {
-    "status": "submitted",
-    "changed": "2026-08-29",
+    "status": "manual_required",
+    "changed": "2026-09-11",
     "via": "email"
   },
   "modfx_labs": {
@@ -5628,6 +5638,11 @@
     "status": "submitted",
     "changed": "2026-08-31",
     "via": "email"
+  },
+  "transparent_nevada": {
+    "status": "submitted",
+    "changed": "2026-09-11",
+    "via": null
   },
   "transunion": {
     "status": "submitted",

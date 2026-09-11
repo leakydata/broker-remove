@@ -8,8 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-21)
+- Current: `confirmed` (updated 2026-09-10)
 - Note: 2026-08-20: first contact, sent to the address discovered by the verify_emails sweep. Tailored per _CATEGORY_VARIANTS.md.
+- **Reply (2026-09-10):** dpo@criteo.com replied in one line: "The personal data associated with the email addresses you provided have been deleted from our systems." No CAPTCHA, no form redirect, no identifier demand — a demand-side ad-tech company resolved a full deletion on plaintext email addresses alone, which is worth citing back to other ad-tech companies (Redmob, Babel Street) who claim they cannot search on anything but a device/advertising ID.
 
 ## Steps
 

@@ -7,7 +7,9 @@
 
 ## Status
 
-- Current: `submitted`
+- Current: `submitted` (updated 2026-09-11)
+- **Reply (2026-09-11):** asked for the exact profile page URL, saying a name alone can match many people, and offered a form at namesandfacts.com/do-not-sell-my-info as an alternative.
+- **Reply sent (2026-09-11):** declined to browse the site to find and hand back our own listing URL; instead gave name, DOB, phone, address and all four emails and asked them to search on those, asked them to treat multiple matches as all in scope, and asked them to confirm explicitly if a URL is genuinely required before they'll act on identifiers alone.
 
 ## Steps
 
@@ -15,13 +17,7 @@
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+**Asks for the profile URL as a precondition to acting, rather than searching identifiers first.** This shifts the burden onto the requester to locate their own listing before the broker will remove it — worth pushing back on rather than complying by default, since providing the URL means visiting and cataloguing the exposure in more detail than a straightforward opt-out should require.
 
 ## Verification
 
