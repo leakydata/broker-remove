@@ -28331,3 +28331,54 @@ And five of the nine could not be read at all: three 403s, two 404s. The 404s on
 walls. So **this run verified two rows out of nine** and the other seven are
 unknown — which is the honest headline, and not the one a glance at "1 LISTED"
 would give.
+
+## 440. A stale URL was hiding a live listing
+
+§439 reported the re-verifier seeing two rows of nine and called that the honest
+headline. Going back to fix the other seven produced a better result and a
+sharper lesson.
+
+**Five of the nine could not be read. The reasons were three different things,
+and the run reported them as two indistinguishable HTTP codes.**
+
+    checkpeople, radaris, whitepages   403 -- bot wall
+    ussearch                           404 -- STALE URL, hiding a live 200
+    idstrong                           404 -- search is POST-only
+
+Tested with a full browser header set — `Accept-Language`, all four
+`Sec-Fetch-*`, `Upgrade-Insecure-Requests`: every 403 stayed 403. So those three
+are not a matter of header craft and never will be; they need a real browser
+session. That is now written into the script as a standing `UNCHECKABLE` note
+per site, and every run prints *"a clean run verifies at most 5 of 9 rows"* so
+the limitation travels with the output instead of living in my prose.
+
+**USSearch was the one worth chasing.** Its recorded template was
+`/name/{first}-{last}/`, which 404s. USSearch is PeopleConnect, so it uses the
+same `/results/?firstName=…` shape as TruthFinder — and that path answers:
+
+> *"Verified Name Match — Nathan Jones, 47 years old — Locations: Bradford, ME ·
+> Shermans Dale, PA · Carlisle, PA · Lehi, U…"*
+
+The same cluster TruthFinder publishes. **A 404 reads as "no such page", so this
+row sat unverifiable while appearing merely absent** — the most comfortable of
+all failure modes, because nothing looks wrong. §425 was about links that resolve
+and remove nothing; this is its opposite number: a link that fails and thereby
+conceals something present.
+
+So the PeopleConnect picture is now three brands readable and **disagreeing**:
+InstantCheckmate suppressed, TruthFinder and USSearch both publishing the
+Carlisle-containing cluster. The identity question from §439 is unchanged and
+still undecided — but it now governs two rows, and one human check settles both.
+
+**And I got one wrong inside the same hour.** Having found ussearch's real path
+with `curl` and received a 403, I added it to `UNCHECKABLE` as a bot wall. The
+script's own fetcher then reached the same URL and got a result page. One failed
+probe is not a property of a site — which is §428, written three days ago, and
+which I had just restated in a comment *two lines above the line I got wrong*.
+It stood for about ten minutes. The correction is in the file where the error
+was, rather than only here, because that is where the next person will look.
+
+The general shape, which is now the fourth variant this week: **an error code is
+a claim about one request, and the temptation is always to promote it to a claim
+about the world.** 403 became "blocked forever", 404 became "nothing there", and
+both were wrong in different directions on the same run.

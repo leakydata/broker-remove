@@ -37,11 +37,36 @@ UA = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/126.0 Safari/537.36")
 
 # public search URL templates, {first} {last} {state} {city} substituted
+# WHY SOME SITES CANNOT BE RE-VERIFIED BY THIS SCRIPT AT ALL.
+# Recorded per site rather than left to reappear each run as an unexplained
+# 403 or 404. A run that reports five failures without saying WHICH KIND of
+# failure invites the reader to average them into "flaky", and they are not
+# flaky -- they are three different permanent obstacles. Tested 2026-09-11
+# with a full browser header set (Accept-Language, all four Sec-Fetch-*,
+# Upgrade-Insecure-Requests): every 403 below returned 403 to that too, so
+# none is a matter of header craft. See _SILENT_FAILURES 440.
+UNCHECKABLE = {
+    "checkpeople": "bot wall -- 403 to a full browser header set, needs a real session",
+    "radaris":     "bot wall -- 403 to a full browser header set, needs a real session",
+    "whitepages":  "bot wall -- 403 to a full browser header set, needs a real session",
+    # ussearch was listed here for about ten minutes on the strength of a
+    # single curl that returned 403. The script's own fetcher reached the same
+    # URL and got a result page. One failed probe is not a property of a site
+    # (SF 428), and I had just written a comment saying exactly that two lines
+    # above. Removed -- it is checkable, and it is LISTED.
+    "idstrong":    "search is POST-only (/searching/name-loading/, firstName+lastName), "
+                   "so a read-only GET cannot reach a result page at all",
+}
+
 SITES = {
     "checkpeople":       "https://www.checkpeople.com/name/{first}-{last}/{state}",
     "radaris":           "https://radaris.com/p/{first}/{last}/",
     "whitepages":        "https://www.whitepages.com/name/{first}-{last}/{city}-{state}",
-    "ussearch":          "https://www.ussearch.com/name/{first}-{last}/",
+    # CORRECTED 2026-09-11: /name/{first}-{last}/ returned 404, which read as
+    # "no such page" when the truth is a bot wall one path over. USSearch is
+    # PeopleConnect, so it uses the same /results/ shape as TruthFinder -- and
+    # that path answers 403. A stale URL had been hiding the real obstacle.
+    "ussearch":          "https://www.ussearch.com/results/?firstName={first}&lastName={last}&state={state}",
     "truthfinder":       "https://www.truthfinder.com/results/?firstName={first}&lastName={last}&state={state}",
     "instantcheckmate":  "https://www.instantcheckmate.com/results?firstName={first}&lastName={last}&state={state}",
     "idstrong":          "https://www.idstrong.com/people/{first}-{last}/",
@@ -163,6 +188,15 @@ def main():
         print(f"{verdict:12} {bid:26} {url[:64]}")
         if detail:
             print(f"{'':12} {detail[:110]}")
+    unchecked = sorted(k for k in SITES if k in UNCHECKABLE)
+    print(f"\n=== CANNOT BE CHECKED BY THIS METHOD ({len(unchecked)} of {len(SITES)})")
+    print("    Standing obstacles, not failures of this run. Retested 2026-09-11")
+    print("    with a full browser header set; none is a matter of header craft.")
+    for k in unchecked:
+        print(f"  {k:24s} {UNCHECKABLE[k]}")
+    print(f"\n    So a clean run verifies at most {len(SITES) - len(unchecked)} of {len(SITES)} rows.")
+    print("    Read any headline count against that, not against the site total.")
+
     print("""
   LISTED is the one to act on: the SUBJECT -- name and city both -- is being
   published again on a site that confirmed a removal. Re-open that row.
