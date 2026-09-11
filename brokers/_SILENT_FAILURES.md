@@ -28562,3 +28562,58 @@ arrived**, and whether the cycle has ended or is merely irregular is not
 something one missing tick can establish. Recorded that way so the next pass does
 not read silence as resolution — which is, after all, the failure this entire
 file is about.
+
+## 443. The intake that turns every email into a completed deletion
+
+§442 reported that Greenhouse announces completed deletions from
+`dsr@greenhouse.io`, which returns `550 5.1.1 — the account does not exist`. I
+resent the questions to `privacy@greenhouse.io`, the address that works, leading
+with the bounce as a defect report. Part One said in terms: *"It is not about
+me."*
+
+    16:08:00   my letter arrives at privacy@greenhouse.io
+    16:08:06   Zendesk: "Your request (17870) has been received"
+    16:08:16   dsr@: "we have received your data subject request"
+    16:10:30   dsr@: "Your deletion request has been completed"
+
+**A bug report about their mail configuration became a completed deletion
+request in one hundred and thirty-four seconds.**
+
+So the pipeline is: any inbound mail to `privacy@` → a ticket → a DSR created in
+their tool → *received* → *completed*, notified from an address that cannot be
+replied to. The completion notices are generated **per email, not per request**.
+That also explains the first pair: the 27 August letter became ticket 17235, sat
+a fortnight, was routed into the DSR tool on 11 September and completed five
+minutes later.
+
+**The consequence is the operative fact, and it is unusual enough to state
+plainly: the questions cannot be asked.** *Was there anything to delete?* and
+*does this cover candidate records held for employer customers, or only what
+Greenhouse holds for itself?* — both are unanswerable by email, because sending
+the question adds another completed deletion to their count. **Asking and
+corrupting the measurement are the same act.**
+
+That is a shape this file has not recorded before. §441's Choreograph loop
+generates duplicate records on a *schedule*, indifferent to what the consumer
+does. This one generates them **in response to the consumer**, which means a
+person who politely follows up — the conscientious requester, the one who reads
+the notice and notices it says nothing — inflates the company's completed-request
+count faster than someone who ignores it entirely. The incentive runs exactly
+backwards.
+
+Put beside §442 the pair is close to complete: the channel that announces
+completion cannot receive, and the channel that can receive manufactures a
+completion from whatever it receives. Neither is refusal. Neither is bad faith.
+Both are automation doing precisely what it was built to do.
+
+**There is a way out, and it is not email.** Their acknowledgement names a portal
+at `greenhouse-privacy.relyance.ai` with a *Verify Identity* button — the only
+channel that is not an email. Queued for a human, with the three things worth
+reading there: how many requests are listed, whether any says what was *searched*
+rather than merely *completed*, and whether the portal distinguishes
+controller-held data from candidate records held for employers. That last is the
+whole question for an applicant tracking system, and no email will ever answer
+it.
+
+Status moved to `manual_required`. `replied` understated it: no further email is
+possible without altering the thing being asked about.
