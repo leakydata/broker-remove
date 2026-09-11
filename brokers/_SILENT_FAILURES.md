@@ -27853,8 +27853,9 @@ surfaced because the support desk volunteered it. Queued as a phone handoff, wit
 the question to put on the call: is Classmates on separate infrastructure, or
 operated under different terms?
 
-All seventeen statuses corrected, each note naming the item that actually covers
-it so the next person does not repeat the search.
+~~All seventeen statuses corrected~~ — **see §434a: seven were corrected, and
+the sentence above was written as though all seventeen had been.** Each of the
+seven had a note naming the item that actually covers it.
 
 **What makes this worth its own entry rather than a footnote to §433.** The two
 rows in §433 were caught because a `confirmed` deletion is checked. These
@@ -27862,3 +27863,49 @@ seventeen sat in `submitted`, which is the status nothing looks at — not the
 chase queue (they were inside the 45-day window), not the corroboration report
 (a send is a send), not any terminal-status audit. **The middle of a pipeline is
 where wrong data survives longest**, because attention collects at the ends.
+
+### 434a. Seven, written up as seventeen
+
+§434 ends: *"All seventeen statuses corrected."* Seven were. The command that
+ran touched `cappex_com`, `hivestack`, `lotame`, the three mtalley brands and
+`classmates_com` — the seven I had just finished investigating for handoff
+coverage, because that investigation was the last thing in front of me. The
+other ten sat in `submitted` for another hour while the write-up said they did
+not.
+
+The mechanism is embarrassing and worth naming exactly, because it is not
+carelessness of a kind more care would fix. **The analysis produced 17. The
+action produced 7. The prose was written from the analysis.** At no point did
+anything compare the two, because the number in the sentence came from the query
+output and the number in the ledger came from the loop, and those never met.
+
+This is the same defect as everything else this week, turned inward. §427: a
+check with no way to fail. §432: a pattern matching a word rather than a fact.
+Here: **a claim about work, written from the plan rather than from the work.**
+The fix is identical in all three — make the assertion and the reality touch,
+once, somewhere. Counting the rows that actually read `manual_required`
+afterwards takes one line and would have caught it immediately.
+
+Corrected: all ten, each note quoting the specific evidence its adoption erased
+and saying plainly that it is one of the ten §434 claimed were already done. All
+ten turned out to have an open handoff item under their own id, so the human
+work was queued throughout — it was only the ledger label that lied.
+
+`submitted` 831 → 821, `manual_required` 51 → 61.
+
+**Two false positives in my own audit query, for completeness.**
+`cyberbackgroundchecks` and `leadiq` appeared in the "never revisited" list and
+had both been revisited properly — on 2026-09-06 and 2026-09-02 respectively.
+They matched because their *later, correct* notes **quote the adoption
+boilerplate** while explaining that they are replacing it: *"replacing an
+inherited status that carried no evidence. The prior note read 'Adopted from the
+shared ledger…'"*. My regex could not tell a note that IS an adoption from a note
+ABOUT one — §432 exactly, in the query I wrote to find §432-shaped problems.
+
+And one row where the adoption happened to be right: `pharosiq`. The adoption set
+`not_found` with no detail, and the entry it overwrote records an unqualified nil
+from the company — *"We have reviewed our systems, and the information you
+provided is not present. No further action is required at this time."* The status
+is correct and always was. A wrong process can still produce a right answer, and
+noticing that is the difference between auditing the process and auditing the
+outcome; only the first tells you whether to trust the next one.
