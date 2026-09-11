@@ -28006,7 +28006,9 @@ Everything is in order except the part nobody checks. And the consumer cannot
 easily tell the difference between "I failed to find it" and "it is not there",
 which is precisely the doubt that stops people escalating.
 
-Both are queued, and both items say the same thing: find the method and use it,
+Both are queued — *JMR Media at the time of writing, Buildertrend an hour later;
+see §436a, because the sentence originally said both and only one was* — and both
+items say the same thing: find the method and use it,
 **and if you cannot find it, that is the finding** — do not improvise a route,
 report what the policy actually says. A company that refuses email and publishes
 no working alternative has said more about itself than any submission would have.
@@ -28046,3 +28048,41 @@ traffic, from which the operator earns. **The removal process is itself a lead
 generator.** The queue item says in terms: do not use their search box, and if no
 URL can be found, write in the field why — it is true, it is verifiable, and it
 puts the problem where it belongs.
+
+### 436a. The same mistake, five hours later
+
+§434a recorded a claim written from the plan rather than from the work: the
+analysis found 17 rows, the action corrected 7, and the prose said 17. The stated
+lesson was *"make the assertion and the reality touch, once, somewhere."*
+
+Five hours later §436 said *"Both are queued"* of JMR Media and Buildertrend.
+Only JMR Media was.
+
+What makes this worth writing rather than quietly fixing is that **the check
+existed and I ran it.** After queueing I ran `coverage.py`, which printed
+`no coverage found 6` — and Buildertrend was one of the six, by name, in output I
+had on screen. I read the *count*, saw it had fallen from 15, and wrote the
+summary. The number moved in the right direction, so I stopped looking.
+
+That is a more specific failure than "didn't check", and a more useful one. The
+verification ran, produced the disconfirming evidence, and displayed it. What
+failed was that I compared the output to my **expectation of progress** rather
+than to my **specific claim**. A falling number felt like confirmation of every
+sentence I was about to write, including one it directly contradicted.
+
+So the fix from §434a was right and insufficient. Making the assertion and the
+reality touch is necessary; it does not help if the touching is done by a glance
+at an aggregate. The operative version is narrower: **when a sentence names
+specific things, the check has to name them too.** `coverage found 78` cannot
+verify "both are queued". `grep -c buildertrend` can, and takes a second.
+
+Recurrence within one session, with the lesson already written down two entries
+earlier, is also the answer to whether writing a finding prevents its repetition.
+It does not. §427 was written an hour before the control it warns about shipped
+with the same defect (§428). This is the third instance of that specific pattern
+in four days, and the only thing that has actually caught any of them is running
+something afterwards and reading what it says about the claim rather than about
+the mood.
+
+Buildertrend is now queued, with the instruction the entry describes: find
+Section X, and if it is not there, report that rather than improvising a route.
