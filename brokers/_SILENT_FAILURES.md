@@ -28449,8 +28449,9 @@ a complete answer.
 
 Choreograph's consumer preference portal has now sent seven notices saying
 *"Your privacy request has been completed successfully."* Each carries a
-**different Request ID**, each says **Request Type: OPT_OUT**, all are keyed to
-the same address, and they arrived like this:
+**different Request ID**, ~~each says **Request Type: OPT_OUT**~~ — *six of the
+eight say OPT_OUT and one says DELETE; see §441b, I had read three and described
+all of them* — all are keyed to the same address, and they arrived like this:
 
     2026-09-02  16:01:14    2026-09-03  18:01:18
     2026-09-02  17:01:09    2026-09-03  21:01:49
@@ -28617,3 +28618,53 @@ it.
 
 Status moved to `manual_required`. `replied` understated it: no further email is
 possible without altering the thing being asked about.
+
+### 441b. One of them said DELETE
+
+I opened all eight Choreograph notices instead of three. The full set:
+
+    03069655-…  OPT_OUT   02 Sep 16:01:14
+    7bec4676-…  DELETE    02 Sep 17:01:09
+    2c1d1041-…  OPT_OUT   02 Sep 18:01:46
+    ea69aba7-…  OPT_OUT   02 Sep 19:01:42
+    49f7f0e7-…  OPT_OUT   03 Sep 18:01:18
+    351b2c8d-…  OPT_OUT   03 Sep 21:01:49
+    6c40f96e-…  OPT_OUT   11 Sep 14:01:08
+    6f240943-…  OPT_OUT   11 Sep 15:01:21
+
+**Seven OPT_OUT and one DELETE.** So the deletion was processed, on 2 September,
+under request `7bec4676` — and I asked Choreograph whether it had been processed
+**twice**, on 3 September and again this morning, while the answer sat in the
+second of eight messages that had been in the inbox the whole time.
+
+Worse than merely not knowing: this morning's letter told them, as a stated fact
+about their own system, that *"every one carries Request Type: OPT_OUT"*. That is
+false, and it was the premise of the question. If anyone there had begun checking
+whether a deletion request was being dropped at intake, I sent them looking for a
+bug that does not exist. Corrected to them in writing, leading with the
+correction rather than burying it.
+
+**The mechanism, and it is the third instance this week.** I read three of eight
+messages, found OPT_OUT in all three, and described all eight. §434a: the
+analysis found seventeen rows, the action corrected seven, and the prose said
+seventeen. §440: one `curl` returned 403 and I recorded the site as permanently
+bot-walled, minutes before the script reached it. Here: three samples agreed, so
+the eighth was assumed to agree too.
+
+Each time the sample was **unanimous**, and unanimity is what makes it feel safe
+to stop looking. Three for three is the most persuasive possible evidence short
+of checking, and it is worth nothing when the population is eight and the whole
+question is whether one of them differs. The cost of opening the other five was
+about ninety seconds.
+
+**What survives.** The duplication is untouched: eight distinct request IDs, all
+at one minute past the hour, at most two submissions — six separate OPT_OUT
+records for one person. And both remaining questions survive, because no
+completion notice of either type addresses them: whether the opt-out is standing
+against future ingests, and whether the §1798.121 limit-use request on precise
+geolocation and reproductive health care data — categories Choreograph's own
+California registrations answer **yes** to — was ever received.
+
+The row keeps a DELETE completion against it now, which is genuinely better than
+it looked this morning. It is still a machine event with no statement of scope,
+so the status stays where it is (§403).
