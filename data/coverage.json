@@ -31,6 +31,11 @@
    "why": "own item [form]"
   },
   {
+   "id": "buildertrend",
+   "status": "manual_required",
+   "why": "own item [form]"
+  },
+  {
    "id": "buxton",
    "status": "manual_required",
    "why": "own item [click]"
@@ -231,6 +236,11 @@
    "why": "own item [form]"
   },
   {
+   "id": "health_union",
+   "status": "email_pending",
+   "why": "own item [verify]"
+  },
+  {
    "id": "healthlink_dimensions",
    "status": "email_pending",
    "why": "own item [email_pending]"
@@ -282,6 +292,11 @@
   },
   {
    "id": "lightbox_parent_l_p",
+   "status": "manual_required",
+   "why": "own item [form]"
+  },
+  {
+   "id": "hubspot",
    "status": "manual_required",
    "why": "own item [form]"
   },
@@ -393,19 +408,7 @@
  ],
  "no_coverage_found": [
   {
-   "id": "buildertrend",
-   "status": "manual_required"
-  },
-  {
-   "id": "health_union",
-   "status": "email_pending"
-  },
-  {
    "id": "no",
-   "status": "manual_required"
-  },
-  {
-   "id": "hubspot",
    "status": "manual_required"
   },
   {
