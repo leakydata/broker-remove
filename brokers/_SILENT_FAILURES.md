@@ -28164,3 +28164,40 @@ claimed. Zero is not a claim that every route is known; it is a claim that every
 row whose status says a person must act now names the person's task or has been
 corrected to say otherwise. That is a much smaller statement, and it is the one
 that can actually be checked.
+
+### 431a. The third one, and the circle closes
+
+Names and Facts, 11 September:
+
+> *"To remove your information we need the exact profile page URL — the page
+> that shows that specific person on namesandfacts.com. A name on its own can
+> match many different people, so we cannot identify the correct record without
+> it."*
+
+Third company in three days with the same demand (§431). Two things make this one
+worth adding rather than filing as a repeat.
+
+**The original letter had already answered it.** That letter *led* with the
+listing-URL question and explained why it could not be satisfied:
+namesandfacts.com sits behind a bot challenge — the same reason the §214b
+classifier returned an unread null for this domain. So they cannot act without a
+URL, and their own site prevents the consumer from obtaining one. The template
+asks for the one thing the letter had already shown to be unobtainable, which
+closes the circle completely: **a request that cannot be made, refused for
+failing to contain the thing the refusal makes impossible.**
+
+**And it is not one platform.** USPhoneLookup and SearchPeopleFree answered
+eighty-six seconds apart with byte-identical letters, which looked like shared
+infrastructure and probably is. Names and Facts is not part of it — the three
+use three different mail providers (self-hosted, Microsoft, Google). So the URL
+demand was arrived at independently. It is not a quirk propagating through one
+operator's brands; it is **an industry convention**, and that changes what it
+means. A convention is what an industry adopts because it works for the
+industry — and this one works by moving the identification burden onto the only
+party who cannot discharge it.
+
+The reply supplied every field except the URL, restated the bot challenge, gave
+the three structural reasons from §431, and asked two questions about their own
+`/do-not-sell-my-info` form before committing to it: does it also require a
+profile URL, and is it reachable without passing the challenge? Both are dead
+ends worth learning from them rather than discovering.
