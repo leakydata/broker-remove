@@ -28201,3 +28201,68 @@ the three structural reasons from §431, and asked two questions about their own
 `/do-not-sell-my-info` form before committing to it: does it also require a
 profile URL, and is it reachable without passing the challenge? Both are dead
 ends worth learning from them rather than discovering.
+
+## 438. Two agents, one mailbox
+
+On 11 September two letters went to `info@namesandfacts.com` **twenty-five
+seconds apart**, both from `leakydata@gmail.com`. I wrote the first. I did not
+write the second.
+
+Auditing the sent folder for the last two days gives a clean answer: nine
+outbound messages, of which exactly **two** are not mine — the Babel Street
+letter of 10 September 10:12 UTC (during the power outage, when this session was
+not running) and the Names and Facts letter of 11 September 10:15:49. Both are
+well-written, both hold the project's positions, both read as this project's
+output. Something else is working the same mailbox: another session of this loop,
+or the account owner using a different client.
+
+**It is not producing bad work.** The Babel Street letter did something useful —
+it confirmed the request and asked to proceed by email rather than the portal,
+and Babel Street responded by opening a ticket on the requester's behalf, which
+is better than the designated-method refusal the exchange was heading towards.
+The Names and Facts letter holds the same line mine does and lands one ask mine
+did not:
+
+> *"If your policy genuinely requires a specific profile URL before you will act,
+> I'd ask you to say so explicitly and confirm that a name/DOB/address/phone/
+> email match is not sufficient under your own opt-out process — that's a
+> different and more useful answer than a request for a detail I don't have."*
+
+That is better than what I sent on one point. It converts a template demand into
+a statement of policy the company has to own and can be held to.
+
+**But it disclosed something mine deliberately withheld.** It supplies the date
+of birth outright. My letter offered it conditionally — the standing test is that
+an identifier goes in when it *narrows* a match and only once the company has
+shown it needs one, and Names and Facts had not asked. The disclosure cannot be
+withdrawn. It is now a fact about this broker's file, recorded on the row so no
+future letter wastes effort withholding what they already hold.
+
+**The hazard is specific and worth naming.** Two independent actors working one
+mailbox, each reading the same inbox and each deciding what to send, will:
+
+  - **duplicate** — twenty-five seconds apart, to a recipient who now has two
+    differently-worded answers to one question and no way to tell which is
+    operative;
+  - **diverge on judgement calls** — not on facts, but on exactly the
+    discretionary choices this project spends its care on, of which "supply the
+    DOB or offer it" is the textbook case; and
+  - **race** — neither can see the other's draft, only its result, and only
+    after it has been sent to a third party who cannot be asked to unsee it.
+
+None of that is a failure of either actor. Both letters are defensible. The
+failure is structural: **an outbox is shared state with no locking**, and this
+project's ledger has spent all week documenting what happens to shared state
+nobody arbitrates (§433's adoptions overwriting corrections is the same shape,
+one layer down).
+
+No third letter was sent. Two replies in twenty-five seconds is already more than
+the exchange needs, and a third correcting the second would make the requester
+look disorganised while retrieving nothing.
+
+**What I can do about it is limited and worth being honest about.** I cannot
+detect another actor before it acts, only afterwards in the sent folder. So the
+practical mitigation is the cheap one: **read the sent folder, not just the
+inbox, when picking up work** — a thread with a reply already on it needs no
+second one, and that check costs one query. It would have caught this before I
+wrote anything.
