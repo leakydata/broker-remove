@@ -27708,3 +27708,79 @@ entirely unjustified at the same time, and only the second of those is visible
 when you go looking. The figure is now worth the same and means something
 different: before it counted a word in my own prose, now it counts a message
 from the company.
+
+## 433. The correction that lasted a day
+
+124 rows in this ledger carry a note in this shape:
+
+> *"Adopted from the shared ledger: another agent recorded 'submitted' on
+> 2026-08-28. No detail is carried across — re-read the broker's own reply
+> before relying on this."*
+
+That sentence is honest about its own thinness, which is why it was written that
+way. But two of those adoptions did something worse than arrive thin: **they
+silently reversed a correction that had already been made.**
+
+**Versium.** Confirmed on 20 August. Downgraded on 27 August, with evidence: the
+"confirmation" was an autoresponder that fired *three seconds* after the letter
+and said *"We have processed your request to optout/delete your record"* — while
+a human at the same company wrote a week later, *"If we do not receive a reply to
+this email within 10 days, we will process the opt-out request."* Future tense.
+It had not been processed. The downgrade was correct and carefully reasoned.
+
+On 28 August the row was set back to `confirmed` by an adoption citing the
+**20 August record** — the very state the correction had overturned.
+
+**Plunge Digital.** Confirmed on 28 August with an empty note. Regressed on
+30 August by the terminal-status-needs-a-note check (§200/§201), which found the
+confirmation covered one of four rights. Set back to `confirmed` **the same
+day**, by a second adoption citing the same stale 28 August record.
+
+Both corrections were deliberate, evidenced, and written up. Both were gone
+within hours to a day, and the ledger showed `confirmed` for a fortnight
+afterward. Nothing was concealed — every step is in the history — but the
+**current** status, which is what everything reads, was wrong in both cases.
+
+**The mechanism is the finding.** An adoption asks *"what did the other ledger
+say?"* and never asks *"has this row moved since?"* A status can only be
+correctly adopted when the local row has no later, better-evidenced history — and
+neither of these did. A merge that always prefers the other side is not a merge,
+it is an overwrite with extra steps, and it is at its most dangerous precisely
+where someone has just done careful work, because careful work is what creates a
+local state worth keeping.
+
+It also explains something that had looked like a coincidence: these two rows are
+the only ones in the project where a `confirmed` was regressed and then returned
+to `confirmed` without new evidence. They are not two odd cases. They are the two
+rows where a correction happened to land in the window before an adoption ran.
+
+**Both corrected, and the real answers were sitting unread.**
+
+Plunge Digital wrote on 1 September, ten days ago, and the row was never updated:
+
+> *"The remaining portions of your request, including your request for deletion
+> and your requests concerning responsive records and disclosures, are being
+> evaluated and processed separately. Receipt of an opt-out request and
+> completion of that portion of a request do not necessarily constitute
+> completion of other privacy rights that may have been asserted in the same
+> communication."*
+
+That is §198's per-right split stated by the company, unprompted, and it is the
+clearest articulation of it the project has had from anyone. Opt-out and
+suppression are done; deletion and third-party direction are expressly still
+open, with a written response promised. The row is now `suppressed`, which is
+what that describes — `confirmed` would assert a deletion they have explicitly
+not yet made.
+
+Versium's ten-day clock expired on 6 September with no further word. Chased
+today, quoting their own sentence back, with the opt-out severed from every other
+question so that nothing about affidavits or access can hold up the removal —
+and with two suggestions that are about their process rather than my case: change
+*"we have processed"* to *"we have received"* in the autoresponder so it stops
+contradicting the humans, and clarify that a reply suspends only the access
+portion. As written, their message means **silence triggers the opt-out and
+replying suspends it**, so the consumer who engages is worse off than the one who
+ignores them.
+
+`confirmed` falls from 71 to 69. Two of the project's confirmed deletions were
+confirmations of nothing, and both had already been caught once.
