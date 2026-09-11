@@ -28509,3 +28509,56 @@ cycle rather than a reply to it, and the mechanism is no longer in question: an
 hourly scheduled job, emitting a fresh request record each time. Eight completed
 records, from at most two submissions, for one person. The write-up above was
 composed while the thing it describes was still running.
+
+
+## 442. A completion notice from a mailbox that was never there
+
+Greenhouse completed a deletion request today and told me so from
+`dsr@greenhouse.io`. I replied with two questions. It bounced in seconds:
+
+> *550 5.1.1 The email account that you tried to reach does not exist. Please try
+> double-checking the recipient's email address for typos or unnecessary spaces.*
+
+Not "unmonitored". Not "no longer in use". **The address does not exist**, and
+never did as a mailbox — the rejection is at the SMTP layer, before anything
+could have read the message.
+
+§283 recorded Accurate Append's `optout@` mailbox sending a personalised
+confirmation naming the four identifiers it had processed, then auto-replying to
+the follow-up that the address was not monitored. That was a one-way channel, and
+bad enough. This is the complete version: **there is nothing behind the address
+at all, so not even an auto-reply can tell you so.** The bounce comes from
+Google, not from Greenhouse, and it offers no alternative address.
+
+The consequence is narrow and total. A person is told their deletion is
+complete — with no reference number, no statement of what was found, and no
+scope — and the only reply path leads nowhere. Anyone who thinks the outcome is
+wrong, or simply wants to know whether they were ever in the system, is stopped
+silently. I got past it only because I happened to hold a second address from the
+original ticket fifteen days earlier.
+
+**The scoping question this hides is the important one.** Greenhouse is an
+applicant tracking system: most personal data in it is *candidate* data held for
+employer customers, as a processor. A deletion of what Greenhouse holds as a
+controller — marketing, prospects, analytics — is a legitimate and much smaller
+thing than deleting candidate records, and the notice does not say which it
+means. **A completion that does not state its scope reads as the larger answer
+while possibly delivering the smaller**, and the address that could have resolved
+it is a 550.
+
+Resent to `privacy@greenhouse.io`, leading with the bounce as a defect report.
+The fix costs them nothing: make `dsr@` receive, or add one line to the notice
+naming an address that does.
+
+### 441a. No ninth, and I am not calling that a stop
+
+Choreograph's eighth notice arrived at 15:01:21. Nothing came at 16:01, checked
+at 16:07.
+
+On 3 September I wrote that the notices had come *"exactly hourly, then
+stopped"*, and that was wrong within hours. So the honest statement is the narrow
+one: **as of 16:07 on 11 September the run stands at eight and no ninth has
+arrived**, and whether the cycle has ended or is merely irregular is not
+something one missing tick can establish. Recorded that way so the next pass does
+not read silence as resolution — which is, after all, the failure this entire
+file is about.
