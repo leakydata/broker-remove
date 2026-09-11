@@ -21,10 +21,13 @@ from collections import Counter
 TICKET = re.compile(
     r"\b(?:ticket|case|ref(?:erence)?|request|confirmation|rma|sr|inc)\s*"
     r"(?:number|no\.?|id|#)?\s*[:#]?\s*[A-Z0-9][A-Z0-9-]{4,}\b", re.I)
-REPLIED = re.compile(
-    r"\breplied\b|\breply\b|\bthey (?:said|wrote|answered|confirmed|told)\b|"
-    r"\bauto[- ]?repl|\backnowledg|\bconfirmed by\b|\banswered\b|"
-    r"\bresponded\b|\btheir (?:reply|answer|response)\b|"
+# A REPLY THE COMPANY DEMONSTRABLY SENT. Every alternative here names the
+# other party or quotes them speaking, so none of it can match a note about
+# something WE did.
+THEIRS = re.compile(
+    r"\bthey (?:said|wrote|answered|confirmed|told|replied)\b|"
+    r"\btheir (?:reply|answer|response)\b|"
+    r"\bauto[- ]?repl|\backnowledg|\bconfirmed by\b|\bresponded\b|"
     r"\bwe (?:have )?(?:received|completed)\b|"
     # a company speaking in the first person plural, quoted back into the note.
     # These were missed on the first pass and four `confirmed` rows that quote
@@ -32,8 +35,20 @@ REPLIED = re.compile(
     r"\bwe (?:have|had|are|do not|don't|located|deleted|checked|agree|confirm)\b|"
     r"\bwe(?:'ve| have) (?:added|processed|removed|suppressed)\b|"
     r"\bour systems\b|\bcompletion email|\bhas been completed\b|"
-    r"\bunable to (?:locate|find)\b|\bno (?:records?|match|data) (?:were |was )?found\b",
+    r"\bunable to (?:locate|find)\b|\bno (?:records?|match|data) (?:were |was )?found\b|"
+    # "<address> replied" / "<Company> replied" -- an address or capitalised
+    # name immediately before the verb names the sender
+    r"[\w.@-]+@[\w.-]+ replied\b|\b[A-Z][\w]+ replied\b",
     re.I)
+
+# THE SAME WORD WITH NOBODY ATTACHED TO IT. "Replied asking them to drop the
+# state qualifier" is a note about OUR letter; "replied with an enumerated
+# denial" is a note about THEIRS. The word does not encode who, and this
+# project's own note convention writes "REPLIED 2026-09-10 with four
+# questions" to mean the loop replied -- so a bare match is evidence that
+# SOMEBODY wrote something, and nothing more. It gets its own bucket rather
+# than being counted as the company corroborating anything. See SF 432.
+AMBIGUOUS = re.compile(r"\breplied\b|\breply\b", re.I)
 
 # a sentence quoted from the company is itself evidence something came back
 QUOTED = re.compile(r"[\"'‘’“”][^\"'‘’“”]{25,}"
@@ -72,12 +87,27 @@ def classify(rec):
         return "corroborated", "reference or confirmation recorded"
     if TICKET.search(note):
         return "corroborated", "ticket or case number in note"
-    if REPLIED.search(note):
-        return "corroborated", "reply described in note"
+    # QUOTED FIRST. A sentence in the company's own words is stronger evidence
+    # than the word "replied", and when both are present the stronger reason is
+    # the one worth recording -- the explanation is read by a human deciding
+    # whether to chase, so it should name the best thing available.
     if QUOTED.search(note) and re.search(r"\bwe\b|\bour\b|\byour (?:request|data|information)\b",
                                         note, re.I):
         return "corroborated", "company sentence quoted in note"
+    if THEIRS.search(note):
+        return "corroborated", "reply described in note"
+    if AMBIGUOUS.search(note):
+        return "attributed", "a reply is described but the note does not say whose"
     if BOUNCE.search(note):
+        # "the only thing that came back was a bounce" has to actually be true.
+        # leadership_connect bounced on privacy@leadershipconnect.io AND got
+        # "This is a duplicate optout request." out of the web form -- two
+        # routes, one dead and one that answered. It scored adverse because
+        # BOUNCE matched and the QUOTED branch above requires a we/our/your
+        # nearby, which that sentence does not contain. A quoted sentence of
+        # any kind means the bounce was not the only thing. See SF 432.
+        if QUOTED.search(note):
+            return "corroborated", "a bounce on one route, a quoted answer on another"
         return "adverse", "the only thing that came back was a bounce"
     if SELF_VERIFIED.search(note):
         return "self-verified", "checked directly rather than taken on their word"
@@ -102,7 +132,7 @@ def main():
 
     total = len(rows)
     print(f"status = {want}   ({total} rows)\n")
-    for b in ("corroborated", "self-verified", "weak", "adverse",
+    for b in ("corroborated", "attributed", "self-verified", "weak", "adverse",
               "uncorroborated"):
         n = buckets.get(b, 0)
         if not n:

@@ -27592,3 +27592,77 @@ shared hosting as shared ownership). The SearchPeopleFree letter says so and
 asks the question that follows: does a removal here cover the siblings on the
 same platform, or does each need its own request? Better to ask now than to
 discover in a month that one of several was closed.
+
+## 432. The word "replied" does not say who replied
+
+Redmob answered my four questions at 23:31:43 on 10 September, four seconds
+after I sent them. The entire message body was:
+
+    <div dir="ltr"><br></div>
+
+Nothing. Not an autoresponder — an autoresponder has text. A blank reply,
+threaded correctly, from the privacy address, arriving faster than anyone could
+have read the letter. Most likely a mail client firing on a notification. I
+wrote back in three lines saying it had arrived empty and to resend if something
+was meant to be there, which costs nothing and recovers a real answer if one was
+lost.
+
+Then the useful part: **would anything in this project have noticed?**
+
+`corroboration.py` sorts every row by how much of its status rests on the
+company rather than on our own outbox. Its `REPLIED` pattern began:
+
+    r"\breplied\b|\breply\b|\bthey (?:said|wrote|answered...)"
+
+A bare `\breplied\b` matches a note saying the company replied. It also matches
+a note saying **we** replied — and this project's own note convention is to
+write *"REPLIED 2026-09-10 with four questions"* to mean the loop replied. The
+word carries no subject. An empty message, or no message at all, scores the same
+as a substantive answer, as long as the note contains six letters.
+
+I tried to measure how many rows were affected and **the audit had the same
+defect as the thing it was auditing.** My "ours" pattern flagged ten rows; on
+reading them, most were sound — *"replied with an enumerated denial"*, *"Venntel
+replied 2026-09-02"*, *"privacy@windfall.com replied 2026-08-31"* all describe
+the company. Two detectors, both reaching for the same ambiguous word, both
+unable to resolve it. So no count is reported for that attempt, per §410.
+
+**The fix was to stop making the word decide.** `THEIRS` now requires something
+that names the other party or quotes them speaking — *they said*, *their reply*,
+*auto-reply*, a company's first-person plural, or an address or capitalised name
+immediately before the verb. A bare *replied* or *reply* with nobody attached
+gets its own bucket, **`attributed`**: *a reply is described but the note does
+not say whose*. It is no longer counted as the company corroborating anything.
+
+    submitted   corroborated 47.3% -> 42.7%,  attributed 3.5%
+    confirmed                92.8% -> 88.7%,  attributed 4.2%
+    not_found                93.9% -> 90.1%,  attributed 2.8%
+
+Around three to five points in every status was resting on a word that does not
+mean what the classifier took it to mean.
+
+**And a correction in the other direction, found in the same pass.** One
+`confirmed` row scored `adverse` — *"the only thing that came back was a
+bounce"* — which is a serious-sounding label, so I opened it. Leadership Connect
+bounced on `privacy@leadershipconnect.io` **and** got this out of their web
+form:
+
+> *"This is a duplicate optout request."*
+
+Two routes, one dead and one that answered. The row scored adverse because
+`BOUNCE` matched and the quoted-sentence branch above it requires a *we / our /
+your request* nearby, which that sentence happens not to contain. The reason
+string was not merely imprecise, it was **false**: the bounce was demonstrably
+not the only thing that came back. Narrowed so that any quoted sentence defeats
+the adverse verdict. Fifteen rows moved out of `adverse`.
+
+The two corrections run in opposite directions — 29 rows out of `corroborated`,
+15 rows out of `adverse` — which is the reassuring shape. A classifier drifting
+one way is usually wrong in one way; one that was wrong in both directions was
+just imprecise, and the imprecision came from the same place both times:
+**a pattern matching a word instead of a fact.** "Replied" is a word. "They
+wrote, and here is the sentence" is a fact. §389, §408, §424, §427 and §428 were
+all this, and this one is the version that got into the measurements rather than
+into a route verdict — which is worse, because a bad route verdict is discovered
+the next time someone clicks it, and a bad corroboration figure is discovered
+never.
