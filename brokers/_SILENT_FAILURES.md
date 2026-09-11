@@ -28501,3 +28501,11 @@ completion at all.
 
 Seven machine notices, three unanswered questions, and status held at `replied`.
 A portal completion is a machine event, not substance (§403).
+
+**Postscript, forty minutes later: an eighth.** It arrived at **15:01:21** —
+exactly one hour after the seventh, at `:01` again, and twenty-eight minutes
+*after* the letter describing the pattern was sent. So it is the next tick of the
+cycle rather than a reply to it, and the mechanism is no longer in question: an
+hourly scheduled job, emitting a fresh request record each time. Eight completed
+records, from at most two submissions, for one person. The write-up above was
+composed while the thing it describes was still running.
