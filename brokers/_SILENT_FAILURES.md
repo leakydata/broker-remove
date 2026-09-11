@@ -28444,3 +28444,60 @@ Declined both, did the opt-out, and asked the one question a cookie cannot
 answer: can a do-not-add suppression be recorded against the person, with no
 identifier, so a future partner feed creates nothing. An explicit no offered as
 a complete answer.
+
+## 441. Seven completions, all at one minute past the hour
+
+Choreograph's consumer preference portal has now sent seven notices saying
+*"Your privacy request has been completed successfully."* Each carries a
+**different Request ID**, each says **Request Type: OPT_OUT**, all are keyed to
+the same address, and they arrived like this:
+
+    2026-09-02  16:01:14    2026-09-03  18:01:18
+    2026-09-02  17:01:09    2026-09-03  21:01:49
+    2026-09-02  18:01:46    2026-09-11  14:01:08
+    2026-09-02  19:01:42
+
+**Every one at one minute past the hour.** A person submitting a form does not
+do that. A scheduled job does — and combined with distinct request IDs the
+natural reading is that something creates a *new* opt-out record and completes
+it on a cycle, rather than re-notifying about one record.
+
+On 3 September, working from the first four, I put both explanations to them
+without choosing: either something on my side had submitted repeatedly, in which
+case the fault was mine and I wanted to know, or one submission was producing
+records on an hourly cycle. That even-handedness was right at four samples. At
+seven, spread over ten days and all landing at `:01`, it is no longer balanced —
+at most two submissions were made, on two days, at times that were not one
+minute past any hour.
+
+**What I got wrong, and it is the same shape as everything else this week.** The
+3 September entry said the four notices arrived *"exactly hourly, then stopped"*.
+The first clause was right. The second was wrong within hours — two more arrived
+that same evening, and a seventh eight days later. I wrote "then stopped" because
+they had stopped *as of the moment I looked*, and recorded a property of my
+observation window as a property of the system. Checked from the mailbox this
+time rather than from my own note, which is how the other three appeared.
+
+**Why it matters, and it is not the emails.** Seven duplicate notices are a
+nuisance and nothing more. The question is what they imply about the queue behind
+them: if one person's request has produced seven *completed* records, then either
+their completion reporting overstates the work by some multiple, or there are
+seven rows where there should be one. **A requester cannot see either**, and
+neither can the company from the sending side — the only evidence is a recipient
+keeping timestamps, which nobody does.
+
+That is the inverse of the usual failure here. §148 and §425 are routes that look
+like remedies and are not. This is a remedy that reports *more* success than
+happened, and the over-reporting is as invisible as the under-delivery.
+
+**And the substantive questions remain unanswered through all seven.** Every
+notice says `OPT_OUT`; the original letter asked for deletion *and* opt-out, and
+the intake may simply take one request type per submission and drop the second
+right rather than rejecting it. Whether the opt-out is standing against future
+ingests is unanswered. And a §1798.121 limit-use request — built on Choreograph's
+own California registrations, which answer **yes** to precise geolocation and
+**yes** to reproductive health care data — is not addressed by an opt-out
+completion at all.
+
+Seven machine notices, three unanswered questions, and status held at `replied`.
+A portal completion is a machine event, not substance (§403).
