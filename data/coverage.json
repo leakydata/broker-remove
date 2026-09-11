@@ -231,6 +231,11 @@
    "why": "own item [form or route discovery]"
   },
   {
+   "id": "greenhouse_software",
+   "status": "manual_required",
+   "why": "own item [id]"
+  },
+  {
    "id": "grin_technologies",
    "status": "manual_required",
    "why": "own item [form]"

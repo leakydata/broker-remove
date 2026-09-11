@@ -28712,3 +28712,57 @@ So the rule is narrower and more useful than "always check everything":
 That also explains why the failure felt safe at the time. Seven of eight snippets
 looked identical, and they *were* identical — over the region the snippet covers.
 The uniformity was real and it was uniformity of the wrong thing.
+
+## 444. The processor nil
+
+Two companies in one day returned a nil that is true, carefully arrived at, and
+much narrower than the question asked — and in both the narrowing is invisible
+from outside.
+
+**Greenhouse** (§442, §443) completed a deletion and said so in eight words. But
+Greenhouse is an applicant tracking system: the large majority of personal data
+in it is candidate data held **for employer customers**, as a processor. A
+deletion of what Greenhouse holds as a controller — marketing, prospects,
+analytics — is a legitimate and very much smaller thing, and the notice does not
+say which it means.
+
+**Leidos** searched *"our databases, including our marketing database, searching
+for your name and email address"* and found nothing. But the letter had said
+plainly what it was about:
+
+> *"I believe any record here would exist because I contacted a congressional or
+> government office that uses Intranet Quorum for constituent correspondence
+> management, not because I have any direct relationship with Leidos."*
+
+Intranet Quorum is constituent-correspondence software. If a member of Congress
+holds correspondence from someone, it lives in **that office's instance**, where
+Leidos is a processor acting on the customer's instruction. A thorough search of
+Leidos's own marketing database returning nothing is entirely consistent with a
+constituent record existing in a customer tenant. **The answer and the question
+never met**, and neither party noticed, because each was using "your personal
+information" to mean a different set.
+
+**Why this is a distinct failure and not just ambiguity.** A nil result is the
+one outcome this project treats as closing a matter — §430 records accepting
+several with thanks. It is also the cheapest outcome for a company to produce
+honestly. Put those together and the processor nil becomes structurally stable:
+the company searches what it controls, reports truthfully, closes the ticket, and
+the requester files a clean negative. Nobody lies and nobody checks, because
+there is nothing to check — the failure is that the two scopes were never named.
+
+**What to ask instead**, and it is one sentence rather than an argument:
+
+> Does this cover only data you hold as a **controller**, for your own purposes —
+> or also data you hold as a **processor**, for your customers?
+
+Put to Leidos as an either/or, with the second branch stated as fully acceptable:
+either they can confirm whether a customer instance holds a record, or they
+cannot search one without that customer's instruction — in which case say so
+plainly, and say whether a constituent has any route at all to discover which
+offices' instances they appear in. The point of offering the refusal as an
+acceptable answer is to prevent the third outcome, where a request is neither
+answered nor refused because two scopes were in play at once.
+
+Neither company did anything wrong. **The word "completed" carries a scope that
+only the company can see**, and until someone asks, both readings of it are
+sincere.
