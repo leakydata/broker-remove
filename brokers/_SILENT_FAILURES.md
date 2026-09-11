@@ -28266,3 +28266,68 @@ practical mitigation is the cheap one: **read the sent folder, not just the
 inbox, when picking up work** — a thread with a reply already on it needs no
 second one, and that check costs one query. It would have caught this before I
 wrote anything.
+
+## 439. One suppression, four brands, and they do not agree
+
+The first re-verification run since the confirmations went in. Nine public
+listings, read-only, one query each — the same search a stranger could run.
+
+    LISTED       truthfinder          a cluster containing CARLISLE, PA
+    NAME-ONLY    instantcheckmate     name page exists, subject's city absent
+    UNCLEAR      governmentregistry_org, search_quarry
+    HTTP-403     checkpeople, radaris, whitepages
+    HTTP-404     idstrong, ussearch
+
+Two of those rows are the same suppression. On 27 August PeopleConnect applied
+one action across **Intelius, InstantCheckmate, TruthFinder and USSearch**.
+InstantCheckmate now returns a name page with the subject's own city absent —
+the suppression working exactly as intended. TruthFinder publishes a cluster
+whose locations include Carlisle.
+
+**Whether that is a failure is genuinely undecided, and this entry is not going
+to decide it.** The captured excerpt reads:
+
+> *"Nathan Jones Bradford, ME 47 Years Old Locations Include: Bradford, ME
+> Shermans Dale, PA Carlisle, PA Lehi, U…"*
+
+Carlisle is the subject's city, which is what tripped the locality test. Bradford
+Maine is not, and earlier analysis of the same-named cluster on Radaris
+identified a Bradford ME Nathan Jones aged 47 and a Shermans Dale PA Nathan Jones
+(deceased) as **not** the subject. Age separates nothing — the subject is also
+47. §409 exists precisely because a name and a town were once enough to record a
+listing that was not there, and the same restraint applies in the other
+direction.
+
+The page cannot be re-read: `truthfinder.com` now returns a Cloudflare *"Just a
+moment"* 403 to a scripted fetch. So it is queued with a test that actually
+decides it. **The subject's address history is the discriminator** — sixteen
+addresses, nearly all in one narrow band of Pennsylvania. Several of Waynesboro,
+State College, Shippensburg, Philipsburg, Bellefonte, Blue Ridge Summit,
+Hagerstown MD or Mobile AL means it is him. Carlisle and Shermans Dale amid
+Maine, Utah and Indiana means it is not.
+
+**If it is him, the finding is much larger than one row**, and PeopleConnect's
+own words make it mechanically plausible:
+
+> *"background reports are compiled in real time via live calls to data
+> providers… Because we don't retain reports, we cannot delete them."*
+
+A display suppression keyed to one identity cluster does not catch the same
+person's data arriving inside a different cluster. The four brands share a
+suppression but not necessarily a clustering — and a consumer told "applied
+across all four in one action" has no way to learn that the action means four
+different things downstream. It would also mean the strongest confirmation in the
+people-search cohort is partial, eleven days after it was given.
+
+**Two smaller things from the same run, both about method.**
+
+InstantCheckmate's NAME-ONLY was written to the ledger as a *positive* result.
+A re-verification that only records failures cannot tell you whether the check
+itself still works — a run of silence is indistinguishable from a run of
+breakage. The passing case is evidence and belongs in the file.
+
+And five of the nine could not be read at all: three 403s, two 404s. The 404s on
+`idstrong` and `ussearch` are URL rot rather than absence, and the 403s are bot
+walls. So **this run verified two rows out of nine** and the other seven are
+unknown — which is the honest headline, and not the one a glance at "1 LISTED"
+would give.
