@@ -15,7 +15,7 @@
    will only hinder the opt-out process."* Fill everything, including middle name.
 4. Confirmation page + confirmation email. **3 days** to full removal.
 
-Same two-stage shape as PeopleFinders — see `brokers/peoplefinders.md`, whose
+Same two-stage shape as PeopleFinders — see `brokers/p/peoplefinders.md`, whose
 pre-filled-name trap is worth re-reading before doing this one.
 
 ## Gotchas

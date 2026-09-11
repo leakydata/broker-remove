@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-30)
-- Note: 2026-08-30 Sent the B2B/PROSPECTING variant to privacy@smarteprivacy.com. Declined the LinkedIn URL and work-email fields proactively (named the reasoning: sending one that isn't already on file creates a link that didn't exist) rather than waiting for them to ask, per the Cognism lesson recorded 2026-08-30 in brokers/cognism.md.
+- Note: 2026-08-30 Sent the B2B/PROSPECTING variant to privacy@smarteprivacy.com. Declined the LinkedIn URL and work-email fields proactively (named the reasoning: sending one that isn't already on file creates a link that didn't exist) rather than waiting for them to ask, per the Cognism lesson recorded 2026-08-30 in brokers/c/cognism.md.
 
 ## Steps
 

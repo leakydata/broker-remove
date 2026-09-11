@@ -4674,7 +4674,7 @@ Worth being precise, because the risk sounds worse than it is:
 
 ### Resolving the overlap
 
-Both sessions had written `brokers/datafy.md`. Theirs was the better file: they
+Both sessions had written `brokers/d/datafy.md`. Theirs was the better file: they
 made the send, and their note read more precisely than my scaffold. So I took
 theirs wholesale rather than merging two descriptions of one event, and changed
 only the status line, which said `email_pending` where nothing was actually
@@ -7207,8 +7207,8 @@ the requester's control** instead. That is not pedantry: aggregate response-rate
 statistics built from these records are one of the few external measures of how the
 regime is working, and this failure mode is invisible in them by construction.
 
-**Related:** §113, `_DEFLECTIONS.md` §68, `brokers/foursquare.md`,
-`brokers/samba_tv.md`.
+**Related:** §113, `_DEFLECTIONS.md` §68, `brokers/f/foursquare.md`,
+`brokers/s/samba_tv.md`.
 
 ## §132
 
@@ -7468,7 +7468,7 @@ doing you a favour by making that answerable at all. Most do not enumerate, whic
 means most have this same gap and no way to see it.
 
 **Related:** §131 (a right gated behind a key the data outlived), `_DEFLECTIONS.md`
-§68, `brokers/peopleconnect.md`.
+§68, `brokers/p/peopleconnect.md`.
 
 ## §136
 
@@ -7676,7 +7676,7 @@ ensure that your information remains deleted", which is the suppression key said
 out loud rather than dressed up as a deletion.
 
 **Related:** §135 (a confirmation is a key list), §137 (the identical macro),
-`brokers/radaris.md`.
+`brokers/r/radaris.md`.
 
 ## §139
 
@@ -7824,7 +7824,7 @@ question, and it is queued as a handoff, because one retrieved string would unlo
 both Fog and Foursquare at once.
 
 **Related:** §131 (a right gated behind a key the data outlived), §135, §139,
-`brokers/foursquare.md`.
+`brokers/f/foursquare.md`.
 
 ## §141
 
@@ -7993,7 +7993,7 @@ forward-only; and whether the exclusion can hold a **name-plus-employer** entry,
 since an address-keyed list cannot catch a generated `first.last@employer`
 construction the subject has never owned and cannot list.
 
-**Related:** §135, §138, §140, `brokers/bookyourdata.md`.
+**Related:** §135, §138, §140, `brokers/b/bookyourdata.md`.
 
 ### Correction, forty minutes later: it was a macro after all
 
@@ -9404,7 +9404,7 @@ their CAPTCHA on the form and are obliged to honour a written request anyway —
 need to guess.
 
 The portal is a **DataGrail** Privacy Request Center, which the repo has already
-run end to end at `brokers/seamless_ai.md`: state picker defaults to Virginia,
+run end to end at `brokers/s/seamless_ai.md`: state picker defaults to Virginia,
 Pennsylvania is accepted, and the flow terminates at an hCaptcha. So the handoff
 note is precise rather than exploratory.
 
@@ -14231,7 +14231,7 @@ households suppressed on my account.
 
 Pulling the other agent's commits, the redaction gate reported two errors:
 
-    ERROR: PRIVACY LEAK brokers/email_marketing_services.md:21 contains a profile
+    ERROR: PRIVACY LEAK brokers/e/email_marketing_services.md:21 contains a profile
     value ('<forename>') - this repo is public. Redact it.
 
 *(The real message names the value. It is redacted here for the obvious reason, which
@@ -18613,7 +18613,7 @@ placeholder. Fixing them surfaced a worse variant of the same adoption.
 **62 rows in this tracker have a status that was inferred from the mere existence of
 `brokers/<id>.md` in git.** The note says so plainly:
 
-> "Adopted from a committed playbook: brokers/coresignal.md exists in git but this tracker had
+> "Adopted from a committed playbook: brokers/c/coresignal.md exists in git but this tracker had
 > nothing, so another agent acted and did not publish a ledger entry. **Status is a floor, not a
 > finding.**"
 
@@ -23156,7 +23156,7 @@ not about me. It was that he deregistered in California in 2024, the register
 correctly reflects the lapse, and the 2024-vintage commercial copies made from
 that register do not and never will — so a wound-down business keeps receiving
 removal requests it has no list to act on. This repository was one of those
-copies. `brokers/emerges_com.md` now opens with the cessation, his answer, and an
+copies. `brokers/e/emerges_com.md` now opens with the cessation, his answer, and an
 instruction not to send the company anything.
 
 That is a general defect, not an eMerges one. **A broker directory has an
@@ -23346,7 +23346,7 @@ could not leave the value sitting in the working tree. The old gate would have
 passed that file.
 
 Two occurrences of the same address were already committed, in
-`brokers/openpeoplesearch.md` and in this file — both quoting it as an example of
+`brokers/o/openpeoplesearch.md` and in this file — both quoting it as an example of
 a value going missing from a batch, which is a use where the specific street was
 never the point. Both now read "a prior street address". The argument is
 unchanged, which is the test §309's rule sets for a redaction: if removing the

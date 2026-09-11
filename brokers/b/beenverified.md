@@ -9,8 +9,8 @@
 
 BeenVerified operates several sibling brands that carry the same underlying data:
 
-- **Ownerly** (property / home value) — `brokers/ownerly.md`
-- **NeighborWho** (property + neighbour reports) — `brokers/neighborwho.md`
+- **Ownerly** (property / home value) — `brokers/o/ownerly.md`
+- **NeighborWho** (property + neighbour reports) — `brokers/n/neighborwho.md`
 - **PeopleLooker**
 - **NumberGuru**
 

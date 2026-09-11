@@ -1,7 +1,7 @@
 # Contributing
 
 The most valuable thing you can contribute is a **broker playbook** — a
-`brokers/<id>.md` describing how one broker's opt-out actually works, including
+`brokers/<x>/<id>.md` describing how one broker's opt-out actually works, including
 the parts that waste people's time. Registry entries are easy; playbooks are where
 the real knowledge lives, and they're what makes the next person's removal fast.
 
@@ -27,7 +27,7 @@ manually and took notes, that's a contribution.
    ```
 
 2. Run `uv run scripts/build_registry.py` then `uv run scripts/validate.py`.
-3. Write `brokers/<id>.md` using `brokers/_TEMPLATE.md`.
+3. Write `brokers/<x>/<id>.md` using `brokers/_TEMPLATE.md`, where `<x>` is the first character of the id (digits go in `0-9/`). `scaffold_playbook.py` puts it in the right place for you.
 4. Open a pull request.
 
 ### Fields
@@ -212,7 +212,7 @@ The registry and playbooks are meant to be shared. The *person* using them is no
 `data/profile.json`, `data/removal_status.json` and `outbox/` are gitignored, but
 gitignoring the source is not sufficient on its own. The failure mode that actually
 bites is **tooling that copies text from a protected file into a tracked one** —
-a status note containing an email address, scaffolded into `brokers/<id>.md`, is
+a status note containing an email address, scaffolded into `brokers/<x>/<id>.md`, is
 laundered straight into public git history. That happened in this repo and is why
 `scripts/redact.py` exists.
 

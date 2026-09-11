@@ -55,7 +55,7 @@ written confirmation that is entirely honest and accomplishes nothing.
 | `data/brokers.json` | Generated registry. Do not hand-edit. |
 | `data/profile.json` | Your identity. **Gitignored.** Copy from `profile.example.json`. |
 | `data/removal_status.json` | Per-broker status + attempt history. **Gitignored.** |
-| `brokers/<id>.md` | Per-broker playbook: steps, selectors, gotchas. |
+| `brokers/<x>/<id>.md` | Per-broker playbook: steps, selectors, gotchas. |
 | `scripts/` | CLI tooling (below). |
 | `.claude/skills/data-broker-removal/` | Agent skill driving the workflow. |
 
@@ -126,7 +126,7 @@ removes the "which Python / which venv" problem entirely.
 | `make_optout_email.py` | Renders statutory deletion-request emails per broker. |
 | `make_protected_person_request.py` | Removal request for current/former law enforcement, judges, public officials. |
 | `queue_batch.py` | Next batch of emails to send, respecting a daily cap. |
-| `scaffold_playbook.py` | Creates `brokers/<id>.md` from registry + status data. |
+| `scaffold_playbook.py` | Creates `brokers/<x>/<id>.md` from registry + status data. |
 | `validate.py` | Schema, duplicate, dead-address and missing-playbook checks. |
 | `gate.sh` | Pre-commit gate: runs redact + validate and **exits non-zero** on failure. Run it before every commit. |
 | `redact.py` | Refuses to let personal data reach a public commit. |
@@ -186,7 +186,7 @@ Append to `data/curated_brokers.json`, then run `uv run scripts/build_registry.p
 and `uv run scripts/validate.py`. Required:
 `id`, `name`, `domain`, `priority` (1–5), `method`, `optout_url`. Find the opt-out
 URL via the site's privacy policy, `/optout`, `/removal`, or the "Do Not Sell My
-Personal Information" link in the footer. A `brokers/<id>.md` playbook alongside it
+Personal Information" link in the footer. A `brokers/<x>/<id>.md` playbook alongside it
 is worth more than the registry entry on its own.
 
 ## Caveats

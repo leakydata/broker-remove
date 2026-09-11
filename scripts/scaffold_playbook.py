@@ -26,7 +26,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from redact import redact  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
-from paths import state, outbox  # noqa: E402
+from paths import state, outbox, playbook  # noqa: E402
 REGISTRY = ROOT / "data" / "brokers.json"
 STATE = state("removal_status.json")
 ALIASES = ROOT / "data" / "playbook_aliases.json"
@@ -113,7 +113,7 @@ def scaffold(bid, reg, st):
     b = reg.get(bid) or _curated().get(bid)
     if not b:
         return f"  skip unknown broker: {bid}"
-    path = OUT / f"{bid}.md"
+    path = playbook(bid)
     if path.exists():
         return f"  keep existing: {bid}.md"
 
@@ -164,6 +164,9 @@ def scaffold(bid, reg, st):
         "<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->",
         "",
     ]
+    # the shard directory may not exist yet -- a broker id starting with a
+    # letter nothing else uses creates the first file in its bucket
+    path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text("\n".join(lines))
     return f"  wrote {bid}.md"
 
@@ -187,7 +190,7 @@ def refresh(bid, st):
     first thing a reader sees -- a file whose top says `submitted` while the
     request has since hard-bounced is actively misleading. Hand-written sections
     are never touched."""
-    path = OUT / f"{bid}.md"
+    path = playbook(bid)
     if not path.exists():
         return f"  no playbook: {bid}"
     text = path.read_text()
@@ -217,7 +220,7 @@ def main():
 
     if args.refresh:
         ids = args.ids or sorted(bid for bid in st
-                                 if (OUT / f"{bid}.md").exists())
+                                 if playbook(bid).exists())
         for bid in ids:
             print(refresh(bid, st))
         print(f"\n{len(ids)} checked")

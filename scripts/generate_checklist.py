@@ -15,7 +15,7 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-from paths import state, outbox  # noqa: E402
+from paths import state, outbox, playbook  # noqa: E402
 BLOCKED = {"captcha_blocked", "manual_required", "email_pending", "failed"}
 
 REASON = {
@@ -29,10 +29,14 @@ REASON = {
 def main():
     reg = {b["id"]: b for b in
            json.loads((ROOT / "data" / "brokers.json").read_text())["brokers"]}
+    # `status` rather than `state`: the local name used to be `state`, which
+    # shadowed the imported paths.state() helper called on the line above it
+    # and made this script fail on every run with UnboundLocalError. Pre-dates
+    # the shard migration; found while verifying it.
     state_path = state("removal_status.json")
-    state = json.loads(state_path.read_text()) if state_path.exists() else {}
+    status = json.loads(state_path.read_text()) if state_path.exists() else {}
 
-    items = [(bid, rec, reg.get(bid, {})) for bid, rec in state.items()
+    items = [(bid, rec, reg.get(bid, {})) for bid, rec in status.items()
              if rec.get("status") in BLOCKED]
     items.sort(key=lambda t: (-t[2].get("priority", 0), t[0]))
 
@@ -61,9 +65,9 @@ def main():
                 lines.append(f"- [ ] **{b.get('name', bid)}** — <{url}>")
                 if rec.get("note"):
                     lines.append(f"      - {rec['note']}")
-                pb = ROOT / "brokers" / f"{bid}.md"
+                pb = playbook(bid)
                 if pb.exists():
-                    lines.append(f"      - Playbook: `brokers/{bid}.md`")
+                    lines.append(f"      - Playbook: `{pb.relative_to(ROOT)}`")
             lines.append("")
 
     out = ROOT / "docs" / "MANUAL_CHECKLIST.md"

@@ -25,7 +25,7 @@ import argparse, json, re, sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from paths import ROOT  # noqa: E402
+from paths import ROOT, playbook  # noqa: E402
 
 STATE = ROOT / "data" / "removal_status.json"
 NOTE_RE = re.compile(r"^- Note[^:]*:\s*(.+?)(?=\n- |\n\n|\n## |\Z)", re.S | re.M)
@@ -60,7 +60,7 @@ def main():
     for bid, rec in st.items():
         if not rec.get("history") or substantive(rec):
             continue
-        pb = ROOT / "brokers" / f"{bid}.md"
+        pb = playbook(bid)
         if not pb.exists():
             no_playbook.append(bid)
             continue

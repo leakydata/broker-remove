@@ -17,7 +17,7 @@
 FamilyTreeNow and TruePeopleSearch run the same privacy-request system: identical
 form structure, identical auto-reply wording, and FamilyTreeNow's footer links to
 TruePeopleSearch.com. **The same workaround applies to both** — see
-`brokers/truepeoplesearch.md`.
+`brokers/t/truepeoplesearch.md`.
 
 Their confirmation page even leaks an unrendered template variable
 ("Thank you for sending your Context.Request"), which is a good tell that these

@@ -54,7 +54,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-from paths import state, outbox  # noqa: E402
+from paths import state, outbox, playbook  # noqa: E402
 STATE = state("removal_status.json")
 ALIASES = ROOT / "data" / "playbook_aliases.json"
 BOOKS = ROOT / "brokers"
@@ -156,16 +156,16 @@ def main():
     for bid, rec in state.items():
         if rec.get("status") == "pending":
             continue
-        path = BOOKS / f"{bid}.md"
+        path = playbook(bid)
         if not path.exists():
             # A family document may cover it. Read that instead of reporting a
             # gap that does not exist -- but audit it under this broker's own
             # events, since the shared file has to stay current for all of them.
             covered = aliases.get(bid)
-            if not (covered and (BOOKS / f"{covered}.md").exists()):
+            if not (covered and playbook(covered).exists()):
                 findings.append(("MISSING", bid, "acted on, no playbook"))
                 continue
-            path = BOOKS / f"{covered}.md"
+            path = playbook(covered)
 
         text = path.read_text()
         changed = last_changed(path)

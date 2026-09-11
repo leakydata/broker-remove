@@ -85,7 +85,7 @@ answer to everything else.
 Five were already tracked. One (LinkedIn) is a platform the subject has an
 account with rather than a broker to write to. **L2 Data was not in the registry
 at all** — a 250-million-record voter and consumer broker, surfaced only because
-a reseller was asked where its data came from. See `brokers/l2_data.md`.
+a reseller was asked where its data came from. See `brokers/l/l2_data.md`.
 
 **"We go by email addresses for all our records"** confirms the join key, and
 "we do not operate websites that collect consumer email lists" places them as a

@@ -16,7 +16,7 @@
 
 The refusal email is **word-for-word identical** to TruePeopleSearch's and
 FamilyTreeNow's, and `/privacy-rights` presents the same form. Everything in
-`brokers/truepeoplesearch.md` applies:
+`brokers/t/truepeoplesearch.md` applies:
 
 - Select **"Right to Know"**, not "Right to Delete" — Delete renders no form.
 - Context: *"I have no direct relationship with the company"*.
