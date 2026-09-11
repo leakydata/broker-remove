@@ -28815,3 +28815,44 @@ disregard that paragraph if they are not a consumer reporting agency.
 **The result is mostly reassuring and that is worth saying.** One under-scoped
 nil in seventy-one. The habit of asking *what did you search* rather than *did
 you find anything* was already established well before §444 gave it a name.
+
+### 419a. The ages inside the notes had frozen
+
+§419 put a computed clock on handoff items, so `list` prints
+`*** EXPIRED 83h ago — do not click, restart ***` rather than letting a dead
+token read as live forever. That works, and today it correctly flagged five.
+
+Opening those five to check whether their instructions still made sense showed
+the clock doing its job and the **prose** not doing its job. Each carried a
+banner written on 8 September:
+
+    *** STALE AS OF 2026-09-08 — READ THIS FIRST. This item was staged 20 days
+    ago around a 24-hour link issued 2026-08-19 18:07 UTC…
+
+The restart instructions were right and remain right. The **numbers** are wrong:
+"20 days ago" became 23, "15 days ago" became 18, "7" became 10, "5" became 8.
+A relative age is correct for exactly as long as it takes to write it down.
+
+Nothing broke, because the header clock is computed fresh each run and the
+banner's purpose — *this is stale, restart* — survives regardless. But an item
+whose header says `EXPIRED 533h` and whose body says `staged 20 days ago` is
+quietly disagreeing with itself, and the reader has no way to know which half
+was written when.
+
+Rewritten to absolute dates: *"staged on 19 August 2026"*. And the banner itself
+re-worded from `STALE AS OF 2026-09-08` — a date that will also age — to
+`STALE — THE TOKEN IT WAS BUILT AROUND IS DEAD`, which is a property of the item
+rather than of the day someone noticed.
+
+**The general form is worth keeping**, because this project writes a great deal
+of prose that outlives its moment: *a stored relative time is a stored error with
+a delay fuse*. "Three weeks ago", "recently", "still unanswered", "as of today"
+are all false eventually and none of them announces it. The fix is not vigilance;
+it is writing the absolute date and letting whoever reads it do the subtraction
+against a clock that is actually running.
+
+§441 was the same mistake in a different medium — *"exactly hourly, then
+stopped"* recorded an observation window as a property of the system. Both are
+the tense problem: **a note is written in the present and read in the future**,
+and only the parts that were true independent of when they were written survive
+the trip.
