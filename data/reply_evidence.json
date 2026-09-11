@@ -1,0 +1,153 @@
+{
+ "_what": "Did the COMPANY send us anything? Mailbox evidence for rows whose notes say a reply happened without saying whose. See _SILENT_FAILURES 432.",
+ "_method": "Gmail searched 2026-09-11 for -in:sent from:<each broker domain>, batched. A hit is an inbound message from the company's own domain. Absence is weaker than presence: a company may answer from an unrelated domain, or via a parent -- Perion answered for itself and may also cover Hivestack, which it owns.",
+ "_generated": "2026-09-11",
+ "inbound": {
+  "evorra": {
+   "sender": "privacy@evorra.com",
+   "first_seen": "2026-08-18"
+  },
+  "plunge_digital": {
+   "sender": "privacy@plungedigital.com",
+   "first_seen": "2026-08-27"
+  },
+  "versium": {
+   "sender": "optout@versium.com",
+   "first_seen": "2026-08-20"
+  },
+  "hubspot": {
+   "sender": "privacy@hubspot.com",
+   "first_seen": "2026-08-23"
+  },
+  "nfocus": {
+   "sender": "mailing@n-focus.com",
+   "first_seen": "2026-08-21"
+  },
+  "pharosiq": {
+   "sender": "Privacy@pharosiq.com",
+   "first_seen": "2026-08-20"
+  },
+  "gravy_analytics": {
+   "sender": "privacy@gravyanalytics.com",
+   "first_seen": "2026-09-01"
+  },
+  "intranet_quorum": {
+   "sender": "privacy@leidos.com",
+   "first_seen": "2026-09-01"
+  },
+  "33across": {
+   "sender": "Privacy+noreply@33across.com",
+   "first_seen": "2026-08-15"
+  },
+  "accurate_append": {
+   "sender": "support@accurateappend.com",
+   "first_seen": "2026-08-24"
+  },
+  "autoweb": {
+   "sender": "autolegal@autoweb.com",
+   "first_seen": "2026-08-24"
+  },
+  "bdo": {
+   "sender": "Privacy@bdo-gci.com",
+   "first_seen": "2026-08-19"
+  },
+  "deloitte_consulting": {
+   "sender": "DataSubjectRequest@deloitte.com",
+   "first_seen": "2026-08-26"
+  },
+  "lotame": {
+   "sender": "privacy@lotame.com",
+   "first_seen": "2026-08-30"
+  },
+  "graph8": {
+   "sender": "support@graph8.com",
+   "first_seen": "2026-08-28"
+  },
+  "foursquare": {
+   "sender": "privacy@foursquare.com",
+   "first_seen": "2026-08-18"
+  },
+  "cyberbackgroundchecks_com_advancedbackgroundchecks_com_fastb": {
+   "sender": "privacy@mtalley.zendesk.com",
+   "first_seen": "2026-08-26"
+  },
+  "mississippi_tornado_alley": {
+   "sender": "privacy@mtalley.zendesk.com",
+   "first_seen": "2026-08-26"
+  },
+  "locatefamily": {
+   "sender": "info@locatefamily.com",
+   "first_seen": "2026-08-26"
+  },
+  "cappex_com": {
+   "sender": "legal@eab.com",
+   "first_seen": "2026-08-25"
+  },
+  "crexi": {
+   "sender": "privacy@crexi.com",
+   "first_seen": "2026-08-25"
+  },
+  "buxton": {
+   "sender": "consumerprivacy@buxtonco.com",
+   "first_seen": "2026-08-25"
+  },
+  "blackbaud": {
+   "sender": "Privacy@blackbaud.com",
+   "first_seen": "2026-08-25"
+  },
+  "fastpeoplesearch": {
+   "sender": "support@fastpeoplesearch.com",
+   "first_seen": "2026-08-21"
+  },
+  "valassis_communications_inc_a_vericast_business": {
+   "sender": "Privacy@vericast.com",
+   "first_seen": "2026-09-03"
+  },
+  "usinfosearch_com": {
+   "sender": "april@usinfosearch.com",
+   "first_seen": "2026-08-31"
+  },
+  "nexxen": {
+   "sender": "egoldberg@nexxen.com",
+   "first_seen": "2026-08-30"
+  },
+  "marketing_architects": {
+   "sender": "privacy@markarch.com",
+   "first_seen": "2026-08-29"
+  },
+  "perion": {
+   "sender": "legaldsr@perion.com",
+   "first_seen": "2026-08-27"
+  },
+  "prospectbase_uk": {
+   "sender": "gareth.morris@prospectbase.com",
+   "first_seen": "2026-08-26"
+  },
+  "reversephone": {
+   "sender": "support@reversephone.com",
+   "first_seen": "2026-08-19"
+  },
+  "searchpeoplefree": {
+   "sender": "support@searchpeoplefree.net",
+   "first_seen": "2026-09-09"
+  },
+  "usphonelookup": {
+   "sender": "support@usphonelookup.com",
+   "first_seen": "2026-09-09"
+  }
+ },
+ "no_inbound_found": [
+  "coresignal",
+  "adeptid",
+  "hightouch",
+  "hivestack",
+  "classmates_com",
+  "salesassistiq",
+  "usphonebook",
+  "all_global_resources",
+  "customer_communications",
+  "ohio_resident_directory",
+  "hunter_web_services",
+  "publicinfoservices_family"
+ ]
+}

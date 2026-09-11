@@ -16,6 +16,9 @@ any status. It reports what the statuses are standing on.
 """
 import json, re, sys
 from collections import Counter
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
 
 # things that only exist if the company produced them
 TICKET = re.compile(
@@ -75,7 +78,20 @@ SENT_ONLY = re.compile(
     r"^\d{4}-\d{2}-\d{2} sent", re.I)
 
 
-def classify(rec):
+_EVIDENCE = None
+
+
+def _reply_evidence():
+    global _EVIDENCE
+    if _EVIDENCE is None:
+        try:
+            _EVIDENCE = json.load(open(ROOT / "data" / "reply_evidence.json"))["inbound"]
+        except Exception:
+            _EVIDENCE = {}
+    return _EVIDENCE
+
+
+def classify(rec, bid=None):
     note = rec.get("note") or ""
     refs = rec.get("refs") or rec.get("confirmation_ref") or ""
     hist = rec.get("history") or []
@@ -97,6 +113,15 @@ def classify(rec):
     if THEIRS.search(note):
         return "corroborated", "reply described in note"
     if AMBIGUOUS.search(note):
+        # The note says a reply happened but not whose. The mailbox can settle
+        # it: data/reply_evidence.json records, per broker, whether anything
+        # inbound ever arrived from that company's own domain. Presence is
+        # decisive; ABSENCE IS NOT, because a company can answer from an
+        # unrelated domain or through a parent, so a miss stays `attributed`
+        # rather than being demoted to uncorroborated. See SF 432.
+        ev = _reply_evidence().get(bid)
+        if ev:
+            return "corroborated", f"inbound mail from {ev['sender']} on {ev['first_seen']}"
         return "attributed", "a reply is described but the note does not say whose"
     if BOUNCE.search(note):
         # "the only thing that came back was a bounce" has to actually be true.
@@ -126,7 +151,7 @@ def main():
     buckets = Counter()
     detail = {}
     for k, v in rows.items():
-        b, why = classify(v)
+        b, why = classify(v, k)
         buckets[b] += 1
         detail.setdefault(b, []).append((k, why))
 

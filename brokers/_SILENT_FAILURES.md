@@ -27666,3 +27666,45 @@ all this, and this one is the version that got into the measurements rather than
 into a route verdict — which is worse, because a bad route verdict is discovered
 the next time someone clicks it, and a bad corroboration figure is discovered
 never.
+
+### 432a. Asking the mailbox instead of the prose
+
+The `attributed` bucket from §432 — rows whose notes say a reply happened
+without saying whose — came to 45. Rather than re-read 45 notes and guess
+better, I asked the only source that cannot be ambiguous: **did anything ever
+arrive from that company's domain?**
+
+Gmail, searched for `-in:sent from:<domain>` across all 45, batched into three
+queries:
+
+    inbound mail from the company's own domain     33
+    nothing found                                  12
+
+Written to `data/reply_evidence.json` with the sender and first-seen date per
+broker, and `corroboration.py` now consults it when the note is ambiguous. A row
+that was resting on the word "replied" now reports something checkable:
+
+    foursquare   corroborated   inbound mail from privacy@foursquare.com on 2026-08-18
+
+**Absence is deliberately not treated as evidence.** A miss leaves the row
+`attributed`, never demotes it, because a company can answer from a domain that
+looks unrelated — Leidos answered for Intranet Quorum, EAB for Cappex,
+`mtalley.zendesk.com` for two different rows — or through a parent. Perion
+answered on 27 August and owns Hivestack, whose own row shows no inbound; that
+may be one reply covering two rows rather than one row unanswered. Recorded as a
+known limitation in the file itself rather than resolved by assumption.
+
+    status       before (word)   after split   after evidence
+    submitted        47.3%          42.7%          45.3%
+    confirmed        92.8%          88.7%          93.0%
+    not_found        93.9%          90.1%          93.0%
+
+**The original numbers were about right, and they were right by accident.** That
+is the part worth keeping. Word-matching on "replied" overcounted in one
+direction and the naive fix undercounted in the other, and the honest figure
+sits between them — close enough to the original that nobody reading it would
+ever have suspected the method. A measurement can be approximately correct and
+entirely unjustified at the same time, and only the second of those is visible
+when you go looking. The figure is now worth the same and means something
+different: before it counted a word in my own prose, now it counts a message
+from the company.

@@ -30,6 +30,8 @@
   "mogean",
   "mr",
   "mrss",
+  "nfocus",
+  "pharosiq",
   "quick_people_trace",
   "realtyhop_com",
   "samba_tv",
@@ -68,10 +70,6 @@
  "weak": [
   "mightyrep",
   "usatrace"
- ],
- "attributed": [
-  "nfocus",
-  "pharosiq"
  ],
  "self-verified": [
   "npi_profile",
