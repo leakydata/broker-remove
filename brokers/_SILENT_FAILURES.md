@@ -28668,3 +28668,47 @@ California registrations answer **yes** to — was ever received.
 The row keeps a DELETE completion against it now, which is genuinely better than
 it looked this morning. It is still a machine event with no statement of scope,
 so the status stays where it is (§403).
+
+### 441c. Why the Attribits claim survived and the Choreograph one did not
+
+§441b was the third time this week I described a population from a sample. So I
+went back to the other place I had done it: §423 says Attribits sent **thirty-five
+byte-identical** replies, and I had established that from the thread listing
+rather than by opening thirty-five messages.
+
+Checked the first and last properly. Both bodies read, exactly:
+
+> *"Hello, this has been completed as requested.*
+> *This is being sent from an unmonitored mailbox."*
+
+The claim holds. The `sizeEstimate` values differ slightly across the thirty-five
+(5122–5138 bytes), which for a moment looked like a contradiction — but that is
+header variation, chiefly Message-ID length, not body.
+
+**The interesting part is why one claim survived and the other did not**, because
+the difference is mechanical and gives a rule worth keeping.
+
+Gmail's thread listing returns a **snippet** — the opening of the body. For the
+Attribits messages the entire body is eighteen words, so the snippet *is* the
+message. Thirty-five identical snippets really are thirty-five identical bodies,
+and reading the listing was reading the evidence.
+
+The Choreograph notices are longer, and the snippet cuts off at:
+
+    "…Details of the completed request are provided below. Primary Email :
+     leakydata@gmail.com Request ID :"
+
+**`Request Type` sits immediately below that cutoff.** The field the whole claim
+turned on was the one field the listing could never show, and no amount of
+re-reading the listing would have revealed the DELETE. I was not careless with
+the evidence; I had no evidence, and mistook a listing for one.
+
+So the rule is narrower and more useful than "always check everything":
+
+> **Before generalising from a listing, ask whether the field the claim depends
+> on is inside the snippet. If it is not, the listing is not evidence about it —
+> it is evidence about the part you can see, and silent about the rest.**
+
+That also explains why the failure felt safe at the time. Seven of eight snippets
+looked identical, and they *were* identical — over the region the snippet covers.
+The uniformity was real and it was uniformity of the wrong thing.
