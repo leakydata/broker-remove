@@ -27576,9 +27576,11 @@ month that costs no further query against the site.
 
 **On the date of birth, which is the interesting judgement here.** They did not
 ask for it. It was *offered* rather than volunteered: *"if a date of birth would
-help you separate my records from another Nathan Jones, say so and I will send
+help you separate my records from another man of the same name, say so and I
+will send
 it."* The standing test is whether an identifier NARROWS a match or WIDENS a
-search, and disambiguating one Nathan Jones from another is the textbook case
+search, and disambiguating one man from another of the same name is the
+textbook case
 for narrowing. But the identifier they asked for was not this one, and a company
 that has not asked has not established it needs it. Offering satisfies the test
 without adding an attribute to a file that may not need one — and it puts the
@@ -28205,7 +28207,8 @@ ends worth learning from them rather than discovering.
 ## 438. Two agents, one mailbox
 
 On 11 September two letters went to `info@namesandfacts.com` **twenty-five
-seconds apart**, both from `leakydata@gmail.com`. I wrote the first. I did not
+seconds apart**, both from the subject's correspondence address. I wrote the
+first. I did not
 write the second.
 
 Auditing the sent folder for the last two days gives a clean answer: nine
@@ -28272,7 +28275,7 @@ wrote anything.
 The first re-verification run since the confirmations went in. Nine public
 listings, read-only, one query each — the same search a stranger could run.
 
-    LISTED       truthfinder          a cluster containing CARLISLE, PA
+    LISTED       truthfinder          a cluster containing the subject's city
     NAME-ONLY    instantcheckmate     name page exists, subject's city absent
     UNCLEAR      governmentregistry_org, search_quarry
     HTTP-403     checkpeople, radaris, whitepages
@@ -28282,18 +28285,18 @@ Two of those rows are the same suppression. On 27 August PeopleConnect applied
 one action across **Intelius, InstantCheckmate, TruthFinder and USSearch**.
 InstantCheckmate now returns a name page with the subject's own city absent —
 the suppression working exactly as intended. TruthFinder publishes a cluster
-whose locations include Carlisle.
+whose locations include the subject's own city.
 
 **Whether that is a failure is genuinely undecided, and this entry is not going
 to decide it.** The captured excerpt reads:
 
-> *"Nathan Jones Bradford, ME 47 Years Old Locations Include: Bradford, ME
-> Shermans Dale, PA Carlisle, PA Lehi, U…"*
+> *"[name] — Bradford, ME — 47 Years Old — Locations Include: Bradford, ME ·
+> Shermans Dale, PA · [subject's own city], PA · Lehi, U…"*
 
-Carlisle is the subject's city, which is what tripped the locality test. Bradford
-Maine is not, and earlier analysis of the same-named cluster on Radaris
-identified a Bradford ME Nathan Jones aged 47 and a Shermans Dale PA Nathan Jones
-(deceased) as **not** the subject. Age separates nothing — the subject is also
+The third town is the subject's own city, which is what tripped the locality
+test. Bradford Maine is not, and earlier analysis of the same-named cluster on
+Radaris identified a Bradford ME man of the same name aged 47 and a Shermans
+Dale PA one (deceased) as **not** the subject. Age separates nothing — the subject is also
 47. §409 exists precisely because a name and a town were once enough to record a
 listing that was not there, and the same restraint applies in the other
 direction.
@@ -28303,8 +28306,8 @@ moment"* 403 to a scripted fetch. So it is queued with a test that actually
 decides it. **The subject's address history is the discriminator** — sixteen
 addresses, nearly all in one narrow band of Pennsylvania. Several of Waynesboro,
 State College, Shippensburg, Philipsburg, Bellefonte, Blue Ridge Summit,
-Hagerstown MD or Mobile AL means it is him. Carlisle and Shermans Dale amid
-Maine, Utah and Indiana means it is not.
+Hagerstown MD or Mobile AL means it is him. His own city plus Shermans Dale
+amid Maine, Utah and Indiana means it is not.
 
 **If it is him, the finding is much larger than one row**, and PeopleConnect's
 own words make it mechanically plausible:
@@ -28356,8 +28359,8 @@ the limitation travels with the output instead of living in my prose.
 `/name/{first}-{last}/`, which 404s. USSearch is PeopleConnect, so it uses the
 same `/results/?firstName=…` shape as TruthFinder — and that path answers:
 
-> *"Verified Name Match — Nathan Jones, 47 years old — Locations: Bradford, ME ·
-> Shermans Dale, PA · Carlisle, PA · Lehi, U…"*
+> *"Verified Name Match — [name], 47 years old — Locations: Bradford, ME ·
+> Shermans Dale, PA · [subject's own city], PA · Lehi, U…"*
 
 The same cluster TruthFinder publishes. **A 404 reads as "no such page", so this
 row sat unverifiable while appearing merely absent** — the most comfortable of
@@ -28367,7 +28370,7 @@ conceals something present.
 
 So the PeopleConnect picture is now three brands readable and **disagreeing**:
 InstantCheckmate suppressed, TruthFinder and USSearch both publishing the
-Carlisle-containing cluster. The identity question from §439 is unchanged and
+same cluster. The identity question from §439 is unchanged and
 still undecided — but it now governs two rows, and one human check settles both.
 
 **And I got one wrong inside the same hour.** Having found ussearch's real path
