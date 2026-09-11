@@ -28385,3 +28385,62 @@ The general shape, which is now the fourth variant this week: **an error code is
 a claim about one request, and the temptation is always to promote it to a claim
 about the world.** 403 became "blocked forever", 404 became "nothing there", and
 both were wrong in different directions on the same run.
+
+### 430a. The other half of the Criteo question
+
+§430 said that "we cannot resolve on an email address" is a statement about one
+company's architecture rather than a property of ad tech, because Criteo deleted
+against email addresses on the same morning six other companies said it was
+impossible.
+
+Azerion supplies the other half, and it is what makes the point usable rather
+than merely sceptical:
+
+> *"we do not receive any real-world identifiers (what we refer to as Contact
+> Data or Identity Data), such as name, contact details or address. **Furthermore,
+> we also do not store the hashed values of email addresses.**"*
+
+The second sentence is the one nobody volunteers. The usual formulation denies
+holding *email addresses*, which is comfortably true while holding a great many
+of them in hashed form — a SHA-256 digest is not an email address in the sense
+that sentence uses, and §430 flagged the gap as unaskable without sounding like
+an accusation. Azerion closed it unprompted, in a clause beginning "furthermore".
+
+So the sector now has two honest poles on the record, six days apart. Criteo
+holds the mapping and used it. Azerion says it holds neither the addresses nor
+their hashes. **Both are plausible engineering choices and neither is the
+industry's position**, which is exactly why the question has to be put to each
+company rather than assumed either way. A company that cannot resolve on email
+is not lying; a company that says so is not thereby excused from being asked.
+
+Two further things Azerion did that are worth naming as standards.
+
+**It extended its answer to a request filed separately.** *"As you correctly
+pointed out Hybrid Theory was acquired by Azerion. Therefore, the below
+explanation also applies for your request sent to privacy@hybridtheory.com on
+August 28, 2026."* Two rows, one answer, volunteered. The alternative — which is
+what normally happens — is chasing an address for weeks whose owner has already
+replied under a different name. Compare §434, where coverage under a parent's
+name had to be reconstructed by hand across seventeen rows.
+
+**It argued with the objection instead of re-sending the link.** The letter had
+said a browser opt-out is not a substitute for deletion. Azerion did not repeat
+the URL; it explained that the page is also where the cookie identifier can be
+read, which is a different and better reason to open it.
+
+**Where it still fails, and the failure is structural rather than anyone's
+fault.** Deletion requires the cookie ID. Azerion already has that cookie — they
+set it — so the value is not secret and refusing to send it looks like pedantry.
+It is not. Today they hold a profile and *no idea whose it is*. Emailing them the
+cookie ID from a named address ends that, permanently and in a ticket, in order
+to enable a deletion that may or may not follow. If it succeeds they retain a
+record that a named person was that cookie; if it fails they retain that and the
+profile. **The identifier is not the secret. The link is, and supplying it is
+what creates it.** Same reasoning as the Madhive IP question (§144, §150), and
+the reason a device-reset is the only remedy in this class that costs the
+consumer nothing.
+
+Declined both, did the opt-out, and asked the one question a cookie cannot
+answer: can a do-not-add suppression be recorded against the person, with no
+identifier, so a future partner feed creates nothing. An explicit no offered as
+a complete answer.
