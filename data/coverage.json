@@ -406,18 +406,5 @@
    "why": "own item [id]"
   }
  ],
- "no_coverage_found": [
-  {
-   "id": "no",
-   "status": "manual_required"
-  },
-  {
-   "id": "aberdeen",
-   "status": "email_pending"
-  },
-  {
-   "id": "the_autominer_trupayments_purecars",
-   "status": "manual_required"
-  }
- ]
+ "no_coverage_found": []
 }

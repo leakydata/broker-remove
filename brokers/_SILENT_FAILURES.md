@@ -28086,3 +28086,81 @@ the mood.
 
 Buildertrend is now queued, with the instruction the entry describes: find
 Section X, and if it is not there, report that rather than improvising a route.
+
+## 437. Fifteen to zero, and none of the last three was what it looked like
+
+`coverage.py` (§435) opened with 15 rows saying a human must act and nobody
+assigned. It now reads zero. The last three were the interesting ones, because
+each turned out to be a different kind of wrong.
+
+**Aberdeen was a privacy worry, and the worry was unfounded.** The row had been
+held at `email_pending` because the registry flagged `privacy@spiceworks.com` as
+`offdomain_needs_confirmation` — an address on a different domain from
+`aberdeen.com`, with an explicit instruction to confirm the corporate
+relationship *before* sending, because the letter carries a full identifier set.
+Sending that to an unrelated party would be a disclosure, not a request. The
+caution was exactly right. Checked today: `aberdeen.com/privacy-policy/` names
+Spiceworks 23 times, identifies the group as Spiceworks Ziff Davis, refers to
+"Spiceworks and its affiliates", and publishes `privacy@spiceworks.com` as its
+own contact. A negative control returns 403 on a nonsense path, so the page is
+real. The address is Aberdeen's own. The letter went on 29 August; no reply in
+13 days. Moved to `submitted`, due a chase on 13 October.
+
+**Consumer Canvas was a status that lied in the safe direction.** The row read
+`manual_required` — a person must act — when in fact three letters had already
+gone on 28 August: the original request, a follow-up on the autoresponder's own
+phrasing, and a B2B-format request using the subject line they specify. One
+autoresponder back, nothing substantive in 14 days. Nothing was waiting on
+anybody. `manual_required` had put it in a queue it did not belong in, which is
+the mirror image of §434 — and the less harmful direction, since it wastes a
+person's attention rather than hiding work.
+
+Its id is `no`. The company is Consumer Canvas. A Yes/No/N-A column in the
+California register feed was read as the identifier, producing exactly three
+rows: **`yes` is PubMatic Inc.**, `no` is Consumer Canvas, `n_a` is CRISIL Irevna
+US LLC. All three *names* were repaired by earlier passes (§405); only the keys
+remain. Checked for duplicate rows under those domains — there are none, so
+nothing is being tracked twice. Deliberately not renamed: these ids are
+referenced across committed prose and other state, and a wide key change is
+precisely the class of edit that has produced this week's errors.
+
+**PureCars had no route at all, and the absence is the finding.** Their
+California registration lists `privacy@purecars.com`; their own autoresponder
+says that address *"is no longer part of our data subject request process and it
+is not being monitored"* (§205). So the register points at a mailbox the
+registrant says nobody reads.
+
+And there is no alternative. `purecars.com/privacy-policy` is genuine — a nonsense
+path returns 404, so the host discriminates — and it publishes exactly four
+opt-out links:
+
+    tools.google.com/dlpage/gaoptout     Google Analytics
+    optout.networkadvertising.org        NAI cookies
+    optout.aboutads.info                 DAA cookies
+    app.retention.com/optout/            a vendor's own form
+
+Three are other companies' advertising-cookie opt-outs; the fourth belongs to a
+supplier. **Not one of them removes anything PureCars holds.** This is §425 in a
+policy rather than a link graph: no consumer-rights form, no portal, no working
+mailbox, and four links that look like remedies. Written to `hello@purecars.com`
+— a general contact, which is not where a privacy request should go and is the
+only address left — covering PureCars, TruPayments and AutoMiner, and asking
+plainly where requests should actually go and for the register entry to be
+corrected.
+
+One thing fell out of it for free: linking `app.retention.com/optout/` from their
+own policy **discloses that PureCars uses Retention.com**, the identity-resolution
+vendor. Both Retention.com rows were already tracked — one `confirmed`, one
+`submitted` — so no new broker, but the dependency is now evidenced from the
+buyer's side rather than inferred. A privacy policy's vendor opt-out links are a
+supply-chain disclosure that companies publish without thinking of them that way.
+
+---
+
+The sweep's whole arc: 85 rows needing a human, 15 with nobody assigned, and of
+those 15 — **six were real lost work**, three were covered under a sibling's name,
+three needed research, and none of the last three was the thing its status
+claimed. Zero is not a claim that every route is known; it is a claim that every
+row whose status says a person must act now names the person's task or has been
+corrected to say otherwise. That is a much smaller statement, and it is the one
+that can actually be checked.
