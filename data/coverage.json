@@ -1,0 +1,419 @@
+{
+ "covered": [
+  {
+   "id": "accurate_append",
+   "status": "manual_required",
+   "why": "own item [captcha]"
+  },
+  {
+   "id": "appily",
+   "status": "manual_required",
+   "why": "own item [form]"
+  },
+  {
+   "id": "autoweb",
+   "status": "manual_required",
+   "why": "own item [captcha]"
+  },
+  {
+   "id": "blackbaud",
+   "status": "manual_required",
+   "why": "own item [captcha]"
+  },
+  {
+   "id": "brandwatch",
+   "status": "manual_required",
+   "why": "own item [form]"
+  },
+  {
+   "id": "buxton",
+   "status": "manual_required",
+   "why": "own item [click]"
+  },
+  {
+   "id": "cadent",
+   "status": "manual_required",
+   "why": "own item [form]"
+  },
+  {
+   "id": "cappex_com",
+   "status": "manual_required",
+   "why": "registry family eab.com -- `appily` is queued"
+  },
+  {
+   "id": "classmates_com",
+   "status": "manual_required",
+   "why": "own item [phone]"
+  },
+  {
+   "id": "clustrmaps",
+   "status": "manual_required",
+   "why": "own item [form]"
+  },
+  {
+   "id": "connected_investors",
+   "status": "manual_required",
+   "why": "own item [click]"
+  },
+  {
+   "id": "crexi",
+   "status": "manual_required",
+   "why": "own item [click]"
+  },
+  {
+   "id": "cyberbackgroundchecks_com_advancedbackgroundchecks_com_fastb",
+   "status": "manual_required",
+   "why": "note points at `mississippi_tornado_alley` [form]"
+  },
+  {
+   "id": "deloitte_consulting",
+   "status": "manual_required",
+   "why": "own item [portal]"
+  },
+  {
+   "id": "domainbigdata",
+   "status": "manual_required",
+   "why": "own item [form or route discovery]"
+  },
+  {
+   "id": "domainiq",
+   "status": "manual_required",
+   "why": "own item [form or route discovery]"
+  },
+  {
+   "id": "dtn",
+   "status": "manual_required",
+   "why": "own item [captcha]"
+  },
+  {
+   "id": "eab",
+   "status": "manual_required",
+   "why": "own item [click]"
+  },
+  {
+   "id": "fastpeoplesearch",
+   "status": "manual_required",
+   "why": "note points at `mississippi_tornado_alley` [form]"
+  },
+  {
+   "id": "leadpost",
+   "status": "captcha_blocked",
+   "why": "own item [captcha]"
+  },
+  {
+   "id": "lexisnexis_risk_solutions_fl",
+   "status": "manual_required",
+   "why": "own item [decision]"
+  },
+  {
+   "id": "locatefamily",
+   "status": "manual_required",
+   "why": "own item [decision]"
+  },
+  {
+   "id": "lookups_io",
+   "status": "manual_required",
+   "why": "own item [decision]"
+  },
+  {
+   "id": "lotame",
+   "status": "manual_required",
+   "why": "note points at `lotame_via_epsilon` [form]"
+  },
+  {
+   "id": "mch",
+   "status": "manual_required",
+   "why": "own item [form]"
+  },
+  {
+   "id": "mississippi_tornado_alley",
+   "status": "manual_required",
+   "why": "own item [form]"
+  },
+  {
+   "id": "nextroll",
+   "status": "captcha_blocked",
+   "why": "own item [captcha]"
+  },
+  {
+   "id": "paramount_direct_marketing",
+   "status": "captcha_blocked",
+   "why": "own item [captcha]"
+  },
+  {
+   "id": "pbi_research",
+   "status": "manual_required",
+   "why": "own item [decision]"
+  },
+  {
+   "id": "people_search_org",
+   "status": "manual_required",
+   "why": "own item [decision]"
+  },
+  {
+   "id": "peoplefinders",
+   "status": "captcha_blocked",
+   "why": "own item [captcha]"
+  },
+  {
+   "id": "peoplesearchnow",
+   "status": "email_pending",
+   "why": "own item [form]"
+  },
+  {
+   "id": "phonebooks_com",
+   "status": "captcha_blocked",
+   "why": "own item [captcha]"
+  },
+  {
+   "id": "propertyreach",
+   "status": "manual_required",
+   "why": "own item [captcha]"
+  },
+  {
+   "id": "securitytrails",
+   "status": "manual_required",
+   "why": "own item [form or route discovery]"
+  },
+  {
+   "id": "simiocloud",
+   "status": "captcha_blocked",
+   "why": "own item [captcha]"
+  },
+  {
+   "id": "spydialer",
+   "status": "captcha_blocked",
+   "why": "own item [captcha]"
+  },
+  {
+   "id": "truepeoplesearch",
+   "status": "manual_required",
+   "why": "own item [form]"
+  },
+  {
+   "id": "ufind_name",
+   "status": "captcha_blocked",
+   "why": "own item [captcha]"
+  },
+  {
+   "id": "unearth_campaigns",
+   "status": "manual_required",
+   "why": "own item [click]"
+  },
+  {
+   "id": "usphonebook",
+   "status": "manual_required",
+   "why": "note points at `mississippi_tornado_alley` [form]"
+  },
+  {
+   "id": "whoxy",
+   "status": "manual_required",
+   "why": "own item [form or route discovery]"
+  },
+  {
+   "id": "grin_technologies",
+   "status": "manual_required",
+   "why": "own item [form]"
+  },
+  {
+   "id": "healthlink_dimensions",
+   "status": "email_pending",
+   "why": "own item [email_pending]"
+  },
+  {
+   "id": "hivestack",
+   "status": "manual_required",
+   "why": "note points at `perion` [form]"
+  },
+  {
+   "id": "perion",
+   "status": "manual_required",
+   "why": "own item [form]"
+  },
+  {
+   "id": "kargo_global",
+   "status": "manual_required",
+   "why": "own item [decision]"
+  },
+  {
+   "id": "koddi",
+   "status": "manual_required",
+   "why": "own item [form]"
+  },
+  {
+   "id": "owneriq",
+   "status": "manual_required",
+   "why": "own item [form]"
+  },
+  {
+   "id": "optimal",
+   "status": "captcha_blocked",
+   "why": "own item [captcha]"
+  },
+  {
+   "id": "lob_com",
+   "status": "captcha_blocked",
+   "why": "own item [captcha]"
+  },
+  {
+   "id": "lightbox_parent_l_p",
+   "status": "manual_required",
+   "why": "own item [form]"
+  },
+  {
+   "id": "pmg_worldwide",
+   "status": "manual_required",
+   "why": "own item [form]"
+  },
+  {
+   "id": "message_digital",
+   "status": "captcha_blocked",
+   "why": "own item [captcha]"
+  },
+  {
+   "id": "minerva_bi",
+   "status": "manual_required",
+   "why": "own item [captcha]"
+  },
+  {
+   "id": "neptune_ops",
+   "status": "manual_required",
+   "why": "own item [form]"
+  },
+  {
+   "id": "nexxen",
+   "status": "manual_required",
+   "why": "own item [form]"
+  },
+  {
+   "id": "atlas_influence_targeting",
+   "status": "manual_required",
+   "why": "registry family unearthcampaigns.com -- `unearth_campaigns` is queued"
+  },
+  {
+   "id": "findaneighborhood",
+   "status": "captcha_blocked",
+   "why": "registry family peoplefinders.com -- `peoplefinders` is queued"
+  },
+  {
+   "id": "leadsherpa",
+   "status": "manual_required",
+   "why": "registry family propertyreach.com -- `propertyreach` is queued"
+  },
+  {
+   "id": "windfall_data",
+   "status": "manual_required",
+   "why": "own item [form or phone]"
+  },
+  {
+   "id": "visitiq",
+   "status": "captcha_blocked",
+   "why": "own item [captcha]"
+  },
+  {
+   "id": "skydeo",
+   "status": "manual_required",
+   "why": "own item [form]"
+  },
+  {
+   "id": "vrtcal_markets",
+   "status": "manual_required",
+   "why": "own item [device-level opt-out]"
+  },
+  {
+   "id": "valassis_communications_inc_an_rrd",
+   "status": "email_pending",
+   "why": "own item [confirm link]"
+  },
+  {
+   "id": "subgraph",
+   "status": "email_pending",
+   "why": "own item [confirm link]"
+  },
+  {
+   "id": "winr_data",
+   "status": "email_pending",
+   "why": "own item [verify]"
+  },
+  {
+   "id": "cb_insights",
+   "status": "email_pending",
+   "why": "own item [email_pending]"
+  },
+  {
+   "id": "smartbackgroundchecks",
+   "status": "captcha_blocked",
+   "why": "own item [captcha]"
+  },
+  {
+   "id": "usa_people_search",
+   "status": "captcha_blocked",
+   "why": "own item [captcha]"
+  },
+  {
+   "id": "socialcatfish",
+   "status": "manual_required",
+   "why": "own item [form]"
+  },
+  {
+   "id": "ohio_resident_directory",
+   "status": "manual_required",
+   "why": "own item [captcha]"
+  },
+  {
+   "id": "optoutprescreen",
+   "status": "manual_required",
+   "why": "own item [id]"
+  }
+ ],
+ "no_coverage_found": [
+  {
+   "id": "advancedbackgroundchecks",
+   "status": "manual_required"
+  },
+  {
+   "id": "buildertrend",
+   "status": "manual_required"
+  },
+  {
+   "id": "cyberbackgroundchecks",
+   "status": "captcha_blocked"
+  },
+  {
+   "id": "findpeoplefast_net",
+   "status": "manual_required"
+  },
+  {
+   "id": "mediamath",
+   "status": "manual_required"
+  },
+  {
+   "id": "health_union",
+   "status": "email_pending"
+  },
+  {
+   "id": "jmr_media",
+   "status": "manual_required"
+  },
+  {
+   "id": "no",
+   "status": "manual_required"
+  },
+  {
+   "id": "media_direct",
+   "status": "manual_required"
+  },
+  {
+   "id": "hubspot",
+   "status": "manual_required"
+  },
+  {
+   "id": "aberdeen",
+   "status": "email_pending"
+  },
+  {
+   "id": "the_autominer_trupayments_purecars",
+   "status": "manual_required"
+  }
+ ]
+}

@@ -27909,3 +27909,57 @@ provided is not present. No further action is required at this time."* The statu
 is correct and always was. A wrong process can still produce a right answer, and
 noticing that is the difference between auditing the process and auditing the
 outcome; only the first tells you whether to trust the next one.
+
+## 435. Nobody was assigned
+
+`manual_required` means the automated route is closed and a person has to act.
+The handoff queue is where that person looks. In four weeks nothing had ever
+checked that the two agree.
+
+`scripts/coverage.py`, written tonight, asks it. For every row whose status says
+a human must act, is there an open item — under this id, under an id a note
+explicitly points at, or under a sibling in the same registry family?
+
+    rows whose status says a human must act    85
+      coverage found                           73
+      no coverage found                        12
+
+The 73 is the reassuring half, and the breakdown is the point:
+
+    64  own item
+     3  note points at `mississippi_tornado_alley`   (ten brands, one form)
+     1  note points at `lotame_via_epsilon`          (merged into Epsilon, 2025)
+     1  note points at `perion`                      (parent answers for Hivestack)
+     3  registry family                              (eab.com, peoplefinders.com, …)
+
+**Nine rows are covered under a name that is not theirs.** That is the thing no
+per-row check can see, and it is why §434 nearly reported six covered rows as
+abandoned. Coverage in this project is shaped like the industry: by parent, by
+acquirer, by estate. A tool that asks "is `cappex_com` queued?" gets the wrong
+answer forever.
+
+**The twelve are the reason to have written it.** Three were queued immediately,
+and all three had said in their own notes that a human was needed:
+
+    socialcatfish             "ROUTE FOUND AND FULLY MAPPED; NEEDS A BROWSER TO SUBMIT"
+    ohio_resident_directory   "Queued for a human to tick the box and proceed"
+    clustrmaps                "Route to email or complete by hand"
+
+The Ohio note is the sharpest, because it says *"Queued for a human"* and no item
+was ever created. The sentence recorded an intention and read afterwards exactly
+like a completed action. That is §420 — the to-do list written in prose — and
+this is its cost measured: a fully-mapped SocialCatfish form sat unassigned for
+six days with nothing anywhere pointing at it.
+
+SocialCatfish is worth the ten minutes on its own. The form takes **repeatable**
+email and phone fields, so every stale identifier can go in — and on a
+people-search index the stale ones are what match. It also offers an image
+upload, which exists for an identity document and will not be used.
+
+**One deliberate design choice.** A row with no match is reported as *"no
+coverage found"*, never *"abandoned"*. Coverage can be recorded in prose this
+cannot parse, or implied by a relationship nobody wrote down. The list is a place
+to look, not a verdict — which after §427, §428 and §434a is the only honest way
+left to build a detector in this project. Two of the twelve, `mediamath` and
+`cyberbackgroundchecks`, are already resolved elsewhere and would have been
+false accusations had the output claimed more than it knows.
