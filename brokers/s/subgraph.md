@@ -7,9 +7,8 @@
 
 ## Status
 
-- Current: `email_pending` (updated 2026-09-02)
-- **Reconciled 2026-09-02 (§274):** playbook said `submitted`, tracker said `email_pending`. DOUBLE OPT-IN. team@subgraph.tech sent a confirmation link 2026-08-31 11:01: 'We received a request to delete the personal information associated with [the reply address]. To confirm, open this link... If you did not make this request, you can safely ignore this email -- nothing will be deleted.' The deletion DOES NOT HAPPEN unless the link is opened, so this row is email_pending rather than submitted, and it will si
-- Note: The name suggests an identity/relationship-graph product, so the letter asked that any hashed identifiers or graph/link entries be treated as in scope, not only directly-identifying rows — and invited a correction if that guess about the business is wrong.
+- Current: `email_pending` (updated 2026-08-31)
+- Note: DOUBLE OPT-IN. team@subgraph.tech sent a confirmation link 2026-08-31 11:01: 'We received a request to delete the personal information associated with [the reply address]. To confirm, open this link... If you did not make this request, you can safely ignore this email -- nothing will be deleted.' The deletion DOES NOT HAPPEN unless the link is opened, so this row is email_pending rather than submitted, and it will silently expire if nobody acts. Queued for handoff with the link. Not clicked from here: it is a one-click irreversible confirmation and the token sits in the user's own mailbox where they can open it directly. The design is GOOD and worth noting -- it verifies control of the address without asking for an account or an ID document, and it fails closed rather than open.
 
 ## Steps
 

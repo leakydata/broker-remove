@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-01)
-- Note: Salesforce is registered as a California data broker but I have no account or customer relationship with them. Sent a scoped letter distinguishing Salesforce-as-controller (any Salesforce-branded data product, contact database, or append/enrichment service) from Salesforce-as-processor (a customer's own CRM instance, which Salesforce cannot unilaterally act on and which I explicitly said I was not asking them to touch). Asked which of the two applies before anything else.
+- Current: `submitted` (updated 2026-09-02)
+- Note: Recovered from the committed playbook brokers/s/salesforce.md, because the ledger carries no notes and this row's status had no evidence behind it: Salesforce is registered as a California data broker but I have no account or customer relationship with them. Sent a scoped letter distinguishing Salesforce-as-controller (any Salesforce-branded data product, contact database, or append/enrichment service) from Salesforce-as-processor (a customer's own CRM instance, which Salesforce cannot unilaterally act on and which I explicitly said I was not asking them to touch). Asked which of the two applies before anything else.
 
 ## Steps
 

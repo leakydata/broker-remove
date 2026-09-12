@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-27)
-- Note: Sent the HEALTH-SECTOR VARIANT per _CATEGORY_VARIANTS.md rather than the generic letter: opens with the five-way categorisation question (health/inferred, HCP, clinical-trial, plain marketing, other) before making the request; asks specifically whether any health attribute is INFERRED rather than reported, with the reason stated -- an inferred condition cannot be verified or corrected by the person it describes, can simply be wrong, and is acted on by insurers and employers who never see the uncertainty; notes that a match on a healthcare-PROFESSIONAL file would be a misattribution rather than a privacy problem, so correction matters as much as deletion; pre-empts the HIPAA deflection by conceding the legitimate part and noting that data held outside a covered-entity or business-associate relationship is generally not HIPAA-protected; and invokes the SENSITIVE-DATA limit-use right (1798.121) alongside delete and opt-out rather than in place of them.
+- Current: `email_pending` (updated 2026-09-05)
+- Reference: `TS7LYMSMBF`
+- Note: VERIFICATION NOT COMPLETING. OneTrust request TS7LYMSMBF (Delete My Personal Information) was submitted 2026-09-02 14:27 UTC; the confirm-your-email message only arrived 2026-09-05 14:54 UTC, three days later, which matters because the mail says the request cannot start until it is confirmed. Drove the link 2026-09-05: the portal loads, stays on the /verify/ route and never reaches /verify/verifySuccess, checked twice over 75 seconds. NOT the tooling -- the identical navigate-and-read-the-URL technique verified AV6KDQ7SS4 (Mobility Global) and XF8TWVDW77 (Dstillery) minutes earlier, both landing on verifySuccess with their own request UUIDs. So either the token is spent or expired, or the page is rendering something that needs a click, invisible while screenshots are failing. Queued for a human. Until it is clicked the request has NOT STARTED.
 
 ## Steps
 

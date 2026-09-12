@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-27)
-- Note: 2026-08-27: first contact. Porch Group Media deals in home-services/homeowner leads, so the letter leads with the downstream-purchaser ask: name which brands or partners already received a record and direct them to delete it, since a sold lead already delivered is not undone by deleting their own copy.
+- Current: `submitted` (updated 2026-08-28)
+- Note: Recovered from the committed playbook brokers/p/pgm_solutions_porch_group_media.md, because the ledger carries no notes and this row's status had no evidence behind it: 2026-08-27: first contact. Porch Group Media deals in home-services/homeowner leads, so the letter leads with the downstream-purchaser ask: name which brands or partners already received a record and direct them to delete it, since a sold lead already delivered is not undone by deleting their own copy.
 
 ## Steps
 

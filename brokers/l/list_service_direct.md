@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-22)
-- Note: dataremoval@listservicedirect.com bounced: 'The recipient's mailbox is full and can't accept messages now.' That is a soft bounce, not a dead address - the mailbox exists and someone stopped reading it. Rather than waiting for it to drain, resent 2026-08-22 to micah@listservicedirect.com (a named contact, not the generic removal box) with a list-rental-category letter (downstream purchaser deletion, permanent suppression). Delivered without bouncing.
+- Current: `failed` (updated 2026-09-07)
+- Reference: `gmail:1a079d7033ae9cb0 -- dataremoval@ 452 mailbox full, other two delivered`
+- Note: RESENT 2026-09-06 TO THREE ADDRESSES; TWO DELIVERED, THE DESIGNATED ONE BOUNCED AGAIN. dataremoval@listservicedirect.com returned 'The recipient's mailbox is full and can't accept messages now' within seven seconds -- the same soft bounce as before, so the mailbox has stayed full across the whole interval. micah@ and info@ did NOT bounce. So the company is reachable and it is specifically THE ADDRESS PUBLISHED FOR DATA REMOVAL that is broken. THE SHAPE OF THE FAILURE: their mail server accepts the connection and then discards the message for want of space. A consumer writing to the address the company itself nominates for removals gets a bounce that reads like their own mistake. Nobody at the company learns that the request existed. Not a refusal, not a dark pattern -- an unattended mailbox doing the work of one. The letter says this to them plainly and asks whoever receives it to forward it and to tell the mailbox owner it is full. WHAT WAS SENT: access with RENTALS named explicitly, because in a list business a rental leaves a copy with the renter that a deletion at the source never reaches; deletion with the 1798.105(c) direction and a count; and SUPPRESSION ASKED FOR IN PREFERENCE TO DELETION, with the reason -- in a compiled-list business a deletion is undone by the next refresh from the supplying source, and a suppression entry keyed to name and address survives it, so an accurate suppression is worth more than a deletion that lapses within the month. Also opt-out, and sources named. CA register 2020-2023, 2024. Watch micah@ and info@ for a reply.
 
 ## Steps
 

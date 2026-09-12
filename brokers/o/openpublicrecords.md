@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `not_found` (updated 2026-09-05)
-- Note: NOTHING TO REMOVE ON THIS DOMAIN, checked 2026-09-05. Open-Public-Records.com (Statistico Inc, Montecito CA) is now a public-records ACCESS directory -- it grades jurisdictions on online access, fees, turnaround and e-filing, and links to originating agencies. Its sitemap index has 90 court sitemaps plus states, counties, cities, articles and hubs, and NO person or people section at all. The only person search on the site is the box labelled 'PUBLIC RECORDS SEARCH', which carries a 'sponsored by BeenVerified' mark: the person data a visitor sees through this site is BeenVerified's, not theirs. Their removal form at /records_removal.htm asks for 'the URL of the page your information is to be removed' -- a page type that no longer exists here, so the form cannot be completed even in principle. BeenVerified itself is already submitted (three rows, 2026-08-25/26/30). Recorded not_found rather than covered_by_sibling because the point is not that someone else handles the removal -- it is that this domain holds no record of the subject to remove. If the site ever republishes person pages this needs revisiting; the sitemap index is the cheap way to check.
+- Current: `not_found` (updated 2026-09-07)
+- Reference: `open-public-records.com forms POST to /click-ad.php and /opr-bc-redirect.php`
+- Note: CORROBORATED 2026-09-07 BY THE SITE'S OWN MARKUP: open-public-records.com IS NOT SEARCHABLE. Both of its apparent search forms POST to /click-ad.php and /opr-bc-redirect.php -- affiliate redirect endpoints, not a query handler. The site takes a name and hands the visitor to a paying partner; it runs no index of its own. Same structure as dobsearch_com, established the same way (SILENT_FAILURES 390: read what the site is, not what it looks like). So the earlier not_found stands for a stronger reason than 'a search returned nothing' -- there is no search, and no holding behind it. Nothing to re-verify here, and the row is excluded from the re-verification sweep accordingly.
 
 ## Steps
 

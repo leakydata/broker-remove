@@ -9,16 +9,9 @@
 
 ## Status
 
-- Current: `email_pending` (updated 2026-08-25)
-- Note: 2026-08-25: original letter to dpelland@altairci.com (the CA registration
-  contact) drew a reply from dciriello@altairci.com: *"This email address is
-  intended solely for direct business communications and is not monitored for
-  opt-out or privacy-related requests."* No alternate was offered in the reply.
-  altairdata.com's own privacy policy and "Do Not Sell or Share My Personal
-  Information" page name `connect@altairci.com` as the actual privacy contact,
-  alongside the Jira portal below as the designated request-submission method.
-  Resent to connect@altairci.com. The Jira portal (Steps below) remains the
-  documented-working manual route if email goes unanswered again.
+- Current: `confirmed` (updated 2026-08-27)
+- Reference: `CIOO-42714`
+- Note: CIOO-42714 closed 2026-08-27 19:02 UTC with the IDENTICAL Jira automation macro that closed CIOO-42711 on 24 Aug -- word for word. 42714 was a follow-up raising what the first notice left open, and it existed because their VP of Credit Products read it and wrote at 17:41 saying she had forwarded it 'for processing of your request manually'. Twenty-one minutes later: In Progress and Completed in the same minute, standard opt-out macro attached. The ticket was typed as an opt-out on intake and the macro fired on the TYPE, not the TEXT. The macro itself is unusually honest -- 45-day offline backup window, request retained as a forward filter against future supplier feeds, and an explicit 'we cannot remove from our suppliers' systems'. But it also says 'Data removed is specific to the name and mailing address provided', which is the §135 key-set problem stated outright by a company in a different sector. Replied asking for a human answer to 42714 and for the removal plus forward filter to be keyed against every name variant, address and phone, not the current pair.
 
 ## Steps
 

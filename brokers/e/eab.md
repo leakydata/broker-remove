@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `manual_required` (updated 2026-08-18)
-- Note: Their OneTrust form CANNOT be completed from Pennsylvania: State of Residence is a required closed dropdown listing only states with comprehensive privacy statutes - the list goes Oregon straight to Rhode Island. Worse, the type-ahead SILENTLY RESOLVED 'Pennsylvania' to 'Colorado' and left it in the box rather than rejecting it, so a person filling the form quickly would submit a false statement of residence on a privacy request. Did not submit. Replied by email reporting both faults and asking them to honour the request as company policy and state the basis in writing.
+- Current: `manual_required` (updated 2026-08-25)
+- Note: 2026-08-25: legal@eab.com redirects to a privacyportal form: 'In order to begin the verification process for your request, please complete and submit the data request form available here'. Staged as a self-contained handoff. Scope note written into the handoff: EAB owns Cappex and Appily, which are COLLEGE-RECRUITMENT products collecting data from prospective students - often minors - through scholarship searches and college-match quizzes. The asks that matter are the student profile itself, whether any of it was collected while the subject was under 18 and what retention applies, and WHICH INSTITUTIONS received the profile as a recruitment lead, since a student list sold to colleges is the product and the consumer has no other way to learn where it went.
 
 ## Steps
 

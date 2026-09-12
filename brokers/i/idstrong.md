@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-18)
-- Note: Asked on ticket 538837 whether they share an operator, helpdesk or index with InfoTracer (537420) and CourtCaseFinder (538631), offering the three possible answers and noting that any of them is useful. Framed as a question, not an assertion - a shared helpdesk vendor is not a shared database.
+- Current: `not_found` (updated 2026-08-27)
+- Note: Answered inside InfoPay's consolidated reply of 2026-08-27 (see infopay). IDStrong holds personal information only upon creation of a user account, including breach-monitoring data compiled for that account. No account exists under any of the twelve identifiers, so nothing is held. Not an index to be removed from -- a service you have to have joined.
 
 ## Steps
 

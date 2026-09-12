@@ -8,9 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-17)
+- Current: `submitted` (updated 2026-08-26)
 - Reference: `gmail:1a0064b93acf05ab`
-- Note: Second 'unable to locate a full record' despite having every identifier they asked for. Replied pressing for a plain written negative or the identifier that would work, and raised the point specific to this brand: NeighborWho is address-centric, so a name-keyed search can return nothing while an address page still lists the subject as a current or former resident. Asked them to search all ten addresses AS addresses.
+- Note: 2026-08-26: SUPPLEMENTARY LETTER SENT. NeighborWho answers 'who lives at this address and who lives near them', so the address is the PRIMARY KEY and the person is an attribute hanging off it - which means removing my name from one address does nothing to the other fifteen, and a search on my current address never surfaces them. The six new addresses are six records I had never asked about because I did not know to. Three category-specific asks: (1) remove me from NEIGHBOURS' entries, since a who-lives-near-whom product necessarily lists people against addresses that are not theirs, and that is my personal information sitting on a page belonging to someone who never asked for it either; (2) PRIOR RESIDENTS - a page for an address left in the 1990s may still list me as a former occupant, which is a published statement about where I used to live, indefinitely, with no relationship between us; (3) home-value, equity or ownership-likelihood estimates attached to my NAME rather than the parcel. Plus deletion-vs-suppression in those words and a count of records found.
 
 ## Steps
 

@@ -7,9 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-02)
-- Reference: `gmail:1a061a037ab2c38e`
-- Note: 2026-09-02: Sent. Subsplash is a SaaS platform for churches/nonprofits (donor/member management, app builder) -- landed in this registry via a directory scrape (Optery cohort) with route_evidence: none, no direct attestation of broker status. Letter asked directly whether they hold data on non-customers/non-users before making the standard four asks, since the ordinary product use case (serving their own customers' congregants) is not obviously a broker relationship to [PERSONAL].
+- Current: `not_found` (updated 2026-09-05)
+- Note: 2026-09-04/05 (§328): THEY TOOK THE EXIT I OFFERED, AND I AM HONOURING IT. Subsplash replied to the broker-listing thread: 'Subsplash is not a data broker. Furthermore, we did not locate any of the listed email addresses in our systems.' MY OWN LETTER HAD SAID, IN WRITING: 'the first question is whether the listing is right at all, and "it is not" is a complete answer. I will record it, with thanks, and not write again.' They said it. So this thread is closed and I will not press it. THE LOOSE END, RECORDED RATHER THAN PURSUED: the nil is scoped to EMAIL ADDRESSES ONLY. My letter had asked them to search the fifteen prior addresses and the name with DOB as a discriminator, on the explicit reasoning that a congregation record made years ago is keyed to whatever address the person gave at the time -- so the search they ran is the one I had said in advance would be least likely to match (the §316 Catalina shape). I am not writing again about it, because an exit offered only when convenient is not worth offering. THE SUBSTANTIVE QUESTION SURVIVES IN THE OTHER THREAD: the deletion/verification thread, where they disclosed the gift-retention carve-out, still carries the live question of whether Subsplash derives anything ACROSS organisations -- aggregate giving history, donor scores, capacity models, segments. That is where this continues, correctly.
 
 ## Steps
 

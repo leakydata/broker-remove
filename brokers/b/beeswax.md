@@ -7,7 +7,9 @@
 
 ## Status
 
-- Current: `pending`
+- Current: `submitted` (updated 2026-08-25)
+- Reference: `308033`
+- Note: 2026-08-25: privacy@beeswax.com routes to ccpa-consumer@freewheel.zendesk.com - request #308033. Beeswax was acquired by FreeWheel (Comcast/NBCUniversal), so the DSP request is handled by the parent's CCPA desk. Ticket confirms access AND deletion scope.
 
 ## Steps
 

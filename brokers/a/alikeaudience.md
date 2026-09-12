@@ -7,7 +7,8 @@
 
 ## Status
 
-- Current: `pending`
+- Current: `submitted` (updated 2026-08-24)
+- Note: 2026-08-24: audience-data letter. Substituted the geographic query for the MAID the consumer cannot supply, asked for the graph edges not just identifier rows, named the sensitive inference categories explicitly, and asked which app SDK any segment originates from.
 
 ## Steps
 

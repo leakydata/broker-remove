@@ -10,8 +10,7 @@
 
 - Current: `submitted` (updated 2026-08-20)
 - Reference: `202MEG-KZVV4`
-- Note: they sent a completion notice, but it names a record that does not
-  appear to be the subject's. Deliberately **not** marked `confirmed`. See below.
+- Note: WRONG-RECORD CONFIRMATION 2026-08-20 12:57Z: 'we have removed the public record information for [PERSONAL] of BRADFORD, ME, age 47'. Age matches; Bradford ME matches no address in the request. Almost certainly a stranger's listing suppressed instead of ours. Replied asking them to re-run against the actual addresses and to restore the ME record if it is not ours. Do NOT mark confirmed on this artifact.
 
 ## Steps
 

@@ -7,9 +7,8 @@
 
 ## Status
 
-- Current: `not_found` (updated 2026-08-28)
-- Note: 2026-08-27: first contact. Ad-tech/audience-data variant: asked for hashed-email matching (SHA-256/MD5), cookie IDs, MAIDs, and modelled audience segments, and framed as an opt-out of cross-context behavioral-advertising sharing specifically, including downstream DSP/SSP partners.
-- Update 2026-08-27: Confirmed by a named person (not a template): searched records, holds no personal information matching any identifier, and confirmed it will not use/collect/sell it going forward. Sent twice (duplicate, identical text, three minutes apart) — treat as one answer, not two.
+- Current: `not_found` (updated 2026-08-30)
+- Note: 2026-08-27 UNQUALIFIED NIL; note backfilled 2026-08-30 from the mailbox after an audit found this terminal status recorded with NO evidence at all. Andrew Cheung at permutive.com replied within about two hours: 'We confirm that we have searched our records and do not hold any personal information about you. We also confirm that we will not use the personal [information]...' -- an unqualified negative (not scoped to a record type, unlike the 199 SheerID shape) PLUS a forward-looking commitment, which is the 198 property most companies omit. No account demanded, no form, no ID. Sent twice, three minutes apart, which is a mail quirk rather than a substantive difference.
 
 ## Steps
 

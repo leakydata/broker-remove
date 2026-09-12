@@ -9,8 +9,7 @@
 ## Status
 
 - Current: `confirmed` (updated 2026-08-20)
-- Both rights confirmed separately, in writing, about four and a half hours after
-  the request.
+- Note: Trestle/Superset sent four completion emails 2026-08-20 13:37Z from noreply@trustsuperset.com: two 'right to opt out has been completed' and two 'right to deletion has been completed'. Both rights, both confirmed separately.
 
 ## Steps
 

@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-31)
-- Note: Sent the "unknown broker" categorisation letter — CA registry lists them with no description of the underlying business, and a sports-analytics company most plausibly compiles fan/ticketing/streaming data through partners rather than directly. Asked whether they hold anything under any identifier before assuming a category, and offered a plain nil result as a complete answer.
+- Note: Recovered from the committed playbook brokers/s/sports_innovation_lab.md, because the ledger carries no notes and this row's status had no evidence behind it: Sent the "unknown broker" categorisation letter — CA registry lists them with no description of the underlying business, and a sports-analytics company most plausibly compiles fan/ticketing/streaming data through partners rather than directly. Asked whether they hold anything under any identifier before assuming a category, and offered a plain nil result as a complete answer.
 
 ## Steps
 

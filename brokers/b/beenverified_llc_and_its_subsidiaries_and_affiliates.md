@@ -7,7 +7,9 @@
 
 ## Status
 
-- Current: `pending`
+- Current: `submitted` (updated 2026-08-25)
+- Reference: `28963990`
+- Note: 2026-08-25: privacy@ltvco.com auto-forwarded into the BeenVerified consumer support queue, ticket 28963990, with a template calling a statutory rights request 'comments and suggestions'. Acknowledgement only, 2 business day SLA quoted. Watch for the CSAT-close pattern (SILENT_FAILURES 70) - reply into this acknowledgement thread if it closes without an answer.
 
 ## Steps
 

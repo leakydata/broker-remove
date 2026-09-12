@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-23)
-- Note: 2026-08-22 reply: auto-response points to a self-serve 'Removal Form' (web, not email) and their privacy policy, and appends an upsell nudge urging the subject to instead update their info to keep receiving 'business opportunities' rather than opt out. No CAPTCHA info known. No browser tool available this run — form not filed. Original statutory email request stands regardless of whether the form is used; awaiting a substantive answer to it.
+- Current: `submitted` (updated 2026-08-17)
+- Note: Statutory delete/opt-out request emailed, tailored to the broker's data category; awaiting reply.
 
 ## Steps
 

@@ -7,9 +7,8 @@
 
 ## Status
 
-- Current: `manual_required` (updated 2026-08-28)
-- Note: Opt-out letter sent by email to legal@grin.co (delete + opt out of sale/sharing + direct downstream recipients + suppress against future ingestion). All twelve email addresses, sixteen prior addresses and eleven prior phone numbers listed for search. Sent as HTML per letter_html.
-- Update 2026-08-28: `legal+noreply@grin.co` replied that email requests need identity verification first, and pointed at their own web form. Queued for a human.
+- Current: `manual_required` (updated 2026-08-27)
+- Note: EMAIL REFUSED 2026-08-27, four seconds after sending. Auto-reply from legal+noreply@grin.co: 'If you are writing to make a request regarding your privacy or data, we need to verify the request, before taking action or releasing information. Please use Grin's [form].' The +noreply subaddress on a legal@ mailbox is the tell -- mail is accepted and answered by a machine that will not accept the request.
 
 ## Steps
 

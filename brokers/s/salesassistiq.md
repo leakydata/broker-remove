@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-26)
-- Note: 2026-08-26: emailed jen@aniline.io. Same B2B variant as rampedup. Registered domain (aniline.io) differs from the product name (SalesAssistIQ) — worth checking for a rebrand or parent company in any reply.
+- Current: `submitted` (updated 2026-08-28)
+- Note: Recovered from the committed playbook brokers/s/salesassistiq.md, because the ledger carries no notes and this row's status had no evidence behind it: 2026-08-26: emailed [named individual]@aniline.io. Same B2B variant as rampedup. Registered domain (aniline.io) differs from the product name (SalesAssistIQ) — worth checking for a rebrand or parent company in any reply.
 
 ## Steps
 

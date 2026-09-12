@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-20)
-- Note: Emailed privacy@veraset.com. Raw device-location data provider (known for supplying COVID-era mobility datasets); same mobility-category letter as Venntel.
+- Note: Replied 2026-08-20 10:40 UTC to a canned response from privacy+canned.response@veraset.com. THEIR REPLY CONTAINS A REAL BUT NARROW NEGATIVE, quoted: 'If we have misunderstood your request, and you are instead asking whether we have information that we have associated with the email identifier you have submitted, we do not have any such email identifiers in our databases.' That is a genuine unqualified negative - about email identifiers only - and I accepted it explicitly and said I would not ask about email again. But it is nearly vacuous on its own: a MAID-keyed location database of course holds no emails, so the negative answers a question I was not really asking. They then require MAIDs to search, and pointed at veraset.com/do-not-sell-my-personal-information/. THE STRUCTURAL POINT, now the standard move for location brokers: a request that can only be made by supplying MAIDs is one a consumer is structurally unable to make - a MAID cannot be looked up historically, can be reset at will, and a reset mints a new one without retiring the old, so a person has several over the years and no record of any. Rather than argue, offered a query their database CAN answer without any identity key: do you hold device records showing a persistent overnight dwell pattern at [current address]? Geographic rather than identity-based. Offered the fifteen prior addresses if useful, and offered an explicit acceptable refusal ('we will not run a geographic query for a consumer') so a no is easy to give.
 
 ## Steps
 

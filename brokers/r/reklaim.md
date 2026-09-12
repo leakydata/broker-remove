@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-29)
-- Note: 2026-08-29 sent to privacy@reklaimyours.com (register) AND privacy@reklaimyou.com (current policy) -- the site has moved to reklaimyou.com, singular, and both domains have live MX. Consent-first broker: pitch is 'earn rewards for sharing your data on your terms', and the site now leads with surveys and a $10K jackpot. Letter turns the model into the question: they are on the register, which means selling data on consumers with no direct relationship, and I have never been a member -- so anything held about me did not come from consent, and the source question is the whole letter. Also noted their footer offers 'Delete Account', an account-shaped route a non-member cannot use, and refused to create one to be deleted.
+- Note: 2026-08-29 DELIVERY SPLIT. privacy@reklaimyou.com (published on their CURRENT policy) hard-bounced 550 5.1.1; privacy@reklaimyours.com (the OLDER register filing) delivered and autoresponded, pointing back to reklaimyou.com/privacy and /do-not-sell. So the newer published contact is dead and the older filed one is live -- the reverse of the 173 rule, and worth watching for. The autoresponder is a link-deflection, not an answer; treat as submitted and apply the 161a test if nothing further arrives.
 
 ## Steps
 

@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-20)
-- Note: Resent 2026-08-20 05:31 UTC to privacy@rocadvertising.com after the first attempt hard-bounced. The working address is published ONLY as HTML character entities inside their privacy policy - scraper-resistant, and invisible to a plain regex over the page text; it decodes to privacy@ their own domain. Their Optery-listed address, on a third-party compliance domain, hard-bounces 550 5.1.1. Their policy requires the subject line 'Data Removal Request', which I used. Quoted their own text back: 'Results Only Consulting typically collects consumer data from a data broker for a one time mailing list... Consumers may delete their record, opt-out or unsubscribe from having their data rented or sold' - so the ask is theirs, not mine, and I extended it to suppression against re-purchase from the same broker feed.
+- Note: Resent 2026-08-20 to first-party privacy@rocadvertising.com after the published vendor address at simpleoptoutcompliance.com hard-bounced 550 5.1.1. Subject line 'Data Removal Request' as their policy requires.
 
 ## Steps
 

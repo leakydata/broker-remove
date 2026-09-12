@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-30)
-- Note: 2026-08-30 reply, 13 days after the original: "unable to locate a user account associated with the information you provided," and asked for a work email, phone number, and LinkedIn URL to help match. Declined the LinkedIn URL -- if they don't already hold one linked to my name, sending it creates a link that did not previously exist, which is the opposite of a deletion request. Pointed out the framing error instead: this was never an account-based request, and a search against an account table will always return nothing for a B2B contact-database record. Re-sent the already-provided phone number (plus 8 priors) and all 8 email addresses, asked them to run the search against the prospecting/contact database rather than an account lookup, and said plainly that "not found" is an acceptable answer if that broader search genuinely returns nothing.
+- Current: `submitted` (updated 2026-08-17)
+- Note: Statutory delete/opt-out request emailed, tailored to the broker's data category; awaiting reply.
 
 ## Steps
 

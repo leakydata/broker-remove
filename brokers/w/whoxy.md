@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `manual_required` (updated 2026-08-20)
-- Note: Added 2026-08-20 as part of the historical-WHOIS source category (see viewdns note). No contact route established yet: whoisxmlapi.com and securitytrails.com return 403 to scripted fetches, domainbigdata.com returns a Cloudflare 530, and whoxy.com and domainiq.com serve privacy and contact pages that publish no address in page text. All five need a browser pass or an entity-decoded re-scrape before a letter can go out.
+- Note: WHOIS-intelligence cluster (SF 220). Route discovery failed: no published email; contact.php form only. Queued for handoff with the substance from the whoisxmlapi letter -- historical WHOIS is unredacted and carries a full registrant contact block, the four defunct-service addresses matter most, and the request should ASK what they hold rather than run a reverse-WHOIS, because searching hands them the identifiers and can create a query record. Status moved off 'pending' because a staged handoff is a decision, not an untouched row.
 
 ## Steps
 

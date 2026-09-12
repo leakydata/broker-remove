@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `failed` (updated 2026-09-05)
-- Note: Recorded route https://www.publicrecordcenter.com/remove.html returns HTTP 404 (route_check, 2026-09-05). Domain is alive (A record present) and DOES publish MX (Yahoo business mail), so an email route may exist even though the removal page is gone. Needs a contact discovery pass before this is written off -- do not record unreachable, the mailbox is up.
+- Current: `not_found` (updated 2026-09-07)
+- Reference: `publicrecordcenter.com/contact -- 'we do not compile, store, or aggregate any public records'`
+- Note: RESOLVED 2026-09-06 ON THE SITE'S OWN STATEMENT, using the SILENT_FAILURES 390 test -- read what the site says it is. The recorded route /remove.html is a 404, but /contact loads and carries this, verbatim, immediately above its contact form: 'Please note that we do not compile, store, or aggregate any public records. For specific record requests, please contact the appropriate government agency directly.' That is an affirmative statement that they hold nothing, made on their own contact page, before anyone asked. PublicRecordCenter.com is a DIRECTORY OF LINKS to government record sources, not a compiler. There is no record here to delete and no suppression to apply. Recording not_found rather than covered_by_sibling because there is no sibling -- there is simply no holding. Contact route, if ever needed: a Contact Form 7 style form posting to /contact_us_POST.php with name, email, subject and message; no email address is published anywhere on the site, and /privacy, /privacy-policy, /contact-us and /terms all return 404. The 2026-09-05 note asked for a contact discovery pass before writing this off; the pass was done and the answer turned out to be better than a contact address.
 
 ## Steps
 

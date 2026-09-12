@@ -8,6 +8,7 @@
 ## Status
 
 - Current: `submitted`
+- Note: Minimised letter (--keys email-only) to a PERSON-SHAPED contact -- the published route is an individual's own address, not a privacy@ desk, so the letter opens by saying why I am writing to them personally and asks for the better address (SF 189). B2B framing: notes that the CCPA business-to-business exemption EXPIRED 1 Jan 2023, so professional -capacity data is personal information like any other. Presses the derived-address point: a first.last@employer pattern built from my name and employment history is the identifier I cannot list, and the likeliest shape for a record in a business-contact file -- they can generate it from the same public profile it was built from. Event/conference intelligence, so the letter says outright that the two identifiers most likely to match are the university address and the LinkedIn URL, and asks them searched first. A professional-identity file resolves on work email, employer and profile -- home address and DOB could not match it.
 
 ## Steps
 

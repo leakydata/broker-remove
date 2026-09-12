@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-30)
-- Note: 2026-08-30 Sent the standard data-broker letter to support@delivr.ai (no dedicated privacy address published; used the general support address).
+- Note: Recovered from the committed playbook brokers/d/delivr_ai.md, because the ledger carries no notes and this row's status had no evidence behind it: 2026-08-30 Sent the standard data-broker letter to support@delivr.ai (no dedicated privacy address published; used the general support address).
 
 ## Steps
 

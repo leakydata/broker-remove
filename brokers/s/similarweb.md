@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-30)
-- Note: 2026-08-30 Sent the standard data-broker letter to legal@similarweb.com, tailored for a web-traffic/audience-analytics business (asked for hashed-identifier search).
+- Note: Recovered from the committed playbook brokers/s/similarweb.md, because the ledger carries no notes and this row's status had no evidence behind it: 2026-08-30 Sent the standard data-broker letter to legal@similarweb.com, tailored for a web-traffic/audience-analytics business (asked for hashed-identifier search).
 
 ## Steps
 

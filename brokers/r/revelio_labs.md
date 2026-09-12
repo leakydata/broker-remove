@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-20)
-- Disclosure received. **Deletion not yet confirmed.**
+- Current: `confirmed` (updated 2026-08-26)
+- Note: 2026-08-26: CONFIRMED AND CLOSED, with five direct answers - two of them uncomfortable and given anyway. (1) Suppression: 'Fully suppressed unless someone changes their professional profile URL and we can't connect it to the old one' - so a STANDING DO-NOT-SOURCE ENTRY IS POSSIBLE and is keyed to the profile URL, which directly validates _SILENT_FAILURES.md 90. (2) Modelled fields: 'We had modeled fields, but we have deleted all of them' - an admission that inferred attributes existed, in answer to a question naming estimated compensation, inferred seniority, inferred gender or ethnicity, and departure-likelihood scores. (3) Sources: 'professional profile sites' - generic where I had asked for named platforms; the one answer that fell short. (4) Downstream: 'No, we cannot enforce downstream deletion.' Flatly stated, which is exactly what I asked for - I had written that I would rather have an uncomfortable accurate answer than a comfortable vague one, and they gave one. (5) Aggregates: 'We fully deleted the individual record; it is no longer contained in aggregates.' They ended with 'we now consider this case fully closed and will not be engaging in further correspondence.' NOT PRESSING. They answered everything asked, including the parts that reflect badly on them. Pressing after that - on the one generic answer - is how you teach a company that answering candidly invites more work. Closed.
 
 ## What happened
 

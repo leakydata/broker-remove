@@ -7,7 +7,8 @@
 
 ## Status
 
-- Current: `pending`
+- Current: `confirmed` (updated 2026-08-25)
+- Note: 2026-08-25: ITEMISED. 4 of 12 emails matched - [EMAIL], [EMAIL], [EMAIL], [EMAIL] - each removed with associated data, and ALL TWELVE opted out from future use in the platform, i.e. standing suppression applied to addresses they did not hold. NOTABLE: all four matches are long-dead addresses (gateway.net and iwon.com are defunct ISPs); zero current addresses matched. Hashed-forms, edges and exchange-propagation questions still outstanding.
 
 ## Steps
 

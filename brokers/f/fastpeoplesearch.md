@@ -8,14 +8,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-23)
-- Note: 2026-08-20: first contact to support@fastpeoplesearch.com. 2026-08-21:
-  auto-reply deflection — "This email address is dedicated to customer service
-  inquiries... We do not process privacy requests received via email" — pointing
-  at `/removal` for opt-out and `/privacy-rights` for other requests. Both are
-  CAPTCHA-gated web forms; this project has no browser, so this stays
-  `submitted` rather than progressing further without a human. `/removal` and
-  `/privacy-rights` are the two URLs a human session should complete.
+- Current: `manual_required` (updated 2026-09-11)
+- Note: REVERTED 2026-09-11 to manual_required. An adoption on 2026-08-28 ("Adopted from the shared ledger... No detail is carried across") overwrote a DELIBERATE downgrade to manual_required and set this row to submitted, where it has read ever since as though a request went in. It did not: the company refused the email route in writing, which is why the downgrade was made. Nothing was revisited afterwards, so the adoption has been the last word for two weeks. See _SILENT_FAILURES 434. THE HUMAN ACTION IS QUEUED, under a different broker id than this one: handoff item 'mississippi_tornado_alley' [form], which is explicitly the route for the WHOLE ESTATE -- ten brands on one filing, starting at fastpeoplesearch.com/removal then the privacy-rights page on each sibling. THE REFUSAL THAT CAUSED THE DOWNGRADE: the consolidated letter went to privacy@mtalley.zendesk.com, the address on Mississippi Tornado Alley's own California data broker registration, on the premise that the estate's PRIVACY address was a working channel distinct from the brands' customer-service desks. Their reply killed that premise: 'This email address is dedicated to customer service inquiries and is not intended for privacy-related requests. We do not accept privacy requests received via email.' -- the same macro the brands send, and signed 'FastPeopleSearch Customer Support'.
 
 ## Steps
 

@@ -8,8 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-19)
-- Note: Public-records people search. Standard six-point set. NEW ELEMENT worth reusing: cited the National Public Data precedent from this morning directly in ask (b) - 'if you can action this from the identifiers below rather than asking me to submit a profile URL for each one, please do; another operator did exactly that this week and it removed several records in one step where their own form removes one page per submitted link'. Naming a live precedent from a peer makes the better route easy to grant and awkward to refuse, and it costs one sentence.
+- Current: `submitted` (updated 2026-08-26)
+- Reference: `gmail:1a03c61ff1f713b3`
+- Note: 2026-08-26: named explicitly in a scope addendum on InfoTracer ticket 544087 (thread gmail:1a03c61ff1f713b3). InfoPay, Inc.'s own California registration lists twelve brands in one field and our registry had seven of them collapsed into a single unsplit row with no status, so 'all InfoTracer properties' was doing more interpretive work than it should. The addendum lists every brand and every missed site by name and asks one question: does one suppression cover them all, or are some separate controllers - either answer is useful. It also reports a fault in their opt-out form, which takes only first name / last name / state / city and therefore cannot reach records keyed to identifiers the consumer no longer uses, which are exactly the records a consumer cannot find in order to ask for their removal.
 
 ## Steps
 

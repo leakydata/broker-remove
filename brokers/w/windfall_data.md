@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-30)
-- Note: 2026-08-30 sent privacy@windfalldata.com (177 second-address; privacy@windfall.com already submitted, different domain, so not assuming one reaches both -- offered to stand the other down if it does). Wealth-estimate category, same shape as aidentified: the estimate is not a fact anyone supplied but an inference their systems produced, so asked what value is attached and what inputs produced it, then IS IT ACCURATE with both branches stated -- wrong means a false financial profile circulates, RIGHT is more troubling because it means a reliable estimate of my finances is available to any subscriber, assembled without my knowledge. Objection is to the estimate existing, not to it being unflattering. FIRST LETTER CARRYING THE NEW 193/194 ASKS: which identifiers matched, and whether the suppression is keyed to ME or to the keys I sent -- with the live-compile consequence spelled out. And the cap: suppress the association keyed to name+DOB, never the bare address or number, and if the system can only exclude a bare value do not apply it to the former ones at all.
+- Current: `manual_required` (updated 2026-08-30)
+- Note: DECLARED_UNMONITORED, second instance after PureCars (SF 205). privacy@windfall.com replied 2026-08-31: 'Unfortunately, this email address is not being monitored to process consumer requests. If you want to exercise your consumer rights please visit our webform or try calling us at (800) 946-...'. Note the address I wrote to was privacy@windfalldata.com and the reply came from privacy@windfall.com -- so the mail was routed, read enough to autorespond, and the answering address disclaims monitoring. Queued for the webform, with the phone number as the alternative. Same shape as PureCars: the mailbox works and answers, and the company states nobody reads it.
 
 ## Steps
 

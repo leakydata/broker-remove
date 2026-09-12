@@ -7,17 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-25)
-- Note: 2026-08-25: first letter went to `security@audiencepoint.com`, the contact
-  named in AudiencePoint's California data broker registration. It bounced —
-  Google Workspace returned *"the group you tried to contact (security) may not
-  exist, or you may not have permission to post messages to the group"*, the
-  internal-distribution-group signature (see CONTRIBUTING.md's bounce-class
-  notes). Found `privacy@audiencepoint.com` published as the actual privacy
-  contact on their own site and resent there. **Registry filings name whoever the
-  company nominated for CA compliance, not necessarily a mailbox that accepts
-  outside mail — check the company's own site before trusting a registry-listed
-  address.**
+- Current: `submitted` (updated 2026-08-29)
+- Note: 2026-08-29 sent the 182 configuration note to privacy@audiencepoint.com, which WORKS -- the restricted group here is security@audiencepoint.com. Argued it as an oversight rather than policy precisely because the sibling privacy@ group is configured correctly, so somebody opened one and never revisited the other. Made the security-specific case: security@ is the conventional vulnerability-report route, and a researcher who bounces once will conclude the channel is dead and either give up or go public, leaving no trace either way. Allowed for it being intentional.
 
 ## Steps
 

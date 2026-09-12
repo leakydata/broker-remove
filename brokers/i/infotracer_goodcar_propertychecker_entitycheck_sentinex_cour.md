@@ -7,9 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-26)
+- Current: `not_found` (updated 2026-08-27)
 - Reference: `gmail:1a03c61ff1f713b3`
-- Note: 2026-08-26: named explicitly in a scope addendum on InfoTracer ticket 544087 (thread gmail:1a03c61ff1f713b3). InfoPay, Inc.'s own California registration lists twelve brands in one field and our registry had seven of them collapsed into a single unsplit row with no status, so 'all InfoTracer properties' was doing more interpretive work than it should. The addendum lists every brand and every missed site by name and asks one question: does one suppression cover them all, or are some separate controllers - either answer is useful. It also reports a fault in their opt-out form, which takes only first name / last name / state / city and therefore cannot reach records keyed to identifiers the consumer no longer uses, which are exactly the records a consumer cannot find in order to ask for their removal.
+- Note: Covered by InfoPay's consolidated reply of 2026-08-27, which states it is 'provided by InfoPay on behalf of its brands' and consolidates ten reference numbers. Nil return across the full identifier set plus a standing suppression re-applied on ingestion. See infopay for the full answer.
 
 ## Steps
 

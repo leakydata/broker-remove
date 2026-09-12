@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-01)
-- Note: No registry filing and no clear indication of what a mapping/directions company would hold about an individual beyond a name-and-address search testing the wrong keys. Sent the "unknown broker" categorisation letter, adapted to specifically ask about search/route history and IP-or-device-derived location data, which a name search would not surface.
+- Current: `submitted` (updated 2026-09-02)
+- Note: Emailed help@mapquest.com 2026-09-02. Directory-sourced row (Optery), NO state registration for MapQuest or its parent in any register file held -- said so plainly in the letter and offered 'the listing is wrong' as a complete answer. The one basis that would make it right: a maps product generates PRECISE GEOLOCATION as a matter of course, so the narrow ask is whether location/usage data is licensed or shared onward rather than used to provide the service; if yes, delete + opt-out + 1798.121 limit. Also reported that mapquest.com/legal/privacy-policy returns 404 -- note this row's email_verified_by was 'privacy_policy', so the evidence that verified this address no longer exists.
 
 ## Steps
 

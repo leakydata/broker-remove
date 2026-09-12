@@ -7,9 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-15)
-- Reference: `gmail:1a00681df99195b5`
-- Note: Statutory deletion + opt-out emailed from [EMAIL]. All 4 email identities + DOB asserted. Pre-empts the residency deflection: if no covering statute, honor as company policy and state which basis in writing. LEAD-GEN variant: asks them to identify downstream lead purchasers and propagate deletion, since a sold lead keeps circulating after their copy is deleted.
+- Current: `submitted` (updated 2026-08-26)
+- Reference: `gmail:1a03dfbd9f3b3c15`
+- Note: 2026-08-26: supplementary letter sent with the four late email addresses, six prior postal addresses and three prior phone numbers, framed as completing the request already on file. ONE LETTER PER ADDRESS: this mailbox is the published privacy contact for several brands, so the letter NAMES the siblings and asks them to confirm against each by name - a reply naming one brand would leave us unable to tell whether the others were looked at. Covers 33 Mile Radius, Keyword Connects and Remodeling.com.
 
 ## Steps
 

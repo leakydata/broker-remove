@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-18)
-- Note: Statutory delete + opt-out + suppression letter sent to the published contact, covering every prior address, prior telephone number and alternate email address rather than only the current ones.
+- Current: `submitted` (updated 2026-08-27)
+- Reference: `gmail:1a01576278d33ebe`
+- Note: 2026-08-27: a HUMAN reply nine days on, and a cooperative one: 'We have a lot of [PERSONAL]'s in our database. Is there a company you work for?' That confirms they hold records under the name and that name alone will not disambiguate. DECLINED to name an employer, for two reasons stated to them: supplying one would CREATE a name-to-employer association rather than remove one, which is a strange outcome for a deletion request; and a search narrowed to the employer he happens to name would silently exclude records built around a different one. Offered better keys instead - twelve email addresses and twelve phone numbers, which are unique where names collide, plus the public LinkedIn URL which carries employment history without retyping it. Also asked them to generate and search DERIVED first.last@employer addresses he has never owned, and to key the suppression to NAME as well as address since an email-keyed entry cannot stop a rebuild from name plus employer.
 
 ## Steps
 

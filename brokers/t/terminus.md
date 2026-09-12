@@ -9,7 +9,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-20)
-- Submitted and email-verified 2026-08-20. Awaiting substantive response.
+- Note: SUBMITTED AND VERIFIED 2026-08-20. Human solved the reCAPTCHA and pressed Submit; verification link clicked at 16:37Z. Portal confirms: 'We have received your Right to Erasure (Right to be Forgotten) Request, and will be in touch shortly.' Their verification email volunteers the suppression answer unprompted - see brokers/t/terminus.md.
 
 ## Steps
 

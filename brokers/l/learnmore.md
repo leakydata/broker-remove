@@ -8,8 +8,7 @@
 ## Status
 
 - Current: `confirmed` (updated 2026-09-02)
-- Note (2026-09-02): "the entry for [FIRST LAST] has been successfully expunged from our database of available reports," up to 48 hours to reflect on the site. Templated support-desk reply (Help Scout) — did not answer whether the record was a directly-supplied contact vs. a sold/compiled education lead, or name a downstream recipient. Not pursued further given a clean removal confirmation; the lead-provenance question is lower value once the record itself is gone.
-- Reference: `gmail:1a047ed536407281`
+- Note: REMOVED 2026-09-02: support@learnmore.com -- 'Your record removal request has been received, and we are pleased to confirm that the entry for [the subject] has been successfully expunged from our database.' Names the record removed rather than confirming generically, which passes the 138 test: 'the entry for [name]' is something only a search could have produced. Sent 2026-08-28 to compliance@learnmore.com; the reply came from support@. Not yet stated: whether the removal is accompanied by a standing suppression against re-addition, which is the one thing that decides whether it lasts.
 
 ## Steps
 

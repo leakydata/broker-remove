@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-25)
-- Note: 2026-08-25: emailed privacy@connatix.com. Video/native ad exchange. Standard identity-graph letter with the hash-it-yourself clause. Added a service-provider fallback that is worth reusing: 'If your answer is that Connatix acts only as a service provider to publishers and holds nothing in its own right, please say so explicitly, and say whether the opt-out will nonetheless be propagated. A processor that cannot delete can usually still suppress.' That converts the processor deflection into a partial win instead of a dead end.
+- Note: 2026-08-25: the _DEFLECTIONS.md 54 pattern again, one tick after LoopMe - 'Connatix does not hold any consumer's name, email, phone, address or other directly-identifiable information. Therefore, we cannot identify you.' Two independent instances in an hour confirms this is the industry's standard formulation, not one company's phrasing. Replied with the same structure: accept the sentence, then ask the three questions it does not answer - do you hold HASHED forms of the twelve addresses (hash them yourself, you have the function and I supplied the inputs), are they linked to cookie/device/CTV IDs and will the LINKS go, and if a hash is retained for suppression which list does it sit on. Plus the processor-fallback line: if you hold nothing in your own right, say so AND say whether the opt-out will be propagated, because a processor that cannot delete can usually still suppress.
 
 ## Steps
 

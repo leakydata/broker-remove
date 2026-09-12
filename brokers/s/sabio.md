@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-26)
-- Note: 2026-08-26: emailed privacy@sabio.inc. Asked for hashed-email matching (SHA-256/MD5), cookie IDs, MAIDs, modelled audience segments, and opt-out of cross-context behavioral advertising sharing specifically, including downstream DSP/SSP propagation.
+- Current: `submitted` (updated 2026-08-28)
+- Note: Recovered from the committed playbook brokers/s/sabio.md, because the ledger carries no notes and this row's status had no evidence behind it: 2026-08-26: emailed privacy@sabio.inc. Asked for hashed-email matching (SHA-256/MD5), cookie IDs, MAIDs, modelled audience segments, and opt-out of cross-context behavioral advertising sharing specifically, including downstream DSP/SSP propagation.
 
 ## Steps
 

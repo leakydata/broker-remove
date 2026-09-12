@@ -7,16 +7,8 @@
 
 ## Status
 
-- Current: `failed` (updated 2026-08-26)
-- Note: Statutory opt-out/deletion email sent 2026-08-22.
-- Note: 2026-08-26: the send never delivered. Gmail retried for the full 3 days
-  ("recipient server did not accept our requests to connect" — a connection
-  timeout, not a mailbox-not-found bounce) and the final DSN on 2026-08-25
-  confirmed permanent failure. This is a dead mail server, not a dead mailbox:
-  the domain's MX simply never answers. No alternate contact found on the
-  registry filing. Needs a fresh look at whether 4-eyes.ai is still a live
-  company (check for a current website, a successor domain, or a later state
-  registration) before trying again.
+- Current: `unreachable` (updated 2026-08-26)
+- Note: 2026-08-26 DOWNGRADE, submitted -> unreachable. The letter of 2026-08-22 never landed: Gmail retried for 48 hours and gave up with 'the recipient server did not accept our requests to connect'. 4-eyes.ai publishes NO MX record; mail falls back to the A record under RFC 5321, and that host refuses SMTP outright. Our domain checker calls this 'weak' rather than False, which is the right default - A-record fallback genuinely works for some small domains, and condemning a broker on it is the expensive direction of the mistake - but the send path was not surfacing it, so the failure looked like silence for four days while the status read submitted. queue_batch now names weak-MX domains at send time so the bounce is anticipated rather than discovered later. Address added to data/dead_addresses.json.
 
 ## Steps
 

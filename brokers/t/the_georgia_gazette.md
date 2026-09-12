@@ -7,7 +7,8 @@
 
 ## Status
 
-- Current: `submitted`
+- Current: `not_found`
+- Note: CLOSED IN ONE LINE, 2026-08-31 16:17, from the publisher personally: 'We are simply a news website and do not sell databases, lists, APIs, or the like. Matt, Publisher.' Fifteen minutes after my letter. That answers question 1 completely and disposes of the directory listing -- SF 214's weak frame working exactly as intended: I said 'that listing is wrong, we are a newspaper' would be a complete answer, and it was. Question 2 (whether any structured field ties a namesake's story to my identifiers) went unanswered, but it was conditional on there being a dataset, and there is not. Recording as not_found and not writing again.
 
 ## Steps
 

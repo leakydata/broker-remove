@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-25)
-- Note: 2026-08-25: emailed support@cinqdi.com - a support desk rather than a privacy desk, so the forward-this-internally opener was used (SILENT_FAILURES 83). Otherwise the two general-purpose asks plus the identifier-keyed fallback with the hash-it-yourself clause.
+- Current: `not_found` (updated 2026-09-10)
+- Reference: `gmail:1a0381a6462898d8`
+- Note: NIL RESULT 2026-09-10, AND THE RESIDENCY GATE WAS ABANDONED WITHOUT COMMENT. Sequence: 25 Aug request; 26 Aug refusal from Heather Gothot, Principal Digital Project Manager, mv digital group -- 'only residents of certain states are eligible to submit consumer requests. Based on the information provided, it appears you are not a resident of one of those states.' A Pennsylvania address had been given in the letter, so on the stated facts they were CORRECT and the reply said so plainly rather than arguing. What the reply did instead was invoke the clause the original letter had put there for exactly this answer: 'If you believe you are not subject to these statutes, I ask that you honor this request as a matter of your published privacy policy' -- and asked the question separately from any statute, offering an explicit no as a complete answer. FIFTEEN DAYS LATER they searched: 'After reviewing our systems, we can confirm that we do not maintain any of the data referenced in your request. As such, we do not have information associated with the individual on file and therefore are unable to process the deletion request.' No mention of residency, no refusal on policy grounds -- they simply looked. Recorded not_found rather than unreachable: the search happened and returned nothing. THE TRANSFERABLE PART: a state-eligibility gate is a claim about OBLIGATION, not about capability, and it collapses when the request is re-put as a policy question with a stated no offered as an acceptable outcome. Worth reusing on every register-sourced broker that refuses a PA resident on eligibility. See _SILENT_FAILURES 430.
 
 ## Steps
 

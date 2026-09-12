@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `confirmed` (updated 2026-08-25)
-- Note: SOFT BOUNCE, new class: privacypolicy@fourthwall.tv forwards to css-support@fourthwall.tv and the DSN says 'The recipient's mailbox is full and can't accept messages now.' Not a dead address - a full one. The mailbox exists, the domain is fine, and the message was simply refused for want of space. A follow-up run (2026-08-22) resent to californiadrop@fourthwall.tv (a different, previously-untried address from curated_brokers.json) instead of waiting and retrying the original — this contradicts the playbook's own advice below not to re-route. It did deliver without bouncing, so leave as `submitted`, but the still-open question from 2026-08-18 stands: this may be a false-positive registry entry (Fourthwall is creator-commerce, not people-search/ad-tech). If the reply says "not a data broker" / "no data held," record `not_found`.
+- Current: `confirmed` (updated 2026-08-24)
+- Note: 2026-08-24: 'Any and all personal information pertaining to you has been deleted from our systems where present, and you have been opted out of any future sale or sharing.' Was marked failed after privacypolicy@fourthwall.tv bounced (mailbox full); the californiadrop@ resend worked and they answered BOTH threads from privacymailbox@fourthwall.tv.
 
 ## Steps
 

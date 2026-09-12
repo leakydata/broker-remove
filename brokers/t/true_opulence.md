@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-31)
-- Note: Name suggests a wealth/luxury-marketing list (similar shape to `_CATEGORY_VARIANTS.md`'s "Identity/wealth graphs"). Asked specifically whether they hold a net-worth, income, or purchasing-capacity estimate about me — a modelled attribute is personal information even though I supplied none of it — and invited a correction if the guess about their business is wrong.
+- Note: Recovered from the committed playbook brokers/t/true_opulence.md, because the ledger carries no notes and this row's status had no evidence behind it: Name suggests a wealth/luxury-marketing list (similar shape to `_CATEGORY_VARIANTS.md`'s "Identity/wealth graphs"). Asked specifically whether they hold a net-worth, income, or purchasing-capacity estimate about me — a modelled attribute is personal information even though I supplied none of it — and invited a correction if the guess about their business is wrong.
 
 ## Steps
 

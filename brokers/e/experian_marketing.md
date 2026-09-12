@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-21)
-- Note: 2026-08-21: first contact via the address nominated in the California data broker registration. Scoped explicitly to non-FCRA data (marketing, identity graph, skip-trace) with the credit file excluded up front, plus prescreen opt-out and, for Equifax, a Work Number Employment Data Report and freeze.
+- Current: `submitted` (updated 2026-08-24)
+- Note: 2026-08-24: the 21 Aug letter to [named individual]@experian.com has had no reply in 3 days, and the sibling ca_drop_audigent@ auto-replies that it is unmonitored - so that request was almost certainly never read. Resent via optout@experian.com with a fault report on both registered addresses.
 
 ## Steps
 

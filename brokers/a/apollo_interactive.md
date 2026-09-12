@@ -7,7 +7,8 @@
 
 ## Status
 
-- Current: `pending`
+- Current: `submitted` (updated 2026-08-24)
+- Note: 2026-08-24: lead-gen letter - sale count and buyers, direct the buyers to delete, name the originating site or affiliate, whether it was ever resold as an aged lead, and do-not-call held independently of the lead record.
 
 ## Steps
 

@@ -8,8 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-20)
-- Note: Emailed dpo@verinext.com. Verinext's own site describes an IT consulting / digital-transformation firm (cloud, data protection, automation, security, AI implementation) — another likely false positive on the broker list it came from.
-- **Note (2026-09-03): a second copy of the same request landed here** via the `anexinet` row — Anexinet rebranded to Verinext, its own registered address hard-bounced, and a bounce-correction pass resent to this same dpo@verinext.com without checking this row existed first. Harmless duplicate; see `anexinet.md` for the full account. `anexinet` is now marked `covered_by_sibling` pointing here.
+- Note: Recovered from the committed playbook brokers/v/verinext.md, because the ledger carries no notes and this row's status had no evidence behind it: Emailed dpo@verinext.com. Verinext's own site describes an IT consulting / digital-transformation firm (cloud, data protection, automation, security, AI implementation) — another likely false positive on the broker list it came from.
 
 ## Steps
 

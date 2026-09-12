@@ -7,7 +7,8 @@
 
 ## Status
 
-- Current: `pending`
+- Current: `submitted` (updated 2026-08-24)
+- Note: 2026-08-24: property-data letter. Conceded the county public record up front, then asked for the layer built on top: AVM and equity estimates, likelihood-to-sell/refinance/distress scores, the person-to-property linkage and appended phones/emails (neither of which is a public record), occupancy and household inference, match count across 16 addresses in 3 states, and which licensees received it. Asked explicitly whether suppression survives the next county refresh.
 
 ## Steps
 

@@ -8,9 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-25)
-
-> **Note (2026-08-29):** a separate pass, working from a stale local copy of the registry that predated this playbook, independently sent a second statutory letter to the same address, not knowing this company had already been contacted on 2026-08-25. Harmless duplicate — no action needed — but worth flagging: "does a playbook already exist for this id" is a cheap check that would have caught it before sending, and evidently wasn't run.
-- Note: 2026-08-25: emailed privacy@demandbase.com. Account-based marketing, three distinct products asked about separately: derived first.last@employer addresses (Kaspr precedent); INTENT DATA, argued as behavioural information - a record that a named individual researched a particular topic at a particular time is more revealing than a contact record and invisible to the subject, so asked which publisher or co-op sources it came from; and visitor resolution asked CAREFULLY, since the honest answer may be company-level only, with a pre-commitment to accept a plain no as complete.
+- Note: ACTED 2026-08-31 10:01: 'As requested, we have entered your details in our system to check for the email address [EMAIL]. You will receive an email confirmation at [EMAIL].' They are searching the WORK address -- the identifier they asked for and the one their Business Profiles are keyed to. Outcome pending. Still open from my reply: whether 'do not process personal email addresses' means they never hold one or only that they do not match on one, and whether they searched any DERIVED first.last@employer address I could not supply.
 
 ## Steps
 

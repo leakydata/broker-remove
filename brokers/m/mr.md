@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `not_found` (updated 2026-08-20)
-- Closed on a complete, specific negative. No further action.
+- Note: COMPLETE NEGATIVE 2026-08-20 16:09Z from a named Senior Data Analyst, six minutes after the follow-up: 'we did check our records AND client records we hold for all of those email addresses and phone numbers, and did not find any matches on any of those data points. We also treat all request as deletion requests, so if we had found any of your data, it would be deleted.' Answers all three open points: own records AND client-held records, all emails and phones, and the 'access request' label was template wording not a different process. CORRECTION: the first reply's narrow-sounding wording ('your name and/or address') was BOILERPLATE, not a description of a narrow search - they had already searched broadly. Closing as not_found.
 
 ## Outcome
 

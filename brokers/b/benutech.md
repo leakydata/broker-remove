@@ -7,7 +7,8 @@
 
 ## Status
 
-- Current: `pending`
+- Current: `submitted` (updated 2026-08-25)
+- Note: 2026-08-25: property/homeowner data to real-estate professionals. Conceded the county record up front, then went for the contact append - the county published a property and an owner name, not the owner's phone number - plus the person-to-property linkage, likelihood-to-sell and distress scoring, which customers exported it, and do-not-skip-trace held independently so re-running enrichment does not re-append. Sent to a named individual with a forward request.
 
 ## Steps
 

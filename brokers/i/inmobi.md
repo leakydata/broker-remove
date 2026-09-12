@@ -8,6 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-18)
+- Note: Recovered from the committed playbook brokers/i/inmobi.md, because the ledger carries no notes and this row's status had no evidence behind it: No note in the playbook; its status line records `submitted` as of 2026-08-18. That is the whole of the evidence for this row.
 
 ## Steps
 

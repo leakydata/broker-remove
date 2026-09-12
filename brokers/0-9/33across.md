@@ -8,9 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-17)
-- Reference: `auto-reply 2026-08-15`
-- Note: Auto-acknowledged. Adtech opt-out framing - they emphasise interest-based advertising choice rather than deletion; may need follow-up to distinguish opt-out-of-targeting from deletion of identifiers.
+- Current: `submitted` (updated 2026-08-26)
+- Reference: `gmail:1a03dfc22c483e9e`
+- Note: 2026-08-26: replied with adtech boilerplate from Privacy+noreply@33across.com pointing at their cookie opt-out page. That is an ad-PREFERENCE signal for one browser, not a deletion - after setting it they still hold the hashed emails, device/CTV ids, segments and the edges between them. Answered with the distinction stated plainly and three line-answerable asks: hash the four new addresses themselves rather than concluding no-match from plaintext, delete the EDGES not only the nodes, and say whether it is deletion or suppression.
 
 ## Steps
 

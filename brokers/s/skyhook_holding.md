@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-30)
-- Note: 2026-08-30 Sent the AD TECH / location-data variant to privacy@skyhook.com (WiFi/device positioning data). Declined to supply a MAID or device ID myself, same reasoning as PlaceIQ above -- asked what alternative verification they can accept.
+- Note: Recovered from the committed playbook brokers/s/skyhook_holding.md, because the ledger carries no notes and this row's status had no evidence behind it: 2026-08-30 Sent the AD TECH / location-data variant to privacy@skyhook.com (WiFi/device positioning data). Declined to supply a MAID or device ID myself, same reasoning as PlaceIQ above -- asked what alternative verification they can accept.
 
 ## Steps
 

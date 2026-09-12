@@ -8,8 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-23) — one consolidated letter covering
-  all ten.
+- Current: `manual_required` (updated 2026-09-11)
+- Reference: `gmail:1a03dc2c0d3cc2a7`
+- Note: REVERTED 2026-09-11 to manual_required, COMPLETING A CORRECTION I SAID WAS FINISHED AND WAS NOT. An adoption on 2026-08-28 overwrote a deliberate downgrade and set this row to submitted, where it has read ever since as though a request went in. It did not -- the company refused the email route, which is why the downgrade was made. _SILENT_FAILURES 434 recorded this for seventeen rows and claimed all seventeen were corrected; only seven were, and this is one of the ten that was left reading 'submitted' for another hour. A handoff item is open under this same id [form]. THE EVIDENCE THE ADOPTION ERASED, from 2026-08-26: 2026-08-26 DOWNGRADE, submitted -> manual_required, and it corrects a conclusion drawn earlier the same day. This status rested on the consolidated letter to privacy@mtalley.zendesk.com, the address on Mississippi Tornado Alley's own California data broker registration, on the premise that the estate's PRIVACY address was a working channel distinct from the brands' customer-service desks. That premise is false. Their
 
 ## The properties
 

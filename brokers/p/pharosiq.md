@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `not_found` (updated 2026-08-24)
-- Note: privacy@pharosiq.com replied 2026-08-20: 'We have reviewed our systems, and the information you provided is not present. No further action is required.'
+- Current: `not_found` (updated 2026-08-23)
+- Note: Adopted from the shared ledger: another agent recorded 'not_found' on 2026-08-23. No detail is carried across — re-read the broker's own reply before relying on this.
 
 ## Steps
 

@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-21)
-- Note: 2026-08-21: first contact via the address nominated in the California data broker registration. Scoped explicitly to non-FCRA data (marketing, identity graph, skip-trace) with the credit file excluded up front, plus prescreen opt-out and, for Equifax, a Work Number Employment Data Report and freeze.
+- Current: `submitted` (updated 2026-08-24)
+- Note: 2026-08-24 second reply: claims Work Number is a processor and access/correction/deletion must go to the employer. Correct for deletion, incorrect for ACCESS - The Work Number is a CRA under the FCRA, s609 file disclosure comes from the CRA not the furnisher, and Equifax already runs an employee portal for the Employment Data Report and freeze. Pushed back on that specific point plus the four still unanswered.
 
 ## Steps
 

@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-29)
-- Note: 2026-08-29 sent hirerightprivacy@hireright.com. DELIBERATELY NOT the standard letter: HireRight's policy states 'We are a consumer reporting agency governed by the FCRA, so this exemption applies' -- the CCPA FCRA carve-out (1798.145) makes a deletion demand the wrong instrument. Sent an FCRA 609 file disclosure request instead: 609(a)(1) file contents, 609(a)(2) sources, and 609(a)(3) the identification of each person who procured a report on me (2yr employment / 1yr other) -- the recipients answer every broker refuses, which the FCRA simply owes. Part two works the activity-scoped nature of the exemption: it exempts FCRA-regulated activity, not the entity, so asked what they hold OUTSIDE it and made that a CCPA delete/opt-out/suppress request. Named the SSN/gov-ID limit up front and asked what alternative verification channels exist rather than arguing.
+- Current: `acknowledged` (updated 2026-08-29)
+- Note: SUBMISSION RECEIVED, CASE OPENED. noreply@hireright.com: 'We have received your submission and a member of our Consumer Support team will contact you shortly if additional information is needed'. HireRight is FCRA-regulated background screening, so the SF-standing point applies: the 1798.145(d) exemption is ACTIVITY-SCOPED, NOT ENTITY-SCOPED -- it reaches consumer-reporting activity and not whatever else the business does. Any decline should NAME THE ACTIVITY. Also worth remembering that FCRA 609 gives an independent right of file disclosure that does not depend on the CCPA at all, so a CCPA decline is not the end of the route here.
 
 ## Steps
 

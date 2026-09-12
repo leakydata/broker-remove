@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-29)
-- Note: 2026-08-29 COVERED BY CANONICAL (SILENT_FAILURES 177). duplicate_of=buildertrend, and both rows carry the identical address legal@buildertrend.com -- so a letter was sent to this exact address for the canonical row 'buildertrend' (submitted). Not a separate send: the mailbox has the request, and whether the company files it under one brand name or the other is internal to them. Status set here so the queue stops offering a second letter to an address that already has one. NOT marked confirmed -- no confirmation was received for this row.
+- Current: `covered_by_sibling` (updated 2026-09-03)
+- Note: 2026-09-03 (§308): same company as buildertrend, same mailbox. One letter covers both rows; see brokers/b/buildertrend.md for the designated-method dead end.
 
 ## Steps
 

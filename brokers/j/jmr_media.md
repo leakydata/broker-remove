@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-28)
-- Note: Emailed [named individual]@jmr-media.com 2026-08-28 (person-shaped route as filed on the CA registry, 2020-2026). Standard letter incl. retention clause.
+- Current: `manual_required` (updated 2026-08-28)
+- Note: DESIGNATED-METHOD REFUSAL. JMR Media: 'If this message is a consumer privacy request, we do not accept email as a submission method... please submit your request using one of our designated methods.' Legitimate under 1798.130. Route to be staged for the handoff queue rather than argued with.
 
 ## Steps
 

@@ -8,7 +8,13 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-28)
-- Note: Sent the LIST-BROKERAGE variant: suppression rather than one-time deletion since a supplied file is beyond their control afterwards, plus the past-purchaser question; the generated-address ask with the LinkedIn profile as the derivation source; and the B2B carve-out pre-empted with the 1 Jan 2023 sunset date and a request to cite the provision rather than decline quietly on it. Closing ask for which identifier types were searched.
+- Note: CORRECTION to the earlier note. The 47-second reply was NOT a human answer -- it is an autoresponder. A follow-up sent 33 minutes later drew a BYTE-IDENTICAL reply, same three paragraphs, quoting a completely different letter. See _SILENT_FAILURES 143 and its correction.
+
+What this changes: the architectural claim ('reselling intermediary... we do not maintain a persistent database... we will exclude your information from future distribution and direct the data source(s)') is TEMPLATE TEXT, true of every requester. It may well be accurate -- a pass-through reseller is a real business shape and nothing contradicts it -- but it is a POLICY STATEMENT, not a confirmation that anything was done for this request. The exclusion and the upstream direction are not evidenced.
+
+My error was applying 138's test backwards: I treated a specific, non-obvious fact about the COMPANY as corroboration, when the test requires something only THIS REQUEST could have produced -- an itemised match, a per-right split, a nil return against named identifiers. A company can put a true and interesting sentence in a macro and it stays a macro.
+
+The follow-up asking them to NAME THE DATA SOURCES has demonstrably not been read by a person. Email appears to be a wall here: every inbound message draws the same text. If this is to progress it needs a different channel -- a state registry contact, a web form, or a regulator complaint if the statutory deadline passes with no individualised response.
 
 ## Steps
 

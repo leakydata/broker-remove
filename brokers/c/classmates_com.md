@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-18)
-- Note: Receipt confirmed by Zendesk: 'Thank you for your privacy request. This message serves as confirmation of receipt.' Awaiting substantive response.
+- Current: `manual_required` (updated 2026-09-11)
+- Note: REVERTED 2026-09-11 to manual_required. An adoption on 2026-08-28 ("Adopted from the shared ledger... No detail is carried across") overwrote a DELIBERATE downgrade to manual_required and set this row to submitted, where it has read ever since as though a request went in. It did not: the company refused the email route in writing, which is why the downgrade was made. Nothing was revisited afterwards, so the adoption has been the last word for two weeks. See _SILENT_FAILURES 434. THE HUMAN ACTION IS QUEUED, under a different broker id than this one: NOTHING COVERS THIS ONE -- it is the only row of the seven with no handoff item anywhere, under any id, and it is the one that needs a PHONE CALL. Classmates was explicitly CARVED OUT of the PeopleConnect family suppression that covered Intelius, InstantCheckmate, TruthFinder and USSearch on 2026-08-27. Intelius support: 'You will need to reach out directly to Classmates for assistance with any removal from their site (206) 301-5700.' A phone remedy for one sibling where the other four took a single email. A request to route it internally was made rather than resorting to the call; no answer. Queued as a phone handoff 2026-09-11.
 
 ## Steps
 

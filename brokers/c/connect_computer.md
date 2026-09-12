@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `unreachable` (updated 2026-08-25)
-- Note: 2026-08-25: contact domain publishes no MX and no A record - nothing can be delivered. The broker's own domain is equally dead, so there is no alternative route by mail. Never written to; marked before spending a send. Re-check if the domain is ever reinstated.
+- Current: `unreachable` (updated 2026-08-28)
+- Note: PERMANENT FAILURE CONFIRMED 2026-08-28, third and final bounce (26th, 27th, 28th Aug). 'DNS Error: DNS type mx lookup of calltruth.com responded with code SERVFAIL', status 4.4.3 -- a TEMPORARY code that simply never resolved, which is why it took three days to become final. Verified by hand: calltruth.com SERVFAILs on NS, SOA, MX and A, from two independent resolvers. The domain is still REGISTERED (eNom, clientTransferProhibited) and still delegated to DNS1-4.NAME-SERVICES.COM, but those nameservers do not answer. So this is a third distinct shape alongside the ones already in dead_addresses.json: NXDOMAIN means the name does not exist, no-MX-no-A means the name exists with no mail route, and SERVFAIL means the name is delegated to nameservers that are broken or gone. Practically undeliverable and slow to prove, because a resolver cannot tell a broken nameserver from a briefly unreachable one -- which is also why check_email_domains.py cannot pre-empt this class the way it pre-empts the other two. Retry only if the delegation is ever seen to answer.
 
 ## Steps
 

@@ -8,9 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-20)
-- Reference: `540175`
-- Note: Zendesk acknowledgement, ticket 540175. Awaiting substantive reply to the tailored public-records letter (criminal-entry sources, DPPA scoping for driving/vehicle records, FCRA-vs-not-a-CRA contradiction, suppression, related-person entries, noindex).
+- Current: `not_found` (updated 2026-09-07)
+- Reference: `searchquarry.com 'Database updated as of 09/06/2026'`
+- Note: RE-VERIFICATION ATTEMPTED 2026-09-07 AND INCONCLUSIVE, but it surfaced a fact that matters more than the attempt. Their real search endpoint was discovered from their own form -- /namesearch/search with fname, lname and city -- and it returns a POLLING PAGE rather than results: 'Your Public Records Search is for [name] in ... 1% If the search is taking too long, please try searching again'. Results render in JavaScript, so no scripted verdict is possible. THE FACT WORTH RECORDING, from that same page: 'DATABASE UPDATED AS OF 09/06/2026' -- yesterday. A DAILY REBUILD. That is the durability question answered by the site itself: on an index rebuilt every day, a deletion has at most a day's shelf life unless a suppression entry persists across builds, and nothing in this row's history establishes that one does. The not_found status stands as a statement about what was published when it was checked, and no more. See SILENT_FAILURES 409. Re-verification here belongs in the batched browser handoff, not in a script.
 
 ## Steps
 

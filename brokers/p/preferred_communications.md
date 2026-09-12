@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-27)
-- Note: 2026-08-27: first contact. Direct-mail/list-rental variant: asked them to identify clients/list partners who already received a record and direct them to delete it too.
+- Current: `submitted` (updated 2026-08-28)
+- Note: Recovered from the committed playbook brokers/p/preferred_communications.md, because the ledger carries no notes and this row's status had no evidence behind it: 2026-08-27: first contact. Direct-mail/list-rental variant: asked them to identify clients/list partners who already received a record and direct them to delete it too.
 
 ## Steps
 

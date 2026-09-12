@@ -8,9 +8,9 @@
 
 ## Status
 
-- Current: `confirmed` (updated 2026-08-25)
+- Current: `confirmed` (updated 2026-08-24)
 - Reference: `gmail:1a00c694fb057918`
-- Note: Statutory deletion + opt-out emailed from [EMAIL]. All 4 email identities + DOB asserted; asks them to search hashed forms too. Includes fallback: if no covering statute or non-covered state, honor as company policy and state which basis in writing. ADTECH variant: cookie/MAID/hashed-email identifiers and inferred brand-affinity segments.
+- Note: 2026-08-24: 'we have checked our systems and we have deleted all your data. Additionally, we have added your IDs to an exclusion list, so that no data with your IDs will be retained.' Deletion PLUS a standing exclusion list keyed to the identifiers. They also volunteered to check social media handles if supplied - not taken up, since handing a social-affinity broker new handles it may not hold is the same one-way bet as a MAID.
 
 ## Steps
 

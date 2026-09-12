@@ -7,7 +7,8 @@
 
 ## Status
 
-- Current: `pending`
+- Current: `submitted` (updated 2026-08-25)
+- Note: 2026-08-25: direct-mail list business, written to the named individual in the CA registration with a forward request. Rental-vs-sale copy count, do-not-mail as a standing entry, the appended/modelled attribute list, suppression held independently of the record, and supplier names.
 
 ## Steps
 

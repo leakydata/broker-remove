@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-25)
-- Note: 2026-08-25: emailed rcooksey@rkdgroup.com - person-shaped contact, and the registered name (Data Management) does not match the domain (RKD Group). RKD works in NONPROFIT FUNDRAISING, so the letter names two categories explicitly: (a) donor and giving records - 'whom a person supports can reveal their religion, politics, health circumstances and family situation, and it is information most people would consider among their most private'; (b) capacity-to-give and major-donor scores, reusing the Blackbaud line that an estimate of what someone can afford to give is a financial assessment made about them without their knowledge. Asked both directions of the chain: which suppliers supplied, which client organisations received.
+- Note: 2026-08-25: emailed [named individual]@rkdgroup.com - person-shaped contact, and the registered name (Data Management) does not match the domain (RKD Group). RKD works in NONPROFIT FUNDRAISING, so the letter names two categories explicitly: (a) donor and giving records - 'whom a person supports can reveal their religion, politics, health circumstances and family situation, and it is information most people would consider among their most private'; (b) capacity-to-give and major-donor scores, reusing the Blackbaud line that an estimate of what someone can afford to give is a financial assessment made about them without their knowledge. Asked both directions of the chain: which suppliers supplied, which client organisations received.
 
 ## Steps
 

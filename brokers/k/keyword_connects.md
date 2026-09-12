@@ -7,7 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-18)
+- Current: `submitted` (updated 2026-08-26)
+- Reference: `gmail:1a03dfbd9f3b3c15`
+- Note: 2026-08-26: supplementary letter sent with the four late email addresses, six prior postal addresses and three prior phone numbers, framed as completing the request already on file. ONE LETTER PER ADDRESS: this mailbox is the published privacy contact for several brands, so the letter NAMES the siblings and asks them to confirm against each by name - a reply naming one brand would leave us unable to tell whether the others were looked at. Named in the letter sent to [named individual]@ignitevisibility.com under 33 Mile Radius.
 
 ## Steps
 

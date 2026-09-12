@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-30)
-- Note: 2026-08-30 Sent the AD TECH variant (per _CATEGORY_VARIANTS.md) to privacy@appsci.io: added cookie IDs, MAIDs, hashed-email identifiers and modelled audience segments to the ask, opted out of cross-context behavioral advertising specifically, and asked for hashed-email search (SHA-256/MD5) since plaintext-only matching misses ad-tech records. Distinct entity from 'app_science' (appscience.ai / privacy@appscience.inc), already contacted separately -- do not merge the two.
+- Note: Recovered from the committed playbook brokers/a/appscience.md, because the ledger carries no notes and this row's status had no evidence behind it: 2026-08-30 Sent the AD TECH variant (per _CATEGORY_VARIANTS.md) to privacy@appsci.io: added cookie IDs, MAIDs, hashed-email identifiers and modelled audience segments to the ask, opted out of cross-context behavioral advertising specifically, and asked for hashed-email search (SHA-256/MD5) since plaintext-only matching misses ad-tech records. Distinct entity from 'app_science' (appscience.ai / privacy@appscience.inc), already contacted separately -- do not merge the two.
 
 ## Steps
 

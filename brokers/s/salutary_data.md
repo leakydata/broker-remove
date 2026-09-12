@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-30)
-- Note: 2026-08-30 Sent the standard data-broker letter to privacy@salutarydata.com.
+- Note: Recovered from the committed playbook brokers/s/salutary_data.md, because the ledger carries no notes and this row's status had no evidence behind it: 2026-08-30 Sent the standard data-broker letter to privacy@salutarydata.com.
 
 ## Steps
 

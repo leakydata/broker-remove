@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-30)
-- Note: This playbook was missing despite three attempts having gone out; found and backfilled during a routine sweep for acted-on brokers without a playbook. Sequence: 2026-08-29 ccpa@usinfosearch.com (the address the CA data broker registration names for Martin Data LLC) hard-bounced, 550 address not found. Re-sent same day to customerservice@usinfosearch.com, which delivered. 2026-08-30 sent again to accounting@usinfosearch.com with a note explaining the registered address bounces, to widen the chance of reaching a monitored inbox. No reply yet from any address.
+- Note: Recovered from the committed playbook brokers/u/usinfosearch_com.md, because the ledger carries no notes and this row's status had no evidence behind it: This playbook was missing despite three attempts having gone out; found and backfilled during a routine sweep for acted-on brokers without a playbook. Sequence: 2026-08-29 ccpa@usinfosearch.com (the address the CA data broker registration names for Martin Data LLC) hard-bounced, 550 address not found. Re-sent same day to customerservice@usinfosearch.com, which delivered. 2026-08-30 sent again to [named individual]@usinfosearch.com with a note explaining the registered address bounces, to widen the chance of reaching a monitored inbox. No reply yet from any address.
 
 ## Steps
 

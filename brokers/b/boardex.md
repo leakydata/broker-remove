@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-25)
-- Note: 2026-08-25: emailed privacy@altrata.com (BoardEx is part of Altrata; the registered contact is the group's, not the brand's). Tailored on relationship data: asked for the EDGES as well as the node - being retained as an endpoint of a connection held under someone else's profile is still personal information about me, and in a relationship-data business it is the more valuable half. Also asked for any wealth / giving-capacity / philanthropic-propensity estimate, and pre-empted the B2B exemption (CA carve-out sunset 1 Jan 2023).
+- Note: (re-filed from a status row keyed to a broker id that does not exist -- see SF 219) Acknowledgement 2026-08-31 06:47 from privacy@altrata.com covering the 25 Aug letter and the 26 Aug scope addendum naming four further Altrata brands: 'your request has been acknowledged. Once the request has been completed, we will update you.' No outcome, and no confirmation yet that the addendum's brand list was accepted into the same case rather than dropped.
 
 ## Steps
 

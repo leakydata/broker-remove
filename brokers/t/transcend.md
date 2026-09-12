@@ -8,6 +8,7 @@
 ## Status
 
 - Current: `submitted`
+- Note: SECOND CORRECTION SENT 2026-08-31 (SF 214a). My scope note said 'Transcend both operates as a REGISTERED DATA BROKER and processes privacy requests on behalf of other companies.' The row carries no registry_years for any state; source is a third-party commercial directory. Same error as the OneTrust letter, same hour. Correction says I have no evidence they are a registered data broker, should not have described them as one, and that if they are not, the controller-vs-processor framing built on it is beside the point and saying so answers the letter completely. Surviving asks restated: controller-held data, and whether they hold anything about me only because a customer's pipeline passed through their systems -- explicitly NOT a request to delete that.
 
 ## Steps
 

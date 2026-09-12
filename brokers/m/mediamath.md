@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `failed` (updated 2026-08-19)
-- Note: STRIKING BOUNCE. privacy@mediamath.com is a DISTRIBUTION LIST that fans out to four named individuals - and every one of their mailboxes is over quota: 'The recipient's mailbox is full and can't accept messages now' x4, for four different named employees. The exchanger accepts the message and then fails delivery to all members, so from the sender's side it looks like partial success. MediaMath's business has been through insolvency and a change of hands; this is what a privacy alias looks like after the people behind it have gone.
+- Current: `covered_by_sibling` (updated 2026-09-11)
+- Reference: `infillion register address; 3 letters on file`
+- Note: COVERAGE POINTER ADDED 2026-09-11 so scripts/coverage.py stops listing this row as unassigned. Nothing here is new: MediaMath's assets were acquired by INFILLION out of the 2023 insolvency, mediamath.com 301s to infillion.com, and all tracking continues under the infillion row -- three letters now sit with privacy@infillion.com (29 Aug, 7 Sept carrying the webform finding, 8 Sept withdrawing the mis-filled Gimbal request C5HYX3MZ63). The historical MediaMath entity needs no separate route and the human-address hunt this row once called for is closed. What remains open is an ANSWER problem tracked at infillion, not a route problem here: whether Infillion will record the opt-out without an advertising identifier, or say plainly that its index cannot be searched without one.
 
 ## Steps
 

@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-27)
-- Note: Opt-out letter sent by email to [named individual]@fusion92.com (delete + opt out of sale/sharing + direct downstream recipients + suppress against future ingestion). All twelve email addresses, sixteen prior addresses and eleven prior phone numbers listed for search. Sent as HTML per letter_html.
+- Current: `acknowledged` (updated 2026-09-10)
+- Note: ACKNOWLEDGEMENT 2026-09-10 from privacy@fusion92.com, 14 days after the 27 Aug request to [named individual]@fusion92.com. Content is a holding reply -- 'We are in receipt of your privacy request. While we process your request, we invite you to learn more about our business and privacy practices' -- with no reference number, no timeline and no statement of what was searched. Recorded acknowledged rather than submitted so it is visibly distinct from a row where something was actually reported. NOTE THE ADDRESS CHANGE: the letter went to [named individual]@fusion92.com, the address on their register filing, and the reply came from privacy@fusion92.com. Future correspondence should go to the second; the first evidently routes there but the reply-to is the live desk.
 
 ## Steps
 

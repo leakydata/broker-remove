@@ -7,15 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-25)
-
-> **Note (2026-08-29):** a separate pass, working from a stale local copy of the registry that predated this playbook, independently sent a second statutory letter to the same address, not knowing this company had already been contacted on 2026-08-25. Harmless duplicate — no action needed — but worth flagging: "does a playbook already exist for this id" is a cheap check that would have caught it before sending, and evidently wasn't run.
-- Statutory delete/opt-out request emailed to opt-out@datafy.com. Auto-ack received
-  ("Someone from our team will review and get back to you shortly") — a queue
-  confirmation, not a completion. Awaiting substantive reply.
-- Tracked as `submitted` rather than `email_pending`: nothing has been sent to a
-  mailbox for me to click. `email_pending` means the request is void until a
-  confirmation link is followed, which is a different and more urgent state.
+- Current: `not_found` (updated 2026-08-25)
+- Note: SF 228 SHAPE, PER-ADDRESS. support@datafy.com 2026-08-31 20:52 sent THREE separate replies, one for each email address searched, each reading: 'Your request has been processed. The email address [X] was not found in our active database, but it has been SUCCESSFULLY ADDED TO OUR GLOBAL EXCLUSION LIST to prevent any future...' Two things right at once: a plain nil naming the specific identifier searched (not 'your request has been processed'), AND a forward-looking suppression added despite finding nothing -- which is the only version that lasts, since a deletion with nothing left behind is undone by the next ingest precisely because nothing remains to recognise the person. 'GLOBAL exclusion list' is also the right scope word. Per-address replies make it auditable: I can see which identifiers were actually run. Recorded not_found with suppression.
 
 ## Steps
 

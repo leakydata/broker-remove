@@ -7,7 +7,8 @@
 
 ## Status
 
-- Current: `pending`
+- Current: `submitted` (updated 2026-08-24)
+- Note: 2026-08-24: adtech letter. Hashed match keys with the suppression-vs-inventory distinction, edges not rows, and one direct question about health-related segments or inferences - asked explicitly because a general assurance is least informative in exactly that category.
 
 ## Steps
 

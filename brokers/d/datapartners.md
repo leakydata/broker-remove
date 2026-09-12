@@ -7,10 +7,8 @@
 
 ## Status
 
-- Current: `email_pending` (updated 2026-08-25)
-
-> **Note (2026-08-29):** a separate pass, working from a stale local copy of the registry that predated this playbook, independently sent a second statutory letter to the same address, not knowing this company had already been contacted on 2026-08-25. Harmless duplicate — no action needed — but worth flagging: "does a playbook already exist for this id" is a cheap check that would have caught it before sending, and evidently wasn't run.
-- Statutory delete/opt-out request emailed to info@datapartners.com. Awaiting reply.
+- Current: `submitted` (updated 2026-08-25)
+- Note: 2026-08-25: emailed info@datapartners.com. List brokerage - both chain directions plus inferred-vs-collected and the identifier-keyed fallback with the hash-it-yourself clause.
 
 ## Steps
 

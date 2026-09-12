@@ -7,7 +7,8 @@
 
 ## Status
 
-- Current: `pending`
+- Current: `submitted` (updated 2026-08-25)
+- Note: 2026-08-25: their CA registration lists dpo@bisceince.com - 'e' and 'i' transposed - and that domain has no mail records at all. Wrote to dpo@biscience.com and reported the typo, noting a no-MX domain produces a delay notice for ~48h before failing, so nobody discovers it quickly. SDK/extension-derived behavioural data, so asked what the index is keyed to and which apps or extensions feed it.
 
 ## Steps
 

@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `unreachable` (updated 2026-08-28)
-- Note: 2026-08-28: The 2026-08-20 send was logged `submitted`, which didn't match this playbook's own table below — it had hard-bounced. Corrected the ledger and the registry's `email_verified` flag to match what was already documented here. Sent as a marketing/list-rental category letter (hashed-email search, downstream list-partner deletion).
+- Current: `unreachable` (updated 2026-08-20)
+- Note: NO ROUTE - the company appears to be gone. privacyofficer@datacomplianceportal.com hard-bounces. datacomplianceportal.com returns Cloudflare 522 (origin down) to both curl and a real browser. tymaxmedia.com itself: HTTPS fails with a certificate that does not match the hostname, and plain HTTP returns a 62-byte page reading 'This website is for lease. Offers can be sent to [phone].' The SOA serial is from 2017. So both the broker and the third-party compliance vendor it delegated privacy requests to are off the air, while the domain still resolves and still has live Outlook MX - which is exactly the shape that makes a dead broker look alive to a registry. SECOND INSTANCE of the outsourced-compliance-vendor failure: ROC Advertising's dataprivacy_rocadvertising@simpleoptoutcompliance.com bounced the same way earlier today. See _SILENT_FAILURES.md 68.
 
 ## Steps
 

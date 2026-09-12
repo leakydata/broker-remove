@@ -7,7 +7,8 @@
 
 ## Status
 
-- Current: `pending`
+- Current: `submitted` (updated 2026-08-25)
+- Note: 2026-08-25: UK-headquartered location audience business; letter states US-resident scope up front so it is not answered under GDPR. Geographic query in place of a MAID with confirm-before-delete, visitation history as the core ask, and the question of whether suppression can be keyed to anything but a resettable advertising ID.
 
 ## Steps
 

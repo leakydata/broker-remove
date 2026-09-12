@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-17)
-- Note: Statutory delete/opt-out request emailed, tailored to the broker's data category; opens with a first-party declaration. Awaiting reply.
+- Current: `submitted` (updated 2026-08-29)
+- Note: SECOND BRAND FOUND POINTING AT THIS DESK: HomeData (homedata.com) publishes privacy.compliance@deepsync.com as its privacy contact. Folded into this thread as a scope addendum rather than sent as a separate letter, and the brands question re-asked with that as the argument for answering it once.
 
 ## Steps
 

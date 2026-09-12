@@ -7,9 +7,9 @@
 
 ## Status
 
-- Current: `unreachable` (updated 2026-09-03)
-- Note: 2026-08-25: emailed ben@carmarketsolutions.com - person-shaped registry contact, forward-this-internally opener used. Automotive marketing: asked for VIN-linked ownership/service records, warranty and equity-mining records, in-market-shopper and trade-in propensity scores, lease/loan-maturity estimates. Plus supplier provenance and the consent-record question (source URL and date), since I did not submit any such form.
-- **Correction (2026-09-03):** this was left at `submitted` for over a week without anyone checking whether it actually delivered — it hadn't. `ben@carmarketsolutions.com` hard-bounced (`no_such_mailbox`, recorded in `dead_addresses.json`), and a re-check today found the domain itself no longer resolves at all: the agent egress proxy reports a connection reset / closed tunnel for `carmarketsolutions.com`, and a DNS-over-HTTPS lookup returns only a self-referential MX (`0 carmarketsolutions.com.`) with no A record — the mail server points at a host that itself has no address. No working web or mail route found. This is the exact "submitted looks like success" trap the project keeps warning about: a status set at send time and never re-verified reads as progress indefinitely. Moved to `unreachable`.
+- Current: `unreachable` (updated 2026-08-28)
+- Reference: `gmail:1a037f72af328936`
+- Note: PERMANENT FAILURE 2026-08-28 after three days of retries, and the failure mode matters: status 4.4.1, 'the recipient server did not accept our requests to connect [carmarketsolutions.com. 200.225.43.10: timed out]'. This is a CONNECTION failure, not a mailbox failure. Every cheap check passes -- the domain resolves, publishes an MX (self-pointing) and an A record -- and nothing is listening on port 25; a direct TCP connect to 200.225.43.10:25 times out. So unlike the 550s in dead_addresses.json, this says NOTHING about whether [named individual]@carmarketsolutions.com exists. The address is on their California registry filing and is person-shaped. Recorded as unreachable rather than failed (nothing was refused) and flagged as worth one retry if their mail server is ever seen to answer -- the evidence condemns the server, not the address.
 
 ## Steps
 

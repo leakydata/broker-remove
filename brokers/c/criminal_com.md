@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `not_found` (updated 2026-08-17)
-- Note: Written confirmation of no records: 'does not own, store, or publish any personal records, background reports, or criminal-history information. We are an informational website and keep no database of individuals, so there is nothing on our end to remove or delete.' Referral front for TruthFinder, which they named and which is separately submitted. Offered to review any specific page naming me.
+- Current: `not_found` (updated 2026-09-03)
+- Note: 2026-09-03 (§311): NIL NOW DEMONSTRATED RATHER THAN ASSERTED -- the first row in the corpus where that is true. §289's problem is that a careful search and a silently broken one produce the identical sentence, so I tested criminal.com's claim ('we are an informational website and keep no database of individuals') against its own product. Their FAQ already concedes the mechanism: 'its optional name-search tool is provided by a third party and is not an official or certified report.' Ran the public search for the subject with city and state. THE FORM DOES NOT SEARCH ANYTHING -- it redirects to truthfinder.com/search with the identifiers as query parameters and a full affiliate tag set (utm_source=REVEN, campaign AG-Criminal:CM-Reveneo, creative CRE-criminalsearchbox, plus a click id). So criminal.com genuinely holds no index: there is nothing on their side to search, and their letter was accurate. Recorded as demonstrated. SECOND FINDING, and it is a data flow rather than a nil: a person who searches for themselves on criminal.com HANDS THEIR NAME, CITY AND STATE TO TRUTHFINDER together with a tracking identifier -- the search box is the transfer. STOPPED at TruthFinder's 'I AGREE' consent gate: proceeding would mean accepting their Terms of Use, which is not mine to accept on the user's behalf. See §311 for why that gate makes the other three nils harder to check than expected.
 
 ## Steps
 

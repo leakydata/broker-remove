@@ -9,6 +9,7 @@
 ## Status
 
 - Current: `unreachable` (updated 2026-08-20)
+- Note: Domain resolves to nothing: NS delegated to nsone.net but NO A record and NO MX (2026-08-20). Site does not load and the domain accepts no mail. Not a bot block - there is no host to block.
 
 ## Steps
 

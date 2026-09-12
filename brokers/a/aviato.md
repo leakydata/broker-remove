@@ -8,16 +8,8 @@
 
 ## Status
 
-- Current: `unreachable` (updated 2026-08-25)
-- Note: 2026-08-24: emailed contact@aviato.co and contact@joinaviato.com — bounced.
-- Note: 2026-08-25: retried privacy@aviato.co — also bounced. Their own privacy
-  policy (aviato.co/legal/privacy) publishes only one contact for all privacy
-  purposes, including the Nevada sale-opt-out route: `contact@aviato.co` — the
-  same address that already bounced. No web form was found. Both known routes
-  are dead; the only untried channel is their "Book a demo" sales form, which is
-  the wrong venue for a privacy request (see project rule: never submit more
-  data than a channel requires) and was not used. **Needs a human to try the
-  sales/support channel or find a phone number**, not an automated resend.
+- Current: `submitted` (updated 2026-08-24)
+- Note: 2026-08-24: registered contact privacy@aviato.co hard-bounces 550 despite live Google MX. Privacy policy displays contact@aviato.co but its mailto href points to contact@joinaviato.com - a SourceIT-style text/href mismatch (SILENT_FAILURES 66). Both domains accept mail and joinaviato.com redirects to aviato.co, so wrote to both, reporting both faults.
 
 ## Steps
 

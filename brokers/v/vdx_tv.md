@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-20)
-- Note: Emailed privacy@vdx.tv. Video advertising exchange/DSP; standard ad-tech letter (MAID, hashed email, audience segments, downstream DSP/SSP deletion).
+- Note: Recovered from the committed playbook brokers/v/vdx_tv.md, because the ledger carries no notes and this row's status had no evidence behind it: Emailed privacy@vdx.tv. Video advertising exchange/DSP; standard ad-tech letter (MAID, hashed email, audience segments, downstream DSP/SSP deletion).
 
 ## Steps
 

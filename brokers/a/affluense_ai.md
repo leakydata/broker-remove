@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-01)
-- Note: Sent the B2B contact-database letter (`_CATEGORY_VARIANTS.md`, "B2B contact & sales prospecting databases"): asked them to search phone and name rather than personal email, asked whether records are keyed to pattern-generated work addresses, asked for a do-not-add suppression on a null result, asked which customers exported the record, and asked about capture-by-extension. No LinkedIn URL offered.
+- Current: `submitted`
+- Note: SUPPLEMENT SENT, third batch. The 1 Sep letter listed four consumer webmail addresses and warned in the same breath that searching them would return nothing even if a record existed -- then failed to supply a key that could match. Framed as MY omission, not a new request, no clock restarted. Quoted Hunter's admission as the reason the first letter was unanswerable. Supplied [EMAIL] with the closed-mailbox caveat (any 'confirm by email' step attached to it is UNUSABLE BY DESIGN), the LinkedIn URL as a SUPPRESSION key, and the instruction to generate and search their own first.last@employer patterns, citing Lusha's recorded 'guessed emails based on full name and company email structures'. Closed on the binary -- found or nothing. || AFFLUENSE-SPECIFIC (wealth screening): if the platform estimates net worth, giving capacity, assets or philanthropic propensity then the record is LARGELY INFERRED RATHER THAN COLLECTED -- modelled from property records, public filings and demographic proxies rather than supplied by me. Inferences are personal information in their own right under 1798.140(v)(1)(K), so DELETING A SOURCE FIELD WHILE KEEPING THE SCORE DERIVED FROM IT IS NOT A DELETION. Asked for the modelled and appended layer to be named and removed alongside the identifiers.
 
 ## Steps
 

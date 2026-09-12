@@ -7,9 +7,8 @@
 
 ## Status
 
-- Current: `manual_required` (updated 2026-08-28)
+- Current: `submitted` (updated 2026-08-25)
 - Note: 2026-08-25: emailed consumer-privacy-ops@coxautoinc.com. Large multi-brand group, so the letter leads on scope with a reason that is specific rather than generic: someone who sold a car, requested a valuation, browsed listings or had a vehicle serviced may have generated records under several brands WITHOUT EVER SEEING THE PARENT NAME. Asked them to name the brands actioned, or if they cannot enumerate them, to say so and state what the search scope actually was. Automotive asks: VIN-linked ownership/title/registration/service, valuation and trade-in requests, in-market-shopper and equity-mining and loan-maturity scores ('a prediction about when I will next need a loan is exactly the sort of record a person never agreed to and cannot see'), marketplace browsing activity, and identity linkage including edges. Processor fallback: name the dealerships so I can approach them, and confirm suppression applies regardless.
-- Update 2026-08-27/28: Textbook "your state has no privacy law" reply, but a genuinely good-faith one — they identified PA as uncovered, quoted their published list of covered states, and *as a courtesy* added the request to internal marketing suppression across three named brands (Cox Automotive, Autotrader, Kelley Blue Book) without being asked twice. They did not address the fallback clause already in the original letter ("if you believe you are not subject to these statutes, honor this as company policy") or the group-wide scope question. Replied invoking the fallback clause specifically for deletion/opt-out-of-sale, and re-asked whether the non-marketing side was ever scoped across the group or not run at all.
 
 ## Steps
 

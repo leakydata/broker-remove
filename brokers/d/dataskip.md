@@ -7,10 +7,8 @@
 
 ## Status
 
-- Current: `email_pending` (updated 2026-08-25)
-
-> **Note (2026-08-29):** a separate pass, working from a stale local copy of the registry that predated this playbook, independently sent a second statutory letter to the same address, not knowing this company had already been contacted on 2026-08-25. Harmless duplicate — no action needed — but worth flagging: "does a playbook already exist for this id" is a cheap check that would have caught it before sending, and evidently wasn't run.
-- Statutory delete/opt-out request emailed to support@dataskip.io. Dataskip is a skip-tracing / people-locate service, so the letter asked them to identify categories of purchasers any skip-trace report on file was sold or delivered to, and to direct those purchasers to delete their copies too. Awaiting reply.
+- Current: `submitted` (updated 2026-08-25)
+- Note: 2026-08-25: emailed support@dataskip.io. SKIP TRACING - a new category, and the one whose whole purpose is locating people who are not readily locatable. Three asks made separately: (1) the RELATIVES-AND-ASSOCIATES GRAPH - a skip-trace product holds edges connecting me to household members, relatives, former co-residents and known associates, those edges ARE the product, and deleting my row while retaining me as a linked associate on someone else's record does not fulfil the request; asked for the links to go in BOTH directions. (2) Suppression is the whole request here, because the product exists to reassemble whereabouts from continuously refreshed sources - a one-time deletion is undone by the next refresh and the confirmation reads identically either way. (3) DISCLOSURE HISTORY - whether any locate report on me has been run, how many times, over what period; explicitly NOT asking who ran it, because a person who has been the subject of a skip trace has an obvious interest in knowing and no other way to find out. Included the FCRA-in-the-alternative fallback.
 
 ## Steps
 

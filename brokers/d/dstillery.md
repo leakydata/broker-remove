@@ -7,10 +7,9 @@
 
 ## Status
 
-- Current: `email_pending` (updated 2026-08-28)
-- Reference: `gmail:1a04146b00c89bdc`
-- Note: 2026-08-27: first contact. Tailored to a behavioural-audience adtech business, where a name search correctly returns nothing while the record persists: hash the twelve addresses themselves rather than concluding no-match from plaintext; delete the EDGES joining a hashed email to a cookie, device or household ID, not only the identifier rows; treat MODELLED attributes - segments, propensity and affinity scores, predicted interests - as in scope for deletion rather than suppression from outbound use, since they exist nowhere else and are acted on whether or not accurate. Also asked which of the two lists any retained suppression hash sits on.
-- Update 2026-08-28: Their reply misclassified the request as coming from an "Authorized Agent" (a business submitting on someone else's behalf) — an automated classifier false-positive, since the original letter states plainly "I am the consumer... not an authorized agent". Replied asking for reprocessing as a direct consumer request rather than being routed through agent-verification (which asks for things like enacting Global Privacy Control, a mechanism for acting on someone else's browser).
+- Current: `not_found` (updated 2026-09-11)
+- Reference: `XF8TWVDW77`
+- Note: NIL RESULT 2026-09-11 from privacy@dstillery.com, request XF8TWVDW77. Their words: 'We can confirm that Dstillery has processed your request. We have not found any data associated with the personal data you have provided.' Unqualified, stated against the identifiers supplied. They also pointed to dstillery.com/do-not-sell-my-personal-information/ for device-level opt-out, correctly framed as a SEPARATE thing from the search they had just run rather than offered as a substitute for it -- which is the distinction most ad-tech companies blur (SF 148). Recorded not_found. NOTE FOR ANY RE-CHECK: this was an ACCESS request answered against name and email, and Dstillery is a device-graph business, so a nil here means nothing was found under those keys -- not that no device profile exists. That limit is inherent to the request, not a defect in their answer.
 
 ## Steps
 

@@ -10,6 +10,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-20)
+- Note: Sent 2026-08-20 to privacy@windfall.com (unpublished guess). Their privacy policy offers ONLY DAA/NAI/Google Analytics industry opt-out links and no first-party rights route or contact address - flagged that to them. Letter targets modelled/inferred attributes (net worth, propensity, giving capacity) since clearing source fields leaves the score.
 
 ## Gotchas
 

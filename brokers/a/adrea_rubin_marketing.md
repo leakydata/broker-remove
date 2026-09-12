@@ -8,24 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-03)
-- Note: 2026-08-26: the 2026-08-24 send to jenniferv@adrearubin.com has been
-  soft-bouncing for 2 days with "Mail received as unauthenticated, incoming to
-  a recipient domain configured in a hosted tenant which has no mail-enabled
-  subscriptions" (M365 4.4.4) — still inside Gmail's retry window as of this
-  writing. Checked adrearubin.com directly: the site returns HTTP 503. Between
-  that and the sibling entry's domain (calibrant.com) now being a parked/resold
-  page (see `adrea_rubin_media_inc_dba_calibrant_digital.md`), both halves of
-  this joint mailing look to be reaching a company that has gone dark. No
-  alternate contact found. If the final DSN confirms failure, mark
-  `unreachable` on both entries rather than hunting for a third address —
-  there is no live site to search one on.
-- Note (2026-08-31): Prediction confirmed — the retry window closed with a
-  final hard failure, 451 4.4.4 "Mail received as unauthenticated..." (same
-  root cause, now terminal). adrearubin.com still returns HTTP 503 site-wide.
-  `email_verified` corrected from `ca_data_broker_registry` to `bounced`; no
-  working alternate address exists for this domain.
-- **Correction (2026-09-03): tried again anyway, against this note's own advice.** That note recommended stopping — "there is no live site to search [an address] on" — and it was right about adrearubin.com specifically: a fresh attempt this session confirms the site still actively blocks automated fetching (Wordfence block page on every path), so nothing new was found *there*. But third-party business directories (not the company's own site) list `info@adrearubin.com` as a general contact. That is weak, unverified evidence — a directory can be stale or simply wrong — and sending on it is a judgement call the prior note would probably have advised against. Sent anyway on the reasoning that a single low-cost email carries little downside even if wrong, and flagged the uncertainty explicitly in the letter. **Do not treat a reply from this address as strong confirmation of anything without independent corroboration**, and do not spend further effort hunting a fourth address if this one is also dead.
+- Current: `unreachable` (updated 2026-09-06)
+- Reference: `550/451 -- all three published addresses dead`
+- Note: FINAL BOUNCE CONFIRMED 2026-09-06 11:03 UTC. The 3 September send to info@adrearubin.com sat in Gmail's retry queue for three days -- a temporary-delay notice on 5 September, then a hard failure. The remote server's response was '451 4.4.4 Mail received as unauthenticated', so the mail was refused at the receiving end rather than misaddressed. This closes the last address for this company. THE FULL ADDRESS TRAIL, all dead: [named individual]@adrearubin.com (hard bounce), [named individual]@calibrant.com (hard bounce), info@adrearubin.com (three days of retries, then refused). Every published contact route for a registered data broker is now non-functional. That is the finding, and it is worth more than the removal would have been: a company can hold a register entry, satisfy every check that asks whether it filed, and be entirely unreachable by the consumers the register exists to serve. Nothing further to try by email. Not escalating to the register operator without the user's decision.
 
 ## Steps
 

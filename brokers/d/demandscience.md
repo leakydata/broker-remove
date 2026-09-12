@@ -8,7 +8,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-20) — request submitted and **email verified**
+- Current: `submitted` (updated 2026-09-02)
+- Note: REVERTED 2026-09-02, SAME DAY (SILENT_FAILURES 287). I moved this row to email_pending an hour earlier on the strength of an unconfirmed-looking verification email sitting in the inbox. THE ROW'S OWN HISTORY ALREADY SAID THE VERIFICATION WAS COMPLETED -- variously 'email verification clicked', 'Your request is confirmed!', 'successfully verified', or a later substantive reply that could only have followed confirmation. A verification mail stays in the inbox forever because nobody archives it; ITS PRESENCE IS NOT EVIDENCE THAT IT WAS NEVER USED. Nine of the ten rows I downgraded were already verified. Restored to submitted, which is what the evidence supports.
 
 ## How this broker was found
 

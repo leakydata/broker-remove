@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-29)
-- Note: 2026-08-29 sent to the Alesco Data contact filed on the register. The registry domain responsesoulutionsllc.com is a TYPO ('soulutions') and has never resolved -- the lapsed-cohort scan called it SITE-DEAD/NO-MX, which was true of a host nobody writes to. The filed contact is on a live Microsoft 365 tenant at Alesco Data, a working compiler. Letter addressed to both entities, flagged the register typo to them, and asked category-by-category about the sensitive halves of Alesco's own published catalogue: healthcare, financial/mortgage, LIFE EVENT, donor, licensed-professional. Limit-use (1798.121) asked separately from deletion. Warned against name-only matching on the licensed-professional file.
+- Note: 2026-08-29 REROUTED. The register contact [named individual]@alescodata.com autoresponded: 'Michael Sklorenko is no longer with the company. Please contact Steve Bell at [named individual]@alescodata.com.' Not a bounce -- the mailbox works, the person does not, which is the person-shaped-address failure caught live for once. Forwarded the full letter to [named individual]@alescodata.com with a covering note flagging both filing defects: the misspelled registered domain (responsesoulutionsllc.com) and the personal-name privacy contact, with the argument for a role address that survives staff changes.
 
 ## Steps
 

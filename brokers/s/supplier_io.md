@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-31)
-- Note: Sent the BUSINESS DIRECTORY variant (`_CATEGORY_VARIANTS.md`): Supplier.io compiles supplier-diversity/procurement records, which is business data, but pre-empted "that's a business listing" by naming that a business record disclosing a personal name/address/phone is personal information regardless of the label — matters especially for a sole proprietor or small/home-based supplier.
+- Note: Recovered from the committed playbook brokers/s/supplier_io.md, because the ledger carries no notes and this row's status had no evidence behind it: Sent the BUSINESS DIRECTORY variant (`_CATEGORY_VARIANTS.md`): Supplier.io compiles supplier-diversity/procurement records, which is business data, but pre-empted "that's a business listing" by naming that a business record disclosing a personal name/address/phone is personal information regardless of the label — matters especially for a sole proprietor or small/home-based supplier.
 
 ## Steps
 

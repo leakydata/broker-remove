@@ -7,7 +7,8 @@
 
 ## Status
 
-- Current: `submitted`
+- Current: `covered_by_sibling` (updated 2026-09-12)
+- Note: Handled under 'seekout'. Zipstorm is SeekOut's registered legal entity name on the California data broker register; privacy@seekout.io and privacy@seekout.com are the same team, and the deletion confirmation of 2026-09-11 21:36 UTC arrived on THIS thread while the letter that produced it went to legal@seekout.com on the seekout row. Two rows, one company, one outcome -- recording it twice would double-count a single removal.
 
 ## Steps
 

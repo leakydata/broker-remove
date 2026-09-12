@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `confirmed` (updated 2026-08-25)
-- Note: Data/multichannel marketing. Standard suppression-not-deletion ask plus one specific to their channels: add the phone numbers to internal do-not-call and do-not-text suppression lists AS WELL AS deleting the record, because deletion alone can remove the suppression along with the record - the perverse case where a number becomes eligible again precisely because it was deleted.
+- Current: `confirmed` (updated 2026-08-24)
+- Note: 2026-08-24: 'Any required actions related to the consumer's personal information, including deletion, have been completed.' Scoped across Giant Partners, List Giant and affiliated entities, which is better than most. But no itemisation and no suppression statement - asked whether it is deletion or standing suppression, which identifiers were covered, and for do-not-mail as a standing preference. Sent as a bulk BCC, so treat the wording as a template.
 
 ## Steps
 

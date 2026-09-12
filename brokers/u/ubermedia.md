@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-31)
-- Note: Sent the MOBILE LOCATION / MOBILITY DATA variant (`_CATEGORY_VARIANTS.md`) — UberMedia is a mobile ad/location platform, keyed to MAIDs and device IDs rather than a name. Deliberately did NOT supply a mobile advertising ID (see `_CATEGORY_VARIANTS.md` "Do not hand over a device identifier to establish that one is not held") — asked what alternative verification they can accept, and asked which identifier types they'd match on so a nil result is interpretable.
+- Note: Recovered from the committed playbook brokers/u/ubermedia.md, because the ledger carries no notes and this row's status had no evidence behind it: Sent the MOBILE LOCATION / MOBILITY DATA variant (`_CATEGORY_VARIANTS.md`) — UberMedia is a mobile ad/location platform, keyed to MAIDs and device IDs rather than a name. Deliberately did NOT supply a mobile advertising ID (see `_CATEGORY_VARIANTS.md` "Do not hand over a device identifier to establish that one is not held") — asked what alternative verification they can accept, and asked which identifier types they'd match on so a nil result is interpretable.
 
 ## Steps
 

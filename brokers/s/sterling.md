@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-20)
-- Note: Sent 2026-08-20 05:36 UTC to privacy@sterling.ai (confirmed on site; the site itself is Cloudflare-blocked to scripted fetches, on WP Engine). Background screening. The letter is built entirely around forcing a single choice: are you a consumer reporting agency or not? If yes, FCRA file disclosure and dispute rights; if no, the FCRA carve-out from state deletion rights does not apply and the deletion stands in full. Named the combination I will not accept - a not-a-CRA disclaimer in the terms plus an FCRA exemption invoked against a deletion request. This is the _DEFLECTIONS.md pattern of replacing an argument with a question that has only two answers, both of which help.
+- Note: Acknowledged 2026-08-20 18:15Z: 'We have received your deletion request and will process it in accordance with applicable law. Your request has been added to our processing queue.' No answer yet to the CRA/FCRA scoping question that opened the letter.
 
 ## Steps
 

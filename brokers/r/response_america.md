@@ -8,7 +8,8 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-26)
-- Note: 2026-08-26: emailed ncoa@responseamerica.net. Asked for do-not-mail, do-not-sell and do-not-append as standing suppression entries (not just a one-time deletion), and which list owners or clients supplied or received a file.
+- Reference: `gmail:1a03d992f68c452c`
+- Note: 2026-08-26: replied 'request processed' - two words, 2 hours after the letter. Fast and probably sincere, but nothing in it is checkable: no identifiers listed, no deletion-vs-suppression, no word on onward feeds. This is an NCOA / mailing-list file, so it rebuilds from suppliers on a cycle and a deletion without a forward-looking suppression entry means re-acquisition at the next refresh. Followed up with three line-answerable questions and an explicit promise to record 'deleted only, no suppression, own copy only' without arguing if that is the honest answer.
 
 ## Steps
 

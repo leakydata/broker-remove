@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-18)
-- Note: Pressing on the closed ticket opened a NEW one (332826) rather than reopening 332742 - so a soft close is not merely unhelpful, it costs the thread's context and starts the clock again. Worth expecting whenever replying to a closed Zendesk ticket.
+- Current: `submitted` (updated 2026-08-27)
+- Reference: `gmail:1a014fb90ed7aa58`
+- Note: 2026-08-27: THE MOST COMPLETE TECHNICAL ANSWER THE PROJECT HAS RECEIVED, and worth holding up as the standard. Foursquare answered four things almost nobody answers: (1) deletion is NOT merely unlinking the MAID from retained device-level observations but removal of the associated personal information - the edges-vs-nodes question answered directly; (2) they retain a limited record specifically to IMPLEMENT the suppression, held for compliance and 'not used for advertising or audience activation' - which is the _SILENT_FAILURES 90 suppression-hash question answered affirmatively and unprompted; (3) a submitted MAID is used only to process the request and does not thereby enter commercial use; (4) deletion is communicated downstream, though they will not give a recipient-by-recipient inventory. And explicitly: 'the request is not implemented merely as a one-time deletion that permits the same identifier to be reintroduced during a later data refresh.' They also do not require government ID. THE REMAINING PROBLEM IS THE KEY, NOT THE POLICY: the whole mechanism is gated behind a MAID, which current iOS and Android no longer show the user. Replied thanking them specifically, then asking the two questions that matter - is there a non-MAID route via persistent overnight dwell with confirm-before-delete, and DOES THE SUPPRESSION SURVIVE AN ADVERTISING-ID RESET. That second question decides whether an opt-out survives ordinary privacy hygiene.
 
 ## Steps
 

@@ -8,8 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-18)
-- Note: Corrected route. support@whitepages.com, which peoplesearch.com publishes as its privacy contact, is an unmonitored autoresponder that redirects to a Zendesk form - so a consumer following peoplesearch.com's own privacy policy files nothing and gets a reply that reads like an acknowledgement. Re-raised on the existing Whitepages ticket #5402176 instead, asking them to extend it to peoplesearch.com or name the operator, and pointing out the broken published channel.
+- Current: `covered_by_sibling` (updated 2026-09-05)
+- Reference: `5402176`
+- Note: Whitepages stated 2026-09-05, in answer to a direct question asked four times: 'Whitepages is associated with Peoplesearch.com and so once we remove your information from Whitepages, it is being removed from all associated websites as well.' Covered by Whitepages ticket 5402176, which is confirmed for display suppression. This also settles why the site was worth chasing: peoplesearch.com publishes support@whitepages.com as its privacy contact, and that mailbox is unmonitored and auto-replies with something that reads like an acknowledgement -- so a consumer following peoplesearch.com's own privacy policy files into a void and believes they have filed a request. That defect was reported to Whitepages twice and has not been acknowledged. The sale opt-out is unconfirmed here for the same reason it is unconfirmed on the parent row.
 
 ## Steps
 

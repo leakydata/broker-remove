@@ -7,7 +7,8 @@
 
 ## Status
 
-- Current: `pending`
+- Current: `submitted` (updated 2026-08-24)
+- Note: 2026-08-24 reply: their autoreply discloses the file covers only people CURRENTLY employed at an educational institution, compiled from public sources, and does not use DOB. Since the subject has left, that likely puts them out of scope. Asked them to confirm 'no record, out of scope' as the close rather than 'unverifiable', declined to send more identifiers to prove an absence, and asked for a do-not-add entry because the file refreshes as people join institutions.
 
 ## Steps
 

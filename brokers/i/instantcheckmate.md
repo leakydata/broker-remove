@@ -8,9 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-18)
+- Current: `confirmed` (updated 2026-09-11)
 - Reference: `gmail:1a00618203742083`
-- Note: Family-wide suppression confirmed in five identical replies within twelve minutes: 'We have completed the suppression of your publicly available information from appearing in background reports on the people search sites within our corporate family that we control when a user searches by your name.' Three scoped limits pushed back on: keyed to NAME SEARCH only (I had asked for phone/address/email lookups too), scope stated as 'sites we control' without naming them, and suppression expressly not deletion.
+- Note: RE-VERIFIED 2026-09-11, AND THE SUPPRESSION IS HOLDING HERE. Read-only public search returned NAME-ONLY: instantcheckmate.com has a results page for everyone called [PERSONAL], and the SUBJECT'S OWN CITY IS ABSENT FROM IT. That is not a listing -- it is the same distinction SF 409 was written to protect, where a name page for 233 same-named people was nearly recorded as a live listing. Recorded as a positive result rather than left silent, because a re-verification that only reports failures cannot tell you whether the check works. CONTRAST WORTH KEEPING: the same run found TruthFinder publishing a cluster that contains [PERSONAL]. Both brands are covered by the SAME PeopleConnect suppression, applied in one action on 2026-08-27 across Intelius, InstantCheckmate, TruthFinder and USSearch. Whether that is a genuine divergence depends on an identity question queued for a human -- see the truthfinder row and _SILENT_FAILURES 439.
 
 ## Steps
 

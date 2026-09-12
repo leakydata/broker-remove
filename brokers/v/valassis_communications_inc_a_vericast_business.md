@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-03)
-- **Note (2026-09-03):** privacyrequests@vericast.com hard-bounced. Resent to privacy@vericast.com, found on vericast.com/privacy-policy/ — **but Vericast's own privacy policy states "As of July 2024, Vericast no longer operates Valassis Communications, Inc. and its subsidiaries and is not a data broker."** So this contact may not reach the entity that actually holds Valassis data any more. The sibling row `valassis_communications_inc_an_rrd.md` (same underlying company, registered separately under RRD) received the identical letter and carries the same caveat and the same open question: if Vericast confirms it no longer holds this data, who does? Not yet identified — RRD's own privacy address (valassisprivacy.request@rrd.com) also bounced, and no general rrd.com privacy contact was found.
+- Current: `unreachable`
+- Note: SUPERSEDED: the 2024 Vericast registration is a single year between two RRD ones. Request now sent to the current registrant at rrd.com covering all three names, so this row is answered through that thread rather than needing its own route. Handoff for a Vericast webform can be dropped unless the RRD reply disclaims the 2024 holdings.
 
 ## Gotchas
 

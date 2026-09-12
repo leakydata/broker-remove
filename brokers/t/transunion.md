@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-21)
-- Note: 2026-08-21: first contact via the address nominated in the California data broker registration. Scoped explicitly to non-FCRA data (marketing, identity graph, skip-trace) with the credit file excluded up front, plus prescreen opt-out and, for Equifax, a Work Number Employment Data Report and freeze.
+- Current: `submitted` (updated 2026-08-25)
+- Note: 2026-08-25: out-of-office autoreply from the named individual at TransUnion, offering a mobile number for urgent matters. NOT calling it - a deletion request is not urgent, and a personal cell is not a channel for this. Waiting for their return. Recording only so the thread state is clear.
 
 ## Steps
 

@@ -8,9 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-23)
-- Reference: `PSN Right to Know ticket`
-- Note: NOT confirmed. The tab is back at /opt-out/validate-record-info with no key, which is what you would see either after a successful submit-and-reload OR after an error - genuinely ambiguous. peoplesearchnow.com refuses both page-text reads and screenshots to the automation, so there is no artifact to check, and no confirmation email has arrived. Deliberately NOT marked submitted: a broker-issued artifact is required, and 'the tab looks plausible' is not one.
+- Current: `email_pending` (updated 2026-09-08)
+- Reference: `ticket 11440330, expires ~2026-09-09 03:28 UTC`
+- Note: STAGE 1 SUBMITTED AND THE STAGE-2 LINK HAS ARRIVED, 2026-09-08 03:28 UTC, ticket 11440330. The stage-1 form went in with the correct values -- the link's key encodes subject / [PERSONAL] / [PERSONAL] / [EMAIL] -- so the staged file was followed. THE 24-HOUR CLOCK IS RUNNING: their own email says 'If you waited longer than 24 hours to click the link below, you will need to start over and generate another link.' Expiry is approximately 03:28 UTC on 2026-09-09. Status moved from captcha_blocked to email_pending, which is the accurate description now: the CAPTCHA is behind us and the request is waiting on one human step that silently expires. Stage 2 is /opt-out/validate-record-info -- identifying WHICH record, so expect name, address and possibly age or date of birth. Handoff updated with the deadline and the instruction to open the link from the email rather than retyping it. CARRIED FORWARD SO THE ROW IS NOT CLOSED TOO EARLY: this site concedes on its own /do-not-sell page that 'we regularly receive new public records so even if you opt out, your publicly available information may appear in our data products again in the future. We recommend you periodically refresh your opt-out request.' Whatever stage 2 returns is a lease rather than a permanent removal, and the row should be diarised for a re-check rather than marked confirmed.
 
 ## Third member of the TruePeopleSearch platform family
 

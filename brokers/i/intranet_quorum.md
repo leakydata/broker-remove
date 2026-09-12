@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `replied` (updated 2026-09-02)
-- **Reconciled 2026-09-02 (§274):** playbook said `submitted`, tracker said `replied`. Answered by the Leidos Global Privacy Office in the leidos_digital_solutions thread -- the original letter was addressed to Intranet Quorum (Leidos) and the reply came from privacy@leidos.com on behalf of both. See the leidos_digital_solutions note for the substance: a structural nil, L2 named as the upstream source, and the SF 256 reply-to-all-addresses finding.
+- Current: `replied` (updated 2026-09-11)
+- Note: COVERED BY THE LEIDOS THREAD, updated 2026-09-11. The Leidos Global Privacy Office answered again on 11 Sept for both entities, repeating the 2 Sept nil: a thorough search of their databases including marketing, against name and email, found nothing. See leidos_digital_solutions for the substance and for the open question, which is entirely about THIS row: Intranet Quorum is constituent-correspondence software, so any record about the subject would sit in a CUSTOMER'S INSTANCE -- a congressional or state office -- where Leidos is a processor and does not search on its own account. Their nil covers Leidos's own data and cannot reach a customer tenant. Asked them to say either that they can confirm whether a customer instance holds a record, or that they cannot search one without the customer's instruction and a constituent has no route to discover which offices hold them. Either answer closes the row; the second is expected and acceptable.
 
 ## Steps
 

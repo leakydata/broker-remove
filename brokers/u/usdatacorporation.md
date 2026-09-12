@@ -11,6 +11,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-20)
+- Note: Letter sent 2026-08-20, tailored to category.
 
 ## Gotchas
 

@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-31)
-- Note: Sent the "unknown broker" categorisation letter — no public information found beyond the CA registration; the name suggests a sales/upsell SaaS tool but that's a guess, not a finding.
+- Note: Recovered from the committed playbook brokers/u/upcell.md, because the ledger carries no notes and this row's status had no evidence behind it: Sent the "unknown broker" categorisation letter — no public information found beyond the CA registration; the name suggests a sales/upsell SaaS tool but that's a guess, not a finding.
 
 ## Steps
 

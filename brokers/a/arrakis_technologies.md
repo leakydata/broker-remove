@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `unreachable` (updated 2026-08-25)
-- Note: 2026-08-25: contact domain publishes no MX and no A record - nothing can be delivered. The broker's own domain is equally dead, so there is no alternative route by mail. Never written to; marked before spending a send. Re-check if the domain is ever reinstated.
+- Note: 2026-08-25: bounced - 'the domain arrakis.ai couldn't be found'. NXDOMAIN: no MX, no A, no SOA. The domain is gone entirely, so the company is presumed defunct. Our checker correctly returns False for it; the row was queued anyway, which means the queue is not consulting the deliverability verdict before sending. Worth wiring up.
 
 ## Steps
 

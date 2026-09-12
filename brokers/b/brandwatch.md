@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-17)
-- Note: Autoreply is a gate, not a receipt: it acknowledges the message but says nothing proceeds unless you reply confirming. Replied to proceed. They index Content Authors on social handles only (not name/email/phone), and Users on business email addresses only, so personal addresses yield nothing in the User category. Asked which platforms they hold author content from before supplying handles.
+- Current: `manual_required` (updated 2026-08-28)
+- Note: REPLY 2026-08-28 from PrivacyTeam@cision.com to a letter sent 17 Aug to privacy@brandwatch.com -- CISION NOW RUNS BRANDWATCH'S PRIVACY FUNCTION (see _FAMILIES.md). They answered the architectural question straight, which most do not: 'Our data is generally indexed by social media account identifiers rather than by name, address, phone number, or email address.' Then asked for the social handles plus proof of account ownership before searching. HANDLES DECLINED, and the reasoning matters: if their index is keyed to handles and not to names or emails, they cannot presently connect any record to this person -- so supplying handles would not help them find an existing record, it would CREATE the missing linkage, in writing, dated, tied to a name and email, inside a company whose business is selling profiles derived from social content. That is §144 at its sharpest. Offered them the sentence that would close it instead: 'indexed by social account identifiers and unable to locate any record from the name, emails, addresses and phone numbers supplied'. THE FIND: their own signature footer offers a one-word unverified opt-out -- 'reply with OPT OUT as a subject line and we'll get this done for you' -- sitting four inches below a demand for handles and ownership verification. §146 in its purest form: the right that costs them nothing is free, the right that touches the data is gated. Took the free one; the reply was sent with the literal subject line OPT OUT so their process triggers, with the reasoning in the body. Also asked whether one search covers Brandwatch and Cision or whether they are separate systems.
 
 ## Steps
 

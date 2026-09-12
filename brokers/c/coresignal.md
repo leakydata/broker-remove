@@ -8,8 +8,7 @@
 ## Status
 
 - Current: `covered_by_sibling` (updated 2026-09-02)
-- **Reconciled 2026-09-02 (§274):** playbook said `pending`, tracker said `covered_by_sibling`. STATUS CORRECTED 2026-09-02 (SF 274). Tracker said 'submitted', inferred on 2026-08-24 from brokers/c/coresignal.md merely existing; the playbook, written later by hand, says pending. Neither is right. WHAT ACTUALLY HAPPENED: a separate CA registration under the legal name DEEPTRACE INC. shares this domain and was emailed at privacy@coresignal.com on 2026-08-25 -- so Coresignal's own privacy mailbox HAS received a lett
-- Note (2026-08-29): a separate CA registration under the legal name "Deeptrace Inc." shares this domain and was emailed at privacy@coresignal.com (see `deeptrace.md`, submitted 2026-08-25) — a possible email route into the same company that would avoid this browser-only web form. Check `deeptrace.md` for a reply before treating this as handoff-only.
+- Note: STATUS CORRECTED 2026-09-02 (SF 274). Tracker said 'submitted', inferred on 2026-08-24 from brokers/c/coresignal.md merely existing; the playbook, written later by hand, says pending. Neither is right. WHAT ACTUALLY HAPPENED: a separate CA registration under the legal name DEEPTRACE INC. shares this domain and was emailed at privacy@coresignal.com on 2026-08-25 -- so Coresignal's own privacy mailbox HAS received a letter, but under the sibling row. coresignal.com itself offers only a browser-only web form. Recording as covered_by_sibling rather than submitted (overclaims a send in this row's own name) or pending (understates -- their mailbox holds the letter). TO DO ON ANY DEEPTRACE REPLY: confirm the scope covers the Coresignal-branded product and not only the DeepTrace registration, since the letter was addressed to the registered name.
 
 ## Steps
 

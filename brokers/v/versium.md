@@ -8,7 +8,8 @@
 
 ## Status
 
-- Current: `confirmed` (updated 2026-08-20)
+- Current: `submitted` (updated 2026-09-11)
+- Note: CORRECTED 2026-09-11 FROM A 'confirmed' THAT HAD ALREADY BEEN CORRECTED ONCE AND WAS SILENTLY RESTORED -- the same defect as plunge_digital on the same two days. History: confirmed 2026-08-20 on a THREE-SECOND autoresponder; DOWNGRADED 2026-08-27 to submitted with full evidence; then 'confirmed' AGAIN on 2026-08-28 by an adoption citing the stale record, with the note 'No detail is carried across'. The correction was overwritten the next day by a mechanism that never checked whether the row had moved on. See _SILENT_FAILURES 433. WHY THE DOWNGRADE WAS RIGHT AND STILL IS: optout+noreply@versium.com replied three seconds after the letter -- 'We have processed your request to optout/delete your record from Versium data. Please consider this response your confirmation.' On 27 Aug a HUMAN at optout@versium.com wrote: 'If we do not receive a reply to this email within 10 days, we will process the opt-out request.' Future tense. The opt-out had therefore NOT been processed on 20 Aug; the autoresponder fires on receipt and describes queued work in the past tense. THE TRAP in their 27 Aug message, unchanged: silence triggers the opt-out and a reply SUSPENDS it, so a consumer who engages is left worse off than one who ignores them. The reply sent 2026-08-27 led with an explicit unconditional instruction to process the deletion and opt-out now, severable from everything else. NOW OVERDUE: the 10-day window from 2026-08-27 expired around 2026-09-06 and no further inbound mail has arrived from versium.com. Next move is to ask them to confirm the opt-out was processed at the end of that window, quoting their own sentence back.
 
 ## Steps
 

@@ -8,9 +8,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-17)
-- **2026-09-03 (§292):** CORRECTED AND FOLLOWED UP 2026-09-03. Recorded as 'confirmed' yesterday on the strength of a portal completion; downgraded to replied because two things are open and one of my earlier readings was wrong. WHAT I GOT WRONG: I grouped this with AggKnowledge as a duplicate-message problem. IT IS NOT THE SAME MECHANISM. Checked before writing (SF 288): the four notices arrived at 16:01, 17:01, 18:01 and 19:01 -- exactly hourly, then stopped -- and THE REQUEST IDs DIFFER IN EACH (03069655-... first, ea69aba7-... last), same primary email, same type, same completion date. So these are FOUR SEPARATE REQUEST RECORDS created and completed an hour apart, not one request notified four times. AggKnowledge's were identical messages in the same second; this is a duplicate-creation cycle. Put both explanations to them without choosing: either something on my side submitted four times, in which case the fault is mine and I want to know, or one submission produced four records on an hourly cycle. Noted why it is theirs to care about: a requester cannot tell four things from one thing four times, and i
-- Note: Statutory delete/opt-out request emailed, tailored to the broker's data category; awaiting reply.
+- Current: `replied` (updated 2026-09-11)
+- Note: SIX CONSECUTIVE HOURLY SLOTS NOW MISSED: nothing at 16:01, 17:01, 18:01, 19:01, 20:01 or 21:01 UTC on 2026-09-11. The run stands at eight, last notice 15:01:21. Still recorded as a run rather than a stop, for the reason given on 2026-09-03 and again today: this cycle already contains a NINE-DAY gap (2026-09-03 21:01 to 2026-09-11 14:01), so six quiet hours is well inside its observed behaviour, and the one time I called it stopped I was wrong within hours (SF 441). Six misses is stronger evidence than three and still not proof. The next pass should look rather than assume.
 
 ## Steps
 

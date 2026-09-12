@@ -7,9 +7,8 @@
 
 ## Status
 
-- Current: `not_found` (updated 2026-09-02)
-- **Reconciled 2026-09-02 (§274):** playbook said `submitted`, tracker said `not_found`. ANSWERED IN FULL, AND NAMED THE ACQUIRER (SF 230). Compliance@sms-inc.com 2026-08-31 20:01: 'The databases and related data assets formerly owned and controlled by Specialists Marketing Services, Inc. were acquired effective June 15, 2026 by Innovative Data Services, Inc., doing business as Specialists Marketing Solutions. You may direct any request concerning data currently maintained by Specialists Marketing Soluti
-- Note: 2026-08-30 Sent the LIST-BROKERAGE variant to dataprivacyteam@sms-inc.com, same shape as Compact Information Systems above.
+- Current: `not_found` (updated 2026-08-30)
+- Note: ANSWERED IN FULL, AND NAMED THE ACQUIRER (SF 230). Compliance@sms-inc.com 2026-08-31 20:01: 'The databases and related data assets formerly owned and controlled by Specialists Marketing Services, Inc. were acquired effective June 15, 2026 by Innovative Data Services, Inc., doing business as Specialists Marketing Solutions. You may direct any request concerning data currently maintained by Specialists Marketing Solutions directly to that company.' They also explained the register discrepancy unprompted: SMS 'ceased operating as a data broker effective June 15, 2026 and subsequently notified the California Privacy Protection Agency of that change. Any continued appearance of the company on the registry does not reflect ongoing data broker activity.' That is the SF 204 distinction made BY THE COMPANY, correctly, and it also means the register itself is stale rather than the company being evasive. They did not have to answer. One question, asked once, turned a dead end into a forwarding address. Recorded not_found for SMS itself -- they hold nothing -- with the successor written to separately.
 
 ## Steps
 

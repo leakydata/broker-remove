@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `not_found` (updated 2026-08-24)
-- Note: mailing@n-focus.com replied 2026-08-21: no matching record for the address provided; added name/address to suppression list; request completed and closed. (Also deflected with PA-no-privacy-law language, but closed favorably regardless.)
+- Current: `not_found` (updated 2026-08-23)
+- Note: Adopted from the shared ledger: another agent recorded 'not_found' on 2026-08-23. No detail is carried across — re-read the broker's own reply before relying on this.
 
 ## Steps
 

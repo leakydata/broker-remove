@@ -8,10 +8,9 @@
 
 ## Status
 
-- Current: `manual_required` (updated 2026-08-27)
-- Reference: `gmail:1a0064b60029fa4e`
-- Note: Statutory deletion + opt-out emailed from [EMAIL]. All 4 email identities + DOB asserted. Includes explicit fallback: if broker claims no covering statute or non-covered state, honor as company policy and state which basis was applied. Covers pages listing address alongside relatives.
-- Note: 2026-08-26 (auto-reply received 2026-08-27, ref 526154): asks for lightweight identity verification before proceeding — "a copy of a mailing label from junk mail, an invoice, a business card, etc. that shows the address of the information to be removed," sent as a photo to info@locatefamily.com. They explicitly say **do not** send government-issued ID. This is within CPRA proportionality (a low-friction alternative, not a license photo) but still needs a real physical document with the subject's address on it — cannot be produced without the subject.
+- Current: `manual_required` (updated 2026-09-11)
+- Reference: `gmail:1a04033bb700af98`
+- Note: REVERTED 2026-09-11 to manual_required, COMPLETING A CORRECTION I SAID WAS FINISHED AND WAS NOT. An adoption on 2026-08-28 overwrote a deliberate downgrade and set this row to submitted, where it has read ever since as though a request went in. It did not -- the company refused the email route, which is why the downgrade was made. _SILENT_FAILURES 434 recorded this for seventeen rows and claimed all seventeen were corrected; only seven were, and this is one of the ten that was left reading 'submitted' for another hour. A handoff item is open under this same id [decision]. THE EVIDENCE THE ADOPTION ERASED, from 2026-08-26: 2026-08-26: identity-validation step, ref 526154, and their template's name merge-field came through EMPTY - four occurrences of 'information pertaining to ""'. So the message asks the recipient to prove they are nobody. Replied as a fault report rather than a complaint, and asked the question that follows from it: which listing is this, and what address is displayed on it. That matters practically - they require the
 
 ## Steps
 

@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-20)
-- Note: Emailed support@voilanorbert.com. Email finder/verification tool; email-keyed identity-resolution letter, hashed-form search requested for every address.
+- Note: Recovered from the committed playbook brokers/v/voilanorbert.md, because the ledger carries no notes and this row's status had no evidence behind it: Emailed support@voilanorbert.com. Email finder/verification tool; email-keyed identity-resolution letter, hashed-form search requested for every address.
 
 ## Steps
 

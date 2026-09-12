@@ -8,9 +8,8 @@
 
 ## Status
 
-- All **four**: `submitted` (updated 2026-08-22)
-- References: `#3421273` (Public Information Services), `#3421272` (Public Data
-  Check), `#3421281` (Public Record Reports)
+- Current: `submitted` (updated 2026-08-20)
+- Note: Adopted from a committed playbook: brokers/p/publicinfoservices_family.md exists in git but this tracker had nothing, so another agent acted and did not publish a ledger entry. Status is a floor, not a finding — read the playbook and the broker's own reply before relying on it.
 
 ## Steps
 

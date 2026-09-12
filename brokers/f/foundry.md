@@ -7,9 +7,10 @@
 
 ## Status
 
-- Current: `email_pending` (updated 2026-08-29)
-- Note: Opt-out letter sent by email to [named individual]@idg.com on 2026-08-27 (delete + opt out of sale/sharing + direct downstream recipients + suppress against future ingestion). All twelve email addresses, sixteen prior addresses and eleven prior phone numbers listed for search. Sent as HTML per letter_html.
-- **Correction (2026-08-29):** that address hard-bounced (550, address not found) the same day it was sent — this wasn't caught before now, so the entry sat at `submitted` for two days on a letter that was never delivered. Foundry's own privacy policy (foundryco.com/privacy-policy) names its Data Protection Officer directly: `dataprotection@foundryco.com`. Resent there 2026-08-29, scoped explicitly to subscriber/marketing/lead data with editorial content conceded as out of scope.
+- Current: `unreachable` (updated 2026-08-28)
+- Note: HARD BOUNCE 2026-08-27: [named individual]@idg.com, the state-registry contact, returned 'Address not found' three seconds after sending. idg.com still publishes live Outlook and Mimecast MX, so the domain accepts mail and only the mailbox is gone -- the named individual has left the company. This is the §132 failure exactly: a person-shaped registry contact that stops working silently, except here it bounced rather than being accepted into a void.
+
+IDG now trades as FOUNDRY (foundryco.com). discover_contacts found no published role address on either domain. No remaining email route -- needs one found by other means (their privacy policy may carry a form or a OneTrust portal; a newer state filing may name a different contact).
 
 ## Steps
 

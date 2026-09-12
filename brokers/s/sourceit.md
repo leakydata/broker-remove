@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `confirmed` (updated 2026-08-20)
-- Note: Sent 2026-08-20 05:36 UTC to dataprivacy@sourceitmarketing.com (confirmed on their own site). List/marketing data. Standard row-vs-person framing plus the source question, and deliberately offered them an exit on it: if naming the source is something they will not do, say so explicitly - a clear refusal is a useful answer and I will not press further. That construction has worked before (MightyRep); an unanswered question invites silence, a question with a stated acceptable refusal invites an answer.
+- Note: COVERED BY THE LISTMATCH ANSWER 2026-08-31. Same operator (Jo[PERSONAL]), same dataprivacy2026@<domain> address convention. He confirmed the suppression hash 'applies to them all' across every company he manages, and that there are no registered entities beyond these two. So SourceIt is suppressed on the same basis as ListMatch without a separate request. See email_marketing_services for the full exchange.
 
 ## Steps
 

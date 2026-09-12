@@ -8,8 +8,14 @@
 
 ## Status
 
-- Current: `confirmed` (updated 2026-08-20)
-- Note: CONFIRMED 2026-08-19 21:00 UTC. support@retention.com, Cc optouts@retention.com: 'We have processed your Opt-Out removal request. [one address] has been marked for removal in our vendor database.' Read the scope carefully: they name ONE email address, and the phrase is 'marked for removal in our vendor database', not deleted. Retention.com resolves anonymous site visitors to identities, so one address suppressed is one edge cut in a graph keyed on twelve. Scope question outstanding.
+- Current: `confirmed` (updated 2026-08-28)
+- Note: UNPROMPTED MESSAGE 2026-08-28 01:55 UTC from support@retention.com: 'We have received your Opt-Out removal request but we previously received this request on Aug 19, 2026. 10:50am EDT. It would have already been marked for removal in our database.'
+
+NOBODY HERE SENT A SECOND REQUEST -- a Sent-folder search shows exactly one letter to retention.com, on 19 Aug. So a duplicate reached them today from somewhere else: plausibly the concurrent peer session, a removal service, or a form. Told them so plainly, so they are not answering a duplicate they think I filed.
+
+Used the reopened thread to press the SCOPE QUESTION that has been outstanding since the original confirmation. That confirmation named ONE email address of the twelve, and the phrase was 'marked for removal in our vendor database' rather than deleted. Scope matters more here than at an ordinary list broker because Retention.com resolves anonymous site visitors to identities: the value is the GRAPH, so suppressing one address of twelve cuts one edge and leaves the person reachable through the other eleven. Asked: (1) were all twelve searched and suppressed or only the one named -- relisted all twelve; (2) does the suppression reach HASHED forms held as match keys, since in a resolution product the hash is usually the key that does the work; (3) 'marked for removal' nine days ago -- what is the state now, noting without reading anything into it that today's wording is 'would have already been' rather than 'was'; and (4) standing suppression checked against incoming data, or a removal of what was present on the day, since the database is rebuilt from partner feeds and only the first survives. Said plainly that the second is a complete answer if true.
+
+Status left at confirmed -- the original confirmation stands on its own terms and nothing has contradicted it; what is open is its SCOPE, not its truth.
 
 ## Steps
 

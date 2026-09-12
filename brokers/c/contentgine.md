@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-25)
-- Note: 2026-08-25: emailed paul@contentgine.com - person-shaped registry contact, forward-this-internally opener. B2B content syndication / intent data. Central argument: CONTENT ENGAGEMENT IS BEHAVIOURAL DATA ABOUT A PERSON - a record that a named individual downloaded a particular white paper at a particular time is a statement about their interests and their employer's purchasing intentions, more revealing than a contact record and invisible to the person. Asked which assets, which dates, and WHICH CLIENTS RECEIVED THE RESULTING LEAD, since once a lead is sold it is beyond their control. Plus the Kaspr-derived-address argument and the full LinkedIn URL suppression ask with both qualifications.
+- Note: 2026-08-25: emailed [named individual]@contentgine.com - person-shaped registry contact, forward-this-internally opener. B2B content syndication / intent data. Central argument: CONTENT ENGAGEMENT IS BEHAVIOURAL DATA ABOUT A PERSON - a record that a named individual downloaded a particular white paper at a particular time is a statement about their interests and their employer's purchasing intentions, more revealing than a contact record and invisible to the person. Asked which assets, which dates, and WHICH CLIENTS RECEIVED THE RESULTING LEAD, since once a lead is sold it is beyond their control. Plus the Kaspr-derived-address argument and the full LinkedIn URL suppression ask with both qualifications.
 
 ## Steps
 

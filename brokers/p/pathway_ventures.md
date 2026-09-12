@@ -10,7 +10,7 @@
 ## Status
 
 - Current: `unreachable` (updated 2026-08-28)
-- Note: 2026-08-28: The 2026-08-27 first-contact letter looked like a normal submission and was logged `submitted` — it had in fact hard-bounced the same day (550, address not found). `indivizio.com` has **no A record at all**: the domain does not resolve, so there is no site to read for an alternative address and no route of any kind. Registry has no other notes on Pathway Ventures / Indivizio, so there is no clue what the business actually does either.
+- Note: Recovered from the committed playbook brokers/p/pathway_ventures.md, because the ledger carries no notes and this row's status had no evidence behind it: 2026-08-28: The 2026-08-27 first-contact letter looked like a normal submission and was logged `submitted` — it had in fact hard-bounced the same day (550, address not found). `indivizio.com` has **no A record at all**: the domain does not resolve, so there is no site to read for an alternative address and no route of any kind. Registry has no other notes on Pathway Ventures / Indivizio, so there is no clue what the business actually does either.
 
 ## Steps
 

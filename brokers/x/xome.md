@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-20)
-- Note: Emailed privacy@xome.com. Real-estate marketplace/auction platform holding property ownership, listing and sale-history records. Letter modeled on the vehicle-history/property-lookup pattern: name-to-property linkage, prior-address search.
+- Note: Recovered from the committed playbook brokers/x/xome.md, because the ledger carries no notes and this row's status had no evidence behind it: Emailed privacy@xome.com. Real-estate marketplace/auction platform holding property ownership, listing and sale-history records. Letter modeled on the vehicle-history/property-lookup pattern: name-to-property linkage, prior-address search.
 
 ## Steps
 

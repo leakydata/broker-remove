@@ -10,6 +10,7 @@
 ## Status
 
 - Current: `unreachable` (updated 2026-08-20)
+- Note: privacy@venpath.net is a GOOGLE GROUP, not a mailbox: bounce reads 'the group you tried to contact (privacy) may not exist, or you may not have permission to post messages to the group', signed 'venpath.net admins'. Not a 5.1.1. venpath.net has NO A record (site gone) but LIVE Google MX - the website is dead while the Workspace tenant is still paid for. Inverse of the Tymax case in 68.
 
 ## Gotchas
 

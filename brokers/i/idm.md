@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `not_found` (updated 2026-08-25)
-- Note: Their only published privacy contact is ccpa@ - a mailbox named for one state. Opened by asking them not to treat the name of the mailbox as the scope of their obligations, and to put any residency-based refusal in writing (_DEFLECTIONS.md 23). Standard data-provider asks otherwise: hashed forms, permanent suppression, derived attributes, onward recipients, source.
+- Current: `not_found` (updated 2026-08-24)
+- Note: 2026-08-24 FINAL: model broker. No record in the active marketing database, permanent suppression added anyway and ITEMISED twice - 8 emails + 11 addresses first, then all 9 phone numbers on request. Explained their model unprompted: 'We are a printed marketing company so email and physical address is how we identify. We receive phone numbers but they are not used for marketing purposes' - and added the numbers regardless. Suppression is forward-acting: 'If we receive any new data sets where you info is included, your info will be removed from that new set.'
 
 ## Steps
 

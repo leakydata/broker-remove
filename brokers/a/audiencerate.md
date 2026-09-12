@@ -8,8 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-17)
-- Note: Statutory delete/opt-out request emailed, tailored to the broker's data category; awaiting reply.
+- Current: `submitted` (updated 2026-09-07)
+- Reference: `no acknowledgement; 45-day window open until ~2026-10-01`
+- Note: RESTS ON A SEND AND NOTHING ELSE, flagged 2026-09-07. No acknowledgement, no reference number, no reply since the 17-19 August letter -- and the company's published opt-out URL now returns HTTP 404, so if the email did not land there is no second channel to fall back on. 'submitted' is doing more work for this row than the evidence supports; treat it as sent, not as received. See SILENT_FAILURES 393. NOT CHASED YET, DELIBERATELY: at 19-21 days this is well inside a 45-day response window and nothing is overdue. Telling a company it is late when it is not is both wrong and costs credibility on every later letter. DIARISED FOR THE FIRST WEEK OF OCTOBER 2026, when the ask is an acknowledgement rather than an accusation, and the dead route becomes a fact to report to them rather than a grievance -- your published opt-out URL returns 404, so if my email did not reach you there is now no route at all. A NOTE ON WHY THIS ROW IS NOT AN ERROR: a cross-reference of dead routes against submitted rows initially looked like fourteen requests filed through doors that no longer exist. All fourteen went by EMAIL; the dead URL is a stale field on the broker record, not the channel used. The route field describes the company, the via field describes the transaction, and joining on the wrong one manufactures an alarm.
 
 ## Steps
 

@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `not_found` (updated 2026-08-25)
-- Note: Statutory delete/opt-out request emailed, tailored to the broker's data category; opens with a first-party declaration. Awaiting reply.
+- Current: `not_found` (updated 2026-08-24)
+- Note: 2026-08-24: 'we have not identified any personal information pertaining to you'. Did NOT say which identifier types were matched, which the letter asked for - at an identity-keyed company a name search and a hash search produce the same sentence. Asked which, offering both readings as acceptable, plus what the index is keyed to and a do-not-add entry. Also offered 'Anonymous Mode', a browser tracking opt-out; noted it is not a substitute and there is nothing for it to switch off if they hold nothing.
 
 ## Steps
 

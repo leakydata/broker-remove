@@ -8,9 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-18)
-- Reference: `FTN Right to Know ticket`
-- Note: STAGE TWO CONFIRMED on-screen: 'Request Successfully Submitted - The following information was submitted to our system successfully... Expect your information to be fully removed in 3 days or less.' Names the record back: 'Submitted: [name] - [PERSONAL], PA [PERSONAL] | [email]'. Sidebar states 'No further action needed'. Same two-doors pattern as TruePeopleSearch.
+- Current: `submitted` (updated 2026-08-26)
+- Reference: `gmail:1a03bebec6d54a2e`
+- Note: 2026-08-26: replied to the supplementary letter asking for 'the URL/web address of your profile details page so we can identify your profile' - which is circular, because they removed the profile on 2026-08-18 and confirmed it on screen. The only way to produce that URL would be for the removal to have FAILED. Answered by naming the circularity plainly, pointing out that a page URL is a front-end artifact while the request is about the index behind it, and asking them to search the supplied identifiers instead - which is what a back-end search takes anyway. Also asked the family question directly. Added the FamilyTreeNow-specific argument: it is a RELATIONSHIP index inferring family links from co-residence over time, so the six prior addresses are each a point where a link may have been recorded, and asked to be removed as a LINKED RELATIVE on other people's records, not only as the subject of his own.
 
 ## Same platform as TruePeopleSearch
 

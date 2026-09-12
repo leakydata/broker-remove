@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-28)
-- Note: Recovered from Gmail Sent folder -- letter sent 2026-08-25 to privacy@rbarrel.com, not recorded in tracker/ledger at the time.
+- Note: Recovered from the committed playbook brokers/r/rainbarrel.md, because the ledger carries no notes and this row's status had no evidence behind it: Recovered from Gmail Sent folder -- letter sent 2026-08-25 to privacy@rbarrel.com, not recorded in tracker/ledger at the time.
 
 ## Steps
 

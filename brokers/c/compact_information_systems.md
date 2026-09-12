@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-30)
-- Note: 2026-08-30 Sent the LIST-BROKERAGE variant to privacy.compliance@compactlists.com. Asked specifically whether the record was included in any list rental/sale in the past 12 months and whether their suppression reaches lists already supplied to clients, or only their own file.
+- Note: Recovered from the committed playbook brokers/c/compact_information_systems.md, because the ledger carries no notes and this row's status had no evidence behind it: 2026-08-30 Sent the LIST-BROKERAGE variant to privacy.compliance@compactlists.com. Asked specifically whether the record was included in any list rental/sale in the past 12 months and whether their suppression reaches lists already supplied to clients, or only their own file.
 
 ## Steps
 

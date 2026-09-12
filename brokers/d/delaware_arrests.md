@@ -8,9 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-16)
-- Reference: `gmail:1a00c880b84103f0`
-- Note: Scope clarification on ticket 537420: request covers ALL InfoTracer properties including the 46 state arrest-record sites, plus the expanded identifier set. Asked for disclosure of any entry attributed to the subject and its source, given misattribution risk on a common name.
+- Current: `covered_by_sibling` (updated 2026-09-08)
+- Reference: `infotracer ticket 544087 -- zero records, suppression on each ingestion`
+- Note: REVERTED 2026-09-08 -- the 'reopened, unevidenced' entry immediately above this one was MY ERROR and applies to a DIFFERENT SITE. This row is the ABBREVIATED domain (ctarrests.org / dewarrants.org / flarrests.org / maarrests.org / oregonarrest.org). I probed the FULL-NAME domain (connecticutarrests.org etc.), found no InfoTracer billing note there, and wrote the result onto this row because both share an id like 'connecticut_arrests'. They are different sites. This row's original closure under InfoTracer ticket 544087 stands untouched and was never tested by today's probe. The full-name domains are now separate registry rows with domain-derived ids. See _SILENT_FAILURES 424.
 
 ## Steps
 

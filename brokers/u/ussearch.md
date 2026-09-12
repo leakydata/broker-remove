@@ -8,9 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-18)
+- Current: `confirmed` (updated 2026-09-11)
 - Reference: `gmail:1a00618203742083`
-- Note: Family-wide suppression confirmed in five identical replies within twelve minutes: 'We have completed the suppression of your publicly available information from appearing in background reports on the people search sites within our corporate family that we control when a user searches by your name.' Three scoped limits pushed back on: keyed to NAME SEARCH only (I had asked for phone/address/email lookups too), scope stated as 'sites we control' without naming them, and suppression expressly not deletion.
+- Note: RE-VERIFICATION 2026-09-11 REACHED THIS SITE FOR THE FIRST TIME, AND IT IS PUBLISHING THE SAME CLUSTER AS TRUTHFINDER. Status deliberately UNCHANGED pending the same human check -- see the truthfinder row; one test settles both. THE URL WAS WRONG ALL ALONG: the re-verifier held https://www.ussearch.com/name/{first}-{last}/, which returned 404. A 404 reads as 'no such page', so this row has been quietly unverifiable while appearing merely absent. USSearch is PeopleConnect, so it uses the same /results/?firstName=&lastName=&state= shape as TruthFinder; that path answers, and returns: 'Verified Name Match [PERSONAL] 47 years old Locations Bradford, ME Shermans Dale, PA [PERSONAL], PA Lehi, U...'. A stale URL had been hiding a live result -- not a bot wall, not an absence, just a template nobody re-checked. THE OPEN QUESTION IS IDENTITY, not publication: [PERSONAL] is the subject's city, Bradford Maine is not, and earlier analysis of this same cluster on Radaris identified a Bradford ME [PERSONAL] aged 47 and a deceased Shermans Dale one as NOT the subject. The subject is also 47, so age separates nothing. Queued with a decidable test on address history. See _SILENT_FAILURES 439, 440.
 
 ## Steps
 

@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-01)
-- Note: Directory-sourced entry with no public information about what the business actually does beyond appearing in a removal-service directory. Sent the "unknown broker" categorisation letter (`_CATEGORY_VARIANTS.md`, "When you cannot tell what kind of broker it is") rather than guessing at a category.
+- Current: `submitted`
+- Note: SUPPLEMENT SENT 2026-09-01, second batch. The 1 Sep letter listed four consumer webmail addresses and warned in the same breath that searching them would return nothing even if a record existed -- then failed to supply a key that could match. Framed as MY omission, explicitly not a new request and not restarting any clock. Quoted Hunter's admission as the reason the first letter was unanswerable: 'our system only ever indexes professional email addresses... consumer webmail addresses aren't something we collect or store at all, BY DESIGN, NOT JUST NOT FOUND.' Supplied [EMAIL] -- a former university address, for a contact-data product by some distance the likeliest thing in the index under this name. Closed-mailbox caveat inline, with the point that any 'confirm by email' step attached to it is UNUSABLE BY DESIGN. LinkedIn URL as a SUPPRESSION key not a search hint. Instruction to generate and search their own first.last@employer patterns, citing Lusha's recorded 'guessed emails based on full name and company email structures' as proof such an address exists. Closed on the binary -- found or nothing, both fine, I only need to know which -- and reaffirmed the standing do-not-add suppression, which is precisely for the case where they hold nothing.
 
 ## Steps
 

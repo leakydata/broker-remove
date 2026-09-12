@@ -7,7 +7,8 @@
 
 ## Status
 
-- Current: `pending`
+- Current: `submitted` (updated 2026-08-25)
+- Note: 2026-08-25: commercial real estate intelligence - keyed to professional identity, so led with name-against-firm and the .edu as search key. Asks: person-to-entity and person-to-property linkage, whether the record is flagged CURRENT (a stale affiliation sold as a present fact), whether contact details were generated rather than observed, and which customers exported it. Conceded the public filings up front.
 
 ## Steps
 

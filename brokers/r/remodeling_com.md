@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-19)
-- Note: Home-improvement lead matching, and the letter is built around what makes that sector distinctive. Provenance first with the full consent ask - date, exact form URL, and the wording shown including any 'matched contractors' list, since that consent record is the legal basis for every call that follows. Then recipients, because a home-improvement lead distributed to four contractors is four records held by businesses that will keep calling. Then do-not-call as a SEPARATE ask from deletion, noting that home-improvement leads are among the most persistently re-marketed data there is. Two category-specific asks: property and homeowner attributes (ownership status, estimated value or equity, roof and system age, prior project history, in-market intent scoring) which become inferences about a household once joined to a name; and every prior address, since a home-services lead is keyed to the property rather than the person.
+- Current: `submitted` (updated 2026-08-26)
+- Reference: `gmail:1a03dfbd9f3b3c15`
+- Note: 2026-08-26: supplementary letter sent with the four late email addresses, six prior postal addresses and three prior phone numbers, framed as completing the request already on file. ONE LETTER PER ADDRESS: this mailbox is the published privacy contact for several brands, so the letter NAMES the siblings and asks them to confirm against each by name - a reply naming one brand would leave us unable to tell whether the others were looked at. Named in the letter sent to [named individual]@ignitevisibility.com under 33 Mile Radius.
 
 ## Steps
 

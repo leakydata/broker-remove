@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-29)
-- Note: 2026-08-29 sent to info@meettie.com and cc'd info@revenueroll.com — the legal entity behind the Tie brand names itself "Revenue Roll Inc. DBA Tie" in its own privacy notice, so both addresses were used rather than guessing which one is monitored. This playbook was missing despite the request having gone out; found and backfilled during a routine sweep for acted-on brokers without a playbook. No reply yet.
+- Current: `submitted` (updated 2026-08-30)
+- Note: Recovered from the committed playbook brokers/t/tie.md, because the ledger carries no notes and this row's status had no evidence behind it: 2026-08-29 sent to info@meettie.com and cc'd info@revenueroll.com — the legal entity behind the Tie brand names itself "Revenue Roll Inc. DBA Tie" in its own privacy notice, so both addresses were used rather than guessing which one is monitored. This playbook was missing despite the request having gone out; found and backfilled during a routine sweep for acted-on brokers without a playbook. No reply yet.
 
 ## Steps
 

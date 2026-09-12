@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-26)
-- Note: 2026-08-26: emailed privacy@safegraph.com. Same mobile-location variant as quadrant_global_pte — device identifiers, movement history, inferred home/work location, identity-graph linkage, and a request to name the identifier types matched on.
+- Current: `submitted` (updated 2026-08-28)
+- Note: Recovered from the committed playbook brokers/s/safegraph.md, because the ledger carries no notes and this row's status had no evidence behind it: 2026-08-26: emailed privacy@safegraph.com. Same mobile-location variant as quadrant_global_pte — device identifiers, movement history, inferred home/work location, identity-graph linkage, and a request to name the identifier types matched on.
 
 ## Steps
 

@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `not_found` (updated 2026-08-25)
-- Note: Statutory opt-out/deletion email sent 2026-08-22.
+- Current: `not_found` (updated 2026-08-24)
+- Reference: `01a02a18-314e-7941-8416-b7b634f70561`
+- Note: 2026-08-24: 'we were unable to locate any personal information... Even though we found no records, we still exercise your right to opt out of the sale or share of personal information for targeted advertising purposes by including you in our suppression list.' Third broker today to suppress on a null result. Also volunteered an APPEAL route (privacy-info@01advertising.com) and a reference code, neither of which was asked for. Ref 01a02a18-314e-7941-8416-b7b634f70561.
 
 ## Steps
 

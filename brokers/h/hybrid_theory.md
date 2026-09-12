@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-28)
-- Note: Sent the AUDIENCE-DATA / identity-resolution variant. Opens with the fact that a name-and-address search may return nothing while a segment profile sits untouched, and that the two outcomes are indistinguishable from outside. Asked by name for hashed email match keys, cookie/MAID/CTV identifiers, THE EDGES joining those to name/address/phone, audience segment membership including modelled rather than observed attributes, and household association derived from IP. Also asked which identifier types were matched on, and pre-empted the browser opt-out as device-scoped and not equivalent to a server-side deletion.
+- Current: `covered_by_sibling` (updated 2026-09-11)
+- Note: COVERED BY AZERION'S ANSWER OF 2026-09-11, WHICH THEY EXTENDED HERE UNPROMPTED. Azerion's reply to the 25 Aug letter states: 'As you correctly pointed out Hybrid Theory was acquired by Azerion. Therefore, the below explanation also applies for your request sent to privacy@hybridtheory.com on August 28, 2026.' So the separate 28 Aug request to privacy@hybridtheory.com is answered and needs no chase. The substance, the refusals and the open question all live on the azerion row -- see it rather than duplicating here. Worth recording as a POSITIVE pattern: a company volunteering that one answer covers a second request the consumer filed separately is rare, and the alternative is a row chased for weeks against an address whose owner has already replied under a different name.
 
 ## Steps
 

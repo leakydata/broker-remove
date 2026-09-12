@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-25)
-- Note: 2026-08-25: emailed phil@dresdendirect.com - person-shaped registry contact, forward-this-internally opener. Direct-mail list brokerage: deletion-vs-suppression leads, both chain directions asked for, and asked them to NAME any selects describing health, finances, religion or household composition, even if they conclude they may retain them. Plus the consent-provenance question.
+- Note: 2026-08-25: emailed [named individual]@dresdendirect.com - person-shaped registry contact, forward-this-internally opener. Direct-mail list brokerage: deletion-vs-suppression leads, both chain directions asked for, and asked them to NAME any selects describing health, finances, religion or household composition, even if they conclude they may retain them. Plus the consent-provenance question.
 
 ## Steps
 

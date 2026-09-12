@@ -9,7 +9,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-17)
-- Note: Sent to autodelete@dmsgroup.com. The mailbox name suggests automated processing, so the letter asks explicitly what format their parser needs and warns that acting only on the sending address would leave seven of eight addresses untouched with no way to tell from the confirmation. Lead-gen variant otherwise.
+- Note: Sent to [named individual]@dmsgroup.com. The mailbox name suggests automated processing, so the letter asks explicitly what format their parser needs and warns that acting only on the sending address would leave seven of eight addresses untouched with no way to tell from the confirmation. Lead-gen variant otherwise.
 
 ## Steps
 

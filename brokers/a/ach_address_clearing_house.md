@@ -8,9 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-16)
+- Current: `submitted` (updated 2026-08-30)
 - Reference: `gmail:1a00c696f850666c`
-- Note: Statutory deletion + opt-out emailed from [EMAIL]. All 4 email identities + DOB asserted; asks them to search hashed forms too. Includes fallback: if no covering statute or non-covered state, honor as company policy and state which basis in writing. DATA-CO-OP variant: members contribute records, so suppression matters more than deletion alone - a deleted record gets re-contributed otherwise. Conceded they may retain minimal data to honor suppression.
+- Note: 2026-08-29 CHASED (13d vs 45, not overdue and said so). CO-OPERATIVE letter: members both supply and draw, which makes removal circular in a way it is not for a compiler -- suppress here, member A who contributed me still holds me, member A contributes again next cycle, I am back, and every step of that was correct. Four questions: does the suppression PROPAGATE to members or stop at the co-op file (159 leaf-vs-branch, and 'it stops with us' pre-accepted as a good answer); is there a DO-NOT-CONTRIBUTE flag so a member's next contribution is rejected at ingest rather than accepted and re-suppressed; which member contributed me; and which members have drawn me. The last two are the point -- a co-op tracks contribution and draw because that accounting determines member entitlement, so it can answer provenance and recipients where a bulk compiler genuinely cannot.
 
 ## Steps
 

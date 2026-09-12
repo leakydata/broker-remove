@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-25)
-- Note: 2026-08-25: emailed privacy@crexi.com. Same commercial-real-estate structure as CoStar - concede the county records, then ask for the compilation, the appended contact details that no deed carries, the owner/investor profile, and the identity linkage. Pre-empted both the B2B and the publicly-available exemptions together, with the line that a compiled, enriched and scored profile is not the same thing as the public sources it was compiled from. Included the LinkedIn suppression ask and the derived-address ask.
+- Current: `manual_required` (updated 2026-09-11)
+- Note: REVERTED 2026-09-11 to manual_required, COMPLETING A CORRECTION I SAID WAS FINISHED AND WAS NOT. An adoption on 2026-08-28 overwrote a deliberate downgrade and set this row to submitted, where it has read ever since as though a request went in. It did not -- the company refused the email route, which is why the downgrade was made. _SILENT_FAILURES 434 recorded this for seventeen rows and claimed all seventeen were corrected; only seven were, and this is one of the ten that was left reading 'submitted' for another hour. A handoff item is open under this same id [click]. THE EVIDENCE THE ADOPTION ERASED, from 2026-08-25: 2026-08-25: form-only. privacy@crexi.com auto-replies: 'in order to process data subject access requests, we require that individuals submit such requests through our online Privacy Portal (https://crexi...)'. The substantive letter was already sent and is on the thread; the portal submission still needs doing. Staged as a handoff.
 
 ## Steps
 

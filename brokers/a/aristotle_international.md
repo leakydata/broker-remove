@@ -7,7 +7,8 @@
 
 ## Status
 
-- Current: `pending`
+- Current: `submitted` (updated 2026-08-24)
+- Note: 2026-08-24: autoreply directs US residents under 'other state privacy laws' to a page whose every mechanism is scoped 'California residents may...'. Contradiction put to them; asked which route a non-CA resident uses, the published-policy fallback, and to fix whichever of the two is wrong. Phone route 888-217-9600 queued as a fallback.
 
 ## Steps
 

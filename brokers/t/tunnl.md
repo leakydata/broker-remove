@@ -8,9 +8,8 @@
 
 ## Status
 
-- Current: `confirmed` (updated 2026-08-18)
-- **2026-09-03 (§293):** THREE GAPS RAISED 2026-09-03 ON A COMPLETED DELETION (SILENT_FAILURES 292 sweep). The 18 August erasure stands and was exemplary -- Ethyca Privacy Center returned 'Your data has been deleted' about a minute after submission, full cycle under two minutes, no CAPTCHA and no human step. But the notes recorded two limits at the time that were never followed up, and the Choreograph case surfaced a third. (1) THE FORM TAKES ONE ADDRESS AND THERE ARE SIXTEEN. For an audience/household data company the address history IS most of the record, so a single submission covered one address of sixteen and nothing in the flow says so. Asked them to extend the existing erasure to all sixteen under the same ticket, with the standing limit restated: suppress the ASSOCIATION between a former address and me, never the address itself, and if the system can only exclude bare values then leave the former ones alone -- in an audience file a bare-address exclusion removes a stranger's household. (2) THE REQUEST TYPE WAS ERASURE ONLY, NO OPT-OUT -- the portal completes one type per submission. Argued the distinction that matters: a deletion removes what is held today, an opt-out governs what happens next, and
-- Note: CONFIRMED REMOVED. Broker-issued email 'Your data has been deleted' / 'Your deletion request has been completed', arriving about one minute after the Ethyca portal submission. Full cycle - form, one-time code, submission, completion - took under two minutes with no human step and no CAPTCHA.
+- Current: `confirmed` (updated 2026-09-03)
+- Note: AUTORESPONDER POINTED BACK AT THE PORTAL, 2026-09-03. [named individual]@tunnldata.com: 'If the purpose of your email is to make a privacy request pursuant to our Privacy Policy, please visit our Privacy Center to submit your request.' So the three gaps raised yesterday -- fifteen uncovered addresses, erasure-without-opt-out, and whether Deep Root is covered -- were answered by a pointer back to the one-address-per-submission form whose limits were the whole subject of the letter. Not pressing further by email; the substance is on the thread if a human reads it. The completed 18 August erasure stands.
 
 ## Steps
 

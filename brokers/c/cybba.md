@@ -8,6 +8,7 @@
 ## Status
 
 - Current: `submitted`
+- Note: Minimised letter (--keys email-only): name and 12 email addresses only; DOB, postal addresses and phone numbers deliberately withheld because an identifier-keyed adtech platform cannot match on them and receiving them would only enlarge the footprint. Asks for plaintext AND hashed search (MD5/SHA-1/SHA-256, lowercased and trimmed), and for three things in the confirmation: which identifiers matched, which systems were searched, and whether suppression is keyed to me or to the sent keys.
 
 ## Steps
 

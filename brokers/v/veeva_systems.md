@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-31)
-- Note: Sent the HEALTH-SECTOR VARIANT, same shape as `h1_insights.md`. Veeva provides CRM/data products to pharma/life-sciences clients, including compiled HCP/prescriber profiles from licensing boards, publications and trial registries. Not a healthcare professional or researcher — so a matched profile would be a misattribution rather than a privacy problem, and the letter asked for correction/unlinking in preference to deletion.
+- Note: THEY ANSWERED THE RELATIONSHIP QUESTION, 2026-08-31 15:37, seven minutes after I asked: 'If you are not a healthcare professional and have not otherwise interacted with, or had a relationship with Veeva in the past, then the relevant field to complete in our privacy requests form is...' -- so the form DOES accommodate a person with no relationship, and SF 223's worry was unfounded for this company. Worth recording as such: I asked without accusation precisely so the answer could be 'there is an option', and it was. Queued for the form with the answer attached. The correction-vs-deletion question (1798.106 before .105, since a profile bearing this name in a prescriber database is more likely a misattribution) is still open and goes in the form's free text.
 
 ## Steps
 

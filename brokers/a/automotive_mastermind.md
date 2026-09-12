@@ -7,7 +7,9 @@
 
 ## Status
 
-- Current: `pending`
+- Current: `submitted` (updated 2026-09-10)
+- Reference: `AV6KDQ7SS4`
+- Note: COMMENT ADDED TO AV6KDQ7SS4 on 2026-09-10 18:29 UTC, contents unknown -- the OneTrust notification says only 'Your Privacy Request Needs Attention' and carries none of the comment text, so reading it needs a portal visit with a one-time access code. Queued. The request covers THREE companies in one submission: automotiveMastermind, Polk Automotive Solutions and Market Scan, all under Mobility Global. Email was verified 2026-09-05 and the request has been running 5 days, so a comment at this stage is more likely the substantive answer than a further verification step.
 
 ## Steps
 

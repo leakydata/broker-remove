@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-18)
-- Note: Statutory delete + opt-out + suppression letter sent to the published contact, covering every prior address, prior telephone number and alternate email address rather than only the current ones.
+- Current: `submitted` (updated 2026-08-26)
+- Note: 2026-08-26: ENUMERATED CONFIRMATION, and the enumeration did its job immediately. Leadspace listed all EIGHT email addresses from the 18 Aug letter and confirmed removal within 30 days - and listing them is exactly what revealed that the FOUR late-recovered addresses are missing. This is _SILENT_FAILURES.md 103 caught by 96: a short-list request answered accurately, with the gap visible only because they enumerated. Supplemented IN-THREAD rather than as a separate letter, which is cheaper for both sides. FIRST APPLICATION OF THE 108 CATEGORY RULE: Leadspace is B2B professional-profile data, so I deliberately sent ONLY the four missing email addresses and the LinkedIn URL - no postal addresses, no phone numbers, no DOB - and said so explicitly, crediting the company that pointed the principle out. Also asked (a) whether they DERIVE first.last@employer addresses or only ingest collected ones, pre-accepting yes or no, and (b) for LinkedIn URL suppression applied to future ingestion and exclude-only. ONE MORE THING WORTH WATCHING: their message counts my eight addresses as 'EIGHT INDIVIDUALS'. Flagged that they are one person, and that if the database treats them as eight profiles then removing them may leave the RESOLUTION LINKING THEM intact - which in a B2B identity product is much of the value. Asked them to confirm the removal covers the records AND the links.
 
 ## Steps
 

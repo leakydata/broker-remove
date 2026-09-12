@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted`
-- **Merge note (2026-09-03):** this row and `yobi_ventures` (Yobi Ventures, LLC — the CA-registered predecessor name, filings 2020-2023 then lapsed) were independently discovered and fixed by two concurrent sessions on the same day, both converging on privacy@yobi.ai. `yobi_ventures` is now marked `duplicate_of` this row; see `yobi_ventures.md` for the fuller original reasoning (acquisition/lapse analysis, modelled-data deletion scope, conditional-suppression precondition) — worth reading before writing to this address again, since it's carried over here only as a pointer.
+- Note: Minimised letter (--keys email-only): name and 12 email addresses only; DOB, postal addresses and phone numbers deliberately withheld because an identifier-keyed adtech platform cannot match on them and receiving them would only enlarge the footprint. Asks for plaintext AND hashed search (MD5/SHA-1/SHA-256, lowercased and trimmed), and for three things in the confirmation: which identifiers matched, which systems were searched, and whether suppression is keyed to me or to the sent keys.
 
 ## Steps
 

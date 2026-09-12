@@ -8,8 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-19)
-- Note: Sales engagement platform; sent to security@ with support@ copied, since verify_emails rated the published support address better while the registry kept the purpose-built one. Same processor-first framing as onemodel: name the customer accounts holding the record, because 'contact the controller' is unactionable without knowing which controller. Carried the business-vs-consumer-data pre-empt - if they claim a B2B carve-out, name the basis rather than declining quietly, and apply the request in full to everything outside it. A business email address is still an address that reaches the person and still the key that joins the rest of a profile.
+- Current: `submitted` (updated 2026-08-27)
+- Reference: `657692`
+- Note: Substantive reply from Sr Director, Data Privacy (2026-08-27). Best-articulated controller/processor answer of the project. Key admissions, all volunteered: (1) deletion and opt-out are MUTUALLY EXCLUSIVE in their systems -- 'deleting you and then re-adding you to mark you as opted-out isn't something our systems and policies support'; (2) they cannot suppress against a customer re-uploading me into a customer instance, so a deletion lasts until the next import and they said so unasked; (3) email is the primary search key, stated explicitly as an engineering fact and NOT as a claim that other identifiers fall outside CCPA -- the first time anyone has drawn that line correctly. Refused to name customers (expected, and I had pre-accepted an explicit refusal). Did NOT answer whether they will forward the request to those customers -- re-asked. Access half is gated behind per-address verification links; four of the twelve addresses are mailboxes I no longer control (webtv/gateway/iwon are defunct services, psu is closed), so those verifications can never complete. Replied choosing DELETION, with a conditional in case their opt-out flag blocks re-creation in their OWN stores; asked that deletion apply to all twelve regardless of verification (their own reasoning: deletion discloses nothing, so it needs no verification); asked for bare existence-of-match disclosure on the unverifiable addresses. Notified 60-90 days rather than 30.
 
 ## Steps
 

@@ -9,7 +9,8 @@
 
 ## Status
 
-- Current: `unreachable` (updated 2026-08-23)
+- Current: `unreachable` (updated 2026-08-24)
+- Note: 2026-08-23: hard bounce after three days of retries - 'The recipient server did not accept our requests to connect.' support@structure.ac is dead. No alternative route found.
 
 ## Gotchas
 

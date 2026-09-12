@@ -7,7 +7,8 @@
 
 ## Status
 
-- Current: `pending`
+- Current: `submitted` (updated 2026-08-24)
+- Note: 2026-08-24: audience-data letter. Hashed match keys with the suppression-vs-inventory split, the geographic query in place of a MAID, edges not rows, sensitive inference categories named explicitly, and the IDM precedent cited for the do-not-add ask.
 
 ## Steps
 

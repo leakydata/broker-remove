@@ -7,7 +7,8 @@
 
 ## Status
 
-- Current: `pending`
+- Current: `submitted` (updated 2026-08-24)
+- Note: 2026-08-24: acknowledged, and asked to verify with full name, address, and 'the last four digits of any and all credit card number(s) that you used to purchase air travel'. Queued as a user decision - card data is a hard rule. Note this demand is materially MORE proportionate than a driver's licence: the card is already a field in their ticketing record, so it is the record key rather than a new sensitive disclosure. They did not address the government-disclosure questions at all.
 
 ## Steps
 

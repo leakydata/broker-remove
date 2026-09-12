@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-31)
-- Note: Never a Trust & Will customer. Sent the B2B-SAAS-VIA-A-BUSINESS-YOU-DEALT-WITH variant (`_CATEGORY_VARIANTS.md`): estate-planning documents are often prepared by attorneys/advisors on a client's behalf, so my details could appear as a named beneficiary/executor/trustee on someone else's document without my ever signing up. Asked who entered any such record if identifiable, and conceded a genuine document-retention obligation may apply — asked which category, on what basis, with the rest deleted.
+- Note: Recovered from the committed playbook brokers/t/trust_will.md, because the ledger carries no notes and this row's status had no evidence behind it: Never a Trust & Will customer. Sent the B2B-SAAS-VIA-A-BUSINESS-YOU-DEALT-WITH variant (`_CATEGORY_VARIANTS.md`): estate-planning documents are often prepared by attorneys/advisors on a client's behalf, so my details could appear as a named beneficiary/executor/trustee on someone else's document without my ever signing up. Asked who entered any such record if identifiable, and conceded a genuine document-retention obligation may apply — asked which category, on what basis, with the rest deleted.
 
 ## Steps
 

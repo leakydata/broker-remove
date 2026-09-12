@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-26)
-- Note: 2026-08-26: emailed info@sbfe.org. Same FCRA-concession variant as s_p_global.
+- Current: `submitted` (updated 2026-08-27)
+- Reference: `gmail:1a03d983851606c1`
+- Note: 2026-08-27: SBFE gates disclosure behind the LAST FOUR DIGITS OF A SOCIAL SECURITY NUMBER, plus DOB and home address, and says the matter is closed if everything is not supplied. DECLINED, and no SSN fragment was sent - that is a standing rule for this project and this is the clearest case for it: they state in the same message that SBFE 'does not collect any information directly from consumers', and that they 'must keep a record of the information you provide', so the proposal is to hand a Social Security fragment to a company that may hold nothing, and have it retained either way. Two other things in the reply: the exemption is asserted CONDITIONALLY and before any search ('IF SBFE has your information... SBFE is not required to remove'), so the prior yes/no question - do you hold anything at all - was put back to them, since it needs no SSN to answer. And the redirect to 'the business lending institutions with which you have relationships' assumes the relationship it is meant to establish: only SBFE can see which lender supplied a record. Also noted they opened by explaining GDPR does not apply, which the letter never raised.
 
 ## Steps
 

@@ -7,21 +7,8 @@
 
 ## Status
 
-- Current: `unreachable` (updated 2026-08-26)
-- Note: 2026-08-25: emailed lzepeda@agrgroupinc.com - a named individual at AGR Group, per the registry filing. Same forward-this-internally opener as black_pearl. Added the internal-DNC ask and the consent-provenance question (source URL, capture date) because the AGR name is associated with outbound telemarketing.
-- Note: 2026-08-25 (later same day): that letter bounced — 550, mailbox unavailable.
-  The domain itself resolves and has valid MX (Microsoft 365), so this was a dead
-  mailbox, not a dead domain. `privacy@agrgroupinc.com` is the address the
-  company's *current* CA data broker registration filing lists — a different
-  address than the one bounced above, meaning the registry itself had updated
-  since the original send. Resent there.
-- Note: 2026-08-26: **that second address bounced too** — 550 5.4.1 "Recipient
-  address rejected: Access denied" from the same Microsoft 365 tenant. Both
-  addresses on file are dead. agrgroupinc.com does not resolve over HTTP, so
-  there is no company-site route to check for a third address. No working email
-  channel exists as of this writing; a postal attempt via the registered-agent
-  address on the CA filing is the only remaining route, and belongs in
-  `handoff.py` rather than another email guess.
+- Current: `unreachable` (updated 2026-08-28)
+- Note: Adopted from the shared ledger: another agent recorded 'unreachable' on 2026-08-28. No detail is carried across — re-read the broker's own reply before relying on this.
 
 ## Steps
 

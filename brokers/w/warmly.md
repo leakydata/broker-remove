@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-20)
-- Note: Emailed privacy@warmly.ai. Website-visitor de-anonymization / sales-intelligence tool: matches anonymous site visitors to a real identity via IP/cookie/device signals. Identity-resolution letter sent, naming the de-anonymization linkage itself as the thing to delete, not just a contact record.
+- Note: Artifact received 2026-08-20 10:16 UTC, about 20 seconds after sending: privacy+noreply@warmly.ai - 'Thank you for submitting your request. Your request will be processed and completed within the next 30 days.' A dated commitment rather than a bare acknowledgement, so it is worth holding them to: due 2026-09-19. Note the sending address is a +noreply variant, the same shape as Unearth Campaigns' privacy+noreply@ - replies go nowhere, so any follow-up must go to the base privacy@ address rather than to the thread.
 
 ## Steps
 

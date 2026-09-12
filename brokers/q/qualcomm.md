@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-19)
-- Note: A semiconductor company on a broker list - handled like pwc, by establishing what is actually the case before demanding anything, with an unqualified negative accepted as a complete answer. But unlike pwc the plausible routes are specific and worth naming, so the letter lists four: software and services shipped on devices; advertising, analytics or audience products including anything inherited from an acquisition; automotive and telematics platforms where a vehicle identifier can be tied to a person; and ordinary corporate marketing. Two device-company questions: do they hold or process a device-level identifier (MAID, chipset serial, IMEI, VIN) linked to the subject - and if so delete the LINKAGE, not just the row - and which parts are held as processor for device makers, carriers or app developers. Declined to supply an advertising identifier for the usual reason.
+- Current: `submitted` (updated 2026-08-26)
+- Reference: `gmail:1a01960af70e16c0`
+- Note: 2026-08-26: Qualcomm acknowledged receipt and said a substantive response will follow once review is complete. Clean acknowledgement, no portal demand, no ID demand - clock started 2026-08-19.
 
 ## Steps
 

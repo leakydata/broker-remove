@@ -8,16 +8,8 @@
 
 ## Status
 
-- Current: `confirmed` (updated 2026-08-22)
-- Note: privacy@apollo.io replied within minutes: "we have successfully actioned
-  the deletion request you submitted. We have also added the individual to our
-  suppression files to ensure that they are not re-added to the Apollo database
-  in the future." Unusually fast and a genuine confirmation, not an auto-ack —
-  and it names suppression specifically, not just deletion. No mention of the
-  LinkedIn/work-email pushback documented below, so this may have matched on the
-  phone number or name variant alone. Worth a re-check at the 7-14 day mark
-  given how little friction this one had compared to the deflection this
-  category usually produces.
+- Current: `confirmed` (updated 2026-09-02)
+- Note: ADDITION SENT 2026-09-02, upgrading yesterday's supplement from the weaker ask to the stronger one (SILENT_FAILURES 267a). The supplement asked them to SEARCH the connected-account store; the ask that matters is a DO-NOT-CONTRIBUTE RULE APPLIED AT INGEST, because a deletion in a contributory system is circular -- remove me, another user's address book still has me, their next sync contributes me again, every step correct and nobody at fault. Framed as a small delta rather than a new request, because BOTH have already applied a suppression: the only question left is WHERE IN THE PIPELINE IT FIRES -- at ingest, rejecting an incoming record before it lands, or after, hiding one already accepted. For Kaspr the delta is smallest of all, since their own words were a suppression list 'holding only the minimum needed to PREVENT REINTRODUCTION', which is the right concept already. Explicitly asked WHETHER and not WHO -- the contributor is almost certainly a colleague who installed a tool with no idea it would do this -- and said that if no ingest-level rule exists, saying so plainly is the most useful possible answer, since it is the single fact deciding whether the removal lasts a month or permanently. Held the same addition back from Hunter, Lusha, SalesIntel and LeadIQ: their threads are mid-conversation and a second email hours after the first would be churn -- fold it into the reply instead.
 
 ## Steps
 

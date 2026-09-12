@@ -8,8 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-20)
-- Note: EVIDENCE OF SUBMISSION: the browser tab that held the staged Claritas OneTrust form was later found on privacyportal.onetrust.com/trust-center-portal/#/verify/success?verificationId=9c1cb809-68fd-4289-a989-bcda9d7166d6 -- a OneTrust verification-success page. So the form was submitted and the email verification link clicked. NO REQUEST ID CAPTURED and no confirmation email seen in the inbox yet; watch for one and record the ID. Downgraded from manual_required to submitted on that basis, but treat as provisional until a broker-issued artifact with an ID arrives.
+- Current: `submitted` (updated 2026-09-08)
+- Reference: `gmail:1a080345569afb49`
+- Note: REQUEST ID ASKED FOR 2026-09-08, executing the watch this row set: 'NO REQUEST ID CAPTURED and no confirmation email seen in the inbox yet; watch for one and record the ID.' Twenty days have passed since the 19 August submission and nothing has arrived, so the watch has run its course and the ask is due. WHAT IS ACTUALLY KNOWN: the browser tab that held the staged OneTrust form was later found on privacyportal.onetrust.com/trust-center-portal/#/verify/success?verificationId=9c1cb809-68fd-4289-a989-bcda9d7166d6 -- a verification-success page. So the form was submitted and the email verification clicked. THAT IS THE WHOLE OF THE EVIDENCE, AND IT IS OURS RATHER THAN THEIRS. Per SILENT_FAILURES 394 that makes this row uncorroborated: a request whose only artifact is a page our own machine rendered. WHAT WAS SENT, framed as administrative rather than as a chase and saying so in terms: send the request ID for that submission, or say if no request was created. Two reasons given -- the practical one, that neither side can reference the request without an ID; and the real one, that a request evidenced only by our own browser is not evidenced at all. The failure mode was named explicitly so the question is easy to answer honestly: verification can succeed while the request itself is not created, which has been seen elsewhere in this project, and it is better to learn that now than in six months. The OneTrust verificationId was quoted to help them locate it. Stated plainly that no expedition is being asked for and no deadline is alleged missed -- twenty days is not late and the letter says so.
 
 ## Steps
 

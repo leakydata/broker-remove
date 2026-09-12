@@ -7,9 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-17)
+- Current: `submitted` (updated 2026-08-25)
 - Reference: `gmail:1a0104338b32c189`
-- Note: Acknowledged by legal@ (the working contact; the published info@ address routes there). Says it will process under CCPA where applicable.
+- Note: 2026-08-25: acknowledged by legal@alescodata.com - 'We have received your request and will process it in accordance with applicable privacy laws, including the California Consumer Privacy Act (CCPA), where applicable.' A plain receipt with a stated legal basis, no redirect and no refusal. Awaiting the substantive reply.
 
 ## Steps
 

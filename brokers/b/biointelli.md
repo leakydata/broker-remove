@@ -7,7 +7,8 @@
 
 ## Status
 
-- Current: `pending`
+- Current: `submitted` (updated 2026-08-25)
+- Note: 2026-08-25: name suggests health/life-sciences, so asked WHICH of five kinds rather than assuming - health/condition data, healthcare professional records, clinical trial or registry records, plain consumer marketing, or something else. Asked whether any health attribute is inferred rather than reported, since an inference is neither verifiable nor correctable by the subject. Also pre-empted the HIPAA deflection: data held by a broker outside a covered-entity or business-associate relationship is generally not HIPAA-protected, which is why a consumer request is the only route.
 
 ## Steps
 

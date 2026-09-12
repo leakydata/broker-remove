@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-03)
-- **Note (2026-09-03):** valassisprivacy.request@rrd.com and a CC'd privacy@valassis.com both hard-bounced. No working RRD-specific address could be found. Resent to privacy@vericast.com (found on vericast.com/privacy-policy/, plus a webform at vericast.com/do-not-sell-or-share-my-personal-information/) — **but Vericast's own privacy policy states "As of July 2024, Vericast no longer operates Valassis Communications, Inc. and its subsidiaries and is not a data broker."** So this may be writing to a company that no longer holds the data at all. This is a genuine "which entity actually holds this now" gap — see the sibling row `valassis_communications_inc_a_vericast_business.md`, which received the identical letter (same underlying company, two registry rows from two different parent-brand filings). If a reply comes back confirming Vericast no longer holds Valassis data, the next step is finding whoever RRD (or a further successor) actually is today — not yet identified.
+- Current: `email_pending`
+- Note: DOUBLE OPT-IN, Request ID 6ANATPXV3T. valassisprivacy.request@privacy.rrd.com 2026-08-31 14:57: 'One more step is required before we can start working on your request. Please confirm your email by clicking on the button below.' The request does not start until the link is opened, so this is email_pending rather than submitted -- recording it as submitted would be recording a request that will silently expire. Queued for handoff. Not clicked from here: a one-click confirmation, and the token is in the user's own mailbox. This is the RRD thread covering all three Valassis registrations (SF 216).
 
 ## Gotchas
 

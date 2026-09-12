@@ -7,9 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-18)
-- Note: Discovered via infofree.com, which links its privacy route to this portal. Completed privacycompliance.biz end to end with all three rights enabled: opt-out of sale (15 days), deletion (45 days), and disclosure of categories collected. Their disclosure page is unusually candid - see the playbook.
-- **Correction (2026-08-29):** a separately CA-registered `databaseusa` entry (this same company, registered under its own name rather than found via infofree.com) had never actually been emailed and its registered address, privacy@databaseusa.com, hard-bounced (550) when tried. No dedicated privacy mailbox is published anywhere on their site — only a general inbox (info@databaseusa.com) and this same privacycompliance.biz portal. Sent a short secondary email to info@databaseusa.com naming the portal and this already-completed submission, so the two threads read as the same request rather than a fresh one. Status stays `submitted` on the strength of the portal completion; this was a duplicate-effort near-miss from the registry carrying the company under two unconnected entries.
+- Current: `submitted` (updated 2026-08-26)
+- Note: 2026-08-26 BOUNCE: the supplementary letter failed - privacy@databaseusa.com returned 550 5.1.1 'User unknown in relay recipient table'. Domain and MX are healthy (Intermedia Exchange, shared with researchusallc.com); the MAILBOX does not exist. This is the SILENT_FAILURES 88 pattern, invisible to any domain-level check. IMPORTANT - NO FALSE RECORD HERE: the original 2026-08-18 'submitted' was NOT an email. It was a completed end-to-end submission through the privacycompliance.biz portal with all three rights enabled, so that request stands and this bounce is the first ever attempt at the email address. Registry row updated: email_to cleared, email_verified_by set to 'bounced', and the reason written into notes so nobody re-adds it. Supplement re-staged as a portal handoff. CONSEQUENCE: my letter had asked DatabaseUSA to extend the request to ResearchUSA, and since it never arrived, ResearchUSA needs its own - its filed address is privacy@researchusallc.com on the same mail tenant, so it may be dead too.
 
 ## Steps
 

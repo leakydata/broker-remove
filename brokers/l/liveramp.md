@@ -10,14 +10,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-21)
-- Note: 2026-08-20: first contact to ukprivacy@liveramp.com, tailored per
-  _CATEGORY_VARIANTS.md. 2026-08-21: ukprivacy auto-replied confirming it only
-  covers GDPR services requests, not this. Fetched liveramp.com/privacy/my-
-  privacy-choices directly and found `consumercare@liveramp.com` published as
-  the US contact, plus a toll-free line (844) 678-0045 and per-request-type
-  TrustArc web forms (opt-out, access, correction, deletion — all browser/
-  CAPTCHA gated). Re-sent the full request to consumercare@liveramp.com.
+- Current: `submitted` (updated 2026-08-27)
+- Reference: `gmail:1a042df1aea836ab`
+- Note: 2026-08-27 CORRECTION TO MY OWN PREVIOUS NOTE. The full request was resent to [named individual]@liveramp.com after their UK Privacy Team named it as the US desk. But the registry note ALREADY recorded that address as published on liveramp.com/privacy/my-privacy-choices, so the UK team confirmed what was known rather than revealing it - I overstated that in the note written minutes ago. It also means the fault report in the letter, that none of their published privacy addresses is American, is WRONG: consumercare@ is published, just not alongside the thirteen region-scoped ones. Sending a short correction rather than leaving an inaccurate criticism standing. The substance of the request is unaffected.
 
 ## Steps
 

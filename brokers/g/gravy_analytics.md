@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-27)
-- Note: Opt-out letter sent by email to privacy@gravyanalytics.com (delete + opt out of sale/sharing + direct downstream recipients + suppress against future ingestion). All twelve email addresses, sixteen prior addresses and eleven prior phone numbers listed for search. Sent as HTML per letter_html.
+- Current: `replied` (updated 2026-08-27)
+- Note: SAME REPLY, SAME HOUR, SAME TEMPLATE as unacast -- and the Unacast copy's own mailto link points at privacy@gravyanalytics.com, which is the clearest possible evidence the two are answered from one desk. Treating the Unacast response as covering this row rather than writing twice; the follow-up on the Unacast thread says so explicitly and invites correction if wrong. See the unacast note for the substance and the outstanding asks.
 
 ## Steps
 

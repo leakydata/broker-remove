@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-30)
-- Note: 2026-08-30 sent privacy@throtle.io, email-only key policy (195). IDENTITY RESOLUTION, so the letter leads on 171: is the link between my identifiers STORED OR RECOMPUTED, since a graph-derived association rebuilds on the next matching signal and deleting the output accomplishes nothing -- honest 'we can delete but cannot prevent recreation' invited in those words. Also asked which brands/publishers/onboarding clients CONTRIBUTED my identifiers (their deletion cannot reach the contributor, so the record returns at the next onboarding run) and who RECEIVED a resolved identity, counts/dates/categories only. Device/advertising ID refused with the reasoning. Carries the three confirmation asks including 199's which-systems-were-searched, and the cap extended to IP.
+- Current: `replied` (updated 2026-09-07)
+- Reference: `gmail:1a07b63fcf585e55 -- OOO to 2026-09-14`
+- Note: IQVIA ROUTING ESTABLISHED, 2026-09-07. The letter to PrivacyOfficer@IQVIA.com produced an out-of-office from [named individual]@iqvia.com: 'I am out of the office until Sept 14. For urgent matters, please contact Barbara Bressolles (EU.DPO@IQVIA.com).' So PrivacyOfficer@IQVIA.com routes to a named individual who is away until 14 September. THE MAILBOX IS REAL AND MONITORED BY A PERSON, which is better than most of what this project finds -- but nothing will move for a week. NOT ESCALATING TO THE EU DPO: that address is offered for urgent matters, this is a routine consumer request from a US resident, and using an emergency channel for a non-emergency is how a channel stops being useful for the next person. Waiting until after 14 September, then chasing if nothing arrives. The five questions stand: who controls Throtle's identity graph today, when and how it transferred, whether processing purposes differ under the new controller, whether the consumers in the graph were notified, and -- to be answered even if every other answer is 'nothing changed' -- whether opt-outs and suppressions recorded before the transfer bind the new controller.
 
 ## Steps
 

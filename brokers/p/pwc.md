@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-19)
-- Note: A professional-services firm on a broker list, handled under the _CATEGORY_VARIANTS variant for that case. Opened by naming the four reasons such a firm appears on such a list - a real data-products line, a cautious state registration, marketing data about non-clients, or plain mis-categorisation - and said plainly that a wrong premise is worse than no letter. Asked in order: do you hold anything at all (with an unqualified negative accepted as a complete answer and the matter closed); if so in what capacity and for which client; delete anything held for marketing, prospecting or commercial dataset purposes; and are you registered as a data broker in any state and under which entity, so the request reaches the right business.
+- Current: `submitted` (updated 2026-08-25)
+- Note: 2026-08-25 FINAL COUNT AND CORRECTION. The notification stream has STOPPED. Exact figures, counted from timestamps rather than estimated: 58 distinct request IDs, 17:46:54 to 21:26:38 UTC, 220 minutes, median gap 3.6 min. Nothing since. MY THREE PREDICTIONS WERE ALL WRONG - 41 identifiers, then 41+5 names = 46, then a 5x41 cross-product = 205. Actual 58. I do not know the decomposition rule and am not going to invent a fourth theory; what is established is that one letter fanned out into 58 requests and that the salutation cycled through at least three of the name variants we supplied. The 205 figure came from Gmail's resultCountEstimate returning 201, which is a placeholder for 'many' rather than a count - the same tool had returned an exact 45 earlier, and I failed to notice the difference in kind. I ALSO PUSHED A NOTIFICATION TO THE USER SAYING ~205 AND ~8 HOURS REMAINING; both were wrong, and it stopped about 12 minutes after that. ON CAUSATION: I escalated by email at ~21:14 UTC and the stream ended at 21:26. Tempting to claim credit, but the deceleration had already begun before my email landed - gaps went 3.6, 4.0, 4.0, 4.6, 6.1 minutes from about 21:07. The queue was winding down on its own and I should not claim my message stopped it.
 
 ## Steps
 

@@ -29389,7 +29389,18 @@ Its first sentence was:
 > within about two minutes, so asking a question and distorting the answer are
 > the same act.
 
-At 10:11:01 UTC today I sent Greenhouse another email.
+At 10:11:01 UTC today a letter went from this mailbox to Greenhouse.
+
+**On whose authority, I have to be careful.** Two agents share this mailbox
+(§438) and neither can see the other's session. The other agent recorded this
+same event at 10:54 and wrote *"I did not send it; it is the second actor on
+this mailbox"* — so each of us has now written up the send as the other's. My
+attribution rests on one piece of circumstantial evidence: my own session sent
+three follow-ups at 10:10:46, 10:10:50 and 10:10:56, and this is five seconds
+after the last of them, which is a burst rather than a coincidence. I believe it
+was mine and the rest of this entry is written on that basis. It is worth
+recording that the belief is an inference, because nothing in a shared mailbox
+can settle it. See §452.
 
 privacy@greenhouse.io opened Zendesk ticket 17888 five seconds later, the DSR
 system acknowledged at 10:11:14, and at 10:15:03 — three minutes forty-nine
@@ -29682,3 +29693,150 @@ not "did I update the scripts I know about" but "does any script still construct
 the old path" — which is a grep, not a memory. And a note recording work done
 should say what was searched, not only what was found, because only the first of
 those has a denominator.
+
+### §451a — The same migration also blinded the cross-agent merge
+
+`sync_status.py --merge` is how this session learns what the other agent has
+done. Its playbook arm globbed `PLAYBOOKS.glob("*.md")`. After the shard, that
+matched **11 files** — the README and the `_`-prefixed digests, every one of
+which the loop then skips by design. 1,326 playbooks existed; the glob could see
+none of them.
+
+So for a day the playbook arm adopted nothing, and said so in the only words it
+has: `adopted 0 broker(s)`. Which is also what it says when the two agents are
+genuinely in sync.
+
+The file's own docstring warns about exactly this sentence:
+
+> The first time this ran, the other agent had not yet adopted the convention,
+> so `--merge` reported "0 adopted" ... Nothing was wrong with the merge; it
+> faithfully reported an empty ledger, and "0 adopted" read as "we are aligned".
+
+The remedy written for that was to read the playbooks too. The remedy then broke
+in the same way, and produced the same reassuring zero, for the same reason: **a
+count of findings cannot distinguish "nothing there" from "not looking".**
+
+### §451b — And the repair immediately invented two submissions
+
+Fixing the glob made the playbook arm work again. The first thing it did was
+adopt `plaid` and `dmachoice` as `submitted`. Neither has ever been contacted.
+Both playbooks say so in their own first line — one of them says the row is
+blocked on a decision that is the subject's to make, not mine.
+
+The inference in the code is:
+
+> A `brokers/<id>.md` in git means somebody acted on that broker: validate.py
+> hard-fails on an acted-on broker without one, so their presence is enforced.
+
+That argument establishes *acted ⟹ playbook*. The merge uses *playbook ⟹ acted*,
+which is its converse, and does not follow. It held for weeks only because
+playbooks happened to be written after acting — and it stopped holding **in the
+same hour the glob was repaired**, because `validate.py` also warns about a
+high-priority broker with *no* playbook. So validate asks for playbooks on
+brokers nobody has contacted, and the merge reads those as proof of contact.
+Two checks, one file, two incompatible meanings, and nothing anywhere saying
+which one the file carries.
+
+The fix reads what the playbook *says* rather than that it exists. The test is
+for an explicit **denial** — `- Current: pending`, "not yet acted on" — not for a
+positive claim, because most of the older playbooks (spokeo, whitepages, acxiom,
+beenverified) were hand-written before the scaffold and carry no status line at
+all; demanding a positive claim dropped 57 genuinely-acted brokers from a set
+whose entire job is to be a *lower bound*. Wrong direction for a floor.
+
+That first pass also surfaced 35 playbooks whose status blocks still read
+`pending` while the ledger had moved on. `scaffold_playbook.py --refresh` fixed
+them, and the exclusion set fell to the two that are honestly empty.
+
+### §451c — Rank cannot tell you which of you knew more
+
+With the playbook arm behaving, the merge still reverted `greenhouse_software`
+from `manual_required` to `submitted`.
+
+That row had been moved to `manual_required` **deliberately, twice, on two
+days**, with `tracker.py --regressed`, because the email route manufactures a
+completed deletion request out of any message sent to it and the portal is the
+only honest path left. The shared ledger still carried `submitted` from 27
+August. `submitted` outranks `manual_required`, so a rank-only comparison
+reverted a decision made an hour earlier — and would have pointed the next send
+straight back at the mailbox the decision existed to avoid.
+
+**Rank answers "which status is further along". It cannot answer "which of us
+knew more."** And a deliberate downgrade is, by construction, always newer than
+the thing it downgrades — so rank is guaranteed to get that case backwards,
+every time, silently.
+
+The merge now compares dates as well, and refuses to overwrite a locally newer
+entry. On the first guarded run it adopted **10** genuine findings from the other
+agent and held back **27**, printing each one with both dates and both statuses
+so the disagreement is visible rather than resolved by fiat:
+
+```
+HELD BACK 27 higher-ranked ledger status(es) because ours is NEWER (451c):
+  greenhouse_software (manual_required here 2026-09-12, submitted in the ledger 2026-08-27)
+  versium             (submitted here 2026-09-11, confirmed in the ledger 2026-08-28)
+  ...
+```
+
+`versium` is the interesting one in that list, because the ledger may well be
+right — the other agent may have a confirmation this session has never seen. The
+guard does not decide that. It surfaces it, and says what would settle it: if
+the ledger is right, the other agent should re-publish with today's date.
+
+**All three of 451, 451a and 451b were one migration's blast radius**, and all
+three presented as silence: a checker producing 1,492 findings, a merge producing
+0, and an adoption producing two confident falsehoods. None of them raised an
+error. The only reason any of it surfaced is that I ran `validate.py` for an
+unrelated reason and thought the number looked wrong.
+
+---
+
+## §452 — Two agents wrote up the same event, each as the other's doing
+
+At 10:54:42 on 12 September the other agent recorded the Greenhouse third
+completion notice in the ledger. Its note is careful, correct about the
+mechanism, and cites §443 and §438. It also says:
+
+> At 10:11:01 a letter went from this mailbox to privacy@greenhouse.io … **I did
+> not send it; it is the second actor on this mailbox.**
+
+At 11:58:13 I recorded the same event, and wrote it up as §448 — a finding about
+having ignored an instruction I had written myself. On my account, I sent it.
+
+**So the ledger now holds two entries about one message, attributing it to
+opposite authors, and both were written in good faith by agents who could not
+see each other.** Neither is lying. Each knows only that it was not them.
+
+I think it was mine, on one piece of circumstantial evidence: my session sent
+three follow-ups at 10:10:46, 10:10:50 and 10:10:56, and the Greenhouse message
+went at 10:11:01 — five seconds after the last of a burst. That is an inference
+from timing, not proof. Nothing in a shared Gmail account can distinguish two
+senders using the same address, and no header will ever settle it.
+
+**Two things follow, and the second is the useful one.**
+
+First, §432 recorded that the word *"replied"* does not say who replied. This is
+the same gap on the sending side, and worse, because a reply at least comes from
+the broker's address. **A note that says "I sent" or "I did not send" carries no
+information at all in a shared mailbox** — every note in this ledger written in
+the first person inherits that ambiguity, retroactively.
+
+Second — and this is why I am writing it up rather than just fixing an
+attribution — **I duplicated an analysis that was already in the file.** The
+other agent's 10:54 note had already established the timeline, the mechanism and
+the §443 connection. I wrote mine at 11:57 without reading it. `tracker.py set`
+printed the *handoff queue* item at me (that is the §448 guard working), but it
+does not print the row's own most recent note, so the one thing that would have
+told me this ground was covered stayed invisible while a warning about something
+else scrolled past.
+
+The cheap fix is obvious and I am making it: `tracker.py set` should show the
+last note on the row before writing a new one. The expensive lesson is that in a
+two-agent project **the ledger is not a place to write to; it is a place to read
+first** — and I have been treating it as an output.
+
+On attribution going forward: notes should name the actor by what can actually
+be evidenced — a message id, a timestamp, a ticket number — and should say "the
+letter at 10:11:01" rather than "my letter". Where authorship genuinely cannot
+be established, that is the finding, and it should be written as unknown rather
+than assumed to be the other party.

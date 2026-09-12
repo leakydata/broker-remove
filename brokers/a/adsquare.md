@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-24)
-- Note: 2026-08-24: first contact via the address nominated in the California data broker registration. Tailored per _CATEGORY_VARIANTS.md.
+- Current: `not_found` (updated 2026-09-07)
+- Reference: `4XA7NCDD84`
+- Note: PORTAL LOGGED THE FOLLOW-UP AS A NEW REQUEST. The reply asking whether the geographic dwell-pattern query was run came back as 'Your request has been successfully submitted. Your Request ID is 4XA7NCDD84' -- a SECOND request id, not a continuation of 8WN6LE4TGK. So their intake treats any inbound mail on the thread as a fresh DSAR. Consequence to watch: the geographic question may be answered as a new request against the same identifiers, which would produce the same identifier-keyed nil and never reach the point. If the next reply is another 'did not find any match in our databases', that is the intake behaviour rather than an answer, and the question will need putting again with the request id quoted. Not a complaint -- auto-logging is better than silent discard -- but it is a route where a follow-up cannot be distinguished from a first contact. The substantive position is unchanged: nil on the identifiers supplied, geographic query unconfirmed. Request ids on file: 8WN6LE4TGK (original, completed) and 4XA7NCDD84 (the follow-up).
 
 ## Steps
 

@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-27)
-- Note: Opt-out letter sent by email to privacy@firstdirectmarketing.com (delete + opt out of sale/sharing + direct downstream recipients + suppress against future ingestion). All twelve email addresses, sixteen prior addresses and eleven prior phone numbers listed for search. Sent as HTML per letter_html.
+- Current: `confirmed` (updated 2026-08-29)
+- Note: FOLLOW-UP RESULT 2026-08-28/29 from the CPO, answering the second letter in full. (1) ALL TWELVE EMAIL ADDRESSES ADDED TO THE SUPPRESSION FILE. (2) Prior addresses: 'we will also ensure that records associated with the prior addresses you provided are included in our suppression process where they are associated with you' -- the 154 formulation exactly, and the thing the corrected template now asks for. (3) Historic phone numbers declined on the same reasoning, correctly. (4) EXCLUDE-ONLY CONFIRMED: the suppression is 'used to prevent your information from being included in First Direct's marketing data and is not used for marketing or enrichment purposes.' (5) Compilers still not named -- asked twice; settled, not pressing again. (6) THE NEW AND MOST VALUABLE ANSWER, unprompted: 'Our suppression applies to First Direct's use and distribution of that data; we do not send our suppression file upstream to those independent data providers.' An explicit statement that the suppression is TERMINAL rather than propagating -- see SILENT_FAILURES 159. Replied accepting all of it and asking one narrow follow-up that is NOT about supplier names: do the compilers they buy from honour any industry-wide suppression file (DMAchoice, a co-op suppression, an association do-not-mail list), so the effort can be spent centrally instead of on resellers one at a time? 'We don't know what our suppliers honour' accepted in advance as an answer.
 
 ## Steps
 

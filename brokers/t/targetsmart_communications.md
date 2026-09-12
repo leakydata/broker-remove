@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-31)
-- Note: Sent the POLITICAL/DONOR variant (`_CATEGORY_VARIANTS.md`): TargetSmart compiles and enhances voter-file data. Conceded up front they cannot alter the underlying public voter record, and asked instead for their compiled record and derived scores — partisanship/ideology, turnout propensity, giving capacity — deleted, and for the client list who received a matched record.
+- Note: Recovered from the committed playbook brokers/t/targetsmart_communications.md, because the ledger carries no notes and this row's status had no evidence behind it: Sent the POLITICAL/DONOR variant (`_CATEGORY_VARIANTS.md`): TargetSmart compiles and enhances voter-file data. Conceded up front they cannot alter the underlying public voter record, and asked instead for their compiled record and derived scores — partisanship/ideology, turnout propensity, giving capacity — deleted, and for the client list who received a matched record.
 
 ## Steps
 

@@ -9,8 +9,9 @@
 
 ## Status
 
-- Current: `manual_required` (updated 2026-08-26)
-- Note: 2026-08-26: routed to the privacycompliance.biz portal, staged as a handoff. Part of a fourteen-brand family run by one Omaha operator, enumerated from the portal's own navigation menu. Filed registry email for ResearchUSA (privacy@researchusallc.com) hard-bounces 550, as does DatabaseUSA's; the portal is the only working route.
+- Current: `unreachable` (updated 2026-09-07)
+- Reference: `550 x3: 2026-08-26, 2026-09-03, 2026-09-07`
+- Note: THREE SENDS, THREE HARD BOUNCES, TWELVE DAYS. privacy@researchusallc.com -- the address on their California register filing -- returns 550 'address not found' every time: the consumer request on 2026-08-26, the form defect report on 2026-09-03, and the escalation on 2026-09-07. THIS CORRECTS AN EARLIER NOTE OF MINE. The 3 September entry said the portal defect had been 'reported to the one sibling that does have an address (researchusa)'. It had not. The send happened; the delivery did not; the bounce was in the mailbox and went unread. So four days of apparent inaction on their part were four days of nobody knowing -- the same recording-the-send-not-the-receipt error that SILENT_FAILURES 393 catches in the ledger, made here by hand in a note. DIAGNOSIS: researchusallc.com has a live A record and live MX on Intermedia exch028 -- the same mail platform as databaseusa.com, infofree.com and privacycompliance.biz, which confirms one operation behind all four. The domain and its mail infrastructure are healthy. THE MAILBOX SIMPLY DOES NOT EXIST. Compare SILENT_FAILURES 88: a domain-level deliverability check would pass this address; only sending reveals it. WHAT THIS MEANS TOGETHER WITH 406: this family's designated WEB FORM cannot send mail on any page for any brand, and the register-listed EMAIL for this brand has never existed. A consumer following either published route reaches nothing, and neither route reports its own failure back to the company. TODAY'S LETTER DID LAND at the two CC'd addresses, info@databaseusa.com and info@infofree.com, neither of which has bounced -- the first time anything about this defect has reached anyone. Any further correspondence for this brand should go there, not to the register address.
 
 ## Steps
 

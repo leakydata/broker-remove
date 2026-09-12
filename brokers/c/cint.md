@@ -7,9 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-17)
-- Note: Statutory delete/opt-out request emailed, tailored to the broker's data category; awaiting reply.
-- **Note (2026-09-03): a second, identical letter landed at this same address** via the `lucid` row — Lucid was absorbed into Cint, its own registered address (compliance@luc.id) hard-bounced, and a bounce-correction pass independently found and resent to privacy@Cint.com without checking this row existed first. Harmless duplicate; see `lucid.md` for the full account. `lucid` is now marked `covered_by_sibling` pointing here.
+- Current: `submitted` (updated 2026-08-25)
+- Note: 2026-08-25: replied to the _DEFLECTIONS.md 54 autoreply ('Cint uses pixels or pieces of codes and cannot automatically identify you by your name or email'). Standard structure - accept the sentence, then ask the three questions it does not answer, with the hash-it-yourself clause that removes the only practical excuse for not answering. ADDED A CATEGORY-SPECIFIC ASK worth reusing for any survey/panel exchange: Cint runs consumer PANELS as well as measurement, and panel participation is not pixel data and is not pseudonymous in the same way - a panel member supplies a name, an email, demographics and often years of survey responses. Asked separately for panel membership, respondent profile and survey response history across their panel partners, and asked them to name the partners if the data sits there rather than with Cint.
 
 ## Steps
 

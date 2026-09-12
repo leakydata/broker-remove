@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-30)
-- Note: 2026-08-30 Sent the AD TECH variant to sojernlegal@sojern.com, tailored for travel-intent advertising data. Standard ad-tech identifier set.
+- Note: Recovered from the committed playbook brokers/s/sojern.md, because the ledger carries no notes and this row's status had no evidence behind it: 2026-08-30 Sent the AD TECH variant to sojernlegal@sojern.com, tailored for travel-intent advertising data. Standard ad-tech identifier set.
 
 ## Steps
 

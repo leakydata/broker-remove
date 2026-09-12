@@ -10,10 +10,8 @@
 
 ## Status
 
-- Current: `not_found` (updated 2026-08-22)
-- They searched their own records **and client records**, across every email
-  address and telephone number supplied, and hold nothing. Accepted without
-  further pressing.
+- Current: `not_found` (updated 2026-08-30)
+- Note: 2026-08-20 RESOLVED OVER TWO EXCHANGES; note backfilled 2026-08-30 from the mailbox after an audit found this terminal status recorded with NO evidence at all. THE PROTOTYPE OF SILENT_FAILURES 199, four months before it was articulated. First reply was a SCOPED NIL: 'we did not identify any information in our databases associated with your name and/or address' -- name and address only, at a fundraising/marketing firm where the email address is the key the record sits under. Pushed on three points: (1) was the search run against the twelve emails and the phone numbers, or only name+address, with the full list re-supplied; (2) does the answer cover data held FOR CLIENTS as well as data held in your own right, since 'we hold nothing about you' can be entirely true of a firm's own records while a client list it processes contains you -- and offered to accept 'it is the client's request to action' as a complete answer; (3) their reply called it an ACCESS request when it was a deletion and opt-out request, flagged rather than assumed. Michelle Hertel, Senior Data Analyst, answered all three in six minutes: 'we did check our records AND CLIENT RECORDS WE HOLD for all of those email addresses and phone numbers, and did not find any matches on any of those data points. We also treat all requests as deletion requests, so if we had found any of your data, it would be deleted.' Scope widened, identifiers confirmed, deletion semantics confirmed. Settled.
 
 ## Steps
 

@@ -9,7 +9,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-24)
-- Note: 2026-08-24: first contact. Discovered via Kaspr supplier disclosure; in no broker list. Flagged that their published opt-out route is a 2020 blog post about cold-email practice, not a rights mechanism, and asked for the real channel.
+- Note: 2026-08-24: support@cloudlead.co hard-bounced 550 5.1.1 within seconds despite live Google MX on the domain - mailbox absent, domain fine. support@cloudlead.io also dead (no MX, no site). Both are published on their own website. Resent to hello@cloudlead.co reporting both faults plus the blog-post opt-out.
 
 ## Steps
 

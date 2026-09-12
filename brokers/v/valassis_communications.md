@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-31)
-- Note (2026-08-31): The register lists this business under three separate corporate wrappers (Valassis Communications, Inc.; "...a Vericast Business"; "...an RRD Company"). The 2024 Vericast contact (privacyrequests@vericast.com) had already hard-bounced (see `valassis_communications_inc_a_vericast_business.md`). Wrote to the current RRD-era contact, valassisprivacy.request@rrd.com (see `valassis_communications_inc_an_rrd.md`), cc'ing this row's registered address, privacy@valassis.com, for good measure. **The cc also hard-bounced** — 550 5.1.1, account does not exist — while the primary send to rrd.com delivered with no bounce. `email_verified` on this row corrected from `ca_data_broker_registry` to `bounced`; treat `valassis_communications_inc_an_rrd` as the live channel for this registration going forward. Asked all three wrappers to be treated as one request, and to search prior addresses specifically — this is a direct-mail business, address-keyed rather than email-keyed, so the address history matters more here than in most letters.
+- Current: `unreachable`
+- Note: privacy@valassis.com HARD BOUNCED four seconds after send, as the cc on the RRD letter. That is the contact on the 2020-2023 registration. So two of the three Valassis register contacts are dead -- this one and privacyrequests@vericast.com (2024) -- and only the CURRENT registrant's address at rrd.com is live. SF 216 predicted exactly this: a lapsed filing's contact is the one most likely to be dead, because nobody maintains a mailbox for a registration they no longer file. Two for two. The request is live in the RRD thread, which covers all three names.
 
 ## Steps
 

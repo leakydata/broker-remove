@@ -53,6 +53,7 @@ the *fact that something happened*. Either alone leaves a gap.
 
 import argparse
 import json
+import re
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -80,6 +81,15 @@ RANK = ["pending", "manual_required", "captcha_blocked", "email_pending",
         "submitted", "acknowledged", "replied", "failed", "unreachable",
         "still_listed", "gone", "not_found", "suppressed", "confirmed",
         "covered_by_sibling"]
+
+
+# A playbook that says, in its own Status block, that nothing has been done.
+# Matches "- Current: not yet acted on." and "- Current: not acted on. **Blocked
+# ...**" and "- Current: `pending`". Anything else is treated as evidence of
+# action, which is the safe direction for a lower bound. See 451b.
+NOT_ACTED_RE = re.compile(
+    r"^- Current:\s*(?:`pending`|not (?:yet )?acted on|nothing (?:has been )?sent)",
+    re.M | re.I)
 
 
 def rank(s):
@@ -127,9 +137,39 @@ def main():
         aliases = (json.loads(ALIASES.read_text()).get("aliases", {})
                    if ALIASES.exists() else {})
         covered = set(aliases)
-        for f in PLAYBOOKS.glob("*.md"):
-            if not f.stem.startswith("_"):
-                covered.add(f.stem)
+        # RECURSIVE. brokers/ was sharded into 27 subdirectories on 11 September
+        # and this glob was not updated (_SILENT_FAILURES 451a). A flat "*.md"
+        # matched 11 files afterwards -- README plus the _-prefixed digests, all
+        # of which this loop then skips -- so the playbook arm of --merge adopted
+        # NOTHING for a day, and reported it as "0 adopted", which is what it
+        # also says when there is genuinely nothing to adopt.
+        #
+        # AND THE EXISTENCE OF A PLAYBOOK IS NOT EVIDENCE OF A SEND (451b).
+        # The note above argues: validate.py hard-fails on an acted-on broker
+        # with no playbook, therefore a playbook means somebody acted. That is
+        # the converse and it does not follow. It held only by accident, while
+        # playbooks happened to be written after acting -- and it broke the
+        # same hour the glob was repaired, because validate ALSO warns about a
+        # high-priority broker with no playbook, so playbooks now get written
+        # for brokers nobody has contacted. Two checks, two meanings for the
+        # same file. On the first run after the fix this adopted `plaid` and
+        # `dmachoice` as `submitted`; both playbooks say in their own first
+        # line that nothing has been sent, and dmachoice is blocked on a
+        # decision that is the subject's to make.
+        #
+        # So read what the playbook SAYS. The test is for an explicit DENIAL,
+        # not for a positive claim -- because most of the older playbooks
+        # (spokeo, whitepages, acxiom, beenverified) were hand-written before
+        # the scaffold existed and carry no "- Current:" line at all. Requiring
+        # a positive claim dropped 57 genuinely-acted brokers from the lower
+        # bound, which trades a small false-positive for a large false-negative
+        # and is the wrong way round for a set whose whole job is to be a floor.
+        for f in PLAYBOOKS.glob("**/*.md"):
+            if f.stem.startswith("_") or f.stem == "README":
+                continue
+            if NOT_ACTED_RE.search(f.read_text(errors="replace")):
+                continue
+            covered.add(f.stem)
         for bid in sorted(covered):
             if bid in ledger:
                 continue          # the ledger is the better source; use it below
@@ -142,10 +182,36 @@ def main():
             }
 
         adopted = []
+        skipped_newer = []
         for bid, entry in ledger.items():
             rec = private.setdefault(bid, {"status": "pending", "history": []})
             if rank(entry["status"]) <= rank(rec.get("status", "pending")):
                 continue          # ours is equal or better; leave it alone
+
+            # RANK IS NOT THE WHOLE COMPARISON, because a status can move
+            # DOWN on purpose. _SILENT_FAILURES 451c: greenhouse_software was
+            # set to manual_required deliberately -- the email route
+            # manufactures a completed deletion request out of any message, so
+            # the portal is the only honest path and the row was moved back to
+            # say so, with tracker.py's --regressed flag, twice, on two days.
+            # The shared ledger still carried `submitted` from 27 August.
+            # `submitted` outranks `manual_required`, so a rank-only merge
+            # silently reverted a decision made an hour earlier and pointed the
+            # next send straight back at the mailbox the decision existed to
+            # avoid.
+            #
+            # Rank answers "which status is further along". It cannot answer
+            # "which of these two people knew more", and when the local entry
+            # is NEWER than the ledger's, that second question is the one that
+            # matters. A deliberate downgrade is always newer than the thing it
+            # downgrades.
+            ours_at = last_change(rec)
+            theirs_at = (entry.get("changed") or "")[:10]
+            if ours_at and theirs_at and ours_at > theirs_at:
+                skipped_newer.append(
+                    f"{bid} ({rec.get('status')} here {ours_at}, "
+                    f"{entry['status']} in the ledger {theirs_at})")
+                continue
             rec["status"] = entry["status"]
             rec["updated"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
             # The history "at" is what queue_batch.py's daily-send-cap counter reads.
@@ -189,6 +255,15 @@ def main():
         if from_pb:
             print("  the other agent is not publishing a ledger yet — its work was "
                   "recovered from git, but statuses are a floor, not a finding")
+        if skipped_newer:
+            print(f"\nHELD BACK {len(skipped_newer)} higher-ranked ledger status(es) "
+                  f"because ours is NEWER (451c):")
+            for line in skipped_newer:
+                print(f"  {line}")
+            print("  A status can move DOWN on purpose. Rank says which is further "
+                  "along;\n  it cannot say which of us knew more, and the newer "
+                  "entry usually did.\n  If the ledger is right, the other agent "
+                  "should re-publish it with today's date.")
         return 0
 
     # ACTIVITY THE LEDGER STRUCTURALLY CANNOT CARRY.

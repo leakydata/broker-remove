@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `not_found` (updated 2026-08-19)
-- Note: HOLDS NOTHING, and said so unprompted and precisely: 'QuickPeopleTrace does not have any database of information or collect any personal identifying data information of any kind. We only show search results from PeopleFinders.com.' That is the clean answer to the stored-index-vs-pass-through question that most lookup sites have to be asked for three times - volunteered, with the upstream source NAMED. They also named a sibling: usatrace.com, and said a block there propagates here within 48 hours. DNS corroborates independently - both domains sit on SiteGround nameservers with the same mailspamprotection MX. Recorded not_found for THEIR OWN holdings only; the record itself is at PeopleFinders, which is separately tracked and already in the handoff queue. Registry contact corrected to research@usatrace.com, the address they gave.
+- Note: HOLDS NOTHING, and said so unprompted and precisely: 'QuickPeopleTrace does not have any database of information or collect any personal identifying data information of any kind. We only show search results from PeopleFinders.com.' That is the clean answer to the stored-index-vs-pass-through question that most lookup sites have to be asked for three times - volunteered, with the upstream source NAMED. They also named a sibling: usatrace.com, and said a block there propagates here within 48 hours. DNS corroborates independently - both domains sit on SiteGround nameservers with the same mailspamprotection MX. Recorded not_found for THEIR OWN holdings only; the record itself is at PeopleFinders, which is separately tracked and already in the handoff queue. Registry contact corrected to [named individual]@usatrace.com, the address they gave.
 
 ## Steps
 

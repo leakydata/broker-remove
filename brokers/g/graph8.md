@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-27)
-- Note: Opt-out letter sent by email to support@graph8.com (delete + opt out of sale/sharing + direct downstream recipients + suppress against future ingestion). All twelve email addresses, sixteen prior addresses and eleven prior phone numbers listed for search. Sent as HTML per letter_html.
+- Current: `submitted` (updated 2026-08-29)
+- Note: 2026-08-29 sent a SEPARATE configuration note to support@graph8.com (SILENT_FAILURES 182), distinct from the pending consumer request and explicitly needing no action on the file. Told them privacy@graph8.com is a Google Workspace group whose posting permission is set to organisation members -- the default -- so it works for every internal tester and rejects every consumer. Used their own behaviour as the evidence that it is invisible rather than deliberate: their support desk gave me that address the same day the group refused my mail. Gave the one-setting fix (allow Anyone on the internet to post, pair with spam filtering) and noted I have now catalogued the same misconfiguration at six companies. Asked for no reply.
 
 ## Steps
 

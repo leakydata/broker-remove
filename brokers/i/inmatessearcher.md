@@ -9,7 +9,7 @@
 ## Status
 
 - Current: `confirmed` (updated 2026-08-20)
-- Sixth site on the optOutLight platform to confirm removal in writing.
+- Note: 2026-08-20 13:04Z, signed by a named agent: 'From the information you provided, we have removed your information from our database at https://www.inmatessearcher.com'. Sixth optOutLight sibling to confirm. Answered only for its own hostname; the platform-wide yes/no and the suppression-vs-one-time question went unacknowledged rather than refused (see _DEFLECTIONS.md 40).
 
 ## Steps
 

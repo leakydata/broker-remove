@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-20)
-- Note: Emailed privacy@viantinc.com. People-based advertising platform (DSP); same ad-tech letter as vdx_tv.md.
+- Note: Recovered from the committed playbook brokers/v/viant.md, because the ledger carries no notes and this row's status had no evidence behind it: Emailed privacy@viantinc.com. People-based advertising platform (DSP); same ad-tech letter as vdx_tv.md.
 
 ## Steps
 

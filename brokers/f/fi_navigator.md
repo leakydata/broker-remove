@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-27)
-- Note: Opt-out letter sent by email to privacy@fi-navigator.com (delete + opt out of sale/sharing + direct downstream recipients + suppress against future ingestion). All twelve email addresses, sixteen prior addresses and eleven prior phone numbers listed for search. Sent as HTML per letter_html.
+- Current: `not_found` (updated 2026-08-31)
+- Note: PROOF, not inference (SF 209). At 00:35:57 I sent a re-ask whose entire content was the question 'did a search actually run?'. It contained NO identifiers -- no emails, no addresses, no phone numbers, nothing to search against. Thirty seconds later, at 00:36:26 and 00:36:27, trustsuperset returned the identical template twice: 'We were unable to find any matching records given the information provided in your right to erasure request' and the same for opt-out. A no-match verdict on a message that supplied nothing to match. Combined with the 2026-08-31 00:05 RevOptimal result (two completions, including a right never exercised, 55s after a defect report), this reproduces across two independent tenants: the outcome is generated from RECEIPT OF MAIL, not from a query. Email does not reach a person at any trustsuperset tenant. Queued for a non-email route.
 
 ## Steps
 

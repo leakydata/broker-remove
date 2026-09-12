@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-30)
-- Note: 2026-08-30 Sent the standard letter, tailored for an ESP (email marketing/messaging platform), to dataprivacy@siteimpact.com. Framed as likely email-keyed rather than name-keyed.
+- Note: Recovered from the committed playbook brokers/s/site_impact.md, because the ledger carries no notes and this row's status had no evidence behind it: 2026-08-30 Sent the standard letter, tailored for an ESP (email marketing/messaging platform), to dataprivacy@siteimpact.com. Framed as likely email-keyed rather than name-keyed.
 
 ## Steps
 

@@ -9,8 +9,7 @@
 
 - Current: `confirmed` (updated 2026-08-27)
 - Reference: `gmail:1a03d9909a50ac6b`
-- Note: 2026-08-26: emailed compliance@publicrecord.com. Conceded up front that any underlying public record cannot be altered by them; asked only for their compiled record, name removed from any name-searchable index, and which public sources they draw from.
-- Note: 2026-08-27: replied within a day — *"Your record removal request has been received, and we are pleased to confirm that the entry for [name] has been successfully expunged from our [system]."* An affirmative removal statement, not just a submission receipt — meets the bar for `confirmed` rather than `submitted`.
+- Note: 2026-08-27: PublicRecordCom, LLC confirmed removal - 'the entry for [PERSONAL] has been successfully expunged from our' records. A clean confirmation with no portal, no ID demand and no URL request, which is rarer than it should be. Worth re-verifying later, since 'expunged' describes what they hold today and says nothing about the next ingest; the letter asked for forward-looking suppression and the reply does not address it. Not chasing that now - the removal is real and a follow-up can wait for the verification pass.
 
 ## Steps
 

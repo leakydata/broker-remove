@@ -8,6 +8,7 @@
 ## Status
 
 - Current: `submitted`
+- Note: Minimised letter (--keys email-only) to a PERSON-SHAPED contact -- the published route is an individual's own address, not a privacy@ desk, so the letter opens by saying why I am writing to them personally and asks for the better address (SF 189). B2B framing: notes that the CCPA business-to-business exemption EXPIRED 1 Jan 2023, so professional -capacity data is personal information like any other. Presses the derived-address point: a first.last@employer pattern built from my name and employment history is the identifier I cannot list, and the likeliest shape for a record in a business-contact file -- they can generate it from the same public profile it was built from. Added an explicit invitation to correct the minimisation: 'If I have that wrong, tell me and I will send them.' Same hedge as the Valassis letter -- better to ask than to volunteer a home address and DOB to a company that turns out not to have had them.
 
 ## Steps
 

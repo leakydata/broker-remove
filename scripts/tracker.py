@@ -168,6 +168,29 @@ def cmd_set(args):
     # refusing to record that would be its own kind of lie. But it must be
     # deliberate, so it requires --regressed and says so out loud.
     prior = rec.get("status")
+
+    # SHOW THE LAST NOTE BEFORE WRITING A NEW ONE. _SILENT_FAILURES 452: two
+    # agents share this ledger and cannot see each other's sessions. On 12
+    # September the other agent recorded the Greenhouse third-completion event
+    # at 10:54 -- timeline, mechanism, the link to 443, all of it. I wrote the
+    # same analysis at 11:57 without reading it, and attributed the triggering
+    # message to the opposite actor. Two entries, one event, contradictory
+    # authorship, both written in good faith.
+    #
+    # `set` already prints the handoff-queue item (448). It did not print the
+    # row's own most recent note, which is the one thing that would have said
+    # "this ground is covered". The ledger is not a place to write to; it is a
+    # place to read first.
+    _last = next((h for h in reversed(rec.get("history") or []) if h.get("note")), None)
+    if _last:
+        _when = str(_last.get("at", ""))[:16].replace("T", " ")
+        _txt = re.sub(r"\s+", " ", str(_last["note"])).strip()
+        print(f"LAST NOTE on {args.broker_id} ({_last.get('status')}, {_when}):",
+              file=sys.stderr)
+        print(f"  {_txt[:400]}{'...' if len(_txt) > 400 else ''}", file=sys.stderr)
+        print("  ^ read this before adding another. If it already says what you "
+              "were about to say,\n    the row does not need a second entry. (452)",
+              file=sys.stderr)
     if prior in TERMINAL_WINS and args.status != prior and not args.regressed:
         sys.exit(
             f"refusing to move {args.broker_id} from '{prior}' to "

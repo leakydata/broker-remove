@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-21)
-- Note: 2026-08-20: first contact, sent to the address discovered by the verify_emails sweep. Tailored per _CATEGORY_VARIANTS.md.
+- Current: `confirmed` (updated 2026-09-10)
+- Note: DELETION CONFIRMED 2026-09-10 by dpo@criteo.com, and the KEY MATTERS AS MUCH AS THE OUTCOME. Their words in full: 'We confirm that we have received and processed your request. The personal data associated with the email addresses you provided have been deleted from our systems.' CRITEO DELETED AGAINST EMAIL ADDRESSES. That is the thing Outbrain/Teads said was impossible for an ad-tech business three days earlier -- 'we do not collect or process email addresses in any form, we do not maintain a suppression list keyed to them' -- and which PubMatic, Madhive, Tapad, Start.io, Outlogic and the rest of the MAID cohort have all said in one form or another. Criteo is a demand-side retargeting business of the same shape and it resolved on email without asking for a cookie ID or an advertising identifier. So 'our systems are keyed only to pseudonymous online identifiers' is a statement about one company's architecture and NOT a property of the sector, and the next company that says it can be asked, politely, how Criteo managed it. Request sent 2026-08-21, confirmed 2026-09-10, 20 days. No reference number issued. See _SILENT_FAILURES 430.
 
 ## Steps
 

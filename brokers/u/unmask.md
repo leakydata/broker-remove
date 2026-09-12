@@ -9,14 +9,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-21)
-- Note: 2026-08-21: support@unmask.com asked for name, city/state, street address
-  and a profile link, one profile per request. Replied with the identity fields
-  (already in the original letter) and explained no profile link is available —
-  this project has no browser, only email. Asked them to search directly by
-  name + address + DOB instead. Their "one profile per email" line is worth
-  watching: if the account has more than one listing, this may need a second
-  round once the first is resolved.
+- Current: `confirmed` (updated 2026-08-26)
+- Reference: `gmail:1a01f8b25904557d`
+- Note: 2026-08-26 (reply received 2026-08-25, recorded late): UnMask confirmed 'the record listed for [PERSONAL] has been successfully removed'. Route note worth keeping: their first reply asked for the details in a specific format, and the answer was to restate what the original letter already contained rather than supply anything new - 'happy to give this in the cleaner format you asked for, note it is unchanged from my original message, I am restating it, not adding anything new.' That framing gets a re-formatted request accepted without conceding that the first one was incomplete. Re-verify the listing.
 
 ## Gotchas
 

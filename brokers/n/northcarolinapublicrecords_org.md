@@ -7,9 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-26)
-- Reference: `gmail:1a03eec1bd86a913`
-- Note: 2026-08-26: named in a scope question to priorityoptout@intelius.com (gmail:1a03eec1bd86a913). This site carries no PeopleConnect branding but routes its opt-out to a PeopleConnect page, so it is not covered by any of the seven brand names the existing suppression lists. Asked plainly whether the suppression on file covers it, offering the alternative that it may be a separate business merely using their opt-out page. Deliberately framed as NOT another copy of the identifier list, since this address has already had two.
+- Current: `replied` (updated 2026-09-07)
+- Reference: `gmail:1a079bb74d838606`
+- Note: QUESTION PUT TO PEOPLECONNECT 2026-09-06, one letter covering all seven rows in this cluster rather than seven investigations. Their suppression was scoped to 'the people search sites within our corporate family that we control', and whether this domain sits inside that phrase is a question only they can answer. Asked for one of three answers per domain, any of which closes the row: (a) within the family and already covered by the suppression -- close, write nothing further; (b) an affiliate or referral site holding no records of its own -- nothing to suppress, close; (c) an independent operator they have no relationship with -- write to them separately and do not trouble PeopleConnect again. Told them plainly that the only evidence linking these seven to them is that all seven point at TruthFinder's opt-out page, and that AN OUTBOUND LINK TO AN OPT-OUT PAGE IS NOT PROOF THAT THE LINKING SITE IS THEIRS, which is why the question is being asked rather than the answer assumed. Also told them what was checked first: criminalrecords.com, snoopstation.com and peoplefind.com say 'powered by Intelius' on their own pages and have been closed as covered; these seven say no such thing, two carry affiliate disclosures pointing toward (b), and three say nothing at all. The three standing caveats were restated as carried forward rather than re-argued -- display suppression not deletion, keyed to a name search only, and coverage stated at family level rather than domain by domain. See SILENT_FAILURES 391.
 
 ## Steps
 

@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-26)
-- Note: 2026-08-26: emailed info@revealmobile.com. Same mobile-location variant — device identifiers, movement history, inferred home/work location, identity-graph linkage.
+- Current: `submitted` (updated 2026-08-28)
+- Note: Recovered from the committed playbook brokers/r/reveal_mobile.md, because the ledger carries no notes and this row's status had no evidence behind it: 2026-08-26: emailed info@revealmobile.com. Same mobile-location variant — device identifiers, movement history, inferred home/work location, identity-graph linkage.
 
 ## Steps
 

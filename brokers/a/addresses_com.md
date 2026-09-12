@@ -9,8 +9,8 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-18)
-- PeopleConnect processed it across their properties. **Suppression, not
-  deletion** — stated by them explicitly, see below.
+- Reference: `gmail:1a0064addb7ed3d1`
+- Note: Family-wide suppression confirmed in five identical replies within twelve minutes: 'We have completed the suppression of your publicly available information from appearing in background reports on the people search sites within our corporate family that we control when a user searches by your name.' Three scoped limits pushed back on: keyed to NAME SEARCH only (I had asked for phone/address/email lookups too), scope stated as 'sites we control' without naming them, and suppression expressly not deletion.
 
 ## This is a PeopleConnect brand, not a standalone site
 

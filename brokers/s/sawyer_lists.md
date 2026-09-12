@@ -9,7 +9,7 @@
 ## Status
 
 - Current: `unreachable` (updated 2026-08-28)
-- Note: 2026-08-28: The 2026-08-26 send to admin@sawyerdatadirect.com looked like a normal submission and was logged `submitted` — it had in fact hard-bounced the same day (550, address not found). Checked both domains behind this listing: `sawyerlists.com` (the company's own domain, per the registry filing) has no DNS record at all — it does not resolve. `sawyerdatadirect.com` (the contact-address domain) does resolve, but serves a GoDaddy parked-domain lander page (`traffic_target=gd`, `lander_type=parkweb`), not a real site — no privacy policy, no contact page, nothing to read for an alternative address. Two domains, one dead outright and one a placeholder wearing a live A record. No route currently exists.
+- Note: Recovered from the committed playbook brokers/s/sawyer_lists.md, because the ledger carries no notes and this row's status had no evidence behind it: 2026-08-28: The 2026-08-26 send to admin@sawyerdatadirect.com looked like a normal submission and was logged `submitted` — it had in fact hard-bounced the same day (550, address not found). Checked both domains behind this listing: `sawyerlists.com` (the company's own domain, per the registry filing) has no DNS record at all — it does not resolve. `sawyerdatadirect.com` (the contact-address domain) does resolve, but serves a GoDaddy parked-domain lander page (`traffic_target=gd`, `lander_type=parkweb`), not a real site — no privacy policy, no contact page, nothing to read for an alternative address. Two domains, one dead outright and one a placeholder wearing a live A record. No route currently exists.
 
 ## Steps
 

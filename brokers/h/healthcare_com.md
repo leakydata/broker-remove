@@ -8,6 +8,7 @@
 ## Status
 
 - Current: `submitted`
+- Note: Health-insurance comparison / lead generation, register-sourced. Route is security@ not privacy@ -- flagged and asked for the right address. SENSITIVE-PI FRAMING: a quote request carries age, household, income band, tobacco use, sometimes conditions, and the FACT OF SHOPPING FOR COVERAGE at a moment is itself an inference about circumstances; 1798.140(ae)(1)(H) makes health information sensitive PI, so the 1798.121 limit-use right was exercised alongside deletion and opt-out. THE QUESTION THAT MATTERS: lead generation works by DISTRIBUTING, so the important fact is not that they hold a record but WHO ELSE RECEIVED IT -- carriers, brokers, agencies, aggregators, possibly the same record sold more than once, and a deletion on their side reaches none of them. Asked for recipients or categories of recipient (categories are useful, I will write to each), and asked them to SAY PLAINLY if they cannot reach those recipients: a deletion I misunderstand is worse than a refusal I understand. Also asked the source, since a record arriving from an affiliate or lead vendor will be rebuilt upstream. NAMED THREE POSSIBILITIES and asked which: they hold nothing; they hold a record I made and forgot; or they hold a record SOMEBODY ELSE created in my name or a vendor supplied under my details -- the third wants correction/unlinking rather than silent deletion, because deleting leaves nothing recording that the attribution was wrong.
 
 ## Steps
 

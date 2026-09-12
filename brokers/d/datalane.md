@@ -7,10 +7,9 @@
 
 ## Status
 
-- Current: `email_pending` (updated 2026-08-25)
-
-> **Note (2026-08-29):** a separate pass, working from a stale local copy of the registry that predated this playbook, independently sent a second statutory letter to the same address, not knowing this company had already been contacted on 2026-08-25. Harmless duplicate — no action needed — but worth flagging: "does a playbook already exist for this id" is a cheap check that would have caught it before sending, and evidently wasn't run.
-- Statutory delete/opt-out request emailed to admin@datalane.com. Awaiting reply.
+- Current: `suppressed` (updated 2026-09-03)
+- Reference: `gmail:1a04053952b40870`
+- Note: NIL PLUS AN UNPROMPTED SUPPRESSION 2026-09-02, and the correct status is 'suppressed' rather than not_found (SILENT_FAILURES 268). admin@datalane.com: 'We assure you we do not have your name nor email in our database AND HAVE NOW FLAGGED YOUR INFORMATION ON OUR SUPPRESSION LIST.' A nil alone is worth little -- the next file acquired or refreshed puts the person back, because nothing recognises that they asked -- and they applied a forward block against identifiers they do not currently hold, without being asked. Credited it. ALSO REPORTED, gently and needing no reply, a SILENT_FAILURES 256 instance: they replied to FOUR of the subject's addresses at once ([PERSONAL]@, [PERSONAL]@, [PERSONAL]@, [PERSONAL]@). No harm here since all four are his and the letter listed them -- but they were listed as SEARCH KEYS, not mailboxes, and the letter asked for one reply address. Explained the consequence for the next person rather than this one: a request like mine lists every address a record might be held under, including closed ones and ones at a former employer, so replying to all of them sends the contents of a privacy request to mailboxes the requester may no longer control. One of his is a closed university address; had it been in that list the reply would have gone to an inbox he cannot read. Noted it is easy to miss because replying to all looks like thoroughness.
 
 ## Steps
 

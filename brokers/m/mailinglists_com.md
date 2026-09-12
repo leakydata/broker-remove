@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-30)
-- Note: 2026-08-30 No dedicated privacy contact found on mailinglists.com; sent to their published unsubscribe@ address (marketing-unsubscribe, not privacy) and cc'd a guessed privacy@ address in case one exists undocumented. Flagged in the letter itself that this isn't a marketing unsubscribe. Worth a human check of whether either address is monitored for privacy requests -- see Gotchas.
+- Note: Recovered from the committed playbook brokers/m/mailinglists_com.md, because the ledger carries no notes and this row's status had no evidence behind it: 2026-08-30 No dedicated privacy contact found on mailinglists.com; sent to their published unsubscribe@ address (marketing-unsubscribe, not privacy) and cc'd a guessed privacy@ address in case one exists undocumented. Flagged in the letter itself that this isn't a marketing unsubscribe. Worth a human check of whether either address is monitored for privacy requests -- see Gotchas.
 
 ## Steps
 

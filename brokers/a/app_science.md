@@ -7,7 +7,8 @@
 
 ## Status
 
-- Current: `pending`
+- Current: `submitted` (updated 2026-08-24)
+- Note: 2026-08-24: mobile/app data letter. Geographic query substituted for the MAID, plus app install and usage inventory called out as unusually disclosing, and a request to name the SDKs or publisher apps the data was collected through.
 
 ## Steps
 

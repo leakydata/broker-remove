@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-26)
-- Note: 2026-08-26: emailed info@semasio.com. Same ad-tech variant as sabio — hashed-email matching, cookie/device IDs, modelled segments, cross-context sharing opt-out.
+- Current: `replied` (updated 2026-09-05)
+- Note: 2026-09-05 (§336): THE MACRO IS NOW ARRIVING HOURLY. After my 01:32 reply, the same 'Semasio provides you a web portal... please visit our Global Privacy Center' message arrived at 02:01, 03:01 and 04:01 -- four copies of one macro, on the hour, from the shared Samba TV Zendesk. It is a cron rather than a reply trigger: my single reply did not produce three answers, the clock did. NONE of them engages with the letter, which had explained in terms why the portal cannot act for me (it requires a cookie ID I will not supply, for the §303 reason) and had asked three questions answerable without identifying me. STOPPED REPLYING TO THIS THREAD. A fifth message from me would produce a fifth macro and nothing else; §304's rule applies -- when the channel has not responded, another message into it is not communication, it is volume. The three questions stand unanswered and are recorded as such rather than pursued: what the N/A median on Right to Know represents, whether anything is keyed to a hashed email, and whether any suppression survives a cleared cookie.
 
 ## Steps
 

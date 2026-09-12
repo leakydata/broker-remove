@@ -7,9 +7,8 @@
 
 ## Status
 
-- Current: `confirmed` (updated 2026-08-28)
-- Note: Opt-out letter sent by email to privacy@gsdsi.com (delete + opt out of sale/sharing + direct downstream recipients + suppress against future ingestion). All twelve email addresses, sixteen prior addresses and eleven prior phone numbers listed for search. Sent as HTML per letter_html.
-- Update 2026-08-27: Both a "Right to Erasure" and a "Right to Opt-out of Data Sales" confirmation arrived in the same minute from `noreply@trustsuperset.com`, GSDSI's compliance vendor — "This email confirms that Global Source Data Solutions, Inc. ('GSDSI') has received and fulfilled your [right]." Two separate affirmative completions, not just a submission receipt.
+- Current: `confirmed` (updated 2026-08-27)
+- Note: CONFIRMED both rights, 26 minutes after the letter. Two separate emails from noreply@trustsuperset.com: 'Global Source Data Solutions, Inc. (GSDSI) has received and FULFILLED your Right to Erasure request' and the same for 'Right to Opt-out of Data Sales'. Corroborated under the 138 test rather than taken on speed alone: the platform parsed an emailed letter into TWO request types unprompted and answered each separately, which a confirmation-on-receipt cannot do because it does not know what was asked. Same Superset platform that returned a substantive nil result for FI Navigator today.
 
 ## Steps
 

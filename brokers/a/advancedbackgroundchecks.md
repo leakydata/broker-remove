@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-23)
-- Note: Statutory opt-out/deletion email sent 2026-08-23, category-tailored.
+- Current: `manual_required` (updated 2026-09-11)
+- Note: COVERAGE POINTER ADDED 2026-09-11. The human action for this brand is queued under handoff item 'mississippi_tornado_alley', which is explicitly the route for the WHOLE ESTATE -- ten brands on one filing, starting at fastpeoplesearch.com/removal and then the privacy-rights page on each sibling, this one included by name. The pointer was missing from this note, so scripts/coverage.py listed the row as having nobody assigned; the work was always covered. THE BRAND-SPECIFIC FACT WORTH KEEPING: /removal on this domain returns 403 to a script and, in a real browser, an INTERACTIVE Cloudflare challenge -- a black 'Performing security verification' page with a 'Verify you are human' checkbox that must be clicked, not a passive challenge that clears on its own. So whoever works the estate form should expect to tick a box here, and the standing rule means the loop cannot do it.
 
 ## Steps
 

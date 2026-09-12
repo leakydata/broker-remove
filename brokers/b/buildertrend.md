@@ -8,9 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-17)
+- Current: `manual_required` (updated 2026-09-03)
 - Reference: `form entry ID on file`
-- Note: Web form completed and submitted end to end with no human step; confirmation page returned an entry ID. Their emailed redirect said to use 'the form linked in Section X of our Privacy Notice' — Section X is real (Roman numeral ten, 'Contact Us'), and the form is embedded on that page. Cloudflare Turnstile self-cleared without interaction.
+- Note: 2026-09-03 (§308): STOPPED ASKING BY EMAIL. Two letters to privacy@buildertrend.com produced two copies of an identical macro: 'It looks like your request wasn't submitted through the designated method outlined in Section X of our Privacy Notice.' My second letter said plainly that I WANTED to use the designated method and could not find Section X in the notice at buildertrend.com/privacy-notice/ -- and was answered with the same macro naming the same section. A pointer to a section that cannot be located is not a designated method; it is a dead end that reads like an instruction. DO NOT PRESS AGAIN BY EMAIL: a third letter reaches the same macro. Note also 11 CCR 7026(f) -- to the extent this is an OPT-OUT, a business may not condition it on using a particular verification route. Separately corrected a registry error found by the same audit: the row carried legal@buildertrend.com, an address never actually used; all real correspondence went to privacy@.
 
 ## Steps
 

@@ -8,8 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-23)
-- Note: Statutory opt-out/deletion email sent 2026-08-23, category-tailored.
+- Current: `submitted` (updated 2026-08-24)
+- Reference: `REQ-224224`
+- Note: 2026-08-24: REQ-224224 escalated into DataGrail; separate confirmation from privacy@6sense.mail.datagrail.io. Two systems, one request - watch for the DataGrail completion notice rather than a 6sense one.
 
 ## Steps
 

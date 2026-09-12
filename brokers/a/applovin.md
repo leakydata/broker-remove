@@ -7,7 +7,8 @@
 
 ## Status
 
-- Current: `pending`
+- Current: `submitted` (updated 2026-08-24)
+- Note: 2026-08-24: multi-entity letter - ad platform, MAX, Adjust, AppDiscovery, Axon and any published apps, asking which entities hold a record and treating the request as covering all. Geographic query substituted for the MAID. Also asked for in-app spend history and any 'likelihood to spend' score, which is an inference with consequences and invisible to the subject.
 
 ## Steps
 

@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-27)
-- Note: 2026-08-27: first contact. Programmatic out-of-home / audience-data ad-tech variant: hashed email matching, MAIDs, IP-derived location signals, modelled segments; framed as opt-out of cross-context behavioral-advertising sharing.
+- Current: `submitted` (updated 2026-08-28)
+- Note: Recovered from the committed playbook brokers/p/place_exchange.md, because the ledger carries no notes and this row's status had no evidence behind it: 2026-08-27: first contact. Programmatic out-of-home / audience-data ad-tech variant: hashed email matching, MAIDs, IP-derived location signals, modelled segments; framed as opt-out of cross-context behavioral-advertising sharing.
 
 ## Steps
 

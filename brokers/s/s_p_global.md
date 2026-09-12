@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-26)
-- Note: 2026-08-26: emailed privacy@spglobal.com. Conceded any FCRA-regulated consumer-report product up front and scoped the request to non-FCRA products, marketing use and model training, asking them to say plainly what is FCRA-regulated and out of scope.
+- Current: `submitted` (updated 2026-08-28)
+- Note: Recovered from the committed playbook brokers/s/s_p_global.md, because the ledger carries no notes and this row's status had no evidence behind it: 2026-08-26: emailed privacy@spglobal.com. Conceded any FCRA-regulated consumer-report product up front and scoped the request to non-FCRA products, marketing use and model training, asking them to say plainly what is FCRA-regulated and out of scope.
 
 ## Steps
 

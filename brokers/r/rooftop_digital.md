@@ -7,9 +7,8 @@
 
 ## Status
 
-- Current: `replied` (updated 2026-09-02)
-- **Reconciled 2026-09-02 (§274):** playbook said `submitted`, tracker said `replied`. FOLLOW-UP DRIVEN BY THEIR OWN REGISTER FILING (SF 239), and it turned my complaint into a question in their favour. The 2025 filing reports 11,420 deletion requests received, 2,887 complied in whole, 8,533 DENIED, mean response 5 DAYS -- and the notes field gives the reason: 'Denied requests reason - data not found in our database.' THE CATEGORISATION PROBLEM, which is the finding: 'DENIED' AND 'WE FOUND NOTHING' ARE
-- Note: 2026-08-30 Sent the standard data-broker letter to privacyofficer@therooftop.io.
+- Current: `suppressed` (updated 2026-09-10)
+- Note: NIL PLUS SUPPRESSION 2026-09-10 from privacyofficer@consumerdataprotect.com (Rooftop Digital's privacy desk operates under that domain). Their words: 'We found no information related to you in our database; however, we have suppressed your email from future mailings.' Recorded SUPPRESSED rather than not_found because the second clause is the more durable half: a nil result is a statement about today, a suppression entry is a statement about future ingestion, and they volunteered it without being asked twice. Sequence: 30 Aug request to privacyofficer@therooftop.io; 31 Aug reply refusing on identity-verification grounds and directing to a portal or toll-free 866-338-5513; 1 Sept reply accepting the suppression at face value and adding a second letter that quoted Rooftop's OWN California register filing back to them. Ten days to the nil. Note the pattern shared with CinqDI on the same day: an initial refusal on verification or eligibility grounds, then a substantive search when the request was re-put without disputing the refusal. See _SILENT_FAILURES 430.
 
 ## Steps
 

@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-28)
-- Note: PRIORITY: named by ListMatch on 2026-08-28 as one of seven suppliers of the email contact lists it holds ('GetProspects'). Never written to. support@getprospect.com; getprospect.io and getprospect.com both resolve with live Google MX. Corroborated supplier evidence -- a third party has stated GetProspects supplies the lists.
+- Note: LAST OF THE SIX PENDING ROWS. GetProspect is an email finder with a LinkedIn Email Finder product, so this is the strongest version of the derived-address argument: THEIR PRODUCT IS THE IDENTIFIER I CANNOT SUPPLY. Letter says the central field in any record about me is almost certainly a first.last@employer address I have never owned, so 'no match for the addresses you gave us' would be close to meaningless -- the address at issue is one only they have. Pointed them at the LinkedIn URL as the same source their own product works from, and argued a machine-generated identifier is MORE mine to object to, not less. THE QUESTION THAT MATTERS MOST, from their own 'find 50 valid emails for free' offer: my record may already have been pulled by strangers who signed up, searched and exported into a CRM. Asked (a) whether a record of me has been revealed or exported and roughly how many times -- explicitly NOT who, I do not want their customers' identities -- and (b) whether they can reach those exports. Said plainly that if the answer is no, say no: a deletion I misunderstand is worse than a refusal I understand, because I stop looking. Confirmation ask 1 rewritten to the pivot of the letter -- whether the match was on an address I supplied or one THEY generated. B2B exemption expiry noted.
 
 ## Steps
 

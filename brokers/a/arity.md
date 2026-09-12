@@ -7,9 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-23)
-- Reference: `KP96PDJR5Q`
-- Note: 2026-08-21: OneTrust replied 'Request cannot be completed (KP96PDJR5Q) — unable to verify your identity,' pointing to an appeals web form (arity-appeals.consumerprivacyinfo.com). 2026-08-23: emailed privacy@arity.com directly (not the appeals form) declining to submit a government ID, asking what specifically failed verification and whether a lighter check (phone/ZIP on file) would work. Awaiting reply.
+- Current: `submitted` (updated 2026-09-02)
+- Note: Test reverted; row restored to submitted, which the history supports (OneTrust verification clicked 2026-08-18 and the portal returned 'Your request is confirmed!').
 
 ## Steps
 

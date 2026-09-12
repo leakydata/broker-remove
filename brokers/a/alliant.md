@@ -9,8 +9,8 @@
 ## Status
 
 - Current: `confirmed` (updated 2026-08-20)
-- Reference: `gmail:1a01042e8332c7f7`
-- Note: OneTrust logged BOTH requests with reference IDs and emailed them: 'Your marketing data opt out and/or marketing data deletion request has been successfully submitted. Your Request ID is 3GBWVNXAA5' and a second, A6PP4DHC2W. Two IDs for two forms, which is the artifact that proves the deletion and the opt-out were recorded separately rather than deduplicated.
+- Reference: `A6PP4DHC2W`
+- Note: OneTrust portal request A6PP4DHC2W marked completed 2026-08-20 19:57Z; email from Alliant Cooperative Data Solutions via noreply@m.onetrust.com
 
 ## Steps
 

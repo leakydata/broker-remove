@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `not_found` (updated 2026-08-18)
-- Note: Two-stage opt-out completed. Stage two returned: 'We have no record of [EMAIL] in our service.' NOT a clean not_found for the person - the negative names ONE EMAIL ADDRESS, although the form collected name, phone, street address, city, state and zip. For a government/corporate leadership directory a record would be keyed to a work address, not a personal gmail. Needs re-running per email address; each run e-mails its confirmation to the address entered, so the others cannot be tested from this mailbox.
+- Current: `confirmed` (updated 2026-09-05)
+- Note: 2026-09-05 (§337): THE FORM ANSWERED A QUESTION THE EMAIL COULD NOT -- 'This is a duplicate optout request.' After privacy@leadershipconnect.io hard bounced, I went looking for another route. THREE ARE PUBLISHED AND ONLY ONE WORKS: the privacy policy's DSAR link (/dsar/) REDIRECTS TO THE HOMEPAGE; the 'Privacy Portal' page offers only a POSTAL ADDRESS for the Chief Privacy Officer in Washington DC; and the footer's Do Not Sell link (/opt-out/) is a live two-field form -- name and email, invisible reCAPTCHA, no challenge to solve. Submitted it and the page returned 'This is a duplicate optout request.' THAT IS CORROBORATION IN THE §138 SENSE: it is a fact only a pre-existing record could have produced, and it means an opt-out for this address IS on file -- so the earlier work on this row, adopted from the shared ledger with no detail, did land, and it landed through the form rather than the dead mailbox. Recorded confirmed on that basis. THE LIMITS, STATED: it confirms an OPT-OUT keyed to ONE EMAIL ADDRESS. It says nothing about deletion, nothing about the fifteen prior addresses, and nothing about the former public office that §331 argued would be the likeliest key in a directory of people in ROLES. Those remain unasked, and with the email route dead and the form taking only two fields there is currently no channel that can carry them -- the postal address is the only one left. Registry corrected: email_to cleared, method web_form, optout_url set.
 
 ## Steps
 

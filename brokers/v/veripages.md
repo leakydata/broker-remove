@@ -8,9 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-17)
-- Reference: `gmail:1a006815a9f66229`
-- Note: Broker directs to /inner/control-privacy but requires a /profile/<Name>/<ID> URL. That format is not exposed in their public search (only /name/First/Last/, which their own email calls wrong), and the full-profile route raises a paid-trial modal. Searched current city and two prior cities: no matching profile identifiable among 214 same-name PA records. Replied asking them to process by identifiers, supply the URLs, or confirm no records.
+- Current: `submitted` (updated 2026-08-26)
+- Reference: `gmail:1a03d9ebd6db6258`
+- Note: 2026-08-26: supplementary letter sent with the four late email addresses, six prior postal addresses and three prior phone numbers. Framed as completing the request already on file, not a new one. Asked them to enumerate the identifiers searched.
 
 ## Steps
 

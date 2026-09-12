@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-20)
-- Note: Emailed privacy@cowen.com. TD Cowen is an investment bank's brand, not a consumer data broker in any ordinary sense — this entry is almost certainly a false positive on the source list it was scraped from.
+- Note: Recovered from the committed playbook brokers/t/td_cowen.md, because the ledger carries no notes and this row's status had no evidence behind it: Emailed privacy@cowen.com. TD Cowen is an investment bank's brand, not a consumer data broker in any ordinary sense — this entry is almost certainly a false positive on the source list it was scraped from.
 
 ## Steps
 

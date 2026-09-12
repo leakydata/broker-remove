@@ -8,9 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-19)
+- Current: `submitted` (updated 2026-09-02)
 - Reference: `8N6KVXVA3C`
-- Note: Email confirmation clicked; OneTrust returned 'Your email has been confirmed! Your request has been received and will be reviewed by our Privacy Team.' Reference 8N6KVXVA3C on the privacyportal-de (EU) tenant, acknowledged from assessments@dentsu.com. Confirmation page exposes a further direct contact: dpous@merkleinc.com. Dentsu's footer lists the brands this desk covers: iProspect, Carat, dentsu x, dentsu Creative, tag and Merkle.
+- Note: REVERTED 2026-09-02, SAME DAY (SILENT_FAILURES 287). I moved this row to email_pending an hour earlier on the strength of an unconfirmed-looking verification email sitting in the inbox. THE ROW'S OWN HISTORY ALREADY SAID THE VERIFICATION WAS COMPLETED -- variously 'email verification clicked', 'Your request is confirmed!', 'successfully verified', or a later substantive reply that could only have followed confirmation. A verification mail stays in the inbox forever because nobody archives it; ITS PRESENCE IS NOT EVIDENCE THAT IT WAS NEVER USED. Nine of the ten rows I downgraded were already verified. Restored to submitted, which is what the evidence supports.
 
 ## Steps
 

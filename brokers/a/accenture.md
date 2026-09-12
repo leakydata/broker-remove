@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-22)
-- Note: Statutory opt-out/deletion email sent 2026-08-22.
+- Current: `submitted` (updated 2026-08-24)
+- Reference: `IRR0010856`
+- Note: 2026-08-24: DSR ID IRR0010856 opened. But they require each additional email address to be validated by correspondence FROM that address, or the request closes in 30 days. Several are dead mailboxes - and those are precisely the ones most likely to be in old records. Replied offering three alternatives: treat them as search terms rather than claims, accept the association evidence, or process what they can and name what they excluded.
 
 ## Steps
 

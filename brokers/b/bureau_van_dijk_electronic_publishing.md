@@ -11,16 +11,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-25)
-- Note: 2026-08-25: emailed privacy@bvdinfo.com (BvD is Moody's; Orbis). Conceded that public filings are not theirs to unmake, and scoped the ask to the compilation: the cross-jurisdiction person record they assemble by linking filings, plus any risk / PEP / adverse-media flag. Argued a false or stale compliance flag causes real harm and the person it describes is the last to learn of it. Pre-empted the B2B and public-record exemptions.
-- Note: 2026-08-25 (10 minutes later): that letter bounced — 550, no such mailbox.
-  `bvdinfo.com/en-gb/privacy-policy` 301-redirects straight to Moody's own privacy
-  page, which names `privacy@moodys.com` as the DPO contact. Resent as one
-  combined letter covering five registered entities in the same mail tenant —
-  Moody's, Moody's Analytics, Bureau van Dijk, Reis, and Acquire Media — asking
-  which entities the request was actually applied to, since a group request
-  routinely comes back scoped to the one entity in the address line while the
-  same record sits untouched under a sibling.
+- Current: `failed` (updated 2026-08-25)
+- Note: 2026-08-25: privacy@bvdinfo.com bounced 550 5.1.1 'address not found' - the registered contact in the CA filing is dead. Domain resolves fine and has valid MX, so no domain-level deliverability check could have caught this; only sending did. REQUEST IS NOT ABANDONED: bvdinfo.com sits in Proofpoint tenant 00520701 alongside moodys.com and reis.com, so BvD was folded into the family letter to privacy@moodys.com, which explicitly names Bureau van Dijk and asks them to correct the stale filing. Track the outcome under moody_s.
 
 ## Steps
 

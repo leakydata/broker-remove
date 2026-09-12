@@ -8,6 +8,7 @@
 ## Status
 
 - Current: `submitted`
+- Note: CORRECTION SENT 2026-08-31 (SF 214). My first letter opened 'OneTrust appears on the California data broker register'. THAT WAS WRONG. The row carries no registry_years for any state; source is 'optery', i.e. a third-party commercial directory of data brokers, not a government filing. I did not check the field before writing, because the conclusion was pleasing. Correction says in terms that I have no evidence they are a registered data broker, that I should not have said so, that the letter built its framing on 1798.99.80(c) with no basis to invoke it, and that if there is no registration the question is void. Surviving asks, both independent of the registration: (1) ordinary consumer request as to controller-held data; (2) whether they hold data about me ONLY because my requests to their customers passed through their systems, and the retention period -- explicitly not a deletion request.
 
 ## Steps
 

@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-24)
-- Note: 2026-08-24: first contact via the address nominated in the California data broker registration. Tailored per _CATEGORY_VARIANTS.md.
+- Note: 2026-08-24: routed to an Osano form (my.datasubject.com) that geo-detects Pennsylvania and renders NO fields at all - 'a jurisdiction that does not currently support privacy rights'. No submit path. The jurisdiction dropdown would open the form if set to another state; declined to misstate residency. Replied on the email thread asking them to honour it under their published policy and to report the vendor gate.
 
 ## Steps
 

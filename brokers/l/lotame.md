@@ -8,9 +8,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-30)
-- Note: 2026-08-20: first contact, sent to the address discovered by the verify_emails sweep. Tailored per _CATEGORY_VARIANTS.md.
-- Note: 2026-08-30 — autoresponder from privacy@lotame.com: "Effective October 1, 2025, Lotame Solutions, Inc. was merged into Epsilon Data Management, LLC and no longer exists as a separate legal entity. As a result, all privacy rights requests are now handled by Epsilon" via the portal at https://legal.epsilon.com/dsr (email refused). See `brokers/e/epsilon.md` — all five applicable request types (Delete, Do Not Sell, Do Not Share, Profiling opt-out, Sensitive PI opt-out) were already filed there and confirmed by OneTrust Request ID, which should already cover data that migrated from Lotame. No further action needed here unless a future Epsilon reply distinguishes the Lotame-origin file as untouched.
+- Current: `manual_required` (updated 2026-09-11)
+- Note: REVERTED 2026-09-11 to manual_required. An adoption on 2026-08-28 ("Adopted from the shared ledger... No detail is carried across") overwrote a DELIBERATE downgrade to manual_required and set this row to submitted, where it has read ever since as though a request went in. It did not: the company refused the email route in writing, which is why the downgrade was made. Nothing was revisited afterwards, so the adoption has been the last word for two weeks. See _SILENT_FAILURES 434. THE HUMAN ACTION IS QUEUED, under a different broker id than this one: handoff item 'lotame_via_epsilon' [form], https://legal.epsilon.com/dsr/. THE ENTITY IS GONE: autoresponder states 'Effective October 1, 2025, Lotame Solutions, Inc. was merged into Epsilon Data Management, LLC and no longer exists as a separate legal entity. As a result, all privacy rights requests are now handled by Epsilon' -- through their portal ONLY. So the mailbox answers but cannot complete a request, which is manual_required and not submitted. SILENT_FAILURES 163/191, succession closing an email route.
 
 ## Steps
 

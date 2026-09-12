@@ -8,22 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-03)
-- Note: 2026-08-26: the 2026-08-24 send to jennifer@calibrant.com has been
-  bouncing with a connection timeout for 2 days (still inside Gmail's retry
-  window). Checked calibrant.com directly: it now serves a **parked domain
-  page** ("protected by copyright spaceship.com", a domain registrar's default
-  placeholder) with no privacy policy, no contact email, nothing related to
-  Calibrant Digital at all. The domain has almost certainly lapsed and been
-  re-registered by someone else. Treat this as the same failure mode as
-  `crawlbee.md` — do not trust this domain for a `privacy@<domain>` guess going
-  forward. No alternate contact found; the only registered address is
-  jennifer@calibrant.com, now unreachable at the source.
-- Note (2026-08-31): Retry window closed with a final hard failure ("recipient
-  server did not accept our requests to connect"). `email_verified` corrected
-  from `ca_data_broker_registry` to `bounced`. Confirmed via a fresh fetch that
-  calibrant.com still serves the domain-parking page — the lapse is real, not
-  transient, and no alternate contact exists for either sibling entry.
+- Current: `unreachable` (updated 2026-09-06)
+- Reference: `550/451 -- all three published addresses dead`
+- Note: FINAL BOUNCE CONFIRMED 2026-09-06 11:03 UTC. The 3 September send to info@adrearubin.com sat in Gmail's retry queue for three days -- a temporary-delay notice on 5 September, then a hard failure. The remote server's response was '451 4.4.4 Mail received as unauthenticated', so the mail was refused at the receiving end rather than misaddressed. This closes the last address for this company. THE FULL ADDRESS TRAIL, all dead: [named individual]@adrearubin.com (hard bounce), [named individual]@calibrant.com (hard bounce), info@adrearubin.com (three days of retries, then refused). Every published contact route for a registered data broker is now non-functional. That is the finding, and it is worth more than the removal would have been: a company can hold a register entry, satisfy every check that asks whether it filed, and be entirely unreachable by the consumers the register exists to serve. Nothing further to try by email. Not escalating to the register operator without the user's decision.
 
 ## Steps
 

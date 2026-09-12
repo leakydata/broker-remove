@@ -8,9 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-16)
+- Current: `submitted` (updated 2026-08-30)
 - Reference: `gmail:1a00c69c6aa01661`
-- Note: Statutory deletion + opt-out emailed from [EMAIL]. All 4 email identities + DOB asserted; asks them to search hashed forms too. Includes fallback: if no covering statute or non-covered state, honor as company policy and state which basis in writing. ATTRIBUTION variant: device graph, IP-derived IDs, ad exposure/click/conversion events. Pre-empts 'no record under that name' by noting data is held against pseudonymous identifiers.
+- Note: 2026-08-29 CHASED (13d vs 45, not overdue and said so). Attribution-graph shaped, which is a different object from a list: it links devices, browsers, IPs and sessions to decide two events were the same person. Two questions -- what is it keyed to, and IS THE LINK STORED OR RECOMPUTED. The second is the 171 doctrine applied to attribution: if the association is derived on demand from incoming signals rather than stored, deleting today's output accomplishes nothing because the same link rebuilds on the next matching signals; invited the honest 'we can delete but cannot prevent recreation'. Also applied the reassigned-identifier caution to IP: residential IPs are reassigned and household-shared, so suppressing an IP takes strangers out with me -- what I want removed is the ASSOCIATION between those signals and me, not the signals. Hashed-email offer, MAID refused with reasoning.
 
 ## Steps
 

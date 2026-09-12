@@ -7,9 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-15)
-- Reference: `gmail:1a00681c77770949`
-- Note: Statutory deletion + opt-out emailed from [EMAIL]. All 4 email identities + DOB asserted. Pre-empts the residency deflection: if no covering statute, honor as company policy and state which basis in writing. DIRECT-MAIL variant: requests deletion AND permanent internal suppression, noting suppression is not a substitute for deletion.
+- Current: `submitted` (updated 2026-08-26)
+- Reference: `gmail:1a03dfc79c40a017`
+- Note: 2026-08-26: supplementary letter sent with the four late email addresses, six prior postal addresses and three prior phone numbers, framed as completing the request already on file. Asked whether the other brands on their California filing draw on the same file.
 
 ## Steps
 

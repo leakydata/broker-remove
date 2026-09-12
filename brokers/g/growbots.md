@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `manual_required` (updated 2026-08-18)
-- Note: Opt-out form submitted for [EMAIL]. THEIR FORM STATES THE TRAP OUTRIGHT: 'if you would like to request deleting all information we may have connected to your email, we may not be able to keep a record of your opt-out preference and add information to the database again.' So at Growbots deletion is the WORSE outcome - the opt-out keeps the address purely as a suppression key, which is the correct design. They also refuse gmail/yahoo and require a professional address. Confirmation link goes to the psu.edu mailbox, which I cannot read - handed off.
+- Current: `submitted` (updated 2026-08-21)
+- Note: 2026-08-20: opt-out form was submitted on the institutional address but the confirmation went to that same mailbox, which is now closed - permanently unverifiable. Reopened by email to privacy@growbots.com asking them to honour it manually or re-issue the link. Still asking for opt-out not deletion, per their own warning that deletion destroys the opt-out record.
 
 ## Steps
 

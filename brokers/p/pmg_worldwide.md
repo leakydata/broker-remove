@@ -8,8 +8,7 @@
 ## Status
 
 - Current: `manual_required` (updated 2026-08-28)
-- Note: 2026-08-27: first contact. PMG is a media/marketing agency, so used the ad-tech variant: hashed email, advertising/cookie IDs, modelled audience segments, and asked them to confirm client campaign data and DSP/SSP partners were directed to do the same.
-- Update 2026-08-28: Got back the same canned "Do Not Sell or Share" template used by `dataprivacy+noreply@koddi.com` and `privacyinfo+noreply@kargo.com` — see Gotchas. No point sending a follow-up by email.
+- Note: Recovered from the committed playbook brokers/p/pmg_worldwide.md, because the ledger carries no notes and this row's status had no evidence behind it: 2026-08-27: first contact. PMG is a media/marketing agency, so used the ad-tech variant: hashed email, advertising/cookie IDs, modelled audience segments, and asked them to confirm client campaign data and DSP/SSP partners were directed to do the same.
 
 ## Steps
 

@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-29)
-- Note: 2026-08-29 sent privacy@monitorbase.com (177 second-address; ccpa@monitorbase.com already written to under the Lender Feed LC registration). Product is a 'borrower retention system' that mines a lender's contact database and alerts on activity -- i.e. credit-trigger / prescreen monitoring, which puts most of it under the FCRA and outside CCPA deletion (1798.145), so this is NOT the standard letter. Six questions: does the monitoring use consumer report information and from which bureau; have I been monitored/alerted on/prescreened and for whom (615(d) framing); are they a CRA, reseller or end user (with a 609 file-disclosure request conditional on CRA status); an election not to receive prescreened offers made DIRECTLY to the party generating the alerts rather than waiting on the bureau-operated national mechanism; what sits outside FCRA activity (delete/opt-out/suppress there); and whether a lender client uploaded me, in which case forward the request and name them -- forwarding is not altering.
+- Note: Ticket #113670. support.monitorbase@mmi.io 2026-08-31: directs to a Data Deletion and Opt-Out Form, but ALSO offers email as an alternative -- unusual and worth noting, since most portal redirects close the email route entirely. The letter's substance was prescreen/trigger monitoring and what sits OUTSIDE the FCRA: mortgage-trigger leads are the classic case where a company is a CRA for one activity and a marketer for another, and 1798.145(d) is activity-scoped not entity-scoped. Awaiting an answer on that rather than just the form.
 
 ## Steps
 

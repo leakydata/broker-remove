@@ -7,9 +7,8 @@
 
 ## Status
 
-- Current: `manual_required` (updated 2026-09-02)
-- **Reconciled 2026-09-02 (§274):** playbook said `submitted`, tracker said `manual_required`. 2026-08-30 FORM-GATED, and the form is a GOOGLE FORM (forms.gle/aLg2VBNBf7Nr11tUA) rather than one on skydeo.com. Autoresponder: 'In order to fulfill your request please complete the following information here.' Queued as a handoff with the caution recorded: submitting through it puts personal data into a third-party service under an account this project cannot inspect, landing in a Sheet owned by whoever created the
-- Note: 2026-08-30 Sent the AD TECH / location-data variant to privacy@skydeo.com. Standard ad-tech identifier set plus location/visitation data tied to a device ID.
+- Current: `manual_required` (updated 2026-08-30)
+- Note: 2026-08-30 FORM-GATED, and the form is a GOOGLE FORM (forms.gle/aLg2VBNBf7Nr11tUA) rather than one on skydeo.com. Autoresponder: 'In order to fulfill your request please complete the following information here.' Queued as a handoff with the caution recorded: submitting through it puts personal data into a third-party service under an account this project cannot inspect, landing in a Sheet owned by whoever created the form -- not improper, small companies use Google Forms for everything, but a different disclosure from emailing the company, and worth a deliberate choice rather than a click. Handoff also carries the 195 instruction to supply the minimum (Skydeo is adtech, so a postal address cannot match a device-keyed system), the MAID refusal, and a note that a forms.gle short link discloses nothing about its owner until opened.
 
 ## Steps
 

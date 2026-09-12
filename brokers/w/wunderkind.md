@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-20)
-- Note: Emailed privacyrequests@wunderkind.co. Onsite personalization / identity-resolution ad-tech (formerly BounceX): matches website visitors to known identities largely via hashed email. Same identity-resolution letter pattern as voilanorbert.md, with retailer/publisher-client downstream ask added.
+- Note: Recovered from the committed playbook brokers/w/wunderkind.md, because the ledger carries no notes and this row's status had no evidence behind it: Emailed privacyrequests@wunderkind.co. Onsite personalization / identity-resolution ad-tech (formerly BounceX): matches website visitors to known identities largely via hashed email. Same identity-resolution letter pattern as voilanorbert.md, with retailer/publisher-client downstream ask added.
 
 ## Steps
 

@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-20)
-- Note: Emailed contact@wisdommediagroupllc.com. Cleveland-based digital-marketing agency (lead generation, email marketing, social media marketing) per its own site — likely holds purchased/rented leads rather than a compiled profile. Lead-generation category letter sent.
+- Note: Recovered from the committed playbook brokers/w/wisdom_media_group.md, because the ledger carries no notes and this row's status had no evidence behind it: Emailed contact@wisdommediagroupllc.com. Cleveland-based digital-marketing agency (lead generation, email marketing, social media marketing) per its own site — likely holds purchased/rented leads rather than a compiled profile. Lead-generation category letter sent.
 
 ## Steps
 

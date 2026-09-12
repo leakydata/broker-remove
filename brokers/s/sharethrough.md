@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-30)
-- Note: 2026-08-30 Sent the AD TECH variant to dataprotection@sharethrough.com (programmatic ad exchange). Standard ad-tech identifier set: cookie IDs, MAIDs, hashed email, audience segments, cross-context behavioral advertising opt-out.
+- Note: Recovered from the committed playbook brokers/s/sharethrough.md, because the ledger carries no notes and this row's status had no evidence behind it: 2026-08-30 Sent the AD TECH variant to dataprotection@sharethrough.com (programmatic ad exchange). Standard ad-tech identifier set: cookie IDs, MAIDs, hashed email, audience segments, cross-context behavioral advertising opt-out.
 
 ## Steps
 

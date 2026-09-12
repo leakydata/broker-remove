@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-31)
-- Note: Sent the DIRECT MAIL / LIST RENTAL variant (`_CATEGORY_VARIANTS.md`): asked for deletion plus permanent internal suppression, conceded minimal retention to honor the suppression, and named DMAchoice/optoutprescreen.com as the industry-wide levers already in place separately from this letter.
+- Note: Recovered from the committed playbook brokers/t/the_data.md, because the ledger carries no notes and this row's status had no evidence behind it: Sent the DIRECT MAIL / LIST RENTAL variant (`_CATEGORY_VARIANTS.md`): asked for deletion plus permanent internal suppression, conceded minimal retention to honor the suppression, and named DMAchoice/optoutprescreen.com as the industry-wide levers already in place separately from this letter.
 
 ## Steps
 

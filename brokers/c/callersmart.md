@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `confirmed` (updated 2026-08-17)
-- Note: COMPLETE: all nine telephone numbers individually confirmed opted out by written email, each naming the number: 'The phone book listing has been automatically removed from our website. No personally identifying information will display with this phone number in our phone book.' Nine separate submissions, each with its own reCAPTCHA and verification click.
+- Current: `replied` (updated 2026-08-17)
+- Note: THE AUTORESPONDER ANSWERED THE QUESTIONS I EMAILED TO ASK. [named individual]@callersmart.com replies 'This is an unmonitored inbox' -- so the address is DEMOTED to declared_unmonitored_by_company (SF 205 shape) -- but the template itself contains the substance: (a) 'CallerSmart users search listings BY PHONE NUMBER ONLY (not by name, email, or physical address)' -- which answers question 2, what the suppression is keyed to, and means a name-based removal does nothing; (b) 'If you see a listing that you would like to remove, please use the phone number associated with it' -- the listing IS the number, which answers question 1 about the URL as well as it can be answered; (c) opt-outs submitted through the /data form are 'processed immediately'. THE COST IS THE STRUCTURE, NOT THE POLICY. Because the index is keyed to the number and the form takes ONE number plus one email confirmation per submission, a person with ten former numbers must file ELEVEN SEPARATE REQUESTS with eleven confirmation links. The burden scales with how many times someone has moved -- which is precisely the population most likely to be listed. That is a 7004 minimal-steps problem created by the index design rather than by any unwillingness to remove. STAGED TO HANDOFF, split so the human part is small: the /data page is Cloudflare-gated (403 to any non-browser) so the eleven submissions must be made by hand, but every confirmation link lands in [EMAIL] and I can click those.
 
 ## Steps
 

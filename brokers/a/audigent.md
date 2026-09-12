@@ -7,7 +7,8 @@
 
 ## Status
 
-- Current: `pending`
+- Current: `submitted` (updated 2026-08-24)
+- Note: 2026-08-24: [named individual]@experian.com auto-replied 'This inbox is not monitored and cannot process or respond to requests. Messages sent to this inbox will not be reviewed or fulfilled.' No alternative offered. Resent via optout@experian.com covering both Audigent and the stalled Experian Marketing request.
 
 ## Steps
 

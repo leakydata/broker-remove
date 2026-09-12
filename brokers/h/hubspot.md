@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `manual_required` (updated 2026-08-28)
-- Note: Recovered from Gmail Sent folder -- letter sent 2026-08-23 to privacy@hubspot.com re: Clearbit data. Got stuck: an autoresponder keeps replying with the same 3-working-day/portal-links template regardless of content; a real reply once said the request 'must be submitted directly by the data subject' despite the letter already stating that in its first line -- replied clarifying, got the same autoresponder template again. Web form (preferences.hubspot.com/privacy) is the only route that will get past the loop; queued for a human.
+- Note: Recovered from the committed playbook brokers/h/hubspot.md, because the ledger carries no notes and this row's status had no evidence behind it: Recovered from Gmail Sent folder -- letter sent 2026-08-23 to privacy@hubspot.com re: Clearbit data. Got stuck: an autoresponder keeps replying with the same 3-working-day/portal-links template regardless of content; a real reply once said the request 'must be submitted directly by the data subject' despite the letter already stating that in its first line -- replied clarifying, got the same autoresponder template again. Web form (preferences.hubspot.com/privacy) is the only route that will get past the loop; queued for a human.
 
 ## Steps
 

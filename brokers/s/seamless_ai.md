@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-20)
-- Note: Stage complete 2026-08-20. DataGrail flow finished end to end: email-verification link at 02:37 UTC, then a broker-issued confirmation at 02:50 UTC from noreply@saidsar.com - 'We have received your Deletion request... You will receive another email once your request has been completed.' Two separate senders are involved and they mean different things: privacy@seamlessleads.com sends a human deflection pointing at the Privacy Request Center, while noreply@saidsar.com is the DataGrail transactional address that issues the actual request artifacts. Only the second constitutes evidence a request exists. Awaiting the completion email.
+- Current: `submitted` (updated 2026-09-02)
+- Note: REVERTED 2026-09-02, SAME DAY (SILENT_FAILURES 287). I moved this row to email_pending an hour earlier on the strength of an unconfirmed-looking verification email sitting in the inbox. THE ROW'S OWN HISTORY ALREADY SAID THE VERIFICATION WAS COMPLETED -- variously 'email verification clicked', 'Your request is confirmed!', 'successfully verified', or a later substantive reply that could only have followed confirmation. A verification mail stays in the inbox forever because nobody archives it; ITS PRESENCE IS NOT EVIDENCE THAT IT WAS NEVER USED. Nine of the ten rows I downgraded were already verified. Restored to submitted, which is what the evidence supports.
 
 ## Steps
 

@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-27)
-- Note: 2026-08-27: first contact. Medicare-adjacent lead business, so asked directly and by name whether any record carries a health-related attribute (condition, medication, diagnosis category, "ailment selector") per the healthcare-list-rental playbook — a specific question forces a specific answer instead of a generic confirmation. Also asked which insurance carrier or agency purchased any record.
+- Current: `submitted` (updated 2026-08-28)
+- Note: Recovered from the committed playbook brokers/p/pickmedicare.md, because the ledger carries no notes and this row's status had no evidence behind it: 2026-08-27: first contact. Medicare-adjacent lead business, so asked directly and by name whether any record carries a health-related attribute (condition, medication, diagnosis category, "ailment selector") per the healthcare-list-rental playbook — a specific question forces a specific answer instead of a generic confirmation. Also asked which insurance carrier or agency purchased any record.
 
 ## Steps
 

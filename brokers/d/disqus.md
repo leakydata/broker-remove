@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-25)
-- Note: 2026-08-25: emailed privacy@disqus.com. A comment platform that is ALSO a registered data broker, and those two facts together are the letter. Two distinct scopes: (1) COMMENT HISTORY IS SPEECH - a record of what I said, on which sites, when, in what order. Argued that comment histories disclose politics, religion, health, employment grievances and family details not because any single comment does but because THE AGGREGATE ACROSS YEARS AND SITES does, and unlike a purchase record it is in the person's own words. Asked for comments linked internally to my account even where the visible author name is a pseudonym. (2) THE PART PEOPLE DO NOT EXPECT - a comment widget embedded across thousands of sites can observe which pages a person visited WHETHER OR NOT THEY EVER COMMENTED. Asked for pageview/session records on pages where I never commented, plus hashes, cookie/device IDs, segments and edges. Also asked them to state their role: if service provider to publishers for some of it, say so AND say whether the opt-out propagates, since that determines who I write to next.
+- Current: `submitted` (updated 2026-09-02)
+- Note: REVERTED 2026-09-02, SAME DAY (SILENT_FAILURES 287). I moved this row to email_pending an hour earlier on the strength of an unconfirmed-looking verification email sitting in the inbox. THE ROW'S OWN HISTORY ALREADY SAID THE VERIFICATION WAS COMPLETED -- variously 'email verification clicked', 'Your request is confirmed!', 'successfully verified', or a later substantive reply that could only have followed confirmation. A verification mail stays in the inbox forever because nobody archives it; ITS PRESENCE IS NOT EVIDENCE THAT IT WAS NEVER USED. Nine of the ten rows I downgraded were already verified. Restored to submitted, which is what the evidence supports.
 
 ## Steps
 

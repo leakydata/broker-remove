@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-26)
-- Note: 2026-08-26: emailed privacy@prospectbase.com. Same B2B variant as rampedup. UK-registered entity; worth noting if a reply raises GDPR/UK-specific process instead of the US letter's CCPA framing.
+- Current: `submitted` (updated 2026-08-28)
+- Note: Recovered from the committed playbook brokers/p/prospectbase_uk.md, because the ledger carries no notes and this row's status had no evidence behind it: 2026-08-26: emailed privacy@prospectbase.com. Same B2B variant as rampedup. UK-registered entity; worth noting if a reply raises GDPR/UK-specific process instead of the US letter's CCPA framing.
 
 ## Steps
 

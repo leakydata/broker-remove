@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `unreachable` (updated 2026-08-25)
-- No letter was ever sent to this address, and none should be.
+- Note: 2026-08-25: found by the null-MX sweep, NOT by a bounce - no letter was wasted. idengine.com publishes a lone '0 .' MX record, an explicit RFC 7505 refusal of all mail. IMPORTANT CORRECTION TO EARLIER WORK: this row was one of the five 'repairable typos' I corrected in the domain sweep, changing idengine.ai to idengine.com. The .ai domain did not resolve, so the correction looked right - but it pointed the address at a domain that refuses mail outright. The typo fix was not a fix. Recorded rather than quietly amended, because a correction that produces a dead target is indistinguishable from a correction that worked unless someone checks.
 
 ## Why it is unreachable
 

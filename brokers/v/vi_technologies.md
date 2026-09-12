@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted`
-- Note: SF 212 residue, register-sourced. vi.co describes an enterprise AI platform with a data layer plus activation, engagement and measurement products, so treated as identifier-keyed: minimised letter, DOB/postal/phone withheld, with the SF 222 escape hatch and its reason -- 'I would much rather be corrected than have you search the wrong fields and honestly report finding nothing', citing (without naming) Allant having corrected exactly that assumption last week. TWO PLATFORM-SPECIFIC PARAGRAPHS. (1) Device-level opt-out is not the statutory one: per-device, per-browser, forward-looking only, erased by a reset -- protects a handset not a person, does nothing about data already held; if it is genuinely their only mechanism, that is an answer I can record but I want it stated rather than implied. This is the VRTCAL deflection (SF 210) pre-empted. (2) I AM NOT SENDING A DEVICE IDENTIFIER, said in advance rather than in response: if their process requires a MAID or cookie ID, say so plainly rather than treating the request as incomplete -- and if their systems cannot currently link a device to a named person, then sending one would CREATE that link rather than help them find it. SF 226 pre-empted in the opening letter for the first time.
+- Current: `acknowledged`
+- Note: ACKNOWLEDGED. privacy@vi.co replied 2026-09-01 02:03: 'We confirm receipt of your request regarding the deletion of personal information under applicable privacy regulations. Your request is currently being processed, and we will notify you...' A receipt, not an outcome -- no identifiers echoed, no systems named, no statement of whether anything was found. Recording it as a live route rather than a result: the address works and a human-or-template read it. The minimised letter's questions (which data layer, whether the activation/engagement/measurement products carry a separate copy, and the SF 222 escape hatch) are all still open. Next check at the statutory 45-day mark; do not promote to confirmed on a receipt.
 
 ## Steps
 

@@ -8,9 +8,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-03)
-- Note: 2026-08-31 CORRECTION — this was previously recorded as `submitted`, written right after the send and before the bounce arrived. contact@findwhocallsyou.com hard-bounced (550, address not found). No alternate address found on the site or in any registry (directory-sourced entry, not a state filing).
-- **Correction (2026-09-03):** the company's own site is unreachable to automated fetching (Cloudflare challenge), so no on-site address could be confirmed. `findwhocallsyou@gmail.com` is cited as the removal contact by two independent third-party opt-out guides (joindeleteme.com, deletemyinfo.com) — a Gmail address for a company's official contact is itself a small yellow flag (worth noting, not necessarily disqualifying for a small operator). Sent there and asked to be redirected if wrong. Treat any reply's authenticity with a little more caution than usual until it's confirmed as genuinely theirs.
+- Current: `unreachable`
+- Note: contact@findwhocallsyou.com hard-bounced two seconds after send. It is the only contact address published on the site. The letter -- which carefully separated 'unlink my name from these numbers' from 'do not touch the number pages, they may belong to strangers now' -- did not reach anyone. Queued for a site-form route.
 
 ## Steps
 

@@ -8,10 +8,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-03)
-- Note: 2026-08-31: sent the "unknown broker" categorisation letter (`_CATEGORY_VARIANTS.md`, "When you cannot tell what kind of broker it is") to info@sterlingstrategies.co — no public site content found describing the business, so asked the seven-way categorisation question rather than guessing.
-- Note: 2026-09-01: that letter hard-bounced (550 5.1.1, no such account) — the same address the CA data broker registry lists as current (registration #547507). `http://sterlingstrategies.co` returned HTTP 404 at the root at the time.
-- **Correction (2026-09-03): the company has a live domain, just not the registered one.** `sterlingstrategies.co` now serves an expired Squarespace page (not merely a missing page — the domain lapsed entirely). The CPPA's *current* (2025) California Data Broker Registry filing for "Sterling Data Company LLC" lists an updated website, **sterling.ai**, and privacy contact `privacy@sterling.ai` — a live company that simply changed domains without updating anything pointing at the old one. Resent there. **Lesson generalised:** when a registered domain 404s or expires outright, check the *current* year's registry filing before concluding the company is gone — a lapsed *domain* and a lapsed *company* are different things, and the fresher filing pointed straight at the real one (see `yobi_ventures.md` for the same pattern the same session).
+- Current: `unreachable` (updated 2026-09-02)
+- Note: STATUS CORRECTED 2026-09-02 to match the committed playbook (SF 274). Tracker said 'submitted' from a filename inference. Reality: the 2026-08-31 unknown-broker categorisation letter to info@sterlingstrategies.co HARD-BOUNCED 550 5.1.1 -- and that is the address the CA data broker registry lists as CURRENT for registration 547507. sterlingstrategies.co returns 404 at the root, so there is no privacy page, contact page or form to fall back to. No route exists.
 
 ## Steps
 

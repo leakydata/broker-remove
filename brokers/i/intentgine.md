@@ -9,7 +9,7 @@
 ## Status
 
 - Current: `not_found` (updated 2026-08-23)
-- Note: Same reply thread as pharosiq (shared mailbox privacy@pharosiq.com): reviewed and not present.
+- Note: ITEMISED NIL, second and better answer. 2026-08-31 from Privacy@pharosiq.com: 'We have searched our database for all instances of your email address, name, phone number and address, but have been unable to identify any records relating to you.' That names the FIELDS searched rather than asserting a bare negative -- the 198 shape. Their first reply (2026-08-20) was the weaker 'the information you provided is not present'; this one says what was looked for. Recorded as a clean nil.
 
 ## Steps
 

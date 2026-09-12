@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-26)
-- Note: 2026-08-26: emailed dylan@ripple-fx.com. Asked for any partisanship/ideology/issue-interest/giving-capacity/propensity-to-give score and any voter-file-derived attribute, conceding that a public voter record itself cannot be altered but the derived scoring and their copy can be deleted.
+- Current: `submitted` (updated 2026-08-28)
+- Note: Recovered from the committed playbook brokers/r/ripple_effect_strategies.md, because the ledger carries no notes and this row's status had no evidence behind it: 2026-08-26: emailed [named individual]@ripple-fx.com. Asked for any partisanship/ideology/issue-interest/giving-capacity/propensity-to-give score and any voter-file-derived attribute, conceding that a public voter record itself cannot be altered but the derived scoring and their copy can be deleted.
 
 ## Steps
 

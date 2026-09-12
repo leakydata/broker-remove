@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-23)
-- Note: Statutory opt-out/deletion email sent 2026-08-23, category-tailored.
+- Current: `replied` (updated 2026-09-02)
+- Note: SUPPLEMENT SENT 2026-09-02 -- the connected-account store (SILENT_FAILURES 267). Their source-by-source disclosure stands and is not reopened. THE ARGUMENT MADE HERE IS SPECIFIC TO WHY THEIR ANSWER WAS GOOD: their disclosure was ORGANISED BY SUPPLIER -- every field had a named upstream (RampedUp for email and phone, MixRank/Online Media Group for name, employer, job title). Data ingested from a customer's connected mailbox HAS NO SUPPLIER, so it would not appear in a source-keyed disclosure at all -- not because anything was withheld, but because the disclosure's organising principle has no row for it. Asked: does the store exist; search it for name and addresses as contact/sender/recipient; extend suppression so a future sync cannot reintroduce me through someone else's contacts; and if they do not ingest contacts at all, say so, since a clean no is complete and I want to know who draws the line where.
 
 ## Steps
 

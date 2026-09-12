@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-24)
-- Note: First genuine send to this company. Sent to dataanalytics@teamdms.com, the correctly-spelled address from the CA data broker registry.
+- Note: Recovered from the committed playbook brokers/d/direct_marketing_solutions.md, because the ledger carries no notes and this row's status had no evidence behind it: First genuine send to this company. Sent to [named individual]@teamdms.com, the correctly-spelled address from the CA data broker registry.
 
 ## Steps
 

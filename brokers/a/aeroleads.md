@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-01)
-- Note: Sent the B2B contact-database letter, phrased for a prospecting/lead-generation tool: phone/name search over personal email, Chrome-extension/CRM-integration export question, do-not-add suppression on a null result.
+- Current: `unreachable`
+- Note: HARD BOUNCE. support@aeroleads.com returned 'the email account that you tried to reach does not exist' on 1 Sep, in the cloud agent's B2B batch. Row was never successfully contacted despite carrying a verified-looking address. Demoted; needs an alternative route before the row can be closed either way.
 
 ## Steps
 

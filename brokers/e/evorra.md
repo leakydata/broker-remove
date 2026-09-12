@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `confirmed` (updated 2026-08-25)
-- Note: Auto-acknowledged; a team member will reply.
+- Current: `confirmed` (updated 2026-08-24)
+- Note: 2026-08-24: 'Your opt-out / deletion request has been processed for the email(s) provided.' Note the scope - email addresses only, not name/address/phone. Sent four identical copies of the same reply.
 
 ## Steps
 

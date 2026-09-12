@@ -9,6 +9,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-20)
+- Note: Sent 2026-08-20 to privacy@infotracer.com. Missed from the 48-site InfoTracer batch because the registry held support@ for this one site; corrected.
 
 ## Gotchas
 

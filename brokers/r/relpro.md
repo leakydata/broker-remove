@@ -8,7 +8,8 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-26)
-- Note: 2026-08-26: emailed info@relpro.com. Same B2B variant as rampedup.
+- Reference: `gmail:1a03d99b65507ca7`
+- Note: 2026-08-26: [named individual]@relpro.com acknowledged receipt personally and committed to completing the deletion 'within the mandated timeframe - 30 days' under GDPR/CCPA. A named human, a stated clock, no deflection and no portal - among the better first replies received. Note their optout@relpro.atlassian.net address is a broken Jira intake that returns 'your request could not be created', so info@relpro.com is the working route.
 
 ## Steps
 

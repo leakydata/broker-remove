@@ -7,10 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-25)
-
-> **Note (2026-08-29):** a separate pass, working from a stale local copy of the registry that predated this playbook, independently sent a second statutory letter to the same address, not knowing this company had already been contacted on 2026-08-25. Harmless duplicate — no action needed — but worth flagging: "does a playbook already exist for this id" is a cheap check that would have caught it before sending, and evidently wasn't run.
-- Note: 2026-08-25: emailed usprivacyquestions@deloitte.com. Unusual target - a professional services firm that appears in a state data broker registry. Conceded all three obvious deflections UP FRONT so they could not consume the reply (processing for clients as a processor; HR/applicant records; privilege and audit retention), then made the point that NONE OF THEM EXPLAINS A DATA BROKER REGISTRATION, since registration is required of an entity selling or sharing personal information about consumers with whom it has no direct relationship. The single narrow question asked: what activity caused Deloitte Consulting LLP to register, and does it involve records about me? Pre-committed to accepting a one-sentence description of a narrow activity as a complete answer. This concede-everything-then-ask-why-you-registered structure is worth reusing for any consultancy or non-obvious registrant.
+- Current: `manual_required` (updated 2026-09-11)
+- Note: REVERTED 2026-09-11 to manual_required, COMPLETING A CORRECTION I SAID WAS FINISHED AND WAS NOT. An adoption on 2026-08-28 overwrote a deliberate downgrade and set this row to submitted, where it has read ever since as though a request went in. It did not -- the company refused the email route, which is why the downgrade was made. _SILENT_FAILURES 434 recorded this for seventeen rows and claimed all seventeen were corrected; only seven were, and this is one of the ten that was left reading 'submitted' for another hour. A handoff item is open under this same id [portal]. THE EVIDENCE THE ADOPTION ERASED, from 2026-08-26: 2026-08-26: form redirect that IGNORED the registration question, plus two structural problems worth recording. (1) THE FORM HAS NO BOX FOR ME - their intake asks for 'your relationship with Deloitte' and every option is a customer, employee or counterparty (job applicant, Tax client, subscriber, MyDeloitte accountholder, event registrant, Business Chemistry participant, alumnus, Other). But data broker registration 
 
 ## Steps
 

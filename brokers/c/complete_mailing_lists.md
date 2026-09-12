@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-25)
-- Note: 2026-08-25: emailed ewoolf@completemailinglists.com - person-shaped registry contact, forward-this-internally opener. List brokerage, so deletion-vs-suppression leads and both directions of the chain are asked for: name the list owners/compilers who SUPPLIED the record, and name the clients/renters who RECEIVED it. Plus the consent-provenance question (source URL and date).
+- Current: `submitted` (updated 2026-08-26)
+- Reference: `gmail:1a038189e384cf81`
+- Note: 2026-08-26: replied 'YOUR REQUEST HAS BEEN RECEIVED AND WILL BE PROCESSED ACCORDINGLY' - received, not processed, and nothing checkable. Left as submitted; worth one follow-up asking deletion-vs-suppression and whether anything was found, but not worth a chase before the statutory window elapses.
 
 ## Steps
 

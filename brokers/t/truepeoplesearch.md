@@ -10,9 +10,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-18)
-- Reference: `TPS Right to Know ticket`
-- Note: STAGE TWO CONFIRMED on-screen: 'The following information was submitted to our system successfully. We will locate and remove your record based on the information you provided. Expect your information to be fully removed in 3 days or less.' It names the record back - 'Submitted: [name] - [PERSONAL], PA [PERSONAL] | [email]' - which is the artifact. Note this is the SELF-SERVICE opt-out succeeding after the statutory Right to Know was refused on jurisdiction; two different doors, per _DEFLECTIONS.md 27.
+- Current: `manual_required` (updated 2026-08-28)
+- Reference: `gmail:1a03b891ab4eeccc`
+- Note: THREAD EXHAUSTED 2026-08-28. Final answer: 'If you have additional identifiers to provide, please submit a new request using our public form and include the additional identifiers.' Preceded by 'This email address is dedicated to customer service inquiries and is not intended for privacy-related requests. We do not accept privacy requests received via email.' No further letters -- they have now said three times that email is not the channel, and pressing further would burn credibility for nothing. WHAT THE EXCHANGE ESTABLISHED, and it is worth keeping. (1) THE CIRCULARITY: they asked for 'the URL/web address of your profile details page so we can identify your profile' AFTER confirming removal on 2026-08-18. The only way to produce that URL would be for the removal to have failed. That was put to them plainly and never answered. (2) THE STRUCTURAL POINT: being told to 'submit a new request' means the supplementary identifiers cannot complete the existing one. Each batch becomes a separate request with its own clock and its own confirmation, so the 18 Aug 'removed' covers only the identifiers in that first form. A form-only channel with no per-consumer case file treats every new identifier as a new consumer -- which is exactly how a people-search cluster keyed to a twenty-year-old address survives a removal aimed at current details. (3) THE FAMILY QUESTION WAS ASKED TWICE AND IGNORED TWICE: FamilyTreeNow sent word-for-word identical text two seconds after TruePeopleSearch on 2026-08-26, and a direct question about shared operation and a shared index went unanswered both times. Silence is not corroboration either way (§138), but the two-second identical reply stands on its own as evidence -- see _SILENT_FAILURES 112. Handoff queued with the full identifier set.
 
 ## The circular trap — and the way out
 

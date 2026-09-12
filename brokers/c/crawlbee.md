@@ -9,16 +9,7 @@
 ## Status
 
 - Current: `unreachable` (updated 2026-08-25)
-- Note: 2026-08-25: emailed privacy@crawlbee.com. A CRAWLING business, so the letter says outright that item 4 (suppression) is the one that matters and item 1 alone achieves very little - a record deleted today is re-created by the next crawl of the same page. Led with the LinkedIn URL as the thing to suppress on, since for a crawler the source IS the key. Also asked for SOURCE URLs - which pages the data was collected from - which is trivial for them and impossible for me. First letter where the suppression ask is the centrepiece rather than a rider.
-- Note: 2026-08-25 (later same day): the letter bounced — "domain couldn't be
-  found." crawlbee.com is now a parked/for-sale GoDaddy page, not the broker's
-  site. A real Oregon-registered "Crawlbee Corp" data-scraping company does
-  appear to exist (per a Datarade profile and Oregon business search), but no
-  live company-owned domain or alternate contact could be located. This entry's
-  `domain` field is now stale/wrong — it should not be used to guess a
-  `privacy@<domain>` address for this broker until a real current site is
-  found. Recommend a manual/postal follow-up via the Oregon Secretary of
-  State's registered-agent address rather than email.
+- Note: 2026-08-25: bounced - 'the domain crawlbee.com couldn't be found'. Diagnosis: crawlbee.com publishes a NULL MX (RFC 7505: a lone '0 .' record), which is the domain owner stating explicitly that it accepts no mail. It still serves an A record and its SOA is ns2.afternic.com - an domain marketplace - so the domain is parked for sale and the company is likely defunct. THIS EXPOSED A BUG IN check_email_domains.py, now fixed: the checker returned True on any MX record present, so a null MX read as deliverable. That is worse than a missing record, because the send is refused immediately, the broker gets marked submitted, and nobody learns the letter never left.
 
 ## Steps
 
