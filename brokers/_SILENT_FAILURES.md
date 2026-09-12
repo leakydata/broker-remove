@@ -28696,7 +28696,7 @@ and reading the listing was reading the evidence.
 The Choreograph notices are longer, and the snippet cuts off at:
 
     "…Details of the completed request are provided below. Primary Email :
-     leakydata@gmail.com Request ID :"
+     [the correspondence address] Request ID :"
 
 **`Request Type` sits immediately below that cutoff.** The field the whole claim
 turned on was the one field the listing could never show, and no amount of
@@ -28856,3 +28856,65 @@ stopped"* recorded an observation window as a property of the system. Both are
 the tense problem: **a note is written in the present and read in the future**,
 and only the parts that were true independent of when they were written survive
 the trip.
+
+## 445. Ninety-eight contacts that were already in the building
+
+287 registry rows have never been written to. 154 of them have **no domain at
+all** — just a name, a priority and a link to Optery's public directory page. A
+row with no domain cannot be route-checked, cannot be probed, cannot be emailed,
+and therefore cannot be worked by anything this project has built. They have sat
+there since the registry was assembled.
+
+`data/optery_enriched.json` already held the answer for **131 of them**. The
+scraper ran weeks ago and cached site URLs, opt-out URLs and privacy addresses
+for 904 of 953 slugs. The data was fetched, parsed, cached — and never reached
+the registry.
+
+**Why the merge skipped them.** `enrich_from_optery.py --merge` opens with:
+
+```python
+if "united states" not in (rec.get("country", "")).lower():
+    continue
+```
+
+A sound guard against importing foreign registrants wholesale. But **a missing
+country reads the same as a foreign one**, and Optery publishes no country for
+most entries: of the 154, eight say United States, five say somewhere else, and
+**141 say nothing at all**. 118 of those 141 carry a usable route. The gate was
+built to exclude non-US brokers and in practice excluded *unlabelled* ones,
+which is almost all of them.
+
+Applied to the rows that were **already in the registry** — enrichment, not
+import, so no unknown company is added on the strength of a directory page —
+filling gaps only and never overwriting:
+
+    rows that gained a domain       56
+    rows that gained an email       98
+    rows that gained an opt-out URL 46
+
+Ninety-three now carry `email_verified_by: optery_directory`, which is honest
+about the provenance: a third party published it and nobody here has yet proved
+it accepts mail.
+
+**A defect of my own, found on the way and worth more than the unlock.** The
+registry is a *generated* file: `curated_brokers.json` → `build_registry.py` →
+`brokers.json`. On 8 September I added seventeen `arrests.org` rows by writing
+directly into `brokers.json`. They were never in the source, so **the next
+rebuild would have deleted all seventeen silently** — and a rebuild is exactly
+what this enrichment required. Promoted into `curated_brokers.json` first, then
+rebuilt and checked: 1551 rows before and after, zero ids lost, all seventeen
+present, ledger orphans unchanged at nineteen.
+
+That is the third distinct way this week that work has gone missing by being put
+somewhere nothing reads: §434 (coverage recorded under a parent's name), §435 (a
+human action nobody was assigned), and now a hand-edit to a build artefact. The
+common shape is not carelessness but **writing to the layer you are looking at
+rather than the layer that persists** — and in each case the data was intact and
+simply invisible.
+
+**What this does not yet mean.** Ninety-eight new addresses is ninety-eight
+letters nobody has sent, not ninety-eight removals. They are unverified, some are
+plainly foreign (`support@ancestry.co.uk`), and sending a hundred letters in one
+night would be both reckless and rude. The value is that a hundred and thirty-one
+rows moved from *unworkable* to *workable*, which is the precondition for
+everything else.
