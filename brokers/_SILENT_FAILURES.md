@@ -29017,3 +29017,32 @@ That is §424 again — *join on the identifier the evidence is actually about* 
 and it is now the fifth time this month. What is different is that it was caught
 by reading the output rather than by a later failure, which is the only defence
 that has ever worked here.
+
+### 446a. Batch two, and the first letters sent on a checked address
+
+Three more into the unlocked pool — `peepslocator`, `seekhd`, `user_searcher` —
+and the first sent *after* `precheck_contacts.py` confirmed the address's domain
+resolves, publishes MX, and answers on the web. All three came back LIVE.
+
+Seven letters now sent of ninety-three, four rows closed unreachable without
+spending one, and eighty-two still to go. The pace is deliberate: the addresses
+are directory-sourced and **domain liveness is not mailbox liveness**, so a
+bounce is still possible on any of them and each batch is partly a test of the
+next.
+
+**One letter was written differently, and the reason generalises.**
+`user-searcher.com` is named as though it indexes by **username or handle**
+rather than by name and address. If that is right, it is a different store from a
+people-search index, and every identifier this project usually leads with —
+name, addresses, phone numbers — is the wrong key for it. So that letter asks
+them to confirm, asks that any record keyed to a username, handle or profile
+identifier be treated as in scope, and makes the point that for an
+account-keyed service **an old email address is very likely the join key** —
+which is why all twelve are listed rather than the current one.
+
+That is worth keeping as a habit rather than a one-off. The standard letter
+assumes a record is filed under a person; some of these are filed under an
+account, a device, a property or a docket, and the letter should name the key
+the company actually uses. §444's processor nil was the same failure in a
+different dimension — the answer was true and about the wrong scope; this would
+be a search that is thorough and against the wrong field.
