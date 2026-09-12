@@ -22,6 +22,14 @@ So this prints, for a broker id or a bare address:
     signature of separate letters rather than one letter covering the set
   - the verdict, phrased as the decision to make: NEW LETTER or REPLY IN THREAD
 
+It also prints any OPEN handoff item for those rows. _SILENT_FAILURES 448:
+the Greenhouse queue item said "DO NOT SEND GREENHOUSE ANOTHER EMAIL -- every
+message to privacy@greenhouse.io creates a new deletion request and auto-completes
+it", and I sent one anyway. The instruction existed and was correct; the only
+thing checking it was tracker.py set, which runs AFTER the letter is gone. A
+warning that fires when you record is not a guard. It has to fire where the
+decision is made, and this is that place.
+
 It deliberately does not check the mailbox. Sent mail is the authority on what
 was actually sent (308 found a registry address that no letter ever went to),
 but a script that needs credentials is a script that gets skipped. This runs on
@@ -56,6 +64,21 @@ def load():
     return reg, st
 
 
+def open_handoffs():
+    """{broker_id: item} for every OPEN queue item. Missing file is not an error --
+    the queue is gitignored, so a clone has none and the guard must still run."""
+    try:
+        q = json.load(open(state("handoff_queue.json")))
+    except (FileNotFoundError, ValueError):
+        return {}
+    out = {}
+    for it in (q.get("open") or []) if isinstance(q, dict) else []:
+        bid = it.get("broker")
+        if bid:
+            out.setdefault(bid, it)
+    return out
+
+
 def status_of(st, bid):
     rec = st.get(bid)
     if not rec:
@@ -70,14 +93,34 @@ def status_of(st, bid):
     return cur, first
 
 
+def was_written_to(st, bid):
+    """True if this row EVER reached a sent state, not just whether it is in one now.
+
+    448a, found by the same test that found 448: greenhouse_software had had three
+    letters and the guard said "Nothing sent yet. NEW LETTER is correct", because
+    the row had since moved to manual_required and manual_required is not in SENT.
+    Reading the current status asks "is it sent?" when the question is "was it?" --
+    and a mailbox does not forget a letter because the row moved on.
+    """
+    rec = st.get(bid)
+    if not rec:
+        return False
+    if isinstance(rec, str):
+        return rec in SENT
+    if rec.get("status") in SENT:
+        return True
+    return any(h.get("status") in SENT for h in (rec.get("history") or []))
+
+
 def rows_for(reg, addr):
     return [b for b in reg if (b.get("email_to") or "").strip().lower() == addr]
 
 
-def report(reg, st, addr, quiet=False):
+def report(reg, st, addr, quiet=False, queued=None):
+    queued = {} if queued is None else queued
     rows = rows_for(reg, addr)
     sent = [(b["id"], *status_of(st, b["id"])) for b in rows]
-    sent = [s for s in sent if s[1] in SENT]
+    sent = [s for s in sent if was_written_to(st, s[0])]
     dates = {s[2] for s in sent if s[2]}
     if not quiet:
         print(f"\n{addr}")
@@ -94,6 +137,18 @@ def report(reg, st, addr, quiet=False):
         else:
             print("  Nothing sent yet. NEW LETTER is correct -- and enumerate every row above in it,")
             print("  so one letter covers the set (this is what 51 CourtRecords.us rows rest on).")
+
+        blocked = [(b["id"], queued[b["id"]]) for b in rows if b["id"] in queued]
+        for bid, it in blocked:
+            print(f"\n  ** OPEN HANDOFF on {bid} -- staged {str(it.get('staged_at'))[:10]}, action={it.get('action')}")
+            print("     A human is already assigned to this. READ IT BEFORE YOU WRITE:")
+            for line in (str(it.get("steps") or "")).split("||"):
+                line = line.strip()
+                if line:
+                    print("       " + line[:300])
+            if it.get("note"):
+                print("       NOTE: " + str(it["note"])[:300])
+            print("     See 448. This is the only place the instruction is read in time to obey it.")
     return len(dates) > 1
 
 
@@ -111,10 +166,11 @@ def main():
             if addr:
                 by[addr].append(b)
         shared = {k: v for k, v in by.items() if len(v) > 1}
-        flagged = [k for k in sorted(shared) if report(reg, st, k, quiet=True)]
+        queued = open_handoffs()
+        flagged = [k for k in sorted(shared) if report(reg, st, k, quiet=True, queued=queued)]
         print(f"{len(shared)} shared address(es); {len(flagged)} with rows sent on more than one date")
         for k in flagged:
-            report(reg, st, k)
+            report(reg, st, k, queued=queued)
         print("\nA flag is a QUESTION, not a fault. One letter can legitimately cover many rows and")
         print("be marked over several days. See 308: of five checked by hand, four were correct.")
         return 0
@@ -131,7 +187,7 @@ def main():
         if not addr:
             print(f"{a.target} has no email_to -- nothing to guard against")
             return 0
-    report(reg, st, addr)
+    report(reg, st, addr, queued=open_handoffs())
     return 0
 
 
