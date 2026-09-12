@@ -29046,3 +29046,42 @@ account, a device, a property or a docket, and the letter should name the key
 the company actually uses. §444's processor nil was the same failure in a
 different dimension — the answer was true and about the wrong scope; this would
 be a search that is thorough and against the wrong field.
+
+### 446b. The pre-check is paying, and one letter admits ignorance
+
+Batch two and three, nine letters in total now:
+
+    unchecked batch (4)   1 bounce   background_alert, 550, 2 seconds
+    pre-checked (5)       0 bounces  every one accepted
+
+Small numbers, and that is worth saying rather than claiming a rate. But the one
+address that failed is the one nobody checked first, and four further rows have
+been closed `unreachable` on the strength of a DNS lookup that cost nothing.
+SeekHD acknowledged in **seven seconds** with a reference, CIS Nationwide in
+**four** with a Zendesk ticket. The pool is live.
+
+**One letter in batch three was written differently, and it is the most useful
+variation so far: it says what it does not know.**
+
+`plcom.net` arrived from the directory as a name, an address and the word
+"People Search". Instead of assuming, the letter asks:
+
+> *"What kind of data do you actually hold, and what is it keyed to — name and
+> address, a telephone number, an email address, a device or account identifier,
+> a property, a court docket? I ask because the answer determines whether the
+> identifiers below are the right search keys at all. A thorough search against
+> the wrong field returns an honest nil and tells neither of us anything."*
+
+…and offers to withdraw the request with an apology if it is the wrong company.
+
+That is §446a's point turned into a habit. The standard letter assumes a record
+is filed under a *person*, and several of these are filed under an account
+(`user-searcher`), a property (`bayparcels`), or a docket (`courtrecordfinder`,
+`crimeinformer`). Naming the wrong key produces the most dangerous possible
+outcome in this project: **a nil that is entirely truthful and completely
+uninformative** — §444's processor nil rotated ninety degrees, where the scope
+was right and the field was wrong.
+
+Asking costs one paragraph. It also gives the company something easy and
+flattering to answer, which in this correspondence has repeatedly been the
+difference between a reply and silence.
