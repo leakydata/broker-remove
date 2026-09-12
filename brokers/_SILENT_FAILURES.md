@@ -28959,3 +28959,61 @@ aggregator.
 Eighty-nine remain, of which nineteen are US people-search sites and the rest are
 a mixed bag including several plainly foreign entries that will need a different
 letter or none at all.
+
+## 446. The test batch earned its keep in four letters
+
+§445a sent four letters into the newly-unlocked pool as a deliberate test of the
+Optery directory as a source. Within two minutes:
+
+    background_alert       550, no such address -- info@backgroundalert.com
+    freepeoplesearch_io    autoresponder in 15 seconds, from support@ not contact@
+    courtrecordfinder_com  Zendesk ticket 555195 in 4 seconds
+    zosearch               accepted, silent
+
+One in four bounced. Three landed and two of those produced a reference or a
+live desk within a minute. Good enough to continue, and the bounce paid for the
+whole exercise.
+
+**backgroundalert.com is a shape worth naming.** The mailbox is dead but the
+domain has live MX (Rackspace), and the *website* answers nothing at all — not a
+404, not a 403, no HTTP response. Mail provisioned, site gone. That is usually a
+company that has folded while the domain stays parked, and it means there is
+nothing to scrape for an alternative address either. No probes were fired at
+`privacy@` or `support@`: guessed addresses bounce in a way indistinguishable
+from a pending request, which is the exact failure the enrichment script's own
+docstring warns about.
+
+**So check before spending a letter.** `scripts/precheck_contacts.py` asks the
+cheap decisive questions — does the address's domain resolve, does it publish an
+MX, does the site answer — and nothing else. It deliberately cannot tell whether
+a *mailbox* exists: that needs a send, and SMTP probing for it is unreliable and
+rude. Of the 89 unwritten rows:
+
+    LIVE        82
+    MX-ONLY      3      mail configured, site dead -- the backgroundalert shape
+    NO-MX        1      resolves, nothing accepts mail
+    NO-DOMAIN    3      does not resolve at all
+
+Four closed as `unreachable` **without sending**, which is four bounces not
+generated. That matters beyond tidiness: a bounce is indistinguishable from
+silence in the ledger unless somebody reads the mailbox, and a run of them
+teaches every receiving domain to treat this sender as a spammer — at the exact
+moment eighty-two real letters are about to go out.
+
+**And the check was wrong on its first run**, in the way that is becoming
+familiar. It looked up MX against the registry's `domain` field, which is the
+*website*. For several rows the address lives somewhere else entirely:
+
+    bay_collective_ip            bayparcels.com          info@baycollective.com
+    click_search                 clicksearch.us          info@clicksearchsolutions.com
+    mississippi_people_records   mississippipeoplerecords.org  privacy@mississippi.org
+
+Three rows were one keystroke from being written off as undeliverable on the
+strength of a lookup against a domain no letter was ever going to be sent to.
+Fixed to resolve the **address's** domain for MX and the site's for liveness, and
+the counts moved: NO-MX 4 → 1, LIVE 79 → 82.
+
+That is §424 again — *join on the identifier the evidence is actually about* —
+and it is now the fifth time this month. What is different is that it was caught
+by reading the output rather than by a later failure, which is the only defence
+that has ever worked here.
