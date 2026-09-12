@@ -7,8 +7,15 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-23)
+- Current: `manual_required` (updated 2026-09-12)
 - Note: Statutory opt-out/deletion email sent 2026-08-23, category-tailored.
+- **2026-09-12: `privacy.officer@adstradata.com` autoreplies on every inbound
+  message** — *"THIS EMAIL INBOX IS NOT MONITORED REGULARLY"* — and names four
+  OneTrust webforms as the actual intake: interest-based-advertising opt-out,
+  a third-party-disclosure opt-out, a deletion request, and an information
+  request. All four need a browser; none is fillable by email. Queued to
+  `handoff.py` — the deletion-request webform is the one that matters most:
+  https://privacyportal.onetrust.com/webform/3d2d5e0c-bd98-46b8-906c-ede68a6f6a80/2320a36e-c9e8-427d-b431-f77dede03ef3
 
 ## Steps
 

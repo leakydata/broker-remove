@@ -8,8 +8,9 @@
 
 ## Status
 
-- Current: `manual_required` (updated 2026-08-20)
-- Note: Autoresponder now loops: a third identical 'Automatic reply' arrived in response to my reply, so privacy@seekout.com is answering every inbound message with the same template rather than reading the thread (same pattern as _SILENT_FAILURES §56). Stop replying there. Both routes remain closed -- the portal renders no form, and the email route is refused without a LinkedIn URL. Next move is a re-test of the portal rather than another letter.
+- Current: `confirmed` (updated 2026-09-12)
+- Note: **Turned around after the LinkedIn URL was supplied as a suppression key.** The original letter (2026-08-31) already included the public LinkedIn profile URL, framed explicitly as a suppression key rather than a search hint (see CONTRIBUTING.md's B2B-letter guidance — this is the case it's for). SeekOut's human reply on 2026-09-11 confirmed: *"I can confirm that LinkedIn URL nathanejones has been deleted from our system."* So the email route was never actually blocked on withholding the URL — it needed the URL supplied on our own terms, up front, as one identifier among several, not surrendered on demand mid-thread. Two follow-up questions sent 2026-09-12 (deletion vs. standing suppression; whether any customer's saved/exported copy is reachable; whether the email addresses were also searched) are open.
+- Prior note (2026-08-20, superseded): Autoresponder loop and empty portal — see Gotchas below, which still describes real historical friction even though the email route eventually worked.
 
 ## Steps
 
@@ -29,11 +30,16 @@
   embedded HubSpot frame (`seekout-hs-7333a2db`, 680×1310) with an empty document
   body — zero fields, zero labels, no submit control. Reloading and waiting does not
   help. See [[_SILENT_FAILURES]] §63.
-- **The email route is conditional**, and the condition is a LinkedIn URL. Refuse
-  it: a live third-party profile is an enrichment key, not a verification token, and
-  it stays useful to a talent-intelligence company after the request closes. See
-  [[_DEFLECTIONS]] §38 — a second workforce dataset asked for exactly the same thing
-  a day earlier.
+- **The email route only looked conditional on a demanded LinkedIn URL.** A staff
+  reply mid-thread said *"we require a LinkedIn URL... without this information we
+  are unable to take action"* — read in isolation this looks like §38's enrichment
+  demand and worth refusing. But the original letter had already supplied the
+  public profile URL voluntarily, framed as a suppression key, and that is what
+  the deletion was actually run against. **The distinction that matters: offering
+  the URL up front as one of several identifiers is not the same concession as
+  being told mid-request that nothing proceeds without it.** Do the former in the
+  first letter; still push back per §38 if asked to hand it over as a precondition
+  after the fact.
 - **Offer `.edu` instead.** For a talent dataset an institutional university address
   is a stronger key than a name and will not collide.
 - Report the broken portal **separately from the request**, and say it is not

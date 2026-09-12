@@ -8,8 +8,9 @@
 
 ## Status
 
-- Current: `confirmed` (updated 2026-08-19)
+- Current: `confirmed` (updated 2026-09-12)
 - Note: CONFIRMED: 'We've received your request to remove your record. We're glad to confirm that the entry for <name> has been successfully removed.' Same two-step pattern as checkpeople -- an initial 'increased volume of requests' holding reply, then a demand for extra locating details, then the confirmation. Sister-site behaviour to checkpeople; worth a family check.
+- **Reappeared and required a second request (2026-09-12).** A fresh, near-identical letter sent 8 months into a new campaign got the same three-stage response (holding autoreply, then "your record removal request has been received... successfully expunged from our database") in under 8 hours this time, faster than the original 33-hour cycle. The 2026-08-19 confirmation evidently did not survive — either it was scoped to whatever identifiers were searched then and missed others, or the record was rebuilt from a fresh source ingest. **This site's removal is not durable on its own** — asked the standing suppression question again (2026-09-12) and it's still open. Plan to re-verify this one periodically rather than treating one confirmation as final.
 
 ## Steps
 

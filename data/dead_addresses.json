@@ -43,7 +43,7 @@
     "ccpa@leadmemedia.com": {
       "kind": "no_such_mailbox",
       "observed": null,
-      "evidence": "550 address not found. Already superseded — registry's email_to was corrected to californiaregistry@leadmemedia.com.",
+      "evidence": "550 address not found. Already superseded \u2014 registry's email_to was corrected to californiaregistry@leadmemedia.com.",
       "response": "The mailbox is absent though the domain is healthy. Find another published address; the company may not know this one is dead."
     },
     "ccpa@paramountdirectmarketing.com": {
@@ -120,7 +120,7 @@
     "contact@join5x5.com": {
       "kind": "dead_domain",
       "observed": null,
-      "evidence": "Domain has no MX and no A record at all — publishes no working mail route. Registry note flags this as almost certainly a typo in the CA filing; the entry is held out of the send queue as a duplicate of five_by_five.",
+      "evidence": "Domain has no MX and no A record at all \u2014 publishes no working mail route. Registry note flags this as almost certainly a typo in the CA filing; the entry is held out of the send queue as a duplicate of five_by_five.",
       "response": "The domain itself is gone. Check whether a stranger has re-registered it before sending anything (SILENT_FAILURES 163)."
     },
     "contact@phoneowner.com": {
@@ -156,7 +156,7 @@
     "dataprivacy@sourceitmarketing.com": {
       "kind": "no_such_mailbox",
       "observed": "2026-08-27",
-      "evidence": "No such recipient, 2026-08-27. This entry (sourceit_technologies) is a duplicate CA registration of 'sourceit', which has a working address (dataprivacy2026@sourceitmarketing.com) already on file — do not resend here.",
+      "evidence": "No such recipient, 2026-08-27. This entry (sourceit_technologies) is a duplicate CA registration of 'sourceit', which has a working address (dataprivacy2026@sourceitmarketing.com) already on file \u2014 do not resend here.",
       "response": "The mailbox is absent though the domain is healthy. Find another published address; the company may not know this one is dead."
     },
     "dataprivacy_rocadvertising@simpleoptoutcompliance.com": {
@@ -192,7 +192,7 @@
     "info@openpeoplesearch.com": {
       "kind": "no_such_mailbox",
       "observed": "2026-08-26",
-      "evidence": "550 address not found, 2026-08-26. This is the exact address published on the broker's own privacy policy — domain and MX are healthy, only the mailbox is absent. Registry uses the web form at /Consumer as primary.",
+      "evidence": "550 address not found, 2026-08-26. This is the exact address published on the broker's own privacy policy \u2014 domain and MX are healthy, only the mailbox is absent. Registry uses the web form at /Consumer as primary.",
       "response": "The mailbox is absent though the domain is healthy. Find another published address; the company may not know this one is dead."
     },
     "info@quantummedica.co.uk": {
@@ -361,13 +361,13 @@
     "privacy@infofree.com": {
       "kind": "no_such_mailbox",
       "observed": "2026-08-22",
-      "evidence": "550 address not found. Already superseded — registry's email_to was corrected to info@infofree.com on 2026-08-22.",
+      "evidence": "550 address not found. Already superseded \u2014 registry's email_to was corrected to info@infofree.com on 2026-08-22.",
       "response": "The mailbox is absent though the domain is healthy. Find another published address; the company may not know this one is dead."
     },
     "privacy@keyopinionleaders.com": {
       "kind": "dead_domain",
       "observed": "2026-08-20",
-      "evidence": "Domain has no NS/SOA/A/MX records at all — the registration has lapsed. Reads as a soft delay for 48h before hard-bouncing, 2026-08-20.",
+      "evidence": "Domain has no NS/SOA/A/MX records at all \u2014 the registration has lapsed. Reads as a soft delay for 48h before hard-bouncing, 2026-08-20.",
       "response": "The domain itself is gone. Check whether a stranger has re-registered it before sending anything (SILENT_FAILURES 163)."
     },
     "privacy@leadershipconnect.io": {
@@ -404,7 +404,7 @@
     "privacy@modigie.com": {
       "kind": "restricted_group",
       "observed": "2026-08-19",
-      "evidence": "Rejected as a restricted Google Workspace group, 2026-08-19. Already superseded — registry's email_to was corrected to dpauli@modigie.com on 2026-08-22.",
+      "evidence": "Rejected as a restricted Google Workspace group, 2026-08-19. Already superseded \u2014 registry's email_to was corrected to dpauli@modigie.com on 2026-08-22.",
       "response": "A privacy@ alias configured as an INTERNAL-ONLY group. It works for staff and silently rejects every consumer, so the company believes it works. Tell them, and use any alternate address. REPORTED 2026-08-29 via dpauli@modigie.com; retest before assuming it is still shut."
     },
     "privacy@nymblr.com": {
@@ -459,7 +459,7 @@
     "privacy@speedeon.com": {
       "kind": "dead_domain",
       "observed": "2026-08-28",
-      "evidence": "Permanent failure 2026-08-28 after three days of delays. speedeon.com has NS and A records but NO MX -- the §86 'website with no mail server' case: RFC 5321 falls back to the A record, nothing listens on port 25, and the sender reports delays for days before giving up. NOT the registry route and NOT a problem: the broker is speedeon_data, its filed contact is accounting@speedeondata.com on a DIFFERENT domain, and that address produced a confirmation. This entry only stops a later pass retrying the wrong domain.",
+      "evidence": "Permanent failure 2026-08-28 after three days of delays. speedeon.com has NS and A records but NO MX -- the \u00a786 'website with no mail server' case: RFC 5321 falls back to the A record, nothing listens on port 25, and the sender reports delays for days before giving up. NOT the registry route and NOT a problem: the broker is speedeon_data, its filed contact is accounting@speedeondata.com on a DIFFERENT domain, and that address produced a confirmation. This entry only stops a later pass retrying the wrong domain.",
       "response": "The domain itself is gone. Check whether a stranger has re-registered it before sending anything (SILENT_FAILURES 163)."
     },
     "privacy@tauxbe.com": {
@@ -513,7 +513,7 @@
     "security@audiencepoint.com": {
       "kind": "restricted_group",
       "observed": "2026-08-24",
-      "evidence": "Rejected as a restricted Google Workspace group, 2026-08-24. Not the registry's primary contact — privacy@audiencepoint.com (the correct, verified address) delivers fine.",
+      "evidence": "Rejected as a restricted Google Workspace group, 2026-08-24. Not the registry's primary contact \u2014 privacy@audiencepoint.com (the correct, verified address) delivers fine.",
       "response": "A privacy@ alias configured as an INTERNAL-ONLY group. It works for staff and silently rejects every consumer, so the company believes it works. Tell them, and use any alternate address. REPORTED 2026-08-29 via privacy@audiencepoint.com; retest before assuming it is still shut."
     },
     "slyster@idg.com": {
@@ -569,6 +569,30 @@
       "observed": "2026-08-20",
       "evidence": "550 5.1.1, 2026-08-20. The address published on their own site.",
       "response": "The mailbox is absent though the domain is healthy. Find another published address; the company may not know this one is dead."
+    },
+    "privacy@cience.com": {
+      "kind": "no_such_mailbox",
+      "observed": "2026-09-12",
+      "evidence": "550 5.1.1 address not found, 2026-09-12. This is the address cience.com's own (stale-cached) privacy policy names, but cience.com's live /privacy-policy path now just redirects to /terms with no contact info at all.",
+      "response": "CIENCE has folded into \"the graph8 group\" (confirmed via both sites' footers). graph8's own verified address, support@graph8.com, already has a submitted, answered request on file. Do not resend under the CIENCE name; see brokers/cience_technologies.md."
+    },
+    "support@crimeinformer.com": {
+      "kind": "no_such_mailbox",
+      "observed": "2026-09-12",
+      "evidence": "550 \"No such user\", 2026-09-12. Domain resolves but the site 404s on every path tried (root, /privacy-policy, /contact-us) via automated fetch.",
+      "response": "No alternate address found. Needs a human with a browser to check whether the site is genuinely live before trying anything else."
+    },
+    "info@backgroundalert.com": {
+      "kind": "dead_domain",
+      "observed": "2026-09-12",
+      "evidence": "550 5.1.1, 2026-09-12. backgroundalert.com does not resolve in DNS at all (NXDOMAIN) \u2014 confirmed by direct lookup, not just a mail-server issue.",
+      "response": "The domain itself is gone. Check whether a stranger has re-registered it before sending anything (SILENT_FAILURES pattern)."
+    },
+    "csr@plcom.net": {
+      "kind": "dead_domain",
+      "observed": "2026-09-12",
+      "evidence": "550 5.0.1, 2026-09-12. plcom.net resolves and serves HTTP, but only a generic hosting placeholder page (\"Coming soon\") \u2014 no operating business behind it.",
+      "response": "Whatever company this was, it no longer operates at this domain. No route exists; do not resend."
     }
   }
 }
