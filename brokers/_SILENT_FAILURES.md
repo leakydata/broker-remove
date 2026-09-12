@@ -29054,6 +29054,11 @@ Batch two and three, nine letters in total now:
     unchecked batch (4)   1 bounce   background_alert, 550, 2 seconds
     pre-checked (5)       0 bounces  every one accepted
 
+~~Small numbers, and that is worth saying rather than claiming a rate.~~
+**Wrong within the hour — see §446c. Two of the five pre-checked letters bounced
+after this was written; the real figure is three bounces in nine, and the
+pre-check does not filter the failure that actually occurs.**
+
 Small numbers, and that is worth saying rather than claiming a rate. But the one
 address that failed is the one nobody checked first, and four further rows have
 been closed `unreachable` on the strength of a DNS lookup that cost nothing.
@@ -29085,3 +29090,58 @@ was right and the field was wrong.
 Asking costs one paragraph. It also gives the company something easy and
 flattering to answer, which in this correspondence has repeatedly been the
 difference between a reply and silence.
+
+## 446c. The check filters the failure that doesn't happen
+
+An hour after writing that the pre-check "is paying", both letters in the next
+batch bounced — and both had passed it.
+
+    support@crimeinformer.com   550 No such user
+    csr@plcom.net               550 5.0.1 address not found
+
+Corrected tally, nine letters into the Optery-directory pool:
+
+    delivered   6    zosearch, freepeoplesearch, courtrecordfinder,
+                     peepslocator, seekhd, user_searcher
+    bounced     3    background_alert, crime_informer, plcom_net
+
+**A third of them.** Not the 1-in-9 the earlier framing implied, and the
+difference is not luck — it is that I generalised from five letters with the
+convenient outcome and wrote it up as a trend. §441b, §434a, §440 were the same
+move; this is the fourth, and the first where I had *already written the
+disclaimer that turned out to be the whole story*.
+
+**`precheck_contacts.py` does exactly what its docstring says, and that is the
+problem.** It states plainly: *"It does not verify that a mailbox exists — that
+cannot be done without sending."* Of 89 rows it flagged four as undeliverable —
+3 NO-DOMAIN, 1 NO-MX. Those are real and worth catching. But **every bounce so
+far has been a live domain with a dead local-part**, which is the one thing it
+announces it cannot see.
+
+So the check filters a failure that occurs in roughly 4% of rows and misses the
+one occurring in ~33%. It is not useless — four letters unspent is four letters
+unspent — but I presented it as the answer to the bounce problem when it
+addresses a different problem that happens to share a symptom.
+
+**What this says about the source.** Optery's directory gave 93 addresses this
+project did not have, and roughly a third of them appear to be stale. That is
+still a good trade: a third of ninety-three is thirty-one dead addresses, and
+the other sixty-odd are routes to companies that were previously unreachable by
+any means. But it changes how the remaining seventy-eight should be worked.
+
+**Changed approach for the rest.** Sending seventy-eight letters to expect
+twenty-six bounces is a real deliverability risk — a run of 550s from one Gmail
+account in quick succession is how a sender starts being filtered everywhere at
+once, at the exact moment the surviving letters need to land. So the remaining
+rows go through `find_optout_pages.py` first: a contact address or opt-out form
+**published on the company's own live site today** beats a directory entry of
+unknown age, and where the site yields one, that is the address to use.
+
+The directory address becomes the fallback rather than the first choice.
+
+**And one letter was worth more than the row.** `plcom_net` was the one written
+with an explicit admission of ignorance — asking what they actually hold and
+what it is keyed to, offering to withdraw if it was the wrong company. It
+bounced. The question still deserves an answer and currently has no route to
+one; the site answers 200, so route discovery is the next move rather than a
+second guess at a local-part.
