@@ -19,9 +19,27 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from redact import scan_tracked  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
-from paths import state as state_file, outbox  # noqa: E402
+from paths import state as state_file, outbox, playbook  # noqa: E402
 CURATED = ROOT / "data" / "curated_brokers.json"
 PLAYBOOKS = ROOT / "brokers"
+
+
+def has_playbook(bid):
+    """Does a playbook exist for this id, wherever it lives?
+
+    _SILENT_FAILURES 451: brokers/ was sharded into 27 subdirectories on 11
+    September. Four scripts were updated to use paths.playbook(); this file was
+    not, and went on testing `brokers/<id>.md` -- a path that no longer exists
+    for any broker. Every such test returned False, so validate emitted **1,361
+    warnings** saying playbooks were missing while the files sat in the shards,
+    and the priority check reported the project's most documented brokers --
+    spokeo, whitepages, transunion -- as undocumented.
+
+    The migration note recorded "updated 4 scripts". That count was of the
+    scripts I found, not of the scripts that existed, and nothing distinguished
+    the two afterwards.
+    """
+    return playbook(bid).exists()
 
 METHODS = {"web_form", "web_form_captcha", "email", "account_required",
            "postal", "phone", "unknown"}
@@ -173,7 +191,7 @@ def main():
     except Exception:
         _known = _ids
     for _bid in _state_raw:
-        if _bid in _known or (PLAYBOOKS / f"{_bid}.md").exists():
+        if _bid in _known or has_playbook(_bid):
             continue
         warnings.append(
             f"[{_bid}]: status row for an id that is not a broker, not an alias and has "
@@ -199,7 +217,7 @@ def main():
                 # always accompanied by the evidence for it.
                 if (f == "optout_url" and b.get("method") == "unknown"
                         and not b.get("email_to")
-                        and (PLAYBOOKS / f"{bid}.md").exists()):
+                        and has_playbook(bid)):
                     continue
                 errors.append(f"{where}: missing required field '{f}'")
 
@@ -382,10 +400,10 @@ def main():
         for bid, rec in state.items():
             if rec.get("status") in (None, "pending"):
                 continue
-            if (PLAYBOOKS / f"{bid}.md").exists():
+            if has_playbook(bid):
                 continue
             covered_by = aliases.get(bid)
-            if covered_by and (PLAYBOOKS / f"{covered_by}.md").exists():
+            if covered_by and has_playbook(covered_by):
                 continue
             errors.append(
                 f"{bid}: status '{rec.get('status')}' but no brokers/{bid}.md - "
@@ -537,7 +555,7 @@ def main():
     # A high-priority broker with no playbook is the biggest documentation gap.
     for b in brokers:
         if (b.get("priority", 0) >= 4 and b.get("source") != "optery_scrape"
-                and not (PLAYBOOKS / f"{b['id']}.md").exists()):
+                and not has_playbook(b['id'])):
             warnings.append(f"{b['id']}: priority {b['priority']} but no "
                             f"brokers/{b['id']}.md playbook")
 

@@ -29625,3 +29625,60 @@ must be forbidden in the *generator*, not in my judgement at the moment of
 sending — because at the moment of sending there is no judgement, only a
 template. And it is worth auditing the other direction too: every field
 `profile.json` carries is, by default, a field that will end up in a letter.
+
+---
+
+## §451 — "Updated 4 scripts" was a count of the scripts I found
+
+On 11 September `brokers/` was sharded into 27 subdirectories, because GitHub
+truncates a directory listing at 1,000 entries and 249 playbooks had become
+invisible. `paths.py` gained a resolver, and the migration note recorded that
+four scripts were updated to use it.
+
+`validate.py` was not one of them. It kept testing `PLAYBOOKS / f"{bid}.md"` —
+a path that, after the migration, exists for **no broker at all**. Every such
+test returned False, in five places.
+
+What that produced:
+
+```
+1400 curated brokers | 1492 errors | 1558 warnings
+```
+
+**1,361 of those were the same false claim**: that a playbook was missing while
+the file sat in a shard. The priority check reported the project's best-documented
+brokers as undocumented — spokeo, whitepages, transunion, truthfinder — and the
+orphan check, whose whole logic is *"an id with no playbook behind it is a typo"*,
+reclassified 1,243 correctly-documented rows as typos. After pointing it at the
+resolver: **179 errors, 2 false warnings**, and the 2 turned out to be real gaps
+(`plaid` and `dmachoice`, both now written).
+
+**The interesting part is not the bug. It is the sentence in the migration note.**
+"Updated 4 scripts" reads like a measurement and is not one. It is a count of the
+scripts I happened to find, presented in the grammar of completeness — and
+afterwards nothing in the repository distinguished *four scripts needed changing
+and four were changed* from *four were changed and I did not check how many
+needed it*. The same word does both jobs and the note kept no record of which.
+
+This is §449's error at the level of the project rather than a letter. There, I
+wrote "all four addresses" over a set of twelve without opening the file. Here I
+wrote "4 scripts" over an unknown denominator without running a search. Both
+times the failing word was the one asserting coverage, and both times the check
+was one command away:
+
+```
+grep -rn 'PLAYBOOKS / f"{' scripts/          # would have found all five
+```
+
+**And it stayed invisible for a day because the tool that would have caught it
+was the tool that broke.** `validate.py` exists to notice exactly this class of
+inconsistency. When it is the thing that is wrong, its output does not read as
+broken — it reads as 1,492 findings, which looks like a tool working hard.
+Volume is not evidence of correctness, and a sudden jump in a checker's output
+is at least as likely to be a fault in the checker as a collapse in the data.
+
+**The rule worth keeping.** After any migration that moves files, the check is
+not "did I update the scripts I know about" but "does any script still construct
+the old path" — which is a grep, not a memory. And a note recording work done
+should say what was searched, not only what was found, because only the first of
+those has a denominator.
