@@ -25482,9 +25482,10 @@
       "optery_slug": "company-check-ltd",
       "optery_url": "https://www.optery.com/data-brokers/company-check-ltd/",
       "route_evidence": "published",
-      "email_to": "contactus@companycheck.co.uk",
+      "email_to": "dpo@companycheck.co.uk",
       "email_verified": true,
-      "email_verified_by": "optery_directory"
+      "email_verified_by": "site_published 2026-09-12",
+      "email_alt": "contactus@companycheck.co.uk"
     },
     {
       "id": "completed_com",
@@ -25980,10 +25981,11 @@
       "optery_slug": "eniro-ab",
       "optery_url": "https://www.optery.com/data-brokers/eniro-ab/",
       "route_evidence": "published",
-      "email_to": "info@eniro.com",
+      "email_to": "privatpersoner@eniro.com",
       "email_verified": true,
-      "email_verified_by": "optery_directory",
-      "category_hint": "People Search"
+      "email_verified_by": "site_published 2026-09-12",
+      "category_hint": "People Search",
+      "email_alt": "info@eniro.com"
     },
     {
       "id": "enp_network",
@@ -26848,9 +26850,10 @@
       "optery_slug": "huntmails",
       "optery_url": "https://www.optery.com/data-brokers/huntmails/",
       "route_evidence": "published",
-      "email_to": "contact@hunter.io",
+      "email_to": "privacy@hunter.io",
       "email_verified": true,
-      "email_verified_by": "optery_directory"
+      "email_verified_by": "site_published 2026-09-12",
+      "email_alt": "contact@hunter.io"
     },
     {
       "id": "ibegin",
@@ -30159,9 +30162,10 @@
       "optery_slug": "zumper-inc",
       "optery_url": "https://www.optery.com/data-brokers/zumper-inc/",
       "route_evidence": "published",
-      "email_to": "press@zumper.com",
+      "email_to": "privacy@zumper.com",
       "email_verified": true,
-      "email_verified_by": "optery_directory"
+      "email_verified_by": "site_published 2026-09-12",
+      "email_alt": "press@zumper.com"
     }
   ]
 }

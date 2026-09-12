@@ -1,0 +1,482 @@
+[
+ {
+  "id": "adstra_american_list_counsel",
+  "email": "privacy.officer@adstradata.com",
+  "verdict": "PUBLISHED",
+  "detail": "the company still prints this address"
+ },
+ {
+  "id": "bay_collective_ip",
+  "email": "info@baycollective.com",
+  "verdict": "PUBLISHED",
+  "detail": "the company still prints this address"
+ },
+ {
+  "id": "callapp_software",
+  "email": "support@callapp.com",
+  "verdict": "PUBLISHED",
+  "detail": "the company still prints this address"
+ },
+ {
+  "id": "cience_technologies",
+  "email": "privacy@cience.com",
+  "verdict": "PUBLISHED",
+  "detail": "the company still prints this address"
+ },
+ {
+  "id": "click_search",
+  "email": "info@clicksearchsolutions.com",
+  "verdict": "PUBLISHED",
+  "detail": "the company still prints this address"
+ },
+ {
+  "id": "elocal_usa",
+  "email": "privacy@elocal.com",
+  "verdict": "PUBLISHED",
+  "detail": "the company still prints this address"
+ },
+ {
+  "id": "ezlocal_com",
+  "email": "privacy@ezlocal.com",
+  "verdict": "PUBLISHED",
+  "detail": "the company still prints this address"
+ },
+ {
+  "id": "find_us_local",
+  "email": "info@finduslocally.com",
+  "verdict": "PUBLISHED",
+  "detail": "the company still prints this address"
+ },
+ {
+  "id": "home_media",
+  "email": "Privacy@HomeSolutions.com",
+  "verdict": "PUBLISHED",
+  "detail": "the company still prints this address"
+ },
+ {
+  "id": "ipqualityscore",
+  "email": "Support@IPQualityScore.com",
+  "verdict": "PUBLISHED",
+  "detail": "the company still prints this address"
+ },
+ {
+  "id": "lenso_ai",
+  "email": "contact@lenso.ai",
+  "verdict": "PUBLISHED",
+  "detail": "the company still prints this address"
+ },
+ {
+  "id": "people_ai",
+  "email": "media@people.ai",
+  "verdict": "PUBLISHED",
+  "detail": "the company still prints this address"
+ },
+ {
+  "id": "point_digital_finance",
+  "email": "policies@point.com",
+  "verdict": "PUBLISHED",
+  "detail": "the company still prints this address"
+ },
+ {
+  "id": "pole_to_pole",
+  "email": "info@poletopole.nl",
+  "verdict": "PUBLISHED",
+  "detail": "the company still prints this address"
+ },
+ {
+  "id": "reverse_contact_visum_sas",
+  "email": "dpo@reversecontact.com",
+  "verdict": "PUBLISHED",
+  "detail": "the company still prints this address"
+ },
+ {
+  "id": "salary_com",
+  "email": "privacy@salary.com",
+  "verdict": "PUBLISHED",
+  "detail": "the company still prints this address"
+ },
+ {
+  "id": "saleshandy_ikigai_infotech_llp",
+  "email": "privacy@saleshandy.com",
+  "verdict": "PUBLISHED",
+  "detail": "the company still prints this address"
+ },
+ {
+  "id": "tcc_information_private",
+  "email": "support@thecompanycheck.com",
+  "verdict": "PUBLISHED",
+  "detail": "the company still prints this address"
+ },
+ {
+  "id": "teamunify",
+  "email": "privacy@nbcuni.com",
+  "verdict": "PUBLISHED",
+  "detail": "the company still prints this address"
+ },
+ {
+  "id": "the_feed_foundation",
+  "email": "support@feedfoundation.org",
+  "verdict": "PUBLISHED",
+  "detail": "the company still prints this address"
+ },
+ {
+  "id": "therapist_com",
+  "email": "info@therapist.com",
+  "verdict": "PUBLISHED",
+  "detail": "the company still prints this address"
+ },
+ {
+  "id": "x_ray_contact",
+  "email": "support@x-ray.contact",
+  "verdict": "PUBLISHED",
+  "detail": "the company still prints this address"
+ },
+ {
+  "id": "amf_internet_services",
+  "email": "legal@anymailfinder.com",
+  "verdict": "OTHER-ADDRESS",
+  "detail": "team@anymailfinder.com"
+ },
+ {
+  "id": "company_check",
+  "email": "contactus@companycheck.co.uk",
+  "verdict": "OTHER-ADDRESS",
+  "detail": "dpo@companycheck.co.uk"
+ },
+ {
+  "id": "eniro_ab",
+  "email": "info@eniro.com",
+  "verdict": "OTHER-ADDRESS",
+  "detail": "privatpersoner@eniro.com"
+ },
+ {
+  "id": "genius_media_group",
+  "email": "gdpr@genius.com",
+  "verdict": "OTHER-ADDRESS",
+  "detail": "inquiry@genius.com"
+ },
+ {
+  "id": "hearst_communications",
+  "email": "magsdatarequests@hearst.com",
+  "verdict": "OTHER-ADDRESS",
+  "detail": "feedback@hearst.com"
+ },
+ {
+  "id": "hitta_se",
+  "email": "kundservice@hitta.se",
+  "verdict": "OTHER-ADDRESS",
+  "detail": "api@hitta.se"
+ },
+ {
+  "id": "huntmails",
+  "email": "contact@hunter.io",
+  "verdict": "OTHER-ADDRESS",
+  "detail": "privacy@hunter.io"
+ },
+ {
+  "id": "numbercom",
+  "email": "privacy@TheNumber.com",
+  "verdict": "OTHER-ADDRESS",
+  "detail": "hello@thenumber.com"
+ },
+ {
+  "id": "oms_small_medium_businesses_directory",
+  "email": "info@softsysinfo.com",
+  "verdict": "OTHER-ADDRESS",
+  "detail": "support@softsysinfo.com"
+ },
+ {
+  "id": "the_blue_book_building_and_construction_network",
+  "email": "info@thebluebook.com",
+  "verdict": "OTHER-ADDRESS",
+  "detail": "proservices@thebluebook.com"
+ },
+ {
+  "id": "zumper",
+  "email": "press@zumper.com",
+  "verdict": "OTHER-ADDRESS",
+  "detail": "feedback@zumper.com privacy@zumper.com"
+ },
+ {
+  "id": "business_cheshire",
+  "email": "hello@businesscheshire.co.uk",
+  "verdict": "UNCONFIRMED",
+  "detail": "site reachable, no address printed on the pages checked"
+ },
+ {
+  "id": "buzzfile_media",
+  "email": "sales@buzzfile.com",
+  "verdict": "UNCONFIRMED",
+  "detail": "site reachable, no address printed on the pages checked"
+ },
+ {
+  "id": "clearout_io",
+  "email": "us@clearout.io",
+  "verdict": "UNCONFIRMED",
+  "detail": "site reachable, no address printed on the pages checked"
+ },
+ {
+  "id": "closely",
+  "email": "support@closelyhq.com",
+  "verdict": "UNCONFIRMED",
+  "detail": "site reachable, no address printed on the pages checked"
+ },
+ {
+  "id": "drunk_drivers",
+  "email": "drunkdrivers.org@aol.com",
+  "verdict": "UNCONFIRMED",
+  "detail": "site reachable, no address printed on the pages checked"
+ },
+ {
+  "id": "homeyou",
+  "email": "corp@homeyou.com",
+  "verdict": "UNCONFIRMED",
+  "detail": "site reachable, no address printed on the pages checked"
+ },
+ {
+  "id": "ibegin",
+  "email": "support@iBeginMarketing.com",
+  "verdict": "UNCONFIRMED",
+  "detail": "site reachable, no address printed on the pages checked"
+ },
+ {
+  "id": "idnotify",
+  "email": "memberservices@idnotify.com",
+  "verdict": "UNCONFIRMED",
+  "detail": "site reachable, no address printed on the pages checked"
+ },
+ {
+  "id": "lis_cross_national_data_center_in_luxembourg",
+  "email": "admin@lisdatacenter.org",
+  "verdict": "UNCONFIRMED",
+  "detail": "site reachable, no address printed on the pages checked"
+ },
+ {
+  "id": "mississippi_people_records",
+  "email": "privacy@mississippi.org",
+  "verdict": "UNCONFIRMED",
+  "detail": "site reachable, no address printed on the pages checked"
+ },
+ {
+  "id": "modern_hire",
+  "email": "support@modernhire.com",
+  "verdict": "UNCONFIRMED",
+  "detail": "site reachable, no address printed on the pages checked"
+ },
+ {
+  "id": "nestfully",
+  "email": "info@nestfully.com",
+  "verdict": "UNCONFIRMED",
+  "detail": "site reachable, no address printed on the pages checked"
+ },
+ {
+  "id": "new_work_se",
+  "email": "info@xing.com",
+  "verdict": "UNCONFIRMED",
+  "detail": "site reachable, no address printed on the pages checked"
+ },
+ {
+  "id": "oxford_university_press",
+  "email": "privacy@oup.com",
+  "verdict": "UNCONFIRMED",
+  "detail": "site reachable, no address printed on the pages checked"
+ },
+ {
+  "id": "pages_jaunes_solutions_numeriques_et_medias_limitee",
+  "email": "privacy@yp.ca",
+  "verdict": "UNCONFIRMED",
+  "detail": "site reachable, no address printed on the pages checked"
+ },
+ {
+  "id": "reverse_caller_lookup",
+  "email": "support@reversecallerlookup.com",
+  "verdict": "UNCONFIRMED",
+  "detail": "site reachable, no address printed on the pages checked"
+ },
+ {
+  "id": "saavn_media",
+  "email": "legal@jiosaavn.com",
+  "verdict": "UNCONFIRMED",
+  "detail": "site reachable, no address printed on the pages checked"
+ },
+ {
+  "id": "soundcloud_global_limited_co_kg",
+  "email": "dataprotection@soundcloud.com",
+  "verdict": "UNCONFIRMED",
+  "detail": "site reachable, no address printed on the pages checked"
+ },
+ {
+  "id": "streetdirectory_pte",
+  "email": "privacy@streetdirectory.com",
+  "verdict": "UNCONFIRMED",
+  "detail": "site reachable, no address printed on the pages checked"
+ },
+ {
+  "id": "swordfish_ai",
+  "email": "contact@swordfish.ai",
+  "verdict": "UNCONFIRMED",
+  "detail": "site reachable, no address printed on the pages checked"
+ },
+ {
+  "id": "telguarder_as",
+  "email": "support@telguarder.com",
+  "verdict": "UNCONFIRMED",
+  "detail": "site reachable, no address printed on the pages checked"
+ },
+ {
+  "id": "us_search",
+  "email": "support@ussearch.com",
+  "verdict": "UNCONFIRMED",
+  "detail": "site reachable, no address printed on the pages checked"
+ },
+ {
+  "id": "valassis_rrd",
+  "email": "DataPrivacy@rrd.com",
+  "verdict": "UNCONFIRMED",
+  "detail": "site reachable, no address printed on the pages checked"
+ },
+ {
+  "id": "visual_listing_systems",
+  "email": "support@vlshomes.com",
+  "verdict": "UNCONFIRMED",
+  "detail": "site reachable, no address printed on the pages checked"
+ },
+ {
+  "id": "visual_visitor",
+  "email": "support@visualvisitor.com",
+  "verdict": "UNCONFIRMED",
+  "detail": "site reachable, no address printed on the pages checked"
+ },
+ {
+  "id": "wellborn_cabinet",
+  "email": "webcm@wellborn.com",
+  "verdict": "UNCONFIRMED",
+  "detail": "site reachable, no address printed on the pages checked"
+ },
+ {
+  "id": "ancestry_com_uk",
+  "email": "support@ancestry.co.uk",
+  "verdict": "SITE-DEAD",
+  "detail": ""
+ },
+ {
+  "id": "caller_name",
+  "email": "callername@rumex.bh",
+  "verdict": "SITE-DEAD",
+  "detail": ""
+ },
+ {
+  "id": "cause_iq",
+  "email": "help@causeiq.com",
+  "verdict": "SITE-DEAD",
+  "detail": ""
+ },
+ {
+  "id": "ct_company_directory",
+  "email": "info@ctcompanydir.com",
+  "verdict": "SITE-DEAD",
+  "detail": ""
+ },
+ {
+  "id": "dark_reading",
+  "email": "editors@darkreading.com",
+  "verdict": "SITE-DEAD",
+  "detail": ""
+ },
+ {
+  "id": "datanyze",
+  "email": "privacy@datanyze.com",
+  "verdict": "SITE-DEAD",
+  "detail": ""
+ },
+ {
+  "id": "dateas",
+  "email": "consultas.es@dateas.com",
+  "verdict": "SITE-DEAD",
+  "detail": ""
+ },
+ {
+  "id": "dtm_deutsche_tele_medien",
+  "email": "info@dtme.de",
+  "verdict": "SITE-DEAD",
+  "detail": ""
+ },
+ {
+  "id": "epieos",
+  "email": "contact@epieos.com",
+  "verdict": "SITE-DEAD",
+  "detail": ""
+ },
+ {
+  "id": "golden_recursion",
+  "email": "hello@golden-support.com",
+  "verdict": "SITE-DEAD",
+  "detail": ""
+ },
+ {
+  "id": "houston_association_of_realtors",
+  "email": "privacy@har.com",
+  "verdict": "SITE-DEAD",
+  "detail": ""
+ },
+ {
+  "id": "jhonata_menezes_dos_santos_desenvolvimento",
+  "email": "jhonatamenezes@jmsdev.com.br",
+  "verdict": "SITE-DEAD",
+  "detail": ""
+ },
+ {
+  "id": "muck_rack",
+  "email": "hello@muckrack.com",
+  "verdict": "SITE-DEAD",
+  "detail": ""
+ },
+ {
+  "id": "native_american_netroots",
+  "email": "support@nativeamericannetroots.net",
+  "verdict": "SITE-DEAD",
+  "detail": ""
+ },
+ {
+  "id": "owler",
+  "email": "support@owler.com",
+  "verdict": "SITE-DEAD",
+  "detail": ""
+ },
+ {
+  "id": "propertyshark",
+  "email": "support@propertyshark.com",
+  "verdict": "SITE-DEAD",
+  "detail": ""
+ },
+ {
+  "id": "radaris_germany",
+  "email": "customer-service@radaris.com",
+  "verdict": "SITE-DEAD",
+  "detail": ""
+ },
+ {
+  "id": "the_bump",
+  "email": "support@thebump.com",
+  "verdict": "SITE-DEAD",
+  "detail": ""
+ },
+ {
+  "id": "the_dots_global",
+  "email": "help@the-dots.com",
+  "verdict": "SITE-DEAD",
+  "detail": ""
+ },
+ {
+  "id": "the_knot_worldwide",
+  "email": "help@theknot.com",
+  "verdict": "SITE-DEAD",
+  "detail": ""
+ },
+ {
+  "id": "trulia",
+  "email": "customerservice@trulia.com",
+  "verdict": "SITE-DEAD",
+  "detail": ""
+ }
+]

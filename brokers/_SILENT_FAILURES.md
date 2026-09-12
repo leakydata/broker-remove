@@ -29145,3 +29145,50 @@ what it is keyed to, offering to withdraw if it was the wrong company. It
 bounced. The question still deserves an answer and currently has no route to
 one; the site answers 200, so route discovery is the next move rather than a
 second guess at a local-part.
+
+## 447. Ask the company whether it still prints the address
+
+§446c changed the approach: with a third of directory addresses bouncing and no
+DNS check able to see a dead local-part, verify against the company's own site
+before spending a letter. The best available proxy for *this mailbox exists* is
+**the company still prints it today**.
+
+Eighty rows checked — fetch the site derived from the address's own domain, read
+the usual policy and contact pages, look for the exact address:
+
+    PUBLISHED       22   the company still prints it
+    OTHER-ADDRESS   11   site prints a different address at the same domain
+    UNCONFIRMED     26   site reachable, no address on the pages checked
+    SITE-DEAD       21   could not fetch the site at all
+
+**`SITE-DEAD` is the wrong label and I am not going to leave it standing.** The
+list includes `trulia.com`, `theknot.com`, `owler.com`, `muckrack.com`,
+`propertyshark.com` and `har.com` — none of which is dead. They block scripted
+fetches. That is §428 for the sixth time: *a failed fetch is a fact about the
+request, not about the world*, and I labelled a column with the conclusion rather
+than the observation. It means **could not fetch**, nothing more, and those rows
+are no worse off than before.
+
+**The eleven OTHER-ADDRESS rows are where the value turned out to be**, because
+four of them publish something materially better than the directory gave:
+
+    zumper          press@zumper.com          ->  privacy@zumper.com
+    huntmails       contact@hunter.io         ->  privacy@hunter.io
+    company_check   contactus@…co.uk          ->  dpo@companycheck.co.uk
+    eniro_ab        info@eniro.com            ->  privatpersoner@eniro.com
+
+Zumper is the one worth pausing on. The directory's address for a **privacy
+request** was the company's **press desk**. That letter would very likely have
+been delivered, read by the wrong person, and either ignored or forwarded into
+nothing — and it would have counted in this ledger as *submitted*, which is
+worse than a bounce. A bounce is loud. **A letter delivered to the wrong desk is
+silent, and looks like a pending request forever.**
+
+All four swapped in the registry, with the directory value kept as `email_alt`
+and provenance recorded as `site_published`.
+
+**So the check earns its place, but not for the reason it was built.** It was
+built to predict bounces. Twenty-two confirmations is reassurance rather than
+information — most were probably fine. The eleven mismatches are the actual
+yield, and they are a failure mode the bounce problem had completely hidden:
+not *will this arrive*, but **will it arrive somewhere that can act on it**.
