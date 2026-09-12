@@ -29192,3 +29192,48 @@ built to predict bounces. Twenty-two confirmations is reassurance rather than
 information — most were probably fine. The eleven mismatches are the actual
 yield, and they are a failure mode the bounce problem had completely hidden:
 not *will this arrive*, but **will it arrive somewhere that can act on it**.
+
+### 447a. Two letters written to the company's actual business
+
+First two into the confirmed-published set, and neither used the people-search
+template — because neither company is a people-search site, and §446a's point
+was that naming the wrong key produces a nil that is truthful and useless.
+
+**Adstra / American List Counsel** got a compiler letter. It leads on
+**suppression rather than deletion**, with the reason stated rather than
+implied: a compiled file is refreshed continually from external sources, so a
+one-time deletion removes today's row and the record rebuilds from the next
+acquisition looking exactly as it did. It asks which of the two was done, and
+asks for the suppression to be **exclude-only** — used to keep him out of
+outgoing files, never as a match key to enrich an incoming one — with
+§1798.105(d)(1) cited so a retained key is not mistaken for a failure to delete.
+
+Then the four questions only a compiler can answer: which **upstream sources**
+supplied the record; what is **inferred** rather than collected, listed
+separately; whether anything carried a **sensitive** attribute, since a general
+assurance never reaches an inference the company does not itself classify as
+sensitive; and whether the record was ever in a file **already delivered to a
+client** — counts and categories only. That last is the one that matters most and
+is asked least: a delivered copy is beyond recall, which is precisely why knowing
+it happened is worth more than the opt-out.
+
+**IPQualityScore** got the opposite treatment: a letter written to anticipate
+their answer rather than walk into it. It is a fraud-scoring service, so its
+records are keyed to IP addresses, device fingerprints, hashed emails and phone
+numbers — and a search on a name returns nothing whether or not they hold
+plenty. So the letter does not ask for a name search at all. It asks **which
+identifier types they key on**, explicitly offering *"nothing is resolvable from
+a name, an address or a plaintext email"* as a complete and welcome answer;
+whether they hold **hashed** emails, with the §430 observation that *"we do not
+store email addresses"* is comfortably true while holding many in hashed form;
+and it refuses the identifiers in advance with the reasoning sharpened for this
+business — **their product is joining exactly those identifiers to a risk
+judgement**, so supplying one from a named account would manufacture the
+association the request exists to remove.
+
+It also asks the §444 processor question **before** the answer rather than after
+it, which is the whole point of having learned it.
+
+Two letters, two different shapes, both to addresses the company itself still
+publishes. That is the combination this week has been converging on: **the right
+key, at an address that works, asked before the nil rather than after it.**
