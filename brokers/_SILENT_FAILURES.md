@@ -29249,7 +29249,8 @@ It auto-replied:
 > *"THIS EMAIL INBOX IS NOT MONITORED REGULARLY."*
 
 So the check did what it was built to do — predict **deliverability** — and says
-nothing at all about whether anyone reads what arrives. Those are different
+nothing at all about whether anyone reads what arrives. *(And §447d takes even
+that away: a confirmed-published address bounced the next morning.)* Those are different
 questions and I had been treating the first as a proxy for the second.
 
 Three states now, where this project previously had two:
@@ -29327,3 +29328,51 @@ compiler, fraud-scoring, lead-gen, B2B. The template was never the point; the
 point is that **a request has to name the key the company actually files under**,
 and getting that wrong produces §444's nil — truthful, thorough, and about
 nothing.
+
+## 447d. A confirmed-published address that bounces
+
+`privacy@cience.com` was checked against CIENCE's own live site on 12 September
+and found printed there. Verdict: **PUBLISHED — "the company still prints this
+address."** The letter went out ninety minutes later and bounced in one second:
+
+> *550 5.1.1 The email account that you tried to reach does not exist.*
+
+§447b had already removed the wider claim — published does not mean *monitored*,
+as Adstra's "this inbox is not monitored regularly" demonstrated. This removes
+the narrow one too. **Publication does not guarantee deliverability either.**
+
+A company can print an address on a live page that its own mail server rejects.
+A stale privacy policy is exactly as easy to leave in place as a stale directory
+entry, and **nothing on the page distinguishes the two**. The check reads what
+the company *published*, which is a claim about the past tense of somebody's
+intention, not a fact about the present state of a mail server.
+
+So the honest scorecard for the confirm-published check, after four letters:
+
+    adstra          published, delivered, inbox not monitored
+    ipqualityscore  published, delivered, silent so far
+    home_media      published, delivered, silent so far
+    cience          published, BOUNCED
+
+One in four, which is the same rate as the raw directory addresses it was meant
+to improve on. Twelve letters total now: **five bounced**.
+
+**What it is still good for is the thing it found by accident.** §447's real
+yield was never the 22 confirmations — it was the 11 rows where the site printed
+a *different* address from the directory, four of which were materially better,
+including Zumper's privacy address in place of its **press desk**. Catching a
+letter headed for the wrong department is worth more than predicting a bounce,
+because a bounce announces itself and a misdirected letter never does.
+
+**And the deeper point, which is by now the spine of this whole file.** Five
+mechanisms have been tried to establish that an address works — a directory
+entry, a DNS lookup, an MX record, a live website, the company's own published
+page — and every one of them is a *proxy*. The only thing that establishes a
+mailbox exists is sending mail to it and seeing what comes back. Each proxy
+removes a class of failure and leaves the rest, and the temptation each time is
+to describe the surviving class as solved.
+
+The practical conclusion is not to build a sixth proxy. It is that **a bounce is
+cheap, informative, and self-announcing** — the best diagnostic available here —
+and the thing actually worth managing is not the bounce rate but the *batch
+size*, so a run of them never lands at once.
