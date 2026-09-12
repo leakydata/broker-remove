@@ -29237,3 +29237,52 @@ it, which is the whole point of having learned it.
 Two letters, two different shapes, both to addresses the company itself still
 publishes. That is the combination this week has been converging on: **the right
 key, at an address that works, asked before the nil rather than after it.**
+
+## 447b. Published is not monitored
+
+§447 verified addresses by asking whether the company still prints them. Adstra's
+did — confirmed twice, on their own `/privacy-policy/` page and independently by
+`discover_contacts.py`. The letter went. It did not bounce.
+
+It auto-replied:
+
+> *"THIS EMAIL INBOX IS NOT MONITORED REGULARLY."*
+
+So the check did what it was built to do — predict **deliverability** — and says
+nothing at all about whether anyone reads what arrives. Those are different
+questions and I had been treating the first as a proxy for the second.
+
+Three states now, where this project previously had two:
+
+    bounces            loud, immediate, unambiguous
+    delivered, unread  silent, indistinguishable from a pending request
+    delivered, read    the only one that does anything
+
+The middle state is the dangerous one, and §447's own Zumper example was already
+pointing at it: a letter to a press desk would have been *delivered*. The check
+moves rows out of column one and cannot tell columns two and three apart.
+
+**Adstra's redirect is worth crediting, though, because it is the best version of
+this that the project has seen.** Instead of one generic form, four links, one
+per right:
+
+    interest-based advertising opt-out      optout.aboutads.info
+    opt-out of disclosure to third parties  OneTrust webform
+    data deletion                           OneTrust webform
+    information / access request            OneTrust webform
+
+That separation is unusual and it matters. Most companies point at a single form
+and leave the consumer to guess which rights it carries — and §441 records
+Choreograph issuing seven `OPT_OUT` completions against a letter that asked for
+deletion too. Adstra makes the choice explicit. Even the `aboutads.info` link,
+which is the §425 shape — an industry cookie opt-out that removes nothing Adstra
+holds — is offered as *one of four* rather than as the answer.
+
+**What no webform can carry is the part worth having.** The letter asked four
+questions only a compiler can answer: named upstream sources, what is inferred
+rather than collected, whether any record held a sensitive attribute, and whether
+the record was ever in a file **already delivered to a client**. Plus the
+exclude-only suppression. A OneTrust form has a field for none of it. Queued with
+the exact paragraph to paste into free text if the form offers any — and if it
+does not, those questions have no route at this company at all, which is itself
+the finding.
