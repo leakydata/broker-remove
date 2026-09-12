@@ -28918,3 +28918,44 @@ plainly foreign (`support@ancestry.co.uk`), and sending a hundred letters in one
 night would be both reckless and rude. The value is that a hundred and thirty-one
 rows moved from *unworkable* to *workable*, which is the precondition for
 everything else.
+
+### 445a. First four letters into the unlocked pool
+
+Four of the ninety-three newly-contactable rows written to tonight:
+`background_alert`, `freepeoplesearch_io`, `zosearch` and `courtrecordfinder_com`.
+All four were unworkable this morning — a name, a priority and a directory link,
+with no domain and no address.
+
+Deliberately four and not ninety-three. The addresses are unverified — Optery
+published them and nobody here has proved any of them accepts mail — so the first
+batch is also a test of the source. If these bounce, that is worth knowing before
+eighty-nine more go out; if they land, the rest can follow at a sane pace. Firing
+a hundred letters in one night from one mailbox is also how a sender starts being
+treated as a sender of bulk mail, which would cost far more than it gained.
+
+**The letter now pre-empts the profile-URL demand**, and that is the substantive
+change. Three companies have independently refused to act without a link to the
+listing (§431, §431a) — different operators, different mail providers, arrived at
+separately — which makes it a convention rather than a quirk. So rather than wait
+to be asked and spend a round trip, the letter explains up front why the consumer
+cannot supply one: a listing is a cluster keyed to **address history**, so
+sending only the findable URLs silently narrows the request to whatever is
+visible from the current address; and producing one at all means running a logged
+search for your own name against the index you are asking to leave. It then asks
+them to run the search and report the URLs back, which also leaves something
+checkable next month.
+
+**One letter was written differently, and the difference is the date of birth.**
+CourtRecordFinder aggregates court records, where an entry can attach a name to a
+proceeding the person was never party to — a witness, a namesake, a relative, a
+mis-parsed docket line. That is precisely the case where a DOB **narrows** rather
+than widens, which is the standing test. So it was offered by return rather than
+merely mentioned as available — while still kept out of the letter itself, so it
+does not enter their file unless it is actually doing work. The same letter asks
+what any entry *says* and which court supplied it, because a misattribution is a
+correction problem and needs raising with the source, not only with the
+aggregator.
+
+Eighty-nine remain, of which nineteen are US people-search sites and the rest are
+a mixed bag including several plainly foreign entries that will need a different
+letter or none at all.
