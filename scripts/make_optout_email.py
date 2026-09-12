@@ -447,7 +447,7 @@ def suggest_keys(b):
     return "email-only" if any(w in hay for w in _IDENTIFIER_KEYED) else "full"
 
 
-def load_profile():
+def load_profile(send_public_profile=False):
     p = json.loads((state("profile.json")).read_text())
     emails = [e.lower() for e in p.get("all_emails") or [p["email"]]]
     indent = "\n" + " " * 19
@@ -504,7 +504,27 @@ def load_profile():
 
     email_lines = [annotate(e) for e in emails]
 
-    profiles = p.get("public_profiles") or []
+    # PUBLIC PROFILE URLS ARE OFF BY DEFAULT. See _SILENT_FAILURES 450a.
+    #
+    # From 25 August to 12 September this block rendered whenever profile.json
+    # carried a public_profiles entry, which is to say into every generated
+    # letter, which is to say to several hundred companies. The subject's
+    # standing instruction is that no social-media handle is sent to anyone. A
+    # LinkedIn profile URL is a social-media handle. Nobody decided to override
+    # the instruction; a template acquired a field and the field had a value.
+    #
+    # The argument FOR sending it is real and is why it was added: a public
+    # profile is the collection input, it is re-crawled on a schedule, and a
+    # deletion with nothing keyed against the source is undone at the next
+    # crawl. SeekOut refused to act without it and then deleted the record.
+    #
+    # But that argument is the subject's to accept, not the tooling's to assume,
+    # so it now requires --send-public-profile on every single invocation. There
+    # is deliberately no config switch and no profile.json field that turns it
+    # on permanently -- the default is a function argument, not a file the flag
+    # could be written into: a disclosure this broad should cost a conscious
+    # flag every time, and a setting is exactly how the first one happened.
+    profiles = (p.get("public_profiles") or []) if send_public_profile else []
     if profiles:
         label = "  Public profile:" if len(profiles) == 1 else "  Public profiles:"
         profile_block = ("\n" + label + " " * (19 - len(label) + 2) +
@@ -731,12 +751,20 @@ def main():
                          "or device IDs where postal details cannot match and "
                          "would only be a disclosure. Never inferred silently: "
                          "see suggest_keys().")
+    ap.add_argument("--send-public-profile", action="store_true",
+                    help="include the public profile URL(s) from profile.json as a "
+                         "suppression key. OFF BY DEFAULT and deliberately awkward: a "
+                         "profile URL is a social-media handle, the subject's standing "
+                         "instruction forbids sending those, and for five weeks this "
+                         "went into every letter because the template had the field. "
+                         "See _SILENT_FAILURES 450a. Pass it only for a broker that has "
+                         "said it cannot find the record without one.")
     ap.add_argument("--all-blocked", action="store_true")
     args = ap.parse_args()
 
     reg = {b["id"]: b for b in
            json.loads((ROOT / "data" / "brokers.json").read_text())["brokers"]}
-    prof = load_profile()
+    prof = load_profile(args.send_public_profile)
     OUTDIR.mkdir(exist_ok=True)
 
     if args.all_blocked:
