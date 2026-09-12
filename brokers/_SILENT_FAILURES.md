@@ -29286,3 +29286,44 @@ exclude-only suppression. A OneTrust form has a field for none of it. Queued wit
 the exact paragraph to paste into free text if the form offers any — and if it
 does not, those questions have no route at this company at all, which is itself
 the finding.
+
+### 447c. Two more categories that needed their own letter
+
+`home_media` and `cience_technologies`, both to addresses confirmed published on
+the companies' own sites, and neither using a template this project already had.
+
+**Lead generation** was a gap. A home-services lead record usually *originates as
+a form submission* and is then sold onward, and two consequences follow that no
+generic deletion letter reaches. A lead already sold is **beyond recall** — so
+the question worth more than the deletion is *has a record about me ever been
+supplied to a buyer, and when, and how many* — counts and categories only. And
+the record **may not have originated with the person at all**: this data arrives
+through affiliates and co-registration paths, and consumers routinely have no
+memory of a form they never knowingly filled in. So the letter asks what source
+supplied it and on what date, noting that *a record I did not create* is the most
+useful thing they could report.
+
+It also asks something the project has not asked before: **do you hold a consent
+record, and what does it say** — TCPA consent, timestamp, IP, form URL — *not*
+merely whether one exists. If a consent was manufactured in someone's name, its
+contents are the whole point.
+
+**B2B prospecting** needed the carve-out pre-empted rather than argued after the
+fact. The business-contact exemption **sunset on 1 January 2023** under the CPRA,
+and saying so up front stops a B2B classification being used as a conversation
+ender — while being explicit that a Pennsylvania resident claims no California
+right personally, and inviting them to name the basis they apply if they conclude
+none obliges them. It then asks the four things only a prospecting business can
+answer, including the one with the sharpest everyday effect: **do you hold a
+direct-dial or personal mobile number**, a field that routinely outlives any
+business justification for holding it.
+
+Both letters lead the identifier list differently too. For CIENCE the first email
+listed is the **closed institutional mailbox** — the address most likely to key a
+business record, and the one the subject cannot check himself.
+
+That is now five letter shapes in two days: people-search, court records,
+compiler, fraud-scoring, lead-gen, B2B. The template was never the point; the
+point is that **a request has to name the key the company actually files under**,
+and getting that wrong produces §444's nil — truthful, thorough, and about
+nothing.
