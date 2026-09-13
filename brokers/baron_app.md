@@ -9,7 +9,7 @@
 
 ## Status
 
-- Current: `manual_required` (updated 2026-09-12)
+- Current: `replied` (updated 2026-09-12)
 - Note: Wrote to `safety@cameo.com` — the contact named on Baron App's CA data
   broker registration — since nothing consumer-facing on Cameo says "Baron
   App." Reply: *"we have been unable to locate any personal information
@@ -20,7 +20,18 @@
   **authorized-agent** request. Replied 2026-09-12 clarifying all four
   addresses are the same consumer's, not a third party's, and offering to
   confirm from this address rather than create an account or send an ID.
-  Awaiting response.
+- **Also (2026-09-12):** the same reply corrected the registration's origin —
+  *"the data broker registration to which your email refers was based on
+  Baron App's offering of its Candl mobile application, not its Cameo
+  service. The Candl application has since been discontinued, and personal
+  data associated with the application... has been deleted."* Recorded as
+  `not_found` for the sending address specifically (the correction above
+  already covers the Candl side). We sent two more messages the same day:
+  one restating that all twelve identifiers listed are our own, not a
+  third party's, and a second correcting our own earlier understatement
+  (we had mistakenly told them "all four" addresses when the original
+  letter actually listed twelve). Awaiting whether they'll search the
+  full set rather than only the sending address.
 
 ## Steps
 

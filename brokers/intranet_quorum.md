@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `replied` (updated 2026-09-02)
+- Current: `replied` (updated 2026-09-11)
 - **Reconciled 2026-09-02 (§274):** playbook said `submitted`, tracker said `replied`. Answered by the Leidos Global Privacy Office in the leidos_digital_solutions thread -- the original letter was addressed to Intranet Quorum (Leidos) and the reply came from privacy@leidos.com on behalf of both. See the leidos_digital_solutions note for the substance: a structural nil, L2 named as the upstream source, and the SF 256 reply-to-all-addresses finding.
+- **2026-09-11:** a further reply arrived answering both threads together -- own-marketing-database nil confirmed, L2 named as source. We pushed back on the customer-tenant scope gap (Leidos as processor vs. controller for individual Intranet Quorum customer instances) -- see leidos_digital_solutions.md for the full exchange. Unanswered as of 2026-09-12.
 
 ## Steps
 

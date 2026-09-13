@@ -7,8 +7,10 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-19)
+- Current: `not_found` (updated 2026-09-12)
 - Note: Standard letter plus the processor-vs-controller split: apply to everything held as controller, and name the client for anything held on their behalf so the request can be redirected rather than silently answered from the wrong side.
+- **Reply (2026-09-12):** *"We have received your request for the removal of your personal data. However, we were unable to process your request as no records were found matching the information you provided,"* and pointed to a resubmission form at marketops.com/data-inquiries/ — which would only re-run the identical search, not add anything.
+- **Our reply (2026-09-12):** thanked them for stating the nil plainly rather than sending an ambiguous "request completed" notice, then asked two follow-ups: (1) was the search actually run against the full identifier set in the original letter, or only the sending address, and (2) will they apply a suppression against this identifier set regardless of the nil, so a future data purchase doesn't silently re-add him. Unanswered as of 2026-09-12.
 
 ## Steps
 

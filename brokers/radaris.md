@@ -65,3 +65,16 @@ From `/data_privacy_center`:
 - reCAPTCHA at final submit — hand off to a human there.
 - Verify by re-running the search URL and pressing **Ctrl+F5 / Cmd+R**; they warn a
   cached page will show a stale listing.
+
+## radaris.de is a separate scope question (2026-09-12)
+
+The confirmed removal above is for radaris.com. A follow-up letter went to
+`customer-service@radaris.com` on 2026-09-12 asking, as a **Datenschutzanfrage
+/ data protection request** specifically about **radaris.de**: (1) whether the
+.com removal already propagated to the .de index or whether the two are
+separate properties entirely, (2) which legal entity operates .de (relevant
+because GDPR, not CCPA, would govern a genuinely separate EU/DE operator),
+and (3) if a record still exists on .de, to delete and suppress it there too.
+No reply yet as of 2026-09-12 — do not assume the .com confirmation covers
+.de until this is answered. See `_FAMILIES.md` for the general pattern of a
+removal confirmed for one hostname from a company that runs several.

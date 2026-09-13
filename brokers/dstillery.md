@@ -7,10 +7,11 @@
 
 ## Status
 
-- Current: `email_pending` (updated 2026-08-28)
-- Reference: `gmail:1a04146b00c89bdc`
+- Current: `not_found` (updated 2026-09-12)
+- Reference: `gmail:1a04146b00c89bdc` — ticket **XF8TWVDW77**
 - Note: 2026-08-27: first contact. Tailored to a behavioural-audience adtech business, where a name search correctly returns nothing while the record persists: hash the twelve addresses themselves rather than concluding no-match from plaintext; delete the EDGES joining a hashed email to a cookie, device or household ID, not only the identifier rows; treat MODELLED attributes - segments, propensity and affinity scores, predicted interests - as in scope for deletion rather than suppression from outbound use, since they exist nowhere else and are acted on whether or not accurate. Also asked which of the two lists any retained suppression hash sits on.
 - Update 2026-08-28: Their reply misclassified the request as coming from an "Authorized Agent" (a business submitting on someone else's behalf) — an automated classifier false-positive, since the original letter states plainly "I am the consumer... not an authorized agent". Replied asking for reprocessing as a direct consumer request rather than being routed through agent-verification (which asks for things like enacting Global Privacy Control, a mechanism for acting on someone else's browser).
+- **Resolved 2026-09-12:** the misclassification was cleared. Final reply, ticket XF8TWVDW77: *"We can confirm that Dstillery has processed your request. We have not found any data associated with the personal data you have provided."* A clean, unqualified nil — no control-query or systems-searched detail was volunteered, so it's recorded as an ordinary nil rather than a demonstrated one, but nothing about the exchange suggests the agent-misclassification bug affected the actual search. Nothing further to send.
 
 ## Steps
 

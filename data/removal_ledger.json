@@ -580,9 +580,9 @@
   "via": null
  },
  "azerion": {
-  "status": "submitted",
-  "changed": "2026-08-25",
-  "via": null
+  "status": "replied",
+  "changed": "2026-09-11",
+  "via": "email"
  },
  "azira": {
   "status": "replied",
@@ -615,7 +615,7 @@
   "via": "reply"
  },
  "baron_app": {
-  "status": "manual_required",
+  "status": "replied",
   "changed": "2026-09-12",
   "via": "email"
  },
@@ -986,7 +986,7 @@
  },
  "choreograph": {
   "status": "replied",
-  "changed": "2026-09-03",
+  "changed": "2026-09-11",
   "via": "email"
  },
  "chris_holbert": {
@@ -1720,9 +1720,9 @@
   "via": "reply"
  },
  "dstillery": {
-  "status": "captcha_blocked",
-  "changed": "2026-09-05",
-  "via": "reply"
+  "status": "not_found",
+  "changed": "2026-09-12",
+  "via": "email"
  },
  "dtn": {
   "status": "manual_required",
@@ -2786,7 +2786,7 @@
  },
  "intranet_quorum": {
   "status": "replied",
-  "changed": "2026-09-02",
+  "changed": "2026-09-11",
   "via": "email"
  },
  "iowa_arrests": {
@@ -3056,7 +3056,7 @@
  },
  "leidos_digital_solutions": {
   "status": "replied",
-  "changed": "2026-09-02",
+  "changed": "2026-09-11",
   "via": "email"
  },
  "lender_feed_lc": {
@@ -3315,8 +3315,8 @@
   "via": "email"
  },
  "marketops": {
-  "status": "submitted",
-  "changed": "2026-08-19",
+  "status": "not_found",
+  "changed": "2026-09-12",
   "via": "email"
  },
  "marriott_international": {
@@ -5851,7 +5851,7 @@
  },
  "valassis_communications_inc_an_rrd": {
   "status": "submitted",
-  "changed": "2026-09-03",
+  "changed": "2026-09-12",
   "via": "email"
  },
  "vdx_tv": {
@@ -6261,6 +6261,96 @@
  },
  "backgroundalert": {
   "status": "unreachable",
+  "changed": "2026-09-12",
+  "via": "email"
+ },
+ "reversecallerlookup": {
+  "status": "unreachable",
+  "changed": "2026-09-13",
+  "via": "email"
+ },
+ "trulia": {
+  "status": "submitted",
+  "changed": "2026-09-12",
+  "via": "email"
+ },
+ "callapp": {
+  "status": "submitted",
+  "changed": "2026-09-12",
+  "via": "email"
+ },
+ "swordfish": {
+  "status": "submitted",
+  "changed": "2026-09-12",
+  "via": "email"
+ },
+ "datanyze": {
+  "status": "submitted",
+  "changed": "2026-09-12",
+  "via": "email"
+ },
+ "idnotify": {
+  "status": "submitted",
+  "changed": "2026-09-12",
+  "via": "email"
+ },
+ "salary_com": {
+  "status": "submitted",
+  "changed": "2026-09-12",
+  "via": "email"
+ },
+ "zumper": {
+  "status": "submitted",
+  "changed": "2026-09-12",
+  "via": "email"
+ },
+ "thenumber": {
+  "status": "submitted",
+  "changed": "2026-09-12",
+  "via": "email"
+ },
+ "propertyshark": {
+  "status": "manual_required",
+  "changed": "2026-09-12",
+  "via": "email"
+ },
+ "homesolutions": {
+  "status": "submitted",
+  "changed": "2026-09-12",
+  "via": "email"
+ },
+ "ipqualityscore": {
+  "status": "submitted",
+  "changed": "2026-09-12",
+  "via": "email"
+ },
+ "user_searcher": {
+  "status": "submitted",
+  "changed": "2026-09-12",
+  "via": "email"
+ },
+ "seekhd": {
+  "status": "submitted",
+  "changed": "2026-09-12",
+  "via": "email"
+ },
+ "peepslocator": {
+  "status": "submitted",
+  "changed": "2026-09-12",
+  "via": "email"
+ },
+ "courtrecordfinder": {
+  "status": "submitted",
+  "changed": "2026-09-12",
+  "via": "email"
+ },
+ "zosearch": {
+  "status": "submitted",
+  "changed": "2026-09-12",
+  "via": "email"
+ },
+ "greenhouse": {
+  "status": "submitted",
   "changed": "2026-09-12",
   "via": "email"
  }
