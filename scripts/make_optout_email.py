@@ -504,26 +504,32 @@ def load_profile(send_public_profile=False):
 
     email_lines = [annotate(e) for e in emails]
 
-    # PUBLIC PROFILE URLS ARE OFF BY DEFAULT. See _SILENT_FAILURES 450a.
+    # PUBLIC PROFILE URLS: ON, BY THE SUBJECT'S EXPRESS DECISION OF 2026-09-13.
     #
-    # From 25 August to 12 September this block rendered whenever profile.json
-    # carried a public_profiles entry, which is to say into every generated
-    # letter, which is to say to several hundred companies. The subject's
-    # standing instruction is that no social-media handle is sent to anyone. A
-    # LinkedIn profile URL is a social-media handle. Nobody decided to override
-    # the instruction; a template acquired a field and the field had a value.
+    # History, because the default has now been wrong in both directions and the
+    # reason matters more than the setting. From 25 August to 12 September this
+    # block rendered into every generated letter because profile.json happened to
+    # carry the field -- several hundred companies, against a standing
+    # instruction that no social-media handle be sent to anyone. Nobody decided
+    # that; a template acquired a field and the field had a value (450a). It was
+    # then gated behind an explicit flag, default off.
     #
-    # The argument FOR sending it is real and is why it was added: a public
-    # profile is the collection input, it is re-crawled on a schedule, and a
-    # deletion with nothing keyed against the source is undone at the next
-    # crawl. SeekOut refused to act without it and then deleted the record.
+    # On 13 September the subject was asked and said: "It is completely fine to
+    # share my linkedin url", supplying it. So it is on again -- but it is on
+    # because he said so, which is a different thing from being on because
+    # nothing stopped it, and this comment is the difference.
     #
-    # But that argument is the subject's to accept, not the tooling's to assume,
-    # so it now requires --send-public-profile on every single invocation. There
-    # is deliberately no config switch and no profile.json field that turns it
-    # on permanently -- the default is a function argument, not a file the flag
-    # could be written into: a disclosure this broad should cost a conscious
-    # flag every time, and a setting is exactly how the first one happened.
+    # WHAT IS STILL FORBIDDEN, and this permission does not touch: mobile
+    # advertising identifiers, device identifiers, cookie IDs and IP addresses,
+    # to anyone, whatever the assurance. Do not read one authorised URL as
+    # authorising a category.
+    #
+    # It follows the identifier-set decision rather than sitting on its own
+    # switch: a platform keyed to cookies or device IDs cannot match on a profile
+    # URL, so sending it there is pure disclosure with no prospect of a match --
+    # which is the same argument that makes those letters `--keys email-only`.
+    # Where the full set goes, the URL goes with it. Use --no-public-profile to
+    # hold it back from one broker.
     profiles = (p.get("public_profiles") or []) if send_public_profile else []
     if profiles:
         label = "  Public profile:" if len(profiles) == 1 else "  Public profiles:"
@@ -664,6 +670,15 @@ def render(b, prof, to=None, contact=None, keys="full"):
         # Strip the name-keyed identifiers and say why, rather than silently
         # sending a thinner letter that reads like an oversight.
         prof["prior_block"] = "\n" + MINIMISED_NOTE
+        # The profile URL goes with them, for the same reason and not a new one.
+        # A platform that resolves on cookies, device IDs or bid-stream signals
+        # cannot match a profile URL either, so sending it there is not a search
+        # key -- it is new personal data arriving at a company that did not hold
+        # it, which is the exact thing this branch exists to avoid. The 13
+        # September authorisation makes the URL sendable; it does not make it
+        # useful where nothing can match on it. See 450b.
+        prof["profile_block"] = ""
+        prof["suppress_block"] = ""
         # The prose that assumes a full identifier list has to go with the data.
         # A minimised letter that still says "I have listed prior addresses
         # deliberately" while listing none reads as careless, and undermines the
@@ -751,20 +766,21 @@ def main():
                          "or device IDs where postal details cannot match and "
                          "would only be a disclosure. Never inferred silently: "
                          "see suggest_keys().")
-    ap.add_argument("--send-public-profile", action="store_true",
-                    help="include the public profile URL(s) from profile.json as a "
-                         "suppression key. OFF BY DEFAULT and deliberately awkward: a "
-                         "profile URL is a social-media handle, the subject's standing "
-                         "instruction forbids sending those, and for five weeks this "
-                         "went into every letter because the template had the field. "
-                         "See _SILENT_FAILURES 450a. Pass it only for a broker that has "
-                         "said it cannot find the record without one.")
+    ap.add_argument("--no-public-profile", action="store_true",
+                    help="hold back the public profile URL(s) from profile.json for "
+                         "this broker. They are included by default in a full-key "
+                         "letter, by the subject's express decision of 2026-09-13, "
+                         "because for a sourcing or people-search broker the profile "
+                         "is the collection input and therefore both the likeliest "
+                         "match key and the only suppression key that survives a "
+                         "re-crawl. Omitted automatically for --keys email-only. "
+                         "See _SILENT_FAILURES 450, 450a, 450b.")
     ap.add_argument("--all-blocked", action="store_true")
     args = ap.parse_args()
 
     reg = {b["id"]: b for b in
            json.loads((ROOT / "data" / "brokers.json").read_text())["brokers"]}
-    prof = load_profile(args.send_public_profile)
+    prof = load_profile(not args.no_public_profile)
     OUTDIR.mkdir(exist_ok=True)
 
     if args.all_blocked:

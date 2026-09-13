@@ -29840,3 +29840,63 @@ be evidenced — a message id, a timestamp, a ticket number — and should say "
 letter at 10:11:01" rather than "my letter". Where authorship genuinely cannot
 be established, that is the finding, and it should be written as unknown rather
 than assumed to be the other party.
+
+### §450b — Asked, and the answer was yes
+
+On 13 September the subject was asked directly whether the LinkedIn URL could be
+sent, and said: *"It is completely fine to share my linkedin url"*, supplying it.
+
+So the default is back on. **The setting is the same as it was on 12 September;
+the difference is that somebody decided it**, and that is the whole of §450a's
+point. A default that nobody chose and a default that the data's owner chose look
+identical in the generated letter and are not the same object.
+
+Three things were changed rather than one, because the flag alone would have been
+the lazy version:
+
+1. **The default follows the identifier-set decision, not its own switch.** A
+   letter sent `--keys email-only` — an adtech platform resolving on cookies,
+   device IDs or bid-stream signals — omits the profile URL automatically. The
+   reasoning is the same one that produces the email-only letter in the first
+   place: nothing there can match on a profile URL, so sending it is not a search
+   key but new personal data arriving at a company that did not hold it.
+   Permission to send an identifier is not a reason to send it where it cannot
+   match.
+
+2. **The flag inverted to `--no-public-profile`**, so holding it back from one
+   broker is still one word.
+
+3. **The comment in the source now records the decision and its date**, and says
+   in terms what the permission does *not* extend to: advertising identifiers,
+   device identifiers, cookie IDs and IP addresses remain forbidden to everyone.
+   One authorised URL is not an authorised category, and the next person to read
+   that block — including me, in a month — should not have to reconstruct which.
+
+**What it immediately unblocked.** Four letters went back out the same hour:
+
+  - **Swordfish** — yesterday's letter said, in terms, *"I am deliberately not
+    handing you a profile URL to search on."* That sentence had to be reversed in
+    writing rather than quietly supplemented.
+  - **SMARTe** — the 30 August letter *volunteered* a refusal before they had
+    asked, on the reasoning that supplying a URL they did not hold would create a
+    link that had not existed.
+  - **Datanyze** and **Salary.com** — sent on 12 September under the gate, so
+    simply missing it.
+
+And the argument put to all four, which is the thing worth keeping: **for a
+company whose product is built by resolving public professional profiles, the
+profile is their input, not something they lack.** What they were missing was
+never the URL — it was the link between that URL and a person asking to be
+excluded. Withholding it protected the record from being found and removed. That
+was a poor trade, and Revelio Labs had already said as much in August without my
+hearing it properly: *"Fully suppressed unless someone changes their professional
+profile URL and we can't connect it to the old one"* — their suppression is
+**keyed to the profile URL**, so refusing to give it was refusing the only key
+their protection runs on.
+
+**One caution kept in every supplement.** The subject's name is a common one, and
+LeadIQ, Lead411 and SeekOut have each said in writing that they hold several
+people by it. The
+URL is supplied to tell those people apart, and every letter asks explicitly that
+it not be used as licence to clear a namesake's record. A deletion request that
+removes a stranger is not a success.
