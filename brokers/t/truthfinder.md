@@ -8,9 +8,9 @@
 
 ## Status
 
-- Current: `confirmed` (updated 2026-09-11)
+- Current: `confirmed` (updated 2026-09-14)
 - Reference: `gmail:1a00618203742083`
-- Note: RE-VERIFICATION 2026-09-11 RAISED A QUESTION IT COULD NOT ANSWER -- status deliberately UNCHANGED pending a human check, not downgraded on a keyword. The read-only public search returned LISTED: an entry reading '[PERSONAL] Bradford, ME 47 Years Old Locations Include: Bradford, ME Shermans Dale, PA [PERSONAL], PA Lehi, U...'. [PERSONAL] IS THE SUBJECT'S CITY, which is what tripped the locality test; BRADFORD MAINE IS NOT, and prior analysis of the same-named cluster on Radaris identified a Bradford ME [PERSONAL] aged 47 and a Shermans Dale PA [PERSONAL] (deceased) as NOT the subject. Age does not separate them -- the subject is also 47. So this is genuinely undecided from outside, and SF 409 is the standing warning against resolving it either way from a name and a town. A direct re-read is not possible: truthfinder.com now returns a Cloudflare 'Just a moment' 403 to a scripted fetch, so the page the scanner saw cannot be re-opened without a browser. QUEUED with a decidable test -- the subject's address history is distinctive (sixteen addresses, nearly all in a narrow band of Pennsylvania), so several of Waynesboro/State College/Shippensburg/Philipsburg/Bellefonte/Blue Ridge Summit/Hagerstown MD/Mobile AL means it is him, while [PERSONAL]-plus-Shermans-Dale amid Maine, Utah and Indiana means it is not. THE REASON IT MATTERS BEYOND THIS ROW: the same run shows INSTANTCHECKMATE at NAME-ONLY -- the name page exists, the subject's city is absent -- and both brands are covered by ONE PeopleConnect suppression applied in a single action on 2026-08-27 across Intelius, InstantCheckmate, TruthFinder and USSearch. If the TruthFinder cluster is the subject, one suppression is holding on one brand and not on another. PeopleConnect's own model makes that mechanically plausible: 'background reports are compiled in real time via live calls to data providers... Because we don't retain reports, we cannot delete them.' A display suppression keyed to one identity cluster would not catch the same person's data arriving inside a different one. See _SILENT_FAILURES 439.
+- Note: THE SUBJECT HAS AN ACTIVE PAID ACCOUNT HERE, and it is deliberate: a founding-member LIFETIME membership at a flat ~10 dollars, kept open because the rate is unrepeatable. A recurring PayPal charge to TruthFinder, Inc. (2026-09-12, 10.99 USD) is expected and must NOT be re-raised as suspicious -- I flagged it once on 12 September before knowing, and this note exists so nobody flags it again. Status unchanged: confirmed still stands. Two things follow that are worth more than the correction. (1) AN ACTIVE ACCOUNT IS NOT A CONTRADICTION OF A CONFIRMED REMOVAL -- the deletion concerned the public searchable listing; subscriber, billing and retention records legitimately persist and were never in scope. A future reader should not reopen this row on the apparent conflict. (2) IT IS THE ONLY INSIDE VERIFICATION CHANNEL THE PROJECT HAS. TruthFinder, Instant Checkmate and US Search are all PeopleConnect and all three rows are confirmed; Intelius is still open. The 2026-09-11 re-verification left this row with a question it could not answer from outside -- a listing reading Bradford ME / Shermans Dale PA / [PERSONAL] PA, age 47, where [PERSONAL] is the subject's city, Bradford ME is a known namesake, and age separates nothing because the subject is also 47. Only the account holder can open that record and settle it. I am not logging into his account. Raised with him with the caveat that a self-search may generate engagement or 'someone searched for you' signals, so it is a deliberate trade rather than a free check.
 
 ## Steps
 
@@ -34,3 +34,30 @@
 
 Re-search truthfinder.com directly for the profile once a reply arrives. No
 stated timeframe yet as of 2026-08-18.
+
+## Standing fact: the subject is a paying customer here
+
+He holds a **founding-member lifetime membership** (flat ~$10) and keeps it on
+purpose. A recurring PayPal charge to TruthFinder, Inc. is expected. It was
+flagged once as possible fraud on 12 September before that was known; it should
+not be flagged again.
+
+**This does not contradict the `confirmed` removal.** The deletion concerned the
+public searchable listing. Subscriber, billing and retention records legitimately
+persist and were never in scope. Do not reopen the row on the apparent conflict.
+
+**It is also the project's only inside verification channel.** TruthFinder,
+Instant Checkmate and US Search are all PeopleConnect. Where every other row can
+only be checked by a read-only public search — which cannot tell the subject from
+a namesake, and which §447 shows is the weakest evidence available — this one can
+be opened from within an account that already exists and is already paid for.
+
+The open question it could settle, from the 2026-09-11 re-verification: a listing
+whose location list includes **the subject's own city** alongside Bradford ME and
+Shermans Dale PA, age 47. The city is what tripped the locality test; Bradford ME
+is a known namesake from the Radaris cluster analysis; and age separates nothing,
+because the subject is also 47. Undecidable from outside; trivial from inside.
+
+**Caveat to state before asking him to look:** running a self-search on a
+people-search site can generate engagement or "someone searched for you" signals.
+It is a deliberate trade, not a free check. Never log into his account.
