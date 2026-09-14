@@ -1,14 +1,21 @@
 # Aeroleads
 
-- **Email:** support@aeroleads.com (verified)
-- **Method:** email — Statutory request by email. No web form needed.
+- **Email:** ~~support@aeroleads.com~~ — **hard-bounces 5.1.3, account does not exist**
+- **Method:** none confirmed working — no alternate address found
 - **Domain:** aeroleads.com
 - **Priority: 1.**
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-01)
-- Note: Sent the B2B contact-database letter, phrased for a prospecting/lead-generation tool: phone/name search over personal email, Chrome-extension/CRM-integration export question, do-not-add suppression on a null result.
+- Current: `unreachable` (updated 2026-09-02)
+- Note: Sent the B2B contact-database letter (phone/name search over personal
+  email, Chrome-extension/CRM-integration export question, do-not-add
+  suppression on a null result) to `support@aeroleads.com` on 2026-09-01. It
+  hard-bounced the same day (5.1.3, "account does not exist"). This row came
+  from a third-party removal-service directory, not a state registration —
+  nobody has attested this is even a data broker. No alternate address found
+  on site or in any registry. Corrected from a prior `submitted` entry that
+  was written before the bounce arrived.
 
 ## Steps
 

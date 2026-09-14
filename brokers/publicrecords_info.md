@@ -7,7 +7,15 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-29)
+- Current: `confirmed` (updated 2026-09-13)
+- **Reply 2026-09-13 (helpdesk.com ticket 1746136851, same thread as
+  `courtrec_com.md` — the letter went to both addresses at once):** "Your
+  information has been removed as requested. Please allow 48-72 hours for the
+  process to complete." Generic, not broken down by the five sibling sites the
+  letter named. The same ticket separately named a sixth sibling not caught by
+  the original fingerprint scan — see `courtrec_com.md` Status for
+  `mypropertyrecs`, now registered and queued for human handoff (bot-blocked
+  to automated fetch).
 - Note: 2026-08-29 sent as a FAMILY letter (SILENT_FAILURES 176). Fingerprint scan found courtrec.com and publicrecords.info share LiveChat license 7139371 with publicrecords.us, propertyrecord.com and propertyrecs.com -- identical page structure and word-for-word FAQ. The other three were already written to separately under three different addresses. One letter to both pending addresses names all five sites, asks the operator to apply the removal where the data lives rather than per-brand, and asks them to NAME any sibling sites I missed. Also worked their own disclaimers: they say a search does not imply a record exists and that errors occur -- so asked them to match on the full identifier set rather than the common name, and to tell me what criminal/court/judgment record is attached BEFORE deleting it, since the removal destroys the evidence. Noted explicitly this is not a Daniel's Law request.
 
 ## Steps

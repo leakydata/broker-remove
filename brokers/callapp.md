@@ -9,11 +9,24 @@
 
 ## Status
 
-- Current: `submitted` (2026-09-12)
+- Current: `replied` (updated 2026-09-14)
+- **Reply 2026-09-13:** a real, human-sounding (if terse) response — "Please
+  send us the full phone number you wish to delete + country prefix (+XXX)
+  and we will delete all the data related to it from CallApp." Did not
+  address the non-user/contact-graph framing, the suppression-vs-deletion
+  question, or any of the three informational asks (a/b/c) from the
+  original letter — reads as a support macro triggered by "delete my data"
+  rather than a full read of the request, but it is a genuine ask for the
+  one thing actually needed to act (the number), not a deflection.
+- **Replied 2026-09-14:** gave the current number in E.164 format
+  (+1 814 441 3265) plus all 11 prior numbers already listed in the original
+  letter, restated the non-user/contact-graph framing since the reply
+  suggested it may have been missed, and re-asked the suppression-vs-deletion
+  question directly rather than re-sending the whole original letter.
 - Note: sent explicitly as a **non-user** request — said at the top that we
   have never installed CallApp and hold no account, since the usual
   account-based opt-out flow doesn't fit someone who was only ever a
-  contact in somebody else's phone book. No reply yet.
+  contact in somebody else's phone book.
 
 ## Steps
 

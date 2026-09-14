@@ -24790,6 +24790,23 @@
    "category_source": "manual 2026-09-12",
    "listing_basis": "discovered",
    "notes": "csr@plcom.net hard-bounced 550 5.0.1 on 2026-09-12. plcom.net itself (DNS resolves, 109.205.61.100) now serves only a bare hosting-provider placeholder page (\"Coming soon: an awesome project\") \u2014 whatever business this contact once belonged to no longer operates at this domain. Treat as a dead entity; do not resend."
+  },
+  {
+   "id": "mypropertyrecs",
+   "name": "MyPropertyRecs",
+   "domain": "mypropertyrecs.com",
+   "priority": 2,
+   "method": "web_form",
+   "optout_url": "https://dashboard.mypropertyrecs.com/opt-out/",
+   "needs_email_confirm": null,
+   "source": "broker_reply",
+   "email_to": "",
+   "email_verified": false,
+   "email_verified_by": null,
+   "category": "public_records",
+   "category_source": "broker_reply 2026-09-13",
+   "listing_basis": "broker_named_sibling",
+   "notes": "Named by the courtrec.com/publicrecords.info support desk (helpdesk.com ticket 1746136851, 2026-09-13) as the opt-out route for a sibling site. The opt-out URL is on a \"dashboard.\" subdomain and returns HTTP 403 to an automated fetch (Cloudflare or similar bot block) -- needs a human with a real browser. Check on load whether it requires creating an account before treating this as a simple form; if so, do not create one (project hard rule) and ask the operator for an account-free route instead."
   }
  ]
 }
