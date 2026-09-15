@@ -7,6 +7,17 @@
 
 ## Status
 
+- Current: `submitted` (2026-09-15) — the classic **scoped confirmation**
+  in progress; see below.
+- **Reply (2026-09-14, case #223609588):** *"we are unable to locate a
+  membership associated with any of the information provided,"* then pointed
+  to `optoutprescreen.com` and `experian.com/innovation/subscription` for
+  marketing-list opt-out. This answers "do you have a subscriber account for
+  this person" and is silent on the actual ask — monitoring/breach-exposure
+  data held ABOUT a non-subscriber — exactly the split the original letter
+  flagged in advance. Replied 2026-09-15 narrowing to that one question: was
+  the monitoring/breach-exposure side searched at all, separately from the
+  membership database. Not yet answered.
 - Current: `submitted` (2026-09-12)
 - Note: asked specifically about breach/dark-web monitoring data holdings,
   not only the subscriber-account record, since a monitoring product's
@@ -29,10 +40,16 @@
 
 ## Gotchas
 
-- No reply yet. If asked for an SSN to verify identity, that is worth
-  refusing and recording here — Experian in particular has other, less
-  intrusive verification paths available.
+- **"No membership found" is not "we searched everything."** IDnotify's
+  member-services desk searches the subscriber/account database, which is
+  silent by design on monitoring data held about people who were never
+  subscribers (dark-web/breach-exposure findings on non-customers). Don't
+  record `not_found` on this reply alone — the letter has to pin down which
+  system was actually searched.
+- No SSN was requested this round; the identity check appears to have been
+  satisfied by the identifier list alone.
 
 ## Verification
 
-No reply yet. Re-check after ~7 days.
+Case #223609588 open. Re-check after ~7 days for an answer to the
+monitoring-data-specific follow-up.

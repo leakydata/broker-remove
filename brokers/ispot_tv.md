@@ -7,7 +7,14 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-18)
+- Current: `not_found` (updated 2026-09-15)
+- **Reply (2026-09-14):** *"We have completed our review of your data subject
+  request using the information you provided. We did not identify any
+  personal information associated with you in our systems. Accordingly, no
+  further action was taken."* Took nearly a month (letter sent 2026-08-18);
+  no breakdown of which identifiers or systems (device/household vs name)
+  were searched, so this is recorded as a plain `not_found` rather than a
+  verified-negative — see the device-graph caveat in Gotchas.
 - Note: Acknowledged receipt of the DSR; response promised within the statutory timeframe.
 
 ## Steps
@@ -18,7 +25,14 @@
 ## Gotchas
 
 - Classic **ACR/device-graph** case per `_CATEGORY_VARIANTS.md` — a plain "delete my name" letter would likely get an honest "no record" that misses the real data. Keep the household/device framing in any follow-up.
+- The 2026-09-14 nil doesn't say whether the ACR/device-graph side was
+  actually searched separately from a name-only lookup — the same
+  scoped-confirmation risk as IDnotify. Worth a one-line follow-up if this
+  broker is revisited, asking specifically whether household/device data was
+  searched or only name/email.
 
 ## Verification
 
-No consumer-facing listing to check — written confirmation is the only evidence. Awaiting reply as of 2026-08-18.
+No consumer-facing listing to check — written confirmation is the only
+evidence, and the 2026-09-14 nil is it. Not pressed further this pass since
+the value of a third round on an ACR search-scope technicality is low.

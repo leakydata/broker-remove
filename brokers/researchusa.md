@@ -9,6 +9,17 @@
 
 ## Status
 
+- Current: `manual_required` (updated 2026-09-15)
+- **Ledger correction (2026-09-15):** the tracking ledger had drifted to
+  `unreachable` after a later bounce confirmation overwrote the status
+  without accounting for the portal route already documented here. Corrected
+  back to `manual_required` — the privacycompliance.biz portal is a live,
+  working route; email alone is dead, but this broker is not a dead end.
+- **Re-confirmed 2026-09-15:** a duplicate/reconciliation-era bounce for
+  `privacy@researchusallc.com` (and the related `privacy@researchusallc.com`
+  follow-up sent 2026-09-07 flagging their broken shared form) resurfaced in
+  the inbox this pass — consistent with what's already documented below, no
+  new information. Do not re-attempt email.
 - Current: `manual_required` (updated 2026-08-26)
 - Note: 2026-08-26: routed to the privacycompliance.biz portal, staged as a handoff. Part of a fourteen-brand family run by one Omaha operator, enumerated from the portal's own navigation menu. Filed registry email for ResearchUSA (privacy@researchusallc.com) hard-bounces 550, as does DatabaseUSA's; the portal is the only working route.
 

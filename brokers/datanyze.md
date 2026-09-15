@@ -8,12 +8,19 @@
 
 ## Status
 
-- Current: `submitted` (2026-09-12)
+- Current: `submitted` (2026-09-15)
+- **Reply (2026-09-14):** *"We have added your information to the removal
+  queue, which will be completed within 24-72 hours. Third parties who may
+  have had access to these details have also been notified."* Doesn't say
+  whether a record actually existed, and doesn't answer the ZoomInfo
+  administration question either way — a queue-and-ETA acknowledgement, not
+  yet a completion. Left at `submitted`; re-check with `verify_removals.py`
+  once the 24-72h window has passed.
 - Note: registry previously carried only a bare Optery stub with no domain
   or contact — the address above was found and used directly. The letter
   asked that, if Datanyze records are now held or administered by
   ZoomInfo, the request be applied there too rather than treated as
-  out of scope. No reply yet.
+  out of scope.
 
 ## Steps
 
@@ -25,8 +32,10 @@
 
 ## Gotchas
 
-- No reply yet.
+- Reply gives a specific 24-72h ETA rather than a vague "in progress" —
+  worth checking back within that window rather than waiting the full 7 days.
 
 ## Verification
 
-No reply yet. Re-check after ~7 days.
+Queue acknowledgement received 2026-09-14 with a 24-72h ETA. Re-check after
+that window (well before the standard 7-day `verify_removals.py` cycle).

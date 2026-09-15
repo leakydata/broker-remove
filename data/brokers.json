@@ -6636,6 +6636,29 @@
    "route_evidence": "delivered"
   },
   {
+   "id": "crisil_irevna_us_llc",
+   "name": "CRISIL Irevna US LLC",
+   "domain": "greenwich.com",
+   "priority": 2,
+   "method": "email",
+   "optout_url": "",
+   "needs_email_confirm": null,
+   "source": "ca_data_broker_registry",
+   "optery_slug": null,
+   "email_to": "privacy1@crisil.com",
+   "email_verified": true,
+   "email_verified_by": "ca_data_broker_registry",
+   "registry_years": [
+    "2020-2023",
+    "2024",
+    "2025",
+    "2026"
+   ],
+   "legal_name": "CRISIL Irevna US LLC",
+   "listing_basis": "state_register",
+   "route_evidence": "filed"
+  },
+  {
    "id": "cross_pixel",
    "name": "Cross Pixel",
    "domain": "crosspixel.net",
@@ -10162,14 +10185,14 @@
    "needs_email_confirm": null,
    "source": "discovered",
    "email_to": "privacy@greenhouse.io",
-   "email_verified": false,
-   "email_verified_by": "no_bounce_only",
-   "email_alt": "dsr@greenhouse.io (CONFIRMED DEAD -- hard-bounces 550 5.1.1, do not send here, receive-only from their side)",
+   "email_verified": true,
+   "email_verified_by": "broker_reply",
+   "email_alt": "dsr@greenhouse.io -- OUTBOUND-ONLY notification address; sends completion notices but hard-bounces (550 5.1.1) on any reply. Never send here.",
    "category": "b2b_contact",
    "category_source": "manual 2026-09-13",
    "listing_basis": "discovered",
-   "notes": "Applicant-tracking system used by employers; not itself a data broker in the conventional sense but holds candidate records. Original request 2026-08-27 (ticket 17235). Repeated generic 'Your deletion request has been completed' auto-notices (3 separate instances by 2026-09-12, plus several duplicate 'request received' acks under different ticket numbers: 17235, 17870, 17888) with no specifics and no distinction between 'found and deleted' and 'nothing was there'. privacy@ autoreply states Greenhouse considers itself a processor, not a broker, and cannot delete customer (employer) data without that employer's instruction -- direct candidates to the employer they applied to instead.",
-   "route_evidence": "none"
+   "notes": "Applicant-tracking system used by employers; not itself a data broker in the conventional sense but holds candidate records. Original request 2026-08-27 (ticket 17235). Repeated generic 'Your deletion request has been completed' auto-notices (3 separate instances by 2026-09-12, plus several duplicate 'request received' acks under different ticket numbers: 17235, 17870, 17888) with no specifics and no distinction between 'found and deleted' and 'nothing was there'. privacy@ autoreply states Greenhouse considers itself a processor, not a broker, and cannot delete customer (employer) data without that employer's instruction -- direct candidates to the employer they applied to instead. dsr@greenhouse.io completed a deletion request 2026-09-11 but is send-only (replies to it hard-bounce); privacy@greenhouse.io unconfirmed as a reply channel.",
+   "route_evidence": "replied"
   },
   {
    "id": "greenhouse_software",
@@ -15055,29 +15078,6 @@
    "listing_basis": "broker_named_sibling",
    "notes": "Named by the courtrec.com/publicrecords.info support desk (helpdesk.com ticket 1746136851, 2026-09-13) as the opt-out route for a sibling site. The opt-out URL is on a \"dashboard.\" subdomain and returns HTTP 403 to an automated fetch (Cloudflare or similar bot block) -- needs a human with a real browser. Check on load whether it requires creating an account before treating this as a simple form; if so, do not create one (project hard rule) and ask the operator for an account-free route instead.",
    "route_evidence": "none"
-  },
-  {
-   "id": "n_a",
-   "name": "CRISIL Irevna US LLC",
-   "domain": "greenwich.com",
-   "priority": 2,
-   "method": "email",
-   "optout_url": "",
-   "needs_email_confirm": null,
-   "source": "ca_data_broker_registry",
-   "optery_slug": null,
-   "email_to": "privacy1@crisil.com",
-   "email_verified": true,
-   "email_verified_by": "ca_data_broker_registry",
-   "registry_years": [
-    "2020-2023",
-    "2024",
-    "2025",
-    "2026"
-   ],
-   "legal_name": "CRISIL Irevna US LLC",
-   "listing_basis": "state_register",
-   "route_evidence": "filed"
   },
   {
    "id": "narvar",
@@ -24291,8 +24291,8 @@
    "source": "ca_data_broker_registry",
    "optery_slug": null,
    "email_to": "privacy@yobi.ai",
-   "email_verified": true,
-   "email_verified_by": "privacy_policy",
+   "email_verified": false,
+   "email_verified_by": null,
    "registry_years": [
     "2020-2023"
    ],
@@ -24304,8 +24304,8 @@
    "category_source": "site_classifier 2026-08-30",
    "listing_basis": "state_register",
    "email_verified_was": "ca_data_broker_registry",
-   "email_alt": "admin@yobi.ventures (BOUNCED)",
-   "route_evidence": "published"
+   "email_alt": "info@yobi.ai",
+   "route_evidence": "none"
   },
   {
    "id": "zeotap",
@@ -25190,14 +25190,14 @@
    "source": "optery",
    "optery_slug": "cience-technologies-inc",
    "email_to": "support@graph8.com",
-   "email_verified": false,
-   "email_verified_by": "privacy@cience.com (own privacy-policy contact) hard-bounced 550 5.1.1 on 2026-09-12; cience.com is now the legacy brand page of \"the graph8 group\" (footer: \"graph8 runs the system. CIENCE delivers the outcome.\"), the same operator as the already-registered graph8 entry.",
+   "email_verified": true,
+   "email_verified_by": "privacy_policy",
    "duplicate_of": "graph8",
    "notes": "CIENCE has folded into graph8 (confirmed via both sites' footers). graph8 (id: graph8) already has a verified working contact (support@graph8.com) and an existing submitted, answered request. Held out of the send queue as a duplicate rather than resent under this name \u2014 see terminus/demandscience for the same pattern.",
    "category": "b2b_contact",
    "category_source": "manual 2026-09-12",
    "listing_basis": "third_party_directory",
-   "route_evidence": "none"
+   "route_evidence": "published"
   },
   {
    "id": "cityzor",

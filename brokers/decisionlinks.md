@@ -8,7 +8,20 @@
 
 ## Status
 
-- Current: `not_found` (updated 2026-08-19)
+- Current: `not_found` (updated 2026-09-15) — now a verified negative, not just
+  a two-sentence assertion.
+- **Follow-up reply (2026-09-14):** asked to distinguish "no account" from "no
+  data anywhere, including client-requested searches," and separately
+  whether an FCRA file exists. Answer: *"We reviewed both our own data
+  holdings and the records we retain for work performed on behalf of
+  clients, including retained search and report records, transaction logs,
+  and archives... found no matching consumer record or retained record of a
+  client-requested search or report... no consumer-reporting file."* Two
+  named exceptions: the suppression entry itself, and correspondence
+  documenting the request — both expected and both fine. Explicitly caveated
+  as covering only DecisionLinks' own retained records, not Equifax's (they
+  act as an Equifax authorized agent for credit-related programs) or any
+  earlier, un-retained history.
 - Note: 'We have no data on this individual and we have added them to our suppression list.' Two sentences, no account, no form, no ID -- and the second sentence is the prospective half that makes a null result durable. Same shape as the Stirista group's answer.
 
 ## Steps

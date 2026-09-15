@@ -8,7 +8,22 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-20)
+- Current: `manual_required` (updated 2026-09-15) — the email channel is
+  stuck in an autoresponder loop; this needs a human to either re-run the
+  OneTrust form from scratch and screenshot the request ID this time, or
+  call the number on the confirmation page.
+- **Autoresponder loop confirmed (2026-09-15):** asked three separate times
+  (2026-09-08, then again after a macro-matched non-answer on 2026-09-14) for
+  someone to look up verification ID `9c1cb809-68fd-4289-a989-bcda9d7166d6`
+  in the OneTrust admin console and report the request/reference number. Each
+  time, `privacyinfo@claritas.com` replies with the identical canned
+  "use our OneTrust form" instructions — the same text that was already
+  followed 19 August. This reads as a macro matching on keywords ("OneTrust",
+  "privacy rights") rather than on message content, since the two follow-ups
+  were explicitly *not* asking how to submit. Sent a fourth message spelling
+  this out even more plainly and offering to have it handled as a fresh
+  request directly in the email thread instead of through the portal, since
+  neither of two portal-based asks produced a human reply.
 - Note: EVIDENCE OF SUBMISSION: the browser tab that held the staged Claritas OneTrust form was later found on privacyportal.onetrust.com/trust-center-portal/#/verify/success?verificationId=9c1cb809-68fd-4289-a989-bcda9d7166d6 -- a OneTrust verification-success page. So the form was submitted and the email verification link clicked. NO REQUEST ID CAPTURED and no confirmation email seen in the inbox yet; watch for one and record the ID. Downgraded from manual_required to submitted on that basis, but treat as provisional until a broker-issued artifact with an ID arrives.
 
 ## Steps
@@ -28,6 +43,14 @@
 
 ## Gotchas
 
+- **The email support desk appears to run on a keyword macro, not a read of
+  the message.** Three follow-ups asking a specific question ("look up this
+  verification ID") each got back the identical "use our OneTrust form" reply
+  that was already followed. If a reply here doesn't engage with the actual
+  question, don't assume escalating in writing will fix it — it's likely a
+  macro re-firing on "privacy"/"OneTrust" keywords rather than a human
+  reading the thread. A phone call may be the only way to get a considered
+  answer; see the number on the OneTrust confirmation page.
 - **The request-type listbox is inert to synthetic clicks.** `role="option"` divs
   whose `aria-selected` never leaves `"false"`, by ref or by coordinate. No
   selected class appears either. Everything else on the form works normally.

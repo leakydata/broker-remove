@@ -1,29 +1,56 @@
 # Coalition Greenwich
 
+_Covers two registry rows with the same contact and the same route: **Coalition
+Greenwich** (crisil.com, financial-services market research) and **CRISIL Irevna
+US LLC** (registry id `crisil_irevna_us_llc`, aliased here — greenwich.com,
+Dun & Bradstreet-licensed business demographics). Both are CRISIL entities,
+both replied identically, and one playbook covers both requests._
+
 - **Email:** privacy1@crisil.com (verified)
 - **Method:** email — Statutory request by email. No web form needed.
-- **Domain:** crisil.com
+- **Domain:** crisil.com / greenwich.com
 - **Priority: 2.**
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-17)
-- Note: Statutory delete/opt-out request emailed, tailored to the broker's data category; awaiting reply.
+- Current: `submitted` (updated 2026-09-15) — identity verification requested
+  and answered; awaiting substantive response on both threads.
+- **Reply (2026-09-14, identical template on both threads):** before acting,
+  asked for one of: a personal email used with them, details of a prior
+  interaction, an employee ID, **or a government ID** — but also offered a
+  fifth, much lower bar: just supply "any other names," address, phone,
+  email and date of birth. All of those were already in the original letter.
+  Replied 2026-09-14 restating them explicitly rather than sending an ID
+  document, since the form's own text makes the lesser option available —
+  it just isn't labelled as an alternative to the other three.
+- Note: Statutory delete/opt-out request emailed, tailored to the broker's
+  data category; awaiting reply.
 
 ## Steps
 
-<!-- Replace once the route is confirmed. What actually worked, in order. -->
+1. Email `privacy1@crisil.com`.
+2. If the reply asks for ID-document verification, **read the bullet list
+   fully** — CRISIL's form also accepts "additional information" (name
+   variants, address, phone, email, DOB) as an alternative to a government ID,
+   it's just not framed as an either/or. Restate what was already sent rather
+   than escalating to a document upload.
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+- **The verification request reads more demanding than it is.** Four options
+  are listed (customer proof, prior interaction, employee ID, government ID)
+  before the real fifth option — supplying a few more identifying details —
+  appears almost as an afterthought. Don't default to a government ID; the
+  proportionate answer is already available lower in the same message.
+- Same contact and reply template served both the Coalition Greenwich
+  (market-research panel) request and the separate CRISIL Irevna US LLC / D&B
+  business-demographics request — worth clarifying in any reply which of the
+  two the correspondence concerns, since one mailbox handles both.
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+Verification info sent 2026-09-14 on both threads; re-check after ~7 days for
+a substantive answer. The CRISIL Irevna / D&B thread specifically asked
+whether a record exists and, if so, the D&B identifier it came in under —
+watch for that answer since it's the one that would let a follow-up reach
+Dun & Bradstreet's own file, not just CRISIL's licensed copy.

@@ -9,6 +9,14 @@
 
 ## Status
 
+- Current: `manual_required` (updated 2026-09-15)
+- **Ledger correction (2026-09-15):** the tracking ledger had drifted to
+  `unreachable`, which overstates it — the web form at
+  `block-record-request.php` is a live, undocumented-but-real route that
+  simply hasn't been run by a human yet. Corrected back to `manual_required`.
+- **Re-confirmed 2026-09-15:** the same `info@dobsearch.com` bounce chain
+  (soft 450 → terminal failure) resurfaced in the inbox this pass —
+  consistent with what's already documented below, no new information.
 - Current: `manual_required` (updated 2026-09-09)
 - Note: An email was sent to `info@dobsearch.com` (a guessed address, not one
   the registry had verified — the registry entry already correctly carries

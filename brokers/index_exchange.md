@@ -7,6 +7,13 @@
 
 ## Status
 
+- Current: `not_found` (updated 2026-09-15)
+- **Reply (2026-09-14):** *"We have searched our systems and have not found
+  any data associated with the email address you sent this message from and
+  the other personal data you provided."* Confirms the search ran against
+  the full identifier set ("and the other personal data"), not just the
+  sending address — the specific ambiguity the category-variant letter was
+  written to head off. Recorded as a real `not_found`.
 - Current: `submitted` (updated 2026-08-28)
 - Note: Sent the SELL-SIDE / IDENTITY-PLATFORM variant per _CATEGORY_VARIANTS.md. Leads with the WHICH-HAT question -- an exchange holds some data as controller and some as processor for publishers or buyers, and a request answered from the processor side is answered honestly and achieves nothing -- then pairs it with the question that bounds any answer: WHICH IDENTIFIER TYPES DID YOU MATCH ON, since a deletion is only as broad as the key it was run against and that is invisible from outside. Asked by name for cookie/MAID/CTV identifiers and any exchange-minted persistent user ID; hashed email match keys received in bid requests; alternative and universal IDs (UID2, RampID, ID5) WITH THE EDGES joining them to everything else; audience segment membership including inferred attributes; and BID-REQUEST OR LOG-LEVEL RECORDS retained beyond the transaction including IP and location, with retention period -- log-level data being the part a person is least likely to know exists and the part a segment-level deletion never reaches. Pre-empted the browser opt-out as device-scoped and not a substitute for server-side deletion, while asking them to apply it anyway.
 

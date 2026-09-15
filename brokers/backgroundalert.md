@@ -30,3 +30,12 @@ caution for any domain that goes fully dark; see `_SILENT_FAILURES.md`).
 
 Nothing submitted; nothing to verify. Re-run a DNS lookup on a future pass
 before assuming this is permanent.
+
+**Re-checked 2026-09-15:** a direct `socket.gethostbyname` lookup still
+returns NXDOMAIN, confirming the domain is dead — but `scripts/verify_emails.py`
+(which fetches through this project's outbound proxy) returned `BLOCKED`
+rather than `UNREACHABLE` for the same domain. That's worth flagging as a
+possible discrepancy between direct DNS resolution and the proxy's view,
+rather than assuming one tool is simply wrong — if this domain ever needs
+re-checking, try both a plain DNS lookup and an actual page fetch before
+concluding either way.

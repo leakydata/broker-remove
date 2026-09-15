@@ -41,3 +41,7 @@
 ## Verification
 
 Nothing submitted. Re-check once a human confirms a working contact route.
+
+**Re-checked automatically 2026-09-15** (`scripts/verify_emails.py`): still
+`NO_EMAIL` — site reachable but publishes no address to an automated fetch.
+Consistent with the JS-rendering explanation above; no new information.

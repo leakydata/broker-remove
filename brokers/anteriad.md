@@ -8,23 +8,33 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-17)
+- Current: `confirmed` (updated 2026-09-15)
+- **Reply (2026-09-14):** *"We received your request and have identified the
+  record within our database and can confirm we have deleted/opted out the
+  information from receiving any third party offers... we will also advise
+  the Data Partner(s) that provided your information to us, that we have
+  received a Right to Opt Out/Delete Request."* Confirms a record existed
+  (not a nil), that it was deleted, and that upstream data partners were
+  notified — the last part is the direct-3-ask (direct downstream recipients
+  to delete) actually being honored rather than ignored.
 - Note: Statutory delete/opt-out request emailed, tailored to the broker's data category; awaiting reply.
 
 ## Steps
 
-<!-- Replace once the route is confirmed. What actually worked, in order. -->
+1. Email `privacy@anteriad.com` with the standard B2B/intent-data letter —
+   contact record, firmographic profile, intent/behavioural signals, audience
+   segments. Took under a month for a substantive, specific reply.
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+- Reply states they *"do not hold, capture or retain any Sensitive PII,
+  including financial, health, ethnicity, educational data"* — a scope
+  limit worth knowing about if a future request needs anything in those
+  categories.
+- Replying email flagged as external/phishing-caution by Anteriad's own mail
+  system — cosmetic, no action needed.
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+Confirmed by broker reply 2026-09-14, from a named "Privacy Manager." No
+consumer-facing lookup exists for a B2B intent-data platform.

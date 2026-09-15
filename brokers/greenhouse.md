@@ -11,7 +11,10 @@
 
 ## Status
 
-- Current: `submitted` (2026-09-12)
+- Current: `confirmed` (updated 2026-09-15) — recorded on the strength of the
+  repeated, consistent "completed" notices; still genuinely unclear whether
+  anything was actually found (see below), so treat as "request honored,"
+  not "record definitely existed."
 - Note: original request 2026-08-27 (ticket 17235). Since then, Greenhouse
   has sent **three separate "Your deletion request has been completed"
   notices** (2026-09-11 14:53, 2026-09-11 16:10, 2026-09-12 10:15) plus
@@ -19,6 +22,12 @@
   ticket numbers (17235, 17870, 17888) — all from `dsr@greenhouse.io`, all
   boilerplate, none distinguishing "we found and deleted something" from
   "there was nothing there."
+- **Reply-to-completion attempt bounced (2026-09-11):** sent two follow-up
+  questions to `dsr@greenhouse.io` in reply to a completion notice; the reply
+  hard-bounced ("550 5.1.1 the email account that you tried to reach does not
+  exist"), confirming this address is send-only — see Gotchas. Questions
+  remain unanswered and the channel to ask them (`privacy@greenhouse.io`)
+  only auto-replies with the standing not-a-data-broker position.
 - `privacy@greenhouse.io` separately auto-replied with Greenhouse's
   standing position: *"Greenhouse is not a data broker, does not sell or
   share personal data of job candidates or individuals with whom it does

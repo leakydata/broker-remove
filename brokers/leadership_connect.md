@@ -7,6 +7,16 @@
 
 ## Status
 
+- Current: `manual_required` (updated 2026-09-15) — corrected from `confirmed`
+  in the ledger, which overstated a scoped nil against one email address as a
+  complete result; the other email aliases still need the browser opt-out
+  form run individually (step 2 below).
+- **Bounce (2026-09-12, self-inflicted):** a follow-up letter re-opening the
+  scope question was sent to `privacy@leadershipconnect.io` — the same
+  address this file already flags as dead two lines down. It hard-bounced,
+  as documented. **Lesson: read this file's own Steps before emailing this
+  broker** — the only working route is the `/opt-out` web form, never email.
+  No further email attempts should be made here.
 - Current: `not_found` (updated 2026-08-18)
 - Note: Two-stage opt-out completed. Stage two returned: 'We have no record of [EMAIL] in our service.' NOT a clean not_found for the person - the negative names ONE EMAIL ADDRESS, although the form collected name, phone, street address, city, state and zip. For a government/corporate leadership directory a record would be keyed to a work address, not a personal gmail. Needs re-running per email address; each run e-mails its confirmation to the address entered, so the others cannot be tested from this mailbox.
 

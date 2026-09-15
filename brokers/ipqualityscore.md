@@ -7,13 +7,14 @@
 
 ## Status
 
-- Current: `submitted` (2026-09-12)
+- Current: `confirmed` (updated 2026-09-15)
+- **Reply (2026-09-14):** *"Thank you for being so patient. Your request has been processed, and your data has been deleted."* Short, but affirmatively states the data is gone rather than just acknowledging the request — recorded as `confirmed` on that basis.
 - Note: **explicitly declined to supply an IP address, device ID, cookie ID
   or mobile ad ID (MAID)** — any of those would hand a fraud-scoring
   service exactly the fresh identity link the request is trying to
   remove, purely to prove a negative. Asked instead whether they hold
   hashed emails or phone numbers as match keys, and what identifier types
-  their system actually keys on. No reply yet.
+  their system actually keys on.
 
 ## Steps
 
@@ -25,11 +26,16 @@
 
 ## Gotchas
 
-- No reply yet. This is a risk-scoring platform, not a name-keyed
-  compiler — a `--keys email-only`-style letter may have been more
-  appropriate; watch for a reply saying plaintext identifiers don't match
-  anything in their system.
+- No pushback on the declined device/IP/cookie identifiers — they processed the
+  deletion on the identifiers actually supplied (name, email, phone, address)
+  without insisting on a fresh identity link first.
+- Reply doesn't say which identifier types matched or what was held — a
+  short "deleted" statement with no category breakdown. Recorded as
+  `confirmed` rather than pressed further, since the substance (data gone)
+  is the part that matters most here.
 
 ## Verification
 
-No reply yet. Re-check after ~7 days.
+Confirmed by broker reply 2026-09-14, ticket referenced as
+"Consumer_request_—_Nathan_Jones_—_an..." in their ticketing system. No
+consumer-facing lookup to independently re-check.

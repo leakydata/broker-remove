@@ -35,3 +35,7 @@
 ## Verification
 
 Nothing submitted. Re-check once a human confirms whether the site is live.
+
+**Re-checked automatically 2026-09-15** (`scripts/verify_emails.py`):
+`BLOCKED` — site resolves but refuses automated requests, consistent with
+the bot-blocking read above rather than abandonment. No new information.

@@ -30,3 +30,6 @@ request.
 ## Verification
 
 Nothing submitted; nothing to verify.
+
+**Re-checked automatically 2026-09-15** (`scripts/verify_emails.py`):
+`NO_EMAIL` — domain still up, still no address published. No new information.

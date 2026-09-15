@@ -28,14 +28,19 @@
 
 <!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
 
-## Verification link needs a human, urgently
+## Verification link expired unclicked — resent by direct email (2026-09-15)
 
-**"Final verification attempt" (2026-09-09):** DataGrail sent request ID
-`90b4c924-9104-42a2-88e2-0f72a1240d8a` and a verification link
-(`winrcorp.datagrail.io/verification`). A plain fetch of that URL returns only
-a bare "Verification | DataGrail" title with no confirmation content — the
-same client-side-SPA shape as `cb_insights.md`, which denied an identical
-unclicked request after 7 days. This is explicitly labelled the *final*
-reminder, so the window is closing. **Needs a human to click the link in a
-real browser now**, not queued for a future pass — by the time the next run
-reads this, the request may already be dead like CB Insights' was.
+**Predicted outcome confirmed.** On 2026-09-15 WINR's DataGrail system sent:
+*"We did not receive verification of your privacy request within the 7-day
+verification period, so we were unable to process it."* Exactly the
+CB Insights failure mode this file flagged as urgent on 2026-09-09 — the
+request existed only as an unclicked SPA link and died silently on schedule.
+
+**Do not resubmit through the same web form a second time** — it's the same
+trap. Instead sent a fresh request directly to `privacyoffice@winrdata.com`
+(the CA-registry-verified address, bypassing the DataGrail portal entirely),
+explicitly asking for a written confirmation or reference number rather than
+another verification link. Status held at `submitted`, changed 2026-09-15.
+If this also produces only a portal link, this broker converts to
+`manual_required` — email alone cannot close it if every route funnels back
+through a SPA verification step nobody clicks in time.
