@@ -7,21 +7,17 @@
 
 ## Status
 
-- Current: `pending`
+- Current: `not_found` (updated 2026-09-16)
+- Note: Sent 2026-08-24 to [named individual]@attomdata.com (the CA-registry-named individual contact). Reply came 2026-09-15 from a role address, `Privacy@attomdata.com`, not from the named individual — worth noting as the *opposite* of the usual pattern (see samba_tv), where a filed individual mailbox turned out to be correct and a role address was the fiction: here the individual forwarded to an internal team with a proper role inbox.
 
 ## Steps
 
-<!-- Replace once the route is confirmed. What actually worked, in order. -->
+Email the CA-registration contact ([named individual]@attomdata.com); a real privacy team replies from `Privacy@attomdata.com`.
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+- **The nil has no stated control.** Their full reply was one sentence: *"After a search of our database, we can confirm that ATTOM Data Solutions has no personal information on or about you."* No mention of which systems were searched or whether a known-present identifier was run as a control. Recorded as `not_found` on good faith rather than `suppressed` or `confirmed` — there is nothing here to distinguish a careful negative from an unexercised query, so treat this the way the SKILL guidance describes an unfalsifiable nil.
+- ATTOM is a real-estate/property-data aggregator; a name/email nil is plausible on its own terms (its core product is parcel and mortgage records, not people-search), which is part of why this wasn't pushed further.
 
 ## Verification
 

@@ -515,8 +515,8 @@
     "via": "web"
   },
   "attom_data_solutions": {
-    "status": "submitted",
-    "changed": "2026-08-24",
+    "status": "not_found",
+    "changed": "2026-09-16",
     "via": null
   },
   "attribits": {
@@ -1015,8 +1015,8 @@
     "via": "reply"
   },
   "cint": {
-    "status": "submitted",
-    "changed": "2026-08-17",
+    "status": "not_found",
+    "changed": "2026-09-16",
     "via": null
   },
   "circana": {
@@ -1332,6 +1332,11 @@
   "criminalrecords_com": {
     "status": "submitted",
     "changed": "2026-08-17",
+    "via": "email"
+  },
+  "crisil_irevna_us_llc": {
+    "status": "submitted",
+    "changed": "2026-08-28",
     "via": "email"
   },
   "criteo": {
@@ -2280,8 +2285,8 @@
     "via": null
   },
   "fyllo": {
-    "status": "replied",
-    "changed": "2026-09-03",
+    "status": "not_found",
+    "changed": "2026-09-16",
     "via": "reply"
   },
   "g2_stack": {
@@ -3665,8 +3670,8 @@
     "via": "email"
   },
   "muraena": {
-    "status": "submitted",
-    "changed": "2026-09-01",
+    "status": "suppressed",
+    "changed": "2026-09-16",
     "via": "email"
   },
   "my_renter_checker": {
@@ -3680,9 +3685,14 @@
     "via": "reply"
   },
   "mypropertyrecs": {
-    "status": "manual_required",
-    "changed": "2026-09-14",
+    "status": "submitted",
+    "changed": "2026-09-16",
     "via": "web"
+  },
+  "n_a": {
+    "status": "submitted",
+    "changed": "2026-09-16",
+    "via": null
   },
   "names_and_facts": {
     "status": "confirmed",
@@ -3690,8 +3700,8 @@
     "via": "email"
   },
   "narvar": {
-    "status": "submitted",
-    "changed": "2026-08-28",
+    "status": "manual_required",
+    "changed": "2026-09-16",
     "via": "email"
   },
   "national_opinion_institute": {
@@ -6210,8 +6220,8 @@
     "via": "email"
   },
   "winr_data": {
-    "status": "submitted",
-    "changed": "2026-09-15",
+    "status": "acknowledged",
+    "changed": "2026-09-16",
     "via": "email"
   },
   "wisconsin_arrests": {
@@ -6352,11 +6362,6 @@
   "zumper": {
     "status": "submitted",
     "changed": "2026-09-15",
-    "via": "email"
-  },
-  "crisil_irevna_us_llc": {
-    "status": "submitted",
-    "changed": "2026-08-28",
     "via": "email"
   }
 }

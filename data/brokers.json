@@ -1161,10 +1161,13 @@
    "needs_email_confirm": null,
    "source": "supplier_disclosure",
    "optery_slug": null,
-   "notes": "Named by Kaspr as the source of a scraped LinkedIn profile. Absent from every broker list. Sells web-scraped professional profile data as a bulk feed; the consumer is not the customer and has no account, so the rights form is the only route. Privacy policy publishes only a Cloudflare-obfuscated address.",
+   "notes": "Named by Kaspr as the source of a scraped LinkedIn profile. Absent from every broker list. Sells web-scraped professional profile data as a bulk feed; the consumer is not the customer and has no account, so the rights form is the only route. Privacy policy publishes only a Cloudflare-obfuscated address. sales@coresignal.com is the only address published on the site and is a general mailbox, not a rights channel. Re-check for a privacy contact before treating silence as refusal.",
    "category": "b2b_contact",
    "category_source": "site_classifier 2026-08-31",
    "listing_basis": "named_by_company",
+   "email_to": "sales@coresignal.com",
+   "email_verified": false,
+   "email_verified_by": "published_general_mailbox",
    "route_evidence": "none"
   },
   {
@@ -15070,14 +15073,14 @@
    "optout_url": "https://dashboard.mypropertyrecs.com/opt-out/",
    "needs_email_confirm": null,
    "source": "broker_reply",
-   "email_to": "",
-   "email_verified": false,
-   "email_verified_by": null,
+   "email_to": "support@propertyrecs.com",
+   "email_verified": true,
+   "email_verified_by": "privacy_policy",
    "category": "public_records",
    "category_source": "broker_reply 2026-09-13",
    "listing_basis": "broker_named_sibling",
    "notes": "Named by the courtrec.com/publicrecords.info support desk (helpdesk.com ticket 1746136851, 2026-09-13) as the opt-out route for a sibling site. The opt-out URL is on a \"dashboard.\" subdomain and returns HTTP 403 to an automated fetch (Cloudflare or similar bot block) -- needs a human with a real browser. Check on load whether it requires creating an account before treating this as a simple form; if so, do not create one (project hard rule) and ask the operator for an account-free route instead.",
-   "route_evidence": "none"
+   "route_evidence": "published"
   },
   {
    "id": "narvar",

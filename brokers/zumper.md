@@ -7,8 +7,18 @@
 
 ## Status
 
-- Current: `submitted` (2026-09-15) — opt-out-of-sale confirmed; deletion
-  stuck behind an unclicked email-verification link (see handoff).
+- Current: `submitted` (updated 2026-09-16) — both tracks now in motion.
+- **Deletion confirmation link resolved (2026-09-16):** the `clicks.zumper.com`
+  link is a plain 302 redirect to `zumper.com/ccpa/request-confirmation?token=...`
+  with no CAPTCHA or JS gate — fetchable directly rather than needing a real
+  browser. Fetched it; the page read *"This request has already been
+  confirmed. If you believe this to be a mistake, contact us at
+  privacy@zumper.com."* Cannot tell from that wording alone whether this
+  session's fetch was the confirming click or whether it had already been
+  clicked earlier — but either way the deletion request is now live, not
+  stuck. **Worth generalizing:** not every "click to confirm" link needs
+  human handoff — a same-domain redirect ending in a plain confirmation page
+  (no auth wall, no CAPTCHA) is worth a WebFetch attempt before queuing it.
 - **Two separate reply channels, two different outcomes (2026-09-14):**
   - `privacy@zumper.zendesk.com` (ticket 1263030 — reply to the letter sent
     to `privacy@zumper.com`): an apology for a delayed response, then *"For

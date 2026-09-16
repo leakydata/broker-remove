@@ -18,6 +18,7 @@
 ## Gotchas
 
 - **The CA registration lists a named employee, not a role address.** Confirmed with a real reply rather than a bounce — a different failure mode from the usual dead-mailbox pattern, but the same fix: find the actual privacy-team address on the company's own site or from whoever answers.
+- **Cross-reference (2026-09-16):** Fyllo's privacy team named Samba TV, in writing, as the party that holds the historic Fyllo data-broker consumer database — current Fyllo management "did not acquire a data-broker business... no consumer databases were transferred to us and remained with the seller. Please contact SambaTV which is the owner of the prior Fyllo data-broker business." (See `fyllo.md`.) Worth citing back to Samba TV if their OneTrust ticket stalls again: it is independent, broker-supplied evidence that Samba TV holds a *second* data source about the same person — the acquired ad-tech/broker database, separate from the ACR/device-graph data already being asked about.
 
 ## Steps
 

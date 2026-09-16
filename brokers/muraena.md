@@ -7,22 +7,18 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-01)
+- Current: `suppressed` (updated 2026-09-16)
 - Note: Directory-sourced entry with no public information about what the business actually does beyond appearing in a removal-service directory. Sent the "unknown broker" categorisation letter (`_CATEGORY_VARIANTS.md`, "When you cannot tell what kind of broker it is") rather than guessing at a category.
+- **Supplement (2026-09-01):** a follow-up added the one identifier the original letter had omitted — a public LinkedIn profile URL — explicitly as a suppression key rather than a search hint (see `SUPPRESS_BLOCK` in `make_optout_email.py`: a public profile is re-scraped continuously, so an exclusion keyed to nothing is undone at the next pass).
+- **Reply (2026-09-15):** *"No, I wasn't able to find any of the provided emails in our DB. We have also applied suppression measures to that LI URL to prevent this information from being re-added."* A clean example of the `suppressed` status this project added specifically for this shape of outcome — nothing held, but a forward-looking suppression applied anyway on the one identifier that is itself the collection input.
 
 ## Steps
 
-<!-- Replace once the route is confirmed. What actually worked, in order. -->
+Email works. Include the public profile URL explicitly as a suppression key, not only as a search aid — that is what got the forward-looking suppression applied here even though no record existed to delete.
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+Muraena confirmed the suppression is against the LI URL specifically, not against the person generally — if the profile URL ever changes, the new one would need to be supplied again.
 
 ## Verification
 

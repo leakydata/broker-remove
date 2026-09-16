@@ -23,6 +23,13 @@ both replied identically, and one playbook covers both requests._
   Replied 2026-09-14 restating them explicitly rather than sending an ID
   document, since the form's own text makes the lesser option available —
   it just isn't labelled as an alternative to the other three.
+- **Holding reply, Coalition Greenwich thread only (2026-09-15):** *"This is
+  to keep you informed that we are in process of identifying your
+  information across all our systems. We will inform you as soon as we
+  receive a report from all relevant functions."* A genuine in-progress
+  notice, not a deflection — nothing to do but wait. The CRISIL Irevna/D&B
+  thread has not had a reply since the verification info was resent
+  2026-09-15; both still open.
 - Note: Statutory delete/opt-out request emailed, tailored to the broker's
   data category; awaiting reply.
 

@@ -48,3 +48,15 @@ Re-search the named property (e.g. addresses.com, criminaldatacheck.com,
 intelius.com background-report search) for the profile. Suppression was
 confirmed by written reply within hours of the request; no stated formal SLA
 beyond that.
+
+## Domain-family classification, closed out (2026-09-15)
+
+A follow-up asked PeopleConnect to classify seven domains that link to
+TruthFinder's opt-out page but don't say "powered by Intelius" on their own
+pages, to decide whether their existing family-wide suppression already
+covers them. Reply: *"The domains belong to affiliate partners. The last two
+listed appear to have domains that have expired."* Read as: the group is
+mostly (b) — affiliate/referral sites with no independent record store, not
+(a) corporate-family sites the existing suppression reaches — with two
+already dead and nothing to do. No further action; this closes the
+domain-family question raised in the 31 August round.

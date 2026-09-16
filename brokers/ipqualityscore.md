@@ -36,6 +36,7 @@
 
 ## Verification
 
-Confirmed by broker reply 2026-09-14, ticket referenced as
-"Consumer_request_—_Nathan_Jones_—_an..." in their ticketing system. No
-consumer-facing lookup to independently re-check.
+Confirmed by broker reply 2026-09-14, ticket referenced by a truncated
+subject-line slug in their ticketing system (their subject-as-ticket-ID
+convention, not a separate reference number). No consumer-facing lookup to
+independently re-check.

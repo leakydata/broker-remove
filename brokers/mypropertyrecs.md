@@ -1,13 +1,21 @@
 # MyPropertyRecs
 
 - **Opt-out:** https://dashboard.mypropertyrecs.com/opt-out/
-- **Method:** web_form — bot-blocked to automated fetch, needs a human
-- **Email fallback:** none published/found
+- **Email:** support@propertyrecs.com (discovered 2026-09-16 on their own privacy policy — not yet verified by a reply)
+- **Method:** email — tried in preference to the bot-blocked form; see below.
 - **Priority: 2.**
 
 ## Status
 
-- Current: `manual_required` (registered 2026-09-13)
+- Current: `submitted` (updated 2026-09-16)
+- **Email route found (2026-09-16):** a registry-wide address-discovery pass
+  found `support@propertyrecs.com` published on their own privacy policy —
+  a real, on-domain address, not a guess. Sent the standard delete/opt-out/
+  suppress letter there instead of waiting on a human for the bot-blocked
+  `dashboard.` form, and cited the courtrec.com/publicrecords.info sibling
+  relationship (see below) for routing credibility in case this inbox isn't
+  the one that handles removals.
+- Previously (registered 2026-09-13):
 - Note: Not found by the original fingerprint/family scan that grouped
   courtrec.com, publicrecords.info, publicrecords.us, propertyrecord.com and
   propertyrecs.com under one LiveChat license (see `courtrec_com.md`). Surfaced
