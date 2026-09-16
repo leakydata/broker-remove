@@ -30007,3 +30007,86 @@ Reverted to `manual_required`, with both positions written into the row. Their
 note is honest about its own uncertainty — the disagreement is not about the
 facts but about what that uncertainty licenses, and that is worth preserving
 rather than overwriting.
+
+---
+
+## §454 — The reply that got verification right, and should be quoted at everyone else
+
+OnAudience answered the twelve-identifier scope argument on 16 September, and it
+is the best-reasoned reply this project has received on verification. It is
+recorded here in full detail because it is a **template to quote at other
+brokers**, not merely a good outcome.
+
+They split the request in two and gave a distinct reason for each half.
+
+**Half one — the opt-out, granted against all twelve without proof of ownership:**
+
+> We can register an opt-out instruction in relation to the email identifiers you
+> provided **without treating this as confirmation that each identifier belongs to
+> you** or that any particular identifier currently corresponds to a record in our
+> systems.
+
+That is 11 CCR §7026(f)'s logic arrived at independently — no verification as a
+condition of honouring an opt-out — and the reasoning underneath it is that being
+wrongly opted out costs the other person nothing. They then volunteered, unasked,
+the exact condition this project writes into every letter:
+
+> Where a minimal suppression record is retained for this purpose, it will be used
+> only to give effect to the opt-out and **not to create, enrich, or maintain a
+> behavioral profile.**
+
+**Half two — deletion and disclosure held back, and the second reason is the one
+almost nobody states:**
+
+> acting on an identifier belonging to another individual could either result in
+> the deletion of that individual's information **or reveal whether information
+> associated with that identifier is held.**
+
+Confirming that a record *exists* is itself a disclosure. Every argument this
+project has made about scoped nils has treated "tell me whether you hold
+anything" as the minimum courtesy; OnAudience pointed out that for an identifier
+whose ownership is unproven, answering that question at all leaks something about
+whoever does own it. That is correct, and it had not been said here before.
+
+**And the offer that makes the whole thing workable:**
+
+> Where an address is no longer active or accessible, we are prepared to consider
+> another reasonable and proportionate means of demonstrating your historical
+> association with that address. We do not require government-issued
+> identification where a less intrusive method is sufficient.
+
+Plus, unprompted: *"we are not declining your request on the basis of your state
+of residence."*
+
+**Why this matters beyond one broker.** The project's recurring complaint (§449,
+§441, Cameo, PitchBook) is the nil scoped silently to the sending address. Every
+company that does it cites verification. OnAudience shows the objection is not to
+verification but to *collapsing two different requests into one standard*: the
+opt-out needs none, the deletion needs some, and a company that separates them
+can give a consumer most of what they asked for immediately. Nobody else has
+drawn that line in writing.
+
+**The structural point put back to them.** The addresses that cannot be verified
+by a message are `webtv.net` and `iwon.com` — consumer services that shut down in
+2013 and earlier — and a closed university mailbox. There is no inbox to send to
+and there never will be again. So a verification method that only works for live
+mailboxes **systematically excludes the oldest records**, which are precisely the
+ones most likely to be keyed in a file assembled from historical sources and
+least discoverable by the person they describe. That is not an argument for
+waiving verification; it is why their offer of an alternative route is worth more
+than it looks.
+
+One narrow question went back, which their own framework may already permit:
+whether they would state that a record exists under **any** of the twelve, as a
+bare yes or no without saying which. That discloses nothing about any individual
+identifier while telling the consumer whether the matter is live.
+
+**For contrast, the same week.** PitchBook: *"please resend your request from the
+email associated with your information in our platform so we can verify the
+sender"* — an instruction a non-subscriber cannot follow, because the address a
+record is filed under is the very thing being asked about, and in a
+private-capital dataset it is likely a former employer's address or one
+*constructed* from a name and employment history and never owned by anyone. The
+rule returns a nil by construction for exactly the people a data-broker
+registration concerns. Not bad faith — a verification design that works for
+subscribers and cannot work for anyone else.

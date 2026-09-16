@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-28)
-- Note: Emailed legal@narvar.com 2026-08-28. Recorded by RECONCILIATION, not by the sending session: this letter was sent from [EMAIL] at ~10:19-10:36 UTC on 2026-08-28 by an agent running outside this session, and was never written to the tracker. Reconstructed from the Sent folder by matching the recipient against the registry's email_to. The letter body was not read, so its contents are unverified here -- treat the thread in Gmail as the authoritative copy. Recorded so queue_batch stops re-serving this broker and a duplicate letter is not sent.
+- Current: `acknowledged` (updated 2026-09-16)
+- Note: legal@narvar.com autoresponder 2026-09-15 23:33: 'THIS EMAIL WAS RECEIVED. Thank you for contacting the Narvar Legal email. This email is to answer general questions regarding how Narvar handles requests from consumers to exercise their privacy rights.' Template, not a human. Note it CC'd legal@narvar.com back to itself, so watch for a loop (the SF 56 pattern).
 
 ## Steps
 

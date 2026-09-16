@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `acknowledged` (updated 2026-09-10)
-- Note: ACKNOWLEDGEMENT 2026-09-10 from privacy@fusion92.com, 14 days after the 27 Aug request to [named individual]@fusion92.com. Content is a holding reply -- 'We are in receipt of your privacy request. While we process your request, we invite you to learn more about our business and privacy practices' -- with no reference number, no timeline and no statement of what was searched. Recorded acknowledged rather than submitted so it is visibly distinct from a row where something was actually reported. NOTE THE ADDRESS CHANGE: the letter went to [named individual]@fusion92.com, the address on their register filing, and the reply came from privacy@fusion92.com. Future correspondence should go to the second; the first evidently routes there but the reply-to is the live desk.
+- Current: `confirmed` (updated 2026-09-16)
+- Note: privacy@fusion92.com, 2026-09-16 15:31 UTC: 'Thank you for submitting your deletion request. Your request has been honored. Please note that we may retain portions of your data to satisfy our legal obligations.' A first acknowledgement had come on 2026-09-10. The retention caveat is stated honestly and is the ordinary legal-obligation carve-out rather than a hedge on the deletion itself; recorded as confirmed. Note the address split: the letter went to [named individual]@fusion92.com (the CA register contact) on 2026-08-27 and both replies came from privacy@fusion92.com.
 
 ## Steps
 

@@ -7,9 +7,9 @@
 
 ## Status
 
-- Current: `acknowledged` (updated 2026-09-16)
+- Current: `confirmed` (updated 2026-09-16)
 - Reference: `90b4c924-9104-42a2-88e2-0f72a1240d8a`
-- Note: Adopted from the shared ledger: another agent recorded 'acknowledged' on 2026-09-16. No detail is carried across — re-read the broker's own reply before relying on this.
+- Note: Two-stage DataGrail flow completed 2026-09-15. 23:34:07 privacy@winrdata.com apologised for an earlier automated response and said the request was being processed; 23:34:51 DataGrail sent an email-verification step under request ID 0b38c45a-f428-4dc7-91d9-59bcb427db7e; 23:44:34 'We wish to confirm that your request is actioned and resolved.' Ten minutes between verification and completion. The web form at privacy.winrcorp.com had been submitted on 2026-09-15 and the letter to privacyoffice@winrdata.com chased it.
 
 ## Steps
 
