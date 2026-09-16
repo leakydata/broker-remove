@@ -24,6 +24,24 @@ CURATED = ROOT / "data" / "curated_brokers.json"
 PLAYBOOKS = ROOT / "brokers"
 
 
+def check_alias_chains(errors):  # noqa: E302
+    """No alias may point at another alias. 453b: a two-hop chain
+    (n_a -> crisil_irevna_us_llc -> coalition_greenwich) appeared during the
+    2026-09-16 cross-agent merge, because one agent renamed a placeholder id and
+    the other had already rolled the proper id up into a family. Every resolver
+    in this project does ONE lookup, so a chain silently resolves to the middle
+    of itself and two rows go on looking like two brokers."""
+    try:
+        a = json.loads((ROOT / "data" / "playbook_aliases.json").read_text())["aliases"]
+    except Exception:
+        return
+    for k, v in sorted(a.items()):
+        if v in a:
+            errors.append(f"alias chain: {k} -> {v} -> {a[v]}. Resolvers do one "
+                          f"lookup; point {k} at {a[v]} directly, or drop it if "
+                          f"{k} was a rename rather than an alias.")
+
+
 def has_playbook(bid):
     """Does a playbook exist for this id, wherever it lives?
 
@@ -573,6 +591,7 @@ def main():
 
     for w in warnings:
         print(f"  warn: {w}")
+    check_alias_chains(errors)
     for e in errors:
         print(f"  ERROR: {e}", file=sys.stderr)
 

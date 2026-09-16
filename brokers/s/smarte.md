@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-30)
-- Note: Recovered from the committed playbook brokers/s/smarte.md, because the ledger carries no notes and this row's status had no evidence behind it: 2026-08-30 Sent the B2B/PROSPECTING variant to privacy@smarteprivacy.com. Declined the LinkedIn URL and work-email fields proactively (named the reasoning: sending one that isn't already on file creates a link that didn't exist) rather than waiting for them to ask, per the Cognism lesson recorded 2026-08-30 in brokers/c/cognism.md.
+- Current: `submitted` (updated 2026-09-13)
+- Note: Supplement 2026-09-13 correcting a proactive refusal. The 30 August letter volunteered a declinature of the LinkedIn URL and work-email fields (per the Cognism lesson) before SMARTe had even asked. Now supplied, with the reasoning that for a B2B compiler assembled from public professional sources the profile is the input rather than a new disclosure, and that two companies in this sector have now said in writing that a name-only request cannot be actioned safely because they hold numerous people called [PERSONAL]. Same two conditions, plus a restatement of the derived-address ask.
 
 ## Steps
 

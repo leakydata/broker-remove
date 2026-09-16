@@ -27,3 +27,14 @@
 ## Verification
 
 <!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+
+## Nativo is a Life360 brand — reply came from privacy-nativo@life360.com
+
+**Reply (2026-09-09):** "We are confirming that we did not locate your information in our system" — a clean nil on the identity-keyed search, sent from `privacy-nativo@life360.com`. Life360 (the family-safety/location app company) evidently now owns or operates the Nativo ad platform under its own privacy program; this is worth cross-referencing against any direct Life360 entry, since a shared privacy team can mean a shared underlying data store even when the products look unrelated.
+
+**The pseudonymous-data offer is browser-only and was not completed.** The same reply says Nativo/Life360 "may have additional 'pseudonymous' personal information about you, such as a Cookie ID, IP address, and associated reference data," and offers two routes to reach it:
+
+1. Visit `https://ads.life360.com/legal/interest-based-ads` and click an "Opt Out" button — a client-side action that sets a cookie in the visiting browser. Not something a non-browser channel can do or verify.
+2. Alternatively, retrieve the "Visitor ID" cookie stored under the `postrelease.com` domain from your own browser and email it back for a manual match-and-delete.
+
+Both routes require a browser [FIRST] controls; neither is completable by email alone. **Do not send a cookie/Visitor ID here without deciding it's worth it** — handing over the exact identifier that links a browser to this profile is the same trade-off the letter to Nativo's own ad-tech peers argues against (see the identity-layer question in the original letter). Flagged as a browser-only follow-up for a human, not attempted.

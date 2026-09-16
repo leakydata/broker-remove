@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-12)
-- Note: Letter to privacy@salary.com 2026-09-12. Two asks specific to compensation data: (1) the likely key is the INSTITUTIONAL address, not a personal one, so search the .edu before concluding nil -- the SalesIntel sequence (129); (2) whether they hold a salary figure, band or estimate attached to the subject, collected OR DERIVED. A modelled salary attached to a named individual is the category least visible to the person it describes.
+- Current: `submitted` (updated 2026-09-13)
+- Note: Supplement 2026-09-13 adding the LinkedIn URL to the 12 September letter. Sharpens the question that letter already asked -- whether they hold a compensation figure, band or estimate COLLECTED OR DERIVED -- because if a salary was modelled from job title and employment history then the profile is the input it was modelled from, making it simultaneously the evidence that such a record exists and the key to suppressing it. Same two conditions.
 
 ## Steps
 

@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-25)
-- Note: 2026-08-25: replied to the _DEFLECTIONS.md 54 autoreply ('Cint uses pixels or pieces of codes and cannot automatically identify you by your name or email'). Standard structure - accept the sentence, then ask the three questions it does not answer, with the hash-it-yourself clause that removes the only practical excuse for not answering. ADDED A CATEGORY-SPECIFIC ASK worth reusing for any survey/panel exchange: Cint runs consumer PANELS as well as measurement, and panel participation is not pixel data and is not pseudonymous in the same way - a panel member supplies a name, an email, demographics and often years of survey responses. Asked separately for panel membership, respondent profile and survey response history across their panel partners, and asked them to name the partners if the data sits there rather than with Cint.
+- Current: `not_found` (updated 2026-09-16)
+- Note: Adopted from the shared ledger: another agent recorded 'not_found' on 2026-09-16. No detail is carried across — re-read the broker's own reply before relying on this.
 
 ## Steps
 

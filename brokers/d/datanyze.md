@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-12)
-- Note: Letter to privacy@datanyze.com 2026-09-12, asking them to forward to ZoomInfo if Datanyze records are now held there. B2B contact database, so the letter leads with the institutional-key point (129): search the .edu before concluding nil. Also asked about DERIVED addresses -- a first.last@employer pattern constructed from name plus employment history, which the subject cannot list because he has never owned it. Cited the CPRA B2B carve-out sunset of 1 Jan 2023 pre-emptively, since a work-context record is the most likely thing here and that carve-out is the commonest wrong answer.
+- Current: `submitted` (updated 2026-09-13)
+- Note: Supplement 2026-09-13 adding the LinkedIn URL to the 12 September letter, which predates the subject's authorisation and therefore went without it. For a B2B contact database this is the strongest form of the institutional-key argument (129): the profile is plausibly what the record was BUILT from, so it is both the likeliest match and the only key that survives a re-crawl. Same two conditions. Namesake warning included.
 
 ## Steps
 

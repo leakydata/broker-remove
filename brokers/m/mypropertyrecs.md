@@ -1,14 +1,15 @@
-# Locate Friend
+# MyPropertyRecs
 
-- **Method:** unknown — Route not yet established.
-- **Domain:** locate-friend.com
-- **Priority: 1.**
+- **Opt-out:** https://dashboard.mypropertyrecs.com/opt-out/
+- **Email:** support@propertyrecs.com (verified)
+- **Method:** web_form — Web form.
+- **Domain:** mypropertyrecs.com
+- **Priority: 2.**
 
 ## Status
 
-- Current: `unreachable` (updated 2026-09-16)
-- Reference: `gmail:1a078a9dded1005b`
-- Note: Adopted from the shared ledger: another agent recorded 'unreachable' on 2026-09-15. No detail is carried across — re-read the broker's own reply before relying on this.
+- Current: `submitted` (updated 2026-09-16)
+- Note: Adopted from the shared ledger: another agent recorded 'submitted' on 2026-09-16. No detail is carried across — re-read the broker's own reply before relying on this.
 
 ## Steps
 

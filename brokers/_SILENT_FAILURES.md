@@ -29900,3 +29900,110 @@ people by it. The
 URL is supplied to tell those people apart, and every letter asks explicitly that
 it not be used as licence to clear a namesake's record. A deletion request that
 removes a stranger is not a success.
+
+---
+
+## §453 — Two agents, two layouts, and a merge that fused four brokers into two
+
+The second agent had pushed ten commits since 5 September. Merging them was not a
+content merge; it was a merge of two incompatible pictures of the repository.
+
+**They are still writing to the pre-shard layout.** `brokers/` was sharded into
+27 subdirectories on 11 September (§451); they have gone on creating
+`brokers/trulia.md`, `brokers/zumper.md` and 103 others at the flat paths. 93 of
+those collided with a sharded twin. Nothing errored — git simply added both, and
+the result would have been two playbooks per broker, each agent maintaining the
+one it could see.
+
+**And git's rename detection made it worse in exactly two places.** It paired
+their `brokers/baron_app.md` with my `brokers/a/adagio.md`, and their
+`brokers/azerion.md` with my `brokers/d/datapartners.md`, on content similarity
+alone. Both merged cleanly. The result was a single file headed:
+
+```
+# Adagio
+# Baron App, Inc. (Cameo)
+```
+
+— two unrelated brokers, two sets of contact addresses, one document. A clean
+merge, no conflict markers, and completely wrong. The only reason I saw it is
+that I opened the three non-Status conflict hunks by hand rather than resolving
+them in bulk, and the first thing on screen was two `#` headings.
+
+**What the merge was actually made of, once separated:**
+
+| | |
+|---|---|
+| registry rows | ours 1400, theirs 1276, 1263 shared, **26 differing** |
+| their "new" brokers | 13 — of which **11 were duplicate ids** for rows I already had |
+| ledger entries | ours 1242, theirs 1273 → **1271 merged**, 73 taking theirs on date |
+| playbooks | 105 flat, **93 with sharded twins**, 42 conflict hunks |
+
+The 11 duplicates are §424 across agents: `callapp` beside `callapp_software`,
+`thenumber` beside `numbercom`, `swordfish` beside `swordfish_ai` — the four
+brokers I wrote to on 12 September, re-created from my own sent mail by an agent
+that could not see my registry. Both of us were right; neither could tell.
+
+**Resolution, and the rule it produced.** Registry merged field by field, not
+row by row, because each side held different good data about the same broker:
+they had done a verification pass (real domains, `method: email`, corrected
+casing, and — importantly — `email_verified: false` where mine still said true
+on the strength of a directory listing), while mine carried the Optery
+provenance they had re-discovered without. Their `email_verified` corrections
+are better than my directory-derived ones, and §447 is why. Playbook conflicts
+resolved by keeping **both** notes, theirs labelled and verbatim, rather than
+picking — two agents observing the same broker is data, not a conflict.
+
+The rule: **when two agents disagree about a fact, the merge should preserve the
+disagreement and say who said what.** Only a status can have one value, and only
+because a tool has to read it.
+
+### §453a — Eleven aliases became eleven phantom brokers
+
+Recording the duplicate ids in `playbook_aliases.json` was the right fix and it
+immediately broke the merge, because `sync_status.py` seeded its coverage set
+with `set(aliases)` — the alias **keys**, which are precisely the ids an alias
+exists to redirect *away from*. Each was then adopted as a broker in its own
+right. The next `--merge` created `callapp` beside `callapp_software`,
+`greenhouse` beside `greenhouse_software`, eleven rows asserting sends that were
+already recorded once under the real id.
+
+It had been wrong since the file was written and invisible at 8 aliases. Adding
+11 made it visible. `set(aliases.values())` is the fix, and the sentence worth
+keeping is that **an alias is a statement that two names mean one broker, so
+reading it as two is the exact double-count the file exists to prevent.**
+
+### §453b — And a two-hop chain nobody could resolve
+
+Renaming the placeholder id `n_a` to `crisil_irevna_us_llc` produced
+`n_a -> crisil_irevna_us_llc -> coalition_greenwich`, because the other agent had
+already rolled the proper id up into a family. Every resolver in this project
+does **one** lookup, so a chain resolves to the middle of itself and the two rows
+go on looking like two brokers.
+
+The alias was dropped — `n_a` was a *rename*, not an alias; the id exists
+nowhere any more, and an alias for a defunct placeholder is a chain with no
+referent. `validate.py` now fails on any alias whose value is itself a key.
+
+### §453c — The disagreement I resolved against them, and why it is recorded
+
+Their ledger had `greenhouse_software: confirmed` dated 15 September, newer than
+my `manual_required`, so §451c's date rule adopted it. Their playbook gives the
+basis honestly:
+
+> recorded on the strength of the repeated, consistent "completed" notices;
+> still genuinely unclear whether anything was actually found … three separate
+> "Your deletion request has been completed" notices … all boilerplate, **none
+> distinguishing "we found and deleted something" from "there was nothing
+> there."**
+
+That is §443 described precisely and then used as evidence. This intake
+manufactures a completion notice from *any* inbound message within about two
+minutes; three notices are three emails received, and the 12 September one is
+demonstrably an artefact of a letter sent at 10:11:01. **A count of identical
+boilerplate does not become evidence by repetition.**
+
+Reverted to `manual_required`, with both positions written into the row. Their
+note is honest about its own uncertainty — the disagreement is not about the
+facts but about what that uncertainty licenses, and that is worth preserving
+rather than overwriting.

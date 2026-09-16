@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-25)
-- Note: 2026-08-25: emailed privacy@date-detective.app. Pre-date screening - a category where THE SUBJECT OF A REPORT IS NEVER THE CUSTOMER, so any record was assembled for someone else to read and the subject would not know it existed. Three separate asks: what a lookup would return, and specifically WHETHER ANOTHER [PERSONAL]'S RECORDS HAVE BEEN ATTACHED TO MY IDENTIFIERS - it is a common name and a false criminal or court record in a pre-date screening product does real untraceable harm, so the DOB was supplied deliberately as the disambiguating field; whether any report about me has been run, how many times, over what period, explicitly not asking who ran it; and forward-looking suppression. Also asked whether they claim FCRA status, noting that if they do not, the product must not be used for employment, tenancy or credit decisions.
+- Current: `unreachable` (updated 2026-09-12)
+- Note: Adopted from the shared ledger: another agent recorded 'unreachable' on 2026-09-03. No detail is carried across — re-read the broker's own reply before relying on this.
 
 ## Steps
 

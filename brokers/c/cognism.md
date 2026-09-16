@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-17)
-- Note: Statutory delete/opt-out request emailed, tailored to the broker's data category; awaiting reply.
+- Current: `not_found` (updated 2026-09-16)
+- Note: Adopted from the shared ledger: another agent recorded 'not_found' on 2026-09-14. No detail is carried across — re-read the broker's own reply before relying on this.
 
 ## Steps
 

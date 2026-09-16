@@ -7,9 +7,9 @@
 
 ## Status
 
-- Current: `email_pending` (updated 2026-09-08)
+- Current: `acknowledged` (updated 2026-09-16)
 - Reference: `90b4c924-9104-42a2-88e2-0f72a1240d8a`
-- Note: VERIFICATION LINK ISSUED 2026-09-08 05:43 UTC, request 90b4c924-9104-42a2-88e2-0f72a1240d8a, via DataGrail (privacy@winrdata.mail.datagrail.io). A privacy request was submitted from [EMAIL] and WINR will not process it until the email is verified: 'To process your request, verify your email address by clicking the link below.' Status moved from submitted to email_pending, which is the accurate description -- the request exists on their side and is inert until one click happens. NO WINDOW IS STATED IN THE EMAIL. DataGrail links are single-use and time-limited and the duration is not published, so it is being treated as hours rather than days. That is the SILENT_FAILURES 418 rule applied on the day rather than twenty days later: the handoff records the ISSUE TIME, the assumed window, and what to do once it has passed. THE PRECEDENT THAT MAKES THIS URGENT: the CB Insights DataGrail link lapsed unverified and that request closed while still looking submitted -- their follow-up mail said FINAL notice. The remedy for a lapsed token is to re-submit the form and click the confirmation in the same sitting, not to keep clicking a spent link. WHY THIS COMPANY IS WORTH THE CLICK: their own 2024 California register filing describes them, in their own words, as a controller and third-party data company sourcing non-sensitive personal data from data partners from ONLINE COMPETITIONS and SALES PROMOTIONS -- data handed over to enter a prize draw, now resold. Reissue address if needed: privacyoffice@winrdata.com.
+- Note: Adopted from the shared ledger: another agent recorded 'acknowledged' on 2026-09-16. No detail is carried across — re-read the broker's own reply before relying on this.
 
 ## Steps
 

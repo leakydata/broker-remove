@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-18)
-- Note: Acknowledged receipt of the DSR; response promised within the statutory timeframe.
+- Current: `not_found` (updated 2026-09-16)
+- Note: Adopted from the shared ledger: another agent recorded 'not_found' on 2026-09-15. No detail is carried across — re-read the broker's own reply before relying on this.
 
 ## Steps
 
@@ -18,7 +18,14 @@
 ## Gotchas
 
 - Classic **ACR/device-graph** case per `_CATEGORY_VARIANTS.md` — a plain "delete my name" letter would likely get an honest "no record" that misses the real data. Keep the household/device framing in any follow-up.
+- The 2026-09-14 nil doesn't say whether the ACR/device-graph side was
+  actually searched separately from a name-only lookup — the same
+  scoped-confirmation risk as IDnotify. Worth a one-line follow-up if this
+  broker is revisited, asking specifically whether household/device data was
+  searched or only name/email.
 
 ## Verification
 
-No consumer-facing listing to check — written confirmation is the only evidence. Awaiting reply as of 2026-08-18.
+No consumer-facing listing to check — written confirmation is the only
+evidence, and the 2026-09-14 nil is it. Not pressed further this pass since
+the value of a third round on an ACR search-scope technicality is low.

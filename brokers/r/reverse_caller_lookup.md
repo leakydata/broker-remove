@@ -6,8 +6,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-12)
-- Note: Letter to support@reversecallerlookup.com 2026-09-12. Phone-keyed, so the eleven prior numbers are the request. Asked the question that decides what a deletion can mean at all: does the service STORE records or assemble a result on demand from upstream suppliers -- because if it is assembled at query time there is no record to delete and a suppression attaches only to the keys supplied, everything outside that set being un-searched rather than suppressed. Asked them to name the upstream suppliers, which is worth more than the removal. Reassignment limit stated: suppress the association keyed to name and DOB, never the bare number.
+- Current: `unreachable` (updated 2026-09-16)
+- Note: Adopted from the shared ledger: another agent recorded 'unreachable' on 2026-09-13. No detail is carried across — re-read the broker's own reply before relying on this.
 
 ## Steps
 

@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-12)
-- Note: Letter to contact@swordfish.ai 2026-09-12. Contact-enrichment product whose selling point is finding a PERSONAL email and mobile from a professional presence, so the letter states that category as expressly in scope rather than asking for a business card. Deliberately did NOT supply a profile URL and said so in the letter -- if they already hold one they do not need it from me, and if they do not, supplying it creates a new key. Asked for the SOURCE by category (public profile, licensed feed, contributed address book, browser extension) and flagged contributed data as the case where deletion is most likely undone at the next upload. See 450a for why the non-supply is now the default.
+- Current: `submitted` (updated 2026-09-13)
+- Note: Supplement 2026-09-13 reversing the withholding stated IN yesterday's letter. The 12 September letter said in terms 'I am deliberately not handing you a profile URL to search on'; the subject authorised the profile URL on 13 September, so the supplement supplies it and says plainly that it reverses the earlier sentence rather than quietly adding it. Argument given to them: for a company whose product resolves public professional profiles, the profile is their INPUT, not something they lack -- what was missing was the LINK between it and a person asking to be excluded, and withholding that link protected the record rather than the subject. Supplied under the two SUPPRESS_BLOCK conditions, forward-looking and exclude-only, with a request to state back which. Also asked them NOT to act on a namesake's record.
 
 ## Steps
 

@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-12)
-- Note: Letter to support@callapp.com 2026-09-12, opening with the fact that the subject is a NON-USER and framing that as the request rather than a reason to close it. Caller-ID services build their directory from the address books of people who install them, so the likeliest route in is someone else uploading their contacts -- a person who was not the subject and had no authority. Asked them not to check the user table but the CONTACT GRAPH. Four asks: delete, opt out, UNLIST the numbers from lookups, and suppress against re-upload, with the point made that in a contributed-directory model a deletion is temporary by construction. Also asked for a COUNT of how many address books he appears in, explicitly not the names. Offered SMS verification of the current number; refused ID, account and device identifiers up front.
+- Current: `replied` (updated 2026-09-16)
+- Note: Adopted from the shared ledger: another agent recorded 'replied' on 2026-09-14. No detail is carried across — re-read the broker's own reply before relying on this.
 
 ## Steps
 

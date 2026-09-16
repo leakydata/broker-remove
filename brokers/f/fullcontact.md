@@ -12,17 +12,13 @@
 
 ## Steps
 
-<!-- Replace once the route is confirmed. What actually worked, in order. -->
+1. Email `info@namesandfacts.com` with name, DOB, phone, address and all email
+   aliases. **Do not go find your own listing URL for them first** — pushing back
+   on the URL precondition worked; they searched and removed on identifiers alone.
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+**Asks for the profile URL as a precondition to acting, rather than searching identifiers first.** This shifts the burden onto the requester to locate their own listing before the broker will remove it — worth pushing back on rather than complying by default, since providing the URL means visiting and cataloguing the exposure in more detail than a straightforward opt-out should require.
 
 ## Verification
 

@@ -18,14 +18,17 @@
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+- **Two different addresses, two different jobs.** `privacy@greenhouse.io` takes
+  the initial request; `dsr@greenhouse.io` sends the completion notice but
+  cannot receive replies. Any follow-up question belongs back at `privacy@`,
+  quoting the DSR completion rather than replying to it directly.
+- The completion notice ("Your deletion request has been completed") does not
+  say whether anything was actually found, nor whether it's a standing
+  suppression — see the two open questions above.
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+Re-check with `privacy@greenhouse.io` for the answers to the two open
+questions. No public search surface to independently re-verify against —
+Greenhouse is an ATS vendor, not a people-search site with its own listing
+page.

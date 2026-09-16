@@ -7,12 +7,8 @@
 
 ## Status
 
-- Current: not acted on. **Blocked on a decision that is the subject's, not mine.**
-- Note: DMAchoice requires creating an account and paying a fee. Creating an
-  account with a data broker is a standing refusal on this project, and paying
-  one is the subject's money. Both have been put to him and neither has been
-  answered. The row stays open rather than being marked `failed`, because
-  nothing has failed — nobody has decided.
+- Current: `manual_required` (updated 2026-09-16)
+- Note: Adopted from the shared ledger: another agent recorded 'manual_required' on 2026-09-06. No detail is carried across — re-read the broker's own reply before relying on this.
 
 ## Steps
 

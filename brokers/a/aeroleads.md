@@ -1,7 +1,7 @@
 # Aeroleads
 
-- **Email:** support@aeroleads.com (verified)
-- **Method:** email — Statutory request by email. No web form needed.
+- **Email:** ~~support@aeroleads.com~~ — **hard-bounces 5.1.3, account does not exist**
+- **Method:** none confirmed working — no alternate address found
 - **Domain:** aeroleads.com
 - **Priority: 1.**
 

@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-12)
-- Note: SENT 2026-09-12 to Support@IPQualityScore.com, an address confirmed published on their own site (SF 447). WRITTEN TO ANTICIPATE THEIR ANSWER RATHER THAN WALK INTO IT. IPQualityScore is fraud prevention and risk scoring, so records are almost certainly keyed to IP ADDRESSES, DEVICE FINGERPRINTS, EMAIL HASHES AND PHONE NUMBERS rather than to a name -- meaning a search on '[PERSONAL]' returns nothing even if they hold a great deal. So the letter does not ask for a name search and then treat a nil as the end; it asks THREE STRUCTURAL QUESTIONS instead: which identifier types they key on, with an explicit invitation to say plainly that nothing is resolvable from a name, address or plaintext email; whether they hold HASHED emails as match keys, with the SF 430 point that 'we do not store email addresses' is comfortably true while holding many in hashed form, and the note that they can check this unaided by hashing the twelve supplied; and whether they hold phone numbers, which ARE supplied. REFUSED THE IDENTIFIERS IN ADVANCE, with the reasoning sharpened for this business: their product is joining exactly those identifiers to a risk judgement, so sending an IP or device ID from a named account would manufacture the very association the request exists to remove. Said explicitly that if nothing can be found without one, that answer in writing is what is wanted, because it is true of an entire industry and almost nobody states it plainly. ASKS: delete, opt-out, and a DO-NOT-ADD suppression -- named as the one thing a device-scoped mechanism cannot do and the only one of the three that works if they hold nothing today -- plus whether they act as a PROCESSOR for customers, which is the SF 444 question asked before rather than after the nil.
+- Current: `confirmed` (updated 2026-09-16)
+- Note: Adopted from the shared ledger: another agent recorded 'confirmed' on 2026-09-15. No detail is carried across — re-read the broker's own reply before relying on this.
 
 ## Steps
 

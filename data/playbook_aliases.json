@@ -13,12 +13,23 @@
     "each need their own file."
   ],
   "aliases": {
-    "intelius": "peopleconnect",
-    "truthfinder": "peopleconnect",
-    "instantcheckmate": "peopleconnect",
-    "ussearch": "peopleconnect",
-    "zabasearch": "peopleconnect",
     "addresses_com": "peopleconnect",
-    "cyberbackgroundchecks_com_advancedbackgroundchecks_com_fastb": "mississippi_tornado_alley"
+    "backgroundalert": "background_alert",
+    "callapp": "callapp_software",
+    "courtrecordfinder": "courtrecordfinder_com",
+    "crimeinformer": "crime_informer",
+    "crisil_irevna_us_llc": "coalition_greenwich",
+    "cyberbackgroundchecks_com_advancedbackgroundchecks_com_fastb": "mississippi_tornado_alley",
+    "greenhouse": "greenhouse_software",
+    "homesolutions": "home_media",
+    "instantcheckmate": "peopleconnect",
+    "intelius": "peopleconnect",
+    "plcom": "plcom_net",
+    "reversecallerlookup": "reverse_caller_lookup",
+    "swordfish": "swordfish_ai",
+    "thenumber": "numbercom",
+    "truthfinder": "peopleconnect",
+    "ussearch": "peopleconnect",
+    "zabasearch": "peopleconnect"
   }
 }

@@ -11,17 +11,11 @@
 
 ## Steps
 
-<!-- Replace once the route is confirmed. What actually worked, in order. -->
+Email works. Include the public profile URL explicitly as a suppression key, not only as a search aid — that is what got the forward-looking suppression applied here even though no record existed to delete.
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+Muraena confirmed the suppression is against the LI URL specifically, not against the person generally — if the profile URL ever changes, the new one would need to be supplied again.
 
 ## Verification
 

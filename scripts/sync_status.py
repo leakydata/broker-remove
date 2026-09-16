@@ -61,7 +61,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 from paths import state, outbox  # noqa: E402
 PRIVATE = state("removal_status.json")
-LEDGER = state("removal_ledger.json")
+LEDGER = ROOT / "data" / "removal_ledger.json"
 PLAYBOOKS = ROOT / "brokers"
 ALIASES = ROOT / "data" / "playbook_aliases.json"
 
@@ -136,7 +136,18 @@ def main():
         # ledger entry exists — see the note at the top about one-sided ledgers.
         aliases = (json.loads(ALIASES.read_text()).get("aliases", {})
                    if ALIASES.exists() else {})
-        covered = set(aliases)
+        # ALIAS KEYS ARE NOT BROKERS. _SILENT_FAILURES 453a: this seeded `covered`
+        # with the alias MAP, whose keys are the non-canonical ids an alias exists
+        # to redirect AWAY from. Every one was then adopted as a broker in its own
+        # right. It stayed invisible while there were 8 aliases; the 2026-09-16
+        # cross-agent merge added 11 more -- the second agent's duplicate ids for
+        # brokers this tracker already had -- and the next --merge created 11
+        # phantom rows: `callapp` alongside `callapp_software`, `greenhouse`
+        # alongside `greenhouse_software`, each asserting a send that had already
+        # been recorded once under the real id. An alias is a statement that two
+        # names mean one broker, and reading it as two is the exact double-count
+        # the alias file exists to prevent.
+        covered = set(aliases.values())
         # RECURSIVE. brokers/ was sharded into 27 subdirectories on 11 September
         # and this glob was not updated (_SILENT_FAILURES 451a). A flat "*.md"
         # matched 11 files afterwards -- README plus the _-prefixed digests, all

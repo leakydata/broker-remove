@@ -160,13 +160,13 @@
     "via": null
   },
   "adrea_rubin_marketing": {
-    "status": "submitted",
-    "changed": "2026-08-24",
+    "status": "unreachable",
+    "changed": "2026-09-15",
     "via": "email"
   },
   "adrea_rubin_media_inc_dba_calibrant_digital": {
-    "status": "submitted",
-    "changed": "2026-09-03",
+    "status": "unreachable",
+    "changed": "2026-09-15",
     "via": "email"
   },
   "adsquare": {
@@ -175,9 +175,9 @@
     "via": null
   },
   "adstra": {
-    "status": "submitted",
-    "changed": "2026-08-23",
-    "via": null
+    "status": "manual_required",
+    "changed": "2026-09-12",
+    "via": "email"
   },
   "adswizz": {
     "status": "submitted",
@@ -515,8 +515,8 @@
     "via": "web"
   },
   "attom_data_solutions": {
-    "status": "submitted",
-    "changed": "2026-08-24",
+    "status": "not_found",
+    "changed": "2026-09-16",
     "via": null
   },
   "attribits": {
@@ -580,9 +580,9 @@
     "via": null
   },
   "azerion": {
-    "status": "submitted",
-    "changed": "2026-08-25",
-    "via": null
+    "status": "replied",
+    "changed": "2026-09-11",
+    "via": "email"
   },
   "azira": {
     "status": "replied",
@@ -604,6 +604,11 @@
     "changed": "2026-08-28",
     "via": "reply"
   },
+  "background_alert": {
+    "status": "unreachable",
+    "changed": "2026-09-12",
+    "via": "email"
+  },
   "background_hawk": {
     "status": "submitted",
     "changed": "2026-08-26",
@@ -615,9 +620,9 @@
     "via": "reply"
   },
   "baron_app": {
-    "status": "submitted",
-    "changed": "2026-08-25",
-    "via": null
+    "status": "replied",
+    "changed": "2026-09-12",
+    "via": "email"
   },
   "batchleads": {
     "status": "submitted",
@@ -884,6 +889,11 @@
     "changed": "2026-08-16",
     "via": null
   },
+  "callapp_software": {
+    "status": "replied",
+    "changed": "2026-09-14",
+    "via": "reply"
+  },
   "callersmart": {
     "status": "replied",
     "changed": "2026-09-01",
@@ -986,7 +996,7 @@
   },
   "choreograph": {
     "status": "replied",
-    "changed": "2026-09-03",
+    "changed": "2026-09-11",
     "via": "email"
   },
   "chris_holbert": {
@@ -994,14 +1004,19 @@
     "changed": "2026-08-25",
     "via": null
   },
+  "cience_technologies": {
+    "status": "unreachable",
+    "changed": "2026-09-12",
+    "via": "email"
+  },
   "cinqdi": {
     "status": "submitted",
     "changed": "2026-08-25",
     "via": "reply"
   },
   "cint": {
-    "status": "submitted",
-    "changed": "2026-08-17",
+    "status": "not_found",
+    "changed": "2026-09-16",
     "via": null
   },
   "circana": {
@@ -1030,9 +1045,9 @@
     "via": null
   },
   "claritas": {
-    "status": "submitted",
-    "changed": "2026-08-20",
-    "via": null
+    "status": "manual_required",
+    "changed": "2026-09-15",
+    "via": "email"
   },
   "clarivate": {
     "status": "submitted",
@@ -1090,8 +1105,8 @@
     "via": null
   },
   "cml_medical": {
-    "status": "submitted",
-    "changed": "2026-08-17",
+    "status": "not_found",
+    "changed": "2026-09-11",
     "via": null
   },
   "coalition_greenwich": {
@@ -1110,9 +1125,9 @@
     "via": null
   },
   "cognism": {
-    "status": "submitted",
-    "changed": "2026-08-17",
-    "via": null
+    "status": "not_found",
+    "changed": "2026-09-14",
+    "via": "reply"
   },
   "collective_data_solutions": {
     "status": "submitted",
@@ -1270,8 +1285,13 @@
     "via": "reply"
   },
   "courtrec_com": {
+    "status": "confirmed",
+    "changed": "2026-09-14",
+    "via": "email"
+  },
+  "courtrecordfinder_com": {
     "status": "submitted",
-    "changed": "2026-08-29",
+    "changed": "2026-09-12",
     "via": "email"
   },
   "courtrecords_us": {
@@ -1280,9 +1300,9 @@
     "via": null
   },
   "cox_automotive": {
-    "status": "submitted",
-    "changed": "2026-08-25",
-    "via": null
+    "status": "failed",
+    "changed": "2026-09-15",
+    "via": "email"
   },
   "crawlbee": {
     "status": "unreachable",
@@ -1293,6 +1313,11 @@
     "status": "submitted",
     "changed": "2026-08-28",
     "via": null
+  },
+  "crime_informer": {
+    "status": "unreachable",
+    "changed": "2026-09-12",
+    "via": "email"
   },
   "criminal_com": {
     "status": "not_found",
@@ -1309,9 +1334,14 @@
     "changed": "2026-08-17",
     "via": "email"
   },
-  "criteo": {
+  "crisil_irevna_us_llc": {
     "status": "submitted",
-    "changed": "2026-08-21",
+    "changed": "2026-09-16",
+    "via": null
+  },
+  "criteo": {
+    "status": "confirmed",
+    "changed": "2026-09-11",
     "via": "reply"
   },
   "cross_pixel": {
@@ -1457,6 +1487,11 @@
   "datamasters": {
     "status": "submitted",
     "changed": "2026-08-17",
+    "via": "email"
+  },
+  "datanyze": {
+    "status": "submitted",
+    "changed": "2026-09-12",
     "via": "email"
   },
   "datapartners": {
@@ -1659,9 +1694,19 @@
     "changed": "2026-08-18",
     "via": "email"
   },
+  "dmachoice": {
+    "status": "manual_required",
+    "changed": "2026-09-06",
+    "via": null
+  },
   "dmdatabases_com": {
     "status": "submitted",
     "changed": "2026-08-18",
+    "via": "email"
+  },
+  "dobsearch_com": {
+    "status": "manual_required",
+    "changed": "2026-09-15",
     "via": "email"
   },
   "dojomojo": {
@@ -1710,9 +1755,9 @@
     "via": "reply"
   },
   "dstillery": {
-    "status": "captcha_blocked",
-    "changed": "2026-09-05",
-    "via": "reply"
+    "status": "not_found",
+    "changed": "2026-09-12",
+    "via": "email"
   },
   "dtn": {
     "status": "manual_required",
@@ -2191,7 +2236,7 @@
   },
   "freepeoplesearch": {
     "status": "confirmed",
-    "changed": "2026-08-19",
+    "changed": "2026-09-12",
     "via": "email"
   },
   "freepeoplesearch_com": {
@@ -2240,9 +2285,9 @@
     "via": null
   },
   "fyllo": {
-    "status": "replied",
-    "changed": "2026-09-03",
-    "via": null
+    "status": "not_found",
+    "changed": "2026-09-16",
+    "via": "reply"
   },
   "g2_stack": {
     "status": "submitted",
@@ -2270,9 +2315,9 @@
     "via": null
   },
   "getemail_io": {
-    "status": "submitted",
-    "changed": "2026-09-02",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-09-15",
+    "via": "email"
   },
   "getemails": {
     "status": "submitted",
@@ -2355,9 +2400,9 @@
     "via": null
   },
   "greenhouse_software": {
-    "status": "submitted",
-    "changed": "2026-08-27",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-09-15",
+    "via": "email"
   },
   "grin_technologies": {
     "status": "manual_required",
@@ -2489,6 +2534,11 @@
     "changed": "2026-08-28",
     "via": null
   },
+  "home_media": {
+    "status": "submitted",
+    "changed": "2026-09-12",
+    "via": "email"
+  },
   "homedata": {
     "status": "submitted",
     "changed": "2026-08-31",
@@ -2574,6 +2624,11 @@
     "changed": "2026-08-28",
     "via": null
   },
+  "idnotify": {
+    "status": "submitted",
+    "changed": "2026-09-15",
+    "via": "email"
+  },
   "idology": {
     "status": "submitted",
     "changed": "2026-08-28",
@@ -2610,9 +2665,9 @@
     "via": null
   },
   "index_exchange": {
-    "status": "submitted",
-    "changed": "2026-08-28",
-    "via": null
+    "status": "not_found",
+    "changed": "2026-09-15",
+    "via": "email"
   },
   "indiana_arrests": {
     "status": "submitted",
@@ -2685,8 +2740,8 @@
     "via": "email"
   },
   "infutordata": {
-    "status": "replied",
-    "changed": "2026-09-05",
+    "status": "confirmed",
+    "changed": "2026-09-06",
     "via": "web"
   },
   "inmarket": {
@@ -2776,7 +2831,7 @@
   },
   "intranet_quorum": {
     "status": "replied",
-    "changed": "2026-09-02",
+    "changed": "2026-09-11",
     "via": "email"
   },
   "iowa_arrests": {
@@ -2792,6 +2847,11 @@
   "ipapi": {
     "status": "not_found",
     "changed": "2026-09-05",
+    "via": "email"
+  },
+  "ipqualityscore": {
+    "status": "confirmed",
+    "changed": "2026-09-15",
     "via": "email"
   },
   "ipreo": {
@@ -2820,8 +2880,8 @@
     "via": "email"
   },
   "ispot_tv": {
-    "status": "submitted",
-    "changed": "2026-08-18",
+    "status": "not_found",
+    "changed": "2026-09-15",
     "via": "email"
   },
   "iss_market_intelligence_or_iss_mi": {
@@ -2860,8 +2920,8 @@
     "via": "email"
   },
   "juicebox_app": {
-    "status": "submitted",
-    "changed": "2026-09-05",
+    "status": "email_pending",
+    "changed": "2026-09-06",
     "via": "reply"
   },
   "kalibrate": {
@@ -2975,8 +3035,8 @@
     "via": "email"
   },
   "l_s_mobile_apps": {
-    "status": "submitted",
-    "changed": "2026-08-29",
+    "status": "confirmed",
+    "changed": "2026-09-06",
     "via": "email"
   },
   "lawlink": {
@@ -3000,8 +3060,8 @@
     "via": "email"
   },
   "leadership_connect": {
-    "status": "confirmed",
-    "changed": "2026-09-05",
+    "status": "manual_required",
+    "changed": "2026-09-15",
     "via": "email"
   },
   "leadiq": {
@@ -3046,7 +3106,7 @@
   },
   "leidos_digital_solutions": {
     "status": "replied",
-    "changed": "2026-09-02",
+    "changed": "2026-09-11",
     "via": "email"
   },
   "lender_feed_lc": {
@@ -3105,8 +3165,8 @@
     "via": "email"
   },
   "liminal_ifish_digital_lead_lure": {
-    "status": "replied",
-    "changed": "2026-09-05",
+    "status": "not_found",
+    "changed": "2026-09-06",
     "via": "email"
   },
   "lionshare": {
@@ -3172,6 +3232,11 @@
   "local_pages": {
     "status": "submitted",
     "changed": "2026-09-01",
+    "via": "email"
+  },
+  "locate_friend": {
+    "status": "unreachable",
+    "changed": "2026-09-15",
     "via": "email"
   },
   "locatefamily": {
@@ -3300,8 +3365,8 @@
     "via": "email"
   },
   "marketops": {
-    "status": "submitted",
-    "changed": "2026-08-19",
+    "status": "confirmed",
+    "changed": "2026-09-15",
     "via": "email"
   },
   "marriott_international": {
@@ -3515,8 +3580,8 @@
     "via": "email"
   },
   "mobility_global_s_p_global": {
-    "status": "submitted",
-    "changed": "2026-08-29",
+    "status": "manual_required",
+    "changed": "2026-09-11",
     "via": "email"
   },
   "modfx_labs": {
@@ -3600,8 +3665,8 @@
     "via": "email"
   },
   "muraena": {
-    "status": "submitted",
-    "changed": "2026-09-01",
+    "status": "suppressed",
+    "changed": "2026-09-16",
     "via": "email"
   },
   "my_renter_checker": {
@@ -3614,19 +3679,19 @@
     "changed": "2026-08-25",
     "via": "reply"
   },
-  "n_a": {
+  "mypropertyrecs": {
     "status": "submitted",
-    "changed": "2026-08-28",
-    "via": "email"
+    "changed": "2026-09-16",
+    "via": "web"
   },
   "names_and_facts": {
-    "status": "submitted",
-    "changed": "2026-08-31",
+    "status": "confirmed",
+    "changed": "2026-09-15",
     "via": "email"
   },
   "narvar": {
-    "status": "submitted",
-    "changed": "2026-08-28",
+    "status": "manual_required",
+    "changed": "2026-09-16",
     "via": "email"
   },
   "national_opinion_institute": {
@@ -3864,6 +3929,11 @@
     "changed": "2026-08-19",
     "via": "web"
   },
+  "numbercom": {
+    "status": "submitted",
+    "changed": "2026-09-12",
+    "via": "email"
+  },
   "numberguru": {
     "status": "submitted",
     "changed": "2026-08-19",
@@ -4004,6 +4074,11 @@
     "changed": "2026-08-31",
     "via": "email"
   },
+  "optoutprescreen": {
+    "status": "manual_required",
+    "changed": "2026-09-06",
+    "via": null
+  },
   "oracle_datacloud": {
     "status": "submitted",
     "changed": "2026-08-23",
@@ -4103,6 +4178,11 @@
     "status": "submitted",
     "changed": "2026-09-02",
     "via": null
+  },
+  "peepslocator": {
+    "status": "submitted",
+    "changed": "2026-09-12",
+    "via": "email"
   },
   "penlink": {
     "status": "submitted",
@@ -4284,6 +4364,16 @@
     "changed": "2026-08-28",
     "via": null
   },
+  "plaid": {
+    "status": "manual_required",
+    "changed": "2026-09-06",
+    "via": null
+  },
+  "plcom_net": {
+    "status": "unreachable",
+    "changed": "2026-09-12",
+    "via": "email"
+  },
   "plexuss": {
     "status": "submitted",
     "changed": "2026-08-19",
@@ -4429,6 +4519,11 @@
     "changed": "2026-08-19",
     "via": "email"
   },
+  "propertyshark": {
+    "status": "manual_required",
+    "changed": "2026-09-12",
+    "via": "email"
+  },
   "prospectbase_uk": {
     "status": "submitted",
     "changed": "2026-08-28",
@@ -4485,8 +4580,8 @@
     "via": "email"
   },
   "publicrecords_info": {
-    "status": "submitted",
-    "changed": "2026-08-29",
+    "status": "confirmed",
+    "changed": "2026-09-14",
     "via": "email"
   },
   "publicrecords_us": {
@@ -4545,8 +4640,8 @@
     "via": "email"
   },
   "quorum_data": {
-    "status": "submitted",
-    "changed": "2026-08-29",
+    "status": "not_found",
+    "changed": "2026-09-15",
     "via": "email"
   },
   "radaris": {
@@ -4715,8 +4810,8 @@
     "via": "email"
   },
   "researchusa": {
-    "status": "unreachable",
-    "changed": "2026-09-04",
+    "status": "manual_required",
+    "changed": "2026-09-15",
     "via": "email"
   },
   "resonate": {
@@ -4750,8 +4845,8 @@
     "via": "email"
   },
   "revcontent": {
-    "status": "replied",
-    "changed": "2026-09-05",
+    "status": "not_found",
+    "changed": "2026-09-06",
     "via": "email"
   },
   "reveal_mobile": {
@@ -4777,6 +4872,11 @@
   "revenuebase": {
     "status": "submitted",
     "changed": "2026-08-28",
+    "via": "email"
+  },
+  "reverse_caller_lookup": {
+    "status": "unreachable",
+    "changed": "2026-09-13",
     "via": "email"
   },
   "reversephone": {
@@ -4873,6 +4973,11 @@
     "status": "unreachable",
     "changed": "2026-08-25",
     "via": null
+  },
+  "salary_com": {
+    "status": "submitted",
+    "changed": "2026-09-12",
+    "via": "email"
   },
   "salesassistiq": {
     "status": "submitted",
@@ -4980,9 +5085,9 @@
     "via": "email"
   },
   "searchpeoplefree_net": {
-    "status": "replied",
-    "changed": "2026-09-02",
-    "via": "email"
+    "status": "manual_required",
+    "changed": "2026-09-14",
+    "via": "web"
   },
   "searchpublicrecords_com": {
     "status": "submitted",
@@ -5009,10 +5114,15 @@
     "changed": "2026-08-20",
     "via": null
   },
-  "seekout": {
+  "seekhd": {
     "status": "manual_required",
-    "changed": "2026-08-20",
-    "via": null
+    "changed": "2026-09-15",
+    "via": "email"
+  },
+  "seekout": {
+    "status": "confirmed",
+    "changed": "2026-09-12",
+    "via": "email"
   },
   "semantiq": {
     "status": "submitted",
@@ -5123,6 +5233,11 @@
     "status": "unreachable",
     "changed": "2026-08-29",
     "via": "email"
+  },
+  "smartbackgroundchecks": {
+    "status": "manual_required",
+    "changed": "2026-09-06",
+    "via": null
   },
   "smarte": {
     "status": "submitted",
@@ -5389,6 +5504,11 @@
     "changed": "2026-08-30",
     "via": "email"
   },
+  "swordfish_ai": {
+    "status": "submitted",
+    "changed": "2026-09-12",
+    "via": "email"
+  },
   "sync_me": {
     "status": "confirmed",
     "changed": "2026-08-25",
@@ -5609,6 +5729,11 @@
     "changed": "2026-08-31",
     "via": "email"
   },
+  "transparent_nevada": {
+    "status": "submitted",
+    "changed": "2026-09-11",
+    "via": null
+  },
   "transunion": {
     "status": "submitted",
     "changed": "2026-08-21",
@@ -5635,8 +5760,8 @@
     "via": null
   },
   "truedata": {
-    "status": "submitted",
-    "changed": "2026-08-30",
+    "status": "confirmed",
+    "changed": "2026-09-15",
     "via": "email"
   },
   "truepeoplesearch": {
@@ -5647,6 +5772,11 @@
   "truepeoplesearch_net": {
     "status": "submitted",
     "changed": "2026-08-20",
+    "via": "email"
+  },
+  "trulia": {
+    "status": "submitted",
+    "changed": "2026-09-12",
     "via": "email"
   },
   "trust_will": {
@@ -5759,6 +5889,11 @@
     "changed": "2026-08-20",
     "via": "email"
   },
+  "user_searcher": {
+    "status": "submitted",
+    "changed": "2026-09-12",
+    "via": "email"
+  },
   "usinfosearch_com": {
     "status": "submitted",
     "changed": "2026-08-30",
@@ -5770,9 +5905,9 @@
     "via": "email"
   },
   "usphonelookup": {
-    "status": "replied",
-    "changed": "2026-09-02",
-    "via": "email"
+    "status": "manual_required",
+    "changed": "2026-09-14",
+    "via": "web"
   },
   "usrecords": {
     "status": "submitted",
@@ -5816,7 +5951,7 @@
   },
   "valassis_communications_inc_an_rrd": {
     "status": "submitted",
-    "changed": "2026-09-03",
+    "changed": "2026-09-12",
     "via": "email"
   },
   "vdx_tv": {
@@ -6075,8 +6210,8 @@
     "via": "email"
   },
   "winr_data": {
-    "status": "submitted",
-    "changed": "2026-09-01",
+    "status": "acknowledged",
+    "changed": "2026-09-16",
     "via": "email"
   },
   "wisconsin_arrests": {
@@ -6204,9 +6339,19 @@
     "changed": "2026-08-21",
     "via": "email"
   },
+  "zosearch": {
+    "status": "submitted",
+    "changed": "2026-09-12",
+    "via": "email"
+  },
   "zs_associates": {
     "status": "not_found",
     "changed": "2026-09-02",
+    "via": "email"
+  },
+  "zumper": {
+    "status": "submitted",
+    "changed": "2026-09-15",
     "via": "email"
   }
 }

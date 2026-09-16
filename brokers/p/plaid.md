@@ -7,10 +7,8 @@
 
 ## Status
 
-- Current: not yet acted on.
-- Note: listed from a third-party directory (`privacyinsightsolutions`), with
-  `route_evidence: none` — meaning nobody has confirmed the form actually works,
-  only that the URL is published.
+- Current: `manual_required` (updated 2026-09-16)
+- Note: Adopted from the shared ledger: another agent recorded 'manual_required' on 2026-09-06. No detail is carried across — re-read the broker's own reply before relying on this.
 
 ## Steps
 

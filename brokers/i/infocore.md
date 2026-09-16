@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `acknowledged` (updated 2026-08-28)
-- Note: ACKNOWLEDGED. compliance@infocore.com confirmed receipt of the 1 Sep request 'under the California Consumer Privacy Act, GDPR or other applicable state privacy law for which you are a resident'. A receipt, not an outcome -- no identifiers echoed, no systems named, no statement of whether anything was found. Recording it as a live route rather than a result; next check at the 45-day mark. Note the conditional framing 'for which you are a resident' -- worth watching for whether that becomes a PA-is-not-covered decline later, in which case the ask is that they honour it as ordinary practice and say plainly if they will not.
+- Current: `replied` (updated 2026-09-12)
+- Note: Adopted from the shared ledger: another agent recorded 'replied' on 2026-09-03. No detail is carried across — re-read the broker's own reply before relying on this.
 
 ## Steps
 

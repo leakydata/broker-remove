@@ -1,6 +1,6 @@
 # Azerion US Inc.
 
-- **Email:** dpo_hybridtheory@azerion.com (verified)
+- **Email:** dpo_hybridtheory@azerion.com (original), replies came from **dpo@azerion.com** — use that one going forward
 - **Method:** email — Statutory request by email. No web form needed.
 - **Domain:** azerion.com
 - **Priority: 2.**
@@ -12,18 +12,35 @@
 
 ## Steps
 
-<!-- Replace once the route is confirmed. What actually worked, in order. -->
+1. Email `dpo@azerion.com` (not the original `dpo_hybridtheory@azerion.com` —
+   that address is what we sent to, but their own replies come from `dpo@`).
+   Ask for hashed-email search, cookie/device/CTV IDs, audience segments
+   (including sensitive-category inferences), and publisher/app-partner
+   sources.
+2. Expect them to say plaintext identifiers (name, email) aren't something
+   they collect at all — this is a cookie/device-keyed adtech platform, not
+   a name-keyed compiler. Don't be surprised if a `--keys email-only`-style
+   letter would have been more appropriate from the start (see
+   CONTRIBUTING.md's identifier-keyed guidance).
+3. If asked for a cookie ID or mobile ad ID to "complete" a deletion,
+   **decline** — see Gotchas.
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+- **"We need your cookie ID to delete your data" is a real trap for a
+  cookie-keyed adtech platform.** Supplying it hands them exactly the kind
+  of fresh, verified identifier link the request exists to prevent. The
+  honest alternative to ask for is a **do-not-add / do-not-onboard rule**
+  applied without ever collecting the identifier — whether that's actually
+  possible is the open question on this thread.
+- **The browser opt-out and the deletion request are different tools.** The
+  opt-out page stops future targeting tied to a browser; it says nothing
+  about records already built from past cookie/device activity or from a
+  publisher-partner's data feed. Getting both requires asking separately —
+  don't let the opt-out link substitute for an answer to the deletion
+  request.
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+Browser opt-out said to take effect within 7 days — no independent way to
+verify from outside. Re-check the two open questions above if they answer.

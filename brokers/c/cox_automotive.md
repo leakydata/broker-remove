@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-25)
-- Note: 2026-08-25: emailed consumer-privacy-ops@coxautoinc.com. Large multi-brand group, so the letter leads on scope with a reason that is specific rather than generic: someone who sold a car, requested a valuation, browsed listings or had a vehicle serviced may have generated records under several brands WITHOUT EVER SEEING THE PARENT NAME. Asked them to name the brands actioned, or if they cannot enumerate them, to say so and state what the search scope actually was. Automotive asks: VIN-linked ownership/title/registration/service, valuation and trade-in requests, in-market-shopper and equity-mining and loan-maturity scores ('a prediction about when I will next need a loan is exactly the sort of record a person never agreed to and cannot see'), marketplace browsing activity, and identity linkage including edges. Processor fallback: name the dealerships so I can approach them, and confirm suppression applies regardless.
+- Current: `failed` (updated 2026-09-16)
+- Note: Adopted from the shared ledger: another agent recorded 'failed' on 2026-09-15. No detail is carried across — re-read the broker's own reply before relying on this.
 
 ## Steps
 
@@ -34,7 +34,9 @@ addressed.
 ## Verification
 
 No fixed deadline stated for the deletion/opt-out-of-sale side (Cox treats it as
-outside their statutory obligation for a PA resident). Marketing suppression
-across Cox Automotive/Autotrader/KBB was promised within 10 business days —
-check for continued marketing mail/email/calls from those three brands after
-that window as the practical test.
+outside their statutory obligation for a PA resident, and confirmed 2026-09-14
+that no deletion/opt-out processing runs for PA residents at all). Marketing
+suppression across Cox Automotive/Autotrader/KBB was promised within 10 business
+days — check for continued marketing mail/email/calls from those three brands
+after that window as the practical test. This is now a **closed loop**: a
+further ask would need a change in PA law, not another letter to Cox.

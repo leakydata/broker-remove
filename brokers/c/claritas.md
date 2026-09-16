@@ -29,6 +29,14 @@
 
 ## Gotchas
 
+- **The email support desk appears to run on a keyword macro, not a read of
+  the message.** Three follow-ups asking a specific question ("look up this
+  verification ID") each got back the identical "use our OneTrust form" reply
+  that was already followed. If a reply here doesn't engage with the actual
+  question, don't assume escalating in writing will fix it — it's likely a
+  macro re-firing on "privacy"/"OneTrust" keywords rather than a human
+  reading the thread. A phone call may be the only way to get a considered
+  answer; see the number on the OneTrust confirmation page.
 - **The request-type listbox is inert to synthetic clicks.** `role="option"` divs
   whose `aria-selected` never leaves `"false"`, by ref or by coordinate. No
   selected class appears either. Everything else on the form works normally.

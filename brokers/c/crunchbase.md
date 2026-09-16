@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-23)
-- Note: Recovered from the committed playbook brokers/c/crunchbase.md, because the ledger carries no notes and this row's status had no evidence behind it: Statutory opt-out/deletion email sent 2026-08-23, category-tailored.
+- Current: `not_found` (updated 2026-09-12)
+- Note: Adopted from the shared ledger: another agent recorded 'not_found' on 2026-09-04. No detail is carried across — re-read the broker's own reply before relying on this.
 
 ## Steps
 

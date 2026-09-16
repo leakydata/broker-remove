@@ -16,14 +16,10 @@
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+- **"We don't collect X" is worth pressing on the identifier type it implies, once.** RevContent's first reply said "we don't store plaintext emails" while reporting a nil on a plaintext search — asking "then did you search the hashes?" got a substantive architectural answer instead of a second round of the same boilerplate. Don't accept a nil at face value when the stated data model makes that nil the *only possible* outcome regardless of whether a match exists.
+- **Declining their per-device verification form was the right call.** A form that collects IP/user-agent/cookie to "match" a request, at a company that holds exactly those as its primary keys, converts an anonymous record into a named one. The hash-based ask (get them to hash your identifiers server-side) avoids this because nothing new is disclosed.
+- **A copy-paste artifact in a reply (a stray unrelated email address) is worth flagging, not assuming.** Could have been a mis-join exposing a stranger's data; here it was a template mistake, confirmed by asking rather than assuming either way.
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+Credible nil, explained rather than asserted. Re-check only if a future broker or disclosure names RevContent as a recipient of matched data.

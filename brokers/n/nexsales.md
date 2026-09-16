@@ -12,18 +12,23 @@
 
 ## Steps
 
-<!-- Replace once the route is confirmed. What actually worked, in order. -->
+1. Email `privacy@marketops.com`. If the auto-reply says "no records found,
+   please resubmit," don't take that at face value — ask explicitly whether the
+   full identifier set was searched. The template wording here overstated a
+   narrower search than what was actually run.
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+- **The first-line auto-reply template overstates what actually happened.**
+  "No records found matching the information you provided" reads like a scoped
+  or partial search, but here the CPO confirmed all identifiers were searched
+  and the record was in fact found and suppressed. Worth asking a human to
+  confirm scope before recording a `not_found` from a templated nil.
+- Has a named, responsive Chief Privacy Officer who will personally correct a
+  templated reply on request — worth escalating past the auto-responder if a
+  first reply looks inconsistent with what was asked.
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+Confirmed by direct reply from the Chief Privacy Officer 2026-09-14. No
+consumer-facing lookup to independently re-check.

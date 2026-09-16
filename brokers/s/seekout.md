@@ -30,11 +30,16 @@
   embedded HubSpot frame (`seekout-hs-7333a2db`, 680×1310) with an empty document
   body — zero fields, zero labels, no submit control. Reloading and waiting does not
   help. See [[_SILENT_FAILURES]] §63.
-- **The email route is conditional**, and the condition is a LinkedIn URL. Refuse
-  it: a live third-party profile is an enrichment key, not a verification token, and
-  it stays useful to a talent-intelligence company after the request closes. See
-  [[_DEFLECTIONS]] §38 — a second workforce dataset asked for exactly the same thing
-  a day earlier.
+- **The email route only looked conditional on a demanded LinkedIn URL.** A staff
+  reply mid-thread said *"we require a LinkedIn URL... without this information we
+  are unable to take action"* — read in isolation this looks like §38's enrichment
+  demand and worth refusing. But the original letter had already supplied the
+  public profile URL voluntarily, framed as a suppression key, and that is what
+  the deletion was actually run against. **The distinction that matters: offering
+  the URL up front as one of several identifiers is not the same concession as
+  being told mid-request that nothing proceeds without it.** Do the former in the
+  first letter; still push back per §38 if asked to hand it over as a precondition
+  after the fact.
 - **Offer `.edu` instead.** For a talent dataset an institutional university address
   is a stronger key than a name and will not collide.
 - Report the broken portal **separately from the request**, and say it is not

@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-29)
-- Note: 2026-08-29 sent as a FAMILY letter (SILENT_FAILURES 176). Fingerprint scan found courtrec.com and publicrecords.info share LiveChat license 7139371 with publicrecords.us, propertyrecord.com and propertyrecs.com -- identical page structure and word-for-word FAQ. The other three were already written to separately under three different addresses. One letter to both pending addresses names all five sites, asks the operator to apply the removal where the data lives rather than per-brand, and asks them to NAME any sibling sites I missed. Also worked their own disclaimers: they say a search does not imply a record exists and that errors occur -- so asked them to match on the full identifier set rather than the common name, and to tell me what criminal/court/judgment record is attached BEFORE deleting it, since the removal destroys the evidence. Noted explicitly this is not a Daniel's Law request.
+- Current: `confirmed` (updated 2026-09-16)
+- Note: Adopted from the shared ledger: another agent recorded 'confirmed' on 2026-09-14. No detail is carried across — re-read the broker's own reply before relying on this.
 
 ## Steps
 
