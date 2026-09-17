@@ -8,8 +8,15 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-02)
+- Current: `submitted` (updated 2026-09-16)
 - Reference: `8N6KVXVA3C`
+- Note: assessments@dentsu.com, 2026-09-16 18:06 UTC: "A comment has been added
+  to your request. Please click the button below to access your request in the
+  Privacy Portal." The email itself carries no content beyond that — the
+  comment text only exists behind a OneTrust privacy-portal login
+  (`privacyportal-de.onetrust.com`), which is browser-gated and not something
+  this project can read by email alone. **Needs a human to open the portal
+  link and read the comment**; nothing to action from this end until then.
 - Note: REVERTED 2026-09-02, SAME DAY (SILENT_FAILURES 287). I moved this row to email_pending an hour earlier on the strength of an unconfirmed-looking verification email sitting in the inbox. THE ROW'S OWN HISTORY ALREADY SAID THE VERIFICATION WAS COMPLETED -- variously 'email verification clicked', 'Your request is confirmed!', 'successfully verified', or a later substantive reply that could only have followed confirmation. A verification mail stays in the inbox forever because nobody archives it; ITS PRESENCE IS NOT EVIDENCE THAT IT WAS NEVER USED. Nine of the ten rows I downgraded were already verified. Restored to submitted, which is what the evidence supports.
 
 ## Steps

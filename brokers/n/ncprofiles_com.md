@@ -7,8 +7,13 @@
 
 ## Status
 
-- Current: `unreachable` (updated 2026-09-12)
-- Note: NOT WRITTEN TO -- THE ADDRESS DOMAIN DOES NOT RESOLVE. Pre-send check 2026-09-12: info@ncprofiles.com sits at ncprofiles.com, which returns no A, AAAA or MX record at all. A letter would bounce, and a bounce is worse than not sending: in the ledger it is indistinguishable from silence unless someone reads the mailbox, and a run of them makes this sender look like a spammer to every receiving domain at once. The contact came from the Optery directory (SF 445), which supplied 93 addresses this project did not have; this is one of the four that were never going to work. Recorded unreachable WITHOUT spending a letter. Worth a re-probe if the domain is ever re-registered.
+- Current: `unreachable` (updated 2026-09-17)
+- Note: CONFIRMED BY BOUNCE 2026-09-17 -- a letter was sent in error (the
+  no-DNS finding below was already on record and should have blocked the
+  send); it hard-bounced within two seconds, "the domain ncprofiles.com
+  couldn't be found." Restored to `unreachable`, not `submitted`. This is the
+  domain-does-not-resolve case, distinguishable from a soft/delayed bounce.
+- Prior: NOT WRITTEN TO -- THE ADDRESS DOMAIN DOES NOT RESOLVE. Pre-send check 2026-09-12: info@ncprofiles.com sits at ncprofiles.com, which returns no A, AAAA or MX record at all. A letter would bounce, and a bounce is worse than not sending: in the ledger it is indistinguishable from silence unless someone reads the mailbox, and a run of them makes this sender look like a spammer to every receiving domain at once. The contact came from the Optery directory (SF 445), which supplied 93 addresses this project did not have; this is one of the four that were never going to work. Recorded unreachable WITHOUT spending a letter. Worth a re-probe if the domain is ever re-registered.
 
 ## Steps
 

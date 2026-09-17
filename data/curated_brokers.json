@@ -10862,7 +10862,9 @@
       "email_to": "privacy@hunter.io",
       "email_verified": true,
       "email_verified_by": "site_published 2026-09-12",
-      "email_alt": "contact@hunter.io"
+      "email_alt": "contact@hunter.io",
+      "duplicate_of": "hunter",
+      "notes": "Same contact address (privacy@hunter.io) as the canonical 'hunter' row, which already has a substantive reply on file (see brokers/h/hunter.md). Held out of the send queue; do not send a second letter to the same mailbox."
     },
     {
       "id": "hybrid_theory",
@@ -24859,7 +24861,9 @@
       "email_verified": true,
       "email_verified_by": "optery_directory",
       "country": "United States",
-      "category_hint": "People Search"
+      "category_hint": "People Search",
+      "duplicate_of": "ussearch",
+      "notes": "Same contact address (support@ussearch.com) as the canonical 'ussearch' row, already `confirmed` (2026-08-27). Held out of the send queue; do not send a second letter to the same mailbox."
     },
     {
       "id": "usa_people_search",

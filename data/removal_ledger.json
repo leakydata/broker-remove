@@ -349,6 +349,11 @@
     "changed": "2026-08-17",
     "via": null
   },
+  "amf_internet_services": {
+    "status": "submitted",
+    "changed": "2026-09-17",
+    "via": "email"
+  },
   "amplemarket": {
     "status": "submitted",
     "changed": "2026-08-17",
@@ -363,6 +368,11 @@
     "status": "submitted",
     "changed": "2026-08-23",
     "via": null
+  },
+  "ancestry_com_uk": {
+    "status": "submitted",
+    "changed": "2026-09-17",
+    "via": "email"
   },
   "anchor": {
     "status": "submitted",
@@ -854,6 +864,11 @@
     "changed": "2026-09-02",
     "via": null
   },
+  "buzzfile_media": {
+    "status": "submitted",
+    "changed": "2026-09-17",
+    "via": "email"
+  },
   "cadent": {
     "status": "manual_required",
     "changed": "2026-09-03",
@@ -893,6 +908,11 @@
     "status": "replied",
     "changed": "2026-09-14",
     "via": "reply"
+  },
+  "caller_name": {
+    "status": "submitted",
+    "changed": "2026-09-17",
+    "via": "email"
   },
   "callersmart": {
     "status": "replied",
@@ -1074,6 +1094,11 @@
     "changed": "2026-08-25",
     "via": null
   },
+  "clearout_io": {
+    "status": "submitted",
+    "changed": "2026-09-17",
+    "via": "email"
+  },
   "clearview_ai": {
     "status": "submitted",
     "changed": "2026-08-25",
@@ -1092,6 +1117,11 @@
   "clodura_ai": {
     "status": "submitted",
     "changed": "2026-09-01",
+    "via": "email"
+  },
+  "closely": {
+    "status": "submitted",
+    "changed": "2026-09-17",
     "via": "email"
   },
   "cloudlead": {
@@ -1163,6 +1193,11 @@
     "status": "submitted",
     "changed": "2026-08-30",
     "via": null
+  },
+  "company_check": {
+    "status": "submitted",
+    "changed": "2026-09-17",
+    "via": "email"
   },
   "compile": {
     "status": "submitted",
@@ -1519,6 +1554,11 @@
     "changed": "2026-09-03",
     "via": null
   },
+  "dateas": {
+    "status": "submitted",
+    "changed": "2026-09-17",
+    "via": "email"
+  },
   "dato_capital": {
     "status": "submitted",
     "changed": "2026-09-02",
@@ -1709,6 +1749,11 @@
     "changed": "2026-09-15",
     "via": "email"
   },
+  "doctorsatlas": {
+    "status": "unreachable",
+    "changed": "2026-09-17",
+    "via": "bounced"
+  },
   "dojomojo": {
     "status": "submitted",
     "changed": "2026-08-25",
@@ -1753,6 +1798,11 @@
     "status": "submitted",
     "changed": "2026-08-18",
     "via": "reply"
+  },
+  "drunk_drivers": {
+    "status": "submitted",
+    "changed": "2026-09-17",
+    "via": "email"
   },
   "dstillery": {
     "status": "not_found",
@@ -1824,6 +1874,11 @@
     "changed": "2026-09-01",
     "via": "email"
   },
+  "elocal_usa": {
+    "status": "submitted",
+    "changed": "2026-09-17",
+    "via": "email"
+  },
   "email_industries": {
     "status": "submitted",
     "changed": "2026-08-18",
@@ -1882,6 +1937,11 @@
   "entitycheck": {
     "status": "submitted",
     "changed": "2026-08-26",
+    "via": "email"
+  },
+  "epieos": {
+    "status": "submitted",
+    "changed": "2026-09-17",
     "via": "email"
   },
   "eprodirect": {
@@ -2244,6 +2304,11 @@
     "changed": "2026-09-03",
     "via": null
   },
+  "freepeoplesearch_io": {
+    "status": "confirmed",
+    "changed": "2026-09-12",
+    "via": "reply"
+  },
   "freephonetracer": {
     "status": "submitted",
     "changed": "2026-08-18",
@@ -2343,6 +2408,11 @@
     "status": "confirmed",
     "changed": "2026-08-27",
     "via": null
+  },
+  "golden_recursion": {
+    "status": "submitted",
+    "changed": "2026-09-17",
+    "via": "email"
   },
   "good_boy_studios": {
     "status": "submitted",
@@ -2527,6 +2597,11 @@
   "hireright": {
     "status": "acknowledged",
     "changed": "2026-09-02",
+    "via": "email"
+  },
+  "hitta_se": {
+    "status": "submitted",
+    "changed": "2026-09-17",
     "via": "email"
   },
   "hivestack": {
@@ -3114,6 +3189,11 @@
     "changed": "2026-08-29",
     "via": "email"
   },
+  "lenso_ai": {
+    "status": "submitted",
+    "changed": "2026-09-17",
+    "via": "email"
+  },
   "lexisnexis": {
     "status": "submitted",
     "changed": "2026-08-15",
@@ -3544,6 +3624,11 @@
     "changed": "2026-08-16",
     "via": null
   },
+  "mississippi_people_records": {
+    "status": "submitted",
+    "changed": "2026-09-17",
+    "via": "email"
+  },
   "mississippi_tornado_alley": {
     "status": "submitted",
     "changed": "2026-08-28",
@@ -3654,6 +3739,11 @@
     "changed": "2026-08-22",
     "via": "reply"
   },
+  "muck_rack": {
+    "status": "submitted",
+    "changed": "2026-09-17",
+    "via": "email"
+  },
   "mugshotlook": {
     "status": "confirmed",
     "changed": "2026-08-20",
@@ -3713,6 +3803,11 @@
     "status": "submitted",
     "changed": "2026-08-19",
     "via": "email"
+  },
+  "ncprofiles_com": {
+    "status": "unreachable",
+    "changed": "2026-09-17",
+    "via": "bounced"
   },
   "near_kroll_estate": {
     "status": "submitted",
@@ -4124,6 +4219,11 @@
     "changed": "2026-08-19",
     "via": "email"
   },
+  "owler": {
+    "status": "submitted",
+    "changed": "2026-09-17",
+    "via": "email"
+  },
   "owneriq": {
     "status": "manual_required",
     "changed": "2026-08-28",
@@ -4198,6 +4298,11 @@
     "status": "submitted",
     "changed": "2026-08-16",
     "via": null
+  },
+  "people_ai": {
+    "status": "submitted",
+    "changed": "2026-09-17",
+    "via": "email"
   },
   "people_search_org": {
     "status": "manual_required",
@@ -4879,6 +4984,11 @@
     "changed": "2026-09-13",
     "via": "email"
   },
+  "reverse_contact_visum_sas": {
+    "status": "submitted",
+    "changed": "2026-09-17",
+    "via": "email"
+  },
   "reversephone": {
     "status": "submitted",
     "changed": "2026-08-19",
@@ -5003,6 +5113,11 @@
     "status": "submitted",
     "changed": "2026-09-02",
     "via": null
+  },
+  "saleshandy_ikigai_infotech_llp": {
+    "status": "submitted",
+    "changed": "2026-09-17",
+    "via": "email"
   },
   "salesintel": {
     "status": "confirmed",
@@ -5578,6 +5693,11 @@
     "status": "submitted",
     "changed": "2026-08-31",
     "via": null
+  },
+  "telguarder_as": {
+    "status": "submitted",
+    "changed": "2026-09-17",
+    "via": "email"
   },
   "tennessee_arrests": {
     "status": "submitted",
@@ -6268,6 +6388,11 @@
     "status": "submitted",
     "changed": "2026-08-20",
     "via": "reply"
+  },
+  "x_ray_contact": {
+    "status": "submitted",
+    "changed": "2026-09-17",
+    "via": "email"
   },
   "xcelerated_data": {
     "status": "submitted",

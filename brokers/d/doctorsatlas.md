@@ -6,8 +6,16 @@
 
 ## Status
 
-- Current: `unreachable` (updated 2026-09-12)
-- Note: NOT WRITTEN TO -- THE ADDRESS DOMAIN PUBLISHES NO MAIL EXCHANGER. Pre-send check 2026-09-12: info@doctorsatlas.com sits at doctorsatlas.com, which resolves but has no MX record, so nothing accepts mail there. letter will bounce -- site 200 A letter would bounce. Contact came from the Optery directory (SF 445). Recorded unreachable WITHOUT spending a letter; re-probe if mail is ever configured.
+- Current: `unreachable` (updated 2026-09-17)
+- Note: CORRECTED BACK -- a letter was sent anyway on 2026-09-17, in error: the
+  no-MX finding below was already on record and should have blocked the send.
+  No bounce had arrived within the hour, which is consistent with the earlier
+  finding rather than a contradiction of it -- a domain with no MX at all
+  typically fails at the SENDER's own MTA before it ever reaches a remote
+  server, so a delayed or silent local rejection is the expected shape, not a
+  sign that the address might actually work. Restored to `unreachable`, not
+  `submitted`. Re-probe MX before ever sending here again.
+- Prior: NOT WRITTEN TO -- THE ADDRESS DOMAIN PUBLISHES NO MAIL EXCHANGER. Pre-send check 2026-09-12: info@doctorsatlas.com sits at doctorsatlas.com, which resolves but has no MX record, so nothing accepts mail there. Contact came from the Optery directory (SF 445). Recorded unreachable WITHOUT spending a letter; re-probe if mail is ever configured.
 
 ## Steps
 

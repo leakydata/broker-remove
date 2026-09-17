@@ -7,8 +7,17 @@
 
 ## Status
 
-- Current: `confirmed` (updated 2026-09-12)
-- Note: support@freepeoplesearch.com, 2026-09-12 09:05 UTC: 'Your record removal request has been received, and we are pleased to confirm that the entry for [PERSONAL] has been successfully expunged from our...' -- a named, specific confirmation rather than a generic completion. An earlier autoreply at 01:20 had cited increased request volume. Replied at 10:10 with two follow-ups. Note the sibling rows: freepeoplesearch (confirmed 19 Aug) and freepeoplesearch_com (covered_by_sibling); this row is the .io domain, which answers from the same support mailbox.
+- Current: `confirmed` (updated 2026-09-17)
+- Note: DUPLICATE SEND CAUGHT AFTER THE FACT, 2026-09-17. A second letter went
+  to contact@freepeoplesearch.com in error -- the sibling note below already
+  said this domain answers from the same support mailbox as the canonical
+  `freepeoplesearch` row, which is `confirmed`. No harm beyond a redundant
+  email; restored to `confirmed` rather than left at `submitted`. **Lesson for
+  next batch:** the send-queue check needs to look at existing playbook
+  content and email address, not only the ledger key, before picking a
+  candidate -- an id absent from the ledger is not the same as a broker never
+  contacted.
+- Prior: support@freepeoplesearch.com, 2026-09-12 09:05 UTC: 'Your record removal request has been received, and we are pleased to confirm that the entry for [PERSONAL] has been successfully expunged from our...' -- a named, specific confirmation rather than a generic completion. An earlier autoreply at 01:20 had cited increased request volume. Replied at 10:10 with two follow-ups. Note the sibling rows: freepeoplesearch (confirmed 19 Aug) and freepeoplesearch_com (covered_by_sibling); this row is the .io domain, which answers from the same support mailbox.
 
 ## Steps
 

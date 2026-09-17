@@ -53,3 +53,15 @@ the matter.
 Closed. No evidence they hold pre-redaction registrant data, and the only
 person-keyed surface is behind a login. Do not reopen without new evidence —
 and if you do, write it short.
+
+## Reopened itself, nearly a month later (2026-09-17)
+
+Michael Hughes replied "Please elaborate." to the short final message from
+2026-08-20 — the one that asked the single reverse-whois retention question
+and said not to bother replying if the answer was "current records only."
+Nothing else changed; he appears to have revisited old mail rather than
+anything on our side prompting it. Replied in three sentences, restating the
+one question plainly with no framing or apology, since the earlier long,
+reasoned message was the one that got "binned" as an AI response and the
+short one was the one that landed. Still `not_found` pending his answer —
+this does not reopen the case on its own.
