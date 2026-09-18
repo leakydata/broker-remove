@@ -8,7 +8,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-17)
+- Current: `manual_required` (updated 2026-09-18)
+- Note: 2026-09-18 REPLY CONFIRMS THE PREDICTED GOTCHA. Lenso.ai's DPO replied that "searching by your name, surname or email address would not allow us to identify any images associated with you" -- the Face Search index is not keyed to those identifiers at all, only to a photograph. They explicitly do NOT require an account or a government ID, only "a clear photograph of you," submitted either via their opt-out form (https://lenso.ai/opt-out) or by replying with one. Declined to submit a photo through this automated pass -- a biometric submission is a bigger decision than the rest of the request and belongs to the subject to make deliberately, not by default. Replied saying so and closing the thread for now. **This needs the subject himself**: if he wants this pursued further, he has to decide whether to send a photo (via the opt-out form, not email, to avoid a plaintext image sitting in a mail thread) and is the only one who can make that call.
 - Note: Emailed contact@lenso.ai 2026-09-17 (they also publish a dedicated
   opt-out page — see below, worth using directly on a re-check or follow-up).
   Reverse image/facial search; asked about any indexed image or biometric
@@ -31,6 +32,11 @@
   photo handed to a facial-recognition company to prove a negative is exactly
   the kind of over-submission this project avoids. Consider using the opt-out
   page instead, which may not require one.
+- CONFIRMED 2026-09-18, not just predicted: their own DPO reply states name/
+  surname/email cannot locate anything in the Face Search index, full stop --
+  a photo is the only key that works. So a name-only letter to this kind of
+  product will always come back "cannot determine" rather than a real nil,
+  and that is not evidence of no record. Do not read it as a clean negative.
 
 ## Verification
 

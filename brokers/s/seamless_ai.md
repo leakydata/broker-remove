@@ -8,7 +8,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-02)
+- Current: `confirmed` (updated 2026-09-17)
+- Note: 2026-09-17 SUBSTANTIVE CLOSE. Reply to the 2026-08-20 letter (sent separately by email, not just the web form) itemised the full assembled profile before erasure -- every prior job title/employer going back to a paper route, a dozen phone numbers, and ~40 email addresses including many the subject never supplied (aliases of the pattern `[first]-[last]@[employer-domain]` and `[initial][last]@[employer-domain]` at multiple past employers -- addresses INFERRED from name+employer patterns he never gave them, i.e. Seamless assembled these itself rather than merely storing what was submitted). States personal data is erased; retains only name+email "for recordkeeping...and to support your suppression request." Named upstream sources only by category (third parties, service providers, public sources, CRM/professional-network/social platforms), declined to itemise recipients citing "impossible or disproportionate effort" -- a real limit, not obviously a dodge, for a subscription re-sale business with an unbounded customer count. Letter explicitly states it "serves as a record of completion of your opt-out and suppression requests."
 - Note: REVERTED 2026-09-02, SAME DAY (SILENT_FAILURES 287). I moved this row to email_pending an hour earlier on the strength of an unconfirmed-looking verification email sitting in the inbox. THE ROW'S OWN HISTORY ALREADY SAID THE VERIFICATION WAS COMPLETED -- variously 'email verification clicked', 'Your request is confirmed!', 'successfully verified', or a later substantive reply that could only have followed confirmation. A verification mail stays in the inbox forever because nobody archives it; ITS PRESENCE IS NOT EVIDENCE THAT IT WAS NEVER USED. Nine of the ten rows I downgraded were already verified. Restored to submitted, which is what the evidence supports.
 
 ## Steps

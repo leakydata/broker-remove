@@ -7,7 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-12)
+- Current: `confirmed` (updated 2026-09-17)
+- Note: 2026-09-17 CLOSED, SITE DEFUNCT. Reply from privacy@cisnationwide.com (ticket 555195): "courtrecordfinder.com is no longer active and all information has been removed from that domain. As such, your request is now moot." Marked final by the company. This is the company's OWN registered contact for the domain answering, not a guess -- treat as a genuine confirmation that the site (and therefore any listing on it) is gone, not merely an unverified claim.
 - Note: TICKETED IN FOUR SECONDS, 2026-09-12: 'Your request (555195) has been received and is being reviewed by our support staff' from privacy@cisnationwide.com, delivered by Zendesk. A REAL REFERENCE NUMBER on first contact, which is more than most give -- 555195 is now the handle for this row and makes the request checkable independently of anything else. The address was Optery-published and it works. Substance still pending; this is an intake acknowledgement, not an answer (SF 403).
 
 ## Steps
@@ -30,7 +31,11 @@
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+The company itself says courtrecordfinder.com is no longer active, so the
+usual "re-run the search URL" check does not apply -- the site is gone, not
+merely the listing. If the domain is ever reactivated (by CIS Nationwide or a
+successor), re-check for a listing under the same name/address set before
+assuming this stays closed.
 
 ## If they ignore you
 

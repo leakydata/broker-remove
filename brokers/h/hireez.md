@@ -7,7 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-18)
+- Current: `confirmed` (updated 2026-09-17)
+- Note: 2026-09-17 SUBSTANTIVE REPLY, AND THREE NEW UPSTREAM LEADS. "hireEZ honors data deletion requests for all candidates in our system and we have completed your request. We no longer possess any information about you." Named and itemised the specific third parties it sourced candidate data from, each with its own opt-out route: **Alpha Data Labs** (privacy@alphadatalabs.com), **Operia/Xverum** (https://www.xverum.com/dontusemydata/), **People Data Labs** (https://www.peopledatalabs.com/do-not-sell-or-share). None of the three were previously in this registry -- added 2026-09-18 as `alpha_data_labs`, `xverum`, `people_data_labs`. This is the useful pattern for any recruiting/sourcing tool: ask who they source FROM, not only what they hold, because the upstream supplier is usually a bigger and less visible target than the tool itself.
 - Note: Recruiting-profile platform. Professional identifiers rather than home address; delete the ASSEMBLED profile including predicted openness to a move; and the ask most likely to be missed - which customers exported the profile into an ATS, since that copy is beyond their deletion and is the one that contacts you. Plus suppression against re-ingestion, since an index rebuilt from public sources reconstructs the profile at the next crawl.
 
 ## Steps

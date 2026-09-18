@@ -6,7 +6,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-17)
+- Current: `not_found` (updated 2026-09-17)
+- Note: 2026-09-17 reply: "We have no current private information regarding these numbers on Telguarder.com." A clean nil across the full phone list (current + eleven prior numbers) rather than only the current one -- but the reply did not say whether a control query was run, so treat as an honest but unverified negative, per the standard caveat.
 - Note: Emailed support@telguarder.com 2026-09-17. Caller ID / call-blocking
   app; used the phone-first letter, led with current and eleven prior
   numbers, and named spam/scam ratings attached to a number as a category

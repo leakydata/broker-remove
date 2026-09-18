@@ -6,7 +6,8 @@
 
 ## Status
 
-- Current: `acknowledged` (updated 2026-09-12)
+- Current: `replied` (updated 2026-09-18)
+- Note: 2026-09-18: five days after the intake ticket, a human (Anna, Customer Service Manager) replied that they "have not been able to authenticate you based on our records" and asked for name plus the address/property report the request concerns, to verify identity -- a proportionate ask (no government ID, no account), just under-informed: both were already in the original letter. Replied re-stating name and the full address list (current + all priors, since PropertyShark's records are address-keyed). Awaiting their substantive answer.
 - Note: support@propertyshark.com auto-acknowledged in FOURTEEN SECONDS, 2026-09-12 12:14:46 UTC: 'Your request (3039716) has been received and is being reviewed by our support team.' Zendesk intake. Receipt only -- unlike the Greenhouse pattern (443) this one does not claim completion, which is the correct behaviour for an automated acknowledgement.
 
 ## Steps

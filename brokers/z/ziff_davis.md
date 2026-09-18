@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-30)
+- Current: `confirmed` (updated 2026-09-18)
 - Note: 2026-08-30 sent legal@ziffdavis.com as a GROUP letter consolidating three registry rows that all resolve to Ziff Davis: ziff_davis (this address), campaigner_smtp (privacy@ziffdavis.com, already submitted) and everyday_health (its own address, pending). Verified from ziffdavis.com/brands that the portfolio is organised into Technology, Shopping, Lifestyle, Gaming & Entertainment, Health & Wellness, Cybersecurity and Martech -- but deliberately did NOT guess which registered entity sits under which heading, and asked instead. Two structural asks: does a request here cover the group (offered to stand the other two down), and PLEASE NAME the consumer-facing brands holding visitor data, since a portfolio this size is exactly where a person removes themselves from three properties, believes they are done, and is wrong. HEALTH-SPECIFIC section for the Health & Wellness category: a person reading about a condition on a consumer health site is not shopping -- the page visited IS the sensitive fact, implying a condition, a symptom, a diagnosis in the family or a fear -- so asked what health attribute is attached INCLUDING anything inferred from pages read rather than stated, and whether any health-adjacent segment has been activated to advertisers. 1798.121 limit-use invoked separately. Carries the new 193/194 key-set asks and the cap.
+- Note: 2026-09-18 -- Ziff Davis' OneTrust privacy portal sent a "Your privacy-related request has been completed" notice (Request ID JTG25TC27Z), with no itemisation of which of the three consolidated rows it covers or what was found. Recorded as `confirmed` on the strength of the broker's own completion notice, but the scope question from the 8/30 letter (does this cover the group, and which brands hold visitor data) was never answered in writing -- worth re-asking if a listing resurfaces on any Ziff Davis property.
 
 ## Steps
 
@@ -30,7 +31,14 @@
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+Ziff Davis is a media holding company with no single subject-search page --
+verification means re-checking the individual consumer-facing brands
+(PCMag, Mashable, IGN, etc.) named in ziffdavis.com/brands for any bylined
+or profile mention of the subject, rather than one central URL. The OneTrust
+completion notice (Request ID JTG25TC27Z) is the primary evidence and gives
+no per-brand breakdown -- if a listing resurfaces on any brand site, re-open
+by quoting that request ID and asking which brand's data was actually
+searched.
 
 ## Who they are, and how to reach them
 

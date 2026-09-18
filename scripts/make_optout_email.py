@@ -67,8 +67,9 @@ To help you locate my records, my identifying details are:
 I am exercising rights available to me under applicable state consumer privacy
 law, including the California Consumer Privacy Act as amended by the CPRA
 (Cal. Civ. Code 1798.105 and 1798.120) where applicable, and comparable statutes
-in other states. If you believe you are not subject to these statutes, I ask that
-you honor this request as a matter of your published privacy policy.
+in other states. If you believe you are not subject to these statutes, or that I
+do not reside in a covered state, I ask that you honor this request as a matter
+of your published privacy policy, and tell me in writing which basis you applied.
 
 Please confirm in writing when this request has been completed, and tell me the
 categories of personal information you held about me at the time of deletion.

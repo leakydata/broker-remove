@@ -7,7 +7,8 @@
 
 ## Status
 
-- Current: `confirmed` (updated 2026-08-25)
+- Current: `confirmed` (updated 2026-09-17)
+- Note: 2026-09-17 CLOSED THE OUTSTANDING QUESTIONS. "When we remove/opt-out a consumer, we remove and opt out ALL of the data we have about them including other devices (MAIDs, CTV, etc...) When we license our graph we license it as a complete refresh so that we do not need to send any signals to our customers about your opt-out, instead you are deleted and then when our clients get the refresh your data is no longer there." This answers both items left open on 8/25: deletion DOES reach linked device/identifier edges (not just the matched email rows), and propagation to exchange partners happens automatically via the refresh-licensing model rather than needing an explicit per-partner signal -- a genuinely better architecture than most identity graphs, which either don't propagate at all or rely on partners to honour a signal they may ignore. The one thing still unanswered across both replies: whether hashed-email forms are covered by the same removal (asked twice, never addressed) -- worth a fresh, single-question follow-up if this row is revisited.
 - Note: 2026-08-25: ITEMISED. 4 of 12 emails matched - [EMAIL], [EMAIL], [EMAIL], [EMAIL] - each removed with associated data, and ALL TWELVE opted out from future use in the platform, i.e. standing suppression applied to addresses they did not hold. NOTABLE: all four matches are long-dead addresses (gateway.net and iwon.com are defunct ISPs); zero current addresses matched. Hashed-forms, edges and exchange-propagation questions still outstanding.
 
 ## Steps
@@ -30,7 +31,12 @@
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+BDEX has no consumer-facing lookup page (it is a backend identity graph/
+exchange, not a directory), so there is no URL to re-check. Confirmation
+rests on the company's own written replies: the 8/25 itemised match list and
+the 9/17 statement that removal covers linked devices/identifiers and
+propagates via the refresh-licensing model. If this needs re-verifying,
+re-send the same 12 email addresses and ask whether any now match again.
 
 ## Who they are, and how to reach them
 

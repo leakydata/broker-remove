@@ -35,7 +35,11 @@
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+Nothing to verify -- the domain does not resolve (NXDOMAIN), so no listing is
+currently reachable by anyone, not just by this project. Re-probe DNS
+(`host ncprofiles.com` or equivalent) periodically; if the domain is ever
+re-registered, check for a re-published listing under the subject's name
+before assuming the old data is gone for good.
 
 ## If they ignore you
 

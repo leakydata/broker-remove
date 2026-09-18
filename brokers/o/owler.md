@@ -6,7 +6,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-17)
+- Current: `submitted` (updated 2026-09-18)
+- Note: 2026-09-18 DEFLECTION AND CLARIFICATION. First reply checked whether the supplied email addresses have an Owler ACCOUNT ("does not have any account associated with Owler") -- a different question from whether the subject appears as a named contact in Owler's company-profile database, which is what the letter actually asked about. This is a recognisable pattern: a support desk runs the easiest available query (account lookup) and answers that instead of the harder one (profile-database search) without saying it did so. Replied clarifying the distinction explicitly and asking them to re-run the check against the company-profile/people-data side. Awaiting a second reply.
 - Note: Emailed support@owler.com 2026-09-17. Company-intelligence/competitor
   tracking product with named-executive profiles — used the B2B contact-
   enrichment variant (name variants and phone numbers led, personal email
@@ -22,6 +23,13 @@
 
 ## Gotchas
 
+- WATCH FOR THE "NO ACCOUNT" DEFLECTION. A request about being LISTED in the
+  product (a company-profile database) can get answered as if it asked about
+  having an ACCOUNT with the product -- two different questions that produce
+  the same reassuring-sounding "no record" answer. If a reply says the
+  supplied emails have no account, that says nothing about whether the
+  person is a named contact/executive on a company page. Ask explicitly for
+  the profile-database side to be checked, by name, not just by email.
 - The subject has no known executive listing; if a reply cites a company
   association, ask which company and why, since that would indicate a
   mismatch to a different person of the same name rather than a real record — see the

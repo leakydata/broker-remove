@@ -1,6 +1,18 @@
 {
   "_doc": "Addresses that have hard-bounced. The domain-level deliverability check in check_email_domains.py cannot see these: the domain resolves, the MX records answer, and only the MAILBOX is absent. Nothing short of sending finds that out, so once found it must be written down. Keyed by lowercase address. queue_batch.py refuses to send to anything listed here.\n\nEach entry carries a `kind`, which is the useful field: it says what the failure MEANS and therefore what to do next. `no_such_mailbox` -- find another address. `restricted_group` -- an internal-only alias that works for staff and rejects every consumer, so tell the company, because they think it works. `departed_employee` -- the mailbox is fine and the person is gone; use the named successor. `accepts_then_fails` -- the server accepts and only afterwards fails to every recipient, so it LOOKS delivered; do not retry, escalate to whoever is still solvent. `dead_domain` -- check for a re-registration by a stranger before sending anything.\n\nKinds were backfilled on 2026-08-29 from the free-text evidence of 56 entries that had been recorded as bare strings. The evidence string is preserved verbatim in every case; nothing was rewritten, only classified.\n\nTwo further kinds, each recorded once and each meaning something the others do not. `null_mx`: the domain publishes RFC 7505 null MX, an explicit declaration that it accepts no mail at all -- configuration rather than decay, so no amount of retrying or investigating will help. `rejected_ambiguous`: the server refused the message and it is genuinely unclear whether the mailbox is dead or the server is filtering unfamiliar senders; that one is deliberately left unsettled rather than recorded wrongly.",
   "addresses": {
+    "info@ncprofiles.com": {
+      "kind": "dead_domain",
+      "observed": "2026-09-17",
+      "evidence": "NXDOMAIN, 2026-09-17. ncprofiles.com does not resolve at all -- not merely a bad mailbox.",
+      "response": "The domain itself is gone. Check for a re-registration by a stranger before sending anything."
+    },
+    "support@reversecallerlookup.com": {
+      "kind": "no_such_mailbox",
+      "observed": "2026-09-12",
+      "evidence": "550 \"No Such User Here\", 2026-09-12. Domain resolves (162.214.79.98) and the privacy-policy path returns HTTP 200, but the body is empty to an automated fetch (client-rendered JS site) -- no alternate address could be extracted this way.",
+      "response": "Needs a human with a real browser to load the site and find a working contact route or web form."
+    },
     "admin@sawyerdatadirect.com": {
       "kind": "no_such_mailbox",
       "observed": "2026-08-26",

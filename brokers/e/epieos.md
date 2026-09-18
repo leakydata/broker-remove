@@ -6,7 +6,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-17)
+- Current: `not_found` (updated 2026-09-17)
+- Note: 2026-09-17 reply answers the structural question cleanly: "these results are made in real time and are not stored on Epieos's side" -- confirming this is a LIVE lookup over public social-network data, not a stored index, so there is nothing here to delete or suppress as "a record." The only lever is the underlying social accounts/privacy settings, which the reply correctly points out is outside Epieos's control. The reply opened with "couldn't find any account linked to your e-mail" -- the same account/profile conflation seen at Owler -- but here it's followed by a real, substantive answer rather than left as the whole response, so this is treated as resolved rather than a bare deflection. (They also asked, oddly, where the subject first heard of them -- not answered, no obligation to.)
 - Note: Emailed contact@epieos.com 2026-09-17. OSINT email/phone lookup
   (linking an address to other accounts/profiles). Asked directly whether the
   product queries third parties live versus maintaining a stored index, since

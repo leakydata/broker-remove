@@ -15742,9 +15742,10 @@
       "optery_url": "https://www.optery.com/data-brokers/ncprofiles-com/",
       "route_evidence": "optery_directory",
       "email_to": "info@ncprofiles.com",
-      "email_verified": true,
-      "email_verified_by": "optery_directory",
-      "category_hint": "People Search"
+      "email_verified": false,
+      "email_verified_by": "bounced",
+      "category_hint": "People Search",
+      "notes": "info@ncprofiles.com hard-bounced 2026-09-17: NXDOMAIN, ncprofiles.com does not resolve in DNS at all. Not a mailbox problem -- the domain itself is gone. Was previously marked email_verified via optery_directory listing alone, which only means the address appeared in a third-party directory, not that delivery was ever confirmed. Check for a re-registration by a stranger before sending anything further."
     },
     {
       "id": "near_kroll_estate",
@@ -26890,7 +26891,58 @@
       "category_source": "manual 2026-09-13",
       "listing_basis": "discovered",
       "notes": "Email discovered and used 2026-09-12 -- the published privacy contact routes to a press desk, so this address was found elsewhere on the site instead. No reply yet."
+    },
+    {
+      "id": "alpha_data_labs",
+      "name": "Alpha Data Labs",
+      "domain": "alphadatalabs.com",
+      "priority": 3,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "broker_disclosure",
+      "email_to": "privacy@alphadatalabs.com",
+      "email_verified": false,
+      "email_verified_by": null,
+      "category": "b2b_contact",
+      "category_source": "manual 2026-09-18",
+      "listing_basis": "discovered",
+      "notes": "Not previously in the registry. Named 2026-09-18 by hireEZ (id: hireez) in a data-subject-access reply as one of the third parties it sources candidate contact data from, with this address given as the opt-out contact. Provenance is hireEZ's disclosure, not this company's own site or a state filing -- email_verified left false until a reply or bounce confirms it directly."
+    },
+    {
+      "id": "xverum",
+      "name": "Xverum (Operia)",
+      "domain": "xverum.com",
+      "priority": 3,
+      "method": "web_form",
+      "optout_url": "https://www.xverum.com/dontusemydata/",
+      "needs_email_confirm": null,
+      "source": "broker_disclosure",
+      "email_to": "",
+      "email_verified": false,
+      "email_verified_by": null,
+      "category": "b2b_contact",
+      "category_source": "manual 2026-09-18",
+      "listing_basis": "discovered",
+      "notes": "Not previously in the registry. Named 2026-09-18 by hireEZ (id: hireez) as a third-party source of candidate contact data, operating as \"Operia/Xverum\"; hireEZ pointed to this dedicated opt-out form (no email route published or offered). Browser-gated -- needs a human to complete the form."
+    },
+    {
+      "id": "people_data_labs",
+      "name": "People Data Labs",
+      "domain": "peopledatalabs.com",
+      "priority": 5,
+      "method": "web_form",
+      "optout_url": "https://www.peopledatalabs.com/do-not-sell-or-share",
+      "needs_email_confirm": null,
+      "source": "broker_disclosure",
+      "email_to": "",
+      "email_verified": false,
+      "email_verified_by": null,
+      "category": "b2b_contact",
+      "category_source": "manual 2026-09-18",
+      "listing_basis": "discovered",
+      "notes": "Not previously in the registry despite being one of the largest identity-data aggregators feeding B2B enrichment and recruiting tools -- named 2026-09-18 by hireEZ (id: hireez) as a source of candidate contact data, with this do-not-sell form given as the opt-out route. No email contact confirmed here; browser-gated form needs a human to complete."
     }
   ],
-  "count": 1402
+  "count": 1405
 }

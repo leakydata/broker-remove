@@ -6,7 +6,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-17)
+- Current: `replied` (updated 2026-09-18)
+- Note: 2026-09-18 PARTIAL, IGNORED THE MAIN ASK. Reply: "We've deleted the contact information with [one of the four email addresses]. The contact information with the other mentioned emails is not in our database." The letter explicitly said email was the least likely key to match for this product and led with name variants and phone numbers instead -- the reply answered only the email search and said nothing about phone/name, the pattern-generated-address question, or the customer-export question. Replied re-asking those three specifically. Do not read the "not in our database" line as a clean nil; it only covers emails.
 - Note: Emailed support@closelyhq.com 2026-09-17. LinkedIn-based sales
   prospecting tool — used the B2B contact-enrichment variant, and additionally
   flagged that the product may connect to a customer's own LinkedIn account
