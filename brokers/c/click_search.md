@@ -7,7 +7,8 @@
 
 ## Status
 
-- Current: `pending`
+- Current: `submitted` (updated 2026-09-18)
+- Note: 2026-09-18 sent the standard consumer deletion/opt-out/suppression letter to the registry contact address (part of the 2026-09-18 batch send). No reply yet.
 
 ## Steps
 

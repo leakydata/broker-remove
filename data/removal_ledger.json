@@ -149,6 +149,11 @@
     "changed": "2026-08-15",
     "via": "reply"
   },
+  "addresssearch_com": {
+    "status": "submitted",
+    "changed": "2026-09-18",
+    "via": null
+  },
   "adeptid": {
     "status": "submitted",
     "changed": "2026-08-24",
@@ -178,6 +183,11 @@
     "status": "manual_required",
     "changed": "2026-09-12",
     "via": "email"
+  },
+  "adstra_american_list_counsel": {
+    "status": "submitted",
+    "changed": "2026-09-18",
+    "via": null
   },
   "adswizz": {
     "status": "submitted",
@@ -328,6 +338,16 @@
     "status": "submitted",
     "changed": "2026-08-17",
     "via": null
+  },
+  "allpeople_biz": {
+    "status": "submitted",
+    "changed": "2026-09-18",
+    "via": null
+  },
+  "alpha_data_labs": {
+    "status": "submitted",
+    "changed": "2026-09-18",
+    "via": "email"
   },
   "alphonso": {
     "status": "submitted",
@@ -639,6 +659,11 @@
     "changed": "2026-08-25",
     "via": null
   },
+  "bay_collective_ip": {
+    "status": "submitted",
+    "changed": "2026-09-18",
+    "via": "email"
+  },
   "bb_direct": {
     "status": "submitted",
     "changed": "2026-08-25",
@@ -844,6 +869,11 @@
     "changed": "2026-08-25",
     "via": null
   },
+  "business_cheshire": {
+    "status": "submitted",
+    "changed": "2026-09-18",
+    "via": "email"
+  },
   "business_watch_network": {
     "status": "submitted",
     "changed": "2026-08-17",
@@ -973,6 +1003,11 @@
     "status": "submitted",
     "changed": "2026-08-17",
     "via": null
+  },
+  "cause_iq": {
+    "status": "submitted",
+    "changed": "2026-09-18",
+    "via": "email"
   },
   "cb_insights": {
     "status": "email_pending",
@@ -1104,6 +1139,11 @@
     "changed": "2026-08-25",
     "via": null
   },
+  "click_search": {
+    "status": "submitted",
+    "changed": "2026-09-18",
+    "via": "email"
+  },
   "clickagy": {
     "status": "submitted",
     "changed": "2026-08-25",
@@ -1120,8 +1160,8 @@
     "via": "email"
   },
   "closely": {
-    "status": "submitted",
-    "changed": "2026-09-17",
+    "status": "replied",
+    "changed": "2026-09-18",
     "via": "email"
   },
   "cloudlead": {
@@ -1244,6 +1284,11 @@
     "changed": "2026-08-16",
     "via": null
   },
+  "connecticutarrests_org": {
+    "status": "submitted",
+    "changed": "2026-09-18",
+    "via": null
+  },
   "connecticutcourtrecords_us": {
     "status": "submitted",
     "changed": "2026-08-16",
@@ -1325,8 +1370,8 @@
     "via": "email"
   },
   "courtrecordfinder_com": {
-    "status": "submitted",
-    "changed": "2026-09-12",
+    "status": "confirmed",
+    "changed": "2026-09-18",
     "via": "email"
   },
   "courtrecords_us": {
@@ -1369,6 +1414,11 @@
     "changed": "2026-08-17",
     "via": "email"
   },
+  "criminalregistry_org": {
+    "status": "submitted",
+    "changed": "2026-09-18",
+    "via": null
+  },
   "crisil_irevna_us_llc": {
     "status": "submitted",
     "changed": "2026-09-16",
@@ -1398,6 +1448,11 @@
     "status": "submitted",
     "changed": "2026-08-23",
     "via": null
+  },
+  "ct_company_directory": {
+    "status": "submitted",
+    "changed": "2026-09-18",
+    "via": "email"
   },
   "cuebiq": {
     "status": "submitted",
@@ -1432,6 +1487,11 @@
   "d_dots": {
     "status": "failed",
     "changed": "2026-08-17",
+    "via": "email"
+  },
+  "dark_reading": {
+    "status": "submitted",
+    "changed": "2026-09-18",
     "via": "email"
   },
   "data_decisions": {
@@ -1629,6 +1689,11 @@
     "changed": "2026-08-16",
     "via": null
   },
+  "delawarearrests_org": {
+    "status": "submitted",
+    "changed": "2026-09-18",
+    "via": null
+  },
   "delawarecourtrecords_us": {
     "status": "submitted",
     "changed": "2026-08-16",
@@ -1809,6 +1874,11 @@
     "changed": "2026-09-12",
     "via": "email"
   },
+  "dtm_deutsche_tele_medien": {
+    "status": "submitted",
+    "changed": "2026-09-18",
+    "via": "email"
+  },
   "dtn": {
     "status": "manual_required",
     "changed": "2026-08-18",
@@ -1919,6 +1989,11 @@
     "changed": "2026-08-18",
     "via": "email"
   },
+  "eniro_ab": {
+    "status": "submitted",
+    "changed": "2026-09-18",
+    "via": "email"
+  },
   "enlyft": {
     "status": "submitted",
     "changed": "2026-08-27",
@@ -1940,8 +2015,8 @@
     "via": "email"
   },
   "epieos": {
-    "status": "submitted",
-    "changed": "2026-09-17",
+    "status": "not_found",
+    "changed": "2026-09-18",
     "via": "email"
   },
   "eprodirect": {
@@ -2044,6 +2119,11 @@
     "changed": "2026-08-23",
     "via": null
   },
+  "ezlocal_com": {
+    "status": "submitted",
+    "changed": "2026-09-18",
+    "via": "email"
+  },
   "factori": {
     "status": "submitted",
     "changed": "2026-08-18",
@@ -2104,6 +2184,11 @@
     "changed": "2026-08-31",
     "via": "email"
   },
+  "fifty": {
+    "status": "submitted",
+    "changed": "2026-09-18",
+    "via": null
+  },
   "finalscout": {
     "status": "submitted",
     "changed": "2026-09-01",
@@ -2112,6 +2197,11 @@
   "finalsite": {
     "status": "submitted",
     "changed": "2026-09-01",
+    "via": "email"
+  },
+  "find_us_local": {
+    "status": "submitted",
+    "changed": "2026-09-18",
     "via": "email"
   },
   "findaneighborhood": {
@@ -2204,6 +2294,11 @@
     "changed": "2026-08-16",
     "via": null
   },
+  "floridaarrests_org": {
+    "status": "submitted",
+    "changed": "2026-09-18",
+    "via": null
+  },
   "floridacourtrecords_us": {
     "status": "submitted",
     "changed": "2026-08-16",
@@ -2228,6 +2323,11 @@
     "status": "not_found",
     "changed": "2026-08-27",
     "via": "reply"
+  },
+  "foller_me": {
+    "status": "submitted",
+    "changed": "2026-09-18",
+    "via": null
   },
   "forager_ai": {
     "status": "submitted",
@@ -2278,6 +2378,11 @@
     "status": "submitted",
     "changed": "2026-08-18",
     "via": "email"
+  },
+  "free_people_directory": {
+    "status": "submitted",
+    "changed": "2026-09-18",
+    "via": null
   },
   "freebackgroundcheck_org": {
     "status": "failed",
@@ -2368,6 +2473,11 @@
     "status": "submitted",
     "changed": "2026-08-27",
     "via": null
+  },
+  "genius_media_group": {
+    "status": "submitted",
+    "changed": "2026-09-18",
+    "via": "email"
   },
   "georgia_arrests": {
     "status": "submitted",
@@ -2564,14 +2674,19 @@
     "changed": "2026-08-31",
     "via": "email"
   },
+  "hearst_communications": {
+    "status": "submitted",
+    "changed": "2026-09-18",
+    "via": "email"
+  },
   "heartbeat_ai": {
     "status": "submitted",
     "changed": "2026-08-18",
     "via": "reply"
   },
   "helix_campaigns": {
-    "status": "submitted",
-    "changed": "2026-08-27",
+    "status": "confirmed",
+    "changed": "2026-09-18",
     "via": null
   },
   "here_north_america": {
@@ -2590,8 +2705,8 @@
     "via": null
   },
   "hireez": {
-    "status": "submitted",
-    "changed": "2026-08-18",
+    "status": "confirmed",
+    "changed": "2026-09-18",
     "via": "email"
   },
   "hireright": {
@@ -2624,6 +2739,16 @@
     "changed": "2026-08-18",
     "via": null
   },
+  "homeyou": {
+    "status": "submitted",
+    "changed": "2026-09-18",
+    "via": "email"
+  },
+  "houston_association_of_realtors": {
+    "status": "submitted",
+    "changed": "2026-09-18",
+    "via": "email"
+  },
   "hubspot": {
     "status": "manual_required",
     "changed": "2026-08-28",
@@ -2652,6 +2777,11 @@
   "i360": {
     "status": "submitted",
     "changed": "2026-08-18",
+    "via": "email"
+  },
+  "ibegin": {
+    "status": "submitted",
+    "changed": "2026-09-18",
     "via": "email"
   },
   "id5": {
@@ -2979,6 +3109,11 @@
     "changed": "2026-08-28",
     "via": "email"
   },
+  "jhonata_menezes_dos_santos_desenvolvimento": {
+    "status": "submitted",
+    "changed": "2026-09-18",
+    "via": "email"
+  },
   "jigyasa_analytics": {
     "status": "submitted",
     "changed": "2026-08-28",
@@ -3190,8 +3325,8 @@
     "via": "email"
   },
   "lenso_ai": {
-    "status": "submitted",
-    "changed": "2026-09-17",
+    "status": "manual_required",
+    "changed": "2026-09-18",
     "via": "email"
   },
   "lexisnexis": {
@@ -3252,6 +3387,11 @@
   "lionshare": {
     "status": "confirmed",
     "changed": "2026-08-27",
+    "via": "email"
+  },
+  "lis_cross_national_data_center_in_luxembourg": {
+    "status": "submitted",
+    "changed": "2026-09-18",
     "via": "email"
   },
   "list_service_direct": {
@@ -3479,6 +3619,11 @@
     "changed": "2026-08-16",
     "via": null
   },
+  "massachusettsarrests_org": {
+    "status": "submitted",
+    "changed": "2026-09-18",
+    "via": null
+  },
   "match_and_append": {
     "status": "unreachable",
     "changed": "2026-08-19",
@@ -3634,6 +3779,11 @@
     "changed": "2026-08-28",
     "via": "web"
   },
+  "mississippiarrests_org": {
+    "status": "submitted",
+    "changed": "2026-09-18",
+    "via": null
+  },
   "mississippicourtrecords_us": {
     "status": "submitted",
     "changed": "2026-08-16",
@@ -3667,6 +3817,11 @@
   "mobility_global_s_p_global": {
     "status": "manual_required",
     "changed": "2026-09-11",
+    "via": "email"
+  },
+  "modern_hire": {
+    "status": "submitted",
+    "changed": "2026-09-18",
     "via": "email"
   },
   "modfx_labs": {
@@ -3722,6 +3877,11 @@
   "moody_s_analytics": {
     "status": "submitted",
     "changed": "2026-08-25",
+    "via": null
+  },
+  "morningstar": {
+    "status": "submitted",
+    "changed": "2026-09-18",
     "via": null
   },
   "mortgage_rates_pro_online_mortgage_loans_best_auto_insurance": {
@@ -3794,6 +3954,11 @@
     "changed": "2026-08-19",
     "via": "reply"
   },
+  "native_american_netroots": {
+    "status": "submitted",
+    "changed": "2026-09-18",
+    "via": "email"
+  },
   "nativo": {
     "status": "submitted",
     "changed": "2026-08-29",
@@ -3844,6 +4009,11 @@
     "changed": "2026-08-29",
     "via": "email"
   },
+  "nestfully": {
+    "status": "submitted",
+    "changed": "2026-09-18",
+    "via": "email"
+  },
   "netwise": {
     "status": "submitted",
     "changed": "2026-08-19",
@@ -3889,6 +4059,11 @@
     "changed": "2026-09-05",
     "via": "email"
   },
+  "new_work_se": {
+    "status": "submitted",
+    "changed": "2026-09-18",
+    "via": "email"
+  },
   "new_york_arrests": {
     "status": "submitted",
     "changed": "2026-08-16",
@@ -3898,6 +4073,11 @@
     "status": "submitted",
     "changed": "2026-08-26",
     "via": "email"
+  },
+  "newhampshirearrests_org": {
+    "status": "submitted",
+    "changed": "2026-09-18",
+    "via": null
   },
   "newhampshirecourtrecords_us": {
     "status": "submitted",
@@ -3909,14 +4089,29 @@
     "changed": "2026-08-26",
     "via": "email"
   },
+  "newjerseyarrests_org": {
+    "status": "submitted",
+    "changed": "2026-09-18",
+    "via": null
+  },
   "newjerseycourtrecords_us": {
     "status": "submitted",
     "changed": "2026-08-16",
     "via": null
   },
+  "newmexicoarrests_org": {
+    "status": "submitted",
+    "changed": "2026-09-18",
+    "via": null
+  },
   "newmexicocourtrecords_us": {
     "status": "submitted",
     "changed": "2026-08-16",
+    "via": null
+  },
+  "newyorkarrests_org": {
+    "status": "submitted",
+    "changed": "2026-09-18",
     "via": null
   },
   "newyorkcourtrecords_us": {
@@ -3974,6 +4169,11 @@
     "changed": "2026-09-01",
     "via": "email"
   },
+  "noon_ai": {
+    "status": "submitted",
+    "changed": "2026-09-18",
+    "via": null
+  },
   "nordic_data_resources_as": {
     "status": "replied",
     "changed": "2026-09-05",
@@ -3994,6 +4194,11 @@
     "changed": "2026-08-16",
     "via": null
   },
+  "northcarolinaarrests_org": {
+    "status": "submitted",
+    "changed": "2026-09-18",
+    "via": null
+  },
   "northcarolinacourtrecords_us": {
     "status": "submitted",
     "changed": "2026-08-16",
@@ -4003,6 +4208,11 @@
     "status": "submitted",
     "changed": "2026-08-26",
     "via": "email"
+  },
+  "northdakotaarrests_org": {
+    "status": "submitted",
+    "changed": "2026-09-18",
+    "via": null
   },
   "northdakotacourtrecords_us": {
     "status": "submitted",
@@ -4033,6 +4243,11 @@
     "status": "submitted",
     "changed": "2026-08-19",
     "via": "reply"
+  },
+  "numlooker": {
+    "status": "submitted",
+    "changed": "2026-09-18",
+    "via": null
   },
   "numlookup": {
     "status": "submitted",
@@ -4074,6 +4289,11 @@
     "changed": "2026-08-16",
     "via": null
   },
+  "ohio_resident_directory": {
+    "status": "submitted",
+    "changed": "2026-09-18",
+    "via": null
+  },
   "ohiocourtrecords_us": {
     "status": "submitted",
     "changed": "2026-08-16",
@@ -4088,6 +4308,11 @@
     "status": "submitted",
     "changed": "2026-08-16",
     "via": null
+  },
+  "oms_small_medium_businesses_directory": {
+    "status": "submitted",
+    "changed": "2026-09-18",
+    "via": "email"
   },
   "onaudience": {
     "status": "submitted",
@@ -4144,6 +4369,11 @@
     "changed": "2026-08-19",
     "via": "web"
   },
+  "openpublicrecords": {
+    "status": "submitted",
+    "changed": "2026-09-18",
+    "via": null
+  },
   "opensend": {
     "status": "submitted",
     "changed": "2026-08-29",
@@ -4179,9 +4409,19 @@
     "changed": "2026-08-23",
     "via": null
   },
+  "orbitly": {
+    "status": "submitted",
+    "changed": "2026-09-18",
+    "via": null
+  },
   "oregon_arrests": {
     "status": "submitted",
     "changed": "2026-08-16",
+    "via": null
+  },
+  "oregonarrests_org": {
+    "status": "submitted",
+    "changed": "2026-09-18",
     "via": null
   },
   "oregoncourtrecords_us": {
@@ -4234,9 +4474,19 @@
     "changed": "2026-08-15",
     "via": "reply"
   },
+  "oxford_university_press": {
+    "status": "submitted",
+    "changed": "2026-09-18",
+    "via": "email"
+  },
   "pacificeast": {
     "status": "submitted",
     "changed": "2026-08-19",
+    "via": "email"
+  },
+  "pages_jaunes_solutions_numeriques_et_medias_limitee": {
+    "status": "submitted",
+    "changed": "2026-09-18",
     "via": "email"
   },
   "parade_pet": {
@@ -4303,6 +4553,11 @@
     "status": "submitted",
     "changed": "2026-09-17",
     "via": "email"
+  },
+  "people_data_labs": {
+    "status": "manual_required",
+    "changed": "2026-09-18",
+    "via": null
   },
   "people_search_org": {
     "status": "manual_required",
@@ -4625,8 +4880,8 @@
     "via": "email"
   },
   "propertyshark": {
-    "status": "manual_required",
-    "changed": "2026-09-12",
+    "status": "replied",
+    "changed": "2026-09-18",
     "via": "email"
   },
   "prospectbase_uk": {
@@ -4674,6 +4929,11 @@
     "changed": "2026-08-29",
     "via": "email"
   },
+  "publicrecordcenter_com": {
+    "status": "submitted",
+    "changed": "2026-09-18",
+    "via": null
+  },
   "publicrecordcom": {
     "status": "confirmed",
     "changed": "2026-08-27",
@@ -4693,6 +4953,11 @@
     "status": "submitted",
     "changed": "2026-08-19",
     "via": "email"
+  },
+  "publicrecordsnow": {
+    "status": "submitted",
+    "changed": "2026-09-18",
+    "via": null
   },
   "publicsearcher": {
     "status": "submitted",
@@ -4753,6 +5018,11 @@
     "status": "confirmed",
     "changed": "2026-08-28",
     "via": "email"
+  },
+  "radaris_germany": {
+    "status": "submitted",
+    "changed": "2026-09-18",
+    "via": null
   },
   "rainbarrel": {
     "status": "submitted",
@@ -5014,6 +5284,11 @@
     "changed": "2026-08-16",
     "via": null
   },
+  "rhodeislandarrests_org": {
+    "status": "submitted",
+    "changed": "2026-09-18",
+    "via": null
+  },
   "rhodeislandcourtrecord_us": {
     "status": "submitted",
     "changed": "2026-08-16",
@@ -5185,13 +5460,18 @@
     "via": "email"
   },
   "seamless_ai": {
-    "status": "submitted",
-    "changed": "2026-09-02",
+    "status": "confirmed",
+    "changed": "2026-09-18",
     "via": "web"
   },
   "search_quarry": {
     "status": "not_found",
     "changed": "2026-08-27",
+    "via": null
+  },
+  "searchbug": {
+    "status": "submitted",
+    "changed": "2026-09-18",
     "via": null
   },
   "searchpeoplefree": {
@@ -5212,6 +5492,11 @@
   "searchsystems_public_records": {
     "status": "unreachable",
     "changed": "2026-08-20",
+    "via": null
+  },
+  "searchusapeople": {
+    "status": "submitted",
+    "changed": "2026-09-18",
     "via": null
   },
   "secretinfo": {
@@ -5314,6 +5599,11 @@
     "changed": "2026-08-20",
     "via": null
   },
+  "simplecontacts": {
+    "status": "submitted",
+    "changed": "2026-09-18",
+    "via": null
+  },
   "simunix": {
     "status": "submitted",
     "changed": "2026-09-02",
@@ -5374,6 +5664,11 @@
     "changed": "2026-08-23",
     "via": null
   },
+  "socialcatfish": {
+    "status": "submitted",
+    "changed": "2026-09-18",
+    "via": null
+  },
   "socialgist": {
     "status": "submitted",
     "changed": "2026-08-30",
@@ -5419,6 +5714,11 @@
     "changed": "2026-08-16",
     "via": null
   },
+  "southcarolinaarrests_org": {
+    "status": "submitted",
+    "changed": "2026-09-18",
+    "via": null
+  },
   "southcarolinacourtrecords_us": {
     "status": "submitted",
     "changed": "2026-08-16",
@@ -5428,6 +5728,11 @@
     "status": "submitted",
     "changed": "2026-08-26",
     "via": "email"
+  },
+  "southdakotaarrests_org": {
+    "status": "submitted",
+    "changed": "2026-09-18",
+    "via": null
   },
   "southdakotacourtrecords_us": {
     "status": "submitted",
@@ -5695,8 +6000,8 @@
     "via": null
   },
   "telguarder_as": {
-    "status": "submitted",
-    "changed": "2026-09-17",
+    "status": "not_found",
+    "changed": "2026-09-18",
     "via": "email"
   },
   "tennessee_arrests": {
@@ -5964,6 +6269,11 @@
     "changed": "2026-08-20",
     "via": "web"
   },
+  "unity": {
+    "status": "submitted",
+    "changed": "2026-09-18",
+    "via": null
+  },
   "unmask": {
     "status": "confirmed",
     "changed": "2026-08-26",
@@ -5993,6 +6303,16 @@
     "status": "submitted",
     "changed": "2026-08-20",
     "via": "email"
+  },
+  "us_search": {
+    "status": "submitted",
+    "changed": "2026-09-18",
+    "via": null
+  },
+  "usa_people_search": {
+    "status": "submitted",
+    "changed": "2026-09-18",
+    "via": null
   },
   "usadata": {
     "status": "replied",
@@ -6074,6 +6394,11 @@
     "changed": "2026-09-12",
     "via": "email"
   },
+  "valassis_rrd": {
+    "status": "submitted",
+    "changed": "2026-09-18",
+    "via": null
+  },
   "vdx_tv": {
     "status": "submitted",
     "changed": "2026-08-20",
@@ -6143,6 +6468,11 @@
     "status": "submitted",
     "changed": "2026-08-20",
     "via": "email"
+  },
+  "vermontarrests_org": {
+    "status": "submitted",
+    "changed": "2026-09-18",
+    "via": null
   },
   "vermontcourtrecords_us": {
     "status": "submitted",
@@ -6284,6 +6614,11 @@
     "changed": "2026-08-16",
     "via": null
   },
+  "westvirginiaarrests_org": {
+    "status": "submitted",
+    "changed": "2026-09-18",
+    "via": null
+  },
   "westvirginiacourtrecords_us": {
     "status": "submitted",
     "changed": "2026-08-16",
@@ -6404,6 +6739,11 @@
     "changed": "2026-08-20",
     "via": null
   },
+  "xverum": {
+    "status": "manual_required",
+    "changed": "2026-09-18",
+    "via": null
+  },
   "yes": {
     "status": "submitted",
     "changed": "2026-08-31",
@@ -6445,9 +6785,14 @@
     "via": "email"
   },
   "ziff_davis": {
-    "status": "submitted",
-    "changed": "2026-08-30",
+    "status": "confirmed",
+    "changed": "2026-09-18",
     "via": "email"
+  },
+  "ziprecruiter": {
+    "status": "submitted",
+    "changed": "2026-09-18",
+    "via": null
   },
   "zipstorm": {
     "status": "submitted",
