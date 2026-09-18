@@ -50,3 +50,57 @@ The letter therefore asks two things a generic one would not: search on the
 institutional identifiers as well, and — if they treat a professional record as
 *business* rather than *consumer* data — say so explicitly and name the basis, rather
 than declining without explanation.
+
+## Who they are, and how to reach them
+
+*Filed by the company itself with a state data broker registry — a public
+record they are legally required to keep current. Use the **legal entity**
+name in any formal demand; it is frequently not the brand on the website.*
+
+- **Legal entity:** MCH Strategic Data
+- **Registered address:** 601 East Marshall Street, Sweet Springs, MO
+  65351, United States
+- **Filed contact email:** privacy@mchdata.com
+- **Website:** http://www.mchdata.com
+- **Opt-out route they filed:** Information can be found at
+  https://www.mchdata.com/about/ccpaemail or call us directly at 800
+  776-6373
+- **Route for protected individuals:** Information can be found at
+  https://www.mchdata.com/about/ccpaemail or call us directly at 800
+  776-6373 (Cal. Gov. Code 6208.1(b) / 6254.21(c)(1) — for survivors of
+  domestic violence, stalking and similar, a stronger and faster route
+  than the ordinary consumer request)
+- **What they say they collect:** MCH Strategic Data is a 90-year-old
+  family business that specializes in business to business data
+  compilation for the market segments of education, healthcare, church
+  and government work address contact information. MCH does not make a
+  practice of compiling personal information on individuals beyond their
+  job titles and work department-level information. Personally
+  descriptive information (age, income, etc) is "not" found in MCH
+  databases.
+
+*Source: `data/registries/complete-reg-data-brokers.csv`.*
+
+## If they ignore you
+
+Work down this list. Each rung costs them more than the one above it.
+
+1. **Reply in the existing thread** after the statutory deadline. California
+   allows 45 days for a deletion request (Cal. Civ. Code 1798.130), extendable
+   once by a further 45 with notice. Quote the date you first wrote.
+2. **Write to the legal entity at the registered address above**, by post, if
+   email has failed. A letter to the address of record is harder to lose than a
+   support ticket, and it establishes a paper trail.
+3. **Complain to the California Attorney General**, who administers the data
+   broker registry: <https://oag.ca.gov/contact/consumer-complaint-against-business-or-company>.
+   A broker's registration is what obliges it to answer; a complaint referencing
+   the registry entry is the pressure point.
+4. **Complain to the FTC**: <https://reportfraud.ftc.gov>. Useful for a pattern
+   of non-response rather than a single case.
+5. **Your own state Attorney General.** Many states with no comprehensive
+   privacy statute still have consumer-protection powers and will take a
+   complaint about a business that ignores its own published policy.
+
+**What not to bother with:** phoning a support line to argue. The person who
+answers cannot change the policy and did not write it. The registry entry, the
+statutory deadline and the regulator are what actually move a company.

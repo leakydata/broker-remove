@@ -12,7 +12,7 @@
 
 ## Steps
 
-1. Email `consumer@n-focus.com`. They reply from `mailing@n-focus.com`
+1. Email `[named individual]@n-focus.com`. They reply from `[named individual]@n-focus.com`
    with `ConsumerChoice@n-focus.com` copied, and assign a reference pair in the
    subject line. Keep it.
 2. **List prior addresses in other states.** See below — it is the whole reason
@@ -95,3 +95,42 @@ forms, source and date of acquisition, categories of recipient — was declined
 along with the state. That refusal is legitimate and was accepted. The
 `not_found` status reflects the Maryland answer, which is a real negative plus a
 real suppression, not a fob-off.
+
+## Who they are, and how to reach them
+
+*Filed by the company itself with a state data broker registry — a public
+record they are legally required to keep current. Use the **legal entity**
+name in any formal demand; it is frequently not the brand on the website.*
+
+- **Legal entity:** NFocus Consulting, Inc.
+- **Trading as:** NFocus
+- **Registered address:** 1594 Hubbard Dr, Lancaster, OH, 43130
+- **Filed contact email:** [named individual]@n-focus.com
+- **Filed phone:** 7406545809
+- **Website:** www.n-focus.com
+
+*Source: `data/registries/registry.csv`.*
+
+## If they ignore you
+
+Work down this list. Each rung costs them more than the one above it.
+
+1. **Reply in the existing thread** after the statutory deadline. California
+   allows 45 days for a deletion request (Cal. Civ. Code 1798.130), extendable
+   once by a further 45 with notice. Quote the date you first wrote.
+2. **Write to the legal entity at the registered address above**, by post, if
+   email has failed. A letter to the address of record is harder to lose than a
+   support ticket, and it establishes a paper trail.
+3. **Complain to the California Attorney General**, who administers the data
+   broker registry: <https://oag.ca.gov/contact/consumer-complaint-against-business-or-company>.
+   A broker's registration is what obliges it to answer; a complaint referencing
+   the registry entry is the pressure point.
+4. **Complain to the FTC**: <https://reportfraud.ftc.gov>. Useful for a pattern
+   of non-response rather than a single case.
+5. **Your own state Attorney General.** Many states with no comprehensive
+   privacy statute still have consumer-protection powers and will take a
+   complaint about a business that ignores its own published policy.
+
+**What not to bother with:** phoning a support line to argue. The person who
+answers cannot change the policy and did not write it. The registry entry, the
+statutory deadline and the regulator are what actually move a company.

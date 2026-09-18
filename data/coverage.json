@@ -366,19 +366,9 @@
    "why": "own item [device-level opt-out]"
   },
   {
-   "id": "valassis_communications_inc_an_rrd",
-   "status": "email_pending",
-   "why": "own item [confirm link]"
-  },
-  {
    "id": "subgraph",
    "status": "email_pending",
    "why": "own item [confirm link]"
-  },
-  {
-   "id": "winr_data",
-   "status": "email_pending",
-   "why": "own item [verify]"
   },
   {
    "id": "cb_insights",
@@ -409,7 +399,21 @@
    "id": "optoutprescreen",
    "status": "manual_required",
    "why": "own item [id]"
+  },
+  {
+   "id": "adstra_american_list_counsel",
+   "status": "manual_required",
+   "why": "own item [form]"
   }
  ],
- "no_coverage_found": []
+ "no_coverage_found": [
+  {
+   "id": "dmachoice",
+   "status": "manual_required"
+  },
+  {
+   "id": "plaid",
+   "status": "manual_required"
+  }
+ ]
 }

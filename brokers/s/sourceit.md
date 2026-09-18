@@ -99,3 +99,56 @@ supplier, please tell me which one.* It costs a sentence. When it is answered it
 converts one confirmed removal into a list of upstream sources, and the upstream
 is where the record actually originates. A deletion at the reseller is undone by
 the next ingest; a deletion at the source is not.
+
+## Who they are, and how to reach them
+
+*Filed by the company itself with a state data broker registry — a public
+record they are legally required to keep current. Use the **legal entity**
+name in any formal demand; it is frequently not the brand on the website.*
+
+- **Legal entity:** SourceIT Technologies, Inc
+- **Registered address:** 2206 N Main Street, Suite 183, Wheaton, IL
+  60187, United States
+- **Filed contact email:** dataprivacy@sourceitmarketing.com
+- **Website:** https://www.sourceitmarketing.com/
+- **Opt-out route they filed:** The consumer can visit our website in the
+  footer there is a link to Do not Sell My Personal Information and goes
+  to https://www.sourceitmarketing.com/privacy, From that page they can
+  request to opt out or view/manage their data. A consumer can also
+  contact us via our toll free number 800-478-8089, or the contact form
+  on our website.
+- **Route for protected individuals:** A protected individual can visit
+  https://www.sourceitmarketing.com/privacy to have their profile
+  information deleted. Or give us a call at our toll free number
+  800-478-8089 (Cal. Gov. Code 6208.1(b) / 6254.21(c)(1) — for survivors
+  of domestic violence, stalking and similar, a stronger and faster route
+  than the ordinary consumer request)
+- **What they say they collect:** For our data collection policies please
+  visit our privacy policy on our website for the most up to date
+  information.
+
+*Source: `data/registries/complete-reg-data-brokers.csv`.*
+
+## If they ignore you
+
+Work down this list. Each rung costs them more than the one above it.
+
+1. **Reply in the existing thread** after the statutory deadline. California
+   allows 45 days for a deletion request (Cal. Civ. Code 1798.130), extendable
+   once by a further 45 with notice. Quote the date you first wrote.
+2. **Write to the legal entity at the registered address above**, by post, if
+   email has failed. A letter to the address of record is harder to lose than a
+   support ticket, and it establishes a paper trail.
+3. **Complain to the California Attorney General**, who administers the data
+   broker registry: <https://oag.ca.gov/contact/consumer-complaint-against-business-or-company>.
+   A broker's registration is what obliges it to answer; a complaint referencing
+   the registry entry is the pressure point.
+4. **Complain to the FTC**: <https://reportfraud.ftc.gov>. Useful for a pattern
+   of non-response rather than a single case.
+5. **Your own state Attorney General.** Many states with no comprehensive
+   privacy statute still have consumer-protection powers and will take a
+   complaint about a business that ignores its own published policy.
+
+**What not to bother with:** phoning a support line to argue. The person who
+answers cannot change the policy and did not write it. The registry entry, the
+statutory deadline and the regulator are what actually move a company.

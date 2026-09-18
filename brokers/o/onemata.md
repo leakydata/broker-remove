@@ -99,3 +99,58 @@ address. Neither is verified working — the live site would not load at all whe
 checked (bare domain 404s, www returns the Wix error page above) — so treat the
 phone number as the only channel worth a human trying next, not a confirmed
 route.
+
+## Who they are, and how to reach them
+
+*Filed by the company itself with a state data broker registry — a public
+record they are legally required to keep current. Use the **legal entity**
+name in any formal demand; it is frequently not the brand on the website.*
+
+- **Legal entity:** Onemata Corporation
+- **Registered address:** 2420 W 26th Ave, Suite 500D, Denver, CO 80211,
+  United States
+- **Filed contact email:** privacy@onemata.com
+- **Website:** http://onemata.com
+- **Opt-out route they filed:** Consumers may opt out of the sale of
+  their personal information by clicking on the "Do Not Sell My Personal
+  Information" link at the bottom of our website and completing the
+  online form. Consumers may also submit requests under the CCPA by
+  completing the online form provided on our website
+  (https://www.onemata.com/do-not-sell-my-personal-info), by calling us
+  at our toll-free telephone number (833) 663-6282, or by emailing
+  privacy@onemata.com
+- **Route for protected individuals:** Onemata does not post personal
+  information online. A consumer can request Onemata delete the personal
+  information we have collected on that consumer by completing the online
+  form provided on our website
+  (https://www.onemata.com/do-not-sell-my-personal-info), by calling us
+  at our toll-free telephone number (833) 663-6282, or by emailing
+  privacy@onemata.com (Cal. Gov. Code 6208.1(b) / 6254.21(c)(1) — for
+  survivors of domestic violence, stalking and similar, a stronger and
+  faster route than the ordinary consumer request)
+
+*Source: `data/registries/complete-reg-data-brokers.csv`.*
+
+## If they ignore you
+
+Work down this list. Each rung costs them more than the one above it.
+
+1. **Reply in the existing thread** after the statutory deadline. California
+   allows 45 days for a deletion request (Cal. Civ. Code 1798.130), extendable
+   once by a further 45 with notice. Quote the date you first wrote.
+2. **Write to the legal entity at the registered address above**, by post, if
+   email has failed. A letter to the address of record is harder to lose than a
+   support ticket, and it establishes a paper trail.
+3. **Complain to the California Attorney General**, who administers the data
+   broker registry: <https://oag.ca.gov/contact/consumer-complaint-against-business-or-company>.
+   A broker's registration is what obliges it to answer; a complaint referencing
+   the registry entry is the pressure point.
+4. **Complain to the FTC**: <https://reportfraud.ftc.gov>. Useful for a pattern
+   of non-response rather than a single case.
+5. **Your own state Attorney General.** Many states with no comprehensive
+   privacy statute still have consumer-protection powers and will take a
+   complaint about a business that ignores its own published policy.
+
+**What not to bother with:** phoning a support line to argue. The person who
+answers cannot change the policy and did not write it. The registry entry, the
+statutory deadline and the regulator are what actually move a company.

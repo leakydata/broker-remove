@@ -91,3 +91,114 @@ from email, send a working link, or say plainly that requests from residents of
 states without a comprehensive statute are declined. The third is a legitimate
 position and recording it is a real result -- what cannot be worked with is a route
 that silently cannot accept the request.
+
+## Who they are, and how to reach them
+
+*Filed by the company itself with a state data broker registry — a public
+record they are legally required to keep current. Use the **legal entity**
+name in any formal demand; it is frequently not the brand on the website.*
+
+- **Legal entity:** DrivenIQ Corporation
+- **Registered address:** 722 Dulaney Valley Rd, Suite #322, TOWSON, MD
+  21286, United States
+- **Filed contact email:** support@drivenIQ.com
+- **Website:** https://www.DrivenIQ.com
+- **Opt-out route they filed:** Under DrivenIQ policy, and adhering to
+  all CCPA rights. All California residents may exercise their California
+  privacy rights by sending an email to support@drivenIQ.com, submitting
+  your data opt out of sale or request submission, or by contacting us at
+  866-715-9409
+- **Route for protected individuals:** How to exercise your access & or
+  (if applicable) their CCPA deletion rights: , , Under DrivenIQ policy,
+  all California residents may exercise their California privacy rights
+  by sending an email to support@drivenIQ.com, submitting your request,
+  or by contacting us at 866-715-9409, , Additionally, part of Gov. Code
+  Section 6208.1 and CCPA rights. For security purposes (and as required
+  under California law), DrivenIQ will verify your identity â€“ in part
+  by requesting certain information from you â€” when you request to
+  exercise your California privacy rights. For example, if you request
+  categories or specific pieces of personal information we may have
+  received about you, you may need to confirm your possession of an
+  unique data identifier (such as an email address) or to provide
+  DrivenIQ a piece of identification that confirms you are the person
+  that you claim to be. , , Once DrivenIQ has verified your identity, we
+  will respond to your request as appropriate (under California Law):, ,
+  - Where you have requested the categories of personal information that
+  we have collected about you, and we will provide a list of those
+  categories., , - Where you have requested specific pieces of personal
+  information, again we will provide the information you have requested,
+  to the extent required under the CCPA & provided we do not believe
+  there is an overriding privacy or security concern in doing so. , , -
+  Where you have requested that we delete personal information (Pii) that
+  we have or had collected from you, we will seek to confirm whether your
+  request is for an â€œopt outâ€ or what you consider a â€œdeletionâ€:
+  because â€œopt outâ€ or â€œdo not sellâ€ rights enable us to maintain
+  your information for â€œsuppressionâ€ purposes ONLYâ€“ i.e., to
+  prevent us from selling information about you in the future (which is
+  what many consumers requesting â€œdeletionâ€ actually desire to occur)
+  â€” Our organization makes every effort to try to explain this in order
+  to ensure we are meeting all Californial or any "opt out" consumersâ€™
+  preferences. , , (In addition, â€œdeletionâ€ rights only apply to
+  information that we have collected â€œfromâ€ consumers â€“ which does
+  not apply to much of the information in our databases.) , , Upon
+  completion of the above process, we will send you a written or mailed
+  notice that explains the categories of personal information we were
+  able to locate about you, and whether we (1) deleted, (2)
+  de-identified, or (3) retained the information we collected from you. ,
+  , Certain information may be exempt from such requests under applicable
+  law. , , If we are unable to complete your requests fully for any of
+  the reasons above, we will provide you with additional information
+  about the reasons that we could not comply with your request., , e.
+  Right to nondiscrimination. We will not deny, charge different prices
+  for, or provide a different level of quality of goods or services if
+  you choose to exercise these rights. , , f. Information About Persons
+  Under 16 Years of Age, We do not knowingly collect personal information
+  from minors under 16 years of age in California unless we have received
+  legal consent to do so. If we learn that personal information from such
+  California residents has been collected, we will take reasonable steps
+  to remove their information from our database (or to obtain legally
+  required consent). , , g. Authorized Agents, You may also designate an
+  agent to make requests to exercise your rights under CCPA as described
+  above. We will take steps both to verify the identity of the person
+  seeking to exercise their rights as listed above, and to verify that
+  your agent has been authorized to make a request on your behalf through
+  providing us with a signed written authorization or a copy of a power
+  of attorney. (POA) (Cal. Gov. Code 6208.1(b) / 6254.21(c)(1) — for
+  survivors of domestic violence, stalking and similar, a stronger and
+  faster route than the ordinary consumer request)
+- **What they say they collect:** DrivenIQ is fully compliant with these
+  common industry regulations:, , California Consumer Privacy Act (CCPA)
+  - Provides certain rights to residents of California permitting them
+  the right to be forgotten and removed from consumer databases. In
+  addition. Consumers can request to know what data is kept on them by
+  consumer data firms, DrivenIQ is registered as a data broker in
+  California https://oag.ca.gov/data-broker/registration. We also have a
+  section on our website dedicated to CCPA compliance at CCPA, Online
+  Behavioral Advertising (OBA) - Provides consumers notice their data is
+  being coll
+
+*Source: `data/registries/complete-reg-data-brokers.csv`.*
+
+## If they ignore you
+
+Work down this list. Each rung costs them more than the one above it.
+
+1. **Reply in the existing thread** after the statutory deadline. California
+   allows 45 days for a deletion request (Cal. Civ. Code 1798.130), extendable
+   once by a further 45 with notice. Quote the date you first wrote.
+2. **Write to the legal entity at the registered address above**, by post, if
+   email has failed. A letter to the address of record is harder to lose than a
+   support ticket, and it establishes a paper trail.
+3. **Complain to the California Attorney General**, who administers the data
+   broker registry: <https://oag.ca.gov/contact/consumer-complaint-against-business-or-company>.
+   A broker's registration is what obliges it to answer; a complaint referencing
+   the registry entry is the pressure point.
+4. **Complain to the FTC**: <https://reportfraud.ftc.gov>. Useful for a pattern
+   of non-response rather than a single case.
+5. **Your own state Attorney General.** Many states with no comprehensive
+   privacy statute still have consumer-protection powers and will take a
+   complaint about a business that ignores its own published policy.
+
+**What not to bother with:** phoning a support line to argue. The person who
+answers cannot change the policy and did not write it. The registry entry, the
+statutory deadline and the regulator are what actually move a company.
