@@ -6,8 +6,19 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-18)
-- Note: 2026-09-18 sent the standard consumer deletion/opt-out/suppression letter to the registry contact address (part of the 2026-09-18 batch send). No reply yet.
+- Current: `unreachable` (updated 2026-09-18)
+- Note: The 2026-09-18 letter to info@ctcompanydir.com hard-bounced the same day
+  ("address couldn't be found, or is unable to receive mail"). The address had
+  been carried as `email_verified: true` with `email_verified_by:
+  "optery_directory"` -- i.e. it was never actually verified, only assumed
+  correct because a commercial directory (Optery) listed the company. See the
+  note under Gotchas: this basis is not evidence of a working mailbox, and a
+  fair number of addresses imported the same way are still asserting a
+  verification nobody has done.
+- The site (ctcompanydir.com) returns HTTP 403 to an automated fetch, which is
+  consistent with Cloudflare or similar bot-blocking rather than a dead
+  domain -- it may well be live to a real browser. Nobody has checked with one
+  yet.
 
 ## Steps
 
@@ -19,13 +30,17 @@
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+- **`email_verified_by: "optery_directory"` is not verification.** It means a
+  commercial people-search/directory aggregation service (Optery) listed this
+  company as a broker, and the address is whatever Optery's page showed --
+  nobody at this project independently confirmed it accepts mail. It hard
+  bounced the first time it was used. If you find this note on another broker
+  with the same basis, don't trust the address without checking; the
+  legitimate bases are `delivery_evidence`, `privacy_policy`,
+  `state_registry`, `broker_reply` (see CONTRIBUTING.md).
+- A person with a browser needs to load ctcompanydir.com and its privacy
+  policy (an automated fetch gets HTTP 403) to find whether a real contact
+  address or web form exists.
 
 ## Verification
 

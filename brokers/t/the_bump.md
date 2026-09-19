@@ -7,7 +7,8 @@
 
 ## Status
 
-- Current: `pending`
+- Current: `submitted` (updated 2026-09-19)
+- Note: 2026-09-19, first contact. Addressed to The Bump directly and separately to The Knot Worldwide's group contact (see the_knot_worldwide.md), since both are the same corporate family; letter asks which sibling properties were checked. Address sourced from an Optery-directory import; `email_verified_by` had been set to `"optery_directory"`, which only means a commercial directory listed the company, not that the mailbox was ever confirmed to accept mail -- three addresses from the same 2026-09-18 batch hard-bounced (see ct_company_directory.md, ibegin.md, native_american_netroots.md). Watch for a bounce on the next pass before treating this as delivered.
 
 ## Steps
 

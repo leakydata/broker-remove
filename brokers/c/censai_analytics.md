@@ -7,8 +7,15 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-25)
+- Current: `acknowledged` (updated 2026-09-18)
 - Note: 2026-08-25: emailed privacy@rushmorelabs.com. Registry name (Cens.ai Analytics) does not match the contact domain (Rushmore Labs), so the letter names both and asks which entities were actioned - the standard name/domain-mismatch family framing. Otherwise the two general-purpose asks (suppliers, inferred-vs-collected) plus the identifier-keyed fallback.
+- 2026-09-18: privacy@rushmorelabs.com replied, three and a half weeks later:
+  "Thank you for your request. We have received and will process your
+  request as required by applicable state law," pointing at their published
+  privacy policy. A bare acknowledgement -- no confirmation of completion, no
+  categories held, no answer to the two specific questions asked (upstream
+  suppliers, inferred-vs-collected data). Follow up if nothing further
+  arrives within the statutory window.
 
 ## Steps
 

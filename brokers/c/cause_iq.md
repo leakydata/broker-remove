@@ -7,8 +7,16 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-18)
-- Note: 2026-09-18 sent the standard consumer deletion/opt-out/suppression letter to the registry contact address (part of the 2026-09-18 batch send). No reply yet.
+- Current: `not_found` (updated 2026-09-18)
+- Note: help@causeiq.com replied 2026-09-18: "We searched Cause IQ's person
+  data using your name and the three email addresses included in your
+  request. We did not find an identifiable record matching both you and the
+  information provided, so there was no person profile for us to remove or
+  suppress." A well-evidenced nil -- they named what they searched (name plus
+  the three email addresses), which is the thing to ask for and the thing
+  most brokers leave out. Not asked/answered: whether prior postal
+  addresses or phone numbers were checked, since the letter's identifier list
+  includes those too.
 
 ## Steps
 
@@ -23,17 +31,21 @@
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+- **They named what they searched.** "We searched Cause IQ's person data
+  using your name and the three email addresses" is exactly the sentence
+  most brokers leave out of a nil result, and it is what makes this a
+  well-evidenced negative rather than an unfalsifiable one. Ask for the same
+  in any reply that just says "no record found."
+- Not covered by their answer: postal addresses and phone numbers were in
+  the original letter's identifier list too, but the reply only mentions
+  name and email addresses being searched. If this matters, a follow-up
+  asking them to also check the mailing address and phone number would close
+  that gap.
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+Re-send with the same identifiers after a few months if re-checking; no
+public search page to re-run against for a nil result.
 
 ## If they ignore you
 

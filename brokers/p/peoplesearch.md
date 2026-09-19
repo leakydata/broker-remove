@@ -8,9 +8,16 @@
 
 ## Status
 
-- Current: `covered_by_sibling` (updated 2026-09-05)
-- Reference: `5402176`
+- Current: `confirmed` (updated 2026-09-18)
+- Reference: `5402176`, `5460448`
 - Note: Whitepages stated 2026-09-05, in answer to a direct question asked four times: 'Whitepages is associated with Peoplesearch.com and so once we remove your information from Whitepages, it is being removed from all associated websites as well.' Covered by Whitepages ticket 5402176, which is confirmed for display suppression. This also settles why the site was worth chasing: peoplesearch.com publishes support@whitepages.com as its privacy contact, and that mailbox is unmonitored and auto-replies with something that reads like an acknowledgement -- so a consumer following peoplesearch.com's own privacy policy files into a void and believes they have filed a request. That defect was reported to Whitepages twice and has not been acknowledged. The sale opt-out is unconfirmed here for the same reason it is unconfirmed on the parent row.
+- 2026-09-18: a follow-up letter (ticket #5460448) explicitly asked Whitepages
+  to confirm against 411.com and PeopleSearch **by name**. The reply was
+  templated ("we have located and removed any Whitepages listings") and again
+  did not name either property individually -- so this status still rests on
+  the general "associated websites" statement above, not on a
+  peoplesearch.com-specific confirmation. Marked `confirmed` on the strength
+  of that general statement plus this reply, not a stronger one.
 
 ## Steps
 

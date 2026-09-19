@@ -25783,10 +25783,10 @@
    "source": "optery_directory 2026-09-12",
    "optery_slug": "ct-company-directory",
    "optery_url": "https://www.optery.com/data-brokers/ct-company-directory/",
-   "route_evidence": "published",
+   "route_evidence": "none",
    "email_to": "info@ctcompanydir.com",
-   "email_verified": true,
-   "email_verified_by": "optery_directory"
+   "email_verified": false,
+   "email_verified_by": "bounced"
   },
   {
    "id": "cuit_online",
@@ -26105,12 +26105,13 @@
    "source": "optery_directory 2026-09-12",
    "optery_slug": "eniro-ab",
    "optery_url": "https://www.optery.com/data-brokers/eniro-ab/",
-   "route_evidence": "published",
-   "email_to": "privatpersoner@eniro.com",
-   "email_verified": true,
-   "email_verified_by": "site_published 2026-09-12",
+   "route_evidence": "none",
+   "email_to": "info@eniro.com",
+   "email_verified": false,
+   "email_verified_by": null,
    "category_hint": "People Search",
-   "email_alt": "info@eniro.com"
+   "email_alt": "info@eniro.com",
+   "notes": " | privatpersoner@eniro.com hard-bounced 2026-09-18 (mailbox does not exist on Eniro's system); resent to info@eniro.com (recorded email_alt)."
   },
   {
    "id": "enp_network",
@@ -26997,10 +26998,10 @@
    "source": "optery_directory 2026-09-12",
    "optery_slug": "ibegin",
    "optery_url": "https://www.optery.com/data-brokers/ibegin/",
-   "route_evidence": "published",
+   "route_evidence": "none",
    "email_to": "support@iBeginMarketing.com",
-   "email_verified": true,
-   "email_verified_by": "optery_directory"
+   "email_verified": false,
+   "email_verified_by": "bounced"
   },
   {
    "id": "identiq",
@@ -27671,10 +27672,10 @@
    "source": "optery_directory 2026-09-12",
    "optery_slug": "native-american-netroots-2",
    "optery_url": "https://www.optery.com/data-brokers/native-american-netroots-2/",
-   "route_evidence": "published",
+   "route_evidence": "none",
    "email_to": "support@nativeamericannetroots.net",
-   "email_verified": true,
-   "email_verified_by": "optery_directory",
+   "email_verified": false,
+   "email_verified_by": "bounced",
    "category_hint": "People Search"
   },
   {

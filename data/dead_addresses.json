@@ -605,6 +605,24 @@
       "observed": "2026-09-12",
       "evidence": "550 5.0.1, 2026-09-12. plcom.net resolves and serves HTTP, but only a generic hosting placeholder page (\"Coming soon\") \u2014 no operating business behind it.",
       "response": "Whatever company this was, it no longer operates at this domain. No route exists; do not resend."
+    },
+    "info@ctcompanydir.com": {
+      "kind": "unknown_bounce",
+      "observed": "2026-09-18",
+      "evidence": "Hard bounce, 2026-09-18 (Optery-directory import, email_verified_by was 'optery_directory' -- never actually confirmed). Domain returns HTTP 403 to an automated fetch (bot-blocked, not necessarily dead).",
+      "response": "Needs a human with a real browser to load ctcompanydir.com and find a working contact route."
+    },
+    "support@ibeginmarketing.com": {
+      "kind": "no_such_mailbox",
+      "observed": "2026-09-18",
+      "evidence": "550 address not found, 2026-09-18. The address matches the one iBeginMarketing's own published privacy policy names ('support(at)iBeginMarketing.com') -- their own contact route is broken, not a bad guess on our side.",
+      "response": "No alternate address published on the site. Nothing further to try by email; would need a web form or a human to check."
+    },
+    "support@nativeamericannetroots.net": {
+      "kind": "unknown_bounce",
+      "observed": "2026-09-18",
+      "evidence": "Hard bounce, 2026-09-18 (Optery-directory import, email_verified_by was 'optery_directory' -- never actually confirmed). Site is a WordPress community/diary blog (optout_url points at a diary post, not a form) and returns HTTP 403 to an automated fetch. Questionable whether this is a data broker at all rather than a mis-scraped blog post.",
+      "response": "Needs a human with a real browser to check whether this site is even a data broker, and if so find a contact route."
     }
   }
 }

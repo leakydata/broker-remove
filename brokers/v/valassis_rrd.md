@@ -7,8 +7,18 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-12)
+- Current: `manual_required` (updated 2026-09-19)
 - Note: Letter to DataPrivacy@rrd.com 2026-09-12, covering Valassis and the RRD group's direct-mail and marketing data businesses. Two asks beyond the standard letter: (1) deletion-vs-suppression stated as the whole request, because a shared-mail business ingests continuously and a deletion without a persistent entry is a gap that closes at the next ingest; (2) the controller/processor split (444), asking them to name the client for anything held on a client's behalf so it can be redirected rather than answered honestly from the wrong side. Also asked which of several systems was searched -- marketing database, shared-mail household file, client services are three different searches.
+- 2026-09-18: two separate OneTrust portal notifications arrived, both "Your
+  Privacy Request Needs Attention": Request ID `WKZ2LXPF3V` from
+  privacy.requests@privacy.rrd.com, and a second, apparently distinct ticket
+  `TE95J69KDE` from valassisprivacy.request@privacy.rrd.com. **RRD's
+  notification email never includes the comment text itself** -- only a
+  login-gated link into their OneTrust privacy portal. Queued to
+  `scripts/handoff.py` for a human to open both and read what was actually
+  asked. This is a genuine gap in an email-only workflow: a broker can put a
+  substantive question behind a portal login and the requester has no way to
+  see it without a browser and an account-free login flow.
 
 ## Steps
 
@@ -23,13 +33,17 @@
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+- **Their portal notifications carry no content.** "Your Privacy Request
+  Needs Attention" emails from `*.privacy.rrd.com` addresses only link into a
+  OneTrust portal behind a login; the comment itself never appears in the
+  email. An email-only workflow cannot answer whatever they asked without a
+  human opening that link, which is why this sits at `manual_required`
+  rather than `submitted`.
+- Two tickets appeared for what was one letter: `WKZ2LXPF3V` from
+  privacy.requests@privacy.rrd.com and `TE95J69KDE` from
+  valassisprivacy.request@privacy.rrd.com, both dated 2026-09-18. Worth
+  checking whether these are the same request split by RRD's intake (Valassis
+  vs. the broader RRD group) or genuinely two separate matters.
 
 ## Verification
 

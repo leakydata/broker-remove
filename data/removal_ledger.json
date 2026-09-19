@@ -25,9 +25,9 @@
     "via": "email"
   },
   "411_com": {
-    "status": "submitted",
-    "changed": "2026-08-15",
-    "via": "email"
+    "status": "confirmed",
+    "changed": "2026-09-19",
+    "via": "reply"
   },
   "4c_insights": {
     "status": "submitted",
@@ -1005,9 +1005,9 @@
     "via": null
   },
   "cause_iq": {
-    "status": "submitted",
-    "changed": "2026-09-18",
-    "via": "email"
+    "status": "not_found",
+    "changed": "2026-09-19",
+    "via": "reply"
   },
   "cb_insights": {
     "status": "email_pending",
@@ -1020,9 +1020,9 @@
     "via": null
   },
   "censai_analytics": {
-    "status": "submitted",
-    "changed": "2026-08-25",
-    "via": null
+    "status": "acknowledged",
+    "changed": "2026-09-19",
+    "via": "reply"
   },
   "censia": {
     "status": "submitted",
@@ -1450,8 +1450,8 @@
     "via": null
   },
   "ct_company_directory": {
-    "status": "submitted",
-    "changed": "2026-09-18",
+    "status": "unreachable",
+    "changed": "2026-09-19",
     "via": "email"
   },
   "cuebiq": {
@@ -2780,8 +2780,8 @@
     "via": "email"
   },
   "ibegin": {
-    "status": "submitted",
-    "changed": "2026-09-18",
+    "status": "unreachable",
+    "changed": "2026-09-19",
     "via": "email"
   },
   "id5": {
@@ -3955,8 +3955,8 @@
     "via": "reply"
   },
   "native_american_netroots": {
-    "status": "submitted",
-    "changed": "2026-09-18",
+    "status": "unreachable",
+    "changed": "2026-09-19",
     "via": "email"
   },
   "nativo": {
@@ -4600,9 +4600,9 @@
     "via": "reply"
   },
   "peoplesearch": {
-    "status": "submitted",
-    "changed": "2026-08-18",
-    "via": "email"
+    "status": "confirmed",
+    "changed": "2026-09-19",
+    "via": "reply"
   },
   "peoplesearch123": {
     "status": "submitted",
@@ -4758,6 +4758,16 @@
     "status": "submitted",
     "changed": "2026-08-28",
     "via": null
+  },
+  "point_digital_finance": {
+    "status": "submitted",
+    "changed": "2026-09-19",
+    "via": "email"
+  },
+  "pole_to_pole": {
+    "status": "submitted",
+    "changed": "2026-09-19",
+    "via": "email"
   },
   "pop_acta": {
     "status": "submitted",
@@ -5339,6 +5349,11 @@
     "changed": "2026-08-28",
     "via": "email"
   },
+  "saavn_media": {
+    "status": "submitted",
+    "changed": "2026-09-19",
+    "via": "email"
+  },
   "sabio": {
     "status": "submitted",
     "changed": "2026-08-28",
@@ -5689,6 +5704,11 @@
     "changed": "2026-08-28",
     "via": "email"
   },
+  "soundcloud_global_limited_co_kg": {
+    "status": "submitted",
+    "changed": "2026-09-19",
+    "via": "email"
+  },
   "source_path_digital": {
     "status": "submitted",
     "changed": "2026-08-30",
@@ -5899,6 +5919,11 @@
     "changed": "2026-08-20",
     "via": "email"
   },
+  "streetdirectory_pte": {
+    "status": "submitted",
+    "changed": "2026-09-19",
+    "via": "email"
+  },
   "structure": {
     "status": "unreachable",
     "changed": "2026-08-24",
@@ -5974,6 +5999,11 @@
     "changed": "2026-09-02",
     "via": null
   },
+  "tcc_information_private": {
+    "status": "submitted",
+    "changed": "2026-09-19",
+    "via": "email"
+  },
   "td_cowen": {
     "status": "submitted",
     "changed": "2026-08-20",
@@ -5983,6 +6013,11 @@
     "status": "submitted",
     "changed": "2026-08-23",
     "via": null
+  },
+  "teamunify": {
+    "status": "submitted",
+    "changed": "2026-09-19",
+    "via": "email"
   },
   "telefi": {
     "status": "submitted",
@@ -6044,9 +6079,19 @@
     "changed": "2026-08-30",
     "via": "email"
   },
+  "the_blue_book_building_and_construction_network": {
+    "status": "submitted",
+    "changed": "2026-09-19",
+    "via": "email"
+  },
   "the_bridge": {
     "status": "submitted",
     "changed": "2026-08-20",
+    "via": "email"
+  },
+  "the_bump": {
+    "status": "submitted",
+    "changed": "2026-09-19",
     "via": "email"
   },
   "the_data": {
@@ -6054,9 +6099,24 @@
     "changed": "2026-08-31",
     "via": null
   },
+  "the_dots_global": {
+    "status": "submitted",
+    "changed": "2026-09-19",
+    "via": "email"
+  },
+  "the_feed_foundation": {
+    "status": "submitted",
+    "changed": "2026-09-19",
+    "via": "email"
+  },
   "the_georgia_gazette": {
     "status": "not_found",
     "changed": "2026-08-31",
+    "via": "email"
+  },
+  "the_knot_worldwide": {
+    "status": "submitted",
+    "changed": "2026-09-19",
     "via": "email"
   },
   "the_org": {
@@ -6077,6 +6137,11 @@
   "thepublicindex": {
     "status": "submitted",
     "changed": "2026-08-26",
+    "via": "email"
+  },
+  "therapist_com": {
+    "status": "submitted",
+    "changed": "2026-09-19",
     "via": "email"
   },
   "think_data": {
@@ -6395,8 +6460,8 @@
     "via": "email"
   },
   "valassis_rrd": {
-    "status": "submitted",
-    "changed": "2026-09-18",
+    "status": "manual_required",
+    "changed": "2026-09-19",
     "via": null
   },
   "vdx_tv": {
@@ -6534,6 +6599,16 @@
     "changed": "2026-08-31",
     "via": "email"
   },
+  "visual_listing_systems": {
+    "status": "submitted",
+    "changed": "2026-09-19",
+    "via": "email"
+  },
+  "visual_visitor": {
+    "status": "submitted",
+    "changed": "2026-09-19",
+    "via": "email"
+  },
   "vizio_services": {
     "status": "submitted",
     "changed": "2026-08-31",
@@ -6603,6 +6678,11 @@
     "status": "confirmed",
     "changed": "2026-08-20",
     "via": "reply"
+  },
+  "wellborn_cabinet": {
+    "status": "submitted",
+    "changed": "2026-09-19",
+    "via": "email"
   },
   "west_publishing_corp": {
     "status": "submitted",

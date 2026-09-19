@@ -7,8 +7,17 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-18)
-- Note: 2026-09-18 sent the standard consumer deletion/opt-out/suppression letter to the registry contact address (part of the 2026-09-18 batch send). No reply yet.
+- Current: `submitted` (updated 2026-09-19)
+- Note: The 2026-09-18 letter to privatpersoner@eniro.com hard-bounced same
+  day: "550 5.7.1 We're sorry, but the mail address does not exist in our
+  system" (Google Workspace / enterprise-admin block, not a dead domain --
+  eniro.com resolves and routes mail generally, this one mailbox specifically
+  doesn't exist). Resent 2026-09-19 to info@eniro.com, the alternate address
+  already on file for this row; not yet confirmed deliverable (no bounce or
+  reply as of this writing). Note the domain mismatch: the registry's
+  `domain` field is eniro.se (the Swedish consumer-facing brand) but the
+  contact addresses are @eniro.com (the corporate/group domain) -- both
+  belong to the same company, this isn't an error.
 
 ## Steps
 
@@ -20,13 +29,14 @@
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+- **`privatpersoner@eniro.com` does not exist** ("We're sorry, but the mail
+  address does not exist in our system" -- a message from Eniro's own mail
+  administrator, not a generic MTA failure). `info@eniro.com` is the
+  recorded fallback; confirm on the next pass whether it delivered.
+- Eniro is a Nordic (Swedish) directory/search company; a Swedish-language
+  route via enirogroup.com's contact page may be worth trying if English
+  addresses keep failing, though an automated fetch of that page 404s/403s
+  and nobody has checked it with a browser.
 
 ## Verification
 

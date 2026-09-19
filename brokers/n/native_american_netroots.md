@@ -8,8 +8,14 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-18)
-- Note: 2026-09-18 sent the standard consumer deletion/opt-out/suppression letter to the registry contact address (part of the 2026-09-18 batch send). No reply yet.
+- Current: `unreachable` (updated 2026-09-18)
+- Note: The 2026-09-18 letter to support@nativeamericannetroots.net
+  hard-bounced the same day ("address couldn't be found"). The "opt-out URL"
+  on this row is a diary/blog post on a WordPress community site, not a form
+  or a company page -- worth questioning whether this belongs in the registry
+  as a data broker at all, rather than a site a directory scrape
+  mis-classified. The site returns HTTP 403 to an automated fetch (bot
+  protection), so it may be live to a real browser; nobody has checked yet.
 
 ## Steps
 
@@ -24,13 +30,14 @@
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+- **Question the listing itself before spending more effort here.** The
+  "opt-out URL" points at a diary post on a community blog, which is not how
+  a genuine data broker publishes an opt-out route. This looks like a
+  directory-scrape false positive rather than an actual broker; a human with
+  a browser should check the linked diary post before assuming this belongs
+  in the registry.
+- `email_verified_by: "optery_directory"` on this row asserted a verification
+  that had never happened; corrected to `bounced`.
 
 ## Verification
 

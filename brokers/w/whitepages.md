@@ -44,6 +44,17 @@ request, despite the standard flow implying otherwise.
   sale/sharing was applied separately from the display removal. Ask these three
   as a numbered list if the first reply is templated — a template reply answers
   the mechanism, not your ticket.
+- **The same gap repeated on the next ticket.** A follow-up letter (2026-08-26,
+  ticket #5460448) supplied additional identifiers and explicitly asked Whitepages
+  to confirm against 411.com **and** PeopleSearch by name, because a reply naming
+  one brand leaves the others unaccountable. Their reply (2026-09-18, agent
+  Nadine) again used the general template — "we have located and removed any
+  Whitepages listings that correspond to the information you provided" — and did
+  not name either property. It did add one genuinely useful detail on mechanism:
+  listings are flagged **unpublishable in the database rather than deleted**,
+  specifically so a later data feed cannot recreate them; that flag itself is
+  described as never sold or shared. Worth quoting back if another broker claims
+  deletion and suppression cannot coexist.
 
 ## Verification
 Re-search whitepages.com, 411.com and peoplesearch.com for the name + city after

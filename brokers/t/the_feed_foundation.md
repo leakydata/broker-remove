@@ -6,7 +6,8 @@
 
 ## Status
 
-- Current: `pending`
+- Current: `submitted` (updated 2026-09-19)
+- Note: 2026-09-19, first contact. This is a hunger-relief nonprofit, not an obvious data broker -- picked up by the Optery-directory import along with a batch of other low-priority listings. Worth revisiting after a reply: this may be a directory-scrape false positive rather than a genuine broker (see native_american_netroots.md for the same pattern). Address sourced from an Optery-directory import; `email_verified_by` had been set to `"optery_directory"`, which only means a commercial directory listed the company, not that the mailbox was ever confirmed to accept mail -- three addresses from the same 2026-09-18 batch hard-bounced (see ct_company_directory.md, ibegin.md, native_american_netroots.md). Watch for a bounce on the next pass before treating this as delivered.
 
 ## Steps
 

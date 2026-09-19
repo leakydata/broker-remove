@@ -6,8 +6,14 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-18)
-- Note: 2026-09-18 sent the standard consumer deletion/opt-out/suppression letter to the registry contact address (part of the 2026-09-18 batch send). No reply yet.
+- Current: `unreachable` (updated 2026-09-18)
+- Note: The 2026-09-18 letter to support@iBeginMarketing.com hard-bounced the
+  same day (550, mailbox does not exist). This is the interesting case: it is
+  not a bad guess on our side. iBeginMarketing's own privacy policy
+  (ibeginmarketing.com/privacy-policy/) names this exact address --
+  "Please contact us at support(at)iBeginMarketing.com for a prompt
+  response." Their own published contact route is broken. No alternate
+  address is published anywhere on the site.
 
 ## Steps
 
@@ -19,13 +25,16 @@
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+- **The broker's own published contact address bounces.** Their privacy
+  policy states "We do not share your information with any company, person,
+  website or organization. All data collected through any means is for
+  internal use only" -- a plausible low-risk profile -- but the one route the
+  policy gives you to act on it does not accept mail. Worth a second attempt
+  by whatever contact form the site's main pages carry, since the privacy
+  page itself names no alternate address.
+- `email_verified_by: "optery_directory"` on this row asserted a verification
+  that had never happened (see ct_company_directory.md for the general
+  pattern); this is now corrected to `bounced`.
 
 ## Verification
 
