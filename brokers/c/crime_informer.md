@@ -9,6 +9,11 @@
 
 - Current: `unreachable` (updated 2026-09-12)
 - Note: HARD BOUNCE 2026-09-12, two seconds after sending: '550 No such user' for support@crimeinformer.com. The address was Optery-published and had PASSED the pre-send check -- crimeinformer.com resolves, publishes MX, and answered on the web. So the domain is live and the local-part is not, which is precisely the failure scripts/precheck_contacts.py says in its own docstring that it cannot detect. No alternative address guessed: probing privacy@ or info@ would produce more bounces indistinguishable from pending requests. Recorded unreachable; the site returns 404 at the root, so there is also nothing to scrape for a form. Worth a re-probe only if the site comes back.
+- **2026-09-20 recheck: every path tried 404s**, not just the root — `/`,
+  `/privacy`, `/removals`, and a specific article URL all return HTTP 404
+  from the LiteSpeed server itself. The server answers, it just serves
+  nothing anywhere. This is a live server hosting a dead site, not a
+  temporary outage. No alternate contact found.
 
 ## Steps
 

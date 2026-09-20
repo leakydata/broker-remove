@@ -6,7 +6,7 @@
 
 ## Status
 
-- Current: `unreachable` (updated 2026-09-18)
+- Current: `manual_required` (updated 2026-09-20)
 - Note: The 2026-09-18 letter to support@iBeginMarketing.com hard-bounced the
   same day (550, mailbox does not exist). This is the interesting case: it is
   not a bad guess on our side. iBeginMarketing's own privacy policy
@@ -32,6 +32,11 @@
   policy gives you to act on it does not accept mail. Worth a second attempt
   by whatever contact form the site's main pages carry, since the privacy
   page itself names no alternate address.
+- **2026-09-20: confirmed, no alternate exists.** Company now operates
+  under ibegin.com (not just ibeginmarketing.com); checked ibegin.com's own
+  `/contact` and `/help` pages directly — form-only, no email published
+  anywhere, and a contact-us subpage 404s. This is now `manual_required`,
+  not a dead end: a human needs to try the form.
 - `email_verified_by: "optery_directory"` on this row asserted a verification
   that had never happened (see ct_company_directory.md for the general
   pattern); this is now corrected to `bounced`.

@@ -9,8 +9,19 @@
 
 ## Status
 
-- Current: `unreachable` (updated 2026-09-07)
+- Current: `manual_required` (updated 2026-09-20)
 - Reference: `550 x3: 2026-08-26, 2026-09-03, 2026-09-07`
+- 2026-09-20: relabeled from `unreachable` to `manual_required` -- the portal
+  route below is a live, working form, so this is not a dead end, it's a
+  form-only route that needs a human to click through. Also found: the CA
+  data broker registry filing (oag.ca.gov/data-broker/registration/186759)
+  separately lists a **second** CCPA opt-out form at
+  `https://ccpa-optout.com/rsusa/`, not yet tested. Use the
+  `privacycompliance.biz` link below first since it's already confirmed
+  live; treat the registry one as a fallback if that portal ever breaks.
+  Queued to `handoff.py` — it wasn't actually in the queue despite an
+  earlier note here saying so; the queue is gitignored and apparently
+  didn't survive between sessions.
 - Note: THREE SENDS, THREE HARD BOUNCES, TWELVE DAYS. privacy@researchusallc.com -- the address on their California register filing -- returns 550 'address not found' every time: the consumer request on 2026-08-26, the form defect report on 2026-09-03, and the escalation on 2026-09-07. THIS CORRECTS AN EARLIER NOTE OF MINE. The 3 September entry said the portal defect had been 'reported to the one sibling that does have an address (researchusa)'. It had not. The send happened; the delivery did not; the bounce was in the mailbox and went unread. So four days of apparent inaction on their part were four days of nobody knowing -- the same recording-the-send-not-the-receipt error that SILENT_FAILURES 393 catches in the ledger, made here by hand in a note. DIAGNOSIS: researchusallc.com has a live A record and live MX on Intermedia exch028 -- the same mail platform as databaseusa.com, infofree.com and privacycompliance.biz, which confirms one operation behind all four. The domain and its mail infrastructure are healthy. THE MAILBOX SIMPLY DOES NOT EXIST. Compare SILENT_FAILURES 88: a domain-level deliverability check would pass this address; only sending reveals it. WHAT THIS MEANS TOGETHER WITH 406: this family's designated WEB FORM cannot send mail on any page for any brand, and the register-listed EMAIL for this brand has never existed. A consumer following either published route reaches nothing, and neither route reports its own failure back to the company. TODAY'S LETTER DID LAND at the two CC'd addresses, info@databaseusa.com and info@infofree.com, neither of which has bounced -- the first time anything about this defect has reached anyone. Any further correspondence for this brand should go there, not to the register address.
 
 ## Steps

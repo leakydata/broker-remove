@@ -7,8 +7,32 @@
 
 ## Status
 
-- Current: `confirmed` (updated 2026-09-16)
-- Note: Adopted from the shared ledger: another agent recorded 'confirmed' on 2026-09-15. No detail is carried across — re-read the broker's own reply before relying on this.
+- Current: `confirmed` (updated 2026-09-20)
+- Note: 2026-08-19: first contact to privacy@marketops.com, full identifier
+  set (8 emails, 9 phones, 11 addresses, DOB, 5 name variants), explicitly
+  covering hashed-email search and every identifier, not just current ones.
+- 2026-09-12: templated reply — "unable to process your request as no
+  records were found matching the information you provided," inviting a
+  resubmit via their web form "to assist us in locating any associated
+  records, be sure to include all relevant email addresses and phone
+  numbers." That phrasing implies a narrower search than what was run.
+  Replied declining to resubmit the identical identifier set through the
+  form, and asked two direct questions instead: (1) was the search run
+  against ALL supplied identifiers or only the sending address, and (2) is
+  a suppression applied regardless of the nil result (citing Cal. Civ.
+  Code § 1798.105(d)(1) as the basis for holding a suppression key without
+  holding a record).
+- 2026-09-14: Rory Sutherland, Chief Privacy Officer, replied personally
+  (not templated) confirming **both**: the search covered every identifier
+  supplied, not just the sending address, and suppression was applied. He
+  also volunteered scope context worth quoting elsewhere: MarketOps
+  describes itself as a data/technology services provider for clients'
+  first-party data rather than "a traditional data broker," but says some
+  state statutes' broad definition of "data broker" still reaches parts of
+  its operations, hence the registration and this process. And he
+  explained the confusing first-line template: the "please resubmit with
+  more identifiers" wording is standard boilerplate, not a signal that the
+  original submission was incomplete.
 
 ## Steps
 
@@ -16,21 +40,40 @@
 
 1. **Email `privacy@marketops.com`** with a written request. Ask for four things explicitly — deletion, opt-out of sale and sharing, a direction to any third parties they sold to, and a **forward-looking suppression** so the record is not simply re-added at the next data import.
 2. **List every address, email and phone number you have ever had**, not just current ones. Records are filed under whatever was current when they were created — a search on today's details misses them.
-3. **Ask them to state which identifiers matched.** "We deleted your record" and "we searched and found nothing" are different outcomes, and a reply that does not distinguish them tells you nothing about whether you were ever in the file.
+3. **If the first reply is the templated "no records found... please resubmit" notice, don't resubmit.** Reply in-thread instead and ask directly (a) whether every identifier supplied was searched, not just the sending address, and (b) whether a suppression is applied regardless of the nil result. This got a personal, non-templated answer from their CPO within 2 days.
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+- **The first-line auto-reply template reads as a narrower search than what
+  was actually run.** "No records found matching the information you
+  provided" plus "be sure to include all relevant email addresses and
+  phone numbers" implies the intake only used the sending address. Here it
+  had in fact used the full identifier set — but you cannot tell that from
+  the template, and resubmitting the same identifiers through their web
+  form would have produced the identical reply again. Ask directly rather
+  than resubmit.
+- **Has a named, responsive Chief Privacy Officer (Rory Sutherland) who
+  will personally correct a templated reply on request.** Worth escalating
+  past the auto-responder by asking pointed yes/no questions in-thread
+  rather than using their web resubmission form.
+- MarketOps self-describes as *not* "a traditional data broker" — a
+  first-party-data services provider that some state statutes' broad
+  "data broker" definition still reaches. Don't take that framing as a
+  reason to expect less cooperation; this row's outcome was better than
+  most brokers that call themselves one.
+- Do not confuse this row with **NexSales/RightLeads** (`nexsales.md`) — a
+  similarly-shaped B2B contact database, but with a canned autoresponder
+  that repeats the same template verbatim regardless of what you write
+  back. An earlier edit of the NexSales file had this row's story pasted
+  in by mistake; that's fixed now, but if you see MarketOps content
+  looking unfamiliar, check `nexsales.md` didn't reacquire it.
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+Confirmed by direct, non-templated reply from the Chief Privacy Officer
+(2026-09-14): all identifiers searched, suppression applied. No
+consumer-facing lookup exists to independently re-check — MarketOps is not
+a public-facing people-search site.
 
 ## Who they are, and how to reach them
 

@@ -7,7 +7,7 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-19)
+- Current: `manual_required` (updated 2026-09-20)
 - Note: The 2026-09-18 letter to privatpersoner@eniro.com hard-bounced same
   day: "550 5.7.1 We're sorry, but the mail address does not exist in our
   system" (Google Workspace / enterprise-admin block, not a dead domain --
@@ -18,6 +18,12 @@
   `domain` field is eniro.se (the Swedish consumer-facing brand) but the
   contact addresses are @eniro.com (the corporate/group domain) -- both
   belong to the same company, this isn't an error.
+- 2026-09-19: kundservice.inbox-arenden2@eniro.com (a human, not an
+  autoresponder) replied in Swedish: this mailbox does not handle
+  "privatpersoner" (private-individual) matters, and pointed to the web
+  contact form at https://www.eniro.se/kontakt. No email route is left —
+  every address tried either bounced or got redirected to the form.
+  Queued to `handoff.py` for a human to submit the Swedish-language form.
 
 ## Steps
 

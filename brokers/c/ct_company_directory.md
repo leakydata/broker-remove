@@ -6,7 +6,7 @@
 
 ## Status
 
-- Current: `unreachable` (updated 2026-09-18)
+- Current: `manual_required` (updated 2026-09-20)
 - Note: The 2026-09-18 letter to info@ctcompanydir.com hard-bounced the same day
   ("address couldn't be found, or is unable to receive mail"). The address had
   been carried as `email_verified: true` with `email_verified_by:

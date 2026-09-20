@@ -1060,8 +1060,8 @@
     "via": null
   },
   "cience_technologies": {
-    "status": "unreachable",
-    "changed": "2026-09-12",
+    "status": "submitted",
+    "changed": "2026-09-20",
     "via": "email"
   },
   "cinqdi": {
@@ -1450,8 +1450,8 @@
     "via": null
   },
   "ct_company_directory": {
-    "status": "unreachable",
-    "changed": "2026-09-19",
+    "status": "manual_required",
+    "changed": "2026-09-20",
     "via": "email"
   },
   "cuebiq": {
@@ -1990,9 +1990,9 @@
     "via": "email"
   },
   "eniro_ab": {
-    "status": "submitted",
-    "changed": "2026-09-18",
-    "via": "email"
+    "status": "manual_required",
+    "changed": "2026-09-20",
+    "via": "reply"
   },
   "enlyft": {
     "status": "submitted",
@@ -2780,8 +2780,8 @@
     "via": "email"
   },
   "ibegin": {
-    "status": "unreachable",
-    "changed": "2026-09-19",
+    "status": "manual_required",
+    "changed": "2026-09-20",
     "via": "email"
   },
   "id5": {
@@ -3972,7 +3972,7 @@
   "ncprofiles_com": {
     "status": "unreachable",
     "changed": "2026-09-17",
-    "via": "bounced"
+    "via": "email"
   },
   "near_kroll_estate": {
     "status": "submitted",
@@ -4120,9 +4120,9 @@
     "via": null
   },
   "nexsales": {
-    "status": "submitted",
-    "changed": "2026-08-19",
-    "via": "email"
+    "status": "manual_required",
+    "changed": "2026-09-20",
+    "via": "reply"
   },
   "nextroll": {
     "status": "captcha_blocked",
@@ -4730,8 +4730,8 @@
     "via": null
   },
   "plcom_net": {
-    "status": "unreachable",
-    "changed": "2026-09-12",
+    "status": "manual_required",
+    "changed": "2026-09-20",
     "via": "email"
   },
   "plexuss": {
@@ -5325,9 +5325,9 @@
     "via": "email"
   },
   "rocketreach": {
-    "status": "submitted",
-    "changed": "2026-08-21",
-    "via": "email"
+    "status": "manual_required",
+    "changed": "2026-09-20",
+    "via": "reply"
   },
   "rooftop_digital": {
     "status": "replied",
@@ -5921,7 +5921,7 @@
   },
   "streetdirectory_pte": {
     "status": "submitted",
-    "changed": "2026-09-19",
+    "changed": "2026-09-20",
     "via": "email"
   },
   "structure": {

@@ -20334,7 +20334,7 @@
       "legal_name": "ResearchUSA",
       "email_verified_was": "ca_data_broker_registry",
       "listing_basis": "state_register",
-      "email_note": " || 2026-09-03: privacy@researchusallc.com hard-bounced. Confirmed live working webform at this URL (email/name/state privacy-choice request, explains CCPA rights). No working alternate email found (privacy-policy page 403s). Needs a human to submit -- queued to handoff."
+      "email_note": " || 2026-09-03: privacy@researchusallc.com hard-bounced. Confirmed live working webform at this URL (email/name/state privacy-choice request, explains CCPA rights). No working alternate email found (privacy-policy page 403s). Needs a human to submit -- queued to handoff. CA registry filing (oag.ca.gov/data-broker/registration/186759) separately lists a CCPA opt-out form at https://ccpa-optout.com/rsusa/ -- an alternate route, not yet tested; the privacycompliance.biz form above was already confirmed live and is the primary one to use."
     },
     {
       "id": "resonate",
@@ -23088,7 +23088,7 @@
     {
       "id": "streetdirectory_pte",
       "name": "Streetdirectory Pte Ltd",
-      "domain": "",
+      "domain": "streetdirectory.com",
       "priority": 1,
       "method": "unknown",
       "optout_url": "",
@@ -23097,9 +23097,10 @@
       "optery_slug": "streetdirectory-pte-ltd",
       "optery_url": "https://www.optery.com/data-brokers/streetdirectory-pte-ltd/",
       "route_evidence": "optery_directory",
-      "email_to": "privacy@streetdirectory.com",
+      "email_to": "carecenter@streetdirectory.com",
       "email_verified": true,
-      "email_verified_by": "optery_directory"
+      "email_verified_by": "privacy_policy",
+      "notes": "privacy@streetdirectory.com hard-bounced 2026-09-19. Their own privacy policy (streetdirectory.com/app/privacy_policy) names mobileapp@streetdirectory.com for privacy questions and carecenter@streetdirectory.com for removal requests; using carecenter@ as primary."
     },
     {
       "id": "structure",

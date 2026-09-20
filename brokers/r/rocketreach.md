@@ -8,8 +8,18 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-21)
+- Current: `manual_required` (updated 2026-09-20)
 - Note: 2026-08-20: first contact, sent to the address discovered by the verify_emails sweep. Tailored per _CATEGORY_VARIANTS.md.
+- 2026-09-18: privacy@rocketreach.co replied: "We are unable to verify
+  your identity and therefore we cannot comply with your request" — no
+  explanation of what verification would satisfy them, despite the
+  original letter already carrying full name + aliases, DOB, current
+  address, current phone, and being sent from a controlled mailbox.
+  Replied 2026-09-20 declining to upload a government ID or create an
+  account, citing CPRA's necessary-and-proportionate standard
+  (Cal. Civ. Code § 1798.140(ad)), and asked them to either name a
+  lighter-weight verification step or say plainly that none exists short
+  of ID upload. No reply yet.
 
 ## Steps
 

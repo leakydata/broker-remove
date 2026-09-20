@@ -7,8 +7,16 @@
 
 ## Status
 
-- Current: `unreachable` (updated 2026-09-12)
+- Current: `unreachable` (updated 2026-09-20)
 - Note: HARD BOUNCE 2026-09-12, two seconds after sending: '550 5.1... the address couldn't be found, or is unable to receive mail' for info@backgroundalert.com. That address came from the Optery directory (SF 445) and is the first of the four test letters to fail. THE DOMAIN IS NOT DEAD, WHICH IS THE INTERESTING PART: backgroundalert.com has live MX records (mx1/mx2.emailsrvr.com, Rackspace), so mail is configured -- it is the specific local-part that does not exist. But the WEBSITE does not respond at all: both the front page and a control path return no HTTP response whatsoever (curl exit with 000, not a 4xx or 5xx). So the picture is a domain whose mail is provisioned and whose site is gone, which usually means a company that has folded or moved without releasing the domain. NO ALTERNATIVE ROUTE FOUND and none guessed: with the site down there is nothing to scrape for a form or a different address, and firing probes at privacy@ and support@ would produce more indistinguishable bounces, which is exactly the failure mode the enrichment script's own docstring warns about. Recorded unreachable rather than failed: there is no route a consumer can use today. Worth a re-probe if the site returns.
+- **2026-09-20: found why.** BackgroundAlert is a named party to a California
+  Privacy Protection Agency enforcement settlement dated 2025-02-27
+  (`cppa.ca.gov/announcements/2025/20250227.html`): the company agreed to
+  **cease all data-broker operations through 2028**. That is a confirmed
+  shutdown, not a domain lapse or a rebrand -- there is no successor to
+  look for. This is the strongest possible version of `unreachable`: the
+  company itself is gone by regulatory settlement, so stop probing local
+  parts or searching for a new domain.
 
 ## Steps
 
