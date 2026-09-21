@@ -7,8 +7,10 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-29)
+- Current: `confirmed` (updated 2026-09-21)
 - Note: Emailed legal@optable.co 2026-08-29 (CA registry 2026). Data collaboration / clean-room and identity platform. The letter takes the privacy-preserving intent seriously and says so -- it is not a complaint about the architecture -- but names the specific difficulty a collaboration platform creates for a rights request: THE DATA IS EVERYWHERE AND NOWHERE. Each participant holds their own, the platform holds the matching layer, and a consumer writing to any one of them can be told, truthfully, that the others are responsible. Four asks: (1) what they hold as a CONTROLLER as distinct from a processor, with the request applied in full to the first; (2) THE MATCHING LAYER IS ITSELF A RECORD -- even where no raw identifier is exchanged, a match generally produces something persistent (a shared identifier, a match key, a graph edge, or simply the fact that two participants both hold the same person), and that artefact is personal information about me even if neither party ever sees my email address; asked how long such artefacts persist and whether deletion reaches them or only the inputs; (3) forward-not-alter for the processor-side data; (4) the hashed-email wedge, since identity platforms of this kind are keyed to exactly that.
+- **2026-09-09 reply.** They read the request correctly and split their answer along exactly the controller/processor line asked for. Controller-role data: all twelve email addresses added to the suppression list now -- "excludes them from future sale or licensing," "removes matching records to the extent we can reasonably match them," "applies automatically to any third-party data we later receive that contains them," and explicitly "no further information is needed from you for this part." Processor-role data: referred back to the relevant business client, as the letter itself anticipated and accepted. This is a real, immediate suppression win independent of anything below.
+- **The "right to know" half is gated behind verification codes sent to old mailboxes.** To disclose what they hold (question 2, the matching-layer question), they require proof of control over each address first: they sent one-time codes to every listed address except the one used to write (self-verified by replying from it) and the one already flagged as a closed institutional mailbox. Most of the remaining coded addresses [EMAIL] were old/dead consumer webmail accounts (several different providers); if none is reachable, this half of the request simply cannot complete, and that is a limitation of the requester's own mailbox access, not a refusal on Optable's part.
 
 ## Steps
 
@@ -20,17 +22,25 @@
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+- **Controller/processor split works as a legal argument, not just a
+  courtesy.** Asking explicitly "what do you hold as a controller, as
+  distinct from a processor" got a genuinely useful split answer instead of
+  a blanket "we can't touch client data" refusal. Worth reusing at any
+  company describing itself as an identity/data-collaboration platform.
+- **The "right to know" half can be gated behind verification codes sent to
+  every listed email address**, including old ones supplied only as search
+  keys. If most of those addresses are dead mailboxes, that half of the
+  request effectively cannot complete — not a refusal, just unreachable.
+  Consider not listing an address you cannot receive mail at, if the
+  right-to-know disclosure matters more to you than the deletion/suppression
+  (which does not require verification here).
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+No public search surface. The suppression/deletion half needed no further
+action; the right-to-know half needs a reply from leakydata@gmail.com (or
+whichever verified address) with the one-time codes retrievable from the
+other listed mailboxes, if any are still accessible.
 
 ## Who they are, and how to reach them
 

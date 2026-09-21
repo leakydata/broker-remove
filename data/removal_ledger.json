@@ -1065,8 +1065,8 @@
     "via": "email"
   },
   "cinqdi": {
-    "status": "submitted",
-    "changed": "2026-08-25",
+    "status": "not_found",
+    "changed": "2026-09-21",
     "via": "reply"
   },
   "cint": {
@@ -2450,9 +2450,9 @@
     "via": null
   },
   "fusion92": {
-    "status": "submitted",
-    "changed": "2026-08-27",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-09-21",
+    "via": "reply"
   },
   "fyllo": {
     "status": "not_found",
@@ -2680,8 +2680,8 @@
     "via": "email"
   },
   "heartbeat_ai": {
-    "status": "submitted",
-    "changed": "2026-08-18",
+    "status": "confirmed",
+    "changed": "2026-09-21",
     "via": "reply"
   },
   "helix_campaigns": {
@@ -3960,9 +3960,9 @@
     "via": "email"
   },
   "nativo": {
-    "status": "submitted",
-    "changed": "2026-08-29",
-    "via": "email"
+    "status": "not_found",
+    "changed": "2026-09-21",
+    "via": "reply"
   },
   "nc_solutions": {
     "status": "submitted",
@@ -4060,9 +4060,9 @@
     "via": "email"
   },
   "new_work_se": {
-    "status": "submitted",
-    "changed": "2026-09-18",
-    "via": "email"
+    "status": "not_found",
+    "changed": "2026-09-21",
+    "via": "reply"
   },
   "new_york_arrests": {
     "status": "submitted",
@@ -4385,9 +4385,9 @@
     "via": "reply"
   },
   "optable": {
-    "status": "submitted",
-    "changed": "2026-08-29",
-    "via": "email"
+    "status": "confirmed",
+    "changed": "2026-09-21",
+    "via": "reply"
   },
   "optimal": {
     "status": "captcha_blocked",
@@ -5145,9 +5145,9 @@
     "via": "email"
   },
   "redmob": {
-    "status": "submitted",
-    "changed": "2026-08-30",
-    "via": null
+    "status": "replied",
+    "changed": "2026-09-21",
+    "via": "reply"
   },
   "referenceguru": {
     "status": "submitted",
@@ -5330,9 +5330,9 @@
     "via": "reply"
   },
   "rooftop_digital": {
-    "status": "replied",
-    "changed": "2026-09-01",
-    "via": "email"
+    "status": "suppressed",
+    "changed": "2026-09-21",
+    "via": "reply"
   },
   "ror_partners": {
     "status": "submitted",
@@ -5625,9 +5625,9 @@
     "via": "email"
   },
   "site_impact": {
-    "status": "submitted",
-    "changed": "2026-08-30",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-09-21",
+    "via": "reply"
   },
   "skydeo": {
     "status": "manual_required",
@@ -5710,9 +5710,9 @@
     "via": "email"
   },
   "source_path_digital": {
-    "status": "submitted",
-    "changed": "2026-08-30",
-    "via": null
+    "status": "not_found",
+    "changed": "2026-09-21",
+    "via": "reply"
   },
   "sourceit": {
     "status": "confirmed",
@@ -5950,9 +5950,9 @@
     "via": "email"
   },
   "swordfish_ai": {
-    "status": "submitted",
-    "changed": "2026-09-12",
-    "via": "email"
+    "status": "confirmed",
+    "changed": "2026-09-21",
+    "via": "reply"
   },
   "sync_me": {
     "status": "confirmed",
@@ -6550,9 +6550,9 @@
     "via": "email"
   },
   "versium_analytics": {
-    "status": "submitted",
-    "changed": "2026-08-29",
-    "via": "email"
+    "status": "covered_by_sibling",
+    "changed": "2026-09-21",
+    "via": "reply"
   },
   "verve_for_advertisers": {
     "status": "submitted",
@@ -6900,8 +6900,8 @@
     "via": "email"
   },
   "zumper": {
-    "status": "submitted",
-    "changed": "2026-09-15",
-    "via": "email"
+    "status": "confirmed",
+    "changed": "2026-09-21",
+    "via": "reply"
   }
 }

@@ -6,8 +6,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-12)
+- Current: `confirmed` (updated 2026-09-21)
 - Note: Letter to privacy@zumper.com 2026-09-12. This address came from 447's incidental yield: the directory contact for Zumper routed to a PRESS DESK, and the site published a real privacy address. Told them the published listing is wrong and why it costs them. Asked them to search beyond subscriber accounts -- enquiry and lead data from listing partners, and acquired household/address data, is the part a rental marketplace holds about non-users.
+- 2026-09-21 reply: deletion completed and personal information de-identified or, for search history and self-requested changes, permanently erased outright. They named the narrow CCPA exceptions they retained data under instead -- an active "pro" account's ongoing transactions, security/fraud logs, and debugging logs -- and stated retained data will not be used beyond those purposes. This is a template CCPA-compliant confirmation done right: it distinguishes deletion from de-identification, and states which exception applies to what remains, rather than a bare "your data has been deleted."
 
 ## Steps
 
@@ -19,17 +20,26 @@
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+- **De-identification and deletion are not the same word here, and Zumper
+  says which applies to which record.** Most data was de-identified rather
+  than erased outright; only search history and self-requested account
+  changes were fully erased. If your record turns out to be entirely
+  de-identified rather than deleted, that is still a real, citable outcome —
+  just not the strongest one, and worth noting as such rather than folding
+  it into "confirmed" without the distinction.
+- **They will name the specific CCPA exception, not just wave at "legal
+  requirements."** Ongoing pro-account transactions, security/fraud
+  detection, and debugging logs were each named as separate retained
+  categories. A reply this specific is a good template to quote back at a
+  broker that tries the vaguer "we may retain data as required by law."
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+No public search surface. If re-checked, ask specifically whether the prior
+de-identified record has since been re-identified or re-enriched from a new
+data source — de-identification does not carry the same forward-looking
+suppression guarantee as the CPRA §1798.105(d)(1) retained-for-deletion
+record does.
 
 ## If they ignore you
 

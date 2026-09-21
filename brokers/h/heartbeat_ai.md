@@ -8,8 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-18)
+- Current: `confirmed` (updated 2026-09-21)
 - Note: Replied three times with an IDENTICAL confirmation covering only the OPT-OUT: 'your request to opt out of the sale or sharing of your personal information has been received and successfully processed.' Silent on deletion, which was the first half of the request. Pressed for deletion specifically, plus which identifiers they hold (including hashed), per-contact-point sourcing, the customer list, and a do-not-contact entry held independently of the record. Also flagged their autoresponder firing per inbound rather than per ticket.
+- **2026-09-02 reply (sat unread until this 2026-09-21 pass — check for stale unread mail on any thread that got a follow-up letter):** answers the deletion-vs-suppression gap above. Records tied to name, email addresses, LinkedIn profile and Facebook profile have been suppressed and are "not disclosed, processed, or made available to any customer," and identifiers were added to a suppression list meant to survive future data refreshes or enrichment. They said they are not aware of additional hashed/pseudonymized records beyond what was suppressed. Declined the itemized asks: source given only as a general category ("online sources"), recipients given only as a general category ("customers on our platform who use this information for contact discovery purposes") — no supplier-by-supplier or per-customer breakdown. This is the same reply text, nearly verbatim, that Swordfish AI sent under its own name for the same identifiers (see swordfish_ai.md) — the two run on one shared backend.
 
 ## Steps
 
@@ -53,6 +54,19 @@ minimum say who can. See `_DEFLECTIONS.md` §21.
 Nothing public to search. Ask the confirmation to list which of your contact points
 they held, where each came from, and which customers received them. A reply that
 says only "your data has been deleted" has answered none of those.
+
+## A substantive reply sat unread for 19 days
+
+The 2026-09-02 suppression confirmation above was sitting in the inbox,
+marked unread, through at least two later passes before this one read it. It
+was not a bounce and not boilerplate — it was the actual answer to the
+deletion-vs-opt-out gap raised on 2026-08-18 — and the ledger kept showing
+`submitted` from August the whole time, understating real progress. Whatever
+inbox query a pass runs first should not be scoped so narrowly (e.g. to a
+short `newer_than:` window, or only to threads matching a broker's most
+recent send) that it can skip an older unread message sitting in a thread
+that already looked "closed" after the 08-18 exchange. Worth an occasional
+`is:unread` sweep with no date bound at all, not just the recent-window one.
 
 ## They confirmed the opt-out and said nothing about the deletion
 

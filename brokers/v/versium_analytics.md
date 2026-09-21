@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-29)
-- Note: 2026-08-29 COVERED BY CANONICAL (SILENT_FAILURES 177). duplicate_of=versium, and both rows carry the identical address privacy@versium.com -- so a letter was sent to this exact address for the canonical row 'versium' (confirmed). Not a separate send: the mailbox has the request, and whether the company files it under one brand name or the other is internal to them. Status set here so the queue stops offering a second letter to an address that already has one. NOT marked confirmed -- no confirmation was received for this row.
+- Current: `covered_by_sibling` (updated 2026-09-21)
+- Note: 2026-08-29 COVERED BY CANONICAL (SILENT_FAILURES 177). duplicate_of=versium, and both rows carry the identical address privacy@versium.com -- so a letter was sent to this exact address for the canonical row 'versium' (now confirmed there, 2026-08-27/2026-09-14). Not a separate send: the mailbox has the request, and whether the company files it under one brand name or the other is internal to them. Moved from `submitted` to the dedicated `covered_by_sibling` status now that it exists, rather than `confirmed`, to keep this row from double-counting the canonical row's real-world outcome in any status tally.
 
 ## Steps
 

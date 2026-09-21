@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-30)
-- Note: Recovered from the committed playbook brokers/s/site_impact.md, because the ledger carries no notes and this row's status had no evidence behind it: 2026-08-30 Sent the standard letter, tailored for an ESP (email marketing/messaging platform), to dataprivacy@siteimpact.com. Framed as likely email-keyed rather than name-keyed.
+- Current: `confirmed` (updated 2026-09-21)
+- Note: 2026-08-30 sent the standard letter, tailored for an ESP (email marketing/messaging platform), to dataprivacy@siteimpact.com, framed as likely email-keyed rather than name-keyed. 2026-09-09 reply, same day the request was read: "Any matching records have been deleted, and your identifiers have been added to our suppression list to prevent re-collection and opt you out of any sale or sharing." Clean, complete, both halves in one sentence -- deletion AND forward suppression, unprompted.
 
 ## Steps
 
@@ -20,17 +20,17 @@
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+- An ESP's own registration data (name, email, phone) is comparatively easy
+  to search and confirm, unlike the campaign-level engagement data an ESP
+  also holds for its clients (opens, clicks) -- this reply only addresses
+  the former. If you want the latter covered, ask about it explicitly and by
+  name; a general "delete my personal information" letter is likely to be
+  answered as a subscriber-record request only.
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+No public search surface. Their turnaround was same-day; a re-request after
+several months would be the way to check the suppression is holding.
 
 ## Who they are, and how to reach them
 

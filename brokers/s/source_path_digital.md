@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-30)
-- Note: Recovered from the committed playbook brokers/s/source_path_digital.md, because the ledger carries no notes and this row's status had no evidence behind it: 2026-08-30 Sent the standard data-broker letter to privacy@sourcepathdigital.com.
+- Current: `not_found` (updated 2026-09-21)
+- Note: 2026-08-30 sent the standard data-broker letter to privacy@sourcepathdigital.com. 2026-09-09 reply from Vince Toon, Director of Data and Technology: "has been processed and the record was removed if present (was not present)" -- a direct nil against all four email addresses supplied, in a single sentence that distinguishes the two outcomes rather than defaulting to the reassuring one.
 
 ## Steps
 
@@ -20,17 +20,15 @@
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+- A named individual (their Director of Data and Technology) answered
+  personally and directly rather than through a ticket system, and did so
+  within ten days. Small registry-only brokers like this one are often
+  faster and more straightforward to deal with than the large aggregators.
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+No public search surface. Re-send the same four email addresses after a few
+months if you want to confirm the nil still holds.
 
 ## Who they are, and how to reach them
 

@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-18)
-- Note: 2026-09-18 sent the standard consumer deletion/opt-out/suppression letter to the registry contact address (part of the 2026-09-18 batch send). No reply yet.
+- Current: `not_found` (updated 2026-09-21)
+- Note: 2026-09-18 sent the standard consumer deletion/opt-out/suppression letter to the registry contact address. 2026-09-21 reply (ticket XING-18118446): searched the supplied identifiers and could not reliably attribute any XING member profile to the requester. They explained why this is a clean nil rather than a brush-off: XING profiles are created by self-registration, not compiled from consumer records bought from data brokers, so a name-and-address search genuinely has nothing to match against unless the requester already has an account. They also declined to suppress a bare former address or phone number as a standalone identifier, on the reasonable ground that doing so could catch an unrelated person who now holds it — offered instead to re-check against a direct profile URL or the email used at registration.
 
 ## Steps
 
@@ -23,17 +23,23 @@
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+- **XING is a professional network, not a scraped people-search index.** A
+  standard broker letter listing consumer identifiers (home address, personal
+  phone, DOB) will usually come back nil here, because none of those are how a
+  XING account is created or found — only a profile URL, the account's own
+  registration email, or the account holder's name-as-displayed will match
+  anything. If you know you have (or had) a XING account, lead with that
+  identifier rather than the general identity block.
+- They explicitly will not touch a bare address or phone number as a
+  standalone suppression key, because it could belong to someone else now —
+  a reasonable, worth-citing position when another broker claims it can't
+  avoid exactly that collateral effect.
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+Re-send with a direct profile URL or the account's registration email if one
+is ever found; a name-only letter cannot get past "no profile identified"
+here.
 
 ## If they ignore you
 

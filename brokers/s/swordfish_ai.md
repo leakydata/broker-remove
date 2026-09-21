@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-13)
+- Current: `confirmed` (updated 2026-09-21)
 - Note: Supplement 2026-09-13 reversing the withholding stated IN yesterday's letter. The 12 September letter said in terms 'I am deliberately not handing you a profile URL to search on'; the subject authorised the profile URL on 13 September, so the supplement supplies it and says plainly that it reverses the earlier sentence rather than quietly adding it. Argument given to them: for a company whose product resolves public professional profiles, the profile is their INPUT, not something they lack -- what was missing was the LINK between it and a person asking to be excluded, and withholding that link protected the record rather than the subject. Supplied under the two SUPPRESS_BLOCK conditions, forward-looking and exclude-only, with a request to state back which. Also asked them NOT to act on a namesake's record.
+- 2026-09-20 reply: records including the supplied LinkedIn URL suppressed, "not disclosed, processed, or made available to any customer," intended to survive future data refreshes or enrichment -- substantively answers the forward-looking condition asked for. Source given only as general "online sources"; declined a supplier-by-supplier breakdown. States in terms that this request "shares the same underlying systems as Heartbeat.AI" and was answered there too (see heartbeat_ai.md) -- the two are effectively one backend behind two storefront brands, not independent companies, so a request to one plausibly covers the other, but confirm both in writing when you can rather than assuming it from this line alone.
 
 ## Steps
 
@@ -36,7 +37,11 @@
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+No public search surface. The 2026-09-20 reply is a form-letter suppression
+confirmation nearly identical in wording to Heartbeat.AI's -- same shared
+backend, same support agent name ("Carla") in both. If you get one from
+either brand, check the other's thread before writing a fresh letter; it may
+already be covered.
 
 ## Who they are, and how to reach them
 
