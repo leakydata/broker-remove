@@ -7,26 +7,30 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-31)
-- Note: Recovered from the committed playbook brokers/u/upcell.md, because the ledger carries no notes and this row's status had no evidence behind it: Sent the "unknown broker" categorisation letter — no public information found beyond the CA registration; the name suggests a sales/upsell SaaS tool but that's a guess, not a finding.
+- Current: `confirmed` (updated 2026-09-22)
+- Reference: `gmail:1a057595473e6459`
+- Note: 9/21 reply from privacy@upcell.io: "we have searched our database and removed any data associated with the identifiers you have provided. Additionally, we have gone ahead and suppressed against any future ingestion for the given identifiers to prevent records from being re-added." Dated the completion (9/21) and invited follow-up questions. This is a clean confirmation: it states an affirmative removal AND a forward-looking suppression, unprompted, without being asked to distinguish the two. No further action needed.
 
 ## Steps
 
-1. Email privacy@upcell.io with the categorisation question plus the standard ask.
+1. Email privacy@upcell.io with the categorisation question (what kind of data
+   they hold — contact/identity-graph/location/inferred/transaction/public-record)
+   plus the standard delete/opt-out/suppress ask. Asking "what do you hold"
+   before demanding a specific remedy got a substantive, specific answer here
+   rather than a form-letter deflection.
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+None observed — this one worked as intended on the first letter. Worth noting
+*why* the categorisation-first approach may have helped: it signals the sender
+already knows this is an obscure registry-only entry and isn't assuming a
+specific business model, which seems to invite a specific answer back rather
+than a boilerplate one.
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+Reply is self-verifying (affirmative deletion + suppression stated in writing,
+dated). No further check scheduled.
 
 ## Who they are, and how to reach them
 

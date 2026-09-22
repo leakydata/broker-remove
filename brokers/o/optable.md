@@ -38,9 +38,9 @@
 ## Verification
 
 No public search surface. The suppression/deletion half needed no further
-action; the right-to-know half needs a reply from leakydata@gmail.com (or
-whichever verified address) with the one-time codes retrievable from the
-other listed mailboxes, if any are still accessible.
+action; the right-to-know half needs a reply from the verified contact
+address with the one-time codes retrievable from the other listed
+mailboxes, if any are still accessible.
 
 ## Who they are, and how to reach them
 

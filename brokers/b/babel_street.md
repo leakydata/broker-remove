@@ -7,9 +7,25 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-17)
-- Reference: `gmail:1a078cb4896ef047`
-- Note: noreply@m.onetrust.com, 2026-09-15 14:52 UTC: "A comment has been added
+- Current: `manual_required` (updated 2026-09-22)
+- Reference: `gmail:1a0c5d620865108c`
+- Note: 9/21, a new OneTrust auto-notice (still Request ID P7MJRE69RA): "Your
+  request cannot be completed at this time... we have not received sufficient
+  information to complete the identity verification process." No specifics on
+  what was missing, and no portal login used to check (see below on why).
+  Rather than opening the portal, emailed privacy@babelstreet.com directly
+  9/22 — the address that has previously worked for reaching an actual
+  person here (see the prior ticket-opened-on-our-behalf history below) —
+  re-stating name/DOB/phone/address/4 emails, offering a utility-bill proof
+  of address, and explicitly declining to upload a government ID (per this
+  project's hard rule and the CPRA's necessary-and-proportionate standard for
+  a request of this scope). Asked them to say what would actually satisfy
+  verification short of an ID. **Do not treat "insufficient verification" as
+  a dead end that requires escalating to ID upload** — try the direct email
+  route to the human contact first, since the portal notice reads like a
+  generic OneTrust template rather than a considered judgment about this
+  specific request.
+- Prior (2026-09-17): `submitted`, reference `gmail:1a078cb4896ef047`. noreply@m.onetrust.com, 2026-09-15 14:52 UTC: "A comment has been added
   to your request (Request ID: P7MJRE69RA). Please click the button below to
   access your request in the privacy portal." The email carries no content
   beyond that — same shape as the Merkle/dentsu OneTrust notice — and the
@@ -31,17 +47,33 @@
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+**A OneTrust "insufficient verification" notice can be a template, not a
+considered decision — email the human address directly rather than escalating
+into the portal.** This ticket already has a documented history of Babel
+Street staff doing extra work by hand (opening a ticket on the requester's
+behalf) once reached directly by email. When the automated notice arrives with
+no specifics on what's missing, replying to `privacy@babelstreet.com` with the
+identifiers already given, plus an offer of a lesser proof-of-address document,
+is worth trying before assuming an ID upload is required.
+
+**Never upload a government ID for this kind of request.** Babel Street is an
+OSINT/identity-aggregation product; removing a name/phone/address match does
+not require government-ID-level assurance under CPRA's necessary-and-
+proportionate standard. State that explicitly and ask what lesser verification
+would work.
+
+**Masked confirmation data is worth checking against the actual profile
+before assuming the request matched the right person** — see the flagged
+phone-number-ending discrepancy in the superseded note below; it was never
+resolved because the ticket moved on to a new ID, so if it recurs on a future
+OneTrust confirmation, check it again.
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+Watch for Babel Street's reply naming what verification would suffice. If it
+again names only "the portal," push back once more on the ground that the
+portal's own request already required nothing beyond what's already been
+supplied by email.
 
 ## Who they are, and how to reach them
 

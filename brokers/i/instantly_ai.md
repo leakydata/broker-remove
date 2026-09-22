@@ -7,8 +7,22 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-28)
-- Note: Sent a TWO-POSITIONS variant, separating processor from controller at the outset so neither answer swallows the other. Position one: contact lists customers upload and send from their own accounts -- conceded as theirs, not asking them to alter a customer's list unilaterally. Position two: any LEAD DATABASE or contact-finding product they operate themselves, which is squarely in scope and is where a cold-email platform's own data sits.
+- Current: `replied` (updated 2026-09-22)
+- Reference: `gmail:1a046b4a0d824dc6`
+- Note: 9/21 reply from dpo@instantly.ai, and it is the most substantive reply
+  this project has received from a cold-email/prospecting tool. It answered
+  the processor/controller split directly: Instantly holds no contact-database
+  record of its own, but the 11 addresses given appear inside 8 customer
+  accounts, with 12 message-send records held as processor. It offered, on
+  request: (1) to name the 8 customer companies once addresses are confirmed
+  as staying under the requester's control, (2) to flag the customer-held
+  copies for deletion, (3) to add all addresses to a platform-wide suppression
+  list. Replied 9/22 accepting all three, asking that the suppression not be
+  made contingent on the 8 customers acting on the deletion flag (since that
+  depends on parties outside Instantly's control), and extending the ask to
+  any generated first.last@employer pattern addresses built from the supplied
+  LinkedIn profile. Awaiting the follow-up.
+- Older note (8/28), for the letter that produced this reply: Sent a TWO-POSITIONS variant, separating processor from controller at the outset so neither answer swallows the other. Position one: contact lists customers upload and send from their own accounts -- conceded as theirs, not asking them to alter a customer's list unilaterally. Position two: any LEAD DATABASE or contact-finding product they operate themselves, which is squarely in scope and is where a cold-email platform's own data sits.
 
 For the processor half, two asks rather than assumptions: (a) which customer accounts hold a matching record, and if they will not name them, will they forward the request and confirm; (b) A PLATFORM-WIDE SUPPRESSION -- if they run a global do-not-contact list applying across all customer sends, add every address to it. That is the one control they can operate without touching anyone else's data, and it is the only thing that stops the next customer uploading the same person again.
 
@@ -24,17 +38,28 @@ Also carried the GENERATED-ADDRESS ask, which is acute for a contact-finding pro
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+**Instantly answers the recipients question at the account level, not the
+person level.** Article-15-style "who received my data" got a category answer
+("Instantly customers who use our platform to market their B2B services") plus
+a count (8 accounts), but explicitly declined to name individual account
+*users* — only the accounts. If you want the actual company names, you have to
+separately confirm the addresses are yours, which they treat as a condition
+for naming them (a reasonable anti-enumeration control, not a stall).
+
+**The one thing Instantly can act on unilaterally is the platform-wide
+suppression list — everything else needs a customer's cooperation.** Deletion
+of customer-held copies requires Instantly to notify 8 separate companies and
+depends on those companies actually acting. The suppression list is different:
+it's Instantly's own control surface and doesn't wait on anyone else. Ask for
+the suppression to be applied immediately and not bundled with, or made
+contingent on, the customer-deletion step.
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+Watch for: (1) the named customer companies, (2) confirmation the 12 message
+records were flagged for deletion with the 8 customers, (3) confirmation the
+suppression list now includes all 11 addresses plus any employer-pattern
+variants.
 
 ## Who they are, and how to reach them
 

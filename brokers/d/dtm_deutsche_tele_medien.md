@@ -6,8 +6,19 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-18)
-- Note: 2026-09-18 sent the standard consumer deletion/opt-out/suppression letter to the registry contact address (part of the 2026-09-18 batch send). No reply yet.
+- Current: `not_found` (updated 2026-09-22)
+- Reference: `gmail:1a0b40f643e815f2`
+- Note: 9/22 reply from kundenservice@dtme.de (in German): searched Das
+  Telefonbuch, Das Örtliche and Gelbe Seiten — DTM's three German directory
+  products — plus a Google search on the details given, and found no
+  unambiguous ("eindeutige") entries. Asked us to supply a URL or screenshot
+  if a live listing is still up somewhere. We had none to give (this was a
+  registry-driven precautionary letter, not a response to a known listing),
+  so replied thanking them and asking for a standing preventive-suppression
+  note keyed to name + DOB across the 4 email addresses, so a future listing
+  isn't published without notice. No confirmation yet that they'll do the
+  preventive part — this letter format doesn't obviously have one, so treat
+  this as `not_found` on the current search rather than a durable suppression.
 
 ## Steps
 
@@ -19,17 +30,29 @@
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+**They reply in German and expect the correspondent to keep up** — the reply
+came from `kundenservice@dtme.de` (customer service), addressed formally by
+surname (`Sehr geehrter Herr [LAST]`), even though the original letter was in
+English to `info@dtme.de`. Machine translation was sufficient to understand
+and answer it; no need to reply in German.
+
+**They search their own directory brands by name/address, not by email — and
+say so implicitly by asking for a URL rather than confirming an email match.**
+DTM's core products (Das Telefonbuch, Das Örtliche, Gelbe Seiten) are phone/
+address directories, so a US resident's Gmail addresses are unlikely search
+keys here regardless of outcome. A German phone-directory operator is a
+plausible reason to write at all only if a specific listing is suspected;
+absent one, a nil result here is not very informative either way.
+
+**No web form, no CAPTCHA, no account required for the search step** — this
+was a straightforward two-email exchange.
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+No live listing was identified, so there's nothing to re-check against a URL.
+If a matching entry ever surfaces in Das Telefonbuch / Das Örtliche / Gelbe
+Seiten, report the exact URL to kundenservice@dtme.de and reference this
+thread.
 
 ## If they ignore you
 

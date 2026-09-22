@@ -7,8 +7,21 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-18)
-- Note: 2026-09-18 sent the standard consumer deletion/opt-out/suppression letter to the registry contact address (part of the 2026-09-18 batch send). No reply yet.
+- Current: `manual_required` (updated 2026-09-22)
+- Reference: `gmail:1a0b415257fea3b0`
+- Note: 9/21 reply from magsdatarequests@hearst.com: "we process privacy
+  rights requests through our online privacy portals to account for
+  cookie-level data... unless a request is submitted through the appropriate
+  form or device-level mechanism, we may not be able to apply the request to
+  this device-specific cookie-level data." Pointed to the "Your Privacy
+  Choices (Opt Out of Sale/Targeted Ads)" footer link on each Hearst
+  Magazines site/app, which is per-browser/per-device — this is a genuine
+  no-email-route case (see `_DEFLECTIONS.md`), not a boilerplate deflection,
+  since the stated reason (cookie/device scoping) is a real technical
+  constraint an email can't carry. Queued in `scripts/handoff.py` for a
+  human with a browser (`hearst_communications`, ~5 min, `form`). No further
+  email action here — the identity/deletion portion of the letter may still
+  get answered separately; watch for a second reply.
 
 ## Steps
 
@@ -23,17 +36,22 @@
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+**Cookie/device-level opt-out cannot be carried by an emailed letter, and
+Hearst says so plainly rather than hiding behind it.** Their reply explains
+the actual reason a form is required for the sale/targeted-ads opt-out: it's
+tied to a specific browser/device via cookies, and there is no way to apply
+that from an emailed identifier list. This is a legitimate technical
+constraint, not a designated-method stonewall — treat it as `manual_required`,
+not as a deflection to argue with. Requires opening each Hearst site/app you
+use, clicking the footer's "Your Privacy Choices" link, and repeating per
+device/browser.
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+Once the human handoff is done, there's no server-side confirmation beyond
+the form's own "your preference has been saved" — re-check by loading the
+same footer link on the same browser/device and confirming it still shows
+opted out.
 
 ## If they ignore you
 

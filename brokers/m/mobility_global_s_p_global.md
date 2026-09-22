@@ -7,8 +7,17 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-29)
-- Note: Emailed privacy@mobilityglobal.com 2026-08-29 (CA registry 2026 only -- a new registrant, consistent with the rename). Automotive intelligence; the site states S&P Global Mobility is now Mobility Global. FIRST USE OF THE DPPA FORK IN A LETTER OF THIS KIND. (1) Asked whether any data held, received or derived originated -- directly or through an intermediary -- in STATE MOTOR VEHICLE RECORDS (title, registration, lienholder, driver licence). If it did, the Driver's Privacy Protection Act, 18 U.S.C. 2721 et seq., governs, and two things follow: which enumerated permissible use they rely on, and -- the valuable one -- SECTION 2721(c) REQUIRES A RESELLER OR REDISCLOSER TO KEEP FOR FIVE YEARS RECORDS IDENTIFYING EACH RECIPIENT AND THE PERMITTED PURPOSE, so asked for those records as they relate to me: who received it, when, for what purpose, with a named exemption required if they decline. That is an access-log ask with a federal statutory hook rather than a request for goodwill. If NOT from motor vehicle records, asked where instead -- dealer management systems, service and repair, warranty registrations, telematics, finance and lease, or purchased marketing files. (2) THE VEHICLE IS THE KEY, NOT THE NAME: files of this type are indexed by VIN and by the registrant's details AT THE TIME OF EACH TRANSACTION, which means old addresses; asked them to search all sixteen and to treat as in scope any record where I appear as registered owner, co-owner, lessee, service customer, warranty registrant or PRIOR owner, with the 154 scope limit stated. (3) THE RENAME GAP: asked for confirmation the request reaches records under the former name, predecessor entities in the same lineage including the historic vehicle-registration data business, and any copy retained by S&P Global post-separation -- and said if a copy sits with a company that is no longer theirs, just say so and I will write to them. (4) Derived attributes: in-market and purchase-intent scores, loyalty and defection propensity, estimated income and household composition, segment membership. NO VIN AND NO DRIVER'S LICENCE NUMBER SUPPLIED, with an offer to reconsider the VIN if genuinely necessary.
+- Current: `manual_required` (updated 2026-09-22)
+- Reference: `gmail:1a0c4179b9fad43b`
+- Note: 9/21, OneTrust notice: "A comment has been added to your request
+  (Request ID: AV6KDQ7SS4)," link-only, portal login required to read the
+  comment content — the request itself (the detailed DPPA-fork letter below)
+  had gone unacknowledged since 8/29 until this. Rather than opening the
+  portal, emailed privacy@mobilityglobal.com directly 9/22 asking them to
+  state the comment's content by email, since this project does not use
+  browser/portal logins, and repeating the core ask (delete/opt-out/direct
+  third-parties/suppress) and the four email addresses for reference.
+- Prior (2026-08-29): Emailed privacy@mobilityglobal.com 2026-08-29 (CA registry 2026 only -- a new registrant, consistent with the rename). Automotive intelligence; the site states S&P Global Mobility is now Mobility Global. FIRST USE OF THE DPPA FORK IN A LETTER OF THIS KIND. (1) Asked whether any data held, received or derived originated -- directly or through an intermediary -- in STATE MOTOR VEHICLE RECORDS (title, registration, lienholder, driver licence). If it did, the Driver's Privacy Protection Act, 18 U.S.C. 2721 et seq., governs, and two things follow: which enumerated permissible use they rely on, and -- the valuable one -- SECTION 2721(c) REQUIRES A RESELLER OR REDISCLOSER TO KEEP FOR FIVE YEARS RECORDS IDENTIFYING EACH RECIPIENT AND THE PERMITTED PURPOSE, so asked for those records as they relate to me: who received it, when, for what purpose, with a named exemption required if they decline. That is an access-log ask with a federal statutory hook rather than a request for goodwill. If NOT from motor vehicle records, asked where instead -- dealer management systems, service and repair, warranty registrations, telematics, finance and lease, or purchased marketing files. (2) THE VEHICLE IS THE KEY, NOT THE NAME: files of this type are indexed by VIN and by the registrant's details AT THE TIME OF EACH TRANSACTION, which means old addresses; asked them to search all sixteen and to treat as in scope any record where I appear as registered owner, co-owner, lessee, service customer, warranty registrant or PRIOR owner, with the 154 scope limit stated. (3) THE RENAME GAP: asked for confirmation the request reaches records under the former name, predecessor entities in the same lineage including the historic vehicle-registration data business, and any copy retained by S&P Global post-separation -- and said if a copy sits with a company that is no longer theirs, just say so and I will write to them. (4) Derived attributes: in-market and purchase-intent scores, loyalty and defection propensity, estimated income and household composition, segment membership. NO VIN AND NO DRIVER'S LICENCE NUMBER SUPPLIED, with an offer to reconsider the VIN if genuinely necessary.
 
 ## Steps
 
@@ -20,17 +29,21 @@
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+**A detailed, statute-specific letter (DPPA fork, access-log demand) still
+routed through OneTrust and produced a portal-gated "comment," not a direct
+reply.** The letter's substance didn't get a substantive email answer even
+after three weeks — only an automated notice that a comment exists behind a
+login. When that happens, email the direct contact and ask for the comment's
+content by email rather than assuming a portal account is required; this
+project does not create broker accounts as a matter of policy, and asking
+costs nothing.
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+Watch for the comment's content to come back by email. If they insist on the
+portal even after being told no browser/account is used, that becomes a
+`captcha_blocked`-adjacent dead end worth flagging for human handoff — but try
+the direct ask first.
 
 ## Who they are, and how to reach them
 

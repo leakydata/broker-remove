@@ -1875,9 +1875,9 @@
     "via": "email"
   },
   "dtm_deutsche_tele_medien": {
-    "status": "submitted",
-    "changed": "2026-09-18",
-    "via": "email"
+    "status": "not_found",
+    "changed": "2026-09-22",
+    "via": "reply"
   },
   "dtn": {
     "status": "manual_required",
@@ -2675,9 +2675,9 @@
     "via": "email"
   },
   "hearst_communications": {
-    "status": "submitted",
-    "changed": "2026-09-18",
-    "via": "email"
+    "status": "manual_required",
+    "changed": "2026-09-22",
+    "via": "reply"
   },
   "heartbeat_ai": {
     "status": "confirmed",
@@ -2915,9 +2915,9 @@
     "via": "email"
   },
   "informa": {
-    "status": "submitted",
-    "changed": "2026-08-28",
-    "via": null
+    "status": "replied",
+    "changed": "2026-09-22",
+    "via": "reply"
   },
   "informa_techtarget": {
     "status": "submitted",
@@ -2985,9 +2985,9 @@
     "via": "email"
   },
   "instantly_ai": {
-    "status": "submitted",
-    "changed": "2026-08-28",
-    "via": null
+    "status": "replied",
+    "changed": "2026-09-22",
+    "via": "reply"
   },
   "institutional_shareholder_services": {
     "status": "submitted",
@@ -3817,7 +3817,7 @@
   "mobility_global_s_p_global": {
     "status": "manual_required",
     "changed": "2026-09-11",
-    "via": "email"
+    "via": "reply"
   },
   "modern_hire": {
     "status": "submitted",
@@ -6015,9 +6015,9 @@
     "via": null
   },
   "teamunify": {
-    "status": "submitted",
-    "changed": "2026-09-19",
-    "via": "email"
+    "status": "covered_by_sibling",
+    "changed": "2026-09-22",
+    "via": "reply"
   },
   "telefi": {
     "status": "submitted",
@@ -6140,9 +6140,9 @@
     "via": "email"
   },
   "therapist_com": {
-    "status": "submitted",
-    "changed": "2026-09-19",
-    "via": "email"
+    "status": "replied",
+    "changed": "2026-09-22",
+    "via": "reply"
   },
   "think_data": {
     "status": "submitted",
@@ -6345,9 +6345,9 @@
     "via": "reply"
   },
   "upcell": {
-    "status": "submitted",
-    "changed": "2026-08-31",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-09-22",
+    "via": "reply"
   },
   "uplead": {
     "status": "replied",
@@ -6543,6 +6543,11 @@
     "status": "submitted",
     "changed": "2026-08-16",
     "via": null
+  },
+  "versant_media": {
+    "status": "submitted",
+    "changed": "2026-09-22",
+    "via": "email"
   },
   "versium": {
     "status": "confirmed",

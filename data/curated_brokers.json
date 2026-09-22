@@ -26948,7 +26948,27 @@
       "category_source": "manual 2026-09-18",
       "listing_basis": "discovered",
       "notes": "Not previously in the registry despite being one of the largest identity-data aggregators feeding B2B enrichment and recruiting tools -- named 2026-09-18 by hireEZ (id: hireez) as a source of candidate contact data, with this do-not-sell form given as the opt-out route. No email contact confirmed here; browser-gated form needs a human to complete."
+    },
+    {
+      "id": "versant_media",
+      "name": "Versant Media",
+      "domain": "versantmedia.com",
+      "priority": 2,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "broker_correspondence",
+      "optery_slug": null,
+      "email_to": "privacy@versantmedia.com",
+      "email_verified": true,
+      "email_verified_by": "broker_reply",
+      "registry_years": [],
+      "legal_name": null,
+      "category": "media",
+      "category_source": "nbcuniversal_referral 2026-09-21",
+      "listing_basis": "successor_entity",
+      "notes": "Spun off from NBCUniversal; TeamUnify LLC (nee NBC Sports company) is now a Versant brand. NBCUni privacy team confirmed CA/CO residents (or authorized agents) may email privacy@versantmedia.com directly; other residents are directed to a web portal. See brokers/v/versant_media.md."
     }
   ],
-  "count": 1405
+  "count": 1406
 }
