@@ -9,8 +9,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-19)
-- Note: Closed the ticket with a customer-satisfaction survey - 'How would you rate our customer service?' - rather than answering any of it. The suppression question, the multiple-records question and the Property Search scope question all went unanswered, and the ticket is now shut. Worth recording as an artifact of the template loop in _DEFLECTIONS 31: the queue does not refuse, it processes, and processing ends in a CSAT request. Not worth another letter.
+- Current: `not_found` (updated 2026-09-22)
+- Note: 2026-09-22, a person (not the template loop) answered directly: "After searching, we hold no person search result (i.e. person report) corresponding to you. This is a confirmation that we have processed your opt-out request for each phone number, email, and username (public profile) provided. We will suppress the data and not return the requested record(s) in future results." They also confirmed **cross-brand scope explicitly**: "When we process an opt-out request on one brand, it applies to all of our brands. This applies to BeenVerified, MoneyBot5000, NeighborWho, NumberGuru, Ownerly, PeopleLooker, PeopleSmart, and ReversePhone." Treat this as a genuine nil plus forward suppression for all eight family brands — see `beenverified.md`, the sibling thread this reply actually landed on.
+- Prior (2026-08-19): Closed the ticket with a customer-satisfaction survey - 'How would you rate our customer service?' - rather than answering any of it. The suppression question, the multiple-records question and the Property Search scope question all went unanswered, and the ticket is now shut. Worth recording as an artifact of the template loop in _DEFLECTIONS 31: the queue does not refuse, it processes, and processing ends in a CSAT request. That loop was eventually broken by a second escalation months later — see 2026-09-22 above. Persistence past the CSAT-close pattern can work.
 
 ## Steps
 

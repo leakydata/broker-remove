@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `covered_by_sibling` (updated 2026-09-02)
-- Note: STATUS CORRECTED 2026-09-02 (SF 274). Tracker said 'submitted', inferred on 2026-08-24 from brokers/c/coresignal.md merely existing; the playbook, written later by hand, says pending. Neither is right. WHAT ACTUALLY HAPPENED: a separate CA registration under the legal name DEEPTRACE INC. shares this domain and was emailed at privacy@coresignal.com on 2026-08-25 -- so Coresignal's own privacy mailbox HAS received a letter, but under the sibling row. coresignal.com itself offers only a browser-only web form. Recording as covered_by_sibling rather than submitted (overclaims a send in this row's own name) or pending (understates -- their mailbox holds the letter). TO DO ON ANY DEEPTRACE REPLY: confirm the scope covers the Coresignal-branded product and not only the DeepTrace registration, since the letter was addressed to the registered name.
+- Current: `email_pending` (updated 2026-09-22)
+- Note: 2026-09-22, privacy@coresignal.com replied to the 2026-08-29 Deeptrace Inc. letter (see below). They stated plainly what they collect: "publicly available business-related data that individuals share on professional social networking platforms... We do not collect sensitive personal information such as social security numbers, home addresses, or telephone numbers, even when publicly available" — so the phone/address portion of a standard letter is not applicable here by their own account; only the name/email/LinkedIn axis matters. To verify identity and locate a record, they ask for **the requester's LinkedIn profile URL**, offered as the only piece of information needed. Per `CONTRIBUTING.md`'s B2B-letter guidance, a public profile URL is legitimately suppliable here as a *suppression key* rather than new information — it does not add anything outside what they say they already index. Replied 2026-09-22 with the LinkedIn URL plus the four personal email addresses, declining their web-portal route in favor of keeping the record on the email thread. Awaiting their search result.
+- Prior (2026-09-02): STATUS CORRECTED 2026-09-02 (SF 274). Tracker said 'submitted', inferred on 2026-08-24 from brokers/c/coresignal.md merely existing; the playbook, written later by hand, says pending. Neither is right. WHAT ACTUALLY HAPPENED: a separate CA registration under the legal name DEEPTRACE INC. shares this domain and was emailed at privacy@coresignal.com on 2026-08-25 -- so Coresignal's own privacy mailbox HAS received a letter, but under the sibling row. coresignal.com itself offers only a browser-only web form. Recording as covered_by_sibling rather than submitted (overclaims a send in this row's own name) or pending (understates -- their mailbox holds the letter). TO DO ON ANY DEEPTRACE REPLY: confirm the scope covers the Coresignal-branded product and not only the DeepTrace registration, since the letter was addressed to the registered name. [2026-09-22: this is that Deeptrace reply — see above.]
 
 ## Steps
 
@@ -23,17 +24,22 @@
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+- **They explicitly disclaim holding phone numbers or home addresses at all**,
+  even when publicly available — a standard letter's address/phone block is
+  wasted here. What they index is name + professional profile + email.
+- **The verification ask is a LinkedIn profile URL**, not a government ID —
+  reasonable given a B2B-public-profile index, and safe to supply as a
+  suppression key (see `CONTRIBUTING.md`'s B2B letter guidance) rather than as
+  new information: their own description says they already collect only what
+  a public profile makes visible.
+- They offer a web portal (https://coresignal.com/privacy-rights/) as an
+  alternative to email; declining it and keeping the exchange on the email
+  thread avoids creating an account.
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+Watch for a reply confirming whether the LinkedIn URL + four email addresses
+matched any record, and whether deletion/suppression was applied.
 
 ## Who they are, and how to reach them
 

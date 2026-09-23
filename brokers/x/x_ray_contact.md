@@ -8,14 +8,14 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-17)
-- Note: Emailed support@x-ray.contact 2026-09-17 (they also publish an
+- Current: `not_found` (updated 2026-09-22)
+- Note: 2026-09-21 reply: "X-Ray Contact does not store, retain, or maintain databases of personal information, nor do we ingest, host, or store address books, user contact cards, or caller-ID records... Our platform functions strictly as an automated, real-time search engine that queries publicly available third-party sources only at the exact moment a user submits an active search request." This is the "we don't store data, we retrieve it from third parties" deflection (see `_DEFLECTIONS.md`) — the correct counter is to ask for suppression at the display layer, since a live query can still surface a result even with nothing stored locally. Replied 2026-09-22 asking (a) which underlying source(s) they query for phone/caller-ID data, so removal can be pursued at the source, and (b) whether an internal display-filter/exclusion list is possible even without a stored record. Recorded as `not_found` for their own systems (a real, well-explained answer) but the upstream-source question is still open — don't treat this as a full resolution of findability.
+- Prior (2026-09-17): Emailed support@x-ray.contact 2026-09-17 (they also publish an
   account-deletion page — see below). Contact/caller-ID app; phone-first
   letter, and specifically asked them to check any contact-book/address-book
   ingestion path separately from the main index, since that store is
   populated by a different route (a customer's phone contacts) than a
-  supplier feed and a query against the main index won't reach it. No reply
-  yet.
+  supplier feed and a query against the main index won't reach it.
 
 ## Steps
 
@@ -28,10 +28,17 @@
   arrive via any correspondent's install — a one-time deletion doesn't stop a
   future re-sync. Ask for a do-not-contribute rule at ingest if a reply
   confirms contact-book ingestion.
+- **Claims to store nothing — a live, real-time query against third-party
+  sources at search time.** If true, there is no local record to delete, but
+  a search still surfaces a result sourced fresh from an upstream provider.
+  Ask which upstream source(s) they query and pursue removal there, or ask
+  for a display-layer exclusion filter keyed to the identifiers even without
+  a stored record.
 
 ## Verification
 
-No reply yet.
+Watch for their answer on the upstream-source question. No public search
+surface confirmed.
 
 ## If they ignore you
 

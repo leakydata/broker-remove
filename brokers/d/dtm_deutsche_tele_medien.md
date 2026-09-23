@@ -16,9 +16,16 @@
   registry-driven precautionary letter, not a response to a known listing),
   so replied thanking them and asking for a standing preventive-suppression
   note keyed to name + DOB across the 4 email addresses, so a future listing
-  isn't published without notice. No confirmation yet that they'll do the
-  preventive part — this letter format doesn't obviously have one, so treat
-  this as `not_found` on the current search rather than a durable suppression.
+  isn't published without notice. **They answered plainly (9/22, second
+  reply):** a listing can only be suppressed by a German phone number, not by
+  email address, because "Eine Eintragung in unsere Verzeichnisse ist an eine
+  deutsche Telefonnummer und einer deutschen Adresse gebunden" (an entry in
+  our directories is tied to a German phone number and a German address) —
+  so it is structurally unlikely a US number/address would ever generate an
+  entry under this name in the first place. That is a complete, mechanism-level
+  explanation of why the nil is durable, not just a one-time search result.
+  Close this out as `not_found` with high confidence rather than merely
+  `not_found` on a single search pass.
 
 ## Steps
 

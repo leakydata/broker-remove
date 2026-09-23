@@ -13,10 +13,17 @@ BeenVerified operates several sibling brands that carry the same underlying data
 - **NeighborWho** (property + neighbour reports) — `brokers/n/neighborwho.md`
 - **PeopleLooker**
 - **NumberGuru**
+- **MoneyBot5000**
+- **PeopleSmart**
+- **ReversePhone**
 
-A removal on one does **not** reliably clear the others. Request explicitly that
-it apply across all properties they operate, and file separately for the siblings
-where a distinct opt-out exists.
+A removal on one does **not** reliably clear the others *by default* — but as of
+2026-09-22, an agent stated in writing that an opt-out on one brand is applied to
+all eight: "When we process an opt-out request on one brand, it applies to all
+of our brands. This applies to BeenVerified, MoneyBot5000, NeighborWho,
+NumberGuru, Ownerly, PeopleLooker, PeopleSmart, and ReversePhone." Worth citing
+back if a sibling brand later claims no record of a request filed elsewhere in
+the family. File separately for the siblings only if that claim is contradicted.
 
 ## Gotchas
 - Web opt-out requires an emailed confirmation link — unconfirmed requests are
@@ -115,6 +122,14 @@ than most do. Two follow-ups worth making every time this happens:
 - Is the opt-out a **suppression against future re-listing** or a one-time
   removal? Only the first survives an upstream refresh.
 - Does it cover **all** the addresses supplied, or only those echoed back?
+
+**Both follow-ups got clean answers on the third round (2026-09-22).** "We hold
+no person search result (i.e. person report) corresponding to you" (a genuine
+nil, not another catch-22 profile-URL ask); the opt-outs already applied "are
+suppression against future re-listing"; and "yes, the opt-out covers all of the
+email addresses you supplied." Pushing past the first two "unable to locate"
+replies to a direct third question — hold nothing, or tell me what would reach
+it — is what got a plain answer instead of a third repetition of the template.
 
 ## Who they are, and how to reach them
 

@@ -7,9 +7,10 @@
 
 ## Status
 
-- Current: `replied` (updated 2026-09-22)
+- Current: `submitted` (updated 2026-09-22)
 - Reference: `gmail:1a0bb20784b3eba2`
-- Note: 9/21, two identical auto-replies from
+- Note: 9/22 (third round): after the clarification that no account exists and this is a standalone privacy request, they acknowledged it correctly this time — "We are in receipt of your request, and will process your request as soon as possible... We will maintain a copy of your request as may be required by law." No completion yet; this is a bare acknowledgment, not a `confirmed`. Watch for the actual deletion/suppression answer on the next pass.
+- Prior (9/21), two identical auto-replies from
   support@therapistdirectory.zendesk.com (subject prefixed `[PESI]` — the
   parent company/CE-training platform behind Therapist.com). Both reframed
   the request as **closing a customer account**: offered account deletion

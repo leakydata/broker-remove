@@ -685,9 +685,9 @@
     "via": "email"
   },
   "beenverified": {
-    "status": "submitted",
-    "changed": "2026-08-15",
-    "via": "reply"
+    "status": "not_found",
+    "changed": "2026-09-23",
+    "via": null
   },
   "beenverified_inc_and_its_subsidiaries_and_affiliates": {
     "status": "submitted",
@@ -1050,9 +1050,9 @@
     "via": "email"
   },
   "choreograph": {
-    "status": "replied",
-    "changed": "2026-09-11",
-    "via": "email"
+    "status": "confirmed",
+    "changed": "2026-09-23",
+    "via": "web"
   },
   "chris_holbert": {
     "status": "submitted",
@@ -1345,9 +1345,9 @@
     "via": null
   },
   "coresignal": {
-    "status": "covered_by_sibling",
-    "changed": "2026-09-02",
-    "via": null
+    "status": "email_pending",
+    "changed": "2026-09-23",
+    "via": "email"
   },
   "corporationwiki": {
     "status": "unreachable",
@@ -1640,9 +1640,9 @@
     "via": null
   },
   "dealfront_finland_oy": {
-    "status": "submitted",
-    "changed": "2026-08-25",
-    "via": null
+    "status": "email_pending",
+    "changed": "2026-09-23",
+    "via": "email"
   },
   "dealmachine": {
     "status": "submitted",
@@ -1876,8 +1876,8 @@
   },
   "dtm_deutsche_tele_medien": {
     "status": "not_found",
-    "changed": "2026-09-22",
-    "via": "reply"
+    "changed": "2026-09-23",
+    "via": null
   },
   "dtn": {
     "status": "manual_required",
@@ -2725,8 +2725,8 @@
     "via": null
   },
   "home_media": {
-    "status": "submitted",
-    "changed": "2026-09-12",
+    "status": "email_pending",
+    "changed": "2026-09-23",
     "via": "email"
   },
   "homedata": {
@@ -3816,8 +3816,8 @@
   },
   "mobility_global_s_p_global": {
     "status": "manual_required",
-    "changed": "2026-09-11",
-    "via": "reply"
+    "changed": "2026-09-23",
+    "via": null
   },
   "modern_hire": {
     "status": "submitted",
@@ -4240,9 +4240,9 @@
     "via": "email"
   },
   "numberguru": {
-    "status": "submitted",
-    "changed": "2026-08-19",
-    "via": "reply"
+    "status": "not_found",
+    "changed": "2026-09-23",
+    "via": null
   },
   "numlooker": {
     "status": "submitted",
@@ -4386,8 +4386,8 @@
   },
   "optable": {
     "status": "confirmed",
-    "changed": "2026-09-21",
-    "via": "reply"
+    "changed": "2026-09-23",
+    "via": "email"
   },
   "optimal": {
     "status": "captcha_blocked",
@@ -5705,8 +5705,8 @@
     "via": "email"
   },
   "soundcloud_global_limited_co_kg": {
-    "status": "submitted",
-    "changed": "2026-09-19",
+    "status": "email_pending",
+    "changed": "2026-09-23",
     "via": "email"
   },
   "source_path_digital": {
@@ -6140,9 +6140,9 @@
     "via": "email"
   },
   "therapist_com": {
-    "status": "replied",
-    "changed": "2026-09-22",
-    "via": "reply"
+    "status": "submitted",
+    "changed": "2026-09-23",
+    "via": "email"
   },
   "think_data": {
     "status": "submitted",
@@ -6810,9 +6810,9 @@
     "via": "reply"
   },
   "x_ray_contact": {
-    "status": "submitted",
-    "changed": "2026-09-17",
-    "via": "email"
+    "status": "not_found",
+    "changed": "2026-09-23",
+    "via": null
   },
   "xcelerated_data": {
     "status": "submitted",

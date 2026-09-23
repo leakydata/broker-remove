@@ -9,7 +9,25 @@
 
 - Current: `manual_required` (updated 2026-09-22)
 - Reference: `gmail:1a0c4179b9fad43b`
-- Note: 9/21, OneTrust notice: "A comment has been added to your request
+- Note: 9/22 (second round). They answered the direct-email ask with the
+  comment's content: "On September 10th, we requested a government issued ID
+  to verify your identity. On September 21st, we informed you that your
+  request has been closed because we did not receive your ID... To action your
+  request, you will need to resubmit the request into our webform and provide
+  a government issued ID." They also stated OneTrust needs no portal login to
+  read comments — contradicting the earlier read that a login was required;
+  the actual gate is the closed/ID-required status, not portal access. Replied
+  9/22 declining the government ID (per this project's hard rule) and pushing
+  back on proportionality specifically: this is a phone/email/address removal,
+  not a sensitive-data request, and CCPA/CPRA verification is supposed to scale
+  to the sensitivity and risk of the data, not default to the highest tier.
+  Offered a one-time email code or a knowledge-based check instead, and asked
+  them to confirm in writing if a government ID is genuinely their only
+  verification tier for a request of this kind. Awaiting reply; if they hold
+  firm, record as a genuine gov-ID-required refusal (not a portal/CAPTCHA
+  block) and close out at `failed` rather than keep escalating — per project
+  rules, never upload a government-issued ID.
+- Prior (9/21): OneTrust notice: "A comment has been added to your request
   (Request ID: AV6KDQ7SS4)," link-only, portal login required to read the
   comment content — the request itself (the detailed DPPA-fork letter below)
   had gone unacknowledged since 8/29 until this. Rather than opening the
@@ -37,6 +55,15 @@ login. When that happens, email the direct contact and ask for the comment's
 content by email rather than assuming a portal account is required; this
 project does not create broker accounts as a matter of policy, and asking
 costs nothing.
+
+**They require a government-issued ID even for a low-sensitivity removal
+(phone, email, mailing address), and close the request outright without
+it.** Not a CAPTCHA or portal-access block — a genuine identity-verification
+policy holding a hard line. A proportionality argument citing CCPA/CPRA
+verification standards (Cal. Civ. Code 1798.130-140) and offering a lesser
+method (one-time code, knowledge question) is the right counter, but do not
+expect it to move a company whose stated policy has no lower tier. Never
+upload the ID regardless of outcome.
 
 ## Verification
 

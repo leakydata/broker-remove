@@ -8,8 +8,9 @@
 
 ## Status
 
-- Current: `replied` (updated 2026-09-11)
-- Note: SIX CONSECUTIVE HOURLY SLOTS NOW MISSED: nothing at 16:01, 17:01, 18:01, 19:01, 20:01 or 21:01 UTC on 2026-09-11. The run stands at eight, last notice 15:01:21. Still recorded as a run rather than a stop, for the reason given on 2026-09-03 and again today: this cycle already contains a NINE-DAY gap (2026-09-03 21:01 to 2026-09-11 14:01), so six quiet hours is well inside its observed behaviour, and the one time I called it stopped I was wrong within hours (SF 441). Six misses is stronger evidence than three and still not proof. The next pass should look rather than assume.
+- Current: `confirmed` (updated 2026-09-22)
+- Note: 2026-09-22, privacy@choreograph.com: "Your privacy request has been completed successfully... Request Type: OPT_OUT... Request Completion Date: 2026-09-22." A bare completion notice via their consumer preference portal — no breakdown of which identifiers matched or what categories were held, but an affirmative, dated, broker-issued completion of the opt-out. Recorded as `confirmed` on the strength of that statement; if a listing resurfaces, reopen citing the Request ID (54e84141-f9f5-4943-bd45-9ad29c0611fb).
+- Prior (2026-09-11): SIX CONSECUTIVE HOURLY SLOTS NOW MISSED: nothing at 16:01, 17:01, 18:01, 19:01, 20:01 or 21:01 UTC on 2026-09-11. The run stands at eight, last notice 15:01:21. Still recorded as a run rather than a stop, for the reason given on 2026-09-03 and again today: this cycle already contains a NINE-DAY gap (2026-09-03 21:01 to 2026-09-11 14:01), so six quiet hours is well inside its observed behaviour, and the one time I called it stopped I was wrong within hours (SF 441). Six misses is stronger evidence than three and still not proof. [Resolved 2026-09-22 — see above.]
 
 ## Steps
 
@@ -24,17 +25,17 @@
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+- **The web form's "completed" notice is a bare pass/fail, no detail.** It
+  states a request type (`OPT_OUT`) and a completion date but not which
+  identifiers matched or what categories of data were held — don't read it as
+  a full accounting, just as a genuine completion of the opt-out itself.
+- Portal-based (consumer preference portal, not a plain email inbox); the
+  confirmation arrives to whichever email address was entered in the form.
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+No public search surface. If a listing resurfaces, reopen citing the Request
+ID from the completion notice.
 
 ## Who they are, and how to reach them
 

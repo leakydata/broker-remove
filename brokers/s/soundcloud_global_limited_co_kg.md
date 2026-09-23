@@ -6,8 +6,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-19)
-- Note: 2026-09-19, first contact. Standard consumer deletion/opt-out/suppression letter. Address sourced from an Optery-directory import; `email_verified_by` had been set to `"optery_directory"`, which only means a commercial directory listed the company, not that the mailbox was ever confirmed to accept mail -- three addresses from the same 2026-09-18 batch hard-bounced (see ct_company_directory.md, ibegin.md, native_american_netroots.md). Watch for a bounce on the next pass before treating this as delivered.
+- Current: `email_pending` (updated 2026-09-22)
+- Note: 2026-09-21 reply (Trust & Safety Team, not a privacy desk): reframed the request as an account-deletion how-to ("You can delete your SoundCloud account by signing in... within a short time period SoundCloud will completely delete the account"). The requester has no SoundCloud account, so an account-deletion flow doesn't apply — the same "delete your account" deflection pattern seen at Therapist.com/PESI (see `therapist_com.md`). Replied 9/22 clarifying there is no account, this is a non-account data-subject request, and asking them to search the identifiers directly (name/emails/phone) for anything held outside an account — advertising, analytics, or data-partner integrations. Awaiting a substantive answer.
+- Prior (2026-09-19): first contact. Standard consumer deletion/opt-out/suppression letter. Address sourced from an Optery-directory import; `email_verified_by` had been set to `"optery_directory"`, which only means a commercial directory listed the company, not that the mailbox was ever confirmed to accept mail -- three addresses from the same 2026-09-18 batch hard-bounced (see ct_company_directory.md, ibegin.md, native_american_netroots.md). Watch for a bounce on the next pass before treating this as delivered. [No bounce — see 9/21 reply above.]
 
 ## Steps
 
@@ -19,17 +20,16 @@
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+- **A non-account privacy request lands on Trust & Safety and gets answered as
+  "how to delete your account."** If you don't have an account, say so
+  explicitly and ask them to search the identifiers directly rather than
+  accepting the account-deletion instructions as a completion.
+- Uses a Zendesk ticketing system (`support@soundcloud.zendesk.com`); replies
+  thread under a request number.
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+Watch for a substantive answer to the 9/22 clarification.
 
 ## If they ignore you
 
