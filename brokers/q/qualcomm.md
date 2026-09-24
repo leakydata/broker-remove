@@ -7,9 +7,10 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-26)
+- Current: `not_found` (updated 2026-09-23)
 - Reference: `gmail:1a01960af70e16c0`
-- Note: 2026-08-26: Qualcomm acknowledged receipt and said a substantive response will follow once review is complete. Clean acknowledgement, no portal demand, no ID demand - clock started 2026-08-19.
+- Note: 2026-09-23: "We searched our systems using the information you provided and did not locate any personal information associated with you except in records and correspondence related to your privacy request." A clean, specific nil — they engaged twice (an 2026-08-26 acknowledgement, then this) and searched before answering, which is more evidenced than most `not_found` results on file. Still no explicit statement that a control query was run, so treat as unverified rather than demonstrated.
+- Prior: 2026-08-26: Qualcomm acknowledged receipt and said a substantive response will follow once review is complete. Clean acknowledgement, no portal demand, no ID demand - clock started 2026-08-19.
 
 ## Steps
 
@@ -41,6 +42,14 @@ achieves nothing.
 **Decline to supply a device identifier**, for the standard reason: if they hold
 one linked to the subject they can find it from the other identifiers, and if
 they do not, supplying one creates the association being complained about.
+
+**They will optionally ask you to name the list that put them on a broker
+registry — this is not a precondition and can be ignored.** Their first reply
+noted, explicitly framed as "entirely optional and not a prerequisite," that
+Qualcomm does not consider itself a "data broker" under Cal. Civ. Code
+§ 1798.99.80(c) and asked which list flagged them. Answering is not required
+to get the substantive review to proceed — it proceeded and returned a clean
+nil without one.
 
 ## Verification
 

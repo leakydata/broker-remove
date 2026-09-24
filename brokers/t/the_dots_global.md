@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-19)
-- Note: 2026-09-19, first contact. Standard consumer deletion/opt-out/suppression letter. Address sourced from an Optery-directory import; `email_verified_by` had been set to `"optery_directory"`, which only means a commercial directory listed the company, not that the mailbox was ever confirmed to accept mail -- three addresses from the same 2026-09-18 batch hard-bounced (see ct_company_directory.md, ibegin.md, native_american_netroots.md). Watch for a bounce on the next pass before treating this as delivered.
+- Current: `not_found` (updated 2026-09-24)
+- Note: 2026-09-24, help@the-dots.com replied: "We can't find a profile linked to any of the four email addresses you've sent through. This means the profile has either already been deleted, never existed, or is registered under a different email address." Offered two ways to go further — reply from a different email, or send a photo/scan of ID plus the Dots profile URL. Declined the ID (disproportionate for a profile-deletion request) and had no other email or profile URL to offer; asked them instead to record the four addresses on a standing do-not-add list and say plainly if that isn't possible. Recorded `not_found` rather than `confirmed` — no control query was offered, so this is an unverified negative, not a demonstrated one.
+- Prior: 2026-09-19, first contact. Standard consumer deletion/opt-out/suppression letter. Address sourced from an Optery-directory import; `email_verified_by` had been set to `"optery_directory"`, which only means a commercial directory listed the company, not that the mailbox was ever confirmed to accept mail -- three addresses from the same 2026-09-18 batch hard-bounced (see ct_company_directory.md, ibegin.md, native_american_netroots.md). Delivered fine (no bounce).
 
 ## Steps
 
@@ -23,13 +24,23 @@
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+**A "no profile found" reply comes with a two-way fork, and one branch is a
+government-ID request.** The Dots' support desk answers a no-match by asking
+either for a different email address, or for a photo/scan of ID plus your own
+profile URL on their site. If you don't have another address or don't know
+your profile URL, there is no third option offered — you're expected to
+either supply one of those two or drop it. Decline the ID (a profile deletion
+does not need it) and ask instead for the identifiers you already gave to be
+added to a standing do-not-add / suppression list, so a future signup or
+import under those addresses doesn't quietly recreate a profile.
+
+**This is an unverified nil, not a confirmed one.** Nothing in the reply says
+which systems were searched or whether a control query was run, so a "can't
+find a profile" answer here should be recorded as `not_found`, not `confirmed`
+— it's plausible the search only checked account email fields and missed a
+profile created under a different key (e.g. a scraped/imported record not
+tied to any email at all, which is how a professional-network directory like
+this is often populated).
 
 ## Verification
 

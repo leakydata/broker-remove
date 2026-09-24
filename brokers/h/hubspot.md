@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `manual_required` (updated 2026-08-28)
-- Note: Recovered from the committed playbook brokers/h/hubspot.md, because the ledger carries no notes and this row's status had no evidence behind it: Recovered from Gmail Sent folder -- letter sent 2026-08-23 to privacy@hubspot.com re: Clearbit data. Got stuck: an autoresponder keeps replying with the same 3-working-day/portal-links template regardless of content; a real reply once said the request 'must be submitted directly by the data subject' despite the letter already stating that in its first line -- replied clarifying, got the same autoresponder template again. Web form (preferences.hubspot.com/privacy) is the only route that will get past the loop; queued for a human.
+- Current: `confirmed` (updated 2026-09-23)
+- Note: 2026-09-23, `privacyrequest@privacy.hubspot.com` sent two separate automated confirmations four minutes apart — one for an "Object to Processing" request, one for a "Deletion" request — each saying only "We have taken action per your request." This is the OneTrust-portal route referenced below (`preferences.hubspot.com/privacy`), not a reply to the original `privacy@hubspot.com` email thread that had been looping on autoresponders; whoever ran the portal route this time got through where the email route did not. No specifics on what was found or which of the two ("Clearbit" vs. "HubSpot" data) it covered. Recorded `confirmed` on the strength of "action taken," but the lack of detail means it's worth a follow-up asking what was actually deleted/objected-to.
+- Prior: Recovered from the committed playbook brokers/h/hubspot.md, because the ledger carries no notes and this row's status had no evidence behind it: Recovered from Gmail Sent folder -- letter sent 2026-08-23 to privacy@hubspot.com re: Clearbit data. Got stuck: an autoresponder keeps replying with the same 3-working-day/portal-links template regardless of content; a real reply once said the request 'must be submitted directly by the data subject' despite the letter already stating that in its first line -- replied clarifying, got the same autoresponder template again. Web form (preferences.hubspot.com/privacy) is the only route that will get past the loop; queued for a human.
 
 ## Steps
 
@@ -24,6 +25,13 @@ saying the request "must be submitted directly by the data subject" — despite
 the original letter stating exactly that in its first line. A clarifying
 follow-up got the autoresponder template again, not a human answer. Don't
 keep pushing by email past that point; the portal is the only way through.
+
+**The portal route works where the email route loops.** Submitting via
+`https://preferences.hubspot.com/privacy` produced two clean "action taken"
+confirmations (an Object-to-Processing and a Deletion) within minutes of each
+other, in contrast to the `privacy@hubspot.com` email thread that repeatedly
+returned the fixed 3-day autoresponder template. If you're stuck in the email
+loop described below, stop pushing there and use the portal instead.
 
 **Addressed to "Clearbit (HubSpot)"** — Clearbit is the registered CA data
 broker; HubSpot acquired it. Naming the acquired brand may be what triggered

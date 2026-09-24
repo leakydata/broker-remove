@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-19)
-- Note: Direct-mail RETARGETING for online retailers - postcards triggered by website visits. The valuable asset is not a mailing list but the resolution from a browsing session to a postal address, so that is what the letter targets: the cookie/device/hashed-email/IP to name-and-address mapping, the site-visitor and abandoned-cart matches, and the identity-graph edges underneath. Deleting a mailing record while leaving the ability to re-resolve from the next site visit is not a deletion, so the ask is a permanent do-not-mail AND do-not-resolve. Three questions: which merchant customers the record sits under (a consumer cannot know which shop's visit produced the postcard), which identity partner performs the online-to-postal match (that party holds the graph), and what they hold as controller in their own right.
+- Current: `confirmed` (updated 2026-09-23)
+- Note: 2026-09-23, privacy@postpilot.com (a different address than the one on file — see below): "This confirms that PostPilot has completed the privacy request for [FIRST LAST]. The associated personal information has been deleted from our systems." Reference: signal. No detail on which identifiers matched, which systems were searched, or whether the identity-graph edges (browsing-session-to-postal-address resolution) were suppressed as well as the row — the three questions in the note below were not answered. Recorded `confirmed` because they affirmatively stated deletion, not merely receipt.
+- Prior: Direct-mail RETARGETING for online retailers - postcards triggered by website visits. The valuable asset is not a mailing list but the resolution from a browsing session to a postal address, so that is what the letter targets: the cookie/device/hashed-email/IP to name-and-address mapping, the site-visitor and abandoned-cart matches, and the identity-graph edges underneath. Deleting a mailing record while leaving the ability to re-resolve from the next site visit is not a deletion, so the ask is a permanent do-not-mail AND do-not-resolve. Three questions: which merchant customers the record sits under (a consumer cannot know which shop's visit produced the postcard), which identity partner performs the online-to-postal match (that party holds the graph), and what they hold as controller in their own right.
 
 ## Steps
 
@@ -20,13 +21,19 @@
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+**The registered filing address is not the one that answers.** The CA-registry
+address (`[named individual]@postpilot.com`, redacted here) never replied
+across two separate letters; `privacy@postpilot.com`, listed only as
+`email_alt`, is the one that came back with a substantive deletion
+confirmation. Lead with the alt address, not the registered one.
+
+**The confirmation is thin on specifics.** "Completed... deleted from our
+systems" with a bare reference code, no statement of which identifiers
+matched, which systems were searched, or whether the postal-resolution
+identity-graph edges (not just the mailing record) were suppressed. Treat the
+outcome as confirmed deletion of *a* record, not necessarily confirmation
+that the harder questions in the original letter (which merchant triggered
+it, which identity partner performs the resolution) were ever answered.
 
 ## Verification
 
@@ -41,7 +48,7 @@ name in any formal demand; it is frequently not the brand on the website.*
 - **Legal entity:** PostPilot, Inc.
 - **Registered address:** 169 Madison Ave., Suite 11452, New York, NY,
   10016
-- **Filed contact email:** [named individual]@postpilot.com
+- **Filed contact email:** [named individual]@postpilot.com (the deletion confirmation came from `privacy@postpilot.com`, the already-recorded `email_alt` — that address is now confirmed live and worth preferring over the registered one)
 - **Filed phone:** (854) 205-5367
 - **Website:** www.postpilot.com
 

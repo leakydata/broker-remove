@@ -17745,10 +17745,10 @@
    "needs_email_confirm": null,
    "source": "optery_scrape",
    "optery_slug": "postpilot",
-   "email_to": "operations@postpilot.com",
+   "email_to": "privacy@postpilot.com",
    "email_verified": true,
-   "email_verified_by": "ca_data_broker_registry",
-   "email_alt": "privacy@postpilot.com",
+   "email_verified_by": "broker_reply",
+   "email_alt": "operations@postpilot.com",
    "registry_years": [
     "2024",
     "2025",
@@ -17757,7 +17757,8 @@
    "category": "adtech",
    "category_source": "site_classifier 2026-08-31",
    "listing_basis": "state_register",
-   "route_evidence": "filed"
+   "notes": "|| 2026-09-23: privacy@postpilot.com replied confirming deletion -- confirmed live, promoted to primary; operations@postpilot.com (previously primary, never separately confirmed) kept as fallback.",
+   "route_evidence": "replied"
   },
   {
    "id": "precisely",
@@ -29516,7 +29517,7 @@
   {
    "id": "the_dots_global",
    "name": "The Dots Global Limited",
-   "domain": "",
+   "domain": "the-dots.com",
    "priority": 1,
    "method": "unknown",
    "optout_url": "https://the-dots.com/users/sophia-woodleigh-200258",

@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-23)
-- Note: Recovered from the committed playbook brokers/a/adstra.md, because the ledger carries no notes and this row's status had no evidence behind it: Statutory opt-out/deletion email sent 2026-08-23, category-tailored.
+- Current: `manual_required` (updated 2026-09-23)
+- Note: 2026-09-23, a THIRD OneTrust portal ticket appeared unprompted — Request ID `A9ZJTHHJ8K`, "Adstra Digital" branding, submitted 09/23/2026 03:38 PM UTC, requiring a "Confirm Email" link click before anything proceeds. This is the same pattern as the earlier `BSLD9MV8Q7` ticket noted below: emailing `privacy.officer@adstradata.com` appears to auto-generate a fresh OneTrust intake each time, rather than threading into the existing request. The confirm-email link is a portal action and cannot be completed from an email-only workflow — needs a human with a browser to click it. Do not send another fresh letter in response; it would likely just spawn a fourth ticket.
+- Prior: Recovered from the committed playbook brokers/a/adstra.md, because the ledger carries no notes and this row's status had no evidence behind it: Statutory opt-out/deletion email sent 2026-08-23, category-tailored.
 
 ## Steps
 
@@ -31,13 +32,17 @@ someone can open the portal link and see what the earlier comment says.
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+**Emailing them appears to auto-spawn a new OneTrust ticket every time,
+rather than threading into an existing one.** Three separate touches
+(2026-08-23 letter, 2026-09-12 letter to the American List Counsel sibling
+entry, and an unprompted 2026-09-23 portal ticket) have produced at least two
+distinct OneTrust Request IDs (`BSLD9MV8Q7`, `A9ZJTHHJ8K`) with no visible
+link between them. Each new ticket gates on a "Confirm Email" portal click
+before it does anything — a step that can't be completed without a browser.
+Sending another letter to "get through" is likely to just create a fourth
+ticket rather than resolve the existing ones; this needs a human to open the
+confirm-email links and, ideally, log into the portal to see whether the
+tickets can be merged.
 
 ## Verification
 

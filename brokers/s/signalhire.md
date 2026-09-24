@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted`
-- Note: SUPPLEMENT SENT 2026-09-01: the 1 Sep batch letter listed four consumer webmail addresses and said in the same breath that searching them would return nothing even if a record existed -- then failed to supply a key that could match. Framed as MY omission, not their handling, and explicitly not a new request and not restarting any clock. Supplied [EMAIL] -- a former university address, and for a contact-data product by some distance the likeliest thing in the index under this name: institutional, real domain, real person, exactly the shape these files are built around. Closed-mailbox caveat marked inline with the sharper point that any 'confirm by email' step attached to it is UNUSABLE BY DESIGN, not merely inconvenient. Plus the LinkedIn URL as a SUPPRESSION key rather than a search hint, and the instruction to generate and search their own first.last@employer patterns -- 'I cannot list an address that was invented for me' -- citing Lusha's recorded provenance 'guessed emails based on full name and company email structures' as proof such an address exists. Quoted Hunter's own admission as the reason the first letter was unanswerable: 'our system only ever indexes professional email addresses... gmail and other consumer webmail addresses aren't something we collect or store at all, BY DESIGN, NOT JUST NOT FOUND.' Closed with the binary -- was anything found or nothing, both fine, I only need to know which -- and reaffirmed the standing do-not-add suppression request, which is PRECISELY for the case where they hold nothing. Said a nil on the right key is worth far more than a nil on the wrong one and I would close it myself on that basis.
+- Current: `confirmed` (updated 2026-09-23)
+- Note: 2026-09-23, `removals@signalhire.com`: "Please find the PDF file containing the information we held about you attached to this email. All data was indexed from LinkedIn [profile]. We will not index your information again in the future. Your data was not shared with third parties. We can confirm that your information has been deleted from our system and you have been added to our opt out/suppression list." Directly names the source (LinkedIn) and confirms both deletion and standing suppression — exactly what the 2026-09-01 supplement asked for. See Gotchas for a practice worth flagging: they emailed the held record itself, as a PDF, as part of the confirmation.
+- Prior (2026-09-01 supplement): the 1 Sep batch letter listed four consumer webmail addresses and said in the same breath that searching them would return nothing even if a record existed -- then failed to supply a key that could match. Framed as MY omission, not their handling, and explicitly not a new request and not restarting any clock. Supplied [EMAIL] -- a former university address, and for a contact-data product by some distance the likeliest thing in the index under this name: institutional, real domain, real person, exactly the shape these files are built around. Closed-mailbox caveat marked inline with the sharper point that any 'confirm by email' step attached to it is UNUSABLE BY DESIGN, not merely inconvenient. Plus the LinkedIn URL as a SUPPRESSION key rather than a search hint, and the instruction to generate and search their own first.last@employer patterns -- 'I cannot list an address that was invented for me' -- citing Lusha's recorded provenance 'guessed emails based on full name and company email structures' as proof such an address exists. Quoted Hunter's own admission as the reason the first letter was unanswerable: 'our system only ever indexes professional email addresses... gmail and other consumer webmail addresses aren't something we collect or store at all, BY DESIGN, NOT JUST NOT FOUND.' Closed with the binary -- was anything found or nothing, both fine, I only need to know which -- and reaffirmed the standing do-not-add suppression request, which is PRECISELY for the case where they hold nothing. Said a nil on the right key is worth far more than a nil on the wrong one and I would close it myself on that basis.
 
 ## Steps
 
@@ -20,13 +21,20 @@
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+**They confirm a deletion by emailing you the deleted record.** SignalHire's
+confirmation attached a PDF titled with the requester's full name, containing
+the held data, sent as a plaintext email attachment — while in the same
+message stating the data has been deleted and not shared with third parties.
+Whatever the intent (proving what was searched), sending the actual personal
+data unencrypted over email is itself a disclosure and sits oddly next to a
+deletion confirmation. Don't open or forward the attachment further than
+necessary, and don't ask this company to reconfirm by resending it.
+
+**Naming the exact source in the confirmation is unusually good practice.**
+"Indexed from LinkedIn [profile]" tells you precisely which of the letter's
+requested facts (was anything found, and from where) was true — worth citing
+back to other B2B/contact-enrichment brokers as an example of the standard to
+ask for.
 
 ## Verification
 

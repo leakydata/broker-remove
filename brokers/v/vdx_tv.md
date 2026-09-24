@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-20)
-- Note: Recovered from the committed playbook brokers/v/vdx_tv.md, because the ledger carries no notes and this row's status had no evidence behind it: Emailed privacy@vdx.tv. Video advertising exchange/DSP; standard ad-tech letter (MAID, hashed email, audience segments, downstream DSP/SSP deletion).
+- Current: `manual_required` (updated 2026-09-23)
+- Note: 2026-09-23, `privacy@exponential.com` (Exponential Interactive, Inc. dba VDX.tv) replied with a two-track offer: an immediate, no-verification browser cookie opt-out (link to vdx.tv/policies/privacy), or "permanent deletion" gated on supplying the ANON_ID cookie value from tribalfusion.com dev tools, a Mobile Advertising ID (IDFA/AAID), and current IP address. Declined all three per standing policy against sending device/session identifiers, and re-asked whether they resolve on hashed email — the original letter already requested a hashed-email search and this reply didn't say whether that's possible. Awaiting answer. The cookie opt-out link was not actioned (browser-based, not reachable from an email-only workflow).
+- Prior: Recovered from the committed playbook brokers/v/vdx_tv.md, because the ledger carries no notes and this row's status had no evidence behind it: Emailed privacy@vdx.tv. Video advertising exchange/DSP; standard ad-tech letter (MAID, hashed email, audience segments, downstream DSP/SSP deletion).
 
 ## Steps
 
@@ -19,7 +20,22 @@
 
 ## Gotchas
 
-None yet — no reply received.
+**Two-track reply: a free cookie opt-out plus a MAID-gated "permanent
+deletion."** VDX.tv's privacy team offers an easy, no-verification
+browser-cookie opt-out (which only stops future targeting on that one browser
+and lapses if cookies are cleared) alongside a claim that actual deletion of
+historical data requires an ANON_ID cookie value, a Mobile Advertising ID, and
+your current IP — precisely the device/session identifiers a consumer should
+not hand a company for verification (see `_DEFLECTIONS.md`, the MAID pattern
+also seen at Vistar Media). Decline all three and ask instead whether they
+resolve on hashed email, since the original letter already requested that
+search; the cookie opt-out is not a substitute for an answer on deletion.
+
+**States plainly that they hold no "biographical" data**, only pseudonymous
+technical identifiers — and uses that to say Right to Correct / Right to Data
+Portability don't apply. That's a reasonable technical claim on its face but
+doesn't answer whether a hashed-email match would resolve to anything; don't
+let "we're pseudonymous" substitute for "we searched and found nothing."
 
 ## Verification
 

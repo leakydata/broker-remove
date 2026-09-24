@@ -181,7 +181,7 @@
   },
   "adstra": {
     "status": "manual_required",
-    "changed": "2026-09-12",
+    "changed": "2026-09-24",
     "via": "email"
   },
   "adstra_american_list_counsel": {
@@ -631,7 +631,7 @@
   },
   "babel_street": {
     "status": "manual_required",
-    "changed": "2026-08-28",
+    "changed": "2026-09-24",
     "via": "reply"
   },
   "background_alert": {
@@ -2750,8 +2750,8 @@
     "via": "email"
   },
   "hubspot": {
-    "status": "manual_required",
-    "changed": "2026-08-28",
+    "status": "confirmed",
+    "changed": "2026-09-24",
     "via": "email"
   },
   "hunt_club": {
@@ -4450,9 +4450,9 @@
     "via": "email"
   },
   "outreach_io": {
-    "status": "submitted",
-    "changed": "2026-08-19",
-    "via": "email"
+    "status": "not_found",
+    "changed": "2026-09-24",
+    "via": null
   },
   "outward_media": {
     "status": "submitted",
@@ -4785,8 +4785,8 @@
     "via": "email"
   },
   "postpilot": {
-    "status": "submitted",
-    "changed": "2026-08-19",
+    "status": "confirmed",
+    "changed": "2026-09-24",
     "via": "email"
   },
   "precisely": {
@@ -4990,9 +4990,9 @@
     "via": "reply"
   },
   "qualcomm": {
-    "status": "submitted",
-    "changed": "2026-08-19",
-    "via": "reply"
+    "status": "not_found",
+    "changed": "2026-09-24",
+    "via": null
   },
   "qualfon": {
     "status": "submitted",
@@ -5600,8 +5600,8 @@
     "via": "web"
   },
   "signalhire": {
-    "status": "submitted",
-    "changed": "2026-09-01",
+    "status": "confirmed",
+    "changed": "2026-09-24",
     "via": "email"
   },
   "similarweb": {
@@ -6100,9 +6100,9 @@
     "via": null
   },
   "the_dots_global": {
-    "status": "submitted",
-    "changed": "2026-09-19",
-    "via": "email"
+    "status": "not_found",
+    "changed": "2026-09-24",
+    "via": null
   },
   "the_feed_foundation": {
     "status": "submitted",
@@ -6465,8 +6465,8 @@
     "via": null
   },
   "vdx_tv": {
-    "status": "submitted",
-    "changed": "2026-08-20",
+    "status": "manual_required",
+    "changed": "2026-09-24",
     "via": null
   },
   "vector": {
@@ -6600,9 +6600,9 @@
     "via": "email"
   },
   "vistar_media": {
-    "status": "submitted",
-    "changed": "2026-08-31",
-    "via": "email"
+    "status": "failed",
+    "changed": "2026-09-24",
+    "via": null
   },
   "visual_listing_systems": {
     "status": "submitted",
