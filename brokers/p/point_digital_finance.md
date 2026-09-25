@@ -6,8 +6,10 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-19)
+- Current: `replied` (updated 2026-09-25)
 - Note: 2026-09-19, first contact. Standard consumer deletion/opt-out/suppression letter. Address sourced from an Optery-directory import; `email_verified_by` had been set to `"optery_directory"`, which only means a commercial directory listed the company, not that the mailbox was ever confirmed to accept mail -- three addresses from the same 2026-09-18 batch hard-bounced (see ct_company_directory.md, ibegin.md, native_american_netroots.md). Watch for a bounce on the next pass before treating this as delivered.
+- 2026-09-24 reply: refused the deletion, citing GLBA and FCRA. Point is a home-equity/lending finance company; personal information collected in connection with a credit application is regulated under GLBA/FCRA, and state consumer privacy law (e.g. CCPA/CPRA) expressly exempts GLBA-covered data from its deletion requirements. This is a correct, well-evidenced refusal, not a stonewall -- see "Concede the strong point first" in the project's `_DEFLECTIONS.md` technique notes.
+- Replied 2026-09-25 conceding the regulated file is out of scope, and narrowing the ask to whatever they hold OUTSIDE it: marketing/lead-scoring use of the same identifiers, separate from the GLBA/FCRA-covered application data. Asked them to say plainly if no such separate use exists. Awaiting reply.
 
 ## Steps
 
@@ -19,13 +21,7 @@
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+**GLBA/FCRA exemption covers the whole application file, and they will invoke it immediately.** Point processes home-equity/lending applications, so any deletion request touching that data hits the same regulated-consumer-report exemption a credit bureau would raise. Don't ask them to delete the application file itself -- concede it up front and ask specifically about marketing/lead-scoring uses outside that file, which the exemption does not reach.
 
 ## Verification
 

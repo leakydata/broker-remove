@@ -7,7 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-28)
+- Current: `replied` (updated 2026-09-25)
+- 2026-09-21 reply: Ipsos DPO asked for the research-invitation email or consent form to verify a specific survey/panel relationship, since Ipsos runs many independent research projects. Replied 2026-09-22 explaining this is a general registry-driven privacy request with no known survey to point to. Awaiting their response.
 - Note: Emailed dpo.usa@ipsos.com 2026-08-28. Market-research/panel variant: asked whether panel PROFILING responses are retained against identity (recruitment questionnaires cover health, income, politics, religion -- asked these be treated as sensitive PI with use limited, not only deleted); pre-empted the de-identification answer by asking about the respondent/panellist TOKEN rather than the responses; flagged passive-measurement/audience-metering data as in scope and asked which identifier types were searched, since a name search will not reach device-keyed data; conceded processor-held client research data in advance and asked them to say so plainly and confirm whether they will forward.
 
 ## Steps

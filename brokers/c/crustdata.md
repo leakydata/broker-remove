@@ -8,8 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-23)
-- Note: Recovered from the committed playbook brokers/c/crustdata.md, because the ledger carries no notes and this row's status had no evidence behind it: Statutory opt-out/deletion email sent 2026-08-23, category-tailored.
+- Current: `replied` (updated 2026-09-25)
+- Note: Statutory opt-out/deletion email sent 2026-08-23, category-tailored (B2B contact database — asked them to search name variants and phone, not just email, since those are unlikely keys for this kind of database).
+- 2026-09-24 reply, one month later: "Your opt-out request has been processed. Conforming completion." Signed by a named individual, not an autoresponder. **Too thin to count as `confirmed`** — it doesn't say whether a record was found and removed versus nothing existed, doesn't address whether any customer received a copy of a record about me, and doesn't confirm a forward-looking suppression entry. Replied 2026-09-25 asking those three things directly. Don't upgrade this row to `confirmed` on the strength of "processed... completion" alone — that phrase is compatible with either outcome.
 
 ## Steps
 
@@ -24,13 +25,7 @@
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+**"Processed. Conforming completion" is a real, personally-signed reply, not a bot — and still tells you nothing.** It doesn't distinguish a search that found and deleted a record from a search that found nothing, and it ignores any question the letter asked that isn't "did you do the thing." Treat it as `replied`, not `confirmed`, until a follow-up pins down which outcome it was.
 
 ## Verification
 

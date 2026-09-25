@@ -6,7 +6,8 @@
 
 ## Status
 
-- Current: `pending`
+- Current: `covered_by_sibling`
+- Note: Same contact address (privacy@hunter.io) as the canonical `hunter` row, which already has a substantive reply on file (see `brokers/h/hunter.md`, status `replied`). Do not send a second letter to this mailbox under the Huntmails name.
 
 ## Steps
 

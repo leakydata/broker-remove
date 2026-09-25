@@ -6,8 +6,9 @@
 
 ## Status
 
-- Current: `email_pending` (updated 2026-09-22)
+- Current: `replied` (updated 2026-09-25)
 - Note: 2026-09-21 reply (Trust & Safety Team, not a privacy desk): reframed the request as an account-deletion how-to ("You can delete your SoundCloud account by signing in... within a short time period SoundCloud will completely delete the account"). The requester has no SoundCloud account, so an account-deletion flow doesn't apply — the same "delete your account" deflection pattern seen at Therapist.com/PESI (see `therapist_com.md`). Replied 9/22 clarifying there is no account, this is a non-account data-subject request, and asking them to search the identifiers directly (name/emails/phone) for anything held outside an account — advertising, analytics, or data-partner integrations. Awaiting a substantive answer.
+- **2026-09-23, second deflection**: Trust & Safety sent the same account-settings/cookie-policy boilerplate again, still not addressing the non-account question. Replied 2026-09-25 a third time — explicitly named GDPR Art. 15/17 (they're Berlin-based, so it applies), repeated there is no account, and asked to be routed to a data-subject-request team if account support can't answer. **Two identical deflections in a row from the same desk is a pattern, not a one-off** — worth escalating language on the third contact rather than repeating the same ask verbatim.
 - Prior (2026-09-19): first contact. Standard consumer deletion/opt-out/suppression letter. Address sourced from an Optery-directory import; `email_verified_by` had been set to `"optery_directory"`, which only means a commercial directory listed the company, not that the mailbox was ever confirmed to accept mail -- three addresses from the same 2026-09-18 batch hard-bounced (see ct_company_directory.md, ibegin.md, native_american_netroots.md). Watch for a bounce on the next pass before treating this as delivered. [No bounce — see 9/21 reply above.]
 
 ## Steps
@@ -21,9 +22,13 @@
 ## Gotchas
 
 - **A non-account privacy request lands on Trust & Safety and gets answered as
-  "how to delete your account."** If you don't have an account, say so
-  explicitly and ask them to search the identifiers directly rather than
-  accepting the account-deletion instructions as a completion.
+  "how to delete your account," repeatedly.** This happened twice in a row
+  (9/21 and 9/23) with near-identical boilerplate. If you don't have an
+  account, say so explicitly and ask them to search the identifiers directly
+  rather than accepting the account-deletion instructions as a completion —
+  and expect to have to say it more than once. Naming GDPR Art. 15/17
+  specifically (SoundCloud Global is a German entity) may be what gets it
+  routed to an actual data-subject-request handler.
 - Uses a Zendesk ticketing system (`support@soundcloud.zendesk.com`); replies
   thread under a request number.
 
