@@ -2503,7 +2503,7 @@
       "category": "people_search",
       "category_source": "manual 2026-09-12",
       "listing_basis": "discovered",
-      "notes": "info@backgroundalert.com hard-bounced 550 5.1.1 on 2026-09-12. backgroundalert.com does NOT resolve in DNS (NXDOMAIN) as of this check — the domain itself is dead, not just the mailbox. No channel of any kind exists unless the domain is reinstated."
+      "notes": "info@backgroundalert.com hard-bounced 550 5.1.1 on 2026-09-12. backgroundalert.com does NOT resolve in DNS (NXDOMAIN) as of this check \u2014 the domain itself is dead, not just the mailbox. No channel of any kind exists unless the domain is reinstated."
     },
     {
       "id": "background_hawk",
@@ -4279,7 +4279,7 @@
       "category_source": "manual 2026-09-12",
       "duplicate_of": "graph8",
       "listing_basis": "third_party_directory",
-      "notes": "CIENCE has folded into graph8 (confirmed via both sites' footers). graph8 (id: graph8) already has a verified working contact (support@graph8.com) and an existing submitted, answered request. Held out of the send queue as a duplicate rather than resent under this name — see terminus/demandscience for the same pattern."
+      "notes": "CIENCE has folded into graph8 (confirmed via both sites' footers). graph8 (id: graph8) already has a verified working contact (support@graph8.com) and an existing submitted, answered request. Held out of the send queue as a duplicate rather than resent under this name \u2014 see terminus/demandscience for the same pattern."
     },
     {
       "id": "cinqdi",
@@ -5216,7 +5216,7 @@
       "email_to": "info@connextdigital.com",
       "email_verified": false,
       "email_verified_by": "bounced",
-      "notes": "Both info@connextdigital.com (2026-08-17) and privacy@connextdigital.com (2026-08-22) hard-bounce 550 5.1.1. No alternative address published anywhere on the site. Domain/MX resolve — live domain, no working mailbox. No usable email route; do not resend to either address.",
+      "notes": "Both info@connextdigital.com (2026-08-17) and privacy@connextdigital.com (2026-08-22) hard-bounce 550 5.1.1. No alternative address published anywhere on the site. Domain/MX resolve \u2014 live domain, no working mailbox. No usable email route; do not resend to either address.",
       "email_alt": "privacy@connextdigital.com",
       "registry_years": [
         "2020-2023",
@@ -5609,7 +5609,7 @@
       "category": "people_search",
       "category_source": "manual 2026-09-12",
       "listing_basis": "discovered",
-      "notes": "support@crimeinformer.com hard-bounced 550 \"No such user\" on 2026-09-12. Domain resolves (199.103.62.205) but automated fetches of the root, /privacy-policy and /contact-us all return HTTP 404 — either bot-blocked or the site is effectively dead behind a live IP. No alternate address found. Needs a human with a real browser to confirm whether the site is actually live before any further attempt."
+      "notes": "support@crimeinformer.com hard-bounced 550 \"No such user\" on 2026-09-12. Domain resolves (199.103.62.205) but automated fetches of the root, /privacy-policy and /contact-us all return HTTP 404 \u2014 either bot-blocked or the site is effectively dead behind a live IP. No alternate address found. Needs a human with a real browser to confirm whether the site is actually live before any further attempt."
     },
     {
       "id": "criminal_com",
@@ -5641,7 +5641,7 @@
       "email_to": "priorityoptout@intelius.com",
       "email_verified": true,
       "email_verified_by": "broker_reply",
-      "notes": "support@criminaldatacheck.com hard-bounces (550) and is the only address the site itself publishes. This is an Intelius/PeopleConnect affiliate front (optout_url already pointed at intelius.com/privacy-center) — file against priorityoptout@intelius.com naming CriminalDataCheck.com specifically, same pattern as addresses_com and zabasearch.",
+      "notes": "support@criminaldatacheck.com hard-bounces (550) and is the only address the site itself publishes. This is an Intelius/PeopleConnect affiliate front (optout_url already pointed at intelius.com/privacy-center) \u2014 file against priorityoptout@intelius.com naming CriminalDataCheck.com specifically, same pattern as addresses_com and zabasearch.",
       "email_alt": "support@criminaldatacheck.com",
       "category": "people_search",
       "category_source": "site_classifier 2026-08-31",
@@ -6013,7 +6013,7 @@
       "email_to": "info@datadirectmarketing.com",
       "email_verified": false,
       "email_verified_by": "bounced",
-      "notes": "Both info@datadirectmarketing.com (2026-08-17) and datanalytics@teamdms.com (2026-08-22) hard-bounce 'address not found'. No alternative address published anywhere on the site. Domain/MX resolve — live domain, no working mailbox. No usable email route; do not resend to either address.",
+      "notes": "Both info@datadirectmarketing.com (2026-08-17) and datanalytics@teamdms.com (2026-08-22) hard-bounce 'address not found'. No alternative address published anywhere on the site. Domain/MX resolve \u2014 live domain, no working mailbox. No usable email route; do not resend to either address.",
       "email_alt": "datanalytics@teamdms.com",
       "registry_years": [
         "2020-2023",
@@ -7791,7 +7791,7 @@
       ],
       "legal_name": null,
       "email_alt": "dataprivacy@listmatch.com; dataprivacy2026@listmatch.com",
-      "notes": "dataprivacy@listmatch.com — the address on their CA data broker registration — hard-bounced (550) 2026-08-27. Their own privacy page publishes a YEAR-SUFFIXED address, dataprivacy2026@listmatch.com, which rotates while the registry keeps the old one. Resent there 2026-08-27 and got an auto-reply confirming receipt (gmail:1a041e3313fd0e4e). Registry entry was stale — email_to still pointed at the dead address after a prior session already found and used the fix.",
+      "notes": "dataprivacy@listmatch.com \u2014 the address on their CA data broker registration \u2014 hard-bounced (550) 2026-08-27. Their own privacy page publishes a YEAR-SUFFIXED address, dataprivacy2026@listmatch.com, which rotates while the registry keeps the old one. Resent there 2026-08-27 and got an auto-reply confirming receipt (gmail:1a041e3313fd0e4e). Registry entry was stale \u2014 email_to still pointed at the dead address after a prior session already found and used the fix.",
       "listing_basis": "state_register",
       "email_note": " || 2026-09-03 CORRECTION: The registry's own dataprivacy2026@listmatch.com (a year-suffixed address, found after dataprivacy@listmatch.com hard-bounced) has now ITSELF started hard-bouncing (2026-09-01) -- the year-suffix rotates and the registry can't keep up. jonathan@listmatch.com is a named individual who has personally replied on multiple threads (including ones cc'ing the dead addresses) and is confirmed reliable. Use the person, not the rotating alias."
     },
@@ -18517,7 +18517,7 @@
       "category": "unknown",
       "category_source": "manual 2026-09-12",
       "listing_basis": "discovered",
-      "notes": "csr@plcom.net hard-bounced 550 5.0.1 on 2026-09-12. plcom.net itself (DNS resolves, 109.205.61.100) now serves only a bare hosting-provider placeholder page (\"Coming soon: an awesome project\") — whatever business this contact once belonged to no longer operates at this domain. Treat as a dead entity; do not resend."
+      "notes": "csr@plcom.net hard-bounced 550 5.0.1 on 2026-09-12. plcom.net itself (DNS resolves, 109.205.61.100) now serves only a bare hosting-provider placeholder page (\"Coming soon: an awesome project\") \u2014 whatever business this contact once belonged to no longer operates at this domain. Treat as a dead entity; do not resend."
     },
     {
       "id": "plexuss",
@@ -19739,7 +19739,7 @@
       ],
       "legal_name": "RampedUp",
       "email_alt": "privacy@rampedup.io",
-      "notes": "privacy@rampedup.io — the address on their CA data broker registration — is a restricted Google Workspace group that rejects outside senders ('group may not exist or you may not have permission to post'), bounced 2026-08-26. Their own site publishes contact@rampedup.io instead; resent there, unverified until a reply arrives. || 2026-09-01: contact@rampedup.io auto-replies 'not a monitored inbox' and routes all privacy requests to the portal at basic.rampedup.io/app/donotsell or (404) 682-9570. The 2024 filing listed contact@ and the 2025 filing listed privacy@, which bounces -- the register address got worse between years. See SILENT_FAILURES 245.",
+      "notes": "privacy@rampedup.io \u2014 the address on their CA data broker registration \u2014 is a restricted Google Workspace group that rejects outside senders ('group may not exist or you may not have permission to post'), bounced 2026-08-26. Their own site publishes contact@rampedup.io instead; resent there, unverified until a reply arrives. || 2026-09-01: contact@rampedup.io auto-replies 'not a monitored inbox' and routes all privacy requests to the portal at basic.rampedup.io/app/donotsell or (404) 682-9570. The 2024 filing listed contact@ and the 2025 filing listed privacy@, which bounces -- the register address got worse between years. See SILENT_FAILURES 245.",
       "category": "adtech",
       "category_source": "site_classifier 2026-08-31",
       "listing_basis": "state_register"
@@ -23403,7 +23403,7 @@
       "category_source": "site_classifier 2026-08-30",
       "email_verified_was": "bounced",
       "listing_basis": "state_register",
-      "email_alt": "privacy@tauxbe.com (BOUNCED 2026-09-01, 550 5.7.1 — published as the privacy contact but rejects mail)",
+      "email_alt": "privacy@tauxbe.com (BOUNCED 2026-09-01, 550 5.7.1 \u2014 published as the privacy contact but rejects mail)",
       "email_note": " || 2026-09-01 HARD BOUNCE + CORRECTION: privacy@tauxbe.com (the address their own privacy policy names) returned 550 5.7.1. The site is live (natcrim background-screening product); its own /contact page lists solutions@tauxbe.com as the general inbox, and the privacy policy's state list (CA, VA, CO, CT, UT, OR, TX, MT, IA, DE, NE, NH, NJ) does not include PA -- fallback clause applies. Resent to solutions@tauxbe.com noting the bounce and asking it be routed to whoever owns privacy requests.",
       "notes": "Not on their listed-state roster (CA/VA/CO/CT/UT/OR/TX/MT/IA/DE/NE/NH/NJ); PA has no such list, fallback-to-policy clause invoked."
     },
@@ -26078,7 +26078,7 @@
     },
     {
       "id": "west_publishing_corp",
-      "name": "West Publishing Corp (Thomson Reuters — CLEAR, Public Records on Westlaw)",
+      "name": "West Publishing Corp (Thomson Reuters \u2014 CLEAR, Public Records on Westlaw)",
       "legal_name": "West Publishing Corp",
       "domain": "thomsonreuters.com",
       "priority": 4,
@@ -26969,7 +26969,26 @@
       "category_source": "nbcuniversal_referral 2026-09-21",
       "listing_basis": "successor_entity",
       "notes": "Spun off from NBCUniversal; TeamUnify LLC (nee NBC Sports company) is now a Versant brand. NBCUni privacy team confirmed CA/CO residents (or authorized agents) may email privacy@versantmedia.com directly; other residents are directed to a web portal. See brokers/v/versant_media.md."
+    },
+    {
+      "id": "klickly",
+      "name": "Klickly, Inc.",
+      "domain": "klickly.com",
+      "priority": 2,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "broker_reply",
+      "optery_slug": null,
+      "email_to": "privacy@klickly.com",
+      "email_verified": true,
+      "email_verified_by": "broker_reply",
+      "registry_years": [],
+      "legal_name": null,
+      "category": "adtech",
+      "category_source": "broker_reply 2026-09-25",
+      "listing_basis": "broker_reply"
     }
   ],
-  "count": 1406
+  "count": 1407
 }

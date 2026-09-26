@@ -6,12 +6,19 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-17)
-- Note: Emailed privacy@elocal.com 2026-09-17. Pay-per-call local-services
+- Current: `confirmed` (updated 2026-09-23)
+- Note: 2026-09-23, bernadette@elocal.com replied: "Thanks for submitting
+  your deletion and opt-out request; this serves as confirmation that it has
+  been honored, and any contact information has been added to our Do Not
+  Contact database." A clean confirmation, but it does not say which
+  identifiers matched or whether a lead record existed at all -- so this
+  closes the request without answering whether eLocal ever actually held a
+  record, only that nothing will be added going forward regardless.
+- Prior: Emailed privacy@elocal.com 2026-09-17. Pay-per-call local-services
   lead network; used the standard letter plus the lead-generation ask (name
   any buyer/purchaser of a lead and direct downstream deletion), and noted
   the subject has no memory of submitting an inquiry, asking them to say
-  which source supplied the record if one exists. No reply yet.
+  which source supplied the record if one exists.
 
 ## Steps
 

@@ -7,8 +7,21 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-27)
-- Note: Opt-out letter sent by email to privacy@firstorion.com (delete + opt out of sale/sharing + direct downstream recipients + suppress against future ingestion). All twelve email addresses, sixteen prior addresses and eleven prior phone numbers listed for search. Sent as HTML per letter_html.
+- Current: `not_found` (updated 2026-09-25)
+- Note: 2026-09-25, ccparequests@firstorion.com replied across two separate
+  ticket numbers (3450745 and 3456580 -- the same letter had reached two
+  different staff mailboxes, snichols and cdenton, each of whom filed it as
+  its own ticket): "First Orion has ceased operating as a data broker and no
+  longer possesses personal information collected or maintained in connection
+  with its former data broker activities. Accordingly, we do not currently
+  have personal information... As a result, there is no additional action
+  required." Recorded `not_found` rather than `confirmed` -- this is a
+  statement that the business line no longer exists and holds nothing, not a
+  record of them having located and deleted a specific file. Worth flagging
+  for the registry: if First Orion has genuinely wound down its data-broker
+  line of business, its entry may be due for a `still_active` recheck at the
+  next registry pass.
+- Prior: Opt-out letter sent by email to privacy@firstorion.com (delete + opt out of sale/sharing + direct downstream recipients + suppress against future ingestion). All twelve email addresses, sixteen prior addresses and eleven prior phone numbers listed for search. Sent as HTML per letter_html.
 
 ## Steps
 
@@ -20,17 +33,27 @@
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+**A CCed letter can land at more than one staff mailbox and turn into
+duplicate tickets.** The original letter went to privacy@firstorion.com;
+their support desk apparently routed it to two different individual staff
+inboxes, each of whom opened a separate ticket (3450745 and 3456580) and
+replied with the identical boilerplate independently, one day apart. Neither
+reply referenced the other's ticket number. If a company's support desk uses
+per-agent ticket routing, don't be surprised by duplicate near-simultaneous
+replies to one letter — it's a routing artifact, not two different answers.
+
+**"We have ceased operating as a data broker" is a distinct outcome from
+"we searched and found nothing."** Worth taking at face value but also worth
+occasionally rechecking: a company can wind down one line of business while
+retaining data, or restart it later. If First Orion reappears on a state
+broker registry in a future year, this closure is the reason to re-open the
+request rather than assume the old reply still holds.
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+No search URL — this is a statement that the business line no longer exists,
+not a suppression to re-check. If First Orion reappears on a future state
+data-broker registry filing, that's the signal to write again.
 
 ## Who they are, and how to reach them
 
