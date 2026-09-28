@@ -320,9 +320,9 @@
     "via": null
   },
   "allant_group": {
-    "status": "submitted",
-    "changed": "2026-08-31",
-    "via": "email"
+    "status": "confirmed",
+    "changed": "2026-09-24",
+    "via": "form"
   },
   "alliant": {
     "status": "confirmed",
@@ -1701,8 +1701,8 @@
   },
   "delivr_ai": {
     "status": "submitted",
-    "changed": "2026-08-30",
-    "via": null
+    "changed": "2026-09-26",
+    "via": "reply"
   },
   "deloitte_consulting": {
     "status": "submitted",

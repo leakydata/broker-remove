@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-30)
-- Note: Recovered from the committed playbook brokers/d/delivr_ai.md, because the ledger carries no notes and this row's status had no evidence behind it: 2026-08-30 Sent the standard data-broker letter to support@delivr.ai (no dedicated privacy address published; used the general support address).
+- Current: `submitted` (updated 2026-09-26)
+- Note: 2026-08-30 Sent the standard data-broker letter to support@delivr.ai (no dedicated privacy address published; used the general support address). 2026-09-26 Acknowledgment arrived from privacy@mail.delivr.ai — a *different* subdomain than the one written to, confirming the request reached a real privacy desk despite the generic support@ address. They confirmed they have stopped selling/sharing/using the data and will delete it and notify service providers, but invoked a statutory extension: completion confirmation promised by 2026-11-28 (a ~90-day total window from the original request, consistent with a CCPA 45+45 day extension). Not `confirmed` yet — this is a hold notice, not a completion. Re-check after 2026-11-28 if no further mail arrives.
 
 ## Steps
 
@@ -20,17 +20,12 @@
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+- Their acknowledgment replies from `privacy@mail.delivr.ai`, not from `support@delivr.ai` (the address the letter was sent to) and not from the bare `delivr.ai` domain either — a third address on a subdomain. If a re-send ever bounces from `support@`, try `privacy@mail.delivr.ai` before assuming the company is unreachable.
+- They openly invoke a statutory extension (extra ~90 days from original request) rather than silently going dark — worth citing back to other brokers as an example of the honest way to ask for more time.
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+How to check: wait for their promised completion confirmation (stated as 2026-11-28 for the 2026-08-30 request). If nothing arrives by then, reply in the existing thread citing the missed date.
 
 ## If they ignore you
 
