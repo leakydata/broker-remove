@@ -10,6 +10,7 @@
 - Current: `confirmed` (updated 2026-09-18)
 - Note: 2026-08-30 sent legal@ziffdavis.com as a GROUP letter consolidating three registry rows that all resolve to Ziff Davis: ziff_davis (this address), campaigner_smtp (privacy@ziffdavis.com, already submitted) and everyday_health (its own address, pending). Verified from ziffdavis.com/brands that the portfolio is organised into Technology, Shopping, Lifestyle, Gaming & Entertainment, Health & Wellness, Cybersecurity and Martech -- but deliberately did NOT guess which registered entity sits under which heading, and asked instead. Two structural asks: does a request here cover the group (offered to stand the other two down), and PLEASE NAME the consumer-facing brands holding visitor data, since a portfolio this size is exactly where a person removes themselves from three properties, believes they are done, and is wrong. HEALTH-SPECIFIC section for the Health & Wellness category: a person reading about a condition on a consumer health site is not shopping -- the page visited IS the sensitive fact, implying a condition, a symptom, a diagnosis in the family or a fear -- so asked what health attribute is attached INCLUDING anything inferred from pages read rather than stated, and whether any health-adjacent segment has been activated to advertisers. 1798.121 limit-use invoked separately. Carries the new 193/194 key-set asks and the cap.
 - Note: 2026-09-18 -- Ziff Davis' OneTrust privacy portal sent a "Your privacy-related request has been completed" notice (Request ID JTG25TC27Z), with no itemisation of which of the three consolidated rows it covers or what was found. Recorded as `confirmed` on the strength of the broker's own completion notice, but the scope question from the 8/30 letter (does this cover the group, and which brands hold visitor data) was never answered in writing -- worth re-asking if a listing resurfaces on any Ziff Davis property.
+- Note: 2026-09-28 -- two more OneTrust notices arrived, on different request IDs (2XLJP7244F, 2SVRD6T22H): "A comment has been added to your request." The comment text is only readable by clicking through to the portal (a login-gated page, not renderable from the email itself), which this project's email-only channel cannot do. Queued to the handoff list rather than guessed at or ignored -- see `handoff.py list`. Status left at `confirmed` since these are unread comments on what may be a separate/earlier request, not evidence of a regression.
 
 ## Steps
 
@@ -21,13 +22,15 @@
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+- **OneTrust "comment added" notices are portal-gated, not email-readable.**
+  The email itself never contains the comment text, only a "View Request"
+  button linking to `privacyportal.onetrust.com`, which requires opening in a
+  browser. An email-only channel can see that a comment exists and its
+  Request ID, but not what it says — this has to go to a human, not be
+  guessed at from the notification email.
+- Multiple simultaneous OneTrust request IDs can exist on the same consolidated
+  letter (three registry rows folded into one email in the 8/30 letter) —
+  don't assume a new Request ID is a new, unrelated submission.
 
 ## Verification
 

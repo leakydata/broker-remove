@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-25)
-- Note: 2026-08-25: emailed legal@collectivedata.io. Category unclear, so the two general-purpose asks (suppliers, inferred-vs-collected) plus the identifier-keyed fallback with the hash-it-yourself clause.
+- Current: `acknowledged` (updated 2026-09-29)
+- Note: 2026-08-25: emailed legal@collectivedata.io. Category unclear, so the two general-purpose asks (suppliers, inferred-vs-collected) plus the identifier-keyed fallback with the hash-it-yourself clause. 2026-09-28: reply arrived from privacyrequests@kochava.com — this entity trades under the Kochava name for its privacy correspondence — with a boilerplate response: the data (if any) is "automatically flagged" so it will not be processed going forward, and flagged data "will be deleted." That's a forward-looking promise, not an affirmative "we found and deleted your record," so this stays at `acknowledged` rather than `confirmed`.
 
 ## Steps
 
@@ -20,13 +20,15 @@
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+- Their privacy correspondence comes from `privacyrequests@kochava.com`, not
+  from the `collectivedata.io` domain the registry lists — this entity's
+  consumer-facing privacy desk is run under the Kochava brand. Don't treat a
+  reply from that address as a wrong-broker mix-up.
+- The auto-reply is boilerplate for the whole Kochava/data-co-op family: "data
+  automatically flagged... will not be processed... will be deleted" is a
+  forward-looking promise, distinct from confirming an existing record was
+  found and removed. Also points to a general opt-out page:
+  <https://www.kochava.com/privacy/opt-out/>.
 
 ## Verification
 

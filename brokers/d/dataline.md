@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-17)
-- Note: Statutory delete/opt-out request emailed, tailored to the broker's data category; awaiting reply.
+- Current: `confirmed` (updated 2026-09-29)
+- Note: 2026-08-17 sent. 2026-09-29 privacy.officer@datalinedata.com confirmed the record under one of the four listed emails had been deleted — but named only that one address, not all four submitted. Replied asking them to confirm the other three were searched too.
 
 ## Steps
 
@@ -20,13 +20,11 @@
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+- Their confirmation named only the one email address that matched, out of
+  four submitted in the same letter. A reply that confirms deletion for "your
+  request" without naming which identifiers it searched can be true for one
+  address and silent about the rest — worth a follow-up asking explicitly
+  whether every listed identifier was checked, not just the one that hit.
 
 ## Verification
 

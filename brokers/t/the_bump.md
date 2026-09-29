@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-19)
-- Note: 2026-09-19, first contact. Addressed to The Bump directly and separately to The Knot Worldwide's group contact (see the_knot_worldwide.md), since both are the same corporate family; letter asks which sibling properties were checked. Address sourced from an Optery-directory import; `email_verified_by` had been set to `"optery_directory"`, which only means a commercial directory listed the company, not that the mailbox was ever confirmed to accept mail -- three addresses from the same 2026-09-18 batch hard-bounced (see ct_company_directory.md, ibegin.md, native_american_netroots.md). Watch for a bounce on the next pass before treating this as delivered.
+- Current: `submitted` (updated 2026-09-29)
+- Note: 2026-09-19, first contact. Addressed to The Bump directly and separately to The Knot Worldwide's group contact (see the_knot_worldwide.md), since both are the same corporate family; letter asks which sibling properties were checked. Address sourced from an Optery-directory import; `email_verified_by` had been set to `"optery_directory"`, which only means a commercial directory listed the company, not that the mailbox was ever confirmed to accept mail -- three addresses from the same 2026-09-18 batch hard-bounced (see ct_company_directory.md, ibegin.md, native_american_netroots.md). Watch for a bounce on the next pass before treating this as delivered. 2026-09-28: TKWW Support (shared ticket system for both The Bump and The Knot Worldwide; the two tickets got auto-merged into one) replied that identity couldn't be verified, and asked for two extra pieces of info "like your wedding date" plus a reply from the account's own email containing the phrase "CONTINUE TO PROCESS MY REQUEST." Replied pushing back: this is a database deletion/suppression request, not an account-access request, and a wedding date isn't proportionate verification for it under CPRA 1798.185(a)(7). Re-supplied name/DOB/address/all four emails and asked them to search directly instead. No answer yet.
 
 ## Steps
 
@@ -23,13 +23,16 @@
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+- TKWW Support treats a deletion/suppression request as if it were an
+  account-recovery request, asking for a "wedding date" and a from-the-account
+  confirmation phrase. If the requester never had (or doesn't recall) a
+  registry account, this verification bar can't be met as asked — push back
+  that CPRA verification must be proportionate to the request (Cal. Civ. Code
+  1798.185(a)(7); 11 CCR 7060-7062), and a deletion search doesn't require
+  account access.
+- Support merges tickets filed to The Bump and The Knot Worldwide separately
+  into one thread automatically, which is useful (confirms both were seen by
+  the same desk) but means a reply to one ticket ID answers both.
 
 ## Verification
 

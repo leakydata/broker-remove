@@ -6,8 +6,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-19)
-- Note: 2026-09-19, first contact. Sent alongside a separate letter to The Bump (support@thebump.com, see the_bump.md) -- same family, two properties, asked to confirm both. Address sourced from an Optery-directory import; `email_verified_by` had been set to `"optery_directory"`, which only means a commercial directory listed the company, not that the mailbox was ever confirmed to accept mail -- three addresses from the same 2026-09-18 batch hard-bounced (see ct_company_directory.md, ibegin.md, native_american_netroots.md). Watch for a bounce on the next pass before treating this as delivered.
+- Current: `submitted` (updated 2026-09-29)
+- Note: 2026-09-19, first contact. Sent alongside a separate letter to The Bump (support@thebump.com, see the_bump.md) -- same family, two properties, asked to confirm both. Address sourced from an Optery-directory import; `email_verified_by` had been set to `"optery_directory"`, which only means a commercial directory listed the company, not that the mailbox was ever confirmed to accept mail -- three addresses from the same 2026-09-18 batch hard-bounced (see ct_company_directory.md, ibegin.md, native_american_netroots.md). Watch for a bounce on the next pass before treating this as delivered. 2026-09-28: TKWW Support auto-merged this ticket with the_bump's and asked for account-verification details (a "wedding date") inappropriate to a deletion request; see the_bump.md for the full gotcha and the reply sent.
 
 ## Steps
 
@@ -19,13 +19,9 @@
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+- Shares a support desk with The Bump — see the_bump.md's gotcha on the
+  inappropriate "wedding date" account-verification ask for a deletion
+  request, and the CPRA proportionality pushback that answers it.
 
 ## Verification
 

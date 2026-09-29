@@ -8,7 +8,7 @@
 ## Status
 
 - Current: `not_found` (updated 2026-09-16)
-- Note: Adopted from the shared ledger: another agent recorded 'not_found' on 2026-09-16. No detail is carried across — re-read the broker's own reply before relying on this.
+- Note: Their reply: "After a search of our database, we can confirm that ATTOM Data Solutions has no personal information on or about you." No detail on which systems were searched or whether a known-present identifier was used as a control (see Gotchas).
 
 ## Steps
 
@@ -20,13 +20,9 @@
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+- **The nil has no stated control.** Their full reply was one sentence: *"After a search of our database, we can confirm that ATTOM Data Solutions has no personal information on or about you."* No mention of which systems were searched or whether a known-present identifier was run as a control. Recorded as `not_found` on good faith rather than `suppressed` or `confirmed` — there is nothing here to distinguish a careful negative from an unexercised query, so treat this the way the SKILL guidance describes an unfalsifiable nil.
+- ATTOM is a real-estate/property-data aggregator; a name/email nil is plausible on its own terms (its core product is parcel and mortgage records, not people-search), which is part of why this wasn't pushed further.
+- **This reply was previously misfied into `brokers/p/preqin.md`** — a real-estate data broker (ATTOM) and an alternative-assets data broker (Preqin, part of BlackRock) got merged into one playbook at some point. Corrected 2026-09-29; if you find other cross-broker content bleeding between two similarly-vintage playbooks, it's worth checking whether they were written in the same batch.
 
 ## Verification
 

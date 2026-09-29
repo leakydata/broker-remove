@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-24)
-- Note: 2026-08-24: first contact via the address nominated in the California data broker registration. Tailored per _CATEGORY_VARIANTS.md.
+- Current: `submitted` (updated 2026-09-29)
+- Note: 2026-08-24: first contact via the address nominated in the California data broker registration. Tailored per _CATEGORY_VARIANTS.md. 2026-09-28: their OneTrust portal (branded "Sirius XM Holdings, Inc." — AdsWizz's parent) replied "Request cannot be processed because data subject rights apply only to certain residents," with no further detail. Replied asking (a) whether Pennsylvania appears as an option in their own request form's state-of-residence dropdown, and (b) that they honor the request under their published privacy policy if not statutorily compelled, per the standard fallback clause. No answer yet.
 
 ## Steps
 
@@ -32,6 +32,14 @@
 
 <!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
 
+## Gotchas
+
+- The state-residency deflection ("data subject rights apply only to certain
+  residents") arrives as a canned OneTrust auto-response with no state named
+  and no explanation of which statute they think applies — it reads like a
+  template gate rather than an actual residency check, since nothing in the
+  original request said what state the requester lives in. Worth asking them
+  to name the state they inferred and how.
 
 ## Audio has two properties a generic deletion request misses
 

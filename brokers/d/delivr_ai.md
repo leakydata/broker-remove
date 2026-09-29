@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-26)
-- Note: 2026-08-30 Sent the standard data-broker letter to support@delivr.ai (no dedicated privacy address published; used the general support address). 2026-09-26 Acknowledgment arrived from privacy@mail.delivr.ai — a *different* subdomain than the one written to, confirming the request reached a real privacy desk despite the generic support@ address. They confirmed they have stopped selling/sharing/using the data and will delete it and notify service providers, but invoked a statutory extension: completion confirmation promised by 2026-11-28 (a ~90-day total window from the original request, consistent with a CCPA 45+45 day extension). Not `confirmed` yet — this is a hold notice, not a completion. Re-check after 2026-11-28 if no further mail arrives.
+- Current: `submitted` (updated 2026-09-29)
+- Note: 2026-08-30 Sent the standard data-broker letter to support@delivr.ai (no dedicated privacy address published; used the general support address). 2026-09-26 Acknowledgment arrived from privacy@mail.delivr.ai — a *different* subdomain than the one written to, confirming the request reached a real privacy desk despite the generic support@ address. They confirmed they have stopped selling/sharing/using the data and will delete it and notify service providers, but invoked a statutory extension: completion confirmation promised by 2026-11-28 (a ~90-day total window from the original request, consistent with a CCPA 45+45 day extension). Not `confirmed` yet — this is a hold notice, not a completion. 2026-09-29: a *separate* message, "Please confirm your request to delete your personal information," asked for a blank reply as a double opt-in ("you do not need to write anything... if we do not hear from you, your information stays suppressed but we cannot complete the deletion"). Replied to confirm. Re-check after 2026-11-28 if no further mail arrives.
 
 ## Steps
 
@@ -22,6 +22,7 @@
 
 - Their acknowledgment replies from `privacy@mail.delivr.ai`, not from `support@delivr.ai` (the address the letter was sent to) and not from the bare `delivr.ai` domain either — a third address on a subdomain. If a re-send ever bounces from `support@`, try `privacy@mail.delivr.ai` before assuming the company is unreachable.
 - They openly invoke a statutory extension (extra ~90 days from original request) rather than silently going dark — worth citing back to other brokers as an example of the honest way to ask for more time.
+- A double opt-in step can arrive *after* the extension acknowledgment, as a separate email, not before it — don't assume the acknowledgment was the last gate. Their confirm-by-reply step is genuinely low-friction (a blank reply suffices, and they say the data stays suppressed even if you never reply), which is the honest way to run this step.
 
 ## Verification
 

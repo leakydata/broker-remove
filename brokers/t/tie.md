@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-30)
-- Note: Recovered from the committed playbook brokers/t/tie.md, because the ledger carries no notes and this row's status had no evidence behind it: 2026-08-29 sent to info@meettie.com and cc'd info@revenueroll.com — the legal entity behind the Tie brand names itself "Revenue Roll Inc. DBA Tie" in its own privacy notice, so both addresses were used rather than guessing which one is monitored. This playbook was missing despite the request having gone out; found and backfilled during a routine sweep for acted-on brokers without a playbook. No reply yet.
+- Current: `confirmed` (updated 2026-09-29)
+- Note: Recovered from the committed playbook brokers/t/tie.md, because the ledger carries no notes and this row's status had no evidence behind it: 2026-08-29 sent to info@meettie.com and cc'd info@revenueroll.com — the legal entity behind the Tie brand names itself "Revenue Roll Inc. DBA Tie" in its own privacy notice, so both addresses were used rather than guessing which one is monitored. This playbook was missing despite the request having gone out; found and backfilled during a routine sweep for acted-on brokers without a playbook. 2026-09-28: info@meettie.com confirmed completion — data either not found or permanently removed from active records and databases.
 
 ## Steps
 
@@ -30,7 +30,10 @@
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+Confirmed by their own completion email; no self-search page exists for Tie
+(a B2B networking-events app, not a people-search site). If a profile
+resurfaces, re-open by emailing both info@meettie.com and
+info@revenueroll.com and quoting this thread.
 
 ## Who they are, and how to reach them
 

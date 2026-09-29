@@ -192,7 +192,7 @@
   "adswizz": {
     "status": "submitted",
     "changed": "2026-08-24",
-    "via": null
+    "via": "reply"
   },
   "adttribution": {
     "status": "submitted",
@@ -790,8 +790,8 @@
     "via": null
   },
   "boam_ai": {
-    "status": "submitted",
-    "changed": "2026-08-25",
+    "status": "not_found",
+    "changed": "2026-09-29",
     "via": null
   },
   "boardex": {
@@ -1200,9 +1200,9 @@
     "via": "reply"
   },
   "collective_data_solutions": {
-    "status": "submitted",
-    "changed": "2026-08-25",
-    "via": null
+    "status": "acknowledged",
+    "changed": "2026-09-29",
+    "via": "reply"
   },
   "collectors_datastore": {
     "status": "submitted",
@@ -1570,9 +1570,9 @@
     "via": null
   },
   "dataline": {
-    "status": "submitted",
-    "changed": "2026-08-17",
-    "via": "email"
+    "status": "confirmed",
+    "changed": "2026-09-29",
+    "via": "reply"
   },
   "dataman": {
     "status": "not_found",
@@ -3219,6 +3219,11 @@
     "changed": "2026-08-28",
     "via": "email"
   },
+  "klickly": {
+    "status": "submitted",
+    "changed": "2026-09-29",
+    "via": null
+  },
   "koddi": {
     "status": "manual_required",
     "changed": "2026-08-28",
@@ -4810,8 +4815,8 @@
     "via": null
   },
   "preqin": {
-    "status": "submitted",
-    "changed": "2026-08-29",
+    "status": "not_found",
+    "changed": "2026-09-29",
     "via": "email"
   },
   "prezi": {
@@ -6097,7 +6102,7 @@
   "the_bump": {
     "status": "submitted",
     "changed": "2026-09-19",
-    "via": "email"
+    "via": "reply"
   },
   "the_data": {
     "status": "submitted",
@@ -6122,7 +6127,7 @@
   "the_knot_worldwide": {
     "status": "submitted",
     "changed": "2026-09-19",
-    "via": "email"
+    "via": "reply"
   },
   "the_org": {
     "status": "submitted",
@@ -6175,9 +6180,9 @@
     "via": "email"
   },
   "tie": {
-    "status": "submitted",
-    "changed": "2026-08-30",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-09-29",
+    "via": "reply"
   },
   "tl1": {
     "status": "submitted",

@@ -1,23 +1,28 @@
 # Preqin
 
-- **Email:** [named individual]@blackrock.com (verified)
+- **Email:** preqin.dp@blackrock.com (verified — via broker reply)
 - **Method:** email — Statutory request by email. No web form needed.
 - **Domain:** preqin.com
 - **Priority: 2.**
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-29)
-- Note: Receipt 2026-08-31 07:45 from [named individual]@blackrock.com: request received, under review, will be completed in accordance with applicable law. No outcome yet.
+- Current: `not_found` (updated 2026-09-29)
+- Note: 2026-08-29 sent. 2026-09-28 preqin.dp@blackrock.com replied: "Based on the information provided, we have not been able to identify any personal information relating to you within our systems." A short, plain nil with no evidence of which identifiers were searched or whether a known-present control was run.
 
 ## Steps
 
-Email the CA-registration contact ([named individual]@attomdata.com); a real privacy team replies from `Privacy@attomdata.com`.
+*Written for anyone, not just the person who filed the original request.*
+
+1. **Email `preqin.dp@blackrock.com`** with a written request — Preqin is a BlackRock subsidiary (private-markets/alternative-assets data), and its privacy replies come from a `blackrock.com` address rather than `preqin.com`. Ask for four things explicitly — deletion, opt-out of sale and sharing, a direction to any third parties they sold to, and a **forward-looking suppression** so the record is not simply re-added at the next data import.
+2. **List every address, email and phone number you have ever had**, not just current ones. Records are filed under whatever was current when they were created — a search on today's details misses them.
+3. **Ask them to state which identifiers matched.** "We deleted your record" and "we searched and found nothing" are different outcomes, and a reply that does not distinguish them tells you nothing about whether you were ever in the file.
 
 ## Gotchas
 
-- **The nil has no stated control.** Their full reply was one sentence: *"After a search of our database, we can confirm that ATTOM Data Solutions has no personal information on or about you."* No mention of which systems were searched or whether a known-present identifier was run as a control. Recorded as `not_found` on good faith rather than `suppressed` or `confirmed` — there is nothing here to distinguish a careful negative from an unexercised query, so treat this the way the SKILL guidance describes an unfalsifiable nil.
-- ATTOM is a real-estate/property-data aggregator; a name/email nil is plausible on its own terms (its core product is parcel and mortgage records, not people-search), which is part of why this wasn't pushed further.
+- **Correspondence comes from BlackRock, not Preqin's own domain.** `preqin.dp@blackrock.com` is the working privacy address; a letter to a `preqin.com` guess would likely bounce or go unanswered. Worth checking the registry's `email_verified_by` reflects this.
+- **The nil is unfalsifiable as written.** Their one-line reply doesn't say which systems were searched or whether a control identifier was tried. Preqin's core product (fund/investor data for alternative assets) is a plausible nil for someone without an institutional-investor footprint, which is part of why this wasn't pushed further — but the reply itself gives no way to distinguish a careful negative from an unexercised query.
+- Their outbound address is "Undisclosed recipients" (bcc'd), suggesting this reply is sent from an automated queue rather than a named individual — expect the same boilerplate on a follow-up.
 
 ## Verification
 
