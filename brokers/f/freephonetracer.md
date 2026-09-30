@@ -8,8 +8,13 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-18)
+- Current: `submitted` (updated 2026-09-30)
 - Note: Standalone letter to privacy@beenverified.com, which freephonetracer.com publishes as its contact - deliberately NOT folded into the open BeenVerified ticket, which is stuck on 'unable to locate a full record' and would only be muddied. Reverse-lookup index is phone-keyed, so the letter foregrounds the eight FORMER numbers and asks which returned a record.
+- Note: 2026-09-30 — BeenVerified support (Zendesk, agent "Aige") replied "I am unable to locate a search result for your name," asking for a profile link or "full name, age, cities and states" — a name-keyed answer to a request that was explicitly phone-keyed. Replied restating the specific numbers (current + 8 former) and re-asking the structural question the first letter raised and never got answered: is freephonetracer.com a BeenVerified-operated property covered by the main BeenVerified opt-out, or does it need to be pursued as its own case? No answer yet.
+
+## Gotchas
+
+- BeenVerified's support desk answers a phone-keyed request as if it were name-keyed. If a reply says it searched "your name" and found nothing, that does not mean the phone numbers were checked — restate them explicitly rather than accepting a name-only nil as covering this site.
 
 ## Steps
 

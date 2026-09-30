@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `acknowledged` (updated 2026-09-02)
-- Note: privacy@sovrn.com 2026-09-01: 'We have received your request regarding your personal information. We are working on your request and will provide confirmation once it has been completed.' Receipt only -- no outcome stated. Awaiting the confirmation.
+- Current: `confirmed` (updated 2026-09-29)
+- Note: privacy@sovrn.com 2026-09-01: 'We have received your request regarding your personal information. We are working on your request and will provide confirmation once it has been completed.' Receipt only -- no outcome stated.
+- Note: privacy@sovrn.com 2026-09-29: "This email confirms that Sovrn has reviewed and processed your request against verifiable information, and in accordance with your request and applicable law, Sovrn will not sell and has deleted such information, where legally permissible, as of September 14, 2026." Explicitly scopes what they hold: "we process information associated with devices and browsers, rather than information that directly identifies individuals" -- consistent with the original letter's ad-tech framing (cookie IDs, MAIDs, hashed emails). Also flags that deleted data may persist in backups/archives per their retention policy -- a normal and honest caveat, not a walk-back.
 
 ## Steps
 

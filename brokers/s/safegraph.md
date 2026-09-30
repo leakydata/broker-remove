@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-28)
-- Note: Recovered from the committed playbook brokers/s/safegraph.md, because the ledger carries no notes and this row's status had no evidence behind it: 2026-08-26: emailed privacy@safegraph.com. Same mobile-location variant as quadrant_global_pte — device identifiers, movement history, inferred home/work location, identity-graph linkage, and a request to name the identifier types matched on.
+- Current: `not_found` (updated 2026-09-30)
+- Note: 2026-08-26: emailed privacy@safegraph.com. Same mobile-location variant as quadrant_global_pte — device identifiers, movement history, inferred home/work location, identity-graph linkage, and a request to name the identifier types matched on.
+- Note: privacy@safegraph.com 2026-09-30: "We conducted a search on our records and did not find any personal information on the contact given. We will maintain a record of your request and add your information to our internal suppression list. At this time, we consider this request closed." A genuine nil that also names the suppression step unprompted — one of the more complete negative replies on file. Does not break out which identifier types (device ID vs. name/address) were actually searched, so treat this as company-wide rather than a confirmation the device-graph side was checked.
 
 ## Steps
 

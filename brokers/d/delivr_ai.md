@@ -7,8 +7,18 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-29)
-- Note: 2026-08-30 Sent the standard data-broker letter to support@delivr.ai (no dedicated privacy address published; used the general support address). 2026-09-26 Acknowledgment arrived from privacy@mail.delivr.ai — a *different* subdomain than the one written to, confirming the request reached a real privacy desk despite the generic support@ address. They confirmed they have stopped selling/sharing/using the data and will delete it and notify service providers, but invoked a statutory extension: completion confirmation promised by 2026-11-28 (a ~90-day total window from the original request, consistent with a CCPA 45+45 day extension). Not `confirmed` yet — this is a hold notice, not a completion. 2026-09-29: a *separate* message, "Please confirm your request to delete your personal information," asked for a blank reply as a double opt-in ("you do not need to write anything... if we do not hear from you, your information stays suppressed but we cannot complete the deletion"). Replied to confirm. Re-check after 2026-11-28 if no further mail arrives.
+- Current: `submitted` (updated 2026-09-30)
+- Note: 2026-08-30 Sent the standard data-broker letter to support@delivr.ai (no dedicated privacy address published; used the general support address). 2026-09-26 Acknowledgment arrived from privacy@mail.delivr.ai — a *different* subdomain than the one written to, confirming the request reached a real privacy desk despite the generic support@ address. They confirmed they have stopped selling/sharing/using the data and will delete it and notify service providers, but invoked a statutory extension: completion confirmation promised by 2026-11-28 (a ~90-day total window from the original request, consistent with a CCPA 45+45 day extension). Not `confirmed` yet — this is a hold notice, not a completion. 2026-09-29: a *separate* message, "Please confirm your request to delete your personal information," asked for a blank reply as a double opt-in ("you do not need to write anything... if we do not hear from you, your information stays suppressed but we cannot complete the deletion"). Replied to confirm — but that reply, sent to `privacy@mail.delivr.ai`, hard-bounced (550, address not found), despite that being the visible From: address that sent the confirmation request. 2026-09-30: resent the confirmation to `support@delivr.ai` (the original, working address) instead. Re-check after 2026-11-28 if no further mail arrives.
+
+## Their own "From:" address can be send-only
+
+`privacy@mail.delivr.ai` sent the double opt-in request and then bounced the
+reply back to it. Whatever generated that message was capable of sending
+mail but not (or no longer) capable of receiving it — a distinct failure mode
+from the OneTrust notification pattern (see adswizz.md), but the same
+practical lesson: when a confirmation step asks for a reply, send it to the
+broker's own long-standing verified address rather than trusting that the
+most recent inbound message's From: address is reachable.
 
 ## Steps
 

@@ -192,7 +192,7 @@
   "adswizz": {
     "status": "submitted",
     "changed": "2026-08-24",
-    "via": "reply"
+    "via": "email"
   },
   "adttribution": {
     "status": "submitted",
@@ -1052,7 +1052,7 @@
   "choreograph": {
     "status": "confirmed",
     "changed": "2026-09-23",
-    "via": "web"
+    "via": "reply"
   },
   "chris_holbert": {
     "status": "submitted",
@@ -1702,7 +1702,7 @@
   "delivr_ai": {
     "status": "submitted",
     "changed": "2026-09-26",
-    "via": "reply"
+    "via": "email"
   },
   "deloitte_consulting": {
     "status": "submitted",
@@ -2417,7 +2417,7 @@
   "freephonetracer": {
     "status": "submitted",
     "changed": "2026-08-18",
-    "via": "email"
+    "via": "reply"
   },
   "freesalesleads": {
     "status": "submitted",
@@ -3220,9 +3220,9 @@
     "via": "email"
   },
   "klickly": {
-    "status": "submitted",
-    "changed": "2026-09-29",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-09-30",
+    "via": "reply"
   },
   "koddi": {
     "status": "manual_required",
@@ -4020,9 +4020,9 @@
     "via": "email"
   },
   "nestfully": {
-    "status": "submitted",
-    "changed": "2026-09-18",
-    "via": "email"
+    "status": "not_found",
+    "changed": "2026-09-30",
+    "via": "reply"
   },
   "netwise": {
     "status": "submitted",
@@ -5295,9 +5295,9 @@
     "via": "email"
   },
   "rhetorik": {
-    "status": "submitted",
-    "changed": "2026-08-19",
-    "via": "email"
+    "status": "confirmed",
+    "changed": "2026-09-30",
+    "via": "reply"
   },
   "rhode_island_arrests": {
     "status": "submitted",
@@ -5370,9 +5370,9 @@
     "via": "email"
   },
   "safegraph": {
-    "status": "submitted",
-    "changed": "2026-08-28",
-    "via": "email"
+    "status": "not_found",
+    "changed": "2026-09-30",
+    "via": "reply"
   },
   "safeopt": {
     "status": "submitted",
@@ -5770,9 +5770,9 @@
     "via": null
   },
   "sovrn": {
-    "status": "acknowledged",
-    "changed": "2026-09-02",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-09-30",
+    "via": "reply"
   },
   "specialists_marketing_services": {
     "status": "not_found",
@@ -6882,7 +6882,7 @@
   "ziff_davis": {
     "status": "confirmed",
     "changed": "2026-09-18",
-    "via": "email"
+    "via": "reply"
   },
   "ziprecruiter": {
     "status": "submitted",

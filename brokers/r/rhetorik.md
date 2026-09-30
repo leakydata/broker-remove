@@ -7,8 +7,13 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-19)
+- Current: `confirmed` (updated 2026-09-29)
 - Note: B2B technology contact data, UK-operated - so the letter runs the GDPR argument alongside the US one and explains why: UK/EU GDPR attach to WHERE THE PROCESSING HAPPENS and to the establishment doing it, not only to the data subject's residence, so a US resident's data processed in the UK is covered. Asked for Article 15 access with sources and recipients, Article 17 erasure, Article 21 objection to direct marketing (unconditional), and Article 14 confirmation - since they did not obtain the data from the subject they were REQUIRED to notify him, so asked whether that notice was ever given. Plus the lawful basis with the legitimate-interests balancing assessment or the consent record. Offered them the clean exit of saying no processing touches the UK or EEA. Also noted that the business-contact carve-out they may reach for under US law has no equivalent under GDPR, where a work email identifying a natural person is personal data without qualification.
+- Note: 2026-09-29, Kayleigh McDermott (Compliance & Privacy Associate, "Rhetorik Privacy Team (A Lightcast Company)") answered BOTH rights in one reply: attached a spreadsheet of the personal data held, naming its source, and stated plainly "your details have now been removed from our database; and will no longer be used." This is the model reply this project asks every broker for and almost none give — access (what they held, where from) answered before erasure destroyed the evidence, exactly per the letter's own requested ordering. Worth quoting back to other B2B/compiler-category brokers as the standard to hold them to.
+
+## Gotchas
+
+- **A GDPR Article 15/17 combined request, sent to a UK-registered processor of US-resident data, got the single best reply on file.** The lever that worked: asking for access (with source and recipients) *before* erasure, so the confirmation could not be "we have nothing to show you because we already deleted it." Reuse this ordering whenever a broker processes data outside the US or has any EU/UK nexus.
 
 ## Steps
 

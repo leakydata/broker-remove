@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-18)
-- Note: 2026-09-18 sent the standard consumer deletion/opt-out/suppression letter to the registry contact address (part of the 2026-09-18 batch send). No reply yet.
+- Current: `not_found` (updated 2026-09-30)
+- Note: 2026-09-18 sent the standard consumer deletion/opt-out/suppression letter to the registry contact address (part of the 2026-09-18 batch send).
+- Note: info@nestfully.com (Patrice) 2026-09-29: "We have searched our database using the information you provided, but we are unable to locate any account or profile associated with your records." Asked for a profile URL/screenshot if an active agent profile exists. Nestfully is a real-estate-agent directory — this site only has something to find if the subject is a licensed agent with a profile there, so a person with no such profile should expect exactly this reply. Replied 2026-09-30 confirming no profile exists and asking them to close the request and record a forward-looking suppression against one being created under these identifiers without consent.
 
 ## Steps
 

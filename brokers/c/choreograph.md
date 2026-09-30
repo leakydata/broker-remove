@@ -8,8 +8,9 @@
 
 ## Status
 
-- Current: `confirmed` (updated 2026-09-22)
+- Current: `confirmed` (updated 2026-09-29)
 - Note: 2026-09-22, privacy@choreograph.com: "Your privacy request has been completed successfully... Request Type: OPT_OUT... Request Completion Date: 2026-09-22." A bare completion notice via their consumer preference portal — no breakdown of which identifiers matched or what categories were held, but an affirmative, dated, broker-issued completion of the opt-out. Recorded as `confirmed` on the strength of that statement; if a listing resurfaces, reopen citing the Request ID (54e84141-f9f5-4943-bd45-9ad29c0611fb).
+- Note: 2026-09-29 — five more "Your privacy request has been completed" notices arrived in one day, on five new Request IDs (eff4c028, 9628797f, 60ada183, 62111dfe — all `OPT_OUT` — and cd214cb7 — `DELETE`), each with its own completion timestamp an hour or so apart. No new letter was sent from this mailbox in that window (checked Sent folder — nothing to choreograph.com in the prior 5 days), so these read as the portal re-issuing or re-batching completion notices tied to the original 9/22 submission rather than five independent requests. Not treated as new evidence either way; recorded so the Request IDs are on file if any of them is referenced in a future reply.
 - Prior (2026-09-11): SIX CONSECUTIVE HOURLY SLOTS NOW MISSED: nothing at 16:01, 17:01, 18:01, 19:01, 20:01 or 21:01 UTC on 2026-09-11. The run stands at eight, last notice 15:01:21. Still recorded as a run rather than a stop, for the reason given on 2026-09-03 and again today: this cycle already contains a NINE-DAY gap (2026-09-03 21:01 to 2026-09-11 14:01), so six quiet hours is well inside its observed behaviour, and the one time I called it stopped I was wrong within hours (SF 441). Six misses is stronger evidence than three and still not proof. [Resolved 2026-09-22 — see above.]
 
 ## Steps

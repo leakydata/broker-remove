@@ -7,8 +7,22 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-29)
-- Note: 2026-08-24: first contact via the address nominated in the California data broker registration. Tailored per _CATEGORY_VARIANTS.md. 2026-09-28: their OneTrust portal (branded "Sirius XM Holdings, Inc." — AdsWizz's parent) replied "Request cannot be processed because data subject rights apply only to certain residents," with no further detail. Replied asking (a) whether Pennsylvania appears as an option in their own request form's state-of-residence dropdown, and (b) that they honor the request under their published privacy policy if not statutorily compelled, per the standard fallback clause. No answer yet.
+- Current: `submitted` (updated 2026-09-30)
+- Note: 2026-08-24: first contact via the address nominated in the California data broker registration. Tailored per _CATEGORY_VARIANTS.md. 2026-09-28: their OneTrust portal (branded "Sirius XM Holdings, Inc." — AdsWizz's parent) replied "Request cannot be processed because data subject rights apply only to certain residents," with no further detail. Replied asking (a) whether Pennsylvania appears as an option in their own request form's state-of-residence dropdown, and (b) that they honor the request under their published privacy policy if not statutorily compelled, per the standard fallback clause.
+- Note: 2026-09-29 — that reply was sent to `noreply@m.onetrust.com` (the From: address on the OneTrust notification) and hard-bounced: `550 Mailbox not found`. **That address is outbound-only.** 2026-09-30: resent the identical content directly to `privacy@adswizz.com` (the verified registry contact), quoting Request ID FMT7W3NNNR for continuity. No answer yet.
+
+## OneTrust notifications are not reply addresses
+
+A OneTrust-branded deflection or completion email — `noreply@m.onetrust.com` or a
+company-branded subdomain of it — is a one-way notification system. Hitting
+"Reply" sends to a mailbox that does not exist and bounces 550, and the bounce
+looks identical to any other and is easy to misread as the broker's mailbox
+being dead, when it is only the *notification* channel that never accepted
+mail in the first place. Always reply to the broker's own verified `email_to`
+address instead, quoting the Request ID from the portal notification so the
+company can still match it to the open case. See also ziff_davis.md, which
+hits the companion problem: OneTrust "a comment was added" notices are
+portal-gated and unreadable from the email itself.
 
 ## Steps
 
