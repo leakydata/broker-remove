@@ -1,14 +1,15 @@
 # Arrakis Technologies Corp.
 
-- **Email:** sam@arrakis.ai (verified)
+- **Email:** privacy@arrakis.ai (corrected 2026-10-01; sam@arrakis.ai bounced when the domain was dead)
 - **Method:** email — Statutory request by email. No web form needed.
 - **Domain:** arrakis.ai
 - **Priority: 2.**
 
 ## Status
 
-- Current: `unreachable` (updated 2026-08-25)
+- Current: `submitted` (updated 2026-10-01)
 - Note: 2026-08-25: bounced - 'the domain arrakis.ai couldn't be found'. NXDOMAIN: no MX, no A, no SOA. The domain is gone entirely, so the company is presumed defunct. Our checker correctly returns False for it; the row was queued anyway, which means the queue is not consulting the deliverability verdict before sending. Worth wiring up.
+- **2026-10-01: domain is back.** arrakis.ai now resolves (HTTP 503 on direct fetch, consistent with bot-protection rather than a dead site, not NXDOMAIN). Re-sent to `privacy@arrakis.ai` — the CA-registry-filed contact — rather than the originally-bounced `sam@arrakis.ai`. No bounce or reply yet; this is the live edge case the "re-check periodically" note below anticipated. If this bounces too, mark `unreachable` again and stop retrying until the next periodic check.
 
 ## Steps
 

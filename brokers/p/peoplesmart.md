@@ -9,6 +9,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-19)
+- 2026-09-30: BeenVerified (same Lifetime Value Co family, via the freephonetracer.com exchange) stated an opt-out on one family brand is applied to all of them, PeopleSmart included. Noted as supporting context, not independent confirmation — no PeopleSmart-specific match/no-match answer exists. See `beenverified.md` and `freephonetracer.md`.
 - Note: People search, contact CONFIRMED against their published page. Led with the shared-index scope question rather than the deletion, stating the asymmetry plainly: where several brands query one store, a removal applied to one brand and a confirmation scoped to that brand are indistinguishable from a complete removal until someone finds you on a sibling - and only the operator can see which is which.
 
 ## Steps

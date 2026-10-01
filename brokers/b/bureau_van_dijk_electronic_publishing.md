@@ -11,8 +11,9 @@
 
 ## Status
 
-- Current: `failed` (updated 2026-08-25)
+- Current: `submitted` (updated 2026-10-01)
 - Note: 2026-08-25: privacy@bvdinfo.com bounced 550 5.1.1 'address not found' - the registered contact in the CA filing is dead. Domain resolves fine and has valid MX, so no domain-level deliverability check could have caught this; only sending did. REQUEST IS NOT ABANDONED: bvdinfo.com sits in Proofpoint tenant 00520701 alongside moodys.com and reis.com, so BvD was folded into the family letter to privacy@moodys.com, which explicitly names Bureau van Dijk and asks them to correct the stale filing. Track the outcome under moody_s.
+- 2026-10-01: this row's ledger status had drifted to stale `failed` (left over from the bounce, before the moodys.com resend was reflected) while this playbook already documented the corrected address and the send. Corrected to `submitted` to match — no new action taken, just a bookkeeping fix. Still awaiting a reply from privacy@moodys.com.
 
 ## Steps
 

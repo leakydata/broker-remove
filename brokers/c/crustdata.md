@@ -8,9 +8,10 @@
 
 ## Status
 
-- Current: `replied` (updated 2026-09-25)
+- Current: `confirmed` (updated 2026-09-28)
 - Note: Statutory opt-out/deletion email sent 2026-08-23, category-tailored (B2B contact database — asked them to search name variants and phone, not just email, since those are unlikely keys for this kind of database).
 - 2026-09-24 reply, one month later: "Your opt-out request has been processed. Conforming completion." Signed by a named individual, not an autoresponder. **Too thin to count as `confirmed`** — it doesn't say whether a record was found and removed versus nothing existed, doesn't address whether any customer received a copy of a record about me, and doesn't confirm a forward-looking suppression entry. Replied 2026-09-25 asking those three things directly. Don't upgrade this row to `confirmed` on the strength of "processed... completion" alone — that phrase is compatible with either outcome.
+- **2026-09-28, pushed to a real answer: `confirmed`.** "Yes, we found and deleted the record matching your identifiers. Access information pertaining to specific records can not be identified but going forward your profile will not be served to anyone as we have removed it from our store and added it to our suppression list to ensure it is not ingested in the future." That answers the binary cleanly (a record existed and was deleted) and confirms forward-looking suppression; they couldn't say whether it had been shared with a customer before deletion ("access information... can not be identified"). The two follow-up questions after a vague "processed" reply is what converted this from `replied` to `confirmed` — don't settle for the first vague acknowledgment at a B2B data company.
 
 ## Steps
 

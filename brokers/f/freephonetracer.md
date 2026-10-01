@@ -8,9 +8,10 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-30)
+- Current: `confirmed` (updated 2026-09-30)
 - Note: Standalone letter to privacy@beenverified.com, which freephonetracer.com publishes as its contact - deliberately NOT folded into the open BeenVerified ticket, which is stuck on 'unable to locate a full record' and would only be muddied. Reverse-lookup index is phone-keyed, so the letter foregrounds the eight FORMER numbers and asks which returned a record.
-- Note: 2026-09-30 — BeenVerified support (Zendesk, agent "Aige") replied "I am unable to locate a search result for your name," asking for a profile link or "full name, age, cities and states" — a name-keyed answer to a request that was explicitly phone-keyed. Replied restating the specific numbers (current + 8 former) and re-asking the structural question the first letter raised and never got answered: is freephonetracer.com a BeenVerified-operated property covered by the main BeenVerified opt-out, or does it need to be pursued as its own case? No answer yet.
+- Note: 2026-09-30 — BeenVerified support (Zendesk, agent "Aige") replied "I am unable to locate a search result for your name," asking for a profile link or "full name, age, cities and states" — a name-keyed answer to a request that was explicitly phone-keyed. Replied restating the specific numbers (current + 8 former) and re-asking the structural question the first letter raised and never got answered: is freephonetracer.com a BeenVerified-operated property covered by the main BeenVerified opt-out, or does it need to be pursued as its own case?
+- **2026-09-30, final: `confirmed`.** "We have removed the requested phone numbers from our search results. This change should be reflected within 24 hours." Also answered the structural question: "FreePhoneTracer is now powered by NumberGuru. NumberGuru reports are based on available data and may not have the complete historical phone records for every phone number. NumberGuru is owned by Lifetime Value Co. which also owns other search sites like BeenVerified, PeopleLooker, PeopleSmart, NeighborWho, Ownerly, and ReversePhone. However, please be assured that an opt-out for one of these is applied to all of them." A concrete, phone-number-specific action (not a template), from the same rep who had initially given the wrong-index "unable to locate by name" answer — restating the specific numbers is what got the right search run.
 
 ## Gotchas
 
@@ -26,16 +27,6 @@
 4. **Or email `privacy@beenverified.com`** with a written request. Ask for four things explicitly — deletion, opt-out of sale and sharing, a direction to any third parties they sold to, and a **forward-looking suppression** so the record is not simply re-added at the next data import.
 5. **List every address, email and phone number you have ever had**, not just current ones. Records are filed under whatever was current when they were created — a search on today's details misses them.
 6. **Ask them to state which identifiers matched.** "We deleted your record" and "we searched and found nothing" are different outcomes, and a reply that does not distinguish them tells you nothing about whether you were ever in the file.
-
-## Gotchas
-
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
 
 ## Verification
 

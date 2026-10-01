@@ -9,6 +9,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-26)
+- 2026-09-30: BeenVerified (same Lifetime Value Co family, via the freephonetracer.com exchange) stated an opt-out on one family brand is applied to all of them, Ownerly included. Noted as supporting context, not independent confirmation — the property-keyed gap documented below is Ownerly-specific and a generic family statement doesn't close it. See `beenverified.md` and `freephonetracer.md`.
 - Reference: `gmail:1a0064bacdeb8691`
 - Note: 2026-08-26: supplementary letter auto-acknowledged via Zendesk. Awaiting substantive reply.
 

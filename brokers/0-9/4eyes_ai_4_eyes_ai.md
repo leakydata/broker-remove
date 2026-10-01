@@ -1,14 +1,15 @@
 # 4Eyes.ai, 4-Eyes.ai
 
-- **Email:** privacy@4-eyes.ai (bounced — see below)
+- **Email:** info@delivr.ai (corrected 2026-10-01 — see below; privacy@4-eyes.ai is dead)
 - **Method:** email — Statutory request by email. No web form needed.
 - **Domain:** 4-eyes.ai
 - **Priority: 2.**
 
 ## Status
 
-- Current: `unreachable` (updated 2026-08-26)
+- Current: `submitted` (updated 2026-10-01)
 - Note: 2026-08-26 DOWNGRADE, submitted -> unreachable. The letter of 2026-08-22 never landed: Gmail retried for 48 hours and gave up with 'the recipient server did not accept our requests to connect'. 4-eyes.ai publishes NO MX record; mail falls back to the A record under RFC 5321, and that host refuses SMTP outright. Our domain checker calls this 'weak' rather than False, which is the right default - A-record fallback genuinely works for some small domains, and condemning a broker on it is the expensive direction of the mistake - but the send path was not surfacing it, so the failure looked like silence for four days while the status read submitted. queue_batch now names weak-MX domains at send time so the bounce is anticipated rather than discovered later. Address added to data/dead_addresses.json.
+- **2026-10-01: the domain itself now 301-redirects to delivr.ai.** This looks like 4Eyes.ai was absorbed into, or rebranded as, Delivr.ai (a company already in the registry separately — see `delivr_ai.md`). Sent the standard letter to `info@delivr.ai`, email-only keys (device/CTV-identifier business, so postal/DOB/phone would only be new disclosure — see `make_optout_email.py --keys email-only`), explicitly asking them to say if 4Eyes.ai and Delivr.ai are not in fact the same company. If their reply says they're unrelated, revert to treating 4Eyes.ai as unreachable rather than assuming the merger.
 
 ## Steps
 

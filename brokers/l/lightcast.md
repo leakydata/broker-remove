@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-29)
+- Current: `confirmed` (updated 2026-09-29)
 - Note: 2026-08-29 COVERED BY CANONICAL (SILENT_FAILURES 177). duplicate_of=economic_modeling_rhetorik, and both rows carry the identical address privacy@lightcast.io -- so a letter was sent to this exact address for the canonical row 'economic_modeling_rhetorik' (submitted). Not a separate send: the mailbox has the request, and whether the company files it under one brand name or the other is internal to them. Status set here so the queue stops offering a second letter to an address that already has one. NOT marked confirmed -- no confirmation was received for this row.
+- **2026-09-29: a full Subject Access Request fulfillment arrived, `confirmed`.** A named Compliance & Privacy Associate at Lightcast.io (matching the registry legal entity and Moscow, ID address) wrote: "As requested, please find attached a copy of the personal information held in our database which includes the source of this data. We can hereby confirm, that as requested, your details have now been removed from our database; and will no longer be used," signed on behalf of "Rhetorik Privacy Team (A Lightcast Company), privacy@rhetorik.com" and attached an .xlsx export of the held data and its source. This is the strongest kind of artifact available (a data export + deletion confirmation, not just a one-line "done") — a genuine `confirmed`, independent of the earlier phone/email dedup note above, which can now be treated as superseded for this row.
 
 ## Steps
 

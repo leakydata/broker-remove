@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `manual_required` (updated 2026-09-23)
-- Note: 2026-09-23, `privacy@exponential.com` (Exponential Interactive, Inc. dba VDX.tv) replied with a two-track offer: an immediate, no-verification browser cookie opt-out (link to vdx.tv/policies/privacy), or "permanent deletion" gated on supplying the ANON_ID cookie value from tribalfusion.com dev tools, a Mobile Advertising ID (IDFA/AAID), and current IP address. Declined all three per standing policy against sending device/session identifiers, and re-asked whether they resolve on hashed email — the original letter already requested a hashed-email search and this reply didn't say whether that's possible. Awaiting answer. The cookie opt-out link was not actioned (browser-based, not reachable from an email-only workflow).
+- Current: `manual_required` (updated 2026-09-30)
+- Note: 2026-09-23, `privacy@exponential.com` (Exponential Interactive, Inc. dba VDX.tv) replied with a two-track offer: an immediate, no-verification browser cookie opt-out (link to vdx.tv/policies/privacy), or "permanent deletion" gated on supplying the ANON_ID cookie value from tribalfusion.com dev tools, a Mobile Advertising ID (IDFA/AAID), and current IP address. Declined all three per standing policy against sending device/session identifiers, and re-asked whether they resolve on hashed email — the original letter already requested a hashed-email search and this reply didn't say whether that's possible. The cookie opt-out link was not actioned (browser-based, not reachable from an email-only workflow).
+- 2026-09-30: a holding reply only — "I have forwarded your email to our technical team... they are currently engaged in an international summit" — no substantive answer yet on the hashed-email question. Still open; re-chase after ~2 weeks if nothing further arrives.
 - Prior: Recovered from the committed playbook brokers/v/vdx_tv.md, because the ledger carries no notes and this row's status had no evidence behind it: Emailed privacy@vdx.tv. Video advertising exchange/DSP; standard ad-tech letter (MAID, hashed email, audience segments, downstream DSP/SSP deletion).
 
 ## Steps

@@ -20,13 +20,15 @@
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+- **No CAPTCHA, no form, no account** — a plain statutory email worked in one
+  round trip. Sent to both `info@meettie.com` and `info@revenueroll.com`
+  (the filed legal-entity name) since it wasn't clear which inbox was
+  monitored; the brand address answered.
+- **Completion reply doesn't distinguish "not found" from "deleted"** —
+  "either not found in our database, or has been permanently removed." Fine
+  for a `confirmed` close given this is a B2B networking-events app rather
+  than a people-search site with much to find, but don't treat the wording
+  as confirming an actual record existed.
 
 ## Verification
 

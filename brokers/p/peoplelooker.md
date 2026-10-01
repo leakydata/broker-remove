@@ -9,6 +9,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-19)
+- 2026-09-30: BeenVerified (same Lifetime Value Co family, via the freephonetracer.com exchange) stated an opt-out on one family brand is applied to all of them, PeopleLooker included. Noted as supporting context, not independent confirmation — this exchange never got past a CSAT survey (see below). See `beenverified.md` and `freephonetracer.md`.
 - Note: Closed with a customer-satisfaction survey, exactly as NumberGuru did - 'How would you rate our customer service?' - without answering the shared-index scope question. Second instance of the same ending, so it is a pattern rather than a coincidence: the template queue does not refuse, it processes, and processing terminates in a CSAT request. Recorded, not escalated.
 
 ## Steps

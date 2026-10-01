@@ -9,6 +9,7 @@
 ## Status
 
 - Current: `submitted` (updated 2026-08-19)
+- 2026-09-30: BeenVerified (same Lifetime Value Co family, via the freephonetracer.com exchange) stated an opt-out on one family brand is applied to all of them, ReversePhone included. Noted as supporting context, not independent confirmation — the name-vs-number index gap documented below is ReversePhone-specific and a generic family statement doesn't close it. See `beenverified.md` and `freephonetracer.md`.
 - Note: Name-index search returned 'No exact match for [PERSONAL]' across all states -- no PA record, none born Jan [YEAR]. Did NOT click Proceed to Opt Out on any of the ~100 same-name strangers. NOT marked not_found, because the opt-out tool searches by NAME while the product is a REVERSE PHONE lookup: the number-keyed index is not reachable from that form, so a clean name search does not prove absence. Replied pressing (a) whether name opt-out also clears number records, (b) direct search of 12 numbers, (c) both-direction removal, (d) suppression-vs-one-time, (e) stored-vs-pass-through. Better contact found published twice on the opt-out page itself: privacy@reversephone.com (support@ answered with a form link).
 
 ## Steps

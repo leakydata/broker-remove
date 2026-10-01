@@ -145,7 +145,7 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "privacy@4-eyes.ai",
+      "email_to": "info@delivr.ai",
       "email_verified": false,
       "email_verified_by": "bounced",
       "notes": "privacy@4-eyes.ai bounced permanently 2026-08-25 after 3 days of connection-timeout retries (the mail server never accepted a connection at all, not a mailbox-not-found bounce) - the domain's mail infrastructure appears down. No alternate contact found yet.",
@@ -157,7 +157,9 @@
       "email_verified_was": "ca_data_broker_registry",
       "category": "adtech",
       "category_source": "site_classifier 2026-08-31",
-      "listing_basis": "state_register"
+      "listing_basis": "state_register",
+      "email_alt": "privacy@4-eyes.ai (BOUNCED - domain mail server down)",
+      "email_note": "privacy@4-eyes.ai bounced permanently 2026-08-25 after 3 days of connection-timeout retries (the mail server never accepted a connection at all, not a mailbox-not-found bounce) - the domain's mail infrastructure appears down. No alternate contact found yet. || 2026-10-01: 4-eyes.ai now 301-redirects to delivr.ai; sent to info@delivr.ai on the theory 4Eyes.ai has been absorbed into/rebranded as Delivr.ai. Not yet confirmed -- watch reply to see if they say this is the wrong company."
     },
     {
       "id": "5x5",
@@ -1926,7 +1928,7 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "sam@arrakis.ai",
+      "email_to": "privacy@arrakis.ai",
       "email_verified": false,
       "email_verified_by": "bounced",
       "registry_years": [
@@ -1936,7 +1938,8 @@
       "legal_name": null,
       "email_verified_was": "ca_data_broker_registry",
       "listing_basis": "state_register",
-      "email_note": " || 2026-09-03 DEAD DOMAIN: arrakis.ai resolves to no working mail server and no reachable website (agent-proxy CONNECT failures / no MX or A record via DNS-over-HTTPS lookup). No alternate route found. Marked unreachable."
+      "email_note": " || 2026-09-03 DEAD DOMAIN: arrakis.ai resolves to no working mail server and no reachable website (agent-proxy CONNECT failures / no MX or A record via DNS-over-HTTPS lookup). No alternate route found. Marked unreachable. || 2026-10-01: domain arrakis.ai now resolves again (was dead 2026-09-03). Registry-filed contact privacy@arrakis.ai found via offlist.me aggregation of CA OAG reg; resent there. Not yet confirmed delivered -- watch for bounce before marking email_verified.",
+      "email_alt": "sam@arrakis.ai (BOUNCED - domain was unreachable)"
     },
     {
       "id": "arrestwarrant_org",
@@ -26988,7 +26991,27 @@
       "category": "adtech",
       "category_source": "broker_reply 2026-09-25",
       "listing_basis": "broker_reply"
+    },
+    {
+      "id": "kochava",
+      "name": "Kochava Inc. (dba Collective Data Solutions)",
+      "domain": "kochava.com",
+      "priority": 4,
+      "method": "email",
+      "optout_url": "https://www.kochava.com/privacy/opt-out/",
+      "needs_email_confirm": null,
+      "source": "manual",
+      "optery_slug": null,
+      "email_to": "privacyrequests@kochava.com",
+      "email_verified": true,
+      "email_verified_by": "broker_reply",
+      "registry_years": [],
+      "legal_name": "Kochava Inc.",
+      "category": "adtech",
+      "category_source": "manual 2026-10-01",
+      "listing_basis": "mobile_ad_id_matching",
+      "notes": "Mobile measurement/attribution + data marketplace (Collective Data Solutions). Automated acknowledgment flags matched data for deletion and future-ingest suppression; does not confirm an actual match was found."
     }
   ],
-  "count": 1407
+  "count": 1408
 }

@@ -7,9 +7,10 @@
 
 ## Status
 
-- Current: `replied` (updated 2026-09-08)
+- Current: `failed` (updated 2026-09-30)
 - Reference: `gmail:1a07f307229ac4bf`
 - Note: MIS-ENTERED FORM SUBMISSION WITHDRAWN, 2026-09-08. An OneTrust request C5HYX3MZ63 was submitted to GIMBAL (PAEDAE, INC) -- the same legal entity as Infillion -- at 03:30 UTC. THE CONFIRMATION EMAIL SHOWS WHAT WENT IN: 'Type of Mobile Advertising ID (IDFA/GAID): GAID (Google Android)' and 'Mobile Advertising ID (IDFA/GAID): [PHONE]'. THAT IS THE SUBJECT'S TELEPHONE NUMBER, entered to satisfy a mandatory field that cannot otherwise be filled. Confirming it would ask Gimbal to treat a phone number as a device advertising identifier: it matches no device, and it deposits a phone number in a field their systems read as a device ID. THE CONFIRMATION LINK HAS NOT BEEN CLICKED AND WILL NOT BE -- an unconfirmed OneTrust request expires, which is the clean fix. Queued as a decision item so nobody clicks it later. WROTE TO privacy@infillion.com asking two things: delete C5HYX3MZ63 in full including the submitted field values rather than processing it, keeping only the minimum if retention requires a record and ensuring the advertising-ID value is not retained or matched; and do not treat that value as a device identifier in any system. THE POINT PUT TO THEM, and it is yesterday's letter demonstrated rather than argued: a mandatory field that cannot be satisfied DOES NOT STOP REQUESTS BEING SUBMITTED, IT CORRUPTS THEM. A consumer who does not know their advertising id -- nearly all of them -- and who will not disclose it has two options at that field: abandon the request or type something. Some proportion of what arrives in that field is not an advertising id at all and Gimbal has no way to tell which. Making it optional for Do Not Sell requests would fix that and would also resolve the 11 CCR 7026(f) point, which remains open. ALSO FLAGGED, not ours to fix: their OneTrust confirmation email MASKS name, email, state and country as XXXX and DOES NOT MASK THE ADVERTISING-ID FIELD, which appears in cleartext. For its intended contents that is a device identifier sent in the clear; for what people actually put there it may be something else. Looks like an oversight in the masking rules. The 2026-09-07 request stands unchanged: an opt-out against name and email without an advertising identifier, or a plain statement that the index cannot be searched without one.
+- **2026-09-30 reply, closing the loop: `failed`, not a refusal to engage.** Infillion confirmed the withdrawal cleanly: "We acknowledge your request to withdraw privacy request C5HYX3MZ63. We have deleted all data related to the request... That value will not be used as a mobile advertising identifier for the purpose of searching, matching, or processing a privacy rights request." They also answered the underlying structural question directly instead of dodging it: "Infillion's systems generally rely on mobile advertising identifiers and similar advertising identifiers to locate records associated with devices. Without an advertising identifier, we may be unable to determine whether responsive records exist or to process certain requests." That's a plain, honest statement of a hard limitation (see `_DEFLECTIONS.md` — pre-accepting "we can't search without X" gets an honest answer instead of silence), not evasion. The feedback about the mandatory-field design and the cleartext masking was acknowledged ("will ensure it is shared with the appropriate team") but nothing to verify there. Recorded `failed` rather than `manual_required` because there is no further email-only path: the only way to proceed would be supplying a mobile ad ID, which this project declines to generate or disclose for verification purposes.
 
 ## Steps
 
@@ -21,13 +22,22 @@
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+- **The OneTrust portal's "Mobile Advertising ID (IDFA/GAID)" field is
+  mandatory on every request type, including Do Not Sell — with no way to
+  skip it.** A consumer who doesn't know or won't disclose their ad ID has to
+  either abandon the request or type something into the field that isn't an
+  ad ID (a phone number, in the case that triggered this writeup). Treat any
+  Infillion/Gimbal/PaeDae portal submission as suspect if the submitter
+  didn't actually have an ad ID to give.
+- **The OneTrust confirmation email masks name/email/state/country as XXXX
+  but shows the ad-ID field in cleartext.** Flagged to them as a likely
+  oversight in the masking rules, not confirmed fixed.
+- **Structural dead end without a device ad ID**: "Infillion's systems
+  generally rely on mobile advertising identifiers... without an advertising
+  identifier, we may be unable to determine whether responsive records exist
+  or to process certain requests." A plain, honest limitation — not evasion —
+  but it means there's no further email-only path for a name/email-only
+  request.
 
 ## Verification
 

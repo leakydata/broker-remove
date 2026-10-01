@@ -5,6 +5,11 @@
 - **Method:** web form (search → select record → email confirm); email also accepted
 - **Priority: 5.**
 
+## Status
+
+- Current: `confirmed` (updated 2026-09-30)
+- Note: 2026-09-30, via a sibling property (freephonetracer.com, see below): phone numbers confirmed removed from search results, and BeenVerified (Lifetime Value Co) restated that an opt-out on one family brand applies to all of them (BeenVerified, PeopleLooker, PeopleSmart, NeighborWho, Ownerly, ReversePhone). See `freephonetracer.md` for the full exchange.
+
 ## Family properties — check each
 
 BeenVerified operates several sibling brands that carry the same underlying data:
@@ -24,6 +29,20 @@ of our brands. This applies to BeenVerified, MoneyBot5000, NeighborWho,
 NumberGuru, Ownerly, PeopleLooker, PeopleSmart, and ReversePhone." Worth citing
 back if a sibling brand later claims no record of a request filed elsewhere in
 the family. File separately for the siblings only if that claim is contradicted.
+
+**2026-09-30, independently confirmed via a third-party property.**
+`freephonetracer.com` publishes BeenVerified's support address as its own
+privacy contact and is "now powered by NumberGuru" (same Lifetime Value Co
+family). A reverse-phone-number request (searched on 8 former numbers, not
+name — the right key for a reverse-lookup site) got a concrete result:
+"We have removed the requested phone numbers from our search results. This
+change should be reflected within 24 hours," followed by the same
+whole-family statement again, naming BeenVerified, PeopleLooker, PeopleSmart,
+NeighborWho, Ownerly, and ReversePhone specifically (MoneyBot5000 and
+NumberGuru not repeated this time, but covered by the 2026-09-22 list above).
+This is a second, independent instance of the family-wide claim — reasonable
+to rely on without re-filing to each sibling, but if any sibling later denies
+having a record, cite both dates back to them.
 
 ## Gotchas
 - Web opt-out requires an emailed confirmation link — unconfirmed requests are

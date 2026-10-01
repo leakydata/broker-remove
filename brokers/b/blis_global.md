@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-25)
+- Current: `not_found` (updated 2026-09-24)
 - Note: 2026-08-25: UK-headquartered location audience business; letter states US-resident scope up front so it is not answered under GDPR. Geographic query in place of a MAID with confirm-before-delete, visitation history as the core ask, and the question of whether suppression can be keyed to anything but a resettable advertising ID.
+- **2026-09-24 reply: genuine structural nil.** "After thorough checks of our systems, including our HR, CRM, and Accounts systems, as well as our Marketing database, we have not found any information relating to the personal data you provided. At Blis, we do not process emails, addresses, date of birth, or phone numbers. We share IP addresses and mobile identifiers with our partners to enable programmatic advertising." They explicitly didn't run the overnight-dwell-pattern geographic query from the original letter (no mention of it), but the broader point stands on its own: Blis's stated architecture holds **no directly-identifying PII at all** to search in the first place — only device/IP identifiers. Offered to add a device ID to their suppression list if we can find one ("browse using your favourite search engine and the search term 'find my device ID'"), which is not something a consumer can reliably produce. Recorded `not_found` rather than pushing further — there's no identifier left to search on, and if they do not hear back by 2026-10-24 they'll close the ticket as resolved by default.
 
 ## Steps
 
@@ -20,13 +21,21 @@
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+- **Checks HR/CRM/Accounts/Marketing systems, not just the ad-tech store.**
+  Their nil reply listed all four internal systems searched, which is more
+  thorough than most ad-tech companies bother to state — a useful template to
+  ask for explicitly elsewhere.
+- **They hold no directly-identifying PII at all by design** — no email,
+  address, DOB or phone. Only IP and mobile ad IDs. So a geographic
+  dwell-pattern query (the ask in the original letter) is the only thing that
+  could theoretically surface a match, and they didn't say whether they ran
+  it — don't assume they did just because the overall answer was a nil.
+- **Suppression can only be keyed to a device ad ID.** They explicitly suggest
+  searching "find my device ID" to locate one — not something to do for
+  verification purposes. No durable, identifier-free suppression is possible
+  here.
+- Closes automatically if unanswered by their stated date (30 days from their
+  reply) — no action needed to keep the nil on record.
 
 ## Verification
 
