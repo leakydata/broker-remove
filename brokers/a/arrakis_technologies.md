@@ -7,9 +7,11 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-10-01)
+- Current: `not_found` (updated 2026-10-01)
+- Reference: `gmail:1a0f6f940dfbb611`
 - Note: 2026-08-25: bounced - 'the domain arrakis.ai couldn't be found'. NXDOMAIN: no MX, no A, no SOA. The domain is gone entirely, so the company is presumed defunct. Our checker correctly returns False for it; the row was queued anyway, which means the queue is not consulting the deliverability verdict before sending. Worth wiring up.
-- **2026-10-01: domain is back.** arrakis.ai now resolves (HTTP 503 on direct fetch, consistent with bot-protection rather than a dead site, not NXDOMAIN). Re-sent to `privacy@arrakis.ai` — the CA-registry-filed contact — rather than the originally-bounced `sam@arrakis.ai`. No bounce or reply yet; this is the live edge case the "re-check periodically" note below anticipated. If this bounces too, mark `unreachable` again and stop retrying until the next periodic check.
+- 2026-10-01: domain is back. arrakis.ai now resolves (HTTP 503 on direct fetch, consistent with bot-protection rather than a dead site, not NXDOMAIN). Re-sent to `privacy@arrakis.ai` — the CA-registry-filed contact — rather than the originally-bounced `sam@arrakis.ai`.
+- **2026-10-01: Reply — company shutting down.** `privacy+noreply@arrakis.ai` (from "Sam"): "We are closing down the business and have deleted our contact database. If you are an automated service, please remove Arrakis from your data broker list." Recording as `not_found` rather than `confirmed`: the statement is that the *whole* database is gone as part of winding down, not that our specific record was located and removed. Combined with the earlier dead-then-live DNS flip, this reads as a company genuinely in the process of shutting down rather than a bot wall or a rebrand. No ticket, no per-identifier confirmation — nothing to verify against going forward. If the domain goes fully dark again (NXDOMAIN) on a future check, that corroborates closure; if it instead starts resolving to a *different* company, that's a sold/rebranded domain and the request needs re-sending to whoever now controls it.
 
 ## Steps
 

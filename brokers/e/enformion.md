@@ -8,8 +8,10 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-21)
+- Current: `replied` (updated 2026-10-01)
+- Reference: `gmail:1a0f8cc1fe75fccd`
 - Note: 2026-08-21: first contact via the address nominated in the California data broker registration. Scoped explicitly to non-FCRA data (marketing, identity graph, skip-trace) with the credit file excluded up front, plus prescreen opt-out and, for Equifax, a Work Number Employment Data Report and freeze.
+- **2026-10-01: PA-residence deflection, answered.** `compliance@enformion.com` replied with a bare determination: "your request falls outside the scope of the comprehensive consumer privacy laws currently in effect in your state of residence," pointing to an appeal path in the "Your Privacy Rights" section of their Privacy Notice. Replied same day invoking the standard fallback (honor as a matter of published policy regardless of statute, and state which basis was applied) and specifically asked whether their own appeal/request form's state dropdown lists Pennsylvania — per `_DEFLECTIONS.md`, a dropdown that lists the state undercuts a "not covered" determination. None of the six sub-questions from the original letter (record count across name variants, reverse-lookup resolution in both directions, relative/associate/household edges, suppression vs. one-time removal, named upstream sources, which products are treated as FCRA-regulated) have been addressed — this deflection sidestepped the whole letter rather than answering any part of it.
 
 ## Steps
 

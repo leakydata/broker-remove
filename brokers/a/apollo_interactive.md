@@ -7,7 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-24)
+- Current: `not_found` (updated 2026-10-01)
+- Reference: `gmail:1a0f9c8a7a71cbeb`
+- **2026-10-01: Genuine nil.** `legal@apollointeractive.com` replied: "We searched our database for the information you provided and were unable to find a match. As such, we cannot fulfill your request because we do not have your data in our system. However, we have added you to our opt-out list." This is against the full sixteen-brand filing plus every identifier and all twelve-plus emails in the letter, so the search ran on the right keys — a believable nil rather than a narrow-search deflection. They registered a defensive opt-out anyway despite finding nothing. None of the specific sub-questions (consent record, sale/transfer count and buyer categories, originating affiliate, health/Medicare attribute inference) were answered individually — the top-line "no match" makes them moot for now, but would need re-asking if a record ever surfaces later. **Fallback form for future requests:** https://www.apollointeractive.com/data-rights.php.
 - Note: 2026-08-24: lead-gen letter - sale count and buyers, direct the buyers to delete, name the originating site or affiliate, whether it was ever resold as an aged lead, and do-not-call held independently of the lead record.
 
 ## Steps
@@ -20,17 +22,23 @@
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+- **`legal@apollointeractive.com` is a live, responsive mailbox** — a reply
+  arrived the same day the letter was first opened, searching the full
+  sixteen-brand filing and every identifier in one pass. No deflection, no
+  form redirect.
+- **They register an opt-out even on a nil result**, without being asked to —
+  a defensive habit worth citing to other lead-gen brokers who claim an
+  opt-out requires a matched record first.
+- **Fallback form, for anyone whose record does turn up a match**:
+  https://www.apollointeractive.com/data-rights.php — not needed for a clean
+  nil, but worth having on file for a future request.
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+Re-send the same sixteen-brand, full-identifier letter to
+`legal@apollointeractive.com` after some months if any of the sixteen brand
+names or their landing pages resurface in a search — a "no match" today
+doesn't bind a future data acquisition.
 
 
 ## The copies already sold are the ones that ring the phone

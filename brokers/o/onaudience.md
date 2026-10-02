@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `replied` (updated 2026-09-16)
-- Reference: `gmail:1a07ad6dfb0fc227`
+- Current: `confirmed` (updated 2026-10-01)
+- Reference: `gmail:1a0f753b0d2e988e`
+- **2026-10-01: CONFIRMED and closed out.** Final reply confirms (1) the opt-out/suppression instruction is applied to all twelve email identifiers on the terms negotiated below, and (2) the personal information and pseudonymous profile tied to the *verified* identifier (the sending address) have been deleted from active systems — no active or archived audience segments were attached. They declined to give a combined yes/no on the remaining eleven unverified identifiers, restating that doing so would itself be a disclosure (confirming a record exists for an address proves someone was tracked under it). They offered to accept archived correspondence or account/service records as alternative evidence for the four dead-mailbox addresses specifically — not pursued further in this project, since producing that evidence would mean hunting for or compiling records beyond what a removal letter should need to submit. Recording this thread as `confirmed` for the verified identifier; the eleven others are suppressed-but-unverified, which is the practical ceiling for an address nobody can prove live control of anymore.
 - Note: THE BEST VERIFICATION REPLY OF THE PROJECT, 2026-09-16, and it should be the template quoted at every other broker. OnAudience split the request in two and gave the right reason for each half. (1) OPT-OUT AND SUPPRESSION, granted against all twelve email identifiers WITHOUT proof of ownership: 'We can register an opt-out instruction in relation to the email identifiers you provided without treating this as confirmation that each identifier belongs to you' -- 11 CCR 7026(f)'s logic arrived at independently, plus the exact condition this project always asks for, offered unprompted: 'Where a minimal suppression record is retained for this purpose, it will be used only to give effect to the opt-out and not to create, enrich, or maintain a behavioral profile.' (2) DELETION AND DISCLOSURE held pending verification, and the second reason they give is the sophisticated one almost nobody states: acting on another person's identifier could not only delete their data but REVEAL WHETHER a record exists for it -- confirming existence is itself a disclosure. (3) THE OFFER WORTH TAKING UP: 'Where an address is no longer active or accessible, we are prepared to consider another reasonable and proportionate means of demonstrating your historical association with that address. We do not require government-issued identification where a less intrusive method is sufficient.' (4) 'For clarity, we are not declining your request on the basis of your state of residence.' REPLIED 2026-09-16 accepting the split without argument, taking the opt-out on their terms, and asking them to specify what evidence would be proportionate rather than guessing -- offering archived correspondence, account records, and the address-history chain. Named webtv.net and iwon.com as services that CLOSED (2013 and earlier), so no verification message can ever reach them, and made the structural point that a live-mailbox-only method systematically excludes the oldest records. Also asked the narrow question: will they say whether a record exists under ANY of the twelve, as a bare yes/no, which discloses nothing about any single identifier. See 454.
 
 ## Steps
@@ -21,17 +22,31 @@
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+- **Splits opt-out from deletion, and will grant the opt-out across every
+  identifier you list without proof of ownership** — the correct reasoning
+  (a wrongful opt-out costs nobody anything; a wrongful deletion/disclosure
+  could itself be a privacy breach) and the model reply to quote at any
+  other ad-tech broker that demands full verification before doing anything
+  at all.
+- **Will not give a combined yes/no across unverified identifiers**, because
+  confirming a match exists is itself a disclosure about whoever actually
+  holds that identifier — a more sophisticated refusal than it first sounds,
+  and a legitimate one.
+- **Offers alternative evidence (archived correspondence, account records)
+  for addresses that can no longer receive a verification email** — not
+  pursued in this project since assembling that evidence would mean
+  submitting more than a removal letter should require, but a live option
+  for anyone who has it on hand.
+- **Explicitly states it is not declining on the basis of state of
+  residence** — unprompted, and worth citing back at any broker that tries a
+  bare residence deflection.
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+Re-email `privacy@onaudience.com` after some months asking whether a fresh
+search against the verified identifier still returns nothing, and whether
+any of the eleven suppressed-but-unverified addresses has since surfaced a
+record.
 
 ## Who they are, and how to reach them
 

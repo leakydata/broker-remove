@@ -1,19 +1,20 @@
 # Streetdirectory Pte Ltd
 
-- **Email:** privacy@streetdirectory.com (verified)
+- **Email:** carecenter@streetdirectory.com (verified by delivery evidence + published privacy policy; corrected 2026-09-20)
 - **Method:** unknown — Route not yet established.
 - **Priority: 1.**
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-19)
-- Note: 2026-09-19, first contact. Standard consumer deletion/opt-out/suppression letter. Address sourced from an Optery-directory import; `email_verified_by` had been set to `"optery_directory"`, which only means a commercial directory listed the company, not that the mailbox was ever confirmed to accept mail -- three addresses from the same 2026-09-18 batch hard-bounced (see ct_company_directory.md, ibegin.md, native_american_netroots.md). Watch for a bounce on the next pass before treating this as delivered.
+- Current: `submitted` (updated 2026-09-20)
+- Note: 2026-09-19, first contact to `privacy@streetdirectory.com` (sourced from an Optery-directory import; `email_verified_by` had been `"optery_directory"`, which only means a commercial directory listed the company, not that the mailbox was ever confirmed to accept mail). Hard-bounced same day (550, address not found).
+- **2026-09-20: corrected and resent.** Streetdirectory's own published privacy policy names `carecenter@streetdirectory.com` for removal requests; resent there (cc `mobileapp@streetdirectory.com`), noting plainly that the first attempt bounced. `data/curated_brokers.json` updated to the working address with `email_verified: true`. No reply yet as of 2026-10-02 (12 days) — due for a chase if nothing arrives soon.
 
 ## Steps
 
 *Written for anyone, not just the person who filed the original request.*
 
-1. **Email `privacy@streetdirectory.com`** with a written request. Ask for four things explicitly — deletion, opt-out of sale and sharing, a direction to any third parties they sold to, and a **forward-looking suppression** so the record is not simply re-added at the next data import.
+1. **Email `carecenter@streetdirectory.com`** with a written request. Ask for four things explicitly — deletion, opt-out of sale and sharing, a direction to any third parties they sold to, and a **forward-looking suppression** so the record is not simply re-added at the next data import.
 2. **List every address, email and phone number you have ever had**, not just current ones. Records are filed under whatever was current when they were created — a search on today's details misses them.
 3. **Ask them to state which identifiers matched.** "We deleted your record" and "we searched and found nothing" are different outcomes, and a reply that does not distinguish them tells you nothing about whether you were ever in the file.
 

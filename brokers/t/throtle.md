@@ -7,9 +7,10 @@
 
 ## Status
 
-- Current: `replied` (updated 2026-09-07)
-- Reference: `gmail:1a07b63fcf585e55 -- OOO to 2026-09-14`
-- Note: IQVIA ROUTING ESTABLISHED, 2026-09-07. The letter to PrivacyOfficer@IQVIA.com produced an out-of-office from [named individual]@iqvia.com: 'I am out of the office until Sept 14. For urgent matters, please contact Barbara Bressolles (EU.DPO@IQVIA.com).' So PrivacyOfficer@IQVIA.com routes to a named individual who is away until 14 September. THE MAILBOX IS REAL AND MONITORED BY A PERSON, which is better than most of what this project finds -- but nothing will move for a week. NOT ESCALATING TO THE EU DPO: that address is offered for urgent matters, this is a routine consumer request from a US resident, and using an emergency channel for a non-emergency is how a channel stops being useful for the next person. Waiting until after 14 September, then chasing if nothing arrives. The five questions stand: who controls Throtle's identity graph today, when and how it transferred, whether processing purposes differ under the new controller, whether the consumers in the graph were notified, and -- to be answered even if every other answer is 'nothing changed' -- whether opt-outs and suppressions recorded before the transfer bind the new controller.
+- Current: `confirmed` (updated 2026-10-01)
+- Reference: `gmail:1a0f7836f7f360ca`
+- Note: IQVIA ROUTING ESTABLISHED, 2026-09-07. The letter to PrivacyOfficer@IQVIA.com produced an out-of-office from [named individual]@iqvia.com: 'I am out of the office until Sept 14. For urgent matters, please contact Barbara Bressolles (EU.DPO@IQVIA.com).' So PrivacyOfficer@IQVIA.com routes to a named individual who is away until 14 September. THE MAILBOX IS REAL AND MONITORED BY A PERSON, which is better than most of what this project finds -- but nothing will move for a week. NOT ESCALATING TO THE EU DPO: that address is offered for urgent matters, this is a routine consumer request from a US resident, and using an emergency channel for a non-emergency is how a channel stops being useful for the next person. The five questions about the IQVIA transfer (who controls the identity graph today, when/how it transferred, whether processing purposes differ, whether consumers were notified, whether pre-transfer opt-outs bind the new controller) were never answered individually.
+- **2026-10-01: CONFIRMED.** Reply (from the `Privacy@throtle.io` mailbox directly, via Outlook for Mac, not IQVIA): "We have deleted any data from our systems that may have been held. This request is complete." Unqualified and broker-issued, so recording as `confirmed` even though it does not distinguish "deleted" from "found nothing" as the original letter asked (one of the three things asked of the confirmation: which identifiers matched, which systems were searched, whether suppression is keyed to the person or the raw identifiers -- none answered). No ticket/reference number given, just a one-line reply in the existing thread.
 
 ## Steps
 
@@ -21,17 +22,24 @@
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+- **The reply came from a human at Throtle directly, not through IQVIA**, despite
+  the out-of-office having routed an earlier message through IQVIA's privacy
+  mailbox. Throtle and IQVIA's privacy functions appear to operate independently
+  even if IQVIA holds some ownership stake — do not assume a reply from one
+  means the other has also acted, and vice versa.
+- **The confirmation is a one-line close-out, not an itemized answer.** The
+  original letter asked three specific things of the confirmation (which
+  identifiers matched vs. were absent, which systems were searched, whether the
+  suppression is keyed to the person or to raw identifiers). None were answered.
+  If a future requester wants that detail, expect to have to ask again
+  specifically — a terse "deleted / request complete" is apparently their
+  default close, not a refusal to engage.
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+Re-check by emailing `privacy@throtle.io` again after some months and asking
+whether a fresh search against the same twelve email addresses (plaintext and
+hashed) still returns nothing.
 
 ## Who they are, and how to reach them
 

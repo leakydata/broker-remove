@@ -7,7 +7,9 @@
 
 ## Status
 
-- Current: `replied` (updated 2026-09-05)
+- Current: `confirmed` (updated 2026-10-01)
+- Reference: `gmail:1a0f8a285f571243`
+- **2026-10-01: CONFIRMED.** Final reply states the pseudonymous profile and personal data tied to the *verified* identifier (the sending address) have been **deleted from active systems**, the direct-marketing objection and sale/sharing opt-out have been **registered**, and a minimal technical suppression record is retained solely to give effect to the opt-out (not for enrichment). Explicitly confirms the request is handled under the GDPR as an EEA-established controller and is **not** being declined on the basis of Pennsylvania residence. No active or archived audience segments, including none of the named special-category segments (health, political opinion, religion, sexual orientation, ethnicity, trade union). They declined to attribute the profile to a specific upstream source, saying their own records don't reliably establish that provenance — a believable limitation rather than a stonewall, since the rest of the reply was unusually forthcoming. The other eleven email identifiers remain pending the evidentiary-verification offer (archived correspondence, account/service records) — not pursued, same reasoning as onaudience.md. Closing at `confirmed` for the verified identifier.
 - Note: 2026-09-05 (§339): A VERIFICATION RULE THAT IS RIGHT IN GENERAL AND IMPOSSIBLE HERE. NDR will process only the SENDING address: 'we are unable to process a request relating to an email address solely on the basis of a message sent from a different address... please submit a separate request from each relevant address.' Sound in principle, and I said so. BUT FOUR OF THE TWELVE ADDRESSES CANNOT SEND MAIL AND NEVER WILL: [EMAIL] (WebTV shut 2013), [EMAIL] (ISP gone), [EMAIL] (folded into Ask.com), [EMAIL] (closed university mailbox). Not reluctance -- the providers do not exist. AND THOSE FOUR ARE THE LIKELIEST TO BE IN THE FILE, since a record compiled years ago is keyed to whatever address was current then. So the rule as applied means THE RECORDS MOST LIKELY TO EXIST ARE THE ONES NOBODY ON EARTH CAN EVER REQUEST REMOVAL OF -- the HealthLink Dimensions shape, arriving from a European controller with a better-reasoned policy. PROPOSED THE EXCLUDE-ONLY ROUTE: treat the four as search keys for suppression rather than verified deletion requests -- do not say what matched, do not confirm anything, simply suppress. If an impostor did it the worst case is a stranger's dead address stops being targeted; the risk of acting is nil and the cost of not acting is that the data is permanent. Offered to send separate messages from the addresses that still work. PRESSED THE HASH POINT, which their own reply sharpens: they say they process 'data relating to internet users' but not names, addresses or phone numbers, so the key is an identifier, and in this industry that is usually a HASHED EMAIL. Asked them to hash the addresses themselves (lowercased, trimmed, SHA-256 plus MD5/SHA-1) and search the results -- costs nothing, discloses nothing, needs no verification since I am not asking to see what comes back. Three questions still open: which framework (Norwegian AS -- GDPR follows establishment, not data-subject location), lawful basis and provenance of the segments, and whether any segment touches special category data.
 
 ## Steps
@@ -20,17 +22,29 @@
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+- **They will only process the sending address without extra proof** — a
+  verification-by-sender-address rule, applied consistently even though it
+  structurally excludes the oldest, most-likely-to-match addresses (closed
+  mailboxes can never send the confirming email). They accept archived
+  correspondence or account/service records as alternative evidence for a
+  dead address, instead of refusing outright — worth citing to other
+  advertising-identity brokers who refuse unverified addresses with no
+  alternative path at all.
+- **Explicitly GDPR-governed, not state-law-gated**: an EEA-established
+  controller handles a Pennsylvania resident's request under GDPR and says
+  so in writing — "not declining on the basis of your residence." A useful
+  model reply to quote back at a US broker that tries a residence deflection.
+- **They distinguish "received or observed" data from "inferred or modeled"
+  characteristics** in their own disclosures — ask for that split explicitly
+  with any identity-graph/ad-tech broker, since it changes what a deletion
+  actually removes.
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+Re-email `privacy@nordicdataresources.com` after some months asking whether a
+fresh search against the verified identifier still returns nothing, and
+whether any of the eleven suppressed-but-unverified addresses has since
+turned up a record.
 
 ## Who they are, and how to reach them
 

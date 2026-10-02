@@ -425,9 +425,9 @@
     "via": "email"
   },
   "apollo_interactive": {
-    "status": "submitted",
-    "changed": "2026-08-24",
-    "via": null
+    "status": "not_found",
+    "changed": "2026-10-02",
+    "via": "reply"
   },
   "apollo_io": {
     "status": "confirmed",
@@ -490,9 +490,9 @@
     "via": null
   },
   "arrakis_technologies": {
-    "status": "submitted",
-    "changed": "2026-10-01",
-    "via": "email"
+    "status": "not_found",
+    "changed": "2026-10-02",
+    "via": "reply"
   },
   "arrestwarrant_org": {
     "status": "submitted",
@@ -1980,9 +1980,9 @@
     "via": null
   },
   "enformion": {
-    "status": "submitted",
-    "changed": "2026-08-21",
-    "via": null
+    "status": "replied",
+    "changed": "2026-10-02",
+    "via": "reply"
   },
   "enigma": {
     "status": "submitted",
@@ -3855,9 +3855,9 @@
     "via": "email"
   },
   "monevo": {
-    "status": "submitted",
-    "changed": "2026-08-29",
-    "via": "email"
+    "status": "manual_required",
+    "changed": "2026-10-02",
+    "via": "reply"
   },
   "moneybot5000": {
     "status": "replied",
@@ -4190,9 +4190,9 @@
     "via": null
   },
   "nordic_data_resources_as": {
-    "status": "replied",
-    "changed": "2026-09-05",
-    "via": "email"
+    "status": "confirmed",
+    "changed": "2026-10-02",
+    "via": "reply"
   },
   "north_american_media": {
     "status": "submitted",
@@ -4330,9 +4330,9 @@
     "via": "email"
   },
   "onaudience": {
-    "status": "submitted",
-    "changed": "2026-08-29",
-    "via": "email"
+    "status": "confirmed",
+    "changed": "2026-10-02",
+    "via": "reply"
   },
   "oncore_leads": {
     "status": "submitted",
@@ -6175,9 +6175,9 @@
     "via": "email"
   },
   "throtle": {
-    "status": "manual_required",
-    "changed": "2026-08-30",
-    "via": "email"
+    "status": "confirmed",
+    "changed": "2026-10-02",
+    "via": "reply"
   },
   "thryv_holdings": {
     "status": "submitted",
