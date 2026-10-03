@@ -8,9 +8,10 @@
 
 ## Status
 
-- Current: `not_found` (updated 2026-09-16)
-- Reference: `gmail:1a07637518a7f12a`
-- Note: Adopted from the shared ledger: another agent recorded 'not_found' on 2026-09-16. No detail is carried across — re-read the broker's own reply before relying on this.
+- Current: `not_found` (updated 2026-10-02)
+- Reference: `gmail:1a066cef504fdb38`
+- Note: 2026-09-03: first reply said Fyllo is now a marketing agency, acting as processor/service-provider for its clients, and separately that it "was previously a registered data broker" before current management acquired just the brand and agency business in early 2025. Asked where the old broker-business consumer database went (sold to a different buyer? destroyed? surviving in current backups or audience segments derived from it?), and asked them to do the searchable part (run identifiers against what they process) rather than naming a controller.
+- Note: 2026-10-02: full answer — **the former data-broker business was not acquired; it stayed with the seller, named explicitly as SambaTV.** No consumer databases transferred in the 2025 transaction. Confirmed, in writing, no match against the supplied identifiers in (a) the current agency business's processed data and (b) B2B/corporate-website visitor data. Declined (reasonably) to invent a client controller to redirect to when they don't know whether any client is actually involved. Recorded `not_found` on this — a real, searched, negative result, not a deflection.
 
 ## Steps
 
@@ -22,17 +23,29 @@
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+- **`privacy@hellofyllo.com` auto-replies from a send-only alias** —
+  `Privacy+noreply@hellofyllo.com` — that hard-bounces (550 Invalid
+  Recipient) on any reply. The "+noreply" is the tell. Their own first
+  reply says any follow-up should go to `legal@hellofyllo.com` instead;
+  use that, not the address the reply came from.
+- **A rebrand/acquisition answer isn't the end — it's a new address to
+  chase.** "We didn't acquire that business" just relocates the question
+  of where the old data went. Push for a named successor, not just a
+  disclaimer, and treat the naming of one (here: SambaTV) as the real
+  deliverable — it's the next place to write, not Fyllo's problem to solve
+  for you.
+- They distinguish three buckets and answer them separately, which is a
+  genuinely good-faith level of detail: (1) legacy broker data — not theirs,
+  ask the named successor; (2) current agency/client data — they can search
+  it themselves and did; (3) B2B/corporate-site visitor data — also
+  searched. Don't conflate the three when recording or re-asking.
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+No subject-search page (no longer operates a people-search/broker product).
+Re-verification means re-asking the same three-bucket question if any
+Fyllo-branded listing resurfaces, and separately pursuing SambaTV for the
+legacy broker data.
 
 ## Who they are, and how to reach them
 

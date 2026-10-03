@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `replied` (updated 2026-09-12)
-- Note: Adopted from the shared ledger: another agent recorded 'replied' on 2026-09-03. No detail is carried across — re-read the broker's own reply before relying on this.
+- Current: `replied` (updated 2026-10-02)
+- Note: 2026-09-01: standard reply (see Gotchas) received on a first ticket. Replied 2026-09-02 asking two narrower questions that don't require naming a specific client. 2026-10-02: a second, unrelated ticket arrived with the identical boilerplate, acknowledging "your request dated 10/02/2026" even though nothing had been sent since 2 September — Infocore's compliance mailer appears to regenerate this acknowledgement independent of any new inbound message. Replied again on the new thread, pointing back to the unanswered 2 September questions rather than starting over.
 
 ## Steps
 
@@ -20,17 +20,36 @@
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+- **Standard first reply is a refusal dressed as an acknowledgement**, not a
+  deflection to route around — it's their actual, consistent position.
+  Verbatim: *"Infocore does not and will not collect personal information
+  from consumers... Infocore is... defined as a 'contractor' under [the
+  CCPA]... The written contracts [with its business clients] do not provide
+  Infocore with the right to disclose or delete any personal information to
+  any consumer... Infocore often does not know which business holds the
+  data referred to in the request."* They also pre-emptively reject GDPR as
+  inapplicable (US company, no EU operations).
+- **Don't argue the contractor framing — it's probably accurate**, and
+  disputing it wastes the exchange. Ask two narrower things instead, neither
+  of which requires them to break contract or name a client: (1) what
+  *categories* of business they serve under their state broker
+  registration (lets you work out who to write to directly without them
+  naming names); (2) whether they can apply a forward-looking
+  do-not-contribute flag against your identifiers, independent of
+  identifying today's source.
+- **The acknowledgement email appears to regenerate on its own.** A second,
+  textually identical "Data Compliance Request" arrived a month after the
+  first, on a new thread, acknowledging a request "dated" that day even
+  though nothing had been sent since the original follow-up. Treat a repeat
+  of this boilerplate as the same open ticket, not a new submission — check
+  Sent history before replying as if it were fresh.
+- As of this writing, neither narrower question above has been answered.
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+No person-search profile; this is a B2B data contractor, not a site with a
+subject-search page. The only check available is whether a reply ever
+answers the two narrower questions above.
 
 ## Who they are, and how to reach them
 

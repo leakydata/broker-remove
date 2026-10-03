@@ -7,8 +7,10 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-25)
+- Current: `manual_required` (updated 2026-10-02)
 - Note: 2026-08-25: emailed [named individual]@definitivehc.com. Healthcare commercial intelligence, split into two scopes. (1) Provider/prescriber/KOL data compiled ABOUT individuals rather than collected FROM them - NPI-linked records, affiliation history, referral-pattern metrics, influence and tier scores. (2) The careful one: much of this sector's raw material is claims data described as de-identified or as HIPAA Limited Data Sets. Rather than disputing that, asked the narrow answerable question - do you or any product you sell RE-LINK such data to identified individuals or identity-graph keys, by your own processing or a partner's? Pre-committed to accepting a plain no as complete. The reasoning given: 'it is de-identified' is a statement about a dataset rather than a guarantee about what is done with it downstream.
+- Note: 2026-08-29: a second, shorter letter was also sent to the same address (apparently by a separate session, unaware of the 8/25 letter — worth checking for a duplicate-send before mailing this address again).
+- Note: 2026-10-02: both the 8/25 and 8/29 emails got the identical auto-reply: they do not process privacy requests received by email at all, full stop, and route to two OneTrust-hosted web forms instead (see Gotchas). Downgraded from `submitted` to `manual_required` — the email was never actually accepted as a request, it was bounced to a form. Queued to `handoff.py` for a human to fill in and submit, since this project's channel is email-only.
 
 ## Steps
 
@@ -20,17 +22,29 @@
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+- **Email is refused outright, not deflected.** The reply doesn't dispute
+  scope or ask a verification question — it states flatly that requests
+  must go through their "designated methods": a general privacy-request
+  form at `https://preferences.definitivehc.com/privacy`, a separate
+  do-not-sell/opt-out form at `https://preferences.definitivehc.com/dont_sell`,
+  or a phone line (1-866-679-6461). No alternate ungated email address is
+  published anywhere in the reply or on `definitivehc.com/privacy-center/notices`.
+  This is an email-only project's genuine dead end — it goes to `handoff.py`,
+  not a resend.
+- **Two separate letters, same outcome.** Both the detailed 8/25 letter
+  (with the de-identification/re-linking questions above) and a shorter
+  8/29 letter got byte-identical auto-replies, so the refusal isn't
+  content-sensitive — it triggers on arriving by email at all.
+- The legal entity is Swedish (Monocl AB, trading as Definitive Healthcare),
+  filed with the CA registry under a Gothenburg address — don't be thrown by
+  the EU-looking registered address when the product and the forms are
+  plainly US-facing.
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+No subject-search page. The only verification available is whichever
+confirmation the OneTrust form itself issues after a human submits it —
+watch for a ticket/request ID in the resulting email.
 
 ## Who they are, and how to reach them
 
