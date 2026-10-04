@@ -1,36 +1,68 @@
 # GoLookUp
 
-- **Opt-out:** https://golookup.com/optout
-- **Method:** web_form — Web form.
+- **Email:** support@atlas.net (verified — found in the "Contact Us" line of the
+  golookup.com/optout footer itself, even though the domain doesn't match)
+- **Opt-out (fallback):** https://golookup.com/optout
+- **Method:** email — tried first instead of the web form; see Gotchas.
 - **Domain:** golookup.com
 - **Priority: 3.**
 
 ## Status
 
-- Current: `pending`
+- Current: `submitted` (updated 2026-10-04)
+- Note: 2026-10-04: the opt-out page requires a confirmation email per
+  `needs_email_confirm`, and this project does not have a browser to work that
+  form — but the same page's footer publishes "CONTACT US: support@atlas.net" in
+  plain text, off golookup.com's own domain. Sent the statutory deletion/opt-out
+  letter there instead of queuing the form for a human. No reply yet.
 
 ## Steps
 
 *Written for anyone, not just the person who filed the original request.*
 
-1. **Open the opt-out page:** https://golookup.com/optout
-2. **Search for yourself first if the page asks you to.** Match on more than the name: use age, current city, and at least one previous address. A common name will return other people, and removing their listing instead of yours helps nobody.
-3. **Submit the form**, then watch for a confirmation email. Many brokers treat the request as void until a link in it is clicked.
-4. **Ask them to state which identifiers matched.** "We deleted your record" and "we searched and found nothing" are different outcomes, and a reply that does not distinguish them tells you nothing about whether you were ever in the file.
+1. **Email `support@atlas.net`** with a written statutory request — do not assume
+   the mismatched domain is a wrong address; it is the address GoLookUp itself
+   publishes for contact, just hosted off their own domain (a third-party support
+   vendor is the likely explanation, though unconfirmed).
+2. **If that bounces or goes unanswered**, fall back to the web form at
+   https://golookup.com/optout. It needs an email-confirmation click, so it is a
+   handoff item, not something this project can finish headless.
+3. **Ask them to state which identifiers matched.** "We deleted your record" and
+   "we searched and found nothing" are different outcomes.
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+- **The published contact address is off-domain.** `support@atlas.net`, not
+  anything `@golookup.com`. Worth flagging as a finding rather than discarding —
+  `verify_emails.py` surfaces these as `DISCOVERED_OFFDOMAIN` and they are real
+  evidence (the broker's own page said so), not a guess, but they deserve a
+  reply to confirm before trusting them for anything beyond a first attempt.
+- **The web form route needs a confirmation-email click**, which this project's
+  email-only channel cannot complete — stays queued for a human unless the email
+  route above lands.
 
 ## Verification
 
 <!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+
+## If they ignore you
+
+Work down this list. Each rung costs them more than the one above it.
+
+1. **Reply in the existing thread** after the statutory deadline. California
+   allows 45 days for a deletion request (Cal. Civ. Code 1798.130), extendable
+   once by a further 45 with notice. Quote the date you first wrote.
+2. **Complain to the California Attorney General**, who administers the data
+   broker registry: <https://oag.ca.gov/contact/consumer-complaint-against-business-or-company>.
+3. **Complain to the FTC**: <https://reportfraud.ftc.gov>. Useful for a pattern
+   of non-response rather than a single case.
+4. **Your own state Attorney General.** Many states with no comprehensive
+   privacy statute still have consumer-protection powers and will take a
+   complaint about a business that ignores its own published policy.
+
+**What not to bother with:** phoning a support line to argue. The person who
+answers cannot change the policy and did not write it. The registry entry, the
+statutory deadline and the regulator are what actually move a company.
 
 ## If they ignore you
 

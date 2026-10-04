@@ -649,6 +649,11 @@
     "changed": "2026-08-20",
     "via": "reply"
   },
+  "backgroundchecks_me": {
+    "status": "submitted",
+    "changed": "2026-10-04",
+    "via": "email"
+  },
   "baron_app": {
     "status": "replied",
     "changed": "2026-09-12",
@@ -1680,9 +1685,9 @@
     "via": null
   },
   "definitive_healthcare": {
-    "status": "submitted",
-    "changed": "2026-08-25",
-    "via": null
+    "status": "manual_required",
+    "changed": "2026-10-04",
+    "via": "reply"
   },
   "delaware_arrests": {
     "status": "submitted",
@@ -1848,6 +1853,11 @@
     "status": "submitted",
     "changed": "2026-08-25",
     "via": null
+  },
+  "downing_lahey_mortuaries_crematory": {
+    "status": "submitted",
+    "changed": "2026-10-04",
+    "via": "email"
   },
   "draup": {
     "status": "submitted",
@@ -2469,6 +2479,11 @@
     "changed": "2026-08-18",
     "via": "email"
   },
+  "genealogic_review": {
+    "status": "submitted",
+    "changed": "2026-10-04",
+    "via": "email"
+  },
   "general_motors": {
     "status": "submitted",
     "changed": "2026-08-27",
@@ -2522,6 +2537,11 @@
   "golden_recursion": {
     "status": "submitted",
     "changed": "2026-09-17",
+    "via": "email"
+  },
+  "golookup": {
+    "status": "submitted",
+    "changed": "2026-10-04",
     "via": "email"
   },
   "good_boy_studios": {
@@ -5127,6 +5147,11 @@
   "realtyhop_com": {
     "status": "not_found",
     "changed": "2026-08-19",
+    "via": "email"
+  },
+  "realtyverify": {
+    "status": "submitted",
+    "changed": "2026-10-04",
     "via": "email"
   },
   "recordsfinder": {
