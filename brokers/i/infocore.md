@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `replied` (updated 2026-10-02)
-- Note: 2026-09-01: standard reply (see Gotchas) received on a first ticket. Replied 2026-09-02 asking two narrower questions that don't require naming a specific client. 2026-10-02: a second, unrelated ticket arrived with the identical boilerplate, acknowledging "your request dated 10/02/2026" even though nothing had been sent since 2 September — Infocore's compliance mailer appears to regenerate this acknowledgement independent of any new inbound message. Replied again on the new thread, pointing back to the unanswered 2 September questions rather than starting over.
+- Current: `replied` (updated 2026-10-03)
+- Note: 2026-09-01: standard reply (see Gotchas) received on a first ticket. Replied 2026-09-02 asking two narrower questions that don't require naming a specific client. 2026-10-02: a second, unrelated ticket arrived with the identical boilerplate, acknowledging "your request dated 10/02/2026" even though nothing had been sent since 2 September — Infocore's compliance mailer appears to regenerate this acknowledgement independent of any new inbound message. Replied again on the new thread, pointing back to the unanswered 2 September questions rather than starting over. 2026-10-03: a third, again textually identical, boilerplate arrived less than 25 minutes after that reply was sent — too fast to be a read-and-respond, confirming this is a one-way autoresponder that fires on its own schedule and does not process inbound content at all. Not replying again until the content actually changes; a fourth identical reply would just restate 2026-09-02's questions into the same void.
 
 ## Steps
 

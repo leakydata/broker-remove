@@ -30,6 +30,19 @@
 - **The only published contact is off-domain** (PeopleLooker, not
   backgroundchecks.me). Treat the first reply as the thing that confirms or
   kills this route, not the sending of the letter.
+- **Correction (2026-10-05):** the registry's own `notes` field for this
+  entry, written in the same pass that sent the letter, says the opposite of
+  what this playbook first claimed — "support@peoplelooker.com is not on
+  backgroundchecks.me... the site publishes no address on the broker's own
+  domain... **Confirm the corporate relationship before sending.**" The
+  letter went out anyway, in the same pass, before any confirmation existed.
+  What came back is a plain autoresponder ticket (#29461972) that confirms
+  only that the mailbox is live — it says nothing about whether PeopleLooker
+  and backgroundchecks.me are the same operator. **Do not send another
+  full-identifier letter to this address for a different brand name without
+  a reply that actually addresses the relationship.** If one never comes,
+  this stays `submitted`, not `confirmed`, and should not be cited as
+  evidence of a cross-brand family the way `_BROKER_FAMILIES.md` entries are.
 
 ## Verification
 
