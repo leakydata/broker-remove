@@ -139,6 +139,11 @@
     "changed": "2026-08-23",
     "via": null
   },
+  "adapt_io": {
+    "status": "submitted",
+    "changed": "2026-10-05",
+    "via": "email"
+  },
   "address_scoop": {
     "status": "confirmed",
     "changed": "2026-09-02",
@@ -4344,6 +4349,11 @@
     "changed": "2026-08-16",
     "via": null
   },
+  "old_friends": {
+    "status": "submitted",
+    "changed": "2026-10-05",
+    "via": "email"
+  },
   "oms_small_medium_businesses_directory": {
     "status": "submitted",
     "changed": "2026-09-18",
@@ -6227,6 +6237,11 @@
   "topline_holdings": {
     "status": "replied",
     "changed": "2026-09-01",
+    "via": "email"
+  },
+  "touchsuite": {
+    "status": "submitted",
+    "changed": "2026-10-05",
     "via": "email"
   },
   "tovodata": {

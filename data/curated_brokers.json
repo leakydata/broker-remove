@@ -27030,6 +27030,48 @@
       "category_source": "manual 2026-10-01",
       "listing_basis": "mobile_ad_id_matching",
       "notes": "Mobile measurement/attribution + data marketplace (Collective Data Solutions). Automated acknowledgment flags matched data for deletion and future-ingest suppression; does not confirm an actual match was found."
+    },
+    {
+      "id": "adapt_io",
+      "name": "Adapt Io",
+      "domain": "adapt.io",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "adapt-io",
+      "email_to": "support@adapt.io",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "old_friends",
+      "name": "Old Friends Co",
+      "domain": "old-friends.co",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "old-friends-co",
+      "email_to": "info@old-friends.co",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "touchsuite",
+      "name": "Touchsuite",
+      "domain": "touchsuite.com",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "touchsuite",
+      "email_to": "info@touchsuite.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
     }
   ],
   "count": 1408
