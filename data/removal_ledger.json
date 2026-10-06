@@ -122,7 +122,8 @@
   "acxiom": {
     "status": "submitted",
     "changed": "2026-08-15",
-    "via": null
+    "via": null,
+    "supplemented": true
   },
   "ad_direct": {
     "status": "submitted",
@@ -565,9 +566,9 @@
     "via": null
   },
   "audiencemix": {
-    "status": "submitted",
-    "changed": "2026-08-24",
-    "via": null
+    "status": "not_found",
+    "changed": "2026-10-06",
+    "via": "reply"
   },
   "audiencepoint": {
     "status": "submitted",
@@ -1047,7 +1048,8 @@
   "checkpeople": {
     "status": "confirmed",
     "changed": "2026-08-19",
-    "via": "email"
+    "via": "email",
+    "supplemented": true
   },
   "checksecrets": {
     "status": "confirmed",
@@ -1537,7 +1539,8 @@
   "dataaxle": {
     "status": "submitted",
     "changed": "2026-08-18",
-    "via": "web"
+    "via": "web",
+    "supplemented": true
   },
   "databaseusa": {
     "status": "submitted",
@@ -2152,7 +2155,8 @@
   "familytreenow": {
     "status": "submitted",
     "changed": "2026-08-18",
-    "via": "reply"
+    "via": "reply",
+    "supplemented": true
   },
   "famous_birthdays": {
     "status": "submitted",
@@ -3372,7 +3376,8 @@
   "lexisnexis": {
     "status": "submitted",
     "changed": "2026-08-15",
-    "via": "reply"
+    "via": "reply",
+    "supplemented": true
   },
   "lexisnexis_risk_solutions_fl": {
     "status": "submitted",
@@ -3727,7 +3732,8 @@
   "melissa": {
     "status": "submitted",
     "changed": "2026-08-15",
-    "via": null
+    "via": null,
+    "supplemented": true
   },
   "meltwater_news": {
     "status": "submitted",
@@ -4350,8 +4356,8 @@
     "via": null
   },
   "old_friends": {
-    "status": "submitted",
-    "changed": "2026-10-05",
+    "status": "unreachable",
+    "changed": "2026-10-06",
     "via": "email"
   },
   "oms_small_medium_businesses_directory": {
@@ -4765,9 +4771,9 @@
     "via": "email"
   },
   "place_exchange": {
-    "status": "submitted",
-    "changed": "2026-08-28",
-    "via": null
+    "status": "not_found",
+    "changed": "2026-10-06",
+    "via": "reply"
   },
   "plaid": {
     "status": "manual_required",
@@ -5390,9 +5396,9 @@
     "via": null
   },
   "round_sky": {
-    "status": "submitted",
-    "changed": "2026-09-05",
-    "via": "email"
+    "status": "not_found",
+    "changed": "2026-10-06",
+    "via": "reply"
   },
   "s_p_global": {
     "status": "submitted",
@@ -6122,7 +6128,8 @@
   "thatsthem": {
     "status": "submitted",
     "changed": "2026-08-15",
-    "via": null
+    "via": null,
+    "supplemented": true
   },
   "the_autominer_trupayments_purecars": {
     "status": "manual_required",
@@ -6577,7 +6584,8 @@
   "veripages": {
     "status": "submitted",
     "changed": "2026-08-17",
-    "via": "email"
+    "via": "email",
+    "supplemented": true
   },
   "verisk_marketing_solutions": {
     "status": "submitted",
@@ -6600,9 +6608,9 @@
     "via": null
   },
   "versant_media": {
-    "status": "submitted",
-    "changed": "2026-09-22",
-    "via": "email"
+    "status": "manual_required",
+    "changed": "2026-10-06",
+    "via": "reply"
   },
   "versium": {
     "status": "confirmed",

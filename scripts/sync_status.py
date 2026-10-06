@@ -117,6 +117,17 @@ def build(private):
             "changed": last_change(rec),
             "via": vias[-1] if vias else None,
         }
+        # Whether a supplemental-identifiers letter already went out is not a
+        # status and doesn't fit `rank()` -- a broker can be `submitted` and
+        # supplemented, or `submitted` and not. But it has exactly the same
+        # single-agent blind spot every other field here used to have: without
+        # it in the ledger, send_plan.py and supplement_identifiers.py have no
+        # way to know the other agent (or last week's self, in a fresh clone)
+        # already sent one, and will offer the same ~11 aggregators as
+        # "outstanding" forever. Carry it through if tracker.py's `supplement`
+        # command (or a manual note) set it.
+        if rec.get("supplemented"):
+            out[bid]["supplemented"] = True
     return dict(sorted(out.items()))
 
 
@@ -194,8 +205,17 @@ def main():
 
         adopted = []
         skipped_newer = []
+        supplemented_adopted = []
         for bid, entry in ledger.items():
             rec = private.setdefault(bid, {"status": "pending", "history": []})
+            # This flag is orthogonal to status rank -- a broker can already be
+            # `submitted` here (equal rank, the common case) and still need the
+            # OTHER agent's "a supplement went out" fact adopted, so it has to be
+            # handled before the rank check below sends this iteration to
+            # `continue` and skips it entirely.
+            if entry.get("supplemented") and not rec.get("supplemented"):
+                rec["supplemented"] = True
+                supplemented_adopted.append(bid)
             if rank(entry["status"]) <= rank(rec.get("status", "pending")):
                 continue          # ours is equal or better; leave it alone
 
@@ -256,13 +276,16 @@ def main():
             # validate.py's "TERMINAL status needs a note" check afterwards.
             rec["note"] = note
             adopted.append(bid)
-        if adopted:
+        if adopted or supplemented_adopted:
             PRIVATE.write_text(json.dumps(private, indent=2, ensure_ascii=False) + "\n")
         from_pb = [b for b in adopted if ledger[b].get("_from") == "playbook"]
         print(f"adopted {len(adopted)} broker(s)"
               + (f" ({len(from_pb)} from committed playbooks with no ledger entry)"
                  if from_pb else "")
               + (f": {', '.join(adopted[:12])}" if adopted else ""))
+        if supplemented_adopted:
+            print(f"  +{len(supplemented_adopted)} marked supplemented from the "
+                  f"ledger: {', '.join(supplemented_adopted[:12])}")
         if from_pb:
             print("  the other agent is not publishing a ledger yet — its work was "
                   "recovered from git, but statuses are a floor, not a finding")
@@ -369,10 +392,17 @@ def main():
         # same-day tie only, where "further along" is the better guess.
         d_new = rec.get("changed") or ""
         d_old = prev.get("changed") or ""
+        # `supplemented` is independent of which status wins this round -- it's
+        # a fact about a letter having been sent, not a point on the same
+        # progress scale as `status`. Whichever side becomes `merged[bid]`,
+        # don't let it silently drop a `True` the other side already had.
+        supplemented = bool(rec.get("supplemented") or prev.get("supplemented"))
         if d_new > d_old or (
                 d_new == d_old
                 and rank(rec["status"]) >= rank(prev.get("status", "pending"))):
             merged[bid] = rec
+        if supplemented:
+            merged[bid]["supplemented"] = True
     merged = dict(sorted(merged.items()))
     kept = len(set(merged) - set(fresh))
 

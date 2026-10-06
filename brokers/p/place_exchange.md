@@ -7,25 +7,24 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-28)
-- Note: Recovered from the committed playbook brokers/p/place_exchange.md, because the ledger carries no notes and this row's status had no evidence behind it: 2026-08-27: first contact. Programmatic out-of-home / audience-data ad-tech variant: hashed email matching, MAIDs, IP-derived location signals, modelled segments; framed as opt-out of cross-context behavioral-advertising sharing.
+- Current: `not_found` (updated 2026-10-05)
+- Note: 2026-08-28: first contact to privacy@placeexchange.com. Programmatic out-of-home / audience-data ad-tech variant: hashed email matching, MAIDs, IP-derived location signals, modelled segments; framed as opt-out of cross-context behavioral-advertising sharing.
+- Note: 2026-10-05 reply: "We confirm that we do not have your name, email address, phone number, or address in our database." States their commercial database is structured exclusively around mobile advertising identifiers (MAIDs/IDFA/GAID), and asks the requester to supply one so they can search further, offering an opt-out form or a reply email as the submission route. **Declined to supply one** — a MAID is a persistent ad-tracking identifier not currently known to be associated with the subject in this system, and volunteering a new identifier to chase a further negative runs against the project's own "don't hand over more than the request needs" rule. Replied closing the request on the identifiers actually supplied (name/email/phone/address), asked them to apply the same suppression if they ever link a device to those identifiers, and asked for suppression against future ingest. No further reply expected or required.
 
 ## Steps
 
-1. Email privacy@juicebox.work first if starting fresh -- it deflects to the Privacy Center, but the deflection message itself is useful (states the form is the only intake) and the inbox does keep reading follow-ups on open questions the form can't take.
-2. File the Privacy Center's four request types in this order: access/summarize first, then do-not-sell-or-share, then the two sensitive-PI options -- so a deletion never precedes the disclosure it would otherwise erase.
-3. Triple-check the contact email typed into the form before submitting -- it is the verification-link target, and this project's subject has multiple valid addresses that are search keys only, not mailboxes he reads.
-4. If a submission returns a "technical error," do not assume it failed -- check for a verification email or new ticket ID arriving around the same timestamp before resubmitting.
+1. Email `privacy@placeexchange.com` directly — on-domain, verified, no CAPTCHA or account required.
+2. Standard ad-tech letter: hashed email/phone match keys, MAID if you have one and are willing to share it (optional — see Gotchas), suppression vs. inventory distinction, edges not just rows.
+3. If they reply that their database is MAID-only and ask for a device identifier: you are not obligated to supply one just to search further. A plain "not found" on name/email/phone/address is a legitimate, closeable result.
 
 ## Gotchas
 
-- **Form-only intake without a CAPTCHA is still an email-completable route** for this project's purposes -- don't treat "we don't accept requests by email" as a dead end without checking what the form itself actually gates on.
-- **No free-text field on the Privacy Center** -- open questions have to go back through the original email thread, not the form.
-- **Verification-link expiry is silent and asymmetric**: the company sees an abandoned request, the sender may not realize the address was wrong at all unless they think to check.
+- **MAID-only database, and they will ask you to supply the identifier they need to find you.** Weigh this before answering: a MAID is more persistently identifying than most of what you're trying to get removed, and handing one over gives them a fresh match key rather than closing out an old one. Declining and treating the name/email/phone/address nil as final is a reasonable, defensible stopping point.
+- **BCC'd to the original sender rather than a direct reply** — their reply arrived with the subject's own address in BCC and `privacy@placeexchange.com` in To, suggesting an internal tracking/CRM quirk rather than anything to act on.
 
 ## Verification
 
-Two of at least three filed requests are email-verified as of 2026-09-06 (access/summarize, and one other pending type confirmation); do-not-sell-or-share has an unresolved "technical error" likely masking a real, verified submission. Re-check the thread for Juicebox's answer on request-type confirmation and the outstanding upstream-source question (who supplies contact data at query time).
+Reply confirmed name/email/phone/address returned no match. No MAID-side verification possible or pursued.
 
 ## Who they are, and how to reach them
 

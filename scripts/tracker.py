@@ -9,6 +9,7 @@ Usage:
     ./tracker.py list [--status STATUS] [--tier TIER]
     ./tracker.py show BROKER_ID
     ./tracker.py set BROKER_ID STATUS [--note "..."] [--url URL] [--ref REF]
+    ./tracker.py supplement BROKER_ID [--note "..."] [--ref REF]   # sent, no status change
     ./tracker.py next [N]          # highest-priority brokers not yet done
     ./tracker.py stats
     ./tracker.py report            # markdown progress report
@@ -283,6 +284,39 @@ def _say_if_queued(bid):
         return
 
 
+def cmd_supplement(args):
+    # send_plan.py and supplement_identifiers.py both read `rec["supplemented"]`
+    # to decide whether a broker contacted before the identifier list grew still
+    # needs a follow-up letter -- but nothing ever WROTE that field. It is not
+    # part of `set`'s vocabulary (it isn't a status) and sync_status.py's ledger
+    # never carried it either, so every fresh clone starts from zero knowledge
+    # of which supplements already went out. In practice this meant the same
+    # ~11 high-priority aggregators (acxiom, lexisnexis, data axle, and the
+    # rest) showed up as "outstanding" in send_plan.py's count for weeks after
+    # their supplement letters were actually sent and answered, because the
+    # only record of that fact lived in Gmail, not in any file this project
+    # reads back. This command, and the matching field in sync_status.py's
+    # ledger, close that gap.
+    reg, st = get_registry(), get_state()
+    if args.broker_id not in reg and args.broker_id not in st:
+        sys.exit(f"unknown broker: {args.broker_id}")
+    rec = st.setdefault(args.broker_id, {"status": "pending", "history": []})
+    rec["supplemented"] = True
+    entry = {"at": now(), "supplemented": True}
+    if args.ref:
+        entry["ref"] = args.ref
+        refs = rec.setdefault("refs", [])
+        if args.ref not in refs:
+            refs.append(args.ref)
+    if args.note:
+        entry["note"] = args.note
+        rec["note"] = args.note   # keep the top-level summary in step with the
+                                  # log it summarizes -- see validate.py's check
+    rec.setdefault("history", []).append(entry)
+    save(STATE, st)
+    print(f"{args.broker_id} -> supplemented")
+
+
 def cmd_next(args):
     reg, st = get_registry(), get_state()
     done = {"confirmed", "submitted", "not_found", "unreachable"}
@@ -397,6 +431,12 @@ def main():
     stp.add_argument("--via", choices=["email", "reply", "web", "phone", "postal"],
                      help="channel used, so the daily send cap can count accurately")
     stp.set_defaults(func=cmd_set)
+
+    sup = sub.add_parser("supplement",
+                         help="record that a supplemental-identifiers letter "
+                              "went out, without changing status")
+    sup.add_argument("broker_id"); sup.add_argument("--note"); sup.add_argument("--ref")
+    sup.set_defaults(func=cmd_supplement)
 
     np = sub.add_parser("next"); np.add_argument("count", nargs="?", type=int, default=10)
     np.set_defaults(func=cmd_next)

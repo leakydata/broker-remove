@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `not_found` (updated 2026-08-24)
+- Current: `not_found` (updated 2026-10-05)
 - Note: 2026-08-24: 'we have not identified any personal information pertaining to you'. Did NOT say which identifier types were matched, which the letter asked for - at an identity-keyed company a name search and a hash search produce the same sentence. Asked which, offering both readings as acceptable, plus what the index is keyed to and a do-not-add entry. Also offered 'Anonymous Mode', a browser tracking opt-out; noted it is not a substitute and there is nothing for it to switch off if they hold nothing.
+- Note: 2026-10-05: follow-up answered plainly — "Decide searched the name, email addresses, postal addresses and telephone numbers you supplied, and found nothing." That closes the question the first reply dodged: this was a real search across all four identifier categories, not a silent no-op. Did not confirm whether a do-not-add suppression entry was recorded. Treating this as a solid not_found; not writing again over the unanswered suppression question given two rounds of otherwise-cooperative replies.
 
 ## Steps
 

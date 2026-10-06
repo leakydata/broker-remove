@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-24)
+- Current: `not_found` (updated 2026-10-05)
 - Note: 2026-08-24: audience-data letter. Hashed match keys with the suppression-vs-inventory split, the geographic query in place of a MAID, edges not rows, sensitive inference categories named explicitly, and the IDM precedent cited for the do-not-add ask.
+- Note: 2026-10-05 reply (6 weeks later): "Your information was not found in our system. Any applicable identifier(s) provided have been added to AudienceMix's opt-out/suppression list to help keep your information out of our system in the future." Plain boilerplate — did not engage with a single one of the specific asks (which hash forms were checked, suppression-vs-inventory distinction, edges vs. rows, named sensitive-inference categories, data partners/buyers). Recording the nil and the suppression claim at face value since there's no reason to doubt either, but the suppression's actual key and scope are unconfirmed — a company that answers in one generic sentence hasn't told you whether the "identifier(s) added" means all twelve emails and eleven phone numbers supplied, or just the one the support macro happened to grab.
 
 ## Steps
 

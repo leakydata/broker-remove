@@ -7,9 +7,10 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-22)
+- Current: `manual_required` (updated 2026-10-05)
 - Reference: `gmail:1a0c897b24b8a5ed`
 - Note: 9/22: emailed privacy@versantmedia.com per NBCUniversal's referral for the TeamUnify record (now a Versant brand). PA resident; invoked fallback clause since Versant's stated email route names only CA/CO.
+- Note: 2026-10-05: answered the PA-residence disclosure directly rather than ignoring it — "As you have indicated that you reside in the United States, please visit our Individual Rights Request Portal... We process individual rights requests only through the portal." Separately offered a web FORM (not email) to add the address to an ad-sale suppression list, plus the standard device/cookie "Your Privacy Choices" footer link. No ungated email route exists for the deletion request itself; the fallback-clause ask did not move them off the portal. Both the portal and the suppression form need a browser — queued to `handoff.py` for completion.
 
 ## Steps
 

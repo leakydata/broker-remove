@@ -43,6 +43,11 @@
   a reply that actually addresses the relationship.** If one never comes,
   this stays `submitted`, not `confirmed`, and should not be cited as
   evidence of a cross-brand family the way `_BROKER_FAMILIES.md` entries are.
+- **2026-10-05 update:** ticket #29461972 moved from autoresponder to a one-line
+  human reply — "We have escalated this request to our privacy team, they
+  will be able to assist you with your request." Still a non-signal: no
+  mention of backgroundchecks.me by name, no identifier results, no timeline.
+  Recording it so the next pass doesn't mistake "escalated" for "answered."
 
 ## Verification
 
