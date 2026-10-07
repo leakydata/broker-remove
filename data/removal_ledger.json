@@ -181,9 +181,9 @@
     "via": "email"
   },
   "adsquare": {
-    "status": "submitted",
-    "changed": "2026-08-24",
-    "via": null
+    "status": "replied",
+    "changed": "2026-10-07",
+    "via": "reply"
   },
   "adstra": {
     "status": "manual_required",
@@ -743,7 +743,7 @@
   "billtrust": {
     "status": "replied",
     "changed": "2026-09-02",
-    "via": null
+    "via": "reply"
   },
   "biointelli": {
     "status": "submitted",
@@ -3725,9 +3725,9 @@
     "via": "email"
   },
   "medpro_systems": {
-    "status": "submitted",
-    "changed": "2026-08-29",
-    "via": "email"
+    "status": "replied",
+    "changed": "2026-10-07",
+    "via": "reply"
   },
   "melissa": {
     "status": "submitted",
@@ -4503,7 +4503,7 @@
   "outreach_io": {
     "status": "not_found",
     "changed": "2026-09-24",
-    "via": null
+    "via": "reply"
   },
   "outward_media": {
     "status": "submitted",
@@ -4796,8 +4796,8 @@
     "via": "reply"
   },
   "plunge_digital": {
-    "status": "confirmed",
-    "changed": "2026-08-30",
+    "status": "suppressed",
+    "changed": "2026-10-07",
     "via": "reply"
   },
   "pmg_worldwide": {

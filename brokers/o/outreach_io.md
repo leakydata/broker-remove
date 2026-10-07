@@ -8,9 +8,11 @@
 
 ## Status
 
-- Current: `not_found` (updated 2026-09-23)
+- Current: `not_found` (updated 2026-10-06)
 - Reference: `657692`
-- Note: 2026-09-23, `privacyrequests@privacy.outreach.io` (an automated OneTrust-style address, separate from the Sr Director's direct reply below): "We have processed your request and have not found any data matching the details provided in your request." This closes the Access half of the request from the entry below; no detail on which of the twelve email addresses or other identifiers were checked, or whether the deletion half (chosen in the earlier reply) was actioned by the same pass. Worth a follow-up asking specifically about the deletion outcome, since this notice only speaks to Access.
+- **2026-10-06 final answer**, from the same Sr Director of Data Privacy (Heather) who wrote the 27 August reply: "All of your deletion requests have been processed. We searched our systems for each of the email addresses you provided and found no controller-side records associated with any of them... for every address, the result was no match." This directly answers the deletion-outcome follow-up the 9/23 entry below flagged as open. Also confirmed, again and plainly, that they will not forward the request to or name any customer instance that might hold customer-uploaded data about the subject -- consistent with the 27 August position, not a new refusal.
+- Same day, a **separate automated address** (`privacyrequests@privacy.outreach.io`, OneTrust-style) sent **11 near-identical "Request Completed... do not currently process or otherwise hold your data" notifications within a 6-minute window** (15:26-15:33). Substance matches the human reply; the repetition looks like a send-loop bug on their end rather than 11 real actions. Worth flagging to them if it recurs, but nothing to action on this side.
+- Prior (2026-09-23): `privacyrequests@privacy.outreach.io`: "We have processed your request and have not found any data matching the details provided in your request." This closed the Access half; the 10/6 reply above closes the Deletion half the same way.
 - Prior: Substantive reply from Sr Director, Data Privacy (2026-08-27). Best-articulated controller/processor answer of the project. Key admissions, all volunteered: (1) deletion and opt-out are MUTUALLY EXCLUSIVE in their systems -- 'deleting you and then re-adding you to mark you as opted-out isn't something our systems and policies support'; (2) they cannot suppress against a customer re-uploading me into a customer instance, so a deletion lasts until the next import and they said so unasked; (3) email is the primary search key, stated explicitly as an engineering fact and NOT as a claim that other identifiers fall outside CCPA -- the first time anyone has drawn that line correctly. Refused to name customers (expected, and I had pre-accepted an explicit refusal). Did NOT answer whether they will forward the request to those customers -- re-asked. Access half is gated behind per-address verification links; four of the twelve addresses are mailboxes I no longer control (webtv/gateway/iwon are defunct services, psu is closed), so those verifications can never complete. Replied choosing DELETION, with a conditional in case their opt-out flag blocks re-creation in their OWN stores; asked that deletion apply to all twelve regardless of verification (their own reasoning: deletion discloses nothing, so it needs no verification); asked for bare existence-of-match disclosure on the unverifiable addresses. Notified 60-90 days rather than 30.
 
 ## Steps
@@ -110,3 +112,14 @@ Work down this list. Each rung costs them more than the one above it.
 **What not to bother with:** phoning a support line to argue. The person who
 answers cannot change the policy and did not write it. The registry entry, the
 statutory deadline and the regulator are what actually move a company.
+
+## Outcome (6 Oct 2026)
+
+Fully closed on the controller side: no match on any of twelve email addresses
+for either access or deletion, and an explicit, repeated refusal to name or
+contact customer instances. That refusal is final-sounding but not evasive --
+they gave the reason (never disclosing personal data to a third party, even in
+the form of a request) and stated it the same way twice, six weeks apart. If the
+subject believes a specific Outreach customer holds their data, the only route
+left is writing to that customer directly; Outreach itself is exhausted as a
+contact point.

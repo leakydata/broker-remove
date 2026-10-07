@@ -7,7 +7,8 @@
 
 ## Status
 
-- Current: `replied` (updated 2026-09-25)
+- Current: `replied` (updated 2026-10-06)
+- 2026-10-06 20:19: another opaque OneTrust "a comment has been added" notice on the same request (P7MJRE69RA), no content in the email -- third time this exact shape has recurred (also 9/15, 9/21). Replied directly to privacy@babelstreet.com (not the portal) asking them to relay the comment's content by email. Awaiting answer. **This is now a recurring pattern worth naming as one**: OneTrust fires a notification every time ANYTHING is added to the ticket, including comments visible only in the portal, and this project's standing policy of email-only means every single one needs a follow-up asking "what did it say" rather than being read directly.
 - 2026-09-24 reply: Babel Street confirmed no further verification is needed for now; they'll review what's already been provided (name/DOB/phone/address/4 emails) and determine whether responsive records exist, notifying either way either through email or the OneTrust portal. No action needed from us until they respond with a determination.
 - Reference: `gmail:1a0c897d1ad6dab7`
 - Note: 9/23, Babel Street's Data Privacy Office replied to the direct-email verification response (below) with a single line: "Are you able to access the messages on OneTrust?" Replied no — this project handles requests by email only, no browser/account-based flow — and recapped the identifiers already sent (name, DOB, phone, address, four emails) plus the standing offer of a proof-of-address document, asking them to say specifically what more is needed short of a government ID, or to proceed if what's on file is sufficient. Awaiting a substantive answer; **the pattern so far is that Babel Street keeps redirecting to the portal by reflex even though a human is reading and replying to the direct emails** — worth being explicit and repetitive about the email-only constraint rather than assuming it was understood the first time.

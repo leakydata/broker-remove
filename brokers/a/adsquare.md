@@ -7,9 +7,9 @@
 
 ## Status
 
-- Current: `not_found` (updated 2026-09-07)
-- Reference: `4XA7NCDD84`
-- Note: PORTAL LOGGED THE FOLLOW-UP AS A NEW REQUEST. The reply asking whether the geographic dwell-pattern query was run came back as 'Your request has been successfully submitted. Your Request ID is 4XA7NCDD84' -- a SECOND request id, not a continuation of 8WN6LE4TGK. So their intake treats any inbound mail on the thread as a fresh DSAR. Consequence to watch: the geographic question may be answered as a new request against the same identifiers, which would produce the same identifier-keyed nil and never reach the point. If the next reply is another 'did not find any match in our databases', that is the intake behaviour rather than an answer, and the question will need putting again with the request id quoted. Not a complaint -- auto-logging is better than silent discard -- but it is a route where a follow-up cannot be distinguished from a first contact. The substantive position is unchanged: nil on the identifiers supplied, geographic query unconfirmed. Request ids on file: 8WN6LE4TGK (original, completed) and 4XA7NCDD84 (the follow-up).
+- Current: `replied` (updated 2026-10-06; regressed from `not_found` -- see why below)
+- **2026-10-06, the geographic question (point c) finally got a real answer**, from Adsquare Legal Team directly: "we are unable to perform a reverse lookup or search based solely on location data. In order to locate, verify, or process any personal data associated with your request, we require a Mobile Advertising ID (MAID)... A search of the area around a physical address may not isolate or identify a specific individual with a sufficient degree of certainty. It would return the identifiers of every device that has ever been signal-active in that geographic radius." This is a reasoned architectural answer (matches the "not a query your systems can run" option offered in the original letter), not a deflection -- and it is the first time this project got an actual answer to the reverse-geo ask rather than a repeated identifier-keyed nil. **Moved back from `not_found` to `replied`** because the geographic question is now answered (closing it) but a new item is open: the 30 Aug letter's standing do-not-sell/do-not-share instruction was never explicitly confirmed, and was re-asked on 10/6. Declined to supply a MAID -- generating one would mean installing ad-tracking software for the purpose, which defeats the point. A second, duplicate automated ticket (Request ID TJJGDWK79K, "logged" 10/6 10:41, apparently machine-parsed from this email thread -- its own confirmation text echoes a nearby Gmail thread ID) appeared the same morning; no separate action needed, just noting the system generates these on its own.
+- Prior (2026-09-07 / 09-23), kept for the intake-behaviour finding it documents: PORTAL LOGGED THE FOLLOW-UP AS A NEW REQUEST. The reply asking whether the geographic dwell-pattern query was run came back as 'Your request has been successfully submitted. Your Request ID is 4XA7NCDD84' -- a SECOND request id, not a continuation of 8WN6LE4TGK. So their intake treats any inbound mail on the thread as a fresh DSAR. Consequence to watch: the geographic question may be answered as a new request against the same identifiers, which would produce the same identifier-keyed nil and never reach the point. If the next reply is another 'did not find any match in our databases', that is the intake behaviour rather than an answer, and the question will need putting again with the request id quoted. Not a complaint -- auto-logging is better than silent discard -- but it is a route where a follow-up cannot be distinguished from a first contact. The substantive position is unchanged: nil on the identifiers supplied, geographic query unconfirmed. Request ids on file: 8WN6LE4TGK (original, completed) and 4XA7NCDD84 (the follow-up).
 - 2026-09-23: portal sent "(4XA7NCDD84) Your Privacy Request has been completed" -- purely an administrative ticket-closure notice via OneTrust, no new substantive content beyond the 9/7 "did not find any match" reply. Not evidence the geographic dwell-pattern question (c) was ever actually answered; it wasn't. Left as `not_found` rather than upgraded, since a ticket-closure email is not a broker-issued answer to the specific question still open.
 
 ## Steps
@@ -56,6 +56,18 @@ Standard identity-graph asks also apply: hashed email match keys (separating
 suppression hashes, which are fine, from matchable inventory, which is not),
 device and CTV identifiers, **the edges** between identifiers and name/address,
 IP-derived household association, and inferred segments.
+
+**Outcome of the geographic query, 2026-10-06: they refused it, with a real reason.**
+Adsquare will not run a reverse lookup from a physical address because it cannot
+isolate one individual from "every device that has ever been signal-active in
+that geographic radius" -- a real privacy concern, not a stonewall, and it
+matches the "not a query your systems can run" option this project's own letter
+pre-offered. They asked for a MAID (IDFA/AAID) instead. **Do not supply one** --
+a consumer has no standing way to produce their own historical advertising ID,
+and generating one now would mean installing ad-tracking software for the sole
+purpose of handing it to an ad-tech company, which is the opposite of what the
+request is for. Record this as the architecture answer and move on; it closes
+point (c) as answered rather than refused.
 
 ## Who they are, and how to reach them
 
