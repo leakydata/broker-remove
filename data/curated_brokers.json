@@ -9925,7 +9925,7 @@
       "email_to": "support@atlas.net",
       "email_verified": true,
       "email_verified_by": "privacy_policy",
-      "notes": "support@atlas.net is published as \"CONTACT US\" in the footer of golookup.com/optout itself (confirmed by direct fetch 2026-10-04), off golookup.com's own domain -- likely a third-party support vendor. Statutory letter sent there 2026-10-04 as a faster alternative to the web form, which needs an email-confirmation click this project cannot complete headless."
+      "notes": "2026-10-08: domain seized by NJ Superior Court order under Daniel's Law (default judgment vs Lucky2Media LLC, Docket MER-L-000286-24, 2025-06-25) and transferred to Atlas Data Privacy Corp as litigation custodian. Atlas confirmed by reply it holds no personal data and cannot action removals; golookup.com now shows only a static 'transferred by court order' notice, no search tool. support@atlas.net is real and responsive but not an operator -- do not re-contact for removal."
     },
     {
       "id": "good_boy_studios",

@@ -1,89 +1,77 @@
 # GoLookUp
 
-- **Email:** support@atlas.net (verified — found in the "Contact Us" line of the
-  golookup.com/optout footer itself, even though the domain doesn't match)
-- **Opt-out (fallback):** https://golookup.com/optout
-- **Method:** email — tried first instead of the web form; see Gotchas.
+- **Email:** support@atlas.net (verified — the only contact golookup.com
+  publishes, but see Status: it belongs to the court-appointed custodian of
+  the seized domain, not to any operating business)
+- **Opt-out (fallback):** https://golookup.com/optout (now also dead — see below)
+- **Method:** email — moot now; there is no operator left to email. See Gotchas.
 - **Domain:** golookup.com
 - **Priority: 3.**
 
 ## Status
 
-- Current: `submitted` (updated 2026-10-04)
-- Note: 2026-10-04: the opt-out page requires a confirmation email per
-  `needs_email_confirm`, and this project does not have a browser to work that
-  form — but the same page's footer publishes "CONTACT US: support@atlas.net" in
-  plain text, off golookup.com's own domain. Sent the statutory deletion/opt-out
-  letter there instead of queuing the form for a human. No reply yet.
+- Current: `not_found` (updated 2026-10-08)
+- **2026-10-08: golookup.com is dead — seized by court order, not just unresponsive.**
+  support@atlas.net replied to the 2026-10-04 statutory letter: *"Atlas Data
+  Privacy Corporation did not acquire any part of these businesses... Only the
+  domain names... are now controlled by Atlas. We use those domains only to
+  display a notice for public awareness, not to operate any people-search or
+  similar business... no personal information held by any data broker was
+  transferred to Atlas. We, therefore, have no ability to... remove or delete
+  your personal information."* Direct fetch of golookup.com (2026-10-08)
+  confirms it: the homepage now reads "This Domain Has Been Transferred by
+  Court Order," citing a 2025-06-25 default judgment against Lucky2Media, LLC
+  in NJ Superior Court, Mercer County (Docket MER-L-000286-24) under **Daniel's
+  Law**, enjoining Lucky2Media from disclosing covered persons' home addresses
+  and phone numbers via golookup.com. No search tool remains on the domain —
+  it is a static notice page, nothing else. `/optout` (the page this project's
+  2026-10-04 submission used) is gone with the rest of the site.
+  **Recorded as `not_found` rather than `confirmed` or `unreachable`**: there
+  is no listing left to display (so the practical harm this project exists to
+  stop is already gone), but that happened through litigation this project had
+  no part in, not through the request that was sent — `confirmed` would
+  overstate what this project did, and `unreachable` would understate that the
+  site is actually up, just inert.
+- Prior (2026-10-04): `submitted` — statutory letter sent to support@atlas.net
+  as a faster alternative to the (then still-live) web form, which needed an
+  email-confirmation click this project cannot complete headless. Superseded
+  by the above.
 
 ## Steps
 
-*Written for anyone, not just the person who filed the original request.*
-
-1. **Email `support@atlas.net`** with a written statutory request — do not assume
-   the mismatched domain is a wrong address; it is the address GoLookUp itself
-   publishes for contact, just hosted off their own domain (a third-party support
-   vendor is the likely explanation, though unconfirmed).
-2. **If that bounces or goes unanswered**, fall back to the web form at
-   https://golookup.com/optout. It needs an email-confirmation click, so it is a
-   handoff item, not something this project can finish headless.
-3. **Ask them to state which identifiers matched.** "We deleted your record" and
-   "we searched and found nothing" are different outcomes.
+**None — there is nothing left to action.** If this entry is ever revisited
+(e.g. the brand resurfaces under a new operator, which is common after a
+Daniel's Law takedown — see Gotchas), start over as a new discovery rather
+than reusing support@atlas.net; that address is a litigation custodian's
+contact, not a business one, and will give the same answer every time.
 
 ## Gotchas
 
-- **The published contact address is off-domain.** `support@atlas.net`, not
-  anything `@golookup.com`. Worth flagging as a finding rather than discarding —
-  `verify_emails.py` surfaces these as `DISCOVERED_OFFDOMAIN` and they are real
-  evidence (the broker's own page said so), not a guess, but they deserve a
-  reply to confirm before trusting them for anything beyond a first attempt.
-- **The web form route needs a confirmation-email click**, which this project's
-  email-only channel cannot complete — stays queued for a human unless the email
-  route above lands.
+- **Daniel's Law takedowns kill the site, not necessarily the underlying
+  business.** Lucky2Media LLC (the former operator, per the court filing) may
+  still run other people-search brands under other domains — this was not
+  checked, because Daniel's Law is a New Jersey covered-persons statute and
+  this project does not invoke it on a PA resident's behalf (see CONTRIBUTING).
+  If a near-identical site turns up later under a new domain with the same
+  page structure, it's worth fingerprinting (per `_FAMILIES.md`'s
+  shared-infrastructure method) before assuming it's unrelated.
+- **A court-seized domain's custodian (here, Atlas) is a dead end for removal
+  requests even though it answers mail.** It is reachable and honest, but it
+  holds no data and has no authority over the former operator's other
+  properties. Don't mistake a prompt, substantive reply for progress on the
+  actual request — read what it says, not just whether it came.
+- **The old finding — that support@atlas.net was published off golookup.com's
+  own domain — turned out to mean exactly what it looked like: a third party,
+  not the broker itself.** It just wasn't a *support vendor* as guessed; it
+  was the receiver appointed over the seized domain.
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+Re-fetching https://golookup.com should keep showing the court-order notice.
+If it ever shows a working search tool again, the domain has changed hands
+again and this entry needs to be reopened as a fresh discovery.
 
 ## If they ignore you
 
-Work down this list. Each rung costs them more than the one above it.
-
-1. **Reply in the existing thread** after the statutory deadline. California
-   allows 45 days for a deletion request (Cal. Civ. Code 1798.130), extendable
-   once by a further 45 with notice. Quote the date you first wrote.
-2. **Complain to the California Attorney General**, who administers the data
-   broker registry: <https://oag.ca.gov/contact/consumer-complaint-against-business-or-company>.
-3. **Complain to the FTC**: <https://reportfraud.ftc.gov>. Useful for a pattern
-   of non-response rather than a single case.
-4. **Your own state Attorney General.** Many states with no comprehensive
-   privacy statute still have consumer-protection powers and will take a
-   complaint about a business that ignores its own published policy.
-
-**What not to bother with:** phoning a support line to argue. The person who
-answers cannot change the policy and did not write it. The registry entry, the
-statutory deadline and the regulator are what actually move a company.
-
-## If they ignore you
-
-Work down this list. Each rung costs them more than the one above it.
-
-1. **Reply in the existing thread** after the statutory deadline. California
-   allows 45 days for a deletion request (Cal. Civ. Code 1798.130), extendable
-   once by a further 45 with notice. Quote the date you first wrote.
-2. **Write to the legal entity at the registered address above**, by post, if
-   email has failed. A letter to the address of record is harder to lose than a
-   support ticket, and it establishes a paper trail.
-3. **Complain to the California Attorney General**, who administers the data
-   broker registry: <https://oag.ca.gov/contact/consumer-complaint-against-business-or-company>.
-   A broker's registration is what obliges it to answer; a complaint referencing
-   the registry entry is the pressure point.
-4. **Complain to the FTC**: <https://reportfraud.ftc.gov>. Useful for a pattern
-   of non-response rather than a single case.
-5. **Your own state Attorney General.** Many states with no comprehensive
-   privacy statute still have consumer-protection powers and will take a
-   complaint about a business that ignores its own published policy.
-
-**What not to bother with:** phoning a support line to argue. The person who
-answers cannot change the policy and did not write it. The registry entry, the
-statutory deadline and the regulator are what actually move a company.
+Not applicable — there is no live operator to escalate against. A Daniel's
+Law judgment is already the escalation.

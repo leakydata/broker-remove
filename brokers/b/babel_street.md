@@ -7,8 +7,25 @@
 
 ## Status
 
-- Current: `replied` (updated 2026-10-06)
-- 2026-10-06 20:19: another opaque OneTrust "a comment has been added" notice on the same request (P7MJRE69RA), no content in the email -- third time this exact shape has recurred (also 9/15, 9/21). Replied directly to privacy@babelstreet.com (not the portal) asking them to relay the comment's content by email. Awaiting answer. **This is now a recurring pattern worth naming as one**: OneTrust fires a notification every time ANYTHING is added to the ticket, including comments visible only in the portal, and this project's standing policy of email-only means every single one needs a follow-up asking "what did it say" rather than being read directly.
+- Current: `confirmed` (updated 2026-10-08)
+- **2026-10-07 reply: deletion confirmed.** *"Following verification of your
+  identity, we searched our systems and identified personal information
+  associated with you. The categories and data elements identified are...
+  Name: [FIRST LAST]; Email: [EMAIL]... We have processed your
+  deletion request and have removed responsive records from applicable
+  systems, except where retention is required by law... no further action is
+  required on your part."* This answers the 10/6 "what did the opaque OneTrust
+  comment say" question by superseding it entirely.
+  **Read narrowly: only name + one email address were named as matched**,
+  out of the full set supplied (DOB, phone, address, four email addresses).
+  Babel Street did not say whether the other three emails, the phone, or the
+  address were searched and came back empty, or simply weren't part of what
+  matched — the reply names what it found, not what it checked. Recorded as
+  `confirmed` on the strength of the affirmative deletion statement, but if
+  this listing resurfaces under one of the other submitted identifiers,
+  that is not inconsistent with this reply; it would mean those identifiers
+  were simply never in scope of what got removed.
+- 2026-10-06 20:19: another opaque OneTrust "a comment has been added" notice on the same request (P7MJRE69RA), no content in the email -- third time this exact shape has recurred (also 9/15, 9/21). Replied directly to privacy@babelstreet.com (not the portal) asking them to relay the comment's content by email. **Resolved by the 10/7 reply above** — the "comment" was the full deletion determination. **This is now a recurring pattern worth naming as one**: OneTrust fires a notification every time ANYTHING is added to the ticket, including comments visible only in the portal, and this project's standing policy of email-only means every single one needs a follow-up asking "what did it say" rather than being read directly.
 - 2026-09-24 reply: Babel Street confirmed no further verification is needed for now; they'll review what's already been provided (name/DOB/phone/address/4 emails) and determine whether responsive records exist, notifying either way either through email or the OneTrust portal. No action needed from us until they respond with a determination.
 - Reference: `gmail:1a0c897d1ad6dab7`
 - Note: 9/23, Babel Street's Data Privacy Office replied to the direct-email verification response (below) with a single line: "Are you able to access the messages on OneTrust?" Replied no — this project handles requests by email only, no browser/account-based flow — and recapped the identifiers already sent (name, DOB, phone, address, four emails) plus the standing offer of a proof-of-address document, asking them to say specifically what more is needed short of a government ID, or to proceed if what's on file is sufficient. Awaiting a substantive answer; **the pattern so far is that Babel Street keeps redirecting to the portal by reflex even though a human is reading and replying to the direct emails** — worth being explicit and repetitive about the email-only constraint rather than assuming it was understood the first time.
@@ -49,6 +66,14 @@
 6. **Ask them to state which identifiers matched.** "We deleted your record" and "we searched and found nothing" are different outcomes, and a reply that does not distinguish them tells you nothing about whether you were ever in the file.
 
 ## Gotchas
+
+**A "deletion confirmed" reply names what it found, not what it checked.**
+The 2026-10-07 confirmation here listed only name + one email address as
+matched, out of name/DOB/phone/address/four-emails supplied. That is not the
+same as "we searched everything and only that matched" — it reads as "that is
+what we found," silent on whether the rest were searched and came back empty
+or simply weren't in scope. Treat a resurfacing listing under an identifier
+the confirmation didn't name as a fresh gap, not a broken promise.
 
 **A OneTrust "insufficient verification" notice can be a template, not a
 considered decision — email the human address directly rather than escalating

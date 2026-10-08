@@ -636,8 +636,8 @@
     "via": null
   },
   "babel_street": {
-    "status": "replied",
-    "changed": "2026-09-25",
+    "status": "confirmed",
+    "changed": "2026-10-08",
     "via": "reply"
   },
   "background_alert": {
@@ -2549,9 +2549,9 @@
     "via": "email"
   },
   "golookup": {
-    "status": "submitted",
-    "changed": "2026-10-04",
-    "via": "email"
+    "status": "not_found",
+    "changed": "2026-10-08",
+    "via": "reply"
   },
   "good_boy_studios": {
     "status": "submitted",
