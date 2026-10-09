@@ -7,7 +7,15 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-28)
+- Current: `not_found` (updated 2026-10-09)
+- Reference: `gmail:1a0479459b90671b` (answered on the sibling ISS MI thread, see below)
+- 10/8: ISS STOXX replied on the separate ISS Market Intelligence / Asset
+  International thread (cc'ing this mailbox) with a nil result and an
+  explicit statement that "the same data protection function applies to both
+  entities" — i.e. one search, answered in writing, covers this registration
+  too. See `brokers/i/iss_market_intelligence_or_iss_mi.md` for the full
+  exchange. No separate reply ever arrived on this mailbox's own thread, and
+  none was needed once the sibling thread named this entity by name.
 - Note: Sent an ACCESS-AND-CORRECTION-FIRST variant, same shape as the Infortal due-diligence letter. ISS is several businesses, so the letter opens with a five-way categorisation question: proxy/governance data on directors and officers (biographies, board memberships, independence classifications, compensation, or any SCORE or FLAG attached to a named individual); ESG or controversy research naming individuals; shareholder or beneficial-owner records from proxy voting or securities-class-action services; ordinary marketing/subscriber records; something else.
 
 On the first two, ACCESS AND CORRECTION MATTER MORE THAN DELETION and the letter says why: a governance or controversy record is compiled without the subject's involvement, sold to institutional clients, and used in votes, screens and engagement the subject never sees. If it is wrong, deleting their copy does not unsay what has already been supplied. Stated plainly that the subject is not a director or officer, so a match would most likely be a wrong record about someone, with the LinkedIn profile offered so that can be ruled out fast.
@@ -24,17 +32,18 @@ PRE-EMPTED THE PUBLIC-FILINGS DEFLECTION by conceding the true half: not asking 
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+**A reply can resolve a thread it was never sent on.** This mailbox never
+answered its own letter directly — the resolution arrived as a cc on the
+sibling ISS Market Intelligence / Asset International thread, where ISS
+STOXX confirmed one data protection function covers both registrations. Worth
+checking a sibling entity's thread before assuming silence here means
+nothing happened.
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+Confirmed 10/8 via the sibling thread: nil, with the reply affirmatively
+naming this entity as covered by the same search. See
+`brokers/i/iss_market_intelligence_or_iss_mi.md`.
 
 ## Who they are, and how to reach them
 

@@ -1362,9 +1362,9 @@
     "via": "email"
   },
   "corporationwiki": {
-    "status": "unreachable",
-    "changed": "2026-09-02",
-    "via": null
+    "status": "not_found",
+    "changed": "2026-10-09",
+    "via": "web"
   },
   "costar_realty_information": {
     "status": "submitted",
@@ -3019,14 +3019,14 @@
     "via": "email"
   },
   "instantly_ai": {
-    "status": "replied",
-    "changed": "2026-09-22",
+    "status": "confirmed",
+    "changed": "2026-10-09",
     "via": "reply"
   },
   "institutional_shareholder_services": {
-    "status": "submitted",
-    "changed": "2026-08-28",
-    "via": null
+    "status": "not_found",
+    "changed": "2026-10-09",
+    "via": "reply"
   },
   "integrated_medical_data": {
     "status": "unreachable",
@@ -3100,7 +3100,7 @@
   },
   "ipsos": {
     "status": "replied",
-    "changed": "2026-09-25",
+    "changed": "2026-10-09",
     "via": "reply"
   },
   "iqvia": {
@@ -3124,9 +3124,9 @@
     "via": "email"
   },
   "iss_market_intelligence_or_iss_mi": {
-    "status": "submitted",
-    "changed": "2026-08-28",
-    "via": "email"
+    "status": "not_found",
+    "changed": "2026-10-09",
+    "via": "reply"
   },
   "iwave": {
     "status": "submitted",
@@ -6888,9 +6888,9 @@
     "via": null
   },
   "xverum": {
-    "status": "manual_required",
-    "changed": "2026-09-18",
-    "via": null
+    "status": "submitted",
+    "changed": "2026-10-09",
+    "via": "email"
   },
   "yes": {
     "status": "submitted",

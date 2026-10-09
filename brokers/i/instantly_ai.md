@@ -7,21 +7,24 @@
 
 ## Status
 
-- Current: `replied` (updated 2026-09-22)
+- Current: `confirmed` (updated 2026-10-09)
 - Reference: `gmail:1a046b4a0d824dc6`
-- Note: 9/21 reply from dpo@instantly.ai, and it is the most substantive reply
-  this project has received from a cold-email/prospecting tool. It answered
-  the processor/controller split directly: Instantly holds no contact-database
-  record of its own, but the 11 addresses given appear inside 8 customer
-  accounts, with 12 message-send records held as processor. It offered, on
-  request: (1) to name the 8 customer companies once addresses are confirmed
-  as staying under the requester's control, (2) to flag the customer-held
-  copies for deletion, (3) to add all addresses to a platform-wide suppression
-  list. Replied 9/22 accepting all three, asking that the suppression not be
-  made contingent on the 8 customers acting on the deletion flag (since that
-  depends on parties outside Instantly's control), and extending the ask to
-  any generated first.last@employer pattern addresses built from the supplied
-  LinkedIn profile. Awaiting the follow-up.
+- 10/8 final reply, and it closed every open point from the 9/22 follow-up
+  without dropping any of them: 3 of the 11 addresses were actually found
+  (not all 11 — the broker was precise about which), spread across 10
+  customer accounts (8 sent, 2 held without sending), 12 records total (10
+  sent, 1 open, 1 bounce). Each of those 10 customer accounts now shows that
+  the subject exercised privacy rights and can no longer be contacted through
+  the platform. All 11 addresses were added to the platform-wide suppression
+  list *as of that date*, stated explicitly as independent of the
+  customer-copy deletion (the one ask from 9/22 that mattered most, since
+  deletion depends on 8 other companies acting and suppression does not).
+  Generated name/employer contact-pattern variants were also searched, with
+  any matches suppressed on the same basis. Closed with thanks 10/9 — no
+  further action.
+- Older note (9/21), for context: the 9/21 reply answered the
+  processor/controller split directly and offered the three actions above on
+  request; see the full exchange for the exact asks made in response.
 - Older note (8/28), for the letter that produced this reply: Sent a TWO-POSITIONS variant, separating processor from controller at the outset so neither answer swallows the other. Position one: contact lists customers upload and send from their own accounts -- conceded as theirs, not asking them to alter a customer's list unilaterally. Position two: any LEAD DATABASE or contact-finding product they operate themselves, which is squarely in scope and is where a cold-email platform's own data sits.
 
 For the processor half, two asks rather than assumptions: (a) which customer accounts hold a matching record, and if they will not name them, will they forward the request and confirm; (b) A PLATFORM-WIDE SUPPRESSION -- if they run a global do-not-contact list applying across all customer sends, add every address to it. That is the one control they can operate without touching anyone else's data, and it is the only thing that stops the next customer uploading the same person again.
@@ -56,10 +59,13 @@ contingent on, the customer-deletion step.
 
 ## Verification
 
-Watch for: (1) the named customer companies, (2) confirmation the 12 message
-records were flagged for deletion with the 8 customers, (3) confirmation the
-suppression list now includes all 11 addresses plus any employer-pattern
-variants.
+Confirmed 10/8: 3/11 addresses matched across 10 customer accounts (12
+records); all 10 accounts flagged that the subject exercised privacy rights;
+platform-wide suppression applied to all 11 addresses plus generated
+employer-pattern variants, effective immediately and not contingent on the
+customer-side deletion. No re-check scheduled — a platform-wide suppression
+that the broker itself controls, stated as independent of third-party action,
+is as durable an outcome as an email-only request gets.
 
 ## Who they are, and how to reach them
 

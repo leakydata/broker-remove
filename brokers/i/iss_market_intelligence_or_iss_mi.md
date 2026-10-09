@@ -7,7 +7,16 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-28)
+- Current: `not_found` (updated 2026-10-09)
+- Reference: `gmail:1a0479459b90671b`
+- 10/8 reply (cc'ing dataprotectionofficer@issgovernance.com): no personal
+  data matching the supplied identifiers found. It also directly answered the
+  scoped-confirmation question the original letter asked — "We also confirm
+  that both Asset International, Inc. and Institutional Shareholder Services,
+  Inc. are affiliates within ISS STOXX and that the same data protection
+  function applies to both entities." That's option (a) from the original
+  letter: one search, answered in writing, covers both the ISS MI and ISS
+  Governance registrations. Closed with thanks 10/9.
 - Note: Emailed dataprotectionofficer@iss-stoxx.com 2026-08-28 (ISS Market Intelligence = Asset International, Inc.; CA registry 2025-2026). Two ISS registrations, two mailboxes, one group -- so the letter opens by asking which is true: (a) this office covers both registrations and one search answers both letters, or (b) the entities hold separate data and this one was searched on its own systems rather than answered from the ISS Governance result. Named the failure mode explicitly: a group privacy function answers for everything, the consumer gets a confirmation that reads as complete, and one subsidiary's database was never queried. Otherwise access-and-correction-first as with Ipreo/ISS Governance, B2B carve-out sunset pre-answered, and a specific ask for publication/conference subscriber and registration records, which a search scoped to the research databases will miss.
 
 ## Steps
@@ -20,17 +29,21 @@
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+**The scoped-confirmation question is worth asking explicitly, and it gets
+answered when you do.** ISS STOXX is two separate CA data-broker
+registrations (Asset International, Inc. / ISS Market Intelligence, and
+Institutional Shareholder Services, Inc.) with two different filed mailboxes.
+Asking directly "does one search answer both letters, or does each need its
+own" got a plain written answer — one data protection function, one search,
+both entities covered — rather than the generic-sounding nil reply you'd get
+without asking, which would have been indistinguishable from only one
+subsidiary's database having been queried.
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+Confirmed 10/8: nil, with the reply affirmatively stating the same DP
+function covers both registrations. No further verification needed for a
+genuine nil that names what was checked.
 
 ## Who they are, and how to reach them
 

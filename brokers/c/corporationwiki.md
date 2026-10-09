@@ -1,14 +1,36 @@
 # Corporationwiki
 
-- **Opt-out:** https://www.corporationwiki.com/profiles/public
-- **Method:** web_form — Web form.
+- **Opt-out:** https://www.corporationwiki.com/profiles/public (dead, see Status)
+- **Method:** email — moot; there is no operator left to email. See Gotchas.
 - **Domain:** corporationwiki.com
 - **Priority: 2.**
 
 ## Status
 
-- Current: `unreachable` (updated 2026-09-02)
-- Note: corporationwiki.com returns 410 GONE on every path tried (home, /profiles/public, /contact) and 520 on the apex, while DNS resolves to Cloudflare and MX points at Google Workspace. So the mail tenant is live but the SITE IS DELIBERATELY SERVING GONE -- 410 is not a 404: it is the status a server returns to say a resource has been intentionally removed and will not return. No opt-out form is reachable and no contact address is published anywhere I can read. Row had only an optout_url (/profiles/public) and no email. Not guessing a mailbox at a company whose site has been withdrawn: the letter would carry a full identifier set to an unverified address. Re-check later -- a live MX behind a withdrawn site is the succession signature from 163, so this may be a rename rather than a closure.
+- Current: `not_found` (updated 2026-10-09)
+- **2026-10-09: the 2026-09-02 guess was right — this is a rename, not a closure, and the renamed owner is a court-appointed custodian with nothing to search.**
+  corporationwiki.com now serves a static "Domain Update" notice: *Atlas Data
+  Privacy Corporation, et al. v. Sagewire Research, LLC, et al.*, Superior
+  Court of New Jersey, Bergen County, Docket No. BER-L-000869-24 — a Daniel's
+  Law suit brought by Atlas on behalf of roughly 19,078 assigned "covered
+  persons" (law enforcement, prosecutors and similar). The domain is now
+  controlled by Atlas Data Privacy Corporation, the same court-appointed
+  custodian already encountered at `brokers/g/golookup.md`. `verify_emails.py`
+  proposed `support@atlas.net` as an off-domain contact (flagged
+  `offdomain_needs_confirmation`, correctly held from auto-send) — this is
+  that same custodian mailbox, confirmed by fetching the live site rather than
+  guessed. No letter was sent: GoLookUp's 2026-10-04 statutory letter to this
+  identical mailbox already produced Atlas's standing answer — *"no personal
+  information held by any data broker was transferred to Atlas... we
+  therefore have no ability to... remove or delete your personal
+  information"* — and there is nothing left on corporationwiki.com to search
+  or display. Recorded as `not_found` on the same reasoning as GoLookUp: the
+  listing is already gone, but through litigation this project had no part
+  in, so `confirmed` would overstate this project's role and `unreachable`
+  would understate that the domain is live, just inert.
+- Prior (2026-09-02): `unreachable` — 410 GONE on every path, live MX behind a
+  withdrawn site, flagged as possibly a rename rather than a closure.
+  Confirmed above.
 
 ## Steps
 
@@ -21,17 +43,27 @@
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+**An automated off-domain discovery can be right for a reason the scraper
+doesn't know.** `verify_emails.py` flags any contact address found off the
+broker's own domain as `offdomain_needs_confirmation` and correctly withholds
+it from auto-send, because most of the time an off-domain address is a wrong
+guess. Here it wasn't a guess at all — `support@atlas.net` is the real
+current owner, a litigation custodian, not a stray scrape. Worth fetching the
+live site by hand before assuming "off-domain" means "unrelated"; a seized
+data-broker domain is exactly the case where the real contact is never on
+the original domain.
+
+**Same custodian, same answer, no need to ask twice.** Atlas's position (see
+`brokers/g/golookup.md`) is that it holds none of the underlying personal
+data and has no operational ability to act on a deletion request for any
+domain it has taken over this way. There's no reason to expect a
+domain-specific answer from the same mailbox.
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+Confirmed 2026-10-09 by fetching corporationwiki.com directly: static court
+notice, no search tool, no listing, no form. Re-check only if Atlas's
+custodianship of this specific docket changes.
 
 ## If they ignore you
 

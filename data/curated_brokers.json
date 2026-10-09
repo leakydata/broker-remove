@@ -5425,8 +5425,10 @@
       "source": "optery_scrape",
       "optery_slug": "corporationwiki",
       "email_verified": false,
-      "email_verified_by": "no_address_published",
-      "listing_basis": "third_party_directory"
+      "email_verified_by": "offdomain_needs_confirmation",
+      "listing_basis": "third_party_directory",
+      "email_to": "support@atlas.net",
+      "notes": "support@atlas.net is not on corporationwiki.com -- the site publishes no address on the broker's own domain. Either an acquisition (route is correct) or a wrong domain in the registry (route is a stranger). Confirm the corporate relationship before sending: the letter carries a full identifier set."
     },
     {
       "id": "costar_realty_information",
@@ -26947,9 +26949,9 @@
       "optout_url": "https://www.xverum.com/dontusemydata/",
       "needs_email_confirm": null,
       "source": "broker_disclosure",
-      "email_to": "",
-      "email_verified": false,
-      "email_verified_by": null,
+      "email_to": "privacy@xverum.us",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy",
       "category": "b2b_contact",
       "category_source": "manual 2026-09-18",
       "listing_basis": "discovered",

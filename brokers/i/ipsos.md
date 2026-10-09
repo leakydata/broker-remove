@@ -7,7 +7,17 @@
 
 ## Status
 
-- Current: `replied` (updated 2026-09-25)
+- Current: `replied` (updated 2026-10-09)
+- 2026-10-08 reply: the agent (signing as "Matt, Agent 88") restated the same
+  position after being told plainly that no project reference exists —
+  "If you have nothing you can provide me, to help me help you, I can't
+  identify the research project." Replied 2026-10-09 naming the circularity
+  directly (see Gotchas), pointing to Ipsos's own CA data-broker-registry
+  filing as the counter-citation (email, phone, or the unsubscribe link —
+  no project reference listed for any of them), asking whether the phone
+  line specifically can register a name/DOB/address suppression without
+  one, and noting the 45-day CCPA deadline (from the 8/28 letter) has now
+  passed without an extension notice. Awaiting response.
 - 2026-09-21 reply: Ipsos DPO asked for the research-invitation email or consent form to verify a specific survey/panel relationship, since Ipsos runs many independent research projects. Replied 2026-09-22 explaining this is a general registry-driven privacy request with no known survey to point to. Awaiting their response.
 - Note: Emailed dpo.usa@ipsos.com 2026-08-28. Market-research/panel variant: asked whether panel PROFILING responses are retained against identity (recruitment questionnaires cover health, income, politics, religion -- asked these be treated as sensitive PI with use limited, not only deleted); pre-empted the de-identification answer by asking about the respondent/panellist TOKEN rather than the responses; flagged passive-measurement/audience-metering data as in scope and asked which identifier types were searched, since a name search will not reach device-keyed data; conceded processor-held client research data in advance and asked them to say so plainly and confirm whether they will forward.
 
@@ -21,13 +31,26 @@
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+**The verification ask is circular, and Ipsos's human reviewer did not budge
+on being told so.** Ipsos's privacy desk treats "a research-invitation email,
+a consent form, or the project domain" as the *verification* step for a
+deletion request — but for a general consumer request with no known survey,
+that evidence is exactly what does not exist, and producing it is not
+possible by definition: if the requester had a project reference, they
+wouldn't need Ipsos to search for the relationship in the first place. Told
+this plainly across two rounds, the reviewer's position did not move; they
+offered only to "chase it down" once such evidence is supplied. Treat this as
+a structural stall rather than a one-off misunderstanding — a name/DOB/phone
+search without a project number may genuinely not be something this mailbox
+can run, in which case the useful next step is the registry-filed phone line
+`(833) 931-1525`, which is a different team and may support the kind of
+identifier-based search this mailbox says it cannot do.
+
+**The CA registry filing is leverage here, not just a contact source.** Its
+filed opt-out route (email, phone, or the unsubscribe link in any Ipsos
+email) names no project-reference requirement for any of the three methods —
+useful to cite back when the desk asks for evidence the registry itself
+doesn't require.
 
 ## Verification
 
