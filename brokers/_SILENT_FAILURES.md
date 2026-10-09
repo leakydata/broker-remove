@@ -30150,3 +30150,61 @@ therefore strand items that were live when they were written.
 v3 rather than anything a human must solve. A backlog you have not pruned is not
 a backlog, it is an estimate — and this one was 18% too pessimistic in a
 direction that generated work rather than saving it.
+
+---
+
+## §456 — The only channel they accept cannot receive the request
+
+Buildertrend refused two emailed requests with the same macro: *"It looks like
+your request wasn't submitted through the designated method outlined in Section
+X of our Privacy Notice."* The handoff staged for it was written expecting
+Section X not to exist — a reasonable suspicion, since "see section X" is a
+classic way of refusing without a route.
+
+**The suspicion was wrong and they deserve that said plainly.** `X. Contact Us`
+is the final numbered section of the notice, and it carries both a toll-free
+number and the request form. The designated method is real, findable, and
+exactly where they said it was.
+
+**Then the form rejected the request.**
+
+The first submission carried the identifier set in the Request Details box —
+twelve email addresses, eleven telephone numbers, sixteen prior postal
+addresses. It came back:
+
+```
+*** Forbidden. Contains contacts. Anti-Spam by CleanTalk. ***
+```
+
+The identical form, same fields, same account, submitted successfully the
+moment those identifiers were removed. That isolates the cause exactly: it is
+not length, not rate-limiting, not the CAPTCHA. **CleanTalk is configured to
+treat any message containing an address or a phone number as spam.**
+
+Which means the only channel Buildertrend accepts is structurally incapable of
+receiving a complete data-subject request. Identifiers are not incidental to a
+deletion request — they are the request. A broker cannot search for you without
+them, and §449 and §454 are both about nils produced by searching too few. Here
+the form forbids supplying any.
+
+**The shape of this is worth naming, because it is not the same as a refusal.**
+A refusal is visible and can be appealed. This is a filter in front of a route
+that the company presumably believes is open. Nobody at Buildertrend decided
+that privacy requests should be undeliverable; they bought an anti-spam product
+and pointed it at a contact form, and the product does what it says. The
+consumer sees a generic red banner about spam and reasonably concludes the site
+is broken rather than that their rights request was blocked for containing the
+only facts that would make it work.
+
+**What went in instead.** The four asks, the non-customer framing — their "I am
+a(n)" dropdown assumes you are a customer, and "Other" is the only honest
+option for the people a data-broker registration actually concerns — the
+Pennsylvania disclosure, and an explicit request that they **email me to collect
+the identifiers**, with the CleanTalk rejection quoted to them as a defect
+report rather than a complaint. Submission confirmed: entry_id=1938911.
+
+**The generalisable check.** When a form refuses a request, resubmit it stripped
+to the minimum before concluding anything. The difference between the two
+attempts is the finding, and it took one extra submission to turn "the form is
+broken" into "the filter forbids identifiers." Guessing would have produced a
+worse note and no fix to ask for.
