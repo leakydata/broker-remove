@@ -30208,3 +30208,53 @@ to the minimum before concluding anything. The difference between the two
 attempts is the finding, and it took one extra submission to turn "the form is
 broken" into "the filter forbids identifiers." Guessing would have produced a
 worse note and no fix to ask for.
+
+---
+
+## §457 — "Staged, not submitted" turned out to be a guess
+
+Across one afternoon I staged five forms, recorded each as `captcha_blocked`
+with a note saying the CAPTCHA was the only remaining blocker, and added each to
+a list for the subject to finish. In every case I stopped short of clicking
+Submit, precisely so that nothing would go out unverified.
+
+**Two of the five submitted anyway.**
+
+- **Enformion** — recorded "staged, blocked only by a reCAPTCHA." Forty minutes
+  later `support@enformion.com` emailed "Complete Your Request" carrying
+  **ticket 15417940**.
+- **Client Command** — recorded "staged, blocked only by an I-am-not-a-robot
+  reCAPTCHA." An hour later `privacy@clientcommand.com` returned **request ID
+  ZJ4XZGC3RC**, a full substantive refusal on residency grounds.
+
+The other three produced no acknowledgement at all: Adstra and EAB (both
+BotDetect image CAPTCHAs) and Brandwatch (a reCAPTCHA checkbox). So the pattern
+is not clean enough to predict from the widget type, and I cannot establish from
+here whether those two forms auto-submitted, whether setting the final checkbox
+fired a submit handler, or whether the subject cleared them himself.
+
+**What is established is narrower and more useful: I cannot tell, from the
+page, whether a form has been submitted.** "Staged but not sent" was an
+inference from my own intent — I did not click Submit, therefore nothing was
+sent — and intent is not evidence about what a page did. The accessibility tree
+shows a CAPTCHA widget present; it does not show whether the form behind it
+fired.
+
+**The consequences run both ways, and the second is worse.**
+
+Ask the subject to solve a CAPTCHA on a form that already submitted, and he
+files a duplicate — §455's error, reached by a different route. Equally, a
+"blocked" note on a row that is actually live means a real reply gets read as
+unsolicited, or the row sits waiting for a human who has nothing to do.
+
+**The fix is cheap: the inbox is the authority, not the page.** A broker that
+receives a request almost always says so, and usually within the hour — four
+separate acknowledgements arrived inside sixty minutes today. So before any
+`captcha_blocked` row is handed to a human, search the inbox for that broker.
+If there is an acknowledgement or a reference number, the form went through and
+the item should be closed, not queued.
+
+This is the third time in two days that a guard turned out to be positioned at
+the wrong moment (§448, §451c, §455). The shape is the same again: the check I
+needed existed, and I ran it after the fact rather than before handing work
+over.
