@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `manual_required` (updated 2026-08-18)
-- Note: privacy@dtn.com auto-replied that consumer privacy requests sent there 'will not be processed and will be deleted' - the published privacy address explicitly destroys them. Real route is the Data Rights Exercise Request form at /do-not-sell-my-information-form/, which uses CHECKBOXES so one submission covers all six rights. Staged with all six ticked; only the arithmetic anti-bot dropdown and Submit remain. Phone alternative 1-800-485-4000, ask for the Legal Team of the DPO.
+- Current: `manual_required` (updated 2026-10-09)
+- Note: CAPTCHA TYPE CLASSIFIED 2026-10-09: DTN's do-not-sell form uses a plain ARITHMETIC question ('What is 20+55?'), not reCAPTCHA, Turnstile or hCaptcha. That is still bot-detection and this project does not answer it, but it is two seconds of a human's time rather than an image grid -- worth knowing when batching the handoff list, since effort per item varies by two orders of magnitude and the queue labels them all identically as 'captcha'. Form otherwise collects name, email, zip and similar. Not staged this pass.
 
 ## Steps
 

@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `captcha_blocked` (updated 2026-08-20)
-- Note: Autoreply refused the emailed request -- 'your request was not submitted in the manner required by our Product & Services Privacy Policy' -- but pointed to a genuinely good route and described their business: data-driven marketing to 'existing and prospective donors and customers'. KEY POINT, quoted: 'Consumers, REGARDLESS OF THEIR STATE OF RESIDENCE, may opt-out of SimioCloud's database at any time and at no cost via our website: simiocloud.com/optout. Exercising this opt-out right will prevent SimioCloud from selling your personal information, processing your personal information for targeted advertising or profiling, and will result in the removal of your personal information from SimioCloud's database.' That is broader than most state-gated routes and sidesteps the Pennsylvania problem entirely. Separate state-gated deletion and access forms exist at /deletion-form and /access-form for residents of covered states. WPForms form staged with both opt-out boxes ticked; reCAPTCHA handed off. GOTCHA: the form carries a wpforms[hp] HONEYPOT field labelled 'Email' -- it must be left blank or the submission is silently treated as spam.
+- Current: `captcha_blocked` (updated 2026-10-09)
+- Note: CAPTCHA TYPE CHECKED 2026-10-09: simiocloud.com/optout carries a genuine reCAPTCHA widget. Could NOT determine v2-checkbox versus v3-invisible: the accessibility tree exposes only the container, and screenshots of this page time out with the renderer frozen (the same failure seen on EAB's OneTrust form). So the distinction that matters for the handoff -- whether a human is needed at all -- is not resolvable by the method tried here. Left as captcha_blocked, which is the safe assumption.
 
 ## Steps
 
