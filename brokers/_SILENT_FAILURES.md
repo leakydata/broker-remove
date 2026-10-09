@@ -30090,3 +30090,63 @@ private-capital dataset it is likely a former employer's address or one
 rule returns a nil by construction for exactly the people a data-broker
 registration concerns. Not bad faith — a verification design that works for
 subscribers and cannot work for anyone else.
+
+---
+
+## §455 — The queue said do it; the row said it was done in August
+
+The browser loop opened the stale `catalist` item, read its instructions, and
+drove them. Full privacy form: delete and opt out, declaration, name, street
+number and street name, city, state, zip, date of birth, email, telephone.
+Clicked **Send Verification Code**. The page said *"Verification code sent."*
+
+Catalist had **confirmed the deletion on 28 August** — and not weakly. It is one
+of the best outcomes in this file: they quoted back the exact four identifiers
+that matched, which is the itemised-match-list test of §138 and establishes both
+that a record existed and that they found it. On 31 August they answered the
+suppression question in one sentence — *"Catalist maintains a suppression list
+and we will only retain enough to ensure your information is not
+reintroduced"* — which for a national voter file rebuilt continuously from state
+and county rolls is exactly the right answer.
+
+So the loop was forty seconds from filing a duplicate delete-and-opt-out against
+a broker that had already deleted, suppressed, and explained itself better than
+almost anyone. It stopped only because `tracker.py set` refused the status write
+as a regression, and the refusal made me read the row.
+
+**The guard existed and fired at the wrong moment, again.** `handoff.py cmd_add`
+already refuses to *queue* finished work — it checks `_terminal_status` before
+accepting an item. But it checks **once, at enqueue, and never again.** An item
+queued legitimately in August against a row confirmed in September is still
+sitting there looking live, and nothing between the queue and the browser
+re-reads the status.
+
+This is §448's shape for the third time. §448: the warning fired on recording,
+after the letter was sent. §451c: rank answered "further along" when the
+question was "who knew more". Here: the check runs at the moment work is
+*created* rather than the moment it is *performed*. Every time, the logic was
+right and its position was wrong.
+
+**Scale.** It was not one stale item:
+
+```
+29 of 165 open handoff items pointed at rows already closed  (18%)
+    confirmed 12 · unreachable 9 · not_found 4
+    covered_by_sibling 2 · suppressed 2
+```
+
+Nearly a fifth of the queue was not work. It was traps — and the more diligent
+the person working it, the more duplicate requests they file. A queue that
+cannot tell a task from a finished task punishes exactly the behaviour it exists
+to encourage.
+
+`handoff.py prune` now closes them, recording in each item that it was closed by
+the tool rather than by anyone doing the task. Run after every ledger merge: the
+second agent's confirmations land in this tracker by merge, and every merge can
+therefore strand items that were live when they were written.
+
+**And the thing to keep.** The real queue was never 165. It was 136, and of the
+35 marked `captcha` an unknown number are self-clearing Turnstile or invisible
+v3 rather than anything a human must solve. A backlog you have not pruned is not
+a backlog, it is an estimate — and this one was 18% too pessimistic in a
+direction that generated work rather than saving it.

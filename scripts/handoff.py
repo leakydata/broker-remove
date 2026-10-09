@@ -72,6 +72,10 @@ def now():
 # there and it worked; nothing in working a queue item tells you the matter is closed.
 TERMINAL_BLOCK = {"confirmed", "not_found", "suppressed", "covered_by_sibling"}
 
+# Wider than TERMINAL_BLOCK: 'unreachable' is a fine reason to queue a route
+# hunt, but once a row IS unreachable the queued item has nothing left to do.
+TERMINAL_STALE = TERMINAL_BLOCK | {"unreachable"}
+
 
 def _terminal_status(broker):
     """Current status of a broker, or None. Used to refuse queueing finished work."""
@@ -195,6 +199,48 @@ def cmd_add(a):
     print(f"queued: {a.broker} ({ACTIONS.get(a.action, a.action)})")
 
 
+def cmd_prune(a):
+    """Close open items whose broker row has since reached a terminal status.
+
+    _SILENT_FAILURES 455. cmd_add already refuses to QUEUE finished work -- but
+    it checks once, at enqueue, and never again. A row queued legitimately in
+    August and confirmed in September leaves a live-looking item pointing at
+    finished work, and the next person to work the queue drives it.
+
+    That is not hypothetical. On 2026-10-09 the browser loop opened the stale
+    `catalist` item, filled the whole privacy form and requested an email
+    verification code -- for a broker that had CONFIRMED deletion on 28 August
+    with an itemised match list, and confirmed a suppression entry on the 31st.
+    One of the project's best outcomes, nearly re-litigated by a duplicate
+    request. The submission was abandoned at the code step only because the row
+    was checked by hand, late, for an unrelated reason.
+
+    29 of 165 open items were in that state when this was written -- 18% of the
+    queue, every one of them a trap rather than a task.
+    """
+    q = load()
+    moved = []
+    for item in list(q.get("open", [])):
+        bid = item.get("broker")
+        cur = _terminal_status(bid)
+        if cur in TERMINAL_STALE:
+            item["closed_at"] = now()
+            item["outcome"] = (f"PRUNED {now()[:10]}: the row reached '{cur}' after this item "
+                               f"was queued, so there is nothing left to do. Closed by "
+                               f"handoff.py --prune, not by anyone performing the task. If the "
+                               f"status is wrong, reopen the row first and re-queue.")
+            q.setdefault("closed", []).append(item)
+            q["open"].remove(item)
+            moved.append((bid, cur, item.get("action")))
+    if moved and not a.dry_run:
+        save(q)
+    print(f"{len(moved)} stale item(s) {'would be' if a.dry_run else ''} closed "
+          f"| {len(q.get('open', []))} open remain")
+    for bid, cur, act in moved:
+        print(f"   {bid:44s} {cur:18s} ({act})")
+    return 0
+
+
 def cmd_done(a):
     q = load()
     hit = [e for e in q["open"] if e["broker"] == a.broker]
@@ -282,6 +328,10 @@ def main():
     sub = ap.add_subparsers(dest="cmd", required=True)
 
     p = sub.add_parser("add")
+    pr = sub.add_parser("prune", help="close open items whose row is already finished")
+    pr.add_argument("--dry-run", action="store_true")
+    pr.set_defaults(func=cmd_prune)
+
     p.add_argument("broker")
     p.add_argument("--url", required=True)
     p.add_argument("--action", required=True, choices=sorted(ACTIONS))
