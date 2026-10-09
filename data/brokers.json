@@ -4706,7 +4706,7 @@
    "domain": "brandwatch.com",
    "priority": 2,
    "method": "email",
-   "optout_url": "https://www.brandwatch.com/your-privacy-choices/",
+   "optout_url": "https://www.brandwatch.com/legal/data-subject-access-request",
    "needs_email_confirm": null,
    "source": "optery_scrape",
    "optery_slug": "brandwatch",
@@ -4722,6 +4722,8 @@
    ],
    "email_note": "|| 2026-08-30 REQUEST URL FOUND ON THEIR OWN SITE (SILENT_FAILURES 203a), via scripts/find_request_urls.py: https://www.brandwatch.com/your-privacy-choices/ -- recovered from their published privacy pages rather than from a mailed link, which is the route that can be corrupted in transit. Use this directly; no discovery needed.",
    "listing_basis": "state_register",
+   "optout_url_was": "https://www.brandwatch.com/your-privacy-choices",
+   "optout_url_note": "/your-privacy-choices 404s as of 2026-10-09; live route found via /privacy-policy",
    "route_evidence": "filed"
   },
   {
