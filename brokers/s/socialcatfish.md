@@ -6,8 +6,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-10-09)
-- Note: SUBMITTED 2026-10-09, confirmed on screen: 'You have successfully submitted the form.' Opt-out form at socialcatfish.com/opt-out/?id=request_optout, driven in the browser. WHAT WENT IN: name, [EMAIL] as correspondence, middle initial E, age range 45-53, ALL TWELVE email addresses in the repeatable OTHER EMAILS list, ELEVEN phone numbers, and Maryland plus Alabama under 'Other States Where You Have Lived'. Residency attestation ticked as the consumer himself; the authorized-agent box deliberately left unticked. THE PAGE HAS CHANGED SINCE THE HANDOFF MAPPED IT and the handoff is now stale: there are four separate request types as tabs -- Opt-Out, Access, Deletion, Correct Information -- and a STEP 01 state selector that did not exist. DELETION IS A SEPARATE FORM AND HAS NOT BEEN FILED; this row covers the opt-out only. THREE THINGS THAT COST FOUR SUBMIT ATTEMPTS, all worth knowing before anyone repeats this: (1) phone numbers must be DASHED, 951-200-1234 style -- bare digits are rejected with the generic 'Invalid Phone numbers found'; (2) blank repeat rows also fail validation, so delete every spare row the + button creates; (3) DUPLICATES ARE REJECTED outright -- 'Duplicate Entries are not allow' -- so the usual trick of padding a spare row with a repeated value does not work here. Cloudflare Turnstile is present but self-clears; it is NOT a CAPTCHA and needs no human. The optional image upload exists for an identity document and was not used. [PHONE] was deliberately WITHHELD from the phone list: it is toll-free and so most likely a shared business line, and this form suppresses by bare value, which would unlist a number belonging to someone else.
+- Current: `acknowledged` (updated 2026-10-09)
+- Note: CONFIRMED RECEIVED 2026-10-09 17:02 UTC, 24 minutes after submission: no-reply@socialcatfish.com, 'Privacy Request Received - Thank you... This email is intended to confirm our receipt of your request pursuant to applicable privacy law.' So the opt-out landed and is in their queue. Watch for a completion notice; the DELETION form remains separate and unfiled.
 
 ## Steps
 
