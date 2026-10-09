@@ -27074,6 +27074,34 @@
       "email_to": "info@touchsuite.com",
       "email_verified": true,
       "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "morningstar",
+      "name": "Morningstar",
+      "domain": "morningstar.com",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "morningstar-2",
+      "email_to": "privacyenquiries@morningstar.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
+    },
+    {
+      "id": "zeta_global",
+      "name": "Zeta Global",
+      "domain": "zetaglobal.com",
+      "priority": 1,
+      "method": "email",
+      "optout_url": "",
+      "needs_email_confirm": null,
+      "source": "optery",
+      "optery_slug": "zeta-global",
+      "email_to": "privacy@zetaglobal.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
     }
   ],
   "count": 1408
