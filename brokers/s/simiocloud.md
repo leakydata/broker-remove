@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `captcha_blocked` (updated 2026-10-09)
-- Note: CAPTCHA TYPE CHECKED 2026-10-09: simiocloud.com/optout carries a genuine reCAPTCHA widget. Could NOT determine v2-checkbox versus v3-invisible: the accessibility tree exposes only the container, and screenshots of this page time out with the renderer frozen (the same failure seen on EAB's OneTrust form). So the distinction that matters for the handoff -- whether a human is needed at all -- is not resolvable by the method tried here. Left as captcha_blocked, which is the safe assumption.
+- Current: `submitted` (updated 2026-10-09)
+- Note: OPT-OUT SUBMITTED 2026-10-09, confirmed on screen: 'Thanks for contacting SimioCloud! We will remove your information within two to three weeks.' Both boxes ticked -- opt out of promotional communications AND opt out of SimioCloud PRODUCTS, the second being the one that matters, since it covers inclusion in what they sell rather than just what they mail. THE reCAPTCHA WAS INVISIBLE, which settles the question left open earlier today. I had flagged this row as unclassifiable because the accessibility tree showed only a reCAPTCHA container and screenshots of the page froze the renderer. Clicking Submit answered in one step what inspection could not: it went straight through. That is 457's lesson applied -- press the button and let the form say whether the CAPTCHA is required, instead of inferring from the widget's presence that it is. THREE SEPARATE FORMS HERE, and the choice matters for a Pennsylvania resident. simiocloud.com/optout (this one) is framed as removal from products and marketing lists and asks nothing about state of residence. The ACCESS form (/access-form/) and DELETION form (/deletion-form) are both framed as being for residents whose state has a consumer privacy law, so they are the likelier to be refused on residency -- the opt-out was the right target and is the one that does not depend on a statute the subject does not have. Worth trying the deletion form separately to see whether it refuses, but the substantive removal is already requested.
 
 ## Steps
 

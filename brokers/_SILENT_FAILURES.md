@@ -30258,3 +30258,39 @@ This is the third time in two days that a guard turned out to be positioned at
 the wrong moment (§448, §451c, §455). The shape is the same again: the check I
 needed existed, and I ran it after the fact rather than before handing work
 over.
+
+### §457a — Pressing the button is the cheapest test there is
+
+The rule from §457 was "the inbox is the authority, not the page." Applied the
+same afternoon, it produced a better rule still.
+
+`simiocloud` had been left unclassifiable: the accessibility tree exposed only a
+reCAPTCHA container, and screenshots of the page froze the renderer, so there
+was no way to see whether the widget was a v2 checkbox needing a human or an
+invisible v3 scored on behaviour. It was recorded `captcha_blocked` as the safe
+assumption.
+
+Filling the form and **clicking Submit** answered in one step what inspection
+could not. It went straight through: *"Thanks for contacting SimioCloud! We
+will remove your information within two to three weeks."*
+
+So the method for the whole class is now: **fill the form, press Submit, and let
+the page say whether the CAPTCHA was required.** Pressing a button is not
+solving a challenge — if a human is genuinely needed the form refuses and says
+so, which is exactly the signal wanted, obtained at no cost. Inferring blockage
+from the mere presence of a widget is what produced five queued items of which
+two were already live and a third needed nobody.
+
+The earlier approach had the failure mode backwards. It treated "do not solve a
+CAPTCHA" as "do not approach one", and the caution cost real removals: every
+unattempted submit was a request not made, filed instead as a chore for someone
+else.
+
+**One thing the page also gave up for free.** SimioCloud runs three forms, and
+which one a Pennsylvania resident should use is not obvious. `/optout/` is
+framed as removal from products and marketing lists and asks nothing about
+residency; `/access-form/` and `/deletion-form` are both framed as being for
+residents whose state has a consumer privacy law — the two most likely to be
+refused on the grounds Enformion, Tracers and Client Command all used today.
+The route that does not depend on a statute the subject does not have was the
+right one, and it is not the one with "deletion" in the name.
