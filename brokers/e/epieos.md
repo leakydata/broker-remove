@@ -6,13 +6,8 @@
 
 ## Status
 
-- Current: `not_found` (updated 2026-09-17)
-- Note: 2026-09-17 reply answers the structural question cleanly: "these results are made in real time and are not stored on Epieos's side" -- confirming this is a LIVE lookup over public social-network data, not a stored index, so there is nothing here to delete or suppress as "a record." The only lever is the underlying social accounts/privacy settings, which the reply correctly points out is outside Epieos's control. The reply opened with "couldn't find any account linked to your e-mail" -- the same account/profile conflation seen at Owler -- but here it's followed by a real, substantive answer rather than left as the whole response, so this is treated as resolved rather than a bare deflection. (They also asked, oddly, where the subject first heard of them -- not answered, no obligation to.)
-- Note: Emailed contact@epieos.com 2026-09-17. OSINT email/phone lookup
-  (linking an address to other accounts/profiles). Asked directly whether the
-  product queries third parties live versus maintaining a stored index, since
-  that decides whether a suppression can attach to "a record" at all rather
-  than only to the supplied identifiers. No reply yet.
+- Current: `not_found` (updated 2026-10-10)
+- Note: VERIFIED (468 audit) -- EARNED, AND THE NIL IS STRUCTURAL IN A WAY WORTH UNDERSTANDING. Epieos, 2026-09-17: 'I couldn't find any account linked to your e-mail in our system. Regarding the data that can be retrieved on our OSINT Tool, Epieos.com AGGREGATES THE PUBLICLY ACCESSIBLE RESULTS ON...' -- i.e. the tool composes results from public sources AT QUERY TIME rather than holding a stored profile. So there are two different questions and they answered both: no stored account record (a true nil), and no stored profile to delete because the product does not keep one. SAME ARCHITECTURE AS ADAGIO AT 463 AND INDEX_EXCHANGE AT 471b, reached by a third route. A deletion request against a query-time aggregator has nothing to bite on; what would bite is a suppression at the SOURCES it queries, which is work for other rows. Record the nil as honest and structural, not as evidence the subject is absent from what the tool can surface.
 
 ## Steps
 

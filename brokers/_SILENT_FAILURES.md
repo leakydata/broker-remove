@@ -31650,3 +31650,77 @@ status holds, but the open question — whether a do-not-add entry exists — is
 exactly what the survey papers over. **A request for feedback is not a
 response**, and in a ticketing system it usually marks the ticket closed.
 
+---
+
+## §476 — Optable reached the split argument before anyone put it to them
+
+§466a argued to RocketReach that a verification stalemate is usually only a
+stalemate for *part* of a request: disclosure needs identity because
+disclosing to the wrong person is the harm verification exists to prevent,
+while exclusion needs none, because excluding the wrong person's details from
+a sale harms nobody.
+
+Optable did exactly that, unprompted, three weeks earlier.
+
+On 9 September they sent one-time codes to ten of the twelve addresses listed.
+None came back. On 22 September: *"none of them has come back to us. The
+deletion, opt-[out and suppression]..."* — those proceeded anyway. On
+28 September: *"we have closed the right-to-know part of your request as
+unverified. We have not searched for or disclosed personal..."*
+
+**That is a live example rather than a legal argument, and it is worth quoting
+at any broker that refuses an entire request for want of identity.** A company
+reached the correct analysis on its own and acted on it.
+
+Worth recording honestly why the codes went unreturned: ten of the twelve
+addresses are mailboxes the subject no longer monitors or cannot access,
+including a closed institutional account. That is not a failure of their
+method — it is the ordinary condition of a thirty-year identifier history, and
+**any verification scheme keyed to receiving mail at old addresses will fail
+the same way for the same reason**.
+
+### §476a — The template correction works, three for three
+
+`cint` is the third instance. Their first reply was an automated template for
+survey respondents, ex-employees and job candidates — none of which the
+request was. One short letter saying so produced a real answer eleven days
+later: *"Cint has not find your emails or name or address or phone number. We
+cannot delete data we do not hold."*
+
+After Owler (§465) and ReversePhone (§470b), that is three for three. **A
+support desk answers the question it usually gets; one specific,
+non-accusatory correction converts a template into a real search.** It has
+never yet failed when tried.
+
+Cint also disputes the premise — they say they are not a data broker and did
+not register as one. The row exists because **Lucid Holdings** was registered
+in California and Cint acquired it in 2022, and the registered contact address
+hard-bounced. Whether the obligation travelled with the acquisition is a real
+question; it is moot while the answer is a nil. Same shape as §458's rule
+about companies that wind down.
+
+### §476b — A third query-time aggregator, and the limit it exposes
+
+`epieos` explains that its tool *"aggregates the publicly accessible results"*
+at query time rather than storing a profile. So two distinct answers: no
+stored account, and no stored profile to delete because the product keeps
+none.
+
+That is the third architecture of this kind — after Adagio (§463, keyed to
+cookies) and Index Exchange (§471b, an exchange) — and together they mark a
+category the project cannot reach by writing letters. **A deletion request
+against a query-time aggregator has nothing to bite on.** What would bite is
+suppression at the sources it queries, which is work belonging to other rows.
+The nil is honest and structural; it is not evidence the subject is absent
+from what the tool can surface.
+
+Also earned: `attom_data_solutions` — a clean nil from a *property* data
+company, which matters more than most given a sixteen-address history;
+`helix_campaigns`, whose confirmation names collection, selling, sharing,
+processing **and** the right to limit, where most cover deletion alone; and
+`choreograph`, whose portal has now sent at least **ten** identical completion
+notices. §473a counted five from Outreach and three from Heartbeat;
+Choreograph is the extreme. The status is earned and the volume is noise.
+
+Flags: 55 → 49.
+

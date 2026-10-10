@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `not_found` (updated 2026-09-16)
-- Note: Their reply: "After a search of our database, we can confirm that ATTOM Data Solutions has no personal information on or about you." No detail on which systems were searched or whether a known-present identifier was used as a control (see Gotchas).
+- Current: `not_found` (updated 2026-10-10)
+- Note: VERIFIED (468 audit) -- EARNED. ATTOM Data Solutions, 2026-09-15: 'After a search of our database, we can confirm that ATTOM Data Solutions has no personal information on or about you.' Unqualified, describes a search, names the company. ATTOM is a property-data company, so the nil is worth more than most: a thirty-year, sixteen-address history is exactly what a property database would be expected to hold, and it does not.
 
 ## Steps
 

@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `not_found` (updated 2026-09-16)
-- Note: Adopted from the shared ledger: another agent recorded 'not_found' on 2026-09-16. No detail is carried across — re-read the broker's own reply before relying on this.
+- Current: `not_found` (updated 2026-10-10)
+- Note: VERIFIED (468 audit) -- EARNED, AFTER A CANNED RESPONSE WAS PUSHED BACK ON. Cint's first reply (2026-09-03) was an automated template addressed to survey respondents, ex-employees and job candidates, telling panel participants to contact their panel provider. The request was none of those -- it concerned Lucid Holdings LLC, whose data broker registration address compliance@luc.id had hard-bounced, and which Cint acquired in 2022. One short letter saying so produced a real answer on 2026-09-14: 'Cint is not a data broker, it has not registered as such for that reason. Cint has not find your emails or name or address or phone number. WE CANNOT DELETE DATA WE DO NOT HOLD.' Third instance of the same correction working, after Owler (465) and ReversePhone (470b): a template answers the question the desk usually gets, and one specific non-accusatory correction converts it into a real search. NOTE THE DISPUTED PREMISE, recorded rather than argued: they say they are not a data broker and did not register as one. The row exists because LUCID was registered in California and Cint bought it. Whether the obligation travelled with the acquisition is a real question, but it is moot while the answer is a nil.
 
 ## Steps
 
