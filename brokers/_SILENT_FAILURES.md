@@ -32574,3 +32574,66 @@ to supply an identifier is a refusal to *create* something, not a refusal to
 cooperate. Where cooperation costs nothing new, it should be offered — and
 asking the company to do the deriving is the cheapest form of that offer.
 
+---
+
+## §491 — The autoresponder knew the route the policy had lost
+
+Buxton's reply to the letter: *"Audiense does not accept privacy requests
+submitted by email, so **this request will not be processed**."*
+
+Ordinarily that is §456's trap closing. Here it is the opposite, because the
+template then supplies **two working URLs that nothing on the policy page
+reaches**:
+
+- `audiense.com/legal/consumer-personal-information-requests/` — the rights form
+- `audiense.com/legal/privacy-opt-out/` — a real opt-out form
+
+§488 recorded that the policy's own "Your Privacy Choices" link is circular.
+**The template that rejects your email hands you the address the policy
+lost.** It also states the corporate position outright: *"We're now Audiense,
+the new name for our combined entities — Audiense, Elevar, and Buxton."*
+
+So: **when a company refuses email and redirects, read the redirect.** It may
+carry the route a migration broke. That is the inverse of §461, where the
+footer address was a dead end by design — the lesson is not "trust redirects"
+but "the deflection is evidence too."
+
+The opt-out form is real and nearly drivable: full name fields, contact,
+address, state (Pennsylvania present), and a **Mobile Advertising ID field
+that is not required** — so `N/A`, which is what the form's own instruction
+says to put in inapplicable fields. Company is a multi-select offering Buxton
+and Elevar. Press-Submit tested: filled completely, no movement, no validation
+message, no console error, reCAPTCHA on the page. Handed off rather than
+attempted again (§484).
+
+### §491a — Two agents, one broker, two queue entries
+
+The row already had a handoff entry, written by another agent from **the same
+auto-reply**. Its URL was `buxtonco.com/privacy` — the circular one.
+
+So two agents processed the same refusal independently, and the queue held two
+items for one broker, one of which pointed at a link that cannot work. A third
+person working the queue would have followed whichever they reached first.
+
+**Merged into one**, and the merge is better than either: the older entry
+carried three things mine did not —
+
+- Buxton sells to **municipal clients**, so ask whether any record was supplied
+  by or built for a local government. A resident has no other way to find that
+  out.
+- Ask for **household-level** records, not only individual ones.
+- Ask for the **modelled and scored** attributes — spend propensity, cluster
+  membership — not just raw fields.
+
+— plus a standing absolute-refusals block. Mine carried the working URLs, the
+exact field values, the `N/A` for the MAID field, and the ctrl-click needed to
+select both companies.
+
+**§470a warned that shared infrastructure makes rows correlated. This is the
+same hazard inside the project**: two agents reading one inbox will find the
+same mail, and without a check for an existing entry the queue accumulates
+near-duplicates that disagree about the route. The cheap fix is the one §486
+already names in another form — **read the row and the queue before writing,
+not after.** Here the tracker's last-note display caught it again, and again
+only after the fact.
+
