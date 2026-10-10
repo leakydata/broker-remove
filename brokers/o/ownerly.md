@@ -8,10 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-26)
-- 2026-09-30: BeenVerified (same Lifetime Value Co family, via the freephonetracer.com exchange) stated an opt-out on one family brand is applied to all of them, Ownerly included. Noted as supporting context, not independent confirmation — the property-keyed gap documented below is Ownerly-specific and a generic family statement doesn't close it. See `beenverified.md` and `freephonetracer.md`.
+- Current: `replied` (updated 2026-10-10)
 - Reference: `gmail:1a0064bacdeb8691`
-- Note: 2026-08-26: supplementary letter auto-acknowledged via Zendesk. Awaiting substantive reply.
+- Note: DELIBERATE REGRESSION FROM confirmed, part of the 468 audit of adopted statuses. This row carried 'confirmed' from another agent's ledger with nothing but the boilerplate note, and THERE IS NO CORRESPONDENCE FROM THIS COMPANY IN THE MAILBOX AT ALL. Being careful about what that does and does not prove: people-search opt-outs are often web flows that generate no email, so silence is NOT evidence the work was never done -- it is evidence that this mailbox cannot establish either way, which is a different and weaker claim. What tips it is the sibling. OWNERLY, NEIGHBORWHO AND BEENVERIFIED ARE ALL THE LIFETIME VALUE CO. The BeenVerified row carried the same adopted 'confirmed' and, when checked today, rested on nothing but a generic customer-service feedback auto-reply that never mentions a search, a record or a removal. Three sibling rows marked complete at the same time by the same process, one of them demonstrably on no evidence, is reason enough to stop treating the other two as finished. A SINGLE LETTER MAY COVER ALL THREE: the request sent to privacy@beenverified.com on 2026-10-10 asks in terms whether it reaches Ownerly and NeighborWho or whether each brand must be filed separately, and asks where. Hold this row at 'replied' until that answer comes back; if they say the brands are separate, file here directly rather than assuming the parent's answer travels. ONE THING THEIR OWN FAQ MAKES LIKELY: BeenVerified states that a People Search opt-out may leave a name in their other search services. Ownerly is property-focused and NeighborWho is address-focused, so they are precisely the 'other services' that an opt-out keyed to a people-search record would miss.
 
 ## Steps
 

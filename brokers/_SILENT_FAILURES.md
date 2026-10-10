@@ -31208,3 +31208,65 @@ before relying on this"* — and the instruction has been right every time it wa
 followed. The failure was never the ledger. It was treating a flagged lead as a
 finished row because the status field looked finished.
 
+---
+
+## §469 — The opt-out page explained why the opt-out page was not enough
+
+BeenVerified's own FAQ, read before using its form, says three things that
+together make the web flow the wrong channel for this subject:
+
+- the online process permits the removal of **one record**, and anyone with
+  more is told to email `privacy@beenverified.com`;
+- an opt-out from People Search **may leave a name appearing** in their other
+  search services, with Property Search and Contact Search named separately;
+- when a data partner supplies a record they cannot match to an existing one,
+  it **may appear after an opt-out**, and the consumer is invited to write
+  again each time.
+
+So the form removes one record, from one product, with no forward protection —
+and the page says so plainly. A thirty-year, sixteen-address history is exactly
+the case their FAQ describes as producing multiple unmatched records.
+
+**Reading the page before filling it in was worth more than filling it in.**
+That generalises past this company: for a people-search opt-out, the FAQ
+usually states the limits of the mechanism, and those limits are usually the
+whole story. The letter sent instead asks for all records, all products, and a
+standing do-not-add list checked on ingestion — with an explicit offer to
+accept "we cannot do that" as a complete architectural answer rather than a
+dodge.
+
+Two things in that letter are worth keeping as habits.
+
+**It warned them off loose matching, against the subject's own interest.**
+§464's composite record is now a usable argument: another company's file turned
+out to describe four or five people sharing the name, so date of birth is the
+discriminator and **fewer-but-correct removals are preferable to
+more-but-careless**. A request that invites sloppy matching gets strangers
+removed, which is the same harm in a different direction.
+
+**It disclaimed Daniel's Law explicitly.** BeenVerified offers a covered-person
+route for judges, prosecutors and law enforcement. The subject is a *former*
+Pennsylvania State Constable, and the letter says so rather than leaving the
+category ambiguous. The route would likely have worked faster. Using it would
+also have borrowed protection built for people in physical danger, and that is
+not a trade worth making for speed.
+
+### §469a — Three sibling rows, marked complete together, one demonstrably on nothing
+
+`beenverified`, `ownerly` and `neighborwho` are all The Lifetime Value Co. All
+three carried adopted `confirmed` with boilerplate-only notes. BeenVerified's,
+checked today, rested on a generic customer-service feedback auto-reply that
+never mentions a search, a record or a removal.
+
+Ownerly and NeighborWho have **no correspondence in the mailbox at all**. As
+§468a says, that is not proof the work was never done — web opt-outs often
+generate no email. What tips it is the sibling: three rows marked complete at
+the same time by the same process, one of them demonstrably on no evidence, is
+enough to stop treating the other two as finished. Both regressed.
+
+And their own FAQ makes the siblings the likeliest gap rather than the least:
+Ownerly is property-focused and NeighborWho address-focused, which is exactly
+the "other search services" an opt-out keyed to a people-search record is said
+to miss. **When a family's rows were all closed in one sweep, the sweep is the
+thing to doubt, not each row separately.**
+
