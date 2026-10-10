@@ -32455,3 +32455,72 @@ shape *before* writing, not after. §486 was the same mistake in a different
 register — composing from the broker's page rather than the project's record.
 Here it was composing before the research rather than after it.
 
+---
+
+## §489 — Two of three brands have no working privacy route after one rebrand
+
+`getelevar.com/privacy-policy` returns a 301 to the **Audiense homepage** —
+not to a privacy notice, to the front page. Elevar has no reachable privacy
+policy at its own domain.
+
+With Buxton's circular request-form link (§488), that is **two of the three
+brands whose published privacy routes do not resolve**, both as consequences
+of the same July 2026 rebrand. Neither is plausibly deliberate; both are
+invisible from inside, because nobody at a company clicks their own privacy
+links.
+
+The supplement to the Buxton letter reported the second one the same way as
+the first, and closed the sibling gap §488a identified: **treat the request as
+covering Buxton, Audiense and Elevar, and if that is not how it works, say
+where the other two should go.** That is §469's question to BeenVerified about
+Ownerly and NeighborWho, applied a day later to a family discovered after the
+first letter had gone.
+
+The letter also sets out *why* the three are not one ask — Buxton's household
+analytics, Audiense's social-sourced audience intelligence, Elevar's
+event-level conversion data are different categories about the same person —
+which makes a single unexamined "yes, covered" harder to give.
+
+### §489a — The hash question, which is the way round the identifier refusal
+
+Elevar needed a different letter, and one of its three questions generalises
+further than this row.
+
+Conversion tracking keys to a cookie, a device identifier or a **hashed
+email** — not a name. So a name search returns a nil that is true and
+meaningless, which is §479a's structural nil arriving before the request
+rather than after it.
+
+The standing rule forbids supplying a device identifier or advertising ID. But
+there is a move that costs nothing:
+
+> **Can you hash one of my existing email addresses at your end and suppress
+> against that?**
+
+That gives them a durable key in the form their systems actually index on,
+**without the subject handing over anything new** — the address is already
+theirs to hash, and a hash computed by them of a value they already have
+creates no identifier that did not exist. It is the one way round the
+identifier refusal that does not weaken it.
+
+Worth trying wherever hashed-identifier matching is the architecture. CityData
+(§485) offers to hash a *supplied* advertising ID, which is the version that
+does not help; asking them to hash an address they already hold is the version
+that might.
+
+### §489b — And the question that may make the whole row moot
+
+Elevar sends conversion data to merchants' own platforms and ad accounts. If
+so, **deleting the platform copy leaves the merchant's untouched, and the
+merchant's is the one that keeps working.**
+
+So the letter asks plainly whether Elevar holds the data as a **processor or
+service provider for the merchant** rather than as a controller. Expect that
+defence — and expect it to be correct. Unlike EAB (§460b), where a processor
+claim would have been a convenient shield over a consumer-facing product, a
+conversion-tracking pixel genuinely is the merchant's instrument.
+
+If the answer is yes, the row is not a failure; it is a **redirection**, and
+the real targets are the merchants. That is the §458 lesson about data moving
+rather than disappearing, seen from the other end.
+
