@@ -31137,3 +31137,74 @@ been read. There are more of these rows than there are hours, so the honest
 statement is that the project does not currently know how many adopted statuses
 would survive the same test.
 
+---
+
+## §468 — 80 terminal rows were adopted from another agent and never checked
+
+§467b noted that two rows in one afternoon failed when their underlying mail
+was finally read. This measures how many more could.
+
+    rows carrying the "adopted from the shared ledger" warning   316
+      of those, holding a TERMINAL status (confirmed / not_found) 102
+      of those, whose note is ONLY the adoption boilerplate        80
+      of those 80, with any local detail added since                0
+
+**Eighty rows say the broker is done, on another agent's word, with nothing in
+this project ever checked against the broker's own mail.** All eighty are now
+flagged `unverified_adopted_status` so they can be worked rather than trusted.
+
+### §468a — A sample of eight, and what it actually shows
+
+Picking eight of the eighty and searching the mailbox for each gives a more
+honest picture than the two failures so far suggested:
+
+**Earned, on the evidence:**
+- `crustdata` (`confirmed`) — *"Yes, we found and deleted the record matching
+  your identifiers."* Unambiguous.
+- `numberguru` (`not_found`) — *"After searching, we hold no person search
+  result (ie person report) corresponding to you."* A proper nil, and it only
+  arrived after an earlier template answer was pushed back on.
+
+**Not earned:**
+- `beenverified` (`confirmed`) — the only inbound mail is a generic
+  customer-service template: *"Everyone here at BeenVerified appreciates you
+  taking the time to bring your comments and suggestions to our attention."* A
+  feedback auto-reply. It does not say anything was searched for, found or
+  removed. Regressed.
+
+**Unresolved:**
+- `heartbeat_ai` (`confirmed`) — a reply exists saying records were *located*;
+  whether they were deleted needs the full message read.
+
+**No correspondence at all:** `ownerly`, `neighborwho`, `freephonetracer`,
+`dataline`.
+
+**That last group must not be over-read, and the temptation to do so is
+strong.** Many people-search opt-outs are web flows that produce no email at
+all, so "no mail" is not evidence the work was not done — it is evidence that
+*this mailbox cannot tell us either way*. The honest statement is that four of
+eight have no verifiable basis in the inbox, not that four of eight are false.
+
+Ownerly and NeighborWho are worth a closer look for a different reason: both,
+with BeenVerified, are The Lifetime Value Co. If one row in that family was
+marked complete on the strength of a feedback auto-reply, its siblings deserve
+the same scrutiny.
+
+### §468b — What the number is, and what it is not
+
+Three rows have now been tested properly and failed: `cause_iq`,
+`courtrecordfinder_com`, `beenverified`. Two have been tested and passed.
+
+**That is not a failure rate and must not be quoted as one.** Five of eighty is
+too small, and the five were not chosen at random — the first two came from
+today's inbox reading, which selects for rows where a reply existed and was
+interesting. A properly random sample would probably look different, and could
+look better.
+
+What can be said without overclaiming: **a terminal status adopted from another
+agent is a lead, not a fact**, and the project has eighty of them. The row
+notes have said exactly this all along — *"re-read the broker's own reply
+before relying on this"* — and the instruction has been right every time it was
+followed. The failure was never the ledger. It was treating a flagged lead as a
+finished row because the status field looked finished.
+

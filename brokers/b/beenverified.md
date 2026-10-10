@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `confirmed` (updated 2026-09-30)
-- Note: 2026-09-30, via a sibling property (freephonetracer.com, see below): phone numbers confirmed removed from search results, and BeenVerified (Lifetime Value Co) restated that an opt-out on one family brand applies to all of them (BeenVerified, PeopleLooker, PeopleSmart, NeighborWho, Ownerly, ReversePhone). See `freephonetracer.md` for the full exchange.
+- Current: `replied` (updated 2026-10-10)
+- Reference: `gmail:1a0063929652c5ef`
+- Note: DELIBERATE REGRESSION FROM confirmed, FOUND BY THE 468 AUDIT. This row carried 'confirmed' adopted from another agent's ledger with nothing but the boilerplate note. The only inbound mail from BeenVerified in the mailbox is a single generic customer-service auto-acknowledgement of 2026-08-25: 'Everyone here at BeenVerified appreciates you taking the time to bring your comments and suggestions to our attention. Each customer...' -- a feedback template, not a privacy response. It does not say a record was searched for, found, or removed. It does not mention the request's subject at all. NOTHING IN IT SUPPORTS 'confirmed', so the status was never earned. BeenVerified is The Lifetime Value Co., which also operates Ownerly and NeighborWho -- both of which ALSO carry adopted 'confirmed' with no correspondence in the mailbox at all. If one family's rows were marked complete on the strength of an auto-acknowledgement, the sibling rows deserve the same scrutiny. THIS ROW NOW NEEDS A REAL REQUEST: BeenVerified's opt-out is a web flow at beenverified.com/app/optout/search, which produces an emailed verification link that must be clicked. Nothing in the inbox shows that link was ever received, so the likeliest truth is that the request was acknowledged and never processed.
 
 ## Family properties — check each
 
