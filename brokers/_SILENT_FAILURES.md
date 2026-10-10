@@ -32231,3 +32231,66 @@ The letter says so explicitly. It is the same principle as §474, where The
 Dots refused a name-based block because namesakes exist — extended from
 *people who share a name* to *people who share a place*.
 
+---
+
+## §486 — Sent is not delivered, and the bounce arrives a minute late
+
+The CityData row was written up as `submitted` within a minute of sending.
+**The bounce arrived one minute after that.**
+
+`privacy@citydata.ai` — the address their own policy names for access, update
+and removal requests — is configured as a Google Group that rejects outside
+mail:
+
+> "the group you tried to contact (privacy) may not exist, or you may not have
+> permission to post messages to the group" — *citydata.ai admins*
+
+The cc to `dpo@citydata.ai` produced no bounce and therefore probably landed.
+*Probably* is the honest word.
+
+This is §457 one step further out. There the lesson was **sent is not filed**;
+here it is **sent is not delivered**. A row recorded in the same minute as the
+send is provisional by construction, because the one piece of evidence that
+could contradict it has not had time to arrive.
+
+**The rule: after sending, the next pass checks for a Delivery Status
+Notification before the row is trusted.** It costs one search and it is the
+only thing standing between "I wrote to them" and a row that says so for six
+weeks while the mail sits in nobody's inbox.
+
+### §486a — I wrote the letter without reading the row
+
+The substantive letter went out as a fresh request. It was not one. The row
+already recorded, from 7 September:
+
+- an original letter sent **17 August**, never acknowledged;
+- CityData's published opt-out URL returning **404**;
+- and a deliberate decision not to chase yet, diarised for the first week of
+  October, with the exact argument to make when the time came — *"your
+  published opt-out URL returns 404, so if my email did not reach you there is
+  now no route at all."*
+
+That argument is now stronger than the September pass could have known,
+because the privacy address is dead too. **All three published routes are
+broken or unanswered**, which is precisely what that note predicted. And my
+letter made none of it, because I composed it from the broker's policy page
+rather than from the project's own record.
+
+`tracker.py` prints the row's last note before writing (§452), and it caught
+this — *after* the send. The printout is the backstop. **Reading the row
+before composing is the cheap version of the same check**, and skipping it
+cost a letter that had to be followed by a second one an hour later.
+
+The follow-up went to the DPO, the only working address, and deliberately not
+as an accusation: a dead mailing list and a stale URL are what happens when a
+site changes faster than its policy, and nobody inside is likely to know. They
+are the only published contact that works and the only person placed to fix
+it, which is the reason for telling them rather than anyone else.
+
+One useful thing the row history also held, which partly answers the letter's
+own question: **CityData will hash a supplied advertising ID, check it against
+their database, and tell you whether there is a match.** Better than most
+offers in this category — but it still requires supplying the identifier, so
+the objection stands and the question about suppressing on a value *they*
+derive remains open.
+
