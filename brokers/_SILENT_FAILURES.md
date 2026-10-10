@@ -32358,3 +32358,58 @@ Worth recording that a check can be cheap *and* come back empty — the value is
 that "all delivered" is now a fact rather than an assumption, and it cost one
 search.
 
+---
+
+## §488 — A request-form link that redirects to the page containing it
+
+`buxtonco.com/privacy` returns a 301 to `audiense.com/legal/privacy/` — a
+different company's domain — and that page is the Buxton privacy notice.
+
+The notice says rights are exercised by *"Filling out the request form linked
+here: Your Privacy Choices"*, and that link points to
+`https://www.buxtonco.com/privacy`.
+
+**So the link to the request form redirects to the page containing the link.**
+Checked twice, same result. A consumer following the published instructions
+arrives back where they started, with nothing to submit.
+
+**Third instance of a broken designated route, and structurally the worst of
+the three:**
+
+| | failure |
+|---|---|
+| Adstra (§461a) | the link for the only unconditioned right redirects to the policy page |
+| Infutor (§478) | the named form is not a hyperlink at all |
+| Buxton | the link resolves — to itself |
+
+Adstra's and Infutor's failures are visible the moment you follow them: you
+land somewhere wrong, or nothing happens. **Buxton's is invisible**, because
+the page you land on looks correct — it is the privacy notice, it mentions
+your rights, and the link you just clicked is still on it. The natural
+conclusion is that you misclicked.
+
+What remains is the toll-free number, **1-888-228-9866**, the only working
+consumer route in the notice. `consumerprivacy@buxtonco.com` is published but
+described as the channel for **authorised agents**. The letter uses it anyway,
+saying plainly that the sender is the data subject and not an agent rather
+than letting them infer otherwise — §480a's lesson, that an ambiguous sender
+description invites an agent-request refusal.
+
+The broken link was reported to them as something nobody inside is likely to
+have noticed after a site move, not as a complaint. That has now been the
+right framing at CityData, DatabaseUSA and here within a single day.
+
+**One question specific to the business**, asked because it changes where the
+work goes: Buxton does customer analytics and site selection for retailers and
+municipalities, so household data is typically **licensed in** rather than
+collected from the individual. A deletion here does not reach the upstream
+copy, so the categories of supplier matter more than the deletion does.
+
+**And a corporate note worth settling before it causes an error:** a Buxton
+privacy notice served from `audiense.com` suggests either a corporate
+relationship or a shared legal template. §472 showed that shared infrastructure
+is neutral — what matters is whether the shared thing is an answer or a
+brush-off — but it also showed that rows sharing a backend should not be
+assumed independent. Establish the relationship before treating a Buxton row
+and any Audiense row as separate targets.
+
