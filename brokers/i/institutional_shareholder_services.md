@@ -7,20 +7,8 @@
 
 ## Status
 
-- Current: `not_found` (updated 2026-10-09)
-- Reference: `gmail:1a0479459b90671b` (answered on the sibling ISS MI thread, see below)
-- 10/8: ISS STOXX replied on the separate ISS Market Intelligence / Asset
-  International thread (cc'ing this mailbox) with a nil result and an
-  explicit statement that "the same data protection function applies to both
-  entities" — i.e. one search, answered in writing, covers this registration
-  too. See `brokers/i/iss_market_intelligence_or_iss_mi.md` for the full
-  exchange. No separate reply ever arrived on this mailbox's own thread, and
-  none was needed once the sibling thread named this entity by name.
-- Note: Sent an ACCESS-AND-CORRECTION-FIRST variant, same shape as the Infortal due-diligence letter. ISS is several businesses, so the letter opens with a five-way categorisation question: proxy/governance data on directors and officers (biographies, board memberships, independence classifications, compensation, or any SCORE or FLAG attached to a named individual); ESG or controversy research naming individuals; shareholder or beneficial-owner records from proxy voting or securities-class-action services; ordinary marketing/subscriber records; something else.
-
-On the first two, ACCESS AND CORRECTION MATTER MORE THAN DELETION and the letter says why: a governance or controversy record is compiled without the subject's involvement, sold to institutional clients, and used in votes, screens and engagement the subject never sees. If it is wrong, deleting their copy does not unsay what has already been supplied. Stated plainly that the subject is not a director or officer, so a match would most likely be a wrong record about someone, with the LinkedIn profile offered so that can be ruled out fast.
-
-PRE-EMPTED THE PUBLIC-FILINGS DEFLECTION by conceding the true half: not asking them to change an SEC filing or a company disclosure, but asking about THEIR copy, THEIR index entry, and any score, classification or inference generated on top -- none of which is a public record and none of which exists anywhere a person can see or correct. Suppression asked for on the ground that a research database rebuilt from filings on a cycle restores a deleted record on the next pass.
+- Current: `not_found` (updated 2026-10-10)
+- Note: VERIFIED (468 audit) -- EARNED, AND ONE REPLY COVERS TWO ROWS. ISS, 2026-10-08, from dataprotectionofficer@issgovernance.com: 'We are writing to inform you that no personal data matching your personal data as provided in your email below was found in our databases. We also confirm that both Asset International, [Inc. and the ISS entity are covered by one data protection function].' The original letter went to dataprotectionofficer@iss-stoxx.com addressed to ISS STOXX about the ISS Market Intelligence / Asset International registration; the answer came from the issgovernance address and confirmed the scope covers both. SEE iss_market_intelligence_or_iss_mi -- the same reply resolves it, which is the legitimate version of shared infrastructure described at 472: one answer, two rows, because the answer actually addressed both. Six weeks from request to substantive reply, which is slow but inside a reasonable reading of the statutory window for a complex corporate group.
 
 ## Steps
 

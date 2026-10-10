@@ -7,17 +7,8 @@
 
 ## Status
 
-- Current: `not_found` (updated 2026-10-09)
-- Reference: `gmail:1a0479459b90671b`
-- 10/8 reply (cc'ing dataprotectionofficer@issgovernance.com): no personal
-  data matching the supplied identifiers found. It also directly answered the
-  scoped-confirmation question the original letter asked — "We also confirm
-  that both Asset International, Inc. and Institutional Shareholder Services,
-  Inc. are affiliates within ISS STOXX and that the same data protection
-  function applies to both entities." That's option (a) from the original
-  letter: one search, answered in writing, covers both the ISS MI and ISS
-  Governance registrations. Closed with thanks 10/9.
-- Note: Emailed dataprotectionofficer@iss-stoxx.com 2026-08-28 (ISS Market Intelligence = Asset International, Inc.; CA registry 2025-2026). Two ISS registrations, two mailboxes, one group -- so the letter opens by asking which is true: (a) this office covers both registrations and one search answers both letters, or (b) the entities hold separate data and this one was searched on its own systems rather than answered from the ISS Governance result. Named the failure mode explicitly: a group privacy function answers for everything, the consumer gets a confirmation that reads as complete, and one subsidiary's database was never queried. Otherwise access-and-correction-first as with Ipreo/ISS Governance, B2B carve-out sunset pre-answered, and a specific ask for publication/conference subscriber and registration records, which a search scoped to the research databases will miss.
+- Current: `not_found` (updated 2026-10-10)
+- Note: VERIFIED (468 audit) -- EARNED, RESOLVED BY THE SAME REPLY AS institutional_shareholder_services. ISS's data protection officer answered on 2026-10-08 that no personal data matching the identifiers supplied was found in their databases, and confirmed that one data protection function covers both the ISS Market Intelligence / Asset International registration and the ISS governance entity. The two rows exist because the California registry lists them separately and the letter was addressed to ISS STOXX at a third address; the company itself collapsed them. Record both as nil on the same evidence rather than leaving one open on the assumption that a separately-registered name needs a separately-addressed letter.
 
 ## Steps
 

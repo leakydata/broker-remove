@@ -31866,3 +31866,61 @@ cannot carry the request a non-covered-state resident is entitled to ask.
 promise and the form**, and it narrows in a direction that is invisible unless
 you walk it to the end.
 
+---
+
+## §479 — Five more, and the device-graph nil is now a stable category
+
+Flags 44 → 34 this pass, after clearing five that earlier passes had already
+worked but left marked.
+
+**Instantly.ai is the most thorough exchange in the audit.** Three substantive
+replies from a named DPO over six weeks. On 22 September: *"We searched every
+system we operate for the eleven addresses you listed"* — and listed them
+back. On 8 October: *"Of the eleven addresses you listed, three were found in
+our systems"* — a real match, not a nil — followed by a customer-side flag
+covering all ten accounts and a platform-wide measure.
+
+That row matters beyond itself because Instantly occupies **two positions at
+once**: it sells contact data *and* it is the platform customers send cold
+email through. Deleting the dataset record does nothing about a customer who
+already exported it. A customer-side flag and a platform-wide suppression are
+the answers, and they gave both. Set that against Seamless.AI (§464), where
+the identical structural problem produced *"it is impossible or involves
+disproportionate effort."*
+
+**Round Sky is earned twice, and the second time is ours.** Their first nil
+(1 September) gave **both possible reasons** rather than asserting absence —
+never dealt with you, or no record under those identifiers. That honesty is
+why the row was reopened rather than closed: on 5 September the follow-up said
+*"Re-opening a nil result — I searched you on the wrong addresses."* They
+re-ran it and confirmed again on 5 October.
+
+Worth generalising both ways. **A requester who notices his own request was
+under-scoped should say so** — one letter converts a weak nil into a strong
+one. And a company that re-runs a search without complaint is behaving well;
+this file should record that, not only obstruction.
+
+**ISS: one reply, two rows, legitimately.** The letter went to one address
+about the ISS Market Intelligence / Asset International registration; the
+answer came from another and confirmed one data protection function covers
+both entities. The two rows exist because the California registry lists them
+separately. §472's test applies: the shared thing was an *answer*, so both
+rows close on it.
+
+### §479a — Five companies, one architecture
+
+`place_exchange` is the fifth: a programmatic out-of-home exchange, keyed to
+device and location identifiers, returning a nil on name, email and phone.
+After Adagio (cookies), Index Exchange, Epieos (query-time), and Mobilewalla
+("No MAID. No way to help you.").
+
+The pattern is stable enough to state as a rule for the playbooks:
+
+> **At an ad exchange or device-graph company, a name-and-email nil is a
+> statement about the keys you supplied, not about the data they hold.**
+
+Each of these rows is recorded as the accepted cost of the standing rule
+against supplying a MAID or cookie ID — not as evidence of absence. A future
+reader counting "confirmed clear" across the corpus would otherwise fold five
+unanswerable questions into the win column.
+

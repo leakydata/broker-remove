@@ -7,29 +7,8 @@
 
 ## Status
 
-- Current: `confirmed` (updated 2026-10-09)
-- Reference: `gmail:1a046b4a0d824dc6`
-- 10/8 final reply, and it closed every open point from the 9/22 follow-up
-  without dropping any of them: 3 of the 11 addresses were actually found
-  (not all 11 — the broker was precise about which), spread across 10
-  customer accounts (8 sent, 2 held without sending), 12 records total (10
-  sent, 1 open, 1 bounce). Each of those 10 customer accounts now shows that
-  the subject exercised privacy rights and can no longer be contacted through
-  the platform. All 11 addresses were added to the platform-wide suppression
-  list *as of that date*, stated explicitly as independent of the
-  customer-copy deletion (the one ask from 9/22 that mattered most, since
-  deletion depends on 8 other companies acting and suppression does not).
-  Generated name/employer contact-pattern variants were also searched, with
-  any matches suppressed on the same basis. Closed with thanks 10/9 — no
-  further action.
-- Older note (9/21), for context: the 9/21 reply answered the
-  processor/controller split directly and offered the three actions above on
-  request; see the full exchange for the exact asks made in response.
-- Older note (8/28), for the letter that produced this reply: Sent a TWO-POSITIONS variant, separating processor from controller at the outset so neither answer swallows the other. Position one: contact lists customers upload and send from their own accounts -- conceded as theirs, not asking them to alter a customer's list unilaterally. Position two: any LEAD DATABASE or contact-finding product they operate themselves, which is squarely in scope and is where a cold-email platform's own data sits.
-
-For the processor half, two asks rather than assumptions: (a) which customer accounts hold a matching record, and if they will not name them, will they forward the request and confirm; (b) A PLATFORM-WIDE SUPPRESSION -- if they run a global do-not-contact list applying across all customer sends, add every address to it. That is the one control they can operate without touching anyone else's data, and it is the only thing that stops the next customer uploading the same person again.
-
-Also carried the GENERATED-ADDRESS ask, which is acute for a contact-finding product: the file is often keyed to a first.last@employer construction the subject has never owned and cannot list, with the LinkedIn profile supplied as what any such tool would have been built from. B2B carve-out pre-empted with the sunset date.
+- Current: `confirmed` (updated 2026-10-10)
+- Note: VERIFIED (468 audit) -- EARNED, AND IT IS THE MOST THOROUGH MULTI-ROUND EXCHANGE IN THE AUDIT. Three substantive replies from a named DPO over six weeks. 2026-09-22: 'We searched EVERY SYSTEM WE OPERATE for the eleven addresses you listed' -- and listed them back, which is the itemised confirmation 138 asks for. 2026-10-08, closing every point: 'Of the eleven addresses you listed, THREE WERE FOUND IN OUR SYSTEMS' -- so a real match, not a nil -- followed by what the subject's acknowledgement summarises as the three matched addresses, a CUSTOMER-SIDE FLAG COVERING ALL TEN ACCOUNTS, and a platform-wide measure. WHY THIS ROW MATTERS BEYOND ITSELF: Instantly.ai occupies two positions at once -- it sells contact data AND it is the platform through which customers send cold email -- so a deletion from the dataset does not stop a customer who already exported the record from mailing him. A customer-side flag and a platform-wide suppression are the answers to that, and they gave both. Compare Seamless.AI at 464, where the same structural problem produced 'we do not maintain information regarding each recipient... it is impossible or involves disproportionate effort'.
 
 ## Steps
 

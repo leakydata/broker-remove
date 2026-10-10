@@ -7,9 +7,8 @@
 
 ## Status
 
-- Current: `not_found` (updated 2026-10-05)
-- Note: 2026-08-28: first contact to privacy@placeexchange.com. Programmatic out-of-home / audience-data ad-tech variant: hashed email matching, MAIDs, IP-derived location signals, modelled segments; framed as opt-out of cross-context behavioral-advertising sharing.
-- Note: 2026-10-05 reply: "We confirm that we do not have your name, email address, phone number, or address in our database." States their commercial database is structured exclusively around mobile advertising identifiers (MAIDs/IDFA/GAID), and asks the requester to supply one so they can search further, offering an opt-out form or a reply email as the submission route. **Declined to supply one** — a MAID is a persistent ad-tracking identifier not currently known to be associated with the subject in this system, and volunteering a new identifier to chase a further negative runs against the project's own "don't hand over more than the request needs" rule. Replied closing the request on the identifiers actually supplied (name/email/phone/address), asked them to apply the same suppression if they ever link a device to those identifiers, and asked for suppression against future ingest. No further reply expected or required.
+- Current: `not_found` (updated 2026-10-10)
+- Note: VERIFIED (468 audit) -- EARNED, AND IT IS ANOTHER MAID-KEYED STRUCTURAL NIL. Place Exchange, 2026-10-05: 'We are in receipt of your request to delete your personal information and opt out of the sale of personal information. You have provided your name and/or email address and/or phone [number]...' and confirmed no match on those. The reply of 2026-10-06 declined to supply a mobile advertising identifier and said so plainly. Place Exchange is a programmatic out-of-home exchange, so like Adagio (463), Index Exchange (471b), Epieos (476b) and Mobilewalla (477a) its match keys are device and location identifiers rather than names. FIFTH INSTANCE OF THE SAME ARCHITECTURE. The pattern is now stable enough to state as a rule for the playbooks: AT AN AD EXCHANGE OR DEVICE-GRAPH COMPANY, A NAME-AND-EMAIL NIL IS A STATEMENT ABOUT THE KEYS SUPPLIED, NOT ABOUT THE DATA HELD. Record it as the accepted cost of the MAID ban and do not let a future reader mistake it for absence.
 
 ## Steps
 
