@@ -32294,3 +32294,67 @@ offers in this category — but it still requires supplying the identifier, so
 the objection stands and the question about suppressing on a value *they*
 derive remains open.
 
+---
+
+## §487 — An incident report routed to a rights-request form
+
+Seamless.AI answered §464's follow-up with an automated message — it says so
+itself — directing all access, correction, deletion and opt-out requests to
+their Privacy Request Center, and adding: *"Seamless does not respond to
+initial access, correction, deletion, or opt-out at this email address."*
+
+**The letter was none of those things.** His own request finished on
+17 September: erasure confirmed, pre-erasure data supplied, retention basis
+explained. Nothing about his data is outstanding. There is nothing for the
+request centre to do.
+
+The follow-up raised two things a rights-request form structurally cannot
+carry:
+
+1. **Their access response disclosed third parties' personal data to an
+   unrelated requester.** At least two addresses in the file belong to
+   identifiable other people, present because the matching logic assembled a
+   composite of several people sharing the name. That is an incident arising
+   from the *access process*, not a request about anybody's data.
+2. **A request that they narrow their own suppression** — against the
+   subject's interest — so that strangers' identifiers from the deleted record
+   are not blocked on his account.
+
+Neither has a field on a form whose options are access, correct, delete,
+opt out.
+
+**This is §456's trap in its purest form yet.** There the designated method
+could not carry a *request*. Here it cannot carry a *report*, and the
+deflection is automatic, so nobody at the company has seen either item. A
+company that funnels all privacy correspondence into a rights-request intake
+has, by construction, no route for "your process leaked someone else's data" —
+the one message most worth reading.
+
+**The channel objection also does not hold on the facts**, and the reply says
+so without heat: this was not an initial anything. It was a reply on the thread
+where their own team sent a careful, substantive answer from this same address
+three weeks earlier. The address demonstrably reaches people who engage when a
+human reads the mail.
+
+What was asked for is small and specific: a better route if one exists — DPO,
+legal, incident address — and two lines of answer, one on whether access
+responses are screened for identifiers that do not match the requester, one on
+the scope of the suppression.
+
+**Not escalated anywhere, and the reason is worth stating.** The whole point
+of telling them is that someone would want to know if his address turned up in
+a stranger's file. Taking it to a regulator instead would serve the project's
+record and not those two people. The row stays `confirmed`, because his
+deletion really is complete — what is open belongs to other people and to
+Seamless's process.
+
+### §487a — The bounce check, run once, came back clean
+
+§486's new rule applied: every send of the last two days checked for a
+Delivery Status Notification. **One bounce total**, the CityData one already
+handled. Everything else delivered.
+
+Worth recording that a check can be cheap *and* come back empty — the value is
+that "all delivered" is now a fact rather than an assumption, and it cost one
+search.
+
