@@ -30580,3 +30580,46 @@ lives at `/legal/data-subject-access-request/` — the row has been driven from
 the right URL all along, so only the queue entry is stale — and `pmg_worldwide`
 needs a new route found.
 
+### §460b — The rule applied to the whole list: two of five had another door
+
+Ran the §460 check against every item on the subject's solve list.
+
+**Adstra — open, and it gave up more than a route.** The policy publishes
+`privacy.officer@adstradata.com`. It also contains this, in the U.S. Residents
+section:
+
+> "If you are a U.S. resident and would like to make a verifiable consumer
+> request to delete..."
+
+No limitation to states with a privacy statute — and the California, Colorado,
+Connecticut, Nevada, Utah and Virginia sections that follow it *are* so
+limited, which makes the omission look deliberate rather than loose drafting.
+Three companies refused this subject on residency grounds this week. Adstra's
+own policy appears to undertake the opposite. The letter quotes the sentence
+back and asks them to correct the reading if it is wrong, because the strongest
+form of the argument is still a question.
+
+**DTN — open by post or phone, and the policy says so.** No email anywhere in
+the statement, but §16.3 reads: *"To invoke your rights, you may contact us by
+using the information provided in this Statement."* That is express
+authorisation to use the postal address and the 1-800 number instead of the
+arithmetic-gated form. Three routes, one gate.
+
+**EAB — genuinely closed.** Its single contact address is behind Cloudflare
+email protection, so it never renders as text; rights requests route entirely
+through web links. The form really is the only route and the CAPTCHA really
+does block it. A postal address exists for general enquiries and is worth using
+if the form stays shut.
+
+**Arity — unknown.** `arity.com/privacy-statement` 404s, so nothing was found.
+Its blocker was never a CAPTCHA anyway: it is the SMS passcode, which only an
+email route would avoid.
+
+**Brandwatch — already answered.** The form's own page is the designated
+route and no separate privacy address was found earlier.
+
+So the rule moved two of five off the list in one pass, and the reason it
+worked is unflattering: the information was published, on the companies' own
+policy pages, the whole time. The handoff list was not a list of requests that
+could not be made. It was a list of pages that happened to be blocking.
+
