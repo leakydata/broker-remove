@@ -6,12 +6,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-18)
-- Note: 2026-09-18 DEFLECTION AND CLARIFICATION. First reply checked whether the supplied email addresses have an Owler ACCOUNT ("does not have any account associated with Owler") -- a different question from whether the subject appears as a named contact in Owler's company-profile database, which is what the letter actually asked about. This is a recognisable pattern: a support desk runs the easiest available query (account lookup) and answers that instead of the harder one (profile-database search) without saying it did so. Replied clarifying the distinction explicitly and asking them to re-run the check against the company-profile/people-data side. Awaiting a second reply.
-- Note: Emailed support@owler.com 2026-09-17. Company-intelligence/competitor
-  tracking product with named-executive profiles — used the B2B contact-
-  enrichment variant (name variants and phone numbers led, personal email
-  addresses offered only for completeness). No reply yet.
+- Current: `confirmed` (updated 2026-10-10)
+- Reference: `SUP00097560`
+- Note: NIL AFTER A CORRECTION THAT WORKED -- 2026-09-23, found unread 2026-10-10. WORTH KEEPING AS A TEMPLATE. Owler first answered the wrong question: 'The mentioned e-mail id (five addresses) does not have any account' -- an ACCOUNT lookup, not a data search. The reply pointed out, without heat, that the question was not whether those addresses can log in -- none of them can, and nobody was asking -- but whether Owler HOLDS data about the person. They then re-ran it properly and answered: 'We couldn't find any information related to the mentioned name and phone numbers.' THE PATTERN IS COMMON AND CHEAP TO FIX: a support desk reads a privacy request as an account query because that is the shape of ticket they usually get. One short, specific, non-accusatory correction converted a meaningless answer into a real one inside five days. Note the second answer is keyed to NAME AND PHONE NUMBERS where the first was keyed to email, so between the two passes the main identifier classes were covered.
 
 ## Steps
 

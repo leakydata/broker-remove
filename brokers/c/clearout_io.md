@@ -6,12 +6,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-17)
-- Note: Emailed us@clearout.io 2026-09-17. B2B email verification/finder —
-  used the B2B contact-enrichment variant: phone numbers and name variants
-  led, closed .edu address offered as a search key, asked whether records
-  arrive via supplier feed or a customer's own uploaded list, and asked for a
-  standing do-not-add suppression regardless of result. No reply yet.
+- Current: `confirmed` (updated 2026-10-10)
+- Note: NIL, 2026-09-18, found unread 2026-10-10. One line from a named person at the company: 'We don't have the profile on our end.' Bare and unqualified -- it does not say what was searched or on which keys, so by 289 it is an ASSERTED nil rather than a demonstrated one. NOT PRESSING IT, and the reason is worth recording rather than looking like laziness: the original letter to Clearout acknowledged their product is keyed primarily to work identifiers and explicitly offered that an unqualified statement would be a complete answer. They gave one. Pressing now would break the same promise honoured with Adagio in 463. The asymmetry between this and the CauseIQ push is deliberate -- CauseIQ described a SPECIFIC match test whose logic can be shown to miss the records most likely to exist, which is a reason to ask again; Clearout described no logic at all, so there is nothing to argue with except the denial itself, and more email will not improve it.
 
 ## Steps
 

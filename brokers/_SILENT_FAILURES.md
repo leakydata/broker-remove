@@ -30945,3 +30945,63 @@ own step, read the result, and only then commit.** Never in the same chain as
 the commit. The honest version of "run redact.py before every commit" is that
 the *before* has to be a separate turn, not a separate line in the same script.
 
+---
+
+## §465 — Three nils, three different right answers
+
+Working the unread backlog produced three nils on the same afternoon. They look
+alike and the correct response to each was different, which is the point worth
+keeping.
+
+**Cause IQ — contested, and the row regressed from `not_found`.**
+
+> "We searched Cause IQ's person data using your name and the three email
+> addresses included in your request. We did not find an identifiable record
+> matching **both you and the information provided**."
+
+Two faults in the scope. The letter listed more than three addresses, so some
+were dropped. And the test is **conjunctive** — name *and* email — which for
+this dataset is decisive rather than pedantic. Cause IQ profiles people
+connected to nonprofits, built largely from Form 990 filings, and **a 990 has
+no email field**: it lists officers, directors and trustees by name, title,
+organisation and sometimes a business address. A record of exactly the kind
+they hold would fail a name-plus-email test while being precisely the record
+being asked about.
+
+So the nil means "nothing matched all criteria at once", not "nothing about
+this person". Asked for a disjunctive re-run keyed on name plus date of birth,
+on name plus organisation, and on the prior addresses.
+
+The row had been carried as `not_found` by another agent the day after the
+reply arrived, with the note *"No detail is carried across — re-read the
+broker's own reply before relying on this."* That instruction was right and
+reading it did exactly what it predicted. Regressed deliberately.
+
+**Clearout — accepted without a murmur.** *"We don't have the profile on our
+end."* Bare, unqualified, no stated logic. By §289 that is an asserted nil, not
+a demonstrated one — and it is being accepted anyway, because the original
+letter conceded their product is keyed to work identifiers and offered that an
+unqualified statement would close it. They gave one. Pressing would break the
+same promise kept with Adagio in §463.
+
+**The asymmetry is the finding.** Cause IQ described a specific match test
+whose logic can be shown to miss the likely records, which is a reason to ask
+again. Clearout described no logic at all, so there is nothing to argue with
+except the denial itself, and more email will not improve it. **A vaguer answer
+is harder to challenge than a precise one** — which is an uncomfortable
+incentive, and worth naming: the company that explained its method exposed a
+flaw, and the company that explained nothing is unassailable.
+
+**Owler — a nil that only arrived because the first answer was corrected.**
+Owler initially replied that the addresses "does not have any account" — an
+*account* lookup, not a data search. A short, specific, non-accusatory
+correction — the question is not whether these addresses can log in, nobody
+was asking that — produced a real answer five days later: *"We couldn't find
+any information related to the mentioned name and phone numbers."*
+
+Cheap and reusable. A support desk reads a privacy request as an account query
+because that is the shape of ticket it usually gets. One sentence converts a
+meaningless answer into a real one. Note also that the two answers between them
+covered email, then name and phone — different keys each time, which is worth
+checking for rather than assuming.
+
