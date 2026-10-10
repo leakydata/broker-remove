@@ -30805,3 +30805,57 @@ added nothing except the one part that cannot be unpublished.
 status is checked. Never `| tail -1`.** A guard whose output is truncated is a
 guard that does not exist.
 
+---
+
+## §463 — The unread sweep, run once, found two answered requests
+
+§462 ended by noting the inbox had been treated as a place to look for new
+refusals rather than for answers to things already asked. Running that sweep
+deliberately — unread mail, privacy-shaped senders, three weeks back — turned
+up two substantive replies nobody had opened.
+
+**Adagio (Onfocus SAS): a nil, and the best-argued one received so far.**
+
+> "Onfocus SAS does not track individuals by name. However, technical data
+> (such as cookies or IP addresses) may be collected during standard web
+> browsing. As these online identifiers are pseudonymized, we cannot link them
+> to a specific individual **without additional technical parameters (such as a
+> specific Cookie ID or Device ID)**."
+
+This is what §289 keeps asking for. A bare nil is unfalsifiable — identical
+whether the company searched everything, one field, or nothing. This one states
+the architecture, so the nil's **scope** is knowable: they key on cookies and
+devices, not names, and a name-and-email search was therefore always going to
+return empty. The nil is structural, not evidence of absence, and the row can
+say so.
+
+It is also the cleanest demonstration yet of what the MAID ban costs. The only
+key that could have matched is a Cookie ID or Device ID, which this project
+will never supply. So the nil is the accepted price of that rule, shown rather
+than argued — worth citing the next time a withheld-identifier nil needs
+justifying.
+
+**Closed without pressing, deliberately.** The original letter said "an
+unqualified written statement to that effect is a complete answer and closes
+the matter with thanks." They gave one. A promise made to get a straight answer
+is worth keeping once the straight answer arrives; squeezing another round out
+of a company that replied honestly and quickly would make the next such promise
+worth less. The reply thanked them, noted for the record that their cookie
+opt-out is itself cookie-based — so it reaches nothing already collected and
+dies with a cleared browser — and observed that Onfocus SAS being French, a
+UK/EU establishment route existed had there been anything to delete. They
+answered under CCPA without being asked and without raising residency, which
+after three residency refusals in a week deserves saying out loud.
+
+**Data Decisions Group: a false alarm, checked rather than assumed.** An
+"Identity Verification — you must respond within 5 days or your request will
+expire" notice sat unread and looked urgent. The message thirty minutes later
+says identity was *already* verified and processing had begun; the link itself
+expires fifteen minutes after sending, so it was dead on arrival and irrelevant
+by the time it was sent. Nothing to do. Worth recording precisely because the
+first message, read alone, would have produced a panic and a dead click.
+
+**The sweep is now part of the pass.** Two answered requests in one run, after
+three days of looking only at what was newly arriving. The cost of the sweep is
+one search.
+
