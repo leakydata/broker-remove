@@ -32413,3 +32413,45 @@ brush-off — but it also showed that rows sharing a backend should not be
 assumed independent. Establish the relationship before treating a Buxton row
 and any Audiense row as separate targets.
 
+### §488a — The circular link explained, and two companies found behind it
+
+§488 said to establish the Buxton–Audiense relationship before treating the
+rows as independent. Established, and it explains everything:
+
+**Buxton acquired Elevar in 2024 and Audiense in March 2025**, backed by PSG
+Equity, and in **July 2026 merged all three under one brand and website.**
+
+So the 301 from `buxtonco.com/privacy` to `audiense.com/legal/privacy` is the
+rebrand. And the circular request-form link is a **migration artefact**: the
+policy moved to the new domain while the link *inside* it still points at the
+old URL, which now redirects back to where you already are.
+
+The letter's framing — that nobody inside is likely to have noticed after a
+site move — turns out to be **literally correct** rather than merely
+charitable. Worth noting, because the charitable reading is not always the
+accurate one and it is useful to know when it was.
+
+**Two new rows, and they are not duplicates of Buxton:**
+
+- **`audiense`** — originally Social Bro, founded 2012. Audience intelligence:
+  AI-driven insights, segmentation, influencer discovery. **Social-graph
+  data.**
+- **`elevar`** — e-commerce conversion tracking. **Event-level behavioural
+  data**: what was viewed, basketed, bought, typically keyed to a cookie, a
+  device identifier or a hashed email rather than a name.
+
+Neither is Buxton's household-and-purchase-behaviour analytics, so a deletion
+addressed to the Buxton file has no obvious reason to reach them. Elevar is
+the most invasive of the three and the likeliest to return a structural nil
+(§479a) on a name-and-email search.
+
+**And a gap in my own letter.** It did not ask whether the request covers the
+sibling brands, because the relationship was unknown when it was written. The
+BeenVerified letter (§469) asked exactly that about Ownerly and NeighborWho —
+the right habit, not applied here because the research came after the send.
+
+**The ordering lesson is small and keeps recurring**: establish the corporate
+shape *before* writing, not after. §486 was the same mistake in a different
+register — composing from the broker's page rather than the project's record.
+Here it was composing before the research rather than after it.
+
