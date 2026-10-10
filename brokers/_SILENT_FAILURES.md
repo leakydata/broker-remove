@@ -32698,3 +32698,60 @@ A person working the queue reads one entry, not all entries for that broker.
 cases the entry they might reach first was the wrong one. Merging is cheap;
 the merged entry has been better than either input every time.
 
+---
+
+## §493 — A deletion ran first, a rejection named nothing, and a message expired unread
+
+Merging the duplicate Juicebox queue entries (§492a) sent me to the mail, where
+three notifications from **8 September** had been sitting unread for
+thirty-two days. Two of them matter.
+
+**1. "Your Delete request is complete."** Deletion was the one type
+deliberately held back. The staged plan says so in capitals: *access first,
+because deleting first destroys the records the access request is meant to
+disclose.* Juicebox was told this and acknowledged it.
+
+So either a deletion was filed in error, or their system processed one anyway.
+Either way **the agreed sequence has been inverted, and the access disclosure
+may now be empty as a direct result** — the precise harm the ordering existed
+to prevent.
+
+**2. "Data Rights Request Rejected."** A generic template with **no request ID
+and no stated reason.** It lists four possible reasons — email not verified,
+duplicate request, no user found, proof of identity discrepancy — and names
+none of them.
+
+That is unactionable in a specific, instructive way: **each of the four implies
+a completely different response.** Email not verified → click a link.
+Duplicate → drop it. No user found → record a nil with thanks. Identity
+discrepancy → supply something. A rejection that does not say which one is a
+refusal the requester cannot answer, and it is worse than silence, because it
+looks like a reply.
+
+**3. A portal message whose link expired after fifteen days**, around
+23 September, unread. Its content is gone from this end.
+
+**The structural point about that last one**, raised with them as a process
+observation rather than a complaint: a **fifteen-day expiring link is a short
+window for correspondence about a request with a forty-five day clock.** A
+requester who checks mail fortnightly loses the message entirely. Mirroring
+content into the email body costs nothing and would prevent it for everyone.
+
+The reply owned the thirty-two day delay as ours, not theirs, and asked four
+things each answerable in a line. It also repeated the finding worth more than
+the request itself: **the request-type cards fail to open roughly two times in
+three, and are invisible to the page's accessibility tree** — a screen-reader
+user cannot reach them at all.
+
+### §493a — The duplicate merge paid for itself immediately
+
+§492a justified merging on the grounds that duplicate entries disagree about
+reality. The Juicebox merge did something better: the richer entry named two
+specific request types still unfiled and pointed at a staged values file,
+which is what sent me to the mail at all. The thin entry would have produced a
+visit to the Privacy Center and nothing else.
+
+**Tidying the queue was not housekeeping — it surfaced a month-old
+failure.** Worth remembering the next time a cleanup pass looks like it is not
+real work.
+
