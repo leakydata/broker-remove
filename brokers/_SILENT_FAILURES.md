@@ -32093,3 +32093,48 @@ with money they are owed is not the same kind of target as a broker who sells
 a home address to anyone who pays.** The project's default should not treat
 them identically, and until now it did.
 
+---
+
+## §483 — Two forms, and the one the site links to is the wrong one
+
+DatabaseUSA runs two request pages on the same domain.
+
+`privacycompliance.biz` — the URL on file, and the one reachable from their
+opt-out control — opens:
+
+> "Thank you for reaching the DatabaseUSA.com **California Consumer Privacy
+> Act (CCPA)** Request Page... established this website for **California
+> consumers**."
+
+`privacycompliance.biz/other-dbusa/` opens:
+
+> "...established this website for **US consumers** to exercise their privacy
+> choices."
+
+The second lists know-categories, know-third-parties, and opt-out of sale or
+sharing with deletion. **It is linked only from inside the privacy policy**,
+under "Remove My Name/Opt-Out" — not from the site's own navigation.
+
+So a Pennsylvania resident following the obvious route lands on a page that
+tells them, in its first line, that it is for Californians. Nothing on it says
+another page exists. Same shape as SimioCloud (§457a), where the right door
+for a non-covered-state resident was the one *without* "deletion" in the name:
+**the correctly-scoped route exists and is named least helpfully.**
+
+Both forms are CAPTCHA-gated — press-Submit tested on each, neither moved — so
+a human is needed either way. The queue entry now points at the `/other-dbusa/`
+URL and says why.
+
+**They were told about it**, helpfully rather than as a complaint: only the
+California page is linked from their opt-out control, and one extra line would
+stop non-California residents concluding they have no route at all. That costs
+them nothing and is the kind of thing a company usually cannot see from inside.
+
+The substantive request — suppression, recipient categories, the sixteen prior
+addresses — went by email to `info@databaseusa.com`, the only contact their
+privacy policy publishes. There is no privacy-specific address. **The form
+carries three fields and no free text**, so it could not have carried any of
+it; §456's limitation again, in its mildest form.
+
+Postal address on file for escalation: 11211 John Galt Blvd, Omaha, NE 68137.
+
