@@ -31924,3 +31924,70 @@ against supplying a MAID or cookie ID — not as evidence of absence. A future
 reader counting "confirmed clear" across the corpus would otherwise fold five
 unanswerable questions into the win column.
 
+---
+
+## §480 — The same sentence at two companies in the same week
+
+Nordic Data Resources, 5 September: *"handling it in relation to the email
+address from which this message was sent."*
+
+OnAudience, 4 September (§475): *"in relation to the email address from which
+this message was sent."*
+
+**Word for word, two unrelated companies, one week apart.** A verification rule
+that silently scopes the search to the sending address, expressed in identical
+language — which suggests shared compliance tooling or shared boilerplate
+rather than coincidence.
+
+The outcomes diverged. At OnAudience the correction landed and the final answer
+covered **all twelve** identifiers. At Nordic Data Resources the follow-up
+engaged seriously — conceding the rule is right in general and arguing it
+produces a wrong result for someone with a long identifier history — and the
+answer four weeks later still reads *"completed our review in relation to the
+email address from which you contacted us."* One of twelve.
+
+So the row is `confirmed` **for what was done, not for what was asked**, and
+says so. Eleven identifiers remain unexamined. **A completion notice scoped to
+one identifier looks identical to a completion notice covering all of them**,
+which is the §443 problem in a new place: the confirmation is true and the
+inference from it would be false.
+
+Worth watching for that exact sentence elsewhere. It is now a recognisable
+marker.
+
+### §480a — Naming another company in the subject line invites a refusal
+
+HubSpot refused the Clearbit request on 25 August: *"To proceed with this
+request, it must be submitted directly by the data subject."* It **had** been
+submitted directly by the data subject. The misreading appears to come from the
+letter naming Clearbit — HubSpot's acquisition — which triage read as acting
+on behalf of a third party.
+
+Same family as Allant Group (§473), whose completions described the request as
+submitted *"on behalf of"* the subject. **A letter that names a company other
+than the recipient invites an agent-request misclassification.** One line in
+the opening paragraph fixes it: the sender is the data subject, and the named
+brand is the recipient's subsidiary.
+
+One correction cleared it, and HubSpot sent two separate confirmations four
+minutes apart — object-to-processing and deletion — which is the right shape.
+
+### §480b — Two more source disclosures, and one honest two-part nil
+
+**Lightcast** attached *"a copy of the personal information held in our
+database which includes the source of this data."* Second instance after
+SignalHire of both the data and its provenance in one reply — and the path to
+it was a verification demand **complied with rather than argued**: one web form
+per email address, onerous with twelve, but a real method. Contrast Infutor
+(§478), where the named form is not a link at all. **The attachment has not
+been opened and should be.** `rhetorik` resolves on the same evidence —
+Lightcast, Economic Modeling Specialists and Rhetorik are one company.
+
+**Blis** named the systems it searched: *"our HR, CRM, and Accounts systems, as
+well as our [advertising platform]."* That makes the nil checkable for three of
+them — and structurally weak for the fourth, since Blis is a location-data
+company whose match keys are device identifiers. Both things are true and the
+row records both.
+
+Flags: 34 → 29.
+

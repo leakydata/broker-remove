@@ -7,9 +7,8 @@
 
 ## Status
 
-- Current: `not_found` (updated 2026-09-24)
-- Note: 2026-08-25: UK-headquartered location audience business; letter states US-resident scope up front so it is not answered under GDPR. Geographic query in place of a MAID with confirm-before-delete, visitation history as the core ask, and the question of whether suppression can be keyed to anything but a resettable advertising ID.
-- **2026-09-24 reply: genuine structural nil.** "After thorough checks of our systems, including our HR, CRM, and Accounts systems, as well as our Marketing database, we have not found any information relating to the personal data you provided. At Blis, we do not process emails, addresses, date of birth, or phone numbers. We share IP addresses and mobile identifiers with our partners to enable programmatic advertising." They explicitly didn't run the overnight-dwell-pattern geographic query from the original letter (no mention of it), but the broader point stands on its own: Blis's stated architecture holds **no directly-identifying PII at all** to search in the first place — only device/IP identifiers. Offered to add a device ID to their suppression list if we can find one ("browse using your favourite search engine and the search term 'find my device ID'"), which is not something a consumer can reliably produce. Recorded `not_found` rather than pushing further — there's no identifier left to search on, and if they do not hear back by 2026-10-24 they'll close the ticket as resolved by default.
+- Current: `not_found` (updated 2026-10-10)
+- Note: VERIFIED (468 audit) -- EARNED, AND IT NAMES THE SYSTEMS SEARCHED. Blis, 2026-09-24: 'after thorough checks of our systems, INCLUDING OUR HR, CRM, AND ACCOUNTS SYSTEMS, as well as our [advertising platform]...' Naming the systems converts an assertion into something checkable, which is what 289 asks for and what distinguishes this from the bare nils at 465. NOTE THE ARCHITECTURE CAVEAT ANYWAY: Blis is a location-data advertising company, so like the five at 479a its primary match keys are device and location identifiers rather than names. The nil is strong for the systems they list -- HR, CRM, accounts -- and structurally weaker for the ad platform, where a name-and-email search is not the query that would find him. Both things are true and the row should say both.
 
 ## Steps
 
