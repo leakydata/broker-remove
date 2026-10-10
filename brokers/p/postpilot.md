@@ -7,9 +7,8 @@
 
 ## Status
 
-- Current: `confirmed` (updated 2026-09-23)
-- Note: 2026-09-23, privacy@postpilot.com (a different address than the one on file — see below): "This confirms that PostPilot has completed the privacy request for [FIRST LAST]. The associated personal information has been deleted from our systems." Reference: signal. No detail on which identifiers matched, which systems were searched, or whether the identity-graph edges (browsing-session-to-postal-address resolution) were suppressed as well as the row — the three questions in the note below were not answered. Recorded `confirmed` because they affirmatively stated deletion, not merely receipt.
-- Prior: Direct-mail RETARGETING for online retailers - postcards triggered by website visits. The valuable asset is not a mailing list but the resolution from a browsing session to a postal address, so that is what the letter targets: the cookie/device/hashed-email/IP to name-and-address mapping, the site-visitor and abandoned-cart matches, and the identity-graph edges underneath. Deleting a mailing record while leaving the ability to re-resolve from the next site visit is not a deletion, so the ask is a permanent do-not-mail AND do-not-resolve. Three questions: which merchant customers the record sits under (a consumer cannot know which shop's visit produced the postcard), which identity partner performs the online-to-postal match (that party holds the graph), and what they hold as controller in their own right.
+- Current: `confirmed` (updated 2026-10-10)
+- Note: VERIFIED AGAINST THE MAIL (468 audit) -- EARNED, and the evidence predates the status rather than following it. PostPilot, 2026-09-23: 'This confirms that PostPilot has completed the privacy request for [PERSONAL]. The associated personal information has been deleted from our systems.' Short, unambiguous, dated the day before the row was closed. Contrast outreach_io in the same sweep (473), where the reply arrived twelve days AFTER the status was recorded.
 
 ## Steps
 

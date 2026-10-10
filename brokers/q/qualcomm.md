@@ -7,10 +7,9 @@
 
 ## Status
 
-- Current: `not_found` (updated 2026-09-23)
+- Current: `not_found` (updated 2026-10-10)
 - Reference: `gmail:1a01960af70e16c0`
-- Note: 2026-09-23: "We searched our systems using the information you provided and did not locate any personal information associated with you except in records and correspondence related to your privacy request." A clean, specific nil — they engaged twice (an 2026-08-26 acknowledgement, then this) and searched before answering, which is more evidenced than most `not_found` results on file. Still no explicit statement that a control query was run, so treat as unverified rather than demonstrated.
-- Prior: 2026-08-26: Qualcomm acknowledged receipt and said a substantive response will follow once review is complete. Clean acknowledgement, no portal demand, no ID demand - clock started 2026-08-19.
+- Note: VERIFIED AGAINST THE MAIL (468 audit) -- EARNED, AND UNUSUALLY PRECISE ABOUT ITS OWN EXCEPTION. Qualcomm acknowledged on 2026-08-26 and answered on 2026-09-23: 'We searched our systems using the information you provided and did not locate any personal information associated with you EXCEPT IN RECORDS AND CORRESPONDENCE RELATED TO YOUR [request]...' That carve-out is the honest one and is worth noting as good practice: a company that processes a privacy request necessarily creates a record OF the request, and saying so is more credible than a flat nil that pretends the correspondence does not exist. 1798.105(d)(1) expressly permits retaining what is needed to give effect to the request. Compare the companies that assert an unqualified nil while plainly holding a ticket, a reference number and an email thread.
 
 ## Steps
 

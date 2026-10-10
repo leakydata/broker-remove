@@ -31526,3 +31526,70 @@ subject filed for himself. Probably template wording. Worth one line of
 correction if that row is ever reopened, because a record classifying him as an
 agent for a third party is a hook for questioning the request's validity later.
 
+---
+
+## §474 — The Dots refused to do the harmful thing we asked for
+
+The Dots searched, found no profile under any of the four addresses supplied,
+and then said they **do** hold several profiles under the same name. The
+26 September letter asked them to add the name *and* the addresses to a
+standing do-not-add list. On 30 September they refused the first half:
+
+> "A name-based block isn't possible, as other members with the same name may
+> create an account."
+
+**That is the exact limit this project imposes on everyone else, and our own
+letter asked them to breach it.** Every other letter in this corpus warns
+brokers not to suppress a prior address or an old telephone number on its own,
+because other people live at those addresses now and those numbers have been
+reassigned. The name field went through the same reasoning and nobody noticed.
+
+A block keyed to a common name would stop strangers from opening an account —
+people with no connection to the subject who never asked for any of this.
+§464's composite record is the proof the risk is real: one company's file
+described four or five different people sharing it.
+
+**Corrected in writing rather than quietly dropped.** The name-based ask is
+withdrawn, the reason stated, and the request narrowed to the four email
+addresses, which are unique to their owner in a way a name is not. They were
+also told explicitly **not** to touch the other same-name profiles: if none
+matches his addresses, none is his.
+
+Their ownership-confirmation requirement was accepted rather than argued with,
+and answered with the cheapest honest method — send a verification mail to
+each of the four, he clicks through from each. Present control of the actual
+identifiers is better evidence for this purpose than a photograph matched to a
+name.
+
+**The broader point is uncomfortable and worth keeping.** This project has
+spent weeks cataloguing brokers whose processes harm people through
+carelessness. Here a broker's process was more careful than ours. The rule
+held for addresses and phone numbers because those cases had been thought
+about; it failed for names because that case had not. A principle only applied
+where it was first noticed is a habit, not a principle.
+
+### §474a — Three more earned, and one of them settles the LinkedIn question
+
+**SignalHire** gave the most complete source disclosure in the corpus, in two
+sentences: the data itself attached as a PDF before erasure, the source named
+exactly — *"All data was indexed from LinkedIn [profile]"* — and a forward
+undertaking not to index it again. Not "publicly available sources" but a
+single named origin.
+
+That settles the LinkedIn argument from the other side. §472a recorded
+Swordfish confirming the URL worked as a **suppression key**; SignalHire
+confirms the URL **was the source**. Withholding it there would have left them
+searching keys they do not index on. The attached PDF has not been opened and
+should be, before this row is treated as finished.
+
+**Qualcomm** answered with a carve-out worth imitating: no personal information
+located *"except in records and correspondence related to your request."* A
+company that processes a privacy request necessarily creates a record of it,
+and saying so is more credible than a flat nil from someone plainly holding a
+ticket, a reference number and an email thread.
+
+**PostPilot** confirmed deletion plainly, the day *before* its row was closed —
+the opposite of §473's ordering problem.
+
+Flags: 65 → 62.
+
