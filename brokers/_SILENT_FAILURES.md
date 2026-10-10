@@ -30730,7 +30730,7 @@ Two findings from the same queue item, pulling in opposite directions.
 
 **The good one: Babel Street deleted.** Their reply of 7 October — unread until
 today — says they verified identity, searched, and found exactly two elements:
-name, and `leakydata@gmail.com`. Then: *"We have processed your deletion
+name, and the correspondence email address. Then: *"We have processed your deletion
 request and have removed responsive records from applicable systems."*
 
 Three precedents in that exchange are worth quoting at other brokers:
@@ -30780,4 +30780,28 @@ Oregon broker registry, and the California registries unlocked 517 brokers no
 other source had. They are not bookkeeping. They were the most valuable items
 in the queue and I classified them as noise because their ids begin with an
 underscore.
+
+### §462a — I hid the guard's warning behind `tail -1`
+
+The commit above went out with the subject's email address written into the
+page, in a public repository. `redact.py` caught it and said so. I did not see
+it, because every invocation this session has been `redact.py | tail -1` — and
+on a clean run the last line is the count, while on a dirty run the count is
+followed by four paragraphs of advice. **`tail -1` showed me the advice and hid
+the number.**
+
+So the guard worked perfectly and I had arranged not to read it. That is worse
+than the guards in §448, §451c and §455, which were in the wrong position:
+this one was in exactly the right position, ran, found the thing, printed it,
+and was silenced by the caller for brevity.
+
+The value was in a sentence about what Babel Street disclosed, where the
+*point* was that they named specific elements rather than writing "any
+applicable records". The point survives completely as "name, and the
+correspondence email address" — which is what the file now says. The address
+added nothing except the one part that cannot be unpublished.
+
+**The rule, for every future pass: `redact.py` is read in full, or its exit
+status is checked. Never `| tail -1`.** A guard whose output is truncated is a
+guard that does not exist.
 
