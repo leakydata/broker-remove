@@ -32040,3 +32040,56 @@ the search is visible rather than assumed — the thing Nordic Data Resources
 Worth quoting to any company drafting a completion template. It costs them one
 parenthesis and saves the recipient an entire round of correspondence.
 
+---
+
+## §482 — The first row where removal might cost the subject money
+
+PBI Research — Pension Benefit Information, LLC — blocks on two constraints
+and raises a third thing that is not a blocker at all.
+
+**The hard stop: the form requires the last four digits of a Social Security
+Number.** Required field, no alternative offered. The standing instruction
+forbids sending an SSN, and last-four is SSN data — arguably the worst
+fragment to scatter, because it is the part most often used as a verifier
+somewhere else. Not supplied, and not passed to the subject to supply either.
+
+Secondary: an arithmetic anti-bot question, which §459a settled is
+bot-detection and not to be completed. And a CCPA framing limited to
+California residents, with a dropdown for other states.
+
+**But the thing worth stopping on is their warning, which is true.**
+
+> "by submitting this form, you may make it more difficult for your former
+> employers, pensions, and unions, to locate your contact information and
+> communicate with you regarding your benefits."
+
+PBI's business is **finding people who are owed money**. They work for pension
+plans, insurers and benefit sponsors to locate beneficiaries. A suppression
+here does not just remove a marketing record — it may sever the route by which
+a former employer reaches someone about a pension they have forgotten they
+have. This subject has a thirty-year employment history across a university, a
+state role and several private employers.
+
+**That is a decision for him, not for this project.** Every other row in this
+file runs on the premise that removal is the right outcome and the only
+question is how to get it. Here the premise does not hold, and recording the
+row as `manual_required` with the trade-off stated is more honest than filing
+a request on autopilot and discovering the cost later.
+
+One structural note if he does want removal: PBI positions itself as a
+**service provider or contractor** to its clients, with the pension plan as
+the controller. If that is right, the effective target is the plan, not PBI —
+and a request here may be correctly refused on exactly that ground.
+
+### §482a — The standing rules are doing real work now
+
+Three separate rules stopped action on this one page: no SSN, no
+bot-detection, and — newly — no removal where removal is plausibly against
+the subject's interest without his say-so.
+
+The first two were written as constraints on method. The third is not written
+down anywhere and should be: **a broker whose function is to reunite people
+with money they are owed is not the same kind of target as a broker who sells
+a home address to anyone who pays.** The project's default should not treat
+them identically, and until now it did.
+
