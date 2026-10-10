@@ -32180,3 +32180,54 @@ Worth recording the negative result anyway: the handoff note tells the next
 person exactly what was tried, so they do not repeat it, and what the one
 successful run looked like, so they know the flow itself works.
 
+---
+
+## §485 — Asking for a deletion that requires the key you refuse to give
+
+CityData's policy states that deletion of **Device Data** requires the end
+user's mobile identifier — IDFA on iPhone, ADID on Android.
+
+That is the sixth company in this category (§479a listed five). What is
+different here is that the requirement is **stated in the policy in advance**,
+rather than emerging as a nil after a search on the wrong keys. So the letter
+raised it up front instead of discovering it after a round trip.
+
+**The reason for refusing, written out rather than asserted**, because it is
+the clearest statement of the rule this project has had occasion to make:
+
+> A mobile advertising identifier is the most powerful key in a location
+> dataset — stable, unique to a device, and joining across every source that
+> has ever seen it. Supplying one in order to obtain a deletion furnishes the
+> identifier that makes a person findable, **and** creates a durable link
+> between it and a named individual who has just confirmed his address, phone
+> and email. **If no record keyed to him exists, the request does not test for
+> a match — it builds one.**
+
+Three questions were put, each answerable in a line: can they act on the
+**non-device** data, which their own policy describes without a device key;
+can they suppress device data against a **hashed or derived** value rather
+than the raw one; and if the honest answer is that without an IDFA or ADID
+they cannot find or remove device data, will they say so outright — with an
+undertaking to record it as final and not write again.
+
+Mobilewalla's one-line version of that answer (§477a) was cited to them
+approvingly. **A company that says plainly what it cannot do is more use than
+one that leaves the requester guessing**, and saying so is both true and
+likelier to get a straight reply than pressing would be.
+
+### §485a — A location-specific extension of the association rule
+
+The standing rule is: key a suppression to the *association* between an
+identifier and the subject, never to a bare address or phone number, because
+other people live at those addresses now.
+
+In a **location** dataset that matters more than anywhere else. A suppression
+keyed to a bare address does not just affect whoever lives there — it
+potentially affects **everyone who has ever been recorded at that point**.
+Sixteen addresses over thirty years, in a mobility dataset, is a lot of
+strangers.
+
+The letter says so explicitly. It is the same principle as §474, where The
+Dots refused a name-based block because namesakes exist — extended from
+*people who share a name* to *people who share a place*.
+
