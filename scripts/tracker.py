@@ -119,8 +119,33 @@ def cmd_set(args):
         # too narrow, here the row list is. Allow it, say so, and still refuse
         # a broker that exists nowhere at all.
         if args.broker_id not in st:
-            sys.exit(f"unknown broker: {args.broker_id} "
-                     f"(not in the registry and no existing status row)")
+            # ...and a broker that exists nowhere YET is the next case out.
+            # The guard above was written so a row the registry had LOST could
+            # still be edited, but it went on refusing to CREATE one -- so a
+            # broker discovered by disclosure could be recorded only if some
+            # other tool had already made the row. AudienceFirst Media and RMI
+            # Direct Marketing both surfaced from one sentence in a parent
+            # company's press release, which is the best kind of lead there
+            # is, and `set` turned both away.
+            #
+            # Same shape as the comment above, one level further out: the
+            # check is right -- it catches typos, which is its whole purpose --
+            # and its scope was wrong. So keep refusing by default and make the
+            # caller SAY they mean it, with a note recording where the broker
+            # came from. A typo will not carry --new.
+            if not args.new:
+                sys.exit(f"unknown broker: {args.broker_id} "
+                         f"(not in the registry and no existing status row). "
+                         f"If this is a broker you have just discovered -- named "
+                         f"in someone else's disclosure, in a parent's press "
+                         f"release, or as successor to a company that shut down "
+                         f"-- pass --new to create the row, and say in --note "
+                         f"where it came from.")
+            if not (args.note or "").strip():
+                sys.exit("--new requires --note: record where this broker came "
+                         "from, or the row is unexplainable later.")
+            print(f"  NOTE: creating NEW off-registry row {args.broker_id} "
+                  f"(discovered by disclosure; not in the registry).")
         print(f"  NOTE: {args.broker_id} is off-registry (discovered by "
               f"disclosure, a family rollup, or renamed). Updating its "
               f"existing status row.")
@@ -422,6 +447,9 @@ def main():
     stp = sub.add_parser("set")
     stp.add_argument("broker_id"); stp.add_argument("status")
     stp.add_argument("--note"); stp.add_argument("--url"); stp.add_argument("--ref")
+    stp.add_argument("--new", action="store_true",
+                     help="create a row for a broker not in the registry "
+                          "(discovered by disclosure); requires --note")
     stp.add_argument("--regressed", action="store_true",
                      help="allow moving away from a confirmed/not_found outcome")
     # 'email' is a fresh outbound letter and counts against the daily send cap.

@@ -30322,3 +30322,71 @@ promise that the page is already filled — which is what §448's queue note was
 trying to say about "already filled in the open tab" and which I then did
 anyway, five times.
 
+---
+
+## §458 — The confirmation named a parent, and the parent named two more brokers
+
+The SimioCloud opt-out acknowledgement arrived from `MooreWPemails@wearemoore.com`,
+echoing every submitted field back. Two useful things followed from a sender
+address.
+
+**It confirmed the submission independently** — §457's rule working as intended:
+the inbox said what the page could not.
+
+**And it named the parent.** SimioCloud is a Moore company. Moore's own
+announcement of 2 September 2026 describes AudienceFirst Media as "a division of
+SimioCloud, a Moore company" — so the corporate fact is on the record rather than
+inferred from a mail domain.
+
+**The argument I nearly made, and why not making it was worth more.**
+
+Moore's involvement looked like it might reach `wiland`, the row that denied
+**478 of 790 opt-out requests** for failure to authenticate identity. If Wiland
+and SimioCloud were the same group, the contrast would have been devastating:
+one arm refusing most opt-outs for want of proof of identity, another accepting
+one instantly with no verification at all, over the same kind of marketing data.
+
+A search found no evidence of that link. So the argument is dropped. It would
+have been the strongest letter of the week and it would have been wrong, and the
+cost of checking was one search against a refusal that could not be withdrawn.
+
+**What the same announcement did give up is better than the argument was.**
+
+- **AudienceFirst Media** — a SimioCloud division doing list management and
+  brokerage. A broker in the ordinary sense, with no row here.
+- **RMI Direct Marketing** — **ceased operations 1 September 2026**, having
+  recommended its clients move their list business to AudienceFirst.
+
+So RMI's data is arriving at SimioCloud in the same weeks the suppression is
+being filed. A scrub keyed to the file as it stood on 9 October never sees the
+import, and there is no longer an RMI to ask. The follow-up therefore asked for
+the suppression to be **forward-looking against inbound lists, naming RMI**,
+and to cover AudienceFirst by name rather than by assumed inheritance.
+
+**The general rule this produces: a broker winding down is the moment of
+maximum exposure and minimum recourse.** The data disperses to parties the
+subject never dealt with, and the one party who could have been asked is gone.
+Any broker in the list that shuts down should be re-filed as a request to its
+successor, not closed as unreachable — which is the opposite of what
+`handoff.py prune` does with `unreachable`, and worth remembering before that
+flag is used on a dead company.
+
+### §458a — The guard that refused the best leads
+
+Both new brokers were rejected by `tracker.py set`:
+
+    unknown broker: audiencefirst_media (not in the registry and no existing status row)
+
+The comment directly above that check describes allowing off-registry rows,
+because rows discovered by disclosure are exactly the project's best evidence.
+It allows **editing** such a row. It still refused to **create** one. So a
+broker surfaced by a parent company's own press release — about as good as a
+lead gets — could be recorded only if some other tool had already made the row.
+
+Third time this shape has appeared in three days (§448, §451c, §455): the check
+is right and its scope is wrong. The purpose of refusing an unknown id is to
+catch typos, and that purpose is fully served by making the caller say they mean
+it. `set` now takes `--new`, which creates the row and **requires `--note`** —
+a typo will not carry a flag and an explanation. Both guards verified: a
+misspelled id is still refused, and `--new` without a note is refused too.
+
