@@ -30623,3 +30623,48 @@ worked is unflattering: the information was published, on the companies' own
 policy pages, the whole time. The handoff list was not a list of requests that
 could not be made. It was a list of pages that happened to be blocking.
 
+### §460c — Correcting §460b: the handoff list was mostly not what I called it
+
+§460b ended on a line I liked: *"The handoff list was not a list of requests
+that could not be made. It was a list of pages that happened to be blocking."*
+Checked against the data, that is wrong for most of the list, and the error is
+the kind worth naming — a critique of past work that felt insightful and was
+not tested before it was written.
+
+Of the **43** CAPTCHA-marked rows in the queue:
+
+- **33 had already been written to.** The row history shows `submitted`,
+  `replied` or better. For those, the request exists; the gated form is a
+  *second* route being pursued belt-and-braces, not a request going unmade.
+- **10 had never had anything sent** — and six of those are not brokers at all
+  but project bookkeeping rows (`_registry_oregon`, `_project`,
+  `_project_pa_dnc`, `onetrust_confirm_links`, `people_search_form_batch`,
+  `discovered_optout_routes`) that should not be counted as blocked requests.
+
+**So the real number is four**: `ufind_name`, `smartbackgroundchecks`,
+`addresssearch_com` and `minerva_bi`. Those are the rows where a CAPTCHA is the
+whole story.
+
+And `minerva_bi` is not an oversight either. Its policy designates the web
+portal and a recorded phone line as the only channels, and states that requests
+sent anywhere else — email included — get an automatic redirect. The row note
+already said so. Writing to it would have burned a slot on a guaranteed
+deflection.
+
+**Two methodological faults, both mine, both in the direction of looking
+clever.**
+
+First, my contact scan read the broker data files and not the status notes, so
+it reported "no email on file" for `zeta_global` — a row that has an address, a
+reply, and a documented contradiction in it from September. The project knew;
+my query did not look where the knowledge was.
+
+Second, and worse: §460b generalised from five rows I had just worked to 43 I
+had not. Disqus and Adstra genuinely did have another door, and finding them
+was worth it. That is the whole claim the evidence supports. The sentence about
+the list as a whole was a flourish, and the data does not carry it.
+
+**What survives, stated at its true size:** before adding a *new* CAPTCHA-gated
+form to the handoff list, check the footer and policy for a published address —
+it worked twice in five. It is a useful habit, not an indictment of the queue.
+
