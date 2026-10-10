@@ -31479,3 +31479,50 @@ than one blended notice, and `site_impact`, whose wording — searched on the
 supplied identifiers, matching records deleted, identifiers retained — is the
 right shape for a suppression. Sixty-seven flags remain.
 
+---
+
+## §473 — A status that was right by the time anyone checked, and wrong when written
+
+`outreach_io` was recorded `not_found` on **24 September**. Outreach's reply —
+a good one, identity confirmed from the sending address with no ID demanded,
+and a search *described* rather than asserted — is dated **6 October**.
+
+Twelve days apart. On the day the row was closed, that answer did not exist.
+
+The status is correct today, which is the uncomfortable part. Had Outreach
+instead found a record, the row would have read `not_found` for the whole
+fortnight a live record sat in their systems, and nothing would have looked
+wrong. **The eventual answer ratified a guess**, and a ratified guess is
+indistinguishable from a verified fact once it has been ratified.
+
+This is a different failure from §468's. There the question was whether a
+status was *true*. Here it was true — it just was not **earned when written**,
+and the difference only shows in the dates.
+
+**It is checkable: compare the adoption date against the date of the broker's
+reply, and flag every row where the status predates the evidence.** But being
+honest about cost — finding the reply date means searching the mailbox for that
+broker, which is the same work as verifying the row outright. So this is not a
+cheap filter that narrows the seventy-odd remaining. **It is a thing to check
+while verifying**, and a question to ask of any row whose status looks
+confident: *what was in the inbox on the day this was written?*
+
+### §473a — Duplicate completions inflate every count
+
+Outreach sent **five identical completion notices within three minutes**. All
+five still unread. Heartbeat.ai sent three identical opt-out confirmations in
+twenty-three minutes. Allant Group logged eight request IDs and returned at
+least three completions in seven minutes.
+
+Any count of "replies received" that does not deduplicate by content will
+overstate. This matters for the inbox sweep of §463 as much as for the audit:
+a sweep that finds twelve unread messages from four brokers has found four
+answers, not twelve, and the scale of the backlog looks worse than it is.
+
+Also from the same sweep, verified and cleared: `allant_group`. Its completions
+read *"The Deletion request you submitted **on behalf of** [the subject's
+full name] has been completed"* — authorised-agent phrasing for a request the
+subject filed for himself. Probably template wording. Worth one line of
+correction if that row is ever reopened, because a record classifying him as an
+agent for a third party is a hook for questioning the request's validity later.
+
