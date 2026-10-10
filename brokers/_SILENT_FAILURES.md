@@ -31803,3 +31803,66 @@ should not sit closed on an autoresponder.
 
 Flags: 49 → 44.
 
+---
+
+## §478 — Infutor: email refused, the named form is not a link, and the portal gives Pennsylvania one right
+
+§477b regressed this row off an autoresponder. Mapping the route end to end
+turns it into the most complete designated-method case in the file.
+
+**1. Email is refused in terms.** *"Any data subject requests sent to these
+Infutor privacy compliance email addresses will not be considered a valid
+submission of a privacy rights request. The functions of these email addresses
+are not for data subject privacy rights request processing."* It points to an
+online form and a toll-free number.
+
+**2. The form it names is not a link.** The privacy centre says *"To submit a
+request, please complete an online Individual Privacy Rights Form"* — and that
+phrase is plain text, hyperlinked to nothing. Verified in the accessibility
+tree and again in the raw page. The only working control is a button labelled
+**"Your Privacy Choices"**, which goes to a Securiti portal.
+
+So the instruction names one thing and the page offers another under a
+different name. That is §461a's broken link in a subtler form: Adstra's link
+went to the wrong page; Infutor's goes nowhere at all, and the working route
+is findable only by ignoring the instruction. The toll-free number is not on
+that page either — the only number shown is a Chicago landline.
+
+**3. The portal is state-gated, and Pennsylvania gets one right.** Selecting
+United States / Pennsylvania produces a form whose **Request Type offers only
+"Do not Sell or Share (Opt-out)"**. No deletion. No access. The page confirms
+the phone line is for opt-out too.
+
+So the opt-out already filed — reference on the row — is the *only* thing this
+subject can obtain from Infutor, and the two rights the September letter asked
+about are unreachable through any published channel. Not refused on the merits;
+simply absent from the menu.
+
+**Why this one matters more than most.** Infutor is an identity-graph company,
+*formerly Verisk Marketing Solutions*, with Jornaya on the same site and
+**Lead Intelligence, Inc.** registered as a data broker under Texas law. This
+is not a small people-search site with a neglected contact page. The route is
+built, maintained, and narrow by design.
+
+**No further letter is being sent.** They have said email is not a valid
+channel and an autoresponder will eat it. Writing again would produce a third
+identical template and a row that looks active while nothing happens — which
+is precisely how this row came to be marked `confirmed` in the first place.
+This is regulator-facing material, like §461a, and the value is in the record
+rather than in another send.
+
+### §478a — A pattern across three companies now
+
+- **Adstra** (§461a): the link for the only unconditioned right redirects to
+  the policy page. No form.
+- **Infutor** (here): the named form is not a link; the working portal offers
+  a Pennsylvania resident one right of three.
+- **Client Command** (§455 et seq.): a form with no request-type selector at
+  all, then a refusal on residency.
+
+In each case the designated method exists, is published, is maintained — and
+cannot carry the request a non-covered-state resident is entitled to ask.
+**The failure is never a missing page. It is a route that narrows between the
+promise and the form**, and it narrows in a direction that is invisible unless
+you walk it to the end.
+
