@@ -32637,3 +32637,64 @@ already names in another form — **read the row and the queue before writing,
 not after.** Here the tracker's last-note display caught it again, and again
 only after the fact.
 
+---
+
+## §492 — Correcting §484: the answer was in the queue entry for the broker I was working
+
+§484 recorded four failed attempts to get past Open People Search's state
+screen, listed three possible causes, and carefully declined to assert any of
+them. The care was right. The gap was not looking in the obvious place.
+
+**The queue entry for that broker said:**
+
+> "Re-entering the flow immediately afterwards would not advance past the
+> state screen — probably a **one-completion-per-session guard**."
+
+That is exactly what I hit. Not Pennsylvania, not a quirk of driving the
+control — both of which §484 listed as candidates. The one attempt that *did*
+advance was the first of the session; every later attempt was blocked.
+
+**And the larger correction: the main opt-out was already done.** The same
+entry records it as confirmed — five names, fifteen Pennsylvania addresses,
+all twelve phones, all twelve emails, reported by the company as *"blocked
+from future sharing"*. My handoff implied the whole thing was undone.
+
+What is actually outstanding is narrow and optional: the address modal locks
+its state selector to the state chosen on the first screen, so two
+out-of-state addresses were never included — Hagerstown MD and Mobile AL. Each
+needs a fresh session. Everything keyed to name, phone or email is covered.
+
+**Third instance today of the same failure**: §486 (composed the CityData
+letter without reading the row), §491a (wrote a Buxton handoff without seeing
+the existing one), and now this. Each time the project already held the answer
+and each time I went to the broker's site instead of the project's record.
+
+The pattern is specific enough to name: **when starting on a broker, read its
+status row *and* its queue entry first — both, not either.** The row carries
+what happened; the queue entry carries what was learned about the mechanics.
+§484's unexplained stall was a mechanics problem, so it was in the half I did
+not read.
+
+### §492a — The duplicate scan, and what duplicates cost
+
+Scanning all 135 open items: **133 distinct brokers, two duplicated** —
+`openpeoplesearch` and `juicebox_app`. Both now merged; zero remain.
+
+The cost was not clutter. In each case **the two entries disagreed about
+reality**:
+
+- Open People Search: one said the opt-out was done with two addresses
+  outstanding; the other (mine) said the flow was stalled and untried.
+- Buxton (§491a): one pointed at the circular link, the other at the working
+  form.
+- Juicebox: one was a two-line stub; the other recorded two filed and verified
+  request IDs, two still to file, an explicit instruction *not* to file the
+  deletion yet, and two confirmed form quirks — a first field that silently
+  discards input, and request-type cards in a cross-origin iframe invisible to
+  the accessibility tree.
+
+A person working the queue reads one entry, not all entries for that broker.
+**Whichever they happen to reach decides what they do** — and in two of three
+cases the entry they might reach first was the wrong one. Merging is cheap;
+the merged entry has been better than either input every time.
+
