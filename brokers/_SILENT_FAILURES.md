@@ -32755,3 +32755,76 @@ visit to the Privacy Center and nothing else.
 failure.** Worth remembering the next time a cleanup pass looks like it is not
 real work.
 
+---
+
+## §494 — One email, two expiry windows, and the wrong one would make you give up
+
+§493 sent me looking for other portal notifications that had expired unread.
+The sweep returned **201 unread matches**, and the first one checked contains a
+contradiction worth isolating.
+
+Data Decisions Group's identity-verification mail of 9 October says, in the
+letter body:
+
+> "You must respond within **5 days** or your request will expire."
+
+and then, in the button block a few lines below:
+
+> "This link expires **15 minutes** post email creation."
+
+**Both cannot be true, and the token itself settles it.** The link carries a
+JWT whose `exp` claim is `1792001261` against a send time of `1791569262` — a
+difference of **exactly 120.0 hours**. Five days to the second. The
+fifteen-minute line is simply false for this token.
+
+**The direction of the error is what matters.** §418 catalogued our own queue
+items that read as live after their tokens had died, and the harm there was
+wasted attempts. This is the mirror image: **a company's own email understating
+its validity window**, so a requester who reads the small print concludes the
+link died fifteen minutes after it arrived and never tries it. The request then
+expires at the five-day mark for want of a click that would have worked at any
+point in those five days.
+
+**So: check the token, not the prose.** A JWT's `exp` is machine-readable and
+authoritative; the sentence next to it is boilerplate that may belong to a
+different template.
+
+(In this instance nothing was lost — the row already recorded the verification
+click and the confirmation 33 minutes later, on 9 October. **Reading the row
+first, per §492, is the only reason I did not re-click a consumed link and
+report it as fresh work.**)
+
+### §494a — Four request IDs the project does not know about
+
+The same sweep turned up **four OneTrust request IDs that match no row
+anywhere** in `removal_status.json`:
+
+    WKZ2LXPF3V   RRD        comment added 2026-09-18 — unread 22 days
+    TE95J69KDE   Valassis   comment added 2026-09-18 — unread 22 days
+    2SVRD6T22H   unknown    comment 2026-09-28, then COMPLETED 2026-09-30
+    2XLJP7244F   unknown    comments 2026-09-28 and 2026-09-29
+
+The RRD pair is the more useful finding: **RRD created two separate portal
+requests from our single letter of 12 September, one per brand.** Two request
+IDs from one letter means two workflows, which can return different answers
+about the same person — worth asking them directly.
+
+And both posted a comment on 18 September that nobody has read. The
+notification carries **none** of the text — just *"A comment has been added to
+your request"* and a button. So the substantive answer to that letter's three
+asks (suppression versus deletion; the controller/processor split with the
+client named; which systems were searched) is very likely sitting in a portal,
+twenty-two days old.
+
+**`2SVRD6T22H` is the one that should bother us most: it was COMPLETED on
+30 September and we cannot say by whom.** A completed request the project
+cannot attribute is an outcome it cannot count — and if it was a deletion,
+some row still reading `submitted` is actually finished.
+
+Both queued: the RRD pair as a portal read with the asks restated, the
+unidentified pair as an identification task with the specific places a
+OneTrust tenant name hides (footer, logo URL, portal subdomain). The RRD row
+was annotated but **deliberately left at `submitted`** — the comments are
+unread, so nothing is yet known about the outcome, and promoting it would be
+§465's unearned status.
+
