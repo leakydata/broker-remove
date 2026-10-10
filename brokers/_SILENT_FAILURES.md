@@ -30722,3 +30722,62 @@ Worth saying plainly for the playbook: when the only unconditioned right has no
 working route, the next move is not another email to an inbox the company says
 nobody reads. It is a regulator-facing record of exactly that.
 
+---
+
+## §462 — A confirmed deletion sat unread for three days, and an expired link cost six weeks
+
+Two findings from the same queue item, pulling in opposite directions.
+
+**The good one: Babel Street deleted.** Their reply of 7 October — unread until
+today — says they verified identity, searched, and found exactly two elements:
+name, and `leakydata@gmail.com`. Then: *"We have processed your deletion
+request and have removed responsive records from applicable systems."*
+
+Three precedents in that exchange are worth quoting at other brokers:
+
+1. **An OSINT aggregator accepted email-only verification.** They asked for a
+   utility bill on 10 September and withdrew the demand on 24 September —
+   *"Since you have provided additional identifiers, you do not need to provide
+   more verification information at this time."* Name, date of birth, phone,
+   address and four email addresses sufficed. A company whose business is
+   open-source intelligence aggregation did not require a government ID. That
+   is the single most useful sentence to put in front of a broker that does.
+2. **They named the data elements** rather than writing "any applicable
+   records" — the itemised answer §138 exists to ask for.
+3. **They worked by email** once told the portal would not be used, and started
+   mirroring OneTrust notices into email when the portal-only notifications
+   proved useless.
+
+**The bad one, from the same company: a request that never started.** Request
+`TGWANMEESR`, submitted 27 August for Delete plus Do Not Sell or Share, was
+waiting on a "Confirm email" link. Clicked today, it returned *"Your link has
+expired... due to inactivity."* **Six weeks doing nothing, and the only signal
+was a step nobody noticed being missed.**
+
+This is §443's shape — everything looks filed, nothing was — but arrived by the
+opposite route. There the completion notice was manufactured; here a real
+request stalled one click short and went quiet. A second link, Epsilon's
+`AQ953DYZGV` from 17 August for deletion, is presumed dead on the same grounds.
+**Presumed, not verified** — it is ten days older than the one that expired,
+and the action is the same either way, but the record should not claim a check
+that was not run.
+
+**What this says about the queue item.** `onetrust_confirm_links` sat in the
+handoff queue described as "two unconfirmed verification links... both of these
+are currently doing nothing at all." That was exactly right, and it was right
+weeks ago. The item was correct and nobody worked it, which is a different
+failure from the ones catalogued here: not a wrong record, but a right one that
+went unread.
+
+Same for the deletion confirmation — three days unread. **The inbox has been
+treated as a place to check for new refusals, not for answers to things already
+asked.** A `confirmed` outcome generates no alert and no follow-up, so it waits.
+
+Last pass I called six of these queue rows "project bookkeeping" that should
+not count as blocked requests. That was wrong too. `onetrust_confirm_links`
+held a live deletion request one click from starting; `_registry_oregon` is the
+Oregon broker registry, and the California registries unlocked 517 brokers no
+other source had. They are not bookkeeping. They were the most valuable items
+in the queue and I classified them as noise because their ids begin with an
+underscore.
+

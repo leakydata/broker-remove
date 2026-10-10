@@ -7,52 +7,9 @@
 
 ## Status
 
-- Current: `confirmed` (updated 2026-10-08)
-- **2026-10-07 reply: deletion confirmed.** *"Following verification of your
-  identity, we searched our systems and identified personal information
-  associated with you. The categories and data elements identified are...
-  Name: [FIRST LAST]; Email: [EMAIL]... We have processed your
-  deletion request and have removed responsive records from applicable
-  systems, except where retention is required by law... no further action is
-  required on your part."* This answers the 10/6 "what did the opaque OneTrust
-  comment say" question by superseding it entirely.
-  **Read narrowly: only name + one email address were named as matched**,
-  out of the full set supplied (DOB, phone, address, four email addresses).
-  Babel Street did not say whether the other three emails, the phone, or the
-  address were searched and came back empty, or simply weren't part of what
-  matched — the reply names what it found, not what it checked. Recorded as
-  `confirmed` on the strength of the affirmative deletion statement, but if
-  this listing resurfaces under one of the other submitted identifiers,
-  that is not inconsistent with this reply; it would mean those identifiers
-  were simply never in scope of what got removed.
-- 2026-10-06 20:19: another opaque OneTrust "a comment has been added" notice on the same request (P7MJRE69RA), no content in the email -- third time this exact shape has recurred (also 9/15, 9/21). Replied directly to privacy@babelstreet.com (not the portal) asking them to relay the comment's content by email. **Resolved by the 10/7 reply above** — the "comment" was the full deletion determination. **This is now a recurring pattern worth naming as one**: OneTrust fires a notification every time ANYTHING is added to the ticket, including comments visible only in the portal, and this project's standing policy of email-only means every single one needs a follow-up asking "what did it say" rather than being read directly.
-- 2026-09-24 reply: Babel Street confirmed no further verification is needed for now; they'll review what's already been provided (name/DOB/phone/address/4 emails) and determine whether responsive records exist, notifying either way either through email or the OneTrust portal. No action needed from us until they respond with a determination.
-- Reference: `gmail:1a0c897d1ad6dab7`
-- Note: 9/23, Babel Street's Data Privacy Office replied to the direct-email verification response (below) with a single line: "Are you able to access the messages on OneTrust?" Replied no — this project handles requests by email only, no browser/account-based flow — and recapped the identifiers already sent (name, DOB, phone, address, four emails) plus the standing offer of a proof-of-address document, asking them to say specifically what more is needed short of a government ID, or to proceed if what's on file is sufficient. Awaiting a substantive answer; **the pattern so far is that Babel Street keeps redirecting to the portal by reflex even though a human is reading and replying to the direct emails** — worth being explicit and repetitive about the email-only constraint rather than assuming it was understood the first time.
-- Prior (9/21): a new OneTrust auto-notice (still Request ID P7MJRE69RA): "Your
-  request cannot be completed at this time... we have not received sufficient
-  information to complete the identity verification process." No specifics on
-  what was missing, and no portal login used to check (see below on why).
-  Rather than opening the portal, emailed privacy@babelstreet.com directly
-  9/22 — the address that has previously worked for reaching an actual
-  person here (see the prior ticket-opened-on-our-behalf history below) —
-  re-stating name/DOB/phone/address/4 emails, offering a utility-bill proof
-  of address, and explicitly declining to upload a government ID (per this
-  project's hard rule and the CPRA's necessary-and-proportionate standard for
-  a request of this scope). Asked them to say what would actually satisfy
-  verification short of an ID. **Do not treat "insufficient verification" as
-  a dead end that requires escalating to ID upload** — try the direct email
-  route to the human contact first, since the portal notice reads like a
-  generic OneTrust template rather than a considered judgment about this
-  specific request.
-- Prior (2026-09-17): `submitted`, reference `gmail:1a078cb4896ef047`. noreply@m.onetrust.com, 2026-09-15 14:52 UTC: "A comment has been added
-  to your request (Request ID: P7MJRE69RA). Please click the button below to
-  access your request in the privacy portal." The email carries no content
-  beyond that — same shape as the Merkle/dentsu OneTrust notice — and the
-  comment text is only visible after logging into the portal. **Needs a human
-  with a browser** to open it and read the comment, including checking the
-  masked-phone discrepancy flagged below. Nothing to action by email alone.
-- Prior: TICKET OPENED BY THEM, ON OUR BEHALF, 2026-09-10 -- the opposite of the usual designated-method refusal. Sequence: 06 Sept letter to privacy@babelstreet.com; 10 Sept 04:22 auto-reply inviting submission through their DSR portal; 10 Sept 10:12 reply confirming the request and asking to proceed BY EMAIL rather than the portal, on the ground that the portal asked for nothing the letter had not already supplied; 10 Sept 14:05 they answered that they had opened a ticket on our behalf, noting the necessary information was already provided; 14:06 OneTrust confirmation email for NEW request ID P7MJRE69RA. Most companies treat pointing at a form as discharging the obligation (SILENT_FAILURES 148 and the designated-method pattern); Babel Street did the transcription themselves. Queued for the confirm click, superseding the stale TGWANMEESR item from 28 August. ONE THING TO VERIFY AT THE PORTAL: the confirmation email shows the request contents partly masked and the phone reads 'XXXXXXXXXX651'. No number in profile.json ends 651 -- not the current one and none of the eleven prior. That may only mean OneTrust's masking is not 'last three characters', so it is flagged rather than asserted; if the portal shows a full value that is not the subject's, it needs correcting before the request is actioned.
+- Current: `confirmed` (updated 2026-10-10)
+- Reference: `P7MJRE69RA`
+- Note: DELETION CONFIRMED 2026-10-07, found unread in the inbox 2026-10-10. Babel Street: 'Following verification of your identity, we searched our systems and identified personal information associated with you... Name: [PERSONAL], Email: [EMAIL]. We have processed your deletion request and have removed responsive records from applicable systems, except where retention is required by law, contractual obligation, security purposes, auditing requirements, or other recognized exceptions.' THREE PRECEDENTS WORTH REUSING AGAINST OTHER BROKERS. (1) THEY ACCEPTED EMAIL-ONLY VERIFICATION FROM AN OSINT AGGREGATOR. They asked for a utility bill on 10 September, then on 24 September withdrew the demand: 'Since you have provided additional identifiers, you do not need to provide more verification information at this time.' Name, DOB, phone, address and four email addresses were enough. A company whose business is open-source intelligence aggregation did not require a government ID -- quotable at any broker that does. (2) THEY NAMED THE ACTUAL DATA ELEMENTS rather than saying 'any applicable records', which is the itemised answer 138 asks for. (3) THEY WORKED BY EMAIL after being told the portal would not be used, and began mirroring OneTrust notices into email. WHAT THE REPLY DOES NOT ADDRESS, now asked: the request had four parts and only part 1 is answered. Outstanding are opt-out of sale/sharing, direction to third-party recipients, and -- the one that matters for a company that ingests public sources continuously -- FORWARD-LOOKING SUPPRESSION versus a one-time removal of what sat in the system on 7 October. Also asked whether all four addresses were searched or only the one written from, so a nil can be recorded accurately rather than guessed at.
 
 ## Steps
 
