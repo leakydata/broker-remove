@@ -1382,9 +1382,9 @@
     "via": "email"
   },
   "courtrecordfinder_com": {
-    "status": "confirmed",
-    "changed": "2026-09-18",
-    "via": "email"
+    "status": "replied",
+    "changed": "2026-10-10",
+    "via": "reply"
   },
   "courtrecords_us": {
     "status": "submitted",
@@ -6147,8 +6147,8 @@
     "via": "email"
   },
   "the_bump": {
-    "status": "manual_required",
-    "changed": "2026-10-01",
+    "status": "replied",
+    "changed": "2026-10-10",
     "via": "reply"
   },
   "the_data": {
@@ -6172,8 +6172,8 @@
     "via": "email"
   },
   "the_knot_worldwide": {
-    "status": "manual_required",
-    "changed": "2026-10-01",
+    "status": "replied",
+    "changed": "2026-10-10",
     "via": "reply"
   },
   "the_org": {

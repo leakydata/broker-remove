@@ -6,9 +6,10 @@
 
 ## Status
 
-- Current: `manual_required` (updated 2026-09-30)
+- Current: `replied` (updated 2026-10-10)
 - Note: 2026-09-19, first contact. Sent alongside a separate letter to The Bump (support@thebump.com, see the_bump.md) -- same family, two properties, asked to confirm both. Address sourced from an Optery-directory import; `email_verified_by` had been set to `"optery_directory"`, which only means a commercial directory listed the company, not that the mailbox was ever confirmed to accept mail -- three addresses from the same 2026-09-18 batch hard-bounced (see ct_company_directory.md, ibegin.md, native_american_netroots.md). Watch for a bounce on the next pass before treating this as delivered. 2026-09-28: TKWW Support auto-merged this ticket with the_bump's and asked for account-verification details (a "wedding date") inappropriate to a deletion request; see the_bump.md for the full gotcha and the reply sent.
 - Same shared ticket (3412272) as The Bump — see the_bump.md for the 2026-09-29 verbatim bot repeat and the 2026-09-30 escalation attempt. Status tracked jointly; update both files when this resolves.
+- **2026-10-01: a human (Sonal) finally answered the substance, badly phrased.** "Since, your details are not there with the email address you have shared which means your personal information is not with us" — read naturally, that is a **not_found** result, but it still arrived bundled with the same 15-day-lapse threat and no explicit confirmation that all four email addresses (only one was referenced, singular) or the mailing address were checked. Not recording `not_found` yet because the statement is ambiguous and was never confirmed in the plain terms asked for. Replied 2026-10-10 asking for an unambiguous written statement covering all four addresses plus the mailing address, and asking that any closure read "searched, no record found" rather than "withdrawn" — the auto-close language implies the requester gave up, which is not what happened.
 
 ## Steps
 
