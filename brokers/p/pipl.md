@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `confirmed` (updated 2026-09-12)
-- Note: Adopted from the shared ledger: another agent recorded 'confirmed' on 2026-09-04. No detail is carried across — re-read the broker's own reply before relying on this.
+- Current: `confirmed` (updated 2026-10-10)
+- Note: VERIFIED (468 audit) -- EARNED, AND IT IS THE PROOF OF CONCEPT FOR 289. A NIL WAS ASSERTED, CHALLENGED WITH EVIDENCE, AND OVERTURNED. Sequence. 2026-08-21, Pipl: 'We did not find any profiles in our system that match the data points provided.' A clean-looking nil of exactly the kind this project records and moves on from. The subject did not accept it -- he replied on 2026-08-30 with SPECIFIC EVIDENCE rather than general suspicion, and made the distinction that cracked it: THEIR ANSWER WAS ABOUT PROFILES, which is not the same as what they hold. 2026-09-01, Pipl: 'After looking through our internal (NON-PUBLIC) FACING SYSTEM, we did find an account associated with [the correspondence address]. This account had been...' THE FIRST ANSWER WAS WRONG. Then the opt-out was processed and completed the same day. On 2026-09-02 they explained the retention basis: 'Our internal system requires that all people who used us for any reason in the past still have an account listed in the system, even if it is permanently deactivated. We need to keep records for...' THREE LESSONS. (1) A public-facing search and an internal-system search are different queries, and a company asked for 'profiles' will often answer only the first. ASK ABOUT BOTH BY NAME. (2) The correct response to a nil is not always acceptance -- where there is specific evidence contradicting it, saying so politely overturned it in eleven days. (3) They handled the challenge well, which is why this row is confirmed rather than contested: they re-searched, admitted the earlier answer was incomplete, acted, and explained the retention. That is the behaviour 471a praises at MarketOps, reached under pressure rather than volunteered.
 
 ## Steps
 

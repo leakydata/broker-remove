@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `not_found` (updated 2026-09-12)
-- Note: Adopted from the shared ledger: another agent recorded 'not_found' on 2026-09-04. No detail is carried across — re-read the broker's own reply before relying on this.
+- Current: `not_found` (updated 2026-10-10)
+- Note: VERIFIED (468 audit) -- EARNED AS A NIL, AND IT IS THE STARKEST STATEMENT OF WHAT THE MAID BAN COSTS. Mobilewalla, 2026-09-01: 'We do not have any record of your name, address or email information or any of the other [identifiers]...' The subject recorded that as a real answer and thanked them for it, then restated his position on mobile advertising IDs. Their reply of 2026-09-02, in full: '[PERSONAL], NO MAID. NO WAY TO HELP YOU. HAVE A NICE DAY.' Blunt, and not wrong. Mobilewalla's business is mobile device data; the MAID is the primary key, and a name-and-email search against a device graph is a search on fields they do not index. So this nil is structural in the same way as Adagio (463), Index Exchange (471b) and Epieos (476b) -- but harsher, because here the company said outright that the only usable key is the one that will never be supplied. RECORD IT AS THE ACCEPTED COST, NOT AS ABSENCE. The standing instruction forbids sending a MAID to anyone whatever the assurance, and the 2026-09-13 LinkedIn permission explicitly did not extend to it. That rule is worth keeping precisely because a device graph is the thing it protects against; the price is that this row can never be better than unresolved, and the row should say so rather than imply the subject is absent from their data.
 
 ## Steps
 

@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `not_found` (updated 2026-08-23)
-- Note: Adopted from the shared ledger: another agent recorded 'not_found' on 2026-08-23. No detail is carried across — re-read the broker's own reply before relying on this.
+- Current: `not_found` (updated 2026-10-10)
+- Note: VERIFIED (468 audit) -- EARNED, AND THE SECOND ANSWER IS BETTER THAN THE FIRST. PharosIQ answered twice. 2026-08-20: 'We have reviewed our systems, and the information you provided is not present.' Acknowledged with thanks, since the original letter had promised that a plain unqualified negative would close the matter. 2026-08-31, unprompted: 'We have searched our database for ALL INSTANCES OF YOUR EMAIL ADDRESS, NAME, PHONE NUMBER AND ADDRESS, but have been unable to identify any records relating to you.' The second names the fields searched, which converts an assertion into something checkable -- the difference 289 is about. A company volunteering a more specific answer after the matter was already closed is rare enough to record. ALSO A BRAND-IDENTITY NOTE: the letter was addressed to INTENTGINE, the brand on file, and a same-day supplement made the scope explicit; the replies come from PharosIQ. The row id and the brand the subject knew are different, which is the alias problem in miniature.
 
 ## Steps
 

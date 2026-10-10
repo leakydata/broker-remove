@@ -8,8 +8,8 @@
 
 ## Status
 
-- Current: `not_found` (updated 2026-09-16)
-- Note: Adopted from the shared ledger: another agent recorded 'not_found' on 2026-09-14. No detail is carried across — re-read the broker's own reply before relying on this.
+- Current: `not_found` (updated 2026-10-10)
+- Note: VERIFIED (468 audit) -- EARNED, AFTER THE ACCOUNT-LOOKUP ERROR WAS CORRECTED. FOURTH INSTANCE of the pattern, after Owler (465), ReversePhone (470b) and Cint (476a). Cognism's first reply, 2026-08-30: 'we have been unable to locate A USER ACCOUNT associated with the information you provided' -- an account lookup, not a data search, at a company whose product is compiled B2B contact data about people who have no account. The correction went back the same morning: this is not a user account, he has never had one, and the question is whether they hold a RECORD. On 2026-09-14 they answered the right question: 'we are unable to find any records on our...' NOTE WHAT ELSE THE FIRST REPLY ASKED FOR -- 'To assist us in conducting a more [thorough search]' it requested additional details. The reply supplied a clarification and a DECLINE rather than the details, and the search still ran. Worth remembering: a request for more identifiers is not always a condition, and declining it politely does not necessarily stop the search.
 
 ## Steps
 

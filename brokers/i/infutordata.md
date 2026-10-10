@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `confirmed` (updated 2026-09-16)
-- Note: Adopted from the shared ledger: another agent recorded 'confirmed' on 2026-09-06. No detail is carried across — re-read the broker's own reply before relying on this.
+- Current: `manual_required` (updated 2026-10-10)
+- Note: REGRESSED FROM confirmed -- THE ONLY MAIL FROM INFUTOR IS A DEFLECTION TEMPLATE. Two messages, 2026-08-28 and 2026-09-05, both identical in form: 'Acknowledging email receipt and further instruction for responsible processing of data subject requests. NOTE: Any data subject requests sent to these Infutor privacy compliance email addresses will...' -- the sentence continues into a redirect, and nothing in either message confirms a search, a record, a deletion or an opt-out. The second arrived in answer to a letter whose subject line already recorded an opt-out filed through their web form (reference 3222d7d5-5def-4aa0-9dd8-669821207349) AND ASKED ABOUT THE TWO RIGHTS THAT FORM DOES NOT OFFER. So the template answered a question about the form's gaps by pointing back at the form -- the 456 and 461 designated-method trap. NOTHING HERE SUPPORTS 'confirmed'. The web-form opt-out reference suggests something was filed, which is why this is manual_required rather than pending: the next step is to establish whether that reference produced any outcome, and to pursue the two unanswered rights through a channel that is not the acknowledgement address. Infutor is a significant identity-graph company and this row should not sit closed on an autoresponder.
 
 ## Steps
 

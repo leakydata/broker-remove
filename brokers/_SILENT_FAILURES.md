@@ -31724,3 +31724,82 @@ Choreograph is the extreme. The status is earned and the volume is noise.
 
 Flags: 55 → 49.
 
+---
+
+## §477 — Pipl's first answer was wrong, and saying so overturned it
+
+This is the one the whole §289 argument was written for.
+
+**21 August, Pipl:** *"We did not find any profiles in our system that match
+the data points provided."* A clean nil. The kind this project records and
+moves past.
+
+It was not accepted. The reply of 30 August supplied **specific evidence**
+rather than general suspicion, and made the distinction that cracked it:
+**their answer was about *profiles*, which is not the same as what they hold.**
+
+**1 September, Pipl:** *"After looking through our internal (non-public)
+facing system, we did find an account associated with [the correspondence
+address]. This account had been..."* The opt-out was processed and completed
+the same day. On 2 September they explained the retention basis — everyone who
+has ever used them keeps an account record, even permanently deactivated.
+
+**Three things follow.**
+
+1. **A public-facing search and an internal-system search are different
+   queries.** A company asked about "profiles" will often answer only the
+   first, in perfect good faith. Ask about both by name.
+2. **The correct response to a nil is not always acceptance.** Where there is
+   specific evidence against it, saying so politely overturned it in eleven
+   days. That has to be held alongside §463 and §465, where accepting a clean
+   nil was right — the difference is whether there is evidence, not whether
+   there is suspicion.
+3. **They handled the challenge well**, which is why the row reads `confirmed`
+   rather than contested: re-searched, admitted the first answer was
+   incomplete, acted, explained the retention. §471a praises MarketOps for
+   that behaviour volunteered; here it came under pressure, which counts too.
+
+### §477a — "No MAID. No way to help you."
+
+Mobilewalla's reply of 2 September, in full: *"[First name], No MAID. No way to
+help you. Have a nice day."*
+
+Blunt, and not wrong. Mobilewalla's business is mobile device data; the MAID is
+the primary key, and a name-and-email search against a device graph queries
+fields they do not index. This is the fourth structural nil — after Adagio
+(cookies), Index Exchange (an exchange), Epieos (query-time) — and the harshest,
+because here the company said outright that the only usable key is the one that
+will never be supplied.
+
+**The rule still stands and the cost should be stated rather than hidden.** The
+standing instruction forbids sending a MAID to anyone whatever the assurance,
+and a device graph is precisely what that rule exists to protect against. The
+price is that this row can never be better than unresolved. The row now says
+so, rather than implying absence.
+
+### §477b — The template correction is four for four, and one row regressed
+
+`cognism` is the fourth: *"unable to locate a user account"* — an account
+lookup at a company whose product is compiled contact data about people who
+have no account. Corrected the same morning; a proper nil followed on
+14 September. Worth noting their first reply also requested additional details
+to assist a fuller search. The answer supplied a clarification and a **decline**
+rather than the details, **and the search ran anyway** — a request for more
+identifiers is not always a condition.
+
+`pharosiq` answered twice, and the second, unprompted, was better: it named the
+fields searched — email, name, phone, address — which converts an assertion
+into something checkable.
+
+**`infutordata` regressed from `confirmed` to `manual_required`.** The only
+mail from Infutor is a two-line acknowledgement template, sent twice, which
+redirects data subject requests away from the address that received them.
+Nothing confirms a search, a record, a deletion or an opt-out. The second copy
+answered a letter that had already filed an opt-out through their web form and
+asked about **the two rights that form does not offer** — so the template
+answered a question about the form's gaps by pointing back at the form.
+§456 and §461's trap again. Infutor is a significant identity-graph company and
+should not sit closed on an autoresponder.
+
+Flags: 49 → 44.
+
