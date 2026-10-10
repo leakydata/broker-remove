@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `confirmed` (updated 2026-09-16)
-- Note: Adopted from the shared ledger: another agent recorded 'confirmed' on 2026-09-15. No detail is carried across — re-read the broker's own reply before relying on this.
+- Current: `confirmed` (updated 2026-10-10)
+- Note: VERIFIED AGAINST THE MAIL (468 audit) -- EARNED, AND IT IS A WIN WORTH REUSING. Names and Facts, 2026-09-14: 'We have identified your profile and removed it from our website.' WHAT MAKES IT NOTABLE IS THE ROUND BEFORE. On 2026-09-11 they refused without a profile URL: 'To remove your information we need the exact profile page URL -- the page that shows that specific person on namesandfacts.com. A name on its own can match...' The reply declined to supply one and explained why in structural rather than obstinate terms -- that people-search listings cluster on address history, that a thirty-year, sixteen-address history cannot be surfaced by searching a current town, and that supplying only the URLs a person can find silently narrows their own request. Everything else they asked for was given. THREE DAYS LATER THEY FOUND THE PROFILE AND REMOVED IT WITHOUT THE URL. So 'send us the link to your own listing' is a soft requirement at this company and probably at others using the same line -- the refusal is worth making, politely and with the reason stated, rather than either complying or giving up. Compare courtrecordfinder, where the same refusal was made in the same terms in a letter the linkifier then mangled.
 
 ## Steps
 

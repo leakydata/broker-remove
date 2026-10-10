@@ -7,9 +7,9 @@
 
 ## Status
 
-- Current: `confirmed` (updated 2026-09-16)
+- Current: `confirmed` (updated 2026-10-10)
 - Reference: `gmail:1a08088f519c5a90`
-- Note: Adopted from the shared ledger: another agent recorded 'confirmed' on 2026-09-15. No detail is carried across — re-read the broker's own reply before relying on this.
+- Note: VERIFIED AGAINST THE MAIL (468 audit) -- EARNED, AND THEY DID THE RARE THING. TrueData sent four dated responses across 2026-09-01 to 09-14, separating the two request types rather than merging them: 'Your Opt-Out Request was resolved. We also passed on your opt-out...' and separately 'We have searched our records and resolved this...' for the Delete Request. PASSING THE OPT-OUT DOWNSTREAM IS THE PART WORTH QUOTING. 1798.105(c) asks a business to direct third parties to delete; almost no one says they have done it, and TrueData volunteered it. Combined with handling opt-out and deletion as distinct actions with distinct confirmations, this is close to the model answer the playbooks ask other brokers for. Status adopted from another agent's ledger with boilerplate only; reading the mail confirms it and adds the detail the boilerplate lost.
 
 ## Steps
 

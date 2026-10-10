@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `not_found` (updated 2026-09-16)
-- Note: Adopted from the shared ledger: another agent recorded 'not_found' on 2026-09-15. No detail is carried across — re-read the broker's own reply before relying on this.
+- Current: `not_found` (updated 2026-10-10)
+- Note: VERIFIED AGAINST THE MAIL (468 audit) -- EARNED, with one caveat worth keeping. Index Exchange, 2026-09-14: 'We have searched our systems and have not found any data associated with the email address you sent this message from and the other personal data...' THE CAVEAT: Index Exchange is an ad exchange, and in that business the match key is a cookie or device identifier, not a name or an email address -- the same architecture Adagio explained at 463. A nil keyed to name and email from an exchange is therefore structural rather than evidential: it says nothing was found on the keys supplied, and the keys supplied are not the keys they index on. Since this project will never supply a cookie ID or MAID, that nil is the accepted cost of the standing rule and should be recorded as such rather than as proof of absence. Status earned on the evidence available; the evidence available cannot be better without breaking a rule worth keeping.
 
 ## Steps
 

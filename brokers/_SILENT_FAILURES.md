@@ -31334,3 +31334,78 @@ Six weeks and two pushes to convert a template into a real answer. The move is
 always the same: use the route they offered, report what it actually returned,
 and ask the question the route could not answer.
 
+---
+
+## §471 — The 15 September sweep was sound, and that matters as much as the bad one
+
+The 1 October sweep was mostly one corporate family and mostly wrong (§470).
+The natural next move was to expect the same of the others. The 15 September
+batch — eight rows — does not behave that way at all.
+
+Six are checkable against the mail. **All six are earned.**
+
+- `ispot_tv` (`not_found`) — *"We did not identify any personal information
+  associated with you in our systems."* Preceded by a proper acknowledgement
+  promising a statutory-timeframe reply, which they then met.
+- `index_exchange` (`not_found`) — searched and found nothing on the
+  identifiers given.
+- `ipqualityscore` (`confirmed`) — *"Your request has been processed, and your
+  data has been deleted."* Unqualified.
+- `names_and_facts` (`confirmed`) — *"We have identified your profile and
+  removed it from our website."*
+- `truedata` (`confirmed`) — four dated responses handling opt-out and
+  deletion as separate actions, and volunteering that the opt-out was **passed
+  downstream**.
+- `marketops` (`confirmed`) — see below.
+
+And the dates are not a coincidence of one agent's batching: these replies all
+*arrived* on 14 September. The sweep was someone recording a day's inbox, which
+is the right thing to have been doing.
+
+**So the eighty are not uniformly suspect, and saying so matters.** §468b was
+careful not to quote a failure rate; this is the other half of that care. The
+flagged set contains both kinds, and the way to tell them apart is the dull one
+— read the mail. Nine flags cleared, seventy-one remain.
+
+### §471a — Three answers worth stealing
+
+**MarketOps.** Their first reply was a template nil inviting a resubmission
+with more identifiers. Two days later the **Chief Privacy Officer wrote
+personally**: the search *"was conducted against all of the identifiers you
+provided, not solely the email address from which you submitted your
+request"*, the information *"has been suppressed"*, and — remarkably — the
+resubmission language *"is part of our standard response template and was not
+intended to suggest that you had failed to provide sufficient information."*
+
+That answers §465's conjunctive-search worry explicitly, confirms suppression
+rather than deletion, and has a named officer disowning a misleading template
+instead of defending it. He also volunteered that MarketOps sees itself as a
+service provider but accepts that state definitions catch it anyway — the
+opposite of the processor defence expected from EAB.
+
+**TrueData** volunteered that the opt-out was passed on downstream. §1798.105(c)
+asks for exactly that and almost nobody confirms it.
+
+**Names and Facts** first refused without a profile URL — *"we need the exact
+profile page URL"*. The reply declined and explained why structurally: listings
+cluster on address history, a sixteen-address history cannot be surfaced by
+searching a current town, and supplying only the URLs a person can find
+silently narrows their own request. **Three days later they found the profile
+and removed it without the URL.** So "send us a link to your own listing" is a
+soft requirement, at least here. Worth refusing politely with the reason stated
+rather than either complying or giving up.
+
+### §471b — One nil that is structural, and should be recorded as such
+
+`index_exchange` searched name and email and found nothing. But an ad exchange
+indexes on cookies and device identifiers, not names — the architecture Adagio
+spelled out at §463. A nil keyed to name and email from an exchange says
+nothing was found *on the keys supplied*, and those are not the keys it runs
+on.
+
+Since this project will never supply a cookie ID or MAID, that nil is the
+accepted cost of the standing rule rather than evidence of absence. The row now
+says so. **The evidence cannot be improved without breaking a rule worth
+keeping**, and recording why is better than letting a future reader mistake it
+for proof.
+

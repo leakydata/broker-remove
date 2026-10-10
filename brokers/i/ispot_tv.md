@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `not_found` (updated 2026-09-16)
-- Note: Adopted from the shared ledger: another agent recorded 'not_found' on 2026-09-15. No detail is carried across — re-read the broker's own reply before relying on this.
+- Current: `not_found` (updated 2026-10-10)
+- Note: VERIFIED AGAINST THE MAIL (468 audit) -- EARNED. iSpot.tv, 2026-09-14: 'We have completed our review of your data subject request using the information you provided. We did not identify any personal information associated with you in our systems. Accordingly, no...' A clean nil, explicitly stated as the outcome of a completed review rather than a bare denial. They also sent a proper acknowledgement on receipt (2026-08-18) promising a response within the statutory timeframe, and then met it. Status was adopted from another agent's ledger with boilerplate only; reading the mail confirms it.
 
 ## Steps
 

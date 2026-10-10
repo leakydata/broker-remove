@@ -7,32 +7,9 @@
 
 ## Status
 
-- Current: `confirmed` (updated 2026-09-20)
-- Note: 2026-08-19: first contact to privacy@marketops.com, full identifier
-  set (8 emails, 9 phones, 11 addresses, DOB, 5 name variants), explicitly
-  covering hashed-email search and every identifier, not just current ones.
-- 2026-09-12: templated reply — "unable to process your request as no
-  records were found matching the information you provided," inviting a
-  resubmit via their web form "to assist us in locating any associated
-  records, be sure to include all relevant email addresses and phone
-  numbers." That phrasing implies a narrower search than what was run.
-  Replied declining to resubmit the identical identifier set through the
-  form, and asked two direct questions instead: (1) was the search run
-  against ALL supplied identifiers or only the sending address, and (2) is
-  a suppression applied regardless of the nil result (citing Cal. Civ.
-  Code § 1798.105(d)(1) as the basis for holding a suppression key without
-  holding a record).
-- 2026-09-14: Rory Sutherland, Chief Privacy Officer, replied personally
-  (not templated) confirming **both**: the search covered every identifier
-  supplied, not just the sending address, and suppression was applied. He
-  also volunteered scope context worth quoting elsewhere: MarketOps
-  describes itself as a data/technology services provider for clients'
-  first-party data rather than "a traditional data broker," but says some
-  state statutes' broad definition of "data broker" still reaches parts of
-  its operations, hence the registration and this process. And he
-  explained the confusing first-line template: the "please resubmit with
-  more identifiers" wording is standard boilerplate, not a signal that the
-  original submission was incomplete.
+- Current: `confirmed` (updated 2026-10-10)
+- Reference: `CPO Rory Sutherland`
+- Note: VERIFIED AGAINST THE MAIL (468 audit) -- EARNED, and one of the best answers received. Two messages. The first, 2026-09-12, was a template nil: 'we were unable to process your request as no records were found matching the information you provided', with boilerplate inviting a resubmission with more identifiers. The second, 2026-09-14, came from the CHIEF PRIVACY OFFICER PERSONALLY and fixed all of it: 'I can confirm that the search was conducted against ALL of the identifiers you provided, not solely the email address from which you submitted your request. I can also confirm that YOUR INFORMATION HAS BEEN SUPPRESSED in accordance with your request and applicable privacy laws.' He also disowned his own template: 'The language in our previous response asking you to resubmit with additional identifiers is part of our standard response template and was not intended to suggest that you had failed to provide sufficient information. You provided comprehensive identifiers, and no further action is required from you.' THREE REASONS THIS IS WORTH QUOTING ELSEWHERE. (1) It answers the exact question 465 raises about conjunctive and partial searches -- he states in terms that all identifiers were searched, not just the sending address. (2) It confirms SUPPRESSION rather than mere deletion, which is the distinction this project chases at every broker and rarely gets named. (3) A named officer took responsibility for a misleading template rather than defending it, which is the opposite of the designated-method deflections catalogued at 456 and 461. ALSO USEFUL, SAID VOLUNTARILY: 'MarketOps does not operate as a traditional data broker. Our primary role is to provide data and technology services in connection with our clients' first-party data. However, certain state privacy laws define the term data broker broadly, and aspects of our operations fall within those statutory definitions.' A service-provider-leaning company accepting that it is in scope anyway -- the opposite of the processor defence expected from EAB.
 
 ## Steps
 

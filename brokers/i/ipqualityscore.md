@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `confirmed` (updated 2026-09-16)
-- Note: Adopted from the shared ledger: another agent recorded 'confirmed' on 2026-09-15. No detail is carried across — re-read the broker's own reply before relying on this.
+- Current: `confirmed` (updated 2026-10-10)
+- Note: VERIFIED AGAINST THE MAIL (468 audit) -- EARNED. IPQualityScore, 2026-09-14: 'Your request has been processed, and your data has been deleted.' Unambiguous and unqualified. Status adopted from another agent's ledger with boilerplate only; reading the mail confirms it. NOT PRESSING FOR MORE, deliberately: no suppression question, no recipient question. The reply is a plain statement of deletion from a company that answered promptly, and the pattern established at 463 and 465 is that a clean unqualified answer gets accepted rather than mined for a further round.
 
 ## Steps
 
