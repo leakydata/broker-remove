@@ -30859,3 +30859,66 @@ first message, read alone, would have produced a panic and a dead click.
 three days of looking only at what was newly arriving. The cost of the sweep is
 one search.
 
+---
+
+## §464 — The fullest disclosure yet described four or five different people
+
+Seamless.AI's pre-erasure disclosure, sent 17 September and opened today,
+is the most complete answer this project has received: an itemised list of
+everything held, confirmation of erasure, the retention basis stated, and
+the opt-out and suppression recorded as complete.
+
+The list described **a composite of at least four or five different people**
+sharing the subject's name — roughly 47 job positions, about 50 email
+addresses and 13 phone numbers. A handful are his. The rest belong to other
+Nathan Joneses: a law firm, a sports agency, a real-estate company, a
+music-rights organisation, a food-service company, an equipment dealer, a
+bank collections role, a military research fellowship. One phone number is a
+university's main switchboard. Another is a repeated-digit placeholder.
+
+**A conflated record is worse than an accurate one.** Sold to a subscriber it
+attaches a stranger's employment history to his name and phone number, and his
+to theirs. Both people then get calls meant for the other, and neither can see
+why. Deletion fixes his copy; it does nothing about the matching logic that
+assembled it, which will build the same composite for the next person with a
+common name.
+
+### §464a — The access response itself disclosed other people's data
+
+At least two addresses in the list are plainly not the subject's and not
+variants of his name — they belong to identifiable other people at unrelated
+companies. They were in his file because the matching logic put them there,
+and they were sent to him because the file was disclosed in full.
+
+That is third-party personal data disclosed to an unrelated requester, and it
+was produced by the *access process*, not by the underlying record. Raised with
+Seamless.AI directly and privately, with an explicit undertaking not to use the
+information, and a suggestion that access responses be screened for identifiers
+that do not match the requester. Not escalated anywhere: the point is that it
+gets fixed, and the subject would want the same done for him.
+
+**Those identifiers are deliberately not written anywhere in this repository.**
+`redact.py` only knows the subject's own values — it would not have caught a
+stranger's address, and it reported this file clean. This is a category of leak
+the guard cannot see by design, and the only protection is not writing it down.
+Worth stating because every instinct in this project is to record the evidence
+in full.
+
+### §464b — Asking for a suppression to be narrowed
+
+Seamless.AI retain name and email to support suppression and prevent
+re-collection. The follow-up asks whether that suppression is keyed only to
+those two identifiers or to **everything** in the deleted record — and if the
+latter, asks them to **narrow it**.
+
+That cuts against the subject's own interest and is still right. Suppressing
+strangers' addresses and phone numbers on his account would block people from a
+database on a decision that was never theirs to make. It is the same principle
+as the standing rule about prior addresses, which exists because other people
+live at them now — but reached from the other direction: there the risk is
+suppressing a current resident; here it is suppressing a namesake.
+
+Also asked whether the suppression prevents re-assembly of the same composite.
+Two retained identifiers will not stop a rebuild keyed on employer and job
+title, which is how the record looks to have been built in the first place.
+
