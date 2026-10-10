@@ -30520,3 +30520,63 @@ Corrected there. The genuinely-not-a-CAPTCHA cases remain what they were:
 invisible reCAPTCHA v3 and Cloudflare Turnstile, which require no challenge
 from anyone and resolve on their own.
 
+---
+
+## §460 — A CAPTCHA blocks one route, not the request
+
+Disqus's OneTrust form is gated by a reCAPTCHA v2 checkbox, so by the rule of
+the last three passes it was headed for the subject's solve list. Before adding
+it I read the page footer, which carries **`privacy@disqus.com`** and a postal
+address.
+
+The request went by email instead, with an offer to re-submit through the form
+if they prefer. No challenge, no handoff, request filed the same evening.
+
+**This should have been the first move, not the fourth.** The last several
+passes have been spent carefully classifying CAPTCHAs — pressing Submit to see
+whether they bite, counting which need a human, correcting the count. All of
+that treats the gated form as *the* route. It is one route. A published privacy
+address in the footer of the very page that is blocking you carries the same
+request with no gate at all.
+
+So: **before any CAPTCHA-gated form goes on the handoff list, read the footer
+and the privacy policy for a published privacy address.** The handoff list is
+for requests that cannot be made any other way, and it has been collecting
+requests that could.
+
+**What the email could carry that the form could not**, which is the second
+argument for preferring it: eleven alternate addresses as search keys, an
+explanation of why registered-user status is genuinely unknown rather than a
+guess at the radio button, and the one point worth pressing — Disqus directs
+non-users to `optout.aboutads.info`, which is itself cookie-based, so it
+reaches nothing already collected and does not survive a cleared browser. A
+form with a 5,000-character box that says "please refrain from entering any
+personal information" cannot hold any of that.
+
+### §460a — Link rot is real but smaller than it looks, and I nearly trebled it
+
+Checked all 126 queue URLs with `curl`. The result needs stating carefully,
+because the obvious reading of it is wrong.
+
+    200  100     403   17     000    6     404    2     530    1
+
+**The 17 are almost certainly not dead.** They are people-search sites —
+TruePeopleSearch, FastPeopleSearch, PeopleFinders, OptOutPrescreen — refusing a
+scripted request. A 403 to `curl` means the site blocked the automation, not
+that the opt-out page is gone, and reporting "17 dead links" would have been a
+fabrication dressed as a sweep. Only **2 genuine 404s** turned up
+(`brandwatch`'s your-privacy-choices page and `pmg_worldwide`), one 530, and 6
+connection failures of which several are notes typed into the URL field rather
+than URLs.
+
+**And the error that prompted the sweep was mine.** I opened Disqus from a
+truncated listing, invented the tail of the URL, got `BlobNotFound`, and
+briefly concluded the stored link was dead. The stored link is fine. A
+truncated display is not a short URL, and the thing to do with one is read the
+record, not reconstruct it.
+
+Two real repairs fall out: `brandwatch`'s queue URL 404s while the working form
+lives at `/legal/data-subject-access-request/` — the row has been driven from
+the right URL all along, so only the queue entry is stale — and `pmg_worldwide`
+needs a new route found.
+
