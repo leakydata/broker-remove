@@ -8,18 +8,8 @@
 
 ## Status
 
-- Current: `manual_required` (updated 2026-09-20)
-- Note: 2026-08-20: first contact, sent to the address discovered by the verify_emails sweep. Tailored per _CATEGORY_VARIANTS.md.
-- 2026-09-18: privacy@rocketreach.co replied: "We are unable to verify
-  your identity and therefore we cannot comply with your request" — no
-  explanation of what verification would satisfy them, despite the
-  original letter already carrying full name + aliases, DOB, current
-  address, current phone, and being sent from a controlled mailbox.
-  Replied 2026-09-20 declining to upload a government ID or create an
-  account, citing CPRA's necessary-and-proportionate standard
-  (Cal. Civ. Code § 1798.140(ad)), and asked them to either name a
-  lighter-weight verification step or say plainly that none exists short
-  of ID upload. No reply yet.
+- Current: `replied` (updated 2026-10-10)
+- Note: VERIFICATION STALEMATE, BROKEN INTO TWO PARTS -- two replies sat unread since 18 and 24 September. RocketReach first sent a bare 'We are unable to verify your identity and therefore we cannot comply', which says nothing actionable. Pressed for specifics; on 24 September they gave them, and the specifics contain the flaw. THEIR TEST, QUOTED: 'This does not need to be an email address associated with the data profile, but it does need to be a personal visually verifiable email address.' THOSE TWO CLAUSES PULL AGAINST EACH OTHER. If the address need not be associated with the profile, producing it proves nothing about whether the sender is the data subject -- only that they control some other mailbox. A stranger with a domain-based address passes; the subject, writing from an address he has controlled for years, fails. The test sorts by KIND OF ADDRESS, not by any link to the record. Asked them to say what 'visually verifiable' means if it means something checkable. SECOND POINT, SPECIFIC TO THIS COMPANY: RocketReach GENERATES work email addresses from name-and-domain patterns. Demanding an address of the type they manufacture, to delete a record keyed to an address the subject may never have used, is a closed loop -- and impossible for anyone unemployed, retired, self-employed or working somewhere without corporate email. THE PRECEDENT NOW DEPLOYED, from 462: Babel Street, an OSINT aggregator with a far stronger claim to caution than a B2B contact database, asked for proof of address and then WITHDREW IT -- 'Since you have provided additional identifiers, you do not need to provide more verification information at this time' -- then searched, itemised and deleted. Same identifiers RocketReach is refusing. THE DECISIVE MOVE IS SPLITTING THE REQUEST. An opt-out of sale and sharing is NOT a verifiable consumer request and 11 CCR 7026(f) bars requiring verification as a condition of honouring one. Asked them to action the opt-out and a standing suppression entry NOW, verification or no verification, and to treat access and deletion separately. If they still refuse everything, asked them to say plainly that a government ID is required with no alternative, which converts an unanswerable stalemate into a quotable final position. OFFERED EVERYTHING SHORT OF THE ID: a knowledge-based check drawn from their own record (they name a held field, he confirms or denies -- verifies against the record itself and discloses nothing new), confirmation of DOB, prior addresses, prior numbers or former employers, and a reply from any other listed address that happens to be in their file.
 
 ## Steps
 

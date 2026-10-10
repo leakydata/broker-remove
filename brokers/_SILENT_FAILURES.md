@@ -31005,3 +31005,69 @@ meaningless answer into a real one. Note also that the two answers between them
 covered email, then name and phone — different keys each time, which is worth
 checking for rather than assuming.
 
+---
+
+## §466 — A verification test that sorts by the kind of address, not by the person
+
+RocketReach refused twice, and the second refusal is more useful than the
+first because it says what it wants:
+
+> "This does not need to be an email address associated with the data profile,
+> but it does need to be a personal visually verifiable email address."
+
+**Those two clauses pull against each other.** If the address need not be
+connected to the profile, then producing it establishes nothing about whether
+the sender is the data subject — only that they control some other mailbox. A
+stranger with a domain-based address passes. The subject, writing from an
+address he has controlled for years, fails. The test sorts by the *kind* of
+address, not by any link to the record it is supposed to protect.
+
+**And the demand is circular in this company's case specifically.**
+RocketReach's product *generates* work email addresses from name-and-domain
+patterns. Being asked to prove identity by producing an address of the type
+they manufacture, in order to delete a record keyed to an address the subject
+may never have used, is a loop with no exit from inside. It is also simply
+impossible for anyone unemployed, retired, self-employed, or working somewhere
+without corporate mail — which is to say, for a large share of the people in
+any contact database.
+
+**The precedent from §462 is now in play.** Babel Street — an OSINT
+aggregator, with a far stronger claim to caution about disclosure than a B2B
+contact database has — asked for a proof-of-address document and then withdrew
+it: *"Since you have provided additional identifiers, you do not need to
+provide more verification information at this time."* Then searched, itemised
+what it held, and deleted. On the same identifiers RocketReach is refusing.
+
+That does not bind RocketReach. It does make "no verification short of a
+government ID is possible" a harder claim, because a company handling more
+sensitive material reached the opposite conclusion on the same facts.
+
+### §466a — Splitting the request is the move that does not depend on winning
+
+The argument above might not land. The split does not need it to.
+
+The request had four elements, and one is an **opt-out of sale and sharing**.
+An opt-out is not a verifiable consumer request, and **11 CCR §7026(f)** bars
+requiring verification as a condition of honouring one. The reasoning is
+simple enough to state in two lines: the consumer is not asking to receive
+anything, alter anything, or have anything disclosed — only to be excluded. If
+the identifiers match nothing the exclusion costs nothing; if they match
+something, the person who benefits is the person in the record. There is no
+case in which honouring it harms the data subject, and harm to the data
+subject is the only thing verification exists to prevent.
+
+So the reply asks for the opt-out and a standing suppression entry to be
+actioned **now**, verification unresolved, and treats access and deletion as a
+separate question still in dispute.
+
+**The general lesson: a verification stalemate is usually only a stalemate for
+part of the request.** Lumping all four elements together lets a company
+refuse the whole thing on the strength of the one element that genuinely does
+require identity. Separating them leaves the refusal covering only what it can
+actually justify.
+
+And if they refuse even that, the reply asks them to say plainly that a
+government ID is required with no alternative — which converts an
+unanswerable "we are unable to verify" into a quotable final position. A clear
+refusal is worth more than an ambiguous one.
+
