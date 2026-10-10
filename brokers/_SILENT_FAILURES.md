@@ -32828,3 +32828,63 @@ was annotated but **deliberately left at `submitted`** — the comments are
 unread, so nothing is yet known about the outcome, and promoting it would be
 §465's unearned status.
 
+---
+
+## §495 — The notification that never said it would expire, and then did
+
+§494a queued the two RRD portal comments as the most recoverable thing in the
+sweep. They are not recoverable. Both links are dead:
+
+> "Oops! It looks like this URL is no longer active."
+
+Twenty-two days was enough. **And neither email stated any expiry — not a
+window, not a warning, nothing.** The entire body is *"A comment has been added
+to your request"* and a **View Request** button.
+
+Set that beside §493's Juicebox link, which said *"This link will expire in
+15 days."* Fifteen days is short, and I said so. But **a stated short window is
+strictly better than an unstated one**, because the reader can act on it. This
+is the worse design:
+
+| | stated expiry | actual behaviour | reader can plan? |
+|---|---|---|---|
+| Juicebox (§493) | 15 days | died at 15 days | **yes** |
+| Ketch (§494) | "15 minutes" *and* "5 days" | 5 days | no — contradictory |
+| **RRD (here)** | **none** | **dead by day 22** | **no — invisible** |
+
+Three companies, three ways of getting the same thing wrong, and the common
+failure is that **the expiry is not where the reader needs it.** A notification
+whose whole purpose is to say "there is something here for you" should either
+carry the something, or carry the deadline for collecting it.
+
+**The content is gone, and the delay was ours.** Two substantive replies from
+RRD — the answers to the 12 September letter — exist only in a portal that will
+not open.
+
+### §495a — Asking the other party to be the backup
+
+The only recovery left is to ask RRD to paste the comments into email, which
+the reply does, owning the twenty-two days plainly rather than implying the
+links were at fault. **Worth stating because it is the general lesson: when a
+portal eats a reply, the company still has it.** The message is not gone from
+the world, only from our side. Asking is cheap and the worst case is a no.
+
+### §495b — One letter, two request IDs, possibly two different answers
+
+The two IDs made something visible that a single ID would have hidden. **One
+letter produced two separate requests — one per brand — which means two teams
+and two workflows.**
+
+So the reply asks something new: **did both search the same systems, or
+different ones?** If one returns a nil and the other a deletion, averaging them
+into a single row would be wrong; the project would need to know what each
+actually covered. §491 found that a rebrand can merge three brands into one
+privacy route. This is the mirror case — **one route fanning out into two,
+without saying so**, and each half free to answer differently.
+
+The queue item was rewritten from `portal` to `await` with a §418 stale header
+telling the next reader **not** to open the dead links, since doing so produces
+an error that reads like their own mistake. There is nothing to drive now; the
+next action is the reply, and a chase on the same thread if it does not come —
+**not a new request, which would mint a third ID and a third workflow.**
+

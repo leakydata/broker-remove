@@ -7,18 +7,8 @@
 
 ## Status
 
-- Current: `manual_required` (updated 2026-09-19)
-- Note: Letter to DataPrivacy@rrd.com 2026-09-12, covering Valassis and the RRD group's direct-mail and marketing data businesses. Two asks beyond the standard letter: (1) deletion-vs-suppression stated as the whole request, because a shared-mail business ingests continuously and a deletion without a persistent entry is a gap that closes at the next ingest; (2) the controller/processor split (444), asking them to name the client for anything held on a client's behalf so it can be redirected rather than answered honestly from the wrong side. Also asked which of several systems was searched -- marketing database, shared-mail household file, client services are three different searches.
-- 2026-09-18: two separate OneTrust portal notifications arrived, both "Your
-  Privacy Request Needs Attention": Request ID `WKZ2LXPF3V` from
-  privacy.requests@privacy.rrd.com, and a second, apparently distinct ticket
-  `TE95J69KDE` from valassisprivacy.request@privacy.rrd.com. **RRD's
-  notification email never includes the comment text itself** -- only a
-  login-gated link into their OneTrust privacy portal. Queued to
-  `scripts/handoff.py` for a human to open both and read what was actually
-  asked. This is a genuine gap in an email-only workflow: a broker can put a
-  substantive question behind a portal login and the requester has no way to
-  see it without a browser and an account-free login flow.
+- Current: `submitted` (updated 2026-10-10)
+- Note: PORTAL LINKS TESTED AND DEAD. Both 2026-09-18 notifications (WKZ2LXPF3V for RRD, TE95J69KDE for Valassis) carry a View Request button and no comment text. Opened the RRD one today: privacyportal.onetrust.com/ui/#/error -- 'Oops! It looks like this URL is no longer active.' Twenty-two days killed it. CRUCIALLY, NEITHER EMAIL STATED ANY EXPIRY -- not a window, not a warning, nothing. Juicebox at least said fifteen days (493). This said only 'click the button below', and the combination of no warning plus silent death is the one case where a slow reader loses the message permanently and has no way to know it was ever at risk. So two substantive replies from RRD are now unrecoverable from this end, and the delay was ours. RECOVERY ATTEMPTED THE ONLY WAY LEFT: replied on the live DataPrivacy@rrd.com thread asking them to paste both comments into an email, owning the twenty-two days as mine. Restated the three original asks so the answer is useful when it comes -- suppression as the substance of the request rather than deletion alone, since a shared-mail business ingests continuously and a deletion without a retained suppression entry closes at the next ingest; controller-versus-processor with the client named for anything held on a client's behalf; and which systems were actually searched. ALSO ASKED SOMETHING NEW THAT THE TWO IDS MADE VISIBLE: our ONE letter produced TWO request IDs, one per brand, which means two teams and two workflows. Asked explicitly whether both searched the SAME systems or different ones, because if one returns a nil and the other a deletion, averaging them in our notes would be wrong -- we would need to know what each actually covered. Queue item rewritten from 'portal' to 'await' with a STALE header warning not to open the dead links, per 418.
 
 ## Steps
 
