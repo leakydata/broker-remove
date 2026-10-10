@@ -30871,8 +30871,8 @@ the opt-out and suppression recorded as complete.
 The list described **a composite of at least four or five different people**
 sharing the subject's name — roughly 47 job positions, about 50 email
 addresses and 13 phone numbers. A handful are his. The rest belong to other
-Nathan Joneses: a law firm, a sports agency, a real-estate company, a
-music-rights organisation, a food-service company, an equipment dealer, a
+people with the same name: a law firm, a sports agency, a real-estate company,
+a music-rights organisation, a food-service company, an equipment dealer, a
 bank collections role, a military research fellowship. One phone number is a
 university's main switchboard. Another is a repeated-digit placeholder.
 
@@ -30921,4 +30921,27 @@ suppressing a current resident; here it is suppressing a namesake.
 Also asked whether the suppression prevents re-assembly of the same composite.
 Two retained identifiers will not stop a rebuild keyed on employer and job
 title, which is how the record looks to have been built in the first place.
+
+### §464c — The guard is advisory, and I kept running it where it could not stop me
+
+Second redaction miss in two passes, and this one is structural rather than
+careless. §462a fixed the symptom — stop piping `redact.py` through
+`tail -1` — and I did. The full output printed. **But the same shell chain ran
+`git commit` immediately after it**, so the warning appeared in the transcript
+*after* the commit had already been made.
+
+`redact.py` reports; it does not block. Running it in the same `&&` chain as
+the commit therefore gives the appearance of a gate while providing none. The
+output is advice arriving too late to act on, which is exactly the shape of
+§448 and §455: a check correctly written, placed where it cannot do its job.
+
+The value this time was the subject's own name, in the phrase "other
+[name]s" — used to make the point that the record conflated several people
+with the same name. The point survives as "other people with the same name",
+which is what the file now says.
+
+**The rule, which the previous rule should have been: run `redact.py` as its
+own step, read the result, and only then commit.** Never in the same chain as
+the commit. The honest version of "run redact.py before every commit" is that
+the *before* has to be a separate turn, not a separate line in the same script.
 
