@@ -30668,3 +30668,57 @@ the list as a whole was a flourish, and the data does not carry it.
 form to the handoff list, check the footer and policy for a published address —
 it worked twice in five. It is a useful habit, not an indictment of the queue.
 
+---
+
+## §461 — The footer address can be a dead end by design, and sent is not filed
+
+Sixteen seconds after the Adstra letter went out, Adstra answered:
+
+> "THIS EMAIL RESPONSE IS AN AUTOREPLY... **THIS EMAIL INBOX IS NOT MONITORED
+> REGULARLY.** IF YOU REQUIRE ACTION, PLEASE DO THE FOLLOWING:"
+
+— followed by links to the same OneTrust forms the CAPTCHA blocks.
+
+So §460's rule has a counter-case, and it arrived one pass after the rule did.
+A published privacy address is not necessarily a route. It can be a redirect
+back to the gate, and the company can say so in terms. **"Sent" is not
+"filed"**, and I had already written the row up as filed.
+
+That is twice in two days that a record was written on the strength of what I
+had done rather than what had happened (§457 was the first). The correction is
+the same both times: the broker's own response is the evidence, not the act of
+sending.
+
+### §461a — The one right a Pennsylvania resident can use has no working route
+
+The autoreply lists four destinations. The second is the **opt-out of Adstra's
+disclosure of personal information to third parties for direct marketing**.
+
+That link redirects to `adstradata.com/privacy-policy/` — the policy page, with
+no form on it. Verified: the address bar shows the policy URL after navigation,
+and the accessibility tree finds no input, no CAPTCHA and no submit button
+anywhere on the page.
+
+**Of all four links, that is the worst one to be broken.** Adstra's policy
+grants the direct-marketing opt-out in a *U.S. Residents* section — "If you are
+a U.S. resident and would like to make a verifiable consumer request to
+delete" — with no residency condition, while California, Colorado,
+Connecticut, Nevada, Utah and Virginia each get their own separately-limited
+section. For someone in a state with no privacy statute, that unconditioned
+right is the whole of what is on offer.
+
+And the route to it does not work. The email is unmonitored by the company's
+own statement; the link the company's own autoreply supplies for that right
+lands on a page with no form. The deletion and information forms do load, and
+both are BotDetect-gated.
+
+This is the sharpest instance yet of the pattern first recorded at §456 — the
+designated method exists, is findable, is named by the company itself, and
+cannot carry the request. The difference here is that it is not a limitation of
+the form's fields. **The link is simply broken**, and nobody at the company is
+reading the inbox that would hear about it.
+
+Worth saying plainly for the playbook: when the only unconditioned right has no
+working route, the next move is not another email to an inbox the company says
+nobody reads. It is a regulator-facing record of exactly that.
+
