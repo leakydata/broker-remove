@@ -32138,3 +32138,45 @@ it; §456's limitation again, in its mildest form.
 
 Postal address on file for escalation: 11211 John Galt Blvd, Omaha, NE 68137.
 
+---
+
+## §484 — Four attempts, no fifth
+
+Open People Search promises more than most:
+
+> "Open People Search complies with all state and federal data privacy laws.
+> **We allow consumers in all states to opt-out their information.**"
+
+And its per-state page, for a state with no statute: *"This state has no
+applicable data privacy law... **but you can still Opt-out your
+information.**"* Unconditioned, stated twice. The right is not in question.
+
+**The mechanics are.** Selecting Pennsylvania and pressing CONTINUE did not
+advance the page — four attempts, three methods: `form_input` then CONTINUE;
+the same after dismissing the cookie banner; and click-the-select, press `p`,
+Enter, CONTINUE from a freshly loaded page. Unchanged every time.
+
+**One attempt did advance — and it had landed on Puerto Rico**, because the
+keypress moved one option past Pennsylvania. That reached the per-state page
+quoted above.
+
+It is tempting to write that up as "the form is broken for Pennsylvania." It
+would make a better finding, and it is not supported. **The successful attempt
+differed from the failures in both the state selected and the exact
+interaction**, so the variable is not isolated. It could be a quirk of driving
+the control, a server-side validation, or a real bug on that option. Screenshots
+of this site freeze the renderer, so the control's rendered state could not be
+seen at all, and the console showed no errors — though tracking started after
+page load, which makes that weak evidence too.
+
+**So it is handed off rather than attempted a fifth time.** A person with a
+working browser settles it in two seconds, and that is the only fact needed.
+Four failed attempts with three methods is the point at which more attempts
+stop being evidence and start being noise — the browser guidance says as much,
+and the temptation to keep going was real because the page is *so close* to
+working.
+
+Worth recording the negative result anyway: the handoff note tells the next
+person exactly what was tried, so they do not repeat it, and what the one
+successful run looked like, so they know the flow itself works.
+
