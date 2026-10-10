@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `not_found` (updated 2026-09-21)
-- Note: 2026-08-30 sent the standard data-broker letter to privacy@sourcepathdigital.com. 2026-09-09 reply from Vince Toon, Director of Data and Technology: "has been processed and the record was removed if present (was not present)" -- a direct nil against all four email addresses supplied, in a single sentence that distinguishes the two outcomes rather than defaulting to the reassuring one.
+- Current: `not_found` (updated 2026-10-10)
+- Note: VERIFIED (468 audit) -- EARNED, AND THE WORDING IS THE BEST SHORT NIL IN THE CORPUS. Source Path Digital, 2026-09-09, from their Director of Data and Technology: 'The request for: [name, DOB, phone, mailing address, four email addresses] has been processed and THE RECORD WAS REMOVED IF PRESENT (WAS NOT PRESENT).' That parenthetical does in three words what 443 and 138 spend paragraphs asking for: it distinguishes 'we deleted something' from 'there was nothing to delete', inside a sentence that would otherwise have blurred them. Most completion notices say only 'your request has been processed', which is true either way and therefore tells the reader nothing. They also echoed the full identifier set back, so the scope of the search is visible rather than assumed -- compare nordic_data_resources at 480, where the review covered one address of twelve and the notice looked the same. Found via the California data broker registry.
 
 ## Steps
 

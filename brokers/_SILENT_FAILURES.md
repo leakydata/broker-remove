@@ -31991,3 +31991,52 @@ row records both.
 
 Flags: 34 → 29.
 
+---
+
+## §481 — The inbox method has a floor, and this pass hit it
+
+Eleven rows searched. **One had correspondence.** The other ten return no
+inbound mail at all from the broker's domain.
+
+That is not a failure of the rows and it is not proof they are wrong. §468a
+made the point and it holds: many of these opt-outs are web flows that
+generate no email, so silence is evidence about *this mailbox*, not about the
+broker. But it does mean something definite and worth recording:
+
+> **The inbox cannot verify these rows either way.** Whatever their terminal
+> status rests on, it is outside this mailbox, and nobody wrote down what.
+
+So the ten are now annotated `no_inbox_evidence` rather than left under a flag
+that implies "not yet looked at". They have been looked at. The method that
+cleared fifty-odd others does not reach them. **Absence of a flag must not be
+read as verification**, which is the §448 error in a new costume — a check that
+runs, finds nothing, and leaves no trace of having run.
+
+Resolving them needs a different move: a short status query to the broker, or
+a check of whatever web-submission receipt existed at the time. Both are real
+work rather than audit work, and should be scheduled as such.
+
+**This also bounds the audit honestly.** Of the eighty originally flagged,
+roughly fifty have now been read against the mail and the great majority held
+up. The remainder splits into rows with correspondence still to read and rows
+with no correspondence to read. The second group cannot be finished by reading.
+Saying so now is better than grinding through searches that return nothing and
+calling the silence a result.
+
+### §481a — The best short nil in the corpus
+
+Source Path Digital, the one row that did have mail:
+
+> "The request for: [identifiers] has been processed and **the record was
+> removed if present (was not present)**."
+
+Three words in a parenthesis do what §443 and §138 spend paragraphs asking
+for. "Your request has been processed" is true whether a record was deleted or
+never existed, and therefore tells the reader nothing. This sentence closes
+that gap inside itself, and echoes the full identifier set back so the scope of
+the search is visible rather than assumed — the thing Nordic Data Resources
+(§480) did not do.
+
+Worth quoting to any company drafting a completion template. It costs them one
+parenthesis and saves the recipient an entire round of correspondence.
+
