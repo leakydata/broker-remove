@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `not_found` (updated 2026-09-29)
-- Note: 2026-08-25: emailed privacy@boam.com. Category unclear, so used the two questions that pay off regardless: name your upstream suppliers (the single highest-yield question we ask - it has surfaced brokers absent from every state registry), and disclose inferred/modelled/scored attributes separately from collected ones. 2026-09-28: privacy@boam.ai replied — thorough search, no records found under the contact details provided. Did not answer the two follow-up questions, since there was nothing to answer them about.
+- Current: `not_found` (updated 2026-10-10)
+- Note: VERIFIED (468 audit) -- EARNED. Boam.ai, 2026-09-28: 'We conducted a thorough search of our records using the information you provided. At this time, we were unable to locate any records associated with the...' A plain nil describing a search rather than asserting an absence. Note the letter went to privacy@boam.com and the reply came from privacy@boam.ai -- the domain on file was the wrong one and the mail was routed anyway.
 
 ## Steps
 

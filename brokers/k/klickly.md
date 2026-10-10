@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `confirmed` (updated 2026-09-26)
-- Note: 2026-09-25: privacy@klickly.com replied 'Your data privacy request has been completed. Erase requests have been completed.' No outbound letter to Klickly exists in our own sent mail -- this request appears to have been submitted through some other channel (their own web form, most likely) and this reply is the only record of it. Recorded confirmed on the strength of the broker's own affirmative statement.
+- Current: `confirmed` (updated 2026-10-10)
+- Note: VERIFIED (468 audit) -- EARNED. Klickly, 2026-09-25: 'Your data privacy request has been completed. Erase requests have been completed.' Short and unambiguous. No suppression language, so a re-add at the next ingest is not excluded -- but the deletion itself is confirmed and the reply is not hedged.
 
 ## Steps
 

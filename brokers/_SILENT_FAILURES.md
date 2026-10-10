@@ -31593,3 +31593,60 @@ the opposite of §473's ordering problem.
 
 Flags: 65 → 62.
 
+---
+
+## §475 — Seven from the late-September sweeps, and all seven hold
+
+The 29 and 30 September and 2 October batches check out almost entirely. Seven
+rows verified against the mail in one pass, seven earned. Flags 62 → 55.
+
+**OnAudience is the best verification exchange in the corpus**, and worth
+re-reading whenever a verification argument is needed elsewhere. Four rounds.
+On 4 September they said they were handling the request *"in relation to the
+email address from which this message was sent"* — scoped to one identifier
+out of twelve. That was corrected **before the search ran**, which is the cheap
+moment. On 1 October: *"the opt-out and suppression instruction is being
+applied to all twelve email identifiers."*
+
+The intervening round is the valuable one: their 16 September reply drew a
+careful distinction about which identifiers they could act on and why, and the
+reply to it called that the most carefully reasoned verification response
+received from anyone. **A company that explains its reasoning can be argued
+with, and arguing with it worked** — the opposite of §465's observation that a
+vaguer answer is harder to challenge.
+
+**Sovrn** gave a forward-looking undertaking rather than a past-tense
+deletion — *"Sovrn will not sell and has..."* — and addressed the reply to all
+four email addresses rather than only the sender, which is a small sign the
+other identifiers were actually loaded.
+
+**SafeGraph** returned a nil *with* a suppression: *"we did not find any
+personal information on the contact given. We will maintain a record of your
+request and add..."* That is the right answer to a nil and the one §289 argues
+for — a company holding nothing today can still hold a do-not-add against
+tomorrow. Worth one check on "the contact given", singular, which is exactly
+the scoping error OnAudience made.
+
+**Throtle** took two redirects to reach — an authentication gate, then a
+OneTrust webform, with `PrivacyOfficer@IQVIA.com` named as the current
+address. Writing to IQVIA directly rather than sitting in the loop produced
+the deletion. **Boam.ai** answered despite the letter going to the wrong
+top-level domain. **Klickly** confirmed erasure in two sentences.
+
+### §475a — A satisfaction survey standing in for an answer
+
+`nestfully`'s nil is real and dated 29 September. The reply to it, on
+30 September, made the standing point: he has never had an account there, so
+there is no profile URL to supply, and the absence of one is not a reason to
+leave the request open.
+
+**That letter has not been answered. What arrived instead, on 6 October, was a
+customer-satisfaction survey** — *"we'd love to hear how we did on your recent
+request."*
+
+Same shape as §468a, where a feedback template was the only evidence behind a
+`confirmed` at BeenVerified. Here the nil itself predates the survey so the
+status holds, but the open question — whether a do-not-add entry exists — is
+exactly what the survey papers over. **A request for feedback is not a
+response**, and in a ticketing system it usually marks the ticket closed.
+

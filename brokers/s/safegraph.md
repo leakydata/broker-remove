@@ -7,9 +7,8 @@
 
 ## Status
 
-- Current: `not_found` (updated 2026-09-30)
-- Note: 2026-08-26: emailed privacy@safegraph.com. Same mobile-location variant as quadrant_global_pte — device identifiers, movement history, inferred home/work location, identity-graph linkage, and a request to name the identifier types matched on.
-- Note: privacy@safegraph.com 2026-09-30: "We conducted a search on our records and did not find any personal information on the contact given. We will maintain a record of your request and add your information to our internal suppression list. At this time, we consider this request closed." A genuine nil that also names the suppression step unprompted — one of the more complete negative replies on file. Does not break out which identifier types (device ID vs. name/address) were actually searched, so treat this as company-wide rather than a confirmation the device-graph side was checked.
+- Current: `not_found` (updated 2026-10-10)
+- Note: VERIFIED (468 audit) -- EARNED, AND THE NIL COMES WITH A SUPPRESSION. SafeGraph, 2026-09-30: 'We conducted a search on our records and did not find any personal information on the contact given. We will maintain a record of your request and add...' -- the sentence continues into a do-not-add entry, which is the right answer to a nil and the one 289 argues for: a company that holds nothing today can still hold a suppression against tomorrow. Note the phrase 'the contact given' (singular) -- worth one check that all identifiers were searched rather than only the sending address, which is exactly the scoping error OnAudience made and corrected.
 
 ## Steps
 

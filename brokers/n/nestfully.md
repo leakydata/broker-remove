@@ -7,9 +7,8 @@
 
 ## Status
 
-- Current: `not_found` (updated 2026-09-30)
-- Note: 2026-09-18 sent the standard consumer deletion/opt-out/suppression letter to the registry contact address (part of the 2026-09-18 batch send).
-- Note: info@nestfully.com (Patrice) 2026-09-29: "We have searched our database using the information you provided, but we are unable to locate any account or profile associated with your records." Asked for a profile URL/screenshot if an active agent profile exists. Nestfully is a real-estate-agent directory — this site only has something to find if the subject is a licensed agent with a profile there, so a person with no such profile should expect exactly this reply. Replied 2026-09-30 confirming no profile exists and asking them to close the request and record a forward-looking suppression against one being created under these identifiers without consent.
+- Current: `not_found` (updated 2026-10-10)
+- Note: VERIFIED (468 audit) -- NIL EARNED, BUT A FOLLOW-UP IS UNANSWERED AND THE ROW SHOULD NOT BE TREATED AS CLOSED. Nestfully, 2026-09-29: 'We have searched our database using the information you provided, but we are unable to locate any...' The subject replied on 2026-09-30 making the point this project makes everywhere: he has never had an agent profile or account on Nestfully, so there is no profile URL or screenshot to supply because none exists, and the absence of one is not a reason to leave the request open. THAT REPLY HAS NOT BEEN ANSWERED. What arrived instead, on 2026-10-06, was a CUSTOMER-SATISFACTION SURVEY -- 'we'd love to hear how we did on your recent request'. A feedback request standing in for an answer is the same shape as the BeenVerified case at 468a, where a satisfaction template was the only evidence behind a 'confirmed'. Here the nil itself is real and predates the survey, so the status holds; the open question is whether a do-not-add entry exists, which is what the 30 September letter asked for.
 
 ## Steps
 

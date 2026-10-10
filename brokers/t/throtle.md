@@ -7,10 +7,9 @@
 
 ## Status
 
-- Current: `confirmed` (updated 2026-10-01)
-- Reference: `gmail:1a0f7836f7f360ca`
-- Note: IQVIA ROUTING ESTABLISHED, 2026-09-07. The letter to PrivacyOfficer@IQVIA.com produced an out-of-office from [named individual]@iqvia.com: 'I am out of the office until Sept 14. For urgent matters, please contact Barbara Bressolles (EU.DPO@IQVIA.com).' So PrivacyOfficer@IQVIA.com routes to a named individual who is away until 14 September. THE MAILBOX IS REAL AND MONITORED BY A PERSON, which is better than most of what this project finds -- but nothing will move for a week. NOT ESCALATING TO THE EU DPO: that address is offered for urgent matters, this is a routine consumer request from a US resident, and using an emergency channel for a non-emergency is how a channel stops being useful for the next person. The five questions about the IQVIA transfer (who controls the identity graph today, when/how it transferred, whether processing purposes differ, whether consumers were notified, whether pre-transfer opt-outs bind the new controller) were never answered individually.
-- **2026-10-01: CONFIRMED.** Reply (from the `Privacy@throtle.io` mailbox directly, via Outlook for Mac, not IQVIA): "We have deleted any data from our systems that may have been held. This request is complete." Unqualified and broker-issued, so recording as `confirmed` even though it does not distinguish "deleted" from "found nothing" as the original letter asked (one of the three things asked of the confirmation: which identifiers matched, which systems were searched, whether suppression is keyed to the person or the raw identifiers -- none answered). No ticket/reference number given, just a one-line reply in the existing thread.
+- Current: `confirmed` (updated 2026-10-10)
+- Reference: `gmail:1a07b63fcf585e55 -- OOO to 2026-09-14`
+- Note: VERIFIED (468 audit) -- EARNED. Throtle, 2026-10-01: 'We have deleted any data from our systems that may have been held. This request is complete.' THE ROUTE WAS NOT STRAIGHTFORWARD AND THE DETOUR IS THE USEFUL PART. Their first auto-reply (2026-08-30) demanded authentication through 'a secure web-based system' -- a designated-method gate. A second auto-reply on 2026-09-06 redirected again, this time to a OneTrust webform, and the same message pointed at PrivacyOfficer@IQVIA.com as the current address. The subject wrote directly to IQVIA rather than sitting in the redirect loop, and the substantive deletion followed. 'Any data that may have been held' is hedged -- it does not distinguish a deletion from a nil -- but it is unambiguous that nothing remains.
 
 ## Steps
 
