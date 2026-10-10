@@ -31270,3 +31270,67 @@ the "other search services" an opt-out keyed to a people-search record is said
 to miss. **When a family's rows were all closed in one sweep, the sweep is the
 thing to doubt, not each row separately.**
 
+---
+
+## §470 — The sweeps are visible in the dates, and the biggest one was a family
+
+Grouping the eighty flagged rows by the date another agent closed them shows
+the work was not spread evenly. It came in bursts: nine on 1 October, eight on
+15 September, seven each on 21 and 24 September.
+
+The 1 October group is the largest, and seven of its nine are one corporate
+family — `peoplelooker`, `peoplesmart`, `reversephone`, `freephonetracer`,
+alongside `beenverified`, `ownerly` and `neighborwho` closed nearby. All
+**The Lifetime Value Co.**
+
+Checked against the mail, that family splits three ways:
+
+**Earned, but mislabelled.** `reversephone` really did answer — *"After
+searching, we hold no person search result (ie person report) corresponding to
+you"* — but that is a **nil, not a removal**, and the row said `confirmed`.
+Corrected to `not_found`. The distinction is not pedantic: `confirmed` claims
+something was found and taken down, `not_found` claims they hold nothing, and
+the playbooks publish these rows to other people. Someone deciding whether
+ReversePhone is worth writing to deserves to know which.
+
+**Not earned.** `peoplelooker` was marked `confirmed` on 1 October. Its most
+recent substantive message, dated **4 days later**, says *"We have escalated
+this request to our privacy team."* Escalated is in-progress. Whatever the
+status rested on, it was not an outcome. Regressed.
+
+**No evidence either way.** `peoplesmart`, `freephonetracer` — no mail at all,
+which §468a says proves nothing on its own.
+
+### §470a — One support desk behind several brands
+
+The 5 October escalation arrived from `support@peoplelooker.com` and answered
+a request that had been addressed to **Backgroundchecks Me**. That is direct
+evidence the Lifetime Value Co. brands run a shared support desk.
+
+It cuts both ways, and the second way matters more:
+
+- A single well-aimed letter may reach several brands at once — which is why
+  the BeenVerified letter asks in terms whether it covers the siblings.
+- **A single template deflection may be what closed several rows.** If one
+  desk sends the same "use the online opt-out" reply under four brand names,
+  and each gets logged as an outcome, four rows close on one piece of
+  boilerplate.
+
+That is a better explanation of the 1 October sweep than carelessness, and it
+suggests where else to look: **wherever several rows share a support
+infrastructure, expect their statuses to be correlated rather than
+independent.** Nine rows closed in a day is not nine findings; it may be two.
+
+### §470b — ReversePhone also shows the push that works
+
+Worth extracting because it is the second instance of the same technique
+succeeding (§465 was Owler): their first reply was the standard template
+pointing at the online opt-out. The subject used it, **found no listing in the
+opt-out index**, and wrote back saying precisely that — that the absence of a
+searchable listing was what the original message had been about. Support
+escalated on 20 August; the substantive nil arrived 2 October.
+
+Six weeks and two pushes to convert a template into a real answer. The move is
+always the same: use the route they offered, report what it actually returned,
+and ask the question the route could not answer.
+
