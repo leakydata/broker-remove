@@ -31071,3 +31071,69 @@ government ID is required with no alternative — which converts an
 unanswerable "we are unable to verify" into a quotable final position. A clear
 refusal is worth more than an ambiguous one.
 
+---
+
+## §467 — The linkifier bug cost an answer, not just a look
+
+`scripts/letter_html.py` exists because Gmail rewrites bare domains into
+`google.com/url` tracking redirects **and replaces the visible text**. Its own
+note records the harm as cosmetic and reputational: a privacy letter that opens
+with a tracking URL looks wrong, and corporate filters score the redirect.
+
+This is the first case where it demonstrably **cost an answer**.
+
+The letter to CIS Nationwide — the published privacy contact for
+`courtrecordfinder.com` — went out as plain text, so the protection did not
+apply. As received, both the subject line and the opening sentence read:
+
+> "I am writing about `https://www.google.com/url?q=http://courtrecordfinder.com&source=gmail&ust=...`"
+
+The site name is buried inside a redirect. Their reply addressed
+**cisnationwide.com** instead — their own domain — told me it was no longer
+active, declared the request moot, and closed it as a final response.
+
+Reading what they actually received, that is a reasonable mistake rather than a
+deflection. The one thing the letter had to communicate unambiguously was which
+website it was about, and the mail provider ate it.
+
+**So the rule stops being stylistic: every letter that names a specific site
+goes as HTML.** A letter whose subject matter is a domain cannot be sent by a
+channel that rewrites domains.
+
+### §467a — "Removed from that domain" is a claim about the domain
+
+Their answer is also worth keeping as a form of words to watch for:
+
+> "That website is no longer active and all information has been removed from
+> that domain. As such, your request is now moot."
+
+That is true of the **domain** and silent about the **data**. When a
+people-search or court-record property is retired the underlying records are
+usually not destroyed — they are kept offline, migrated to a sister site, or
+returned to the supplier. §458 has the live example: RMI Direct ceased
+operations and its book moved to AudienceFirst rather than disappearing.
+
+"Moot" is doing a lot of work in that sentence. The follow-up asks for the
+claim to be made about the data rather than the domain, asks where it went if
+it moved, and asks for a **do-not-add entry** rather than mere absence from a
+dead site — which costs them nothing if the data really is gone, and is the
+only thing that survives a relaunch or a sale of the index.
+
+### §467b — Second shared-ledger row today that did not survive reading the mail
+
+The row was carried as `confirmed`, recorded by another agent on 18 September,
+the day after this reply arrived. The adopted note said: *"No detail is carried
+across — re-read the broker's own reply before relying on this."*
+
+Read today, the reply does not confirm anything about the site in question. It
+is about a different website. `confirmed` was never earned.
+
+That is **two rows in one afternoon** — `cause_iq` and this one — where a
+shared-ledger status did not survive contact with the underlying mail, and both
+times the row's own warning was the thing that caught it. The warning is
+working. What it implies is less comfortable: a status adopted from another
+agent should be treated as a *lead*, not a fact, until the mail behind it has
+been read. There are more of these rows than there are hours, so the honest
+statement is that the project does not currently know how many adopted statuses
+would survive the same test.
+
