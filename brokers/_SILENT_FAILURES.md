@@ -30455,3 +30455,68 @@ One small correction to this project's own record while it is in view: the
 playbook described that address as "unverified, may bounce". It does not
 bounce. It answers instantly, just not to the point.
 
+---
+
+## §459 — Not every gate is a CAPTCHA, and the CAPTCHA count is not the queue
+
+Three things this pass, which together undermine a number I had just quoted.
+
+**The queue's CAPTCHA field is not a survey of CAPTCHAs.** Searching the 134
+open handoff items for any mention of one gave 44 with and **90 without**, and
+I reported the 90 as drivable. The first item I opened from that list —
+`arity` — had a reCAPTCHA v2 checkbox sitting in plain view. The queue note
+simply never recorded it. So the 90 is a count of *what was written down*, not
+of what is on the pages, and it reads as good news in exactly the way §457c
+warned about. The same mistake as §451 ("updated 4 scripts" was a count of what
+I found), reached from a different direction.
+
+**Arity's real blocker is not the CAPTCHA at all.** The form requires a phone
+number — clearing it to attempt an email-keyed request produced "This field is
+required" — and answering "Yes" to *is this a mobile number* unfolds a consent
+line for a **one-time passcode sent by text**. The code goes to the subject's
+handset and must be typed back into the same page. No amount of CAPTCHA-solving
+reaches that. It is a verification gate of a different kind, invisible to any
+check that looks for CAPTCHAs, and it would have been counted as drivable twice
+over.
+
+I did not answer "No" to the mobile question to dodge the passcode. The form
+carries a penalty-of-perjury attestation, I do not know whether that line is
+mobile, and a false answer would be both a lie and a ready-made reason to void
+the request later.
+
+**Arity asks for a Mobile Ad ID, and it stays blank.** The field is optional.
+The standing instruction forbids sending a MAID or device identifier to any
+company whatever the assurance, and the LinkedIn permission of 2026-09-13
+explicitly did not extend to this category. Arity's business is driving
+behaviour gathered through phone apps, so the MAID is precisely the key that
+would match best — which is what makes leaving it blank a deliberate trade
+rather than an oversight. The request may come back nil because of it. That is
+the accepted cost, and the row should say so rather than record a nil as
+evidence of absence.
+
+One thing in Arity's favour, recorded because the week has been full of the
+opposite: **Pennsylvania is in its list and the form proceeds.** No residency
+refusal.
+
+### §459a — Correcting our own classification: DTN's arithmetic is bot-detection
+
+The scratchpad handoff list carried a section headed "Not CAPTCHAs — never
+queue for a solve", and under it: *DTN: plain arithmetic question ("What is
+20+55?"). Two seconds, not an image grid.*
+
+That reasoning is wrong, and it is mine. The distinction that matters is not
+whether a challenge is hard, or whether it is a picture. An arithmetic question
+placed in front of a form exists to tell a human from a script, which makes it
+bot-detection, and completing it is the thing I am not to do — by the operating
+constraint, and by the subject's own standing rule that a CAPTCHA means stage
+and hand off.
+
+Being easy is not a reason it does not count. If anything the ease is what made
+it tempting, and "it would only take two seconds" is the argument that erodes a
+rule rather than an exception to it.
+
+**DTN belongs on the handoff list, not under a heading saying it does not.**
+Corrected there. The genuinely-not-a-CAPTCHA cases remain what they were:
+invisible reCAPTCHA v3 and Cloudflare Turnstile, which require no challenge
+from anyone and resolve on their own.
+
