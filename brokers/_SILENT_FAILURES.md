@@ -32524,3 +32524,53 @@ If the answer is yes, the row is not a failure; it is a **redirection**, and
 the real targets are the merchants. That is the §458 lesson about data moving
 rather than disappearing, seen from the other end.
 
+---
+
+## §490 — The hash question, put to the two rows it can still help
+
+§489a worked out, at Elevar, the one move that gets round the
+identifier refusal without weakening it. It is worth stating on its own
+because it applies to a whole category:
+
+> The objection to supplying a device identifier is that handing a device
+> graph a stable ID **together with a name and address creates the link the
+> request is trying to break**. If they hold nothing keyed to the subject
+> today, the request does not test for a match — it builds one.
+>
+> **That objection has no force against an identifier they already have.**
+>
+> So: *can you hash one of the email addresses I have already given you, at
+> your end, and hold the hash on a suppression or do-not-ingest list?*
+
+Hashed email is a standard match key in programmatic and device-graph
+businesses, alongside device IDs. A hash **they** compute, of a value
+**already in their possession**, creates no identifier that did not exist —
+and it is in the form their systems actually index on.
+
+It is also framed as a **forward** question rather than a search request. A
+one-time nil says nothing about future ingestion, which is the gap every
+structural nil at §479a leaves open.
+
+**Put to two rows, and deliberately not to the others in the category:**
+
+- **Mobilewalla** — whose entire answer was *"No MAID. No way to help you."*
+  Blunt, correct, and left the forward question unasked.
+- **Place Exchange** — a bare nil on name, email, phone and address, with the
+  MAID already declined and nothing said about suppression.
+
+**Not** Adagio, which was closed on an explicit promise to accept the nil and
+stop — that promise is worth more than this question. **Not** Index Exchange
+or Epieos, both of which gave architectural answers that already explain why
+nothing would match; asking again would be relitigating rather than adding.
+
+Each letter offers three answers that all close the row, including a flat no,
+and both are short — Mobilewalla's especially, because a company that replies
+in eight words is unlikely to read eight hundred. The letter also says plainly
+that their bluntness was better than three paragraphs saying nothing, which is
+true and is also the thing most likely to get a terse company to reply again.
+
+**The general principle is worth keeping even where it fails here:** a refusal
+to supply an identifier is a refusal to *create* something, not a refusal to
+cooperate. Where cooperation costs nothing new, it should be offered — and
+asking the company to do the deriving is the cheapest form of that offer.
+
