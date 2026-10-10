@@ -6,9 +6,8 @@
 
 ## Status
 
-- Current: `confirmed` (updated 2026-09-21)
-- Note: Letter to privacy@zumper.com 2026-09-12. This address came from 447's incidental yield: the directory contact for Zumper routed to a PRESS DESK, and the site published a real privacy address. Told them the published listing is wrong and why it costs them. Asked them to search beyond subscriber accounts -- enquiry and lead data from listing partners, and acquired household/address data, is the part a rental marketplace holds about non-users.
-- 2026-09-21 reply: deletion completed and personal information de-identified or, for search history and self-requested changes, permanently erased outright. They named the narrow CCPA exceptions they retained data under instead -- an active "pro" account's ongoing transactions, security/fraud logs, and debugging logs -- and stated retained data will not be used beyond those purposes. This is a template CCPA-compliant confirmation done right: it distinguishes deletion from de-identification, and states which exception applies to what remains, rather than a bare "your data has been deleted."
+- Current: `confirmed` (updated 2026-10-10)
+- Note: VERIFIED AGAINST THE MAIL (468 audit) -- EARNED, AND BOTH HALVES SEPARATELY CONFIRMED. Zumper sent two distinct confirmations rather than one blended notice: the opt-out on 2026-09-14 ('We have successfully completed your request to opt-out of Zumper, Inc. sale of your personal information') and the deletion on 2026-09-21 ('We have received your request, to delete certain information that Zumper, Inc. has collected about you. The Company has completed that...'). Separating the two is the practice 443 asks for -- a single completion notice covering several asks cannot be checked against any of them.
 
 ## Steps
 

@@ -31409,3 +31409,73 @@ says so. **The evidence cannot be improved without breaking a rule worth
 keeping**, and recording why is better than letting a future reader mistake it
 for proof.
 
+---
+
+## §472 — Shared infrastructure is not a warning sign; what was shared is
+
+§470 found a shared support desk behind four Lifetime Value Co. brands and
+concluded that one template deflection could close several rows wrongly. The
+21 September sweep contains the mirror image.
+
+**Swordfish AI told us, unprompted, that it shares systems with Heartbeat.AI:**
+
+> "This request was received under Swordfish AI, which shares the same
+> underlying systems as Heartbeat.AI, where your request was sent and we
+> responded to earlier this month."
+
+And then gave the answer both rows needed:
+
+> "Your records, including the additional identifiers and the LinkedIn URL you
+> provided, **have been suppressed** and are not disclosed, processed, or made
+> available to any customer. This suppression is designed to help prevent your
+> information from being **reintroduced through future data refreshes or
+> enrichment**."
+
+That is the forward-looking condition this project asks everyone for and almost
+never gets stated. Both rows earned, on one piece of evidence, legitimately.
+
+**So the rule from §470 needs correcting rather than extending.** Shared
+infrastructure is neutral. What matters is whether the shared thing was *an
+answer or a brush-off*. At Lifetime Value Co. one desk sent the same "use the
+online opt-out" template under four brands and four rows closed on nothing. At
+Swordfish one system produced one real suppression and two rows closed on
+something. The signal to look for is not "do these brokers share a backend" but
+"does the same sentence appear in several rows, and is that sentence an
+outcome."
+
+### §472a — The LinkedIn reversal was right, and this is the proof
+
+The first Swordfish letter withheld the profile URL on the reasoning that
+supplying it would hand over a new identifier. The follow-up reversed that and
+explained why: **for a company whose input is public professional profiles, the
+profile is not something they lack.** What they lacked was the link between it
+and a person asking to be excluded — so withholding it protected the record
+from being found rather than protecting the subject.
+
+Their reply confirms the URL was used as a suppression key and the record was
+located. The reversal is vindicated, and the general form is worth stating:
+**withholding an identifier only helps when the identifier is something the
+company does not already have.** Against a business built on resolving that
+exact identifier, withholding it is self-defeating — which is the opposite
+conclusion from the one that holds for MAIDs and cookie IDs, where the
+identifier genuinely is new to them.
+
+### §472b — One question left open, and why it is worth one more email
+
+Swordfish's wording covers the **output** side — not disclosed, not processed,
+not made available. It does not say what the suppression entry does on the
+**input** side: whether the retained identifiers are exclude-only, or also
+usable as a match key against incoming feeds.
+
+The same string does opposite work depending on which it is. As an exclude key
+the URL protects him; as a match key it makes him easier to resolve than before
+he wrote. At a company whose product turns a professional profile into a
+personal mobile number, that is the distinction that matters most. Asked again,
+briefly, with an undertaking to close on "exclude-only".
+
+Also earned from the same sweep, both verified and flags cleared: `zumper`,
+which sent **separate** confirmations for the opt-out and the deletion rather
+than one blended notice, and `site_impact`, whose wording — searched on the
+supplied identifiers, matching records deleted, identifiers retained — is the
+right shape for a suppression. Sixty-seven flags remain.
+

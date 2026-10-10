@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `confirmed` (updated 2026-09-21)
-- Note: 2026-08-30 sent the standard letter, tailored for an ESP (email marketing/messaging platform), to dataprivacy@siteimpact.com, framed as likely email-keyed rather than name-keyed. 2026-09-09 reply, same day the request was read: "Any matching records have been deleted, and your identifiers have been added to our suppression list to prevent re-collection and opt you out of any sale or sharing." Clean, complete, both halves in one sentence -- deletion AND forward suppression, unprompted.
+- Current: `confirmed` (updated 2026-10-10)
+- Note: VERIFIED AGAINST THE MAIL (468 audit) -- EARNED, AND THE WORDING IS BETTER THAN MOST. Site Impact's Data Compliance department, 2026-09-09: 'We searched our records against the identifiers you provided. Any matching records have been deleted, and your identifiers...' -- the sentence continues into what reads as a suppression entry, which is the right shape: search on the supplied identifiers, delete what matched, retain the identifiers to keep him out. They also sent a proper acknowledgement on receipt promising confirmation on completion, and then sent it. Found via the California data broker registry, which is how most of the useful rows in this project were found.
 
 ## Steps
 
