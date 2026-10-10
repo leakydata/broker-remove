@@ -30390,3 +30390,68 @@ it. `set` now takes `--new`, which creates the row and **requires `--note`** —
 a typo will not carry a flag and an explanation. Both guards verified: a
 misspelled id is still refused, and `--new` without a note is refused too.
 
+### §457c — A text read of a page systematically under-counts CAPTCHAs
+
+Adstra, run through the press-Submit test: refilled, Submit clicked, nothing
+happened. Confirmed blocked — a human is genuinely required. Three forms
+tested now, and the scoreboard is SimioCloud through, Brandwatch blocked,
+Adstra blocked.
+
+The useful part is how nearly it was misread. `get_page_text` returns the
+complete Adstra form — every label, every hint, the submit button — **and no
+CAPTCHA**. For a moment that looked like evidence the earlier classification
+had been wrong. An element search finds it instantly: a `Captcha` textbox,
+sitting between Zip and Submit.
+
+It is an image challenge, so the code lives in a picture and nothing about it
+reaches the text layer. **Any audit of these forms done by page text alone will
+under-count CAPTCHAs, silently and in the direction that looks like good news.**
+The text read says "no CAPTCHA here", which is exactly what an unblocked form
+looks like.
+
+That is worth stating because text reads are what I fall back to whenever
+screenshots freeze — which is precisely on the OneTrust pages where image
+CAPTCHAs live. The cheap fix is the one already adopted for another reason:
+press Submit. A form that refuses tells the truth about itself regardless of
+what any read of it showed.
+
+**And a note for whoever solves it.** Entering the code is not the end of the
+Adstra request. The form says two-step email verification is required, so a
+confirmation link follows and must be clicked or the request is void — the
+§443 failure mode, where everything looks done and nothing was submitted.
+
+### §458b — An auto-responder cannot tell a question from a request
+
+`privacy@simiocloud.com` answered the AudienceFirst/RMI follow-up in three
+minutes with a template: the request "was not submitted in the manner required
+by our Product & Services Privacy Policy", followed by instructions to use the
+web form.
+
+The email was not a request. The opt-out had already been filed through that
+exact form and acknowledged; the email asked about its **scope**. The
+auto-responder has no way to tell those apart, so the one published email
+address answers every message, including questions about requests already
+correctly filed, by explaining how to file a request.
+
+This is the designated-method trap in a milder form than §456's. There the
+route could not carry the request at all. Here the route works and the
+*question about* the route is what has nowhere to go.
+
+Two things keep it from being a dead end. The template ends "If you are
+emailing SimioCloud for other purposes, SimioCloud will review your email and
+respond as soon as reasonably possible" — so a human may still see it; this is
+recorded as awaiting a reply, not refused, and will not be re-filed.
+
+And the template gave something away for free, worth quoting to anyone else
+using this playbook: consumers **regardless of their state of residence** may
+opt out at any time and at no cost, and doing so prevents selling, prevents
+targeted advertising, prevents profiling, and **removes** the personal
+information from the database. That is five outcomes promised in one sentence
+to residents of every state — including the ones a Pennsylvania resident is
+refused everywhere else, and it confirms yesterday's reading that the opt-out
+form, not the deletion form, is the right door here.
+
+One small correction to this project's own record while it is in view: the
+playbook described that address as "unverified, may bounce". It does not
+bounce. It answers instantly, just not to the point.
+

@@ -7,9 +7,8 @@
 
 ## Status
 
-- Current: `manual_required` (updated 2026-09-23)
-- Note: 2026-09-23, a THIRD OneTrust portal ticket appeared unprompted — Request ID `A9ZJTHHJ8K`, "Adstra Digital" branding, submitted 09/23/2026 03:38 PM UTC, requiring a "Confirm Email" link click before anything proceeds. This is the same pattern as the earlier `BSLD9MV8Q7` ticket noted below: emailing `privacy.officer@adstradata.com` appears to auto-generate a fresh OneTrust intake each time, rather than threading into the existing request. The confirm-email link is a portal action and cannot be completed from an email-only workflow — needs a human with a browser to click it. Do not send another fresh letter in response; it would likely just spawn a fourth ticket.
-- Prior: Recovered from the committed playbook brokers/a/adstra.md, because the ledger carries no notes and this row's status had no evidence behind it: Statutory opt-out/deletion email sent 2026-08-23, category-tailored.
+- Current: `captcha_blocked` (updated 2026-10-10)
+- Note: PRESS-SUBMIT TEST RUN 2026-10-09 (457a method): CONFIRMED BLOCKED. Refilled the OneTrust deletion webform completely -- [PERSONAL] / [PERSONAL] / [EMAIL] / [PHONE] / United States / [PERSONAL] / [PERSONAL] / Pennsylvania / [PERSONAL] -- then clicked Submit. The page did not change and no confirmation appeared. A human is genuinely required. ONE THING WORTH KNOWING FOR THE NEXT PERSON: the CAPTCHA IS INVISIBLE TO A TEXT READ OF THE PAGE. get_page_text lists every field and shows no CAPTCHA at all, which briefly looked like my earlier classification had been wrong; the element search finds it immediately as a 'Captcha' textbox. It is an image challenge, so the code lives in a picture and the label never reaches the text layer. Anyone auditing these forms by page text alone will systematically under-count CAPTCHAs. AFTER THE CODE IS ENTERED AND SUBMIT PRESSED, THE JOB IS NOT DONE: the form states 'two-step email verification is required', so a confirmation link will arrive at [EMAIL] and must be clicked or the request is void. THE ACCESS FORM IS SEPARATE and still outstanding: privacyportal.onetrust.com/webform/3d2d5e0c-bd98-46b8-906c-ede68a6f6a80/119946d0-d314-4527-849d-72ff366dcc69
 
 ## Steps
 
