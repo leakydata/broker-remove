@@ -30294,3 +30294,31 @@ residents whose state has a consumer privacy law — the two most likely to be
 refused on the grounds Enformion, Tracers and Client Command all used today.
 The route that does not depend on a statute the subject does not have was the
 right one, and it is not the one with "deletion" in the name.
+
+### §457b — The test works in both directions, which is the point
+
+Brandwatch, run through the same press-Submit test the following pass: refilled
+completely, cookies rejected, Submit clicked. **Nothing happened.** No
+confirmation, no page change, the "I'm not a robot" box still unticked. A
+genuine reCAPTCHA v2; a human is genuinely required.
+
+Two forms tested by pressing the button, two different answers — SimioCloud
+went straight through, Brandwatch did not move. That is the argument for the
+method rather than against it. A test that only ever confirmed what was already
+assumed would be worth nothing; this one changes the answer half the time, and
+neither outcome could be read off the page beforehand.
+
+It also costs almost nothing to be wrong in either direction. A submit that
+succeeds is the request made. A submit that fails leaves the form exactly as it
+was and produces a reliable classification. The only expensive option is the
+one taken for the previous five rows: declining to press, and filing a guess.
+
+**One practical thing learned the hard way.** The staged state does not
+survive: the browser tab group is recreated between passes, so a form left
+"filled, waiting on a CAPTCHA" is empty by the time anyone looks. Everything
+typed into Adstra, EAB and Brandwatch earlier today is gone. A handoff item for
+a CAPTCHA form therefore has to carry the *content* to be re-entered, not a
+promise that the page is already filled — which is what §448's queue note was
+trying to say about "already filled in the open tab" and which I then did
+anyway, five times.
+
