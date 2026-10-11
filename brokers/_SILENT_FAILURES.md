@@ -35582,3 +35582,61 @@ They were also offered the historical address set as match keys if they will
 run a real search, and told plainly that *"the responses are automatic and
 nobody looked"* is an answer worth more than an unearned confirmation.
 
+## §536 — The mailbox that cannot receive a second message
+
+JMR's autoresponder refused my challenge **twenty-one seconds** after it was
+sent, with the template that refuses everything:
+
+> "If this message is a consumer privacy request, we do not accept email as a
+> submission method... Submit your request here: jmr-media.com/do-not-sell"
+
+Put beside §535, this completes a shape worth naming. **The nil is
+unchallengeable by construction:**
+
+- The form accepts exactly **five request types**, and *"I think your answer is
+  wrong"* is not one of them.
+- The mailbox **auto-refuses anything that might be a privacy matter**, and it
+  cannot tell a request from a reply about a request.
+- Therefore a consumer handed an automated nil has **no route of any kind** to
+  question it.
+
+Neither half is unreasonable alone. A form keeps requests structured; an
+autoresponder keeps a mailbox from becoming an unmanaged intake channel.
+**Assembled, they make an unverified "we have nothing" final.** I doubt anyone
+designed that; it is what you get when the two are installed separately and
+nobody walks the path of a consumer who disagrees.
+
+### §536a — Two escape hatches, both in their own text
+
+The template argues against itself twice, and both were used:
+
+- It is **conditional**: *"**If** this message is a consumer privacy request."*
+  Mine is not. It concerns answers already given to requests filed through the
+  designated method — and quotes all three request IDs their own system issued.
+- It closes: *"If you have any issues submitting your request, please let us
+  know."* **That is an invitation**, and it is the only door in the building.
+
+Whether that door opens is now a clean test. If a message that explicitly
+invokes the autoresponder's own invitation is auto-refused again, the loop is
+closed and the thread proves it without argument.
+
+### §536b — Swoop did the same thing today
+
+This is not one company's misconfiguration. Hours earlier, the appeal sent to
+`privacyrights@swoop.com` — using the subject line **their** autoresponder
+invites — came back as *"Automatic reply: **Automatic reply:** Consumer
+Request..."*. The autoresponder answered a message that was itself a reply to
+the autoresponder, and pointed once more at the form.
+
+So two companies in one day: **an email channel whose only function is to
+redirect to a form that cannot carry the thing the email was about.** The
+diagnostic, going forward, is not "did they reply" but **"can this address
+receive a second message?"** An address that answers every message identically
+is not a channel; it is a sign.
+
+The ask to JMR was narrowed to a single line in response: *does a suppression
+record exist keyed to my details, and will it apply to future file loads?* And
+failing that — if email truly cannot be used — **what can**: an appeal address,
+a postal address, or a phone number. A determination a consumer cannot contest
+is not a determination.
+
