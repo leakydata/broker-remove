@@ -33858,3 +33858,75 @@ worth quoting back at Alesco eventually:
 downstream company says the mechanism works; the upstream has not yet said
 whether it will use it.
 
+---
+
+## §510 — Three for three: the filed privacy address is a group that rejects the public
+
+Outbrain's registered contact bounced:
+
+> "the group you tried to contact (**ob-privacyquestions**) may not exist, or
+> you may not have permission to post messages to the group."
+
+That makes **three** registered privacy addresses tested this week, and **all
+three** are distribution groups configured to refuse mail from outside the
+organisation:
+
+| | filed address | platform | what it said |
+|---|---|---|---|
+| §486 | `privacy@citydata.ai` | Google Group | rejected outside mail |
+| §503 | `privacy@date-detective.app` | Microsoft 365 | "isn't set up to receive messages from" |
+| **§510** | `privacyquestions@outbrain.com` | Google Group | "may not have permission to post" |
+
+**Three for three is no longer an anecdote.** And the cause is almost certainly
+the same in each case and entirely banal: **rejecting external senders is the
+default** when a group is created, on both platforms. Someone makes a mailbox,
+files it with the state, and never flips the setting — **and the only people
+who would ever discover the problem are, by definition, outside the
+organisation.**
+
+That is a self-concealing failure, which is this file's whole subject. The
+consumer gets a bounce and no next step; the company sees nothing at all,
+because the mail never arrived to be ignored.
+
+**It also damages the register's value in a specific way.** §503a already
+demoted the filing from "most reliable route" to "a lead, not a channel." This
+sharpens it: **the filed address is not merely sometimes stale — it is
+systematically likely to be a group**, because a privacy mailbox is exactly the
+kind of shared address an organisation creates as a group rather than a person.
+**The register's addresses should be assumed group-shaped until proven
+otherwise.**
+
+### §510a — The policy page had the working address, and answered another question
+
+`outbrain.com/legal/privacy` publishes **`ob-privacy@teads.com`** and
+**`ob-dpo@teads.com`**.
+
+So the working route was on the public policy page while the statutory filing
+pointed at a dead group — **the inverse of §491, where the policy page's link
+was circular and the autoresponder carried the working URL.** Taken together:
+**policy page and filing are two independent sources and either can be the
+stale one. Check both.**
+
+And those addresses answer §507b's question **from evidence rather than by
+waiting for a reply.** Outbrain-specific mailboxes hosted on the Teads domain
+mean the privacy function **is** consolidated after the 2025 combination,
+whatever the two separate registrations imply. The letter tells them to treat
+the Teads letter and this one as **one** request — the merger hazard §507b
+warned about, closed from our side rather than theirs.
+
+### §510b — A browser-scoped control is not a suppression
+
+Outbrain's policy says that because "advertiser and publisher partners do not
+have access to Outbrain user profiles, our partners generally refer users to
+the **Outbrain Interest Profile**." That is useful: it confirms the profiles are
+held centrally by Outbrain, and names the tool they consider the consumer's
+route.
+
+But the Interest Profile is a settings page tied to **the browser in front of
+you.** So the letter asks the question that decides whether it counts: **does an
+opt-out there create a persistent record on Outbrain's side, or only a cookie
+on mine?** A browser-scoped control does not survive a cleared browser and does
+not travel between devices — **if that is all it is, it is not an answer to a
+suppression request**, and it is better to establish that now than to believe
+oneself opted out for a year.
+
