@@ -33028,3 +33028,66 @@ unevidenced denial — the same error facing the other way. They are counted as
 evidence, two were wrong, and eight cannot be settled from this side.** That
 ratio is the argument for never adopting a terminal status without its reply.
 
+---
+
+## §498 — The nil that told you how to beat it
+
+Auditing the terminal `not_found` rows, Crunchbase's reply turns out to be the
+most useful nil in the file — because of its second sentence.
+
+> "We have completed our review and were unable to locate any information about
+> you based on the details provided. **If you believe we hold information under
+> a different name, email address, employer, or profile URL, please reply with
+> those details and we will reassess.**"
+
+Most nils stop at the first sentence, and a bare *"no records found"* leaves
+the requester unable to distinguish **a true absence from a missed key**. This
+one names the four fields that would change the answer. That is the difference
+between a dead end and a next step.
+
+**And it matters here, because the nil is probably wrong on keys.** Crunchbase
+is organised around companies, people's roles in them, and profile URLs. A
+search on a personal name and a personal email ran against **the fields least
+likely to hold a record**, while the fields most likely to hold one were never
+searched — because we never sent them.
+
+This is §450's shape exactly: SeekOut refused three times to act without the
+LinkedIn URL, then deleted the record the same day it arrived. **Withholding
+the profile URL manufactured false nils.** The same trap was open here and the
+company politely pointed at it.
+
+Replied with the profile URL — asking for it as a **suppression** key, not a
+search hint, since a continuously re-crawled public profile undoes a deletion
+at the next ingest — and with the historic institutional address, flagged in
+the letter as **a closed mailbox and a search key only, never a reply
+address.** Two further asks: **which fields the second search covered** (a nil
+after a profile-URL search is a far stronger nil than one after a name search),
+and the disclosure before any deletion.
+
+The row moved off `not_found` to `replied` — **not because their answer was
+wrong, but because their own invitation reopened the question.**
+
+### §498a — NumberGuru: the template was the first layer, not the position
+
+The same audit verified `numberguru`, and how it was reached is the lesson.
+Two replies in two days were **the same template** — *"If you would like to
+remove your listing from NumberGuru's..."* — pointing at an online opt-out, in
+answer to a message that was specifically about the cases that opt-out cannot
+handle.
+
+The push-back was one sentence:
+
+> "This is the same template I received on ticket Z6EW1W-WPJ21, sent in answer
+> to a message that was specifically about the cases your online opt-out cannot
+> handle. **I would like a person to read this one.**"
+
+Five weeks later a named human did: *"After searching, we hold no person search
+result (ie person report) corresponding to you."* An explicit nil, **scoped to
+the product** — better than "no records found" because it says what was
+searched.
+
+**So the template was the company's first layer, not its position.** Naming the
+repetition explicitly, with the earlier ticket reference, is what got past it.
+Worth reusing verbatim wherever an autoresponder answers a question it has not
+read.
+
