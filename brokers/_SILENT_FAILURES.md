@@ -34854,3 +34854,61 @@ And the §522c rule that *does* survive, narrowed: **a tool reporting "clicked"
 is not evidence that the intended element was clicked.** That remains true —
 it was simply the wrong diagnosis of why.
 
+---
+
+## §524 — The thoroughness the index demands is what trips its defence
+
+Four of twelve That's Them opt-outs went through cleanly. **On the fifth, the
+Cloudflare Turnstile changed state.**
+
+On submissions one to four it passed by itself and displayed **"Success!"**
+with no interaction. On the fifth it rendered an **interactive checkbox:
+"Verify you are human."** That is a bot challenge requiring a human action, so
+I stopped and did not click it. The form is staged with the fifth address;
+only the checkbox remains.
+
+### §524a — The rate limit is regressive against the people who need the opt-out most
+
+This is not a quirk of one site. It follows directly from the architecture:
+
+- That's Them **indexes by email address** — the email is the key, the name is
+  not;
+- the form accepts **exactly one** email;
+- therefore a complete request **requires twelve submissions.**
+
+**And twelve submissions of the same form from one session is
+indistinguishable from automated abuse.** So the defence fires on the shape of
+a *thorough* request.
+
+The consequence is worth stating plainly: **a consumer with one email address
+is never challenged. A consumer with twelve is.** But the number of addresses a
+person has accumulated is a proxy for how long they have been online and how
+widely their data has spread — so **the people most likely to be in the index,
+and most in need of the opt-out, are exactly the ones the rate limit stops.**
+
+That inverts the usual complaint about CAPTCHAs in this file. §506b objected
+that a visual challenge excludes people who cannot see it. **This excludes
+people who have too much to remove.**
+
+### §524b — What is fair about it, said plainly
+
+Three things count in their favour and should not be elided:
+
+- **The first four went through unchallenged**, so the escalation is adaptive
+  rather than a blanket gate — most consumers will never see it.
+- **Nothing about it is deceptive.** The checkbox says what it is, unlike the
+  invisible check that silently swallowed four clicks (§523).
+- **It is almost certainly reversible** — a pause or a fresh session will very
+  likely return it to auto-passing, so the remaining eight are a handoff rather
+  than a dead end.
+
+A rate limit on a public form is a reasonable thing for a company to have. The
+criticism is narrower and more interesting than "CAPTCHAs are bad": **the limit
+is calibrated to the number of submissions, when what it should be calibrated
+to is the number of *people* being submitted.** Twelve requests about one
+person are not twelve requests.
+
+**The fix that would cost them nothing:** accept more than one email per
+submission. One form with twelve boxes is one request, trips no limit, and
+produces exactly the same work for them.
+
