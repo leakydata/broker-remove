@@ -32888,3 +32888,74 @@ an error that reads like their own mistake. There is nothing to drive now; the
 next action is the reply, and a chase on the same thread if it does not come —
 **not a new request, which would mint a third ID and a third workflow.**
 
+---
+
+## §496 — Silence read as withdrawal, behind a CAPTCHA, on a row marked done
+
+Two of §494a's four unattributable request IDs are **Ziff Davis**. The sender is
+the generic `noreply@m.onetrust.com`; the brand appears only in the logo URL
+and a hidden footer line, *"This email was sent from Ziff Davis"*. **That is
+why they sat unattributed — the notification does not name the company that
+sent it.**
+
+The two comments were posted **two seconds apart** (15:35:59 and 15:36:01 on
+28 September), so this is one company handling two requests for one person —
+the same one-letter-two-workflows shape as RRD in §495b.
+
+**And their email contains the sharpest term seen yet:**
+
+> "we will retain your open request for **7 calendar days**. If we have not
+> received a response regarding this request within that time frame, **we will
+> assume that you do not want to continue** with this request and consider this
+> to be closed."
+
+So **silence is construed as withdrawal.** Set beside the other three:
+
+| | expiry stated | what silence means |
+|---|---|---|
+| Juicebox (§493) | 15 days | link dies; request survives |
+| Ketch (§494) | contradictory | request expires |
+| RRD (§495) | none | link dies silently |
+| **Ziff Davis** | **7 days** | **request deemed abandoned** |
+
+The window for `2XLJP7244F` ran out around 5–6 October. It may already be
+closed as abandoned — by a silence that was never a decision.
+
+### §496a — The cost of an unearned `confirmed`, made concrete
+
+`ziff_davis` read **`confirmed`**, adopted from the shared ledger on
+18 September with the standard warning that no detail came across.
+
+**The comments are dated ten days later.** A company still asking for something
+is not a company that has finished.
+
+§465 argued that an unearned terminal status is a claim the project cannot
+support. This is the bill arriving: because the row said `confirmed`, **nobody
+was watching this inbox**, and a seven-day clock ran out unobserved. The status
+did not merely overstate the outcome — **it switched off the attention that
+would have caught the follow-up.** That is the real harm in a wrong terminal
+status, and it is worse than inaccuracy.
+
+Regressed to `captcha_blocked`. The tracker **refused the first attempt**,
+requiring `--regressed` to move a row backwards out of a terminal state — a
+guard that worked exactly as intended and is worth keeping.
+
+### §496b — Twelve days alive, twenty-two days dead
+
+The Ziff Davis portal link **still works** at twelve days, where RRD's was dead
+at twenty-two (§495). So these OneTrust `privacyaccess` links are not
+immediately disposable; somewhere between twelve and twenty-two days they stop.
+**Which means §495's two comments were probably recoverable for a while, and
+the loss was in the delay, not the design.** Worth knowing: a two-week-old
+portal notification is still worth opening, a three-week-old one probably is
+not.
+
+Behind the link: an access-code request gated by an **image CAPTCHA** —
+*"Retype the characters from the picture."* Email filled with the
+correspondence address; **Send deliberately not pressed.** The emailed code is
+typically good for about fifteen minutes (§418), so triggering it now would
+only guarantee it had rotted before anyone could use it. Queued with the whole
+sequence written out, including what to ask about Everyday Health, whose row is
+marked as covered by the Ziff Davis group letter rather than written to
+separately.
+
