@@ -34742,3 +34742,65 @@ Nothing, for now, and deliberately. The honest options are:
 **Option 3 is correct and it is not mine to decide.** Recorded here; the
 decision belongs in the queue rather than in a letter.
 
+---
+
+## §522 — The opt-out field that is both the key and the reply address
+
+That's Them's opt-out form is drivable — **two of twelve submissions made,
+both confirmed**: *"Request Submitted! We've received your opt-out request.
+You'll receive a confirmation email within 72 hours."*
+
+**No reference number is issued.** The only record of a submission is the date
+and the email used, which matters because there is nothing to quote in a chase.
+
+### §522a — Twelve submissions, because the index is keyed to email
+
+That's Them is one of the few people-search services that **indexes by email
+address**, so the email is the key and the name is not. The form takes exactly
+one. Hence twelve passes, oldest first — and the dormant addresses matter most,
+because **an email-keyed index finds you under precisely the addresses you
+stopped using** (§516).
+
+### §522b — But the same field is the reply address
+
+The single Email box is doing double duty: it is **the search key** and it is
+**where the confirmation is sent.**
+
+For an email-indexed service that is coherent — you prove control of the
+address you are removing. **But it means eight of the twelve submissions are
+unconfirmable by construction.** Those mailboxes do not exist; the confirmation
+goes nowhere.
+
+So the eight dormant keys can be *acted on* but never *verified*, and they must
+be recorded as **submitted-unconfirmable** rather than left looking like
+pending replies. **That is §517b's HealthLink problem arriving by a different
+route**: HealthLink requires mail to come *from* the address; That's Them sends
+confirmation *to* it. Opposite mechanisms, identical effect — **a verification
+tied to mailbox control structurally excludes every historical identifier**,
+and historical identifiers are where the old records live.
+
+Submitting the live address as well is the only way to get one observable
+confirmation out of the exercise, which is why it went second rather than last.
+
+### §522c — Two mechanical traps, four wasted clicks
+
+**A Cloudflare Turnstile sits between Phone and Submit.** It passes by itself
+in a few seconds, but **until it reads "Success!" the Submit button does
+nothing at all** — no error, no movement, no validation message. Identical to
+MoneyBot5000 (§519), and identical in appearance to a broken form (§484).
+
+**And a second trap that is new:** after a page reload, **clicking Submit by
+element reference silently fails**, while clicking the same button by
+coordinate works. The `ref` handle goes stale without raising an error — the
+tool reports a successful click on an element that is no longer the live one.
+
+That one is worth generalising beyond this site: **a tool reporting "clicked"
+is not evidence that anything was clicked.** On a form that re-renders, verify
+by the page's response, never by the click's return value — which is the §457
+rule (the inbox is the authority, not the page) applied one layer lower down,
+to the browser tool itself.
+
+The reliable loop is therefore: **load, fill, look at the Turnstile, then click
+by coordinate.** Written into the queue entry so the remaining ten are
+mechanical rather than exploratory.
+
