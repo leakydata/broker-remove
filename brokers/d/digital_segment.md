@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `confirmed` (updated 2026-09-12)
-- Note: Adopted from the shared ledger: another agent recorded 'confirmed' on 2026-09-04. No detail is carried across — re-read the broker's own reply before relying on this.
+- Current: `not_found` (updated 2026-10-11)
+- Note: CORRECTING THE STATUS: THIS WAS NEVER A CONFIRMED DELETION, IT IS A NIL PLUS A SUPPRESSION, and the distinction is the whole point of this project. The row read confirmed, adopted from the shared ledger with no detail. Their actual words, 2026-09-03 from [named individual]@digitalsegment.com: 'WE ACTUALLY DID NOT FIND YOUR INFORMATION IN OUR DATABASES but the same contact information that you provided HAS BEEN ADDED TO OUR SUPPRESSION LIST. This also includes VERSIONS OF HASHED DATA that...' So nothing was deleted because nothing was held. Recording as not_found, which is the honest terminal state, rather than confirmed, which claims a removal that did not happen. THE PART THAT IS BETTER THAN ALMOST ANYTHING RECEIVED: they volunteered that the suppression covers HASHED VERSIONS of the identifiers, unprompted. That is the hash question of 489a answered before it was asked -- and 489a had to argue for it at Mobilewalla and Place Exchange, where the whole difficulty is that a company keyed to hashed identifiers cannot match a plaintext name-and-email search. Digital Segment simply offered it. Also worth noting their earlier 2026-09-01 holding reply contained a clause the project praised at the time, 'any data we have that we can identify about you', which is the honest hedge a nil-plus-suppression answer needs.
 
 ## Steps
 

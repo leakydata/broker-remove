@@ -32959,3 +32959,72 @@ sequence written out, including what to ask about Everyday Health, whose row is
 marked as covered by the Ziff Davis group letter rather than written to
 separately.
 
+---
+
+## §497 — Thirteen confirmations audited: two earned, two wrong, one unread, eight unknowable
+
+§496a showed what an unearned `confirmed` costs — it switches off the attention
+that would catch the follow-up. So: the remaining adopted statuses.
+
+**128 rows still carry the bare ledger note.** Of those, **36 are terminal**,
+and **13 read `confirmed`** — the strongest claim the project makes. Every one
+of them has an empty `via` field, so even the channel was unrecorded.
+
+Checked against the mail, the thirteen fall into four groups.
+
+**Earned (2).** `crustdata` — and note the two-step. Their first reply,
+24 September, was just *"Your opt-out request has been processed"*: the bare
+confirmation this file keeps refusing to accept. A follow-up asked whether a
+record was found or whether there was nothing to find, and on 28 September:
+*"Yes, we found and deleted the record matching your identifiers... going
+forward your profile will not be served."* **A match, a deletion, and a
+forward-looking undertaking — but only because somebody asked a second time.**
+They did decline the access half outright.
+
+`upcell` — *"we have searched our database and removed any data associated with
+the identifiers you have provided."* Clean.
+
+**Wrong (2).** `digital_segment` was not a deletion at all:
+
+> "**We actually did not find your information in our databases** but the same
+> contact information that you provided **has been added to our suppression
+> list.** This also includes **versions of hashed data**..."
+
+A nil plus a suppression, recorded as `confirmed`. Now `not_found`, which is
+the honest terminal state. **And the hashed clause is remarkable: §489a had to
+argue for exactly this at Mobilewalla and Place Exchange — suppress against a
+hash of an identifier you already hold. Digital Segment volunteered it,
+unprompted.** The one company that offered the hard thing freely is the one
+whose row claimed the wrong outcome.
+
+`freephonetracer` had **no reply at all** — only our own letter of 18 August to
+`privacy@beenverified.com`, since it is a BeenVerified property. `confirmed`
+was not unverified, it was contradicted by silence. Now `submitted`. The
+`beenverified` row was regressed in the §468 audit for the same reason, so
+that family has two rows resting on nothing.
+
+**Unread (1).** `hireez` has a reply — 17 September, and **roughly 300 KB, by
+far the largest in the project**, which usually means enclosed tables rather
+than prose. What is visible is a *disclosure*, not a confirmation: *"We collect
+the following information from third parties:"* and then it runs on. **Left at
+`confirmed` and flagged rather than regressed** — unlike freephonetracer there
+is a substantive answer here, and regressing on an unread reply would be as
+unevidenced as the adoption. Queued for a careful read, because a named
+third-party source list from a sourcing tool is worth more than the deletion:
+it names the upstream companies to write to next.
+
+**Unknowable (8).** `411_com`, `courtrec_com`, `dataline`, `dealfront`,
+`getemail_io`, `peoplesmart`, `publicrecords_info`, `tie` — no mail in either
+direction.
+
+**These were annotated, not regressed, and the reasoning matters: absence of
+mail is not proof of absence of action.** A web form with an on-page
+confirmation leaves no trace in Gmail, and `via` is empty, so the channel is
+unknown. Regressing on that basis would swap an unevidenced confirmation for an
+unevidenced denial — the same error facing the other way. They are counted as
+**unverified** in any tally, never as confirmed.
+
+**The honest headline: of thirteen confirmations, two survive contact with the
+evidence, two were wrong, and eight cannot be settled from this side.** That
+ratio is the argument for never adopting a terminal status without its reply.
+

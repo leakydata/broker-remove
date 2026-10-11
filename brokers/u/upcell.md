@@ -7,9 +7,8 @@
 
 ## Status
 
-- Current: `confirmed` (updated 2026-09-22)
-- Reference: `gmail:1a057595473e6459`
-- Note: 9/21 reply from privacy@upcell.io: "we have searched our database and removed any data associated with the identifiers you have provided. Additionally, we have gone ahead and suppressed against any future ingestion for the given identifiers to prevent records from being re-added." Dated the completion (9/21) and invited follow-up questions. This is a clean confirmation: it states an affirmative removal AND a forward-looking suppression, unprompted, without being asked to distinguish the two. No further action needed.
+- Current: `confirmed` (updated 2026-10-11)
+- Note: VERIFIED AGAINST THE MAIL -- EARNED. 2026-09-21 from privacy@upcell.io, replying to the 2026-08-31 letter: 'Thank you for your request dated 8/31/2026. In accordance with applicable privacy law, WE HAVE SEARCHED OUR DATABASE AND REMOVED ANY DATA ASSOCIATED WITH THE IDENTIFIERS YOU HAVE [provided]'. A search and a removal keyed to the identifiers supplied, which is what the letter asked for. Confirmed now rests on their own words rather than on an adopted ledger line. Worth noting the original letter opened by conceding ignorance -- 'I know you are a registered data broker in California, and I know essentially nothing else about what you hold, because a registration entry does not describe a business' -- and still got a clean substantive answer in three weeks.
 
 ## Steps
 
