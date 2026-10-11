@@ -33446,3 +33446,67 @@ the lot to whoever does read that mailbox.
 you would not want read by a stranger.** Cheap, obvious in hindsight, and I
 sent two full letters before thinking of it.
 
+---
+
+## §504 — Forty-one rows had a filed email nobody had used
+
+§503a demoted the register from "most reliable route" to "a lead, not a
+channel." That is the right status — and it is still the most valuable
+unexploited thing in the repo.
+
+Cross-referencing `data/register_profiles.json` against unresolved rows:
+**41 rows that are `pending`, `manual_required`, `unreachable` or
+`captcha_blocked` have a filed email address that their own note never
+mentions.** Among them:
+
+    appily / eab / cappex_com   captcha_blocked   legal@eab.com
+    brandwatch                  captcha_blocked   DPO@cision.com
+    peoplefinders               captcha_blocked   customercare@peoplefinders.com
+    nextroll, lob_com,
+    message_digital, visitiq    captcha_blocked   (each has one)
+    outbrain                    unreachable       privacyquestions@outbrain.com
+    teads                       unreachable       legal@teads.com
+    infutordata                 manual_required   vmsprivacy@verisk.com
+
+**The `captcha_blocked` ones are the finding that matters**, because those rows
+are on the subject's own manual to-do list. **A CAPTCHA-gated form is not a
+CAPTCHA-gated company if the registration names a mailbox.** Nine of them do.
+
+Two letters sent this pass, both clearing items off that list:
+
+**EAB / Appily / Cappex — one letter, three rows.** The same address is filed
+for all three, so one letter covers them, asking EAB to say if any is a
+separate controller rather than answering for a business that is not theirs.
+Tailored on two points: the **student-recruitment provenance** (these are
+college-search products fed by test registrations, scholarship searches and
+high-school lists — so the closed `psu.edu` mailbox is by far the likeliest
+match key, and the letter asks specifically whether the match came from it),
+and whether **any part of the record was created while he was a minor** —
+anything originating before January 1997 was — put as a question about their
+own policy categories rather than as a legal claim.
+
+**Brandwatch / Cision — `DPO@cision.com`.** Three asks, because a generic
+deletion request fits them badly: that **the key is probably a profile URL, not
+an email address**, since social listening indexes public posts; that **the
+media-contact database is a different product on a different basis**, so is he
+in it, what was he *classified* as, and where did the classification come from
+— with any influencer tag deleted as **an inference about him**, not merely
+detached from his name; and controller-versus-processor for data living inside
+a client's saved query.
+
+### §504a — Copy a second address, because a bounce names only one recipient
+
+§503b's follow-ups both bounced — **but each bounce named only one of the two
+recipients.** `privacy@agrgroupinc.com` was blocked and the cc'd
+`info@agrgroupinc.com` was not; `hello@date-detective.app` was blocked and the
+To: `support@date-detective.app` was not.
+
+**Absence of a bounce is not proof of delivery** — mail can be accepted and
+silently dropped. But it is meaningfully different from both failing, and it
+costs nothing: **when guessing at an address, send to two plausible ones at
+once.** One bounce does not condemn the other, and the bounce text names
+exactly which failed, so a single attempt tests two hypotheses.
+
+Combined with §503b: **guess widely, but keep the identifier set out of it
+until a channel has answered.**
+
