@@ -35198,3 +35198,65 @@ Swoop a question**, because the primary address answers everything with a
 template and the form has no free-text field. That is a fixable problem and
 they may not know they have it.
 
+---
+
+## §530 — Both published addresses can be dead at the same company
+
+§510 found that Outbrain's **filed** privacy contact was a Google Group
+rejecting outside mail, and recommended cross-checking the statutory filing
+against the live policy page, since the policy page had the working address.
+
+**The policy page's other address is broken too.** The Outbrain letter went To:
+`ob-privacy@teads.com` and Cc: `ob-dpo@teads.com`. The Cc bounced:
+
+> "the group you tried to contact (**ob-dpo**) may not exist, or you may not
+> have permission to post messages to the group."
+
+So of three Outbrain privacy addresses now tested, **two are groups that reject
+the public** — one from the California register, one from their own published
+privacy notice. Only `ob-privacy@teads.com` accepted.
+
+**That is the fourth Google-Group rejection this week** — CityData (§486), Date
+Detective (§503), Outbrain's filed contact (§510), and now a DPO address
+published on a live policy page.
+
+**And it sharpens §510a uncomfortably.** That section advised treating the
+policy page and the filing as two independent sources, either of which may be
+stale. True, but insufficient: **both can be dead at once, at the same company,
+on the same day.** There is no authoritative published address — only addresses
+that happen to work, discoverable by trying them.
+
+### §530a — Which is the whole case for §504a
+
+§504a's tactic was almost an afterthought: *when guessing at an address, send to
+two plausible ones at once, because a bounce names only one recipient.*
+
+**Here it is the only reason the letter arrived.** Had it gone to `ob-dpo`
+alone, it would have bounced and the row would have recorded another unreachable
+company — when in fact Outbrain's privacy function was perfectly reachable one
+address over.
+
+So the tactic is upgraded from convenience to method: **never send a privacy
+letter to a single address when a second plausible one exists.** The cost is
+zero, the bounce names precisely which failed, and at a company with multiple
+published contacts the probability that any given one is a misconfigured group
+is now measurably high.
+
+### §530b — Spokeo routed the letter to the team its filing promised
+
+The §508 letter to `legal@spokeo.com` — the filed address, never used before —
+came back as **"Inquiry Received ... (ID #6649339)"** from Spokeo Customer Care,
+copying legal@.
+
+That matters because their registration says: *"Consumers may also submit their
+opt-out request by contacting Spokeo Customer Care... Customer Care agents will
+gladly assist consumers with completing an opt out request for **all** of
+Spokeo's public websites."*
+
+**The letter has been handed to exactly that team.** The first half of the
+filing's promise is kept; whether the second half holds — *all* the properties,
+including the Thatsthem the self-service tool excludes — is what the
+substantive reply will show. **Ticket #6649339 is the handle for everything
+that follows**, and a third working address is now on record:
+`customercare@spokeo.com`.
+
