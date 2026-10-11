@@ -35136,3 +35136,65 @@ television, something in that chain resolved de-identified health signals to a
 deliverable address.** The question is where, and who does it. The
 de-identification claim covers their database; it does not cover the outcome.
 
+---
+
+## §529 — The route past the autoresponder is inside the autoresponder, and it is a subject line
+
+§528's chase to Swoop came back headed **"Automatic reply: Automatic reply:"**
+— the doubled prefix meaning my message was itself a reply to their
+autoresponder, and the same template fired again.
+
+That is §161a's test run by accident: **two different messages — a four-question
+letter and a specific architectural query — returned byte-identical text.**
+Nobody reads `privacyrights@swoop.com` in the ordinary course.
+
+**But the template carries its own escape hatch:**
+
+> "If you received an adverse determination regarding verification and would
+> like more information concerning our decision, **or if you have questions or
+> concerns that were not addressed by our team**, please email them to
+> privacyrights@swoop.com, **with the subject line "APPEAL OF PRIVACY
+> DETERMINATION."**"
+
+**So the same address reaches a human — if and only if the subject line is
+right.**
+
+### §529a — A new shape: the route is a string, not an address or a URL
+
+§491 found a deflection carrying a working URL the policy page had lost. This
+is sharper, and worth filing as its own category:
+
+**the working route is not a different address or a different page. It is a
+particular value in the subject field of the address that just refused you.**
+
+Everything else about the channel is identical. The same mailbox, the same
+recipient, the same message body — and a different header value decides whether
+a person ever sees it. **Nothing outside the autoresponder reveals this.** A
+consumer who reads the privacy page, uses the form, and never happens to email
+would never learn the route exists; and a consumer who emails once and gives up
+at the template would conclude the company cannot be reached.
+
+The resend quotes their invitation in its first line, because the condition
+they state — *"questions or concerns that were not addressed by our team"* —
+describes this case exactly, and using the appeal channel for its stated
+purpose should not look like gaming it.
+
+### §529b — Which closes the trap §528 described, or proves it closed
+
+§528 left Swoop in a bind: the form is the only route, the form transmits
+identifiers to unnamed third parties, and the question "who are they?" had
+nowhere to go.
+
+**The appeal subject line is the one channel that could answer it.** If it
+produces a human, the bind opens. If it too returns the template, then the
+position is final and worth stating plainly: **a company whose only remedy
+requires an unevaluable disclosure, and whose only channel for evaluating it is
+a bot, has no usable privacy route at all** — regardless of how honest its
+disclosure page is.
+
+The letter therefore asks one thing beyond the substance: that whoever reviews
+the appeal queue note that **the appeal route is currently the only way to ask
+Swoop a question**, because the primary address answers everything with a
+template and the form has no free-text field. That is a fixable problem and
+they may not know they have it.
+
