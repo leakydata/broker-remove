@@ -34523,3 +34523,87 @@ queue entries. **§517a then disobeyed it one paragraph later** — inferring a
 property of 21 rows from the shape of a field rather than reading them. Reading
 five took one tool call and reversed the conclusion.
 
+---
+
+## §519 — A demonstrated nil, and a hundred strangers with an opt-out button each
+
+§518a argued the demonstrated nil is the strongest evidence available. Here is
+one, taken deliberately.
+
+MoneyBot5000's opt-out record search, driven on the name plus Pennsylvania.
+**Their own banner at the top of the results:**
+
+> "No exact match for [the subject's name]"
+
+About a hundred namesake records came back and **none is the subject** — none
+carries his birth month, his middle name, or his three-region address history
+together. The absence was **observed in a public index**, so §447's
+unfalsifiability problem does not arise: there is no possibility of a broken
+query silently returning zero, because the query visibly returned a hundred
+rows.
+
+**A driving note worth more than the result.** The page sits behind a
+Cloudflare interstitial that clears itself in about six seconds — and then a
+**Turnstile widget must reach "Success!" before the Search button does
+anything at all.** My first click fired too early and produced nothing: no
+error, no movement, no validation message. That is §484's shape exactly, and
+this time the cause is identified rather than guessed, because a screenshot
+showed the widget mid-flight. **A click sent before an invisible bot check
+resolves is indistinguishable from a broken form.**
+
+### §519a — The third-party line, drawn where it is actually tested
+
+Every one of those hundred rows carries a **"Proceed to Opt Out"** button, and
+each one belongs to a different person. §400 and §474 state the principle —
+never suppress a namesake — but they state it in letters, as a restraint
+offered to companies. **Here it is a live button under the cursor.**
+
+Several results share towns with the subject: one in his current town, one in a
+town he lived in, one whose location pair matches an address he held. **A
+plausible-looking match is not a match**, and the only honest response to a
+hundred strangers is to click none of them.
+
+One record is genuinely ambiguous — a bare entry with a town he lived in, **no
+age, no date of birth, no relatives.** Nothing displayed can resolve it. The
+earlier agent declined to guess which records were his and was right; I have
+declined the same guess and handed it back, because **he will know in one
+second what I cannot determine at all.** The queue entry now asks that single
+question instead of asking him to go and search.
+
+### §519b — A one-record cap that the same FAQ admits is insufficient
+
+Their FAQ:
+
+> "we only permit you to remove **one record** from our People Search Results
+> through our online Do Not Sell My Info/Opt-Out process."
+
+And, three paragraphs earlier, that a new record they cannot match to an
+existing one **creates a separate entry** — so multiple records about one
+person are a normal outcome of their own ingest.
+
+**So the designated self-service route is structurally incapable of clearing
+anyone it has duplicated**, and the company says both halves itself. The
+overflow route is an email address, which means the automated process is a
+partial remedy presented as a complete one. A consumer who uses it and stops
+has removed one record and left the others.
+
+They also disclose, in the §508 shape, that the People Search opt-out **does
+not cover their other search services**, and Property Search has its own
+separate flow.
+
+### §519c — The route neither of us had considered
+
+Their FAQ carries a **Daniel's Law / Covered Persons** channel, defined as
+judges, prosecutors, law enforcement, and immediate family in the same
+household.
+
+**One of the subject's twelve email addresses is built around the words
+"PA constable".** A Pennsylvania constable may fall inside that definition — and if so it is a stronger and
+broader route than the consumer opt-out, it bypasses the one-record cap, and
+it would apply at every people-search site rather than this one.
+
+**I have asserted nothing.** Whether he is or was a constable is a fact about
+him, not about the data, and it is not mine to claim on his behalf — stating it
+wrongly to a company would be worse than not asking. It is flagged as a
+decision with the definition quoted, so he can answer it in a word.
+
