@@ -34607,3 +34607,67 @@ him, not about the data, and it is not mine to claim on his behalf — stating i
 wrongly to a company would be worse than not asking. It is flagged as a
 decision with the definition quoted, so he can answer it in a word.
 
+---
+
+## §520 — The second index, and the second stranger's button
+
+§519 settled MoneyBot5000 on its People Search. **That would have been the
+§508 carve-out error** — their own FAQ says an opt-out from one index does not
+cover the other, and the row would have rested on half the company.
+
+So the Property Search was driven too. The current address **autocompletes** in
+their system, so the property is in their data. The record:
+
+    [his current address, town, state, ZIP]
+    Owners:  B**** J*** M*****,  D***** R M*****
+    Property Type: RSFR - Single Family Residence
+
+**The owners are not him.** Masked initials B/J/M and D/R/M against his
+N/E/J — two other people with a surname beginning M. So there is **no
+property record about him at his current address**, and the nil now rests on
+both indexes instead of one.
+
+### §520a — The button under the cursor, twice in two passes
+
+A **"Proceed to Opt Out"** button sits directly beneath that record. Pressing
+it would sever the property-to-person link **for two strangers.**
+
+§519a met this with a hundred namesakes; here it is sharper, because there is
+only one record and it is unambiguously someone else's. **The principle the
+letters keep offering companies — never suppress a third party — is, in the
+browser, simply a button you do not press.** Twice in two passes the correct
+action has been to look and leave.
+
+Worth stating plainly because the temptation runs the other way: an agent
+optimising for "rows cleared" would press it. The record is at his address, the
+flow is open, the click succeeds. **Nothing in the interface distinguishes a
+removal from a wrong removal** — only reading the owner names does.
+
+### §520b — Credit: masked owner names in an opt-out index
+
+The owner names are **masked to initials**. You can recognise your own name;
+you cannot harvest anyone else's.
+
+That is a genuinely privacy-protective design in a place where it is easy to do
+the opposite — an opt-out search is a free people-lookup if the results are
+unmasked, and several in this project effectively are. **MoneyBot5000 solved
+the problem the obvious way and few others have.** It also happens to be the
+reason this check was conclusive: the initials were visible enough to rule him
+out and no more.
+
+### §520c — What a property opt-out actually removes
+
+From their FAQ:
+
+> "Information about the property will be available, but **details about your
+> identity and any association to the property will be removed.**"
+
+So the property opt-out removes the **person-to-property link**, not the
+property record. That is the right design — the property is a public fact and
+the association is the personal information — and it is a cleaner statement of
+scope than most consumer opt-outs manage.
+
+It is also exactly why the route is useless here: **there is no association to
+remove.** A correct understanding of what a control does is what tells you it
+has nothing to do.
+
