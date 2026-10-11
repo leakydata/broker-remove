@@ -35067,3 +35067,72 @@ project keeps running into in prose — **that a Pennsylvania resident is asking
 most companies for a favour rather than exercising a right**, and that the
 request succeeds on policy grounds or not at all.
 
+---
+
+## §528 — The opt-out whose mechanism is a disclosure to unnamed third parties
+
+Swoop's Your Privacy Choices page, verbatim:
+
+> "because we only maintain information about consumers in a **de-identified
+> format**, we are **unable to locate, identify and remove any individual**
+> from our database. By submitting your request to opt-out using the form
+> below, **your information will be securely transmitted to our third-party
+> onboarders**, who may have the information necessary to remove you from
+> their dataset."
+
+**The first half is admirable and should be said first.** A company that cannot
+identify an individual and *says so* — rather than issuing a confirmation
+implying a removal it did not perform — is doing something this project meets
+rarely. §447's whole complaint is that a nil is unfalsifiable; a company
+volunteering *"we cannot do this"* is the honest version of that, and worth
+more than a tidy "your request has been processed."
+
+**But the two halves together make the form a trap.** To opt out of a company
+that holds nothing identifiable about you, **you must hand your identifiers to
+third parties they do not name.**
+
+No onboarder is named anywhere on the page, and the form itself sits in a
+cross-origin frame invisible to the accessibility tree — so there is no way to
+discover the recipients before submitting. **The form was therefore not
+submitted**, and that is a deliberate decision rather than a blocked one.
+
+This is §502b's hazard with the roles reversed, and worse. There, writing to a
+sold domain risked disclosing to a stranger **by accident**. Here the
+disclosure **is the mechanism**: the feature works by transmitting your data
+onward, and declining to transmit is declining the remedy.
+
+### §528a — The question that decides it
+
+Four questions went back on the existing thread. One matters more than the
+others:
+
+**If an onboarder does not currently hold him, does receiving his details from
+Swoop's form cause them to create a record?**
+
+Because if it does, **the opt-out manufactures the very association it is meant
+to remove** — a suppression entry containing identifiers that were not
+previously linked at that company. That is the §400 suppression-record problem
+arriving through a side door: the entry created to protect you is itself the
+most complete record of you, and here it would be created at a company that had
+none.
+
+The decision rule is now written into the queue so it does not have to be
+re-derived: **name the onboarders and the list is already known to us → submit;
+name them and the transmission creates records → write to them directly
+instead; refuse to name them → do not submit.** An unnamed recipient is not a
+recipient anyone can consent to.
+
+### §528b — And the older question still stands
+
+The 30 August letter is six weeks unanswered, and its core question is the
+sharpest in this file. Their statement: de-identified health data is *"no
+longer protected health information (PHI) under HIPAA, nor personal information
+subject to this privacy statement."* Their marketing: **Rare Disease Predictive
+Audiences**, and patented **Predictive Non-Adherence Audiences** — modelling
+which patients are not taking their medication.
+
+**If an advertisement for a rare-disease therapy reaches one household's
+television, something in that chain resolved de-identified health signals to a
+deliverable address.** The question is where, and who does it. The
+de-identification claim covers their database; it does not cover the outcome.
+
