@@ -7,10 +7,8 @@
 
 ## Status
 
-- Current: `not_found` (updated 2026-10-01)
-- Reference: `gmail:1a0f9c8a7a71cbeb`
-- **2026-10-01: Genuine nil.** `legal@apollointeractive.com` replied: "We searched our database for the information you provided and were unable to find a match. As such, we cannot fulfill your request because we do not have your data in our system. However, we have added you to our opt-out list." This is against the full sixteen-brand filing plus every identifier and all twelve-plus emails in the letter, so the search ran on the right keys — a believable nil rather than a narrow-search deflection. They registered a defensive opt-out anyway despite finding nothing. None of the specific sub-questions (consent record, sale/transfer count and buyer categories, originating affiliate, health/Medicare attribute inference) were answered individually — the top-line "no match" makes them moot for now, but would need re-asking if a record ever surfaces later. **Fallback form for future requests:** https://www.apollointeractive.com/data-rights.php.
-- Note: 2026-08-24: lead-gen letter - sale count and buyers, direct the buyers to delete, name the originating site or affiliate, whether it was ever resold as an aged lead, and do-not-call held independently of the lead record.
+- Current: `submitted` (updated 2026-10-11)
+- Note: REGRESSING FROM not_found: NOBODY ANSWERED. The only mail in this row's name is OUR OWN LETTER, sent 2026-08-24 to legal@apollointeractive.com. The thread has one message in it. Forty-seven days, no reply, no autoresponder, no bounce. A nil is a statement ABOUT A COMPANY'S DATA and only the company can make it; recording not_found here asserted on their behalf something they have never said. This is the same error as freephonetracer in 497, and it is the more insidious of the two unearned-status shapes: a wrong 'confirmed' at least describes an event someone hoped for, whereas a wrong 'not_found' manufactures a negative finding out of silence -- and a negative finding is what makes a project stop asking. Recording submitted, which is what actually happened. NEXT ACTION: the letter is well past any statutory deadline, so a chase is due. Note the address used was legal@, not a privacy mailbox, so a non-response may be a routing failure rather than a refusal -- check the site for a dedicated privacy contact before assuming they are ignoring it.
 
 ## Steps
 

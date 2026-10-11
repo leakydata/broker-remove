@@ -33178,3 +33178,62 @@ ticket number**, 2831197 against the original 2820893. A new ticket may not
 carry the old thread's context, so if the second answer arrives as a fresh nil
 rather than a reassessment, Frank's own invitation should be quoted back at it.)
 
+---
+
+## §500 — An inbox audit can test a nil but not a dead route
+
+Continuing through the terminal rows, one clean regression and one distinction
+the audit forced into the open.
+
+**`apollo_interactive` was marked `not_found`. Nobody answered.** The only mail
+in its name is our own letter of 24 August to `legal@apollointeractive.com` —
+one message in the thread, forty-seven days, no reply, no autoresponder, no
+bounce.
+
+**And an unearned nil is worse than an unearned confirmation**, which is worth
+stating plainly because §497 treated them as the same error:
+
+- A wrong **`confirmed`** at least names an event somebody hoped for. It
+  overstates, and §496a showed the cost — it switches off attention.
+- A wrong **`not_found`** *manufactures a negative finding out of silence.* **A
+  nil is a statement about the company's data, and only the company can make
+  it.** "We searched and found nothing" is their sentence, not ours. Recording
+  it on their behalf asserts something they may never have said.
+
+And a negative finding is precisely **what makes a project stop asking.** So
+the unevidenced nil is the status most likely to permanently end an enquiry
+that was never actually answered. Twelve more were flagged on that reasoning —
+not regressed, for §497's reason: absence of mail is not proof of absence of
+action, and `via` is empty everywhere.
+
+(One practical note on Apollo: the address used was `legal@`, not a privacy
+mailbox. A non-response there may be a routing failure rather than a refusal,
+so the chase should look for a dedicated privacy contact first.)
+
+### §500a — Two kinds of terminal status, and only one is testable from the mail
+
+The audit ran out of road at the `unreachable` rows, and the reason is
+structural rather than a shortage of effort.
+
+**`not_found` is a claim about the company's data.** Its evidence is a reply.
+An inbox audit is exactly the right instrument, and §497–§499 settled nine
+rows that way.
+
+**`unreachable` is a claim about the route** — that no working channel exists.
+Its evidence is a *page*: a dead form, a bouncing address, a link that
+redirects to itself. **Absence of mail is entirely consistent with it being
+true**, so searching the inbox cannot test it at all. Running the same audit
+over `all_global_resources`, `customer_communications`, `date_detective`,
+`locate_friend`, `native_american_netroots`, `old_friends` and
+`reverse_caller_lookup` would return nothing and prove nothing.
+
+**Those seven need a different instrument: re-opening the route.** And they are
+the rows most likely to have changed since they were written, because a company
+that had no working privacy route is also a company that may have acquired one
+— §491 found exactly that at Buxton, where a rebrand produced working URLs the
+old policy page never reached.
+
+**So the stale-route check is worth more than the stale-nil check**, and it is
+the one the project has not done. Recorded here rather than attempted, because
+it is seven separate web sessions and belongs in its own pass.
+
