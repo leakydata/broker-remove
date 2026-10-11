@@ -35640,3 +35640,73 @@ failing that — if email truly cannot be used — **what can**: an appeal addre
 a postal address, or a phone number. A determination a consumer cannot contest
 is not a determination.
 
+## §537 — The consent you cannot decline separately
+
+The Datasys portal (`privacy.datasys.com`) is the best-built request form this
+project has used: a four-step wizard, all fifty states plus territories, three
+request types, a genuine **Right to Appeal**, and a Review & Submit page that
+shows every value back before you commit. It was driven to that final page with
+**Delete My Data** and the full identifier set confirmed on screen.
+
+**It was not submitted.** One checkbox remains, and it bundles seven
+confirmations into one. Six are ordinary. The sixth is not:
+
+> **(6) Re-identification:** "I consent to Datasys re-identifying my
+> pseudonymous data (e.g., cookies, device IDs) and associating it with my
+> identity solely to fulfil this deletion request."
+
+There is no way to accept the other six without it — a single master checkbox
+governs all seven. And it is **not specific to deletion**: the access flow was
+staged first and carries the identical clause worded *"to fulfil this access
+request."* Every request type on this portal requires it.
+
+### §537a — Why this one is genuinely hard
+
+The standing rule in this project is that no MAID, device ID, cookie ID or IP
+address is sent to any company. **This clause does not ask you to send one.**
+It asks you to authorise the company to link *its own* cookie and device
+records to your name. That is arguably worse: it can convert a pseudonymous row
+into an identified one, and nothing about it is reversible.
+
+**And yet the clause is also what would make the deletion real.** At an adtech
+company, a deletion that does not re-identify reaches only the records already
+keyed to your name — the cookie- and device-keyed rows, likely the bulk of what
+they hold, survive it. So the sentence that offends the rule is the same
+sentence that gives the request its reach.
+
+This is the sharpest version of a trade this file has circled before: **the
+identifier that finds the record is the identifier you did not want them to
+have.** §450 settled it for a LinkedIn URL, where the answer was yes. It is not
+settled here, because a durable name-to-device join is a different animal from
+a public profile link, and because the scope — *"solely to fulfil this
+request"* — is one sentence of promise with no mechanism behind it.
+
+**So it goes to the subject, with a recommendation rather than a decision.**
+
+### §537b — The route that avoids the trade
+
+The General Counsel's reply of 28 August gave a postal address: *Datasys Group,
+Inc., c/o Privacy Request, 750 Park of Commerce Drive, Suite 150, Boca Raton,
+FL 33487.* **A letter carries no bundled consent.** It can ask for deletion of
+pseudonymous records *without* granting a standing permission to join them to a
+name, because a letter sets its own scope.
+
+That is the general lesson, and it is worth carrying: **when a portal bundles a
+consent you would not give, the postal channel is not a fallback — it is the
+only channel that lets you write your own terms.** A form can only offer the
+boxes it has.
+
+### §537c — Two smaller findings from the same portal
+
+- **Pennsylvania is accepted in the state dropdown**, although the parent page
+  at `datasys.com/privacy/my-privacy-choices` lists sixteen states with privacy
+  laws and PA is not among them. **The door is open wider than the sign says**
+  — a reminder not to trust a published scope statement over the form's own
+  behaviour, and the inverse of §476's geo-block, where the sign said yes and
+  the door said no.
+- **They offer a Right to Appeal** as a first-class request type, and state
+  that if an appeal fails they will provide contact details for the state
+  attorney general. Set against §536 — where an automated nil was
+  unchallengeable by construction — this is what the same architecture looks
+  like when someone has walked the path of a consumer who disagrees.
+
