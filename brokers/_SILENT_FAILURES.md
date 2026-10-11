@@ -34804,3 +34804,53 @@ The reliable loop is therefore: **load, fill, look at the Turnstile, then click
 by coordinate.** Written into the queue entry so the remaining ten are
 mechanical rather than exploratory.
 
+---
+
+## §523 — Correcting §522c: it was the scroll position, not the click method
+
+§522c reported that clicking Submit **by element reference** silently fails
+while clicking **by coordinate** works, and generalised that into a rule about
+trusting the tool's "clicked" return value.
+
+**The symptom was real; the mechanism was wrong.** Two coordinate clicks did
+nothing this pass, which the rule could not explain. A screenshot settled it in
+one call:
+
+**After a fresh navigate the page sits at the top, and the Submit button is
+below the fold.** A coordinate remembered from a scrolled state lands on the
+Phone field. Nothing was broken, nothing was stale — I was clicking the wrong
+part of the page and reading the absence of a response as a failure of the
+*method*.
+
+The deterministic recipe, now verified end to end:
+
+    1. navigate
+    2. find — REFS DO NOT SURVIVE A NAVIGATE (an old one errors cleanly)
+    3. fill the seven fields
+    4. SCROLL DOWN 4 TICKS          <- the step I kept missing
+    5. Submit is at (964, 497), Turnstile "Success!" directly above it
+    6. click, then read the page for "Request Submitted!"
+
+**Three of twelve now submitted**, all confirmed.
+
+### §523a — The shape of the error, which is the same one twice
+
+§522c inferred a mechanism from two observations and wrote it up as a rule.
+The inference was reasonable and it was wrong, and **a single screenshot would
+have falsified it before it was written.**
+
+That is §518's pattern exactly — *inferring a property from the shape of a
+thing rather than looking at the thing* — and §518 was itself a correction of
+§517a for the same reason. **Three times now in six passes: a plausible
+mechanism inferred from two data points, written down as a rule, then falsified
+by one direct observation.**
+
+The specific lesson for browser work: **when a click does nothing, the question
+is not "which click method" but "what is actually under the cursor."** Only a
+screenshot answers that. Click-method theories are exactly the kind of
+explanation that sounds mechanical and testable while being untested.
+
+And the §522c rule that *does* survive, narrowed: **a tool reporting "clicked"
+is not evidence that the intended element was clicked.** That remains true —
+it was simply the wrong diagnosis of why.
+
