@@ -34671,3 +34671,74 @@ It is also exactly why the route is useless here: **there is no association to
 remove.** A correct understanding of what a control does is what tells you it
 has nothing to do.
 
+---
+
+## §521 — Qualifying §518a: the demonstrated nil is for establishing absence, not for auditing a removal
+
+I set out this pass to apply §518a's method — search the public index, observe
+the absence — to people-search rows already marked `confirmed`, as a check that
+the removals had held. **Reading the rows first stopped it, and the project's
+own reasoning is better than mine was.**
+
+From the `freebackgroundchecks_com` note, written when the listing-URL
+follow-up was sent:
+
+> "without one, **the only way to verify a removal is to search for myself on
+> their site** — running the exact query I asked them to stop answering, on a
+> site where doing so may log a search, surface me in a 'recently viewed'
+> feature, or prompt the index to refresh the very profile I want gone.
+> **Verifying a removal should not require generating a new record.**"
+
+That is a settled position, arrived at deliberately, and my plan contradicted
+it. **§518a and §185 are both right and they conflict**, so the resolution has
+to be stated rather than left to whichever section gets read first:
+
+| situation | instrument | why |
+|---|---|---|
+| **establishing absence** — no removal claimed | **search the index** | nothing to re-surface; the nil is free and observed |
+| **auditing a removal** — a removal was claimed | **the listing URL they should have supplied** | searching may log, re-surface or refresh the record |
+
+**MoneyBot5000 (§519, §520) was squarely the first case** — no record existed,
+nothing had been removed, so there was nothing a search could revive. That is
+why it was safe, and the safety was a property of the situation rather than of
+the method.
+
+### §521a — Seven asked, none answered
+
+The listing-URL follow-up went to **seven** rows: `checkpeople`,
+`freebackgroundchecks_com`, `governmentregistry_org`, `kids_live_safe`,
+`radaris`, `sync_me`, `the_org`.
+
+**No row records a URL ever being supplied.** Seven requests, zero answers.
+
+So the cohort sits in a genuine bind, and it is worth naming as a category
+rather than filed as seven silences:
+
+- the removal was **confirmed in writing**, so the rows are honestly
+  `confirmed`;
+- the confirmation **cannot be checked** without the URL;
+- the URL **was asked for and never given**;
+- and the only remaining check is **the one that may undo the thing being
+  checked.**
+
+**That is the strongest argument this file has for why a removal confirmation
+should carry the URL of the page removed**, and it is an argument from a
+company's own interest as much as the consumer's: a broker that supplies the
+URL converts a claim the consumer must take on trust into one they can verify
+without ever touching the search index again — which is fewer queries against
+the broker, not more.
+
+### §521b — What I will do instead
+
+Nothing, for now, and deliberately. The honest options are:
+
+1. **Search anyway** — contradicts a settled decision and risks re-surfacing.
+2. **Chase the seven again** — plausible, but a second ask for the same thing
+   seven times over is a poor use of attention when the first produced nothing.
+3. **Ask the subject** whether he wants the self-search trade made on any of
+   them — it is his data and his risk, and the memory note already frames the
+   self-search as *"a deliberate trade, not a free check."*
+
+**Option 3 is correct and it is not mine to decide.** Recorded here; the
+decision belongs in the queue rather than in a letter.
+
