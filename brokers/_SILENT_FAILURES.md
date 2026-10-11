@@ -34452,3 +34452,74 @@ requires control of a mailbox silently excludes every historical identifier, and
 historical identifiers are where old records live. A rule that is fair at the
 point of verification can still be structurally biased against the oldest data.
 
+---
+
+## §518 — Correcting §517a: a web nil can be the strongest evidence in the project
+
+§517a argued that a nil from a form submission is systematically weaker than a
+nil from a letter, because a one-field form cannot carry the twelve-address key
+set. **Applied to the ledger that produced an inference, and the inference is
+wrong.**
+
+21 terminal rows rest on a web route. Reading five of them, every one is
+**stronger** than a typical email nil:
+
+- **`dobsearch_com`** — resolved on the site's own published statement: *"As of
+  January 2022, DOBSearch.com does not hold any customer data nor do we have a
+  database of people's data. All data has been removed already."*
+- **`usatrace`** — a named operator replied personally, confirmed no search
+  logs are retained and that block signals are **not** forwarded upstream to
+  PeopleFinders, and **changed their site** in response to the exchange.
+- **`allpeople_biz`** — a **demonstrated** nil: the removal flow was driven
+  until the site entered Removal Mode (*"Please locate the record you want to
+  remove"*), then the index was searched and no record appeared.
+- **`npi_profile`** — settled at the **source**: the site republishes exactly
+  one dataset, the federal NPPES release, which has a free public API — so
+  whether they hold anything is answerable without the broker at all.
+- **`search_quarry`** — inconclusive, recorded as inconclusive, with the real
+  search endpoint discovered from their own form.
+
+### §518a — Why the web route is better here, not worse
+
+§447's verification problem is that **a nil asserted by a company is
+unfalsifiable from outside** — a careful search and a broken query produce the
+same sentence. Every email nil in this project has that defect, which is why
+the letters ask for a control query.
+
+**A people-search site removes the problem entirely**, because the index is
+public. You do not ask whether a listing exists; **you look.** `allpeople_biz`
+is the clean case: the absence was *observed*, not reported. That is a higher
+grade of evidence than anything a letter can produce, and it is available only
+through the web.
+
+So the correct distinction is not channel but **method**, and `via` does not
+record it:
+
+| | what happened | strength |
+|---|---|---|
+| **submit-and-wait** | a four-field form, then silence | weak — §517a holds |
+| **demonstrated nil** | searched the public index, saw nothing | **strongest available** |
+| **published statement** | the site says it holds no data | strong, and checkable later |
+| **settled at source** | the broker only republishes a public dataset | strongest, needs no broker |
+
+All four read `via: web`. **The field records the channel, not the quality of
+the evidence, and for web the two diverge completely** — from the weakest thing
+in the ledger to the strongest, under one label.
+
+### §518b — So §517a survives only in its narrow form
+
+What §517a got right: **a four-field form cannot carry a twelve-address
+request**, and the queue step it added — record the reference, follow up by
+email with the full key set — stands for form items where the company does the
+searching.
+
+What it got wrong: **generalising that into a claim about `via: web`.** Where
+the consumer can search the index himself, the form's narrowness does not
+matter, because the form is not what produces the finding.
+
+**The method note, since this is now a pattern in my own working:** §511b said
+read the rows before investigating. §517 obeyed that and avoided breaking 48
+queue entries. **§517a then disobeyed it one paragraph later** — inferring a
+property of 21 rows from the shape of a field rather than reading them. Reading
+five took one tool call and reversed the conclusion.
+
