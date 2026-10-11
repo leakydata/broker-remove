@@ -12,7 +12,13 @@
 
 ## Steps
 
-<!-- Replace once the route is confirmed. What actually worked, in order. -->
+1. **Email `privacy@klickly.com`** with a written deletion/opt-out request listing
+   every name, email, phone number and address you've used. The address is live
+   and answers — see Status above — even though this project cannot say what
+   originally triggered the request that got the September reply.
+2. **Ask explicitly for a forward-looking suppression**, not just a one-time
+   erase. The confirmation received contained no suppression language, so a
+   future data import could re-add the record.
 
 ## Gotchas
 
