@@ -34385,3 +34385,70 @@ in the listening index searched by profile URL and a nil in the media database
 searched by twelve addresses are two findings; a single sentence covering both
 is one assertion.**
 
+---
+
+## §517 — A form with one email field cannot carry a twelve-address request
+
+After §514b I suspected the identifier error was baked into the handoff queue
+too: 48 of 139 open items enumerate the subject's own addresses, and almost all
+enumerate one or two.
+
+**Checked before editing, and the hypothesis was wrong.** Those enumerations are
+deliberate and correct. They are not search-key lists — they tell the reader
+which single address to type into a form's email field, and one of them warns
+explicitly against the alternative:
+
+> "Email: [the correspondence address] — use this for every field and for any
+> confirmation link — **never** [the closed institutional address], which is..."
+
+Two others are **corrections** noting that the address staged on a form was the
+wrong one. A blanket edit would have broken all three, and would have put a dead
+mailbox into reply fields. (That is the third time tonight that checking before
+acting avoided damage — §505, §511b, and this.)
+
+### §517a — But it exposes a real structural limit
+
+**81 of 139 open items are form-, portal- or CAPTCHA-driven**, and a web form
+has **one** email field. So the twelve-address identifier set **cannot be
+expressed through them at all.** There is nowhere to put it.
+
+That inverts an assumption worth naming. A company's official web form *looks*
+like the authoritative route — it is the designated method, it issues a
+reference number, it is what §456 and §505 keep being told to use. **But it
+carries less than an email does.** An email can assert twelve search keys,
+sixteen former addresses, a scope limit about namesakes and four questions
+about method. A four-field form can assert one address and nothing else.
+
+**So a nil returned from a form submission is systematically weaker evidence
+than a nil returned from a letter**, and not because the company is less
+careful — because the channel could not carry the question. §351's Message
+Digital form (no request-type selector, no name field) is the extreme case, but
+every single-email-field form has the same defect in milder form.
+
+**The practical consequence**, which the queue should carry: **after submitting
+a form, send the full key set by email referencing the form's reference
+number.** Seven queue entries already mention the twelve-address set; the other
+74 form-driven items do not, and that is the gap worth closing — not by editing
+the field values, but by adding a follow-up step.
+
+### §517b — The company that only acts on mail sent *from* the address
+
+One queue entry is a genuine outlier and names a limit the project cannot
+engineer around. HealthLink Dimensions **will only act on an address if the
+message arrives from that address.**
+
+That is a defensible anti-abuse rule — it proves control of the mailbox without
+demanding an identity document, which is better than most verification this
+project has met. **But it is unsatisfiable here.** Six of the twelve addresses
+are on services that no longer exist: you cannot send mail from a WebTV account
+in 2026. The closed institutional mailbox cannot send either.
+
+So for that company the dormant addresses — **the very ones §516 argues are the
+likeliest keys** — are permanently unassertable. The reachable half of the set
+is the half least likely to match.
+
+**That is worth recording as a category, not a quirk:** a verification rule that
+requires control of a mailbox silently excludes every historical identifier, and
+historical identifiers are where old records live. A rule that is fair at the
+point of verification can still be structurally biased against the oldest data.
+
