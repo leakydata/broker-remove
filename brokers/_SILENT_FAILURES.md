@@ -35515,3 +35515,70 @@ widget reads "Success!", and if a submit fails for any reason, reload rather
 than retrying.** Repeated clicking after a failure is the exact behaviour that
 looks like a broken site and produces §484's unexplained stall.
 
+## §535 — The automated nil: three refusals in 39 minutes, none of them a search
+
+All three JMR Media requests were answered the same day from
+`no-reply@mail.jmr-media.com`, each with the same core sentence:
+
+> "We operate as an intermediary and do not maintain a consumer-facing database
+> of personal information."
+
+The access reply added *"We do not hold individualized consumer profiles."*
+
+**The timestamps are the finding.** The opt-out reply arrived at 22:26 and the
+access reply at **22:28 — one hundred seconds later**, with the deletion reply
+37 minutes before either. Nothing was searched between them. These are
+templates keyed to request type. The access template even misspells
+*"informaiton"*, which is what canned text looks like.
+
+This is a new category for this file, and a common one once you can see it.
+§447 distinguished **demonstrated**, **asserted** and **structural** nils. This
+is a fourth: **the automated nil** — a factual claim about the contents of a
+company's records, issued by a mailer, which no person or query ever stood
+behind. It is weaker than an asserted nil, because an asserted nil at least
+passed a human who could have said otherwise.
+
+**The tell is latency.** A nil that arrives in under a few minutes, keyed to
+the request type and signed by a no-reply address, is a template. A nil worth
+anything takes as long as a search takes.
+
+### §535a — Two contradictions from the company's own pages
+
+The nil is not merely unverified; it sits badly beside JMR's own marketing.
+
+- The footer sells *"targeted consumer and B2B audience data."* The homepage
+  invites advertisers to **"Tell us who you're trying to reach. We'll provide
+  available counts and help narrow the targeting around the campaign."**
+  **A count is a query against individualized records.** You cannot report how
+  many people match a targeting specification without something in your
+  possession or control holding rows about individual people. If the counts
+  come from a licensed file rather than an owned one, the obligation still
+  follows the data.
+- **Their own form** says: *"If your request relates to postal marketing,
+  please provide your mailing address, city and zip code."* There is no reason
+  to collect a mailing address from a *requester* unless records are reachable
+  by mailing address.
+
+A company that asks for your address in order to process your request has
+conceded that the address is a usable key against something.
+
+### §535b — The question that actually matters to an intermediary
+
+The challenge sent asks four things, but one of them is the real one. For a
+company that genuinely holds nothing at rest, **deletion is empty and
+suppression is everything**: what matters is not today's file but the *next*
+one they load for a client. Their opt-out reply — *"logged and will be handled
+in accordance with applicable privacy laws"* — is the only one of the three
+that is actually responsive, because a suppression entry does not require them
+to hold a profile now.
+
+So the ask is: **confirm a suppression record exists and will be applied to
+future files**, not that nothing was found today. §1798.105(d)(1) permits
+exactly this retention — keeping the minimum needed to give effect to the
+request — and an intermediary who refuses it is saying they will re-acquire you
+indefinitely.
+
+They were also offered the historical address set as match keys if they will
+run a real search, and told plainly that *"the responses are automatic and
+nobody looked"* is an answer worth more than an unearned confirmation.
+
