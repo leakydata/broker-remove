@@ -34007,3 +34007,83 @@ What survives as genuinely new is the **cross-tab** — the filing year as a
 liveness signal, and the count of current registrants with dead contacts. The
 individual diagnoses were already won.
 
+---
+
+## §512 — Eighty-seven rows are waiting on companies that left the register
+
+§511 established the filing year as a liveness signal. Turning it on the
+*open* ledger rather than the dead ends:
+
+**87 rows sit at `submitted`, `replied` or `pending` against a registrant whose
+California filing is 2024-only.** We are waiting on a reply from 87 companies
+that no longer appear on the register.
+
+**First, the soundness check**, because the whole cross-tab depends on it: if
+the repo's 2025 snapshot were partial, every "lapsed" row would be an artefact.
+It is not — **523 registrants filed in 2024 and 561 in 2025.** The later set is
+*larger*. The register grew; these companies left it.
+
+### §512a — It is consolidation for some, and for five groups it is not
+
+Several lapsed rows share one contact domain, which looks like absorption into
+a parent:
+
+    @altrata.com        boardex, boardroom_insiders, relationship_science,
+                        wealth_x, wealthengine          — five brands
+    @iqvia.com          iqvia, iqvia_digital
+    @spectrumlists.com  spectrum_data, spectrum_mailing_lists
+    @usinfosearch.com   martin_data, usinfosearch_com
+    @propstream.com     batchleads, equimine_propstream
+
+**The obvious hypothesis — absorbed into a parent that still files — fails for
+all five.** No 2025 registrant uses any of those domains, and none of the names
+appears under a different 2025 key. (A `wealthfeed` 2025 entry is an unrelated
+company.) **Whole corporate families stopped filing**, including Altrata's
+five-brand wealth-intelligence group and IQVIA, which is very large.
+
+**What I have not established is why**, and the candidates differ a great deal
+in what they imply:
+
+1. They concluded the **amended definition does not cover them** — the data
+   broker definition excludes businesses with a direct relationship with the
+   consumer, and a restructure or a reinterpretation could take a company out
+   of scope legitimately.
+2. They **stopped complying.**
+3. They restructured so that a **differently-named entity** files, and the name
+   is unrecognisable from here.
+
+I cannot distinguish these from the register alone, and I am not going to
+assert the least charitable one. **Recording the fact and leaving the cause
+open.**
+
+### §512b — The implication that actually matters for the subject
+
+**A deregistered broker is outside the register's machinery.** California's
+Delete Act obliges *registered* brokers to honour deletion requests through the
+central DROP mechanism. A company that has left the register is not reachable
+that way — so for these 87 rows, **the direct request is the only route, now and
+later.** The register will not sweep them up on the subject's behalf.
+
+That cuts two ways and both are worth stating plainly:
+
+- **It raises the value of the letters already sent.** For a registered broker,
+  a missed letter might be recovered later by a central deletion request. For
+  these 87, there is no later.
+- **It lowers the expected return on chasing them.** A company that stopped
+  filing a statutory registration is not obviously a company that will answer a
+  consumer letter. Chasing all 87 equally would be poor use of attention.
+
+**So the sensible triage is by what they hold, not by how long they have been
+silent.** The five Altrata brands are one company and one chase, not five.
+IQVIA is a healthcare-data business and worth a real attempt. A row like
+`wisdom_media_group`, whose filed contact is a gmail address, is not worth the
+same effort as either.
+
+### §512c — And the method note, since §511b just named this pattern
+
+This pass began by reading the cross-tab rather than probing domains, which is
+§511b's rule applied one pass after writing it. **That is why the soundness
+check happened before the claim** rather than after — the temptation was to
+report "87 companies have vanished" and only then wonder whether the snapshot
+was complete.
+
