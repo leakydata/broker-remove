@@ -35382,3 +35382,68 @@ is a product decision — which is worth saying plainly to LightBox, because it
 is very likely made by the DSAR vendor rather than by LightBox at all, and they
 may not know their portal turns people away in their name.
 
+---
+
+## §533 — Three implementations of the same legal fact
+
+Epsilon's DSR portal, driven today, **confirms §314 by direct test rather than
+inference** — which matters, because §314 was written from one observation and
+this session has had to withdraw three claims made that way.
+
+**On the access request type**, the required State list holds only the 23
+states with comprehensive privacy statutes. Pennsylvania is absent, there is no
+"other", and submitting returns *"State or Province field is required."*
+
+**On the delete request type, the same control offers Pennsylvania and accepts
+it.** Deletion is staged and blocked only by a reCAPTCHA.
+
+So the restriction attaches to **the access right specifically**, not to the
+subject. That is a meaningful distinction and it was worth testing rather than
+assuming.
+
+### §533a — The same landscape, implemented three ways
+
+Every US data company faces the identical fact: a minority of states have
+comprehensive privacy statutes and Pennsylvania is not among them. Three
+companies have now been observed resolving it differently:
+
+| | implementation | effect on a PA resident |
+|---|---|---|
+| **MaxMind** (§527a) | state list is *California, Virginia, **Other*** | files normally |
+| **Epsilon** (here) | access gated to 23 states; delete open to all | **loses one right**, keeps the rest |
+| **LightBox** (§532) | geolocation check before the form renders | **no form at all** |
+
+**The legal fact is constant; the behaviour is a product decision.** That is
+the point worth carrying into future letters — a company cannot defend a
+geo-block by pointing at the statute, because two other companies read the same
+statute and still accepted the request.
+
+**And the ordering is instructive**: the most restrictive implementation is not
+the one with the strongest legal position, it is the one that outsourced its
+DSAR portal to a vendor. §532b guessed that; Epsilon — which runs its own —
+draws the line at a single right rather than at the door.
+
+### §533b — Eight rights, one radio, no free text
+
+The form offers eight request types as **radio buttons**: do not sell; do not
+share / opt out of cross-context behavioural advertising; access; correct;
+delete; **opt out of profiling and automated decision-making**; opt out or
+revoke consent for sensitive personal information; appeal a prior request.
+
+**One per submission, each with its own CAPTCHA.** Exercising three rights
+means three CAPTCHAs — §524a's regressive-rate-limit problem reappearing as a
+form design rather than a bot defence.
+
+There is **no free-text field**, so the form cannot carry scope, extra
+identifiers, or a question. **Here that matters less than usual**, because of
+the merger: Lotame Solutions was merged into Epsilon Data Management on
+1 October 2025 and no longer exists as a separate entity, per Lotame's own
+autoresponder. **There is no separate Lotame to name — the Epsilon deletion is
+the Lotame deletion.** Two queue items have been consolidated into one
+accordingly.
+
+The page also offers **+1-866-267-3861** for US consumers who prefer not to
+submit online — and a call can carry all eight request types at once, which the
+form cannot. That is §506's finding again: **the telephone is the only channel
+with enough bandwidth for the whole request.**
+
