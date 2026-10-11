@@ -34912,3 +34912,50 @@ person are not twelve requests.
 submission. One form with twelve boxes is one request, trips no limit, and
 produces exactly the same work for them.
 
+---
+
+## §525 — The escalation did not relax, and I should not have said it would
+
+§524b closed by saying the Turnstile challenge was *"almost certainly
+reversible — a pause or a fresh session will very likely return it to
+auto-passing."*
+
+**Retested after thirty minutes. Still blocked.** Form reloaded, all seven
+fields refilled, Submit pressed twice, page did not move either time.
+
+That prediction was confident and evidence-free, and it is now contradicted for
+at least that interval. It may still relax over hours, or from a different IP
+or browser profile — both plausible, both untested — **but the handoff should
+not have been written as though the block were temporary.** A reader planning
+their afternoon around "it'll clear shortly" would have been misled by me, not
+by the site.
+
+**This is the fourth inference-from-nothing in this stretch** (§517a, §518,
+§522c, now this), and it has a consistent tell: the claim is about *what will
+happen next*, which is precisely the kind of claim no observation supports yet.
+The earlier three were mechanisms; this one is a forecast. **A forecast stated
+as "almost certainly" is the same error wearing different clothes.**
+
+### §525a — When you cannot see the challenge and cannot query it
+
+Two tool-level facts made this harder than it should have been, and both
+generalise:
+
+**The Turnstile is invisible to the accessibility tree.** A `find` for any
+Cloudflare, captcha or verification element returns nothing — it renders in a
+cross-origin iframe. That is exactly the blindness recorded at Juicebox in
+§351, and it means **the challenge state cannot be queried, only seen.**
+
+**And screenshots on this page began failing** — two consecutive CDP timeouts
+at the thirty-minute mark. So for a stretch the one instrument that could read
+the widget was unavailable.
+
+**The fallback that works when you can neither see nor query the challenge: fill
+the form and press Submit.** If it goes through, the check passed. If nothing
+happens, you have learned the same thing — and you have learned it **without
+touching the checkbox**, which is the line that must not be crossed. It costs
+one click and settles the question.
+
+That is worth having as a standing technique rather than an improvisation:
+**the submit button is itself a probe for the state of an invisible bot check.**
+
