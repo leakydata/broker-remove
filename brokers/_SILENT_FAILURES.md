@@ -34148,3 +34148,109 @@ offered first and the practical reason for asking stated: **if Altrata is no
 longer registered, this letter is the only route and no central Delete Act
 sweep will catch it later** (§512b).
 
+---
+
+## §514 — §513 was wrong, and every letter I sent tonight used a third of the identifiers
+
+Two errors, one of them systematic across the whole session.
+
+### §514a — The Altrata letters existed, and were better than mine
+
+§513 claimed all five Altrata rows read `submitted` on nothing and that no mail
+to or from `altrata.com` had ever existed. **Both claims are false.** Thread
+`1a037e570e703515` holds a letter of **25 August**, a scope addendum of **26
+August** naming all four sibling brands, and an **acknowledgement from
+`privacy@altrata.com` on 31 August.**
+
+**How I got it wrong:** I searched Gmail for the keywords *altrata, boardex,
+wealthengine, wealth-x, boardroom insiders, relsci*, was told there were about
+eleven results, **looked at the first six**, found only LinkedIn digest noise,
+and concluded from absence.
+
+The right instrument was the address: **`to:privacy@altrata.com` returns
+exactly two threads** and would have settled it in one call. **A keyword search
+across a noisy mailbox cannot answer "did we write to this company."** The
+mailbox is full of marketing mail that matches company names; the only reliable
+key is the address itself.
+
+**And the August letters were better than the one I sent today.** They asked
+for **the edges as well as the node** — that being retained as the endpoint of
+a relationship held under someone else's profile is still personal information,
+and is exactly what survives a deletion aimed at profile records, so *a search for "a record about [the subject]" can return nothing while the
+graph still contains him.* They asked for wealth estimates **deleted**, not merely
+suppressed from outbound use. They cited the **B2B carve-out's sunset on
+1 January 2023**, which my letter omitted entirely.
+
+So my letter was a duplicate **and** weaker. A correction went on the original
+thread: apology, a request to disregard the duplicate and work inside the
+existing file, a chase at six weeks, and the two questions restated.
+
+### §514b — The identifier set: twelve addresses, and I used four
+
+This is the one that matters beyond Altrata. `data/profile.json` holds
+**`all_emails` — twelve addresses:**
+
+    four current personal addresses (the ones the letters had been using)
+    one further current personal address
+    one closed institutional address  — a search key only, never a reply address
+    six dormant addresses on long-dead consumer services and ISPs
+      (webtv, hotmail, a 1990s dial-up ISP, a portal mail service, a telco)
+
+**Every letter I sent tonight used four.** Altrata, Spokeo, EAB, Brandwatch,
+Message Digital, Enformion, Outbrain, Teads, All Global Resources, Date
+Detective — ten letters, each with a third of the available keys.
+
+And the profile says plainly what I skipped: *"all_emails = identity data;
+**every address is asserted on removal requests** so records tied to each are
+purged."* There is even a `scripts/supplement_identifiers.py` for exactly this.
+
+**The omitted eight are the ones most likely to match.** `_late_identifiers`
+records that **BDEX matched four of twelve addresses — and all four were in the
+late list**, the dormant ones. A `webtv.net`, `iwon.com` or `gateway.net`
+address dates a record to roughly 1998–2005; those are precisely the keys an
+old compiled file holds and a current-address search misses. **This is §450's
+false-nil trap, and I walked into it ten times in one night.**
+
+**So every nil that comes back from tonight's letters is weak evidence**, and
+must be recorded as such rather than as a clean negative. Supplements restating
+all twelve are owed on every thread — the Altrata one is sent; the rest are the
+next passes' first job.
+
+### §514c — The shape of both errors is the same
+
+§511b named the pattern: *when a sweep produces a promising list, read the rows
+before investigating.* **Both of tonight's errors are the same failure one level
+down: I read the data I was looking at and not the data beside it.** The
+`history` array was in the same object as the `note` I read; `all_emails` was in
+the same file as the `email` I used.
+
+The rule that would have caught both: **before acting on a record, read the
+whole record.** Not the field that answers the question in front of me — the
+object.
+
+### §514d — And I nearly published the twelve addresses doing it
+
+Writing §514b, I pasted the full `all_emails` list into this file — which is
+public — to make the point vivid. **`redact.py` refused the commit and named
+seven occurrences.**
+
+That is the third distinct error in one pass, and the worst of the three: the
+other two cost duplicated effort, this one would have published the subject's
+dormant mailboxes to a public repository. One of them is a `firstname.lastname@`
+address at a defunct ISP, which the checker flagged separately as a third
+party's address shape.
+
+**The irony is exact.** The finding was that the dormant addresses are the
+valuable keys precisely because they are obscure and long-forgotten. Publishing
+them would have destroyed that obscurity for anyone reading the repo — turning
+a finding about the subject's exposure into a cause of it.
+
+The list is now described by shape and era rather than enumerated, which
+carries the whole argument: **six dormant addresses on dead consumer services
+and ISPs date a record to roughly 1998–2005**, and that is the point. The values
+add nothing a reader needs.
+
+**§464c's rule — run redact.py as its own step and read the result — is what
+caught this.** It was not a near miss by luck; the guard did its job, and the
+guard exists because the same mistake was made in §462a.
+
