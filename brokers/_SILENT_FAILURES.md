@@ -33794,3 +33794,67 @@ no A and no MX record, re-checked tonight — **but Alesco is reachable even
 though Contacts411 is not.** Suppressing at the source is better than
 suppressing at a dead reseller.
 
+---
+
+## §509 — Correcting §508b: those were legal names, not named suppliers
+
+§508b listed five filings that appeared to name an upstream data source.
+**Checking them, most were self-reference, and I should not have read them as
+supplier relationships.**
+
+- **"for sale on Freemium Data Services' websites"** — Freemium Data Services,
+  LLC **is the registrant of the `reachdata` row.** The filing is describing
+  its own sites under its own legal name. Not an upstream; not a new broker.
+- **`leadsherpa` referring to "Property Reach's websites"** — not a supplier
+  link either. It is the *same boilerplate* with the name left unchanged.
+
+**The real finding is better than the one I claimed.** The identical paragraph
+appears across Spokeo, Property Reach, Enformion, ReachData, LeadSherpa and
+Tracers — the publicly-available-information-plus-First-Amendment assertion,
+word for word. It is a **shared template**, very likely from one law firm. And
+LeadSherpa's copy still says *"Property Reach's websites"*, which is the
+copy-paste showing through.
+
+That matters practically: **when several registrants file the same text, their
+legal positions are not independent evidence of anything.** Six companies
+asserting the same exemption in identical words is one argument, not six.
+
+**One of the five stands up.** `contacts411`'s filing says plainly:
+
+> "Contacts411 uses **Alesco consumer data only**..."
+
+That is a genuine named upstream — and §508b was wrong about it in the other
+direction too: **Alesco was already tracked and already written to**, twice, in
+August.
+
+### §509a — The dead reseller and its reachable source
+
+`contacts411.com` publishes **no A record and no MX** — rechecked tonight, and
+unchanged since 25 August. No website, no mailbox, and its registered contact
+sits on that same dead domain. There is no channel at all.
+
+**So Alesco is the only lever**, and the dependency runs: Alesco supplies the
+data → Contacts411 holds and sells it → nobody can write to Contacts411.
+
+Alesco's record also needed correcting. The row recorded one acknowledgement;
+there are in fact **two letters and two replies, and both replies are the same
+template** — receipt, CCPA basis, a pointer to `mydataprivacy.com`. Six weeks,
+two acknowledgements, **nothing answered.**
+
+The chase puts Contacts411 to them as the concrete case for the question that
+was always the important one — **does the suppression travel?** — in three
+graded forms: does it propagate automatically; if not, can he go on a
+**suppression file distributed to customers**, which is standard list-management
+practice; and if neither, **say so plainly**, so "the suppression stops at
+Alesco" can be recorded as a known limit rather than assumed coverage.
+
+**And Contacts411's own filing supplies the argument's other half**, which is
+worth quoting back at Alesco eventually:
+
+> "...sometimes we cannot find the individuals to opt out **because they are
+> already opted out by our data provider.**"
+
+**That is the reseller asserting that upstream suppression does reach it.** The
+downstream company says the mechanism works; the upstream has not yet said
+whether it will use it.
+

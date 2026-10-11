@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `unreachable` (updated 2026-08-25)
-- Note: 2026-08-25: contact domain publishes no MX and no A record - nothing can be delivered. The broker's own domain is equally dead, so there is no alternative route by mail. Never written to; marked before spending a send. Re-check if the domain is ever reinstated.
+- Current: `unreachable` (updated 2026-10-11)
+- Note: COVERED, IF AT ALL, ONLY THROUGH ALESCO -- AND THEIR OWN FILING SAYS SO. Contacts411's California registration practice description states: 'Contacts411 uses ALESCO CONSUMER DATA ONLY which is also CCPA compliant so sometimes we cannot find the individuals to opt out because they are already opted out by our data provider.' That is a named upstream in a statutory filing, and it is the only lever this row has, because the company itself is unreachable by any channel: contacts411.com publishes NO A RECORD AND NO MX, rechecked 2026-10-11, and its registered contact [named individual]@contacts411.com sits on that same dead domain. ACTION TAKEN 2026-10-11: rather than spend another send on a dead domain, put the dependency to ALESCO in the chase on that row, asking whether a suppression at Alesco propagates to customers and licensees, whether he can be added to a suppression file distributed to customers, and if neither, to say so plainly. If Alesco confirms propagation, this row is covered by that answer and should be recorded as covered_by_sibling with the Alesco reply quoted. If Alesco says the suppression stops at its edge, then this row is a genuine dead end -- a company holding and selling a record about him with no reachable address and no upstream willing to cut the supply -- and that is worth recording as such rather than left ambiguous. NOTE THEIR OWN SECOND CLAUSE, which cuts in his favour: they say they sometimes cannot find individuals to opt out BECAUSE THEY ARE ALREADY OPTED OUT BY THEIR DATA PROVIDER. That is Contacts411 asserting that upstream suppression does reach them.
 
 ## Steps
 
