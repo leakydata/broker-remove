@@ -33930,3 +33930,80 @@ not travel between devices — **if that is all it is, it is not an answer to a
 suppression request**, and it is better to establish that now than to believe
 oneself opted out for a year.
 
+---
+
+## §511 — The filing year is a liveness signal, and ten current registrants cannot be written to
+
+ReachData's autoresponder says *"ReachData.com has ceased operations and is no
+longer active"* (§161a settled that no human is behind it). I went looking for
+a contradiction in their registration and **found the opposite: the filing is
+2024 only, with no 2025 renewal.** The lapse corroborates the claim rather than
+undermining it. My hypothesis was wrong.
+
+But it exposed a signal the project had not used. Cross-tabulating filing years
+against row status across all 677 registrants:
+
+    filed 2024 only : 116    lapsed — ceased, acquired, or stopped complying
+    filed 2025 only : 154    new registrants
+    filed both      : 407
+
+**Thirteen rows marked `unreachable` or `manual_required` have 2024-only
+filings** — `all_global_resources`, `enriched`, `greenhouse_software`,
+`idengine`, `integrated_medical_data`, `keyopinionleaders`,
+`near_north_america`, `pathway_ventures`, `reachdata`,
+`real_performance_marketing`, `researchusa`, `skydeo`, `structure`. **For those,
+the lapse explains the status**, which converts an unexplained dead end into an
+accounted-for one. That is worth having: §500a's complaint was that
+`unreachable` rows carried no reason.
+
+### §511a — And the ten that are the other way round
+
+**Ten rows marked `unreachable` filed in 2025** — i.e. they are *currently*
+registered data brokers. I expected these to be wrong statuses. **They are
+not.** Every one already carried a documented, mechanism-level diagnosis:
+
+    crawlbee          privacy@crawlbee.com      NULL MX (RFC 7505) — "0 ." record
+    venpath           privacy@venpath.net       Google Group, external senders refused
+    rampedup          privacy@rampedup.io       restricted Workspace group; 2024 address
+                                                 auto-replies "not a monitored inbox"
+    foundry           slyster@idg.com           named individual, mailbox gone
+    sterling_data     privacy@sterling.ai       registry contact hard-bounced 550 5.1.1
+    contacts411       barrygold@contacts411.com domain has no A and no MX at all
+    4eyes_ai          privacy@4-Eyes.ai         no MX
+    car_market_solutions, valassis ×2           (covered elsewhere)
+
+**So the finding is sharper than "the status is wrong."** These are **companies
+currently on the state register — legally required to publish a contact — whose
+published contact provably cannot receive mail.** Ten of them, by at least five
+distinct mechanisms.
+
+`crawlbee` is the extreme case and deserves naming precisely: **a null MX is
+not neglect.** RFC 7505's `0 .` record is an affirmative, standards-compliant
+declaration that the domain accepts no email, ever, by design — published
+alongside an email address filed with a regulator as the consumer contact. (The
+domain also serves from `ns2.afternic.com`, so it is parked for sale.) The 2024
+filing's alternative, `crawlbee.io`, has no DNS at all.
+
+§510 found three filed addresses that were groups rejecting the public and
+called three-for-three a pattern. **This quantifies it: of the ten current
+registrants recorded unreachable, every single one has a non-functioning
+statutory contact** — and the register is the route a consumer is *directed* to
+use.
+
+### §511b — I nearly reported five known findings as new
+
+**Every one of those five diagnoses was already in the rows**, written in
+August, in more detail than my DNS probing produced — including Crawlbee's null
+MX with the same RFC citation and the afternic observation I had not made.
+
+I ran the DNS checks first and read the rows second. **§492's rule caught this
+on the second step rather than the first**, and that is twice in one session
+(§502a was the same error against `register_profiles.json`). The pattern in my
+own working is specific enough to name: **when a sweep produces a promising
+list, the next action is to read the rows for those items, not to investigate
+them.** The project's prior work is the cheaper source and it is better.
+
+What survives as genuinely new is the **cross-tab** — the filing year as a
+liveness signal, and the count of current registrants with dead contacts. The
+individual diagnoses were already won.
+
