@@ -33570,3 +33570,73 @@ treatment first — **a short no-data note asking whether the filed address
 accepts requests** — and that is a better use of one attempt than a full letter
 and a guess.
 
+---
+
+## §506 — The first row where the only usable channel is a telephone
+
+Message Digital's auto-reply arrived **two seconds** after the letter:
+
+> "privacy-related requests must be submitted through our Privacy Request form
+> (messagedigital.com/my-data) **or by calling us at +1 (888) 980-3207** so we
+> can verify and process your request."
+
+**I checked `/my-data`. It is the same OneTrust embed as §351** — Country
+prefilled, State, Phone, Email, and nothing else. No request-type selector, no
+name field, no free text.
+
+So their position is: use the form, or call. **And their designated form is the
+form that cannot express a request.** Email is deflected. That leaves the
+telephone as the only channel capable of carrying what §351 showed the form
+cannot — which is the first time in this project that the answer to "what
+route works" has been *a phone call*.
+
+Queued as a `phone` handoff with the four things the form cannot carry, and
+two questions worth asking while a human is actually on the line:
+
+- **where any consent record came from** — a messaging business generally has
+  to evidence consent to send, so if a list vendor supplied it, the vendor's
+  name is a new broker to write to;
+- **controller or processor** for the data, with the client named if it is a
+  client's campaign.
+
+Plus: **get a reference number.** A phone request with no reference is the one
+kind this project cannot verify later — it leaves no artefact at all, which is
+§447's verification problem in its purest form.
+
+### §506a — Read the deflection's exact wording before believing it
+
+The auto-reply does **not** say the email will not be processed. It says
+requests "must be submitted" through those routes, and adds that messages on
+other topics "are reviewed periodically." **So the mailbox is read.**
+
+That is materially weaker than Audiense's *"this request will not be
+processed"* (§491) or VisitIQ's *"we do not process data requests via email."*
+It may well mean the letter gets actioned anyway. **Worth watching the inbox
+before concluding the phone call is unavoidable** — the §457 rule that the
+inbox is the authority, not the page, applies equally to an autoresponder's
+claim about itself.
+
+### §506b — A designated method plus a visually-gated method is no method
+
+VisitIQ got a short no-data probe to its **filed** address, per §505a, and the
+argument it makes is worth keeping.
+
+The refusal on record came from `Notifications@visitiq.io`, which describes
+itself as unmonitored. **The address filed with the state is
+`support@visitiq.io`** — a different mailbox, named in a statutory filing for
+exactly this purpose. The probe asks two things answerable in a line: does the
+registered address accept requests, and if the Ketch widget is the only route,
+**is there any alternative for someone who cannot complete a visual CAPTCHA?**
+
+Their data-rights page is JavaScript-only with an image challenge. So the route
+is not merely inconvenient — **it is unusable by anyone relying on a screen
+reader.** And a designated-method rule *plus* a visually-gated-only method
+together amount to **no method at all** for some people.
+
+The letter says explicitly that removing their bot protection is not what is
+being asked — only whether a monitored mailbox, a telephone number or a postal
+address exists. **That framing matters: the complaint is not "CAPTCHAs are
+hard," it is "you have designated a route that excludes a class of people and
+closed the others."** It is the strongest version of the designated-method
+argument this file has reached, and it costs the company nothing to answer.
+
