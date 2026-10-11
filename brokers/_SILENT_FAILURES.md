@@ -35012,3 +35012,58 @@ than anything a letter can say, because it is their instruction rather than our
 request. Quoted into the queue entry as the reason to send all twelve addresses
 and every prior address at stage 2.
 
+---
+
+## §527 — The company that tells you what withholding will cost you
+
+MaxMind's deletion form is staged and reCAPTCHA-blocked like the others, but
+two things on it are worth recording as **good practice**, which this file has
+less occasion to note than the opposite.
+
+**They state the one-email-per-submission rule outright:**
+
+> "MaxMind will process this deletion request with respect to the email address
+> you provide below. **If you use multiple email addresses you will need to
+> complete this form for each email address** you would like to make a deletion
+> request for."
+
+That is the §522a shape again — twelve submissions for twelve addresses — but
+here the company **says so** rather than leaving the consumer to discover it by
+inference or not at all. A requester who sends one and stops at least does so
+knowingly.
+
+**And the IP field is optional, with the consequence disclosed:**
+
+> "Optional. If you do not provide an IP address **we will not be able to
+> process your deletion request with respect to personal data that we have
+> associated with an IP address but not an email address.**"
+
+**Left blank, deliberately, and the reasoning is not close.** MaxMind is an IP
+geolocation business. Typing an address into that box would hand them a fresh,
+dated, self-attested link between a network address and a named person —
+**creating precisely the record the request exists to remove.** The queue entry
+warned about it and the warning was right.
+
+What makes their version good is the second half of the sentence. Most forms
+either **demand** the identifier or silently do less without saying so. MaxMind
+does neither: it asks, accepts no for an answer, and tells you exactly what the
+refusal costs. **That converts an unknowable gap into a known one** — the
+request now has a stated boundary rather than an invisible one, and the row can
+record "declined, limitation accepted" instead of pretending to completeness.
+
+### §527a — A state list that is itself a finding
+
+The jurisdiction control offers, for the United States, exactly three options:
+**California, Virginia, Other.**
+
+Pennsylvania is "Other", and that is the honest answer — PA has no
+comprehensive consumer privacy statute. But the shape of the dropdown is the
+point: **the form is built around the two states whose laws the company
+considers binding, and everyone else is a residual category.**
+
+That is not misconduct; it is an accurate reflection of the legal landscape.
+It is worth recording because it makes visible, in a UI control, the thing this
+project keeps running into in prose — **that a Pennsylvania resident is asking
+most companies for a favour rather than exercising a right**, and that the
+request succeeds on policy grounds or not at all.
+
