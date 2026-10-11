@@ -34254,3 +34254,71 @@ add nothing a reader needs.
 caught this.** It was not a near miss by luck; the guard did its job, and the
 guard exists because the same mistake was made in §462a.
 
+---
+
+## §515 — Supplementing on the same thread, and why the hash case is different
+
+§514b left nine threads owing an identifier supplement. Three sent this pass,
+each **as a reply on the original thread** and labelled *"additional search
+keys, not a new request"* — the one thing §514a's duplicate got wrong.
+
+`scripts/supplement_identifiers.py` exists for this job but its filter returned
+nothing for tonight's rows: it is built for brokers **first contacted before**
+a date when the short list was in use, and these were contacted hours ago. Not
+worth fighting — and §505 already found that per-row framing beats a templated
+blast, which turned out to matter here more than expected.
+
+### §515a — The same supplement means three different things
+
+**Spokeo** — a profile assembled from aggregated public and commercial records
+of the late 1990s and early 2000s is likelier to carry a dead consumer-service
+address than anything current. So the letter says plainly: **a nil across the
+six properties on four addresses is not yet a nil** — it is a nil against the
+keys least likely to be present.
+
+**Enformion** — two asks beyond the keys, both specific to an aggregator of
+historical records:
+
+1. **If nothing is found, say which addresses the search covered.** A nil
+   against four and a nil against twelve produce the same sentence from
+   outside.
+2. **Put all twelve in the suppression entry, not only the matches.** A
+   people-search file is re-assembled from upstream sources on a schedule, so a
+   suppression carrying only today's matches lets the next ingest reintroduce
+   him under one of the others. **That is the actual reason for handing dead
+   mailboxes to a company you are asking to delete you** — they are not search
+   hints, they are the holes to be plugged.
+
+**Outbrain** — and this is where the supplement stops being housekeeping and
+becomes the substance of the request.
+
+§507a asked whether they could **suppress against a hash** of an address they
+already hold, as the one route that creates nothing new. But if they can, then
+**the set of addresses hashed is the entire scope of the suppression.** Hashing
+four and hashing twelve are not nearly the same protection: an
+identity-resolution graph has been fed hashed emails for years, and the
+addresses likeliest to be sitting in one are the **dormant** consumer-service
+ones, not a Gmail address still in daily use.
+
+So the ask is sharpened: **if you hash, hash all twelve; if you can only hash
+some, say which** — because the difference is between a suppression that holds
+and one with eight gaps in it.
+
+### §515b — The identifier error was worse at the hash companies than anywhere else
+
+Worth stating as a general rule, because it changes how the omission should be
+scored: **at a company that matches on plaintext, sending four addresses
+instead of twelve risks a false nil. At a company that suppresses on hashes,
+it builds a suppression that is permanently and silently incomplete.**
+
+The first can be fixed by asking again. The second cannot be detected from
+outside at all — the suppression exists, it reports success, and it simply does
+not cover eight keys. §514b called the omission a §450 false-nil trap; at
+Outbrain and Teads it is worse than that, and the supplement went there second
+for that reason.
+
+**Teads was deliberately not sent a copy.** §510a established that Outbrain's
+privacy function runs on the Teads domain, so the supplement says in its own
+text that it covers the parallel letter — sending a second would repeat §514a's
+duplicate. If Teads replies claiming a separate estate, it gets its own.
+
