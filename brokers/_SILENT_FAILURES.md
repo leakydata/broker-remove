@@ -35319,3 +35319,66 @@ cohort, with the same three options and the same safer-form instructions.
 the same trade eight times.** Asked once, it is a decision; asked eight times
 in eight entries, it is attrition.
 
+---
+
+## §532 — The designated portal that geo-blocks the person it was given to
+
+LightBox's deflection of 28 August directed CCPA requests to a DSAR portal.
+Opened today, the portal geolocates the visitor, correctly identifies the
+jurisdiction — the selector reads **"Pennsylvania, US"** — and then displays:
+
+> "We have detected that you are attempting to submit a request **from a
+> jurisdiction that does not currently support privacy rights.**"
+
+**No form is rendered.** There is nothing to fill in and nothing to send.
+
+**The jurisdiction selector was not touched.** It is a button and another state
+could be chosen, but picking a state he does not live in would be a false
+statement of residence, and anything the company then did would rest on it. The
+control exists so that *mis*-detection can be corrected; this detection is
+right.
+
+### §532a — Three distinct objections, kept separate
+
+The reply concedes the thing that is actually true before objecting, because
+the objection is narrower than it first looks and overstating it would lose it:
+
+**Conceded:** LightBox is not obliged to honour a CCPA request from a
+Pennsylvania resident. PA has no comprehensive statute and the project has
+never pretended otherwise.
+
+**1. The designated method excludes the person it was given to.** Their own
+reply sent him to this portal; the portal refuses him before any form appears.
+**A designated method that cannot be used by the person directed to it is not a
+method** — which is §456's trap arriving by geography rather than by a broken
+link.
+
+**2. "Does not currently support privacy rights" is inaccurate.** The absence
+of a state statute does not mean a resident has no rights, and it certainly
+does not mean a company cannot honour a request as a matter of policy — which
+most companies in this project have done when asked. **The wording forecloses
+the policy route before it can be raised.**
+
+**3. Blocking the form is not the same as declining the request.** A refusal is
+a decision, made by a person, that can be recorded and appealed. A geolocation
+gate means **there is nothing to decline, nothing to appeal, and no record that
+anyone asked.** That is the difference that matters, and it is the one a
+company is least likely to have noticed: from the inside, a blocked visitor and
+an absent visitor look identical.
+
+### §532b — The inverse of §527a's dropdown
+
+§527a noted MaxMind's jurisdiction control offering *California, Virginia,
+Other* — and read it as an honest reflection of the legal landscape, since
+"Other" still submits.
+
+**This is the same landscape with the opposite implementation.** Both companies
+model US privacy law as "two states and everyone else." MaxMind lets everyone
+else file anyway; LightBox's vendor stops them at the door.
+
+**So the finding is not about the law but about what a vendor does with it.**
+The identical legal fact supports either behaviour, and the choice between them
+is a product decision — which is worth saying plainly to LightBox, because it
+is very likely made by the DSAR vendor rather than by LightBox at all, and they
+may not know their portal turns people away in their name.
+
