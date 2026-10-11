@@ -7,9 +7,8 @@
 
 ## Status
 
-- Current: `unreachable` (updated 2026-10-05)
-- Note: Statutory deletion/opt-out letter sent 2026-10-05 to info@old-friends.co (on-domain, privacy_policy verified).
-- Note: 2026-10-05: hard-bounced within the same minute — `550 5.1.1 <info@old-friends.co>: Recipient address rejected: User unknown in virtual alias table`. The mail server for the domain is live and answering (not a DNS dead-end), it simply has no such mailbox. Re-fetched the site the same day: the homepage still displays `info@old-friends.co` as its only contact method, and `/contact`, `/terms` and `/privacy` all 404. No alternate address found anywhere on-site, and there is no state data-broker registry filing to cross-check (Optery-sourced entry only). Not guessing at a second address (`support@`, `privacy@`, etc.) given there is nothing on the site suggesting one exists — a site that only ever names one mailbox, and that mailbox bounces, looks like an abandoned contact form rather than a wrong-guess address.
+- Current: `manual_required` (updated 2026-10-11)
+- Note: NOT UNREACHABLE -- THE SITE IS LIVE BEHIND A BOT CHALLENGE. old-friends.co returns HTTP 200, but the effective URL after redirects is /fn/botCookieChallenge.php?r=%2F&vid=... -- a cookie-based bot challenge, which a script cannot pass and a browser clears invisibly. So the server is up and serving; only automated access is refused. /privacy, /privacy-policy, /opt-out and /optout all 404, so whatever privacy route exists is not at a guessable path and must be found from the rendered page. Moving to manual_required rather than unreachable. Previously an adopted ledger line from 2026-10-06 -- only four days old, which makes the point sharper: this was not a stale record going bad over months, it was MISREAD AT THE TIME, because a bot challenge looks exactly like a broken site from a script.
 
 ## Steps
 

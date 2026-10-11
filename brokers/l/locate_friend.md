@@ -6,9 +6,9 @@
 
 ## Status
 
-- Current: `unreachable` (updated 2026-09-16)
+- Current: `unreachable` (updated 2026-10-11)
 - Reference: `gmail:1a078a9dded1005b`
-- Note: Adopted from the shared ledger: another agent recorded 'unreachable' on 2026-09-15. No detail is carried across — re-read the broker's own reply before relying on this.
+- Note: UNREACHABLE CONFIRMED WITH EVIDENCE, 2026-10-10, and the DNS tells the story. locate-friend.com RESOLVES TO 127.0.0.1 -- localhost. That is not a server that has gone down; it is a deliberate null record, the configuration someone sets when they want a domain to answer nothing. Connection fails on both https and http. Previously an adopted ledger line from 2026-09-15 with no detail; now checked.
 
 ## Steps
 

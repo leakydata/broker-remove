@@ -6,8 +6,8 @@
 
 ## Status
 
-- Current: `unreachable` (updated 2026-09-16)
-- Note: Adopted from the shared ledger: another agent recorded 'unreachable' on 2026-09-13. No detail is carried across — re-read the broker's own reply before relying on this.
+- Current: `unreachable` (updated 2026-10-11)
+- Note: RE-CHECKED 2026-10-10, RESULT INCONCLUSIVE, AND SAYING SO RATHER THAN PICKING A SIDE. reversecallerlookup.com has a DNS record (162.214.79.98), so the domain is registered and pointed somewhere, but curl returned no HTTP status at all on any of /, /privacy, /privacy-policy, /opt-out, /optout, /do-not-sell -- not a timeout code, not a refusal, an empty result. That is consistent with a connection that is dropped rather than refused, which can mean a firewall, a dead listener, or an aggressive bot defence. I cannot tell which from a script, and the three states call for three different responses. LEAVING THE STATUS AT unreachable because I have no evidence to move it, but the row should be treated as UNTESTED rather than confirmed: unlike all_global_resources, which has no DNS at all, this domain resolves, so something is there. Needs a browser session to settle.
 
 ## Steps
 

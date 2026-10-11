@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `unreachable` (updated 2026-08-28)
-- Note: Adopted from the shared ledger: another agent recorded 'unreachable' on 2026-08-28. No detail is carried across — re-read the broker's own reply before relying on this.
+- Current: `unreachable` (updated 2026-10-11)
+- Note: UNREACHABLE CONFIRMED WITH EVIDENCE, 2026-10-10. The recorded domain agrgroupinc.com HAS NO DNS RECORD AT ALL -- it does not resolve, so there is no server to ask. That is the strongest form of unreachable and the only one of the seven where the word was unambiguously right. The status was previously an adopted ledger line from 2026-08-28 with no detail; it now rests on a check. NOTHING FURTHER IS POSSIBLE BY WEB. If this company is to be reached at all it is through the California data broker registration, which carries a filed contact address and is the authoritative source for a current route -- a dead website does not remove the filing obligation.
 
 ## Steps
 

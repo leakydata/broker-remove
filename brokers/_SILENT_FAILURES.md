@@ -33237,3 +33237,64 @@ old policy page never reached.
 the one the project has not done. Recorded here rather than attempted, because
 it is seven separate web sessions and belongs in its own pass.
 
+---
+
+## §501 — "Unreachable" was four different things, and three of seven sites are alive
+
+§500a said the stale-route check was worth more than the stale-nil check. It
+was. All seven `unreachable` rows carried nothing but an adopted ledger line —
+no URL, no reason, not even *what* was unreachable. Checked against DNS and
+HTTP:
+
+| row | domain | what it actually is |
+|---|---|---|
+| `all_global_resources` | agrgroupinc.com | **no DNS record at all** |
+| `locate_friend` | locate-friend.com | **DNS → 127.0.0.1**, a deliberate null |
+| `customer_communications` | customer.com | **domain sold**, now a for-sale page |
+| `native_american_netroots` | nativeamericannetroots.net | **live**, Cloudflare 403 to scripts |
+| `old_friends` | old-friends.co | **live**, cookie bot challenge |
+| `date_detective` | date-detective.app | **live**, clean 404 at root |
+| `reverse_caller_lookup` | reversecallerlookup.com | resolves; no HTTP status at all |
+
+**One word was covering four distinct states**, and only two of the seven were
+dead in the sense the word implies.
+
+**The three live ones are the real failure, and the cause is instrument
+error.** A scripted request cannot distinguish a bot challenge from a dead
+site — both simply fail. `old_friends` returns HTTP 200 and lands on
+`/fn/botCookieChallenge.php`, which a browser clears invisibly and a script
+never passes. Its row is **four days old**, which sharpens the point: this was
+not a record decaying over months, it was **misread at the time, by the wrong
+tool.**
+
+`date_detective` is the subtlest: a clean **404 is a server telling you it
+works and that path is empty.** That is evidence of life, not absence. All
+three moved to `manual_required` — a handoff, not an impossibility.
+
+### §501a — The domain was sold, and that is not the same as the company dying
+
+`customer.com` now serves *"Customer.com, Ultra-Premium Domain For Sale."* So
+the registry's recorded address for **Customer Communications Group, Inc.** is
+no longer theirs.
+
+`unreachable` was right about the *address* and wrong as a conclusion about the
+*company*. **A company that sells its domain has not ceased to exist or stopped
+holding data** — and this is exactly §500a's predicted hazard: a row records a
+dead address, gets read as a dead company, and nobody looks again.
+
+**What I did not establish, said plainly:** I guessed at `cgsolutions.com` as a
+possible current domain and **the evidence does not support it** — a bare title
+of "5850", no CCG branding, every privacy path 404. `customercommunicationsgroup.com`
+has no DNS. So the company's route is **unknown, not found.**
+
+**The lesson is to stop guessing domains.** The authoritative source is the
+**California data broker registration**, which carries a filed contact and
+website — and the duty to file does not lapse because a domain changed hands.
+That applies to `all_global_resources` too: no website left, but the filing
+should still exist.
+
+**So the general rule: a dead domain is a lead to the registration, not the end
+of the enquiry.** The register is the one address a broker cannot let rot
+without breaking the law, which makes it the most reliable route in the whole
+project — and the one reached for last.
+

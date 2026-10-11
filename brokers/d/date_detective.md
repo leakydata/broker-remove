@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `unreachable` (updated 2026-09-12)
-- Note: Adopted from the shared ledger: another agent recorded 'unreachable' on 2026-09-03. No detail is carried across — re-read the broker's own reply before relying on this.
+- Current: `manual_required` (updated 2026-10-11)
+- Note: SERVER LIVE, NO PAGE AT THE ROOT -- WHICH IS NOT THE SAME AS UNREACHABLE. date-detective.app resolves (172.170.119.25) and the server answers: https connections fail but http://date-detective.app/ returns a clean 404. A 404 is a server telling you it is working and that path is empty, which is evidence of life, not absence. Moving to manual_required. The app is a .app domain, so it may be a mobile application whose privacy route lives in an app store listing or a developer contact rather than a website -- check the App Store and Play Store entries before concluding there is no route. Previously an adopted ledger line from 2026-09-03 with no detail.
 
 ## Steps
 

@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `unreachable` (updated 2026-08-28)
-- Note: Adopted from the shared ledger: another agent recorded 'unreachable' on 2026-08-28. No detail is carried across — re-read the broker's own reply before relying on this.
+- Current: `unreachable` (updated 2026-10-11)
+- Note: THE DOMAIN WAS SOLD, AND unreachable WAS RIGHT ABOUT THE ADDRESS BUT WRONG AS A CONCLUSION ABOUT THE COMPANY. customer.com, the domain recorded for Customer Communications Group, Inc., is now a DOMAIN-FOR-SALE PARKING PAGE: title 'Customer.com, Ultra-Premium Domain For Sale | Defining.com', canonical defining.com/domains/customer-com/. It serves 403 to https and the for-sale page over http. So the registry's address is STALE, not the company's privacy route -- a company that sells its domain has not thereby ceased to exist or stopped holding data. This is the exact hazard 500a predicted: an unreachable row records a dead ADDRESS and is then read as a dead COMPANY, and nobody looks again. WHAT I DID NOT ESTABLISH, SAID PLAINLY: I guessed at cgsolutions.com as a possible current domain and the evidence does not support it -- it returns a bare title of '5850' with no Customer Communications Group branding, and every privacy path 404s. Also tried customercommunicationsgroup.com, which has no DNS. So the company's current route is UNKNOWN, not found. NEXT ACTION, and it is the authoritative one rather than more guessing: the California data broker registration. The filing carries a contact address and a website, and the obligation to file does not lapse because a domain changed hands. Look the registration up by legal name rather than hunting domains.
 
 ## Steps
 

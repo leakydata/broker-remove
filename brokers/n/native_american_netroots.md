@@ -8,14 +8,8 @@
 
 ## Status
 
-- Current: `unreachable` (updated 2026-09-18)
-- Note: The 2026-09-18 letter to support@nativeamericannetroots.net
-  hard-bounced the same day ("address couldn't be found"). The "opt-out URL"
-  on this row is a diary/blog post on a WordPress community site, not a form
-  or a company page -- worth questioning whether this belongs in the registry
-  as a data broker at all, rather than a site a directory scrape
-  mis-classified. The site returns HTTP 403 to an automated fetch (bot
-  protection), so it may be live to a real browser; nobody has checked yet.
+- Current: `manual_required` (updated 2026-10-11)
+- Note: NOT UNREACHABLE -- THE SITE IS LIVE AND BLOCKING AUTOMATED CLIENTS. nativeamericannetroots.net resolves to a Cloudflare address (2606:4700:20::681a:311) and returns HTTP 403 to a scripted request on every path tried: /, /privacy, /privacy-policy, /opt-out, /optout. A 403 from Cloudflare is a bot challenge, NOT A DEAD SITE. The distinction matters because the two are indistinguishable from a script and the project recorded the wrong one. Moving to manual_required: the site needs a real browser session, which is a handoff, not an impossibility. Previously an adopted ledger line from 2026-09-19 with no detail. WORTH NOTING ABOUT THIS ONE SPECIFICALLY: a .net site called Native American Netroots reads much more like a community or advocacy publication than a data broker, so before spending effort on a privacy route, check WHY it is on the broker list at all. If it is there because a name matched a registry entry loosely, the right outcome may be removing it from the registry rather than writing to it.
 
 ## Steps
 
