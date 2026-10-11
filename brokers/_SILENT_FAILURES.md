@@ -33640,3 +33640,80 @@ hard," it is "you have designated a route that excludes a class of people and
 closed the others."** It is the strongest version of the designated-method
 argument this file has reached, and it costs the company nothing to answer.
 
+---
+
+## §507 — An email refusal is evidence about one address, not about a company
+
+§505a held VisitIQ back from a full letter and sent a short no-data probe to its
+**filed** address instead. **Thirty-two minutes later:**
+
+> "Thank you for contacting VisitIQ Support. We've received your request and
+> created **Case #01066705.** A member of our team is reviewing the details and
+> will follow up with you shortly."
+
+The row had carried *"email refused outright"* for five weeks, on the strength
+of this, from 3 September:
+
+> "we do not process data requests via email... Please do not reply to this
+> email as it is not monitored."
+
+**Both messages come from the same notification address** — the one that called
+itself unmonitored — and they say opposite things. One refuses email; the other
+opens a case in response to an email.
+
+**The lesson generalises past this row: an email refusal is evidence about the
+address that sent it, not about every address the company has.** A `privacy@`
+autoresponder, a `notifications@` bounce template and a contact filed with a
+state regulator are three different mailboxes with three different
+configurations. §505a's instinct was that a refusal from an unmonitored
+notification mailbox could not settle the status of a mailbox filed with the
+state for exactly this purpose. That was right.
+
+**So: before recording a company as email-refusing, test the registered
+contact separately.** It is one message and it costs nothing — and if it works,
+a CAPTCHA-gated row leaves the subject's manual list entirely.
+
+### §507a — Sending fewer identifiers, and saying why
+
+`outbrain` and `teads` both read `unreachable` with no detail, for companies
+that plainly exist; `privacyquestions@outbrain.com` and `legal@teads.com` were
+in the register the whole time.
+
+Both letters went out **deliberately short on identifiers** — name and four
+email addresses, no address history, no phone numbers — and both say why in the
+text rather than leaving it to inference:
+
+> "a platform keyed to cookies and device identifiers cannot match on an
+> address, so sending you sixteen former addresses would hand you personal data
+> you did not hold, about a person you cannot currently identify."
+
+That is the letter generator's `--keys email-only` doctrine with its reasoning
+spoken aloud. The refusal of the identifier category is also in writing — **no
+MAID, no device ID, no cookie ID, no IP** — with the reason given, and an
+invitation to say if that makes the request unfulfillable, **because that would
+itself be a real answer.**
+
+Both carry the §489a hash question, the query-time question, and one that is
+new: **is the only opt-out a cookie?** A cookie-stored opt-out dies when the
+browser is cleared and does not travel between devices — **it is not a durable
+suppression**, and it is better to be told that now than to discover it later.
+
+### §507b — A merger is where a request falls between two stools
+
+Teads' letter leads with something only that row has. **Teads and Outbrain
+combined in 2025, and their two California registrations are filed
+separately.** From outside it is impossible to tell whether that is now one
+data estate or two.
+
+So the letter asks them to say plainly which: if the combined entity answers
+for both, say so and the Outbrain reply covers it; if Teads retains a separate
+store, answer against that. **The reason is stated because it is the general
+point — a merger is the circumstance in which a request most easily falls
+between two stools, each side reasonably assuming the other handled it.**
+
+That completes a small family of corporate-shape failures: §491, a **rebrand
+collapsing three brands into one** privacy route; §495b, **one letter fanning
+out into two** workflows that can answer differently; and now **two filings
+that may front one estate, or two.** In each case the shape is invisible from
+outside and the only remedy is to ask.
+
