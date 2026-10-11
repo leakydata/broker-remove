@@ -35447,3 +35447,71 @@ submit online — and a call can carry all eight request types at once, which th
 form cannot. That is §506's finding again: **the telephone is the only channel
 with enough bandwidth for the whole request.**
 
+---
+
+## §534 — A request actually filed, and two tool facts that explain earlier failures
+
+JMR Media refused email — *"we do not accept email as a submission method...
+please submit your request using one of our designated methods"* — without
+naming one. The queue entry said: find the designated method, **and if you
+cannot find it, that is the result I want.**
+
+**It exists.** The queue was pointing at `/privacy-policy/`, which 404s. The
+footer carries `/privacy-notice` and `/do-not-sell`, and the latter is a full
+privacy request form. So this was **a wrong path, not a designated-method
+trap** — the company's refusal was legitimate and its route is real.
+
+**Deletion submitted and confirmed:**
+
+> "Request Received. **Request ID: bde0f84b-cf18-46f6-9c9d-b8c7a79d24f3.** We
+> have recorded your request and forwarded it for processing where applicable."
+
+A reference number, which most forms in this project do not issue.
+
+### §534a — An SPA returns 200 for pages that do not exist
+
+`jmr-media.com` is a JavaScript single-page app: **every path returns HTTP 200
+with an identical 2.9 KB shell**, and the 404 is rendered client-side.
+`/privacy-policy/` answered 200 to `curl` and displayed *"404 Oops! Page not
+found"* in a browser.
+
+**So an HTTP status code cannot tell you whether a page exists on such a
+site.** Any scripted route check that trusts the status will record a dead path
+as live — and, worse, will record it as live *with no form on it*, which reads
+as "route exists but is broken" rather than "wrong URL."
+
+### §534b — `form_input` does not set radio buttons, and says nothing
+
+Selecting the request type with `form_input(value="true")` **returned empty and
+set nothing.** The submission came back *"Please select a request type"*, and a
+screenshot showed every radio still unchecked. **Clicking the radio by
+coordinate worked immediately.**
+
+The silent empty return is the problem: it looks exactly like success. This is
+§522c's lesson in its true form — *a tool reporting an action is not evidence
+the action occurred* — except here the tool reports **nothing at all**, which
+is even easier to read as fine.
+
+**And it retroactively explains §531's open question.** At Throtle I tried to
+test whether the request-type control was radios or checkboxes by setting two
+options and looking for a change. **Neither selection was ever made**, so the
+test proved nothing; the question remains genuinely open and my inconclusive
+note was right for the wrong reason. Throtle's row is `confirmed` and closed,
+so nothing turns on it — but the correction is recorded there.
+
+### §534c — Two Turnstile behaviours now confirmed together
+
+The same form showed both halves of the pattern this session has been
+assembling:
+
+- **It passes by itself** — no interaction, no CAPTCHA to solve, given a few
+  seconds.
+- **A failed submit appears to consume the token.** After the validation error,
+  a corrected submit also did nothing; only a full reload produced a working
+  form.
+
+So the rule for any Turnstile-protected form: **do not press Submit until the
+widget reads "Success!", and if a submit fails for any reason, reload rather
+than retrying.** Repeated clicking after a failure is the exact behaviour that
+looks like a broken site and produces §484's unexplained stall.
+

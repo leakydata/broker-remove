@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `manual_required` (updated 2026-08-28)
-- Note: DESIGNATED-METHOD REFUSAL. JMR Media: 'If this message is a consumer privacy request, we do not accept email as a submission method... please submit your request using one of our designated methods.' Legitimate under 1798.130. Route to be staged for the handoff queue rather than argued with.
+- Current: `submitted` (updated 2026-10-11)
+- Note: DELETION REQUEST SUBMITTED AND CONFIRMED 2026-10-11. 'Request Received. Request ID: bde0f84b-cf18-46f6-9c9d-b8c7a79d24f3. Your request has been received. We have recorded your request and forwarded it for processing where applicable. You will receive an acknowledgment email shortly.' A REFERENCE NUMBER, which most forms in this project do not issue. THE DESIGNATED METHOD EXISTS AND THE QUEUE HAD THE WRONG URL. JMR refused email -- 'we do not accept email as a submission method... please submit your request using one of our designated methods' -- without naming one, and the queue entry pointed at jmr-media.com/privacy-policy/. THAT PATH 404s. The real routes are in the site footer: /privacy-notice and /do-not-sell. So this was not a designated-method trap after all; it was a wrong path, and the company's refusal was legitimate. A TRAP FOR SCRIPTED CHECKING, worth recording beyond this row: jmr-media.com is a JAVASCRIPT SINGLE-PAGE APP, so EVERY path returns HTTP 200 with an identical 2.9KB shell. /privacy-policy/ returned 200 to curl and rendered '404 Oops! Page not found' in a browser. Any route_has_form-style check that trusts the status code will record a dead path as live and a live path as reachable without distinction. THE FORM ITSELF IS GOOD: all fifty states offered including Pennsylvania, five request types, postal address collected separately for direct-mail records, and a Cloudflare Turnstile that passes by itself. ONE RIGHT PER SUBMISSION -- their own wording: 'If you wish to exercise more than one privacy right, please submit a separate request for each.' Deletion was chosen; the opt-out of sale/share still needs its own submission.
 
 ## Steps
 
