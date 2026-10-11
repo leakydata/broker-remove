@@ -8,7 +8,7 @@
 
 - Current: `unreachable` (updated 2026-10-11)
 - Reference: `gmail:1a078a9dded1005b`
-- Note: UNREACHABLE CONFIRMED WITH EVIDENCE, 2026-10-10, and the DNS tells the story. locate-friend.com RESOLVES TO 127.0.0.1 -- localhost. That is not a server that has gone down; it is a deliberate null record, the configuration someone sets when they want a domain to answer nothing. Connection fails on both https and http. Previously an adopted ledger line from 2026-09-15 with no detail; now checked.
+- Note: CONFIRMED DEAD ON BOTH CHANNELS, which is now a meaningful statement rather than an assumption. locate-friend.com resolves to 127.0.0.1 -- a deliberate null record -- AND HAS NO MX RECORD AT ALL. So there is no website and no mailbox. This is the only one of the seven where that can be said after checking both, and it is the control case that makes the others legible: All Global Resources looked identical from the web and turned out to have live Microsoft 365 mail. Not in data/register_profiles.json either, so there is no filed contact to fall back on.
 
 ## Steps
 

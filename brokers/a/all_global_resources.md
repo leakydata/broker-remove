@@ -7,8 +7,8 @@
 
 ## Status
 
-- Current: `unreachable` (updated 2026-10-11)
-- Note: UNREACHABLE CONFIRMED WITH EVIDENCE, 2026-10-10. The recorded domain agrgroupinc.com HAS NO DNS RECORD AT ALL -- it does not resolve, so there is no server to ask. That is the strongest form of unreachable and the only one of the seven where the word was unambiguously right. The status was previously an adopted ledger line from 2026-08-28 with no detail; it now rests on a check. NOTHING FURTHER IS POSSIBLE BY WEB. If this company is to be reached at all it is through the California data broker registration, which carries a filed contact address and is the authoritative source for a current route -- a dead website does not remove the filing obligation.
+- Current: `submitted` (updated 2026-10-11)
+- Note: CORRECTING MY OWN 501 FROM TWENTY MINUTES AGO: THE WEBSITE IS GONE BUT THE MAILBOX IS LIVE. I wrote that agrgroupinc.com having no DNS record was 'the strongest form of unreachable' and that 'nothing further is possible by web'. The web half was right and the conclusion was wrong, because I CHECKED ONLY ONE DNS RECORD TYPE. agrgroupinc.com has a working MX record pointing at agrgroupinc-com.mail.protection.outlook.com -- Microsoft 365. A domain can have no A record and still receive mail; they are separate records and a dead website does not imply a dead mailbox. LETTER SENT 2026-10-10 to [named individual]@agrgroupinc.com, the contact in their own California registration, with an opening paragraph explaining why an individual mailbox rather than a privacy address: the website does not resolve, there is no privacy page to find, and the registration is the only published route left. Asked them to forward it and name a better mailbox if one exists. So a row written off as dead twice -- once by another agent in August, once by me today -- turned out to be reachable on the first proper check. THE GENERAL LESSON, WHICH IS WORTH MORE THAN THIS ROW: when a domain looks dead, check MX BEFORE concluding unreachable, and check the registration for the contact. The register was already in this repo at data/register_profiles.json and I went to the web first.
 
 ## Steps
 

@@ -33298,3 +33298,72 @@ of the enquiry.** The register is the one address a broker cannot let rot
 without breaking the law, which makes it the most reliable route in the whole
 project — and the one reached for last.
 
+---
+
+## §502 — Correcting §501 the same evening: a dead website is not a dead mailbox
+
+§501 called `agrgroupinc.com` having no DNS record "the strongest form of
+unreachable" and said "nothing further is possible by web." The web half was
+right. **The conclusion was wrong, because I checked one DNS record type.**
+
+    agrgroupinc.com        MX: agrgroupinc-com.mail.protection.outlook.com
+    date-detective.app     MX: datedetective-app01b.mail.protection.outlook.com
+    customer.com           MX: customer-com.mail.protection.outlook.com
+    locate-friend.com      MX: NONE
+    reversecallerlookup.com MX: self
+
+**A domain can have no A record and still receive mail.** They are separate
+records, and a company that lets its website lapse while keeping Microsoft 365
+is an entirely ordinary thing — arguably the normal failure mode of a small
+firm. **So `unreachable` needs an MX check before the word is used at all.**
+
+Letters sent to All Global Resources (`lzepeda@agrgroupinc.com`, the contact in
+their own registration) and Date Detective (`privacy@date-detective.app`), each
+opening with why an unusual address was used. **A row written off as dead
+twice — by another agent in August and by me this evening — was reachable on
+the first proper check.**
+
+### §502a — The register was in the repo the whole time
+
+Worse than the MX miss: **`data/register_profiles.json` already held both
+contacts**, and 677 others. It also holds Date Detective's filed rights URL —
+`date-detective.app/agreements/privacy-policy` — **a path §501 never tried**,
+because §501 guessed `/privacy`, `/privacy-policy`, `/opt-out`, `/optout` and
+concluded there was no page.
+
+So §501's closing line — *"a dead domain is a lead to the registration, not the
+end of the enquiry"* — was right, and I wrote it **after** probing paths by hand
+instead of reading the file that already had the answer. That is §492's rule
+again (read the record before the website), failing on a different record.
+
+The register also carries practice notes. Date Detective's says they collect
+city and state for localized content, not precise location, with permission
+first — so **that letter leads with the question the filing cannot answer:
+registration-only, or do they also ingest third-party data about non-users?**
+If the former and he never signed up, an architectural answer settles the row
+permanently, which is §499's XING shape. The letter says plainly that such an
+answer is worth more than a deletion confirmation.
+
+### §502b — The limit on the live-MX rule is ownership
+
+`customer.com` has a live MX too. **Here the rule does not apply, and the
+difference is worth stating because it is the one case where today's lesson
+would do harm.**
+
+The domain has been **sold** (§501a). Whoever now owns `customer.com` owns that
+mailbox, and it is not Customer Communications Group. Sending the standard
+letter there would deliver the subject's full identifier set — four email
+addresses, sixteen postal addresses, eleven phone numbers, date of birth,
+profile URL — **to a stranger who bought a domain name.** That is not a privacy
+request; it is a disclosure to an unrelated party, and it would be our doing
+rather than any broker's.
+
+**So: a live mailbox is a route only while the company still owns the domain.**
+Check whether it changed hands before trusting its MX. The row stays
+`unreachable`, which is now the correct word rather than a guess — no route
+exists that can be used *safely*.
+
+`locate-friend.com` is the control that makes all of this legible: null A
+record **and** no MX. Dead on both channels, checked. It looked identical to
+All Global Resources from the web, and one of them had working mail.
+
