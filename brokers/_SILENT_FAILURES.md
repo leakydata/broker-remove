@@ -33367,3 +33367,82 @@ exists that can be used *safely*.
 record **and** no MX. Dead on both channels, checked. It looked identical to
 All Global Resources from the web, and one of them had working mail.
 
+---
+
+## §503 — The register's own contacts bounce, and §502 was wrong too
+
+Both letters from §502 bounced within three seconds, and the two failures are
+different in kind. **So the correction chain today runs three deep:**
+
+- **§501:** no DNS record, therefore dead. *Wrong — a dead site is not a dead
+  mailbox.*
+- **§502:** MX record live, therefore reachable. *Wrong — **a live MX does not
+  mean a deliverable mailbox.***
+- **§503:** both filed addresses reject mail. *Established by sending something
+  and reading the bounce.*
+
+Each step was a real improvement on the last and each was still wrong. **Only
+the send settled it.** DNS tells you a domain's configuration; nothing short of
+a delivery attempt tells you whether a human can be reached.
+
+**All Global Resources**, from their own server:
+
+    550 5.4.1 Recipient address rejected: Access denied
+    agrgroupinc-com.mail.protection.outlook.com
+
+On Exchange Online a 5.4.1 recipient rejection means the address is not in the
+directory — **a live Microsoft 365 tenant whose named mailbox is gone**, which
+usually means the person has left.
+
+**Date Detective** is the more serious finding:
+
+> "Your email couldn't be forwarded from privacy@date-detective.app... **The
+> group privacy isn't set up to receive messages from** [the sender]."
+
+`privacy@` is a Microsoft 365 distribution group accepting **internal senders
+only.** So **the address on their statutory filing cannot receive mail from
+consumers — the only people it exists to serve.**
+
+**This is the second instance of exactly this failure.** §486 found
+`privacy@citydata.ai` was a Google Group rejecting outside mail. **Two for two
+on the cases tested**, which suggests it is not a freak occurrence.
+
+**And it is almost certainly not deliberate.** "Allow external senders" is
+**off by default** on a new Microsoft 365 group. Someone created the mailbox,
+filed the address with the state, and never flipped the checkbox. That is worth
+saying to the company plainly rather than treating as obstruction — so the
+follow-up does, and names the fix.
+
+### §503a — So §501's claim about the register was also wrong
+
+§501 closed by calling the register *"the most reliable route in the whole
+project — the one address a broker cannot let rot without breaking the law."*
+
+**Both register contacts I then tested were undeliverable.** The filing
+obligation makes the address *published*, not *working*. Nobody re-tests a
+contact between annual filings, and a mailbox outlives the person named on it
+by years.
+
+The register remains the best place to **look** — it is still how both of these
+addresses were found at all, and §502a's point stands that it was in the repo
+all along. But **a filed contact is a lead, not a channel**, and it must be
+tested like any other.
+
+### §503b — Guess addresses, but never with the identifier set attached
+
+Both follow-ups went to guessed addresses (`privacy@`, `info@`, `support@`,
+`hello@`), and both were **deliberately short notes containing no personal data
+at all** — just the bounce text, the question "where should this go," and in
+Date Detective's case the one substantive question that needs no identifiers:
+**do you hold data on non-users?**
+
+Guessing an address is reasonable; a bounce costs nothing and teaches
+something. **Guessing an address while attaching four email addresses, sixteen
+postal addresses, eleven phone numbers and a date of birth is not** — it is
+§502b's hazard with the roles reversed. A wrong guess on a live tenant delivers
+the lot to whoever does read that mailbox.
+
+**The rule: establish that a channel works before putting anything into it that
+you would not want read by a stranger.** Cheap, obvious in hindsight, and I
+sent two full letters before thinking of it.
+
