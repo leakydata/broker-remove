@@ -33510,3 +33510,63 @@ exactly which failed, so a single attempt tests two hypotheses.
 Combined with §503b: **guess widely, but keep the identifier set out of it
 until a channel has answered.**
 
+---
+
+## §505 — Reading the six rows first changed what each letter should say
+
+§504 found nine `captcha_blocked` rows with a filed email. The obvious move was
+nine copies of the standard letter. **Reading the rows first (§492) showed that
+three of the six examined did not need a letter at all, and the three that did
+needed different ones.**
+
+| row | what the note already said |
+|---|---|
+| `lob_com` | **access request already filed** — only the deletion is outstanding |
+| `nextroll` | email **not foreclosed**; the letter already stands |
+| `visitiq` | email **refused outright** — but from a *different* address than the filed one |
+| `peoplefinders` | stage 2 staged; the 24-hour link is long dead (§418) |
+| `enformion` | **ticket 15417940 exists** — the request was already filed |
+| `message_digital` | the form **cannot express a request type at all** |
+
+So `captcha_blocked` was doing the same job `unreachable` did in §501:
+**flattening several different situations into one word.** Two of these rows
+were not blocked, they were *already in flight*.
+
+**Message Digital got the sharpest letter**, because §351's finding *is* the
+argument for using email: four fields — Country, State, Phone, Email — with no
+request-type selector, no name field, no free text. The letter says plainly
+that a submission through it **is not capable of being the request he is
+entitled to make**, and that he would have no way of knowing afterwards what
+was actioned. Then three asks a messaging business can actually answer:
+controller or processor; **where the consent record came from** (if a list
+vendor supplied it, name the vendor so it can be written to); and whether a
+control was run on a nil. It also flags the toll-free number specifically —
+in a messaging file that is likelier a campaign artefact than a personal line.
+
+**Enformion got a chase, not a request**, because the request already exists.
+Its substance is the broken loop: their "Complete Your Request" email promises
+the final steps, and the link **returns to the start of the flow behind the
+same reCAPTCHA.** The letter sets out the closed circle — the request exists,
+their email says it is incomplete, the route for completing it loops back — and
+asks for the **ticket's status first**, including "closed for inaction" stated
+plainly, because refiling cleanly beats chasing a dead ticket.
+
+### §505a — `visitiq` is the one worth not writing to yet
+
+Its note records an outright email refusal: *"we do not process data requests
+via email... Please do not reply to this email as it is not monitored."*
+
+**But that came from `Notifications@visitiq.io`, and the filed address is
+`support@visitiq.io`.** A refusal from an unmonitored notification address is
+not obviously the company's position on its *registered* contact — and §491
+already established that a deflection can contain a working route the policy
+lost.
+
+**Held back deliberately rather than written to.** The argument is worth making
+once, properly: a company that files an address with the state and then refuses
+the method has a tension to explain. Firing the standard letter at it would
+spend that argument on a mailbox that may simply bounce. It needs the §503b
+treatment first — **a short no-data note asking whether the filed address
+accepts requests** — and that is a better use of one attempt than a full letter
+and a guess.
+
