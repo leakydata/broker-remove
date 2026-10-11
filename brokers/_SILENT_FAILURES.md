@@ -34087,3 +34087,64 @@ check happened before the claim** rather than after — the temptation was to
 report "87 companies have vanished" and only then wonder whether the snapshot
 was complete.
 
+---
+
+## §513 — Five rows said `submitted` and nothing had ever been sent
+
+§512 flagged the Altrata cluster as one company and one chase. Reading the five
+rows first, per §511b, turned up something worse than a duplicated effort:
+**all five read `submitted` with no history at all**, and a Gmail search for
+`altrata`, `boardex`, `wealthengine`, `wealth-x`, `boardroom insiders` and
+`relsci` returns **only LinkedIn notification noise. There was never any mail
+to or from `altrata.com`.**
+
+So five rows asserted an outstanding request that had never been made. That is
+§500's error in its most direct form: **`submitted` claims a live request
+awaiting a reply, and claims it about a company nobody had written to.** Worse
+than an unearned nil, because a nil at least stops the clock honestly — this
+leaves five rows looking *in progress* forever.
+
+**Sent the letter first and recorded afterwards**, so the status now rests on
+an artefact rather than on an assumption.
+
+### §513a — Why this letter sends the full identifier set when the last three did not
+
+§507a withheld address history from Outbrain and Teads on the reasoning that a
+cookie-keyed platform cannot match on an address, so sending one would hand
+over data they never held. **The same reasoning points the other way here, and
+it is worth being explicit about the inversion.**
+
+**Wealth screening commonly estimates net worth from property records.** A
+former address is therefore not incidental to Wealth-X or WealthEngine — **it
+may be the key the record is built on.** Withholding it would manufacture a
+false nil of exactly the §450 kind.
+
+So the rule is not "send less" but **"send what the business can actually
+match, and say why."** Both letters state their reasoning in the text. The
+discipline is identical; the output is opposite.
+
+### §513b — Asking for the score, not the fields
+
+The substantive ask is new to this file. Wealth intelligence is a **scoring**
+business: estimated net worth, liquid assets, giving capacity, propensity to
+donate, investable-asset bands.
+
+**Those are inferences about him, not facts he supplied — and they are what has
+effect in the world.** A nonprofit screening a prospect list acts on the score,
+not on the address underneath it. So the letter asks for the **modelled and
+scored attributes to be deleted as personal information in their own right**,
+not merely detached from his name while the model output survives; and for any
+score to be **disclosed before deletion**, since access-then-erase is the only
+order in which he ever learns what was computed about him.
+
+It also asks whether he was ever **returned in a client donor-screening
+output** — not who the client was, but whether, roughly when, and what
+categories. **A record screened out to third parties is not contained by
+deleting the copy at source**, which is §444's controller/processor problem
+arriving from the other direction.
+
+And the deregistration question is put plainly, with the innocent explanations
+offered first and the practical reason for asking stated: **if Altrata is no
+longer registered, this letter is the only route and no central Delete Act
+sweep will catch it later** (§512b).
+
