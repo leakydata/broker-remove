@@ -35260,3 +35260,62 @@ substantive reply will show. **Ticket #6649339 is the handle for everything
 that follows**, and a third working address is now on record:
 `customercare@spokeo.com`.
 
+---
+
+## §531 — The queue item whose id did not match the row that already answered it
+
+A handoff called `throtle_corrected_link` carried a painstakingly recovered
+DSAR URL — the intact PrivacyPillar form, found on `throtle.io/privacy/` after
+the emailed link arrived corrupted. I opened it, confirmed it works, and
+**filled seven fields before checking the status row.**
+
+**The row is already `confirmed`.** Throtle wrote on 1 October: *"We have
+deleted any data from our systems that may have been held. This request is
+complete."*
+
+So the form I was staging would have been **a duplicate submission of a
+completed request**, and I would have handed the subject a text CAPTCHA to
+solve for work finished ten days earlier. Nothing was submitted; the item is
+closed.
+
+### §531a — Why the existing duplicate check could not catch it
+
+§492a's scan finds **two queue entries sharing one broker id**. This was the
+other shape: **one entry whose id matches no row at all**, while the row that
+answers it sits under a shorter name.
+
+    queue item:  throtle_corrected_link   (no status row exists)
+    status row:  throtle                  (confirmed, 1 October)
+
+A sweep for orphans found **15 queue items whose broker id has no status row.**
+Most are deliberate pseudo-items — batches, decisions, the stale-route recheck.
+But three point at real rows under a shorter name:
+
+    lotame_via_epsilon  ->  lotame   (manual_required)   — a second route, legitimate
+    nexxa_check         ->  nexxa    (submitted)         — a check, legitimate
+    nuwber_verify       ->  nuwber   (confirmed)         — see below
+
+**The rule that would have caught Throtle, and costs one lookup: before driving
+any queue item, read its status row — and if the id has no row, look for one
+whose name it extends.** A queue id ending `_corrected_link`, `_v2`, `_new`,
+`_check` or `_verify` is a near-certain sign the canonical row is elsewhere
+under the shorter name.
+
+### §531b — And one orphan that is legitimate but belongs elsewhere
+
+`nuwber_verify` is not stale. Nuwber's row is `confirmed`, but re-verification
+is blocked: `nuwber.com/search` returns **HTTP 403 to any scripted request** —
+bot protection rather than a missing page, since the body is 92KB. So the
+"gone" verdict **stands unrefreshed rather than reconfirmed.**
+
+The entry asked a human to search for the name and report. **That is §521's
+trade, and §521 decided it is not a free action** — a self-search on a
+people-search site can log the query, surface the subject in a "recently
+viewed" feature, or prompt the index to refresh the profile that was removed.
+
+So it has been folded into the same decision as the seven-row listing-URL
+cohort, with the same three options and the same safer-form instructions.
+**Eight separate "go and check" items were quietly asking the subject to make
+the same trade eight times.** Asked once, it is a decision; asked eight times
+in eight entries, it is attrition.
+
