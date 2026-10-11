@@ -33717,3 +33717,80 @@ out into two** workflows that can answer differently; and now **two filings
 that may front one estate, or two.** In each case the shape is invisible from
 outside and the only remedy is to ask.
 
+---
+
+## §508 — The register discloses a carve-out from the company's own opt-out
+
+§502a found contacts and URLs in `register_profiles.json` that the project had
+never used. The filings' **practice notes** are richer still, and one of them
+answers a question the project spent a letter asking.
+
+**Spokeo's registration, verbatim, in both the 2024 and 2025 filings:**
+
+> "an opt out completed from this page will opt a consumer out from **all
+> public Spokeo websites except Thatsthem.com.** To opt out from having their
+> publicly available information available on Thatsthem.com, consumers may
+> submit their opt out request at thatsthem.com/optout."
+
+**A named carve-out from the company's own opt-out, disclosed in a statutory
+filing.** A consumer who completes Spokeo's tool and stops there stays listed
+on Thatsthem and has no way of knowing.
+
+Credit where it is due: **disclosing the carve-out at all is more than most
+companies manage.** But it means the natural assumption — one opt-out, one
+corporate family, done — is wrong.
+
+**And on 27 August the project wrote to Spokeo asking exactly this**: does one
+suppression cover all six named properties, or is each separate? The answer was
+already in the filing. **That is §502a's failure repeating on a different
+field** — the register was read for contacts and not for what it says.
+
+### §508a — The same filing offers a route that covers what the tool excludes
+
+> "Consumers may also submit their opt-out request by contacting Spokeo
+> Customer Care... (which includes a nationwide toll free number). **Spokeo's
+> Customer Care agents will gladly assist consumers with completing an opt out
+> request for all of Spokeo's public websites.**"
+
+So by Spokeo's own account there is a **single channel reaching the property
+the self-service tool excludes.** Better than six forms — and the **second**
+instance of §506's finding that the usable route can be a telephone.
+
+A letter went to **`legal@spokeo.com`** — the filed address, never used before;
+earlier correspondence went to `privacy@spokeo.com`. It quotes both passages
+back, asks them to treat the email as the Customer Care request across every
+property, and asks three things:
+
+1. **Which properties were actioned, by name.** Given the carve-out, *"we have
+   processed your opt-out"* is ambiguous here in a way it would not be
+   elsewhere.
+2. **Whether Thatsthem was included** — or whether the filing's "all" is in
+   practice subject to the same exclusion. **Better to have the limit stated
+   than to discover it in six months.**
+3. **What the suppression joins on.** For a people-search index this decides
+   everything: a name-plus-city key stops matching on a move and catches every
+   namesake in town.
+
+The August miss is owned in the letter as ours, not theirs.
+
+### §508b — Other sources named in filings, worth following
+
+The same sweep over 677 filings turned up provenance disclosures nobody has
+acted on. A sample:
+
+    contacts411      "uses Alesco consumer data only"
+    reachdata        listings "for sale on Freemium Data Services'" sites
+    leadsherpa       text referring to "Property Reach's" websites — a shared
+                     filing, suggesting shared ownership or a shared template
+    choreograph      health data "from a covered health care provider therefore
+                     not beholden to HIPAA regulation"
+    medpro_systems   "from which MedPro acquires the information"
+
+**A named upstream is a new broker to write to**, and a filing that names one
+is doing the provenance work the letters normally have to beg for (§450's
+source question, answered once in a hundred). `contacts411` and
+`integrated_medical_data` remain undeliverable — both domains still publish
+no A and no MX record, re-checked tonight — **but Alesco is reachable even
+though Contacts411 is not.** Suppressing at the source is better than
+suppressing at a dead reseller.
+
