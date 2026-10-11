@@ -34322,3 +34322,66 @@ privacy function runs on the Teads domain, so the supplement says in its own
 text that it covers the parallel letter — sending a second would repeat §514a's
 duplicate. If Teads replies claiming a separate estate, it gets its own.
 
+---
+
+## §516 — Dating a record from the address that is on it
+
+The EAB supplement makes the strongest version of §514b's argument, and it is
+worth isolating because it generalises into a technique.
+
+**The subject was born in January 1979.** His college-search and application
+years were therefore roughly **1996–2001**. The dormant addresses in the
+identifier set sit on consumer services of exactly that window — WebTV, a
+portal mail service, a 1990s dial-up ISP, two early Hotmail accounts. All long
+dead.
+
+So: if EAB, Appily or Cappex holds a record originating in a test registration,
+a scholarship search, a college-fair sign-up or a purchased high-school list
+from that era, **the address attached to it is far likelier to be one of the
+dead accounts than anything he uses today.** A search run against four current
+Gmail addresses returns a nil that means nothing at all.
+
+**The technique, stated generally: an email address dates a record.** A
+service that died in 2004 cannot be on a record created in 2015, and a Gmail
+address cannot be on one created in 1999. So the identifier set is not just a
+wider net — **it is a set of era-stamps, and matching one tells you when the
+record was made, which is often what you actually wanted to know.**
+
+That lets the request ask for something more precise than "where did this come
+from": **if a match comes back on a dead address, what is its approximate
+origin date?**
+
+### §516a — Which merges with the minority question
+
+§504's EAB letter asked whether any part of the record was created **while he
+was a minor** — anything originating before January 1997 was.
+
+**The dating argument makes that answerable rather than rhetorical.** A record
+keyed to a 1996-era consumer address sits squarely in that period. So the two
+questions are really one, and the supplement puts them together: a match on a
+dead address, plus its origin date, settles whether a student-recruitment file
+holds data collected from a child.
+
+### §516b — Saying what a supplement does *not* help with
+
+Brandwatch got the same twelve addresses and an explicit narrowing: **for the
+social-listening index an email address is probably not the key at all.** The
+key is a profile URL or platform handle, as §504 already argued, and eight more
+addresses change nothing there.
+
+Where they matter is the other half — **Cision's media-contact and influencer
+database**, which is a contact database keyed to contact details, where a
+professional record can be decades old and the dormant addresses are plausible
+keys while current ones are not.
+
+So the ask is split by product, and the letter says it is not asking them to
+pretend the addresses help with the listening index.
+
+**That is worth doing deliberately.** Conceding the part of your own request
+that does not apply makes the part that does harder to wave away — and it
+prevents the reply this file keeps complaining about, where one sentence covers
+two systems and settles neither. The closing ask makes that explicit: **a nil
+in the listening index searched by profile URL and a nil in the media database
+searched by twelve addresses are two findings; a single sentence covering both
+is one assertion.**
+
