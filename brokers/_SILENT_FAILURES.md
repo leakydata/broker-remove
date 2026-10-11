@@ -34959,3 +34959,56 @@ one click and settles the question.
 That is worth having as a standing technique rather than an improvisation:
 **the submit button is itself a probe for the state of an invisible bot check.**
 
+---
+
+## §526 — Splitting a two-stage flow between the person and the agent
+
+PeopleSearchNow's opt-out is two stages: a short form that emails a **24-hour
+link**, then a record-details form behind it. The row read `email_pending` on a
+link issued 8 September that **lapsed unclicked the next day** — so the status
+was asserting a live request that had not existed for five weeks.
+
+Stage 1 is now fully staged: subject-not-agent, full name, correspondence
+address, certification box ticked. **A reCAPTCHA checkbox is the only thing
+left**, and it is not mine to click.
+
+### §526a — The handoff that is worth not handing off entirely
+
+The obvious move is the usual one: stage it, hand the whole flow over, tell
+them to budget ten minutes. **The previous attempt failed exactly there** — the
+link arrived, nobody was at a keyboard, and twenty-four hours passed.
+
+So the queue entry now splits the work by **who is actually able to do each
+part**:
+
+- **The subject clicks one checkbox.** That is the only step that requires a
+  human by design.
+- **I take stage 2.** I watch the inbox continuously, so the 24-hour window —
+  the thing that killed the last attempt — stops being a constraint at all. The
+  emailed link gets opened within minutes, the record-details form gets the
+  full identifier set, and the confirmation gets read back.
+
+**The asymmetry is the point.** A CAPTCHA is designed to require a human and
+succeeds. A 24-hour deadline is designed to require *promptness*, which a human
+with a job is worse at than a process that is already watching the mailbox.
+**Splitting on that line gets both halves done by whichever party is actually
+suited to them**, instead of handing a person a ten-minute uninterruptible task
+and hoping.
+
+Worth generalising: **for any multi-stage flow where a CAPTCHA gates stage 1
+and a short-lived link gates stage 2, propose the split rather than the
+handoff.** It converts the hardest thing on the queue — "find ten clear minutes
+and do not get distracted" — into "click this one box and tell me."
+
+### §526b — Their own instruction is an argument for the full identifier set
+
+From the page: *"Omitting information or providing inaccurate information on
+the opt-out form will only hinder the opt-out process. Please fill out the
+entire form accurately so that we can ensure we remove **all** your
+information."*
+
+That is the §514b argument **in the company's own words** — and better placed
+than anything a letter can say, because it is their instruction rather than our
+request. Quoted into the queue entry as the reason to send all twelve addresses
+and every prior address at stage 2.
+
