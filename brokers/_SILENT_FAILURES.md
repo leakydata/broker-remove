@@ -33091,3 +33091,90 @@ repetition explicitly, with the earlier ticket reference, is what got past it.
 Worth reusing verbatim wherever an autoresponder answers a question it has not
 read.
 
+---
+
+## §499 — What a good nil looks like, written out by XING
+
+This file is mostly a catalogue of failures, so it is worth recording the
+opposite in full detail. XING's reply (Ulf Pohlmann, Team Lead User Support,
+part of NEW WORK SE, 21 September) is **the best-reasoned nil received**, and
+it is worth naming exactly what it does — because every one of these is a thing
+other companies could do for the cost of a sentence.
+
+**1. It answers the identifier question explicitly**, in three bullets rather
+than one vague clause:
+
+> "we cannot identify a XING profile belonging to you; we cannot confirm that
+> any of the identifiers provided matched an existing XING member profile; and
+> no profile has been deleted, as there is no profile that we can reliably
+> associate with you."
+
+That is ask 1 of the standard letter — *which identifiers matched* — answered
+in the negative, precisely. Most nils collapse all three into "no records
+found," which leaves the requester unable to tell whether a record was found
+and deleted, or never existed.
+
+**2. It explains the architecture, which makes the nil structural rather than
+merely asserted:**
+
+> "Member profiles are created through an individual registration process and
+> **are not created by compiling consumer records obtained from data brokers or
+> other external sources.**"
+
+A registration-only platform cannot hold a compiled record. If he never
+registered, there is nothing to find — and that is checkable reasoning, not a
+claim to be taken on trust. **A new kind of structural nil**, distinct from the
+device-graph and query-time cases of §479a: those cannot match a name because
+of how they key; this cannot hold a record because of how it acquires.
+
+**3. It states the third-party-harm limit as its own policy, unprompted:**
+
+> "We also do not suppress former postal addresses or telephone numbers as
+> standalone identifiers where they cannot be reliably linked to a specific
+> XING account, **as doing so could affect unrelated individuals who may now
+> use those details.**"
+
+**That is §400 and §474's principle, volunteered as doctrine.** §474 had to
+*withdraw* a name-based ask after The Dots refused it and was right to. Here a
+company arrived at the same limit on its own and explained it. The letter asks
+for exactly this restraint; XING did not need asking.
+
+**4. It gives a minimisation undertaking:**
+
+> "Information supplied solely for the purpose of this request will not be used
+> for unrelated purposes merely because it was included in your
+> correspondence."
+
+This answers the project's standing discomfort — that handing over a full
+identifier set to a company that held nothing *creates* data. The letter raises
+it every time and is almost never answered. Here it is, in writing.
+
+**5. It names the reopening route**: a profile URL, the registration email, or
+another uniquely identifying account detail.
+
+### §499a — Why this one is settled and Crunchbase's is not
+
+Both nils end with "give us a better key and we'll look again." **They are not
+equivalent, and the difference is worth stating because it decides whether to
+spend another letter.**
+
+Crunchbase's reopening route pointed at **keys that exist and went
+unsearched** — a profile URL and an employer, at a company organised around
+exactly those fields. So §498 reopened it.
+
+XING's route needs a **XING account identifier**, and there is no reason to
+think one exists: it is a DACH-market platform and the subject is a
+Pennsylvania resident who has no evident reason ever to have registered.
+Supplying more keys cannot help, because the architecture says a non-member has
+no record.
+
+**So: a reopening offer is worth taking up only when the unsearched keys are
+ones you actually hold and the company plausibly indexes.** Otherwise it is a
+polite door to nowhere, and walking through it spends attention that belongs
+elsewhere. Recorded as settled.
+
+(Crunchbase acknowledged the new letter within seconds — but **under a new
+ticket number**, 2831197 against the original 2820893. A new ticket may not
+carry the old thread's context, so if the second answer arrives as a fresh nil
+rather than a reassessment, Frank's own invitation should be quoted back at it.)
+
