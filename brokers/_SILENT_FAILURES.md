@@ -37528,3 +37528,63 @@ broker registration necessary.
 The form then threw *"Something went wrong"* and redirected to `/error`,
 discarding everything. A full fill sheet is on disk so the retry costs nothing.
 
+## §567 — The form breaks on the one field it cannot do without
+
+Deloitte's PIRF, retried with the coordinate error of §566 fixed. First name,
+last name, phone, city, state, postal code — all accepted without complaint.
+Then the email address:
+
+> "Something went wrong. Please try again after some time."
+
+Redirect to `/error`, everything discarded. **Twice.** And on the second run the
+email was the *seventh* field rather than the third, so it is not a timeout and
+not a position in the sequence. **It is that field.**
+
+**What I have not established, and will not claim:** both attempts set the
+value programmatically. I have not watched a human type into it. §566 was
+written an hour earlier about exactly this failure mode — a confident sentence
+about a system never properly exercised — so the limitation goes in the note,
+in the fill sheet, and in the message to Deloitte, rather than being quietly
+dropped because the finding is more interesting without it.
+
+But if it *is* general, the shape of the problem deserves stating:
+
+**The email address is a required field.** A form that dies when you enter it
+is not degraded, it is closed. And the failure is **invisible from the inside** —
+because the only person who can report it is the person whose report just got
+eaten. The error names no cause, so there is nothing to work around. A company
+could run this for months and see only an absence of submissions.
+
+### §567a — Two more mechanical notes, and a correction to my own method
+
+The *Myself / Someone else* radios **do not respond to a click on the input** —
+only a click on the **label text** registers, and even that is flaky: one click
+on the first run, two on the second, and on a third rebuild it would not take
+at all. §566 taught me the coordinates were wrong; this adds that **being on
+target is necessary, not sufficient.**
+
+`/request-form` also cannot be linked to — it bounces to `/`, so every retry
+restarts from a *"Request Form"* button that sits **below the fold on a page
+whose body does not scroll**.
+
+### §567b — Taking the published door instead
+
+Deloitte's own landing page carries the answer: *"For additional questions,
+please contact us at [a data subject request address]."* So the request went by
+email, asking for **all seven things their own form offers as separate
+options** — confirm processing, access, electronic copy, delete, opt-out of
+sale, limit use of sensitive PI, and the disclosure list — plus forward-looking
+suppression.
+
+Two choices in that letter are worth recording. First, it **reports the fault
+to them**, with the limitation stated rather than buried. Second, it **respects
+their own rule**: their form says extra identifiers in free text are not
+processed and must be submitted separately (§566b), so the wider identifier set
+was *not* pasted in. It offers it instead: *"tell me the format you want and I
+will send them."*
+
+That second one is a small thing that matters. **A company that tells you the
+truth about how its intake works has earned not being worked around.** The
+usual move — dump every identifier into the nearest free-text box and hope —
+would have been worse than useless here, and they said so in advance.
+
