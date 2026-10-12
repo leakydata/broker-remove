@@ -37252,3 +37252,54 @@ verification step that this project has encountered. **Neither observation
 cancels the other**, and a file that recorded only the first would describe
 Blackbaud less accurately than one that records both.
 
+## §562 — Four seconds between the acknowledgement and the result
+
+Minerva's pipeline, in full:
+
+| time | event |
+|---|---|
+| 13:45:14 | verification mail sent |
+| ~13:46 | email verified |
+| **14:02:51** | *"Privacy Request Confirmation"* — request received, processing |
+| **14:02:55** | *"Privacy Request / minerva.io **results**"* |
+
+**Four seconds.** And the entire substance of the results email is twelve
+words:
+
+> "We have taken action per your request."
+
+There are no results in the results email.
+
+This is **the fastest reply this project has received and among the least
+informative.** Set against §557's Snov.io, which took weeks and named the one
+identifier that matched, the four it did not, and five recipients by address,
+the comparison settles something: **speed and substance are independent
+variables.** A fast answer is not a good one, and a slow one is not
+necessarily a stalling one.
+
+### §562a — The interval is the evidence
+
+§535 established that **latency is the tell** for an automated nil: three
+refusals in thirty-nine minutes, keyed to request type, from a no-reply
+address. This is the same instrument applied to a completion rather than a
+refusal, and it is sharper because the gap is smaller.
+
+**Four seconds cannot contain a search** across a graph their own policy
+describes as roughly 270 million records. What the second message records is a
+**state transition** — request moved from *received* to *actioned* — not the
+outcome of a lookup.
+
+That does not mean nothing happened. A suppression entry can be written
+instantly, and if the honest answer is *"we hold nothing about you and have
+added your identifiers to a suppression list,"* four seconds is entirely
+plausible. **The problem is that the message does not say which.** *"We have
+taken action"* is equally consistent with deleting a detailed profile and with
+finding nothing at all — opposite outcomes, recorded identically.
+
+The reply asks the four questions again, plus the §1798.105(c) recipients
+question, and makes the point plainly: **a slower answer with content is worth
+more than a fast one without.** It also says that an unqualified "we held
+nothing" would be a complete and welcome answer — because it would be, and
+because a company that fears the question is more likely to answer it if the
+nil is explicitly acceptable.
+
