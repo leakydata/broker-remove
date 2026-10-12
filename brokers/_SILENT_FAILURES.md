@@ -35779,3 +35779,72 @@ captured two steps earlier is stale, and one such stale click landed on
 after every interaction on a progressive form** — not to confirm success, but
 because the page beneath the cursor is no longer the page you measured.
 
+## §539 — The published route was a 404 and the real one was behind the policy
+
+`pmg.com/your-privacy-choices` — the URL `find_request_urls.py` recovered on 30
+August and the queue has carried ever since — **returns a genuine 404 page.**
+
+The live form is `pmg.com/dsr-form`, and the only way to it is to read the
+privacy policy and follow a link labelled *"Privacy Request Form"* inside the
+section *How To Submit A Request*. Nothing on the 404 points there.
+
+**A consumer who stops at the published address concludes PMG offers no
+route.** That is the whole failure mode this file is named for, and here it is
+produced not by refusal but by a dead link nobody re-checked. The same read
+also recovered a **toll-free privacy line — 1-844-441-9869, PIN 368918** — and
+two addresses, `dataprivacy@pmg.com` and `dpo@pmg.com`.
+
+The lesson for this project's own machinery: **a recovered URL is a
+point-in-time observation, not a standing fact.** `stale_route_recheck` exists
+for exactly this, and it should run before a queue item is driven, not after it
+fails.
+
+### §539a — Three ways the form misdescribes itself
+
+The form at `/dsr-form` is otherwise competent, and all three faults are in its
+labelling rather than its behaviour:
+
+- **"Select request type(s)"** is plural and **single-select.** Choosing *Do
+  Not Sell* silently deselected *Data Deletion*. Two rights need two
+  submissions, and the label says otherwise.
+- **"I am a (an)"** offers *Prospective Employee, Customer, Contractor,
+  Employee*. **There is no "Consumer."** The entire population whose data an
+  advertising agency processes for its clients is absent from its own intake
+  taxonomy. The nearest option had to be chosen and the discrepancy stated.
+- Choosing deletion raises *"By exercising your right to deletion, you will
+  lose all account information."* That is account-holder boilerplate shown to
+  someone who has no account, and it reads as a deterrent to a person it does
+  not apply to.
+
+Each is small. Together they describe a form built for employees and clients
+and pointed at consumers.
+
+### §539b — A text box that will not take text
+
+`Request Details` refused typed input twice. Both attempts reported success and
+left the counter at **0/5000**.
+
+This is §534b's shape in a new place — *the tool reports the action and the
+field is unchanged* — and the response is the one that rule implies: **stop
+after the second attempt.** The field is optional, so the request can still be
+filed; the scope language is preserved in the queue entry to be pasted by hand.
+
+And it makes the **phone line the better channel**, not a fallback. It takes
+no CAPTCHA, carries the scope the textarea would not, and can assert deletion
+and opt-out in a single call — the thing the form's own single-select design
+forbids. §537b said a letter is the only channel that lets you write your own
+terms; a phone line is the same argument with a shorter wait.
+
+### §539c — A staged form is not a record
+
+Correcting something said one pass earlier: the Nexxen form was reported as
+*left open at the reCAPTCHA for a one-click finish*. The next item was then
+opened **in that same tab**, destroying the staging. Nothing was submitted and
+nothing was lost but the typing, because the queue entry lists every value for
+a refill — which is the only reason this is a nuisance rather than a loss.
+
+**A staged form is state held in a tab, and a tab is not a record.** Either
+open a new tab for the next item, or treat the queue entry as the sole durable
+artefact and say so rather than promising a tab that the next action will
+close.
+
