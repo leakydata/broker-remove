@@ -36740,3 +36740,66 @@ with a person.
 The form is staged behind a **distorted-text image CAPTCHA** — not a checkbox
 this time — which is the category this project does not solve.
 
+## §554 — The disclosure that named its own sources
+
+hireEZ's reply of 17 September had sat unread for three weeks because it was
+~300 KB. It is **the fullest source disclosure this project has received**,
+and it did four things in one message that almost nothing else has done:
+
+1. **Stated what they collect, by field** — *"name, email address, general
+   location, social media profile links, education, experience, skills,
+   projects, and publications"* — with an express statement that no special
+   categories are collected.
+2. **Named every upstream supplier**: **Alpha Data Labs**, **Operia/Xverum**,
+   and **People Data Labs**. This is the thing every provenance question in
+   every letter has been trying to extract.
+3. **Gave a working opt-out route for each one** — an email address for the
+   first, a URL for the other two.
+4. **Attached a portable copy** of the record, and confirmed deletion: *"we
+   have completed your request. We no longer possess any information about
+   you."*
+
+### §554a — What the names were worth
+
+Checked against the tracker immediately, which is the only reason the
+disclosure was worth anything:
+
+| named source | status when checked |
+|---|---|
+| Alpha Data Labs | already `submitted` |
+| Operia/Xverum | already `submitted` — letter sent 9 October |
+| **People Data Labs** | **`manual_required`, with an empty adopted note** |
+
+So **one of the three named sources had never been actioned**, and its row
+carried no evidence at all — *"Adopted from the shared ledger... No detail is
+carried across."* It is now staged at its reCAPTCHA, using the exact URL
+hireEZ supplied.
+
+That is the argument for asking every company who supplied them, made
+concrete: **a single cooperative disclosure closed a real gap that crawling
+had not.** Two of the three were already in hand, which is itself worth
+knowing — it means the project's coverage was better than feared, and that the
+disclosure's value lay in the one it caught.
+
+### §554b — A fourth meaning for a state list
+
+People Data Labs' form offers: **NY, California, Oregon, Montana, Other US
+State**, then EU member states, then Other.
+
+The four named states are those with statutes PDL treats as specifically
+engaged; **"Other US State" is a first-class option**, so there is no
+residency gate. Against §553's three readings — Neptune Ops blocking,
+PureCars meaning nothing, Inmar describing legal obligation with an explicit
+out-of-scope path — this is a fourth: **a short list of named states plus an
+explicit catch-all.** The pattern now has four instances and no reliable
+meaning. Open the control.
+
+### §554c — Still unread
+
+The attachment, `NathanJones-hireEZ-Candidate-Profile.pdf`, has **not been
+read**. It is the only portable copy of an actual profile this project holds
+from a recruiting-data company, and the obvious questions for it are: **which
+of the twelve email addresses matched**, and **what was inferred** rather than
+collected. §514b established that an address dates a record; a document
+showing which address a company actually keyed on would test that directly.
+
