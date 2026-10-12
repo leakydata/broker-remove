@@ -35848,3 +35848,58 @@ open a new tab for the next item, or treat the queue entry as the sole durable
 artefact and say so rather than promising a tab that the next action will
 close.
 
+## §540 — A screenshot is a claim about the past
+
+**§539b is wrong and this corrects it.** I reported that PMG's form sat staged
+at an unticked reCAPTCHA and that its `Request Details` box had refused typed
+input twice, citing a `0/5000` counter and an empty box in two screenshots.
+
+Both readings were false. OneTrust emailed at **01:28 UTC** with **Request ID
+FM6XRMKND5**, echoing every field back — including *"Request Details:"*
+followed by a long masked string ending **"to."**, the closing words of the
+scope text I had declared lost. The verification link was clicked the same
+pass and the portal returned **"Your request is confirmed!"** The deletion, and
+the opt-out demand embedded in its free text, are live.
+
+**What produced the error.** The two screenshots immediately before that
+sequence **timed out with CDP renderer errors**. What I photographed afterwards
+was very likely not the live DOM. I then read a stale image as evidence of an
+empty field, concluded the tool had silently failed, and wrote that conclusion
+into this file as a finding — complete with a rule drawn from it.
+
+So, the rule that actually holds:
+
+> **A screenshot is a claim about the past, not the present — and after a CDP
+> timeout it is an unreliable claim.**
+
+§534b said *a tool reporting an action is not evidence the action occurred*.
+This is its mirror and the more dangerous half: **a tool reporting that nothing
+happened is not evidence that nothing happened.** Absence seen through a stale
+render looks exactly like failure, and failure is the more interesting story,
+which is precisely why it needs the higher bar.
+
+The correct move after a renderer timeout is to re-navigate, or to check the
+outcome through a different channel entirely. **Here the inbox held the answer
+the whole time** — a OneTrust confirmation sits in Gmail within minutes of any
+submission, and one mail check would have settled it before §539b was written.
+Check the channel that confirms, not the surface that renders.
+
+### §540a — What the echo is worth
+
+The confirmation email lists every submitted field. That is more than a
+receipt: it is **proof of what the company received**, in their words, at a
+timestamp, under a reference number. For a form whose values you cannot verify
+after submission — and most reset or redirect — the echo is the only durable
+record that the scope text, the state, and the request type arrived as sent.
+
+Worth keeping for any OneTrust-fronted request: **the acknowledgement is the
+evidence, not the screenshot.**
+
+### §540b — Momentum Platform LLC
+
+The footer reads *"This email was sent from Momentum Platform LLC."* That name
+appears nowhere on `pmg.com`. PMG Worldwide's OneTrust tenant is registered to
+it, so it is the entity that will answer — and the name to use if PMG is ever
+cross-referenced against a state register filing, where a search for "PMG"
+would miss it.
+
