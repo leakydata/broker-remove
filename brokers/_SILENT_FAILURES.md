@@ -36624,3 +36624,68 @@ they were *wanted*; this one was wanted because it would have been a good
 finding. **The check cost almost nothing and the publication would have been
 wrong.**
 
+## §552 — The form that lets you ask for everything at once
+
+PureCars' request was **submitted with four rights in a single request** —
+access, delete, sensitive personal information, and opt-out of sharing —
+returning *"Thank You. Your submission has been received."* No CAPTCHA blocked
+it; the site uses an invisible reCAPTCHA that passed by itself.
+
+**"Select the requests you want to make" is eight checkboxes**, and ticking
+four of them worked. Every other form in this project has been plural in its
+label and single-select in its behaviour (§539a, §544a), or has said outright
+that each right needs its own submission (§535's JMR, §538's Nexxen). One
+company has now demonstrated that the obvious thing is possible.
+
+Two more things it gets right. The flow is titled **"DSAR Eligibility
+Screening"** and asks for residence from a list introduced as *"one of these
+states"* — language that reads exactly like §545's Neptune Ops gate. **It is
+not one.** The list is all fifty states plus DC and Pennsylvania is accepted.
+The same framing, the opposite substance; which is a caution against reading a
+heading as a finding.
+
+Its one real limitation is §544a's in miniature: the relationship step offers
+a single consumer category — *"Consumer that has shopped for cars, parts, or
+service at auto dealerships"* — so a person whose data PureCars holds without
+ever having used a dealership has no accurate box.
+
+### §552a — The queued route was deprecated, and the dead end was the point
+
+The handoff pointed at a **Google Form**, and its entry weighed a real
+question: submitting through Google puts personal data into a third party's
+sheet, so should the toll-free line be used instead?
+
+**The question was moot.** The form now says only: *"This form has been
+deprecated. Please, visit purecars.com and see the Your Privacy Rights link at
+the bottom of the page."* The live route is `your-privacy-rights.purecars.com`
+— on PureCars' own domain, which also disposes of the third-party concern
+entirely.
+
+This is §539 again — a queued URL that has died since it was recorded — and
+the second this week. **A route is a perishable fact.** The cheapest thing to
+do with any queued URL is open it before reasoning about it; two passes of
+careful deliberation about Google Forms were spent on a form that no longer
+exists.
+
+### §552b — A Google Form can capture an identifier you did not type
+
+Opening that deprecated form showed, at the top, **a Google account address
+followed by "Switch account"** — and the address shown was not the
+correspondence one.
+
+The browser is signed in to Google as **one of the subject's other twelve
+addresses** — not the correspondence address. A Google Form with *Collect
+email addresses* enabled records **the signed-in account's address
+automatically**, regardless of what is typed in the body.
+
+So submitting any Google Form from this session risks handing a broker an
+identifier nobody chose to disclose — and worse, **silently linking two of the
+subject's addresses together in that broker's record**, which is precisely the
+join this project spends its time trying to break.
+
+`skydeo`'s handoff is also a Google Form, and its entry has been amended with
+this warning: sign out, use a private window, or switch the Google account
+first, and check which address the form displays before submitting. **The
+disclosure risk in a third-party form is not only where the data lands; it is
+what the platform adds to it on the way.**
+
