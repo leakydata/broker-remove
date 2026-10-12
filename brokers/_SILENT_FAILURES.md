@@ -36689,3 +36689,54 @@ first, and check which address the form displays before submitting. **The
 disclosure risk in a third-party form is not only where the data lands; it is
 what the platform adds to it on the way.**
 
+## §553 — Three forms, one phrase, three different meanings
+
+Inmar's form for OwnerIQ opens: *"This form is for Residents of California,
+Colorado, Connecticut, Delaware, Indiana, Iowa, Kentucky, Maryland, Minnesota,
+Montana, Nebraska, New Hampshire, New Jersey, Oregon, Rhode Island, Tennessee,
+Texas, Utah, or Virginia."* **Pennsylvania is not among them.**
+
+That is the exact shape of §545's Neptune Ops exclusion. **Here it is not an
+exclusion at all.** The first question offers, as a first-class option,
+*"Consumer located **outside of** CA, CO, CT..."* — and the State dropdown
+lists Pennsylvania normally.
+
+So in two days, three forms have used near-identical "these states" framing to
+mean three different things:
+
+| | the phrase | what it meant |
+|---|---|---|
+| **Neptune Ops** (§545) | "only accepts requests from residents of states covered by an applicable privacy law" | **a hard block** — no path at all |
+| **PureCars** (§552) | "resident of one of these states" under a heading reading *Eligibility Screening* | **nothing** — all fifty states listed |
+| **Inmar / OwnerIQ** | a nineteen-state preamble | **which statutes compel them** — an explicit out-of-scope option provided |
+
+**The scope statement is not the behaviour.** A residency list describes who a
+company is legally obliged to serve; whether it also serves anyone else is a
+separate question answered only by the form's own controls. Reading the
+preamble and stopping would have abandoned two of these three rows wrongly.
+
+### §553a — Filing against a purge that has already been claimed
+
+On 28 August Inmar wrote that they *"ceased data collection activities on our
+OwnerIQ platform"* in 2025 and *"purged all previously collected data **in
+identifiable form**... we no longer retain personal data associated with you."*
+
+That is a **real disposition** — a named event with a named consequence, far
+better than §535's automated nils. It is also uncorroborated: a fact about the
+company, asserted by the company, about systems nobody outside can see.
+
+Filing a deletion through their own portal costs nothing and converts the
+assertion into something testable against specific identifiers. **A claim that
+has been made once is cheapest to test by asking it to be made again, in a
+channel that produces a record.**
+
+And the phrasing deserves attention when the answer comes. **"Purged in
+identifiable form" is not "purged."** It leaves room for de-identified,
+hashed, or aggregated material to remain — which, if it can be re-linked, is
+the §537 problem arriving from the other direction. If the reply repeats the
+phrase, the follow-up is whether anything survives that could be re-associated
+with a person.
+
+The form is staged behind a **distorted-text image CAPTCHA** — not a checkbox
+this time — which is the category this project does not solve.
+
