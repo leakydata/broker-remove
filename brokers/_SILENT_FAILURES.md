@@ -37303,3 +37303,61 @@ nothing" would be a complete and welcome answer — because it would be, and
 because a company that fears the question is more likely to answer it if the
 nil is explicitly acceptable.
 
+## §563 — The autoresponder that answers §536
+
+Minerva's autoresponder fired **four seconds** after the follow-up of §562 —
+the same interval as their twelve-word "results". But where §536's JMR
+mailbox refused everything it received, this one does four things right, and
+it is the best example of its kind in this file.
+
+**It distinguishes a request from a message about a request:**
+
+> "This mailbox handles general questions about how Minerva manages personal
+> data... If that's what you're writing about, **you're in the right place.
+> Someone on our team will follow up with you.**"
+
+Only an attempt to *exercise* a right is redirected to the form. That single
+distinction is exactly what §536 found missing: there, a reply *about* an
+answer was auto-refused as though it were a new request, closing the loop.
+
+**It explains why verification exists** rather than asserting it. **It handles
+authorised agents explicitly.** And, unprompted:
+
+> "**Need an alternative?** If the online form doesn't work for your
+> situation — for accessibility reasons, technical difficulties, or anything
+> else... contact our Data Protection Officer at [address] and cc [address]
+> and we'll work with you to find an alternate submission method. **We want to
+> make this process as easy as possible, not create barriers.**"
+
+That sentence is precisely what §558a's EAB reply should have contained when
+told its form sat behind an unusable CAPTCHA. One company wrote it into its
+default autoresponder; the other had a human read the complaint and send back
+the barrier.
+
+### §563a — Not escalating, and why that is the right call
+
+The named DPO addresses are an open door, and the temptation is to use them
+immediately. **I have not**, and the reasoning is worth recording because the
+restraint is the finding.
+
+The follow-up asked questions *about an answer already given*. By Minerva's
+own text that is the "general questions" case — *"you're in the right place...
+someone will follow up."* Sending a second message to the DPO four seconds
+after an autoresponder would be pushing against a promise **that has not yet
+had time to fail.**
+
+A company that has published an escape hatch deserves the chance to not need
+it. The addresses are recorded for use if no human follows up in a reasonable
+period, and that is a different thing from assuming now that none will.
+
+### §563b — Two systems, one company
+
+Minerva produced, within half an hour, **the emptiest completion notice in
+this project** (§562) and **the most thoughtful autoresponder in it**.
+
+These are different systems with different authors: one is a DataGrail
+workflow emitting a state change, the other is a hand-written mailbox reply by
+someone who had clearly thought about the person on the other end. **Judging
+the company by either alone would be wrong**, and a file that recorded only
+the first would be the more misleading of the two.
+
