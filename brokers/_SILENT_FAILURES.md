@@ -36413,3 +36413,61 @@ Git refusing the empty commit is what surfaced it — the same shape as §534b's
 redact.py catching the address: **the guard worked, and the error was mine for
 assuming the step had done something.**
 
+## §549 — The form schema explains the reply
+
+Accurate Append's opt-out form was filled with four previously-unprocessed
+phone numbers, four unprocessed email addresses, four name variants and the
+current address — and **the Submit does nothing.** Pressed by element
+reference, by coordinate, and by Enter in a text field: no navigation, no
+success text, no validation message, every field still populated.
+
+The form is **valid** — `checkValidity()` true, nothing failing, no jQuery
+validator attached, `action=/Public/OptOut method=post` — and the **Cloudflare
+Turnstile has already issued a token**, so the bot check is not the blocker.
+The likeliest explanation is that the values were set programmatically and a
+handler is keyed to genuine user input, which would make this **my limitation
+rather than the site's**. Recorded as the likely cause, not as a finding: I did
+not prove it, and §540 is about exactly this kind of confident inference.
+Stopped after three attempts.
+
+### §549a — Four was not a sample, it was the capacity
+
+On 25 August their mailbox confirmed processing **exactly four identifiers** —
+one name, one address, one phone, one email — out of roughly forty supplied.
+That was recorded as looking like arbitrary automated parsing, one of each
+field type.
+
+**It was not arbitrary.** The web form holds exactly one address, and one
+primary each of name, phone and email, with three "add another" slots behind
+each. Their email intake mirrors the web schema. The four they took were not a
+sample of the forty; **they were the whole of what one request can carry.**
+
+This is worth generalising: when a company processes a strangely specific
+subset of what you sent, **look at the shape of their form before concluding
+they were careless.** The intake schema is often visible, and it explains the
+reply more reliably than any assumption about intent. §538 made the same point
+from the other direction — a form's required fields disclose what a company can
+match on; here its *field count* discloses what a request can contain.
+
+### §549b — The arithmetic nobody mentions
+
+Capacity per submission: **1 address, 4 names, 4 phones, 4 emails.** Their page
+says plainly: *"Submit multiple requests if you need to supress more than one
+postal address, email address or phone number."*
+
+Against twelve email addresses, eleven prior phone numbers and seventeen
+addresses, full coverage requires **roughly seventeen submissions** — one per
+address, cycling the contact identifiers through.
+
+That is the honest cost of a complete opt-out at a single broker, and it is
+not hidden: it is the direct consequence of a one-address form meeting a life
+with seventeen addresses in it. Most people would stop after one, and the
+record would then read as opted out while sixteen address-keyed rows survived.
+**A partial opt-out at an append vendor looks identical to a complete one from
+outside**, which is why the count is written down here rather than left
+implicit.
+
+Whether all seventeen are worth the passes is the subject's call and is queued
+as such; the Waynesboro and State College clusters are where the oldest records
+sit.
+
