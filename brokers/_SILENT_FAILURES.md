@@ -36106,3 +36106,67 @@ not eight.** A dead domain is strong evidence the public listing is gone; it is
 reappear renamed — §540b's Momentum Platform and CoreLogic's rename to Cotality
 are both in this file.
 
+## §544 — A claim about what a form lacks is provisional until it stops growing
+
+Koddi's OneTrust webform opens as **five fields**: country, filing capacity,
+first name, last name, email, and a free-text box. No request-type selector at
+all.
+
+I wrote the request on that basis, opening with *"This form offers no way to
+state which right is being exercised, so I am stating it here."* Then selecting
+the country **expanded the form** — revealing State, a requester category, and
+**seven request types**. The sentence was false before it could be submitted,
+and the whole text had to be rewritten. A stray click during the same expansion
+also landed on *"Prospective Employee"* and had to be corrected.
+
+§538c said to re-screenshot after every interaction on a progressive form. The
+corollary is sharper and belongs beside it:
+
+> **Any claim about what a form lacks is provisional until the form has stopped
+> growing.**
+
+Absence is the hardest thing to observe through a tool — §540 made the same
+point about a stale screenshot. Here the absence was real at the moment I
+looked and false a click later. **A missing field is not evidence of a missing
+feature; it may be evidence that you have not finished filling in the page.**
+
+### §544a — One vendor, one set of faults, two companies
+
+This is the **same OneTrust template as PMG** (§539a), feature for feature:
+
+- the same `I am a (an)` categories — *Prospective Employee, Customer,
+  Contractor, Employee* — with **no "Consumer"**
+- the same `Select request type(s)`, plural and **single-select**
+- the same *"you will lose all account information"* warning on deletion
+- the same reCAPTCHA and the same free-text box
+
+Two unrelated companies — an advertising agency and an adtech bidder — with
+identical intake defects, because both bought the same configuration. So these
+are not PMG's failings or Koddi's; **they are the vendor's defaults, and the
+next OneTrust webform should be assumed to behave this way** rather than
+rediscovered each time.
+
+That also reframes §539a's conclusion. I wrote that PMG's form was "built for
+employees and clients and pointed at consumers." It is fairer to say the
+*template* is, and that neither company changed it.
+
+### §544b — Answering three conditions a consumer cannot meet
+
+Koddi's standard reply sets three bars: they will not process **"alias email
+addresses"**, will not accept **"unhashed names"**, and **cannot accept
+requests by email** at all. §290 recorded these; the form was the place to
+answer them, and the staged text does:
+
+- **On aliases** — the address given is an ordinary mailbox. The condition is
+  **unfalsifiable from the consumer's side**, since only Koddi decides what
+  counts as an alias.
+- **On unhashed names** — their own form makes First Name and Last Name
+  **mandatory**. A company cannot require a field and then refuse the request
+  for containing it; the contradiction is in the form, not the submission.
+- **On hashing** — there are exactly two routes by which a hashed-email
+  requirement can be satisfied: **publish the algorithm, salt and
+  normalisation** so the consumer can compute it, or **hash the supplied
+  address yourself and search on the result.** The second costs one function
+  call. A requirement that is met by neither is not a verification standard; it
+  is a closed door with a procedure painted on it.
+
