@@ -36504,3 +36504,51 @@ this broker is broken** — the same order of finding as §547's missing
 checkbox, and their accessibility line (833-663-1919) exists for precisely
 that case.
 
+## §550 — A CAPTCHA between a person and his own request history
+
+Greenhouse's portal was walked as far as it goes: *Verify Identity → For
+Myself → I am a/an → Email verification → address entered.* The **Authenticate
+Email** button stays **disabled**, because a reCAPTCHA sits inside the dialog.
+
+**This is worse than an ordinary CAPTCHA handoff**, because the point of the
+item was never to file anything. It was to **read the request history** and
+settle whether Greenhouse's three "completed" notices — tickets 17235, 17870
+and 17888 — distinguish *we searched and found nothing* from *we searched and
+deleted something*. That question is §443's core, and it is why this row's
+`confirmed` status is disputed.
+
+So a CAPTCHA now stands between the subject and **his own request history.**
+Verification here is not protecting data from a stranger; it is the price of
+auditing a completion claim. A company whose intake manufactures a completion
+notice from any inbound message, and whose audit trail is gated, has made its
+own claims unfalsifiable — not by refusing, but by charging a toll at the only
+door that leads to the evidence.
+
+### §550a — A disabled button is a better probe than a screenshot
+
+`get_page_text` showed the dialog with no CAPTCHA in it. The button simply did
+nothing. Querying the DOM showed the email value present and
+`button.disabled === true`.
+
+**A disabled button beside a filled, valid field is the tell for an
+unsatisfied control you cannot see.** Only then did a screenshot reveal the
+reCAPTCHA sitting between the field and the buttons — invisible to the
+accessibility tree, exactly as at §524 and §538c.
+
+That ordering is worth keeping. §546c established *press Submit as a probe*;
+this refines it: **when the button is disabled, do not press it — read its
+`disabled` flag and then look.** The flag is cheaper than a screenshot, it
+cannot go stale the way §540's render did, and it distinguishes "the form
+rejected my input" from "the form is still waiting for something."
+
+### §550b — The best requester control seen so far
+
+One thing this portal gets right, and it is worth recording against the run of
+§544a and §539a: its dropdown offers **"Any Data Subject"**, alongside
+Customers, Employees, Job Applicants and Agents.
+
+That is better than §546's GRIN "Other...", because it **names** the category
+rather than relegating it to a catch-all. A person who is simply in the data —
+the entire population a processor holds records about — is a first-class
+option rather than an afterthought. It costs one line in a dropdown.
+
