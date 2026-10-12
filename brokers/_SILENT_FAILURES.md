@@ -36898,3 +36898,58 @@ per-field source attribution appears inside the document**; the supplier names
 exist only in the covering email, which is why §554's disclosure and this
 attachment are worth more together than either alone.
 
+## §556 — Sending the keys back upstream
+
+§555 established which identifiers a downstream file was actually built on.
+This pass sent that information **back to the two suppliers who provided it**
+— Alpha Data Labs and Operia/Xverum, both named by hireEZ in writing, both
+with open requests and no reply.
+
+The supplements carry two keys, and the distinction from every previous letter
+is that **these are evidenced rather than guessed**:
+
+- **The closed university mailbox**, which appears in the downstream profile
+  despite being unreachable for years.
+- **A different town** from the one every letter has asserted as the current
+  address.
+
+Both were framed expressly as **search keys only**, not to be added to any
+record that does not already contain them.
+
+### §556a — Why this is a different kind of letter
+
+Every identifier supplement before this one (§514b, §515, §516) rested on an
+argument: *these addresses are old, therefore they are likely to be the ones
+on file.* Sound, but speculative.
+
+This one rests on a document. hireEZ named the supplier, disclosed the
+profile, and the profile shows the key. So the letter can say something no
+previous letter could: **"a record derived from your data is filed under this
+address, and here is how I know."**
+
+That also closes a loop the project has been trying to close since §317. The
+chain is now complete in both directions: **a downstream company named its
+upstream sources, and the access copy it provided tells those sources which
+keys to search on.** Provenance disclosure is not only useful for finding new
+brokers — it improves the requests at brokers already known.
+
+### §556b — Two things deliberately not sent
+
+The same profile contained a **social-media handle** and a **phone number**
+absent from the identifier set. Neither went into either letter.
+
+- The handle falls inside the category the subject has ringfenced, and §555b
+  noted it shares a suffix with the university email — sending it would
+  strengthen exactly the join this work exists to break.
+- The phone was withheld for a different reason: **it cannot be confirmed as
+  his from a third party's file.** A broker's record is not proof of its own
+  accuracy, and asserting an identifier that may belong to someone else is
+  worse than omitting it — it would hand a data company a new association and
+  possibly drag a stranger's number into his file.
+
+**An access copy is evidence of what a company believes, not of what is
+true.** It is reliable about the *keys the record is filed under*, because
+those are facts about the file; it is not reliable about whether each value
+belongs to the person. The two uses have to be kept apart, and this pass used
+only the first.
+
