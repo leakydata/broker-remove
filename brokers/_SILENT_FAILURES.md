@@ -35710,3 +35710,71 @@ boxes it has.
   unchallengeable by construction — this is what the same architecture looks
   like when someone has walked the path of a consumer who disagrees.
 
+## §538 — The form that answered the question the company would not
+
+Nexxen's DSR portal was staged to its reCAPTCHA with everything else complete:
+United States / Pennsylvania / Customer / **Delete your personal information**
+/ Yourself / `leakydata@gmail.com` / affirmed. Only the tick and Submit remain.
+
+**The form disclosed more than the correspondence did.** On 30 August Nexxen
+answered by redirecting to this portal and left two questions unanswered. One
+was whether they hold or derive **ACR data** — what is playing on a television.
+Their own form answers it without being asked:
+
+> "Requests associated with ACR require us to identify your device(s)... Please
+> provide one or more Device IDs for your **Hisense television(s)**."
+
+So: yes, they hold ACR data; it is keyed to **television device IDs**; and the
+manufacturer is **named**. A question a compliance specialist declined to
+answer in writing is answered by the field labels of their own intake form.
+
+**That is a method worth generalising.** A request form is a disclosure. Its
+required fields tell you what the company can match on, and its optional ones
+tell you what it hopes you will volunteer. Read the form before filling it,
+and read it as evidence.
+
+### §538a — Required source, optional values
+
+The form demands a **Cookie Source** — *"Auto-detect from browser"* or *"Enter
+cookie values manually"* — and that field is required. **But the cookie values
+themselves are not.** Neither `Cookies (semicolon-separated, max 3)` nor
+`Device ID(s) (max 3)` carries an asterisk.
+
+So the deletion goes in keyed to the email address alone, with **no cookie ID
+and no device ID disclosed**. The standing ban holds, and so does Nexxen's own
+advice of 30 August not to send them data they do not hold.
+
+The honest cost: without those keys they can only match rows already tied to
+that email, and the cookie-keyed rows — likely most of what an adtech company
+holds — are untouched. That is the §537 trade again, and it is recorded rather
+than resolved.
+
+### §538b — Two designs for the same consent
+
+Set Nexxen beside Datasys and the contrast is exact. **Both need a
+cookie-to-identity link to reach pseudonymous rows.**
+
+- **Datasys** bundles that consent into a single mandatory checkbox covering
+  seven confirmations. You cannot file anything without granting it.
+- **Nexxen** puts it in separate, clearly-labelled, **optional** fields, and
+  files the request without them.
+
+Same problem, two architectures, and only one leaves the decision with the
+subject. This is the same distinction §536 drew about appeals: not whether a
+company is willing to comply, but **whether anyone walked the consumer's path
+while designing the form.**
+
+### §538c — A form invisible to the accessibility tree
+
+The widget is OneTrust, embedded in an iframe, and `find()` returns nothing for
+it — the same blindness §524 recorded for Turnstile. Every field had to be
+driven by coordinate from screenshots.
+
+Worse, **the form grows as you fill it.** Selecting a country reveals State;
+selecting the request type reveals *Who is this request for*; that reveals
+*Cookie Source*; and choosing a cookie source reveals Email. A coordinate
+captured two steps earlier is stale, and one such stale click landed on
+*"Enter cookie values manually"* instead of the Email box. **Re-screenshot
+after every interaction on a progressive form** — not to confirm success, but
+because the page beneath the cursor is no longer the page you measured.
+
