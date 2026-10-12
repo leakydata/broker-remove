@@ -37820,3 +37820,75 @@ have put a fourth wrong attribution into this file on the same afternoon as
 distinguish two explanations, say so and spend one more look, rather than
 picking the more interesting one and moving on.
 
+## §572 — The profile that looked like him, and the test that said otherwise
+
+Lookups.io removes **by profile URL only**: you claim a record as yours. Their
+search returned two plausible candidates in the subject's city, and the queue
+entry had been sitting as a *decision* — which of these is you?
+
+The first one looked right. It carried **his current city**. It carried a
+masked phone number in **an area code that five of his eleven former numbers
+use**. Its date of birth was one year off, which brokers get wrong constantly.
+
+Then I checked it against `data/profile.json` instead of against intuition.
+
+The record lists **eight localities across five states**, strung from
+New England to the Deep South. The subject's sixteen former addresses sit in
+**two clusters in one state, plus two out-of-state spells**. Laid side by side:
+
+> **The overlap is one item — the city he lives in now.** Nothing else touches.
+> Not one of the towns that actually dominates his history appears anywhere in
+> the record.
+
+And the record's *"also known as"* list carries **three names that are not
+variants of his at all** — one of them not even plausibly the same person.
+**It is a merge of several unrelated individuals**, and he is at most one
+fragment of it.
+
+### §572a — This partly resolves the long-standing cluster question
+
+§447 and the project's own memory record a three-locality cluster that the
+project judged **unresolvable from outside**, on the grounds that one of the
+three is his city and the ages matched.
+
+Here is that same cluster at a different broker, and it now has evidence
+against it: **it shares nothing with his documented sixteen-address history
+except the city he lives in now.**
+
+The discriminator was never the city, the area code, or the age — each of which
+pointed the wrong way. **It is the former-address history**, and it was sitting
+in `profile.json` the whole time, unconsulted.
+
+### §572b — Why claiming it would have been the wrong move
+
+A claim-by-URL portal **assumes the person can identify their own record.**
+Where records are merged, that assumption fails in the worst direction: the
+only way to use the portal is to **assert that a record containing strangers'
+data is yours.**
+
+So the request went by email instead — search on his actual identifiers, delete
+what matches, name the sources, and *"if you hold nothing about me, say so
+without qualification."* It also told them plainly that their record blends
+residents of several distant states under one name with a fourth person's name
+attached, and that this will hurt somebody eventually in a tenant screening or
+a background check.
+
+**The temptation here was real.** Claiming the profile would have produced a
+removal, a tidy row, and a line in this file saying *done*. It would also have
+been a false statement about somebody else's data, in exchange for deleting a
+record that probably never described him.
+
+### §572c — The draft of this section had to be rewritten
+
+The first version of §572 set the two address histories out **as a table, in
+full**. It would have published the subject's entire residential history —
+sixteen addresses with street numbers — in a public repository, inside a
+section arguing for care with other people's data.
+
+`redact.py` caught it. **I did not**, and the check ran only because it is a
+separate step that must be read before the commit — the discipline §554d was
+written to impose after exactly this failure went out twice. The lesson is not
+that the guard works; it is that **the author of a section about privacy is not
+a reliable reviewer of it**, and the mechanical check is doing real work rather
+than ceremonial work.
+
