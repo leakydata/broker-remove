@@ -36304,3 +36304,66 @@ corollary, already applied at §542: **press Submit as a probe.** A form's own
 validation is a more reliable account of its state than any screenshot —
 §540's lesson, approached from the opposite side.
 
+## §547 — "Check the box below", and there is no box
+
+Kargo's privacy portal says:
+
+> "**Direct Opt-Out:** To opt out of the use of your information for targeted
+> advertising, sales, and sharing on this browser, **check the box below:**"
+
+There is no box below.
+
+**Verified rather than inferred**, because §540 is explicit that an absence
+seen through a tool is the least trustworthy observation available. Querying
+the live DOM: the entire page carries **two** input elements, both *hidden*
+CookieYes consent switches belonging to the cookie banner. **Zero iframes.**
+The tags surrounding that sentence are `DIV, P, SPAN, STRONG, H2, H3, UL, LI,
+A, OL` — no `INPUT`, no `BUTTON`, nothing with `role=checkbox`. The control is
+absent from the page, not merely invisible to the accessibility tree.
+
+### §547a — Why this one is worse than a broken page
+
+Kargo gates access and deletion behind a **"Digital Identifier"** — a
+`ktcid`/`krg_uid`/`krg_crb` cookie, an IDFA, an Android ad ID, or a CTV ad ID.
+Every one of those is barred by the standing rule.
+
+**The opt-out was the carve-out.** §542b established the pattern: when a form
+demands an identifier you will not give, check whether the opt-out is exempt,
+because it usually is and it is usually all that remains. Here it *is* exempt
+— and **the exempt route has no control attached to it.**
+
+So every path Kargo publishes is now either forbidden by the subject's own
+rule or simply broken. Not by design, almost certainly: this reads like a
+component that failed to render or was dropped in a redesign, and the page was
+last updated 24 July 2025. **But the effect is indistinguishable from refusal,
+and that is the whole subject of this file.**
+
+### §547b — Two routes that still work, and one worth more than the row
+
+Neither needs an identifier:
+
+- **Global Privacy Control.** Kargo's own page: *"Kargo honors valid GPC
+  signals from your browser."* GPC is a browser-level setting that broadcasts
+  the opt-out to **every site that honours it**, not just this one. It is
+  almost certainly the **highest-value single action available anywhere in
+  this queue**, because it operates against many companies at once and costs
+  nothing — a point this project has not previously drawn out, having worked
+  broker by broker.
+- **The DAA opt-out** at `aboutads.info/choices`, which Kargo also cites.
+
+Both are per-browser and per-device, the same limitation §542c noted for
+household scope.
+
+### §547c — A coherent structural nil
+
+The portal also states: *"we do not process information or collect personal
+details that enable us to directly identify you as an individual. Instead, we
+collect certain digital identifiers."*
+
+That is a **structural nil** in §447's sense, and unlike §535's automated nils
+it is both coherent and falsifiable in principle — it explains exactly why the
+identifier gate exists. A company that genuinely holds only device keys cannot
+find you by name, and saying so is honest. **It does not excuse publishing a
+checkbox that is not there**, which is the one thing they owed a consumer who
+accepts that explanation.
+
