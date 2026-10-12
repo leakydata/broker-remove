@@ -36832,3 +36832,69 @@ between a guard and a decoration. Three occurrences is enough to stop treating
 this as carelessness and start treating it as a procedure that was never
 properly adopted.
 
+## §555 — The access copy that answered the identifier question
+
+§554c flagged the hireEZ attachment as unread. It has now been read: **nine
+pages**, and its first block is the single most useful piece of evidence this
+project has obtained.
+
+It lists **exactly which identifiers hireEZ held.** Every letter so far has
+guessed at this; here it is stated.
+
+### §555a — The closed mailbox is in a commercial database
+
+Of the twelve email addresses in the identifier set, hireEZ held **three** —
+and one of them is **the university address that has been a closed mailbox
+for years.**
+
+§541 argued that dormant and institutional addresses are the likeliest keys
+on an aged record, and that verify-by-email systematically excludes exactly
+those addresses. That was reasoning from how records are built. **It is now
+evidenced**: a recruiting-data company's file on this subject is keyed, in
+part, to a mailbox nobody can receive mail at.
+
+The practical consequence is immediate and applies to every open row:
+**asserting the dormant addresses as search keys is not speculative
+thoroughness, it is targeting the keys that demonstrably exist.** And §541b's
+problem sharpens — at MCH, the address most likely to match is the one their
+verification step cannot reach, and this document shows that address living
+in a competitor's file.
+
+### §555b — Three identifiers the project did not know about
+
+The profile contains **a phone number absent from both the current and prior
+number lists**, **a social-media profile URL** for a platform the identifier
+set does not cover, and **a personal web domain**. None are in
+`data/profile.json`.
+
+So the file a broker holds is not a subset of what the subject thought he had
+exposed — **it contains identifiers he had not catalogued.** An access request
+is therefore not only a way to confirm what a company holds; it is a way to
+discover what *you* are findable by. Each of the three is a key some other
+broker may also be using, and none of them would ever have been asserted.
+
+Whether to add them to the identifier set is the subject's call. The
+social-media handle in particular falls inside the category he has
+deliberately ringfenced, and notably **its username and the university email
+share a suffix** — the two corroborate each other as one cluster, which is
+precisely the kind of join this project exists to break rather than
+strengthen.
+
+### §555c — The town is wrong
+
+The profile records a **different Pennsylvania town** from the one every
+letter asserts as the current address.
+
+That matters for reading nils. A broker searching on the address in our
+letters and finding nothing may be telling the truth about that address while
+holding a record under another. **A nil is only as good as the key it was
+searched on**, and this document shows the key a recruiting database actually
+believes in is not the one being supplied.
+
+The remaining eight pages are employment history, skills, honours and a long
+self-written summary — unmistakably LinkedIn-shaped, consistent with hireEZ
+naming *"social media profile links"* among their collected fields. **No
+per-field source attribution appears inside the document**; the supplier names
+exist only in the covering email, which is why §554's disclosure and this
+attachment are worth more together than either alone.
+
