@@ -36031,3 +36031,78 @@ ACR business would hold. Compare §538, where Nexxen's form revealed ACR data
 keyed to television device IDs. **Two adtech forms, each describing its own
 data model through the fields it insists on.**
 
+## §543 — What a scripted route check can and cannot tell you
+
+§539 ended with a recommendation: run `stale_route_recheck` **before** driving
+a queue item, not after it fails. This pass ran it across all **114** queued
+URLs. The result is worth recording mostly because it is so much weaker than
+the recommendation implied.
+
+| result | count | what it actually means |
+|---|---|---|
+| `200` | 90 | the server answered — **but §534a's SPA returns 200 for pages that do not exist** |
+| `403` | 17 | almost always **a live site refusing curl's fingerprint**, not a dead route |
+| `000` | 6 | connection or DNS failure — four of them were **malformed entries**, not sites |
+| `530` | 1 | Cloudflare origin error |
+| **`404`** | **0** | the one unambiguous signal, and nothing returned it |
+
+**No 404s.** PMG's dead URL, found by hand last pass, remains the only
+confirmed one — and a sweep like this would have caught it, which is the single
+thing that justifies running it.
+
+But the honest conclusion is that **a scripted check reliably detects only two
+conditions: an explicit 404 and a DNS failure.** Everything else is noise in
+both directions. A 403 says nothing about whether a human can use the page; a
+200 says nothing about whether the page exists. Seventeen of these URLs would
+be flagged as broken by any status-code rule, and they are fine.
+
+### §543a — Four URL fields that were not URLs
+
+Six entries failed to connect, and **four of them were never valid URLs**:
+
+- `windfall.com/ (privacy webform); phone (800) 946-xxxx`
+- `accounts.google.com/o/oauth2/auth (reached from Hunter Campaigns > ...)`
+- `corelogic.com/privacy/ (self-serve privacy portal -- confirm the current ...)`
+- `criminal.com | infopay.com | searchquarry.com | quickpeopletrace.com`
+
+Prose and pipe-separated lists in a field that every automated check — and
+every "open the URL" instruction — treats as a single address. All four are now
+cleaned, with the prose moved into the steps where it belongs.
+
+The Hunter one was worse than untidy: it pointed at a **Google OAuth sign-in
+endpoint**, reached by following an app's connect-account flow. Following it
+would mean authenticating into a broker, which is an absolute refusal here. A
+discovery script had recorded an authentication step as a rights route.
+
+### §543b — Two domains that really are dead, and the check that nearly got it wrong
+
+`clustrmaps.com` and `nuwber.com` both returned `000`, which looks exactly like
+a problem at our end. The first explanation I reached for was a local DNS
+sinkhole — and that was worth ruling out, because **an "unreachable" recorded
+from a machine that cannot reach anything is a false terminal state, and
+terminal states are the ones nobody revisits.**
+
+Checked against three resolvers:
+
+- **`clustrmaps.com` publishes `127.0.0.1` as its A record** — from
+  systemd-resolved, from Cloudflare and from Google alike. The authoritative
+  zone points every visitor on earth at their own machine. A deliberate
+  null-route, and the web's exact analogue of the RFC 7505 null MX recorded at
+  §501–503.
+- **`nuwber.com` has no A record at all**, from any resolver.
+
+`/etc/hosts` holds seven lines and no broker domains; no blocker is running; a
+control host resolved and returned 200 in the same sweep. Both are genuinely
+gone.
+
+**A nil or an unreachable is only as good as the resolver that produced it.**
+
+That also shrinks an open question. `nuwber` was one of **eight** rows in the
+consolidated self-search decision — seven listing-URL companies plus this one —
+where the trade was that self-searching can generate "someone searched for you"
+signals. There is no site to search, so **the decision is now about seven rows,
+not eight.** A dead domain is strong evidence the public listing is gone; it is
+**not** evidence the records were deleted, and companies fold, sell data and
+reappear renamed — §540b's Momentum Platform and CoreLogic's rename to Cotality
+are both in this file.
+
