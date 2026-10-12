@@ -36237,3 +36237,70 @@ Recorded deliberately: **a company quietly correcting something is as much a
 fact as a company failing to**, and a file that only accumulates faults will
 end up describing a world worse than the one it is auditing.
 
+## §546 — A form built by someone who imagined the person using it
+
+GRIN's deletion request was **submitted and verified end to end in one pass**,
+with no CAPTCHA: form filled, verification mail arrived within a minute, link
+clicked, *"Success! Your privacy request has been submitted."*
+
+The route came from their own auto-reply of 27 August, which refused email but
+did two things right — it **named the form** and added: *"If you have any issue
+accessing the link, please e-mail Grin at privacy.support@grin.co."* That
+second sentence is the **named human fallback** §536 found missing at JMR,
+where the mailbox auto-refused the reply it had invited. One sentence is the
+difference between a closed loop and an open one.
+
+The vendor is **Mine (`saymine.io`)** — new to this project's catalogue of
+DSAR platforms, alongside OneTrust, Ketch, DataGrail, PrivacyPillar, Osano and
+datasubject.com.
+
+### §546a — Three things it gets right
+
+Set directly against the OneTrust template of §544a:
+
+- **"Other..." is an option.** A person who is neither creator, employee nor
+  client is not forced to misdescribe themselves. OneTrust's `I am a (an)` has
+  no "Consumer" and compels a false answer on every submission.
+- **It says who handles it:** *"this is not a fully automated process; your
+  requests are handled by real, live humans."* After §535's automated nils —
+  three refusals in thirty-nine minutes from a no-reply address — a company
+  stating that a person will read it is worth something.
+- **Seven days to verify**, against Cadent's twenty-four hours, which had
+  already voided two requests (§542).
+
+None of this is expensive. All of it is design.
+
+### §546b — The field left deliberately empty
+
+The form offers *"Please provide any relevant social handles"* — optional, no
+asterisk. **It was left blank.**
+
+GRIN is an influencer-marketing platform. Its business is precisely the
+linking of social handles to identities, which means volunteering a handle to
+them risks **creating** a linkage rather than matching one — the same hazard as
+§537's re-identification consent, arriving through an innocuous optional text
+box rather than a checkbox.
+
+Name and email should reach any creator profile that exists. **If a nil comes
+back, supplying the LinkedIn URL is the authorised next step** — that
+permission is specific and narrow, and nothing else in the category may be
+sent without asking.
+
+The open question the form could not carry, and which the human fallback
+exists for: **does deletion reach the linkage between social handles and
+name/email, or only the profile row?** A platform that builds profiles by
+joining public accounts to people may delete the profile and keep the join.
+
+### §546c — Radio buttons, a third time
+
+Three of the required radios silently failed to set, and the form's own
+validation — three `This field is mandatory` messages — was what revealed it.
+Coordinate clicks then worked on all three.
+
+That is §534b confirmed on a third unrelated platform, after JMR and Nexxen.
+It is no longer a quirk of one site: **programmatic clicks on radio inputs do
+not register, report nothing, and must be done by coordinate.** The useful
+corollary, already applied at §542: **press Submit as a probe.** A form's own
+validation is a more reliable account of its state than any screenshot —
+§540's lesson, approached from the opposite side.
+
