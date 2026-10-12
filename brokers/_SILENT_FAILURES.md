@@ -37143,3 +37143,48 @@ of detail that indicates how closely a compliance surface is maintained —
 alongside §545c's *"Clone of"* form title, which was the same sort of artefact
 and did eventually get fixed.
 
+## §560 — Counting what is actually waiting
+
+The loop's instruction says to add CAPTCHA items to *"a running handoff
+list."* That list has been the queue itself. Counting it for the first time
+was instructive.
+
+**Seventy-one items** are waiting on the subject: **45 CAPTCHA** and **26
+decision**. Of those, **sixteen were staged in the last twenty-four hours**;
+the other **fifty-five** are an older backlog accumulated across sessions.
+
+A list of seventy-one undifferentiated items is not a handoff, it is an
+inventory. **The useful artefact separates what is live from what has
+aged**, so `outbox/staged/WAITING_ON_YOU.txt` now does three things the raw
+queue did not:
+
+- puts the **sixteen fresh items first**, newest last-touched first;
+- promotes **three worth doing before the others** — Greenhouse, because the
+  tick buys an answer to a disputed status rather than filing another
+  request; People Data Labs, because it is the one upstream supplier hireEZ
+  named that had never been actioned; OwnerIQ, because it tests a purge
+  claim already made in writing;
+- separates **the three that need a judgement**, not a click — §537's bundled
+  re-identification consent, §547's missing checkbox, §549's inert Submit.
+
+### §560a — The backlog has a known decay rate
+
+The fifty-five older items carry a warning in the file, and it is not
+hypothetical. In the past week this project has found:
+
+- **two queued URLs dead** — §539's 404 and §552a's deprecated Google Form;
+- **one "I cannot reach this" note that was a tool limitation**, not a site
+  (§559a);
+- **one defect already fixed** by the company since it was recorded (§545c).
+
+That is four stale entries found by chance, in the ordinary course of driving
+other rows. **A handoff queue is not a backlog of work; it is a set of claims
+about the world, each decaying at its own rate.** Handing someone fifty-five
+of them without saying so invites an evening spent on forms that moved.
+
+The list therefore says plainly: ask for a batch to be re-verified before
+working through it. §543 measured what a scripted re-check can and cannot
+detect — only 404s and DNS failures reliably — so that re-verification has to
+be done by opening pages, which is exactly what the passes have been doing one
+at a time.
+
