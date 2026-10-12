@@ -37776,3 +37776,47 @@ That is recorded as **unresolved, not broken.** §566's whole lesson was that an
 unverified action and a null result look identical from outside; a slow load
 and a hung one do too. It gets one look next pass before it gets a verdict.
 
+## §571 — The opt-out that is only half an opt-out until you finish it
+
+Crexi is done: all three applicable rights filed and email-verified, each with
+its own request ID — **deletion 2605666032, opt-out 1879715377, access report
+8554488771.** (Correction went unused; there is nothing known to be wrong.)
+
+The opt-out had a stage I did not anticipate, and it is the finding.
+
+**Its verification link does not merely confirm.** Clicking it opens a
+*preferences* form offering three mutually exclusive levels:
+
+| option | wording |
+|---|---|
+| Full Sharing | "share my data with and to your affiliates or external parties" |
+| Minimum Sharing | "...in order to tailor my experience and provide me with full functionality" |
+| **No Sharing** | **"Don't share my data."** |
+
+No Sharing selected, radio state read back to confirm, submitted: *"All set!
+Your preferences have been saved. Note that your preferences may take some time
+to be updated."*
+
+**So an opt-out that stopped at the verification click would have been
+half-done.** The request would exist, logged and verified, with **no preference
+actually set** — and every outward sign would say success: a request ID, a
+confirmation email, a verified status. Worth watching for on any BigID portal,
+and a reminder that *"I clicked the link in the email"* is not the same as
+*"the thing I asked for is now true."*
+
+### §571a — §570b resolves, and the caution was worth its cost
+
+The preferences page that was still showing *"Please wait while we retrieve
+your form"* when the last pass ended **had simply not finished loading.** It
+came up intact.
+
+§570b recorded it as **unresolved, not broken**, on the explicit ground that a
+slow load and a hung one look identical from outside. That cost one look on the
+next pass. The alternative — writing it up as another silent failure — would
+have put a fourth wrong attribution into this file on the same afternoon as
+§566, §567 and §568.
+
+**The cheap habit is the one that pays here:** when the evidence cannot
+distinguish two explanations, say so and spend one more look, rather than
+picking the more interesting one and moving on.
+
