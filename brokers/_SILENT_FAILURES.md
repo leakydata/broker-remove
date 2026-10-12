@@ -37662,3 +37662,68 @@ abuse the system is defending against. **A verification regime that makes
 honest thoroughness look like an attack is misconfigured**, and the cheapest
 fix is always the same — let one person's identifiers travel together.
 
+## §569 — Crexi: a new vendor, an ungated Pennsylvania, and a phone box that thinks you are in Japan
+
+Crexi's deletion request is in and verified — **request ID 2605666032**, via a
+portal on `*.bigidprivacy.cloud`. **BigID Privacy** is a DSAR vendor this
+project had not met, joining OneTrust, DataGrail, Relyance, Mine, Osano,
+PrivacyPillar, JotForm and Google Forms.
+
+Finding the route took three tries, and two of them are worth recording: the
+queue's guessed `crexi.com/privacy-portal` **returns a page with a title and no
+content** (the SPA-200 pattern of §404), while `crexi.com/legal/privacy-policy`
+**redirects to `/404`**. The same site answers a wrong path two different ways.
+Only the footer link — *"Do not sell or share my personal information"* —
+actually works.
+
+### §569a — Pennsylvania got everything
+
+The wizard asks country, then **state**, then *"I am a"* (Consumer / Current
+Employee / Customer / Former Employee / User). §545's taxonomy predicts this is
+where a Pennsylvanian gets filtered.
+
+**Nothing was withheld.** A Pennsylvania consumer was offered all four actions:
+access report, correction, deletion, and opt-out of sale and sharing. That puts
+Crexi at the generous end alongside PureCars and People Data Labs, and against
+Neptune Ops (total block) and Blackbaud (two rights of four).
+
+**But all four are radio cards, not checkboxes.** One right per submission. So
+deletion is filed and **opt-out and access each need their own run through the
+whole wizard**, each with its own email verification. That is §568b's
+multiplication again, in a different coat: not one-per-identifier this time but
+**one-per-right**. The row is queued as a follow-up rather than closed.
+
+### §569b — The phone box that defaults to Japan
+
+Typing the subject's number as plain digits — the ten digits with no `+1` — produced:
+
+> **+81 44 4132 65**
+
+The widget read the leading `81` as Japan's country code and silently
+reformatted the rest. It looked like a filled field. It would have submitted a
+**nonexistent Japanese number** as the verification contact for a US consumer,
+and nothing on screen would have said so.
+
+Typing `+1 814 441 3265` gives the right answer. The fix is trivial; the trap
+is not, because **the failure mode is a confident-looking wrong value rather
+than an error.** The handoff note for the two remaining Crexi submissions now
+says this in capitals.
+
+### §569c — Two things Crexi does better than most
+
+The verification email states:
+
+> "We have received a new privacy request related to you **from a Linux device
+> located in United States.**"
+
+That is a real anti-fraud signal rather than a ritual — it tells the subject
+something checkable about *who filed*, which is the actual risk a verification
+step exists to address.
+
+And it warns, plainly, that deletion *"may impair some features and
+functionality of our service, including the possible deletion of your user
+account and delisting of your listings."* Neither applies here. But a
+marketplace that quietly deleted somebody's live property listings as a side
+effect of a privacy request would have caused real harm, and **saying so before
+rather than after is the whole of the obligation.**
+
