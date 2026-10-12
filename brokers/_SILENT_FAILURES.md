@@ -37892,3 +37892,58 @@ that the guard works; it is that **the author of a section about privacy is not
 a reliable reviewer of it**, and the mechanical check is doing real work rather
 than ceremonial work.
 
+## §573 — Two seconds, and the handoff list's own rot
+
+Two things this pass, both about **instructions that cannot work.**
+
+### §573a — The fastest refusal yet
+
+§572's letter to Lookups.io explained, at length, why their claim-by-URL portal
+could not honestly be used: the record it offers merges several unrelated
+people. Sent 19:44:16. Reply at **19:44:18**:
+
+> "Data removal requests for Lookups.io are now handled through our
+> self-service data claim portal. Please visit [the portal] and follow the
+> steps."
+
+**Two seconds.** The shortest latency in this project, beating Minerva's four
+(§562). §535's instrument applies without ambiguity: no human saw it.
+
+And it is §536's closed loop in its purest form. **The mailbox cannot
+distinguish a request from a message about a request**, so an argument that the
+portal is unusable is answered *by being sent to the portal.*
+
+Set beside §563, the contrast is exact. Minerva's autoresponder makes precisely
+this distinction — *"This mailbox handles general questions... you're in the
+right place. Someone on our team will follow up"* — and names a human escape
+hatch for cases the form does not fit. Lookups.io has neither. The row is
+**blocked by a design choice, not by a refusal**, and nothing further can be
+done from outside without asserting that a stranger's record is his.
+
+### §573b — One in five handoff items pointed at a tab that no longer exists
+
+A sweep of the 125 open handoff items found **24 of them** — nearly one in five
+— whose instructions say some version of *"the form is already filled in the
+open tab."*
+
+Every one of those was wrong. The browser tab group was destroyed **twice on
+2026-10-12 inside half an hour**, taking staged forms with it both times
+(§565, §569). A staged tab was never a durable handoff; §539c said so, and the
+list kept being written as though it were.
+
+This is worse than §560a's decay, because it does not merely go stale — **it
+tells the reader to do something impossible and gives no alternative.** Someone
+working the list opens it, finds no such tab, and reasonably concludes the item
+is broken or that the notes cannot be trusted. The second conclusion is the
+expensive one: it discredits the 101 entries that *are* fine.
+
+All 24 now carry a standard header saying the tab is gone, that the item needs
+filling from scratch, and the values to fill it with — followed by the original
+notes, which are kept because they hold the per-site quirks that took a pass
+each to find.
+
+**The general rule, learned the dull way:** a handoff instruction must be
+executable by someone who was not there. Anything that refers to *"the open
+tab"*, *"the staged form"*, or *"this session"* is a note to self wearing a
+handoff's clothes.
+
