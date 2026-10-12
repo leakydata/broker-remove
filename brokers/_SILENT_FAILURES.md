@@ -37028,3 +37028,58 @@ carefully as the subject's own.** The five are recorded in the gitignored
 tracker and described here only by the fact of their existence. Where a
 company must be named publicly, the company is named; the individual is not.
 
+## §558 — Three answers in one morning, at three different standards
+
+Within four hours, three companies answered. Put side by side they are a
+fair sample of the whole project.
+
+**GRIN — confirmed, with service providers directed.** Submitted 04:57,
+confirmed 12:15: *"your personal data has been effectively and completely
+deleted from our systems. **All of our service providers were directed to do
+so as well. Each has confirmed that your data has been erased.**"*
+
+That second sentence is rare. §1798.105(c) requires a business to direct its
+service providers; almost every confirmation in this project stops at the
+company's own systems. GRIN went past the statute by saying each provider
+confirmed back. **They did not name them**, so unlike §557 it cannot be
+verified or followed upstream — a stronger claim than most and still
+uncorroborated in §138's sense. Whole cycle: under eight hours, no CAPTCHA, a
+named human fallback, seven days to verify.
+
+**Snov.io — named the recipients** (§557).
+
+**EAB — redirected to the barrier they were told about.**
+
+### §558a — Answering the accessibility point with the thing it was about
+
+The letter of 11 October said plainly: *"your online privacy request form is
+behind a CAPTCHA that I am not able to complete. I mention it because a
+CAPTCHA-only route excludes anyone using assistive technology, and because
+your registration lists this mailbox, so a usable alternative exists."*
+
+The reply — sent twice, identically, two minutes apart — directs back to a
+OneTrust form. **That form carries a distorted-text image CAPTCHA**, the
+harder kind, not a checkbox.
+
+This is not refusal and almost certainly not malice; it is a macro firing at
+a message whose entire content was about why the macro's answer does not
+work. §536 recorded a mailbox that could not distinguish a request from a
+reply about a request. **This is the same failure with a human in the loop**,
+which is worse, because somebody read a letter explaining an access barrier
+and sent back the barrier.
+
+The form has been staged to its CAPTCHA regardless, carrying in free text
+everything the form's structure cannot hold.
+
+### §558b — One good idea in the EAB form
+
+Its request-type tiles include **"Right to Know 3rd Party Service
+Providers"** — the §1798.105(c) question as a **first-class request type**.
+No other form in this project offers it.
+
+That is worth noting precisely because the same form forces one right per
+submission and demands a separate request per program. A company can design
+the best single control seen here and still wrap it in a process that makes
+using it expensive. **The two observations are independent, and both are
+true.**
+
