@@ -37727,3 +37727,52 @@ marketplace that quietly deleted somebody's live property listings as a side
 effect of a privacy request would have caused real harm, and **saying so before
 rather than after is the whole of the obligation.**
 
+## §570 — A mis-aimed click on a list is worse than a mis-aimed click on a button
+
+Crexi's opt-out is filed and verified (**request 1879715377**, alongside the
+deletion's 2605666032). But the run produced a better lesson than the result.
+
+Re-running the same wizard, I reused the coordinates that had worked an hour
+earlier. Between the two runs a *"This field is required"* message had appeared
+above the dropdown, **pushing the option list down by exactly one row.** The
+click that had selected *Consumer* now selected:
+
+> **Current Employee**
+
+Reading the value back caught it, and it was corrected before submission. But
+consider what nearly happened: this form carries a **penalty-of-perjury
+declaration**, and it would have gone in asserting that the subject is a
+current employee of Crexi. Not untidy — **a false statement on a sworn form.**
+
+### §570a — The asymmetry
+
+§566 was about a click landing 18% off target and therefore hitting nothing.
+This is the same class of error with the opposite consequence:
+
+| | wrong coordinates on a **button** | wrong coordinates on a **list** |
+|---|---|---|
+| result | nothing happens | **a different option is selected** |
+| visibility | obvious — no state change | **invisible — the field looks filled** |
+| recovery | retry | only if you read the value back |
+
+**A no-op announces itself. A wrong selection does not.** It produces a
+plausible, confidently-rendered value that no screenshot would make you
+suspicious of, because a dropdown reading *"Current Employee"* looks exactly as
+correct as one reading *"Consumer"*.
+
+The operating rule, now written down: **on a progressive form, never reuse a
+coordinate across runs.** Validation text, error rows and expanding sections
+change the layout between attempts, and the thing that moves is usually the
+list you are aiming at. Re-measure every time — and **always read the value
+back**, which is the step that actually caught this.
+
+### §570b — Still loading, and not calling that a failure
+
+Clicking the opt-out verification link moved the portal to a `/preferences/`
+route which was still showing *"Please wait while we retrieve your form"* when
+the pass ended.
+
+That is recorded as **unresolved, not broken.** §566's whole lesson was that an
+unverified action and a null result look identical from outside; a slow load
+and a hung one do too. It gets one look next pass before it gets a verdict.
+
