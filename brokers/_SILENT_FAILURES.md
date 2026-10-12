@@ -37947,3 +37947,73 @@ executable by someone who was not there. Anything that refers to *"the open
 tab"*, *"the staged form"*, or *"this session"* is a note to self wearing a
 handoff's clothes.
 
+## §574 — The CAPTCHA that loads late, and the one that explains itself
+
+AutoWeb's OneTrust form is now worked out end to end and blocked only by a
+CAPTCHA; the whole request is written to a fill sheet rather than left in a tab
+(§573b).
+
+Two things are worth keeping.
+
+### §574a — An early "no CAPTCHA" is worth nothing
+
+A DOM check for `.g-recaptcha`, `[data-sitekey]`, `.h-captcha` and captcha
+iframes, run immediately after the page loaded, returned **nothing**. The same
+check minutes later returned **true**, with Submit disabled.
+
+So *"I checked and there is no CAPTCHA here"* was a true statement about a
+moment and a false statement about the form. **An early negative is not
+evidence of absence**; it is evidence that the widget had not finished
+arriving.
+
+This is §566's rule turning up in a fourth costume. The observation was
+accurate each time. **The inference drawn from it was not**, and in every case
+the error was the same shape: treating a single reading as a property of the
+system rather than a snapshot of it. Methodologically the fix is cheap — check
+again at the point of submission, which is the only moment the answer matters.
+
+### §574b — A rationale that does not survive its own design
+
+Almost no form explains why it has a CAPTCHA. AutoWeb's does:
+
+> "CAPTCHA is required to support the webform's **document upload feature**.
+> While attachments are generally optional, authorized agents may be required
+> to provide proof of authority. CAPTCHA is used for technical and security
+> purposes only."
+
+**Credit for explaining** — §561b recorded Blackbaud doing the same and it was
+the most useful sentence in that exchange. An explained control can be reasoned
+about; an unexplained one can only be complied with or abandoned.
+
+But this explanation argues against the implementation. If the CAPTCHA exists
+**to protect an upload feature**, it should fire **when a file is attached.**
+As built, it gates the entire form — including a consumer acting for himself,
+attaching nothing, exercising five statutory rights. **Every unrepresented
+consumer pays for a control that exists for authorised agents.**
+
+That is a design note rather than an accusation, and it is a small one. But it
+is the first case in this file where a company stated its reason clearly enough
+that the reason could be checked against the behaviour — and §552's rule held
+again, in its last available form: **the stated purpose is not the behaviour
+either.**
+
+### §574c — What the staged request asks for
+
+Five request types are selected, including *"Request to Know — Categories of
+Personal Information **& Sources**"*, which is the one that matters. AutoWeb is
+automotive lead generation, so the details field asks for:
+
+- **the source by name**, not by category — a lead record originates with a
+  dealer, a comparison site, an aggregator or a purchased list, and the
+  supplier matters more than the deletion;
+- **the recipients** — which dealers, lenders and downstream buyers received
+  it, and for them to be directed to delete under §1798.105(c), because a
+  record distributed to a dealer network survives everywhere it was sent, and
+  those copies are the ones that generate the calls;
+- **forward-looking suppression**, on the stated ground that lead generation
+  re-ingests by nature, so deletion without suppression is temporary by
+  construction;
+- whether the request **covers the affiliate Buyerlink** or must be filed
+  separately — the §568b multiplication question asked in advance rather than
+  discovered later.
+
