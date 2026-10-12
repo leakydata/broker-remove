@@ -35903,3 +35903,66 @@ it, so it is the entity that will answer — and the name to use if PMG is ever
 cross-referenced against a state register filing, where a search for "PMG"
 would miss it.
 
+## §541 — Verification by email cannot reach a dormant address
+
+MCH Strategic Data's form asks for **one field** — an email address — and
+sends a confirmation to it. Its scope sentence is the best in this project on
+the point every other company gets wrong:
+
+> "This request process is available to **all individuals, regardless of state
+> of residence**, and is intended to support applicable consumer privacy
+> rights, including those provided by the California Consumer Privacy Act."
+
+No state list, no residency gate, nothing to argue. Against Datasys and PMG,
+whose published scopes omit Pennsylvania, and §536's JMR, this is what it looks
+like when a company decides the cheapest answer is to serve everyone.
+
+**And it still cannot reach the record most likely to exist.**
+
+MCH compiles data on **professionals** — educators, healthcare and
+institutional staff — keyed to **where somebody works**. Any record it holds
+for this subject is far more likely filed under his old university address than
+under a personal one. But that mailbox is **closed**, and the form verifies by
+emailing whatever address you type.
+
+> **The one identifier most likely to match is the one that cannot complete
+> verification.**
+
+Submitting the live address is still right — it costs nothing and might match.
+But a nil returned against it would be **true and worthless**: it would mean
+only that MCH holds nothing under an address they were never likely to have.
+The institutional record survives, and the row reads clean. That is a
+manufactured false nil, produced by a verification design rather than by any
+refusal.
+
+### §541a — Why this generalises past MCH
+
+§514b established that **an email address dates a record**, and that the eight
+dormant addresses are the likeliest match keys precisely because they were
+current when the data was collected. §541 is the structural consequence:
+
+**Verify-by-email systematically excludes the addresses most likely to be in
+the file.** The newer the address, the better it verifies and the worse it
+matches. Any broker holding decade-old data and verifying by live mailbox has
+built a loop that can only confirm records it acquired recently.
+
+So for every verify-by-email form, the question is not "which address do I
+control?" but **"which address were they given, and can I still receive mail
+at it?"** Where those differ, the form cannot do the job and a human channel
+is required.
+
+### §541b — The route around it
+
+MCH publishes a help line — **(833) 931-6285** — and a postal address in
+Kansas City. A person can accept *"the record you hold is under a university
+address I no longer control, here it is, please search on that"*; an automated
+loop cannot.
+
+This is §537b and §539b arriving at the same place from a third direction:
+**when the form's structure excludes your case, the human channel is not a
+fallback — it is the only channel that can take the request.** A form can only
+ask what it was built to ask.
+
+Whether to name the dormant university address by phone is the subject's call,
+and it is queued as such.
+
