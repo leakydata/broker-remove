@@ -35966,3 +35966,68 @@ ask what it was built to ask.
 Whether to name the dormant university address by phone is the subject's call,
 and it is queued as such.
 
+## §542 — Three designs for the same demand
+
+Cadent's verification loop — the one that voided the 18 August request and
+defeated the 3 September retry, both times by letting a 24-hour token expire —
+**was closed this pass by doing the whole sequence in one sitting**: answer the
+US-resident question, send the link, find the mail within a minute, click
+through. That lands on the real request form, which no amount of persistence
+reaches without a live token.
+
+The form is now staged behind a single reCAPTCHA tick. Pressing Submit
+returned *"Please select captcha"*, so the check is enforced and this is a
+genuine handoff rather than another §540 misreading.
+
+**Only the opt-out was selected, deliberately.** Cadent's own text:
+
+> "For access and deletion requests, you must provide both your household
+> address **and one or more device IDs** that belong to you... For opt-out
+> requests, you need only to provide your household address."
+
+A Device Identifier field appears the instant Access or Delete is ticked. That
+identifier is banned outright, so **deletion is unavailable here** without a
+decision from the subject, and Access and Delete were left unticked on purpose.
+
+### §542a — The spectrum
+
+Three companies this session have needed the same thing — a device- or
+cookie-level key to reach pseudonymous rows — and built three different doors:
+
+| | how the identifier is demanded | what you can still file |
+|---|---|---|
+| **Nexxen** (§538a) | optional field | everything, without it |
+| **Cadent** | mandatory for access and deletion | opt-out only |
+| **Datasys** (§537) | bundled into one mandatory consent checkbox | nothing, without it |
+
+The underlying need is identical and entirely legitimate: none of them can
+find a cookie-keyed row from a name. **What differs is whether a consumer who
+declines is left with anything.** Nexxen loses nothing but reach. Cadent keeps
+a real right available. Datasys closes the door completely.
+
+This is the same axis as §536's appeal route and §541's residency clause: not
+willingness to comply, but **whether the design leaves a path for the person
+who says no.**
+
+### §542b — The opt-out as the reliably unconditional right
+
+§290 established the opt-out as the wedge because **§1798.120 requires no
+verification** — a wrongly-honoured opt-out discloses nothing and harms no one,
+so a company has no principled reason to gate it. Cadent proves the point from
+the other side: it is the one right they will take on an address alone, while
+access and deletion demand a device ID.
+
+So the working rule, now confirmed at both MCH and Cadent: **when a form
+demands an identifier you will not give, check whether the opt-out is carved
+out.** It usually is, and it is usually the only thing still available.
+
+### §542c — A household opt-out
+
+Cadent's wording is *"we will opt-out that household accordingly"* — the
+suppression attaches to **the address, not the person**. That is broader than
+the usual person-level opt-out, and it is also a disclosure: their data is
+keyed to households rather than individuals, which is exactly what a CTV and
+ACR business would hold. Compare §538, where Nexxen's form revealed ACR data
+keyed to television device IDs. **Two adtech forms, each describing its own
+data model through the fields it insists on.**
+
