@@ -35714,7 +35714,8 @@ boxes it has.
 
 Nexxen's DSR portal was staged to its reCAPTCHA with everything else complete:
 United States / Pennsylvania / Customer / **Delete your personal information**
-/ Yourself / `leakydata@gmail.com` / affirmed. Only the tick and Submit remain.
+/ Yourself / [the correspondence address] / affirmed. Only the tick and Submit
+remain.
 
 **The form disclosed more than the correspondence did.** On 30 August Nexxen
 answered by redirecting to this portal and left two questions unanswered. One
