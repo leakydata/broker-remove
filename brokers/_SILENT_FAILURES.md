@@ -37361,3 +37361,53 @@ someone who had clearly thought about the person on the other end. **Judging
 the company by either alone would be wrong**, and a file that recorded only
 the first would be the more misleading of the two.
 
+## §564 — A form that is not there until you answer a question, behind a button that does not say why it failed
+
+domainIQ (WHOIS intelligence, §220) had no discoverable privacy route — no
+published address, only a `/contact` page. Two things about that page are worth
+recording.
+
+**The form does not exist until you classify yourself.** The page as served
+carries a single `<select>`: *"My question is related to:"*, with options for a
+domain you own and for *"domainIQ site and services"*. **Name, email,
+department, subject and message are not in the DOM at all** until the second
+option is chosen. A crawler, a quick human look, or any check that asks *"is
+there a contact form here?"* answers **no**.
+
+This is not malice — it is a reasonable way to keep registrar questions out of
+the support queue, and the page says four times over that they are not a
+registrar. But it is another instance of §526's lesson: **a route can be
+present and still be invisible**, and the test "I could not find a form" is
+weaker than it feels.
+
+**The submit button fails silently.** With every field filled, pressing
+*"Contact Us"* does nothing. Not an error, not a scroll-to-field, not a
+highlight — the page does not change by one character (body text 1,585 bytes
+before and after, twice). The cause is an **hCaptcha** checkbox sitting
+directly above the button, untouched. It is *visible*, so a sighted person has
+a fair chance of connecting the two; but nothing on the page says the
+submission was refused or why.
+
+A detail for the record: the widget is hCaptcha (`class="h-captcha"`) while the
+response field is named **`g-recaptcha-response`** — hCaptcha's drop-in
+compatibility shim for sites migrating off reCAPTCHA. Probing for
+`[data-sitekey]` therefore finds it, but calling it reCAPTCHA in a note would
+be wrong.
+
+### §564a — Why this one asks instead of tells
+
+The staged message deliberately **does not supply the identifier set**, and
+says so. Pre-2018 WHOIS is generally unredacted: a snapshot carries the
+registrant's name, postal address, telephone number and email as they stood on
+that date. The obvious move — reverse-WHOIS my own details to see what is
+there — would hand domainIQ **a fresh, dated identifier set and possibly
+create a query record where none existed.** That is the opposite of a deletion
+request.
+
+So the request runs the other way: *tell me what you hold, by whatever key you
+already hold it under.* And if they genuinely need a key to look, it asks
+**which single identifier would suffice, and why** — which is §542a's spectrum
+applied before the demand is made rather than after.
+
+One tick remains.
+
