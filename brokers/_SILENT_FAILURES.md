@@ -37083,3 +37083,63 @@ the best single control seen here and still wrap it in a process that makes
 using it expensive. **The two observations are independent, and both are
 true.**
 
+## §559 — Four rights advertised, two available
+
+Blackbaud's webform opens by listing the rights it offers: **Opt Out,
+Deletion, Correction, Access.** The request-type control offers **two**.
+
+The explanation is printed directly beneath it, and it is honest:
+
+> "**Don't see a request type?** We currently only allow Correction and Access
+> requests from countries and states with active privacy laws."
+
+Pennsylvania has no comprehensive privacy statute, so **two of the four
+advertised rights are unavailable to this subject.** A parallel notice
+restricts requestor types the same way.
+
+This is a **partial** residency gate, and it belongs beside the others
+catalogued at §553 and §554b as a distinct kind:
+
+| | effect of residency |
+|---|---|
+| Neptune Ops (§545) | **total block** — no path at all |
+| PureCars (§552) | **none** — all fifty states |
+| Inmar (§553) | **none** — explicit "outside of" option |
+| People Data Labs (§554b) | **none** — explicit catch-all |
+| **Blackbaud** | **partial** — two rights of four |
+
+Five instances now, five different behaviours behind similar wording. The
+working rule stands: **the scope statement is not the behaviour, and the only
+way to know is to drive the control.** Here the restriction is invisible until
+a state is chosen, so even reading the page carefully beforehand would not
+reveal it.
+
+The form is staged to a **distorted-text image CAPTCHA**.
+
+### §559a — A handoff written around a tool limit, not a site
+
+The queue entry for this row said: *"My browser extension has no permission on
+that domain so I cannot fill it."*
+
+**That is no longer true.** The page loaded, read and filled normally. The
+earlier agent's constraint was environmental, and the handoff had been
+standing ever since as though the obstacle were the site's.
+
+Worth generalising, because this project's queue is full of inherited notes:
+**a note saying "I cannot reach this" records the state of a tool at a moment,
+not a property of the target.** It costs one navigation to re-test and should
+be re-tested before the claim is relied on — the same lesson as §539's dead
+URL and §552a's deprecated form, arriving from the direction of our own
+records rather than theirs.
+
+### §559b — A test value in a production form
+
+The accessibility tree lists the authorized-agent question's options as
+**"Test / No / Yes"**, while the rendered page shows only *No* and *Yes*.
+
+A leftover configuration value is sitting in the DOM of a live privacy form.
+It changes nothing for a consumer and is recorded only because it is the kind
+of detail that indicates how closely a compliance surface is maintained —
+alongside §545c's *"Clone of"* form title, which was the same sort of artefact
+and did eventually get fixed.
+
