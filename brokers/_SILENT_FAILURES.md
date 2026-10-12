@@ -38144,3 +38144,63 @@ Two rules follow, and they are cheap:
 The text went to `outbox/staged/buyerlink_form.txt` instead, which is where it
 should have gone in the first place.
 
+## §577 — Buyerlink lands, and a fifteen-minute window
+
+### §577a — Submitted, with one thing I cannot verify
+
+Buyerlink is in: **request 6TKMA8ERGT, 22:02 UTC**, five request types and the
+broad Request-to-Know option. Its footer reads *One Planet Group LLC*, the same
+as AutoWeb's, confirming §575b's shared parent.
+
+But the confirmation has **no "Request Details" line**, where AutoWeb's an hour
+earlier did carry one. That is consistent with the free-text box having gone in
+empty — my own attempt to fill it went to the wrong tab (§576b). It is **also**
+consistent with OneTrust simply omitting an empty optional field from the
+template, and I have no Buyerlink confirmation *with* details to compare
+against.
+
+So it goes in the record as **unresolved**. §566 again: the absence of a line is
+suggestive, not conclusive, and the interesting reading is not the entitled one.
+
+What it would cost if the box was empty: **the five rights are filed and those
+are the operative part**, but the substance would be missing — name the source
+rather than the category, identify the dealers and downstream buyers and direct
+them under §1798.105(c), record forward-looking suppression, and say whether
+the request reaches the wider group. The cheap repair is a **comment on the
+existing request**, not a second filing that would look like duplication.
+
+### §577b — The fifteen-minute window
+
+Blackbaud sent a *"One-Time Access Code"* at 22:01, valid for **fifteen
+minutes**. The portal tab now reads `/sessionExpired`. So the gate was passed —
+CAPTCHA cleared, code redeemed — and I still have not seen the comment.
+
+Set the full chain out, for a reply to a request that was **already
+email-verified that morning**:
+
+1. receive the notification, which contains none of the content;
+2. open the portal;
+3. pass a **distorted-text image CAPTCHA**;
+4. request a code;
+5. leave for the mailbox;
+6. retrieve the code;
+7. return and enter it —
+
+**all inside fifteen minutes.** Each step is individually defensible. The
+sequence is not. §575c called this a defence applied one step too far; the
+expiry window makes it two.
+
+And the asymmetry is worth naming: **the company can reach the requester in one
+click — it has his verified address and uses it to send the notification — while
+the requester cannot reach the reply without clearing three obstacles against a
+clock.** The channel is proven in one direction and treated as untrusted in the
+other.
+
+### §577c — Closing tabs on purpose
+
+Both staged tabs were closed rather than left open, following §576b. An expired
+session that still *looks* like a staged form is worse than no tab at all: it
+invites a return visit that cannot work, and it gives stray input somewhere to
+land. The durable artefacts — two fill sheets and two queue entries — are on
+disk, which is the only place a handoff survives.
+
