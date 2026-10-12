@@ -37461,3 +37461,70 @@ finding. It took thirty seconds of actually looking to downgrade it. §552's
 rule generalises past scope statements: **the note is not the behaviour
 either.**
 
+## §566 — I was clicking in the wrong coordinate space, and §564 pays for it
+
+Deloitte's request form opens with a radio pair, *Myself* / *Someone else*.
+Clicking it by accessibility ref did nothing. Reading the radio's position with
+`getBoundingClientRect` and clicking those coordinates did nothing either.
+A screenshot showed why.
+
+**The screenshot is 759px tall; the page reports a 929px viewport.** The
+browser tool's click coordinates are in *screenshot* space, the DOM's are in
+CSS pixels, and the two differ here by a factor of **0.817**. Every coordinate
+I computed from the DOM and then clicked was landing about **18% up and to the
+left** of its target. Converting — CSS (822, 206) → screen (672, 168) — the
+same click selected the radio immediately and the form expanded from 2 fields
+to 37.
+
+### §566a — What this costs §564
+
+§564 reported that domainIQ's *"Contact Us"* button **"fails silently"**: that
+with every field filled, pressing it produced no error, no highlight, and no
+change to the page, and that an hCaptcha was the hidden reason.
+
+**I cannot stand behind that.** I clicked at CSS (398, 469), which in screen
+space was about (325, 383) — **not on the button**. The most likely
+explanation for "nothing happened" is now the dullest one: *I missed.*
+
+What survives: the hCaptcha is real — `class="h-captcha"`, response token
+empty — so a tick is genuinely needed and the handoff is still right. What does
+not survive is the more interesting claim, that the button is mute about why it
+refused. **I never tested that, because I never pressed it.** The handoff note
+has been corrected to flag it as a guess.
+
+This is §539b's lesson arriving a second time in a different costume. There it
+was a stale screenshot read as current; here it is a correctly-read measurement
+applied in the wrong units. Both produced **a confident sentence about a system
+that was never actually exercised**, and in both cases the error was not in the
+observation but in the step between observing and concluding.
+
+The general form, worth keeping: **"I did X and nothing happened" is only
+evidence if you can show X happened.** An unverified action and a null result
+look identical from the outside.
+
+### §566b — Deloitte's form, which deserves saying
+
+Separately: the form itself is among the best in this project. **Eight
+separately selectable request types**, including the two usually absent —
+*"know the third parties to whom my personal information has been disclosed"*
+(§1798.115) and *"confirm if Deloitte is processing my personal information"* —
+with opt-out-of-sale and limit-use-of-sensitive-PI as distinct choices rather
+than collapsed into one "delete". It volunteers *"Deloitte does not engage in
+profiling."*
+
+And it states a limit almost no form admits:
+
+> "If you enter additional personal information (emails, telephone numbers,
+> mailing addresses) into the Comments field, **they will not be processed
+> within this request.** Please submit additional personal information in a
+> separate request."
+
+Most forms silently discard free-text identifiers. This one says so — which
+changes the strategy rather than merely annoying: the wider identifier set
+**cannot ride along in a comment here**, and the comment carries only the
+question §534 asked, about which part of a consulting business makes a data
+broker registration necessary.
+
+The form then threw *"Something went wrong"* and redirected to `/error`,
+discarding everything. A full fill sheet is on disk so the retry costs nothing.
+
