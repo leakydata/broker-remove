@@ -37188,3 +37188,67 @@ detect — only 404s and DNS failures reliably — so that re-verification has t
 be done by opening pages, which is exactly what the passes have been doing one
 at a time.
 
+## §561 — Three confirmations, and a correction to §540b
+
+The subject worked the handoff list. Three staged forms submitted within the
+same minute — **13:45 UTC** — and all three verification links were clicked in
+this pass:
+
+- **Minerva** — *"Email verified. Identity Verified. Your deletion request
+  will now be processed."*
+- **Koddi** — Request ID **Q2X5QWV8EL**, confirmed, with the full 3,156-character
+  argument of §544b echoed back in the acknowledgement.
+- **Blackbaud** — Request ID **N7MF2DH4AF**, confirmed.
+
+The division of labour is now demonstrated rather than assumed: **a pass can
+take a request to the last click, and the last click is cheap once everything
+else is done.** Three forms that had each taken a full pass to stage were
+completed in under a minute.
+
+### §561a — §540b was wrong about Momentum Platform LLC
+
+§540b recorded that *"PMG Worldwide's OneTrust tenant is registered to
+Momentum Platform LLC"* and suggested using that name to find PMG on a state
+register.
+
+**The same hidden footer string — "This email was sent from Momentum Platform
+LLC" — appears on Koddi's confirmation.** Koddi and PMG are unrelated
+companies.
+
+What distinguishes them is the host. PMG's and Koddi's mails both came through
+the **shared** `privacyportal.onetrust.com`; Blackbaud's came from its **own
+tenant subdomain**, `blackbaud-privacy.my.onetrust.com`, and its footer reads
+*"This email was sent from Blackbaud."*
+
+So "Momentum Platform LLC" is **the root-organisation name on OneTrust's
+shared portal**, not PMG's legal entity. Using it to search a broker register
+would have found nothing, or worse, the wrong company.
+
+The error is the same shape as §534a's SPA returning 200: **a value that looks
+like evidence about a company is actually a property of the platform it is
+hosted on.** One corroborating instance — a second company showing the same
+string — was enough to overturn it, and that instance arrived four hours later
+by chance. The correction is cheap now; it would not have been after the name
+had been written into a register search.
+
+### §561b — The only verification notice that explains itself
+
+Blackbaud's confirmation is the one message in this project that says why it
+exists:
+
+> "We have received **an unusual volume of automated submissions** and need to
+> validate the submission was made with your knowledge... if you signed up for
+> a service that makes requests to data brokers to delete your data, or you use
+> an identity protection service, it is possible that service submitted this
+> request to us on your behalf."
+
+That is a fair and accurate description of the deletion-service industry, and
+a reasonable response to it. It also explains the **image** CAPTCHA rather
+than a checkbox: the defence is against bulk filing, not against consumers.
+
+Worth holding beside §559. The same company that advertises four rights and
+offers a Pennsylvania resident two also writes the clearest account of its own
+verification step that this project has encountered. **Neither observation
+cancels the other**, and a file that recorded only the first would describe
+Blackbaud less accurately than one that records both.
+
