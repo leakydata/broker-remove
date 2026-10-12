@@ -36953,3 +36953,78 @@ those are facts about the file; it is not reliable about whether each value
 belongs to the person. The two uses have to be kept apart, and this pass used
 only the first.
 
+## §557 — The company that named its recipients
+
+Snov.io's reply arrived this morning and is **the most specific disclosure
+this project has received** — more useful even than §554's, because it
+answers the question §1798.105(c) asks and almost nobody does: **who got it.**
+
+They did five things:
+
+1. **Named the one identifier that matched** — a single email address.
+2. **Named the customer who took it**, and stated it was disclosed to no one
+   else.
+3. **Named four further users** who obtained the same address **from
+   LinkedIn** through their platform.
+4. **Gave an explicit nil on everything else**: *"We did not find any of the
+   other email addresses you provided in our database."*
+5. **Deleted it and added it to a suppression list** *"to prevent it from
+   being re-added"* — the forward-looking suppression every letter asks for,
+   volunteered rather than extracted.
+
+And they were honest about the limit: *"Snov.io's removal applies to our
+platform only. We cannot delete information held independently by third
+parties."*
+
+**This is what a demonstrated nil looks like** (§447). It names what was
+searched and what was found, so the negative result carries information. Set
+against §535's three automated nils in thirty-nine minutes, the difference is
+not politeness — it is that one of them is checkable.
+
+### §557a — Four of five came from LinkedIn
+
+The detail that matters most is not the deletion. **Four of the five
+recipients obtained the address from LinkedIn**, through Snov.io's tooling.
+
+§450 recorded the decision to supply the LinkedIn URL as a search and
+suppression key, on the reasoning that a public profile is the collection
+input for sourcing brokers. **That reasoning is now evidenced**: a named
+platform has confirmed that four separate parties harvested this subject's
+contact details from that profile.
+
+It also raises the question the reply does not answer, which has been put
+back to them: **does the suppression prevent re-collection from LinkedIn, or
+only re-addition from the original source?** If only the latter, a profile
+that remains public makes the suppression temporary by construction — the
+record is deleted and the pipe that filled it is still open.
+
+### §557b — Suppress what you did not find
+
+Snov.io suppressed the address that matched. The eleven that did not match
+were simply reported as absent.
+
+**That is the wrong way round, and it is the common pattern.** A suppression
+entry is *most* valuable for identifiers a company does **not** currently
+hold, because its whole function is to stop a future ingest from creating the
+record. Suppressing only what you already have protects against nothing
+except your own re-import. The request to extend it has been made, citing
+§1798.105(d)(1) for the retention that makes it lawful.
+
+### §557c — A disclosure can contain other people's data
+
+The reply names **five third parties by email address**. Those are other
+people's personal data, disclosed to the subject in the course of answering
+his request.
+
+`redact.py` checks the subject's own values. **It would not have caught
+these**, and publishing them would have leaked identifiable information about
+uninvolved people into a public repository — a worse outcome than any of the
+three near-misses recorded at §534b, §548a and §554d, because the guard was
+never going to fire.
+
+So a rule the tooling cannot enforce: **a disclosure obtained under a privacy
+right can itself contain personal data about others, and it is handled as
+carefully as the subject's own.** The five are recorded in the gitignored
+tracker and described here only by the fact of their existence. Where a
+company must be named publicly, the company is named; the individual is not.
+
