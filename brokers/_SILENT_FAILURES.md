@@ -36796,10 +36796,39 @@ meaning. Open the control.
 
 ### §554c — Still unread
 
-The attachment, `NathanJones-hireEZ-Candidate-Profile.pdf`, has **not been
-read**. It is the only portable copy of an actual profile this project holds
+The attachment — a hireEZ candidate-profile PDF named after the subject — has
+**not been read**. It is the only portable copy of an actual profile this project holds
 from a recruiting-data company, and the obvious questions for it are: **which
 of the twelve email addresses matched**, and **what was inferred** rather than
 collected. §514b established that an address dates a record; a document
 showing which address a company actually keyed on would test that directly.
+
+### §554d — The same process fault, twice in one night
+
+§548a recorded the rule after an empty commit: **run `redact.py` as its own
+step and read its output.** Six passes later I broke it again, and worse.
+
+§554 was written with the attachment's filename quoted in full. That filename
+is the subject's name. `redact.py` caught it and printed *"1 personal-data
+occurrence(s) in files git would publish"* — and the commit and push ran
+anyway, **because I had chained the check, the commit and the push into a
+single shell command.** The guard fired into the middle of a pipeline whose
+later stages did not depend on it.
+
+So the name was public on the remote for one commit, and is now replaced with
+a description.
+
+**The rule was already written down; what was missing was the mechanism.** A
+check whose failure does not stop the next step is not a check, it is a log
+line. The two previous instances — §534b's address, §548a's empty commit —
+were both caught by a guard and both nearly lost for the same reason: the
+guard's output scrolled past inside a command that was going to push
+regardless.
+
+**The fix is structural, not a resolution to be more careful:** `redact.py`
+runs in its own call, its output is read, and only then does a separate call
+commit and push. That is slower by one round trip and it is the difference
+between a guard and a decoration. Three occurrences is enough to stop treating
+this as carelessness and start treating it as a procedure that was never
+properly adopted.
 
