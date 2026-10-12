@@ -36552,3 +36552,75 @@ rather than relegating it to a catch-all. A person who is simply in the data —
 the entire population a processor holds records about — is a first-class
 option rather than an afterthought. It costs one line in a dropdown.
 
+## §551 — Correcting §547b: what GPC actually reaches
+
+§547b called Global Privacy Control *"almost certainly the highest-value
+single action available anywhere in this queue."* **That overstated it, and
+this section measures the claim rather than repeating it.**
+
+### §551a — The number
+
+A sample of **100 domains** drawn from the project's open rows, each fetched
+for a privacy page and searched for a GPC commitment:
+
+| | count |
+|---|---|
+| mentions GPC | **24** |
+| privacy page, no GPC mention | 59 |
+| unreachable | 17 |
+
+So roughly **29% of reachable open-row brokers say something about GPC** — a
+real share, and more than expected.
+
+### §551b — But it does not reach the listing
+
+**The hits are concentrated in exactly the companies GPC cannot help against.**
+Nine of the twenty-four are court-record sites on what looks like one shared
+template; three more are people-search sites. Reading what their policies
+actually promise settles it:
+
+- **FastPeopleSearch**: GPC opts you out of *"our use of certain **Collection
+  Technologies**"* — cookies and trackers on their website.
+- **BeenVerified**: GPC appears in the **cookie** section — *"you can opt out
+  of non-essential cookies... and we honor Global Privacy Control signals
+  where applicable law requires it."*
+
+Neither sentence touches **the public record about you**, which is the entire
+reason those companies are in this project. **GPC governs how a site tracks
+your browser, not what a site publishes about your name and address.**
+
+So the honest statement is narrower and more useful than §547b's:
+
+> **GPC is valuable against the adtech half of this list — companies that
+> "sell" or "share" by passing browser-mediated identifiers — and close to
+> irrelevant against the people-search half, whose records are keyed to a name
+> and an address and are unaffected by any browser signal.**
+
+It is still worth enabling: it is free, it applies to every honouring site at
+once, and §547's Kargo is exactly the kind of company it does reach. It is not
+a substitute for a single removal request at a listing site.
+
+### §551c — It is not currently on, and a suspicion that was wrong
+
+Checked directly: **`navigator.globalPrivacyControl` is `undefined`** in this
+browser. Only the older `DNT: 1` is set, which most of these policies ignore
+by name. **So the recommendation in §547b has not been acted on**, and the
+measurement above describes a benefit not yet being received.
+
+One thing worth recording against myself. SocialCatfish's privacy page carried
+the text *"Opt-Out Signal Detected. We won't sell or share any data passed
+using..."* — and it appeared identically in `curl` fetches **with and without**
+a `Sec-GPC` header, three occurrences either way. That looked like false
+reassurance: a site telling every visitor their signal was detected.
+
+**It was not.** Loading the page in a browser with GPC genuinely off shows the
+element present but `offsetParent === null` — **hidden**, waiting to be
+revealed when a signal actually arrives. The implementation is correct; the
+string is in the markup because it always is.
+
+Two curl fetches supported a striking claim and a two-call check in a real
+browser destroyed it. §549c warned about hypotheses accepted at the strength
+they were *wanted*; this one was wanted because it would have been a good
+finding. **The check cost almost nothing and the publication would have been
+wrong.**
+
