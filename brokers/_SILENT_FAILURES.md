@@ -37588,3 +37588,77 @@ truth about how its intake works has earned not being worked around.** The
 usual move — dump every identifier into the nearest free-text box and hope —
 would have been worse than useless here, and they said so in advance.
 
+## §568 — They answered in 21 minutes, and §567 was wrong about the cause
+
+Deloitte's reply, from a human, inside half an hour:
+
+> "It appears that your privacy browser extension may be affected by the Google
+> domain. For security purposes, **we utilize Google reCAPTCHA** within our
+> Personal Information Request Form. Please consider temporarily disabling the
+> privacy browser extension for this site."
+
+Plus a toll-free telephone route as an alternative.
+
+**Their explanation is better than mine.** §567 concluded *"it is that field"*
+because the page died twice at the email address. But if the form calls
+reCAPTCHA and that call fails, the error surfaces at **whatever step triggers
+validation** — and the field I happened to be on is a coincidence, not a cause.
+
+And the likeliest trigger is probably not a browser extension at all:
+**reCAPTCHA v3 scores behaviour.** Scripted form-filling scores badly, the
+token fails, the app errors out. Which means **a human typing normally is very
+likely unaffected** — exactly the possibility §567 refused to rule out. The
+caveat held up; the headline did not.
+
+This is the third correction in this family in one afternoon (§566, §567,
+§568), and they share a shape worth naming: **I keep attributing a failure to
+the last thing I touched.** The stale screenshot, the mis-scaled click, the
+email field — in each case the mistake was not in what I observed but in
+assuming proximity was causation. *The field you were filling when it broke is
+not necessarily the thing that broke it.*
+
+### §568a — The error string is the real defect
+
+The fault worth fixing is not reCAPTCHA. It is this:
+
+> "Something went wrong. Please try again after some time."
+
+That message **sent me looking in the wrong place**, and it would send anyone
+else there too. Had it said *"we could not verify this submission — a privacy
+or script-blocking extension may be preventing reCAPTCHA from loading"*, most
+people would self-fix in thirty seconds and never write in. Deloitte would also
+stop **silently losing the submissions of everyone who concludes the site is
+down and gives up** — and those people are invisible, because the failure
+destroys the only channel through which they would have complained.
+
+That point went back to them, along with one more, put gently:
+
+**The people most likely to run privacy-protective browser extensions are the
+people most likely to be filing a privacy request.** The form asks precisely
+that group to lower their protections in order to exercise the right. The reply
+did *not* ask them to remove reCAPTCHA — bulk automated filing is a real
+problem, and §561b already recorded Blackbaud explaining it honestly — but
+asked that the **telephone fallback be surfaced at the moment of failure**,
+rather than only in an email to whoever thinks to write in.
+
+### §568b — The request itself is still unanswered, and a new arithmetic
+
+Deloitte treated the whole message as a support ticket. **None of the seven
+substantive items has been addressed.** The follow-up asks two plain things:
+will they process the request as sent by email, given a telephone route already
+proves the form is not the only channel; and what their instruction —
+
+> "Please submit one request for each unique email address that is associated
+> with you."
+
+— actually requires. Taken literally that is **twelve separate submissions**
+for twelve addresses. Which would arrive looking exactly like **the bulk
+automated filing the reCAPTCHA exists to stop.** The follow-up says so, and
+asks whether the addresses can be associated to one case instead.
+
+This is the Accurate Append problem again (§549): a per-identifier filing rule
+turns one request into a dozen, and the dozen is indistinguishable from the
+abuse the system is defending against. **A verification regime that makes
+honest thoroughness look like an attack is misconfigured**, and the cheapest
+fix is always the same — let one person's identifiers travel together.
+
