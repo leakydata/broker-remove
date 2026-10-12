@@ -36170,3 +36170,70 @@ answer them, and the staged text does:
   call. A requirement that is met by neither is not a verification standard; it
   is a closed door with a procedure painted on it.
 
+## §545 — The exclusion that is not silent
+
+Neptune Ops refused email in writing on 7 September — *"we do not accept
+opt-out or ACDR requests submitted via email"* — and designated two JotForms
+instead. Both open on a **required** "Covered State" dropdown, under this
+text:
+
+> "Please select your state of residence. **At this time, Neptune Ops only
+> accepts opt-out requests from residents of states covered by an applicable
+> privacy law.**"
+
+**Pennsylvania is on neither list.** The ACDR form offers 23 states; the
+opt-out form offers the same 23 **plus Nevada** — a precise and correct
+distinction, since Nevada grants an opt-out but not access or deletion. Three
+states are listed with future effective dates. Someone maintaining these knows
+the statutes well.
+
+So: **email refused, both designated alternatives gated on a list that omits
+him. Every published door is shut**, and the company states the policy plainly
+on the form rather than letting a request vanish.
+
+This file is named for silent failures, and this one is the opposite. It
+belongs here anyway, because **the outcome is identical and the honesty
+changes only who is to blame.** A consumer in Pennsylvania reaches the same
+place — no route — but reaches it in ten seconds with a reason, instead of
+after six weeks of silence. That is a genuinely better failure, and worth
+saying so.
+
+### §545a — Why no state was selected
+
+Both forms carry certifications. Picking a covered state would be a lie on a
+signed request, and it would also **destroy the evidentiary value of the
+refusal** — a submission that can be voided the moment it is checked is worth
+less than a documented exclusion that cannot be.
+
+§195 says supply the minimum the form requires. The corollary, which this row
+makes concrete: **when the minimum the form requires includes a false
+statement, the form is not a route and the finding is that it is not.**
+
+### §545b — The competence is the point
+
+It would be easy to read this as a company dodging. The opposite is visible in
+the detail: the Nevada carve-out, the future-dated entries, the renamed form
+(see below). This is a careful compliance programme that has scoped itself to
+exactly the statutes that bind it and **declined to go one inch further**.
+
+That is the structural finding this project keeps arriving at from different
+directions — §541's MCH serves everyone *regardless of state of residence* and
+costs itself nothing; Neptune Ops serves only who it must. Both are lawful.
+The gap between them is the entire practical difference for a resident of a
+state with no privacy statute, and it is a matter of choice, not law.
+
+### §545c — A correction, in the company's favour
+
+On 7 September the deletion route was recorded as being titled **"Clone of
+Neptune Ops LLC Privacy Rights Opt-Out Form"** — JotForm's default name for a
+duplicated form — raising the real worry that the route designated for
+deletion *was* the opt-out form.
+
+**It has since been renamed** to *"Neptune Ops LLC Privacy Rights ACDR Form"*,
+and its question set now differs from the opt-out form's: 18 questions against
+20, and no Nevada. The defect is fixed and the worry is withdrawn.
+
+Recorded deliberately: **a company quietly correcting something is as much a
+fact as a company failing to**, and a file that only accumulates faults will
+end up describing a world worse than the one it is auditing.
+
