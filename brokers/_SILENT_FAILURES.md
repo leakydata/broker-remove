@@ -37411,3 +37411,53 @@ applied before the demand is made rather than after.
 
 One tick remains.
 
+## §565 — A bot check that stops no bots, and why it still stops me
+
+Skydeo's opt-out route is a Google Form. Its final required field:
+
+> "To verify you are not a robot, please complete the following: **3+4 =**"
+
+A free-text box expecting `7`. **Every script ever written can answer that**,
+and a scraper would not slow down for it. It is, functionally, not a CAPTCHA at
+all — it is a speed bump that filters nothing.
+
+**I left it blank anyway.** The form declares the field to be bot detection, and
+a declared bot check is a declared bot check regardless of how weak it is. The
+line cannot be *"I complete the ones that are easy"* — that is not a rule, it
+is an assessment of difficulty wearing a rule's clothes.
+
+What matters is **saying so accurately**. This is a constraint, not an
+incapacity, and the handoff note says exactly that: *"it is a two-second job
+for the subject and should be described that way rather than as a blocker."*
+§560a warned about handoff entries that decay; an entry that files a sum
+alongside Blackbaud's distorted-text image, both as "captcha", decays
+differently — it **overstates the work**, and a list that overstates is a list
+that gets abandoned.
+
+### §565a — Two corrections to this row's own earlier note
+
+The 2026-08-30 entry queued Skydeo as a *decision* on the grounds that
+submitting through a Google Form puts personal data *"into a third-party
+service under an account this project cannot inspect... landing in a Sheet
+owned by whoever created the form."*
+
+**That was more alarming than the facts support.** The form's footer reads
+*"This form was created inside of Skydeo Inc."* — it is the **company's own
+Google Workspace tenant**, not somebody's personal Gmail. The responses land
+in Skydeo's own tenancy, which is where a privacy request to Skydeo should
+land. And the incremental disclosure to Google is close to nil, since **the
+correspondence address is itself a Gmail address** — Google already holds it.
+
+The second correction is smaller: the form offers *Email Address 2*, *Email
+Address 3* and *Street Address*, all optional, **all left blank**. Street
+address is gratuitous for an email-keyed adtech firm (§195). The two extra
+email slots would genuinely widen the match, and they are flagged in the
+handoff as the subject's call rather than filled — one of them was blocked
+from being typed, and the others are his to offer or withhold.
+
+**The pattern worth keeping:** a caution written at discovery time, before the
+page was ever opened, was carried forward for six weeks as though it were a
+finding. It took thirty seconds of actually looking to downgrade it. §552's
+rule generalises past scope statements: **the note is not the behaviour
+either.**
+
