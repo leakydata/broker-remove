@@ -38017,3 +38017,73 @@ automotive lead generation, so the details field asks for:
   separately — the §568b multiplication question asked in advance rather than
   discovered later.
 
+## §575 — AutoWeb goes in; Blackbaud answers somewhere I cannot read
+
+### §575a — The division of labour working
+
+AutoWeb is **submitted: request ID 45ZM2MG5YW, 20:53 UTC**, all five request
+types. §574's fill sheet was written at 19:5x; the CAPTCHA was cleared and the
+form filed roughly an hour later. The sheet carried the whole argument, so what
+went in is the full request and not a stripped-down version of it.
+
+The confirmation also shows a setting I had not seen on the form itself:
+
+> "For a Request to Know... **All personal information maintained about me,
+> including information collected before the previous 12 months**"
+
+— the broader of two options, and the right one. Worth noting for other
+OneTrust forms: that choice is easy to miss and the narrow default would
+silently cap the answer at a year.
+
+**And the confirmation masks what was submitted:** *"First Name: XXXhan"*,
+*"Country: XXXXXXXXXXtes"*, *"Phone Number: XXXXXXXXXX265"*. Most confirmations
+in this project echo the entire submission back in clear, which means anyone
+who later reads that mailbox gets everything that was just filed. Masking it is
+small, cheap and correct, and almost nobody does it.
+
+### §575b — A refinement to §561a
+
+§561a concluded that the company name in a **shared-portal** footer is a
+OneTrust root-organisation label rather than a real corporate parent — reached
+after *"Momentum Platform LLC"* turned up on both PMG's and Koddi's
+confirmations.
+
+AutoWeb's footer reads **"One Planet Group LLC"**, and that *is* AutoWeb's
+actual parent — and Buyerlink's.
+
+So the correct statement is narrower than §561a made it: the field carries the
+**tenant's root-organisation name**, which is sometimes an intermediary and
+sometimes the genuine parent. **It is a lead worth checking, not a name to be
+trusted or dismissed on sight.** It also quietly answers the affiliate question
+§574c asked in advance: AutoWeb and Buyerlink share a parent, so the Buyerlink
+form is a sibling filing rather than a separate company.
+
+### §575c — The reply I cannot read
+
+Blackbaud added a comment to **N7MF2DH4AF**. The notification contains none of
+it — only *"A comment has been added to your request"* and a button. The button
+lands on their portal, which demands an **access code**, and to request the
+code you must pass a **distorted-text image CAPTCHA**.
+
+Consider what that gate is doing. **This request was already verified by email
+the same day**: Blackbaud sent a confirm-your-address link, it was clicked, the
+request moved to confirmed. The access code is then emailed **to that same,
+already-proven address.**
+
+So the image CAPTCHA establishes nothing the earlier verification did not. It
+decides only whether the person who has already proved they own the mailbox may
+now read a sentence written to them about their own request. For a sighted user
+that is thirty seconds of irritation. **For anyone using a screen reader it is
+the end of the conversation** — and §558a records EAB answering precisely that
+complaint by restating the barrier.
+
+§561b credited Blackbaud for being the only company here to *explain* its
+anti-automation measures, and that credit stands. **This is the same defence
+applied one step too far:** at submission it is defensible; on a reply to an
+already-verified requester it is friction with no corresponding gain.
+
+The email field is staged and the CAPTCHA is handed off. The comment matters
+more than most, because this is the company that granted **two of the four
+rights it advertises** (§554b) — so the sentence I cannot read may be the
+explanation for that.
+
