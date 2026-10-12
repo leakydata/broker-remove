@@ -36471,3 +36471,36 @@ Whether all seventeen are worth the passes is the subject's call and is queued
 as such; the Waynesboro and State College clusters are where the oldest records
 sit.
 
+### §549c — Testing the comfortable hypothesis
+
+§549 recorded, as the likeliest cause of the inert Submit, that the values had
+been set programmatically and a handler keyed to real user input was ignoring
+them — **my limitation, not the site's.**
+
+**That was tested and it is wrong.** The form was reloaded and refilled
+entirely through the ordinary input path, dispatching genuine input and change
+events on every field, with the state chosen properly in the dropdown rather
+than assigned. Submit behaved identically: no navigation, no success, no
+validation message, every field still populated, page body identical in length.
+
+So the block is **not** the fill method. What remains is either a submit
+handler broken for this browser, or something refusing the post silently
+despite Turnstile having issued a valid token — and those cannot be
+distinguished from outside.
+
+The reason this was worth a second pass is the shape of the hypothesis, not
+the outcome. **It exonerated the site and blamed the tool**, which made it
+comfortable, and comfortable explanations are the ones that get written down
+as "likely" and then quietly harden into fact. §540 was the same error running
+the other way — a stale screenshot believed because failure was the more
+interesting story. Both are cases of **an explanation accepted at the strength
+it was wanted, not the strength of its evidence.**
+
+The ask to the subject is correspondingly sharper. Not *"see whether it works
+for you, the problem may be mine"* but: **press Submit by hand.** If it works,
+the site is refusing automated sessions, which is worth recording about them.
+If it does nothing for a human either, **the only published opt-out route at
+this broker is broken** — the same order of finding as §547's missing
+checkbox, and their accessibility line (833-663-1919) exists for precisely
+that case.
+
