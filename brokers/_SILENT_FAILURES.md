@@ -38087,3 +38087,60 @@ more than most, because this is the company that granted **two of the four
 rights it advertises** (§554b) — so the sentence I cannot read may be the
 explanation for that.
 
+## §576 — Keystrokes went to a tab I was not looking at
+
+Buyerlink's form is the same OneTrust webform as AutoWeb's, **embedded in an
+iframe** on their own page. It is filled — Consumer, five request types, name,
+email, country, state — and a fill sheet carries the rest.
+
+Two findings, one of them about me.
+
+### §576a — Same vendor, same company group, different button order
+
+AutoWeb's request-type grid begins *Opt-In, Delete, Know-Specific…*.
+Buyerlink's begins **Opt-Out, Opt-In, Delete…**.
+
+Same OneTrust product, same parent company, **different positions for the same
+eight buttons.** §570 said never reuse a coordinate across runs of one form;
+this extends it — **never reuse one across sibling forms either**, however
+identical they look. Reading labels is the only safe method, and the handoff
+note says so in capitals.
+
+Country and State also need the **suggestion clicked**: typing the full name
+leaves the component's internal value empty while the box reads correctly, the
+same trap as §569's Crexi wizard.
+
+### §576b — The type action landed in the wrong tab
+
+I clicked into Buyerlink's *Request Details* box, confirmed the focus ring in a
+screenshot, and issued a `type` with Buyerlink's tab id. The result came back:
+
+> **Executed on tabId: …726**
+
+— the *other* tab, the Blackbaud access-code page staged in §575c. Roughly
+3,000 characters of privacy request were typed into a window I was not looking
+at.
+
+**Nothing was harmed.** I checked that tab's fields immediately: its email box
+still held exactly the address staged earlier, the CAPTCHA box was empty, and
+the text had landed on no focused input and been discarded. Buyerlink's details
+box was still empty, so nothing was silently half-written either.
+
+But the near-miss is worth the entry. Had that tab had a focused text field,
+the request would have gone into **Blackbaud's** form — and the worst version
+of this is not a wasted keystroke, it is **a request for one company pasted
+into another company's intake.** That is a disclosure, not a typo.
+
+Two rules follow, and they are cheap:
+
+1. **An explicit tab id is a request, not a guarantee.** The typing goes where
+   the browser's focus is. Verify *after* typing, by reading the value back —
+   the same discipline §570 arrived at for dropdowns, for the same reason.
+2. **Do not keep two staged forms open at once.** The second tab existed only
+   because §575c left it staged, and §573b already established that staged tabs
+   are not durable handoffs. They are not merely useless — **they are a hazard**,
+   because they give stray input somewhere to land.
+
+The text went to `outbox/staged/buyerlink_form.txt` instead, which is where it
+should have gone in the first place.
+
