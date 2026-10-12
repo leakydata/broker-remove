@@ -36367,3 +36367,49 @@ find you by name, and saying so is honest. **It does not excuse publishing a
 checkbox that is not there**, which is the one thing they owed a consumer who
 accepts that explanation.
 
+## §548 — A request centre with no opt-out, and a near-miss empty commit
+
+Minerva BI's DataGrail centre was driven to its review page and staged behind
+an hCaptcha: Pennsylvania / United States / Myself / "Other" / full comments,
+every value confirmed on screen.
+
+**There is no opt-out card.** The centre offers Access, Deletion, Transfer and
+Update Inaccuracies — and nothing for sale or sharing. For a company whose
+policy describes a consumer graph of roughly 270 million records, that is the
+one right most obviously engaged, and it has no tile. The opt-out was written
+into the comments as an express request rather than left unasserted; whether a
+request made in a free-text box is honoured as a §1798.120 opt-out is exactly
+the kind of thing this file exists to find out.
+
+Two things it gets right. **"Other" is offered** as a relationship, so nobody
+has to misdescribe themselves — the second form in two passes to do this,
+after §546's GRIN, which makes OneTrust's missing "Consumer" (§544a) look less
+like an oversight and more like a default nobody revisits. And the state
+picker **defaulted correctly to Pennsylvania**, where the queue entry had
+warned that DataGrail pickers default to Virginia. The warning stays for other
+tenants; it simply was not needed here, and checking cost nothing.
+
+### §548a — The commit that contained nothing
+
+This section exists because the previous commit attempt **succeeded at
+everything except the part that matters**: `git commit` reported *"nothing to
+commit, working tree clean."*
+
+The reason is structural and worth writing down. `data/handoff_queue.json`,
+`data/removal_status.json` and `data/profile.json` are **gitignored** — they
+hold personal data and must be. So a pass that records its findings only in
+the tracker note and the queue entry **changes nothing that git can see.** I
+had written the substance into the commit message, which is not a file: had
+the commit been empty-but-accepted, the message would have been discarded
+silently.
+
+**The rule: a pass has produced a durable public artefact only if
+`_SILENT_FAILURES.md` changed.** Everything else this project writes lives in
+files that are deliberately invisible to the repository. A commit message is
+not a record; it is a label on a record, and a label with nothing under it
+does not survive.
+
+Git refusing the empty commit is what surfaced it — the same shape as §534b's
+redact.py catching the address: **the guard worked, and the error was mine for
+assuming the step had done something.**
+
