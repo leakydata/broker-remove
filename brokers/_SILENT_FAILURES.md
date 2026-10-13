@@ -38204,3 +38204,63 @@ invites a return visit that cannot work, and it gives stray input somewhere to
 land. The durable artefacts — two fill sheets and two queue entries — are on
 disk, which is the only place a handoff survives.
 
+## §578 — A good nil, and the invitation inside it
+
+One Planet Group replied at 22:55:
+
+> "We have completed a search of our systems **using the information you
+> provided** and were unable to locate personal information associated with
+> those details. **Where applicable, we have also recorded your privacy
+> preference so that it can be honored** in accordance with applicable law. If
+> you believe we may maintain information associated with **a different
+> identifier**, you may submit that information through our designated privacy
+> request process."
+
+### §578a — Why this is one of the better nils in the file
+
+Against §535's taxonomy it does three things most do not.
+
+It **asserts a search** against the identifiers supplied, rather than
+announcing an outcome. It **volunteers forward-looking suppression** — *"we
+have also recorded your privacy preference so that it can be honored"* — which
+is §557b's *suppressing what was not found*, the single most useful sentence a
+nil can contain, and **it was not asked for** in the selected request types.
+And it **names the remedy if the nil is wrong**.
+
+The latency supports it. AutoWeb went in at 20:53, Buyerlink at 22:02, this
+arrived at 22:55 — between fifty-three minutes and two hours. Not §535's
+thirty-nine minutes across three refusals, and emphatically not §562's four
+seconds.
+
+**The defect is the missing request ID.** Two requests were filed with the same
+parent ninety minutes apart under two different brands, and the reply carries
+neither **45ZM2MG5YW** nor **6TKMA8ERGT**. So I cannot tell whether AutoWeb has
+answered, or Buyerlink, or both — and **no row can honestly be closed on it.**
+For a group running several brands through one tenant, that is a one-line
+template fix.
+
+### §578b — The invitation is the trap, and it is not a trick
+
+*"If you believe we may maintain information associated with a different
+identifier, you may submit that information."*
+
+That offer is sincere, standard, and the correct thing for them to say. **It is
+also a bad trade, and the recommendation to the subject is to decline it.**
+
+Accepting means handing a lead-generation company **eleven more phone numbers,
+sixteen former addresses and twelve email addresses** — a complete identity
+profile — immediately after it has told you it holds nothing about you. The
+request would be *"please check whether you have any of these"*; the lasting
+effect is that **they now do.**
+
+§572 reached the same shape from the other side: there, claiming a merged
+profile would have asserted a stranger's data was his, in exchange for deleting
+a record that probably never described him. Here, chasing a more complete nil
+would **create the record the exercise exists to remove.**
+
+The general rule is worth stating plainly, because the pull in the other
+direction is strong when the goal is maximum removal: **an identifier supplied
+to confirm an absence does not vanish when the absence is confirmed.** A nil
+plus a recorded suppression preference is already the better outcome. Asking a
+broker to look harder is only free when it has something to find.
+
