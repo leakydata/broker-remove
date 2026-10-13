@@ -38264,3 +38264,81 @@ to confirm an absence does not vanish when the absence is confirmed.** A nil
 plus a recorded suppression preference is already the better outcome. Asking a
 broker to look harder is only free when it has something to find.
 
+## §579 — Asking a narrow question reopened a closed route
+
+VisitIQ's row had been stuck: website-only opt-out, and a registered address
+that looked ornamental. On 2026-10-11 I sent them **one factual question** with
+no personal data in it — does the address on your California data broker
+registration accept privacy requests?
+
+Two days later:
+
+> "At this time we only allow processing of opt-outs through the website for
+> most cases, **however we can accommodate your request via email as an
+> exception.** Please reply to this email with the information you'd like to
+> opt-out of our ID graph and I will ensure it is processed."
+
+**A route that did not exist now exists**, and it took a narrow question rather
+than an argument. Worth setting against §573a, where a long and carefully
+reasoned letter to Lookups.io was auto-refused in two seconds: **the short
+question got the human; the long case got the template.** That is not a general
+law, but it is a second data point in the same direction, and the cheaper move
+is the one that worked.
+
+### §579a — Why this is the right place to send everything
+
+§578b had just concluded that supplying a large identifier set to a company
+reporting a nil is a bad trade — *an identifier supplied to confirm an absence
+does not vanish when the absence is confirmed.*
+
+**This is the opposite case, and the distinction matters.** VisitIQ's entire
+business *is* an identity graph, and an identity graph is keyed on email,
+usually hashed. Supplying the twelve addresses is not handing over a profile
+they lack; it is **handing over the search keys for a profile they almost
+certainly have.** So the full set went: twelve emails, eleven former phone
+numbers, sixteen former addresses, name, date of birth, the public profile URL.
+
+The test is not *how much am I disclosing* but **does the identifier plausibly
+already key a record there.** For a lead-gen company reporting a nil, no. For
+an identity-resolution graph, yes.
+
+### §579b — Saying no to device identifiers, and saying why
+
+Mobile advertising IDs, device identifiers, cookie IDs and IP addresses were
+**withheld**, and the letter explains the reasoning rather than leaving a gap
+that looks evasive:
+
+> "sending a current device or cookie identifier to a company in order to be
+> removed would create a fresh, dated link between me and that device at the
+> moment of the request. If the opt-out is honoured it is unnecessary; if
+> anything goes wrong it is the most precise identifier I possess."
+
+That is awkward to say to an ID-graph company, because device IDs are
+**precisely its primary keys** — withholding them is withholding the best match
+key. So the letter adds the request that actually covers the gap:
+
+> "If your graph has associated other identifiers with me — including device or
+> cookie identifiers I have not supplied — please suppress those links too. I
+> am not asking you to tell me what they are; I am asking that they not be used
+> to reconstruct the profile."
+
+**That is the asymmetry to aim for:** they can act on identifiers he will never
+hand over, and asking them to do so costs him nothing. He does not need to see
+the graph to ask that it not be rebuilt.
+
+### §579c — Babel Street completes, and the word tells you nothing
+
+Babel Street marked **P7MJRE69RA completed** at 20:28. The notification says
+only that. No statement of what was held, what was deleted, or whether anything
+was there — the outcome sits behind an *"Open request"* link into the portal,
+which on the Blackbaud tenant meant an access code and an image CAPTCHA
+(§575c).
+
+The row already read `confirmed`, and **nothing is being upgraded on the
+strength of a status word.** §562 settled this: *"completed"* is equally
+consistent with a deletion and with a nil, and a company that holds nothing
+closes the ticket the same way as one that held a dossier. Worth retrieving
+when convenient — Babel Street is OSINT and location data rather than a
+people-search site, so **what they held would be far more informative than the
+fact that they have stopped.**
+
