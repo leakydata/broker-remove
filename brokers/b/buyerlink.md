@@ -8,33 +8,54 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-25)
-- Note: 2026-08-25: emailed legal@buyerlink.com. Asked them to scope the request to the whole corporate family and to NAME the entities they applied it to - responses in lead-gen routinely come back scoped to one brand while the same record sits untouched under a sibling the consumer has no way of knowing exists. Buyerlink is already known to us from a refusal autoreply that listed its family (see _FAMILIES.md), so the family framing is evidenced, not speculative.
+- Current: `submitted` (updated 2026-10-12)
+- Note: THE FORM WENT IN. `legal@buyerlink.com` never answered the 2026-08-25
+  email (no bounce, no reply — see Prior). Nine weeks on, request
+  **6TKMA8ERGT** was filed instead through the OneTrust webform at
+  `buyerlink.co/do-not-sell-or-share-my-personal-information`, 2026-10-12
+  22:02 UTC — the five-request-type set (delete, opt-out, know-specific,
+  know-categories, limit sensitive PI). A nil-with-suppression reply arrived
+  at 22:55 from the shared "One Planet Group LLC" tenant that also answers
+  for AutoWeb (`brokers/a/autoweb.md`, request 45ZM2MG5YW, filed 69 minutes
+  earlier). **The reply names neither request ID**, so it cannot be credited
+  to this row specifically rather than to AutoWeb or both — see Gotchas. No
+  further notification has arrived on this request ID as of 2026-10-14
+  (contrast AutoWeb, which got a "comment added" follow-up the same morning).
+- Prior (2026-08-25): emailed legal@buyerlink.com. Asked them to scope the request to the whole corporate family and to NAME the entities they applied it to - responses in lead-gen routinely come back scoped to one brand while the same record sits untouched under a sibling the consumer has no way of knowing exists. Buyerlink is already known to us from a refusal autoreply that listed its family (see _FAMILIES.md), so the family framing is evidenced, not speculative. Never answered.
 
 ## Steps
 
 *Written for anyone, not just the person who filed the original request.*
 
-1. **Open the opt-out page:** https://www.buyerlink.co/do-not-sell-or-share-my-personal-information
-2. **Search for yourself first if the page asks you to.** Match on more than the name: use age, current city, and at least one previous address. A common name will return other people, and removing their listing instead of yours helps nobody.
-3. **Submit the form**, then watch for a confirmation email. Many brokers treat the request as void until a link in it is clicked.
-4. **Or email `legal@buyerlink.com`** with a written request. Ask for four things explicitly — deletion, opt-out of sale and sharing, a direction to any third parties they sold to, and a **forward-looking suppression** so the record is not simply re-added at the next data import.
-5. **List every address, email and phone number you have ever had**, not just current ones. Records are filed under whatever was current when they were created — a search on today's details misses them.
-6. **Ask them to state which identifiers matched.** "We deleted your record" and "we searched and found nothing" are different outcomes, and a reply that does not distinguish them tells you nothing about whether you were ever in the file.
+1. **Use the OneTrust webform** at
+   https://www.buyerlink.co/do-not-sell-or-share-my-personal-information —
+   select every applicable request type, not just deletion.
+2. **Email is a dead end.** `legal@buyerlink.com` did not bounce but also did
+   not reply to a direct letter over nine weeks; the form is the route that
+   actually produced a response.
+3. Toll-free fallback: 1-888-821-1041.
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+- **A shared-tenant reply does not name which brand it answers.** AutoWeb and
+  Buyerlink share one "One Planet Group LLC" OneTrust tenant and privacy
+  desk. A reply with no request ID in it could be answering either request,
+  or both — do not mark `confirmed` on the strength of it without a reply
+  that actually cites 6TKMA8ERGT.
+- **Decline the "different identifier" invitation.** The nil reply offers to
+  search further if more identifiers are submitted. Supplying a fuller
+  identifier set to a company that just reported holding nothing does not
+  confirm an existing record — it creates one. The nil plus a recorded
+  suppression preference is already the better outcome.
+- **Direct email got no reply at all for nine weeks** — not a refusal, not a
+  bounce, just silence. Don't wait on a second email; the form is the
+  working channel for this family.
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+Watch for a portal "comment added" notification the way AutoWeb got one;
+if it arrives, it needs a human with a browser (portal login, possibly a
+CAPTCHA) to read — see `brokers/a/autoweb.md`.
 
 ## Who they are, and how to reach them
 

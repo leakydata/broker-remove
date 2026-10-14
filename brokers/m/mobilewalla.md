@@ -7,7 +7,9 @@
 
 ## Status
 
-- Current: `replied` (updated 2026-10-10)
+- Current: `not_found` (updated 2026-10-14)
+- Note: ANSWERED, 2026-10-13: **"This matter is closed. No MAID, no search. That is our identifier."** That is the third of the three acceptable answers the 2026-10-10 letter offered for the hashed-email suppression question ("No" — "also fine, and I won't write again"), so this row is done rather than stalled: a one-line no to a narrow, answerable question is a real close, not a deflection to chase further. The auto-quoted boilerplate underneath repeats the September search result ("we do not have any record of your name, address or email") and again asks for a MAID to search deeper — declined, per the letter's own stated reasoning (supplying one would create the link the request exists to break). No further correspondence planned; record as `not_found` with the hashed-suppression route explicitly closed rather than merely untried.
+- Prior (updated 2026-10-10):
 - Note: REOPENED 2026-10-10 WITH THE ONE QUESTION THAT WAS NEVER ASKED, after 489a worked it out at Elevar. Their September answer stands and is not disputed: 'No MAID. No way to help you.' That is architecture, not obstruction -- a device graph indexes on device identifiers, so a name-and-email search queries a field they do not use. WHAT CHANGES IS THE SHAPE OF THE ASK. The refusal to supply a mobile advertising ID rests on a specific harm: handing a device graph a stable device identifier together with a name and address CREATES the link the request is trying to break, and if they hold nothing keyed to him today the request does not test for a match, it builds one. THAT OBJECTION DOES NOT APPLY TO AN IDENTIFIER THEY ALREADY HAVE. So: can they HASH ONE OF THE TWELVE EMAIL ADDRESSES AT THEIR END and hold the hash on a suppression or do-not-ingest list? Hashed email is a standard match key in this sector alongside device IDs. A hash THEY compute, of a value HE HAS ALREADY GIVEN THEM, creates no identifier that did not exist -- and it is in the form their systems actually index on. Explicitly not asking whether it matches anything; asking whether it can keep him out of FUTURE ingestion, which a one-time nil does not cover. THREE ACCEPTABLE ANSWERS OFFERED AND ALL CLOSE THE ROW: yes/done; we can hash but suppression is device-keyed so it would do nothing; or no. The letter says a one-line no is welcome and praises their earlier bluntness over companies that send three paragraphs saying nothing -- which is true, and is also the thing most likely to get a terse company to answer. SAME LETTER SENT TO place_exchange on its existing thread.
 
 ## Steps
@@ -26,7 +28,7 @@
 
 ## Verification
 
-No further check possible without supplying a device identifier, which we won't do. Treat as closed on the identifiable side.
+No further check possible without supplying a device identifier, which we won't do. Treat as closed on the identifiable side. The hashed-email suppression question is also now closed (answered "no" on 2026-10-13) — nothing left to verify or re-ask here.
 
 ## Who they are, and how to reach them
 

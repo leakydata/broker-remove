@@ -8,8 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-23)
-- Note: Recovered from the committed playbook brokers/s/snov_io.md, because the ledger carries no notes and this row's status had no evidence behind it: Statutory opt-out/deletion email sent 2026-08-23, category-tailored.
+- Current: `confirmed` (updated 2026-10-14)
+- Note: **ONE OF THE BEST REPLIES IN THIS PROJECT, 2026-10-12.** Snov.io named the exact match rather than a category: "The email address `[EMAIL-1]` was obtained from our service by the user `[name]@numaferm.com` and was not disclosed to any other users." It separately disclosed that four *other* users had obtained the same address via LinkedIn (role/generic-looking addresses at cecmarketing.co.uk, sisinternational.com, iaaawards.org, and a personal gmail address) — i.e. Snov.io is a contact-finding tool that surfaces an address to whoever searches for it, and those four searches are independent of the one deletion target. The other three submitted addresses were not found at all. **Action taken: the matched address was deleted from their platform and added to a suppression list** to block re-ingestion. They also stated the scope limit plainly and correctly: "Snov.io's removal applies to our platform only. We cannot delete information held independently by third parties or prevent other services from collecting or re-uploading information from their own sources" — i.e. the deletion does not reach the original requester or the four LinkedIn-sourced users who already pulled the address; it only stops *Snov.io* from serving it to anyone else going forward. Thanked them (2026-10-12 11:50) and closed the row. Nothing further to chase: this is a genuine, well-scoped confirmation, not a nil dressed up as one.
+- Prior (2026-08-23): Recovered from the committed playbook brokers/s/snov_io.md, because the ledger carries no notes and this row's status had no evidence behind it: Statutory opt-out/deletion email sent 2026-08-23, category-tailored.
 
 ## Steps
 
@@ -24,17 +25,21 @@
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+- **A contact-finder's "deletion" stops future serving, not past acquisition.**
+  Snov.io named the specific users who had already pulled the matched address
+  (one direct, four via LinkedIn) and was explicit that it cannot reach what
+  those users already have — the suppression only prevents the *platform*
+  from handing the address out again. Don't read "deleted and suppressed" as
+  "nobody has it anymore"; it means "we won't be the next source."
+- **Different email addresses can have completely different outcomes at the
+  same company.** One of four submitted addresses matched; naming which one
+  (rather than a blanket "no record found") is exactly the identifier
+  granularity worth asking for everywhere.
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+Confirmed 2026-10-12: matched address deleted and suppressed. Nothing to
+re-check — this is as complete an answer as this channel can give.
 
 ## Who they are, and how to reach them
 

@@ -8,8 +8,43 @@
 
 ## Status
 
-- Current: `manual_required` (updated 2026-08-29)
-- Note: NOT EMAILED, deliberately. Registry entry had TWO errors, both now fixed. (a) The domain on file was minervabio.com, which is a DIFFERENT COMPANY -- it answers with a mod_security block and has nothing to do with the registrant. 'Minerva BI' had been compressed into a domain guess that reads as 'Minerva Bio'. The actual CA registrant Minerva BI, Inc. is at minerva.io: the footer names the entity and the policy gives its Brooklyn NY address. (b) No optout_url was on file; there is one. WHY NO LETTER: the published policy DESIGNATES the webform preferences.minerva.io and a recorded toll-free line as the only methods for access, correction, deletion and opt-out, and states in terms that requests sent to other channels INCLUDING EMAIL will receive an automatic response redirecting to the webform; privacy@minerva.io is for general inquiries only. The registry contact [named individual]@minerva.io is a published disclosure, not a designated request channel -- which is exactly the distinction 149a exists to record, and this is the first company met that states the difference out loud. Sending would have burned a slot on a guaranteed deflection. The portal is a DataGrail Privacy Request Center, so the flow is known: see brokers/s/seamless_ai.md, which ends at an hCaptcha. HANDOFF. Worth doing: their own front page advertises 270 million records, 1,000+ attributes, daily updates since 2010, a 'B2B2C' consumer graph, and the policy's own use-list includes inferring estimated income and net worth and 'compiling and selling personal information to third parties'. Also unusually specific on process: acknowledge within 10 business days, respond in 45 with one 45-day extension, opt-outs in 15 business days, and request records kept 24 months including outcome and reason for denial -- so the record-keeping commitment can be cited if the response is thin.
+- Current: `email_pending` (updated 2026-10-14)
+- Note: **A request did go in after all** — by 2026-10-12 Minerva's privacy
+  desk had a Deletion request on file for the subject's contact address (likely
+  through the `preferences.minerva.io` webform, not email; no corresponding
+  outbound letter exists in this mailbox's Sent folder). Their first reply
+  was a content-free "results" notice: "We have taken action per your
+  request" with no statement of what was found. A sharp five-question
+  follow-up went out the same day (did anything match and on which key;
+  which suppliers feed the record; which inferred attributes — their policy
+  advertises estimated income/net worth — were held and deleted; is the
+  suppression forward-looking; were downstream recipients directed to
+  delete). **None of the five was answered.** Instead, `privacy@minerva.io`
+  sent a generic clarification: that mailbox handles general policy
+  questions only, a rights request needs the webform, **but offers an email
+  alternative for accessibility or technical-difficulty cases** — contact
+  `Security@minerva.io`, cc `justin@minerva.io`.
+- **2026-10-14: used that alternative**, since this project has no browser
+  to complete the webform. Wrote to Security@minerva.io (cc justin@) citing
+  the accessibility/technical-difficulty basis explicitly, re-asking all
+  five unanswered questions, and re-supplying the four email addresses, DOB,
+  phone and address in case it's easier to re-run the search from that
+  mailbox than retrieve the original ticket. Awaiting reply.
+- Prior (2026-08-29), on why no statutory email letter was ever sent here:
+  the published policy designates the webform `preferences.minerva.io` and a
+  toll-free line as the only methods for access, correction, deletion and
+  opt-out, and states that requests sent to other channels **including
+  email** get an automatic redirect; `privacy@minerva.io` is for general
+  inquiries only. That is still true — the 2026-10-14 email route exists
+  only because Minerva's own reply carved out an explicit exception, not
+  because the general policy changed. Their front page advertises 270
+  million records, 1,000+ attributes, daily updates since 2010, a "B2B2C"
+  consumer graph; the policy's own use-list includes inferring estimated
+  income/net worth and "compiling and selling personal information to third
+  parties." Also unusually specific on process: acknowledge within 10
+  business days, respond in 45 with one 45-day extension, opt-outs in 15
+  business days, records kept 24 months including outcome and reason for
+  denial — worth citing if the Security@ reply is thin.
 
 ## Steps
 

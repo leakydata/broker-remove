@@ -7,8 +7,13 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-18)
-- Note: Not previously in this registry. Added and contacted the same day it
+- Current: `submitted` (updated 2026-10-12)
+- Note: 2026-10-12 supplement sent (same pattern as `xverum.md` and
+  `eab.md` this same week) — hireEZ's reply enclosed a portable profile copy
+  showing the closed university `[EMAIL]` mailbox and "Mechanicsburg, PA" as
+  recorded keys distinct from the original letter's current identifiers.
+  Forwarded both as additional search keys, not a new request. No reply yet.
+- Prior (2026-09-18): Not previously in this registry. Added and contacted the same day it
   surfaced: hireEZ's data-subject reply (2026-09-17, see `hireez.md`) named
   Alpha Data Labs as one of the third parties it sources candidate contact
   data from, and gave this address as the opt-out contact. That is the only

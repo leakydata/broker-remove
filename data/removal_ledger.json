@@ -601,9 +601,9 @@
     "via": "web"
   },
   "autoweb": {
-    "status": "submitted",
-    "changed": "2026-08-28",
-    "via": null
+    "status": "manual_required",
+    "changed": "2026-10-14",
+    "via": "form"
   },
   "aviato": {
     "status": "submitted",
@@ -897,8 +897,8 @@
   },
   "buyerlink": {
     "status": "submitted",
-    "changed": "2026-08-25",
-    "via": null
+    "changed": "2026-10-12",
+    "via": "form"
   },
   "buyersroad": {
     "status": "submitted",
@@ -1718,9 +1718,9 @@
     "via": "email"
   },
   "deloitte_consulting": {
-    "status": "submitted",
-    "changed": "2026-08-28",
-    "via": null
+    "status": "manual_required",
+    "changed": "2026-10-12",
+    "via": "reply"
   },
   "deloitte_financial_advisory_services": {
     "status": "submitted",
@@ -1923,8 +1923,8 @@
     "via": "email"
   },
   "eab": {
-    "status": "manual_required",
-    "changed": "2026-08-18",
+    "status": "submitted",
+    "changed": "2026-10-12",
     "via": "reply"
   },
   "easybackgroundchecks": {
@@ -3521,8 +3521,8 @@
   },
   "lookups_io": {
     "status": "manual_required",
-    "changed": "2026-08-18",
-    "via": "web"
+    "changed": "2026-10-12",
+    "via": "reply"
   },
   "lotadata": {
     "status": "submitted",
@@ -3791,9 +3791,9 @@
     "via": "email"
   },
   "minerva_bi": {
-    "status": "manual_required",
-    "changed": "2026-08-29",
-    "via": "web"
+    "status": "email_pending",
+    "changed": "2026-10-14",
+    "via": "reply"
   },
   "minnesota_arrests": {
     "status": "submitted",
@@ -3857,8 +3857,8 @@
   },
   "mobilewalla": {
     "status": "not_found",
-    "changed": "2026-09-04",
-    "via": "email"
+    "changed": "2026-10-14",
+    "via": "reply"
   },
   "mobility_global_s_p_global": {
     "status": "manual_required",
@@ -4811,8 +4811,8 @@
     "via": null
   },
   "point_digital_finance": {
-    "status": "replied",
-    "changed": "2026-09-25",
+    "status": "not_found",
+    "changed": "2026-10-14",
     "via": "reply"
   },
   "pole_to_pole": {
@@ -5731,9 +5731,9 @@
     "via": "email"
   },
   "snov_io": {
-    "status": "submitted",
-    "changed": "2026-08-23",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-10-12",
+    "via": "reply"
   },
   "socialcatfish": {
     "status": "submitted",
@@ -6658,9 +6658,9 @@
     "via": null
   },
   "visitiq": {
-    "status": "manual_required",
-    "changed": "2026-09-04",
-    "via": "email"
+    "status": "submitted",
+    "changed": "2026-10-14",
+    "via": "reply"
   },
   "vistar_media": {
     "status": "failed",
@@ -6889,8 +6889,8 @@
   },
   "xverum": {
     "status": "submitted",
-    "changed": "2026-10-09",
-    "via": "email"
+    "changed": "2026-10-13",
+    "via": "reply"
   },
   "yes": {
     "status": "submitted",

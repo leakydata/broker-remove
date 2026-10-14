@@ -7,24 +7,57 @@
 
 ## Status
 
-- Current: `manual_required` (updated 2026-09-11)
-- Note: REVERTED 2026-09-11 to manual_required, COMPLETING A CORRECTION I SAID WAS FINISHED AND WAS NOT. An adoption on 2026-08-28 overwrote a deliberate downgrade and set this row to submitted, where it has read ever since as though a request went in. It did not -- the company refused the email route, which is why the downgrade was made. _SILENT_FAILURES 434 recorded this for seventeen rows and claimed all seventeen were corrected; only seven were, and this is one of the ten that was left reading 'submitted' for another hour. A handoff item is open under this same id [captcha]. THE EVIDENCE THE ADOPTION ERASED, from 2026-08-24: 2026-08-24: autoreply says email is not a designated method, and lists forms for TWO brands - AutoWeb (OneTrust webform) and Buyerlink (buyerlink.co/do-not-sell-or-share-my-personal-information) - which is how the corporate relationship surfaced. Both have toll-free numbers. Forms need staging.
+- Current: `manual_required` (updated 2026-10-14)
+- Note: THE ONETRUST FORM WENT IN (request **45ZM2MG5YW**, 2026-10-12 20:53 UTC)
+  — the staged two-form handoff this row had been waiting on since September is
+  done. Both AutoWeb and its sibling Buyerlink (same OneTrust tenant, footer
+  "One Planet Group LLC") were filed 69 minutes apart; see `brokers/b/buyerlink.md`
+  for the parallel request. A reply arrived at 22:55 the same evening reporting
+  a nil with a recorded suppression preference — **but it names neither request
+  ID**, so it cannot be attributed to this brand specifically rather than to
+  Buyerlink or both. See Gotchas.
+  **NEW AND UNREAD, 2026-10-14 07:42 UTC:** a second OneTrust notification says
+  "a comment has been added to your request" for 45ZM2MG5YW. The comment body
+  is not in the email — reading it requires logging into the privacy portal,
+  which on this tenant family has gated other requests behind an access code
+  and an image CAPTCHA (see `brokers/b/babel_street.md`). **This step needs a
+  human with a browser**; it was not something this pass could resolve by
+  email. Queue it for the next manual session.
+- Prior (2026-09-11): REVERTED to manual_required, COMPLETING A CORRECTION I SAID WAS FINISHED AND WAS NOT. An adoption on 2026-08-28 overwrote a deliberate downgrade and set this row to submitted, where it has read ever since as though a request went in. It did not -- the company refused the email route, which is why the downgrade was made. _SILENT_FAILURES 434 recorded this for seventeen rows and claimed all seventeen were corrected; only seven were, and this is one of the ten that was left reading 'submitted' for another hour. THE EVIDENCE THE ADOPTION ERASED, from 2026-08-24: 2026-08-24: autoreply says email is not a designated method, and lists forms for TWO brands - AutoWeb (OneTrust webform) and Buyerlink (buyerlink.co/do-not-sell-or-share-my-personal-information) - which is how the corporate relationship surfaced. Both have toll-free numbers.
 
 ## Steps
 
 1. Do not email — `autolegal@autoweb.com` autoreplies that email is
    not a designated method.
-2. **Two forms are required**, because AutoWeb and Buyerlink share a privacy
-   desk: the AutoWeb OneTrust webform, and
-   `buyerlink.co/do-not-sell-or-share-my-personal-information`.
-3. Toll-free fallbacks: AutoWeb (800) 267-2015, Buyerlink 1-888-821-1041.
+2. **Use the AutoWeb OneTrust webform.** Select every applicable request type
+   (delete, opt-out of sale/share, know-specific-pieces, know-categories,
+   limit use of sensitive PI) — all five went in together on 45ZM2MG5YW.
+3. **Log back into the portal periodically.** OneTrust sends an email when a
+   comment is added but never the comment text itself — the only way to read
+   it is through the portal link, which may require an access code and a
+   CAPTCHA. Treat a "needs attention" notice as a standing to-do, not
+   something that resolves itself.
+4. Toll-free fallback: AutoWeb (800) 267-2015.
 
 ## Gotchas
 
-**The refusal autoreply is where the family surfaced.** It lists a
-form and a phone number for *each* brand, because a shared desk cannot know which
-one you wrote about. Nothing on either site announces the relationship. Read
-every "use our form instead" reply for the full list — see `_FAMILIES.md`.
+- **The refusal autoreply is where the family surfaced.** It lists a
+  form and a phone number for *each* brand, because a shared desk cannot know
+  which one you wrote about. Nothing on either site announces the
+  relationship. Read every "use our form instead" reply for the full list —
+  see `_FAMILIES.md`.
+- **A shared-tenant reply does not name which brand it answers.** When One
+  Planet Group answers for AutoWeb and Buyerlink from one inbox, a reply with
+  no request ID in it cannot be credited to either row specifically. Do not
+  mark either `confirmed` on the strength of a reply that might belong to the
+  sibling. Ask the portal (or a follow-up) to quote the request ID next time.
+- **Decline the "different identifier" invitation.** The nil reply offers to
+  search further identifiers if submitted. For a lead-gen company that just
+  reported holding nothing, supplying more identifiers (phone, former
+  addresses, other emails) does not confirm an existing record — it creates
+  one. The nil plus the recorded suppression preference is already the
+  better outcome; do not hand over the rest of the identifier set to chase a
+  more complete nil.
 
 ## Verification
 

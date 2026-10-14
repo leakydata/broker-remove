@@ -8,9 +8,28 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-10-09)
+- Current: `submitted` (updated 2026-10-14)
 - Reference: `gmail:1a120329d4b9ee8d`
-- 2026-10-09: found `privacy@xverum.us` on their own privacy policy via
+- 2026-10-12 supplement: hireEZ's own reply (see `hireez.md`) had enclosed a
+  portable copy of the profile it built partly from Xverum data, surfacing
+  two match keys worth sending on: the closed university `[EMAIL]` mailbox
+  (present in the hireEZ-held profile despite being unusable for years), and
+  "Mechanicsburg, PA" as a recorded location distinct from the current
+  Carlisle, PA address given in the original letter — a nil against Carlisle
+  alone would not rule out a record keyed to Mechanicsburg.
+- 2026-10-12 reply, from an external DPO handling Xverum's privacy mail
+  (tani@myedpo.com, cc privacy@xverum.us): confirmed Xverum "processes
+  professional information obtained from publicly available sources" and
+  does not hold private contact details, then asked for the **LinkedIn
+  profile URL** to locate the record. Supplied it (2026-10-13, reply sent)
+  as a search/suppression key — the URL is already public and is exactly
+  the kind of input this project's own guidance treats as safe to hand a
+  B2B/contact-enrichment company (see CONTRIBUTING.md, "A B2B letter that
+  lists only consumer webmail cannot find anything"): it is not new personal
+  data, it's the collection input itself. Re-asked the three open questions
+  from the original letter (standing suppression on future loads, upstream
+  sources, other recipients). Awaiting their answer.
+- Prior (2026-10-09): found `privacy@xverum.us` on their own privacy policy via
   `verify_emails.py` — the browser-gated form is no longer the only route.
   Sent the B2B contact/candidate-data variant (see Steps and `
   _CATEGORY_VARIANTS.md` "B2B contact & sales prospecting databases"): asked

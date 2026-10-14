@@ -7,8 +7,20 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-10-11)
-- Note: EMAIL ROUTE FOUND IN THEIR OWN REGISTRATION, SO THE CAPTCHA WAS NEVER THE ONLY ROUTE. This row sat on the subject's manual CAPTCHA list. data/register_profiles.json -- already in this repo -- lists legal@eab.com as the filed contact for EAB, Appily AND Cappex, all three. ONE LETTER SENT 2026-10-11 to legal@eab.com covering all three brands, asking them to say if any is a separate controller so it can be written to separately rather than having EAB answer for a business that is not theirs. Said plainly why email rather than the form: the web route is CAPTCHA-gated and cannot be completed, and a CAPTCHA-only route excludes anyone using assistive technology -- framed as an observation, not a demand to remove it, since the filing already provides an alternative. TWO ASKS TAILORED TO THE BUSINESS. (1) STUDENT-RECRUITMENT PROVENANCE: Appily and Cappex are college-search products and EAB's enrollment work runs on student lists from test registrations, scholarship searches, college fairs and high-school lists. Asked which source any record came from, by name. Also asked whether any part of it was created WHILE HE WAS A MINOR -- anything originating before January 1997 was collected when he was under 18 -- framed as a question about their own policy categories rather than a legal claim. The psu.edu closed mailbox is the likeliest match key here by a wide margin, so the letter asks specifically whether the match came from it. (2) CONTROLLER VS PROCESSOR: much of EAB's work is for client institutions, so asked them to name the university if a record is held on its behalf. Also asked which of four plausibly distinct stores was searched -- Appily, Cappex, EAB enrollment services, and legacy Cappex systems retained from before the acquisition.
+- Current: `submitted` (updated 2026-10-12)
+- Note: **2026-10-12 reply is a repeat of the same dead end, not new
+  information.** `legal@eab.com` answered the 2026-10-11 letter (which had
+  explicitly explained that the web form is CAPTCHA-gated and unusable) with
+  a new OneTrust webform link and no acknowledgement of the accessibility
+  point. This is the same shape already documented below (residency dropdown
+  silently resolving "Pennsylvania" to "Colorado", etc.) — a different link,
+  same CAPTCHA-gated form, same unaddressed objection. Not replying again
+  immediately; the email thread already contains a complete, detailed
+  statutory request and the accessibility objection on the record. If this
+  resurfaces, the next move is the "what to do instead" section below
+  (ask them to process as company policy, citing their own
+  non-discrimination notice), not a third repetition of the same ask.
+- Prior (2026-10-11): EMAIL ROUTE FOUND IN THEIR OWN REGISTRATION, SO THE CAPTCHA WAS NEVER THE ONLY ROUTE. This row sat on the subject's manual CAPTCHA list. data/register_profiles.json -- already in this repo -- lists legal@eab.com as the filed contact for EAB, Appily AND Cappex, all three. ONE LETTER SENT 2026-10-11 to legal@eab.com covering all three brands, asking them to say if any is a separate controller so it can be written to separately rather than having EAB answer for a business that is not theirs. Said plainly why email rather than the form: the web route is CAPTCHA-gated and cannot be completed, and a CAPTCHA-only route excludes anyone using assistive technology -- framed as an observation, not a demand to remove it, since the filing already provides an alternative. TWO ASKS TAILORED TO THE BUSINESS. (1) STUDENT-RECRUITMENT PROVENANCE: Appily and Cappex are college-search products and EAB's enrollment work runs on student lists from test registrations, scholarship searches, college fairs and high-school lists. Asked which source any record came from, by name. Also asked whether any part of it was created WHILE HE WAS A MINOR -- anything originating before January 1997 was collected when he was under 18 -- framed as a question about their own policy categories rather than a legal claim. The psu.edu closed mailbox is the likeliest match key here by a wide margin, so the letter asks specifically whether the match came from it. (2) CONTROLLER VS PROCESSOR: much of EAB's work is for client institutions, so asked them to name the university if a record is held on its behalf. Also asked which of four plausibly distinct stores was searched -- Appily, Cappex, EAB enrollment services, and legacy Cappex systems retained from before the acquisition.
 
 ## Steps
 

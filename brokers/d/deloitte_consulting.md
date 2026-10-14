@@ -7,8 +7,26 @@
 
 ## Status
 
-- Current: `manual_required` (updated 2026-09-11)
-- Note: REVERTED 2026-09-11 to manual_required, COMPLETING A CORRECTION I SAID WAS FINISHED AND WAS NOT. An adoption on 2026-08-28 overwrote a deliberate downgrade and set this row to submitted, where it has read ever since as though a request went in. It did not -- the company refused the email route, which is why the downgrade was made. _SILENT_FAILURES 434 recorded this for seventeen rows and claimed all seventeen were corrected; only seven were, and this is one of the ten that was left reading 'submitted' for another hour. A handoff item is open under this same id [portal]. THE EVIDENCE THE ADOPTION ERASED, from 2026-08-26: 2026-08-26: form redirect that IGNORED the registration question, plus two structural problems worth recording. (1) THE FORM HAS NO BOX FOR ME - their intake asks for 'your relationship with Deloitte' and every option is a customer, employee or counterparty (job applicant, Tax client, subscriber, MyDeloitte accountholder, event registrant, Business Chemistry participant, alumnus, Other). But data broker registration 
+- Current: `manual_required` (updated 2026-10-14)
+- Note: **A SECOND, INDEPENDENT FORM FAULT FOUND, 2026-10-12.** A fresh email
+  to `DataSubjectRequest@deloitte.com` reported that their Personal
+  Information Request Form (PIRF, at `datasubject.deloitte.com`) redirects to
+  a generic `/error` page the instant the email field is filled in — other
+  fields (name, phone, city, state, zip) accept input fine. Reported as
+  observed with programmatic entry, with that caveat stated plainly rather
+  than overclaiming it also happens to a person typing by hand. Deloitte's
+  reply didn't acknowledge the email-field bug specifically; it gave generic
+  browser troubleshooting (refresh, clear cookies/cache, disable "privacy
+  browser extension" — framed around their reCAPTCHA) and a **phone
+  fallback: 1-844-919-0711**. Both remedies assume a browser or a phone call,
+  neither of which this project can do. **Needs a human**: either to try the
+  form in a real browser (the bug may not reproduce for a human typist, same
+  pattern as other reCAPTCHA-adjacent faults in this registry) or to call
+  the toll-free number. Also asked, and not yet answered: which part of
+  Deloitte's business required the data-broker registration in the first
+  place, and whether records are held on him at all (he has no known
+  commercial relationship with Deloitte).
+- Prior (2026-09-11): REVERTED to manual_required, COMPLETING A CORRECTION I SAID WAS FINISHED AND WAS NOT. An adoption on 2026-08-28 overwrote a deliberate downgrade and set this row to submitted, where it has read ever since as though a request went in. It did not -- the company refused the email route, which is why the downgrade was made. _SILENT_FAILURES 434 recorded this for seventeen rows and claimed all seventeen were corrected; only seven were, and this is one of the ten that was left reading 'submitted' for another hour. THE EVIDENCE THE ADOPTION ERASED, from 2026-08-26: form redirect that IGNORED the registration question, plus two structural problems worth recording. (1) THE FORM HAS NO BOX FOR ME - their intake asks for 'your relationship with Deloitte' and every option is a customer, employee or counterparty (job applicant, Tax client, subscriber, MyDeloitte accountholder, event registrant, Business Chemistry participant, alumnus, Other). But data broker registration 
 
 ## Steps
 
