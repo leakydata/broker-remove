@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `manual_required` (updated 2026-09-11)
-- Note: REVERTED 2026-09-11 to manual_required, COMPLETING A CORRECTION I SAID WAS FINISHED AND WAS NOT. An adoption on 2026-08-28 overwrote a deliberate downgrade and set this row to submitted, where it has read ever since as though a request went in. It did not -- the company refused the email route, which is why the downgrade was made. _SILENT_FAILURES 434 recorded this for seventeen rows and claimed all seventeen were corrected; only seven were, and this is one of the ten that was left reading 'submitted' for another hour. A handoff item is open under this same id [click]. THE EVIDENCE THE ADOPTION ERASED, from 2026-08-25: 2026-08-25: form-only. privacy@crexi.com auto-replies: 'in order to process data subject access requests, we require that individuals submit such requests through our online Privacy Portal (https://crexi...)'. The substantive letter was already sent and is on the thread; the portal submission still needs doing. Staged as a handoff.
+- Current: `manual_required` (updated 2026-10-12)
+- Note: PORTAL SUBMITTED 2026-10-12 BUT STUCK AT EMAIL VERIFICATION, which needs a browser and cannot be completed from here. Two separate BigID requests now exist against this email: Request ID 2605666032 (a deletion request) and Request ID 8554488771 (an access/"view your data" request), each with its own "Verify your email" message. The verification link is not a plain confirmation GET — it resolves to a hash route on a single-page app (`https://crexi.bigidprivacy.cloud/consumer/...#/o2TCsG9LJ7/2605666032/confirmation/<token>/...`), so the actual confirmation call happens in client-side JS after the page boots; fetching the URL without a browser loads the empty app shell and does nothing. Both verification emails state a review against Crexi's own records before anything is actioned, and both warn in the same breath that deletion/opt-out "may impair some features and functionality of our service, including the possible deletion of your user account and delisting of your listings" — worth noting because that sentence implies Crexi expects requesters to sometimes hold an active marketplace account with listings, which is a different animal from a data-broker listing and worth confirming with the subject before anyone clicks through, in case they do not want an account or listings removed. Queued to `handoff.py` for a human click; links not yet expired as of 2026-10-15 (3 days old).
+- Prior: REVERTED 2026-09-11 to manual_required, COMPLETING A CORRECTION I SAID WAS FINISHED AND WAS NOT. An adoption on 2026-08-28 overwrote a deliberate downgrade and set this row to submitted, where it has read ever since as though a request went in. It did not -- the company refused the email route, which is why the downgrade was made. _SILENT_FAILURES 434 recorded this for seventeen rows and claimed all seventeen were corrected; only seven were, and this is one of the ten that was left reading 'submitted' for another hour. THE EVIDENCE THE ADOPTION ERASED, from 2026-08-25: 2026-08-25: form-only. privacy@crexi.com auto-replies: 'in order to process data subject access requests, we require that individuals submit such requests through our online Privacy Portal (https://crexi...)'. The substantive letter was already sent and is on the thread; the portal submission needed doing, and has now been done (see above) — it just cannot be verified without a browser.
 
 ## Steps
 
@@ -20,13 +21,19 @@
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+`privacy@crexi.com` is unmonitored for DSARs — it auto-replies and routes to
+the BigID portal. The portal itself is a two-step SPA: submit, then click an
+emailed "Verify your email" link before anything is searched. That link is
+not a plain confirmation GET — it resolves to a hash route
+(`#/<company>/<request-id>/confirmation/<token>/...`) that a single-page app
+reads client-side, so fetching the URL without executing JS loads an empty
+shell and verifies nothing; this one needs an actual browser, not just a
+non-interactive HTTP client. No CAPTCHA seen on either step. Worth flagging
+before clicking through: Crexi's verification email warns that deletion "may
+impair ... including the possible deletion of your user account and
+delisting of your listings" — phrasing aimed at people with an active
+marketplace account, which is a different thing from a data-broker-style
+listing and worth confirming is wanted before anyone completes this.
 
 ## Verification
 

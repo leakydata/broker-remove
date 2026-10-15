@@ -7,25 +7,32 @@
 
 ## Status
 
-- Current: `manual_required` (updated 2026-08-27)
-- Note: EMAIL REFUSED 2026-08-27, four seconds after sending. Auto-reply from legal+noreply@grin.co: 'If you are writing to make a request regarding your privacy or data, we need to verify the request, before taking action or releasing information. Please use Grin's [form].' The +noreply subaddress on a legal@ mailbox is the tell -- mail is accepted and answered by a machine that will not accept the request.
+- Current: `confirmed` (updated 2026-10-12)
+- Reference: request FLCMX7I6, `gmail:1a12e79d408108dd`
+- Note: CONFIRMED DELETED 2026-10-12. The web-form route (`https://grin.co/data-privacy-form/`, run through the Saymine privacy portal at `grin.privacy.saymine.io`) worked where email had been refused. Sequence: form submission → an identity-verification email with a `verifyUser?jwToken=...` link (plain GET, no CAPTCHA, states a 7-day expiry) → an auto-reply acknowledging receipt ("we will answer it as soon as possible") → roughly 7 hours later, a substantive reply: "we would like to confirm that your personal data has been effectively and completely deleted from our systems. All of our service providers were [instructed to do likewise]." This is a genuine broker-issued confirmation, not a submission receipt — closes the loop EMAIL REFUSED opened on 2026-08-27.
+- Prior: EMAIL REFUSED 2026-08-27, four seconds after sending. Auto-reply from legal+noreply@grin.co: 'If you are writing to make a request regarding your privacy or data, we need to verify the request, before taking action or releasing information. Please use Grin's [form].' The +noreply subaddress on a legal@ mailbox is the tell -- mail is accepted and answered by a machine that will not accept the request.
 
 ## Steps
 
 Email is not the working route. Use `https://grin.co/data-privacy-form/`
-directly — it verifies identity before Grin will act. If the link is
-unreachable, `privacy.support@grin.co` is the stated fallback.
+directly — it runs through the Saymine privacy portal (`*.privacy.saymine.io`)
+and verifies identity by email link (plain click, no CAPTCHA seen) before Grin
+will act. If the link is unreachable, `privacy.support@grin.co` is the stated
+fallback.
 
 ## Gotchas
 
 Standard "email gets an identity-verification gate" shape — the letter itself
-doesn't get read for content before being redirected to the form.
+doesn't get read for content before being redirected to the form. The
+verification step itself is a simple emailed link, not a form — no identity
+document was requested.
 
 ## Verification
 
-No confirmation yet — pending the web-form submission. Nothing public to
-re-search (a B2B prospecting database, not a listing site); the eventual
-written confirmation is the only artifact.
+Confirmed deleted 2026-10-12, with downstream service providers stated as
+notified too. Nothing public to re-search (a B2B prospecting database, not a
+listing site); the written confirmation is the artifact. Re-check if a listing
+resurfaces.
 
 ## If they ignore you
 

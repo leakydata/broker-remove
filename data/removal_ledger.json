@@ -1267,8 +1267,8 @@
     "via": "reply"
   },
   "comscore": {
-    "status": "submitted",
-    "changed": "2026-08-31",
+    "status": "not_found",
+    "changed": "2026-10-15",
     "via": "email"
   },
   "confidentialphonelookup": {
@@ -1402,9 +1402,9 @@
     "via": null
   },
   "crexi": {
-    "status": "submitted",
-    "changed": "2026-08-28",
-    "via": null
+    "status": "manual_required",
+    "changed": "2026-10-15",
+    "via": "web"
   },
   "crime_informer": {
     "status": "unreachable",
@@ -2614,9 +2614,9 @@
     "via": "email"
   },
   "grin_technologies": {
-    "status": "manual_required",
-    "changed": "2026-08-27",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-10-15",
+    "via": "web"
   },
   "groundtruth": {
     "status": "submitted",

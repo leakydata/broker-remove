@@ -15,8 +15,8 @@
   two match keys worth sending on: the closed university `[EMAIL]` mailbox
   (present in the hireEZ-held profile despite being unusable for years), and
   "Mechanicsburg, PA" as a recorded location distinct from the current
-  Carlisle, PA address given in the original letter — a nil against Carlisle
-  alone would not rule out a record keyed to Mechanicsburg.
+  `[TOWN]`, PA address given in the original letter — a nil against the
+  current town alone would not rule out a record keyed to Mechanicsburg.
 - 2026-10-12 reply, from an external DPO handling Xverum's privacy mail
   (tani@myedpo.com, cc privacy@xverum.us): confirmed Xverum "processes
   professional information obtained from publicly available sources" and
