@@ -38394,3 +38394,63 @@ All three now sit in one fill sheet, because the slow part is the procedure
 rather than the reading, and doing them back to back costs barely more than
 doing one.
 
+## §581 — "To the extent required by law" is the whole sentence
+
+Deluxe answered on 2026-10-15, fifty-nine days after the request:
+
+> "We have **identified personal information responsive to your request** and
+> have deleted the requested information **to the extent required by law.**"
+
+The first half is genuinely good news, and rarer than it should be. **It is a
+positive match** — Deluxe held something. §535's *demonstrated* class, not
+*asserted* and not *structural*, and one of the few rows where the existence of
+a record is not in question.
+
+The second half is the problem.
+
+### §581a — Why the hedge matters more here than elsewhere
+
+*"To the extent required by law"* reads as routine lawyerly caution. For **this
+subject** it may be the operative clause.
+
+He is a Pennsylvania resident, and **Pennsylvania has no comprehensive consumer
+privacy statute.** If the deletion was scoped to what a statute compels, and no
+statute compels anything in his case, then *"deleted to the extent required by
+law"* and *"deleted"* describe **very different outcomes that the sentence
+cannot distinguish.**
+
+This is the residency problem of §545 arriving from a new direction. There it
+was companies openly listing which states they serve. Here it is a company
+saying yes — while attaching a qualifier that, read strictly, could mean the
+yes is empty. **The scope statement is not the behaviour (§552), and now: the
+confirmation is not the scope either.**
+
+The follow-up asks it plainly rather than rhetorically: *was my information
+deleted in full, or was some retained on the view that no law required its
+deletion, and if so what and on what basis?* The original letter had already
+asked them, if they considered themselves outside the statutes, to honour the
+request under their published policy and **say which basis they applied.** That
+question is still open after fifty-nine days.
+
+### §581b — The four other things that went unanswered
+
+Also re-asked, in one message rather than four: **which arm held it** —
+customer-facing or the marketing-data and data-services business, which matters
+because a customer record is self-contained while a licensed marketing record
+implies both a source and recipients; **the categories held at deletion**,
+which costs them nothing now the data is gone and is the only way to tell a
+name-and-address from something far richer; whether **recipients were directed**
+under §1798.105(c); whether a **suppression entry** exists; and whether
+**hashed or pseudonymised forms** were searched.
+
+### §581c — An appeal route, held in reserve
+
+Deluxe publishes something most do not: *"you may contact us to appeal our
+decision by sending an email with the subject line 'Appeal'"*, plus a voicemail
+line. That is a real, named, usable escalation — the thing §563 praised Minerva
+for and §558a found EAB lacking.
+
+**The follow-up deliberately is not an appeal.** Five unanswered questions
+after a cooperative reply is a conversation, not a dispute, and spending an
+escalation route on the first round would waste it. It is noted and kept.
+
