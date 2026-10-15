@@ -38342,3 +38342,55 @@ when convenient — Babel Street is OSINT and location data rather than a
 people-search site, so **what they held would be far more informative than the
 fact that they have stopped.**
 
+## §580 — Three replies I cannot read, and one of them is a clock
+
+As of 2026-10-15 **three companies have answered substantively into a portal
+whose contents are closed to me**:
+
+| company | request | notification wording | dated |
+|---|---|---|---|
+| Blackbaud | N7MF2DH4AF | "a comment has been added" | 12 Oct |
+| Babel Street | P7MJRE69RA | "has been completed" | 13 Oct |
+| PMG | FM6XRMKND5 | **"Needs Attention"** | 15 Oct |
+
+Each notification contains **none of the content** — only a button. Each button
+leads to a OneTrust access-code page gated by a **distorted-text image
+CAPTCHA**, with the resulting code valid for **fifteen minutes**. Blackbaud's
+sits on its own tenant and Babel Street's and PMG's on the shared
+`privacyportal.onetrust.com`, and the barrier is identical, so **this is the
+product's behaviour, not three independent choices.**
+
+### §580a — The asymmetry, stated plainly
+
+Every one of these companies **can reach the subject in a single click**, and
+does — using an email address he has already verified with them, in the same
+request they are now replying to. He cannot reach their reply without clearing
+an image puzzle and beating a quarter-hour timer.
+
+**The channel is proven in one direction and gated in the other.** §575c called
+it a defence applied one step too far on a single request; at three companies
+simultaneously it stops being a quirk of one tenant and becomes the default
+shape of how a data broker answers a consumer.
+
+The practical cost is not inconvenience. It is that **the substance of three
+replies is invisible to the record**: whether Babel Street held anything and
+what, why Blackbaud granted two of four rights, and what PMG now wants.
+
+### §580b — "Needs attention" is the one with a deadline
+
+The wording differs, and the difference matters. *"A comment has been added"*
+and *"has been completed"* are notices. **"Needs Attention"** is a request —
+OneTrust uses it when the business is waiting on the requester, and requests
+left unanswered are routinely **closed for non-response**.
+
+So PMG is first in the handoff, and the note carries an instruction the others
+do not: **report what is being asked before supplying anything.** If the ask
+turns out to be a government-issued identity document or a Social Security
+number, the answer is no, and that refusal should be **drafted rather than
+improvised against a clock** — which is exactly the pressure a fifteen-minute
+session and a possible closure deadline combine to create.
+
+All three now sit in one fill sheet, because the slow part is the procedure
+rather than the reading, and doing them back to back costs barely more than
+doing one.
+
