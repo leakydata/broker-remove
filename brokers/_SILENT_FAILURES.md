@@ -38506,3 +38506,54 @@ done."* That is not a reason to skip it — a record removed today is removed
 today — but the subject should spend his CAPTCHA-solving time knowing which
 removals are permanent and which are a standing appointment.
 
+## §583 — Two brands, one opt-out, word for word
+
+TruePeopleSearch's removal page and Search People FREE's, opened an hour apart,
+run **the same three-step flow** — and the step-one instructions are **verbatim
+identical** at both sites: enter email and name, complete the captcha, a link
+is mailed, **the link dies after 24 hours**, then a second form that must match
+the record.
+
+Not similar. The same sentences.
+
+Two separately branded people-search sites sharing opt-out copy word for word
+is strong evidence of **a shared platform or common ownership**. It is the
+§554/§556 provenance question arriving from the front end rather than from a
+supplier list: when two companies look like two companies, the cheapest test is
+whether their least-marketed pages were written once.
+
+### §583a — What follows, and what does not
+
+**What follows:** for the subject these are *one sitting's work*, not two. The
+slow part of both is the procedure — captcha, wait for mail, beat a 24-hour
+clock, fill a second form — and doing them back to back costs barely more than
+doing one. The handoff pairs them for that reason.
+
+**What does not follow:** that an opt-out at one covers the other. A shared
+front end says nothing about whether the databases behind it are shared, and
+assuming otherwise would be exactly the §552 error — *the interface is not the
+behaviour*. Both get filed separately.
+
+It is worth testing later, though, and the test is free: if a removal at one
+silently removes the record at the other, **that is a fact about the industry
+worth having**, and it would be visible simply by checking the second site
+after acting only on the first.
+
+### §583b — Why this one is a re-submission
+
+TruePeopleSearch already removed a record on 18 August. This is a second run
+because they refused email three times and stated that **additional identifiers
+require a new form submission** — so the August removal covered only what that
+one form carried.
+
+That is the §568b multiplication again, in its most expensive form. Not one
+request per right (§569a) and not one per email address (§568b), but **one per
+submission, with a captcha and a 24-hour clock attached to each.** A person
+with twelve email addresses and sixteen former addresses cannot comply with
+that rule in any reasonable number of sittings, and the rule is what makes the
+coverage incomplete rather than any refusal.
+
+Two further routes at the same company remain unworked — a separate *do not
+sell* page and an *access, delete, or correct* dropdown on the privacy page.
+Three doors, one company: the El Toro pattern.
+
