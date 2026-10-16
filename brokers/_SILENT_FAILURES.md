@@ -38454,3 +38454,55 @@ for and §558a found EAB lacking.
 after a cooperative reply is a conversation, not a dispute, and spending an
 escalation route on the first round would waste it. It is noted and kept.
 
+## §582 — A broker states the project's own thesis, in writing, unprompted
+
+Search People FREE's *Do Not Sell or Share* notice:
+
+> "we regularly receive new public records so even if you opt out, your
+> publicly available information **may appear in our data products again in
+> the future. We recommend you periodically refresh your opt-out request.**"
+
+Since §557b this file has asked, of nearly every company, one question:
+**is the suppression forward-looking, or does the record come back at the next
+load?** Most do not answer. Several answer ambiguously. This one **volunteers
+the answer, in its published notice, before being asked** — and the answer is
+no.
+
+There is no suppression entry. Re-ingestion is expected. And the remedy offered
+is not a fix but a **subscription**: the consumer repeats the process, with its
+CAPTCHA and its 24-hour link, indefinitely.
+
+Credit where it is due — **this is honest**. §574b praised AutoWeb for
+explaining its CAPTCHA and §561b praised Blackbaud for explaining its
+verification, on the principle that an explained control can be reasoned about.
+The same applies here: a company that tells you the opt-out wears off is more
+useful than one that lets you believe it held.
+
+### §582a — Two claims underneath it
+
+**"Our products and services use publicly available information, which is not
+covered by State Privacy Laws."** The public-records exemption, asserted at the
+threshold. It is not a frivolous argument — CCPA does exclude lawfully
+available public records — but applied to a people-search aggregator it is
+doing a great deal of work, because the product is precisely the *assembly* of
+scattered public records into a single profile, which is the thing the scatter
+protected against.
+
+**"We will try to apply your request... as a courtesy."** So in their own
+framing the opt-out is **discretionary, not owed**. That is a §535 *structural*
+refusal, published in advance rather than issued on request — and it pairs with
+the sentence above: having argued the data outside the statutes, the opt-out
+becomes a favour, and a favour need not be forward-looking.
+
+### §582b — What is staged, and the honest warning attached
+
+Name and email are filled; the CAPTCHA is handed off. The flow is three steps,
+and the middle one has a clock: step 1 mails a link that **expires in 24
+hours**, step 2 is the real form and must match the record, step 3 confirms,
+with three days quoted for removal. A telephone alternative is published.
+
+The handoff note says plainly what the file now knows: *"this one does not stay
+done."* That is not a reason to skip it — a record removed today is removed
+today — but the subject should spend his CAPTCHA-solving time knowing which
+removals are permanent and which are a standing appointment.
+
