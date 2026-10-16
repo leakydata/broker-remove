@@ -39524,3 +39524,50 @@ provenance work usually has to extract.
 two specific answers gets a specific answer.** An open question gets
 boilerplate. It has now worked three times.
 
+## §599 — Fifty-eight days of nothing, and what a chase should contain
+
+NetWise is the second row of the §597 sweep and the first that **passes** the
+test §598 applied to DecisionLinks: they sell B2B contact data, so a
+professional profile plausibly keys a record there.
+
+It is also a **silence**. The letter of 19 August has had no acknowledgement
+and no reply in fifty-eight days.
+
+### §599a — Two things a chase should do that this one does
+
+**It should offer an innocent explanation first.** The address was taken from
+their published privacy notice rather than from a data broker registration, so
+it may simply be the wrong mailbox. The letter says so and invites them to name
+a better route. §526 established that a route can be present and invisible;
+the converse — that a published address can be unattended — is at least as
+common, and treating silence as refusal when it may be misdelivery wastes the
+only contact you have.
+
+**It should carry something new.** A chase that only repeats the original
+letter gives the recipient nothing to act on that they did not already decline
+to act on. This one carries the profile URL and the §596 reasoning for it, so
+even a reader who ignored the first letter has a reason to open this one.
+
+### §599b — The three asks that keep going unanswered
+
+Restated from August, and worth repeating here because they are specific to
+contact-data products and almost never addressed:
+
+- **Exported copies.** If a customer has pulled a matching record into their
+  own CRM or sequencing tool, that copy is **beyond the vendor's deletion**.
+  Asking who received one, and asking for them to be directed, is the only way
+  it ever gets reached.
+- **Acquisition path.** If records arrive via a **customer-side capture tool or
+  browser extension** rather than only from upstream suppliers, supplier-side
+  suppression does not close that route — and the record reappears from a
+  direction nobody is watching.
+- **Re-verification.** If records are periodically re-enriched, a deletion
+  without a standing suppression is simply **rebuilt at the next cycle**, and
+  the confirmation reads identically either way.
+
+Those three questions have now been put to a dozen companies in this sector.
+**Not one has answered all three.** That is itself a finding, and it is the
+reason the suppression ask is always separated from the search ask: of the
+three, suppression is the only one a company can satisfy without admitting
+anything about its supply chain.
+
