@@ -39804,3 +39804,56 @@ Two byproducts worth more than the discarded statistic: `privacy@` at
 Streetdirectory is **dead and must not be retried**, and the live route is
 `carecenter@`, unanswered for twenty-six days and now due a chase.
 
+## §604 — The referral that points at the page it is printed on
+
+Data Decisions Group completed request `8d09abc8` this morning. The portal was
+read by magic link — Ketch's fifteen-minute one-time code, which worked first
+time and is fully scriptable, unlike the OneTrust image-CAPTCHA portals still
+sitting in the handoff queue.
+
+The email said a message was waiting and to click through. The message, in
+full:
+
+> "Dear [NAME],
+> Your request has been successfully completed.
+> **To view your results, please visit the Privacy Portal.**
+> Best regards, Data Decisions Group Privacy Team"
+
+**That message is in the Privacy Portal.** The portal's own results panel says,
+in its entirety: *"Your request has been completed."*
+
+The referral points at the page it is printed on. There is no report, no
+attachment, no download — the DOM carries **no anchors at all** — and the
+thread is marked **Thread Closed**, so the portal offers no way to answer back.
+
+### §604a — A new shape, not just a thin nil
+
+§588a graded outcomes *demonstrated / asserted / receipt-only*. This is worse
+than receipt-only in one specific way: a receipt at least admits it is a
+receipt. **A circular referral is a receipt wearing the costume of a report.**
+It tells the consumer that results exist and sends them to fetch them, and the
+place it sends them is where the sentence is already displayed.
+
+The likeliest cause is mundane — a template written for an *access* request,
+where there genuinely is a report to collect, fired unchanged on a *deletion*
+where there is not. That is not an excuse; it is a design that cannot tell
+whether it has anything to say.
+
+### §604b — What a twelve-email request bought
+
+The submission carried **twelve email addresses, eleven phone numbers, sixteen
+prior addresses, four name variants and a date of birth**, and asked four
+numbered questions. None is addressed:
+
+- which identifiers matched — unanswered;
+- whether anything was held at all — unanswered;
+- the §1798.105(c) recipient categories — unanswered;
+- forward-looking suppression or one-time delete — unanswered.
+
+One sentence returns, and it reads **identically** whether they held nothing or
+deleted fifty records. For a company that licenses consumer data, the second is
+not the unlikely case.
+
+Email follow-up required, because the portal has closed the only channel it
+offered.
+
