@@ -39164,3 +39164,64 @@ the other cannot suppress on anything else. Only the first design lets a person
 protect themselves without handing over the identifier they most want withheld
 — and nothing but asking would have revealed which was which.
 
+## §593 — A nil that names its own scope invites the second search
+
+The unread sweep continued and turned up **Comscore closing a question its own
+first answer had opened.**
+
+Their September reply was a nil, but an unusually careful one: *"only
+Comscore's **consumer data repositories** were considered in scope,"* with an
+invitation to come back if an employment or B2B relationship existed.
+
+The follow-up argued that **a nil relationship is not a nil record**: a B2B
+contact file is *bought* rather than accumulated through dealings, so the
+people in it typically have no relationship with the holder and do not know it
+exists. It asked them to search the business holdings against the name, against
+the closed institutional address in particular, and against any **derived**
+`first.last@employer` addresses the subject has never owned and therefore
+cannot list.
+
+On 14 October:
+
+> "We have now completed our search **across the remaining Comscore systems**
+> using the identifiers provided in your request, and we were unable to locate
+> any personal information stored or processed by Comscore."
+
+**That second search exists only because the first nil was honest about what
+it had not covered.** §562's complaint was that *"we have taken action"* cannot
+distinguish a deletion from a nil; a company that volunteers *"this covered
+these systems and not those"* makes the gap visible and therefore askable. The
+honesty cost them a second search and produced a far better record.
+
+The device, cookie and panelist route remains **declined by choice, not
+refused** — their form detects identifiers on the device rather than asking for
+one, which is better design than most, but running it would create a detection
+event at a company being asked to hold less. An incomplete answer was preferred
+to manufacturing the record.
+
+### §593a — Altrata asked for the key that worked at Dealfront
+
+Altrata searched **all twelve email addresses** — and said so, which is better
+than most — found nothing, and asked for a profile link.
+
+§591a had just established what to do with that invitation. The reply supplies
+the LinkedIn URL **for two purposes, deliberately separated**:
+
+- **as a search key**, because BoardEx, Boardroom Insiders, RelSci, Wealth-X
+  and WealthEngine are built on professional and relationship data rather than
+  consumer email lists — which is very likely why twelve Gmail-era addresses
+  returned nothing;
+- **as a suppression key, which matters more**, because a public professional
+  profile is continuously re-crawled rather than ingested once.
+
+And the sentence that carries the weight: **the suppression entry is asked for
+even if the search comes back empty.** A nil today is only worth having if it
+survives tomorrow's ingest — §557b's rule, applied before the nil has even been
+confirmed rather than argued about afterwards.
+
+Three questions were restated: whether one search covered **all five brands**
+that appear separately on the California register, whether the products run on
+**different indexes** (a relationship-intelligence product and a
+wealth-screening product are not usually the same dataset), and the sources if
+anything is found.
+
