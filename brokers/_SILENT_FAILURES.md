@@ -39966,3 +39966,56 @@ of a handoff sheet is that the person finishing it should not have to think
 about anything except the part a machine cannot do** — and that holds even
 when the question itself is still sealed.
 
+## §607 — The sweep triaged: twelve rows, two survivors
+
+§597 listed twenty-odd B2B rows for the profile-URL re-test and said *not all
+deserve the treatment*. This pass applied §579a's question — **does this
+identifier plausibly key a record HERE** — to twelve of them at once, and the
+answer was no for ten.
+
+| excluded | why |
+|---|---|
+| `instantly_ai` | **already resolved** — three of eleven addresses matched, a customer-side flag, a platform-wide measure. There is no nil to re-test. |
+| `cint`, `national_opinion_institute` | survey panels, keyed to panel membership |
+| `scanbuy`, `verve_for_advertisers`, `matchbook` | adtech; two are MAID-denial rows, where §578b's trap applies instead |
+| `aged_lead_store`, `monevo` | consumer lead files, keyed to the form submitted years ago |
+| `dataman` | consumer compiler; nil already given after a stated search |
+| `brandwatch` | supplemented five days ago — too recent to chase |
+
+**Ten exclusions is the useful output here.** A sweep that applies its
+technique to every row in the list is not a sweep, it is a mailing — and
+sending a professional profile URL to an adtech company keyed on device
+identifiers is pure disclosure for no prospect of a match. §598 established
+that at DecisionLinks; this extends it from one judgement to a rule applied in
+bulk.
+
+### §607a — ocean.io, and conceding the original letter was wrong
+
+Ocean Global passes cleanly: **B2B prospecting and lookalike search**, exactly
+the index §596 described. Forty-eight days of silence, so the chase both
+re-asks and corrects itself:
+
+> "I also think my original letter asked the wrong question... For a company
+> doing B2B prospecting and lookalike search, I now believe those are close to
+> useless as search keys — and a nil produced from them would have told
+> neither of us anything."
+
+Three product-specific questions follow, each with **the unfavourable answer
+pre-accepted** so there is no reason to dodge it:
+
+- **lookalike models** — does deletion remove a record's *contribution*, or
+  only the source row? *"Only the source row"* is offered in advance as the
+  honest limit of what deletion can do, "not a failure on your part";
+- **exported copies** in customers' CRMs — *"only our own index"* named as the
+  expected and complete answer;
+- **derivation** — public web data or an upstream partner, with the reason
+  given: naming the partner is worth more than the deletion, because a
+  deletion that leaves the source intact is undone at the next refresh.
+
+That is §601b's menu pointed at a single company's architecture rather than at
+a sector. The pattern holds: **offer the answer that costs them nothing to
+give, and the expensive one stops being the only way out.**
+
+One row left in the sweep that genuinely qualifies — Meltwater, whose
+journalist and PR contact database is keyed on professional identity.
+
