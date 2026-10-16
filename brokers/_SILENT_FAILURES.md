@@ -40345,3 +40345,61 @@ email instead. The **EAB Program** field is also blank, with the reason stated:
 a consumer cannot know which of a vendor's products holds data about them —
 **that is the thing being asked.**
 
+## §614 — "Free and safe" was neither, and the queue said to do it regardless
+
+The Madhive entry carried a two-part instruction. Part (1):
+
+> "FREE AND SAFE: use the opt-out button on Madhive's US state privacy notice
+> — **it needs no identifier at all. Do that regardless.**"
+
+Part (2) — supplying an IP address for deletion — was correctly flagged as
+barred by the standing rule. So the entry told anyone working the queue to go
+ahead and click the opt-out.
+
+**Checked the live page rather than trusting the note.** There is no opt-out
+button. `madhive.com/user-rights` is a **Ketch privacy centre** offering two
+request types, and the *opt-out* form requires:
+
+| field | required |
+|---|---|
+| First Name, Last Name, Email | yes |
+| **IP Address Screenshot** (file upload) | **yes** |
+| "I am a (an)" — Customer / Authorized Agent | yes |
+| **File Uploader**, under a heading reading **"Mobile Device Identifier"** | **yes** |
+
+The helper text under that last one: *"Your **IMEI** number can be found in
+your phone's settings. Please upload a screenshot."*
+
+### §614a — Why this is worse than the rest of the MAID cohort
+
+Two barred identifiers, both mandatory, on the request that was recorded as
+needing none. And one of them is an **IMEI** — a permanent hardware
+identifier burned into the device. A MAID can be reset; an advertising ID can
+be zeroed by turning tracking off. **An IMEI cannot be changed, and handing one
+over creates a permanent link between a named person and a specific physical
+handset.**
+
+So the §242 cohort has a new worst case, and the honest conclusion is that
+**Madhive has no usable opt-out at all.** That finding is the outcome — it is
+worth more than a submission would have been, and it only exists because the
+page was opened.
+
+### §614b — The note was wrong in the direction that costs something
+
+A queue note that understates a requirement is far more dangerous than one
+that overstates it. *"Free and safe, do it regardless"* is an instruction to
+act **without re-checking** — and acting on it would have meant uploading a
+screenshot of a home IP address and an IMEI to an adtech company, in direct
+breach of a standing rule, believing the opposite was true.
+
+§568's rule was *"I did X and nothing happened" is only evidence if you can
+show X happened.* This is its mirror: **"this is safe" is only usable if you
+can show you looked.** Both failures come from trusting a sentence written
+earlier instead of the page in front of you.
+
+Row set to `manual_required`; the queue entry rewritten from **decision** to
+**blocked-by-standing-rule**, with the required-field list quoted so nobody
+re-derives it. No placeholder is to be entered — the Gimbal withdrawal of
+8 September established that any value in such a field is read as the
+identifier whatever it actually is.
+
