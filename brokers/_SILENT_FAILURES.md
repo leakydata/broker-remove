@@ -40293,3 +40293,55 @@ The full identifier set was **withheld**. A first letter to a sales mailbox is
 not the place to scatter sixteen addresses and eleven phone numbers; they are
 offered the moment a proper route is named.
 
+## §613 — A form that fragments the request for you
+
+EAB's OneTrust form is now fully staged — every field entered and read back,
+no validation errors, only the CAPTCHA empty. Three things it taught.
+
+### §613a — The CAPTCHA was invisible on the first read
+
+The rendered page text showed **no CAPTCHA at all**. The `captchaCode` input
+only appeared on DOM inspection, after the rest of the form had been filled.
+
+This has been recorded before as a lesson and it keeps earning its place: **an
+automation that decides whether a form is drivable by reading the page once
+will decide wrongly.** The check has to be a DOM query, after a delay, and it
+has to be repeated before claiming a form is clean.
+
+### §613b — One right per submission, confirmed rather than assumed
+
+The form offers seven rights as buttons. Clicking **Opt Out of Sale**
+*deselected* **Right to Delete** — tested deliberately, not inferred from the
+styling.
+
+So the interface **fragments a multi-right request into separate filings**. A
+consumer who wants deletion, opt-out of sale, opt-out of targeted advertising
+and the third-party disclosure list must submit four times, each with its own
+CAPTCHA, and the form also says *"a separate request should be submitted for
+each EAB Program."*
+
+That is the fragmentation this project complains about when a company's
+*process* causes it (§554, §602) — here imposed by the form itself, on a
+consumer who has no way to combine them.
+
+The response was not to assume coverage. The request text says plainly:
+
+> "Your form allows only ONE right per submission, so this one is the Right to
+> Delete. Please treat it as also carrying an opt-out... if your process cannot
+> do that from a single submission, please tell me and I will file a second
+> request rather than assume it was covered."
+
+### §613c — Typeaheads append, and the field that must stay empty
+
+Country and State ignore scripted value-setting but **keep their internal
+state**, so a script-then-type sequence appends: the country field read
+`"United StatesUnited States"` until it was triple-clicked and retyped. §570's
+rule — *read the value back* — is what caught it.
+
+And one field was left blank on purpose. The form instructs *"please refrain
+from entering any personal information"* in the free-text box, so the sixteen
+addresses and twelve email addresses are **not there**; the text offers them by
+email instead. The **EAB Program** field is also blank, with the reason stated:
+a consumer cannot know which of a vendor's products holds data about them —
+**that is the thing being asked.**
+
