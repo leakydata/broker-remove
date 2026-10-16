@@ -40136,3 +40136,59 @@ Two rows remain genuinely unsupported: `peoplesmart` (written to, never
 answered) and `getemail_io` (no correspondence in either direction). Neither
 `confirmed` status can rest on a company statement, because there is none.
 
+## §610 — The bug report came back as a fix, and the answer as a demonstration
+
+Data Decisions Group answered §605a's letter **in two and a half hours**, inline,
+point by point. It is the best reply in this corpus.
+
+> **Identifiers:** "We searched all of them and found nothing... I wasn't
+> surprised that we didn't find your name associated with any of the prior
+> addresses... We don't maintain marketing email databases, so that part again
+> is not very surprising."
+
+> **Held anything:** "The honest answer is indeed no. We did not have any of
+> your data here."
+
+> **The suppression key:** "Suppression is keyed to **name and address**, and
+> also to **name and email address**. It has already been added. In a scenario
+> where we have two people with the same name living at the same address, we
+> would add additional qualifiers, like DOB, to suppress the right
+> individual."
+
+The first is a **demonstrated** nil — not "we found nothing" but *why* finding
+nothing was expected, which is reasoning a reader can check. The third answers
+§449's question, volunteered, without being asked twice. Almost nobody does.
+
+Two things beyond the questions. §604's circular referral was **accepted as a
+defect rather than defended** — *"Thank you, I will have IT take a look at
+this"* — which is exactly what §605a's framing was for. And they declined the
+Pennsylvania exit unprompted:
+
+> "**We honor ALL opt out requests here, rather than just the ones that are
+> legally required.** Simpler to do that, and also a better practice in
+> general."
+
+### §610a — Keeping an undertaking that cost something
+
+The letter had said *any answer to these closes the matter from my side*.
+
+It noticed something anyway. A key of **name plus address** stops matching the
+day the subject moves — §449's exact failure, silent on both sides. That is a
+real finding and a tempting fifth question.
+
+**§600a's test decides it.** There, pressing on was legitimate only because
+the follow-on branch had been written down *before* the answer arrived. Here
+nothing was signposted. So the undertaking binds, and the matter is closed.
+
+It was passed on instead as **information explicitly marked "no reply
+needed"**, with the reason given — a suppression keyed to a location silently
+narrows as people move, and entries that have quietly stopped protecting
+anyone are indistinguishable from ones still working — plus an explicit
+disclaimer that they are not being asked to hold future addresses they do not
+have and should not.
+
+That is §605's defect-report ethic applied to a company that has already done
+everything asked. **An undertaking that only binds when keeping it is free is
+not an undertaking**, and this is the second time in two days that honouring
+one has produced a better exchange than pressing would have.
+
