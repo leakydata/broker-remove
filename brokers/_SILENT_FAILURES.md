@@ -39296,3 +39296,63 @@ identifier plausibly key a record here*) is the right instrument; it simply has
 not been applied as consistently to the outbound volume as to the inbound
 request.
 
+## §595 — A label that promises more than the control delivers
+
+Disqus's support team answered the 10 October letter with a OneTrust webform
+and a self-service alternative. Working it produced two findings, one of them
+small and exact enough to be worth testing for elsewhere.
+
+### §595a — "Select request type(s)" takes one
+
+The control is labelled with a plural and behaves as a radio group. Verified by
+test rather than assumed: selecting *"Delete my personal information"*
+**silently deselected** *"Request a copy of personal information."* No error,
+no indication, just the previous choice quietly gone.
+
+§569a recorded one-right-per-submission at Crexi, where the cards were visibly
+radio buttons and the design was at least honest about itself. **This is worse
+in a small way: the label says `(s)`.** Anyone selecting three options and
+submitting would have filed one, believing they had filed three, and the
+confirmation would list only the survivor.
+
+Delete was kept, because Disqus's own page makes it the widest available: *"If
+you request to opt out of our use of sensitive personal information, we will
+treat that as a data deletion request and will delete all of your personal
+information."*
+
+### §595b — An instruction that collides with the form around it
+
+The details box says: *"Please refrain from entering any personal
+information."*
+
+That is a reasonable instruction — free-text boxes are the wrong place for
+identifiers, and §566b recorded Deloitte stating outright that anything typed
+there is not processed. **But the form provides exactly one Email field**, and
+the subject has twelve addresses, several at services that no longer exist and
+therefore precisely where an old account would sit.
+
+So the compliant path and the complete path point in opposite directions. The
+letter **honours the instruction rather than quietly ignoring it**, and asks
+them how they want the remaining addresses supplied — which has the side
+benefit of testing whether their own guidance has an answer.
+
+Disqus invited exactly this, which is to their credit: their reply said to
+mention it *"if the account you are looking to remove is registered with an
+email address that you no longer have access to."* That is the subject's
+situation, possibly several times over.
+
+### §595c — The self-service route, declined on his behalf
+
+Support also offered the direct option: log in and delete the account at the
+account settings page.
+
+**Not taken.** Their own warning is the reason: deleting the account *"will
+automatically delete any forums or sites owned by the account, and cannot be
+reversed."* That is a destructive, irreversible action with effects beyond the
+privacy request, on an account whose contents are unknown to me. It is flagged
+in the handoff as the subject's decision alone.
+
+The general rule this belongs to: **a removal route that destroys more than the
+record is not equivalent to a deletion request**, and the fact that it is
+faster is not a reason to prefer it.
+
