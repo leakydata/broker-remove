@@ -39857,3 +39857,61 @@ not the unlikely case.
 Email follow-up required, because the portal has closed the only channel it
 offered.
 
+## §605 — Reporting the defect rather than resenting it
+
+Two follow-ups this pass, both built the same way: **lead with the thing the
+company cannot see from inside, and offer it as information rather than as a
+complaint.**
+
+### §605a — Data Decisions Group: naming the likely cause yourself
+
+The §604 circular referral could have been written up as an evasion. It almost
+certainly is not one, and the letter says so:
+
+> "I assume this is an access-request template firing on a deletion, where
+> there is no report to collect — an easy thing to miss, and I mention it
+> because from outside it is **indistinguishable from a result that failed to
+> attach**, and I would not want to chase something that was never meant to
+> exist."
+
+Two things that buys. It gives the recipient a face-saving explanation that is
+probably the true one, so confirming it costs them nothing. And it states the
+*consumer's* problem precisely — not "your portal is bad" but "I cannot tell
+whether a file is missing or was never promised," which is a question a support
+team can actually resolve.
+
+The four questions then go back, each sized to one line, with the
+§1798.105(c) ask deliberately loosened: **"three marketing-services clients"
+or "none, the data was not onward-disclosed" are both offered as sufficient**,
+so no one has to name a client they are contractually unable to name. §592b's
+menu again — remove the reason to say nothing.
+
+And the §600a undertaking is repeated: *any answer to these closes the matter
+from my side.* It was worth making at Data Axle and it was kept; it is worth
+making here.
+
+### §605b — Streetdirectory: the dead address is their problem too
+
+The chase opens not with twenty-six days of silence but with the bounce:
+
+> `550 5.1.1 <privacy@streetdirectory.com>: Email address could not be found`
+
+— and then the consequence, which is the part they cannot observe:
+
+> "Anyone else exercising a privacy right against Streetdirectory will write to
+> the published address, receive a bounce, and most will simply stop there —
+> so **from your side it will look like nobody ever asks.**"
+
+That is the whole argument for leading with it. A dead privacy mailbox is
+invisible from inside the company by construction: the only evidence of it is
+mail that never arrives. The silence it produces is indistinguishable from
+having no privacy requests at all, and a company with no apparent requests has
+no reason to look.
+
+Both remedies are offered — restore the mailbox, or correct the published
+address — because the point is the defect, not which fix they choose.
+
+**The pattern worth keeping:** a complaint invites a defence; a defect report
+invites a fix. The underlying facts are identical, and only one of them gives
+the recipient something to do.
+
