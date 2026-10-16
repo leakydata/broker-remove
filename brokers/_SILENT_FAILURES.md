@@ -38756,3 +38756,66 @@ The distinction is not how unsatisfactory the answer was, nor how annoyed one
 is. It is **whether a person has engaged at all.** Appeal to reach a human;
 reply to continue with one.
 
+## §587 — Applying §586, and finding a loop left open a week ago
+
+§586 concluded that where a broker refuses by automation and publishes a way
+back in, **that way back is the route to a person.** The obvious next move was
+to ask which other rows had been refused the same way. A sweep of the status
+notes found **thirty-seven mentioning residency**, and among them Client
+Command: refused 2026-10-09, request **ZJ4XZGC3RC**, with the reason given in
+full and an invitation to write *"if you believe this response is in error."*
+
+That row's own note ended: *"That has to go by email now, to the address they
+just named."*
+
+**And then a week passed and nobody sent it.** Worth recording plainly,
+because it is the most ordinary failure mode in this project and the least
+dramatic: not a refusal, not a CAPTCHA, not a silent failure — **a next step
+correctly identified, written down, and never taken.** The handoff hygiene of
+§573b applies to my own notes as much as to the subject's list.
+
+### §587a — What the notice gave, read today rather than assumed
+
+The letter claims no Pennsylvania statute, and says so. Three grounds instead,
+all taken from Client Command's own published notice:
+
+**The capability argument, which is the strongest.** Their notice states they
+are a registered data broker in California, Texas and Oregon, and that from
+**1 August 2026** registered brokers must retrieve and process deletion
+requests through California's DROP platform. A company already building bulk
+deletion machinery is not being asked for anything burdensome by one record for
+one person. **So the question is not whether they can, but whether they will** —
+which is a policy decision, and a fair one for them to make, but it should be
+made rather than deflected onto a jurisdictional rule.
+
+**The notice is wider than the refusal.** Their section *"Your Privacy &
+Marketing Choices"* opens *"You may have certain choices when it comes to how
+we use your Personal Information"* — with no residency condition. Nor does the
+invitation to email them carry one. **The residency limit appears in the
+refusal, not in the published description of what they offer.** The letter asks
+which governs, without alleging the mismatch is deliberate.
+
+**No relationship exists.** The usual reason to resist deletion is that it
+interferes with a business purpose. There is none here — and their presence on
+three state registers is itself a declaration that they hold data on consumers
+they have never dealt with.
+
+### §587b — The shape these letters have settled into
+
+Four passes of this now (§581, §585, §587) have converged on the same
+structure, and it is worth naming because it keeps working:
+
+1. **Concede what is true** — no statute applies — immediately and without
+   being asked.
+2. **Quote the company's own published words back**, read fresh rather than
+   remembered.
+3. **Ask which of their two positions governs**, rather than accusing them of
+   bad faith.
+4. **Say explicitly that a maintained refusal, or a clean nil, would both be
+   complete answers.**
+
+The fourth is the one that feels like giving ground and is not. A company that
+knows *"we hold nothing"* will be recorded as a full answer has a cheap, honest
+exit — and the cheap honest exit is exactly the outcome worth having when it is
+true.
+
