@@ -39088,3 +39088,79 @@ excellently and unread.
 The real finding of this exercise is turning out not to be *"nine rows lack
 evidence"* but **"the mailbox has been running ahead of the ledger."**
 
+## §592 — Two adtech firms, the same question, opposite architectures
+
+§591b concluded that **the mailbox has been running ahead of the ledger**. A
+sweep for unread privacy correspondence confirmed it: two substantive replies
+from the night of 15 October, neither opened.
+
+They arrived sixteen minutes apart and they answer the same question in
+opposite ways.
+
+### §592a — RainBarrel (Cross Pixel): a nil that protects itself
+
+> "We have processed your request and **approved your request to opt out**...
+> we did not identify any matching records... **We have recorded your request
+> and added the information you provided to our internal suppression file** to
+> help prevent its inclusion in future marketing data... **Your opt-out remains
+> in effect on an ongoing basis.**"
+
+That is §557b's *suppressing what was not found*, done properly and unprompted:
+a nil, plus a standing suppression keyed on the identifiers actually supplied,
+so the nil is **protected** rather than merely reported.
+
+And then the sentence that matters most:
+
+> "you may provide [a Cookie ID or MAID] and we will gladly perform another
+> search. **Providing additional information is not required for your recorded
+> opt-out to remain in effect.**"
+
+**That is the exact counter to §578b's trap.** The deeper search is on offer
+for anyone who wants it, but the protection does not depend on surrendering a
+device identifier. The standing refusal to hand over MAIDs costs nothing here.
+
+### §592b — Place Exchange: suppression that only speaks one language
+
+Sixteen minutes later, the opposite. The 10 October letter had offered them
+**three pre-written answers** and said any would close the matter. They picked
+the middle one verbatim and then explained it:
+
+> "Place Exchange does not collect, ingest, or store personal information in
+> any format — **including raw or hashed email addresses.** Because our
+> products rely exclusively on mobile advertising identifiers and do not index
+> against emails, email hashes, or other personal data, **an email suppression
+> list would have no operational effect on our ingestion pipeline.**"
+
+So the hashed-email idea — a genuinely clever way to get a suppression key
+without surrendering a device ID — **is dead here, for a real technical
+reason.** That is a better outcome than an unanswered question.
+
+**The method is worth reusing.** Offering a short menu of acceptable answers,
+*including the ones unfavourable to me*, produced a specific technical
+statement where general questions had produced boilerplate. It is cheap, it is
+honest, and it gives a privacy team something it can approve rather than
+draft.
+
+### §592c — The strongest MAID assurance yet, recorded and not acted on
+
+Place Exchange also addressed the device-identifier objection directly, without
+being asked again:
+
+> "submitting a MAID for privacy suppression **does not create a link between
+> your device and any personal details**, nor is it stored for commercial use.
+> It serves solely to locate, opt out (if found), and suppress the device
+> identifier from future collection and use."
+
+That is the fullest assurance any of the MAID-requiring companies has given.
+**It changes nothing.** The standing instruction forbids sending a MAID, device
+identifier, cookie ID or IP address to anyone *whatever the assurance* — and an
+assurance is precisely what this is. It is recorded because the subject should
+know the best version of the offer exists, and because a rule held only against
+weak arguments is not being tested.
+
+**The pair is the real finding.** Two adtech companies, same sector, same week:
+one suppresses on what you already gave it and says a device ID is optional;
+the other cannot suppress on anything else. Only the first design lets a person
+protect themselves without handing over the identifier they most want withheld
+— and nothing but asking would have revealed which was which.
+
