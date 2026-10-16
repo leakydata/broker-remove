@@ -6,9 +6,24 @@
 
 ## Status
 
-- Current: `replied` (updated 2026-09-17)
-- Reference: `gmail:1a0a55ed60a41f81`
-- Note: NEW DEFLECTION 2026-09-15, ticket #3498629, Maria: "As you declined to
+- Current: `replied` (updated 2026-10-16)
+- Reference: `gmail:1a13e8f2141f2bb1`
+- Note: ARCHITECTURE NOW STATED PLAINLY, OPT-OUT STILL NOT CONFIRMED. 2026-10-15,
+  Maria: "Our advertising network identifies devices only by advertising ID. It
+  doesn't collect or match on names, email addresses or postal addresses... we
+  have already done a search on the systems that can be searched by your email,
+  specifically marketing/CRM. Your email address does not exist in that system.
+  Other systems need advertisement ID." That is the plain statement this project
+  said it would accept as closing the search question, and it is accepted: nil
+  on marketing/CRM by email, and the ad network/analytics/partner-returns systems
+  are architecturally unsearchable on name/email/postal. FOUR ROUNDS IN, THE
+  OPT-OUT CONFIRMATION STILL HASN'T BEEN ANSWERED — replied 2026-10-16 restating
+  the accepted architecture back to them so there's no ambiguity about what's
+  settled, and asking once more, as the single remaining item, whether the
+  §1798.120 opt-out is recorded against name/email/postal network-wide. Framed
+  as the last question either way: confirm it's recorded, or say plainly it can
+  only be exercised in-game, and either answer closes this.
+- Prior: NEW DEFLECTION 2026-09-15, ticket #3498629, Maria: "As you declined to
   provide your advertising ID in your original request, we have no means of
   identifying the data associated with your device and are therefore unable to
   process an opt-out of advertising-related processing." This conflates two

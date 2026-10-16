@@ -10,8 +10,24 @@
 
 ## Status
 
-- Current: `manual_required` (updated 2026-08-28)
-- Reference: `gmail:1a03b891ab4eeccc`
+- Current: `manual_required` (updated 2026-10-16)
+- Reference: `gmail:1a142a4bed78526f` (ticket 16279556, appeal filed 2026-10-16, 45-day
+  response window)
+- Note: A FRESH REMOVAL REQUEST, EIGHT WEEKS AFTER THE FIRST, WAS REFUSED IN FIVE
+  SECONDS ON PA RESIDENCY — even though the same identifiers had produced a real
+  removal on 2026-08-18. The refusal email states the `/removal` flow is a
+  "courtesy" applied to publicly-available data regardless of state law. An appeal
+  was filed on exactly that inconsistency: a courtesy cannot simultaneously be
+  withheld *because* no law compels it — those are not two things a company can
+  say about the same request. The appeal also notes their own privacy policy says
+  opt-out requests (as distinct from deletion) do not require verification at all,
+  so the opt-out component should not have been gated on residency in the first
+  place. Asked them to say, if they maintain the refusal, whether the August
+  removal was therefore made in error. 45-day response promised. THE SPEED OF THE
+  REFUSAL (five seconds) all but confirms it's a residency-keyword filter rather
+  than a human or even a model reviewing the request — worth knowing before
+  assuming any reply engages with the specific facts.
+- Prior: `manual_required` (updated 2026-08-28), reference `gmail:1a03b891ab4eeccc`
 - Note: THREAD EXHAUSTED 2026-08-28. Final answer: 'If you have additional identifiers to provide, please submit a new request using our public form and include the additional identifiers.' Preceded by 'This email address is dedicated to customer service inquiries and is not intended for privacy-related requests. We do not accept privacy requests received via email.' No further letters -- they have now said three times that email is not the channel, and pressing further would burn credibility for nothing. WHAT THE EXCHANGE ESTABLISHED, and it is worth keeping. (1) THE CIRCULARITY: they asked for 'the URL/web address of your profile details page so we can identify your profile' AFTER confirming removal on 2026-08-18. The only way to produce that URL would be for the removal to have failed. That was put to them plainly and never answered. (2) THE STRUCTURAL POINT: being told to 'submit a new request' means the supplementary identifiers cannot complete the existing one. Each batch becomes a separate request with its own clock and its own confirmation, so the 18 Aug 'removed' covers only the identifiers in that first form. A form-only channel with no per-consumer case file treats every new identifier as a new consumer -- which is exactly how a people-search cluster keyed to a twenty-year-old address survives a removal aimed at current details. (3) THE FAMILY QUESTION WAS ASKED TWICE AND IGNORED TWICE: FamilyTreeNow sent word-for-word identical text two seconds after TruePeopleSearch on 2026-08-26, and a direct question about shared operation and a shared index went unanswered both times. Silence is not corroboration either way (§138), but the two-second identical reply stands on its own as evidence -- see _SILENT_FAILURES 112. Handoff queued with the full identifier set.
 
 ## The circular trap — and the way out
