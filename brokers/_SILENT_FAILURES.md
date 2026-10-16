@@ -40603,3 +40603,57 @@ the subject is a **recipient** — none of the first five.
 be read as a statement about you, the honest option beats the one that looks
 most official.
 
+## §619 — Six forms, six CAPTCHAs, and what that does to the instruction
+
+Greenhouse's Relyance portal is the sixth web form driven today. Four clicks
+in — *Verify Identity* → *For Myself* → requester type → *Email verification*
+— and it stops at a reCAPTCHA checkbox. Email entered; nothing else left.
+
+The tally for the day:
+
+| form | gate |
+|---|---|
+| EAB (OneTrust) | image CAPTCHA, **invisible on first read** |
+| OwnerIQ / Inmar (OneTrust) | BotDetect image CAPTCHA |
+| NextRoll / AdRoll | reCAPTCHA checkbox |
+| People Data Labs | reCAPTCHA checkbox |
+| Lob (DataGrail) | hCaptcha, **only after Submit was pressed** |
+| Greenhouse (Relyance) | reCAPTCHA checkbox |
+
+**Six for six.** Four different vendors, four different CAPTCHA products, one
+outcome.
+
+### §619a — The instruction has almost no targets left
+
+The standing instruction says *"drive every non-CAPTCHA item you can."* Today's
+evidence is that among web forms there is essentially no such category. The
+queue's own split — 57 marked `captcha` against 70 marked otherwise — is
+misleading, because several of the 70 were simply **not yet attempted**, and
+every one attempted today turned out to be gated.
+
+That is not an argument for solving them. It is an argument about where the
+remaining value is: **email**. Every substantive result this week — Data Axle's
+demonstrated nil, Data Decisions' suppression key, Dealfront's deletion,
+PeopleSmart's forty-minute escalation — arrived through a mailbox, not a form.
+Forms are where requests are *filed*; letters are where they are *answered*.
+
+### §619b — The honest option, again
+
+The requester-type list offered Customers, Employees, **Any Data Subject**, Job
+Applicants, Agents. Greenhouse is recruiting software used *by* employers, so
+the likeliest record is a job application made years ago through some
+company's careers page.
+
+"Job Applicants" would therefore have been the *plausible* answer — and it
+asserts something unknown. Whether he ever applied through a Greenhouse-powered
+form is part of what is being asked. **"Any Data Subject" claims nothing**,
+which is why it was chosen (§615b, §618b).
+
+### §619c — Credit where it is due
+
+Greenhouse offers **email verification as the only method**: no government ID,
+no account creation, no document upload. That is the least intrusive
+verification of any portal in this project, and the fill sheet says to tell
+them so if they reply. Most of this corpus records what companies get wrong;
+this one got the hardest part right by default.
+
