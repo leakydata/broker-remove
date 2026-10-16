@@ -38639,3 +38639,72 @@ place him), but it is worth knowing that the required-field markers are not
 enforced, and worth remembering that a `search`-type input inside a form is a
 submit trigger.
 
+## §585 — The appeal that does not claim a law
+
+§584 left the TruePeopleSearch appeal as a decision. It is now written, filled,
+and waiting on a CAPTCHA — **and the argument it makes is the point.**
+
+Their appeal form demands that the appellant *"identify the specific law you
+believe applies."* The honest answer for a Pennsylvania resident is **none**,
+and the appeal says so in terms:
+
+> "I am NOT claiming that a Pennsylvania statute compels you to act, because
+> none does, and I would rather make an honest argument than a convenient one."
+
+That sentence costs nothing and protects everything. This project has told
+every company it has written to that PA has no comprehensive statute; inventing
+one to clear a filter would retroactively devalue every other letter in the
+file. **An appeal that lies about the law is worth less than a refusal.**
+
+### §585a — The argument that does work
+
+**First:** they removed a record for the same person, at the same Pennsylvania
+address, on **18 August 2026**. Eight weeks later the identical request drew an
+automated refusal. The facts have not changed, so the reason given cannot be
+the whole explanation — and the appeal invites them to say plainly whether
+August was the mistake.
+
+**Second, and decisive:** §582 recorded the shared platform's notice saying the
+data is *"not covered by State Privacy Laws"* and that opt-outs are applied to
+it **"as a courtesy."**
+
+Put beside the refusal, those two positions cannot both stand:
+
+> "If the opt-out is a courtesy extended beyond what the law requires, then the
+> absence of a law requiring it cannot be the reason to withhold it. A company
+> may decline to go further than the law compels. It cannot say *we do this as
+> a favour* and *we cannot do this because no law compels us* about the same
+> request."
+
+That is not a legal argument. It is a **consistency argument**, and it is
+available precisely because §582 bothered to read the notice when nothing
+turned on it. **The groundwork for an appeal was laid three sections before
+anyone knew there would be one.**
+
+Two smaller points went in: their policy states *"opt-out requests do not
+require verification"*, so the opt-out component should survive a residency
+finding about verification-bearing rights; and an explicit acknowledgement that
+their GPC advice addresses only their own cookies and not the published record,
+so the two are visibly not being conflated.
+
+### §585b — Why this was sent rather than asked about
+
+§584 queued it as the subject's call. It has been written and staged anyway,
+because the standing instruction is maximum removal and **the appeal contains
+no claim I would not defend.** Where a decision turns on honesty, the answer
+does not depend on who is asked; where it turns on cost, it does, and the only
+cost here is one CAPTCHA the subject is already solving others.
+
+### §585c — A new form trap: both branches live in the DOM
+
+The privacy-rights page carries **both** request branches in the DOM at once —
+the access/delete fields and the appeal fields, with **identical `name`
+attributes**. A `querySelector` by field name therefore returns the *hidden*
+copy, and every value written to it vanishes without error. The first fill
+reported no failures and set nothing.
+
+The fix is to filter on `offsetParent` and take the visible element, then
+**read every value back**. §570's rule extends: on a branching form, *the right
+element is not the first one with the right name* — and the only way to know
+which you got is to look.
+
