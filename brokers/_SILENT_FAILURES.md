@@ -40403,3 +40403,56 @@ re-derives it. No placeholder is to be entered — the Gimbal withdrawal of
 8 September established that any value in such a field is read as the
 identifier whatever it actually is.
 
+## §615 — The form that un-answers a question you already answered
+
+§614 ended by asking whether other queue entries carried the same kind of
+stale safety claim. Four did on a text search; three were sound. The fourth,
+OwnerIQ, was not a safety claim at all but a dead handoff — *"the browser tab
+is gone, this needs filling in from scratch"* — so it was filled in from
+scratch. Every field entered and read back, **zero real validation errors**,
+only the BotDetect image CAPTCHA left.
+
+Four traps, three of them new.
+
+**One right per submission.** Access, Delete and Opt Out are mutually
+exclusive, exactly as at EAB (§613b). The opt-out needs a second pass.
+
+**A required field appears late.** *"Are you sure you want to delete your
+data?"* only materialises once the earlier answers are given. **The form first
+rendered is not the whole form** — the same shape as §613a's late-loading
+CAPTCHA, and the same lesson: a single read of a page is not a description of
+it.
+
+**Answering the late field silently un-answered an earlier one.** Clicking the
+delete confirmation reverted *"Not sure"* above it from orange to grey. Nothing
+announced it. It was caught only by re-screenshotting after the click — and
+had it not been, the form would have been handed over one answer short, with
+the fill sheet claiming it was complete.
+
+**The state typeahead lies in a specific direction.** Typed or scripted, the
+internal value reads `"Pennsylvania"` while the visible field stays empty and
+flags *"this field is required"*. §613c found it appends; here it reports
+success while committing nothing. It commits only when a **suggestion is
+clicked**.
+
+### §615a — A count I threw away in the same minute
+
+The verification pass first reported **five required-field errors**. The regex
+was `/required/i`, which matches the word "Required" in every field label.
+
+Re-run against *"this field is required"* only: **zero errors, four ordinary
+labels.** §589b was an apostrophe; this was the same mistake inside a single
+tool call, caught before it reached the fill sheet rather than after
+publication.
+
+The habit that keeps paying: **when a check returns a number you did not
+expect, suspect the check before the world.**
+
+### §615b — Why "Not sure" is the honest answer
+
+The form asks whether the request concerns services Inmar provides *on behalf
+of another organisation*, and carries an accuracy acknowledgement. We do not
+know whether OwnerIQ data reached Inmar through a third party. **"Not sure" is
+the true answer, so it is the one given** — on a form where a guess would be
+a false statement attested to.
+
