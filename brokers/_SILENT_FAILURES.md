@@ -39412,3 +39412,57 @@ places the subject in **a different Pennsylvania town** from the one he lives
 in, so a nil searched against the right address may be true of the address and
 false of the person.
 
+## §597 — Re-testing the nils that were answered with the wrong key
+
+§596 established that B2B and professional-data companies cannot find a person
+from consumer email addresses. The obvious consequence is that **some of this
+project's nils may be artefacts of the key rather than facts about the
+holdings** — and that is testable.
+
+A sweep of the ledger found **thirty rows** whose notes describe a B2B,
+sourcing, recruiting or sales-intelligence company *and* record a nil. **Twenty-
+four of them have never been given the profile URL.**
+
+Cognism is the archetype and went first. Their 14 September reply — *"we are
+unable to find any records"* — was accepted at the time and is perfectly
+possible. But Cognism compiles B2B contact and sales-intelligence data from
+professional sources, and the request that drew that nil led with personal
+email addresses. **The nil may be true of the key and false of the person.**
+
+### §597a — The supplement concedes the error as ours
+
+The letter does not accuse them of searching badly. It says the request gave
+them the wrong key, and that this is the requester's mistake:
+
+> "A consumer email address is the right search key for a people-search or
+> marketing company. For a B2B sales-intelligence database built from
+> professional profiles, it is close to useless — which may be the whole
+> explanation for the nil."
+
+That framing is not politeness. §587b recorded that these letters work by
+conceding what is true immediately; here the thing that is true is that the
+first attempt was poorly aimed, and saying so is what makes a second search a
+reasonable ask rather than a complaint about the first.
+
+It was sent **on the existing thread, explicitly "not a new one"** — the
+fragmentation that the Altrata duplicate caused is a mistake worth not
+repeating.
+
+### §597b — The ask that survives the result
+
+Two things, kept separate: re-run the search against the profile URL; and —
+**the one that matters more** — record a suppression entry keyed to that URL
+**whether or not the search matches.**
+
+A public professional profile is re-crawled continuously. It is therefore both
+the likeliest future route *in* and the only key that reliably keeps a person
+*out*. A nil obtained today against an identifier the company does not index is
+worth very little; a suppression keyed to the identifier it does index is worth
+a great deal, and the two asks should never be allowed to collapse into one.
+
+**Twenty-three rows remain.** They will not all deserve the treatment — some
+are adtech rather than professional data, where the profile URL is irrelevant
+and §578b's trap applies instead. The test before each one is §579a's: *does
+this identifier plausibly key a record here?* Where the answer is yes, the nil
+should be re-tested; where it is no, it should be left alone.
+
