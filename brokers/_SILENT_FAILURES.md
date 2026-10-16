@@ -39748,3 +39748,59 @@ And the exit: if they hold nothing despite Lusha, saying so plainly is a
 complete answer, and **the discrepancy becomes Lusha's to explain rather than
 theirs.**
 
+## §603 — Auditing our own duplication, and discarding the number it produced
+
+§602a found four letters to one address across three threads and conceded the
+fault. The obvious next question is **how widespread that is** — so this pass
+tried to measure it, and the measurement failed in a way worth recording.
+
+The method: pull sent threads carrying the standard request subject, group by
+recipient domain, count domains holding more than one separate thread. The
+result looked clean — **41 domains, one with two threads.**
+
+### §603a — Why that number is worthless
+
+Two defects, either fatal on its own.
+
+**It was a recency slice.** The page covered **18 September to 16 October**.
+Every known duplicate — MixRank (four letters), Dataman (three), Data Axle
+(two), Bombora (two) — was sent in **August or early September** and falls
+outside the window entirely. Probing for all four in the page returned zero
+threads each. So the sample measured duplication precisely in the period
+*after* the project had learned to consolidate, and the clean result is an
+artefact of where the window starts.
+
+**And it was one subject line of 402 threads.** Dataman's three letters carry
+three different subjects; grouping by one template cannot see them.
+
+### §603b — The one hit was a false positive too
+
+Streetdirectory showed two threads one day apart. It is not duplication:
+
+> `550 5.1.1 <privacy@streetdirectory.com>: Email address could not be found,
+> or was misspelled (G8)`
+
+The first letter **hard-bounced**. The second, to `carecenter@` the next day,
+was the correct response to a bounce. So the audit's only finding was the
+project doing the right thing.
+
+**Both corrections point the same way: there is no measured duplication rate
+here, in either direction.** §602a's concession stands on the four letters that
+were actually counted by hand, and nothing in this pass extends or limits it.
+
+### §603c — The third measurement artefact this week
+
+§589b was a regex matching apostrophes. §591b was a count built from a stale
+note rather than the mailbox. This is a window that excluded its own subject
+matter. **All three produced plausible numbers, and all three were caught only
+by asking what the measurement would look like if it were broken.**
+
+The rule that keeps working: *before publishing a count, construct the case
+where the method returns this exact answer while the world is otherwise.* Here
+that took one probe — searching the page for the four domains already known to
+be duplicated. Zero hits ended it.
+
+Two byproducts worth more than the discarded statistic: `privacy@` at
+Streetdirectory is **dead and must not be retried**, and the live route is
+`carecenter@`, unanswered for twenty-six days and now due a chase.
+
