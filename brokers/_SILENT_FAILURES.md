@@ -39915,3 +39915,54 @@ address — because the point is the defect, not which fix they choose.
 invites a fix. The underlying facts are identical, and only one of them gives
 the recipient something to do.
 
+## §606 — A token that looks like authentication and is not
+
+PMG's OneTrust portal raised **"Your Privacy Request Needs Attention"** on
+request FM6XRMKND5 — a comment added, and the company waiting.
+
+The email's "View request" button carries a long signed JWT in the path:
+
+`privacyportal.onetrust.com/privacyaccess/eyJhbGciOiJSUzUxMiJ9...`
+
+It looks exactly like an authenticated deep link. **It is not.** It lands on
+the same *"Request an access code"* screen an unauthenticated visitor gets:
+email field, distorted-text image CAPTCHA, then a fifteen-minute numeric code
+by mail. The token identifies which tenant and which request to open — nothing
+more.
+
+Worth recording because the shape is misleading in a costly direction. Ketch's
+magic link in §604 *was* real authentication and logged straight in; OneTrust's
+is not, and anyone reasoning by analogy from one vendor to the other will
+assume a portal is reachable when it is not.
+
+### §606a — Why this one jumped the queue
+
+It is the first item moved to the **front** of the handoff queue rather than
+appended. The reasoning is specific, not urgency-by-vibe:
+
+- OneTrust raises "Needs Attention" when the **company is waiting on the
+  consumer**, not the reverse;
+- such requests are **closed for non-response** after a set period, with no
+  warning before it happens; and
+- **the comment cannot be read from outside the portal.**
+
+Those three together make the cost of delay both unbounded and unknowable —
+there is no way to learn what was asked, or how long remains, without getting
+in. Most queue items fail the opposite way: the cost of waiting is visible and
+small.
+
+### §606b — Staging a question you cannot read
+
+The usual fill sheet pre-fills known answers. Here the *question is unknown*,
+so the sheet instead carries a prepared answer for each thing PMG plausibly
+asked — identity verification, state of residence, which identifiers, or a
+nil — each with the standing limits already applied: no government ID, no
+SSN, no account; Pennsylvania has no comprehensive statute and no law is to be
+claimed; search the obsolete identifiers; and if they hold nothing, ask only
+which identifiers were searched and take the free forward-looking suppression.
+
+The email field is filled and read back; only the CAPTCHA is left. **The point
+of a handoff sheet is that the person finishing it should not have to think
+about anything except the part a machine cannot do** — and that holds even
+when the question itself is still sealed.
+
