@@ -40074,3 +40074,65 @@ four re-tested with the profile URL — NetWise, MixRank, ocean.io and
 Meltwater — plus Data Axle's business file, which arrived by a different
 route.
 
+## §609 — The flag was wrong four times out of six
+
+§589a flagged nine `confirmed` rows as having **no inbox evidence**. §591b
+caught the first error — `dealfront` had a three-message thread ending in a
+named human confirming deletion, and the flag had come from a stale note
+rather than the mailbox. This pass tested the remaining six properly.
+
+| row | verdict |
+|---|---|
+| `courtrec_com` | **evidence exists** — reply 2026-09-13 |
+| `publicrecords_info` | **evidence exists** — same thread |
+| `dataline` | **evidence exists** — named confirmation 2026-09-29 |
+| `tie` | **evidence exists** — company-domain confirmation 2026-09-28 |
+| `peoplesmart` | letter sent, **no reply in 58 days** |
+| `getemail_io` | **nothing, and it survives a proper check** |
+
+With `411_com` and `dealfront` already cleared, the flag was **wrong for six
+of the nine rows it was applied to.**
+
+### §609a — Why it was wrong, which is the part worth keeping
+
+Not carelessness in one place — two distinct defects:
+
+**A reply does not have to come from the company's domain.** CourtRec and
+PublicRecords answered from `1746136851@tickets.helpdesk.com`. A
+`from:courtrec.com` search cannot see that, and will report silence from a
+company that answered in sixteen days. Helpdesk, Zendesk and ticketing relays
+break domain-scoped search as a matter of routine, and most people-search
+companies use one.
+
+**A joint letter produces one thread for several rows.** The 29 August letter
+went to CourtRec *and* PublicRecords in the same message. Per-row searching
+assumes per-row threads.
+
+Both failures are **silent and one-directional**: they manufacture absence,
+never presence. A search built this way can only ever under-report contact,
+which is the worst direction for an audit whose purpose is to find rows
+resting on nothing.
+
+### §609b — What the clearing actually bought
+
+Three of the four "cleared" rows are **asserted**, not demonstrated — no
+identifiers named, no statement on forward-looking suppression. Clearing the
+flag does not promote them.
+
+And one of them got *worse* on inspection. Dataline's confirmation reads:
+
+> "Your privacy request for **[one of the four addresses]** has been honored"
+
+The request listed **four** addresses so each could be searched. A reply
+pointing that out went the same day and has had no answer in seventeen days.
+So the row is neither "confirmed" nor "no evidence" but something more useful
+than either: **a partial confirmation with a live scope question.** Chased
+this pass, with the two readings set out explicitly — all four searched and
+one matched, or only the submitting address searched at all — and the point
+made that in a compiled marketing file the *obsolete* address is the likelier
+match.
+
+Two rows remain genuinely unsupported: `peoplesmart` (written to, never
+answered) and `getemail_io` (no correspondence in either direction). Neither
+`confirmed` status can rest on a company statement, because there is none.
+
