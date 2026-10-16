@@ -40019,3 +40019,58 @@ give, and the expensive one stops being the only way out.**
 One row left in the sweep that genuinely qualifies — Meltwater, whose
 journalist and PR contact database is keyed on professional identity.
 
+## §608 — Giving up the unwinnable ask in writing
+
+Meltwater closes the §597 sweep. Forty-eight days of silence, and the chase
+does something none of the others needed: **it abandons two thirds of the
+original request on purpose.**
+
+The 29 August letter had split Meltwater into three holdings. The chase says
+which one it is actually about:
+
+1. **media monitoring** — archived articles and broadcast content;
+2. **social listening** — public posts at scale;
+3. **the media contacts and influencer database** — a structured file of named
+   individuals with job titles, employers, beats and contact details, built
+   and maintained as a product.
+
+Only the third is a data broker holding in the ordinary sense. And about the
+first, in terms:
+
+> "If my name appears in a news item, I am not asking you to delete the
+> article. That is journalism, I have no claim over it, and I want to be
+> explicit that I am not making one."
+
+### §608a — Why conceding it in writing is the point
+
+That sentence costs nothing — the ask was never winnable, and a company would
+refuse it anyway. What it buys is specific: **it removes the easiest reason to
+refuse the whole letter.**
+
+A privacy request that appears to demand the deletion of news coverage can be
+declined in one line, on solid ground, without engaging with anything else in
+it. Saying so first means the refusal that was available is no longer
+available, and what remains is a narrow, answerable question about a
+commercial contacts product.
+
+The same move as §601b's menu and §607a's pre-accepted answers, pointed
+inward: **state the limits of your own claim before the recipient has to.**
+
+### §608b — The question that makes a nil legible
+
+Question (a) is the one worth keeping:
+
+> "Is the contacts database searched by a privacy request addressed to
+> Meltwater generally, or is it a separate system that has to be named?"
+
+This is §564's problem in its cleanest form. *"We searched our systems and
+found nothing"* can be **entirely truthful about monitoring archives while
+silent about the contacts product** — and the two are indistinguishable from
+outside. Asking which system the search covers converts a nil from an
+assertion into something that can be checked.
+
+Sweep closed: twenty-odd rows considered, ten excluded in bulk (§607), and
+four re-tested with the profile URL — NetWise, MixRank, ocean.io and
+Meltwater — plus Data Axle's business file, which arrived by a different
+route.
+
