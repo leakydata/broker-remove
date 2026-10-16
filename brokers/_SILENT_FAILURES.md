@@ -38970,3 +38970,59 @@ their working. It owes the same of itself, and the honest finding here is
 smaller and more actionable than the alarming one: **nine named rows need
 corroboration, not a hundred.**
 
+## §590 — Corroborating the first of the nine, and stopping at a memory
+
+§589a named nine `confirmed` rows resting on **no inbox evidence** — adopted
+from a shared ledger, with no mail in either direction. The cheapest honest
+corroboration is to **re-run the removal**: harmless if it was already done, a
+fix if it was not.
+
+First of the nine, `411_com`. Its route resolves to Whitepages' suppression
+page — a five-step flow whose step one reads: *copy and paste the URL of your
+profile.*
+
+**That is §572's claim-by-URL pattern**, and it cannot be completed without
+first searching Whitepages for the subject.
+
+### §590a — Why the search did not happen
+
+The project memory carries an explicit caveat, written for TruthFinder and
+applying here unchanged: **a self-search on a people-search site can generate
+engagement or "someone searched for you" signals, so it is a deliberate trade
+rather than a free check — and it is to be raised with the subject before it is
+done.**
+
+The pull the other way was real. The standing instruction is maximum removal,
+the subject has been clearing CAPTCHAs willingly all week, and the search is a
+small thing. **But a caveat that is only honoured when inconvenient is not a
+caveat.** The memory exists precisely for the moment when doing the thing
+quietly would be easier, and the cost of honouring it is one pass.
+
+So it is queued as a decision, with the trade stated in a sentence rather than
+buried.
+
+### §590b — The identification test travels with it
+
+When it is done, §572 supplies the method and the handoff carries it: **do not
+match on the current city, the area code, or the age.** All three pointed the
+wrong way at lookups.io, where a profile carrying the right city and a
+plausible area code turned out to be a merge of several unrelated people.
+
+**Match on the former-address history.** Two particular Pennsylvania towns are
+the signature; a candidate showing neither is probably a namesake, and claiming
+it would assert that a stranger's data belongs to the subject.
+
+### §590c — Taking the row off `confirmed`
+
+The status moved back to `manual_required`, deliberately.
+
+A confirmation this project **cannot substantiate from its own records**, on a
+row whose removal route turns out to be one the project **has never actually
+completed**, should not keep reading as done. §589a's value was in counting the
+nine; the value is only realised if the count changes something.
+
+Eight remain. Four are email routes with no address on file and five are web
+forms, so they will not all resolve the same way — but each one re-run is a
+confirmation that becomes real, or a removal that never happened becoming
+visible.
+
