@@ -39225,3 +39225,74 @@ that appear separately on the California register, whether the products run on
 wealth-screening product are not usually the same dataset), and the sources if
 anything is found.
 
+## §594 — CityData closes it, corrects us, and makes an argument worth answering
+
+CityData.AI's final response arrived 12 October and gives, in full, the answer
+the 10 October letter had asked for in exactly that form:
+
+> "The only identifier in our database is a **hashed Mobile Advertising ID**...
+> We hold no hashed email, household or dwelling association, or any other
+> derived identifier under which a record could be located. Our home-location
+> inferences are **aggregated at the census block group or tract level**...
+> there is no non-device data to delete or suppress; we cannot apply
+> suppression without the identifier... **Nothing else you have sent us can be
+> matched to anything we hold, so none of it has been retained.**"
+
+The letter had said: *"If the honest answer is 'without an IDFA or ADID we
+cannot find or remove device data', please tell me that outright. I'll record
+it as your final position and I won't write again on that point."*
+
+**They gave it. The undertaking binds.** The row is closed and there will be no
+further contact on it. A promise made to extract a plain answer is worth
+nothing if it is abandoned once the answer is unwelcome.
+
+### §594a — A correction we owe them
+
+Their reply carries a timeline, and one line in it is a rebuke: of the
+24 August email, *"we chose not to respond because the request required
+violating privacy regulations."*
+
+That request had asked them to **identify the device at the subject's street
+address.**
+
+**They were right and the ask was wrong.** Identifying a device from an address
+is precisely the linkage this project exists to oppose. Asking a location
+company to perform it — even on the subject's own address, even in service of
+a deletion — would have had them do to a household what the project objects to
+being done to a person. It is recorded as a mistake of ours, not an evasion of
+theirs.
+
+### §594b — The argument they make against us, which has force
+
+They close with this:
+
+> "a Mobile Advertising ID **can be reset or disabled in your device settings
+> at any time**, which is not true of the name, date of birth, addresses and
+> phone numbers you have chosen to include in these emails. We would gently
+> suggest that those are the more sensitive details to share with companies
+> you believe may hold data on you."
+
+**That is a fair point and it deserves a straight answer rather than a
+dismissal.** A MAID is resettable in thirty seconds; a date of birth is
+permanent. This project has sent a date of birth, sixteen former addresses and
+eleven former telephone numbers to a great many companies while refusing a
+resettable device identifier to a handful. Stated that baldly, the policy looks
+inconsistent.
+
+The counter is real but narrower than the rule: **a MAID is not valuable
+because it is secret, it is valuable because it joins.** It is the key that
+links a named person to a device, and a device to every dataset that has ever
+seen it — in real time, continuously, without the person's knowledge. A date of
+birth sitting in a marketing file is static and widely held already; a device
+ID handed to a location company, alongside a name and an address, creates a
+live edge between an identity and a movement history that did not previously
+exist. Resettability helps only if you reset it, and only forward.
+
+But their version is the stronger one on the point they are actually making —
+**about what is sensitive to disclose** — and the honest position is that the
+project's identifier policy optimises against linkage rather than against
+sensitivity, and has not always said so clearly. §579a's test (*does this
+identifier plausibly key a record here*) is the right instrument; it simply has
+not been applied as consistently to the outbound volume as to the inbound
+request.
+
