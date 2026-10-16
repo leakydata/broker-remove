@@ -39689,3 +39689,62 @@ specific to the business model rather than the usual boilerplate:
 That is §557b aimed at a particular architecture. A co-op member contributing
 next month is not a hypothetical refresh risk; it is how the product works.
 
+## §602 — Four letters, three threads, no replies: the duplication is ours
+
+MixRank is the best-grounded request in the §597 sweep and the worst-handled
+by this project.
+
+**Best-grounded** because the record is not hypothetical. Lusha's access
+response was organised by supplier and named them field by field:
+
+> "All other details (**Name, Employer, Job Title**) were sourced from Mixrank
+> — Online Media Group, Inc."
+
+A record containing name, employer and job title demonstrably left MixRank for
+at least one customer. A nil here would be surprising rather than routine, and
+the chase says so — stating the provenance as the source of its confidence
+rather than asking them to confirm a third party's account.
+
+**Worst-handled** because four letters have gone to the same address across
+**three separate threads** — 23 August, twice on 1 September, 7 September —
+with no acknowledgement to any of them.
+
+### §602a — Apologising first, and meaning it
+
+The chase opens with the apology rather than the chase:
+
+> "That is more mail than this matter warrants and I am sure it has been
+> irritating to receive. It happened because each one was prompted by new
+> information rather than by impatience, but the effect is the same and I
+> should have consolidated."
+
+§554 recorded the Altrata duplicate as a mistake to avoid. **It applies here
+four times over, and it had not been noticed until the threads were listed
+side by side.** A project that keeps telling companies their processes
+fragment a person's request should notice when its own correspondence
+fragments across three threads at one address.
+
+Whether the silence is caused by that is unknowable. But a recipient facing
+four overlapping letters has a reason to defer all of them that they would not
+have had facing one, and the honest thing is to say so before asking again.
+
+### §602b — Why this is the clearest §596 case
+
+Name, employer and job title **is** a professional record. It is exactly the
+shape of data that twelve consumer email addresses cannot locate, and exactly
+what the three companies in §596 said they key on.
+
+So the profile URL goes in with an unusually strong warrant: not *"this might
+be your key"* but *"a customer has told me the record you supplied contains
+employer and job title, and that record cannot be keyed to a Gmail address."*
+
+Three questions, each answerable in a line: **which other customers** received
+a record (a count or "none" accepted, rather than names they may be unable to
+give); **where the employer and title data came from**; and whether their
+suppression is **forward-looking or one-time** — which produce identical
+confirmations and opposite outcomes.
+
+And the exit: if they hold nothing despite Lusha, saying so plainly is a
+complete answer, and **the discrepancy becomes Lusha's to explain rather than
+theirs.**
+
