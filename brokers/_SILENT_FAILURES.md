@@ -38819,3 +38819,86 @@ knows *"we hold nothing"* will be recorded as a full answer has a cheap, honest
 exit — and the cheap honest exit is exactly the outcome worth having when it is
 true.
 
+## §588 — "The portal confirmations acknowledge receipt of a submission"
+
+Enformion's final answer, sent 2026-10-12 and **found unread four days later**:
+
+> "Our determination remains unchanged. Based on your Pennsylvania residency,
+> we are unable to process your request under applicable state consumer
+> privacy laws.
+>
+> **The portal confirmations acknowledge receipt of a submission; they do not
+> guarantee eligibility or confirm that information has been deleted.** Our
+> Privacy Notice describes rights available under applicable law and **does
+> not create an unconditional right to deletion** for all individuals.
+>
+> Accordingly, **we cannot confirm that the requested actions have been
+> performed.**"
+
+That is an honest, complete and reasoned refusal, and the row should stop being
+pressed. Three determinations across six weeks — initial, on appeal after
+re-evaluation, and final — all consistent, none evasive. The appeal route was
+used and is exhausted.
+
+It also closes, against us, both arguments that had been put:
+
+**The portal contradiction is resolved.** Their public *Right to Delete* route
+asks a "member of the public" for nothing but a name and an email — no
+residency screen — and says *"allow 3 days for your record to be fully removed
+from our site."* The answer is that the confirmation it issues is **a receipt,
+not an outcome.**
+
+**The notice argument is refused directly.** §587 used the shape *"your notice
+is wider than your refusal"* at Client Command. Enformion answers it head-on:
+the notice describes statutory rights and **creates no independent commitment.**
+That is a legitimate position, and recording it as such is more useful than
+continuing to argue.
+
+### §588a — The sentence that reaches every other row
+
+Strip the residency dispute away and one sentence remains, and it is not about
+Pennsylvania:
+
+> **The portal confirmations acknowledge receipt of a submission; they do not
+> guarantee eligibility or confirm that information has been deleted.**
+
+§562 inferred this from timing — four seconds between acknowledgement and
+"results" cannot contain a search. §579c refused to upgrade Babel Street on the
+word *"completed"*. **Enformion has now said it outright, as a matter of
+policy**, and it is the first time a company has stated the thing this file has
+been circling for eighty sections.
+
+The consequence is uncomfortable and should be faced: **this project holds a
+great many rows resting on exactly that evidence.** 802 `submitted`, 116
+`confirmed` — and a substantial share of the confirmations are portal
+acknowledgements or completion notices with no statement of what was found or
+removed.
+
+That does not make them wrong. A receipt is weak evidence, not false evidence,
+and most companies that send one have probably done the thing. But it means the
+file's confidence should be graded rather than binary, and the grading already
+exists in §535's taxonomy:
+
+- **demonstrated** — they said what they held, or what they deleted (Deluxe
+  §581, Snov.io §557, GRIN);
+- **asserted** — a human said it was done, without detail;
+- **receipt only** — a portal said it was received, and nothing more.
+
+**The third class has been scoring as the second.** Enformion's sentence is the
+reason to separate them, and the separation is worth doing — not to retract
+anything, but so that the strong rows stand apart from the weak ones instead of
+averaging with them.
+
+### §588b — Credit where it is due
+
+It would be easy to read this reply as stonewalling. It is the opposite. They
+were asked a direct question — *is there a policy-level basis, independent of
+statute, on which you will honour this?* — and they answered it: **no.** They
+explained why the portal confirmation did not mean what it appeared to mean,
+rather than letting the inference stand.
+
+§585c's letter told TruePeopleSearch that an unqualified refusal would be a
+complete answer and would be recorded as such. **Enformion has given exactly
+that**, and the only consistent thing to do is honour the undertaking: record
+it, stop asking, and move the effort to rows where something is still moving.
+
