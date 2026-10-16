@@ -40240,3 +40240,56 @@ So the chase asks about both, and pre-commits to the narrow answer:
 its own row. Five answered threads turned out to be worth more to the sixth
 than another month of waiting on it would have been.
 
+## §612 — The hypothesis was wrong and the question was right
+
+§611 was published about an hour ago. PeopleSmart replied **forty minutes**
+after the chase went out, and the reply refutes it.
+
+> From `support@peoplesmart.zendesk.com`: "Thank you for reaching out. We have
+> escalated this request to our privacy team."
+
+§611 reasoned that `privacy@peoplesmart.com` was an unmonitored mailbox,
+because five sibling brands had all answered from support desks while this one
+address never had. **That inference is now disproved.** The chase went to the
+*same* `privacy@` address as the 19 August letter and produced a Zendesk ticket
+in forty minutes. The mailbox reaches the desk.
+
+So the honest conclusion is narrower and less satisfying than the one
+published: the route works, and **the first letter's fate is simply
+unexplained.** It was never actioned, or it was closed without a reply, and
+nothing observable distinguishes those two.
+
+### §612a — Why the section still earned its place
+
+The pattern argument was wrong in its specific claim and **right to make**.
+What produced the result was not the diagnosis but the question the diagnosis
+suggested: *is this mailbox monitored, and should this go elsewhere?*
+
+That question was answerable. The inference behind it was not — it rested on
+five brands in one column and one in the other, which §603 would have called a
+sample too small to carry a conclusion. The difference between §611 and §603's
+discarded count is that **§611's guess was addressed to someone who could
+settle it**, so being wrong cost nothing and took forty minutes to discover.
+
+A hypothesis you can hand to the only party able to check it is worth stating
+even when weak. One you can only check yourself needs to clear a much higher
+bar before it goes in writing.
+
+### §612b — GetEmail.io: the first letter, after a `confirmed` that rested on nothing
+
+The §609 audit found **no correspondence in either direction** for
+`getemail_io`. The registry contact turns out to be `getemailsales@dnb.com` —
+a Dun & Bradstreet **sales** mailbox, which explains it.
+
+The letter leads by saying so and asking to be redirected, then builds itself
+around what the product actually is. A business email-finder **derives**
+addresses from name, employer and domain patterns, so there may be no stored
+row to delete and the next lookup would re-derive the same address. That
+possibility is stated and pre-accepted — *"I would record it as the honest
+shape of the system rather than as a refusal"* — which makes the suppression
+ask the only one that carries weight, and says so.
+
+The full identifier set was **withheld**. A first letter to a sales mailbox is
+not the place to scatter sixteen addresses and eleven phone numbers; they are
+offered the moment a proper route is named.
+
