@@ -38902,3 +38902,71 @@ complete answer and would be recorded as such. **Enformion has given exactly
 that**, and the only consistent thing to do is honour the undertaking: record
 it, stop asking, and move the effort to rows where something is still moving.
 
+## §589 — Measuring the exposure §588a claimed, and finding it overstated
+
+§588a drew a conclusion about this project rather than about a broker: that
+since a portal confirmation is only a receipt, *"a substantial share of the
+confirmations are portal acknowledgements with no statement of what was found
+or removed."*
+
+**That was asserted, not measured.** This pass measured it. The headline is
+that the claim was too pessimistic, and the real soft spot is somewhere else.
+
+### §589a — What the ledger actually holds
+
+Of **1,398 rows**, **116 are `confirmed`**.
+
+**112 rows across all statuses carry an explicit no-evidence flag** — notes
+reading *"NO INBOX EVIDENCE FOUND"*, *"adopted from the shared ledger"*, or
+*"no detail came across"*. Their distribution:
+
+| status | rows flagged |
+|---|---|
+| submitted | 54 |
+| not_found | 13 |
+| manual_required | 11 |
+| replied | 11 |
+| **confirmed** | **9** |
+| covered_by_sibling | 6 |
+| failed / acknowledged / captcha_blocked / suppressed | 8 |
+
+So the exposure inside the confirmations is **9 of 116**, not "a substantial
+share." Those nine — and they should be named, because naming them is the
+point — are `411_com`, `courtrec_com`, `dataline`, `dealfront`,
+`getemail_io`, `leadership_connect`, `peoplesmart`, `publicrecords_info`,
+`tie`.
+
+Each already carries its own warning in its note. **Nothing was hidden; it was
+just never counted.**
+
+### §589b — A measurement I had to throw away
+
+An earlier pass of this analysis reported that **102 of the 116 confirmations
+"quote the company directly."** That number was wrong and nearly went into the
+file as a finding.
+
+The pattern matched `["'“]` — straight double quote, **apostrophe**, and
+curly quote. Since these notes quote brokers using single quotes, and English
+uses apostrophes constantly, the test was effectively *"does this note contain
+the letter sequence of an ordinary possessive."* It matched almost everything.
+Re-running without the apostrophe returned **zero**, which is how the error
+surfaced.
+
+So **the quality of the remaining 107 confirmations is not measured here**, and
+this section does not claim it is. The instrument could not separate a quoted
+broker sentence from *"the company's reply"*, and a number I cannot defend is
+worth less than an admitted gap.
+
+### §589c — Why the correction matters more than the original claim
+
+§588a's instinct was right — portal receipts are weak evidence, and Enformion
+said so outright. But the leap from *"receipts are weak"* to *"a substantial
+share of our confirmations are receipts"* **skipped the step of looking.**
+
+That is the same error as §566, §567 and §574a, turned inward: **a true general
+observation applied to a specific case without checking whether the specific
+case fits.** The project has spent eighty sections insisting that brokers show
+their working. It owes the same of itself, and the honest finding here is
+smaller and more actionable than the alarming one: **nine named rows need
+corroboration, not a hundred.**
+
