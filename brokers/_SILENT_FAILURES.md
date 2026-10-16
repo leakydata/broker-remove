@@ -39356,3 +39356,59 @@ The general rule this belongs to: **a removal route that destroys more than the
 record is not equivalent to a deletion request**, and the fact that it is
 faster is not a reason to prefer it.
 
+## §596 — Three B2B companies, independently, asked for the same thing
+
+Reading the Xverum thread completes a pattern that has been forming for three
+weeks and is now unmistakable.
+
+**Three companies in the professional-data business, with no connection to one
+another, each refused to act on the consumer identifiers and each asked for the
+LinkedIn profile URL:**
+
+| company | what they said |
+|---|---|
+| **Dealfront / Leadfeeder** | B2B only; **`gmail.com` is deliberately blocked** as a private-mail domain; a name alone is too ambiguous. Then, given the URL: *found a record, deleted it, suppression-listed the profile* (§591). |
+| **Altrata** (BoardEx, RelSci, Wealth-X, WealthEngine) | searched **all twelve** addresses, nil, *"If you have a link to your profile..."* (§593a) |
+| **Xverum / Operia**, via an outsourced DPO | *"We do not collect or provide personal contact details, such as private email addresses or phone numbers. Please provide the URL of your LinkedIn profile."* |
+
+### §596a — What this settles
+
+The project has spent months sending twelve email addresses, eleven phone
+numbers and sixteen postal addresses to every company on the list. For
+**people-search and marketing-data firms that is correct** — they are keyed on
+exactly those things, and §591's dormant addresses are the strongest keys there
+are.
+
+For **B2B and professional-data firms it is close to useless**, and now
+demonstrably so: one of them blocks consumer email domains on principle, one
+searched twelve addresses and found nothing, and the third says plainly that it
+does not hold personal contact details at all. **Twelve nils in a row from one
+identifier class is not bad luck; it is the wrong key.**
+
+§579a's test — *does this identifier plausibly key a record here* — has been
+stated three times in this file. This is the first time the answer has been
+demonstrated across a whole sector rather than inferred at one company.
+
+### §596b — The practical consequence, and a caution
+
+**For a B2B or professional-data company, lead with the profile URL.** It is
+the key that matches, and §591 proved it is also the key that *holds* — a
+public profile is re-crawled continuously, so a suppression keyed to it
+survives the next ingest in a way a suppression keyed to a dormant Hotmail
+address never will.
+
+The caution is that this makes the LinkedIn URL **unusually powerful in both
+directions**, which is exactly why the authorisation to use it was recorded as
+a narrowing rather than a general relaxation. It finds records that nothing
+else finds. It would also, handed to the wrong sort of company, be the single
+most useful thing they could receive. The distinction that matters is not
+secrecy — the profile is public — but **whether the recipient is in the
+business of indexing public profiles.** For Dealfront, Altrata and Xverum the
+answer is yes, which is precisely why it works.
+
+Nothing further is owed to Xverum until they answer. Four questions remain
+open there, including the one the hireEZ export made concrete: their record
+places the subject in **a different Pennsylvania town** from the one he lives
+in, so a nil searched against the right address may be true of the address and
+false of the person.
+
