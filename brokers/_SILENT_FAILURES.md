@@ -39026,3 +39026,65 @@ forms, so they will not all resolve the same way — but each one re-run is a
 confirmation that becomes real, or a removal that never happened becoming
 visible.
 
+## §591 — The best answer in the file was sitting unread for eighteen days
+
+Working the second of §589a's nine, `dealfront`, turned up a message from
+**28 September** that nobody had opened. It is, by some distance, one of the
+best outcomes this project has had:
+
+> "Using the information on your LinkedIn profile, we were able to **identify
+> a record linked to you** in connection with [a named former employer]. We
+> have now **deleted this contact record** and **added your LinkedIn profile
+> to our suppression list, so that your profile will not be collected again in
+> the future.** Please note that, in order to keep this suppression in place,
+> **we retain only the minimum information needed to recognise and exclude
+> your profile.** It is not used for any other purpose."
+
+Signed by a named person on the privacy team.
+
+That single paragraph contains everything this file has spent eighty sections
+asking companies for, **given unprompted**: a positive match rather than an
+ambiguous nil; the record identified by its actual business context; the
+deletion stated plainly; suppression that is **explicitly forward-looking**;
+and the retention-to-honour-suppression basis (§1798.105(d)(1) in shape, GDPR
+in their jurisdiction) **explained before anyone challenged it.**
+
+### §591a — How it was reached, which is the transferable part
+
+Their first reply was a refusal on identifiability, and an unusually candid
+one: they are B2B, they **deliberately block `gmail.com`** as a private-mail
+domain, and a first name plus surname is shared by too many people to act on.
+
+The reply did not argue. It supplied **the two keys that fit a B2B index**:
+the closed institutional address as a *search* key, and the LinkedIn URL as a
+*suppression* key — with the reasoning stated, that a continuously re-indexed
+public profile is exactly the thing a durable suppression must be keyed on.
+
+**The LinkedIn URL is what found the record and is now what keeps it gone.**
+That is precisely what the authorisation to use it anticipated, and it is the
+clearest vindication of that decision the project has produced. §579a's rule
+holds again from the other direction: the question is never *how much am I
+disclosing*, but *does this identifier plausibly key a record here* — and at a
+B2B company a Gmail address does not, while a professional profile does.
+
+### §591b — Correcting §589a, and distrusting the count
+
+`dealfront` was one of the **nine** rows §589a named as *"confirmed with no
+inbox evidence."* **That was wrong.** The evidence is a three-message thread
+ending in a named human confirming a deletion.
+
+The flag came from **a stale note, not from the mailbox.** §589a measured what
+the notes said about the evidence rather than whether evidence existed — which
+is a subtler version of the same mistake §589b caught in the same pass, and it
+got through because the number was plausible and unflattering, and unflattering
+numbers get less scrutiny than flattering ones.
+
+So **the count of nine is now itself unreliable**, in the direction of
+pessimism, and the remaining seven should each be checked against the inbox
+before any conclusion is drawn from them. Two checked, two surprises: one row
+blocked by a profile-URL requirement (§590), one row already resolved
+excellently and unread.
+
+The real finding of this exercise is turning out not to be *"nine rows lack
+evidence"* but **"the mailbox has been running ahead of the ledger."**
+
