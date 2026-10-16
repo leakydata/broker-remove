@@ -39571,3 +39571,64 @@ reason the suppression ask is always separated from the search ask: of the
 three, suppression is the only one a company can satisfy without admitting
 anything about its supply chain.
 
+## §600 — The best nil yet, and the one index it did not cover
+
+Data Axle's reply of 15 September, unread for a month, answers all three
+questions from the follow-up and does it better than anyone has:
+
+> "Our search was conducted against **the full supplemented set** of
+> identifiers you provided in your 25 August letter, including the sixteen
+> prior addresses, prior phone numbers, name variants, and obsolete email
+> addresses. We searched across that complete set, **not your current details
+> alone.**"
+
+> "The search covered our consumer database **as well as our wireless
+> database**, which is where phone numbers and email addresses are
+> maintained."
+
+> "A suppression entry **has been recorded** against your identifiers... Data
+> Axle keeps a minimal amount of personal information in a suppression file
+> **so that this personal information will not be added to its database at a
+> later time.** The suppressed information will not be used, shared, or sold."
+
+Three things worth naming. The first turns an ordinary nil into a
+**demonstrated** one — the distinction §562 and §593 keep turning on, and the
+reason a nil is worth asking follow-up questions about at all. The second
+**names an index the project did not know existed**: a wireless database, which
+nobody would have thought to ask for. The third is forward-looking suppression,
+explained in exactly the terms §557b asks for, volunteered rather than
+extracted.
+
+### §600a — Honouring an undertaking while still using it
+
+The 6 September letter had said: *"any answer to either closes this from my
+side. I will not press further."* They answered both. **So the two questions
+are closed and stay closed.**
+
+But that same letter had also said, of the database question: *"Consumer only
+is a perfectly good answer; **I would just then like to make the same request
+against the business file.**"*
+
+Their answer names the consumer and wireless databases and **does not mention
+the business and professional file.** So the follow-on is not a reopening — it
+is the branch the undertaking explicitly anticipated, taken by reading their
+answer at face value rather than inferring anything from the omission.
+
+**That distinction is worth being careful about.** An undertaking not to press
+further is worth nothing if it can be dissolved by relabelling the next
+question. It survives here only because the branch was written down *before*
+the answer arrived, and the reply can be checked against it.
+
+### §600b — Why the business file is the one that matters
+
+§596 established that B2B indexes are keyed on professional identifiers that a
+consumer household file never touches. Data Axle maintains both. A nil across
+consumer and wireless is therefore **entirely consistent** with a record in the
+business file, and the request supplies the two keys that would find one: the
+profile URL and the closed institutional address.
+
+The suppression ask is framed deliberately as **extending an existing
+mechanism**: they have already demonstrated they keep suppression entries for
+exactly this purpose, so adding one identifier is not a new undertaking. That
+is a cheaper thing to grant than a novel one, and companies grant cheap things.
+
