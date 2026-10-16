@@ -39632,3 +39632,60 @@ mechanism**: they have already demonstrated they keep suppression entries for
 exactly this purpose, so adding one identifier is not a new undertaking. That
 is a cheaper thing to grant than a novel one, and companies grant cheap things.
 
+## §601 — Four answers instead of two, and a row that does not fit the sweep
+
+Bombora is the next row in the §597 list and the second to be handled
+differently from the rest — not excluded as DecisionLinks was (§598), but
+**asked a different question**, because the sweep's assumption does not hold
+here.
+
+Two addresses, fifty-six days, no acknowledgement from either.
+
+### §601a — Why the profile URL is not simply the answer here
+
+The sweep's premise is that a B2B company is keyed on professional identity.
+Bombora is **two things at once**:
+
+- **Company Surge** is company-level — an aggregate signal about an
+  *organisation*, which would not describe a person at all; and
+- a **B2B data co-operative**, whose contributions are typically keyed to a
+  hashed business email, a cookie or device identifier, or a professional
+  profile.
+
+Which of those holds determines whether the request is even addressed to the
+right object. Sending the profile URL on the assumption of (d) would be the
+same error §598 avoided at DecisionLinks, just in the opposite direction:
+**handing over an identifier before establishing that it is the key.**
+
+### §601b — The menu, extended to four
+
+§592b's technique — offer the company specific answers, including the ones
+unfavourable to you — has now worked three times at two options. This letter
+tries it at four, each with its consequence stated:
+
+| answer | what follows |
+|---|---|
+| company-level only, request does not apply | complete answer, recorded, no further contact |
+| keyed to **hashed business email** | hash the supplied addresses at their end — *nothing new is created* — and say whether anything matched |
+| keyed to **cookie or device identifiers** | say so; the refusal to supply one is recorded as **the limit of what is achievable**, not as their refusal |
+| keyed to **professional identity** | the profile URL is supplied |
+
+The third row is the one that costs something to write. It concedes in advance
+that a true answer may leave the request unsatisfiable — and says that will be
+recorded as the subject's choice rather than held against them. **A menu that
+only contains outcomes favourable to the asker is not a menu, it is a leading
+question**, and the three companies that have answered one so far all picked
+options that were inconvenient for me.
+
+### §601c — The ask that survives every branch
+
+Forward-looking suppression, including the profile URL — with a reason
+specific to the business model rather than the usual boilerplate:
+
+> "In a co-operative model this matters more than usual, because the data
+> arrives from members rather than from you, and a deletion that does not block
+> the next contribution is **undone by design.**"
+
+That is §557b aimed at a particular architecture. A co-op member contributing
+next month is not a hypothetical refresh risk; it is how the product works.
+
