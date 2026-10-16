@@ -40507,3 +40507,49 @@ Also recorded: **no Submit control exists until the reCAPTCHA is ticked.** An
 automation hunting for a submit button on this page will conclude the form is
 broken.
 
+## §617 — The first form that asks for the key instead of refusing it
+
+People Data Labs re-staged: name, email, state and **a LinkedIn username**
+entered, only a reCAPTCHA checkbox left.
+
+§596 was built out of companies that could not be reached with consumer
+identifiers and had to be *persuaded* to accept a professional profile —
+Dealfront refusing gmail.com by policy, SeekOut deleting the same day the URL
+arrived, twelve email addresses finding nothing where one profile link found a
+record. Every one of those took a letter arguing the point.
+
+PDL's form **asks for it**. "Add Information" offers *Phone number*, *Social
+media*, *Address* — and the social row is a network dropdown plus a username
+box. For a B2B aggregator keyed on professional identity, that is the right
+key offered in a field built for it: **the best-matched opt-out this project
+has filed.**
+
+### §617a — Declining two fields that were offered
+
+Address and phone were **not** added, though both were available.
+
+For an index keyed on professional profile, a home address adds little
+matching power while handing a B2B data company a household identifier it may
+not already hold. §578b's trap is exactly this: a field being offered is not a
+reason to fill it. The username is the discriminating key; the address would
+be disclosure for its own sake.
+
+The condition for revisiting is written into the fill sheet: **if PDL replies
+that it cannot find a record, the address becomes worth the trade — not
+before.** That keeps the decision reversible on evidence instead of on
+appetite.
+
+### §617b — Two smaller findings
+
+**The state list is itself revealing.** It offers New York, California,
+Oregon, Montana, *"Other US State"*, then the EU member states. A
+Pennsylvanian is a residual category on a form that names four US states
+individually — a map of where the compliance pressure is, not of where people
+live.
+
+**And the re-render trap caught the social field.** Choosing the network
+wiped the username already typed into the box beside it. Same shape as §615:
+a later interaction silently un-doing an earlier one, caught only by looking
+again rather than trusting the keystroke. The fill sheet now says to set the
+dropdown **first**.
+
