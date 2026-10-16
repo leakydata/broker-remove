@@ -40553,3 +40553,53 @@ a later interaction silently un-doing an earlier one, caught only by looking
 again rather than trusting the keystroke. The fill sheet now says to set the
 dropdown **first**.
 
+## §618 — A CAPTCHA that does not exist until you press Submit
+
+Lob's DataGrail portal was filled, reviewed line by line, and **submitted**.
+It came back:
+
+> error
+> **Complete the Captcha**
+
+hCaptcha iframes loaded *at that moment*. Before pressing Submit there was no
+CAPTCHA **in the rendered text, in the DOM, or in any iframe** — three checks,
+all clean.
+
+§613a recorded that CAPTCHAs load late and that reading a page once is not
+enough. This is the stronger case: **the widget does not exist until
+submission is attempted**, so no amount of inspection beforehand can find it.
+
+The only reliable test of whether a form is automatable is to **fill it and
+press the button.** That is now the method: stage completely, attempt, and
+treat the rejection as the detector.
+
+### §618a — The same question, the opposite answer, an hour apart
+
+§617 withheld the home address from People Data Labs on purpose. This form got
+**all sixteen prior addresses**, deliberately.
+
+Lob's own form explains why:
+
+> "Lob's records are organized using postal information. **Without your mailing
+> address, Lob is unable to locate the correct records.**"
+
+Lob is a direct-mail API. Its index *is* postal. The address history is not
+over-sharing there — it is the entire set of search keys, and the current
+address alone would miss almost everything. At PDL, keyed on professional
+identity, the same data would have been pure disclosure with no matching power.
+
+**The key you hand over depends on the index you are searching**, and these
+two decisions an hour apart are the clearest demonstration of it in the
+corpus. §578b's trap and §596's insight are the same rule seen from opposite
+ends.
+
+### §618b — Choosing "Other" when the list has no true option
+
+The relationship dropdown offers Business Contact, Customer, Employee, Former
+Employee, Job Applicant, Other. Lob is used *by* companies to send mail, so
+the subject is a **recipient** — none of the first five.
+
+"Other" is the only true answer, and §615b's rule applies: on a form that will
+be read as a statement about you, the honest option beats the one that looks
+most official.
+
