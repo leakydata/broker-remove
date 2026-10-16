@@ -38708,3 +38708,51 @@ The fix is to filter on `offsetParent` and take the visible element, then
 element is not the first one with the right name* — and the only way to know
 which you got is to look.
 
+## §586 — The appeal is the door with someone behind it
+
+The TruePeopleSearch appeal went in and was acknowledged within the hour —
+Zendesk ticket **4GPK50-4VJY4**. The acknowledgement echoes the **entire
+3,145-character appeal back verbatim**, with every identity field, so nothing
+was truncated by the form (§585c's hidden-branch trap had been caught in time).
+
+Then the part that matters:
+
+| | original request | appeal |
+|---|---|---|
+| decided in | **five seconds**, by machine (§584) | *"within 45 days"*, by a team |
+| sent from | `noreply@` | a **Zendesk ticket** |
+| can you answer it? | no | **"To add additional comments, reply to this email."** |
+
+**Same company. Same facts. Same person.** The only variable is which form was
+used, and it determines whether a human ever sees the request.
+
+### §586a — What this is worth generalising to
+
+§580 recorded three companies — PMG, Blackbaud, Babel Street — replying
+substantively into portals behind an image CAPTCHA, from no-reply addresses,
+with no way to answer. The asymmetry there was total: **they can reach the
+subject in one click; he cannot reach them at all.**
+
+Here, the appeal route produced the opposite: **a threaded ticket with a
+repliable address and a stated human timeline.** It is the first two-way
+channel this project has obtained from a people-search company.
+
+So the rule worth carrying forward: **where a broker refuses by automation and
+also publishes an appeal, the appeal is the route to a person** — and it may be
+worth reaching for earlier than instinct suggests. Not as escalation, not as
+protest, but because it is **the only door with someone behind it.**
+
+### §586b — Which does not retract §581c
+
+§581c held Deluxe's appeal in reserve, on the view that five unanswered
+questions after a cooperative reply is a conversation rather than a dispute.
+That judgement still looks right, and the reason is now sharper.
+
+**Deluxe answered with a human in the first place.** There was no automation to
+escape. TruePeopleSearch answered with a five-second machine, and the appeal
+was the only mechanism that changed who was reading.
+
+The distinction is not how unsatisfactory the answer was, nor how annoyed one
+is. It is **whether a person has engaged at all.** Appeal to reach a human;
+reply to continue with one.
+
