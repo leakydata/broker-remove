@@ -38557,3 +38557,85 @@ Two further routes at the same company remain unworked — a separate *do not
 sell* page and an *access, delete, or correct* dropdown on the privacy page.
 Three doors, one company: the El Toro pattern.
 
+## §584 — Refused for living in Pennsylvania, five seconds after asking
+
+TruePeopleSearch, 2026-10-16, ticket 16279556. Two emails:
+
+| time | subject |
+|---|---|
+| 01:53:10 | "Privacy Request **In Progress**" |
+| 01:53:15 | "Privacy Request **Processed**" |
+
+**Five seconds.** And the second one says:
+
+> "based on the information provided, it appears that the person identified in
+> your request **lives in a state that does not have a comprehensive consumer
+> privacy law that applies to our data.** Because of this, we are not able to
+> process the request at this time."
+
+§535's latency instrument, §562's four seconds — this is an **automated gate
+keyed on the address**, not a review. Nobody read it.
+
+### §584a — The sharpest entry in the residency taxonomy
+
+§545 built a taxonomy from five companies and five different behaviours behind
+near-identical "these states" wording, and its rule was **the scope statement
+is not the behaviour.** Every entry so far has been inferred — a policy page
+listing states, a form that did or did not gate.
+
+**This is the behaviour itself, in writing, naming the reason.** Not a scope
+statement. A machine declining a named person because of where he lives, and
+saying so. It moves residency refusal from *structural* (§535) to
+**demonstrated**, and it is the clearest example the project has.
+
+### §584b — They did it in August
+
+**TruePeopleSearch removed a record for this same person on 18 August.**
+
+Same company, same subject, same state, **opposite answer eight weeks apart.**
+Either the gate is new, or the August route did not pass through it. Either
+way, it is a **policy change visible from outside**, observable only because
+the project kept the earlier outcome and the identifiers that produced it.
+
+That is the whole argument for keeping a record of what was already done. A
+single refusal reads as a policy; a refusal next to a prior success reads as a
+change, and a change can be questioned.
+
+### §584c — What an honest appeal can and cannot say
+
+They offer an appeal and require it to *"identify the specific law you believe
+applies."*
+
+**It cannot honestly claim a Pennsylvania statute.** There is none, and the
+project has said so to every company it has written to. Inventing one to clear
+a filter would make every other letter in this file worth less.
+
+Two true things remain, and they are stronger:
+
+1. **They performed this removal in August**, on identical facts. Whatever
+   their rule is, it did not prevent them then.
+2. Per §583's shared platform, the sibling site's own notice says opt-outs are
+   applied to public-records data **"as a courtesy"** rather than as a
+   statutory obligation. If the courtesy was never compelled by law, **the
+   absence of a compelling law cannot be the reason to withdraw it.**
+
+That second point is the one worth making. A company may decline to go beyond
+the law. It cannot coherently say *"we do this as a favour"* and *"we cannot do
+this because no law requires it"* in the same breath.
+
+The appeal is queued as a decision rather than sent, because it is the
+subject's call whether to spend the exchange.
+
+### §584d — A smaller thing, recorded because it is unflattering
+
+The submission went in **without State or ZIP**. The city box is an HTML
+`search` input and the form submitted while it was being filled. Both fields
+are marked required.
+
+So the form **accepted an incomplete submission and then refused it on
+residency** — meaning the gate ran on an address it had only partially
+received. That does not change the outcome (the street and city were enough to
+place him), but it is worth knowing that the required-field markers are not
+enforced, and worth remembering that a `search`-type input inside a form is a
+submit trigger.
+
