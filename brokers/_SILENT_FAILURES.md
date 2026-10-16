@@ -39466,3 +39466,61 @@ and §578b's trap applies instead. The test before each one is §579a's: *does
 this identifier plausibly key a record here?* Where the answer is yes, the nil
 should be re-tested; where it is no, it should be left alone.
 
+## §598 — The first row excluded from the sweep, and why that matters
+
+§597 queued twenty-three B2B nils for re-testing with the profile URL, with the
+caveat that **not all of them deserve it**. DecisionLinks is the first to be
+examined, and it is the first to be **deliberately excluded** — which is worth
+recording, because a sweep that never excludes anything is not applying a test.
+
+Their reply, unread since 14 September, settles it:
+
+> "DecisionLinks provides **marketing-data, audience, and identity-resolution
+> services**, not employment or tenant background screening."
+
+§579a's test asks *does this identifier plausibly key a record here?* For a
+marketing and identity-resolution company, a professional profile URL is not
+the key — and they already hold an unconditional suppression. Sending it would
+hand a new identifier to a company that has nothing, for no gain: **§578b's
+trap exactly.** Excluded.
+
+### §598a — And it is one of the best answers in the file
+
+The August reply had been two sentences: *"We have no data on this individual
+and we have added them to our suppression list."* Good, but ambiguous — §592b's
+menu technique was used to ask whether that covered **only their own database**
+or **also searches and reports run for clients**, with the note that one line
+would close it.
+
+They answered the harder option, and showed their working:
+
+> "We reviewed **both our own data holdings and the records we retain for work
+> performed on behalf of clients**, including retained search and report
+> records, transaction logs, and archives... we found no matching consumer
+> record or retained record of a client-requested search or report concerning
+> you. That review also identified **no consumer-reporting file** concerning
+> you in our retained credit-related records."
+
+Three things lift this above a nil:
+
+1. **They name the exceptions to "no data" unprompted** — the suppression entry
+   itself, and the correspondence documenting the request. §562's whole
+   complaint was that companies do not distinguish what they hold from what
+   they did; this one does it without being asked.
+2. **The suppression is standing and unconditional:** *"Your suppression
+   remains in place, and you do not need to create an account or provide an
+   identity document or Social Security number to maintain it."*
+3. **They state the limit of their own answer:** it confirms what is in the
+   records they retain, is *"not a certification that information about you
+   never existed historically"*, and does not reach records held independently
+   by Equifax or others.
+
+They also volunteer a material fact nobody asked for: they support
+credit-related programs **as an authorised agent of Equifax.** That is a
+disclosure about who stands behind the data, and it is the kind of thing §554's
+provenance work usually has to extract.
+
+**The pattern across §592b, §593 and this: a question that offers the company
+two specific answers gets a specific answer.** An open question gets
+boilerplate. It has now worked three times.
+
