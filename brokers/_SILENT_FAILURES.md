@@ -40456,3 +40456,54 @@ know whether OwnerIQ data reached Inmar through a third party. **"Not sure" is
 the true answer, so it is the one given** — on a form where a guess would be
 a false statement attested to.
 
+## §616 — The field where a true answer creates the record
+
+NextRoll re-staged: email entered, **only a reCAPTCHA checkbox left**. Two
+things worth keeping.
+
+### §616a — A truthful value in the wrong category
+
+The form has two inputs, both optional: an email address, and **"Type your
+business phone number."**
+
+The obvious automation move is to fill every field it can. Here that would be
+a mistake, and an unusual one — the value would be *true*. The subject's
+number is a personal mobile; he has no business phone. And this form feeds
+NextRoll's **Contact Discovery**, a B2B contact product.
+
+So typing a real personal number into a field labelled *business phone*, on an
+opt-out form, is a way for a removal request to **create the record it is
+trying to remove** — filed, reasonably, as a business contact number because
+that is the field it arrived in.
+
+The Gimbal withdrawal established that any value in a device-identifier
+field is read as a device identifier whatever it is. **This is the same failure
+with the sharp edge hidden**: there, the value was obviously wrong; here it is
+correct, and only the category is wrong. The fill sheet therefore says *leave
+it blank* and explains why, because the next person to work the queue will
+otherwise fill it in good faith.
+
+### §616b — Two opt-outs, one page, and the one that cannot be done from here
+
+The page carries **two separate opt-outs** and staging one does not touch the
+other:
+
+1. **Direct Marketing** — this form, keyed to an email address. Staged.
+2. **Targeted Advertising** — a separate *"click here"* link to
+   `app.adroll.com/optout/`.
+
+The second was **not opened**, and is recorded as a note rather than a
+finding. Adtech opt-outs of that shape are usually cookie-based, which would
+mean they bind only the browser that sets them — and clicking one in a
+throwaway automation tab would achieve exactly nothing while appearing to
+succeed.
+
+§614 was a note that claimed safety without looking. **This is the discipline
+that follows from it**: say what was observed, say what is suspected, and mark
+which is which. The sheet tells the reader to check what the link does before
+relying on it, rather than asserting either way.
+
+Also recorded: **no Submit control exists until the reCAPTCHA is ticked.** An
+automation hunting for a submit button on this page will conclude the form is
+broken.
+
