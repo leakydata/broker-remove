@@ -40192,3 +40192,51 @@ everything asked. **An undertaking that only binds when keeping it is free is
 not an undertaking**, and this is the second time in two days that honouring
 one has produced a better exchange than pressing would have.
 
+## §611 — Arguing from the siblings, not from the delay
+
+PeopleSmart has been silent for fifty-eight days. The chase does not say so
+until the third paragraph, because there is a better argument available — and
+§609a is what made it visible.
+
+Six brands in one group were written to in the same period:
+
+| brand | route used | replied |
+|---|---|---|
+| BeenVerified | support desk | yes, repeatedly |
+| NeighborWho | support desk | yes, repeatedly |
+| Ownerly | support desk | yes, repeatedly |
+| NumberGuru | support desk | yes |
+| ReversePhone | support desk | yes |
+| **PeopleSmart** | **`privacy@`** | **never** |
+
+Five of six answered, several within hours, two of them returning again in
+late September and early October with a considered position after being
+pressed. **The one that never answered is the only one written to at a
+`privacy@` address rather than a support desk.**
+
+That is not proof — one data point in each column — but it is a far better
+hypothesis than "they are ignoring me," and it is testable by asking. So the
+letter leads with the practical question: *is this mailbox monitored, and
+should the request go to the shared desk instead?*
+
+§605b's framing comes along with it: a published privacy address that reaches
+nobody produces silence that looks, from inside the company, exactly like
+nobody ever asking.
+
+### §611a — Using what the siblings volunteered
+
+They also handed over a scope distinction worth reusing. Several separated a
+**person search listing** from the **underlying data**, and one said it held
+no person report *while saying nothing about any other system* — §564's gap,
+stated by the company itself.
+
+So the chase asks about both, and pre-commits to the narrow answer:
+
+> "If PeopleSmart holds no search listing but the group holds data about me
+> elsewhere, saying so is useful and I will take it up with the right brand
+> rather than press you."
+
+**A sibling's reply is evidence about the whole group's processes**, not just
+its own row. Five answered threads turned out to be worth more to the sixth
+than another month of waiting on it would have been.
+
