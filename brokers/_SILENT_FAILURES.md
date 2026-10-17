@@ -41682,3 +41682,65 @@ rejected at this domain, that is a Microsoft tenant **refusing unknown
 recipients** — a per-mailbox rejection, not a dead domain — which leaves
 `info@agrgroupinc.com` as the live route and the one to chase.
 
+## §638 — Bombora answers the menu, and draws a boundary round §596
+
+§601b sent Bombora a four-option menu — company-level only, hashed business
+email, cookie/device, or professional identity — with each consequence
+stated. **All four were answered, in order.** It is the most complete account
+of an intent-data company's keying in this corpus.
+
+> **1. Company Surge** "operates at the company domain level, capturing
+> aggregate research intent signals from **business IP addresses and
+> organizations rather than individual profiles.**"
+
+> **2. Search identifiers** are "Cookie IDs, Mobile Advertising IDs (MAIDs),
+> or Hashed Email Addresses… searches run against all matching records,
+> **including hashed email digests (e.g., MD5, SHA-1, SHA-256) for any
+> provided email address.** We do not store plaintext records."
+
+> **3. Co-operative suppression:** "the applicable identifiers are added to
+> Bombora's master suppression list. Please note that **each co-op member
+> maintains and operates their own deletion and opt-out mechanisms.**"
+
+> **4.** They accept email addresses, MAIDs and Cookie IDs for the
+> suppression list.
+
+Option (b) was granted precisely as offered — *they* compute the hashes, so
+no new identifier is created. And §601c's question about co-operatives got a
+direct answer: **the suppression is a leaf, not a branch.** It stops with
+Bombora; contributing members each run their own.
+
+### §638a — The profile URL is refused, and the refusal is informative
+
+> "We **do not accept professional profile URLs**, as we do not scrape,
+> collect, or associate LinkedIn data within our records."
+
+§596 was built on three professional-data companies independently asking for
+exactly that URL, and §597 turned it into a sweep. **This is its boundary.**
+Dealfront, Altrata and Xverum build *contact* files keyed on professional
+identity; Bombora builds *intent* signals keyed on hashed email, cookies and
+device IDs. The same sector label covers two unrelated architectures, and the
+key that unlocked one is meaningless to the other.
+
+They also disclaimed the consumer set entirely: *"we do not store personal
+physical addresses, telephone numbers, full names, or birthdates, nor do we
+maintain profiles that can identify natural persons."*
+
+So the §597 triage (§607) was right to exclude adtech rows — and would have
+been wrong to include Bombora on the strength of "B2B" alone. **§601a's
+refusal to send the URL on assumption was the correct call**, confirmed by
+the company itself seven weeks later.
+
+### §638b — Two sessions decoded the same address
+
+A second Claude session is working this mailbox. Its commit records that it
+decoded `contact@whoseno.com` from the Cloudflare obfuscation, sent to it,
+and watched it hard-bounce — **the same work this session did in §627b and
+§629a, independently, within hours.**
+
+No harm beyond wasted effort and one duplicate letter to a dead mailbox. But
+§602a criticised this project for sending four letters to one broker across
+three threads, and the cause there was the same: **two efforts with no shared
+view of what had just been done.** The ledger is the shared view; it was
+updated by both, but after the fact rather than before.
+
