@@ -40842,3 +40842,57 @@ acquired along with the business — and **no single lookup distinguishes
 them.** DNS says it exists. HTTP says it answers. MX says mail is accepted.
 Only the content of the page says whose it is.
 
+## §623 — Applying the title test to the rows already acted on
+
+§622 said eleven acted-on derived-domain rows needed checking. The real count
+is **fourteen** — six `submitted`, four `not_found`, two `replied`, one
+`acknowledged`, one `covered_by_sibling`. All fourteen were title-tested.
+
+**Eleven match cleanly**, and it is worth saying so rather than only
+publishing the failures: `criminalregistry.org`, `foller.me` (*"Analytics for
+Twitter"*), `noon.ai` (*"AI Recruiting Agent"*), `ohioresidentdirectory.com`,
+`safeopt.com`, `searchbug.com` (*"Professional True People Search"*),
+`socialcatfish.com` (*"People Search: Find Anyone Online"*), `unity.com`,
+`ziprecruiter.com`, plus `numlooker.com` and `freepeoplesearch.com` behind
+bot-check interstitials, which is itself a sign of a live commercial site.
+
+So derivation is not broadly broken. §622's 20–30% came from a ten-row sample
+that happened to contain two failures; across the rows that were actually
+*acted on*, the hit rate is **11 of 14**. Both numbers are small samples and
+neither should be quoted as a rate.
+
+### §623a — The one that matters is a nil
+
+`allpeople_biz` is recorded `not_found`. Its derived domain says:
+
+> "**AllPeople India** is the largest free directory of business contacts
+> **for India**. Find leads for companies including name, position, email,
+> address, phone number and more."
+
+A nil from an India-focused B2B directory about a Pennsylvania consumer is
+**exactly what you would expect whether or not it is the right company.**
+That is §622b's hazard in its quietest form — not a disclosure, but a
+*recorded negative that contains no information*.
+
+Two readings remain open and the row now says so: either the listing really
+is this Indian directory, in which case the nil is true but uninteresting and
+the row belongs closed as out-of-scope rather than carried as a verified
+negative — or the slug was derived onto the wrong domain and **the actual
+broker has never been contacted at all.**
+
+### §623b — Where the test runs out
+
+Two rows the title test cannot settle:
+
+- **`fifty.io`** — title and meta description are both the single word
+  *"Fifty"*. No product, no company, nothing. Not evidence either way.
+- **`thepublicindex.com`** — **no title element at all**, no description. It
+  answers; it says nothing about who runs it. The row is `submitted`, so a
+  request has already gone to a site that cannot be identified from its own
+  homepage.
+
+The title test resolved `cortera.io` and `torrelabs.com` in seconds. It is
+cheap and it works — **until a site simply declines to say what it is**, and
+then the only routes left are the directory listing that produced the slug
+and the state registry filing.
+
