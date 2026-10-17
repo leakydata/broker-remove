@@ -41525,3 +41525,59 @@ matter actually touches PA, MD or AL. All six also have no MX (§629c), so
 there is no email route to settle the question with — which is itself a
 reason to stop spending on them.
 
+## §635 — Nine mentions of "opt-out", one actual opt-out
+
+§634a found nine of 37 pending broker pages mentioning an opt-out, a removal
+or a do-not-sell link. Each was read. **One is a data-removal route.**
+
+| site | what "opt-out" turned out to mean |
+|---|---|
+| six state directories | the §634b family — wrong states, no MX |
+| `yellowpagesdirectory.com` | **"Stop The Delivery Of Your Printed Yellow Pages Book"** — a paper-delivery opt-out |
+| `backgroundchecks.org` | **marketing copy**: *"is there a way to delete my background check information? Not really… We're working on an online tool that will constantly monitor…"* |
+| `alumnius.net` | a genuine profile-removal form |
+
+**Keyword matching for "opt-out" ran at about 11% precision.** The word is
+present on all nine; it means a privacy remedy on one. Two of the misses are
+instructive rather than merely wrong:
+
+- Yellow Pages' opt-out **works, and does something real** — it stops a
+  physical book arriving. It is simply not about data. §631b's portal
+  deleted the wrong *data*; this deletes the wrong *thing entirely*.
+- `backgroundchecks.org` says **"not really"** in answer to whether removal
+  is possible, then pitches a monitoring subscription. The word "opt out"
+  appears in a sentence explaining that opting out does not work.
+
+### §635a — The partner list, which cost one sentence
+
+Alumnius's own footer, under *"Articles about our partners"*, names:
+
+> **CarsOwners.net** — VIN Search · **uFind.name** — Free people search
+> engine · US Business Directory
+
+`ufind.name` is already a row in this registry. **A site naming its own
+partners is better evidence of a relationship than any infrastructure
+signal** — §630a's mail-host inference had to be retracted, §633's template
+test needed 666 comparisons to find a single pair, and this was one line of
+visible text.
+
+Worth generalising: **look for a partners or network list before reaching for
+DNS.** It is self-disclosed, it is specific, and it costs one read.
+
+It does not establish common ownership — "partner" can be an affiliate deal —
+so a suppression won at one should be *tested* at the other, not assumed.
+
+### §635b — The one real opt-out is doubly gated
+
+`alumnius.net/opt-out` says: *"Find the profile you want to delete, click on
+the photo and then copy the URL. Paste the URL here."*
+
+That requires **searching their site for the subject** — the standing
+`LISTING_URL_COHORT` decision he has not made, because a self-search on a
+people-search site generates engagement signals and is a deliberate trade —
+and then clearing a **reCAPTCHA**.
+
+The form also takes **only a URL**: no name, no email, no identifiers. So
+there is no way to ask for a forward-looking suppression, and no way to cover
+name variants. It removes one page.
+
