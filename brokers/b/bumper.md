@@ -8,8 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-19)
+- Current: `not_found` (updated 2026-10-16, visitor data only — vehicle-linkage question left open)
 - Note: Answered with a DPPA framing: 'we do not provide or display any personal information about vehicle owners... Because our reports do not contain any personal information, there is nothing for us to delete or remove.' Accepted the law without argument and pressed the one gap it leaves, which is the DISPLAY-VERSUS-HOLDING conflation: their sentences are consistent with either holding no owner linkage at all, or holding one internally and suppressing it from display to comply. Only the first means there is nothing to delete - the DPPA governs DISCLOSURE rather than retention, so a retained name-to-VIN association would still be personal information they hold. Asked which of the two it is, offering to close the matter with thanks if it is the first. Also noted that a search on name and address is the search most likely to come back empty regardless, since vehicle records are keyed to VIN or plate, and asked separately whether they hold anything about the subject as a SITE VISITOR - searches run, account, advertising identifiers - which the DPPA answer would not cover at all.
+- **2026-10-16, two months later:** replied via a different agent (Zak), who sidestepped the display-vs-holding question by asking for a specific VIN/plate to search — reasonable if there is one, but it does not answer whether a name-to-VIN *index* exists at all. **Did confirm the visitor/customer side cleanly: no Bumper account found for the supplied identifiers, and the email/phone were removed from marketing.** Closed with thanks on the visitor side; the owner-linkage architecture question was left formally unanswered since there was no VIN to anchor it to — note this as a gap for anyone with an actual VIN to test against.
 
 ## Steps
 

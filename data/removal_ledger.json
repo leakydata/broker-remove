@@ -316,8 +316,8 @@
     "via": null
   },
   "all_global_resources": {
-    "status": "unreachable",
-    "changed": "2026-08-28",
+    "status": "manual_required",
+    "changed": "2026-10-17",
     "via": "email"
   },
   "all_web_leads": {
@@ -816,8 +816,8 @@
     "via": "email"
   },
   "bombora": {
-    "status": "submitted",
-    "changed": "2026-08-21",
+    "status": "not_found",
+    "changed": "2026-10-16",
     "via": "reply"
   },
   "bookyourdata": {
@@ -871,8 +871,8 @@
     "via": null
   },
   "bumper": {
-    "status": "submitted",
-    "changed": "2026-08-17",
+    "status": "replied",
+    "changed": "2026-10-16",
     "via": "reply"
   },
   "bureau_van_dijk_electronic_publishing": {
@@ -3891,8 +3891,8 @@
     "via": "reply"
   },
   "moneybot5000": {
-    "status": "replied",
-    "changed": "2026-09-03",
+    "status": "not_found",
+    "changed": "2026-10-16",
     "via": "reply"
   },
   "monitorbase": {
@@ -6971,5 +6971,10 @@
     "status": "confirmed",
     "changed": "2026-09-21",
     "via": "reply"
+  },
+  "whoseno": {
+    "status": "manual_required",
+    "changed": "2026-10-17",
+    "via": "web_form"
   }
 }
