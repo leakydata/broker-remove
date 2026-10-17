@@ -41581,3 +41581,54 @@ The form also takes **only a URL**: no name, no email, no identifiers. So
 there is no way to ask for a forward-looking suppression, and no way to cover
 name variants. It removes one page.
 
+## §636 — Reading footers: four disclosures from thirty-seven pages
+
+§635a proposed looking for a partner or ownership statement before reaching
+for DNS. Run across all 37 fetched pages, it produced **four** disclosures
+that name another company or domain — and two of them change a row.
+
+| page | what it says about itself |
+|---|---|
+| `alumnius.net` | *"our partners CarsOwners.net — uFind.name — US Business Directory"* |
+| `amone.com` | *"owned and operated by **QuinStreet PL, Inc.**"* |
+| `backgroundcheckme.org` | *"Sponsored Search — TruthFinder.com"*, *"**POWERED BY TRUTHFINDER**"* |
+| `commerciallist.com` | *"Powered by Lenczner Slaght. No affiliation to the Court."* |
+
+Four hits in 37 reads. Compare: §633's template comparison needed 666
+pairwise comparisons to find one pair; §630's mail-host clustering produced
+one real link, one parking signal and one false lead, and its headline had to
+be retracted. **Reading what the company says about itself is the cheapest
+and most reliable of the three.**
+
+### §636a — An affiliate storefront, not a broker
+
+`backgroundcheckme.org` is not an independent people-search company. It
+carries TruthFinder's sponsored search, renders TruthFinder's report format
+(*"7 Past Addresses Found"*), and publishes comparison articles like
+*"TruthFinder vs Intelius: Which Is Better in 2026?"* That is a
+**review-and-referral site monetising by sending searches to TruthFinder.**
+
+Which matters, because `truthfinder` is already **confirmed** (14 September),
+as are its PeopleConnect siblings. If the records surfaced here are
+TruthFinder's, the existing suppression reaches them.
+
+Set to `covered_by_sibling` — **and that is a claim, not a fact** (§625b). An
+affiliate can keep its own search logs, its own cache, and its own lead file,
+none of which a TruthFinder suppression would touch. The narrow question,
+when a route is found: *does this site store anything about the people
+searched through it, or does every result come live from TruthFinder?*
+
+The row also had **no status entry at all** before today, despite sitting in
+the registry.
+
+### §636b — A parent worth naming
+
+`amone.com` is *owned and operated by QuinStreet PL, Inc.* — a large
+publicly traded performance-marketing company. A demand should carry the
+parent's name, and a parent of that size likely runs one privacy function
+across many consumer-finance brands, so a single properly addressed request
+may reach further than this row.
+
+**The pattern across all four:** the useful fact was in the footer, in plain
+text, on the first page fetched. No lookup, no inference, no retraction.
+
