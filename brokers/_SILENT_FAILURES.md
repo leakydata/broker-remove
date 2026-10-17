@@ -41903,3 +41903,58 @@ page also carries a dissuasion notice — *"Removing yourself can make it
 difficult for friends and loved ones to find you"* — and the claim that the
 site does not sell or share information with third parties.
 
+## §642 — The classifier's false positive, and a company that waives the residency question
+
+Two follow-ups to the CAPTCHA census, one negative and one worth keeping.
+
+### §642a — "Wrong URL" was a one-off, not a pattern
+
+§641a found AddressSearch blocked by a queued URL pointing at a *contact*
+page when a CAPTCHA-free *removal* page sat one link away. The obvious next
+move was to look for more of the same: five other queued URLs look like
+contact or policy pages rather than removal forms —
+`unearthcampaigns.com/privacy-policy/`, `datasys.com/privacy/…`,
+`domainiq.com/contact`, `callersmart.com/data`,
+`mchdata.com/about/ccpaemail`.
+
+**None of them hides a removal page.** The only removal links found anywhere
+were on Unearth Campaigns, and they point to the industry portals
+`optout.aboutads.info` and `optout.networkadvertising.org` — browser-scoped
+cookie opt-outs, not data removal, and useless from an automation tab.
+
+So §641a was a single row's mistake, not a systemic one. Recorded so nobody
+runs the sweep again.
+
+### §642b — `grecaptcha.execute` does not mean v3
+
+`mch` was marked in the census as carrying **both** a v2-checkbox marker and
+a v3 token marker, and was opened on the strength of the v3 one, since §639a
+established v3 is drivable.
+
+The rendered page shows a plain **"I'm not a robot" checkbox.** The source
+contains `grecaptcha.execute` *and* a v2 widget; a classifier keying on the
+v3 string alone produces a false positive.
+
+§613a and §618 established that **detecting** a CAPTCHA requires looking at
+the rendered page. This extends the same rule to **identifying which one**:
+source markers are a hint, the screen is the fact.
+
+### §642c — A broker that removes the Pennsylvania obstacle unprompted
+
+MCH Strategic Data's own form says:
+
+> "This request process is available to all individuals, **regardless of
+> state of residence**, and is intended to support applicable consumer
+> privacy rights, including those provided by the California Consumer
+> Privacy Act."
+
+Nearly every letter in this corpus has had to make that argument — Pennsylvania
+has no comprehensive statute, so the standing approach is to assert no right
+and ask the company to apply its process anyway (§601, §607a, §628). **Here
+the company volunteers it before being asked.**
+
+The scope is both rights in one submission: *"remove your personal
+information from its marketing databases and discontinue the sale or sharing
+of that information."* Email entered, checkbox left, verification message to
+follow; fill sheet written.
+
