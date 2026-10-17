@@ -40896,3 +40896,65 @@ cheap and it works — **until a site simply declines to say what it is**, and
 then the only routes left are the directory listing that produced the slug
 and the state registry filing.
 
+## §624 — A hundred titles, two real findings, and a test that cried wolf
+
+All **100 pending derived-domain rows** were title-tested in bulk — fetched
+in parallel, titles compared against the registry's company name. The point
+was preventive: find the `cortera.io` cases **before** a letter carrying
+sixteen addresses goes to a stranger.
+
+Raw output: **61 matched**, **16 returned no title**, **23 flagged**.
+
+### §624a — Most of the 23 were my test failing, not the data
+
+Read individually, the flags fall apart:
+
+- **"Just a moment…", "Access Denied", "Security Challenge", "Too many
+  requests", "Vercel Security Checkpoint"** — nine rows. These are
+  bot-challenge pages. They say nothing about who owns the domain, and a
+  commercial site refusing an automated client is evidence it is *alive*.
+- **Stopword over-filtering** — `411reverselookup.ca` → *"411 Reverse Phone
+  Lookup Canada"*; `reverseaustralia.com` → *"Reverse Phone Lookup — Reverse
+  Australia"*; `chamberofcommerce.com` → *"Chamber of Commerce"*. All obvious
+  matches. My token filter stripped *search*, *people*, *find*, *phone* as
+  noise words, which deleted exactly the words that matched.
+
+**So the 23 is not a finding; it is a false-positive rate.** Of 23 flags,
+**2 were real** — about a 9% precision. A screen this noisy is still worth
+running (it is cheap and it caught both real cases), but publishing "23 rows
+look wrong" would have been §615a's five-errors mistake at scale.
+
+### §624b — The two that were real
+
+**`lookify.com` — *"lookify.com is for sale — Namegarage."*** A domain
+broker's sales listing. The third parked domain in this corpus after
+`sma_communications` and `torre_labs`, and the second from a derived slug.
+Marked unreachable: mail to a parked name reaches whoever bought the
+catch-all.
+
+**`sagestreamllc.com` — *"Home – LexisNexis Risk Solutions Consumer
+Disclosure."*** Not a mismatch at all. **SageStream LLC was acquired**, and
+the domain now points at LexisNexis's disclosure portal.
+
+The test flagged it as "no name overlap", which is simultaneously correct and
+completely misleading: the names do not overlap *because the company was
+absorbed*. §622c anticipated exactly this — *"sold to an unrelated buyer, or
+acquired along with the business — and the two need opposite handling."*
+
+And the consequence is concrete. `lexisnexis_risk_solutions_fl` records that
+on 6 September LexisNexis confirmed **there is no non-document route**: they
+will not authenticate on full name, current address with ZIP, current phone
+and full date of birth. SageStream very likely inherits that wall, so time
+spent treating it as an independent broker would be wasted — **which is worth
+more than a successful submission would have been.**
+
+### §624c — Two different results from the same URL
+
+`torrelabs.com` returned *"TorreLabs.com is for sale | HugeDomains"* in
+§622's spot-check and **no title at all** on two fetches this pass. Same URL,
+same day, different answers.
+
+That does not overturn §622 — the parked page was observed — but it means a
+single fetch is not a stable observation. **Where a conclusion rests on one
+request, it should say so**, and anything important should be fetched twice.
+
