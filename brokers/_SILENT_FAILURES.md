@@ -41355,3 +41355,68 @@ explicitly, and refuse to be routed into the user-data portal. The site's own
 navigation — *"About Me"*, *"My Services"* — suggests an individual rather
 than a company, which also changes the register of any letter.
 
+## §632 — Running our own control test, and finding a broker with no data
+
+§631b sent this pass looking for more rights portals scoped to the wrong
+people. It found something better at `criminalregistry.org`, and the route
+there is worth recording step by step, because every step changed the
+conclusion.
+
+**1. A CAPTCHA-free removal search.** `/remove.php` posts to
+`removeinfo.php` with `firstname` and `lastname`. No CAPTCHA — the first
+such form in days. Running it for the subject returned:
+
+> "We have no result for [First]-[Last]."
+
+**2. Variants, also nil.** Two shortened forms of the first name and a
+deliberate misspelling of the surname — all "no result".
+
+**3. The control.** §289 is the project's standing demand that a company
+prove its search works by running it against something known to be present.
+It has never once been run **on our own side**. So: *John Smith*, *Michael
+Johnson*, *Maria Garcia*, *James Brown*. **All four returned "no result".**
+
+A search that returns nothing for every name is not evidence of absence. At
+that point the nil was worthless.
+
+**4. The site does have an index.** It organises by per-surname subdomain,
+and the surname subdomain lists **the subject's name** as one link among
+thousands of first names. This looked, briefly, like a live listing
+contradicting the nil — a broken opt-out tool hiding a real record.
+
+**5. The per-name page is empty.** A `first-last.criminalregistry.org`
+subdomain exists for the subject, titled *"[Name] Criminal and Traffic
+records, Marriage Records, Divorce Records, Background Checks"*, and says
+**"We found 0 results"** over an empty table.
+
+**6. The decisive test.** `zxqwv-blurfle.criminalregistry.org` — a name
+invented for the purpose — returns a page titled *"Zxqwv Blurfle Criminal and
+Traffic records…"* with the same zero results.
+
+### §632a — What it actually is
+
+**The pages are generated for any string.** There is no database behind them.
+The removal tool is truthful, the nil is correct, and `not_found` stands.
+
+But the harm is of a kind this project has not catalogued, and it has **no
+remedy**. The site publishes — and search engines index — a page carrying a
+person's name under a title listing *Mugshots, Felonies, Criminal and Traffic
+Records*. Being named there means nothing whatsoever, and looks like it means
+a great deal.
+
+And the opt-out cannot touch it. Their own notice says they remove *"the data
+(name, age, address) in this site"*. There is no data. **So the form removes
+nothing, truthfully reports success at removing nothing, and the page
+remains.**
+
+### §632b — The control belongs on our side too
+
+§289 has been quoted at a dozen companies: *prove the query works by running
+it against a row you know is there.* This is the first time it was run
+against evidence **this project** had collected.
+
+It took four extra requests and it overturned the reading twice — first from
+"nil" to "worthless nil", then from "worthless nil" to "correct nil about a
+site with nothing in it". **A standard worth asking of others is worth
+applying to oneself**, and it is cheap: four common names.
+
