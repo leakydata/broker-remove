@@ -41475,3 +41475,53 @@ it was being treated as an alias of two others.
 **Four domains that look like one family are: one pair, one unrelated site,
 one corpse, and one unknown.**
 
+## §634 — The template sweep: one pair in 666 comparisons
+
+§633's technique was run at scale. Sixty pending broker homepages were
+fetched; **37 returned enough text to compare**; every pair was scored after
+normalising each domain's own words out of its text — 666 comparisons.
+
+**Exactly one pair exceeded 70%:** `americaphonebook.com` ↔
+`unitedstatesphonebook.com`, at **94.3%** (the same pair found by hand, at a
+slightly different score because the normalisation differs).
+
+So template cloning is **rare**, not a pattern. The technique works — it found
+the pair independently and produced no false positives at that threshold — but
+there is nothing more of this kind to find in the pending set. That is a
+bounded negative result and the sweep is closed.
+
+### §634a — Reusing the fetch for something else
+
+The 37 pages were already on disk, so they were scanned for opt-out language
+instead. **Nine of 37** mention an opt-out, a removal, or a do-not-sell link;
+the other 28 say nothing about either.
+
+Six of the nine belong to the same state-directory family, which is where the
+pass turned.
+
+### §634b — Six rows that are probably about other people
+
+`coloradoresidentdirectory.com`, `connecticutresidentdirectory.com`,
+`floridavoterdirectory.com`, `michiganresidentdatabase.com`,
+`northcarolinaresidentdatabase.com`, `ohioresidentdatabase.com`.
+
+**The subject's entire address history is Pennsylvania, Maryland and
+Alabama.** Not one of those six states appears in it.
+
+And the family has **no Pennsylvania member**:
+`pennsylvaniaresidentdirectory.com`, `pennsylvaniaresidentdatabase.com` and
+`pennsylvaniavoterdirectory.com` all return **no DNS at all**. The site that
+would matter does not exist.
+
+§633b had just warned that a naming convention is not evidence of anything.
+That warning is respected here: this is recorded as **a prior, not a
+conclusion**. A "Colorado Resident Directory" could hold a national file and
+simply market itself by state. But building one site per state is only worth
+doing if the files are state-partitioned — the architecture is the argument,
+not the name.
+
+So the six are **deprioritised, not closed**, behind every row whose subject
+matter actually touches PA, MD or AL. All six also have no MX (§629c), so
+there is no email route to settle the question with — which is itself a
+reason to stop spending on them.
+
