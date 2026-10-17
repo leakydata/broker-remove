@@ -40766,3 +40766,79 @@ An instruction to do something already known to be impossible — §614's
 Madhive defect in a different file. The steps have now been rewritten to say
 the site is dead, why, and what to do instead.
 
+## §622 — 98% resolved, and at least two were the wrong company
+
+§621 warned that derived domains carry unearned confidence. This pass
+measured it, got a reassuring number, and then found the number was measuring
+the wrong thing.
+
+**The audit.** 1,557 registry rows. **116 carry
+`domain_source: derived_from_optery_slug`** — a domain manufactured from a
+third-party directory's URL slug — and **100 of those are `pending`**, which
+is over half of all pending work.
+
+**The DNS test.** Of the 116 derived domains, **114 resolve. A 98% success
+rate**, and a tempting place to stop: derivation looks reliable, §621's worry
+looks overblown.
+
+### §622a — Resolving is not correctness
+
+Ten of the 114 were spot-checked by fetching the page title and comparing it
+to the registry's company name. Two are definitely wrong and one is doubtful:
+
+| row | derived domain | what is actually there | the real company |
+|---|---|---|---|
+| `cortera` | `cortera.io` | *"Cortera – Den bedste platform til medlemsstyring og foreningsadministration"* — a **Danish membership-management platform** | `cortera.com`, "Trade Credit & Trade Risk Data Solutions – Moody's" |
+| `torre_labs` | `torrelabs.com` | *"TorreLabs.com is for sale \| HugeDomains"* — a **domain-parking listing** | `torre.ai` |
+| `ladders` | `laddersinc.com` | HTTP 406, no content | probably `theladders.com` (flagged as doubt, not fact) |
+
+Both confirmed failures **pass every cheap test.** `cortera.io` resolves and
+returns 200 with a real site. `torrelabs.com` resolves and returns 200. DNS
+says healthy; HTTP says healthy; only *reading the page* shows one is a
+different company in a different country and the other is a sales listing.
+
+**So the 98% measures how often a plausible string is registered to
+somebody** — which, for ordinary English compound words, is nearly always.
+It does not measure what it was reaching for. On the sample, the real error
+rate is **20–30%, not 2%.**
+
+### §622b — Why this one matters more than a bad statistic
+
+§603's discarded count cost nothing but a paragraph. This one has a live
+hazard attached: **a privacy request sent to `cortera.io` would hand a Danish
+company the subject's full identifier set** — name, date of birth, sixteen
+addresses, twelve email addresses — while achieving nothing against the
+company actually holding his data.
+
+A wrong domain does not merely fail. It **discloses**, to a stranger, in the
+name of privacy.
+
+Six derived-domain rows are already marked `submitted` and four `not_found`.
+Those eleven need checking against the same title test before any of their
+outcomes is believed — a `not_found` obtained from the wrong company is not a
+nil, it is noise.
+
+### §622c — The precedent, and why it did not catch this
+
+This is not the first parked domain found here. An earlier sweep recorded
+`sma_communications`: *"smacomm.com is parked for sale on HugeDomains and has
+no MX at all. The company is gone and its domain is merchandise."* It was
+marked unreachable, and the note called it "the case the whole rule exists
+for."
+
+That sweep caught it because it **checked MX records** — a parked domain
+usually has none. `torrelabs.com` was missed because this pass checked **A
+records only**, and a parking page is a perfectly good web host.
+
+Two different sweeps, two different tests, each blind where the other sees.
+The earlier one also distinguished a third case worth remembering —
+`zipstorm`, whose domain now resolves to `app.seekout.io` with live MX,
+"either an acquisition or a domain sale, and **the two need opposite
+handling.**"
+
+**The general shape:** a domain can fail to be the company's in at least four
+ways — never theirs, lapsed and parked, sold to an unrelated buyer, or
+acquired along with the business — and **no single lookup distinguishes
+them.** DNS says it exists. HTTP says it answers. MX says mail is accepted.
+Only the content of the page says whose it is.
+
