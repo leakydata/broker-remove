@@ -41070,3 +41070,60 @@ silence again.
 
 Next step is the Delaware entity and the telephone number — not the website.
 
+## §627 — A privacy policy with no privacy rights, and an address worth decoding
+
+§626 found six people-search sites publishing no email route. One of them was
+hiding one.
+
+### §627a — What the policy does not contain
+
+`publicrecordssearcher.com/privacy.php` is **3,705 characters** long. Counted
+occurrences:
+
+| term | occurrences |
+|---|---|
+| "opt" | **0** |
+| "delete" | **0** |
+| "CCPA" / "California" | **0** |
+
+A public-records aggregator whose privacy policy never mentions deletion,
+opt-out, or any state privacy right at all. What it offers instead:
+
+> "Customers may direct any questions or inquiries with respect to the privacy
+> principles outlined above or about our practices by **contacting the
+> designated person(s) accountable for privacy** at PublicRecordsSearcher."
+
+It does not name that person, give an address for them, or link anything.
+**A route described but not provided.**
+
+### §627b — The address was there, obfuscated
+
+The only email on the page rendered as `[email protected]` — Cloudflare's
+email-protection scheme — and was framed as being for *unsubscribing from
+promotional emails*, not for privacy.
+
+Obfuscated is not absent. The ciphertext sits in a `data-cfemail` attribute
+and the scheme is trivial: the first byte is the key, every later byte is
+XORed with it.
+
+```
+first byte = key; chr(byte ^ key) for each remaining byte
+```
+
+Four lines of Python returned **`contact@publicrecordssearcher.com`**, and the
+letter went there. **Worth keeping as technique**: several earlier rows were
+marked "no email published" after a scrape found nothing, and a scrape cannot
+see through this. Those rows deserve re-checking for `data-cfemail`.
+
+Also published, and useful if email fails: postal at **5764 N Orange Blossom
+Trl, Orlando, FL 32810**, and telephone **(727) 497-7652**.
+
+### §627c — Leading with the gap
+
+The letter opens by saying the policy names no route, that this address is
+being used because it is the only one published, and inviting correction —
+§605b's framing, now applied to a *missing* contact rather than a dead one:
+
+> "A policy that names no route produces silence that looks, from your side,
+> exactly like nobody ever asking."
+
