@@ -41179,3 +41179,66 @@ professional identity, got a profile and **no** address (§617a). These two,
 keyed on telephone numbers, get numbers and nothing else. **One rule, three
 opposite outputs: give the index its own key and nothing more.**
 
+## §629 — The decoded address bounced, and MX turned out to be the useful lookup
+
+Two corrections and one new technique.
+
+### §629a — A recovered string is not a route
+
+The letter to `contact@whoseno.com` — decoded out of the page by §627b's
+method — **hard-bounced in twelve seconds**:
+
+> `550 5.1.1 ... Address not found.`
+
+§628 treated three decoded addresses as three recovered routes. That was
+premature. **The decode recovers a string that someone once typed into a
+template**; it does not establish that a mailbox exists behind it. And the
+obfuscation guarantees the error goes undiscovered, because no consumer can
+copy the address to try it.
+
+So `whoseno.com` joins §626's pattern by a different mechanism: Searqle
+published a do-not-sell link with no `href`; WhoseNo publishes an address with
+no mailbox. **Both are routes that exist as markup and not as anything else.**
+
+The rule now recorded: *a decoded address is unverified until a message to it
+does not bounce.* The other two have not bounced, which is evidence they are
+live — but that evidence came from sending, not from decoding.
+
+### §629b — The obfuscation is not a pattern after all
+
+The decode was run across **26 route-less pending rows**. It found
+**zero** `data-cfemail` tokens.
+
+§628 called three-of-seven "a pattern, not a quirk of one template." Across a
+wider and less selected sample it is **0 of 26**. The earlier seven were all
+small people-search sites chosen for one reason; this set is broader. The
+honest position is that obfuscated contacts occur in a particular corner of
+this market and are not worth scanning for routinely.
+
+### §629c — What the same scan did find
+
+**Eleven of the 26 domains have no MX record at all.** For those, email is not
+a slow route or an unanswered one — **it is not a route**: `411reverselookup.ca`,
+`addrhistory.com`, `areacode-lookup.com`, `coloradoresidentdirectory.com`,
+`connecticutresidentdirectory.com`, `floridaresidentsdirectory.com`,
+`floridavoterdirectory.com`, `michiganresidentdatabase.com`,
+`northcarolinaresidentdatabase.com`, `ohioresidentdatabase.com`,
+`texasarrestwarrants.org`.
+
+MX also found something the web never would: **`californiaarrests.org` and
+`nevadaarrests.org` both resolve MX to `mail.wootemple.com`.** A shared web
+host proves little — shared hosting is universal — but a shared *mail* host
+means one party configured both domains' mail. That is a strong operator link,
+and neither site's pages disclose it.
+
+A weaker signal in the same data: four of the no-MX domains sit on the **same
+Cloudflare nameserver pair** (`dave`/`kara`) — Cloudflare assigns a pair per
+*account*, so that points at one account. Recorded as a lead, not a
+conclusion: a shared pair is softer than a shared MX, and a copied naming
+convention would look the same.
+
+**The useful inversion:** this project has been reading pages to find out who
+a company is. The mail and name servers answer a different and sometimes
+better question — *who operates this* — and they answer it even when the
+website says nothing at all.
+
