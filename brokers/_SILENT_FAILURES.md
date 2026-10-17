@@ -41014,3 +41014,59 @@ corporate structure: searching a sibling brand and finding nothing is
 happens not to surface there." From outside the two are identical. Only the
 parent can tell them apart.
 
+## §626 — A passport to stop republishing, and a do-not-sell link with no href
+
+Six never-contacted people-search sites were checked for an email route.
+**None publishes one** — all form-only, which extends §619's finding from
+enterprise portals to the small end of the market. One of the six was worth
+opening properly.
+
+### §626a — The entity behind the brand
+
+Searqle's own page names it: **Outlimit Inc., 3524 Silverside Road Suite
+35B0, Wilmington, Delaware 19810, registration number 7555338**, telephone
++1 (877) 606-8787. The registry row had the brand and no company. That is the
+name a formal demand has to carry, and it was sitting in the footer.
+
+### §626b — The ID demand is not scoped to the sensitive rights
+
+The rights form says:
+
+> "Please enclose a copy of one of the following as proof of identity: a valid
+> and current **passport** or photo card; **driver's license**; **birth
+> certificate**."
+
+That sits above a checklist that includes *"I want to remove my Information
+from public listings on Searqle"* — and the same page states that the
+Information is *"publicly available information"* which Searqle merely
+aggregates.
+
+**So a passport is required to make them stop republishing material they say
+is already public.** The demand is not reserved for the access or
+sensitive-data rights where identity assurance has an obvious purpose; it
+gates the mildest request on the page. The standing rules forbid supplying
+it, and the proportionality runs the wrong way in any case: the document
+demanded is worth far more to an attacker than the listing being removed.
+
+### §626c — The other route is markup only
+
+The footer carries a **"Do Not sell my information"** link. Checked in the
+DOM rather than inferred:
+
+- it is an `<a>` element with **no `href` attribute at all**;
+- it has no `onclick` handler;
+- clicking it leaves `location.pathname` unchanged.
+
+It is a link in appearance and nothing in function. The page also tells the
+reader to *"write your request via **this form**"* — and there is no anchor
+behind that phrase either.
+
+**Both published routes fail, in opposite ways:** one works and asks for
+something that must not be given, the other asks for nothing and does not
+work. A consumer who tries the easy one first concludes the site is broken; a
+consumer who tries the hard one is asked for a passport. Either way the
+request does not happen, and from inside the company it looks like §605b's
+silence again.
+
+Next step is the Delaware entity and the telephone number — not the website.
+
