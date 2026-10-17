@@ -41958,3 +41958,51 @@ information from its marketing databases and discontinue the sale or sharing
 of that information."* Email entered, checkbox left, verification message to
 follow; fill sheet written.
 
+## §643 — The route around the wall was in the row all along
+
+PMG's portal has now sent **three** "Needs Attention" notices on request
+FM6XRMKND5 — 16 October at 14:44, and twice today at 10:54 and 14:22, the
+later pair in a **new thread** from the first. They are plainly waiting.
+
+The comment stays unreadable: §606 established that the portal's
+official-looking signed link lands on an access-code screen gated by a
+distorted-image CAPTCHA and a fifteen-minute code. The row has sat in the
+handoff queue since, marked urgent, waiting on a human.
+
+**The registry row already held a verified email address.**
+
+```
+email_to: dataprivacy@pmg.com
+email_verified: true
+email_verified_by: ca_data_broker_registry
+```
+
+A statutory contact, verified against the California data broker registry,
+sitting in `brokers.json` while the project treated the row as blocked by a
+web form. **Nobody looked at the row's own fields before declaring the route
+blocked.**
+
+That is the lesson, and it is cheap: §641a found a row blocked by the wrong
+URL, and this is the same failure one layer up — *the queue entry recorded a
+blocker without checking whether the broker had another published route at
+all.*
+
+### §643a — What the letter does, and does not, claim
+
+It does not pretend the silence was theirs. It states that three notices
+arrived, that the link looks like a deep link and is not, and that **image
+CAPTCHAs are not solved here as a standing rule** — so the comment is sealed
+from this side. Then the reason it matters now: requests in this state are
+commonly **closed for non-response**, and the point is to stop that happening
+by default when the answer is willing.
+
+To save a round trip it pre-answers the four things usually asked at this
+stage — identity verification (anything short of a government ID, SSN or
+account), state of residence (Pennsylvania, no statute asserted, and a
+refusal on that basis accepted in advance as a legitimate answer), which
+identifiers to search, and scope.
+
+**Telling a company why it has had silence is worth more than another chase.**
+A chase says *you have not answered*. This says *I cannot read what you
+asked, here is why, and here are the answers to what you probably asked.*
+
