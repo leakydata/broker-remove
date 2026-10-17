@@ -41242,3 +41242,60 @@ a company is. The mail and name servers answer a different and sometimes
 better question — *who operates this* — and they answer it even when the
 website says nothing at all.
 
+## §630 — Clustering 153 brokers by mail host: three groups, three meanings
+
+§629c found one shared mail host by accident. This pass ran it deliberately
+across **all 153 pending rows with a domain**, discarding the commodity
+providers (Google, Microsoft, Zoho, Mailgun, registrars). Three clusters
+survived, and **each means something different** — which is the point worth
+recording, because a naive reading would have treated them alike.
+
+### §630a — A real operator link: `mail.wootemple.com` × 3
+
+`californiaarrests.org`, `nevadaarrests.org` and `lacountyarrestrecords` all
+resolve MX to **`mail.wootemple.com`**.
+
+Three state- and county-named arrest-record sites sharing one mail server is
+one party configuring mail for all three. None of the sites discloses the
+connection, and their Cloudflare nameservers differ — **MX was the only
+signal that found it.**
+
+They are one correspondent, not three. A single letter naming all three
+domains is harder to answer selectively than three separate ones, and the
+answer converts three rows at once.
+
+### §630b — A parking service, which is the opposite of an operator
+
+`familysearch.co`, `granicus.co` and `ppl-data.com` share
+**`park-mx.above.com`** — Above.com's domain-parking MX — and all three
+resolve into `103.224.182.0/16`, the Trellian/Above parking range.
+
+These are the **fourth, fifth and sixth parked domains** in the corpus after
+`sma_communications`, `torre_labs` and `lookify`. And they were found a new
+way:
+
+> **A parking MX is a stronger signal than a parking page.** It is
+> machine-readable, it does not depend on getting past a bot check, and it
+> cannot be mistaken for a site that is merely slow or blocking.
+
+§624's title test had left all three in the "no information" pile — they
+return no title at all. One MX lookup classified them. Two have obvious real
+counterparts: **`granicus.com`** ("The Citizen Experience Platform for
+Government") and **`familysearch.org`**.
+
+### §630c — A false cluster, correctly discarded
+
+`hiremyfriend.io`, `leadar.io`, `npir.org` and `pininthemap.com` share
+**`route1.mx.cloudflare.net`**.
+
+That is **Cloudflare Email Routing** — a free forwarding service anyone can
+enable. Four unrelated sites using the same commodity product says nothing
+about ownership. Treating it as an operator link would have manufactured a
+conspiracy out of a default setting.
+
+**The distinction that makes the technique usable:** a shared mail host is
+evidence of common operation only when the host is *not* a service sold to
+everybody. `mail.wootemple.com` is somebody's own server. `park-mx.above.com`
+and `route1.mx.cloudflare.net` are products — and the first of those means
+*abandoned*, the second means *nothing at all*.
+
