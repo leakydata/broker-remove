@@ -41632,3 +41632,53 @@ may reach further than this row.
 **The pattern across all four:** the useful fact was in the footer, in plain
 text, on the first page fetched. No lookup, no inference, no retraction.
 
+## §637 — A bounce that was not the failure it looked like
+
+A letter to All Global Resources went out today to
+`drieke@executiveenergy.com`, copied to `info@agrgroupinc.com`. A delivery
+failure came back within a second.
+
+**The bounce names only one recipient.** *"Your message wasn't delivered to
+drieke@executiveenergy.com because the domain executiveenergy.com couldn't be
+found."* The copy to `info@agrgroupinc.com` was **not** bounced, so it was
+most likely delivered.
+
+That is worth stating because a delivery-failure notice looks, at a glance,
+like failure of the whole message — and a row marked "bounced" on that basis
+would have buried a letter that actually arrived. **Read which address the
+bounce names.**
+
+### §637a — A null MX is the owner saying so
+
+`executiveenergy.com` resolves its nameserver to **`ns1.afternic.com`** — a
+domain marketplace — and publishes an MX record of:
+
+```
+0 .
+```
+
+That is a **null MX** (RFC 7505): an explicit, machine-readable declaration
+that the domain accepts no mail whatsoever.
+
+Seventh parked domain in this corpus, and the first found this way. It is a
+stronger signal than §630b's `park-mx.above.com`, because a parking service's
+default MX is the *service* speaking, while a null MX is the **domain owner
+stating the fact deliberately.** Nothing at that domain is worth another
+attempt.
+
+### §637b — No website, working mail: §629c inverted
+
+`agrgroupinc.com` has **no A record at all** — there is no website — but its
+MX points to `agrgroupinc-com.mail.protection.outlook.com`, a live Microsoft
+365 tenant.
+
+§629c found eleven domains with a website and no mail. This is the mirror
+image, and the lesson runs the same way in reverse: **absence of a website is
+not absence of a company.** A row dismissed because its site would not load
+could have a functioning corporate mailbox behind the same name.
+
+It also re-reads the earlier failures. If `privacy@` and `lzepeda@` were
+rejected at this domain, that is a Microsoft tenant **refusing unknown
+recipients** — a per-mailbox rejection, not a dead domain — which leaves
+`info@agrgroupinc.com` as the live route and the one to chase.
+
