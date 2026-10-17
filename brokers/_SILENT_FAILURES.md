@@ -40657,3 +40657,60 @@ verification of any portal in this project, and the fill sheet says to tell
 them so if they reply. Most of this corpus records what companies get wrong;
 this one got the hardest part right by default.
 
+## §620 — Five opt-outs nobody can reach, and the difference between them
+
+§619 concluded that the remaining value is in email rather than forms. Before
+accepting that, the opposite population was tested: not enterprise portals but
+**small people-search opt-outs**, which are a different kind of site and might
+behave differently.
+
+Two were opened. Both returned browser error pages. A control (`example.com`)
+loaded normally in the same pass, so the failure was the sites, not the
+network — §568's rule applied before drawing any conclusion.
+
+That prompted a DNS sweep of **all 153 pending rows that carry a domain**.
+Five have no address record at all:
+
+| row | A record | NS records |
+|---|---|---|
+| `backgroundcheck_run` | none | **none** |
+| `homemetry` | none | NS1 |
+| `idtrue` | none | GoDaddy |
+| `locatepeople_org` | none | AWS Route 53 |
+| `peoplefinder_info` | none | Cloudflare |
+
+### §620a — Why the second column is the whole finding
+
+It would have been easy to write "five dead brokers" and move on. **They are
+not the same thing.**
+
+`backgroundcheck.run` has **no nameservers at all** — nothing is delegated
+anywhere. That is a lapsed or withdrawn registration: there is no operator
+pointing that name at anything.
+
+The other four **are still delegated**, to four different commercial DNS
+providers. A registration that someone is still paying for, with nameservers
+configured, is not an abandoned company — it is a company **with no web host
+configured for that name.** The operator may still exist, still hold records,
+and still be reachable.
+
+So four of these rows are marked `unreachable` *by web* with an explicit
+instruction not to close them as gone: the next route is the **state
+data-broker registry filing**, which carries a legal-entity name and a contact
+that does not depend on the website working. That route is what found Online
+Media Group behind MixRank and Momentum Platform behind PMG.
+
+### §620b — The consumer-facing fact
+
+Each of these five publishes an opt-out URL that **no consumer can load.**
+`https://homemetry.com/optout`, `https://idtrue.com/optout`,
+`https://backgroundcheck.run/optout` — all of them return a browser error.
+
+A person exercising a privacy right against any of them gets a blank error
+page and no indication of where else to go. From the company's side that
+produces exactly the silence §605b described: **it looks like nobody ever
+asks.**
+
+Five rows moved out of `pending`, which they could never have left by being
+worked, and into a status that says what is actually true about them.
+
