@@ -41850,3 +41850,56 @@ alone** — not because scripting is forbidden, but because the script has no
 way to know it is lying. Each toggle additionally raises its own *"Are you
 sure?"* modal needing a second confirmation.
 
+## §641 — The rest of the CAPTCHA census, and a row blocked by the wrong URL
+
+The remaining 32 queued CAPTCHA items were classified, completing the census
+begun in §640.
+
+| type | count |
+|---|---|
+| BotDetect image (OneTrust) | 9 |
+| reCAPTCHA v2 checkbox | 9 |
+| hCaptcha | 3 |
+| Cloudflare Turnstile | 4 |
+| **reCAPTCHA v3 token** | **2** (`databaseusa`, and `mch`, which carries both v2 and v3 markers) |
+| nothing detected by `curl` | 27 |
+
+The last row is the one to read carefully. **"Nothing detected" from a fetch
+does not mean no CAPTCHA** — it mostly means a JavaScript application whose
+widget is injected after load. `people_data_labs`, `lob_com` and
+`greenhouse_software` all appear there, and all three were *seen* to carry a
+checkbox or hCaptcha when opened in a browser (§617, §618, §619).
+
+### §641a — AddressSearch was never blocked
+
+`addresssearch_com` sat in the queue as a CAPTCHA item. It was blocked by
+**the wrong URL**.
+
+The queued page was `/contact.php`, which does carry a CAPTCHA — and an
+obsolete one: its fields are `recaptcha_challenge_field` and
+`recaptcha_response_field`, the **reCAPTCHA v1** names, for a service Google
+retired in **March 2018**.
+
+But that page's own text links to the real route. **`/remove-info.php` is a
+plain form** — first name, last name, email, address, city, state, zip — with
+**no CAPTCHA at all**. It was filled, submitted, and answered:
+
+> "Your information has successfully been removed."
+
+**One link away from the page recorded as blocked.** The lesson is narrow and
+cheap: before accepting that a row is CAPTCHA-blocked, check whether the
+queued URL is the *removal* page or merely the *contact* page that mentions
+one.
+
+### §641b — An instant confirmation is still an assertion
+
+The success message appeared **immediately and unconditionally**. No search
+was shown, no identifier echoed back, and the same sentence would presumably
+appear for a name the site has never held — §289's problem once more.
+
+It is the site's own statement of completion and is recorded as
+`confirmed`, but as an **asserted** removal, not a demonstrated one. The
+page also carries a dissuasion notice — *"Removing yourself can make it
+difficult for friends and loved ones to find you"* — and the claim that the
+site does not sell or share information with third parties.
+
