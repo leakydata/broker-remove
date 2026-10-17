@@ -40958,3 +40958,59 @@ That does not overturn §622 — the parked page was observed — but it means a
 single fetch is not a stable observation. **Where a conclusion rests on one
 request, it should say so**, and anything important should be fetched twice.
 
+## §625 — A site that names its own owner, and the question that follows
+
+Three outcomes from working the verified-real end of the derived-domain list.
+
+### §625a — The third mis-derived domain, resolved by a second fetch
+
+§622 flagged `laddersinc.com` as **doubtful** because it returned HTTP 406 and
+could not be read. A second fetch with a different user agent got through:
+
+> "**Ladders, Inc., has your Atlanta ladders in stock and ready**"
+
+A physical ladder supplier. Step ladders and extension ladders. Not the
+job-search company, which is `theladders.com`.
+
+§624c's warning paid for itself within a pass: **the 406 was bot-blocking, not
+a dead site**, and one fetch would have left this permanently in the doubtful
+pile. Row marked unreachable — and the note says the real target must be
+confirmed from the registry filing rather than assumed, since assuming a name
+maps to a domain is the exact error being corrected.
+
+### §625b — OnlineSearches declares its own parent
+
+`onlinesearches.com` says it belongs to Intelius in three places:
+
+- its privacy link points at `intelius.com/privacy-policy`;
+- its visible disclaimer reads *"OnlineSearches **powered by Intelius®**"*;
+- and its own analytics payload carries
+  `"site":{"brand":"Intelius","domain":"publicrecords.onlinesearches.com"}`.
+
+**A declaration a company makes to its own analytics is about the closest
+thing to a first-party admission readable from outside** — it is written for
+internal consumption, not for a consumer or a regulator.
+
+Row set to `covered_by_sibling`, because Intelius already holds a two-round
+suppression for the subject. But that status is **a claim, not a fact**, and
+the note says so: siblings sometimes run separate indexes.
+
+### §625c — The question that makes the claim checkable
+
+So Intelius was asked one thing: **is the suppression held at the data layer,
+or per brand?**
+
+Both answers were offered and both accepted. The reason given for why it
+matters is the part worth keeping:
+
+> "A brand-scoped suppression quietly expires in a way a data-layer one does
+> not. If a new sibling site launches next year drawing from the same
+> underlying records, a suppression keyed to the brands that existed in 2026
+> does not cover it, and nobody is told."
+
+And the consumer-side symmetry, which is §564's problem moved from systems to
+corporate structure: searching a sibling brand and finding nothing is
+**equally consistent** with "the suppression reached it" and "the record
+happens not to surface there." From outside the two are identical. Only the
+parent can tell them apart.
+
