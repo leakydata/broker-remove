@@ -41420,3 +41420,58 @@ It took four extra requests and it overturned the reading twice — first from
 site with nothing in it". **A standard worth asking of others is worth
 applying to oneself**, and it is cheap: four common names.
 
+## §633 — Template comparison, the clustering signal that survives §631
+
+§630 clustered brokers by mail host and §631 had to retract the headline
+finding, because the shared host turned out to be a WordPress company. The
+lesson was that **infrastructure can be shared by accident**. This pass tried
+a signal that cannot be.
+
+First, the generator pattern from §632 was tested for reach: wildcard
+subdomains were requested at six other people-search sites.
+`criminalregistry.org` appears to be unusual — four did not respond at all,
+and two returned a hosting default page (*"Nimbus Hosting"*).
+
+Those two were `americaphonebook.com` and `unitedstatesphonebook.com`, which
+is where the pass turned.
+
+### §633a — 95.4% identical
+
+Both homepages were reduced to text, their brand names normalised away, and
+compared:
+
+| pair | similarity |
+|---|---|
+| `americaphonebook.com` ↔ `unitedstatesphonebook.com` | **95.4%** |
+
+Same length (831 and 824 characters), same tagline, same ordering of *"People
+Search — People Finder — Unlisted and Non-Published Telephone Numbers —
+Reverse Phone Search"*. Both also carry a self-named MX of the form
+`mail.<domain>`, and both return the same hosting default on a wildcard
+subdomain.
+
+**Content is the one signal a commodity provider does not supply.** Thousands
+of unrelated sites share a host, a registrar, a CDN. None of them share a
+95%-identical page. This is the kind of evidence §631 wished §630 had had.
+
+So these two rows are **one correspondent**: one letter naming both domains,
+and a reply from either treated as covering both — asked rather than assumed.
+
+### §633b — The negative result is the better half
+
+`usphonebook.com` has a name almost indistinguishable from the other two.
+Against the same baseline it scores **1.1%**, and it is a substantial
+independent site of 18,330 characters.
+
+**The naming convention is not evidence of common ownership. The template
+is.** Had the family been grouped by name — the obvious move, and one this
+project has made before with Optery slugs (§621) — `usphonebook` would have
+been swept in wrongly, and a letter would have told an unrelated company that
+it was being treated as an alias of two others.
+
+`oldphonebook.com` returned a single character and is probably dead;
+`phonebooks.com` sits behind a bot challenge and could not be compared.
+
+**Four domains that look like one family are: one pair, one unrelated site,
+one corpse, and one unknown.**
+
