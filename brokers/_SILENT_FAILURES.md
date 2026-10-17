@@ -41127,3 +41127,55 @@ being used because it is the only one published, and inviting correction —
 > "A policy that names no route produces silence that looks, from your side,
 > exactly like nobody ever asking."
 
+## §628 — The decode generalises, and one of the addresses is a person
+
+§627b's technique was applied to the five remaining people-search rows that
+had been marked "no email published". **Two more addresses came out**, from
+privacy pages where a plain scrape of the rendered text returns nothing:
+
+| site | recovered address |
+|---|---|
+| `whoseno.com` | `contact@whoseno.com` |
+| `searchmobilenumber.com` | **`ilaunchweb@gmail.com`** |
+
+Three sites out of seven, then, publish a privacy contact that **cannot be
+read or copied by the consumer the policy is written for.** Not a quirk of one
+template — a pattern.
+
+### §628a — A broker whose privacy contact is somebody's Gmail
+
+The second address is not a company mailbox. A data broker's only published
+privacy contact is a **personal-looking Gmail account**, most plausibly a
+developer or contractor whose address ended up in a template.
+
+That changed how the letter was written. It opens by saying so, and offers an
+exit before asking for anything:
+
+> "I may be writing to the wrong person... If that is the case, please just
+> tell me, or forward this, and I will not write here again. I would rather be
+> redirected than keep sending privacy requests to someone's personal
+> mailbox."
+
+**Sending a full identifier set into an individual's private mailbox is not
+something to do repeatedly on an assumption.** One letter with an explicit
+opt-out is defensible; a chase campaign would not be.
+
+### §628b — Trimming the identifier set to the index
+
+Both letters led with the **ten prior telephone numbers** rather than the
+addresses, because both services are phone-indexed: a reverse-lookup file is
+built on numbers, so the obsolete numbers are the likely matches and the
+current one is the least likely.
+
+And at `searchmobilenumber.com` the sixteen prior addresses were **withheld
+entirely**, with the reason stated and an offer to send them on request —
+supplying data the recipient has no use for is pure disclosure (§578b), and
+the case for restraint is stronger still when the recipient may be a private
+individual.
+
+That is now the third distinct answer this week to the same question. Lob, an
+address-keyed mailer, got every address (§618a). People Data Labs, keyed on
+professional identity, got a profile and **no** address (§617a). These two,
+keyed on telephone numbers, get numbers and nothing else. **One rule, three
+opposite outputs: give the index its own key and nothing more.**
+
