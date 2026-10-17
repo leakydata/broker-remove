@@ -40714,3 +40714,55 @@ asks.**
 Five rows moved out of `pending`, which they could never have left by being
 worked, and into a status that says what is actually true about them.
 
+## §621 — Correcting §620 the same day: two of those domains were guesses
+
+§620 said four domains were "registered but unhosted, so the operator may
+still exist." **That reading is only sound for two of them.**
+
+`brokers.json` records, for `locatepeople_org` and `peoplefinder_info`:
+
+```
+domain_source: derived_from_optery_slug
+method:        unknown
+route_evidence: none
+```
+
+Their domains were **inferred from Optery URL slugs** — `locatepeople-org`
+became `locatepeople.org`, `peoplefinder-info` became `peoplefinder.info` —
+not taken from a filing or a working page.
+
+So a missing A record there cannot mean what §620 said. It is equally
+consistent with **"the broker's site is unhosted"** and with **"the guessed
+domain was never theirs."** A parked registration belonging to a stranger
+looks identical from a DNS query, and the nameservers show only that
+*somebody* holds the name.
+
+§620's reasoning stands for `homemetry` and `idtrue`, whose domains came from
+curated opt-out URLs. It does not stand for the other two, and the rows now
+say so.
+
+### §621a — The lesson is about inherited fields, not DNS
+
+The DNS sweep was sound. What was unsound was **treating every `domain` field
+as the same kind of fact.** Some were curated from a company's own opt-out
+page; some were manufactured from a third-party directory's URL slug. The
+field name is identical and the provenance is not, and the provenance is
+recorded right there in the same record — `domain_source` — unread.
+
+**A derived value that looks like an observed one is the most expensive kind
+of data in this project**, because every later inference quietly inherits a
+confidence nobody ever established. §603 discarded a count for a biased
+sample; this is the same failure in a single field.
+
+### §621b — And the project had already found it once
+
+`homemetry` carries `email_verified_by: site_unreachable` — recorded at some
+earlier point. The site was *already known* to be unreachable. The row stayed
+`pending` anyway, and `brokers/h/homemetry.md` still opened with:
+
+> "1. **Open the opt-out page:** https://homemetry.com/optout"
+
+An instruction to do something already known to be impossible — §614's
+Madhive defect in a different file. The steps have now been rewritten to say
+the site is dead, why, and what to do instead.
+

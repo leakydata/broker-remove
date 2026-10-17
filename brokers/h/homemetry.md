@@ -13,7 +13,17 @@
 
 *Written for anyone, not just the person who filed the original request.*
 
-1. **Open the opt-out page:** https://homemetry.com/optout
+1. **DO NOT START HERE — THE SITE DOES NOT RESOLVE.** Verified 2026-10-16:
+   `homemetry.com` has no DNS A record at 1.1.1.1 or 8.8.8.8, and the opt-out
+   page returns a browser error. It still has nameservers (NS1), so the
+   registration is live and the operator may well still exist — but there is
+   no web form to submit and no point looking for one.
+2. **Find the company instead of the website.** Use the state data-broker
+   registry filings, which carry a legal-entity name and a contact that does
+   not depend on the site working. That route found Online Media Group behind
+   MixRank and Momentum Platform behind PMG.
+3. ~~Open the opt-out page:~~ https://homemetry.com/optout — dead, kept only
+   so nobody rediscovers it and tries again.
 2. **Search for yourself first if the page asks you to.** Match on more than the name: use age, current city, and at least one previous address. A common name will return other people, and removing their listing instead of yours helps nobody.
 3. **Submit the form**, then watch for a confirmation email. Many brokers treat the request as void until a link in it is clicked.
 4. **Ask them to state which identifiers matched.** "We deleted your record" and "we searched and found nothing" are different outcomes, and a reply that does not distinguish them tells you nothing about whether you were ever in the file.
