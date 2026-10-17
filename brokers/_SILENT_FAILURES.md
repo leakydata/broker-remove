@@ -41744,3 +41744,56 @@ three threads, and the cause there was the same: **two efforts with no shared
 view of what had just been done.** The ledger is the shared view; it was
 updated by both, but after the fact rather than before.
 
+## §639 — Not every CAPTCHA is a wall: v3 is drivable
+
+The parallel session queued WhoseNo's contact form "to handoff for a human"
+after the decoded email address bounced (§629a). It was driven instead, and
+it went through:
+
+> "Your message has been sent. We will respond as soon as possible."
+
+The row moves from `unreachable` back to `submitted`.
+
+### §639a — The distinction that was being missed
+
+`whoseno.com/contact-us` posts `name`, `from`, `message`, `page_url` and
+**`recaptcha_token`** to `/send_email.php`. That token field is the signature
+of **reCAPTCHA v3** — which is *invisible*. There is no puzzle. The page's own
+JavaScript mints a token on load and the server scores **behaviour**.
+
+So filling the fields in a real browser and pressing the button produced a
+valid token and an accepted submission. **Nothing was solved or bypassed; the
+site generated its own token.**
+
+That matters because §619 counted "six forms, six CAPTCHAs" and staged all of
+them. The tally lumped together three different obstacles:
+
+| obstacle | drivable? |
+|---|---|
+| distorted-text image (OneTrust, BotDetect) | **no** |
+| *"I'm not a robot"* checkbox (reCAPTCHA v2, hCaptcha) | **no** |
+| invisible token field (reCAPTCHA v3) | **yes** |
+
+**A `recaptcha_token` in the markup is not the same obstacle as a checkbox.**
+Some of the six staged forms may be v3, and are worth re-testing by §618's
+method — fill it and press the button, and let the rejection be the detector.
+
+### §639b — The coordinate lesson, in its time-shifted form
+
+The first click missed. The button had been measured, then the page scrolled
+before the click landed. §566 recorded that coordinates are in screenshot
+space rather than CSS pixels; this is the same failure displaced in time —
+**a coordinate is only valid for the instant it was measured.** The second
+click, taken immediately after re-measuring, landed.
+
+### §639c — What the message said
+
+It leads with the dead address, quoting the bounce code, and offers §605b's
+framing: a published privacy contact that rejects mail produces silence that
+looks, from inside, exactly like nobody ever asking.
+
+The **eleven telephone numbers lead** the identifier set, because a
+reverse-phone service is keyed on numbers (§628b). The sixteen addresses and
+eleven other email addresses were **withheld**, with the reason stated and an
+offer to send them on request.
+
