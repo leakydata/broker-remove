@@ -41299,3 +41299,59 @@ everybody. `mail.wootemple.com` is somebody's own server. `park-mx.above.com`
 and `route1.mx.cloudflare.net` are products — and the first of those means
 *abandoned*, the second means *nothing at all*.
 
+## §631 — I applied my own test to everything except my own finding
+
+### §631a — `mail.wootemple.com` is a hosting company
+
+§630 ended with a rule: *a shared mail host is evidence of common operation
+only when the host is not a service sold to everybody.* It then applied that
+rule to Cloudflare Email Routing, correctly discarded a four-site cluster —
+and **did not apply it to its own headline finding.**
+
+`wootemple.com` resolves to:
+
+> "Grow your Business with Better WordPress Hosting | **Templ**"
+
+A managed WordPress host. Its customers' domains carry its MX as a matter of
+course. So three arrest-record sites sharing `mail.wootemple.com` shows a
+**shared host, not a shared owner** — exactly the error the rule was written
+to prevent, committed in the paragraph above the rule.
+
+The cluster drops from strong evidence to weak. Three similar sites on one
+small WordPress host is suggestive and nothing more; the rows are **not**
+established as one correspondent and must not be written to as such.
+
+**The general failure is worth naming:** the test was stated as a conclusion
+rather than run as a check. Writing down a discriminating rule and then not
+executing it against the case in hand is a distinct failure mode from not
+having the rule — and harder to notice, because the section reads as though
+the work was done.
+
+### §631b — A rights portal scoped to the wrong people
+
+The same look found something better. `nevadaarrests.org` publishes a
+**Privacy Request Portal** offering all four rights — know, opt out, correct,
+delete. Then it defines what they apply to:
+
+> "information such as your **email address, search history, payment
+> records**, and other data collected **during your interactions with our
+> site**."
+
+That is **visitor data**. It is not the arrest records the site publishes
+about people.
+
+So a listed person who finds the portal, submits a deletion, and receives a
+confirmation has deleted **their own browsing history** and left the record
+about them untouched — and nothing on the page says so. §564's gap, built
+into a rights form: the request succeeds, the confirmation is truthful, and
+nothing the consumer cared about has changed.
+
+**This is the most consumer-hostile shape found so far**, precisely because
+it is not a refusal. A refusal tells you to try something else. This issues a
+receipt.
+
+Any approach here has to ask for removal of a **published record**
+explicitly, and refuse to be routed into the user-data portal. The site's own
+navigation — *"About Me"*, *"My Services"* — suggests an individual rather
+than a company, which also changes the register of any letter.
+
