@@ -42006,3 +42006,52 @@ identifiers to search, and scope.
 A chase says *you have not answered*. This says *I cannot read what you
 asked, here is why, and here are the answers to what you probably asked.*
 
+## §644 — A refusal that handed over the route
+
+§643 emailed PMG because the portal comment was unreadable. The reply came
+in **three seconds**, automated:
+
+> "we are unable to accept privacy rights requests via email… please utilise
+> our dedicated web form" — `https://www.pmg.com/dsr-form`
+
+A refusal. And the most useful thing this row has produced.
+
+That page embeds a OneTrust **webform**
+(`973bf566-…/4319c914-…`) which is **not** the access-code **portal** that has
+blocked the row since §606. The portal demands a distorted-image CAPTCHA plus
+a fifteen-minute code. **The webform needs only a reCAPTCHA checkbox.**
+
+Two OneTrust surfaces for one company, with completely different barriers,
+and the easier one was never linked from any of the four notices. §643's
+letter was written expecting an answer about the comment; what it got was a
+different door.
+
+Now fully staged — country, category, filing capacity, state, request type,
+the late confirmation, names, email, 4,297 characters of detail — with only
+the checkbox left.
+
+### §644a — Four defects in one form
+
+1. **"I am a (an)"** offers only *Prospective Employee, Customer, Contractor,
+   Employee*. An advertising company processing consumer data has **no
+   category for a member of the public.** "Customer" was chosen as least
+   inaccurate, and the request text says so explicitly so it cannot be read
+   as claiming an account — §618b's problem, handled the same way.
+2. **"Select request type(s)"** is plural and accepts **one**. Data Deletion
+   was chosen; the text asks them to treat the submission as also covering
+   opt-out, do-not-sell and an info request, and to say so if they cannot.
+3. **A conditional question appears only after Submit is pressed** — *"By
+   exercising your right to deletion, you will lose all account information.
+   Do you wish to proceed?"* §615's late field, again.
+4. **The reCAPTCHA also appears only on submit** — §618's pattern, again.
+
+### §644b — The identifier they demand is the one you cannot know
+
+The auto-reply says PMG requires *"the specific email address associated with
+your digital commerce activities to identify you within our records."*
+
+**A consumer cannot know which address an adtech firm has attached to them** —
+that is the question, not the answer. The request text says so plainly and
+supplies all twelve addresses for PMG to search, which is the only honest
+response available: *you tell me which one matched.*
+
