@@ -41797,3 +41797,56 @@ reverse-phone service is keyed on numbers (§628b). The sixteen addresses and
 eleven other email addresses were **withheld**, with the reason stated and an
 offer to send them on request.
 
+## §640 — Classifying the CAPTCHAs, and a complete three-right submission
+
+§639a's distinction was applied as a sweep: **54 queued CAPTCHA items**, 22
+fetched and classified by what their markup actually contains.
+
+| type | rows |
+|---|---|
+| BotDetect image (OneTrust) | 4 |
+| reCAPTCHA v2 checkbox | 4 |
+| hCaptcha | 1 |
+| Cloudflare Turnstile | 2 |
+| **reCAPTCHA v3 token** | **1** |
+| nothing detected (JS-rendered or none) | 10 |
+
+One v3 — **`databaseusa`** — and it went through end to end.
+
+### §640a — What was obtained
+
+Stage one took an email, name and state; a verification link arrived within a
+minute. The full form then accepted **all three rights at once**:
+**opt-out of sale, deletion, and know-my-categories**, submitted under penalty
+of perjury.
+
+The confirmation states timelines plainly: **opt-out within 15 days, deletion
+within 45 days**, categories listed immediately, specific-information report
+within 45 days. It also publishes, unprompted, the §1798.115-style
+disclosures — categories of personal information held (down to *"Religion,
+Political Party, Ethnicity"*, *"Estimated Net Worth"*, *"Presence of
+Children"*), categories of clients, business purposes including **"Resale to
+Data Brokers"**, and data sources including **"Data Brokers"**.
+
+### §640b — The field names lie
+
+The checkbox named **`knowinfoOptOutDelete`** renders on screen as *"I want
+to know what categories of information have been collected about me."* The
+delete toggle is a different element with a different name.
+
+Setting the three toggles by name — the obvious scripted approach, and the
+one taken first — produced **the opposite of what was intended on a
+penalty-of-perjury form.** §570's rule caught it: read the value back, and
+read it *visually*.
+
+The same form carries **duplicate `name` attributes** throughout: two selects
+both called `DOBMonth` (one is the day), two inputs both called `suffix` (one
+is the middle initial), and the **gender radios share a name with the
+for-myself / for-someone-else radios**, so choosing a gender would silently
+clear the requester type. Every field had to be addressed by position.
+
+**A form whose markup contradicts its labels cannot be filled by script
+alone** — not because scripting is forbidden, but because the script has no
+way to know it is lying. Each toggle additionally raises its own *"Are you
+sure?"* modal needing a second confirmation.
+
