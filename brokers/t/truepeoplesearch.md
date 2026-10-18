@@ -11,8 +11,8 @@
 ## Status
 
 - Current: `manual_required` (updated 2026-10-16)
-- Reference: `gmail:1a142a4bed78526f` (ticket 16279556, appeal filed 2026-10-16, 45-day
-  response window)
+- Reference: `gmail:1a142a4bed78526f` (ticket 16279556, appeal filed and rejected 2026-10-16)
+- Note: APPEAL REJECTED, same day it was filed, with the identical canned reasoning the original refusal gave — the courtesy-vs-obligation inconsistency and the "you already did this in August" point were never addressed: "it appears that the person identified in your request lives in a state that does not have a comprehensive consumer privacy law... we are not able to approve your appeal." Pointed instead to a generic "contact your state regulator" document. **This essentially confirms the theory in the note below: the refusal (five seconds) and the appeal denial (same-day, non-responsive to the specific arguments raised) both read as keyword/residency-filter output rather than anything that engages with the facts of a specific request.** Next available escalation is a real regulator complaint (California AG re: the state registry, or Pennsylvania's consumer-protection office) rather than another written appeal — that step needs a human, not another email, and is noted for handoff rather than attempted here.
 - Note: A FRESH REMOVAL REQUEST, EIGHT WEEKS AFTER THE FIRST, WAS REFUSED IN FIVE
   SECONDS ON PA RESIDENCY — even though the same identifiers had produced a real
   removal on 2026-08-18. The refusal email states the `/removal` flow is a

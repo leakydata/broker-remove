@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-25)
-- Note: 2026-08-25: emailed privacy@rbarrel.com. Registered name (Cross Pixel) does not match the contact domain - asked which entity is now the controller and asked them to forward rather than discard, citing this week's two dead registered mailboxes. Standard identity-graph letter with the hash-it-yourself clause, the suppression-vs-inventory hash question, the processor fallback, and the LinkedIn URL suppression ask.
+- Current: `confirmed` (updated 2026-10-15)
+- Note: REPLIED 2026-10-15, fifty-one days after the original letter. RainBarrel (see `rainbarrel.md` — same `privacy@rbarrel.com` mailbox, so this reply closes both registry entries at once) says: "approved your request to opt out of the sale or sharing," searched its pseudonymous dataset (cookie/mobile-ad IDs) against the identifiers given, "did not identify any matching records... no existing records required deletion," and added the identifiers to an internal suppression file so a future match is blocked rather than just a one-time check. Did not answer the identity-graph questions this letter asked (whether a retained suppression hash is used only to exclude, never to match; who the upstream suppliers are; whether the LinkedIn URL suppression request was applied) — a clean nil-plus-suppression reply that does not engage with the harder structural questions is still a legitimate, closeable result. Not pressing further; the two unanswered structural questions are the same ones worth asking any ad-tech identity broker, not specific to this one.
+- 2026-08-25: emailed privacy@rbarrel.com. Registered name (Cross Pixel) does not match the contact domain - asked which entity is now the controller and asked them to forward rather than discard, citing this week's two dead registered mailboxes. Standard identity-graph letter with the hash-it-yourself clause, the suppression-vs-inventory hash question, the processor fallback, and the LinkedIn URL suppression ask.
 
 ## Steps
 

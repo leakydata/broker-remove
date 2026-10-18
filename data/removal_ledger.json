@@ -317,7 +317,7 @@
   },
   "all_global_resources": {
     "status": "manual_required",
-    "changed": "2026-10-17",
+    "changed": "2026-10-18",
     "via": "email"
   },
   "all_web_leads": {
@@ -1442,9 +1442,9 @@
     "via": "reply"
   },
   "cross_pixel": {
-    "status": "submitted",
-    "changed": "2026-08-25",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-10-15",
+    "via": "reply"
   },
   "crosswalk_technologies": {
     "status": "submitted",
@@ -1507,9 +1507,9 @@
     "via": "email"
   },
   "data_decisions": {
-    "status": "manual_required",
-    "changed": "2026-09-04",
-    "via": "email"
+    "status": "confirmed",
+    "changed": "2026-10-16",
+    "via": "reply"
   },
   "data_delivers": {
     "status": "submitted",
@@ -4676,8 +4676,8 @@
     "via": "email"
   },
   "peoplesmart": {
-    "status": "confirmed",
-    "changed": "2026-10-01",
+    "status": "submitted",
+    "changed": "2026-10-16",
     "via": "reply"
   },
   "peoplewhiz_com": {
@@ -4772,7 +4772,7 @@
   },
   "place_exchange": {
     "status": "not_found",
-    "changed": "2026-10-06",
+    "changed": "2026-10-15",
     "via": "reply"
   },
   "plaid": {
@@ -5086,9 +5086,9 @@
     "via": null
   },
   "rainbarrel": {
-    "status": "submitted",
-    "changed": "2026-08-28",
-    "via": "email"
+    "status": "confirmed",
+    "changed": "2026-10-15",
+    "via": "reply"
   },
   "rampedup": {
     "status": "unreachable",

@@ -1219,10 +1219,10 @@
       "needs_email_confirm": false,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "drieke@executiveenergy.com",
+      "email_to": "info@agrgroupinc.com",
       "email_verified": false,
       "email_verified_by": "state_registry",
-      "notes": "Both known addresses bounced: lzepeda@agrgroupinc.com (2026-08-25, 550 mailbox unavailable) and privacy@agrgroupinc.com, the current CA registry filing address (2026-08-25, 550 5.4.1 Access denied - Microsoft 365 rejects the recipient). agrgroupinc.com does not resolve over HTTP, so no company-site route exists either. No working email route as of 2026-08-25; postal fallback would need a registered-agent address lookup. || 2026-10-17: Found a third address, drieke@executiveenergy.com, via All Global Resources' Vermont Act 171 data broker registration (not previously checked -- prior notes only covered the CA registry). Sent the full consumer request there, cc info@agrgroupinc.com (which has accepted mail without bouncing, unlike privacy@ and lzepeda@). Not yet verified as delivered -- recording email_verified_by as state_registry pending a non-bounce or reply.",
+      "notes": "Both known addresses bounced: lzepeda@agrgroupinc.com (2026-08-25, 550 mailbox unavailable) and privacy@agrgroupinc.com, the current CA registry filing address (2026-08-25, 550 5.4.1 Access denied - Microsoft 365 rejects the recipient). agrgroupinc.com does not resolve over HTTP, so no company-site route exists either. No working email route as of 2026-08-25; postal fallback would need a registered-agent address lookup. || 2026-10-17: Found a third address, drieke@executiveenergy.com, via All Global Resources' Vermont Act 171 data broker registration (not previously checked -- prior notes only covered the CA registry). Sent the full consumer request there, cc info@agrgroupinc.com. || 2026-10-18: drieke@executiveenergy.com hard-bounced within a minute -- NXDOMAIN, the whole executiveenergy.com domain does not resolve, so the VT filing's contact is dead too. Four addresses across two domains now bounced or unreachable (lzepeda@, privacy@, the agrgroupinc.com website itself, and now drieke@). info@agrgroupinc.com is the only address on either domain that has never bounced -- it accepted the cc on both the August admin note and the October full request. Promoted it from cc to primary recipient and resent the full consumer request there directly. Not yet verified as delivered.",
       "registry_years": [
         "2020-2023",
         "2024"

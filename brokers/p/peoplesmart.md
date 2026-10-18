@@ -8,9 +8,10 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-19)
+- Current: `submitted` (updated 2026-10-16) — escalated, awaiting substantive answer
+- Note: FIRST REPLY EVER, 2026-10-16, fifty-eight days after the original letter — a Zendesk ticket acknowledgement only ("We have escalated this request to our privacy team, they will be able to assist you"), not a substantive answer. **Correction to this row's history: an earlier version of this file/ledger recorded this broker as `confirmed` as of 2026-10-01. That was wrong — there is no PeopleSmart-specific reply anywhere in the record before 2026-10-16, only the BeenVerified cross-brand statement noted below, which this project's own notes already flagged as "supporting context, not independent confirmation."** The follow-up that produced this reply made the sibling-brand asymmetry explicit: PeopleSmart is the only one of six People Connect/Lifetime Value Co-family brands written to that was contacted via a `privacy@` address rather than a support/ticketing address, and the only one that had never responded — evidence the problem was likely the route (an unmonitored privacy@ mailbox) rather than a refusal. Asked directly whether `privacy@peoplesmart.com` is monitored at all. Awaiting the privacy team's actual answer; do not mark this `confirmed` again until a PeopleSmart-specific match/no-match statement exists.
 - 2026-09-30: BeenVerified (same Lifetime Value Co family, via the freephonetracer.com exchange) stated an opt-out on one family brand is applied to all of them, PeopleSmart included. Noted as supporting context, not independent confirmation — no PeopleSmart-specific match/no-match answer exists. See `beenverified.md` and `freephonetracer.md`.
-- Note: People search, contact CONFIRMED against their published page. Led with the shared-index scope question rather than the deletion, stating the asymmetry plainly: where several brands query one store, a removal applied to one brand and a confirmation scoped to that brand are indistinguishable from a complete removal until someone finds you on a sibling - and only the operator can see which is which.
+- 2026-08-19: People search, contact CONFIRMED against their published page. Led with the shared-index scope question rather than the deletion, stating the asymmetry plainly: where several brands query one store, a removal applied to one brand and a confirmation scoped to that brand are indistinguishable from a complete removal until someone finds you on a sibling - and only the operator can see which is which.
 
 ## Steps
 
@@ -25,13 +26,7 @@
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+**A `privacy@` address can sit unmonitored for two months while sibling brands on the same support desk answer within hours.** Six brands in one group, five reached via a support/Zendesk address and all five answered (some twice); the one reached via `privacy@` got silence until a direct follow-up asked point-blank whether the address is monitored. If a broker in a known family hasn't answered, check whether sibling brands use a different kind of address before assuming refusal — the silence may be the mailbox, not the company.
 
 ## Verification
 

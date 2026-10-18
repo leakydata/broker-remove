@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-28)
-- Note: Recovered from the committed playbook brokers/r/rainbarrel.md, because the ledger carries no notes and this row's status had no evidence behind it: Recovered from Gmail Sent folder -- letter sent 2026-08-25 to privacy@rbarrel.com, not recorded in tracker/ledger at the time.
+- Current: `confirmed` (updated 2026-10-15)
+- Note: RESOLVED 2026-10-15. RainBarrel and Cross Pixel (see `cross_pixel.md`) both file `privacy@rbarrel.com` as their registered contact, and one letter to that mailbox — sent in Cross Pixel's name on 2026-08-25 — produced one reply covering both brand registrations. RainBarrel's reply: searched its pseudonymous (cookie ID / Mobile Advertising ID) dataset against the identifiers given, found no matching record, "no existing records required deletion," and added the identifiers to an internal suppression file so a future match is blocked going forward. Treat this entry as closed on the strength of the `cross_pixel.md` reply — no separate letter was ever sent to RainBarrel under its own name, and none is needed.
+- 2026-08-28: Recovered from the committed playbook brokers/r/rainbarrel.md, because the ledger carries no notes and this row's status had no evidence behind it: Recovered from Gmail Sent folder -- letter sent 2026-08-25 to privacy@rbarrel.com, not recorded in tracker/ledger at the time.
 
 ## Steps
 
@@ -18,9 +19,11 @@
 
 **Recovered from the Sent folder, not the tracker.** This letter went out before this project's shared ledger (`removal_ledger.json`) picked it up, so it briefly looked pending when it wasn't. Always check `in:sent` for a broker's domain before adding it to a batch — the ledger is a floor, not a complete record.
 
+**Same mailbox, two registry rows.** RainBarrel and Cross Pixel file the identical contact address (`privacy@rbarrel.com`). One letter resolved both — check for this before sending a second, near-duplicate letter to a mailbox you've already written to under a sibling brand's name.
+
 ## Verification
 
-No confirmation yet. Nothing public to re-search.
+Reply confirmed no matching record on the identifiers supplied, plus a forward-looking suppression. Nothing public to re-search (ad-tech identity graph, not a listing site).
 
 ## Who they are, and how to reach them
 
