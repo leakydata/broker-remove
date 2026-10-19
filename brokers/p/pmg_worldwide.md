@@ -7,13 +7,33 @@
 
 ## Status
 
-- Current: `manual_required` (updated 2026-08-28)
-- Note: Recovered from the committed playbook brokers/p/pmg_worldwide.md, because the ledger carries no notes and this row's status had no evidence behind it: 2026-08-27: first contact. PMG is a media/marketing agency, so used the ad-tech variant: hashed email, advertising/cookie IDs, modelled audience segments, and asked them to confirm client campaign data and DSP/SSP partners were directed to do the same.
+- Current: `manual_required` (updated 2026-10-18)
+- 2026-10-18: Request `FM6XRMKND5` has sent six near-identical "Needs Attention"
+  notices since 2026-10-11 (initial confirm, then comments on 13th, 14th, 15th,
+  16th, 17th x2, 18th). Every "View request" link lands on OneTrust's access-code
+  screen, which demands a distorted-image CAPTCHA before it will even email a
+  code — this project does not solve CAPTCHAs, so the comment itself has never
+  been read. On 2026-10-17 wrote to `dataprivacy@pmg.com` directly explaining
+  this and pre-answering the four things a privacy desk usually asks (identity,
+  state of residence, identifiers, scope). The reply, from
+  `dataprivacy+noreply@pmg.com`, was the same canned template as Koddi/Kargo
+  (see Gotchas) and named a **different, ungated route**: `https://www.pmg.com/dsr-form`.
+  That is not the same URL as `optout_url` above (`/your-privacy-choices`) —
+  worth checking both exist and lead somewhere real. Queued for a human via
+  `handoff.py` since it needs a browser; not yet attempted.
+- 2026-08-27: first contact. PMG is a media/marketing agency, so used the ad-tech variant: hashed email, advertising/cookie IDs, modelled audience segments, and asked them to confirm client campaign data and DSP/SSP partners were directed to do the same.
 
 ## Steps
 
 1. Do not expect an email reply to answer anything — `dataprivacy+noreply@pmg.com`
    is a canned autoresponder (see Gotchas). Use whatever web form/portal it names.
+2. The OneTrust portal link in "Needs Attention" emails is a dead end without a
+   browser: it requires solving an image CAPTCHA just to get an access code
+   emailed, before you can even read the comment. Don't burn an email round
+   asking PMG to repeat the comment by email — the canned reply (if any comes)
+   just repeats the form link. Go straight to the form.
+3. Use `https://www.pmg.com/dsr-form`, named explicitly in the 2026-10-17
+   autoresponder, rather than guessing at `/your-privacy-choices`.
 
 ## Gotchas
 
@@ -24,6 +44,14 @@ boilerplate, different company name substituted — almost certainly a shared
 privacy-ops vendor or template across these three. Treat any `+noreply`
 sender the same way: don't spend an email round asking it a question, look
 for the web form it names instead.
+
+**The OneTrust "Needs Attention" portal is CAPTCHA-gated before you can even
+read what it says.** The emailed link does not open the request directly — it
+opens a "request an access code" screen behind a distorted-image CAPTCHA, and
+the code it would eventually email expires in 15 minutes. Six notices arrived
+over a week without the comment ever being readable. The working fallback is
+PMG's own `dataprivacy@pmg.com` mailbox (filed with the CA registry) and the
+`/dsr-form` link that its autoresponder names — not the OneTrust portal.
 
 ## Verification
 

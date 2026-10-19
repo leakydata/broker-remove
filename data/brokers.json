@@ -17686,7 +17686,7 @@
     "2026"
    ],
    "legal_name": null,
-   "email_note": "|| 2026-08-30 REQUEST URL FOUND ON THEIR OWN SITE (SILENT_FAILURES 203a), via scripts/find_request_urls.py: https://www.pmg.com/your-privacy-choices -- recovered from their published privacy pages rather than from a mailed link, which is the route that can be corrupted in transit. Use this directly; no discovery needed.",
+   "email_note": "|| 2026-08-30 REQUEST URL FOUND ON THEIR OWN SITE (SILENT_FAILURES 203a), via scripts/find_request_urls.py: https://www.pmg.com/your-privacy-choices -- recovered from their published privacy pages rather than from a mailed link, which is the route that can be corrupted in transit. Use this directly; no discovery needed. || 2026-10-18: Email route is now closed -- dataprivacy+noreply@pmg.com's canned autoresponder (same template used by Koddi/Kargo) says email requests aren't accepted and names a second form, https://www.pmg.com/dsr-form, distinct from /your-privacy-choices above. Their OneTrust portal (request FM6XRMKND5) is also unusable: the emailed link requires solving an image CAPTCHA just to get an access code before the comment can even be read. Queued /dsr-form for a human via handoff.py.",
    "category": "adtech",
    "category_source": "site_classifier 2026-08-31",
    "listing_basis": "state_register",
@@ -24144,7 +24144,7 @@
    "email_verified": false,
    "email_verified_by": "bounced",
    "listing_basis": "unknown",
-   "notes": "contact@whoseno.com is published in the privacy policy (Section 8) but only as Cloudflare-obfuscated markup -- decoded out of the page, it hard-bounces 550 5.1.1 User doesn't exist. The site publishes no other email anywhere; the only remaining route is the /contact-us web form in the footer. No CAPTCHA confirmed yet on that form -- needs a human/browser to attempt it.",
+   "notes": "contact@whoseno.com is published in the privacy policy (Section 8) but only as Cloudflare-obfuscated markup -- decoded out of the page, it hard-bounces 550 5.1.1 User doesn't exist. The site publishes no other email anywhere. || 2026-10-17: The /contact-us form is NOT CAPTCHA-gated and works -- submission relays by email from smtp@whoseno.com to a human at a personal Gmail address, who replied same-day. First reply said the submitted phone numbers weren't found; replied asking whether the name+DOB combination was also searched and requesting a forward-looking suppression on the current number only. Awaiting that reply.",
    "email_verified_was": "privacy_policy",
    "route_evidence": "none"
   },

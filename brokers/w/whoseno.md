@@ -8,21 +8,37 @@
 
 ## Status
 
-- Current: `manual_required` (updated 2026-10-17)
-- Note: `contact@whoseno.com`, the address named in Section 8 of the privacy policy, is published only as Cloudflare-obfuscated markup (`data-cfemail`) — a plain-text scrape of the rendered page returns nothing, and a consumer reading the page in a browser cannot copy it either, only see rendered text that looks like an address. Decoded it out of the page source and sent the full consumer request. It hard-bounced in under a minute: `550 5.1.1 <contact@whoseno.com>: ... User doesn't exist`. **The address is markup, not a mailbox** — being named in a privacy policy is not evidence a mailbox exists behind it; that only comes from sending and not bouncing. The site publishes no other email anywhere (homepage, footer, contact page all checked). The only remaining route is the `/contact-us` web form in the footer navigation — not yet attempted, CAPTCHA status unknown. Needs a human with a browser.
+- Current: `replied` (updated 2026-10-17)
+- 2026-10-17: **The `/contact-us` form works and is not CAPTCHA-gated.** Submitting
+  it (name, email, message) does not go to a human review queue silently — it
+  is relayed by email from `smtp@whoseno.com` and reaches a real person, who
+  replied same-day from a personal Gmail address (`mawaisch4@gmail.com`,
+  signed "Awais"). His first reply: *"We checked our database and did not find
+  these numbers in our system. Please share the exact URL where you can see
+  this information so we can investigate further."* Replied explaining that a
+  reverse-phone site builds result pages on the fly from a search, so there is
+  no fixed listing URL to hand over, and running a search ourselves would
+  itself create a new lookup record — then asked two follow-ups: (1) did the
+  search also cover the name + DOB, or only the bare numbers, and (2) please
+  add the current number to any suppression list, scoped to the current
+  number only (see the reassigned-number limit below). Awaiting that reply.
+- 2026-10-17 (earlier): `contact@whoseno.com`, the address named in Section 8 of the privacy policy, is published only as Cloudflare-obfuscated markup (`data-cfemail`) — a plain-text scrape of the rendered page returns nothing, and a consumer reading the page in a browser cannot copy it either, only see rendered text that looks like an address. Decoded it out of the page source and sent the full consumer request. It hard-bounced in under a minute: `550 5.1.1 <contact@whoseno.com>: ... User doesn't exist`. **The address is markup, not a mailbox** — being named in a privacy policy is not evidence a mailbox exists behind it; that only comes from sending and not bouncing.
 
 ## Steps
 
-1. Go to https://whoseno.com/contact-us and fill in the form (name, email, message). Ask for deletion, opt-out of sale/sharing, and a forward-looking suppression — the form has no structured fields for this, so put it in the message body.
+1. Go to https://whoseno.com/contact-us and fill in the form (name, email, message) — **no CAPTCHA, confirmed working.** Ask for deletion, opt-out of sale/sharing, and a forward-looking suppression — the form has no structured fields for this, so put it in the message body.
 2. Do **not** try `contact@whoseno.com` even though it is what the privacy policy names — it hard-bounces (see Status). Decoding a `data-cfemail` string off a page proves someone once typed it into a template; it does not prove a mailbox exists behind it.
 3. Lead with the prior telephone numbers, not current ones or postal addresses — this is a reverse-phone-lookup service, so its index is built on numbers, and the obsolete ones are the likely matches.
 4. Ask whether the removal is a one-time suppression or standing, since reverse-phone indexes are commonly rebuilt from fresh carrier/porting data.
+5. Expect the reply from a personal-looking Gmail address, not a company domain — the form's backend relays to `smtp@whoseno.com`, which forwards to a human's personal mailbox. Treat the reply as legitimate (it quoted the submitted form content back correctly) despite the mismatched domain.
+6. If they say a number wasn't found, don't offer a listing URL on request — a reverse-lookup site builds its results on demand per search, so there is no fixed page, and running your own search to get one would create a new record. Say so and ask instead what was searched (bare number vs. name+DOB).
 
 ## Gotchas
 
 - **Obfuscated contact addresses are unverified until tested.** This is now a recurring pattern across people-search sites (see `_SILENT_FAILURES.md` §627–§629): decoding a Cloudflare-protected email out of a privacy policy recovers a string someone once entered into a template, not a working route. Always send to it and check for a bounce before recording it as a real contact.
-- **CAPTCHA:** unknown — nobody has attempted the `/contact-us` form yet.
-- **Commit-then-continue / controlled inputs:** unknown, same reason.
+- **CAPTCHA:** none — the `/contact-us` form submits cleanly.
+- **Commit-then-continue / controlled inputs:** none observed; a single message field is all the form has.
+- **A "not found" reply may only mean they searched the bare number.** Don't take a negative at face value until you've confirmed whether the name + DOB combination was also searched — ask explicitly.
 
 ## Verification
 
