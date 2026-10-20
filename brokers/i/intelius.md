@@ -61,6 +61,24 @@ mostly (b) — affiliate/referral sites with no independent record store, not
 already dead and nothing to do. No further action; this closes the
 domain-family question raised in the 31 August round.
 
+## Suppression scope is at the data layer, not per-brand (2026-10-19)
+
+A separate, sharper question: `onlinesearches.com` identifies itself in three
+places as an Intelius brand (privacy link to intelius.com/privacy-policy, a
+"powered by Intelius" disclaimer, and `"brand":"Intelius"` in its own page
+analytics payload) but isn't one of the five names (Intelius, TruthFinder,
+InstantCheckmate, USSearch, Classmates) the original request listed. Asked
+directly whether the existing suppression reaches brands by name or by data
+layer. Reply: *"Suppressions are processed at the report level and applied
+across public-records search sites within the same corporate family."* Read
+as (a) from the original framing — the suppression is held at the report/data
+level and applies to every sibling brand drawing on it, onlinesearches.com
+included, with no separate filing needed. This is the stronger of the two
+possible answers and, unlike a brand-scoped suppression, should also reach a
+not-yet-launched sibling site built on the same underlying records. Treat
+this as closing the brand-scope question for the PeopleConnect/Intelius
+family generally, not just for onlinesearches.com.
+
 ## Who they are, and how to reach them
 
 *Filed by the company itself with a state data broker registry — a public

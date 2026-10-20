@@ -4,6 +4,25 @@
 - **Method:** web_form + reCAPTCHA
 - **Email fallback:** privacy@spokeo.com
 
+## Status
+
+- Current: `replied` (updated 2026-10-20)
+- Note: Spokeo's own CA/filing discloses that the self-service opt-out
+  excludes Thatsthem.com, and separately states that its Customer Care route
+  (`legal@spokeo.com` or the methods at spokeo.com/contact) "will gladly
+  assist consumers with completing an opt out request for all of Spokeo's
+  public websites" — i.e. the filing itself claims the Customer Care route
+  reaches Thatsthem too. A 2026-10-11 letter to `legal@spokeo.com` asked
+  Spokeo to (1) say which of its six named properties the opt-out was
+  applied to, (2) confirm whether Thatsthem was actually included or
+  whether the carve-out survives even through Customer Care, and (3) say
+  what the suppression keys on. Only (2) has been answered so far, and not
+  by Spokeo: ThatsThem's own support desk (`support@thatsthem.zendesk.com`)
+  picked up the thread and removed the Thatsthem listing directly — see
+  `brokers/t/thatsthem.md`. Spokeo/legal@spokeo.com has not yet answered (1)
+  or (3) directly. Keep this open rather than assuming the rest of the
+  letter was absorbed into the Thatsthem reply.
+
 ## Steps
 1. Spokeo needs a *profile URL*, not a name. Search first:
    `https://www.spokeo.com/{First}-{Last}/{State}/{City}` (e.g. `/Jane-Smith/Texas/Houston`)

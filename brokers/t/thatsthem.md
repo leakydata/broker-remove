@@ -3,6 +3,24 @@
 - **Opt-out:** https://thatsthem.com/optout
 - **Method:** web_form, no CAPTCHA. Fully automatable.
 
+## Status
+
+- Current: `confirmed` (updated 2026-10-20)
+- Note: Spokeo's own registration discloses a carve-out — its self-service
+  opt-out and (per the filing) its Customer Care route both exclude
+  Thatsthem.com, which requires its own separate request. A letter to
+  `legal@spokeo.com` naming the carve-out and asking for Thatsthem coverage
+  got forwarded internally: ThatsThem support (`support@thatsthem.zendesk.com`,
+  agent Nik, ticket visible via Zendesk) replied on the same thread 2026-10-19:
+  *"I was able to successfully remove the listings associated with the
+  specific information provided. Please allow 24-72 hours to see this reflect
+  on our site."* That is a broker-issued removal confirmation, so `confirmed`
+  is earned — but note it came through Spokeo's internal routing, not through
+  ThatsThem's own `/optout` form or `optout@thatsthem.com` address. If working
+  this broker fresh (not via a Spokeo escalation), use the form below first;
+  only fall back to Spokeo's legal address if ThatsThem's own channel goes
+  unanswered.
+
 ## Steps
 Single page form, all fields required:
 Full Name / Street Address / City / State (select, 2-letter) / ZIP / Email / Phone

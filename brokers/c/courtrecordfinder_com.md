@@ -7,8 +7,33 @@
 
 ## Status
 
-- Current: `replied` (updated 2026-10-10)
-- Note: DELIBERATE REGRESSION FROM confirmed. THE ROW'S OWN NOTE ASKED FOR THIS -- 'Adopted from the shared ledger: another agent recorded confirmed on 2026-09-18. No detail is carried across -- re-read the broker's own reply before relying on this.' Re-read today. THE REPLY WAS ABOUT A DIFFERENT WEBSITE. CIS Nationwide (privacy@cisnationwide.com is the published privacy contact for courtrecordfinder.com) wrote on 2026-09-17: 'Your request relates to the website hosted on cisnationwide.com. That website is no longer active and all information has been removed from that domain. As such, your request is now moot... This is our final response.' The request was about COURTRECORDFINDER.COM. Nothing in the reply addresses it, so confirmed was never earned -- this is the SECOND shared-ledger row today whose adopted status did not survive reading the underlying mail, after cause_iq. THE LINKIFIER BUG DID REAL DAMAGE, and that is the finding worth keeping. scripts/letter_html.py exists because Gmail rewrites bare domains into google.com/url tracking redirects AND REPLACES THE VISIBLE TEXT. This letter went as plain text, so the protection did not apply: as received, both the subject line and the opening sentence read 'I am writing about https://www.google.com/url?q=http://courtrecordfinder.com&source=gmail&ust=...' -- the site name buried inside a redirect. A reader skimming that could easily resolve 'which site does he mean' to the sender's own domain. letter_html recorded this as a cosmetic and credibility problem; it is also a CORRECTNESS problem, and this is the first case where it demonstrably cost an answer. EVERY letter naming a specific site must go as HTML. Replied owning the mistake plainly, restating the domain with no links at all, and asking three things. (1) Does the answer cover courtrecordfinder.com, or is that a separate live property? (2) WHERE DID THE DATA GO -- 'removed from that domain' is true of the DOMAIN and silent about the DATA; asked whether records are still held offline, migrated to a sister site, or returned to a supplier, citing the RMI/AudienceFirst case in 458 where a shutdown moved a company's book rather than destroying it. (3) Which other properties were searched, since court-record aggregation usually runs several front-ends over one shared index. Also asked for a DO-NOT-ADD ENTRY rather than mere absence from a dead site: a deletion that happens because a website was switched off is not a suppression, costs nothing to grant if the data really is gone, and is the only thing that survives a relaunch or a sale of the index.
+- Current: `confirmed` (updated 2026-10-20)
+- Note: THE FOLLOW-UP WORKED. The 2026-09-17 reply answered about the wrong
+  site (cisnationwide.com instead of courtrecordfinder.com — see history
+  below for why), so the prior agent correctly regressed the status from
+  `confirmed` back to `replied` and sent a plain-text, no-links follow-up
+  naming the domain explicitly and asking three questions. CIS Nationwide
+  replied again on 2026-10-20, this time explicitly: *"Thank you for your
+  follow-up and for the clarification regarding courtrecordfinder.com. The
+  site is no longer active and cannot be accessed. The information relating
+  to your request has been deleted in accordance with applicable privacy
+  laws, and will not be republished... there is nothing further retained on
+  our side, and we will consider this matter closed."* This names the
+  right domain this time, so `confirmed` is earned. It does not answer the
+  other two questions from the follow-up (where the data went, which other
+  properties were searched) — treat those as open if this operator is ever
+  recontacted, but a dead, delisted domain with an explicit non-republication
+  statement is as complete an outcome as this one gets.
+- Prior (2026-09-17, now understood to be about the wrong site): CIS
+  Nationwide wrote 'Your request relates to the website hosted on
+  cisnationwide.com. That website is no longer active and all information
+  has been removed from that domain... This is our final response.' THE
+  LINKIFIER BUG DID REAL DAMAGE: `scripts/letter_html.py` exists because
+  Gmail rewrites bare domains into `google.com/url` tracking redirects AND
+  REPLACES THE VISIBLE TEXT. That letter went as plain text, so the
+  protection did not apply, and the site name was buried inside a redirect —
+  a reader skimming it could easily read "courtrecordfinder.com" as the
+  sender's own domain. EVERY letter naming a specific site must go as HTML.
 
 ## Steps
 
@@ -20,13 +45,21 @@
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+- **The operator's own address is shared with an unrelated domain.**
+  `privacy@cisnationwide.com` handles mail for both `courtrecordfinder.com`
+  (this id) and `cisnationwide.com` itself (a separate registry row,
+  `cisnationwide`, if one exists). A generic reply about "the website" is
+  ambiguous between the two — always name the domain explicitly, in the
+  subject line and the opening sentence, and send the letter as HTML (see
+  `scripts/letter_html.py`) so Gmail's link-rewriting doesn't bury the
+  domain inside a `google.com/url` redirect. A plain-text letter here
+  produced exactly that ambiguity and got answered about the wrong site.
+- No CAPTCHA was ever encountered — the whole exchange happened over email.
+- The outcome here was "the site is dead, so the request is moot" rather
+  than an active deletion against a live index. That is a legitimate
+  closure, but it says nothing about whether the underlying court-record
+  data moved to a successor site or was returned to a supplier — see the
+  Status note above.
 
 ## Verification
 

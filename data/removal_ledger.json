@@ -1382,8 +1382,8 @@
     "via": "email"
   },
   "courtrecordfinder_com": {
-    "status": "replied",
-    "changed": "2026-10-10",
+    "status": "confirmed",
+    "changed": "2026-10-20",
     "via": "reply"
   },
   "courtrecords_us": {
@@ -6126,9 +6126,9 @@
     "via": null
   },
   "thatsthem": {
-    "status": "submitted",
-    "changed": "2026-08-15",
-    "via": null,
+    "status": "confirmed",
+    "changed": "2026-10-20",
+    "via": "reply",
     "supplemented": true
   },
   "the_autominer_trupayments_purecars": {
@@ -6792,6 +6792,11 @@
     "changed": "2026-08-28",
     "via": "email"
   },
+  "whoseno": {
+    "status": "manual_required",
+    "changed": "2026-10-17",
+    "via": "web_form"
+  },
   "whoxy": {
     "status": "manual_required",
     "changed": "2026-08-31",
@@ -6971,10 +6976,5 @@
     "status": "confirmed",
     "changed": "2026-09-21",
     "via": "reply"
-  },
-  "whoseno": {
-    "status": "manual_required",
-    "changed": "2026-10-17",
-    "via": "web_form"
   }
 }
