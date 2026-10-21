@@ -112,3 +112,8 @@ Work down this list. Each rung costs them more than the one above it.
 **What not to bother with:** phoning a support line to argue. The person who
 answers cannot change the policy and did not write it. The registry entry, the
 statutory deadline and the regulator are what actually move a company.
+- 2026-10-21: "(Request ID: 6HAX6GAS85) Your privacy-related request has been
+  completed" -- a third OneTrust closure notice, for a ticket ID not seen in
+  any earlier note (likely another follow-up the portal logged as a new
+  request, the 09-07 pattern). Content-free like TJJGDWK79K; the
+  do-not-sell/do-not-share confirmation is still unanswered. Status unchanged.
