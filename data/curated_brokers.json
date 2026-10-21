@@ -171,9 +171,9 @@
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "contact@5x5data.com",
-      "email_verified": false,
-      "email_verified_by": "domain_typo_corrected",
+      "email_to": "privacy@5x5coop.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy",
       "registry_years": [
         "2026"
       ],
@@ -219,8 +219,8 @@
       "category": "b2b_contact",
       "source": "privacyinsightsolutions",
       "email_to": "privacy@spiceworks.com",
-      "email_verified": false,
-      "email_verified_by": "offdomain_needs_confirmation",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy",
       "notes": "privacy@spiceworks.com is not on aberdeen.com -- the site publishes no address on the broker's own domain. Either an acquisition (route is correct) or a wrong domain in the registry (route is a stranger). Confirm the corporate relationship before sending: the letter carries a full identifier set.",
       "category_source": " | normalised from 'b2b' 2026-09-01",
       "listing_basis": "third_party_directory"
@@ -683,7 +683,7 @@
       "optery_slug": null,
       "email_to": "info@adrearubin.com",
       "email_verified": false,
-      "email_verified_by": "bounced",
+      "email_verified_by": "no_address_published",
       "registry_years": [
         "2020-2023"
       ],
@@ -788,8 +788,8 @@
       "source": "optery_scrape",
       "optery_slug": "adttribution",
       "email_to": "hello@adttribution.com",
-      "email_verified": false,
-      "email_verified_by": "domain_typo_corrected",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy",
       "email_alt": "hello@adttrbution.com (UNDELIVERABLE - domain has no MX and no A)",
       "notes": "Site publishes hello@adttribution.com; info@adttribution.com is more privacy-specific but appears nowhere on the site. Try the alternate if this goes unanswered. Registry keeps info@adttribution.com (purpose-built for this request type); the site publishes hello@adttribution.com, retained as a fallback. The registered contact hello@adttrbution.com is undeliverable - that domain publishes no mail records at all. Almost certainly a typo in the filing. Rewritten onto the broker's own domain; unverified until a reply arrives.",
       "registry_years": [
@@ -1593,8 +1593,8 @@
       "source": "ca_data_broker_registry",
       "optery_slug": null,
       "email_to": "dpo@verinext.com",
-      "email_verified": false,
-      "email_verified_by": "rejected_ambiguous",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy",
       "registry_years": [
         "2020-2023"
       ],
@@ -2244,14 +2244,14 @@
       "optery_slug": null,
       "email_to": "optout@experian.com",
       "email_verified": false,
-      "email_verified_by": "registry_contact_unmonitored",
+      "email_verified_by": null,
       "registry_years": [
         "2024",
         "2025",
         "2026"
       ],
       "legal_name": "Predictive Pop, Inc.",
-      "email_alt": "ca_drop_audigent@experian.com",
+      "email_alt": "sales@audigent.com",
       "notes": "The ca_drop_* address in their California registration auto-replies 'This inbox is not monitored and cannot process or respond to requests.' Likely a DELETE Act DROP batch mailbox rather than a consumer channel - correct for its purpose, wrong as the published contact. Rerouted to optout@experian.com.",
       "category": "adtech",
       "category_source": "site_classifier 2026-08-31",
@@ -2355,7 +2355,7 @@
       "optery_slug": null,
       "email_to": "contact@aviato.co",
       "email_verified": false,
-      "email_verified_by": "bounced",
+      "email_verified_by": "no_address_published",
       "registry_years": [
         "2025",
         "2026"
@@ -2453,8 +2453,8 @@
       "source": "ca_data_broker_registry",
       "optery_slug": null,
       "email_to": "dpo@biscience.com",
-      "email_verified": false,
-      "email_verified_by": "domain_typo_corrected",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy",
       "registry_years": [
         "2025"
       ],
@@ -3313,8 +3313,8 @@
       "category": "b2b_contact",
       "source": "privacyinsightsolutions",
       "email_to": "sales@brightdata.com",
-      "email_verified": false,
-      "email_verified_by": "published_general_mailbox",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy",
       "notes": "sales@brightdata.com is the only address published on the site and is a general mailbox, not a rights channel. Re-check for a privacy contact before treating silence as refusal.",
       "category_source": " | normalised from 'scraping' 2026-09-01",
       "listing_basis": "third_party_directory"
@@ -3805,7 +3805,7 @@
       "optery_slug": "callersmart",
       "email_to": "feedback@callersmart.com",
       "email_verified": false,
-      "email_verified_by": "declared_unmonitored_by_company",
+      "email_verified_by": "no_address_published",
       "category": "people_search",
       "category_source": "site_classifier 2026-08-31",
       "listing_basis": "third_party_directory",
@@ -4397,9 +4397,9 @@
       "source": "optery_scrape",
       "optery_slug": "citydata",
       "email_to": "business@citydata.ai",
-      "email_verified": false,
+      "email_verified": true,
       "notes": "privacy@citydata.ai is a restricted Google Group that rejects outside senders. Resent 2026-08-22 to business@citydata.ai, the alt address.",
-      "email_verified_by": "delivery_evidence",
+      "email_verified_by": "privacy_policy",
       "email_alt": "privacy@citydata.ai",
       "registry_years": [
         "2020-2023",
@@ -4709,8 +4709,8 @@
       "source": "supplier_disclosure",
       "optery_slug": null,
       "email_to": "hello@cloudlead.co",
-      "email_verified": false,
-      "email_verified_by": "published_but_bounced",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy",
       "notes": "Named by Kaspr as a supplier; in no broker list. BOTH support addresses published on their own site are dead: support@cloudlead.co returns 550 5.1.1 though the domain has live Google MX, and cloudlead.io has no MX and serves no site. Their published opt-out is a 2020 blog post about cold-email practice, not a mechanism. Writing to hello@cloudlead.co instead.",
       "email_alt": "support@cloudlead.co (DEAD - 550 5.1.1), support@cloudlead.io (DEAD - no MX)",
       "category": "b2b_contact",
@@ -5224,7 +5224,7 @@
       "optery_slug": "connext-digital",
       "email_to": "info@connextdigital.com",
       "email_verified": false,
-      "email_verified_by": "bounced",
+      "email_verified_by": "no_address_published",
       "notes": "Both info@connextdigital.com (2026-08-17) and privacy@connextdigital.com (2026-08-22) hard-bounce 550 5.1.1. No alternative address published anywhere on the site. Domain/MX resolve — live domain, no working mailbox. No usable email route; do not resend to either address.",
       "email_alt": "privacy@connextdigital.com",
       "registry_years": [
@@ -5376,8 +5376,8 @@
       "needs_email_confirm": false,
       "notes": "CoreLogic now trades as Cotality - privacy policy moved domains. privacy@cotality.com is not on corelogic.com -- the site publishes no address on the broker's own domain. Either an acquisition (route is correct) or a wrong domain in the registry (route is a stranger). Confirm the corporate relationship before sending: the letter carries a full identifier set. Resolves to cotality.com, the same site as corelogic_cotality. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the corelogic_cotality thread rather than opening a second request.",
       "email_to": "privacy@cotality.com",
-      "email_verified": false,
-      "email_verified_by": "offdomain_needs_confirmation",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy",
       "duplicate_of": "corelogic_cotality",
       "category": "b2b_contact",
       "category_source": "site_classifier 2026-08-31"
@@ -5413,8 +5413,8 @@
       "category_source": "site_classifier 2026-08-31",
       "listing_basis": "named_by_company",
       "email_to": "sales@coresignal.com",
-      "email_verified": false,
-      "email_verified_by": "published_general_mailbox"
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
     },
     {
       "id": "corporationwiki",
@@ -5426,8 +5426,8 @@
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "corporationwiki",
-      "email_verified": false,
-      "email_verified_by": "offdomain_needs_confirmation",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy",
       "listing_basis": "third_party_directory",
       "email_to": "support@atlas.net",
       "notes": "support@atlas.net is not on corporationwiki.com -- the site publishes no address on the broker's own domain. Either an acquisition (route is correct) or a wrong domain in the registry (route is a stranger). Confirm the corporate relationship before sending: the letter carries a full identifier set."
@@ -5572,7 +5572,7 @@
       "optery_slug": null,
       "email_to": "privacy@crawlbee.com",
       "email_verified": false,
-      "email_verified_by": "bounced",
+      "email_verified_by": "no_address_published",
       "registry_years": [
         "2024",
         "2025"
@@ -5950,8 +5950,8 @@
       "source": "optery_scrape",
       "optery_slug": "d-dots",
       "email_to": "support@ddotslab.com",
-      "email_verified": false,
-      "email_verified_by": "bounced",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy",
       "notes": "Published address hard-bounces (550); no alternative published.",
       "email_verified_was": "privacy_policy",
       "listing_basis": "third_party_directory"
@@ -6100,7 +6100,9 @@
       "notes": "Dedicated privacy-rights request form.",
       "email_to": "privacyteam@data-axle.com",
       "category": "adtech",
-      "category_source": "site_classifier 2026-08-31"
+      "category_source": "site_classifier 2026-08-31",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy"
     },
     {
       "id": "databaseusa",
@@ -6950,9 +6952,9 @@
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "dexknows-com",
-      "email_to": "clientcareemail@thryv.com",
-      "email_verified": false,
-      "email_verified_by": null,
+      "email_to": "support@thryv.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy",
       "listing_basis": "third_party_directory"
     },
     {
@@ -8365,7 +8367,7 @@
       "needs_email_confirm": false,
       "email_to": "optout@experian.com",
       "email_verified": false,
-      "email_verified_by": "registry_contact_unmonitored",
+      "email_verified_by": "no_address_published",
       "email_alt": "ca_drop_fsd@experian.com",
       "registry_years": [
         "2020-2023",
@@ -8991,9 +8993,9 @@
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "five-by-five",
-      "email_to": "contact@5x5coop.com",
-      "email_verified": false,
-      "email_verified_by": "domain_typo_corrected",
+      "email_to": "privacy@5x5coop.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy",
       "email_alt": "contact@join5x5.com (UNDELIVERABLE - domain has no MX and no A)",
       "registry_years": [
         "2024",
@@ -9444,7 +9446,7 @@
       "optery_slug": "freebackgroundcheck-org",
       "email_to": "privacy@freebackgroundcheck.org",
       "email_verified": false,
-      "email_verified_by": "bounced",
+      "email_verified_by": null,
       "email_alt": "support@freebackgroundcheck.org",
       "notes": "Both published addresses hard-bounce (550): support@ from the home page and privacy@ from the privacy policy. Every actionable link in that policy points at web.archive.org snapshots, and the live optout URL redirects back to the policy. No working removal route exists. Google MX resolves, which routes mail but says nothing about whether a mailbox exists.",
       "email_verified_was": "privacy_policy",
@@ -11060,7 +11062,7 @@
       "optery_slug": null,
       "email_to": "chad@idengine.com",
       "email_verified": false,
-      "email_verified_by": "domain_typo_corrected",
+      "email_verified_by": "no_address_published",
       "registry_years": [
         "2024"
       ],
@@ -13817,7 +13819,7 @@
       "optery_slug": null,
       "email_to": "compliance@logiq.com",
       "email_verified": false,
-      "email_verified_by": "bounced",
+      "email_verified_by": "no_address_published",
       "registry_years": [
         "2020-2023"
       ],
@@ -15232,9 +15234,9 @@
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "modigie",
-      "email_to": "dpauli@modigie.com",
-      "email_verified": false,
-      "email_verified_by": "delivery_evidence",
+      "email_to": "support@modigie.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy",
       "email_alt": "support@modigie.com",
       "notes": "privacy@modigie.com is a restricted Google Group that rejects outside senders (bounces \"group may not exist / no permission to post\"). Resent 2026-08-22 to dpauli@modigie.com, the alt address.",
       "registry_years": [
@@ -15752,7 +15754,7 @@
       "optery_slug": "nc-solutions",
       "email_to": "ncs.privacy@ncsolutions.com",
       "email_verified": false,
-      "email_verified_by": null,
+      "email_verified_by": "no_address_published",
       "notes": "Previously flagged site_unreachable, but DNS resolves - the site refuses automated requests rather than being gone. The address is simply unverified, not dead.",
       "listing_basis": "third_party_directory"
     },
@@ -17301,7 +17303,7 @@
       "optery_slug": null,
       "email_to": "andy@mstreetlegal.com",
       "email_verified": false,
-      "email_verified_by": "broker_reply",
+      "email_verified_by": "no_address_published",
       "registry_years": [
         "2025",
         "2026"
@@ -17499,9 +17501,9 @@
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "outreach-io",
-      "email_to": "security@outreach.io",
-      "email_verified": false,
-      "email_verified_by": null,
+      "email_to": "privacy@outreach.io",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy",
       "email_alt": "support@outreach.io",
       "notes": "Registry keeps security@outreach.io (purpose-built for this request type); the site publishes support@outreach.io, retained as a fallback.",
       "category": "b2b_contact",
@@ -18081,7 +18083,7 @@
       "optery_slug": "peoplesearch123",
       "email_to": "support@peoplesearch123.com",
       "email_verified": false,
-      "email_verified_by": null,
+      "email_verified_by": "no_address_published",
       "listing_basis": "third_party_directory"
     },
     {
@@ -18096,7 +18098,7 @@
       "optery_slug": "peoplesearcher",
       "email_to": "support@peoplesearcher.com",
       "email_verified": false,
-      "email_verified_by": null,
+      "email_verified_by": "no_address_published",
       "listing_basis": "third_party_directory"
     },
     {
@@ -18124,7 +18126,7 @@
       "optery_slug": "peoplesearchusa",
       "email_to": "support@peoplesearchUSA.org",
       "email_verified": false,
-      "email_verified_by": null,
+      "email_verified_by": "no_address_published",
       "listing_basis": "third_party_directory"
     },
     {
@@ -18138,8 +18140,8 @@
       "source": "optery_scrape",
       "optery_slug": "peoplesmart",
       "email_to": "privacy@peoplesmart.com",
-      "email_verified": false,
-      "email_verified_by": null,
+      "email_verified": true,
+      "email_verified_by": "privacy_policy",
       "category": "people_search",
       "category_source": "site_classifier 2026-08-31",
       "listing_basis": "third_party_directory"
@@ -18176,7 +18178,7 @@
       "optery_slug": "peoplewhizr-com",
       "email_to": "support@peoplewhizr.com",
       "email_verified": false,
-      "email_verified_by": null,
+      "email_verified_by": "no_address_published",
       "notes": "No MX record of its own; sibling peoplewhiz.com carries the mail. Covered by the letter to support@peoplewhiz.com, which names both brands and asks them to confirm the relationship.",
       "listing_basis": "third_party_directory"
     },
@@ -18300,7 +18302,7 @@
       "optery_slug": "persopo-com",
       "email_to": "privacy@persopo.com",
       "email_verified": false,
-      "email_verified_by": null,
+      "email_verified_by": "no_address_published",
       "category": "people_search",
       "category_source": "site_classifier 2026-08-31",
       "listing_basis": "third_party_directory"
@@ -18552,8 +18554,8 @@
       "source": "optery_scrape",
       "optery_slug": "plexuss",
       "email_to": "compliance@plexuss.com",
-      "email_verified": false,
-      "email_verified_by": null,
+      "email_verified": true,
+      "email_verified_by": "privacy_policy",
       "listing_basis": "third_party_directory"
     },
     {
@@ -18818,7 +18820,7 @@
       "optery_slug": null,
       "email_to": "privacy@placeiq.com",
       "email_verified": false,
-      "email_verified_by": "bounced",
+      "email_verified_by": "no_address_published",
       "registry_years": [
         "2020-2023"
       ],
@@ -18960,7 +18962,7 @@
       "optery_slug": "privaterecords",
       "email_to": "support@privaterecords.net",
       "email_verified": false,
-      "email_verified_by": null,
+      "email_verified_by": "no_address_published",
       "listing_basis": "third_party_directory"
     },
     {
@@ -18975,7 +18977,7 @@
       "optery_slug": "privatereports",
       "email_to": "support@privatereports.com",
       "email_verified": false,
-      "email_verified_by": null,
+      "email_verified_by": "no_address_published",
       "listing_basis": "third_party_directory"
     },
     {
@@ -19069,7 +19071,8 @@
       "email_to": "privacy@propertychecker.com",
       "email_verified": false,
       "email_verified_by": null,
-      "listing_basis": "third_party_directory"
+      "listing_basis": "third_party_directory",
+      "email_alt": "support@propertychecker.com"
     },
     {
       "id": "propertychecker_com",
@@ -19102,8 +19105,8 @@
       "source": "optery_scrape",
       "optery_slug": "propertyiq",
       "email_to": "support@propertyiq.com",
-      "email_verified": false,
-      "email_verified_by": null,
+      "email_verified": true,
+      "email_verified_by": "privacy_policy",
       "category": "people_search",
       "category_source": "site_classifier 2026-08-31",
       "listing_basis": "third_party_directory"
@@ -19123,7 +19126,8 @@
       "email_verified_by": null,
       "category": "people_search",
       "category_source": "site_classifier 2026-08-31",
-      "listing_basis": "third_party_directory"
+      "listing_basis": "third_party_directory",
+      "email_alt": "support@propertyradar.com"
     },
     {
       "id": "propertyreach",
@@ -19156,9 +19160,9 @@
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "propertyrecord-com",
-      "email_to": "andy@Propertyrecord.com",
-      "email_verified": false,
-      "email_verified_by": null,
+      "email_to": "support@propertyrecord.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy",
       "category": "people_search",
       "category_source": "site_classifier 2026-08-31",
       "listing_basis": "third_party_directory"
@@ -19178,7 +19182,8 @@
       "email_verified_by": null,
       "category": "screening",
       "category_source": "site_classifier 2026-08-31",
-      "listing_basis": "third_party_directory"
+      "listing_basis": "third_party_directory",
+      "email_alt": "support@propertyrecs.com"
     },
     {
       "id": "propertyshark",
@@ -19313,7 +19318,7 @@
       "optery_slug": "public-libraries",
       "email_to": "netadmin@publiclibraries.com",
       "email_verified": false,
-      "email_verified_by": null,
+      "email_verified_by": "no_address_published",
       "category": "people_search",
       "category_source": "site_classifier 2026-08-31",
       "listing_basis": "third_party_directory"
@@ -19330,7 +19335,7 @@
       "optery_slug": "public-record-reports",
       "email_to": "support@publicrecordreports.com",
       "email_verified": false,
-      "email_verified_by": null,
+      "email_verified_by": "no_address_published",
       "category": "people_search",
       "category_source": "site_classifier 2026-08-31",
       "listing_basis": "third_party_directory"
@@ -19406,7 +19411,7 @@
       "optery_slug": "publicrecords-com",
       "email_to": "support@mailer.intelius.com",
       "email_verified": false,
-      "email_verified_by": null,
+      "email_verified_by": "no_address_published",
       "category": "people_search",
       "category_source": "site_classifier 2026-08-31",
       "listing_basis": "third_party_directory"
@@ -19440,8 +19445,8 @@
       "source": "optery_scrape",
       "optery_slug": "publicrecords-us",
       "email_to": "support@publicrecords.us",
-      "email_verified": false,
-      "email_verified_by": null,
+      "email_verified": true,
+      "email_verified_by": "privacy_policy",
       "category": "people_search",
       "category_source": "site_classifier 2026-08-31",
       "listing_basis": "third_party_directory"
@@ -19487,7 +19492,7 @@
       "optery_slug": "publicsearcher",
       "email_to": "support@publicsearcher.com",
       "email_verified": false,
-      "email_verified_by": null,
+      "email_verified_by": "no_address_published",
       "listing_basis": "third_party_directory"
     },
     {
@@ -19578,7 +19583,7 @@
       "optery_slug": "qualcomm",
       "email_to": "privacy@qualcomm.com",
       "email_verified": false,
-      "email_verified_by": null,
+      "email_verified_by": "no_address_published",
       "listing_basis": "third_party_directory"
     },
     {
@@ -19592,8 +19597,8 @@
       "source": "optery_scrape",
       "optery_slug": "qualfon",
       "email_to": "consumerprivacy@qualfon.com",
-      "email_verified": false,
-      "email_verified_by": null,
+      "email_verified": true,
+      "email_verified_by": "privacy_policy",
       "category": "b2b_contact",
       "category_source": "site_classifier 2026-08-31",
       "listing_basis": "third_party_directory"
@@ -19643,7 +19648,7 @@
       "optery_slug": "quick-public-records",
       "email_to": "support@quickpublicrecords.com",
       "email_verified": false,
-      "email_verified_by": null,
+      "email_verified_by": "no_address_published",
       "category": "people_search",
       "category_source": "site_classifier 2026-08-31",
       "listing_basis": "third_party_directory"
@@ -19751,8 +19756,8 @@
       "source": "ca_data_broker_registry",
       "optery_slug": null,
       "email_to": "contact@rampedup.io",
-      "email_verified": false,
-      "email_verified_by": "declared_unmonitored_by_company",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy",
       "registry_years": [
         "2020-2023",
         "2024",
@@ -19840,8 +19845,8 @@
       "source": "optery_scrape",
       "optery_slug": "reach-marketing",
       "email_to": "info@reachmarketing.com",
-      "email_verified": false,
-      "email_verified_by": null,
+      "email_verified": true,
+      "email_verified_by": "privacy_policy",
       "category": "b2b_contact",
       "category_source": "site_classifier 2026-08-31",
       "listing_basis": "third_party_directory"
@@ -19943,7 +19948,7 @@
       "optery_slug": null,
       "email_to": "cform@realitymediainc.com",
       "email_verified": false,
-      "email_verified_by": "bounced",
+      "email_verified_by": "no_address_published",
       "registry_years": [
         "2020-2023"
       ],
@@ -20018,8 +20023,8 @@
       "source": "optery_scrape",
       "optery_slug": "realsource-data",
       "email_to": "privacy@realsourcedata.com",
-      "email_verified": false,
-      "email_verified_by": null,
+      "email_verified": true,
+      "email_verified_by": "privacy_policy",
       "category": "compiler",
       "category_source": "site_classifier 2026-08-31",
       "listing_basis": "third_party_directory"
@@ -20106,7 +20111,7 @@
       "optery_slug": "recordsquarry",
       "email_to": "help@truthfinder.com",
       "email_verified": false,
-      "email_verified_by": null,
+      "email_verified_by": "no_address_published",
       "category": "people_search",
       "category_source": "site_classifier 2026-08-31",
       "listing_basis": "third_party_directory"
@@ -20142,7 +20147,7 @@
       "optery_slug": "redbird-direct",
       "email_to": "privacy@redbirddirect.com",
       "email_verified": false,
-      "email_verified_by": null,
+      "email_verified_by": "no_address_published",
       "listing_basis": "third_party_directory"
     },
     {
@@ -20156,8 +20161,8 @@
       "source": "optery_scrape",
       "optery_slug": "redi-data",
       "email_to": "privacy@redidata.com",
-      "email_verified": false,
-      "email_verified_by": null,
+      "email_verified": true,
+      "email_verified_by": "privacy_policy",
       "category": "adtech",
       "category_source": "site_classifier 2026-08-31",
       "listing_basis": "third_party_directory"
@@ -20212,10 +20217,10 @@
       "method": "web_form",
       "optout_url": "https://rehold.com/optout",
       "needs_email_confirm": false,
-      "email_to": "support@rehold.com",
-      "email_verified": false,
+      "email_to": "support@atlas.net",
+      "email_verified": true,
       "optery_slug": "rehold",
-      "email_verified_by": "site_unreachable"
+      "email_verified_by": "privacy_policy"
     },
     {
       "id": "reis",
@@ -20357,7 +20362,7 @@
       "optery_slug": null,
       "email_to": "privacy@researchusallc.com",
       "email_verified": false,
-      "email_verified_by": "bounced",
+      "email_verified_by": "no_address_published",
       "registry_years": [
         "2020-2023",
         "2024"
@@ -20443,8 +20448,8 @@
       "source": "optery_scrape",
       "optery_slug": "retention-com",
       "email_to": "support@retention.com",
-      "email_verified": false,
-      "email_verified_by": null,
+      "email_verified": true,
+      "email_verified_by": "privacy_policy",
       "category": "adtech",
       "category_source": "site_classifier 2026-08-31",
       "listing_basis": "third_party_directory"
@@ -20485,7 +20490,7 @@
       "optery_slug": "rev",
       "email_to": "privacy@getrev.ai",
       "email_verified": false,
-      "email_verified_by": null,
+      "email_verified_by": "no_address_published",
       "listing_basis": "third_party_directory"
     },
     {
@@ -20547,7 +20552,7 @@
       "optery_slug": "reveal-phone-owner",
       "email_to": "support@revealphoneowner.com",
       "email_verified": false,
-      "email_verified_by": null,
+      "email_verified_by": "no_address_published",
       "category": "people_search",
       "category_source": "site_classifier 2026-08-31",
       "listing_basis": "third_party_directory"
@@ -20719,7 +20724,7 @@
       "optery_slug": "rhetorik",
       "email_to": "privacy@rhetorik.com",
       "email_verified": false,
-      "email_verified_by": null,
+      "email_verified_by": "no_address_published",
       "category": "b2b_contact",
       "category_source": "site_classifier 2026-08-31",
       "listing_basis": "third_party_directory"
@@ -20770,8 +20775,8 @@
       "source": "optery_scrape",
       "optery_slug": "rhodeislandcourtrecord-us",
       "email_to": "privacy@courtrecords.us",
-      "email_verified": false,
-      "email_verified_by": null,
+      "email_verified": true,
+      "email_verified_by": "privacy_policy",
       "category": "people_search",
       "category_source": "site_classifier 2026-08-31",
       "listing_basis": "third_party_directory"
@@ -20927,7 +20932,7 @@
       "optery_slug": "round-sky",
       "email_to": "legal@roundsky.com",
       "email_verified": false,
-      "email_verified_by": null,
+      "email_verified_by": "no_address_published",
       "listing_basis": "third_party_directory"
     },
     {
@@ -21336,7 +21341,7 @@
       "optery_slug": "scraping-robot",
       "email_to": "support@scrapingrobot.com",
       "email_verified": false,
-      "email_verified_by": null,
+      "email_verified_by": "no_address_published",
       "listing_basis": "third_party_directory"
     },
     {
@@ -21367,7 +21372,7 @@
       "optery_slug": "sealedrecords",
       "email_to": "support@sealedrecords.net",
       "email_verified": false,
-      "email_verified_by": null,
+      "email_verified_by": "no_address_published",
       "listing_basis": "third_party_directory"
     },
     {
@@ -21408,7 +21413,7 @@
       "optery_slug": "seamless-ai",
       "email_to": "privacy@seamlessleads.com",
       "email_verified": false,
-      "email_verified_by": null,
+      "email_verified_by": "no_address_published",
       "listing_basis": "third_party_directory"
     },
     {
@@ -21422,8 +21427,8 @@
       "source": "optery_scrape",
       "optery_slug": "search-quarry",
       "email_to": "privacy@searchquarry.com",
-      "email_verified": false,
-      "email_verified_by": null,
+      "email_verified": true,
+      "email_verified_by": "privacy_policy",
       "category": "people_search",
       "category_source": "site_classifier 2026-08-31",
       "listing_basis": "third_party_directory"
@@ -21493,7 +21498,7 @@
       "optery_slug": "searchsystems-public-records",
       "email_to": "info@searchsystems.net",
       "email_verified": false,
-      "email_verified_by": "DEAD: both published addresses hard-bounce 550 5.1.1 (webmaster@ and info@, the latter printed on their own /contact page). Domain has Zoho MX but neither mailbox exists. Only live route is the /contact form.",
+      "email_verified_by": "no_address_published",
       "category": "people_search",
       "category_source": "site_classifier 2026-08-31",
       "listing_basis": "third_party_directory"
@@ -21556,9 +21561,9 @@
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "seedtable",
-      "email_to": "hello@seedtable.com",
-      "email_verified": false,
-      "email_verified_by": null,
+      "email_to": "helloteam@seedtable.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy",
       "listing_basis": "third_party_directory"
     },
     {
@@ -21681,8 +21686,8 @@
       "source": "optery_scrape",
       "optery_slug": "sentilink",
       "email_to": "privacy@sentilink.com",
-      "email_verified": false,
-      "email_verified_by": null,
+      "email_verified": true,
+      "email_verified_by": "privacy_policy",
       "listing_basis": "third_party_directory"
     },
     {
@@ -21885,8 +21890,8 @@
       "source": "optery_scrape",
       "optery_slug": "simiocloud",
       "email_to": "Privacy@simiocloud.com",
-      "email_verified": false,
-      "email_verified_by": null,
+      "email_verified": true,
+      "email_verified_by": "privacy_policy",
       "category": "adtech",
       "category_source": "site_classifier 2026-08-31",
       "listing_basis": "third_party_directory"
@@ -22053,7 +22058,7 @@
       "optery_slug": null,
       "email_to": "steven@smacomm.com",
       "email_verified": false,
-      "email_verified_by": "domain_parked",
+      "email_verified_by": "no_address_published",
       "registry_years": [
         "2020-2023"
       ],
@@ -22135,7 +22140,7 @@
       "optery_slug": "snoopstation",
       "email_to": "support@mailer.intelius.com",
       "email_verified": false,
-      "email_verified_by": null,
+      "email_verified_by": "no_address_published",
       "category": "people_search",
       "category_source": "site_classifier 2026-08-31",
       "listing_basis": "third_party_directory"
@@ -22318,7 +22323,7 @@
       "optery_slug": null,
       "email_to": "dataprivacy@sourceitmarketing.com",
       "email_verified": false,
-      "email_verified_by": "bounced",
+      "email_verified_by": "no_address_published",
       "registry_years": [
         "2024"
       ],
@@ -22392,8 +22397,8 @@
       "source": "optery_scrape",
       "optery_slug": "southcarolinacourtrecords-us",
       "email_to": "privacy@courtrecords.us",
-      "email_verified": false,
-      "email_verified_by": null,
+      "email_verified": true,
+      "email_verified_by": "privacy_policy",
       "category": "people_search",
       "category_source": "site_classifier 2026-08-31",
       "listing_basis": "third_party_directory"
@@ -22439,8 +22444,8 @@
       "source": "optery_scrape",
       "optery_slug": "southdakotacourtrecords-us",
       "email_to": "privacy@courtrecords.us",
-      "email_verified": false,
-      "email_verified_by": null,
+      "email_verified": true,
+      "email_verified_by": "privacy_policy",
       "category": "people_search",
       "category_source": "site_classifier 2026-08-31",
       "listing_basis": "third_party_directory"
@@ -22866,9 +22871,9 @@
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "statara",
-      "email_to": "privacy@statara.com",
-      "email_verified": false,
-      "email_verified_by": null,
+      "email_to": "privacyinfo@statara.com",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy",
       "listing_basis": "third_party_directory"
     },
     {
@@ -22882,8 +22887,8 @@
       "source": "optery_scrape",
       "optery_slug": "statecourts",
       "email_to": "privacy@statecourts.org",
-      "email_verified": false,
-      "email_verified_by": null,
+      "email_verified": true,
+      "email_verified_by": "privacy_policy",
       "category": "people_search",
       "category_source": "site_classifier 2026-08-31",
       "listing_basis": "third_party_directory"
@@ -22919,8 +22924,8 @@
       "source": "optery_scrape",
       "optery_slug": "staterecords-org",
       "email_to": "privacy@staterecords.org",
-      "email_verified": false,
-      "email_verified_by": null,
+      "email_verified": true,
+      "email_verified_by": "privacy_policy",
       "category": "people_search",
       "category_source": "site_classifier 2026-08-31",
       "listing_basis": "third_party_directory"
@@ -23603,8 +23608,8 @@
       "source": "optery_scrape",
       "optery_slug": "tennesseecourtrecords-us",
       "email_to": "privacy@courtrecords.us",
-      "email_verified": false,
-      "email_verified_by": null,
+      "email_verified": true,
+      "email_verified_by": "privacy_policy",
       "category": "people_search",
       "category_source": "site_classifier 2026-08-31",
       "listing_basis": "third_party_directory"
@@ -23621,7 +23626,7 @@
       "optery_slug": "terminus",
       "email_to": "privacy@terminus.com",
       "email_verified": false,
-      "email_verified_by": "terminus.com now redirects its privacy policy to demandscience.com/privacy-policy/ - Terminus appears to be part of DemandScience. No address in page text on either. /privacy-rights/ 404s. Needs a browser pass.",
+      "email_verified_by": "no_address_published",
       "duplicate_of": "demandscience",
       "notes": "Resolves to demandscience.com, the same site as demandscience. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the demandscience thread rather than opening a second request.",
       "category": "b2b_contact",
@@ -23671,8 +23676,8 @@
       "source": "optery_scrape",
       "optery_slug": "texascourtrecords-us",
       "email_to": "privacy@courtrecords.us",
-      "email_verified": false,
-      "email_verified_by": null,
+      "email_verified": true,
+      "email_verified_by": "privacy_policy",
       "category": "people_search",
       "category_source": "site_classifier 2026-08-31",
       "listing_basis": "third_party_directory"
@@ -23721,7 +23726,7 @@
       "optery_slug": null,
       "email_to": "privacy@purecars.com",
       "email_verified": false,
-      "email_verified_by": "declared_unmonitored_by_company",
+      "email_verified_by": null,
       "registry_years": [
         "2024",
         "2025"
@@ -23731,7 +23736,8 @@
       "category_source": "site_classifier 2026-08-30",
       "email_note": "|| 2026-08-30 email_verified set FALSE. It had been true via 'ca_data_broker_registry', which only ever meant 'this address appears on the register' -- not 'this address works'. The company has now said in its own autoresponder that the mailbox is not monitored, so the route is dead while the register entry stands. See SILENT_FAILURES 205.",
       "email_verified_was": "ca_data_broker_registry",
-      "listing_basis": "state_register"
+      "listing_basis": "state_register",
+      "email_alt": "hello@purecars.com"
     },
     {
       "id": "the_blue_book_building_and_construction_network",
@@ -24516,9 +24522,9 @@
       "needs_email_confirm": null,
       "source": "optery_scrape",
       "optery_slug": "trustoria",
-      "email_to": "removals@trustoria.com",
-      "email_verified": false,
-      "email_verified_by": null,
+      "email_to": "support@atlas.net",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy",
       "listing_basis": "third_party_directory"
     },
     {
@@ -24596,7 +24602,7 @@
       "optery_slug": "truthrecord",
       "email_to": "support@truthrecord.org",
       "email_verified": false,
-      "email_verified_by": null,
+      "email_verified_by": "no_address_published",
       "listing_basis": "third_party_directory"
     },
     {
@@ -24611,7 +24617,7 @@
       "optery_slug": "truthviewer",
       "email_to": "support@truthviewer.com",
       "email_verified": false,
-      "email_verified_by": "INFERRED from the platform pattern -- all twelve sibling sites on the same /api/helper/optOutLight/search platform use support@<domain>, and truthviewer.com publishes its own MX (mail.truthviewer.com). No address is published on their contact, privacy or about pages. Expect a possible bounce; a bounce is itself informative.",
+      "email_verified_by": "no_address_published",
       "listing_basis": "third_party_directory"
     },
     {
@@ -24625,8 +24631,8 @@
       "source": "optery_scrape",
       "optery_slug": "tunnl",
       "email_to": "notice@tunnldata.com",
-      "email_verified": false,
-      "email_verified_by": null,
+      "email_verified": true,
+      "email_verified_by": "privacy_policy",
       "duplicate_of": "deep_root",
       "notes": "Resolves to tunnldata.com, the same site as deep_root. Same company registered twice under different domains and contact addresses. Held out of the send queue; raise any sibling question inside the deep_root thread rather than opening a second request.",
       "listing_basis": "third_party_directory"
@@ -24679,7 +24685,7 @@
       "optery_slug": "ufind-name",
       "email_to": "support@ufind.name",
       "email_verified": false,
-      "email_verified_by": null,
+      "email_verified_by": "no_address_published",
       "category": "people_search",
       "category_source": "site_classifier 2026-08-31",
       "listing_basis": "third_party_directory"
@@ -24722,7 +24728,7 @@
       "optery_slug": "unearth-campaigns",
       "email_to": "Privacy@UnearthCampaigns.com",
       "email_verified": false,
-      "email_verified_by": null,
+      "email_verified_by": "no_address_published",
       "listing_basis": "third_party_directory"
     },
     {
@@ -25144,8 +25150,8 @@
       "source": "optery_scrape",
       "optery_slug": "utahcourtrecords-us",
       "email_to": "privacy@courtrecords.us",
-      "email_verified": false,
-      "email_verified_by": null,
+      "email_verified": true,
+      "email_verified_by": "privacy_policy",
       "category": "people_search",
       "category_source": "site_classifier 2026-08-31",
       "listing_basis": "third_party_directory"
@@ -25186,7 +25192,7 @@
       "optery_slug": null,
       "email_to": "privacy@valassis.com",
       "email_verified": false,
-      "email_verified_by": "bounced",
+      "email_verified_by": "no_address_published",
       "registry_years": [
         "2020-2023"
       ],
@@ -25206,8 +25212,8 @@
       "source": "ca_data_broker_registry",
       "optery_slug": null,
       "email_to": "privacy@vericast.com",
-      "email_verified": false,
-      "email_verified_by": "bounced",
+      "email_verified": true,
+      "email_verified_by": "privacy_policy",
       "registry_years": [
         "2024"
       ],
@@ -25231,7 +25237,7 @@
       "optery_slug": null,
       "email_to": "DataPrivacy@rrd.com",
       "email_verified": false,
-      "email_verified_by": "no_bounce_only",
+      "email_verified_by": "no_address_published",
       "registry_years": [
         "2020-2023",
         "2025",
@@ -25272,8 +25278,8 @@
       "source": "optery_scrape",
       "optery_slug": "vdx-tv",
       "email_to": "privacy@vdx.tv",
-      "email_verified": false,
-      "email_verified_by": null,
+      "email_verified": true,
+      "email_verified_by": "privacy_policy",
       "category": "adtech",
       "category_source": "site_classifier 2026-08-31",
       "listing_basis": "third_party_directory"
@@ -25357,8 +25363,8 @@
       "source": "optery_scrape",
       "optery_slug": "venntel",
       "email_to": "privacy@venntel.com",
-      "email_verified": false,
-      "email_verified_by": null,
+      "email_verified": true,
+      "email_verified_by": "privacy_policy",
       "listing_basis": "third_party_directory"
     },
     {
@@ -26935,8 +26941,8 @@
       "needs_email_confirm": null,
       "source": "broker_disclosure",
       "email_to": "privacy@alphadatalabs.com",
-      "email_verified": false,
-      "email_verified_by": null,
+      "email_verified": true,
+      "email_verified_by": "privacy_policy",
       "category": "b2b_contact",
       "category_source": "manual 2026-09-18",
       "listing_basis": "discovered",
