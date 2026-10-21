@@ -7,8 +7,20 @@
 
 ## Status
 
-- Current: `confirmed` (updated 2026-10-09)
-- Note: DUPLICATE SUBMISSION DELIBERATELY ABANDONED 2026-10-09. The browser loop drove the stale handoff item, filled the full privacy form and requested a verification code; privacy@catalist.us sent one-time code at 19:11 UTC. IT WAS NOT USED AND THE FORM WAS NOT SUBMITTED. Catalist confirmed deletion on 28 August with an itemised four-identifier match list, and confirmed a minimal forward-looking suppression on 31 August -- there is nothing here to re-request, and re-filing would have put a broker that answered well through the work twice. Status unchanged at confirmed. The arrival of the code is itself mild evidence the identifiers still resolve to a deliverable contact record, but that proves nothing about the voter-file record and is not being read as a regression. See _SILENT_FAILURES 455 for how the stale item came to be driven at all, and handoff.py --prune for the fix.
+- Current: `confirmed` (updated 2026-10-20)
+- 2026-10-20 CORRECTION to the 10-09 note below: the form WAS submitted
+  after all. Catalist's reply of 2026-10-20 quotes the full "My Privacy
+  Choices Form Submission" back verbatim, including "Verified on:
+  2026/10/09 19:20:17" -- so the one-time code sent at 19:11 UTC *was*
+  used, contrary to what was recorded here eleven days ago. Recording the
+  correction rather than editing it away, per project convention. The
+  outcome is still good news either way: Catalist's reply is "We are
+  unable to find a match in our records using the information provided,"
+  which is exactly what should happen to a fresh search run against a
+  record already deleted on 28 August -- a second, independent nil that
+  corroborates the original deletion rather than contradicting it. Status
+  stays `confirmed`; this is supporting evidence, not a regression.
+- Prior (2026-10-09, DUPLICATE SUBMISSION, PARTIALLY WRONG -- SEE ABOVE): The browser loop drove the stale handoff item, filled the full privacy form and requested a verification code; privacy@catalist.us sent one-time code at 19:11 UTC. Catalist confirmed deletion on 28 August with an itemised four-identifier match list, and confirmed a minimal forward-looking suppression on 31 August -- there was nothing here to re-request, and re-filing put a broker that answered well through the work twice. See _SILENT_FAILURES 455 for how the stale item came to be driven at all, and handoff.py --prune for the fix.
 
 ## Steps
 

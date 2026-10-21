@@ -7,8 +7,17 @@
 
 ## Status
 
-- Current: `manual_required` (updated 2026-10-18)
-- 2026-10-18: Request `FM6XRMKND5` has sent six near-identical "Needs Attention"
+- Current: `manual_required` (updated 2026-10-21)
+- 2026-10-21: The same `FM6XRMKND5` "Needs Attention" notice has now fired
+  on every single day from 2026-10-11 through 2026-10-21 (several days more
+  than once), eleven-plus notices total, every one unreadable without a
+  browser. This is not a backlog of distinct comments -- the portal appears
+  to be re-sending the same notification on a loop regardless of whether
+  the underlying comment has changed. Confirms this is a broken notifier
+  on PMG's OneTrust instance rather than an active conversation; still
+  routed through `/dsr-form` per the 10-18 note, still queued for a human.
+  Nothing new to act on by email.
+- Prior (2026-10-18): Request `FM6XRMKND5` has sent six near-identical "Needs Attention"
   notices since 2026-10-11 (initial confirm, then comments on 13th, 14th, 15th,
   16th, 17th x2, 18th). Every "View request" link lands on OneTrust's access-code
   screen, which demands a distorted-image CAPTCHA before it will even email a

@@ -183,7 +183,7 @@
   "adsquare": {
     "status": "replied",
     "changed": "2026-10-07",
-    "via": "reply"
+    "via": "email"
   },
   "adstra": {
     "status": "manual_required",
@@ -431,9 +431,9 @@
     "via": "email"
   },
   "apollo_interactive": {
-    "status": "not_found",
-    "changed": "2026-10-02",
-    "via": "reply"
+    "status": "submitted",
+    "changed": "2026-10-21",
+    "via": "email"
   },
   "apollo_io": {
     "status": "confirmed",
@@ -696,9 +696,9 @@
     "via": "email"
   },
   "beenverified": {
-    "status": "confirmed",
-    "changed": "2026-10-01",
-    "via": "reply"
+    "status": "submitted",
+    "changed": "2026-10-21",
+    "via": "email"
   },
   "beenverified_inc_and_its_subsidiaries_and_affiliates": {
     "status": "submitted",
@@ -1008,7 +1008,7 @@
   "catalist": {
     "status": "confirmed",
     "changed": "2026-08-28",
-    "via": "email"
+    "via": "reply"
   },
   "catalyze_ai": {
     "status": "submitted",
@@ -1016,8 +1016,8 @@
     "via": null
   },
   "cause_iq": {
-    "status": "not_found",
-    "changed": "2026-09-19",
+    "status": "replied",
+    "changed": "2026-10-21",
     "via": "reply"
   },
   "cb_insights": {
@@ -1452,9 +1452,9 @@
     "via": "email"
   },
   "crunchbase": {
-    "status": "not_found",
-    "changed": "2026-09-04",
-    "via": "email"
+    "status": "replied",
+    "changed": "2026-10-21",
+    "via": "reply"
   },
   "crustdata": {
     "status": "confirmed",
@@ -1778,8 +1778,8 @@
     "via": "email"
   },
   "digital_segment": {
-    "status": "confirmed",
-    "changed": "2026-09-04",
+    "status": "not_found",
+    "changed": "2026-10-21",
     "via": "email"
   },
   "digital_viking_media": {
@@ -2434,9 +2434,9 @@
     "via": "reply"
   },
   "freephonetracer": {
-    "status": "confirmed",
-    "changed": "2026-10-01",
-    "via": "reply"
+    "status": "submitted",
+    "changed": "2026-10-21",
+    "via": "email"
   },
   "freesalesleads": {
     "status": "submitted",
@@ -2541,7 +2541,7 @@
   "global_source_data_solutions": {
     "status": "confirmed",
     "changed": "2026-08-27",
-    "via": null
+    "via": "reply"
   },
   "golden_recursion": {
     "status": "submitted",
@@ -2566,7 +2566,7 @@
   "governmentregistry_org": {
     "status": "confirmed",
     "changed": "2026-08-20",
-    "via": "email"
+    "via": "reply"
   },
   "govwarrantsearch_org": {
     "status": "submitted",
@@ -2609,8 +2609,8 @@
     "via": null
   },
   "greenhouse_software": {
-    "status": "confirmed",
-    "changed": "2026-09-15",
+    "status": "manual_required",
+    "changed": "2026-10-21",
     "via": "email"
   },
   "grin_technologies": {
@@ -2969,8 +2969,8 @@
     "via": null
   },
   "infotracer": {
-    "status": "confirmed",
-    "changed": "2026-09-01",
+    "status": "submitted",
+    "changed": "2026-10-21",
     "via": "email"
   },
   "infotracer_goodcar_propertychecker_entitycheck_sentinex_cour": {
@@ -2979,9 +2979,9 @@
     "via": "email"
   },
   "infutordata": {
-    "status": "confirmed",
-    "changed": "2026-09-06",
-    "via": "web"
+    "status": "manual_required",
+    "changed": "2026-10-21",
+    "via": "email"
   },
   "inmarket": {
     "status": "submitted",
@@ -3164,8 +3164,8 @@
     "via": "email"
   },
   "juicebox_app": {
-    "status": "email_pending",
-    "changed": "2026-09-06",
+    "status": "confirmed",
+    "changed": "2026-10-21",
     "via": "reply"
   },
   "kalibrate": {
@@ -4046,9 +4046,9 @@
     "via": null
   },
   "neighborwho": {
-    "status": "confirmed",
-    "changed": "2026-10-01",
-    "via": "reply"
+    "status": "replied",
+    "changed": "2026-10-21",
+    "via": "email"
   },
   "neptune_ops": {
     "status": "submitted",
@@ -4303,7 +4303,7 @@
   "nuwber": {
     "status": "confirmed",
     "changed": "2026-08-26",
-    "via": "web"
+    "via": "reply"
   },
   "nymblr": {
     "status": "unreachable",
@@ -4521,9 +4521,9 @@
     "via": "reply"
   },
   "ownerly": {
-    "status": "confirmed",
-    "changed": "2026-10-01",
-    "via": "reply"
+    "status": "replied",
+    "changed": "2026-10-21",
+    "via": "email"
   },
   "oxford_university_press": {
     "status": "submitted",
@@ -4646,9 +4646,9 @@
     "via": "email"
   },
   "peoplelooker": {
-    "status": "confirmed",
-    "changed": "2026-10-01",
-    "via": "reply"
+    "status": "replied",
+    "changed": "2026-10-21",
+    "via": "email"
   },
   "peoplesearch": {
     "status": "confirmed",
@@ -4803,7 +4803,7 @@
   "pmg_worldwide": {
     "status": "manual_required",
     "changed": "2026-08-28",
-    "via": null
+    "via": "email"
   },
   "podscribe": {
     "status": "submitted",
@@ -5326,8 +5326,8 @@
     "via": "email"
   },
   "reversephone": {
-    "status": "confirmed",
-    "changed": "2026-10-01",
+    "status": "not_found",
+    "changed": "2026-10-21",
     "via": "reply"
   },
   "reversephonelookup": {
@@ -6157,8 +6157,8 @@
     "via": null
   },
   "the_dots_global": {
-    "status": "not_found",
-    "changed": "2026-10-01",
+    "status": "manual_required",
+    "changed": "2026-10-21",
     "via": "reply"
   },
   "the_feed_foundation": {
@@ -6517,8 +6517,8 @@
     "via": "email"
   },
   "valassis_communications_inc_an_rrd": {
-    "status": "submitted",
-    "changed": "2026-09-12",
+    "status": "replied",
+    "changed": "2026-10-21",
     "via": "email"
   },
   "valassis_rrd": {
@@ -6613,8 +6613,8 @@
     "via": "reply"
   },
   "versium": {
-    "status": "confirmed",
-    "changed": "2026-08-28",
+    "status": "submitted",
+    "changed": "2026-10-21",
     "via": "email"
   },
   "versium_analytics": {
@@ -6938,8 +6938,8 @@
     "via": "email"
   },
   "ziff_davis": {
-    "status": "confirmed",
-    "changed": "2026-09-18",
+    "status": "captcha_blocked",
+    "changed": "2026-10-21",
     "via": "reply"
   },
   "ziprecruiter": {

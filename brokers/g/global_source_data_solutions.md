@@ -7,8 +7,22 @@
 
 ## Status
 
-- Current: `confirmed` (updated 2026-08-27)
-- Note: CONFIRMED both rights, 26 minutes after the letter. Two separate emails from noreply@trustsuperset.com: 'Global Source Data Solutions, Inc. (GSDSI) has received and FULFILLED your Right to Erasure request' and the same for 'Right to Opt-out of Data Sales'. Corroborated under the 138 test rather than taken on speed alone: the platform parsed an emailed letter into TWO request types unprompted and answered each separately, which a confirmation-on-receipt cannot do because it does not know what was asked. Same Superset platform that returned a substantive nil result for FI Navigator today.
+- Current: `confirmed` (updated 2026-10-20)
+- 2026-10-20: A second, more detailed confirmation arrived from
+  `privacy@api.gsdsi.com` (not the `trustsuperset.com` vendor domain used
+  for the original same-day confirmation), referencing the original 27
+  August request by date. Worth recording for the detail it adds: "Records
+  held: Yes... matching records have been deleted from our consumer
+  database and are no longer used in our data products... we keep a
+  suppression marker, stored as a one-way hash rather than readable
+  personal data, so that matching records are blocked if they reach us
+  again." They also stated the limit plainly -- the suppression is keyed
+  to the identifying details matched, so data arriving later under
+  substantially different details (a different name or address) may not
+  be recognised, and they cannot recall copies already given to other
+  companies. One of the more honest and specific confirmations this
+  project has received; no change to status, already `confirmed`.
+- Prior (2026-08-27): CONFIRMED both rights, 26 minutes after the letter. Two separate emails from noreply@trustsuperset.com: 'Global Source Data Solutions, Inc. (GSDSI) has received and FULFILLED your Right to Erasure request' and the same for 'Right to Opt-out of Data Sales'. Corroborated under the 138 test rather than taken on speed alone: the platform parsed an emailed letter into TWO request types unprompted and answered each separately, which a confirmation-on-receipt cannot do because it does not know what was asked. Same Superset platform that returned a substantive nil result for FI Navigator today.
 
 ## Steps
 

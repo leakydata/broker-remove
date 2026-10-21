@@ -30,6 +30,19 @@
   five unanswered questions, and re-supplying the four email addresses, DOB,
   phone and address in case it's easier to re-run the search from that
   mailbox than retrieve the original ticket. Awaiting reply.
+- **2026-10-21 bounce triage: `Security@minerva.io` is a restricted Google
+  Group, not an open mailbox.** The delivery failure arrived the same minute:
+  "the group you tried to contact (security) may not exist, or you may not
+  have permission to post messages to the group" — the restricted-group
+  signature from CONTRIBUTING.md's bounce-class list, not a dead address.
+  Google's bounce is per-recipient, and the cc'd `justin@minerva.io` is a
+  separate address on the same send — nothing in this mailbox indicates that
+  copy also failed, so the five re-asked questions likely did land, just not
+  through the alias their own reply pointed to. Not re-sending: justin@ is
+  the already-verified registry contact and a second copy of an
+  already-delivered letter is not a new attempt. If the five questions are
+  still unanswered at the next follow-up, address it to justin@ only and say
+  plainly that Security@ rejected the earlier copy.
 - Prior (2026-08-29), on why no statutory email letter was ever sent here:
   the published policy designates the webform `preferences.minerva.io` and a
   toll-free line as the only methods for access, correction, deletion and

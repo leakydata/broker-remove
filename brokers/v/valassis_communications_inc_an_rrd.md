@@ -8,8 +8,18 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-12)
-- Note: Adopted from the shared ledger: another agent recorded 'submitted' on 2026-09-03. No detail is carried across — re-read the broker's own reply before relying on this.
+- Current: `replied` (updated 2026-10-20)
+- 2026-10-20: `data.privacy@rrd.com` replied to the 10 October follow-up, but
+  only administratively: portal access extended 45 days (through 4 December
+  2026), and a note that physical mailings take up to six weeks to stop
+  after completion. It did not touch any of the three substantive asks from
+  12 September (suppression vs. deletion, controller/processor scope, which
+  systems were searched) or the two meta-questions (the two dead 18
+  September links, and whether the two request IDs -- WKZ2LXPF3V and
+  TE95J69KDE, one per brand -- searched the same systems). Replied again
+  putting all five directly in the thread rather than letting the
+  administrative note stand in for an answer.
+- Prior (2026-09-12): Adopted from the shared ledger: another agent recorded 'submitted' on 2026-09-03. No detail is carried across — re-read the broker's own reply before relying on this.
 
 ## Gotchas
 
