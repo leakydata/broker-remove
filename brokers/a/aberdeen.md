@@ -8,7 +8,17 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-10-22)
+- Current: `replied` (updated 2026-10-22)
+- Reply (2026-10-22, answering the chase below): the Ziff Davis Privacy Team
+  wrote that the requests were "processed and completed on 9/16" and that
+  correspondence comes through OneTrust, possibly in spam. This is an
+  assertion only. It gives no request ID, no systems searched, and no
+  found-or-nothing. The only Ziff Davis completion notice in Gmail (spam
+  included) is JTG25TC27Z, dated 17 September, which names no brand, so it
+  cannot be tied to this letter. Replied asking for the request ID(s) and
+  one sentence each on what was searched and the result. No new personal data
+  was sent. The corporate-relationship and what-do-you-hold questions are
+  still unanswered.
 - Update (2026-10-22): the 45-day mark (2026-10-13) passed with no reply at
   all since the 2026-08-29 send -- 54 days of silence. Sent the chase in the
   existing thread per the escalation list below: quoted the original date,
