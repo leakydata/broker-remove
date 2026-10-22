@@ -21,6 +21,16 @@
   to this row specifically rather than to AutoWeb or both — see Gotchas. No
   further notification has arrived on this request ID as of 2026-10-14
   (contrast AutoWeb, which got a "comment added" follow-up the same morning).
+- Update (2026-10-21): two "Needs Attention" comments were posted on
+  6TKMA8ERGT (12:18 and 13:43 UTC). They cannot be read without passing the
+  portal's image CAPTCHA. `legal@buyerlink.com` auto-replies that it does not
+  handle privacy requests. It points to the webform or to 1-888-821-1041.
+  A second, opt-out-only request, **F4J6WPBS8B**, was logged at 22:30 UTC.
+  It was closed "completed" at 23:55, along with the same "No Records Found"
+  template. That template again gives no request ID, but it came three seconds
+  before the completion notice, so the timing ties it to F4J6WPBS8B. Result:
+  a second nil that is only asserted, plus a statement that the opt-out
+  preference was recorded. The comments on 6TKMA8ERGT are still unread.
 - Prior (2026-08-25): emailed legal@buyerlink.com. Asked them to scope the request to the whole corporate family and to NAME the entities they applied it to - responses in lead-gen routinely come back scoped to one brand while the same record sits untouched under a sibling the consumer has no way of knowing exists. Buyerlink is already known to us from a refusal autoreply that listed its family (see _FAMILIES.md), so the family framing is evidenced, not speculative. Never answered.
 
 ## Steps
