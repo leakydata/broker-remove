@@ -55,9 +55,9 @@
     "via": null
   },
   "aberdeen": {
-    "status": "email_pending",
-    "changed": "2026-09-02",
-    "via": null
+    "status": "submitted",
+    "changed": "2026-10-22",
+    "via": "email"
   },
   "above_data": {
     "status": "submitted",
@@ -1352,9 +1352,9 @@
     "via": "reply"
   },
   "corelogic_cotality": {
-    "status": "email_pending",
-    "changed": "2026-09-02",
-    "via": null
+    "status": "submitted",
+    "changed": "2026-10-22",
+    "via": "email"
   },
   "coresignal": {
     "status": "email_pending",

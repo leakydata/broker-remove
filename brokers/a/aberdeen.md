@@ -8,7 +8,13 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-11)
+- Current: `submitted` (updated 2026-10-22)
+- Update (2026-10-22): the 45-day mark (2026-10-13) passed with no reply at
+  all since the 2026-08-29 send -- 54 days of silence. Sent the chase in the
+  existing thread per the escalation list below: quoted the original date,
+  cited the Cal. Civ. Code 1798.130 deadline, and restated the four asks.
+  Still awaiting any response, including the corporate-relationship question
+  in Steps below -- that is unresolved either way.
 - Note: CONCERN RESOLVED 2026-09-11 -- THE OFF-DOMAIN ADDRESS IS CORRECT AND THE LETTER WAS PROPERLY SENT. This row had been held at email_pending because the registry flagged privacy@spiceworks.com as email_verified_by offdomain_needs_confirmation, with an explicit instruction to confirm the corporate relationship BEFORE sending -- the letter carries a full identifier set, so sending it to an unrelated party would be a disclosure rather than a request. That caution was right and the verification now passes. CHECKED TODAY ON ABERDEEN'S OWN SITE: aberdeen.com/privacy-policy/ names Spiceworks 23 times, identifies the group as 'Spiceworks Ziff Davis' (SWZD appears 8 times on the homepage), refers to 'Spiceworks and its affiliates' and 'Spiceworks businesses', and publishes privacy@spiceworks.com as the privacy contact. A negative control on the same host returns 403 for a nonsense path, so the policy page is real and not a catch-all. The address is therefore Aberdeen's own published privacy contact, not a guess from a shared registrant. SEND CONFIRMED from the mailbox: letter went 2026-08-29 10:15 UTC to privacy@spiceworks.com, subject 'Consumer Request to Delete and Opt Out of Sale of Personal Information - [PERSONAL] (Aberdeen)'. NO REPLY in 13 days. Moving to submitted, which is what it is: correctly sent, awaiting an answer. Due for a chase at the 45-day mark, 2026-10-13.
 
 ## Steps
