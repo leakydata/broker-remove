@@ -7,7 +7,17 @@
 
 ## Status
 
-- Current: `replied` (updated 2026-10-10)
+- Current: `not_found` (updated 2026-10-22)
+- Update (2026-10-22): **a clean nil, this time searched on each identifier
+  separately.** CauseIQ re-ran the search on each of the twelve email
+  addresses separately and found nothing. They searched every name variant
+  and checked for a Penn State connection. Name-only searches turned up
+  unrelated namesakes, but no record "that could be reliably identified as
+  you". They also said what their lookup cannot do: it cannot match on date
+  of birth or prior street address. They chose not to count an address-only
+  match as his. The 10-10 letter promised not to write again after a clean
+  nil like this, so no reply was sent. The paragraph below is the history of
+  that letter.
 - Note: DELIBERATE REGRESSION FROM not_found, AND THE ROW'S OWN NOTE ASKED FOR THIS. It read: 'Adopted from the shared ledger: another agent recorded not_found on 2026-09-19. No detail is carried across -- re-read the broker's own reply before relying on this.' Re-read today. The reply does not support an unqualified not_found. CauseIQ, 2026-09-18: 'We searched Cause IQ's person data using your name and the three email addresses included in your request. We did not find an identifiable record matching BOTH YOU AND THE INFORMATION PROVIDED, so there was no person profile for us to remove or suppress.' TWO SCOPE PROBLEMS, both now asked about. (1) 'THE THREE EMAIL ADDRESSES' -- the letter listed more than three, so some were dropped in transit or filtered. Asked which three; re-supplied all thirteen with [EMAIL] marked search-key-only. (2) THE MATCH TEST IS CONJUNCTIVE, and for this dataset that is decisive. CauseIQ profiles people connected to nonprofits, sourced largely from Form 990 filings, and a 990 lists officers, directors and trustees with NAME, TITLE, ORGANISATION and sometimes a business address. THERE IS NO EMAIL FIELD ON A 990. A record of exactly the kind they hold would fail a name-plus-email test while being precisely the record in question. The nil means 'nothing matched all criteria at once', not 'nothing about this person' -- which is why not_found was the wrong status to carry forward. Asked for a disjunctive re-run: name alone plus the four aliases, discriminated against date of birth rather than loosely; name plus organisation for Penn State and the Commonwealth constable role; and the eight prior addresses that could appear as a business or mailing address on a filing. CONCEDED THE LIKELY GOOD ANSWER IN ADVANCE: if he appears because he was an officer or trustee, that is public-record information from a 990 and they have a basis for holding it that a marketing file would not. Narrowed the ask in that case to no sale or licensing for marketing, and NO CONTACT DETAILS APPENDED to the public-record entry from other sources -- the filing is public, a phone number bolted onto it by a data vendor is not. Promised to accept a clean disjunctive nil without writing again, and warned them off address-only matches because other people live at those addresses now.
 
 ## Steps
