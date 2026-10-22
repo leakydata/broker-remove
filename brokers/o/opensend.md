@@ -7,8 +7,21 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-29)
-- Note: Emailed privacy@opensend.com 2026-08-29 (CA registry 2024-2026). WEBSITE VISITOR IDENTIFICATION -- their own resource library is titled 'How To Identify Anonymous Website Visitors'. The letter's premise: a person browsing without signing in has DECLINED to identify themselves, and resolving them anyway to a name and email reverses a choice they made, without their knowledge, and the first they learn of it is generally an email from a company they never gave an address to. Five asks: (1) have I been resolved, on WHICH CLIENT'S SITE and on what dates -- categories accepted for the client but the date and site are what make the record meaningful, since without them I cannot tell whether it happened once or continuously; (2) HOW the resolution is done, since a visitor arrives with an IP, a fingerprint and maybe a cookie and none of those is a name -- pre-existing identity graph on hashed email, a consortium of participating sites sharing visitor signals, purchased identity resolution, ISP or bid-stream data? And is the graph theirs or licensed, because their deletion cannot reach a licensed graph and I want to know who to write to next; (3) what was PASSED ON to the client whose site I visited, with the forward-not-alter request; (4) THE FUELED ACQUISITION -- their site announces it, so asked for confirmation the request reaches Fueled-origin records INCLUDING those predating the acquisition, since an acquisition is exactly where a request gets lost (163); (5) a forward-looking exclude-only suppression, because a deletion without one is undone by the next browsing session and the confirmation reads identically either way. No IP supplied, with the reason stated pointedly: supplying one to a company whose product resolves IP addresses to identities would be the opposite of the request.
+- Current: `replied` (updated 2026-10-22)
+- Reply (2026-10-22): 24 automated "privacy request completed" notices
+  arrived in one burst at 16:34–16:35 UTC. There was one per email address
+  and phone number in the letter, each with its own UUID request ID. Name and
+  postal addresses were not processed as identifiers. Every notice uses the
+  same sentence: "located the records matching your request ... removed or
+  anonymized them from Opensend's Fueled attribution records". That includes
+  mailboxes that have been dead for decades, so whether anything actually
+  matched is only an assertion. The stated scope is **Fueled only**, and
+  questions 1–3 and 5 of the letter got no answer. Replied in the thread on
+  the same day. The reply asks which identifiers actually matched, and
+  whether the deletion and opt-out reached Opensend's own visitor-resolution
+  graph, the client deliveries, and a forward suppression. No new identifiers
+  were sent.
+- Prior note (2026-08-29): Emailed privacy@opensend.com 2026-08-29 (CA registry 2024-2026). WEBSITE VISITOR IDENTIFICATION -- their own resource library is titled 'How To Identify Anonymous Website Visitors'. The letter's premise: a person browsing without signing in has DECLINED to identify themselves, and resolving them anyway to a name and email reverses a choice they made, without their knowledge, and the first they learn of it is generally an email from a company they never gave an address to. Five asks: (1) have I been resolved, on WHICH CLIENT'S SITE and on what dates -- categories accepted for the client but the date and site are what make the record meaningful, since without them I cannot tell whether it happened once or continuously; (2) HOW the resolution is done, since a visitor arrives with an IP, a fingerprint and maybe a cookie and none of those is a name -- pre-existing identity graph on hashed email, a consortium of participating sites sharing visitor signals, purchased identity resolution, ISP or bid-stream data? And is the graph theirs or licensed, because their deletion cannot reach a licensed graph and I want to know who to write to next; (3) what was PASSED ON to the client whose site I visited, with the forward-not-alter request; (4) THE FUELED ACQUISITION -- their site announces it, so asked for confirmation the request reaches Fueled-origin records INCLUDING those predating the acquisition, since an acquisition is exactly where a request gets lost (163); (5) a forward-looking exclude-only suppression, because a deletion without one is undone by the next browsing session and the confirmation reads identically either way. No IP supplied, with the reason stated pointedly: supplying one to a company whose product resolves IP addresses to identities would be the opposite of the request.
 
 ## Steps
 
@@ -19,6 +32,15 @@
 3. **Ask them to state which identifiers matched.** "We deleted your record" and "we searched and found nothing" are different outcomes, and a reply that does not distinguish them tells you nothing about whether you were ever in the file.
 
 ## Gotchas
+
+- **One completion email per identifier, all worded alike.** Opensend runs
+  each email and phone as a separate request and sends the same "located
+  ... removed" text for every one, even when there was presumably nothing to
+  find. Count the notices against the identifiers sent, and ask which
+  identifiers actually matched. A notice is not evidence of a match.
+- **"Fueled attribution records" is the stated scope.** The notices name the
+  acquired Fueled dataset, not Opensend's own visitor-identification graph.
+  Don't treat this as `confirmed` until they say the main product was covered.
 
 <!-- Fill in from their reply. Recurring things worth capturing:
      - Do they refuse email and point at a form? Which form?
