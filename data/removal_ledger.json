@@ -6427,9 +6427,9 @@
     "via": "email"
   },
   "us_marketing_group": {
-    "status": "submitted",
-    "changed": "2026-08-20",
-    "via": "email"
+    "status": "suppressed",
+    "changed": "2026-10-23",
+    "via": "reply"
   },
   "us_search": {
     "status": "submitted",

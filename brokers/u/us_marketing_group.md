@@ -8,8 +8,19 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-24)
-- Note: BYTE-FOR-BYTE IDENTICAL TEMPLATE, TWICE (SF 213 shape, cleanest instance yet). Their 31 Aug reply is character-identical to the 24 Aug one, which was itself the reply to the original letter -- so the substantive message in between, which made three specific proposals and offered them an easy way to CLOSE the request, produced no change in output at all. THEIR OWN FILING EXPLAINS IT AND I SAID SO RATHER THAN COMPLAINING: 267,084 deletion requests received, 267,082 complied in whole, 2 in part, 0 denied, MEAN RESPONSE 0 DAYS. A quarter of a million requests answered the day they arrive is a fully automated pipeline; the identical template is exactly what such a pipeline emits. Not rudeness -- there is no human in the loop. So the letter is SHORT and asks for ONE thing: have a person read this and reply once. Re-offered the three exits unchanged: (a) category-level answer, (b) name the supplier -- needs no verification since it is about their practice not my record, or (c) say plainly the access request cannot proceed without documentation, which I will record as final and never write again. Said (c) is a perfectly good outcome; better a clear refusal than an open request sitting against a condition I have told them I will not meet. Restated the asymmetry: they processed the deletion and opt-out with NO identity document, but demand a licence or bank statement to DESCRIBE the same record. If the identifiers are good enough to change records they are good enough to describe them. NEW MATERIAL FROM SF 239: their 2025 filing answers YES to reproductive health care data where 2024 answered no to all three categories. Exercised 1798.121 -- a distinct right, not the deletion already run nor the opt-out already applied, and one that needs none of the documentation they are asking for. Asked whether the answer changed because the PRACTICE changed or the FORM was filled differently, and whether any health attribute was associated with me -- stated vs inferred, since a person who filled a form knows what they disclosed and a person who was modelled does not know the record exists. Kept the credit intact: the standing opt-out applied against identifiers they may not even hold is better than most companies do, and I said I was not writing to take that back.
+- Current: `suppressed` (updated 2026-10-23)
+- Reply (2026-10-23): after seven weeks of templates, one reply from a
+  person ("live human here"). They **did not hold the data at all**. They
+  match on the identifiers given in the request, delete whatever matches,
+  log it, and add those identifiers to a **forward block list**, so the data
+  is refused if anyone tries to send it to them later. The only bypass is a
+  direct consent opt-in where the person ticks a box themselves. That is the
+  plain answer the 09-01 letter asked for, so the request is closed. The
+  question about the changed reproductive-health answer on their filing went
+  unanswered, but it is moot when nothing was held. This is a nil plus a
+  suppression, stated by a person rather than a template, and an
+  identity-document demand never had to be met.
+- Prior note (2026-09-01): BYTE-FOR-BYTE IDENTICAL TEMPLATE, TWICE (SF 213 shape, cleanest instance yet). Their 31 Aug reply is character-identical to the 24 Aug one, which was itself the reply to the original letter -- so the substantive message in between, which made three specific proposals and offered them an easy way to CLOSE the request, produced no change in output at all. THEIR OWN FILING EXPLAINS IT AND I SAID SO RATHER THAN COMPLAINING: 267,084 deletion requests received, 267,082 complied in whole, 2 in part, 0 denied, MEAN RESPONSE 0 DAYS. A quarter of a million requests answered the day they arrive is a fully automated pipeline; the identical template is exactly what such a pipeline emits. Not rudeness -- there is no human in the loop. So the letter is SHORT and asks for ONE thing: have a person read this and reply once. Re-offered the three exits unchanged: (a) category-level answer, (b) name the supplier -- needs no verification since it is about their practice not my record, or (c) say plainly the access request cannot proceed without documentation, which I will record as final and never write again. Said (c) is a perfectly good outcome; better a clear refusal than an open request sitting against a condition I have told them I will not meet. Restated the asymmetry: they processed the deletion and opt-out with NO identity document, but demand a licence or bank statement to DESCRIBE the same record. If the identifiers are good enough to change records they are good enough to describe them. NEW MATERIAL FROM SF 239: their 2025 filing answers YES to reproductive health care data where 2024 answered no to all three categories. Exercised 1798.121 -- a distinct right, not the deletion already run nor the opt-out already applied, and one that needs none of the documentation they are asking for. Asked whether the answer changed because the PRACTICE changed or the FORM was filled differently, and whether any health attribute was associated with me -- stated vs inferred, since a person who filled a form knows what they disclosed and a person who was modelled does not know the record exists. Kept the credit intact: the standing opt-out applied against identifiers they may not even hold is better than most companies do, and I said I was not writing to take that back.
 
 ## Steps
 
@@ -24,13 +35,17 @@
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+- **The email channel is a fully automated pipeline.** Their own filing
+  reports about 267,000 deletion requests a year with a mean response of
+  0 days. Every reply is the same template, whatever you write. A short
+  message asking for "one human sentence" eventually got one, but it took
+  seven weeks.
+- **The template's demand for ID applies to access requests only.**
+  Deletion, opt-out and the forward block are applied without any identity
+  document. Don't send a licence or bank statement to get a deletion.
+- **Every request is handled as delete-and-block**, whether or not they held
+  anything. So the template's "if a record existed, it has been addressed"
+  does not tell you which it was. Ask a person for the plain answer.
 
 ## Verification
 
