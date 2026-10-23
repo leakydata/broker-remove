@@ -8,8 +8,15 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-24)
+- Current: `submitted` (updated 2026-10-23)
 - Note: 2026-08-24 second reply: claims Work Number is a processor and access/correction/deletion must go to the employer. Correct for deletion, incorrect for ACCESS - The Work Number is a CRA under the FCRA, s609 file disclosure comes from the CRA not the furnisher, and Equifax already runs an employee portal for the Employment Data Report and freeze. Pushed back on that specific point plus the four still unanswered.
+- Update (2026-10-23): 58 days of silence since the 26 August follow-up (the
+  five-entity scope question, the Equifax Workforce Solutions
+  processor-vs-broker contradiction, and the DataX file-disclosure ask) —
+  no reply of any kind since the 24 August message that only answered the
+  earlier Work Number point. Sent a chase citing the Cal. Civ. Code §
+  1798.130 45-day deadline and restating the three still-open questions in
+  one-sentence-answer form. Still awaiting a reply.
 
 ## Steps
 

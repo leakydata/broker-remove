@@ -1,5 +1,18 @@
 # Acxiom
 
+## Status
+
+- Current: `submitted` (updated 2026-10-23)
+- Update (2026-10-23): 46 days of total silence since the 7 September letter
+  (which itself followed a 25 August addition to the 15 August original) —
+  `askprivacy@acxiom.com` has never once replied across three letters. Sent a
+  chase citing the Cal. Civ. Code § 1798.130 45-day deadline, restating the
+  four outstanding asks (confirm the additional identifiers were searched,
+  name what matched, confirm forward-looking suppression, confirm scope
+  across product lines beyond the mailing-list product Ad Direct named
+  Acxiom as the source for), and added the fallback clause in case PA
+  residency is contested. Still awaiting any reply at all.
+
 - **Opt-out:** https://www.acxiom.com/optout/  (isapps.acxiom.com/optout/optout.aspx redirects here)
 - **Method:** web_form in a cross-origin iframe + reCAPTCHA at submit
 - **Phone fallback:** (877) 774-2094 — full opt-out by voice, no CAPTCHA
