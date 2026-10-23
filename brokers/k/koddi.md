@@ -7,8 +7,18 @@
 
 ## Status
 
-- Current: `manual_required` (updated 2026-09-03)
-- Note: WEDGE TESTED AND REFUSED, AND I SAID I WOULD STOP -- SO I AM STOPPING (SILENT_FAILURES 290/295). The 1798.120 letter drew the same macro back from dataprivacy+noreply@koddi.com, addressed 'Dear Privacy Team' (a template artifact -- it is addressed to ME as the privacy team). It states the position I asked for: 'we are unable to accept privacy rights requests via email'. That is a clear statement of policy, I undertook to record it and stop asking, and this row is now form-only. THREE REQUIREMENTS RESTATED IN THE MACRO, ALL OF WHICH A CONSUMER STRUCTURALLY CANNOT MEET, recorded because the pattern matters more than this row: (1) 'we do not process consumer information submitted as ALIAS EMAIL ADDRESSES' -- which excludes anyone using a plus-address or a forwarding service, and is unfalsifiable from outside since only Koddi decides what counts as an alias; (2) 'or UNHASHED NAMES' -- they will not accept a name unless it is hashed, which is not an operation a consumer can perform in the format a company uses, and hashing one's own name is not a thing anyone does; (3) 'we require the specific email address associated with your DIGITAL COMMERCE ACTIVITIES to identify you within our records' -- an identifier only they can determine, since which of twelve addresses appears in their file is precisely what the request exists to find out. That is the 260 shape at its sharpest: every one of the three is a requirement whose answer is held by the company and demanded of the requester. Form remains queued.
+- Current: `submitted` (updated 2026-10-23)
+- Form submitted (2026-10-12): the deletion request went in through the
+  OneTrust webform at `koddi.com/dsr-form`. The CAPTCHA checkbox was ticked
+  by hand. The email address was confirmed the same day, and the request ID
+  is **Q2X5QWV8EL**.
+- Comment (2026-10-23): a "Your Privacy Request Needs Attention" notice
+  arrived for Q2X5QWV8EL. The text of the comment can only be read in the
+  OneTrust portal, which needs an image CAPTCHA and an emailed access code,
+  so it was handed to a person. The sender is the generic
+  `noreply@m.onetrust.com`, and the footer names **Momentum Platform LLC**,
+  not Koddi. Only the Koddi logo in the header identifies the brand.
+- Prior note (2026-09-03): WEDGE TESTED AND REFUSED, AND I SAID I WOULD STOP -- SO I AM STOPPING (SILENT_FAILURES 290/295). The 1798.120 letter drew the same macro back from dataprivacy+noreply@koddi.com, addressed 'Dear Privacy Team' (a template artifact -- it is addressed to ME as the privacy team). It states the position I asked for: 'we are unable to accept privacy rights requests via email'. That is a clear statement of policy, I undertook to record it and stop asking, and this row is now form-only. THREE REQUIREMENTS RESTATED IN THE MACRO, ALL OF WHICH A CONSUMER STRUCTURALLY CANNOT MEET, recorded because the pattern matters more than this row: (1) 'we do not process consumer information submitted as ALIAS EMAIL ADDRESSES' -- which excludes anyone using a plus-address or a forwarding service, and is unfalsifiable from outside since only Koddi decides what counts as an alias; (2) 'or UNHASHED NAMES' -- they will not accept a name unless it is hashed, which is not an operation a consumer can perform in the format a company uses, and hashing one's own name is not a thing anyone does; (3) 'we require the specific email address associated with your DIGITAL COMMERCE ACTIVITIES to identify you within our records' -- an identifier only they can determine, since which of twelve addresses appears in their file is precisely what the request exists to find out. That is the 260 shape at its sharpest: every one of the three is a requirement whose answer is held by the company and demanded of the requester. Form remains queued.
 
 ## Steps
 
@@ -19,6 +29,12 @@ Gotchas): no unhashed names, no "alias" email addresses, and a "specific
 email address associated with your digital commerce activities."
 
 ## Gotchas
+
+**OneTrust notices arrive as "Momentum Platform LLC".** That is the
+tenant's legal name in the footer of every portal email, and only the logo
+says Koddi. Search the mailbox for the request ID, not the brand. A "Needs
+Attention" comment is portal-only, and OneTrust tenants commonly close a
+request after about seven days without a response. Read it promptly.
 
 **`dataprivacy+noreply@koddi.com` is a template autoresponder, confirmed by
 direct test.** Two different threads to this address — a fresh submission and
