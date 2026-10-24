@@ -8,9 +8,27 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-27)
+- Current: `replied` (updated 2026-10-19)
 - Reference: `gmail:1a00618203742083`
-- Note: KEY SET EXTENDED, SECOND ROUND (SF 229). 2026-08-31 17:19 from Jasmin at Intelius Support. The first suppression (27 Aug) covered name, ONE phone, ONE address and FOUR emails. This one adds four more emails ([EMAIL], [EMAIL], [EMAIL], [EMAIL]), SIX prior addresses including two PO boxes and an Alabama address from long ago, and THREE prior phone numbers. Those are exactly the stale identifiers a people-search lookup actually runs on -- somebody searching does not type my current address, they type the one they have -- so this is the half of the suppression that does the work. Applied across Intelius.com, InstantCheckmate.com, TruthFinder.com and USSearch.com. FOUR OF THE EIGHT I NAMED ARE STILL ABSENT: [EMAIL], [EMAIL], [EMAIL], [EMAIL]. Most likely that is the answer to my (a)/(b) question arriving as a list rather than a sentence -- they searched everything and those four matched nothing. Re-asked for the sentence, because it decides whether this lasts: is the suppression CHECKED AGAINST every identifier supplied, or does the list contain only what matched? Their own architecture makes it decisive -- reports compiled live from providers, nothing retained, so THE KEY SET IS THE WHOLE OF THE PROTECTION. Provider files change; an address returning nothing this week can return a record next quarter from a source not called today, and if those four are not in the key set that report displays. Asked for all four added regardless of match: four rows, and the difference between a suppression that describes today and one that holds. STILL OPEN, and I said I would rather have the key-set answer than either: Classmates remains outside the family-wide action and routed to a phone number while its four siblings were done in one email; and the data-provider CATEGORIES, since by their own description the record lives at the source and the source is the only place a deletion can happen. Two rounds took the key set from six identifiers to nineteen -- more movement than anyone else this month.
+- Note (2026-10-19): THE BRAND-SCOPE QUESTION GOT A CLEAN (a) ANSWER. The 16
+  October letter asked whether the existing suppression reaches sibling
+  brands drawing on the same underlying data -- specifically OnlineSearches.com,
+  which declares itself "powered by Intelius" in its own privacy link, footer
+  disclaimer and analytics payload -- framed as a strict (a)/(b) choice, with
+  (a) a data-layer suppression covering every brand that draws on it, (b) a
+  per-brand list. Michelle at Intelius Support answered in one sentence:
+  "Suppressions are processed at the report level and applied across
+  public-records search sites within the same corporate family." That is (a).
+  The letter said in terms that a single sentence of (a) would close the
+  question permanently, so this is closed -- no further suppression filing
+  needed for OnlineSearches or any other brand inside the same corporate
+  family and data layer. It does not resolve the THREE EARLIER DOMAINS
+  (6 September round) that disclosed nothing about who operates them, nor
+  the TWO WITH AFFILIATE DISCLOSURES pointing toward an independent
+  operator -- "corporate family" answers the family question, not whether a
+  given domain is actually inside the family. Those stay open only if they
+  turn out NOT to draw on this data layer.
+- Prior note (2026-08-31): KEY SET EXTENDED, SECOND ROUND (SF 229). 2026-08-31 17:19 from Jasmin at Intelius Support. The first suppression (27 Aug) covered name, ONE phone, ONE address and FOUR emails. This one adds four more emails ([EMAIL], [EMAIL], [EMAIL], [EMAIL]), SIX prior addresses including two PO boxes and an Alabama address from long ago, and THREE prior phone numbers. Those are exactly the stale identifiers a people-search lookup actually runs on -- somebody searching does not type my current address, they type the one they have -- so this is the half of the suppression that does the work. Applied across Intelius.com, InstantCheckmate.com, TruthFinder.com and USSearch.com. FOUR OF THE EIGHT I NAMED ARE STILL ABSENT: [EMAIL], [EMAIL], [EMAIL], [EMAIL]. Most likely that is the answer to my (a)/(b) question arriving as a list rather than a sentence -- they searched everything and those four matched nothing. Re-asked for the sentence, because it decides whether this lasts: is the suppression CHECKED AGAINST every identifier supplied, or does the list contain only what matched? Their own architecture makes it decisive -- reports compiled live from providers, nothing retained, so THE KEY SET IS THE WHOLE OF THE PROTECTION. Provider files change; an address returning nothing this week can return a record next quarter from a source not called today, and if those four are not in the key set that report displays. Asked for all four added regardless of match: four rows, and the difference between a suppression that describes today and one that holds. STILL OPEN, and I said I would rather have the key-set answer than either: Classmates remains outside the family-wide action and routed to a phone number while its four siblings were done in one email; and the data-provider CATEGORIES, since by their own description the record lives at the source and the source is the only place a deletion can happen. Two rounds took the key set from six identifiers to nineteen -- more movement than anyone else this month.
 
 ## Steps
 

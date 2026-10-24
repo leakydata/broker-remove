@@ -3034,9 +3034,9 @@
     "via": null
   },
   "intelius": {
-    "status": "submitted",
-    "changed": "2026-08-31",
-    "via": "email"
+    "status": "replied",
+    "changed": "2026-10-19",
+    "via": "reply"
   },
   "intelius_us_search_us_search_pro": {
     "status": "replied",
@@ -6658,8 +6658,8 @@
     "via": null
   },
   "visitiq": {
-    "status": "submitted",
-    "changed": "2026-10-14",
+    "status": "replied",
+    "changed": "2026-10-19",
     "via": "reply"
   },
   "vistar_media": {
