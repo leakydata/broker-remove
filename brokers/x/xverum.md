@@ -8,8 +8,32 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-10-14)
+- Current: `confirmed` (updated 2026-10-25)
 - Reference: `gmail:1a120329d4b9ee8d`
+- 2026-10-25 reply: confirmed in three parts. (1) "We have deleted the
+  personal information identified as relating to you and implemented
+  measures to prevent its collection in future data loads, including
+  through the profile URL you provided" — a deletion stated together with a
+  forward-looking suppression, and the suppression key explicitly includes
+  the LinkedIn URL supplied on 2026-10-13, not just the original
+  identifiers. (2) On sourcing: "We collect information directly from
+  publicly available sources (such as Google)... We did not purchase your
+  personal data from third-party data providers" — directly contradicts
+  nothing in hireEZ's disclosure (hireEZ named Xverum as a source *it*
+  draws from; Xverum's own answer is about where *Xverum's* data comes
+  from, a different link in the chain). (3) On recipients, citing GDPR
+  Art. 15 rather than CCPA: categories only, not names — "recruitment and
+  talent sourcing platforms, HR technology providers, sales intelligence
+  and lead generation companies, B2B data enrichment providers, and other
+  business customers," declining to name specific companies as
+  confidential commercial information, but offering to forward the request
+  to "any relevant third parties" if asked to by name. Not pursued further:
+  the category-level answer is the useful part (shows the record fans out
+  to multiple downstream buyer types, which the deletion+suppression above
+  is supposed to cut off at the Xverum layer), and chasing named recipients
+  through a reseller's downstream customers one at a time does not scale
+  the way going to each category's trade association would, which is out of
+  scope for a single consumer request.
 - 2026-10-12 supplement: hireEZ's own reply (see `hireez.md`) had enclosed a
   portable copy of the profile it built partly from Xverum data, surfacing
   two match keys worth sending on: the closed university `[EMAIL]` mailbox
@@ -76,6 +100,7 @@
 
 ## Verification
 
-Submitted 2026-10-09. Watch for: which identifiers matched (if any),
-whether the index is observed- or pattern-keyed, and confirmation of a
-standing do-not-add suppression distinct from a one-time deletion.
+Confirmed 2026-10-25: deletion plus a forward-looking suppression keyed to
+the identifiers supplied, including the LinkedIn profile URL. Not verified
+independently (Xverum offers no public self-search); re-check only if a
+contact-enrichment tool downstream of Xverum resurfaces a record.
