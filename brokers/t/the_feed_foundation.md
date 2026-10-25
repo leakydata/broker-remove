@@ -6,7 +6,16 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-19)
+- Current: `not_found` (updated 2026-10-25)
+- Reply (2026-10-25): a person on FEED Projects' Zendesk desk (ticket
+  30617) answered after five weeks. They found no records, accounts or
+  sales history under the name or email. They forwarded the request to
+  the FEED Foundation, where nothing has been found either, and said that
+  anything that later matches will be deleted. They did not say which
+  identifiers were searched and did not mention a control query, so the
+  nil is only asserted. This is a hunger-relief nonprofit that makes
+  consumer goods, not a data broker. The listing came from a directory
+  scrape, so the request was not chased further.
 - Note: 2026-09-19, first contact. This is a hunger-relief nonprofit, not an obvious data broker -- picked up by the Optery-directory import along with a batch of other low-priority listings. Worth revisiting after a reply: this may be a directory-scrape false positive rather than a genuine broker (see native_american_netroots.md for the same pattern). Address sourced from an Optery-directory import; `email_verified_by` had been set to `"optery_directory"`, which only means a commercial directory listed the company, not that the mailbox was ever confirmed to accept mail -- three addresses from the same 2026-09-18 batch hard-bounced (see ct_company_directory.md, ibegin.md, native_american_netroots.md). Watch for a bounce on the next pass before treating this as delivered.
 
 ## Steps
@@ -18,6 +27,13 @@
 3. **Ask them to state which identifiers matched.** "We deleted your record" and "we searched and found nothing" are different outcomes, and a reply that does not distinguish them tells you nothing about whether you were ever in the file.
 
 ## Gotchas
+
+- **Replies come from `support@feedprojects.zendesk.com`**, which is the
+  retail arm's help desk, not the address written to. Search the inbox
+  for "FEED Projects", not "Feed Foundation".
+- **Probably not a broker at all.** It is a charity with an online shop.
+  The only data it plausibly holds is customer and donor records. Don't
+  spend follow-ups on it.
 
 <!-- Fill in from their reply. Recurring things worth capturing:
      - Do they refuse email and point at a form? Which form?
