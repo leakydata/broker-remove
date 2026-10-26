@@ -15,7 +15,14 @@
   reply also asked them to confirm that the September prevention-list entry
   still stands and covers the profile URL. The status stays `confirmed` on the
   strength of the September suppression. A name-only nil does not test the
-  keys a B2B email-finder is built on.
+  keys a B2B email-finder is built on, but it fits with the data having been
+  removed in September.
+- Evidence for `confirmed` (re-checked 2026-10-26): it is in a **separate
+  thread**, the 09-02 "GDPR Article 21 objection and pre-generation
+  suppression" letter. On 09-14 the sales desk replied that the data "has been
+  removed from our platform" and the email address "added to our email
+  finding prevention list". An earlier audit searched only the 10-16 thread
+  and concluded there had been no correspondence. That conclusion was wrong.
 - Note: Adopted from the shared ledger: another agent recorded 'confirmed' on 2026-09-15. No detail is carried across — re-read the broker's own reply before relying on this.
 
 ## Steps
