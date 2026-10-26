@@ -275,7 +275,7 @@
    "source": "broker_disclosure",
    "email_to": "",
    "email_verified": false,
-   "email_verified_by": null,
+   "email_verified_by": "no_address_published",
    "category": "b2b_contact",
    "category_source": "manual 2026-09-18",
    "listing_basis": "discovered",
@@ -21007,6 +21007,8 @@
    "source": "optery_scrape",
    "optery_slug": "southcarolinapublicrecords-com",
    "listing_basis": "third_party_directory",
+   "email_verified": false,
+   "email_verified_by": "no_address_published",
    "route_evidence": "none"
   },
   {
@@ -24148,7 +24150,7 @@
    "optery_slug": "whoseno",
    "email_to": "",
    "email_verified": false,
-   "email_verified_by": "bounced",
+   "email_verified_by": "no_address_published",
    "listing_basis": "unknown",
    "notes": "contact@whoseno.com is published in the privacy policy (Section 8) but only as Cloudflare-obfuscated markup -- decoded out of the page, it hard-bounces 550 5.1.1 User doesn't exist. The site publishes no other email anywhere. || 2026-10-17: The /contact-us form is NOT CAPTCHA-gated and works -- submission relays by email from smtp@whoseno.com to a human at a personal Gmail address, who replied same-day. First reply said the submitted phone numbers weren't found; replied asking whether the name+DOB combination was also searched and requesting a forward-looking suppression on the current number only. Awaiting that reply.",
    "email_verified_was": "privacy_policy",
@@ -25011,7 +25013,9 @@
    "optery_slug": "alumni-us-2",
    "optery_url": "https://www.optery.com/data-brokers/alumni-us-2/",
    "route_evidence": "none",
-   "category_hint": "People Search"
+   "category_hint": "People Search",
+   "email_verified": false,
+   "email_verified_by": "no_address_published"
   },
   {
    "id": "amedisys",
@@ -25569,7 +25573,9 @@
    "optery_slug": "cityzor-2",
    "optery_url": "https://www.optery.com/data-brokers/cityzor-2/",
    "route_evidence": "none",
-   "category_hint": "People Search"
+   "category_hint": "People Search",
+   "email_verified": false,
+   "email_verified_by": "no_address_published"
   },
   {
    "id": "clay",
@@ -25904,7 +25910,9 @@
    "optery_slug": "cuit-online",
    "optery_url": "https://www.optery.com/data-brokers/cuit-online/",
    "route_evidence": "none",
-   "category_hint": "People Search"
+   "category_hint": "People Search",
+   "email_verified": false,
+   "email_verified_by": "no_address_published"
   },
   {
    "id": "cybba",
@@ -26095,7 +26103,7 @@
    "route_evidence": "none",
    "email_to": null,
    "email_verified": false,
-   "email_verified_by": "bounced",
+   "email_verified_by": "no_address_published",
    "notes": "info@doctorsatlas.com hard-bounced 2026-09-20 after two days of soft retries (\"recipient server did not accept our requests\"). doctorsatlas.com itself now resolves to a Namecheap domain-auction parking page -- the site is gone, not just the mailbox. Was previously marked email_verified via optery_directory listing alone, which only means the address appeared in a third-party directory. Dead domain; no channel exists unless it is reinstated."
   },
   {
@@ -26345,7 +26353,9 @@
    "optery_slug": "facecheck-id",
    "optery_url": "https://www.optery.com/data-brokers/facecheck-id/",
    "route_evidence": "none",
-   "category_hint": "People Search"
+   "category_hint": "People Search",
+   "email_verified": false,
+   "email_verified_by": "no_address_published"
   },
   {
    "id": "familysearch",
@@ -27175,7 +27185,9 @@
    "optery_slug": "illinois-prison-talk",
    "optery_url": "https://www.optery.com/data-brokers/illinois-prison-talk/",
    "route_evidence": "none",
-   "category_hint": "People Search"
+   "category_hint": "People Search",
+   "email_verified": false,
+   "email_verified_by": "no_address_published"
   },
   {
    "id": "image_maps_com",
@@ -27346,7 +27358,9 @@
    "optery_slug": "la-county-arrest-records",
    "optery_url": "https://www.optery.com/data-brokers/la-county-arrest-records/",
    "route_evidence": "none",
-   "category_hint": "People Search"
+   "category_hint": "People Search",
+   "email_verified": false,
+   "email_verified_by": "no_address_published"
   },
   {
    "id": "ladders",
@@ -27495,7 +27509,9 @@
    "optery_slug": "locatefamily-com",
    "optery_url": "https://www.optery.com/data-brokers/locatefamily-com/",
    "route_evidence": "none",
-   "category_hint": "People Search"
+   "category_hint": "People Search",
+   "email_verified": false,
+   "email_verified_by": "no_address_published"
   },
   {
    "id": "locatepeople_org",
@@ -28022,7 +28038,9 @@
    "optery_slug": "oldphonebook-com",
    "optery_url": "https://www.optery.com/data-brokers/oldphonebook-com/",
    "route_evidence": "none",
-   "category_hint": "People Search"
+   "category_hint": "People Search",
+   "email_verified": false,
+   "email_verified_by": "no_address_published"
   },
   {
    "id": "oms_small_medium_businesses_directory",
@@ -28453,7 +28471,9 @@
    "optery_slug": "pininthemap-com",
    "optery_url": "https://www.optery.com/data-brokers/pininthemap-com/",
    "route_evidence": "none",
-   "category_hint": "People Search"
+   "category_hint": "People Search",
+   "email_verified": false,
+   "email_verified_by": "no_address_published"
   },
   {
    "id": "plcom_net",
@@ -28695,7 +28715,9 @@
    "optery_url": "https://www.optery.com/data-brokers/publicrecordscenter/",
    "route_evidence": "none",
    "country": "United States",
-   "category_hint": "People Search"
+   "category_hint": "People Search",
+   "email_verified": false,
+   "email_verified_by": "no_address_published"
   },
   {
    "id": "publicrecordsreviews",
@@ -28738,7 +28760,9 @@
    "optery_url": "https://www.optery.com/data-brokers/publicsrecords/",
    "route_evidence": "none",
    "country": "United States",
-   "category_hint": "People Search"
+   "category_hint": "People Search",
+   "email_verified": false,
+   "email_verified_by": "no_address_published"
   },
   {
    "id": "pulsepoint",
@@ -29382,7 +29406,9 @@
    "optery_slug": "stageresearch",
    "optery_url": "https://www.optery.com/data-brokers/stageresearch/",
    "route_evidence": "none",
-   "category_hint": "People Search"
+   "category_hint": "People Search",
+   "email_verified": false,
+   "email_verified_by": "no_address_published"
   },
   {
    "id": "stanatwork",
