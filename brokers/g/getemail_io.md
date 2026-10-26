@@ -7,7 +7,15 @@
 
 ## Status
 
-- Current: `confirmed` (updated 2026-09-16)
+- Current: `confirmed` (updated 2026-10-26)
+- Reply (2026-10-26) to the 10-16 letter: a person on the sales desk
+  searched **by name only** and found no matching records, so "no data to
+  remove". They offered to check again if given an email address. Replied the
+  same day with the full email list, asking which address matched, if any. The
+  reply also asked them to confirm that the September prevention-list entry
+  still stands and covers the profile URL. The status stays `confirmed` on the
+  strength of the September suppression. A name-only nil does not test the
+  keys a B2B email-finder is built on.
 - Note: Adopted from the shared ledger: another agent recorded 'confirmed' on 2026-09-15. No detail is carried across — re-read the broker's own reply before relying on this.
 
 ## Steps
@@ -26,6 +34,10 @@
   letter's ask to block the generator (citing Datagma and FullEnrich as prior
   art) is what produced "added to our email finding prevention list" rather
   than a bare deletion confirmation.
+- **The sales desk searches on names unless given addresses.** The 10-16
+  letter held back the full email list for a "right route" reply, and the
+  answer came back as a name-only nil. Put every email address in the first
+  letter here. Email addresses are what this product is keyed on.
 - Contact is a **sales mailbox** (`getemailsales@dnb.com`) — a rights request
   in a sales queue risks being triaged as a lead; this one wasn't, but say so
   explicitly in the letter to reduce that risk elsewhere in the D&B family.
