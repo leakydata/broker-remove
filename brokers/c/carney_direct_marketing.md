@@ -7,8 +7,18 @@
 
 ## Status
 
-- Current: `suppressed` (updated 2026-09-02)
-- Note: STATUS CORRECTED 2026-09-02 to 'suppressed' (SILENT_FAILURES 268). Carney Direct Marketing 2026-08-28: 'the information provided has been added to our master opt-out file'. A suppression was applied; NO deletion was asserted and no search result was given, so 'confirmed' overstated it. The two substantive questions from the letter remain ignored.
+- Current: `suppressed` (updated 2026-10-27)
+- Reply (2026-10-27) to the follow-up listing sixteen current/prior addresses:
+  "we did not locate your information in our system." They repeat that the
+  details were added to the master opt-out file regardless, and that they
+  keep a record of the request "for legal and compliance purposes." This is
+  a clean disjunctive answer — a nil search result plus a standing
+  suppression entry — not a deletion. The two analytical questions (which
+  upstream compilers supplied data, and whether suppression is passed back
+  to them) went unanswered a second time; per `_DEFLECTIONS.md` guidance,
+  not worth a third round over a B2B mid-chain supplier that has already
+  given the two deliverables that matter (search result + suppression).
+- Note: STATUS CORRECTED 2026-09-02 to 'suppressed' (SILENT_FAILURES 268). Carney Direct Marketing 2026-08-28: 'the information provided has been added to our master opt-out file'. A suppression was applied; NO deletion was asserted and no search result was given, so 'confirmed' overstated it.
 
 ## Steps
 

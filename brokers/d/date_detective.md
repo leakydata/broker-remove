@@ -28,6 +28,13 @@
      - What does the removal NOT cover — name search only? FCRA-exempt products?
      - Any upsell to a paid removal service? -->
 
+- **A non-email fallback exists and is untested:** `https://mobile.date-detective.app/investigate-opt-out`.
+  Found 2026-10-27 during a sweep for an alternative to the dead `privacy@`
+  group address. Not run — this project has no browser and does not solve
+  CAPTCHAs — so its CAPTCHA status, field set, and whether it actually
+  reaches a human are all unknown. Queue for a human with a browser; note
+  back here what it actually asks for.
+
 ## Verification
 
 <!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
