@@ -17,6 +17,15 @@
   earlier Work Number point. Sent a chase citing the Cal. Civ. Code §
   1798.130 45-day deadline and restating the three still-open questions in
   one-sentence-answer form. Still awaiting a reply.
+- Update (2026-10-27): Equifax answered the one-sentence form of the
+  five-entity question four days later — "The entities you have identified
+  all fall under the Equifax Inc. request." A real answer, but it leaves the
+  other two questions from the same chase untouched: the Workforce Solutions
+  processor-vs-broker contradiction, and the DataX FCRA file-disclosure ask.
+  Replied same day re-asking only those two, plus the four original Work
+  Number asks (Employment Data Report, employer list, freeze, permanent
+  prescreen opt-out) that have never been confirmed across two months of
+  correspondence. Still open.
 
 ## Steps
 

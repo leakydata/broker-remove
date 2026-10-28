@@ -7,7 +7,20 @@
 
 ## Status
 
-- Current: `replied` (updated 2026-10-09)
+- Current: `replied` (updated 2026-10-27)
+- 2026-10-27 reply: still did not answer the one concrete question left on
+  the table (whether the registry-filed phone line can run a name/DOB/address
+  suppression without a project reference). Instead doubled down on the
+  structural position — "Ipsos is currently not an active Data Broker within
+  any state" (so the CA filing this project wrote to is now lapsed; worth
+  noting for anyone else writing to Ipsos from a current registry list) and
+  that searching all affiliate databases is "disproportionate effort" and
+  "unnecessary processing." Replied acknowledging that as their answer on the
+  affiliate-wide search, and narrowed to the single remaining question (the
+  phone line) with an explicit "if no, that's a complete answer too, and I'll
+  treat the US side as closed." This is close to the practical ceiling for
+  this contact — if the next reply still doesn't address the phone line,
+  record as a deliberate non-answer rather than chasing further.
 - 2026-10-08 reply: the agent (signing as "Matt, Agent 88") restated the same
   position after being told plainly that no project reference exists —
   "If you have nothing you can provide me, to help me help you, I can't

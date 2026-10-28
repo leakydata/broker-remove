@@ -7,8 +7,19 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-28)
+- Current: `not_found` (updated 2026-10-27)
 - Note: Emailed privacy@klarifi.io 2026-08-28 (CA registry 2024 only -- may have deregistered since). Standard letter incl. retention clause.
+- 2026-10-27 reply (two months later): "We checked and we do not hold any
+  data on you and have not processed any data about you." Unqualified nil,
+  not scoped to one system or one identifier. They also volunteered a
+  suppression: "we will keep your email address on an internal list for the
+  sole purpose of avoiding accidentally adding you to the database in the
+  future" -- a forward-looking exclusion offered without being asked, which
+  is the rarer and better outcome. Replied asking whether that internal list
+  is keyed only to the one email address they replied to ([EMAIL]) or
+  also the other three addresses and name/DOB supplied in the original
+  letter, since the answer decides how durable the suppression actually is.
+  Awaiting that clarification.
 
 ## Steps
 

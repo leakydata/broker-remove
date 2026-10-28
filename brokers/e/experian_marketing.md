@@ -8,8 +8,21 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-24)
+- Current: `manual_required` (updated 2026-10-27)
 - Note: 2026-08-24: the 21 Aug letter to [named individual]@experian.com has had no reply in 3 days, and the sibling ca_drop_audigent@ auto-replies that it is unmonitored - so that request was almost certainly never read. Resent via optout@experian.com with a fault report on both registered addresses.
+- 2026-10-26 and 2026-10-27: CCPA@experian.com sent two separate "Your
+  Experian Consumer Privacy Report is complete" notices, for two different
+  case numbers (964193712 and 656487694) -- evidently two requests were
+  processed (the second addressed to a name variant supplied in some
+  letters, so likely a distinct submission rather than a duplicate
+  send of the same case). Both require clicking a link to
+  consumerprivacy.experian.com and answering security questions again
+  before the report can be viewed or downloaded -- a browser step this
+  project cannot complete by email. **Flagged for handoff**: a human needs
+  to open both links, re-verify identity, and read what the reports say
+  before this can be marked `confirmed` or `not_found` with evidence. Do
+  not assume either outcome from the notice text alone -- "report is
+  complete" says nothing about what it contains.
 
 ## Steps
 
