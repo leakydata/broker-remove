@@ -23,6 +23,15 @@
   before this can be marked `confirmed` or `not_found` with evidence. Do
   not assume either outcome from the notice text alone -- "report is
   complete" says nothing about what it contains.
+- 2026-10-28: A THIRD "report is complete" notice arrived, case number
+  938509602 -- again from CCPA@experian.com, again gated behind
+  https://consumerprivacy.experian.com/security-questions/938509602 and a
+  fresh identity re-verification. Same handoff as the other two: added to
+  the queue rather than guessed at. Three separate case numbers in three
+  days suggests Experian is processing each letter sent to it as its own
+  case rather than consolidating by requester -- worth asking, once a human
+  is in the portal, whether the three can be merged so future replies don't
+  keep fragmenting.
 
 ## Steps
 

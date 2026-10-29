@@ -35,6 +35,14 @@
      - What does the removal NOT cover — name search only? FCRA-exempt products?
      - Any upsell to a paid removal service? -->
 
+- **Downstream identity resolution, not just a direct contact.** At least
+  one other company (Swoop, a health-data/adtech firm, see `swoop_com.md`)
+  names LiveRamp as one of the third-party "onboarders" it hands consumer
+  identifiers to for matching rather than matching them itself. Contacting
+  LiveRamp directly, as this entry already did, covers that path too —
+  there's no need to also go through Swoop's own opt-out form for the same
+  underlying data.
+
 ## Verification
 
 <!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->

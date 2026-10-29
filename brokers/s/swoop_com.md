@@ -7,8 +7,24 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-10-11)
-- Note: DID NOT SUBMIT THEIR OPT-OUT FORM, DELIBERATELY, AND THEIR OWN PAGE IS THE REASON. Opened swoop.com/your-privacy-choices/ to drive the form and found this: 'because we only maintain information about consumers in a DE-IDENTIFIED FORMAT, we are UNABLE TO LOCATE, IDENTIFY AND REMOVE ANY INDIVIDUAL from our database. By submitting your request to opt-out using the form below, YOUR INFORMATION WILL BE SECURELY TRANSMITTED TO OUR THIRD-PARTY ONBOARDERS, who may have the information necessary to remove you from their dataset.' CREDIT FIRST, BECAUSE IT IS EARNED: a company that cannot identify an individual and SAYS SO, rather than issuing a confirmation implying a removal it did not perform, is doing something this project meets rarely. That sentence is worth more than a tidy processed notice. BUT THE TWO HALVES TOGETHER ARE A TRAP: to opt out of a company holding nothing identifiable about him, he must hand his identifiers to third parties THEY DO NOT NAME. The form is in a cross-origin frame invisible to the accessibility tree, and no onboarder is named anywhere on the page. Submitting blind would disclose his data to unknown recipients -- the 502b hazard with the roles reversed, and worse, because here the disclosure is the mechanism rather than an accident. CHASED ON THE EXISTING THREAD at six weeks rather than opening a new one, with four new questions: NAME the onboarders, since a consumer cannot consent to a disclosure whose recipients are unknown; what exactly is transmitted, raw or hashed; DOES THE TRANSMISSION CREATE A RECORD WHERE NONE EXISTED -- if an onboarder does not hold him, does receiving his details cause them to create a suppression record containing those details, in which case the opt-out MANUFACTURES THE ASSOCIATION IT IS MEANT TO REMOVE; and whether a direct route to the onboarders exists that bypasses the form. Also restated the four unanswered questions of 2026-08-30 about where in the chain re-identification occurs.
+- Current: `replied` (updated 2026-10-29) — substantive but partial; two
+  questions still open.
+- Reference: `gmail:1a12c56012f1fd7b`
+- 2026-10-28: First human reply, seventeen days after the 2026-10-11 chase
+  below. Answered question 1 only, by naming the two onboarders:
+  **LiveRamp** (consumercare@liveramp.com) and **Throtle**
+  (privacy@throtle.io), with links to their privacy portals. Did not
+  address questions 2–3 (what's transmitted; whether transmitting a
+  non-match causes the onboarder to create one) or the 2026-08-30
+  de-identification/re-identification question, still open below.
+- 2026-10-29: Replied same-day noting both named onboarders had already
+  been contacted directly in this project, independent of Swoop — Throtle
+  confirmed deletion 2026-10-01; LiveRamp still `submitted` — so the
+  transmission concern driving the original question doesn't apply here,
+  but the two unanswered questions matter for anyone using Swoop's own
+  form instead of writing to the onboarders directly. Re-asked both,
+  offered "can't answer" as a complete response. Awaiting reply.
+- 2026-10-11: DID NOT SUBMIT THEIR OPT-OUT FORM, DELIBERATELY, AND THEIR OWN PAGE IS THE REASON. Opened swoop.com/your-privacy-choices/ to drive the form and found this: 'because we only maintain information about consumers in a DE-IDENTIFIED FORMAT, we are UNABLE TO LOCATE, IDENTIFY AND REMOVE ANY INDIVIDUAL from our database. By submitting your request to opt-out using the form below, YOUR INFORMATION WILL BE SECURELY TRANSMITTED TO OUR THIRD-PARTY ONBOARDERS, who may have the information necessary to remove you from their dataset.' CREDIT FIRST, BECAUSE IT IS EARNED: a company that cannot identify an individual and SAYS SO, rather than issuing a confirmation implying a removal it did not perform, is doing something this project meets rarely. That sentence is worth more than a tidy processed notice. BUT THE TWO HALVES TOGETHER ARE A TRAP: to opt out of a company holding nothing identifiable about him, he must hand his identifiers to third parties THEY DO NOT NAME. The form is in a cross-origin frame invisible to the accessibility tree, and no onboarder is named anywhere on the page. Submitting blind would disclose his data to unknown recipients -- the 502b hazard with the roles reversed, and worse, because here the disclosure is the mechanism rather than an accident. CHASED ON THE EXISTING THREAD at six weeks rather than opening a new one, with four new questions: NAME the onboarders, since a consumer cannot consent to a disclosure whose recipients are unknown; what exactly is transmitted, raw or hashed; DOES THE TRANSMISSION CREATE A RECORD WHERE NONE EXISTED -- if an onboarder does not hold him, does receiving his details cause them to create a suppression record containing those details, in which case the opt-out MANUFACTURES THE ASSOCIATION IT IS MEANT TO REMOVE; and whether a direct route to the onboarders exists that bypasses the form. Also restated the four unanswered questions of 2026-08-30 about where in the chain re-identification occurs.
 
 ## Steps
 
@@ -20,17 +36,37 @@
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+- **The opt-out "form" is a data-transmission step, not a removal
+  mechanism.** Swoop says it cannot identify individuals in its own
+  de-identified store — a more honest position than most — but the
+  corollary is that its opt-out exists to hand your identifiers to third
+  parties it does not name unless asked. Ask who they are before
+  submitting anything.
+- **The primary address answers everything with the same template.** The
+  only way found to reach a human was the `APPEAL OF PRIVACY
+  DETERMINATION` subject line their own autoreply names (see the quoted
+  text in the 2026-10-11 note below it, or ask once and watch for the
+  autoreply to name it).
+- **One substantive reply answered one of four questions.** Don't treat a
+  partial reply as a full answer — re-ask what wasn't addressed by name.
+- **Downstream identity resolution is the real mechanism here, not a
+  Swoop-specific removal.** As of 2026-10-28, LiveRamp and Throtle are
+  Swoop's named onboarders. Writing to them directly (as this project
+  already had, independent of Swoop) is more reliable than routing through
+  Swoop's own form — you control what's sent and to whom, and a deletion
+  there doesn't depend on Swoop relaying anything.
+- **Still unanswered after three attempts (08-30, 10-11, 10-28):** how
+  de-identified health signals (e.g. "Rare Disease Predictive Audiences")
+  resolve to a deliverable household/connected-TV target. A real
+  architectural question, not a personal-data request — may need a
+  different kind of pressure (a journalist, a regulator) to get answered.
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+No search page to re-check — this is a B2B/health-audience data holder,
+not a people-search listing. Re-check via the named onboarders (LiveRamp,
+Throtle) instead: a deletion there is the actual removal, since Swoop says
+it cannot act on identified records itself.
 
 ## Who they are, and how to reach them
 

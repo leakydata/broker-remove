@@ -33,6 +33,11 @@
   If a future requester wants that detail, expect to have to ask again
   specifically — a terse "deleted / request complete" is apparently their
   default close, not a refusal to engage.
+- **Downstream identity resolution, not just a direct contact.** Swoop (a
+  health-data/adtech firm, see `swoop_com.md`) names Throtle as one of the
+  third-party "onboarders" it hands consumer identifiers to for matching.
+  Contacting Throtle directly, as this entry already did, covers that path
+  — no need to also route through Swoop's own opt-out form.
 
 ## Verification
 
