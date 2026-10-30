@@ -8,7 +8,8 @@
 
 ## Status
 
-- Current: `manual_required` (updated 2026-10-27)
+- Current: `manual_required` (updated 2026-10-30) — now the single highest-
+  priority handoff item in this project; see the case-flood note below.
 - Note: 2026-08-24: the 21 Aug letter to [named individual]@experian.com has had no reply in 3 days, and the sibling ca_drop_audigent@ auto-replies that it is unmonitored - so that request was almost certainly never read. Resent via optout@experian.com with a fault report on both registered addresses.
 - 2026-10-26 and 2026-10-27: CCPA@experian.com sent two separate "Your
   Experian Consumer Privacy Report is complete" notices, for two different
@@ -32,6 +33,31 @@
   case rather than consolidating by requester -- worth asking, once a human
   is in the portal, whether the three can be merged so future replies don't
   keep fragmenting.
+- 2026-10-28/10-30 (escalated): **The fragmentation above was not three
+  cases -- it kept going.** Across 2026-10-28 18:57 through 2026-10-30
+  05:49, roughly 140 more distinct "Your Experian Consumer Privacy Report
+  is complete" notices arrived, each with its own unique case number, each
+  gated behind its own `consumerprivacy.experian.com/security-questions/<case>`
+  re-verification link. Only **four** emails were ever sent to an
+  `@experian.com` address by this project. A ratio of ~140 generated cases
+  to 4 letters sent is not consolidation-by-letter (the 10-27/10-28 theory)
+  -- something in Experian's CCPA case-management pipeline is generating
+  new cases at a rate completely disconnected from actual incoming
+  requests, and the rate is still climbing as of the last check (new
+  notices arriving hours apart, still arriving at time of writing). **Do
+  not open and re-verify each one by hand; that does not scale and may not
+  even be the right response.** This looks more like a backend fault
+  (duplicate case creation, a retry loop, or cases spun up from some
+  unrelated bulk process that happens to be keyed to this requester's name)
+  than a sign that ~140 separate searches were run. Flagging as the
+  priority handoff item: a human should (a) open 2-3 of the case links to
+  confirm what they actually contain (same report? empty? an error?) before
+  assuming any pattern, and (b) consider emailing CCPA@experian.com asking
+  directly why dozens of cases are being opened per letter, since that
+  question is more useful than manually triaging each one. Do not mark any
+  of these `confirmed` or `not_found` without that check -- "report is
+  complete" says nothing about content, and at this volume guessing is a
+  real risk of misrecording the outcome.
 
 ## Steps
 

@@ -22127,8 +22127,8 @@
    "source": "ca_data_broker_registry",
    "optery_slug": null,
    "email_to": "privacy@purecars.com",
-   "email_verified": false,
-   "email_verified_by": null,
+   "email_verified": true,
+   "email_verified_by": "broker_reply",
    "registry_years": [
     "2024",
     "2025"
@@ -22136,11 +22136,11 @@
    "legal_name": "PureCars Technologies, LLC",
    "category": "adtech",
    "category_source": "site_classifier 2026-08-30",
-   "email_note": "|| 2026-08-30 email_verified set FALSE. It had been true via 'ca_data_broker_registry', which only ever meant 'this address appears on the register' -- not 'this address works'. The company has now said in its own autoresponder that the mailbox is not monitored, so the route is dead while the register entry stands. See SILENT_FAILURES 205.",
+   "email_note": "2026-10-29 CORRECTED back to verified=true: privacy@purecars.com sent a substantive, non-automated reply (nil search + opt-out ack, 12-month honor period) to a letter addressed directly to it. The 2026-08-30 unverified-flip was based on an autoresponder claiming the mailbox was unmonitored; that claim did not hold up. See brokers/t/the_autominer_trupayments_purecars.md.",
    "email_verified_was": "ca_data_broker_registry",
    "listing_basis": "state_register",
    "email_alt": "hello@purecars.com",
-   "route_evidence": "none"
+   "route_evidence": "replied"
   },
   {
    "id": "the_bridge",

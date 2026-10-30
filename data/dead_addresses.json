@@ -439,14 +439,6 @@
       "evidence": "550 5.1.1 address not found, 2026-08-30 (Gmail).",
       "response": "PlaceIQ's own CA-registered address is dead; placeiq.com redirects to precisely.com. placeiq.privacy@precisely.com is the live, already-submitted successor route. A OneTrust web form and phone hotline exist as a PlaceIQ-specific fallback if that thread comes back with a generic non-answer -- see brokers/precisely_software_placeiq.md."
     },
-    "privacy@purecars.com": {
-      "kind": "declared_unmonitored",
-      "observed": "2026-08-30",
-      "broker": "the_autominer_trupayments_purecars",
-      "evidence": "Their own autoresponder: 'We recently updated our data subject request intake process... This means that this email address is no longer part of our data subject request process and IT IS NOT BEING MONITORED.' The mailbox accepts and autoresponds, so it is not a bounce -- the company simply states that nobody reads it. It remains the contact on their California data broker registration. See SILENT_FAILURES 205.",
-      "response": "The company has declared its own registered contact abandoned. Do not send here again and do not treat an autoresponse as receipt. Use the route the autoresponder names -- here a Google Form or a toll-free number -- and note that a phone route avoids the third-party-form disclosure entirely.",
-      "use_instead": "https://docs.google.com/forms/d/e/1FAIpQLSdXAQsI4b0angLCONbwT4B4YSFiPyVMMLzizCuBSnPZmsTp_g/viewform or (877) 860-0086"
-    },
     "privacy@rampedup.io": {
       "kind": "restricted_group",
       "observed": "2026-08-26",

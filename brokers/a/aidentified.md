@@ -7,7 +7,24 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-16) — a contested nil, not yet closed.
+- Current: `not_found` (updated 2026-10-29) — confirmed against the right keys,
+  no longer a contested nil.
+- 2026-10-29: Aidentified replied to the full-identifier-set follow-up (which
+  supplied the LinkedIn profile URL, eight more historical addresses, and the
+  three graph-specific asks — derived employer-pattern emails, the inferred
+  layer, and edges): *"We have reviewed the additional identifiers you
+  provided and conducted a further search of our database. Based on the
+  results of this review, we have confirmed that we were unable to locate
+  your personal information in our database."* This is the re-run this row
+  was waiting on. It does not individually confirm each of the three
+  graph-specific asks (derived addresses / inferred layer / edges) were
+  checked — the reply is general ("your personal information," not itemized
+  by category) — but it is run against the LinkedIn URL and the full prior-
+  address/phone history, which is the identifier set that actually matters
+  for a professional-graph product. Recording as `not_found` rather than
+  pressing further: the letter asked for a specific, named, harder search and
+  got one, and continuing to ask after a second considered negative risks
+  being the kind of request that gets an honest nil only once.
 - Note: privacy@aidentified.com replied 2026-09-16 09:25 PDT to the original
   16-Aug letter: "Based on the information provided we have done an exhaustive
   search and concluded that your personal information is not available in our

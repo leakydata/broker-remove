@@ -10,6 +10,11 @@
 - Current: `replied` (updated 2026-10-29) — substantive but partial; two
   questions still open.
 - Reference: `gmail:1a12c56012f1fd7b`
+- 2026-10-29 (later same day): the 2026-10-29 follow-up below triggered only
+  the standard autoresponder — the same "submit the request form" /
+  "APPEAL OF PRIVACY DETERMINATION" template quoted in the 2026-10-11 note,
+  not a new human reply. Not a regression, just not progress: still awaiting
+  an actual answer to the two re-asked questions.
 - 2026-10-28: First human reply, seventeen days after the 2026-10-11 chase
   below. Answered question 1 only, by naming the two onboarders:
   **LiveRamp** (consumercare@liveramp.com) and **Throtle**

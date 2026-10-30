@@ -7,7 +7,34 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-11)
+- Current: `confirmed` (updated 2026-10-29)
+- 2026-10-29: **Correction to this row's own history, and to SILENT_FAILURES
+  §205/§425 as applied to PureCars: `privacy@purecars.com` is not dead.**
+  Both the original 2026-09-11 letter (sent to `hello@purecars.com` because
+  the registry address's autoresponder had claimed to be unmonitored) and a
+  separate letter sent directly to `privacy@purecars.com` both received
+  substantive replies **from `privacy@purecars.com` itself**, cc'ing
+  `privacy+response@purecars.com`. Quoted in full: *"After conducting a
+  diligent search of our records, we have not found any data related to
+  you in our systems... PureCars has also acknowledged your request to opt
+  out of the processing of your personal data for purposes of: targeted
+  advertising; the sale of personal data; and/or profiling... We have also
+  notified any service providers, contractors, and/or third parties to
+  which we disclosed your information about your opt-out request, and
+  instructed them to comply... We will continue to honor your opt-out
+  request for at least twelve (12) months."* This is a genuine
+  `not_found` on the identifiers searched plus an opt-out acknowledgement
+  with a stated 12-month forward-looking honor period and third-party
+  notification — about as complete an answer as this kind of letter gets.
+  **The prior autoresponder claiming the mailbox was unmonitored was either
+  stale, scoped to a different submission channel, or simply wrong — a
+  human-reviewed mailbox can still fire a dead-channel autoresponder on
+  receipt before a person reads it.** Do not take an autoresponder's claim
+  about its own channel at face value without a later data point; this is
+  the second time in this project an "unmonitored" autoresponder preceded a
+  real human reply (see `_SILENT_FAILURES.md` for the general pattern).
+  Nothing further needed here; record applies to PureCars, AutoMiner and
+  TruPayments jointly per the entity's own reply.
 - Note: NEW ROUTE FOUND AND USED 2026-09-11 -- hello@purecars.com, their general contact, because it is the only address a consumer can actually reach. THE REGISTER ADDRESS IS DECLARED DEAD BY THE REGISTRANT: privacy@purecars.com is the contact on their California data broker registration, and their own autoresponder says 'this email address is no longer part of our data subject request process and it is not being monitored' (SILENT_FAILURES 205, recorded under dead_addresses as kind declared_unmonitored -- not a bounce, not a restricted group, not a departed employee; the mailbox works, answers, and the company states nobody reads it). AND THERE IS NO ALTERNATIVE ROUTE ON THEIR SITE. purecars.com/privacy-policy is real (negative control: a nonsense path returns 404, so the page discriminates) and publishes exactly four opt-out links: tools.google.com/dlpage/gaoptout, optout.networkadvertising.org, optout.aboutads.info and app.retention.com/optout/. The first three are other companies' advertising-cookie opt-outs and the fourth is a vendor's own form. NONE removes anything PureCars holds -- SILENT_FAILURES 425 exactly, the route that resolves and loads and removes nothing. No consumer-rights form, no portal, no working privacy mailbox. LETTER SENT covering PureCars, TruPayments and AutoMiner together, asking them to say which brands were searched; requesting delete, opt-out, third-party direction and forward-looking suppression; and asking two things they are uniquely placed to answer -- whether any of the data derives from a dealership, vehicle record, service visit or finance enquiry rather than web activity, and where privacy requests should actually go, with a suggestion to update the register to match. Prior addresses deliberately NOT pasted into a general mailbox; offered on request. SUPPLY-CHAIN NOTE: linking app.retention.com/optout/ from their own policy discloses that PureCars uses RETENTION.COM, the identity-resolution vendor. Both Retention.com rows are already tracked -- retention_com is confirmed, retention_com_rb2b is submitted -- so no new broker, but the dependency is now evidenced from PureCars' side.
 
 ## Steps
