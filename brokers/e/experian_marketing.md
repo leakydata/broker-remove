@@ -58,6 +58,16 @@
   of these `confirmed` or `not_found` without that check -- "report is
   complete" says nothing about content, and at this volume guessing is a
   real risk of misrecording the outcome.
+- 2026-10-31: Still climbing. A broad search for the notice subject now
+  returns roughly 267 matching emails from `ccpa@experian.com`, up from the
+  ~144 counted as of 2026-10-30 05:49 -- another ~120 generated in roughly
+  the last day, against the same four letters ever sent. This is not
+  slowing down. Did not open any more case links (still a browser/
+  re-verification step, still not something this channel can do). The
+  handoff is unchanged in kind, just larger: a human should spot-check 2-3
+  cases and consider asking `CCPA@experian.com` directly why the case count
+  is decoupled from actual requests, rather than triaging by hand at this
+  volume.
 
 ## Steps
 

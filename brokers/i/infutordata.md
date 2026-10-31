@@ -9,6 +9,15 @@
 
 - Current: `manual_required` (updated 2026-10-10)
 - Reference: `3222d7d5-5def-4aa0-9dd8-669821207349`
+- 2026-10-30: Securiti sent a closure notice for this exact reference —
+  "Thank you for your Do Not Sell Request. We have processed and responded
+  to your inquiry. We now consider this matter closed." Submitted
+  2026-09-05, closed roughly 8 weeks later. The notice itself states no
+  outcome; reading what was actually found/done requires logging into
+  `privacy-central.securiti.ai` with a tokenized link, a browser/login step
+  this channel can't complete. Not marking `confirmed` or `not_found` on
+  the strength of "closed" alone — added to the handoff queue for a human
+  to open the status report.
 - Note: ROUTE MAPPED END TO END 2026-10-10, AND FOR A PENNSYLVANIA RESIDENT TWO OF THE THREE RIGHTS HAVE NO ROUTE AT ALL. (1) EMAIL IS REFUSED IN TERMS. Their autoreply: 'Any data subject requests sent to these Infutor privacy compliance email addresses WILL NOT BE CONSIDERED A VALID SUBMISSION of a privacy rights request. The functions of these email addresses are not for data subject privacy rights request processing.' It directs the reader to an online form and a toll-free number, 1 (866) 207-1399. (2) THE FORM THEY NAME IS NOT A LINK. infutor.com/privacy-center/ says 'To submit a request, please complete an online Individual Privacy Rights Form' -- and that phrase is plain text, hyperlinked to nothing. Verified twice, in the accessibility tree and in the raw page. The only working route is a button labelled 'Your Privacy Choices', which goes to a Securiti portal at privacy-central.securiti.ai/#/dsr-universal/d22d7639-4e9d-4a81-b37c-040fd51356e2. The name in the instruction and the name on the working control are different, which is 461a's broken-link failure in a subtler form. The toll-free number does not appear on the privacy-centre page either; the only number shown there is 1-312-348-7900. (3) THE PORTAL IS STATE-GATED AND PENNSYLVANIA GETS ONE RIGHT. Selecting United States of America / Pennsylvania produces a form whose REQUEST TYPE offers only 'Do not Sell or Share (Opt-out)'. No deletion. No access. The page confirms the phone line is for opt-out as well -- 'If you do not have a valid email address, you may submit an opt out request by calling us'. So the opt-out already filed under reference 3222d7d5-5def-4aa0-9dd8-669821207349 is the ONLY thing this subject can obtain, and the two rights the September letter asked about are unreachable by any published channel. (4) CORPORATE IDENTITY, for the dossier: the autoreply signs off 'InfutorData formally [formerly] Verisk Marketing Solutions', and the privacy-centre footer states 'Lead Intelligence, Inc is data broker under Texas law' and is registered with the Texas Secretary of State. Jornaya/myJornaya is on the same site. NOT SENDING ANOTHER LETTER: they have said email is not a valid channel and an autoresponder will eat it. This is regulator-facing material of the same kind as Adstra at 461a -- a published route that does not reach a form, and a rights menu that silently narrows by residency.
 
 ## Steps
