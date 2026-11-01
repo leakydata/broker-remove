@@ -29,9 +29,9 @@ import argparse, json, sys, datetime, collections
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from paths import ROOT  # noqa: E402
+from paths import ROOT, state  # noqa: E402
 
-STATE = ROOT / "data" / "removal_status.json"
+STATE = state("removal_status.json")
 
 # Statuses where a response is still owed. `replied` and the terminal outcomes
 # are excluded: the company has answered, whatever the answer was.

@@ -20,6 +20,7 @@
 
 ## Gotchas
 
+- 2026-11-01: Checked the site's privacy/contact pages for a published email address (`verify_emails.py`) — the site is reachable but publishes no email at all. The web form above is the only route; there is no email fallback to use against the CAPTCHA/form gate.
 <!-- Fill in from their reply. Recurring things worth capturing:
      - Do they refuse email and point at a form? Which form?
      - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?

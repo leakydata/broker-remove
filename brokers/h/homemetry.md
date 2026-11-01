@@ -30,6 +30,7 @@
 
 ## Gotchas
 
+- 2026-11-01: `verify_emails.py` could not fetch the site's privacy/contact pages to look for a fallback email — blocked (bot protection or a non-200 response), not confirmed dead. Worth a manual look before assuming no email route exists.
 <!-- Fill in from their reply. Recurring things worth capturing:
      - Do they refuse email and point at a form? Which form?
      - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
