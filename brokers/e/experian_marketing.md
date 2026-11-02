@@ -68,6 +68,13 @@
   cases and consider asking `CCPA@experian.com` directly why the case count
   is decoupled from actual requests, rather than triaging by hand at this
   volume.
+- 2026-11-02: Re-counted -- roughly 279 matching notices now, up only ~12
+  since the 10-31 count of 267. The generation rate has dropped sharply
+  (from ~120/day to roughly ~6/day over the last two days), which looks
+  more like a fault working itself out than one still running away. Still
+  not opening case links -- same browser/re-verification limit as before.
+  Not changing the handoff recommendation, just noting the flood may be
+  tapering rather than escalating further.
 
 ## Steps
 
