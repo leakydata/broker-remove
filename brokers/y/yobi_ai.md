@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted`
+- Current: `replied` (updated 2026-11-02)
 - Note: Minimised letter (--keys email-only): name and 12 email addresses only; DOB, postal addresses and phone numbers deliberately withheld because an identifier-keyed adtech platform cannot match on them and receiving them would only enlarge the footprint. Asks for plaintext AND hashed search (MD5/SHA-1/SHA-256, lowercased and trimmed), and for three things in the confirmation: which identifiers matched, which systems were searched, and whether suppression is keyed to me or to the sent keys.
+- **2026-11-02 reply, but on the `yobi_ventures.md` thread, not this one** — see Gotchas. privacyops@yobi.ai (named human, Kelly Peterson) searched one address ([EMAIL]) only, found nothing, and confirmed the opt-out of sale/sharing for that one address "as of November 2, 2026." For the other three addresses supplied in that letter, they refused to search: "we are unable to verify your identity at this time for the additional email addresses provided. Please send your privacy requests from the email addresses contained within your privacy request." Replied pushing back on that verification method (see Gotchas) and asking two scope questions about the one address that was processed: is the nil result a forward-looking suppression or only a statement about today's holdings, and is the opt-out itself forward-looking. Also asked which upstream data providers supplied Yobi with records, since their own signature line describes them as "a data technology company that operates as a data intermediary... receive[s] consumer data through licensed agreements with third-party data providers" — i.e. a reseller, not a primary collector. Awaiting reply.
 
 ## Steps
 
@@ -20,13 +21,25 @@
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+**The reply landed on the predecessor's thread, not this one.** The original
+letter to privacy@yobi.ai was sent noting the entity-name discrepancy
+(Yobi Ventures LLC vs. Yobi Ventures Inc. dba Yobi AI) and asking only 4
+identifiers (name, DOB, phone, 4 emails) — a *different*, fuller letter than
+the 12-email-minimised one this file documents. The reply on 2026-11-02 answers
+that older letter. Two separate letters to the same current address, with
+replies tracked under two different registry rows (`yobi_ventures` and
+`yobi_ai`) that both resolve to the same live company — check both files
+before assuming either is current.
+
+**Verify-by-resending-from-each-address.** They will search and action
+whichever address the request was *sent from*, and refuse every other address
+listed in the body unless each one separately emails them, or the consumer
+uses the web form at yobi.ai/opt-out. See `_DEFLECTIONS.md` §77 for the
+pushback: California's verification regs (11 CCR 7060) permit a signed
+declaration under penalty of perjury in lieu of proving control of an address
+by sending from it, and the whole reason to list several addresses is that the
+disused ones are the likeliest to actually be in a data file — exactly the
+ones that can never pass a same-address check.
 
 ## Verification
 

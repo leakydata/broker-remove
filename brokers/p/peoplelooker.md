@@ -8,7 +8,22 @@
 
 ## Status
 
-- Current: `replied` (updated 2026-10-10)
+- Current: `covered_by_sibling` (updated 2026-11-02)
+- **2026-11-02 reply, finally substantive:** "Your request was addressed to
+  Backgroundchecks Me, but received at PeopleLooker. While we may share a
+  marketing relationship with Backgroundchecks Me, please be advised that we
+  do not control nor own the data provided on Backgroundchecks Me... as
+  confirmed in replies from our brands on September 22 and October 2, we
+  have processed your requests as they relate to PeopleLooker and our other
+  brands." Two separate findings in one message: (1) PeopleLooker itself is
+  covered by the family-wide opt-out documented in `beenverified.md` (the
+  "applies to all of our brands" statement, reaffirmed twice since) --
+  closing the "escalated to privacy team" cliffhanger below with an actual
+  outcome; (2) **Backgroundchecks Me is explicitly denied as a sibling** --
+  see `backgroundchecks_me.md` for the consequence. Recording PeopleLooker
+  itself as `covered_by_sibling` rather than `confirmed` because the Sept
+  22/Oct 2 confirmations this reply points back to are the BeenVerified
+  thread's, not a PeopleLooker-specific search result.
 - Note: DELIBERATE REGRESSION FROM confirmed -- NOT EARNED, found by the 468 audit. This row was closed in the 2026-10-01 sweep on an adopted status with boilerplate only. The mail does not support it. Everything from PeopleLooker is either an automated acknowledgement ('Thanks for getting in touch! We've received your request'), a customer-satisfaction survey, or the standard template pointing at the online opt-out. THE MOST RECENT SUBSTANTIVE MESSAGE, 2026-10-05, SAYS THE OPPOSITE OF DONE: 'We have escalated this request to our privacy team.' Escalated is in-progress. The row was marked confirmed FOUR DAYS BEFORE that message arrived, so whatever the status was based on, it was not an outcome. Hold at replied and watch for the privacy team's answer. ONE THING THIS EXCHANGE PROVES ABOUT THE FAMILY: the 2026-10-05 escalation came from support@peoplelooker.com but answered a request addressed to BACKGROUNDCHECKS ME -- so the Lifetime Value Co. brands share one support desk. Worth knowing in both directions: one good letter may reach several brands, and one template deflection may be what closed several rows.
 
 ## Steps

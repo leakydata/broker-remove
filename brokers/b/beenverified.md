@@ -11,6 +11,19 @@
 - Reference: `gmail:1a0063929652c5ef`
 - Note: REAL REQUEST SENT 2026-10-10 to privacy@beenverified.com, replacing the unearned 'confirmed' regressed earlier this pass. USED THEIR OWN FAQ AGAINST THE WEB FORM'S LIMITS, which is why email was the right channel rather than the online opt-out: (1) the FAQ states the online process permits removal of ONE RECORD ONLY and directs anyone with more to email this address -- and a thirty-year, sixteen-address history is exactly the case their own FAQ says produces multiple unmatched records; (2) the FAQ states that opting out of People Search may leave a name appearing in their OTHER search services, and the opt-out page separately names Property Search and Contact Search; (3) the FAQ admits that when a data partner supplies a record they cannot match to an existing one, it MAY APPEAR AFTER AN OPT-OUT, and invites the consumer to write again each time. So the web flow removes one record from one product with no forward protection -- asked instead for all records, all products, and a STANDING DO-NOT-ADD LIST checked on ingestion, with an explicit offer to accept 'we cannot do that' as a complete architectural answer. ALSO ASKED WHETHER THE REQUEST REACHES OWNERLY AND NEIGHBORWHO, both Lifetime Value Co. brands, both of which carry adopted 'confirmed' with no correspondence in the mailbox at all. Better to ask once than discover in six months that an opt-out covered one brand of three. WARNED THEM OFF LOOSE MATCHING and gave the reason: the Seamless.AI disclosure (464) was a composite of four or five people sharing the name, so DOB 7 January [YEAR] is the discriminator and fewer-but-correct removals are preferred to more-but-careless. Standing limit restated -- key to the name-plus-DOB association, never a bare address or number, because other people live at those addresses now. DISCLAIMED DANIEL'S LAW EXPLICITLY: they offer a covered-person route for judges, prosecutors and law enforcement; the subject is a FORMER Pennsylvania State Constable and the letter says so rather than letting anyone later think the category was stretched. Also asked for the CATEGORIES of their data partners, to write upstream rather than keep catching the same record downstream.
 
+## 2026-11-02: a second confirmation of the same September/October outcome
+
+A new Zendesk reply landed on what looks like a duplicate copy of the 2026-10-10
+letter (same ticket content, different thread id than the one referenced above).
+The answer: "We understand that your request is directed The Lifetime Value Co.
+as well as BeenVerified. Please know that we have processed your requests as
+confirmed in replies on September 22 and October 2." No new information, and it
+does not specifically re-list Ownerly/NeighborWho by name this time -- but it is
+a third independent instance of the family-wide claim (after 2026-09-22 and
+2026-09-30), this time in direct response to a letter that named Ownerly and
+NeighborWho explicitly and asked whether the request reaches them. Treating this
+as sufficient to extend `covered_by_sibling` to both -- see their files.
+
 ## Family properties — check each
 
 BeenVerified operates several sibling brands that carry the same underlying data:

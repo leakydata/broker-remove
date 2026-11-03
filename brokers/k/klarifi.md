@@ -19,7 +19,14 @@
   is keyed only to the one email address they replied to ([EMAIL]) or
   also the other three addresses and name/DOB supplied in the original
   letter, since the answer decides how durable the suppression actually is.
-  Awaiting that clarification.
+- **2026-11-03: a third reply, identical text to the second, word for word.**
+  Does not answer the scoping question at all -- reads as a macro firing on
+  "RE:" in the subject line rather than a person reading the thread. Not
+  chasing further: a third identical copy is diagnostic in itself (this is an
+  autoresponder, not a privacy desk), and a fourth email asking the same
+  question a third time is unlikely to land differently. Leaving `not_found`
+  as the status rather than inventing a stronger one -- the scoping question
+  remains genuinely unanswered.
 
 ## Steps
 

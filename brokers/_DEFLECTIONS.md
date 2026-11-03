@@ -4103,5 +4103,47 @@ already disclosed. If the only way to find you is to tell them something new abo
 yourself, that is worth noticing before answering — the request is meant to reduce
 what they hold, not to complete their record.
 
+## §77
+### "Please send your privacy request from each address, individually"
+
+**Shape:** you list several email addresses as your own in one letter. The broker
+processes the one you sent it from — searches it, finds nothing or something, and
+actions the opt-out for that one — then refuses to touch the others: *"we are
+unable to verify your identity at this time for the additional email addresses
+provided. Please send your privacy requests from the email addresses contained
+within your privacy request."* Yobi AI gave this answer in exactly these words.
+
+**Why it defeats the point of listing several addresses at all.** The whole
+reason to list more than one is that disused or legacy addresses are the ones
+most likely to actually be in a broker's file (§67 makes the same point about a
+different deflection) — a sending-address check structurally cannot verify
+exactly the identifiers worth searching. Taken to its conclusion, this
+verification method would require a dead mailbox nobody can send from to prove
+itself before a search of it is permitted, which is circular.
+
+**The response.** Don't literally comply by sending three more emails — that
+teaches the broker that the "simplest" answer works and does nothing to fix the
+underlying method for the next address on the next list. Instead:
+
+- **Offer a declaration under penalty of perjury** that the other addresses are
+  yours, on the same footing as the one they already treated as sufficiently
+  verified. California's regs (Cal. Code Regs. tit. 11, § 7060) list this as an
+  acceptable verification method; they do not require proving control of an
+  address by sending from it.
+- **Ask them to apply it to the one address they already processed, too** —
+  whether the nil result and the opt-out are forward-looking suppressions or
+  only statements about today's holdings. A broker that will search on request
+  but not commit to a standing exclusion has answered a narrower question than
+  the one asked.
+- **Offer the fallback without conceding the point**: if their process genuinely
+  cannot accept a declaration, ask them to say so plainly, and record it as a
+  real (if disappointing) answer about their verification architecture rather
+  than pushing further.
+- **If they describe themselves as a data intermediary or reseller** (Yobi's own
+  signature line: "we receive consumer data through licensed agreements with
+  third-party data providers"), ask which providers supplied the record — that
+  is the better lever than relitigating verification, because it reaches the
+  source rather than one downstream copy of it.
+
 **Related:** §67 (the sending address is not the address in the record), §73 (the
 SSN gate), `_SILENT_FAILURES.md` §119.

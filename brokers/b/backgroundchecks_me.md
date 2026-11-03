@@ -7,8 +7,23 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-10-04)
+- Current: `unreachable` (updated 2026-11-02)
 - Note: 2026-10-04: email discovered via verify_emails.py (published on the broker's own site) and statutory deletion/opt-out letter sent. No reply yet.
+- **2026-11-02: the relationship question is answered, and it is "no."**
+  "Your request was addressed to Backgroundchecks Me, but received at
+  PeopleLooker. While we may share a marketing relationship with
+  Backgroundchecks Me, please be advised that we do not control nor own the
+  data provided on Backgroundchecks Me. If there is any additional
+  information shared by that site, you will need to contact them directly
+  to request its removal." This is exactly the "reply treats this as the
+  wrong company" case the Gotchas section below told the next pass to watch
+  for. Following that pre-written instruction: downgrading from `submitted`
+  to `unreachable` rather than treating the PeopleLooker family confirmation
+  as covering this brand. **backgrounds.me itself still publishes no contact
+  address anywhere on its own site** (per the registry's own notes field),
+  so there is no direct route left to try without a fresh discovery pass --
+  flagging for `discover_contacts.py` / `verify_emails.py` rather than
+  resending to the same off-domain mailbox.
 
 ## Steps
 

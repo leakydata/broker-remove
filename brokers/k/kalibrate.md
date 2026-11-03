@@ -7,8 +7,17 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-28)
+- Current: `confirmed` (updated 2026-11-02)
 - Note: Recovered from the committed playbook brokers/k/kalibrate.md, because the ledger carries no notes and this row's status had no evidence behind it: Recovered from Gmail Sent folder -- letter sent 2026-08-27, not recorded in tracker/ledger at the time. Auto-reply: 'received... will update you once processed.'
+- **2026-11-02 reply (over two months later):** "We can confirm that you have
+  been opted out of any future processing by our company and any data we had
+  matching or associated with your name and address has been removed. This
+  request is deemed complete and is now closed. A record of your request
+  will be retained where required by applicable law." An affirmative
+  deletion-plus-opt-out statement, not merely an acknowledgement -- meets the
+  bar for `confirmed`. Does not break out which identifiers matched or
+  whether the retained record is suppression-only; not chasing further given
+  the age of the thread and the clarity of the core answer.
 
 ## Steps
 
