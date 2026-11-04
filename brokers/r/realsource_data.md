@@ -8,8 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-19)
+- Current: `confirmed` (updated 2026-11-04)
 - Note: Ambiguous name, so the letter opens by asking which of four businesses they are - consumer data compiler, property/real-estate data provider, identity-append service, or processor holding client files - because the right request differs sharply between them and a wrong premise gets a correct answer to the wrong question. Then the four standing questions for a licensed data product: which identifiers they matched on, whether customers who already downloaded a file must delete it (with an invitation to say plainly that delivered copies are permanent), whether derived attributes are covered, and whether household/relative/associate LINKAGES are deleted as well as rows.
+- 2026-11-04 reply (`privacy@realsourcedata.com`, 2.5 months after the original letter): "Thanks for your email. We've processed your request, and your data has been permanently removed from our records." That is an affirmative deletion statement, so it is recorded as `confirmed` -- but it is boilerplate quoted straight back from the request rather than an answer to it. None of the four specific questions were addressed: which identifiers matched, whether downstream licensees retain a copy, whether derived/inferred attributes are covered, or whether household/relative linkages were deleted. Treat a reply shaped like this as a confirmed deletion of the *base record* only; it is not evidence either way on suppression-at-ingest or on what customers who already took a delivery hold onto.
 
 ## Steps
 
