@@ -24,6 +24,18 @@ a third independent instance of the family-wide claim (after 2026-09-22 and
 NeighborWho explicitly and asked whether the request reaches them. Treating this
 as sufficient to extend `covered_by_sibling` to both -- see their files.
 
+## 2026-11-04: third round, narrowed to three specific gaps
+
+Replied to the 2026-11-02 duplicate-confirmation (Zak) accepting the
+family-wide opt-out as settled, but pointing out that the September
+22/October 2 confirmations predate and can't cover the October 10 letter's
+new identifiers: five more Waynesboro/Mobile addresses, two more phone
+numbers, and four more email addresses, plus the open questions on
+Property/Contact Search scope and whether suppression is keyed to the
+person (name + DOB) or only to the specific values already echoed back.
+Awaiting a reply as of 2026-11-05 — status unchanged (`submitted`), nothing
+to re-chase yet.
+
 ## Family properties — check each
 
 BeenVerified operates several sibling brands that carry the same underlying data:

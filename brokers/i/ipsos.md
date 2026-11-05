@@ -7,7 +7,19 @@
 
 ## Status
 
-- Current: `replied` (updated 2026-10-27)
+- Current: `replied` — **closed, no further action planned** (updated 2026-11-05)
+- 2026-11-04 reply: answered the one open question. The registry-filed phone
+  line, (833) 931-1525, is **dead as an Ipsos contact point** — "I canceled
+  that 800 number when I removed our company from the data broker registry
+  back in 2023. While it might be a working number, it is not an Ipsos
+  number." So Ipsos's own CA data-broker-registry filing names a disconnected
+  number as a live consumer opt-out route, and has for at least part of the
+  time it has been relied on. Replied 2026-11-05 accepting this as the
+  complete, promised answer, closing the US side, and asking Ipsos to correct
+  or withdraw the stale registry filing — not chasing further per the plan
+  stated in the 2026-10-28 message (see below). **Anyone else writing to
+  Ipsos from a current CA registry listing: do not rely on the filed phone
+  number; email dpo.usa@ipsos.com directly.**
 - 2026-10-27 reply: still did not answer the one concrete question left on
   the table (whether the registry-filed phone line can run a name/DOB/address
   suppression without a project reference). Instead doubled down on the

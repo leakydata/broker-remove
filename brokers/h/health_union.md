@@ -7,9 +7,27 @@
 
 ## Status
 
-- Current: `email_pending` (updated 2026-09-05)
+- Current: `submitted` (updated 2026-11-04)
 - Reference: `TS7LYMSMBF`
-- Note: VERIFICATION NOT COMPLETING. OneTrust request TS7LYMSMBF (Delete My Personal Information) was submitted 2026-09-02 14:27 UTC; the confirm-your-email message only arrived 2026-09-05 14:54 UTC, three days later, which matters because the mail says the request cannot start until it is confirmed. Drove the link 2026-09-05: the portal loads, stays on the /verify/ route and never reaches /verify/verifySuccess, checked twice over 75 seconds. NOT the tooling -- the identical navigate-and-read-the-URL technique verified AV6KDQ7SS4 (Mobility Global) and XF8TWVDW77 (Dstillery) minutes earlier, both landing on verifySuccess with their own request UUIDs. So either the token is spent or expired, or the page is rendering something that needs a click, invisible while screenshots are failing. Queued for a human. Until it is clicked the request has NOT STARTED.
+- 2026-11-04: OneTrust sent "(Request ID: TS7LYMSMBF) Your Privacy Request has
+  been completed." That is a broker-issued artifact — a ticket closure, not a
+  form that merely "said thank you" — but the notification email states no
+  outcome (deletion vs. nothing found vs. suppression) and the detail sits
+  behind a one-time portal link that requires opening in a browser, which this
+  project does not have. Recording as `submitted`/closed rather than
+  `confirmed`: there is positive evidence the request was processed, but no
+  evidence yet of *what* was done. If a human wants the specifics, the portal
+  link is in the Gmail thread (subject "(Request ID: TS7LYMSMBF) Your Privacy
+  Request has been completed", 2026-11-04) — one click, no CAPTCHA observed in
+  prior OneTrust portals of this kind.
+- 2026-10-12: OneTrust extended the response deadline by 45 days ("While we
+  are actively working on handling your request..."), between the stuck
+  verification below and the 2026-11-04 completion. So the verification issue
+  from 2026-09-05 resolved itself (or was cleared on their end) somewhere in
+  that window — the link not reaching verifySuccess was not fatal here, unlike
+  at some other OneTrust deployments. Worth knowing: a stuck OneTrust verify
+  page is not always a dead request.
+- 2026-09-05 (historical): VERIFICATION NOT COMPLETING. OneTrust request TS7LYMSMBF (Delete My Personal Information) was submitted 2026-09-02 14:27 UTC; the confirm-your-email message only arrived 2026-09-05 14:54 UTC, three days later, which matters because the mail says the request cannot start until it is confirmed. Drove the link 2026-09-05: the portal loads, stays on the /verify/ route and never reaches /verify/verifySuccess, checked twice over 75 seconds. NOT the tooling -- the identical navigate-and-read-the-URL technique verified AV6KDQ7SS4 (Mobility Global) and XF8TWVDW77 (Dstillery) minutes earlier, both landing on verifySuccess with their own request UUIDs. So either the token is spent or expired, or the page is rendering something that needs a click, invisible while screenshots are failing. Queued for a human. Until it is clicked the request has NOT STARTED.
 
 ## Steps
 
