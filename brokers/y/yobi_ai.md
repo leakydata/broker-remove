@@ -7,9 +7,14 @@
 
 ## Status
 
-- Current: `replied` (updated 2026-11-02)
+- Current: `replied` (updated 2026-11-05)
 - Note: Minimised letter (--keys email-only): name and 12 email addresses only; DOB, postal addresses and phone numbers deliberately withheld because an identifier-keyed adtech platform cannot match on them and receiving them would only enlarge the footprint. Asks for plaintext AND hashed search (MD5/SHA-1/SHA-256, lowercased and trimmed), and for three things in the confirmation: which identifiers matched, which systems were searched, and whether suppression is keyed to me or to the sent keys.
-- **2026-11-02 reply, but on the `yobi_ventures.md` thread, not this one** — see Gotchas. privacyops@yobi.ai (named human, Kelly Peterson) searched one address ([EMAIL]) only, found nothing, and confirmed the opt-out of sale/sharing for that one address "as of November 2, 2026." For the other three addresses supplied in that letter, they refused to search: "we are unable to verify your identity at this time for the additional email addresses provided. Please send your privacy requests from the email addresses contained within your privacy request." Replied pushing back on that verification method (see Gotchas) and asking two scope questions about the one address that was processed: is the nil result a forward-looking suppression or only a statement about today's holdings, and is the opt-out itself forward-looking. Also asked which upstream data providers supplied Yobi with records, since their own signature line describes them as "a data technology company that operates as a data intermediary... receive[s] consumer data through licensed agreements with third-party data providers" — i.e. a reseller, not a primary collector. Awaiting reply.
+- **2026-11-02 reply, but on the `yobi_ventures.md` thread, not this one** — see Gotchas. privacyops@yobi.ai (named human, Kelly Peterson) searched one address ([EMAIL]) only, found nothing, and confirmed the opt-out of sale/sharing for that one address "as of November 2, 2026." For the other three addresses supplied in that letter, they refused to search: "we are unable to verify your identity at this time for the additional email addresses provided. Please send your privacy requests from the email addresses contained within your privacy request." Replied pushing back on that verification method (see Gotchas) and asking two scope questions about the one address that was processed: is the nil result a forward-looking suppression or only a statement about today's holdings, and is the opt-out itself forward-looking. Also asked which upstream data providers supplied Yobi with records, since their own signature line describes them as "a data technology company that operates as a data intermediary... receive[s] consumer data through licensed agreements with third-party data providers" — i.e. a reseller, not a primary collector.
+- **2026-11-05 reply.** Three new pieces, none of which resolved the two open scope questions:
+  1. **Opt-out now processed for all three remaining addresses** on the declaration-under-penalty-of-perjury offered in lieu of a same-address email (Cal. Code Regs. tit. 11, § 7060) — so all four addresses are opted out of sale/sharing. But **deletion on those three is still held to the same-address-email standard**; the declaration was accepted for opt-out only, not for deletion. Worth recording as a real distinction: this broker's verification architecture treats "stop selling" and "erase" as different trust levels, not interchangeable rights.
+  2. **New deflection: non-California residency.** "While you cite California regulations, the residential address you provided is not for California thus making your request subject to the rights and restrictions as outlined in our Privacy Notice." They did not say the request is refused — only that a different (unnamed) basis applies. Replied invoking the fallback clause from the original letter (honor as company policy if not covered by statute) and asked directly whether the privacy notice extends opt-out/deletion to non-CA consumers as policy, independent of CCPA.
+  3. **Declined to name data providers**, citing confidentiality. Pre-accepted this as a complete answer rather than pressing — a stated confidentiality position is itself useful information, and the point was already made that email has no CAPTCHA, not that it has no limits.
+  - Still unanswered after two asks: whether the leakydata@gmail.com nil result and the opt-out are forward-looking (survive a future re-ingest) or only describe today's holdings. Asked a third time, framed as the closing question, with an explicit offer to accept "today only" as a complete answer if that's the truth.
 
 ## Steps
 
@@ -30,6 +35,20 @@ that older letter. Two separate letters to the same current address, with
 replies tracked under two different registry rows (`yobi_ventures` and
 `yobi_ai`) that both resolve to the same live company — check both files
 before assuming either is current.
+
+**Opt-out and deletion are not the same trust level.** A declaration under
+penalty of perjury (in lieu of emailing from each address) was accepted for
+the *opt-out of sale/sharing* on three addresses, but refused for *deletion*
+on the same three — the same evidence, two different verification bars. Don't
+assume one acceptance covers both rights; ask about deletion separately even
+after an opt-out confirmation lands.
+
+**"Not a California resident" is a scope claim, not a refusal.** On 2026-11-05
+they wrote that a non-CA address makes the request "subject to the rights and
+restrictions as outlined in our Privacy Notice" — without saying the request
+is denied. Treat this as an opening to invoke the standing fallback clause
+("honor this as company policy, and tell me which basis you applied"), not as
+a closed door.
 
 **Verify-by-resending-from-each-address.** They will search and action
 whichever address the request was *sent from*, and refuse every other address
