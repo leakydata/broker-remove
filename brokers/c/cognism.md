@@ -8,7 +8,26 @@
 
 ## Status
 
-- Current: `not_found` (updated 2026-10-10)
+- Current: `manual_required` (updated 2026-11-07) — awaiting their answer, see below.
+- 2026-11-06/11-07: After the 2026-10-16 supplement offered a LinkedIn profile
+  URL as both a search key and a standing suppression entry, Cognism did not
+  answer either part. Instead it came back invoking **UK GDPR Article 12(6)**
+  — reasonable doubt as to identity — and asked for a business phone number or
+  work email. Replied explaining why that's the wrong tool here: Art 12(6) is
+  for resolving a *specific, named doubt about identity*, not a general ask for
+  more match keys, and by this point the request already carries name +
+  variants, DOB, nine phone numbers, eight personal emails, eleven addresses
+  and a LinkedIn URL — well past what's normally needed to confirm a person is
+  who they say they are. Declined to invent a business phone/work email that
+  doesn't exist. Re-asked the two unanswered questions: (1) was the LinkedIn
+  URL actually searched and with what result, and (2) is the suppression entry
+  for that URL in place regardless of the search outcome. Worth watching for
+  next time: a B2B data company moving from "not found" straight to an
+  identity-verification statute, without ever saying whether the new key you
+  gave them was tried, is a plausible way to stall rather than engage —
+  distinguishing a genuine identity concern from a stalling tactic matters
+  because the standard response (supply more identifiers) is the wrong move if
+  it's really the latter.
 - Note: VERIFIED (468 audit) -- EARNED, AFTER THE ACCOUNT-LOOKUP ERROR WAS CORRECTED. FOURTH INSTANCE of the pattern, after Owler (465), ReversePhone (470b) and Cint (476a). Cognism's first reply, 2026-08-30: 'we have been unable to locate A USER ACCOUNT associated with the information you provided' -- an account lookup, not a data search, at a company whose product is compiled B2B contact data about people who have no account. The correction went back the same morning: this is not a user account, he has never had one, and the question is whether they hold a RECORD. On 2026-09-14 they answered the right question: 'we are unable to find any records on our...' NOTE WHAT ELSE THE FIRST REPLY ASKED FOR -- 'To assist us in conducting a more [thorough search]' it requested additional details. The reply supplied a clarification and a DECLINE rather than the details, and the search still ran. Worth remembering: a request for more identifiers is not always a condition, and declining it politely does not necessarily stop the search.
 
 ## Steps

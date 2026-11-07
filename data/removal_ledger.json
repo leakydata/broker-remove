@@ -1207,8 +1207,8 @@
     "via": null
   },
   "cognism": {
-    "status": "not_found",
-    "changed": "2026-09-14",
+    "status": "manual_required",
+    "changed": "2026-11-07",
     "via": "reply"
   },
   "collective_data_solutions": {

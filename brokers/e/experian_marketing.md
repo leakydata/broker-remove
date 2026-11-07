@@ -58,6 +58,14 @@
   of these `confirmed` or `not_found` without that check -- "report is
   complete" says nothing about content, and at this volume guessing is a
   real risk of misrecording the outcome.
+- 2026-11-06: One more "report is complete" notice arrived (case 129547739),
+  gated behind the same `consumerprivacy.experian.com/security-questions/<case>`
+  re-verification. The flood has not stopped as of this date. Not opened, per
+  the standing guidance above -- still a single handoff item, not 140+ of
+  them. Nothing here changes the recommendation: a human should pick 2-3
+  recent case links, re-verify identity through the security questions, read
+  what they actually contain, and separately ask optout@experian.com why one
+  requester is generating dozens of cases.
 - 2026-10-31: Still climbing. A broad search for the notice subject now
   returns roughly 267 matching emails from `ccpa@experian.com`, up from the
   ~144 counted as of 2026-10-30 05:49 -- another ~120 generated in roughly
