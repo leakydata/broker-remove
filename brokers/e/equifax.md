@@ -26,6 +26,25 @@
   Number asks (Employment Data Report, employer list, freeze, permanent
   prescreen opt-out) that have never been confirmed across two months of
   correspondence. Still open.
+- Update (2026-11-09): 13 days later, Equifax finally answered the two
+  remaining questions from 10-27. (a) **Workforce Solutions**: "a Data Broker
+  for manual verifications, but does not retain any data used for processing
+  requests. Your request has been processed." -- resolves the registration
+  contradiction: it's a broker for one narrow product line (manual
+  verifications) and a processor for the main Work Number employment file,
+  and holds nothing of its own to delete for the broker side. (b) **DataX**:
+  "composed of only FCRA and GLBA data" -- confirms the file-disclosure right
+  applies, not deletion, and points to a self-service consumer-report portal
+  (consumers.dataxltd.com/annualCreditReport) rather than emailing a report.
+  The reply also pointed the Employment Data Report question at
+  employees.theworknumber.com/about -- another self-service employee portal,
+  not something answerable by this mailbox. Both portals require their own
+  identity re-verification and are **handed off** rather than guessed at.
+  Replied same day narrowing to the only two items that remain genuinely
+  unconfirmed after nearly 3 months: the Work Number **freeze**, and the
+  permanent **prescreen opt-out**. Neither is a self-service-portal matter on
+  its face -- both were originally asked as things this mailbox could
+  confirm in writing. Still open.
 
 ## Steps
 

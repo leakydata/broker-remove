@@ -83,6 +83,13 @@
   not opening case links -- same browser/re-verification limit as before.
   Not changing the handoff recommendation, just noting the flood may be
   tapering rather than escalating further.
+- 2026-11-10: Still arriving (newest seen dated 2026-11-09). Not re-counted
+  this pass -- the session's Gmail tool groups these by thread rather than
+  by message, so the earlier raw counts aren't reproducible with it, and
+  guessing a number would be worse than none. Re-queued as the standing
+  handoff item: a human needs to open 2-3 recent case links, re-verify
+  identity, and read what they contain, and separately ask
+  `optout@experian.com` why one requester is generating this many cases.
 
 ## Steps
 

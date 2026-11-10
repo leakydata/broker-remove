@@ -7,9 +7,21 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-26)
+- Current: `submitted` (updated 2026-11-09)
 - Reference: `gmail:1a0266496cbc22ad`
 - Note: 2026-08-26: named in a scope addendum on the existing Equifax thread (gmail:1a0266496cbc22ad). Five entities register as data brokers using usprivacy@equifax.com and are not Equifax, Inc. itself. Asked one question - does the request reach them, or is each a separate controller filing under a shared group address - because a request recorded against the parent while the record sits with a subsidiary is one nobody will ever action. Also flagged that EQUIFAX WORKFORCE SOLUTIONS LLC registers as a data broker in its own name, which sits awkwardly beside their reply describing The Work Number as a processor acting for employers: broker registration describes a controller collecting and selling data about consumers it has no relationship with, not a processor. Raised as a factual inconsistency to resolve, not a point to win.
+- Update (2026-11-09): Resolved, 75 days later. "Equifax Workforce Solutions
+  is a Data Broker for manual verifications, but does not retain any data
+  used for processing requests. Your request has been processed." So the
+  entity plays both roles depending on product: broker-registered for a
+  manual-verification line it does not retain data for, and processor for
+  the main Work Number employment file (access/correction/deletion for that
+  part routes to the employer, confirmed earlier). Nothing to delete on the
+  broker side because nothing is retained there. The Employment Data Report
+  — the one FCRA-access item that is genuinely about this entity rather than
+  the employer — was pointed at `employees.theworknumber.com/about`, a
+  self-service employee portal requiring its own identity verification.
+  **Handed off**; not something answerable by email.
 
 ## Steps
 
