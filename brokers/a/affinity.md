@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-24)
-- Note: 2026-08-24: first contact via the address nominated in the California data broker registration. Tailored per _CATEGORY_VARIANTS.md.
+- Current: `confirmed` (updated 2026-11-11)
+- 2026-11-11: `privacy@affinity.co` replied affirmatively — "In compliance with the California Delete Act, we are writing to confirm that we have completed processing your request. The personal information associated with your request has been deleted from our applicable systems, except where retention is required or permitted by applicable law." This is a genuine `confirmed`, not a bare submission receipt. But it is boilerplate: it does not answer the controller/processor scoping, graph-edge, or re-enrichment questions the original letter asked specifically (see "Ingested from somebody else's mailbox" below) — replied in-thread asking them to confirm (1) whether graph edges (records of corresponding with/meeting others) were removed along with identity rows, and (2) whether this is point-in-time or a standing suppression against re-ingestion. Awaiting that answer.
+- 2026-08-24: first contact via the address nominated in the California data broker registration. Tailored per _CATEGORY_VARIANTS.md.
 
 ## Steps
 

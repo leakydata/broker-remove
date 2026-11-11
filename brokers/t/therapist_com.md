@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-22)
-- Reference: `gmail:1a0bb20784b3eba2`
+- Current: `submitted` (updated 2026-11-11)
+- Reference: `gmail:1a0bb20784b3eba2`, `gmail:1a1c910a19c30e56`
+- 2026-11-11: PESI's Data Protection Team (`dataprotectionteam@pesi.com` — confirms the PESI-parent-company theory below) replied on a separate thread, subject "Therapist.com Data Request": "We have completed our review and found no personally identifiable information (PII) associated with the subject of your request in our systems. If you have multiple email addresses, we do require you to submit a deletion request from each email address that you wish to have removed." The original 9/19 letter already listed all four addresses, so this reply's "no PII" almost certainly only covers whichever single address it searched — not a real `not_found`, since the search wasn't run on the keys actually supplied. Replied quoting the original letter and all four addresses, asking them to confirm which were searched and to check the other three rather than requiring four separate tickets. Awaiting that answer before treating this as resolved either way.
 - Note: 9/22 (third round): after the clarification that no account exists and this is a standalone privacy request, they acknowledged it correctly this time — "We are in receipt of your request, and will process your request as soon as possible... We will maintain a copy of your request as may be required by law." No completion yet; this is a bare acknowledgment, not a `confirmed`. Watch for the actual deletion/suppression answer on the next pass.
 - Prior (9/21), two identical auto-replies from
   support@therapistdirectory.zendesk.com (subject prefixed `[PESI]` — the

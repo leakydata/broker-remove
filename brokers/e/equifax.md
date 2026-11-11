@@ -8,7 +8,7 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-10-23)
+- Current: `submitted` (updated 2026-11-10)
 - Note: 2026-08-24 second reply: claims Work Number is a processor and access/correction/deletion must go to the employer. Correct for deletion, incorrect for ACCESS - The Work Number is a CRA under the FCRA, s609 file disclosure comes from the CRA not the furnisher, and Equifax already runs an employee portal for the Employment Data Report and freeze. Pushed back on that specific point plus the four still unanswered.
 - Update (2026-10-23): 58 days of silence since the 26 August follow-up (the
   five-entity scope question, the Equifax Workforce Solutions
@@ -45,6 +45,18 @@
   permanent **prescreen opt-out**. Neither is a self-service-portal matter on
   its face -- both were originally asked as things this mailbox could
   confirm in writing. Still open.
+- Update (2026-11-10): Answered both, but with generic policy language
+  rather than specific confirmation. (a) Freeze: "Freezes on The Work
+  Number (TWN) data currently block all third-party access to frozen
+  data... Employers have access to their own data." Describes what a
+  freeze does, not whether one was placed on this file. (b) Prescreen:
+  "Any opt-out submitted on our platform is a permanent election." Describes
+  the policy, not whether this opt-out was recorded. After nearly three
+  months and six rounds, replied asking for a plain yes/no on whether each
+  action was actually taken on this specific file, rather than a description
+  of the mechanism -- and for a pointer to a self-service route
+  (optoutprescreen.com, a Work Number-specific portal) if either genuinely
+  isn't actionable from this mailbox. Still open.
 
 ## Steps
 
