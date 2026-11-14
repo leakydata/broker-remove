@@ -10,6 +10,28 @@
 - Current: `captcha_blocked` (updated 2026-10-11)
 - Note: REGRESSING THIS FROM confirmed, WHICH IT HAS NOT EARNED AND WHICH THE MAIL CONTRADICTS. The row read 'confirmed', adopted from the shared ledger on 2026-09-18 with the standard warning that no detail came across. On 2026-09-28 and 2026-09-29 -- TEN DAYS AFTER that confirmation -- Ziff Davis posted comments on TWO separate requests under the heading 'Your Privacy Request Needs Attention'. A company still asking for something is not a company that has finished, so 'confirmed' was premature at best. IDENTIFICATION: these two request IDs were among the four found in 494a that matched no row anywhere, because the notifications come from the generic noreply@m.onetrust.com and name no brand in the sender. The tenant is identifiable only from the logo URL and the hidden footer line 'This email was sent from Ziff Davis'. The two request IDs are 2SVRD6T22H (comment 09-28 15:35:59, marked COMPLETED 09-30) and 2XLJP7244F (comments 09-28 15:36:01 and 09-29, no completion notice). THE COMMENTS WERE POSTED TWO SECONDS APART, so this is one company handling two requests for him -- the same one-letter-two-workflows shape as RRD in 495b. THE SEVEN-DAY TRAP, IN THEIR OWN WORDS: 'we will retain your open request for 7 calendar days. If we have not received a response regarding this request within that time frame, we will assume that you do not want to continue with this request and consider this to be closed.' So silence is read as withdrawal, and the window for 2XLJP7244F ran out around 5-6 October. THE PORTAL LINK IS STILL ALIVE at twelve days, unlike RRD's at twenty-two. It leads to an access-code request gated by an IMAGE CAPTCHA ('Retype the characters from the picture'). Email field filled with [EMAIL]; Send DELIBERATELY NOT PRESSED, because the emailed code is typically valid about fifteen minutes and triggering it now would guarantee it rotted before anyone could use it. Queued as a CAPTCHA handoff with the whole sequence written out.
 
+## privacy@ziffdavis.com answers with boilerplate that silently narrows the ask
+
+A separate OneTrust request (3A3L4NTJBS, tied to the Aberdeen/Spiceworks
+correspondence — see `aberdeen.md`) got a comment-added notice, then a
+generic reply from **privacy@ziffdavis.com** when asked what the comment
+said: "we have noted your request to opt out of the sale of your personal
+information. We will stop selling any of your personal information if we do
+so." Two things worth flagging for the next person:
+
+- **It does not answer the question asked.** The notice said a human had
+  commented on the request; the reply never says what the comment was.
+  Asking a second time, explicitly ("what did the comment say, and is this
+  the same request as my original letter or a different one") is necessary
+  — the first restated question gets ignored, not answered.
+- **"Opt out of sale" quietly replaces "delete."** A request for deletion
+  can come back acknowledged only as a sale opt-out, with no statement that
+  the underlying data was removed. Don't let that substitution pass
+  unchallenged — ask which happened.
+
+This is a different contact address than `legal@ziffdavis.com` below;
+both appear to route to the same OneTrust tenant.
+
 ## Steps
 
 *Written for anyone, not just the person who filed the original request.*

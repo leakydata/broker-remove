@@ -36,6 +36,35 @@ person (name + DOB) or only to the specific values already echoed back.
 Awaiting a reply as of 2026-11-05 — status unchanged (`submitted`), nothing
 to re-chase yet.
 
+## 2026-11-13: third round answered in full, all three gaps closed
+
+Replied to the three specific gaps opened on 2026-11-04 (new addresses/phones/
+emails not covered by the September confirmations, Property/Contact Search
+scope, and whether suppression is keyed to person or value). The answer this
+time was complete rather than another template:
+
+1. "Those additional email addresses and phone numbers were placed in our
+   suppression list on September 22. In regard to the addresses, information
+   about each the properties may still be available, but details about your
+   identity and any association to the property were suppressed." —
+   suppression is scoped to the *identity link*, not the bare address, which
+   is the right scope (other people may live at those addresses now).
+2. "Property and Contact Search results were reviewed. The opt-outs applied
+   to all of our search options/products." — confirms cross-product scope
+   explicitly, closing the open question from 11-04.
+3. The suppression is keyed to **name + date of birth**, confirmed in
+   writing, with an honest limit stated unprompted: a genuinely new data
+   point they've never seen before (e.g. an unfamiliar phone number with no
+   link to anything already on file) has nothing in their system to match
+   against yet, so it could surface once before a fresh report closes it.
+   Framed correctly as "the boundary of what any pre-emptive blocking can
+   do," not a gap in their configuration — worth taking at face value and
+   not reading as evasive.
+
+This closes the three-round follow-up begun 2026-10-10. Nothing further to
+chase here; watch instead for any new, previously-unseen identifier
+resurfacing per the stated limit in point 3.
+
 ## Family properties — check each
 
 BeenVerified operates several sibling brands that carry the same underlying data:

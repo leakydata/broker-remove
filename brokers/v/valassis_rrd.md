@@ -7,7 +7,22 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-10-10)
+- Current: `replied` (updated 2026-11-14)
+- 2026-11-12/13: DataPrivacy@rrd.com answered the controller/processor and
+  systems-searched questions, but only partly: "we have confirmed that your
+  consumer data request was completed," plus a pointer to their privacy
+  policy for the controller/processor framing and an explicit refusal to
+  describe "the structure, names, pathways, or similar information
+  regarding RRD's information technology infrastructure" — i.e. they will
+  not say which systems were searched, framed as a security boundary rather
+  than a privacy-request answer. Replied (2026-11-13) acknowledging the
+  infrastructure question as a reasonable security boundary they're
+  entitled to decline, but noting that doesn't excuse the narrower,
+  non-infrastructure question of which *categories* of data (marketing
+  database vs. print/mail fulfilment vs. client-managed) were in scope.
+  Awaiting a reply. The two 2026-09-18 request IDs (WKZ2LXPF3V,
+  TE95J69KDE) and their dead portal links are still unresolved as a pair —
+  "completed" doesn't say whether it covers one or both.
 - Note: PORTAL LINKS TESTED AND DEAD. Both 2026-09-18 notifications (WKZ2LXPF3V for RRD, TE95J69KDE for Valassis) carry a View Request button and no comment text. Opened the RRD one today: privacyportal.onetrust.com/ui/#/error -- 'Oops! It looks like this URL is no longer active.' Twenty-two days killed it. CRUCIALLY, NEITHER EMAIL STATED ANY EXPIRY -- not a window, not a warning, nothing. Juicebox at least said fifteen days (493). This said only 'click the button below', and the combination of no warning plus silent death is the one case where a slow reader loses the message permanently and has no way to know it was ever at risk. So two substantive replies from RRD are now unrecoverable from this end, and the delay was ours. RECOVERY ATTEMPTED THE ONLY WAY LEFT: replied on the live DataPrivacy@rrd.com thread asking them to paste both comments into an email, owning the twenty-two days as mine. Restated the three original asks so the answer is useful when it comes -- suppression as the substance of the request rather than deletion alone, since a shared-mail business ingests continuously and a deletion without a retained suppression entry closes at the next ingest; controller-versus-processor with the client named for anything held on a client's behalf; and which systems were actually searched. ALSO ASKED SOMETHING NEW THAT THE TWO IDS MADE VISIBLE: our ONE letter produced TWO request IDs, one per brand, which means two teams and two workflows. Asked explicitly whether both searched the SAME systems or different ones, because if one returns a nil and the other a deletion, averaging them in our notes would be wrong -- we would need to know what each actually covered. Queue item rewritten from 'portal' to 'await' with a STALE header warning not to open the dead links, per 418.
 
 ## Steps

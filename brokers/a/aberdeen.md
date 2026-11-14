@@ -19,6 +19,22 @@
   one sentence each on what was searched and the result. No new personal data
   was sent. The corporate-relationship and what-do-you-hold questions are
   still unanswered.
+- Update (2026-11-13/14): the request-ID chase finally got a concrete
+  hook. A OneTrust notice (2026-11-12) named Request ID **3A3L4NTJBS** —
+  "Needs Attention," comment-gated as usual. Wrote asking them to quote the
+  comment text in email rather than open the portal link blind (a prior
+  Ziff Davis portal link had led nowhere useful). The reply (2026-11-13,
+  from privacy@ziffdavis.com) ignored the question entirely and sent
+  boilerplate instead: "we have noted your request to opt out of the sale
+  of your personal information. We will stop selling any of your personal
+  information if we do so." Two problems with that answer: (1) it still
+  doesn't say what the portal comment asked for; (2) "opt out of sale" is
+  not the same claim as "deleted" — the original letter asked for deletion,
+  and this reply silently narrowed the request to opt-out-of-sale without
+  saying so. Replied (2026-11-13) pressing both points directly and asking
+  whether 3A3L4NTJBS is the same matter as this original Aberdeen letter or
+  a separate one. Awaiting a real answer — do not record this as resolved
+  on the strength of the boilerplate.
 - Update (2026-10-22): the 45-day mark (2026-10-13) passed with no reply at
   all since the 2026-08-29 send -- 54 days of silence. Sent the chase in the
   existing thread per the escalation list below: quoted the original date,
