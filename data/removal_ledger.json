@@ -95,8 +95,8 @@
     "via": "email"
   },
   "ach_address_clearing_house": {
-    "status": "submitted",
-    "changed": "2026-08-16",
+    "status": "not_found",
+    "changed": "2026-11-15",
     "via": "reply"
   },
   "acquire_media_u_s": {
