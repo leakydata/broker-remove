@@ -10,7 +10,7 @@
 
 - Current: `not_found` (updated 2026-11-15)
 - Reference: `gmail:1a00c696f850666c`
-- Note: 2026-11-15 the CCPA-period chase drew a one-line reply from the co-op: no record found on the identifiers supplied. Replied asking them to keep those identifiers on a suppression/do-not-add list so a member contribution cannot re-add the record. The four co-op questions below went unanswered.
+- Note: 2026-11-15 the CCPA-period chase drew a one-line reply from the co-op: no record found on the identifiers supplied. Replied asking them to keep those identifiers on a suppression/do-not-add list so a member contribution cannot re-add the record. They answered the same evening: "We do not do that." There is no suppression list, so the record could return through a member contribution. Re-check in a later sweep. The four co-op questions below went unanswered.
 - Earlier: 2026-08-29 CHASED (13d vs 45, not overdue and said so). CO-OPERATIVE letter: members both supply and draw, which makes removal circular in a way it is not for a compiler -- suppress here, member A who contributed me still holds me, member A contributes again next cycle, I am back, and every step of that was correct. Four questions: does the suppression PROPAGATE to members or stop at the co-op file (159 leaf-vs-branch, and 'it stops with us' pre-accepted as a good answer); is there a DO-NOT-CONTRIBUTE flag so a member's next contribution is rejected at ingest rather than accepted and re-suppressed; which member contributed me; and which members have drawn me. The last two are the point -- a co-op tracks contribution and draw because that accounting determines member entitlement, so it can answer provenance and recipients where a bulk compiler genuinely cannot.
 
 ## Steps
