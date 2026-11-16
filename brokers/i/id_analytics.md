@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-28)
-- Note: Recovered from the committed playbook brokers/i/id_analytics.md, because the ledger carries no notes and this row's status had no evidence behind it: Recovered from Gmail Sent folder -- letter sent 2026-08-26 to [named individual]@lexisnexisrisk.com, not recorded in tracker/ledger at the time.
+- Current: `manual_required` (updated 2026-11-15)
+- Note: AUDIT 2026-11-15, reply of 2026-09-06 never recorded: LexisNexis says it could not authenticate him and cannot process the request. It requires proof of identity (SSN card, driver licence, passport, green card or military ID) plus proof of address, uploaded through its Consumer Portal or mailed to P.O. Box 105108, Atlanta, or a call to 1-800-456-6004. (Reference REQ0014382 / SF-07328613.) The ID-upload demand is refused under the standing rule. Chased 11-15 asking for non-document verification (KBA or email) and for the sale opt-out, which needs no verification. The phone route (1-800-456-6004) is the subject's option.
+- Earlier: Recovered from the committed playbook brokers/i/id_analytics.md, because the ledger carries no notes and this row's status had no evidence behind it: Recovered from Gmail Sent folder -- letter sent 2026-08-26 to [named individual]@lexisnexisrisk.com, not recorded in tracker/ledger at the time.
 
 ## Steps
 

@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-29)
-- Note: Ticket #113670. support.monitorbase@mmi.io 2026-08-31: directs to a Data Deletion and Opt-Out Form, but ALSO offers email as an alternative -- unusual and worth noting, since most portal redirects close the email route entirely. The letter's substance was prescreen/trigger monitoring and what sits OUTSIDE the FCRA: mortgage-trigger leads are the classic case where a company is a CRA for one activity and a marketer for another, and 1798.145(d) is activity-scoped not entity-scoped. Awaiting an answer on that rather than just the form.
+- Current: `manual_required` (updated 2026-11-15)
+- Note: AUDIT 2026-11-15, reply of 2026-08-31 never recorded: The thread assigned in the audit holds only a 09-01 satisfaction-survey email for ticket 113670, so the ticket looks closed on their side. The substantive reply is in a separate thread (1a057fa218f398ca, 08-31): MonitorBase will not handle this by email and points to its Data Deletion and Opt-Out form, or a phone submission via support.monitorbase@mmi.io. It answered none of his FCRA or prescreen questions. Form route queued for a browser pass.
+- Earlier: Ticket #113670. support.monitorbase@mmi.io 2026-08-31: directs to a Data Deletion and Opt-Out Form, but ALSO offers email as an alternative -- unusual and worth noting, since most portal redirects close the email route entirely. The letter's substance was prescreen/trigger monitoring and what sits OUTSIDE the FCRA: mortgage-trigger leads are the classic case where a company is a CRA for one activity and a marketer for another, and 1798.145(d) is activity-scoped not entity-scoped. Awaiting an answer on that rather than just the form.
 
 ## Steps
 

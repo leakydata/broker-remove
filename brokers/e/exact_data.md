@@ -7,9 +7,10 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-26)
+- Current: `suppressed` (updated 2026-11-15)
 - Reference: `gmail:1a03d9e46d461dde`
-- Note: 2026-08-26: supplementary letter sent with the four late email addresses, six prior postal addresses and three prior phone numbers. Framed as completing the request already on file, not a new one. Asked them to enumerate the identifiers searched.
+- Note: AUDIT 2026-11-15, reply of 2026-09-15 never recorded: Data Axle confirms the earlier nil came from searching the full supplemented identifier set (prior addresses, old phones, name variants, old emails) across its consumer database and its wireless database, and that a suppression entry is recorded against his identifiers, not used, shared or sold.
+- Earlier: 2026-08-26: supplementary letter sent with the four late email addresses, six prior postal addresses and three prior phone numbers. Framed as completing the request already on file, not a new one. Asked them to enumerate the identifiers searched.
 
 ## Steps
 

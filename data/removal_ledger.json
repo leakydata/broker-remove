@@ -421,9 +421,9 @@
     "via": "email"
   },
   "anteriad": {
-    "status": "submitted",
-    "changed": "2026-08-17",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-11-15",
+    "via": "reply"
   },
   "anywho": {
     "status": "submitted",
@@ -701,9 +701,9 @@
     "via": "email"
   },
   "beenverified_inc_and_its_subsidiaries_and_affiliates": {
-    "status": "submitted",
-    "changed": "2026-08-30",
-    "via": "email"
+    "status": "suppressed",
+    "changed": "2026-11-15",
+    "via": "reply"
   },
   "beenverified_llc_and_its_subsidiaries_and_affiliates": {
     "status": "submitted",
@@ -1192,9 +1192,9 @@
     "via": null
   },
   "coalition_greenwich": {
-    "status": "submitted",
-    "changed": "2026-08-17",
-    "via": null
+    "status": "acknowledged",
+    "changed": "2026-11-15",
+    "via": "reply"
   },
   "coast_technology": {
     "status": "submitted",
@@ -1598,9 +1598,9 @@
     "via": "email"
   },
   "datanyze": {
-    "status": "submitted",
-    "changed": "2026-09-12",
-    "via": "email"
+    "status": "confirmed",
+    "changed": "2026-11-15",
+    "via": "reply"
   },
   "datapartners": {
     "status": "submitted",
@@ -1688,9 +1688,9 @@
     "via": "email"
   },
   "deeptrace": {
-    "status": "submitted",
-    "changed": "2026-08-25",
-    "via": null
+    "status": "suppressed",
+    "changed": "2026-11-15",
+    "via": "reply"
   },
   "definitive_healthcare": {
     "status": "manual_required",
@@ -1723,9 +1723,9 @@
     "via": "reply"
   },
   "deloitte_financial_advisory_services": {
-    "status": "submitted",
-    "changed": "2026-08-29",
-    "via": "email"
+    "status": "manual_required",
+    "changed": "2026-11-15",
+    "via": "reply"
   },
   "deluxe": {
     "status": "replied",
@@ -1954,7 +1954,7 @@
   },
   "el_toro_com": {
     "status": "manual_required",
-    "changed": "2026-08-28",
+    "changed": "2026-11-15",
     "via": "reply"
   },
   "electronic_voice_services": {
@@ -2103,14 +2103,14 @@
     "via": null
   },
   "exact_customer": {
-    "status": "submitted",
-    "changed": "2026-08-18",
-    "via": "email"
+    "status": "suppressed",
+    "changed": "2026-11-15",
+    "via": "reply"
   },
   "exact_data": {
-    "status": "submitted",
-    "changed": "2026-08-19",
-    "via": "email"
+    "status": "suppressed",
+    "changed": "2026-11-15",
+    "via": "reply"
   },
   "exact_match_marketing": {
     "status": "submitted",
@@ -2118,9 +2118,9 @@
     "via": null
   },
   "exlservice_com": {
-    "status": "submitted",
-    "changed": "2026-09-01",
-    "via": "email"
+    "status": "confirmed",
+    "changed": "2026-11-15",
+    "via": "reply"
   },
   "experian_marketing": {
     "status": "submitted",
@@ -2719,9 +2719,9 @@
     "via": null
   },
   "here_north_america": {
-    "status": "submitted",
-    "changed": "2026-08-27",
-    "via": null
+    "status": "not_found",
+    "changed": "2026-11-15",
+    "via": "reply"
   },
   "hexasoft_development_sdn_bhd": {
     "status": "submitted",
@@ -2824,9 +2824,9 @@
     "via": "email"
   },
   "id_analytics": {
-    "status": "submitted",
-    "changed": "2026-08-28",
-    "via": "email"
+    "status": "manual_required",
+    "changed": "2026-11-15",
+    "via": "reply"
   },
   "idaho_arrests": {
     "status": "submitted",
@@ -2954,9 +2954,9 @@
     "via": "reply"
   },
   "informa_techtarget": {
-    "status": "submitted",
-    "changed": "2026-08-28",
-    "via": null
+    "status": "replied",
+    "changed": "2026-11-15",
+    "via": "reply"
   },
   "information_com": {
     "status": "submitted",
@@ -3244,9 +3244,9 @@
     "via": "email"
   },
   "klarifi": {
-    "status": "submitted",
-    "changed": "2026-08-28",
-    "via": "email"
+    "status": "suppressed",
+    "changed": "2026-11-15",
+    "via": "reply"
   },
   "klickly": {
     "status": "confirmed",
@@ -3555,9 +3555,9 @@
     "via": "email"
   },
   "lusha_systems": {
-    "status": "submitted",
-    "changed": "2026-08-30",
-    "via": "email"
+    "status": "confirmed",
+    "changed": "2026-11-15",
+    "via": "reply"
   },
   "m1_data": {
     "status": "submitted",
@@ -3896,9 +3896,9 @@
     "via": "reply"
   },
   "monitorbase": {
-    "status": "submitted",
-    "changed": "2026-08-29",
-    "via": "email"
+    "status": "manual_required",
+    "changed": "2026-11-15",
+    "via": "reply"
   },
   "monocl": {
     "status": "submitted",
@@ -3931,9 +3931,9 @@
     "via": null
   },
   "mortgage_rates_pro_online_mortgage_loans_best_auto_insurance": {
-    "status": "submitted",
-    "changed": "2026-08-30",
-    "via": "email"
+    "status": "suppressed",
+    "changed": "2026-11-15",
+    "via": "reply"
   },
   "mr": {
     "status": "not_found",
@@ -4311,9 +4311,9 @@
     "via": "email"
   },
   "oan_online_advertising_network": {
-    "status": "submitted",
-    "changed": "2026-08-29",
-    "via": "email"
+    "status": "acknowledged",
+    "changed": "2026-11-15",
+    "via": "reply"
   },
   "ocean_global": {
     "status": "submitted",
@@ -4326,9 +4326,9 @@
     "via": "email"
   },
   "ogury": {
-    "status": "submitted",
-    "changed": "2026-08-29",
-    "via": "email"
+    "status": "replied",
+    "changed": "2026-11-15",
+    "via": "reply"
   },
   "ohio_arrests": {
     "status": "submitted",
@@ -4391,9 +4391,9 @@
     "via": "email"
   },
   "online_advertising_network_sp_z_o_o": {
-    "status": "submitted",
-    "changed": "2026-08-29",
-    "via": "email"
+    "status": "acknowledged",
+    "changed": "2026-11-15",
+    "via": "reply"
   },
   "online_media": {
     "status": "submitted",
@@ -4406,9 +4406,9 @@
     "via": "email"
   },
   "onspot_data": {
-    "status": "submitted",
-    "changed": "2026-08-29",
-    "via": "email"
+    "status": "acknowledged",
+    "changed": "2026-11-15",
+    "via": "reply"
   },
   "opendatausa": {
     "status": "unreachable",
@@ -4726,9 +4726,9 @@
     "via": "email"
   },
   "pgm_solutions_porch_group_media": {
-    "status": "submitted",
-    "changed": "2026-08-28",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-11-15",
+    "via": "reply"
   },
   "pharosiq": {
     "status": "not_found",
@@ -4956,9 +4956,9 @@
     "via": "reply"
   },
   "proxima_platform": {
-    "status": "submitted",
-    "changed": "2026-08-29",
-    "via": "email"
+    "status": "failed",
+    "changed": "2026-11-15",
+    "via": "reply"
   },
   "public_data_check": {
     "status": "submitted",
@@ -5026,9 +5026,9 @@
     "via": "email"
   },
   "pwc": {
-    "status": "submitted",
-    "changed": "2026-08-19",
-    "via": "email"
+    "status": "suppressed",
+    "changed": "2026-11-15",
+    "via": "reply"
   },
   "quad": {
     "status": "submitted",
@@ -5227,8 +5227,8 @@
   },
   "reklaim": {
     "status": "submitted",
-    "changed": "2026-08-29",
-    "via": "email"
+    "changed": "2026-11-15",
+    "via": "reply"
   },
   "relationship_science": {
     "status": "submitted",
@@ -5402,8 +5402,8 @@
   },
   "s_p_global": {
     "status": "submitted",
-    "changed": "2026-08-28",
-    "via": "email"
+    "changed": "2026-11-15",
+    "via": "reply"
   },
   "saavn_media": {
     "status": "submitted",
@@ -5526,9 +5526,9 @@
     "via": "email"
   },
   "seamless": {
-    "status": "submitted",
-    "changed": "2026-08-29",
-    "via": "email"
+    "status": "replied",
+    "changed": "2026-11-15",
+    "via": "reply"
   },
   "seamless_ai": {
     "status": "confirmed",
@@ -5747,8 +5747,8 @@
   },
   "socialgist_boardreader": {
     "status": "submitted",
-    "changed": "2026-08-30",
-    "via": "email"
+    "changed": "2026-11-15",
+    "via": "reply"
   },
   "sojern": {
     "status": "submitted",
@@ -5886,9 +5886,9 @@
     "via": "email"
   },
   "stackadapt": {
-    "status": "submitted",
-    "changed": "2026-08-30",
-    "via": "email"
+    "status": "replied",
+    "changed": "2026-11-15",
+    "via": "reply"
   },
   "staircase": {
     "status": "unreachable",
@@ -5946,9 +5946,9 @@
     "via": "email"
   },
   "sterling": {
-    "status": "submitted",
-    "changed": "2026-08-20",
-    "via": "email"
+    "status": "suppressed",
+    "changed": "2026-11-15",
+    "via": "reply"
   },
   "sterling_data": {
     "status": "submitted",
@@ -6297,9 +6297,9 @@
     "via": "email"
   },
   "triplelift": {
-    "status": "submitted",
-    "changed": "2026-08-30",
-    "via": "email"
+    "status": "confirmed",
+    "changed": "2026-11-15",
+    "via": "reply"
   },
   "true_blue_analytics": {
     "status": "not_found",
@@ -6593,9 +6593,9 @@
     "via": null
   },
   "vermont_arrests": {
-    "status": "submitted",
-    "changed": "2026-08-20",
-    "via": "email"
+    "status": "suppressed",
+    "changed": "2026-11-15",
+    "via": "reply"
   },
   "vermontarrests_org": {
     "status": "submitted",
@@ -6808,9 +6808,9 @@
     "via": "email"
   },
   "windfall": {
-    "status": "submitted",
-    "changed": "2026-08-20",
-    "via": "email"
+    "status": "manual_required",
+    "changed": "2026-11-15",
+    "via": "reply"
   },
   "windfall_data": {
     "status": "manual_required",
@@ -6898,9 +6898,9 @@
     "via": "reply"
   },
   "yes": {
-    "status": "submitted",
-    "changed": "2026-08-31",
-    "via": "email"
+    "status": "replied",
+    "changed": "2026-11-15",
+    "via": "reply"
   },
   "yieldmo": {
     "status": "submitted",
@@ -6928,9 +6928,9 @@
     "via": "email"
   },
   "zerotoone_ai": {
-    "status": "submitted",
-    "changed": "2026-08-31",
-    "via": "email"
+    "status": "not_found",
+    "changed": "2026-11-15",
+    "via": "reply"
   },
   "zeta_global": {
     "status": "replied",

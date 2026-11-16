@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-29)
-- Note: 2026-08-29 COVERED BY CANONICAL (SILENT_FAILURES 177). duplicate_of=deloitte_consulting, and both rows carry the identical address usprivacyquestions@deloitte.com -- so a letter was sent to this exact address for the canonical row 'deloitte_consulting' (submitted). Not a separate send: the mailbox has the request, and whether the company files it under one brand name or the other is internal to them. Status set here so the queue stops offering a second letter to an address that already has one. NOT marked confirmed -- no confirmation was received for this row.
+- Current: `manual_required` (updated 2026-11-15)
+- Note: AUDIT 2026-11-15, reply of 2026-08-31 never recorded: Deloitte will not process data subject requests by email. It requires the Personal Information Request Form or a call to 1-844-919-0711, giving name, email, request type and relationship to Deloitte. Form route queued for a browser pass.
+- Earlier: 2026-08-29 COVERED BY CANONICAL (SILENT_FAILURES 177). duplicate_of=deloitte_consulting, and both rows carry the identical address usprivacyquestions@deloitte.com -- so a letter was sent to this exact address for the canonical row 'deloitte_consulting' (submitted). Not a separate send: the mailbox has the request, and whether the company files it under one brand name or the other is internal to them. Status set here so the queue stops offering a second letter to an address that already has one. NOT marked confirmed -- no confirmation was received for this row.
 
 ## Steps
 

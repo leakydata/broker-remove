@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-29)
-- Note: 2026-08-29 DELIVERY SPLIT. privacy@reklaimyou.com (published on their CURRENT policy) hard-bounced 550 5.1.1; privacy@reklaimyours.com (the OLDER register filing) delivered and autoresponded, pointing back to reklaimyou.com/privacy and /do-not-sell. So the newer published contact is dead and the older filed one is live -- the reverse of the 173 rule, and worth watching for. The autoresponder is a link-deflection, not an answer; treat as submitted and apply the 161a test if nothing further arrives.
+- Current: `submitted` (updated 2026-11-15)
+- Note: AUDIT 2026-11-15, reply of 2026-09-03 never recorded: Only no-reply autoresponses, identical on 08-29 and 09-03. They link the privacy policy, a do-not-sell page and a delete-my-account page, all account-oriented. A delivery-failure notice (08-29) is also in the thread; it was not read and probably concerns the second recipient address. Only no-reply autoresponders plus an 08-29 delivery failure. Another route is needed.
+- Earlier: 2026-08-29 DELIVERY SPLIT. privacy@reklaimyou.com (published on their CURRENT policy) hard-bounced 550 5.1.1; privacy@reklaimyours.com (the OLDER register filing) delivered and autoresponded, pointing back to reklaimyou.com/privacy and /do-not-sell. So the newer published contact is dead and the older filed one is live -- the reverse of the 173 rule, and worth watching for. The autoresponder is a link-deflection, not an answer; treat as submitted and apply the 161a test if nothing further arrives.
 
 ## Steps
 

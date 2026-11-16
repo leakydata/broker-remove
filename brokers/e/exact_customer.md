@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-18)
-- Note: Identity-resolution / visitor-identification variant. Asked specifically about website-visitor de-anonymisation: any record connecting the subject to a browsing event on a client's site, including records held on behalf of a client rather than for their own account, and which clients received it. Plus the identity-graph edges rather than just the named row.
+- Current: `suppressed` (updated 2026-11-15)
+- Note: AUDIT 2026-11-15, reply of 2026-09-22 never recorded: After an earlier no-records reply, Exact Customer confirms it has added eight of his email addresses to its unsubscribe/suppression list to prevent re-adding in future acquisitions. This follows his 09-03 request for a do-not-add entry.
+- Earlier: Identity-resolution / visitor-identification variant. Asked specifically about website-visitor de-anonymisation: any record connecting the subject to a browsing event on a client's site, including records held on behalf of a client rather than for their own account, and which clients received it. Plus the identity-graph edges rather than just the named row.
 
 ## Steps
 

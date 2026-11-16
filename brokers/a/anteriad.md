@@ -8,8 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-17)
-- Note: Statutory delete/opt-out request emailed, tailored to the broker's data category; awaiting reply.
+- Current: `confirmed` (updated 2026-11-15)
+- Note: AUDIT 2026-11-15, reply of 2026-09-14 never recorded: Anteriad says it found his record and has deleted / opted him out of third-party offers. As a marketing service provider it will tell the data partners that supplied the data. It states it holds no sensitive PII, and says the request is actioned.
+- Earlier: Statutory delete/opt-out request emailed, tailored to the broker's data category; awaiting reply.
 
 ## Steps
 

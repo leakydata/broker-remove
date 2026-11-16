@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-30)
-- Note: 2026-08-30 sent privacy@stackadapt.com, email-only key policy (195). DSP, so keyed to cookies/device/CTV/hashed email/bid-stream -- postal address stated as unable to match and therefore pure disclosure, with an explicit invitation to correct me and name the identifier types they do resolve on. Three architecture questions requiring nothing about me: is an audience membership stored or computed on demand (171), does a suppression survive the next ingest given a DSP is rebuilt continuously from supply, and which suppliers feed individual data in and which categories of party can activate an audience containing me. Cookie/MAID refused with the reasoning and 'we cannot act without one' pre-accepted as a recordable limit. Three confirmation asks including 199.
+- Current: `replied` (updated 2026-11-15)
+- Note: AUDIT 2026-11-15, reply of 2026-09-17 never recorded: StackAdapt asked only which country or province he resides in, to apply the correct data protection rules. He answered the next day. (An earlier StackAdapt message on 09-08 was not read.) Chased 11-15 for the outcome.
+- Earlier: 2026-08-30 sent privacy@stackadapt.com, email-only key policy (195). DSP, so keyed to cookies/device/CTV/hashed email/bid-stream -- postal address stated as unable to match and therefore pure disclosure, with an explicit invitation to correct me and name the identifier types they do resolve on. Three architecture questions requiring nothing about me: is an audience membership stored or computed on demand (171), does a suppression survive the next ingest given a DSP is rebuilt continuously from supply, and which suppliers feed individual data in and which categories of party can activate an audience containing me. Cookie/MAID refused with the reasoning and 'we cannot act without one' pre-accepted as a recordable limit. Three confirmation asks including 199.
 
 ## Steps
 

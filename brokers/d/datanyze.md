@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-13)
-- Note: Supplement 2026-09-13 adding the LinkedIn URL to the 12 September letter, which predates the subject's authorisation and therefore went without it. For a B2B contact database this is the strongest form of the institutional-key argument (129): the profile is plausibly what the record was BUILT from, so it is both the likeliest match and the only key that survives a re-crawl. Same two conditions. Namesake warning included.
+- Current: `confirmed` (updated 2026-11-15)
+- Note: AUDIT 2026-11-15, reply of 2026-09-14 never recorded: Datanyze / ZoomInfo says his information is in the removal queue, to finish within 24-72 hours. Third parties with access were notified through ZoomInfo, and his profile is on a suppression list to stop re-adding. It points him to Google's outdated-content removal tool for search results.
+- Earlier: Supplement 2026-09-13 adding the LinkedIn URL to the 12 September letter, which predates the subject's authorisation and therefore went without it. For a B2B contact database this is the strongest form of the institutional-key argument (129): the profile is plausibly what the record was BUILT from, so it is both the likeliest match and the only key that survives a re-crawl. Same two conditions. Namesake warning included.
 
 ## Steps
 

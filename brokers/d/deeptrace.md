@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-25)
-- Note: 2026-08-25: emailed privacy@coresignal.com (registered as DeepTrace; domain is Coresignal). Public-web employee-data crawler. Three arguments: 'it was public' is not an exemption because a public profile is something I published on one site while a structured queryable resold dataset is something they created; derived first.last@employer addresses using the Kaspr admission; and above all SUPPRESSION NOT DELETION, since a crawled record deleted today is re-created by the next crawl. Made the LinkedIn URL suppression the centrepiece with both qualifications, and asked which customers have received datasets containing my record since once delivered it is beyond their control.
+- Current: `suppressed` (updated 2026-11-15)
+- Note: AUDIT 2026-11-15, reply of 2026-09-24 never recorded: Coresignal says it has implemented the request and does not process his personal data. With his permission it will keep the LinkedIn URL solely to exclude his profile from its database in future.
+- Earlier: 2026-08-25: emailed privacy@coresignal.com (registered as DeepTrace; domain is Coresignal). Public-web employee-data crawler. Three arguments: 'it was public' is not an exemption because a public profile is something I published on one site while a structured queryable resold dataset is something they created; derived first.last@employer addresses using the Kaspr admission; and above all SUPPRESSION NOT DELETION, since a crawled record deleted today is re-created by the next crawl. Made the LinkedIn URL suppression the centrepiece with both qualifications, and asked which customers have received datasets containing my record since once delivered it is beyond their control.
 
 ## Steps
 

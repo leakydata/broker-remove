@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-29)
-- Note: 2026-08-29 COVERED BY CANONICAL (SILENT_FAILURES 177). duplicate_of=oan_online_advertising_network, and both rows carry the identical address privacy@oan.pl -- so a letter was sent to this exact address for the canonical row 'oan_online_advertising_network' (submitted). Not a separate send: the mailbox has the request, and whether the company files it under one brand name or the other is internal to them. Status set here so the queue stops offering a second letter to an address that already has one. NOT marked confirmed -- no confirmation was received for this row.
+- Current: `acknowledged` (updated 2026-11-15)
+- Note: AUDIT 2026-11-15, reply of 2026-09-04 never recorded: Shares the oan.pl thread: processing only for the sending address; other addresses need separate requests from each address. Same oan.pl thread as oan_online_advertising_network. Chased 11-15.
+- Earlier: 2026-08-29 COVERED BY CANONICAL (SILENT_FAILURES 177). duplicate_of=oan_online_advertising_network, and both rows carry the identical address privacy@oan.pl -- so a letter was sent to this exact address for the canonical row 'oan_online_advertising_network' (submitted). Not a separate send: the mailbox has the request, and whether the company files it under one brand name or the other is internal to them. Status set here so the queue stops offering a second letter to an address that already has one. NOT marked confirmed -- no confirmation was received for this row.
 
 ## Steps
 

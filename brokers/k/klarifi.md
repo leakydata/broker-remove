@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `not_found` (updated 2026-10-27)
-- Note: Emailed privacy@klarifi.io 2026-08-28 (CA registry 2024 only -- may have deregistered since). Standard letter incl. retention clause.
+- Current: `suppressed` (updated 2026-11-15)
+- Note: AUDIT 2026-11-15, reply of 2026-11-03 never recorded: Klarifi twice says it holds no data on him and has processed none, and will keep his email address on an internal list to avoid adding him in future. The 11-03 reply repeats the 10-27 text and does not say which addresses the list covers.
+- Earlier: Emailed privacy@klarifi.io 2026-08-28 (CA registry 2024 only -- may have deregistered since). Standard letter incl. retention clause.
 - 2026-10-27 reply (two months later): "We checked and we do not hold any
   data on you and have not processed any data about you." Unqualified nil,
   not scoped to one system or one identifier. They also volunteered a

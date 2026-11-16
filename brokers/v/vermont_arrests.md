@@ -8,8 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-20)
-- Note: Sent 2026-08-20 to privacy@infotracer.com. Missed from the 48-site InfoTracer batch because the registry held support@ for this one site; corrected.
+- Current: `suppressed` (updated 2026-11-15)
+- Note: AUDIT 2026-11-15, reply of 2026-09-01 never recorded: InfoPay (ticket 544087) says it searched all supplied identifiers and found zero records of any kind. The identifiers were added to the standing suppression applied on each ingestion. One shared index covers InfoTracer, GoodCar, PropertyChecker and the other registered brands plus five redirect sites (texasarrests.org, uswarrants.org and others).
+- Earlier: Sent 2026-08-20 to privacy@infotracer.com. Missed from the 48-site InfoTracer batch because the registry held support@ for this one site; corrected.
 
 ## Gotchas
 

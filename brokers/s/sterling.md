@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-20)
-- Note: Acknowledged 2026-08-20 18:15Z: 'We have received your deletion request and will process it in accordance with applicable law. Your request has been added to our processing queue.' No answer yet to the CRA/FCRA scoping question that opened the letter.
+- Current: `suppressed` (updated 2026-11-15)
+- Note: AUDIT 2026-11-15, reply of 2026-09-03 never recorded: After two queue-acknowledgement boilerplates, Sterling says a thorough search found no personal information about him and that it will add his details to a suppression list so it will not process them if it meets them later.
+- Earlier: Acknowledged 2026-08-20 18:15Z: 'We have received your deletion request and will process it in accordance with applicable law. Your request has been added to our processing queue.' No answer yet to the CRA/FCRA scoping question that opened the letter.
 
 ## Steps
 

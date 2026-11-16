@@ -13,8 +13,9 @@ both replied identically, and one playbook covers both requests._
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-17)
-- Note: Statutory delete/opt-out request emailed, tailored to the broker's data category; awaiting reply.
+- Current: `acknowledged` (updated 2026-11-15)
+- Note: AUDIT 2026-11-15, reply of 2026-09-15 never recorded: Crisil says it is identifying his information across all systems and will report back once all functions respond. No result since 09-15. Chased 11-15 for the result.
+- Earlier: Statutory delete/opt-out request emailed, tailored to the broker's data category; awaiting reply.
 
 ## Steps
 

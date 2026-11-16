@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-29)
-- Note: 2026-08-29 COVERED BY CANONICAL (SILENT_FAILURES 177). duplicate_of=seamless_ai, and both rows carry the identical address privacy@seamlessleads.com -- so a letter was sent to this exact address for the canonical row 'seamless_ai' (submitted). Not a separate send: the mailbox has the request, and whether the company files it under one brand name or the other is internal to them. Status set here so the queue stops offering a second letter to an address that already has one. NOT marked confirmed -- no confirmation was received for this row.
+- Current: `replied` (updated 2026-11-15)
+- Note: AUDIT 2026-11-15, reply of 2026-10-10 never recorded: The 10-10 message is an automated routing reply saying Seamless does not handle rights requests by email and pointing to its Privacy Request Center. The real outcome is in another thread (1a01c84295130be4, message 1a0b109ec2693d10, 09-17): erasure completed with pre-erasure data supplied, and he later replied there. The real completion came 09-17 in another thread. The subject followed up about third-party data; waiting on a human.
+- Earlier: 2026-08-29 COVERED BY CANONICAL (SILENT_FAILURES 177). duplicate_of=seamless_ai, and both rows carry the identical address privacy@seamlessleads.com -- so a letter was sent to this exact address for the canonical row 'seamless_ai' (submitted). Not a separate send: the mailbox has the request, and whether the company files it under one brand name or the other is internal to them. Status set here so the queue stops offering a second letter to an address that already has one. NOT marked confirmed -- no confirmation was received for this row.
 
 ## Steps
 
