@@ -1783,8 +1783,8 @@
     "via": "email"
   },
   "digital_viking_media": {
+    "status": "not_found",
     "changed": "2026-11-16",
-    "status": "submitted",
     "via": "reply"
   },
   "diligent": {
@@ -2494,9 +2494,9 @@
     "via": "email"
   },
   "general_motors": {
-    "status": "submitted",
+    "status": "manual_required",
     "changed": "2026-11-16",
-    "via": "reply"
+    "via": "web"
   },
   "genius_media_group": {
     "changed": "2026-09-18",
@@ -3129,9 +3129,9 @@
     "via": "reply"
   },
   "iwave": {
-    "changed": "2026-08-18",
     "status": "submitted",
-    "via": "email"
+    "changed": "2026-11-16",
+    "via": "web"
   },
   "j_d_power": {
     "changed": "2026-08-18",
@@ -3229,9 +3229,9 @@
     "via": "email"
   },
   "kidslivesafe_com_quickpublicrecords_com": {
-    "changed": "2026-08-29",
-    "status": "submitted",
-    "via": "email"
+    "status": "confirmed",
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "kind_skiptracing": {
     "changed": "2026-08-28",
@@ -3239,9 +3239,9 @@
     "via": "email"
   },
   "kindsight": {
-    "changed": "2026-08-29",
     "status": "submitted",
-    "via": "email"
+    "changed": "2026-11-16",
+    "via": "web"
   },
   "klarifi": {
     "changed": "2026-11-15",
@@ -3525,9 +3525,9 @@
     "via": "reply"
   },
   "lotadata": {
-    "changed": "2026-08-29",
     "status": "submitted",
-    "via": "email"
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "lotame": {
     "changed": "2026-08-30",
@@ -3565,9 +3565,9 @@
     "via": "reply"
   },
   "machintel": {
-    "changed": "2026-08-29",
     "status": "submitted",
-    "via": "email"
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "madhive": {
     "changed": "2026-08-29",
@@ -3991,9 +3991,9 @@
     "via": "email"
   },
   "national_opinion_institute": {
-    "changed": "2026-08-29",
     "status": "submitted",
-    "via": "email"
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "national_public_data": {
     "changed": "2026-08-19",
@@ -4081,9 +4081,9 @@
     "via": null
   },
   "new_frontier_data": {
-    "changed": "2026-08-29",
     "status": "submitted",
-    "via": "email"
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "new_hampshire_arrests": {
     "changed": "2026-08-16",
@@ -4681,14 +4681,14 @@
     "via": "reply"
   },
   "peoplewhiz_com": {
+    "status": "submitted",
     "changed": "2026-11-16",
-    "status": "acknowledged",
-    "via": "reply"
+    "via": "web"
   },
   "peoplewhizr_com": {
+    "status": "submitted",
     "changed": "2026-11-16",
-    "status": "acknowledged",
-    "via": "reply"
+    "via": "web"
   },
   "peoplewin": {
     "changed": "2026-08-27",
@@ -4901,9 +4901,9 @@
     "via": "email"
   },
   "propensity": {
-    "changed": "2026-08-29",
     "status": "submitted",
-    "via": "email"
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "propertychecker": {
     "changed": "2026-08-19",
@@ -5276,9 +5276,9 @@
     "via": "reply"
   },
   "retention_com_rb2b": {
-    "changed": "2026-08-29",
-    "status": "submitted",
-    "via": "email"
+    "status": "confirmed",
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "rev": {
     "changed": "2026-11-15",
@@ -5306,9 +5306,9 @@
     "via": "reply"
   },
   "revenue_roll": {
-    "changed": "2026-08-29",
     "status": "submitted",
-    "via": "email"
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "revenuebase": {
     "status": "submitted",

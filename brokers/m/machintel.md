@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-29)
-- Note: Emailed dpo@machintel.com 2026-08-28 (CA registry 2020-2024). B2B demand-generation variant. Three additions to the standard letter: (1) DERIVED ADDRESSES -- a constructed first.last@employer pattern is a record about him that he cannot name because he never owned it, so the ask is a search on name plus employment history plus profile URL rather than only on addresses he can list; (2) INTENT AND ENGAGEMENT DATA -- content syndication, webinar and whitepaper records, and the 'in-market' inference itself, which is generated about him rather than supplied by him; (3) the CCPA B2B carve-out sunset on 2023-01-01, raised pre-emptively. Also asked which suppliers provided data and which clients received it, categories accepted. Carries the new §154 scope paragraph.
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-16 CHASED in-thread: over 80 days with no reply to the August request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
+- Earlier: Emailed dpo@machintel.com 2026-08-28 (CA registry 2020-2024). B2B demand-generation variant. Three additions to the standard letter: (1) DERIVED ADDRESSES -- a constructed first.last@employer pattern is a record about him that he cannot name because he never owned it, so the ask is a search on name plus employment history plus profile URL rather than only on addresses he can list; (2) INTENT AND ENGAGEMENT DATA -- content syndication, webinar and whitepaper records, and the 'in-market' inference itself, which is generated about him rather than supplied by him; (3) the CCPA B2B carve-out sunset on 2023-01-01, raised pre-emptively. Also asked which suppliers provided data and which clients received it, categories accepted. Carries the new §154 scope paragraph.
 
 ## Steps
 

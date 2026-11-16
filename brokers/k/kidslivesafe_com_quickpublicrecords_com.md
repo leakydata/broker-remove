@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-16)
-- Note: privacyinfo@kidslivesafe.zendesk.com, 2026-09-16 21:20 UTC, replying to a
+- Current: `confirmed` (updated 2026-11-16)
+- Note: 2026-11-16 reconciled: duplicate of kids_live_safe, which is confirmed (same mailbox).
+- Earlier: privacyinfo@kidslivesafe.zendesk.com, 2026-09-16 21:20 UTC, replying to a
   direct question of whether SpyFly.com was actioned alongside this ticket
   (sequential Zendesk IDs across four subdomains suggested one operator): "You
   have reached the support team for kidslivesafe.com. We are owned by a company

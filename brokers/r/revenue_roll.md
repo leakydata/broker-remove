@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-29)
-- Note: 2026-08-29 sent to info@meettie.com + info@revenueroll.com. Revenue Roll Inc. now trades as Tie (meettie.com); revenueroll.com 301s there and the policy names the entity 'Revenue Roll Inc DBA Tie' -- a rebrand, not a succession, so the register row is still the right company. Both domains have live Google MX. Letter built on their own nav: Website Visitor Identification + Customer Identity Resolution, under 'Grow Email Lists', supported by 'Primary Inbox Placement' and 'Protect Email Deliverability'. Asked the four questions that a stored-row deletion does not reach: has an anonymous session of mine been resolved, by what mechanism, against whose graph, and delivered to which merchants. Asked them to state plainly if they can delete but cannot prevent recreation. Also flagged that their published 60+30 day timeline has a first step longer than the statute's 45.
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-16 CHASED in-thread: over 80 days with no reply to the August request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
+- Earlier: 2026-08-29 sent to info@meettie.com + info@revenueroll.com. Revenue Roll Inc. now trades as Tie (meettie.com); revenueroll.com 301s there and the policy names the entity 'Revenue Roll Inc DBA Tie' -- a rebrand, not a succession, so the register row is still the right company. Both domains have live Google MX. Letter built on their own nav: Website Visitor Identification + Customer Identity Resolution, under 'Grow Email Lists', supported by 'Primary Inbox Placement' and 'Protect Email Deliverability'. Asked the four questions that a stored-row deletion does not reach: has an anonymous session of mine been resolved, by what mechanism, against whose graph, and delivered to which merchants. Asked them to state plainly if they can delete but cannot prevent recreation. Also flagged that their published 60+30 day timeline has a first step longer than the statute's 45.
 
 ## Steps
 

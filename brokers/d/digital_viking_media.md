@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-11-16)
-- Note: 2026-11-16 CCPA-period chase (about 83 days, no reply or acknowledgement; no bounce found): one-line 'did the request arrive, and if this is the wrong mailbox, which is right?' sent in the original thread.
+- Current: `not_found` (updated 2026-11-16)
+- Note: 2026-11-16 18:14Z reply to the chase from privacy@ (Jen Loubon): 'We have no data on you.'
+- Earlier: 2026-11-16 CCPA-period chase (about 83 days, no reply or acknowledgement; no bounce found): one-line 'did the request arrive, and if this is the wrong mailbox, which is right?' sent in the original thread.
 - Earlier: 2026-08-25: emailed privacy@digitalvikingmedia.com. Standard identity-graph letter - hashes with the hash-it-yourself clause, cookie/MAID/CTV IDs, household-IP linkage, segments, edges, the suppression-vs-inventory hash question, the processor fallback, supplier naming, and the consent-provenance question (source URL and date) since I did not submit any such form.
 
 ## Steps

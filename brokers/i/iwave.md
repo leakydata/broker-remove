@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-18)
-- Note: Auto-acknowledged by privacy+noreply@kindsight.io - confirming the iWave/Kindsight rebrand from the reply address itself.
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-16 Kindsight web form go.kindsight.io/privacy-opt-out submitted (the route privacy+noreply@kindsight.io's 08-18 auto-reply said is the only accepted one; never driven until now). HubSpot form: name, contact email, mailing address, US/PA, city, ZIP, phone; invisible reCAPTCHA passed by itself. Page: 'Thanks for submitting the form. A member of our team will be in touch.'
+- Earlier: Auto-acknowledged by privacy+noreply@kindsight.io - confirming the iWave/Kindsight rebrand from the reply address itself.
 
 ## Steps
 

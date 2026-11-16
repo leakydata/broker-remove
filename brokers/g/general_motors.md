@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-11-16)
-- Note: 2026-11-16 CHASED in-thread: over 80 days with no reply to the August request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
+- Current: `manual_required` (updated 2026-11-16)
+- Note: 2026-11-16 privacy@gm.com answered the chase: 'We do not accept consumer privacy requests made by email'; route is consumerprivacy.gm.com (privacy.gm.com iframe) or 1-866-697-7482. PA is listed; request types for PA are access, correct and delete (no separate sale opt-out). Form filled through Review (Delete, Myself, contact by email). The certification checkbox and code verification were left to the user; handoff added.
+- Earlier: 2026-11-16 CHASED in-thread: over 80 days with no reply to the August request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
 - Earlier: Opt-out letter sent by email to privacy@gm.com (delete + opt out of sale/sharing + direct downstream recipients + suppress against future ingestion). All twelve email addresses, sixteen prior addresses and eleven prior phone numbers listed for search. Sent as HTML per letter_html.
 
 ## Steps
