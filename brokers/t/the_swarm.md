@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-31)
-- Note: Recovered from the committed playbook brokers/t/the_swarm.md, because the ledger carries no notes and this row's status had no evidence behind it: The Swarm builds relationship-intelligence maps (professional connections, warm-intro paths), typically assembled from clients' email/calendar metadata. Asked for the profile and specifically for any inferred relationship edge between me and others — a modelled connection they generated is personal information about me, and deleting a contact row while keeping the edge is not a complete deletion.
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-16 CHASED in-thread: over 80 days with no reply to the August request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
+- Earlier: Recovered from the committed playbook brokers/t/the_swarm.md, because the ledger carries no notes and this row's status had no evidence behind it: The Swarm builds relationship-intelligence maps (professional connections, warm-intro paths), typically assembled from clients' email/calendar metadata. Asked for the profile and specifically for any inferred relationship edge between me and others — a modelled connection they generated is personal information about me, and deleting a contact row while keeping the edge is not a complete deletion.
 
 ## Steps
 

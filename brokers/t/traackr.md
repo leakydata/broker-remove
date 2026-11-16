@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-31)
-- Note: Recovered from the committed playbook brokers/t/traackr.md, because the ledger carries no notes and this row's status had no evidence behind it: Sent the MEDIA CONTACT / PR DATABASE variant (`_CATEGORY_VARIANTS.md`): Traackr assembles influencer/creator profiles from bylines, public profiles and social accounts, no account or relationship required. Asked for the contact record plus derived attributes (reach/influence scores, topic/beat classification) and platform-level do-not-contact suppression.
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-16 CHASED in-thread: over 80 days with no reply to the August request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
+- Earlier: Recovered from the committed playbook brokers/t/traackr.md, because the ledger carries no notes and this row's status had no evidence behind it: Sent the MEDIA CONTACT / PR DATABASE variant (`_CATEGORY_VARIANTS.md`): Traackr assembles influencer/creator profiles from bylines, public profiles and social accounts, no account or relationship required. Asked for the contact record plus derived attributes (reach/influence scores, topic/beat classification) and platform-level do-not-contact suppression.
 
 ## Steps
 

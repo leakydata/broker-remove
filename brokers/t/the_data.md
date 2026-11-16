@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-31)
-- Note: Recovered from the committed playbook brokers/t/the_data.md, because the ledger carries no notes and this row's status had no evidence behind it: Sent the DIRECT MAIL / LIST RENTAL variant (`_CATEGORY_VARIANTS.md`): asked for deletion plus permanent internal suppression, conceded minimal retention to honor the suppression, and named DMAchoice/optoutprescreen.com as the industry-wide levers already in place separately from this letter.
+- Current: `manual_required` (updated 2026-11-16)
+- Note: 2026-11-16: their 08-31 canned reply (unrecorded until now) said they act as a processor, keep a master suppression file, and email requests will not be processed; the form at thedatagroup.com/privacy/consumer-optout-request-form/ is the route (the page now says a sufficiently detailed email also works). Form filled (name, address, state, ZIP, contact email, phone) in an open browser tab; left for the user: the identity-certification checkbox and the reCAPTCHA, then Submit.
+- Earlier: Recovered from the committed playbook brokers/t/the_data.md, because the ledger carries no notes and this row's status had no evidence behind it: Sent the DIRECT MAIL / LIST RENTAL variant (`_CATEGORY_VARIANTS.md`): asked for deletion plus permanent internal suppression, conceded minimal retention to honor the suppression, and named DMAchoice/optoutprescreen.com as the industry-wide levers already in place separately from this letter.
 
 ## Steps
 

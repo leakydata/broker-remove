@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-31)
-- Note: Recovered from the committed playbook brokers/t/truthed.md, because the ledger carries no notes and this row's status had no evidence behind it: Sent the "unknown broker" categorisation letter — the name suggests an identity/reputation-verification product but nothing public confirms it, so asked the seven-way question rather than guessing. Addressed to a named individual ([named individual]@truthed.com) rather than a generic alias, per the registry contact.
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-16 CHASED in-thread: over 80 days with no reply to the August request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
+- Earlier: Recovered from the committed playbook brokers/t/truthed.md, because the ledger carries no notes and this row's status had no evidence behind it: Sent the "unknown broker" categorisation letter — the name suggests an identity/reputation-verification product but nothing public confirms it, so asked the seven-way question rather than guessing. Addressed to a named individual ([named individual]@truthed.com) rather than a generic alias, per the registry contact.
 
 ## Steps
 

@@ -9,7 +9,8 @@
 ## Status
 
 - Current: `confirmed` (updated 2026-11-16)
-- Note: DataGrail 'Deletion Results' email of 2026-09-08 (unread until now) confirms all personal data permanently deleted. The 2026-11-16 chase to privacy@ drew an auto-reply saying that mailbox is not watched for DSRs (datasubjectrequests@ is); no further action needed since the request already completed.
+- Note: 2026-11-16 21:27 UTC: Privacy@6sense.com (ticket REQ-235742) answered the chase in writing: deletion completed 2026-08-24; no data found for any of the four email addresses searched; confirmation emails were sent from the DataGrail mailbox.
+- Earlier: DataGrail 'Deletion Results' email of 2026-09-08 (unread until now) confirms all personal data permanently deleted. The 2026-11-16 chase to privacy@ drew an auto-reply saying that mailbox is not watched for DSRs (datasubjectrequests@ is); no further action needed since the request already completed.
 - Earlier: 2026-11-16 CHASED: 85 days of total silence since the 23 August letter. Sent a one-line chase asking whether a record exists in their intent/account data, with the fallback clause for state-coverage pushback.
 
 - Current: `submitted` (updated 2026-08-24)

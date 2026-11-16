@@ -47,7 +47,7 @@
   "6sense": {
     "status": "confirmed",
     "changed": "2026-11-16",
-    "via": "email"
+    "via": "reply"
   },
   "6sense_insights": {
     "changed": "2026-09-03",
@@ -5856,9 +5856,9 @@
     "via": "email"
   },
   "sprout_social": {
-    "status": "submitted",
+    "status": "acknowledged",
     "changed": "2026-11-16",
-    "via": "email"
+    "via": "reply"
   },
   "sprouts_ai": {
     "changed": "2026-09-02",
@@ -6086,9 +6086,9 @@
     "via": "email"
   },
   "telesign": {
-    "changed": "2026-08-31",
     "status": "submitted",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "email"
   },
   "telguarder_as": {
     "changed": "2026-09-18",
@@ -6152,9 +6152,9 @@
     "via": "reply"
   },
   "the_data": {
-    "changed": "2026-08-31",
-    "status": "submitted",
-    "via": null
+    "status": "manual_required",
+    "changed": "2026-11-16",
+    "via": "web"
   },
   "the_dots_global": {
     "changed": "2026-10-21",
@@ -6177,8 +6177,8 @@
     "via": "reply"
   },
   "the_org": {
-    "changed": "2026-08-31",
     "status": "submitted",
+    "changed": "2026-11-16",
     "via": "email"
   },
   "the_people_searchers": {
@@ -6187,9 +6187,9 @@
     "via": "email"
   },
   "the_swarm": {
-    "changed": "2026-08-31",
     "status": "submitted",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "email"
   },
   "thepublicindex": {
     "changed": "2026-08-26",
@@ -6202,8 +6202,8 @@
     "via": "email"
   },
   "think_data": {
-    "changed": "2026-08-31",
     "status": "submitted",
+    "changed": "2026-11-16",
     "via": "email"
   },
   "thisnumber_com": {
@@ -6262,9 +6262,9 @@
     "via": "web"
   },
   "traackr": {
-    "changed": "2026-08-31",
     "status": "submitted",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "email"
   },
   "tracers_com_enformiongo": {
     "changed": "2026-08-29",
@@ -6277,8 +6277,8 @@
     "via": "email"
   },
   "transcend": {
-    "changed": "2026-08-31",
     "status": "submitted",
+    "changed": "2026-11-16",
     "via": "email"
   },
   "transparent_nevada": {
@@ -6307,9 +6307,9 @@
     "via": "email"
   },
   "true_opulence": {
-    "changed": "2026-08-31",
     "status": "submitted",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "email"
   },
   "truedata": {
     "changed": "2026-09-15",
@@ -6332,9 +6332,9 @@
     "via": "email"
   },
   "trust_will": {
-    "changed": "2026-08-31",
     "status": "submitted",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "email"
   },
   "trustoria": {
     "changed": "2026-08-20",
@@ -6347,9 +6347,9 @@
     "via": "reply"
   },
   "truthed": {
-    "changed": "2026-08-31",
     "status": "submitted",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "email"
   },
   "truthfinder": {
     "changed": "2026-08-27",

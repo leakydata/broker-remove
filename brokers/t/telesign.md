@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-31)
-- Note: Recovered from the committed playbook brokers/t/telesign.md, because the ledger carries no notes and this row's status had no evidence behind it: Their only published contact is `california-opt-out@telesign.com` (§23 in `_DEFLECTIONS.md` — a mailbox name doing the scope-gating on its own). Wrote to it anyway, said explicitly the mailbox name isn't being treated as the scope of the request, and asked them to honor it as company policy regardless. Sent the IDENTITY-VERIFICATION variant (`_CATEGORY_VARIANTS.md` — "Where deletion is the wrong ask"): asked what exists (risk score, fraud flag, verification history tied to the phone number) before asking for deletion, preferring correction over deletion for a wrong record.
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-16: their 08-31 auto-reply (unrecorded until now) said the California-only mailbox would respond in due course and pointed elsewhere to the Privacy Requests form. Tried that form today: it detects Pennsylvania and refuses ('jurisdiction that does not currently support privacy rights'). CHASED in-thread asking them to handle it under their published Privacy Notice or name the address for a non-California consumer. Phone 1-800-850-3485 is the remaining route.
+- Earlier: Recovered from the committed playbook brokers/t/telesign.md, because the ledger carries no notes and this row's status had no evidence behind it: Their only published contact is `california-opt-out@telesign.com` (§23 in `_DEFLECTIONS.md` — a mailbox name doing the scope-gating on its own). Wrote to it anyway, said explicitly the mailbox name isn't being treated as the scope of the request, and asked them to honor it as company policy regardless. Sent the IDENTITY-VERIFICATION variant (`_CATEGORY_VARIANTS.md` — "Where deletion is the wrong ask"): asked what exists (risk score, fraud flag, verification history tied to the phone number) before asking for deletion, preferring correction over deletion for a wrong record.
 
 ## Steps
 
