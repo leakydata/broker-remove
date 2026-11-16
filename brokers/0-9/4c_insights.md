@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-22)
-- Note: Recovered from the committed playbook brokers/0-9/4c_insights.md, because the ledger carries no notes and this row's status had no evidence behind it: Statutory opt-out/deletion email sent 2026-08-22.  [minimal: this is the whole of what the playbook records]
+- Current: `submitted` (updated 2026-11-15)
+- Note: 2026-11-15: tried the Mediaocean form. As a consumer, its only option is 'opt out of tracking technologies on the Mediaocean website', with no deletion or sale opt-out. Replied in the 08-22 thread explaining that and asking them to process the emailed request, or say they hold nothing outside the website.
+- Earlier: Recovered from the committed playbook brokers/0-9/4c_insights.md, because the ledger carries no notes and this row's status had no evidence behind it: Statutory opt-out/deletion email sent 2026-08-22.  [minimal: this is the whole of what the playbook records]
 
 ## Steps
 

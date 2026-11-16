@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-20)
-- Note: Recovered from the committed playbook brokers/v/viant.md, because the ledger carries no notes and this row's status had no evidence behind it: Emailed privacy@viantinc.com. People-based advertising platform (DSP); same ad-tech letter as vdx_tv.md.
+- Current: `captcha_blocked` (updated 2026-11-15)
+- Note: 2026-11-15: filled the OneTrust deletion form. It ends with a reCAPTCHA checkbox and a perjury attestation, so it is now in the handoff queue. Not submitted.
+- Earlier: Recovered from the committed playbook brokers/v/viant.md, because the ledger carries no notes and this row's status had no evidence behind it: Emailed privacy@viantinc.com. People-based advertising platform (DSP); same ad-tech letter as vdx_tv.md.
 
 ## Steps
 

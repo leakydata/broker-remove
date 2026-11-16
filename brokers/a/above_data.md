@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-22)
-- Note: Recovered from the committed playbook brokers/a/above_data.md, because the ledger carries no notes and this row's status had no evidence behind it: Statutory opt-out/deletion email sent 2026-08-22.  [minimal: this is the whole of what the playbook records]
+- Current: `submitted` (updated 2026-11-15)
+- Note: 2026-11-15 CHASE: past the 45-day period with no reply of any kind. Asked in the original thread whether the request arrived and, if this is the wrong mailbox, where to send it.
+- Earlier: Recovered from the committed playbook brokers/a/above_data.md, because the ledger carries no notes and this row's status had no evidence behind it: Statutory opt-out/deletion email sent 2026-08-22.  [minimal: this is the whole of what the playbook records]
 
 ## Steps
 

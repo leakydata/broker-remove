@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-17)
-- Note: Auto-reply gate (same template as sister company Brandwatch): nothing proceeds without an explicit confirmation reply. Sent to the monitored privacy@ address. KEY DIFFERENCE from Brandwatch: Cision indexes journalist/influencer records by NAME, EMAIL and social handle, not handles alone, so the standard letter is directly actionable here.
+- Current: `submitted` (updated 2026-11-15)
+- Note: AUDIT 2026-11-15: PrivacyTeam@cision.com replied 2026-08-28 (privacy@brandwatch.com thread) that their data is indexed by social handle, and asked for handles. OPT OUT was sent that day as their signature instructs, and the LinkedIn URL went to DPO@ on 10-11, but the handle question was never answered in their own thread. Answered it 11-15 with the LinkedIn URL, asked for a name/email search of the media-contact database plus suppression. CAUTION: that reply also said the subject has no X/Instagram/TikTok/Reddit/YouTube accounts. That was not verified with the subject; correct it if wrong.
+- Earlier: Auto-reply gate (same template as sister company Brandwatch): nothing proceeds without an explicit confirmation reply. Sent to the monitored privacy@ address. KEY DIFFERENCE from Brandwatch: Cision indexes journalist/influencer records by NAME, EMAIL and social handle, not handles alone, so the standard letter is directly actionable here.
 
 ## Steps
 

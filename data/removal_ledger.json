@@ -21,7 +21,7 @@
   },
   "360_media_direct_bperx_adsmith_subco_clicknread_wrss": {
     "status": "submitted",
-    "changed": "2026-08-22",
+    "changed": "2026-11-15",
     "via": "email"
   },
   "411_com": {
@@ -31,7 +31,7 @@
   },
   "4c_insights": {
     "status": "submitted",
-    "changed": "2026-08-22",
+    "changed": "2026-11-15",
     "via": "email"
   },
   "4eyes_ai_4_eyes_ai": {
@@ -61,7 +61,7 @@
   },
   "above_data": {
     "status": "submitted",
-    "changed": "2026-08-22",
+    "changed": "2026-11-15",
     "via": "email"
   },
   "absolute_people_search": {
@@ -381,9 +381,9 @@
     "via": "email"
   },
   "amplemarket": {
-    "status": "submitted",
+    "status": "confirmed",
     "changed": "2026-11-15",
-    "via": "web"
+    "via": "reply"
   },
   "ampliz": {
     "status": "submitted",
@@ -1087,14 +1087,14 @@
     "via": null
   },
   "circana": {
-    "status": "submitted",
-    "changed": "2026-08-25",
-    "via": null
+    "status": "not_found",
+    "changed": "2026-11-15",
+    "via": "reply"
   },
   "cision": {
     "status": "submitted",
-    "changed": "2026-08-17",
-    "via": null
+    "changed": "2026-11-15",
+    "via": "reply"
   },
   "city_data_com": {
     "status": "submitted",
@@ -5283,7 +5283,7 @@
   "rev": {
     "status": "submitted",
     "changed": "2026-11-15",
-    "via": "web"
+    "via": "email"
   },
   "revcontent": {
     "status": "not_found",
@@ -6323,7 +6323,7 @@
   },
   "truepeoplesearch_net": {
     "status": "submitted",
-    "changed": "2026-08-20",
+    "changed": "2026-11-15",
     "via": "email"
   },
   "trulia": {
@@ -6527,8 +6527,8 @@
     "via": null
   },
   "vdx_tv": {
-    "status": "manual_required",
-    "changed": "2026-10-01",
+    "status": "submitted",
+    "changed": "2026-11-15",
     "via": "reply"
   },
   "vector": {
@@ -6577,9 +6577,9 @@
     "via": "reply"
   },
   "verinext": {
-    "status": "submitted",
-    "changed": "2026-08-20",
-    "via": null
+    "status": "unreachable",
+    "changed": "2026-11-15",
+    "via": "email"
   },
   "veripages": {
     "status": "submitted",
@@ -6633,9 +6633,9 @@
     "via": "email"
   },
   "viant": {
-    "status": "submitted",
-    "changed": "2026-08-20",
-    "via": null
+    "status": "captcha_blocked",
+    "changed": "2026-11-15",
+    "via": "web"
   },
   "videoamp": {
     "status": "submitted",
@@ -6684,12 +6684,12 @@
   },
   "voilanorbert": {
     "status": "submitted",
-    "changed": "2026-08-20",
-    "via": null
+    "changed": "2026-11-15",
+    "via": "email"
   },
   "voterrecords_com": {
     "status": "submitted",
-    "changed": "2026-08-20",
+    "changed": "2026-11-15",
     "via": "email"
   },
   "vrtcal_markets": {
@@ -6959,7 +6959,7 @@
   },
   "zoominfo": {
     "status": "submitted",
-    "changed": "2026-08-21",
+    "changed": "2026-11-15",
     "via": "email"
   },
   "zosearch": {

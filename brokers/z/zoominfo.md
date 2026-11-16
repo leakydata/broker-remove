@@ -8,8 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-21)
-- Note: 2026-08-20: first contact, sent to the address discovered by the verify_emails sweep. Tailored per _CATEGORY_VARIANTS.md.
+- Current: `submitted` (updated 2026-11-15)
+- Note: 2026-11-15 CHASE: past the 45-day period with no reply of any kind. Asked in the original thread whether the request arrived and, if this is the wrong mailbox, where to send it.
+- Earlier: 2026-08-20: first contact, sent to the address discovered by the verify_emails sweep. Tailored per _CATEGORY_VARIANTS.md.
 
 ## Steps
 

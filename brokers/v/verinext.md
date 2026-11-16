@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-20)
-- Note: Recovered from the committed playbook brokers/v/verinext.md, because the ledger carries no notes and this row's status had no evidence behind it: Emailed dpo@verinext.com. Verinext's own site describes an IT consulting / digital-transformation firm (cloud, data protection, automation, security, AI implementation) — another likely false positive on the broker list it came from.
+- Current: `unreachable` (updated 2026-11-15)
+- Note: 2026-11-15: the 09-03 re-send to dpo@verinext.com got a permanent bounce from FireEye cloud mail. The 08-20 letter drew no reply. Verinext's site describes an IT consulting firm, so it was probably misclassified as a broker. Not chased.
+- Earlier: Recovered from the committed playbook brokers/v/verinext.md, because the ledger carries no notes and this row's status had no evidence behind it: Emailed dpo@verinext.com. Verinext's own site describes an IT consulting / digital-transformation firm (cloud, data protection, automation, security, AI implementation) — another likely false positive on the broker list it came from.
 
 ## Steps
 

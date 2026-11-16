@@ -8,8 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-20)
-- Note: Sent 2026-08-20 07:36 UTC to support@truepeoplesearch.net (confirmed on site). Free people search - note this is truepeoplesearch.NET, distinct from the .com. Their own description: current address, phone, age, relatives and email, 'no signup, no credit card'. Argued from the absence of a paywall: a record behind a subscription is findable by someone determined enough to pay, a record behind nothing is findable by anyone with your name and a grudge - framed as why a complete removal matters here, explicitly not as an allegation of illegality. The relatives point is the sharp one on this site since their marketing promises relatives: my name on OTHER people's profiles is indexed independently, and if it survives then my removal depends partly on whether my relatives have made their own requests. Plus suppression vs one-time, noindex, and the shared-index question.
+- Current: `submitted` (updated 2026-11-15)
+- Note: 2026-11-15 CHASE: past the 45-day period with no reply of any kind. Asked in the original thread whether the request arrived and, if this is the wrong mailbox, where to send it.
+- Earlier: Sent 2026-08-20 07:36 UTC to support@truepeoplesearch.net (confirmed on site). Free people search - note this is truepeoplesearch.NET, distinct from the .com. Their own description: current address, phone, age, relatives and email, 'no signup, no credit card'. Argued from the absence of a paywall: a record behind a subscription is findable by someone determined enough to pay, a record behind nothing is findable by anyone with your name and a grudge - framed as why a complete removal matters here, explicitly not as an allegation of illegality. The relatives point is the sharp one on this site since their marketing promises relatives: my name on OTHER people's profiles is indexed independently, and if it survives then my removal depends partly on whether my relatives have made their own requests. Plus suppression vs one-time, noindex, and the shared-index question.
 
 ## Steps
 
