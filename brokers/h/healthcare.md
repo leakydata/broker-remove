@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-27)
-- Note: Sent the HEALTH-SECTOR VARIANT per _CATEGORY_VARIANTS.md rather than the generic letter: opens with the five-way categorisation question (health/inferred, HCP, clinical-trial, plain marketing, other) before making the request; asks specifically whether any health attribute is INFERRED rather than reported, with the reason stated -- an inferred condition cannot be verified or corrected by the person it describes, can simply be wrong, and is acted on by insurers and employers who never see the uncertainty; notes that a match on a healthcare-PROFESSIONAL file would be a misattribution rather than a privacy problem, so correction matters as much as deletion; pre-empts the HIPAA deflection by conceding the legitimate part and noting that data held outside a covered-entity or business-associate relationship is generally not HIPAA-protected; and invokes the SENSITIVE-DATA limit-use right (1798.121) alongside delete and opt-out rather than in place of them.
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-16 CHASED in-thread: over 80 days with no reply to the August request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
+- Earlier: Sent the HEALTH-SECTOR VARIANT per _CATEGORY_VARIANTS.md rather than the generic letter: opens with the five-way categorisation question (health/inferred, HCP, clinical-trial, plain marketing, other) before making the request; asks specifically whether any health attribute is INFERRED rather than reported, with the reason stated -- an inferred condition cannot be verified or corrected by the person it describes, can simply be wrong, and is acted on by insurers and employers who never see the uncertainty; notes that a match on a healthcare-PROFESSIONAL file would be a misattribution rather than a privacy problem, so correction matters as much as deletion; pre-empts the HIPAA deflection by conceding the legitimate part and noting that data held outside a covered-entity or business-associate relationship is generally not HIPAA-protected; and invokes the SENSITIVE-DATA limit-use right (1798.121) alongside delete and opt-out rather than in place of them.
 
 ## Steps
 

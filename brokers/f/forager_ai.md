@@ -1,14 +1,15 @@
 # Forager.ai, LLC
 
 - **Email:** privacy@forager.ai (verified)
-- **Method:** email — Statutory request by email. No web form needed.
+- **Method:** web — app.forager.ai/privacy/data-removal (email code); privacy@ points there
 - **Domain:** forager.ai
 - **Priority: 2.**
 
 ## Status
 
-- Current: `submitted` (updated 2026-11-16)
-- Note: 2026-11-16 CHASED in-thread: over 80 days with no reply to the August request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
+- Current: `confirmed` (updated 2026-11-16)
+- Note: 2026-11-16: privacy@ auto-reply points to app.forager.ai/privacy/data-removal. Completed it with the contact email and the emailed 6-digit code; page: 'Your data has now been removed from Forager.' The form takes one email or phone only, so asked legal@forager.ai (named on the result page) to apply removal and suppression to the other identifiers in the original letter.
+- Earlier: 2026-11-16 CHASED in-thread: over 80 days with no reply to the August request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
 - Earlier: Opt-out letter sent by email to privacy@forager.ai (delete + opt out of sale/sharing + direct downstream recipients + suppress against future ingestion). All twelve email addresses, sixteen prior addresses and eleven prior phone numbers listed for search. Sent as HTML per letter_html.
 
 ## Steps

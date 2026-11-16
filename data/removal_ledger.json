@@ -1527,8 +1527,8 @@
     "via": "reply"
   },
   "data_marketing_solutions": {
-    "changed": "2026-08-28",
     "status": "submitted",
+    "changed": "2026-11-16",
     "via": "email"
   },
   "data_trust": {
@@ -1943,12 +1943,12 @@
     "via": null
   },
   "edvisors_network": {
-    "status": "submitted",
+    "status": "manual_required",
     "changed": "2026-11-16",
-    "via": "email"
+    "via": "postal"
   },
   "ekata": {
-    "status": "submitted",
+    "status": "confirmed",
     "changed": "2026-11-16",
     "via": "reply"
   },
@@ -2184,7 +2184,7 @@
     "via": "email"
   },
   "fetch_rewards": {
-    "status": "submitted",
+    "status": "acknowledged",
     "changed": "2026-11-16",
     "via": "reply"
   },
@@ -2349,9 +2349,9 @@
     "via": null
   },
   "forager_ai": {
-    "status": "submitted",
+    "status": "confirmed",
     "changed": "2026-11-16",
-    "via": "reply"
+    "via": "web"
   },
   "forddirect": {
     "changed": "2026-08-18",
@@ -2524,8 +2524,8 @@
     "via": "reply"
   },
   "getprospect": {
-    "changed": "2026-08-31",
     "status": "submitted",
+    "changed": "2026-11-16",
     "via": "email"
   },
   "giant_partners": {
@@ -2586,7 +2586,7 @@
   "grata": {
     "status": "submitted",
     "changed": "2026-11-16",
-    "via": "reply"
+    "via": "email"
   },
   "gravy_analytics": {
     "changed": "2026-09-02",
@@ -2634,9 +2634,9 @@
     "via": "web"
   },
   "growthcode": {
-    "changed": "2026-08-27",
     "status": "submitted",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "email"
   },
   "h1": {
     "changed": "2026-08-18",
@@ -2644,9 +2644,9 @@
     "via": "email"
   },
   "h1_insights": {
-    "changed": "2026-08-27",
-    "status": "submitted",
-    "via": null
+    "status": "not_found",
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "h1bdata_info": {
     "changed": "2026-09-02",
@@ -2654,9 +2654,9 @@
     "via": "email"
   },
   "harmon_research": {
-    "changed": "2026-08-27",
     "status": "submitted",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "email"
   },
   "hawaii_arrests": {
     "changed": "2026-08-16",
@@ -2684,9 +2684,9 @@
     "via": "email"
   },
   "healthcare": {
-    "changed": "2026-08-27",
     "status": "submitted",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "email"
   },
   "healthcare_com": {
     "changed": "2026-08-31",
@@ -2849,9 +2849,9 @@
     "via": null
   },
   "idi": {
-    "changed": "2026-08-27",
     "status": "submitted",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "email"
   },
   "idm": {
     "changed": "2026-08-24",
@@ -2859,9 +2859,9 @@
     "via": "email"
   },
   "idmap": {
-    "changed": "2026-08-28",
     "status": "submitted",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "email"
   },
   "idnotify": {
     "changed": "2026-09-15",
@@ -2869,8 +2869,8 @@
     "via": "email"
   },
   "idology": {
-    "changed": "2026-08-28",
     "status": "submitted",
+    "changed": "2026-11-16",
     "via": "email"
   },
   "idstrong": {
@@ -2899,9 +2899,9 @@
     "via": "email"
   },
   "inbound_insight": {
-    "changed": "2026-08-28",
     "status": "submitted",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "email"
   },
   "index_exchange": {
     "changed": "2026-09-15",

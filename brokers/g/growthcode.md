@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-27)
-- Note: Sent the IDENTITY-RESOLUTION variant rather than the generic letter: asks explicitly about hashed email forms (MD5/SHA-1/SHA-256) held as match keys, cookie/MAID/CTV identifiers, THE EDGES between those identifiers and name/address/phone, and household-level association derived from IP. The edges are the point -- in a resolution business the graph is the product, and deleting endpoint rows while keeping the linkage means the record reassembles on the next match. Also asked for do-not-sell, do-not-rent, do-not-append and do-not-re-onboard as standing entries, and for the supplier the record came from.
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-16 CHASED in-thread: over 80 days with no reply to the August request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
+- Earlier: Sent the IDENTITY-RESOLUTION variant rather than the generic letter: asks explicitly about hashed email forms (MD5/SHA-1/SHA-256) held as match keys, cookie/MAID/CTV identifiers, THE EDGES between those identifiers and name/address/phone, and household-level association derived from IP. The edges are the point -- in a resolution business the graph is the product, and deleting endpoint rows while keeping the linkage means the record reassembles on the next match. Also asked for do-not-sell, do-not-rent, do-not-append and do-not-re-onboard as standing entries, and for the supplier the record came from.
 
 ## Steps
 

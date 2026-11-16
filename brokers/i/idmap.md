@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-28)
-- Note: Sent the IDENTITY-RESOLUTION variant: the EDGES rather than the rows, since in a resolution business the linkage is the product and deleting endpoints while keeping the joins means the record reassembles when the same fragments next arrive; any PERSISTENT PERSON-KEY, household key or cluster ID, which survives deletion of every attribute hanging off it; hashed email match keys and device identifiers, a hash not being anonymous when the input space is one address; and categories of supplier and recipient. Address history framed as the substance of the letter rather than a courtesy, since an identity file is address-history keyed by construction. Identifier-types-matched question asked. Sent to the registry's named-individual contact; discover_contacts found no published role address for this domain.
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-16 CHASED in-thread: over 80 days with no reply to the August request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
+- Earlier: Sent the IDENTITY-RESOLUTION variant: the EDGES rather than the rows, since in a resolution business the linkage is the product and deleting endpoints while keeping the joins means the record reassembles when the same fragments next arrive; any PERSISTENT PERSON-KEY, household key or cluster ID, which survives deletion of every attribute hanging off it; hashed email match keys and device identifiers, a hash not being anonymous when the input space is one address; and categories of supplier and recipient. Address history framed as the substance of the letter rather than a courtesy, since an identity file is address-history keyed by construction. Identifier-types-matched question asked. Sent to the registry's named-individual contact; discover_contacts found no published role address for this domain.
 
 ## Steps
 

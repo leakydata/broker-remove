@@ -1,6 +1,6 @@
 # Grata Inc
 
-- **Email:** hello@grata.com (verified)
+- **Email:** privacy.grata@grata.com (hello@ unmonitored as of 2026-11-16; portal my.datasubject.com)
 - **Method:** email — Statutory request by email. No web form needed.
 - **Domain:** grata.com
 - **Priority: 2.**
@@ -8,7 +8,8 @@
 ## Status
 
 - Current: `submitted` (updated 2026-11-16)
-- Note: 2026-11-16 CHASED in-thread: over 80 days with no reply to the August request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
+- Note: 2026-11-16: hello@grata.com auto-replies that the inbox is no longer monitored. The privacy policy lists privacy.grata@grata.com and a Datasite portal (my.datasubject.com). Forwarded the 08-27 letter to privacy.grata@grata.com. Grata says it 'sold' data from its searchable databases in the last 12 months; replies due in 30 days per its policy.
+- Earlier: 2026-11-16 CHASED in-thread: over 80 days with no reply to the August request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
 - Earlier: Opt-out letter sent by email to hello@grata.com (delete + opt out of sale/sharing + direct downstream recipients + suppress against future ingestion). All twelve email addresses, sixteen prior addresses and eleven prior phone numbers listed for search. Sent as HTML per letter_html.
 
 ## Steps
