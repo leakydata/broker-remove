@@ -1848,8 +1848,8 @@
     "via": "web"
   },
   "domaintools": {
-    "changed": "2026-09-01",
     "status": "submitted",
+    "changed": "2026-11-16",
     "via": "email"
   },
   "donorbase": {
@@ -2554,8 +2554,8 @@
     "via": "reply"
   },
   "good_boy_studios": {
-    "changed": "2026-09-01",
     "status": "submitted",
+    "changed": "2026-11-16",
     "via": "email"
   },
   "goodcar": {
@@ -3495,8 +3495,8 @@
     "via": "reply"
   },
   "local_pages": {
-    "changed": "2026-09-01",
     "status": "submitted",
+    "changed": "2026-11-16",
     "via": "email"
   },
   "locate_friend": {
@@ -3746,8 +3746,8 @@
     "via": "web"
   },
   "merchantcircle": {
-    "changed": "2026-09-01",
     "status": "submitted",
+    "changed": "2026-11-16",
     "via": "email"
   },
   "merkle": {
@@ -6187,9 +6187,9 @@
     "via": "email"
   },
   "the_swarm": {
-    "status": "submitted",
+    "status": "confirmed",
     "changed": "2026-11-16",
-    "via": "email"
+    "via": "reply"
   },
   "thepublicindex": {
     "changed": "2026-08-26",
@@ -6377,9 +6377,9 @@
     "via": null
   },
   "ubermedia": {
-    "changed": "2026-08-31",
     "status": "submitted",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "email"
   },
   "ufind_name": {
     "changed": "2026-08-20",
@@ -6417,8 +6417,8 @@
     "via": null
   },
   "ups_capital": {
-    "changed": "2026-08-31",
     "status": "submitted",
+    "changed": "2026-11-16",
     "via": "email"
   },
   "urban_science_usai": {
@@ -6542,8 +6542,8 @@
     "via": "email"
   },
   "vendelux": {
-    "changed": "2026-08-31",
     "status": "submitted",
+    "changed": "2026-11-16",
     "via": "email"
   },
   "venntel": {
@@ -6678,8 +6678,8 @@
     "via": "email"
   },
   "vizio_services": {
-    "changed": "2026-08-31",
     "status": "submitted",
+    "changed": "2026-11-16",
     "via": "email"
   },
   "voilanorbert": {
@@ -6903,8 +6903,8 @@
     "via": "reply"
   },
   "yieldmo": {
-    "changed": "2026-08-31",
     "status": "submitted",
+    "changed": "2026-11-16",
     "via": "email"
   },
   "yobi_ai": {
@@ -6923,8 +6923,8 @@
     "via": "email"
   },
   "zeotap": {
-    "changed": "2026-08-31",
     "status": "submitted",
+    "changed": "2026-11-16",
     "via": "email"
   },
   "zerotoone_ai": {
