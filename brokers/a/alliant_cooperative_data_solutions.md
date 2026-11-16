@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-29)
-- Note: 2026-08-29 COVERED BY CANONICAL (SILENT_FAILURES 177). duplicate_of=alliant, and both rows carry the identical address compliance@alliantdata.com -- so a letter was sent to this exact address for the canonical row 'alliant' (confirmed). Not a separate send: the mailbox has the request, and whether the company files it under one brand name or the other is internal to them. Status set here so the queue stops offering a second letter to an address that already has one. NOT marked confirmed -- no confirmation was received for this row.
+- Current: `confirmed` (updated 2026-11-16)
+- Note: 2026-11-16 reconciled: duplicate of 'alliant' (confirmed). Both OneTrust requests completed: A6PP4DHC2W on 2026-08-20 and 3GBWVNXAA5 (opt-out/deletion) on 2026-10-02, per noreply@m.onetrust.com 'Your Privacy Request has been completed'. The 10-02 completion had gone unrecorded. No chase needed.
+- Earlier: 2026-08-29 COVERED BY CANONICAL (SILENT_FAILURES 177). duplicate_of=alliant, and both rows carry the identical address compliance@alliantdata.com -- so a letter was sent to this exact address for the canonical row 'alliant' (confirmed). Not a separate send: the mailbox has the request, and whether the company files it under one brand name or the other is internal to them. Status set here so the queue stops offering a second letter to an address that already has one. NOT marked confirmed -- no confirmation was received for this row.
 
 ## Steps
 

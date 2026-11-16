@@ -336,9 +336,9 @@
     "via": "web"
   },
   "alliant_cooperative_data_solutions": {
-    "changed": "2026-08-29",
-    "status": "submitted",
-    "via": "email"
+    "status": "confirmed",
+    "changed": "2026-11-16",
+    "via": "web"
   },
   "allpeople": {
     "changed": "2026-08-17",
@@ -366,9 +366,9 @@
     "via": null
   },
   "amedisys": {
-    "changed": "2026-08-29",
     "status": "submitted",
-    "via": "email"
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "american_city_business_journals": {
     "changed": "2026-08-17",
@@ -506,9 +506,9 @@
     "via": null
   },
   "asl_marketing": {
-    "changed": "2026-08-29",
     "status": "submitted",
-    "via": "email"
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "aspire_north": {
     "changed": "2026-08-17",
@@ -1858,8 +1858,8 @@
     "via": "reply"
   },
   "donorbureau": {
-    "changed": "2026-11-16",
     "status": "acknowledged",
+    "changed": "2026-11-16",
     "via": "reply"
   },
   "downing_lahey_mortuaries_crematory": {
@@ -3104,9 +3104,9 @@
     "via": "reply"
   },
   "iqvia": {
-    "changed": "2026-08-28",
     "status": "submitted",
-    "via": "email"
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "iqvia_digital": {
     "changed": "2026-08-29",
@@ -3304,9 +3304,9 @@
     "via": "reply"
   },
   "lead_enhance": {
-    "status": "submitted",
+    "status": "not_found",
     "changed": "2026-11-16",
-    "via": "email"
+    "via": "reply"
   },
   "lead_me_media": {
     "changed": "2026-11-15",
@@ -4886,9 +4886,9 @@
     "via": "email"
   },
   "privatereports": {
-    "changed": "2026-08-19",
     "status": "submitted",
-    "via": "email"
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "privco": {
     "changed": "2026-08-19",
@@ -5756,9 +5756,9 @@
     "via": null
   },
   "solar_direct_marketing": {
-    "changed": "2026-08-28",
     "status": "submitted",
-    "via": "email"
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "soundcloud_global_limited_co_kg": {
     "changed": "2026-09-25",
@@ -6036,9 +6036,9 @@
     "via": null
   },
   "tandem_marketing": {
-    "changed": "2026-08-28",
     "status": "submitted",
-    "via": "email"
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "tapad": {
     "changed": "2026-08-20",
@@ -6783,14 +6783,14 @@
     "via": "email"
   },
   "wholesale_mail": {
-    "changed": "2026-08-28",
     "status": "submitted",
-    "via": "email"
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "wholesale_mail_hp": {
-    "changed": "2026-08-28",
     "status": "submitted",
-    "via": "email"
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "whoseno": {
     "changed": "2026-10-17",
