@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-20)
-- Note: Sent 2026-08-20 06:47 UTC to ccpa@telefi.app (confirmed on site). Their site returns HTTP 402 to an ordinary request so I could not read a product description - said so plainly in the letter rather than guessing at a business model, and restructured the letter around a single answerable question ('do you hold any record keyed to any of these identifiers, yes or no') with an explicit exit: an unqualified no closes it and I will not write again. Added a conditional phone-directional ask in case the product is telephony-related. Transparency about not knowing what they do is cheaper than being caught mischaracterising them, and it makes the negative answer easy to give.
+- Current: `unreachable` (updated 2026-11-15)
+- Note: 2026-11-15: the chase to ccpa@telefi.app bounced because the account no longer exists. The site still returns HTTP 402, so the company is probably defunct. Only a postal letter to the registry's Scottsdale AZ address remains.
+- Earlier: Sent 2026-08-20 06:47 UTC to ccpa@telefi.app (confirmed on site). Their site returns HTTP 402 to an ordinary request so I could not read a product description - said so plainly in the letter rather than guessing at a business model, and restructured the letter around a single answerable question ('do you hold any record keyed to any of these identifiers, yes or no') with an explicit exit: an unqualified no closes it and I will not write again. Added a conditional phone-directional ask in case the product is telephony-related. Transparency about not knowing what they do is cheaper than being caught mischaracterising them, and it makes the negative answer easy to give.
 
 ## Steps
 

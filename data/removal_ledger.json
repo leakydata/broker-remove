@@ -5283,7 +5283,7 @@
   "rev": {
     "status": "submitted",
     "changed": "2026-11-15",
-    "via": "reply"
+    "via": "web"
   },
   "revcontent": {
     "status": "not_found",
@@ -6076,9 +6076,9 @@
     "via": "reply"
   },
   "telefi": {
-    "status": "submitted",
-    "changed": "2026-08-20",
-    "via": "email"
+    "status": "unreachable",
+    "changed": "2026-11-15",
+    "via": "reply"
   },
   "telephone_directories": {
     "status": "submitted",
@@ -6143,8 +6143,8 @@
   },
   "the_bridge": {
     "status": "submitted",
-    "changed": "2026-08-20",
-    "via": "email"
+    "changed": "2026-11-15",
+    "via": "web"
   },
   "the_bump": {
     "status": "replied",
