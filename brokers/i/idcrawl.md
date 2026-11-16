@@ -8,8 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-18)
-- Note: Aggregates social/web profiles as well as public records. Framed the ask around AGGREGATION: each source may be public alone, but collecting accounts, usernames, photos, employer, location and public records onto one name-keyed page produces something no source published, and that composite is what is being asked for. Also asked specifically for the name-to-username/handle links, which can survive a page removal and are often the most identifying thing held. Plus exclusion from future crawling.
+- Current: `confirmed` (updated 2026-11-16)
+- Note: 2026-11-16: IDCrawl Support: located the matching information on IDCrawl and removed it. Search-engine caches may lag.
+- Earlier: Aggregates social/web profiles as well as public records. Framed the ask around AGGREGATION: each source may be public alone, but collecting accounts, usernames, photos, employer, location and public records onto one name-keyed page produces something no source published, and that composite is what is being asked for. Also asked specifically for the name-to-username/handle links, which can survive a page removal and are often the most identifying thing held. Plus exclusion from future crawling.
 
 ## Steps
 

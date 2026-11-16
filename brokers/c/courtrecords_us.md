@@ -8,9 +8,10 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-11-16)
+- Current: `acknowledged` (updated 2026-11-16)
 - Reference: `gmail:1a00c8769c5bb484`
-- Note: 2026-11-16 CHASED: 92 days of total silence since the 16 August consolidated letter -- no acknowledgement of any kind, not even the Zendesk ticket the note below expected. Sent a one-line chase in the same thread asking for confirmation of receipt and which of the 51 named properties held a record, with the fallback clause for state-coverage pushback. This single chase covers all 51 sibling properties in the family (see `shard` note in each sibling file); do not send 51 separate chases to the same mailbox.
+- Note: 2026-11-16: chase opened Zendesk request 667286 at privacy@courtrecords.us (auto-ack). Covers the 51-site family.
+- Earlier: 2026-11-16 CHASED: 92 days of total silence since the 16 August consolidated letter -- no acknowledgement of any kind, not even the Zendesk ticket the note below expected. Sent a one-line chase in the same thread asking for confirmation of receipt and which of the 51 named properties held a record, with the fallback clause for state-coverage pushback. This single chase covers all 51 sibling properties in the family (see `shard` note in each sibling file); do not send 51 separate chases to the same mailbox.
 - Earlier: Zendesk ticket opened; reference issued. Same privacy queue serves the whole state-court-records family.
 
 ## Steps

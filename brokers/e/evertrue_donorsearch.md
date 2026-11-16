@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-27)
-- Note: Opt-out letter sent by email to privacy@evertrue.com (delete + opt out of sale/sharing + direct downstream recipients + suppress against future ingestion). All twelve email addresses, sixteen prior addresses and eleven prior phone numbers listed for search. Sent as HTML per letter_html.
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-16 CHASED in-thread: over 80 days with no reply to the August request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
+- Earlier: Opt-out letter sent by email to privacy@evertrue.com (delete + opt out of sale/sharing + direct downstream recipients + suppress against future ingestion). All twelve email addresses, sixteen prior addresses and eleven prior phone numbers listed for search. Sent as HTML per letter_html.
 
 ## Steps
 

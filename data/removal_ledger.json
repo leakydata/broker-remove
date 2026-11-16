@@ -45,9 +45,9 @@
     "via": "email"
   },
   "6sense": {
+    "status": "confirmed",
     "changed": "2026-11-16",
-    "status": "submitted",
-    "via": null
+    "via": "email"
   },
   "6sense_insights": {
     "changed": "2026-09-03",
@@ -1387,9 +1387,9 @@
     "via": "reply"
   },
   "courtrecords_us": {
+    "status": "acknowledged",
     "changed": "2026-11-16",
-    "status": "submitted",
-    "via": null
+    "via": "reply"
   },
   "cox_automotive": {
     "changed": "2026-09-15",
@@ -1943,14 +1943,14 @@
     "via": null
   },
   "edvisors_network": {
-    "changed": "2026-08-27",
     "status": "submitted",
-    "via": "email"
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "ekata": {
-    "changed": "2026-08-27",
     "status": "submitted",
-    "via": "email"
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "el_toro_com": {
     "changed": "2026-11-15",
@@ -1993,9 +1993,9 @@
     "via": "web"
   },
   "endgame": {
-    "changed": "2026-08-27",
     "status": "submitted",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "enformion": {
     "changed": "2026-10-02",
@@ -2013,14 +2013,14 @@
     "via": "reply"
   },
   "enlyft": {
-    "changed": "2026-08-27",
     "status": "submitted",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "enrich_layer": {
-    "changed": "2026-08-27",
     "status": "submitted",
-    "via": "email"
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "enriched": {
     "changed": "2026-08-25",
@@ -2083,9 +2083,9 @@
     "via": "email"
   },
   "evertrue_donorsearch": {
-    "changed": "2026-08-27",
     "status": "submitted",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "everyday_health": {
     "changed": "2026-09-01",
@@ -2098,9 +2098,9 @@
     "via": "email"
   },
   "exa": {
-    "changed": "2026-08-27",
     "status": "submitted",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "exact_customer": {
     "changed": "2026-11-15",
@@ -2113,9 +2113,9 @@
     "via": "reply"
   },
   "exact_match_marketing": {
-    "changed": "2026-08-27",
     "status": "submitted",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "exlservice_com": {
     "changed": "2026-11-15",
@@ -2159,14 +2159,14 @@
     "via": "reply"
   },
   "famous_birthdays": {
-    "changed": "2026-08-27",
     "status": "submitted",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "faraday": {
-    "changed": "2026-08-27",
     "status": "submitted",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "fastbackgroundcheck": {
     "changed": "2026-08-18",
@@ -2839,9 +2839,9 @@
     "via": null
   },
   "idcrawl": {
-    "changed": "2026-08-18",
-    "status": "submitted",
-    "via": "email"
+    "status": "confirmed",
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "idengine": {
     "changed": "2026-08-25",
@@ -3284,9 +3284,9 @@
     "via": "email"
   },
   "l2_data": {
+    "status": "confirmed",
     "changed": "2026-11-16",
-    "status": "submitted",
-    "via": "email"
+    "via": "reply"
   },
   "l_s_mobile_apps": {
     "changed": "2026-09-06",

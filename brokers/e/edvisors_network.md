@@ -7,9 +7,10 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-27)
+- Current: `submitted` (updated 2026-11-16)
 - Reference: `gmail:1a0416739f7028ff`
-- Note: 2026-08-27: first contact, to the published customer-service address with a request to route it internally rather than discard it. Education lead generation, so the letter is built on the shape of that record: it is created from an ENQUIRY years ago and carries whatever address was current then - which is why all twelve addresses must be searched, not the current one. And lead generation SELLS ONWARD BY DESIGN, so the direct-recipients ask is the substantive one here rather than boilerplate: asked which recipients received a record, and whether the deletion reaches the transmitted copies or only their own. Conceded up front that he may well have made such an enquiry - not an accusation of improper collection, a request that it be deleted and the onward copies addressed rather than left implicit.
+- Note: 2026-11-16 CHASED in-thread: over 80 days with no reply to the August request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
+- Earlier: 2026-08-27: first contact, to the published customer-service address with a request to route it internally rather than discard it. Education lead generation, so the letter is built on the shape of that record: it is created from an ENQUIRY years ago and carries whatever address was current then - which is why all twelve addresses must be searched, not the current one. And lead generation SELLS ONWARD BY DESIGN, so the direct-recipients ask is the substantive one here rather than boilerplate: asked which recipients received a record, and whether the deletion reaches the transmitted copies or only their own. Conceded up front that he may well have made such an enquiry - not an accusation of improper collection, a request that it be deleted and the onward copies addressed rather than left implicit.
 
 ## Steps
 
