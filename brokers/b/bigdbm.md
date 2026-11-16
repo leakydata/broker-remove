@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-25)
-- Note: 2026-08-25: two registrations share this contact - BIGDBM and PublicNSA LLC dba BIGDBM - so the letter asks them to cover both or say they are separate datasets. Identity-data asks led with the edges rather than the rows. First letter to carry the BDEX evidence: 4 of 12 matched and all four were defunct-provider addresses, used to justify searching prior identifiers rather than asserting it.
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-16 CCPA-period chase (about 83 days, no reply or acknowledgement; no bounce found): one-line 'did the request arrive, and if this is the wrong mailbox, which is right?' sent in the original thread.
+- Earlier: 2026-08-25: two registrations share this contact - BIGDBM and PublicNSA LLC dba BIGDBM - so the letter asks them to cover both or say they are separate datasets. Identity-data asks led with the edges rather than the rows. First letter to carry the BDEX evidence: 4 of 12 matched and all four were defunct-provider addresses, used to justify searching prior identifiers rather than asserting it.
 
 ## Steps
 

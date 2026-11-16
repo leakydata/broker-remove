@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-25)
-- Note: 2026-08-25: real-estate lead product. Conceded the county deed up front, then asked for the layer built on top: the SKIP-TRACED phone/email append bolted onto the property record (not a public record, and the thing that produces the calls), which customers exported it, and distress/motivated-seller/pre-foreclosure scoring - a signal to contact someone precisely when they are least able to handle being contacted. Sent to ops@ with a forward request.
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-16 CCPA-period chase (about 83 days, no reply or acknowledgement; no bounce found): one-line 'did the request arrive, and if this is the wrong mailbox, which is right?' sent in the original thread.
+- Earlier: 2026-08-25: real-estate lead product. Conceded the county deed up front, then asked for the layer built on top: the SKIP-TRACED phone/email append bolted onto the property record (not a public record, and the thing that produces the calls), which customers exported it, and distress/motivated-seller/pre-foreclosure scoring - a signal to contact someone precisely when they are least able to handle being contacted. Sent to ops@ with a forward request.
 
 ## Steps
 

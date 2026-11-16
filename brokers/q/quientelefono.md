@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-19)
-- Note: Spanish-language reverse-phone directory WITH USER COMMENTS, and the published contact is a PROTONMAIL address - an anonymous mail provider standing in for a company contact, which is worth noting as a pattern in itself. Wrote the letter bilingually, English then Spanish, since the operator is more likely to read Spanish and it costs nothing. Asked for three distinct things because a removal covering only the first leaves the rest: the directory entry in both directions; USER COMMENTS naming the subject or any of their numbers, which are separately indexed and are usually the part that actually surfaces a person; and suppression so that a new page cannot be created for the same number tomorrow. Plus a noindex directive rather than content removal alone.
+- Current: `replied` (updated 2026-11-16)
+- Note: 2026-11-16: operator replied to the chase from the ProtonMail address with 'Link on page with info' (they want the URL of each page). quientelefono.com currently has no DNS records at all (no A, no NS via 1.1.1.1/8.8.8.8), so no page can be opened. Replied asking them to search by the telephone numbers and name, remove every matching page and comment in both directions, and say whether the data itself is deleted if the site is offline for good.
+- Earlier: Spanish-language reverse-phone directory WITH USER COMMENTS, and the published contact is a PROTONMAIL address - an anonymous mail provider standing in for a company contact, which is worth noting as a pattern in itself. Wrote the letter bilingually, English then Spanish, since the operator is more likely to read Spanish and it costs nothing. Asked for three distinct things because a removal covering only the first leaves the rest: the directory entry in both directions; USER COMMENTS naming the subject or any of their numbers, which are separately indexed and are usually the part that actually surfaces a person; and suppression so that a new page cannot be created for the same number tomorrow. Plus a noindex directive rather than content removal alone.
 
 ## Steps
 

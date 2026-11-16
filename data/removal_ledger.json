@@ -452,8 +452,8 @@
   },
   "applovin": {
     "status": "submitted",
-    "changed": "2026-08-24",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "appscience": {
     "status": "submitted",
@@ -667,8 +667,8 @@
   },
   "batchleads": {
     "status": "submitted",
-    "changed": "2026-08-25",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "bay_collective_ip": {
     "status": "submitted",
@@ -677,8 +677,8 @@
   },
   "bb_direct": {
     "status": "submitted",
-    "changed": "2026-08-25",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "bdex": {
     "status": "confirmed",
@@ -692,8 +692,8 @@
   },
   "becausal": {
     "status": "submitted",
-    "changed": "2026-08-25",
-    "via": "email"
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "beenverified": {
     "status": "submitted",
@@ -722,8 +722,8 @@
   },
   "benutech": {
     "status": "submitted",
-    "changed": "2026-08-25",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "besthistorysites_net": {
     "status": "unreachable",
@@ -737,8 +737,8 @@
   },
   "bigdbm": {
     "status": "submitted",
-    "changed": "2026-08-25",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "billtrust": {
     "status": "replied",
@@ -747,8 +747,8 @@
   },
   "biointelli": {
     "status": "submitted",
-    "changed": "2026-08-25",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "birdeye": {
     "status": "submitted",
@@ -757,8 +757,8 @@
   },
   "biscred": {
     "status": "submitted",
-    "changed": "2026-08-25",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "bizarchive": {
     "status": "submitted",
@@ -767,8 +767,8 @@
   },
   "black_pearl": {
     "status": "submitted",
-    "changed": "2026-08-25",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "blackbaud": {
     "status": "submitted",
@@ -1794,8 +1794,8 @@
   },
   "direct_marketing_solutions": {
     "status": "submitted",
-    "changed": "2026-08-24",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "disco_network": {
     "status": "submitted",
@@ -5066,9 +5066,9 @@
     "via": "reply"
   },
   "quientelefono": {
-    "status": "submitted",
-    "changed": "2026-08-19",
-    "via": "email"
+    "status": "replied",
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "quorum_data": {
     "status": "not_found",

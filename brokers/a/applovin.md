@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-24)
-- Note: 2026-08-24: multi-entity letter - ad platform, MAX, Adjust, AppDiscovery, Axon and any published apps, asking which entities hold a record and treating the request as covering all. Geographic query substituted for the MAID. Also asked for in-app spend history and any 'likelihood to spend' score, which is an inference with consequences and invisible to the subject.
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-16 CCPA-period chase (about 83 days, no reply or acknowledgement; no bounce found): one-line 'did the request arrive, and if this is the wrong mailbox, which is right?' sent in the original thread.
+- Earlier: 2026-08-24: multi-entity letter - ad platform, MAX, Adjust, AppDiscovery, Axon and any published apps, asking which entities hold a record and treating the request as covering all. Geographic query substituted for the MAID. Also asked for in-app spend history and any 'likelihood to spend' score, which is an inference with consequences and invisible to the subject.
 
 ## Steps
 

@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-25)
-- Note: 2026-08-25: emailed [named individual]@blackpearl.com - a named individual, which is what the registry filing publishes (SILENT_FAILURES 83). Opened by saying where the address came from and asking them to forward it internally and correct the filing if it is stale. Otherwise the two general-purpose questions: upstream suppliers, and inferred vs collected.
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-16 CCPA-period chase (about 83 days, no reply or acknowledgement; no bounce found): one-line 'did the request arrive, and if this is the wrong mailbox, which is right?' sent in the original thread.
+- Earlier: 2026-08-25: emailed [named individual]@blackpearl.com - a named individual, which is what the registry filing publishes (SILENT_FAILURES 83). Opened by saying where the address came from and asking them to forward it internally and correct the filing if it is stale. Otherwise the two general-purpose questions: upstream suppliers, and inferred vs collected.
 
 ## Steps
 

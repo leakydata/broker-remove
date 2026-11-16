@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-25)
-- Note: 2026-08-25: property/homeowner data to real-estate professionals. Conceded the county record up front, then went for the contact append - the county published a property and an owner name, not the owner's phone number - plus the person-to-property linkage, likelihood-to-sell and distress scoring, which customers exported it, and do-not-skip-trace held independently so re-running enrichment does not re-append. Sent to a named individual with a forward request.
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-16 CCPA-period chase (about 83 days, no reply or acknowledgement; no bounce found): one-line 'did the request arrive, and if this is the wrong mailbox, which is right?' sent in the original thread.
+- Earlier: 2026-08-25: property/homeowner data to real-estate professionals. Conceded the county record up front, then went for the contact append - the county published a property and an owner name, not the owner's phone number - plus the person-to-property linkage, likelihood-to-sell and distress scoring, which customers exported it, and do-not-skip-trace held independently so re-running enrichment does not re-append. Sent to a named individual with a forward request.
 
 ## Steps
 

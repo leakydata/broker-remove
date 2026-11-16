@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-24)
-- Note: Recovered from the committed playbook brokers/d/direct_marketing_solutions.md, because the ledger carries no notes and this row's status had no evidence behind it: First genuine send to this company. Sent to [named individual]@teamdms.com, the correctly-spelled address from the CA data broker registry.
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-16 CCPA-period chase (about 83 days, no reply or acknowledgement; no bounce found): one-line 'did the request arrive, and if this is the wrong mailbox, which is right?' sent in the original thread.
+- Earlier: Recovered from the committed playbook brokers/d/direct_marketing_solutions.md, because the ledger carries no notes and this row's status had no evidence behind it: First genuine send to this company. Sent to [named individual]@teamdms.com, the correctly-spelled address from the CA data broker registry.
 
 ## Steps
 
