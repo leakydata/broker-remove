@@ -6,9 +6,10 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-26)
+- Current: `manual_required` (updated 2026-11-16)
 - Reference: `gmail:1a03da2062837148`
-- Note: 2026-08-26: covered by name in a single letter to OptOut@privacycompliance.biz, the operator that runs the compliance portal for all fourteen brands in this family. This brand has NO non-California catch-all opt-out page, so a Pennsylvania resident has no self-service route to it at all - the letter asks the operator what that route is supposed to be, and asks them to honour the request as company policy if there is none.
+- Note: 2026-11-16: DatabaseUSA-family opt-out portal driven: privacycompliance.biz accepted PA at the email step, the Verify-My-Email link arrived and opened the Privacy Opt-Out Form (one person, up to 3 extra addresses, Opt-Out + Delete toggles). Filled completely with current and three prior addresses, both rights on. NOT submitted: Submit certifies residence and identity under penalty of perjury, which is left to the user (handoff 'databaseusa'). Also chased the 26 August family letter at OptOut@privacycompliance.biz asking whether one form covers every brand.
+- Earlier: 2026-08-26: covered by name in a single letter to OptOut@privacycompliance.biz, the operator that runs the compliance portal for all fourteen brands in this family. This brand has NO non-California catch-all opt-out page, so a Pennsylvania resident has no self-service route to it at all - the letter asks the operator what that route is supposed to be, and asks them to honour the request as company policy if there is none.
 
 ## Steps
 

@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-18)
-- Note: Cengage/Gale. Named three distinct estates: learning-platform/account records held as processor for an institution (asked them to name it and pass the request on), marketing and prospect data acquired from compilers or student-search programmes, and Gale's published/archival products. Flagged the .edu address as often the only key in the education sector. Also asked whether deletion covers derived and inferred data.
+- Current: `manual_required` (updated 2026-11-16)
+- Note: 2026-11-16: Cengage Privacy answered the chase: requests must come through the Privacy Rights form (cengage.my.site.com/s/rtbf) or phone 800-354-9706; email requests may need resubmission. Form is not state-gated (PA listed) and allows one right per submission, but has a reCAPTCHA under Submit, so handed to the user: submit twice (delete, then opt out of sale - Gale directories) or call.
+- Earlier: Cengage/Gale. Named three distinct estates: learning-platform/account records held as processor for an institution (asked them to name it and pass the request on), marketing and prospect data acquired from compilers or student-search programmes, and Gale's published/archival products. Flagged the .edu address as often the only key in the education sector. Also asked whether deletion covers derived and inferred data.
 
 ## Steps
 

@@ -8,8 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-18)
-- Note: privacy@infofree.com hard-bounced (550). Their site links its privacy route to privacycompliance.biz/other-dbusa/ - a DatabaseUSA portal - so Infofree and DatabaseUSA share an opt-out mechanism. Completed that portal end to end: email+name+state, emailed verification link, then a full form with SEPARATE TOGGLES for opt-out of sale, delete, and disclosure of categories. All three enabled. Stated timelines: opt-out 15 days, deletion 45 days.
+- Current: `manual_required` (updated 2026-11-16)
+- Note: 2026-11-16: DatabaseUSA-family opt-out portal driven: privacycompliance.biz accepted PA at the email step, the Verify-My-Email link arrived and opened the Privacy Opt-Out Form (one person, up to 3 extra addresses, Opt-Out + Delete toggles). Filled completely with current and three prior addresses, both rights on. NOT submitted: Submit certifies residence and identity under penalty of perjury, which is left to the user (handoff 'databaseusa'). Also chased the 26 August family letter at OptOut@privacycompliance.biz asking whether one form covers every brand.
+- Earlier: privacy@infofree.com hard-bounced (550). Their site links its privacy route to privacycompliance.biz/other-dbusa/ - a DatabaseUSA portal - so Infofree and DatabaseUSA share an opt-out mechanism. Completed that portal end to end: email+name+state, emailed verification link, then a full form with SEPARATE TOGGLES for opt-out of sale, delete, and disclosure of categories. All three enabled. Stated timelines: opt-out 15 days, deletion 45 days.
 
 ## Steps
 

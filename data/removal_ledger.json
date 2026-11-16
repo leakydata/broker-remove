@@ -541,9 +541,9 @@
     "via": "email"
   },
   "atozacademics": {
-    "status": "submitted",
-    "changed": "2026-08-26",
-    "via": "email"
+    "status": "manual_required",
+    "changed": "2026-11-16",
+    "via": "web"
   },
   "atozdatabases": {
     "status": "failed",
@@ -1021,9 +1021,9 @@
     "via": "reply"
   },
   "cb_insights": {
-    "status": "email_pending",
-    "changed": "2026-09-01",
-    "via": "email"
+    "status": "captcha_blocked",
+    "changed": "2026-11-16",
+    "via": "web"
   },
   "cdk": {
     "status": "submitted",
@@ -1543,14 +1543,14 @@
     "supplemented": true
   },
   "databaseusa": {
-    "status": "submitted",
-    "changed": "2026-08-18",
+    "status": "manual_required",
+    "changed": "2026-11-16",
     "via": "web"
   },
   "databaseusa_gov": {
-    "status": "submitted",
-    "changed": "2026-08-26",
-    "via": "email"
+    "status": "manual_required",
+    "changed": "2026-11-16",
+    "via": "web"
   },
   "datadesk": {
     "status": "submitted",
@@ -1983,9 +1983,9 @@
     "via": "email"
   },
   "emailusa": {
-    "status": "submitted",
-    "changed": "2026-08-26",
-    "via": "email"
+    "status": "manual_required",
+    "changed": "2026-11-16",
+    "via": "web"
   },
   "emerges_com": {
     "status": "replied",
@@ -2074,8 +2074,8 @@
   },
   "everconnect": {
     "status": "submitted",
-    "changed": "2026-08-26",
-    "via": "email"
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "everleads_listsonline_internet_directory_publishers_stanford": {
     "status": "submitted",
@@ -2295,8 +2295,8 @@
   },
   "five_star_rated": {
     "status": "submitted",
-    "changed": "2026-08-26",
-    "via": "email"
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "flashintel": {
     "status": "submitted",
@@ -2439,9 +2439,9 @@
     "via": "email"
   },
   "freesalesleads": {
-    "status": "submitted",
-    "changed": "2026-08-26",
-    "via": "email"
+    "status": "manual_required",
+    "changed": "2026-11-16",
+    "via": "web"
   },
   "freewheel": {
     "status": "submitted",
@@ -2484,9 +2484,9 @@
     "via": null
   },
   "gale": {
-    "status": "submitted",
-    "changed": "2026-08-18",
-    "via": "email"
+    "status": "manual_required",
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "genealogic_review": {
     "status": "submitted",
@@ -2934,8 +2934,8 @@
     "via": "email"
   },
   "infofree": {
-    "status": "submitted",
-    "changed": "2026-08-18",
+    "status": "manual_required",
+    "changed": "2026-11-16",
     "via": "web"
   },
   "infomatics": {
@@ -3450,9 +3450,9 @@
     "via": "email"
   },
   "listproguru": {
-    "status": "submitted",
-    "changed": "2026-08-26",
-    "via": "email"
+    "status": "manual_required",
+    "changed": "2026-11-16",
+    "via": "web"
   },
   "lists_direct_mail_solutions": {
     "status": "submitted",
@@ -4116,9 +4116,9 @@
     "via": null
   },
   "newbusinesslistsusa": {
-    "status": "submitted",
-    "changed": "2026-08-26",
-    "via": "email"
+    "status": "manual_required",
+    "changed": "2026-11-16",
+    "via": "web"
   },
   "newhampshirearrests_org": {
     "status": "submitted",
@@ -4131,9 +4131,9 @@
     "via": null
   },
   "newhomeownerlistsusa": {
-    "status": "submitted",
-    "changed": "2026-08-26",
-    "via": "email"
+    "status": "manual_required",
+    "changed": "2026-11-16",
+    "via": "web"
   },
   "newjerseyarrests_org": {
     "status": "submitted",
@@ -5206,9 +5206,9 @@
     "via": "reply"
   },
   "referenceguru": {
-    "status": "submitted",
-    "changed": "2026-08-26",
-    "via": "email"
+    "status": "manual_required",
+    "changed": "2026-11-16",
+    "via": "web"
   },
   "refinition": {
     "status": "submitted",
@@ -5476,9 +5476,9 @@
     "via": "reply"
   },
   "salesleads101": {
-    "status": "submitted",
-    "changed": "2026-08-26",
-    "via": "email"
+    "status": "manual_required",
+    "changed": "2026-11-16",
+    "via": "web"
   },
   "salutary_data": {
     "status": "submitted",

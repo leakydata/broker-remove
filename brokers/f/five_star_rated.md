@@ -7,9 +7,10 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-26)
+- Current: `submitted` (updated 2026-11-16)
 - Reference: `gmail:1a03dfbd9f3b3c15`
-- Note: 2026-08-26: named in a correction on the 33 Mile Radius thread (gmail:1a03dfbd9f3b3c15). This morning's grouped letter named only Keyword Connects and Remodeling.com because the generator built its sibling list from SUPPLEMENT CANDIDATES rather than from every broker on the address - so the two brands that had never been written to were the two omitted, and per _SILENT_FAILURES 114 queue_batch will never send to them either, since the address is already spoken for. Generator fixed; correction sent naming both.
+- Note: 2026-11-16 CCPA-period chase (about 82 days, no reply or acknowledgement; no bounce found) sent in the 26 August thread to operations@ignitevisibility.com, naming EverConnect and Five Star Rated.
+- Earlier: 2026-08-26: named in a correction on the 33 Mile Radius thread (gmail:1a03dfbd9f3b3c15). This morning's grouped letter named only Keyword Connects and Remodeling.com because the generator built its sibling list from SUPPLEMENT CANDIDATES rather than from every broker on the address - so the two brands that had never been written to were the two omitted, and per _SILENT_FAILURES 114 queue_batch will never send to them either, since the address is already spoken for. Generator fixed; correction sent naming both.
 
 ## Steps
 
