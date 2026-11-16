@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-28)
-- Note: Recovered from the committed playbook brokers/r/realeflow.md, because the ledger carries no notes and this row's status had no evidence behind it: 2026-08-26: emailed privacy@realeflow.com. Same predictive-seller/real-estate variant as real_intent.
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-16 CHASED in-thread: over 80 days with no reply to the August request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
+- Earlier: Recovered from the committed playbook brokers/r/realeflow.md, because the ledger carries no notes and this row's status had no evidence behind it: 2026-08-26: emailed privacy@realeflow.com. Same predictive-seller/real-estate variant as real_intent.
 
 ## Steps
 

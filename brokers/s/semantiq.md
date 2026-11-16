@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-28)
-- Note: Recovered from the committed playbook brokers/s/semantiq.md, because the ledger carries no notes and this row's status had no evidence behind it: 2026-08-26: emailed [named individual]@semantiqhealth.com. Domain (semantiqhealth.com) differs from the registered name and suggests a healthcare-adjacent product the registry entry doesn't describe. Asked directly whether any record carries a health/medical/treatment-related attribute, since that changes the statutory footing if the answer is yes.
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-16 CHASED in-thread: over 80 days with no reply to the August request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
+- Earlier: Recovered from the committed playbook brokers/s/semantiq.md, because the ledger carries no notes and this row's status had no evidence behind it: 2026-08-26: emailed [named individual]@semantiqhealth.com. Domain (semantiqhealth.com) differs from the registered name and suggests a healthcare-adjacent product the registry entry doesn't describe. Asked directly whether any record carries a health/medical/treatment-related attribute, since that changes the statutory footing if the answer is yes.
 
 ## Steps
 

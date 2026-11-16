@@ -8,7 +8,8 @@
 ## Status
 
 - Current: `submitted` (updated 2026-11-16)
-- Note: 2026-11-16 CCPA-period chase (about 83 days, no reply or acknowledgement; no bounce found): one-line 'did the request arrive, and if this is the wrong mailbox, which is right?' sent in the original thread.
+- Note: 2026-11-16 AppLovin answered the chase (could not find the earlier email; its data is mostly keyed to device ad IDs). Device route (Privacy Management app/ad ID) not used per standing rule. Used its email/phone-keyed Privacy Rights Request Portal applovin.com/en/privacy-data-request: Delete my data, email = contact email, US/PA, emailed 6-digit code entered -> 'Request successfully received', ticket DSR-261116-D8CNT8, ~1 month; outcome will be emailed. Phone-number route needs an SMS code, not done.
+- Earlier: 2026-11-16 CCPA-period chase (about 83 days, no reply or acknowledgement; no bounce found): one-line 'did the request arrive, and if this is the wrong mailbox, which is right?' sent in the original thread.
 - Earlier: 2026-08-24: multi-entity letter - ad platform, MAX, Adjust, AppDiscovery, Axon and any published apps, asking which entities hold a record and treating the request as covering all. Geographic query substituted for the MAID. Also asked for in-app spend history and any 'likelihood to spend' score, which is an inference with consequences and invisible to the subject.
 
 ## Steps

@@ -8,8 +8,9 @@
 
 ## Status
 
-- Current: `manual_required` (updated 2026-11-16)
-- Note: 2026-11-16: DatabaseUSA-family opt-out portal driven: privacycompliance.biz accepted PA at the email step, the Verify-My-Email link arrived and opened the Privacy Opt-Out Form (one person, up to 3 extra addresses, Opt-Out + Delete toggles). Filled completely with current and three prior addresses, both rights on. NOT submitted: Submit certifies residence and identity under penalty of perjury, which is left to the user (handoff 'databaseusa'). Also chased the 26 August family letter at OptOut@privacycompliance.biz asking whether one form covers every brand.
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-16 Privacy Opt-Out Form SUBMITTED (the user clicked Submit on the pre-filled form, which carries the penalty-of-perjury certification). privacycompliance.biz thank-you page: opt-out of sale within 15 days, deletion within 45 days (by ~2026-12-31); it lists categories held (contact, individual, household, income, property, mortgage, donor, credit-card presence, interests, buying) and client/source categories. Covers current + 3 prior addresses.
+- Earlier: 2026-11-16: DatabaseUSA-family opt-out portal driven: privacycompliance.biz accepted PA at the email step, the Verify-My-Email link arrived and opened the Privacy Opt-Out Form (one person, up to 3 extra addresses, Opt-Out + Delete toggles). Filled completely with current and three prior addresses, both rights on. NOT submitted: Submit certifies residence and identity under penalty of perjury, which is left to the user (handoff 'databaseusa'). Also chased the 26 August family letter at OptOut@privacycompliance.biz asking whether one form covers every brand.
 - Earlier: privacy@infofree.com hard-bounced (550). Their site links its privacy route to privacycompliance.biz/other-dbusa/ - a DatabaseUSA portal - so Infofree and DatabaseUSA share an opt-out mechanism. Completed that portal end to end: email+name+state, emailed verification link, then a full form with SEPARATE TOGGLES for opt-out of sale, delete, and disclosure of categories. All three enabled. Stated timelines: opt-out 15 days, deletion 45 days.
 
 ## Steps

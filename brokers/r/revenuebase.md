@@ -1,14 +1,15 @@
 # RevenueBase
 
 - **Email:** privacy@revenuebase.ai (state-registry / site-published address — unverified until a reply arrives)
-- **Method:** email — Statutory request by email. No web form needed.
+- **Method:** web — Google Form forms.gle/5Cab6bJcRtqVzAJS8 (privacy@ auto-reply points there)
 - **Domain:** revenuebase.ai
 - **Priority: 2.**
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-28)
-- Note: Recovered from the committed playbook brokers/r/revenuebase.md, because the ledger carries no notes and this row's status had no evidence behind it: 2026-08-26: emailed privacy@revenuebase.ai. Same B2B variant as rampedup.
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-16 found unrecorded: privacy@revenuebase.ai auto-replied on 2026-08-26 that removals go through a Google Form (forms.gle/5Cab6bJcRtqVzAJS8). Completed it now: data subject, US/PA, all emails + phones, LinkedIn URL, reason 'objecting to processing', delete + stop sale + suppress, confirm to contact email -> 'Your response has been recorded'.
+- Earlier: Recovered from the committed playbook brokers/r/revenuebase.md, because the ledger carries no notes and this row's status had no evidence behind it: 2026-08-26: emailed privacy@revenuebase.ai. Same B2B variant as rampedup.
 
 ## Steps
 

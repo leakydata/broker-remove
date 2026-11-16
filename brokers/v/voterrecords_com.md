@@ -9,8 +9,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-11-15)
-- Note: 2026-11-15 CHASE: past the 45-day period with no reply of any kind. Asked in the original thread whether the request arrived and, if this is the wrong mailbox, where to send it.
+- Current: `not_found` (updated 2026-11-16)
+- Note: 2026-11-16 VoterRecords.com support answered (admin@ is not a designated address): the site displays no Pennsylvania voter records at all, so nothing for Nathan Jones of Carlisle, PA; site-visit data is retained under 1798.105(d) exceptions; browser-level opt-out at voterrecords.com/manage-privacy-choices. They consider it closed unless given a URL.
+- Earlier: 2026-11-15 CHASE: past the 45-day period with no reply of any kind. Asked in the original thread whether the request arrived and, if this is the wrong mailbox, where to send it.
 - Earlier: Letter sent 2026-08-20, tailored to category.
 
 ## Gotchas

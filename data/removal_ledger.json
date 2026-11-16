@@ -451,9 +451,9 @@
     "via": "reply"
   },
   "applovin": {
-    "changed": "2026-11-16",
     "status": "submitted",
-    "via": "reply"
+    "changed": "2026-11-16",
+    "via": "web"
   },
   "appscience": {
     "changed": "2026-08-30",
@@ -541,8 +541,8 @@
     "via": "email"
   },
   "atozacademics": {
+    "status": "submitted",
     "changed": "2026-11-16",
-    "status": "manual_required",
     "via": "web"
   },
   "atozdatabases": {
@@ -1543,13 +1543,13 @@
     "via": "web"
   },
   "databaseusa": {
+    "status": "submitted",
     "changed": "2026-11-16",
-    "status": "manual_required",
     "via": "web"
   },
   "databaseusa_gov": {
+    "status": "submitted",
     "changed": "2026-11-16",
-    "status": "manual_required",
     "via": "web"
   },
   "datadesk": {
@@ -1983,8 +1983,8 @@
     "via": "email"
   },
   "emailusa": {
+    "status": "submitted",
     "changed": "2026-11-16",
-    "status": "manual_required",
     "via": "web"
   },
   "emerges_com": {
@@ -2439,8 +2439,8 @@
     "via": "email"
   },
   "freesalesleads": {
+    "status": "submitted",
     "changed": "2026-11-16",
-    "status": "manual_required",
     "via": "web"
   },
   "freewheel": {
@@ -2654,9 +2654,9 @@
     "via": "email"
   },
   "harmon_research": {
-    "status": "submitted",
+    "status": "not_found",
     "changed": "2026-11-16",
-    "via": "email"
+    "via": "reply"
   },
   "hawaii_arrests": {
     "changed": "2026-08-16",
@@ -2934,8 +2934,8 @@
     "via": "email"
   },
   "infofree": {
+    "status": "submitted",
     "changed": "2026-11-16",
-    "status": "manual_required",
     "via": "web"
   },
   "infomatics": {
@@ -3450,8 +3450,8 @@
     "via": "reply"
   },
   "listproguru": {
+    "status": "submitted",
     "changed": "2026-11-16",
-    "status": "manual_required",
     "via": "web"
   },
   "lists_direct_mail_solutions": {
@@ -4116,8 +4116,8 @@
     "via": null
   },
   "newbusinesslistsusa": {
+    "status": "submitted",
     "changed": "2026-11-16",
-    "status": "manual_required",
     "via": "web"
   },
   "newhampshirearrests_org": {
@@ -4131,8 +4131,8 @@
     "via": null
   },
   "newhomeownerlistsusa": {
+    "status": "submitted",
     "changed": "2026-11-16",
-    "status": "manual_required",
     "via": "web"
   },
   "newjerseyarrests_org": {
@@ -4851,7 +4851,7 @@
     "via": null
   },
   "preferred_communications": {
-    "status": "submitted",
+    "status": "not_found",
     "changed": "2026-11-16",
     "via": "reply"
   },
@@ -5131,9 +5131,9 @@
     "via": "web"
   },
   "realeflow": {
-    "changed": "2026-08-28",
     "status": "submitted",
-    "via": "email"
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "reality_media": {
     "changed": "2026-09-02",
@@ -5206,8 +5206,8 @@
     "via": "reply"
   },
   "referenceguru": {
+    "status": "submitted",
     "changed": "2026-11-16",
-    "status": "manual_required",
     "via": "web"
   },
   "refinition": {
@@ -5291,9 +5291,9 @@
     "via": "email"
   },
   "reveal_mobile": {
-    "changed": "2026-08-28",
     "status": "submitted",
-    "via": "email"
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "reveal_phone_owner": {
     "changed": "2026-08-19",
@@ -5311,9 +5311,9 @@
     "via": "email"
   },
   "revenuebase": {
-    "changed": "2026-08-28",
     "status": "submitted",
-    "via": "email"
+    "changed": "2026-11-16",
+    "via": "web"
   },
   "reverse_caller_lookup": {
     "changed": "2026-09-13",
@@ -5371,8 +5371,8 @@
     "via": null
   },
   "ripple_effect_strategies": {
-    "changed": "2026-08-28",
     "status": "submitted",
+    "changed": "2026-11-16",
     "via": "email"
   },
   "roc_advertising": {
@@ -5476,8 +5476,8 @@
     "via": "reply"
   },
   "salesleads101": {
+    "status": "submitted",
     "changed": "2026-11-16",
-    "status": "manual_required",
     "via": "web"
   },
   "salutary_data": {
@@ -5506,9 +5506,9 @@
     "via": "email"
   },
   "scileads": {
-    "changed": "2026-08-28",
     "status": "submitted",
-    "via": "email"
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "scraping_robot": {
     "changed": "2026-08-26",
@@ -5596,9 +5596,9 @@
     "via": "email"
   },
   "semantiq": {
-    "changed": "2026-08-28",
     "status": "submitted",
-    "via": "email"
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "semasio": {
     "changed": "2026-09-05",
@@ -6688,9 +6688,9 @@
     "via": "email"
   },
   "voterrecords_com": {
-    "changed": "2026-11-15",
-    "status": "submitted",
-    "via": "email"
+    "status": "not_found",
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "vrtcal_markets": {
     "changed": "2026-08-31",
