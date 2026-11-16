@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-25)
-- Note: 2026-08-25: emailed info@dealershiptoolkit.com. Registry name (Coast Technology) does not match the contact domain (Dealership Toolkit) - standard name/domain-mismatch family framing, asked which entities were actioned. Automotive dealer marketing: VIN-linked ownership and service records, warranty and equity-mining records, in-market-shopper and trade-in propensity scores, lease/loan-maturity estimates. Added the ask that matters most against a processor: name WHICH DEALERSHIPS are the source, because naming the client is the part the consumer cannot do for themselves, and confirm suppression applies regardless.
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-16 CCPA-period chase (about 83 days, no reply or acknowledgement; no bounce found): one-line 'did the request arrive, and if this is the wrong mailbox, which is right?' sent in the original thread.
+- Earlier: 2026-08-25: emailed info@dealershiptoolkit.com. Registry name (Coast Technology) does not match the contact domain (Dealership Toolkit) - standard name/domain-mismatch family framing, asked which entities were actioned. Automotive dealer marketing: VIN-linked ownership and service records, warranty and equity-mining records, in-market-shopper and trade-in propensity scores, lease/loan-maturity estimates. Added the ask that matters most against a processor: name WHICH DEALERSHIPS are the source, because naming the client is the part the consumer cannot do for themselves, and confirm suppression applies regardless.
 
 ## Steps
 

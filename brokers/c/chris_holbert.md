@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-25)
-- Note: 2026-08-25: emailed privacy@getelevar.com. The registry row is a PERSON'S NAME as the broker name, which is itself odd; the contact domain is getelevar.com. Established from Audiense's published privacy notice that Elevar LLC is a subsidiary of Audiense LLC alongside Audiense LTD, so the letter names all three. Audience-intelligence tailoring: personality/values/psychographic classifications and segment membership are inferences they created, not public posts I published.
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-16 CCPA-period chase (about 83 days, no reply or acknowledgement; no bounce found): one-line 'did the request arrive, and if this is the wrong mailbox, which is right?' sent in the original thread.
+- Earlier: 2026-08-25: emailed privacy@getelevar.com. The registry row is a PERSON'S NAME as the broker name, which is itself odd; the contact domain is getelevar.com. Established from Audiense's published privacy notice that Elevar LLC is a subsidiary of Audiense LLC alongside Audiense LTD, so the letter names all three. Audience-intelligence tailoring: personality/values/psychographic classifications and segment membership are inferences they created, not public posts I published.
 
 ## Steps
 

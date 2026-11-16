@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-25)
-- Note: 2026-08-25: emailed legalnotices@cardlytics.com. Conceded the service-provider point up front (purchase records originate with a bank) and confined the ask to what Bridg itself creates: the resolved consumer profile from identity resolution over card data, its segments, and the hashes. Asked whether any retained hash is suppression-only or match inventory. Explicitly ruled out card-number / last-4 verification in advance - see the ARC handoff for why that ask keeps recurring in payment-adjacent brokers.
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-16 CCPA-period chase (about 83 days, no reply or acknowledgement; no bounce found): one-line 'did the request arrive, and if this is the wrong mailbox, which is right?' sent in the original thread.
+- Earlier: 2026-08-25: emailed legalnotices@cardlytics.com. Conceded the service-provider point up front (purchase records originate with a bank) and confined the ask to what Bridg itself creates: the resolved consumer profile from identity resolution over card data, its segments, and the hashes. Asked whether any retained hash is suppression-only or match inventory. Explicitly ruled out card-number / last-4 verification in advance - see the ARC handoff for why that ask keeps recurring in payment-adjacent brokers.
 
 ## Steps
 

@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-25)
-- Note: 2026-08-25: emailed legal-captify@verve.com (Verve owns Captify). Search-intent broker. Strongest tailoring so far on sensitivity: search queries are CONTENT, not metadata - they disclose health concerns, financial difficulty, legal trouble, relationships and beliefs that the person never intended to publish. Asked for stored query text, query-derived keywords and intent segments by name, and specifically for any segment touching health or financial condition. Plus the standard graph/hash/edges asks.
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-16 CCPA-period chase (about 83 days, no reply or acknowledgement; no bounce found): one-line 'did the request arrive, and if this is the wrong mailbox, which is right?' sent in the original thread.
+- Earlier: 2026-08-25: emailed legal-captify@verve.com (Verve owns Captify). Search-intent broker. Strongest tailoring so far on sensitivity: search queries are CONTENT, not metadata - they disclose health concerns, financial difficulty, legal trouble, relationships and beliefs that the person never intended to publish. Asked for stored query text, query-derived keywords and intent segments by name, and specifically for any segment touching health or financial condition. Plus the standard graph/hash/edges asks.
 
 ## Steps
 

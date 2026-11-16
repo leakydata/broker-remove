@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-25)
-- Note: 2026-08-25: emailed [named individual]@ludex.ai - person-shaped contact, and the registry name (Collectors DataStore) does not match the domain (Ludex). NEW CATEGORY: collector / hobby data, which is exactly the kind of broker nobody thinks to check. Asked for collection contents and valuations, purchase and sale history, marketplace activity, grading/submission records and consignment history - not merely whether a contact record exists. Argued that an inventory or valuation held against a named person is a statement about their assets, i.e. financial information.
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-16 CCPA-period chase (about 83 days, no reply or acknowledgement; no bounce found): one-line 'did the request arrive, and if this is the wrong mailbox, which is right?' sent in the original thread.
+- Earlier: 2026-08-25: emailed [named individual]@ludex.ai - person-shaped contact, and the registry name (Collectors DataStore) does not match the domain (Ludex). NEW CATEGORY: collector / hobby data, which is exactly the kind of broker nobody thinks to check. Asked for collection contents and valuations, purchase and sale history, marketplace activity, grading/submission records and consignment history - not merely whether a contact record exists. Argued that an inventory or valuation held against a named person is a statement about their assets, i.e. financial information.
 
 ## Steps
 

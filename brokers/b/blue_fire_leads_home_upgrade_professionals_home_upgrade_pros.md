@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-25)
-- Note: 2026-08-25: emailed [named individual]@bluefireleads.com (registry contact is a dev address - see SILENT_FAILURES 83). Home-improvement lead gen. Asked for the lead provenance: source URL or partner, capture timestamp, recorded consent language, and which buyers it went to. Point being that a bad lead deleted without knowing its origin is resold to them again next month. Added an explicit internal-DNC ask as item 5 since deletion alone does not suppress.
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-16 CCPA-period chase (about 83 days, no reply or acknowledgement; no bounce found): one-line 'did the request arrive, and if this is the wrong mailbox, which is right?' sent in the original thread.
+- Earlier: 2026-08-25: emailed [named individual]@bluefireleads.com (registry contact is a dev address - see SILENT_FAILURES 83). Home-improvement lead gen. Asked for the lead provenance: source URL or partner, capture timestamp, recorded consent language, and which buyers it went to. Point being that a bad lead deleted without knowing its origin is resold to them again next month. Added an explicit internal-DNC ask as item 5 since deletion alone does not suppress.
 
 ## Steps
 

@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-25)
-- Note: 2026-08-25: emailed [named individual]@cashmereai.com - person-shaped registry contact, forward-this-internally opener. Category unclear so used the two general-purpose asks, with the wealth-estimate line borrowed from the Blackbaud letter: an estimate of what someone can afford is a financial assessment made about them without their knowledge, and worth being told about even if they conclude they can retain it.
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-16 CCPA-period chase (about 83 days, no reply or acknowledgement; no bounce found): one-line 'did the request arrive, and if this is the wrong mailbox, which is right?' sent in the original thread.
+- Earlier: 2026-08-25: emailed [named individual]@cashmereai.com - person-shaped registry contact, forward-this-internally opener. Category unclear so used the two general-purpose asks, with the wealth-estimate line borrowed from the Blackbaud letter: an estimate of what someone can afford is a financial assessment made about them without their knowledge, and worth being told about even if they conclude they can retain it.
 
 ## Steps
 

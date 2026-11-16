@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-25)
-- Note: 2026-08-25: emailed admin@brightcheck.com. Generic admin address from the registry filing, so opened with a forward-this-internally courtesy. Name suggests background screening, so pre-conceded FCRA in the alternative: file disclosure under 609, deletion of anything held OUTSIDE the regulated file, and non-FCRA suppression. The point pressed is that the exemption covers the regulated file, not everything the company holds.
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-16 CCPA-period chase (about 83 days, no reply or acknowledgement; no bounce found): one-line 'did the request arrive, and if this is the wrong mailbox, which is right?' sent in the original thread.
+- Earlier: 2026-08-25: emailed admin@brightcheck.com. Generic admin address from the registry filing, so opened with a forward-this-internally courtesy. Name suggests background screening, so pre-conceded FCRA in the alternative: file disclosure under 609, deletion of anything held OUTSIDE the regulated file, and non-FCRA suppression. The point pressed is that the exemption covers the regulated file, not everything the company holds.
 
 ## Steps
 

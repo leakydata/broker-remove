@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-25)
-- Note: 2026-08-25: emailed privacy@clickagy.com. Acquired company, so the letter asks which entity is now the controller and asks them to forward rather than discard - citing this week's two dead registered mailboxes as the reason for asking rather than assuming. Standard identity-graph letter (hashes, cookie/MAID/CTV IDs, household-IP linkage, intent segments, edges) with the NEW load-bearing clause from the LoopMe exchange: 'you can determine this without further help from me - hash each of the twelve addresses and check. You have the hashing function, I have supplied the inputs.' That removes the only practical excuse for not answering. See _DEFLECTIONS.md section 54.
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-16 CCPA-period chase (about 83 days, no reply or acknowledgement; no bounce found): one-line 'did the request arrive, and if this is the wrong mailbox, which is right?' sent in the original thread.
+- Earlier: 2026-08-25: emailed privacy@clickagy.com. Acquired company, so the letter asks which entity is now the controller and asks them to forward rather than discard - citing this week's two dead registered mailboxes as the reason for asking rather than assuming. Standard identity-graph letter (hashes, cookie/MAID/CTV IDs, household-IP linkage, intent segments, edges) with the NEW load-bearing clause from the LoopMe exchange: 'you can determine this without further help from me - hash each of the twelve addresses and check. You have the hashing function, I have supplied the inputs.' That removes the only practical excuse for not answering. See _DEFLECTIONS.md section 54.
 
 ## Steps
 
