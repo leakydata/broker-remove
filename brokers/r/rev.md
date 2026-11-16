@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-19)
-- Note: B2B account and contact intelligence. Business-contact carve-out pre-empted with the name-the-basis demand. The distinctive ask for this category is the last one and it is the one that matters most: DO CUSTOMERS WHO HAVE ALREADY EXPORTED OR SYNCED THE RECORD INTO THEIR OWN CRM RETAIN IT? Data pushed into a customer's CRM is beyond the vendor's reach the moment it lands, so a deletion at source is close to meaningless if the sync has already happened - asked them to confirm downstream deletion is contractually required or say plainly that those copies are permanent. Also asked them to search hashed as well as plaintext, since enrichment matches are made against the hash and a plaintext-only search can come back clean and be perfectly truthful.
+- Current: `submitted` (updated 2026-11-15)
+- Note: Found 2026-11-15: the 2026-08-19 auto-reply said deletion requests must be verified by replying CONFIRM within 45 days or be denied, and that the offline sale/sharing opt-out was already recorded. The CONFIRM was never sent and the window closed about 2026-10-03. CONFIRM was sent to privacy@getrev.ai on 11-15, asking them to process the deletion or treat the message as a fresh request. GOTCHA: Rev's auto-reply asks for a reply-to-verify step.
+- Earlier: B2B account and contact intelligence. Business-contact carve-out pre-empted with the name-the-basis demand. The distinctive ask for this category is the last one and it is the one that matters most: DO CUSTOMERS WHO HAVE ALREADY EXPORTED OR SYNCED THE RECORD INTO THEIR OWN CRM RETAIN IT? Data pushed into a customer's CRM is beyond the vendor's reach the moment it lands, so a deletion at source is close to meaningless if the sync has already happened - asked them to confirm downstream deletion is contractually required or say plainly that those copies are permanent. Also asked them to search hashed as well as plaintext, since enrichment matches are made against the hash and a plaintext-only search can come back clean and be perfectly truthful.
 
 ## Steps
 

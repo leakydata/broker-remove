@@ -4681,14 +4681,14 @@
     "via": "reply"
   },
   "peoplewhiz_com": {
-    "status": "submitted",
-    "changed": "2026-08-19",
-    "via": "email"
+    "status": "acknowledged",
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "peoplewhizr_com": {
-    "status": "submitted",
-    "changed": "2026-08-19",
-    "via": "email"
+    "status": "acknowledged",
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "peoplewin": {
     "status": "submitted",
@@ -5282,8 +5282,8 @@
   },
   "rev": {
     "status": "submitted",
-    "changed": "2026-08-19",
-    "via": "email"
+    "changed": "2026-11-15",
+    "via": "reply"
   },
   "revcontent": {
     "status": "not_found",
@@ -5611,9 +5611,9 @@
     "via": null
   },
   "sentilink": {
-    "status": "submitted",
-    "changed": "2026-08-20",
-    "via": null
+    "status": "acknowledged",
+    "changed": "2026-11-15",
+    "via": "reply"
   },
   "sentinex": {
     "status": "submitted",

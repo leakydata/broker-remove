@@ -8,8 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-19)
-- Note: Consolidated letter covering BOTH peoplewhiz.com and peoplewhizr.com. family_scan does not pair them because their registry contacts are different addresses on different domains, but DNS does: peoplewhizr.com publishes no MX record at all while peoplewhiz.com carries Rackspace mail, which is the ordinary shape when one operator handles a second brand's correspondence. Rather than assert the relationship, the letter states the inference and its evidence and invites them to correct it - 'if that reading is wrong and they are unrelated, please say so plainly, I will take it at face value'. That costs nothing if wrong and saves a second exchange if right. Standard people-search asks otherwise.
+- Current: `acknowledged` (updated 2026-11-16)
+- Note: 2026-11-15 the CCPA-period chase in the August thread drew PeopleWhiz's first response on 2026-11-16: a Zendesk auto-acknowledgement, request #475392. The chase named peoplewhizr.com explicitly. Nothing substantive yet.
+- Earlier: Consolidated letter covering BOTH peoplewhiz.com and peoplewhizr.com. family_scan does not pair them because their registry contacts are different addresses on different domains, but DNS does: peoplewhizr.com publishes no MX record at all while peoplewhiz.com carries Rackspace mail, which is the ordinary shape when one operator handles a second brand's correspondence. Rather than assert the relationship, the letter states the inference and its evidence and invites them to correct it - 'if that reading is wrong and they are unrelated, please say so plainly, I will take it at face value'. That costs nothing if wrong and saves a second exchange if right. Standard people-search asks otherwise.
 
 ## Steps
 

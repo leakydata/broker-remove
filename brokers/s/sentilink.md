@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-20)
-- Note: Identity-verification / synthetic-identity fraud detection for lenders. Deliberately careful letter: explicitly does NOT ask them to weaken fraud controls or delete anything they must retain, and invites them to name a retention obligation. Leads with DISCLOSURE rather than deletion -- if a fraud or synthetic-identity score or flag exists about me it can affect credit and account decisions invisibly, so asked for the attribute and its reason codes, because deleting it unseen removes the only chance to check it is correct. Asked plainly which products are FCRA-regulated, offering that 'this is FCRA-regulated, here is the file-disclosure and dispute process' is a good answer I will follow. Also asked whether any identifier of mine is linked to an identity they consider synthetic -- a mistaken linkage is invisible to the person it harms.
+- Current: `acknowledged` (updated 2026-11-15)
+- Note: Found 2026-11-15: a reply from 2026-08-27 had never been recorded. It was boilerplate: they will 'implement this request in the timeframe required by applicable law' to the extent they hold data, and they may keep a record of the request. They answered none of the questions on score disclosure, the FCRA framework, sources or recipients. On 11-15 I asked for a completion or nothing-found statement, and for either the score's content or the FCRA file-disclosure route.
+- Earlier: Identity-verification / synthetic-identity fraud detection for lenders. Deliberately careful letter: explicitly does NOT ask them to weaken fraud controls or delete anything they must retain, and invites them to name a retention obligation. Leads with DISCLOSURE rather than deletion -- if a fraud or synthetic-identity score or flag exists about me it can affect credit and account decisions invisibly, so asked for the attribute and its reason codes, because deleting it unseen removes the only chance to check it is correct. Asked plainly which products are FCRA-regulated, offering that 'this is FCRA-regulated, here is the file-disclosure and dispute process' is a good answer I will follow. Also asked whether any identifier of mine is linked to an identity they consider synthetic -- a mistaken linkage is invisible to the person it harms.
 
 ## Steps
 

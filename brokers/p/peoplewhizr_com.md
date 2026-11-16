@@ -8,8 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-19)
-- Note: Covered by the letter to support@peoplewhiz.com rather than contacted separately: peoplewhizr.com publishes NO MX record, so support@peoplewhizr.com could never have received anything, and the near-identical brand name plus the missing mail routing points at one operator. Recorded submitted rather than left pending because the letter names this domain explicitly and asks them to confirm or deny the relationship. If they deny it, this reverts to pending and needs its own route - which will have to be a web form, since the domain cannot take mail.
+- Current: `acknowledged` (updated 2026-11-16)
+- Note: 2026-11-15 the CCPA-period chase in the August thread drew PeopleWhiz's first response on 2026-11-16: a Zendesk auto-acknowledgement, request #475392. The chase named peoplewhizr.com explicitly. Nothing substantive yet.
+- Earlier: Covered by the letter to support@peoplewhiz.com rather than contacted separately: peoplewhizr.com publishes NO MX record, so support@peoplewhizr.com could never have received anything, and the near-identical brand name plus the missing mail routing points at one operator. Recorded submitted rather than left pending because the letter names this domain explicitly and asks them to confirm or deny the relationship. If they deny it, this reverts to pending and needs its own route - which will have to be a web form, since the domain cannot take mail.
 
 ## Steps
 
