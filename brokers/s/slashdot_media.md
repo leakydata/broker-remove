@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-30)
-- Note: 2026-08-29 COVERED BY CANONICAL (SILENT_FAILURES 177). Same address [named individual]@slashdotmedia.com as the seven-brand row, which lists Slashdot Media among its own declared brands, so the letter sent there reaches this mailbox and this entity. Not a separate send. NOT marked confirmed -- no confirmation was received for this row.
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-16 CHASED in-thread: over 80 days with no reply to the August request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
+- Earlier: 2026-08-29 COVERED BY CANONICAL (SILENT_FAILURES 177). Same address [named individual]@slashdotmedia.com as the seven-brand row, which lists Slashdot Media among its own declared brands, so the letter sent there reaches this mailbox and this entity. Not a separate send. NOT marked confirmed -- no confirmation was received for this row.
 
 ## Steps
 

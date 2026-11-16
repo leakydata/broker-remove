@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-31)
-- Note: Recovered from the committed playbook brokers/t/targetsmart_communications.md, because the ledger carries no notes and this row's status had no evidence behind it: Sent the POLITICAL/DONOR variant (`_CATEGORY_VARIANTS.md`): TargetSmart compiles and enhances voter-file data. Conceded up front they cannot alter the underlying public voter record, and asked instead for their compiled record and derived scores — partisanship/ideology, turnout propensity, giving capacity — deleted, and for the client list who received a matched record.
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-16 CHASED in-thread: over 80 days with no reply to the August request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
+- Earlier: Recovered from the committed playbook brokers/t/targetsmart_communications.md, because the ledger carries no notes and this row's status had no evidence behind it: Sent the POLITICAL/DONOR variant (`_CATEGORY_VARIANTS.md`): TargetSmart compiles and enhances voter-file data. Conceded up front they cannot alter the underlying public voter record, and asked instead for their compiled record and derived scores — partisanship/ideology, turnout propensity, giving capacity — deleted, and for the client list who received a matched record.
 
 ## Steps
 

@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-30)
-- Note: 2026-08-30 sent under the email-only key policy (SILENT_FAILURES 195/196a). Category adtech from the site classifier, so date of birth, postal addresses and phone numbers were WITHHELD with a paragraph explaining why: for a cookie/device/CTV/bid-stream-keyed platform those cannot match anything and would only be new personal data arriving at a company that did not hold it. Sent name + twelve emails, asked for plaintext AND MD5/SHA-1/SHA-256 search with the hashes deliberately not computed. Kept the derived-address ask (a first.last@employer pattern constructed from name and employment history is a record about me even though I have never owned it, and they can generate it from the same public profile it was built from), the forward-looking vs exclude-only distinction on the LinkedIn URL, and the two confirmation asks. Cap reworded for this mode: IF they hold an address or number, suppress the association not the bare value, and if they can only exclude bare values, leave the former ones alone.
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-16 CHASED in-thread: over 80 days with no reply to the August request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
+- Earlier: 2026-08-30 sent under the email-only key policy (SILENT_FAILURES 195/196a). Category adtech from the site classifier, so date of birth, postal addresses and phone numbers were WITHHELD with a paragraph explaining why: for a cookie/device/CTV/bid-stream-keyed platform those cannot match anything and would only be new personal data arriving at a company that did not hold it. Sent name + twelve emails, asked for plaintext AND MD5/SHA-1/SHA-256 search with the hashes deliberately not computed. Kept the derived-address ask (a first.last@employer pattern constructed from name and employment history is a record about me even though I have never owned it, and they can generate it from the same public profile it was built from), the forward-looking vs exclude-only distinction on the LinkedIn URL, and the two confirmation asks. Cap reworded for this mode: IF they hold an address or number, suppress the association not the bare value, and if they can only exclude bare values, leave the former ones alone.
 
 ## Steps
 

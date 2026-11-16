@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-31)
-- Note: Recovered from the committed playbook brokers/s/sprout_social.md, because the ledger carries no notes and this row's status had no evidence behind it: Never a Sprout Social customer. Sent the SOCIAL LISTENING variant (`_CATEGORY_VARIANTS.md`): conceded the core product (social media management, sold to businesses) is not brokering, but noted the CA broker registration implies some data compiled about non-customers — most likely via social listening/monitoring of public content on clients' behalf. Asked for archived posts/comments, handle-to-person linkage, and any sentiment/demographic inference, and pre-empted the "it was public when posted" objection.
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-16 CHASED in-thread: over 80 days with no reply to the August request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
+- Earlier: Recovered from the committed playbook brokers/s/sprout_social.md, because the ledger carries no notes and this row's status had no evidence behind it: Never a Sprout Social customer. Sent the SOCIAL LISTENING variant (`_CATEGORY_VARIANTS.md`): conceded the core product (social media management, sold to businesses) is not brokering, but noted the CA broker registration implies some data compiled about non-customers — most likely via social listening/monitoring of public content on clients' behalf. Asked for archived posts/comments, handle-to-person linkage, and any sentiment/demographic inference, and pre-empted the "it was public when posted" objection.
 
 ## Steps
 

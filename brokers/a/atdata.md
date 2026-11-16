@@ -8,8 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-17)
-- Note: Statutory delete/opt-out request emailed, tailored to the broker's data category; awaiting reply.
+- Current: `manual_required` (updated 2026-11-16)
+- Note: 2026-11-16: see towerdata. AtData's two web routes (OneTrust delete form, InstantData services opt-out) filled; reCAPTCHA / image puzzle left to the user.
+- Earlier: Statutory delete/opt-out request emailed, tailored to the broker's data category; awaiting reply.
 
 ## Steps
 

@@ -521,9 +521,9 @@
     "via": "reply"
   },
   "atdata": {
-    "changed": "2026-08-17",
-    "status": "submitted",
-    "via": null
+    "status": "manual_required",
+    "changed": "2026-11-16",
+    "via": "web"
   },
   "atlantic_fox_technologies": {
     "changed": "2026-08-24",
@@ -2759,8 +2759,8 @@
     "via": "reply"
   },
   "homedata": {
-    "changed": "2026-08-31",
     "status": "submitted",
+    "changed": "2026-11-16",
     "via": "email"
   },
   "homeowner_marketing_services": {
@@ -3991,7 +3991,7 @@
     "via": "email"
   },
   "national_opinion_institute": {
-    "status": "submitted",
+    "status": "acknowledged",
     "changed": "2026-11-16",
     "via": "reply"
   },
@@ -4386,9 +4386,9 @@
     "via": "email"
   },
   "onetrust": {
-    "changed": "2026-08-31",
-    "status": "submitted",
-    "via": "email"
+    "status": "acknowledged",
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "online_advertising_network_sp_z_o_o": {
     "changed": "2026-11-15",
@@ -4901,7 +4901,7 @@
     "via": "email"
   },
   "propensity": {
-    "status": "submitted",
+    "status": "confirmed",
     "changed": "2026-11-16",
     "via": "reply"
   },
@@ -5696,13 +5696,13 @@
     "via": "email"
   },
   "slashdot_media": {
-    "changed": "2026-08-30",
     "status": "submitted",
+    "changed": "2026-11-16",
     "via": "email"
   },
   "slashdot_media_sourceforge_voipreview_slashdot_linux_journal": {
-    "changed": "2026-08-30",
     "status": "submitted",
+    "changed": "2026-11-16",
     "via": "email"
   },
   "sma_communications": {
@@ -5751,9 +5751,9 @@
     "via": "reply"
   },
   "sojern": {
-    "changed": "2026-08-30",
     "status": "submitted",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "email"
   },
   "solar_direct_marketing": {
     "status": "submitted",
@@ -5851,14 +5851,14 @@
     "via": "email"
   },
   "sports_innovation_lab": {
-    "changed": "2026-08-31",
     "status": "submitted",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "email"
   },
   "sprout_social": {
-    "changed": "2026-08-31",
     "status": "submitted",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "email"
   },
   "sprouts_ai": {
     "changed": "2026-09-02",
@@ -5996,9 +5996,9 @@
     "via": "email"
   },
   "supplier_io": {
-    "changed": "2026-08-31",
     "status": "submitted",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "email"
   },
   "swoop_com": {
     "changed": "2026-08-30",
@@ -6016,8 +6016,8 @@
     "via": "email"
   },
   "sysoon": {
-    "changed": "2026-08-31",
     "status": "submitted",
+    "changed": "2026-11-16",
     "via": "email"
   },
   "t_mobile": {
@@ -6026,8 +6026,8 @@
     "via": "email"
   },
   "taboola": {
-    "changed": "2026-08-30",
     "status": "submitted",
+    "changed": "2026-11-16",
     "via": "email"
   },
   "tagx": {
@@ -6046,9 +6046,9 @@
     "via": "web"
   },
   "targetsmart_communications": {
-    "changed": "2026-08-31",
     "status": "submitted",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "email"
   },
   "tauxbe_data": {
     "changed": "2026-09-02",
@@ -6257,9 +6257,9 @@
     "via": "web"
   },
   "towerdata": {
-    "status": "submitted",
+    "status": "manual_required",
     "changed": "2026-11-16",
-    "via": "email"
+    "via": "web"
   },
   "traackr": {
     "changed": "2026-08-31",
