@@ -1945,7 +1945,7 @@
   "edvisors_network": {
     "status": "submitted",
     "changed": "2026-11-16",
-    "via": "reply"
+    "via": "email"
   },
   "ekata": {
     "status": "submitted",
@@ -2115,7 +2115,7 @@
   "exact_match_marketing": {
     "status": "submitted",
     "changed": "2026-11-16",
-    "via": "reply"
+    "via": "web"
   },
   "exlservice_com": {
     "changed": "2026-11-15",
@@ -2184,9 +2184,9 @@
     "via": "email"
   },
   "fetch_rewards": {
-    "changed": "2026-08-27",
     "status": "submitted",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "fetcher": {
     "changed": "2026-08-31",
@@ -2249,9 +2249,9 @@
     "via": "email"
   },
   "finsum": {
-    "changed": "2026-08-27",
     "status": "submitted",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "firearmscalifornia_org": {
     "changed": "2026-08-16",
@@ -2284,9 +2284,9 @@
     "via": "reply"
   },
   "first_orion": {
-    "changed": "2026-08-27",
-    "status": "submitted",
-    "via": null
+    "status": "not_found",
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "five_by_five": {
     "changed": "2026-08-18",
@@ -2349,9 +2349,9 @@
     "via": null
   },
   "forager_ai": {
-    "changed": "2026-08-27",
     "status": "submitted",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "forddirect": {
     "changed": "2026-08-18",
@@ -2359,14 +2359,14 @@
     "via": "reply"
   },
   "forewarn": {
-    "changed": "2026-08-27",
     "status": "submitted",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "formerly_fullcontact": {
-    "changed": "2026-08-27",
     "status": "submitted",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "foundry": {
     "changed": "2026-08-28",
@@ -2494,9 +2494,9 @@
     "via": "email"
   },
   "general_motors": {
-    "changed": "2026-08-27",
     "status": "submitted",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "genius_media_group": {
     "changed": "2026-09-18",
@@ -2519,9 +2519,9 @@
     "via": "email"
   },
   "getemails": {
-    "changed": "2026-08-27",
     "status": "submitted",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "getprospect": {
     "changed": "2026-08-31",
@@ -2584,9 +2584,9 @@
     "via": "email"
   },
   "grata": {
-    "changed": "2026-08-27",
     "status": "submitted",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "gravy_analytics": {
     "changed": "2026-09-02",
@@ -2604,9 +2604,9 @@
     "via": null
   },
   "great_lakes_list_management": {
-    "changed": "2026-08-27",
     "status": "submitted",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "greenhouse_software": {
     "changed": "2026-10-21",

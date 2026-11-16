@@ -9,7 +9,8 @@
 ## Status
 
 - Current: `confirmed` (updated 2026-11-16)
-- Note: 2026-11-16: Chief Privacy Officer confirmed deletion from L2 voter and consumer files, will not sell, suppression record kept so data does not reappear. Warned that records under different identifying info may not be recognised, so replied same day with all prior addresses and phone numbers as a new request for those records.
+- Note: 2026-11-16 later: for the prior addresses L2 pointed to its web opt-out page (l2-data.com/optout1-667457), which takes one address per submission and has a 'math question' bot check (left alone). Asked whether they will work from the emailed list instead; if not, it becomes a handoff (16 submissions).
+- Earlier: 2026-11-16: Chief Privacy Officer confirmed deletion from L2 voter and consumer files, will not sell, suppression record kept so data does not reappear. Warned that records under different identifying info may not be recognised, so replied same day with all prior addresses and phone numbers as a new request for those records.
 - Earlier: 2026-11-16 CHASED: 83 days of total silence since the 25 August letter. Sent a one-line chase asking whether a record exists in their voter/political data files, with the fallback clause for state-coverage pushback.
 
 - Current: `submitted` (updated 2026-08-20)

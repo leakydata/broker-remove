@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `not_found` (updated 2026-09-25)
-- Note: 2026-09-25, ccparequests@firstorion.com replied across two separate
+- Current: `not_found` (updated 2026-11-16)
+- Note: Reply of 2026-09-25 (Zendesk 3456580, from ccparequests@firstorion.com; unread until the 11-16 chase sweep): First Orion has ceased operating as a data broker and no longer holds personal information from its former data broker activities, so it has nothing to sell, share or delete. No chase sent.
+- Earlier: 2026-09-25, ccparequests@firstorion.com replied across two separate
   ticket numbers (3450745 and 3456580 -- the same letter had reached two
   different staff mailboxes, snichols and cdenton, each of whom filed it as
   its own ticket): "First Orion has ceased operating as a data broker and no

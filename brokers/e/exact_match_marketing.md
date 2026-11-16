@@ -8,7 +8,8 @@
 ## Status
 
 - Current: `submitted` (updated 2026-11-16)
-- Note: 2026-11-16 CHASED in-thread: over 80 days with no reply to the August request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
+- Note: 2026-11-16: chase drew canned reply 'privacy requests sent by email are not processed', pointing to exactmatch.io/legal/opt-out (not state-gated; PA shown as 'Federal/Voluntary, response deadline 2026-12-31'). Submitted twice: (1) Delete, reference PR-54CBDMDG, email verification link clicked same hour: 'Your identifiers have been added to our do-not-serve list', reply due within 45 days; (2) Opt-out of sale/sharing, applied on receipt with no confirmation step. Phone alternative 855-768-4668.
+- Earlier: 2026-11-16 CHASED in-thread: over 80 days with no reply to the August request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
 - Earlier: Opt-out letter sent by email to datarequest@exactmatch.io (delete + opt out of sale/sharing + direct downstream recipients + suppress against future ingestion). All twelve email addresses, sixteen prior addresses and eleven prior phone numbers listed for search. Sent as HTML per letter_html.
 
 ## Steps
