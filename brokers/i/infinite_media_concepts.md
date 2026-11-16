@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-28)
-- Note: Emailed [named individual]@mlxp.com 2026-08-28 (route as filed on the CA registry). Standard letter incl. retention clause.
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-16 CHASED in-thread: over 80 days with no reply to the August request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
+- Earlier: Emailed [named individual]@mlxp.com 2026-08-28 (route as filed on the CA registry). Standard letter incl. retention clause.
 
 ## Steps
 

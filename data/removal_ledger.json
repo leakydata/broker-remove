@@ -131,8 +131,8 @@
     "via": "reply"
   },
   "adadapted": {
+    "status": "not_found",
     "changed": "2026-11-16",
-    "status": "submitted",
     "via": "reply"
   },
   "adagio": {
@@ -2924,8 +2924,8 @@
     "via": "email"
   },
   "infinite_media_concepts": {
-    "changed": "2026-08-28",
     "status": "submitted",
+    "changed": "2026-11-16",
     "via": "email"
   },
   "infocore": {
@@ -2964,9 +2964,9 @@
     "via": "reply"
   },
   "infortal_worldwide": {
-    "changed": "2026-08-28",
     "status": "submitted",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "email"
   },
   "infotracer": {
     "changed": "2026-10-21",
@@ -3059,9 +3059,9 @@
     "via": "email"
   },
   "intentsify": {
-    "changed": "2026-08-28",
     "status": "submitted",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "email"
   },
   "internet_brands": {
     "changed": "2026-08-28",
@@ -3094,8 +3094,8 @@
     "via": "email"
   },
   "ipreo": {
-    "changed": "2026-08-28",
     "status": "submitted",
+    "changed": "2026-11-16",
     "via": "email"
   },
   "ipsos": {
@@ -3114,8 +3114,8 @@
     "via": "email"
   },
   "irys": {
-    "changed": "2026-08-28",
     "status": "submitted",
+    "changed": "2026-11-16",
     "via": "email"
   },
   "ispot_tv": {
@@ -3139,8 +3139,8 @@
     "via": null
   },
   "jdm_list_services": {
-    "changed": "2026-08-28",
     "status": "submitted",
+    "changed": "2026-11-16",
     "via": "email"
   },
   "jhonata_menezes_dos_santos_desenvolvimento": {
@@ -3149,13 +3149,13 @@
     "via": "email"
   },
   "jigyasa_analytics": {
-    "changed": "2026-08-28",
     "status": "submitted",
+    "changed": "2026-11-16",
     "via": "email"
   },
   "jkid_consulting": {
-    "changed": "2026-08-28",
     "status": "submitted",
+    "changed": "2026-11-16",
     "via": "email"
   },
   "jmr_media": {
@@ -3269,8 +3269,8 @@
     "via": "email"
   },
   "kontext_data": {
-    "changed": "2026-08-28",
     "status": "submitted",
+    "changed": "2026-11-16",
     "via": "email"
   },
   "kyc_data": {
@@ -3304,8 +3304,8 @@
     "via": "reply"
   },
   "lead_enhance": {
-    "changed": "2026-08-28",
     "status": "submitted",
+    "changed": "2026-11-16",
     "via": "email"
   },
   "lead_me_media": {

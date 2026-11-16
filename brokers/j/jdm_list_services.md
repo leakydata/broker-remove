@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-28)
-- Note: Emailed privacy@jdmlistservices.com 2026-08-28. Standard letter incl. retention clause.
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-16 CHASED in-thread: over 80 days with no reply to the August request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
+- Earlier: Emailed privacy@jdmlistservices.com 2026-08-28. Standard letter incl. retention clause.
 
 ## Steps
 

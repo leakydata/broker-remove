@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-28)
-- Note: Sent the INTENT-DATA variant, same shape as informa_techtarget: the activity records rather than only the derived score; THE RESOLUTION ITSELF, since if anonymous activity was resolved to the subject by hashed email, cookie, device ID, IP or an identity-graph partner then that join IS the record and the endpoints reassemble without it; company-level attribution where activity is resolved to an employer by IP or email domain and reported to vendors as research from that organisation; and intent scores as modelled attributes that may be wrong, which is a second reason to want them gone. B2B carve-out pre-empted; identifier-types-matched question asked. FIRST LETTER TO CARRY THE NEW RETENTION CLAUSE from 144 -- identifiers supplied solely as search keys, and any category they do not otherwise process should not be retained beyond evidencing the request.
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-16 CHASED in-thread: over 80 days with no reply to the August request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
+- Earlier: Sent the INTENT-DATA variant, same shape as informa_techtarget: the activity records rather than only the derived score; THE RESOLUTION ITSELF, since if anonymous activity was resolved to the subject by hashed email, cookie, device ID, IP or an identity-graph partner then that join IS the record and the endpoints reassemble without it; company-level attribution where activity is resolved to an employer by IP or email domain and reported to vendors as research from that organisation; and intent scores as modelled attributes that may be wrong, which is a second reason to want them gone. B2B carve-out pre-empted; identifier-types-matched question asked. FIRST LETTER TO CARRY THE NEW RETENTION CLAUSE from 144 -- identifiers supplied solely as search keys, and any category they do not otherwise process should not be retained beyond evidencing the request.
 
 ## Steps
 

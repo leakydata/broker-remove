@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-28)
-- Note: Sent a DUE-DILIGENCE variant, which is shaped differently from every other letter in the project. Infortal does corporate investigations: reports compiled ABOUT an individual, on instruction from someone else, and delivered to that someone else. Two consequences an ordinary deletion request does not reach.
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-16 CHASED in-thread: over 80 days with no reply to the August request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
+- Earlier: Sent a DUE-DILIGENCE variant, which is shaped differently from every other letter in the project. Infortal does corporate investigations: reports compiled ABOUT an individual, on instruction from someone else, and delivered to that someone else. Two consequences an ordinary deletion request does not reach.
 
 FIRST, ACCESS BEFORE DELETION. If a report exists the subject has almost certainly never seen it. It may carry adverse-media findings, litigation or regulatory hits, associations and analyst commentary -- and it may carry a MISTAKEN IDENTITY, because adverse-media matching on a common name is exactly where these files go wrong. So the first ask is not deletion but: what does it say and where did each element come from. Where something is attributed in error, CORRECTION MATTERS MORE THAN DELETION -- a wrong finding deleted from their copy has still been delivered to a client who cannot know it was wrong, and removing it quietly does not unsay it.
 
