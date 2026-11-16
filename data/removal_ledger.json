@@ -1725,7 +1725,7 @@
   "deloitte_financial_advisory_services": {
     "status": "manual_required",
     "changed": "2026-11-15",
-    "via": "reply"
+    "via": "web"
   },
   "deluxe": {
     "status": "replied",
@@ -1953,9 +1953,9 @@
     "via": "email"
   },
   "el_toro_com": {
-    "status": "manual_required",
+    "status": "captcha_blocked",
     "changed": "2026-11-15",
-    "via": "reply"
+    "via": "web"
   },
   "electronic_voice_services": {
     "status": "confirmed",
@@ -6810,7 +6810,7 @@
   "windfall": {
     "status": "manual_required",
     "changed": "2026-11-15",
-    "via": "reply"
+    "via": "web"
   },
   "windfall_data": {
     "status": "manual_required",

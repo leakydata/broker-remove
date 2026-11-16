@@ -10,7 +10,8 @@
 ## Status
 
 - Current: `manual_required` (updated 2026-11-15)
-- Note: AUDIT 2026-11-15, reply of 2026-08-31 never recorded: Windfall says this mailbox is not monitored for consumer requests. It directs him to a webform, which it says is how it verifies identity, or to a phone line (800-946-6710). Form route queued for a browser pass.
+- Note: 2026-11-15: Windfall's datasubject.com form detects Pennsylvania and blocks the request: 'a jurisdiction that does not currently support privacy rights'. Picking another state would misstate residence, so it was not done. Email isn't monitored, per their 08-31 reply. Remaining route: phone 800-946-6710 (the subject's call).
+- Earlier: AUDIT 2026-11-15, reply of 2026-08-31 never recorded: Windfall says this mailbox is not monitored for consumer requests. It directs him to a webform, which it says is how it verifies identity, or to a phone line (800-946-6710). Form route queued for a browser pass.
 - Earlier: Sent 2026-08-20 to privacy@windfall.com (unpublished guess). Their privacy policy offers ONLY DAA/NAI/Google Analytics industry opt-out links and no first-party rights route or contact address - flagged that to them. Letter targets modelled/inferred attributes (net worth, propensity, giving capacity) since clearing source fields leaves the score.
 
 ## Gotchas
