@@ -8,8 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-23)
-- Note: Recovered from the committed playbook brokers/p/prospeo.md, because the ledger carries no notes and this row's status had no evidence behind it: Statutory opt-out/deletion email sent 2026-08-23, category-tailored.
+- Current: `suppressed` (updated 2026-11-15)
+- Note: AUDIT 2026-11-15: a 2026-08-25 reply that had never been recorded says every email address and phone number listed was added to the suppression list.
+- Earlier: Recovered from the committed playbook brokers/p/prospeo.md, because the ledger carries no notes and this row's status had no evidence behind it: Statutory opt-out/deletion email sent 2026-08-23, category-tailored.
 
 ## Steps
 

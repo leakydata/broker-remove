@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-18)
-- Note: ccpa@leadmemedia.com HARD BOUNCED ('Address not found') - the address their own privacy policy designates for consumer rights requests does not exist. Resent to info@leadmemedia.com, the only working address published, and reported the dead mailbox to them as a fault.
+- Current: `manual_required` (updated 2026-11-15)
+- Note: AUDIT 2026-11-15: a 2026-08-22 auto-reply that had never been recorded says email is not actioned and the privacy portal is the only route. The portal's invisible reCAPTCHA rejected the automated browser, so it is in the handoff queue.
+- Earlier: ccpa@leadmemedia.com HARD BOUNCED ('Address not found') - the address their own privacy policy designates for consumer rights requests does not exist. Resent to info@leadmemedia.com, the only working address published, and reported the dead mailbox to them as a fault.
 
 ## Steps
 

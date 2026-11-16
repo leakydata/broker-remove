@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-18)
-- Note: Recovered from the committed playbook brokers/f/firmfuel.md, because the ledger carries no notes and this row's status had no evidence behind it: No note in the playbook; its status line records `submitted` as of 2026-08-18. That is the whole of the evidence for this row.
+- Current: `not_found` (updated 2026-11-15)
+- Note: AUDIT 2026-11-15: a 2026-08-21 reply that had never been recorded says no information was found.
+- Earlier: Recovered from the committed playbook brokers/f/firmfuel.md, because the ledger carries no notes and this row's status had no evidence behind it: No note in the playbook; its status line records `submitted` as of 2026-08-18. That is the whole of the evidence for this row.
 
 ## Steps
 

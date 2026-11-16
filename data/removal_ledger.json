@@ -382,8 +382,8 @@
   },
   "amplemarket": {
     "status": "submitted",
-    "changed": "2026-08-17",
-    "via": null
+    "changed": "2026-11-15",
+    "via": "web"
   },
   "ampliz": {
     "status": "submitted",
@@ -2264,9 +2264,9 @@
     "via": "email"
   },
   "firmfuel": {
-    "status": "submitted",
-    "changed": "2026-08-18",
-    "via": null
+    "status": "not_found",
+    "changed": "2026-11-15",
+    "via": "reply"
   },
   "first_advantage": {
     "status": "submitted",
@@ -3309,9 +3309,9 @@
     "via": "email"
   },
   "lead_me_media": {
-    "status": "submitted",
-    "changed": "2026-08-18",
-    "via": "email"
+    "status": "manual_required",
+    "changed": "2026-11-15",
+    "via": "reply"
   },
   "leadership_connect": {
     "status": "manual_required",
@@ -4371,9 +4371,9 @@
     "via": "reply"
   },
   "oncore_leads": {
-    "status": "submitted",
-    "changed": "2026-08-19",
-    "via": "email"
+    "status": "not_found",
+    "changed": "2026-11-15",
+    "via": "reply"
   },
   "onemata": {
     "status": "unreachable",
@@ -4951,9 +4951,9 @@
     "via": "email"
   },
   "prospeo": {
-    "status": "submitted",
-    "changed": "2026-08-23",
-    "via": null
+    "status": "suppressed",
+    "changed": "2026-11-15",
+    "via": "reply"
   },
   "proxima_platform": {
     "status": "submitted",
@@ -5256,8 +5256,8 @@
     "via": "email"
   },
   "resonate": {
-    "status": "submitted",
-    "changed": "2026-08-19",
+    "status": "acknowledged",
+    "changed": "2026-11-15",
     "via": "reply"
   },
   "response_america": {

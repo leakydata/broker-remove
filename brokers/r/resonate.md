@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-19)
-- Note: Their reply came FROM no-reply@resonate.com which hard-bounces on reply. Resent the challenge to privacy@resonate.com (the original, working address) and flagged the unroutable From: as a defect. Pressing: hashed-email is a stable pseudonymous identifier not encryption; inference layer vs identifier row; 12 addresses processed?; sources; downstream licensees; standing do-not-model.
+- Current: `acknowledged` (updated 2026-11-15)
+- Note: AUDIT 2026-11-15: a 2026-08-22 auto-reply that had never been recorded says Resonate holds only cookies and hashed emails, and will process requests that include an email address. Its cookie and DAA opt-outs work per device and can't be done from here.
+- Earlier: Their reply came FROM no-reply@resonate.com which hard-bounces on reply. Resent the challenge to privacy@resonate.com (the original, working address) and flagged the unroutable From: as a defect. Pressing: hashed-email is a stable pseudonymous identifier not encryption; inference layer vs identifier row; 12 addresses processed?; sources; downstream licensees; standing do-not-model.
 
 ## Steps
 

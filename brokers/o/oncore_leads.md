@@ -8,8 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-19)
-- Note: Co-founder replied personally with a negative that is wrapped in a jurisdictional hedge: 'Please note that only California consumers are entitled to rights under the CCPA' followed by 'Oncore does not have any personal information regarding you THAT COULD BE SUBJECT TO THE DELETION REQUIREMENTS OF THE CCPA.' That trailing clause carries two opposite meanings -- (A) we hold nothing at all, or (B) we may hold something but you are not Californian so nothing is in scope. Asked which, offering to close on an unqualified (A) and to accept (B) as a lawful position provided they say which basis they applied. Also re-asked provenance, recipients, and do-not-resell suppression, none of which depend on jurisdiction.
+- Current: `not_found` (updated 2026-11-15)
+- Note: AUDIT 2026-11-15: a 2026-08-21 reply that had never been recorded reads 'We hold no data on you. You can close the matter.'
+- Earlier: Co-founder replied personally with a negative that is wrapped in a jurisdictional hedge: 'Please note that only California consumers are entitled to rights under the CCPA' followed by 'Oncore does not have any personal information regarding you THAT COULD BE SUBJECT TO THE DELETION REQUIREMENTS OF THE CCPA.' That trailing clause carries two opposite meanings -- (A) we hold nothing at all, or (B) we may hold something but you are not Californian so nothing is in scope. Asked which, offering to close on an unqualified (A) and to accept (B) as a lawful position provided they say which basis they applied. Also re-asked provenance, recipients, and do-not-resell suppression, none of which depend on jurisdiction.
 
 ## Steps
 

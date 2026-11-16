@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-17)
-- Note: Statutory delete/opt-out request emailed, tailored to the broker's data category; awaiting reply.
+- Current: `submitted` (updated 2026-11-15)
+- Note: AUDIT 2026-11-15: a 2026-08-22 reply that had never been recorded says removal goes through the Pylon Removal Form. Submitted that form on 11-15 with no CAPTCHA; the ticket was accepted. GOTCHA: email is not actioned, form only.
+- Earlier: Statutory delete/opt-out request emailed, tailored to the broker's data category; awaiting reply.
 
 ## Steps
 
