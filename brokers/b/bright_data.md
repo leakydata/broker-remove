@@ -8,8 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-23)
-- Note: Recovered from the committed playbook brokers/b/bright_data.md, because the ledger carries no notes and this row's status had no evidence behind it: Statutory opt-out/deletion email sent 2026-08-23, category-tailored.
+- Current: `not_found` (updated 2026-11-15)
+- Note: Found 2026-11-15: a reply from 2026-08-26 (Zendesk #724702) had never been recorded. It said: 'we found no record of an account nor collected data associated with' the request. Not found.
+- Earlier: Recovered from the committed playbook brokers/b/bright_data.md, because the ledger carries no notes and this row's status had no evidence behind it: Statutory opt-out/deletion email sent 2026-08-23, category-tailored.
 
 ## Steps
 

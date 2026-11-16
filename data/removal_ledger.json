@@ -836,9 +836,9 @@
     "via": null
   },
   "bright_data": {
-    "status": "submitted",
-    "changed": "2026-08-23",
-    "via": null
+    "status": "not_found",
+    "changed": "2026-11-15",
+    "via": "reply"
   },
   "brightcheck": {
     "status": "submitted",
@@ -1658,9 +1658,9 @@
     "via": "email"
   },
   "dealmachine": {
-    "status": "submitted",
-    "changed": "2026-08-25",
-    "via": null
+    "status": "manual_required",
+    "changed": "2026-11-15",
+    "via": "reply"
   },
   "decide": {
     "status": "not_found",
@@ -2790,8 +2790,8 @@
   },
   "hunter": {
     "status": "replied",
-    "changed": "2026-09-01",
-    "via": "email"
+    "changed": "2026-11-15",
+    "via": "reply"
   },
   "hunter_web_services": {
     "status": "covered_by_sibling",

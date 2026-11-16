@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-25)
-- Note: 2026-08-25 UPDATE: first reply came from an AI agent that identified itself - 'I'm AI Support Assistant, DealMachine's AI Agent and I'm well trained to answer your query but you can reply and ask for the team at any time.' It then did the RIGHT thing: 'Your request involves legal compliance matters that require careful handling by our specialized team. A human agent will review your complete submission and respond directly... You won't need to repeat the details you've already provided.' That is automation that ROUTES rather than automation that ABSORBS - the exact opposite of the DemandScience canned-response loop at _DEFLECTIONS.md 56. It identified itself, recognised the request as out of its competence, escalated, offered a human on request, and explicitly preserved the submission. Awaiting the human reply.
+- Current: `manual_required` (updated 2026-11-15)
+- Note: Found 2026-11-15: a reply from 2026-08-27 had never been recorded. It said email requests are not processed and deletion must go through privacyrequest.dealmachine.com/remove, which verifies by email and SMS and needs no account. The SMS step needs the user, so it is in the handoff queue.
+- Earlier: 2026-08-25 UPDATE: first reply came from an AI agent that identified itself - 'I'm AI Support Assistant, DealMachine's AI Agent and I'm well trained to answer your query but you can reply and ask for the team at any time.' It then did the RIGHT thing: 'Your request involves legal compliance matters that require careful handling by our specialized team. A human agent will review your complete submission and respond directly... You won't need to repeat the details you've already provided.' That is automation that ROUTES rather than automation that ABSORBS - the exact opposite of the DemandScience canned-response loop at _DEFLECTIONS.md 56. It identified itself, recognised the request as out of its competence, escalated, offered a human on request, and explicitly preserved the submission. Awaiting the human reply.
 
 ## Steps
 
