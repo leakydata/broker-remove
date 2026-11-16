@@ -8,7 +8,8 @@
 ## Status
 
 - Current: `submitted` (updated 2026-11-16)
-- Note: 2026-11-16 CCPA-period chase (about 83 days, no reply or acknowledgement; no bounce found): one-line 'did the request arrive, and if this is the wrong mailbox, which is right?' sent in the original thread.
+- Note: 2026-11-16: the chase to admin@brightcheck.com bounced 'address not found' (the August letter did not bounce, so the mailbox was deleted since). Website down (HTTP 409 at the host); MX is still Google Workspace. Re-sent in the original thread to the named individual in the registry filing, the named contact in the registry filing. Next rung if that fails: post to 1255 Treat Blvd, Walnut Creek, CA, or phone 888-822-4325.
+- Earlier: 2026-11-16 CCPA-period chase (about 83 days, no reply or acknowledgement; no bounce found): one-line 'did the request arrive, and if this is the wrong mailbox, which is right?' sent in the original thread.
 - Earlier: 2026-08-25: emailed admin@brightcheck.com. Generic admin address from the registry filing, so opened with a forward-this-internally courtesy. Name suggests background screening, so pre-conceded FCRA in the alternative: file disclosure under 609, deletion of anything held OUTSIDE the regulated file, and non-FCRA suppression. The point pressed is that the exemption covers the regulated file, not everything the company holds.
 
 ## Steps

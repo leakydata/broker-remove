@@ -843,7 +843,7 @@
   "brightcheck": {
     "status": "submitted",
     "changed": "2026-11-16",
-    "via": "reply"
+    "via": "email"
   },
   "brightswipe": {
     "status": "submitted",
@@ -1147,7 +1147,7 @@
     "via": "email"
   },
   "clearview_ai": {
-    "status": "submitted",
+    "status": "acknowledged",
     "changed": "2026-11-16",
     "via": "reply"
   },
@@ -1328,8 +1328,8 @@
   },
   "contentgine": {
     "status": "submitted",
-    "changed": "2026-08-25",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "contractorscalifornia_org": {
     "status": "submitted",
@@ -1523,8 +1523,8 @@
   },
   "data_management": {
     "status": "submitted",
-    "changed": "2026-08-25",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "data_marketing_solutions": {
     "status": "submitted",
@@ -1554,8 +1554,8 @@
   },
   "datadesk": {
     "status": "submitted",
-    "changed": "2026-08-25",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "datadojo_cdp": {
     "status": "submitted",
@@ -1604,8 +1604,8 @@
   },
   "datapartners": {
     "status": "submitted",
-    "changed": "2026-08-25",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "dataskip": {
     "status": "submitted",
@@ -1764,8 +1764,8 @@
   },
   "dice_com": {
     "status": "submitted",
-    "changed": "2026-08-25",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "digdev": {
     "status": "submitted",
@@ -1784,13 +1784,13 @@
   },
   "digital_viking_media": {
     "status": "submitted",
-    "changed": "2026-08-25",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "diligent": {
     "status": "submitted",
-    "changed": "2026-08-25",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "direct_marketing_solutions": {
     "status": "submitted",
@@ -1858,9 +1858,9 @@
     "via": "reply"
   },
   "donorbureau": {
-    "status": "submitted",
-    "changed": "2026-08-25",
-    "via": null
+    "status": "acknowledged",
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "downing_lahey_mortuaries_crematory": {
     "status": "submitted",
@@ -1874,8 +1874,8 @@
   },
   "dresden_direct": {
     "status": "submitted",
-    "changed": "2026-08-25",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "driveniq": {
     "status": "submitted",
@@ -3917,13 +3917,13 @@
   },
   "moody_s": {
     "status": "submitted",
-    "changed": "2026-08-25",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "moody_s_analytics": {
     "status": "submitted",
-    "changed": "2026-08-25",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "morningstar": {
     "status": "submitted",

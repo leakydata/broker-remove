@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-25)
-- Note: 2026-08-25: emailed [named individual]@dresdendirect.com - person-shaped registry contact, forward-this-internally opener. Direct-mail list brokerage: deletion-vs-suppression leads, both chain directions asked for, and asked them to NAME any selects describing health, finances, religion or household composition, even if they conclude they may retain them. Plus the consent-provenance question.
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-16 CCPA-period chase (about 83 days, no reply or acknowledgement; no bounce found): one-line 'did the request arrive, and if this is the wrong mailbox, which is right?' sent in the original thread.
+- Earlier: 2026-08-25: emailed [named individual]@dresdendirect.com - person-shaped registry contact, forward-this-internally opener. Direct-mail list brokerage: deletion-vs-suppression leads, both chain directions asked for, and asked them to NAME any selects describing health, finances, religion or household composition, even if they conclude they may retain them. Plus the consent-provenance question.
 
 ## Steps
 

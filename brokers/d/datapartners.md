@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-25)
-- Note: 2026-08-25: emailed info@datapartners.com. List brokerage - both chain directions plus inferred-vs-collected and the identifier-keyed fallback with the hash-it-yourself clause.
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-16 CCPA-period chase (about 83 days, no reply or acknowledgement; no bounce found): one-line 'did the request arrive, and if this is the wrong mailbox, which is right?' sent in the original thread.
+- Earlier: 2026-08-25: emailed info@datapartners.com. List brokerage - both chain directions plus inferred-vs-collected and the identifier-keyed fallback with the hash-it-yourself clause.
 
 ## Steps
 

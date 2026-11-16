@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-25)
-- Note: 2026-08-25: emailed privacy@datadesk.io. Two general-purpose asks, identifier-keyed fallback with the hash-it-yourself clause, processor fallback, LinkedIn suppression and derived-address asks.
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-16 CCPA-period chase (about 83 days, no reply or acknowledgement; no bounce found): one-line 'did the request arrive, and if this is the wrong mailbox, which is right?' sent in the original thread.
+- Earlier: 2026-08-25: emailed privacy@datadesk.io. Two general-purpose asks, identifier-keyed fallback with the hash-it-yourself clause, processor fallback, LinkedIn suppression and derived-address asks.
 
 ## Steps
 

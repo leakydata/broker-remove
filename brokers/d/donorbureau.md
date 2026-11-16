@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-25)
-- Note: 2026-08-25: emailed ccpa@donorbureau.com. Donor data, with the sensitivity argument stated plainly rather than implied: whom a person gives money to can reveal their religion, politics, health circumstances, family situation and bereavements, and a gift to a disease charity, religious body, shelter or hospice is a statement made to THAT ORGANISATION and not to a commercial file. Asked for giving history, cause/interest coding, capacity and bequest-propensity scores (an estimate of what someone can afford to give, and a prediction about their will, are financial assessments made without their knowledge), and age/life-stage/BEREAVEMENT inferences used for legacy and in-memoriam targeting. Key structural ask: if they participate in a DONOR CO-OP, is the suppression registered with the co-op itself rather than only locally - in a co-op a local suppression is undone by the next member contribution.
+- Current: `acknowledged` (updated 2026-11-16)
+- Note: 2026-11-16: found two unanswered 'Please Confirm Your Data Removal Request' emails of 2026-08-27 from DonorBureau (Google Apps Script yes/no links). The 'Yes, this was me' link now returns Google 'Page Not Found' (script removed). Confirmed by email instead, replying to the sender and cc'ing dataengineering@ and ccpa@donorbureau.com, asking for a one-line note when processed.
+- Earlier: 2026-08-25: emailed ccpa@donorbureau.com. Donor data, with the sensitivity argument stated plainly rather than implied: whom a person gives money to can reveal their religion, politics, health circumstances, family situation and bereavements, and a gift to a disease charity, religious body, shelter or hospice is a statement made to THAT ORGANISATION and not to a commercial file. Asked for giving history, cause/interest coding, capacity and bequest-propensity scores (an estimate of what someone can afford to give, and a prediction about their will, are financial assessments made without their knowledge), and age/life-stage/BEREAVEMENT inferences used for legacy and in-memoriam targeting. Key structural ask: if they participate in a DONOR CO-OP, is the suppression registered with the co-op itself rather than only locally - in a co-op a local suppression is undone by the next member contribution.
 
 ## Steps
 
