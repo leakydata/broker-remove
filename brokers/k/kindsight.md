@@ -8,7 +8,8 @@
 ## Status
 
 - Current: `submitted` (updated 2026-11-16)
-- Note: 2026-11-16 Kindsight web form go.kindsight.io/privacy-opt-out submitted (the route privacy+noreply@kindsight.io's 08-18 auto-reply said is the only accepted one; never driven until now). HubSpot form: name, contact email, mailing address, US/PA, city, ZIP, phone; invisible reCAPTCHA passed by itself. Page: 'Thanks for submitting the form. A member of our team will be in touch.' (dup of iwave)
+- Note: 2026-11-16 18:42 UTC: no-reply@kindsight.io emailed 'Opt-Out Request Confirmation' for the go.kindsight.io/privacy-opt-out submission.
+- Earlier: 2026-11-16 Kindsight web form go.kindsight.io/privacy-opt-out submitted (the route privacy+noreply@kindsight.io's 08-18 auto-reply said is the only accepted one; never driven until now). HubSpot form: name, contact email, mailing address, US/PA, city, ZIP, phone; invisible reCAPTCHA passed by itself. Page: 'Thanks for submitting the form. A member of our team will be in touch.' (dup of iwave)
 - Earlier: 2026-08-29 COVERED BY CANONICAL (SILENT_FAILURES 177). duplicate_of=iwave, and both rows carry the identical address privacy+california@iwave.com -- so a letter was sent to this exact address for the canonical row 'iwave' (submitted). Not a separate send: the mailbox has the request, and whether the company files it under one brand name or the other is internal to them. Status set here so the queue stops offering a second letter to an address that already has one. NOT marked confirmed -- no confirmation was received for this row.
 
 ## Steps

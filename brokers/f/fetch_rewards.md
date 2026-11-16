@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `acknowledged` (updated 2026-11-16)
-- Note: 2026-11-16: the chase opened Fetch support ticket 17756066 (privacy@fetch.com auto-acknowledgement).
+- Current: `manual_required` (updated 2026-11-16)
+- Note: 2026-11-16 19:24 UTC: Fetch support (ticket 17756066) pointed to preferences.fetch.com (DataGrail). Deletion form filled (US/PA, relationship Other, comment asking them to search every identifier from the August email) through the Review step; submit is gated by an hCaptcha 'I am human' box, left to the user. Tab kept open.
+- Earlier: 2026-11-16: the chase opened Fetch support ticket 17756066 (privacy@fetch.com auto-acknowledgement).
 - Earlier: 2026-11-16 CHASED in-thread: over 80 days with no reply to the August request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
 - Earlier: Opt-out letter sent by email to privacy@fetch.com (delete + opt out of sale/sharing + direct downstream recipients + suppress against future ingestion). All twelve email addresses, sixteen prior addresses and eleven prior phone numbers listed for search. Sent as HTML per letter_html.
 

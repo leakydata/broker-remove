@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-29)
-- Note: 2026-08-29 COVERED BY CANONICAL (SILENT_FAILURES 177). duplicate_of=checksecrets, and both rows carry the identical address support@checksecrets.com -- so a letter was sent to this exact address for the canonical row 'checksecrets' (confirmed). Not a separate send: the mailbox has the request, and whether the company files it under one brand name or the other is internal to them. Status set here so the queue stops offering a second letter to an address that already has one. NOT marked confirmed -- no confirmation was received for this row.
+- Current: `confirmed` (updated 2026-11-16)
+- Note: 2026-11-16 reconciled: duplicate of checksecrets (confirmed).
+- Earlier: 2026-08-29 COVERED BY CANONICAL (SILENT_FAILURES 177). duplicate_of=checksecrets, and both rows carry the identical address support@checksecrets.com -- so a letter was sent to this exact address for the canonical row 'checksecrets' (confirmed). Not a separate send: the mailbox has the request, and whether the company files it under one brand name or the other is internal to them. Status set here so the queue stops offering a second letter to an address that already has one. NOT marked confirmed -- no confirmation was received for this row.
 
 ## Steps
 

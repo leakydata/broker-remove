@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-30)
-- Note: Recovered from the committed playbook brokers/s/skyhook_holding.md, because the ledger carries no notes and this row's status had no evidence behind it: 2026-08-30 Sent the AD TECH / location-data variant to privacy@skyhook.com (WiFi/device positioning data). Declined to supply a MAID or device ID myself, same reasoning as PlaceIQ above -- asked what alternative verification they can accept.
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-16: the 08-30 letter to privacy@skyhook.com bounced (it forwards to privacy.tps@qti.qualcomm.com, 'address not found'; postmaster@qualcomm.com DSN, never recorded). skyhook.com no longer serves a site; the Skyhook privacy policy now lives at qualcomm.com/site/privacy/skyhookprivacy and names privacy@qualcomm.com. Forwarded the original request there with the bounce explained.
+- Earlier: Recovered from the committed playbook brokers/s/skyhook_holding.md, because the ledger carries no notes and this row's status had no evidence behind it: 2026-08-30 Sent the AD TECH / location-data variant to privacy@skyhook.com (WiFi/device positioning data). Declined to supply a MAID or device ID myself, same reasoning as PlaceIQ above -- asked what alternative verification they can accept.
 
 ## Steps
 

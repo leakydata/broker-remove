@@ -8,7 +8,8 @@
 ## Status
 
 - Current: `confirmed` (updated 2026-11-16)
-- Note: 2026-11-16: privacy@ auto-reply points to app.forager.ai/privacy/data-removal. Completed it with the contact email and the emailed 6-digit code; page: 'Your data has now been removed from Forager.' The form takes one email or phone only, so asked legal@forager.ai (named on the result page) to apply removal and suppression to the other identifiers in the original letter.
+- Note: 2026-11-16 19:40 UTC: privacy@forager.ai answered the chase in writing: contact information deleted from their records, Forager.ai no longer holds any PII. Confirms the 11-16 web removal.
+- Earlier: 2026-11-16: privacy@ auto-reply points to app.forager.ai/privacy/data-removal. Completed it with the contact email and the emailed 6-digit code; page: 'Your data has now been removed from Forager.' The form takes one email or phone only, so asked legal@forager.ai (named on the result page) to apply removal and suppression to the other identifiers in the original letter.
 - Earlier: 2026-11-16 CHASED in-thread: over 80 days with no reply to the August request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
 - Earlier: Opt-out letter sent by email to privacy@forager.ai (delete + opt out of sale/sharing + direct downstream recipients + suppress against future ingestion). All twelve email addresses, sixteen prior addresses and eleven prior phone numbers listed for search. Sent as HTML per letter_html.
 

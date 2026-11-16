@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-30)
-- Note: Recovered from the committed playbook brokers/s/similarweb.md, because the ledger carries no notes and this row's status had no evidence behind it: 2026-08-30 Sent the standard data-broker letter to legal@similarweb.com, tailored for a web-traffic/audience-analytics business (asked for hashed-identifier search).
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-16 CHASED in-thread: over 80 days with no reply to the August request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
+- Earlier: Recovered from the committed playbook brokers/s/similarweb.md, because the ledger carries no notes and this row's status had no evidence behind it: 2026-08-30 Sent the standard data-broker letter to legal@similarweb.com, tailored for a web-traffic/audience-analytics business (asked for hashed-identifier search).
 
 ## Steps
 

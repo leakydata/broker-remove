@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-30)
-- Note: Recovered from the committed playbook brokers/s/sharethrough.md, because the ledger carries no notes and this row's status had no evidence behind it: 2026-08-30 Sent the AD TECH variant to dataprotection@sharethrough.com (programmatic ad exchange). Standard ad-tech identifier set: cookie IDs, MAIDs, hashed email, audience segments, cross-context behavioral advertising opt-out.
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-16 CHASED in-thread: the 08-30 canned reply (cookie-only, no names/emails held) promised a detailed response under 'other rights' within the legal period; none came. Asked in a line whether any record linked to the listed name/email identifiers (incl. hashed emails from partners) exists and whether it is deleted; said no cookie/device ID will be sent.
+- Earlier: Recovered from the committed playbook brokers/s/sharethrough.md, because the ledger carries no notes and this row's status had no evidence behind it: 2026-08-30 Sent the AD TECH variant to dataprotection@sharethrough.com (programmatic ad exchange). Standard ad-tech identifier set: cookie IDs, MAIDs, hashed email, audience segments, cross-context behavioral advertising opt-out.
 
 ## Steps
 

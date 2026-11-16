@@ -456,9 +456,9 @@
     "via": "web"
   },
   "appscience": {
-    "changed": "2026-08-30",
     "status": "submitted",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "email"
   },
   "aristotle_international": {
     "changed": "2026-08-24",
@@ -781,8 +781,8 @@
     "via": "reply"
   },
   "bliss_point_media": {
-    "changed": "2026-08-30",
     "status": "submitted",
+    "changed": "2026-11-16",
     "via": "email"
   },
   "blue_action": {
@@ -1713,9 +1713,9 @@
     "via": null
   },
   "delivr_ai": {
-    "changed": "2026-09-26",
-    "status": "submitted",
-    "via": "email"
+    "status": "acknowledged",
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "deloitte_consulting": {
     "changed": "2026-10-12",
@@ -2078,8 +2078,8 @@
     "via": "reply"
   },
   "everleads_listsonline_internet_directory_publishers_stanford": {
-    "changed": "2026-08-30",
     "status": "submitted",
+    "changed": "2026-11-16",
     "via": "email"
   },
   "evertrue_donorsearch": {
@@ -2184,9 +2184,9 @@
     "via": "email"
   },
   "fetch_rewards": {
-    "status": "acknowledged",
+    "status": "manual_required",
     "changed": "2026-11-16",
-    "via": "reply"
+    "via": "web"
   },
   "fetcher": {
     "changed": "2026-08-31",
@@ -2351,7 +2351,7 @@
   "forager_ai": {
     "status": "confirmed",
     "changed": "2026-11-16",
-    "via": "web"
+    "via": "reply"
   },
   "forddirect": {
     "changed": "2026-08-18",
@@ -3585,9 +3585,9 @@
     "via": "email"
   },
   "mailinglists_com": {
-    "changed": "2026-08-30",
     "status": "submitted",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "email"
   },
   "maine_arrests": {
     "changed": "2026-08-16",
@@ -4661,8 +4661,8 @@
     "via": "email"
   },
   "peoplesearcher": {
-    "changed": "2026-08-19",
     "status": "submitted",
+    "changed": "2026-11-16",
     "via": "email"
   },
   "peoplesearchnow": {
@@ -5366,9 +5366,9 @@
     "via": "email"
   },
   "rich_media": {
-    "changed": "2026-08-30",
     "status": "submitted",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "email"
   },
   "ripple_effect_strategies": {
     "status": "submitted",
@@ -5481,9 +5481,9 @@
     "via": "web"
   },
   "salutary_data": {
-    "changed": "2026-08-30",
     "status": "submitted",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "email"
   },
   "samba_tv": {
     "changed": "2026-08-28",
@@ -5636,9 +5636,9 @@
     "via": null
   },
   "sharethrough": {
-    "changed": "2026-08-30",
     "status": "submitted",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "email"
   },
   "sheerid": {
     "changed": "2026-08-30",
@@ -5661,9 +5661,9 @@
     "via": "email"
   },
   "similarweb": {
-    "changed": "2026-08-30",
     "status": "submitted",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "email"
   },
   "simiocloud": {
     "changed": "2026-08-20",
@@ -5691,9 +5691,9 @@
     "via": null
   },
   "skyhook_holding": {
-    "changed": "2026-08-30",
     "status": "submitted",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "email"
   },
   "slashdot_media": {
     "changed": "2026-08-30",
@@ -5876,9 +5876,9 @@
     "via": "web"
   },
   "spyfly": {
-    "changed": "2026-08-20",
-    "status": "submitted",
-    "via": "email"
+    "status": "manual_required",
+    "changed": "2026-11-16",
+    "via": "web"
   },
   "spyfly_com_publicrecordreports_com": {
     "changed": "2026-08-29",
@@ -6257,8 +6257,8 @@
     "via": "web"
   },
   "towerdata": {
-    "changed": "2026-08-29",
     "status": "submitted",
+    "changed": "2026-11-16",
     "via": "email"
   },
   "traackr": {
@@ -6342,9 +6342,9 @@
     "via": null
   },
   "truth_now": {
-    "changed": "2026-08-29",
-    "status": "submitted",
-    "via": "email"
+    "status": "confirmed",
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "truthed": {
     "changed": "2026-08-31",
