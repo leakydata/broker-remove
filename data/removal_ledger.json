@@ -115,9 +115,9 @@
     "via": "reply"
   },
   "acuant": {
-    "changed": "2026-09-02",
-    "status": "submitted",
-    "via": "email"
+    "status": "failed",
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "acxiom": {
     "changed": "2026-10-23",
@@ -2869,9 +2869,9 @@
     "via": "email"
   },
   "idology": {
-    "status": "submitted",
+    "status": "replied",
     "changed": "2026-11-16",
-    "via": "email"
+    "via": "reply"
   },
   "idstrong": {
     "changed": "2026-08-27",
@@ -3094,9 +3094,9 @@
     "via": "email"
   },
   "ipreo": {
-    "status": "submitted",
+    "status": "replied",
     "changed": "2026-11-16",
-    "via": "email"
+    "via": "reply"
   },
   "ipsos": {
     "changed": "2026-11-05",
@@ -3139,9 +3139,9 @@
     "via": null
   },
   "jdm_list_services": {
-    "status": "submitted",
+    "status": "not_found",
     "changed": "2026-11-16",
-    "via": "email"
+    "via": "reply"
   },
   "jhonata_menezes_dos_santos_desenvolvimento": {
     "changed": "2026-09-18",
@@ -3324,9 +3324,9 @@
     "via": "email"
   },
   "leadloft": {
-    "changed": "2026-08-28",
     "status": "submitted",
-    "via": "email"
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "leadpost": {
     "changed": "2026-08-18",
@@ -3385,9 +3385,9 @@
     "via": "email"
   },
   "lg_ads_solutions": {
-    "changed": "2026-08-28",
     "status": "submitted",
-    "via": "email"
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "licensefiles": {
     "changed": "2026-08-18",
@@ -3395,14 +3395,14 @@
     "via": "reply"
   },
   "lifesight": {
-    "changed": "2026-08-28",
     "status": "submitted",
-    "via": "email"
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "liftengine": {
-    "changed": "2026-08-28",
     "status": "submitted",
-    "via": "email"
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "lightbox_parent_l_p": {
     "changed": "2026-08-28",
@@ -3445,9 +3445,9 @@
     "via": "email"
   },
   "listkit": {
-    "changed": "2026-08-28",
     "status": "submitted",
-    "via": "email"
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "listproguru": {
     "changed": "2026-11-16",
@@ -3560,9 +3560,9 @@
     "via": "reply"
   },
   "m1_data": {
-    "changed": "2026-08-18",
-    "status": "submitted",
-    "via": "email"
+    "status": "confirmed",
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "machintel": {
     "changed": "2026-08-29",
@@ -4696,9 +4696,9 @@
     "via": "email"
   },
   "perf_labs_inc_d_b_a_interseller": {
-    "changed": "2026-08-28",
-    "status": "submitted",
-    "via": null
+    "status": "acknowledged",
+    "changed": "2026-11-16",
+    "via": "email"
   },
   "perion": {
     "changed": "2026-08-28",
@@ -4756,9 +4756,9 @@
     "via": "email"
   },
   "pickmedicare": {
-    "changed": "2026-08-28",
     "status": "submitted",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "pipl": {
     "changed": "2026-09-04",
@@ -4806,9 +4806,9 @@
     "via": "email"
   },
   "podscribe": {
-    "changed": "2026-08-28",
     "status": "submitted",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "point_digital_finance": {
     "changed": "2026-10-14",
@@ -4851,9 +4851,9 @@
     "via": null
   },
   "preferred_communications": {
-    "changed": "2026-08-28",
     "status": "submitted",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "preqin": {
     "changed": "2026-09-29",
@@ -5096,9 +5096,9 @@
     "via": "email"
   },
   "rategain_adara": {
-    "changed": "2026-08-28",
     "status": "submitted",
-    "via": "email"
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "ray_cdp": {
     "changed": "2026-08-29",
@@ -5121,9 +5121,9 @@
     "via": "reply"
   },
   "real_intent": {
-    "changed": "2026-08-28",
     "status": "submitted",
-    "via": "email"
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "real_performance_marketing": {
     "changed": "2026-08-19",
@@ -5401,8 +5401,8 @@
     "via": "reply"
   },
   "s_p_global": {
-    "changed": "2026-11-15",
-    "status": "submitted",
+    "status": "replied",
+    "changed": "2026-11-16",
     "via": "reply"
   },
   "saavn_media": {

@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-28)
-- Note: Recovered from the committed playbook brokers/p/perf_labs_inc_d_b_a_interseller.md, because the ledger carries no notes and this row's status had no evidence behind it: 2026-08-27: first contact. Interseller is a sales-engagement/contact-enrichment tool, so asked them to search for and delete DERIVED work email addresses (first.last@employer patterns) generated internally rather than supplied by the subject, and to say specifically if a derived record exists even when the personal identifiers draw a blank.
+- Current: `acknowledged` (updated 2026-11-16)
+- Note: 2026-11-16 found unrecorded: Interseller's Zendesk acknowledged on 2026-08-27 ('received your request via privacy@interseller.io and have logged it in our system... will review... ticket will be automatically closed without any additional follow-up response'). No chase sent: they said no further reply would come.
+- Earlier: Recovered from the committed playbook brokers/p/perf_labs_inc_d_b_a_interseller.md, because the ledger carries no notes and this row's status had no evidence behind it: 2026-08-27: first contact. Interseller is a sales-engagement/contact-enrichment tool, so asked them to search for and delete DERIVED work email addresses (first.last@employer patterns) generated internally rather than supplied by the subject, and to say specifically if a derived record exists even when the personal identifiers draw a blank.
 
 ## Steps
 

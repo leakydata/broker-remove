@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-18)
-- Note: List compilation/rental. Led with permanent SUPPRESSION rather than deletion, because these files rebuild from upstream compilers on a cycle and a deletion without a suppression entry returns at the next build. Also asked for source and date of acquisition, and for sensitive/modelled attributes to be DELETED rather than suppressed from mailing - a do-not-mail flag stops the mail while the attribute stays licensable, and the attribute is what gets sold.
+- Current: `confirmed` (updated 2026-11-16)
+- Note: 2026-11-16 M1 Data answered the chase: 'Your request was received and processed by our team.' (deletion/opt-out of 08-18 processed).
+- Earlier: List compilation/rental. Led with permanent SUPPRESSION rather than deletion, because these files rebuild from upstream compilers on a cycle and a deletion without a suppression entry returns at the next build. Also asked for source and date of acquisition, and for sensitive/modelled attributes to be DELETED rather than suppressed from mailing - a do-not-mail flag stops the mail while the attribute stays licensable, and the attribute is what gets sold.
 
 ## Steps
 

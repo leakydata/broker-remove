@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-28)
-- Note: Recovered from the committed playbook brokers/p/podscribe.md, because the ledger carries no notes and this row's status had no evidence behind it: 2026-08-27: first contact. Podcast ad attribution/measurement company: asked for hashed email matching, MAIDs/device IDs, and any listening or attribution event tied to my identifiers, not just a directly identifying record.
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-16 CHASED in-thread: over 80 days with no reply to the August request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
+- Earlier: Recovered from the committed playbook brokers/p/podscribe.md, because the ledger carries no notes and this row's status had no evidence behind it: 2026-08-27: first contact. Podcast ad attribution/measurement company: asked for hashed email matching, MAIDs/device IDs, and any listening or attribution event tied to my identifiers, not just a directly identifying record.
 
 ## Steps
 

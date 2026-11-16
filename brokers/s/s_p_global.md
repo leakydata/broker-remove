@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-11-15)
-- Note: AUDIT 2026-11-15, reply of 2026-09-08 never recorded: S&P Global declined to action the request, saying data subject rights do not extend to corporate entities and treating the request as made in the name of a company. It asks him to resubmit confirming he is a natural person, with proof of authority if acting for someone. This looks like a template misreading, since he wrote about himself. Replied 11-15: a natural person writing about his own data, not a company or agent. Asked them to process the original request.
+- Current: `replied` (updated 2026-11-16)
+- Note: 2026-11-16 S&P Global privacy (Privacy Compliance PM) offered to add the deletion request manually if given an address. Replied with current + 16 prior addresses and asked that the one request also cover Ipreo and IHS Markit (deletion, opt-out, suppression). Awaiting confirmation.
+- Earlier: AUDIT 2026-11-15, reply of 2026-09-08 never recorded: S&P Global declined to action the request, saying data subject rights do not extend to corporate entities and treating the request as made in the name of a company. It asks him to resubmit confirming he is a natural person, with proof of authority if acting for someone. This looks like a template misreading, since he wrote about himself. Replied 11-15: a natural person writing about his own data, not a company or agent. Asked them to process the original request.
 - Earlier: Recovered from the committed playbook brokers/s/s_p_global.md, because the ledger carries no notes and this row's status had no evidence behind it: 2026-08-26: emailed privacy@spglobal.com. Conceded any FCRA-regulated consumer-report product up front and scoped the request to non-FCRA products, marketing use and model training, asking them to say plainly what is FCRA-regulated and out of scope.
 
 ## Steps

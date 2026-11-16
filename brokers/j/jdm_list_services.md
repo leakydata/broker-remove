@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-11-16)
-- Note: 2026-11-16 CHASED in-thread: over 80 days with no reply to the August request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
+- Current: `not_found` (updated 2026-11-16)
+- Note: 2026-11-16 JDM List Services answered the chase: holds no names, addresses or emails; uses a third-party data supplier, to whom it forwarded the request; keeps the details on a suppression list. Asked for the supplier's name to confirm with them directly.
+- Earlier: 2026-11-16 CHASED in-thread: over 80 days with no reply to the August request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
 - Earlier: Emailed privacy@jdmlistservices.com 2026-08-28. Standard letter incl. retention clause.
 
 ## Steps
