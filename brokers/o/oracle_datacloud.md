@@ -8,8 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-23)
-- Note: Recovered from the committed playbook brokers/o/oracle_datacloud.md, because the ledger carries no notes and this row's status had no evidence behind it: Statutory opt-out/deletion email sent 2026-08-23, category-tailored.
+- Current: `unreachable` (updated 2026-11-16)
+- Note: AUDIT 2026-11-16: the 2026-08-23 send to `oracle-datacloud-privacy_us@oracle.com` hard-bounced within seconds -- 550 5.1.1 "User unknown" / "Recipient address rejected: Access denied" from Oracle's own Exchange Online front door. This bounce sat unread for 85 days, so the row read as a live pending request when in fact nothing was ever delivered -- exactly the "bounce is indistinguishable from pending" trap `CONTRIBUTING.md` warns about. The address does not exist; do not resend to it. Needs a verified alternate Oracle Data Cloud / Oracle Advertising privacy contact (check the current privacy policy page and any state broker registry filing) before trying again. Queued for `verify_emails.py` rather than guessed.
+- Earlier: Recovered from the committed playbook brokers/o/oracle_datacloud.md, because the ledger carries no notes and this row's status had no evidence behind it: Statutory opt-out/deletion email sent 2026-08-23, category-tailored.
 
 ## Steps
 

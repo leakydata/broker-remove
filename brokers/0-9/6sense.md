@@ -8,6 +8,9 @@
 
 ## Status
 
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-16 CHASED: 85 days of total silence since the 23 August letter. Sent a one-line chase asking whether a record exists in their intent/account data, with the fallback clause for state-coverage pushback.
+
 - Current: `submitted` (updated 2026-08-24)
 - Reference: `REQ-224224`
 - Note: 2026-08-24: REQ-224224 escalated into DataGrail; separate confirmation from privacy@6sense.mail.datagrail.io. Two systems, one request - watch for the DataGrail completion notice rather than a 6sense one.

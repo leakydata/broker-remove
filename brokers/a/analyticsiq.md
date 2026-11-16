@@ -8,6 +8,9 @@
 
 ## Status
 
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-16 CHASED: 85 days of total silence since the 23 August letter. Sent a one-line chase asking whether a record was found, with the fallback clause for state-coverage pushback.
+
 - Current: `submitted` (updated 2026-08-23)
 - Note: Recovered from the committed playbook brokers/a/analyticsiq.md, because the ledger carries no notes and this row's status had no evidence behind it: Statutory opt-out/deletion email sent 2026-08-23, category-tailored.
 

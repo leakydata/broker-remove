@@ -8,8 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-10-01)
-- Note: 2026-09-28: automated acknowledgment from Kochava/Collective Data Solutions -- flags any matching data for no further processing/deletion and adds a standing future-ingest filter. Conditional ('if any'), not a confirmed match-and-delete.
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-16 CHASED: 83 days since the 25 August letter (sent to legal@collectivedata.io -- a separate, older thread from privacyrequests@kochava.com, both apparently live). Sent a one-line chase asking them to confirm whether a record was actually found and deleted rather than the conditional 'if any' language, and whether the future-ingest filter is in place.
+- Earlier: 2026-09-28: automated acknowledgment from Kochava/Collective Data Solutions -- flags any matching data for no further processing/deletion and adds a standing future-ingest filter. Conditional ('if any'), not a confirmed match-and-delete.
 
 ## Steps
 

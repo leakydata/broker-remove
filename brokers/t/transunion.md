@@ -8,8 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-25)
-- Note: 2026-08-25: out-of-office autoreply from the named individual at TransUnion, offering a mobile number for urgent matters. NOT calling it - a deletion request is not urgent, and a personal cell is not a channel for this. Waiting for their return. Recording only so the thread state is clear.
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-16 CHASED: 85 days of total silence beyond the out-of-office autoreply below. Sent a one-line chase in-thread asking for confirmation of receipt and current status, with the fallback clause for state-coverage pushback.
+- Earlier: 2026-08-25: out-of-office autoreply from the named individual at TransUnion, offering a mobile number for urgent matters. NOT calling it - a deletion request is not urgent, and a personal cell is not a channel for this. Waiting for their return. Recording only so the thread state is clear.
 
 ## Steps
 

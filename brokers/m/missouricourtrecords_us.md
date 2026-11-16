@@ -8,8 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-16)
+- Current: `submitted` (updated 2026-11-16)
 - Reference: `gmail:1a00c8769c5bb484`
+- Note: 2026-11-16 CHASED as part of the family-wide chase sent on `courtrecords_us.md` (92 days of total silence, no acknowledgement ever). One chase to privacy@courtrecords.us covers all 51 state properties; see courtrecords_us.md for the chase text and _FAMILIES.md for the family. Do not send a separate chase for this id.
 - Note: Covered by ONE consolidated letter naming all 51 courtrecords.us state properties explicitly, with full identifier set (8 emails, 10 addresses, 9 phones). Asked which properties held a record.
 
 ## Steps

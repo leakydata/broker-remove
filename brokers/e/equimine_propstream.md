@@ -8,8 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-23)
-- Note: Recovered from the committed playbook brokers/e/equimine_propstream.md, because the ledger carries no notes and this row's status had no evidence behind it: Statutory opt-out/deletion email sent 2026-08-23, category-tailored.
+- Current: `manual_required` (updated 2026-11-16)
+- Note: AUDIT 2026-11-16: the 2026-08-23 email got a same-day reply that was never recorded, so this row sat at `submitted` for 85 days as though nothing had come back. privacyinquiry+noreply@propstream.com answered: "we are unable to process privacy requests submitted via email, and you must re-submit via an approved method" — pointing to the web form at the opt-out URL above. Email is a dead route here; a human needs to complete https://www.propstream.com/your-privacy-choices with a browser. Not chased by email again since they've already said plainly they won't act on it that way.
+- Earlier: Recovered from the committed playbook brokers/e/equimine_propstream.md, because the ledger carries no notes and this row's status had no evidence behind it: Statutory opt-out/deletion email sent 2026-08-23, category-tailored.
 
 ## Steps
 

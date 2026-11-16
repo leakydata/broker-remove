@@ -1529,6 +1529,35 @@ already routes to `contact@licensedata.org` — the scan confirmed it rather tha
 discovering it, which is the useful control case: the method reproduces a family
 established by other means.
 
+### privacy@courtrecords.us — the state-court-records family (51 sites, one mailbox)
+
+    courtrecords_us            alabamacourtrecords_us      alaskacourtrecords_us
+    arizonacourtrecords_us     arkansascourtrecords_us     californiacourtrecords_us
+    coloradocourtrecords_us    connecticutcourtrecords_us  delawarecourtrecords_us
+    floridacourtrecords_us     georgiacourtrecords_us      hawaiicourtrecords_us
+    idahocourtrecords_us       illinoiscourtrecords_us     indianacourtrecords_us
+    iowacourtrecords_us        kansascourtrecords_us       kentuckycourtrecords_us
+    louisianacourtrecords_us   mainecourtrecords_us        marylandcourtrecords_us
+    massachusetsscourtrecords_us michigancourtrecords_us   minnesotacourtrecords_us
+    mississippicourtrecords_us missouricourtrecords_us     montanacourtrecords_us
+    nebraskacourtrecords_us    nevadacourtrecords_us       newhampshirecourtrecords_us
+    newjerseycourtrecords_us   newmexicocourtrecords_us    newyorkcourtrecords_us
+    northcarolinacourtrecords_us northdakotacourtrecords_us ohiocourtrecords_us
+    oklahomacourtrecords_us    oregoncourtrecords_us       pennsylvaniacourtrecords_us
+    rhodeislandcourtrecord_us  southcarolinacourtrecords_us southdakotacourtrecords_us
+    tennesseecourtrecords_us   texascourtrecords_us        utahcourtrecords_us
+    vermontcourtrecords_us     virginiacourtrecords_us     washingtoncourtrecords_us
+    westvirginiacourtrecords_us wisconsincourtrecords_us   wyomingcourtrecords_us
+
+One state-named site per state plus the parent domain, all routed to the same
+`privacy@courtrecords.us` queue -- a single Zendesk instance serves the whole set
+(see `courtrecords_us.md`). **Send one consolidated letter naming all 51
+properties, and one chase when it goes silent, never 51 separate ones to the same
+mailbox** -- 92 days of total silence followed the original 16 August letter, and
+a 2026-11-16 chase was sent once, on `courtrecords_us.md`'s thread, covering every
+sibling. The siblings each carry a one-line pointer back to that file rather than
+their own copy of the chase text.
+
 ### Smaller clusters worth knowing
 
     GTM-TJC8P5K    dataaxle / exact_data            (data-axle.com)

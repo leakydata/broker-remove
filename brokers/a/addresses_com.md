@@ -8,9 +8,10 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-18)
+- Current: `confirmed` (updated 2026-11-16)
 - Reference: `gmail:1a0064addb7ed3d1`
-- Note: Family-wide suppression confirmed in five identical replies within twelve minutes: 'We have completed the suppression of your publicly available information from appearing in background reports on the people search sites within our corporate family that we control when a user searches by your name.' Three scoped limits pushed back on: keyed to NAME SEARCH only (I had asked for phone/address/email lookups too), scope stated as 'sites we control' without naming them, and suppression expressly not deletion.
+- Note: AUDIT 2026-11-16: status corrected from `submitted` to `confirmed` -- the note below already quoted an affirmative suppression statement and had simply never been reclassified. This id and `zabasearch` share the Intelius/PeopleConnect family thread (same `priorityoptout@intelius.com` reply) and the separate `intelius` row itself, which has its own live, more recent correspondence (see `intelius.md`, last updated 2026-10-19) -- no new chase needed here; any further follow-up on this family belongs on the `intelius` row.
+- Earlier: Family-wide suppression confirmed in five identical replies within twelve minutes: 'We have completed the suppression of your publicly available information from appearing in background reports on the people search sites within our corporate family that we control when a user searches by your name.' Three scoped limits pushed back on: keyed to NAME SEARCH only (I had asked for phone/address/email lookups too), scope stated as 'sites we control' without naming them, and suppression expressly not deletion.
 
 ## This is a PeopleConnect brand, not a standalone site
 
