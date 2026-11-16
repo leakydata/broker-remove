@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-22)
-- Note: Recovered from the committed playbook brokers/a/accudata_integrated_marketing.md, because the ledger carries no notes and this row's status had no evidence behind it: Statutory opt-out/deletion email sent 2026-08-22.  [minimal: this is the whole of what the playbook records]
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-16 CCPA-period chase in the original thread: no reply or acknowledgement since the 22 August request. Asked one question, whether it arrived, and for the correct address or form if this mailbox does not handle privacy requests.
+- Earlier: Recovered from the committed playbook brokers/a/accudata_integrated_marketing.md, because the ledger carries no notes and this row's status had no evidence behind it: Statutory opt-out/deletion email sent 2026-08-22.  [minimal: this is the whole of what the playbook records]
 
 ## Steps
 

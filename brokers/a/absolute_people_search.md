@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-22)
-- Note: Recovered from the committed playbook brokers/a/absolute_people_search.md, because the ledger carries no notes and this row's status had no evidence behind it: Statutory opt-out/deletion email sent 2026-08-22.  [minimal: this is the whole of what the playbook records]
+- Current: `captcha_blocked` (updated 2026-11-16)
+- Note: 2026-11-16 chase check: their only reply (08-22) is an auto-response saying email is not processed and removal requires the web form. The 'regulatory' form requires certifying CA/CT/CO/VA (or other covered-state) residence, so it is not usable from Pennsylvania. The general Suppression Center (public.php?funct=optout) takes any state; filled every field, but it has a reCAPTCHA, so it is handed to the user. Their later-stage verification asks for a redacted ID and utility bill, which the standing rule declines.
+- Earlier: Recovered from the committed playbook brokers/a/absolute_people_search.md, because the ledger carries no notes and this row's status had no evidence behind it: Statutory opt-out/deletion email sent 2026-08-22.  [minimal: this is the whole of what the playbook records]
 
 ## Steps
 

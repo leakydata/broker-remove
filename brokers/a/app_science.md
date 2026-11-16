@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-24)
-- Note: 2026-08-24: mobile/app data letter. Geographic query substituted for the MAID, plus app install and usage inventory called out as unusually disclosing, and a request to name the SDKs or publisher apps the data was collected through.
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-16 CCPA-period chase in the original thread: no reply or acknowledgement since the 24 August request. Asked one question, whether it arrived, and for the correct address or form if this mailbox does not handle privacy requests.
+- Earlier: 2026-08-24: mobile/app data letter. Geographic query substituted for the MAID, plus app install and usage inventory called out as unusually disclosing, and a request to name the SDKs or publisher apps the data was collected through.
 
 ## Steps
 

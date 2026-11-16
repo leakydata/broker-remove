@@ -8,8 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-17)
-- Note: Statutory delete/opt-out request emailed, tailored to the broker's data category; awaiting reply.
+- Current: `not_found` (updated 2026-11-16)
+- Note: AUDIT 2026-11-16, reply of 2026-08-18 never recorded: City-Data's webmaster answered our address-keyed follow-up with the same text as before: they cannot locate the name on the site (or it was already removed) and will close the request without a page URL. Property-assessment pages can be unlinked via city-data.com/delrequest/form.php, which needs that page's URL; none was ever found for any of the addresses. Treated as not found. The forum-account and suppression questions went unanswered.
+- Earlier: Statutory delete/opt-out request emailed, tailored to the broker's data category; awaiting reply.
 
 ## Steps
 

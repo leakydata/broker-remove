@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-24)
-- Note: 2026-08-24: lead-gen letter - how many times the lead was sold and to whom, direct the buyers to delete, name the originating site/affiliate, whether it was ever resold as an aged lead, and do-not-call held independently of the lead record.
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-16 CCPA-period chase in the original thread: no reply or acknowledgement since the 23 August request. Asked one question, whether it arrived, and for the correct address or form if this mailbox does not handle privacy requests.
+- Earlier: 2026-08-24: lead-gen letter - how many times the lead was sold and to whom, direct the buyers to delete, name the originating site/affiliate, whether it was ever resold as an aged lead, and do-not-call held independently of the lead record.
 
 ## Steps
 

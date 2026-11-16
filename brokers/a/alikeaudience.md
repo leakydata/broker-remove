@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-24)
-- Note: 2026-08-24: audience-data letter. Substituted the geographic query for the MAID the consumer cannot supply, asked for the graph edges not just identifier rows, named the sensitive inference categories explicitly, and asked which app SDK any segment originates from.
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-16 CCPA-period chase in the original thread: no reply or acknowledgement since the 23 August request. Asked one question, whether it arrived, and for the correct address or form if this mailbox does not handle privacy requests.
+- Earlier: 2026-08-24: audience-data letter. Substituted the geographic query for the MAID the consumer cannot supply, asked for the graph edges not just identifier rows, named the sensitive inference categories explicitly, and asked which app SDK any segment originates from.
 
 ## Steps
 

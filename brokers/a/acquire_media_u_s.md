@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-25)
-- Note: 2026-08-25: covered by one family-scoped letter to privacy@moodys.com naming all five registered entities (Moody's, Moody's Analytics, Bureau van Dijk, Reis, Acquire Media) and asking which ones were actually actioned. The family was established by MX tenant fingerprinting, not guesswork: bvdinfo.com, moodys.com and reis.com all resolve to Proofpoint tenant 00520701. See scripts/mx_family_scan.py and _FAMILIES.md.
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-16 CCPA-period chase in the original thread: no reply or acknowledgement since the 22 August request. Asked one question, whether it arrived, and for the correct address or form if this mailbox does not handle privacy requests.
+- Earlier: 2026-08-25: covered by one family-scoped letter to privacy@moodys.com naming all five registered entities (Moody's, Moody's Analytics, Bureau van Dijk, Reis, Acquire Media) and asking which ones were actually actioned. The family was established by MX tenant fingerprinting, not guesswork: bvdinfo.com, moodys.com and reis.com all resolve to Proofpoint tenant 00520701. See scripts/mx_family_scan.py and _FAMILIES.md.
 
 ## Steps
 

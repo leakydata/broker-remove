@@ -65,9 +65,9 @@
     "via": "email"
   },
   "absolute_people_search": {
-    "status": "submitted",
-    "changed": "2026-08-22",
-    "via": "email"
+    "status": "captcha_blocked",
+    "changed": "2026-11-16",
+    "via": "web"
   },
   "academixdirect": {
     "status": "confirmed",
@@ -81,8 +81,8 @@
   },
   "accudata_integrated_marketing": {
     "status": "submitted",
-    "changed": "2026-08-22",
-    "via": "email"
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "accurate_append": {
     "status": "submitted",
@@ -101,13 +101,13 @@
   },
   "acquire_media_u_s": {
     "status": "submitted",
-    "changed": "2026-08-22",
-    "via": "email"
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "acronymix": {
     "status": "submitted",
-    "changed": "2026-08-22",
-    "via": "email"
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "activimpact": {
     "status": "submitted",
@@ -132,8 +132,8 @@
   },
   "adadapted": {
     "status": "submitted",
-    "changed": "2026-08-22",
-    "via": "email"
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "adagio": {
     "status": "submitted",
@@ -167,8 +167,8 @@
   },
   "adprime": {
     "status": "submitted",
-    "changed": "2026-08-24",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "adrea_rubin_marketing": {
     "status": "unreachable",
@@ -307,8 +307,8 @@
   },
   "alikeaudience": {
     "status": "submitted",
-    "changed": "2026-08-24",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "all_biz": {
     "status": "submitted",
@@ -322,8 +322,8 @@
   },
   "all_web_leads": {
     "status": "submitted",
-    "changed": "2026-08-24",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "allant_group": {
     "status": "confirmed",
@@ -442,8 +442,8 @@
   },
   "app_science": {
     "status": "submitted",
-    "changed": "2026-08-24",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "appily": {
     "status": "manual_required",
@@ -1097,9 +1097,9 @@
     "via": "reply"
   },
   "city_data_com": {
-    "status": "submitted",
-    "changed": "2026-08-17",
-    "via": null
+    "status": "not_found",
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "citydata": {
     "status": "submitted",
@@ -1287,8 +1287,8 @@
     "via": null
   },
   "connected_investors": {
-    "status": "manual_required",
-    "changed": "2026-08-18",
+    "status": "replied",
+    "changed": "2026-11-16",
     "via": "reply"
   },
   "connecticut_arrests": {
@@ -2039,8 +2039,8 @@
   },
   "eprodirect": {
     "status": "submitted",
-    "changed": "2026-08-23",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "epsilon": {
     "status": "replied",
@@ -2954,8 +2954,8 @@
     "via": "reply"
   },
   "informa_techtarget": {
-    "status": "replied",
-    "changed": "2026-11-15",
+    "status": "submitted",
+    "changed": "2026-11-16",
     "via": "reply"
   },
   "information_com": {
@@ -3896,9 +3896,9 @@
     "via": "reply"
   },
   "monitorbase": {
-    "status": "manual_required",
-    "changed": "2026-11-15",
-    "via": "reply"
+    "status": "captcha_blocked",
+    "changed": "2026-11-16",
+    "via": "web"
   },
   "monocl": {
     "status": "submitted",
@@ -5227,8 +5227,8 @@
   },
   "reklaim": {
     "status": "submitted",
-    "changed": "2026-11-15",
-    "via": "reply"
+    "changed": "2026-11-16",
+    "via": "web"
   },
   "relationship_science": {
     "status": "submitted",

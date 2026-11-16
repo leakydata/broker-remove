@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-24)
-- Note: 2026-08-24: adtech letter. Hashed match keys with the suppression-vs-inventory distinction, edges not rows, and one direct question about health-related segments or inferences - asked explicitly because a general assurance is least informative in exactly that category.
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-16 CCPA-period chase in the original thread: no reply or acknowledgement since the 23 August request. Asked one question, whether it arrived, and for the correct address or form if this mailbox does not handle privacy requests.
+- Earlier: 2026-08-24: adtech letter. Hashed match keys with the suppression-vs-inventory distinction, edges not rows, and one direct question about health-related segments or inferences - asked explicitly because a general assurance is least informative in exactly that category.
 
 ## Steps
 
