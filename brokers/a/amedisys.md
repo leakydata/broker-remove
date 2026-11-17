@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-11-16)
-- Note: 2026-11-16 CHASED in-thread: over 80 days with no reply to the August request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
+- Current: `replied` (updated 2026-11-17)
+- Note: 2026-11-17 Amedisys HIPAA Compliance answered with a Proofpoint encrypted message, which needs a reader account to open. Asked in-thread for a plain-email answer (not a patient, so no health information): record found, deleted, opted out, suppressed? Opening the secure message is handed to the user.
+- Earlier: 2026-11-16 CHASED in-thread: over 80 days with no reply to the August request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
 - Earlier: 2026-08-29 sent privacy@amedisys.com. Home health/hospice/palliative provider that appears in a consumer removal directory. Wrote as a NON-PATIENT, which is the whole letter: if I were a patient the data would be PHI with a HIPAA right of access, but a hospice company's non-patient record is a PREDICTION that someone will need end-of-life care, built from age, inferred condition, discharge, Medicare eligibility, bereavement or household change -- more sensitive in substance and less protected in law. Asked existence, source, health-attribute/propensity score, and onward disclosure; requested delete + opt-out + 1798.121 limit-use + exclude-only suppression + do-not-contact. Explicitly said a clean 'no record' is a complete answer and will be recorded as a result, not an evasion.
 
 ## Steps

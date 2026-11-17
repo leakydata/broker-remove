@@ -376,8 +376,8 @@
     "via": null
   },
   "amedisys": {
-    "status": "submitted",
-    "changed": "2026-11-16",
+    "status": "replied",
+    "changed": "2026-11-17",
     "via": "reply"
   },
   "american_city_business_journals": {
@@ -5517,8 +5517,8 @@
   },
   "s_p_global": {
     "status": "replied",
-    "changed": "2026-11-16",
-    "via": "reply"
+    "changed": "2026-11-17",
+    "via": "web"
   },
   "saavn_media": {
     "changed": "2026-09-19",
@@ -5866,9 +5866,9 @@
     "via": "reply"
   },
   "sojern": {
-    "status": "submitted",
-    "changed": "2026-11-16",
-    "via": "email"
+    "status": "confirmed",
+    "changed": "2026-11-17",
+    "via": "reply"
   },
   "solar_direct_marketing": {
     "status": "submitted",

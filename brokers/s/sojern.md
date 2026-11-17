@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-11-16)
-- Note: 2026-11-16 CHASED in-thread: over 80 days with no reply to the August request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
+- Current: `confirmed` (updated 2026-11-17)
+- Note: 2026-11-17 Sojern privacy team (via RateGain) answered the chase: deletion and opt-out completed; personal data deleted from its systems and applications and opted out of all future processing. Apologised for the delay.
+- Earlier: 2026-11-16 CHASED in-thread: over 80 days with no reply to the August request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
 - Earlier: Recovered from the committed playbook brokers/s/sojern.md, because the ledger carries no notes and this row's status had no evidence behind it: 2026-08-30 Sent the AD TECH variant to sojernlegal@sojern.com, tailored for travel-intent advertising data. Standard ad-tech identifier set.
 
 ## Steps
