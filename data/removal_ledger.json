@@ -3190,7 +3190,7 @@
   },
   "ipreo": {
     "status": "replied",
-    "changed": "2026-11-16",
+    "changed": "2026-11-17",
     "via": "reply"
   },
   "ipsos": {
@@ -5516,9 +5516,9 @@
     "via": "reply"
   },
   "s_p_global": {
-    "status": "replied",
+    "status": "confirmed",
     "changed": "2026-11-17",
-    "via": "web"
+    "via": "reply"
   },
   "saavn_media": {
     "changed": "2026-09-19",
