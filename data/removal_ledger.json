@@ -351,9 +351,9 @@
     "via": null
   },
   "alpha_data_labs": {
-    "changed": "2026-09-18",
     "status": "submitted",
-    "via": "email"
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "alphonso": {
     "changed": "2026-08-17",
@@ -996,9 +996,9 @@
     "via": "reply"
   },
   "cashmere": {
-    "changed": "2026-11-16",
     "status": "submitted",
-    "via": "reply"
+    "changed": "2026-11-16",
+    "via": "web"
   },
   "catalina_marketing": {
     "changed": "2026-09-04",
@@ -2749,9 +2749,9 @@
     "via": "email"
   },
   "hivestack": {
-    "changed": "2026-08-28",
     "status": "submitted",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "web"
   },
   "home_media": {
     "changed": "2026-10-01",
@@ -3149,9 +3149,9 @@
     "via": "email"
   },
   "jigyasa_analytics": {
-    "status": "submitted",
+    "status": "replied",
     "changed": "2026-11-16",
-    "via": "email"
+    "via": "reply"
   },
   "jkid_consulting": {
     "status": "submitted",
@@ -4001,9 +4001,9 @@
     "via": "reply"
   },
   "native_american_netroots": {
-    "changed": "2026-09-19",
-    "status": "unreachable",
-    "via": "email"
+    "status": "manual_required",
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "nativo": {
     "changed": "2026-09-21",
@@ -4701,9 +4701,9 @@
     "via": "email"
   },
   "perion": {
-    "changed": "2026-08-28",
     "status": "submitted",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "web"
   },
   "permutive": {
     "changed": "2026-08-28",
@@ -5081,9 +5081,9 @@
     "via": "email"
   },
   "radaris_germany": {
-    "changed": "2026-09-18",
     "status": "submitted",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "rainbarrel": {
     "changed": "2026-10-15",
@@ -5431,9 +5431,9 @@
     "via": null
   },
   "salary_com": {
-    "changed": "2026-09-12",
     "status": "submitted",
-    "via": "email"
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "salesassistiq": {
     "changed": "2026-08-28",
@@ -6327,9 +6327,9 @@
     "via": "email"
   },
   "trulia": {
-    "changed": "2026-09-12",
     "status": "submitted",
-    "via": "email"
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "trust_will": {
     "status": "submitted",
@@ -6457,9 +6457,9 @@
     "via": "email"
   },
   "user_searcher": {
-    "changed": "2026-09-12",
     "status": "submitted",
-    "via": "email"
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "usinfosearch_com": {
     "changed": "2026-08-30",
@@ -6728,14 +6728,14 @@
     "via": "email"
   },
   "wealthfeed": {
-    "changed": "2026-09-02",
     "status": "submitted",
-    "via": "email"
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "wealthminder": {
-    "changed": "2026-09-02",
     "status": "submitted",
-    "via": "email"
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "webbula": {
     "changed": "2026-08-20",

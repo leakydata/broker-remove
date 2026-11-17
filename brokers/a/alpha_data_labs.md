@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-10-12)
-- Note: 2026-10-12 supplement sent (same pattern as `xverum.md` and
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-16 CHASED in-thread: over 60 days with no reply; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
+- Earlier: 2026-10-12 supplement sent (same pattern as `xverum.md` and
   `eab.md` this same week) — hireEZ's reply enclosed a portable profile copy
   showing the closed university `[EMAIL]` mailbox and "Mechanicsburg, PA" as
   recorded keys distinct from the original letter's current identifiers.

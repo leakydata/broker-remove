@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-02)
-- Note: Recovered from the committed playbook brokers/w/wealthminder.md, because the ledger carries no notes and this row's status had no evidence behind it: 2026-09-02: Sent. Wealthminder is a financial-advisor-matching platform -- landed in this registry via a directory scrape (Optery cohort) with route_evidence: none, no direct attestation of broker status. Used the general sales@ mailbox (only address published). Letter asked directly whether they hold data beyond registered users/advisors before making the standard asks.
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-16 CHASED in-thread: over 60 days with no reply; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
+- Earlier: Recovered from the committed playbook brokers/w/wealthminder.md, because the ledger carries no notes and this row's status had no evidence behind it: 2026-09-02: Sent. Wealthminder is a financial-advisor-matching platform -- landed in this registry via a directory scrape (Optery cohort) with route_evidence: none, no direct attestation of broker status. Used the general sales@ mailbox (only address published). Letter asked directly whether they hold data beyond registered users/advisors before making the standard asks.
 
 ## Steps
 

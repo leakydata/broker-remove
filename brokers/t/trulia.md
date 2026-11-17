@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-12)
-- Note: Letter to customerservice@trulia.com 2026-09-12, asking them to forward to the Zillow Group privacy team rather than return it. Address-keyed, so the sixteen-address history is the search. Two structural questions: whether a deletion survives the next ingest of recorder, assessor and MLS feeds -- with an invitation to say plainly if some of it is republished from a public record they cannot hold out -- and whether any past enquiry was forwarded to an agent or partner, with the 1798.105(c) ask for categories of recipient so it can be chased onward. Stated the occupant limit strongly: in a property database, suppressing an ADDRESS rather than the association would remove the current occupants.
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-16 CHASED in-thread: over 60 days with no reply; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
+- Earlier: Letter to customerservice@trulia.com 2026-09-12, asking them to forward to the Zillow Group privacy team rather than return it. Address-keyed, so the sixteen-address history is the search. Two structural questions: whether a deletion survives the next ingest of recorder, assessor and MLS feeds -- with an invitation to say plainly if some of it is republished from a public record they cannot hold out -- and whether any past enquiry was forwarded to an agent or partner, with the 1798.105(c) ask for categories of recipient so it can be chased onward. Stated the occupant limit strongly: in a property database, suppressing an ADDRESS rather than the association would remove the current occupants.
 
 ## Steps
 

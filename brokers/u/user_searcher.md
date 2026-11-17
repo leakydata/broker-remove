@@ -8,8 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-12)
-- Note: ONE ASK SPECIFIC TO THIS ROW, added on top of the batch letter. The name suggests an index keyed to USERNAMES, HANDLES OR PROFILE IDENTIFIERS rather than to name and address. If so that is a different store from a people-search index and a name-and-address search will not reach it, so the letter asks them to confirm and to treat any record keyed to a username or handle as in scope. Also made the point that for an account-keyed service an OLD EMAIL ADDRESS is very likely the join key -- which is why all twelve were listed rather than the current one. Invited them to disregard the paragraph if that is not what they do.
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-16 CHASED in-thread: over 60 days with no reply; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
+- Earlier: ONE ASK SPECIFIC TO THIS ROW, added on top of the batch letter. The name suggests an index keyed to USERNAMES, HANDLES OR PROFILE IDENTIFIERS rather than to name and address. If so that is a different store from a people-search index and a name-and-address search will not reach it, so the letter asks them to confirm and to treat any record keyed to a username or handle as in scope. Also made the point that for an account-keyed service an OLD EMAIL ADDRESS is very likely the join key -- which is why all twelve were listed rather than the current one. Invited them to disregard the paragraph if that is not what they do.
 
 ## Steps
 

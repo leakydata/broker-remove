@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-11-16)
-- Note: 2026-11-16 CHASED in-thread: over 80 days with no reply to the August request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
+- Current: `replied` (updated 2026-11-16)
+- Note: 2026-11-17 Jigyasa Analytics answered the chase: 'no longer acts as a data broker and does not buy or sell personal data' (also claimed as its auto-reply). Replied asking whether any record from its broker period remains, to delete it, or to state it holds none.
+- Earlier: 2026-11-16 CHASED in-thread: over 80 days with no reply to the August request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
 - Earlier: Emailed info@jigyasaanalytics.com 2026-08-28 (registry route; no role-specific privacy address published). Standard letter incl. retention clause.
 
 ## Steps

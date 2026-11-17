@@ -8,8 +8,9 @@
 
 ## Status
 
-- Current: `manual_required` (updated 2026-10-11)
-- Note: NOT UNREACHABLE -- THE SITE IS LIVE AND BLOCKING AUTOMATED CLIENTS. nativeamericannetroots.net resolves to a Cloudflare address (2606:4700:20::681a:311) and returns HTTP 403 to a scripted request on every path tried: /, /privacy, /privacy-policy, /opt-out, /optout. A 403 from Cloudflare is a bot challenge, NOT A DEAD SITE. The distinction matters because the two are indistinguishable from a script and the project recorded the wrong one. Moving to manual_required: the site needs a real browser session, which is a handoff, not an impossibility. Previously an adopted ledger line from 2026-09-19 with no detail. WORTH NOTING ABOUT THIS ONE SPECIFICALLY: a .net site called Native American Netroots reads much more like a community or advocacy publication than a data broker, so before spending effort on a privacy route, check WHY it is on the broker list at all. If it is there because a name matched a registry entry loosely, the right outcome may be removing it from the registry rather than writing to it.
+- Current: `manual_required` (updated 2026-11-16)
+- Note: 2026-11-16 CHASED in-thread: over 60 days with no reply; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
+- Earlier: NOT UNREACHABLE -- THE SITE IS LIVE AND BLOCKING AUTOMATED CLIENTS. nativeamericannetroots.net resolves to a Cloudflare address (2606:4700:20::681a:311) and returns HTTP 403 to a scripted request on every path tried: /, /privacy, /privacy-policy, /opt-out, /optout. A 403 from Cloudflare is a bot challenge, NOT A DEAD SITE. The distinction matters because the two are indistinguishable from a script and the project recorded the wrong one. Moving to manual_required: the site needs a real browser session, which is a handoff, not an impossibility. Previously an adopted ledger line from 2026-09-19 with no detail. WORTH NOTING ABOUT THIS ONE SPECIFICALLY: a .net site called Native American Netroots reads much more like a community or advocacy publication than a data broker, so before spending effort on a privacy route, check WHY it is on the broker list at all. If it is there because a name matched a registry entry loosely, the right outcome may be removing it from the registry rather than writing to it.
 
 ## Steps
 

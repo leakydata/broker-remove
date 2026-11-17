@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-12)
-- Note: Letter to customer-service@radaris.com 2026-09-12 asking ONLY about radaris.de, framed as a follow-on rather than a repeat: radaris.com confirmed removal on 1 September and that is not being reopened. Three questions in order of usefulness -- (1) did the .com removal propagate to .de, a plain yes closing the matter; (2) which legal ENTITY operates radaris.de and is it the same controller, so the request can be redirected rather than assumed; (3) if a record survives there, delete plus persistent suppression. On basis: stated openly that the subject is a Pennsylvania resident with no GDPR right of his own, and asked them to apply Arts. 15/17 only if the .de entity is EU-established or processes under the GDPR in practice -- since their processing is what brings it in scope, not his residence. Asked them to name whichever basis they used. This row is the same-brand-different-index case: a confirmation from one property is silent about the other without either side saying anything untrue.
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-16 CHASED in-thread: over 60 days with no reply; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
+- Earlier: Letter to customer-service@radaris.com 2026-09-12 asking ONLY about radaris.de, framed as a follow-on rather than a repeat: radaris.com confirmed removal on 1 September and that is not being reopened. Three questions in order of usefulness -- (1) did the .com removal propagate to .de, a plain yes closing the matter; (2) which legal ENTITY operates radaris.de and is it the same controller, so the request can be redirected rather than assumed; (3) if a record survives there, delete plus persistent suppression. On basis: stated openly that the subject is a Pennsylvania resident with no GDPR right of his own, and asked them to apply Arts. 15/17 only if the .de entity is EU-established or processes under the GDPR in practice -- since their processing is what brings it in scope, not his residence. Asked them to name whichever basis they used. This row is the same-brand-different-index case: a confirmation from one property is silent about the other without either side saying anything untrue.
 
 ## Steps
 
