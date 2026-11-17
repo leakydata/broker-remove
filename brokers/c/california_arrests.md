@@ -7,7 +7,8 @@
 
 ## Status
 
-- Current: `pending`
+- Current: `submitted` (updated 2026-11-16)
+- Note: FILED 2026-11-16 through the site's own CCPA web form (/ccpaOptOut/): Myself, Delete my information (single-choice radio), name, reply address, age, current city/state, past cities and states; the free-text box adds do-not-sell and suppression and says a null answer is fine. No residency certification on the form. Cloudflare Turnstile passed automatically; Contact Form 7 returned 'Thank you for your message. It has been sent.' No confirmation email is sent by this form, so the next signal is a reply or nothing.
 
 ## Steps
 

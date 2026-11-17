@@ -7,7 +7,8 @@
 
 ## Status
 
-- Current: `pending`
+- Current: `captcha_blocked` (updated 2026-11-16)
+- Note: TRIED 2026-11-16: the removal page (remove_name.htm) returns an 'Access is temporarily restricted - unusual activity' bot wall to the automated browser before any form renders. Needs a person on an ordinary connection. Handed off.
 
 ## Steps
 

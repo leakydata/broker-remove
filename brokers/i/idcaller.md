@@ -7,7 +7,8 @@
 
 ## Status
 
-- Current: `pending`
+- Current: `unreachable` (updated 2026-11-16)
+- Note: CHECKED 2026-11-16 in a real browser: idcaller.com returns HTTP 503 (server unable to handle the request), the same as a plain fetch. No page or route to use. Recheck later.
 
 ## Steps
 

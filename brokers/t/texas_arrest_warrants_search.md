@@ -7,7 +7,8 @@
 
 ## Status
 
-- Current: `pending`
+- Current: `covered_by_sibling` (updated 2026-11-16)
+- Note: CHECKED 2026-11-16: texasarrestwarrants.org is an InfoTracer/InfoPay affiliate front end (its contact page bills as 'SAFECART*EVERIFY / INFOPAY' and routes help to infotracer.com). InfoPay's consolidated reply of 2026-08-27 already covered all its brands: zero records across the full identifier set, with a standing suppression applied on ingestion. See infopay / infotracer. The site's own contact form is behind a reCAPTCHA and is only an order-support form, so nothing further to file.
 
 ## Steps
 

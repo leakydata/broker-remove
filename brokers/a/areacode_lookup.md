@@ -7,7 +7,8 @@
 
 ## Status
 
-- Current: `pending`
+- Current: `unreachable` (updated 2026-11-16)
+- Note: TRIED 2026-11-16: areacode-lookup.com resolves, but its TLS certificate has expired, so the browser shows only an error page and the opt-out form cannot be reached safely. An expired certificate on a site that still claims to take opt-outs usually means it is unmaintained. Recheck later; do not click through the certificate warning to submit personal data.
 
 ## Steps
 

@@ -7,7 +7,8 @@
 
 ## Status
 
-- Current: `pending`
+- Current: `unreachable` (updated 2026-11-16)
+- Note: CHECKED 2026-11-16: familyrelatives.com is a 'Coming Soon 2027' placeholder with a launch-notification signup and no search, records or privacy page. Nothing is being published or sold, so there is nothing to opt out of. Recheck after launch.
 
 ## Steps
 

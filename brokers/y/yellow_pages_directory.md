@@ -7,7 +7,8 @@
 
 ## Status
 
-- Current: `pending`
+- Current: `pending` (updated 2026-11-16)
+- Note: PARTLY CHECKED 2026-11-16: yellowpagesdirectory.com runs a residential White Pages (name, city, ZIP, phone) next to its business directory. Removal is per listing: open the listing, use the 'Are you the business owner / reporting errors' link under the map, choose Delete. Its name search sends the name in the URL query string, so I browsed its own state > city > surname-letter pages instead. Blue Ridge Summit: three listings under the surname, none with the first name or its short form. The larger towns (current city and the prior towns) are paginated, and the site began returning HTTP 429 (rate limit) partway through, so those are still unchecked. Continue slowly next pass.
 
 ## Steps
 

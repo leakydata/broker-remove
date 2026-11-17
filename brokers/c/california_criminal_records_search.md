@@ -7,7 +7,8 @@
 
 ## Status
 
-- Current: `pending`
+- Current: `covered_by_sibling` (updated 2026-11-16)
+- Note: CHECKED 2026-11-16: californiacriminalrecords.org is the same InfoTracer/InfoPay affiliate template (identical contact form, 'SAFECART*EVERIFY / INFOPAY' billing line, help routed to infotracer.com). Covered by InfoPay's consolidated nil return and standing suppression of 2026-08-27; see infopay.
 
 ## Steps
 

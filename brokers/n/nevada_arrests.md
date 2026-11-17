@@ -7,7 +7,8 @@
 
 ## Status
 
-- Current: `pending`
+- Current: `submitted` (updated 2026-11-16)
+- Note: FILED 2026-11-16 through the site's contact form (/contact-form; the /ccpaOptOut/ path used by the California sibling is a 404 here). Same substance as the California filing: delete any arrest/court/mugshot page or profile keyed to the name, do not sell, suppress against re-import, a null answer is fine. Contact Form 7 returned 'Thank you for your message. It has been sent.'
 
 ## Steps
 
