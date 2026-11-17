@@ -291,7 +291,7 @@
     "via": null
   },
   "alarmscalifornia": {
-    "status": "replied",
+    "status": "not_found",
     "changed": "2026-11-17",
     "via": "reply"
   },
@@ -961,7 +961,7 @@
     "via": "web"
   },
   "californiabrokers_org": {
-    "status": "replied",
+    "status": "not_found",
     "changed": "2026-11-17",
     "via": "reply"
   },
@@ -971,22 +971,22 @@
     "via": null
   },
   "californiaengineering_org": {
-    "status": "replied",
+    "status": "not_found",
     "changed": "2026-11-17",
     "via": "reply"
   },
   "californialicensing_org": {
-    "status": "replied",
+    "status": "not_found",
     "changed": "2026-11-17",
     "via": "reply"
   },
   "californianursing_org": {
-    "status": "replied",
+    "status": "not_found",
     "changed": "2026-11-17",
     "via": "reply"
   },
   "californiapharmacists_org": {
-    "status": "replied",
+    "status": "not_found",
     "changed": "2026-11-17",
     "via": "reply"
   },
@@ -1387,7 +1387,7 @@
     "via": "reply"
   },
   "contractorscalifornia_org": {
-    "status": "replied",
+    "status": "not_found",
     "changed": "2026-11-17",
     "via": "reply"
   },
@@ -1813,7 +1813,7 @@
     "via": null
   },
   "dentistscalifornia_org": {
-    "status": "replied",
+    "status": "not_found",
     "changed": "2026-11-17",
     "via": "reply"
   },
@@ -2324,7 +2324,7 @@
     "via": "reply"
   },
   "firearmscalifornia_org": {
-    "status": "replied",
+    "status": "not_found",
     "changed": "2026-11-17",
     "via": "reply"
   },
@@ -4376,7 +4376,7 @@
     "via": null
   },
   "notariescalifornia_com": {
-    "status": "replied",
+    "status": "not_found",
     "changed": "2026-11-17",
     "via": "reply"
   },
@@ -5846,8 +5846,8 @@
     "via": "email"
   },
   "snov_io": {
-    "changed": "2026-10-12",
     "status": "confirmed",
+    "changed": "2026-11-17",
     "via": "reply"
   },
   "socialcatfish": {
@@ -6672,9 +6672,9 @@
     "via": "email"
   },
   "vendelux": {
-    "status": "submitted",
-    "changed": "2026-11-16",
-    "via": "email"
+    "status": "not_found",
+    "changed": "2026-11-17",
+    "via": "reply"
   },
   "venntel": {
     "changed": "2026-09-03",
