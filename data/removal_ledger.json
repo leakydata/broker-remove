@@ -1262,8 +1262,8 @@
     "via": "reply"
   },
   "collectors_datastore": {
-    "changed": "2026-11-16",
-    "status": "submitted",
+    "status": "not_found",
+    "changed": "2026-11-17",
     "via": "reply"
   },
   "colorado_arrests": {
@@ -1462,9 +1462,9 @@
     "via": null
   },
   "crexi": {
-    "changed": "2026-10-15",
-    "status": "manual_required",
-    "via": "web"
+    "status": "submitted",
+    "changed": "2026-11-17",
+    "via": "email"
   },
   "crime_informer": {
     "changed": "2026-09-12",
@@ -3159,9 +3159,9 @@
     "via": "email"
   },
   "internet_brands": {
-    "changed": "2026-08-28",
-    "status": "submitted",
-    "via": null
+    "status": "replied",
+    "changed": "2026-11-17",
+    "via": "reply"
   },
   "intranet_quorum": {
     "changed": "2026-09-11",
@@ -6808,9 +6808,9 @@
     "via": "email"
   },
   "vizio_services": {
-    "status": "submitted",
-    "changed": "2026-11-16",
-    "via": "email"
+    "status": "replied",
+    "changed": "2026-11-17",
+    "via": "reply"
   },
   "voilanorbert": {
     "changed": "2026-11-15",
