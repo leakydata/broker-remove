@@ -1352,9 +1352,9 @@
     "via": "reply"
   },
   "corelogic_cotality": {
-    "changed": "2026-10-22",
     "status": "submitted",
-    "via": "email"
+    "changed": "2026-11-16",
+    "via": "web"
   },
   "coresignal": {
     "changed": "2026-11-16",
@@ -3149,7 +3149,7 @@
     "via": "email"
   },
   "jigyasa_analytics": {
-    "status": "replied",
+    "status": "not_found",
     "changed": "2026-11-16",
     "via": "reply"
   },
@@ -3821,8 +3821,8 @@
     "via": "email"
   },
   "mississippi_tornado_alley": {
-    "changed": "2026-08-28",
-    "status": "submitted",
+    "status": "manual_required",
+    "changed": "2026-11-16",
     "via": "web"
   },
   "mississippiarrests_org": {
@@ -4358,7 +4358,7 @@
   "old_friends": {
     "status": "submitted",
     "changed": "2026-11-16",
-    "via": "web"
+    "via": "reply"
   },
   "oms_small_medium_businesses_directory": {
     "changed": "2026-09-18",
@@ -6976,5 +6976,30 @@
     "changed": "2026-09-21",
     "status": "confirmed",
     "via": "reply"
+  },
+  "coloradoresidentdirectory": {
+    "status": "not_found",
+    "changed": "2026-11-16",
+    "via": "web"
+  },
+  "connecticut_resident_directory": {
+    "status": "not_found",
+    "changed": "2026-11-16",
+    "via": "web"
+  },
+  "florida_voter_directory": {
+    "status": "not_found",
+    "changed": "2026-11-16",
+    "via": "web"
+  },
+  "unitedstatesphonebook_com": {
+    "status": "not_found",
+    "changed": "2026-11-16",
+    "via": "web"
+  },
+  "americaphonebook": {
+    "status": "captcha_blocked",
+    "changed": "2026-11-16",
+    "via": "web"
   }
 }
