@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-29)
-- Note: 2026-08-29 REROUTED. The register contact [named individual]@alescodata.com autoresponded: 'Michael Sklorenko is no longer with the company. Please contact Steve Bell at [named individual]@alescodata.com.' Not a bounce -- the mailbox works, the person does not, which is the person-shaped-address failure caught live for once. Forwarded the full letter to [named individual]@alescodata.com with a covering note flagging both filing defects: the misspelled registered domain (responsesoulutionsllc.com) and the personal-name privacy contact, with the argument for a role address that survives staff changes.
+- Current: `covered_by_sibling` (updated 2026-11-17)
+- Note: 2026-11-17 Alesco Legal answered 'Yes' to the yes/no question: the Master Suppression entry made for the Alesco request also covers Response Solutions Group (same company, no record held).
+- Earlier: 2026-08-29 REROUTED. The register contact [named individual]@alescodata.com autoresponded: 'Michael Sklorenko is no longer with the company. Please contact Steve Bell at [named individual]@alescodata.com.' Not a bounce -- the mailbox works, the person does not, which is the person-shaped-address failure caught live for once. Forwarded the full letter to [named individual]@alescodata.com with a covering note flagging both filing defects: the misspelled registered domain (responsesoulutionsllc.com) and the personal-name privacy contact, with the argument for a role address that survives staff changes.
 
 ## Steps
 
