@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-11-16)
-- Note: 2026-11-16 CHASED in-thread: over 80 days with no reply to the August request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
+- Current: `not_found` (updated 2026-11-17)
+- Note: 2026-11-17 SciLeads (legal@) replied after the 45-day chase: detailed review found no information held under the listed email addresses. Asked in thread for one-line confirmation covering name with phone/postal identifiers, plus a suppression entry.
+- Earlier: 2026-11-16 CHASED in-thread: over 80 days with no reply to the August request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
 - Earlier: Recovered from the committed playbook brokers/s/scileads.md, because the ledger carries no notes and this row's status had no evidence behind it: 2026-08-26: emailed privacy@scileads.com. Same B2B variant as rampedup.
 
 ## Steps

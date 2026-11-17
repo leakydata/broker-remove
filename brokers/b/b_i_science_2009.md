@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-11-17)
-- Note: 45-day chase sent 2026-11-17 in the original thread: no reply of any kind since the request, so asked one question, whether it arrived and whether any record was found, plus the usual fallback to their published privacy policy.
+- Current: `acknowledged` (updated 2026-11-17)
+- Note: 2026-11-17 biScience auto-acknowledged the chase: says it processes anonymised, aggregated browsing data from affiliated consumer apps, not linked to name/email/phone, and offers individual review on reply. Replied to the DPO asking for the individual review: check listed identifiers incl. hashed emails, delete/opt out/suppress if found, and name the source apps/extensions by category.
+- Earlier: 45-day chase sent 2026-11-17 in the original thread: no reply of any kind since the request, so asked one question, whether it arrived and whether any record was found, plus the usual fallback to their published privacy policy.
 - Earlier: 2026-08-25: their CA registration lists dpo@bisceince.com - 'e' and 'i' transposed - and that domain has no mail records at all. Wrote to dpo@biscience.com and reported the typo, noting a no-MX domain produces a delay notice for ~48h before failing, so nobody discovers it quickly. SDK/extension-derived behavioural data, so asked what the index is keyed to and which apps or extensions feed it.
 
 ## Steps

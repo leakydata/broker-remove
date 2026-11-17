@@ -631,7 +631,7 @@
     "via": null
   },
   "b_i_science_2009": {
-    "status": "submitted",
+    "status": "acknowledged",
     "changed": "2026-11-17",
     "via": "reply"
   },
@@ -2479,7 +2479,7 @@
     "via": "reply"
   },
   "g2_stack": {
-    "status": "submitted",
+    "status": "acknowledged",
     "changed": "2026-11-17",
     "via": "reply"
   },
@@ -5506,8 +5506,8 @@
     "via": "email"
   },
   "scileads": {
-    "status": "submitted",
-    "changed": "2026-11-16",
+    "status": "not_found",
+    "changed": "2026-11-17",
     "via": "reply"
   },
   "scraping_robot": {
