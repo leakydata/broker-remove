@@ -546,8 +546,8 @@
     "via": "reply"
   },
   "atdata": {
-    "status": "submitted",
-    "changed": "2026-11-16",
+    "status": "manual_required",
+    "changed": "2026-11-17",
     "via": "web"
   },
   "atlantic_fox_technologies": {

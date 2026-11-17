@@ -8,8 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-11-16)
-- Note: 2026-11-16 OneTrust Privacy Web Form (Delete My Information, covering AtData and the legacy TowerData file) submitted by the user; request 4DCNCBY94M; emailed verification link opened by the agent: 'Your request is confirmed'. InstantData opt-out (bucket puzzle) still in the handoff queue.
+- Current: `manual_required` (updated 2026-11-17)
+- Note: 2026-11-17 OneTrust: AtData posted a comment on request 4DCNCBY94M ('Your Privacy Request Needs Attention'). The comment can only be read in the portal behind an image CAPTCHA and an emailed code, so it is handed to the user; do not upload ID or give an SSN if that is what it asks for.
+- Earlier: 2026-11-16 OneTrust Privacy Web Form (Delete My Information, covering AtData and the legacy TowerData file) submitted by the user; request 4DCNCBY94M; emailed verification link opened by the agent: 'Your request is confirmed'. InstantData opt-out (bucket puzzle) still in the handoff queue.
 - Earlier: 2026-11-16: see towerdata. AtData's two web routes (OneTrust delete form, InstantData services opt-out) filled; reCAPTCHA / image puzzle left to the user.
 - Earlier: Statutory delete/opt-out request emailed, tailored to the broker's data category; awaiting reply.
 
