@@ -8,9 +8,10 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-16)
+- Current: `replied` (updated 2026-11-17)
 - Reference: `gmail:1a00c87905780a1a`
-- Note: Covered by ONE consolidated letter naming all 10 licensedata.org properties. California-based so CCPA applies directly. Asked for written confirmation even if no record exists, plus suppression against future creation.
+- Note: Data Services LLC (operator of the licensedata.org family) replied 2026-08-16 offering removal but asking for the listing URL; this went unanswered until 2026-11-17, when a reply in the same thread explained that the subject has never held any California licence or lived there, declined to self-search, and asked them to search by name and email, delete any match, confirm in one line (no record found / deleted), and suppress. It also asked them to leave alone any namesake who does hold a licence.
+- Earlier: Covered by ONE consolidated letter naming all 10 licensedata.org properties. California-based so CCPA applies directly. Asked for written confirmation even if no record exists, plus suppression against future creation.
 
 ## Steps
 

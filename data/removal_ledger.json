@@ -40,9 +40,9 @@
     "via": "email"
   },
   "5x5": {
-    "changed": "2026-08-22",
     "status": "submitted",
-    "via": "email"
+    "changed": "2026-11-17",
+    "via": "reply"
   },
   "6sense": {
     "status": "confirmed",
@@ -286,9 +286,9 @@
     "via": null
   },
   "alarmscalifornia": {
-    "changed": "2026-08-16",
-    "status": "submitted",
-    "via": null
+    "status": "replied",
+    "changed": "2026-11-17",
+    "via": "reply"
   },
   "alaska_arrests": {
     "changed": "2026-08-16",
@@ -301,9 +301,9 @@
     "via": null
   },
   "alesco_data": {
-    "changed": "2026-08-17",
-    "status": "submitted",
-    "via": null
+    "status": "not_found",
+    "changed": "2026-11-17",
+    "via": "reply"
   },
   "alikeaudience": {
     "changed": "2026-11-16",
@@ -311,9 +311,9 @@
     "via": "reply"
   },
   "all_biz": {
-    "changed": "2026-08-17",
     "status": "submitted",
-    "via": null
+    "changed": "2026-11-17",
+    "via": "reply"
   },
   "all_global_resources": {
     "changed": "2026-10-18",
@@ -371,9 +371,9 @@
     "via": "reply"
   },
   "american_city_business_journals": {
-    "changed": "2026-08-17",
     "status": "submitted",
-    "via": null
+    "changed": "2026-11-17",
+    "via": "reply"
   },
   "amf_internet_services": {
     "changed": "2026-09-17",
@@ -631,9 +631,9 @@
     "via": null
   },
   "b_i_science_2009": {
-    "changed": "2026-08-25",
     "status": "submitted",
-    "via": null
+    "changed": "2026-11-17",
+    "via": "reply"
   },
   "babel_street": {
     "changed": "2026-10-08",
@@ -916,9 +916,9 @@
     "via": null
   },
   "californiabrokers_org": {
-    "changed": "2026-08-16",
-    "status": "submitted",
-    "via": null
+    "status": "replied",
+    "changed": "2026-11-17",
+    "via": "reply"
   },
   "californiacourtrecords_us": {
     "changed": "2026-11-16",
@@ -926,24 +926,24 @@
     "via": null
   },
   "californiaengineering_org": {
-    "changed": "2026-08-16",
-    "status": "submitted",
-    "via": null
+    "status": "replied",
+    "changed": "2026-11-17",
+    "via": "reply"
   },
   "californialicensing_org": {
-    "changed": "2026-08-16",
-    "status": "submitted",
-    "via": null
+    "status": "replied",
+    "changed": "2026-11-17",
+    "via": "reply"
   },
   "californianursing_org": {
-    "changed": "2026-08-16",
-    "status": "submitted",
-    "via": null
+    "status": "replied",
+    "changed": "2026-11-17",
+    "via": "reply"
   },
   "californiapharmacists_org": {
-    "changed": "2026-08-16",
-    "status": "submitted",
-    "via": null
+    "status": "replied",
+    "changed": "2026-11-17",
+    "via": "reply"
   },
   "callapp_software": {
     "changed": "2026-09-14",
@@ -1322,9 +1322,9 @@
     "via": "email"
   },
   "contacts411": {
-    "changed": "2026-08-25",
-    "status": "unreachable",
-    "via": null
+    "status": "covered_by_sibling",
+    "changed": "2026-11-17",
+    "via": "reply"
   },
   "contentgine": {
     "changed": "2026-11-16",
@@ -1332,9 +1332,9 @@
     "via": "reply"
   },
   "contractorscalifornia_org": {
-    "changed": "2026-08-16",
-    "status": "submitted",
-    "via": null
+    "status": "replied",
+    "changed": "2026-11-17",
+    "via": "reply"
   },
   "converge": {
     "changed": "2026-08-17",
@@ -1748,9 +1748,9 @@
     "via": null
   },
   "dentistscalifornia_org": {
-    "changed": "2026-08-16",
-    "status": "submitted",
-    "via": null
+    "status": "replied",
+    "changed": "2026-11-17",
+    "via": "reply"
   },
   "dexknows_com": {
     "changed": "2026-08-17",
@@ -2068,9 +2068,9 @@
     "via": "email"
   },
   "esite_analytics": {
-    "changed": "2026-08-27",
-    "status": "submitted",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-11-17",
+    "via": "reply"
   },
   "everconnect": {
     "changed": "2026-11-16",
@@ -2169,9 +2169,9 @@
     "via": "reply"
   },
   "fastbackgroundcheck": {
-    "changed": "2026-08-18",
     "status": "submitted",
-    "via": "email"
+    "changed": "2026-11-17",
+    "via": "reply"
   },
   "fastpeoplesearch": {
     "changed": "2026-08-28",
@@ -2189,9 +2189,9 @@
     "via": "web"
   },
   "fetcher": {
-    "changed": "2026-08-31",
     "status": "submitted",
-    "via": "email"
+    "changed": "2026-11-17",
+    "via": "reply"
   },
   "fha_mortgage_finder": {
     "changed": "2026-08-18",
@@ -2254,9 +2254,9 @@
     "via": "reply"
   },
   "firearmscalifornia_org": {
-    "changed": "2026-08-16",
-    "status": "submitted",
-    "via": null
+    "status": "replied",
+    "changed": "2026-11-17",
+    "via": "reply"
   },
   "firecrawl": {
     "changed": "2026-09-02",
@@ -2269,9 +2269,9 @@
     "via": "reply"
   },
   "first_advantage": {
-    "changed": "2026-09-02",
     "status": "submitted",
-    "via": null
+    "changed": "2026-11-17",
+    "via": "reply"
   },
   "first_direct_national_list_services": {
     "changed": "2026-08-28",
@@ -2324,14 +2324,14 @@
     "via": null
   },
   "floridaparcels_com": {
-    "changed": "2026-08-18",
     "status": "submitted",
-    "via": "email"
+    "changed": "2026-11-17",
+    "via": "reply"
   },
   "fmadata": {
-    "changed": "2026-08-18",
     "status": "submitted",
-    "via": "email"
+    "changed": "2026-11-17",
+    "via": "reply"
   },
   "focus_usa": {
     "changed": "2026-08-18",
@@ -2479,9 +2479,9 @@
     "via": "reply"
   },
   "g2_stack": {
-    "changed": "2026-08-23",
     "status": "submitted",
-    "via": null
+    "changed": "2026-11-17",
+    "via": "reply"
   },
   "gale": {
     "changed": "2026-11-16",
@@ -3054,9 +3054,9 @@
     "via": "email"
   },
   "intentmacro": {
-    "changed": "2026-09-02",
     "status": "submitted",
-    "via": "email"
+    "changed": "2026-11-17",
+    "via": "reply"
   },
   "intentsify": {
     "status": "submitted",
@@ -3279,9 +3279,9 @@
     "via": "email"
   },
   "l2": {
-    "changed": "2026-08-29",
-    "status": "submitted",
-    "via": "email"
+    "status": "covered_by_sibling",
+    "changed": "2026-11-17",
+    "via": "reply"
   },
   "l2_data": {
     "status": "confirmed",
@@ -3475,9 +3475,9 @@
     "via": "email"
   },
   "liveramp": {
-    "changed": "2026-08-21",
-    "status": "submitted",
-    "via": "email"
+    "status": "confirmed",
+    "changed": "2026-11-17",
+    "via": "reply"
   },
   "lizdev": {
     "changed": "2026-08-26",
@@ -4266,9 +4266,9 @@
     "via": null
   },
   "notariescalifornia_com": {
-    "changed": "2026-08-16",
-    "status": "submitted",
-    "via": null
+    "status": "replied",
+    "changed": "2026-11-17",
+    "via": "reply"
   },
   "nova_list": {
     "changed": "2026-08-29",
@@ -4486,9 +4486,9 @@
     "via": null
   },
   "ourstates": {
-    "changed": "2026-08-28",
     "status": "submitted",
-    "via": "email"
+    "changed": "2026-11-17",
+    "via": "reply"
   },
   "outbrain": {
     "changed": "2026-08-19",
@@ -4531,9 +4531,9 @@
     "via": "email"
   },
   "pacificeast": {
-    "changed": "2026-08-19",
     "status": "submitted",
-    "via": "email"
+    "changed": "2026-11-17",
+    "via": "reply"
   },
   "pages_jaunes_solutions_numeriques_et_medias_limitee": {
     "changed": "2026-09-18",
@@ -4931,14 +4931,14 @@
     "via": "web"
   },
   "propertyrecord_com": {
-    "changed": "2026-08-19",
     "status": "submitted",
-    "via": "email"
+    "changed": "2026-11-17",
+    "via": "reply"
   },
   "propertyrecs": {
-    "changed": "2026-08-19",
     "status": "submitted",
-    "via": "email"
+    "changed": "2026-11-17",
+    "via": "reply"
   },
   "propertyshark": {
     "changed": "2026-09-18",
@@ -5011,9 +5011,9 @@
     "via": "email"
   },
   "publicrecords_us": {
-    "changed": "2026-08-19",
     "status": "submitted",
-    "via": "email"
+    "changed": "2026-11-17",
+    "via": "reply"
   },
   "publicrecordsnow": {
     "changed": "2026-09-18",
@@ -5901,9 +5901,9 @@
     "via": "email"
   },
   "stat_resource_group_llc_dba_statlistics": {
-    "changed": "2026-08-30",
-    "status": "submitted",
-    "via": "email"
+    "status": "not_found",
+    "changed": "2026-11-17",
+    "via": "reply"
   },
   "statara": {
     "changed": "2026-08-20",
@@ -6001,9 +6001,9 @@
     "via": "email"
   },
   "swoop_com": {
-    "changed": "2026-08-30",
-    "status": "submitted",
-    "via": "email"
+    "status": "covered_by_sibling",
+    "changed": "2026-11-17",
+    "via": "reply"
   },
   "swordfish_ai": {
     "changed": "2026-09-21",
@@ -6452,9 +6452,9 @@
     "via": "web"
   },
   "usdatacorporation": {
-    "changed": "2026-08-20",
     "status": "submitted",
-    "via": "email"
+    "changed": "2026-11-17",
+    "via": "reply"
   },
   "user_searcher": {
     "status": "submitted",
@@ -6953,9 +6953,9 @@
     "via": "email"
   },
   "zlookup": {
-    "changed": "2026-08-20",
     "status": "submitted",
-    "via": "email"
+    "changed": "2026-11-17",
+    "via": "reply"
   },
   "zoominfo": {
     "changed": "2026-11-15",
@@ -7043,7 +7043,7 @@
     "via": "web"
   },
   "yellow_pages_directory": {
-    "status": "pending",
+    "status": "manual_required",
     "changed": "2026-11-17",
     "via": "web"
   },

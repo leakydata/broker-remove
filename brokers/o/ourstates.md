@@ -8,8 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-28)
-- Note: Emailed privacy@ourstates.org 2026-08-28. Recorded by RECONCILIATION, not by the sending session: this letter was sent from [EMAIL] at ~10:19-10:36 UTC on 2026-08-28 by an agent running outside this session, and was never written to the tracker. Reconstructed from the Sent folder by matching the recipient against the registry's email_to. The letter body was not read, so its contents are unverified here -- treat the thread in Gmail as the authoritative copy. Recorded so queue_batch stops re-serving this broker and a duplicate letter is not sent.
+- Current: `submitted` (updated 2026-11-17)
+- Note: 45-day chase sent 2026-11-17 in the original thread: no reply of any kind since the request, so asked one question, whether it arrived and whether any record was found, plus the usual fallback to their published privacy policy.
+- Earlier: Emailed privacy@ourstates.org 2026-08-28. Recorded by RECONCILIATION, not by the sending session: this letter was sent from [EMAIL] at ~10:19-10:36 UTC on 2026-08-28 by an agent running outside this session, and was never written to the tracker. Reconstructed from the Sent folder by matching the recipient against the registry's email_to. The letter body was not read, so its contents are unverified here -- treat the thread in Gmail as the authoritative copy. Recorded so queue_batch stops re-serving this broker and a duplicate letter is not sent.
 
 ## Steps
 

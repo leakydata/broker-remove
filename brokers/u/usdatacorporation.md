@@ -10,8 +10,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-20)
-- Note: Letter sent 2026-08-20, tailored to category.
+- Current: `submitted` (updated 2026-11-17)
+- Note: 45-day chase sent 2026-11-17 in the original thread: no reply of any kind since the request, so asked one question, whether it arrived and whether any record was found, plus the usual fallback to their published privacy policy.
+- Earlier: Letter sent 2026-08-20, tailored to category.
 
 ## Gotchas
 

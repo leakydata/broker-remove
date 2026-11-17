@@ -8,8 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-19)
-- Note: Identity resolution and contact-data append. Framed around edges rather than rows: phone-to-name, name-to-phone, email-to-anything, and the linkage between current and former numbers and addresses - each independently queryable, so removing one direction leaves the fact retrievable from the other. Also asked for line-type, carrier, portability, connect/disconnect status, subscriber-name verification and any contactability or confidence score, which are personal information that survives a name-and-address deletion. Plus the two standing questions for this category: which identifier types did you match on, and which parts do you hold as a service provider rather than controller.
+- Current: `submitted` (updated 2026-11-17)
+- Note: 45-day chase sent 2026-11-17 in the original thread: no reply of any kind since the request, so asked one question, whether it arrived and whether any record was found, plus the usual fallback to their published privacy policy.
+- Earlier: Identity resolution and contact-data append. Framed around edges rather than rows: phone-to-name, name-to-phone, email-to-anything, and the linkage between current and former numbers and addresses - each independently queryable, so removing one direction leaves the fact retrievable from the other. Also asked for line-type, carrier, portability, connect/disconnect status, subscriber-name verification and any contactability or confidence score, which are personal information that survives a name-and-address deletion. Plus the two standing questions for this category: which identifier types did you match on, and which parts do you hold as a service provider rather than controller.
 
 ## Steps
 

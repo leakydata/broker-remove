@@ -8,8 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-27)
-- Note: Opt-out letter sent by email to privacy@kalibrate.com (delete + opt out of sale/sharing + direct downstream recipients + suppress against future ingestion). All twelve email addresses, sixteen prior addresses and eleven prior phone numbers listed for search. Sent as HTML per letter_html.
+- Current: `confirmed` (updated 2026-11-17)
+- Note: Kalibrate Privacy Team replied 2026-11-02 (found unrecorded on 2026-11-17): the subject has been opted out of any future processing, and any data matching or associated with the subject's name and address has been removed. The request is complete and closed. A record of the request is kept where the law requires.
+- Earlier: Opt-out letter sent by email to privacy@kalibrate.com (delete + opt out of sale/sharing + direct downstream recipients + suppress against future ingestion). All twelve email addresses, sixteen prior addresses and eleven prior phone numbers listed for search. Sent as HTML per letter_html.
 
 ## Steps
 

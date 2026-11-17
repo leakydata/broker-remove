@@ -8,8 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-19)
-- Note: Public-records people-search. Standard four asks plus six confirmations: suppression vs one-time, every matching record rather than one, relatives-and-associates scope, criminal/court-entry disclosure and source, DE-INDEXING with an explicit noindex directive as a separate item from content removal, and the FCRA position reconciled against their own not-a-CRA disclaimer. Also asked which sibling properties share the index.
+- Current: `submitted` (updated 2026-11-17)
+- Note: 45-day chase sent 2026-11-17 in the original thread: no reply of any kind since the request, so asked one question, whether it arrived and whether any record was found, plus the usual fallback to their published privacy policy.
+- Earlier: Public-records people-search. Standard four asks plus six confirmations: suppression vs one-time, every matching record rather than one, relatives-and-associates scope, criminal/court-entry disclosure and source, DE-INDEXING with an explicit noindex directive as a separate item from content removal, and the FCRA position reconciled against their own not-a-CRA disclaimer. Also asked which sibling properties share the index.
 
 ## Steps
 

@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-25)
-- Note: 2026-08-25: their CA registration lists dpo@bisceince.com - 'e' and 'i' transposed - and that domain has no mail records at all. Wrote to dpo@biscience.com and reported the typo, noting a no-MX domain produces a delay notice for ~48h before failing, so nobody discovers it quickly. SDK/extension-derived behavioural data, so asked what the index is keyed to and which apps or extensions feed it.
+- Current: `submitted` (updated 2026-11-17)
+- Note: 45-day chase sent 2026-11-17 in the original thread: no reply of any kind since the request, so asked one question, whether it arrived and whether any record was found, plus the usual fallback to their published privacy policy.
+- Earlier: 2026-08-25: their CA registration lists dpo@bisceince.com - 'e' and 'i' transposed - and that domain has no mail records at all. Wrote to dpo@biscience.com and reported the typo, noting a no-MX domain produces a delay notice for ~48h before failing, so nobody discovers it quickly. SDK/extension-derived behavioural data, so asked what the index is keyed to and which apps or extensions feed it.
 
 ## Steps
 

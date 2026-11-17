@@ -8,8 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-19)
-- Note: Property-records publisher, consolidated with propertyrecord.com: both route mail through Rackspace and both use AWS Route53 DNS, with closely similar branding in the same niche. Weaker evidence than a shared Cloudflare nameserver pair - Rackspace and Route53 are large shared vendors - so the letter states the inference AS an inference and invites correction. Concede-then-split framing on the public record, de-indexing with noindex as a separate ask, plus the three property-specific asks: ownership HISTORY entries and not just current ownership, neighbours/residents/related-persons panels on other properties' pages, and estimated values/mortgage/lien data which become financial inferences about a person once joined to a name.
+- Current: `submitted` (updated 2026-11-17)
+- Note: 45-day chase sent 2026-11-17 in the original thread: no reply of any kind since the request, so asked one question, whether it arrived and whether any record was found, plus the usual fallback to their published privacy policy.
+- Earlier: Property-records publisher, consolidated with propertyrecord.com: both route mail through Rackspace and both use AWS Route53 DNS, with closely similar branding in the same niche. Weaker evidence than a shared Cloudflare nameserver pair - Rackspace and Route53 are large shared vendors - so the letter states the inference AS an inference and invites correction. Concede-then-split framing on the public record, de-indexing with noindex as a separate ask, plus the three property-specific asks: ownership HISTORY entries and not just current ownership, neighbours/residents/related-persons panels on other properties' pages, and estimated values/mortgage/lien data which become financial inferences about a person once joined to a name.
 
 ## Steps
 

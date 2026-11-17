@@ -8,8 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-23)
-- Note: Recovered from the committed playbook brokers/g/g2_stack.md, because the ledger carries no notes and this row's status had no evidence behind it: Statutory opt-out/deletion email sent 2026-08-23, category-tailored.
+- Current: `submitted` (updated 2026-11-17)
+- Note: 45-day chase sent 2026-11-17 in the original thread: no reply of any kind since the request, so asked one question, whether it arrived and whether any record was found, plus the usual fallback to their published privacy policy.
+- Earlier: Recovered from the committed playbook brokers/g/g2_stack.md, because the ledger carries no notes and this row's status had no evidence behind it: Statutory opt-out/deletion email sent 2026-08-23, category-tailored.
 
 ## Steps
 

@@ -8,8 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-18)
-- Note: List compilation/rental. Permanent suppression, list renters, acquisition source, plus the sensitive-selects ask: whether health interest, financial distress, ethnicity, religion or political affiliation attributes are held or modelled, with deletion of the ATTRIBUTE requested rather than suppression from mailing - the attribute survives on a record that is merely no longer mailed, and the attribute is what is sold.
+- Current: `submitted` (updated 2026-11-17)
+- Note: 45-day chase sent 2026-11-17 in the original thread: no reply of any kind since the request, so asked one question, whether it arrived and whether any record was found, plus the usual fallback to their published privacy policy.
+- Earlier: List compilation/rental. Permanent suppression, list renters, acquisition source, plus the sensitive-selects ask: whether health interest, financial distress, ethnicity, religion or political affiliation attributes are held or modelled, with deletion of the ATTRIBUTE requested rather than suppression from mailing - the attribute survives on a record that is merely no longer mailed, and the attribute is what is sold.
 
 ## Steps
 

@@ -8,8 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-18)
-- Note: Property records; contact is info@areaplot.com, a different domain, so asked them to confirm they operate floridaparcels.com and name any sibling sites or say who does. Central ask: search BY ADDRESS not by name, since a parcel site is address-keyed and a name search can return nothing while a parcel page still names the subject as owner or resident. Asked for the ASSOCIATION to be deleted, not just the profile displaying it.
+- Current: `submitted` (updated 2026-11-17)
+- Note: 45-day chase sent 2026-11-17 in the original thread: no reply of any kind since the request, so asked one question, whether it arrived and whether any record was found, plus the usual fallback to their published privacy policy.
+- Earlier: Property records; contact is info@areaplot.com, a different domain, so asked them to confirm they operate floridaparcels.com and name any sibling sites or say who does. Central ask: search BY ADDRESS not by name, since a parcel site is address-keyed and a name search can return nothing while a parcel page still names the subject as owner or resident. Asked for the ASSOCIATION to be deleted, not just the profile displaying it.
 
 ## Steps
 

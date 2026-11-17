@@ -8,8 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-18)
-- Note: Background/public-record. Asked for DISCLOSURE and source of any criminal or court entry attributed to the subject, not just removal, since an inaccurate entry hidden rather than corrected returns at the next ingest. Also pre-empted the FCRA exemption by asking them to identify which products they claim it for and to reconcile it with any consumer-reporting-agency disclaimer in their own terms.
+- Current: `submitted` (updated 2026-11-17)
+- Note: 45-day chase sent 2026-11-17 in the original thread: no reply of any kind since the request, so asked one question, whether it arrived and whether any record was found, plus the usual fallback to their published privacy policy.
+- Earlier: Background/public-record. Asked for DISCLOSURE and source of any criminal or court entry attributed to the subject, not just removal, since an inaccurate entry hidden rather than corrected returns at the next ingest. Also pre-empted the FCRA exemption by asking them to identify which products they claim it for and to reconcile it with any consumer-reporting-agency disclaimer in their own terms.
 
 ## Steps
 

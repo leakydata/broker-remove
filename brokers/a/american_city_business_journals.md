@@ -7,9 +7,10 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-17)
+- Current: `submitted` (updated 2026-11-17)
 - Reference: `gmail:1a01043a0550b98e`
-- Note: Statutory deletion + opt-out emailed from [EMAIL]. Full identifier set: 8 emails, 10 prior addresses, 9 phones, DOB, aliases. Asks them to search hashed email forms and prior identifiers, and pre-empts the residency deflection. PUBLISHER variant: explicitly scoped to subscriber/marketing/event/commercial contact data and NOT editorial content - a publisher can otherwise reject the whole request on press-freedom grounds.
+- Note: 45-day chase sent 2026-11-17 in the original thread: no reply of any kind since the request, so asked one question, whether it arrived and whether any record was found, plus the usual fallback to their published privacy policy.
+- Earlier: Statutory deletion + opt-out emailed from [EMAIL]. Full identifier set: 8 emails, 10 prior addresses, 9 phones, DOB, aliases. Asks them to search hashed email forms and prior identifiers, and pre-empts the residency deflection. PUBLISHER variant: explicitly scoped to subscriber/marketing/event/commercial contact data and NOT editorial content - a publisher can otherwise reject the whole request on press-freedom grounds.
 
 ## Steps
 

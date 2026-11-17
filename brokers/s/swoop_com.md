@@ -7,7 +7,8 @@
 
 ## Status
 
-- Current: `replied` (updated 2026-10-29) — substantive but partial; two
+- Current: `covered_by_sibling` (updated 2026-11-17)
+- Note: Both of Swoop's named onboarders have now confirmed: Throtle confirmed deletion on 2026-10-01, and LiveRamp replied on 2026-11-12 that deletion, opt-out and suppression have been processed. Swoop says it holds data only in de-identified form and cannot act on an identified record itself, so the onboarder deletions are the actual removal. Swoop's questions about how re-identification works remain unanswered, but nothing further is needed for removal. — substantive but partial; two
   questions still open.
 - Reference: `gmail:1a12c56012f1fd7b`
 - 2026-10-29 (later same day): the 2026-10-29 follow-up below triggered only
