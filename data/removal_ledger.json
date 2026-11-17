@@ -5046,12 +5046,12 @@
     "via": "web"
   },
   "propertyrecord_com": {
-    "status": "submitted",
+    "status": "confirmed",
     "changed": "2026-11-17",
     "via": "reply"
   },
   "propertyrecs": {
-    "status": "submitted",
+    "status": "confirmed",
     "changed": "2026-11-17",
     "via": "reply"
   },
@@ -5126,7 +5126,7 @@
     "via": "email"
   },
   "publicrecords_us": {
-    "status": "submitted",
+    "status": "confirmed",
     "changed": "2026-11-17",
     "via": "reply"
   },

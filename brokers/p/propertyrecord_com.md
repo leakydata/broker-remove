@@ -8,8 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-11-17)
-- Note: 45-day chase sent 2026-11-17 in the original thread: no reply of any kind since the request, so asked one question, whether it arrived and whether any record was found, plus the usual fallback to their published privacy policy.
+- Current: `confirmed` (updated 2026-11-17)
+- Note: 2026-11-17 22:35Z: covered by the joint PropertyRecs request; the support desk answered the chase: information removed as requested, allow 48-72 hours.
+- Earlier: 45-day chase sent 2026-11-17 in the original thread: no reply of any kind since the request, so asked one question, whether it arrived and whether any record was found, plus the usual fallback to their published privacy policy.
 - Earlier: Only published contact is a NAMED INDIVIDUAL at the company's own domain - the same shape as mightyrep. Opened by apologising for using a named address, explaining it is the only one published, and asking to be redirected to a privacy mailbox. Consolidated with propertyrecs.com on shared Rackspace mail and shared Route53 DNS; see that entry.
 
 ## Steps
