@@ -3380,7 +3380,7 @@
   },
   "l2_data": {
     "status": "confirmed",
-    "changed": "2026-11-16",
+    "changed": "2026-11-17",
     "via": "reply"
   },
   "l_s_mobile_apps": {
@@ -5711,8 +5711,8 @@
     "via": "email"
   },
   "semantiq": {
-    "status": "submitted",
-    "changed": "2026-11-16",
+    "status": "not_found",
+    "changed": "2026-11-17",
     "via": "reply"
   },
   "semasio": {

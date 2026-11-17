@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-11-16)
-- Note: 2026-11-16 CHASED in-thread: over 80 days with no reply to the August request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
+- Current: `not_found` (updated 2026-11-17)
+- Note: 2026-11-17 SemantIQ Health privacy team answered: processed the opt-out of sale/sharing but could not locate any personal information associated with the details submitted; nothing they can reasonably link to the requester.
+- Earlier: 2026-11-16 CHASED in-thread: over 80 days with no reply to the August request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
 - Earlier: Recovered from the committed playbook brokers/s/semantiq.md, because the ledger carries no notes and this row's status had no evidence behind it: 2026-08-26: emailed [named individual]@semantiqhealth.com. Domain (semantiqhealth.com) differs from the registered name and suggests a healthcare-adjacent product the registry entry doesn't describe. Asked directly whether any record carries a health/medical/treatment-related attribute, since that changes the statutory footing if the answer is yes.
 
 ## Steps
