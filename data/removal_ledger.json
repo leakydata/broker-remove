@@ -165,6 +165,11 @@
     "status": "submitted",
     "via": null
   },
+  "adform": {
+    "status": "submitted",
+    "changed": "2026-11-16",
+    "via": "email"
+  },
   "adprime": {
     "changed": "2026-11-16",
     "status": "submitted",
@@ -330,6 +335,11 @@
     "status": "confirmed",
     "via": "form"
   },
+  "allareacodes": {
+    "status": "captcha_blocked",
+    "changed": "2026-11-16",
+    "via": "web"
+  },
   "alliant": {
     "changed": "2026-08-20",
     "status": "confirmed",
@@ -375,9 +385,19 @@
     "changed": "2026-11-17",
     "via": "reply"
   },
+  "americaphonebook": {
+    "status": "captcha_blocked",
+    "changed": "2026-11-16",
+    "via": "web"
+  },
   "amf_internet_services": {
     "changed": "2026-09-17",
     "status": "submitted",
+    "via": "email"
+  },
+  "amone": {
+    "status": "submitted",
+    "changed": "2026-11-17",
     "via": "email"
   },
   "amplemarket": {
@@ -459,6 +479,11 @@
     "status": "submitted",
     "changed": "2026-11-16",
     "via": "email"
+  },
+  "areacode_lookup": {
+    "status": "unreachable",
+    "changed": "2026-11-16",
+    "via": "web"
   },
   "aristotle_international": {
     "changed": "2026-08-24",
@@ -915,6 +940,16 @@
     "status": "manual_required",
     "via": null
   },
+  "california_arrests": {
+    "status": "submitted",
+    "changed": "2026-11-16",
+    "via": "web"
+  },
+  "california_criminal_records_search": {
+    "status": "covered_by_sibling",
+    "changed": "2026-11-16",
+    "via": "web"
+  },
   "californiabrokers_org": {
     "status": "replied",
     "changed": "2026-11-17",
@@ -1231,6 +1266,11 @@
     "status": "submitted",
     "via": null
   },
+  "coloradoresidentdirectory": {
+    "status": "not_found",
+    "changed": "2026-11-16",
+    "via": "web"
+  },
   "commerce_signals": {
     "changed": "2026-08-25",
     "status": "submitted",
@@ -1295,6 +1335,11 @@
     "changed": "2026-08-16",
     "status": "submitted",
     "via": null
+  },
+  "connecticut_resident_directory": {
+    "status": "not_found",
+    "changed": "2026-11-16",
+    "via": "web"
   },
   "connecticutarrests_org": {
     "changed": "2026-09-18",
@@ -1364,6 +1409,11 @@
   "corporationwiki": {
     "changed": "2026-10-09",
     "status": "not_found",
+    "via": "web"
+  },
+  "cortera": {
+    "status": "covered_by_sibling",
+    "changed": "2026-11-17",
     "via": "web"
   },
   "costar_realty_information": {
@@ -1606,6 +1656,11 @@
     "changed": "2026-11-16",
     "status": "submitted",
     "via": "reply"
+  },
+  "datarade": {
+    "status": "not_found",
+    "changed": "2026-11-16",
+    "via": "web"
   },
   "dataskip": {
     "changed": "2026-08-25",
@@ -2018,8 +2073,8 @@
     "via": "reply"
   },
   "enrich_layer": {
-    "status": "submitted",
-    "changed": "2026-11-16",
+    "status": "acknowledged",
+    "changed": "2026-11-17",
     "via": "reply"
   },
   "enriched": {
@@ -2151,6 +2206,11 @@
     "changed": "2026-08-27",
     "status": "submitted",
     "via": "email"
+  },
+  "familyrelatives": {
+    "status": "unreachable",
+    "changed": "2026-11-16",
+    "via": "web"
   },
   "familytreenow": {
     "changed": "2026-11-16",
@@ -2312,6 +2372,11 @@
     "changed": "2026-08-16",
     "status": "submitted",
     "via": null
+  },
+  "florida_voter_directory": {
+    "status": "not_found",
+    "changed": "2026-11-16",
+    "via": "web"
   },
   "floridaarrests_org": {
     "changed": "2026-09-18",
@@ -2837,6 +2902,11 @@
     "changed": "2026-11-16",
     "status": "submitted",
     "via": null
+  },
+  "idcaller": {
+    "status": "unreachable",
+    "changed": "2026-11-16",
+    "via": "web"
   },
   "idcrawl": {
     "status": "confirmed",
@@ -4074,6 +4144,11 @@
     "changed": "2026-08-28",
     "status": "submitted",
     "via": "email"
+  },
+  "nevada_arrests": {
+    "status": "submitted",
+    "changed": "2026-11-16",
+    "via": "web"
   },
   "nevadacourtrecords_us": {
     "changed": "2026-11-16",
@@ -5996,9 +6071,9 @@
     "via": "email"
   },
   "supplier_io": {
-    "status": "submitted",
-    "changed": "2026-11-16",
-    "via": "email"
+    "status": "not_found",
+    "changed": "2026-11-17",
+    "via": "reply"
   },
   "swoop_com": {
     "status": "covered_by_sibling",
@@ -6108,6 +6183,11 @@
   "terminus": {
     "changed": "2026-08-20",
     "status": "submitted",
+    "via": "web"
+  },
+  "texas_arrest_warrants_search": {
+    "status": "covered_by_sibling",
+    "changed": "2026-11-16",
     "via": "web"
   },
   "texas_arrests": {
@@ -6244,6 +6324,11 @@
   "topline_holdings": {
     "changed": "2026-09-01",
     "status": "replied",
+    "via": "email"
+  },
+  "torre_labs": {
+    "status": "submitted",
+    "changed": "2026-11-17",
     "via": "email"
   },
   "touchsuite": {
@@ -6394,6 +6479,11 @@
   "unearth_campaigns": {
     "changed": "2026-08-20",
     "status": "manual_required",
+    "via": "web"
+  },
+  "unitedstatesphonebook_com": {
+    "status": "not_found",
+    "changed": "2026-11-16",
     "via": "web"
   },
   "unity": {
@@ -6897,6 +6987,11 @@
     "status": "confirmed",
     "via": "reply"
   },
+  "yellow_pages_directory": {
+    "status": "manual_required",
+    "changed": "2026-11-17",
+    "via": "web"
+  },
   "yes": {
     "changed": "2026-11-15",
     "status": "replied",
@@ -6976,100 +7071,5 @@
     "changed": "2026-09-21",
     "status": "confirmed",
     "via": "reply"
-  },
-  "coloradoresidentdirectory": {
-    "status": "not_found",
-    "changed": "2026-11-16",
-    "via": "web"
-  },
-  "connecticut_resident_directory": {
-    "status": "not_found",
-    "changed": "2026-11-16",
-    "via": "web"
-  },
-  "florida_voter_directory": {
-    "status": "not_found",
-    "changed": "2026-11-16",
-    "via": "web"
-  },
-  "unitedstatesphonebook_com": {
-    "status": "not_found",
-    "changed": "2026-11-16",
-    "via": "web"
-  },
-  "americaphonebook": {
-    "status": "captcha_blocked",
-    "changed": "2026-11-16",
-    "via": "web"
-  },
-  "california_arrests": {
-    "status": "submitted",
-    "changed": "2026-11-16",
-    "via": "web"
-  },
-  "nevada_arrests": {
-    "status": "submitted",
-    "changed": "2026-11-16",
-    "via": "web"
-  },
-  "texas_arrest_warrants_search": {
-    "status": "covered_by_sibling",
-    "changed": "2026-11-16",
-    "via": "web"
-  },
-  "california_criminal_records_search": {
-    "status": "covered_by_sibling",
-    "changed": "2026-11-16",
-    "via": "web"
-  },
-  "allareacodes": {
-    "status": "captcha_blocked",
-    "changed": "2026-11-16",
-    "via": "web"
-  },
-  "areacode_lookup": {
-    "status": "unreachable",
-    "changed": "2026-11-16",
-    "via": "web"
-  },
-  "familyrelatives": {
-    "status": "unreachable",
-    "changed": "2026-11-16",
-    "via": "web"
-  },
-  "idcaller": {
-    "status": "unreachable",
-    "changed": "2026-11-16",
-    "via": "web"
-  },
-  "yellow_pages_directory": {
-    "status": "manual_required",
-    "changed": "2026-11-17",
-    "via": "web"
-  },
-  "adform": {
-    "status": "submitted",
-    "changed": "2026-11-16",
-    "via": "email"
-  },
-  "datarade": {
-    "status": "not_found",
-    "changed": "2026-11-16",
-    "via": "web"
-  },
-  "amone": {
-    "status": "submitted",
-    "changed": "2026-11-17",
-    "via": "email"
-  },
-  "torre_labs": {
-    "status": "submitted",
-    "changed": "2026-11-17",
-    "via": "email"
-  },
-  "cortera": {
-    "status": "covered_by_sibling",
-    "changed": "2026-11-17",
-    "via": "web"
   }
 }

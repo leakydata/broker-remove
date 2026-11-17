@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-11-16)
-- Note: 2026-11-16 CHASED in-thread: over 80 days with no reply to the August request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
+- Current: `not_found` (updated 2026-11-17)
+- Note: 2026-11-17 Supplier.io (Qurium Solutions, Inc.) replied to the chase: the August 31 request arrived; they searched their systems on the details provided and found no matching record, so there is nothing to delete, opt out, or suppress. The original letter had pre-accepted an unqualified "no record" as a complete answer, so this is recorded as closed rather than chased further.
+- Earlier: 2026-11-16 CHASED in-thread: over 80 days with no reply to the August request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
 - Earlier: Recovered from the committed playbook brokers/s/supplier_io.md, because the ledger carries no notes and this row's status had no evidence behind it: Sent the BUSINESS DIRECTORY variant (`_CATEGORY_VARIANTS.md`): Supplier.io compiles supplier-diversity/procurement records, which is business data, but pre-empted "that's a business listing" by naming that a business record disclosing a personal name/address/phone is personal information regardless of the label — matters especially for a sole proprietor or small/home-based supplier.
 
 ## Steps

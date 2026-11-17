@@ -7,9 +7,10 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-11-16)
+- Current: `acknowledged` (updated 2026-11-17)
 - Reference: `gmail:1a0423fbbdeb8401`
-- Note: 2026-11-16 CHASED in-thread: over 80 days with no reply to the August request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
+- Note: 2026-11-17 Rahul from Enrich Layer replied to the chase: confirmed the request arrived, that privacy@enrichlayer.com is the right address, and that it is now logged and "with the team handling it" — a full response to follow. No outcome yet.
+- Earlier: 2026-11-16 CHASED in-thread: over 80 days with no reply to the August request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
 - Earlier: 2026-08-27: first contact. Profile-enrichment API, so the letter leads with the identifier that actually works: THE PROFILE URL IS THE PRIMARY KEY AND IT IS ONE HE CAN SUPPLY - unlike the MAID and cookie cases where the key is unobtainable. Asked them to search on the LinkedIn URL directly and add it to suppression. Three further arguments: the enriched copy does not change when the source profile is edited or deleted, so it is a different object and the only one in scope; the work email addresses such products RETURN are often CONSTRUCTED from name plus employer domain and scored for confidence, so he cannot enumerate them and a wrong one is worse than a right one since mail reaches a stranger; and the suppression must be keyed to the PROFILE URL rather than an email, because an email-keyed entry cannot stop a re-enrichment that begins from the URL. Also asked which API customers received a record, since in an enrichment business the delivered response is the product.
 
 ## Steps
