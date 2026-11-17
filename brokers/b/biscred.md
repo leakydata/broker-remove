@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-11-16)
-- Note: 2026-11-16 CCPA-period chase (about 83 days, no reply or acknowledgement; no bounce found): one-line 'did the request arrive, and if this is the wrong mailbox, which is right?' sent in the original thread.
+- Current: `not_found` (updated 2026-11-17)
+- Note: 2026-11-17: after the chase, Biscred reviewed its systems for the identifiers supplied, found no matching personal information, and closed the request.
+- Earlier: 2026-11-16 CCPA-period chase (about 83 days, no reply or acknowledgement; no bounce found): one-line 'did the request arrive, and if this is the wrong mailbox, which is right?' sent in the original thread.
 - Earlier: 2026-08-25: commercial real estate intelligence - keyed to professional identity, so led with name-against-firm and the .edu as search key. Asks: person-to-entity and person-to-property linkage, whether the record is flagged CURRENT (a stale affiliation sold as a present fact), whether contact details were generated rather than observed, and which customers exported it. Conceded the public filings up front.
 
 ## Steps

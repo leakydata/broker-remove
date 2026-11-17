@@ -786,8 +786,8 @@
     "via": null
   },
   "biscred": {
-    "changed": "2026-11-16",
-    "status": "submitted",
+    "status": "not_found",
+    "changed": "2026-11-17",
     "via": "reply"
   },
   "bizarchive": {
@@ -1788,7 +1788,7 @@
     "via": "reply"
   },
   "deloitte_financial_advisory_services": {
-    "status": "captcha_blocked",
+    "status": "submitted",
     "changed": "2026-11-17",
     "via": "web"
   },
@@ -2244,9 +2244,9 @@
     "via": "reply"
   },
   "fastpeoplesearch": {
-    "changed": "2026-08-28",
-    "status": "submitted",
-    "via": "email"
+    "status": "manual_required",
+    "changed": "2026-11-17",
+    "via": "web"
   },
   "fastpeoplesearch_io": {
     "changed": "2026-08-18",
