@@ -8,8 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-19)
-- Note: Property-records republisher. Conceded the unwinnable point in the first paragraph - the underlying deed and assessment records are public and not theirs to change - and split the ask along the line that matters: hosting a public record is what the county does; indexing it against a name, enriching it with phone and email, ranking it into search results and selling it as a lead is a product THEY built. Asked for de-indexing (noindex, not just content removal - a removed page stays findable while still indexed) as a separate ask from deletion. Also flagged honestly that there is no NJ address anywhere in the identifier set, and invited a plain no-match as a complete answer.
+- Current: `replied` (updated 2026-11-17)
+- Note: 2026-11-17 NJ Property Records answered the chase by pointing to its redaction form (njpropertyrecords.com/redaction). That form works per New Jersey property address and the requester has never owned or lived at one, so there is nothing to enter. Replied: any listing under the name is a namesake; asked that name, emails and phones be kept out of its Match & Append and mailing-label products and suppressed, or a one-line no-record answer.
+- Earlier: Property-records republisher. Conceded the unwinnable point in the first paragraph - the underlying deed and assessment records are public and not theirs to change - and split the ask along the line that matters: hosting a public record is what the county does; indexing it against a name, enriching it with phone and email, ranking it into search results and selling it as a lead is a product THEY built. Asked for de-indexing (noindex, not just content removal - a removed page stays findable while still indexed) as a separate ask from deletion. Also flagged honestly that there is no NJ address anywhere in the identifier set, and invited a plain no-match as a complete answer.
 
 ## Steps
 
