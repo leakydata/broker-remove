@@ -7,7 +7,7 @@
 
 ## Status
 
-- Current: `confirmed` (updated 2026-10-26)
+- Current: `confirmed` (updated 2026-11-17)
 - Reply (2026-10-26) to the 10-16 letter: a person on the sales desk
   searched **by name only** and found no matching records, so "no data to
   remove". They offered to check again if given an email address. Replied the
@@ -23,7 +23,8 @@
   removed from our platform" and the email address "added to our email
   finding prevention list". An earlier audit searched only the 10-16 thread
   and concluded there had been no correspondence. That conclusion was wrong.
-- Note: Adopted from the shared ledger: another agent recorded 'confirmed' on 2026-09-15. No detail is carried across — re-read the broker's own reply before relying on this.
+- Note: 2026-11-17 GetEmail.io (D&B) searched every address from the 10-26 list: nothing found. All professional addresses, including the institutional one, added to its email-finding prevention list. It offered to take up removal from D&B itself; accepted in-thread (see dun_and_bradstreet).
+- Earlier: Adopted from the shared ledger: another agent recorded 'confirmed' on 2026-09-15. No detail is carried across — re-read the broker's own reply before relying on this.
 
 ## Steps
 

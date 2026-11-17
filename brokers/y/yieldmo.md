@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted`
-- Note: 2026-11-16 CHASED in-thread: over 75 days with no reply to the August/September request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
+- Current: `not_found` (updated 2026-11-17)
+- Note: 2026-11-17 Yieldmo answered the chase: it runs an ad exchange keyed only to pseudonymous cookie/MAID/device signals, holds no records indexed by name or personal email, and cannot link the request to anything it holds. Its webform needs a cookie ID or MAID, which the standing rule forbids sending. Pointed to its per-browser opt-out (attempted in the agent browser; the page hung, so unconfirmed) and to LiveRamp for hashed email (LiveRamp already confirmed).
+- Earlier: 2026-11-16 CHASED in-thread: over 75 days with no reply to the August/September request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
 - Earlier: Adtech, register-sourced. Minimised letter -- name and 12 emails only, DOB/postal/phone withheld because a bidding platform is keyed to cookies, device and CTV identifiers, hashed emails and bid-stream signals, none of which those fields could match. Carries the SF 222 escape hatch prominently: 'if I have that wrong, tell me which identifier types your systems use and I will supply those' -- with the reason stated, that I would rather be corrected than have them search the wrong fields and honestly report nothing. PLATFORM-SPECIFIC ADDITION: asked them not to treat a DEVICE-LEVEL opt-out as satisfying the statutory one. Limit Ad Tracking and cookie opt-outs are per-device and per-browser, forward-looking only, and erased by a reset -- they protect a handset, not a person, and do nothing about data already held. Said that if a device control is genuinely the only mechanism available, that is an answer I can record; I would rather have it stated than implied. This is the VRTCAL deflection (SF 210) pre-empted rather than answered after the fact.
 
 ## Steps

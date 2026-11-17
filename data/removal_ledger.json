@@ -1968,9 +1968,9 @@
     "via": "web"
   },
   "dun_and_bradstreet": {
-    "changed": "2026-08-29",
-    "status": "submitted",
-    "via": "email"
+    "status": "replied",
+    "changed": "2026-11-17",
+    "via": "reply"
   },
   "dun_bradstreet": {
     "changed": "2026-09-01",
@@ -2594,9 +2594,9 @@
     "via": null
   },
   "getemail_io": {
-    "changed": "2026-09-15",
     "status": "confirmed",
-    "via": "email"
+    "changed": "2026-11-17",
+    "via": "reply"
   },
   "getemails": {
     "status": "submitted",
@@ -7038,9 +7038,9 @@
     "via": "reply"
   },
   "yieldmo": {
-    "status": "submitted",
-    "changed": "2026-11-16",
-    "via": "email"
+    "status": "not_found",
+    "changed": "2026-11-17",
+    "via": "reply"
   },
   "yobi_ai": {
     "changed": "2026-11-06",
