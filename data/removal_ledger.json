@@ -1723,8 +1723,8 @@
     "via": "reply"
   },
   "deloitte_financial_advisory_services": {
-    "changed": "2026-11-15",
-    "status": "manual_required",
+    "status": "captcha_blocked",
+    "changed": "2026-11-17",
     "via": "web"
   },
   "deluxe": {
@@ -7044,7 +7044,7 @@
   },
   "yellow_pages_directory": {
     "status": "pending",
-    "changed": "2026-11-16",
+    "changed": "2026-11-17",
     "via": "web"
   },
   "adform": {
@@ -7055,6 +7055,21 @@
   "datarade": {
     "status": "not_found",
     "changed": "2026-11-16",
+    "via": "web"
+  },
+  "amone": {
+    "status": "submitted",
+    "changed": "2026-11-17",
+    "via": "email"
+  },
+  "torre_labs": {
+    "status": "submitted",
+    "changed": "2026-11-17",
+    "via": "email"
+  },
+  "cortera": {
+    "status": "covered_by_sibling",
+    "changed": "2026-11-17",
     "via": "web"
   }
 }
