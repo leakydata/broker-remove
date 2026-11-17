@@ -675,6 +675,11 @@
     "status": "submitted",
     "via": "email"
   },
+  "backgroundcheck_run": {
+    "status": "manual_required",
+    "changed": "2026-11-17",
+    "via": null
+  },
   "backgroundcheckers": {
     "changed": "2026-08-20",
     "status": "confirmed",
@@ -944,6 +949,11 @@
     "status": "submitted",
     "changed": "2026-11-16",
     "via": "web"
+  },
+  "california_birth_index": {
+    "status": "manual_required",
+    "changed": "2026-11-17",
+    "via": null
   },
   "california_criminal_records_search": {
     "status": "covered_by_sibling",
@@ -2373,6 +2383,11 @@
     "status": "submitted",
     "via": null
   },
+  "florida_residents": {
+    "status": "manual_required",
+    "changed": "2026-11-17",
+    "via": null
+  },
   "florida_voter_directory": {
     "status": "not_found",
     "changed": "2026-11-16",
@@ -2828,6 +2843,11 @@
     "changed": "2026-11-16",
     "via": "email"
   },
+  "homemetry": {
+    "status": "manual_required",
+    "changed": "2026-11-17",
+    "via": null
+  },
   "homeowner_marketing_services": {
     "changed": "2026-08-18",
     "status": "submitted",
@@ -2947,6 +2967,11 @@
     "changed": "2026-08-27",
     "status": "not_found",
     "via": "reply"
+  },
+  "idtrue": {
+    "status": "manual_required",
+    "changed": "2026-11-17",
+    "via": null
   },
   "illinois_arrests": {
     "changed": "2026-08-16",
@@ -3835,6 +3860,11 @@
     "status": "submitted",
     "via": null
   },
+  "michigan_residents": {
+    "status": "manual_required",
+    "changed": "2026-11-17",
+    "via": null
+  },
   "michigancourtrecords_us": {
     "changed": "2026-11-16",
     "status": "submitted",
@@ -4310,6 +4340,11 @@
     "status": "submitted",
     "via": null
   },
+  "north_carolina_residents": {
+    "status": "manual_required",
+    "changed": "2026-11-17",
+    "via": null
+  },
   "north_dakota_arrests": {
     "changed": "2026-08-16",
     "status": "submitted",
@@ -4413,6 +4448,11 @@
   "ohio_resident_directory": {
     "changed": "2026-09-18",
     "status": "submitted",
+    "via": null
+  },
+  "ohio_residents": {
+    "status": "manual_required",
+    "changed": "2026-11-17",
     "via": null
   },
   "ohiocourtrecords_us": {

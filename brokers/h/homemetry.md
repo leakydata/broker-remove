@@ -7,7 +7,8 @@
 
 ## Status
 
-- Current: `pending`
+- Current: `manual_required` (updated 2026-11-17)
+- Note: 2026-11-17 `discover_contacts.py` re-checked the domain for a published privacy/contact email; still none found (same bot-protected result as the 2026-11-01 attempt). Email is not a viable route for this one. The only route on record is the web opt-out form above, which needs a human with a real browser session -- no email fallback could be confirmed, and no email route should be guessed per the standing no-guessing rule.
 
 ## Steps
 
