@@ -7,7 +7,8 @@
 
 ## Status
 
-- Current: `pending`
+- Current: `not_found` (updated 2026-11-16)
+- Note: CHECKED 2026-11-17: Datarade (Monda Labs GmbH, Berlin) is a B2B marketplace that lists other companies' data products and connects buyers with providers. Its privacy policy covers only its own site visitors and users, does not describe holding or selling consumer datasets, and publishes no privacy email (its DPO is reachable only by post at the Berlin address). Nothing to delete here: the data it lists sits with the providers, which are worked as their own rows.
 
 ## Steps
 

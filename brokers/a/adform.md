@@ -7,7 +7,8 @@
 
 ## Status
 
-- Current: `pending`
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-17: (1) Opted this browser out on Adform's own opt-out page (status changed Opted-in -> Opted-out; non-essential cookies declined first). (2) Adform's US Data Subject Rights page keys platform access and delete requests to the browser's Adform cookie ID, which the standing rule says never to send, so those were not used. The same page routes everything else to dpo@adform.com, so a delete + opt-out + suppression request went there covering name, email (including SHA-256/MD5 hashes from ID-fusion, onboarding or identity-graph partners), address and phone, asking which customer supplied any matched data.
 
 ## Steps
 

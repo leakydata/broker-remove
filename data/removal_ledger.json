@@ -5576,9 +5576,9 @@
     "via": "email"
   },
   "securitytrails": {
-    "status": "submitted",
+    "status": "acknowledged",
     "changed": "2026-11-16",
-    "via": "email"
+    "via": "reply"
   },
   "seedtable": {
     "changed": "2026-08-20",
@@ -7044,6 +7044,16 @@
   },
   "yellow_pages_directory": {
     "status": "pending",
+    "changed": "2026-11-16",
+    "via": "web"
+  },
+  "adform": {
+    "status": "submitted",
+    "changed": "2026-11-16",
+    "via": "email"
+  },
+  "datarade": {
+    "status": "not_found",
     "changed": "2026-11-16",
     "via": "web"
   }
