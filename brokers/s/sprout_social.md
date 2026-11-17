@@ -8,7 +8,8 @@
 ## Status
 
 - Current: `acknowledged` (updated 2026-11-16)
-- Note: 2026-11-16 20:56 UTC: the chase opened Sprout Support ticket #1520400 (Zendesk auto-acknowledgement); awaiting a human reply.
+- Note: 2026-11-16 Sprout Support (ticket 1520400) could not find the August email and asked for Sprout account details. Replied (DPO cc'd): no Sprout account exists; the request went to dpo@ on 08-31 and is the first message in the thread; asked for the ticket to go to the privacy/legal team for a written holds/deleted answer.
+- Earlier: 2026-11-16 20:56 UTC: the chase opened Sprout Support ticket #1520400 (Zendesk auto-acknowledgement); awaiting a human reply.
 - Earlier: 2026-11-16 CHASED in-thread: over 80 days with no reply to the August request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
 - Earlier: Recovered from the committed playbook brokers/s/sprout_social.md, because the ledger carries no notes and this row's status had no evidence behind it: Never a Sprout Social customer. Sent the SOCIAL LISTENING variant (`_CATEGORY_VARIANTS.md`): conceded the core product (social media management, sold to businesses) is not brokering, but noted the CA broker registration implies some data compiled about non-customers — most likely via social listening/monitoring of public content on clients' behalf. Asked for archived posts/comments, handle-to-person linkage, and any sentiment/demographic inference, and pre-empted the "it was public when posted" objection.
 

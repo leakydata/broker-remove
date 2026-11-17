@@ -2239,9 +2239,9 @@
     "via": "reply"
   },
   "findpeoplefast_net": {
-    "changed": "2026-08-19",
     "status": "manual_required",
-    "via": "email"
+    "changed": "2026-11-16",
+    "via": "web"
   },
   "findwhocallsyou": {
     "changed": "2026-09-03",
@@ -4001,9 +4001,9 @@
     "via": "reply"
   },
   "native_american_netroots": {
-    "status": "manual_required",
+    "status": "submitted",
     "changed": "2026-11-16",
-    "via": "reply"
+    "via": "web"
   },
   "nativo": {
     "changed": "2026-09-21",
@@ -4356,9 +4356,9 @@
     "via": null
   },
   "old_friends": {
-    "changed": "2026-10-06",
-    "status": "unreachable",
-    "via": "email"
+    "status": "submitted",
+    "changed": "2026-11-16",
+    "via": "web"
   },
   "oms_small_medium_businesses_directory": {
     "changed": "2026-09-18",
@@ -5431,7 +5431,7 @@
     "via": null
   },
   "salary_com": {
-    "status": "submitted",
+    "status": "confirmed",
     "changed": "2026-11-16",
     "via": "reply"
   },
@@ -6735,7 +6735,7 @@
   "wealthminder": {
     "status": "submitted",
     "changed": "2026-11-16",
-    "via": "reply"
+    "via": "email"
   },
   "webbula": {
     "changed": "2026-08-20",
@@ -6798,9 +6798,9 @@
     "via": "web_form"
   },
   "whoxy": {
-    "changed": "2026-08-31",
-    "status": "manual_required",
-    "via": "web"
+    "status": "submitted",
+    "changed": "2026-11-16",
+    "via": "email"
   },
   "wiland": {
     "changed": "2026-09-01",

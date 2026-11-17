@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `manual_required` (updated 2026-08-20)
-- Note: WHOIS-intelligence cluster (SF 220). Route discovery failed: no published email; contact.php form only. Queued for handoff with the substance from the whoisxmlapi letter -- historical WHOIS is unredacted and carries a full registrant contact block, the four defunct-service addresses matter most, and the request should ASK what they hold rather than run a reverse-WHOIS, because searching hands them the identifiers and can create a query record. Status moved off 'pending' because a staged handoff is a decision, not an untouched row.
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-16 Route found: the contact page shows the address only as an image (info@whoxy.com). Sent the statutory delete/opt-out/suppress request there, framed on pre-2018 unredacted historical WHOIS, WHOIS-history and reverse-WHOIS products, with all prior addresses, emails (including defunct ones) and phones to search. Did not run a reverse WHOIS on the user.
+- Earlier: WHOIS-intelligence cluster (SF 220). Route discovery failed: no published email; contact.php form only. Queued for handoff with the substance from the whoisxmlapi letter -- historical WHOIS is unredacted and carries a full registrant contact block, the four defunct-service addresses matter most, and the request should ASK what they hold rather than run a reverse-WHOIS, because searching hands them the identifiers and can create a query record. Status moved off 'pending' because a staged handoff is a decision, not an untouched row.
 
 ## Steps
 

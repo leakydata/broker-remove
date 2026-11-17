@@ -8,8 +8,9 @@
 
 ## Status
 
-- Current: `manual_required` (updated 2026-08-19)
-- Note: ADDITIONAL FINDING: their on-site people search is not a search of their own index at all -- submitting it opens AFFILIATE REDIRECTS to third-party brokers, carrying the query in the URL. Observed: truthfinder.com/search/?...utm_campaign=findpeoplefast...firstName=[PERSONAL]&lastName=[PERSONAL] and intelius.com/phone/search/?...utm_campaign=findpeoplefast...phone=<number>. So a consumer trying to find their own profile URL in order to satisfy the removal form's required URL field instead hands their name and phone number to two further brokers as affiliate traffic. The removal route is not merely broken, it is a funnel.
+- Current: `manual_required` (updated 2026-11-16)
+- Note: 2026-11-16 Retried the removal form in a real browser: Cloudflare passed, then the origin returned 522 (connection timed out). Site is down, not blocking; retry later.
+- Earlier: ADDITIONAL FINDING: their on-site people search is not a search of their own index at all -- submitting it opens AFFILIATE REDIRECTS to third-party brokers, carrying the query in the URL. Observed: truthfinder.com/search/?...utm_campaign=findpeoplefast...firstName=[PERSONAL]&lastName=[PERSONAL] and intelius.com/phone/search/?...utm_campaign=findpeoplefast...phone=<number>. So a consumer trying to find their own profile URL in order to satisfy the removal form's required URL field instead hands their name and phone number to two further brokers as affiliate traffic. The removal route is not merely broken, it is a funnel.
 
 ## Steps
 

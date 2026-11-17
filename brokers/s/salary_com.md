@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-11-16)
-- Note: 2026-11-16 CHASED in-thread: over 60 days with no reply; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
+- Current: `confirmed` (updated 2026-11-16)
+- Note: 2026-11-16 Salary.com privacy@ answered the chase: 'We have processed this as you requested' (deletion and opt-out of sale).
+- Earlier: 2026-11-16 CHASED in-thread: over 60 days with no reply; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
 - Earlier: Supplement 2026-09-13 adding the LinkedIn URL to the 12 September letter. Sharpens the question that letter already asked -- whether they hold a compensation figure, band or estimate COLLECTED OR DERIVED -- because if a salary was modelled from job title and employment history then the profile is the input it was modelled from, making it simultaneously the evidence that such a record exists and the key to suppressing it. Same two conditions.
 
 ## Steps

@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `manual_required` (updated 2026-10-11)
-- Note: NOT UNREACHABLE -- THE SITE IS LIVE BEHIND A BOT CHALLENGE. old-friends.co returns HTTP 200, but the effective URL after redirects is /fn/botCookieChallenge.php?r=%2F&vid=... -- a cookie-based bot challenge, which a script cannot pass and a browser clears invisibly. So the server is up and serving; only automated access is refused. /privacy, /privacy-policy, /opt-out and /optout all 404, so whatever privacy route exists is not at a guessable path and must be found from the rendered page. Moving to manual_required rather than unreachable. Previously an adopted ledger line from 2026-10-06 -- only four days old, which makes the point sharper: this was not a stale record going bad over months, it was MISREAD AT THE TIME, because a bot challenge looks exactly like a broken site from a script.
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-16 Drove the site in a real browser (the cookie bot check cleared on its own). No privacy form; used Help > Contact Us > 'open a support ticket' (Birchwood Media). Asked for deletion, opt-out of sale/sharing and suppression against later class-list imports, searching name variants, four emails and past towns; answer by email. Page: 'Your question has been queued... typically within 48 hours.' No CAPTCHA was shown.
+- Earlier: NOT UNREACHABLE -- THE SITE IS LIVE BEHIND A BOT CHALLENGE. old-friends.co returns HTTP 200, but the effective URL after redirects is /fn/botCookieChallenge.php?r=%2F&vid=... -- a cookie-based bot challenge, which a script cannot pass and a browser clears invisibly. So the server is up and serving; only automated access is refused. /privacy, /privacy-policy, /opt-out and /optout all 404, so whatever privacy route exists is not at a guessable path and must be found from the rendered page. Moving to manual_required rather than unreachable. Previously an adopted ledger line from 2026-10-06 -- only four days old, which makes the point sharper: this was not a stale record going bad over months, it was MISREAD AT THE TIME, because a bot challenge looks exactly like a broken site from a script.
 
 ## Steps
 
