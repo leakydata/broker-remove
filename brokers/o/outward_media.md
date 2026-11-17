@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-19)
-- Note: List compilation and rental. Suppression-first ordering, then source and date of acquisition with the consent-wording challenge, then recipients, then deletion. The substantive addition is the sensitive-select list named item by item - health condition, disability, pregnancy and children's ages, religion, politics, ethnicity, income and credit proxies, financial distress, gambling, firearms, charitable giving - with an explicit demand that these be DELETED rather than suppressed from mailings. A do-not-mail flag stops the letters and leaves the attribute in the file, still rentable to everyone else. Also asked about aged/recycled/archived inventory held apart from the live database.
+- Current: `confirmed` (updated 2026-11-16)
+- Note: 2026-11-16 Outward Media (OMI Data Privacy Team) answered the CCPA-period chase: located two records tied to the listed email addresses and deleted them with attached attribute data; excluded from sale/sharing; email addresses added to a suppression list used only to screen incoming records.
+- Earlier: List compilation and rental. Suppression-first ordering, then source and date of acquisition with the consent-wording challenge, then recipients, then deletion. The substantive addition is the sensitive-select list named item by item - health condition, disability, pregnancy and children's ages, religion, politics, ethnicity, income and credit proxies, financial distress, gambling, firearms, charitable giving - with an explicit demand that these be DELETED rather than suppressed from mailings. A do-not-mail flag stops the letters and leaves the attribute in the file, still rentable to everyone else. Also asked about aged/recycled/archived inventory held apart from the live database.
 
 ## Steps
 

@@ -231,9 +231,9 @@
     "via": null
   },
   "affluense_ai": {
-    "changed": "2026-09-02",
     "status": "submitted",
-    "via": "email"
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "affordable_background_checks": {
     "changed": "2026-08-26",
@@ -521,7 +521,7 @@
     "via": "reply"
   },
   "atdata": {
-    "status": "manual_required",
+    "status": "submitted",
     "changed": "2026-11-16",
     "via": "web"
   },
@@ -2234,9 +2234,9 @@
     "via": "email"
   },
   "findlaw": {
-    "changed": "2026-09-02",
     "status": "submitted",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "findpeoplefast_net": {
     "changed": "2026-08-19",
@@ -2649,9 +2649,9 @@
     "via": "reply"
   },
   "h1bdata_info": {
-    "changed": "2026-09-02",
     "status": "submitted",
-    "via": "email"
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "harmon_research": {
     "status": "not_found",
@@ -3610,9 +3610,9 @@
     "via": "email"
   },
   "mapquest": {
-    "changed": "2026-09-02",
     "status": "submitted",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "marinus_analytics": {
     "changed": "2026-08-19",
@@ -4206,9 +4206,9 @@
     "via": "reply"
   },
   "nocallername": {
-    "changed": "2026-09-02",
     "status": "submitted",
-    "via": "email"
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "none": {
     "changed": "2026-09-01",
@@ -4506,9 +4506,9 @@
     "via": "reply"
   },
   "outward_media": {
-    "changed": "2026-08-19",
-    "status": "submitted",
-    "via": "email"
+    "status": "confirmed",
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "owler": {
     "changed": "2026-09-17",
@@ -4576,9 +4576,9 @@
     "via": null
   },
   "peeplookup": {
-    "changed": "2026-09-02",
     "status": "submitted",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "peepslocator": {
     "changed": "2026-09-12",
@@ -5361,9 +5361,9 @@
     "via": null
   },
   "rhodeislandpeoplerecords_org": {
-    "changed": "2026-09-02",
     "status": "submitted",
-    "via": "email"
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "rich_media": {
     "status": "submitted",
@@ -5446,9 +5446,9 @@
     "via": "web"
   },
   "salesforce": {
-    "changed": "2026-09-02",
     "status": "submitted",
-    "via": null
+    "changed": "2026-11-16",
+    "via": "web"
   },
   "salesgear": {
     "changed": "2026-09-01",
@@ -5676,9 +5676,9 @@
     "via": null
   },
   "simunix": {
-    "changed": "2026-09-02",
     "status": "submitted",
-    "via": "email"
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "site_impact": {
     "changed": "2026-09-21",
@@ -5861,9 +5861,9 @@
     "via": "reply"
   },
   "sprouts_ai": {
-    "changed": "2026-09-02",
     "status": "submitted",
-    "via": "email"
+    "changed": "2026-11-16",
+    "via": "reply"
   },
   "spycloud": {
     "changed": "2026-08-20",
@@ -6257,7 +6257,7 @@
     "via": "web"
   },
   "towerdata": {
-    "status": "manual_required",
+    "status": "submitted",
     "changed": "2026-11-16",
     "via": "web"
   },

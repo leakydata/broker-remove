@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-02)
-- Note: Recovered from the committed playbook brokers/h/h1bdata_info.md, because the ledger carries no notes and this row's status had no evidence behind it: 2026-09-02: Sent. Address is a general mailbox (admin@h1bdata.info), not a dedicated privacy contact -- registry flags email_verified: false, route_evidence: none. Directory-sourced row (Optery cohort), no direct attestation of broker status. Letter asked them to redirect if wrong address.
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-16 CHASED in-thread: over 75 days with no reply; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
+- Earlier: Recovered from the committed playbook brokers/h/h1bdata_info.md, because the ledger carries no notes and this row's status had no evidence behind it: 2026-09-02: Sent. Address is a general mailbox (admin@h1bdata.info), not a dedicated privacy contact -- registry flags email_verified: false, route_evidence: none. Directory-sourced row (Optery cohort), no direct attestation of broker status. Letter asked them to redirect if wrong address.
 
 ## Steps
 

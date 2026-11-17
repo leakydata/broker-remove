@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-09-02)
-- Note: Recovered from the committed playbook brokers/s/salesforce.md, because the ledger carries no notes and this row's status had no evidence behind it: Salesforce is registered as a California data broker but I have no account or customer relationship with them. Sent a scoped letter distinguishing Salesforce-as-controller (any Salesforce-branded data product, contact database, or append/enrichment service) from Salesforce-as-processor (a customer's own CRM instance, which Salesforce cannot unilaterally act on and which I explicitly said I was not asking them to touch). Asked which of the two applies before anything else.
+- Current: `submitted` (updated 2026-11-16)
+- Note: 2026-11-17 00:08 UTC Salesforce DSR verification email arrived; confirmation link opened: 'Thank you for verifying your email... Our team will now review and process your request.'
+- Earlier: Recovered from the committed playbook brokers/s/salesforce.md, because the ledger carries no notes and this row's status had no evidence behind it: Salesforce is registered as a California data broker but I have no account or customer relationship with them. Sent a scoped letter distinguishing Salesforce-as-controller (any Salesforce-branded data product, contact database, or append/enrichment service) from Salesforce-as-processor (a customer's own CRM instance, which Salesforce cannot unilaterally act on and which I explicitly said I was not asking them to touch). Asked which of the two applies before anything else.
 
 ## Steps
 
