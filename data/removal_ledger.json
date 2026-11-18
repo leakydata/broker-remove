@@ -5972,7 +5972,7 @@
   },
   "sprout_social": {
     "status": "replied",
-    "changed": "2026-11-17",
+    "changed": "2026-11-18",
     "via": "reply"
   },
   "sprouts_ai": {
@@ -6547,9 +6547,9 @@
     "via": null
   },
   "ups_capital": {
-    "status": "submitted",
-    "changed": "2026-11-17",
-    "via": "web"
+    "status": "replied",
+    "changed": "2026-11-18",
+    "via": "reply"
   },
   "urban_science_usai": {
     "changed": "2026-08-30",
