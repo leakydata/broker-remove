@@ -1337,8 +1337,8 @@
     "via": null
   },
   "connected_investors": {
-    "changed": "2026-11-16",
-    "status": "replied",
+    "status": "manual_required",
+    "changed": "2026-11-18",
     "via": "reply"
   },
   "connecticut_arrests": {
