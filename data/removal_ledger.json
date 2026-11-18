@@ -2244,7 +2244,7 @@
     "via": "reply"
   },
   "fastpeoplesearch": {
-    "status": "manual_required",
+    "status": "submitted",
     "changed": "2026-11-17",
     "via": "web"
   },
