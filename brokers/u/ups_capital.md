@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted`
-- Note: 2026-11-16 CHASED in-thread: over 75 days with no reply to the August/September request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
+- Current: `submitted` (updated 2026-11-17)
+- Note: 2026-11-17 23:50Z: a separate UPS Enterprise OneTrust Right to Erasure request (ASHRNM2FBT, I am a Customer) was submitted from the user's side; the agent clicked its confirm-email link the same evening and the portal answered 'Your request is confirmed'. The UPS Capital email request is still unanswered.
+- Earlier: 2026-11-16 CHASED in-thread: over 75 days with no reply to the August/September request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
 - Earlier: SF 212 residue cohort, --keys full. Registered 2026 only -- new this year, which suggests either a new line of business or a recent decision that an existing one qualifies. I have shipped with UPS, so per 1798.99.80(c) the registration cannot describe that relationship; letter says so and asks which part of the business made it necessary, offering a precautionary filing as a satisfying answer. SCOPE PARAGRAPH ON EXEMPTIONS, the distinctive part: UPS Capital does insurance, cargo and trade finance, so parts may sit under GLBA or FCRA rather than CCPA. I am not arguing them out of an exemption -- I asked them to NAME it if they rely on one, which statute and which category of data, because an identified exemption is an answer I can record while a general 'cannot be actioned' leaves me unable to tell an exemption from a decision. Reminded them 1798.145(d) is ACTIVITY-scoped, not entity-scoped. Stated I do not send an SSN as a search key and will not be asked for one.
 
 ## Steps
