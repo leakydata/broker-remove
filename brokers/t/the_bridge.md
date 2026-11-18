@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-11-15)
-- Note: 2026-11-15: an automated reply says email requests are never processed, so the August letter did nothing. Submitted the portal at thebridgecorp.com/opt-out the same evening (delete and opt-out, email only, Advertising ID left blank); it showed 'Request Received'. GOTCHA: portal only.
+- Current: `not_found` (updated 2026-11-18)
+- Note: 2026-11-18 Bridge Privacy Team answered the 11-15 portal opt-out: no contact information held; added to its Permanent Do Not Contact List.
+- Earlier: 2026-11-15: an automated reply says email requests are never processed, so the August letter did nothing. Submitted the portal at thebridgecorp.com/opt-out the same evening (delete and opt-out, email only, Advertising ID left blank); it showed 'Request Received'. GOTCHA: portal only.
 - Earlier: Sent 2026-08-20 06:46 UTC to privacy@thebridgecorp.com (confirmed on site). People-based marketing; their tagline is 'a simple-yet powerful way to reach actual, verified humans'. Used the tagline against the de-identification defence before they could raise it: a business whose selling point is that its records correspond to actual identified people has no de-identification argument available. Asked for the RESOLUTION LAYER rather than the inputs - the linkage, household association, hashed keys and device/CTV identifiers that make up the 'verified human', which is the asset and is a record about me. Plus suppression against re-verification and the source/recipient question.
 
 ## Steps

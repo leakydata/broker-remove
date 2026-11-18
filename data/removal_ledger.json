@@ -5396,9 +5396,9 @@
     "via": "reply"
   },
   "rev": {
-    "changed": "2026-11-15",
-    "status": "submitted",
-    "via": "email"
+    "status": "not_found",
+    "changed": "2026-11-18",
+    "via": "reply"
   },
   "revcontent": {
     "changed": "2026-09-06",
@@ -6262,8 +6262,8 @@
     "via": "email"
   },
   "the_bridge": {
-    "changed": "2026-11-15",
-    "status": "submitted",
+    "status": "not_found",
+    "changed": "2026-11-18",
     "via": "web"
   },
   "the_bump": {
