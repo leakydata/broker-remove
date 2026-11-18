@@ -3475,9 +3475,9 @@
     "via": "reply"
   },
   "lexisnexis_risk_solutions_fl": {
-    "changed": "2026-08-26",
-    "status": "submitted",
-    "via": "email"
+    "status": "manual_required",
+    "changed": "2026-11-18",
+    "via": "reply"
   },
   "lg_ads_solutions": {
     "status": "submitted",
