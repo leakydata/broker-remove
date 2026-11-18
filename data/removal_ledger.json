@@ -3189,8 +3189,8 @@
     "via": "email"
   },
   "ipreo": {
-    "status": "replied",
-    "changed": "2026-11-17",
+    "status": "confirmed",
+    "changed": "2026-11-18",
     "via": "reply"
   },
   "ipsos": {
@@ -5517,7 +5517,7 @@
   },
   "s_p_global": {
     "status": "confirmed",
-    "changed": "2026-11-17",
+    "changed": "2026-11-18",
     "via": "reply"
   },
   "saavn_media": {

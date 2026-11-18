@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `replied` (updated 2026-11-17)
-- Note: 2026-11-17: covered by the S&P Global deletion (FRHLRZWK8P), which S&P says has been honored. Asked S&P to confirm that the deletion reached the Ipreo/IHS Markit data.
+- Current: `confirmed` (updated 2026-11-18)
+- Note: 2026-11-18 S&P Global's privacy compliance manager answered 'Yes': the deletion under request FRHLRZWK8P also covered the Ipreo and IHS Markit data. Closed.
+- Earlier: 2026-11-17: covered by the S&P Global deletion (FRHLRZWK8P), which S&P says has been honored. Asked S&P to confirm that the deletion reached the Ipreo/IHS Markit data.
 - Earlier: 2026-11-16 privacy@spglobal.com answered the Ipreo chase pointing to S&P's OneTrust Personal Information Request Form. Replied asking them to link it to the manual deletion S&P privacy offered in the s_p_global thread (which now explicitly covers Ipreo/IHS Markit); asked to be told if the form is still required.
 - Earlier: 2026-11-16 CHASED in-thread: over 80 days with no reply to the August request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
 - Earlier: Emailed privacy@ihsmarkit.com 2026-08-28 (registry route; Ipreo -> IHS Markit -> S&P Global). Access-and-correction-first: asked which entity is now the controller of the Ipreo datasets before anything else; asked for access with CATEGORIES OF SOURCE emphasised (public filing vs purchased contact data vs transfer agent are three different things with three different remedies); asked for CORRECTION ahead of deletion because these are professional records acted on by third parties, and a wrong one about a common name does damage deletion does not repair. Pre-answered two expected objections: the CCPA B2B carve-out sunset on 2023-01-01, and that the public-records exception is narrower than usually read -- while conceding both and asking for a partial deletion honestly described rather than a refusal of the whole. Also asked which of deletion/suppression was applied if they are mutually exclusive.
