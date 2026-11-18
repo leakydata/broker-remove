@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `unreachable` (updated 2026-08-25)
-- Note: 2026-08-25: found by the null-MX sweep, NOT by a bounce - no letter was wasted. idengine.com publishes a lone '0 .' MX record, an explicit RFC 7505 refusal of all mail. IMPORTANT CORRECTION TO EARLIER WORK: this row was one of the five 'repairable typos' I corrected in the domain sweep, changing idengine.ai to idengine.com. The .ai domain did not resolve, so the correction looked right - but it pointed the address at a domain that refuses mail outright. The typo fix was not a fix. Recorded rather than quietly amended, because a correction that produces a dead target is indistinguishable from a correction that worked unless someone checks.
+- Current: `unreachable` (updated 2026-11-18)
+- Note: 2026-11-18: THE DEAD ADDRESS CAME BACK. Between 08-25 and now, the curated row drifted back to `chad@idengine.com` with `email_verified: false` / `no_address_published` and no mention of the null-MX finding below -- so a run that trusted the registry row over this playbook sent a letter to it. Re-checked `idengine.com` via `dns.google` just now: still `MX -> 0 .`, still a null MX, still refuses all mail outright -- the send will bounce or vanish. Reverted the row to `unreachable` / method `unknown` with the null-MX evidence restated in `email_note` so it is not merely in this file. **The lesson, stated so the next pass doesn't re-learn it a third time: when a playbook and the curated registry disagree about whether an address is live, the playbook wins -- it is where the actual DNS check was recorded, not just a verdict.**
+- Earlier: 2026-08-25: found by the null-MX sweep, NOT by a bounce - no letter was wasted. idengine.com publishes a lone '0 .' MX record, an explicit RFC 7505 refusal of all mail. IMPORTANT CORRECTION TO EARLIER WORK: this row was one of the five 'repairable typos' I corrected in the domain sweep, changing idengine.ai to idengine.com. The .ai domain did not resolve, so the correction looked right - but it pointed the address at a domain that refuses mail outright. The typo fix was not a fix. Recorded rather than quietly amended, because a correction that produces a dead target is indistinguishable from a correction that worked unless someone checks.
 
 ## Why it is unreachable
 

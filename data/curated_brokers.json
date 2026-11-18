@@ -3332,8 +3332,8 @@
       "source": "ca_data_broker_registry",
       "optery_slug": null,
       "email_to": "admin@brightcheck.com",
-      "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified": false,
+      "email_verified_by": "bounced",
       "registry_years": [
         "2024",
         "2025"
@@ -3341,7 +3341,9 @@
       "legal_name": null,
       "category": "b2b_contact",
       "category_source": "site_classifier 2026-08-31",
-      "listing_basis": "state_register"
+      "listing_basis": "state_register",
+      "email_note": "2026-11-18: admin@brightcheck.com (from the CA broker registry) hard-bounced 550 address-not-found on 2026-11-16. brightcheck.com returns HTTP 503 to automated fetches (Cloudflare or similar), so a replacement address could not be found by this session. Needs a human with a real browser to check the site for a working contact, or postal mail to the registered address.",
+      "email_verified_was": "ca_data_broker_registry"
     },
     {
       "id": "brightswipe",
@@ -7686,8 +7688,8 @@
       "source": "ca_data_broker_registry",
       "optery_slug": null,
       "email_to": "customerservice@edvisors.com",
-      "email_verified": true,
-      "email_verified_by": "ca_data_broker_registry",
+      "email_verified": false,
+      "email_verified_by": "bounced",
       "registry_years": [
         "2020-2023",
         "2024",
@@ -7695,7 +7697,9 @@
         "2026"
       ],
       "legal_name": null,
-      "listing_basis": "state_register"
+      "listing_basis": "state_register",
+      "email_note": "2026-11-18: Both addresses published in Edvisors' own privacy policy (customerservice@edvisors.com and privacy@edvisors.com) hard-bounced 550 address-not-found on 2026-11-16, even though the policy (re-fetched 2026-11-18) still lists both as current. The published route is dead; no alternate address found on the site. Handoff: postal mail to the registered CA filing address, or phone, since email is confirmed non-functional on both routes.",
+      "email_verified_was": "ca_data_broker_registry"
     },
     {
       "id": "ekata",
@@ -11063,21 +11067,23 @@
       "name": "idEngine LLC",
       "domain": "idengine.com",
       "priority": 2,
-      "method": "email",
+      "method": "unknown",
       "optout_url": "",
       "needs_email_confirm": null,
       "source": "ca_data_broker_registry",
       "optery_slug": null,
-      "email_to": "chad@idengine.com",
       "email_verified": false,
-      "email_verified_by": "no_address_published",
+      "email_verified_by": "bounced",
       "registry_years": [
         "2024"
       ],
       "legal_name": null,
       "email_alt": "chad@idengine.ai (UNDELIVERABLE - domain has no MX and no A)",
       "notes": "The registered contact chad@idengine.ai is undeliverable - that domain publishes no mail records at all. Almost certainly a typo in the filing. Rewritten onto the broker's own domain; unverified until a reply arrives.",
-      "listing_basis": "state_register"
+      "listing_basis": "state_register",
+      "email_note": "2026-11-18: REVERTED. The row's chad@idengine.com (a 'repaired typo' from chad@idengine.ai) was sent to this run before checking the playbook, which already documents idengine.com as publishing a null MX (RFC 7505, 'idengine.com MX -> 0 .') -- an explicit, DNS-level refusal of all mail, confirmed again via dns.google just now. The curated row had drifted back to looking sendable despite the playbook's explicit 'do not re-add an email route without re-running check_email_domains.py first'. No live mailbox exists at either idengine.ai or idengine.com; do not send here again without a fresh DNS check.",
+      "email_to": null,
+      "email_verified_was": "no_address_published"
     },
     {
       "id": "idi",
@@ -17449,15 +17455,17 @@
       "name": "OurStates",
       "domain": "ourstates.org",
       "priority": 2,
-      "method": "web_form",
+      "method": "unknown",
       "optout_url": "https://ourstates.org",
       "needs_email_confirm": null,
       "category": "public_records",
       "source": "privacyinsightsolutions",
       "email_to": "privacy@ourstates.org",
-      "email_verified": true,
-      "email_verified_by": "privacy_policy",
-      "listing_basis": "third_party_directory"
+      "email_verified": false,
+      "email_verified_by": "bounced",
+      "listing_basis": "third_party_directory",
+      "email_note": "2026-11-18: ourstates.org has no public DNS record (agent proxy reports connect_unreachable for both ourstates.org and www.ourstates.org). The Aug 28 request and the Nov 17 follow-up both now sit in a persistent soft-bounce queue (Gmail retrying delivery); per CONTRIBUTING's guidance this is a dead domain, not a slow server. No alternate contact found -- the domain itself is gone. Downgrading method to unknown; no further email route exists.",
+      "email_verified_was": "privacy_policy"
     },
     {
       "id": "outbrain",
@@ -20808,18 +20816,19 @@
       "name": "Rhodeislandpeoplerecords Org",
       "domain": "rhodeislandpeoplerecords.org",
       "priority": 1,
-      "method": "email",
+      "method": "unknown",
       "optout_url": "",
       "needs_email_confirm": null,
       "source": "optery",
       "optery_slug": "rhodeislandpeoplerecords-org",
-      "email_to": "privacy@peoplerecords.org",
-      "email_verified": true,
-      "email_verified_by": "privacy_policy",
-      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here.",
+      "email_verified": false,
+      "email_verified_by": "bounced",
+      "email_note": "|| 2026-08-29 NO-REGISTRY-YEAR COHORT SCAN (SILENT_FAILURES 173): this row came from a removal-service directory, not from a state register. Route checked: the email domain has LIVE MX. All 72 rows in this cohort did -- directory addresses are maintained because bounces are visible to whoever maintains them, unlike register filings, which rot. CORRECTED 2026-09-01 (SILENT_FAILURES 236): the check was LIVE MX, which proves the DOMAIN accepts mail for some mailbox -- NOT that this mailbox exists. Two of the first 28 rows written to in this cohort returned 550 address-not-found. Treat the DOMAIN as reachable and the ADDRESS as unproven until a send succeeds and re-verify WHAT THE COMPANY IS before writing: no one attested to broker status here. || 2026-11-18: the registry's email_to (privacy@peoplerecords.org) is on a domain with no public DNS record (connect_unreachable) -- it is persistently soft-bouncing, not slow. The entry's OWN domain, rhodeislandpeoplerecords.org, does resolve but serves 'DEPLOYMENT_NOT_FOUND' from Vercel -- the site itself was torn down. Both candidate domains are dead. This looks like an abandoned removal-service listing rather than a live company; no working contact exists by any route found.",
       "category": "people_search",
       "category_source": "site_classifier 2026-08-30",
-      "listing_basis": "third_party_directory"
+      "listing_basis": "third_party_directory",
+      "email_to": null,
+      "email_verified_was": "privacy_policy"
     },
     {
       "id": "rich_media",
@@ -23547,9 +23556,11 @@
       "source": "optery_scrape",
       "optery_slug": "telefi",
       "email_to": "ccpa@telefi.app",
-      "email_verified": true,
-      "email_verified_by": "privacy_policy",
-      "listing_basis": "third_party_directory"
+      "email_verified": false,
+      "email_verified_by": "bounced",
+      "listing_basis": "third_party_directory",
+      "email_note": "2026-11-18: ccpa@telefi.app hard-bounced 550 address-not-found on 2026-11-16. telefi.app returns HTTP 402 to automated fetches, so a replacement address could not be found by this session. Needs a human with a real browser to check the site for a working contact.",
+      "email_verified_was": "privacy_policy"
     },
     {
       "id": "telephone_directories",
