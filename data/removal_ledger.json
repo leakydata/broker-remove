@@ -4471,9 +4471,9 @@
     "via": null
   },
   "old_friends": {
-    "status": "submitted",
+    "status": "confirmed",
     "changed": "2026-11-19",
-    "via": "reply"
+    "via": "web"
   },
   "oms_small_medium_businesses_directory": {
     "changed": "2026-09-18",
@@ -5806,9 +5806,9 @@
     "via": null
   },
   "skyhook_holding": {
-    "status": "submitted",
-    "changed": "2026-11-16",
-    "via": "email"
+    "status": "not_found",
+    "changed": "2026-11-19",
+    "via": "reply"
   },
   "slashdot_media": {
     "status": "submitted",
