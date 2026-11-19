@@ -7,9 +7,10 @@
 
 ## Status
 
-- Current: `failed` (updated 2026-11-16)
+- Current: `failed` (updated 2026-11-19)
 - Reference: `B5XXNVRRW9`
-- Note: 2026-11-16 GBG Compliance (COMP-60128) sent a copy of its 2026-08-24 OneTrust response B5XXNVRRW9 (never seen; portal only): refused because PA is not one of the 19 states it actions. Replied, without claiming other residence, asking (1) yes/no whether Acuant/IDology/GBG holds a record and (2) voluntary opt-out of sale and deletion beyond KYC retention.
+- Note: 2026-11-19 GBG/Acuant Privacy Team (COMP-60128) answered the voluntary-action request: no applicable comprehensive state privacy law for the requester's state, so no further action will be taken; says data processed for business customers should be raised with those customers. Did not answer whether a record is held. Declined; no further route by email.
+- Earlier: 2026-11-16 GBG Compliance (COMP-60128) sent a copy of its 2026-08-24 OneTrust response B5XXNVRRW9 (never seen; portal only): refused because PA is not one of the 19 states it actions. Replied, without claiming other residence, asking (1) yes/no whether Acuant/IDology/GBG holds a record and (2) voluntary opt-out of sale and deletion beyond KYC retention.
 - Earlier: REVERTED 2026-09-02, SAME DAY (SILENT_FAILURES 287). I moved this row to email_pending an hour earlier on the strength of an unconfirmed-looking verification email sitting in the inbox. THE ROW'S OWN HISTORY ALREADY SAID THE VERIFICATION WAS COMPLETED -- variously 'email verification clicked', 'Your request is confirmed!', 'successfully verified', or a later substantive reply that could only have followed confirmation. A verification mail stays in the inbox forever because nobody archives it; ITS PRESENCE IS NOT EVIDENCE THAT IT WAS NEVER USED. Nine of the ten rows I downgraded were already verified. Restored to submitted, which is what the evidence supports.
 
 ## Steps
