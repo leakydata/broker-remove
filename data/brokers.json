@@ -29888,7 +29888,9 @@
    "optery_url": "https://www.optery.com/data-brokers/top4backgroundchecks/",
    "route_evidence": "none",
    "country": "United States",
-   "category_hint": "People Search"
+   "category_hint": "People Search",
+   "email_verified": false,
+   "email_verified_by": "no_address_published"
   },
   {
    "id": "topline_holdings",
@@ -30112,7 +30114,9 @@
    "optery_slug": "usaphonesbook",
    "optery_url": "https://www.optery.com/data-brokers/usaphonesbook/",
    "route_evidence": "none",
-   "category_hint": "People Search"
+   "category_hint": "People Search",
+   "email_verified": false,
+   "email_verified_by": "no_address_published"
   },
   {
    "id": "usawhitepages",
@@ -30126,7 +30130,9 @@
    "optery_slug": "usawhitepages",
    "optery_url": "https://www.optery.com/data-brokers/usawhitepages/",
    "route_evidence": "none",
-   "category_hint": "People Search"
+   "category_hint": "People Search",
+   "email_verified": false,
+   "email_verified_by": "no_address_published"
   },
   {
    "id": "user_searcher",
