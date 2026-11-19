@@ -4606,9 +4606,9 @@
     "via": "reply"
   },
   "outbrain": {
-    "changed": "2026-08-19",
-    "status": "submitted",
-    "via": "email"
+    "status": "not_found",
+    "changed": "2026-11-19",
+    "via": "reply"
   },
   "outlogic": {
     "changed": "2026-09-02",
@@ -6181,9 +6181,9 @@
     "via": null
   },
   "teads": {
-    "changed": "2026-08-23",
-    "status": "submitted",
-    "via": null
+    "status": "not_found",
+    "changed": "2026-11-19",
+    "via": "reply"
   },
   "teamunify": {
     "changed": "2026-09-22",
