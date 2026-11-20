@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-11-16)
-- Note: 2026-11-16 CHASED in-thread: over 80 days with no reply to the August request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
+- Current: `submitted` (updated 2026-11-20)
+- 2026-11-20: Reply arrived, 84 days after the original letter (generic, did not quote or reference the chase): "Your privacy opt-out request has been processed. We have added your information to our suppression records so that it will not be used in future applicable data processing or marketing data services." It is a company-level statement, not a per-identifier one -- it does not say which of the twelve supplied identifiers matched, and it does not distinguish "suppressed going forward" from "existing activity records/resolutions deleted." Replied asking both questions directly: (1) which identifier types were searched, (2) whether the suppression also covers deletion of prior activity records, intent scores, or identity resolutions created before the request, or only blocks future use. Treating this as `submitted`, not `confirmed`, until that's answered -- see _SILENT_FAILURES on suppression vs. deletion.
+- 2026-11-16 CHASED in-thread: over 80 days with no reply to the August request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
 - Earlier: Sent the INTENT / WEB-VISITOR variant. If the business is identifying or scoring anonymous website visitors, the record is not a contact row but observed behaviour joined to an identity, so the letter asks for: (1) the ACTIVITY RECORDS themselves -- pages viewed, content downloaded, searches, sessions -- not merely the intent score derived from them; (2) THE RESOLUTION ITSELF, since if an anonymous visit was resolved to the subject by hashed email, cookie, device ID, IP or an identity-graph partner then THAT JOIN IS THE RECORD and the endpoints reassemble without it; (3) COMPANY-LEVEL ATTRIBUTION where visits are resolved to an employer by IP or email domain and reported to a vendor as research from that organisation; (4) hashed email match keys. B2B carve-out pre-empted with the sunset date; identifier-types-matched question asked.
 
 ## Steps
@@ -21,13 +22,13 @@
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+- The confirmation reply is a boilerplate one-liner that does not quote or
+  reference any of the specific questions asked (identifier-by-identifier
+  match, activity-record deletion vs. forward suppression, hashed-identifier
+  handling). Don't read "opt-out request has been processed" as answering
+  those questions — it answers only "did you receive and act on a request,"
+  which is a narrower claim. Worth one more email naming the unanswered
+  points explicitly before treating the row as closed.
 
 ## Verification
 
