@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-11-16)
-- Note: 2026-11-16 found unrecorded: dylan@ripple-fx.com auto-replied 2026-08-26 that he has left the company and named rivers@ripple-fx.com as the contact. Forwarded the original request there with a short cover note.
+- Current: `confirmed` (updated 2026-11-20)
+- Note: 2026-11-20 confirmed by the "ROI Team" at roi@ripple-fx.com (a third address at this domain, after dylan@ and rivers@): "confirm receipt and completion of your information request. You have been opted out of future communications and suppressed from sale or use." Generic wording, no breakdown of the voter-file score/propensity data specifically asked about, but a complete-enough answer to close the row given the earlier concession that the underlying voter record itself cannot be altered.
+- Earlier: 2026-11-16 found unrecorded: dylan@ripple-fx.com auto-replied 2026-08-26 that he has left the company and named rivers@ripple-fx.com as the contact. Forwarded the original request there with a short cover note.
 - Earlier: Recovered from the committed playbook brokers/r/ripple_effect_strategies.md, because the ledger carries no notes and this row's status had no evidence behind it: 2026-08-26: emailed [named individual]@ripple-fx.com. Asked for any partisanship/ideology/issue-interest/giving-capacity/propensity-to-give score and any voter-file-derived attribute, conceding that a public voter record itself cannot be altered but the derived scoring and their copy can be deleted.
 
 ## Steps

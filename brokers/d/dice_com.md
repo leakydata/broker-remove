@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-11-16)
-- Note: 2026-11-16 CCPA-period chase (about 83 days, no reply or acknowledgement; no bounce found): one-line 'did the request arrive, and if this is the wrong mailbox, which is right?' sent in the original thread.
+- Current: `confirmed` (updated 2026-11-20)
+- Note: 2026-11-20 confirmed from dataprivacy@dice.com (not the support@dice.com address the original letter went to): "your privacy request for Dice has been completed and your data has been removed." Short and generic - doesn't break out resume content, sourced/enriched profiles, recruiter search/view history or inferred attributes separately - but a complete-enough nil/removed answer to close the row. Note the reply address for any future contact: dataprivacy@dice.com.
+- Earlier: 2026-11-16 CCPA-period chase (about 83 days, no reply or acknowledgement; no bounce found): one-line 'did the request arrive, and if this is the wrong mailbox, which is right?' sent in the original thread.
 - Earlier: 2026-08-25: emailed support@dice.com. NEW CATEGORY - job board / resume database, and the framing that matters is that Dice sells RECRUITER ACCESS to a searchable candidate database, so a profile is a product rather than a service. Four asks: (1) the resume itself, which is one of the densest personal records a person ever creates - employment, education, dates, skills, sometimes address and phone; (2) records created WITHOUT an application - sourced, enriched or inferred profiles, plus derived first.last@employer addresses using the Kaspr admission; (3) RECRUITER SEARCH AND VIEW HISTORY - has my profile been returned in searches or viewed, how often, over what period, explicitly NOT asking which recruiter or employer, on the same ask-whether-not-who principle that works for skip tracing; (4) inferred attributes - skill inference, seniority, salary estimate, and job-change-likelihood or 'open to opportunities' scores, noting that a prediction someone is likely to leave their job is a record they never agreed to, cannot see, and that could cause real harm if it reached the wrong reader. Leaned on the closed .edu address as a search key since an old job-board account is keyed to whatever email was current when created.
 
 ## Steps

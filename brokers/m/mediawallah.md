@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-19)
-- Note: Identity resolution / audience data. Same identity-graph framing plus the processor-vs-controller question. Deliberately supplied NO device advertising identifier: if they hold one they can find it from the identifiers given, and if they do not, supplying it would create the association being removed.
+- Current: `confirmed` (updated 2026-11-20)
+- Note: 2026-11-20 confirmed in writing: "processed your request and removed any personal information associated with you from our database," will not sell or share it, and "notified our downstream partners of your request." Generic wording - does not say which identifiers matched, whether the removal was found-and-deleted vs. nothing-existed, or whether the identity-graph edges (not just a name row) were included. Not worth chasing further given the identifiers are now gone either way; recorded as `confirmed` per the "we would rather have an honest nil than a flattering lie" standard, with the caveat that a generic confirmation from an identity-resolution business should be treated as weaker evidence than a specific one.
+- Earlier: 2026-08-19/11-15: Identity resolution / audience data. Same identity-graph framing plus the processor-vs-controller question. Deliberately supplied NO device advertising identifier: if they hold one they can find it from the identifiers given, and if they do not, supplying it would create the association being removed. Chased 2026-11-15 after no reply since the original letter.
 
 ## Steps
 

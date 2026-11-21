@@ -2,7 +2,31 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-10-23)
+- Current: `confirmed` (updated 2026-11-20)
+- Update (2026-11-20, later): three more automated messages arrived minutes
+  apart from Acxiom's OneTrust portal (`noreply@onetrust-acxiom.com` /
+  `PrivacyOMC@omnicomgroup.com`), evidently the support team transcribing the
+  emailed request into their formal ticketing system rather than a form this
+  session filled: **Request ID `TQ752JCSQS`**, right exercised "Delete",
+  submitted 2026-11-20 18:52 UTC with the identifiers from the letter (name,
+  DOB, address, phone - redacted in the confirmation email itself, a nice
+  touch). The follow-up confirmation states: "Acxiom LLC has added your
+  information to our deletion file to ensure that your information is and
+  continues to be removed from all Acxiom data products in the future." That
+  is an explicit forward-looking-suppression statement ("continues to be
+  removed... in the future") applied across "all Acxiom data products"
+  (answers outstanding questions 3 and 4). It still does not enumerate which
+  specific identifiers matched or confirm the 25 August additions were
+  searched (questions 1 and 2) - asked again in-thread. A genuine ticket
+  number plus an affirmative deletion-file statement clears the bar for
+  `confirmed` under this project's rules even though two of four questions
+  remain open; re-open if a listing resurfaces.
+- Update (2026-11-20, earlier): first reply ever in the email thread, 88 days
+  after the original letter and 28 days after the last chase - a template:
+  "your request has been processed... You may receive additional emails as
+  part of the confirmation process." None of the four outstanding questions
+  was answered in this one; replied in-thread asking them to confirm all four
+  specifically.
 - Update (2026-10-23): 46 days of total silence since the 7 September letter
   (which itself followed a 25 August addition to the 15 August original) —
   `askprivacy@acxiom.com` has never once replied across three letters. Sent a

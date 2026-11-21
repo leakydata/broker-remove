@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-11-16)
-- Note: 2026-11-16 CCPA-period chase (about 83 days, no reply or acknowledgement; no bounce found): one-line 'did the request arrive, and if this is the wrong mailbox, which is right?' sent in the original thread.
+- Current: `submitted` (updated 2026-11-20)
+- Note: 2026-11-20 acknowledged the chase: "we acknowledge receipt of your request and confirm that it is currently being reviewed and processed as a priority. We will contact you if any additional information is required." A bare acknowledgment, not an answer - none of the specific asks (relationship-graph edges, screening flags, which entities/products, upstream suppliers) have been addressed yet. Nothing to chase yet since they've just said it's in hand; re-check after the 45-day statutory window from the 25 August letter, which has already passed, so a further chase citing the deadline is reasonable on the next pass if no substantive answer arrives.
+- Earlier: 2026-11-16 CCPA-period chase (about 83 days, no reply or acknowledgement; no bounce found): one-line 'did the request arrive, and if this is the wrong mailbox, which is right?' sent in the original thread.
 - Earlier: 2026-08-25: emailed privacy@diligent.com. Governance and executive-profile data - same structure as the BoardEx/Altrata letter. Conceded public filings up front, then asked for the compilation and three things attached: the cross-organisation person record no regulator holds; THE RELATIONSHIP EDGES, with the line that being retained as an endpoint of a connection recorded under someone else's profile is still personal information about me and in a relationship-data business is the more valuable half; and screening flags (risk, PEP, sanctions-adjacency, adverse-media), asking to be told EVEN IF they conclude they may retain them, because a false or stale flag causes declined accounts and failed onboarding and the person it describes is the last to find out. Pre-empted B2B, professional-information and publicly-available exemptions together.
 
 ## Steps
