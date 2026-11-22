@@ -10,6 +10,24 @@
 - Current: `submitted` (updated 2026-08-19)
 - Note: Autoresponder, but a revealing one. Three findings. (1) THE OPT-OUT LINK IN THEIR OWN AUTORESPONDER IS DEAD: it points at site.possiblenow.com/do-not-sell-my-personal-information, which 404s onto what looks like a hosted knowledge base - the page title is 'How do I set up an NPS survey?'. The working page is the same path on www. One wrong subdomain, in the automated reply a consent-management company sends to every privacy request. (2) A CAPTCHA gates the form BEFORE the fields are shown - 'Verify & Continue to Form' - so nothing can be pre-filled or even inspected without solving it. (3) 'If you have multiple addresses or email addresses, please submit a separate request for each.' With 16 addresses and 12 emails that is 28 submissions, each behind its own CAPTCHA. Recorded as submitted on the EMAIL route, which is the substantive one: the letter asked them to KEEP suppression records and delete everything else, and a per-identifier do-not-sell form cannot express that distinction at all. Their reply confirms email is not foreclosed - 'We will respond to your questions or concerns in a timely manner.'
 
+## Update (2026-11-20): the sibling address confirms the mailbox is unmonitored
+
+The chase sent to `californiadrop@possiblenowmarketing.com` on the CCPA-period
+sweep got an automated reply: that address "is not monitored and therefore any
+messages sent to this address will not receive personalized attention," and
+points to two routes instead — the web form
+(`https://www.possiblenow.com/do-not-sell-my-personal-information`, the
+correct `www.` subdomain, not the dead `site.` one from the August
+autoresponder) or postal mail to PossibleNOW, ATTN: Compliance Officer, 4400
+River Green Parkway, Suite 100, Duluth, GA 30096. This is the second,
+sibling-brand address, not the original `privacy@possiblenow.com` thread
+(still `submitted` since 2026-08-19, see above) — leaving that one as the
+substantive route and this one as confirmation that
+`californiadrop@possiblenowmarketing.com` is a one-way drop box, not a reply
+channel. No status change: the original email submission still stands as
+`submitted`, and the web form is a CAPTCHA-gated alternative already noted
+below, not a required step.
+
 ## Correction (2026-08-27): a duplicate second letter was sent to a sibling address
 
 A separate registry row (`possiblenow` in `data/curated_brokers.json`, `email_to`

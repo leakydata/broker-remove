@@ -8,6 +8,12 @@
 ## Status
 
 - Current: `manual_required` (updated 2026-10-14)
+- Note (2026-11-22): checked against a DSR15268 ticket acknowledgement in the
+  inbox before writing anything here — that ticket belongs to the **sibling
+  row** `deloitte_financial_advisory_services` (same contact address,
+  already `submitted`, see that playbook), not to this row. This row's own
+  PIRF-form fault and phone fallback below are still the open items; no new
+  information arrived for `deloitte_consulting` specifically this pass.
 - Note: **A SECOND, INDEPENDENT FORM FAULT FOUND, 2026-10-12.** A fresh email
   to `DataSubjectRequest@deloitte.com` reported that their Personal
   Information Request Form (PIRF, at `datasubject.deloitte.com`) redirects to

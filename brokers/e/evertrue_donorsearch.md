@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-11-16)
-- Note: 2026-11-16 CHASED in-thread: over 80 days with no reply to the August request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
+- Current: `not_found` (updated 2026-11-21)
+- Note: 2026-11-21 EverTrue Privacy replied (Ref: ITSP-5756): said they could not find a record of the original August request, but acted on the chase. Searched their systems and found no personal information matching the identifiers supplied; added name and verification details to a suppression list against future ingestion; confirmed no sale or sharing for targeted advertising. Invited more identifiers if the subject thinks a record exists under a different name/email. Treated as a clean `not_found` with forward-looking suppression, which is what was asked for.
+- Earlier: 2026-11-16 CHASED in-thread: over 80 days with no reply to the August request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
 - Earlier: Opt-out letter sent by email to privacy@evertrue.com (delete + opt out of sale/sharing + direct downstream recipients + suppress against future ingestion). All twelve email addresses, sixteen prior addresses and eleven prior phone numbers listed for search. Sent as HTML per letter_html.
 
 ## Steps
@@ -21,17 +22,23 @@
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+- **They lost the first letter.** EverTrue's own reply (Ref ITSP-5756) said
+  they "could not find a record of receiving" the original August request and
+  only acted once the chase arrived in-thread 80+ days later quoting it back
+  to them. Nothing here was CAPTCHA- or form-gated; the letter simply never
+  produced a reply until re-sent with the prior text attached. Worth chasing
+  any EverTrue-family thread that goes quiet rather than assuming it was
+  read.
+- No email route refused and no form was required — straightforward
+  statutory email throughout.
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+No public listing to re-check. Their reply states the suppression basis
+plainly: name and "verification details" (the identifiers supplied in the
+letter) were added to a forward-looking suppression list, and no sale/sharing
+for targeted advertising. If a listing resurfaces, re-open by quoting Ref
+ITSP-5756.
 
 ## Who they are, and how to reach them
 
