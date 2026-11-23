@@ -7,7 +7,7 @@
 
 ## Status
 
-- Current: `acknowledged` (updated 2026-11-16)
+- Current: `replied` (updated 2026-11-23)
 - Note: Recorded Future privacy auto-acknowledged within seconds (2026-11-17) and asked for identity verification through its Data Subject Access form on my.datasubject.com (a third-party DSAR vendor). Recorded Future's own privacy policy does not link to that form, so the agent did not fill it from the email link. Replied in thread: deletion and opt-out need no disclosure, the request comes from a listed address, so please verify with a confirmation link to that address and do not wait on a government ID. Form handed to the user.
 - Earlier: ROUTE FOUND 2026-11-16: securitytrails.com/corp/privacy is now a 404 and the privacy policy redirects to Recorded Future (owner since 2022), whose policy names privacy@recordedfuture.com and a phone line for rights requests. Sent the historical-WHOIS delete + opt-out + suppression request there, scoped to SecurityTrails and any Recorded Future product drawing on the same data, with the full identifier set and an explicit ask to search rather than have me run a reverse WHOIS. Policy says acknowledgment within 10 business days, answer within 45 days.
 - Earlier: WHOIS-intelligence cluster (SF 220). Route discovery failed: site returns HTTP 403 to a plain fetch; no route discoverable. Queued for handoff with the substance from the whoisxmlapi letter -- historical WHOIS is unredacted and carries a full registrant contact block, the four defunct-service addresses matter most, and the request should ASK what they hold rather than run a reverse-WHOIS, because searching hands them the identifiers and can create a query record. Status moved off 'pending' because a staged handoff is a decision, not an untouched row.

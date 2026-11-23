@@ -8,8 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-11-16)
-- Note: 2026-11-16 support (ticket 475392) pointed to peoplewhiz.com/optout. Driven: name + [current city], PA search, Cloudflare Turnstile passed by itself, confirmation email given. The opt-out email arrived 18:35Z, and its confirm link (optout/confirmed?confirm=...) was opened; it redirected back to /optout with no message, so whether it took effect is unconfirmed. The email's boilerplate asks for ID by fax or mail; NOT sent (standing rule). Recheck in 7 business days.
+- Current: `submitted` (updated 2026-11-23)
+- Note: 2026-11-16 support ticket 475392 followed up, pointing again to the same optout page already driven below; did not address whether PeopleWhizr is the same operation, whether the suppression survives a refresh, or the associates-listing question. Still unconfirmed whether the original submission took effect — recheck due.
+- Earlier: 2026-11-16 support (ticket 475392) pointed to peoplewhiz.com/optout. Driven: name + [current city], PA search, Cloudflare Turnstile passed by itself, confirmation email given. The opt-out email arrived 18:35Z, and its confirm link (optout/confirmed?confirm=...) was opened; it redirected back to /optout with no message, so whether it took effect is unconfirmed. The email's boilerplate asks for ID by fax or mail; NOT sent (standing rule). Recheck in 7 business days.
 - Earlier: 2026-11-15 the CCPA-period chase in the August thread drew PeopleWhiz's first response on 2026-11-16: a Zendesk auto-acknowledgement, request #475392. The chase named peoplewhizr.com explicitly. Nothing substantive yet.
 - Earlier: Consolidated letter covering BOTH peoplewhiz.com and peoplewhizr.com. family_scan does not pair them because their registry contacts are different addresses on different domains, but DNS does: peoplewhizr.com publishes no MX record at all while peoplewhiz.com carries Rackspace mail, which is the ordinary shape when one operator handles a second brand's correspondence. Rather than assert the relationship, the letter states the inference and its evidence and invites them to correct it - 'if that reading is wrong and they are unrelated, please say so plainly, I will take it at face value'. That costs nothing if wrong and saves a second exchange if right. Standard people-search asks otherwise.
 

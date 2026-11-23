@@ -7,7 +7,7 @@
 
 ## Status
 
-- Current: `acknowledged` (updated 2026-11-17)
+- Current: `replied` (updated 2026-11-23)
 - Reference: `gmail:1a0423fbbdeb8401`
 - Note: 2026-11-17 Rahul from Enrich Layer replied to the chase: confirmed the request arrived, that privacy@enrichlayer.com is the right address, and that it is now logged and "with the team handling it" — a full response to follow. No outcome yet.
 - Earlier: 2026-11-16 CHASED in-thread: over 80 days with no reply to the August request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.

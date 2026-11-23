@@ -7,7 +7,7 @@
 
 ## Status
 
-- Current: `acknowledged` (updated 2026-11-16)
+- Current: `submitted` (updated 2026-11-23)
 - Note: 2026-11-16 19:13 UTC: DonorBureau (bungar@) accepted the emailed confirmation in place of the broken Apps Script link: 'verification confirmation has been received', processing begins, reply expected within a few weeks.
 - Earlier: 2026-11-16 17:04 UTC: DonorBureau sent a fresh 'Please Confirm Your Data Removal Request' (Apps Script link, request of 2026-08-25). The link again returns Google 'unable to open the file' (Page Not Found) under both URL forms; it seems limited to signed-in donorbureau.com accounts. Replied in that thread (cc dataengineering@): confirmed the request is mine and asked them to take the reply as confirmation and send a line once processed.
 - Earlier: 2026-11-16: found two unanswered 'Please Confirm Your Data Removal Request' emails of 2026-08-27 from DonorBureau (Google Apps Script yes/no links). The 'Yes, this was me' link now returns Google 'Page Not Found' (script removed). Confirmed by email instead, replying to the sender and cc'ing dataengineering@ and ccpa@donorbureau.com, asking for a one-line note when processed.

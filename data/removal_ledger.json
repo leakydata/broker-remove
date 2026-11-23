@@ -656,8 +656,8 @@
     "via": null
   },
   "b_i_science_2009": {
-    "status": "acknowledged",
-    "changed": "2026-11-17",
+    "status": "replied",
+    "changed": "2026-11-23",
     "via": "reply"
   },
   "babel_street": {
@@ -1041,8 +1041,8 @@
     "via": "reply"
   },
   "cashmere": {
-    "status": "submitted",
-    "changed": "2026-11-16",
+    "status": "confirmed",
+    "changed": "2026-11-23",
     "via": "web"
   },
   "catalina_marketing": {
@@ -1923,8 +1923,8 @@
     "via": "reply"
   },
   "donorbureau": {
-    "status": "acknowledged",
-    "changed": "2026-11-16",
+    "status": "submitted",
+    "changed": "2026-11-23",
     "via": "reply"
   },
   "downing_lahey_mortuaries_crematory": {
@@ -2083,8 +2083,8 @@
     "via": "reply"
   },
   "enrich_layer": {
-    "status": "acknowledged",
-    "changed": "2026-11-17",
+    "status": "replied",
+    "changed": "2026-11-23",
     "via": "reply"
   },
   "enriched": {
@@ -2559,8 +2559,8 @@
     "via": "reply"
   },
   "g2_stack": {
-    "status": "acknowledged",
-    "changed": "2026-11-17",
+    "status": "replied",
+    "changed": "2026-11-23",
     "via": "reply"
   },
   "gale": {
@@ -2999,8 +2999,8 @@
     "via": "email"
   },
   "inbound_insight": {
-    "status": "submitted",
-    "changed": "2026-11-16",
+    "status": "replied",
+    "changed": "2026-11-23",
     "via": "email"
   },
   "index_exchange": {
@@ -4606,8 +4606,8 @@
     "via": null
   },
   "ourstates": {
-    "status": "submitted",
-    "changed": "2026-11-17",
+    "status": "unreachable",
+    "changed": "2026-11-23",
     "via": "reply"
   },
   "outbrain": {
@@ -4802,7 +4802,7 @@
   },
   "peoplewhiz_com": {
     "status": "submitted",
-    "changed": "2026-11-16",
+    "changed": "2026-11-23",
     "via": "web"
   },
   "peoplewhizr_com": {
@@ -5696,8 +5696,8 @@
     "via": "email"
   },
   "securitytrails": {
-    "status": "acknowledged",
-    "changed": "2026-11-16",
+    "status": "replied",
+    "changed": "2026-11-23",
     "via": "reply"
   },
   "seedtable": {
@@ -5756,8 +5756,8 @@
     "via": null
   },
   "sharethrough": {
-    "status": "submitted",
-    "changed": "2026-11-16",
+    "status": "replied",
+    "changed": "2026-11-23",
     "via": "email"
   },
   "sheerid": {

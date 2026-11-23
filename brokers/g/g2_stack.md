@@ -8,8 +8,9 @@
 
 ## Status
 
-- Current: `acknowledged` (updated 2026-11-17)
-- Note: 2026-11-17 G2 privacy auto-acknowledged the 45-day chase (review pending; points to its self-service privacy portal).
+- Current: `replied` (updated 2026-11-23)
+- Note: 2026-11-23: the 2026-11-17 chase got the IDENTICAL auto-acknowledgement sent on the original 2026-08-23 letter, verbatim -- no individual reply either time, 86 days apart. Looks like an unmonitored mailbox (same pattern as Sharethrough's dataprotection+canned.response@); the self-service form at legal.g2.com/privacy-request is the fallback if a third email also goes unanswered.
+- Earlier: 2026-11-17 G2 privacy auto-acknowledged the 45-day chase (review pending; points to its self-service privacy portal).
 - Earlier: 45-day chase sent 2026-11-17 in the original thread: no reply of any kind since the request, so asked one question, whether it arrived and whether any record was found, plus the usual fallback to their published privacy policy.
 - Earlier: Recovered from the committed playbook brokers/g/g2_stack.md, because the ledger carries no notes and this row's status had no evidence behind it: Statutory opt-out/deletion email sent 2026-08-23, category-tailored.
 

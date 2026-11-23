@@ -8,8 +8,9 @@
 
 ## Status
 
-- Current: `confirmed` (updated 2026-08-20)
-- Note: Trestle/Superset sent four completion emails 2026-08-20 13:37Z from noreply@trustsuperset.com: two 'right to opt out has been completed' and two 'right to deletion has been completed'. Both rights, both confirmed separately.
+- Current: `confirmed` (updated 2026-11-23)
+- Note: 2026-11-23: found several more trustsuperset.com confirmations, previously unread, from the same Aug/Sep window -- Right to Erasure completed, Right to Opt-out of Data Sales completed, Restriction of Processing completed, and two Right to Data Portability replies ('No matching records found'). All positive/consistent with the original four; no new action needed.
+- Earlier: Trestle/Superset sent four completion emails 2026-08-20 13:37Z from noreply@trustsuperset.com: two 'right to opt out has been completed' and two 'right to deletion has been completed'. Both rights, both confirmed separately.
 
 ## Steps
 
