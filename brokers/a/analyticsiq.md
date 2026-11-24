@@ -8,8 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-11-16)
-- Note: 2026-11-16 CHASED: 85 days of total silence since the 23 August letter. Sent a one-line chase asking whether a record was found, with the fallback clause for state-coverage pushback.
+- Current: `acknowledged` (updated 2026-11-23)
+- Note: 2026-11-23 Replied to the 11/16 chase with a generic template: "AnalyticsIQ will perform a search for your information and if we are able to locate your data, it will be removed from our system." This is an acknowledgement that the request is queued, not a result — it doesn't say whether a search has actually run yet. Replied same day asking the three things the template left out: (1) was anything actually found, (2) if so, confirm deletion/opt-out and that downstream partners were told, (3) suppress going forward against re-ingestion. Still open.
+- Earlier: 2026-11-16 CHASED: 85 days of total silence since the 23 August letter. Sent a one-line chase asking whether a record was found, with the fallback clause for state-coverage pushback.
 
 - Current: `submitted` (updated 2026-08-23)
 - Note: Recovered from the committed playbook brokers/a/analyticsiq.md, because the ledger carries no notes and this row's status had no evidence behind it: Statutory opt-out/deletion email sent 2026-08-23, category-tailored.

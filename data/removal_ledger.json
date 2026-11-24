@@ -411,9 +411,9 @@
     "via": null
   },
   "analyticsiq": {
-    "status": "submitted",
-    "changed": "2026-11-16",
-    "via": null
+    "status": "acknowledged",
+    "changed": "2026-11-24",
+    "via": "reply"
   },
   "ancestry_com_uk": {
     "status": "submitted",
@@ -796,8 +796,8 @@
     "via": "email"
   },
   "black_pearl": {
-    "status": "submitted",
-    "changed": "2026-11-16",
+    "status": "suppressed",
+    "changed": "2026-11-24",
     "via": "reply"
   },
   "blackbaud": {
@@ -5251,8 +5251,8 @@
     "via": "web"
   },
   "realeflow": {
-    "status": "submitted",
-    "changed": "2026-11-16",
+    "status": "suppressed",
+    "changed": "2026-11-24",
     "via": "reply"
   },
   "reality_media": {

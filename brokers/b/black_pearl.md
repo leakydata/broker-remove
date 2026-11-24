@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-11-16)
-- Note: 2026-11-16 CCPA-period chase (about 83 days, no reply or acknowledgement; no bounce found): one-line 'did the request arrive, and if this is the wrong mailbox, which is right?' sent in the original thread.
+- Current: `suppressed` (updated 2026-11-22)
+- Note: 2026-11-22 Replied via a templated "Your Data Request Has Been Completed" notice (from noreply@blackpearl.com rather than the named individual's mailbox originally used — the request was forwarded internally, same as SILENT_FAILURES 83 anticipated): "No data was found on our systems." They state they retain the requester's email in two places specifically to honor the request going forward: (1) a suppression list that blocks future ingestion, (2) a record of the opt-out request and its completion. This is a `not_found` result with an explicit two-list suppression mechanism, which is the right shape of answer — closing as confirmed rather than chasing further.
+- Earlier: 2026-11-16 CCPA-period chase (about 83 days, no reply or acknowledgement; no bounce found): one-line 'did the request arrive, and if this is the wrong mailbox, which is right?' sent in the original thread.
 - Earlier: 2026-08-25: emailed [named individual]@blackpearl.com - a named individual, which is what the registry filing publishes (SILENT_FAILURES 83). Opened by saying where the address came from and asking them to forward it internally and correct the filing if it is stale. Otherwise the two general-purpose questions: upstream suppliers, and inferred vs collected.
 
 ## Steps

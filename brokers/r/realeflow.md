@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-11-16)
-- Note: 2026-11-16 CHASED in-thread: over 80 days with no reply to the August request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
+- Current: `suppressed` (updated 2026-11-23)
+- Note: 2026-11-23 Replied (same day as the 11/16 chase): confirmed received and processed. All 12 emails and 12 phone numbers supplied were put on their suppression list; all 15 street addresses were searched against property records and any match suppressed (the 2 PO boxes were skipped as non-property). No property record was found naming the requester, so no lead/seller-likelihood labels or scores existed to report. Categories they may hold: owner names, property/mailing addresses, property characteristics, lead indicators (tax delinquency, pre-foreclosure, etc.), contact details. Sources: county assessor/recorder records and third-party data providers. Recipients: real-estate investors/agents who subscribe, plus white-label partners. Retention: kept only as long as reasonably necessary per their privacy policy, with a "limited suppression record" kept so the details aren't re-added. This is a clean, itemized confirmation that answered every question the original letter asked — worth citing as the model reply when chasing other real-estate-lead brokers.
+- Earlier: 2026-11-16 CHASED in-thread: over 80 days with no reply to the August request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
 - Earlier: Recovered from the committed playbook brokers/r/realeflow.md, because the ledger carries no notes and this row's status had no evidence behind it: 2026-08-26: emailed privacy@realeflow.com. Same predictive-seller/real-estate variant as real_intent.
 
 ## Steps
