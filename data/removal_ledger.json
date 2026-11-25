@@ -286,9 +286,9 @@
     "via": null
   },
   "alabamacourtrecords_us": {
-    "status": "submitted",
-    "changed": "2026-11-16",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-11-25",
+    "via": "reply"
   },
   "alarmscalifornia": {
     "status": "not_found",
@@ -301,9 +301,9 @@
     "via": null
   },
   "alaskacourtrecords_us": {
-    "status": "submitted",
-    "changed": "2026-11-16",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-11-25",
+    "via": "reply"
   },
   "alesco_data": {
     "status": "not_found",
@@ -501,9 +501,9 @@
     "via": null
   },
   "arizonacourtrecords_us": {
-    "status": "submitted",
-    "changed": "2026-11-16",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-11-25",
+    "via": "reply"
   },
   "arkansas_arrests": {
     "status": "submitted",
@@ -511,9 +511,9 @@
     "via": null
   },
   "arkansascourtrecords_us": {
-    "status": "submitted",
-    "changed": "2026-11-16",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-11-25",
+    "via": "reply"
   },
   "arounddeal": {
     "status": "submitted",
@@ -966,9 +966,9 @@
     "via": "reply"
   },
   "californiacourtrecords_us": {
-    "status": "submitted",
-    "changed": "2026-11-16",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-11-25",
+    "via": "reply"
   },
   "californiaengineering_org": {
     "status": "not_found",
@@ -1272,9 +1272,9 @@
     "via": null
   },
   "coloradocourtrecords_us": {
-    "status": "submitted",
-    "changed": "2026-11-16",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-11-25",
+    "via": "reply"
   },
   "coloradoresidentdirectory": {
     "status": "not_found",
@@ -1357,9 +1357,9 @@
     "via": null
   },
   "connecticutcourtrecords_us": {
-    "status": "submitted",
-    "changed": "2026-11-16",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-11-25",
+    "via": "reply"
   },
   "connext_digital": {
     "status": "failed",
@@ -1402,8 +1402,8 @@
     "via": "reply"
   },
   "corelogic": {
-    "status": "submitted",
-    "changed": "2026-08-26",
+    "status": "confirmed",
+    "changed": "2026-11-25",
     "via": "reply"
   },
   "corelogic_cotality": {
@@ -1447,8 +1447,8 @@
     "via": "reply"
   },
   "courtrecords_us": {
-    "status": "acknowledged",
-    "changed": "2026-11-16",
+    "status": "confirmed",
+    "changed": "2026-11-25",
     "via": "reply"
   },
   "cox_automotive": {
@@ -1773,9 +1773,9 @@
     "via": null
   },
   "delawarecourtrecords_us": {
-    "status": "submitted",
-    "changed": "2026-11-16",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-11-25",
+    "via": "reply"
   },
   "delivr_ai": {
     "status": "acknowledged",
@@ -1788,9 +1788,9 @@
     "via": "reply"
   },
   "deloitte_financial_advisory_services": {
-    "status": "submitted",
-    "changed": "2026-11-17",
-    "via": "web"
+    "status": "confirmed",
+    "changed": "2026-11-25",
+    "via": "reply"
   },
   "deluxe": {
     "status": "replied",
@@ -2399,9 +2399,9 @@
     "via": null
   },
   "floridacourtrecords_us": {
-    "status": "submitted",
-    "changed": "2026-11-16",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-11-25",
+    "via": "reply"
   },
   "floridaparcels_com": {
     "status": "submitted",
@@ -2589,9 +2589,9 @@
     "via": null
   },
   "georgiacourtrecords_us": {
-    "status": "submitted",
-    "changed": "2026-11-16",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-11-25",
+    "via": "reply"
   },
   "getemail_io": {
     "status": "confirmed",
@@ -2744,9 +2744,9 @@
     "via": null
   },
   "hawaiicourtrecords_us": {
-    "status": "submitted",
-    "changed": "2026-11-16",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-11-25",
+    "via": "reply"
   },
   "hd_information": {
     "status": "submitted",
@@ -2924,9 +2924,9 @@
     "via": null
   },
   "idahocourtrecords_us": {
-    "status": "submitted",
-    "changed": "2026-11-16",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-11-25",
+    "via": "reply"
   },
   "idcaller": {
     "status": "unreachable",
@@ -2984,9 +2984,9 @@
     "via": null
   },
   "illinoiscourtrecords_us": {
-    "status": "submitted",
-    "changed": "2026-11-16",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-11-25",
+    "via": "reply"
   },
   "illumin": {
     "status": "submitted",
@@ -3014,9 +3014,9 @@
     "via": null
   },
   "indianacourtrecords_us": {
-    "status": "submitted",
-    "changed": "2026-11-16",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-11-25",
+    "via": "reply"
   },
   "infillion": {
     "status": "failed",
@@ -3179,9 +3179,9 @@
     "via": null
   },
   "iowacourtrecords_us": {
-    "status": "submitted",
-    "changed": "2026-11-16",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-11-25",
+    "via": "reply"
   },
   "ipapi": {
     "status": "not_found",
@@ -3279,9 +3279,9 @@
     "via": null
   },
   "kansascourtrecords_us": {
-    "status": "submitted",
-    "changed": "2026-11-16",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-11-25",
+    "via": "reply"
   },
   "kargo_global": {
     "status": "manual_required",
@@ -3304,9 +3304,9 @@
     "via": null
   },
   "kentuckycourtrecords_us": {
-    "status": "submitted",
-    "changed": "2026-11-16",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-11-25",
+    "via": "reply"
   },
   "key_marketing_advantage": {
     "status": "submitted",
@@ -3640,9 +3640,9 @@
     "via": null
   },
   "louisianacourtrecords_us": {
-    "status": "submitted",
-    "changed": "2026-11-16",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-11-25",
+    "via": "reply"
   },
   "lucid": {
     "status": "covered_by_sibling",
@@ -3695,9 +3695,9 @@
     "via": null
   },
   "mainecourtrecords_us": {
-    "status": "submitted",
-    "changed": "2026-11-16",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-11-25",
+    "via": "reply"
   },
   "malvern_media": {
     "status": "submitted",
@@ -3750,14 +3750,14 @@
     "via": null
   },
   "marylandcourtrecords_us": {
-    "status": "submitted",
-    "changed": "2026-11-16",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-11-25",
+    "via": "reply"
   },
   "massachusetsscourtrecords_us": {
-    "status": "submitted",
-    "changed": "2026-11-16",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-11-25",
+    "via": "reply"
   },
   "massachusetts_arrests": {
     "status": "submitted",
@@ -3871,9 +3871,9 @@
     "via": null
   },
   "michigancourtrecords_us": {
-    "status": "submitted",
-    "changed": "2026-11-16",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-11-25",
+    "via": "reply"
   },
   "mightyrep": {
     "status": "not_found",
@@ -3906,9 +3906,9 @@
     "via": null
   },
   "minnesotacourtrecords_us": {
-    "status": "submitted",
-    "changed": "2026-11-16",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-11-25",
+    "via": "reply"
   },
   "missionwired": {
     "status": "submitted",
@@ -3936,9 +3936,9 @@
     "via": null
   },
   "mississippicourtrecords_us": {
-    "status": "submitted",
-    "changed": "2026-11-16",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-11-25",
+    "via": "reply"
   },
   "missouri_arrests": {
     "status": "submitted",
@@ -3946,9 +3946,9 @@
     "via": null
   },
   "missouricourtrecords_us": {
-    "status": "submitted",
-    "changed": "2026-11-16",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-11-25",
+    "via": "reply"
   },
   "mixrank": {
     "status": "submitted",
@@ -4016,9 +4016,9 @@
     "via": null
   },
   "montanacourtrecords_us": {
-    "status": "submitted",
-    "changed": "2026-11-16",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-11-25",
+    "via": "reply"
   },
   "moody_s": {
     "status": "submitted",
@@ -4146,9 +4146,9 @@
     "via": null
   },
   "nebraskacourtrecords_us": {
-    "status": "submitted",
-    "changed": "2026-11-16",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-11-25",
+    "via": "reply"
   },
   "neighborwho": {
     "status": "replied",
@@ -4186,9 +4186,9 @@
     "via": "web"
   },
   "nevadacourtrecords_us": {
-    "status": "submitted",
-    "changed": "2026-11-16",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-11-25",
+    "via": "reply"
   },
   "new_frontier_data": {
     "status": "submitted",
@@ -4236,9 +4236,9 @@
     "via": null
   },
   "newhampshirecourtrecords_us": {
-    "status": "submitted",
-    "changed": "2026-11-16",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-11-25",
+    "via": "reply"
   },
   "newhomeownerlistsusa": {
     "status": "submitted",
@@ -4251,9 +4251,9 @@
     "via": null
   },
   "newjerseycourtrecords_us": {
-    "status": "submitted",
-    "changed": "2026-11-16",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-11-25",
+    "via": "reply"
   },
   "newmexicoarrests_org": {
     "status": "submitted",
@@ -4261,9 +4261,9 @@
     "via": null
   },
   "newmexicocourtrecords_us": {
-    "status": "submitted",
-    "changed": "2026-11-16",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-11-25",
+    "via": "reply"
   },
   "newyorkarrests_org": {
     "status": "submitted",
@@ -4271,9 +4271,9 @@
     "via": null
   },
   "newyorkcourtrecords_us": {
-    "status": "submitted",
-    "changed": "2026-11-16",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-11-25",
+    "via": "reply"
   },
   "nexsales": {
     "status": "manual_required",
@@ -4361,9 +4361,9 @@
     "via": null
   },
   "northcarolinacourtrecords_us": {
-    "status": "submitted",
-    "changed": "2026-11-16",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-11-25",
+    "via": "reply"
   },
   "northcarolinapublicrecords_org": {
     "status": "submitted",
@@ -4376,9 +4376,9 @@
     "via": null
   },
   "northdakotacourtrecords_us": {
-    "status": "submitted",
-    "changed": "2026-11-16",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-11-25",
+    "via": "reply"
   },
   "notariescalifornia_com": {
     "status": "not_found",
@@ -4461,9 +4461,9 @@
     "via": null
   },
   "ohiocourtrecords_us": {
-    "status": "submitted",
-    "changed": "2026-11-16",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-11-25",
+    "via": "reply"
   },
   "oklahoma_arrests": {
     "status": "submitted",
@@ -4471,9 +4471,9 @@
     "via": null
   },
   "oklahomacourtrecords_us": {
-    "status": "submitted",
-    "changed": "2026-11-16",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-11-25",
+    "via": "reply"
   },
   "old_friends": {
     "status": "confirmed",
@@ -4596,9 +4596,9 @@
     "via": null
   },
   "oregoncourtrecords_us": {
-    "status": "submitted",
-    "changed": "2026-11-16",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-11-25",
+    "via": "reply"
   },
   "orgio": {
     "status": "covered_by_sibling",
@@ -4716,9 +4716,9 @@
     "via": null
   },
   "pennsylvaniacourtrecords_us": {
-    "status": "submitted",
-    "changed": "2026-11-16",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-11-25",
+    "via": "reply"
   },
   "people_ai": {
     "status": "submitted",
@@ -5476,9 +5476,9 @@
     "via": null
   },
   "rhodeislandcourtrecord_us": {
-    "status": "submitted",
-    "changed": "2026-11-16",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-11-25",
+    "via": "reply"
   },
   "rhodeislandpeoplerecords_org": {
     "status": "submitted",
@@ -5916,9 +5916,9 @@
     "via": null
   },
   "southcarolinacourtrecords_us": {
-    "status": "submitted",
-    "changed": "2026-11-16",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-11-25",
+    "via": "reply"
   },
   "southcarolinapublicrecords_com": {
     "status": "submitted",
@@ -5931,9 +5931,9 @@
     "via": null
   },
   "southdakotacourtrecords_us": {
-    "status": "submitted",
-    "changed": "2026-11-16",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-11-25",
+    "via": "reply"
   },
   "sovrn": {
     "status": "confirmed",
@@ -6221,9 +6221,9 @@
     "via": null
   },
   "tennesseecourtrecords_us": {
-    "status": "submitted",
-    "changed": "2026-11-16",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-11-25",
+    "via": "reply"
   },
   "terminus": {
     "status": "submitted",
@@ -6241,9 +6241,9 @@
     "via": "email"
   },
   "texascourtrecords_us": {
-    "status": "submitted",
-    "changed": "2026-11-16",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-11-25",
+    "via": "reply"
   },
   "texaswarrantroundup_org": {
     "status": "submitted",
@@ -6632,9 +6632,9 @@
     "via": null
   },
   "utahcourtrecords_us": {
-    "status": "submitted",
-    "changed": "2026-11-16",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-11-25",
+    "via": "reply"
   },
   "v12_privacy": {
     "status": "submitted",
@@ -6738,9 +6738,9 @@
     "via": null
   },
   "vermontcourtrecords_us": {
-    "status": "submitted",
-    "changed": "2026-11-16",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-11-25",
+    "via": "reply"
   },
   "versant_media": {
     "status": "manual_required",
@@ -6788,9 +6788,9 @@
     "via": null
   },
   "virginiacourtrecords_us": {
-    "status": "submitted",
-    "changed": "2026-11-16",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-11-25",
+    "via": "reply"
   },
   "visitiq": {
     "status": "replied",
@@ -6848,9 +6848,9 @@
     "via": null
   },
   "washingtoncourtrecords_us": {
-    "status": "submitted",
-    "changed": "2026-11-16",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-11-25",
+    "via": "reply"
   },
   "wealth_x": {
     "status": "submitted",
@@ -6903,9 +6903,9 @@
     "via": null
   },
   "westvirginiacourtrecords_us": {
-    "status": "submitted",
-    "changed": "2026-11-16",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-11-25",
+    "via": "reply"
   },
   "whitepages": {
     "status": "replied",
@@ -6963,9 +6963,9 @@
     "via": null
   },
   "wisconsincourtrecords_us": {
-    "status": "submitted",
-    "changed": "2026-11-16",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-11-25",
+    "via": "reply"
   },
   "wisdom_media_group": {
     "status": "submitted",
@@ -6998,9 +6998,9 @@
     "via": null
   },
   "wyomingcourtrecords_us": {
-    "status": "submitted",
-    "changed": "2026-11-16",
-    "via": null
+    "status": "confirmed",
+    "changed": "2026-11-25",
+    "via": "reply"
   },
   "wyty": {
     "status": "confirmed",

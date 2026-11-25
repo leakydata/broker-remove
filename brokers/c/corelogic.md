@@ -8,8 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-26)
-- Reference: `gmail:1a03fa07206f767c`
+- Current: `confirmed` (updated 2026-11-24)
+- Reference: `gmail:1a078cbc300c5cca`
+- Note: 2026-11-24: Cotality Privacy Team (privacy@corelogic.com, signed "Sean") answered the threshold FCRA question cleanly, after a 46-day silence and a follow-up invoking the CCPA's 45-day deadline. **No data found on either side of the line.** Their property-records databases (county assessor/tax-collector based; they explicitly do not hold rental/tenant data) found no record at the Pennsylvania address supplied. Separately, they asked Credco — Cotality's FCRA-regulated consumer-report business, a reseller of the three nationwide credit bureaus' reports — to search, and Credco also found nothing, so no FCRA file or consumer report exists to disclose under §1681g either. Attached a PDF verification letter titled "No Record Found." This answers both halves of the original threshold question in one reply: there is no non-FCRA marketing/property record AND no FCRA consumer-report file. Treat as a genuine "not found" on a real search, not a deflection — it distinguished the two databases and two corporate entities rather than giving one generic denial.
 - Note: 2026-08-26: CoreLogic replied 'we do not accept privacy [requests by email]' and pointed at their self-serve portal - the _DEFLECTIONS 63 pattern. Note corelogic and corelogic_cotality are the same company under its new name and share privacy@cotality.com; the cotality row is already submitted, so this is one company with two registry rows rather than two requests.
 
 ## Steps

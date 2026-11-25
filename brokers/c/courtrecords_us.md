@@ -8,9 +8,9 @@
 
 ## Status
 
-- Current: `acknowledged` (updated 2026-11-16)
-- Reference: `gmail:1a00c8769c5bb484`
-- Note: 2026-11-16: chase opened Zendesk request 667286 at privacy@courtrecords.us (auto-ack). Covers the 51-site family.
+- Current: `confirmed` (updated 2026-11-24)
+- Note: 2026-11-24: FINAL REPLY from "Louise, Data Protection Specialist" (Zendesk ticket referenced [73Z942-J0DRX], privacy@courtrecords.us). States they previously responded Aug 27 and Sep 1 (neither was received in this inbox — see `_SILENT_FAILURES`-style gap). A search was run against "the full set of identifiers" from the original request — every name variant, all current and former addresses, all phones and emails — and returned **no record associated with the subject, including no people-search profile and no court, criminal, arrest, or traffic entry**, across all 51 state-named properties. Details added to their suppression list and opt-out recorded. Explicitly stated as their **final response**; says they will treat the matter as closed unless told otherwise. Also offered a path for third-party listings: if the subject later finds his name on someone else's record, send the link/screenshot for review. This status and note cover all 51 sibling state-named properties (see each sibling file for a one-line pointer back here) — do not send 51 separate chases to the same mailbox.
+- Earlier: 2026-11-16: chase opened Zendesk request 667286 at privacy@courtrecords.us (auto-ack). Covers the 51-site family.
 - Earlier: 2026-11-16 CHASED: 92 days of total silence since the 16 August consolidated letter -- no acknowledgement of any kind, not even the Zendesk ticket the note below expected. Sent a one-line chase in the same thread asking for confirmation of receipt and which of the 51 named properties held a record, with the fallback clause for state-coverage pushback. This single chase covers all 51 sibling properties in the family (see `shard` note in each sibling file); do not send 51 separate chases to the same mailbox.
 - Earlier: Zendesk ticket opened; reference issued. Same privacy queue serves the whole state-court-records family.
 

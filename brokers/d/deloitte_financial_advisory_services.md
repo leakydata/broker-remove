@@ -7,7 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-11-17)
+- Current: `confirmed` (updated 2026-11-24)
+- Note: 2026-11-24: DSR15268 marked fulfilled. Deloitte (datasubjectrequest@deloitte.com) states it "honored" the opt-out-of-sale request, but on deletion says plainly it was "not able to locate records related to you in our systems based on the information you provided" — a not-found, distinguished from a deletion rather than conflated with one. Also confirmed, on the separate PI-processing question, that personal information "is not being processed within Deloitte systems." Request closed; Deloitte states it will keep a record of the request and disposition as required by law.
 - Note: 2026-11-17: the user submitted the PIRF form. Deloitte confirmed request DSR15268 (opt-out of sale, delete, confirm processing). Stated timelines: 15 business days for the opt-out, 45 calendar days for the rest.
 - Earlier: 2026-11-17: Deloitte PIRF request form filled end to end on the second attempt (typed input; the earlier attempt hit an /error redirect). Request types: delete, confirm whether processing, opt out of sale; relationship 'Other' (no direct relationship, data-broker request first emailed 2026-08-31). Left at the reCAPTCHA, the self-certification box and the terms acceptance for the user.
 - Earlier: 2026-11-15: opened the Deloitte PIRF form (no account, no ID upload). Partway through filling, the site redirected the automated browser to /error ('Something went wrong'), which looks like bot detection. Not retried; it is in the handoff queue for the subject's own browser, with phone 1-844-919-0711 as the alternative.

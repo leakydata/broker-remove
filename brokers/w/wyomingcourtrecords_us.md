@@ -7,7 +7,8 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-11-16)
+- Current: `confirmed` (updated 2026-11-24)
+- Note: 2026-11-24 CONFIRMED as part of the family-wide final reply recorded on `courtrecords_us.md`: full-identifier search (every name variant, all current/former addresses, phones, emails) found no record, across all 51 state properties -- no people-search profile, no court/criminal/arrest/traffic entry. Suppressed and opted out network-wide. See courtrecords_us.md for the reply text. Not a separate confirmation for this id specifically.
 - Reference: `gmail:1a00c8769c5bb484`
 - Note: 2026-11-16 CHASED as part of the family-wide chase sent on `courtrecords_us.md` (92 days of total silence, no acknowledgement ever). One chase to privacy@courtrecords.us covers all 51 state properties; see courtrecords_us.md for the chase text and _FAMILIES.md for the family. Do not send a separate chase for this id.
 - Note: Covered by ONE consolidated letter naming all 51 courtrecords.us state properties explicitly, with full identifier set (8 emails, 10 addresses, 9 phones). Asked which properties held a record.

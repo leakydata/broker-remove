@@ -8,9 +8,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-17)
-- Reference: `gmail:1a010431309bbe89`
-- Note: Statutory deletion + opt-out emailed from [EMAIL]. Full identifier set: 8 emails, 10 prior addresses, 9 phones, DOB, aliases. Asks them to search hashed email forms and prior identifiers, and pre-empts the residency deflection. CTV/ACR variant: covers television viewing history, automatic content recognition data, household device graphs, and ad exposure events - a data category most people do not know exists about them. Asked which TV manufacturer or platform supplied it.
+- Current: `manual_required` (updated 2026-11-24)
+- Note: 2026-11-24: A named staffer at Alphonso (replying from a personal @lgads.tv address into the privacy@alphonso.tv thread) explained their actual data model after a chase: **their TV-based (ACR) collection does not collect names, phone numbers, postal addresses or email addresses at all** -- the only "personal information" they hold is an IP address and device identifiers. Consequence: none of the identifiers in a standard statutory letter give them anything to search against, so "we found nothing" from this address would not be a meaningful result. The only real verification route is their consumer privacy form at https://alphonso.tv/privacy/consumer/, which works by capturing the submitter's live IP address at submission time and comparing it against whatever IP-keyed record they hold. **This cannot be done from email or by an agent** -- it requires the subject's own browser, on his own network, so his real IP is the one captured. Queued for a human to open that page and submit the form themselves; no further email route exists here.
+- Earlier (2026-08-17): Statutory deletion + opt-out emailed from [EMAIL]. Full identifier set: 8 emails, 10 prior addresses, 9 phones, DOB, aliases. Asks them to search hashed email forms and prior identifiers, and pre-empts the residency deflection. CTV/ACR variant: covers television viewing history, automatic content recognition data, household device graphs, and ad exposure events - a data category most people do not know exists about them. Asked which TV manufacturer or platform supplied it.
 
 ## Steps
 
@@ -25,13 +25,14 @@
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+**Their index is IP/device-keyed, not identity-keyed.** A name/address/email/phone
+statutory letter — the standard shape this project uses everywhere else — gives
+Alphonso literally nothing to search on, by their own account. Asking them to
+search those identifiers produces a technically-truthful "no match" that means
+nothing. The only key that works is the submitter's own IP address, captured live
+by their web form at https://alphonso.tv/privacy/consumer/ — which makes this one
+of the rare brokers where the email route is strictly worse than the form, not an
+equally-valid alternative to it.
 
 ## Verification
 
