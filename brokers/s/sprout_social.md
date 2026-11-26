@@ -7,8 +7,16 @@
 
 ## Status
 
-- Current: `replied` (updated 2026-11-18)
-- Note: 2026-11-18 Sprout Support (ticket 1520400) acknowledged the Listening/archive question and is coordinating with the privacy team; awaiting their written answer.
+- Current: `replied` (updated 2026-11-26)
+- Note: 2026-11-26 Sprout Support (ticket 1520400) confirmed again no account
+  data held, but on the Listening/archive question deflected to "you may need
+  to connect with the Social Network directly, since we only share publicly
+  available data as long as these social networks allow" -- that answers
+  about the originating platform's copy, not Sprout's own. Replied pointing
+  out the gap and asking for a one-line yes/no on whether SPROUT ITSELF holds
+  anything tied to the name in Listening/archive/inbox systems. Not yet
+  answered.
+- Earlier: 2026-11-18 Sprout Support (ticket 1520400) acknowledged the Listening/archive question and is coordinating with the privacy team; awaiting their written answer.
 - Earlier: 2026-11-18 02:27Z: Sprout Support (ticket 1520400) found no Sprout account and no information on file under the email addresses given. That covers account data only, so replied (DPO cc'd) asking the privacy team to confirm in writing whether any Listening, archive or inbox data tied to the name is held, and to delete it if so.
 - Earlier: 2026-11-16 Sprout Support (ticket 1520400) could not find the August email and asked for Sprout account details. Replied (DPO cc'd): no Sprout account exists; the request went to dpo@ on 08-31 and is the first message in the thread; asked for the ticket to go to the privacy/legal team for a written holds/deleted answer.
 - Earlier: 2026-11-16 20:56 UTC: the chase opened Sprout Support ticket #1520400 (Zendesk auto-acknowledgement); awaiting a human reply.

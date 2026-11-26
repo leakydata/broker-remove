@@ -7,8 +7,24 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-11-16)
-- Note: 2026-11-16 CHASED in-thread: over 80 days with no reply to the August request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
+- Current: `confirmed` (updated 2026-11-25)
+- Reference: `GC-PRIV-20260827-02`
+- Note: 2026-11-25 reply, itemised by email address: "Status: Record deleted" —
+  they searched the **hashed form** of each of the 12 email addresses supplied
+  and deleted the matching personal data, with 6 of the 12 explicitly stated as
+  "no personal data found". Added all identifiers to a suppression list
+  ("excluded from any future sale, sharing, targeted advertising or profiling,
+  and will not be re-added from future data loads"). Named the third-party
+  categories disclosed to: "publisher clients; demand-side partners; Universal
+  ID partner networks; service providers". Stated plainly they do not store
+  name, postal address, phone or DOB at all — "those details have nothing to
+  match against" — so the identity-resolution questions about those fields
+  were moot, not refused. Pushed back once on jurisdiction ("the location
+  provided, [TOWN], PA, does not indicate residence in [California]") but
+  processed the request anyway as a good-faith deletion/opt-out without
+  conceding CCPA applies — a company volunteering the fallback-clause outcome
+  without being asked twice.
+- Earlier: 2026-11-16 CHASED in-thread: over 80 days with no reply to the August request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
 - Earlier: Sent the IDENTITY-RESOLUTION variant rather than the generic letter: asks explicitly about hashed email forms (MD5/SHA-1/SHA-256) held as match keys, cookie/MAID/CTV identifiers, THE EDGES between those identifiers and name/address/phone, and household-level association derived from IP. The edges are the point -- in a resolution business the graph is the product, and deleting endpoint rows while keeping the linkage means the record reassembles on the next match. Also asked for do-not-sell, do-not-rent, do-not-append and do-not-re-onboard as standing entries, and for the supplier the record came from.
 
 ## Steps
@@ -31,7 +47,11 @@
 
 ## Verification
 
-<!-- How to check it worked: the search URL to re-run, and their stated timeframe. -->
+Closed with an itemised, broker-issued confirmation (ref `GC-PRIV-20260827-02`)
+naming which identifiers matched and which did not, plus the suppression and
+third-party-category statements quoted above. Nothing public to re-check;
+if a record resurfaces, re-send to privacy@growthcode.io referencing the
+reference number.
 
 ## Who they are, and how to reach them
 

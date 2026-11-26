@@ -7,8 +7,20 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-08-28)
-- Note: Register-sourced, and the SECOND placeholder-name row: it sat under the name 'N/A'. It is CRISIL Irevna US LLC, operating greenwich.com. Their register free-text is the clearest source disclosure I have seen from any registrant: 'Crisil licenses demographic information on US businesses, including names and contact information of BUSINESS OWNERS, from DUN & BRADSTREET. Dun & Bradstreet is a registered data broker. Crisil appends additional, non-PII information about business opportunities... and makes this dataset (including the demographic information) available to our customers.' Told them most registrants leave that box empty. THE MOST USEFUL ASK, MADE POSSIBLE ONLY BECAUSE THEY NAMED THE SOURCE: if they hold a record about me, give me the D&B IDENTIFIER IT CAME IN UNDER -- the D-U-N-S number or whatever key their licence delivers. Rationale: their deletion cannot reach their source, so the record is still in the D&B file, still licensed, and returns on the next refresh while also being licensed to everyone else. Suppressing at CRISIL is worth doing; suppressing at D&B is what ends it, and that requires knowing WHICH RECORD TO POINT AT. 'Our licence terms prevent us passing it on' offered as a real answer I would take to D&B directly instead. B2B EXEMPTION EXPIRED 1 JAN 2023 raised pre-emptively -- a business owner's name and contact information is very often a person's own name at their HOME address and personal phone, categorised as business data because of where it was collected; the category does not change what the record is about. ON 'NON-PII' APPENDS: taken in good faith about the fields in isolation, then limited -- the operative question is whether the append is LINKED TO THE NAMED INDIVIDUAL IN THE SAME ROW, because 1798.140(v)(1) covers information reasonably capable of being associated with a consumer AND NAMES INFERENCES EXPLICITLY. Company-level-only would settle it. Wrong-key argument and derived-address wedge included, since a business-demographics file is keyed to work identifiers and a business address, not personal webmail. Their filing notes they received NO CCPA requests at all in 2023, so this may be their first -- said so and tried to make it easy to act on.
+- Current: `not_found` (updated 2026-11-26)
+- Note: 2026-11-26 final reply: "we looked into our database/applications and
+  have not found any information/records that could identify you/matched with
+  the personal contact information provided by you. We mark this request as
+  completed now." Took over three months end to end: an identity-verification
+  gate on 2026-09-14 (declined the ID-upload/employee-ID/customer-proof
+  options, supplied the same identifiers already in the original letter
+  instead — see Gotchas), an in-process acknowledgement on 2026-09-15, then
+  silence until a 2026-11-16 chase, answered ten days later with the nil. The
+  reply does not address the D&B-source-identifier or non-PII-append questions
+  from the original letter — moot if truly no record exists, but worth noting
+  this is a company-level "nothing matched," not a line-by-line answer to
+  every question asked.
+- Earlier: Register-sourced, and the SECOND placeholder-name row: it sat under the name 'N/A'. It is CRISIL Irevna US LLC, operating greenwich.com. Their register free-text is the clearest source disclosure I have seen from any registrant: 'Crisil licenses demographic information on US businesses, including names and contact information of BUSINESS OWNERS, from DUN & BRADSTREET. Dun & Bradstreet is a registered data broker. Crisil appends additional, non-PII information about business opportunities... and makes this dataset (including the demographic information) available to our customers.' Told them most registrants leave that box empty. THE MOST USEFUL ASK, MADE POSSIBLE ONLY BECAUSE THEY NAMED THE SOURCE: if they hold a record about me, give me the D&B IDENTIFIER IT CAME IN UNDER -- the D-U-N-S number or whatever key their licence delivers. Rationale: their deletion cannot reach their source, so the record is still in the D&B file, still licensed, and returns on the next refresh while also being licensed to everyone else. Suppressing at CRISIL is worth doing; suppressing at D&B is what ends it, and that requires knowing WHICH RECORD TO POINT AT. 'Our licence terms prevent us passing it on' offered as a real answer I would take to D&B directly instead. B2B EXEMPTION EXPIRED 1 JAN 2023 raised pre-emptively -- a business owner's name and contact information is very often a person's own name at their HOME address and personal phone, categorised as business data because of where it was collected; the category does not change what the record is about. ON 'NON-PII' APPENDS: taken in good faith about the fields in isolation, then limited -- the operative question is whether the append is LINKED TO THE NAMED INDIVIDUAL IN THE SAME ROW, because 1798.140(v)(1) covers information reasonably capable of being associated with a consumer AND NAMES INFERENCES EXPLICITLY. Company-level-only would settle it. Wrong-key argument and derived-address wedge included, since a business-demographics file is keyed to work identifiers and a business address, not personal webmail. Their filing notes they received NO CCPA requests at all in 2023, so this may be their first -- said so and tried to make it easy to act on.
 
 ## Steps
 
@@ -18,9 +30,25 @@
 
 **Recovered from the Sent folder, not the tracker.** This letter went out before this project's shared ledger (`removal_ledger.json`) picked it up, so it briefly looked pending when it wasn't. Always check `in:sent` for a broker's domain before adding it to a batch — the ledger is a floor, not a complete record.
 
+**Identity-verification gate before any search.** Their first reply asked the
+requester to prove a relationship (customer/website-visitor email history,
+employee ID, or "Proof of Identity such as Passport, ID card or photo-card,
+driving license"). None of those apply to someone who has never interacted
+with CRISIL — declining the ID document and simply re-sending the identifiers
+already in the original letter (name, address, phone, two emails, DOB) was
+accepted without further pushback, and the request proceeded. Worth citing to
+other brokers that gate identity verification behind a government ID for a
+request this limited in scope.
+
+**Slow but genuine.** 3+ months from first letter to final answer, with two
+intermediate "still checking" messages and one chase needed to get the last
+one unstuck. Not a dead end, just a slow desk — worth a chase at the 45-day
+mark rather than assuming abandonment.
+
 ## Verification
 
-No confirmation yet. Nothing public to re-search.
+Closed with a company-level nil. Nothing public to re-search; if this
+resurfaces, re-send to privacy1@crisil.com referencing this thread.
 
 ## Who they are, and how to reach them
 
