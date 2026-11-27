@@ -8,8 +8,18 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-11-16)
+- Current: `confirmed` (updated 2026-11-27)
 - Reference: `gmail:1a078cbc300c5cca`
+- Note: 2026-11-27: Both portal requests referenced below (9e7b8096 and 24ed5bc5)
+  are the same two requests the Cotality Privacy Team's 2026-11-24 "No Record
+  Found" reply answers -- see `brokers/c/corelogic.md`, which carries the full
+  reply and the attached verification letter. `noreply@m.ketch.com` sent two
+  templated "Data request update" emails on 2026-11-22 (portal status-change
+  notifications with an unresolved `{{request_id}}` merge field and a
+  15-minute-expiry portal link) that arrived ahead of the substantive reply
+  and needed no separate action once it landed. corelogic and corelogic_cotality
+  are one company under two registry rows; closing this one as covered by the
+  sibling rather than duplicating the confirmed note.
 - Update (2026-10-22): 46 days of silence since the 6 September letter, and
   no reply at all to the earlier 23 August letter either. Sent a chase in
   the existing thread citing the Cal. Civ. Code 1798.130 45-day deadline and
