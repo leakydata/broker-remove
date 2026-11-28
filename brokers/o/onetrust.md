@@ -7,8 +7,19 @@
 
 ## Status
 
-- Current: `submitted`
-- Note: Recorded 2026-11-16: dpo@onetrust.com replied 09-01 (never recorded): will search for each email address as controller, confirmations go to each address; customer-portal request data is held as processor, retention set by each customer. No outcome since. 2026-11-16 CHASED in-thread for the search result and deletion.
+- Current: `replied` (updated 2026-11-28)
+- Note: 2026-11-28 reply: "We did not find any personal information
+  associated with the email address you provided. As no matching personal
+  information was found, there was nothing to delete or suppress." Singular
+  "the email address" against a request that listed four — replied asking
+  them to confirm all four were searched, not just one, and re-raised the
+  still-unanswered second question from the 1 September reply (below):
+  whether OneTrust holds anything as *processor* because a request made to
+  one of their customers passed through OneTrust's systems, and what the
+  retention period is for that. That was explicitly not a deletion request
+  and is independent of today's controller-held "not found." Not closing
+  either sub-question until both are answered in writing.
+- Earlier: Recorded 2026-11-16: dpo@onetrust.com replied 09-01 (never recorded): will search for each email address as controller, confirmations go to each address; customer-portal request data is held as processor, retention set by each customer. No outcome since. 2026-11-16 CHASED in-thread for the search result and deletion.
 - Earlier: CORRECTION SENT 2026-08-31 (SF 214). My first letter opened 'OneTrust appears on the California data broker register'. THAT WAS WRONG. The row carries no registry_years for any state; source is 'optery', i.e. a third-party commercial directory of data brokers, not a government filing. I did not check the field before writing, because the conclusion was pleasing. Correction says in terms that I have no evidence they are a registered data broker, that I should not have said so, that the letter built its framing on 1798.99.80(c) with no basis to invoke it, and that if there is no registration the question is void. Surviving asks, both independent of the registration: (1) ordinary consumer request as to controller-held data; (2) whether they hold data about me ONLY because my requests to their customers passed through their systems, and the retention period -- explicitly not a deletion request.
 
 ## Steps

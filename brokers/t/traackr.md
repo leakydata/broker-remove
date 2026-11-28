@@ -7,23 +7,40 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-11-16)
-- Note: 2026-11-16 CHASED in-thread: over 80 days with no reply to the August request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
+- Current: `manual_required` (updated 2026-11-28)
+- Note: 2026-11-28: a canned reply surfaced in this mailbox states plainly
+  that `legal@traackr.com` "is not an approved method for submitting data
+  privacy requests, including requests to access, correct or delete personal
+  data, or to opt out of the sale or sharing of personal data. Requests sent
+  to this address cannot be processed," and directs requesters to the
+  published privacy policy / influencer privacy notice instead (web forms —
+  see URLs below). This reply was actually triggered by an unrelated
+  third-party agent's submission that got cross-delivered into this mailbox
+  (a different data subject entirely), not by our own August/November
+  letters — but the auto-response text is generic and applies equally to any
+  email sent to `legal@traackr.com`, including ours. Since this project has
+  no browser, the web-form route is a handoff item, not something to resend
+  by email.
+- Earlier: 2026-11-16 CHASED in-thread: over 80 days with no reply to the August request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
 - Earlier: Recovered from the committed playbook brokers/t/traackr.md, because the ledger carries no notes and this row's status had no evidence behind it: Sent the MEDIA CONTACT / PR DATABASE variant (`_CATEGORY_VARIANTS.md`): Traackr assembles influencer/creator profiles from bylines, public profiles and social accounts, no account or relationship required. Asked for the contact record plus derived attributes (reach/influence scores, topic/beat classification) and platform-level do-not-contact suppression.
 
 ## Steps
 
-1. Email legal@traackr.com with delete/opt-out/suppress plus derived-attribute and do-not-contact asks.
+1. `legal@traackr.com` rejects privacy requests outright (see Gotchas) — use
+   the web form at one of the two privacy-notice URLs below instead:
+   https://www.traackr.com/privacy-policy or, for an influencer/creator
+   record, https://www.traackr.com/infl-privacy-notice. No browser here, so
+   this is a handoff item.
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+- **`legal@traackr.com` does not accept privacy requests at all**, by their
+  own written policy — not a deflection worth arguing with, a stated
+  company policy. The reply names two alternate routes, both web forms:
+  the general privacy policy page and, if the record concerns an influencer
+  or content creator specifically, a separate influencer privacy notice.
+  Authorized agents are told to expect the same routing and may be asked for
+  proof of authorization.
 
 ## Verification
 

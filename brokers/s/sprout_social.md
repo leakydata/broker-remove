@@ -7,8 +7,20 @@
 
 ## Status
 
-- Current: `replied` (updated 2026-11-26)
-- Note: 2026-11-26 Sprout Support (ticket 1520400) confirmed again no account
+- Current: `replied` (updated 2026-11-28)
+- Note: 2026-11-28 Abigail (Sprout Support manager, ticket 1520400) offered to
+  escalate to the Privacy Team but asked for "one or two social media handles"
+  first. Replied declining to supply a handle and explaining why one isn't the
+  right key: a listening/monitoring tool is built to surface mentions *of* a
+  person by *other* accounts, not just content from the subject's own handle
+  — so scoping the search to "which handles are his" would miss exactly the
+  category of record this request is about. Asked instead for a search on the
+  name "Nathan Jones" and the four email addresses across Listening/archive/
+  inbox systems, regardless of whose handle posted the content. Also offered
+  the honest alternative answer in advance: if Sprout's Listening product only
+  ever searches by client-configured keyword/boolean query and has no
+  subject-name lookup at all, that is a complete answer too. Awaiting reply.
+- Earlier: 2026-11-26 Sprout Support (ticket 1520400) confirmed again no account
   data held, but on the Listening/archive question deflected to "you may need
   to connect with the Social Network directly, since we only share publicly
   available data as long as these social networks allow" -- that answers
@@ -29,13 +41,11 @@
 
 ## Gotchas
 
-<!-- Fill in from their reply. Recurring things worth capturing:
-     - Do they refuse email and point at a form? Which form?
-     - Is a CAPTCHA on page load (blocks automation) or at submit (can hand off)?
-     - Does the form silently drop values not committed with an Add/+ button?
-     - Do they gate on state of residence? Does their own form contradict that?
-     - What does the removal NOT cover — name search only? FCRA-exempt products?
-     - Any upsell to a paid removal service? -->
+- **Support will ask for a handle before escalating to Privacy.** That's the
+  wrong key for a Listening/mentions complaint — the point of social
+  listening is capturing what *other* accounts say about someone, not what
+  the subject's own account posts. Don't supply a handle you don't have;
+  explain why the name/email search is the right scope instead.
 
 ## Verification
 

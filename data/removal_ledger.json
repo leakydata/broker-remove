@@ -4511,8 +4511,8 @@
     "via": "email"
   },
   "onetrust": {
-    "status": "acknowledged",
-    "changed": "2026-11-16",
+    "status": "replied",
+    "changed": "2026-11-28",
     "via": "reply"
   },
   "online_advertising_network_sp_z_o_o": {
@@ -5982,7 +5982,7 @@
   },
   "sprout_social": {
     "status": "replied",
-    "changed": "2026-11-26",
+    "changed": "2026-11-28",
     "via": "reply"
   },
   "sprouts_ai": {
@@ -6152,8 +6152,8 @@
   },
   "taboola": {
     "status": "submitted",
-    "changed": "2026-11-16",
-    "via": "email"
+    "changed": "2026-11-28",
+    "via": "reply"
   },
   "tagx": {
     "status": "submitted",
@@ -6397,9 +6397,9 @@
     "via": "web"
   },
   "traackr": {
-    "status": "submitted",
-    "changed": "2026-11-16",
-    "via": "email"
+    "status": "manual_required",
+    "changed": "2026-11-28",
+    "via": "reply"
   },
   "tracers_com_enformiongo": {
     "status": "submitted",

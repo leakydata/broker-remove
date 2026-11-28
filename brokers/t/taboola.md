@@ -7,8 +7,9 @@
 
 ## Status
 
-- Current: `submitted` (updated 2026-11-16)
-- Note: 2026-11-16 CHASED in-thread: over 80 days with no reply to the August request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
+- Current: `submitted` (updated 2026-11-28)
+- Note: 2026-11-28 reply: Taboola says new DSRs now go to `dsr@taboola.com` (not `privacy@`), and states plainly that their platform "primarily operates using pseudonymous online identifiers" — cookies, MAIDs, device-level IDs — so they are "generally unable to locate or process advertising-related requests using only a name, phone number, or email address." They point to a self-serve DSAR portal (`https://accessrequest.taboola.com/access`) that works from the device/browser carrying the advertising identifier, and say they'll act "where appropriate" if a MAID has already been provided. Replied to `dsr@taboola.com`: explained we deliberately have no MAID to hand over (supplying a freshly-generated one would be new data, not a search key), reiterated the four email addresses for a plaintext+hashed search, and asked them to say in writing if their architecture truly can't match without an ad ID — that would be a complete, useful answer. Awaiting that.
+- Earlier: 2026-11-16 CHASED in-thread: over 80 days with no reply to the August request; asked one line, did it arrive, and if this mailbox is wrong, which address or form handles privacy requests.
 - Earlier: 2026-08-30 sent under the email-only key policy (SILENT_FAILURES 195/196a). Category adtech from the site classifier, so date of birth, postal addresses and phone numbers were WITHHELD with a paragraph explaining why: for a cookie/device/CTV/bid-stream-keyed platform those cannot match anything and would only be new personal data arriving at a company that did not hold it. Sent name + twelve emails, asked for plaintext AND MD5/SHA-1/SHA-256 search with the hashes deliberately not computed. Kept the derived-address ask (a first.last@employer pattern constructed from name and employment history is a record about me even though I have never owned it, and they can generate it from the same public profile it was built from), the forward-looking vs exclude-only distinction on the LinkedIn URL, and the two confirmation asks. Cap reworded for this mode: IF they hold an address or number, suppress the association not the bare value, and if they can only exclude bare values, leave the former ones alone.
 
 ## Steps
@@ -47,6 +48,14 @@ name in any formal demand; it is frequently not the brand on the website.*
 - **Website:** www.taboola.com
 
 *Source: `data/registries/registry.csv`.*
+
+## New DSRs go to a different mailbox than the registry lists
+
+As of late November 2026, Taboola answers from `privacy@taboola.com` but asks
+that *new* requests go to `dsr@taboola.com` instead — a dedicated DSR intake
+mailbox not yet reflected in any state registry filing. Worth checking when
+chasing other adtech platforms: a registry-listed address can still be live
+and monitored while the company has quietly moved the actual intake elsewhere.
 
 ## If they ignore you
 
